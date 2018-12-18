@@ -9,8 +9,6 @@ ms.assetid: 0b440d5a-05f0-4499-8398-2a8563f0f935
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning3, IMSVidClosedCaptioning3 interface [Microsoft TV Technologies], IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning3Interface, mstv.imsvidclosedcaptioning3, segment/IMSVidClosedCaptioning3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -61,7 +59,7 @@ The <b>IMSVidClosedCaptioning3</b> interface retrieves the teletext filter. The 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning3</b> interface inherits from <a href="https://msdn.microsoft.com/37fe213a-7778-4448-937d-30ad1015d56c">IMSVidClosedCaptioning2</a>. <b>IMSVidClosedCaptioning3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694467(v=VS.85).aspx">IMSVidClosedCaptioning2</a>. <b>IMSVidClosedCaptioning3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +74,7 @@ The <b>IMSVidClosedCaptioning3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95376533-e684-4a8e-ac60-6c52bf0f82ae">get_TeleTextFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694471(v=VS.85).aspx">get_TeleTextFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the filter that handles teletext.
@@ -100,7 +98,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/37fe213a-7778-4448-937d-30ad1015d56c">IMSVidClosedCaptioning2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694467(v=VS.85).aspx">IMSVidClosedCaptioning2</a>
 
 
 

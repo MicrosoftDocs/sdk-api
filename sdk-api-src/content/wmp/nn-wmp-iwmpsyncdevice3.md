@@ -9,8 +9,6 @@ ms.assetid: 4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice3, IWMPSyncDevice3 interface [Windows Media Player], IWMPSyncDevice3 interface [Windows Media Player],described, wmp.iwmpsyncdevice3, wmp/IWMPSyncDevice3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -57,7 +55,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/b47fc5ea-741d-4e47-baad-afeb659f1079">IWMPSyncDevice2</a>. <b>IWMPSyncDevice3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2</a>. <b>IWMPSyncDevice3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +70,16 @@ The <b>IWMPSyncDevice3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82e87e44-0a38-43c0-bbed-011581ae8a85">cancelEstimation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563714(v=VS.85).aspx">cancelEstimation</a>
 </td>
 <td align="left" width="63%">
-Cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/49b07233-df9d-4fd0-836e-62b992408018">estimateSyncSize</a>.
+Cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49b07233-df9d-4fd0-836e-62b992408018">estimateSyncSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>
 </td>
 <td align="left" width="63%">
 Initiates the estimation of the size required on the device to synchronize a specified playlist.
@@ -96,7 +94,7 @@ Initiates the estimation of the size required on the device to synchronize a spe
 
 
 
-<a href="https://msdn.microsoft.com/b47fc5ea-741d-4e47-baad-afeb659f1079">IWMPSyncDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2</a>
 
 
 

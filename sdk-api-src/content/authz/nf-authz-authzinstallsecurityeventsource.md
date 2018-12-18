@@ -9,8 +9,6 @@ ms.assetid: 77cb5c6c-1634-4449-8d05-ce6357ad4e4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

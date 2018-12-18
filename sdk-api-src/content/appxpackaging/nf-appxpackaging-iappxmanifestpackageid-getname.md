@@ -9,8 +9,6 @@ ms.assetid: F59FDC61-BA78-4204-AAD3-C34B7F1EB37B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetName method, IAppxManifestPackageId.GetName, IAppxManifestPackageId::GetName, appxpackaging/IAppxManifestPackageId::GetName, appxpkg.iappxmanifestpackageid_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

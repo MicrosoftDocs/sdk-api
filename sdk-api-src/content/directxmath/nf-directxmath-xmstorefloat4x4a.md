@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x4A(XMFLOAT4X4A@,XMMATR
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat4x4A, XMStoreFloat4x4A, XMStoreFloat4x4A method [DirectX Math Support APIs], dxmath.xmstorefloat4x4a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/30563f47-6990-4d94-a587-5c64a389762f">XMFLOAT4X4A</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419623(v=VS.85).aspx">XMFLOAT4X4A</a>.
 
 
 ## -parameters
@@ -82,8 +80,8 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/30563f47-6990-4d94-a587-5c64a389762f">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
-   via <a href="https://msdn.microsoft.com/6267c6c3-1fda-44b1-8809-f0ad8988a49f">XMMatrixTranpose</a> before calling the store function.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419623(v=VS.85).aspx">XMFLOAT4X4A</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be transposed 
+   via <a href="https://msdn.microsoft.com/en-us/library/Ee420022(v=VS.85).aspx">XMMatrixTranpose</a> before calling the store function.
 
 The following pseudocode demonstrates the operation of the function.
 

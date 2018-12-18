@@ -9,8 +9,6 @@ ms.assetid: 49a6d33d-7454-44be-b8ca-602b247d4eab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],Commit method, IDCompositionDevice.Commit, IDCompositionDevice::Commit, dcomp/IDCompositionDevice::Commit, directcomp.idcompositiondevice_commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -93,7 +91,7 @@ For an example, see <a href="https://msdn.microsoft.com/86006C3C-67A8-4931-BE76-
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
  
 
  

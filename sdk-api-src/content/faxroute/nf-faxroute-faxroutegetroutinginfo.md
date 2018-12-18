@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxrouteextapiref_3t2n.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxRouteGetRoutingInfo, FaxRouteGetRoutingInfo function [Fax Service], _mfax_faxroutegetroutinginfo, fax._mfax_faxroutegetroutinginfo, faxroute/FaxRouteGetRoutingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 

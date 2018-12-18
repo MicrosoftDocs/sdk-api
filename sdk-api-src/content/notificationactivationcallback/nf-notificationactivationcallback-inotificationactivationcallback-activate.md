@@ -9,8 +9,6 @@ ms.assetid: C366FE9F-D962-485F-B029-A96AA3358942
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: notificationactivationcallback.h
 req.include-header: 

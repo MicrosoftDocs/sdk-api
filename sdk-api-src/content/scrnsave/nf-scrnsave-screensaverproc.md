@@ -9,8 +9,6 @@ ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scrnsave.h
 req.include-header: 

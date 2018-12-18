@@ -9,8 +9,6 @@ ms.assetid: 4e6c8181-3ff9-4ce1-aad5-9d7821771f69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamTime, GetStreamTime method [Windows Media Player], GetStreamTime method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamTime method, IWMPServices.GetStreamTime, IWMPServices::GetStreamTime, IWMPServicesGetStreamTimeDSP, wmp.iwmpservices_getstreamtime, wmpservices/IWMPServices::GetStreamTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -91,7 +89,7 @@ The values provided in the <b>rtTimestamp</b> member of <b>IMediaObject::Process
 
 
 
-<a href="https://msdn.microsoft.com/26d68b4b-4eeb-42e2-a1d1-0d0e73725059">IWMPServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563642(v=VS.85).aspx">IWMPServices Interface</a>
  
 
  

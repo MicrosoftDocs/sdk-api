@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClassName, GetClassName function [Windows and Messages], GetClassNameA, GetClassNameW, _win32_GetClassName, _win32_getclassname_cpp, winmsg.getclassname, winui._win32_getclassname, winuser/GetClassName, winuser/GetClassNameA, winuser/GetClassNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

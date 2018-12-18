@@ -9,8 +9,6 @@ ms.assetid: 90521B97-2651-46C9-8292-925F53F88CE7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingDescription, TraceLoggingDescription macro, tracelogging.traceloggingdescription, traceloggingprovider/TraceLoggingDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ec716ad8-bdc2-4f61-968e-f86288123cec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontData, GetFontData function [Windows GDI], _win32_GetFontData, gdi.getfontdata, wingdi/GetFontData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

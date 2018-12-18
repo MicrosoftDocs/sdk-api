@@ -9,8 +9,6 @@ ms.assetid: 605f5a66-aa06-4d4e-998e-1a3f7d1c7be6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputNumberForStream, GetOutputNumberForStream method [windows Media Format], GetOutputNumberForStream method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputNumberForStream method, IWMSyncReader.GetOutputNumberForStream, IWMSyncReader::GetOutputNumberForStream, IWMSyncReaderGetOutputNumberForStream, wmformat.iwmsyncreader_getoutputnumberforstream, wmsdkidl/IWMSyncReader::GetOutputNumberForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,7 +125,7 @@ More than one stream can be encompassed by an output, as in the case of multiple
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
  
 
  

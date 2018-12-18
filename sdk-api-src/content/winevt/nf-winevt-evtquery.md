@@ -9,8 +9,6 @@ ms.assetid: 06b67ec4-74ab-47d7-b7b9-1180e7dee725
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtQuery, EvtQuery function [EventLog], wes.evtquery, winevt/EvtQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

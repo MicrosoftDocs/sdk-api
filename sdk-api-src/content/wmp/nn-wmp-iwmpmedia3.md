@@ -9,8 +9,6 @@ ms.assetid: 664a3148-3c78-41b0-85ba-9c2b3ac821d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia3, IWMPMedia3 interface [Windows Media Player], IWMPMedia3 interface [Windows Media Player],described, IWMPMedia3Interface, wmp.iwmpmedia3, wmp/IWMPMedia3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>IWMPMedia3</b> interface provides methods that supplement the <b>IWMPMedi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inherits from <a href="https://msdn.microsoft.com/e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMedia3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563398(v=VS.85).aspx">IWMPMedia2</a>. <b>IWMPMedia3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMPMedia3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86f5e67a-408f-4b93-b89a-12f42fd31966">getAttributeCountByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563402(v=VS.85).aspx">getAttributeCountByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes associated with the specified attribute type.
@@ -82,7 +80,7 @@ Retrieves the number of attributes associated with the specified attribute type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a77029b-fbae-49af-bd91-c688c11b3b16">getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563403(v=VS.85).aspx">getItemInfoByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the attribute corresponding to the specified attribute type and index.
@@ -97,7 +95,7 @@ Retrieves the value of the attribute corresponding to the specified attribute ty
 
 
 
-<a href="https://msdn.microsoft.com/e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21">IWMPMedia2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563398(v=VS.85).aspx">IWMPMedia2 Interface</a>
 
 
 

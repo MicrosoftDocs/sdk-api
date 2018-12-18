@@ -9,8 +9,6 @@ ms.assetid: 4a4bb128-9480-4e50-8848-a2e1e715f4e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePackageFromStream, CreatePackageFromStream method [XPS Documents and Packaging], CreatePackageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromStream method, IXpsOMObjectFactory.CreatePackageFromStream, IXpsOMObjectFactory::CreatePackageFromStream, TRUE, xps.ixpsomobjectfactory_createpackagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

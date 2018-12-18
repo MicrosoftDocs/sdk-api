@@ -9,8 +9,6 @@ ms.assetid: b72e9c49-4d5a-432a-b21b-ec444912ea61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

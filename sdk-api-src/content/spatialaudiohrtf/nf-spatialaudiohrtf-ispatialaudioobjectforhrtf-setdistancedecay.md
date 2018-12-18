@@ -9,8 +9,6 @@ ms.assetid: 62C95E6A-C27E-4C17-91E1-D6D80172F15B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDistanceDecay method, ISpatialAudioObjectForHrtf.SetDistanceDecay, ISpatialAudioObjectForHrtf::SetDistanceDecay, SetDistanceDecay, SetDistanceDecay method [Core Audio], SetDistanceDecay method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdistancedecay, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDistanceDecay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

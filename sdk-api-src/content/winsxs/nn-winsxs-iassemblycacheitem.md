@@ -9,8 +9,6 @@ ms.assetid: 9df9ee58-0354-49f0-af9c-5b92179cfaea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssemblyCacheItem, IAssemblyCacheItem interface [Side-by-side Assemblies], IAssemblyCacheItem interface [Side-by-side Assemblies],described, setup.iassemblycacheitem, winsxs/IAssemblyCacheItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsxs.h
 req.include-header: 

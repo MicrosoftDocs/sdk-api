@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555::XMU555, dxmath.xmu555_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMU555</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -83,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9
 
 
 
-<a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
 
 
 
-<a href="https://msdn.microsoft.com/afde874c-b4e2-4edb-92bf-895224793e91">XMU555 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415437(v=VS.85).aspx">XMU555 Constructors</a>
  
 
  

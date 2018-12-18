@@ -9,8 +9,6 @@ ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LINEDIGITMODE_DTMF, LINEDIGITMODE_PULSE, TSPI_lineGatherDigits, TSPI_lineGatherDigits function [TAPI 2.2], _tspi_tspi_linegatherdigits, tspi.tspi_linegatherdigits, tspi/TSPI_lineGatherDigits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

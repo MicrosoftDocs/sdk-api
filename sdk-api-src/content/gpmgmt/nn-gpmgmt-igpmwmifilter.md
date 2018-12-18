@@ -9,8 +9,6 @@ ms.assetid: 801428f1-9ce5-4348-acab-23cc9ea8cac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC],described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsAdminNotifyHandler interface [Active Directory],Notify method, IDsAdminNotifyHandler.Notify, IDsAdminNotifyHandler::Notify, Notify, Notify method [Active Directory], Notify method [Active Directory],IDsAdminNotifyHandler interface, _glines_idsadminnotifyhandler_notify, ad.idsadminnotifyhandler__notify, ad.idsadminnotifyhandler_notify, dsadmin/IDsAdminNotifyHandler::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <b>IDsAdminNotifyHandler::Notify</b> method is called  for each object after
 
 ### -param nItem [in]
 
-Contains the index of the item in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure supplied in the <a href="https://msdn.microsoft.com/443fe344-6545-45bd-8e2f-85347505d407">IDsAdminNotifyHandler::Begin</a> method.
+Contains the index of the item in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure supplied in the <a href="https://msdn.microsoft.com/443fe344-6545-45bd-8e2f-85347505d407">IDsAdminNotifyHandler::Begin</a> method.
 
 
 ### -param uFlags [in]
@@ -82,7 +80,7 @@ The return value from this method is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a>
 
 
 

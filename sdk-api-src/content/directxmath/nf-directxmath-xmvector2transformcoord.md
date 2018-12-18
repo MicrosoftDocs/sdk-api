@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformCoord(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2TransformCoord, XMVector2TransformCoord, XMVector2TransformCoord method [DirectX Math Support APIs], dxmath.xmvector2transformcoord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -100,7 +98,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/2c7c1c16-3ab4-4619-beb2-9464f70cfd1b">XMVector2TransformCoordStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404773(v=VS.85).aspx">XMVector2TransformCoordStream</a>
  
 
  

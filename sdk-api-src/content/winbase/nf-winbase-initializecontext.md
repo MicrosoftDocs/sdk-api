@@ -9,8 +9,6 @@ ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

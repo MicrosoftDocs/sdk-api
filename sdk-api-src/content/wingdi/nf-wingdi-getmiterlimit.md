@@ -9,8 +9,6 @@ ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

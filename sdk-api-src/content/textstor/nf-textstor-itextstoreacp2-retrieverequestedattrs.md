@@ -9,8 +9,6 @@ ms.assetid: fff22304-626e-4ae6-ac8c-f4a62ee823c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP2.RetrieveRequestedAttrs, ITextStoreACP2::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::RetrieveRequestedAttrs, tsf.itextstoreacp2_retrieverequestedattrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ba563876-074e-49eb-bc53-889ead49ceb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseSecondaryBufferInterface method, IAMDirectSound.ReleaseSecondaryBufferInterface, IAMDirectSound::ReleaseSecondaryBufferInterface, IAMDirectSoundReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface, ReleaseSecondaryBufferInterface method [DirectShow], ReleaseSecondaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseSecondaryBufferInterface, dshow.iamdirectsound_releasesecondarybufferinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

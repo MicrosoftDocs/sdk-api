@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxPort interface [Fax Service],Send property, IFaxPort.Send, IFaxPort.get_Send, IFaxPort::Send, IFaxPort::get_Send, IFaxPort::put_Send, Send property [Fax Service], Send property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_mfax_ifaxport_get_send_cpp, faxcom/IFaxPort::Send, faxcom/IFaxPort::get_Send, faxcom/IFaxPort::put_Send, get_Send
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/b09b6e5f-fa1d-4d0b-8581-e0ba779b72bb">IFaxPort::get_CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
+<div class="alert"><b>Note</b>  Before setting a value for this property, a fax client application can call the <a href="https://msdn.microsoft.com/en-us/library/ms692798(v=VS.85).aspx">IFaxPort::get_CanModify</a> property to ensure that the client has permission to modify configuration information for the specified fax port.</div>
 <div> </div>
 The <b>IFaxPort::get_Send</b> property returns a value of <b>TRUE</b> if the fax port is enabled to send faxes. If a fax client application passes a value of <b>TRUE</b> to the property, it enables the fax port to send faxes. 
 

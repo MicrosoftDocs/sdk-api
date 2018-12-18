@@ -9,8 +9,6 @@ ms.assetid: B5182892-C40D-432c-9A84-F227A804D080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Hiding, Hiding method [Windows Shell], Hiding method [Windows Shell],IFrameworkInputPaneHandler interface, IFrameworkInputPaneHandler interface [Windows Shell],Hiding method, IFrameworkInputPaneHandler.Hiding, IFrameworkInputPaneHandler::Hiding, shell.IFrameworkInputPaneHandler_Hiding, shobjidl_core/IFrameworkInputPaneHandler::Hiding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplicati
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

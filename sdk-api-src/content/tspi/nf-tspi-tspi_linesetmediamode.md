@@ -9,8 +9,6 @@ ms.assetid: 3a0a5daf-eb4a-4e60-b343-8a47d342a86a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetMediaMode, TSPI_lineSetMediaMode function [TAPI 2.2], _tspi_tspi_linesetmediamode, tspi.tspi_linesetmediamode, tspi/TSPI_lineSetMediaMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

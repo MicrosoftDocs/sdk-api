@@ -9,8 +9,6 @@ ms.assetid: 57fe47c8-5a03-4c31-8008-0ebca88a840c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: tapi/tapiRequestDrop, tapi2.tapirequestdrop, tapiRequestDrop, tapiRequestDrop function [TAPI 2.2]
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

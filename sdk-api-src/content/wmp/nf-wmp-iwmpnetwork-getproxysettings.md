@@ -9,8 +9,6 @@ ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxySettings method, IWMPNetwork.getProxySettings, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -141,11 +139,11 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ce07bf8-8521-4240-9859-3bf790ccbf48">IWMPNetwork::setProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563491(v=VS.85).aspx">IWMPNetwork::setProxySettings</a>
  
 
  

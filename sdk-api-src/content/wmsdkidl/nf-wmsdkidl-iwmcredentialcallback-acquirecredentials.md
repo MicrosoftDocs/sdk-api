@@ -9,8 +9,6 @@ ms.assetid: 5dce8281-b5d3-42cd-93f6-d76af0050a89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireCredentials, AcquireCredentials method [windows Media Format], AcquireCredentials method [windows Media Format],IWMCredentialCallback interface, IWMCredentialCallback interface [windows Media Format],AcquireCredentials method, IWMCredentialCallback.AcquireCredentials, IWMCredentialCallback::AcquireCredentials, IWMCredentialCallbackAcquireCredentials, wmformat.iwmcredentialcallback_acquirecredentials, wmsdkidl/IWMCredentialCallback::AcquireCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -98,7 +96,7 @@ Specifies an <b>HRESULT</b> return code.
 
 ### -param pdwFlags [in, out]
 
-Pointer to a <b>DWORD</b> containing a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/a03e54e8-682d-4fbd-bd5c-38f58620d0d4">WMT_CREDENTIAL_FLAGS</a> enumeration type. On input, the caller sets whichever flags are relevant. On output, the application should clear the flags that were set by the caller, and set any additional flags, as appropriate. For details, see <b>WMT_CREDENTIAL_FLAGS</b>.
+Pointer to a <b>DWORD</b> containing a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd757839(v=VS.85).aspx">WMT_CREDENTIAL_FLAGS</a> enumeration type. On input, the caller sets whichever flags are relevant. On output, the application should clear the flags that were set by the caller, and set any additional flags, as appropriate. For details, see <b>WMT_CREDENTIAL_FLAGS</b>.
 
 
 ## -returns
@@ -130,7 +128,7 @@ The reader object calls the <b>AcquireCredentials</b> method on the application 
 
 
 
-<a href="https://msdn.microsoft.com/846d4e21-5255-491a-a8aa-5bb19b62a050">IWMCredentialCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743355(v=VS.85).aspx">IWMCredentialCallback Interface</a>
  
 
  

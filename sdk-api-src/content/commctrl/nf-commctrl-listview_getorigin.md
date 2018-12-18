@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetOrigin, ListView_GetOrigin macro [Windows Controls], _win32_ListView_GetOrigin, _win32_ListView_GetOrigin_cpp, commctrl/ListView_GetOrigin, controls.ListView_GetOrigin, controls._win32_ListView_GetOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

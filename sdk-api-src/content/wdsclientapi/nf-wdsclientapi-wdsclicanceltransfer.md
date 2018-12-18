@@ -9,8 +9,6 @@ ms.assetid: 8d138b95-4be1-4f53-ac15-21503408954b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliCancelTransfer, WdsCliCancelTransfer function [Windows Deployment Services], wds.wdsclicanceltransfer, wdsclientapi/WdsCliCancelTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dsclient.h
 req.include-header: 
@@ -120,7 +118,7 @@ Specifies the computer and credentials to be used by this instance of the <b>IDs
 
 
 
-An instance of this interface is created by calling <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
+An instance of this interface is created by calling <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsDomainTreeBrowser</b> class identifier as shown below.
 
 
 ```cpp
@@ -151,7 +149,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="_com_cocreateinstance">CoCreateInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a>
  
 
  

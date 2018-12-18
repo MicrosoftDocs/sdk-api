@@ -9,8 +9,6 @@ ms.assetid: 0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

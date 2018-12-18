@@ -9,8 +9,6 @@ ms.assetid: 4624e38c-63ff-4860-a899-c70e44e0f8aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSourcePosition, GetSourcePosition method [DirectShow], GetSourcePosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetSourcePosition method, IBasicVideo.GetSourcePosition, IBasicVideo::GetSourcePosition, IBasicVideoGetSourcePosition, control/IBasicVideo::GetSourcePosition, dshow.ibasicvideo_getsourceposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -105,7 +103,7 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

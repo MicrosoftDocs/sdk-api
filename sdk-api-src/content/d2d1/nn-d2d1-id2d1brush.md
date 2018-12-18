@@ -9,8 +9,6 @@ ms.assetid: 5b8f6ff8-ba52-4d30-9bea-3de89793c868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Brush, ID2D1Brush interface [Direct2D], ID2D1Brush interface [Direct2D],described, d2d1/ID2D1Brush, direct2d.ID2D1Brush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -97,7 +95,7 @@ Sets the degree of opacity of this brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transformation applied to the brush.
 

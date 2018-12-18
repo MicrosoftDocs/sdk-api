@@ -9,8 +9,6 @@ ms.assetid: 2150E564-0E19-40E9-9D33-53EA17917A8F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAxisZ method, IDCompositionRotateTransform3D.SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ, IDCompositionRotateTransform3D::SetAxisZ(float), SetAxisZ, SetAxisZ method [DirectComposition], SetAxisZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAxisZ, directcomp.idcompositionrotatetransform3d_setaxisz_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -97,15 +95,15 @@ If the AxisZ property was previously animated, this method removes the animation
 
 
 
-<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ADBB027-8F80-4DF3-9199-DDB6570DF81B">IDCompositionRotateTransform3D::SetAxisX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448939(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisX</a>
 
 
 
-<a href="https://msdn.microsoft.com/C86E4D59-4E9D-44BF-BA9D-91714D0C2D37">IDCompositionRotateTransform3D::SetAxisY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448945(v=VS.85).aspx">IDCompositionRotateTransform3D::SetAxisY</a>
  
 
  

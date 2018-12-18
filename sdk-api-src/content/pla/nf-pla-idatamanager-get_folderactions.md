@@ -7,10 +7,8 @@ old-location: pla\idatamanager_folderactions.htm
 tech.root: pla
 ms.assetid: 59fad3d2-9971-4608-8576-977d4dd8ace4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: FolderActions property [PLA], FolderActions property [PLA],IDataManager interface, IDataManager interface [PLA],FolderActions property, IDataManager.FolderActions, IDataManager.get_FolderActions, IDataManager::FolderActions, IDataManager::get_FolderActions, base.idatamanager_folderactions, get_FolderActions, pla.idatamanager_folderactions, pla/IDataManager::FolderActions, pla/IDataManager::get_FolderActions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

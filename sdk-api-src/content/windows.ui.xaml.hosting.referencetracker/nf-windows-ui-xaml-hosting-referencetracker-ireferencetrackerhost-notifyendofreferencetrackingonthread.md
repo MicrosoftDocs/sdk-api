@@ -9,8 +9,6 @@ ms.assetid: 14391c59-832c-441a-956a-090888d35c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReferenceTrackerHost interface [Windows Runtime],NotifyEndOfReferenceTrackingOnThread method, IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost.xaml, IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost::xaml, NotifyEndOfReferenceTrackingOnThread, NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

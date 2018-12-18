@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_extracticon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_ExtractIcon, ImageList_ExtractIcon macro [Windows Controls], _win32_ImageList_ExtractIcon, _win32_ImageList_ExtractIcon_cpp, commctrl/ImageList_ExtractIcon, controls.ImageList_ExtractIcon, controls._win32_ImageList_ExtractIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761548(v=VS.85).as
 
 ### -param hi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
 This parameter is not used and should always be zero. 
 

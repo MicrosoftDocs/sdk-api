@@ -9,8 +9,6 @@ ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

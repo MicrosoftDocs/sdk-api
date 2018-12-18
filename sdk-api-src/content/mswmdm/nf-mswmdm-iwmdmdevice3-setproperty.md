@@ -9,8 +9,6 @@ ms.assetid: 39483d9a-0725-45fa-9d41-dbabd400b3bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMDevice3 interface [windows Media Device Manager],SetProperty method, IWMDMDevice3.SetProperty, IWMDMDevice3::SetProperty, IWMDMDevice3SetProperty, SetProperty, SetProperty method [windows Media Device Manager], SetProperty method [windows Media Device Manager],IWMDMDevice3 interface, mswmdm/IWMDMDevice3::SetProperty, wmdm.iwmdmdevice3_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

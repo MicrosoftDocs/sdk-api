@@ -9,8 +9,6 @@ ms.assetid: 462562f5-69c2-413d-9cdf-f9e1176f5c20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsiPortalGroup.RemovePortal, IVdsIscsiPortalGroup::RemovePortal, RemovePortal, RemovePortal method [VDS], RemovePortal method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_removeportal, vds/IVdsIscsiPortalGroup::RemovePortal, vdshwprv/IVdsIscsiPortalGroup::RemovePortal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

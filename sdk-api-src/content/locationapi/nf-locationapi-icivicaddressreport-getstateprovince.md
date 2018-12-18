@@ -9,8 +9,6 @@ ms.assetid: 7f47670c-5549-46af-8a16-0e9a43cf90aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStateProvince, GetStateProvince method [WinLocation], GetStateProvince method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetStateProvince method, ICivicAddressReport.GetStateProvince, ICivicAddressReport::GetStateProvince, WinLocation_COM_Ref.icivicaddressreport_getstateprovince, locationapi/ICivicAddressReport::GetStateProvince
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

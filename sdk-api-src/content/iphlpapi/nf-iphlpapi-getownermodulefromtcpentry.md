@@ -9,8 +9,6 @@ ms.assetid: 12162f0a-56c1-4f81-a1f5-3cd5ad975d0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwnerModuleFromTcpEntry, GetOwnerModuleFromTcpEntry function [IP Helper], iphlp.getownermodulefromtcpentry, iphlpapi/GetOwnerModuleFromTcpEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

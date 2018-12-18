@@ -9,8 +9,6 @@ ms.assetid: fc899c48-703a-4bdc-849e-73633ae748d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidGenericSink2 interface [Microsoft TV Technologies],ResetFilterList method, IMSVidGenericSink2.ResetFilterList, IMSVidGenericSink2::ResetFilterList, IMSVidGenericSink2ResetFilterList, ResetFilterList, ResetFilterList method [Microsoft TV Technologies], ResetFilterList method [Microsoft TV Technologies],IMSVidGenericSink2 interface, mstv.imsvidgenericsink2_resetfilterlist, segment/IMSVidGenericSink2::ResetFilterList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -58,7 +56,7 @@ req.redist:
 
 
 
-The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://msdn.microsoft.com/b0044995-5bca-4f49-a22b-00df8f73b47f">IMSVidGenericSink2::AddFilter</a>.
+The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">IMSVidGenericSink2::AddFilter</a>.
 
 
 ## -parameters
@@ -101,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/01acd28b-a17a-413a-ab43-9656e3ab7f60">IMSVidGenericSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694560(v=VS.85).aspx">IMSVidGenericSink2 Interface</a>
  
 
  

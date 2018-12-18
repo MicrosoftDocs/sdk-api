@@ -9,8 +9,6 @@ ms.assetid: fcc65fd3-debf-4b5c-aaf2-3e7234510d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSuggestedPollingInterval, GetSuggestedPollingInterval method [COM+], GetSuggestedPollingInterval method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetSuggestedPollingInterval method, IGetAppTrackerData.GetSuggestedPollingInterval, IGetAppTrackerData::GetSuggestedPollingInterval, comsvcs/IGetAppTrackerData::GetSuggestedPollingInterval, cos.igetapptrackerdata_getsuggestedpollinginterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

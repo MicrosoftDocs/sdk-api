@@ -9,8 +9,6 @@ ms.assetid: 2cec0753-20ec-4df4-9a74-c65bfed28070
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyCondition interface [File Server Resource Manager],Type property, IFsrmPropertyCondition.Type, IFsrmPropertyCondition.put_Type, IFsrmPropertyCondition::Type, IFsrmPropertyCondition::get_Type, IFsrmPropertyCondition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyCondition interface, fs.ifsrmpropertycondition_type, fsrm.ifsrmpropertycondition_type, fsrmreports/IFsrmPropertyCondition::Type, fsrmreports/IFsrmPropertyCondition::get_Type, fsrmreports/IFsrmPropertyCondition::put_Type, put_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 88050024-5960-4ce5-8645-82db3e17b12c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],RegisterDeviceFilter method, IBDA_NetworkProvider.RegisterDeviceFilter, IBDA_NetworkProvider::RegisterDeviceFilter, IBDA_NetworkProviderRegisterDeviceFilter, RegisterDeviceFilter, RegisterDeviceFilter method [Microsoft TV Technologies], RegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::RegisterDeviceFilter, mstv.ibda_networkprovider_registerdevicefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -85,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLun2, IVdsLun2 interface, IVdsLun2 interface,described, base.ivdslun2, vds/IVdsLun2, vdshwprv/IVdsLun2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

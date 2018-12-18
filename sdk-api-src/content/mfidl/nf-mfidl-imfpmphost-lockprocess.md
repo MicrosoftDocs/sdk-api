@@ -9,8 +9,6 @@ ms.assetid: 45c533ca-d8ca-43f9-91d2-011a0b0d63a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 45c533ca-d8ca-43f9-91d2-011a0b0d63a6, IMFPMPHost interface [Media Foundation],LockProcess method, IMFPMPHost.LockProcess, IMFPMPHost::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPHost interface, mf.imfpmphost_lockprocess, mfidl/IMFPMPHost::LockProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3d504eba-7fb8-44a0-9534-4e7995b9b5d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelectedCount, GetSelectedCount method [Windows Shell], GetSelectedCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedCount method, IShellFolderView.GetSelectedCount, IShellFolderView::GetSelectedCount, _shell_IShellFolderView_GetSelectedCount, shell.IShellFolderView_GetSelectedCount, shlobj_core/IShellFolderView::GetSelectedCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

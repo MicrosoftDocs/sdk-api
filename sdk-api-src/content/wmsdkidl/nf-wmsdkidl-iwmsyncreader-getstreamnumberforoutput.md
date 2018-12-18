@@ -9,8 +9,6 @@ ms.assetid: 85543b80-78dd-4dc6-8885-c6a53f910165
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamNumberForOutput, GetStreamNumberForOutput method [windows Media Format], GetStreamNumberForOutput method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamNumberForOutput method, IWMSyncReader.GetStreamNumberForOutput, IWMSyncReader::GetStreamNumberForOutput, IWMSyncReaderGetStreamNumberForOutput, wmformat.iwmsyncreader_getstreamnumberforoutput, wmsdkidl/IWMSyncReader::GetStreamNumberForOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -131,7 +129,7 @@ In the case of outputs that equate to mutual exclusions, only the active stream 
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
  
 
  

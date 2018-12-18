@@ -9,8 +9,6 @@ ms.assetid: 84a9003a-1f80-4dea-8062-888097963e47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int8ToULongPtr, Int8ToULongPtr function [Windows Shell], intsafe/Int8ToULongPtr, shell.Int8ToULongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

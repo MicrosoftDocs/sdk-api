@@ -9,8 +9,6 @@ ms.assetid: e407c4ca-0de1-4b17-bb83-5c4128952d48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Shell], IPackageDebugSettings interface [Windows Shell],described, shell.IPackageDebugSettings, shobjidl_core/IPackageDebugSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

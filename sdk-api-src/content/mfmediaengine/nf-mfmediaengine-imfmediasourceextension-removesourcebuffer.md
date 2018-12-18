@@ -9,8 +9,6 @@ ms.assetid: 2f29cbac-4261-41ee-84c8-cb73686aeee5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],RemoveSourceBuffer method, IMFMediaSourceExtension.RemoveSourceBuffer, IMFMediaSourceExtension::RemoveSourceBuffer, RemoveSourceBuffer, RemoveSourceBuffer method [Media Foundation], RemoveSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_removesourcebuffer, mfmediaengine/IMFMediaSourceExtension::RemoveSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ef78bae1-238f-4774-ab9a-b3681ba53656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],SeekDown method, IScanningTuner.SeekDown, IScanningTuner::SeekDown, IScanningTunerSeekDown, SeekDown, SeekDown method [Microsoft TV Technologies], SeekDown method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_seekdown, tuner/IScanningTuner::SeekDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

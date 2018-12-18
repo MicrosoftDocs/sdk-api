@@ -9,8 +9,6 @@ ms.assetid: 38011ED8-C867-4ECE-880F-3963A17790F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginQuery, BeginQuery method, BeginQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginQuery method, ID3D12GraphicsCommandList.BeginQuery, ID3D12GraphicsCommandList::BeginQuery, d3d12/ID3D12GraphicsCommandList::BeginQuery, direct3d12.id3d12graphicscommandlist_beginquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -223,7 +221,7 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -235,7 +233,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

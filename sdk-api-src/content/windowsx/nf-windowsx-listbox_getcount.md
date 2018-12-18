@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetCount, ListBox_GetCount macro [Windows Controls], _win32_ListBox_GetCount, _win32_ListBox_GetCount_cpp, controls.ListBox_GetCount, controls._win32_ListBox_GetCount, windowsx/ListBox_GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

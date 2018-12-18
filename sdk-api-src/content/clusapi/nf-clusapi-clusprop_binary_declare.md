@@ -9,8 +9,6 @@ ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
+Creates a  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Creates a  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).a
 
 ### -param name
 
-Name of the  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure to be created.
+Name of the  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure to be created.
 
 
 ### -param cb
@@ -108,7 +106,7 @@ memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a>
+<a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 498e7c21-b18a-4d43-bbe6-9f20c2e26221
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Next method, IEnumDiskQuotaUsers.Next, IEnumDiskQuotaUsers::Next, Next, Next method [Files], Next method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_next, base.ienumdiskquotausers_next, dskquota/IEnumDiskQuotaUsers::Next, fs.ienumdiskquotausers_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

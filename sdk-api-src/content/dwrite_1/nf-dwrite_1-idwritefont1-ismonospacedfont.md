@@ -9,8 +9,6 @@ ms.assetid: AB05586C-47C9-4F65-A7DF-C2A40FC33253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFont1 interface [Direct Write],IsMonospacedFont method, IDWriteFont1.IsMonospacedFont, IDWriteFont1::IsMonospacedFont, IsMonospacedFont, IsMonospacedFont method [Direct Write], IsMonospacedFont method [Direct Write],IDWriteFont1 interface, directwrite.idwritefont1_ismonospacedfont, dwrite_1/IDWriteFont1::IsMonospacedFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: p2p\peergraphaddrecord.htm
 tech.root: P2PSdk
 ms.assetid: 8256e379-e5d5-4aef-ab05-e220602edf12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

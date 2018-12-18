@@ -9,8 +9,6 @@ ms.assetid: a320f42e-1dca-4dd9-a919-c4451a48d105
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChildItem, GetChildItem method [MMC], GetChildItem method [MMC],IConsoleNameSpace interface, GetChildItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetChildItem method, IConsoleNameSpace.GetChildItem, IConsoleNameSpace2 interface [MMC],GetChildItem method, IConsoleNameSpace2::GetChildItem, IConsoleNameSpace::GetChildItem, _slate_iconsolenamespace2_getchilditem, mmc.iconsolenamespace2_getchilditem, mmc/IConsoleNameSpace2::GetChildItem, mmc/IConsoleNameSpace::GetChildItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
@@ -97,7 +95,7 @@ If the handle to the child item is not obtained, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

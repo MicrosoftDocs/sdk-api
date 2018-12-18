@@ -9,8 +9,6 @@ ms.assetid: E46DB550-8346-41F2-9B35-4DFD9732B0D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest2 interface [XMLHttpRequest2],Send method, IXMLHTTPRequest2.Send, IXMLHTTPRequest2::Send, Send, Send method [XMLHttpRequest2], Send method [XMLHttpRequest2],IXMLHTTPRequest2 interface, ixhr2.ixmlhttprequest2_send, msxml6/IXMLHTTPRequest2::Send
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

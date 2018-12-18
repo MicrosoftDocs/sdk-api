@@ -1,5 +1,5 @@
 ---
-UID: NS:dhcpsapi.DHCPV6_STATELESS_PARAMS
+UID: NS:dhcpsapi.__unnamed_struct_0
 title: DHCPV6_STATELESS_PARAMS
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_PARAMS structure defines the DHCPv6 stateless client inventory configuration settings at server and scope level.
@@ -7,10 +7,8 @@ old-location: dhcp\dhcpv6_stateless_params.htm
 tech.root: DHCP
 ms.assetid: 852249b2-ea0d-4f83-a41f-12ef8cb029e7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS structure [DHCP], LPDHCPV6_STATELESS_PARAMS, LPDHCPV6_STATELESS_PARAMS structure pointer [DHCP], PDHCPV6_STATELESS_PARAMS, PDHCPV6_STATELESS_PARAMS structure pointer [DHCP], dhcp.dhcpv6_stateless_params, dhcpsapi/DHCPV6_STATELESS_PARAMS, dhcpsapi/LPDHCPV6_STATELESS_PARAMS, dhcpsapi/PDHCPV6_STATELESS_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
@@ -73,7 +71,7 @@ Integer that specifies the maximum time interval, in hours, that stateless IPv6 
 
 
 
-<a href="https://msdn.microsoft.com/8670c69b-1fc0-4b60-b5cc-a616d56c9319">DHCPV6_STATELESS_PARAM_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404366(v=VS.85).aspx">DHCPV6_STATELESS_PARAM_TYPE</a>
 
 
 

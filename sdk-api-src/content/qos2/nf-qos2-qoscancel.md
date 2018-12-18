@@ -9,8 +9,6 @@ ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

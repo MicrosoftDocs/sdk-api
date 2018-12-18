@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDlgCtrlID, GetDlgCtrlID function [Dialog Boxes], _win32_GetDlgCtrlID, _win32_getdlgctrlid_cpp, dlgbox.getdlgctrlid, winui._win32_getdlgctrlid, winuser/GetDlgCtrlID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

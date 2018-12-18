@@ -9,8 +9,6 @@ ms.assetid: 6eb4ad91-9431-4dec-b6cb-e58707318095
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyDown method, ITfKeystrokeMgr.KeyDown, ITfKeystrokeMgr::KeyDown, KeyDown, KeyDown method [Text Services Framework], KeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keydown_ref, msctf/ITfKeystrokeMgr::KeyDown, tsf.itfkeystrokemgr_keydown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

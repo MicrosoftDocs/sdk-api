@@ -9,8 +9,6 @@ ms.assetid: 6b8d5c73-1df5-47b6-9cc1-afe94ff5ceb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Count property, ICertificationAuthorities.Count, ICertificationAuthorities.get_Count, ICertificationAuthorities::Count, ICertificationAuthorities::get_Count, certenroll/ICertificationAuthorities::Count, certenroll/ICertificationAuthorities::get_Count, get_Count, security.icertificationauthorities_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a> objects in the collection. This property is web enabled.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> objects in the collection. This property is web enabled.
 
 This property is read-only.
 
@@ -64,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338611(v=VS.85).aspx">ICertificationAuthorities</a>
+<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
  
 
  

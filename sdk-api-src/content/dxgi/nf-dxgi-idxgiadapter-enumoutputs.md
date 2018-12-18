@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgiadapter_enumoutputs.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7da8b512-df54-dc59-9b13-fb6ef2f60fd6, EnumOutputs, EnumOutputs method [DXGI], EnumOutputs method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],EnumOutputs method, IDXGIAdapter.EnumOutputs, IDXGIAdapter::EnumOutputs, direct3ddxgi.idxgiadapter_enumoutputs, dxgi/IDXGIAdapter::EnumOutputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

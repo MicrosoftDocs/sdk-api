@@ -9,8 +9,6 @@ ms.assetid: b24f761e-6492-4a6d-9c7e-d5a5f2cbdaf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathIsPrefix, PathIsPrefix function [Windows Shell], PathIsPrefixA, PathIsPrefixW, _win32_PathIsPrefix, shell.PathIsPrefix, shlwapi/PathIsPrefix, shlwapi/PathIsPrefixA, shlwapi/PathIsPrefixW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

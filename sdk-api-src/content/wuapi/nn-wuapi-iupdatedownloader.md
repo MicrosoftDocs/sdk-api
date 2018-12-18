@@ -9,8 +9,6 @@ ms.assetid: 8f9f3430-fc78-46cb-9dc8-b97e9d35d91c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], IUpdateDownloader interface [Windows Update Agent],described, wua.iupdatedownloader, wuapi/IUpdateDownloader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

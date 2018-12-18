@@ -9,8 +9,6 @@ ms.assetid: 3C8CBE42-D7F5-4646-A1C4-1C9C8C4EBAD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderingMode1, GetRenderingMode1 method [Direct Write], GetRenderingMode1 method [Direct Write],IDWriteRenderingParams3 interface, IDWriteRenderingParams3 interface [Direct Write],GetRenderingMode1 method, IDWriteRenderingParams3.GetRenderingMode1, IDWriteRenderingParams3::GetRenderingMode1, directwrite.idwriterenderingparams3_getrenderingmode1, dwrite_3/IDWriteRenderingParams3::GetRenderingMode1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -64,9 +62,9 @@ Gets the rendering mode.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>-typed value for the rendering mode.
+Returns a <a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>-typed value for the rendering mode.
 
 
 
@@ -76,7 +74,7 @@ Returns a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C92242
 
 
 
-<a href="https://msdn.microsoft.com/A083377C-7315-40F4-AD94-9B65B98DE0D6">IDWriteRenderingParams3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900389(v=VS.85).aspx">IDWriteRenderingParams3</a>
  
 
  

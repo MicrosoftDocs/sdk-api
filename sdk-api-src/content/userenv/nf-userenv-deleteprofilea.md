@@ -9,8 +9,6 @@ ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

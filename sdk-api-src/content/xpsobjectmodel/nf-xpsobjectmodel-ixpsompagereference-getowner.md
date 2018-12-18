@@ -9,8 +9,6 @@ ms.assetid: 1229972d-ae0f-41db-aafb-99d9647360e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetOwner method, IXpsOMPageReference.GetOwner, IXpsOMPageReference::GetOwner, xps.ixpsompagereference_getowner, xpsobjectmodel/IXpsOMPageReference::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

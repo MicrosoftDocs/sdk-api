@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10texture3d_getdesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0d2ee7c3-9da3-12e6-8b1c-f54bd03625e1, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Texture3D interface, ID3D10Texture3D interface [Direct3D 10],GetDesc method, ID3D10Texture3D.GetDesc, ID3D10Texture3D::GetDesc, d3d10/ID3D10Texture3D::GetDesc, direct3d10.id3d10texture3d_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

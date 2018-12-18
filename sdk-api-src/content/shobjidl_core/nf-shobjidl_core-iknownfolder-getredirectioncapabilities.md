@@ -9,8 +9,6 @@ ms.assetid: 5abc4944-1fd7-400a-817d-b58a7f4989ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRedirectionCapabilities, GetRedirectionCapabilities method [Windows Shell], GetRedirectionCapabilities method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetRedirectionCapabilities method, IKnownFolder.GetRedirectionCapabilities, IKnownFolder::GetRedirectionCapabilities, _shell_IKnownFolder_GetRedirectionCapabilities, shell.IKnownFolder_GetRedirectionCapabilities, shobjidl_core/IKnownFolder::GetRedirectionCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

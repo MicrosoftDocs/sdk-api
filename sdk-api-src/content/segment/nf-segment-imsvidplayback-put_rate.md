@@ -9,8 +9,6 @@ ms.assetid: a3542d7c-6333-4832-a24a-0b778ea83a4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_Rate method, IMSVidPlayback.put_Rate, IMSVidPlayback::put_Rate, IMSVidPlaybackput_Rate, mstv.imsvidplayback_put_rate, put_Rate, put_Rate method [Microsoft TV Technologies], put_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_Rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -129,7 +127,7 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

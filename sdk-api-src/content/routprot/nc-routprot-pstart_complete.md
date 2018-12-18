@@ -9,8 +9,6 @@ ms.assetid: 1dace3a7-8e97-405c-b1fe-f5a67c05fb0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

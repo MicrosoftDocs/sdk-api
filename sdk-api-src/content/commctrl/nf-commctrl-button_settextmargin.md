@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_SetTextMargin, Button_SetTextMargin macro [Windows Controls], _win32_Button_SetTextMargin, _win32_Button_SetTextMargin_cpp, commctrl/Button_SetTextMargin, controls.Button_SetTextMargin, controls._win32_Button_SetTextMargin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the margins for drawing text in a button control. You can use this macro or
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 

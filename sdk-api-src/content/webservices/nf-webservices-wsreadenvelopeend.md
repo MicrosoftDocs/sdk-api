@@ -9,8 +9,6 @@ ms.assetid: 1252fa10-d19a-4335-8dc5-f230141eef79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Windows], webservices/WsReadEnvelopeEnd, wsw.wsreadenvelopeend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

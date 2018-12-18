@@ -9,8 +9,6 @@ ms.assetid: F0F5D099-6290-485F-AD68-101CD57E8656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],ScheduleTransition method, IUIAnimationManager2.ScheduleTransition, IUIAnimationManager2::ScheduleTransition, ScheduleTransition, ScheduleTransition method [Windows Animation], ScheduleTransition method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_scheduletransition, uianimation/IUIAnimationManager2::ScheduleTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

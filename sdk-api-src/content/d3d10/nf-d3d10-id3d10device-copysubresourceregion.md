@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_copysubresourceregion.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopySubresourceRegion method, ID3D10Device.CopySubresourceRegion, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], IXAPOParameters interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPOParameters, xaudio2.ixapoparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xapo.h
 req.include-header: 

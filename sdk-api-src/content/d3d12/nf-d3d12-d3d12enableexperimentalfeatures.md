@@ -9,8 +9,6 @@ ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d12.h
 req.include-header: 
@@ -157,7 +155,7 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
  
 
  

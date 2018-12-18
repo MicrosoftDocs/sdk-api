@@ -9,8 +9,6 @@ ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,19 +88,19 @@ The VMR alpha-blends the static bitmap image onto the video image. For informati
 
 
 
-<a href="https://msdn.microsoft.com/a91561e3-469b-412a-b5ab-af2a5a0855a6">IMSVidVideoRenderer::SetupMixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694760(v=VS.85).aspx">IMSVidVideoRenderer::SetupMixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfcfab14-7084-4716-8955-574168cd3506">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dba67ab-9522-48a3-be09-8ed8c27bffee">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694752(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
 
 
 
-<a href="https://msdn.microsoft.com/05542d75-1723-4581-ac8b-6a577e0085cb">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694753(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
 
 
 

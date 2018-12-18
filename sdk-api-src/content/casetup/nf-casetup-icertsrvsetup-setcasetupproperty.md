@@ -9,8 +9,6 @@ ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCASetupProperty method, ICertSrvSetup.SetCASetupProperty, ICertSrvSetup::SetCASetupProperty, SetCASetupProperty, SetCASetupProperty method [Security], SetCASetupProperty method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCASetupProperty, security.icertsrvsetup_setcasetupproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>SetCASetupProperty</b> method sets a property value for a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) configuration.
+The <b>SetCASetupProperty</b> method sets a property value for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>SetCASetupProperty</b> method sets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a> constant that specifies the type of property to configure.
+A <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a> constant that specifies the type of property to configure.
 
 The following properties are set as a side effect of other methods and cannot be set directly with this method.
 
@@ -77,7 +75,7 @@ The following properties are set as a side effect of other methods and cannot be
 
 ### -param pPropertyValue [in]
 
-A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
+A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
 
 
 ## -see-also
@@ -85,7 +83,7 @@ A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

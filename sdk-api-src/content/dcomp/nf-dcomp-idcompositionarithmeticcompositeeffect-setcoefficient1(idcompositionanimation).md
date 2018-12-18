@@ -9,8 +9,6 @@ ms.assetid: 475F112E-5A00-47C1-97F9-E2BB2CBD10D2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect interface [DirectComposition],SetCoefficient1 method, IDCompositionArithmeticCompositeEffect.SetCoefficient1, IDCompositionArithmeticCompositeEffect.SetCoefficient1(IDCompositionAnimation), IDCompositionArithmeticCompositeEffect::SetCoefficient1, IDCompositionArithmeticCompositeEffect::SetCoefficient1(IDCompositionAnimation), SetCoefficient1, SetCoefficient1 method [DirectComposition], SetCoefficient1 method [DirectComposition],IDCompositionArithmeticCompositeEffect interface, dcomp/IDCompositionArithmeticCompositeEffect::SetCoefficient1, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient1_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ An animation that represents how the value changes over time. This parameter mus
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>
  
 
  

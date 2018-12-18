@@ -9,8 +9,6 @@ ms.assetid: d18fd066-94a3-48af-8db4-0def6c51565e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfPropertyValue interface [Text Services Framework],Reset method, IEnumTfPropertyValue.Reset, IEnumTfPropertyValue::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfPropertyValue interface, _tsf_ienumtfpropertyvalue_reset_ref, msctf/IEnumTfPropertyValue::Reset, tsf.ienumtfpropertyvalue_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_5fhh.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxIncomingMessage interface, IFaxIncomingMessage interface [Fax Service],DeviceName property, IFaxIncomingMessage.DeviceName, IFaxIncomingMessage.get_DeviceName, IFaxIncomingMessage::DeviceName, IFaxIncomingMessage::get_DeviceName, _mfax_faxincomingmessage.devicename, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_devicename_cpp, fax._mfax_faxincomingmessage_devicename, faxcomex/IFaxIncomingMessage::DeviceName, faxcomex/IFaxIncomingMessage::get_DeviceName, get_DeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ This method returns the name of the fax device rather than the device ID. This i
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/29fa30c9-d4f2-4ed5-95fc-873f2263c7bb">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e66b30d-e74f-4c73-b005-acd2d0fd8893">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

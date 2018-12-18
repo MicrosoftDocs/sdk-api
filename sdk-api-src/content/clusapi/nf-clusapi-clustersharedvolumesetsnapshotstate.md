@@ -9,8 +9,6 @@ ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -71,7 +69,7 @@ A pointer to the name of the cluster shared volume.
 
 ### -param state [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn622917(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE</a> enumeration value that specifies the state of the snapshot.
+A <a href="https://msdn.microsoft.com/FE8F2117-7D23-42FF-B6BD-CA42224570EF">CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE</a> enumeration value that specifies the state of the snapshot.
 
 
 ## -returns
@@ -91,7 +89,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
  
 
  

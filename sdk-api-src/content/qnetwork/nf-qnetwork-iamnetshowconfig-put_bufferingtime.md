@@ -9,8 +9,6 @@ ms.assetid: 60dea6f3-b45f-44a1-ba21-eb71206b2fb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

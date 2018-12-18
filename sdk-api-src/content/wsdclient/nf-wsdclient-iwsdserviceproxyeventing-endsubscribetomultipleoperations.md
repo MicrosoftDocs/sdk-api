@@ -9,8 +9,6 @@ ms.assetid: 2e3cdb10-fde9-4936-9a7d-61404a754faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndSubscribeToMultipleOperations, EndSubscribeToMultipleOperations method, EndSubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndSubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndSubscribeToMultipleOperations, IWSDServiceProxyEventing::EndSubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

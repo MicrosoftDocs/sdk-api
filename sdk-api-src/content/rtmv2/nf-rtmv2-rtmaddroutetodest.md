@@ -9,8 +9,6 @@ ms.assetid: 422beb9b-b7e8-446f-8294-9f87a9f66f7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RTM_ROUTE_CHANGE_BEST, RTM_ROUTE_CHANGE_FIRST, RTM_ROUTE_CHANGE_NEW, RtmAddRouteToDest, RtmAddRouteToDest function [RAS], _rtmv2ref_rtmaddroutetodest, rras.rtmaddroutetodest, rtmv2/RtmAddRouteToDest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState callback, LPM_DeleteState callback function [QOS], RCVD_PATH_TEAR, RCVD_RESV_TEAR, STATE_TIMEOUT, _gqos_lpm_deletestate, lpmapi/LPM_DeleteState, qos.lpm_deletestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

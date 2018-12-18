@@ -9,8 +9,6 @@ ms.assetid: 218e0f9d-9471-4b21-a424-b1298da2fb23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

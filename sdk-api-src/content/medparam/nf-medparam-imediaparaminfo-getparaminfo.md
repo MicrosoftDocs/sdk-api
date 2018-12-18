@@ -9,8 +9,6 @@ ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
@@ -69,7 +67,7 @@ Zero-based index of the parameter.
 
 ### -param pInfo [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/91d2d08b-a55e-492f-a509-9c080cc438df">MP_PARAMINFO</a> structure that is filled with the parameter information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390745(v=VS.85).aspx">MP_PARAMINFO</a> structure that is filled with the parameter information.
 
 
 ## -returns
@@ -126,7 +124,7 @@ Success.
 
 
 
-Call the <a href="https://msdn.microsoft.com/0c518b8e-d5a7-40ba-9b10-4d23d4376890">GetParamCount</a> method to retrieve the number of parameters that the object supports.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406967(v=VS.85).aspx">GetParamCount</a> method to retrieve the number of parameters that the object supports.
 
 
 
@@ -136,7 +134,7 @@ Call the <a href="https://msdn.microsoft.com/0c518b8e-d5a7-40ba-9b10-4d23d437689
 
 
 
-<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
  
 
  

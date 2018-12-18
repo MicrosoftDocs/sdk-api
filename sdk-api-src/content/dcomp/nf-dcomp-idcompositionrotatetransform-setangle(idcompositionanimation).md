@@ -9,8 +9,6 @@ ms.assetid: 85C62F2A-06B2-48FE-8416-16DEDC86E516
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetAngle method, IDCompositionRotateTransform.SetAngle, IDCompositionRotateTransform.SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle, IDCompositionRotateTransform::SetAngle(IDCompositionAnimation), IDCompositionRotateTransform::SetAngle(IDCompositionAnimation*), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetAngle, directcomp.idcompositionrotatetransform_setangle_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -95,7 +93,7 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx">IDCompositionRotateTransform</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstanceReleased method, IFunctionDiscoveryProvider.InstanceReleased, IFunctionDiscoveryProvider::InstanceReleased, InstanceReleased, InstanceReleased method, InstanceReleased method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstanceReleased, ncd.ifunctiondiscoveryprovider_instancereleased
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

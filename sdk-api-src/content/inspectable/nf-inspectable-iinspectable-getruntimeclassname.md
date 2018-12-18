@@ -9,8 +9,6 @@ ms.assetid: E0A0B56D-E676-46FD-873D-11309102DFFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRuntimeClassName, GetRuntimeClassName method [Windows Runtime], GetRuntimeClassName method [Windows Runtime],IInputPaneInterop interface, GetRuntimeClassName method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetRuntimeClassName method, IInputPaneInterop::GetRuntimeClassName, IInspectable interface [Windows Runtime],GetRuntimeClassName method, IInspectable.GetRuntimeClassName, IInspectable::GetRuntimeClassName, inspectable/IInputPaneInterop::GetRuntimeClassName, inspectable/IInspectable::GetRuntimeClassName, winrt.iinspectable_getruntimeclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inspectable.h
 req.include-header: 

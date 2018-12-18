@@ -9,8 +9,6 @@ ms.assetid: 4d6d0b7d-ae20-456c-9ef4-97fa682ece8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToInt16WithDefault, VariantToInt16WithDefault function [Windows Properties], _shell_VariantToInt16WithDefault, properties.VariantToInt16WithDefault, propvarutil/VariantToInt16WithDefault, shell.VariantToInt16WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 995b3afd-5724-40d1-ab80-f2c7b2ea8560
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfs.h
 req.include-header: 
@@ -102,7 +100,7 @@ LSNs from different streams are not comparable. Do not use this function to comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540399(v=VS.85).aspx">LsnNull</a>
+<a href="https://msdn.microsoft.com/effa7924-fcde-4aaf-964b-a6916cb6d1f5">LsnNull</a>
  
 
  

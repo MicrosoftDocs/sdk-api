@@ -9,8 +9,6 @@ ms.assetid: 3CC91F7C-7F82-4B3B-AA50-FE03CFEC0278
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceQueryInformation, TraceQueryInformation function [ETW], etw.tracequeryinformation, evntrace/TraceQueryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

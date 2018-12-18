@@ -9,8 +9,6 @@ ms.assetid: 54b15e72-6551-4162-90ca-a9bed68ca62f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFFieldOfUseMFTUnlock interface [Media Foundation],Unlock method, IMFFieldOfUseMFTUnlock.Unlock, IMFFieldOfUseMFTUnlock::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFFieldOfUseMFTUnlock interface, mf.imffieldofusemftunlock_unlock, mfidl/IMFFieldOfUseMFTUnlock::Unlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

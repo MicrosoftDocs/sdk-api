@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

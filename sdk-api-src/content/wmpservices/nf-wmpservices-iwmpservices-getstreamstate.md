@@ -9,8 +9,6 @@ ms.assetid: 1a73ea54-45ce-47ff-b551-10aab2798420
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamState, GetStreamState method [Windows Media Player], GetStreamState method [Windows Media Player],IWMPServices interface, IWMPServices interface [Windows Media Player],GetStreamState method, IWMPServices.GetStreamState, IWMPServices::GetStreamState, IWMPServicesGetStreamStateDSP, wmp.iwmpservices_getstreamstate, wmpservices/IWMPServices::GetStreamState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -89,11 +87,11 @@ The stream is stopped, paused, or playing.
 
 
 
-<a href="https://msdn.microsoft.com/26d68b4b-4eeb-42e2-a1d1-0d0e73725059">IWMPServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563642(v=VS.85).aspx">IWMPServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/82c4699a-197c-4429-afa8-b1fc47a1f47a">WMPServices_StreamState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564885(v=VS.85).aspx">WMPServices_StreamState</a>
  
 
  

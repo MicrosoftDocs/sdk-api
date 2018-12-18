@@ -9,8 +9,6 @@ ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -65,7 +63,7 @@ A <b>BSTR</b> variable that contains the key.
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the key contained in the <i>strEncodedPublicKeyInfo</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the key contained in the <i>strEncodedPublicKeyInfo</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
 
 
 ## -returns
@@ -74,7 +72,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">Enc
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -107,16 +105,16 @@ The <b>InitializeFromEncodedPublicKeyInfo</b> method initializes the following p
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa379040(v=VS.85).aspx">Algorithm</a>
+<a href="https://msdn.microsoft.com/6c34323e-669e-434c-946f-65fe53456a11">Algorithm</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa379042(v=VS.85).aspx">EncodedKey</a>
+<a href="https://msdn.microsoft.com/3573f4b6-ecfd-4540-bc43-c88943992fe2">EncodedKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa379043(v=VS.85).aspx">EncodedParameters</a>
+<a href="https://msdn.microsoft.com/f7c7bf0a-0b66-4676-9448-f74937823f90">EncodedParameters</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa379046(v=VS.85).aspx">Length</a>
+<a href="https://msdn.microsoft.com/c386fb27-84c5-4570-9cdb-202baa726b96">Length</a>
 </li>
 </ul>
 
@@ -127,7 +125,7 @@ The <b>InitializeFromEncodedPublicKeyInfo</b> method initializes the following p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379039(v=VS.85).aspx">IX509PublicKey</a>
+<a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a>
  
 
  

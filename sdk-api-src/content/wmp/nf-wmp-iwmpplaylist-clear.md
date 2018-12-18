@@ -9,8 +9,6 @@ ms.assetid: 3de2410d-e35a-4f27-bdcf-2a6d85eafe9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPlaylist.clear, IWMPPlaylist::clear, IWMPPlaylistclear, clear, clear method [Windows Media Player], clear method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_clear, wmp/IWMPPlaylist::clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -96,7 +94,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

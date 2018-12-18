@@ -9,8 +9,6 @@ ms.assetid: 4ac78904-18ca-4bcb-9c0e-15595a756ecd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AudioRendererActive method, IMSVidCtl.get_AudioRendererActive, IMSVidCtl::get_AudioRendererActive, IMSVidCtlget_AudioRendererActive, get_AudioRendererActive, get_AudioRendererActive method [Microsoft TV Technologies], get_AudioRendererActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_audiorendereractive, msvidctl/IMSVidCtl::get_AudioRendererActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

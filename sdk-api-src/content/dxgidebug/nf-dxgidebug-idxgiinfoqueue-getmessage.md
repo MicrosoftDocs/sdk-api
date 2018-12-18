@@ -9,8 +9,6 @@ ms.assetid: 208C3253-09AE-4379-808D-BA0BECC59BF8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method [DXGI], GetMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessage method, IDXGIInfoQueue.GetMessage, IDXGIInfoQueue::GetMessage, direct3ddxgi.idxgiinfoqueue_getmessage, dxgidebug/IDXGIInfoQueue::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

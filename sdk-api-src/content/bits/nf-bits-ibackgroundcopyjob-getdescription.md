@@ -9,8 +9,6 @@ ms.assetid: 1a791390-2bd8-4732-98a2-74f740cfd822
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [BITS], GetDescription method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetDescription method, IBackgroundCopyJob.GetDescription, IBackgroundCopyJob::GetDescription, _drz_ibackgroundcopyjob_getdescription, bits.ibackgroundcopyjob_getdescription, bits/IBackgroundCopyJob::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -61,7 +59,7 @@ Retrieves the description of the job.
 ### -param pVal [out]
 
 Null-terminated string that contains a short description of the job. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppDescription</i> when done.
 
 
 ## -returns
@@ -108,7 +106,7 @@ The parameter, <i>ppDescription</i>, cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363040(v=VS.85).aspx">IBackgroundCopyJob::SetDescription</a>
+<a href="https://msdn.microsoft.com/9148ec9b-7a03-4bb3-9644-e52f6cd13073">IBackgroundCopyJob::SetDescription</a>
  
 
  

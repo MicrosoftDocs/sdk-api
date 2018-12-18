@@ -9,8 +9,6 @@ ms.assetid: 2dc9eb94-649f-42f6-8180-abf570bdc757
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2dc9eb94-649f-42f6-8180-abf570bdc757, Height property [Tablet PC], Height property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Height property, IInkDrawingAttributes.Height, IInkDrawingAttributes.get_Height, IInkDrawingAttributes::Height, IInkDrawingAttributes::get_Height, IInkDrawingAttributes::put_Height, InkDrawingAttributes.get_Height, InkDrawingAttributes.put_Height, get_Height, msinkaut/IInkDrawingAttributes::Height, msinkaut/IInkDrawingAttributes::get_Height, msinkaut/IInkDrawingAttributes::put_Height, put_Height, tablet.inkdrawingattributes_height
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -82,7 +80,7 @@ Precision is limited to 1/1000 (three digits to the right of the decimal point).
 
 
 
-<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

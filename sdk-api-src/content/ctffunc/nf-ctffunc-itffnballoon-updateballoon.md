@@ -9,8 +9,6 @@ ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -59,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param style [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629054(v=VS.85).aspx">TfLBBalloonStyle</a> values that specifies the new balloon style.
+Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> values that specifies the new balloon style.
 
 
 ### -param pch [in]
@@ -115,7 +113,7 @@ One or more parameters are invalid.
 
 
 
-The language bar balloon implementation should update its style and text by modifying the values returned from <a href="https://msdn.microsoft.com/en-us/library/ms628743(v=VS.85).aspx">ITfLangBarItemBalloon::GetBalloonInfo</a> and then call <a href="https://msdn.microsoft.com/en-us/library/ms628738(v=VS.85).aspx">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_BALLOON to cause the language bar to obtain the updated information.
+The language bar balloon implementation should update its style and text by modifying the values returned from <a href="https://msdn.microsoft.com/2f850553-ec79-4e2f-a4d5-c40dbaca0f01">ITfLangBarItemBalloon::GetBalloonInfo</a> and then call <a href="https://msdn.microsoft.com/f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_BALLOON to cause the language bar to obtain the updated information.
 
 
 
@@ -125,7 +123,7 @@ The language bar balloon implementation should update its style and text by modi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538921(v=VS.85).aspx">ITfFnBalloon</a>
+<a href="https://msdn.microsoft.com/9b79526b-b7e1-41a2-b32e-88124347d77d">ITfFnBalloon</a>
 
 
 

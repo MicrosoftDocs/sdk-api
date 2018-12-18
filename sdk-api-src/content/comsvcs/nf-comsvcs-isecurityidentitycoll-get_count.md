@@ -9,8 +9,6 @@ ms.assetid: 43363504-ee5e-4d1c-a7eb-c4f003d84d57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Count method, ISecurityIdentityColl.get_Count, ISecurityIdentityColl::get_Count, _cos_ISecurityIdentityColl_get_Count, comsvcs/ISecurityIdentityColl::get_Count, cos.isecurityidentitycoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityIdentityColl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

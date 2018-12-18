@@ -9,8 +9,6 @@ ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpreadMethod, GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetSpreadMethod method, IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

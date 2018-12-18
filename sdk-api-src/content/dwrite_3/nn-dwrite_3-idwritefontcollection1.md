@@ -9,8 +9,6 @@ ms.assetid: bdee031b-53fa-321d-5cdc-4cc2c7ec58ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontCollection1, IDWriteFontCollection1 interface [Direct Write], IDWriteFontCollection1 interface [Direct Write],described, directwrite.idwritefontcollection1, dwrite_3/IDWriteFontCollection1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -71,7 +69,7 @@ The <b>IDWriteFontCollection1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/964732b9-bf0f-2ec8-d566-3fa06c9d57e4">GetFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933225(v=VS.85).aspx">GetFontSet</a>
 </td>
 <td align="left" width="63%">
 Gets the underlying font set used by this collection.

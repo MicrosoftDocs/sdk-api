@@ -4,13 +4,11 @@ title: ITsSbTarget
 author: windows-sdk-content
 description: Exposes properties that store configuration and state information about a target.
 old-location: termserv\itssbtarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

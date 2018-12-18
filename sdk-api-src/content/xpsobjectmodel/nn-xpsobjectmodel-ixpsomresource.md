@@ -9,8 +9,6 @@ ms.assetid: ed3d6ea0-efe5-4917-85fa-bd9ad1978b4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMResource, IXpsOMResource interface [XPS Documents and Packaging], IXpsOMResource interface [XPS Documents and Packaging],described, xps.ixpsomresource, xpsobjectmodel/IXpsOMResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

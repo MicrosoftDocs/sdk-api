@@ -9,8 +9,6 @@ ms.assetid: 532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnError method, IXMLHTTPRequest2Callback.OnError, IXMLHTTPRequest2Callback::OnError, OnError, OnError method [XMLHttpRequest2], OnError method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onerror, msxml6/IXMLHTTPRequest2Callback::OnError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

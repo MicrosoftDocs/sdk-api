@@ -9,8 +9,6 @@ ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -98,7 +96,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685160(v=VS.85).aspx">IComThreadEvents</a>
+<a href="https://msdn.microsoft.com/a6523088-cca4-41c1-a3fe-d8cb7320ff33">IComThreadEvents</a>
  
 
  

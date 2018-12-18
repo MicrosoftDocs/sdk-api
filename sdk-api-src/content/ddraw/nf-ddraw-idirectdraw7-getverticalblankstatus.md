@@ -9,8 +9,6 @@ ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVerticalBlankStatus, GetVerticalBlankStatus method [DirectDraw], GetVerticalBlankStatus method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetVerticalBlankStatus method, IDirectDraw7.GetVerticalBlankStatus, IDirectDraw7::GetVerticalBlankStatus, ddraw/IDirectDraw7::GetVerticalBlankStatus, directdraw.idirectdraw7_getverticalblankstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

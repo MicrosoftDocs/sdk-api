@@ -9,8 +9,6 @@ ms.assetid: 5263f924-6f82-4d64-8dc7-0b5e7efa4150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> within a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a>. 
+The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> within a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a>. 
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>HEADER</b> macro returns the address of the <a href="https://msdn.microso
 
 ### -param pVideoInfo
 
-Pointer to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure. 
 
 
 ## -see-also

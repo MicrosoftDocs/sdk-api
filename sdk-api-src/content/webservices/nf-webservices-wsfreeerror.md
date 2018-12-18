@@ -9,8 +9,6 @@ ms.assetid: 61da7bc2-b805-4379-a6b2-1e92374be1a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeError, WsFreeError function [Web Services for Windows], webservices/WsFreeError, wsw.wsfreeerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

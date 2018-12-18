@@ -9,8 +9,6 @@ ms.assetid: 4784b7d6-1a20-4018-9ad5-7e8bafb700f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetVersionNumber method, ITSDT.GetVersionNumber, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -113,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
  
 
  

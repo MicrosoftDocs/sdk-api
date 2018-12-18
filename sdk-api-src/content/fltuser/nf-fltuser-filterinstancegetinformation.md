@@ -9,8 +9,6 @@ ms.assetid: 222f5f68-6a1c-420e-a56f-de53b23f6ce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FilterInstanceGetInformation, FilterInstanceGetInformation function [Installable File System Drivers], FltWin32ApiRef_e34f8425-037b-4c31-8559-2ad32527746f.xml, fltuser/FilterInstanceGetInformation, ifsk.filterinstancegetinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h

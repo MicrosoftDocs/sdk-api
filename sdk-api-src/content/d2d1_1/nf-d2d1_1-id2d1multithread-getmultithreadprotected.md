@@ -9,8 +9,6 @@ ms.assetid: C805B8C1-942B-4E56-97F2-756B0DD800A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct2D], GetMultithreadProtected method [Direct2D],ID2D1Multithread interface, ID2D1Multithread interface [Direct2D],GetMultithreadProtected method, ID2D1Multithread.GetMultithreadProtected, ID2D1Multithread::GetMultithreadProtected, d2d1_1/ID2D1Multithread::GetMultithreadProtected, direct2d.id2d1multithread_getmultithreadprotected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

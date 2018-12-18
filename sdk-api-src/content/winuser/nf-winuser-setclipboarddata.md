@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetClipboardData, SetClipboardData function [Data Exchange], _win32_SetClipboardData, _win32_setclipboarddata_cpp, dataxchg.setclipboarddata, winui._win32_setclipboarddata, winuser/SetClipboardData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

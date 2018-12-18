@@ -9,8 +9,6 @@ ms.assetid: a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStatusCallback, IWMStatusCallback interface [windows Media Format], IWMStatusCallback interface [windows Media Format],described, IWMStatusCallbackInterface, wmformat.iwmstatuscallback, wmsdkidl/IWMStatusCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMStatusCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">OnStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">OnStatus</a>
 </td>
 <td align="left" width="63%">
 Called when status information must be communicated to the host application. This happens routinely when an ASF file is being opened and read, and when errors occur during reading.
@@ -91,22 +89,22 @@ The following methods and functions associate an implementation of this interfac
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/67dfb0df-4883-49e1-a085-0b78db3967d0">IWMIndexer::StartIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757208(v=VS.85).aspx">IWMIndexer::StartIndexing</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/714971d7-8ccb-41fa-92b2-802a503ae228">IWMLicenseBackup::BackupLicenses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757219(v=VS.85).aspx">IWMLicenseBackup::BackupLicenses</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2d645b3a-e856-4745-b80a-89a3bc2b38bd">IWMLicenseRestore::RestoreLicenses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757224(v=VS.85).aspx">IWMLicenseRestore::RestoreLicenses</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/69d12e5c-23fd-4d4b-959e-fe7979bf3fdb">IWMRegisterCallback::Advise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743615(v=VS.85).aspx">IWMRegisterCallback::Advise</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/529a5066-df03-4747-bca5-10e3f223d4d2">WMCreateBackupRestorer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757744(v=VS.85).aspx">WMCreateBackupRestorer</a>
 </li>
 </ul>
 
@@ -117,11 +115,11 @@ The following methods and functions associate an implementation of this interfac
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced</a>
 
 
 

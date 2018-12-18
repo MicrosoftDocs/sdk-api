@@ -9,8 +9,6 @@ ms.assetid: 7248050c-0e59-406a-b75c-d06c0ce7bdc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineConfigDialogEdit, TSPI_lineConfigDialogEdit function [TAPI 2.2], _tspi_tspi_lineconfigdialogedit, tspi.tspi_lineconfigdialogedit, tspi/TSPI_lineConfigDialogEdit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

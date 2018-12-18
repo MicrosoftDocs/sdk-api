@@ -9,8 +9,6 @@ ms.assetid: 3bde7ba7-8498-42e5-bd5a-625e162fc1db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawGammaControl interface [DirectDraw],SetGammaRamp method, IDirectDrawGammaControl.SetGammaRamp, IDirectDrawGammaControl::SetGammaRamp, SetGammaRamp, SetGammaRamp method [DirectDraw], SetGammaRamp method [DirectDraw],IDirectDrawGammaControl interface, ddraw/IDirectDrawGammaControl::SetGammaRamp, directdraw.idirectdrawgammacontrol_setgammaramp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 937bb623-d02d-452e-a8a2-21d9a6c5cac0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_ON, MS_RING_ON, MS_RLSD_ON, _win32_getcommmodemstatus, base.getcommmodemstatus, winbase/GetCommModemStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

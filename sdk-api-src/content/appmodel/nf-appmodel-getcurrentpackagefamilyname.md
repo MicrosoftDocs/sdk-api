@@ -9,8 +9,6 @@ ms.assetid: 39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentPackageFamilyName, GetCurrentPackageFamilyName function [App packaging and management], appmodel/GetCurrentPackageFamilyName, appxpkg.getcurrentpackagefamilyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

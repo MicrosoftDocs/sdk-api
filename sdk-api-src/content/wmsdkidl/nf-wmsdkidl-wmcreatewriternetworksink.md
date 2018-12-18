@@ -9,8 +9,6 @@ ms.assetid: 5d391867-dece-4d40-80e2-99071d332984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterNetworkSink, WMCreateWriterNetworkSink function [windows Media Format], wmformat.wmcreatewriternetworksink, wmsdkidl/WMCreateWriterNetworkSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ The <b>WMCreateWriterNetworkSink</b> function creates a writer network sink obje
 
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink</a> interface of the newly created writer network sink object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink</a> interface of the newly created writer network sink object.
 
 
 ## -returns

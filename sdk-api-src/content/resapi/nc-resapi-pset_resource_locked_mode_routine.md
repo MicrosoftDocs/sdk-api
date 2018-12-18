@@ -9,8 +9,6 @@ ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTINE callback function [Failover Cluster], SetResourceLockedMode, SetResourceLockedMode callback, SetResourceLockedMode callback function [Failover Cluster], mscs.setresourcelockedmode, resapi/PSET_RESOURCE_LOCKED_MODE_ROUTINE, resapi/SetResourceLockedMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

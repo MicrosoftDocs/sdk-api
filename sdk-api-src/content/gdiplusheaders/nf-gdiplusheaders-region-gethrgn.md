@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class, Region class [GDI+],GetHRGN method, Region.GetHRGN, Region::GetHRGN, _gdiplus_CLASS_Region_GetHRGN_g_, gdiplus._gdiplus_CLASS_Region_GetHRGN_g_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

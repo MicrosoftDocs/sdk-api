@@ -9,8 +9,6 @@ ms.assetid: 3d7601a5-6d22-4b1a-a222-9db46d21a3c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimeZoneInformation, GetTimeZoneInformation function, _win32_gettimezoneinformation, base.gettimezoneinformation, timezoneapi/GetTimeZoneInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

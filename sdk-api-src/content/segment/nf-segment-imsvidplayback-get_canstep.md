@@ -9,8 +9,6 @@ ms.assetid: 41aad247-1f04-4245-89df-8ac527926307
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CanStep method, IMSVidPlayback.get_CanStep, IMSVidPlayback::get_CanStep, IMSVidPlaybackget_CanStep, get_CanStep, get_CanStep method [Microsoft TV Technologies], get_CanStep method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_canstep, segment/IMSVidPlayback::get_CanStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -186,7 +184,7 @@ hr = m_pPlayback-&gt;get_CanStep(VARIANT_FALSE, &amp;fCan);
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

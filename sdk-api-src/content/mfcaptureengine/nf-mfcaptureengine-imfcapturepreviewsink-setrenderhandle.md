@@ -9,8 +9,6 @@ ms.assetid: 98D3EFC4-841D-41EC-BC5C-E67029663864
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetRenderHandle method, IMFCapturePreviewSink.SetRenderHandle, IMFCapturePreviewSink::SetRenderHandle, SetRenderHandle, SetRenderHandle method [Media Foundation], SetRenderHandle method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setrenderhandle, mfcaptureengine/IMFCapturePreviewSink::SetRenderHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

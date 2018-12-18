@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\iscompositionactive.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsCompositionActive, IsCompositionActive function [Windows Controls], _shell_IsCompositionActive, _shell_IsCompositionActive_cpp, controls.IsCompositionActive, controls._shell_IsCompositionActive, uxtheme/IsCompositionActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

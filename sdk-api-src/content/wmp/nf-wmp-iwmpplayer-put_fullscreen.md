@@ -9,8 +9,6 @@ ms.assetid: 50ce0115-9e49-4431-b818-35bdc34da9a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],put_fullScreen method, IWMPPlayer.put_fullScreen, IWMPPlayer::put_fullScreen, IWMPPlayerput_fullScreen, put_fullScreen, put_fullScreen method [Windows Media Player], put_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_put_fullscreen, wmp/IWMPPlayer::put_fullScreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,19 +119,19 @@ If transport controls are not displayed in full-screen mode, then Windows Media 
 
 
 
-<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/66769441-7923-45d2-b84f-24770537923c">IWMPPlayer::get_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563539(v=VS.85).aspx">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a8bb0b5-76c6-424f-ba37-5e913b6ed542">IWMPPlayer::get_fullScreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563541(v=VS.85).aspx">IWMPPlayer::get_fullScreen</a>
 
 
 
-<a href="https://msdn.microsoft.com/154db914-a0c3-44de-b692-e1b7f9c681f6">IWMPPlayer::put_uiMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563546(v=VS.85).aspx">IWMPPlayer::put_uiMode</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: efcb1913-edaf-454c-a317-c14349805a81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDrawEnd, ICDrawEnd macro [Windows Multimedia], _win32_ICDrawEnd, multimedia.icdrawend, vfw/ICDrawEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

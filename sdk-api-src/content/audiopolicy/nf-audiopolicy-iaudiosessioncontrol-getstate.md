@@ -9,8 +9,6 @@ ms.assetid: 9c0188a1-7982-40f0-9040-bda00473160c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetState method, IAudioSessionControl.GetState, IAudioSessionControl::GetState, IAudioSessionControlGetState, audiopolicy/IAudioSessionControl::GetState, coreaudio.iaudiosessioncontrol_getstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

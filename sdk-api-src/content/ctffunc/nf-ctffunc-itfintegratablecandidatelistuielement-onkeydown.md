@@ -9,8 +9,6 @@ ms.assetid: EF6A8FB1-9B48-44BE-A1B4-AA3F2EA0F6BA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],OnKeyDown method, ITfIntegratableCandidateListUIElement.OnKeyDown, ITfIntegratableCandidateListUIElement::OnKeyDown, OnKeyDown, OnKeyDown method [Text Services Framework], OnKeyDown method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::OnKeyDown, tsf.itfintegratablecandidatelistuielement_onkeydown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -105,7 +103,7 @@ The method was successful.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms538721(v=VS.85).aspx">OnKeyDown</a> method enables an app to ask query the text service if it wants to process a given key in an integration style.  The behavior of the <b>OnKeyDown</b> method can depend on the integration style. If the text service returns <i>*pfEaten</i>=<b>TRUE</b>, then the app should do
+The <a href="https://msdn.microsoft.com/684d3c01-fa95-4a19-b5fb-48a62315ce2f">OnKeyDown</a> method enables an app to ask query the text service if it wants to process a given key in an integration style.  The behavior of the <b>OnKeyDown</b> method can depend on the integration style. If the text service returns <i>*pfEaten</i>=<b>TRUE</b>, then the app should do
     no processing of the key. If <b>FALSE</b> is returned, the app can perform its own action in response to the key.
 
 <b>GUID_INTEGRATIONSTYLE_SEARCHBOX</b> ({E6D1BD11-82F7-4903-AE21-1A6397CDE2EB}) enables an implementation of a keyboarding experience in which the user can move perceived keyboard focus 
@@ -119,7 +117,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms538721(v=VS.85).aspx">On
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
  
 
  

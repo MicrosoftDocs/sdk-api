@@ -2,7 +2,7 @@
 UID: NA:evcoll
 ms.assetid: 48850291-5341-30aa-b795-92c8ca6ed55f
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary2 interface [Windows Media Player],getItemInfo method, IWMPLibrary2.getItemInfo, IWMPLibrary2::getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPLibrary2 interface, wmp.iwmplibrary2_getiteminfo, wmp/IWMPLibrary2::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>LibraryID</b> attribute that <a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a> retrieves for each media item in the library.
+The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>LibraryID</b> attribute that <a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a> retrieves for each media item in the library.
 
 
 
@@ -110,7 +108,7 @@ The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>Li
 
 
 
-<a href="https://msdn.microsoft.com/028250e7-7415-4643-b798-af0112c1ea93">IWMPLibrary2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798602(v=VS.85).aspx">IWMPLibrary2</a>
  
 
  

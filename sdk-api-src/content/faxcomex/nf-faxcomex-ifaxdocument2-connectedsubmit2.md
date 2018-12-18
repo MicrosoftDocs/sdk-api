@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\connecteds
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectedSubmit2, ConnectedSubmit2 method [Fax Service], ConnectedSubmit2 method [Fax Service],IFaxDocument2 interface, IFaxDocument2 interface [Fax Service],ConnectedSubmit2 method, IFaxDocument2.ConnectedSubmit2, IFaxDocument2::ConnectedSubmit2, _mfax_faxdocument2.connectedsubmit2, fax._mfax_faxdocument2_connectedsubmit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_connectedsubmit2_cpp, faxcomex/IFaxDocument2::ConnectedSubmit2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -98,17 +96,17 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <div class="alert"><b>Note</b>  To succeed, the <b>IFaxDocument2::ConnectedSubmit2</b> method requires that the fax have at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.</div>
 <div> </div>
-You must set the <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::ConnectedSubmit2</b>. 
+You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::ConnectedSubmit2</b>. 
 
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a> property must be <b>NULL</b> to use <b>IFaxDocument2::ConnectedSubmit2</b>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a> property must be <b>NULL</b> to use <b>IFaxDocument2::ConnectedSubmit2</b>.</div>
 <div> </div>
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
 
-To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a>:
+To illustrate <i>plErrorBodyFile</i>, here is an example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">IFaxDocument2::Bodies</a>:
 
 "MyTextFile.txt;AnotherTextFile.txt;MyPDFfile.pdf;MyWordFile.doc".
 

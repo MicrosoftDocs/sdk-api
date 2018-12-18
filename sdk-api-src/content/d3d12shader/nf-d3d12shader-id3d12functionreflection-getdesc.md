@@ -9,8 +9,6 @@ ms.assetid: CAFBC2D0-0C1C-4D55-87A4-C7ABB52976BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetDesc method, ID3D12FunctionReflection.GetDesc, ID3D12FunctionReflection::GetDesc, d3d12shader/ID3D12FunctionReflection::GetDesc, direct3d12.id3d12functionreflection_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
@@ -61,9 +59,9 @@ Fills the function descriptor structure for the function.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960192(v=VS.85).aspx">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
+A pointer to a <a href="https://msdn.microsoft.com/6FF99C49-B5B1-4969-86E2-828D584D1EA9">D3D12_FUNCTION_DESC</a> structure that receives a description of the function.
           
 
 

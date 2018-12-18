@@ -9,8 +9,6 @@ ms.assetid: b98ec1ee-8439-494b-b8e6-aa3d127042fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIntPtrToChar, UIntPtrToChar function [Windows Shell], intsafe/UIntPtrToChar, shell.UIntPtrToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

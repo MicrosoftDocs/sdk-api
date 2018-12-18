@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6ujo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],TSID property, IFaxIncomingMessage.TSID, IFaxIncomingMessage.get_TSID, IFaxIncomingMessage::TSID, IFaxIncomingMessage::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.tsid, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_tsid_cpp, fax._mfax_faxincomingmessage_tsid, faxcomex/IFaxIncomingMessage::TSID, faxcomex/IFaxIncomingMessage::get_TSID, get_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/29fa30c9-d4f2-4ed5-95fc-873f2263c7bb">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e66b30d-e74f-4c73-b005-acd2d0fd8893">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

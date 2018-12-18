@@ -9,8 +9,6 @@ ms.assetid: d5caa926-1223-4917-85ba-4f79731e955a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

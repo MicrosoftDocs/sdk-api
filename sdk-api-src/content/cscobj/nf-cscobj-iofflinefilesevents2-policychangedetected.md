@@ -7,10 +7,8 @@ old-location: of\iofflinefilesevents2_policychangedetected.htm
 tech.root: offlinefiles
 ms.assetid: 1009c67a-09f4-40ea-8aa9-fb42f1ab54ff
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PolicyChangeDetected method, IOfflineFilesEvents2.PolicyChangeDetected, IOfflineFilesEvents2::PolicyChangeDetected, PolicyChangeDetected, PolicyChangeDetected method [Offline Files], PolicyChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PolicyChangeDetected, of.iofflinefilesevents2_policychangedetected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

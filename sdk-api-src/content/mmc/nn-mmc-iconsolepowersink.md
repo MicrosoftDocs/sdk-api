@@ -9,8 +9,6 @@ ms.assetid: dd23c6dc-9219-4d13-b237-13405a2fcb5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

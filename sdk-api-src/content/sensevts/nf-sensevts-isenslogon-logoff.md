@@ -9,8 +9,6 @@ ms.assetid: b45658a1-d427-42b2-912c-5e5c36dab280
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensLogon interface [SENS],Logoff method, ISensLogon.Logoff, ISensLogon::Logoff, Logoff, Logoff method [SENS], Logoff method [SENS],ISensLogon interface, _zaw_isenslogon_logoff, sens.isenslogon_logoff, sensevts/ISensLogon::Logoff, syncmgr.isenslogon_logoff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

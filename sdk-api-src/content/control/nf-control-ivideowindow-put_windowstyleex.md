@@ -9,8 +9,6 @@ ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyleEx method, IVideoWindow.put_WindowStyleEx, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -120,7 +118,7 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

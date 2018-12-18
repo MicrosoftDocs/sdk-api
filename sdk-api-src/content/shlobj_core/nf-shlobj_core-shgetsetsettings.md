@@ -9,8 +9,6 @@ ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -64,7 +62,7 @@ Sets or retrieves Shell state settings.
 
 Type: <b>LPSHELLSTATE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/a5ba0e9f-d164-4fe6-97ab-34d61289ce1c">SHELLSTATE</a> structure that provides or receives the Shell state settings.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb759788(v=VS.85).aspx">SHELLSTATE</a> structure that provides or receives the Shell state settings.
 
 
 ### -param dwMask [in]

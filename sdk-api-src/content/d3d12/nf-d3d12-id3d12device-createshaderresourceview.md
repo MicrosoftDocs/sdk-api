@@ -9,8 +9,6 @@ ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView method, CreateShaderResourceView method,ID3D12Device interface, ID3D12Device interface,CreateShaderResourceView method, ID3D12Device.CreateShaderResourceView, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -106,7 +104,7 @@ YUV 4:2:0 formats are listed in <a href="https://msdn.microsoft.com/en-us/librar
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12Device::CreateShaderResourceView</b> as follows:
         
 
 Describe and create two shader resource views based on one description.
@@ -130,7 +128,7 @@ m_device->CreateShaderResourceView(m_particleBuffer1[index].Get(), &srvDesc, srv
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -141,7 +139,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],Item property, ICertSrvSetupKeyInformationCollection.Item, ICertSrvSetupKeyInformationCollection.get_Item, ICertSrvSetupKeyInformationCollection::Item, ICertSrvSetupKeyInformationCollection::get_Item, Item property [Security], Item property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::Item, casetup/ICertSrvSetupKeyInformationCollection::get_Item, get_Item, security.icertsrvsetupkeyinformationcollection_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>Item</b> property gets an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
+The <b>Item</b> property gets an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object that is identified by index in the collection.
 
 This property is read-only.
 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736373(v=VS.85).aspx">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
  
 
  

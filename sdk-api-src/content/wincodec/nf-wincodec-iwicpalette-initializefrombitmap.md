@@ -9,8 +9,6 @@ ms.assetid: f17d0f16-729e-466c-902f-61398daf2921
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromBitmap method, IWICPalette.InitializeFromBitmap, IWICPalette::InitializeFromBitmap, InitializeFromBitmap, InitializeFromBitmap method [Windows Imaging Component], InitializeFromBitmap method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrombitmap, wic._wic_codec_iwicpalette_initializefrombitmap, wincodec/IWICPalette::InitializeFromBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

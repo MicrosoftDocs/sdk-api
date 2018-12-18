@@ -9,8 +9,6 @@ ms.assetid: 512ce9f8-f96c-4ef4-be1f-234165219ff7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [Windows Multimedia], Create method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],Create method, IAVIStream.Create, IAVIStream::Create, _win32_IAVIStream_Create, multimedia.iavistream_create, vfw/IAVIStream::Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fhcfg.h
 req.include-header: 

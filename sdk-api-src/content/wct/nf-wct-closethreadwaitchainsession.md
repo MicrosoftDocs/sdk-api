@@ -9,8 +9,6 @@ ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wct.h
 req.include-header: 

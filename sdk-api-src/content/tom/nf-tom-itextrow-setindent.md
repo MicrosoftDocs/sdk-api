@@ -9,8 +9,6 @@ ms.assetid: 9846fbd5-c210-49c4-8abe-dfb9cb85f7ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetIndent method, ITextRow.SetIndent, ITextRow::SetIndent, SetIndent, SetIndent method [Windows Controls], SetIndent method [Windows Controls],ITextRow interface, controls.itextrow_setindent, tom/ITextRow::SetIndent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

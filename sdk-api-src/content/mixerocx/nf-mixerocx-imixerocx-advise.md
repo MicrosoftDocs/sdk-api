@@ -9,8 +9,6 @@ ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>Advise</code> method provides the Overlay Mixer with a pointer to the 
 
 ### -param pmdns [in]
 
-Specifies the client's <a href="https://msdn.microsoft.com/b73416c0-2312-4164-8a6d-f8776dc1447f">IMixerOCXNotify</a> interface.
+Specifies the client's <a href="https://msdn.microsoft.com/en-us/library/Dd407085(v=VS.85).aspx">IMixerOCXNotify</a> interface.
 
 
 ## -returns
@@ -90,7 +88,7 @@ Call this method if you wish to receive callbacks from the Overlay Mixer.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
 
 
 

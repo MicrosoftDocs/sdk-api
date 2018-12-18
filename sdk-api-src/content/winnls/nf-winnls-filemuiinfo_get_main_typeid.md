@@ -9,8 +9,6 @@ ms.assetid: 0102b364-ffc7-48a0-a7d1-5a64fba6428e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILEMUIINFO_GET_MAIN_TYPEID, FILEMUIINFO_GET_MAIN_TYPEID macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MAIN_TYPEID, intl.filemuiinfo_get_main_typeid, winnls/FILEMUIINFO_GET_MAIN_TYPEID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h

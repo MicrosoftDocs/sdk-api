@@ -9,8 +9,6 @@ ms.assetid: e0a0033c-2ea8-4e5b-bcae-680247ea6157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FilterReplyMessage, FilterReplyMessage function [Installable File System Drivers], FltWin32ApiRef_f89f529e-8396-4f15-ae63-6497c92aab1a.xml, fltuser/FilterReplyMessage, ifsk.filterreplymessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h

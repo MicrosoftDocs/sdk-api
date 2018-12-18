@@ -9,8 +9,6 @@ ms.assetid: 685eaf9e-6cc8-4c38-be34-afa4b504a326
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecInfo, GetCodecInfo method [windows Media Format], GetCodecInfo method [windows Media Format],IWMHeaderInfo2 interface, GetCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo2 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo2.GetCodecInfo, IWMHeaderInfo2::GetCodecInfo, IWMHeaderInfo2GetCodecInfo, IWMHeaderInfo3 interface [windows Media Format],GetCodecInfo method, IWMHeaderInfo3::GetCodecInfo, wmformat.iwmheaderinfo2_getcodecinfo, wmsdkidl/IWMHeaderInfo2::GetCodecInfo, wmsdkidl/IWMHeaderInfo3::GetCodecInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -93,7 +91,7 @@ Pointer to a wide-character <b>null</b>-terminated string buffer into which the 
 
 ### -param pCodecType [out]
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/31fcaa84-1b7e-407c-95dc-bf13263b788a">WMT_CODEC_INFO_TYPE</a> enumeration type.
+Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757837(v=VS.85).aspx">WMT_CODEC_INFO_TYPE</a> enumeration type.
 
 
 ### -param pcbCodecInfo [in, out]
@@ -131,19 +129,19 @@ Use this method, and the <b>GetCodecInfoCount</b> method, to enumerate through t
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f77f362-5cc7-4d12-9b5f-0436d490b46d">IWMHeaderInfo2::GetCodecInfoCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798507(v=VS.85).aspx">IWMHeaderInfo2::GetCodecInfoCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/31fcaa84-1b7e-407c-95dc-bf13263b788a">WMT_CODEC_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757837(v=VS.85).aspx">WMT_CODEC_INFO_TYPE</a>
  
 
  

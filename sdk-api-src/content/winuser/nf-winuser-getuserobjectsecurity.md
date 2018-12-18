@@ -9,8 +9,6 @@ ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

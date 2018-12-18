@@ -9,8 +9,6 @@ ms.assetid: c15a7473-41e5-4d84-aaaa-c547dd38826b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFP_GET_PLAYBACK_ENDED_EVENT, MFP_GET_PLAYBACK_ENDED_EVENT macro [Media Foundation], mf.mfp_get_playback_ended_event, mfplay/MFP_GET_PLAYBACK_ENDED_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

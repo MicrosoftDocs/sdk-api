@@ -9,8 +9,6 @@ ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure from an array of Boolean values.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure from an array of Boolean values.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ The number of elements in the array.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,7 +97,7 @@ Creates a VT_ARRAY | VT_BOOL variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,11 +126,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+<a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
+<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 2665d984-6a35-4950-92c0-82e7c8b633aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

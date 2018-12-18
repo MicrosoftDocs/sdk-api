@@ -9,8 +9,6 @@ ms.assetid: 7728930a-408d-445f-9b0d-9043912d4e72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMPageReferenceCollection.GetCount, IXpsOMPageReferenceCollection::GetCount, xps.ixpsompagereferencecollection_getcount, xpsobjectmodel/IXpsOMPageReferenceCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

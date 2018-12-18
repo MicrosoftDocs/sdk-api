@@ -9,8 +9,6 @@ ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

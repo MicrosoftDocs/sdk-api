@@ -9,8 +9,6 @@ ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMyTransactionVote, GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+],IContextState interface, IContextState interface [COM+],GetMyTransactionVote method, IContextState.GetMyTransactionVote, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

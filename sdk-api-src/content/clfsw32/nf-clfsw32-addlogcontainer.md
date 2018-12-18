@@ -9,8 +9,6 @@ ms.assetid: 5e886b96-9431-43f6-b888-e0f47c432371
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLogContainer, AddLogContainer function [Files], clfsw32/AddLogContainer, fs.addlogcontainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

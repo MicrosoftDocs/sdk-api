@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenNormals(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals, XMVector4AngleBetweenNormals method [DirectX Math Support APIs], dxmath.xmvector4anglebetweennormals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -96,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/7cd33504-6a00-4738-90a6-92e8b621e864">XMVector4AngleBetweenNormalsEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420952(v=VS.85).aspx">XMVector4AngleBetweenNormalsEst</a>
  
 
  

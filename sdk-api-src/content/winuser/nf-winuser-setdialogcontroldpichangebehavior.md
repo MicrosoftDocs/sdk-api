@@ -9,8 +9,6 @@ ms.assetid: 52BB557B-0D70-4189-9BD0-EB94188EA4E7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDialogControlDpiChangeBehavior, SetDialogResizeBehavior, SetDialogResizeBehavior function [High DPI], hidpi.setdialogresizebehavior, winuser/SetDialogResizeBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

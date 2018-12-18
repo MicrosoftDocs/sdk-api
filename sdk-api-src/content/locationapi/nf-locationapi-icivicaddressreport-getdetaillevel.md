@@ -9,8 +9,6 @@ ms.assetid: ec32dee1-e9ce-40a0-bca0-6f5f767b7604
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDetailLevel, GetDetailLevel method [WinLocation], GetDetailLevel method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetDetailLevel method, ICivicAddressReport.GetDetailLevel, ICivicAddressReport::GetDetailLevel, WinLocation_COM_Ref.icivicaddressreport_getdetaillevel, locationapi/ICivicAddressReport::GetDetailLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

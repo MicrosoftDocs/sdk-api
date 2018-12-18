@@ -9,8 +9,6 @@ ms.assetid: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272, GetCurrentProxy, GetCurrentProxy method [Media Foundation], GetCurrentProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],GetCurrentProxy method, IMFNetProxyLocator.GetCurrentProxy, IMFNetProxyLocator::GetCurrentProxy, mf.imfnetproxylocator_getcurrentproxy, mfidl/IMFNetProxyLocator::GetCurrentProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

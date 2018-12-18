@@ -9,8 +9,6 @@ ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

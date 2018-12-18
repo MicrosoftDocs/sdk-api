@@ -9,8 +9,6 @@ ms.assetid: 3538213f-b9c3-474c-a847-40915c8961dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectionMode property, IInkOverlay.CollectionMode, IInkOverlay.get_CollectionMode, IInkOverlay::CollectionMode, IInkOverlay::get_CollectionMode, IInkOverlay::put_CollectionMode, InkOverlay.get_CollectionMode, InkOverlay.put_CollectionMode, get_CollectionMode, msinkaut/IInkOverlay::CollectionMode, msinkaut/IInkOverlay::get_CollectionMode, msinkaut/IInkOverlay::put_CollectionMode, tablet.inkoverlay_collectionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -130,7 +128,7 @@ When <a href="https://msdn.microsoft.com/390fa1a1-254a-4070-806c-c8c478f69254">C
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadEnclaveIUmageA, LoadEnclaveImage, LoadEnclaveImage function, LoadEnclaveImageW, base.loadenclaveimage, enclaveapi/LoadEnclaveIUmageA, enclaveapi/LoadEnclaveImage, enclaveapi/LoadEnclaveImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 

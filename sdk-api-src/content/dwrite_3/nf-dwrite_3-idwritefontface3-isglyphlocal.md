@@ -9,8 +9,6 @@ ms.assetid: def185b6-a717-5390-8521-46e38335800b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsGlyphLocal method, IDWriteFontFace3.IsGlyphLocal, IDWriteFontFace3::IsGlyphLocal, IsGlyphLocal, IsGlyphLocal method [Direct Write], IsGlyphLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_isglyphlocal, dwrite_3/IDWriteFontFace3::IsGlyphLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -81,7 +79,7 @@ Returns TRUE if the font has the specified glyph locally available.
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

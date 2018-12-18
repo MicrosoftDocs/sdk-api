@@ -9,8 +9,6 @@ ms.assetid: 89d7362e-0814-4f7e-a27f-8a297e210559
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseThreadpoolWork, CloseThreadpoolWork function, base.closethreadpoolwork, threadpoolapiset/CloseThreadpoolWork, winbase/CloseThreadpoolWork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

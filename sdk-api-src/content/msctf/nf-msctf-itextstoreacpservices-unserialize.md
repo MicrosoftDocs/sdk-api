@@ -9,8 +9,6 @@ ms.assetid: 4eb2f2b9-51fb-4970-a195-c05e1d19ff99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Unserialize method, ITextStoreACPServices.Unserialize, ITextStoreACPServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_unserialize_ref, msctf/ITextStoreACPServices::Unserialize, tsf.itextstoreacpservices_unserialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

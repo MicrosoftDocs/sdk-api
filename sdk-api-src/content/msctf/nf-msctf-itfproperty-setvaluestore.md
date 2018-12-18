@@ -9,8 +9,6 @@ ms.assetid: 146af429-54a8-41b6-b44e-b5d35f933435
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValueStore method, ITfProperty.SetValueStore, ITfProperty::SetValueStore, SetValueStore, SetValueStore method [Text Services Framework], SetValueStore method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvaluestore_ref, msctf/ITfProperty::SetValueStore, tsf.itfproperty_setvaluestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

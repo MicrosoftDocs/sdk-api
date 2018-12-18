@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpestats.TCP_SOFT_ERROR
+UID: NE:tcpestats.__unnamed_enum_1
 title: TCP_SOFT_ERROR
 author: windows-sdk-content
 description: Defines the reason for non-fatal or soft errors recorded on a TCP connection.
@@ -7,10 +7,8 @@ old-location: iphlp\tcp_soft_error.htm
 tech.root: IpHlp
 ms.assetid: dd179e9b-86e6-48e8-bb4b-05d69b9794b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTCP_SOFT_ERROR, TCP_SOFT_ERROR, TCP_SOFT_ERROR enumeration [IP Helper], TcpErrorAboveAckWindow, TcpErrorAboveDataWindow, TcpErrorAboveTsWindow, TcpErrorBelowAckWindow, TcpErrorBelowDataWindow, TcpErrorBelowTsWindow, TcpErrorDataChecksumError, TcpErrorDataLengthError, TcpErrorMaxSoftError, TcpErrorNone, iphlp.tcp_soft_error, tcpestats/TCP_SOFT_ERROR, tcpestats/TcpErrorAboveAckWindow, tcpestats/TcpErrorAboveDataWindow, tcpestats/TcpErrorAboveTsWindow, tcpestats/TcpErrorBelowAckWindow, tcpestats/TcpErrorBelowDataWindow, tcpestats/TcpErrorBelowTsWindow, tcpestats/TcpErrorDataChecksumError, tcpestats/TcpErrorDataLengthError, tcpestats/TcpErrorMaxSoftError, tcpestats/TcpErrorNone"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: tcpestats.h
 req.include-header: 
@@ -120,7 +118,7 @@ This value is not defined in the IETF draft RFC on the TCP Extended Statistics M
 
 ### -field TcpErrorMaxSoftError
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/dd179e9b-86e6-48e8-bb4b-05d69b9794b2">TCP_SOFT_ERROR</a>_STATE enumeration type. This is not a legal value for the reason for a soft error for a TCP connection.
+The maximum possible value for the <a href="https://msdn.microsoft.com/en-us/library/Bb427396(v=VS.85).aspx">TCP_SOFT_ERROR</a>_STATE enumeration type. This is not a legal value for the reason for a soft error for a TCP connection.
 
 
 ## -remarks
@@ -148,7 +146,7 @@ The values in this enumeration are defined in the IETF draft RFC on the TCP Exte
 
 
 
-<a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a>
  
 
  

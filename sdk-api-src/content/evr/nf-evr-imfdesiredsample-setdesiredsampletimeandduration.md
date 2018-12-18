@@ -9,8 +9,6 @@ ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [Media Foundation],SetDesiredSampleTimeAndDuration method, IMFDesiredSample.SetDesiredSampleTimeAndDuration, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

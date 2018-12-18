@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitems
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchItemsChangedSink interface [search],OnItemsChanged method, ISearchItemsChangedSink.OnItemsChanged, ISearchItemsChangedSink::OnItemsChanged, OnItemsChanged, OnItemsChanged method [search], OnItemsChanged method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_OnItemsChanged, search._search_ISearchItemsChangedSink_OnItemsChanged, searchapi/ISearchItemsChangedSink::OnItemsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

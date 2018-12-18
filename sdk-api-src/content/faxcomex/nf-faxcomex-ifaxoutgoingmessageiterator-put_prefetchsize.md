@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_12w5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],PrefetchSize property, IFaxOutgoingMessageIterator.PrefetchSize, IFaxOutgoingMessageIterator.get_PrefetchSize, IFaxOutgoingMessageIterator.put_PrefetchSize, IFaxOutgoingMessageIterator::PrefetchSize, IFaxOutgoingMessageIterator::get_PrefetchSize, IFaxOutgoingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.prefetchsize, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp, fax._mfax_faxoutgoingmessageiterator_prefetchsize, faxcomex/IFaxOutgoingMessageIterator::PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::put_PrefetchSize, lDEFAULT_PREFETCH_SIZE, put_PrefetchSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,19 +65,19 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/4eab8319-23ff-4f25-9402-bcb53a440879">FaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690094(v=VS.85).aspx">FaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a34e012-33ae-4950-9f10-a3ad94142ef1">IFaxOutgoingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690096(v=VS.85).aspx">IFaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
 
 
 
-<a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689196(v=VS.85).aspx">lDEFAULT_PREFETCH_SIZE</a>
  
 
  

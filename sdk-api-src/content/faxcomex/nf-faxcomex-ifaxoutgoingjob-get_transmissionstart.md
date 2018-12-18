@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_27w4.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionStart property, IFaxOutgoingJob.TransmissionStart, IFaxOutgoingJob.get_TransmissionStart, IFaxOutgoingJob::TransmissionStart, IFaxOutgoingJob::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionstart, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionstart_cpp, fax._mfax_faxoutgoingjob_transmissionstart, faxcomex/IFaxOutgoingJob::TransmissionStart, faxcomex/IFaxOutgoingJob::get_TransmissionStart, get_TransmissionStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ In the case of a failed fax, this property will be assigned a value of zero. If 
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

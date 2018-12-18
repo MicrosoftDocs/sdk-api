@@ -9,8 +9,6 @@ ms.assetid: 29a08f6e-17a7-4bff-9aea-d5586d2b55b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnable, GetEnable method [Windows Media Player], GetEnable method [Windows Media Player],IWMPPluginEnable interface, IWMPPluginEnable interface [Windows Media Player],GetEnable method, IWMPPluginEnable.GetEnable, IWMPPluginEnable::GetEnable, IWMPPluginEnableGetEnableDSP, wmp.iwmppluginenable_getenable, wmpservices/IWMPPluginEnable::GetEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -89,11 +87,11 @@ This value is set by Windows Media Player in the <b>IWMPPluginEnable::SetEnable<
 
 
 
-<a href="https://msdn.microsoft.com/997708e2-18fa-436f-9ca1-cdde5c7414fc">IWMPPluginEnable Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563584(v=VS.85).aspx">IWMPPluginEnable Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b8e79b-e9bd-40e5-ab58-11469406110a">IWMPPluginEnable::SetEnable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563587(v=VS.85).aspx">IWMPPluginEnable::SetEnable</a>
  
 
  

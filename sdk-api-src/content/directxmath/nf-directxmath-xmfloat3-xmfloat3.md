@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT3, XMFLOAT3 constructor [DirectX Math Support APIs], XMFLOAT3 constructor [DirectX Math Support APIs],XMFLOAT3 structure, XMFLOAT3 structure [DirectX Math Support APIs],XMFLOAT3 constructor, XMFLOAT3.XMFLOAT3, XMFLOAT3.XMFLOAT3(), XMFLOAT3::XMFLOAT3, dxmath.xmfloat3_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMFLOAT3</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b
 
 
 
-<a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/77dce57c-0e48-41e4-b02c-0201fbd3ef24">XMFLOAT3 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415292(v=VS.85).aspx">XMFLOAT3 Constructors</a>
  
 
  

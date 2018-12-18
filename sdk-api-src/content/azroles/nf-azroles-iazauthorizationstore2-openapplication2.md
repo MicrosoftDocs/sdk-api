@@ -9,8 +9,6 @@ ms.assetid: 8705ea59-2419-4af5-9cc2-591221e09073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzAuthorizationStore2 interface [Security],OpenApplication2 method, IAzAuthorizationStore2.OpenApplication2, IAzAuthorizationStore2::OpenApplication2, OpenApplication2, OpenApplication2 method [Security], OpenApplication2 method [Security],IAzAuthorizationStore2 interface, azroles/IAzAuthorizationStore2::OpenApplication2, security.iazauthorizationstore2_openapplication2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>OpenApplication2</b> method opens the <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object with the specified name.
+The <b>OpenApplication2</b> method opens the <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>OpenApplication2</b> method opens the <a href="https://msdn.microsoft.com
 
 ### -param bstrApplicationName [in]
 
-The name of the <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object to open.
+The name of the <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +68,7 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/en-us/library/Aa446685(v=VS.85).aspx">IAzApplication2</a> object.
+A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a> object.
 
 
 ## -returns
@@ -79,7 +77,7 @@ A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/en-us/l
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

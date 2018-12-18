@@ -9,8 +9,6 @@ ms.assetid: 3dc39c2a-d621-4f46-b65b-eb8a531e5abe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrRChrI, StrRChrI function [Windows Shell], StrRChrIA, StrRChrIW, shell.StrRChrI, shlwapi/StrRChrI, shlwapi/StrRChrIA, shlwapi/StrRChrIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

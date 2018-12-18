@@ -9,8 +9,6 @@ ms.assetid: 4fea0a48-df5f-4f34-a3ea-d52883f6f8b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], ITfContextOwnerCompositionSink interface [Text Services Framework],described, _tsf_itfcontextownercompositionsink_ref, msctf/ITfContextOwnerCompositionSink, tsf.itfcontextownercompositionsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

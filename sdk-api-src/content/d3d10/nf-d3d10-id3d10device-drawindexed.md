@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_drawindexed.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9c08e40b-b454-48b6-c9b7-35fc68d81999, DrawIndexed, DrawIndexed method [Direct3D 10], DrawIndexed method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexed method, ID3D10Device.DrawIndexed, ID3D10Device::DrawIndexed, d3d10/ID3D10Device::DrawIndexed, direct3d10.id3d10device_drawindexed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,21 +59,21 @@ Draw indexed, non-instanced primitives.
 
 ### -param IndexCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of indices to draw.
 
 
 ### -param StartIndexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index of the first index to use when accesssing the vertex buffer; begin at <i>StartIndexLocation</i> to index vertices from the vertex buffer.
 
 
 ### -param BaseVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 Offset from the start of the vertex buffer to the first vertex.
 

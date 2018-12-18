@@ -9,8 +9,6 @@ ms.assetid: 62db148e-926d-47b3-a0f6-945730177184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize method, IStreamConcatenate.Initialize, IStreamConcatenate::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

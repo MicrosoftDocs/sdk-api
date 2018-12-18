@@ -9,8 +9,6 @@ ms.assetid: A50A8309-08F7-4868-AB95-A825C60C7E9E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterY method, IDCompositionScaleTransform3D.SetCenterY, IDCompositionScaleTransform3D::SetCenterY, IDCompositionScaleTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterY, directcomp.idcompositionscaletransform3d_setcentery_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform3D</a>
 
 
 

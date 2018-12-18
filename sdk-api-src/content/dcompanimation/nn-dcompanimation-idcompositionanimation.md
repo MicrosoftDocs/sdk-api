@@ -9,8 +9,6 @@ ms.assetid: f914e14b-4ac0-4591-9b7f-6b45b88baaaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], IDCompositionAnimation interface [DirectComposition],described, dcompanimation/IDCompositionAnimation, directcomp.idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcompanimation.h
 req.include-header: 
@@ -130,7 +128,7 @@ Sets the absolute time at which the animation function starts.
 
 
 
-<a href="https://msdn.microsoft.com/e32193b2-de93-417e-9fe0-49f8e45f7a01">IDCompositionDevice::CreateAnimation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437394(v=VS.85).aspx">IDCompositionDevice::CreateAnimation</a>
  
 
  

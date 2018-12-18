@@ -9,8 +9,6 @@ ms.assetid: 6ec54350-0359-4759-a6ba-6132ce33feff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_isIdentical method, IWMPMedia.get_isIdentical, IWMPMedia2 interface [Windows Media Player],get_isIdentical method, IWMPMedia2::get_isIdentical, IWMPMedia3 interface [Windows Media Player],get_isIdentical method, IWMPMedia3::get_isIdentical, IWMPMedia::get_isIdentical, IWMPMediaget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPMedia interface, get_isIdentical method [Windows Media Player],IWMPMedia2 interface, get_isIdentical method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_isidentical, wmp/IWMPMedia2::get_isIdentical, wmp/IWMPMedia3::get_isIdentical, wmp/IWMPMedia::get_isIdentical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -106,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: becd1edd-d06d-4328-8a7a-678f893bad3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHorizonSize method, IRdcGeneratorFilterMaxParameters.SetHorizonSize, IRdcGeneratorFilterMaxParameters::SetHorizonSize, SetHorizonSize, SetHorizonSize method [Remote Differential Compression], SetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_sethorizonsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

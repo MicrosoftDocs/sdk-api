@@ -9,8 +9,6 @@ ms.assetid: CF31D96A-EC84-4911-81A2-82EC90D417B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadDpiHostingBehavior, SetThreadDpiHostingBehavior function [High DPI], hidpi.setthreaddpihostingbehavior, winuser/SetThreadDpiHostingBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

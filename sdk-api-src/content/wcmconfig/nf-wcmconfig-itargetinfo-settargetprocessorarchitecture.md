@@ -9,8 +9,6 @@ ms.assetid: 15056182-4355-48f5-b996-195e3c72235e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetProcessorArchitecture method, ITargetInfo.SetTargetProcessorArchitecture, ITargetInfo::SetTargetProcessorArchitecture, SetTargetProcessorArchitecture, SetTargetProcessorArchitecture method [SMI], SetTargetProcessorArchitecture method [SMI],ITargetInfo interface, smi.itargetinfo_settargetprocessorarchitecture, wcmconfig/ITargetInfo::SetTargetProcessorArchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

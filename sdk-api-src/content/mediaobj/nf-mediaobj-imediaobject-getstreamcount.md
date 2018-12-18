@@ -9,8 +9,6 @@ ms.assetid: 05c28b44-6b92-418b-bb3f-889e59f4e0c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamCount, GetStreamCount method [DirectShow], GetStreamCount method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetStreamCount method, IMediaObject.GetStreamCount, IMediaObject::GetStreamCount, IMediaObjectGetStreamCount, dshow.imediaobject_getstreamcount, mediaobj/IMediaObject::GetStreamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -125,7 +123,7 @@ The DMO might have zero input streams or zero output streams. The number of stre
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

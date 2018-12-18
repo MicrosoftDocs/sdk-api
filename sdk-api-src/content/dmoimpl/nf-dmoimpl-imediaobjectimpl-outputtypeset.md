@@ -9,8 +9,6 @@ ms.assetid: 4a2a2944-79ff-4173-b938-7b8a1203ec36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputTypeSet method, IMediaObjectImpl.OutputTypeSet, IMediaObjectImpl::OutputTypeSet, IMediaObjectImplOutputTypeSet, OutputTypeSet, OutputTypeSet method [DirectShow], OutputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputTypeSet, dshow.imediaobjectimpl_outputtypeset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 

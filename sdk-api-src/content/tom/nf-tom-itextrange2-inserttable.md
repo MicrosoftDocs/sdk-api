@@ -9,8 +9,6 @@ ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange2 interface [Windows Controls],InsertTable method, ITextRange2.InsertTable, ITextRange2::InsertTable, InsertTable, InsertTable method [Windows Controls], InsertTable method [Windows Controls],ITextRange2 interface, controls.itextrange2_inserttable, tom/ITextRange2::InsertTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

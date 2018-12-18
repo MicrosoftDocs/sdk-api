@@ -9,8 +9,6 @@ ms.assetid: 455d087d-a6f5-45ab-9c0d-c46e721cba6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],put_Seed method, IStreamPseudoRandomBased.put_Seed, IStreamPseudoRandomBased::put_Seed, imapi.istreampseudorandombased_put_seed, imapi2/IStreamPseudoRandomBased::put_Seed, put_Seed, put_Seed method [IMAPI], put_Seed method [IMAPI],IStreamPseudoRandomBased interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

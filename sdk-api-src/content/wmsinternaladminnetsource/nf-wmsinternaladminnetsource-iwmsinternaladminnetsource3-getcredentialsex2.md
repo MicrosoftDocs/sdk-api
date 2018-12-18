@@ -9,8 +9,6 @@ ms.assetid: e351f403-4699-4666-b98f-2aed0b80e548
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCredentialsEx2, GetCredentialsEx2 method [windows Media Format], GetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],GetCredentialsEx2 method, IWMSInternalAdminNetSource3.GetCredentialsEx2, IWMSInternalAdminNetSource3::GetCredentialsEx2, IWMSInternalAdminNetSource3GetCredentialsEx2, wmformat.iwmsinternaladminnetsource3_getcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::GetCredentialsEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -88,7 +86,7 @@ Boolean value that is True if the cached credentials were previously sent over t
 
 ### -param pdwUrlPolicy [out]
 
-Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/d4ffdbc8-123e-4cb4-bcc9-8d52c3362529">NETSOURCE_URLCREDPOLICY_SETTINGS</a> enumeration type. This value is based on the user's network security settings and determines whether your application can automatically log in to sites for the user if you have credentials cached.
+Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757544(v=VS.85).aspx">NETSOURCE_URLCREDPOLICY_SETTINGS</a> enumeration type. This value is based on the user's network security settings and determines whether your application can automatically log in to sites for the user if you have credentials cached.
 
 
 ### -param pbstrName [out]
@@ -120,11 +118,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67">IWMSInternalAdminNetSource3::SetCredentialsEx2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798534(v=VS.85).aspx">IWMSInternalAdminNetSource3::SetCredentialsEx2</a>
  
 
  

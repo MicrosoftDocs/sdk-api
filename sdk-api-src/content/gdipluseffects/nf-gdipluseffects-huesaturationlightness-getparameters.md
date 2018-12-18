@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],HueSaturationLightness class, HueSaturationLightness class [GDI+],GetParameters method, HueSaturationLightness.GetParameters, HueSaturationLightness::GetParameters, _gdiplus_CLASS_HueSaturationLightness_GetParameters_, gdiplus._gdiplus_CLASS_HueSaturationLightness_GetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

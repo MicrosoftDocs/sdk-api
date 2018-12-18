@@ -9,8 +9,6 @@ ms.assetid: cae669dc-899b-4485-b70a-5f58207a07df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceGuidToLuid, ConvertInterfaceGuidToLuid function [IP Helper], iphlp.convertinterfaceguidtoluid, netioapi/ConvertInterfaceGuidToLuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

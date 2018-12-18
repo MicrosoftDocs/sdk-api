@@ -9,8 +9,6 @@ ms.assetid: 5625b73c-8033-4930-af26-e7c4b4fb6516
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Hue method, IVideoProcAmp.getRange_Hue, IVideoProcAmp::getRange_Hue, IVideoProcAmpgetRange_Hue, dshow.ivideoprocamp_getrange_hue, getRange_Hue, getRange_Hue method [DirectShow], getRange_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Hue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -80,7 +78,7 @@ Receives the default hue setting.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +99,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

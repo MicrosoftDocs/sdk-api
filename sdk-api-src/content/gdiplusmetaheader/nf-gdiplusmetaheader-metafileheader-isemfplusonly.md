@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\met
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsEmfPlusOnly, IsEmfPlusOnly method [GDI+], IsEmfPlusOnly method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusOnly method, MetafileHeader.IsEmfPlusOnly, MetafileHeader::IsEmfPlusOnly, _gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 10c0b02e-965e-47ca-95f4-237c21b505ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_MultisessionInterfaces method, IFileSystemImage.get_MultisessionInterfaces, IFileSystemImage::get_MultisessionInterfaces, get_MultisessionInterfaces, get_MultisessionInterfaces method [IMAPI], get_MultisessionInterfaces method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_multisessioninterfaces, imapi2fs/IFileSystemImage::get_MultisessionInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

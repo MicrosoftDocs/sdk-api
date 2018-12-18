@@ -9,8 +9,6 @@ ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], AnalyzeContainerType method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],AnalyzeContainerType method, IDWriteFactory5.AnalyzeContainerType, IDWriteFactory5::AnalyzeContainerType, directwrite.idwritefactory5_analyzecontainertype, dwrite_3/IDWriteFactory5::AnalyzeContainerType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -77,7 +75,7 @@ Size of the buffer passed in fileData.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/93275F1D-A25C-4BDD-B278-DA56ADB3436D">DWRITE_CONTAINER_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807680(v=VS.85).aspx">DWRITE_CONTAINER_TYPE</a></b>
 
 Returns the container type if recognized. DWRITE_CONTAINER_TYPE_UNKOWNN is returned for all other files, including uncompressed font files.
 
@@ -89,7 +87,7 @@ Returns the container type if recognized. DWRITE_CONTAINER_TYPE_UNKOWNN is retur
 
 
 
-<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
  
 
  

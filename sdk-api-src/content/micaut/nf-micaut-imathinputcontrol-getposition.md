@@ -9,8 +9,6 @@ ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPosition method, IMathInputControl.GetPosition, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

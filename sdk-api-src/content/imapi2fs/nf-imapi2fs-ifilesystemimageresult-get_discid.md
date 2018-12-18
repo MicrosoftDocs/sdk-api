@@ -9,8 +9,6 @@ ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.CreateFromMatrix
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],CreateFromMatrix method, BoundingFrustum.CreateFromMatrix, BoundingFrustum::CreateFromMatrix, CreateFromMatrix, CreateFromMatrix method [DirectX Math Support APIs], CreateFromMatrix method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_createfrommatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from the specified projection matrix.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a> from the specified projection matrix.
 
 
 ## -parameters
@@ -60,12 +58,12 @@ Creates a <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F5
 
 ### -param Out [out, ref]
 
-The new <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+The new <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>.
 
 
 ### -param Projection [in]
 
-The left-handed projection matrix to create the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> from.
+The left-handed projection matrix to create the <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a> from.
 
 
 ## -returns
@@ -92,11 +90,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>
 
 
 
-<a href="https://msdn.microsoft.com/85A76263-92C4-4AF1-BFDE-C68A30CD5583">Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
 
 
 

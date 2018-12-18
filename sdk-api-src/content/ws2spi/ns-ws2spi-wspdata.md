@@ -9,8 +9,6 @@ ms.assetid: 0592aa8f-5fac-4bbd-9fb8-e61d374ad0a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPWSPDATA, LPWSPDATA, LPWSPDATA structure pointer [Winsock], WSPDATA, WSPDATA structure [Winsock], _win32_wspdata_2, winsock.wspdata_2, ws2spi/LPWSPDATA, ws2spi/WSPDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2spi.h
 req.include-header: 

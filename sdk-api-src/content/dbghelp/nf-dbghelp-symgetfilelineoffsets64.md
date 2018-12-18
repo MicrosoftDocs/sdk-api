@@ -9,8 +9,6 @@ ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetFileLineOffsets64, SymGetFileLineOffsets64 function, base.symgetfilelineoffsets64, dbghelp/SymGetFileLineOffsets64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

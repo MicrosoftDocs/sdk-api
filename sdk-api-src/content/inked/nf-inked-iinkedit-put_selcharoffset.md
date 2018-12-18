@@ -9,8 +9,6 @@ ms.assetid: 535224ff-0b91-4814-8100-b6a52afee370
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, IInkEdit interface [Tablet PC],SelCharOffset property, IInkEdit.SelCharOffset, IInkEdit.put_SelCharOffset, IInkEdit::SelCharOffset, IInkEdit::get_SelCharOffset, IInkEdit::put_SelCharOffset, InkEdit.get_SelCharOffset, InkEdit.put_SelCharOffset, NULL, Negative integer, Positive integer, SelCharOffset property [Tablet PC], SelCharOffset property [Tablet PC],IInkEdit interface, get_SelCharOffset, inked/IInkEdit::SelCharOffset, inked/IInkEdit::get_SelCharOffset, inked/IInkEdit::put_SelCharOffset, put_SelCharOffset, tablet.inkedit_selcharoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -67,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

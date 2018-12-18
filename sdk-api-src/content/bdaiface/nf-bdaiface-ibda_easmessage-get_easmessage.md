@@ -9,8 +9,6 @@ ms.assetid: ac6454f2-28e6-4cb2-8b48-517d4dd8509c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_EasMessage interface [Microsoft TV Technologies],get_EasMessage method, IBDA_EasMessage.get_EasMessage, IBDA_EasMessage::get_EasMessage, IBDA_EasMessageget_EasMessage, bdaiface/IBDA_EasMessage::get_EasMessage, get_EasMessage, get_EasMessage method [Microsoft TV Technologies], get_EasMessage method [Microsoft TV Technologies],IBDA_EasMessage interface, mstv.ibda_easmessage_get_easmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -65,7 +63,7 @@ Specifies the event ID of the EAS message.
 
 ### -param ppEASObject [in, out]
 
-Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="https://msdn.microsoft.com/en-us/library/Dd694883(v=VS.85).aspx">ISCTE_EAS</a> interface.
+Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="https://msdn.microsoft.com/7b5620c3-f460-4118-a8a2-9b2561bd12cf">ISCTE_EAS</a> interface.
 
 
 ## -returns

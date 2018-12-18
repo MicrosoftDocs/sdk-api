@@ -9,8 +9,6 @@ ms.assetid: 37288625-368f-41d4-bfdc-bb2fd144f455
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentProfileId, GetCurrentProfileId method [DirectShow], GetCurrentProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfileId method, IConfigAsfWriter.GetCurrentProfileId, IConfigAsfWriter::GetCurrentProfileId, IConfigAsfWriterGetCurrentProfileId, dshow.iconfigasfwriter_getcurrentprofileid, dshowasf/IConfigAsfWriter::GetCurrentProfileId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -79,7 +77,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-This method is obsolete because it applies only to version 4.0 Windows Media Format SDK profiles. Applications should call <a href="https://msdn.microsoft.com/1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
+This method is obsolete because it applies only to version 4.0 Windows Media Format SDK profiles. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd312026(v=VS.85).aspx">IConfigAsfWriter::GetCurrentProfile</a> to get the current profile.
 
 
 
@@ -97,7 +95,7 @@ This method is obsolete because it applies only to version 4.0 Windows Media For
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

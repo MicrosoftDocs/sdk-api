@@ -9,8 +9,6 @@ ms.assetid: e90c5bc6-fc0a-4478-aa65-9dc6618f46f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxNumberOfBytesRequiredForResolution, GetMaxNumberOfBytesRequiredForResolution method [Media Foundation], GetMaxNumberOfBytesRequiredForResolution method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],GetMaxNumberOfBytesRequiredForResolution method, IMFByteStreamHandler.GetMaxNumberOfBytesRequiredForResolution, IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution, e90c5bc6-fc0a-4478-aa65-9dc6618f46f0, mf.imfbytestreamhandler_getmaxnumberofbytesrequiredforresolution, mfidl/IMFByteStreamHandler::GetMaxNumberOfBytesRequiredForResolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

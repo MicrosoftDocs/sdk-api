@@ -9,8 +9,6 @@ ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h

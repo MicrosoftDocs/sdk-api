@@ -9,8 +9,6 @@ ms.assetid: a42c0a20-9c72-48d3-8432-15b73ff211d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetShellItem method, IKnownFolder.GetShellItem, IKnownFolder::GetShellItem, _shell_IKnownFolder_GetShellItem, shell.IKnownFolder_GetShellItem, shobjidl_core/IKnownFolder::GetShellItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -62,7 +60,7 @@ Retrieves the location of a known folder in the Shell namespace in the form of a
 
 Type: <b>DWORD</b>
 
-Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param riid

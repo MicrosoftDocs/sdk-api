@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 945f6e77-19f2-e9bf-18a4-09747a9990f3, GetDC, GetDC method [Direct3D 9], GetDC method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDC method, IDirect3DSurface9.GetDC, IDirect3DSurface9::GetDC, d3d9helper/IDirect3DSurface9::GetDC, direct3d9.idirect3dsurface9__getdc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.DS_DOMAIN_CONTROLLER_INFO_2W
+UID: NS:ntdsapi.__unnamed_struct_16
 title: DS_DOMAIN_CONTROLLER_INFO_2W
 author: windows-sdk-content
 description: The DS_DOMAIN_CONTROLLER_INFO_2 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
@@ -7,10 +7,8 @@ old-location: ad\ds_domain_controller_info_2.htm
 tech.root: ad
 ms.assetid: 9d45b732-363d-4b20-ae5c-e9e76264bf1f
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_2W, DS_DOMAIN_CONTROLLER_INFO_2, DS_DOMAIN_CONTROLLER_INFO_2 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_2A, DS_DOMAIN_CONTROLLER_INFO_2W, PDS_DOMAIN_CONTROLLER_INFO_2, PDS_DOMAIN_CONTROLLER_INFO_2 structure pointer [Active Directory], ad.ds_domain_controller_info_2, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_2W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
@@ -61,72 +59,12 @@ The <b>DS_DOMAIN_CONTROLLER_INFO_2</b> structure contains data about a domain co
 
 
 
-### -field NetbiosName.string
+### -field string
 
  
 
 
-### -field NetbiosName.unique
-
- 
-
-
-### -field DnsHostName.string
-
- 
-
-
-### -field DnsHostName.unique
-
- 
-
-
-### -field SiteName.string
-
- 
-
-
-### -field SiteName.unique
-
- 
-
-
-### -field SiteObjectName.string
-
- 
-
-
-### -field SiteObjectName.unique
-
- 
-
-
-### -field ComputerObjectName.string
-
- 
-
-
-### -field ComputerObjectName.unique
-
- 
-
-
-### -field ServerObjectName.string
-
- 
-
-
-### -field ServerObjectName.unique
-
- 
-
-
-### -field NtdsDsaObjectName.string
-
- 
-
-
-### -field NtdsDsaObjectName.unique
+### -field unique
 
  
 

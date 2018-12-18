@@ -9,8 +9,6 @@ ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -98,7 +96,7 @@ The method succeeded.
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/7e36b94b-e6d3-46a0-8874-edd545e0e5b1">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
+This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Dd798762(v=VS.85).aspx">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
 
 
 
@@ -108,7 +106,7 @@ This method is equivalent to the <a href="https://msdn.microsoft.com/7e36b94b-e6
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
  
 
  

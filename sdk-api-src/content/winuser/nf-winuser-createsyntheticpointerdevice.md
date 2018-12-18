@@ -9,8 +9,6 @@ ms.assetid: 251F837F-DF9A-4A94-B790-73AA7196E4A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSyntheticPointerDevice, CreateSyntheticPointerDevice function, input_pointerdevice.createsyntheticpointerdevice, winuser/CreateSyntheticPointerDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

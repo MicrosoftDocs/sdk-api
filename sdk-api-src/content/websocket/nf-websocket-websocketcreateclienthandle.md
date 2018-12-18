@@ -9,8 +9,6 @@ ms.assetid: c61992cc-7715-4fad-a66a-916402088ad0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

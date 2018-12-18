@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeTextExtent, GetThemeTextExtent function [Windows Controls], controls.GetThemeTextExtent, controls.inet_GetThemeTextExtent, inet_GetThemeTextExtent, inet_GetThemeTextExtent_cpp, uxtheme/GetThemeTextExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

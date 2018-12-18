@@ -9,8 +9,6 @@ ms.assetid: 395ec2be-fe92-4bf1-bed3-db122e22f15e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509AttributeOSVersion interface [Security],OSVersion property, IX509AttributeOSVersion.OSVersion, IX509AttributeOSVersion.get_OSVersion, IX509AttributeOSVersion::OSVersion, IX509AttributeOSVersion::get_OSVersion, OSVersion property [Security], OSVersion property [Security],IX509AttributeOSVersion interface, certenroll/IX509AttributeOSVersion::OSVersion, certenroll/IX509AttributeOSVersion::get_OSVersion, get_OSVersion, security.ix509attributeosversioner_osversion_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377098(v=VS.85).aspx">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377097(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
+Call the <a href="https://msdn.microsoft.com/1eee63f8-8345-4f3d-9fee-d8d67bcebb8c">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/2f13002f-bdaa-4c82-859a-da932615dd81">InitializeDecode</a> method to initialize the <b>OSVersion</b> property.
 
 
 
@@ -73,7 +71,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377098(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377096(v=VS.85).aspx">IX509AttributeOSVersion</a>
+<a href="https://msdn.microsoft.com/2ae84d47-2bda-4954-9165-902634d09da9">IX509AttributeOSVersion</a>
  
 
  

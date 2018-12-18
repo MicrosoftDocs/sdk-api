@@ -9,8 +9,6 @@ ms.assetid: 1faec369-199e-48d4-9c0a-6cbad39a7073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanBuySilent, CanBuySilent method [Windows Media Player], CanBuySilent method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CanBuySilent method, IWMPContentPartner.CanBuySilent, IWMPContentPartner::CanBuySilent, IWMPContentPartnerCanBuySilent, contentpartner/IWMPContentPartner::CanBuySilent, wmp.iwmpcontentpartner_canbuysilent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-The format of the string returned in <i>pbstrTotalPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/en-us/library/Dd564215(v=VS.85).aspx">Purchasing Media Content</a>.
+The format of the string returned in <i>pbstrTotalPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/df4a3152-f9e3-4a97-b021-6d5e8de9c184">Purchasing Media Content</a>.
 
 
 

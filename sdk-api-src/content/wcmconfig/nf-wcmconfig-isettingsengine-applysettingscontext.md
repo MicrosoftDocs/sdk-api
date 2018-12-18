@@ -9,8 +9,6 @@ ms.assetid: 459a97fb-e5fb-42a5-998d-84631fec2e6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],ApplySettingsContext method, ISettingsEngine.ApplySettingsContext, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 97832bcb-c193-48e2-84f5-21b9c5a55cc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, GetSegmentStrokes, GetSegmentStrokes method [XPS Documents and Packaging], GetSegmentStrokes method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokes method, IXpsOMGeometryFigure.GetSegmentStrokes, IXpsOMGeometryFigure::GetSegmentStrokes, TRUE, xps.ixpsomgeometryfigure_getsegmentstrokes, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

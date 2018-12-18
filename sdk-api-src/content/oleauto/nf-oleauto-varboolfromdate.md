@@ -9,8 +9,6 @@ ms.assetid: 3ba9e701-56c6-471c-9c82-a31c893a3a1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBoolFromDate, VarBoolFromDate function [Automation], _oa96_VarBoolFromDate, automat.varboolfromdate, oleauto/VarBoolFromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

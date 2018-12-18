@@ -9,8 +9,6 @@ ms.assetid: 5d1a1273-be67-4bb3-b549-8adacea0cb5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultColumn, GetDefaultColumn method [Windows Shell], GetDefaultColumn method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumn method, IShellFolder2.GetDefaultColumn, IShellFolder2::GetDefaultColumn, _win32_IShellFolder2_GetDefaultColumn, shell.IShellFolder2_GetDefaultColumn, shobjidl_core/IShellFolder2::GetDefaultColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

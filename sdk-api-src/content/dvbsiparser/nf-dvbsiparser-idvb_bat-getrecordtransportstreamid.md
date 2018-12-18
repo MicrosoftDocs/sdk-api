@@ -9,8 +9,6 @@ ms.assetid: fdb406d1-5242-4f3e-a1c9-b10296d98d67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_BAT.GetRecordTransportStreamId, IDVB_BAT::GetRecordTransportStreamId, IDVB_BATGetRecordTransportStreamId, dvbsiparser/IDVB_BAT::GetRecordTransportStreamId, mstv.idvb_bat_getrecordtransportstreamid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

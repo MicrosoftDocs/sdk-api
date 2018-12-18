@@ -7,10 +7,8 @@ old-location: opc\iopcdigitalsignaturemanager_validate.htm
 tech.root: OPC
 ms.assetid: 76a37ad6-caa0-4fa3-abc1-2eae63e3134b
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Validate method, IOpcDigitalSignatureManager.Validate, IOpcDigitalSignatureManager::Validate, Validate, Validate method [Open Packaging Conventions], Validate method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Validate, opc.iopcdigitalsignaturemanager_validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

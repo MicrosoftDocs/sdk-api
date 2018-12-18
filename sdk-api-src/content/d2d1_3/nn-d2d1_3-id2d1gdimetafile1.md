@@ -9,8 +9,6 @@ ms.assetid: 7a05abd6-ea75-8496-85c3-efa1e307482d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1GdiMetafile1, ID2D1GdiMetafile1 interface [Direct2D], ID2D1GdiMetafile1 interface [Direct2D],described, d2d1_3/ID2D1GdiMetafile1, direct2d.id2d1gdimetafile1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

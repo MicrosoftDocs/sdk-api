@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_73l0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Add method, IFaxRecipients.Add, IFaxRecipients::Add, _mfax_faxrecipients.add, fax._mfax_faxrecipients_add, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp, faxcomex/IFaxRecipients::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

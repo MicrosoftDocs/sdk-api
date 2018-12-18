@@ -9,8 +9,6 @@ ms.assetid: 0e4f59f8-c56e-4768-9047-2793515edfeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEndOfStreamEventHandle, GetEndOfStreamEventHandle method [DirectShow], GetEndOfStreamEventHandle method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetEndOfStreamEventHandle method, IMultiMediaStream.GetEndOfStreamEventHandle, IMultiMediaStream::GetEndOfStreamEventHandle, IMultiMediaStreamGetEndOfStreamEventHandle, dshow.imultimediastream_getendofstreameventhandle, mmstream/IMultiMediaStream::GetEndOfStreamEventHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -123,7 +121,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1A5515DA-4A9E-40EE-9AAC-F267DAE9DDBA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxManifestPackageDependency, IAppxManifestPackageDependency interface [App packaging and management], IAppxManifestPackageDependency interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependency, appxpkg.iappxmanifestpackagedependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

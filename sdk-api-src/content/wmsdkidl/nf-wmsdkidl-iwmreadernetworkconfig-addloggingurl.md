@@ -9,8 +9,6 @@ ms.assetid: 471b17c8-20e4-44f3-88ee-48a35cd8930c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],AddLoggingUrl method, IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -137,7 +135,7 @@ When the reader streams content from a server, it automatically sends logging in
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
  
 
  

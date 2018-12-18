@@ -9,8 +9,6 @@ ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLUninstallLicense, SLUninstallLicense function [Security], security.sluninstalllicense, slpublic/SLUninstallLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetPeerCachingFlags method, IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -137,7 +135,7 @@ If other flag values are set.
 
 
 
-BITS can download from peers only if peercaching is enabled both at the computer level and at the job level; this API affects only the job level. For details, see <a href="https://msdn.microsoft.com/en-us/library/Aa964249(v=VS.85).aspx">IBackgroundCopyJob4::SetPeerCachingFlags</a>.
+BITS can download from peers only if peercaching is enabled both at the computer level and at the job level; this API affects only the job level. For details, see <a href="https://msdn.microsoft.com/53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c">IBackgroundCopyJob4::SetPeerCachingFlags</a>.
 
 
 
@@ -147,23 +145,23 @@ BITS can download from peers only if peercaching is enabled both at the computer
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">Group Policies</a>
+<a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">Group Policies</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964249(v=VS.85).aspx">IBackgroundCopyJob4::SetPeerCachingFlags</a>
+<a href="https://msdn.microsoft.com/53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c">IBackgroundCopyJob4::SetPeerCachingFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964280(v=VS.85).aspx">IBitsPeerCacheAdministration::GetConfigurationFlags</a>
+<a href="https://msdn.microsoft.com/caa54ee0-c771-47e7-95d1-26a812f0f95f">IBitsPeerCacheAdministration::GetConfigurationFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
+<a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
  
 
  

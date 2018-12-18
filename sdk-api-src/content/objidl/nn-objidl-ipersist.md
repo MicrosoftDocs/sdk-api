@@ -9,8 +9,6 @@ ms.assetid: 932eb0e2-35a6-482e-9138-00cff30508a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersist, IPersist interface [COM], IPersist interface [COM],described, _com_ipersist, com.ipersist, objidl/IPersist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

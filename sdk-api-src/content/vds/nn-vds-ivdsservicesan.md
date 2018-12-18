@@ -9,8 +9,6 @@ ms.assetid: 675e9ea8-06b6-4832-9311-17361e4781d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsServiceSAN, IVdsServiceSAN interface, IVdsServiceSAN interface,described, base.ivdsservicesan, vds/IVdsServiceSAN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

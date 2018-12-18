@@ -9,8 +9,6 @@ ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAJoinLeaf, WSAJoinLeaf function [Winsock], _win32_wsajoinleaf_2, winsock.wsajoinleaf_2, winsock2/WSAJoinLeaf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

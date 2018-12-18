@@ -9,8 +9,6 @@ ms.assetid: 1574582B-312A-4775-A09A-8489C0FA3EDC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method, GetNumStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetNumStoredMessages method, ID3D12InfoQueue.GetNumStoredMessages, ID3D12InfoQueue::GetNumStoredMessages, d3d12sdklayers/ID3D12InfoQueue::GetNumStoredMessages, direct3d12.id3d12infoqueue_getnumstoredmessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -80,7 +78,7 @@ Number of messages currently stored in the message queue.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

@@ -7,10 +7,8 @@ old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
 tech.root: offlinefiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -78,7 +76,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530504(v=VS.85).aspx">IOfflineFilesChangeInfo</a>
+<a href="https://msdn.microsoft.com/0ece6120-bd5d-4e3d-b71f-7aa9a51a1568">IOfflineFilesChangeInfo</a>
  
 
  

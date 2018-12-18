@@ -9,8 +9,6 @@ ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
@@ -108,7 +106,7 @@ All content, regardless of type, must be added to the compositor. This can be pr
 If the application uses a system-provided <a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>:
 
 <ul>
-<li><i>device</i> must be an  <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> object, and parent and child visuals must be <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> objects.</li>
+<li><i>device</i> must be an  <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> object, and parent and child visuals must be <a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a> objects.</li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> cannot be NULL. </li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> objects are created and owned by the application.
 </li>
@@ -117,7 +115,7 @@ If the application uses a system-provided <a href="https://msdn.microsoft.com/b9
 If the application uses a custom implementation of <a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>:
 
 <ul>
-<li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> must be a valid type for the compositor. They do not have to be <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> or <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> objects.</li>
+<li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> must be a valid type for the compositor. They do not have to be <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a> objects.</li>
 <li><i>device</i>, <i>parentVisual</i>, and <i>childVisual</i> can be NULL, depending on the compositor. </li>
 </ul>
 

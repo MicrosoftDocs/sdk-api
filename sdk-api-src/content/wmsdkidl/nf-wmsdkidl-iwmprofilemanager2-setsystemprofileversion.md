@@ -9,8 +9,6 @@ ms.assetid: cd957f3b-401c-4ab1-9c54-7b4ac895caac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfileManager2 interface [windows Media Format],SetSystemProfileVersion method, IWMProfileManager2.SetSystemProfileVersion, IWMProfileManager2::SetSystemProfileVersion, IWMProfileManager2SetSystemProfileVersion, SetSystemProfileVersion, SetSystemProfileVersion method [windows Media Format], SetSystemProfileVersion method [windows Media Format],IWMProfileManager2 interface, wmformat.iwmprofilemanager2_setsystemprofileversion, wmsdkidl/IWMProfileManager2::SetSystemProfileVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetSystemProfileVersion</b> method specifies the version number of the sy
 
 ### -param dwVersion
 
-One member of the <a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a> enumeration type.
+One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type.
 
 
 ## -returns
@@ -94,11 +92,11 @@ WMT_VER_4_0 is the default for backward-compatibility only, so be sure to set th
 
 
 
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/155b847b-81c0-4065-ae00-ca0b64cdd537">IWMProfileManager2::GetSystemProfileVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757387(v=VS.85).aspx">IWMProfileManager2::GetSystemProfileVersion</a>
  
 
  

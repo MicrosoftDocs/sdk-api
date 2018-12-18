@@ -9,8 +9,6 @@ ms.assetid: ade77edf-6a9e-4c8d-a522-3158c802b6dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTable, GetTable method [Windows Controls], GetTable method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetTable method, ITextRange2.GetTable, ITextRange2::GetTable, controls.itextrange2_gettable, tom/ITextRange2::GetTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

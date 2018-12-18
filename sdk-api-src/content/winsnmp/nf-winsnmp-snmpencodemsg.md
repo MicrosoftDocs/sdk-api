@@ -9,8 +9,6 @@ ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpEncodeMsg, SnmpEncodeMsg function [SNMP], _snmp_snmpencodemsg, snmp.snmpencodemsg, winsnmp/SnmpEncodeMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -89,7 +87,7 @@ Handle to the PDU that contains the SNMP operation request.
 ### -param msgBufDesc [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure that receives the encoded SNMP message.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure that receives the encoded SNMP message.
 
 
 ## -returns
@@ -97,7 +95,7 @@ Pointer to an
 
 
 If the function succeeds, the return value is the length, in bytes, of the encoded SNMP message. This number is also the value of the <b>len</b> member of the 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure pointed to by the <i>msgBufDesc</i> parameter.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure pointed to by the <i>msgBufDesc</i> parameter.
 
 If the function fails, the return value is SNMPAPI_FAILURE. For additional information, see the following Remarks section. To get extended error information, call 
 <a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a>. The 
@@ -202,7 +200,7 @@ The first five parameters passed to the
 
 The WinSNMP application must call the 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> function to free resources allocated for the <b>ptr</b> member of the 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure. This is the structure pointed to by the <i>msgBufDesc</i> parameter. For additional information, see 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure. This is the structure pointed to by the <i>msgBufDesc</i> parameter. For additional information, see 
 <a href="https://msdn.microsoft.com/52e911f3-9b28-4ac3-a080-44fb18f5633e">WinSNMP Data Management Concepts</a>.
 
 On input, the 
@@ -241,7 +239,7 @@ The implementation verifies the format of the first five input parameters. If on
 
 
 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
  
 
  

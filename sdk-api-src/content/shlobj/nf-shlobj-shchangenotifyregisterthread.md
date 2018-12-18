@@ -9,8 +9,6 @@ ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 
@@ -60,9 +58,9 @@ Enables asynchronous register and deregister of a thread.
 
 ### -param status
 
-Type: <b><a href="https://msdn.microsoft.com/31fd993b-d8cb-40cc-9f31-15711dba1b10">SCNRT_STATUS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762535(v=VS.85).aspx">SCNRT_STATUS</a></b>
 
-Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="https://msdn.microsoft.com/31fd993b-d8cb-40cc-9f31-15711dba1b10">SCNRT_STATUS</a>.
+Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="https://msdn.microsoft.com/en-us/library/Bb762535(v=VS.85).aspx">SCNRT_STATUS</a>.
 
 
 ## -returns

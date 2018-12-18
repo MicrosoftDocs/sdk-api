@@ -9,8 +9,6 @@ ms.assetid: 236484FC-D552-45CE-A968-B928D020A4C8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroySyntheticPointerDevice, DestroySyntheticPointerDevice function, input_pointerdevice.destroysyntheticpointerdevice, winuser/DestroySyntheticPointerDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

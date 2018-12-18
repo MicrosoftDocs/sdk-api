@@ -9,8 +9,6 @@ ms.assetid: 25cfd4f5-2ff1-47eb-8cc0-17e17efa4ec2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreFragment interface [Windows Sync],NextRange method, ICoreFragment.NextRange, ICoreFragment::NextRange, NextRange, NextRange method [Windows Sync], NextRange method [Windows Sync],ICoreFragment interface, winsync.icorefragment_nextrange, winsync/ICoreFragment::NextRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

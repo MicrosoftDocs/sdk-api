@@ -9,8 +9,6 @@ ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_LISTENER_CALLBACK, wsw.ws_reset_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

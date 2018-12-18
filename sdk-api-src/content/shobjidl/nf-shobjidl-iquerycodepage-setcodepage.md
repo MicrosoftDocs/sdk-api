@@ -9,8 +9,6 @@ ms.assetid: 19b9d796-e5a7-4b82-a299-95ee912db010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryCodePage interface [Windows Shell],SetCodePage method, IQueryCodePage.SetCodePage, IQueryCodePage::SetCodePage, SetCodePage, SetCodePage method [Windows Shell], SetCodePage method [Windows Shell],IQueryCodePage interface, _shell_IQueryCodePage_SetCodePage, shell.IQueryCodePage_SetCodePage, shobjidl/IQueryCodePage::SetCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

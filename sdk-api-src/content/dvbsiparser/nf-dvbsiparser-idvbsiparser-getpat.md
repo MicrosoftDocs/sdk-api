@@ -9,8 +9,6 @@ ms.assetid: 09413d56-e735-4ecf-a505-7d9e2c31d190
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPAT method, IDvbSiParser.GetPAT, IDvbSiParser::GetPAT, IDvbSiParserGetPAT, dvbsiparser/IDvbSiParser::GetPAT, mstv.idvbsiparser_getpat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -66,7 +64,7 @@ The <b>GetPAT</b> method retrieves the program association table (PAT).
 
 ### -param ppPAT [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: b8020b8a-4f2e-4039-862e-9c0f371645fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentPlaylistChange, CurrentPlaylistChange method [Windows Media Player], CurrentPlaylistChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentPlaylistChange method, IWMPEvents.CurrentPlaylistChange, IWMPEvents::CurrentPlaylistChange, IWMPEventsCurrentPlaylistChange, wmp.iwmpevents_iwmpevents__currentplaylistchange, wmp/IWMPEvents::CurrentPlaylistChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -89,11 +87,11 @@ This event does not occur when a different playlist becomes the current playlist
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2847bda-3003-4c80-abc1-5c873d0810b7">PlaylistChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563354(v=VS.85).aspx">PlaylistChange</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

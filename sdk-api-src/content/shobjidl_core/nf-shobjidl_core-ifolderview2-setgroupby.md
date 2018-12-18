@@ -9,8 +9,6 @@ ms.assetid: 2d0761cb-7c81-48f7-994d-6dd61062d848
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupBy method, IFolderView2.SetGroupBy, IFolderView2::SetGroupBy, SetGroupBy, SetGroupBy method [Windows Shell], SetGroupBy method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupBy, shell.IFolderView2_SetGroupBy, shobjidl_core/IFolderView2::SetGroupBy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

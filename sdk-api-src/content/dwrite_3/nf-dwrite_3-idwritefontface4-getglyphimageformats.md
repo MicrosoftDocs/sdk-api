@@ -9,8 +9,6 @@ ms.assetid: BE3AC023-48A5-4687-A41D-39C4DF3B853F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGlyphImageFormats, GetGlyphImageFormats method [Direct Write], GetGlyphImageFormats method [Direct Write],IDWriteFontFace4 interface, IDWriteFontFace4 interface [Direct Write],GetGlyphImageFormats method, IDWriteFontFace4.GetGlyphImageFormats, IDWriteFontFace4::GetGlyphImageFormats, directwrite.idwritefontface4_getglyphimageformats, dwrite_3/IDWriteFontFace4::GetGlyphImageFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -77,7 +75,7 @@ Returns all the glyph image formats supported by the entire font.
 
 
 
-<a href="https://msdn.microsoft.com/08A0E6F3-611B-4C19-835B-1353D4938181">IDWriteFontFace4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725320(v=VS.85).aspx">IDWriteFontFace4</a>
  
 
  

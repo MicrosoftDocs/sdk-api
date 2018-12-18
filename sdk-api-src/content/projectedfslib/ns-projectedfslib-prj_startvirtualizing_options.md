@@ -9,8 +9,6 @@ ms.assetid: 5FF20B04-29A6-4310-ACD6-35E189B87C9E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_STARTVIRTUALIZING_OPTIONS, PRJ_STARTVIRTUALIZING_OPTIONS structure, ProjFS.prj_startvirtualizing_options, projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 

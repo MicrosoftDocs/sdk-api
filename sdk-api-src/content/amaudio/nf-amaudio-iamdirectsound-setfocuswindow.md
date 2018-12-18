@@ -9,8 +9,6 @@ ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -108,7 +106,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

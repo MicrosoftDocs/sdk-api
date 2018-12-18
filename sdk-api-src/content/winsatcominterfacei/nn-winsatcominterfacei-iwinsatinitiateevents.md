@@ -9,8 +9,6 @@ ms.assetid: f6ab3284-a76f-4148-ae40-04aa782ea9a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT],described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 

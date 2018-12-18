@@ -9,8 +9,6 @@ ms.assetid: e9de2468-3676-4b4b-8eec-385c33b3f44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVEncAudioInputContent_Music, AVEncAudioInputContent_Unknown, AVEncAudioInputContent_Voice, codecapi/AVEncAudioInputContent_Music, codecapi/AVEncAudioInputContent_Unknown, codecapi/AVEncAudioInputContent_Voice, codecapi/eAVEncAudioInputContent, dshow.eavencaudioinputcontent, eAVEncAudioInputContent, eAVEncAudioInputContent enumeration [DirectShow], eAVEncAudioInputContentEnumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -85,7 +83,7 @@ The audio contains music.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

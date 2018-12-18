@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

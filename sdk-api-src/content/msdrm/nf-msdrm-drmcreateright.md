@@ -9,8 +9,6 @@ ms.assetid: 05074fbd-9268-41b4-a916-a932dc7a7858
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMCreateRight, DRMCreateRight function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateRight, rm.drmcreateright
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0d687337-8623-4014-967c-f533072e31cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout, IDWriteTextLayout interface [Direct Write], IDWriteTextLayout interface [Direct Write],described, directwrite.IDWriteTextLayout, dwrite/IDWriteTextLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

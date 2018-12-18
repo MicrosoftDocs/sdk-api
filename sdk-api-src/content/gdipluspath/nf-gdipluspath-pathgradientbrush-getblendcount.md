@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBlendCount, GetBlendCount method [GDI+], GetBlendCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetBlendCount method, PathGradientBrush.GetBlendCount, PathGradientBrush::GetBlendCount, _gdiplus_CLASS_PathGradientBrush_GetBlendCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlendCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: b22ccd86-b8d7-4dd7-af4b-b99c9fea0de5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDACreateTuneRequestEx, IBDACreateTuneRequestEx interface [Microsoft TV Technologies], IBDACreateTuneRequestEx interface [Microsoft TV Technologies],described, mstv.ibdacreatetunerequestex, tuner/IBDACreateTuneRequestEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

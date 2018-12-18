@@ -9,8 +9,6 @@ ms.assetid: c5283d1f-8a40-4272-b71c-590b6bc6a340
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontFamilyName method, IDWriteTextLayout.GetFontFamilyName, IDWriteTextLayout::GetFontFamilyName, directwrite.IDWriteTextLayout_GetFontFamilyName, dwrite/IDWriteTextLayout::GetFontFamilyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

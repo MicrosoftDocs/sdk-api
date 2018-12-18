@@ -9,8 +9,6 @@ ms.assetid: 0de3a2d8-e595-4068-805c-b9bcba7ada91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserDefaultUILanguage, GetUserDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetUserDefaultUILanguage, intl.getuserdefaultuilanguage, winnls/GetUserDefaultUILanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

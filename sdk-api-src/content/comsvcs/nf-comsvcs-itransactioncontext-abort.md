@@ -9,8 +9,6 @@ ms.assetid: d7ea7c31-225c-4eb1-a358-21c4dab1a1da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Abort method, ITransactionContext.Abort, ITransactionContext::Abort, _cos_ITransactionContext_Abort, comsvcs/ITransactionContext::Abort, cos.itransactioncontext_abort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

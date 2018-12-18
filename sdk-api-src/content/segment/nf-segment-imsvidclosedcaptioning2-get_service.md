@@ -9,8 +9,6 @@ ms.assetid: 165e5c75-3ce1-4b37-b577-5aea4af65019
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],get_Service method, IMSVidClosedCaptioning2.get_Service, IMSVidClosedCaptioning2::get_Service, IMSVidClosedCaptioning2get_Service, get_Service, get_Service method [Microsoft TV Technologies], get_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, mstv.imsvidclosedcaptioning2_get_service, segment/IMSVidClosedCaptioning2::get_Service
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get_Service</b> method retrieves the current closed captioning service.
 
 ### -param On [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/19e6a389-7f5b-40b9-a7e6-e90060e6d7d5">MSVidCCService</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695118(v=VS.85).aspx">MSVidCCService</a> enumeration.
 
 
 ## -returns
@@ -107,7 +105,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/37fe213a-7778-4448-937d-30ad1015d56c">IMSVidClosedCaptioning2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694467(v=VS.85).aspx">IMSVidClosedCaptioning2 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

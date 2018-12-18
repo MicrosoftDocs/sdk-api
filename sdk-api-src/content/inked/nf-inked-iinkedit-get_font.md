@@ -9,8 +9,6 @@ ms.assetid: af8234bb-7d53-45c7-9edc-fd4e6b64eed3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Font property [Tablet PC], Font property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Font property, IInkEdit.Font, IInkEdit.get_Font, IInkEdit::Font, IInkEdit::get_Font, IInkEdit::put_Font, InkEdit.get_Font, InkEdit.putref_Font, get_Font, inked/IInkEdit::Font, inked/IInkEdit::get_Font, inked/IInkEdit::put_Font, putref_Font, tablet.inkedit_font
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -79,7 +77,7 @@ Use the <b>Font</b> property of an <a href="https://msdn.microsoft.com/52761cb2-
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

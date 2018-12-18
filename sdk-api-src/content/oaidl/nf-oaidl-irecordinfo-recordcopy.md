@@ -9,8 +9,6 @@ ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCopy method, IRecordInfo.RecordCopy, IRecordInfo::RecordCopy, RecordCopy, RecordCopy method [Automation], RecordCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCopy, automat.irecordinfo_recordcopy, oaidl/IRecordInfo::RecordCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

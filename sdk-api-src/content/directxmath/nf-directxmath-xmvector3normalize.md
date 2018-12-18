@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Normalize(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3Normalize, XMVector3Normalize, XMVector3Normalize method [DirectX Math Support APIs], dxmath.xmvector3normalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -132,7 +130,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/617127e5-2f20-42fb-93c3-e5d68fa07a82">XMVector3NormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420829(v=VS.85).aspx">XMVector3NormalizeEst</a>
  
 
  

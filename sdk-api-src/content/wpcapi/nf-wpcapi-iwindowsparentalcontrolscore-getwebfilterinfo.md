@@ -7,10 +7,8 @@ old-location: parcon\iwindowsparentalcontrols_getwebfilterinfo.htm
 tech.root: parcon
 ms.assetid: 5073f335-fe55-43db-9186-aaa675384ea3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetWebFilterInfo, GetWebFilterInfo method, GetWebFilterInfo method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetWebFilterInfo method, IWindowsParentalControlsCore.GetWebFilterInfo, IWindowsParentalControlsCore::GetWebFilterInfo, parcon.iwindowsparentalcontrols_getwebfilterinfo, wpcapi/IWindowsParentalControlsCore::GetWebFilterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
@@ -138,7 +136,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/49F43A0F-5C93-4FEC-870B-17535DE674C5">IWindowsParentalControlsCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
  
 
  

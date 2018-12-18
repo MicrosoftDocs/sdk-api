@@ -9,8 +9,6 @@ ms.assetid: 0963ec09-8637-441c-b10e-fecc11788e39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl9.GetVideoPosition, IVMRWindowlessControl9::GetVideoPosition, IVMRWindowlessControl9GetVideoPosition, dshow.ivmrwindowlesscontrol9_getvideoposition, vmr9/IVMRWindowlessControl9::GetVideoPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -125,11 +123,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b165b51-c60d-4039-b652-5a5347dec224">SetVideoPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390550(v=VS.85).aspx">SetVideoPosition</a>
 
 
 

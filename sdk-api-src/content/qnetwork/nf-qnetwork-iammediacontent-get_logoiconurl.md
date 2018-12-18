@@ -9,8 +9,6 @@ ms.assetid: 249f06ad-1571-4259-aaae-d0bc8208b9e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_LogoIconURL method, IAMMediaContent.get_LogoIconURL, IAMMediaContent::get_LogoIconURL, IAMMediaContentget_LogoIconURL, dshow.iammediacontent_get_logoiconurl, get_LogoIconURL, get_LogoIconURL method [DirectShow], get_LogoIconURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_LogoIconURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

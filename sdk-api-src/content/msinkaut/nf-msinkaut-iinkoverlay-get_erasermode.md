@@ -9,8 +9,6 @@ ms.assetid: 87dfd750-254a-4829-b5a2-04aee9890dd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 87dfd750-254a-4829-b5a2-04aee9890dd0, EraserMode property [Tablet PC], EraserMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EraserMode property, IInkOverlay.EraserMode, IInkOverlay.get_EraserMode, IInkOverlay::EraserMode, IInkOverlay::get_EraserMode, IInkOverlay::put_EraserMode, InkOverlay.get_EraserMode, InkOverlay.put_EraserMode, get_EraserMode, msinkaut/IInkOverlay::EraserMode, msinkaut/IInkOverlay::get_EraserMode, msinkaut/IInkOverlay::put_EraserMode, tablet.inkoverlay_erasermode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -84,7 +82,7 @@ This property only applies when the <a href="https://msdn.microsoft.com/3b734da3
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

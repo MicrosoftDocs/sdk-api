@@ -9,8 +9,6 @@ ms.assetid: 45d1cdb1-6aab-4119-8cd5-a4217c9adc3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanRequireSource property [Windows Update Agent], CanRequireSource property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CanRequireSource property, IUpdate.CanRequireSource, IUpdate.get_CanRequireSource, IUpdate::CanRequireSource, IUpdate::get_CanRequireSource, get_CanRequireSource, wua.iupdate_canrequiresource, wuapi/IUpdate::CanRequireSource, wuapi/IUpdate::get_CanRequireSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

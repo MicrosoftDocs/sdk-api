@@ -9,8 +9,6 @@ ms.assetid: 0efa4d4f-ebda-49e1-9d94-dcada7374109
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Tessellate method, ID2D1Geometry.Tessellate, ID2D1Geometry::Tessellate, ID2D1Geometry::Tessellate(const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1TessellationSink), Tessellate, Tessellate method [Direct2D], Tessellate method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Tessellate, direct2d.ID2D1Geometry_Tessellate_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1TessellationSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -84,7 +82,7 @@ The <a href="https://msdn.microsoft.com/967c702f-d16f-4a8e-ac77-a8bb35afe0a1">ID
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

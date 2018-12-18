@@ -9,8 +9,6 @@ ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnections method, IMbnConnectionManager.GetConnections, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9907ae75-7cb6-4fde-837c-616b106b4d7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],TransactionUOW method, ICrmMonitorClerks.TransactionUOW, ICrmMonitorClerks::TransactionUOW, TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

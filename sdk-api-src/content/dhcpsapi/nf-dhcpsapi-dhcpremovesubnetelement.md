@@ -9,8 +9,6 @@ ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

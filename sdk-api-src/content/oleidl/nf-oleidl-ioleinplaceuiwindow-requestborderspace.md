@@ -9,8 +9,6 @@ ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

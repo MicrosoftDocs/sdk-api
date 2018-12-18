@@ -9,8 +9,6 @@ ms.assetid: cf8141cc-8cf3-4932-b13a-e276dcdeb825
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4SetOptionValue, DhcpV4SetOptionValue function [DHCP], dhcp.dhcpv4setoptionvalue, dhcpsapi/DhcpV4SetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

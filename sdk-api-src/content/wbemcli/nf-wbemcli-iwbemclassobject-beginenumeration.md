@@ -9,8 +9,6 @@ ms.assetid: c7ece530-5309-4f0d-9096-73d01b4a7fde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginEnumeration method, IWbemClassObject.BeginEnumeration, IWbemClassObject::BeginEnumeration, _hmm_iwbemclassobject_beginenumeration, wbemcli/IWbemClassObject::BeginEnumeration, wmi.iwbemclassobject_beginenumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

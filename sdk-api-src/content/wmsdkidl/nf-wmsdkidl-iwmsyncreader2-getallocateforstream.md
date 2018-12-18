@@ -9,8 +9,6 @@ ms.assetid: 88f02e2d-2585-4668-869b-d42739c02a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllocateForStream, GetAllocateForStream method [windows Media Format], GetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, IWMSyncReader2 interface [windows Media Format],GetAllocateForStream method, IWMSyncReader2.GetAllocateForStream, IWMSyncReader2::GetAllocateForStream, IWMSyncReader2GetAllocateForStream, wmformat.iwmsyncreader2_getallocateforstream, wmsdkidl/IWMSyncReader2::GetAllocateForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>GetAllocateForStream</b> method retrieves an interface for allocating str
 
 ### -param ppAllocator [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface.
 
 
 ## -returns
@@ -88,11 +86,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed94977e-e930-4045-a69d-36109e7e21c9">IWMSyncReader2::SetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798581(v=VS.85).aspx">IWMSyncReader2::SetAllocateForStream</a>
  
 
  

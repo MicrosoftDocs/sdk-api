@@ -9,8 +9,6 @@ ms.assetid: 4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoText method, IAMMediaContent.get_MoreInfoText, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

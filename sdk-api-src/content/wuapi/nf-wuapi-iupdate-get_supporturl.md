@@ -9,8 +9,6 @@ ms.assetid: c4734e71-a64d-4231-80ed-1ee2bcc98ce1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupportUrl property, IUpdate.SupportUrl, IUpdate.get_SupportUrl, IUpdate::SupportUrl, IUpdate::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent],IUpdate interface, get_SupportUrl, wua.iupdate_supporturl, wuapi/IUpdate::SupportUrl, wuapi/IUpdate::get_SupportUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

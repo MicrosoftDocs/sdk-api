@@ -9,8 +9,6 @@ ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPacketSize interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize.SetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format],IWMPacketSize interface, SetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -126,15 +124,15 @@ This method is designed for use with only single bit rate video; it should not b
 
 
 
-<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
 
 
 
-<a href="https://msdn.microsoft.com/8410c524-9c27-48ac-9a48-c17cae782764">IWMPacketSize::GetMaxPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757259(v=VS.85).aspx">IWMPacketSize::GetMaxPacketSize</a>
  
 
  

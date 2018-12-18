@@ -9,8 +9,6 @@ ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

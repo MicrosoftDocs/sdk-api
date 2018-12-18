@@ -9,8 +9,6 @@ ms.assetid: ca562a21-5b0a-4726-9921-68c6a9fbde6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Task property, IFsrmFileManagementJob.Task, IFsrmFileManagementJob.put_Task, IFsrmFileManagementJob::Task, IFsrmFileManagementJob::get_Task, IFsrmFileManagementJob::put_Task, Task property [File Server Resource Manager], Task property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_task, fsrm.ifsrmfilemanagementjob_task, fsrmreports/IFsrmFileManagementJob::Task, fsrmreports/IFsrmFileManagementJob::get_Task, fsrmreports/IFsrmFileManagementJob::put_Task, put_Task
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

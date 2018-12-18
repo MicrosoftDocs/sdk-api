@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\ond
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRowsetEvents interface [search],OnDeletedItem method, IRowsetEvents.OnDeletedItem, IRowsetEvents::OnDeletedItem, OnDeletedItem, OnDeletedItem method [search], OnDeletedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnDeletedItem, search._search_IRowsetEvents_OnDeletedItem, searchapi/IRowsetEvents::OnDeletedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

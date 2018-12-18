@@ -9,8 +9,6 @@ ms.assetid: 13d470ff-77e6-4a17-b2c9-c53676e21fba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumClassesOfCategories, EnumClassesOfCategories method [COM], EnumClassesOfCategories method [COM],ICatInformation interface, ICatInformation interface [COM],EnumClassesOfCategories method, ICatInformation.EnumClassesOfCategories, ICatInformation::EnumClassesOfCategories, _com_icatinformation_enumclassesofcategories, com.icatinformation_enumclassesofcategories, comcat/ICatInformation::EnumClassesOfCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
@@ -99,7 +97,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

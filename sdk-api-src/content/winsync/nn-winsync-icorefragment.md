@@ -9,8 +9,6 @@ ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragment interface [Windows Sync],described, winsync.icorefragment, winsync/ICoreFragment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

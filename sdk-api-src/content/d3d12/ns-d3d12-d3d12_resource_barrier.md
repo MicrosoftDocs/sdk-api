@@ -9,8 +9,6 @@ ms.assetid: 49F02D65-767E-4BA4-A90D-68AA2D709E09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RESOURCE_BARRIER, D3D12_RESOURCE_BARRIER structure, d3d12/D3D12_RESOURCE_BARRIER, direct3d12.d3d12_resource_barrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -97,7 +95,7 @@ A
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn903898(v=VS.85).aspx">ID3D12GraphicsCommandList::ResourceBarrier</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/AA788F94-122B-4132-BED5-162EAC683676">ID3D12GraphicsCommandList::ResourceBarrier</a> method.
       
 
 
@@ -108,11 +106,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899226(v=VS.85).aspx">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+<a href="https://msdn.microsoft.com/3AB3BF34-433C-400B-921A-55B23CCDA44F">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
  
 
  

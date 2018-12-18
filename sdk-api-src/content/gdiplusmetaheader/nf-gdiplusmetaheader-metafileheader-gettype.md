@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\met
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetType method, MetafileHeader.GetType, MetafileHeader::GetType, _gdiplus_CLASS_MetafileHeader_GetType_, gdiplus._gdiplus_CLASS_MetafileHeader_GetType_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

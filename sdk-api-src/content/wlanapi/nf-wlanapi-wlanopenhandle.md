@@ -9,8 +9,6 @@ ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

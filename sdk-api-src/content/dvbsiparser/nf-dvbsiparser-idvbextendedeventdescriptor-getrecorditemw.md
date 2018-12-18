@@ -9,8 +9,6 @@ ms.assetid: 39c046b0-d357-44c5-9abe-2fb3998b7677
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordItemW, GetRecordItemW method [Microsoft TV Technologies], GetRecordItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemW method, IDvbExtendedEventDescriptor.GetRecordItemW, IDvbExtendedEventDescriptor::GetRecordItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemW, mstv.idvbextendedeventdescriptor_getrecorditemw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

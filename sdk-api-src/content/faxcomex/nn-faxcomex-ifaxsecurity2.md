@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\faxinto_z_
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity2, IFaxSecurity2 interface [Fax Service], IFaxSecurity2 interface [Fax Service],described, _mfax_faxsecurity2_cpp, fax._mfax_faxsecurity2_cpp, faxcomex/IFaxSecurity2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f72eaa17-fd7a-4844-8380-1a2547644dee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_friendlyName method, IWMPSyncDevice.get_friendlyName, IWMPSyncDevice::get_friendlyName, IWMPSyncDeviceget_friendlyName, get_friendlyName, get_friendlyName method [Windows Media Player], get_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_friendlyname, wmp/IWMPSyncDevice::get_friendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,11 +119,11 @@ The friendly name is the device name that appears in the Windows Media Player us
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/caea8f34-8d0c-49ce-ae86-fda6c6b0b68b">IWMPSyncDevice::put_friendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563744(v=VS.85).aspx">IWMPSyncDevice::put_friendlyName</a>
 
 
 

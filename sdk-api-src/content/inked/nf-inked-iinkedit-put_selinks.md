@@ -9,8 +9,6 @@ ms.assetid: dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInks property, IInkEdit.SelInks, IInkEdit.put_SelInks, IInkEdit::SelInks, IInkEdit::get_SelInks, IInkEdit::put_SelInks, InkEdit.get_SelInks, InkEdit.put_SelInks, SelInks property [Tablet PC], SelInks property [Tablet PC],IInkEdit interface, dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20, get_SelInks, inked/IInkEdit::SelInks, inked/IInkEdit::get_SelInks, inked/IInkEdit::put_SelInks, put_SelInks, tablet.inkedit_selinks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -84,7 +82,7 @@ This property is run time only.
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

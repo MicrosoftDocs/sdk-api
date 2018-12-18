@@ -9,8 +9,6 @@ ms.assetid: 09ad196c-9940-4d10-8a4e-1e06acd5d677
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Deserializer_DeserializeClass, MI_Deserializer_DeserializeClass function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_DeserializeClass, wmi_v2.mi_deserializer_deserializeclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

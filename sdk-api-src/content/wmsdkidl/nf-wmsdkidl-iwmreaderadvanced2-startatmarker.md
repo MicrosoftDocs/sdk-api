@@ -9,8 +9,6 @@ ms.assetid: 444adb2f-4289-4950-8841-07353479ef43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StartAtMarker method, IWMReaderAdvanced2.StartAtMarker, IWMReaderAdvanced2::StartAtMarker, IWMReaderAdvanced2StartAtMarker, StartAtMarker, StartAtMarker method [windows Media Format], StartAtMarker method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_startatmarker, wmsdkidl/IWMReaderAdvanced2::StartAtMarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -149,7 +147,7 @@ The method failed for an unspecified reason.
 
 
 
-This method is very similar to <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
+This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
 
 
 
@@ -159,7 +157,7 @@ This method is very similar to <a href="https://msdn.microsoft.com/485844c6-7a84
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 

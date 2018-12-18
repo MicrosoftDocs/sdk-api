@@ -7,10 +7,8 @@ old-location: pla\ifolderaction_age.htm
 tech.root: pla
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Age property [PLA], Age property [PLA],IFolderAction interface, IFolderAction interface [PLA],Age property, IFolderAction.Age, IFolderAction.put_Age, IFolderAction::Age, IFolderAction::get_Age, IFolderAction::put_Age, base.ifolderaction_age, pla.ifolderaction_age, pla/IFolderAction::Age, pla/IFolderAction::get_Age, pla/IFolderAction::put_Age, put_Age
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

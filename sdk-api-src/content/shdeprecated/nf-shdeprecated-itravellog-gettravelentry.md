@@ -9,8 +9,6 @@ ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

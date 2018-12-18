@@ -9,8 +9,6 @@ ms.assetid: cb04e464-44dd-41ba-9296-f13aca9ef54e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getAttributeName method, IWMPMedia.getAttributeName, IWMPMedia2 interface [Windows Media Player],getAttributeName method, IWMPMedia2::getAttributeName, IWMPMedia3 interface [Windows Media Player],getAttributeName method, IWMPMedia3::getAttributeName, IWMPMedia::getAttributeName, IWMPMediagetAttributeName, getAttributeName, getAttributeName method [Windows Media Player], getAttributeName method [Windows Media Player],IWMPMedia interface, getAttributeName method [Windows Media Player],IWMPMedia2 interface, getAttributeName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getattributename, wmp/IWMPMedia2::getAttributeName, wmp/IWMPMedia3::getAttributeName, wmp/IWMPMedia::getAttributeName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,11 +119,11 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
  
 
  

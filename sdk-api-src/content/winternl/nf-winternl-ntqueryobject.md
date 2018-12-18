@@ -9,8 +9,6 @@ ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

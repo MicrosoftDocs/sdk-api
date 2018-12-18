@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\i
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

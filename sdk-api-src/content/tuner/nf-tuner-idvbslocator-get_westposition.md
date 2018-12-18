@@ -9,8 +9,6 @@ ms.assetid: 97bb32ba-02ca-4ea4-8364-6edddbb05d8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_WestPosition method, IDVBSLocator.get_WestPosition, IDVBSLocator::get_WestPosition, IDVBSLocatorget_WestPosition, get_WestPosition, get_WestPosition method [Microsoft TV Technologies], get_WestPosition method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_westposition, tuner/IDVBSLocator::get_WestPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

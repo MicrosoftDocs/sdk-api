@@ -9,8 +9,6 @@ ms.assetid: 3d00eb78-d90e-41a0-9bba-305ac65057f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],IsRealTime method, IWMWriterAdvanced.IsRealTime, IWMWriterAdvanced::IsRealTime, IWMWriterAdvancedIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_isrealtime, wmsdkidl/IWMWriterAdvanced::IsRealTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -124,7 +122,7 @@ By default, the writer does not run in real time.
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
  
 
  

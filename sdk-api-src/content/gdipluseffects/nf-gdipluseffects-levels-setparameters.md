@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Levels class [GDI+],SetParameters method, Levels.SetParameters, Levels::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Levels class, _gdiplus_CLASS_Levels_SetParameters_, gdiplus._gdiplus_CLASS_Levels_SetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

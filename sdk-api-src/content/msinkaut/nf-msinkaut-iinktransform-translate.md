@@ -9,8 +9,6 @@ ms.assetid: 3125e27b-a280-43bc-99d7-a6b5697366b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3125e27b-a280-43bc-99d7-a6b5697366b2, IInkTransform interface [Tablet PC],Translate method, IInkTransform.Translate, IInkTransform::Translate, Translate, Translate method [Tablet PC], Translate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Translate, tablet.inktransform_translate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -149,7 +147,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

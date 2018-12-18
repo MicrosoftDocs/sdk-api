@@ -9,8 +9,6 @@ ms.assetid: 3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], IWMPPlayerServices interface [Windows Media Player],described, IWMPPlayerServicesInterface, wmp.iwmpplayerservices, wmp/IWMPPlayerServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPPlayerServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73274f71-ba34-479c-a23c-38a564e950fa">activateUIPlugin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563536(v=VS.85).aspx">activateUIPlugin</a>
 </td>
 <td align="left" width="63%">
 Activates the specified user interface (UI) plug-in in the full mode of Windows Media Player.
@@ -82,7 +80,7 @@ Activates the specified user interface (UI) plug-in in the full mode of Windows 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b34ec95-d9a3-4135-b369-39955199ac00">setTaskPane</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563537(v=VS.85).aspx">setTaskPane</a>
 </td>
 <td align="left" width="63%">
 Displays the specified task pane in the full mode of Windows Media Player.
@@ -91,7 +89,7 @@ Displays the specified task pane in the full mode of Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ceacaeb-09af-4cdf-84b7-04574a83ec48">setTaskPaneURL (deprecated)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563538(v=VS.85).aspx">setTaskPaneURL (deprecated)</a>
 </td>
 <td align="left" width="63%">
 Displays the specified URL in the specified task pane of the full mode of Windows Media Player.

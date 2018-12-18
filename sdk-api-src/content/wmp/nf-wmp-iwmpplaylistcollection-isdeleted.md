@@ -9,8 +9,6 @@ ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],isDeleted method, IWMPPlaylistCollection.isDeleted, IWMPPlaylistCollection::isDeleted, IWMPPlaylistCollectionisDeleted, isDeleted, isDeleted method [Windows Media Player], isDeleted method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_isdeleted, wmp/IWMPPlaylistCollection::isDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -113,11 +111,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
  
 
  

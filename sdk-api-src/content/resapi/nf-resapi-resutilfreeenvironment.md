@@ -9,8 +9,6 @@ ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_FREE_ENVIRONMENT, PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster], ResUtilFreeEnvironment, ResUtilFreeEnvironment function [Failover Cluster], _wolf_resutilfreeenvironment, mscs.resutilfreeenvironment, resapi/PRESUTIL_FREE_ENVIRONMENT, resapi/ResUtilFreeEnvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

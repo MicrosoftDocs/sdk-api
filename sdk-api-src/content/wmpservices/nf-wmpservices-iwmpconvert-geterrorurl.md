@@ -9,8 +9,6 @@ ms.assetid: 27a2ff9a-0c95-4c82-8e4a-c91d2a595005
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorURL, GetErrorURL method [Windows Media Player], GetErrorURL method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],GetErrorURL method, IWMPConvert.GetErrorURL, IWMPConvert::GetErrorURL, IWMPConvertGetErrorURL, wmp.iwmpconvert_geterrorurl, wmpservices/IWMPConvert::GetErrorURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -91,7 +89,7 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 
 
 
-<a href="https://msdn.microsoft.com/316d1a13-0803-4414-8c51-0d5c4768b06d">IWMPConvert Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563213(v=VS.85).aspx">IWMPConvert Interface</a>
  
 
  

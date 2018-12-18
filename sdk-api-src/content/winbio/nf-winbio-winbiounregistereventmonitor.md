@@ -9,8 +9,6 @@ ms.assetid: 41a018be-2c7e-4700-8447-4fd5f919e5ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioUnregisterEventMonitor, WinBioUnregisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbiounregistereventmonitor, winbio/WinBioUnregisterEventMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

@@ -9,8 +9,6 @@ ms.assetid: e196b598-6b1a-4d29-9724-2d221c4bcd16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], IWbemStatusCodeText interface [Windows Management Instrumentation],described, WbemStatusCodeText, _hmm_iwbemstatuscodetext, wbemcli/IWbemStatusCodeText, wmi.iwbemstatuscodetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

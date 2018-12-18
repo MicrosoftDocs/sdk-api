@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1v1j.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Branding property, IFaxServer.Branding, IFaxServer.get_Branding, IFaxServer.put_Branding, IFaxServer::Branding, IFaxServer::get_Branding, IFaxServer::put_Branding, _mfax_ifaxserver_get_branding, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp, fax._mfax_ifaxserver_get_branding, faxcom/IFaxServer::Branding, faxcom/IFaxServer::get_Branding, faxcom/IFaxServer::put_Branding, put_Branding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>Branding</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>Branding</b> property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
+Sets or retrieves the <b>Branding</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>Branding</b> property is a Boolean value that indicates whether the fax server generates branding information at the top of fax transmissions.
 
 This property is read/write.
 
@@ -77,19 +75,19 @@ A brand is an informational header at the top of most fax pages that typically c
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
  
 
  

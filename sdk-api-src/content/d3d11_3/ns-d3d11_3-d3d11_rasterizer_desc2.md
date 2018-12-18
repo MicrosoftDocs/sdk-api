@@ -9,8 +9,6 @@ ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2, D3D11_RASTERIZER_DESC2 structure [Direct3D 11], d3d11_3/D3D11_RASTERIZER_DESC2, direct3d11.d3d11_rasterizer_desc2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
@@ -60,12 +58,12 @@ Describes rasterizer state.
 
 #### - FillMode
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff476131(v=VS.85).aspx">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
+A <a href="https://msdn.microsoft.com/853a7df5-4740-40dd-9188-2b399f3aae68">D3D11_FILL_MODE</a>-typed value that determines the fill mode to use when rendering.
 
 
 #### - CullMode
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ff476108(v=VS.85).aspx">D3D11_CULL_MODE</a>-typed value that indicates that triangles facing the specified direction are not drawn.
+A <a href="https://msdn.microsoft.com/437c4e2f-f120-44db-b0ce-f4dd4e666814">D3D11_CULL_MODE</a>-typed value that indicates that triangles facing the specified direction are not drawn.
 
 
 #### - FrontCounterClockwise
@@ -131,20 +129,20 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 <li>Disable depth testing.</li>
 <li>Ensure the shader doesn't output depth.</li>
 <li>If you have any render-target views bound (<a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_RENDER_TARGET</a>) and <b>ForcedSampleCount</b> is greater than 1, ensure that every render target has only a single sample.</li>
-<li>Don't operate the shader at sample frequency. Therefore, <a href="https://msdn.microsoft.com/en-us/library/Ff476627(v=VS.85).aspx">ID3D11ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
+<li>Don't operate the shader at sample frequency. Therefore, <a href="https://msdn.microsoft.com/e57cdb67-90b6-4d5d-967b-5de3a9bbaf78">ID3D11ShaderReflection::IsSampleFrequencyShader</a> returns <b>FALSE</b>.</li>
 </ul>Otherwise, rendering behavior is undefined. For info about how to configure depth-stencil, see <a href="https://msdn.microsoft.com/en-us/library/Bb205074(v=VS.85).aspx">Configuring Depth-Stencil Functionality</a>.</div>
 <div> </div>
 
 #### - ConservativeRaster
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn859360(v=VS.85).aspx">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
+A <a href="https://msdn.microsoft.com/79D5A8A2-E379-4BE7-A0B2-50D16EFECAA3">D3D11_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
 
 
 ## -remarks
 
 
 
-Rasterizer state defines the behavior of the rasterizer stage. To create a rasterizer-state object, call <a href="https://msdn.microsoft.com/en-us/library/Dn899221(v=VS.85).aspx">ID3D11Device3::CreateRasterizerState2</a>. To set rasterizer state, call <a href="https://msdn.microsoft.com/en-us/library/Ff476479(v=VS.85).aspx">ID3D11DeviceContext::RSSetState</a>.
+Rasterizer state defines the behavior of the rasterizer stage. To create a rasterizer-state object, call <a href="https://msdn.microsoft.com/42BA8F50-7D86-4411-AE05-74F492761DBD">ID3D11Device3::CreateRasterizerState2</a>. To set rasterizer state, call <a href="https://msdn.microsoft.com/aa76cd3f-5d08-48e7-bd38-ff4d7119eae3">ID3D11DeviceContext::RSSetState</a>.
 
 If you do not specify some rasterizer state,  the Direct3D runtime uses the following default values for rasterizer state.
 
@@ -248,7 +246,7 @@ The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> me
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

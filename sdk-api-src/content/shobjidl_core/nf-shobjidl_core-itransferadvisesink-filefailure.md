@@ -9,8 +9,6 @@ ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],FileFailure method, ITransferAdviseSink.FileFailure, ITransferAdviseSink::FileFailure, _shell_ITransferAdviseSink_FileFailure, shell.ITransferAdviseSink_FileFailure, shobjidl_core/ITransferAdviseSink::FileFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

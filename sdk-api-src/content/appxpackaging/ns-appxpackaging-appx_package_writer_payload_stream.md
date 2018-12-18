@@ -9,8 +9,6 @@ ms.assetid: 0AB54C4B-6982-49A3-BFD3-E46E75954B08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APPX_PACKAGE_WRITER_PAYLOAD_STREAM, APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure [App packaging and management], appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM, appxpkg.appx_package_writer_payload_stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 

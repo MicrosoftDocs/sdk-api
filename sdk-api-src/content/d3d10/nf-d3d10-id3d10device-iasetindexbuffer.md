@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_iasetindexbuffer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 608d16ec-f6d6-ea93-bc37-fe7d34d07215, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 10], IASetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetIndexBuffer method, ID3D10Device.IASetIndexBuffer, ID3D10Device::IASetIndexBuffer, d3d10/ID3D10Device::IASetIndexBuffer, direct3d10.id3d10device_iasetindexbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

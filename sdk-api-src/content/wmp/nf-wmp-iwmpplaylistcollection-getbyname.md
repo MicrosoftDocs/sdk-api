@@ -9,8 +9,6 @@ ms.assetid: 9d837c57-8612-47ef-a0fa-a3ffa77ac704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],getByName method, IWMPPlaylistCollection.getByName, IWMPPlaylistCollection::getByName, IWMPPlaylistCollectiongetByName, getByName, getByName method [Windows Media Player], getByName method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_getbyname, wmp/IWMPPlaylistCollection::getByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,11 +113,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2ce0058c-8839-43da-aad8-4bc423ff3cde">IWMPPlaylistArray::get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563549(v=VS.85).aspx">IWMPPlaylistArray::get_count</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6861651-f0c3-4b99-8c81-a8a8f8b47692">IWMPPlaylistCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563552(v=VS.85).aspx">IWMPPlaylistCollection Interface</a>
  
 
  

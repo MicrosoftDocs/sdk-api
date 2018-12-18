@@ -9,8 +9,6 @@ ms.assetid: 2a0a6aa2-9015-4150-bbcf-e3f7218d53e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeCurrentLanguage, ChangeCurrentLanguage method [Text Services Framework], ChangeCurrentLanguage method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],ChangeCurrentLanguage method, ITfInputProcessorProfiles.ChangeCurrentLanguage, ITfInputProcessorProfiles::ChangeCurrentLanguage, _tsf_itfinputprocessorprofiles_changecurrentlanguage_ref, msctf/ITfInputProcessorProfiles::ChangeCurrentLanguage, tsf.itfinputprocessorprofiles_changecurrentlanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

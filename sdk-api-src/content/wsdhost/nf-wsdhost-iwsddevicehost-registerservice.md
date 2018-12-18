@@ -9,8 +9,6 @@ ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

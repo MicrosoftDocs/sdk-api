@@ -9,8 +9,6 @@ ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IISDB_NBIT.GetRecordDescriptorByTag, IISDB_NBIT::GetRecordDescriptorByTag, dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag, mstv.iisdb_nbit_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -80,7 +78,7 @@ looking for every instance of a particular descriptor tag.
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. 
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. 
 Use this interface to retrieve the information 
 in the descriptor. The caller must release the interface.
 
@@ -99,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
 
 
 

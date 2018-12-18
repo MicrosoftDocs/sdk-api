@@ -9,8 +9,6 @@ ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RegisterServiceWithAU method, IUpdateServiceManager.RegisterServiceWithAU, IUpdateServiceManager::RegisterServiceWithAU, RegisterServiceWithAU, RegisterServiceWithAU method [Windows Update Agent], RegisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_registerservicewithau, wuapi/IUpdateServiceManager::RegisterServiceWithAU
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

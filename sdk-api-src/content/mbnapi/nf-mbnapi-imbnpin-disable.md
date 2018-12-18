@@ -9,8 +9,6 @@ ms.assetid: 612edeb9-3de4-48ac-a311-7238402e8658
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disable, Disable method [Microsoft Broadband Networks], Disable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Disable method, IMbnPin.Disable, IMbnPin::Disable, mbn.imbnpin_disable, mbnapi/IMbnPin::Disable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

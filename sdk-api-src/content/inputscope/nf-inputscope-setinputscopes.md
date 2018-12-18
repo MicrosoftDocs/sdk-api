@@ -9,8 +9,6 @@ ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: inputscope.h
 req.include-header: 

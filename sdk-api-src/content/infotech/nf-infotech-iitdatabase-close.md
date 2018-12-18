@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitdatabaseclose.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],Close method, IITDatabase.Close, IITDatabase::Close, htmlhelp.iitdatabase_close, infotech/IITDatabase::Close, refIITDatabaseClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

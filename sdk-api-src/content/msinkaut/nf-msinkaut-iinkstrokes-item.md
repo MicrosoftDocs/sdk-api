@@ -9,8 +9,6 @@ ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Item method, IInkStrokes.Item, IInkStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkStrokes interface, ecffbdf0-4b1c-46de-bc4c-c44812dae27a, msinkaut/IInkStrokes::Item, tablet.inkstrokes_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -231,7 +229,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

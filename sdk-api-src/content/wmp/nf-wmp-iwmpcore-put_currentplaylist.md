@@ -9,8 +9,6 @@ ms.assetid: 943641ca-9733-4066-bc69-834e792d93dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentPlaylist method, IWMPCore.put_currentPlaylist, IWMPCore::put_currentPlaylist, IWMPCoreput_currentPlaylist, put_currentPlaylist, put_currentPlaylist method [Windows Media Player], put_currentPlaylist method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentplaylist, wmp/IWMPCore::put_currentPlaylist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,15 +108,15 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media object by invok
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb923325-67d2-4d73-b7ec-49e9b52cabba">IWMPCore::get_currentPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563228(v=VS.85).aspx">IWMPCore::get_currentPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f622eab3-4815-465a-823e-c52f1cb1c126
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UInt8ToChar, UInt8ToChar function [Windows Shell], intsafe/UInt8ToChar, shell.UInt8ToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

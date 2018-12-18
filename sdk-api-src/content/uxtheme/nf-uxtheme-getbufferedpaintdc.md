@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F665A6EB-2EF2-4B65-BD89-84F78B5AD468
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRotateTransform3D, CreateRotateTransform3D method [DirectComposition], CreateRotateTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateRotateTransform3D method, IDCompositionDevice2.CreateRotateTransform3D, IDCompositionDevice2::CreateRotateTransform3D, dcomp/IDCompositionDevice2::CreateRotateTransform3D, directcomp.idcompositiondevice2_createrotatetransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 3D rotation transform object.
 
 ### -param rotateTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>**</b>
 
 The new 3D rotation transform object. This parameter must not be NULL.
 
@@ -90,7 +88,7 @@ A new 3D rotation transform object has a default static value of zero for the An
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 
@@ -98,7 +96,7 @@ A new 3D rotation transform object has a default static value of zero for the An
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

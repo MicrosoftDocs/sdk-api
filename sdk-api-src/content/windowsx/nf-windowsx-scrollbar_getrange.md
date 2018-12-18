@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _win32_ScrollBar_GetRange, _win32_ScrollBar_GetRange_cpp, controls.ScrollBar_GetRange, controls._win32_ScrollBar_GetRange, windowsx/ScrollBar_GetRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

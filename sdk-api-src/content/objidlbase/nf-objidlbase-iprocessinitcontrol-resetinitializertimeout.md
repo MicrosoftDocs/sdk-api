@@ -9,8 +9,6 @@ ms.assetid: 1045b9c9-d7ad-4306-bd9d-7c2a4bda9a62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method, IProcessInitControl.ResetInitializerTimeout, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM],IProcessInitControl interface, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

@@ -9,8 +9,6 @@ ms.assetid: 3f2dd47d-08bf-4848-897f-5ae506fba342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAspectRatioFilterEx, GetAspectRatioFilterEx function [Windows GDI], _win32_GetAspectRatioFilterEx, gdi.getaspectratiofilterex, wingdi/GetAspectRatioFilterEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

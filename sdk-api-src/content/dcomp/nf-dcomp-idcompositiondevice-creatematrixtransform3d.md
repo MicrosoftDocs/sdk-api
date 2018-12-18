@@ -9,8 +9,6 @@ ms.assetid: 699DB053-3897-43EC-92E2-BD45CE643130
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMatrixTransform3D, CreateMatrixTransform3D method [DirectComposition], CreateMatrixTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform3D method, IDCompositionDevice.CreateMatrixTransform3D, IDCompositionDevice::CreateMatrixTransform3D, dcomp/IDCompositionDevice::CreateMatrixTransform3D, directcomp.idcompositiondevice_creatematrixtransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 3D 4-by-4 matrix transform object.
 
 ### -param matrixTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/56C9A564-2504-4940-B850-D280C8E0CF82">IDCompositionMatrixTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437425(v=VS.85).aspx">IDCompositionMatrixTransform3D</a>**</b>
 
 The new 3D matrix transform object. This parameter must not be NULL.
 
@@ -94,11 +92,11 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">DCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">DCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
  
 
  

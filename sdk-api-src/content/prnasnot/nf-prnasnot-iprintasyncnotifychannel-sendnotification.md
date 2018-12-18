@@ -9,8 +9,6 @@ ms.assetid: 729286d4-75ee-441e-b63d-fef72d41533a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrintAsyncNotifyChannel interface [Windows GDI],SendNotification method, IPrintAsyncNotifyChannel.SendNotification, IPrintAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Windows GDI], SendNotification method [Windows GDI],IPrintAsyncNotifyChannel interface, _win32_IPrintAsyncNotifyChannel_SendNotification, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__sendnotification, prnasnot/IPrintAsyncNotifyChannel::SendNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
@@ -138,7 +136,7 @@ A pointer to the content of the notification and its size and type.
 
 The return values are COM error codes. Because this function might complete the operation successfully yet return an HRESULT other than S_OK you should use the SUCCEEDED or FAILED macro to determine the success of the call. To get the specific HRESULT that was returned by the function, use the HRESULT_CODE macro. The following code example shows how these macros can be used.
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd162835(v=VS.85).aspx">PrintAsyncNotifyError</a> for other possible return values.
 
 For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 

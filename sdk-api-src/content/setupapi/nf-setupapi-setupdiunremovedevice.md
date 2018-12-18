@@ -9,8 +9,6 @@ ms.assetid: 1bffe874-d4ba-4efa-ab71-098a3c96092f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiUnremoveDevice, SetupDiUnremoveDevice function [Device and Driver Installation], devinst.setupdiunremovedevice, di-rtns_8c97341a-c852-47be-ad6e-c551f82deb6d.xml, setupapi/SetupDiUnremoveDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

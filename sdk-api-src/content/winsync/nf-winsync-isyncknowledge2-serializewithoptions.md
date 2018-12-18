@@ -9,8 +9,6 @@ ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

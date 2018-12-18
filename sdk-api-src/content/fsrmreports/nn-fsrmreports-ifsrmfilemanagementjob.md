@@ -9,8 +9,6 @@ ms.assetid: e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], IFsrmFileManagementJob interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjob, fsrm.ifsrmfilemanagementjob, fsrm/IFsrmFileManagementJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

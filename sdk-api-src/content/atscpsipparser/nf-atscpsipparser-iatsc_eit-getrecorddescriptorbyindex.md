@@ -9,8 +9,6 @@ ms.assetid: 06144d3d-b789-4ba3-b313-958de366764f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_EIT.GetRecordDescriptorByIndex, IATSC_EIT::GetRecordDescriptorByIndex, IATSC_EITGetRecordDescriptorByIndex, atscpsipparser/IATSC_EIT::GetRecordDescriptorByIndex, mstv.iatsc_eit_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Specifies which descriptor to retrieve, indexed from zero. Call the <a href="htt
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

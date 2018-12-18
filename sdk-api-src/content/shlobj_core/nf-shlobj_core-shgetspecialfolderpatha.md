@@ -9,8 +9,6 @@ ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

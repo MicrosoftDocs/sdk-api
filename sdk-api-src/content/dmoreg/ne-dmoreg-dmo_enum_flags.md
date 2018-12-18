@@ -9,8 +9,6 @@ ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dmoreg.h
 req.include-header: 
@@ -84,7 +82,7 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 
 
-<a href="https://msdn.microsoft.com/2cb69d28-15be-44fb-a180-98b560848c08">DMOEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 4799829d-8122-4bb4-839c-92f177cfd2da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptGetProperties, ScriptGetProperties function [Internationalization for Windows Applications], _win32_ScriptGetProperties, intl.scriptgetproperties, usp10/ScriptGetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
@@ -63,7 +61,7 @@ Retrieves information about the current scripts.
 
 ### -param ppSp [out]
 
-Pointer to an array of pointers to <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> structures indexed by script.
+Pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a> structures indexed by script.
 
 
 ### -param piNumScripts [out]
@@ -96,7 +94,7 @@ See <a href="https://msdn.microsoft.com/75c5946b-de38-48d9-a5e2-1e0b2dc9f3c7">De
 
 
 
-<a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a>
 
 
 

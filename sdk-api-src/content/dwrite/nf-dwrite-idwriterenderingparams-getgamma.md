@@ -9,8 +9,6 @@ ms.assetid: f83adfd6-055d-4b73-89a8-e0fe5af0b661
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGamma, GetGamma method [Direct Write], GetGamma method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetGamma method, IDWriteRenderingParams.GetGamma, IDWriteRenderingParams::GetGamma, directwrite.IDWriteRenderingParams_GetGamma, dwrite/IDWriteRenderingParams::GetGamma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7b60647a-b668-4884-967d-044ff0d149c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetNextTable method, ITSDT.GetNextTable, ITSDT::GetNextTable, ITSDTGetNextTable, mpeg2psiparser/ITSDT::GetNextTable, mstv.itsdt_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -112,7 +110,7 @@ This method applies only to current tables. Otherwise, the method returns E_ACCE
 
 
 
-<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
  
 
  

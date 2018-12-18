@@ -9,8 +9,6 @@ ms.assetid: 1c924ac5-b896-49e1-9ccf-825ac7a030c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDateFromUdate, VarDateFromUdate function [Automation], _oa96_VarDateFromUdate, automat.vardatefromudate, oleauto/VarDateFromUdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

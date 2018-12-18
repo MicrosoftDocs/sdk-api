@@ -9,8 +9,6 @@ ms.assetid: bb1b863f-e29f-496f-a50e-9ea524fe8603
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandlerEx, HandlerEx callback, HandlerEx callback function, LPHANDLER_FUNCTION_EX, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_DEVICEEVENT, SERVICE_CONTROL_HARDWAREPROFILECHANGE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_POWEREVENT, SERVICE_CONTROL_PRESHUTDOWN, SERVICE_CONTROL_SESSIONCHANGE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, SERVICE_CONTROL_TIMECHANGE, SERVICE_CONTROL_TRIGGEREVENT, SERVICE_CONTROL_USERMODEREBOOT, _win32_handlerex, base.handlerex, winsvc/HandlerEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winsvc.h
 req.include-header: Windows.h
@@ -433,7 +431,7 @@ If
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_POWEREVENT</b> and <i>dwEventType</i> is PBT_POWERSETTINGCHANGE, this data is a pointer to a 
-      <a href="https://msdn.microsoft.com/13fa8220-bad2-4bb6-b652-38fc11a31215">POWERBROADCAST_SETTING</a> structure. 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa372723(v=VS.85).aspx">POWERBROADCAST_SETTING</a> structure. 
 
 If 
       <i>dwControl</i> is <b>SERVICE_CONTROL_SESSIONCHANGE</b>, this parameter is a pointer to a 
@@ -534,7 +532,7 @@ Services can also use the
 
 
 
-<a href="https://msdn.microsoft.com/13fa8220-bad2-4bb6-b652-38fc11a31215">POWERBROADCAST_SETTING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372723(v=VS.85).aspx">POWERBROADCAST_SETTING</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 8c2161c2-ab7c-44b0-a7a0-249412359838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneDevSpecific, TSPI_phoneDevSpecific function [TAPI 2.2], _tspi_tspi_phonedevspecific, tspi.tspi_phonedevspecific, tspi/TSPI_phoneDevSpecific
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

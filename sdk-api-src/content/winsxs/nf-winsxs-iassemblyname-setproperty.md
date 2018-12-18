@@ -9,8 +9,6 @@ ms.assetid: 057bc5b3-008b-495b-b96c-2c0dcc43f1a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

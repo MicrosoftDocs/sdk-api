@@ -9,8 +9,6 @@ ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1DeviceContext6 interface, ID2D1DeviceContext6 interface [Direct2D],BlendImage method, ID2D1DeviceContext6.BlendImage, ID2D1DeviceContext6::BlendImage, d2d1_3/ID2D1DeviceContext6::BlendImage, direct2d.id2d1devicecontext6_blendimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -70,7 +68,7 @@ The image to be drawn to the device context.
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="blend.htm">Blend modes</a> for more info.
+The blend mode to be used. See <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend modes</a> for more info.
 
 
 ### -param targetOffset [in, optional]

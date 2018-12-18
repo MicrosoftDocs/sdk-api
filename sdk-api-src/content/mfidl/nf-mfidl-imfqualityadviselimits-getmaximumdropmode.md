@@ -9,8 +9,6 @@ ms.assetid: af3d968b-7baf-41d8-afd9-dbf673c1bb71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaximumDropMode, GetMaximumDropMode method [Media Foundation], GetMaximumDropMode method [Media Foundation],IMFQualityAdviseLimits interface, IMFQualityAdviseLimits interface [Media Foundation],GetMaximumDropMode method, IMFQualityAdviseLimits.GetMaximumDropMode, IMFQualityAdviseLimits::GetMaximumDropMode, mf.imfqualityadviselimits_getmaximumdropmode, mfidl/IMFQualityAdviseLimits::GetMaximumDropMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

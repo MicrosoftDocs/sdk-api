@@ -9,8 +9,6 @@ ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -61,7 +59,7 @@ The <code>IBasicVideo2</code> interface extends the <a href="https://msdn.micros
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo</a>. <b>IBasicVideo2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

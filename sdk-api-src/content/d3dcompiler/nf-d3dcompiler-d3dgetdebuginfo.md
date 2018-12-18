@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3dgetdebuginfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3DGetDebugInfo, D3DGetDebugInfo function [HLSL], d3dcompiler/D3DGetDebugInfo, direct3dhlsl.d3dgetdebuginfo, f21b6ffa-9910-4ce4-b2dc-07e7ad540fac
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

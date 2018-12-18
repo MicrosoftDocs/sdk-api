@@ -9,8 +9,6 @@ ms.assetid: 2c8dc746-3610-4d54-b4d3-ca21f8674c57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_IPV6Filter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_IPV6Filter.PutMulticastMode, IBDA_IPV6Filter::PutMulticastMode, IBDA_IPV6FilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_IPV6Filter interface, bdaiface/IBDA_IPV6Filter::PutMulticastMode, mstv.ibda_ipv6filter_putmulticastmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

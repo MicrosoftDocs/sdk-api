@@ -9,8 +9,6 @@ ms.assetid: 23cd93d9-3615-4fbf-a6de-61ee69cd51e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferV2SourceEvent.StaleFileDeleted, IMSVidStreamBufferV2SourceEvent::StaleFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_stalefiledeleted, segment/IMSVidStreamBufferV2SourceEvent::StaleFileDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -74,7 +72,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ab463f6e-0718-4420-89bc-28b3c447f3a0">IMSVidStreamBufferV2SourceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694694(v=VS.85).aspx">IMSVidStreamBufferV2SourceEvent</a>
 
 
 

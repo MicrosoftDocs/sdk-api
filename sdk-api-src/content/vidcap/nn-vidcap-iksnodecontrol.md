@@ -9,8 +9,6 @@ ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow],described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IKsNodeControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145967fc-3124-4e3b-b1ce-a381ea97cb89">put_KsControl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390140(v=VS.85).aspx">put_KsControl</a>
 </td>
 <td align="left" width="63%">
 Provides an instance of the <b>IKsControl</b> interface to the extension unit.
@@ -84,7 +82,7 @@ Provides an instance of the <b>IKsControl</b> interface to the extension unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f18085c-5a5c-4bc3-84e2-50fbf2319072">put_NodeId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390141(v=VS.85).aspx">put_NodeId</a>
 </td>
 <td align="left" width="63%">
 Sets the node identifier for the extension unit.

@@ -9,8 +9,6 @@ ms.assetid: 5ed3ec21-b609-41b6-9568-6ede460bc395
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1CreateDevice, D2D1CreateDevice function [Direct2D], d2d1_1/D2D1CreateDevice, direct2d.d2d1createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: 
@@ -118,11 +116,11 @@ If the creation properties are not specified, then <i>d2dDevice</i> will inherit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368034(v=VS.85).aspx">D2D1CreateFactory</a>
+<a href="https://msdn.microsoft.com/8c0a685a-8f33-4072-a715-bb423cb44f03">D2D1CreateFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404298(v=VS.85).aspx">D2D1_CREATION_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a>
 
 
 

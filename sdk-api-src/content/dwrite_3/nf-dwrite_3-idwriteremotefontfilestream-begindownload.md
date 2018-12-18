@@ -9,8 +9,6 @@ ms.assetid: A0EE8383-81A8-4974-B213-142704EFA210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],BeginDownload method, IDWriteRemoteFontFileStream.BeginDownload, IDWriteRemoteFontFileStream::BeginDownload, directwrite.idwriteremotefontfilestream_begindownload, dwrite_3/IDWriteRemoteFontFileStream::BeginDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -66,7 +64,7 @@ Type: <b>UUID</b>
 
 ### -param fileFragments [in]
 
-Type: <b><a href="https://msdn.microsoft.com/6E893719-E2A7-482A-B344-8FE2AA59A6B9">DWRITE_FILE_FRAGMENT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt798312(v=VS.85).aspx">DWRITE_FILE_FRAGMENT</a></b>
 
 Array of structures, each specifying a byte range to download.
 
@@ -91,7 +89,7 @@ Receives an object that can be used to wait for the asynchronous download to com
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -103,7 +101,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/2CC73CE0-162A-4808-ACB6-A9599FD4D09F">IDWriteRemoteFontFileStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807699(v=VS.85).aspx">IDWriteRemoteFontFileStream</a>
  
 
  

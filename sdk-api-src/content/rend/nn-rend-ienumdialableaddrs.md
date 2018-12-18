@@ -9,8 +9,6 @@ ms.assetid: 0a64cb89-9e44-4af1-9b0f-2eec6e5267c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDialableAddrs, IEnumDialableAddrs interface [TAPI 2.2], IEnumDialableAddrs interface [TAPI 2.2],described, _tapi3_ienumdialableaddrs, rend/IEnumDialableAddrs, tapi3.ienumdialableaddrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

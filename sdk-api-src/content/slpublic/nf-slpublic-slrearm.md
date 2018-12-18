@@ -9,8 +9,6 @@ ms.assetid: d1b47613-1e1d-4873-93ed-8ef2bc836c30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLReArm, SLReArm function [Security], security.slrearm, slpublic/SLReArm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

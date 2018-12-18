@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritiza
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], IRowsetPrioritization interface [search],described, _search_IRowsetPrioritization, search._search_IRowsetPrioritization, searchapi/IRowsetPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

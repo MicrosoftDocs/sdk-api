@@ -9,8 +9,6 @@ ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cea36260-b0f6-489a-b02a-3ca3576c6431
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyPageSite interface [COM],OnStatusChange method, IPropertyPageSite.OnStatusChange, IPropertyPageSite::OnStatusChange, OnStatusChange, OnStatusChange method [COM], OnStatusChange method [COM],IPropertyPageSite interface, PROPPAGESTATUS_DIRTY, PROPPAGESTATUS_VALIDATE, _ctrl_ipropertypagesite_onstatuschange, com.ipropertypagesite_onstatuschange, ocidl/IPropertyPageSite::OnStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

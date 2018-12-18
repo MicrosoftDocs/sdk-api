@@ -9,8 +9,6 @@ ms.assetid: 9b84891d-62ca-4ddc-97b7-c4c79482abd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseHandle, CloseHandle function, _win32_closehandle, base.closehandle, handleapi/CloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: handleapi.h
 req.include-header: Windows.h
@@ -140,7 +138,7 @@ For an example, see
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 
@@ -148,15 +146,15 @@ For an example, see
 
 
 
-<a href="base.deletefile">DeleteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363915(v=VS.85).aspx">DeleteFile</a>
 
 
 
-<a href="base.findclose">FindClose</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364413(v=VS.85).aspx">FindClose</a>
 
 
 
-<a href="base.findfirstfile">FindFirstFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364418(v=VS.85).aspx">FindFirstFile</a>
 
 
 

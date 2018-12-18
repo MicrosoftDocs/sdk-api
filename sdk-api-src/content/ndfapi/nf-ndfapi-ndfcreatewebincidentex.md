@@ -9,8 +9,6 @@ ms.assetid: ba378672-7ec4-4a5c-a900-fb8486a15ba3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreateWebIncidentEx, NdfCreateWebIncidentEx function [NDF], ndf.ndfcreatewebincidentex, ndfapi/NdfCreateWebIncidentEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

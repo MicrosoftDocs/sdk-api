@@ -9,8 +9,6 @@ ms.assetid: ca7ad8cb-0792-41ec-be5b-147be6750442
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],QueryCancel method, IDiscMasterProgressEvents.QueryCancel, IDiscMasterProgressEvents::QueryCancel, QueryCancel, QueryCancel method [IMAPI], QueryCancel method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_querycancel, base.idiscmasterprogressevents_querycancel, imapi.idiscmasterprogressevents_querycancel, imapi/IDiscMasterProgressEvents::QueryCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

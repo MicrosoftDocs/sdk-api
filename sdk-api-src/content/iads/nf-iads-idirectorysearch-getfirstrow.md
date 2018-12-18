@@ -9,8 +9,6 @@ ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFirstRow, GetFirstRow method [ADSI], GetFirstRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetFirstRow method, IDirectorySearch.GetFirstRow, IDirectorySearch::GetFirstRow, _ds_idirectorysearch_getfirstrow, adsi.idirectorysearch__getfirstrow, adsi.idirectorysearch_getfirstrow, iads/IDirectorySearch::GetFirstRow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

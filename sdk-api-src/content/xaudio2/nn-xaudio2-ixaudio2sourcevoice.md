@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2sourcevoice, xaudio2/IXAudio2SourceVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 

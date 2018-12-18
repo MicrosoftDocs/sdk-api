@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_4q05.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxRecipient interface [Fax Service],Name property, IFaxRecipient.Name, IFaxRecipient.get_Name, IFaxRecipient.put_Name, IFaxRecipient::Name, IFaxRecipient::get_Name, IFaxRecipient::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxRecipient interface, _mfax_faxrecipient.name, fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp, fax._mfax_faxrecipient_name, faxcomex/IFaxRecipient::Name, faxcomex/IFaxRecipient::get_Name, faxcomex/IFaxRecipient::put_Name, put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -69,15 +67,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/82a9e599-35d3-4fca-954f-dbc579c023f5">Broadcasting a Fax</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693479(v=VS.85).aspx">Broadcasting a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/e418dbaf-9b07-40a9-bab8-7b4561b63325">FaxRecipient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c8073de-644e-4594-8e52-49d07e82d432">IFaxRecipient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690206(v=VS.85).aspx">IFaxRecipient</a>
  
 
  

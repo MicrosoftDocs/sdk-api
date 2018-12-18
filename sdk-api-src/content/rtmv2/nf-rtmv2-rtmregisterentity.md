@@ -9,8 +9,6 @@ ms.assetid: 2b952ea2-cf33-49e3-ae31-a14b0907a1b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmRegisterEntity, RtmRegisterEntity function [RAS], _rtmv2ref_rtmregisterentity, rras.rtmregisterentity, rtmv2/RtmRegisterEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

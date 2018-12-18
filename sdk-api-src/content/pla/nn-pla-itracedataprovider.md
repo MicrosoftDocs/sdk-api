@@ -7,10 +7,8 @@ old-location: pla\itracedataprovider.htm
 tech.root: pla
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

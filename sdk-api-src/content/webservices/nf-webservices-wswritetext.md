@@ -9,8 +9,6 @@ ms.assetid: a4ffc05e-d04a-4cc3-bdb6-71b2090bc32f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteText, WsWriteText function [Web Services for Windows], webservices/WsWriteText, wsw.wswritetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

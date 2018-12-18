@@ -9,8 +9,6 @@ ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelIndividualization, CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelIndividualization method, IWMDRMReader.CancelIndividualization, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,7 +53,7 @@ req.redist:
 ]
 
 
-The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://msdn.microsoft.com/51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d">Individualize</a> method.
+The <b>CancelIndividualization</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798352(v=VS.85).aspx">Individualize</a> method.
 
 
 
@@ -81,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
  
 
  

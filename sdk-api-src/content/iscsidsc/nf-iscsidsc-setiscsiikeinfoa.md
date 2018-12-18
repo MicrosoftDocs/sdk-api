@@ -9,8 +9,6 @@ ms.assetid: db020346-45cf-4944-9776-81bb38c7ee6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIScsiIKEInfoA, SetIscsiIKEInfo, SetIscsiIKEInfo function [iSCSI Discovery Library API], SetIscsiIKEInfoA, SetIscsiIKEInfoW, iscsidisc.setiscsiikeinfo, iscsidsc/SetIscsiIKEInfo, iscsidsc/SetIscsiIKEInfoA, iscsidsc/SetIscsiIKEInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
@@ -73,7 +71,7 @@ The port on the initiator HBA with which to associate the key. If this parameter
 
 ### -param AuthInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a> structure that contains the authentication method. Currently, only the IKE_AUTHENTICATION_PRESHARED_KEY_METHOD is supported. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a> structure that contains the authentication method. Currently, only the IKE_AUTHENTICATION_PRESHARED_KEY_METHOD is supported. 
 
 
 
@@ -101,7 +99,7 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-<a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a>
  
 
  

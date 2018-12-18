@@ -9,8 +9,6 @@ ms.assetid: 2785b1b7-62ed-420d-ab98-264e1b03b578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurface9.UnlockSurface, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -117,7 +115,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/b24dae7d-5e88-4973-8507-8bd13cdccbde">IVMRSurface9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390494(v=VS.85).aspx">IVMRSurface9 Interface</a>
 
 
 

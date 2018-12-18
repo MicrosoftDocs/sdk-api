@@ -9,8 +9,6 @@ ms.assetid: 3296f0ab-2be8-4693-99bd-5dae0672df26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNetShowPreroll.put_Preroll, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::put_Preroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -98,7 +96,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/13478678-00de-48e6-b9e7-fd47db423290">IAMNetShowPreroll Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319729(v=VS.85).aspx">IAMNetShowPreroll Interface</a>
  
 
  

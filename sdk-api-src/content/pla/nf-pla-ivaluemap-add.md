@@ -7,10 +7,8 @@ old-location: pla\ivaluemap_add.htm
 tech.root: pla
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IValueMap interface, IValueMap interface [PLA],Add method, IValueMap.Add, IValueMap::Add, base.ivaluemap_add, pla.ivaluemap_add, pla/IValueMap::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

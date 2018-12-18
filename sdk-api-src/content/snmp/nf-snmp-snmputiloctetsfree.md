@@ -9,8 +9,6 @@ ms.assetid: be101ab3-393c-4b1a-882d-0284715d1da4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsFree, SnmpUtilOctetsFree function [SNMP], _snmp_snmputiloctetsfree, snmp.snmputiloctetsfree, snmp/SnmpUtilOctetsFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The
 ### -param pOctets [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a> structure whose memory should be freed.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a> structure whose memory should be freed.
 
 
 ## -returns
@@ -92,7 +90,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: d4c701f7-7f79-41d8-864e-41e044b0ea09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],CreateInstance method, IWICMetadataWriterInfo.CreateInstance, IWICMetadataWriterInfo::CreateInstance, _wic_codec_iwicmetadatawriterinfo_createinstance, wic._wic_codec_iwicmetadatawriterinfo_createinstance, wincodecsdk/IWICMetadataWriterInfo::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

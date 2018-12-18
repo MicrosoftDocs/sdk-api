@@ -9,8 +9,6 @@ ms.assetid: 6bceeabd-be77-4820-842a-d343fa2857bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentControlType property [Windows Accessibility], CurrentControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentControlType property, IUIAutomationElement.CurrentControlType, IUIAutomationElement.get_CurrentControlType, IUIAutomationElement::CurrentControlType, IUIAutomationElement::get_CurrentControlType, get_CurrentControlType, uiauto.uiauto_IUIAutomationElement_CurrentControlType, uiauto_IUIAutomationElement_CurrentControlType, uiautomationclient/IUIAutomationElement::CurrentControlType, uiautomationclient/IUIAutomationElement::get_CurrentControlType, winauto.uiauto_IUIAutomationElement_CurrentControlType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

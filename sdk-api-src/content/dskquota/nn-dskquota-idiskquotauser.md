@@ -9,8 +9,6 @@ ms.assetid: 27edbebc-35b4-4f6a-87cc-d8a99782f405
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser interface [Files],described, _win32_idiskquotauser, base.idiskquotauser, dskquota/IDiskQuotaUser, fs.idiskquotauser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dskquota.h
 req.include-header: 

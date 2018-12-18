@@ -9,8 +9,6 @@ ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], IMSVidInputDevices interface [Microsoft TV Technologies],described, IMSVidInputDevicesInterface, mstv.imsvidinputdevices, segment/IMSVidInputDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidInputDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3a8ab2a-4b9c-41d2-9fb6-5862891eba42">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694571(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an input device to the collection.
@@ -82,7 +80,7 @@ Adds an input device to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a33c9549-c5a6-48c1-bf49-66a7bf81cdaa">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694574(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -91,7 +89,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52c2d9a1-f688-4f5e-a120-082d70f8dff1">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694572(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -100,7 +98,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d8b2d88-e591-4280-966b-9c23f05d55f9">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694573(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -109,7 +107,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8990564-70d3-4962-9ff2-24664dbc1161">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694575(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

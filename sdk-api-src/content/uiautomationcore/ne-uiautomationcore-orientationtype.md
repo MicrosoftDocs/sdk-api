@@ -9,8 +9,6 @@ ms.assetid: 2f694be8-4e13-41bd-bb08-4c543baba574
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OrientationType, OrientationType enumeration [Windows Accessibility], OrientationType_Horizontal, OrientationType_None, OrientationType_Vertical, uiauto.uiauto_orientationtype, uiauto_orientationtype, uiautomationcore/OrientationType, uiautomationcore/OrientationType_Horizontal, uiautomationcore/OrientationType_None, uiautomationcore/OrientationType_Vertical, winauto.uiauto_orientationtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

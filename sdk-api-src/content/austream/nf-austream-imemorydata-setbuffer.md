@@ -9,8 +9,6 @@ ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -91,7 +89,7 @@ Returns S_OK if successful or E_INVALIDARG if <i>cbSize</i> is zero or <i>pbData
 
 
 
-This method can be called as often as needed. When using <a href="https://msdn.microsoft.com/5f56e3f9-443b-4d67-bfed-3210e691ad4b">IStreamSample::Update</a> to update samples asynchronously, make sure that SetBuffer is never called before an update is completed.
+This method can be called as often as needed. When using <a href="https://msdn.microsoft.com/en-us/library/Dd377148(v=VS.85).aspx">IStreamSample::Update</a> to update samples asynchronously, make sure that SetBuffer is never called before an update is completed.
 
 
 
@@ -101,7 +99,7 @@ This method can be called as often as needed. When using <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/0e809ae7-381c-4ada-8940-5d42bf5c03da">IMemoryData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
  
 
  

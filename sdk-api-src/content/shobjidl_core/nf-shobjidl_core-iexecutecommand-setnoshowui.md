@@ -9,8 +9,6 @@ ms.assetid: 26cec8f2-984a-4358-9082-bf6b886690eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetNoShowUI method, IExecuteCommand.SetNoShowUI, IExecuteCommand::SetNoShowUI, SetNoShowUI, SetNoShowUI method [Windows Shell], SetNoShowUI method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetNoShowUI, shell.IExecuteCommand_SetNoShowUI, shobjidl_core/IExecuteCommand::SetNoShowUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

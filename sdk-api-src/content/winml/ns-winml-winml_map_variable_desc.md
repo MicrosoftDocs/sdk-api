@@ -9,8 +9,6 @@ ms.assetid: 897AA848-EE56-47BF-8CCC-95B6F91D7EE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MachineLearning.winml_map_variable_desc, PWINML_MAP_VARIABLE_DESC, PWINML_MAP_VARIABLE_DESC structure pointer, WINML_MAP_VARIABLE_DESC, WINML_MAP_VARIABLE_DESC structure, winml/PWINML_MAP_VARIABLE_DESC, winml/WINML_MAP_VARIABLE_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

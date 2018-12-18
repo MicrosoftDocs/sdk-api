@@ -9,8 +9,6 @@ ms.assetid: 2ac8a7d6-5c52-41de-acb9-d7f975fd2a94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileEx, MapViewOfFileEx function, _win32_mapviewoffileex, base.mapviewoffileex, fs.mapviewoffileex, winbase/MapViewOfFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -306,8 +304,8 @@ The exception is related to remote files. Although
     computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file being accessed by the 
-    <a href="base.readfile">ReadFile</a> or 
-    <a href="base.writefile">WriteFile</a> function.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
 
 To guard against <b>EXCEPTION_IN_PAGE_ERROR</b> exceptions, use structured exception 
     handling to protect any code that writes to or reads from a memory mapped view of a file other than the page file. 
@@ -421,7 +419,7 @@ Yes
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 
@@ -437,7 +435,7 @@ Yes
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

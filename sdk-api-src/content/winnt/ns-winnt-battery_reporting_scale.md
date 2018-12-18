@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.BATTERY_REPORTING_SCALE
+UID: NS:winnt.__unnamed_struct_3
 title: BATTERY_REPORTING_SCALE
 author: windows-sdk-content
 description: Contains the granularity of the battery capacity that is reported by IOCTL_BATTERY_QUERY_STATUS.
@@ -7,10 +7,8 @@ old-location: base\battery_reporting_scale_str.htm
 tech.root: power
 ms.assetid: 91834159-e837-407b-8c9e-fbbcf9f208ef
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure, PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer, _win32_battery_reporting_scale_str, base.battery_reporting_scale_str, winnt/BATTERY_REPORTING_SCALE, winnt/PBATTERY_REPORTING_SCALE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

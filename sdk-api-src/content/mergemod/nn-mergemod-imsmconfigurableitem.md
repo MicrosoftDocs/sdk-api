@@ -9,8 +9,6 @@ ms.assetid: d10bfd31-22a8-4100-ac0b-dd0795622808
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem, IMsmConfigurableItem interface, IMsmConfigurableItem interface,described, mergemod/IMsmConfigurableItem, setup.imsmconfigurableitem_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
@@ -56,7 +54,7 @@ The <b>IMsmConfigurableItem</b> interface manages a single row from the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigurableItem</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmConfigurableItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigurableItem</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmConfigurableItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -177,7 +175,7 @@ Retrieves the
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

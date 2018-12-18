@@ -9,8 +9,6 @@ ms.assetid: 815f4895-d418-4336-9420-2405bcd5cfb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cursors property [Tablet PC], Cursors property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Cursors property, IInkPicture.Cursors, IInkPicture.get_Cursors, IInkPicture::Cursors, IInkPicture::get_Cursors, InkPicture.get_Cursors, get_Cursors, msinkaut/IInkPicture::Cursors, msinkaut/IInkPicture::get_Cursors, tablet.inkpicture_cursors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -94,7 +92,7 @@ The <a href="https://msdn.microsoft.com/3ae7dbc4-e5a2-4916-a1cc-651659a008fc">II
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

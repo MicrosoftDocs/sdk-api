@@ -9,8 +9,6 @@ ms.assetid: 940929d7-7940-448e-9554-3e3691772eb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],ReleaseExclusiveAccess method, IDiscRecorder2.ReleaseExclusiveAccess, IDiscRecorder2::ReleaseExclusiveAccess, ReleaseExclusiveAccess, ReleaseExclusiveAccess method [IMAPI], ReleaseExclusiveAccess method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_releaseexclusiveaccess, imapi2/IDiscRecorder2::ReleaseExclusiveAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

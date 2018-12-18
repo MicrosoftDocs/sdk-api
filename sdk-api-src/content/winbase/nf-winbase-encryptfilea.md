@@ -9,8 +9,6 @@ ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

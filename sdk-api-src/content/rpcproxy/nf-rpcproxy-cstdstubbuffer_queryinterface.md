@@ -10,8 +10,6 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdStubBuffer_QueryInterface, CStdStubBuffer_QueryInterface
 , CStdStubBuffer_QueryInterface function [RPC], rpc.cstdstubbuffer_queryinterface, rpcproxy/CStdStubBuffer_QueryInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

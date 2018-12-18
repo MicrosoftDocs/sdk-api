@@ -9,8 +9,6 @@ ms.assetid: d8080e5f-99e7-47eb-96ff-53c4ed8d2ff1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnDataChange method, IMixerOCXNotify.OnDataChange, IMixerOCXNotify::OnDataChange, IMixerOCXNotifyOnDataChange, OnDataChange, OnDataChange method [DirectShow], OnDataChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_ondatachange, mixerocx/IMixerOCXNotify::OnDataChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
@@ -103,11 +101,11 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b73416c0-2312-4164-8a6d-f8776dc1447f">IMixerOCXNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407085(v=VS.85).aspx">IMixerOCXNotify Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 97cfe347-f4ca-4512-a33a-4da4532c4290
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetOptionInfo, DhcpSetOptionInfo function [DHCP], dhcp.dhcpsetoptioninfo, dhcpsapi/DhcpSetOptionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

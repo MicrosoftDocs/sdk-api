@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorFloor(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorFloor, XMVectorFloor, XMVectorFloor method [DirectX Math Support APIs], dxmath.xmvectorfloor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -101,7 +99,7 @@ return Result;
 
 
 
-<a href="https://msdn.microsoft.com/e07f9174-19ba-4b27-a5c9-23f1061832c0">XMVectorCeiling</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421007(v=VS.85).aspx">XMVectorCeiling</a>
  
 
  

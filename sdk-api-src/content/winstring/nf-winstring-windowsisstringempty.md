@@ -9,8 +9,6 @@ ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

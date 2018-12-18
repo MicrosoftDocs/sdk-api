@@ -9,8 +9,6 @@ ms.assetid: c54c5b7e-3abf-4006-a811-c80b06e6def9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],startScan method, IWMPFolderMonitorServices.startScan, IWMPFolderMonitorServices::startScan, IWMPFolderMonitorServicesstartScan, startScan, startScan method [Windows Media Player], startScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_startscan, wmp/IWMPFolderMonitorServices::startScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>startScan</b> method starts a scanning operation.
 
@@ -109,23 +107,23 @@ The <b>startScan</b> method should always be paired with a call to the <b>stopSc
 
 
 
-<a href="https://msdn.microsoft.com/07e9a49b-19a6-4ed2-b037-fe44ada920a1">IWMPEvents3::FolderScanStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563302(v=VS.85).aspx">IWMPEvents3::FolderScanStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6">IWMPFolderMonitorServices::get_scanState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563373(v=VS.85).aspx">IWMPFolderMonitorServices::get_scanState</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b85cefb-3118-4e7f-b6f7-2f387057895e">IWMPFolderMonitorServices::stopScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563378(v=VS.85).aspx">IWMPFolderMonitorServices::stopScan</a>
 
 
 
-<a href="https://msdn.microsoft.com/20909420-5f90-4334-b21a-82d6cdc6d019">WMPFolderScanState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564698(v=VS.85).aspx">WMPFolderScanState</a>
  
 
  

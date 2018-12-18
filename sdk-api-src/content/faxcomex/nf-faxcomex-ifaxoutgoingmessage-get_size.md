@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7wx1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Size property, IFaxOutgoingMessage.Size, IFaxOutgoingMessage.get_Size, IFaxOutgoingMessage::Size, IFaxOutgoingMessage::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.size, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_size_cpp, fax._mfax_faxoutgoingmessage_size, faxcomex/IFaxOutgoingMessage::Size, faxcomex/IFaxOutgoingMessage::get_Size, get_Size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/7423ccd1-5eb6-402f-99fb-2cbed386450a">IFaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690152(v=VS.85).aspx">IFaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9179b417-7dcd-4bb4-832f-86830e4b77ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumCATEGORYINFO interface, IEnumCATEGORYINFO interface [COM],Clone method, IEnumCATEGORYINFO.Clone, IEnumCATEGORYINFO::Clone, _com_ienumcategoryinfo_clone, com.ienumcategoryinfo_clone, comcat/IEnumCATEGORYINFO::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
@@ -79,7 +77,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: e2f4e8ff-6ac8-45b5-af93-a278bf92a07a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyPort method, IWMReaderNetworkConfig.SetProxyPort, IWMReaderNetworkConfig::SetProxyPort, IWMReaderNetworkConfigSetProxyPort, SetProxyPort, SetProxyPort method [windows Media Format], SetProxyPort method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyport, wmsdkidl/IWMReaderNetworkConfig::SetProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,15 +125,15 @@ By default, the port numbers are 1755 for MMS and 80 for HTTP. The correct port 
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/042d702e-b4a1-43f6-b2c4-c81922d7c3f2">IWMReaderNetworkConfig::GetProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743533(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: c068310e-4083-46ac-8ec6-3d57976f4a88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_StopTime method, IMediaPosition.put_StopTime, IMediaPosition::put_StopTime, IMediaPositionput_StopTime, control/IMediaPosition::put_StopTime, dshow.imediaposition_put_stoptime, put_StopTime, put_StopTime method [DirectShow], put_StopTime method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -131,7 +129,7 @@ The stop time ignores the start time and the playback rate. For example, if the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

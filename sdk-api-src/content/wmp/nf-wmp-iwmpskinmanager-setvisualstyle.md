@@ -9,8 +9,6 @@ ms.assetid: 16d0020f-7650-4300-bd34-6f79ecca5175
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSkinManager interface [Windows Media Player],SetVisualStyle method, IWMPSkinManager.SetVisualStyle, IWMPSkinManager::SetVisualStyle, IWMPSkinManagerSetVisualStyle, SetVisualStyle, SetVisualStyle method [Windows Media Player], SetVisualStyle method [Windows Media Player],IWMPSkinManager interface, wmp.iwmpskinmanager_setvisualstyle, wmp/IWMPSkinManager::SetVisualStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,7 +103,7 @@ Windows XP calls this method when the user changes the current theme. The curren
 
 
 
-<a href="https://msdn.microsoft.com/c1f27a79-837f-4833-af62-2181406ed725">IWMPSkinManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563684(v=VS.85).aspx">IWMPSkinManager Interface</a>
  
 
  

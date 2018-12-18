@@ -9,8 +9,6 @@ ms.assetid: C54768ED-30A7-45E8-8CE0-33F06E48EA10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddSinusoidal, AddSinusoidal method [DirectComposition], AddSinusoidal method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddSinusoidal method, IDCompositionAnimation.AddSinusoidal, IDCompositionAnimation::AddSinusoidal, dcompanimation/IDCompositionAnimation::AddSinusoidal, directcomp.idcompositionanimation_addsinusoidal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: storageprovider.h
 req.include-header: 

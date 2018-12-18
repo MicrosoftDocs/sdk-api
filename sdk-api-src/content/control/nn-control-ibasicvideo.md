@@ -9,8 +9,6 @@ ms.assetid: 14f45bdc-2271-459d-b165-c860c8fc3e0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], IBasicVideo interface [DirectShow],described, IBasicVideoInterface, control/IBasicVideo, dshow.ibasicvideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -74,7 +72,7 @@ Properties set on the Video Renderer persist between successive connections and 
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBasicVideo</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

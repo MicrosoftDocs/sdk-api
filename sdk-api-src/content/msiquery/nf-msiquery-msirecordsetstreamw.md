@@ -9,8 +9,6 @@ ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

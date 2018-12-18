@@ -9,8 +9,6 @@ ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream interface [Structured Storage],LockRegion method, IStream.LockRegion, IStream::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],IStream interface, _stg_istream_lockregion, objidl/IStream::LockRegion, stg.istream_lockregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

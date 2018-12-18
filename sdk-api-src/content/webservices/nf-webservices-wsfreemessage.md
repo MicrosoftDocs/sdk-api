@@ -9,8 +9,6 @@ ms.assetid: 50e08300-9445-4741-9298-bd80fc777041
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeMessage, WsFreeMessage function [Web Services for Windows], webservices/WsFreeMessage, wsw.wsfreemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

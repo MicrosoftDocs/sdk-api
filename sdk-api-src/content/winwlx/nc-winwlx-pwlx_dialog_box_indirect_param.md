@@ -9,8 +9,6 @@ ms.assetid: 98541411-45c7-4c23-95a0-c76022184db3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT_PARAM, PWLX_DIALOG_BOX_INDIRECT_PARAM callback, WlxDialogBoxIndirectParam, WlxDialogBoxIndirectParam callback function [Security], _gina_wlxdialogboxindirectparam, security.wlxdialogboxindirectparam, winwlx/WlxDialogBoxIndirectParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 
@@ -74,8 +72,8 @@ Specifies the instance of the module that creates the dialog box.
 ### -param hDialogTemplate [in]
 
 Specifies the address of a global memory object that contains a dialog box template used to create the dialog box. The template is in the form of a 
-<a href="_win32_dlgtemplate_str_cpp">DLGTEMPLATE</a> structure followed by one or more 
-<a href="_win32_dlgitemtemplate_str_cpp">DLGITEMTEMPLATE</a> structures. For a full description of these structures, see the Platform SDK.
+<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> structure followed by one or more 
+<a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a> structures. For a full description of these structures, see the Platform SDK.
 
 
 ### -param hwndOwner [in]
@@ -86,13 +84,13 @@ Specifies the window that owns the dialog box.
 ### -param dlgprc [in]
 
 Points to the dialog box procedure. For more information about the dialog box procedure, see the description of the 
-<a href="_win32_dialogproc_cpp">DialogProc</a> callback function in the Platform SDK.
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a> callback function in the Platform SDK.
 
 
 ### -param dwInitParam [in]
 
 Specifies the value used to initialize the dialog box control. This value is passed to the dialog box in the <i>lParam</i> parameter of the 
-<a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a> message.
+<a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message.
 
 
 ## -returns
@@ -100,7 +98,7 @@ Specifies the value used to initialize the dialog box control. This value is pas
 
 
 If the function succeeds, the function returns the <i>nResult</i> parameter given in the call to the 
-<a href="_win32_enddialog_cpp">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
 
 <table>
 <tr>
@@ -163,7 +161,7 @@ If the function fails, the return value is –1.
 
 
 
-<b>WlxDialogBoxIndirectParam</b> duplicates the Windows <a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a> function and also allows Winlogon to terminate the dialog box. For more information, see 
+<b>WlxDialogBoxIndirectParam</b> duplicates the Windows <a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> function and also allows Winlogon to terminate the dialog box. For more information, see 
 <b>DialogBoxIndirectParam</b>.
 
 
@@ -174,27 +172,27 @@ If the function fails, the return value is –1.
 
 
 
-<a href="_win32_dlgitemtemplate_str_cpp">DLGITEMTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644997(v=VS.85).aspx">DLGITEMTEMPLATE</a>
 
 
 
-<a href="_win32_dlgtemplate_str_cpp">DLGTEMPLATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a>
 
 
 
-<a href="_win32_dialogboxindirectparam_cpp">DialogBoxIndirectParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
 
 
 
-<a href="_win32_dialogproc_cpp">DialogProc</a>
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
 
 
 
-<a href="_win32_enddialog_cpp">EndDialog</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a>
 
 
 
-<a href="_win32_wm_initdialog_cpp">WM_INITDIALOG</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a>
 
 
 

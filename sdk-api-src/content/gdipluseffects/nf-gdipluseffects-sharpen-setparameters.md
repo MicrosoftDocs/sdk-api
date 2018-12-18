@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenmet
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Sharpen class, Sharpen class [GDI+],SetParameters method, Sharpen.SetParameters, Sharpen::SetParameters, _gdiplus_CLASS_Sharpen_SetParameters_, gdiplus._gdiplus_CLASS_Sharpen_SetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

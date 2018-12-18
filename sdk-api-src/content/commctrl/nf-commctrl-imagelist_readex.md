@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_readex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILP_DOWNLEVEL, ILP_NORMAL, ImageList_ReadEx, ImageList_ReadEx function [Windows Controls], _win32_ImageList_ReadEx, _win32_ImageList_ReadEx_cpp, commctrl/ImageList_ReadEx, controls.ImageList_ReadEx, controls._win32_ImageList_ReadEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -61,7 +59,7 @@ Reads an image list from a stream, and returns an <a href="https://msdn.microsof
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A flag that specifies how the stream is read.
 
@@ -126,7 +124,7 @@ The address of a pointer to the interface for the image list if successful, <b>N
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 95b28f9a-744c-4d49-a91c-6652d688b91a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetSize method, IMDSPStorage.GetSize, IMDSPStorage::GetSize, IMDSPStorageGetSize, mswmdm/IMDSPStorage::GetSize, wmdm.imdspstorage_getsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

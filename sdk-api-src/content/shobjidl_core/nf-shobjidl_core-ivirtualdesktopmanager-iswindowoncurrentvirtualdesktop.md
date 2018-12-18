@@ -9,8 +9,6 @@ ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/B95AC349-63E3-4A5A-A353-1C93486BB67A">IVirtualDesktopManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186440(v=VS.85).aspx">IVirtualDesktopManager</a>
  
 
  

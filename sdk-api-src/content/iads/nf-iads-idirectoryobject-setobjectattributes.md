@@ -9,8 +9,6 @@ ms.assetid: 999e6766-52cf-4087-bb17-72de487975c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectoryObject interface [ADSI],SetObjectAttributes method, IDirectoryObject.SetObjectAttributes, IDirectoryObject::SetObjectAttributes, SetObjectAttributes, SetObjectAttributes method [ADSI], SetObjectAttributes method [ADSI],IDirectoryObject interface, _ds_idirectoryobject_setobjectattributes, adsi.idirectoryobject__setobjectattributes, adsi.idirectoryobject_setobjectattributes, iads/IDirectoryObject::SetObjectAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

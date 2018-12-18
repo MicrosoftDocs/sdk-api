@@ -9,8 +9,6 @@ ms.assetid: 0d0072ce-3480-4687-a4ea-640953cf5a36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDecoder, CreateDecoder method [Windows Imaging Component], CreateDecoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoder method, IWICImagingFactory.CreateDecoder, IWICImagingFactory::CreateDecoder, _wic_codec_iwicimagingfactory_createdecoder, wic._wic_codec_iwicimagingfactory_createdecoder, wincodec/IWICImagingFactory::CreateDecoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6E6B4E7F-F835-4FB9-9147-3659402EFCBB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIFactory7, IDXGIFactory7 interface [DXGI], IDXGIFactory7 interface [DXGI],described, direct3ddxgi.idxgifactory7, dxgi1_6/IDXGIFactory7
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_6.h
 req.include-header: 
@@ -71,7 +69,7 @@ The <b>IDXGIFactory7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B0A5C04B-B081-4BDD-8952-6CC9116123E0">RegisterAdaptersChangedEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832836(v=VS.85).aspx">RegisterAdaptersChangedEvent</a>
 </td>
 <td align="left" width="63%">
 Registers to receive notification of changes whenever the adapter enumeration state changes.
@@ -80,7 +78,7 @@ Registers to receive notification of changes whenever the adapter enumeration st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D118A5F6-CCFB-425C-82E8-18A3D8FAD79C">UnregisterAdaptersChangedEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832837(v=VS.85).aspx">UnregisterAdaptersChangedEvent</a>
 </td>
 <td align="left" width="63%">
 Unregisters  an event to stop receiving notifications when the adapter enumeration state changes.

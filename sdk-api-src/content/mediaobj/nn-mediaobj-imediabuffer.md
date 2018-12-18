@@ -9,8 +9,6 @@ ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -74,7 +72,7 @@ The <b>IMediaBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/255ef101-f004-41c8-afb8-437d21decee5">GetBufferAndLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390167(v=VS.85).aspx">GetBufferAndLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffer and the size of the valid data in the buffer.
@@ -83,7 +81,7 @@ Retrieves the buffer and the size of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e312d3b-4994-4493-861c-cc0f6f112362">GetMaxLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390168(v=VS.85).aspx">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of bytes this buffer can hold.
@@ -92,7 +90,7 @@ Retrieves the maximum number of bytes this buffer can hold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06cfbfd3-d196-4adb-a6b3-9b5f88bc03a6">SetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390169(v=VS.85).aspx">SetLength</a>
 </td>
 <td align="left" width="63%">
 Specifies the length of the data currently in the buffer.

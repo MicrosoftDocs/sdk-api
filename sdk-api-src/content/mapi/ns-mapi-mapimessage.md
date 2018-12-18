@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.MapiMessage
+UID: NS:mapi.__unnamed_struct_5
 title: MapiMessage
 author: windows-sdk-content
 description: A MapiMessage structure contains information about a message. For Unicode support, use the MapiMessageW structure.
@@ -7,10 +7,8 @@ old-location: mapi\mapimessage.htm
 tech.root: WindowsMAPI
 ms.assetid: 7f696dd6-bfae-4c7d-b55f-d37952691c02
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessage structure, lpMapiMessage, lpMapiMessage structure pointer, mapi.mapimessage, mapi/MapiMessage, mapi/lpMapiMessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-A <b>MapiMessage</b> structure contains information about a message. For Unicode support, use the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> structure.
+A <b>MapiMessage</b> structure contains information about a message. For Unicode support, use the <a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a> structure.
 
 
 ## -struct-fields
@@ -133,7 +131,7 @@ The message has not been read.
 
 ### -field lpOriginator
 
-Pointer to a <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure containing information about the sender of the message. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structure containing information about the sender of the message. 
 
 
 ### -field nRecipCount
@@ -143,7 +141,7 @@ The number of message recipient structures in the array pointed to by the <b>lpR
 
 ### -field lpRecips
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structures, each containing information about a message recipient.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structures, each containing information about a message recipient.
 
 
 ### -field nFileCount
@@ -153,7 +151,7 @@ The number of structures describing file attachments in the array pointed to by 
 
 ### -field lpFiles
 
-Pointer to an array of <a href="https://msdn.microsoft.com/c2193551-85c3-4293-b632-d6c8ab84800a">MapiFileDesc</a> structures, each containing information about a file attachment.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd296737(v=VS.85).aspx">MapiFileDesc</a> structures, each containing information about a file attachment.
 
 
 ## -see-also
@@ -177,7 +175,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/c2193551-85c3-4293-b6
 
 
 
-<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a>
  
 
  

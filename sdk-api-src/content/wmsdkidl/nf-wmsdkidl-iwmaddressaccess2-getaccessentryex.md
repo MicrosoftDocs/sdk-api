@@ -9,8 +9,6 @@ ms.assetid: 477e6b28-bfa0-4ce9-b2e0-eb51eaba6476
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccessEntryEx, GetAccessEntryEx method [windows Media Format], GetAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],GetAccessEntryEx method, IWMAddressAccess2.GetAccessEntryEx, IWMAddressAccess2::GetAccessEntryEx, IWMAddressAccess2GetAccessEntryEx, wmformat.iwmaddressaccess2_getaccessentryex, wmsdkidl/IWMAddressAccess2::GetAccessEntryEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,12 +64,12 @@ The <b>GetAccessEntryEx</b> method retrieves an entry from the IP address access
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/514e6745-c521-41bd-81c2-b6c24cfb0192">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the type of entry to retrieve (exclusion or inclusion).
 
 
 ### -param dwEntryNum [in]
 
-Zero-based index of the entry. Use the <a href="https://msdn.microsoft.com/996d8a8a-887e-4e2f-b810-c57a4251f771">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
+Zero-based index of the entry. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
 
 
 ### -param pbstrAddress [out]
@@ -97,7 +95,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-For more information about the meaning of the <i>pbstrAddress</i> and <i>pbstrMask</i> parameters, see <a href="https://msdn.microsoft.com/8125f716-0523-4042-a1f1-019445fb7de9">IWMAddressAccess2::AddAccessEntryEx</a>.
+For more information about the meaning of the <i>pbstrAddress</i> and <i>pbstrMask</i> parameters, see <a href="https://msdn.microsoft.com/en-us/library/Dd743281(v=VS.85).aspx">IWMAddressAccess2::AddAccessEntryEx</a>.
 
 The caller must release the returned <b>BSTR</b> values, by calling <b>SysFreeString</b>.
 
@@ -109,7 +107,7 @@ The caller must release the returned <b>BSTR</b> values, by calling <b>SysFreeSt
 
 
 
-<a href="https://msdn.microsoft.com/609a20a7-e1a3-4889-abf3-4a6defc7739a">IWMAddressAccess2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2 Interface</a>
  
 
  

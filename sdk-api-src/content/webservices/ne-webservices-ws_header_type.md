@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_HEADER_TYPE
+UID: NE:webservices.__unnamed_enum_42
 title: WS_HEADER_TYPE
 author: windows-sdk-content
 description: Identifies a type of header.
@@ -7,10 +7,8 @@ old-location: wsw\ws_header_type.htm
 tech.root: wsw
 ms.assetid: 4c9b927d-00c7-41e4-bc29-e84a4c23c162
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ACTION_HEADER, WS_FAULT_TO_HEADER, WS_FROM_HEADER, WS_HEADER_TYPE, WS_HEADER_TYPE enumeration [Web Services for Windows], WS_MESSAGE_ID_HEADER, WS_RELATES_TO_HEADER, WS_REPLY_TO_HEADER, WS_TO_HEADER, webservices/WS_ACTION_HEADER, webservices/WS_FAULT_TO_HEADER, webservices/WS_FROM_HEADER, webservices/WS_HEADER_TYPE, webservices/WS_MESSAGE_ID_HEADER, webservices/WS_RELATES_TO_HEADER, webservices/WS_REPLY_TO_HEADER, webservices/WS_TO_HEADER, wsw.ws_header_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -64,16 +62,16 @@ Identifies a type of header.
 The Action addressing header.
                 
 
-This header can be used with the following <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>s:
+This header can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
@@ -84,16 +82,16 @@ This header can be used with the following <a href="https://msdn.microsoft.com/e
 The To addressing header.
                 
 
-This header can be used with the following <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>s:
+This header can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
@@ -104,24 +102,24 @@ This header can be used with the following <a href="https://msdn.microsoft.com/e
 The MessageID addressing header.
                 
 
-This header can be used with the following <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>s:
+This header can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNIQUE_ID_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_UNIQUE_ID_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
 
-This header is not supported for <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_TRANSPORT</a>.
                 
 
 
@@ -130,24 +128,24 @@ This header is not supported for <a href="https://msdn.microsoft.com/87f60067-10
 The RelatesTo addressing header.
                 
 
-This header can be used with the following <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>s:
+This header can be used with the following <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>s:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNIQUE_ID_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_UNIQUE_ID_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a>
 </li>
 </ul>
 
 
-This header is not supported for <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_TRANSPORT</a>.
                 
 
 
@@ -156,10 +154,10 @@ This header is not supported for <a href="https://msdn.microsoft.com/87f60067-10
 The From addressing header.
                 
 
-This header is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_TRANSPORT</a>.
                 
 
 
@@ -168,10 +166,10 @@ This header is not supported for <a href="https://msdn.microsoft.com/87f60067-10
 The ReplyTo addressing header.
                 
 
-This header is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_TRANSPORT</a>.
                 
 
 
@@ -180,9 +178,9 @@ This header is not supported for <a href="https://msdn.microsoft.com/87f60067-10
 The FaultTo addressing header, in <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a> format.
                 
 
-This header is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENDPOINT_ADDRESS_TYPE</a>.
+This header is used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
-This header is not supported for <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>.
+This header is not supported for <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_TRANSPORT</a>.
                 
 

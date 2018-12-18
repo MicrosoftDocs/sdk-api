@@ -9,8 +9,6 @@ ms.assetid: 1fd3b84d-ea45-4267-ac30-e4e2cf037c92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcTestCancel, RpcTestCancel function [RPC], _rpc_rpctestcancel, rpc.rpctestcancel, rpcdce/RpcTestCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

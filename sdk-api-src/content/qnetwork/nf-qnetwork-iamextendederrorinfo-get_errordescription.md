@@ -9,8 +9,6 @@ ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/0e3274e6-7c22-4175-8b2e-cdf4afc1225e">IAMExtendedErrorInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389327(v=VS.85).aspx">IAMExtendedErrorInfo Interface</a>
  
 
  

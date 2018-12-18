@@ -9,8 +9,6 @@ ms.assetid: 3780ab3d-6b77-45bc-9630-747fa5caaecc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearChangeHistory, ClearChangeHistory method [Text Services Framework], ClearChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],ClearChangeHistory method, IAnchor.ClearChangeHistory, IAnchor::ClearChangeHistory, textstor/IAnchor::ClearChangeHistory, tsf.ianchor_clearchangehistory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

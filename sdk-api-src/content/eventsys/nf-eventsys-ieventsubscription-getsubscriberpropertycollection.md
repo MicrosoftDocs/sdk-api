@@ -9,8 +9,6 @@ ms.assetid: 33d00424-a285-4953-aa96-be30d3e7da17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubscriberPropertyCollection, GetSubscriberPropertyCollection method [COM+], GetSubscriberPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberPropertyCollection method, IEventSubscription.GetSubscriberPropertyCollection, IEventSubscription::GetSubscriberPropertyCollection, _cos_IEventSubscription_GetSubscriberPropertyCollection, cos.ieventsubscription_getsubscriberpropertycollection, eventsys/IEventSubscription::GetSubscriberPropertyCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

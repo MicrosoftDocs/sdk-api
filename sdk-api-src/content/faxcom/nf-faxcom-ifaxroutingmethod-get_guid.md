@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Guid property [Fax Service], Guid property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],Guid property, IFaxRoutingMethod.Guid, IFaxRoutingMethod.get_Guid, IFaxRoutingMethod::Guid, IFaxRoutingMethod::get_Guid, _mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_guid_cpp, faxcom/IFaxRoutingMethod::Guid, faxcom/IFaxRoutingMethod::get_Guid, get_Guid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -88,11 +86,11 @@ A fax client application can use the <b>IFaxRoutingMethod::get_Guid</b> property
 
 
 
-<a href="https://msdn.microsoft.com/b2d01012-9c84-4f86-9b20-68d813f9f52a">IFaxRoutingMethod::get_FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692373(v=VS.85).aspx">IFaxRoutingMethod::get_FriendlyName</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a6798a7-3017-4a47-a288-91a1ae453e7f">IFaxRoutingMethod::get_FunctionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690894(v=VS.85).aspx">IFaxRoutingMethod::get_FunctionName</a>
 
 
 

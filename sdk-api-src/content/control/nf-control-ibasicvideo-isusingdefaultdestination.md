@@ -9,8 +9,6 @@ ms.assetid: eceec24b-7743-4989-b112-e6a70283d397
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultDestination method, IBasicVideo.IsUsingDefaultDestination, IBasicVideo::IsUsingDefaultDestination, IBasicVideoIsUsingDefaultDestination, IsUsingDefaultDestination, IsUsingDefaultDestination method [DirectShow], IsUsingDefaultDestination method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultDestination, dshow.ibasicvideo_isusingdefaultdestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -78,7 +76,7 @@ Returns S_OK if the renderer is using the default destination rectangle, or S_FA
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

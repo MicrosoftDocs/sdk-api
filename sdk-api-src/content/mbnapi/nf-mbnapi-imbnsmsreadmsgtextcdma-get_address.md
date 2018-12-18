@@ -9,8 +9,6 @@ ms.assetid: e2cb5e6e-0cfa-4226-85fe-0162cf99a80f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Address property [Microsoft Broadband Networks], Address property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Address property, IMbnSmsReadMsgTextCdma.Address, IMbnSmsReadMsgTextCdma.get_Address, IMbnSmsReadMsgTextCdma::Address, IMbnSmsReadMsgTextCdma::get_Address, get_Address, mbn.imbnsmsreadmsgtextcdma_address, mbnapi/IMbnSmsReadMsgTextCdma::Address, mbnapi/IMbnSmsReadMsgTextCdma::get_Address
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

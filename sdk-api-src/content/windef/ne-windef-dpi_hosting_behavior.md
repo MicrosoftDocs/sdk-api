@@ -9,8 +9,6 @@ ms.assetid: 4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DPI_HOSTING_BEHAVIOR, DPI_HOSTING_BEHAVIOR_DEFAULT, DPI_HOSTING_BEHAVIOR_INVALID, DPI_HOSTING_BEHAVIOR_MIXED, _DPI_HOSTING_BEHAVIOR, _DPI_HOSTING_BEHAVIOR enumeration [High DPI], hidpi._dpi_hosting_behavior, windef/DPI_HOSTING_BEHAVIOR_DEFAULT, windef/DPI_HOSTING_BEHAVIOR_INVALID, windef/DPI_HOSTING_BEHAVIOR_MIXED, windef/_DPI_HOSTING_BEHAVIOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windef.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: da2740e5-352b-4f00-bfeb-2eeaab3f470a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextgetsecurityinfobykey0_func, fwpmu/FwpmProviderContextGetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

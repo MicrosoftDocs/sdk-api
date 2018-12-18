@@ -9,8 +9,6 @@ ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

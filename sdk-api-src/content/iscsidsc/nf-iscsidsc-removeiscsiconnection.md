@@ -9,8 +9,6 @@ ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

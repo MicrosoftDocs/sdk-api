@@ -9,8 +9,6 @@ ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h
@@ -145,7 +143,7 @@ For a full listing of the information returned by
 
 
 
-<a href="https://msdn.microsoft.com/a2407aa3-574d-4690-8cdf-cb1c01ca8c49">user_marshal</a>
+<a href="https://msdn.microsoft.com/">user_marshal</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: identitystore.h
 req.include-header: 

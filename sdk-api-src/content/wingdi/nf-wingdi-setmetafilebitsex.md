@@ -9,8 +9,6 @@ ms.assetid: 232eeba9-f579-4b5f-a31a-416aeb56a909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

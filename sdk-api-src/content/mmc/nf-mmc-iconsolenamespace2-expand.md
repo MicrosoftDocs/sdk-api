@@ -9,8 +9,6 @@ ms.assetid: 3672babb-b172-4f25-8d95-61f3aacce2f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Expand, Expand method [MMC], Expand method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace2 interface [MMC],Expand method, IConsoleNameSpace2.Expand, IConsoleNameSpace2::Expand, _slate_iconsolenamespace2_expand, mmc.iconsolenamespace2_expand, mmc/IConsoleNameSpace2::Expand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

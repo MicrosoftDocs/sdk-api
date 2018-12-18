@@ -9,8 +9,6 @@ ms.assetid: 3f78a91b-17a3-48ff-9ca0-1eb4f9c95be4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetPositionSubSuper method, ITextFont2.SetPositionSubSuper, ITextFont2::SetPositionSubSuper, SetPositionSubSuper, SetPositionSubSuper method [Windows Controls], SetPositionSubSuper method [Windows Controls],ITextFont2 interface, controls.itextfont2_setpositionsubsuper, tom/ITextFont2::SetPositionSubSuper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

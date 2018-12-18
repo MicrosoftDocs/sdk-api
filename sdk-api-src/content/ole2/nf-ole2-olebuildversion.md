@@ -9,8 +9,6 @@ ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_gssetconstantbuffers.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4a93383e-8523-3db8-9e49-217d1cf3ff2b, GSSetConstantBuffers, GSSetConstantBuffers method [Direct3D 10], GSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetConstantBuffers method, ID3D10Device.GSSetConstantBuffers, ID3D10Device::GSSetConstantBuffers, d3d10/ID3D10Device::GSSetConstantBuffers, direct3d10.id3d10device_gssetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin setting constant buffers to.
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of buffers to set.
 

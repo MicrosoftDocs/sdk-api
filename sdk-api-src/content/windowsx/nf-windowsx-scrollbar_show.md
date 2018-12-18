@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

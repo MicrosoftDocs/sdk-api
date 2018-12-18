@@ -9,8 +9,6 @@ ms.assetid: 3f35b3d5-f829-443c-9ea6-6cffdd4f58b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Counter, ID3D11Counter interface [Direct3D 11], ID3D11Counter interface [Direct3D 11],described, d3d11/ID3D11Counter, direct3d11.id3d11counter, e8e19b70-2584-4e44-1faf-1bc2d275606a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
@@ -56,7 +54,7 @@ This interface encapsulates methods for measuring GPU performance.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Counter</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476347(v=VS.85).aspx">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Counter</b> interface inherits from <a href="https://msdn.microsoft.com/37ff9dc0-5ec2-4cd5-b252-44e2dac45355">ID3D11Asynchronous</a>. <b>ID3D11Counter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,13 +85,13 @@ Get a counter description.
 
 A counter can be created with <a href="https://msdn.microsoft.com/857111cc-f590-4383-994c-a72402f8a4aa">ID3D11Device::CreateCounter</a>.
 
-This is a derived class of <a href="https://msdn.microsoft.com/en-us/library/Ff476347(v=VS.85).aspx">ID3D11Asynchronous</a>.
+This is a derived class of <a href="https://msdn.microsoft.com/37ff9dc0-5ec2-4cd5-b252-44e2dac45355">ID3D11Asynchronous</a>.
 
-Counter data is gathered by issuing an <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID3D11DeviceContext::Begin</a> command, issuing some graphics commands, issuing an <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">ID3D11DeviceContext::End</a> command, and then calling <a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">ID3D11DeviceContext::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of counter. The call to End causes the data returned by GetData to be accurate up until the last call to End.
+Counter data is gathered by issuing an <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID3D11DeviceContext::Begin</a> command, issuing some graphics commands, issuing an <a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">ID3D11DeviceContext::End</a> command, and then calling <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a> to get data about what happened in between the Begin and End calls. The data returned by GetData will be different depending on the type of counter. The call to End causes the data returned by GetData to be accurate up until the last call to End.
 
 Counters are best suited for profiling.
 
-For a list of the types of performance counters, see <a href="https://msdn.microsoft.com/en-us/library/Ff476102(v=VS.85).aspx">D3D11_COUNTER</a>.
+For a list of the types of performance counters, see <a href="https://msdn.microsoft.com/b6a5cc7e-48e5-478a-aa9c-8b2878c0de6b">D3D11_COUNTER</a>.
 
 
 
@@ -103,11 +101,11 @@ For a list of the types of performance counters, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476154(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/e96804db-0987-49ca-b1b1-321f36c13024">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476347(v=VS.85).aspx">ID3D11Asynchronous</a>
+<a href="https://msdn.microsoft.com/37ff9dc0-5ec2-4cd5-b252-44e2dac45355">ID3D11Asynchronous</a>
  
 
  

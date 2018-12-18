@@ -9,8 +9,6 @@ ms.assetid: ac3279ad-1413-48bf-a830-4ec128352573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLinkDataList, IShellLinkDataList interface [Windows Shell], IShellLinkDataList interface [Windows Shell],described, _win32_IShellLinkDataList, shell.IShellLinkDataList, shobjidl_core/IShellLinkDataList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -131,31 +129,31 @@ The data blocks are in the form of a structure. The first two members are the sa
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/016c539e-6035-4752-99b6-71e2d7199bf0">EXP_DARWIN_LINK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773274(v=VS.85).aspx">EXP_DARWIN_LINK</a>
 </td>
 <td>The link's Windows Installer ID.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e80fa582-8dd1-4924-a3ca-a2ee668653d3">EXP_SPECIAL_FOLDER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773279(v=VS.85).aspx">EXP_SPECIAL_FOLDER</a>
 </td>
 <td>Special folder information.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2016c06f-8436-407b-9eed-1ec9ccd1c307">EXP_SZ_LINK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773282(v=VS.85).aspx">EXP_SZ_LINK</a>
 </td>
 <td>The target name.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/02542cd4-be8f-45c0-ad0f-e1e39a45f5de">NT_CONSOLE_PROPS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773359(v=VS.85).aspx">NT_CONSOLE_PROPS</a>
 </td>
 <td>Console properties.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2f22676d-2b46-4a94-9517-64d1caeead43">NT_FE_CONSOLE_PROPS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773362(v=VS.85).aspx">NT_FE_CONSOLE_PROPS</a>
 </td>
 <td>The console's code page.</td>
 </tr>

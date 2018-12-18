@@ -9,8 +9,6 @@ ms.assetid: f1e3112b-d840-45eb-bb99-416319ed9e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TTIsEmbeddingEnabled, TTIsEmbeddingEnabled function [Windows GDI], _win32_TTIsEmbeddingEnabled, gdi.ttisembeddingenabled, t2embapi/TTIsEmbeddingEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

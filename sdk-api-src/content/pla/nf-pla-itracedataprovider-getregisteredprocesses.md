@@ -7,10 +7,8 @@ old-location: pla\itracedataprovider_getregisteredprocesses.htm
 tech.root: pla
 ms.assetid: f848f209-c761-41aa-8e9f-4b7e2ecb54ae
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetRegisteredProcesses, GetRegisteredProcesses method [PLA], GetRegisteredProcesses method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetRegisteredProcesses method, ITraceDataProvider.GetRegisteredProcesses, ITraceDataProvider::GetRegisteredProcesses, pla.itracedataprovider_getregisteredprocesses, pla/ITraceDataProvider::GetRegisteredProcesses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

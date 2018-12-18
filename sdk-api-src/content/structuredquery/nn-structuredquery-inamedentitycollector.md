@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentitycolle
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INamedEntityCollector, INamedEntityCollector interface [search], INamedEntityCollector interface [search],described, _search_INamedEntityCollector, search._search_INamedEntityCollector, structuredquery/INamedEntityCollector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

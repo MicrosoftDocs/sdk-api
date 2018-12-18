@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdDeleteSurfaceObject, DdDeleteSurfaceObject function [Windows API], GdiEntry5, _dxgkernel_dddeletesurfaceobject, ddrawgdi/DdDeleteSurfaceObject, ddrawgdi/GdiEntry5, winprog._dxgkernel_dddeletesurfaceobject, winui._dxgkernel_dddeletesurfaceobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

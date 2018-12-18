@@ -9,8 +9,6 @@ ms.assetid: c71a022f-8244-4263-8ff6-6c2d9562fcd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_APPLY_STORE_SACL, AZ_PROP_AZSTORE_DOMAIN_TIMEOUT, AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES, AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT, AZ_PROP_DESCRIPTION, AZ_PROP_GENERATE_AUDITS, AzAuthorizationStore object [Security],SetProperty method, IAzAuthorizationStore interface [Security],SetProperty method, IAzAuthorizationStore.SetProperty, IAzAuthorizationStore::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzAuthorizationStore object, SetProperty method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::SetProperty, security.azauthorizationstore_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

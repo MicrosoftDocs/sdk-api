@@ -9,8 +9,6 @@ ms.assetid: 2cfd4693-794c-46c8-b72d-b7529c63f16e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterNetworkSink interface [windows Media Format],Open method, IWMWriterNetworkSink.Open, IWMWriterNetworkSink::Open, IWMWriterNetworkSinkOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMWriterNetworkSink interface, wmformat.iwmwriternetworksink_open, wmsdkidl/IWMWriterNetworkSink::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -134,9 +132,9 @@ The port number specified is already in use.
 
 
 
-This method binds the port. To release the port, call <a href="https://msdn.microsoft.com/7e36b94b-e6d3-46a0-8874-edd545e0e5b1">IWMWriterNetworkSink::Close</a>.
+This method binds the port. To release the port, call <a href="https://msdn.microsoft.com/en-us/library/Dd798762(v=VS.85).aspx">IWMWriterNetworkSink::Close</a>.
 
-See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
 
 
@@ -146,7 +144,7 @@ See the Remarks and Example Code sections for <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
  
 
  

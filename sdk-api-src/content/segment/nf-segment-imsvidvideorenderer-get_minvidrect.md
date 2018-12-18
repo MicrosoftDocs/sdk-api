@@ -9,8 +9,6 @@ ms.assetid: 2e65f2b2-d479-429a-b5c7-8c5cbb6c833d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MinVidRect method, IMSVidVideoRenderer.get_MinVidRect, IMSVidVideoRenderer::get_MinVidRect, IMSVidVideoRendererget_MinVidRect, get_MinVidRect, get_MinVidRect method [Microsoft TV Technologies], get_MinVidRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_minvidrect, segment/IMSVidVideoRenderer::get_MinVidRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -92,7 +90,7 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/b4c4b2da-0749-463c-aaa1-04d0d456327a">IMSVidVideoRenderer::get_MaxVidRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694737(v=VS.85).aspx">IMSVidVideoRenderer::get_MaxVidRect</a>
  
 
  

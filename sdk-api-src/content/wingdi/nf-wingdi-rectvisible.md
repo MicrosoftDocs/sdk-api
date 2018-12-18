@@ -9,8 +9,6 @@ ms.assetid: 990e9b22-0ce3-42b8-a87e-32fd2f2bc2fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RectVisible, RectVisible function [Windows GDI], _win32_RectVisible, gdi.rectvisible, wingdi/RectVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

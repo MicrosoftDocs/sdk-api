@@ -9,8 +9,6 @@ ms.assetid: b7919fb6-8515-4f1b-af9c-dc7eac381b90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontIndirect, CreateFontIndirect function [Windows GDI], CreateFontIndirectA, CreateFontIndirectW, _win32_CreateFontIndirect, gdi.createfontindirect, wingdi/CreateFontIndirect, wingdi/CreateFontIndirectA, wingdi/CreateFontIndirectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

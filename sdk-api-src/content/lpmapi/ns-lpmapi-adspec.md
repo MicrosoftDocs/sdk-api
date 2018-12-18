@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.ADSPEC
+UID: NS:lpmapi.__unnamed_struct_33
 title: ADSPEC
 author: windows-sdk-content
 description: The ADSPEC structure contains Adspec message information for RSVP.
@@ -7,10 +7,8 @@ old-location: qos\adspec.htm
 tech.root: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,7 +59,7 @@ The
 
 ### -field adspec_header
 
-Adspec header, expressed as an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+Adspec header, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field adspec_body
@@ -74,7 +72,7 @@ Adspec message body.
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

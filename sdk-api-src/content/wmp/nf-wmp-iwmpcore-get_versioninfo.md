@@ -9,8 +9,6 @@ ms.assetid: 8c8bb30b-8f8e-4f49-9506-d4735bccf847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_versionInfo method, IWMPCore.get_versionInfo, IWMPCore::get_versionInfo, IWMPCoreget_versionInfo, get_versionInfo, get_versionInfo method [Windows Media Player], get_versionInfo method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_versioninfo, wmp/IWMPCore::get_versionInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ The returned string has the following format: "<i>X</i>.0.0.<i>YYYY</i>" where <
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

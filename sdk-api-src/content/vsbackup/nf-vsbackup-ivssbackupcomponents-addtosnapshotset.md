@@ -9,8 +9,6 @@ ms.assetid: 6c20e386-7cd8-45d9-92d6-96d0a458db50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddToSnapshotSet, AddToSnapshotSet method [VSS], AddToSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddToSnapshotSet method, IVssBackupComponents.AddToSnapshotSet, IVssBackupComponents::AddToSnapshotSet, _win32_ivssbackupcomponents_addtosnapshotset, base.ivssbackupcomponents_addtosnapshotset, vsbackup/IVssBackupComponents::AddToSnapshotSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

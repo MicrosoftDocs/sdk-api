@@ -9,8 +9,6 @@ ms.assetid: 9a1c2313-431a-4243-9272-99dec1bf78dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventRecord, GetEventRecord method [ETW], GetEventRecord method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],GetEventRecord method, ITraceEvent.GetEventRecord, ITraceEvent::GetEventRecord, etw.ievent_geteventrecord, relogger/ITraceEvent::GetEventRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

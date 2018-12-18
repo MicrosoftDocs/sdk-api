@@ -9,8 +9,6 @@ ms.assetid: 549fdee8-7cd4-4ceb-8ed1-0de467d6c348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],isIdentical method, IWMPStringCollection2.isIdentical, IWMPStringCollection2::isIdentical, IWMPStringCollection2isIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_isidentical, wmp/IWMPStringCollection2::isIdentical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,7 +113,7 @@ To use this method, read access to the library is required. For more information
 
 
 
-<a href="https://msdn.microsoft.com/7aeaf549-3c60-4dd8-9e46-6bab357f4960">IWMPStringCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563687(v=VS.85).aspx">IWMPStringCollection2 Interface</a>
  
 
  

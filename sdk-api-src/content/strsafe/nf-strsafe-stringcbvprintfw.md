@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resources], StringCbVPrintfA, StringCbVPrintfW, _shell_StringCbVPrintf, _shell_stringcbvprintf_cpp, menurc.stringcbvprintf, strsafe/StringCbVPrintf, strsafe/StringCbVPrintfA, strsafe/StringCbVPrintfW, winui._shell_stringcbvprintf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

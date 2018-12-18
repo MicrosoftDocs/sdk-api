@@ -9,8 +9,6 @@ ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetnewcalls, lineGetNewCalls, lineGetNewCalls function [TAPI 2.2], tapi/lineGetNewCalls, tapi2.linegetnewcalls"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -64,7 +62,7 @@ The
 ### -param ObjUuid
 
 Pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. For example, the string 6B29FC40-CA47-1067-B31D-00DD010662DA represents a valid UUID.
 
 
 ### -param ProtSeq

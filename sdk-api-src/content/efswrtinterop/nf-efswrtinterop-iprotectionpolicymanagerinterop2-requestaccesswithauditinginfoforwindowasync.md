@@ -9,8 +9,6 @@ ms.assetid: 9C631272-BF69-4CA5-9664-45C6831C252F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithauditinginfoforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithAuditingInfoForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithAuditingInfoForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync, RequestAccessWithAuditingInfoForWindowAsync method, RequestAccessWithAuditingInfoForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: efswrtinterop.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

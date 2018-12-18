@@ -9,8 +9,6 @@ ms.assetid: 9ec4c25e-700b-4aed-97ff-e7cb420fdf96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapabilityString method, ITAddressCapabilities.get_AddressCapabilityString, ITAddressCapabilities::get_AddressCapabilityString, _tapi3_itaddresscapabilities_get_addresscapabilitystring, get_AddressCapabilityString, get_AddressCapabilityString method [TAPI 2.2], get_AddressCapabilityString method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapabilitystring, tapi3if/ITAddressCapabilities::get_AddressCapabilityString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

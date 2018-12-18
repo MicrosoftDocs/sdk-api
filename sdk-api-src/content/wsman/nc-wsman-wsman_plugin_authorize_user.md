@@ -9,8 +9,6 @@ ms.assetid: 4217c47f-956d-4dde-b679-6f00b0457dcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_USER, WSMAN_PLUGIN_AUTHORIZE_USER callback, WSMAN_PLUGIN_AUTHORIZE_USER callback function [Windows Remote Management], winrm.wsman_plugin_authorize_user, wsman/WSMAN_PLUGIN_AUTHORIZE_USER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

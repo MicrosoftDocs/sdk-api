@@ -9,8 +9,6 @@ ms.assetid: b5748a90-1ee1-4f76-93c0-2da2fd5d55c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumTables, GetNumTables method [Windows Runtime], GetNumTables method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNumTables method, IMetaDataTables.GetNumTables, IMetaDataTables::GetNumTables, rometadataapi/IMetaDataTables::GetNumTables, winrt.imetadatatables_getnumtables
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

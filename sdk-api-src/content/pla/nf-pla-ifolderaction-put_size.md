@@ -7,10 +7,8 @@ old-location: pla\ifolderaction_size.htm
 tech.root: pla
 ms.assetid: 6df7b5fb-0f36-4e7e-95fb-f0157fc57cbf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFolderAction interface [PLA],Size property, IFolderAction.Size, IFolderAction.put_Size, IFolderAction::Size, IFolderAction::get_Size, IFolderAction::put_Size, Size property [PLA], Size property [PLA],IFolderAction interface, base.ifolderaction_size, pla.ifolderaction_size, pla/IFolderAction::Size, pla/IFolderAction::get_Size, pla/IFolderAction::put_Size, put_Size
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

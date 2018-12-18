@@ -9,8 +9,6 @@ ms.assetid: 47212dc7-601e-4b38-953e-a6b84e73fafa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_TSID method, IMPEG2TuneRequest.put_TSID, IMPEG2TuneRequest::put_TSID, IMPEG2TuneRequestput_TSID, mstv.impeg2tunerequest_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

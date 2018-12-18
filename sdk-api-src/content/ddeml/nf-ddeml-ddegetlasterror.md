@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeGetLastError, DdeGetLastError function [Data Exchange], _win32_DdeGetLastError, _win32_ddegetlasterror_cpp, dataxchg.ddegetlasterror, ddeml/DdeGetLastError, winui._win32_ddegetlasterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

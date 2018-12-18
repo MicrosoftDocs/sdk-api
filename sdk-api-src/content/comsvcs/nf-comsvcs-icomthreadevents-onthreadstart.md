@@ -9,8 +9,6 @@ ms.assetid: 9316965e-13e8-4e3a-9404-8e49334773bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadStart method, IComThreadEvents.OnThreadStart, IComThreadEvents::OnThreadStart, OnThreadStart, OnThreadStart method [COM+], OnThreadStart method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadStart, comsvcs/IComThreadEvents::OnThreadStart, cos.icomthreadevents_onthreadstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -60,7 +58,7 @@ Generated when a single-threaded apartment (STA) thread is started.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ThreadID [in]
@@ -92,7 +90,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685160(v=VS.85).aspx">IComThreadEvents</a>
+<a href="https://msdn.microsoft.com/a6523088-cca4-41c1-a3fe-d8cb7320ff33">IComThreadEvents</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: aa423e18-c6b5-4587-b044-deda00a84615
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1GradientStopCollection1, ID2D1GradientStopCollection1 interface [Direct2D], ID2D1GradientStopCollection1 interface [Direct2D],described, d2d1_1/ID2D1GradientStopCollection1, direct2d.id2d1gradientstopcollection1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 
@@ -129,7 +127,7 @@ Gets the color space of the input colors as well as the space in which gradient 
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

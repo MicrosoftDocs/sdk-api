@@ -9,8 +9,6 @@ ms.assetid: 57704103-0124-4c02-8f96-980a50e98cca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectTo, ConnectTo method [Core Audio], ConnectTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],ConnectTo method, IConnector.ConnectTo, IConnector::ConnectTo, IConnectorConnectTo, coreaudio.iconnector_connectto, devicetopology/IConnector::ConnectTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

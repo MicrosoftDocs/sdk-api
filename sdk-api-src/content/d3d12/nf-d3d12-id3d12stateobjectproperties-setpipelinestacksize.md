@@ -9,8 +9,6 @@ ms.assetid: 0BB69DBB-F8A1-4C32-AE82-3A49E2E0E4B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12StateObjectProperties interface,SetPipelineStackSize method, ID3D12StateObjectProperties.SetPipelineStackSize, ID3D12StateObjectProperties::SetPipelineStackSize, SetPipelineStackSize, SetPipelineStackSize method, SetPipelineStackSize method,ID3D12StateObjectProperties interface, d3d12/ID3D12StateObjectProperties::SetPipelineStackSize, direct3d12.id3d12stateobjectproperties_setpipelinestacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -90,7 +88,7 @@ The runtime drops calls to state objects other than raytracing pipelines, such a
 
 
 
-<a href="https://msdn.microsoft.com/3971089A-2779-42FA-8FF9-6C7C8E39C7F9">ID3D12StateObjectProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
  
 
  

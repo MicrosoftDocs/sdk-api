@@ -9,8 +9,6 @@ ms.assetid: dd350abd-3b59-4a5d-b2e4-1ddeec2b1953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BackupREGDB, BackupREGDB method [COM+], BackupREGDB method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],BackupREGDB method, ICOMAdminCatalog.BackupREGDB, ICOMAdminCatalog::BackupREGDB, _cos_ICOMAdminCatalog_BackupREGDB, comadmin/ICOMAdminCatalog::BackupREGDB, cos.icomadmincatalog_backupregdb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -77,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

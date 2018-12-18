@@ -9,8 +9,6 @@ ms.assetid: 3b4b4b4b-84b3-4181-bc84-389e72b66053
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordVersionIndicator, GetRecordVersionIndicator method [Microsoft TV Technologies], GetRecordVersionIndicator method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordVersionIndicator method, IISDB_SDTT.GetRecordVersionIndicator, IISDB_SDTT::GetRecordVersionIndicator, dvbsiparser/IISDB_SDTT::GetRecordVersionIndicator, mstv.iisdb_sdtt_getrecordversionindicator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

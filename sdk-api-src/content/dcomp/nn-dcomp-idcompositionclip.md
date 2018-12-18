@@ -9,8 +9,6 @@ ms.assetid: 647638f4-7eca-42bc-a083-3d9d15089648
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionClip, IDCompositionClip interface [DirectComposition], IDCompositionClip interface [DirectComposition],described, dcomp/IDCompositionClip, directcomp.idcompositionclip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -58,11 +56,11 @@ Represents a clip object that is used to restrict the rendering of a visual subt
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/ACEBA4F9-E1B0-459B-8DC2-272A822AB214">IDCompositionVisual::SetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">IDCompositionVisual::SetClip</a>
  
 
  

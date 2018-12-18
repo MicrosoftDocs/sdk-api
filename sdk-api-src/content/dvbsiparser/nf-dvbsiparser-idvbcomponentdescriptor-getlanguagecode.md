@@ -9,8 +9,6 @@ ms.assetid: 9898cd33-db5d-41d3-9e3d-77da2ff38e44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbComponentDescriptor.GetLanguageCode, IDvbComponentDescriptor::GetLanguageCode, dvbsiparser/IDvbComponentDescriptor::GetLanguageCode, mstv.idvbcomponentdescriptor_getlanguagecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

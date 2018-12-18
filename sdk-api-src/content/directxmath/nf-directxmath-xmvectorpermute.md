@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorPermute(XMVECTOR,XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorPermute, XMVectorPermute, XMVectorPermute method [DirectX Math Support APIs], dxmath.xmvectorpermute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -102,13 +100,13 @@ Returns the permuted vector that resulted from combining the source vectors.
 
 
 If all 4 indices reference only a single vector (i.e. they are all in the range 0-3 or all in the range 4-7), 
-    use <a href="https://msdn.microsoft.com/69f22024-aabe-42ca-850f-9ca4e6d41ac1">XMVectorSwizzle</a> instead for better performance.
+    use <a href="https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx">XMVectorSwizzle</a> instead for better performance.
 
 The <a href="https://msdn.microsoft.com/a206fe22-12c8-ac2b-ee37-20cfff35841a">XM_PERMUTE_</a> constants are provided to
     use as input values for <i>PermuteX</i>,<i>PermuteY</i>,<i>PermuteZ</i>, and <i>PermuteW</i>.
 
 For constant PermuteX/Y/Z/W parameters, it is much more efficent to use the template form of
-    <a href="https://msdn.microsoft.com/14b4ff5a-464f-410d-957a-adfbf17bd25e">XMVectorPermute</a>:
+    <a href="https://msdn.microsoft.com/en-us/library/Hh855944(v=VS.85).aspx">XMVectorPermute</a>:
 
 
 ```
@@ -139,7 +137,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/69f22024-aabe-42ca-850f-9ca4e6d41ac1">XMVectorSwizzle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404826(v=VS.85).aspx">XMVectorSwizzle</a>
  
 
  

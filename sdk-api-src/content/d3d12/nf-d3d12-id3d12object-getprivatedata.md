@@ -9,8 +9,6 @@ ms.assetid: B2F1FFBE-1680-40D7-8B99-07FCA3F3EA0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateData, GetPrivateData method, GetPrivateData method,ID3D12Object interface, ID3D12Object interface,GetPrivateData method, ID3D12Object.GetPrivateData, ID3D12Object::GetPrivateData, d3d12/ID3D12Object::GetPrivateData, direct3d12.id3d12object_getprivatedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

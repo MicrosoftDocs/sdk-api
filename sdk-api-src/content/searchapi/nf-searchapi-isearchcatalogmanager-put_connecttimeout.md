@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],put_ConnectTimeout method, ISearchCatalogManager.put_ConnectTimeout, ISearchCatalogManager::put_ConnectTimeout, _search_ISearchCatalogManager_put_ConnectTimeout, put_ConnectTimeout, put_ConnectTimeout method [search], put_ConnectTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_ConnectTimeout, searchapi/ISearchCatalogManager::put_ConnectTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

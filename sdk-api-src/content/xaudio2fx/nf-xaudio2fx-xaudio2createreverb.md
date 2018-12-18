@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2fx.h
 req.include-header: 

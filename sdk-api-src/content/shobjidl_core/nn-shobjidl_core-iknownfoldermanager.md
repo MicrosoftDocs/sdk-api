@@ -9,8 +9,6 @@ ms.assetid: ba7dbef7-2732-49e8-b573-a3b731bdc633
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKnownFolderManager, IKnownFolderManager interface [Windows Shell], IKnownFolderManager interface [Windows Shell],described, _shell_IKnownFolderManager, shell.IKnownFolderManager, shobjidl_core/IKnownFolderManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

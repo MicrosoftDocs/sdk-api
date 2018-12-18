@@ -9,8 +9,6 @@ ms.assetid: 80e19d25-94cf-49f8-b49f-9cda14d0ee4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarPow, VarPow function [Automation], _oa96_VarPow, automat.varpow, oleauto/VarPow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

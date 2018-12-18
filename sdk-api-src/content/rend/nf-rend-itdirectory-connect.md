@@ -9,8 +9,6 @@ ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Connect method, ITDirectory.Connect, ITDirectory::Connect, _tapi3_itdirectory_connect, rend/ITDirectory::Connect, tapi3.itdirectory_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

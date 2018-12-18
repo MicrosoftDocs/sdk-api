@@ -9,8 +9,6 @@ ms.assetid: ac50ac7d-bd55-4ece-8af8-5c8b2f7736e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetFormatSupport method, IMDSPDevice.GetFormatSupport, IMDSPDevice::GetFormatSupport, IMDSPDeviceGetFormatSupport, mswmdm/IMDSPDevice::GetFormatSupport, wmdm.imdspdevice_getformatsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

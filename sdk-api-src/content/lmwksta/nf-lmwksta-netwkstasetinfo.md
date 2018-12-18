@@ -9,8 +9,6 @@ ms.assetid: d746b6c9-5ef1-4174-a84f-44e4e50200cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 100, 101, 102, 502, NetWkstaSetInfo, NetWkstaSetInfo function [Network Management], _win32_netwkstasetinfo, lmwksta/NetWkstaSetInfo, netmgmt.netwkstasetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmwksta.h
 req.include-header: Lm.h

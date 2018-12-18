@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt4(const XMUINT4)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadUInt4, XMLoadUInt4, XMLoadUInt4 method [DirectX Math Support APIs], dxmath.xmloaduint4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -60,7 +58,7 @@ Loads unsigned integer  data into an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a> structure containing the data to load. 
 
 
 ## -returns

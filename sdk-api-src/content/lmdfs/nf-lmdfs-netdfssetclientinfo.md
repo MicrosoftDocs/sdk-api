@@ -9,8 +9,6 @@ ms.assetid: 4c95dffb-a092-45ad-9a3f-37d3abbf4427
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 101, 102, NetDfsSetClientInfo, NetDfsSetClientInfo function [Distributed File System], _win32_netdfssetclientinfo, dfs.netdfssetclientinfo, fs.netdfssetclientinfo, lmdfs/NetDfsSetClientInfo, netmgmt.netdfssetclientinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

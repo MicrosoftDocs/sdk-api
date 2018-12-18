@@ -9,8 +9,6 @@ ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -54,9 +52,9 @@ req.redist:
 
 The <code>IVideoWindow</code> interface sets properties on the video window. Applications can use it to set the window owner, the position and dimensions of the window, and other properties.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Dd390536(v=VS.85).aspx">IVMRWindowlessControl</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9</a> interface is now preferred over <code>IVideoWindow</code>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd407299(v=VS.85).aspx">Using Windowless Mode</a>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Dd390536(v=VS.85).aspx">IVMRWindowlessControl</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9</a> interface is now preferred over <code>IVideoWindow</code>. For more information, see <a href="https://msdn.microsoft.com/f53cecaa-dee7-4b02-a4ac-ffbd917f73aa">Using Windowless Mode</a>.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and the Filter Graph Manager both expose this interface. The Filter Graph Manager forwards all method calls to the Video Renderer. It also forwards certain window messages that the Video Renderer needs to receive, such as <a href="https://msdn.microsoft.com/en-us/library/Dd145210(v=VS.85).aspx">WM_DISPLAYCHANGE</a>. Because the video window is usually a child of an application window, the filter would not otherwise receive these messages. Therefore it relies on the Filter Graph Manager to forward them.
+The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and the Filter Graph Manager both expose this interface. The Filter Graph Manager forwards all method calls to the Video Renderer. It also forwards certain window messages that the Video Renderer needs to receive, such as <a href="https://msdn.microsoft.com/5a6111fd-648e-41a9-aaf8-e5d93f5d54cd">WM_DISPLAYCHANGE</a>. Because the video window is usually a child of an application window, the filter would not otherwise receive these messages. Therefore it relies on the Filter Graph Manager to forward them.
 
 In most cases, an application should query the Filter Graph Manager for this interface, and not call the filter directly, because of the messaging issue just described. However, if the filter graph has more than one Video Renderer, the Filter Graph Manager only communicates with one of them, selected arbitrarily. Therefore, if your application uses multiple video windows, use the <code>IVideoWindow</code> interface directly on the filters. In that case, you must forward window messages to each Video Renderer instance, using the <a href="https://msdn.microsoft.com/en-us/library/Dd377312(v=VS.85).aspx">IVideoWindow::NotifyOwnerMessage</a> method.
 
@@ -68,7 +66,7 @@ Because this interface is Automation-compatible, all Boolean values are defined 
 
 <b>Error codes: </b>If the video renderer filter is not connected to another filter, all methods return the error code VFW_E_NOT_CONNECTED. For the Filter Graph Manager's implementation, if the graph does not contain a video renderer filter, all methods return E_NOINTERFACE. Note that the Filter Graph Manager exposes the interface even when the graph does not contain a video renderer, so an application can query for the interface before it builds the graph.
 
-<b>Filter Developers: </b>You can use the <a href="https://msdn.microsoft.com/en-us/library/Dd368895(v=VS.85).aspx">CBaseVideoWindow</a> class to help implement this interface.
+<b>Filter Developers: </b>You can use the <a href="https://msdn.microsoft.com/b6acec98-cff7-46ee-abd7-77f0b7ac3b9d">CBaseVideoWindow</a> class to help implement this interface.
 
 
 
@@ -77,7 +75,7 @@ Because this interface is Automation-compatible, all Boolean values are defined 
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoWindow</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IVideoWindow</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

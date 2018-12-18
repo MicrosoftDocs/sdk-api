@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnpackDDElParam, UnpackDDElParam function [Data Exchange], _win32_UnpackDDElParam, _win32_unpackddelparam_cpp, dataxchg.unpackddelparam, dde/UnpackDDElParam, winui._win32_unpackddelparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h

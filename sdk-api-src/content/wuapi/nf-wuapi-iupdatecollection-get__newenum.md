@@ -9,8 +9,6 @@ ms.assetid: 78c80163-e77a-42c1-8eb9-ec8eea5ce997
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],_NewEnum property, IUpdateCollection._NewEnum, IUpdateCollection.get__NewEnum, IUpdateCollection::_NewEnum, IUpdateCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateCollection interface, get__NewEnum, wua.iupdatecollection__newenum, wuapi/IUpdateCollection::_NewEnum, wuapi/IUpdateCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

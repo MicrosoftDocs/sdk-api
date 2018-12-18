@@ -9,8 +9,6 @@ ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -65,7 +63,7 @@ Pointer to <a href="https://msdn.microsoft.com/7e62d2f3-275a-45ab-baab-648fe135d
 
 ### -param Operator [in]
 
-A <a href="https://msdn.microsoft.com/e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh404406(v=VS.85).aspx">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: 150e33f2-3d76-44a8-b2fe-5a2b4a532c3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionMatrixTransform, IDCompositionMatrixTransform interface [DirectComposition], IDCompositionMatrixTransform interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform, directcomp.idcompositionmatrixtransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -72,7 +70,7 @@ The <b>IDCompositionMatrixTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f164dfd-8bd4-4f6e-a5d2-d455808b5b0f">SetMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437430(v=VS.85).aspx">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Changes all values of the matrix of this 2D transform.

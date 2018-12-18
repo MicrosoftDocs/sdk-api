@@ -9,8 +9,6 @@ ms.assetid: F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_QUERY_TYPE, D3D12_QUERY_TYPE enumeration, D3D12_QUERY_TYPE_BINARY_OCCLUSION, D3D12_QUERY_TYPE_OCCLUSION, D3D12_QUERY_TYPE_PIPELINE_STATISTICS, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, D3D12_QUERY_TYPE_TIMESTAMP, D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, d3d12/D3D12_QUERY_TYPE, d3d12/D3D12_QUERY_TYPE_BINARY_OCCLUSION, d3d12/D3D12_QUERY_TYPE_OCCLUSION, d3d12/D3D12_QUERY_TYPE_PIPELINE_STATISTICS, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM1, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM2, d3d12/D3D12_QUERY_TYPE_SO_STATISTICS_STREAM3, d3d12/D3D12_QUERY_TYPE_TIMESTAMP, d3d12/D3D12_QUERY_TYPE_VIDEO_DECODE_STATISTICS, direct3d12.d3d12_query_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -113,7 +111,7 @@ This query type can only be performed on video decode command lists (<a href="ht
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Dn903838(v=VS.85).aspx">BeginQuery</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn903881(v=VS.85).aspx">EndQuery</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn903896(v=VS.85).aspx">ResolveQueryData.</a>
+This enum is used by <a href="https://msdn.microsoft.com/38011ED8-C867-4ECE-880F-3963A17790F7">BeginQuery</a>, <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> and <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData.</a>
 
 
 
@@ -124,7 +122,7 @@ This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Dn903838(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
  
 
  

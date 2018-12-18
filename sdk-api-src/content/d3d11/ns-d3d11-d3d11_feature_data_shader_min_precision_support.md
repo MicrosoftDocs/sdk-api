@@ -9,8 +9,6 @@ ms.assetid: 4494A896-E73E-4A41-BC73-F9BD49510276
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_feature_data_shader_min_precision_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -84,11 +82,11 @@ For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

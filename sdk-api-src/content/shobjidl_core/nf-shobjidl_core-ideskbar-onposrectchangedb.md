@@ -9,8 +9,6 @@ ms.assetid: a66093e1-4b91-4edd-abee-0043b437a5f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeskBar interface [Windows Shell],OnPosRectChangeDB method, IDeskBar.OnPosRectChangeDB, IDeskBar::OnPosRectChangeDB, OnPosRectChangeDB, OnPosRectChangeDB method [Windows Shell], OnPosRectChangeDB method [Windows Shell],IDeskBar interface, _win32_IDeskBar_OnPosRectChangeDB, shell.IDeskBar_OnPosRectChangeDB, shobjidl_core/IDeskBar::OnPosRectChangeDB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

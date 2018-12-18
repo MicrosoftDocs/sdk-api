@@ -9,8 +9,6 @@ ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSACleanup, WSACleanup function [Winsock], _win32_wsacleanup_2, winsock.wsacleanup_2, winsock/WSACleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

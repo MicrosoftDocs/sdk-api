@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the currently selected date for a month calendar control. If the specified 
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 

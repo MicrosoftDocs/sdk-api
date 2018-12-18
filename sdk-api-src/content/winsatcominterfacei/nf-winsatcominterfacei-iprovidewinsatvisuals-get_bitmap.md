@@ -9,8 +9,6 @@ ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

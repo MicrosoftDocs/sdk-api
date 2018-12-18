@@ -9,8 +9,6 @@ ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -128,7 +126,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
 
 
 

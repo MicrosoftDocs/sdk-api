@@ -9,8 +9,6 @@ ms.assetid: 8f1e8026-bbde-42bc-8ac8-555cc363b0b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPSyncState, WMPSyncState enumeration [Windows Media Player], wmp.wmpsyncstate, wmp/WMPSyncState, wmp/wmpssEstimating, wmp/wmpssLast, wmp/wmpssStopped, wmp/wmpssSynchronizing, wmp/wmpssUnknown, wmpssEstimating, wmpssLast, wmpssStopped, wmpssSynchronizing, wmpssUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
@@ -104,15 +102,15 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/98970d33-8035-49f9-9243-b4832df6e5c9">IWMPEvents2::DeviceSyncStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563295(v=VS.85).aspx">IWMPEvents2::DeviceSyncStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/49b07233-df9d-4fd0-836e-62b992408018">IWMPSyncDevice3::estimateSyncSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">IWMPSyncDevice3::estimateSyncSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93263a1-7976-43db-b514-97d9a263a60c">IWMPSyncDevice::get_syncState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563742(v=VS.85).aspx">IWMPSyncDevice::get_syncState</a>
 
 
 

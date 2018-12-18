@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxDeactivate method, ITextHost.TxDeactivate, ITextHost::TxDeactivate, TxDeactivate, TxDeactivate method [Windows Controls], TxDeactivate method [Windows Controls],ITextHost interface, _win32_ITextHost_TxDeactivate, _win32_ITextHost_TxDeactivate_cpp, controls.ITextHost_TxDeactivate, controls._win32_ITextHost_TxDeactivate, textserv/ITextHost::TxDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 75189754-61c4-4196-9cfb-3f8c8e33efbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowState method, IVideoWindow.put_WindowState, IVideoWindow::put_WindowState, IVideoWindowput_WindowState, control/IVideoWindow::put_WindowState, dshow.ivideowindow_put_windowstate, put_WindowState, put_WindowState method [DirectShow], put_WindowState method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -111,7 +109,7 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

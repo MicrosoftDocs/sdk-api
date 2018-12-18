@@ -9,8 +9,6 @@ ms.assetid: 806def9b-1842-4443-9a63-fba380545018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -139,7 +137,7 @@ This string contains all the profile information. It must not be displayed to us
 
 To save a custom profile for later use, you must save the content of the returned string in a .prx file. For more information on .prx files, see <a href="https://msdn.microsoft.com/6e70393f-3dab-4036-8d34-a672ef1795c6">Profiles</a>.
 
-To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="https://msdn.microsoft.com/c645b6cc-e10d-4335-91c4-8bfd430ca76b">IWMProfileManager::LoadProfileByData</a>.
+To load a saved custom profile, copy the contents of the profile from the .prx file to a string and use <a href="https://msdn.microsoft.com/en-us/library/Dd757394(v=VS.85).aspx">IWMProfileManager::LoadProfileByData</a>.
 
 
 
@@ -149,7 +147,7 @@ To load a saved custom profile, copy the contents of the profile from the .prx f
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
  
 
  

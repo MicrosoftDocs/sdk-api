@@ -9,8 +9,6 @@ ms.assetid: 3f4fc06a-ffbe-4854-8e64-d369acfac271
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMBandwidthSharing interface [windows Media Format],SetType method, IWMBandwidthSharing.SetType, IWMBandwidthSharing::SetType, IWMBandwidthSharingSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMBandwidthSharing interface, wmformat.iwmbandwidthsharing_settype, wmsdkidl/IWMBandwidthSharing::SetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -140,11 +138,11 @@ The settings of a bandwidth sharing object are purely informational. They are no
 
 
 
-<a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/acef383f-83cb-45be-80fa-1339b391f32b">IWMBandwidthSharing::GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743300(v=VS.85).aspx">IWMBandwidthSharing::GetType</a>
  
 
  

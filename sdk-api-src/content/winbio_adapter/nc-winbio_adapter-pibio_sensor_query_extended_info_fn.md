@@ -9,8 +9,6 @@ ms.assetid: 28CC3757-5A9D-4E29-A26C-6FD90A38B45B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN, PIBIO_SENSOR_QUERY_EXTENDED_INFO_FN callback, SensorAdapterQueryExtendedInfo, SensorAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], secbiomet.sensoradapterqueryextendedinfo, winbio_adapter/SensorAdapterQueryExtendedInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

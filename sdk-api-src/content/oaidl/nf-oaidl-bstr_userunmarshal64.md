@@ -9,8 +9,6 @@ ms.assetid: 5d0bb71f-f8a2-4af7-b7e4-177997af2c9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BSTR_UserUnmarshal64, BSTR_UserUnmarshal64 function [Automation], automat.bstr_userunmarshal64, oaidl/BSTR_UserUnmarshal64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

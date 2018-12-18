@@ -9,8 +9,6 @@ ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

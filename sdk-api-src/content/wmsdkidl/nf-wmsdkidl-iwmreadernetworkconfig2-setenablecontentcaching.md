@@ -9,8 +9,6 @@ ms.assetid: 68dcb12e-e254-407e-864b-54d4e84b08ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableContentCaching method, IWMReaderNetworkConfig2.SetEnableContentCaching, IWMReaderNetworkConfig2::SetEnableContentCaching, IWMReaderNetworkConfig2SetEnableContentCaching, SetEnableContentCaching, SetEnableContentCaching method [windows Media Format], SetEnableContentCaching method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablecontentcaching, wmsdkidl/IWMReaderNetworkConfig2::SetEnableContentCaching
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -111,11 +109,11 @@ This method applies only to content being streamed from a server running Windows
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8fdbb18-ba50-47e7-b7c9-858e6c452071">IWMReaderNetworkConfig2::GetEnableContentCaching</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743508(v=VS.85).aspx">IWMReaderNetworkConfig2::GetEnableContentCaching</a>
  
 
  

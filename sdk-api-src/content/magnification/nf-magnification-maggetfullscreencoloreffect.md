@@ -9,8 +9,6 @@ ms.assetid: 1C37DB20-1267-447B-A34F-E3EC83F51907
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagGetFullscreenColorEffect, MagGetFullscreenColorEffect function [Magnification API], magapi.magapi_maggetfullscreencoloreffect, magnification/MagGetFullscreenColorEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

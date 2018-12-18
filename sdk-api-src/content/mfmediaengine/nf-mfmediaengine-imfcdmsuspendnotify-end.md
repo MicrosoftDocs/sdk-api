@@ -9,8 +9,6 @@ ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: End, End method [Media Foundation], End method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],End method, IMFCdmSuspendNotify.End, IMFCdmSuspendNotify::End, mf.imfcdmsuspendnotify_end, mfmediaengine/IMFCdmSuspendNotify::End
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

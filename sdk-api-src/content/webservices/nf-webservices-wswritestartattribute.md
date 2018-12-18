@@ -9,8 +9,6 @@ ms.assetid: 9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteStartAttribute, WsWriteStartAttribute function [Web Services for Windows], webservices/WsWriteStartAttribute, wsw.wswritestartattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -182,7 +180,7 @@ To write an "xml:lang"  or "xml:space" attribute, specify "xml" for the prefix, 
         and "http://www.w3.org/XML/1998/namespace" for the namespace.
       
 
-If writing the attribute causes <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
+If writing the attribute causes <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
         then <b>WS_E_QUOTA_EXCEEDED</b> is returned.
       
 

@@ -9,8 +9,6 @@ ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 77b9099c-7696-47d8-ac08-b58a329909ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetQuotaLimit, GetQuotaLimit method [Files], GetQuotaLimit method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaLimit method, IDiskQuotaUser.GetQuotaLimit, IDiskQuotaUser::GetQuotaLimit, _win32_idiskquotauser_getquotalimit, base.idiskquotauser_getquotalimit, dskquota/IDiskQuotaUser::GetQuotaLimit, fs.idiskquotauser_getquotalimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

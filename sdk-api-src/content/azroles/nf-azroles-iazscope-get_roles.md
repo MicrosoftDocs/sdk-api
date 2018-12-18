@@ -9,8 +9,6 @@ ms.assetid: 4dcf0e1b-d824-4675-b2d1-f59a58adb00a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],Roles property, IAzScope interface [Security],Roles property, IAzScope.Roles, IAzScope.get_Roles, IAzScope::Roles, IAzScope::get_Roles, Roles property [Security], Roles property [Security],AzScope object, Roles property [Security],IAzScope interface, azroles/IAzScope::Roles, azroles/IAzScope::get_Roles, get_Roles, security.iazscope_roles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

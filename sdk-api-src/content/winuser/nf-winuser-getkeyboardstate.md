@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Input], _win32_GetKeyboardState, _win32_getkeyboardstate_cpp, inputdev.getkeyboardstate, winui._win32_getkeyboardstate, winuser/GetKeyboardState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

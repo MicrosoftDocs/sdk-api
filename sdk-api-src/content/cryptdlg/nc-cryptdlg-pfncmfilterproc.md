@@ -9,8 +9,6 @@ ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.  <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
+The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.  <b>PFNCMFILTERPROC</b> is an application-defined callback function that is specified in the <a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The <b>PFNCMFILTERPROC</b> function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>PFNCMFILTERPROC</b> function is a filter procedure that filters each cert
 
 ### -param pCertContext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains a certificate to make a filtering determination on.
+A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains a certificate to make a filtering determination on.
 
 
 ### -param LPARAM
@@ -104,7 +102,7 @@ Return a nonzero value (<b>TRUE</b>) to display the certificate. Return zero (<b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a>
+<a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a>
 
 
 

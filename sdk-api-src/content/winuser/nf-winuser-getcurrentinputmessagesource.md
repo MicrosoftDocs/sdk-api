@@ -9,8 +9,6 @@ ms.assetid: 35e4ebf5-df9d-4168-9996-355204c2ab93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentInputMessageSource, GetCurrentInputMessageSource function, input_sourceid.getcurrentinputmessagesource, inputsourceid.getcurrentinputmessagesource, winuser/GetCurrentInputMessageSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

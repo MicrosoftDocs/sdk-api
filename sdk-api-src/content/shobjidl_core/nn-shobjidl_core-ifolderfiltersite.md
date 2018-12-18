@@ -9,8 +9,6 @@ ms.assetid: 8b6fe1a3-9977-42a8-af95-da0fc6809b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFolderFilterSite, IFolderFilterSite interface [Windows Shell], IFolderFilterSite interface [Windows Shell],described, _shell_IFolderFilterSite, shell.IFolderFilterSite, shobjidl_core/IFolderFilterSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

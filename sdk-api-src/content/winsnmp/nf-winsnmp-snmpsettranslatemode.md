@@ -9,8 +9,6 @@ ms.assetid: 8ee7e660-e718-40e6-adcd-1554eb7391d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpSetTranslateMode, SnmpSetTranslateMode function [SNMP], _snmp_snmpsettranslatemode, snmp.snmpsettranslatemode, winsnmp/SnmpSetTranslateMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

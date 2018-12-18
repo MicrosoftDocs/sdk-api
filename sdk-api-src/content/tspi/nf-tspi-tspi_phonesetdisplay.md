@@ -9,8 +9,6 @@ ms.assetid: c320122c-037a-40f5-8314-6aa3352cc994
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneSetDisplay, TSPI_phoneSetDisplay function [TAPI 2.2], _tspi_tspi_phonesetdisplay, tspi.tspi_phonesetdisplay, tspi/TSPI_phoneSetDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

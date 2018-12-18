@@ -9,8 +9,6 @@ ms.assetid: 52b11e79-9930-4fd8-84b4-152917090519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Pause method, IUIAnimationManager.Pause, IUIAnimationManager::Pause, Pause, Pause method [Windows Animation], Pause method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_pause, uianimation/IUIAnimationManager::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

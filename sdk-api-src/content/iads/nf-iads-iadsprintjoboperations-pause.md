@@ -9,8 +9,6 @@ ms.assetid: 8e1e5c1b-7a06-4781-9be5-71d170987e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Pause method, IADsPrintJobOperations.Pause, IADsPrintJobOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_pause, adsi.iadsprintjoboperations__pause, adsi.iadsprintjoboperations_pause, iads/IADsPrintJobOperations::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

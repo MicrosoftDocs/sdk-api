@@ -9,8 +9,6 @@ ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

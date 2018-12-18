@@ -9,8 +9,6 @@ ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCount, GetRecordCount method [windows Media Format], GetRecordCount method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordCount method, IWMMutualExclusion2.GetRecordCount, IWMMutualExclusion2::GetRecordCount, IWMMutualExclusion2GetRecordCount, wmformat.iwmmutualexclusion2_getrecordcount, wmsdkidl/IWMMutualExclusion2::GetRecordCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,7 +120,7 @@ Record numbers are assigned sequentially.
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 5bbacf45-2e1a-402a-8592-c8f60034c4ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseClusterGroup, CloseClusterGroup function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP, PCLUSAPI_CLOSE_CLUSTER_GROUP function [Failover Cluster], _wolf_closeclustergroup, clusapi/CloseClusterGroup, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP, mscs.closeclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-Closes a  <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_GROUP</b> type defines a pointer to this function.
+Closes a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters

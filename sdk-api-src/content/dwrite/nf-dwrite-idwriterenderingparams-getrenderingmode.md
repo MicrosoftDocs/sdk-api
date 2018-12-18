@@ -9,8 +9,6 @@ ms.assetid: 657360c6-3351-400b-bb41-bcd92de3c48d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [Direct Write], GetRenderingMode method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetRenderingMode method, IDWriteRenderingParams.GetRenderingMode, IDWriteRenderingParams::GetRenderingMode, directwrite.IDWriteRenderingParams_GetRenderingMode, dwrite/IDWriteRenderingParams::GetRenderingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

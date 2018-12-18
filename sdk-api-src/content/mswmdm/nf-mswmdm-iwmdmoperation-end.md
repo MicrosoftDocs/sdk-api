@@ -9,8 +9,6 @@ ms.assetid: f1a3f0b7-033d-4e93-aaca-43db88a9b705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],End method, IWMDMOperation.End, IWMDMOperation::End, IWMDMOperationEnd, mswmdm/IWMDMOperation::End, wmdm.iwmdmoperation_end
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

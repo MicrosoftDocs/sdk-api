@@ -9,8 +9,6 @@ ms.assetid: F362617D-E0F8-4F2C-8968-93AD25FE0990
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDevicePair interface [Media Streaming API],get_Server method, IDevicePair.get_Server, IDevicePair.streaming, IDevicePair::get_Server, IDevicePair::streaming, get_Server, get_Server method [Media Streaming API], get_Server method [Media Streaming API],IDevicePair interface, mediastreaming.idevicepair_server, windows/IDevicePair::get_Server
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

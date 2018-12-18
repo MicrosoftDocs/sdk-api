@@ -9,8 +9,6 @@ ms.assetid: a824c6c0-0887-41cb-892a-832635ade222
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATransfer method, IWMPSubscriptionService.allowPDATransfer, IWMPSubscriptionService::allowPDATransfer, IWMPSubscriptionServiceallowPDATransfer, allowPDATransfer, allowPDATransfer method [Windows Media Player], allowPDATransfer method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPDATransfer, wmp.iwmpsubscriptionservice_allowpdatransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 
@@ -101,7 +99,7 @@ Windows Media Player 9 Series and Windows Media Player 10 call <b>allowPDATransf
 
 Windows Media Player 11 never calls <b>allowPDATransfer</b> automatically. That is, Windows Media Player 11 calls <b>allowPDATransfer</b> only when the user explicitly requests synchronization rights. For example, the user might request a synchronization rights by choosing a command from the context menu of an information icon.
 
-Do not rely on <b>allowPDATransfer</b> being called each time a track is synchronized with a device. Instead, implement <a href="https://msdn.microsoft.com/64ab5548-b562-44e4-9798-8f14d3ed653b">IWMPSubscriptionService2::prepareForSync</a>.
+Do not rely on <b>allowPDATransfer</b> being called each time a track is synchronized with a device. Instead, implement <a href="https://msdn.microsoft.com/en-us/library/Dd563700(v=VS.85).aspx">IWMPSubscriptionService2::prepareForSync</a>.
 
 
 
@@ -111,7 +109,7 @@ Do not rely on <b>allowPDATransfer</b> being called each time a track is synchro
 
 
 
-<a href="https://msdn.microsoft.com/cb9d0f20-d5ca-4db9-adcc-0a803f97f196">IWMPSubscriptionService Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563697(v=VS.85).aspx">IWMPSubscriptionService Interface</a>
  
 
  

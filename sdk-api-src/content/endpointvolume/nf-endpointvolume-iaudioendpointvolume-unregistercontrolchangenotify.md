@@ -9,8 +9,6 @@ ms.assetid: 4ae8263b-83f5-4d9f-9e48-d78fae98c7ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],UnregisterControlChangeNotify method, IAudioEndpointVolume.UnregisterControlChangeNotify, IAudioEndpointVolume::UnregisterControlChangeNotify, IAudioEndpointVolumeUnregisterControlChangeNotify, UnregisterControlChangeNotify, UnregisterControlChangeNotify method [Core Audio], UnregisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_unregistercontrolchangenotify, endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

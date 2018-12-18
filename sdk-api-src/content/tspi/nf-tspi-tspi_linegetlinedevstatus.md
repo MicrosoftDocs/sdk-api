@@ -9,8 +9,6 @@ ms.assetid: 14f7944b-e967-4967-9fb2-e7aeb78bb045
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetLineDevStatus, TSPI_lineGetLineDevStatus function [TAPI 2.2], _tspi_tspi_linegetlinedevstatus, tspi.tspi_linegetlinedevstatus, tspi/TSPI_lineGetLineDevStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

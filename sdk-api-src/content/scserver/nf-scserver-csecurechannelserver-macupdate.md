@@ -9,8 +9,6 @@ ms.assetid: f8b5548d-ffd5-4dc3-8d08-61a65841a997
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACUpdate method, CSecureChannelServer.MACUpdate, CSecureChannelServer::MACUpdate, CSecureChannelServerMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACUpdate, wmdm.csecurechannelserver_macupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

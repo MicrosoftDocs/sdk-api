@@ -9,8 +9,6 @@ ms.assetid: 599e5a34-1e17-4c5f-b58e-727871e409be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: if_nametoindex, if_nametoindex function [IP Helper], iphlp.if_nametoindex, netioapi/if_nametoindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

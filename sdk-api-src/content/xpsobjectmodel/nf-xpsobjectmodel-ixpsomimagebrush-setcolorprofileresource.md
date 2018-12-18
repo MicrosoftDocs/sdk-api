@@ -9,8 +9,6 @@ ms.assetid: d18511b7-13ed-4528-9f3d-aef3bcadc403
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetColorProfileResource method, IXpsOMImageBrush.SetColorProfileResource, IXpsOMImageBrush::SetColorProfileResource, SetColorProfileResource, SetColorProfileResource method [XPS Documents and Packaging], SetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::SetColorProfileResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

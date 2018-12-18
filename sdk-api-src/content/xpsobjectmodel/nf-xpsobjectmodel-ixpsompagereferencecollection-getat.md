@@ -9,8 +9,6 @@ ms.assetid: 5b888771-fc69-4857-94a4-eea5a068c740
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPageReferenceCollection.GetAt, IXpsOMPageReferenceCollection::GetAt, xps.ixpsompagereferencecollection_getat, xpsobjectmodel/IXpsOMPageReferenceCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

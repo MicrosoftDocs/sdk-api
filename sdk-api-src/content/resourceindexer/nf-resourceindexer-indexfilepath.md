@@ -9,8 +9,6 @@ ms.assetid: A1CDA9D1-9FEE-4FCB-AA85-1DA58D9EF95B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IndexFilePath, IndexFilePath function [Menus and Other Resources], menurc.indexfilepath, resourceindexer/IndexFilePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 
@@ -101,7 +99,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/A6F253AD-0756-4996-AC6C-5B09C55DE22E">IndexedResourceQualifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt219671(v=VS.85).aspx">IndexedResourceQualifier</a>
  
 
  

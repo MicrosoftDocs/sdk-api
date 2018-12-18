@@ -9,8 +9,6 @@ ms.assetid: c89f378d-daa6-4e01-a087-6082d368585b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidXDSEvent, IMSVidXDSEvent interface [Microsoft TV Technologies], IMSVidXDSEvent interface [Microsoft TV Technologies],described, IMSVidXDSEventInterface, mstv.imsvidxdsevent, segment/IMSVidXDSEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -80,7 +78,7 @@ The <b>IMSVidXDSEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2832f99b-16e9-4c09-903d-8d89f2cc7715">RatingChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694771(v=VS.85).aspx">RatingChange</a>
 </td>
 <td align="left" width="63%">
 Called when the current rating changes.

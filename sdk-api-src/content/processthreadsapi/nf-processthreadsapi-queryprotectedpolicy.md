@@ -9,8 +9,6 @@ ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryProtectedPolicy, QueryProtectedPolicy function, base.getprotectedpolicy, base.queryprotectedpolicy, processthreadsapi/QueryProtectedPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

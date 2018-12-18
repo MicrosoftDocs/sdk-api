@@ -9,8 +9,6 @@ ms.assetid: 2FEA3583-8868-4763-8308-3C1E8F72A9BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],UseLibrary method, ID3D11Linker.UseLibrary, ID3D11Linker::UseLibrary, UseLibrary, UseLibrary method [Direct3D 11], UseLibrary method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::UseLibrary, direct3d11.id3d11linker_uselibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
@@ -60,9 +58,9 @@ Adds an instance of a library module to be used for linking.
 
 ### -param pLibraryMI [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280564(v=VS.85).aspx">ID3D11ModuleInstance</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5">ID3D11ModuleInstance</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn280564(v=VS.85).aspx">ID3D11ModuleInstance</a> interface for the library module instance.
+A pointer to the <a href="https://msdn.microsoft.com/BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5">ID3D11ModuleInstance</a> interface for the library module instance.
 
 
 ## -returns
@@ -71,7 +69,7 @@ A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn280564(v=VS
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -81,7 +79,7 @@ Returns S_OK if successful; otherwise, returns one of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280558(v=VS.85).aspx">ID3D11Linker</a>
+<a href="https://msdn.microsoft.com/08967A5F-AAAE-4352-A8A9-C7B1ED16EF25">ID3D11Linker</a>
  
 
  

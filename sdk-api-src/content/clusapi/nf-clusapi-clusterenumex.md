@@ -9,8 +9,6 @@ ms.assetid: F50FB801-8ACA-40BD-9E89-7E3AF2CA2DA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterEnumEx, ClusterEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_ENUM_EX, PCLUSAPI_CLUSTER_ENUM_EX function [Failover Cluster], clusapi/ClusterEnumEx, clusapi/PCLUSAPI_CLUSTER_ENUM_EX, mscs.clusterenumex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -133,11 +131,11 @@ The buffer was filled successfully.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a>
+<a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

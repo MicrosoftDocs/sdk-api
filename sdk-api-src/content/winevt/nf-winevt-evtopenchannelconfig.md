@@ -9,8 +9,6 @@ ms.assetid: d197f04e-01e8-4ef6-a9ca-61e5178d825b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtOpenChannelConfig, EvtOpenChannelConfig function [EventLog], wes.evtopenchannelconfig, winevt/EvtOpenChannelConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

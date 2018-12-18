@@ -9,8 +9,6 @@ ms.assetid: 480fa108-5cfd-49ab-92fe-c635f13f3194
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_isIdentical method, IWMPPlaylist.get_isIdentical, IWMPPlaylist::get_isIdentical, IWMPPlaylistget_isIdentical, get_isIdentical, get_isIdentical method [Windows Media Player], get_isIdentical method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_isidentical, wmp/IWMPPlaylist::get_isIdentical
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -104,7 +102,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

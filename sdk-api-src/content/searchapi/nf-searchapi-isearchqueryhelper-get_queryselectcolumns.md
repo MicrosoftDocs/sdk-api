@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySelectColumns method, ISearchQueryHelper.get_QuerySelectColumns, ISearchQueryHelper::get_QuerySelectColumns, _search_ISearchQueryHelper_get_QuerySelectColumns, get_QuerySelectColumns, get_QuerySelectColumns method [search], get_QuerySelectColumns method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySelectColumns, searchapi/ISearchQueryHelper::get_QuerySelectColumns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

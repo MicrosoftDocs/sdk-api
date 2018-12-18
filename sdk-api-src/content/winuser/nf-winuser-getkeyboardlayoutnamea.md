@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyboardLayoutName, GetKeyboardLayoutName function [Keyboard and Mouse Input], GetKeyboardLayoutNameA, GetKeyboardLayoutNameW, _win32_GetKeyboardLayoutName, _win32_getkeyboardlayoutname_cpp, inputdev.getkeyboardlayoutname, winui._win32_getkeyboardlayoutname, winuser/GetKeyboardLayoutName, winuser/GetKeyboardLayoutNameA, winuser/GetKeyboardLayoutNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

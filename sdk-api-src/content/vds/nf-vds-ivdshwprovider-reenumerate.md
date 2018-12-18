@@ -9,8 +9,6 @@ ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsHwProvider interface [VDS],Reenumerate method, IVdsHwProvider.Reenumerate, IVdsHwProvider::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsHwProvider interface, base.ivdshwprovider_reenumerate, vds/IVdsHwProvider::Reenumerate, vdshwprv/IVdsHwProvider::Reenumerate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

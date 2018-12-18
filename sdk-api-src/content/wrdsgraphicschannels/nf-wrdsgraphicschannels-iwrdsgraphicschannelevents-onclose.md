@@ -4,13 +4,11 @@ title: IWRdsGraphicsChannelEvents::OnClose
 author: windows-sdk-content
 description: Called when the channel has been closed.
 old-location: termserv\iwrdsgraphicschannelevents_onclose.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: fd195c0e-68bf-4361-9795-0e436c1abc90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnClose method, IWRdsGraphicsChannelEvents.OnClose, IWRdsGraphicsChannelEvents::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onclose, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

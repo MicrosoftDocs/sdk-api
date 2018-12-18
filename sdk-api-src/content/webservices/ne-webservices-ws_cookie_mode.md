@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_COOKIE_MODE
+UID: NE:webservices.__unnamed_enum_26
 title: WS_COOKIE_MODE
 author: windows-sdk-content
 description: An enumeration used to specify how to handle HTTP cookies.
@@ -7,10 +7,8 @@ old-location: wsw\ws_cookie_mode.htm
 tech.root: wsw
 ms.assetid: d1430120-efaa-4af8-a669-720387c617b2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [Web Services for Windows], WS_MANUAL_COOKIE_MODE, webservices/WS_AUTO_COOKIE_MODE, webservices/WS_COOKIE_MODE, webservices/WS_MANUAL_COOKIE_MODE, wsw.ws_cookie_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

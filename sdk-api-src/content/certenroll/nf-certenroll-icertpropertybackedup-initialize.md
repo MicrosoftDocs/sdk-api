@@ -9,8 +9,6 @@ ms.assetid: 2ca941a6-898d-4955-b334-ffc15e10b330
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],Initialize method, ICertPropertyBackedUp.Initialize, ICertPropertyBackedUp::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::Initialize, security.icertpropertybackedup_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -74,7 +72,7 @@ A <b>DATE</b> variable that identifies when a certificate was last backed up.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -119,7 +117,7 @@ The date is stored as an 8-byte real value, representing a date between January 
 
 For dates between 1950 and 2049 inclusive, the date and time is encoded UTC-time in the form YYMMDDHHMMSS. For dates before 1950 or after 2049, encoded generalized time is used. Encoded generalized time is in the form YYYYMMDDHHMMSSMMM, using a four digit year, and is precise to milliseconds.
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).aspx">SetValueOnCertificate</a> method to associate the property with a certificate. To retrieve the date, call the <a href="https://msdn.microsoft.com/en-us/library/Aa375359(v=VS.85).aspx">BackedUpTime</a> property. To retrieve the Boolean value that identifies whether a certificate was backed up, call the <a href="https://msdn.microsoft.com/en-us/library/Aa375361(v=VS.85).aspx">BackedUpValue</a> property.
+Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc2">SetValueOnCertificate</a> method to associate the property with a certificate. To retrieve the date, call the <a href="https://msdn.microsoft.com/5515fbd5-a711-421d-b80d-3e77c83f7549">BackedUpTime</a> property. To retrieve the Boolean value that identifies whether a certificate was backed up, call the <a href="https://msdn.microsoft.com/206ef65a-93c5-4c0d-b673-42a0b065225c">BackedUpValue</a> property.
 
 
 
@@ -129,11 +127,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375353(v=VS.85).aspx">ICertPropertyBackedUp</a>
+<a href="https://msdn.microsoft.com/9c694991-6f2d-420e-9f9f-5a36b10c39aa">ICertPropertyBackedUp</a>
  
 
  

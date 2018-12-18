@@ -9,8 +9,6 @@ ms.assetid: bb4dd7f9-2f15-4a27-89c9-1675f4fb8d92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetAclInformation, SetAclInformation function [Security], _win32_setaclinformation, security.setaclinformation, securitybaseapi/SetAclInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

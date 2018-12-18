@@ -9,8 +9,6 @@ ms.assetid: F643383E-AABA-4F32-BCE9-0AA4FD635A0F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetSourceFromByteStream method, IMFMediaEngineEx.SetSourceFromByteStream, IMFMediaEngineEx::SetSourceFromByteStream, SetSourceFromByteStream, SetSourceFromByteStream method [Media Foundation], SetSourceFromByteStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setsourcefrombytestream, mfmediaengine/IMFMediaEngineEx::SetSourceFromByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

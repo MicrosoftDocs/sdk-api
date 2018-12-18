@@ -9,8 +9,6 @@ ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsclient.h
 req.include-header: 

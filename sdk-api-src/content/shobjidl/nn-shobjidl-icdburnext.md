@@ -9,8 +9,6 @@ ms.assetid: e87a635b-9614-49e1-8633-f7cbb5050b9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDBurnExt, ICDBurnExt interface [Windows Shell], ICDBurnExt interface [Windows Shell],described, _shell_ICDBurnExt, shell.ICDBurnExt, shobjidl/ICDBurnExt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

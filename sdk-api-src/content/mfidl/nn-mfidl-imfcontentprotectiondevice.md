@@ -9,8 +9,6 @@ ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

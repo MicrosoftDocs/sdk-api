@@ -9,8 +9,6 @@ ms.assetid: 514359d4-595d-4cac-a784-527b65b53137
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyOccurrenceCount, GetPropertyOccurrenceCount method [Direct Write], GetPropertyOccurrenceCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyOccurrenceCount method, IDWriteFontSet.GetPropertyOccurrenceCount, IDWriteFontSet::GetPropertyOccurrenceCount, directwrite.idwritefontset_getpropertyoccurrencecount, dwrite_3/IDWriteFontSet::GetPropertyOccurrenceCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Returns how many times a given property value occurs in the set.
 
 ### -param property [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/C169B175-74FD-423A-8E0A-DC50314D75E6">DWRITE_FONT_PROPERTY</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn933212(v=VS.85).aspx">DWRITE_FONT_PROPERTY</a>*</b>
 
 Font property of interest.
 
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
  
 
  

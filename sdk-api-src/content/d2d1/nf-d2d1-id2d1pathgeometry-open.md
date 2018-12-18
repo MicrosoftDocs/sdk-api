@@ -9,8 +9,6 @@ ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Open method, ID2D1PathGeometry.Open, ID2D1PathGeometry::Open, Open, Open method [Direct2D], Open method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Open, direct2d.ID2D1PathGeometry_Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ When this method returns, <i>geometrySink</i> contains the address of a pointer 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

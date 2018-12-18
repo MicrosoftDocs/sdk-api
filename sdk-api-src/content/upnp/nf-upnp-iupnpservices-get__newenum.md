@@ -9,8 +9,6 @@ ms.assetid: 8ca3156a-f33f-4fa4-b043-3ecde3f55d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get__NewEnum method, IUPnPServices.get__NewEnum, IUPnPServices::get__NewEnum, _upnp_iupnpservices__newenum, get__NewEnum, get__NewEnum method [UPnP APIs], get__NewEnum method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices__newenum, upnp/IUPnPServices::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 The 
-<b>_NewEnum</b> property specifies either the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> enumerator interface for the collection.
+<b>_NewEnum</b> property specifies either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> enumerator interface for the collection.
 
 
 ## -parameters

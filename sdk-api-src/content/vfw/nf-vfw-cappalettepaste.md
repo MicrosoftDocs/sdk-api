@@ -9,8 +9,6 @@ ms.assetid: ccdaf58d-3d06-46c5-a812-322364a7f851
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capPalettePaste, capPalettePaste, capPalettePaste macro [Windows Multimedia], multimedia.cappalettepaste, vfw/capPalettePaste"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

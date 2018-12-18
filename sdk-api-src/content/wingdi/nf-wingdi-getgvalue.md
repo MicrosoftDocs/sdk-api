@@ -9,8 +9,6 @@ ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

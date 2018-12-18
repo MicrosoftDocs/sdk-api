@@ -9,8 +9,6 @@ ms.assetid: c0febde2-f067-4ca7-8c2b-2f09da9e7d23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmClassifierModuleImplementation::OnUnload, IFsrmPipelineModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmPipelineModuleImplementation.OnUnload, IFsrmPipelineModuleImplementation::OnUnload, IFsrmStorageModuleImplementation interface [File Server Resource Manager],OnUnload method, IFsrmStorageModuleImplementation::OnUnload, OnUnload, OnUnload method [File Server Resource Manager], OnUnload method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, OnUnload method [File Server Resource Manager],IFsrmPipelineModuleImplementation interface, OnUnload method [File Server Resource Manager],IFsrmStorageModuleImplementation interface, fs.ifsrmpipelinemoduleimplementation_onunload, fsrm.ifsrmpipelinemoduleimplementation_onunload, fsrmpipeline/IFsrmClassifierModuleImplementation::OnUnload, fsrmpipeline/IFsrmPipelineModuleImplementation::OnUnload, fsrmpipeline/IFsrmStorageModuleImplementation::OnUnload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

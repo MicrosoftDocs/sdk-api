@@ -9,8 +9,6 @@ ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

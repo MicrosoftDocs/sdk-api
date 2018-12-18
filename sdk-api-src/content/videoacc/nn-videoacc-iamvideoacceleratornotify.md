@@ -9,8 +9,6 @@ ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: videoacc.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in conjunction with the <a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator</a> interface. It enables the video renderer filter to communicate with the video decoder when configuring 
+The <b>IAMVideoAcceleratorNotify</b> interface is a callback interface used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator</a> interface. It enables the video renderer filter to communicate with the video decoder when configuring 
         
       DirectX Video Acceleration (DXVA) decoding.
 
@@ -73,7 +71,7 @@ The <b>IAMVideoAcceleratorNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72e3331d-1e54-4ec7-9972-7e39eaf2707d">GetCreateVideoAcceleratorData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375994(v=VS.85).aspx">GetCreateVideoAcceleratorData</a>
 </td>
 <td align="left" width="63%">
 Gets information needed to create a video accelerator object.
@@ -82,7 +80,7 @@ Gets information needed to create a video accelerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee8cbe71-6ac3-4f41-a9af-f372f825485d">GetUncompSurfacesInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375995(v=VS.85).aspx">GetUncompSurfacesInfo</a>
 </td>
 <td align="left" width="63%">
 Queries the decoder for the number of uncompressed surfaces to allocate and the pixel format.
@@ -91,7 +89,7 @@ Queries the decoder for the number of uncompressed surfaces to allocate and the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e82c73e6-d32e-4875-9f9d-124a1c6ce504">SetUncompSurfacesInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375996(v=VS.85).aspx">SetUncompSurfacesInfo</a>
 </td>
 <td align="left" width="63%">
 Notifies the decoder of how many uncompressed surfaces were created.

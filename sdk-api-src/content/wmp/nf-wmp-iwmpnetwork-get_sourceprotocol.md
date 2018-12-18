@@ -9,8 +9,6 @@ ms.assetid: 6703ce88-9ca8-4401-b297-f765c4b15b84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_sourceProtocol method, IWMPNetwork.get_sourceProtocol, IWMPNetwork::get_sourceProtocol, IWMPNetworkget_sourceProtocol, get_sourceProtocol, get_sourceProtocol method [Windows Media Player], get_sourceProtocol method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_sourceprotocol, wmp/IWMPNetwork::get_sourceProtocol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ This method retrieves an empty string ("") when playing a CD or DVD.
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

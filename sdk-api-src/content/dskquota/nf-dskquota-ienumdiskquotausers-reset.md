@@ -9,8 +9,6 @@ ms.assetid: c19d4cbe-e83f-4a2d-9eb1-77f32717f69e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Reset method, IEnumDiskQuotaUsers.Reset, IEnumDiskQuotaUsers::Reset, Reset, Reset method [Files], Reset method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_reset, base.ienumdiskquotausers_reset, dskquota/IEnumDiskQuotaUsers::Reset, fs.ienumdiskquotausers_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], IMFMediaBuffer interface [Media Foundation],described, mf.imfmediabuffer, mfobjects/IMFMediaBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

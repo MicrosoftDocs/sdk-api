@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5cb1e1c5-e0ab-9620-8166-f4d77be0bd73, ID3D10EffectPass, ID3D10EffectPass interface [Direct3D 10], ID3D10EffectPass interface [Direct3D 10],described, d3d10effect/ID3D10EffectPass, direct3d10.id3d10effectpass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

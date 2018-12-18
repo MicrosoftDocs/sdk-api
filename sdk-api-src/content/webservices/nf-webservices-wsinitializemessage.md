@@ -9,8 +9,6 @@ ms.assetid: 26eafc5f-6636-4f96-a037-7935cdac5900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsInitializeMessage, WsInitializeMessage function [Web Services for Windows], webservices/WsInitializeMessage, wsw.wsinitializemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -54,7 +52,7 @@ This function initializes the headers for the message in preparation for
                 processing.
             After a message has been initialized an application can
                 add additional headers.
-            On success the message is in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_INITIALIZED</a> state.
+            On success the message is in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_INITIALIZED</a> state.
                 If the function fails, then no state transitions occurs.
             
 

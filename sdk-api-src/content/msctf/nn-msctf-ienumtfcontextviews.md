@@ -9,8 +9,6 @@ ms.assetid: d9b4be70-0ef3-421a-9c9a-18533d563170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services Framework], IEnumTfContextViews interface [Text Services Framework],described, _tsf_ienumtfcontextviews_ref, msctf/IEnumTfContextViews, tsf.ienumtfcontextviews
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

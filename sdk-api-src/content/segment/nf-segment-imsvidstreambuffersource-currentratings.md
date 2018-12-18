@@ -9,8 +9,6 @@ ms.assetid: c388d972-07d9-4347-97d3-03a46a6bb50c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentRatings, CurrentRatings method [Microsoft TV Technologies], CurrentRatings method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, IMSVidStreamBufferSource interface [Microsoft TV Technologies],CurrentRatings method, IMSVidStreamBufferSource.CurrentRatings, IMSVidStreamBufferSource::CurrentRatings, IMSVidStreamBufferSourceCurrentRatings, mstv.imsvidstreambuffersource_currentratings, segment/IMSVidStreamBufferSource::CurrentRatings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

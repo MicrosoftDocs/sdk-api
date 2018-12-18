@@ -9,8 +9,6 @@ ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteRequestCert property [Security], DeleteRequestCert property [Security],IEnroll interface, IEnroll interface [Security],DeleteRequestCert property, IEnroll.DeleteRequestCert, IEnroll.get_DeleteRequestCert, IEnroll::DeleteRequestCert, IEnroll::get_DeleteRequestCert, IEnroll::put_DeleteRequestCert, get_DeleteRequestCert, security.ienroll4_deleterequestcert, xenroll/IEnroll::DeleteRequestCert, xenroll/IEnroll::get_DeleteRequestCert, xenroll/IEnroll::put_DeleteRequestCert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

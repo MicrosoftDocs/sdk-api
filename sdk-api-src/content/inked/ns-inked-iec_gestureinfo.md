@@ -9,8 +9,6 @@ ms.assetid: f932508b-44d3-4605-97a7-bb6eed248939
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win32 Only) structure [Tablet PC], f932508b-44d3-4605-97a7-bb6eed248939, inked/IEC_GESTUREINFO, tablet.iec_gestureinfo__win32_only_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: inked.h
 req.include-header: 

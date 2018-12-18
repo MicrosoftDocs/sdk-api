@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_WRITE_OPTION
+UID: NE:webservices.__unnamed_enum_87
 title: WS_WRITE_OPTION
 author: windows-sdk-content
 description: Specifies whether a storage specified contains the value, or a pointer to the value, and whether the value can be represented as nil in the XML content.
@@ -7,10 +7,8 @@ old-location: wsw\ws_write_option.htm
 tech.root: wsw
 ms.assetid: 24a0ad2c-fcec-42c5-8f72-bea431b06d2e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_WRITE_NILLABLE_POINTER, WS_WRITE_NILLABLE_VALUE, WS_WRITE_OPTION, WS_WRITE_OPTION enumeration [Web Services for Windows], WS_WRITE_REQUIRED_POINTER, WS_WRITE_REQUIRED_VALUE, webservices/WS_WRITE_NILLABLE_POINTER, webservices/WS_WRITE_NILLABLE_VALUE, webservices/WS_WRITE_OPTION, webservices/WS_WRITE_REQUIRED_POINTER, webservices/WS_WRITE_REQUIRED_VALUE, wsw.ws_write_option
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -74,8 +72,8 @@ Api(..., &amp;value, sizeof(value), ...);</code></pre>
 <pre class="syntax" xml:space="preserve"><code>// always written
 &lt;element&gt;123&lt;/element&gt;</code></pre>
 This option is not supported for pointer types
-                    (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
-                    The <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
+                    (<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>).  
+                    The <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_REQUIRED_POINTER</a> option should be used for these types.
                 
 
 
@@ -121,13 +119,13 @@ This option is only supported for the following types, listed below,
                     for each type for information on how nil is represented.
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTES_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_BYTES_TYPE</a>
 </li>
 </ul>
 

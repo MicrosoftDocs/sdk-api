@@ -9,8 +9,6 @@ ms.assetid: 59229720-cd3b-45d5-90c4-391acb124f4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeactivateAndUndo, DeactivateAndUndo method [COM], DeactivateAndUndo method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DeactivateAndUndo method, IOleInPlaceSite.DeactivateAndUndo, IOleInPlaceSite::DeactivateAndUndo, IOleInPlaceSiteWindowless.DeactivateAndUndo, _ole_ioleinplacesite_deactivateandundo, com.ioleinplacesite_deactivateandundo, oleidl/IOleInPlaceSite::DeactivateAndUndo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

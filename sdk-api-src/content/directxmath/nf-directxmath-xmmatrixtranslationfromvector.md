@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranslationFromVector(XMVECTO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixTranslationFromVector, XMMatrixTranslationFromVector, XMMatrixTranslationFromVector method [DirectX Math Support APIs], dxmath.xmmatrixtranslationfromvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6crm.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxIncomingQueue interface, IFaxIncomingQueue interface [Fax Service],GetJob method, IFaxIncomingQueue.GetJob, IFaxIncomingQueue::GetJob, _mfax_faxincomingqueue.getjob, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjob_cpp, fax._mfax_faxincomingqueue_getjob, faxcomex/IFaxIncomingQueue::GetJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,9 +66,9 @@ Specifies the job ID.
 
 ### -param pFaxIncomingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>**</b>
 
-A <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object.
 
 
 ## -returns
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_JOBS</a> and <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farSUBMIT_LOW</a> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> access rights.
 
 
 
@@ -98,11 +96,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/769e4fc5-5607-4fd6-8f78-59b190c94787">FaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686164(v=VS.85).aspx">FaxIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/291f8709-c10f-4041-864f-82431edd7fab">IFaxIncomingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686165(v=VS.85).aspx">IFaxIncomingQueue</a>
  
 
  

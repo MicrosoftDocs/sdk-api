@@ -9,8 +9,6 @@ ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

@@ -4,13 +4,11 @@ title: ITsSbGlobalStore::EnumerateSessions
 author: windows-sdk-content
 description: Returns an array that contains sessions on the specified provider.
 old-location: termserv\itssbglobalstore_enumeratesessions.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 16fe9154-913a-4b7f-8ab5-ea8654b7cc98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateSessions method, ITsSbGlobalStore.EnumerateSessions, ITsSbGlobalStore::EnumerateSessions, sbtsv/ITsSbGlobalStore::EnumerateSessions, termserv.itssbglobalstore_enumeratesessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

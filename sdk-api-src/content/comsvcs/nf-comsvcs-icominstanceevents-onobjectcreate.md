@@ -9,8 +9,6 @@ ms.assetid: 4f3457f6-4956-4411-b38b-46c7d84d342d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComInstanceEvents interface [COM+],OnObjectCreate method, IComInstanceEvents.OnObjectCreate, IComInstanceEvents::OnObjectCreate, OnObjectCreate, OnObjectCreate method [COM+], OnObjectCreate method [COM+],IComInstanceEvents interface, _dtc_icominstanceevents_onobjectcreate, comsvcs/IComInstanceEvents::OnObjectCreate, cos.icominstanceevents_onobjectcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

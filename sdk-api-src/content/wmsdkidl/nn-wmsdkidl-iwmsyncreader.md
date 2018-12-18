@@ -9,8 +9,6 @@ ms.assetid: 2a46e79f-084e-4173-ad0f-211d3065d81a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 The <b>IWMSyncReader</b> interface provides the ability to read ASF files using synchronous calls. This is in contrast to many of the methods in <b>IWMReader</b>, which are called asynchronously.
 
-You get a pointer to an <b>IWMSyncReader</b> interface when you create a new synchronous reader object with a call to <a href="https://msdn.microsoft.com/77cb65cc-9785-4af4-9b92-245c17e5ab82">WMCreateSyncReader</a>.
+You get a pointer to an <b>IWMSyncReader</b> interface when you create a new synchronous reader object with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757788(v=VS.85).aspx">WMCreateSyncReader</a>.
 
 In addition to enabling synchronous reading, the methods of <b>IWMSyncReader</b> are tailored to meet the demands of editing applications. Default playback from <b>IWMSyncReader</b> delivers uncompressed samples for the default streams of all outputs. However, you can manipulate the selected streams during streaming without having to enable manual stream selection. You can also receive compressed or uncompressed samples, though you cannot change between them during streaming. Samples are delivered by either output number or stream number, so you can receive uncompressed samples from mutually exclusive streams.
 
@@ -81,7 +79,7 @@ The <b>IWMSyncReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98f5a44f-dc34-4732-b497-5528de6af1c3">Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798584(v=VS.85).aspx">Close</a>
 </td>
 <td align="left" width="63%">
 Removes a file from the synchronous reader.
@@ -90,7 +88,7 @@ Removes a file from the synchronous reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84fbc2c7-001b-4339-a7df-89914274a72b">GetMaxOutputSampleSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798585(v=VS.85).aspx">GetMaxOutputSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum sample size for an output in the file.
@@ -99,7 +97,7 @@ Retrieves the maximum sample size for an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b098985-4eb2-4292-a9b9-cfdd051e9c0e">GetMaxStreamSampleSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798586(v=VS.85).aspx">GetMaxStreamSampleSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum sample size for a stream in the file.
@@ -108,7 +106,7 @@ Retrieves the maximum sample size for a stream in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/948047b3-3b87-4381-9320-c9602716ade2">GetNextSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798587(v=VS.85).aspx">GetNextSample</a>
 </td>
 <td align="left" width="63%">
 Gets the next sample from the file.
@@ -117,7 +115,7 @@ Gets the next sample from the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fde0a136-6c13-43d9-9969-e1226be60f76">GetOutputCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798588(v=VS.85).aspx">GetOutputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of outputs in the file.
@@ -126,7 +124,7 @@ Retrieves the number of outputs in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7faac9e7-ad5f-42a4-ba6e-562ae973f81b">GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798589(v=VS.85).aspx">GetOutputFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves one output format for one output in the file.
@@ -135,7 +133,7 @@ Retrieves one output format for one output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66f66784-791b-4f1b-8ba2-300a4521ce03">GetOutputFormatCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798590(v=VS.85).aspx">GetOutputFormatCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of formats supported by an output in the file.
@@ -144,7 +142,7 @@ Retrieves the number of formats supported by an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/605f5a66-aa06-4d4e-998e-1a3f7d1c7be6">GetOutputNumberForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798591(v=VS.85).aspx">GetOutputNumberForStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the output number that corresponds to a stream in the file.
@@ -153,7 +151,7 @@ Retrieves the output number that corresponds to a stream in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5e701ea-8b53-4abe-8b78-7c6fb151d80f">GetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798592(v=VS.85).aspx">GetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current properties of an output in the file.
@@ -162,7 +160,7 @@ Retrieves the current properties of an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e">GetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798593(v=VS.85).aspx">GetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Retrieves a setting for a particular output by name.
@@ -171,7 +169,7 @@ Retrieves a setting for a particular output by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd">GetReadStreamSamples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798594(v=VS.85).aspx">GetReadStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether a stream is configured to deliver uncompressed samples.
@@ -180,7 +178,7 @@ Ascertains whether a stream is configured to deliver uncompressed samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85543b80-78dd-4dc6-8885-c6a53f910165">GetStreamNumberForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798595(v=VS.85).aspx">GetStreamNumberForOutput</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream number that corresponds to an output number in the file.
@@ -189,7 +187,7 @@ Retrieves the current stream number that corresponds to an output number in the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcde749e-c0fd-4be8-8708-a053854a9275">GetStreamSelected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798596(v=VS.85).aspx">GetStreamSelected</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether or not a particular stream is selected for sample delivery.
@@ -198,7 +196,7 @@ Retrieves whether or not a particular stream is selected for sample delivery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dab1a9c4-487c-4b20-909e-05f3504698f5">Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798597(v=VS.85).aspx">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a file for reading.
@@ -207,7 +205,7 @@ Opens a file for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef42495a-2565-4925-882e-c3c42f9d418b">OpenStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798598(v=VS.85).aspx">OpenStream</a>
 </td>
 <td align="left" width="63%">
 Opens a stream for reading.
@@ -216,7 +214,7 @@ Opens a stream for reading.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5575fd7c-5eb0-4e4a-957d-e3fc174316ff">SetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798599(v=VS.85).aspx">SetOutputProps</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of an output in the file.
@@ -225,7 +223,7 @@ Sets the properties of an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8deb322f-8b52-46cf-9b5c-76fa34b6bde2">SetOutputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798600(v=VS.85).aspx">SetOutputSetting</a>
 </td>
 <td align="left" width="63%">
 Sets a named setting for an output in the file.
@@ -234,7 +232,7 @@ Sets a named setting for an output in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d96c97ad-085d-4753-8efb-8a6bcb284e78">SetRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798704(v=VS.85).aspx">SetRange</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback.
@@ -243,7 +241,7 @@ Sets a start time and duration for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d53838c-0d07-4aa6-8797-9ed7e07cb8fe">SetRangeByFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798705(v=VS.85).aspx">SetRangeByFrame</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback based upon the frame number of a frame-indexed video stream.
@@ -252,7 +250,7 @@ Sets a start time and duration for playback based upon the frame number of a fra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf998ecc-e80e-4eb3-9cba-61bd0b665d51">SetReadStreamSamples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798706(v=VS.85).aspx">SetReadStreamSamples</a>
 </td>
 <td align="left" width="63%">
 Sets a stream to deliver compressed or uncompressed samples.
@@ -261,7 +259,7 @@ Sets a stream to deliver compressed or uncompressed samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d62a61cb-3b5a-4ce8-9677-92e280449d26">SetStreamsSelected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798707(v=VS.85).aspx">SetStreamsSelected</a>
 </td>
 <td align="left" width="63%">
 Sets the streams for which the reader will deliver samples.

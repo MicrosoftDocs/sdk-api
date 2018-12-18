@@ -9,8 +9,6 @@ ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

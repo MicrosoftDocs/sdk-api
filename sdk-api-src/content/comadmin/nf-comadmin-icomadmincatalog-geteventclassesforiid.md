@@ -9,8 +9,6 @@ ms.assetid: 9f1a77ef-3dfd-4402-a05a-9cb4fd50dbd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEventClassesForIID, GetEventClassesForIID method [COM+], GetEventClassesForIID method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetEventClassesForIID method, ICOMAdminCatalog.GetEventClassesForIID, ICOMAdminCatalog::GetEventClassesForIID, _cos_ICOMAdminCatalog_GetEventClassesForIID, comadmin/ICOMAdminCatalog::GetEventClassesForIID, cos.icomadmincatalog_geteventclassesforiid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -92,7 +90,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

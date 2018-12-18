@@ -9,8 +9,6 @@ ms.assetid: 4fc16c04-cfb6-4f50-8325-bd3fc0b8f557
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IOpenSearchSource interface, IOpenSearchSource interface [Windows Shell],GetResults method, IOpenSearchSource.GetResults, IOpenSearchSource::GetResults, _shell_IOpenSearchSource_GetResults, shell.IOpenSearchSource_GetResults, shobjidl_core/IOpenSearchSource::GetResults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

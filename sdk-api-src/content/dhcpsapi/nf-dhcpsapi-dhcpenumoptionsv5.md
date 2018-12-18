@@ -9,8 +9,6 @@ ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionsV5, DhcpEnumOptionsV5 function [DHCP], dhcp.dhcpenumoptionsv5, dhcpsapi/DhcpEnumOptionsV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

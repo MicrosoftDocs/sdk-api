@@ -9,8 +9,6 @@ ms.assetid: 815289bb-4ca5-45da-a27e-7484ba403316
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_defaultFrame method, IWMPSettings.get_defaultFrame, IWMPSettings::get_defaultFrame, IWMPSettingsget_defaultFrame, get_defaultFrame, get_defaultFrame method [Windows Media Player], get_defaultFrame method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_defaultframe, wmp/IWMPSettings::get_defaultFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,15 +110,15 @@ This method is ignored when using the Netscape Navigator Java applet. In Navigat
 
 
 
-<a href="https://msdn.microsoft.com/1010961f-6d06-455a-9c14-bc06702e9e89">IWMPEvents::ScriptCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b035e4e-84c5-46ea-aa8a-2e66810284b2">IWMPSettings::put_defaultFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563674(v=VS.85).aspx">IWMPSettings::put_defaultFrame</a>
  
 
  

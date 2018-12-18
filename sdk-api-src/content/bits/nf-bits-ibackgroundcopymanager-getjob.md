@@ -9,8 +9,6 @@ ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetJob method, IBackgroundCopyManager.GetJob, IBackgroundCopyManager::GetJob, _drz_ibackgroundcopymanager_getjob, bits.ibackgroundcopymanager_getjob, bits/IBackgroundCopyManager::GetJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -61,13 +59,13 @@ Retrieves a specified job from the transfer queue. Typically, your application p
 ### -param jobID [in]
 
 Identifies the job to retrieve from the transfer queue. The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">CreateJob</a> method returns the job identifier.
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">CreateJob</a> method returns the job identifier.
 
 
 ### -param ppJob [out]
 
 An 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface pointer to the job specified by <i>JobID</i>. When done, release <i>ppJob</i>.
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface pointer to the job specified by <i>JobID</i>. When done, release <i>ppJob</i>.
 
 
 ## -returns
@@ -125,19 +123,19 @@ User does not have permission to retrieve the job.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363027(v=VS.85).aspx">IBackgroundCopyJob::GetId</a>
+<a href="https://msdn.microsoft.com/bc214b2e-fbf3-446e-abce-56e515dcfadf">IBackgroundCopyJob::GetId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363052(v=VS.85).aspx">IBackgroundCopyManager::EnumJobs</a>
+<a href="https://msdn.microsoft.com/e8b73060-dff9-4ab3-8009-d2b41502fc1a">IBackgroundCopyManager::EnumJobs</a>
  
 
  

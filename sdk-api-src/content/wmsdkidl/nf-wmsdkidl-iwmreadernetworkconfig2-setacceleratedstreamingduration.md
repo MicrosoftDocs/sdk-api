@@ -9,8 +9,6 @@ ms.assetid: c9ad5064-7742-4145-b560-f3e867da609a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration method [windows Media Format], SetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -111,11 +109,11 @@ When using Fast Start, the server running Windows Media Services will send some 
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8feda02-113a-4763-b695-c4cd48781ade">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743506(v=VS.85).aspx">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>
  
 
  

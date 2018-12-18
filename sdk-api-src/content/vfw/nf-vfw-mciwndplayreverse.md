@@ -9,8 +9,6 @@ ms.assetid: 1f3c9c98-a8f5-4ad9-bef9-5d685076df9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndPlayReverse, MCIWndPlayReverse macro [Windows Multimedia], _win32_MCIWndPlayReverse, multimedia.mciwndplayreverse, vfw/MCIWndPlayReverse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

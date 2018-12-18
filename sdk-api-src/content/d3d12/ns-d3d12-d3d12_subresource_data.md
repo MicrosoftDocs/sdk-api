@@ -9,8 +9,6 @@ ms.assetid: A2749C3A-FD61-4775-8727-2D1CFC79A0F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_SUBRESOURCE_DATA, D3D12_SUBRESOURCE_DATA structure, d3d12/D3D12_SUBRESOURCE_DATA, direct3d12.d3d12_subresource_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33da8bd7-3350-4f6e-84f8-3046da226d2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

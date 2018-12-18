@@ -9,8 +9,6 @@ ms.assetid: 38dd4f43-6f8f-460a-9c5d-0a506d993101
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsAdminNewObjExt interface [Active Directory],Initialize method, IDsAdminNewObjExt.Initialize, IDsAdminNewObjExt::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_initialize, ad.idsadminnewobjext__initialize, ad.idsadminnewobjext_initialize, dsadmin/IDsAdminNewObjExt::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 
@@ -80,7 +78,7 @@ Pointer to an <a href="https://msdn.microsoft.com/b38016a2-bbb7-4715-81cc-bd9911
 
 ### -param pDispInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/966e2093-6ebd-42a0-923d-17f0494a9d0c">DSA_NEWOBJ_DISPINFO</a> structure that contains additional data about the object creation wizard.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675919(v=VS.85).aspx">DSA_NEWOBJ_DISPINFO</a> structure that contains additional data about the object creation wizard.
 
 
 ## -returns
@@ -106,7 +104,7 @@ An object in Active Directory Domain Services can either be created from nothing
 
 
 
-<a href="https://msdn.microsoft.com/966e2093-6ebd-42a0-923d-17f0494a9d0c">DSA_NEWOBJ_DISPINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms675919(v=VS.85).aspx">DSA_NEWOBJ_DISPINFO</a>
 
 
 

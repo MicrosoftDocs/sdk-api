@@ -9,8 +9,6 @@ ms.assetid: C6F1D646-2ADD-4F1A-940E-8D20DFBBBAC1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetPaintType method, ID2D1SvgPaint.SetPaintType, ID2D1SvgPaint::SetPaintType, SetPaintType, SetPaintType method [Direct2D], SetPaintType method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetPaintType, direct2d.id2d1svgpaint_setpainttype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -69,7 +67,7 @@ The new paint type.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

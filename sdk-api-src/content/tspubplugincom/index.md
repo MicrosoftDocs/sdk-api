@@ -2,7 +2,7 @@
 UID: NA:tspubplugincom
 ms.assetid: db5925cd-1105-35d1-afda-0717160667d6
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

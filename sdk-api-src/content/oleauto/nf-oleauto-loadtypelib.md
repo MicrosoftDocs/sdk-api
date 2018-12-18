@@ -9,8 +9,6 @@ ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadTypeLib, LoadTypeLib function [Automation], _oa96_LoadTypeLib, automat.loadtypelib, oleauto/LoadTypeLib
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

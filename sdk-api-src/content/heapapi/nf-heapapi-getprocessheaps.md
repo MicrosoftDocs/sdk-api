@@ -9,8 +9,6 @@ ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessHeaps, GetProcessHeaps function, _win32_getprocessheaps, base.getprocessheaps, heapapi/GetProcessHeaps, winbase/GetProcessHeaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

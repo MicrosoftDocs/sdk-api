@@ -9,8 +9,6 @@ ms.assetid: 9ea79bbb-3841-4704-9606-56fcd2f8bf89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceDocumentAccessEx, IUPnPDeviceDocumentAccessEx interface [UPnP APIs], IUPnPDeviceDocumentAccessEx interface [UPnP APIs],described, upnp.iupnpdevicedocumentaccessex, upnp/IUPnPDeviceDocumentAccessEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

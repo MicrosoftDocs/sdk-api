@@ -9,8 +9,6 @@ ms.assetid: 472be505-a13c-4612-b799-1e9add3ee3fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_REGISTERF_IS_KEYED, DMO_REGISTER_FLAGS, DMO_REGISTER_FLAGS enumeration [DirectShow], DMO_REGISTER_FLAGSEnumeration, dmoreg/DMO_REGISTERF_IS_KEYED, dmoreg/DMO_REGISTER_FLAGS, dshow.dmo_register_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dmoreg.h
 req.include-header: 
@@ -84,7 +82,7 @@ A software key enables the developer of a DMO to control who uses the DMO. If a 
 
 
 
-<a href="https://msdn.microsoft.com/4e70569b-8502-4eee-bd23-173269b345d1">DMORegister</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375491(v=VS.85).aspx">DMORegister</a>
  
 
  

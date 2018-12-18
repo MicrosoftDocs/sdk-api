@@ -9,8 +9,6 @@ ms.assetid: 594fdd40-062e-4f81-af11-4170a5870472
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_NATEventManager method, IUPnPNAT.get_NATEventManager, IUPnPNAT::get_NATEventManager, _ics_iupnpnat_get_nateventmanager, get_NATEventManager, get_NATEventManager method [ICS/ICF], get_NATEventManager method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_nateventmanager, natupnp/IUPnPNAT::get_NATEventManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

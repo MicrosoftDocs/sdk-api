@@ -9,8 +9,6 @@ ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.get_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, get_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>HashAlgorithm</b> property gets or sets the name of the <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hashing algorithm</a> used to  sign or verify the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) certificate for the key.
+The <b>HashAlgorithm</b> property gets or sets the name of the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing algorithm</a> used to  sign or verify the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificate for the key.
 
 This property is read/write.
 
@@ -64,12 +62,12 @@ This property is read/write.
 
 
 
-The hashing algorithm must be supported by the <a href="https://msdn.microsoft.com/en-us/library/Bb736383(v=VS.85).aspx">ProviderName</a> provider. For <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service providers</a> (CSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa380196(v=VS.85).aspx">CryptGetProvParam</a> function for the given provider. For <a href="https://msdn.microsoft.com/en-us/library/ms721590(v=VS.85).aspx">key storage providers</a> (KSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375422(v=VS.85).aspx">BCryptEnumAlgorithms</a> function with the <i>dwAlgOperations</i> parameter set to <b>BCRYPT_HASH_OPERATION</b>. For information about algorithm identifiers, see <a href="https://msdn.microsoft.com/en-us/library/Aa375534(v=VS.85).aspx">CNG Algorithm Identifiers</a>.
+The hashing algorithm must be supported by the <a href="https://msdn.microsoft.com/a8f50b34-0403-40c0-9ecb-f663ccbd622a">ProviderName</a> provider. For <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a> function for the given provider. For <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key storage providers</a> (KSPs), get supported algorithms by calling the <a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a> function with the <i>dwAlgOperations</i> parameter set to <b>BCRYPT_HASH_OPERATION</b>. For information about algorithm identifiers, see <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a>.
 
 
 #### Examples
 
-For an example of enumerating supported algorithms by using <a href="https://msdn.microsoft.com/en-us/library/Aa380196(v=VS.85).aspx">CryptGetProvParam</a>, see <a href="https://msdn.microsoft.com/en-us/library/Aa382359(v=VS.85).aspx">Example C Program: Enumerating CSP Providers and Provider Types</a>.
+For an example of enumerating supported algorithms by using <a href="https://msdn.microsoft.com/c0b7c1c8-aa42-4d40-a7f7-99c0821c8977">CryptGetProvParam</a>, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
 <div class="code"></div>
 
@@ -80,7 +78,7 @@ For an example of enumerating supported algorithms by using <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a>
+<a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 23618FBC-2404-4AB7-9842-7FD439F677B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Instancing method, IExeServerRegistration.get_Instancing, IExeServerRegistration::get_Instancing, activationregistration/IExeServerRegistration::get_Instancing, get_Instancing, get_Instancing method [Windows Runtime], get_Instancing method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_instancing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 

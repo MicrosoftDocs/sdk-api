@@ -9,8 +9,6 @@ ms.assetid: b0dbfd1c-493f-4f35-88ab-cd3868a56370
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_RollRelative method, ICameraControl.put_RollRelative, ICameraControl::put_RollRelative, ICameraControlput_RollRelative, dshow.icameracontrol_put_rollrelative, put_RollRelative, put_RollRelative method [DirectShow], put_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_RollRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <code>put_RollRelative</code> method sets the camera's relative roll. The re
 
 ### -param Value [in]
 
-Specifies the relative roll. The size of the value represents the desired rotation speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/c0208111-8648-4511-99f6-20489a026c91">ICameraControl::getRange_RollRelative</a>.
+Specifies the relative roll. The size of the value represents the desired rotation speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376308(v=VS.85).aspx">ICameraControl::getRange_RollRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +86,7 @@ Specifies the relative roll. The size of the value represents the desired rotati
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -109,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

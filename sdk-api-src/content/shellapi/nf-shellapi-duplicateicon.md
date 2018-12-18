@@ -9,8 +9,6 @@ ms.assetid: 488a24e1-f6f0-4bbd-9487-2b4c650f4879
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Windows Shell], _shell_DuplicateIcon, shell.DuplicateIcon, shellapi/DuplicateIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

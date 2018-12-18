@@ -9,8 +9,6 @@ ms.assetid: d3ef9370-fb9f-d55b-d910-7dd938ecf0b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPatches, GetPatches method [Direct2D], GetPatches method [Direct2D],ID2D1GradientMesh interface, ID2D1GradientMesh interface [Direct2D],GetPatches method, ID2D1GradientMesh.GetPatches, ID2D1GradientMesh::GetPatches, d2d1_3/ID2D1GradientMesh::GetPatches, direct2d.id2d1gradientmesh_getpatches
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ The number of patches to be returned.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

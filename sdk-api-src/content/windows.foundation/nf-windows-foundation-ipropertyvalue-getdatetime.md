@@ -9,8 +9,6 @@ ms.assetid: 3ffe8778-ce0e-46bb-9387-48c20d5dddfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDateTime, GetDateTime method [Windows Runtime], GetDateTime method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTime method, IPropertyValue.GetDateTime, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTime, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTime, winrt.ipropertyvalue_getdatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

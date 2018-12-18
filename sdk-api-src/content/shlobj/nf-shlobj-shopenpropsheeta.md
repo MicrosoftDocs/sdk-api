@@ -9,8 +9,6 @@ ms.assetid: bf42b26e-0f10-47b4-9d3b-48c59618342d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHOpenPropSheet, SHOpenPropSheet function [Windows Shell], SHOpenPropSheetA, SHOpenPropSheetW, _win32_SHOpenPropSheetW, shell.SHOpenPropSheetW, shlobj/SHOpenPropSheet, shlobj/SHOpenPropSheetA, shlobj/SHOpenPropSheetW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

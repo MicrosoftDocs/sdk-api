@@ -9,8 +9,6 @@ ms.assetid: 638316E0-8D5C-4966-A44F-8F31ECBE83EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWindow method, GetForWindow method,IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,GetForWindow method, IProtectionPolicyManagerInterop.GetForWindow, IProtectionPolicyManagerInterop::GetForWindow, efswrtinterop/IProtectionPolicyManagerInterop::GetForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: efswrtinterop.h
 req.include-header: 

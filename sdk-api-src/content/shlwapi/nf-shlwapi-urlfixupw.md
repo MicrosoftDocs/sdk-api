@@ -9,8 +9,6 @@ ms.assetid: 3750d027-847f-4f33-851d-a10be7562bcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UrlFixupW, UrlFixupW function [Windows Shell], _win32_UrlFixupW, shell.UrlFixupW, shlwapi/UrlFixupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -101,7 +99,7 @@ Returns S_OK if the proposed URL was already acceptable or was successfully corr
 
 
 
-The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/45686920-356d-4dd7-8482-2427854a92ed">URL_SCHEME</a> enumeration.
+The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb762576(v=VS.85).aspx">URL_SCHEME</a> enumeration.
 
 Priority is given to the first character in the protocol identifier section so <code>htp</code> will be converted to <code>http</code> instead of <code>ftp</code>.
 

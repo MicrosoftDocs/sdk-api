@@ -9,8 +9,6 @@ ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: c49f6be1-1789-4415-8898-ad74e0148c47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFunctionInstanceCollection, CreateFunctionInstanceCollection method, CreateFunctionInstanceCollection method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateFunctionInstanceCollection method, IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection, IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection, ncd.ifunctiondiscoveryproviderfactory_createfunctioninstancecollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

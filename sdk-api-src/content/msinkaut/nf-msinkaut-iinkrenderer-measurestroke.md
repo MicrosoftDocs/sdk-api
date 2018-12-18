@@ -9,8 +9,6 @@ ms.assetid: bdaee1c8-ff03-470f-b508-3db5391b3cf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRenderer interface [Tablet PC],MeasureStroke method, IInkRenderer.MeasureStroke, IInkRenderer::MeasureStroke, MeasureStroke, MeasureStroke method [Tablet PC], MeasureStroke method [Tablet PC],IInkRenderer interface, bdaee1c8-ff03-470f-b508-3db5391b3cf7, msinkaut/IInkRenderer::MeasureStroke, tablet.inkrenderer_measurestroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -198,7 +196,7 @@ For example, consider that the pen width is originally 53, the square root of th
 
 
 
-<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

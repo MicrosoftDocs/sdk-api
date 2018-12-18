@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasChildScopeRule, HasChildScopeRule method [search], HasChildScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],HasChildScopeRule method, ISearchCrawlScopeManager.HasChildScopeRule, ISearchCrawlScopeManager::HasChildScopeRule, _search_ISearchCrawlScopeManager_HasChildScopeRule, search._search_ISearchCrawlScopeManager_HasChildScopeRule, searchapi/ISearchCrawlScopeManager::HasChildScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

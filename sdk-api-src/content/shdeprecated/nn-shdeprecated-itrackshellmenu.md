@@ -9,8 +9,6 @@ ms.assetid: 187796db-2932-482e-833a-b4674f009b71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITrackShellMenu, ITrackShellMenu interface [Windows Shell], ITrackShellMenu interface [Windows Shell],described, _shell_ITrackShellMenu, shdeprecated/ITrackShellMenu, shell.ITrackShellMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 

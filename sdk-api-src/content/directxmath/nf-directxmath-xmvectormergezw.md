@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorMergeZW(XMVECTOR,XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorMergeZW, XMVectorMergeZW, XMVectorMergeZW method [DirectX Math Support APIs], dxmath.xmvectormergezw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -112,7 +110,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/925fb6b1-5588-437f-b753-2fa51257f67e">XMVectorMergeXY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421179(v=VS.85).aspx">XMVectorMergeXY</a>
  
 
  

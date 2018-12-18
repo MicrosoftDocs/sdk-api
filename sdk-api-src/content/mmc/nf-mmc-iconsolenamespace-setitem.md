@@ -9,8 +9,6 @@ ms.assetid: e63dd8dd-dcef-4d52-96f7-cf9a7e42a0f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsoleNameSpace interface [MMC],SetItem method, IConsoleNameSpace.SetItem, IConsoleNameSpace2 interface [MMC],SetItem method, IConsoleNameSpace2::SetItem, IConsoleNameSpace::SetItem, SetItem, SetItem method [MMC], SetItem method [MMC],IConsoleNameSpace interface, SetItem method [MMC],IConsoleNameSpace2 interface, _slate_iconsolenamespace2_setitem, mmc.iconsolenamespace2_setitem, mmc/IConsoleNameSpace2::SetItem, mmc/IConsoleNameSpace::SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
@@ -79,7 +77,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 4f3ad7c0-02fd-4232-89f1-49517c23ee28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidOutputDeviceEvent, IMSVidOutputDeviceEvent interface [Microsoft TV Technologies], IMSVidOutputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidOutputDeviceEventInterface, mstv.imsvidoutputdeviceevent, segment/IMSVidOutputDeviceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -75,7 +73,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48">IMSVidDeviceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694522(v=VS.85).aspx">IMSVidDeviceEvent</a>
 
 
 

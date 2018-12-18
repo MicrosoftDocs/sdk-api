@@ -9,8 +9,6 @@ ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

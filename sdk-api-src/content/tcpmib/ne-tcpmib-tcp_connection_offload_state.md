@@ -1,5 +1,5 @@
 ---
-UID: NE:tcpmib.TCP_CONNECTION_OFFLOAD_STATE
+UID: NE:tcpmib.__unnamed_enum_1
 title: TCP_CONNECTION_OFFLOAD_STATE
 author: windows-sdk-content
 description: Defines the possible TCP offload states for a TCP connection.
@@ -7,10 +7,8 @@ old-location: mib\tcp_connection_offload_state.htm
 tech.root: MIB
 ms.assetid: cef633e7-1577-4f10-bd14-8d8e85aa78e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PTCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE enumeration [MIB], TcpConnectionOffloadStateInHost, TcpConnectionOffloadStateMax, TcpConnectionOffloadStateOffloaded, TcpConnectionOffloadStateOffloading, TcpConnectionOffloadStateUploading, iprtrmib/TCP_CONNECTION_OFFLOAD_STATE, iprtrmib/TcpConnectionOffloadStateInHost, iprtrmib/TcpConnectionOffloadStateMax, iprtrmib/TcpConnectionOffloadStateOffloaded, iprtrmib/TcpConnectionOffloadStateOffloading, iprtrmib/TcpConnectionOffloadStateUploading, mib.tcp_connection_offload_state, tcpmib/TCP_CONNECTION_OFFLOAD_STATE, tcpmib/TcpConnectionOffloadStateInHost, tcpmib/TcpConnectionOffloadStateMax, tcpmib/TcpConnectionOffloadStateOffloaded, tcpmib/TcpConnectionOffloadStateOffloading, tcpmib/TcpConnectionOffloadStateUploading"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
@@ -83,7 +81,7 @@ The TCP connection is in the process of being uploaded back to the network stack
 
 ### -field TcpConnectionOffloadStateMax
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/cef633e7-1577-4f10-bd14-8d8e85aa78e6">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
+The maximum possible value for the <a href="https://msdn.microsoft.com/en-us/library/Bb485810(v=VS.85).aspx">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
 
 
 ## -remarks

@@ -9,8 +9,6 @@ ms.assetid: 0F1DBC1C-154A-4785-B9B9-924353FD5836
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform3D.SetMatrix, IDCompositionMatrixTransform3D::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrix, directcomp.idcompositionmatrixtransform3d_setmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Changes all values of the matrix of this 3D transformation effect.
 
 ### -param matrix [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d6b98a32-e745-4724-b8ce-a81a3f5416f3">D3DMATRIX</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172573(v=VS.85).aspx">D3DMATRIX</a></b>
 
 The new matrix for this 3D transformation effect.
 
@@ -92,7 +90,7 @@ If any of the matrix elements were previously animated, this method removes the 
 
 
 
-<a href="https://msdn.microsoft.com/56C9A564-2504-4940-B850-D280C8E0CF82">IDCompositionMatrixTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437425(v=VS.85).aspx">IDCompositionMatrixTransform3D</a>
  
 
  

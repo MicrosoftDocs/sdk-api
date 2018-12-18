@@ -9,8 +9,6 @@ ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

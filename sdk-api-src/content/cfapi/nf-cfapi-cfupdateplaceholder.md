@@ -9,8 +9,6 @@ ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfUpdatePlaceholder, CfUpdatePlaceholder function, cfapi/CfUpdatePlaceholder, cloudApi.cfupdateplaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
@@ -137,7 +135,7 @@ To update a placeholder:
 </ul>
 
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a>. 
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. 
 
 
 

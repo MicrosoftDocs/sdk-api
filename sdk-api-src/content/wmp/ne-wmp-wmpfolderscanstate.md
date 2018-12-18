@@ -9,8 +9,6 @@ ms.assetid: 20909420-5f90-4334-b21a-82d6cdc6d019
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPFolderScanState, WMPFolderScanState enumeration [Windows Media Player], wmp.wmpfolderscanstate, wmp/WMPFolderScanState, wmp/wmpfssScanning, wmp/wmpfssStopped, wmp/wmpfssUnknown, wmp/wmpfssUpdating, wmpfssScanning, wmpfssStopped, wmpfssUnknown, wmpfssUpdating
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
@@ -101,11 +99,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/07e9a49b-19a6-4ed2-b037-fe44ada920a1">IWMPEvents3::FolderScanStateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563302(v=VS.85).aspx">IWMPEvents3::FolderScanStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6">IWMPFolderMonitorServices::get_scanState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563373(v=VS.85).aspx">IWMPFolderMonitorServices::get_scanState</a>
  
 
  

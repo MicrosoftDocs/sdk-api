@@ -9,8 +9,6 @@ ms.assetid: acd9ff0f-e2e4-4711-9d9c-54624f170ec6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler, IUIAnimationVariableIntegerChangeHandler interface [Windows Animation], IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariableintegerchangehandler, uianimation/IUIAnimationVariableIntegerChangeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

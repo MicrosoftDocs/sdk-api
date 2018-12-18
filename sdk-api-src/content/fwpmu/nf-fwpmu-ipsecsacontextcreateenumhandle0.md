@@ -9,8 +9,6 @@ ms.assetid: ce4340df-e4e0-48ca-b827-2216803a8a94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextCreateEnumHandle0, IPsecSaContextCreateEnumHandle0 function [Filtering], fwp.ipsecsacontextcreateenumhandle0, fwpmu/IPsecSaContextCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

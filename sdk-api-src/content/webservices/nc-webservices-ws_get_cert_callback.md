@@ -9,8 +9,6 @@ ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

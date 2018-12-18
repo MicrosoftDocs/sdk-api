@@ -7,10 +7,8 @@ old-location: powermeter\ioctl_emi_get_measurement.htm
 tech.root: powermeter
 ms.assetid: E23B1ED2-A87D-419A-8BEB-136AA77258AE
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: IOCTL_EMI_GET_MEASUREMENT, IOCTL_EMI_GET_MEASUREMENT control, IOCTL_EMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_MEASUREMENT, powermeter.ioctl_emi_get_measurement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h

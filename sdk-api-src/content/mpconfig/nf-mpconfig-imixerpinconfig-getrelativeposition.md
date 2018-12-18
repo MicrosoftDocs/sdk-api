@@ -9,8 +9,6 @@ ms.assetid: 0a2bcc3e-361d-4374-9444-717287c07116
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRelativePosition, GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetRelativePosition method, IMixerPinConfig.GetRelativePosition, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

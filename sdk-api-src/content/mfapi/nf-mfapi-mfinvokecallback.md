@@ -9,8 +9,6 @@ ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

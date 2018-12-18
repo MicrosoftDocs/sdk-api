@@ -9,8 +9,6 @@ ms.assetid: 9da142fa-4765-4889-bd4c-d8167a16f86b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHSetFolderPath, SHSetFolderPath function [Windows Shell], SHSetFolderPathA, SHSetFolderPathW, _win32_SHSetFolderPath, shell.SHSetFolderPath, shlobj_core/SHSetFolderPath, shlobj_core/SHSetFolderPathA, shlobj_core/SHSetFolderPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

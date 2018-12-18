@@ -9,8 +9,6 @@ ms.assetid: b713a349-45fe-492a-a966-17112edf00ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeltaCompressedContentAvailable property [Windows Update Agent], DeltaCompressedContentAvailable property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeltaCompressedContentAvailable property, IUpdate.DeltaCompressedContentAvailable, IUpdate.get_DeltaCompressedContentAvailable, IUpdate::DeltaCompressedContentAvailable, IUpdate::get_DeltaCompressedContentAvailable, get_DeltaCompressedContentAvailable, wua.iupdate_deltacompressedcontentavailable, wuapi/IUpdate::DeltaCompressedContentAvailable, wuapi/IUpdate::get_DeltaCompressedContentAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

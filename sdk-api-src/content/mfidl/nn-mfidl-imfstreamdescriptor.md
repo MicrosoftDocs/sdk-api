@@ -9,8 +9,6 @@ ms.assetid: a076dc6e-d9cb-4f7e-8cc2-b66292da295f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFStreamDescriptor, IMFStreamDescriptor interface [Media Foundation], IMFStreamDescriptor interface [Media Foundation],described, a076dc6e-d9cb-4f7e-8cc2-b66292da295f, mf.imfstreamdescriptor, mfidl/IMFStreamDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

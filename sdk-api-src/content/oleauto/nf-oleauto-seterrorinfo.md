@@ -9,8 +9,6 @@ ms.assetid: 8eaacfac-fc37-4eaa-870b-10b99d598d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentProfileTypes property [ICS/ICF], CurrentProfileTypes property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],CurrentProfileTypes property, INetFwPolicy2.CurrentProfileTypes, INetFwPolicy2.get_CurrentProfileTypes, INetFwPolicy2::CurrentProfileTypes, INetFwPolicy2::get_CurrentProfileTypes, get_CurrentProfileTypes, ics.inetfwpolicy2_currentprofiletypes, netfw/INetFwPolicy2::CurrentProfileTypes, netfw/INetFwPolicy2::get_CurrentProfileTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4a8c6223-df1e-4f04-8818-d7752f686cb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IParseAndCreateItem, IParseAndCreateItem interface [Windows Shell], IParseAndCreateItem interface [Windows Shell],described, _shell_IParseAndCreateItem, shell.IParseAndCreateItem, shobjidl_core/IParseAndCreateItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

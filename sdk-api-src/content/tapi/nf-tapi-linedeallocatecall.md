@@ -9,8 +9,6 @@ ms.assetid: a695ee19-e371-4126-b438-62bf52179cba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linedeallocatecall, lineDeallocateCall, lineDeallocateCall function [TAPI 2.2], tapi/lineDeallocateCall, tapi2.linedeallocatecall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

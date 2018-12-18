@@ -9,8 +9,6 @@ ms.assetid: 51bf9aa0-4c96-4c0b-8e5e-b63fd20dcc4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],Individualize method, IWMDRMReader.Individualize, IWMDRMReader::Individualize, IWMDRMReaderIndividualize, Individualize, Individualize method [windows Media Format], Individualize method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_individualize, wmsdkidl/IWMDRMReader::Individualize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -135,7 +133,7 @@ This is an asynchronous call that returns immediately. To abandon the attempt, c
 
 <div class="alert"><b>Important</b>  Because this operation will cause the user's system to be modified, you should display a message that explains what this operation will do and let the user choose whether or not to individualize. For more information and suggested message text, see <a href="https://msdn.microsoft.com/8f129bc1-3db9-4b41-9d60-daff037237ff">DRM Individualization</a>.</div>
 <div> </div>
-Individualization is the process of making the DRM client unique by downloading and installing an individualized component from the Microsoft Individualization Service. The entire process is performed automatically after an application calls the <b>Individualize</b> method. The application is informed of the progress of the individualization process through repeated <b>WMT_INDIVIDUALIZE</b> events, each of which has an associated <a href="https://msdn.microsoft.com/3779ed6f-c133-4a9d-b60c-ef8c41fcc4af">WM_INDIVIDUALIZE_STATUS</a> structure which is sent to the application's <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method.
+Individualization is the process of making the DRM client unique by downloading and installing an individualized component from the Microsoft Individualization Service. The entire process is performed automatically after an application calls the <b>Individualize</b> method. The application is informed of the progress of the individualization process through repeated <b>WMT_INDIVIDUALIZE</b> events, each of which has an associated <a href="https://msdn.microsoft.com/3779ed6f-c133-4a9d-b60c-ef8c41fcc4af">WM_INDIVIDUALIZE_STATUS</a> structure which is sent to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method.
 
 There are two times to initiate the individualization process: the first is when a piece of content requires it, and the second is when a player individualizes the client as part of the setup. In the latter case, there is no reason to individualize the client again.
 
@@ -151,11 +149,11 @@ There are two times to initiate the individualization process: the first is when
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/837d6fee-d5ba-49d8-ac69-e8ff010a787d">IWMDRMReader::CancelIndividualization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798348(v=VS.85).aspx">IWMDRMReader::CancelIndividualization</a>
 
 
 

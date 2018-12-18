@@ -9,8 +9,6 @@ ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,11 +113,11 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6763274-01e4-4a2f-9467-150e1964193a">IWMPPlaylist::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563564(v=VS.85).aspx">IWMPPlaylist::getItemInfo</a>
  
 
  

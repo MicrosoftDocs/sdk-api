@@ -9,8 +9,6 @@ ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

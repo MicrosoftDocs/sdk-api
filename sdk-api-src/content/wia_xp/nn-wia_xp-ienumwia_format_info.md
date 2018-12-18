@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_format_info\ienumwia_format_info
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumWIA_FORMAT_INFO, IEnumWIA_FORMAT_INFO interface [WIA], IEnumWIA_FORMAT_INFO interface [WIA],described, _wia_IEnumWIA_FORMAT_INFO, wia._wia_IEnumWIA_FORMAT_INFO, wia_xp/IEnumWIA_FORMAT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

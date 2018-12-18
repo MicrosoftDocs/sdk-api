@@ -9,8 +9,6 @@ ms.assetid: 084423cc-d10c-4993-b9dd-ace51aa6b7f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Initialize method, IWMDRMTranscryptor.Initialize, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -87,12 +85,12 @@ Address of a variable that receives the address of the license response message.
 
 ### -param pCallback [in]
 
-Address of the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> implementation that will receive status messages from the transcryptor.
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> implementation that will receive status messages from the transcryptor.
 
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback. This parameter can be <b>NULL</b>.
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -174,15 +172,15 @@ This method is asynchronous. It returns immediately, but processing is not compl
 
 
 
-<a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c277e3fa-069d-4eaf-947c-220730c5d61e">IWMDRMTranscryptor::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798368(v=VS.85).aspx">IWMDRMTranscryptor::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/55b1c73a-5c00-4e16-b0fe-2352ce09bffc">IWMDRMTranscryptor::Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">IWMDRMTranscryptor::Read</a>
  
 
  

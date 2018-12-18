@@ -9,8 +9,6 @@ ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMCreateUser, DRMCreateUser function [Active Directory Rights Management Services SDK 1.0], Federation, Internal, Passport, Unspecified, Windows, msdrm/DRMCreateUser, rm.drmcreateuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

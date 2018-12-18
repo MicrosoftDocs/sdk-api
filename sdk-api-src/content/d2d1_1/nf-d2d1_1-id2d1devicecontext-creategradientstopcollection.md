@@ -9,8 +9,6 @@ ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGradientStopCollection, CreateGradientStopCollection method [Direct2D], CreateGradientStopCollection method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateGradientStopCollection method, ID2D1DeviceContext.CreateGradientStopCollection, ID2D1DeviceContext::CreateGradientStopCollection, d2d1_1/ID2D1DeviceContext::CreateGradientStopCollection, direct2d.id2d1devicecontext_creategradientstopcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -260,7 +258,7 @@ The table here shows the behavior in Windows 8 and later.
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

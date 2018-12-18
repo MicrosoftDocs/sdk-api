@@ -9,8 +9,6 @@ ms.assetid: 5e832ea1-1cfc-4421-aa3e-89d9ec83082f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsBeta property, IUpdate.IsBeta, IUpdate.get_IsBeta, IUpdate::IsBeta, IUpdate::get_IsBeta, IsBeta property [Windows Update Agent], IsBeta property [Windows Update Agent],IUpdate interface, get_IsBeta, wua.iupdate_isbeta, wuapi/IUpdate::IsBeta, wuapi/IUpdate::get_IsBeta
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

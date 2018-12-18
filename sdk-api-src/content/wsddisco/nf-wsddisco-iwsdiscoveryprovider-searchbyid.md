@@ -9,8 +9,6 @@ ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

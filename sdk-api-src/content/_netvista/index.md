@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

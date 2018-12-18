@@ -9,8 +9,6 @@ ms.assetid: 857068ab-2c47-402b-a64a-691bdc52a298
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STROBJ_fxBreakExtra, STROBJ_fxBreakExtra function [Display Devices], display.strobj_fxbreakextra, gdifncs_cfaecb83-e351-447e-ba9d-63ef6dc3f4d8.xml, winddi/STROBJ_fxBreakExtra
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

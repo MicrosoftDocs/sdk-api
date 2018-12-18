@@ -9,8 +9,6 @@ ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaControl interface [Files],described, _win32_idiskquotacontrol, base.idiskquotacontrol, dskquota/IDiskQuotaControl, fs.idiskquotacontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dskquota.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Controls the disk quota facilities of a single NTFS file system volume. The client can query and set volume-specific quota attributes through 
-<b>IDiskQuotaControl</b>. The client can also enumerate all per-user quota entries on the volume. A client instantiates this interface by calling the <a href="_com_cocreateinstance">CoCreateInstance</a> function using the class identifier CLSID_DiskQuotaControl.
+<b>IDiskQuotaControl</b>. The client can also enumerate all per-user quota entries on the volume. A client instantiates this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function using the class identifier CLSID_DiskQuotaControl.
 
 
 ## -inheritance

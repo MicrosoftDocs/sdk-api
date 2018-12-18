@@ -9,8 +9,6 @@ ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h, Jobapi2.h

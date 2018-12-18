@@ -9,8 +9,6 @@ ms.assetid: bdd6f88f-ea06-4075-b563-d0c7707107f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],MembersName property, IAzApplicationGroup interface [Security],MembersName property, IAzApplicationGroup.MembersName, IAzApplicationGroup.get_MembersName, IAzApplicationGroup::MembersName, IAzApplicationGroup::get_MembersName, MembersName property [Security], MembersName property [Security],AzApplicationGroup object, MembersName property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::MembersName, azroles/IAzApplicationGroup::get_MembersName, get_MembersName, security.iazapplicationgroup_membersname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -64,9 +62,9 @@ This property is read-only.
 
 
 
-This property is ignored unless the <a href="https://msdn.microsoft.com/en-us/library/Aa377323(v=VS.85).aspx">Type</a> property is AZ_GROUPTYPE_BASIC.
+This property is ignored unless the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02-97bc-5c99bf26fbe2">Type</a> property is AZ_GROUPTYPE_BASIC.
 
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. 
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. 
 
 
 

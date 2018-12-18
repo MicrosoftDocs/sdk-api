@@ -9,8 +9,6 @@ ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 800BA1EF-C801-4E93-BBA0-6C8FD0ACCB68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateScaleTransform, CreateScaleTransform method [DirectComposition], CreateScaleTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateScaleTransform method, IDCompositionDevice2.CreateScaleTransform, IDCompositionDevice2::CreateScaleTransform, dcomp/IDCompositionDevice2::CreateScaleTransform, directcomp.idcompositiondevice2_createscaletransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 2D scale transform object.
 
 ### -param scaleTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform</a>**</b>
 
 The new 2D scale transform object. This parameter must not be NULL.
 
@@ -90,7 +88,7 @@ A new 2D scale transform object has a static value of zero for the ScaleX, Scale
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 

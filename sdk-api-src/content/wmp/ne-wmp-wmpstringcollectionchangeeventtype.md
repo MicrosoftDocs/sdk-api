@@ -9,8 +9,6 @@ ms.assetid: 7690972b-52ac-4249-baa5-3d2b38a4487a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPStringCollectionChangeEventType, WMPStringCollectionChangeEventType enumeration [Windows Media Player], wmp.wmpstringcollectionchangeeventtype, wmp/WMPStringCollectionChangeEventType, wmp/wmpsccetBeginUpdates, wmp/wmpsccetChange, wmp/wmpsccetClear, wmp/wmpsccetDelete, wmp/wmpsccetEndUpdates, wmp/wmpsccetInsert, wmp/wmpsccetUnknown, wmpsccetBeginUpdates, wmpsccetChange, wmpsccetClear, wmpsccetDelete, wmpsccetEndUpdates, wmpsccetInsert, wmpsccetUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
@@ -116,11 +114,11 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/93880116-e354-49d0-ba02-391fbb4d3f8c">IWMPEvents3::StringCollectionChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563307(v=VS.85).aspx">IWMPEvents3::StringCollectionChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
 
 
 

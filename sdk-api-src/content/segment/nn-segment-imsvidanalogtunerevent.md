@@ -9,8 +9,6 @@ ms.assetid: bf1c6eb1-64c1-43cc-900c-306c01fec9cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTunerEvent, IMSVidAnalogTunerEvent interface [Microsoft TV Technologies], IMSVidAnalogTunerEvent interface [Microsoft TV Technologies],described, IMSVidAnalogTunerEventInterface, mstv.imsvidanalogtunerevent, segment/IMSVidAnalogTunerEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -75,7 +73,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/cdffe6ca-00b0-4230-963d-b4409413e5f5">IMSVidTunerEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694705(v=VS.85).aspx">IMSVidTunerEvent</a>
 
 
 

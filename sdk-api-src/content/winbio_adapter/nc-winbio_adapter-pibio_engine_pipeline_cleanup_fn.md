@@ -9,8 +9,6 @@ ms.assetid: C77EBE33-E781-4FFA-BE3A-A08BD9C3D459
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterPipelineCleanup, EngineAdapterPipelineCleanup callback function [Windows Biometric Framework API], PIBIO_ENGINE_PIPELINE_CLEANUP_FN, PIBIO_ENGINE_PIPELINE_CLEANUP_FN callback, secbiomet.engineadapterpipelinecleanup, winbio_adapter/EngineAdapterPipelineCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

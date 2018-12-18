@@ -9,8 +9,6 @@ ms.assetid: 008bac9d-4daa-4729-b414-b9551eb636f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnItemDeleted method, ICameraUIControlEventCallback.OnItemDeleted, ICameraUIControlEventCallback::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows API], OnItemDeleted method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnItemDeleted, winprog.icamerauicontroleventcallback_onitemdeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
@@ -77,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802718(v=VS.85).aspx">ICameraUIControlEventCallback</a>
+<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 8d1bce07-a165-45cf-95cb-03b57f0cae03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],Close method, IWMWriterFileSink2.Close, IWMWriterFileSink2::Close, IWMWriterFileSink2Close, wmformat.iwmwriterfilesink2_close, wmsdkidl/IWMWriterFileSink2::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -79,7 +77,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+See the Remarks and Example Code sections for <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
 
 
@@ -89,7 +87,7 @@ See the Remarks and Example Code sections for <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
  
 
  

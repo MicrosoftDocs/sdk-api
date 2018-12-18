@@ -9,8 +9,6 @@ ms.assetid: 9e04ee69-bfec-456a-99ca-93e3158aeef9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetNameAndDescription, DRMGetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetNameAndDescription, rm.drmgetnameanddescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

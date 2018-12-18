@@ -9,8 +9,6 @@ ms.assetid: 51eccecb-5b92-4e06-89eb-552d97074629
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQueryAsynch method, CWbemProviderGlue.GetInstancesByQueryAsynch, CWbemProviderGlue::GetInstancesByQueryAsynch, GetInstancesByQueryAsynch, GetInstancesByQueryAsynch method [Windows Management Instrumentation], GetInstancesByQueryAsynch method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyqueryasynch, wbemglue/CWbemProviderGlue::GetInstancesByQueryAsynch, wmi.cwbemproviderglue_getinstancesbyqueryasynch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -92,7 +90,7 @@ Pointer to a static function with this prototype.
 </td>
 </tr>
 </table></span></div>
-where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>.
+where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>.
 
 
 ### -param pszNamespace
@@ -102,7 +100,7 @@ Namespace for query. If <b>NULL</b>, the default namespace, root\cimv2, is used.
 
 ### -param pMethodContext
 
-Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/en-us/library/Aa392767(v=VS.85).aspx">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 
 ### -param pUserData
@@ -129,7 +127,7 @@ For performance reasons, when calling this function, specify only the properties
 
 Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous communication instead of asynchronous.  If you require asynchronous communication see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
-For more information about using methods semisynchronously see <a href="https://msdn.microsoft.com/cf086577-8964-4b6b-8863-78b53f73397e">CWbemProviderGlue::GetInstancesByQuery</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
+For more information about using methods semisynchronously see <a href="https://msdn.microsoft.com/en-us/library/Aa389794(v=VS.85).aspx">CWbemProviderGlue::GetInstancesByQuery</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
 
 

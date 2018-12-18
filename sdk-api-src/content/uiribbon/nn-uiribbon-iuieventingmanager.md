@@ -9,8 +9,6 @@ ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

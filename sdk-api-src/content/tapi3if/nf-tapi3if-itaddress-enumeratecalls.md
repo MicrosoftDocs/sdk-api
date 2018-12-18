@@ -9,8 +9,6 @@ ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: dd62f644-fb97-474b-8303-3086a7b51c4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndRead, EndRead method [Media Foundation], EndRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndRead method, IMFByteStream.EndRead, IMFByteStream::EndRead, dd62f644-fb97-474b-8303-3086a7b51c4d, mf.imfbytestream_endread, mfobjects/IMFByteStream::EndRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

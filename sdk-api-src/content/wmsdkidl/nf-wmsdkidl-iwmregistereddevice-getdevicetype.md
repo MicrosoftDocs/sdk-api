@@ -9,8 +9,6 @@ ms.assetid: 12f0dbf5-bc76-4fa2-ab64-cced1f41c313
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceType, GetDeviceType method [windows Media Format], GetDeviceType method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceType method, IWMRegisteredDevice.GetDeviceType, IWMRegisteredDevice::GetDeviceType, IWMRegisteredDeviceGetDeviceType, wmformat.iwmregistereddevice_getdevicetype, wmsdkidl/IWMRegisteredDevice::GetDeviceType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -99,7 +97,7 @@ The method succeeded.
 
 
 
-Devices that support Windows Media DRM 10 for Network Devices use the DRM_DEVICE_REGISTER_TYPE_STREAMING register type. To determine whether the device supports Windows Media DRM 10 for Network Devices, call <a href="https://msdn.microsoft.com/45bc7abb-1d39-4988-a9f0-867eaefe148f">IsWmdrmCompliant</a>.
+Devices that support Windows Media DRM 10 for Network Devices use the DRM_DEVICE_REGISTER_TYPE_STREAMING register type. To determine whether the device supports Windows Media DRM 10 for Network Devices, call <a href="https://msdn.microsoft.com/en-us/library/Dd743696(v=VS.85).aspx">IsWmdrmCompliant</a>.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
@@ -111,7 +109,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

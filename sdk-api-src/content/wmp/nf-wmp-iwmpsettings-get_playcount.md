@@ -9,8 +9,6 @@ ms.assetid: 492eb07a-f757-47ce-8474-1edfeb49e55f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_playCount method, IWMPSettings.get_playCount, IWMPSettings::get_playCount, IWMPSettingsget_playCount, get_playCount, get_playCount method [Windows Media Player], get_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_playcount, wmp/IWMPSettings::get_playCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e">IWMPSettings::put_playCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563679(v=VS.85).aspx">IWMPSettings::put_playCount</a>
  
 
  

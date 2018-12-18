@@ -9,8 +9,6 @@ ms.assetid: 5cd673e3-af82-4c24-b0d5-4c3cb7c7ab71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDrawQuery, ICDrawQuery macro [Windows Multimedia], _win32_ICDrawQuery, multimedia.icdrawquery, vfw/ICDrawQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

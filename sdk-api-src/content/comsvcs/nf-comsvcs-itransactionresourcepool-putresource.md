@@ -9,8 +9,6 @@ ms.assetid: 6e05f075-0fa8-4605-9f68-3ef7fc9f0132
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransactionResourcePool interface [COM+],PutResource method, ITransactionResourcePool.PutResource, ITransactionResourcePool::PutResource, PutResource, PutResource method [COM+], PutResource method [COM+],ITransactionResourcePool interface, _cos_ITransactionResourcePool_PutResource, comsvcs/ITransactionResourcePool::PutResource, cos.itransactionresourcepool_putresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -86,7 +84,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686102(v=VS.85).aspx">ITransactionResourcePool</a>
+<a href="https://msdn.microsoft.com/bf7ca849-6025-4358-bf2d-629d80e06a04">ITransactionResourcePool</a>
  
 
  

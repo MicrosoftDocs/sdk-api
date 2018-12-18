@@ -9,8 +9,6 @@ ms.assetid: a408b106-702c-4ecc-a424-b4b3588ea58f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddValue, AddValue method [DirectShow], AddValue method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],AddValue method, IAMStats.AddValue, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -116,7 +114,7 @@ Index out of range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

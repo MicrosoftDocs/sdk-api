@@ -9,8 +9,6 @@ ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

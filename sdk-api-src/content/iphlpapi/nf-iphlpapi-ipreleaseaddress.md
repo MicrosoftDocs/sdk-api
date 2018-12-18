@@ -9,8 +9,6 @@ ms.assetid: d937ea44-1ca3-49e0-913d-fb77888d05fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IpReleaseAddress, IpReleaseAddress function [IP Helper], _iphlp_ipreleaseaddress, iphlp.ipreleaseaddress, iphlpapi/IpReleaseAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

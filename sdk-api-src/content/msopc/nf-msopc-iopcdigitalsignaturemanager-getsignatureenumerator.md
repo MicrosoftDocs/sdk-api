@@ -7,10 +7,8 @@ old-location: opc\iopcdigitalsignaturemanager_getsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 44906f03-806f-400c-a7f3-0da5c330e1ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSignatureEnumerator, GetSignatureEnumerator method [Open Packaging Conventions], GetSignatureEnumerator method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureEnumerator method, IOpcDigitalSignatureManager.GetSignatureEnumerator, IOpcDigitalSignatureManager::GetSignatureEnumerator, msopc/IOpcDigitalSignatureManager::GetSignatureEnumerator, opc.iopcdigitalsignaturemanager_getsignatureenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

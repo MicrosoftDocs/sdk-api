@@ -9,8 +9,6 @@ ms.assetid: 7ad948fa-cd00-4496-bd62-433d7faa0f85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmGetOpaqueInformationPointer, RtmGetOpaqueInformationPointer function [RAS], _rtmv2ref_rtmgetopaqueinformationpointer, rras.rtmgetopaqueinformationpointer, rtmv2/RtmGetOpaqueInformationPointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

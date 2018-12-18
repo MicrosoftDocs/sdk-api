@@ -9,8 +9,6 @@ ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: inputpanelconfiguration.h
 req.include-header: 

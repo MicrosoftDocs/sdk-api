@@ -1,5 +1,5 @@
 ---
-UID: NE:wingdi.DISPLAYCONFIG_PIXELFORMAT
+UID: NE:wingdi.__unnamed_enum_5
 title: DISPLAYCONFIG_PIXELFORMAT
 author: windows-sdk-content
 description: The DISPLAYCONFIG_PIXELFORMAT enumeration specifies pixel format in various bits per pixel (BPP) values.
@@ -7,10 +7,8 @@ old-location: display\displayconfig_pixelformat.htm
 tech.root: display
 ms.assetid: dca8433d-89a9-492c-bebb-6a28f485896c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: CCD_Enumerations_d2979717-6f47-4872-9be2-8b19b06ce2f2.xml, DISPLAYCONFIG_PIXELFORMAT, DISPLAYCONFIG_PIXELFORMAT enumeration [Display Devices], DISPLAYCONFIG_PIXELFORMAT_16BPP, DISPLAYCONFIG_PIXELFORMAT_24BPP, DISPLAYCONFIG_PIXELFORMAT_32BPP, DISPLAYCONFIG_PIXELFORMAT_8BPP, DISPLAYCONFIG_PIXELFORMAT_FORCE_UINT32, DISPLAYCONFIG_PIXELFORMAT_NONGDI, display.displayconfig_pixelformat, wingdi/DISPLAYCONFIG_PIXELFORMAT, wingdi/DISPLAYCONFIG_PIXELFORMAT_16BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_24BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_32BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_8BPP, wingdi/DISPLAYCONFIG_PIXELFORMAT_FORCE_UINT32, wingdi/DISPLAYCONFIG_PIXELFORMAT_NONGDI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wingdi.h
 req.include-header: Windows.h

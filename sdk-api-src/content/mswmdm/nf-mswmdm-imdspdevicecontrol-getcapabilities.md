@@ -9,8 +9,6 @@ ms.assetid: 5d4e433a-fb2a-43c4-ab7f-fb7168636455
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IMDSPDeviceControl interface, IMDSPDeviceControl interface [windows Media Device Manager],GetCapabilities method, IMDSPDeviceControl.GetCapabilities, IMDSPDeviceControl::GetCapabilities, IMDSPDeviceControlGetCapabilities, mswmdm/IMDSPDeviceControl::GetCapabilities, wmdm.imdspdevicecontrol_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

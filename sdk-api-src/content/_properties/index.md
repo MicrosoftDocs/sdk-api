@@ -2,7 +2,7 @@
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

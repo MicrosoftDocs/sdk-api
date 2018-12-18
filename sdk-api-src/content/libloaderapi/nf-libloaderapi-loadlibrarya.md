@@ -9,8 +9,6 @@ ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win32_loadlibrary, base.loadlibrary, libloaderapi/LoadLibrary, libloaderapi/LoadLibraryA, libloaderapi/LoadLibraryW, winbase/LoadLibrary, winbase/LoadLibraryA, winbase/LoadLibraryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -121,8 +119,8 @@ To enable or disable error messages displayed by the loader during DLL loads, us
     <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to get the address of a DLL function. 
     <b>LoadLibrary</b> can also be used to load other executable 
     modules. For example, the function can specify an .exe file to get a handle that can be used in 
-    <a href="https://msdn.microsoft.com/00f14551-5381-4499-a13a-86f15dd4e618">FindResource</a> or 
-    <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>. However, do not use 
+    <a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>. However, do not use 
     <b>LoadLibrary</b> to run an .exe file. Instead, use 
     the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function.
 
@@ -168,7 +166,7 @@ The first directory searched is the directory containing the image file used to 
 
 The search path can be altered using the 
     <a href="https://msdn.microsoft.com/c0c57554-3d98-487c-8bae-c594620d5a00">SetDllDirectory</a> function. This solution is recommended 
-    instead of using <a href="base.setcurrentdirectory">SetCurrentDirectory</a> or 
+    instead of using <a href="https://msdn.microsoft.com/en-us/library/Aa365530(v=VS.85).aspx">SetCurrentDirectory</a> or 
     hard-coding the full path to the DLL.
 
 If a path is specified and there is a redirection file for the application, the function searches for the 
@@ -242,7 +240,7 @@ For an example, see
 
 
 
-<a href="_win32_findresource_cpp">FindResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a>
 
 
 
@@ -266,7 +264,7 @@ For an example, see
 
 
 
-<a href="_win32_loadresource_cpp">LoadResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648046(v=VS.85).aspx">LoadResource</a>
 
 
 

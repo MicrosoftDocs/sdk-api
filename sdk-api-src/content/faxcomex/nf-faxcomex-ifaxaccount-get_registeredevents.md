@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\registeredev
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccount interface [Fax Service],RegisteredEvents property, IFaxAccount.RegisteredEvents, IFaxAccount.get_RegisteredEvents, IFaxAccount::RegisteredEvents, IFaxAccount::get_RegisteredEvents, RegisteredEvents property [Fax Service], RegisteredEvents property [Fax Service],IFaxAccount interface, _mfax_faxaccount.registeredevents, fax._mfax_faxaccount_cpp_mfax_faxaccount_registeredevents_cpp, fax._mfax_faxaccount_registeredevents, faxcomex/IFaxAccount::RegisteredEvents, faxcomex/IFaxAccount::get_RegisteredEvents, get_RegisteredEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/85adc440-3dc8-47ce-aae8-dfb04f824b09">FaxAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a>
 
 
 
-<a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>
  
 
  

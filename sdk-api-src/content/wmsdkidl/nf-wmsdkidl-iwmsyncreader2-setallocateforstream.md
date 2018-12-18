@@ -9,8 +9,6 @@ ms.assetid: ed94977e-e930-4045-a69d-36109e7e21c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForStream method, IWMSyncReader2.SetAllocateForStream, IWMSyncReader2::SetAllocateForStream, IWMSyncReader2SetAllocateForStream, SetAllocateForStream, SetAllocateForStream method [windows Media Format], SetAllocateForStream method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforstream, wmsdkidl/IWMSyncReader2::SetAllocateForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>SetAllocateForStream</b> method sets a sample allocation callback interface for allocating stream samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/bb12f0e1-dc9c-447e-a28d-30c45eb95d09">IWMReaderAllocatorEx::AllocateForStreamEx</a> method every time it needs a buffer to hold a stream sample.
+The <b>SetAllocateForStream</b> method sets a sample allocation callback interface for allocating stream samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/en-us/library/Dd743492(v=VS.85).aspx">IWMReaderAllocatorEx::AllocateForStreamEx</a> method every time it needs a buffer to hold a stream sample.
 
 
 
@@ -71,7 +69,7 @@ The <b>SetAllocateForStream</b> method sets a sample allocation callback interfa
 
 ### -param pAllocator [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface implemented in your application.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface implemented in your application.
 
 
 ## -returns
@@ -92,11 +90,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/88f02e2d-2585-4668-869b-d42739c02a5c">IWMSyncReader2::GetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798579(v=VS.85).aspx">IWMSyncReader2::GetAllocateForStream</a>
  
 
  

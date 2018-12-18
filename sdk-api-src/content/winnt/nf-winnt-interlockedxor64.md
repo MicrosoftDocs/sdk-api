@@ -9,8 +9,6 @@ ms.assetid: b0eef2c9-5b28-462b-91cb-20a337efca7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedXor64, InterlockedXor64 function, base.interlockedxor64, winnt/InterlockedXor64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
@@ -83,7 +81,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/a8swb4hb(v=VS.85).aspx">_InterlockedXor64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="faef1796-cb5a-4430-b1e2-9d5eaf9b4a91">_InterlockedXor64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

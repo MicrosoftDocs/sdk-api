@@ -9,8 +9,6 @@ ms.assetid: c7d62a2c-54a9-4690-8ba0-34e927f9f093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],CreateSample method, IAudioMediaStream.CreateSample, IAudioMediaStream::CreateSample, IAudioMediaStreamCreateSample, austream/IAudioMediaStream::CreateSample, dshow.iaudiomediastream_createsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -65,7 +63,7 @@ Creates an audio stream sample for use with the specified stream.
 
 ### -param pAudioData [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> container. <b>IAudioData</b> objects can be referenced by samples in more than one stream.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> container. <b>IAudioData</b> objects can be referenced by samples in more than one stream.
 
 
 ### -param dwFlags [in]
@@ -75,7 +73,7 @@ Reserved for flag data. Must be zero.
 
 ### -param ppSample [out]
 
-Address of a pointer to the new <a href="https://msdn.microsoft.com/53deec43-30ca-472e-9a82-750049686d2a">IAudioStreamSample</a> interface.
+Address of a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> interface.
 
 
 ## -returns
@@ -101,7 +99,7 @@ The <i>pAudioData</i> object defines the data's format.
 
 
 
-<a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream Interface</a>
  
 
  

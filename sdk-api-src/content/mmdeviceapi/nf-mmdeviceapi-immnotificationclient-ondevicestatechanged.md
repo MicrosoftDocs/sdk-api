@@ -9,8 +9,6 @@ ms.assetid: 4725a300-c84b-40cd-93a6-6ef6c8e89708
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

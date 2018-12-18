@@ -9,8 +9,6 @@ ms.assetid: 46c0c426-9730-4a0e-ab95-03b240bd55f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

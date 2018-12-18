@@ -9,8 +9,6 @@ ms.assetid: 427ed302-c3b7-483a-aa48-da6fec1160a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssCreateWriterMetadata, IVssCreateWriterMetadata interface [VSS], IVssCreateWriterMetadata interface [VSS],described, _win32_ivsscreatewritermetadata, base.ivsscreatewritermetadata, vswriter/IVssCreateWriterMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

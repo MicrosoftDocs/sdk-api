@@ -9,8 +9,6 @@ ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: manipulations.h
 req.include-header: 

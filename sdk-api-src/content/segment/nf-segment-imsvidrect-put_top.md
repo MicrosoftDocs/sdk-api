@@ -9,8 +9,6 @@ ms.assetid: ee3dbbd2-a8b4-496b-84e6-b0d7615f6a1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Top method, IMSVidRect.put_Top, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Top
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,11 +88,11 @@ Setting the top y-coordinate also changes the height of the rectangle. For examp
 
 
 
-<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/3596141c-e359-4ea5-8d6a-9ec374c1f854">IMSVidRect::get_Top</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694607(v=VS.85).aspx">IMSVidRect::get_Top</a>
  
 
  

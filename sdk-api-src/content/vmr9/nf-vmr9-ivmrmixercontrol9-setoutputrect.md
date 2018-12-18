@@ -9,8 +9,6 @@ ms.assetid: d09d2e90-e121-46e0-a659-e7bae4432031
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetOutputRect method, IVMRMixerControl9.SetOutputRect, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -69,7 +67,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param pRect [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/226b685c-92da-45c3-b99a-6c1e732f8dc6">VMR9NormalizedRect</a> structure that specifies the position of the rectangle with composition space.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407369(v=VS.85).aspx">VMR9NormalizedRect</a> structure that specifies the position of the rectangle with composition space.
 
 
 ## -returns
@@ -138,7 +136,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

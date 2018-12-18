@@ -9,8 +9,6 @@ ms.assetid: 84d73e8c-f13c-4343-91de-57f9f8a0ad96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7e7df363-d5a2-5b79-817f-3e1d6053d170, D3D11CreateDeviceAndSwapChain, D3D11CreateDeviceAndSwapChain function [Direct3D 11], d3d11/D3D11CreateDeviceAndSwapChain, direct3d11.d3d11createdeviceandswapchain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d11.h
 req.include-header: 
@@ -164,9 +162,9 @@ Returns the address of a pointer to the <a href="https://msdn.microsoft.com/en-u
 
 ### -param ppDevice [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>**</b>
 
-Returns the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> object that represents the device created. If this parameter is  <b>NULL</b>, no ID3D11Device will be returned'.
+Returns the address of a pointer to an <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> object that represents the device created. If this parameter is  <b>NULL</b>, no ID3D11Device will be returned'.
           
 
 
@@ -193,7 +191,7 @@ Returns the address of a pointer to an <a href="https://msdn.microsoft.com/afb32
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method can return one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method can return one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           
 
 This method returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_NOT_CURRENTLY_AVAILABLE</a> if you call it in a Session 0 process.
@@ -219,14 +217,14 @@ This entry-point is supported by the Direct3D 11 runtime, which is available on 
           Windows Vista (KB971644).
         
 
-To create a Direct3D 11.1 device (<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>), which is available on Windows 8, Windows Server 2012, and Windows 7 and Windows Server 2008 R2 with the <a href="https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx">Platform Update for Windows 7</a> installed, you first create a <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device1</b> interface.
+To create a Direct3D 11.1 device (<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>), which is available on Windows 8, Windows Server 2012, and Windows 7 and Windows Server 2008 R2 with the <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a> installed, you first create a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device1</b> interface.
         
 
-To create a Direct3D 11.2 device (<a href="https://msdn.microsoft.com/en-us/library/Dn280493(v=VS.85).aspx">ID3D11Device2</a>), which is available on Windows 8.1 and Windows Server 2012 R2, you first create a <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device2</b> interface.
+To create a Direct3D 11.2 device (<a href="https://msdn.microsoft.com/C476AA0E-4A49-4E1E-8308-FB72EAD3E30C">ID3D11Device2</a>), which is available on Windows 8.1 and Windows Server 2012 R2, you first create a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device2</b> interface.
         
 
-Also, see the remarks section in <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a> for details about input parameter dependencies. To create a device without
-          creating a swap chain, use the <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a> function.
+Also, see the remarks section in <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> for details about input parameter dependencies. To create a device without
+          creating a swap chain, use the <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> function.
         
 
 If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value, you must also set the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_UNKNOWN value. If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value and the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_HARDWARE value, <b>D3D11CreateDeviceAndSwapChain</b> returns an <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a> of E_INVALIDARG.
@@ -236,10 +234,10 @@ The function signature PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN is provided as a t
       
 
 <h3><a id="Usage_notes"></a><a id="usage_notes"></a><a id="USAGE_NOTES"></a>Usage notes</h3>
-<div class="alert"><b>Note</b>  The <b>D3D11CreateDeviceAndSwapChain</b> function does not exist for Windows Store apps. Instead, Windows Store apps use the  <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a> function and then use the <a href="https://msdn.microsoft.com/en-us/library/Hh404559(v=VS.85).aspx">IDXGIFactory2::CreateSwapChainForCoreWindow</a> method.
+<div class="alert"><b>Note</b>  The <b>D3D11CreateDeviceAndSwapChain</b> function does not exist for Windows Store apps. Instead, Windows Store apps use the  <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> function and then use the <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a> method.
           </div>
 <div> </div>
-<div class="alert"><b>Note</b>  This function has not been updated to support recent additional features of swap chain creation. For the most up-to-date swap chain creation methods, refer to the methods of <a href="https://msdn.microsoft.com/en-us/library/Hh404556(v=VS.85).aspx">IDXGIFactory2</a> (including <a href="https://msdn.microsoft.com/en-us/library/Hh404557(v=VS.85).aspx">CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh404559(v=VS.85).aspx">CreateSwapChainForCoreWindow</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh404558(v=VS.85).aspx">CreateSwapChainForComposition</a>).</div>
+<div class="alert"><b>Note</b>  This function has not been updated to support recent additional features of swap chain creation. For the most up-to-date swap chain creation methods, refer to the methods of <a href="https://msdn.microsoft.com/D4F210E1-E184-410A-947A-22ED47B3E9F3">IDXGIFactory2</a> (including <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a> and <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">CreateSwapChainForComposition</a>).</div>
 <div> </div>
 <b>Windows Phone 8:
         </b> This API is supported.
@@ -253,7 +251,7 @@ The function signature PFN_D3D11_CREATE_DEVICE_AND_SWAP_CHAIN is provided as a t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476153(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/3acbd433-c28d-4630-aa0e-25f2fb5c32d0">Core Functions</a>
  
 
  

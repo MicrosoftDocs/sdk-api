@@ -9,8 +9,6 @@ ms.assetid: ec661cff-4671-401b-9c77-5036549762af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOrigin, GetOrigin method [XPS Documents and Packaging], GetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetOrigin method, IXpsOMGlyphs.GetOrigin, IXpsOMGlyphs::GetOrigin, xps.ixpsomglyphs_getorigin, xpsobjectmodel/IXpsOMGlyphs::GetOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

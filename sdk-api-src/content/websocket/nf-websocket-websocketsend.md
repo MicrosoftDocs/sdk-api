@@ -9,8 +9,6 @@ ms.assetid: 289f3880-22ed-44f8-8a69-1c983153ea72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WebSocketSend, WebSocketSend function [Websocket Protocol Component API], websock.websocketsend, websocket/WebSocketSend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

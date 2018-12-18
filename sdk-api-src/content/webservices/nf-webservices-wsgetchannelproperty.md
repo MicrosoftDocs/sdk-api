@@ -9,8 +9,6 @@ ms.assetid: 6f3440d2-90cc-4312-bb08-51f08b864cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetChannelProperty, WsGetChannelProperty function [Web Services for Windows], webservices/WsGetChannelProperty, wsw.wsgetchannelproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

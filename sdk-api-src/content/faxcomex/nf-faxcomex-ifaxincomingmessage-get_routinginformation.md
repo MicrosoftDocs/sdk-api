@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1iy6.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],RoutingInformation property, IFaxIncomingMessage.RoutingInformation, IFaxIncomingMessage.get_RoutingInformation, IFaxIncomingMessage::RoutingInformation, IFaxIncomingMessage::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.routinginformation, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_routinginformation_cpp, fax._mfax_faxincomingmessage_routinginformation, faxcomex/IFaxIncomingMessage::RoutingInformation, faxcomex/IFaxIncomingMessage::get_RoutingInformation, get_RoutingInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-For more information about routing information, see the <a href="https://msdn.microsoft.com/b5d024c2-36f9-4f70-abab-3824f3612089">RoutingInfo</a> member of the <b>FAX_DEV_STATUS</b> structure.
+For more information about routing information, see the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">RoutingInfo</a> member of the <b>FAX_DEV_STATUS</b> structure.
 
 
 
@@ -74,15 +72,15 @@ For more information about routing information, see the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/29fa30c9-d4f2-4ed5-95fc-873f2263c7bb">IFaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e66b30d-e74f-4c73-b005-acd2d0fd8893">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693406(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

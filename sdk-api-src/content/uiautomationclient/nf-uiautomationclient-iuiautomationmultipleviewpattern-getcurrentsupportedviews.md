@@ -9,8 +9,6 @@ ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentSupportedViews, GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

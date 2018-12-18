@@ -9,8 +9,6 @@ ms.assetid: ea1ded30-4fca-4208-9fc2-f93c169f33b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromBurnError, CdromBurnError method [Windows Media Player], CdromBurnError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnError method, IWMPEvents3.CdromBurnError, IWMPEvents3::CdromBurnError, IWMPEvents3CdromBurnError, wmp.iwmpevents3_iwmpevents3__cdromburnerror, wmp/IWMPEvents3::CdromBurnError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -98,15 +96,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bad9de2-8899-4149-965c-7835bd854f6f">IWMPEvents3::CdromBurnMediaError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563298(v=VS.85).aspx">IWMPEvents3::CdromBurnMediaError</a>
 
 
 

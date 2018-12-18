@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\events\drendezvoussessionev
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRendezvousSessionEvents, DRendezvousSessionEvents interface [Remote Assistance], DRendezvousSessionEvents interface [Remote Assistance],described, remoteassist.remoteassist_DRendezvousSessionEvents, remoteassist_DRendezvousSessionEvents, rendezvoussession/DRendezvousSessionEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rendezvoussession.h
 req.include-header: 

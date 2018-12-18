@@ -9,8 +9,6 @@ ms.assetid: 3831b727-7fdc-4d05-a7b3-86ca5b5c3b17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -77,7 +75,7 @@ The <b>IWMRegisterCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69d12e5c-23fd-4d4b-959e-fe7979bf3fdb">Advise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743615(v=VS.85).aspx">Advise</a>
 </td>
 <td align="left" width="63%">
 Registers the application to receive status messages from the sink object.
@@ -86,7 +84,7 @@ Registers the application to receive status messages from the sink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f320288-09a8-4eaf-a7cd-54a4b52d0b47">Unadvise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743618(v=VS.85).aspx">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Unregisters the application's callback interface.

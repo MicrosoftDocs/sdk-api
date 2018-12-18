@@ -9,8 +9,6 @@ ms.assetid: 7a47f73b-9ce7-f7db-688b-291cebad54bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsCharacterLocal method, IDWriteFontFace3.IsCharacterLocal, IDWriteFontFace3::IsCharacterLocal, IsCharacterLocal, IsCharacterLocal method [Direct Write], IsCharacterLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_ischaracterlocal, dwrite_3/IDWriteFontFace3::IsCharacterLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -82,7 +80,7 @@ Returns <b>TRUE</b> if the font has the specified character locally available,
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

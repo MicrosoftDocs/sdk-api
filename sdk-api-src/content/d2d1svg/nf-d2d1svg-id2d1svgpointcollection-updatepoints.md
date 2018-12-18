@@ -9,8 +9,6 @@ ms.assetid: D1DE682E-FFB1-4090-BE2A-FED41C1E7170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgPointCollection interface [Direct2D],UpdatePoints method, ID2D1SvgPointCollection.UpdatePoints, ID2D1SvgPointCollection::UpdatePoints, UpdatePoints, UpdatePoints method [Direct2D], UpdatePoints method [Direct2D],ID2D1SvgPointCollection interface, d2d1svg/ID2D1SvgPointCollection::UpdatePoints, direct2d.id2d1svgpointcollection_updatepoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -83,7 +81,7 @@ The index at which to begin updating points. Must be less than or equal to the s
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 13e88201-98c3-476e-bc75-34aed0b9ce9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventSubscription interface [COM+],InterfaceID property, IEventSubscription.InterfaceID, IEventSubscription.put_InterfaceID, IEventSubscription::InterfaceID, IEventSubscription::get_InterfaceID, IEventSubscription::put_InterfaceID, InterfaceID property [COM+], InterfaceID property [COM+],IEventSubscription interface, cos.ieventsubscription_interfaceid, eventsys/IEventSubscription::InterfaceID, eventsys/IEventSubscription::get_InterfaceID, eventsys/IEventSubscription::put_InterfaceID, put_InterfaceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

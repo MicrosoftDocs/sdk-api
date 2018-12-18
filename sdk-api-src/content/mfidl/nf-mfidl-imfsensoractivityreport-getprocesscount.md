@@ -9,8 +9,6 @@ ms.assetid: 9C3DAB31-9D28-42CB-AFB8-6288658FF6B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessCount, GetProcessCount method [Media Foundation], GetProcessCount method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessCount method, IMFSensorActivityReport.GetProcessCount, IMFSensorActivityReport::GetProcessCount, mf.imfsensoractivityreport_getprocesscount, mfidl/IMFSensorActivityReport::GetProcessCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

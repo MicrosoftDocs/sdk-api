@@ -9,8 +9,6 @@ ms.assetid: afd6286a-1b05-408f-a752-6fc3a2667e31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetCAT method, IDvbSiParser.GetCAT, IDvbSiParser::GetCAT, IDvbSiParserGetCAT, dvbsiparser/IDvbSiParser::GetCAT, mstv.idvbsiparser_getcat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -71,7 +69,7 @@ Specifies a time-out value, in milliseconds. If the filter does not receive the 
 
 ### -param ppCAT [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

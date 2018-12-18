@@ -9,8 +9,6 @@ ms.assetid: 21ce95a4-0e87-4e2d-a3fa-b21a079058e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadUnBind method, IComThreadEvents.OnThreadUnBind, IComThreadEvents::OnThreadUnBind, OnThreadUnBind, OnThreadUnBind method [COM+], OnThreadUnBind method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadUnBind, comsvcs/IComThreadEvents::OnThreadUnBind, cos.icomthreadevents_onthreadunbind
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

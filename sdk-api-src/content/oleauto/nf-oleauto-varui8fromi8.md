@@ -9,8 +9,6 @@ ms.assetid: ac01de81-d86c-412c-a6d5-91a36d84692a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarUI8FromI8, VarUI8FromI8 function [Automation], _oa96_VarUI8FromI8, automat.varui8fromi8, oleauto/VarUI8FromI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

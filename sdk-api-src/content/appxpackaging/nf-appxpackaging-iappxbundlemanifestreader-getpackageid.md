@@ -9,8 +9,6 @@ ms.assetid: B1D8AF8D-A80B-4F28-A9AA-A798D309D6E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageId method, IAppxBundleManifestReader.GetPackageId, IAppxBundleManifestReader::GetPackageId, appxpackaging/IAppxBundleManifestReader::GetPackageId, appxpkg.iappxbundlemanifestreader_getpackageid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

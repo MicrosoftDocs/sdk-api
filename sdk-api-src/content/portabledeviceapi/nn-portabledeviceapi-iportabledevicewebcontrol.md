@@ -9,8 +9,6 @@ ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

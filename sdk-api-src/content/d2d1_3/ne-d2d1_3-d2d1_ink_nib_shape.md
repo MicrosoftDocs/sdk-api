@@ -9,8 +9,6 @@ ms.assetid: E9EA4F3E-D539-4938-897F-467D0432174F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_INK_NIB_SHAPE, D2D1_INK_NIB_SHAPE enumeration [Direct2D], D2D1_INK_NIB_SHAPE_ROUND, D2D1_INK_NIB_SHAPE_SQUARE, d2d1_3/D2D1_INK_NIB_SHAPE, d2d1_3/D2D1_INK_NIB_SHAPE_ROUND, d2d1_3/D2D1_INK_NIB_SHAPE_SQUARE, direct2d.d2d1_ink_nib_shape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://msdn.microsoft.com/en-us/library/Dn890737(v=VS.85).aspx">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
         
 
 

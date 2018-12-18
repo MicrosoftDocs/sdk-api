@@ -9,8 +9,6 @@ ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, usp10/SCRIPT_CHARPROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 65d2470c-e6ce-4f3f-b4f8-0bc65a2a8bfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],NotifyLateDelivery method, IWMReaderAdvanced.NotifyLateDelivery, IWMReaderAdvanced::NotifyLateDelivery, IWMReaderAdvancedNotifyLateDelivery, NotifyLateDelivery, NotifyLateDelivery method [windows Media Format], NotifyLateDelivery method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_notifylatedelivery, wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -83,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, SubmitNtmsOperatorRequest, SubmitNtmsOperatorRequest function [Files], SubmitNtmsOperatorRequestA, SubmitNtmsOperatorRequestW, _zaw_submitntmsoperatorrequest, base.submitntmsoperatorrequest, fs.submitntmsoperatorrequest, ntmsapi/SubmitNtmsOperatorRequest, ntmsapi/SubmitNtmsOperatorRequestA, ntmsapi/SubmitNtmsOperatorRequestW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

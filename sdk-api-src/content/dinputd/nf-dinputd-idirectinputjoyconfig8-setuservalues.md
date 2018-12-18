@@ -9,8 +9,6 @@ ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetUserValues method, IDirectInputJoyConfig8.SetUserValues, IDirectInputJoyConfig8::SetUserValues, SetUserValues, SetUserValues method [Human Input Devices], SetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml, dinputd/IDirectInputJoyConfig8::SetUserValues, hid.idirectinputjoyconfig8_setuservalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

@@ -9,8 +9,6 @@ ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetControlInfo, GetControlInfo method [COM], GetControlInfo method [COM],IOleControl interface, IOleControl interface [COM],GetControlInfo method, IOleControl.GetControlInfo, IOleControl::GetControlInfo, _ctrl_iolecontrol_getcontrolinfo, com.iolecontrol_getcontrolinfo, ocidl/IOleControl::GetControlInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

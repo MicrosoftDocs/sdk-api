@@ -9,8 +9,6 @@ ms.assetid: 2da56e46-bbbd-42d4-ba49-9dee01f6bba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetPixelFormats method, IWICBitmapCodecInfo.GetPixelFormats, IWICBitmapCodecInfo::GetPixelFormats, _wic_codec_iwicbitmapcodecinfo_getpixelformats, wic._wic_codec_iwicbitmapcodecinfo_getpixelformats, wincodec/IWICBitmapCodecInfo::GetPixelFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

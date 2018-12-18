@@ -7,10 +7,8 @@ old-location: p2p\peergraphgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: a7d23640-4f69-4ce0-996f-562807db7768
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGraphGetStatus, PeerGraphGetStatus function [Peer Networking], p2p.peergraphgetstatus, p2p/PeerGraphGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

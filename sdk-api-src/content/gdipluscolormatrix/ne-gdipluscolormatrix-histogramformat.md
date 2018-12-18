@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\histogramformat.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HistogramFormat, HistogramFormat enumeration [GDI+], HistogramFormatA, HistogramFormatARGB, HistogramFormatB, HistogramFormatG, HistogramFormatGray, HistogramFormatPARGB, HistogramFormatR, HistogramFormatRGB, _gdiplus_ENUM_HistogramFormat, gdiplus._gdiplus_ENUM_HistogramFormat, gdipluscolormatrix/HistogramFormat, gdipluscolormatrix/HistogramFormatA, gdipluscolormatrix/HistogramFormatARGB, gdipluscolormatrix/HistogramFormatB, gdipluscolormatrix/HistogramFormatG, gdipluscolormatrix/HistogramFormatGray, gdipluscolormatrix/HistogramFormatPARGB, gdipluscolormatrix/HistogramFormatR, gdipluscolormatrix/HistogramFormatRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 7b06592d-2b9d-4f5a-bf74-331b07a13f0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioData interface, IAudioData interface [DirectShow],GetFormat method, IAudioData.GetFormat, IAudioData::GetFormat, IAudioDataGetFormat, austream/IAudioData::GetFormat, dshow.iaudiodata_getformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -91,11 +89,11 @@ Currently, Microsoft DirectShow supports only PCM wave data.
 
 
 
-<a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/792112a6-b10a-432f-854a-07bd74173e84">IAudioData::SetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389515(v=VS.85).aspx">IAudioData::SetFormat</a>
  
 
  

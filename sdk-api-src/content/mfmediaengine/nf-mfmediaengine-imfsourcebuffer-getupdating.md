@@ -9,8 +9,6 @@ ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

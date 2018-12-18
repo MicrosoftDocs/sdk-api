@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2svo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument interface [Fax Service],Subject property, IFaxDocument.Subject, IFaxDocument.get_Subject, IFaxDocument.put_Subject, IFaxDocument::Subject, IFaxDocument::get_Subject, IFaxDocument::put_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxDocument interface, _mfax_faxdocument.subject, fax._mfax_faxdocument_cpp_mfax_faxdocument_subject_cpp, fax._mfax_faxdocument_subject, faxcomex/IFaxDocument::Subject, faxcomex/IFaxDocument::get_Subject, faxcomex/IFaxDocument::put_Subject, get_Subject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,15 +65,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

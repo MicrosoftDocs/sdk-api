@@ -9,8 +9,6 @@ ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumUndoable method, IOleUndoManager.EnumUndoable, IOleUndoManager::EnumUndoable, _ole_ioleundomanager_enumundoable, com.ioleundomanager_enumundoable, ocidl/IOleUndoManager::EnumUndoable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

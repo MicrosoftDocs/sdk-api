@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6xv7_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceProviders, GetDeviceProviders method [Fax Service], GetDeviceProviders method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],GetDeviceProviders method, IFaxServer.GetDeviceProviders, IFaxServer::GetDeviceProviders, _mfax_faxserver.getdeviceproviders_cpp, fax._mfax_faxserver_getdeviceproviders_cpp, faxcomex/IFaxServer::GetDeviceProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a> interface, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>IFaxDeviceProviders</b> interface to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a> interfaces for them.
+The <b>IFaxServer::GetDeviceProviders</b> method creates a <a href="https://msdn.microsoft.com/en-us/library/ms687081(v=VS.85).aspx">IFaxDeviceProviders</a> interface, a collection of fax service providers (FSPs) that are currently registered with the fax service. You can use the <b>IFaxDeviceProviders</b> interface to enumerate the FSPs associated with a fax server and to create and access <a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a> interfaces for them.
 
 
 ## -parameters
@@ -60,9 +58,9 @@ The <b>IFaxServer::GetDeviceProviders</b> method creates a <a href="https://msdn
 
 ### -param ppFaxDeviceProviders [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms687081(v=VS.85).aspx">IFaxDeviceProviders</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/6c1bd4dd-a2bb-4ae7-a719-ec4506065c41">IFaxDeviceProviders</a> interface.
+An address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms687081(v=VS.85).aspx">IFaxDeviceProviders</a> interface.
 
 
 ## -returns

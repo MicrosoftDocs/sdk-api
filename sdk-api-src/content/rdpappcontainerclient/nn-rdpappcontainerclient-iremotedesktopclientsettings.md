@@ -4,13 +4,11 @@ title: IRemoteDesktopClientSettings
 author: windows-sdk-content
 description: Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclientsettings.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8bdb224c-bb29-43f1-8a7c-94686a8efe0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], IRemoteDesktopClientSettings interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientSettings, termserv.iremotedesktopclientsettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 

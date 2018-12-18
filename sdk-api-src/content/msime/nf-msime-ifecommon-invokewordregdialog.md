@@ -9,8 +9,6 @@ ms.assetid: FBD09E98-9C89-4CE4-9D17-A13E2BE0AB91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeWordRegDialog method, IFECommon.InvokeWordRegDialog, IFECommon::InvokeWordRegDialog, InvokeWordRegDialog, InvokeWordRegDialog method [Internationalization for Windows Applications], InvokeWordRegDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokewordregdialog, msime/IFECommon::InvokeWordRegDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 

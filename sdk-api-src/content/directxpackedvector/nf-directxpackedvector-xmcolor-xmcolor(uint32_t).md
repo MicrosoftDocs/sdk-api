@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(uint32_t), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(uint32_t), dxmath.xmcolor_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -54,7 +52,7 @@ Initializes a new instance of <code>XMCOLOR</code> from a <code>uint32_t</code> 
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a> from a
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a> from a
 	<code>uint32_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -120,11 +118,11 @@ The fourth 8 bits (bits 24-31) of <b>Packed</b> assigned, as an unsigned
 
 
 
-<a href="https://msdn.microsoft.com/B799AA06-C51B-440A-93AD-3D3334449E27">XMCOLOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d700016-8a5c-4699-b9cb-f9e91296a2a7">XMCOLOR Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
  
 
  

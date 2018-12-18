@@ -9,8 +9,6 @@ ms.assetid: f378c4d0-c3a2-4611-a471-0c77746602f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSizeArray, GetSizeArray method [Windows Runtime], GetSizeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSizeArray method, IPropertyValue.GetSizeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSizeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSizeArray, winrt.ipropertyvalue_getsizearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a> values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a> values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 
 ## -parameters

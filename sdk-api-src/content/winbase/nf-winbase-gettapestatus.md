@@ -9,8 +9,6 @@ ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTapeStatus, GetTapeStatus function [Backup], _win32_gettapestatus, backup.gettapestatus, base.gettapestatus, winbase/GetTapeStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

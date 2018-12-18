@@ -9,8 +9,6 @@ ms.assetid: 5f532149-7c2f-4972-9900-68c2f185d255
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCharWidthI, GetCharWidthI function [Windows GDI], _win32_GetCharWidthI, gdi.getcharwidthi, wingdi/GetCharWidthI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

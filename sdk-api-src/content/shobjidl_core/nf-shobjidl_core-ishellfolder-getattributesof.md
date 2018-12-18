@@ -9,8 +9,6 @@ ms.assetid: 3864b386-7653-4661-880c-e96c08ff0dbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributesOf, GetAttributesOf method [Windows Shell], GetAttributesOf method [Windows Shell],IShellFolder interface, GetAttributesOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetAttributesOf method, IShellFolder.GetAttributesOf, IShellFolder2 interface [Windows Shell],GetAttributesOf method, IShellFolder2::GetAttributesOf, IShellFolder::GetAttributesOf, _win32_IShellFolder_GetAttributesOf, shell.IShellFolder_GetAttributesOf, shobjidl_core/IShellFolder2::GetAttributesOf, shobjidl_core/IShellFolder::GetAttributesOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

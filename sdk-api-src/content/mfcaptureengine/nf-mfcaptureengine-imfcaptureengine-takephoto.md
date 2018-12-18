@@ -9,8 +9,6 @@ ms.assetid: 6E633E90-9C8B-44B6-9149-704872143147
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],TakePhoto method, IMFCaptureEngine.TakePhoto, IMFCaptureEngine::TakePhoto, TakePhoto, TakePhoto method [Media Foundation], TakePhoto method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_takephoto, mfcaptureengine/IMFCaptureEngine::TakePhoto
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

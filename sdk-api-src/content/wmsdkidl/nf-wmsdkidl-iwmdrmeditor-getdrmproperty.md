@@ -9,8 +9,6 @@ ms.assetid: b0a7b07d-f0c0-4715-a9c3-7babf3bf7af9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDRMProperty, GetDRMProperty method [windows Media Format], GetDRMProperty method [windows Media Format],IWMDRMEditor interface, IWMDRMEditor interface [windows Media Format],GetDRMProperty method, IWMDRMEditor.GetDRMProperty, IWMDRMEditor::GetDRMProperty, IWMDRMEditorGetDRMProperty, wmformat.iwmdrmeditor_getdrmproperty, wmsdkidl/IWMDRMEditor::GetDRMProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -100,9 +98,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method retrieves only DRM properties listed below. The file must first be opened using <a href="https://msdn.microsoft.com/01dd09ff-35d2-4e00-9eab-5110a426449f">IWMMetadataEditor::Open</a> or <a href="https://msdn.microsoft.com/e35f5f85-659e-4a1f-8bfd-4ad3e946d733">IWMMetadataEditor2::OpenEx</a>.
+This method retrieves only DRM properties listed below. The file must first be opened using <a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757234(v=VS.85).aspx">IWMMetadataEditor2::OpenEx</a>.
 
-Also, before calling <b>GetDRMProperty</b> on an opened file, always call the helper function <a href="https://msdn.microsoft.com/a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
+Also, before calling <b>GetDRMProperty</b> on an opened file, always call the helper function <a href="https://msdn.microsoft.com/en-us/library/Dd757830(v=VS.85).aspx">WMIsContentProtected</a> to ensure that the file is protected with DRM. It is important to do this because in some cases this method might succeed when called on unprotected content.
 
 The following properties are accessible from this method:
 
@@ -184,7 +182,7 @@ The following properties are accessible from this method:
 
 
 
-<a href="https://msdn.microsoft.com/a404d30d-0b42-44c9-93e6-3eb9ef9e40fc">IWMDRMEditor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798279(v=VS.85).aspx">IWMDRMEditor Interface</a>
  
 
  

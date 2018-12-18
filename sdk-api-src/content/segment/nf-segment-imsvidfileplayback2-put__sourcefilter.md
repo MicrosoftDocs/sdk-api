@@ -9,8 +9,6 @@ ms.assetid: ef536087-dd2b-417f-b139-916d930e3d25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put__SourceFilter method, IMSVidFilePlayback2.put__SourceFilter, IMSVidFilePlayback2::put__SourceFilter, IMSVidFilePlayback2put__SourceFilter, mstv.imsvidfileplayback2_put__sourcefilter, put__SourceFilter, put__SourceFilter method [Microsoft TV Technologies], put__SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put__SourceFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -101,7 +99,7 @@ The method succeeded.
 
 
 
-If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5-4488-8bbc-82dd09aeeaca">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="https://msdn.microsoft.com/1055a053-28d3-470f-aff5-ade71eebc809">IMSVidFilePlayback::put_FileName</a>.
+If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5-4488-8bbc-82dd09aeeaca">MSVidFilePlaybackDevice</a> object uses the default source filter for the file name given in <a href="https://msdn.microsoft.com/en-us/library/Dd694558(v=VS.85).aspx">IMSVidFilePlayback::put_FileName</a>.
 
 
 
@@ -111,7 +109,7 @@ If the CLSID is GUID_NULL, the <a href="https://msdn.microsoft.com/da8a1d86-b3a5
 
 
 
-<a href="https://msdn.microsoft.com/5779d5f8-74b1-4318-9fda-1dae3bf4a3f5">IMSVidFilePlayback2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694552(v=VS.85).aspx">IMSVidFilePlayback2 Interface</a>
  
 
  

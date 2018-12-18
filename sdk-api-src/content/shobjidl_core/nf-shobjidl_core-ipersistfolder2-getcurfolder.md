@@ -9,8 +9,6 @@ ms.assetid: 6aaf6ed5-ae8e-4521-80cb-ec45af8827aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurFolder, GetCurFolder method [Windows Shell], GetCurFolder method [Windows Shell],IPersistFolder2 interface, IPersistFolder2 interface [Windows Shell],GetCurFolder method, IPersistFolder2.GetCurFolder, IPersistFolder2::GetCurFolder, _win32_IPersistFolder2_GetCurFolder, shell.IPersistFolder2_GetCurFolder, shobjidl_core/IPersistFolder2::GetCurFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

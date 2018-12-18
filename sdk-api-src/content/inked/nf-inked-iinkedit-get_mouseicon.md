@@ -9,8 +9,6 @@ ms.assetid: 11e7cf2d-e671-471f-9a13-1f55b62b4dfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],MouseIcon property, IInkEdit.MouseIcon, IInkEdit.get_MouseIcon, IInkEdit::MouseIcon, IInkEdit::get_MouseIcon, IInkEdit::put_MouseIcon, InkEdit.get_MouseIcon, InkEdit.put_MouseIcon, InkEdit.putref_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkEdit interface, get_MouseIcon, inked/IInkEdit::MouseIcon, inked/IInkEdit::get_MouseIcon, inked/IInkEdit::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkedit_mouseicon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -81,7 +79,7 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

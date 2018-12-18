@@ -9,8 +9,6 @@ ms.assetid: a3aaf310-6c42-4013-a3bf-25f9c42cdf81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidEVR.get_SuppressEffects, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get_SuppressEffects</b> method queries whether the <a href="https://msdn.
 
 ### -param bSuppress [out]
 
-Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/399250b6-4f2d-4dbf-b1e8-d32a0673617e">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
+Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694542(v=VS.85).aspx">IMSVidEVR::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
 
 
 ## -returns

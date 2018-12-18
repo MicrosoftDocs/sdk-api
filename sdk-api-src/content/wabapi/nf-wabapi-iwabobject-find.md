@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\find.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Find, Find method [Windows Address Book], Find method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],Find method, IWABObject.Find, IWABObject::Find, _wab_IWABObject_Find, wab._wab_IWABObject_Find, wabapi/IWABObject::Find
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -61,9 +59,9 @@ Launches the Windows Address Book (WAB) Find dialog box.
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
 				that specifies the address book to search.
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\levelsparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LevelsParams, LevelsParams structure [GDI+], _gdiplus_STRUC_LevelsParams, gdiplus._gdiplus_STRUC_LevelsParams, gdipluseffects/LevelsParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 5925f373-c862-4215-9877-5bb4d5411d36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioMediaStream interface [DirectShow],SetFormat method, IAudioMediaStream.SetFormat, IAudioMediaStream::SetFormat, IAudioMediaStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioMediaStream interface, austream/IAudioMediaStream::SetFormat, dshow.iaudiomediastream_setformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value, which can include the following values or other
 </dl>
 </td>
 <td width="60%">
-Format of the <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> object is not compatible with stream.
+Format of the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object is not compatible with stream.
 
 </td>
 </tr>
@@ -134,7 +132,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream Interface</a>
  
 
  

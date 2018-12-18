@@ -9,8 +9,6 @@ ms.assetid: 63a20250-1b93-49df-b7f8-7169db8efde0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsWinNTSystemInfo, IADsWinNTSystemInfo interface [ADSI], IADsWinNTSystemInfo interface [ADSI],described, _ds_iadswinntsysteminfo, adsi.iadswinntsysteminfo, iads/IADsWinNTSystemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

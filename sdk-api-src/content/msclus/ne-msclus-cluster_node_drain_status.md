@@ -9,8 +9,6 @@ ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_NODE_DRAIN_STATUS, CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster], ClusterNodeDrainStatusCount, NodeDrainStatusCompleted, NodeDrainStatusFailed, NodeDrainStatusInProgress, NodeDrainStatusNotInitiated, clusapi/CLUSTER_NODE_DRAIN_STATUS, clusapi/ClusterNodeDrainStatusCount, clusapi/NodeDrainStatusCompleted, clusapi/NodeDrainStatusFailed, clusapi/NodeDrainStatusInProgress, clusapi/NodeDrainStatusNotInitiated, msclus/CLUSTER_NODE_DRAIN_STATUS, msclus/ClusterNodeDrainStatusCount, msclus/NodeDrainStatusCompleted, msclus/NodeDrainStatusFailed, msclus/NodeDrainStatusInProgress, msclus/NodeDrainStatusNotInitiated, mscs.cluster_node_drain_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

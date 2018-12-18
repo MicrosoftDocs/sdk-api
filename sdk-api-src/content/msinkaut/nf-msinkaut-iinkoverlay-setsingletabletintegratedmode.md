@@ -9,8 +9,6 @@ ms.assetid: 2d2cc966-6f3f-4195-9113-8b0cf4603eb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 96787996-c0fd-455f-952e-90ddc8640253, IInkOverlay interface [Tablet PC],SetSingleTabletIntegratedMode method, IInkOverlay.SetSingleTabletIntegratedMode, IInkOverlay::SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode, SetSingleTabletIntegratedMode method [Tablet PC], SetSingleTabletIntegratedMode method [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::SetSingleTabletIntegratedMode, tablet.inkoverlay_setsingletabletintegratedmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -161,7 +159,7 @@ When this method is called, the <a href="https://msdn.microsoft.com/6a939fd0-1e0
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

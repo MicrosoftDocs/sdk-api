@@ -9,8 +9,6 @@ ms.assetid: 6e3e3e1a-3a05-4464-9ead-abd647b3a721
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineAddToConference, TSPI_lineAddToConference function [TAPI 2.2], _tspi_tspi_lineaddtoconference, tspi.tspi_lineaddtoconference, tspi/TSPI_lineAddToConference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

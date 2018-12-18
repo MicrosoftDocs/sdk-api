@@ -9,8 +9,6 @@ ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], IAzNameResolver interface [Security],described, azroles/IAzNameResolver, security.iaznameresolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
@@ -55,7 +53,7 @@ The <b>IAzNameResolver</b> interface translates <a href="https://msdn.microsoft.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -9,8 +9,6 @@ ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://msdn.microsoft.com/en-us/library/Aa380668(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://msdn.microsoft.com/en-us/library/Aa380292(v=VS.85).aspx">CryptUIWizDigitalSign</a> function.
+The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://msdn.microsoft.com/3e4eb745-0c28-4ce5-870b-d24565ef0cae">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure allocated by the <a href="https://msdn.microsoft.com/1d01523e-d47b-49be-82c8-5e98f97be800">CryptUIWizDigitalSign</a> function.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>CryptUIWizFreeDigitalSignContext</b> function frees the <a href="https://
 
 ### -param pSignContext [in]
 
-A pointer to the   <a href="https://msdn.microsoft.com/en-us/library/Aa380668(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
+A pointer to the   <a href="https://msdn.microsoft.com/3e4eb745-0c28-4ce5-870b-d24565ef0cae">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a> structure to be freed.
 
 
 ## -returns
@@ -79,11 +77,11 @@ If the function fails, it returns zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380668(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/3e4eb745-0c28-4ce5-870b-d24565ef0cae">CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380292(v=VS.85).aspx">CryptUIWizDigitalSign</a>
+<a href="https://msdn.microsoft.com/1d01523e-d47b-49be-82c8-5e98f97be800">CryptUIWizDigitalSign</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -60,7 +58,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_BU
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the button.
+Contains one of the <a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick</a> values that indicate which mouse button was used to click the button.
 
 
 ### -param pt [in]
@@ -117,7 +115,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628717(v=VS.85).aspx">ITfLangBarItemButton</a>
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
 
 
 

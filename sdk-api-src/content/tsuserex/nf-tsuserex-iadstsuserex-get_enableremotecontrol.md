@@ -4,13 +4,11 @@ title: IADsTSUserEx::get_EnableRemoteControl
 author: windows-sdk-content
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.get_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, get_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

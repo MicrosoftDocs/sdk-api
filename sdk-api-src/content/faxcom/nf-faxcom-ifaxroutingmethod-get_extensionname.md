@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0e91.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtensionName property [Fax Service], ExtensionName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],ExtensionName property, IFaxRoutingMethod.ExtensionName, IFaxRoutingMethod.get_ExtensionName, IFaxRoutingMethod::ExtensionName, IFaxRoutingMethod::get_ExtensionName, _mfax_ifaxroutingmethod_get_extensionname, fax._mfax_ifaxroutingmethod_get_extensionname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_extensionname_cpp, faxcom/IFaxRoutingMethod::ExtensionName, faxcom/IFaxRoutingMethod::get_ExtensionName, get_ExtensionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <a href="https://msdn.microsoft.com/c8570861-8610-4623-82bc-331492fa7dde">IFaxRoutingMethod::get_ImageName</a> property to uniquely identify the fax routing extension DLL that exports a fax routing method. Note that it is possible for multiple routing extensions to have the same user-friendly name.
+A fax client application can use the <a href="https://msdn.microsoft.com/en-us/library/ms690905(v=VS.85).aspx">IFaxRoutingMethod::get_ImageName</a> property to uniquely identify the fax routing extension DLL that exports a fax routing method. Note that it is possible for multiple routing extensions to have the same user-friendly name.
 
 <b>IFaxRoutingMethod::get_ExtensionName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -87,7 +85,7 @@ A fax client application can use the <a href="https://msdn.microsoft.com/c857086
 
 
 
-<a href="https://msdn.microsoft.com/c8570861-8610-4623-82bc-331492fa7dde">IFaxRoutingMethod::get_ImageName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690905(v=VS.85).aspx">IFaxRoutingMethod::get_ImageName</a>
 
 
 

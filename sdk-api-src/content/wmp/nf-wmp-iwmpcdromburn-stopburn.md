@@ -9,8 +9,6 @@ ms.assetid: cf001a08-97e9-4f88-919a-54651e3bfd5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],stopBurn method, IWMPCdromBurn.stopBurn, IWMPCdromBurn::stopBurn, IWMPCdromBurnstopBurn, stopBurn, stopBurn method [Windows Media Player], stopBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_stopburn, wmp/IWMPCdromBurn::stopBurn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,11 +103,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/35357dca-4093-4c83-9cc9-f0dee1241e76">IWMPCdromBurn::startBurn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563094(v=VS.85).aspx">IWMPCdromBurn::startBurn</a>
  
 
  

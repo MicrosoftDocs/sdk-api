@@ -9,8 +9,6 @@ ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, AVIStreamHeader, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: avifmt.h
 req.include-header: Aviriff.h
@@ -167,7 +165,7 @@ Language tag.
 
 ### -field dwInitialFrames
 
-Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/3b8a326c-ebb2-4fb7-a167-7382d2e78ec2">AVIMAINHEADER</a> structure.
+Specifies how far audio data is skewed ahead of the video frames in interleaved files. Typically, this is about 0.75 seconds. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member. For more information, see the remarks for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd318180(v=VS.85).aspx">AVIMAINHEADER</a> structure.
 
 
 ### -field dwScale
@@ -232,7 +230,7 @@ Specifies a FOURCC code. The value must be 'strh'.
 
 
 
-Some of the members of this structure are also present in the <a href="https://msdn.microsoft.com/3b8a326c-ebb2-4fb7-a167-7382d2e78ec2">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
+Some of the members of this structure are also present in the <a href="https://msdn.microsoft.com/en-us/library/Dd318180(v=VS.85).aspx">AVIMAINHEADER</a> structure. The data in the <b>AVIMAINHEADER</b> structure applies to the whole file, while the data in the <b>AVISTREAMHEADER</b> structure applies to one stream.
       
 
 The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equivalent to this structure, but omits the <b>fcc</b> and <b>cb</b> members.

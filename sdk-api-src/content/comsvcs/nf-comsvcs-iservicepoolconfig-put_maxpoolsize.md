@@ -9,8 +9,6 @@ ms.assetid: 618d4969-c29e-4944-8954-a982a90f3c15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MaxPoolSize method, IServicePoolConfig.put_MaxPoolSize, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+],IServicePoolConfig interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

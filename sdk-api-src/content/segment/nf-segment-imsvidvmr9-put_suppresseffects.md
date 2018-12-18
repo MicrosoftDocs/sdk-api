@@ -9,8 +9,6 @@ ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -114,7 +112,7 @@ For applications based on the Windows Graphics Device Interface (GDI), these set
 
 If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control does not modify any of these system settings.
 
-The default value for this property is VARIANT_TRUE. Set this property to VARIANT_FALSE if your application wants to control all of the system settings; for example, if you are providing a custom allocator-presenter (see <a href="https://msdn.microsoft.com/f654adac-12b6-47c7-99d4-0612b1532df4">IMSVidVMR9::SetAllocator</a>).
+The default value for this property is VARIANT_TRUE. Set this property to VARIANT_FALSE if your application wants to control all of the system settings; for example, if you are providing a custom allocator-presenter (see <a href="https://msdn.microsoft.com/en-us/library/Dd694766(v=VS.85).aspx">IMSVidVMR9::SetAllocator</a>).
 
 
 

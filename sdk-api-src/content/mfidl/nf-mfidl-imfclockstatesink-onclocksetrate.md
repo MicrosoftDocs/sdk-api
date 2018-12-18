@@ -9,8 +9,6 @@ ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

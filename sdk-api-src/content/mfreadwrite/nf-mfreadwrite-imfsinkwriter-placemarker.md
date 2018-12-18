@@ -9,8 +9,6 @@ ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

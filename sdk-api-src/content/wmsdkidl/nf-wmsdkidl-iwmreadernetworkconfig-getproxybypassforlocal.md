@@ -9,8 +9,6 @@ ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,11 +127,11 @@ Insufficient memory to complete task
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a012718-a815-4e01-97f8-69ed2ba881ea">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743546(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
  
 
  

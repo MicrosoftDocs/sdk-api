@@ -9,8 +9,6 @@ ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

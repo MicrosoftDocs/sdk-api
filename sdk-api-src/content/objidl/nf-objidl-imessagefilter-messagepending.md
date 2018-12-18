@@ -9,8 +9,6 @@ ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

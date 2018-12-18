@@ -4,13 +4,11 @@ title: ITsSbBaseNotifySink
 author: windows-sdk-content
 description: Exposes methods that report status and error messages to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 11ef1bd4-301f-456b-a68b-2f32b75ac5ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], ITsSbBaseNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbBaseNotifySink, termserv.itssbbasenotifysink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

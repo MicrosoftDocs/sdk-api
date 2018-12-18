@@ -9,8 +9,6 @@ ms.assetid: 2e1f0d1c-060f-45b7-9194-591e45668b52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevelScalar method, IAudioEndpointVolume.SetChannelVolumeLevelScalar, IAudioEndpointVolume::SetChannelVolumeLevelScalar, IAudioEndpointVolumeSetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar method [Core Audio], SetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevelScalar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

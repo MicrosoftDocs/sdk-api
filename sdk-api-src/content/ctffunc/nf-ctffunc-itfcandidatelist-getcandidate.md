@@ -9,8 +9,6 @@ ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -64,7 +62,7 @@ Specifies the zero-based index of the candidate string to obtain.
 
 ### -param ppCand [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538497(v=VS.85).aspx">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -133,7 +131,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a>
+<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
 
 
 

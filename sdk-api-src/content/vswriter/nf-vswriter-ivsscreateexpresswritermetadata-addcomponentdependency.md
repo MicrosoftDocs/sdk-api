@@ -9,8 +9,6 @@ ms.assetid: 1d7e28de-8bb7-4ab4-bcdd-554d47007233
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method, AddComponentDependency method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponentDependency method, IVssCreateExpressWriterMetadata.AddComponentDependency, IVssCreateExpressWriterMetadata::AddComponentDependency, base.ivsscreateexpresswritermetadata_addcomponentdependency, vswriter/IVssCreateExpressWriterMetadata::AddComponentDependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

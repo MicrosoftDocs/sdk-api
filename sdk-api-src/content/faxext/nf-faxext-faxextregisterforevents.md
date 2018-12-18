@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxextconfigref_9ysz.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtRegisterForEvents, FaxExtRegisterForEvents function [Fax Service], _mfax_faxextregisterforevents, fax._mfax_faxextregisterforevents, faxext/FaxExtRegisterForEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxext.h
 req.include-header: 

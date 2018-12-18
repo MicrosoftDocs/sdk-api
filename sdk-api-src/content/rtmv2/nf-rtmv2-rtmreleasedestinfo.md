@@ -9,8 +9,6 @@ ms.assetid: 43992abd-7e52-4d1b-b693-f437f5ba77cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmReleaseDestInfo, RtmReleaseDestInfo function [RAS], _rtmv2ref_rtmreleasedestinfo, rras.rtmreleasedestinfo, rtmv2/RtmReleaseDestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

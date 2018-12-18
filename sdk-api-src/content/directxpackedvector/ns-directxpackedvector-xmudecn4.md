@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUDECN4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUDECN4, XMUDECN4 structure [DirectX Math Support APIs], directxpackedvector/XMUDECN4, dxmath.xmudecn4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -55,9 +53,9 @@ A 4D vector for storing unsigned, normalized integer values as 10 bit unsigned x
     
 
 For a list of more functionality such as constructors and operators that are available
-	using <code>XMUDECN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/b788f66d-43e0-4300-b546-b6a710bee7e8">XMUDECN4 Extensions</a>.
+	using <code>XMUDECN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415454(v=VS.85).aspx">XMUDECN4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -132,7 +130,7 @@ You can use <code>XMUDECN4</code> to load instances of <a href="https://msdn.mic
 	    the components to an <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code>using <a href="https://msdn.microsoft.com/497c3f21-02de-470a-bbd1-c037a37e3f3a">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMUDECN4</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420379(v=VS.85).aspx">XMStoreUDecN4</a>, which multiplies the x-, y-, and z-components by
 	    1023.0f, multiplies the w-component by 3.0f, and rounds the result before assigning the values 
       to the appropriate <code>XMUDECN4</code> members.
 	
@@ -154,7 +152,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b788f66d-43e0-4300-b546-b6a710bee7e8">XMUDECN4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415454(v=VS.85).aspx">XMUDECN4 Extensions</a>
  
 
  

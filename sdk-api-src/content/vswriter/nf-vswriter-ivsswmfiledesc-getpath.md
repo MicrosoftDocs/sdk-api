@@ -9,8 +9,6 @@ ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method [VSS], GetPath method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetPath method, IVssWMFiledesc.GetPath, IVssWMFiledesc::GetPath, _win32_ivsswmfiledesc_getpath, base.ivsswmfiledesc_getpath, vswriter/IVssWMFiledesc::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

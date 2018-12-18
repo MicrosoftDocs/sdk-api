@@ -9,8 +9,6 @@ ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connected property, ITaskService.Connected, ITaskService.get_Connected, ITaskService::Connected, ITaskService::get_Connected, get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

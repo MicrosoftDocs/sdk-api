@@ -9,8 +9,6 @@ ms.assetid: c9c3295e-716f-4093-b437-f6c405f5bc7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Initialize method, IAMMultiMediaStream.Initialize, IAMMultiMediaStream::Initialize, IAMMultiMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Initialize, dshow.iammultimediastream_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>Initialize</code> method initializes the multimedia stream object.
 
 ### -param StreamType [in]
 
-Member of the <a href="https://msdn.microsoft.com/07ab5ded-28b8-4cac-b4da-76f07ad351ef">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumeration, specifying whether the streams are read-only, write-only, or read/write.
 
 
 ### -param dwFlags [in]
@@ -93,7 +91,7 @@ Must be one of the following values:
 
 ### -param pFilterGraph [in]
 
-[optional] Pointer to the <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
+[optional] Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, it specifies a filter graph that the multimedia stream object will use. Otherwise, the multimedia stream object creates a new filter graph.
 
 
 ## -returns
@@ -149,7 +147,7 @@ If you specify AMMSF_NOGRAPHTHREAD in the <i>dwFlags</i> parameter, the calling 
 
 
 
-<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
  
 
  

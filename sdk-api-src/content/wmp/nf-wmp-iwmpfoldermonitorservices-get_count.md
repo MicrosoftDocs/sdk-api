@@ -9,8 +9,6 @@ ms.assetid: cf80820a-d126-4af6-ba5e-c1188c5c00a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_count method, IWMPFolderMonitorServices.get_count, IWMPFolderMonitorServices::get_count, IWMPFolderMonitorServicesget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_count, wmp/IWMPFolderMonitorServices::get_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>get_count</b> method retrieves the count of monitored folders.
 
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
  
 
  

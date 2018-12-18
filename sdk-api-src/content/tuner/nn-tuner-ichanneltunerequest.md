@@ -9,8 +9,6 @@ ms.assetid: cdb65c1a-bd86-4dc8-a72f-c08e36999880
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IChannelTuneRequest, IChannelTuneRequest interface [Microsoft TV Technologies], IChannelTuneRequest interface [Microsoft TV Technologies],described, IChannelTuneRequestInterface, mstv.ichanneltunerequest, tuner/IChannelTuneRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cb2f544b-02fd-4a48-838f-56815710a5bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ITSDT.GetTableDescriptorByTag, ITSDT::GetTableDescriptorByTag, ITSDTGetTableDescriptorByTag, mpeg2psiparser/ITSDT::GetTableDescriptorByTag, mstv.itsdt_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -165,7 +163,7 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 
 
 
-<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
  
 
  

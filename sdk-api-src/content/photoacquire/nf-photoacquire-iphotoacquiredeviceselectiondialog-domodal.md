@@ -9,8 +9,6 @@ ms.assetid: eb79c07b-3b80-4f2b-b1f1-2394e1c7a30b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireDeviceSelectionDialog.DoModal, IPhotoAcquireDeviceSelectionDialog::DoModal, IPhotoAcquireDeviceSelectionDialogDoModal, photoacquire/IPhotoAcquireDeviceSelectionDialog::DoModal, picacq.iphotoacquiredeviceselectiondialog_domodal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

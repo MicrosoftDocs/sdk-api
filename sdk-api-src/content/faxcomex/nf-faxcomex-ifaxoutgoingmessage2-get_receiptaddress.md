@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\rec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],ReceiptAddress property, IFaxOutgoingMessage2.ReceiptAddress, IFaxOutgoingMessage2.get_ReceiptAddress, IFaxOutgoingMessage2::ReceiptAddress, IFaxOutgoingMessage2::get_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.receiptaddress, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receiptaddress_cpp, fax._mfax_faxoutgoingmessage_receiptaddress, faxcomex/IFaxOutgoingMessage2::ReceiptAddress, faxcomex/IFaxOutgoingMessage2::get_ReceiptAddress, get_ReceiptAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ Specifies the address to which the delivery report is sent.
 
 
 
-The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/507c6944-a399-42a3-9118-6f05f204e358">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
+The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa358988(v=VS.85).aspx">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
 
 <table class="clsStd">
 <tr>
-<th>Value of <a href="https://msdn.microsoft.com/507c6944-a399-42a3-9118-6f05f204e358">IFaxOutgoingMessage2::ReceiptType</a> property</th>
+<th>Value of <a href="https://msdn.microsoft.com/en-us/library/Aa358988(v=VS.85).aspx">IFaxOutgoingMessage2::ReceiptType</a> property</th>
 <th>Type of address</th>
 </tr>
 <tr>
@@ -91,11 +89,11 @@ The type of address will vary according to the value of the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6468db0-ea8d-4460-b389-43608337bd96">IFaxOutgoingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358984(v=VS.85).aspx">IFaxOutgoingMessage2</a>
  
 
  

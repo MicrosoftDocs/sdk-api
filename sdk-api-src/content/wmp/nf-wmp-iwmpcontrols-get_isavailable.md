@@ -9,8 +9,6 @@ ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -158,27 +156,27 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d54a4bb7-855f-4807-89b5-176b7fac2edd">IWMPControls2::step</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563181(v=VS.85).aspx">IWMPControls2::step</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef8a3f0e-b424-43ab-bb42-83e9f80f5d19">IWMPControls::pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563204(v=VS.85).aspx">IWMPControls::pause</a>
 
 
 
-<a href="https://msdn.microsoft.com/45b5634b-6d23-4e61-90e4-ef0cc9d90a14">IWMPControls::play</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563205(v=VS.85).aspx">IWMPControls::play</a>
 
 
 
-<a href="https://msdn.microsoft.com/190cec53-5cd9-4bd0-b8d9-23c5389fe231">IWMPControls::put_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563208(v=VS.85).aspx">IWMPControls::put_currentItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/97ab009d-5ad9-4049-a212-1ef95941f951">IWMPControls::stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563211(v=VS.85).aspx">IWMPControls::stop</a>
  
 
  

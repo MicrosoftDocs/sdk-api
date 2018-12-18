@@ -9,8 +9,6 @@ ms.assetid: 1F0B77C8-82BA-4A7B-A411-CFEFDC9B4CE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Deadline property [Task Scheduler], Deadline property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Deadline property, IMaintenanceSettings.Deadline, IMaintenanceSettings.get_Deadline, IMaintenanceSettings::Deadline, IMaintenanceSettings::get_Deadline, IMaintenanceSettings::put_Deadline, get_Deadline, taskschd.imaintenancesettings_deadline, taskschd/IMaintenanceSettings::Deadline, taskschd/IMaintenanceSettings::get_Deadline, taskschd/IMaintenanceSettings::put_Deadline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

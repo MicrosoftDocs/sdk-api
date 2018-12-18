@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\toolbar\functions\createtoolbarex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateToolbarEx, CreateToolbarEx function [Windows Controls], _win32_CreateToolbarEx, _win32_CreateToolbarEx_cpp, commctrl/CreateToolbarEx, controls.CreateToolbarEx, controls._win32_CreateToolbarEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -61,14 +59,14 @@ Creates a toolbar window and adds the specified buttons to the toolbar.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the parent window for the toolbar. 
 
 
 ### -param ws
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Window styles for the toolbar. The <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">WS_CHILD</a> style is included by default. This parameter can also include a combination of styles as discussed in <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>. 
 
@@ -157,7 +155,7 @@ Size of a <a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).as
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Returns the window handle to the toolbar if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
 

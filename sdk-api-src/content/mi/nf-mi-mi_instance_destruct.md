@@ -9,8 +9,6 @@ ms.assetid: 2ecbf165-0918-489c-8e70-b48c31263aed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Instance_Destruct, MI_Instance_Destruct function [Windows Management Infrastructure (MI)], mi/MI_Instance_Destruct, wmi_v2.mi_instance_destruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

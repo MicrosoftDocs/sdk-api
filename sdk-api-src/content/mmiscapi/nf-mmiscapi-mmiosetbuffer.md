@@ -9,8 +9,6 @@ ms.assetid: 78bee0a3-1f9e-4268-8070-8267cc6aab5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioSetBuffer, mmioSetBuffer, mmioSetBuffer function [Windows Multimedia], mmsystem/mmioSetBuffer, multimedia.mmiosetbuffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

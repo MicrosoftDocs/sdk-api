@@ -9,8 +9,6 @@ ms.assetid: ad1082af-9cba-4427-bacb-e552910f8e16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],NotifyNewMedia method, IWMPEffects2.NotifyNewMedia, IWMPEffects2::NotifyNewMedia, IWMPEffectsNotifyNewMedia, NotifyNewMedia, NotifyNewMedia method [Windows Media Player], NotifyNewMedia method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::NotifyNewMedia, wmp.iwmpeffects2_notifynewmedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -80,7 +78,7 @@ This method returns an <b>HRESULT</b>.
 
 
 
-<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
  
 
  

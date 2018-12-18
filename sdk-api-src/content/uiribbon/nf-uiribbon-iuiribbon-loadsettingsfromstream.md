@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\loadsettin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIRibbon interface [Windows Ribbon],LoadSettingsFromStream method, IUIRibbon.LoadSettingsFromStream, IUIRibbon::LoadSettingsFromStream, LoadSettingsFromStream, LoadSettingsFromStream method [Windows Ribbon], LoadSettingsFromStream method [Windows Ribbon],IUIRibbon interface, scenicintent_IUIRibbon_LoadSettingsFromStream, uiribbon/IUIRibbon::LoadSettingsFromStream, windowsribbon.windowsribbon_iuiribbon_loadsettingsfromstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

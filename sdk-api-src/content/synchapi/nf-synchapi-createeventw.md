@@ -9,8 +9,6 @@ ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

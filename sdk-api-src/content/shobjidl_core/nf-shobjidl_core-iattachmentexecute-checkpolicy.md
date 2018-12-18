@@ -9,8 +9,6 @@ ms.assetid: ff6a0aa8-4d14-4074-b084-be117b01c77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckPolicy, CheckPolicy method [Windows Shell], CheckPolicy method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],CheckPolicy method, IAttachmentExecute.CheckPolicy, IAttachmentExecute::CheckPolicy, _win32_IAttachmentExecute_CheckPolicy, shell.IAttachmentExecute_CheckPolicy, shobjidl_core/IAttachmentExecute::CheckPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

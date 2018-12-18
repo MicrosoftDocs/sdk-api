@@ -9,8 +9,6 @@ ms.assetid: 049da2d5-4c31-4311-8dac-30545f8bf39b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetvolume, phoneGetVolume, phoneGetVolume function [TAPI 2.2], tapi/phoneGetVolume, tapi2.phonegetvolume"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

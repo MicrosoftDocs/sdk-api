@@ -9,8 +9,6 @@ ms.assetid: 3200abd3-5f95-48c5-acd9-8094c0072039
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_IS_RESOURCE_CLASS_EQUAL, PRESUTIL_IS_RESOURCE_CLASS_EQUAL function [Failover Cluster], ResUtilIsResourceClassEqual, ResUtilIsResourceClassEqual function [Failover Cluster], _wolf_resutilisresourceclassequal, mscs.resutilisresourceclassequal, resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL, resapi/ResUtilIsResourceClassEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

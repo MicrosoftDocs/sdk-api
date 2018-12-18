@@ -9,8 +9,6 @@ ms.assetid: 50b6f391-98a4-4276-840f-028cc18e99ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStdAccessibleObject, CreateStdAccessibleObject function [Windows Accessibility], _msaa_CreateStdAccessibleObject, msaa.createstdaccessibleobject, oleacc/CreateStdAccessibleObject, winauto.createstdaccessibleobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClosePackageInfo, ClosePackageInfo function [App packaging and management], appmodel/ClosePackageInfo, appxpkg.closepackageinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

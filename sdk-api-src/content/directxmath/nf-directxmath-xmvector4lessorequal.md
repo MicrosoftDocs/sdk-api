@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4LessOrEqual(XMVECTOR,XMV
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4LessOrEqual, XMVector4LessOrEqual, XMVector4LessOrEqual method [DirectX Math Support APIs], dxmath.xmvector4lessorequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

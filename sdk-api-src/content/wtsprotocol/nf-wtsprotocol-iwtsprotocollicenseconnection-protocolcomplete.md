@@ -4,13 +4,11 @@ title: IWTSProtocolLicenseConnection::ProtocolComplete
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::ProtocolComplete is no longer available. Instead, use IWRdsProtocolLicenseConnection::ProtocolComplete.
 old-location: termserv\iwtsprotocollicenseconnection_protocolcomplete.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3a615e25-51d0-49eb-ae0f-185fd3a0ea23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWTSProtocolLicenseConnection.ProtocolComplete, IWTSProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWTSProtocolLicenseConnection::ProtocolComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

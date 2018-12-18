@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

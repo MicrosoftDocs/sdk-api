@@ -9,8 +9,6 @@ ms.assetid: 921ab9fe-757f-4856-9fbc-b615bf92d90f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetStreamsSelected method, IWMReaderAdvanced.SetStreamsSelected, IWMReaderAdvanced::SetStreamsSelected, IWMReaderAdvancedSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setstreamsselected, wmsdkidl/IWMReaderAdvanced::SetStreamsSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -76,7 +74,7 @@ Pointer to an array containing the stream numbers. Stream numbers are in the ran
 
 ### -param pSelections [in]
 
-Pointer to an array, of equal length to <i>pwStreamNumbers</i>, with each entry containing one member of the <a href="https://msdn.microsoft.com/7191d608-1a25-48c0-858b-c5e93f9d8e6e">WMT_STREAM_SELECTION</a> enumeration type.
+Pointer to an array, of equal length to <i>pwStreamNumbers</i>, with each entry containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757857(v=VS.85).aspx">WMT_STREAM_SELECTION</a> enumeration type.
 
 
 ## -returns
@@ -124,9 +122,9 @@ The method failed for an unspecified reason.
 
 This method enables the selected state of multiple streams to be changed simultaneously. Multiple streams can then be turned on or off at the exact time required. For this reason, the parameters of this method and the <b>GetStreamSelected</b> method are not identical.
 
-When selecting streams manually, you should select only one stream at a time from each set of mutually exclusive streams in a file. The SDK does not prevent you from selecting multiple mutually exclusive streams, but the samples for all mutually exclusive streams will be delivered to <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> using the same output number. This makes it difficult to differentiate between samples from the various streams.
+When selecting streams manually, you should select only one stream at a time from each set of mutually exclusive streams in a file. The SDK does not prevent you from selecting multiple mutually exclusive streams, but the samples for all mutually exclusive streams will be delivered to <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> using the same output number. This makes it difficult to differentiate between samples from the various streams.
 
-To deliver samples by stream number, you must receive uncompressed stream samples. You can receive stream samples for a specific stream by calling <a href="https://msdn.microsoft.com/3fb39726-7f43-41ec-9ead-38456b5cd964">IWMReaderAdvanced::SetReceiveStreamSamples</a>. You must also implement <b>IWMReaderCallbackAdvanced::OnStreamSample</b>.
+To deliver samples by stream number, you must receive uncompressed stream samples. You can receive stream samples for a specific stream by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743487(v=VS.85).aspx">IWMReaderAdvanced::SetReceiveStreamSamples</a>. You must also implement <b>IWMReaderCallbackAdvanced::OnStreamSample</b>.
 
 
 
@@ -136,11 +134,11 @@ To deliver samples by stream number, you must receive uncompressed stream sample
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/083fc743-79be-43c6-ac4b-458c74f42fa0">IWMReaderAdvanced::GetStreamSelected</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743478(v=VS.85).aspx">IWMReaderAdvanced::GetStreamSelected</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 5638a5d6-30f3-43eb-b054-cab85948796c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyHostName method, IWMReaderNetworkConfig.SetProxyHostName, IWMReaderNetworkConfig::SetProxyHostName, IWMReaderNetworkConfigSetProxyHostName, SetProxyHostName, SetProxyHostName method [windows Media Format], SetProxyHostName method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyhostname, wmsdkidl/IWMReaderNetworkConfig::SetProxyHostName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,11 +125,11 @@ By default, the proxy host name is <b>NULL</b>, and must be set if a proxy is be
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7411ed6-90ee-450c-bb06-408469036d22">IWMReaderNetworkConfig::GetProxyHostName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743532(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyHostName</a>
  
 
  

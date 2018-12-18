@@ -9,8 +9,6 @@ ms.assetid: 41056795-3E12-448E-9341-FB4DD4E7D079
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], BeginWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],BeginWriteSample method, IMFSampleOutputStream.BeginWriteSample, IMFSampleOutputStream::BeginWriteSample, mf.imfsampleoutputstream_beginwritesample, mfobjects/IMFSampleOutputStream::BeginWriteSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

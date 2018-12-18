@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMXDEC4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMXDEC4, XMXDEC4 structure [DirectX Math Support APIs], directxpackedvector/XMXDEC4, dxmath.xmxdec4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the
 	w-component as a 2 bit unsigned integer value.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -120,7 +118,7 @@ TBD
 	    <a href="https://msdn.microsoft.com/e137bbc4-2f51-4758-9e52-a17ea2444da0">XMLoadXDec4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMXDEC4</code> with <a href="https://msdn.microsoft.com/608e14b4-3d0b-4cd1-9342-72deaafb408f">XMStoreXDec4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMXDEC4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420398(v=VS.85).aspx">XMStoreXDec4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -140,7 +138,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ccdb5c7c-801a-4eaf-bb0c-4b1c7e003541">XMXDEC4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415541(v=VS.85).aspx">XMXDEC4 Extensions</a>
  
 
  

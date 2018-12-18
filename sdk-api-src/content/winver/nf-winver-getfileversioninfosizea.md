@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\v
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileVersionInfoSize, GetFileVersionInfoSize function [Menus and Other Resources], GetFileVersionInfoSizeA, GetFileVersionInfoSizeW, _win32_GetFileVersionInfoSize, _win32_getfileversioninfosize_cpp, menurc.getfileversioninfosize, winui._win32_getfileversioninfosize, winver/GetFileVersionInfoSize, winver/GetFileVersionInfoSizeA, winver/GetFileVersionInfoSizeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h

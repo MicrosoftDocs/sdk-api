@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPointNormal(XMVECTOR,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneFromPointNormal, XMPlaneFromPointNormal, XMPlaneFromPointNormal method [DirectX Math Support APIs], dxmath.xmplanefrompointnormal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

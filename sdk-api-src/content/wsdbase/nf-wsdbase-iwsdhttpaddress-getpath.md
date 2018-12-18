@@ -9,8 +9,6 @@ ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

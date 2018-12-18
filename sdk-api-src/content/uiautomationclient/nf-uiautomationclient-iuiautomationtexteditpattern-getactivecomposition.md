@@ -9,8 +9,6 @@ ms.assetid: F6503B77-19FB-6D00-D20C-E3D3F0EC28DA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActiveComposition, GetActiveComposition method [Windows Accessibility], GetActiveComposition method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetActiveComposition method, IUIAutomationTextEditPattern.GetActiveComposition, IUIAutomationTextEditPattern::GetActiveComposition, uiautomationclient/IUIAutomationTextEditPattern::GetActiveComposition, winauto.uiauto_IUIAutomationTextEditPattern_GetActiveComposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

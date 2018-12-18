@@ -9,8 +9,6 @@ ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncServices interface [Windows Media Player],getDevice method, IWMPSyncServices.getDevice, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -124,7 +122,7 @@ Windows Media Player is currently busy initializing devices. Please try again la
 
 
 
-<a href="https://msdn.microsoft.com/57db3646-2f79-4087-98b2-2bc9d2f3c866">IWMPSyncServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563748(v=VS.85).aspx">IWMPSyncServices Interface</a>
  
 
  

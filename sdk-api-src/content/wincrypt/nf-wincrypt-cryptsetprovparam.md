@@ -9,8 +9,6 @@ ms.assetid: 98306a7b-b218-4eb4-99f0-0b5bcc632a13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptSetProvParam, CryptSetProvParam function [Security], PP_CLIENT_HWND, PP_DELETEKEY, PP_KEYEXCHANGE_ALG, PP_KEYEXCHANGE_KEYSIZE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_PIN_PROMPT_STRING, PP_ROOT_CERTSTORE, PP_SECURE_KEYEXCHANGE_PIN, PP_SECURE_SIGNATURE_PIN, PP_SIGNATURE_ALG, PP_SIGNATURE_KEYSIZE, PP_SIGNATURE_PIN, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_UI_PROMPT, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, _crypto2_cryptsetprovparam, security.cryptsetprovparam, wincrypt/CryptSetProvParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 
@@ -206,7 +204,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> structure that is passed to the <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
+For a smart card provider, sets the search string that is displayed to the user as a prompt to insert the smart card. This string is passed as the <b>lpstrSearchDesc</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a> structure that is passed to the <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> function. This string is used for the lifetime of the calling process.
 
 The <i>pbData</i> parameter is a pointer to a null-terminated Unicode string.
 

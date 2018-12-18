@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CharLower, CharLower function [Menus and Other Resources], CharLowerA, CharLowerW, _win32_CharLower, _win32_charlower_cpp, menurc.charlower, winui._win32_charlower, winuser/CharLower, winuser/CharLowerA, winuser/CharLowerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

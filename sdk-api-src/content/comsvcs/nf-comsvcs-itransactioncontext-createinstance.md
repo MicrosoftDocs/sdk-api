@@ -9,8 +9,6 @@ ms.assetid: 3dc08700-0872-4d60-a968-cffed974c7b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],CreateInstance method, ITransactionContext.CreateInstance, ITransactionContext::CreateInstance, _cos_ITransactionContext_CreateInstance, comsvcs/ITransactionContext::CreateInstance, cos.itransactioncontext_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

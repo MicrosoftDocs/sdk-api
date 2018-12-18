@@ -9,8 +9,6 @@ ms.assetid: 27be6104-9ca4-48d7-aeda-5b633460e252
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetInformation method, IMultiMediaStream.GetInformation, IMultiMediaStream::GetInformation, IMultiMediaStreamGetInformation, dshow.imultimediastream_getinformation, mmstream/IMultiMediaStream::GetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -94,7 +92,7 @@ This parameter can be <b>NULL</b>.
 
 ### -param pStreamType [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/07ab5ded-28b8-4cac-b4da-76f07ad351ef">STREAM_TYPE</a> enumeration. This value indicates whether the multimedia stream is read-only, write-only, or read/write. This parameter can be <b>NULL</b>.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumeration. This value indicates whether the multimedia stream is read-only, write-only, or read/write. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -141,7 +139,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

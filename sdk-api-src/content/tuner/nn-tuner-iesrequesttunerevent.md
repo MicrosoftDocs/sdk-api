@@ -9,8 +9,6 @@ ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

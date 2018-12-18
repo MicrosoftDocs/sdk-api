@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_cleardepthstencilview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 35b5c5f1-9875-7367-51bd-ef0f9a3ea798, ClearDepthStencilView, ClearDepthStencilView method [Direct3D 10], ClearDepthStencilView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearDepthStencilView method, ID3D10Device.ClearDepthStencilView, ID3D10Device::ClearDepthStencilView, d3d10/ID3D10Device::ClearDepthStencilView, direct3d10.id3d10device_cleardepthstencilview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -68,14 +66,14 @@ Pointer to the depth stencil to be cleared.
 
 ### -param ClearFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Which parts of the buffer to clear. See <a href="https://msdn.microsoft.com/en-us/library/Bb204900(v=VS.85).aspx">D3D10_CLEAR_FLAG</a>.
 
 
 ### -param Depth [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Clear the depth buffer with this value. This value will be clamped between 0 and 1.
 

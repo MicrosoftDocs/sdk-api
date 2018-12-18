@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SetItemState, TreeView_SetItemState macro [Windows Controls], _win32_TreeView_SetItemState, _win32_TreeView_SetItemState_cpp, commctrl/TreeView_SetItemState, controls.TreeView_SetItemState, controls._win32_TreeView_SetItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets a tree-view item's state attributes. You can use this macro or send the <a 
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -74,14 +72,14 @@ Handle to the item.
 
 ### -param data
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Value that is equivalent to the <b>state</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a>. 
 
 
 ### -param _mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Mask used to select the states to be set. It is equivalent to the 
 					<b>stateMask</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a>. 

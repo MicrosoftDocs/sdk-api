@@ -9,8 +9,6 @@ ms.assetid: 8d512370-bfe5-4a5a-b34b-c1096b6473a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IConsoleNameSpace interface, GetNextItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetNextItem method, IConsoleNameSpace.GetNextItem, IConsoleNameSpace2 interface [MMC],GetNextItem method, IConsoleNameSpace2::GetNextItem, IConsoleNameSpace::GetNextItem, _slate_iconsolenamespace2_getnextitem, mmc.iconsolenamespace2_getnextitem, mmc/IConsoleNameSpace2::GetNextItem, mmc/IConsoleNameSpace::GetNextItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
@@ -97,7 +95,7 @@ If there is no item next to the given item, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

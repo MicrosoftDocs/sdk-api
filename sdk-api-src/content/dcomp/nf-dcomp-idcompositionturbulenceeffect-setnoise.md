@@ -9,8 +9,6 @@ ms.assetid: 6EF5C8D0-C614-4520-BAE5-A3C8E609FB64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNoise method, IDCompositionTurbulenceEffect.SetNoise, IDCompositionTurbulenceEffect::SetNoise, SetNoise, SetNoise method [DirectComposition], SetNoise method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNoise, directcomp.idcompositionturbulenceeffect_setnoise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ The turbulence noise mode. Indicates whether to generate a bitmap based on Fract
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>
  
 
  

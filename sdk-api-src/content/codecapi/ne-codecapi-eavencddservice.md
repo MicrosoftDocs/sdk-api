@@ -9,8 +9,6 @@ ms.assetid: 25673019-6c26-4b2c-a394-81177a6c00c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncDDService, codecapi/eAVEncDDService_C, codecapi/eAVEncDDService_CM, codecapi/eAVEncDDService_D, codecapi/eAVEncDDService_E, codecapi/eAVEncDDService_HI, codecapi/eAVEncDDService_ME, codecapi/eAVEncDDService_VI, codecapi/eAVEncDDService_VO, dshow.eavencddservice, eAVEncDDService, eAVEncDDService enumeration [DirectShow], eAVEncDDServiceEnumeration, eAVEncDDService_C, eAVEncDDService_CM, eAVEncDDService_D, eAVEncDDService_E, eAVEncDDService_HI, eAVEncDDService_ME, eAVEncDDService_VI, eAVEncDDService_VO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -110,7 +108,7 @@ Associated service: voice over.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

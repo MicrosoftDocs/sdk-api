@@ -9,8 +9,6 @@ ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
@@ -104,7 +102,7 @@ The <a href="https://msdn.microsoft.com/24131b04-870a-4841-b9cd-7a09497bd2e6">SC
 
 The flags designated by the <b>fWordStop</b>, <b>fSoftBreak</b>, and <b>fWhiteSpace</b> members of <a href="https://msdn.microsoft.com/24131b04-870a-4841-b9cd-7a09497bd2e6">SCRIPT_LOGATTR</a> are only available through <b>ScriptBreak</b>.
 
-Most shaping engines that identify invalid sequences set the flag indicated by the <b>fInvalid</b> member of <a href="https://msdn.microsoft.com/24131b04-870a-4841-b9cd-7a09497bd2e6">SCRIPT_LOGATTR</a> in <b>ScriptBreak</b>. The <b>fInvalidLogAttr</b> member of <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> identifies the applicable scripts.
+Most shaping engines that identify invalid sequences set the flag indicated by the <b>fInvalid</b> member of <a href="https://msdn.microsoft.com/24131b04-870a-4841-b9cd-7a09497bd2e6">SCRIPT_LOGATTR</a> in <b>ScriptBreak</b>. The <b>fInvalidLogAttr</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a> identifies the applicable scripts.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>

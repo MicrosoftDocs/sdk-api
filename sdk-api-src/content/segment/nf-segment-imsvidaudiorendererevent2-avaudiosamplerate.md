@@ -9,8 +9,6 @@ ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVAudioSampleRate, AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioSampleRate method, IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f37d3abb-e8ad-4aae-884a-1c6c4fa445e2">IMSVidAudioRendererEvent2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
  
 
  

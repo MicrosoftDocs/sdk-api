@@ -9,8 +9,6 @@ ms.assetid: 63a00f6d-f733-4b25-bfe2-4f841b9694fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates interface [Tablet PC],Item method, IInkRecognitionAlternates.Item, IInkRecognitionAlternates::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognitionAlternates interface, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

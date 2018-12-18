@@ -9,8 +9,6 @@ ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE function [Failover Cluster], ResUtilVerifyPropertyTable, ResUtilVerifyPropertyTable function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE, resapi/ResUtilVerifyPropertyTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

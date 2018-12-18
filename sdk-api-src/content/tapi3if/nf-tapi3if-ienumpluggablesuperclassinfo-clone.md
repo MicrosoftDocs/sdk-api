@@ -9,8 +9,6 @@ ms.assetid: ec56cac7-451b-4866-85cd-8a2dea12d1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, IEnumPluggableSuperclassInfo interface [TAPI 2.2],Clone method, IEnumPluggableSuperclassInfo.Clone, IEnumPluggableSuperclassInfo::Clone, _tapi3_ienumpluggablesuperclassinfo_clone, tapi3.ienumpluggablesuperclassinfo_clone, tapi3if/IEnumPluggableSuperclassInfo::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

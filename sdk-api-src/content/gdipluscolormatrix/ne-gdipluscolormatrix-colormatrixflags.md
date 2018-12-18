@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colormatrixflags.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorMatrixFlags, ColorMatrixFlags enumeration [GDI+], ColorMatrixFlagsAltGray, ColorMatrixFlagsDefault, ColorMatrixFlagsSkipGrays, _gdiplus_ENUM_ColorMatrixFlags, gdiplus._gdiplus_ENUM_ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlags, gdipluscolormatrix/ColorMatrixFlagsAltGray, gdipluscolormatrix/ColorMatrixFlagsDefault, gdipluscolormatrix/ColorMatrixFlagsSkipGrays
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

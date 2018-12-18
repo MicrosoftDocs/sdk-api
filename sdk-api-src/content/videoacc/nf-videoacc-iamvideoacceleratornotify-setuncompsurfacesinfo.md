@@ -9,8 +9,6 @@ ms.assetid: e82c73e6-d32e-4875-9f9d-124a1c6ce504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMVideoAcceleratorNotify interface [DirectShow],SetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.SetUncompSurfacesInfo, IAMVideoAcceleratorNotify::SetUncompSurfacesInfo, IAMVideoAcceleratorNotifySetUncompSurfacesInfo, SetUncompSurfacesInfo, SetUncompSurfacesInfo method [DirectShow], SetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, dshow.iamvideoacceleratornotify_setuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -163,7 +161,7 @@ The video renderer calls this method after it allocates uncompressed surfaces fo
 
 
 
-<a href="https://msdn.microsoft.com/7fd0290c-8fd6-4af6-b510-7a87bc7937de">IAMVideoAcceleratorNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify Interface</a>
  
 
  

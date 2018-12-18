@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.color.XMColorHSLToRGB(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMColorHSLToRGB, XMColorHSLToRGB, XMColorHSLToRGB method [DirectX Math Support APIs], dxmath.xmcolorhsltorgb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -94,7 +92,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/d68d1d75-e5fb-4f65-837b-25a4c98e990d">XMColorRGBToHSL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437862(v=VS.85).aspx">XMColorRGBToHSL</a>
  
 
  

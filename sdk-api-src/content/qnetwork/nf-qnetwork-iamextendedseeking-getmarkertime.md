@@ -9,8 +9,6 @@ ms.assetid: 719e87c5-7d38-4b02-8342-055e42405511
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMarkerTime, GetMarkerTime method [DirectShow], GetMarkerTime method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerTime method, IAMExtendedSeeking.GetMarkerTime, IAMExtendedSeeking::GetMarkerTime, IAMExtendedSeekingGetMarkerTime, dshow.iamextendedseeking_getmarkertime, qnetwork/IAMExtendedSeeking::GetMarkerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -85,11 +83,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/899cc32e-3a9f-4be0-97a9-2ddd323bf9ce">IAMExtendedSeeking::GetMarkerName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389332(v=VS.85).aspx">IAMExtendedSeeking::GetMarkerName</a>
  
 
  

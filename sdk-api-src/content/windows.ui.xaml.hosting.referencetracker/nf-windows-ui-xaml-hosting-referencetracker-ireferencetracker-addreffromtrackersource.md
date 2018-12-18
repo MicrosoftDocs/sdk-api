@@ -9,8 +9,6 @@ ms.assetid: ce2100df-c0d9-4225-9053-ecba08533a04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRefFromTrackerSource, AddRefFromTrackerSource method [Windows Runtime], AddRefFromTrackerSource method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],AddRefFromTrackerSource method, IReferenceTracker.AddRefFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::AddRefFromTrackerSource, IReferenceTracker::xaml, windows/IReferenceTracker::AddRefFromTrackerSource, winrt.ireferencetracker_addreffromtrackersource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

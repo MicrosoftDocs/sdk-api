@@ -9,8 +9,6 @@ ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

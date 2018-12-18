@@ -9,8 +9,6 @@ ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

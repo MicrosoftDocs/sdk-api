@@ -9,8 +9,6 @@ ms.assetid: eb0f4d9f-23b7-4fe7-b45d-152a2f64af30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryDisconnect method, IWMPEvents3.LibraryDisconnect, IWMPEvents3::LibraryDisconnect, IWMPEvents3LibraryDisconnect, LibraryDisconnect, LibraryDisconnect method [Windows Media Player], LibraryDisconnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__librarydisconnect, wmp/IWMPEvents3::LibraryDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -93,11 +91,11 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
 
 
 

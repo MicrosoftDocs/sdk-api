@@ -9,8 +9,6 @@ ms.assetid: 7267e880-d241-457f-b105-6b9d357d029f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyFromUI8, VarCyFromUI8 function [Automation], _oa96_VarCyFromUI8, automat.varcyfromui8, oleauto/VarCyFromUI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

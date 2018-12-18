@@ -9,8 +9,6 @@ ms.assetid: a81abd80-e487-421c-ba81-9b43c4233084
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMediaProps, IWMMediaProps interface [windows Media Format], IWMMediaProps interface [windows Media Format],described, IWMMediaPropsInterface, wmformat.iwmmediaprops, wmsdkidl/IWMMediaProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -51,13 +49,13 @@ req.redist:
 
 
 
-The <b>IWMMediaProps</b> interface sets and retrieves the <a href="https://msdn.microsoft.com/37a9ac59-e152-47e1-96ee-b816cd645936">WM_MEDIA_TYPE</a> structure for an input, stream, or output.
+The <b>IWMMediaProps</b> interface sets and retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx">WM_MEDIA_TYPE</a> structure for an input, stream, or output.
 
 In the case of inputs and streams, the contents of the media type structure determine what actions the writer object will perform on the input data when writing the file. Typically, the input media type is an uncompressed type and the stream is a compressed type, so that the contents of their respective media type structures will determine the settings passed by the writer to the codec that will compress the stream.
 
 In the case of outputs, the media type structure determines the settings used to decompress the contents of a stream. The Windows Media codecs are capable of delivering output content in a variety of formats.
 
-The methods of <b>IWMMediaProps</b> are inherited by <a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps</a>, which provides access to additional settings for specifying video media types. The methods are also inherited by <a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> and <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a>.
+The methods of <b>IWMMediaProps</b> are inherited by <a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps</a>, which provides access to additional settings for specifying video media types. The methods are also inherited by <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps</a>.
 
 An instance of the <b>IWMMediaProps</b> interface exists for every stream configuration object, input media properties object, and output media properties object. You can retrieve a pointer to this interface by calling the <b>QueryInterface</b> method of any other interface in one of those objects.
 
@@ -81,7 +79,7 @@ The <b>IWMMediaProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8357e5c6-d8c6-4a30-8446-85fa7fa118f7">GetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">GetMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <b>WM_MEDIA_TYPE</b> structure describing the media type.
@@ -90,7 +88,7 @@ Retrieves a <b>WM_MEDIA_TYPE</b> structure describing the media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d878caf9-2cd2-4b1d-b204-a43fe947c4c2">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757230(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the major type of the media (audio, video, or script).
@@ -99,7 +97,7 @@ Retrieves the major type of the media (audio, video, or script).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a89bf24-6b76-4645-8f39-f1979029d67e">SetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757231(v=VS.85).aspx">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Specifies a <b>WM_MEDIA_TYPE</b> structure describing the media type.

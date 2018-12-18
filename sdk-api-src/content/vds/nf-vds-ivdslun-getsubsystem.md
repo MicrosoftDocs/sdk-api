@@ -9,8 +9,6 @@ ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetSubSystem method, IVdsLun.GetSubSystem, IVdsLun::GetSubSystem, base.ivdslun_getsubsystem, vds/IVdsLun::GetSubSystem, vdshwprv/IVdsLun::GetSubSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

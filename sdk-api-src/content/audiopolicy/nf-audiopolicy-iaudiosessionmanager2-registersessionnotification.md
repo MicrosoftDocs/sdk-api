@@ -9,8 +9,6 @@ ms.assetid: cff43da7-70b2-4887-8a6c-6100cf7d696e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],RegisterSessionNotification method, IAudioSessionManager2.RegisterSessionNotification, IAudioSessionManager2::RegisterSessionNotification, RegisterSessionNotification, RegisterSessionNotification method [Core Audio], RegisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::RegisterSessionNotification, coreaudio.iaudiosessionmanager2_registersessionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

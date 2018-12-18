@@ -9,8 +9,6 @@ ms.assetid: 58ce3005-dfac-4ffe-b874-69a2f994e7a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetIAccessible method, IUIAutomationLegacyIAccessiblePattern.GetIAccessible, IUIAutomationLegacyIAccessiblePattern::GetIAccessible, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetIAccessible, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

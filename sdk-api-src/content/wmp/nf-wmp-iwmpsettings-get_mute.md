@@ -9,8 +9,6 @@ ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_mute method, IWMPSettings.get_mute, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,15 +97,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c3f2938-733f-42fc-ae07-66aad715958b">IWMPSettings::get_rate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563667(v=VS.85).aspx">IWMPSettings::get_rate</a>
 
 
 
-<a href="https://msdn.microsoft.com/644f9a4d-54e4-4e8a-8c02-29feb57c9256">IWMPSettings::put_mute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563677(v=VS.85).aspx">IWMPSettings::put_mute</a>
  
 
  

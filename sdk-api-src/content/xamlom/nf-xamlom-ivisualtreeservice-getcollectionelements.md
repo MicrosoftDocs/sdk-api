@@ -9,8 +9,6 @@ ms.assetid: 01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCollectionElements, GetCollectionElements method, GetCollectionElements method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionElements method, IVisualTreeService.GetCollectionElements, IVisualTreeService::GetCollectionElements, xaml_diagnostics.ivisualtreeservice_getcollectionelements, xamlom/IVisualTreeService::GetCollectionElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

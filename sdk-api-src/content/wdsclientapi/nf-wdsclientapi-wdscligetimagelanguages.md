@@ -9,8 +9,6 @@ ms.assetid: 2f027cf9-fad6-4ae6-98ac-83b9041c095e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageLanguages, WdsCliGetImageLanguages function [Windows Deployment Services], wds.wdscligetimagelanguages, wdsclientapi/WdsCliGetImageLanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

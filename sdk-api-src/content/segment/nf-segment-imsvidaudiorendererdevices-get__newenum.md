@@ -9,8 +9,6 @@ ms.assetid: afc8efc7-7e1f-4900-be6b-f41871ad4ebe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidAudioRendererDevices.get__NewEnum, IMSVidAudioRendererDevices::get__NewEnum, IMSVidAudioRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get__newenum, segment/IMSVidAudioRendererDevices::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -119,7 +117,7 @@ NULL pointer argument.
 
 This method is provided so that Automation clients can iterate through the collection using a <code>For...Each</code> loop.
 
-The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://msdn.microsoft.com/ba6e9161-0881-4f95-9507-acf2a01e05e6">IMSVidAudioRendererDevices::get_Item</a> method instead.)
+The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread. (C++ applications should generally use the <a href="https://msdn.microsoft.com/en-us/library/Dd694439(v=VS.85).aspx">IMSVidAudioRendererDevices::get_Item</a> method instead.)
 
 If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding reference count. The caller must release the interface.
 

@@ -9,8 +9,6 @@ ms.assetid: aae4c41d-4cab-4c49-9733-44ba5e0e03bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitRate method, IBasicVideo.get_BitRate, IBasicVideo::get_BitRate, IBasicVideoget_BitRate, control/IBasicVideo::get_BitRate, dshow.ibasicvideo_get_bitrate, get_BitRate, get_BitRate method [DirectShow], get_BitRate method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -81,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

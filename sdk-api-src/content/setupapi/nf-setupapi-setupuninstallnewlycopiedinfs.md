@@ -9,8 +9,6 @@ ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

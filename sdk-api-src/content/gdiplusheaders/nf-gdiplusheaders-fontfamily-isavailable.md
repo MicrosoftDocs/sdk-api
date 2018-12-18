@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfam
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FontFamily class [GDI+],IsAvailable method, FontFamily.IsAvailable, FontFamily::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_IsAvailable_, gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

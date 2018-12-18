@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.DOMAIN_TREE
+UID: NS:dsclient.__unnamed_struct_3
 title: DOMAIN_TREE
 author: windows-sdk-content
 description: The DOMAINTREE structure contains data about a node in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method. Each of the domains in the tree node are represented by a DOMAINDESC structure.
@@ -7,10 +7,8 @@ old-location: ad\domaintree.htm
 tech.root: ad
 ms.assetid: c4b3f81c-0632-407c-834e-8eec6fefde68
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDOMAINTREE, *PDOMAIN_TREE, DOMAINTREE, DOMAINTREE structure [Active Directory], DOMAIN_TREE, DOMAIN_TREE structure [Active Directory], LPDOMAINTREE, LPDOMAINTREE structure pointer [Active Directory], PDOMAIN_TREE, PDOMAIN_TREE structure pointer [Active Directory], _glines_domaintree, ad.domaintree, dsclient/DOMAINTREE, dsclient/DOMAIN_TREE, dsclient/LPDOMAINTREE, dsclient/PDOMAIN_TREE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

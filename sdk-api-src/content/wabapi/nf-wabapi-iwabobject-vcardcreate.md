@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardcreate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWABObject.VCardCreate, IWABObject::VCardCreate, VCardCreate, VCardCreate method [Windows Address Book], VCardCreate method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardCreate, wab._wab_IWABObject_VCardCreate, wabapi/IWABObject::VCardCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -62,9 +60,9 @@ Translates the properties of a given MailUser object into a
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>interface that 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>interface that 
 				specifies the address book.
 
 
@@ -86,9 +84,9 @@ Value of type <b>LPSTR</b> that specifies the
 
 ### -param lpMailUser
 
-Type: <b><a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a> interface that 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a> interface that 
 				specifies the object whose properties are to be written into 
 				the file.
 
@@ -122,11 +120,11 @@ The complete file name must be specified. If the file already exists,
 
 
 
-<a href="https://msdn.microsoft.com/cba6a6ae-79e5-4412-9e1e-ad0ef41b1862">IWABObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629467(v=VS.85).aspx">IWABObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/40638b23-e956-4fe8-b132-245c43df6890">Importing and Exporting Named Properties Through vCards</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629732(v=VS.85).aspx">Importing and Exporting Named Properties Through vCards</a>
  
 
  

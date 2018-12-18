@@ -9,8 +9,6 @@ ms.assetid: a3da78ea-4694-45a4-9284-d40c08f12fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPPBlocked, COPPBlocked method [Microsoft TV Technologies], COPPBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPBlocked method, IMSVidStreamBufferSourceEvent3.COPPBlocked, IMSVidStreamBufferSourceEvent3::COPPBlocked, IMSVidStreamBufferSourceEvent3COPPBlocked, mstv.imsvidstreambuffersourceevent3_coppblocked, segment/IMSVidStreamBufferSourceEvent3::COPPBlocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -80,7 +78,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
  
 
  

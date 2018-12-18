@@ -9,8 +9,6 @@ ms.assetid: 2f604156-68ef-4770-9929-6dbfd46c4d6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream, IAMMultiMediaStream interface [DirectShow], IAMMultiMediaStream interface [DirectShow],described, IAMMultiMediaStreamInterface, amstream/IAMMultiMediaStream, dshow.iammultimediastream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>IAMMultiMediaStream</code> interface is supported by the multimedia st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMultiMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream</a>. <b>IAMMultiMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMultiMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream</a>. <b>IAMMultiMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IAMMultiMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3ccfb776-6a4e-48da-857d-6693cf916c40">AddMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319689(v=VS.85).aspx">AddMediaStream</a>
 </td>
 <td align="left" width="63%">
 Adds the specified media stream to the current filter graph.
@@ -84,7 +82,7 @@ Adds the specified media stream to the current filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e4df9cb-4008-4615-a179-ae1e76c22337">GetFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319690(v=VS.85).aspx">GetFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified filter from the current filter graph.
@@ -93,16 +91,16 @@ Retrieves the specified filter from the current filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e772ced-d14e-45da-9e97-36579e7e3ffd">GetFilterGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319691(v=VS.85).aspx">GetFilterGraph</a>
 </td>
 <td align="left" width="63%">
-Retrieves the associated filter graph's <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface.
+Retrieves the associated filter graph's <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9c3295e-716f-4093-b437-f6c405f5bc7b">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319692(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Sets the stream type. If the <i>pFilterGraph</i> parameter is non-<b>NULL</b> the filter graph passed in is used for the stream.
@@ -111,7 +109,7 @@ Sets the stream type. If the <i>pFilterGraph</i> parameter is non-<b>NULL</b> th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b3f7401-9afe-41e5-827f-e4e8d60b7480">OpenFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319693(v=VS.85).aspx">OpenFile</a>
 </td>
 <td align="left" width="63%">
 Opens and automatically creates a filter graph for the specified media file. If DirectShow doesn't support the file format, this method does nothing.
@@ -120,7 +118,7 @@ Opens and automatically creates a filter graph for the specified media file. If 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccfed197-6637-4283-9996-56049da49b84">OpenMoniker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319694(v=VS.85).aspx">OpenMoniker</a>
 </td>
 <td align="left" width="63%">
 Opens a file or device moniker; you can read media data from this moniker if DirectShow supports the media type.
@@ -129,7 +127,7 @@ Opens a file or device moniker; you can read media data from this moniker if Dir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09866cf0-650d-4d8e-81d4-6a568709c027">Render</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319695(v=VS.85).aspx">Render</a>
 </td>
 <td align="left" width="63%">
 Renders the current filter graph.
@@ -144,7 +142,7 @@ Renders the current filter graph.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream</a>
  
 
  

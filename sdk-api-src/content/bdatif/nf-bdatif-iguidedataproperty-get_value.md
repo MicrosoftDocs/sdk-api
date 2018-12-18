@@ -9,8 +9,6 @@ ms.assetid: 3a6014aa-a8a2-4436-b7a3-d083f2f0fa98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Value method, IGuideDataProperty.get_Value, IGuideDataProperty::get_Value, IGuideDataPropertyget_Value, bdatif/IGuideDataProperty::get_Value, get_Value, get_Value method [Microsoft TV Technologies], get_Value method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
@@ -108,11 +106,11 @@ If the name of the property is "Description.Name" then the value of the property
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694107(v=VS.85).aspx">IGuideDataProperty Interface</a>
+<a href="https://msdn.microsoft.com/1c614f2a-69e0-4100-b83e-740478654c17">IGuideDataProperty Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowTextLength, GetWindowTextLength function [Windows and Messages], GetWindowTextLengthA, GetWindowTextLengthW, _win32_GetWindowTextLength, _win32_getwindowtextlength_cpp, winmsg.getwindowtextlength, winui._win32_getwindowtextlength, winuser/GetWindowTextLength, winuser/GetWindowTextLengthA, winuser/GetWindowTextLengthW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

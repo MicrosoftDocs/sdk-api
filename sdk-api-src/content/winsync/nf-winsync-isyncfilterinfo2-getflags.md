@@ -9,8 +9,6 @@ ms.assetid: cad60957-9d16-4564-b63e-be8e188caecc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncFilterInfo2 interface, ISyncFilterInfo2 interface [Windows Sync],GetFlags method, ISyncFilterInfo2.GetFlags, ISyncFilterInfo2::GetFlags, winsync.isyncfilterinfo2_getflags, winsync/ISyncFilterInfo2::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

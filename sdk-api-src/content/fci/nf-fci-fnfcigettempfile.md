@@ -9,8 +9,6 @@ ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

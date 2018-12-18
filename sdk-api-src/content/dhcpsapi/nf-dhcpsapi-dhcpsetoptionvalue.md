@@ -9,8 +9,6 @@ ms.assetid: 0bcd8c1e-e2ae-46ae-b5ee-6e3373125e71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetOptionValue, DhcpSetOptionValue function [DHCP], dhcp.dhcpsetoptionvalue, dhcpsapi/DhcpSetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

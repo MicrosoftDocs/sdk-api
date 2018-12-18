@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_XBUTTON_WPARAM, GET_XBUTTON_WPARAM macro [Keyboard and Mouse Input], _win32_GET_XBUTTON_WPARAM, _win32_get_xbutton_wparam_cpp, inputdev.get_xbutton_wparam, winui._win32_get_xbutton_wparam, winuser/GET_XBUTTON_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 316d1a13-0803-4414-8c51-0d5c4768b06d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPConvert, IWMPConvert interface [Windows Media Player], IWMPConvert interface [Windows Media Player],described, IWMPConvertInterface, wmp.iwmpconvert, wmpservices/IWMPConvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPConvert</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69ca3863-94ec-457f-9f93-aebb5b80c8a9">ConvertFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563214(v=VS.85).aspx">ConvertFile</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
@@ -82,7 +80,7 @@ Called by Windows Media Player to enable a conversion plug-in to convert a digit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27a2ff9a-0c95-4c82-8e4a-c91d2a595005">GetErrorURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563215(v=VS.85).aspx">GetErrorURL</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve the URL of a webpage that displays error information about a file conversion.

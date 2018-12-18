@@ -9,8 +9,6 @@ ms.assetid: ccb31b56-10a1-47ee-9d1b-116d860bef11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSamplingRate method, IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

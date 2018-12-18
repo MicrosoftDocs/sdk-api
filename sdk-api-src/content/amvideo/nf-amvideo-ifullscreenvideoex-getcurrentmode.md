@@ -9,8 +9,6 @@ ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -64,7 +62,7 @@ The <code>GetCurrentMode</code> method retrieves the current display mode.
 
 ### -param pMode [out]
 
-Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="https://msdn.microsoft.com/c1a4aea8-8c48-4073-80ed-060db5adb514">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
+Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="https://msdn.microsoft.com/en-us/library/Dd390063(v=VS.85).aspx">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
 
 
 ## -returns
@@ -126,7 +124,7 @@ The filter did not load DirectDraw.
 
 
 
-<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
  
 
  

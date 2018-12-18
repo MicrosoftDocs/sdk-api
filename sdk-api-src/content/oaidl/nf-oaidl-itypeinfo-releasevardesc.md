@@ -9,8 +9,6 @@ ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ef3f19bf-1db9-459d-9617-d6cca9d6aba7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

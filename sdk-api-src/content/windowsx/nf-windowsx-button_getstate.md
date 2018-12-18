@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

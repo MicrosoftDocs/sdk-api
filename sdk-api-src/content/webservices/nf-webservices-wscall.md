@@ -9,8 +9,6 @@ ms.assetid: 300d25b7-6742-4bed-9786-6c599981ec22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCall, WsCall function [Web Services for Windows], webservices/WsCall, wsw.wscall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

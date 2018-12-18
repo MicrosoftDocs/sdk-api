@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_HBRBACKGROUND, GCL_HCURSOR, GCL_HICON, GCL_HICONSM, GCL_HMODULE, GCL_MENUNAME, GCL_STYLE, GCL_WNDPROC, GCW_ATOM, GetClassLong, GetClassLong function [Windows and Messages], GetClassLongA, GetClassLongW, _win32_GetClassLong, _win32_getclasslong_cpp, winmsg.getclasslong, winui._win32_getclasslong, winuser/GetClassLong, winuser/GetClassLongA, winuser/GetClassLongW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

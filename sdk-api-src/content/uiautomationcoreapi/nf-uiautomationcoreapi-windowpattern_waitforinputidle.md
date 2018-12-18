@@ -9,8 +9,6 @@ ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowPattern_WaitForInputIdle, WindowPattern_WaitForInputIdle function [Windows Accessibility], uiauto.uiauto_WindowPattern_WaitForInputIdleConPat, uiauto_WindowPattern_WaitForInputIdleConPat, uiautomationcoreapi/WindowPattern_WaitForInputIdle, winauto.uiauto_WindowPattern_WaitForInputIdleConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat2(XMFLOAT2@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat2, XMStoreFloat2, XMStoreFloat2 method [DirectX Math Support APIs], dxmath.xmstorefloat2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>.
 
 
 ## -parameters

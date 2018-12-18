@@ -9,8 +9,6 @@ ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

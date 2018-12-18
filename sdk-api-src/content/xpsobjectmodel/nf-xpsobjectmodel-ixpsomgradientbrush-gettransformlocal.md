@@ -9,8 +9,6 @@ ms.assetid: dfdd6797-b7e6-46fa-92b1-d9c418e8a510
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMGradientBrush.GetTransformLocal, IXpsOMGradientBrush::GetTransformLocal, xps.ixpsomgradientbrush_gettransformlocal, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

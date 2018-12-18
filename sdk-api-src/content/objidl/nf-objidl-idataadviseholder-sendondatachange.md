@@ -9,8 +9,6 @@ ms.assetid: b7385116-2ec7-4e12-a2dc-c9029a38d8fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataAdviseHolder interface [COM],SendOnDataChange method, IDataAdviseHolder.SendOnDataChange, IDataAdviseHolder::SendOnDataChange, SendOnDataChange, SendOnDataChange method [COM], SendOnDataChange method [COM],IDataAdviseHolder interface, _ole_idataadviseholder_sendondatachange, com.idataadviseholder_sendondatachange, objidl/IDataAdviseHolder::SendOnDataChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

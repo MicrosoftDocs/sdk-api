@@ -9,8 +9,6 @@ ms.assetid: eda0812f-a0e4-4239-87b5-c252e9e3492c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalogCollection.RemoveEnabled, ICatalogCollection.get_RemoveEnabled, ICatalogCollection::RemoveEnabled, ICatalogCollection::get_RemoveEnabled, RemoveEnabled property [COM+], RemoveEnabled property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_RemoveEnabled, comadmin/ICatalogCollection::RemoveEnabled, comadmin/ICatalogCollection::get_RemoveEnabled, cos.icatalogcollection_removeenabled, get_RemoveEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/ms684329(v=VS.85).aspx">Remove</a> method is enabled for the collection.
+Indicates whether the <a href="https://msdn.microsoft.com/984f60b1-0963-482c-90a3-563e8699f73d">Remove</a> method is enabled for the collection.
 
 This property is read-only.
 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

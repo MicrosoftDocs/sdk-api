@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10createdeviceandswapchain1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10CreateDeviceAndSwapChain1, D3D10CreateDeviceAndSwapChain1 function [Direct3D 10], b7c9234e-0746-99a6-b30f-ead0bc077ec3, d3d10_1/D3D10CreateDeviceAndSwapChain1, direct3d10.d3d10createdeviceandswapchain1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10_1.h
 req.include-header: 

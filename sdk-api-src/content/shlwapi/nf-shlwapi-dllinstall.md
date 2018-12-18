@@ -9,8 +9,6 @@ ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

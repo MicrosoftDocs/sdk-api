@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHidden, GetHidden method [Windows Controls], GetHidden method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetHidden method, ITextFont.GetHidden, ITextFont::GetHidden, _win32_ITextFont_GetHidden, _win32_ITextFont_GetHidden_cpp, controls.ITextFont_GetHidden, controls._win32_ITextFont_GetHidden, tom/ITextFont::GetHidden
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

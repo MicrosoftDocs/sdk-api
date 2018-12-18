@@ -9,8 +9,6 @@ ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GopherFindFirstFile, GopherFindFirstFile function [WinINet], GopherFindFirstFileA, GopherFindFirstFileW, _inet_gopherfindfirstfile_function, wininet.gopherfindfirstfile, wininet/GopherFindFirstFile, wininet/GopherFindFirstFileA, wininet/GopherFindFirstFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
@@ -89,7 +87,7 @@ Pointer to a buffer that contains the strings to search, if this request is to a
 ### -param lpFindData [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/53bcba70-2d6a-465a-86ec-4b11b1474ee1">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa384215(v=VS.85).aspx">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
 
 
 ### -param dwFlags [in]

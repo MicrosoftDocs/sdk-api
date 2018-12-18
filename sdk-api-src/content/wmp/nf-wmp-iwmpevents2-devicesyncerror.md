@@ -9,8 +9,6 @@ ms.assetid: 41e9a6df-3721-4fd2-aa9d-9874a004aa9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceSyncError, DeviceSyncError method [Windows Media Player], DeviceSyncError method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncError method, IWMPEvents2.DeviceSyncError, IWMPEvents2::DeviceSyncError, IWMPEvents2DeviceSyncError, wmp.iwmpevents2_iwmpevents2__devicesyncerror, wmp/IWMPEvents2::DeviceSyncError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -100,15 +98,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21">IWMPMedia2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563398(v=VS.85).aspx">IWMPMedia2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4335d480-5af0-4764-b8f8-0e6edc1598b7">IWMPSyncDevice::isIdentical</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563743(v=VS.85).aspx">IWMPSyncDevice::isIdentical</a>
 
 
 

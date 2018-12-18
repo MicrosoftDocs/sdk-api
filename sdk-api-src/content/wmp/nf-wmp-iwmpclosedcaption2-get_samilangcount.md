@@ -9,8 +9,6 @@ ms.assetid: 6de8bef5-f0d1-498b-a482-e3f1c3e53c24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],get_SAMILangCount method, IWMPClosedCaption2.get_SAMILangCount, IWMPClosedCaption2::get_SAMILangCount, IWMPClosedCaption2get_SAMILangCount, get_SAMILangCount, get_SAMILangCount method [Windows Media Player], get_SAMILangCount method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_get_samilangcount, wmp/IWMPClosedCaption2::get_SAMILangCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -114,15 +112,15 @@ This method cannot be used until a digital media file is open.
 
 
 
-<a href="https://msdn.microsoft.com/21067ac1-d29e-4f1b-b123-34b24929369a">IWMPClosedCaption2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563114(v=VS.85).aspx">IWMPClosedCaption2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2da5045-4000-46d8-a610-f5f80cb6f713">IWMPClosedCaption2::getSAMILangName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563116(v=VS.85).aspx">IWMPClosedCaption2::getSAMILangName</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcb72cf3-dad2-46b4-9652-349b804cda22">IWMPClosedCaption::get_SAMILang</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563123(v=VS.85).aspx">IWMPClosedCaption::get_SAMILang</a>
  
 
  

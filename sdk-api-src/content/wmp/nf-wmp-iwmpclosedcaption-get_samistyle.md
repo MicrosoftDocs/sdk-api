@@ -9,8 +9,6 @@ ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIStyle method, IWMPClosedCaption.get_SAMIStyle, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -131,11 +129,11 @@ If no SAMI style is specified, the first style defined in the SAMI file is used 
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229">IWMPClosedCaption::put_SAMIStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563128(v=VS.85).aspx">IWMPClosedCaption::put_SAMIStyle</a>
  
 
  

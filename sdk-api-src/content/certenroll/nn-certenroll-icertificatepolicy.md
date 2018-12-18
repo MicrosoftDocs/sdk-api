@@ -9,8 +9,6 @@ ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -50,9 +48,9 @@ req.redist:
 ## -description
 
 
-The <b>ICertificatePolicy</b> interface can be used to specify a certificate policy that identifies a purpose for which the certificate can be used. The policies are collected into an <a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a> object that you can use to initialize an  <a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa378155(v=VS.85).aspx">IX509ExtensionMSApplicationPolicies</a> object.
+The <b>ICertificatePolicy</b> interface can be used to specify a certificate policy that identifies a purpose for which the certificate can be used. The policies are collected into an <a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a> object that you can use to initialize an  <a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a> or <a href="https://msdn.microsoft.com/35b6449e-5a82-4f47-bdda-5356f44bb1fd">IX509ExtensionMSApplicationPolicies</a> object.
 
- The following syntax shows the <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) structure  used by both extension objects. The extension values are encoded by using <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) and included in the certificate request. A certificate policies collection consists of a sequence of <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifiers</a> (OIDs) and optional sequence of policy qualifiers for each policy OID.<div class="alert"><b>Note</b>  Policy qualifiers, defined by the  <a href="https://msdn.microsoft.com/en-us/library/Aa376803(v=VS.85).aspx">IPolicyQualifier</a> interface, are used by a <b>CertificatePolicies</b> extension but not by an <b>MSApplicationPolicies</b> extension.</div>
+ The following syntax shows the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure  used by both extension objects. The extension values are encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) and included in the certificate request. A certificate policies collection consists of a sequence of <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) and optional sequence of policy qualifiers for each policy OID.<div class="alert"><b>Note</b>  Policy qualifiers, defined by the  <a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a> interface, are used by a <b>CertificatePolicies</b> extension but not by an <b>MSApplicationPolicies</b> extension.</div>
 <div> </div>
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -76,7 +74,7 @@ PolicyQualifierInfo ::= SEQUENCE
    policyQualifierId   EncodedObjectID,
    qualifier           NOCOPYANY OPTIONAL
 }
-</code></pre> Issuance policies, defined by an <a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a> object, identify the extent to which the identity presented in the certificate is trusted. The following policies are predefined. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest. You can also create custom OIDs to represent custom issuance policies.<table>
+</code></pre> Issuance policies, defined by an <a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a> object, identify the extent to which the identity presented in the certificate is trusted. The following policies are predefined. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest. You can also create custom OIDs to represent custom issuance policies.<table>
 <tr>
 <th>Policy</th>
 <th>Description</th>
@@ -110,15 +108,15 @@ PolicyQualifierInfo ::= SEQUENCE
 
 
 
-Application policies, defined by an <a href="https://msdn.microsoft.com/en-us/library/Aa378155(v=VS.85).aspx">IX509ExtensionMSApplicationPolicies</a> object, enable an application to filter certificates by comparing the policy OIDs it will accept to the policy OIDs contained in the certificate. The <b>MSApplicationPolicies</b> extension is very similar to the <b>EnhancedKeyUsage</b> extension but is often used for policy mapping.
+Application policies, defined by an <a href="https://msdn.microsoft.com/35b6449e-5a82-4f47-bdda-5356f44bb1fd">IX509ExtensionMSApplicationPolicies</a> object, enable an application to filter certificates by comparing the policy OIDs it will accept to the policy OIDs contained in the certificate. The <b>MSApplicationPolicies</b> extension is very similar to the <b>EnhancedKeyUsage</b> extension but is often used for policy mapping.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificatePolicy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertificatePolicy</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -131,7 +129,7 @@ The <b>ICertificatePolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375226(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/995b344b-ed1f-47e4-a7c6-0d638ed9ec23">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from an OID.
@@ -148,7 +146,7 @@ Initializes the object from an OID.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375228(v=VS.85).aspx">ObjectId</a>
+<a href="https://msdn.microsoft.com/42d1689d-c086-4d67-8e16-997ecd515ae2">ObjectId</a>
 
 
 </td>
@@ -160,7 +158,7 @@ Retrieves an OID for the policy object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375229(v=VS.85).aspx">PolicyQualifiers</a>
+<a href="https://msdn.microsoft.com/7955dfa1-70b2-4b6e-975f-c489a6284c5c">PolicyQualifiers</a>
 
 
 </td>
@@ -177,11 +175,11 @@ Retrieves a collection of optional policy qualifiers that can be applied to a ce
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a>
+<a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a>
 
 
 
@@ -189,7 +187,7 @@ Retrieves a collection of optional policy qualifiers that can be applied to a ce
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a>
+<a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a>
  
 
  

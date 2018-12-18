@@ -9,8 +9,6 @@ ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

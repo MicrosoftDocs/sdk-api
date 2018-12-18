@@ -9,8 +9,6 @@ ms.assetid: 84019a77-4ecd-4618-ab7d-458c6c855dfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_PRIVATE_PROPERTIES, PRESUTIL_GET_PRIVATE_PROPERTIES function [Failover Cluster], ResUtilGetPrivateProperties, ResUtilGetPrivateProperties function [Failover Cluster], _wolf_resutilgetprivateproperties, mscs.resutilgetprivateproperties, resapi/PRESUTIL_GET_PRIVATE_PROPERTIES, resapi/ResUtilGetPrivateProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

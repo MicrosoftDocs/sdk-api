@@ -9,8 +9,6 @@ ms.assetid: E5185806-F447-49A8-BEC9-B85451E78533
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_WriteIsochPipe, WinUsb_WriteIsochPipe function [Buses], buses.winusb_writeisochpipe, winusb/WinUsb_WriteIsochPipe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

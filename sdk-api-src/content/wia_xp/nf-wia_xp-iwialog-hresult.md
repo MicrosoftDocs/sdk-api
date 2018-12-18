@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\hresult.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaLog interface [WIA],hResult method, IWiaLog.hResult, IWiaLog::hResult, _wia_IWiaLog_hResult, hResult, hResult method [WIA], hResult method [WIA],IWiaLog interface, wia._wia_IWiaLog_hResult, wia_xp/IWiaLog::hResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

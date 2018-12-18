@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_cansendtofaxrecipie
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fxsutility.h
 req.include-header: 

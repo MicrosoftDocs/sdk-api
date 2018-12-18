@@ -9,8 +9,6 @@ ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [MDM Registration], mdmreg.discovermanagementserviceex, mdmregistration/DiscoverManagementServiceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

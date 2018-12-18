@@ -9,8 +9,6 @@ ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

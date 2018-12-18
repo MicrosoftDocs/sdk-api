@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.smiOID
+UID: NS:winsnmp.__unnamed_struct_1
 title: smiOID
 author: windows-sdk-content
 description: The WinSNMP smiOID structure passes object identifiers to multiple WinSNMP functions. The structure also receives the variable name of a variable binding entry in a call to the SnmpGetVb function.
@@ -7,10 +7,8 @@ old-location: snmp\smioid_str.htm
 tech.root: SNMP
 ms.assetid: 0bdf900e-6e67-4461-97bc-4c9650d888bf
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*smiLPOID, _snmp_smioid_str, smiLPOID, smiLPOID structure pointer [SNMP], smiOID, smiOID structure [SNMP], snmp.smioid_str, winsnmp/smiLPOID, winsnmp/smiOID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The WinSNMP
 
 The 
 <b>smiOID</b> structure contains a pointer to a variable length array of a named object's subidentifiers. The structure can be a member of the 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure.
 
 
 ## -struct-fields
@@ -131,7 +129,7 @@ Because the WinSNMP application allocates memory for input descriptor objects wi
 
 
 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
  
 
  

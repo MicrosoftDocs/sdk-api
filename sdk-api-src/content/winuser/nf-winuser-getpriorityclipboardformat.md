@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPriorityClipboardFormat, GetPriorityClipboardFormat function [Data Exchange], _win32_GetPriorityClipboardFormat, _win32_getpriorityclipboardformat_cpp, dataxchg.getpriorityclipboardformat, winui._win32_getpriorityclipboardformat, winuser/GetPriorityClipboardFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

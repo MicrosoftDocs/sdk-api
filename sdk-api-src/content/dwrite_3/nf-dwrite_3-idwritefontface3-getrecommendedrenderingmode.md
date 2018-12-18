@@ -9,8 +9,6 @@ ms.assetid: 9EF4A414-8DD9-431B-81A6-D87F4CF9AA73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecommendedRenderingMode, GetRecommendedRenderingMode method [Direct Write], GetRecommendedRenderingMode method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetRecommendedRenderingMode method, IDWriteFontFace3.GetRecommendedRenderingMode, IDWriteFontFace3::GetRecommendedRenderingMode, directwrite.idwritefontface3_getrecommendedrenderingmode, dwrite_3/IDWriteFontFace3::GetRecommendedRenderingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -118,9 +116,9 @@ A pointer to a <a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039
 
 ### -param renderingMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>-typed value for the recommended rendering mode.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>-typed value for the recommended rendering mode.
 
 
 ### -param gridFitMode [out]
@@ -146,7 +144,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

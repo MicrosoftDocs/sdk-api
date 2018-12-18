@@ -9,8 +9,6 @@ ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

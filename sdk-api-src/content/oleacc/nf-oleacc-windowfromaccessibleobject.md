@@ -9,8 +9,6 @@ ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

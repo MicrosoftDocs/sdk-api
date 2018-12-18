@@ -9,8 +9,6 @@ ms.assetid: FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFhScopeIterator.MoveToNextItem, IFhScopeIterator::MoveToNextItem, MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API],IFhScopeIterator interface, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

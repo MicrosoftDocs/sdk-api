@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6qav.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxInboundRoutingExtension interface, IFaxInboundRoutingExtension interface [Fax Service],Debug property, IFaxInboundRoutingExtension.Debug, IFaxInboundRoutingExtension.get_Debug, IFaxInboundRoutingExtension::Debug, IFaxInboundRoutingExtension::get_Debug, _mfax_faxinboundroutingextension.debug, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp, fax._mfax_faxinboundroutingextension_debug, faxcomex/IFaxInboundRoutingExtension::Debug, faxcomex/IFaxInboundRoutingExtension::get_Debug, get_Debug
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

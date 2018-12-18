@@ -9,8 +9,6 @@ ms.assetid: 8b098985-4eb2-4292-a9b9-cfdd051e9c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetMaxStreamSampleSize method, IWMSyncReader.GetMaxStreamSampleSize, IWMSyncReader::GetMaxStreamSampleSize, IWMSyncReaderGetMaxStreamSampleSize, wmformat.iwmsyncreader_getmaxstreamsamplesize, wmsdkidl/IWMSyncReader::GetMaxStreamSampleSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -132,7 +130,7 @@ No file is open in the synchronous reader.
 
 
 
-This method retrieves the maximum sample size for an individual stream. The stream may be one of several in an output. If you are using output numbers, you should use <a href="https://msdn.microsoft.com/84fbc2c7-001b-4339-a7df-89914274a72b">IWMSyncReader::GetMaxOutputSampleSize</a> to retrieve the maximum sample size for the entire output.
+This method retrieves the maximum sample size for an individual stream. The stream may be one of several in an output. If you are using output numbers, you should use <a href="https://msdn.microsoft.com/en-us/library/Dd798585(v=VS.85).aspx">IWMSyncReader::GetMaxOutputSampleSize</a> to retrieve the maximum sample size for the entire output.
 
 
 
@@ -142,7 +140,7 @@ This method retrieves the maximum sample size for an individual stream. The stre
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
  
 
  

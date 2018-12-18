@@ -9,8 +9,6 @@ ms.assetid: 20b82813-4c6e-4be8-969f-e6ed1fd5d008
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

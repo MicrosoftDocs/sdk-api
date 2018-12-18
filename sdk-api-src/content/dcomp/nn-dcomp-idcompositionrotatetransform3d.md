@@ -9,8 +9,6 @@ ms.assetid: BEC58B57-66A1-4645-A0B8-D546334E1E23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D, IDCompositionRotateTransform3D interface [DirectComposition], IDCompositionRotateTransform3D interface [DirectComposition],described, dcomp/IDCompositionRotateTransform3D, directcomp.idcompositionrotatetransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -78,7 +76,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ADBB027-8F80-4DF3-9199-DDB6570DF81B">SetAxisX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448939(v=VS.85).aspx">SetAxisX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisX property of a 3D rotation transform. The AxisX property specifies the x-coordinate for the axis vector of rotation. The default value is zero.
 
@@ -86,7 +84,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C86E4D59-4E9D-44BF-BA9D-91714D0C2D37">SetAxisY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448945(v=VS.85).aspx">SetAxisY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisY property of a rotation transform. The AxisY property specifies the y-coordinate for the axis vector of rotation.  The default value is zero.
 
@@ -94,7 +92,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1A96FA00-20FE-4876-B7DF-2B833B17E925">SetAxisZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448951(v=VS.85).aspx">SetAxisZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 
@@ -102,7 +100,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2E4924A5-64D0-4415-B345-0DE9A0900258">SetCenterX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448957(v=VS.85).aspx">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -110,7 +108,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19B3B065-BE8C-4CBD-8A94-54934CA0B421">SetCenterY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448963(v=VS.85).aspx">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 3D rotation transform. The CenterY property specifies the y-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -118,7 +116,7 @@ The <b>IDCompositionRotateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7FF293B6-8FAE-4277-8C07-EBD4E819E2A0">SetCenterZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448969(v=VS.85).aspx">SetCenterZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterZ property of a 3D rotation transform. The CenterZ property specifies the z-coordinate of the point about which the rotation is performed. The default value is zero.
 
@@ -153,7 +151,7 @@ When setting the axis to a non-default value, you should always set all three ax
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
@@ -161,7 +159,7 @@ When setting the axis to a non-default value, you should always set all three ax
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

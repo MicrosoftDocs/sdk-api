@@ -9,8 +9,6 @@ ms.assetid: 447e6df7-6e6b-4dff-87e5-0308eb0a3dae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoColorTransferFunction, codecapi/eAVEncVideoColorTransferFunction_10, codecapi/eAVEncVideoColorTransferFunction_18, codecapi/eAVEncVideoColorTransferFunction_20, codecapi/eAVEncVideoColorTransferFunction_22, codecapi/eAVEncVideoColorTransferFunction_22_240M, codecapi/eAVEncVideoColorTransferFunction_22_709, codecapi/eAVEncVideoColorTransferFunction_22_8bit_sRGB, codecapi/eAVEncVideoColorTransferFunction_28, codecapi/eAVEncVideoColorTransferFunction_SameAsSource, dshow.eavencvideocolortransferfunction, eAVEncVideoColorTransferFunction, eAVEncVideoColorTransferFunction enumeration [DirectShow], eAVEncVideoColorTransferFunctionEnumeration, eAVEncVideoColorTransferFunction_10, eAVEncVideoColorTransferFunction_18, eAVEncVideoColorTransferFunction_20, eAVEncVideoColorTransferFunction_22, eAVEncVideoColorTransferFunction_22_240M, eAVEncVideoColorTransferFunction_22_709, eAVEncVideoColorTransferFunction_22_8bit_sRGB, eAVEncVideoColorTransferFunction_28, eAVEncVideoColorTransferFunction_SameAsSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -111,7 +109,7 @@ True 2.8 gamma. L' = L^1/2.8..
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 

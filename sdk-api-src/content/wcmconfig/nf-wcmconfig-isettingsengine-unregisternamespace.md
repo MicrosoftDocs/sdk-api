@@ -9,8 +9,6 @@ ms.assetid: c7254f87-fdf8-4b51-9a06-e593490cd3c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISettingsEngine interface [SMI],UnregisterNamespace method, ISettingsEngine.UnregisterNamespace, ISettingsEngine::UnregisterNamespace, UnregisterNamespace, UnregisterNamespace method [SMI], UnregisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_unregisternamespace, wcmconfig/ISettingsEngine::UnregisterNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

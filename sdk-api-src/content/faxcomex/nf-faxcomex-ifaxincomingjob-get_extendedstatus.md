@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_7v03.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],ExtendedStatus property, IFaxIncomingJob.ExtendedStatus, IFaxIncomingJob.get_ExtendedStatus, IFaxIncomingJob::ExtendedStatus, IFaxIncomingJob::get_ExtendedStatus, _mfax_faxincomingjob.extendedstatus, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_extendedstatus_cpp, fax._mfax_faxincomingjob_extendedstatus, faxcomex/IFaxIncomingJob::ExtendedStatus, faxcomex/IFaxIncomingJob::get_ExtendedStatus, get_ExtendedStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-The <b>ExtendedStatus</b> property can have a value only if the fax service provider (FSP) returns a proprietary status code in the <a href="https://msdn.microsoft.com/15333cd3-e71a-451c-ae93-9e217ea0895c">ExtendedStatusCode</a> property. Otherwise, the <b>ExtendedStatus</b> property will contain an empty string.
+The <b>ExtendedStatus</b> property can have a value only if the fax service provider (FSP) returns a proprietary status code in the <a href="https://msdn.microsoft.com/en-us/library/ms686029(v=VS.85).aspx">ExtendedStatusCode</a> property. Otherwise, the <b>ExtendedStatus</b> property will contain an empty string.
 
 
 
@@ -74,15 +72,15 @@ The <b>ExtendedStatus</b> property can have a value only if the fax service prov
 
 
 
-<a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

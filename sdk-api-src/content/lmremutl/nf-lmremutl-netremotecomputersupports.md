@@ -9,8 +9,6 @@ ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetRemoteComputerSupports, NetRemoteComputerSupports function [Network Management], SUPPORTS_LOCAL, SUPPORTS_REMOTE_ADMIN_PROTOCOL, SUPPORTS_RPC, SUPPORTS_SAM_PROTOCOL, SUPPORTS_UNICODE, _win32_netremotecomputersupports, lmremutl/NetRemoteComputerSupports, netmgmt.netremotecomputersupports
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmremutl.h
 req.include-header: Lm.h

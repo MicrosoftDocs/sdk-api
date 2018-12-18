@@ -9,8 +9,6 @@ ms.assetid: 892c2513-9ca2-48fe-b745-0fdc0f445871
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomUIMode, GetCustomUIMode method [Windows Media Player], GetCustomUIMode method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetCustomUIMode method, IWMPRemoteMediaServices.GetCustomUIMode, IWMPRemoteMediaServices::GetCustomUIMode, IWMPRemoteMediaServicesGetCustomUIMode, wmp.iwmpremotemediaservices_getcustomuimode, wmp/IWMPRemoteMediaServices::GetCustomUIMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -109,11 +107,11 @@ The embedded Windows Media Player control does not have to be remoted to use thi
 
 
 
-<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e313fd-cbf6-4b0f-8eb0-1097af53e77a">IWMPRemoteMediaServices::GetScriptableObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563637(v=VS.85).aspx">IWMPRemoteMediaServices::GetScriptableObject</a>
 
 
 

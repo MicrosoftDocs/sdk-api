@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetTabStops, Edit_SetTabStops macro [Windows Controls], _win32_Edit_SetTabStops, _win32_Edit_SetTabStops_cpp, controls.Edit_SetTabStops, controls._win32_Edit_SetTabStops, windowsx/Edit_SetTabStops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

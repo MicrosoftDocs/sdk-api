@@ -9,8 +9,6 @@ ms.assetid: 9e70ae94-20a2-4ba4-ab39-794f611011d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_Addresses method, ITTAPI.get_Addresses, ITTAPI::get_Addresses, _tapi3_ittapi_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_addresses, tapi3if/ITTAPI::get_Addresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

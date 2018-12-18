@@ -9,8 +9,6 @@ ms.assetid: 17513c0f-bc3a-474b-a9e0-ea91e2ae7fbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalClassInfo.get_CLSID, ITPluggableTerminalClassInfo::get_CLSID, _tapi3_itpluggableterminalclassinfo_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_clsid, tapi3if/ITPluggableTerminalClassInfo::get_CLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 65720250-ace5-488d-9be7-33b07d7cc667
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandleEventWithHWND, HandleEventWithHWND method [Windows Shell], HandleEventWithHWND method [Windows Shell],IHWEventHandler2 interface, IHWEventHandler2 interface [Windows Shell],HandleEventWithHWND method, IHWEventHandler2.HandleEventWithHWND, IHWEventHandler2::HandleEventWithHWND, _shell_IHWEventHandler2_HandleEventWithHWND, shell.IHWEventHandler2_HandleEventWithHWND, shobjidl/IHWEventHandler2::HandleEventWithHWND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

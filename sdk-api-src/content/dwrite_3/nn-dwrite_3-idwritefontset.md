@@ -9,8 +9,6 @@ ms.assetid: 0178f248-8dc0-c0ee-63c1-8db3f6ef94c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontSet, IDWriteFontSet interface [Direct Write], IDWriteFontSet interface [Direct Write],described, directwrite.idwritefontset, dwrite_3/IDWriteFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDWriteFontSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcb8ddbd-9c82-cd90-f4bd-490855d93efd">FindFontFace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933242(v=VS.85).aspx">FindFontFace</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -79,7 +77,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dba55a36-8037-5564-59d8-e01189ff0020">FindFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958414(v=VS.85).aspx">FindFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -88,7 +86,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15231d40-9de2-54e4-f4ad-0f1ef9b35c47">GetFontCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933243(v=VS.85).aspx">GetFontCount</a>
 </td>
 <td align="left" width="63%">
 Get the number of total fonts in the set.
@@ -97,7 +95,7 @@ Get the number of total fonts in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cbc1275-29d5-917d-6938-8fb35e5054fb">GetFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933244(v=VS.85).aspx">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a reference to the font at the specified index, which may be local or remote.
@@ -114,7 +112,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/514359d4-595d-4cac-a784-527b65b53137">GetPropertyOccurrenceCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933248(v=VS.85).aspx">GetPropertyOccurrenceCount</a>
 </td>
 <td align="left" width="63%">
 Returns how many times a given property value occurs in the set.
@@ -123,7 +121,7 @@ Returns how many times a given property value occurs in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c3fd5b7-88dd-d434-0b62-f365b407c379">GetPropertyValues</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933252(v=VS.85).aspx">GetPropertyValues</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns property values for the font set.
 

@@ -9,8 +9,6 @@ ms.assetid: f8238071-f2e4-4533-b9bc-a86cea8086a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspStatuses interface, ICspStatuses interface [Security],Add method, ICspStatuses.Add, ICspStatuses::Add, certenroll/ICspStatuses::Add, security.icspstatuses_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object to the collection. This method is web enabled.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object to the collection. This method is web enabled.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pVal [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object to add to the collection.
+Pointer to an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object to add to the collection.
 
 
 ## -returns
@@ -69,7 +67,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -79,11 +77,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
+<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
  
 
  

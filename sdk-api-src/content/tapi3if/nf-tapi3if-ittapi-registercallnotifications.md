@@ -9,8 +9,6 @@ ms.assetid: 335deb2c-7700-4101-b6fa-f7fe0f248307
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterCallNotifications method, ITTAPI.RegisterCallNotifications, ITTAPI::RegisterCallNotifications, RegisterCallNotifications, RegisterCallNotifications method [TAPI 2.2], RegisterCallNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registercallnotifications, tapi3.ittapi_registercallnotifications, tapi3if/ITTAPI::RegisterCallNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 183603f9-6e5b-4c44-b6b2-c363b4d150c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNotCondition, CreateNotCondition method [Windows Accessibility], CreateNotCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateNotCondition method, IUIAutomation.CreateNotCondition, IUIAutomation::CreateNotCondition, uiauto.uiauto_IUIAutomation_CreateNotCondition, uiauto_IUIAutomation_CreateNotCondition, uiautomationclient/IUIAutomation::CreateNotCondition, winauto.uiauto_IUIAutomation_CreateNotCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

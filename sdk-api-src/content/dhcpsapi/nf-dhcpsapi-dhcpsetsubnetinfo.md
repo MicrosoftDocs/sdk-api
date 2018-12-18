@@ -9,8 +9,6 @@ ms.assetid: a7978da5-945f-4893-83a8-5986c55703a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetSubnetInfo, DhcpSetSubnetInfo function [DHCP], dhcp.dhcpsetsubnetinfo, dhcpsapi/DhcpSetSubnetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

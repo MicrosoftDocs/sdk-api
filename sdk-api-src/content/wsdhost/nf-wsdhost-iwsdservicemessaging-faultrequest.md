@@ -9,8 +9,6 @@ ms.assetid: 478cf63e-7cfe-4f6f-af7f-d288588d9c8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaultRequest, FaultRequest method, FaultRequest method,IWSDServiceMessaging interface, IWSDServiceMessaging interface,FaultRequest method, IWSDServiceMessaging.FaultRequest, IWSDServiceMessaging::FaultRequest, ncd.iwsdservicemessaging_faultrequest, wsdhost/IWSDServiceMessaging::FaultRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

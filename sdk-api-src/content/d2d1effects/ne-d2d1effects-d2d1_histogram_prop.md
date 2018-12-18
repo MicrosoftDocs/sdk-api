@@ -9,8 +9,6 @@ ms.assetid: 7CBF945C-3BBA-4243-A76B-5CDAC045E79C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_HISTOGRAM_PROP, D2D1_HISTOGRAM_PROP enumeration [Direct2D], D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, D2D1_HISTOGRAM_PROP_NUM_BINS, d2d1effects/D2D1_HISTOGRAM_PROP, d2d1effects/D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, d2d1effects/D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, d2d1effects/D2D1_HISTOGRAM_PROP_NUM_BINS, direct2d.d2d1_histogram_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706340(v=VS.85).aspx">Histogram effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/458E2334-F383-41DE-9479-601AC3007BF3">Histogram effect</a>.
         
 
 
@@ -74,7 +72,7 @@ The default is 256.
 Specifies the channel used to generate the histogram. This effect has a single data output corresponding to the specified channel.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934224(v=VS.85).aspx">D2D1_CHANNEL_SELECTOR</a>.
+The type is <a href="https://msdn.microsoft.com/92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA">D2D1_CHANNEL_SELECTOR</a>.
 
 The default is D2D1_CHANNEL_SELECTOR_R.
 

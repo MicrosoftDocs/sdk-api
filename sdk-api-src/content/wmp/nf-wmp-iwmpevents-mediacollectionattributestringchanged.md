@@ -9,8 +9,6 @@ ms.assetid: 76767c3d-4dc1-4964-a337-6cde8f4c8609
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringChanged method, IWMPEvents.MediaCollectionAttributeStringChanged, IWMPEvents::MediaCollectionAttributeStringChanged, IWMPEventsMediaCollectionAttributeStringChanged, MediaCollectionAttributeStringChanged, MediaCollectionAttributeStringChanged method [Windows Media Player], MediaCollectionAttributeStringChanged method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringchanged, wmp/IWMPEvents::MediaCollectionAttributeStringChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -101,7 +99,7 @@ When a user modifies library metadata, the <b>MediaCollection</b> object is upda
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

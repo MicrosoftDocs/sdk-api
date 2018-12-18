@@ -9,8 +9,6 @@ ms.assetid: 43bdd205-4750-4ff6-8063-8de2c5962b09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],NonMembers property, IAzApplicationGroup interface [Security],NonMembers property, IAzApplicationGroup.NonMembers, IAzApplicationGroup.get_NonMembers, IAzApplicationGroup::NonMembers, IAzApplicationGroup::get_NonMembers, NonMembers property [Security], NonMembers property [Security],AzApplicationGroup object, NonMembers property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::NonMembers, azroles/IAzApplicationGroup::get_NonMembers, get_NonMembers, security.iazapplicationgroup_nonmembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -68,7 +66,7 @@ The application group will never have an  account specified by this property as 
 
 This property is ignored unless the <a href="https://msdn.microsoft.com/dc100895-4cfb-4e02-97bc-5c99bf26fbe2">Type</a> property is AZ_GROUPTYPE_BASIC.
 
-In JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> must be converted to the JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object.
+In JScript, the returned <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> must be converted to the JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object.
 
 Denying membership to an account in an application group does not prevent that account from being assigned to a role through a different application group, nor from being granted permission to a resource through assignment to any other role.
 

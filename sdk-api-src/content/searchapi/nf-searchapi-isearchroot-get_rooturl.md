@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],get_RootURL method, ISearchRoot.get_RootURL, ISearchRoot::get_RootURL, _search_ISearchRoot_get_RootURL, get_RootURL, get_RootURL method [search], get_RootURL method [search],ISearchRoot interface, search._search_ISearchRoot_get_RootURL, searchapi/ISearchRoot::get_RootURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

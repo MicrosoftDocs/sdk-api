@@ -9,8 +9,6 @@ ms.assetid: 46abbcba-72ba-4328-858d-367218f45df3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCloseServiceHost, WsCloseServiceHost function [Web Services for Windows], webservices/WsCloseServiceHost, wsw.wscloseservicehost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

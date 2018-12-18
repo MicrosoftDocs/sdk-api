@@ -9,8 +9,6 @@ ms.assetid: 89156f64-7a20-4226-9f01-5b1bd4a1fe98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConfigureFilterUsingProfile, ConfigureFilterUsingProfile method [DirectShow], ConfigureFilterUsingProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfile method, IConfigAsfWriter.ConfigureFilterUsingProfile, IConfigAsfWriter::ConfigureFilterUsingProfile, IConfigAsfWriterConfigureFilterUsingProfile, dshow.iconfigasfwriter_configurefilterusingprofile, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -140,7 +138,7 @@ If successful, this method will cause an <a href="https://msdn.microsoft.com/621
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 53179559-e65a-4b5b-b82a-f1fea0cb4509
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialRadius property, IInertiaProcessor.InitialRadius, IInertiaProcessor.put_InitialRadius, IInertiaProcessor::InitialRadius, IInertiaProcessor::get_InitialRadius, IInertiaProcessor::put_InitialRadius, InitialRadius property [Windows Touch], InitialRadius property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialRadius, manipulations/IInertiaProcessor::get_InitialRadius, manipulations/IInertiaProcessor::put_InitialRadius, put_InitialRadius, wintouch.iinertiaprocessor_initialradius
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

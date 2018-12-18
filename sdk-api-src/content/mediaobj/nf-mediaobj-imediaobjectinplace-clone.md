@@ -9,8 +9,6 @@ ms.assetid: 6660afa8-3502-4e88-925b-192e06346243
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],Clone method, IMediaObjectInPlace.Clone, IMediaObjectInPlace::Clone, IMediaObjectInPlaceClone, dshow.imediaobjectinplace_clone, mediaobj/IMediaObjectInPlace::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -64,7 +62,7 @@ The <code>Clone</code> method creates a copy of the DMO in its current state.
 
 ### -param ppMediaObject [out]
 
-Address of a pointer to receive the new DMO's <a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace</a> interface.
+Address of a pointer to receive the new DMO's <a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace</a> interface.
 
 
 ## -returns
@@ -90,7 +88,7 @@ If the method succeeds, the <b>IMediaObjectInPlace</b> interface that it returns
 
 
 
-<a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace Interface</a>
  
 
  

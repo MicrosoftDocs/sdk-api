@@ -9,8 +9,6 @@ ms.assetid: 22a3a97a-857f-46b8-a2e0-8f3a14f40322
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateThreadWithHandle, SHCreateThreadWithHandle function [Windows Shell], _shell_SHCreateThreadWithHandle, shell.SHCreateThreadWithHandle, shlwapi/SHCreateThreadWithHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

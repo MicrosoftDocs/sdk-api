@@ -9,8 +9,6 @@ ms.assetid: a169604c-64d6-401f-83f5-fb322230e110
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawGlyphRun method, ID2D1DeviceContext.DrawGlyphRun, ID2D1DeviceContext::DrawGlyphRun, d2d1_1/ID2D1DeviceContext::DrawGlyphRun, direct2d.id2d1devicecontext_drawglyphrun
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

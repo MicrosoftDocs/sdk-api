@@ -9,8 +9,6 @@ ms.assetid: bd5dee18-a06f-4e46-a27e-c907b1c25a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_RESOURCE_STATE, CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourcePending, ClusterResourceStateUnknown, _CLUSTER_RESOURCE_STATE, _CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_STATE, clusapi/ClusterResourceFailed, clusapi/ClusterResourceInherited, clusapi/ClusterResourceInitializing, clusapi/ClusterResourceOffline, clusapi/ClusterResourceOfflinePending, clusapi/ClusterResourceOnline, clusapi/ClusterResourceOnlinePending, clusapi/ClusterResourcePending, clusapi/ClusterResourceStateUnknown, clusapi/_CLUSTER_RESOURCE_STATE, msclus/CLUSTER_RESOURCE_STATE, msclus/ClusterResourceFailed, msclus/ClusterResourceInherited, msclus/ClusterResourceInitializing, msclus/ClusterResourceOffline, msclus/ClusterResourceOfflinePending, msclus/ClusterResourceOnline, msclus/ClusterResourceOnlinePending, msclus/ClusterResourcePending, msclus/ClusterResourceStateUnknown, msclus/_CLUSTER_RESOURCE_STATE, mscs.cluster_resource_state
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
@@ -55,8 +53,8 @@ Describes the operational condition of a resource. These values are used by the
     <a href="https://msdn.microsoft.com/c3897c96-743e-4753-8fef-b8defe4f2b00">GetClusterResourceState</a> function, the 
     <b>State</b> property of the 
     <a href="https://msdn.microsoft.com/en-us/library/Aa371464(v=VS.85).aspx">MSCluster_Resource</a> class, and the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368775(v=VS.85).aspx">State</a> property of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368759(v=VS.85).aspx">ClusResource</a> object.
+    <a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State</a> property of the 
+    <a href="https://msdn.microsoft.com/c1b66495-c428-4ee4-94e2-263fd31f61ad">ClusResource</a> object.
 
 
 ## -enum-fields
@@ -116,15 +114,15 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309201(v=VS.85).aspx">CLUS_MAINTENANCE_MODE_INFOEX</a>
+<a href="https://msdn.microsoft.com/d68b187d-39c5-42d3-b268-d5061da257c4">CLUS_MAINTENANCE_MODE_INFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309205(v=VS.85).aspx">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
+<a href="https://msdn.microsoft.com/53e25d02-6dfa-4a74-8ff3-01c868d2fd44">CLUS_PROVIDER_STATE_CHANGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -136,7 +134,7 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368775(v=VS.85).aspx">State Property of the ClusResource Object</a>
+<a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State Property of the ClusResource Object</a>
  
 
  

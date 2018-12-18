@@ -9,8 +9,6 @@ ms.assetid: 801a66fa-b72d-4282-953e-216fb9a56cd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNewStreamPrioritization, CreateNewStreamPrioritization method [windows Media Format], CreateNewStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewStreamPrioritization method, IWMProfile3.CreateNewStreamPrioritization, IWMProfile3::CreateNewStreamPrioritization, IWMProfile3CreateNewStreamPrioritization, wmformat.iwmprofile3_createnewstreamprioritization, wmsdkidl/IWMProfile3::CreateNewStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>CreateNewStreamPrioritization</b> method creates a new stream prioritization object. After you create a stream prioritization object, use the methods of the <a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization</a> interface to configure it. The configured stream prioritization object can then be assigned to the profile with a call to <a href="https://msdn.microsoft.com/16dfb205-2a0b-4dc8-a8f2-8981534018f1">SetStreamPrioritization</a>.
+The <b>CreateNewStreamPrioritization</b> method creates a new stream prioritization object. After you create a stream prioritization object, use the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization</a> interface to configure it. The configured stream prioritization object can then be assigned to the profile with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757384(v=VS.85).aspx">SetStreamPrioritization</a>.
 
 
 
@@ -133,7 +131,7 @@ A profile can only contain one stream prioritization. When you assign a new stre
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 

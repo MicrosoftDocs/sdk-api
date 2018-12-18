@@ -9,8 +9,6 @@ ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecURL method, IAMNetShowExProps.GetCodecURL, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -94,11 +92,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b16727d-565a-431e-8124-124d72816d65">IAMNetShowExProps::get_CodecCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319724(v=VS.85).aspx">IAMNetShowExProps::get_CodecCount</a>
  
 
  

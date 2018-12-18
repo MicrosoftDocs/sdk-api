@@ -9,8 +9,6 @@ ms.assetid: 21dccb42-8430-4fa0-a549-98dd3d1a4d4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaFormatType method, IComponentType.get__MediaFormatType, IComponentType::get__MediaFormatType, IComponentTypeget__MediaFormatType, get__MediaFormatType, get__MediaFormatType method [Microsoft TV Technologies], get__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediaformattype, tuner/IComponentType::get__MediaFormatType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -89,7 +87,7 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 
-<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
 
 
 

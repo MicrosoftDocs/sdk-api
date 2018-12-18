@@ -9,8 +9,6 @@ ms.assetid: 0EAE15E9-5B23-43F4-B4C6-D75EC8D8F281
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIsPackageReference, GetIsPackageReference method [App packaging and management], GetIsPackageReference method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsPackageReference method, IAppxBundleManifestPackageInfo2.GetIsPackageReference, IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsPackageReference, appxpkg.iappxbundlemanifestpackageinfo2_getispackagereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

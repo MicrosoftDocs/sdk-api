@@ -9,8 +9,6 @@ ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetEvent method, ISyncRegistrationChange.GetEvent, ISyncRegistrationChange::GetEvent, syncregistration/ISyncRegistrationChange::GetEvent, winsync.isyncregistrationchange_getevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

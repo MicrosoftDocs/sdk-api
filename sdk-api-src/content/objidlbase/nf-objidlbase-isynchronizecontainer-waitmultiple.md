@@ -9,8 +9,6 @@ ms.assetid: 2754b744-3ba8-4e60-9847-1d0eb3c24180
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISynchronizeContainer interface [COM],WaitMultiple method, ISynchronizeContainer.WaitMultiple, ISynchronizeContainer::WaitMultiple, WaitMultiple, WaitMultiple method [COM], WaitMultiple method [COM],ISynchronizeContainer interface, _com_isynchronizecontainer_waitmultiple, com.isynchronizecontainer_waitmultiple, objidlbase/ISynchronizeContainer::WaitMultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

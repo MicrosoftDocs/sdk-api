@@ -9,8 +9,6 @@ ms.assetid: e3f7b22d-75d6-4169-9336-26056c969195
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThreadGroupSize, GetThreadGroupSize method [Direct3D 11], GetThreadGroupSize method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetThreadGroupSize method, ID3D11ShaderReflection.GetThreadGroupSize, ID3D11ShaderReflection::GetThreadGroupSize, d3d11shader/ID3D11ShaderReflection::GetThreadGroupSize, direct3d11.id3d11shaderreflection_getthreadgroupsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 
@@ -60,21 +58,21 @@ Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the s
 
 ### -param pSizeX [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 A pointer to the size, in threads, of the x-dimension of the thread-group grid. The maximum size is 1024.
 
 
 ### -param pSizeY [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 A pointer to the size, in threads, of the y-dimension of the thread-group grid. The maximum size is 1024.
 
 
 ### -param pSizeZ [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 A pointer to the size, in threads, of the z-dimension of the thread-group grid. The maximum size is 64.
 
@@ -83,7 +81,7 @@ A pointer to the size, in threads, of the z-dimension of the thread-group grid. 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Returns the total size, in threads, of the thread-group grid by calculating the product of the size of each dimension.
 
@@ -99,7 +97,7 @@ Returns the total size, in threads, of the thread-group grid by calculating the 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
       
 
-When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://msdn.microsoft.com/en-us/library/Ff476405(v=VS.85).aspx">ID3D11DeviceContext::Dispatch</a> call to issue multiple thread groups. 
+When a compute shader is written it defines the actions of a single thread group only. If multiple thread groups are required, it is the role of the <a href="https://msdn.microsoft.com/7d3401bb-521f-4ab0-8833-e5caf712d0c9">ID3D11DeviceContext::Dispatch</a> call to issue multiple thread groups. 
 
 
 
@@ -109,7 +107,7 @@ When a compute shader is written it defines the actions of a single thread group
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476590(v=VS.85).aspx">ID3D11ShaderReflection</a>
+<a href="https://msdn.microsoft.com/a28cca72-7f2d-416a-bfa9-4d1f71fc98d5">ID3D11ShaderReflection</a>
  
 
  

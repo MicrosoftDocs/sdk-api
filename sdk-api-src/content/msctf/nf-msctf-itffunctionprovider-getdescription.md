@@ -9,8 +9,6 @@ ms.assetid: a970c93f-2a1b-44b9-9177-fd69795ae9ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetDescription method, ITfFunctionProvider.GetDescription, ITfFunctionProvider::GetDescription, _tsf_itffunctionprovider_getdescription_ref, msctf/ITfFunctionProvider::GetDescription, tsf.itffunctionprovider_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

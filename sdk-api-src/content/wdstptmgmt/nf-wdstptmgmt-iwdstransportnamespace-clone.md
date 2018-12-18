@@ -9,8 +9,6 @@ ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

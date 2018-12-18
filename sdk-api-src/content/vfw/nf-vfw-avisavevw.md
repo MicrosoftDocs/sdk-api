@@ -9,8 +9,6 @@ ms.assetid: e3810588-1be7-4e66-9b25-78aaa24b96c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVISaveV, AVISaveV function [Windows Multimedia], AVISaveVA, AVISaveVW, _win32_AVISaveV, multimedia.avisavev, vfw/AVISaveV, vfw/AVISaveVA, vfw/AVISaveVW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -90,7 +88,7 @@ Pointer to an array of pointers to the <b>AVISTREAM</b> function structures. The
 
 ### -param plpOptions
 
-Pointer to an array of pointers to <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures. The array uses one pointer for each stream.
+Pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures. The array uses one pointer for each stream.
 
 
 ## -returns
@@ -110,7 +108,7 @@ This function is equivalent to the <a href="https://msdn.microsoft.com/44200871-
 
 This function creates a file, copies stream data into the file, closes the file, and releases the resources used by the new file. The last two parameters of this function are arrays that identify the streams to save in the file and define the compression options of those streams.
 
-An application must allocate memory for the <a href="https://msdn.microsoft.com/8084adc3-792f-4a6c-b407-51e0e435e629">AVICOMPRESSOPTIONS</a> structures and the array of pointers to these structures.
+An application must allocate memory for the <a href="https://msdn.microsoft.com/en-us/library/Dd756791(v=VS.85).aspx">AVICOMPRESSOPTIONS</a> structures and the array of pointers to these structures.
 
 The argument <i>ppavi</i> contains the address of a pointer to an <a href="https://msdn.microsoft.com/25f67f04-e005-48ee-89e7-a6ef89f6d6c6">IAVIStream</a> interface.
 

@@ -9,8 +9,6 @@ ms.assetid: 5D2751F3-E7E1-4917-8060-E2BC8A7A3DEA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
@@ -82,7 +80,7 @@ A handle to the duplicate snapshot that this function creates, in the context of
 
 ### -param Flags [in, optional]
 
-The duplication flags. For more information, see <a href="https://msdn.microsoft.com/CAD06441-750F-42FC-A95A-7CAA79F31348">PSS_DUPLICATE_FLAGS</a>.
+The duplication flags. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457842(v=VS.85).aspx">PSS_DUPLICATE_FLAGS</a>.
 
 
 ## -returns

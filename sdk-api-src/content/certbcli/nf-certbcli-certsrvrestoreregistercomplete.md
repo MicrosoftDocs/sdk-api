@@ -9,8 +9,6 @@ ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
@@ -61,7 +59,7 @@ The <b>CertSrvRestoreRegisterComplete</b>  function completes a registered Certi
 ### -param hbc [in]
 
 A handle to a Certificate Services restore context. You must set this handle by calling 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377010(v=VS.85).aspx">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
+<a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a> before using it in <b>CertSrvRestoreRegisterComplete</b>.
 
 
 ### -param hrRestoreState [in]
@@ -129,11 +127,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377010(v=VS.85).aspx">CertSrvRestoreRegister</a>
+<a href="https://msdn.microsoft.com/4549ba26-d52c-4779-b27d-126cef6ef15d">CertSrvRestoreRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

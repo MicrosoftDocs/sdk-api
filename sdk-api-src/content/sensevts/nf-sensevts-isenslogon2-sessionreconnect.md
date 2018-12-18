@@ -9,8 +9,6 @@ ms.assetid: b789a75d-e842-40b4-9e8d-b9374b5ba6b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionReconnect method, ISensLogon2.SessionReconnect, ISensLogon2::SessionReconnect, SessionReconnect, SessionReconnect method [SENS], SessionReconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionreconnect, sens.isenslogon2_sessionreconnect, sensevts/ISensLogon2::SessionReconnect, syncmgr.isenslogon2_sessionreconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

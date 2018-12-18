@@ -9,8 +9,6 @@ ms.assetid: 7a17b0e0-2eaf-4570-a297-c2540ae4b6c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],removeItem method, IWMPPlaylist.removeItem, IWMPPlaylist::removeItem, IWMPPlaylistremoveItem, removeItem, removeItem method [Windows Media Player], removeItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_removeitem, wmp/IWMPPlaylist::removeItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,15 +110,15 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">IWMPCore::get_currentMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db2d28d-4cbf-423c-824f-e1e212c46f7a">IWMPPlaylist::insertItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563572(v=VS.85).aspx">IWMPPlaylist::insertItem</a>
  
 
  

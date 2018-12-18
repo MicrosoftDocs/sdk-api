@@ -9,8 +9,6 @@ ms.assetid: 014410be-4b2c-452b-b671-0a9bd9c0a448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateRoleDefinition method, IAzApplication3.CreateRoleDefinition, IAzApplication3::CreateRoleDefinition, azroles/IAzApplication3::CreateRoleDefinition, security.iazapplication3_createroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -67,7 +65,7 @@ A string that contains the name of the new <a href="https://msdn.microsoft.com/d
 
 The address of a pointer to the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object that this method creates.
 
-When you have finished using this <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using this <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns

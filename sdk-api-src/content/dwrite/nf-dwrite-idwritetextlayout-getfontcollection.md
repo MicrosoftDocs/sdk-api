@@ -9,8 +9,6 @@ ms.assetid: ce3e4510-2b40-4eb4-aaf8-fe830e96d618
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontCollection method, IDWriteTextLayout.GetFontCollection, IDWriteTextLayout::GetFontCollection, directwrite.IDWriteTextLayout_GetFontCollection, dwrite/IDWriteTextLayout::GetFontCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

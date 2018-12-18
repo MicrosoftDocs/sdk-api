@@ -9,8 +9,6 @@ ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

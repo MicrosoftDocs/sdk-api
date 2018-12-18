@@ -9,8 +9,6 @@ ms.assetid: 21d685ce-b65f-4d13-b653-e6c6d1afa704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceiveFail method, IComQCEvents.OnQCReceiveFail, IComQCEvents::OnQCReceiveFail, OnQCReceiveFail, OnQCReceiveFail method [COM+], OnQCReceiveFail method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceiveFail, comsvcs/IComQCEvents::OnQCReceiveFail, cos.icomqcevents_onqcreceivefail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

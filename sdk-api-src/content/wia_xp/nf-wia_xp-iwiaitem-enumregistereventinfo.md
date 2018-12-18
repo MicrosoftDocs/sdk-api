@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumregistereventinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumRegisterEventInfo, EnumRegisterEventInfo method [WIA], EnumRegisterEventInfo method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumRegisterEventInfo method, IWiaItem.EnumRegisterEventInfo, IWiaItem::EnumRegisterEventInfo, _wia_IWiaItem_EnumRegisterEventInfo, wia._wia_IWiaItem_EnumRegisterEventInfo, wia_xp/IWiaItem::EnumRegisterEventInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

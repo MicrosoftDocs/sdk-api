@@ -9,8 +9,6 @@ ms.assetid: d6e98595-3307-47f5-806d-796350c78cec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputMutexCount, GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutexCount method, IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

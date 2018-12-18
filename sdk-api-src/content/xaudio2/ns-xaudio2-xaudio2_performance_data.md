@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_PERFORMANCE_DATA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_performance_data, xaudio2/XAUDIO2_PERFORMANCE_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

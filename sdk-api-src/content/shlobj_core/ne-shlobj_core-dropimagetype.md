@@ -1,5 +1,5 @@
 ---
-UID: NE:shlobj_core.DROPIMAGETYPE
+UID: NE:shlobj_core.__unnamed_enum_6
 title: DROPIMAGETYPE
 author: windows-sdk-content
 description: Values used with the DROPDESCRIPTION structure to specify the drop image.
@@ -7,10 +7,8 @@ old-location: shell\DROPIMAGETYPE.htm
 tech.root: shell
 ms.assetid: eeaf8bd4-25ab-4ec3-9da9-9a72ba3813b9
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: DROPIMAGETYPE, DROPIMAGETYPE enumeration [Windows Shell], DROPIMAGE_COPY, DROPIMAGE_INVALID, DROPIMAGE_LABEL, DROPIMAGE_LINK, DROPIMAGE_MOVE, DROPIMAGE_NOIMAGE, DROPIMAGE_NONE, DROPIMAGE_WARNING, _shell_DROPIMAGETYPE, shell.DROPIMAGETYPE, shlobj_core/DROPIMAGETYPE, shlobj_core/DROPIMAGE_COPY, shlobj_core/DROPIMAGE_INVALID, shlobj_core/DROPIMAGE_LABEL, shlobj_core/DROPIMAGE_LINK, shlobj_core/DROPIMAGE_MOVE, shlobj_core/DROPIMAGE_NOIMAGE, shlobj_core/DROPIMAGE_NONE, shlobj_core/DROPIMAGE_WARNING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Values used with the <a href="https://msdn.microsoft.com/78757001-cac8-412d-a6c3-74bae6eb3ad8">DROPDESCRIPTION</a> structure to specify the drop image.
+Values used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773268(v=VS.85).aspx">DROPDESCRIPTION</a> structure to specify the drop image.
 
 
 ## -enum-fields

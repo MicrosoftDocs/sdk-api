@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_TYPE_MAPPING
+UID: NE:webservices.__unnamed_enum_85
 title: WS_TYPE_MAPPING
 author: windows-sdk-content
 description: How a WS_TYPE maps to or from XML when serialized or deserialized.
@@ -7,10 +7,8 @@ old-location: wsw\ws_type_mapping.htm
 tech.root: wsw
 ms.assetid: 31e4abad-d007-41ae-bf51-fa693e8b8ae5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ANY_ELEMENT_TYPE_MAPPING, WS_ATTRIBUTE_TYPE_MAPPING, WS_ELEMENT_CONTENT_TYPE_MAPPING, WS_ELEMENT_TYPE_MAPPING, WS_TYPE_MAPPING, WS_TYPE_MAPPING enumeration [Web Services for Windows], webservices/WS_ANY_ELEMENT_TYPE_MAPPING, webservices/WS_ATTRIBUTE_TYPE_MAPPING, webservices/WS_ELEMENT_CONTENT_TYPE_MAPPING, webservices/WS_ELEMENT_TYPE_MAPPING, webservices/WS_TYPE_MAPPING, wsw.ws_type_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-How a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> maps to or from XML when serialized
+How a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> maps to or from XML when serialized
                 or deserialized.
             
 
@@ -162,7 +160,7 @@ WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 
 
-See the documentation for each <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> 
+See the documentation for each <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
             
 

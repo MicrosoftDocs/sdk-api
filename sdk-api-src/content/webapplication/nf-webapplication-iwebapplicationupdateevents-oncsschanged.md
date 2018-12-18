@@ -9,8 +9,6 @@ ms.assetid: 8C959152-3576-4131-BD32-5777F1F570A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnCssChanged method, IWebApplicationUpdateEvents.OnCssChanged, IWebApplicationUpdateEvents::OnCssChanged, OnCssChanged, OnCssChanged method [Debugging Windows Store apps], OnCssChanged method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_oncsschanged, webapplication/IWebApplicationUpdateEvents::OnCssChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitorColorTemperature, GetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorColorTemperature, monitor.getmonitorcolortemperature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 
@@ -87,7 +85,7 @@ If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICAT
 
 ### -param operationParameters [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/596DC712-C6DD-4834-9E0F-CA21B0BC3BB3">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt815627(v=VS.85).aspx">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
 
 <b>PRJ_NOTIFICATION_FILE_OPENED</b>, <b>PRJ_NOTIFICATION_NEW_FILE_CREATED</b>, or <b>PRJ_NOTIFICATION_FILE_OVERWRITTEN</b><dl>
 <dd>

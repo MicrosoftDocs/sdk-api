@@ -9,8 +9,6 @@ ms.assetid: dddba9a5-be25-4dc4-9d91-eaff78d2405d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl9.GetCurrentImage, IVMRWindowlessControl9::GetCurrentImage, IVMRWindowlessControl9GetCurrentImage, dshow.ivmrwindowlesscontrol9_getcurrentimage, vmr9/IVMRWindowlessControl9::GetCurrentImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -149,7 +147,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 

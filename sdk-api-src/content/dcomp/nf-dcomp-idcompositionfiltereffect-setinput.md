@@ -9,8 +9,6 @@ ms.assetid: 8DFF137E-2979-42D4-A8A5-F831A33468CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionFilterEffect interface [DirectComposition],SetInput method, IDCompositionFilterEffect.SetInput, IDCompositionFilterEffect::SetInput, SetInput, SetInput method [DirectComposition], SetInput method [DirectComposition],IDCompositionFilterEffect interface, dcomp/IDCompositionFilterEffect::SetInput, directcomp.idcompositionfiltereffect_setinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -75,46 +73,46 @@ The filter effect to apply.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1B693705-1118-4B9B-A7B7-E8811AE881AC">IDCompositionAffineTransform2DEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919690(v=VS.85).aspx">IDCompositionAffineTransform2DEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/22503D7B-A359-4877-A437-6A97D8835BC7">IDCompositionBrightnessEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx">IDCompositionBrightnessEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/75528E11-D041-4192-833A-31679316DF76">IDCompositionColorNatrixEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919722(v=VS.85).aspx">IDCompositionColorNatrixEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/72647FCE-F1B0-4A50-927B-23EE38EEEC8B">IDCompositionCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919728(v=VS.85).aspx">IDCompositionCompositeEffect</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/A8A3ACF1-D074-454E-8F48-E5110A49CCD3">IDCompositionFloodEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/CFE79B69-75EC-4E22-BC3E-C82601AE1213">IDCompositionGaussianBlurEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919734(v=VS.85).aspx">IDCompositionGaussianBlurEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/BD11C779-78C6-4961-9DF1-2521B8F91FF5">IDCompositionHueRotationEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919738(v=VS.85).aspx">IDCompositionHueRotationEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/516CD029-DBB1-4AD7-92BB-8B6EF6C733FA">IDCompositionLinearTransferRffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx">IDCompositionLinearTransferRffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ADA7C54C-E237-4455-8808-962A631B37E0">IDCompositionSaturationRffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919763(v=VS.85).aspx">IDCompositionSaturationRffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/115FD667-64D2-4538-9EB4-B133D5DCAF30">IDCompositionShadowEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx">IDCompositionShadowEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/147E15B8-C529-4BC6-85AA-FB069B892C6C">IDCompositionTableTransferEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx">IDCompositionTableTransferEffect</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>
 </li>
 </ul>
 
@@ -130,7 +128,7 @@ Flags to apply to the filter effect.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -142,7 +140,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

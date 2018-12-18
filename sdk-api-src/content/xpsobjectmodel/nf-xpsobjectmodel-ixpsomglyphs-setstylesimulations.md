@@ -9,8 +9,6 @@ ms.assetid: 2b87f12c-5d9b-47ea-99f0-e457c3e49c92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetStyleSimulations method, IXpsOMGlyphs.SetStyleSimulations, IXpsOMGlyphs::SetStyleSimulations, SetStyleSimulations, SetStyleSimulations method [XPS Documents and Packaging], SetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setstylesimulations, xpsobjectmodel/IXpsOMGlyphs::SetStyleSimulations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 

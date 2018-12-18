@@ -9,8 +9,6 @@ ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

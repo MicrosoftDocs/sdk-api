@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Matrix class, Matrix class [GDI+],Clone method, Matrix.Clone, Matrix::Clone, _gdiplus_CLASS_Matrix_Clone_, gdiplus._gdiplus_CLASS_Matrix_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h

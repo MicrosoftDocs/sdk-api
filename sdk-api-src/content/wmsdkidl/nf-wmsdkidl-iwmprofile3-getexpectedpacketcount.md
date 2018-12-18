@@ -9,8 +9,6 @@ ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpectedPacketCount, GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetExpectedPacketCount method, IWMProfile3.GetExpectedPacketCount, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -151,7 +149,7 @@ It is impossible for this method to give exact counts, because there is no way t
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
  
 
  

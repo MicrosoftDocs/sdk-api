@@ -9,8 +9,6 @@ ms.assetid: 3ca27156-ed34-4cac-ba26-edded586272a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3ca27156-ed34-4cac-ba26-edded586272a, CurrentInPlaceState property [Tablet PC], CurrentInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInPlaceState property, ITextInputPanel.CurrentInPlaceState, ITextInputPanel.get_CurrentInPlaceState, ITextInputPanel::CurrentInPlaceState, ITextInputPanel::get_CurrentInPlaceState, get_CurrentInPlaceState, peninputpanel/ITextInputPanel::CurrentInPlaceState, peninputpanel/ITextInputPanel::get_CurrentInPlaceState, tablet.itextinputpanel_currentinplacestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

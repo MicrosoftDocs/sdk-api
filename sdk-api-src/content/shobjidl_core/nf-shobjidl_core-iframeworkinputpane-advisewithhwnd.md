@@ -9,8 +9,6 @@ ms.assetid: 6C4F52DC-0ED0-4A2D-9C5F-F29063E1AAEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseWithHWND, AdviseWithHWND method [Windows Shell], AdviseWithHWND method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],AdviseWithHWND method, IFrameworkInputPane.AdviseWithHWND, IFrameworkInputPane::AdviseWithHWND, shell.IFrameworkInputPane_AdviseWithHWND, shobjidl_core/IFrameworkInputPane::AdviseWithHWND
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

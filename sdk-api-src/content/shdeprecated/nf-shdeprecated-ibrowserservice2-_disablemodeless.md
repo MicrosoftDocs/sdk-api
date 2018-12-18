@@ -9,8 +9,6 @@ ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

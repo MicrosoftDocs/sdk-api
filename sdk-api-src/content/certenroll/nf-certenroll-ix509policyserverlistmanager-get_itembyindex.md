@@ -9,8 +9,6 @@ ms.assetid: 3343a018-e974-4821-8b10-57194c29873b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],ItemByIndex property, IX509PolicyServerListManager.ItemByIndex, IX509PolicyServerListManager.get_ItemByIndex, IX509PolicyServerListManager::ItemByIndex, IX509PolicyServerListManager::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::ItemByIndex, certenroll/IX509PolicyServerListManager::get_ItemByIndex, get_ItemByIndex, security.ix509policyserverlistmanager_itembyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a> object from the collection by index number.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a> object from the collection by index number.
 
 This property is read-only.
 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351726(v=VS.85).aspx">IX509PolicyServerListManager</a>
+<a href="https://msdn.microsoft.com/a9fe4f4b-a35d-40e6-b99a-a89f58e79250">IX509PolicyServerListManager</a>
  
 
  

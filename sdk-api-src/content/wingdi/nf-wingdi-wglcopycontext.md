@@ -7,10 +7,8 @@ old-location: opengl\wglcopycontext.htm
 tech.root: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

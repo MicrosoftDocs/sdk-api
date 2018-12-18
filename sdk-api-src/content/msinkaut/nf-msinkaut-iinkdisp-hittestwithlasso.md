@@ -9,8 +9,6 @@ ms.assetid: fe88410d-e3e7-4899-b6fe-04e6eed98bbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HitTestWithLasso, HitTestWithLasso method [Tablet PC], HitTestWithLasso method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithLasso method, IInkDisp.HitTestWithLasso, IInkDisp::HitTestWithLasso, fe88410d-e3e7-4899-b6fe-04e6eed98bbb, msinkaut/IInkDisp::HitTestWithLasso, tablet.inkdisp_hittest_point____single
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -169,7 +167,7 @@ Cannot allocate memory operation.
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

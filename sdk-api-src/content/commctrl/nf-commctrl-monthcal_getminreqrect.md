@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getminreqrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_GetMinReqRect, MonthCal_GetMinReqRect macro [Windows Controls], _win32_MonthCal_GetMinReqRect, _win32_MonthCal_GetMinReqRect_cpp, commctrl/MonthCal_GetMinReqRect, controls.MonthCal_GetMinReqRect, controls._win32_MonthCal_GetMinReqRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the minimum size required to display a full month in a month calendar 
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control. 
 
@@ -76,7 +74,7 @@ Pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d
 
 
 
-The minimum required window size for a month calendar control depends on the currently selected font, control styles, system metrics, and regional settings. When an application changes anything that affects the minimum window size, or processes a <a href="https://msdn.microsoft.com/en-us/library/ms725497(v=VS.85).aspx">WM_SETTINGCHANGE</a> message, it should call <b>MonthCal_GetMinReqRect</b> to determine the new minimum size.
+The minimum required window size for a month calendar control depends on the currently selected font, control styles, system metrics, and regional settings. When an application changes anything that affects the minimum window size, or processes a <a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message, it should call <b>MonthCal_GetMinReqRect</b> to determine the new minimum size.
 
 <div class="alert"><b>Note</b>  The rectangle returned by <b>MonthCal_GetMinReqRect</b> does not include the width of the "Today" string, if it is present. If the <a href="https://msdn.microsoft.com/en-us/library/Bb760919(v=VS.85).aspx">MCS_NOTODAY</a> style is not set, your application should also retrieve the rectangle that defines the "Today" string width by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb761039(v=VS.85).aspx">MonthCal_GetMaxTodayWidth</a> macro. Use the larger of the two rectangles to ensure that the "Today" string is not clipped.</div>
 <div> </div>

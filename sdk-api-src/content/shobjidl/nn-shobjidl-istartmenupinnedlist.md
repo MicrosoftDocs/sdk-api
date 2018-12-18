@@ -9,8 +9,6 @@ ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

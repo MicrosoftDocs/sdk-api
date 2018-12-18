@@ -9,8 +9,6 @@ ms.assetid: fce4b74e-e7bb-419d-bd5a-849c2d050ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [DirectShow], GetTag method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetTag method, IDvbLogicalChannelDescriptor.GetTag, IDvbLogicalChannelDescriptor::GetTag, IDvbLogicalChannelDescriptorGetTag, dvbsiparser/IDvbLogicalChannelDescriptor::GetTag, mstv.idvblogicalchanneldescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

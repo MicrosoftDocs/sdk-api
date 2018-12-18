@@ -9,8 +9,6 @@ ms.assetid: 049cf5b9-3914-495f-b54b-116dd271e4a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertificateThumbprint property [Windows Remote Management], CertificateThumbprint property [Windows Remote Management],IWSManConnectionOptionsEx interface, IWSManConnectionOptionsEx interface [Windows Remote Management],CertificateThumbprint property, IWSManConnectionOptionsEx.CertificateThumbprint, IWSManConnectionOptionsEx.put_CertificateThumbprint, IWSManConnectionOptionsEx::CertificateThumbprint, IWSManConnectionOptionsEx::get_CertificateThumbprint, IWSManConnectionOptionsEx::put_CertificateThumbprint, put_CertificateThumbprint, winrm.iwsmanconnectionoptionsex_certificatethumbprint, wsmandisp/IWSManConnectionOptionsEx::CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::get_CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::put_CertificateThumbprint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

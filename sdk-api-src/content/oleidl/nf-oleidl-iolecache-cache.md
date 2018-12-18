@@ -9,8 +9,6 @@ ms.assetid: 2a86063a-3ee6-4fc2-a6e0-6e9ffa658348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cache, Cache method [COM], Cache method [COM],IOleCache interface, IOleCache interface [COM],Cache method, IOleCache.Cache, IOleCache::Cache, _ole_iolecache_cache, com.iolecache_cache, oleidl/IOleCache::Cache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

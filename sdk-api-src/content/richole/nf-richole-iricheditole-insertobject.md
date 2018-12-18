@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InsertObject method, IRichEditOle.InsertObject, IRichEditOle::InsertObject, InsertObject, InsertObject method [Windows Controls], InsertObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InsertObject, _win32_IRichEditOle_InsertObject_cpp, controls.IRichEditOle_InsertObject, controls._win32_IRichEditOle_InsertObject, richole/IRichEditOle::InsertObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 633b6a11-09ba-48a7-a1ad-940846c65d79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -112,7 +110,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 </dl>
 </td>
 <td width="60%">
-The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a>, as specified by the <a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
+The requested bytes, in addition to already allocated bytes, exceed the size of the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a>, as specified by the <a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_MAX_SIZE</a> property.  
                 
 
 </td>

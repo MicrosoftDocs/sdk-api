@@ -9,8 +9,6 @@ ms.assetid: d3d0d805-ed29-4c88-925a-a16e130a3fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChangeUnits, GetChangeUnits method [Windows Sync], GetChangeUnits method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeUnits method, ISyncChange.GetChangeUnits, ISyncChange::GetChangeUnits, winsync.isyncchange_getchangeunits, winsync/ISyncChange::GetChangeUnits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

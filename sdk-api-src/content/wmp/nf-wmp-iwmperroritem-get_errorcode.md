@@ -9,8 +9,6 @@ ms.assetid: e809a1bf-1c7e-4006-9d27-e9921f2f14b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorCode method, IWMPErrorItem.get_errorCode, IWMPErrorItem::get_errorCode, IWMPErrorItemget_errorCode, get_errorCode, get_errorCode method [Windows Media Player], get_errorCode method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcode, wmp/IWMPErrorItem::get_errorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSet
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393">IWMPSettings::put_enableErrorDialogs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">IWMPSettings::put_enableErrorDialogs</a>
  
 
  

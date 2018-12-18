@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\getnumbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberChildren, GetNumberChildren method [WPF Bitmap Effects], GetNumberChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetNumberChildren method, IMILBitmapEffectGroupImpl.GetNumberChildren, IMILBitmapEffectGroupImpl::GetNumberChildren, _wibe_imilbitmapeffectgroupimpl_getnumberchildren, mileffects/IMILBitmapEffectGroupImpl::GetNumberChildren, wibe._wibe_imilbitmapeffectgroupimpl_getnumberchildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

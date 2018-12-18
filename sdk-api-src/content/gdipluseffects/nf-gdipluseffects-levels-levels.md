@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsconst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Levels, Levels class [GDI+],Levels constructor, Levels constructor [GDI+], Levels constructor [GDI+],Levels class, Levels.Levels, Levels::Levels, _gdiplus_CLASS_Levels_Levels_, gdiplus._gdiplus_CLASS_Levels_Levels_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

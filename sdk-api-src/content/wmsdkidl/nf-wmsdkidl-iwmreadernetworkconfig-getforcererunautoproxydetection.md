@@ -9,8 +9,6 @@ ms.assetid: af4c4f4d-ad19-46b5-b38f-9aa51f2d95ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetForceRerunAutoProxyDetection, GetForceRerunAutoProxyDetection method [windows Media Format], GetForceRerunAutoProxyDetection method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetForceRerunAutoProxyDetection method, IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection, IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection, IWMReaderNetworkConfigGetForceRerunAutoProxyDetection, wmformat.iwmreadernetworkconfig_getforcererunautoproxydetection, wmsdkidl/IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -112,7 +110,7 @@ NULL or invalid argument passed in.
 
 
 
-See the Remarks for <a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-728a8837d851">SetForceRerunAutoProxyDetection</a>.
+See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">SetForceRerunAutoProxyDetection</a>.
 
 
 
@@ -122,11 +120,11 @@ See the Remarks for <a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c84fc2a-5933-45da-a7a3-728a8837d851">IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743545(v=VS.85).aspx">IWMReaderNetworkConfig::SetForceRerunAutoProxyDetection</a>
  
 
  

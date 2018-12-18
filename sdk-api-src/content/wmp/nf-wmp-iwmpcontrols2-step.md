@@ -9,8 +9,6 @@ ms.assetid: d54a4bb7-855f-4807-89b5-176b7fac2edd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls2 interface [Windows Media Player],step method, IWMPControls2.step, IWMPControls2::step, IWMPControls2step, step, step method [Windows Media Player], step method [Windows Media Player],IWMPControls2 interface, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ This method currently only supports the parameters 1 or -1, so you can only step
 
 
 
-<a href="https://msdn.microsoft.com/aadbd924-b583-4136-8d6c-e3c8c0b3872e">IWMPControls2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563180(v=VS.85).aspx">IWMPControls2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
  
 
  

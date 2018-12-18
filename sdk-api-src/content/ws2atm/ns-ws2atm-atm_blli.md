@@ -1,16 +1,14 @@
 ---
-UID: NS:ws2atm.ATM_BLLI
+UID: NS:ws2atm.__unnamed_struct_1
 title: ATM_BLLI
 author: windows-sdk-content
 description: The ATM_BLLI structure is used to identify B-LLI information for an associated ATM socket.
 old-location: winsock\atm_blli_2.htm
-tech.root: WinSock
+tech.root: winsock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 
@@ -149,11 +147,11 @@ The following are the manifest constants associated with the
 
 
 
-<a href="https://msdn.microsoft.com/794d4070-45d7-41c3-8229-660ba3c5f72a">ATM_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737538(v=VS.85).aspx">ATM_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e09a8e-5990-4493-bd73-016363b57427">ATM_BHLI</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms737539(v=VS.85).aspx">ATM_BHLI</a>
 
 
 

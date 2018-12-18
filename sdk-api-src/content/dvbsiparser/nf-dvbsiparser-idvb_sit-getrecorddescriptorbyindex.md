@@ -9,8 +9,6 @@ ms.assetid: c6556778-74ea-487c-a6c9-82ed20e79031
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_SIT.GetRecordDescriptorByIndex, IDVB_SIT::GetRecordDescriptorByIndex, IDVB_SITGetRecordDescriptorByIndex, dvbsiparser/IDVB_SIT::GetRecordDescriptorByIndex, mstv.idvb_sit_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Specifies which descriptor to retrieve, indexed from zero. Call the <a href="htt
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: a2847bda-3003-4c80-abc1-5c873d0810b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistChange method, IWMPEvents.PlaylistChange, IWMPEvents::PlaylistChange, IWMPEventsPlaylistChange, PlaylistChange, PlaylistChange method [Windows Media Player], PlaylistChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistchange, wmp/IWMPEvents::PlaylistChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -95,11 +93,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebddaf22-9052-4180-9cc4-75059f9d286c">WMPPlaylistChangeEventType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564880(v=VS.85).aspx">WMPPlaylistChangeEventType</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3c66052b-2b82-44aa-868d-5d5a4501c457
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentPartnerCallback, IWMPContentPartnerCallback interface [Windows Media Player], IWMPContentPartnerCallback interface [Windows Media Player],described, IWMPContentPartnerCallbackInterface, contentpartner/IWMPContentPartnerCallback, wmp.iwmpcontentpartnercallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IWMPContentPartnerCallback</b> interface provides methods, implemented by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartnerCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWMPContentPartnerCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartnerCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentPartnerCallback</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -198,7 +196,7 @@ Notifies Windows Media Player that the online store has finished processing a ca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564243(v=VS.85).aspx">Reference for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
  
 
  

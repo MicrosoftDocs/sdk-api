@@ -9,8 +9,6 @@ ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawImage, DrawImage method [Direct2D], DrawImage method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],DrawImage method, ID2D1DeviceContext.DrawImage, ID2D1DeviceContext::DrawImage, ID2D1DeviceContext::DrawImage(ID2D1Image,const D2D1_POINT_2F,const D2D1_RECT_F,D2D1_INTERPOLATION_MODE,D2D1_COMPOSITE_MODE), d2d1_1/ID2D1DeviceContext::DrawImage, direct2d.id2d1devicecontext_drawimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -81,7 +79,7 @@ The corresponding rectangle in the image space will be mapped to the given origi
 
 ### -param interpolationMode
 
-Type: <b><a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode that will be used to scale the image if necessary.
 

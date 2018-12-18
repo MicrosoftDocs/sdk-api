@@ -9,8 +9,6 @@ ms.assetid: 7DC719E3-CE94-4B7F-B02D-62D78425CFFE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],PushLayer method, ID2D1DeviceContext.PushLayer, ID2D1DeviceContext::PushLayer, PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::PushLayer, direct2d.id2d1devicecontext_pushlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

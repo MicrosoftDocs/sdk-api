@@ -9,8 +9,6 @@ ms.assetid: ae764317-3441-4abb-90e8-f7720cdfd957
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuningSpace method, ITuner.put_TuningSpace, ITuner::put_TuningSpace, ITunerput_TuningSpace, mstv.ituner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_TuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

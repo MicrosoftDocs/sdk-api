@@ -9,8 +9,6 @@ ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
@@ -56,7 +54,7 @@ req.redist:
 
 The <b>SCardGetStatusChange</b> function blocks execution until the current availability of the cards in a specific set of readers changes.
 
-The caller supplies a list of <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">readers</a> to be monitored by an SCARD_READERSTATE array and the maximum amount of time (in milliseconds) that it is willing to wait for an action to occur on one of the listed readers. Note that <b>SCardGetStatusChange</b> uses the user-supplied value in the <b>dwCurrentState</b> members of the <i>rgReaderStates</i><a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> array as the definition of the current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the readers. The function returns when there is a change in availability, having filled in the <b>dwEventState</b> members of <i>rgReaderStates</i> appropriately.
+The caller supplies a list of <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">readers</a> to be monitored by an SCARD_READERSTATE array and the maximum amount of time (in milliseconds) that it is willing to wait for an action to occur on one of the listed readers. Note that <b>SCardGetStatusChange</b> uses the user-supplied value in the <b>dwCurrentState</b> members of the <i>rgReaderStates</i><a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> array as the definition of the current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the readers. The function returns when there is a change in availability, having filled in the <b>dwEventState</b> members of <i>rgReaderStates</i> appropriately.
 
 
 ## -parameters
@@ -78,9 +76,9 @@ The maximum amount of time, in milliseconds, to wait for an action. A value of z
 ### -param rgReaderStates [in, out]
 
 An array of 
-<a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structures that specify the readers to watch, and that receives the result.
+<a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structures that specify the readers to watch, and that receives the result.
 
-To be notified of the arrival of a new smart card reader, set the <b>szReader</b> member of a <a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structure to "\\\\?PnP?\\Notification", and set all of the other members of that structure to zero.
+To be notified of the arrival of a new smart card reader, set the <b>szReader</b> member of a <a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structure to "\\\\?PnP?\\Notification", and set all of the other members of that structure to zero.
 
 <div class="alert"><b>Important</b>  Each member of each structure in this array must be initialized to zero and then set to specific values as necessary. If this is not done, the function will fail in situations that involve remote card readers.</div>
 <div> </div>
@@ -152,7 +150,7 @@ For information about how to call this function, see the  example in
 
 
 
-<a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a>
 
 
 

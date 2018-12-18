@@ -9,8 +9,6 @@ ms.assetid: 1cea5dff-13ea-4afb-84ac-7b8df4f55fc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensNetwork, ISensNetwork interface [SENS], ISensNetwork interface [SENS],described, _zaw_isensnetwork, sens.isensnetwork, sensevts/ISensNetwork, syncmgr.isensnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 818b7a0e-bbf4-42b2-a5a4-75078834c9f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetLogClientID method, IWMReaderAdvanced2.SetLogClientID, IWMReaderAdvanced2::SetLogClientID, IWMReaderAdvanced2SetLogClientID, SetLogClientID, SetLogClientID method [windows Media Format], SetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setlogclientid, wmsdkidl/IWMReaderAdvanced2::SetLogClientID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -121,11 +119,11 @@ where the last six bytes are randomly generated.
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/034ad344-2266-4662-9797-70031f58f0cd">IWMReaderAdvanced2::GetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757433(v=VS.85).aspx">IWMReaderAdvanced2::GetLogClientID</a>
  
 
  

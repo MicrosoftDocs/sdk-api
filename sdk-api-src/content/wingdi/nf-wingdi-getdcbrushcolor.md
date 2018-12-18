@@ -9,8 +9,6 @@ ms.assetid: 98844fb1-7ad8-4fbd-be59-9a19065253da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDCBrushColor, GetDCBrushColor function [Windows GDI], _win32_GetDCBrushColor, gdi.getdcbrushcolor, wingdi/GetDCBrushColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

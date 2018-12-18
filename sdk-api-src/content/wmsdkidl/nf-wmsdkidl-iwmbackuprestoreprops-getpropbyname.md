@@ -9,8 +9,6 @@ ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetPropByName method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByName method, IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,15 +111,15 @@ You should make two calls to <b>GetPropByName</b>. On the first call, pass <b>NU
 
 
 
-<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/582c1590-8855-409c-9964-a0fb7baa05bd">IWMBackupRestoreProps::SetProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743297(v=VS.85).aspx">IWMBackupRestoreProps::SetProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
  
 
  

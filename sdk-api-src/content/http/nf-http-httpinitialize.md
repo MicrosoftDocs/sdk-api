@@ -9,8 +9,6 @@ ms.assetid: bc0648a9-bacf-4b09-aa4e-66aecbbdca3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HTTP_INITIALIZE_CONFIG, HTTP_INITIALIZE_SERVER, HttpInitialize, HttpInitialize function [HTTP], _http_httpinitialize, http.httpinitialize, http/HttpInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

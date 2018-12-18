@@ -9,8 +9,6 @@ ms.assetid: 16570F56-5894-475B-A6AF-6C4BA2C82784
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInMemoryFontFileReference, CreateInMemoryFontFileReference method [Direct Write], CreateInMemoryFontFileReference method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],CreateInMemoryFontFileReference method, IDWriteInMemoryFontFileLoader.CreateInMemoryFontFileReference, IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference, directwrite.idwriteinmemoryfontfileloader_createinmemoryfontfilereference, dwrite_3/IDWriteInMemoryFontFileLoader::CreateInMemoryFontFileReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a> instance with which it was
+Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a> instance with which it was
         created and remains valid for as long as that loader is registered with the factory.
       
 
@@ -102,7 +100,7 @@ Receives a pointer to the newly-created font file reference.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -118,7 +116,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a>
  
 
  

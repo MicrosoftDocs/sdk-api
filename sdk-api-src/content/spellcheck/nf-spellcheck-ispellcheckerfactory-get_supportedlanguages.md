@@ -9,8 +9,6 @@ ms.assetid: ae6794fd-ce7c-4c62-abc5-824699054a37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckerFactory.SupportedLanguages, ISpellCheckerFactory.get_SupportedLanguages, ISpellCheckerFactory::SupportedLanguages, ISpellCheckerFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckerFactory interface, get_SupportedLanguages, intl.ispellcheckerfactory_supportedlanguages, spellcheck/ISpellCheckerFactory::SupportedLanguages, spellcheck/ISpellCheckerFactory::get_SupportedLanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

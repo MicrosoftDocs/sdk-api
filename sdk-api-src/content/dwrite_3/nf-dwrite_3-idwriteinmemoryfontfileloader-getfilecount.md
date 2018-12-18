@@ -9,8 +9,6 @@ ms.assetid: 02385843-FDE6-408A-BD48-BBDC7DE4CA67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileCount, GetFileCount method [Direct Write], GetFileCount method [Direct Write],IDWriteInMemoryFontFileLoader interface, IDWriteInMemoryFontFileLoader interface [Direct Write],GetFileCount method, IDWriteInMemoryFontFileLoader.GetFileCount, IDWriteInMemoryFontFileLoader::GetFileCount, directwrite.idwriteinmemoryfontfileloader_getfilecount, dwrite_3/IDWriteInMemoryFontFileLoader::GetFileCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -77,7 +75,7 @@ Returns the number of font file references that have been created using this loa
 
 
 
-<a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a>
  
 
  

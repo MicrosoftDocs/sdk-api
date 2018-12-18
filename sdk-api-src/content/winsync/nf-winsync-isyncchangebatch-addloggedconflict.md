@@ -9,8 +9,6 @@ ms.assetid: e7f83c35-754a-4211-b893-2df6f65266a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddLoggedConflict, AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],AddLoggedConflict method, ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 234c8407-93c9-49bd-aae7-d526d5f5e34c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyInt, VarCyInt function [Automation], _oa96_VarCyInt, automat.varcyint, oleauto/VarCyInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

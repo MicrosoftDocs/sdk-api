@@ -9,8 +9,6 @@ ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

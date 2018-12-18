@@ -9,8 +9,6 @@ ms.assetid: C06DFD2A-9B97-4254-BFB5-058FB0ED3F83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePoint method, IDCompositionBrightnessEffect.SetWhitePoint, IDCompositionBrightnessEffect::SetWhitePoint, SetWhitePoint, SetWhitePoint method [DirectComposition], SetWhitePoint method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePoint, directcomp.idcompositionbrightnesseffect_setwhitepoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -70,7 +68,7 @@ This vector is for both the x value and the y value, in that order. Each of the 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/22503D7B-A359-4877-A437-6A97D8835BC7">IDCompositionBrightnessEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx">IDCompositionBrightnessEffect</a>
  
 
  

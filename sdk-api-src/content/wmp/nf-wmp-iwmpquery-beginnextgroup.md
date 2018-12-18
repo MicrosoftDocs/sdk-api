@@ -9,8 +9,6 @@ ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -107,19 +105,19 @@ Beginning a new condition group implies that you have completed the current cond
 
 
 
-<a href="https://msdn.microsoft.com/b1e6bf08-3b81-4c04-92ff-73eac5f7495a">IWMPMediaCollection2::createQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563407(v=VS.85).aspx">IWMPMediaCollection2::createQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3d4586b-c999-447c-b974-15bd0ef160a6">IWMPMediaCollection2::getPlaylistByQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563409(v=VS.85).aspx">IWMPMediaCollection2::getPlaylistByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/070bc947-bf2b-4c06-9ffa-6a23625d178a">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563630(v=VS.85).aspx">IWMPQuery Interface</a>
  
 
  

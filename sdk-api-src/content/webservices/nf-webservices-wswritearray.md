@@ -9,8 +9,6 @@ ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -83,7 +81,7 @@ The value type for the elements
 ### -param array
 
 A void pointer to the values written to <i>writer</i>.  The size of the items is determined by  value type.
-          <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
+          <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/en-us/library/Dd323504(v=VS.85).aspx">WS_VALUE_TYPE</a> for more information.
         </div>
 <div> </div>
 

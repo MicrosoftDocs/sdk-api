@@ -9,8 +9,6 @@ ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
@@ -65,7 +63,7 @@ A handle to the client context to be modified.
 
 ### -param pOperations [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration values that specify the types of modifications to make.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration values that specify the types of modifications to make.
 
 This array must have only one element if the value of that element is <b>AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL</b>. Otherwise, the array has the same number of elements as the <i>pAttributes</i> array.
 

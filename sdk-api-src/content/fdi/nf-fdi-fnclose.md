@@ -9,8 +9,6 @@ ms.assetid: 89db9c2a-42ab-410d-a427-60d282385c2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

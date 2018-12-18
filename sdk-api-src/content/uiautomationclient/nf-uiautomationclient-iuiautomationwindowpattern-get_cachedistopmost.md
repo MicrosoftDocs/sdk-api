@@ -9,8 +9,6 @@ ms.assetid: 0174de28-d910-4f1c-b9ac-a273563adf23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedIsTopmost property [Windows Accessibility], CachedIsTopmost property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedIsTopmost property, IUIAutomationWindowPattern.CachedIsTopmost, IUIAutomationWindowPattern.get_CachedIsTopmost, IUIAutomationWindowPattern::CachedIsTopmost, IUIAutomationWindowPattern::get_CachedIsTopmost, get_CachedIsTopmost, uiauto.uiauto_IUIAutomationWindowPattern_CachedIsTopmost, uiauto_IUIAutomationWindowPattern_CachedIsTopmost, uiautomationclient/IUIAutomationWindowPattern::CachedIsTopmost, uiautomationclient/IUIAutomationWindowPattern::get_CachedIsTopmost, winauto.uiauto_IUIAutomationWindowPattern_CachedIsTopmost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

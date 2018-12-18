@@ -9,8 +9,6 @@ ms.assetid: A99A57DB-4602-4841-85FF-BC655CAB6C6F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MachineLearning.winml_tensor_binding_desc, PWINML_TENSOR_BINDING_DESC, PWINML_TENSOR_BINDING_DESC structure pointer, WINML_TENSOR_BINDING_DESC, WINML_TENSOR_BINDING_DESC structure, winml/PWINML_TENSOR_BINDING_DESC, winml/WINML_TENSOR_BINDING_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winml.h
 req.include-header: 

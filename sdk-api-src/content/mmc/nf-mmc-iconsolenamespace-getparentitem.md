@@ -9,8 +9,6 @@ ms.assetid: c4534440-9fbe-41f1-bdf3-767c931a241b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, GetParentItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace2 interface [MMC],GetParentItem method, IConsoleNameSpace2::GetParentItem, IConsoleNameSpace::GetParentItem, _slate_iconsolenamespace2_getparentitem, mmc.iconsolenamespace2_getparentitem, mmc/IConsoleNameSpace2::GetParentItem, mmc/IConsoleNameSpace::GetParentItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
@@ -97,7 +95,7 @@ If the given item has no parent, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

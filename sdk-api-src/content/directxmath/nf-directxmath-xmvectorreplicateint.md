@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorReplicateInt(uint32_t
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorReplicateInt, XMVectorReplicateInt, XMVectorReplicateInt method [DirectX Math Support APIs], dxmath.xmvectorreplicateint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -95,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/E2404AA8-1214-4437-B655-EA74140202BA">XMVectorReplicateIntPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404804(v=VS.85).aspx">XMVectorReplicateIntPtr</a>
 
 
 

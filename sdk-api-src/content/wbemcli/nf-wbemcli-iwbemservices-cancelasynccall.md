@@ -9,8 +9,6 @@ ms.assetid: 803a7831-1e3d-4940-8d2b-1a74dd16f51a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Windows Management Instrumentation], CancelAsyncCall method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CancelAsyncCall method, IWbemServices.CancelAsyncCall, IWbemServices::CancelAsyncCall, _hmm_iwbemservices_cancelasynccall, wbemcli/IWbemServices::CancelAsyncCall, wmi.iwbemservices_cancelasynccall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
@@ -94,7 +92,7 @@ On failure, you can obtain available information from the COM function <a href="
 COM-specific error codes can also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 <div class="alert"><b>Note</b>  If 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> has not been called on the application's sink by the time WMI processes 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> has not been called on the application's sink by the time WMI processes 
 <b>CancelAsyncCall</b>, WMI calls 
 <b>SetStatus</b> on that sink with <b>WBEM_E_CALL_CANCELLED</b> as the value for the <i>hResult</i> parameter.</div>
 <div> </div>
@@ -113,7 +111,7 @@ Timing, and the nature of an asynchronous operation, can affect whether WMI is a
 
 
 
-Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>. Calling <b>CancelAsyncCall</b> from within an implementation of <a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> or <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> can interfere with the WMI state and is not recommended.
+Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>. Calling <b>CancelAsyncCall</b> from within an implementation of <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> can interfere with the WMI state and is not recommended.
 
 In the case of a method call such as <a href="https://msdn.microsoft.com/61966c03-80dc-4556-b2fc-97e879cf458c">ExecMethodAsync</a>, only the client end of the call is canceled. The implementing provider is not  notified that the call was canceled and  runs to completion.
 

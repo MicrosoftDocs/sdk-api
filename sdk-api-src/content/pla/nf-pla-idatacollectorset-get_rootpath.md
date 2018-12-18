@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_get_rootpath.htm
 tech.root: pla
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],RootPath property, IDataCollectorSet.RootPath, IDataCollectorSet.get_RootPath, IDataCollectorSet::RootPath, IDataCollectorSet::get_RootPath, IDataCollectorSet::put_RootPath, RootPath property [PLA], RootPath property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_rootpath, get_RootPath, pla.idatacollectorset_get_rootpath, pla/IDataCollectorSet::RootPath, pla/IDataCollectorSet::get_RootPath, pla/IDataCollectorSet::put_RootPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollection.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FontCollection, FontCollection class [GDI+], FontCollection class [GDI+],described, _gdiplus_CLASS_FontCollection_Class, gdiplus._gdiplus_CLASS_FontCollection_Class, gdiplusheaders/FontCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 

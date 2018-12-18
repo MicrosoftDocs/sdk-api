@@ -9,8 +9,6 @@ ms.assetid: eefb515d-62dc-4ad7-b0c4-c65a4da5742e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionCertificatePolicies interface [Security],Policies property, IX509ExtensionCertificatePolicies.Policies, IX509ExtensionCertificatePolicies.get_Policies, IX509ExtensionCertificatePolicies::Policies, IX509ExtensionCertificatePolicies::get_Policies, Policies property [Security], Policies property [Security],IX509ExtensionCertificatePolicies interface, certenroll/IX509ExtensionCertificatePolicies::Policies, certenroll/IX509ExtensionCertificatePolicies::get_Policies, get_Policies, security.ix509extensioncertificatepolicies_policies_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378124(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378123(v=VS.85).aspx">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) associated with the extension.
+Call the <a href="https://msdn.microsoft.com/3134c668-afe6-447b-9f0e-8c21df36e131">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/bd542fbd-4cba-4584-9a14-b22cf0ae5705">InitializeDecode</a> method to initialize the collection.  You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) associated with the extension.
 
 
 
@@ -73,7 +71,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378124(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a>
+<a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a>
  
 
  

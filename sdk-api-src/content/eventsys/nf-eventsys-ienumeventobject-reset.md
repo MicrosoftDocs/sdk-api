@@ -9,8 +9,6 @@ ms.assetid: 9a92c9de-e259-4b62-8f74-dff3f9947d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumEventObject interface [COM+],Reset method, IEnumEventObject.Reset, IEnumEventObject::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumEventObject interface, _cos_ienumeventobject_reset, cos.ienumeventobject_reset, eventsys/IEnumEventObject::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

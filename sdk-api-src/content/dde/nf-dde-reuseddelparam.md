@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReuseDDElParam, ReuseDDElParam function [Data Exchange], _win32_ReuseDDElParam, _win32_reuseddelparam_cpp, dataxchg.reuseddelparam, dde/ReuseDDElParam, winui._win32_reuseddelparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h

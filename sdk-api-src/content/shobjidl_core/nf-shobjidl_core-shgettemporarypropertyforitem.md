@@ -9,8 +9,6 @@ ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

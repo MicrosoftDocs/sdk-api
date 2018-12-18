@@ -9,8 +9,6 @@ ms.assetid: 6912cd69-76c2-4dae-bda3-42139acffe4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNodeTypes, GetNodeTypes method [Microsoft TV Technologies], GetNodeTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeTypes method, IBDA_Topology.GetNodeTypes, IBDA_Topology::GetNodeTypes, IBDA_TopologyGetNodeTypes, bdaiface/IBDA_Topology::GetNodeTypes, mstv.ibda_topology_getnodetypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -99,7 +97,7 @@ The <b>IBDA_Topology</b> interface is implemented by a BDA Device Filter. It is 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

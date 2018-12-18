@@ -9,8 +9,6 @@ ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleRun, OleRun function [COM], _ole_OleRun, com.olerun, ole2/OleRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

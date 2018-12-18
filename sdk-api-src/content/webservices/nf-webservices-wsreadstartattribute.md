@@ -9,8 +9,6 @@ ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadStartAttribute, WsReadStartAttribute function [Web Services for Windows], webservices/WsReadStartAttribute, wsw.wsreadstartattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

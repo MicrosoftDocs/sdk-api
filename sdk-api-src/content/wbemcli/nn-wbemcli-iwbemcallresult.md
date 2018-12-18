@@ -9,8 +9,6 @@ ms.assetid: f0aa0233-3b9b-4757-bfdc-26d9fd556ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], IWbemCallResult interface [Windows Management Instrumentation],described, _hmm_iwbemcallresult, wbemcli/IWbemCallResult, wmi.iwbemcallresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

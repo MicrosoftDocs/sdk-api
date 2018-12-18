@@ -9,8 +9,6 @@ ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -117,7 +115,7 @@ The license issuer can specify other protection systems to which the encrypted c
 
 
 
-<a href="https://msdn.microsoft.com/9474e06a-9519-456c-b304-efc875a4accc">IWMDRMReader3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798345(v=VS.85).aspx">IWMDRMReader3 Interface</a>
  
 
  

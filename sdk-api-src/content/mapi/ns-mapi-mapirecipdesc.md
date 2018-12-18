@@ -1,5 +1,5 @@
 ---
-UID: NS:mapi.MapiRecipDesc
+UID: NS:mapi.__unnamed_struct_3
 title: MapiRecipDesc
 author: windows-sdk-content
 description: A MapiRecipDesc structure contains information about a message sender or recipient. For Unicode support, use the MapiRecipDescW structure.
@@ -7,10 +7,8 @@ old-location: mapi\mapirecipdesc.htm
 tech.root: WindowsMAPI
 ms.assetid: 1457617f-de55-4875-91f5-afddee84b782
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*lpMapiRecipDesc, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDesc, MapiRecipDesc structure, lpMapiRecipDesc, lpMapiRecipDesc structure pointer, mapi.mapirecipdesc, mapi/MapiRecipDesc, mapi/lpMapiRecipDesc"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structure.
+A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> structure.
 
 
 ## -struct-fields
@@ -159,15 +157,15 @@ Pointer to an opaque entry identifier used by a messaging system service provide
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a>
 
 
 
-<a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a>
  
 
  

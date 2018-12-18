@@ -9,8 +9,6 @@ ms.assetid: 159c496c-675e-458a-b9f9-5c9622fd1848
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordGroupId, GetRecordGroupId method [Microsoft TV Technologies], GetRecordGroupId method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordGroupId method, IIsdbComponentGroupDescriptor.GetRecordGroupId, IIsdbComponentGroupDescriptor::GetRecordGroupId, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordGroupId, mstv.iisdbcomponentgroupdescriptor_getrecordgroupid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,6 @@ ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DUPLICATE_CLOSE_SOURCE, DUPLICATE_SAME_ACCESS, DuplicateHandle, DuplicateHandle function, _win32_duplicatehandle, base.duplicatehandle, handleapi/DuplicateHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: handleapi.h
 req.include-header: Windows.h
@@ -195,22 +193,22 @@ If the process that calls
 </tr>
 <tr>
 <td>Change notification</td>
-<td>The handle is returned by the <a href="base.findfirstchangenotification">FindFirstChangeNotification</a> function.</td>
+<td>The handle is returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa364417(v=VS.85).aspx">FindFirstChangeNotification</a> function.</td>
 </tr>
 <tr>
 <td>Communications device</td>
 <td>The handle is returned by the 
-<a href="base.createfile">CreateFile</a> function.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.</td>
 </tr>
 <tr>
 <td>Console input</td>
 <td>The handle is returned by the 
-<a href="base.createfile">CreateFile</a> function when CONIN$ is specified, or by the 
-<a href="base.getstdhandle">GetStdHandle</a> function when STD_INPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function when CONIN$ is specified, or by the 
+<a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a> function when STD_INPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
 </tr>
 <tr>
 <td>Console screen buffer</td>
-<td>The handle is returned by the <a href="base.createfile">CreateFile</a> function when CONOUT$ is specified, or by the <a href="base.getstdhandle">GetStdHandle</a> function when STD_OUTPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
+<td>The handle is returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function when CONOUT$ is specified, or by the <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a> function when STD_OUTPUT_HANDLE is specified. Console handles can be duplicated for use only in the same process.</td>
 </tr>
 <tr>
 <td>Desktop</td>
@@ -226,7 +224,7 @@ If the process that calls
 <tr>
 <td>File</td>
 <td>The handle is returned by the 
-<a href="base.createfile">CreateFile</a> function.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function.</td>
 </tr>
 <tr>
 <td>File mapping</td>
@@ -247,13 +245,13 @@ If the process that calls
 <td>Mutex</td>
 <td>The handle is returned by the 
 <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or 
-<a href="https://msdn.microsoft.com/0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11">OpenMutex</a> function.</td>
+<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function.</td>
 </tr>
 <tr>
 <td>Pipe</td>
 <td>A named pipe handle is returned by the 
 <a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> or 
-<a href="base.createfile">CreateFile</a> function. An anonymous pipe handle is returned by the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. An anonymous pipe handle is returned by the 
 <a href="https://msdn.microsoft.com/a2d2fee8-c174-49d3-9e5a-2ce3bb763932">CreatePipe</a> function.</td>
 </tr>
 <tr>
@@ -277,7 +275,7 @@ If the process that calls
 <td>Semaphore</td>
 <td>The handle is returned by the 
 <a href="https://msdn.microsoft.com/2e55d67b-99de-4f10-8637-00d9d62e4460">CreateSemaphore</a> or 
-<a href="https://msdn.microsoft.com/2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f">OpenSemaphore</a> function.</td>
+<a href="https://msdn.microsoft.com/en-us/library/ms684326(v=VS.85).aspx">OpenSemaphore</a> function.</td>
 </tr>
 <tr>
 <td>Thread</td>
@@ -290,8 +288,8 @@ If the process that calls
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-<a href="https://msdn.microsoft.com/41c915c4-424d-43dd-89d9-a6b4fbee701c">CreateWaitableTimer</a> or 
-<a href="https://msdn.microsoft.com/0f9b49ea-5d04-449c-9b7d-f79ab28b548b">OpenWaitableTimer</a> function.</td>
+<a href="https://msdn.microsoft.com/en-us/library/ms682492(v=VS.85).aspx">CreateWaitableTimer</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>
@@ -319,7 +317,7 @@ The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. A
 <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">Desktop Security and Access Rights</a>
 </li>
 <li>
-<a href="base.file_security_and_access_rights">File Security and Access Rights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File-Mapping Security and Access Rights</a>

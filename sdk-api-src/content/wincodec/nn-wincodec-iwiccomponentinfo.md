@@ -9,8 +9,6 @@ ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

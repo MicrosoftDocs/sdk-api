@@ -9,8 +9,6 @@ ms.assetid: 40588741-958D-4D7E-8E39-206D7CFCBFB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetResult method, IDWriteAsyncResult.GetResult, IDWriteAsyncResult::GetResult, directwrite.idwriteasyncresult_getresult, dwrite_3/IDWriteAsyncResult::GetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -65,7 +63,7 @@ Returns the result of the asynchronous operation. The return value is E_PENDING 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
 
@@ -77,7 +75,7 @@ Returns the result of the asynchronous operation. The return value is E_PENDING 
 
 
 
-<a href="https://msdn.microsoft.com/8F267213-EB98-4AD9-826A-7D4E34FEB3E4">IDWriteAsyncResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807681(v=VS.85).aspx">IDWriteAsyncResult</a>
  
 
  

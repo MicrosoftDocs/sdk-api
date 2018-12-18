@@ -9,8 +9,6 @@ ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

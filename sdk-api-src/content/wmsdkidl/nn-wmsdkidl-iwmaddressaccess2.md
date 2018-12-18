@@ -9,8 +9,6 @@ ms.assetid: 609a20a7-e1a3-4889-abf3-4a6defc7739a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMAddressAccess2, IWMAddressAccess2 interface [windows Media Format], IWMAddressAccess2 interface [windows Media Format],described, IWMAddressAccess2Interface, wmformat.iwmaddressaccess2, wmsdkidl/IWMAddressAccess2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -65,31 +63,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess</a>
 </td>
 <td> IID_IWMAddressAccess </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fea7cd85-22ab-4f3b-8a0a-301496f0c788">IWMClientConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743303(v=VS.85).aspx">IWMClientConnections</a>
 </td>
 <td>IID_IWMClientConnections</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7148dd13-e5de-4adb-89e7-3f02a463c2d1">IWMClientConnections2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743304(v=VS.85).aspx">IWMClientConnections2</a>
 </td>
 <td>IID_IWMClientConnections2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink</a>
 </td>
 <td>IID_IWMWriterNetworkSink</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -101,7 +99,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAddressAccess2</b> interface inherits from <a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess</a>. <b>IWMAddressAccess2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMAddressAccess2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess</a>. <b>IWMAddressAccess2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -116,7 +114,7 @@ The <b>IWMAddressAccess2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8125f716-0523-4042-a1f1-019445fb7de9">AddAccessEntryEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743281(v=VS.85).aspx">AddAccessEntryEx</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the access list.
@@ -125,7 +123,7 @@ Adds an entry to the access list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/477e6b28-bfa0-4ce9-b2e0-eb51eaba6476">GetAccessEntryEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743282(v=VS.85).aspx">GetAccessEntryEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry from the access list.
@@ -140,7 +138,7 @@ Retrieves an entry from the access list.
 
 
 
-<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess</a>
 
 
 

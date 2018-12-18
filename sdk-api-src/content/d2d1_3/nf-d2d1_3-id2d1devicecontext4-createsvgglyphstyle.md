@@ -9,8 +9,6 @@ ms.assetid: 56E357D3-D361-4A56-990F-1CD4051BD4F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSvgGlyphStyle, CreateSvgGlyphStyle method [Direct2D], CreateSvgGlyphStyle method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],CreateSvgGlyphStyle method, ID2D1DeviceContext4.CreateSvgGlyphStyle, ID2D1DeviceContext4::CreateSvgGlyphStyle, d2d1_3/ID2D1DeviceContext4::CreateSvgGlyphStyle, direct2d.id2d1devicecontext4_createsvgglyphstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -69,7 +67,7 @@ On completion points to the created <a href="https://msdn.microsoft.com/FE01771A
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

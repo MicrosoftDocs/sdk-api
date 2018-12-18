@@ -9,8 +9,6 @@ ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAddrInfoW, GetAddrInfoW function [Winsock], winsock.getaddrinfow, ws2tcpip/GetAddrInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

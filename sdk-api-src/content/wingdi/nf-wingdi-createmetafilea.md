@@ -9,8 +9,6 @@ ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

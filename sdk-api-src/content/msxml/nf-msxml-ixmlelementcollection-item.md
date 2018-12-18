@@ -9,8 +9,6 @@ ms.assetid: 3851fe72-b826-4948-ba74-638229429345
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml.h
 req.include-header: 

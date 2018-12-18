@@ -9,8 +9,6 @@ ms.assetid: c50a0fb5-053f-4941-ab10-67efefdcbe59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],IdleDuration property, IIdleSettings.IdleDuration, IIdleSettings.put_IdleDuration, IIdleSettings::IdleDuration, IIdleSettings::get_IdleDuration, IIdleSettings::put_IdleDuration, IdleDuration property [Task Scheduler], IdleDuration property [Task Scheduler],IIdleSettings interface, put_IdleDuration, taskschd.iidlesettings_idleduration, taskschd/IIdleSettings::IdleDuration, taskschd/IIdleSettings::get_IdleDuration, taskschd/IIdleSettings::put_IdleDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

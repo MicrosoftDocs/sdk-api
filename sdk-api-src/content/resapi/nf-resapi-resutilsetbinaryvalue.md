@@ -9,8 +9,6 @@ ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_BINARY_VALUE, PRESUTIL_SET_BINARY_VALUE function [Failover Cluster], ResUtilSetBinaryValue, ResUtilSetBinaryValue function [Failover Cluster], _wolf_resutilsetbinaryvalue, mscs.resutilsetbinaryvalue, resapi/PRESUTIL_SET_BINARY_VALUE, resapi/ResUtilSetBinaryValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

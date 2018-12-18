@@ -9,8 +9,6 @@ ms.assetid: 9b657f1c-1d59-4ba5-9af9-978ffda1a348
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileGroup, IFsrmFileGroup interface [File Server Resource Manager], IFsrmFileGroup interface [File Server Resource Manager],described, fs.ifsrmfilegroup, fsrm.ifsrmfilegroup, fsrm/IFsrmFileGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

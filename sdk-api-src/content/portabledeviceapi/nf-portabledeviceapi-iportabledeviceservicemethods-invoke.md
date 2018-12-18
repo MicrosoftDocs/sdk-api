@@ -9,8 +9,6 @@ ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

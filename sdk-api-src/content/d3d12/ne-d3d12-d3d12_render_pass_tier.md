@@ -9,8 +9,6 @@ ms.assetid: 8EBAFE04-E8C9-4BAA-8A1E-DF2BB8E4B254
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RENDER_PASS_TIER, D3D12_RENDER_PASS_TIER enumeration, D3D12_RENDER_PASS_TIER_0, D3D12_RENDER_PASS_TIER_1, D3D12_RENDER_PASS_TIER_2, d3d12/D3D12_RENDER_PASS_TIER, d3d12/D3D12_RENDER_PASS_TIER_0, d3d12/D3D12_RENDER_PASS_TIER_1, d3d12/D3D12_RENDER_PASS_TIER_2, direct3d12.d3d12_render_pass_tier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -77,7 +75,7 @@ The render passes feature is implemented by the user-mode display driver, render
 
 
 
-To determine the level of support for render passes for a graphics device, pass <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to retrieve a <a href="https://msdn.microsoft.com/7B786C22-56C1-44A0-BE67-DE04EB367FD2">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> struct.
+To determine the level of support for render passes for a graphics device, pass <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_D3D12_OPTIONS5</a> to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to retrieve a <a href="https://msdn.microsoft.com/en-us/library/Mt830391(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS5</a> struct.
 
 
 

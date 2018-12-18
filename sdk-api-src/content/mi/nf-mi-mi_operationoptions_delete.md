@@ -9,8 +9,6 @@ ms.assetid: a9e43835-92a4-468a-9d45-1d4ab81d94f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_Delete, MI_OperationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_Delete, wmi_v2.mi_operationoptions_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

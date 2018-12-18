@@ -9,8 +9,6 @@ ms.assetid: 325dd9a4-80ca-43e3-9ff8-473df1b833e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition, IMediaPosition interface [DirectShow], IMediaPosition interface [DirectShow],described, IMediaPositionInterface, control/IMediaPosition, dshow.imediaposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -72,7 +70,7 @@ If one of the distributed calls returns an error, the Filter Graph Manager retur
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaPosition</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMediaPosition</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

@@ -9,8 +9,6 @@ ms.assetid: 611ccce9-7acb-4138-9655-938efcaa4c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 611ccce9-7acb-4138-9655-938efcaa4c75, IInkDivider interface [Tablet PC],Strokes property, IInkDivider.Strokes, IInkDivider.putref_Strokes, IInkDivider::Strokes, IInkDivider::get_Strokes, IInkDivider::putref_Strokes, InkDivider.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivider interface, get_Strokes, msinkaut15/IInkDivider::Strokes, msinkaut15/IInkDivider::get_Strokes, msinkaut15/IInkDivider::putref_Strokes, putref_Strokes, tablet.inkdivider_strokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
@@ -84,7 +82,7 @@ To keep the <b>Strokes</b> property of the <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="https://msdn.microsoft.com/6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9">IInkDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
 
 
 

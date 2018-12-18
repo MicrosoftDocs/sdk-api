@@ -9,8 +9,6 @@ ms.assetid: fb0bc52c-ae50-4c14-864d-099f2903adfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Task Scheduler], GetStatus method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetStatus method, IScheduledWorkItem.GetStatus, IScheduledWorkItem::GetStatus, _msb_ischeduledworkitem_getstatus, mstask/IScheduledWorkItem::GetStatus, taskschd.ischeduledworkitem_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

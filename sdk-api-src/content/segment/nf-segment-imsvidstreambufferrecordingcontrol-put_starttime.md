@@ -9,8 +9,6 @@ ms.assetid: 923fecbb-00f4-445f-a5cb-ef898580396e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StartTime method, IMSVidStreamBufferRecordingControl.put_StartTime, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StartTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -107,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl Interface</a>
  
 
  

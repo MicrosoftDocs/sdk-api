@@ -9,8 +9,6 @@ ms.assetid: A5B2DA7D-8222-440D-A8AF-33B07CE0765C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStretch, GetStretch method [Direct Write], GetStretch method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetStretch method, IDWriteFontFace3.GetStretch, IDWriteFontFace3::GetStretch, directwrite.idwritefontface3_getstretch, dwrite_3/IDWriteFontFace3::GetStretch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -78,7 +76,7 @@ Returns a <a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b0
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

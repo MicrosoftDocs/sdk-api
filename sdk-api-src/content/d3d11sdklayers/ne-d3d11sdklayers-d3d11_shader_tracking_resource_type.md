@@ -9,8 +9,6 @@ ms.assetid: 148303AC-E373-4D41-BDF5-0E17B2A3D366
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_SHADER_TRACKING_RESOURCE_TYPE, D3D11_SHADER_TRACKING_RESOURCE_TYPE enumeration [Direct3D 11], D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL, D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_DEVICEMEMORY, D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_SHARED_MEMORY, D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_MEMORY, D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_NON_UAV, D3D11_SHADER_TRACKING_RESOURCE_TYPE_NONE, D3D11_SHADER_TRACKING_RESOURCE_TYPE_NON_UAV_DEVICEMEMORY, D3D11_SHADER_TRACKING_RESOURCE_TYPE_UAV_DEVICEMEMORY, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_DEVICEMEMORY, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_ALL_SHARED_MEMORY, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_MEMORY, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_GROUPSHARED_NON_UAV, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_NONE, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_NON_UAV_DEVICEMEMORY, d3d11sdklayers/D3D11_SHADER_TRACKING_RESOURCE_TYPE_UAV_DEVICEMEMORY, direct3d11.d3d11_shader_tracking_resource_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
@@ -102,7 +100,7 @@ Track all memory on the device.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh446874(v=VS.85).aspx">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh446834(v=VS.85).aspx">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a> method tracks a specific type of resource.
+The <a href="https://msdn.microsoft.com/ABB83CE4-D612-4797-A9AD-F3C2954E669D">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a> or <a href="https://msdn.microsoft.com/A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a> method tracks a specific type of resource.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -114,7 +112,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Hh446874(v=VS.85).aspx">ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
  
 
  

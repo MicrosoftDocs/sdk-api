@@ -9,8 +9,6 @@ ms.assetid: 30e8c0d3-6cae-476b-8fc5-f0d97b4b16f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],SetAllTabletsMode method, IInkPicture.SetAllTabletsMode, IInkPicture::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IInkPicture interface, cb41bc4c-c8fe-4cd6-8049-8cb44a2716a8, msinkaut/IInkPicture::SetAllTabletsMode, tablet.inkpicture_setalltabletsmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -156,7 +154,7 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

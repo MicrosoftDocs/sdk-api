@@ -9,8 +9,6 @@ ms.assetid: 2a840f23-96e4-4b3d-b92e-53b3d10ab2bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextAdd1, FwpmProviderContextAdd1 function [Filtering], fwp.fwpmprovidercontextadd1_func, fwpmu/FwpmProviderContextAdd1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

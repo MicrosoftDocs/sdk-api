@@ -9,8 +9,6 @@ ms.assetid: 7ab68738-add0-4e2a-a036-5c6ecdd1f236
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadXmlBufferFromBytes, WsReadXmlBufferFromBytes function [Web Services for Windows], webservices/WsReadXmlBufferFromBytes, wsw.wsreadxmlbufferfrombytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -68,7 +66,7 @@ The reader to use to parse the encoded bytes.
 ### -param encoding [in, optional]
 
 The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a> 
-          with a charset of <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> will be used.
+          with a charset of <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET_AUTO</a> will be used.
         
 
 

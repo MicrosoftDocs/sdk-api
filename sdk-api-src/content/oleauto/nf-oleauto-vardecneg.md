@@ -9,8 +9,6 @@ ms.assetid: c2c43a6c-6c9d-4d97-a003-96e3fea46e5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecNeg, VarDecNeg function [Automation], _oa96_VarDecNeg, automat.vardecneg, oleauto/VarDecNeg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cb03d006-fbaa-4971-8022-41a7fa29fb87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [windows Media Format], GetBufferAndLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBufferAndLength method, INSSBuffer.GetBufferAndLength, INSSBuffer::GetBufferAndLength, INSSBufferGetBufferAndLength, wmformat.inssbuffer_getbufferandlength, wmsbuffer/INSSBuffer::GetBufferAndLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -118,11 +116,11 @@ The <i>ppdwBuffer</i> or <i>pdwLength</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f9e8408-52ce-48aa-ba85-51bdbbfd8b51">INSSBuffer::GetBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743259(v=VS.85).aspx">INSSBuffer::GetBuffer</a>
  
 
  

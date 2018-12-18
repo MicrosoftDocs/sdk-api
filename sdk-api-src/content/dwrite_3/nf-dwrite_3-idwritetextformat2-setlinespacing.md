@@ -9,8 +9,6 @@ ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextFormat2 interface [Direct Write],SetLineSpacing method, IDWriteTextFormat2.SetLineSpacing, IDWriteTextFormat2::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, directwrite.idwritetextformat2_setlinespacing, dwrite_3/IDWriteTextFormat2::SetLineSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Set line spacing.
 
 ### -param lineSpacingOptions [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc">DWRITE_LINE_SPACING</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn933216(v=VS.85).aspx">DWRITE_LINE_SPACING</a>*</b>
 
 How to manage space between lines.
 

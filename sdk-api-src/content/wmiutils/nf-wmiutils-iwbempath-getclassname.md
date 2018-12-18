@@ -9,8 +9,6 @@ ms.assetid: d7555d66-38d6-4d87-a241-6cce8674fa44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClassName, GetClassName method [Windows Management Instrumentation], GetClassName method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetClassName method, IWbemPath.GetClassName, IWbemPath::GetClassName, _hmm_iwbempath_getclassname, wmi.iwbempath_getclassname, wmiutils/IWbemPath::GetClassName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

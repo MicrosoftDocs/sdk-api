@@ -9,8 +9,6 @@ ms.assetid: 7648f975-3753-41fe-a311-e86334ef7071
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, DMO_PROCESS_OUTPUT_FLAGS , DMO_PROCESS_OUTPUT_FLAGSEnumeration, _DMO_PROCESS_OUTPUT_FLAGS, _DMO_PROCESS_OUTPUT_FLAGS enumeration [DirectShow], dshow.dmo_process_output_flags, mediaobj/DMO_PROCESS_OUTPUT_DISCARD_WHEN_NO_BUFFER, mediaobj/_DMO_PROCESS_OUTPUT_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ Discard the output when the pointer to the output buffer is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>
  
 
  

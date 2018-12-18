@@ -9,8 +9,6 @@ ms.assetid: eccf52ee-8145-4a8f-9d34-5a56bfc8a48c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 

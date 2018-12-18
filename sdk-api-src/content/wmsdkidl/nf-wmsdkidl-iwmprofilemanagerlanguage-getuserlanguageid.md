@@ -9,8 +9,6 @@ ms.assetid: 92d18ac9-8f68-47c6-91d7-de7653df69a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserLanguageID, GetUserLanguageID method [windows Media Format], GetUserLanguageID method [windows Media Format],IWMProfileManagerLanguage interface, IWMProfileManagerLanguage interface [windows Media Format],GetUserLanguageID method, IWMProfileManagerLanguage.GetUserLanguageID, IWMProfileManagerLanguage::GetUserLanguageID, IWMProfileManagerLanguageGetUserLanguageID, wmformat.iwmprofilemanagerlanguage_getuserlanguageid, wmsdkidl/IWMProfileManagerLanguage::GetUserLanguageID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -111,11 +109,11 @@ The default language is U.S. English (0x409).
 
 
 
-<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2154057-ea76-43bb-92d9-b52f16eb6b1b">IWMProfileManagerLanguage::SetUserLanguageID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757391(v=VS.85).aspx">IWMProfileManagerLanguage::SetUserLanguageID</a>
 
 
 

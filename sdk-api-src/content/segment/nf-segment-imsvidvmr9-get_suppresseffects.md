@@ -9,8 +9,6 @@ ms.assetid: 7d2d10fe-39c2-4ee1-a5c5-5624b2fbc2ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVMR9.get_SuppressEffects, IMSVidVMR9::get_SuppressEffects, IMSVidVMR9get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_suppresseffects, segment/IMSVidVMR9::get_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -66,7 +64,7 @@ The <b>get_SuppressEffects</b> method queries whether the Video Control configur
 
 ### -param bSuppress [out]
 
-Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/6e51ed2a-7516-4621-9ecb-0e645c6d416c">IMSVidVMR9::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
+Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694765(v=VS.85).aspx">IMSVidVMR9::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
 
 
 ## -returns

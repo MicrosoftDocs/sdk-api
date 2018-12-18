@@ -9,8 +9,6 @@ ms.assetid: 98b4182f-c286-4f4a-86b8-40d093456628
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoFormat method, IVPBaseConfig.SetVideoFormat, IVPBaseConfig::SetVideoFormat, IVPBaseConfigSetVideoFormat, SetVideoFormat, SetVideoFormat method [DirectShow], SetVideoFormat method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoformat, vpconfig/IVPBaseConfig::SetVideoFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -79,7 +77,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-Retrieve the video formats by using <a href="https://msdn.microsoft.com/a0426a2a-a856-4e5d-8ff2-4afa3b18355e">IVPBaseConfig::GetVideoFormats</a>.
+Retrieve the video formats by using <a href="https://msdn.microsoft.com/en-us/library/Dd390571(v=VS.85).aspx">IVPBaseConfig::GetVideoFormats</a>.
 
 Include Dvp.h and Vptype.h before Vpconfig.h.
 
@@ -95,7 +93,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
  
 
  

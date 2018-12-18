@@ -9,8 +9,6 @@ ms.assetid: 144EB343-DBBD-4E7E-8E05-87A35F4A5A64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDraw, EndDraw method [Windows Runtime], EndDraw method [Windows Runtime],ISurfaceImageSourceNative interface, ISurfaceImageSourceNative interface [Windows Runtime],EndDraw method, ISurfaceImageSourceNative.EndDraw, ISurfaceImageSourceNative.xaml, ISurfaceImageSourceNative::EndDraw, ISurfaceImageSourceNative::xaml, windows/ISurfaceImageSourceNative::EndDraw, winrt.isurfaceimagesourcenative_enddraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

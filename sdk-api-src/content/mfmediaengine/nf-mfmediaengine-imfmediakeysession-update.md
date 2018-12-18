@@ -9,8 +9,6 @@ ms.assetid: 29e66037-5f18-4724-b6f2-d85555e6af69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],Update method, IMFMediaKeySession.Update, IMFMediaKeySession::Update, Update, Update method [Media Foundation], Update method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_update, mfmediaengine/IMFMediaKeySession::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

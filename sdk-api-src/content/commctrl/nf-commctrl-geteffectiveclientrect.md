@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEffectiveClientRect, GetEffectiveClientRect function [Windows Controls], _win32_GetEffectiveClientRect, _win32_GetEffectiveClientRect_cpp, commctrl/GetEffectiveClientRect, controls.GetEffectiveClientRect, controls._win32_GetEffectiveClientRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Calculates the dimensions of a rectangle in the client area that contains all th
 
 ### -param hWnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the window that has the client area to check. 
 
@@ -74,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf1
 
 ### -param lpInfo [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a>*</b>
 
 A pointer to a null-terminated array of integers that identify controls in the client area. Each control requires a pair of consecutive elements. The first element of the pair must be nonzero and the second element of the pair must be the control identifier. The first pair represents the menu and is ignored. The last element must be zero to identify the end of the array. 
 

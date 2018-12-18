@@ -9,8 +9,6 @@ ms.assetid: ea09d806-c869-4a62-8f9d-c35db4e406ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],PlaceEncodingParameters method, IMFSinkWriterEncoderConfig.PlaceEncodingParameters, IMFSinkWriterEncoderConfig::PlaceEncodingParameters, PlaceEncodingParameters, PlaceEncodingParameters method [Media Foundation], PlaceEncodingParameters method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_placeencodingparameters, mfreadwrite/IMFSinkWriterEncoderConfig::PlaceEncodingParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

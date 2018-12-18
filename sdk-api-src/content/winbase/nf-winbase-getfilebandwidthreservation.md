@@ -9,8 +9,6 @@ ms.assetid: 3caf38f6-e853-4057-a192-71cda4443dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileBandwidthReservation, GetFileBandwidthReservation function [Files], fs.getfilebandwidthreservation_func, winbase/GetFileBandwidthReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

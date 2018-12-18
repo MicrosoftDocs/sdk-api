@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintconstruct
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], Tint constructor [GDI+],Tint class, Tint.Tint, Tint::Tint, _gdiplus_CLASS_Tint_Tint_, gdiplus._gdiplus_CLASS_Tint_Tint_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

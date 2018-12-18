@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xaudio2.ReverbConvertI3DL2ToNative(const XAU
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2fx.h
 req.include-header: 

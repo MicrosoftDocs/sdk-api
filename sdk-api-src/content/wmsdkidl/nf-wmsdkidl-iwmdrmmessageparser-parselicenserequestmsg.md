@@ -9,8 +9,6 @@ ms.assetid: 0d51b7f7-5cc2-4dbd-8a61-2901c01734bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseLicenseRequestMsg method, IWMDRMMessageParser.ParseLicenseRequestMsg, IWMDRMMessageParser::ParseLicenseRequestMsg, IWMDRMMessageParserParseLicenseRequestMsg, ParseLicenseRequestMsg, ParseLicenseRequestMsg method [windows Media Format], ParseLicenseRequestMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parselicenserequestmsg, wmsdkidl/IWMDRMMessageParser::ParseLicenseRequestMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -77,12 +75,12 @@ The size of license request message in bytes.
 
 ### -param ppDeviceCert [out]
 
-Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of the buffer object that contains the device certificate.
+Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of the buffer object that contains the device certificate.
 
 
 ### -param pDeviceSerialNumber [out]
 
-Address of a <a href="https://msdn.microsoft.com/8981042a-f11d-458d-be27-3b1749f9e995">DRM_VAL16</a> structure that receives the device identifier.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure that receives the device identifier.
 
 
 ### -param pbstrAction [out]
@@ -133,7 +131,7 @@ The <i>pbLicenseRequestMsg</i> parameter is <b>NULL</b>, or the <i>cbLicenseRequ
 
 
 
-The license request message sent by the device determines the action that your application should take. After parsing a message with the "Play" action, you can begin processing the file with the methods of the <a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor</a> interface.
+The license request message sent by the device determines the action that your application should take. After parsing a message with the "Play" action, you can begin processing the file with the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor</a> interface.
 
 
 
@@ -143,7 +141,7 @@ The license request message sent by the device determines the action that your a
 
 
 
-<a href="https://msdn.microsoft.com/76e504e2-5978-4afd-9556-68f78c49a313">IWMDRMMessageParser Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798321(v=VS.85).aspx">IWMDRMMessageParser Interface</a>
  
 
  

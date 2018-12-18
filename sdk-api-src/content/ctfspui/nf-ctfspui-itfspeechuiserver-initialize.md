@@ -9,8 +9,6 @@ ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
@@ -91,7 +89,7 @@ The method was successful.
 
 
 
-The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://msdn.microsoft.com/en-us/library/ms628947(v=VS.85).aspx">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
+The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://msdn.microsoft.com/40961001-b659-4ddb-ae7d-5342957770be">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
 
 
 

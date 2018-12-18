@@ -9,8 +9,6 @@ ms.assetid: FCB518EA-B36C-4740-9191-0BEB13AB5F06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTranslateTransform3D, CreateTranslateTransform3D method [DirectComposition], CreateTranslateTransform3D method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTranslateTransform3D method, IDCompositionDevice.CreateTranslateTransform3D, IDCompositionDevice::CreateTranslateTransform3D, dcomp/IDCompositionDevice::CreateTranslateTransform3D, directcomp.idcompositiondevice_createtranslatetransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 3D translation transform object.
 
 ### -param translateTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/C265E5FC-F7A1-4E87-8311-C4D0613DD7BC">IDCompositionTranslateTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449114(v=VS.85).aspx">IDCompositionTranslateTransform3D</a>**</b>
 
 The new 3D translation transform object. This parameter must not be NULL.
 
@@ -94,15 +92,15 @@ A newly created 3D translation transform has a static value of 0 for the OffsetX
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

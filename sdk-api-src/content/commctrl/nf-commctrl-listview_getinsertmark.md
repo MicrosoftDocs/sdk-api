@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetInsertMark, ListView_GetInsertMark macro [Windows Controls], _win32_ListView_GetInsertMark, _win32_ListView_GetInsertMark_cpp, commctrl/ListView_GetInsertMark, controls.ListView_GetInsertMark, controls._win32_ListView_GetInsertMark
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the position of the insertion point. You can use this macro or send the <a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

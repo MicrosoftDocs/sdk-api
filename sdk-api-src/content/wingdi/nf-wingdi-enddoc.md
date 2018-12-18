@@ -9,8 +9,6 @@ ms.assetid: bf63ea0f-cc73-4943-9c84-52b3b77e141c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDoc, EndDoc function [Windows GDI], _win32_EndDoc, gdi.enddoc, wingdi/EndDoc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

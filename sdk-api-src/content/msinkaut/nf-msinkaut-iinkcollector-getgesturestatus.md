@@ -9,8 +9,6 @@ ms.assetid: 31973709-1702-4ec1-8228-b0d1bdb64bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetGestureStatus method, IInkCollector.GetGestureStatus, IInkCollector::GetGestureStatus, msinkaut/IInkCollector::GetGestureStatus, tablet.inkcollector_getgesturestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -177,7 +175,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/189f430e-9d00-4e2
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

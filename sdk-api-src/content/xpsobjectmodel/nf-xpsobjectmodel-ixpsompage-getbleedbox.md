@@ -9,8 +9,6 @@ ms.assetid: 2ce82a0e-b01c-4c1e-8907-31f51dc51f10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBleedBox, GetBleedBox method [XPS Documents and Packaging], GetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetBleedBox method, IXpsOMPage.GetBleedBox, IXpsOMPage::GetBleedBox, xps.ixpsompage_getbleedbox, xpsobjectmodel/IXpsOMPage::GetBleedBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

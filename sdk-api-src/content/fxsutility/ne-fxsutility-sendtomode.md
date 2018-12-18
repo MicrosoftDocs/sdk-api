@@ -1,5 +1,5 @@
 ---
-UID: NE:fxsutility.SendToMode
+UID: NE:fxsutility.__unnamed_enum_0
 title: SendToMode
 author: windows-sdk-content
 description: Defines the way a file will be faxed from within an application. With Windows Vista there is only one possible value.
@@ -7,10 +7,8 @@ old-location: fax\_mfax_sendtomode.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\e\faxinto_z_sendtomode.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: SEND_TO_FAX_RECIPIENT_ATTACHMENT, SendToMode, SendToMode enumeration [Fax Service], _mfax_sendtomode, fax._mfax_sendtomode, fxsutility/SEND_TO_FAX_RECIPIENT_ATTACHMENT, fxsutility/SendToMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: fxsutility.h
 req.include-header: 
@@ -67,7 +65,7 @@ The file is faxed as it is. The user cannot add typed material preceding it or f
 
 
 
-This enumeration is used primarily as a parameter for the <a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a> function. 
+This enumeration is used primarily as a parameter for the <a href="https://msdn.microsoft.com/19ab50a4-a2fb-40be-a9e8-e29d149bb274">SendToFaxRecipient</a> function. 
 
 
 
@@ -77,11 +75,11 @@ This enumeration is used primarily as a parameter for the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358864(v=VS.85).aspx">SendToFaxRecipient</a>
+<a href="https://msdn.microsoft.com/19ab50a4-a2fb-40be-a9e8-e29d149bb274">SendToFaxRecipient</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358863(v=VS.85).aspx">Shell Fax Extension Functions</a>
+<a href="https://msdn.microsoft.com/555ee494-ee1c-4047-b7ae-a890176a6b32">Shell Fax Extension Functions</a>
  
 
  

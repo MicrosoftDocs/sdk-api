@@ -9,8 +9,6 @@ ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,15 +110,15 @@ Use the <b>IWMPEvents::Buffering</b> event to determine when buffering starts or
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e379c92-b400-48ad-a3d3-82ed3cd3f396">IWMPEvents::Buffering</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563312(v=VS.85).aspx">IWMPEvents::Buffering</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterNetworkId, GetClusterNetworkId function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_ID, PCLUSAPI_GET_CLUSTER_NETWORK_ID function [Failover Cluster], _wolf_getclusternetworkid, clusapi/GetClusterNetworkId, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_ID, mscs.getclusternetworkid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Returns the identifier of a  <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_ID</b> type defines a pointer to this function.
+Returns the identifier of a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_ID</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -80,7 +78,7 @@ Pointer to the size of the <i>lpszNetworkID</i> buffer as a count of characters.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible values.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the possible values.
 
 <table>
 <tr>
@@ -108,7 +106,7 @@ The buffer pointed to by <i>lpszNetworkID</i> is not big enough to hold the resu
 
 
 
-Note that <i>lpcchNetworkID</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
+Note that <i>lpcchNetworkID</i> refers to a count of characters and not a count of bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing buffers, see  <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 8b52815e-e100-4c25-b7d3-8469d1dad745
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnhancedStorageSilo interface [Enhanced Storage],SendCommand method, IEnhancedStorageSilo.SendCommand, IEnhancedStorageSilo::SendCommand, SendCommand, SendCommand method [Enhanced Storage], SendCommand method [Enhanced Storage],IEnhancedStorageSilo interface, ehstorapi/IEnhancedStorageSilo::SendCommand, enstor.ienhancedstoragesilo_sendcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

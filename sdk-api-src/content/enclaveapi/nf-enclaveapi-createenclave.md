@@ -9,8 +9,6 @@ ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnclave, CreateEnclave function, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.createenclave, enclaveapi/CreateEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h

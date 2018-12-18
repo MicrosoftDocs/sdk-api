@@ -9,8 +9,6 @@ ms.assetid: 4ed74cf9-bd97-4b6a-a8c2-d2d65d18f693
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],IsPresent property, IWindowsDriverUpdate2.IsPresent, IWindowsDriverUpdate2.get_IsPresent, IWindowsDriverUpdate2::IsPresent, IWindowsDriverUpdate2::get_IsPresent, IsPresent property [Windows Update Agent], IsPresent property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_IsPresent, wua.iwindowsdriverupdate2_ispresent, wuapi/IWindowsDriverUpdate2::IsPresent, wuapi/IWindowsDriverUpdate2::get_IsPresent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

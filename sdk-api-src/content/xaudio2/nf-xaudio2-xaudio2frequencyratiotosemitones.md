@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2FrequencyRatioToSemitones(flo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAudio2FrequencyRatioToSemitones, XAudio2FrequencyRatioToSemitones function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2frequencyratiotosemitones, xaudio2/XAudio2FrequencyRatioToSemitones
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 

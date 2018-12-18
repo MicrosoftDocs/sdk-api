@@ -9,8 +9,6 @@ ms.assetid: 657f50ad-128f-4ccb-b89a-ed88f5d9b381
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchProbe method, IWSDiscoveryPublisher.MatchProbe, IWSDiscoveryPublisher::MatchProbe, MatchProbe, MatchProbe method, MatchProbe method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobe_method, wsddisco/IWSDiscoveryPublisher::MatchProbe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

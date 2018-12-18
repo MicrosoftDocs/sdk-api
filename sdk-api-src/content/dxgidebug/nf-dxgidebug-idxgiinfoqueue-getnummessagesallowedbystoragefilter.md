@@ -9,8 +9,6 @@ ms.assetid: B838A0D9-6888-46BF-AE18-8C3546535037
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [DXGI], GetNumMessagesAllowedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesAllowedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter, IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesallowedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

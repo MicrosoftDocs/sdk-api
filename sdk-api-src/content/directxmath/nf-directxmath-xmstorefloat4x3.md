@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x3(XMFLOAT4X3@,XMMATRIX
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreFloat4x3, XMStoreFloat4x3, XMStoreFloat4x3 method [DirectX Math Support APIs], dxmath.xmstorefloat4x3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> in an <a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a>.
+Stores an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a>.
 
 
 ## -parameters
@@ -82,7 +80,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a> is a row-major matrix form. This function cannot be used to write out column-major data since it assumes the last column is 0 0 0 1.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419611(v=VS.85).aspx">XMFLOAT4X3</a> is a row-major matrix form. This function cannot be used to write out column-major data since it assumes the last column is 0 0 0 1.
 
 This function takes a matrix and writes the components out to twelve single-precision floating-point values at the given
     address. The most significant component of the first row vector is written to the first four bytes of the address,

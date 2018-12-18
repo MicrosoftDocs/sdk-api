@@ -9,8 +9,6 @@ ms.assetid: 89958c80-2140-49ab-b696-189e8f722e96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig2 interface [windows Media Format],SetTransportType method, IWMStreamConfig2.SetTransportType, IWMStreamConfig2::SetTransportType, IWMStreamConfig2SetTransportType, SetTransportType, SetTransportType method [windows Media Format], SetTransportType method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_settransporttype, wmsdkidl/IWMStreamConfig2::SetTransportType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetTransportType</b> method sets the type of data communication protocol 
 
 ### -param nTransportType [in]
 
-One member of the <a href="https://msdn.microsoft.com/1d689487-f71b-4b27-928c-c55bd22579ed">WMT_TRANSPORT_TYPE</a> enumeration type specifying the transport type for the stream.
+One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757859(v=VS.85).aspx">WMT_TRANSPORT_TYPE</a> enumeration type specifying the transport type for the stream.
 
 
 ## -returns
@@ -82,7 +80,7 @@ The method always returns S_OK.
 
 
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -92,11 +90,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfe7b285-8d1d-4b71-a839-1c73d76e6444">IWMStreamConfig2::GetTransportType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798551(v=VS.85).aspx">IWMStreamConfig2::GetTransportType</a>
  
 
  

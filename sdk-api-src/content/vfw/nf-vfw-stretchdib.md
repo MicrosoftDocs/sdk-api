@@ -9,8 +9,6 @@ ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

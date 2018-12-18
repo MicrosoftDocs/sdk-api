@@ -9,8 +9,6 @@ ms.assetid: f082acc3-98d6-4758-aded-cb83e150e6d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReportIScsiSendTargetPortalsA, ReportIscsiSendTargetPortals, ReportIscsiSendTargetPortals function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsA, ReportIscsiSendTargetPortalsW, iscsidisc.reportiscsisendtargetportals, iscsidsc/ReportIscsiSendTargetPortals, iscsidsc/ReportIscsiSendTargetPortalsA, iscsidsc/ReportIscsiSendTargetPortalsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
@@ -68,7 +66,7 @@ A pointer to a location that, on input, contains the number of entries in the <i
 
 ### -param PortalInfo [in, out]
 
-Pointer to an array of elements contained in <a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a> structures that describe the portals that the iSCSI initiator service utilizes to perform discovery with <b>SendTargets</b> requests. 
+Pointer to an array of elements contained in <a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a> structures that describe the portals that the iSCSI initiator service utilizes to perform discovery with <b>SendTargets</b> requests. 
 
 
 ## -returns
@@ -85,7 +83,7 @@ Pointer to an array of elements contained in <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/3592b289-9c0d-43dc-918f-23c8ff079186">ISCSI_TARGET_PORTAL_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870814(v=VS.85).aspx">ISCSI_TARGET_PORTAL_INFO</a>
  
 
  

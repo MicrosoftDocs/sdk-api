@@ -9,8 +9,6 @@ ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [BITS], GetProperty method [BITS],IBackgroundCopyJob5 interface, IBackgroundCopyJob5 interface [BITS],GetProperty method, IBackgroundCopyJob5.GetProperty, IBackgroundCopyJob5::GetProperty, bits.ibackgroundcopyjob5_getproperty, bits5_0/IBackgroundCopyJob5::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits5_0.h
 req.include-header: Bits.h
@@ -61,7 +59,7 @@ A generic method for getting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
 ### -param PropertyValue [out]
@@ -102,11 +100,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446781(v=VS.85).aspx">IBackgroundCopyJob5</a>
+<a href="https://msdn.microsoft.com/97481F9D-1F7B-473A-B288-A52E527478A0">IBackgroundCopyJob5</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404135(v=VS.85).aspx">IBackgroundCopyJob5::SetProperty</a>
+<a href="https://msdn.microsoft.com/D5DB8A96-7417-4142-BA27-783314835CED">IBackgroundCopyJob5::SetProperty</a>
  
 
  

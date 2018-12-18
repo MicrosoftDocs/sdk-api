@@ -9,8 +9,6 @@ ms.assetid: 41bc183f-013f-4e68-bb72-d9a30d5ea48e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayAttributeInfo, GetDisplayAttributeInfo method [Text Services Framework], GetDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],GetDisplayAttributeInfo method, ITfDisplayAttributeMgr.GetDisplayAttributeInfo, ITfDisplayAttributeMgr::GetDisplayAttributeInfo, _tsf_itfdisplayattributemgr_getdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::GetDisplayAttributeInfo, tsf.itfdisplayattributemgr_getdisplayattributeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

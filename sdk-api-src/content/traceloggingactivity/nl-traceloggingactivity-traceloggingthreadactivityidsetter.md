@@ -9,8 +9,6 @@ ms.assetid: 16E6E61C-0A3D-4B15-901B-E1302EBF1D1C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: traceloggingactivity.h
 req.include-header: 

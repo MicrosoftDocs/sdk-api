@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDoubleClickTime, SetDoubleClickTime function [Keyboard and Mouse Input], _win32_SetDoubleClickTime, _win32_setdoubleclicktime_cpp, inputdev.setdoubleclicktime, winui._win32_setdoubleclicktime, winuser/SetDoubleClickTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

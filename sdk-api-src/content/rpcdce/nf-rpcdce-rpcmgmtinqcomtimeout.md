@@ -9,8 +9,6 @@ ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

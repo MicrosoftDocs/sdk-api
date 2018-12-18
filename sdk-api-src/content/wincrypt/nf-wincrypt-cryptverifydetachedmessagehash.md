@@ -9,8 +9,6 @@ ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

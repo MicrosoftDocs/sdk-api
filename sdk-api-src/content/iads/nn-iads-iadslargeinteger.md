@@ -9,8 +9,6 @@ ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

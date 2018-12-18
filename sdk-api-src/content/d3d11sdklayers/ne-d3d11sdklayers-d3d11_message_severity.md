@@ -9,8 +9,6 @@ ms.assetid: 63143187-8e16-4ba4-aec5-8530ed31accb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5817bf39-bfcb-e96c-175e-08c952303b59, D3D11_MESSAGE_SEVERITY, D3D11_MESSAGE_SEVERITY enumeration [Direct3D 11], D3D11_MESSAGE_SEVERITY_CORRUPTION, D3D11_MESSAGE_SEVERITY_ERROR, D3D11_MESSAGE_SEVERITY_INFO, D3D11_MESSAGE_SEVERITY_MESSAGE, D3D11_MESSAGE_SEVERITY_WARNING, d3d11sdklayers/D3D11_MESSAGE_SEVERITY, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_CORRUPTION, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_ERROR, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_INFO, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_MESSAGE, d3d11sdklayers/D3D11_MESSAGE_SEVERITY_WARNING, direct3d11.d3d11_message_severity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11sdklayers.h
 req.include-header: 
@@ -89,7 +87,7 @@ Defines a message other than corruption, error, warning, or information.
 
 
 
-Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/en-us/library/Ff476177(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/en-us/library/Ff476539(v=VS.85).aspx">ID3D11InfoQueue::AddApplicationMessage</a>.
+Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/6ff12751-86dd-4ae0-b532-661a70dad21f">D3D11_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/ca5a5e33-f912-4283-8b23-b212ace6089c">ID3D11InfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -99,7 +97,7 @@ Use these values to allow or deny message categories to pass through the storage
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
  
 
  

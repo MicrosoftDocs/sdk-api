@@ -9,8 +9,6 @@ ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -70,7 +68,7 @@ Flags. Must be zero.
 
 ### -param ppSample [out]
 
-Address of a pointer to the newly created stream sample's <a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample</a> interface.
+Address of a pointer to the newly created stream sample's <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a> interface.
 
 
 ## -returns
@@ -127,7 +125,7 @@ Success.
 
 
 
-This method allocates the sample and its associated backing object or buffer. The backing object is either the DirectDraw surface for video or the <a href="https://msdn.microsoft.com/8b253715-a294-4e95-b730-e6efe7f895af">IAudioData</a> object for audio.
+This method allocates the sample and its associated backing object or buffer. The backing object is either the DirectDraw surface for video or the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object for audio.
 
 
 
@@ -137,7 +135,7 @@ This method allocates the sample and its associated backing object or buffer. Th
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

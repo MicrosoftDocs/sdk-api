@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],put_EnumerationDepth method, ISearchRoot.put_EnumerationDepth, ISearchRoot::put_EnumerationDepth, _search_ISearchRoot_put_EnumerationDepth, put_EnumerationDepth, put_EnumerationDepth method [search], put_EnumerationDepth method [search],ISearchRoot interface, search._search_ISearchRoot_put_EnumerationDepth, searchapi/ISearchRoot::put_EnumerationDepth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

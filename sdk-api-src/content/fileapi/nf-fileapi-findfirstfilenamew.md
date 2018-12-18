@@ -9,8 +9,6 @@ ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

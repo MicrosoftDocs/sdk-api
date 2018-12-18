@@ -9,8 +9,6 @@ ms.assetid: B9EF1440-27DA-48C6-B840-FF61DBF19E63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],RemoveAllEffects method, IMFMediaEngineEx.RemoveAllEffects, IMFMediaEngineEx::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_removealleffects, mfmediaengine/IMFMediaEngineEx::RemoveAllEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

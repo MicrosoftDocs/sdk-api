@@ -9,8 +9,6 @@ ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWow64GuestMachineSupported, IsWow64GuestMachineSupported function, base.iswow64guestmachinesupported, wow64apiset/IsWow64GuestMachineSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wow64apiset.h
 req.include-header: 

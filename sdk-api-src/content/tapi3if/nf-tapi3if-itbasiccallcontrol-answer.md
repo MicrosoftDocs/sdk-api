@@ -9,8 +9,6 @@ ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Answer, Answer method [TAPI 2.2], Answer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Answer method, ITBasicCallControl.Answer, ITBasicCallControl::Answer, _tapi3_itbasiccallcontrol_answer, tapi3.itbasiccallcontrol_answer, tapi3if/ITBasicCallControl::Answer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

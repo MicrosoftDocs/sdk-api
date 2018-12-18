@@ -9,8 +9,6 @@ ms.assetid: E10ACB2E-EF77-4C71-A5C7-CEFA31218091
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12FunctionParameterReflection interface, ID3D12FunctionParameterReflection interface,GetDesc method, ID3D12FunctionParameterReflection.GetDesc, ID3D12FunctionParameterReflection::GetDesc, d3d12shader/ID3D12FunctionParameterReflection::GetDesc, direct3d12.id3d12functionparameterreflection_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
@@ -60,9 +58,9 @@ Fills the parameter descriptor structure for the function's parameter.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.85).aspx">D3D12_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F">D3D12_PARAMETER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.85).aspx">D3D12_PARAMETER_DESC</a> structure that receives a description of the function's parameter.
+A pointer to a <a href="https://msdn.microsoft.com/CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F">D3D12_PARAMETER_DESC</a> structure that receives a description of the function's parameter.
           
 
 
@@ -72,7 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.8
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -83,7 +81,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn960214(v=VS.85).aspx">ID3D12FunctionParameterReflection</a>
+<a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a>
  
 
  

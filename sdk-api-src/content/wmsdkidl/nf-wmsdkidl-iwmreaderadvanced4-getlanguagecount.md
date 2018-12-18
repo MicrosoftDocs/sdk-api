@@ -9,8 +9,6 @@ ms.assetid: c63084cb-f4cf-413b-a3f1-eb6b1400ac93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguageCount method, IWMReaderAdvanced4.GetLanguageCount, IWMReaderAdvanced4::GetLanguageCount, IWMReaderAdvanced4GetLanguageCount, wmformat.iwmreaderadvanced4_getlanguagecount, wmsdkidl/IWMReaderAdvanced4::GetLanguageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -106,7 +104,7 @@ The method succeeded.
 
 
 
-This method should not be confused with <a href="https://msdn.microsoft.com/81c2edae-a793-421b-9aa2-39e280c43aeb">IWMLanguageList::GetLanguageCount</a>. This method retrieves supported languages for a specific output. The methods of the <a href="https://msdn.microsoft.com/63ef282c-d1ab-4ce9-a56b-209407c7839b">IWMLanguageList</a> interface manipulate a list of languages at the file level. An individual output might not support all of the languages in the language list.
+This method should not be confused with <a href="https://msdn.microsoft.com/en-us/library/Dd757216(v=VS.85).aspx">IWMLanguageList::GetLanguageCount</a>. This method retrieves supported languages for a specific output. The methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd757214(v=VS.85).aspx">IWMLanguageList</a> interface manipulate a list of languages at the file level. An individual output might not support all of the languages in the language list.
 
 
 
@@ -116,11 +114,11 @@ This method should not be confused with <a href="https://msdn.microsoft.com/81c2
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2af443f5-941a-466a-8eef-d4742f8e1ae1">IWMReaderAdvanced4::GetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757454(v=VS.85).aspx">IWMReaderAdvanced4::GetLanguage</a>
  
 
  

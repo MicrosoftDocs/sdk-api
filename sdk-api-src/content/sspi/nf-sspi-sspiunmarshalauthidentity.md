@@ -9,8 +9,6 @@ ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

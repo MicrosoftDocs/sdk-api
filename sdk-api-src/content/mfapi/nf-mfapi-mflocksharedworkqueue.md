@@ -9,8 +9,6 @@ ms.assetid: 1E3AA1EE-83A4-42DE-961E-D93A34CE80CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFLockSharedWorkQueue, MFLockSharedWorkQueue function [Media Foundation], mf.mflocksharedworkqueue, mfapi/MFLockSharedWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpServer503VerbosityProperty, HttpServerQueueLengthProperty, HttpServerStateProperty, HttpSetRequestQueueProperty, HttpSetRequestQueueProperty function [HTTP], http.httpsetrequestqueueproperty, http/HttpSetRequestQueueProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

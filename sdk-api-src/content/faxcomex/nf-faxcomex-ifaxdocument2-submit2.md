@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submit2.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],Submit2 method, IFaxDocument2.Submit2, IFaxDocument2::Submit2, Submit2, Submit2 method [Fax Service], Submit2 method [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp, fax._mfax_faxdocument2_submit2, faxcomex/IFaxDocument2::Submit2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -97,21 +95,21 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You must set the <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::Submit2</b>. 
+You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">IFaxDocument2::Bodies</a> property with a semi-colon delimited list of the files to be faxed before calling <b>IFaxDocument2::Submit2</b>. 
 
 
 
-<div class="alert"><b>Note</b>  This <a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a> property must be <b>NULL</b> to use <b>IFaxDocument2::Submit2</b>.</div>
+<div class="alert"><b>Note</b>  This <a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a> property must be <b>NULL</b> to use <b>IFaxDocument2::Submit2</b>.</div>
 <div> </div>
 You must provide the server name when submitting the document. To submit the document to the local server, set the <i>bstrFaxServerName</i> parameter to <b>NULL</b> or an empty string. The method returns a collection of fax job IDs, one for each recipient of the fax.
 
 To succeed, the <b>IFaxDocument2::Submit2</b> method requires that the fax has at least one recipient, and either a cover page or a fax body. You can only use this method if the server (remote or local) is installed as a network printer on the local computer.
 
-This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error <a href="https://msdn.microsoft.com/b5d59fec-2802-40bd-8ce4-748137f30fb2">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
+This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/4f7ebcad-ff7d-4c11-b4c4-c7325415231e">Priority</a> of the fax document.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_NORMAL</a>, or <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_HIGH</a> access set correctly, depending on the <a href="https://msdn.microsoft.com/en-us/library/ms687026(v=VS.85).aspx">Priority</a> of the fax document.
 
-As an example of <i>plErrorBodyFile</i>, consider the following example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/c985862e-6681-4cc3-b559-ba8ae512389b">IFaxDocument2::Bodies</a>:
+As an example of <i>plErrorBodyFile</i>, consider the following example: The following list of files is submitted as the value of <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS.85).aspx">IFaxDocument2::Bodies</a>:
 
 "MyTextFile.txt;AnotherTextFile.txt;MyPDFfile.pdf;MyWordFile.doc".
 
@@ -125,11 +123,11 @@ Because the "*.pdf" extension is not supported, the send operation will fail and
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/20b98e3e-3126-4be1-b9af-228164d0bda6">IFaxDocument2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
  
 
  

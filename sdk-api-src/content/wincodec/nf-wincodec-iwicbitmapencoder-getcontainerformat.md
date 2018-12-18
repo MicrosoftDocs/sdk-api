@@ -9,8 +9,6 @@ ms.assetid: 2d197321-0a89-49fd-b243-1d870c178b57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICBitmapEncoder interface, IWICBitmapEncoder interface [Windows Imaging Component],GetContainerFormat method, IWICBitmapEncoder.GetContainerFormat, IWICBitmapEncoder::GetContainerFormat, _wic_codec_iwicbitmapencoder_getcontainerformat, wic._wic_codec_iwicbitmapencoder_getcontainerformat, wincodec/IWICBitmapEncoder::GetContainerFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

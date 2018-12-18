@@ -9,8 +9,6 @@ ms.assetid: 04f84fd1-9ce4-4daa-91b3-24508f326f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetID, GetID method [Files], GetID method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetID method, IDiskQuotaUser.GetID, IDiskQuotaUser::GetID, _win32_idiskquotauser_getid, base.idiskquotauser_getid, dskquota/IDiskQuotaUser::GetID, fs.idiskquotauser_getid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

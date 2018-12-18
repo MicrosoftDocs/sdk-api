@@ -9,8 +9,6 @@ ms.assetid: F2852200-01B4-4CB7-8635-87CF827E1D27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGISwapChainMedia interface [DXGI],SetPresentDuration method, IDXGISwapChainMedia.SetPresentDuration, IDXGISwapChainMedia::SetPresentDuration, SetPresentDuration, SetPresentDuration method [DXGI], SetPresentDuration method [DXGI],IDXGISwapChainMedia interface, direct3ddxgi.idxgiswapchainmedia_setpresentduration, dxgi1_3/IDXGISwapChainMedia::SetPresentDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

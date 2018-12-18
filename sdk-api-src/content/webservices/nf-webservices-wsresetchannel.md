@@ -9,8 +9,6 @@ ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetChannel, WsResetChannel function [Web Services for Windows], webservices/WsResetChannel, wsw.wsresetchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -108,7 +106,7 @@ Reusing a channel instead of creating one from scratch may improve performance.
             
 
 This function is only valid when the channel is in the either the
-                <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state.
+                <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state.
             
 
 If called correctly, this function will not fail (for example, due to lack of system resources).

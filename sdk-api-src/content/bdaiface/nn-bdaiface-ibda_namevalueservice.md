@@ -9,8 +9,6 @@ ms.assetid: 7b6a12d2-24e4-42d8-9138-86c2fe558d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +53,9 @@ Retrieves name/value pairs from a media transform device (MTD) through the devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NameValueService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_NameValueService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NameValueService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_NameValueService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

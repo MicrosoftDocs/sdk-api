@@ -9,8 +9,6 @@ ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies],described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -54,16 +52,16 @@ req.redist:
 This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
         
 
-The <b>IBDA_IPSinkInfo</b> interface is implemented on the <a href="https://msdn.microsoft.com/en-us/library/Dd693009(v=VS.85).aspx">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface supersedes <a href="https://msdn.microsoft.com/en-us/library/Dd693375(v=VS.85).aspx">IBDA_IPSinkControl</a>.
+The <b>IBDA_IPSinkInfo</b> interface is implemented on the <a href="https://msdn.microsoft.com/78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e">BDA IP Sink</a> filter, which manages the delivery of in-band IP data to the network stack. This interface supersedes <a href="https://msdn.microsoft.com/en-us/library/Dd693375(v=VS.85).aspx">IBDA_IPSinkControl</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_IPSinkInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_IPSinkInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_IPSinkInfo</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -118,7 +116,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

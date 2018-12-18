@@ -9,8 +9,6 @@ ms.assetid: e16d3666-9624-4341-a11c-73149f1f178e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIClearClipboard, AVIClearClipboard function [Windows Multimedia], _win32_AVIClearClipboard, multimedia.aviclearclipboard, vfw/AVIClearClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

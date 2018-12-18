@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchScopeRule interface [search],get_FollowFlags method, ISearchScopeRule.get_FollowFlags, ISearchScopeRule::get_FollowFlags, _search_ISearchScopeRule_get_FollowFlags, get_FollowFlags, get_FollowFlags method [search], get_FollowFlags method [search],ISearchScopeRule interface, search._search_ISearchScopeRule_get_FollowFlags, searchapi/ISearchScopeRule::get_FollowFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -9,8 +9,6 @@ ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

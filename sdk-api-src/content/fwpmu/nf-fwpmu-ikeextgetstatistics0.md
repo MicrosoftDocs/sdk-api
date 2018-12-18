@@ -9,8 +9,6 @@ ms.assetid: 1fbcd013-b556-41c0-bfbb-25e4ab2f6291
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IkeextGetStatistics0, IkeextGetStatistics0 function [Filtering], fwp.ikeextgetstatistics0, fwpmu/IkeextGetStatistics0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

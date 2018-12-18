@@ -9,8 +9,6 @@ ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadPriorityBoost, SetThreadPriorityBoost function, _win32_setthreadpriorityboost, base.setthreadpriorityboost, processthreadsapi/SetThreadPriorityBoost, winbase/SetThreadPriorityBoost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: b73416c0-2312-4164-8a6d-f8776dc1447f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mixerocx.h
 req.include-header: 
@@ -74,7 +72,7 @@ The <b>IMixerOCXNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8080e5f-99e7-47eb-96ff-53c4ed8d2ff1">OnDataChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407086(v=VS.85).aspx">OnDataChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the client when the video rectangle's aspect ratio or size, or the display palette, has changed.
@@ -83,7 +81,7 @@ Notifies the client when the video rectangle's aspect ratio or size, or the disp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55d349d4-1a9a-4762-8058-c3f7a559e272">OnInvalidateRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407087(v=VS.85).aspx">OnInvalidateRect</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the video rectangle has been invalidated.
@@ -92,7 +90,7 @@ Notifies the client that the video rectangle has been invalidated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6e49306-59bc-45a2-826b-cea2cf77214b">OnStatusChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407088(v=VS.85).aspx">OnStatusChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a status change has occurred.
@@ -107,7 +105,7 @@ Notifies the client that a status change has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
  
 
  

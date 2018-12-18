@@ -9,8 +9,6 @@ ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateForPostView, AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format],IWMWriterPostViewCallback interface, IWMWriterPostViewCallback interface [windows Media Format],AllocateForPostView method, IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -73,7 +71,7 @@ Size of <i>ppBuffer</i>, in bytes.
 
 ### -param ppBuffer [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface.
 
 
 ### -param pvContext [in]
@@ -95,7 +93,7 @@ This method is implemented by the application. It should return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
  
 
  

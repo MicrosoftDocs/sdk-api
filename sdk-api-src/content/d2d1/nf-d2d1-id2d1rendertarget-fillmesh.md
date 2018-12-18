@@ -9,8 +9,6 @@ ms.assetid: e22c9169-e770-4f3d-819b-b9363b6e6542
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillMesh, FillMesh method [Direct2D], FillMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],FillMesh method, ID2D1RenderTarget.FillMesh, ID2D1RenderTarget::FillMesh, d2d1/ID2D1RenderTarget::FillMesh, direct2d.ID2D1RenderTarget_FillMesh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

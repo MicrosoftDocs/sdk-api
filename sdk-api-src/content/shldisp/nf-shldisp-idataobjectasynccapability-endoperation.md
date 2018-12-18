@@ -9,8 +9,6 @@ ms.assetid: CF9D2A95-12AF-4538-882D-B391F2E087ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndOperation, EndOperation method [Windows Shell], EndOperation method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],EndOperation method, IDataObjectAsyncCapability.EndOperation, IDataObjectAsyncCapability::EndOperation, shell.IDataObjectAsyncCapability_EndOperation, shldisp/IDataObjectAsyncCapability::EndOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

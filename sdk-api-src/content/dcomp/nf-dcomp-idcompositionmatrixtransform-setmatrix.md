@@ -9,8 +9,6 @@ ms.assetid: 1f164dfd-8bd4-4f6e-a5d2-d455808b5b0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform.SetMatrix, IDCompositionMatrixTransform::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrix, directcomp.idcompositionmatrixtransform_setmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -92,7 +90,7 @@ If any of the matrix elements were previously animated, this method removes the 
 
 
 
-<a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx">IDCompositionMatrixTransform</a>
  
 
  

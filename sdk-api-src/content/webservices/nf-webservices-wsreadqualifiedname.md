@@ -9,8 +9,6 @@ ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

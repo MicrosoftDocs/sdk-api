@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath class, FALSE, GraphicsPath class [GDI+],AddPath method, GraphicsPath.AddPath, GraphicsPath::AddPath, TRUE, _gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

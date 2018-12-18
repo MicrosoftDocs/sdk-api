@@ -9,8 +9,6 @@ ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -108,7 +106,7 @@ Skipped less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964308(v=VS.85).aspx">IEnumBitsPeers</a>
+<a href="https://msdn.microsoft.com/2715a58c-ba76-4223-ad9e-453d029e0eda">IEnumBitsPeers</a>
  
 
  

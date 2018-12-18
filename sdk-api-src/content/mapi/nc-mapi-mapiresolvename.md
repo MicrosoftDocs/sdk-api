@@ -9,8 +9,6 @@ ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPIResolveName, MAPIResolveName callback, MAPIResolveName callback function, MAPI_AB_NOMODIFY, MAPI_DIALOG, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiresolvename, mapi/MAPIResolveName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -247,7 +245,7 @@ The call succeeded and the name was resolved.
 
 
 
-The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structure at some point by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
+The <b>MAPIResolveName</b> function resolves a message recipient's name (as entered by a user) to an unambiguous address list entry, optionally prompting the user to choose between possible entries, if necessary. A recipient descriptor structure containing fully resolved information about the entry is allocated and returned. The caller should free this <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structure at some point by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function. If <b>MAPIResolveName</b> returns an error value, it is not necessary to deallocate memory with <b>MAPIFreeBuffer</b>.
 
 
 
@@ -265,7 +263,7 @@ The <b>MAPIResolveName</b> function resolves a message recipient's name (as ente
 
 
 
-<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a>
 
 
 

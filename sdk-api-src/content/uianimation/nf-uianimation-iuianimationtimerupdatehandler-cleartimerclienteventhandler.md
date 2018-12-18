@@ -9,8 +9,6 @@ ms.assetid: c7383df5-dbd4-4cae-a682-47f84c2e8106
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearTimerClientEventHandler, ClearTimerClientEventHandler method [Windows Animation], ClearTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, IUIAnimationTimerUpdateHandler interface [Windows Animation],ClearTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler, IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler, uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

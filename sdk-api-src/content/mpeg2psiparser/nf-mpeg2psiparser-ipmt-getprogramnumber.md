@@ -9,8 +9,6 @@ ms.assetid: 39006f8b-7dd4-4f19-badc-3a288a7b6520
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetProgramNumber method, IPMT.GetProgramNumber, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

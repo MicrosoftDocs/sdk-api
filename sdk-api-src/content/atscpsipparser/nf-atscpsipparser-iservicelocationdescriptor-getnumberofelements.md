@@ -9,8 +9,6 @@ ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfElements, GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetNumberOfElements method, IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl

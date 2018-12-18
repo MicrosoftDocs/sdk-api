@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMUNIBBLE4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 structure [DirectX Math Support APIs], directxpackedvector/XMUNIBBLE4, dxmath.xmunibble4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -56,7 +54,7 @@ A 4D vector with four unsigned 4-bit integer components.
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMUNIBBLE4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/c9581948-f80f-4467-94a2-d6da2ddedb26">XMUNIBBLE4 Extensions</a>.
+	using <code>XMUNIBBLE4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415490(v=VS.85).aspx">XMUNIBBLE4 Extensions</a>.
 
 
 ## -struct-fields
@@ -143,7 +141,7 @@ Unsigned 4-bit integer value in the range [0,15] describing the
 	    <a href="https://msdn.microsoft.com/26194daf-7247-45dc-a59b-194683125794">XMLoadUNibble4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUNIBBLE4</code> with <a href="https://msdn.microsoft.com/80e45ad9-8897-4124-998a-5286fbc73e85">XMStoreUNibble4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUNIBBLE4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420386(v=VS.85).aspx">XMStoreUNibble4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -163,7 +161,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c9581948-f80f-4467-94a2-d6da2ddedb26">XMUNIBBLE4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415490(v=VS.85).aspx">XMUNIBBLE4 Extensions</a>
  
 
  

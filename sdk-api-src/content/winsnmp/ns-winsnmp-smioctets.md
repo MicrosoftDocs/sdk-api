@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.smiOCTETS
+UID: NS:winsnmp.__unnamed_struct_0
 title: smiOCTETS
 author: windows-sdk-content
 description: The WinSNMP smiOCTETS structure passes context strings to multiple WinSNMP functions. The structure also describes and receives encoded SNMP messages.
@@ -7,10 +7,8 @@ old-location: snmp\smioctets_str.htm
 tech.root: SNMP
 ms.assetid: d53da0e8-ce7d-4923-90c3-2469cbd9d9b1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*smiLPBITS, *smiLPIPADDR, *smiLPNSAPADDR, *smiLPOCTETS, *smiLPOPAQUE, _snmp_smioctets_str, smiBITS, smiIPADDR, smiLPOCTETS, smiLPOCTETS structure pointer [SNMP], smiNSAPADDR, smiOCTETS, smiOCTETS structure [SNMP], smiOPAQUE, snmp.smioctets_str, winsnmp/smiLPOCTETS, winsnmp/smiOCTETS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 
@@ -57,7 +55,7 @@ The WinSNMP
 
 The 
 <b>smiOCTETS</b> structure contains a pointer to an SNMP octet string of variable length. The structure can be a member of the 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure.
 
 
 ## -struct-fields
@@ -123,7 +121,7 @@ Because the WinSNMP application allocates memory for input descriptor objects wi
 
 
 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
  
 
  

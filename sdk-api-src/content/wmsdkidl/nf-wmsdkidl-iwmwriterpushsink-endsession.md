@@ -9,8 +9,6 @@ ms.assetid: c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndSession, EndSession method [windows Media Format], EndSession method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],EndSession method, IWMWriterPushSink.EndSession, IWMWriterPushSink::EndSession, IWMWriterPushSinkEndSession, wmformat.iwmwriterpushsink_endsession, wmsdkidl/IWMWriterPushSink::EndSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -121,7 +119,7 @@ There is no connection to the server. (Possibly this method was called before an
 
 
 
-<a href="https://msdn.microsoft.com/47bee154-0d29-4f4c-ac38-af8747088024">IWMWriterPushSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798790(v=VS.85).aspx">IWMWriterPushSink Interface</a>
  
 
  

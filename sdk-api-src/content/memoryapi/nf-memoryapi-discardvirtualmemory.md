@@ -9,8 +9,6 @@ ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

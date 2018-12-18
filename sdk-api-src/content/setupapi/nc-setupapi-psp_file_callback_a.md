@@ -9,8 +9,6 @@ ms.assetid: 41eaa57a-e116-443c-93ee-397456a5c466
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileCallback, PSP_FILE_CALLBACK, PSP_FILE_CALLBACK callback, PSP_FILE_CALLBACK callback function [Setup API], PSP_FILE_CALLBACK_A, PSP_FILE_CALLBACK_W, _setupapi_psp_file_callback, setup.psp_file_callback, setupapi/PSP_FILE_CALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: setupapi.h
 req.include-header: 

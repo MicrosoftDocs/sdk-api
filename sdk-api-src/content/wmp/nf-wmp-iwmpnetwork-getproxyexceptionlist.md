@@ -9,8 +9,6 @@ ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyExceptionList method, IWMPNetwork.getProxyExceptionList, IWMPNetwork::getProxyExceptionList, IWMPNetworkgetProxyExceptionList, getProxyExceptionList, getProxyExceptionList method [Windows Media Player], getProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyexceptionlist, wmp/IWMPNetwork::getProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -119,15 +117,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/af9202aa-fa4e-4726-908f-3fc5370e06df">IWMPNetwork::setProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563487(v=VS.85).aspx">IWMPNetwork::setProxyExceptionList</a>
  
 
  

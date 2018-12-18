@@ -9,8 +9,6 @@ ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

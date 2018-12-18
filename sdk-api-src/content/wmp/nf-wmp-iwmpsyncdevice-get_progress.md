@@ -9,8 +9,6 @@ ms.assetid: bc125107-0013-4c5b-aa44-9d48557d370d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_progress method, IWMPSyncDevice.get_progress, IWMPSyncDevice::get_progress, IWMPSyncDeviceget_progress, get_progress, get_progress method [Windows Media Player], get_progress method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_progress, wmp/IWMPSyncDevice::get_progress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,7 +119,7 @@ The <b>plProgress</b> value indicates the percent complete for the entire synchr
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 

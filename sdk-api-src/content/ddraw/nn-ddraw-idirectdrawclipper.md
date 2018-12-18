@@ -9,8 +9,6 @@ ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 

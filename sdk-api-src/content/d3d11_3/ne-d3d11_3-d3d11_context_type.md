@@ -9,8 +9,6 @@ ms.assetid: 5467F07C-E429-4324-B52E-FDC25B4DB9FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_CONTEXT_TYPE, D3D11_CONTEXT_TYPE enumeration [Direct3D 11], D3D11_CONTEXT_TYPE_3D, D3D11_CONTEXT_TYPE_ALL, D3D11_CONTEXT_TYPE_COMPUTE, D3D11_CONTEXT_TYPE_COPY, D3D11_CONTEXT_TYPE_VIDEO, d3d11_3/D3D11_CONTEXT_TYPE, d3d11_3/D3D11_CONTEXT_TYPE_3D, d3d11_3/D3D11_CONTEXT_TYPE_ALL, d3d11_3/D3D11_CONTEXT_TYPE_COMPUTE, d3d11_3/D3D11_CONTEXT_TYPE_COPY, d3d11_3/D3D11_CONTEXT_TYPE_VIDEO, direct3d11.d3d11_context_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 
@@ -92,11 +90,11 @@ This enum is used by the following:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a> structure
+<a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a> structure
           </li>
 <li>A CD3D11_QUERY_DESC1 constructor.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn912876(v=VS.85).aspx">ID3D11DeviceContext3::Flush1</a> method
+<a href="https://msdn.microsoft.com/DBDA19C3-EC4E-4C12-B1ED-A92E5CE28CED">ID3D11DeviceContext3::Flush1</a> method
           </li>
 </ul>
 
@@ -107,11 +105,11 @@ This enum is used by the following:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a>
+<a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a>
  
 
  

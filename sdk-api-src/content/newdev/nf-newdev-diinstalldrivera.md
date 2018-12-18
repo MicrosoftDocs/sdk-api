@@ -9,8 +9,6 @@ ms.assetid: 7015d05f-235e-42d1-b4e1-9919bbebf185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: newdev.h
 req.include-header: Newdev.h

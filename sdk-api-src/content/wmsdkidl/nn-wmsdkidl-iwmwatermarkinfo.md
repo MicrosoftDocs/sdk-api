@@ -9,8 +9,6 @@ ms.assetid: 4bdad433-31d1-442c-9701-f3748245070d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], IWMWatermarkInfo interface [windows Media Format],described, IWMWatermarkInfoInterface, wmformat.iwmwatermarkinfo, wmsdkidl/IWMWatermarkInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMWatermarkInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f303233-cd20-40ff-b564-4c44bf17a5f4">GetWatermarkEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798717(v=VS.85).aspx">GetWatermarkEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about one available watermarking system.
@@ -84,7 +82,7 @@ Retrieves information about one available watermarking system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27a102b7-a495-49ee-9d65-a0276ca2cf76">GetWatermarkEntryCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798718(v=VS.85).aspx">GetWatermarkEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of watermarking systems available.

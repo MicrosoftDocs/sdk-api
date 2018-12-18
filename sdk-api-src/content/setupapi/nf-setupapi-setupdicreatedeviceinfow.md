@@ -9,8 +9,6 @@ ms.assetid: 7d42167f-9af4-4aee-b641-a93ade1e3969
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiCreateDeviceInfo, SetupDiCreateDeviceInfo function [Device and Driver Installation], SetupDiCreateDeviceInfoA, SetupDiCreateDeviceInfoW, devinst.setupdicreatedeviceinfo, di-rtns_a4c64729-99b8-44d0-a404-1def9567bf33.xml, setupapi/SetupDiCreateDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -9,8 +9,6 @@ ms.assetid: d36af17d-b4ac-48ef-8ca4-cc44d7f9a4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],Item property, IUpdateCollection.Item, IUpdateCollection.get_Item, IUpdateCollection::Item, IUpdateCollection::get_Item, IUpdateCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateCollection interface, get_Item, wua.iupdatecollection_item, wuapi/IUpdateCollection::Item, wuapi/IUpdateCollection::get_Item, wuapi/IUpdateCollection::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

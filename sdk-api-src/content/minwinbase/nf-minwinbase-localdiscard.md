@@ -9,8 +9,6 @@ ms.assetid: 05842fa7-0438-4237-962f-055dc338368c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LocalDiscard, LocalDiscard macro, _win32_localdiscard, base.localdiscard, minwinbase/LocalDiscard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: minwinbase.h
 req.include-header: Windows.h

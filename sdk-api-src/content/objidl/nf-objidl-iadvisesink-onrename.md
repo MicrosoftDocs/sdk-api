@@ -9,8 +9,6 @@ ms.assetid: ec9926fb-d69e-430c-b67d-24c52d806bb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAdviseSink interface [COM],OnRename method, IAdviseSink.OnRename, IAdviseSink::OnRename, OnRename, OnRename method [COM], OnRename method [COM],IAdviseSink interface, _ole_iadvisesink_onrename, com.iadvisesink_onrename, objidl/IAdviseSink::OnRename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

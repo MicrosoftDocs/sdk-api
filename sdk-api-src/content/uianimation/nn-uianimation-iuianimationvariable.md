@@ -9,8 +9,6 @@ ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], IUIAnimationVariable interface [Windows Animation],described, uianimation.iuianimationvariable, uianimation/IUIAnimationVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d93ae074-6565-45ea-bc0e-e8401b7d5b47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMColorProfileResource interface [XPS Documents and Packaging],SetContent method, IXpsOMColorProfileResource.SetContent, IXpsOMColorProfileResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, xps.ixpsomcolorprofileresource_setcontent, xpsobjectmodel/IXpsOMColorProfileResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

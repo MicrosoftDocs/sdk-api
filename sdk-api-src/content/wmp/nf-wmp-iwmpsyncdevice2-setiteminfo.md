@@ -9,8 +9,6 @@ ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -223,7 +221,7 @@ Requires Windows Media Player 12.
 
 
 
-<a href="https://msdn.microsoft.com/b47fc5ea-741d-4e47-baad-afeb659f1079">IWMPSyncDevice2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2 Interface</a>
  
 
  

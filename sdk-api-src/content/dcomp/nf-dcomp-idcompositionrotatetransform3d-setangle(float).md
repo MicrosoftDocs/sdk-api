@@ -9,8 +9,6 @@ ms.assetid: A1C367E1-530C-4D4F-B93E-8C53C3DCF373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetAngle method, IDCompositionRotateTransform3D.SetAngle, IDCompositionRotateTransform3D.SetAngle(float), IDCompositionRotateTransform3D::SetAngle, IDCompositionRotateTransform3D::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetAngle, directcomp.idcompositionrotatetransform3d_setangle_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the Angle property was previously animated, this method removes the animation
 
 
 
-<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
  
 
  

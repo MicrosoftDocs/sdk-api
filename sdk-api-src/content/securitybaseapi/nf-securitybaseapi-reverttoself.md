@@ -9,8 +9,6 @@ ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

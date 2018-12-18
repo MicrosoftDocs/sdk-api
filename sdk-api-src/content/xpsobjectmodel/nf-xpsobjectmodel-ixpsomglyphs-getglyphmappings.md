@@ -9,8 +9,6 @@ ms.assetid: c7cf4352-f08a-43cb-a063-5d369017a887
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGlyphMappings, GetGlyphMappings method [XPS Documents and Packaging], GetGlyphMappings method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphMappings method, IXpsOMGlyphs.GetGlyphMappings, IXpsOMGlyphs::GetGlyphMappings, xps.ixpsomglyphs_getglyphmappings, xpsobjectmodel/IXpsOMGlyphs::GetGlyphMappings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

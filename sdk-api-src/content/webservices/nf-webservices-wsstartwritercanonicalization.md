@@ -9,8 +9,6 @@ ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -184,13 +182,13 @@ It is an invalid operation to call <a href="https://msdn.microsoft.com/f8eace53-
 Calls to this API cannot be nested.  So, a call to <b>WsStartWriterCanonicalization</b> must be followed by a call to <a href="https://msdn.microsoft.com/169f971e-0cd2-44e7-81fc-059cc3cd357d">WsEndWriterCanonicalization</a> before the next <b>WsStartWriterCanonicalization</b> call.
       
 
-If a <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified,
+If a <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified,
         then <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
       
 
-The <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</a> and
+The <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</a> and
         <b>WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM</b> algorithms can only be used with
-        entire xml documents.  The writer must positioned at <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE_BOF</a> when
+        entire xml documents.  The writer must positioned at <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE_BOF</a> when
         <b>WsStartWriterCanonicalization</b> is called with these algorithms.
       
 

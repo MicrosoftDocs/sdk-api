@@ -9,8 +9,6 @@ ms.assetid: c2760791-4238-45a9-a561-a48a55d6444b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClipboardPaste, ClipboardPaste method [Tablet PC], ClipboardPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardPaste method, IInkDisp.ClipboardPaste, IInkDisp::ClipboardPaste, c2760791-4238-45a9-a561-a48a55d6444b, msinkaut/IInkDisp::ClipboardPaste, tablet.inkdisp_clipboardpaste
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -146,7 +144,7 @@ An error is returned if an unexpected error occurs while accessing the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

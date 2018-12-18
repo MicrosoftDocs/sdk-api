@@ -9,8 +9,6 @@ ms.assetid: f60538f2-f1b1-40bb-8663-ed93eede433e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemCount, GetItemCount method [Picture Acquisition], GetItemCount method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemCount method, IPhotoAcquireSource.GetItemCount, IPhotoAcquireSource::GetItemCount, IPhotoAcquireSourceGetItemCount, photoacquire/IPhotoAcquireSource::GetItemCount, picacq.iphotoacquiresource_getitemcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

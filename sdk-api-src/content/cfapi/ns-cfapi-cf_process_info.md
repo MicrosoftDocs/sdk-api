@@ -9,8 +9,6 @@ ms.assetid: 912433E9-DC49-41BA-85F7-1A0AF9F88159
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_PROCESS_INFO, CF_PROCESS_INFO structure, cfapi/CF_PROCESS_INFO, cloudApi.cf_process_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

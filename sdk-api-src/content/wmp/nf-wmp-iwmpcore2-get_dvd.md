@@ -9,8 +9,6 @@ ms.assetid: b20a0661-b54b-4953-81df-499c19611a15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore2 interface [Windows Media Player],get_dvd method, IWMPCore2.get_dvd, IWMPCore2::get_dvd, IWMPCore2get_dvd, get_dvd, get_dvd method [Windows Media Player], get_dvd method [Windows Media Player],IWMPCore2 interface, wmp.iwmpcore2_get_dvd, wmp/IWMPCore2::get_dvd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563217(v=VS.85).aspx">IWMPCore2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: bec4ea32-e150-468e-9b4d-2405125e5250
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnVSSApplicationStartup method, CVssWriter.OnVSSApplicationStartup, CVssWriter::OnVSSApplicationStartup, OnVSSApplicationStartup, OnVSSApplicationStartup method [VSS], OnVSSApplicationStartup method [VSS],CVssWriter interface, _win32_cvsswriter_onvssapplicationstartup, base.cvsswriter_onvssapplicationstartup, vswriter/CVssWriter::OnVSSApplicationStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

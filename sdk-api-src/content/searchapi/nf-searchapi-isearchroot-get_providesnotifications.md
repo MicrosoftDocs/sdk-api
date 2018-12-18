@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot interface [search],get_ProvidesNotifications method, ISearchRoot.get_ProvidesNotifications, ISearchRoot::get_ProvidesNotifications, _search_ISearchRoot_get_ProvidesNotifications, get_ProvidesNotifications, get_ProvidesNotifications method [search], get_ProvidesNotifications method [search],ISearchRoot interface, search._search_ISearchRoot_get_ProvidesNotifications, searchapi/ISearchRoot::get_ProvidesNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

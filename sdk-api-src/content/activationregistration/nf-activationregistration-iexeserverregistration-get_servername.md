@@ -9,8 +9,6 @@ ms.assetid: CB7CAA65-4DA9-4948-AEB4-150A45629947
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ServerName method, IExeServerRegistration.get_ServerName, IExeServerRegistration::get_ServerName, activationregistration/IExeServerRegistration::get_ServerName, get_ServerName, get_ServerName method [Windows Runtime], get_ServerName method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_servername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 

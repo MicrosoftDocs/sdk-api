@@ -7,10 +7,8 @@ old-location: pla\idatamanager_minfreedisk.htm
 tech.root: pla
 ms.assetid: e5f4f752-ae96-4a1b-99a4-ff3b73fe3743
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataManager interface [PLA],MinFreeDisk property, IDataManager.MinFreeDisk, IDataManager.put_MinFreeDisk, IDataManager::MinFreeDisk, IDataManager::get_MinFreeDisk, IDataManager::put_MinFreeDisk, MinFreeDisk property [PLA], MinFreeDisk property [PLA],IDataManager interface, base.idatamanager_minfreedisk, pla.idatamanager_minfreedisk, pla/IDataManager::MinFreeDisk, pla/IDataManager::get_MinFreeDisk, pla/IDataManager::put_MinFreeDisk, put_MinFreeDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

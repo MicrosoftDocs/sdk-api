@@ -9,8 +9,6 @@ ms.assetid: adcb8673-47ab-4d2f-829f-49d78ab26273
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMFontResourceCollection.RemoveAt, IXpsOMFontResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_removeat, xpsobjectmodel/IXpsOMFontResourceCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

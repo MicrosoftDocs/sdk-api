@@ -9,8 +9,6 @@ ms.assetid: 671bca6d-bbe5-4f07-9735-12d796013d9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRotation, GetRotation method [Windows Imaging Component], GetRotation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRotation method, IWICDevelopRaw.GetRotation, IWICDevelopRaw::GetRotation, _wic_codec_iwicdevelopraw_getrotation, wic._wic_codec_iwicdevelopraw_getrotation, wincodec/IWICDevelopRaw::GetRotation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

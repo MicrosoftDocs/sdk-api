@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionSlerp(XMVECTOR,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionSlerp, XMQuaternionSlerp, XMQuaternionSlerp method [DirectX Math Support APIs], dxmath.xmquaternionslerp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -108,7 +106,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ca448ac9-455c-4f77-97c1-be31f8108874">XMQuaternionSlerpV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420178(v=VS.85).aspx">XMQuaternionSlerpV</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

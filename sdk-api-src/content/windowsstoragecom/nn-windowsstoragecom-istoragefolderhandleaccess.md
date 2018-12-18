@@ -9,8 +9,6 @@ ms.assetid: C579B4D9-0CD6-45D7-BE6D-54FDFB3E7753
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStorageFolderHandleAccess, IStorageFolderHandleAccess interface [Windows Runtime], IStorageFolderHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageFolderHandleAccess, winrt.istoragefolderhandleaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

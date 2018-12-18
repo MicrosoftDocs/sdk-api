@@ -9,8 +9,6 @@ ms.assetid: a6dc67e5-8473-444a-8463-24f411e59565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessMessage method, IMFTransform.ProcessMessage, IMFTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFTransform interface, a6dc67e5-8473-444a-8463-24f411e59565, mf.imftransform_processmessage, mftransform/IMFTransform::ProcessMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

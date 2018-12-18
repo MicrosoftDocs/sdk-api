@@ -9,8 +9,6 @@ ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -109,7 +107,7 @@ The writer cannot currently be run.
 
 
 
-This method will not return a failure code if the disk space was used up before the encoding was completed. In order to be notified of a file writing error, an application should implement the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> method and listen for the NS_E_FILE_WRITE event.
+This method will not return a failure code if the disk space was used up before the encoding was completed. In order to be notified of a file writing error, an application should implement the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> method and listen for the NS_E_FILE_WRITE event.
 
 
 
@@ -119,11 +117,11 @@ This method will not return a failure code if the disk space was used up before 
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>
  
 
  

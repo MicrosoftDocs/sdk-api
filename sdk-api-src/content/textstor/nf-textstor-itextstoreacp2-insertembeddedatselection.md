@@ -9,8 +9,6 @@ ms.assetid: 677114a5-8c87-4632-b308-2bb6dedf78c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, ITextStoreACP2 interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP2.InsertEmbeddedAtSelection, ITextStoreACP2::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP2 interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::InsertEmbeddedAtSelection, tsf.itextstoreacp2_insertembeddedatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

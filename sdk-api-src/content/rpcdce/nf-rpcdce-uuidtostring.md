@@ -9,8 +9,6 @@ ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

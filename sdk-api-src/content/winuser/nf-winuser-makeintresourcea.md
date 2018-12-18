@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEINTRESOURCE, MAKEINTRESOURCE macro [Menus and Other Resources], MAKEINTRESOURCEA, MAKEINTRESOURCEW, _win32_MAKEINTRESOURCE, _win32_makeintresource_cpp, menurc.makeintresource, winui._win32_makeintresource, winuser/MAKEINTRESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h
@@ -77,7 +75,7 @@ The return value should be passed only to functions which explicitly indicate th
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources Overview</a>
  
 
  

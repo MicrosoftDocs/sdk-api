@@ -9,8 +9,6 @@ ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

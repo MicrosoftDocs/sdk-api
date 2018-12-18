@@ -9,8 +9,6 @@ ms.assetid: 28fbd8db-557d-487b-8cf7-c550fe0826f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Command, Create, Delete, Enumerate, Get, Invoke, Put, Shell, Subscribe, WSMAN_PLUGIN_AUTHORIZE_OPERATION, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback, WSMAN_PLUGIN_AUTHORIZE_OPERATION callback function [Windows Management Instrumentation], winrm.wsman_plugin_authorize_operation, wsman/WSMAN_PLUGIN_AUTHORIZE_OPERATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 
@@ -191,7 +189,7 @@ This operation will have a custom string.
 
 ### -param resourceUri [in]
 
-Specifies the <a href="windows_remote_management_glossary.htm">resource URI</a> of the inbound operation.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> of the inbound operation.
 
 
 ## -returns

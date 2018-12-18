@@ -9,8 +9,6 @@ ms.assetid: d7099d6e-b8dd-44a5-af68-f3347c5d251b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBackupSchema, GetBackupSchema method [VSS], GetBackupSchema method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetBackupSchema method, IVssExamineWriterMetadata.GetBackupSchema, IVssExamineWriterMetadata::GetBackupSchema, _win32_ivssexaminewritermetadata_getbackupschema, base.ivssexaminewritermetadata_getbackupschema, vsbackup/IVssExamineWriterMetadata::GetBackupSchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

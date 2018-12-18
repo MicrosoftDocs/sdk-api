@@ -9,8 +9,6 @@ ms.assetid: 9b1208cd-3c13-456a-8a7f-0f149cb86d38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_SHGetDriveMedia, shell.SHGetDriveMedia, shellapi/SHGetDriveMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

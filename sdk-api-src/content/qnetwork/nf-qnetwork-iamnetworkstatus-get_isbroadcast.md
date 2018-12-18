@@ -9,8 +9,6 @@ ms.assetid: 578fe82b-0c87-47ea-9600-91d68f4c733f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_IsBroadcast method, IAMNetworkStatus.get_IsBroadcast, IAMNetworkStatus::get_IsBroadcast, IAMNetworkStatusget_IsBroadcast, dshow.iamnetworkstatus_get_isbroadcast, get_IsBroadcast, get_IsBroadcast method [DirectShow], get_IsBroadcast method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_IsBroadcast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ A broadcast stream can be unicast or multicast. In a broadcast connection, the c
 
 
 
-<a href="https://msdn.microsoft.com/51d56b76-f9fc-44e1-88f0-d35d861a4697">IAMNetworkStatus Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319732(v=VS.85).aspx">IAMNetworkStatus Interface</a>
  
 
  

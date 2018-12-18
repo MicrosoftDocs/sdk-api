@@ -9,8 +9,6 @@ ms.assetid: ff395caf-9b5a-41e0-94c6-4a5eb96281ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfoByType method, IWMPStringCollection2.getItemInfoByType, IWMPStringCollection2::getItemInfoByType, IWMPStringCollection2getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfobytype, wmp/IWMPStringCollection2::getItemInfoByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -140,19 +138,19 @@ To use this method, you must have read access to the library. For more informati
 
 
 
-<a href="https://msdn.microsoft.com/9ed6d02e-15ca-425f-8642-e32a5adfaa55">IWMPLibraryServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563384(v=VS.85).aspx">IWMPLibraryServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/070bc947-bf2b-4c06-9ffa-6a23625d178a">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aeaf549-3c60-4dd8-9e46-6bab357f4960">IWMPStringCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563687(v=VS.85).aspx">IWMPStringCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1915d71f-aca3-4943-a4da-ed8f2fa3f46d">IWMPStringCollection2::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563689(v=VS.85).aspx">IWMPStringCollection2::getItemInfo</a>
  
 
  

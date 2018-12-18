@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_92cn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Debug property, IFaxServer.Debug, IFaxServer.get_Debug, IFaxServer::Debug, IFaxServer::get_Debug, _mfax_faxserver.debug, fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp, fax._mfax_faxserver_debug, faxcomex/IFaxServer::Debug, faxcomex/IFaxServer::get_Debug, get_Debug
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ If this property is equal to <b>TRUE</b>, the fax server was created in a debug 
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/80437d99-5b9f-4faa-8f09-ed91fc622d4b">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692922(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

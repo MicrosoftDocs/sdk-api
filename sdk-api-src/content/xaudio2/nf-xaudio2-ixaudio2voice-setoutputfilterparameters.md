@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputFilterP
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetOutputFilterParameters method, IXAudio2Voice.SetOutputFilterParameters, IXAudio2Voice::SetOutputFilterParameters, SetOutputFilterParameters, SetOutputFilterParameters method [XAudio2 Audio Mixing APIs], SetOutputFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setoutputfilterparameters, xaudio2/IXAudio2Voice::SetOutputFilterParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
@@ -61,12 +59,12 @@ Sets the filter parameters on one of this voice's sends.
 ### -param pDestinationVoice [in]
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a> pointer to the destination voice of the send whose filter parameters will be set.
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a> pointer to the destination voice of the send whose filter parameters will be set.
 
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure containing the filter information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure containing the filter information.
 
 
 ### -param X2DEFAULT
@@ -99,7 +97,7 @@ Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.m
 <b>SetOutputFilterParameters</b> will fail if the send was not created with the XAUDIO2_SEND_USEFILTER flag. This method is usable only on sends belonging to source and submix voices and has no effect on a mastering voice's sends.
 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/146A6338-40E9-489D-B5E9-679D328C75C7">IXAudio2Voice::GetOutputFilterParameters</a> always returns this send’s actual current filter parameters. However, these may not match the parameters set by the most recent <b>IXAudio2Voice::SetOutputFilterParameters</b> call: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputFilterParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputFilterParameters</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/en-us/library/Ee418589(v=VS.85).aspx">IXAudio2Voice::GetOutputFilterParameters</a> always returns this send’s actual current filter parameters. However, these may not match the parameters set by the most recent <b>IXAudio2Voice::SetOutputFilterParameters</b> call: the actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetOutputFilterParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetOutputFilterParameters</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -112,7 +110,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
  
 
  

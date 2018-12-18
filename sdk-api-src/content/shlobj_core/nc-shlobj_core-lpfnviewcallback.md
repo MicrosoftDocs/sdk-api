@@ -9,8 +9,6 @@ ms.assetid: 744c2b49-017e-4284-a39b-3d317e483316
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPFNVIEWCALLBACK, LPFNVIEWCALLBACK callback, LPFNVIEWCALLBACK callback function [Windows Shell], SFVM_ADDPROPERTYPAGES, SFVM_BACKGROUNDENUM, SFVM_BACKGROUNDENUMDONE, SFVM_COLUMNCLICK, SFVM_DEFITEMCOUNT, SFVM_DEFVIEWMODE, SFVM_DIDDRAGDROP, SFVM_FSNOTIFY, SFVM_GETANIMATION, SFVM_GETBUTTONINFO, SFVM_GETBUTTONS, SFVM_GETDETAILSOF, SFVM_GETHELPTEXT, SFVM_GETHELPTOPIC, SFVM_GETNOTIFY, SFVM_GETPANE, SFVM_GETSORTDEFAULTS, SFVM_GETTOOLTIPTEXT, SFVM_GETZONE, SFVM_INITMENUPOPUP, SFVM_INVOKECOMMAND, SFVM_MERGEMENU, SFVM_QUERYFSNOTIFY, SFVM_SETISFV, SFVM_SIZE, SFVM_THISIDLIST, SFVM_UNMERGEMENU, SFVM_UPDATESTATUSBAR, SFVM_WINDOWCREATED, _win32_LPFNVIEWCALLBACK, shell.LPFNVIEWCALLBACK, shlobj_core/LPFNVIEWCALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -193,7 +191,7 @@ Allows the callback object to specify default sorting parameters.
 
 #### SFVM_GETTOOLTIPTEXT
 
-Allows the callback object to specify a <a href="_win32_Tooltip_Controls">tooltip</a> text string for menu items or toolbar buttons.
+Allows the callback object to specify a <a href="https://msdn.microsoft.com/en-us/library/Hh449606(v=VS.85).aspx">tooltip</a> text string for menu items or toolbar buttons.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

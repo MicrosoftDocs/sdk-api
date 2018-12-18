@@ -9,8 +9,6 @@ ms.assetid: c80fe36d-5093-4814-83a9-0c11c5a7cf5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_OleSetMenuDescriptor, com.olesetmenudescriptor, ole2/OleSetMenuDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

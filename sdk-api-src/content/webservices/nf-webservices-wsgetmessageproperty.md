@@ -9,8 +9,6 @@ ms.assetid: 369f7690-6d70-401a-84aa-e5761dc874b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetMessageProperty, WsGetMessageProperty function [Web Services for Windows], webservices/WsGetMessageProperty, wsw.wsgetmessageproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves a specified Message object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_ID</a> input parameter.
+Retrieves a specified Message object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_ID</a> input parameter.
             
 
 

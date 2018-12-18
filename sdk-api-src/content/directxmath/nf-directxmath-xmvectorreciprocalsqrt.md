@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocalSqrt(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorReciprocalSqrt, XMVectorReciprocalSqrt, XMVectorReciprocalSqrt method [DirectX Math Support APIs], dxmath.xmvectorreciprocalsqrt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -119,7 +117,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6204b326-a02f-4477-8aef-18a8870fbdb7">XMVectorReciprocalSqrtEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421201(v=VS.85).aspx">XMVectorReciprocalSqrtEst</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: bc408a12-5106-45a0-bbed-0468d51708bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsSetStdContainerSecurity, NetDfsSetStdContainerSecurity function [Distributed File System], dfs.netdfssetstdcontainersecurity, fs.netdfssetstdcontainersecurity, lmdfs/NetDfsSetStdContainerSecurity, netmgmt.netdfssetstdcontainersecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

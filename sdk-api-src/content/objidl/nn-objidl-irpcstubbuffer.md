@@ -9,8 +9,6 @@ ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

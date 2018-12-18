@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Levels class, Levels class [GDI+],GetParameters method, Levels.GetParameters, Levels::GetParameters, _gdiplus_CLASS_Levels_GetParameters_, gdiplus._gdiplus_CLASS_Levels_GetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

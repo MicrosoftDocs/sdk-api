@@ -9,8 +9,6 @@ ms.assetid: 46657e4d-c2fe-42bf-9a3d-5075d4f3ee91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFunctionalObjects, GetFunctionalObjects method [Windows Portable Devices SDK], GetFunctionalObjects method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalObjects method, IPortableDeviceCapabilities.GetFunctionalObjects, IPortableDeviceCapabilities::GetFunctionalObjects, IPortableDeviceCapabilitiesGetFunctionalObjects, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects, wpdsdk.iportabledevicecapabilities_getfunctionalobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

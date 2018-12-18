@@ -9,8 +9,6 @@ ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -111,7 +109,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/c23211f2-d4ba-45ff-b443-3425c3a3e72f">IDMOQualityControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406839(v=VS.85).aspx">IDMOQualityControl Interface</a>
  
 
  

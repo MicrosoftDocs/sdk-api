@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPageType property, IFaxDocument.CoverPageType, IFaxDocument.put_CoverPageType, IFaxDocument::CoverPageType, IFaxDocument::get_CoverPageType, IFaxDocument::put_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp, faxcomex/IFaxDocument::CoverPageType, faxcomex/IFaxDocument::get_CoverPageType, faxcomex/IFaxDocument::put_CoverPageType, put_CoverPageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,9 +62,9 @@ This property is read/write.
 
 
 
-By default, <b>IFaxDocument::get_CoverPageType</b> is set to <a href="https://msdn.microsoft.com/e5a86019-a2f4-4919-a8b3-8df8f81258e4">fcptNONE</a>, indicating that no file is used.
+By default, <b>IFaxDocument::get_CoverPageType</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms689603(v=VS.85).aspx">fcptNONE</a>, indicating that no file is used.
 
-Provide the name of the cover page in the <a href="https://msdn.microsoft.com/27d1dd9e-6e50-4beb-96f0-b5c536f6a285">IFaxDocument::get_CoverPage</a> property.
+Provide the name of the cover page in the <a href="https://msdn.microsoft.com/en-us/library/ms687493(v=VS.85).aspx">IFaxDocument::get_CoverPage</a> property.
 
 
 

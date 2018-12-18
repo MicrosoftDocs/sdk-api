@@ -9,8 +9,6 @@ ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
@@ -62,7 +60,7 @@ Indicates that decoder downsampling will be used and that the driver should allo
 
 Type: <b>ID3D11VideoDecoder*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447766(v=VS.85).aspx">ID3D11VideoDecoder</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/F25AFA0B-7413-40F0-AFF8-C9B4549305D2">ID3D11VideoDecoder</a> interface.
 
 
 ### -param InputColorSpace [in]
@@ -74,7 +72,7 @@ The color space information of the reference frame data.
 
 ### -param pOutputDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn894124(v=VS.85).aspx">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/3B6BF76A-6566-4C58-AD26-5B13E6D040CA">D3D11_VIDEO_SAMPLE_DESC</a>*</b>
 
 The resolution, format, and colorspace of the output/display frames.  This is the destination resolution and format of the downsample operation.
 
@@ -117,7 +115,7 @@ This method returns one of the following error codes.
 
 
 
-This function can only be called once for a specific <a href="https://msdn.microsoft.com/en-us/library/Hh447766(v=VS.85).aspx">ID3D11VideoDecoder</a> interface. This method must be called prior to the first call to <a href="https://msdn.microsoft.com/en-us/library/Hh447705(v=VS.85).aspx">DecoderBeginFrame</a>. To update the downsampling parameters, use <a href="https://msdn.microsoft.com/en-us/library/Dn894129(v=VS.85).aspx">DecoderUpdateDownsampling</a>.
+This function can only be called once for a specific <a href="https://msdn.microsoft.com/F25AFA0B-7413-40F0-AFF8-C9B4549305D2">ID3D11VideoDecoder</a> interface. This method must be called prior to the first call to <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">DecoderBeginFrame</a>. To update the downsampling parameters, use <a href="https://msdn.microsoft.com/A55D652B-9295-42E4-9A83-CAC467BEE68E">DecoderUpdateDownsampling</a>.
 
 
 
@@ -127,7 +125,7 @@ This function can only be called once for a specific <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
  
 
  

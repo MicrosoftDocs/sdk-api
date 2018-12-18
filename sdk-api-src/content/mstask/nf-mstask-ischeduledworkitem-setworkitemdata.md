@@ -9,8 +9,6 @@ ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

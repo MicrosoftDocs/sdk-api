@@ -9,8 +9,6 @@ ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_View, EP_DetailsPane, EP_NavPane, EP_PreviewPane, EP_QueryPane, EP_Ribbon, EP_StatusBar, GetPaneState, GetPaneState method [Windows Shell], GetPaneState method [Windows Shell],IExplorerPaneVisibility interface, IExplorerPaneVisibility interface [Windows Shell],GetPaneState method, IExplorerPaneVisibility.GetPaneState, IExplorerPaneVisibility::GetPaneState, _shell_IExplorerPaneVisibility_GetPaneState, shell.IExplorerPaneVisibility_GetPaneState, shobjidl_core/IExplorerPaneVisibility::GetPaneState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

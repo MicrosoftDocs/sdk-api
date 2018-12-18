@@ -9,8 +9,6 @@ ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginFigure, BeginFigure method [Direct2D], BeginFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],BeginFigure method, ID2D1SimplifiedGeometrySink.BeginFigure, ID2D1SimplifiedGeometrySink::BeginFigure, d2d1/ID2D1SimplifiedGeometrySink::BeginFigure, direct2d.ID2D1SimplifiedGeometrySink_BeginFigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

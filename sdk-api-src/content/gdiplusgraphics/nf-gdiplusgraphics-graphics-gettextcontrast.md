@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextContrast, GetTextContrast method [GDI+], GetTextContrast method [GDI+],Graphics class, Graphics class [GDI+],GetTextContrast method, Graphics.GetTextContrast, Graphics::GetTextContrast, _gdiplus_CLASS_Graphics_GetTextContrast_, gdiplus._gdiplus_CLASS_Graphics_GetTextContrast_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

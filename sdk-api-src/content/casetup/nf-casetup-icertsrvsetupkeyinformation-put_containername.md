@@ -9,8 +9,6 @@ ms.assetid: dc644471-6825-48b1-bbfa-da9af6dd0652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContainerName property [Security], ContainerName property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],ContainerName property, ICertSrvSetupKeyInformation.ContainerName, ICertSrvSetupKeyInformation.put_ContainerName, ICertSrvSetupKeyInformation::ContainerName, ICertSrvSetupKeyInformation::get_ContainerName, ICertSrvSetupKeyInformation::put_ContainerName, casetup/ICertSrvSetupKeyInformation::ContainerName, casetup/ICertSrvSetupKeyInformation::get_ContainerName, casetup/ICertSrvSetupKeyInformation::put_ContainerName, put_ContainerName, security.icertsrvsetupkeyinformation_containername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>ContainerName</b> property gets or sets the name used by the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) to generate, store, or access the key.
+The <b>ContainerName</b> property gets or sets the name used by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to generate, store, or access the key.
 
 This property is read/write.
 
@@ -64,7 +62,7 @@ This property is read/write.
 
 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> already exists, this name must match the name used by the CSP to access the key.
+If the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> already exists, this name must match the name used by the CSP to access the key.
 
 
 
@@ -74,7 +72,7 @@ If the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a>
+<a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a>
  
 
  

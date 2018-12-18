@@ -9,8 +9,6 @@ ms.assetid: 37bfc613-4128-45aa-b6b2-6163d44378e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct Write], IDWriteLocalizedStrings interface [Direct Write],described, directwrite.IDWriteLocalizedStrings, dwrite/IDWriteLocalizedStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

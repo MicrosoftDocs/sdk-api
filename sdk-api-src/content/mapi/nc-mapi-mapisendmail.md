@@ -9,8 +9,6 @@ ms.assetid: 1d7da0f2-b736-401e-86bd-fc4375ccc0d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISendMail, MAPISendMail callback, MAPISendMail callback function, mapi.mapisendmail, mapi/MAPISendMail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -81,7 +79,7 @@ For more information, see the <a href="https://msdn.microsoft.com/FA6FB49A-FA13-
 
 ### -param lpMessage [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">lpMapiMessage</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">lpMapiMessage</a></b>
 
 For more information, see the <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> function.
 
@@ -132,11 +130,11 @@ For more information, see the <a href="https://msdn.microsoft.com/FA6FB49A-FA13-
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a>
 
 
 

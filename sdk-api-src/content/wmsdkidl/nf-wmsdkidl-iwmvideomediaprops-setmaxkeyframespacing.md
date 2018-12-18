@@ -9,8 +9,6 @@ ms.assetid: 1d1a9090-2658-45bd-8893-30e063d10aa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameSpacing method, IWMVideoMediaProps.SetMaxKeyFrameSpacing, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -90,11 +88,11 @@ A key frame is a video frame that can be rendered without any information being 
 
 
 
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/125d352e-b181-4baa-8763-21315534beea">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798712(v=VS.85).aspx">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
  
 
  

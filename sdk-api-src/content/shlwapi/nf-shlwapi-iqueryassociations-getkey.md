@@ -9,8 +9,6 @@ ms.assetid: 7f380a9e-fda0-46be-88a1-fd73b0a4b7b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKey, GetKey method [Windows Shell], GetKey method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetKey method, IQueryAssociations.GetKey, IQueryAssociations::GetKey, _win32_IQueryAssociations_GetKey, shell.IQueryAssociations_GetKey, shlwapi/IQueryAssociations::GetKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
@@ -67,9 +65,9 @@ The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">AS
 
 ### -param key [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a></b>
 
-The <a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 
 ### -param pszExtra [in, optional]

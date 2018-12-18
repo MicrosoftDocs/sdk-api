@@ -9,8 +9,6 @@ ms.assetid: 6a4f9d1e-6885-497a-b931-1542af866f6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PROXY_TYPE_AUTO, MI_DESTINATIONOPTIONS_PROXY_TYPE_IE, MI_DESTINATIONOPTIONS_PROXY_TYPE_NONE, MI_DESTINATIONOPTIONS_PROXY_TYPE_WINHTTP, MI_DestinationOptions_SetProxyType, MI_DestinationOptions_SetProxyType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetProxyType, wmi_v2.mi_destinationoptions_setproxytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

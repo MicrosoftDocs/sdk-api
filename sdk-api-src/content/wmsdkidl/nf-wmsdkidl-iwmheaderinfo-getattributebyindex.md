@@ -9,8 +9,6 @@ ms.assetid: 905fdf2c-a398-457e-80e9-aac124301f99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMHeaderInfo interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByIndex method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo.GetAttributeByIndex, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo2::GetAttributeByIndex, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndex method, IWMHeaderInfo3::GetAttributeByIndex, IWMHeaderInfo::GetAttributeByIndex, IWMHeaderInfoGetAttributeByIndex, wmformat.iwmheaderinfo_getattributebyindex, wmsdkidl/IWMHeaderInfo2::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndex, wmsdkidl/IWMHeaderInfo::GetAttributeByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -57,7 +55,7 @@ req.redist:
 
 
 
-The <b>GetAttributeByIndex</b> method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b">IWMHeaderInfo3::GetAttributeByIndexEx</a> and should not be used.
+The <b>GetAttributeByIndex</b> method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/en-us/library/Dd798512(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeByIndexEx</a> and should not be used.
 
 
 
@@ -220,23 +218,23 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/174969a2-4fe2-477b-9990-051d23bf8a29">IWMHeaderInfo::SetAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
  
 
  

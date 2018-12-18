@@ -1,16 +1,14 @@
 ---
-UID: NS:wininet.GOPHER_ATTRIBUTE_TYPE
+UID: NS:wininet.__unnamed_struct_36
 title: GOPHER_ATTRIBUTE_TYPE
 author: windows-sdk-content
 description: Contains the relevant information of a single Gopher attribute for an object.
 old-location: wininet\gopher_attribute_type.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 01daae8c-9080-4a8d-9f73-3e364ca868fe
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPGOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_ID_ABSTRACT, GOPHER_ATTRIBUTE_ID_ADMIN, GOPHER_ATTRIBUTE_ID_GEOG, GOPHER_ATTRIBUTE_ID_LOCATION, GOPHER_ATTRIBUTE_ID_MOD_DATE, GOPHER_ATTRIBUTE_ID_ORG, GOPHER_ATTRIBUTE_ID_PROVIDER, GOPHER_ATTRIBUTE_ID_RANGE, GOPHER_ATTRIBUTE_ID_SCORE, GOPHER_ATTRIBUTE_ID_SITE, GOPHER_ATTRIBUTE_ID_TIMEZONE, GOPHER_ATTRIBUTE_ID_TREEWALK, GOPHER_ATTRIBUTE_ID_TTL, GOPHER_ATTRIBUTE_ID_UNKNOWN, GOPHER_ATTRIBUTE_ID_VERSION, GOPHER_ATTRIBUTE_ID_VIEW, GOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_TYPE structure [WinINet], GOPHER_CATEGORY_ID_ABSTRACT, GOPHER_CATEGORY_ID_ADMIN, GOPHER_CATEGORY_ID_ALL, GOPHER_CATEGORY_ID_INFO, GOPHER_CATEGORY_ID_UNKNOWN, GOPHER_CATEGORY_ID_VERONICA, GOPHER_CATEGORY_ID_VIEWS, LPGOPHER_ATTRIBUTE_TYPE, LPGOPHER_ATTRIBUTE_TYPE structure pointer [WinINet], _win32_gopher_attribute_type, wininet.gopher_attribute_type, wininet/GOPHER_ATTRIBUTE_TYPE, wininet/LPGOPHER_ATTRIBUTE_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
@@ -214,89 +212,187 @@ Attribute type. The possible values include:
 <b>AttributeId</b> member. The definitions of these data structures are available in Wininet.h. 
 
 
-### -field AttributeType.Admin
+
+#### Admin
 
 A <b>GOPHER_ADMIN_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.ModDate
+
+#### ModDate
 
 A <b>GOPHER_MOD_DATE_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Ttl
 
- 
-
-
-### -field AttributeType.Score
+#### Score
 
 A <b>GOPHER_SCORE_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.ScoreRange
+
+#### ScoreRange
 
 A <b>GOPHER_SCORE_RANGE_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Site
+
+#### Site
 
 A <b>GOPHER_SITE_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Organization
+
+#### Organization
 
 A <b>GOPHER_ORGANIZATION_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Location
+
+#### Location
 
 A <b>GOPHER_LOCATION_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.GeographicalLocation
+
+#### GeographicalLocation
 
 A <b>GOPHER_GEOGRAPHICAL_LOCATION_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.TimeZone
+
+#### TimeZone
 
 A <b>GOPHER_TIMEZONE_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Provider
+
+#### Provider
 
 A <b>GOPHER_PROVIDER_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Version
+
+#### Version
 
 A <b>GOPHER_VERSION_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Abstract
+
+#### Abstract
 
 A <b>GOPHER_ABSTRACT_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.View
+
+#### View
 
 A <b>GOPHER_VIEW_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Veronica
+
+#### Veronica
 
 A <b>GOPHER_VERONICA_ATTRIBUTE</b> structure.
 
 
-### -field AttributeType.Ask
+
+#### Ask
 
 A <b>GOPHER_ASK_ATTRIBUTE_TYPE</b> structure.
 
 
-### -field AttributeType.Unknown
+
+#### Unknown
 
 A <b>GOPHER_UNKNOWN_ATTRIBUTE</b> structure.
+
+
+### -field Admin
+
+ 
+
+
+### -field ModDate
+
+ 
+
+
+### -field Ttl
+
+ 
+
+
+### -field Score
+
+ 
+
+
+### -field ScoreRange
+
+ 
+
+
+### -field Site
+
+ 
+
+
+### -field Organization
+
+ 
+
+
+### -field Location
+
+ 
+
+
+### -field GeographicalLocation
+
+ 
+
+
+### -field TimeZone
+
+ 
+
+
+### -field Provider
+
+ 
+
+
+### -field Version
+
+ 
+
+
+### -field Abstract
+
+ 
+
+
+### -field View
+
+ 
+
+
+### -field Veronica
+
+ 
+
+
+### -field Ask
+
+ 
+
+
+### -field Unknown
+
+ 
+
+
 
 
 ## -remarks

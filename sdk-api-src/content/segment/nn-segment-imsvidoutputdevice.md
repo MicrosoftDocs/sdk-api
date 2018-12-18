@@ -9,8 +9,6 @@ ms.assetid: c2e5ebac-cb10-4567-83f7-f8f4e3b4f009
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidOutputDevice, IMSVidOutputDevice interface [Microsoft TV Technologies], IMSVidOutputDevice interface [Microsoft TV Technologies],described, IMSVidOutputDeviceInterface, mstv.imsvidoutputdevice, segment/IMSVidOutputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
+The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
 Output devices include audio and video renderers, and the Stream Buffer Sink object. Video renderers expose the <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a> interface, and audio renderers exposes the <a href="https://msdn.microsoft.com/f822b5a6-c88e-48c9-91f4-611a3f147fe0">IMSVidAudioRenderer</a> interface, both of which derive from <b>IMSVidOutputDevice</b>.
 
@@ -69,7 +67,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
 
 
 

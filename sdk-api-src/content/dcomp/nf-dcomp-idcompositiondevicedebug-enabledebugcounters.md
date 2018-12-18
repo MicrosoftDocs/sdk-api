@@ -9,8 +9,6 @@ ms.assetid: AA0E913F-D89F-4AF1-91DE-B57D0C016DB7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableDebugCounters, EnableDebugCounters method [DirectComposition], EnableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],EnableDebugCounters method, IDCompositionDeviceDebug.EnableDebugCounters, IDCompositionDeviceDebug::EnableDebugCounters, dcomp/IDCompositionDeviceDebug::EnableDebugCounters, directcomp.idcompositiondevicedebug_enabledebugcounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -93,15 +91,15 @@ The DirectComposition composition engine operates on the entire desktop all at o
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169">IDCompositionDeviceDebug::DisableDebugCounters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280379(v=VS.85).aspx">IDCompositionDeviceDebug::DisableDebugCounters</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
  
 
  

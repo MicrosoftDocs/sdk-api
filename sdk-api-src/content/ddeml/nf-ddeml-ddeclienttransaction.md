@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeClientTransaction, DdeClientTransaction function [Data Exchange], XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_EXECUTE, XTYP_POKE, XTYP_REQUEST, _win32_DdeClientTransaction, _win32_ddeclienttransaction_cpp, dataxchg.ddeclienttransaction, ddeml/DdeClientTransaction, winui._win32_ddeclienttransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

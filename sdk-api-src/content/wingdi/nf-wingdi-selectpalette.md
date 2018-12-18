@@ -9,8 +9,6 @@ ms.assetid: 1fc3356f-6fa3-444f-b224-b953acd2394b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectPalette, gdi.selectpalette, wingdi/SelectPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

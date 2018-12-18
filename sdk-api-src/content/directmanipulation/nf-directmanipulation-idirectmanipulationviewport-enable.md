@@ -9,8 +9,6 @@ ms.assetid: 47ebb502-26c6-4bff-8baf-bd825fc06755
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enable, Enable method [Direct Manipulation], Enable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Enable method, IDirectManipulationViewport.Enable, IDirectManipulationViewport::Enable, directmanipulation.idirectmanipulationviewport_enable, directmanipulation/IDirectManipulationViewport::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

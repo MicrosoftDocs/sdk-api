@@ -9,8 +9,6 @@ ms.assetid: 82c4699a-197c-4429-afa8-b1fc47a1f47a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windows Media Player], WMPServices_StreamStateDSP, WMPServices_StreamState_Pause, WMPServices_StreamState_Play, WMPServices_StreamState_Stop, wmp.wmpservices_streamstate, wmpservices/WMPServices_StreamState, wmpservices/WMPServices_StreamState_Pause, wmpservices/WMPServices_StreamState_Play, wmpservices/WMPServices_StreamState_Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmpservices.h
 req.include-header: 
@@ -85,7 +83,7 @@ The stream is playing.
 
 
 
-<a href="https://msdn.microsoft.com/1a73ea54-45ce-47ff-b551-10aab2798420">IWMPServices::GetStreamState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">IWMPServices::GetStreamState</a>
  
 
  

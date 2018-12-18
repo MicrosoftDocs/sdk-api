@@ -9,8 +9,6 @@ ms.assetid: D4322BE8-1CED-47D0-98C2-D5D7C151DEAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],ErrorString property, ICertificateEnrollmentServerSetup.ErrorString, ICertificateEnrollmentServerSetup.get_ErrorString, ICertificateEnrollmentServerSetup::ErrorString, ICertificateEnrollmentServerSetup::get_ErrorString, casetup/ICertificateEnrollmentServerSetup::ErrorString, casetup/ICertificateEnrollmentServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentserversetup_errorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Calling any method on the <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> interface resets this property value to an empty error string.
+Calling any method on the <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> interface resets this property value to an empty error string.
 
 
 
@@ -73,7 +71,7 @@ Calling any method on the <a href="https://msdn.microsoft.com/en-us/library/Ff80
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a>
+<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
  
 
  

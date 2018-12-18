@@ -9,8 +9,6 @@ ms.assetid: befebb2a-99a1-4a32-8bde-3b263d1f4459
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmAccessDeniedRemediationClient interface [File Server Resource Manager],Show method, IFsrmAccessDeniedRemediationClient.Show, IFsrmAccessDeniedRemediationClient::Show, Show, Show method [File Server Resource Manager], Show method [File Server Resource Manager],IFsrmAccessDeniedRemediationClient interface, fs.ifsrmaccessdeniedremediationclient_show, fsrm.ifsrmaccessdeniedremediationclient_show, fsrm/IFsrmAccessDeniedRemediationClient::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

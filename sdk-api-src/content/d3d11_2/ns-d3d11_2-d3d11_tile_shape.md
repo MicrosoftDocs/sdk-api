@@ -9,8 +9,6 @@ ms.assetid: B4B9D82C-2890-4CC4-AB5C-026FBD931B4E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TILE_SHAPE, D3D11_TILE_SHAPE structure [Direct3D 11], d3d11_2/D3D11_TILE_SHAPE, direct3d11.d3d11_tile_shape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_2.h
 req.include-header: 
@@ -60,21 +58,21 @@ Describes the shape of a tile by specifying its dimensions.
 
 ### -field WidthInTexels
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The width in texels of the tile.
 
 
 ### -field HeightInTexels
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The height in texels of the tile.
 
 
 ### -field DepthInTexels
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The depth in texels of the tile.
 
@@ -95,7 +93,7 @@ The values here are independent of the surface dimensions.  Even if the surface 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

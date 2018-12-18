@@ -9,8 +9,6 @@ ms.assetid: 821b9bfc-931c-4e83-a899-4755bad3e7ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_lostPackets method, IWMPNetwork.get_lostPackets, IWMPNetwork::get_lostPackets, IWMPNetworkget_lostPackets, get_lostPackets, get_lostPackets method [Windows Media Player], get_lostPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_lostpackets, wmp/IWMPNetwork::get_lostPackets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,11 +110,11 @@ Each time playback is stopped and restarted, the value retrieved from this metho
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

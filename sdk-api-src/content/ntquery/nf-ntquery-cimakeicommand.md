@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_9u90.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_CIMakeICommand, indexsrv.cimakeicommand, ntquery/CIMakeICommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c9c424d3-07e6-4ed0-9189-c932af0475d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslGetContextOption, SaslGetContextOption function [Security], security.saslgetcontextoption, sspi/SaslGetContextOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

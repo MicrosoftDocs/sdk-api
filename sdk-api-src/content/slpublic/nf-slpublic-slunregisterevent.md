@@ -9,8 +9,6 @@ ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fa4c7d82-ec5d-43d6-914e-bba60ad19aa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

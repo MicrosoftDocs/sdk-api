@@ -9,8 +9,6 @@ ms.assetid: b2470267-25a6-4ed3-91a1-30fd3ac7bbea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPMT.GetRecordCountOfDescriptors, IPMT::GetRecordCountOfDescriptors, IPMTGetRecordCountOfDescriptors, mpeg2psiparser/IPMT::GetRecordCountOfDescriptors, mstv.ipmt_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>GetRecordCountOfDescriptors</b> method returns the number of descriptors 
 
 ### -param dwRecordIndex [in]
 
-Specifies the record number, indexed from zero. Call the <a href="https://msdn.microsoft.com/f4e5009b-4c0d-4d0c-b480-4030cedbdb97">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
+Specifies the record number, indexed from zero. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694822(v=VS.85).aspx">IPMT::GetCountOfRecords</a> method to get the number of records in the PMT.
 
 
 ### -param pdwVal [out]
@@ -126,7 +124,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

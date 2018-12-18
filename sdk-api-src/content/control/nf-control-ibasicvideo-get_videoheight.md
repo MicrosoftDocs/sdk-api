@@ -9,8 +9,6 @@ ms.assetid: 872d26e5-b765-4c1f-b494-45df39f06a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_VideoHeight method, IBasicVideo.get_VideoHeight, IBasicVideo::get_VideoHeight, IBasicVideoget_VideoHeight, control/IBasicVideo::get_VideoHeight, dshow.ibasicvideo_get_videoheight, get_VideoHeight, get_VideoHeight method [DirectShow], get_VideoHeight method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -81,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

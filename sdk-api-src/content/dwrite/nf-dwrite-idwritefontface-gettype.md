@@ -9,8 +9,6 @@ ms.assetid: 8ea4b0b0-faf4-4291-838d-480e2bc68b0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [Direct Write], GetType method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetType method, IDWriteFontFace.GetType, IDWriteFontFace::GetType, directwrite.IDWriteFontFace_GetType, dwrite/IDWriteFontFace::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

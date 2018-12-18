@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawprimitive.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawPrimitive, DrawPrimitive method [Direct3D 9], DrawPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawPrimitive method, IDirect3DDevice9.DrawPrimitive, IDirect3DDevice9::DrawPrimitive, d3d9helper/IDirect3DDevice9::DrawPrimitive, direct3d9.idirect3ddevice9__drawprimitive, f6573fdd-1724-cbca-56a1-0b336470257e
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

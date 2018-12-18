@@ -9,8 +9,6 @@ ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost], eaphost.eappeerinvokeidentityui, eapmethodpeerapis/EapPeerInvokeIdentityUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

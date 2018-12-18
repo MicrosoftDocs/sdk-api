@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ProcessThru(void,FLOAT32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ProcessThru method, CXAPOBase.ProcessThru, CXAPOBase::ProcessThru, ProcessThru, ProcessThru method [XAudio2 Audio Mixing APIs], ProcessThru method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ProcessThru, xaudio2.cxapobase_processthru
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

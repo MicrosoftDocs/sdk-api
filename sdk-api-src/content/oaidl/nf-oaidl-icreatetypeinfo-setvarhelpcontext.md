@@ -9,8 +9,6 @@ ms.assetid: ab15e7fc-63fa-433f-9191-c7087143a7c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, ICreateTypeInfo.SetVarHelpContext, ICreateTypeInfo::SetVarHelpContext, SetVarHelpContext, SetVarHelpContext method [Automation], SetVarHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarHelpContext, automat.icreatetypeinfo_setvarhelpcontext, oaidl/ICreateTypeInfo::SetVarHelpContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

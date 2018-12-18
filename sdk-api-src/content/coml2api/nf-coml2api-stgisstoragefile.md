@@ -9,8 +9,6 @@ ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgIsStorageFile, StgIsStorageFile function [Structured Storage], _stg_stgisstoragefile, coml2api/StgIsStorageFile, stg.stgisstoragefile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h
@@ -94,7 +92,7 @@ If a root compound file has been created in transacted mode but not yet committe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380335(v=VS.85).aspx">StgIsStorageILockBytes</a>
+<a href="https://msdn.microsoft.com/ce0e29fd-1b21-4064-8e37-1a5d5df8bb61">StgIsStorageILockBytes</a>
  
 
  

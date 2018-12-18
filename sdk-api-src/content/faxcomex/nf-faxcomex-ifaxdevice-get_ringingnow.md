@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_856f.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],RingingNow property, IFaxDevice.RingingNow, IFaxDevice.get_RingingNow, IFaxDevice::RingingNow, IFaxDevice::get_RingingNow, RingingNow property [Fax Service], RingingNow property [Fax Service],IFaxDevice interface, _mfax_faxdevice.ringingnow, fax._mfax_faxdevice_cpp_mfax_faxdevice_ringingnow_cpp, fax._mfax_faxdevice_ringingnow, faxcomex/IFaxDevice::RingingNow, faxcomex/IFaxDevice::get_RingingNow, get_RingingNow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,7 +64,7 @@ This property is read-only.
 
 If this property is equal to <b>TRUE</b>, the fax device is currently ringing. If this property is equal to <b>FALSE</b>, the fax device is not ringing.
 
-<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a> object is created, and is refreshed when you call the <a href="https://msdn.microsoft.com/9517a067-d29b-4362-a3ca-0658498aba5e">IFaxDevice::Refresh</a> method.</div>
+<div class="alert"><b>Note</b>  The value of this property is set at the time that the <a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a> object is created, and is refreshed when you call the <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method.</div>
 <div> </div>
 
 
@@ -76,15 +74,15 @@ If this property is equal to <b>TRUE</b>, the fax device is currently ringing. I
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e0d5b13-2126-49a2-80b7-ae3a817496bd">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692985(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f066c503-4512-46db-be50-016996b92668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellImageData interface [Windows Shell],ReplaceFrame method, IShellImageData.ReplaceFrame, IShellImageData::ReplaceFrame, ReplaceFrame, ReplaceFrame method [Windows Shell], ReplaceFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_ReplaceFrame, shell.IShellImageData_ReplaceFrame, shimgdata/IShellImageData::ReplaceFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

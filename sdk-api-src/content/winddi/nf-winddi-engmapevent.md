@@ -9,8 +9,6 @@ ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

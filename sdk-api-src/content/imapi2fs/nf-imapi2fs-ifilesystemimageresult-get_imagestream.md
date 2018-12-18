@@ -9,8 +9,6 @@ ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ImageStream method, IFileSystemImageResult.get_ImageStream, IFileSystemImageResult::get_ImageStream, get_ImageStream, get_ImageStream method [IMAPI], get_ImageStream method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_imagestream, imapi2fs/IFileSystemImageResult::get_ImageStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

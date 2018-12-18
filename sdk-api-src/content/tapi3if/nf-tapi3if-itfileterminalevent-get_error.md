@@ -9,8 +9,6 @@ ms.assetid: 1eabd161-12d1-4537-beb1-3a05996aa506
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Error method, ITFileTerminalEvent.get_Error, ITFileTerminalEvent::get_Error, _tapi3_itfileterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_error, tapi3if/ITFileTerminalEvent::get_Error
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

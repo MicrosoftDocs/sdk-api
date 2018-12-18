@@ -9,8 +9,6 @@ ms.assetid: 54cf0c5b-03fb-4419-976c-acc821dfc7e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get__NetworkType method, ITuningSpace.get__NetworkType, ITuningSpace::get__NetworkType, ITuningSpaceget__NetworkType, get__NetworkType, get__NetworkType method [Microsoft TV Technologies], get__NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get__networktype, tuner/ITuningSpace::get__NetworkType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

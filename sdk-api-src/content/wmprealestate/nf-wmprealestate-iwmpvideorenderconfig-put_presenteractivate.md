@@ -9,8 +9,6 @@ ms.assetid: a052aecc-b37f-4999-b484-80ee3e2392ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPVideoRenderConfig interface [Windows Media Player],put_presenterActivate method, IWMPVideoRenderConfig.put_presenterActivate, IWMPVideoRenderConfig::put_presenterActivate, IWMPVideoRenderConfigput_presenterActivate, put_presenterActivate, put_presenterActivate method [Windows Media Player], put_presenterActivate method [Windows Media Player],IWMPVideoRenderConfig interface, wmp.iwmpvideorenderconfig_put_presenteractivate, wmprealestate/IWMPVideoRenderConfig::put_presenterActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmprealestate.h
 req.include-header: 
@@ -116,7 +114,7 @@ The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> inter
 
 
 
-<a href="https://msdn.microsoft.com/60318e68-89dd-4505-a703-3de4d5442236">IWMPVideoRenderConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563755(v=VS.85).aspx">IWMPVideoRenderConfig Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 70d9cc9f-c539-4a5a-8b29-ca4d7464ab3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Item property, IActionCollection.Item, IActionCollection.get_Item, IActionCollection::Item, IActionCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IActionCollection interface, get_Item, taskschd.iactioncollection_item, taskschd/IActionCollection::Item, taskschd/IActionCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

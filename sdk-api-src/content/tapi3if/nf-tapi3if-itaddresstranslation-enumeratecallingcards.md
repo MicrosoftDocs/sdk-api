@@ -9,8 +9,6 @@ ms.assetid: 93f3cea1-70da-41f0-a8d5-692468a21695
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateCallingCards, EnumerateCallingCards method [TAPI 2.2], EnumerateCallingCards method [TAPI 2.2],ITAddressTranslation interface, ITAddressTranslation interface [TAPI 2.2],EnumerateCallingCards method, ITAddressTranslation.EnumerateCallingCards, ITAddressTranslation::EnumerateCallingCards, _tapi3_itaddresstranslation_enumeratecallingcards, tapi3.itaddresstranslation_enumeratecallingcards, tapi3if/ITAddressTranslation::EnumerateCallingCards
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

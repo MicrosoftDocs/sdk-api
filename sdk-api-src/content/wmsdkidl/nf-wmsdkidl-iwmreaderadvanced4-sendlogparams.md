@@ -9,8 +9,6 @@ ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],SendLogParams method, IWMReaderAdvanced4.SendLogParams, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -110,11 +108,11 @@ The reader is not streaming content from a remote server.
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d117895-b61f-4890-8cb6-3e4ecf49ca99">IWMReaderAdvanced4::AddLogParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757451(v=VS.85).aspx">IWMReaderAdvanced4::AddLogParam</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 0bbd3cd2-75d8-4c48-837d-4cb045cad35b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_UserAgent method, IDShowPlugin.get_UserAgent, IDShowPlugin::get_UserAgent, IDShowPluginget_UserAgent, dshow.idshowplugin_get_useragent, get_UserAgent, get_UserAgent method [DirectShow], get_UserAgent method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_UserAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/b5b73489-4d2d-4afa-a4df-7b84711f2556">IDShowPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406854(v=VS.85).aspx">IDShowPlugin Interface</a>
  
 
  

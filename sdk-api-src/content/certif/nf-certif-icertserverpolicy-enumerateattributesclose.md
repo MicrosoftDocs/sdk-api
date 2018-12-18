@@ -9,8 +9,6 @@ ms.assetid: 91cb8edd-7735-44c5-b2c5-d46fa1e33e41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesClose method, EnumerateAttributesClose, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security],CCertServerPolicy object, EnumerateAttributesClose method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesClose method, ICertServerPolicy.EnumerateAttributesClose, ICertServerPolicy::EnumerateAttributesClose, _certsrv_icertserverpolicy_enumerateattributesclose, certif/ICertServerPolicy::EnumerateAttributesClose, security.icertserverpolicy_enumerateattributesclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h
@@ -68,7 +66,7 @@ The <b>EnumerateAttributesClose</b> method frees the resources connected with at
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -77,8 +75,8 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-All policy modules should call the <b>EnumerateAttributesClose</b> method after calling the <a href="https://msdn.microsoft.com/en-us/library/Aa385083(v=VS.85).aspx">EnumerateAttributesSetup</a> and  
-<a href="https://msdn.microsoft.com/en-us/library/Aa385081(v=VS.85).aspx">EnumerateAttributes</a> methods.
+All policy modules should call the <b>EnumerateAttributesClose</b> method after calling the <a href="https://msdn.microsoft.com/14b81b88-36db-4b01-96e6-eafed22ae02e">EnumerateAttributesSetup</a> and  
+<a href="https://msdn.microsoft.com/5db05ed9-ab17-462b-9a76-34458489771a">EnumerateAttributes</a> methods.
 
 
 #### Examples
@@ -108,15 +106,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385081(v=VS.85).aspx">ICertServerPolicy::EnumerateAttributes</a>
+<a href="https://msdn.microsoft.com/5db05ed9-ab17-462b-9a76-34458489771a">ICertServerPolicy::EnumerateAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385083(v=VS.85).aspx">ICertServerPolicy::EnumerateAttributesSetup</a>
+<a href="https://msdn.microsoft.com/14b81b88-36db-4b01-96e6-eafed22ae02e">ICertServerPolicy::EnumerateAttributesSetup</a>
  
 
  

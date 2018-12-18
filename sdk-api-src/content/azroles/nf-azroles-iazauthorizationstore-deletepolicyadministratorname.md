@@ -9,8 +9,6 @@ ms.assetid: 28be14c8-9e39-4410-a08c-b52bb63d0ce4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzAuthorizationStore object, DeletePolicyAdministratorName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministratorName method, IAzAuthorizationStore.DeletePolicyAdministratorName, IAzAuthorizationStore::DeletePolicyAdministratorName, azroles/IAzAuthorizationStore::DeletePolicyAdministratorName, security.azauthorizationstore_deletepolicyadministratorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

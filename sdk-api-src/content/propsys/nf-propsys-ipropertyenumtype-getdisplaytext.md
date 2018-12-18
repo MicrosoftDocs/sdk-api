@@ -9,8 +9,6 @@ ms.assetid: d5168ca2-107f-45c2-80fa-21a2379776ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayText, GetDisplayText method [Windows Properties], GetDisplayText method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetDisplayText method, IPropertyEnumType.GetDisplayText, IPropertyEnumType::GetDisplayText, _shell_IPropertyEnumType_GetDisplayText, properties.IPropertyEnumType_GetDisplayText, propsys/IPropertyEnumType::GetDisplayText, shell.IPropertyEnumType_GetDisplayText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
+For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
 
 
 

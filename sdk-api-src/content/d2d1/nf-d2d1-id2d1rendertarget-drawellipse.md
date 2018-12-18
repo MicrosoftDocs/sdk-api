@@ -9,8 +9,6 @@ ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [Direct2D], ID2D1RenderTarget.DrawEllipse, ID2D1RenderTarget::DrawEllipse, d2d1/DrawEllipse, direct2d.id2d1rendertarget_drawellipse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -99,7 +97,7 @@ For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-
 
 
 
-<a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742849(v=VS.85).aspx">FillEllipse</a>
 
 
 

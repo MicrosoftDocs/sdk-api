@@ -9,8 +9,6 @@ ms.assetid: 2b465775-6eda-49cb-aa9a-091e4d815da3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeStartLineCap method, IXpsOMPath.SetStrokeStartLineCap, IXpsOMPath::SetStrokeStartLineCap, SetStrokeStartLineCap, SetStrokeStartLineCap method [XPS Documents and Packaging], SetStrokeStartLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokestartlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeStartLineCap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: nps\SDO_isdomachine_getusersdo.htm
 tech.root: Nps
 ms.assetid: c416c0db-836a-4056-bcd7-819f10923446
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetUserSDO, GetUserSDO method [Network Policy Server], GetUserSDO method [Network Policy Server],ISdoMachine interface, GetUserSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetUserSDO method, ISdoMachine.GetUserSDO, ISdoMachine::GetUserSDO, SdoMachine object [Network Policy Server],GetUserSDO method, _sdo_isdomachine_getusersdo, nps.SDO_isdomachine_getusersdo, sdo.isdomachine_getusersdo, sdoias/ISdoMachine::GetUserSDO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

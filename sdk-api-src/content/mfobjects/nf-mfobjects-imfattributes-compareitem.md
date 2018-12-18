@@ -9,8 +9,6 @@ ms.assetid: f0a6073b-fce6-4a1f-b7d1-ef6543e7648f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareItem, CompareItem method [Media Foundation], CompareItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CompareItem method, IMFAttributes.CompareItem, IMFAttributes::CompareItem, f0a6073b-fce6-4a1f-b7d1-ef6543e7648f, mf.imfattributes_compareitem, mfobjects/IMFAttributes::CompareItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

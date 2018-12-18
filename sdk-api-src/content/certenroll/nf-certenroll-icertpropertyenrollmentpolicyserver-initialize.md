@@ -9,8 +9,6 @@ ms.assetid: 5d54ffb2-4a81-4d52-80db-b8526a52bb53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security],Initialize method, ICertPropertyEnrollmentPolicyServer.Initialize, ICertPropertyEnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollmentPolicyServer interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::Initialize, security.icertpropertyenrollmentpolicyserver_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a> object.
+The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a> object.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/
 
 ### -param PropertyFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee338608(v=VS.85).aspx">EnrollmentPolicyServerPropertyFlags</a> enumeration value that specifies the default certificate enrollment policy (CEP) server. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/531502ac-8e89-46ee-a426-86e22a9dbe8d">EnrollmentPolicyServerPropertyFlags</a> enumeration value that specifies the default certificate enrollment policy (CEP) server. This can be one of the following values.
 
 <table>
 <tr>
@@ -83,7 +81,7 @@ No default policy server URL has been specified.
 </dl>
 </td>
 <td width="60%">
-The policy server URL returned by <a href="https://msdn.microsoft.com/en-us/library/Ee338635(v=VS.85).aspx">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
+The policy server URL returned by <a href="https://msdn.microsoft.com/9d7ba049-4566-423d-b750-ff091dce1e2a">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 
 </td>
 </tr>
@@ -93,7 +91,7 @@ The policy server URL returned by <a href="https://msdn.microsoft.com/en-us/libr
 
 ### -param AuthFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee373782(v=VS.85).aspx">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CEP server. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/84a7e6e3-dfbb-4c27-af63-e521103e1b00">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CEP server. This can be one of the following values.
 
 <table>
 <tr>
@@ -148,12 +146,12 @@ Client authentication certificate installed on the local computer and used by th
 
 ### -param EnrollmentServerAuthFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee373782(v=VS.85).aspx">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CES. See the <i>AuthFlags</i> parameter for the possible values of the enumeration type. For Windows 7, only <b>X509AuthCertificate</b> can be specified.
+An <a href="https://msdn.microsoft.com/84a7e6e3-dfbb-4c27-af63-e521103e1b00">X509EnrollmentAuthFlags</a> enumeration value that specifies the authentication type used by the client to authenticate itself to the CES. See the <i>AuthFlags</i> parameter for the possible values of the enumeration type. For Windows 7, only <b>X509AuthCertificate</b> can be specified.
 
 
 ### -param UrlFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351752(v=VS.85).aspx">PolicyServerUrlFlags</a> enumeration value that specifies policy server flags. This can be a bitwise <b>OR</b> of the following values.
+A <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration value that specifies policy server flags. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -252,7 +250,7 @@ A <b>BSTR</b> variable that contains the URL for the certificate enrollment serv
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -281,7 +279,7 @@ There was insufficient memory available to a string value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a>
  
 
  

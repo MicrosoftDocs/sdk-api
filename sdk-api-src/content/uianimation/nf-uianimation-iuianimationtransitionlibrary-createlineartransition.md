@@ -9,8 +9,6 @@ ms.assetid: 51c54bc9-771c-484e-a24f-22ba03c70709
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLinearTransition, CreateLinearTransition method [Windows Animation], CreateLinearTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransition method, IUIAnimationTransitionLibrary.CreateLinearTransition, IUIAnimationTransitionLibrary::CreateLinearTransition, uianimation.iuianimationtransitionlibrary_createlineartransition, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

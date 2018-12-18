@@ -9,8 +9,6 @@ ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 
@@ -148,7 +146,7 @@ You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh995039(v=VS.85).aspx">ServerInformation</a>
+<a href="https://msdn.microsoft.com/568246B8-48F7-4A83-B7DE-24F36B2C3F49">ServerInformation</a>
  
 
  

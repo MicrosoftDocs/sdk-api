@@ -9,8 +9,6 @@ ms.assetid: 9ff4c918-64f7-4c64-b79b-7fe7d7783550
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendEx, AppendEx method [Microsoft TV Technologies], AppendEx method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],AppendEx method, IStreamBufferRecComp.AppendEx, IStreamBufferRecComp::AppendEx, IStreamBufferRecCompAppendEx, mstv.istreambufferreccomp_appendex, sbe/IStreamBufferRecComp::AppendEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

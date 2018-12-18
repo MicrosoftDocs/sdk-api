@@ -9,8 +9,6 @@ ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

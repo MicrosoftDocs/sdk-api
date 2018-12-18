@@ -9,8 +9,6 @@ ms.assetid: 7143e4e7-c5e3-41f8-84d8-64fa3008ccc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRevision, GetRevision method [XPS Documents and Packaging], GetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetRevision method, IXpsOMCoreProperties.GetRevision, IXpsOMCoreProperties::GetRevision, xps.ixpsomcoreproperties_getrevision, xpsobjectmodel/IXpsOMCoreProperties::GetRevision
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

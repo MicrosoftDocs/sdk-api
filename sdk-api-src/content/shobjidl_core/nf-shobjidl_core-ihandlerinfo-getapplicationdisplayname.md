@@ -9,8 +9,6 @@ ms.assetid: 19b3b042-7c2d-4402-913e-daa5c8bba595
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplicationDisplayName, GetApplicationDisplayName method [Windows Shell], GetApplicationDisplayName method [Windows Shell],IHandlerInfo interface, IHandlerInfo interface [Windows Shell],GetApplicationDisplayName method, IHandlerInfo.GetApplicationDisplayName, IHandlerInfo::GetApplicationDisplayName, shell.IHandlerInfo_GetApplicationDisplayName, shobjidl_core/IHandlerInfo::GetApplicationDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

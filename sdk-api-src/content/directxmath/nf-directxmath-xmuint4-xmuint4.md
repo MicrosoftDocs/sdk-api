@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(), XMUINT4::XMUINT4, dxmath.xmuint4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMUINT4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8
 
 
 
-<a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404755(v=VS.85).aspx">XMUINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/f942a6a3-467c-4beb-964a-b1f066f30b36">XMUINT4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449568(v=VS.85).aspx">XMUINT4 Constructors</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9e132ec0-64cb-4681-b079-02a0047badd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGdiCompatibleMetrics, GetGdiCompatibleMetrics method [Direct Write], GetGdiCompatibleMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleMetrics method, IDWriteFontFace.GetGdiCompatibleMetrics, IDWriteFontFace::GetGdiCompatibleMetrics, directwrite.idwritefontface_getgdicompatiblemetrics, dwrite/IDWriteFontFace::GetGdiCompatibleMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

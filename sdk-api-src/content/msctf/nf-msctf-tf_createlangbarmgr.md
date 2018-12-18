@@ -9,8 +9,6 @@ ms.assetid: 202c5496-fc64-498e-a6f6-fffacc218990
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_CreateLangBarMgr, TF_CreateLangBarMgr function [Text Services Framework], msctf/TF_CreateLangBarMgr, tsf.tf_createlangbarmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eb484684-7c20-498d-939e-ae5964d35669
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Name method, IMSVidDevice.get_Name, IMSVidDevice::get_Name, IMSVidDeviceget_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_name, segment/IMSVidDevice::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -117,7 +115,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 10f28345-c178-47c0-9d0f-87f6743131d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncGetProtoByNumber, WSAAsyncGetProtoByNumber function [Winsock], _win32_wsaasyncgetprotobynumber_2, winsock.wsaasyncgetprotobynumber_2, winsock/WSAAsyncGetProtoByNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4ClampLength(XMVECTOR,floa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4ClampLength, XMVector4ClampLength, XMVector4ClampLength method [DirectX Math Support APIs], dxmath.xmvector4clamplength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -101,7 +99,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/42d98c66-b78a-4670-a930-2c030af32379">XMVector4ClampLengthV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420955(v=VS.85).aspx">XMVector4ClampLengthV</a>
  
 
  

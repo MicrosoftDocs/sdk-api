@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\iu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUICommandHandler, IUICommandHandler interface [Windows Ribbon], IUICommandHandler interface [Windows Ribbon],described, scenicintent_IUICommandHandler, uiribbon/IUICommandHandler, windowsribbon.windowsribbon_iuicommandhandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

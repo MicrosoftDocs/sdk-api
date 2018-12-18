@@ -9,8 +9,6 @@ ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RefreshISNSServerA, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

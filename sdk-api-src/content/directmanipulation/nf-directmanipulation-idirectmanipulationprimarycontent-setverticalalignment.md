@@ -9,8 +9,6 @@ ms.assetid: 111f0358-0955-4ebb-b273-c17d3fb84d75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetVerticalAlignment method, IDirectManipulationPrimaryContent.SetVerticalAlignment, IDirectManipulationPrimaryContent::SetVerticalAlignment, SetVerticalAlignment, SetVerticalAlignment method [Direct Manipulation], SetVerticalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setverticalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetVerticalAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

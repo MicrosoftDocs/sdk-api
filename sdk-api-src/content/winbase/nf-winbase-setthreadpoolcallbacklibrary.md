@@ -9,8 +9,6 @@ ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

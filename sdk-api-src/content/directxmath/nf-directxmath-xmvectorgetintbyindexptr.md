@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntByIndexPtr(uint32_t@
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorGetIntByIndexPtr, XMVectorGetIntByIndexPtr, XMVectorGetIntByIndexPtr method [DirectX Math Support APIs], dxmath.xmvectorgetintbyindexptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -156,11 +154,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a115bc06-deef-48d9-9a81-825cc2c375e2">XMVectorGetIntByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404788(v=VS.85).aspx">XMVectorGetIntByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7641192-3033-4dea-8ee2-9c6a27b784b4">XMVectorSetIntByIndexPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404814(v=VS.85).aspx">XMVectorSetIntByIndexPtr</a>
  
 
  

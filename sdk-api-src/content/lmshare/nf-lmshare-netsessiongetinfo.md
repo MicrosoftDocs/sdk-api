@@ -9,8 +9,6 @@ ms.assetid: d44fb8d8-2b64-4268-8603-7784e2c5f2d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

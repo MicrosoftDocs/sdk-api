@@ -9,8 +9,6 @@ ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBitsToDevice, SetDIBitsToDevice function [Windows GDI], _win32_SetDIBitsToDevice, gdi.setdibitstodevice, wingdi/SetDIBitsToDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -185,7 +183,7 @@ The <b>SetDIBitsToDevice</b> function returns an error if it is called by a proc
 <li>If the <b>biCompression</b> member of <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpvBits</i> points to a buffer containing a JPEG or PNG image. The <b>biSizeImage</b> member of specifies the size of the buffer. The <i>fuColorUse</i> parameter must be set to DIB_RGB_COLORS.</li>
 <li>To ensure proper metafile spooling while printing, applications must call the CHECKJPEGFORMAT or CHECKPNGFORMAT escape to verify that the printer recognizes the JPEG or PNG image, respectively, before calling <b>SetDIBitsToDevice</b>.</li>
 </ul>
-<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://msdn.microsoft.com/en-us/library/Dd183380(v=VS.85).aspx">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
 
 #### Examples

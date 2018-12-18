@@ -9,8 +9,6 @@ ms.assetid: c15ca1b0-f744-426e-a54f-402eef461227
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsComputerEnabled method, IGPMClientSideExtension interface [GPMC],IsComputerEnabled method, IGPMClientSideExtension.IsComputerEnabled, IGPMClientSideExtension::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMClientSideExtension object, IsComputerEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_iscomputerenabled, gpmc.igpmclientsideextension_iscomputerenabled, gpmgmt/IGPMClientSideExtension::IsComputerEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: of\iofflinefilesprogress_queryabort.htm
 tech.root: offlinefiles
 ms.assetid: 24b95898-0fe6-420b-83f2-ac77f493aeab
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesProgress interface [Offline Files],QueryAbort method, IOfflineFilesProgress.QueryAbort, IOfflineFilesProgress::QueryAbort, QueryAbort, QueryAbort method [Offline Files], QueryAbort method [Offline Files],IOfflineFilesProgress interface, cscobj/IOfflineFilesProgress::QueryAbort, of.iofflinefilesprogress_queryabort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -87,7 +85,7 @@ This method may be used by the implementation in cases where calls to other prog
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
  
 
  

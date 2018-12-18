@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_29b9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff interface [Fax Service],RecipientName property, IFaxTiff.RecipientName, IFaxTiff.get_RecipientName, IFaxTiff::RecipientName, IFaxTiff::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp, faxcom/IFaxTiff::RecipientName, faxcom/IFaxTiff::get_RecipientName, get_RecipientName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-A fax client application must  set the <a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
+A fax client application must  set the <a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">Image</a> property before retrieving another property for a <a href="https://msdn.microsoft.com/en-us/library/ms691832(v=VS.85).aspx">FaxTiff</a> object.
 
 The <b>get_RecipientName</b> method sets the <i>pVal</i> parameter to the name of the fax recipient, if it is available. If the information is not available, the method returns "Unavailable".
 
@@ -91,7 +89,7 @@ The <b>get_RecipientName</b> method allocates the memory required for the buffer
 
 
 
-<a href="https://msdn.microsoft.com/c993c276-eb77-4173-bfc5-0c82decb2b52">IFaxTiff::get_Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690773(v=VS.85).aspx">IFaxTiff::get_Image</a>
 
 
 

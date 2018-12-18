@@ -9,8 +9,6 @@ ms.assetid: 96cc0e45-ddd5-4ab0-9243-5f2046e48f78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], IAzBizRuleInterfaces interface [Security],described, azroles/IAzBizRuleInterfaces, security.iazbizruleinterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
@@ -57,8 +55,8 @@ The <b>IAzBizRuleInterfaces</b> interface provides methods and properties used t
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleInterfaces</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzBizRuleInterfaces</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,7 +69,7 @@ The <b>IAzBizRuleInterfaces</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa965800(v=VS.85).aspx">AddInterface</a>
+<a href="https://msdn.microsoft.com/063492b9-9970-4605-84f5-d8b80afc719b">AddInterface</a>
 </td>
 <td align="left" width="63%">
 Adds the specified interface to the list of interfaces available to BizRule scripts.  To add the specified interface, AzMan calls the  <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface.
@@ -80,7 +78,7 @@ Adds the specified interface to the list of interfaces available to BizRule scri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377618(v=VS.85).aspx">AddInterfaces</a>
+<a href="https://msdn.microsoft.com/91822c84-4daa-4d3c-bbe2-9ceb7fc642b2">AddInterfaces</a>
 </td>
 <td align="left" width="63%">
 Adds the specified interfaces to the list of interfaces available to BizRule scripts. To add the specified interfaces, AzMan calls the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface once for each specified interface.
@@ -89,7 +87,7 @@ Adds the specified interfaces to the list of interfaces available to BizRule scr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377629(v=VS.85).aspx">GetInterfaceValue</a>
+<a href="https://msdn.microsoft.com/d5d12529-6ce8-4189-949b-210d8ec84084">GetInterfaceValue</a>
 </td>
 <td align="left" width="63%">
 Gets the ID and flags of the interface that corresponds to the specified interface name.
@@ -98,7 +96,7 @@ Gets the ID and flags of the interface that corresponds to the specified interfa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377639(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/398e4151-aeda-48d0-b6f5-e0ea749d0720">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified interface from the list of interfaces available to BizRule scripts.
@@ -107,7 +105,7 @@ Removes the specified interface from the list of interfaces available to BizRule
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa377632(v=VS.85).aspx">RemoveAll</a>
+<a href="https://msdn.microsoft.com/05e0d7af-5b09-4112-9229-862197a9895b">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all interfaces from the list of interfaces available to BizRule scripts.
@@ -125,7 +123,7 @@ Removes all interfaces from the list of interfaces available to BizRule scripts.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377626(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/f6838790-2223-4ae8-9cee-9d881d071ba0">Count</a>
 
 
 </td>

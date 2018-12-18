@@ -9,8 +9,6 @@ ms.assetid: eca127eb-0e0a-4f43-afa4-42fde8d43284
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMultisession interface [IMAPI],get_ImportRecorder method, IMultisession.get_ImportRecorder, IMultisession::get_ImportRecorder, get_ImportRecorder, get_ImportRecorder method [IMAPI], get_ImportRecorder method [IMAPI],IMultisession interface, imapi.imultisession_get_importrecorder, imapi2/IMultisession::get_ImportRecorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

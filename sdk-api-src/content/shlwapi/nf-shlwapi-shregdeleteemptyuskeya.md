@@ -9,8 +9,6 @@ ms.assetid: adb09a2b-674c-472d-9f16-8e150476f1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegDeleteEmptyUSKey, SHRegDeleteEmptyUSKey function [Windows Shell], SHRegDeleteEmptyUSKeyA, SHRegDeleteEmptyUSKeyW, _win32_SHRegDeleteEmptyUSKey, shell.SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKey, shlwapi/SHRegDeleteEmptyUSKeyA, shlwapi/SHRegDeleteEmptyUSKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -82,9 +80,9 @@ A pointer to  the null-terminated string that specifies the empty user-defined r
 
 ### -param delRegFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a> that specifies from which base key the subkey will be deleted.
+One of the <a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a> that specifies from which base key the subkey will be deleted.
 
 
 ## -returns

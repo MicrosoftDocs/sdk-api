@@ -9,8 +9,6 @@ ms.assetid: 86c3931f-5790-43f5-896d-1728c38247a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerName method, IWMPMedia.getMarkerName, IWMPMedia2 interface [Windows Media Player],getMarkerName method, IWMPMedia2::getMarkerName, IWMPMedia3 interface [Windows Media Player],getMarkerName method, IWMPMedia3::getMarkerName, IWMPMedia::getMarkerName, IWMPMediagetMarkerName, getMarkerName, getMarkerName method [Windows Media Player], getMarkerName method [Windows Media Player],IWMPMedia interface, getMarkerName method [Windows Media Player],IWMPMedia2 interface, getMarkerName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkername, wmp/IWMPMedia2::getMarkerName, wmp/IWMPMedia3::getMarkerName, wmp/IWMPMedia::getMarkerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,11 +119,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e97c8d26-fa6a-4791-a698-b742eaf980eb">IWMPMedia::get_markerCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563441(v=VS.85).aspx">IWMPMedia::get_markerCount</a>
  
 
  

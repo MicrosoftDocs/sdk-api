@@ -9,8 +9,6 @@ ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

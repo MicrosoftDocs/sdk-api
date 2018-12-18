@@ -9,8 +9,6 @@ ms.assetid: FF546AE5-D062-41A9-B143-8B25466BF6E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],NegotiateAuthenticatedChannelKeyExchange method, ID3D11VideoContext.NegotiateAuthenticatedChannelKeyExchange, ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, NegotiateAuthenticatedChannelKeyExchange, NegotiateAuthenticatedChannelKeyExchange method [Media Foundation], NegotiateAuthenticatedChannelKeyExchange method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange, mf.id3d11videocontext_negotiateauthenticatedchannelkeyexchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

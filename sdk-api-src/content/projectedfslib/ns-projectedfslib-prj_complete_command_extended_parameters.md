@@ -9,8 +9,6 @@ ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS, PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure, ProjFS.prj_complete_command_extended_parameters, projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 
@@ -91,9 +89,9 @@ The type of command.
 
 
 
-For any callback except <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a>, the provider may opt to process the callback asynchronously. To do so it returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) from the callback. Once the provider has finished processing the callback. 
+For any callback except <a href="https://msdn.microsoft.com/en-us/library/Mt815615(v=VS.85).aspx">PRJ_CANCEL_COMMAND_CB</a>, the provider may opt to process the callback asynchronously. To do so it returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) from the callback. Once the provider has finished processing the callback. 
 
-If the provider calls this function for the commandId passed by the <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a> callback it is not an error, however it is a no-op because the I/O that caused the callback invocation identified by commandId has already ended.
+If the provider calls this function for the commandId passed by the <a href="https://msdn.microsoft.com/en-us/library/Mt815615(v=VS.85).aspx">PRJ_CANCEL_COMMAND_CB</a> callback it is not an error, however it is a no-op because the I/O that caused the callback invocation identified by commandId has already ended.
 
 
 

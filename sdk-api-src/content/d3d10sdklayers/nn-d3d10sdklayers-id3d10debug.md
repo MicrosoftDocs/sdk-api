@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10debug.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9243084e-1ae3-39f6-3e6b-d8150af7e0cc, ID3D10Debug, ID3D10Debug interface [Direct3D 10], ID3D10Debug interface [Direct3D 10],described, d3d10sdklayers/ID3D10Debug, direct3d10.id3d10debug
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10sdklayers.h
 req.include-header: 

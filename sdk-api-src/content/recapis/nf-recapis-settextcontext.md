@@ -9,8 +9,6 @@ ms.assetid: f5461326-3def-4564-81ea-32a63b889da0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetTextContext, SetTextContext function [Tablet PC], f5461326-3def-4564-81ea-32a63b889da0, recapis/SetTextContext, tablet.settextcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

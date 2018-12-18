@@ -9,8 +9,6 @@ ms.assetid: b6165962-3ca6-49c8-826c-ce87e55c09fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPUnRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin, WMPUnRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpunregisterplayerplugin, wmpservices/WMPUnRegisterPlayerPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -96,11 +94,11 @@ DSP plug-ins designed to work with Windows Media Player 11 must call this method
 
 
 
-<a href="https://msdn.microsoft.com/4b99d227-39e8-4986-93ed-6df73a3a3e08">IWMPMediaPluginRegistrar Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563424(v=VS.85).aspx">IWMPMediaPluginRegistrar Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/db042911-c46f-431a-ad1c-ceb2c3b4546c">IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563426(v=VS.85).aspx">IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 62b15cbb-60fd-496f-8dc6-2f5292fe4e76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetType method, IWICPalette.GetType, IWICPalette::GetType, _wic_codec_iwicpalette_gettype, wic._wic_codec_iwicpalette_gettype, wincodec/IWICPalette::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

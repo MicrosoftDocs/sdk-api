@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7fec.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [Fax Service], Disconnect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Disconnect method, IFaxServer.Disconnect, IFaxServer::Disconnect, _mfax_faxserver.disconnect, fax._mfax_faxserver_cpp_mfax_faxserver_disconnect_cpp, fax._mfax_faxserver_disconnect, faxcomex/IFaxServer::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -77,11 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e8718b9-f957-43c4-92de-f320aa42a096">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
  
 
  

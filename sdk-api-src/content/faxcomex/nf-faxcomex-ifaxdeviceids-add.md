@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxDeviceIds interface, IFaxDeviceIds interface [Fax Service],Add method, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp, faxcomex/IFaxDeviceIds::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
 
-<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/84e54535-4b40-4572-b8e1-3ab5095dbd6a">Id</a> property.</div>
+<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/en-us/library/ms684582(v=VS.85).aspx">Id</a> property.</div>
 <div> </div>
 To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 

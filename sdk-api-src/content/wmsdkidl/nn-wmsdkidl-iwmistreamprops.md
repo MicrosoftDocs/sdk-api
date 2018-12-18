@@ -9,8 +9,6 @@ ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMIStreamProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1873e20f-376a-45fe-ad02-0c28c894af18">GetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757213(v=VS.85).aspx">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a named property from the <b>IStream</b>.

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDigitSubstitutionLanguage, GetDigitSubstitutionLanguage method [GDI+], GetDigitSubstitutionLanguage method [GDI+],StringFormat class, StringFormat class [GDI+],GetDigitSubstitutionLanguage method, StringFormat.GetDigitSubstitutionLanguage, StringFormat::GetDigitSubstitutionLanguage, _gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_, gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsock.h
 req.include-header: Winsock2.h

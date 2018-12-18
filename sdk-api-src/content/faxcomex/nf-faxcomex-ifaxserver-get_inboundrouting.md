@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_1w4n_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],InboundRouting property, IFaxServer.InboundRouting, IFaxServer.get_InboundRouting, IFaxServer::InboundRouting, IFaxServer::get_InboundRouting, InboundRouting property [Fax Service], InboundRouting property [Fax Service],IFaxServer interface, _mfax_faxserver.inboundrouting_cpp, fax._mfax_faxserver_inboundrouting_cpp, faxcomex/IFaxServer::InboundRouting, faxcomex/IFaxServer::get_InboundRouting, get_InboundRouting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/255706ba-cbbd-4dfa-a9da-95bdd90328b5">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms684596(v=VS.85).aspx">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 
 This property is read-only.
 

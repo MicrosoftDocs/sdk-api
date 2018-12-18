@@ -9,8 +9,6 @@ ms.assetid: 6E8574B4-C83D-4B0C-9B80-5ACD0BC45C1C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_PLACEHOLDER_ID, PRJ_PLACEHOLDER_ID enumeration, PRJ_PLACEHOLDER_ID_LENGTH, ProjFS.prj_placeholder_id, projectedfslib/PRJ_PLACEHOLDER_ID, projectedfslib/PRJ_PLACEHOLDER_ID_LENGTH
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: projectedfslib.h
 req.include-header: 

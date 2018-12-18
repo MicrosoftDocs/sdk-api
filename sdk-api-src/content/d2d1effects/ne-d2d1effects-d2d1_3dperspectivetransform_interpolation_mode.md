@@ -9,8 +9,6 @@ ms.assetid: 3B78FAD2-C4C1-4093-8314-8C079D01A4B8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE enumeration [Direct2D], D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_CUBIC, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_3dperspectivetransform_interpolation_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706310(v=VS.85).aspx">3D perspective transform effect</a> uses on the image.
+The interpolation mode the <a href="https://msdn.microsoft.com/0E1A940E-2DCA-4772-BB68-7E5EF5CEF833">3D perspective transform effect</a> uses on the image.
           There are 5 scale modes that range in quality and speed.
         
 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8b39.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],DisplayName property, IFaxJob.DisplayName, IFaxJob.get_DisplayName, IFaxJob::DisplayName, IFaxJob::get_DisplayName, _mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_get_displayname, fax._mfax_ifaxjob_mfax_ifaxjob_get_displayname_cpp, faxcom/IFaxJob::DisplayName, faxcom/IFaxJob::get_DisplayName, get_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-You can use the <a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e2ac0a0b4">IFaxJob::get_JobId</a> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <b>IFaxJob::get_DisplayName</b> property.
+You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690870(v=VS.85).aspx">IFaxJob::get_JobId</a> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <b>IFaxJob::get_DisplayName</b> property.
 
 <b>IFaxJob::get_DisplayName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -89,7 +87,7 @@ You can use the <a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e
 
 
 
-<a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e2ac0a0b4">IFaxJob::get_JobId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690870(v=VS.85).aspx">IFaxJob::get_JobId</a>
 
 
 

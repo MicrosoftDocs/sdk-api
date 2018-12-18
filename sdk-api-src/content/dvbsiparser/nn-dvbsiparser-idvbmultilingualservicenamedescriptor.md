@@ -9,8 +9,6 @@ ms.assetid: 1b384ecf-aa56-476d-b347-b5438ab069fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDvbMultilingualServiceNameDescriptor, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies], IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbMultilingualServiceNameDescriptor, mstv.idvbmultilingualservicenamedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

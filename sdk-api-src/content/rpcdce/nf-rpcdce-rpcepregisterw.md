@@ -9,8 +9,6 @@ ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -190,7 +188,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 <ul>
 <li>Interface 
-<a href="https://msdn.microsoft.com/">UUID</a>
+<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>
 </li>
 <li>Interface version (major and minor)</li>
 <li>Binding handle</li>

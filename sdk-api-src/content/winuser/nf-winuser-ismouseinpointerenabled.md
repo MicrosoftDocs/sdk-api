@@ -9,8 +9,6 @@ ms.assetid: 5D493066-2425-4610-8489-575BF25C8C16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsMouseInPointerEnabled, IsMouseInPointerEnabled function [Keyboard and Mouse Input], inputdev.ismouseinpointerenabled, inputmsg.ismouseinpointerenabled, winuser/IsMouseInPointerEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: bb589a7a-374f-52fc-2fa4-4cc72c6ce6dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_LINE_SPACING, DWRITE_LINE_SPACING structure [Direct Write], directwrite.dwrite_line_spacing, dwrite_3/DWRITE_LINE_SPACING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 
@@ -106,7 +104,7 @@ Proportion of the entire leading distributed before the line. The allowed value 
 
 ### -field fontLineGapUsage
 
-Type: <b><a href="https://msdn.microsoft.com/43d38cca-429d-7ee5-e94c-fba542e19bb5">DWRITE_FONT_LINE_GAP_USAGE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933211(v=VS.85).aspx">DWRITE_FONT_LINE_GAP_USAGE</a></b>
 
 Specify whether <a href="https://msdn.microsoft.com/ffbf987c-145e-4b93-a48f-8948944c6e33">DWRITE_FONT_METRICS</a>::lineGap value should be part of the line metrics.
 

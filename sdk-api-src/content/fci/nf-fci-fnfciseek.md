@@ -9,8 +9,6 @@ ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
@@ -70,7 +68,7 @@ The number of bytes to move the file pointer.
 
 #### - err
 
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 #### - pv

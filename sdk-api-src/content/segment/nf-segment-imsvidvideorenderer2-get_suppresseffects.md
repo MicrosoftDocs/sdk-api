@@ -9,8 +9,6 @@ ms.assetid: 5a8546f8-61de-4e98-bee3-26ca4d0ea2e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVideoRenderer2.get_SuppressEffects, IMSVidVideoRenderer2::get_SuppressEffects, IMSVidVideoRenderer2get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_suppresseffects, segment/IMSVidVideoRenderer2::get_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get_SuppressEffects</b> method retrieves settings that control power mana
 
 ### -param bSuppress [out]
 
-Receives the value VARIANT_TRUE or VARIANT_FALSE. For more information, see <a href="https://msdn.microsoft.com/d362addb-626a-42f8-9b95-82189a338527">IMSVidVideoRenderer2::put_SuppressEffects</a>.
+Receives the value VARIANT_TRUE or VARIANT_FALSE. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694718(v=VS.85).aspx">IMSVidVideoRenderer2::put_SuppressEffects</a>.
 
 
 ## -returns
@@ -107,7 +105,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

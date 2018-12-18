@@ -9,8 +9,6 @@ ms.assetid: e9571bdb-5b0b-4798-b4dc-37ccee51a8b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRatingRegionCount, GetRatingRegionCount method [Microsoft TV Technologies], GetRatingRegionCount method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRatingRegionCount method, IAtscContentAdvisoryDescriptor.GetRatingRegionCount, IAtscContentAdvisoryDescriptor::GetRatingRegionCount, IAtscContentAdvisoryDescriptorGetRatingRegionCount, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount, mstv.iatsccontentadvisorydescriptor_getratingregioncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1183eacb-4846-4b5e-b879-7e557eb5f5dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_GuardInterval method, IBDA_DigitalDemodulator2.put_GuardInterval, IBDA_DigitalDemodulator2::put_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval, mstv.ibda_digitaldemodulator2_put_guardinterval, put_GuardInterval, put_GuardInterval method [Microsoft TV Technologies], put_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the demodulator's guard interval.
 
 ### -param pGuardInterval [in]
 
-Pointer to a variable that contains the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693090(v=VS.85).aspx">GuardInterval</a> enumeration.
+Pointer to a variable that contains the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> enumeration.
 
 
 ## -returns

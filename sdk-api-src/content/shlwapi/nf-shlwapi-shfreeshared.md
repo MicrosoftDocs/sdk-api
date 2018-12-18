@@ -9,8 +9,6 @@ ms.assetid: 5a86ae5d-8caa-4126-a22e-bc3cc7df2381
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHFreeShared, SHFreeShared function [Windows Shell], _win32_SHFreeShared, shell.SHFreeShared, shlwapi/SHFreeShared
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

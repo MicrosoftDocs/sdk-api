@@ -9,8 +9,6 @@ ms.assetid: 34235a9b-e4e2-4766-ab99-2b71cf0797d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LegacyIAccessiblePattern_Select, LegacyIAccessiblePattern_Select function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_Select, uiauto_LegacyIAccessiblePattern_Select, uiautomationcoreapi/LegacyIAccessiblePattern_Select, winauto.uiauto_LegacyIAccessiblePattern_Select
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

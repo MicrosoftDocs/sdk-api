@@ -9,8 +9,6 @@ ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

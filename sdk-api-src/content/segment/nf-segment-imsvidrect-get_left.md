@@ -9,8 +9,6 @@ ms.assetid: 9e64e560-033b-475a-a281-57af5f893e65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Left method, IMSVidRect.get_Left, IMSVidRect::get_Left, IMSVidRectget_Left, get_Left, get_Left method [Microsoft TV Technologies], get_Left method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_left, segment/IMSVidRect::get_Left
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -81,11 +79,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e61fd8a-9ea0-48c1-8749-780b0363c12d">IMSVidRect::put_Left</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694611(v=VS.85).aspx">IMSVidRect::put_Left</a>
  
 
  

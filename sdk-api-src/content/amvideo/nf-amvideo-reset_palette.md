@@ -9,8 +9,6 @@ ms.assetid: e981f5d4-9ad2-4e9b-8bc8-6a5e9a2fd632
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RESET_PALETTE, RESET_PALETTE macro [DirectShow], amvideo/RESET_PALETTE, dshow.reset_palette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure with zeroes.
+The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure with zeroes.
 
 
 
@@ -63,7 +61,7 @@ The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="htt
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
 
 
 ## -see-also

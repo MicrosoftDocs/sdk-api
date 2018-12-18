@@ -9,8 +9,6 @@ ms.assetid: e02fb4c3-faec-40cc-ab97-d05cdcc148ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyDataBlock, CopyDataBlock method [Windows Shell], CopyDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],CopyDataBlock method, IShellLinkDataList.CopyDataBlock, IShellLinkDataList::CopyDataBlock, _win32_IShellLinkDataList_CopyDataBlock, shell.IShellLinkDataList_CopyDataBlock, shobjidl_core/IShellLinkDataList::CopyDataBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

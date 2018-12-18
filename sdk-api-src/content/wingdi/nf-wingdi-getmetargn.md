@@ -9,8 +9,6 @@ ms.assetid: 9c2741cf-30e4-4100-bae9-ad99a7ae37f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetaRgn, GetMetaRgn function [Windows GDI], _win32_GetMetaRgn, gdi.getmetargn, wingdi/GetMetaRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

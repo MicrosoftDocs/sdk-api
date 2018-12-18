@@ -9,8 +9,6 @@ ms.assetid: aa31f0cf-b37a-40bb-922e-2b987b8a9dcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtUpdateBookmark, EvtUpdateBookmark function [EventLog], wes.evtupdatebookmark, winevt/EvtUpdateBookmark
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMAuthorizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e165356c-b14b-47dc-b046-a74499251cab">GetCert</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743288(v=VS.85).aspx">GetCert</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified certificate.
@@ -82,7 +80,7 @@ Retrieves the specified certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afe8a924-3d2b-42e6-9700-a6075f51ff10">GetCertCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743289(v=VS.85).aspx">GetCertCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of certificates.
@@ -91,7 +89,7 @@ Retrieves the number of certificates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/575df33a-b29e-43eb-84c2-6f9875f26196">GetSharedData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743290(v=VS.85).aspx">GetSharedData</a>
 </td>
 <td align="left" width="63%">
 Retrieves shared  data for the specified certificate.

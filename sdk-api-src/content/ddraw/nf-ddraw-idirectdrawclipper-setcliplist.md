@@ -9,8 +9,6 @@ ms.assetid: 717f51e0-80cb-4762-b05d-30e30d065d0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawClipper interface [DirectDraw],SetClipList method, IDirectDrawClipper.SetClipList, IDirectDrawClipper::SetClipList, SetClipList, SetClipList method [DirectDraw], SetClipList method [DirectDraw],IDirectDrawClipper interface, ddraw/IDirectDrawClipper::SetClipList, directdraw.idirectdrawclipper_setcliplist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

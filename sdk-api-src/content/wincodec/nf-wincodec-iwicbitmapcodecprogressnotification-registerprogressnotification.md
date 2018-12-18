@@ -9,8 +9,6 @@ ms.assetid: ac47178a-f149-4313-8673-ece59e88cfb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapCodecProgressNotification interface [Windows Imaging Component],RegisterProgressNotification method, IWICBitmapCodecProgressNotification.RegisterProgressNotification, IWICBitmapCodecProgressNotification::RegisterProgressNotification, RegisterProgressNotification, RegisterProgressNotification method [Windows Imaging Component], RegisterProgressNotification method [Windows Imaging Component],IWICBitmapCodecProgressNotification interface, _wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wincodec/IWICBitmapCodecProgressNotification::RegisterProgressNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

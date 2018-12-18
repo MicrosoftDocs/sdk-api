@@ -9,8 +9,6 @@ ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
@@ -62,7 +60,7 @@ Creates a walk marker.
 
 ### -param Allocator [in, optional]
 
-A structure that provides functions to allocate and free memory.  If you provide the structure, <b>PssWalkMarkerCreate</b> uses the functions to  allocate the internal walk marker structures. Otherwise it uses the default process heap. For more information, see <a href="https://msdn.microsoft.com/54225F76-9A2E-4CB3-A3B5-9F9DB5551D53">PSS_ALLOCATOR</a>.
+A structure that provides functions to allocate and free memory.  If you provide the structure, <b>PssWalkMarkerCreate</b> uses the functions to  allocate the internal walk marker structures. Otherwise it uses the default process heap. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457838(v=VS.85).aspx">PSS_ALLOCATOR</a>.
 
 
 ### -param WalkMarkerHandle [out]

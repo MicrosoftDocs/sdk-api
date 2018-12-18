@@ -9,8 +9,6 @@ ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

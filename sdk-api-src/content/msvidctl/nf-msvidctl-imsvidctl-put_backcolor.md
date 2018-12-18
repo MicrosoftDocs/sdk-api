@@ -9,8 +9,6 @@ ms.assetid: d2812c19-2b69-46a8-98ab-7e1eee43f383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_BackColor method, IMSVidCtl.put_BackColor, IMSVidCtl::put_BackColor, IMSVidCtlput_BackColor, mstv.imsvidctl_put_backcolor, msvidctl/IMSVidCtl::put_BackColor, put_BackColor, put_BackColor method [Microsoft TV Technologies], put_BackColor method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
@@ -110,7 +108,7 @@ hr = pVideoControl-&gt;put_BackColor(static_cast&lt;OLE_COLOR&gt;(orange));
 
 
 
-<a href="https://msdn.microsoft.com/d58ce18f-ddc4-4d91-b086-8829056f4508">IVMRWindowlessControl::SetBorderColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390563(v=VS.85).aspx">IVMRWindowlessControl::SetBorderColor</a>
  
 
  

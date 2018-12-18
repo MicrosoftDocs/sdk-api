@@ -9,8 +9,6 @@ ms.assetid: 00613052-7428-4719-9a19-fc27541af07a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyNoProxyServer method, IWSManConnectionOptionsEx2.ProxyNoProxyServer, IWSManConnectionOptionsEx2::ProxyNoProxyServer, ProxyNoProxyServer, ProxyNoProxyServer method [Windows Remote Management], ProxyNoProxyServer method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxynoproxyserver, wsmandisp/IWSManConnectionOptionsEx2::ProxyNoProxyServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

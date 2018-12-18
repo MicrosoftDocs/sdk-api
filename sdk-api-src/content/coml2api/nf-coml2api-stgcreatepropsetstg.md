@@ -9,8 +9,6 @@ ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h
@@ -53,7 +51,7 @@ req.redist:
 
 
 The <b>StgCreatePropSetStg</b> function creates a property set storage object from a specified storage object. The property set storage object supplies the system-provided, stand-alone implementation of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> interface.
+<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
 
 
 ## -parameters
@@ -74,7 +72,7 @@ Reserved for future use; must be zero.
 ### -param ppPropSetStg [out]
 
 A pointer to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a>* pointer variable that receives the interface pointer to the property-set storage object.
+<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>* pointer variable that receives the interface pointer to the property-set storage object.
 
 
 ## -returns
@@ -92,8 +90,8 @@ This function supports the standard return value <b>E_INVALIDARG</b> as well as 
 
 The 
 <b>StgCreatePropSetStg</b> function creates an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379840(v=VS.85).aspx">IPropertySetStorage</a> interface that will act on the given 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a> interface specified by the <i>pStorage</i> parameter. This function does not modify this 
+<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface that will act on the given 
+<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface specified by the <i>pStorage</i> parameter. This function does not modify this 
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
@@ -154,7 +152,7 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &amp;fmtid )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379966(v=VS.85).aspx">IPropertySetStorage-Stand-alone Implementation</a>
+<a href="https://msdn.microsoft.com/0ea5aadf-0b3f-44ac-9bb7-a7e8292f04c2">IPropertySetStorage-Stand-alone Implementation</a>
 
 
 
@@ -162,7 +160,7 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &amp;fmtid )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380326(v=VS.85).aspx">StgCreatePropSetStg Sample</a>
+<a href="https://msdn.microsoft.com/f0d0664a-2cfd-4eb0-b1d5-47d1545394fd">StgCreatePropSetStg Sample</a>
  
 
  

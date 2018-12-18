@@ -9,8 +9,6 @@ ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

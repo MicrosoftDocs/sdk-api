@@ -9,8 +9,6 @@ ms.assetid: 7491812d-6469-4ac3-8d51-68b9c4b13b29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

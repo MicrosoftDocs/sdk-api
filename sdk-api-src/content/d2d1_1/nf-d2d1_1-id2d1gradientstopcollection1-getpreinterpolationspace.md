@@ -9,8 +9,6 @@ ms.assetid: 8222d713-c47e-4e4c-92aa-040dc9085ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreInterpolationSpace, GetPreInterpolationSpace method [Direct2D], GetPreInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPreInterpolationSpace method, ID2D1GradientStopCollection1.GetPreInterpolationSpace, ID2D1GradientStopCollection1::GetPreInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPreInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpreinterpolationspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -75,7 +73,7 @@ This method returns the color space.
 
 
 
-If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
+If this object was created using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method  returns the color space related to the color interpolation gamma.
  
 
 
@@ -98,7 +96,7 @@ If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

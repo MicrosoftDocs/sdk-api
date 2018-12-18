@@ -9,8 +9,6 @@ ms.assetid: dfe4ec23-42ae-4bb7-86cc-4d45d36b8817
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Address method, ITTAPIObjectEvent.get_Address, ITTAPIObjectEvent::get_Address, _tapi3_ittapiobjectevent_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_address, tapi3if/ITTAPIObjectEvent::get_Address
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

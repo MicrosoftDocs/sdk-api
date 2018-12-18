@@ -9,8 +9,6 @@ ms.assetid: b5f38bfc-58aa-42c6-a457-44bdfd013ce7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ArchivedKeyHash property [Security], ArchivedKeyHash property [Security],ICertPropertyArchivedKeyHash interface, ICertPropertyArchivedKeyHash interface [Security],ArchivedKeyHash property, ICertPropertyArchivedKeyHash.ArchivedKeyHash, ICertPropertyArchivedKeyHash.get_ArchivedKeyHash, ICertPropertyArchivedKeyHash::ArchivedKeyHash, ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::ArchivedKeyHash, certenroll/ICertPropertyArchivedKeyHash::get_ArchivedKeyHash, get_ArchivedKeyHash, security.icertpropertyarchivedkeyhash_archivedkeyhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375243(v=VS.85).aspx">Initialize</a> method to specify the hash.
+Call the <a href="https://msdn.microsoft.com/1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07">Initialize</a> method to specify the hash.
 
 
 
@@ -73,15 +71,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375243(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377134(v=VS.85).aspx">ArchivePrivateKey</a>
+<a href="https://msdn.microsoft.com/6d17222e-3657-4911-a8e7-d90214284441">ArchivePrivateKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375241(v=VS.85).aspx">ICertPropertyArchivedKeyHash</a>
+<a href="https://msdn.microsoft.com/06696346-b9d1-4229-991e-539862cff3c9">ICertPropertyArchivedKeyHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377262(v=VS.85).aspx">KeyArchivalCertificate</a>
+<a href="https://msdn.microsoft.com/93f71fd7-33bb-4352-b184-7270bca1363f">KeyArchivalCertificate</a>
  
 
  

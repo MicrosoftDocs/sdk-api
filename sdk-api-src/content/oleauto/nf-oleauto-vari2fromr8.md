@@ -9,8 +9,6 @@ ms.assetid: a4c4110b-9439-4a44-b837-17baec1e90d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI2FromR8, VarI2FromR8 function [Automation], _oa96_VarI2FromR8, automat.vari2fromr8, oleauto/VarI2FromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

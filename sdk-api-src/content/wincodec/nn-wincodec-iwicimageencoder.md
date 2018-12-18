@@ -9,8 +9,6 @@ ms.assetid: D9854D82-0226-4DD8-AE54-93E5B6544B46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], IWICImageEncoder interface [Windows Imaging Component],described, wic.iwicimageencoder, wincodec/IWICImageEncoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

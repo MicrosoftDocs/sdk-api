@@ -9,8 +9,6 @@ ms.assetid: A7AB02F2-32B0-4FF5-8A3A-CE7A6AD9DB57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePointCollection, CreatePointCollection method [Direct2D], CreatePointCollection method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePointCollection method, ID2D1SvgDocument.CreatePointCollection, ID2D1SvgDocument::CreatePointCollection, d2d1svg/ID2D1SvgDocument::CreatePointCollection, direct2d.id2d1svgdocument_createpointcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -83,7 +81,7 @@ The created <a href="https://msdn.microsoft.com/6033F923-35E1-400F-965F-2FBED95B
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

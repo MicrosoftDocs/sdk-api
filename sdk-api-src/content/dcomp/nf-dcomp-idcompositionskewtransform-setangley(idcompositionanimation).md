@@ -9,8 +9,6 @@ ms.assetid: f79ab50f-37f5-43d5-b7df-0cd1b65bdfcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleY method, IDCompositionSkewTransform.SetAngleY, IDCompositionSkewTransform.SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY, IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleY(IDCompositionAnimation*), SetAngleY, SetAngleY method [DirectComposition], SetAngleY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleY, directcomp.idcompositionskewtransform_setangley_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -95,11 +93,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA4AEE0D-A913-434E-9150-DD6763132041">IDCompositionSkewTransform::SetAngleX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449063(v=VS.85).aspx">IDCompositionSkewTransform::SetAngleX</a>
  
 
  

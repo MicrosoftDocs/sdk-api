@@ -9,8 +9,6 @@ ms.assetid: 7273235D-EB74-4FB2-B471-FCFF71741BF6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsDocumentPackageTarget3D, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging], IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel_2.h
 req.include-header: 

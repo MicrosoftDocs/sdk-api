@@ -9,8 +9,6 @@ ms.assetid: 7db85ce1-ff93-4bda-8245-3ffe85e835d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2Data.get_RequestedWriteSpeed, IDiscFormat2Data::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_requestedwritespeed, imapi2/IDiscFormat2Data::get_RequestedWriteSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

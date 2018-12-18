@@ -9,8 +9,6 @@ ms.assetid: 410c5d1c-d4e6-460a-b17d-54bfcee10a66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Height method, IMSVidRect.put_Height, IMSVidRect::put_Height, IMSVidRectput_Height, mstv.imsvidrect_put_height, put_Height, put_Height method [Microsoft TV Technologies], put_Height method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Height
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -81,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/83925bca-8cb2-4f79-9aca-1bee0fb4a96a">IMSVidRect::get_Height</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694604(v=VS.85).aspx">IMSVidRect::get_Height</a>
  
 
  

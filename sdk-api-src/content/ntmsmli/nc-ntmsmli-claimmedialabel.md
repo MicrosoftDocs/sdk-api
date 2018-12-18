@@ -9,8 +9,6 @@ ms.assetid: ac957769-0513-436b-94f0-e3894f7a703b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClaimMediaLabel, ClaimMediaLabel callback, ClaimMediaLabel callback function [Files], _zaw_claimmedialabel, base.claimmedialabel, fs.claimmedialabel, ntmsmli/ClaimMediaLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ntmsmli.h
 req.include-header: 
@@ -74,7 +72,7 @@ Size of the buffer, in bytes.
 ### -param pLabelInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure. The media label library fills in this structure if the library recognizes the media label.
+<a href="https://msdn.microsoft.com/en-us/library/Bb540693(v=VS.85).aspx">MediaLabelInfo</a> structure. The media label library fills in this structure if the library recognizes the media label.
 
 
 ## -returns
@@ -96,7 +94,7 @@ This function returns one of the following values.
 </td>
 <td width="60%">
 The media label library filled in the 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Bb540693(v=VS.85).aspx">MediaLabelInfo</a> structure.
 
 </td>
 </tr>
@@ -123,7 +121,7 @@ The media label library does not recognize the media label.
 
 When a media label library uses the 
 <i>ClaimMediaLabel</i> function to identify the media label as one created by its associated application, the media label library must fill in the 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure and return NO_ERROR. If the media label library does not recognize the media label, it returns ERROR_BAD_FORMAT.
+<a href="https://msdn.microsoft.com/en-us/library/Bb540693(v=VS.85).aspx">MediaLabelInfo</a> structure and return NO_ERROR. If the media label library does not recognize the media label, it returns ERROR_BAD_FORMAT.
 
 
 
@@ -137,7 +135,7 @@ When a media label library uses the
 
 
 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540693(v=VS.85).aspx">MediaLabelInfo</a>
  
 
  

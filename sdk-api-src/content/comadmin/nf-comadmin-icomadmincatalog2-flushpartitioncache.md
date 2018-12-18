@@ -9,8 +9,6 @@ ms.assetid: 8b5f6619-fbff-417d-b80a-a38532227059
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlushPartitionCache, FlushPartitionCache method [COM+], FlushPartitionCache method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],FlushPartitionCache method, ICOMAdminCatalog2.FlushPartitionCache, ICOMAdminCatalog2::FlushPartitionCache, _cos_icomadmincatalog2_FlushPartitionCache, comadmin/ICOMAdminCatalog2::FlushPartitionCache, cos.icomadmincatalog2_flushpartitioncache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -76,7 +74,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

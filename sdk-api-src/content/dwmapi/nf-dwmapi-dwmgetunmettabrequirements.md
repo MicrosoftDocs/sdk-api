@@ -9,8 +9,6 @@ ms.assetid: 8E67E1BE-D6FC-4A8A-8E71-45B6F337E3BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmGetUnmetTabRequirements, DwmGetUnmetTabRequirements function [Desktop Window Manager], dwm.dwmgetunmettabrequirements, dwmapi/DwmGetUnmetTabRequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotif
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnCatalogStatusChange method, ISearchNotifyInlineSite.OnCatalogStatusChange, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

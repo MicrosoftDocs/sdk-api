@@ -9,8 +9,6 @@ ms.assetid: cdd3ec9b-cf72-4c2e-b874-60370d41447d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnChannelVolumeChanged method, IAudioSessionEvents.OnChannelVolumeChanged, IAudioSessionEvents::OnChannelVolumeChanged, IAudioSessionEventsOnChannelVolumeChanged, OnChannelVolumeChanged, OnChannelVolumeChanged method [Core Audio], OnChannelVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnChannelVolumeChanged, coreaudio.iaudiosessionevents_onchannelvolumechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

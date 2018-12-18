@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getdragimage.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_GetDragImage, ImageList_GetDragImage function [Windows Controls], _win32_ImageList_GetDragImage, _win32_ImageList_GetDragImage_cpp, commctrl/ImageList_GetDragImage, controls.ImageList_GetDragImage, controls._win32_ImageList_GetDragImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a7f2753c-810f-41e5-9378-4072e8d4bc38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMonitorColorTemperature, SetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorColorTemperature, monitor.setmonitorcolortemperature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\was
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],WasReAssigned property, IFaxIncomingMessage2.WasReAssigned, IFaxIncomingMessage2.get_WasReAssigned, IFaxIncomingMessage2::WasReAssigned, IFaxIncomingMessage2::get_WasReAssigned, WasReAssigned property [Fax Service], WasReAssigned property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.wasreassigned, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_wasreassigned_cpp, fax._mfax_faxincomingmessage_wasreassigned, faxcomex/IFaxIncomingMessage2::WasReAssigned, faxcomex/IFaxIncomingMessage2::get_WasReAssigned, get_WasReAssigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -63,7 +61,7 @@ Indicates if the fax has been reassigned.
 
 
 
-This property is always VARIANT_FALSE when the fax arrives at the server. If it is reassigned by a <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">routing assistant</a>, the fax service sets it to VARIANT_TRUE.
+This property is always VARIANT_FALSE when the fax arrives at the server. If it is reassigned by a <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">routing assistant</a>, the fax service sets it to VARIANT_TRUE.
 
 
 
@@ -73,11 +71,11 @@ This property is always VARIANT_FALSE when the fax arrives at the server. If it 
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3dc429e-1470-4e7d-8cd5-9cadb0052051">IFaxIncomingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>
  
 
  

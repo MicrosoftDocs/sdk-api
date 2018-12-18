@@ -7,10 +7,8 @@ old-location: base\readpwrscheme.htm
 tech.root: power
 ms.assetid: a8d93820-b652-4358-8039-8987fac95dca
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

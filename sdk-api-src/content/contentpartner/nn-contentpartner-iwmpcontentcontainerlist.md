@@ -9,8 +9,6 @@ ms.assetid: a8fd239b-2a53-4db4-8a82-a7c510d215bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], IWMPContentContainerList interface [Windows Media Player],described, IWMPContentContainerListInterface, contentpartner/IWMPContentContainerList, wmp.iwmpcontentcontainerlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IWMPContentContainerList</b> interface represents a list of one or more c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainerList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentContainerList</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -108,7 +106,7 @@ Retrieves the type of the current transaction.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564243(v=VS.85).aspx">Reference for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
  
 
  

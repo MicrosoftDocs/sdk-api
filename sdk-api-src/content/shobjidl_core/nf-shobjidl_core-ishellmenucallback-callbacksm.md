@@ -9,8 +9,6 @@ ms.assetid: 06809b61-041b-41bd-82dd-0d64edf8bbae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CallbackSM, CallbackSM method [Windows Shell], CallbackSM method [Windows Shell],IShellMenuCallback interface, IShellMenuCallback interface [Windows Shell],CallbackSM method, IShellMenuCallback.CallbackSM, IShellMenuCallback::CallbackSM, _win32_IShellMenuCallback_CallbackSM, shell.IShellMenuCallback_CallbackSM, shobjidl_core/IShellMenuCallback::CallbackSM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

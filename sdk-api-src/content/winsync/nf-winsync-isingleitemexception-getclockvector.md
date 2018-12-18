@@ -9,8 +9,6 @@ ms.assetid: e212e561-9baa-46d0-90c0-ec143b24e641
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetClockVector method, ISingleItemException.GetClockVector, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

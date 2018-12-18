@@ -1,5 +1,5 @@
 ---
-UID: NS:iptypes.IP_ADDRESS_STRING
+UID: NS:iptypes.__unnamed_struct_0
 title: IP_ADDRESS_STRING
 author: windows-sdk-content
 description: Stores an IPv4 address in dotted decimal notation.
@@ -7,10 +7,8 @@ old-location: iphlp\ip_address_string.htm
 tech.root: IpHlp
 ms.assetid: f426b22f-66e4-43e4-8852-357359df6f88
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIP_ADDRESS_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING structure [IP Helper], *PIP_MASK_STRING, IP_ADDRESS_STRING, IP_ADDRESS_STRING structure [IP Helper], IP_MASK_STRING, iphlp.ip_address_string, iptypes/*PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, iptypes/IP_ADDRESS_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

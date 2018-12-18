@@ -9,8 +9,6 @@ ms.assetid: 7b4e1ac4-dfb8-45c0-9079-16f8babcb494
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_UnratedDelay method, IMSVidStreamBufferSource.put_UnratedDelay, IMSVidStreamBufferSource::put_UnratedDelay, IMSVidStreamBufferSourceput_UnratedDelay, mstv.imsvidstreambuffersource_put_unrateddelay, put_UnratedDelay, put_UnratedDelay method [Microsoft TV Technologies], put_UnratedDelay method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_UnratedDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="https://msdn.microsoft.com/9dd59b87-708b-4003-9575-54a02b97c272">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
+The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
 
 
 ## -parameters
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/9dd59b87-708b-4003-9575-54a02b97c272">IMSVidStreamBufferSource::put_BlockUnrated</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694692(v=VS.85).aspx">IMSVidStreamBufferSource::put_BlockUnrated</a>
  
 
  

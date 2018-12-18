@@ -9,8 +9,6 @@ ms.assetid: 5b083c4f-ec2b-4118-b49e-1ca3e0af342e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtQuerySystemTime, NtQuerySystemTime function, base.ntquerysystemtime, winternl/NtQuerySystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

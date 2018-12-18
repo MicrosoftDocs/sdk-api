@@ -9,8 +9,6 @@ ms.assetid: b31f4e87-2029-4001-94c7-268b14807cf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnPlaylist method, IWMPCdromBurn.get_burnPlaylist, IWMPCdromBurn::get_burnPlaylist, IWMPCdromBurnget_burnPlaylist, get_burnPlaylist, get_burnPlaylist method [Windows Media Player], get_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnplaylist, wmp/IWMPCdromBurn::get_burnPlaylist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,15 +106,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/26fad65c-d371-4e7c-a86e-1ddb24175909">IWMPCdromBurn::put_burnPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563091(v=VS.85).aspx">IWMPCdromBurn::put_burnPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

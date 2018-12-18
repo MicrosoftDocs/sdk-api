@@ -9,8 +9,6 @@ ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 

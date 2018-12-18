@@ -9,8 +9,6 @@ ms.assetid: 7e7d618b-2e64-4b0b-aed3-f3221b0443ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserNameEx, GetUserNameEx function, GetUserNameExA, GetUserNameExW, _win32_getusernameex, base.getusernameex, secext/GetUserNameEx, secext/GetUserNameExA, secext/GetUserNameExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h
@@ -66,7 +64,7 @@ If the thread is impersonating a client,
 ### -param NameFormat [in]
 
 The format of the name. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be <b>NameUnknown</b>. If the user account is not in a domain, only <b>NameSamCompatible</b> is supported.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be <b>NameUnknown</b>. If the user account is not in a domain, only <b>NameSamCompatible</b> is supported.
 
 
 ### -param lpNameBuffer [out]
@@ -142,7 +140,7 @@ The user name is not available in the specified format.
 
 
 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a>
 
 
 

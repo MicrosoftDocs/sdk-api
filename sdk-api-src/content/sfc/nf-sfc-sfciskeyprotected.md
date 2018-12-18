@@ -9,8 +9,6 @@ ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sfc.h
 req.include-header: 

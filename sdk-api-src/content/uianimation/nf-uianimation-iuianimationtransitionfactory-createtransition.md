@@ -9,8 +9,6 @@ ms.assetid: 02d28669-0cbd-41e2-b9ca-4ad893f09fc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory interface, IUIAnimationTransitionFactory interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

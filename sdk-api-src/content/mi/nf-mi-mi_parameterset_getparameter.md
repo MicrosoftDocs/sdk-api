@@ -9,8 +9,6 @@ ms.assetid: ff895beb-8354-488d-9c97-2d0448da954a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_ParameterSet_GetParameter, MI_ParameterSet_GetParameter function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameter, wmi_v2.mi_parameterset_getparameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

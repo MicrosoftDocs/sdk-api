@@ -9,8 +9,6 @@ ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

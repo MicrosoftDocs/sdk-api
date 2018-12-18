@@ -9,8 +9,6 @@ ms.assetid: 7cf4e6d4-223c-4222-a181-c16a5a90ef65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVisibleRanges, GetVisibleRanges method [Windows Accessibility], GetVisibleRanges method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetVisibleRanges method, IUIAutomationTextPattern.GetVisibleRanges, IUIAutomationTextPattern::GetVisibleRanges, uiauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiauto_IUIAutomationTextPattern_GetVisibleRanges, uiautomationclient/IUIAutomationTextPattern::GetVisibleRanges, winauto.uiauto_IUIAutomationTextPattern_GetVisibleRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

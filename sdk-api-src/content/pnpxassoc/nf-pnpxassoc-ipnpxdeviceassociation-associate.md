@@ -9,8 +9,6 @@ ms.assetid: 2024c2b8-ef47-4352-80ea-c68b22f38d4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Associate method, IPNPXDeviceAssociation.Associate, IPNPXDeviceAssociation::Associate, ncd.ipnpxdeviceassociation_associate, pnpxassoc/IPNPXDeviceAssociation::Associate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

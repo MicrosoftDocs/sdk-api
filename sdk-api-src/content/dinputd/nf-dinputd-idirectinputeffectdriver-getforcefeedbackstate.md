@@ -9,8 +9,6 @@ ms.assetid: 0cf48162-2b43-4417-820b-5197993ac990
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetForceFeedbackState, GetForceFeedbackState method [Human Input Devices], GetForceFeedbackState method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetForceFeedbackState method, IDirectInputEffectDriver.GetForceFeedbackState, IDirectInputEffectDriver::GetForceFeedbackState, di_ref_a4cecccc-23d2-408c-90af-f178846f3938.xml, dinputd/IDirectInputEffectDriver::GetForceFeedbackState, hid.idirectinputeffectdriver_getforcefeedbackstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

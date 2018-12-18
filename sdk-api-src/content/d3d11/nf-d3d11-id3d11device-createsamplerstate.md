@@ -9,8 +9,6 @@ ms.assetid: 66cf7189-2882-43a4-8732-657402c983db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 845db980-5abf-c948-258d-62903feec271, CreateSamplerState, CreateSamplerState method [Direct3D 11], CreateSamplerState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateSamplerState method, ID3D11Device.CreateSamplerState, ID3D11Device::CreateSamplerState, d3d11/ID3D11Device::CreateSamplerState, direct3d11.id3d11device_createsamplerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
@@ -61,16 +59,16 @@ Create a sampler-state object that encapsulates sampling information for a textu
 
 ### -param pSamplerDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476207(v=VS.85).aspx">D3D11_SAMPLER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a>*</b>
 
-Pointer to a sampler state description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476207(v=VS.85).aspx">D3D11_SAMPLER_DESC</a>).
+Pointer to a sampler state description (see <a href="https://msdn.microsoft.com/97dd6cac-6657-4a1e-b631-4e5d36994b16">D3D11_SAMPLER_DESC</a>).
 
 
 ### -param ppSamplerState [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>**</b>
 
-Address of a pointer to the sampler state object created (see <a href="https://msdn.microsoft.com/en-us/library/Ff476588(v=VS.85).aspx">ID3D11SamplerState</a>).
+Address of a pointer to the sampler state object created (see <a href="https://msdn.microsoft.com/8dc2facc-4f51-4064-aab4-028a06b9d7e6">ID3D11SamplerState</a>).
 
 
 ## -returns
@@ -79,7 +77,7 @@ Address of a pointer to the sampler state object created (see <a href="https://m
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -100,7 +98,7 @@ If an application attempts to create a sampler-state interface with the same sta
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

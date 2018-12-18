@@ -9,8 +9,6 @@ ms.assetid: 4e9f7bee-9c39-40d2-8588-0b3a1d7f9ede
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTIMERAPCROUTINE, PTIMERAPCROUTINE callback, PTIMERAPCROUTINE callback function, _win32_timerapcproc, base.timerapcproc, synchapi/PTIMERAPCROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: synchapi.h
 req.include-header: Windows.h

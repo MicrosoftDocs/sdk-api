@@ -9,8 +9,6 @@ ms.assetid: 9081e814-d0b2-4b0e-9e4c-3590058e7196
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IChannelAudioVolume interface [Core Audio],SetAllVolumes method, IChannelAudioVolume.SetAllVolumes, IChannelAudioVolume::SetAllVolumes, IChannelAudioVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IChannelAudioVolume interface, audioclient/IChannelAudioVolume::SetAllVolumes, coreaudio.ichannelaudiovolume_setallvolumes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

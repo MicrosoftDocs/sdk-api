@@ -9,8 +9,6 @@ ms.assetid: f1e8de45-673b-4f20-a639-18c724c82df1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayDestroyDescriptor, SafeArrayDestroyDescriptor function [Automation], _oa96_SafeArrayDestroyDescriptor, automat.safearraydestroydescriptor, oleauto/SafeArrayDestroyDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

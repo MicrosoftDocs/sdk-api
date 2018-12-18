@@ -9,8 +9,6 @@ ms.assetid: 9179d0c4-f8de-4902-b0a8-a501e7bfbe61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransform method, IDCompositionVisual.SetTransform, IDCompositionVisual::SetTransform, IDCompositionVisual::SetTransform(const D2D_MATRIX_3X2_F &), IDCompositionVisual::SetTransform(const D2D_MATRIX_3X2_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransform, directcomp.idcompositionvisual_settransform_d2d1_matrix_3x2_f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -94,19 +92,19 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 
-<a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx">IDCompositionMatrixTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx">IDCompositionRotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
 
 
 
@@ -114,11 +112,11 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 
-<a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx">IDCompositionTranslateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
 
 
 

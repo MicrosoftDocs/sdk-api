@@ -9,8 +9,6 @@ ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

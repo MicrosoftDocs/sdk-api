@@ -9,8 +9,6 @@ ms.assetid: B138A230-7523-4803-ACE8-4F636DD54D86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPServiceEnumProperty interface [UPnP APIs],SetServiceEnumProperty method, IUPnPServiceEnumProperty.SetServiceEnumProperty, IUPnPServiceEnumProperty::SetServiceEnumProperty, SetServiceEnumProperty, SetServiceEnumProperty method [UPnP APIs], SetServiceEnumProperty method [UPnP APIs],IUPnPServiceEnumProperty interface, upnp.iupnpserviceenumproperty_setserviceenumproperty, upnp/IUPnPServiceEnumProperty::SetServiceEnumProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

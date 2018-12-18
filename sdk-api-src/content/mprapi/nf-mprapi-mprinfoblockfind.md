@@ -9,8 +9,6 @@ ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

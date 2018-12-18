@@ -9,8 +9,6 @@ ms.assetid: 04c9fc62-d5a3-470b-bcae-4c6570eebdaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetWordWrapping method, IDWriteTextFormat.SetWordWrapping, IDWriteTextFormat::SetWordWrapping, SetWordWrapping, SetWordWrapping method [Direct Write], SetWordWrapping method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetWordWrapping, dwrite/IDWriteTextFormat::SetWordWrapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

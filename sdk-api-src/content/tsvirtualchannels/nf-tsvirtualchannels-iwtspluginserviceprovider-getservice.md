@@ -4,13 +4,11 @@ title: IWTSPluginServiceProvider::GetService
 author: windows-sdk-content
 description: Obtains the specified service.
 old-location: termserv\iwtspluginserviceprovider_getservice.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: dd99c312-7899-4a94-ad40-abfd1a168332
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetService, GetService method [Remote Desktop Services], GetService method [Remote Desktop Services],IWTSPluginServiceProvider interface, IWTSPluginServiceProvider interface [Remote Desktop Services],GetService method, IWTSPluginServiceProvider.GetService, IWTSPluginServiceProvider::GetService, RDCLIENT_BITMAP_RENDER_SERVICE, termserv.iwtspluginserviceprovider_getservice, tsvirtualchannels/IWTSPluginServiceProvider::GetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

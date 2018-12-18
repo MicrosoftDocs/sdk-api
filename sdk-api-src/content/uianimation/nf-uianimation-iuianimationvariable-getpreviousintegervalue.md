@@ -9,8 +9,6 @@ ms.assetid: ccf4c575-aa98-40cd-b2de-cf8db95ec57d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreviousIntegerValue, GetPreviousIntegerValue method [Windows Animation], GetPreviousIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetPreviousIntegerValue method, IUIAnimationVariable.GetPreviousIntegerValue, IUIAnimationVariable::GetPreviousIntegerValue, uianimation.iuianimationvariable_getpreviousintegervalue, uianimation/IUIAnimationVariable::GetPreviousIntegerValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

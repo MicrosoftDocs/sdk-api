@@ -9,8 +9,6 @@ ms.assetid: bdcee13f-85be-4b9d-b108-3c5ea616dfbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalmemorystatusex, base.globalmemorystatusex, sysinfoapi/GlobalMemoryStatusEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

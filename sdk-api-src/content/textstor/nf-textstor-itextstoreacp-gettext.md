@@ -9,8 +9,6 @@ ms.assetid: c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetText method, ITextStoreACP.GetText, ITextStoreACP::GetText, _tsf_itextstoreacp_gettext_ref, textstor/ITextStoreACP::GetText, tsf.itextstoreacp_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

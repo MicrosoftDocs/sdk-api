@@ -9,8 +9,6 @@ ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
@@ -59,7 +57,7 @@ dependency.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -107,7 +105,7 @@ Retrieves the
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

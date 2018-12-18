@@ -9,8 +9,6 @@ ms.assetid: abaf367a-8f99-478c-a58c-d57e9f9cd8a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAProviderConfigChange, WSAProviderConfigChange function [Winsock], _win32_wsaproviderconfigchange_2, winsock.wsaproviderconfigchange_2, winsock2/WSAProviderConfigChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cc5fb452-c166-46dc-a529-be08924b15a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Clone method, IEnumPluggableTerminalClassInfo.Clone, IEnumPluggableTerminalClassInfo::Clone, _tapi3_ienumpluggableterminalclassinfo_clone, tapi3.ienumpluggableterminalclassinfo_clone, tapi3if/IEnumPluggableTerminalClassInfo::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

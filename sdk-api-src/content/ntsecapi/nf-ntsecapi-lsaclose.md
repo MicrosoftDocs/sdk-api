@@ -9,8 +9,6 @@ ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

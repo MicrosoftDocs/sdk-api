@@ -9,8 +9,6 @@ ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryComponentState, MsiQueryComponentState function, MsiQueryComponentStateA, MsiQueryComponentStateW, NULL, User SID, msi/MsiQueryComponentState, msi/MsiQueryComponentStateA, msi/MsiQueryComponentStateW, setup.msiquerycomponentstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

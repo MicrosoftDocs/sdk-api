@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10multithread_setmultithreadprotected.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 22302703-e7e4-5872-896b-8c2360171b16, ID3D10Multithread interface [Direct3D 10],SetMultithreadProtected method, ID3D10Multithread.SetMultithreadProtected, ID3D10Multithread::SetMultithreadProtected, SetMultithreadProtected, SetMultithreadProtected method [Direct3D 10], SetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, d3d10/ID3D10Multithread::SetMultithreadProtected, direct3d10.id3d10multithread_setmultithreadprotected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,7 +59,7 @@ Turn multithreading on or off.
 
 ### -param bMTProtect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 True to turn multithreading on, false to turn it off.
 
@@ -70,7 +68,7 @@ True to turn multithreading on, false to turn it off.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 True if multithreading was turned on prior to calling this method, false otherwise.
 

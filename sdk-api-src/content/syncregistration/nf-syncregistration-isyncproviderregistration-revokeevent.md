@@ -9,8 +9,6 @@ ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a7e845fc-be7f-484f-88b9-78206598b57d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppForceShutdown method, IComAppEvents.OnAppForceShutdown, IComAppEvents::OnAppForceShutdown, OnAppForceShutdown, OnAppForceShutdown method [COM+], OnAppForceShutdown method [COM+],IComAppEvents interface, _dtc_icomappevents_onappforceshutdown, comsvcs/IComAppEvents::OnAppForceShutdown, cos.icomappevents_onappforceshutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

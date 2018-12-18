@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\emftowmfbitsflags.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EmfToWmfBitsFlags, EmfToWmfBitsFlags enumeration [GDI+], EmfToWmfBitsFlagsDefault, EmfToWmfBitsFlagsEmbedEmf, EmfToWmfBitsFlagsIncludePlaceable, EmfToWmfBitsFlagsNoXORClip, _gdiplus_ENUM_EmfToWmfBitsFlags, gdiplus._gdiplus_ENUM_EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlags, gdiplusenums/EmfToWmfBitsFlagsDefault, gdiplusenums/EmfToWmfBitsFlagsEmbedEmf, gdiplusenums/EmfToWmfBitsFlagsIncludePlaceable, gdiplusenums/EmfToWmfBitsFlagsNoXORClip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

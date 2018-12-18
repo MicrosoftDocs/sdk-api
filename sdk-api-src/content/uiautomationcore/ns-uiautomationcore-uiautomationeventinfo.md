@@ -9,8 +9,6 @@ ms.assetid: 05dd033f-3bb2-4185-9cfc-c19927a82406
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIAutomationEventInfo, UIAutomationEventInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationEventInfoStruct, uiauto_UIAutomationEventInfoStruct, uiautomationcore/UIAutomationEventInfo, winauto.uiauto_UIAutomationEventInfoStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

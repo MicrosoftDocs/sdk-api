@@ -9,8 +9,6 @@ ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

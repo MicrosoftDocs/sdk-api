@@ -9,8 +9,6 @@ ms.assetid: 2f996f62-6605-405a-9cbb-6b41905eae29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromFileTimeVector, InitPropVariantFromFileTimeVector function [Windows Properties], properties.InitPropVariantFromFileTimeVector, propvarutil/InitPropVariantFromFileTimeVector, shell.InitPropVariantFromFileTimeVector, shell_InitPropVariantFromFileTimeVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -99,7 +97,7 @@ Creates a VT_VECTOR | VT_FILETIME propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -130,15 +128,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
+<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762324(v=VS.85).aspx">InitVariantFromFileTimeArray</a>
+<a href="shell.InitVariantFromFileTimeArray">InitVariantFromFileTimeArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776543(v=VS.85).aspx">PropVariantToFileTimeVector</a>
+<a href="shell.PropVariantToFileTimeVector">PropVariantToFileTimeVector</a>
  
 
  

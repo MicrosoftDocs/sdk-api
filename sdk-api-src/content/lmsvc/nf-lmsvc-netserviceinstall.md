@@ -9,8 +9,6 @@ ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetServiceInstall, NetServiceInstall function [Network Management], _win32_netserviceinstall, lmsvc/NetServiceInstall, netmgmt.netserviceinstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmsvc.h
 req.include-header: 

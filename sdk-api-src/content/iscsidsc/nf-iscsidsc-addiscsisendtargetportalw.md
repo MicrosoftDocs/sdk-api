@@ -9,8 +9,6 @@ ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddIScsiSendTargetPortalW, AddIscsiSendTargetPortal, AddIscsiSendTargetPortal function [iSCSI Discovery Library API], AddIscsiSendTargetPortalA, AddIscsiSendTargetPortalW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsisendtargetportal, iscsidsc/AddIscsiSendTargetPortal, iscsidsc/AddIscsiSendTargetPortalA, iscsidsc/AddIscsiSendTargetPortalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
@@ -75,7 +73,7 @@ The port number to use for the <b>SendTargets</b> request. This port number corr
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> that contains the login options to use with the target portal.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> that contains the login options to use with the target portal.
 
 
 ### -param SecurityFlags [in, optional]
@@ -172,7 +170,7 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 
 ### -param Portal
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a> that indicates the portal to which SendTargets will be sent for target discovery.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a> that indicates the portal to which SendTargets will be sent for target discovery.
 
 
 ## -returns
@@ -190,11 +188,11 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-<a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 853fbce6-db0e-48c6-8a93-172c2568f45d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMRemoteDictionaryResourceCollection.GetCount, IXpsOMRemoteDictionaryResourceCollection::GetCount, xps.ixpsomremotedictionaryresourcecollection_getcount, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

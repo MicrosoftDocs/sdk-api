@@ -9,8 +9,6 @@ ms.assetid: F3ECEF7C-F4A4-4134-9671-21AE488D8183
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS structure, d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, direct3d12.d3d12_feature_data_multisample_quality_levels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

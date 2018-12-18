@@ -9,8 +9,6 @@ ms.assetid: 46702e39-3ea2-471c-9281-3cd7dcae9c9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSvcGetUptime, SnmpSvcGetUptime function [SNMP], _snmp_snmpsvcgetuptime, snmp.snmpsvcgetuptime, snmp/SnmpSvcGetUptime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

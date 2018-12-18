@@ -9,8 +9,6 @@ ms.assetid: 63a7d5f7-2c93-4f45-ad8d-aa3f75f78eff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 63a7d5f7-2c93-4f45-ad8d-aa3f75f78eff, IInkRenderer interface [Tablet PC],ScaleTransform method, IInkRenderer.ScaleTransform, IInkRenderer::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::ScaleTransform, tablet.inkrenderer_scaletransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -121,7 +119,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

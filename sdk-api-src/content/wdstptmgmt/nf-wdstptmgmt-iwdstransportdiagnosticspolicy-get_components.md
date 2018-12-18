@@ -9,8 +9,6 @@ ms.assetid: da05fd59-641c-4d9b-ad87-d65e682c400e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Components property [Windows Deployment Services], Components property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Components property, IWdsTransportDiagnosticsPolicy.Components, IWdsTransportDiagnosticsPolicy.get_Components, IWdsTransportDiagnosticsPolicy::Components, IWdsTransportDiagnosticsPolicy::get_Components, IWdsTransportDiagnosticsPolicy::put_Components, get_Components, wds.iwdstransportdiagnosticspolicy_components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Components, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Components
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

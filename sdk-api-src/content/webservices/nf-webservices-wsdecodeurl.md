@@ -9,8 +9,6 @@ ms.assetid: 67147b71-ca3a-4a17-a4f1-6ba608eca742
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWsDecodeUrl, WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Evaluates the components of an URL to determine its "scheme". A <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
+Evaluates the components of an URL to determine its "scheme". A <a href="https://msdn.microsoft.com/en-us/library/Dd323494(v=VS.85).aspx">WS_URL_SCHEME_TYPE</a> value is encapsulated in a <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure and a reference to the structure is returned via output parameter. 
                 If the scheme is not recognized, the function returns WS_E_INVALID_FORMAT.    
                 Only scheme types identified in  <b>WS_URL_SCHEME_TYPE</b> are supported.
             
@@ -81,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298
 
 ### -param outUrl
 
-Reference to the <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure that encapsulates the <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> value.
+Reference to the <a href="https://msdn.microsoft.com/efc67b64-cedf-4cd9-83b3-047f6c38c6ea">WS_URL</a> structure that encapsulates the <a href="https://msdn.microsoft.com/en-us/library/Dd323494(v=VS.85).aspx">WS_URL_SCHEME_TYPE</a> value.
                 
 
 

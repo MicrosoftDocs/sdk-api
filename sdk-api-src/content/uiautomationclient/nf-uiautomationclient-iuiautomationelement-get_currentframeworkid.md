@@ -9,8 +9,6 @@ ms.assetid: b54af8d4-87b1-4fd3-bc25-1a7c038899ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentFrameworkId property [Windows Accessibility], CurrentFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFrameworkId property, IUIAutomationElement.CurrentFrameworkId, IUIAutomationElement.get_CurrentFrameworkId, IUIAutomationElement::CurrentFrameworkId, IUIAutomationElement::get_CurrentFrameworkId, get_CurrentFrameworkId, uiauto.uiauto_IUIAutomationElement_CurrentFrameworkId, uiauto_IUIAutomationElement_CurrentFrameworkId, uiautomationclient/IUIAutomationElement::CurrentFrameworkId, uiautomationclient/IUIAutomationElement::get_CurrentFrameworkId, winauto.uiauto_IUIAutomationElement_CurrentFrameworkId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

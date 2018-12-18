@@ -9,8 +9,6 @@ ms.assetid: 400efb81-6e16-4065-a9d8-3f0a801f306e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleFileDeleted method, IMSVidStreamBufferSourceEvent.StaleFileDeleted, IMSVidStreamBufferSourceEvent::StaleFileDeleted, IMSVidStreamBufferSourceEventStateFileDeleted, StaleFileDeleted, StaleFileDeleted method [Microsoft TV Technologies], StaleFileDeleted method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_stalefiledeleted, segment/IMSVidStreamBufferSourceEvent::StaleFileDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -89,7 +87,7 @@ This event corresponds to the STREAMBUFFER_EC_STALE_FILE_DELETED event in the St
 
 
 
-<a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent Interface</a>
  
 
  

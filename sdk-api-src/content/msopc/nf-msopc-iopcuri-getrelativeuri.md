@@ -7,10 +7,8 @@ old-location: opc\iopcuri_getrelativeuri.htm
 tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

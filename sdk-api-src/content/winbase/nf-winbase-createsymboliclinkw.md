@@ -9,8 +9,6 @@ ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

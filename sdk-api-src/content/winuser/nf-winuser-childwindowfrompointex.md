@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CWP_ALL, CWP_SKIPDISABLED, CWP_SKIPINVISIBLE, CWP_SKIPTRANSPARENT, ChildWindowFromPointEx, ChildWindowFromPointEx function [Windows and Messages], _win32_ChildWindowFromPointEx, _win32_childwindowfrompointex_cpp, winmsg.childwindowfrompointex, winui._win32_childwindowfrompointex, winuser/ChildWindowFromPointEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

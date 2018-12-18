@@ -9,8 +9,6 @@ ms.assetid: 06687b2a-2dab-4102-8022-4b70677064b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemRegistryQuota, GetSystemRegistryQuota function, base.getsystemregistryquota, winbase/GetSystemRegistryQuota
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

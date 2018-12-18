@@ -9,8 +9,6 @@ ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -74,7 +72,7 @@ The <b>IDMOVideoOutputOptimizations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddfc65ea-e336-40b8-a901-53ebc3ee7d86">GetCurrentOperationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406844(v=VS.85).aspx">GetCurrentOperationMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features in effect.
@@ -83,7 +81,7 @@ Retrieves the optimization features in effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95acde54-2bdb-4a80-b078-d98945604c7e">GetCurrentSampleRequirements</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406845(v=VS.85).aspx">GetCurrentSampleRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
@@ -92,7 +90,7 @@ Retrieves the optimization features required to process the next sample, given t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55916330-8395-4952-a349-f1ab5a3a2d64">QueryOperationModePreferences</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406846(v=VS.85).aspx">QueryOperationModePreferences</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DMO's preferred optimization features.
@@ -101,7 +99,7 @@ Retrieves the DMO's preferred optimization features.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07dc29aa-d3ee-409e-9fe8-0c54d2d6f759">SetOperationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406847(v=VS.85).aspx">SetOperationMode</a>
 </td>
 <td align="left" width="63%">
 Notifies the DMO of the optimization features in effect.

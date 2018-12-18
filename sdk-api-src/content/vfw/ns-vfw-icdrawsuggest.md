@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.ICDRAWSUGGEST
+UID: NS:vfw.__unnamed_struct_9
 title: ICDRAWSUGGEST
 author: windows-sdk-content
 description: The ICDRAWSUGGEST structure contains compression parameters used with the ICM_DRAW_SUGGESTFORMAT message to suggest an appropriate input format.
@@ -7,10 +7,8 @@ old-location: multimedia\icdrawsuggest.htm
 tech.root: Multimedia
 ms.assetid: d8dab197-7364-4f90-b08e-c913df85723e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: ICDRAWSUGGEST, ICDRAWSUGGEST structure [Windows Multimedia], _win32_ICDRAWSUGGEST_str, multimedia.icdrawsuggest, vfw/ICDRAWSUGGEST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

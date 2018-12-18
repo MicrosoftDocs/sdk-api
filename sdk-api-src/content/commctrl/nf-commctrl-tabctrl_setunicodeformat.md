@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_SetUnicodeFormat, TabCtrl_SetUnicodeFormat macro [Windows Controls], _win32_TabCtrl_SetUnicodeFormat, _win32_TabCtrl_SetUnicodeFormat_cpp, commctrl/TabCtrl_SetUnicodeFormat, controls.TabCtrl_SetUnicodeFormat, controls._win32_TabCtrl_SetUnicodeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the Unicode character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the control. 
 
 
 ### -param fUnicode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Determines the character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters. 
 

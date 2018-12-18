@@ -9,8 +9,6 @@ ms.assetid: d10c8f2b-b1ee-4966-9e96-21e78124874b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession2 interface [RDP],SendControlLevelChangeResponse method, IRDPSRAPISharingSession2.SendControlLevelChangeResponse, IRDPSRAPISharingSession2::SendControlLevelChangeResponse, SendControlLevelChangeResponse, SendControlLevelChangeResponse method [RDP], SendControlLevelChangeResponse method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession2_sendcontrollevelchangeresponse, rdpencomapi/IRDPSRAPISharingSession2::SendControlLevelChangeResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

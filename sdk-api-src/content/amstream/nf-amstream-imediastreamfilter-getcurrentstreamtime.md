@@ -9,8 +9,6 @@ ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -132,7 +130,7 @@ Stream time is defined only when the graph is running and has a reference clock.
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

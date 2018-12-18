@@ -9,8 +9,6 @@ ms.assetid: d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode method, IWMReaderAdvanced2.SetPlayMode, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetPlayMode</b> method specifies the play mode.
 
 ### -param Mode [in]
 
-Variable containing one member of the <a href="https://msdn.microsoft.com/da47fc9f-7762-4f92-8857-44a75a4cd00b">WMT_PLAY_MODE</a> enumeration type.
+Variable containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757850(v=VS.85).aspx">WMT_PLAY_MODE</a> enumeration type.
 
 
 ## -returns
@@ -92,11 +90,11 @@ The default play mode is WMT_PLAY_MODE_AUTOSELECT, which enables the reader to p
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/45c7e2c2-fff4-41a9-b5ce-76d8d6257e77">IWMReaderAdvanced2::GetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757435(v=VS.85).aspx">IWMReaderAdvanced2::GetPlayMode</a>
  
 
  

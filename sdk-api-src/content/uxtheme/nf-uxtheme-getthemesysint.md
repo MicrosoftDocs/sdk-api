@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6caebc68-a136-40f2-92d8-7f8003c18e5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRegEnumFormatEtc, com.oleregenumformatetc, ole2/OleRegEnumFormatEtc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerDevices, GetPointerDevices function, input_pointerdevice.getpointerdevices, unifiedinputstack.getpointerdevices, winuser/GetPointerDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 06C23F24-0FD0-4B48-8F21-1E68420B7E65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,PopRetrievalFilter method, ID3D12InfoQueue.PopRetrievalFilter, ID3D12InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method, PopRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopRetrievalFilter, direct3d12.id3d12infoqueue_popretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -78,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

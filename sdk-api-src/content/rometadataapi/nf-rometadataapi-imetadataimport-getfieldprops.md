@@ -9,8 +9,6 @@ ms.assetid: 6c935c4c-a7ac-49b9-af26-25f240ef78f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFieldProps, GetFieldProps method [Windows Runtime], GetFieldProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetFieldProps method, IMetaDataImport.GetFieldProps, IMetaDataImport::GetFieldProps, rometadataapi/IMetaDataImport::GetFieldProps, winrt.imetadataimport_getfieldprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

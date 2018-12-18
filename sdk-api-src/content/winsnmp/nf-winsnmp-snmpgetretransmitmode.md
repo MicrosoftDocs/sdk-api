@@ -9,8 +9,6 @@ ms.assetid: 8df40980-56e2-485f-87e0-42878b320e4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpGetRetransmitMode, SnmpGetRetransmitMode function [SNMP], _snmp_snmpgetretransmitmode, snmp.snmpgetretransmitmode, winsnmp/SnmpGetRetransmitMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

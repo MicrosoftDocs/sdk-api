@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DumpItemData, DumpItemData method [WIA], DumpItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpItemData method, IWiaItem.DumpItemData, IWiaItem::DumpItemData, _wia_IWiaItem_DumpItemData, wia._wia_IWiaItem_DumpItemData, wia_xp/IWiaItem::DumpItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

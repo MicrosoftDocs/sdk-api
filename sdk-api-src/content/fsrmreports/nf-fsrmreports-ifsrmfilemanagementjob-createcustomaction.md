@@ -9,8 +9,6 @@ ms.assetid: 886992bd-ca0b-4f21-8036-39703c7c99ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCustomAction, CreateCustomAction method [File Server Resource Manager], CreateCustomAction method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreateCustomAction method, IFsrmFileManagementJob.CreateCustomAction, IFsrmFileManagementJob::CreateCustomAction, fs.ifsrmfilemanagementjob_createcustomaction, fsrm.ifsrmfilemanagementjob_createcustomaction, fsrmreports/IFsrmFileManagementJob::CreateCustomAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

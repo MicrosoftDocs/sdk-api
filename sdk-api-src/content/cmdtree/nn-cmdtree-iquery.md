@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cmdtree.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <b>IQuery</b> interface is reserved for future use.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQuery</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms689746(v=VS.85).aspx">ICommandTree</a>. <b>IQuery</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

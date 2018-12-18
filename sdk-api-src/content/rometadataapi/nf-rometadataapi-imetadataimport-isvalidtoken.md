@@ -9,8 +9,6 @@ ms.assetid: 9829a600-38fb-48ac-a486-abb56d17afdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsValidToken method, IMetaDataImport.IsValidToken, IMetaDataImport::IsValidToken, IsValidToken, IsValidToken method [Windows Runtime], IsValidToken method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsValidToken, winrt.imetadataimport_isvalidtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

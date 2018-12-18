@@ -9,8 +9,6 @@ ms.assetid: 451B8B33-4EA5-4BE3-A126-AAC01D35CE35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],CreateFontFace method, IDWriteFont3.CreateFontFace, IDWriteFont3::CreateFontFace, directwrite.idwritefont3_createfontface, dwrite_3/IDWriteFont3::CreateFontFace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,9 +58,9 @@ Creates a font face object for the font.
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a> interface for the newly created font face object.
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a> interface for the newly created font face object.
 
 
 ## -returns
@@ -85,7 +83,7 @@ This method returns <b>DWRITE_E_REMOTEFONT</b> if it could not construct a remot
 
 
 
-<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>
  
 
  

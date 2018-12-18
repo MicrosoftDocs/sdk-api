@@ -9,8 +9,6 @@ ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

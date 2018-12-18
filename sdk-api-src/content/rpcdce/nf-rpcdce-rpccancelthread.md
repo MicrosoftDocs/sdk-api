@@ -9,8 +9,6 @@ ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcCancelThread, RpcCancelThread function [RPC], _rpc_rpccancelthread, rpc.rpccancelthread, rpcdce/RpcCancelThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

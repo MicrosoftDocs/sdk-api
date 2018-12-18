@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackclsid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackCLSID method, IWiaDevMgr.RegisterEventCallbackCLSID, IWiaDevMgr::RegisterEventCallbackCLSID, RegisterEventCallbackCLSID, RegisterEventCallbackCLSID method [WIA], RegisterEventCallbackCLSID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia._wia_IWiaDevMgr_RegisterEventCallbackCLSID, wia_xp/IWiaDevMgr::RegisterEventCallbackCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

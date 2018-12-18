@@ -9,8 +9,6 @@ ms.assetid: 6ffaa2dc-65d6-4ba0-9688-8b59fe593ecd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],SetAcceleratorInterface method, IWMCodecAMVideoAccelerator.SetAcceleratorInterface, IWMCodecAMVideoAccelerator::SetAcceleratorInterface, IWMCodecAMVideoAcceleratorSetAcceleratorInterface, SetAcceleratorInterface, SetAcceleratorInterface method [windows Media Format], SetAcceleratorInterface method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::SetAcceleratorInterface, wmformat.iwmcodecamvideoaccelerator_setacceleratorinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmdxva.h
 req.include-header: 
@@ -87,7 +85,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743308(v=VS.85).aspx">IWMCodecAMVideoAccelerator Interface</a>
  
 
  

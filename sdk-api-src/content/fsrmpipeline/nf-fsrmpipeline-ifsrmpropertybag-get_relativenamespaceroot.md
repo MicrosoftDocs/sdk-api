@@ -9,8 +9,6 @@ ms.assetid: 31e0baad-286a-42f3-bd30-84fc40c935f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],RelativeNamespaceRoot property, IFsrmPropertyBag.RelativeNamespaceRoot, IFsrmPropertyBag.get_RelativeNamespaceRoot, IFsrmPropertyBag::RelativeNamespaceRoot, IFsrmPropertyBag::get_RelativeNamespaceRoot, RelativeNamespaceRoot property [File Server Resource Manager], RelativeNamespaceRoot property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_relativenamespaceroot, fsrm.ifsrmpropertybag_relativenamespaceroot, fsrmpipeline/IFsrmPropertyBag::RelativeNamespaceRoot, fsrmpipeline/IFsrmPropertyBag::get_RelativeNamespaceRoot, get_RelativeNamespaceRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

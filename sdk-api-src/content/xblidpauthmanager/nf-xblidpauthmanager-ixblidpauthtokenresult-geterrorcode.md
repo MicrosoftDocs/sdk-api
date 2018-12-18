@@ -9,8 +9,6 @@ ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

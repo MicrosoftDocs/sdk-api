@@ -9,8 +9,6 @@ ms.assetid: 7001eb89-3d91-44e3-b245-b19e8ab5f9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamedPipeClientProcessId, GetNamedPipeClientProcessId function, base.getnamedpipeclientprocessid, winbase/GetNamedPipeClientProcessId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

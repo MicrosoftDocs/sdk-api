@@ -9,8 +9,6 @@ ms.assetid: 96d1b603-c019-4868-9b81-3a5628fbb50c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -60,17 +58,17 @@ Increases the size of a fixed or dynamically expandable virtual hard disk (VHD).
 
 ### -param VirtualDiskHandle [in]
 
-A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
+A handle to the open virtual disk, which must have been opened using the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
-Must be the <b>EXPAND_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://msdn.microsoft.com/e117f103-5136-4dbb-87a0-9fb41d43a924">EXPAND_VIRTUAL_DISK_FLAG</a> enumeration.
+Must be the <b>EXPAND_VIRTUAL_DISK_FLAG_NONE</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Dd323665(v=VS.85).aspx">EXPAND_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure that contains expansion parameter data.
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323667(v=VS.85).aspx">EXPAND_VIRTUAL_DISK_PARAMETERS</a> structure that contains expansion parameter data.
 
 
 ### -param Overlapped [in, optional]

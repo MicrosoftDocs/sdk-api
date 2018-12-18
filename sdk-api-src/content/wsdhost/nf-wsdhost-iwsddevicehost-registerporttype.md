@@ -9,8 +9,6 @@ ms.assetid: d514babb-c502-4d9a-b6c8-f371465cb9e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

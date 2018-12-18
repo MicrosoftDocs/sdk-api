@@ -9,8 +9,6 @@ ms.assetid: f124c99f-8be1-4a9c-a84c-b1b323921f1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetModuleFileName, GetModuleFileName function, GetModuleFileNameA, GetModuleFileNameW, _win32_getmodulefilename, base.getmodulefilename, libloaderapi/GetModuleFileName, libloaderapi/GetModuleFileNameA, libloaderapi/GetModuleFileNameW, winbase/GetModuleFileName, winbase/GetModuleFileNameA, winbase/GetModuleFileNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -88,7 +86,7 @@ If the length of the path exceeds the size that  the <i>nSize</i> parameter spec
 <b>Windows XP:  </b>The string is truncated to <i>nSize</i> characters and is not null-terminated.
 
 The string returned will use the same format that was specified when the module was loaded. Therefore, the path can be a long or short file name, and can use the prefix "\\?\". For more information, see 
-<a href="base.naming_a_file">Naming a File</a>.
+<a href="https://msdn.microsoft.com/library/Aa365247(v=VS.85).aspx">Naming a File</a>.
 
 
 ### -param nSize [in]

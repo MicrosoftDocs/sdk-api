@@ -9,8 +9,6 @@ ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableThreadProfiling, DisableThreadProfiling function [Hardware Counter Profiling], hcp.disablethreadprofiling, winbase/DisableThreadProfiling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

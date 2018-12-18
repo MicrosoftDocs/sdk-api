@@ -9,8 +9,6 @@ ms.assetid: 33B2C0D6-52D6-4443-9F30-A86C0F7BA627
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateScaleTransform3D, CreateScaleTransform3D method [DirectComposition], CreateScaleTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateScaleTransform3D method, IDCompositionDevice2.CreateScaleTransform3D, IDCompositionDevice2::CreateScaleTransform3D, dcomp/IDCompositionDevice2::CreateScaleTransform3D, directcomp.idcompositiondevice2_createscaletransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 3D scale transform object.
 
 ### -param scaleTransform3D [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0526B772-EA84-40B2-88D6-CFB1A70A1D5A">IDCompositionScaleTransform3D</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448992(v=VS.85).aspx">IDCompositionScaleTransform3D</a>**</b>
 
 The new 3D scale transform object. This parameter must not be NULL.
 
@@ -90,15 +88,15 @@ A new 3D scale transform object has a static value of 1.0 for the ScaleX, ScaleY
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

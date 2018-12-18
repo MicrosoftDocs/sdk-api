@@ -9,8 +9,6 @@ ms.assetid: 08419C4C-4EED-406F-884C-84532C6AF1CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpecifiedAttributeName, GetSpecifiedAttributeName method [Direct2D], GetSpecifiedAttributeName method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetSpecifiedAttributeName method, ID2D1SvgElement.GetSpecifiedAttributeName, ID2D1SvgElement::GetSpecifiedAttributeName, d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeName, direct2d.id2d1svgelement_getspecifiedattributename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -90,7 +88,7 @@ Outputs whether the attribute is set to the inherit value.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

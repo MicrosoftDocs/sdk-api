@@ -9,8 +9,6 @@ ms.assetid: 9d93130c-12fb-4c76-98c1-cdfae113cf2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVB_EIT2, IDVB_EIT2 interface [Microsoft TV Technologies], IDVB_EIT2 interface [Microsoft TV Technologies],described, dvbsiparser/IDVB_EIT2, mstv.idvb_eit2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

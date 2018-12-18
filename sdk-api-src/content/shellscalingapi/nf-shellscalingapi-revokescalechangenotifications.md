@@ -9,8 +9,6 @@ ms.assetid: 95F1D147-D364-4b11-AE2B-CD1FCEA07B5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
@@ -64,7 +62,7 @@ Revokes the registration of a window, preventing it from receiving callbacks whe
 
 ### -param displayDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a></b>
 
 The enum value that indicates which display device to receive notifications about.
 

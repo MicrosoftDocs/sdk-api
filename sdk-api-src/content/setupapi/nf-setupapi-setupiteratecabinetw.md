@@ -9,8 +9,6 @@ ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

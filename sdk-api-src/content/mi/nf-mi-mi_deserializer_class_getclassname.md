@@ -9,8 +9,6 @@ ms.assetid: a4dc8992-ccdf-4883-a37d-83cb6d8da53a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Deserializer_Class_GetClassName, MI_Deserializer_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetClassName, wmi_v2.mi_deserializer_class_getclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

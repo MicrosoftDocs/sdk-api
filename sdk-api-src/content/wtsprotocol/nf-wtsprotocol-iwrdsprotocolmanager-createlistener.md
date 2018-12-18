@@ -4,13 +4,11 @@ title: IWRdsProtocolManager::CreateListener
 author: windows-sdk-content
 description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.
 old-location: termserv\iwrdsprotocolmanager_createlistener.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: df91dc10-77af-4b5a-8033-1b1ff614bb17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWRdsProtocolManager interface, IWRdsProtocolManager interface [Remote Desktop Services],CreateListener method, IWRdsProtocolManager.CreateListener, IWRdsProtocolManager::CreateListener, termserv.iwrdsprotocolmanager_createlistener, wtsprotocol/IWRdsProtocolManager::CreateListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

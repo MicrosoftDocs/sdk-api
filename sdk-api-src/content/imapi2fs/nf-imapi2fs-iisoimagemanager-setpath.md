@@ -9,8 +9,6 @@ ms.assetid: 3e5ef908-795d-4617-8123-605855b9ddc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetPath method, IIsoImageManager.SetPath, IIsoImageManager::SetPath, SetPath, SetPath method [IMAPI], SetPath method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setpath, imapi2fs/IIsoImageManager::SetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

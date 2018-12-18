@@ -9,8 +9,6 @@ ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
@@ -55,9 +53,9 @@ The <b>IEnumTfLatticeElements</b> interface is implemented by the TSF manager to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLatticeElements</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumTfLatticeElements</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfLatticeElements</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumTfLatticeElements</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +68,7 @@ The <b>IEnumTfLatticeElements</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538210(v=VS.85).aspx">Clone</a>
+<a href="https://msdn.microsoft.com/867fe614-d8c0-4987-b35a-bd5b175e6850">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the enumerator object.
@@ -79,7 +77,7 @@ Creates a copy of the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538212(v=VS.85).aspx">Next</a>
+<a href="https://msdn.microsoft.com/066493c9-6597-43f4-9f65-51578af00a9b">Next</a>
 </td>
 <td align="left" width="63%">
 Obtains the specified number of elements in the enumeration sequence from the current position.
@@ -88,7 +86,7 @@ Obtains the specified number of elements in the enumeration sequence from the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538214(v=VS.85).aspx">Reset</a>
+<a href="https://msdn.microsoft.com/9b4b7479-33e9-4bff-8e18-f4e03060dc73">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
@@ -97,7 +95,7 @@ Resets the enumerator object by moving the current position to the beginning of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538216(v=VS.85).aspx">Skip</a>
+<a href="https://msdn.microsoft.com/53dbe7f0-cc1f-4ba4-9ed5-7b328c707902">Skip</a>
 </td>
 <td align="left" width="63%">
 Moves the current position forward in the enumeration sequence by the specified number of elements.

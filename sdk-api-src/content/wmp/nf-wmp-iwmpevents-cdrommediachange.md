@@ -9,8 +9,6 @@ ms.assetid: 019ab066-ae2b-4517-bc1c-d96bb6e8e15e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromMediaChange, CdromMediaChange method [Windows Media Player], CdromMediaChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CdromMediaChange method, IWMPEvents.CdromMediaChange, IWMPEvents::CdromMediaChange, IWMPEventsCdromMediaChange, wmp.iwmpevents_iwmpevents__cdrommediachange, wmp/IWMPEvents::CdromMediaChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -91,11 +89,11 @@ The index of the CD drive corresponds to the index of a <b>Cdrom</b> object in t
 
 
 
-<a href="https://msdn.microsoft.com/ba55ac32-149d-4f7b-a2bb-1fdb0be806cd">IWMPCdromCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563097(v=VS.85).aspx">IWMPCdromCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

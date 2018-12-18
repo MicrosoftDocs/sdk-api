@@ -9,8 +9,6 @@ ms.assetid: d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IETFilter.GetCurrLicenseExpDate, IETFilter::GetCurrLicenseExpDate, IETFilterGetCurrLicenseExpDate, encdec/IETFilter::GetCurrLicenseExpDate, mstv.ietfilter_getcurrlicenseexpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e5bafd2d-0750-4aa6-87e8-22ef3cfdd5ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtractFiles, ExtractFiles method, ExtractFiles method,IMsmMerge interface, IMsmMerge interface,ExtractFiles method, IMsmMerge.ExtractFiles, IMsmMerge::ExtractFiles, _msi_extractfiles_function, mergemod/IMsmMerge::ExtractFiles, setup.imsmmerge_extractfiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 The 
 <b>ExtractFiles</b> method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see  the 
-<a href="https://msdn.microsoft.com/846355d6-32f2-4b04-91dc-acd60445fbd9">ExtractFiles</a> method of the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa369815(v=VS.85).aspx">ExtractFiles</a> method of the 
 <a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
 
 <b>IMsmMerge2::ExtractFiles</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::ExtractFiles</b>      All Mergemod.dll versions.

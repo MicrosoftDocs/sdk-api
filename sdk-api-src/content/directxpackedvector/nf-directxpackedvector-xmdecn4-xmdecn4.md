@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMDECN4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMDECN4, XMDECN4 constructor [DirectX Math Support APIs], XMDECN4 constructor [DirectX Math Support APIs],XMDECN4 structure, XMDECN4 structure [DirectX Math Support APIs],XMDECN4 constructor, XMDECN4.XMDECN4, XMDECN4.XMDECN4(), XMDECN4::XMDECN4, dxmath.xmdecn4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -84,11 +82,11 @@ Default constructor for <a href="https://msdn.microsoft.com/1268ED43-2957-464A-A
 
 
 
-<a href="https://msdn.microsoft.com/1268ED43-2957-464A-A38E-F7AFFC4EEEE9">XMDECN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/3edea240-813d-484a-91bc-cba99ecdbe14">XMDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415270(v=VS.85).aspx">XMDECN4 Constructors</a>
  
 
  

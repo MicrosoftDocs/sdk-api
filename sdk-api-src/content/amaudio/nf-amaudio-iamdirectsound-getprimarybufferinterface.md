@@ -9,8 +9,6 @@ ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

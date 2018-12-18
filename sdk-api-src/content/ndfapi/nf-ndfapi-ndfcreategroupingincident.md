@@ -9,8 +9,6 @@ ms.assetid: 308aa998-5940-4fbd-8bf6-bb14bc907a3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreateGroupingIncident, NdfCreateGroupingIncident function [NDF], ndf.ndfcreategroupingincident, ndfapi/NdfCreateGroupingIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

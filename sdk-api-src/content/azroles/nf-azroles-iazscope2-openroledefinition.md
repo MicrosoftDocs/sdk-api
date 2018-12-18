@@ -9,8 +9,6 @@ ms.assetid: 58b792aa-1432-4b23-8d7a-33606741bf27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleDefinition method, IAzScope2.OpenRoleDefinition, IAzScope2::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleDefinition, security.iazscope2_openroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>OpenRoleDefinition</b> method opens an <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object with the specified name in this scope.
+The <b>OpenRoleDefinition</b> method opens an <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object with the specified name in this scope.
 
 
 ## -parameters
@@ -60,14 +58,14 @@ The <b>OpenRoleDefinition</b> method opens an <a href="https://msdn.microsoft.co
 
 ### -param bstrRoleDefinitionName [in]
 
-A string that contains the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object to open.
+A string that contains the name of the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object to open.
 
 
 ### -param ppRoleDefinitions [out]
 
-The address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object that this method opens.
+The address of a pointer to the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object that this method opens.
 
-When you have finished using the <a href="https://msdn.microsoft.com/en-us/library/Aa377927(v=VS.85).aspx">IAzRoleDefinition</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
 
 
 ## -returns
@@ -76,7 +74,7 @@ When you have finished using the <a href="https://msdn.microsoft.com/en-us/libra
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

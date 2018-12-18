@@ -9,8 +9,6 @@ ms.assetid: b406ef44-0622-4625-a6cf-462b6ea6018d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Online, Online callback, Online callback function [Failover Cluster], PONLINE_ROUTINE, PONLINE_ROUTINE callback function [Failover Cluster], _wolf_online, mscs.online, resapi/Online, resapi/PONLINE_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 
@@ -94,7 +92,7 @@ On input, <i>EventHandle</i> is <b>NULL</b>. On output,
 </td>
 <td width="60%">
 The operation was successful, and the resource is now 
-         <a href="o_gly.htm">online</a>.
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
 
 </td>
 </tr>
@@ -107,7 +105,7 @@ The operation was successful, and the resource is now
 </td>
 <td width="60%">
 The resource was arbitrated with some other systems, and one of the other systems won the arbitration. Only 
-         <a href="q_gly.htm">quorum-capable resources</a> return this 
+         <a href="https://msdn.microsoft.com/en-us/library/Aa371820(v=VS.85).aspx">quorum-capable resources</a> return this 
          value.
 
 </td>

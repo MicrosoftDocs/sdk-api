@@ -9,8 +9,6 @@ ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

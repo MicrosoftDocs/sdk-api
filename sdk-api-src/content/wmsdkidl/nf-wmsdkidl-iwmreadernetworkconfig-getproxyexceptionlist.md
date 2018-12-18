@@ -9,8 +9,6 @@ ms.assetid: 90cf6e58-8666-4bab-974e-a7e999aeddf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProxyExceptionList, GetProxyExceptionList method [windows Media Format], GetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyExceptionList method, IWMReaderNetworkConfig.GetProxyExceptionList, IWMReaderNetworkConfig::GetProxyExceptionList, IWMReaderNetworkConfigGetProxyExceptionList, wmformat.iwmreadernetworkconfig_getproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::GetProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ Pointer to a string that contains a protocol name, such as "http" or "mms". The 
 
 ### -param pwszExceptionList [out]
 
-Pointer to a buffer that receives a string containing the exception list. The returned string is a comma-separated list. For more information, see <a href="https://msdn.microsoft.com/1f6c6bb6-3a42-44da-ab80-e72a19b8d272">SetProxyExceptionList</a>. The list applies only to the protocol specified in <i>pwszProtocol</i>; the reader object supports separate settings for each protocol.
+Pointer to a buffer that receives a string containing the exception list. The returned string is a comma-separated list. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd743547(v=VS.85).aspx">SetProxyExceptionList</a>. The list applies only to the protocol specified in <i>pwszProtocol</i>; the reader object supports separate settings for each protocol.
 
 
 ### -param pcchExceptionList [in, out]
@@ -135,7 +133,7 @@ The size of the buffer passed in is not large enough to hold the return string.
 
 Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pwszExceptionList</i>. The method returns the size of the string in the <i>pcchExceptionList</i> parameter. Allocate the required amount of memory for the string and call the method again. This time, pass a pointer to the allocated buffer in the <i>pwszExceptionList</i> parameter.
 
-For more information, see the Remarks for <a href="https://msdn.microsoft.com/1f6c6bb6-3a42-44da-ab80-e72a19b8d272">SetProxyExceptionList</a>.
+For more information, see the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd743547(v=VS.85).aspx">SetProxyExceptionList</a>.
 
 
 
@@ -145,11 +143,11 @@ For more information, see the Remarks for <a href="https://msdn.microsoft.com/1f
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f6c6bb6-3a42-44da-ab80-e72a19b8d272">IWMReaderNetworkConfig::SetProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743547(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxyExceptionList</a>
  
 
  

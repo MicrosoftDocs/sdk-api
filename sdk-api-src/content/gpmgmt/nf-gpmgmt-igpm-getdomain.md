@@ -9,8 +9,6 @@ ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPM object [GPMC],GetDomain method, GetDomain, GetDomain method [GPMC], GetDomain method [GPMC],GPM object, GetDomain method [GPMC],IGPM interface, IGPM interface [GPMC],GetDomain method, IGPM.GetDomain, IGPM::GetDomain, _win32_igpm_getdomain, gpmc.igpm_getdomain, gpmgmt/IGPM::GetDomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

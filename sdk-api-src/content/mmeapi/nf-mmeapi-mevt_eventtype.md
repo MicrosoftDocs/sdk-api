@@ -9,8 +9,6 @@ ms.assetid: ce2ca2b4-129c-4164-ad0c-de748b4a29aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEVT_EVENTTYPE, MEVT_EVENTTYPE macro [Windows Multimedia], _win32_MEVT_EVENTTYPE, mmeapi/MEVT_EVENTTYPE, multimedia.mevt_eventtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: mmeapi.h
 req.include-header: Windows.h

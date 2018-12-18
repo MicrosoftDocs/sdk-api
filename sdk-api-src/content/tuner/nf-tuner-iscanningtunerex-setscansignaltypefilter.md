@@ -9,8 +9,6 @@ ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -74,7 +72,7 @@ Specifies the modulation types, as a bitwise OR of flags from the <a href="https
 
 ### -param AnalogVideoStandard
 
-Specifies the analog standards, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
+Specifies the analog standards, as a bitwise OR of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration. If the value is 0xFFFFFFFF, the tuner does not filter out any specific analog video standards.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: ff1bae45-2199-4340-a27b-19865d2877f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerEventHandler method, IUIAnimationTimer.SetTimerEventHandler, IUIAnimationTimer::SetTimerEventHandler, SetTimerEventHandler, SetTimerEventHandler method [Windows Animation], SetTimerEventHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimereventhandler, uianimation/IUIAnimationTimer::SetTimerEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8ceed1ae-27f9-4998-b950-52865bfa2f79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_LBBALLOONINFO, TF_LBBALLOONINFO structure [Text Services Framework], _tsf_tf_lbballooninfo_ref, ctfutb/TF_LBBALLOONINFO, tsf.tf_lbballooninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ctfutb.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>TF_LBBALLOONINFO</b> structure contains information about a language bar 
 
 ### -field style
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629054(v=VS.85).aspx">TfLBBalloonStyle</a> values that specify the type of balloon to display.
+Contains one of the <a href="https://msdn.microsoft.com/c79eb490-b950-4d49-bdf9-821f3706446d">TfLBBalloonStyle</a> values that specify the type of balloon to display.
 
 
 ### -field bstrText

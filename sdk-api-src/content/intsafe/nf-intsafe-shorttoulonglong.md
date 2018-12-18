@@ -9,8 +9,6 @@ ms.assetid: e6183208-14c3-4f84-9ff5-a5412f8c762d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShortToULongLong, ShortToULongLong function [Windows Shell], intsafe/ShortToULongLong, shell.ShortToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIP_LOCAL_BINDING, IP_LOCAL_BINDING, IP_LOCAL_BINDING structure [RAS], PIP_LOCAL_BINDING, PIP_LOCAL_BINDING structure pointer [RAS], _mpr_ip_local_binding, routprot/IP_LOCAL_BINDING, routprot/PIP_LOCAL_BINDING, rras.ip_local_binding"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: routprot.h
 req.include-header: 

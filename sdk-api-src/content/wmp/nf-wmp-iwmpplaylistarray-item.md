@@ -9,8 +9,6 @@ ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],item method, IWMPPlaylistArray.item, IWMPPlaylistArray::item, IWMPPlaylistArrayitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_item, wmp/IWMPPlaylistArray::item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -113,11 +111,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce">IWMPPlaylistArray Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563548(v=VS.85).aspx">IWMPPlaylistArray Interface</a>
  
 
  

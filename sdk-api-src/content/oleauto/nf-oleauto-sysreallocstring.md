@@ -9,8 +9,6 @@ ms.assetid: 0207c33b-c065-42bb-8d70-ccdc3fddb338
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_SysReAllocString, automat.sysreallocstring, oleauto/SysReAllocString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

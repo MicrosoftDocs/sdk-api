@@ -9,8 +9,6 @@ ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FhConfigMgr class [Windows API],LoadConfiguration method, IFhConfigMgr interface [Windows API],LoadConfiguration method, IFhConfigMgr.LoadConfiguration, IFhConfigMgr::LoadConfiguration, LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API],FhConfigMgr class, LoadConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

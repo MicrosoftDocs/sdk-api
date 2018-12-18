@@ -9,8 +9,6 @@ ms.assetid: cdf12bcd-3b41-42a6-818b-26294389d4b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_DeviceID method, IWindowsMediaLibrarySharingDevice.get_DeviceID, IWindowsMediaLibrarySharingDevice::get_DeviceID, get_DeviceID, get_DeviceID method [Windows Media Library Sharing Services], get_DeviceID method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_DeviceID, wmlss/IWindowsMediaLibrarySharingDevice::get_DeviceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

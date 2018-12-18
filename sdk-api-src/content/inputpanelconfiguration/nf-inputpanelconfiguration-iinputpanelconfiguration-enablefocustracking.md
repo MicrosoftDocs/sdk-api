@@ -9,8 +9,6 @@ ms.assetid: C20962EF-DB24-43EE-ADA6-4550163F9F73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableFocusTracking, EnableFocusTracking method [Windows Shell], EnableFocusTracking method [Windows Shell],IInputPanelConfiguration interface, IInputPanelConfiguration interface [Windows Shell],EnableFocusTracking method, IInputPanelConfiguration.EnableFocusTracking, IInputPanelConfiguration::EnableFocusTracking, inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking, shell.iinputpanelconfiguration_enablefocustracking
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inputpanelconfiguration.h
 req.include-header: 

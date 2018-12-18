@@ -9,8 +9,6 @@ ms.assetid: 8f2f7f65-7000-4404-8678-ba36c5c97c80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8f2f7f65-7000-4404-8678-ba36c5c97c80, IMFInputTrustAuthority interface [Media Foundation],RequestAccess method, IMFInputTrustAuthority.RequestAccess, IMFInputTrustAuthority::RequestAccess, RequestAccess, RequestAccess method [Media Foundation], RequestAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_requestaccess, mfidl/IMFInputTrustAuthority::RequestAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

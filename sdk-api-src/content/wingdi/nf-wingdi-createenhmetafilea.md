@@ -9,8 +9,6 @@ ms.assetid: 647f83ca-dca3-44af-a594-5f9ba2bd7607
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnhMetaFile, CreateEnhMetaFile function [Windows GDI], CreateEnhMetaFileA, CreateEnhMetaFileW, _win32_CreateEnhMetaFile, gdi.createenhmetafile, wingdi/CreateEnhMetaFile, wingdi/CreateEnhMetaFileA, wingdi/CreateEnhMetaFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

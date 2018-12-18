@@ -9,8 +9,6 @@ ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmodshow.h
 req.include-header: 
@@ -99,7 +97,7 @@ In some cases, the DMO Wrapper filter performs optimizations based on the catego
 
 
 
-<a href="https://msdn.microsoft.com/c85b828c-095d-4991-85a8-65b96529f305">IDMOWrapperFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406848(v=VS.85).aspx">IDMOWrapperFilter Interface</a>
  
 
  

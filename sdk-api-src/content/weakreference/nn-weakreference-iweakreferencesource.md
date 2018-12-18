@@ -9,8 +9,6 @@ ms.assetid: f4b85374-192b-4024-80c2-a46bfebb16c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWeakReferenceSource, IWeakReferenceSource interface [Windows Runtime], IWeakReferenceSource interface [Windows Runtime],described, weakreference/IWeakReferenceSource, winrt.iweakreferencesource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: weakreference.h
 req.include-header: 

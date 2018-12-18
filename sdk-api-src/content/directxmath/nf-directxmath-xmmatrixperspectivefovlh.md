@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveFovLH(float,float,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixPerspectiveFovLH, XMMatrixPerspectiveFovLH, XMMatrixPerspectiveFovLH method [DirectX Math Support APIs], dxmath.xmmatrixperspectivefovlh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

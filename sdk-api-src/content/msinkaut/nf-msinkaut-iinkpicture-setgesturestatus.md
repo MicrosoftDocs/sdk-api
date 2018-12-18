@@ -9,8 +9,6 @@ ms.assetid: 36f3611a-c7d9-49a2-9ead-db98647f6da7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkPicture, IInkPicture interface [Tablet PC],SetGestureStatus method, IInkPicture.SetGestureStatus, IInkPicture::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::SetGestureStatus, tablet.inkpicture_setgesturestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -192,7 +190,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

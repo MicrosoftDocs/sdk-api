@@ -9,8 +9,6 @@ ms.assetid: AC0E0ED0-C8C3-4058-B20D-4F8BB3D83A87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccesswithmessageforwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessWithMessageForWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessWithMessageForWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync, RequestAccessWithMessageForWindowAsync method, RequestAccessWithMessageForWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: efswrtinterop.h
 req.include-header: 

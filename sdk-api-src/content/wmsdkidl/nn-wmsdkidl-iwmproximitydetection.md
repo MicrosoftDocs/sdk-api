@@ -9,8 +9,6 @@ ms.assetid: 0897ad8f-8e06-4de9-840e-1588e0e20c54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -56,7 +54,7 @@ req.redist:
 
 The <b>IWMProximityDetection</b> interface validates a playback device for receiving media data. The validation process confirms that the device is "near" enough on the network to receive media through the Windows Media DRM 10 for Network Devices protocol.
 
-An <b>IWMProximityDetection</b> interface exists for every device registration object. You can obtain a pointer to this interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration</a> interface.
+An <b>IWMProximityDetection</b> interface exists for every device registration object. You can obtain a pointer to this interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface.
 
 
 
@@ -78,7 +76,7 @@ The <b>IWMProximityDetection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90db4712-cf3e-4526-b07b-ea74c521dbc3">StartDetection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757424(v=VS.85).aspx">StartDetection</a>
 </td>
 <td align="left" width="63%">
 Initiates proximity detection.
@@ -92,7 +90,7 @@ Initiates proximity detection.
 
 
 
-The validation state is stored in the device registration database. You can check the validation state for a device by calling <a href="https://msdn.microsoft.com/ce09e6ad-10c0-4cdd-8dee-4faacd958f2b">IWMRegisteredDevice::IsValid</a>.
+The validation state is stored in the device registration database. You can check the validation state for a device by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743695(v=VS.85).aspx">IWMRegisteredDevice::IsValid</a>.
 
 Validation expires after 48 hours.
 

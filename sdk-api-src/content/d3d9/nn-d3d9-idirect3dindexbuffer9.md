@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dindexbuffer9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirect3DIndexBuffer9, IDirect3DIndexBuffer9 interface [Direct3D 9], IDirect3DIndexBuffer9 interface [Direct3D 9],described, bb9d32d9-1059-d4c2-6c8c-e4d5a1170082, d3d9helper/IDirect3DIndexBuffer9, direct3d9.idirect3dindexbuffer9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: D3D9.h

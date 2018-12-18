@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetLanguageID method, ITextFont.SetLanguageID, ITextFont::SetLanguageID, SetLanguageID, SetLanguageID method [Windows Controls], SetLanguageID method [Windows Controls],ITextFont interface, _win32_ITextFont_SetLanguageID, _win32_ITextFont_SetLanguageID_cpp, controls.ITextFont_SetLanguageID, controls._win32_ITextFont_SetLanguageID, tom/ITextFont::SetLanguageID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

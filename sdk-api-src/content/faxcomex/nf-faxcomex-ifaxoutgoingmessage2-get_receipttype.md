@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\rec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],ReceiptType property, IFaxOutgoingMessage2.ReceiptType, IFaxOutgoingMessage2.get_ReceiptType, IFaxOutgoingMessage2::ReceiptType, IFaxOutgoingMessage2::get_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.receipttype, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receipttype_cpp, fax._mfax_faxoutgoingmessage_receipttype, faxcomex/IFaxOutgoingMessage2::ReceiptType, faxcomex/IFaxOutgoingMessage2::get_ReceiptType, get_ReceiptType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,11 +64,11 @@ Specifies the type of delivery report that is sent following an attempted transm
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6468db0-ea8d-4460-b389-43608337bd96">IFaxOutgoingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358984(v=VS.85).aspx">IFaxOutgoingMessage2</a>
  
 
  

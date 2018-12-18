@@ -9,8 +9,6 @@ ms.assetid: 60a9dee9-6311-45b6-8fe9-f916878a64dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flags property [Security], Flags property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Flags property, IX509PolicyServerUrl.Flags, IX509PolicyServerUrl.put_Flags, IX509PolicyServerUrl::Flags, IX509PolicyServerUrl::get_Flags, IX509PolicyServerUrl::put_Flags, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerUrl::Flags, certenroll/IX509PolicyServerUrl::get_Flags, certenroll/IX509PolicyServerUrl::put_Flags, put_Flags, security.ix509policyserverurl_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -74,7 +72,7 @@ When the PsfLocationGroupPolicy and PsfLocationRegistry flags are combined, this
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

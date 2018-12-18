@@ -9,8 +9,6 @@ ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

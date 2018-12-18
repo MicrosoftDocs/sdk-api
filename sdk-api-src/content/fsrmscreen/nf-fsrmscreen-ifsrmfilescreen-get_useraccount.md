@@ -9,8 +9,6 @@ ms.assetid: c47a61b8-3e9b-404f-9100-8e8ccb08ecd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_useraccount, fsrm.ifsrmfilescreen_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

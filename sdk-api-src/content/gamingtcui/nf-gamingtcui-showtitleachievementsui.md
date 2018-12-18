@@ -9,8 +9,6 @@ ms.assetid: 9A637543-1EDF-4065-844B-05E9E2C6300D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShowTitleAchievementsUI, ShowTitleAchievementsUI function, gamingtcui/ShowTitleAchievementsUI, tcui.showtitleachievementsui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

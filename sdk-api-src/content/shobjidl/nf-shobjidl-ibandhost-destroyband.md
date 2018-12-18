@@ -9,8 +9,6 @@ ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

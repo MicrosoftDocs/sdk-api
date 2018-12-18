@@ -9,8 +9,6 @@ ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidEVR</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3b5e272-8c71-4e84-b08f-b277eec643c4">get_Presenter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694539(v=VS.85).aspx">get_Presenter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presenter object for the EVR filter.
@@ -82,7 +80,7 @@ Retrieves the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3aaf310-6c42-4013-a3bf-25f9c42cdf81">get_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694540(v=VS.85).aspx">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Video Control configures the system for optimal video playback.
@@ -91,7 +89,7 @@ Queries whether the Video Control configures the system for optimal video playba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/602d92fc-e948-4cea-9bbf-8968c5e31257">put_Presenter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694541(v=VS.85).aspx">put_Presenter</a>
 </td>
 <td align="left" width="63%">
 Sets the presenter object for the EVR filter.
@@ -100,7 +98,7 @@ Sets the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/399250b6-4f2d-4dbf-b1e8-d32a0673617e">put_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694542(v=VS.85).aspx">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Video Control configures the system for optimal video playback.

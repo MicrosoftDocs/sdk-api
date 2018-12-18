@@ -9,8 +9,6 @@ ms.assetid: 6eb10e03-beb6-4ad3-9b57-4b4be0e265de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HitTestPoint, HitTestPoint method [Direct Write], HitTestPoint method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestPoint method, IDWriteTextLayout.HitTestPoint, IDWriteTextLayout::HitTestPoint, directwrite.IDWriteTextLayout_HitTestPoint, dwrite/IDWriteTextLayout::HitTestPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

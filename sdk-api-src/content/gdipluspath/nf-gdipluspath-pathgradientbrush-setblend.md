@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathGradientBrush class [GDI+],SetBlend method, PathGradientBrush.SetBlend, PathGradientBrush::SetBlend, SetBlend, SetBlend method [GDI+], SetBlend method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_blendPositions_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

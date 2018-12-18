@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRAT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xinput.h
 req.include-header: 

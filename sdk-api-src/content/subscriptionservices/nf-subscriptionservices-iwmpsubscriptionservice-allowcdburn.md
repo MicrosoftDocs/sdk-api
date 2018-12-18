@@ -9,8 +9,6 @@ ms.assetid: a17ab1c3-8208-481f-8566-164e2d817e05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowCDBurn method, IWMPSubscriptionService.allowCDBurn, IWMPSubscriptionService::allowCDBurn, IWMPSubscriptionServiceallowCDBurn, allowCDBurn, allowCDBurn method [Windows Media Player], allowCDBurn method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowCDBurn, wmp.iwmpsubscriptionservice_allowcdburn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 
@@ -109,7 +107,7 @@ Regardless of the Player version, there is no callback mechanism that the backgr
 
 
 
-<a href="https://msdn.microsoft.com/cb9d0f20-d5ca-4db9-adcc-0a803f97f196">IWMPSubscriptionService Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563697(v=VS.85).aspx">IWMPSubscriptionService Interface</a>
  
 
  

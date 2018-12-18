@@ -9,8 +9,6 @@ ms.assetid: 61972ea2-d3ab-4893-8fc6-cd3c10f8584e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPICallCenter interface [TAPI 2.2],get_AgentHandlers method, ITTAPICallCenter.get_AgentHandlers, ITTAPICallCenter::get_AgentHandlers, _tapi3_ittapicallcenter_get_agenthandlers, get_AgentHandlers, get_AgentHandlers method [TAPI 2.2], get_AgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, tapi3.ittapicallcenter_get_agenthandlers, tapi3cc/ITTAPICallCenter::get_AgentHandlers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

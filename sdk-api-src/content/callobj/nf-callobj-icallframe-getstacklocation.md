@@ -9,8 +9,6 @@ ms.assetid: 1e6b5e52-78bb-47cd-9019-efb5c0860a6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStackLocation, GetStackLocation method [COM], GetStackLocation method [COM],ICallFrame interface, ICallFrame interface [COM],GetStackLocation method, ICallFrame.GetStackLocation, ICallFrame::GetStackLocation, _com_icallframe_getstacklocation, callobj/ICallFrame::GetStackLocation, com.icallframe_getstacklocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
@@ -74,7 +72,7 @@ This method returns the requested stack location.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

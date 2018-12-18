@@ -9,8 +9,6 @@ ms.assetid: 6495d289-b9b8-42cb-b00b-cde53d3dc91c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND_REPLY, ARP_SEND_REPLY structure [IP Helper], ipexport/*PARP_SEND_REPLY, ipexport/ARP_SEND_REPLY, iphlp.arp_send_reply"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h

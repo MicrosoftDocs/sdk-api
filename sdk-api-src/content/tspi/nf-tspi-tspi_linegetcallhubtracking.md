@@ -9,8 +9,6 @@ ms.assetid: c8fd8070-7393-4a59-9416-63acdd94f4ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetCallHubTracking, TSPI_lineGetCallHubTracking function [TAPI 2.2], _tspi_tspi_linegetcallhubtracking, tspi.tspi_linegetcallhubtracking, tspi/TSPI_lineGetCallHubTracking
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

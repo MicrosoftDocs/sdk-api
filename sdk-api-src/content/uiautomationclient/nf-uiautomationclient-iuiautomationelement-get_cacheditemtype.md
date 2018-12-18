@@ -9,8 +9,6 @@ ms.assetid: 66b9180c-ebde-4e5a-b431-f81a094a0ee4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedItemType property [Windows Accessibility], CachedItemType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedItemType property, IUIAutomationElement.CachedItemType, IUIAutomationElement.get_CachedItemType, IUIAutomationElement::CachedItemType, IUIAutomationElement::get_CachedItemType, get_CachedItemType, uiauto.uiauto_IUIAutomationElement_CachedItemType, uiauto_IUIAutomationElement_CachedItemType, uiautomationclient/IUIAutomationElement::CachedItemType, uiautomationclient/IUIAutomationElement::get_CachedItemType, winauto.uiauto_IUIAutomationElement_CachedItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

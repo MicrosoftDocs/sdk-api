@@ -9,8 +9,6 @@ ms.assetid: ed954545-f58f-4841-9ffd-185350f76388
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], IMSVidPlayback interface [Microsoft TV Technologies],described, IMSVidPlaybackInterface, mstv.imsvidplayback, segment/IMSVidPlayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidPlayback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41aad247-1f04-4245-89df-8ac527926307">get_CanStep</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694589(v=VS.85).aspx">get_CanStep</a>
 </td>
 <td align="left" width="63%">
 Queries whether the input source can step frame by frame.
@@ -82,7 +80,7 @@ Queries whether the input source can step frame by frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08facda5-3c17-4dac-b06f-6032f9490087">get_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694590(v=VS.85).aspx">get_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Returns the current playback position of the source.
@@ -91,7 +89,7 @@ Returns the current playback position of the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ea9ad29-9903-41ac-9be8-acb41cec10d1">get_EnableResetOnStop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694591(v=VS.85).aspx">get_EnableResetOnStop</a>
 </td>
 <td align="left" width="63%">
 Indicates how playback will resume if the graph is rebuilt.
@@ -100,7 +98,7 @@ Indicates how playback will resume if the graph is rebuilt.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a559c0b4-ed63-47ef-b99a-866c87939d5b">get_Length</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694592(v=VS.85).aspx">get_Length</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the playback source.
@@ -109,7 +107,7 @@ Retrieves the length of the playback source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a27508c-485c-4371-a997-05fdfb77d17b">get_PositionMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694593(v=VS.85).aspx">get_PositionMode</a>
 </td>
 <td align="left" width="63%">
 Indicates how position values are interpreted by this interface.
@@ -118,7 +116,7 @@ Indicates how position values are interpreted by this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f91c728-23c7-4559-9c72-ddd92b0b0212">get_Rate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694594(v=VS.85).aspx">get_Rate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the playback rate.
@@ -127,7 +125,7 @@ Retrieves the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/430528b7-3b3a-4df9-8093-9b0f9262f106">Pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694595(v=VS.85).aspx">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the playback device.
@@ -136,7 +134,7 @@ Pauses the playback device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e9e0128-5609-4a9f-bbfc-a29a2174c5d0">put_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694596(v=VS.85).aspx">put_CurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Seeks to a specified position in the source.
@@ -145,7 +143,7 @@ Seeks to a specified position in the source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2b4285c-3cf8-40dc-87eb-57419ef7343e">put_EnableResetOnStop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694597(v=VS.85).aspx">put_EnableResetOnStop</a>
 </td>
 <td align="left" width="63%">
 Specifies how playback will resume if the graph is rebuilt.
@@ -154,7 +152,7 @@ Specifies how playback will resume if the graph is rebuilt.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2ff0b7e-c35d-4ea9-92de-a31654781687">put_PositionMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694598(v=VS.85).aspx">put_PositionMode</a>
 </td>
 <td align="left" width="63%">
 Specifies how position values will be interpreted by this interface.
@@ -163,7 +161,7 @@ Specifies how position values will be interpreted by this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3542d7c-6333-4832-a24a-0b778ea83a4c">put_Rate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694599(v=VS.85).aspx">put_Rate</a>
 </td>
 <td align="left" width="63%">
 Sets the playback rate.
@@ -172,7 +170,7 @@ Sets the playback rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58374819-82dd-4ffe-8cd7-ad51ea0d7207">Run</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694600(v=VS.85).aspx">Run</a>
 </td>
 <td align="left" width="63%">
 Runs the playback device.
@@ -181,7 +179,7 @@ Runs the playback device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e971571-61f4-4b24-81a7-45fa17b6b785">Step</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694601(v=VS.85).aspx">Step</a>
 </td>
 <td align="left" width="63%">
 Steps through the video stream by a specified number of frames.
@@ -190,7 +188,7 @@ Steps through the video stream by a specified number of frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20262521-bb9c-4e37-b89c-8c439df50ed4">Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694602(v=VS.85).aspx">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the playback device.

@@ -9,8 +9,6 @@ ms.assetid: c216adf1-390c-45cc-acae-645fe29f55de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],Preroll method, IWMReaderAdvanced2.Preroll, IWMReaderAdvanced2::Preroll, IWMReaderAdvanced2Preroll, Preroll, Preroll method [windows Media Format], Preroll method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_preroll, wmsdkidl/IWMReaderAdvanced2::Preroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -92,7 +90,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method can be called before the application calls <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a> to begin buffering data in advance. The parameters here must be set to the same values as those that are passed to <b>Start</b> when it is called. If the parameters are different, <b>Start</b> will do rebuffering.
+This method can be called before the application calls <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">Start</a> to begin buffering data in advance. The parameters here must be set to the same values as those that are passed to <b>Start</b> when it is called. If the parameters are different, <b>Start</b> will do rebuffering.
 
 It is important to allow sufficient time for the prerolling (buffering data) for the reader to be completed before calling <b>Start</b>. When prerolling local files, 6 seconds normally is sufficient. When prerolling files over the Internet, allow more time before calling <b>Start</b>. If insufficient time is allowed, the effect will be a longer <b>Start</b> time when <b>Start</b> is called.
 
@@ -104,7 +102,7 @@ It is important to allow sufficient time for the prerolling (buffering data) for
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
  
 
  

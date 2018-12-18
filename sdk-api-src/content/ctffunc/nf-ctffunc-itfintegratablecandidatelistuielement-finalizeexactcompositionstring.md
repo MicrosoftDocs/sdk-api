@@ -9,8 +9,6 @@ ms.assetid: 1A81C1D7-2D7A-41A0-9DB7-0F30AE610051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -104,7 +102,7 @@ The <b>FinalizeExactCompositionString</b> method enables an app to tell the text
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
  
 
  

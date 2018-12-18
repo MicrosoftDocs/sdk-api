@@ -9,8 +9,6 @@ ms.assetid: 65947bdb-1165-4e5d-b3ca-1c54cd50166e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidCpy, SnmpUtilOidCpy function [SNMP], _snmp_snmputiloidcpy, snmp.snmputiloidcpy, snmp/SnmpUtilOidCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,13 +62,13 @@ The
 ### -param pOidDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the copy.
 
 
 ### -param pOidSrc [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to copy.
 
 
 ## -returns

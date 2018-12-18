@@ -9,8 +9,6 @@ ms.assetid: 9C9DFECD-0EC0-446C-8CCC-BB7979B01575
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionEffect, IDCompositionEffect interface [DirectComposition], IDCompositionEffect interface [DirectComposition],described, dcomp/IDCompositionEffect, directcomp.idcompositioneffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -63,7 +61,7 @@ Represents a bitmap effect that modifies the rasterization of a visual's subtree
 
 
 
-More than one effect can be simultaneously applied to a visual by using the <a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a> interface.
+More than one effect can be simultaneously applied to a visual by using the <a href="https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx">IDCompositionEffectGroup</a> interface.
 
 
 
@@ -73,7 +71,7 @@ More than one effect can be simultaneously applied to a visual by using the <a h
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

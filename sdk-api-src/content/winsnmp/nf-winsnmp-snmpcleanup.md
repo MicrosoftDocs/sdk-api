@@ -9,8 +9,6 @@ ms.assetid: 348f06e6-b408-4962-a0bc-8ff3e2ee21fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpCleanup, SnmpCleanup function [SNMP], _snmp_snmpcleanup, snmp.snmpcleanup, winsnmp/SnmpCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

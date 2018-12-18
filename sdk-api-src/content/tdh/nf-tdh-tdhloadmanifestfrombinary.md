@@ -9,8 +9,6 @@ ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\has
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxIncomingMessage2 interface, IFaxIncomingMessage2 interface [Fax Service],HasCoverPage property, IFaxIncomingMessage2.HasCoverPage, IFaxIncomingMessage2.get_HasCoverPage, IFaxIncomingMessage2.put_HasCoverPage, IFaxIncomingMessage2::HasCoverPage, IFaxIncomingMessage2::get_HasCoverPage, IFaxIncomingMessage2::put_HasCoverPage, _mfax_faxincomingmessage.hascoverpage, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_hascoverpage_cpp, fax._mfax_faxincomingmessage_hascoverpage, faxcomex/IFaxIncomingMessage2::HasCoverPage, faxcomex/IFaxIncomingMessage2::get_HasCoverPage, faxcomex/IFaxIncomingMessage2::put_HasCoverPage, put_HasCoverPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,9 +65,9 @@ A flag that indicates whether the fax has a cover page.
 
 
 
-A received message has a VARIANT_FALSE value when it arrives. A <a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">routing assistant</a> application can set this to VARIANT_TRUE when it is reassigned. 
+A received message has a VARIANT_FALSE value when it arrives. A <a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">routing assistant</a> application can set this to VARIANT_TRUE when it is reassigned. 
 
-A change to this value is not committed to the server until <a href="https://msdn.microsoft.com/6778fa8e-6abb-40c3-92bc-cc98dd20fba4">IFaxIncomingMessage2::Save</a> is called.
+A change to this value is not committed to the server until <a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">IFaxIncomingMessage2::Save</a> is called.
 
 
 
@@ -79,11 +77,11 @@ A change to this value is not committed to the server until <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3dc429e-1470-4e7d-8cd5-9cadb0052051">IFaxIncomingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358995(v=VS.85).aspx">IFaxIncomingMessage2</a>
  
 
  

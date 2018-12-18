@@ -9,8 +9,6 @@ ms.assetid: 35c28180-b60c-4dc1-81ce-0ce012f96525
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule2, INetFwRule2 interface [ICS/ICF], INetFwRule2 interface [ICS/ICF],described, ics.inetfwrule2, netfw/INetFwRule2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

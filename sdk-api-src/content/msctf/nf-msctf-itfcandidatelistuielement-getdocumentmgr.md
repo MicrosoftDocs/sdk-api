@@ -9,8 +9,6 @@ ms.assetid: def8e85d-8180-4ad4-9d70-07adef0ce5fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetDocumentMgr method, ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

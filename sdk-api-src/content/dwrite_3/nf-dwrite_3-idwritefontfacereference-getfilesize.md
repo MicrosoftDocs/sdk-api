@@ -9,8 +9,6 @@ ms.assetid: 7988e724-2ccb-b182-8262-dacee1aa1f96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileSize method, IDWriteFontFaceReference.GetFileSize, IDWriteFontFaceReference::GetFileSize, directwrite.idwritefontfacereference_getfilesize, dwrite_3/IDWriteFontFaceReference::GetFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ Returns the total size of the font face in bytes. If the locality is remote, thi
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

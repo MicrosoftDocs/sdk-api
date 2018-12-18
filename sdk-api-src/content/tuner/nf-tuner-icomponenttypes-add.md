@@ -9,8 +9,6 @@ ms.assetid: 157f8d81-dbbf-44a7-9786-0758d3c89634
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],Add method, IComponentTypes.Add, IComponentTypes::Add, IComponentTypesAdd, mstv.icomponenttypes_add, tuner/IComponentTypes::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

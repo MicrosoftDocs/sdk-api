@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getextendedlistviews
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetExtendedListViewStyle, ListView_GetExtendedListViewStyle macro [Windows Controls], _win32_ListView_GetExtendedListViewStyle, _win32_ListView_GetExtendedListViewStyle_cpp, commctrl/ListView_GetExtendedListViewStyle, controls.ListView_GetExtendedListViewStyle, controls._win32_ListView_GetExtendedListViewStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the extended styles that are currently in use for a given list-view control
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 

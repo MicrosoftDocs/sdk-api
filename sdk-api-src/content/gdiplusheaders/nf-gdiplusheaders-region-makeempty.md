@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

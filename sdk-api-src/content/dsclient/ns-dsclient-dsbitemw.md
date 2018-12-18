@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.DSBITEMW
+UID: NS:dsclient.__unnamed_struct_7
 title: DSBITEMW
 author: windows-sdk-content
 description: Contains data about an item in the Active Directory container browser dialog box.
@@ -7,10 +7,8 @@ old-location: ad\dsbitem.htm
 tech.root: ad
 ms.assetid: 580b8aea-8411-41de-a2d9-1c3e3b35dd5a
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDSBITEMW, DSBF_DISPLAYNAME, DSBF_ICONLOCATION, DSBF_STATE, DSBITEM, DSBITEM structure [Active Directory], DSBITEMA, DSBITEMW, DSBS_CHECKED, DSBS_HIDDEN, DSBS_ROOT, PDSBITEM, PDSBITEM structure pointer [Active Directory], _glines_dsbitem, ad.dsbitem, dsclient/DSBITEM, dsclient/DSBITEMA, dsclient/DSBITEMW, dsclient/PDSBITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
@@ -151,7 +149,7 @@ Pointer to a null-terminated string that contains the display name of the item. 
 
 ### -field szIconLocation
 
-Pointer to a null-terminated string that contains the name of an .exe, .dll, or .ico file that contains the icon to display for the item. This can be any file type that can be passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a> function. The index for this icon is specified in <b>iIconResID</b>. To modify the icon displayed for the item, copy the icon source file name into this member, set  <b>iIconResID</b> to the zero-based index of the icon, set the <b>DSBF_ICONLOCATION</b> flag in  the <b>dwMask</b> member, and return a nonzero value from <a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a>.
+Pointer to a null-terminated string that contains the name of an .exe, .dll, or .ico file that contains the icon to display for the item. This can be any file type that can be passed to the <a href="_win32_extracticon_cpp">ExtractIcon</a> function. The index for this icon is specified in <b>iIconResID</b>. To modify the icon displayed for the item, copy the icon source file name into this member, set  <b>iIconResID</b> to the zero-based index of the icon, set the <b>DSBF_ICONLOCATION</b> flag in  the <b>dwMask</b> member, and return a nonzero value from <a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a>.
 
 
 ### -field iIconResID
@@ -219,7 +217,7 @@ The <b>DSBS_ROOT</b> flag in the <b>dwState</b> member contains valid data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776416(v=VS.85).aspx">ExtractIcon</a>
+<a href="_win32_extracticon_cpp">ExtractIcon</a>
  
 
  

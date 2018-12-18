@@ -9,8 +9,6 @@ ms.assetid: 2f370d6f-4670-401e-840e-11f775dbd873
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmSubLayerEnum0, FwpmSubLayerEnum0 function [Filtering], fwp.fwpmsublayerenum0_func, fwpmu/FwpmSubLayerEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

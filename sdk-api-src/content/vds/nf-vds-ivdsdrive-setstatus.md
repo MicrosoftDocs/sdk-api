@@ -9,8 +9,6 @@ ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

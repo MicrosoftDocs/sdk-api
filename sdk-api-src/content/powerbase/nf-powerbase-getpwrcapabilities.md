@@ -7,10 +7,8 @@ old-location: base\getpwrcapabilities.htm
 tech.root: power
 ms.assetid: bb5cec5f-8d45-4158-824a-023f92af9b69
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 
@@ -62,7 +60,7 @@ Retrieves information about the system power capabilities.
 ### -param lpspc [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a> structure that receives the information.
+<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a> structure that receives the information.
 
 
 ## -returns
@@ -104,7 +102,7 @@ For more information on using PowrProf.h, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a>
  
 
  

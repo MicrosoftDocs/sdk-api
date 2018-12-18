@@ -9,8 +9,6 @@ ms.assetid: dde5b3c8-ea22-403c-ae69-05dc7f2efdda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncServices interface [Windows Media Player],get_deviceCount method, IWMPSyncServices.get_deviceCount, IWMPSyncServices::get_deviceCount, IWMPSyncServicesget_deviceCount, get_deviceCount, get_deviceCount method [Windows Media Player], get_deviceCount method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_get_devicecount, wmp/IWMPSyncServices::get_deviceCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,7 +119,7 @@ This method may return devices that have been connected previously, but that do 
 
 
 
-<a href="https://msdn.microsoft.com/57db3646-2f79-4087-98b2-2bc9d2f3c866">IWMPSyncServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563748(v=VS.85).aspx">IWMPSyncServices Interface</a>
  
 
  

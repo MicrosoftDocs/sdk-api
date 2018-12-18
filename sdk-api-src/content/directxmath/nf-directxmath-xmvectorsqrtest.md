@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSqrtEst(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSqrtEst, XMVectorSqrtEst, XMVectorSqrtEst method [DirectX Math Support APIs], dxmath.xmvectorsqrtest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -123,7 +121,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/485ee90a-33a5-480c-8274-a66263a3edf1">XMVectorSqrt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421356(v=VS.85).aspx">XMVectorSqrt</a>
  
 
  

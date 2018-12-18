@@ -9,8 +9,6 @@ ms.assetid: 81576452-47bf-4732-a09f-dd1f9e2689c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIScsiIKEInfoA, GetIscsiIKEInfo, GetIscsiIKEInfo function [iSCSI Discovery Library API], GetIscsiIKEInfoA, GetIscsiIKEInfoW, iscsidisc.getiscsiikeinfo, iscsidsc/GetIscsiIKEInfo, iscsidsc/GetIscsiIKEInfoA, iscsidsc/GetIscsiIKEInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
@@ -77,7 +75,7 @@ This value is reserved.
 
 ### -param AuthInfo [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a> structure that contains data specifying the authentication method. Currently, only the <b>IKE_AUTHENTICATION_PRESHARED_KEY_METHOD</b> is supported.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a> structure that contains data specifying the authentication method. Currently, only the <b>IKE_AUTHENTICATION_PRESHARED_KEY_METHOD</b> is supported.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: b47fc5ea-741d-4e47-baad-afeb659f1079
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice2, IWMPSyncDevice2 interface [Windows Media Player], IWMPSyncDevice2 interface [Windows Media Player],described, IWMPSyncDevice2Interface, wmp.iwmpsyncdevice2, wmp/IWMPSyncDevice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -60,7 +58,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice2</b> interface inherits from <a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice</a>. <b>IWMPSyncDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice</a>. <b>IWMPSyncDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMPSyncDevice2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/664e3e12-125b-4e11-bab5-44f51650983e">setItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563712(v=VS.85).aspx">setItemInfo</a>
 </td>
 <td align="left" width="63%">
 Specifies an attribute value for a device.
@@ -84,7 +82,7 @@ Specifies an attribute value for a device.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice</a>.
+Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice</a>.
 	
 
 
@@ -93,7 +91,7 @@ Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> th
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice</a>
 
 
 

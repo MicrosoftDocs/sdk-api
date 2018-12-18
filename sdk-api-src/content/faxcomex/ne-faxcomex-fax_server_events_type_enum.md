@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_61t9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FAX_SERVER_EVENTS_TYPE_ENUM, FAX_SERVER_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_server_events_type_enum, fax._mfax_fax_server_events_type_enum, faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM, faxcomex/fsetACTIVITY, faxcomex/fsetCONFIG, faxcomex/fsetDEVICE_STATUS, faxcomex/fsetFXSSVC_ENDED, faxcomex/fsetINCOMING_CALL, faxcomex/fsetIN_ARCHIVE, faxcomex/fsetIN_QUEUE, faxcomex/fsetNONE, faxcomex/fsetOUT_ARCHIVE, faxcomex/fsetOUT_QUEUE, faxcomex/fsetQUEUE_STATE, fsetACTIVITY, fsetCONFIG, fsetDEVICE_STATUS, fsetFXSSVC_ENDED, fsetINCOMING_CALL, fsetIN_ARCHIVE, fsetIN_QUEUE, fsetNONE, fsetOUT_ARCHIVE, fsetOUT_QUEUE, fsetQUEUE_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 
@@ -117,13 +115,13 @@ The client requests notifications when there is an incoming call.
 
 
 
-The following table lists the <a href="https://msdn.microsoft.com/en-us/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> methods called by each member.
+The following table lists the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> methods called by each member.
 
 <table class="clsStd">
 <tr>
 <th>Name</th>
 <th>
-<a href="https://msdn.microsoft.com/en-us/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> method called</th>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> method called</th>
 </tr>
 <tr>
 <td>
@@ -433,7 +431,7 @@ fsetINCOMING_CALL
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a>
+<a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a>
  
 
  

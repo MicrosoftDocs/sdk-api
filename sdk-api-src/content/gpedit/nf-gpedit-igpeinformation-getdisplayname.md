@@ -7,10 +7,8 @@ old-location: policy\igpeinformation_getdisplayname.htm
 tech.root: policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDisplayName method, IGPEInformation.GetDisplayName, IGPEInformation::GetDisplayName, _win32_igpeinformation_getdisplayname, gpedit/IGPEInformation::GetDisplayName, policy.igpeinformation_getdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

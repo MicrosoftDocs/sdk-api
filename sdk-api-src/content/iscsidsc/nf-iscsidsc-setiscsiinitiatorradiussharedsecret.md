@@ -9,8 +9,6 @@ ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

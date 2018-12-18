@@ -9,8 +9,6 @@ ms.assetid: 40468bf2-0e91-448b-a2e5-b84b786c67a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -67,7 +65,7 @@ The
 ### -param pAgentMgmtData [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> objects (structures). The number of objects, and the type and description of each object, are in accordance with RFC 1213. For more information, see the following Remarks section.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a> objects (structures). The number of objects, and the type and description of each object, are in accordance with RFC 1213. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -100,7 +98,7 @@ Note that an SNMP extension agent should not update the memory pointed to by the
 
 
 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 9d948df6-6cdf-4283-a2af-3acd47937889
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IXDSCodec.GetCurrLicenseExpDate, IXDSCodec::GetCurrLicenseExpDate, IXDSCodecGetCurrLicenseExpDate, encdec/IXDSCodec::GetCurrLicenseExpDate, mstv.ixdscodec_getcurrlicenseexpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

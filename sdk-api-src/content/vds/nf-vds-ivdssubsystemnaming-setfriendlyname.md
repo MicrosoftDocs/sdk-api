@@ -9,8 +9,6 @@ ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

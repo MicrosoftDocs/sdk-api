@@ -9,8 +9,6 @@ ms.assetid: ba3b25e8-ceaa-451c-84ad-661692a2f7cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentColumnSpan property [Windows Accessibility], CurrentColumnSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentColumnSpan property, IUIAutomationGridItemPattern.CurrentColumnSpan, IUIAutomationGridItemPattern.get_CurrentColumnSpan, IUIAutomationGridItemPattern::CurrentColumnSpan, IUIAutomationGridItemPattern::get_CurrentColumnSpan, get_CurrentColumnSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan, uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::CurrentColumnSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentColumnSpan, winauto.uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

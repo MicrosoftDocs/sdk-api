@@ -9,8 +9,6 @@ ms.assetid: ef6d8289-3a8a-4ec1-89a8-b1b52e311d63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTypography, CreateTypography method [Direct Write], CreateTypography method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTypography method, IDWriteFactory.CreateTypography, IDWriteFactory::CreateTypography, directwrite.IDWriteFactory_CreateTypography, dwrite/IDWriteFactory::CreateTypography
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

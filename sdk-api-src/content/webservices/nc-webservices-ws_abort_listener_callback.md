@@ -9,8 +9,6 @@ ms.assetid: 6105641e-72de-4826-a54d-23e877f0e6d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ABORT_LISTENER_CALLBACK, WS_ABORT_LISTENER_CALLBACK callback, WS_ABORT_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_ABORT_LISTENER_CALLBACK, wsw.ws_abort_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/894a325b-53ac-4f45-ac24-87ed3a40b03d">WsAbortListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

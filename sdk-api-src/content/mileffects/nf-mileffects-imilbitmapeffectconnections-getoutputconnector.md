@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getout
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputConnector, GetOutputConnector method [WPF Bitmap Effects], GetOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetOutputConnector method, IMILBitmapEffectConnections.GetOutputConnector, IMILBitmapEffectConnections::GetOutputConnector, _wibe_imilbitmapeffectconnections_getoutputconnector, mileffects/IMILBitmapEffectConnections::GetOutputConnector, wibe._wibe_imilbitmapeffectconnections_getoutputconnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

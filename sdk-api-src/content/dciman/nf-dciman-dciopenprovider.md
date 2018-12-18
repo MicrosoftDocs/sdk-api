@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

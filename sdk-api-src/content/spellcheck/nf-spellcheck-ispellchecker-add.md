@@ -9,8 +9,6 @@ ms.assetid: d600a57e-7191-4a82-8004-026a04ef94ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Internationalization for Windows Applications], Add method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Add method, ISpellChecker.Add, ISpellChecker::Add, intl.ispellchecker_add, spellcheck/ISpellChecker::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

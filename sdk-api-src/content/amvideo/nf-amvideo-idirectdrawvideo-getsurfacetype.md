@@ -9,8 +9,6 @@ ms.assetid: f5d5c608-1890-43f8-bdf3-3fcb0c6a2f5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSurfaceType, GetSurfaceType method [DirectShow], GetSurfaceType method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceType method, IDirectDrawVideo.GetSurfaceType, IDirectDrawVideo::GetSurfaceType, IDirectDrawVideoGetSurfaceType, amvideo/IDirectDrawVideo::GetSurfaceType, dshow.idirectdrawvideo_getsurfacetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -160,7 +158,7 @@ It is not always easy to discover which kind of surface is being used by looking
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

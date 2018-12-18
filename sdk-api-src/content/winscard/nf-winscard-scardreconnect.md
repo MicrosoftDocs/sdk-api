@@ -9,8 +9,6 @@ ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCARD_LEAVE_CARD, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_RESET_CARD, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCARD_UNPOWER_CARD, SCardReconnect, SCardReconnect function [Security], _smart_scardreconnect, security.scardreconnect, winscard/SCardReconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

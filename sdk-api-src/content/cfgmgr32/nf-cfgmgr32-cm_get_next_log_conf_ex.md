@@ -9,8 +9,6 @@ ms.assetid: 590baeb8-9234-4895-a05b-1917b2ee0155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Next_Log_Conf_Ex, CM_Get_Next_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Log_Conf_Ex, cfgmgrfn_99fe9088-8c83-4fd5-854a-40f92c412d0f.xml, devinst.cm_get_next_log_conf_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

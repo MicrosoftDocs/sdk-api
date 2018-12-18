@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4Less(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4Less, XMVector4Less, XMVector4Less method [DirectX Math Support APIs], dxmath.xmvector4less
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

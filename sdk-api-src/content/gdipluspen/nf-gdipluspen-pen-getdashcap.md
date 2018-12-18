@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\get
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDashCap, GetDashCap method [GDI+], GetDashCap method [GDI+],Pen class, Pen class [GDI+],GetDashCap method, Pen.GetDashCap, Pen::GetDashCap, _gdiplus_CLASS_Pen_GetDashCap_, gdiplus._gdiplus_CLASS_Pen_GetDashCap_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

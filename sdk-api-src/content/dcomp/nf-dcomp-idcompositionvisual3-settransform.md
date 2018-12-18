@@ -9,8 +9,6 @@ ms.assetid: 1deb9c84-1a5b-5dac-af0f-ae6b49a9c473
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetTransform method, IDCompositionVisual3.SetTransform, IDCompositionVisual3::SetTransform, IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F &), IDCompositionVisual3::SetTransform(const D2D_MATRIX_4X4_F&), SetTransform, SetTransform method [DirectComposition], SetTransform method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetTransform, directcomp.idcompositionvisual3_settransform_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -94,19 +92,19 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 
-<a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx">IDCompositionMatrixTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx">IDCompositionRotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
 
 
 
@@ -114,15 +112,15 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 
-<a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx">IDCompositionTranslateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7bf4e6f-119b-2122-1103-d6ab240121c9">IDCompositionVisual3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904490(v=VS.85).aspx">IDCompositionVisual3</a>
 
 
 

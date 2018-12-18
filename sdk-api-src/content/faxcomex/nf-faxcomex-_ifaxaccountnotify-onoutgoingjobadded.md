@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onoutg
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingJobAdded, OnOutgoingJobAdded, OnOutgoingJobAdded method [Fax Service], OnOutgoingJobAdded method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingJobAdded method, _IFaxAccountNotify.OnOutgoingJobAdded, _IFaxAccountNotify::OnOutgoingJobAdded, _mfax_ifaxaccountnotify_onoutgoingjobadded, fax._mfax_ifaxaccountnotify_onoutgoingjobadded, faxcomex/_IFaxAccountNotify::OnOutgoingJobAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -61,9 +59,9 @@ Called by the fax service when an outgoing fax job is added to the job queue for
 
 ### -param pFaxAccount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>*</b>
 
-A <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 ### -param bstrJobId [in]
@@ -98,7 +96,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/10867869-66bb-4e17-a9b3-7e943fe5f510">IFaxAccountNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a>
  
 
  

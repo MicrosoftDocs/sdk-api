@@ -9,8 +9,6 @@ ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmSubLayerGetByKey0, FwpmSubLayerGetByKey0 function [Filtering], fwp.fwpmsublayergetbykey0_func, fwpmu/FwpmSubLayerGetByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

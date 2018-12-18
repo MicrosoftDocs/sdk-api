@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3InverseRotate(XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3InverseRotate, XMVector3InverseRotate, XMVector3InverseRotate method [DirectX Math Support APIs], dxmath.xmvector3inverserotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

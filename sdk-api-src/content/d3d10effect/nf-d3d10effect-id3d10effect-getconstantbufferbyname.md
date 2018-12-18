@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByName method, ID3D10Effect.GetConstantBufferByName, ID3D10Effect::GetConstantBufferByName, d3d10effect/ID3D10Effect::GetConstantBufferByName, direct3d10.id3d10effect_getconstantbufferbyname, ee9f35f2-1d6f-f921-a7a3-825ac2b49866
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

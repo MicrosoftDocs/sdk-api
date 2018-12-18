@@ -9,8 +9,6 @@ ms.assetid: 04db1553-1c9a-414e-a2b8-b087dd44ef55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SetupInstallFile, SetupInstallFile function [Setup API], SetupInstallFileA, SetupInstallFileW, _setupapi_setupinstallfile, setup.setupinstallfile, setupapi/SetupInstallFile, setupapi/SetupInstallFileA, setupapi/SetupInstallFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

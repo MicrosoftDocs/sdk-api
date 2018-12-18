@@ -9,8 +9,6 @@ ms.assetid: ffbbc857-ddcc-4625-b591-b95a256d40ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetTime method, IAMMediaTypeSample.GetTime, IAMMediaTypeSample::GetTime, IAMMediaTypeSampleGetTime, amstream/IAMMediaTypeSample::GetTime, dshow.iammediatypesample_gettime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -128,7 +126,7 @@ The sample has a valid start time but no stop time.
 
 
 
-<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
  
 
  

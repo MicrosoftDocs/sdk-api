@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_setxml.htm
 tech.root: pla
 ms.assetid: 10bffd54-990f-412f-baae-b8ab621b02b8
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetXml method, IDataCollectorSet.SetXml, IDataCollectorSet::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollectorSet interface, base.idatacollectorset_setxml, pla.idatacollectorset_setxml, pla/IDataCollectorSet::SetXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

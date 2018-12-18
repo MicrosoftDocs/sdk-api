@@ -9,8 +9,6 @@ ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

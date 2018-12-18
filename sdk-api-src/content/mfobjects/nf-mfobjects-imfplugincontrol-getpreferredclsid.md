@@ -9,8 +9,6 @@ ms.assetid: c78843ed-b666-4b81-a7ed-66e514d0d342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [Media Foundation], GetPreferredClsid method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetPreferredClsid method, IMFPluginControl.GetPreferredClsid, IMFPluginControl::GetPreferredClsid, mf.imfplugincontrol_imfplugincontrol__getpreferredclsid, mfobjects/IMFPluginControl::GetPreferredClsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

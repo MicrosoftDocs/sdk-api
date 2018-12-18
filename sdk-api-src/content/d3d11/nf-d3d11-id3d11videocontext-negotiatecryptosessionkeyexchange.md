@@ -9,8 +9,6 @@ ms.assetid: 76160B03-6F7F-4618-859B-0A7E73540CA4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],NegotiateCryptoSessionKeyExchange method, ID3D11VideoContext.NegotiateCryptoSessionKeyExchange, ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange method [Media Foundation], NegotiateCryptoSessionKeyExchange method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::NegotiateCryptoSessionKeyExchange, mf.id3d11videocontext_negotiatecryptosessionkeyexchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 963ec564-8a7e-5916-f630-844bd37af051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFaceIndex method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFontFaceIndex method, IDWriteFontFaceReference.GetFontFaceIndex, IDWriteFontFaceReference::GetFontFaceIndex, directwrite.idwritefontfacereference_getfontfaceindex, dwrite_3/IDWriteFontFaceReference::GetFontFaceIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -78,7 +76,7 @@ Type: <b>UINT32</b>
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

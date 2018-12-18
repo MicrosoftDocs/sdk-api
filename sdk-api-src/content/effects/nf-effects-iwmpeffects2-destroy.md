@@ -9,8 +9,6 @@ ms.assetid: dad290e6-a3be-47f0-a893-7a60eebc2a64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Destroy, Destroy method [Windows Media Player], Destroy method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Destroy method, IWMPEffects2.Destroy, IWMPEffects2::Destroy, IWMPEffectsDestroy, effects/IWMPEffects2::Destroy, wmp.iwmpeffects2_destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -86,11 +84,11 @@ This method is used only by windowed visualizations. Windowless visualizations s
 
 
 
-<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0bc4e45-7174-4dbd-a902-06c685c9a9ac">IWMPEffects2::Create</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563255(v=VS.85).aspx">IWMPEffects2::Create</a>
  
 
  

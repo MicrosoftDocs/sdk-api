@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], ISearchPersistentItemsChangedSink interface [search],described, _search_ISearchPersistentItemsChangedSink, search._search_ISearchPersistentItemsChangedSink, searchapi/ISearchPersistentItemsChangedSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

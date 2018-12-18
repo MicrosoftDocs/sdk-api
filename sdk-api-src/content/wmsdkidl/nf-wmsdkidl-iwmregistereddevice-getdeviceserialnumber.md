@@ -9,8 +9,6 @@ ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -64,7 +62,7 @@ The <b>GetDeviceID</b> method retrieves the 128-bit value that identifies the de
 
 ### -param pSerialNumber [out]
 
-Address of a <a href="https://msdn.microsoft.com/8981042a-f11d-458d-be27-3b1749f9e995">DRM_VAL16</a> structure that receives the device serial number.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure that receives the device serial number.
 
 
 ## -returns
@@ -111,7 +109,7 @@ Together, the device serial number and the device certificate uniquely identify 
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

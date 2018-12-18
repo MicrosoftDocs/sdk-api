@@ -9,8 +9,6 @@ ms.assetid: 3243ffec-1897-4f26-853d-81a7198a892d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionProfile interface [Microsoft Broadband Networks],UpdateProfile method, IMbnConnectionProfile.UpdateProfile, IMbnConnectionProfile::UpdateProfile, UpdateProfile, UpdateProfile method [Microsoft Broadband Networks], UpdateProfile method [Microsoft Broadband Networks],IMbnConnectionProfile interface, mbn.imbnconnectionprofile_updateprofile, mbnapi/IMbnConnectionProfile::UpdateProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

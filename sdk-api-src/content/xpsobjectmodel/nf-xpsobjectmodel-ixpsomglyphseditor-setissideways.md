@@ -9,8 +9,6 @@ ms.assetid: 67866971-fe2b-4354-a7e9-a43678443790
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetIsSideways method, IXpsOMGlyphsEditor.SetIsSideways, IXpsOMGlyphsEditor::SetIsSideways, SetIsSideways, SetIsSideways method [XPS Documents and Packaging], SetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, TRUE, xps.ixpsomglyphseditor_setissideways, xpsobjectmodel/IXpsOMGlyphsEditor::SetIsSideways
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

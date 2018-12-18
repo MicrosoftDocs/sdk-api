@@ -9,8 +9,6 @@ ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

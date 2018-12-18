@@ -9,8 +9,6 @@ ms.assetid: 652e9630-291d-41cd-96d9-6a63988932a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterStatus, GetWriterStatus method [VSS], GetWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterStatus method, IVssBackupComponents.GetWriterStatus, IVssBackupComponents::GetWriterStatus, S_OK, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, VSS_E_WRITER_NOT_RESPONDING, VSS_E_WRITER_STATUS_NOT_AVAILABLE, _win32_ivssbackupcomponents_getwriterstatus, base.ivssbackupcomponents_getwriterstatus, vsbackup/IVssBackupComponents::GetWriterStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: c3dc4b38-933c-4aeb-b6eb-7273ce334ba2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNodeInterfaces, GetNodeInterfaces method [Microsoft TV Technologies], GetNodeInterfaces method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetNodeInterfaces method, IBDA_Topology.GetNodeInterfaces, IBDA_Topology::GetNodeInterfaces, IBDA_TopologyGetNodeInterfaces, bdaiface/IBDA_Topology::GetNodeInterfaces, mstv.ibda_topology_getnodeinterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

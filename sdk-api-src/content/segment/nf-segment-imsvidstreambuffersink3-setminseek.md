@@ -9,8 +9,6 @@ ms.assetid: 2f7a7323-c9da-47f9-95e2-dd13fc023373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],SetMinSeek method, IMSVidStreamBufferSink3.SetMinSeek, IMSVidStreamBufferSink3::SetMinSeek, IMSVidStreamBufferSink3SetMinSeek, SetMinSeek, SetMinSeek method [Microsoft TV Technologies], SetMinSeek method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_setminseek, segment/IMSVidStreamBufferSink3::SetMinSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -102,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/5768936b-9c0a-4177-82da-cc6ebe62ea67">IMSVidStreamBufferSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694627(v=VS.85).aspx">IMSVidStreamBufferSink3 Interface</a>
  
 
  

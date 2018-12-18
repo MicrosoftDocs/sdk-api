@@ -9,8 +9,6 @@ ms.assetid: d0cc8564-f87a-4642-b085-5149c85279dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClosedLowerBoundItemId, GetClosedLowerBoundItemId method [Windows Sync], GetClosedLowerBoundItemId method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetClosedLowerBoundItemId method, ISyncFullEnumerationChangeBatch.GetClosedLowerBoundItemId, ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId, winsync.isyncfullenumerationchangebatch_getclosedlowerbounditemid, winsync/ISyncFullEnumerationChangeBatch::GetClosedLowerBoundItemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

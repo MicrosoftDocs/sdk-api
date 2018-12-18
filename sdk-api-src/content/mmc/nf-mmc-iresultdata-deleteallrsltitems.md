@@ -9,8 +9,6 @@ ms.assetid: 07514672-2973-40f1-864a-066e256bd76a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteAllRsltItems, DeleteAllRsltItems method [MMC], DeleteAllRsltItems method [MMC],IResultData interface, DeleteAllRsltItems method [MMC],IResultData2 interface, IResultData interface [MMC],DeleteAllRsltItems method, IResultData.DeleteAllRsltItems, IResultData2 interface [MMC],DeleteAllRsltItems method, IResultData2::DeleteAllRsltItems, IResultData::DeleteAllRsltItems, _slate_iresultdata_deleteallrsltitems, mmc.iresultdata_deleteallrsltitems, mmc/IResultData2::DeleteAllRsltItems, mmc/IResultData::DeleteAllRsltItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

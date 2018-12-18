@@ -9,8 +9,6 @@ ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

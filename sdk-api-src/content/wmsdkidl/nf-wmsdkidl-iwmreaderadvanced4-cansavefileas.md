@@ -9,8 +9,6 @@ ms.assetid: ed4f31b6-e20f-432c-a1ec-954d85ce3a3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanSaveFileAs, CanSaveFileAs method [windows Media Format], CanSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CanSaveFileAs method, IWMReaderAdvanced4.CanSaveFileAs, IWMReaderAdvanced4::CanSaveFileAs, IWMReaderAdvanced4CanSaveFileAs, wmformat.iwmreaderadvanced4_cansavefileas, wmsdkidl/IWMReaderAdvanced4::CanSaveFileAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a> method.
+The <b>CanSaveFileAs</b> method ascertains whether the content being played by the reader can be saved using the <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a> method.
 
 
 
@@ -102,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
  
 
  

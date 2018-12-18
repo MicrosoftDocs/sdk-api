@@ -9,8 +9,6 @@ ms.assetid: ddd172fe-2f93-4b1b-b325-81be024bf74c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidXDS, IMSVidXDS interface [Microsoft TV Technologies], IMSVidXDS interface [Microsoft TV Technologies],described, IMSVidXDSInterface, mstv.imsvidxds, segment/IMSVidXDS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ The <b>IMSVidXDS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/078bd274-b8dc-425b-b14f-3dacff6744bb">get_ChannelChangeInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694772(v=VS.85).aspx">get_ChannelChangeInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the channel change interface.

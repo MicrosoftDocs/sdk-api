@@ -9,8 +9,6 @@ ms.assetid: ac6579ec-20f7-4a20-8cb8-5f3a6119959d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method [Tablet PC],IInkDisp interface, IInkDisp, IInkDisp interface [Tablet PC],DeleteStroke method, IInkDisp.DeleteStroke, IInkDisp::DeleteStroke, ac6579ec-20f7-4a20-8cb8-5f3a6119959d, msinkaut/IInkDisp::DeleteStroke, tablet.inkdisp_deletestroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -168,7 +166,7 @@ This method deletes only a single stroke. To delete a collection of strokes, cal
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

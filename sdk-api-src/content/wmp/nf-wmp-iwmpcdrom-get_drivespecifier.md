@@ -9,8 +9,6 @@ ms.assetid: 0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_driveSpecifier method, IWMPCdrom.get_driveSpecifier, IWMPCdrom::get_driveSpecifier, IWMPCdromget_driveSpecifier, get_driveSpecifier, get_driveSpecifier method [Windows Media Player], get_driveSpecifier method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_drivespecifier, wmp/IWMPCdrom::get_driveSpecifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -114,19 +112,19 @@ To retrieve the value of this property, read access to the library is required. 
 
 
 
-<a href="https://msdn.microsoft.com/323a6841-ffbd-4bbb-ac04-1d121cf5bd06">IWMPCdrom Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563080(v=VS.85).aspx">IWMPCdrom Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e0c73b3-463c-43de-b1b8-5644a377bfd1">IWMPCdromCollection::get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563099(v=VS.85).aspx">IWMPCdromCollection::get_count</a>
 
 
 
-<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">IWMPSettings2::requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">IWMPSettings2::requestMediaAccessRights</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_MapAccIDToHTREEITEM, TreeView_MapAccIDToHTREEITEM macro [Windows Controls], _win32_TreeView_MapAccIDToHTREEITEM, _win32_TreeView_MapAccIDToHTREEITEM_cpp, commctrl/TreeView_MapAccIDToHTREEITEM, controls.TreeView_MapAccIDToHTREEITEM, controls._win32_TreeView_MapAccIDToHTREEITEM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Maps an accessibility ID to an <b>HTREEITEM</b>. You can use this macro or send 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param id
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The accessibility ID to map to an <b>HTREEITEM</b>.
 

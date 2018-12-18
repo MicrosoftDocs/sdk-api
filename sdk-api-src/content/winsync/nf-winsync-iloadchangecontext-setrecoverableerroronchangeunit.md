@@ -9,8 +9,6 @@ ms.assetid: 0489a26c-5760-4e41-84c9-45868d27b67c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChangeUnit method, ILoadChangeContext.SetRecoverableErrorOnChangeUnit, ILoadChangeContext::SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit method [Windows Sync], SetRecoverableErrorOnChangeUnit method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchangeunit, winsync/ILoadChangeContext::SetRecoverableErrorOnChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

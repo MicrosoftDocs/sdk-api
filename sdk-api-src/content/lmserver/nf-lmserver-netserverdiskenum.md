@@ -9,8 +9,6 @@ ms.assetid: 56c981f4-7a1d-4465-bd7b-5996222c4210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetServerDiskEnum, NetServerDiskEnum function [Network Management], _win32_netserverdiskenum, lmserver/NetServerDiskEnum, netmgmt.netserverdiskenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

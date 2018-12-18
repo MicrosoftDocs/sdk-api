@@ -9,8 +9,6 @@ ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLunNaming interface [VDS],SetFriendlyName method, IVdsLunNaming.SetFriendlyName, IVdsLunNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsLunNaming interface, base.ivdslunnaming_setfriendlyname, vds/IVdsLunNaming::SetFriendlyName, vdshwprv/IVdsLunNaming::SetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

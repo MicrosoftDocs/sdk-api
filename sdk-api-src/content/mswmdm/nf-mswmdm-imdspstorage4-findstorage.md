@@ -9,8 +9,6 @@ ms.assetid: 024a295a-ab23-4ee8-963b-1c18e244627a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],FindStorage method, IMDSPStorage4.FindStorage, IMDSPStorage4::FindStorage, IMDSPStorage4FindStorage, mswmdm/IMDSPStorage4::FindStorage, wmdm.imdspstorage4_findstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

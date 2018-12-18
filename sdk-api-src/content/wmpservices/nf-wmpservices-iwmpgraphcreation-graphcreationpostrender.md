@@ -9,8 +9,6 @@ ms.assetid: 243fc72e-ef97-49a6-9a50-05ec338e5faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphCreationPostRender, GraphCreationPostRender method [Windows Media Player], GraphCreationPostRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPostRender method, IWMPGraphCreation.GraphCreationPostRender, IWMPGraphCreation::GraphCreationPostRender, IWMPGraphCreationGraphCreationPostRenderdeprecated, wmp.iwmpgraphcreation_graphcreationpostrender, wmpservices/IWMPGraphCreation::GraphCreationPostRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -91,7 +89,7 @@ There is no guarantee that this method will be invoked for all files.  Only file
 
 
 
-<a href="https://msdn.microsoft.com/80d6f1f0-10c9-4e60-9bb7-556e340730a8">IWMPGraphCreation Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563379(v=VS.85).aspx">IWMPGraphCreation Interface</a>
  
 
  

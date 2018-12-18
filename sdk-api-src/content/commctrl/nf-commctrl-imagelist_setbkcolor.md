@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_SetBkColor, ImageList_SetBkColor function [Windows Controls], _win32_ImageList_SetBkColor, _win32_ImageList_SetBkColor_cpp, commctrl/ImageList_SetBkColor, controls.ImageList_SetBkColor, controls._win32_ImageList_SetBkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -67,7 +65,7 @@ A handle to the image list.
 
 ### -param clrBk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 The background color to set. This parameter can be the CLR_NONE value; in that case, images are drawn transparently using the mask. 
 
@@ -76,7 +74,7 @@ The background color to set. This parameter can be the CLR_NONE value; in that c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Returns the previous background color if successful, or CLR_NONE otherwise.
 

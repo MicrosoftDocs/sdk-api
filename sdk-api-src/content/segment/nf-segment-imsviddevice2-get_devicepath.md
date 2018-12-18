@@ -9,8 +9,6 @@ ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice2 interface [Microsoft TV Technologies],get_DevicePath method, IMSVidDevice2.get_DevicePath, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies],IMSVidDevice2 interface, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -111,7 +109,7 @@ This property is not a human-readable string, but is guaranteed to be unique per
 
 
 
-<a href="https://msdn.microsoft.com/cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31">IMSVidDevice2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694520(v=VS.85).aspx">IMSVidDevice2 Interface</a>
  
 
  

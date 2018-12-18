@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(), XMXDECN4::XMXDECN4, dxmath.xmxdecn4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMXDECN4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4 </a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4 </a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9
 
 
 
-<a href="https://msdn.microsoft.com/705A1848-26BC-47E5-9209-C0DF843DE6AE">XMXDECN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c68ba06-40cd-4000-ba3d-4489b5bed236">XMXDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415544(v=VS.85).aspx">XMXDECN4 Constructors</a>
  
 
  

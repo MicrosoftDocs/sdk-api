@@ -9,8 +9,6 @@ ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -72,7 +70,7 @@ The multicast address group that should be filtered. This may be either an IPv6 
 
 The multicast filter mode. 
 
-This member can be one of the values from the <a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a> enumeration type defined in the <i>Ws2ipdef.h</i> header file. This member determines if the list of IP addresses in the <b>gf_numsrc</b> member should be included or excluded.
+This member can be one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a> enumeration type defined in the <i>Ws2ipdef.h</i> header file. This member determines if the list of IP addresses in the <b>gf_numsrc</b> member should be included or excluded.
 
 <table>
 <tr>
@@ -151,7 +149,7 @@ The <b>GROUP_FILTER</b> structure is defined in the <i>Ws2ipdef.h</i> header fil
 
 
 
-<a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

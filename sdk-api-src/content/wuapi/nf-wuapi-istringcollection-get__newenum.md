@@ -9,8 +9,6 @@ ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],_NewEnum property, IStringCollection._NewEnum, IStringCollection.get__NewEnum, IStringCollection::_NewEnum, IStringCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IStringCollection interface, get__NewEnum, wua.istringcollection__newenum, wuapi/IStringCollection::_NewEnum, wuapi/IStringCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

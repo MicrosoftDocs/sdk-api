@@ -9,8 +9,6 @@ ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

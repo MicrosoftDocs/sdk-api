@@ -9,8 +9,6 @@ ms.assetid: f40b6ed0-6e75-4f0a-abcc-f13d961df678
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGeometryLookup, GetGeometryLookup method [XPS Documents and Packaging], GetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLookup method, IXpsOMPath.GetGeometryLookup, IXpsOMPath::GetGeometryLookup, xps.ixpsompath_getgeometrylookup, xpsobjectmodel/IXpsOMPath::GetGeometryLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

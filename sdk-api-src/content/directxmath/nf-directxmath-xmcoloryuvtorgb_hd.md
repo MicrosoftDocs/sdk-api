@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.color.XMColorYUVToRGB_HD(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMColorYUVToRGB_HD, XMColorYUVToRGB_HD, XMColorYUVToRGB_HD method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb_hd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -96,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/4525c7d8-1f8d-443b-a54b-a826396eb90c">XMColorRGBToYUV_HD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437866(v=VS.85).aspx">XMColorRGBToYUV_HD</a>
  
 
  

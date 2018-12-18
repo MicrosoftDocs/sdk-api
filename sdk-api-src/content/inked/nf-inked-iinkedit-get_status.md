@@ -9,8 +9,6 @@ ms.assetid: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d, Collecting, IInkEdit interface [Tablet PC],Status property, IInkEdit.Status, IInkEdit.get_Status, IInkEdit::Status, IInkEdit::get_Status, Idle, InkEdit.get_Status, Recognizing, Status property [Tablet PC], Status property [Tablet PC],IInkEdit interface, get_Status, inked/IInkEdit::Status, inked/IInkEdit::get_Status, put_Status, tablet.inkedit_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -78,7 +76,7 @@ This property is available at run time only.
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

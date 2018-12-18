@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_rsgetstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSGetState method, ID3D10Device.RSGetState, ID3D10Device::RSGetState, RSGetState, RSGetState method [Direct3D 10], RSGetState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSGetState, direct3d10.id3d10device_rsgetstate, e6855c5c-5337-9573-7375-39d3e0d3e83c
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -79,7 +77,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

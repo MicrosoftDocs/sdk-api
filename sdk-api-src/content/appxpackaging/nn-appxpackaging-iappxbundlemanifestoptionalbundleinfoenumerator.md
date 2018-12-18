@@ -9,8 +9,6 @@ ms.assetid: 5BF38EC7-7C04-455B-AFAA-CC2A78E54A4F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxBundleManifestOptionalBundleInfoEnumerator, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management], IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

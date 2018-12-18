@@ -9,8 +9,6 @@ ms.assetid: CFBCF6EC-5E42-4992-B046-B4F436A9BF04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, xaml_diagnostics.initializexamldiagnosticsex, xamlom/InitializeXamlDiagnosticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xamlom.h
 req.include-header: Windows.UI.Xaml.h

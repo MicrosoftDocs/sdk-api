@@ -9,8 +9,6 @@ ms.assetid: 9ab843ff-8f2c-424e-8bb9-ba71f9355728
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetOperationContextProperty, WsGetOperationContextProperty function [Web Services for Windows], webservices/WsGetOperationContextProperty, wsw.wsgetoperationcontextproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

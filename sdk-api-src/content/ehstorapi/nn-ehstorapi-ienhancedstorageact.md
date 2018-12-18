@@ -9,8 +9,6 @@ ms.assetid: 33d5df30-f877-4852-ad2f-af1bb58d0044
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 

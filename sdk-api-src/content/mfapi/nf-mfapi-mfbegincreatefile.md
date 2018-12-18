@@ -9,8 +9,6 @@ ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

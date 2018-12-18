@@ -9,8 +9,6 @@ ms.assetid: 5193eaf4-29f7-4e97-a3b0-97441b26399c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSetErrorProperty, WsSetErrorProperty function [Web Services for Windows], webservices/WsSetErrorProperty, wsw.wsseterrorproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

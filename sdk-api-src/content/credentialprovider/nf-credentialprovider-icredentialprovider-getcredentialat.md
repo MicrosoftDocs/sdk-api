@@ -9,8 +9,6 @@ ms.assetid: eec370b7-0db8-492f-8dc3-4f391e1a55e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCredentialAt, GetCredentialAt method [Windows Shell], GetCredentialAt method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialAt method, ICredentialProvider.GetCredentialAt, ICredentialProvider::GetCredentialAt, credentialprovider/ICredentialProvider::GetCredentialAt, shell.ICredentialProvider_GetCredentialAt, shell_ICredentialProvider_GetCredentialAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
@@ -67,9 +65,9 @@ The zero-based index of the credential within the set of credentials enumerated 
 
 ### -param ppcpc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>**</b>
 
-The address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a> instance representing the credential.
+The address of a pointer to a <a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a> instance representing the credential.
 
 
 ## -returns
@@ -89,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required.
 
-The number of available credentials is retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb776039(v=VS.85).aspx">ICredentialProvider::GetCredentialCount</a>. This method is used by the Logon UI or Credential UI in conjunction with <b>GetCredentialCount</b> to enumerate the credentials.
+The number of available credentials is retrieved by <a href="https://msdn.microsoft.com/7d940d46-d4c2-4ab5-8559-416d78d3579e">ICredentialProvider::GetCredentialCount</a>. This method is used by the Logon UI or Credential UI in conjunction with <b>GetCredentialCount</b> to enumerate the credentials.
 
 
 

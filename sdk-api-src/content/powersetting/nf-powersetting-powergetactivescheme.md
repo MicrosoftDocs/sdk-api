@@ -7,10 +7,8 @@ old-location: base\powergetactivescheme.htm
 tech.root: power
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: PowerGetActiveScheme, PowerGetActiveScheme function, base.powergetactivescheme, powersetting/PowerGetActiveScheme, powrprof/PowerGetActiveScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 

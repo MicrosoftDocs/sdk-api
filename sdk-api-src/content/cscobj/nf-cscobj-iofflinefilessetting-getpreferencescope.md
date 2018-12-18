@@ -7,10 +7,8 @@ old-location: of\iofflinefilessetting_getpreferencescope.htm
 tech.root: offlinefiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -99,7 +97,7 @@ Note that this is an indication of the supported scopes, not of the applied scop
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
  
 
  

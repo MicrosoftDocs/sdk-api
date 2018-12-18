@@ -9,8 +9,6 @@ ms.assetid: C6281FD6-3A37-4D90-9B19-03DD23949C39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

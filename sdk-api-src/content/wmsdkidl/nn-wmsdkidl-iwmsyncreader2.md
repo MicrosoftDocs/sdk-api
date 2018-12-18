@@ -9,8 +9,6 @@ ms.assetid: f3db7530-a662-46f1-bc64-1dd4523dc87c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader2, IWMSyncReader2 interface [windows Media Format], IWMSyncReader2 interface [windows Media Format],described, IWMSyncReader2Interface, wmformat.iwmsyncreader2, wmsdkidl/IWMSyncReader2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -60,7 +58,7 @@ An <b>IWMSyncReader2</b> interface exists for every synchronous reader object. Y
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader2</b> interface inherits from <a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader</a>. <b>IWMSyncReader2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSyncReader2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader</a>. <b>IWMSyncReader2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMSyncReader2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aef68130-57a8-4bb6-8091-8ee2c75bdf76">GetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798578(v=VS.85).aspx">GetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
@@ -84,7 +82,7 @@ Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating output samples
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88f02e2d-2585-4668-869b-d42739c02a5c">GetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798579(v=VS.85).aspx">GetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
@@ -93,7 +91,7 @@ Retrieves an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f0c754e-f09c-472f-8f40-3fcd0fb29c48">SetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798580(v=VS.85).aspx">SetAllocateForOutput</a>
 </td>
 <td align="left" width="63%">
 Sets an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
@@ -102,7 +100,7 @@ Sets an <b>IWMReaderAllocatorEx</b> interface for allocating output samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed94977e-e930-4045-a69d-36109e7e21c9">SetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798581(v=VS.85).aspx">SetAllocateForStream</a>
 </td>
 <td align="left" width="63%">
 Sets an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
@@ -111,7 +109,7 @@ Sets an <b>IWMReaderAllocatorEx</b> interface for allocating stream samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a21529f-3645-4fe5-900e-19032d601ff4">SetRangeByFrameEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798582(v=VS.85).aspx">SetRangeByFrameEx</a>
 </td>
 <td align="left" width="63%">
 Enables you to play a portion of a file specified by frame numbers.
@@ -120,7 +118,7 @@ Enables you to play a portion of a file specified by frame numbers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/304564b1-6ae3-4e1c-bea9-7a49c522a914">SetRangeByTimecode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798583(v=VS.85).aspx">SetRangeByTimecode</a>
 </td>
 <td align="left" width="63%">
 Sets a start time and duration for playback using SMPTE time codes.
@@ -138,7 +136,7 @@ For information on which interfaces can be obtained by calling the QueryInterfac
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 

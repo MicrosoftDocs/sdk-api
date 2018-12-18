@@ -9,8 +9,6 @@ ms.assetid: d41fabce-e0f8-4e82-b177-59a10af376ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreROOT method, IEnroll2.SetHStoreROOT, IEnroll2::SetHStoreROOT, SetHStoreROOT, SetHStoreROOT method [Security], SetHStoreROOT method [Security],IEnroll2 interface, security.ienroll4_sethstoreroot, xenroll/IEnroll2::SetHStoreROOT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

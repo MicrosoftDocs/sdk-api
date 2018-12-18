@@ -9,8 +9,6 @@ ms.assetid: b76abb3b-e7f4-4b4b-866a-51a7d8b0066d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetExpirationTime, MI_SubscriptionDeliveryOptions_GetExpirationTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetExpirationTime, wmi_v2.mi_subscriptiondeliveryoptions_getexpirationtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 76e332bf-180b-466f-8c22-cec4e44a7ab6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ElasticMarginTop property [Windows Touch], ElasticMarginTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginTop property, IInertiaProcessor.ElasticMarginTop, IInertiaProcessor.get_ElasticMarginTop, IInertiaProcessor::ElasticMarginTop, IInertiaProcessor::get_ElasticMarginTop, IInertiaProcessor::put_ElasticMarginTop, get_ElasticMarginTop, manipulations/IInertiaProcessor::ElasticMarginTop, manipulations/IInertiaProcessor::get_ElasticMarginTop, manipulations/IInertiaProcessor::put_ElasticMarginTop, wintouch.iinertiaprocessor_elasticmargintop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

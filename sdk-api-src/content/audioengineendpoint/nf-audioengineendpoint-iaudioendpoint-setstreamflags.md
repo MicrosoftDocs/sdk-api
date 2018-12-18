@@ -4,13 +4,11 @@ title: IAudioEndpoint::SetStreamFlags
 author: windows-sdk-content
 description: Sets the stream configuration flags on the audio endpoint.
 old-location: termserv\iaudioendpoint_setstreamflags.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f6713912-ba7e-4e3e-95d9-8318c40a7042
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetStreamFlags method, IAudioEndpoint.SetStreamFlags, IAudioEndpoint::SetStreamFlags, SetStreamFlags, SetStreamFlags method [Remote Desktop Services], SetStreamFlags method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetStreamFlags, termserv.iaudioendpoint_setstreamflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

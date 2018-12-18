@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_9qzp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity interface [Fax Service],Save method, IFaxSecurity.Save, IFaxSecurity::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.save, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp, fax._mfax_faxsecurity_save, faxcomex/IFaxSecurity::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxSecurity::Save</b> method saves the <a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a> object data.
+The <b>IFaxSecurity::Save</b> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> and <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access rights.
 
 
 
@@ -86,11 +84,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a>
  
 
  

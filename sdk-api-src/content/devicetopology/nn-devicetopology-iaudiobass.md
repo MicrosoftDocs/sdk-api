@@ -9,8 +9,6 @@ ms.assetid: 036ca996-8612-4905-9afa-a4c3b4624652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioBass, IAudioBass interface [Core Audio], IAudioBass interface [Core Audio],described, coreaudio.iaudiobass, devicetopology/IAudioBass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

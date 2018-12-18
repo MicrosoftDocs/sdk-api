@@ -9,8 +9,6 @@ ms.assetid: c8fbac82-77dc-4316-860d-cdf53e8bb9a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentIDsInLibrary, GetContentIDsInLibrary method [Windows Media Player], GetContentIDsInLibrary method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],GetContentIDsInLibrary method, IWMPContentPartnerCallback.GetContentIDsInLibrary, IWMPContentPartnerCallback::GetContentIDsInLibrary, IWMPContentPartnerCallbackGetContentIDsInLibrary, contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary, wmp.iwmpcontentpartnercallback_getcontentidsinlibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

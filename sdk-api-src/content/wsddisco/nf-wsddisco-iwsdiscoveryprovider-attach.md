@@ -9,8 +9,6 @@ ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

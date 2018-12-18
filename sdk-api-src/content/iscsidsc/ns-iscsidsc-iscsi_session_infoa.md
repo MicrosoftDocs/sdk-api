@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.ISCSI_SESSION_INFOA
+UID: NS:iscsidsc.__unnamed_struct_17
 title: ISCSI_SESSION_INFOA
 author: windows-sdk-content
 description: ISCSI_SESSION_INFO.
@@ -7,10 +7,8 @@ old-location: iscsidisc\iscsi_session_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 5da4aa28-a630-41f2-abb2-5538c11242e6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PISCSI_SESSION_INFOA, ISCSI_SESSION_INFO, ISCSI_SESSION_INFO structure [iSCSI Discovery Library API], ISCSI_SESSION_INFOA, ISCSI_SESSION_INFOW, PISCSI_SESSION_INFO, PISCSI_SESSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_session_info, iscsidsc/ISCSI_SESSION_INFO, iscsidsc/ISCSI_SESSION_INFOA, iscsidsc/ISCSI_SESSION_INFOW, iscsidsc/PISCSI_SESSION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
@@ -97,7 +95,7 @@ The number of connections associated with the session.
 
 ### -field Connections
 
-A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870793(v=VS.85).aspx">ISCSI_CONNECTION_INFO</a> structure.
 
 
 ## -see-also
@@ -109,7 +107,7 @@ A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140
 
 
 
-<a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870793(v=VS.85).aspx">ISCSI_CONNECTION_INFO</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 2DBD5B1A-127A-4D71-8117-5FCCE653698C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawElementProviderHostingAccessibles, IRawElementProviderHostingAccessibles interface [Windows Accessibility], IRawElementProviderHostingAccessibles interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderHostingAccessibles, winauto.uiauto_IRawElementProviderHostingAccessibles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

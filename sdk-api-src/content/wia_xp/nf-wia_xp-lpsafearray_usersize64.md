@@ -9,8 +9,6 @@ ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h

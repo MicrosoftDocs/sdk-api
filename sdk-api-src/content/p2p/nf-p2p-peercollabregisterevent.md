@@ -7,10 +7,8 @@ old-location: p2p\peercollabregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

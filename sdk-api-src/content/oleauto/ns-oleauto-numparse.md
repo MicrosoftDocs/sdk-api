@@ -1,5 +1,5 @@
 ---
-UID: NS:oleauto.NUMPARSE
+UID: NS:oleauto.__unnamed_struct_0
 title: NUMPARSE
 author: windows-sdk-content
 description: Specifies numeric parsing information.
@@ -7,10 +7,8 @@ old-location: automat\numparse.htm
 tech.root: automat
 ms.assetid: d55034ff-4407-40ba-bee3-8e82cd5c497e
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: NUMPARSE, NUMPARSE structure [Automation], NUMPRS_CURRENCY, NUMPRS_DECIMAL, NUMPRS_EXPONENT, NUMPRS_HEX_OCT, NUMPRS_INEXACT, NUMPRS_LEADING_MINUS, NUMPRS_LEADING_PLUS, NUMPRS_LEADING_WHITE, NUMPRS_NEG, NUMPRS_PARENS, NUMPRS_STD, NUMPRS_THOUSANDS, NUMPRS_TRAILING_MINUS, NUMPRS_TRAILING_PLUS, NUMPRS_TRAILING_WHITE, NUMPRS_USE_ALL, _oa96_NUMPARSE, automat.numparse, oleauto/NUMPARSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: oleauto.h
 req.include-header: 

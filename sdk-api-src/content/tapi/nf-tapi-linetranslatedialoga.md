@@ -9,8 +9,6 @@ ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

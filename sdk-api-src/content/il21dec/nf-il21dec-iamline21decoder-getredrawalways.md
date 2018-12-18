@@ -9,8 +9,6 @@ ms.assetid: 9ab65d23-816d-4c6f-a0bc-b3334babdc23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetRedrawAlways method, IAMLine21Decoder.GetRedrawAlways, IAMLine21Decoder::GetRedrawAlways, IAMLine21DecoderGetRedrawAlways, dshow.iamline21decoder_getredrawalways, il21dec/IAMLine21Decoder::GetRedrawAlways
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -133,11 +131,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20f2e95a-8362-457d-b562-f7263e698551">IAMLine21Decoder::SetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319636(v=VS.85).aspx">IAMLine21Decoder::SetRedrawAlways</a>
  
 
  

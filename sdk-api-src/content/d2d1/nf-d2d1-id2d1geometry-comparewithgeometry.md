@@ -9,8 +9,6 @@ ms.assetid: 2b858c8c-6b9b-45bf-8d12-cb14af1987b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareWithGeometry, CompareWithGeometry method [Direct2D], CompareWithGeometry method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],CompareWithGeometry method, ID2D1Geometry.CompareWithGeometry, ID2D1Geometry::CompareWithGeometry, ID2D1Geometry::CompareWithGeometry,ID2D1Geometry::CompareWithGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_GEOMETRY_RELATION), d2d1/ID2D1Geometry::CompareWithGeometry, direct2d.ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D1_GEOMETRY_RELATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -93,7 +91,7 @@ When this method returns, contains a pointer to a value that describes how this 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

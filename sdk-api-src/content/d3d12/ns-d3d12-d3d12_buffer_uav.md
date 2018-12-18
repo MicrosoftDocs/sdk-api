@@ -9,8 +9,6 @@ ms.assetid: 13E48B8F-4EF7-45B7-88F2-61D9BA1801D2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_BUFFER_UAV, D3D12_BUFFER_UAV structure, d3d12/D3D12_BUFFER_UAV, direct3d12.d3d12_buffer_uav
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

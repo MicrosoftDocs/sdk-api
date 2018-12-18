@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\met
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsEmf, IsEmf method [GDI+], IsEmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmf method, MetafileHeader.IsEmf, MetafileHeader::IsEmf, _gdiplus_CLASS_MetafileHeader_IsEmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmf_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

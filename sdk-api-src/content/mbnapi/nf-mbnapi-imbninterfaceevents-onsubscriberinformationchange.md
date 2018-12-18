@@ -9,8 +9,6 @@ ms.assetid: 26d4fbdb-9c13-4934-a6bb-df581d0c18e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnSubscriberInformationChange method, IMbnInterfaceEvents.OnSubscriberInformationChange, IMbnInterfaceEvents::OnSubscriberInformationChange, OnSubscriberInformationChange, OnSubscriberInformationChange method [Microsoft Broadband Networks], OnSubscriberInformationChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onsubscriberinformationchange, mbnapi/IMbnInterfaceEvents::OnSubscriberInformationChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

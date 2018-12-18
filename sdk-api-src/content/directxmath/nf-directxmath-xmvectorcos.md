@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCos(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorCos, XMVectorCos, XMVectorCos method [DirectX Math Support APIs], dxmath.xmvectorcos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -93,15 +91,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/1d78bd1e-de56-4e60-817d-8ad10af86471">XMVectorACos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420989(v=VS.85).aspx">XMVectorACos</a>
 
 
 
-<a href="https://msdn.microsoft.com/162da582-d82f-4c48-995f-3c3750ea8df1">XMVectorACosEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420990(v=VS.85).aspx">XMVectorACosEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c7ee39d-76b5-476a-bfa0-ab77594e114c">XMVectorCosEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421010(v=VS.85).aspx">XMVectorCosEst</a>
  
 
  

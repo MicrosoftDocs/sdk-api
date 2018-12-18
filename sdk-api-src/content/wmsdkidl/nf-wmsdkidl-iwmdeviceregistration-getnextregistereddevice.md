@@ -9,8 +9,6 @@ ms.assetid: 396e60a8-5845-45fa-8393-6f0defbd38bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextRegisteredDevice, GetNextRegisteredDevice method [windows Media Format], GetNextRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetNextRegisteredDevice method, IWMDeviceRegistration.GetNextRegisteredDevice, IWMDeviceRegistration::GetNextRegisteredDevice, IWMDeviceRegistrationGetNextRegisteredDevice, wmformat.iwmdeviceregistration_getnextregistereddevice, wmsdkidl/IWMDeviceRegistration::GetNextRegisteredDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -67,7 +65,7 @@ The <b>GetNextRegisteredDevice</b> method enumerates the registered devices of a
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice</a> interface. This interface provides access to information about a registered device in the database that matches the type specified by the <i>dwRegisterType</i> parameter used in the call to <a href="https://msdn.microsoft.com/a11249f5-0604-4de7-9dd2-152d570183c3">GetFirstRegisteredDevice</a>. The information applies to the next device in the list (after the device retrieved previously).
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice</a> interface. This interface provides access to information about a registered device in the database that matches the type specified by the <i>dwRegisterType</i> parameter used in the call to <a href="https://msdn.microsoft.com/en-us/library/Dd743358(v=VS.85).aspx">GetFirstRegisteredDevice</a>. The information applies to the next device in the list (after the device retrieved previously).
 
 
 ## -returns
@@ -124,7 +122,7 @@ The <i>ppDevice</i> parameter is <b>NULL</b>.
 
 
 
-To enumerate registered devices of a given type, begin by calling <a href="https://msdn.microsoft.com/a11249f5-0604-4de7-9dd2-152d570183c3">GetFirstRegisteredDevice</a> to retrieve the first device. Then make repeated calls to this method to get subsequent devices from the list. After all devices of the specified types have been retrieved, the next call to <b>GetNextRegisteredDevice</b> returns S_FALSE and the address pointed to by <i>ppDevice</i> is set to <b>NULL</b>.
+To enumerate registered devices of a given type, begin by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743358(v=VS.85).aspx">GetFirstRegisteredDevice</a> to retrieve the first device. Then make repeated calls to this method to get subsequent devices from the list. After all devices of the specified types have been retrieved, the next call to <b>GetNextRegisteredDevice</b> returns S_FALSE and the address pointed to by <i>ppDevice</i> is set to <b>NULL</b>.
 
 
 
@@ -134,7 +132,7 @@ To enumerate registered devices of a given type, begin by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
  
 
  

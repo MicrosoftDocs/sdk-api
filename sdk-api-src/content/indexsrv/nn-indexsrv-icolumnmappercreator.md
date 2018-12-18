@@ -9,8 +9,6 @@ ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], IColumnMapperCreator interface [search],described, indexsrv/IColumnMapperCreator, search.icolumnmappercreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

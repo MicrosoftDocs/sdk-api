@@ -9,8 +9,6 @@ ms.assetid: db2e297e-98db-4e34-b44c-c0ddcddf2a6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumTimeFormatsEx, EnumTimeFormatsEx function [Internationalization for Windows Applications], _win32_EnumTimeFormatsEx, intl.enumtimeformatsex, winnls/EnumTimeFormatsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

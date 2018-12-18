@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get_Item method, IFaxInboundRoutingMethods.get_Item, IFaxInboundRoutingMethods::get_Item, _mfax_faxinboundroutingmethods.item_cpp, fax._mfax_faxinboundroutingmethods_item_cpp, faxcomex/IFaxInboundRoutingMethods::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxInboundRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxInboundRoutingMethods::get_Item</b> method returns a <a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a> object from the <a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a> collection.
+The <b>IFaxInboundRoutingMethods::get_Item</b> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a> collection.
 
 
 ## -parameters
@@ -71,9 +69,9 @@ If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of t
 
 ### -param pFaxInboundRoutingMethod [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a> interface.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a> interface.
 
 
 ## -returns
@@ -92,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5a19c7d9-f602-4271-a772-fdc61b73024f">IFaxInboundRoutingMethods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686682(v=VS.85).aspx">IFaxInboundRoutingMethods</a>
 
 
 

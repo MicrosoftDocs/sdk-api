@@ -9,8 +9,6 @@ ms.assetid: 5330adba-6e19-41dd-8f00-ba62be166aad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],DesiredPacketDescription property, IInkOverlay.DesiredPacketDescription, IInkOverlay.get_DesiredPacketDescription, IInkOverlay::DesiredPacketDescription, IInkOverlay::get_DesiredPacketDescription, IInkOverlay::put_DesiredPacketDescription, InkOverlay.get_DesiredPacketDescription, InkOverlay.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkOverlay::DesiredPacketDescription, msinkaut/IInkOverlay::get_DesiredPacketDescription, msinkaut/IInkOverlay::put_DesiredPacketDescription, put_DesiredPacketDescription, tablet.inkoverlay_desiredpacketdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -88,7 +86,7 @@ Changes to this property do not affect incoming packet data until the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

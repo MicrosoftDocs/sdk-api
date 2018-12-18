@@ -9,8 +9,6 @@ ms.assetid: 8dcc6ef1-1839-49c6-8119-1e3a8135fce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetGenuineInformation, SLGetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, SL_GENUINE_RESULT, SL_NONGENUINE_GRACE_FLAG, security.slgetgenuineinformation, slpublic/SLGetGenuineInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 674165f4-1624-46fa-b3c6-ee5242fa457b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUIDDWORD method, ITfCategoryMgr.RegisterGUIDDWORD, ITfCategoryMgr::RegisterGUIDDWORD, RegisterGUIDDWORD, RegisterGUIDDWORD method [Text Services Framework], RegisterGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguiddword_ref, msctf/ITfCategoryMgr::RegisterGUIDDWORD, tsf.itfcategorymgr_registerguiddword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

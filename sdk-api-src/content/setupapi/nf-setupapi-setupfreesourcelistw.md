@@ -9,8 +9,6 @@ ms.assetid: ac326a2c-df67-4a3e-9290-663f84027a48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

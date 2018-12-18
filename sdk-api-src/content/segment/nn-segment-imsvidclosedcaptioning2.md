@@ -9,8 +9,6 @@ ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning2Interface, mstv.imsvidclosedcaptioning2, segment/IMSVidClosedCaptioning2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidClosedCaptioning2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/165e5c75-3ce1-4b37-b577-5aea4af65019">get_Service</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694468(v=VS.85).aspx">get_Service</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current closed captioning service.
@@ -82,7 +80,7 @@ Retrieves the current closed captioning service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f638a7c3-bd0a-465d-b104-ea0066aec6d6">put_Service</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694469(v=VS.85).aspx">put_Service</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning service.

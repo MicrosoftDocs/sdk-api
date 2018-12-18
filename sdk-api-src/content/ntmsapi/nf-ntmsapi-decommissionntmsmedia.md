@@ -9,8 +9,6 @@ ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

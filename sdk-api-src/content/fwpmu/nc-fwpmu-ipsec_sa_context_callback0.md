@@ -9,8 +9,6 @@ ms.assetid: a4515d39-8566-4418-a6be-687f4f7d9969
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSEC_SA_CONTEXT_CALLBACK0, IPSEC_SA_CONTEXT_CALLBACK0 callback, IPSEC_SA_CONTEXT_CALLBACK0 callback function [Filtering], fwp.ipsec_sa_context_callback0, fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

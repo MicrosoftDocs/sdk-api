@@ -9,8 +9,6 @@ ms.assetid: 10760fd4-5973-4ab0-991c-7a5951c798a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedPopEntrySList, InterlockedPopEntrySList function, _win32_interlockedpopentryslist, base.interlockedpopentryslist, interlockedapi/InterlockedPopEntrySList, winbase/InterlockedPopEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SetTextColor, TreeView_SetTextColor macro [Windows Controls], _win32_TreeView_SetTextColor, _win32_TreeView_SetTextColor_cpp, commctrl/TreeView_SetTextColor, controls.TreeView_SetTextColor, controls._win32_TreeView_SetTextColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the text color of the control. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a tree-view control. 
 

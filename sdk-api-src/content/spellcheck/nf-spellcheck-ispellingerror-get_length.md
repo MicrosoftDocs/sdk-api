@@ -9,8 +9,6 @@ ms.assetid: 641f8dbc-2cb2-448a-9382-9512cb91edb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Length property, ISpellingError.Length, ISpellingError.get_Length, ISpellingError::Length, ISpellingError::get_Length, Length property [Internationalization for Windows Applications], Length property [Internationalization for Windows Applications],ISpellingError interface, get_Length, intl.ispellingerror_length, spellcheck/ISpellingError::Length, spellcheck/ISpellingError::get_Length
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

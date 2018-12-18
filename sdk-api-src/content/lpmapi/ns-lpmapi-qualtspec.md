@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.QualTspec
+UID: NS:lpmapi.__unnamed_struct_21
 title: QualTspec
 author: windows-sdk-content
 description: The QualTspec structure contains qualitative Tspec information.
@@ -7,10 +7,8 @@ old-location: qos\qualtspec.htm
 tech.root: QOS
 ms.assetid: dc22de18-3e9f-4b92-aba4-579aa47fab64
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: QualTspec, QualTspec structure [QOS], lpmapi/QualTspec, qos.qualtspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,17 +59,17 @@ The
 
 ### -field qual_Tspec_serv_hdr
 
-General information and length information for the QualTspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a> structure.
+General information and length information for the QualTspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a> structure.
 
 
 ### -field qual_Tspec_parm_hdr
 
-Parameter header, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
+Parameter header, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
 
 
 ### -field qual_Tspec_parms
 
-Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/f9afa6f9-1de7-469e-a317-2dea98c8291c">QualTspecParms</a> structure.
+Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374114(v=VS.85).aspx">QualTspecParms</a> structure.
 
 
 ## -see-also
@@ -79,15 +77,15 @@ Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/f9afa6f9-1d
 
 
 
-<a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9afa6f9-1de7-469e-a317-2dea98c8291c">QualTspecParms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374114(v=VS.85).aspx">QualTspecParms</a>
  
 
  

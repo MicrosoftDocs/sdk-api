@@ -9,8 +9,6 @@ ms.assetid: fa680ddb-091b-4461-8979-9330f8d59cea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [windows Media Format], GetDescription method [windows Media Format],IWMProfile interface, GetDescription method [windows Media Format],IWMProfile2 interface, GetDescription method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetDescription method, IWMProfile.GetDescription, IWMProfile2 interface [windows Media Format],GetDescription method, IWMProfile2::GetDescription, IWMProfile3 interface [windows Media Format],GetDescription method, IWMProfile3::GetDescription, IWMProfile::GetDescription, IWMProfileGetDescription, wmformat.iwmprofile_getdescription, wmsdkidl/IWMProfile2::GetDescription, wmsdkidl/IWMProfile3::GetDescription, wmsdkidl/IWMProfile::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -156,15 +154,15 @@ You should make two calls to <b>GetDescription</b>. On the first call, pass <b>N
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222">IWMProfile::SetDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757414(v=VS.85).aspx">IWMProfile::SetDescription</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f654adac-12b6-47c7-99d4-0612b1532df4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVMR9.SetAllocator, IMSVidVMR9::SetAllocator, IMSVidVMR9SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_setallocator, segment/IMSVidVMR9::SetAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -66,7 +64,7 @@ The <b>SetAllocator</b> method sets a custom allocator-presenter for the VMR-9.
 
 ### -param AllocPresent [in]
 
-Pointer to the <b>IUnknown</b> interface of the allocator-presenter. This object must expose the <a href="https://msdn.microsoft.com/dd187168-19c7-414c-a764-f180d1d310f2">IVMRSurfaceAllocator9</a> interface. To use the VMR-9 filter's default allocator-presenter, set this parameter to <b>NULL</b>.
+Pointer to the <b>IUnknown</b> interface of the allocator-presenter. This object must expose the <a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9</a> interface. To use the VMR-9 filter's default allocator-presenter, set this parameter to <b>NULL</b>.
 
 
 ### -param ID [in]

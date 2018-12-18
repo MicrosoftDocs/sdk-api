@@ -9,8 +9,6 @@ ms.assetid: cb5ab67e-b5ff-40fd-a25f-d8dfb1e2c636
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllParamCustData, GetAllParamCustData method [Automation], GetAllParamCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllParamCustData method, ITypeInfo2.GetAllParamCustData, ITypeInfo2::GetAllParamCustData, _oa96_ITypeInfo2_GetAllParamCustData, automat.itypeinfo2_getallparamcustdata, oaidl/ITypeInfo2::GetAllParamCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

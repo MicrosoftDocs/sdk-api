@@ -9,8 +9,6 @@ ms.assetid: d50ab73d-6266-4aaa-8053-ebbc84ec1e2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_CreateDisplayAttributeMgr, TF_CreateDisplayAttributeMgr function [Text Services Framework], msctf/TF_CreateDisplayAttributeMgr, tsf.tf_createdisplayattributemgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msctf.h
 req.include-header: 

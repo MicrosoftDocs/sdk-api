@@ -9,8 +9,6 @@ ms.assetid: 5C004E4F-12C6-4C2E-AE9A-D841411FF689
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

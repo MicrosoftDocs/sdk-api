@@ -9,8 +9,6 @@ ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

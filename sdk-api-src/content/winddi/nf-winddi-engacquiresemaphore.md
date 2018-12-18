@@ -9,8 +9,6 @@ ms.assetid: da13ff30-7817-4ed4-9791-2d205a260259
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngAcquireSemaphore, EngAcquireSemaphore function [Display Devices], display.engacquiresemaphore, gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml, winddi/EngAcquireSemaphore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

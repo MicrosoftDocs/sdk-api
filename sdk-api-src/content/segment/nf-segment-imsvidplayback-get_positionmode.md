@@ -9,8 +9,6 @@ ms.assetid: 8a27508c-485c-4371-a997-05fdfb77d17b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_PositionMode method, IMSVidPlayback.get_PositionMode, IMSVidPlayback::get_PositionMode, IMSVidPlaybackget_PositionMode, get_PositionMode, get_PositionMode method [Microsoft TV Technologies], get_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_positionmode, segment/IMSVidPlayback::get_PositionMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -152,13 +150,13 @@ The value returned by this method determines how the parameters are interpreted 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a559c0b4-ed63-47ef-b99a-866c87939d5b">IMSVidPlayback::get_Length</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694592(v=VS.85).aspx">IMSVidPlayback::get_Length</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/08facda5-3c17-4dac-b06f-6032f9490087">IMSVidPlayback::get_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694590(v=VS.85).aspx">IMSVidPlayback::get_CurrentPosition</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3e9e0128-5609-4a9f-bbfc-a29a2174c5d0">IMSVidPlayback::put_CurrentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694596(v=VS.85).aspx">IMSVidPlayback::put_CurrentPosition</a>
 </li>
 </ul>
 Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed5419">IMSVidCtl::Build</a> or <a href="https://msdn.microsoft.com/ec0e2a88-13c0-42f3-ba7d-8ebff1234b86">IMSVidCtl::View</a> method before calling this method.
@@ -171,7 +169,7 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f9cc348f-d4f0-4e77-90d6-9ff563a1799c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], IWICBitmapSourceTransform interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsourcetransform, wic._wic_codec_iwicbitmapsourcetransform, wincodec/IWICBitmapSourceTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

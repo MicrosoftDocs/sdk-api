@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8mnn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Deleting, Failed, IFaxJob interface [Fax Service],QueueStatus property, IFaxJob.QueueStatus, IFaxJob.get_QueueStatus, IFaxJob::QueueStatus, IFaxJob::get_QueueStatus, In Progress, No Line, Paused, Pending, QueueStatus property [Fax Service], QueueStatus property [Fax Service],IFaxJob interface, Retries Exceeded, Retrying, _mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_mfax_ifaxjob_get_queuestatus_cpp, faxcom/IFaxJob::QueueStatus, faxcom/IFaxJob::get_QueueStatus, get_QueueStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

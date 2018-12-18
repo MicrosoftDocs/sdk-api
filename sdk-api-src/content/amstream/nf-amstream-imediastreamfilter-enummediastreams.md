@@ -9,8 +9,6 @@ ms.assetid: 5f62abda-6192-4adb-985d-9bffe310b407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EnumMediaStreams method, IMediaStreamFilter.EnumMediaStreams, IMediaStreamFilter::EnumMediaStreams, IMediaStreamFilterEnumMediaStreams, amstream/IMediaStreamFilter::EnumMediaStreams, dshow.imediastreamfilter_enummediastreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -70,7 +68,7 @@ Index of the media stream to retrieve.
 
 ### -param ppMediaStream [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface pointer.
 
 
 ## -returns
@@ -126,7 +124,7 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

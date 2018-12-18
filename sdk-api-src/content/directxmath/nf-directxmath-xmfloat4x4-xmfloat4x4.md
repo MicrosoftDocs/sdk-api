@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT4X4, XMFLOAT4X4 constructor [DirectX Math Support APIs], XMFLOAT4X4 constructor [DirectX Math Support APIs],XMFLOAT4X4 structure, XMFLOAT4X4 structure [DirectX Math Support APIs],XMFLOAT4X4 constructor, XMFLOAT4X4.XMFLOAT4X4, XMFLOAT4X4.XMFLOAT4X4(), XMFLOAT4X4::XMFLOAT4X4, dxmath.xmfloat4x4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMFLOAT4X4</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -83,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-8
 
 
 
-<a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a>
 
 
 
-<a href="https://msdn.microsoft.com/943d7238-57e0-4908-bc58-bf434f2fbde0">XMFLOAT4X4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415303(v=VS.85).aspx">XMFLOAT4X4 Constructors</a>
  
 
  

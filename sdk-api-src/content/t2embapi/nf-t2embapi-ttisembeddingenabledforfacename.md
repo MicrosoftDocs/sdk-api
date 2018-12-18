@@ -9,8 +9,6 @@ ms.assetid: 1f494bb1-62c4-45c4-b1a5-df6842d94dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TTIsEmbeddingEnabledForFacename, TTIsEmbeddingEnabledForFacename function [Windows GDI], _win32_TTIsEmbeddingEnabledForFacename, gdi.ttisembeddingenabledforfacename, t2embapi/TTIsEmbeddingEnabledForFacename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

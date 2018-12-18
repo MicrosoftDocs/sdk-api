@@ -9,8 +9,6 @@ ms.assetid: ca8bc833-4d6f-4ed0-9c9b-15bbca5e0090
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextAddOutbound1, IPsecSaContextAddOutbound1 function [Filtering], fwp.ipsecsacontextaddoutbound1, fwpmu/IPsecSaContextAddOutbound1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

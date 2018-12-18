@@ -9,8 +9,6 @@ ms.assetid: 40bcf993-55fb-4d75-91dc-44d770a0e226
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method, GetCount method,ISensorCollection interface, ISensorCollection interface,GetCount method, ISensorCollection.GetCount, ISensorCollection::GetCount, sensorsapi/ISensorCollection::GetCount, winsensors_com_ref.isensorcollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

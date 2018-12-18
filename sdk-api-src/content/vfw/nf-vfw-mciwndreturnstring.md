@@ -9,8 +9,6 @@ ms.assetid: 8e7d54ec-882b-4896-a493-3ed61aec6184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndReturnString, MCIWndReturnString macro [Windows Multimedia], _win32_MCIWndReturnString, multimedia.mciwndreturnstring, vfw/MCIWndReturnString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D72199E5-11E5-413E-88F0-85EF17585587
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCommands, GetCommands method [Direct2D], GetCommands method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],GetCommands method, ID2D1SvgPathData.GetCommands, ID2D1SvgPathData::GetCommands, d2d1svg/ID2D1SvgPathData::GetCommands, direct2d.id2d1svgpathdata_getcommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -83,7 +81,7 @@ The index of the first commands to retrieve.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

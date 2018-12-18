@@ -9,8 +9,6 @@ ms.assetid: 5f437658-b749-416b-805a-2afdac682660
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringFromGUID2, StringFromGUID2 function [COM], _com_StringFromGUID2, com.stringfromguid2, combaseapi/StringFromGUID2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
@@ -95,7 +93,7 @@ If the function succeeds, the return value is the number of characters in the re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx">StringFromCLSID</a>
+<a href="https://msdn.microsoft.com/61210ebd-cbf3-4e78-b077-53d2779053eb">StringFromCLSID</a>
  
 
  

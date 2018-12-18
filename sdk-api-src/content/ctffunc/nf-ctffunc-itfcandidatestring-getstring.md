@@ -9,8 +9,6 @@ ms.assetid: 157dc848-858c-462f-8e41-78d6bfe20705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetString method, ITfCandidateString.GetString, ITfCandidateString::GetString, _tsf_itfcandidatestring_getstring_ref, ctffunc/ITfCandidateString::GetString, tsf.itfcandidatestring_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -117,7 +115,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538497(v=VS.85).aspx">ITfCandidateString</a>
+<a href="https://msdn.microsoft.com/82c77b59-a50c-42ae-ba1d-25a1c196662d">ITfCandidateString</a>
 
 
 

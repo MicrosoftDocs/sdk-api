@@ -9,8 +9,6 @@ ms.assetid: e2980ef7-45dd-47c7-ba4d-f36b52bbd7dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
@@ -86,7 +84,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

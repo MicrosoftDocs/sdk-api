@@ -9,8 +9,6 @@ ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694107(v=VS.85).aspx">IGuideDataProperty Interface</a>
+<a href="https://msdn.microsoft.com/1c614f2a-69e0-4100-b83e-740478654c17">IGuideDataProperty Interface</a>
  
 
  

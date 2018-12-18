@@ -9,8 +9,6 @@ ms.assetid: 311cfa18-6eb5-4872-9a46-3c8dcf901f4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumSignatures, EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumSignatures method, IMetaDataImport.EnumSignatures, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

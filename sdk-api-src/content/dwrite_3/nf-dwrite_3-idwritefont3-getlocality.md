@@ -9,8 +9,6 @@ ms.assetid: B7CD16AE-77A3-4C3C-91B7-3AD32DCF68C0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetLocality method, IDWriteFont3.GetLocality, IDWriteFont3::GetLocality, directwrite.idwritefont3_getlocality, dwrite_3/IDWriteFont3::GetLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -65,7 +63,7 @@ Gets the current locality of the font.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a></b>
 
 Returns the current locality of the font.
 
@@ -86,7 +84,7 @@ For fully local files, the result will always  be DWRITE_LOCALITY_LOCAL. A downl
 
 
 
-<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>
  
 
  

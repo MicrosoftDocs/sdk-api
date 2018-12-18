@@ -9,8 +9,6 @@ ms.assetid: a688354b-b231-44fc-9cfb-32c8e8b1361f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetMathProperties method, ITextDocument2.SetMathProperties, ITextDocument2::SetMathProperties, SetMathProperties, SetMathProperties method [Windows Controls], SetMathProperties method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setmathproperties, tom/ITextDocument2::SetMathProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

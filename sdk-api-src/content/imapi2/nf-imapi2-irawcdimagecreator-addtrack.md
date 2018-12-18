@@ -9,8 +9,6 @@ ms.assetid: 913393e8-6d60-4b1a-b482-32225860f714
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddTrack, AddTrack method [IMAPI], AddTrack method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddTrack method, IRawCDImageCreator.AddTrack, IRawCDImageCreator::AddTrack, imapi.irawcdimagecreator_addtrack, imapi2/IRawCDImageCreator::AddTrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

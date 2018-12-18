@@ -9,8 +9,6 @@ ms.assetid: ec7b9aec-01f2-497a-924b-471fbb526bee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineCompleteCall, TSPI_lineCompleteCall function [TAPI 2.2], _tspi_tspi_linecompletecall, tspi.tspi_linecompletecall, tspi/TSPI_lineCompleteCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

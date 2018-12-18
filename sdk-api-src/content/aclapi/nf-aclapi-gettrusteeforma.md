@@ -9,8 +9,6 @@ ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
@@ -86,7 +84,7 @@ The return value is one of the constants from the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

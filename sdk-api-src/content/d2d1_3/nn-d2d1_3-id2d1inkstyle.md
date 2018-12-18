@@ -9,8 +9,6 @@ ms.assetid: 03853FA5-1377-42FB-A4C2-50069DDF6E2D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1InkStyle, ID2D1InkStyle interface [Direct2D], ID2D1InkStyle interface [Direct2D],described, d2d1_3/ID2D1InkStyle, direct2d.id2d1inkstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
@@ -98,7 +96,7 @@ Sets the pre-transform nib shape for this style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2caee05-192c-1ea5-103c-e1d44e8c30a8">SetNibTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900433(v=VS.85).aspx">SetNibTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transform to apply to this style's nib shape.
 

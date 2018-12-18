@@ -9,8 +9,6 @@ ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

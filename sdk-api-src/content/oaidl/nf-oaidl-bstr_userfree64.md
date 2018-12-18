@@ -9,8 +9,6 @@ ms.assetid: 40ef9c34-243d-49f1-a51f-db9c9f887b55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bstr_userfree64, oaidl/BSTR_UserFree64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

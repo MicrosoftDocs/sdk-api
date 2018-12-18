@@ -9,8 +9,6 @@ ms.assetid: 8b4de920-8e82-4e50-b801-82842da8a6ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFAsyncCallbackLogging, IMFAsyncCallbackLogging interface [Media Foundation], IMFAsyncCallbackLogging interface [Media Foundation],described, mf.imfasynccallbacklogging, mfobjects/IMFAsyncCallbackLogging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

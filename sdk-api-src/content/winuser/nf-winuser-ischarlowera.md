@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsCharLower, IsCharLower function [Menus and Other Resources], IsCharLowerA, _win32_IsCharLower, _win32_ischarlower_cpp, menurc.ischarlower, winui._win32_ischarlower, winuser/IsCharLower, winuser/IsCharLowerA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

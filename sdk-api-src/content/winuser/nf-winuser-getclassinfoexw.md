@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClassInfoEx, GetClassInfoEx function [Windows and Messages], GetClassInfoExA, GetClassInfoExW, _win32_GetClassInfoEx, _win32_getclassinfoex_cpp, winmsg.getclassinfoex, winui._win32_getclassinfoex, winuser/GetClassInfoEx, winuser/GetClassInfoExA, winuser/GetClassInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

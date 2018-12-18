@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightne
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HueSaturationLightnessParams, HueSaturationLightnessParams structure [GDI+], _gdiplus_STRUC_HueSaturationLightnessParams, gdiplus._gdiplus_STRUC_HueSaturationLightnessParams, gdipluseffects/HueSaturationLightnessParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

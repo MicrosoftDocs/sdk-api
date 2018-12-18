@@ -9,8 +9,6 @@ ms.assetid: 4a387936-b045-42c7-b57c-1ac470640a14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyPalette, CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],CopyPalette method, IWICBitmapDecoder.CopyPalette, IWICBitmapDecoder::CopyPalette, _wic_codec_iwicbitmapdecoder_copypalette, wic._wic_codec_iwicbitmapdecoder_copypalette, wincodec/IWICBitmapDecoder::CopyPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 422b9991-c8ac-4e8b-9432-1ccba02f7cfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateArrayNode, CreateArrayNode method [Windows Contacts], CreateArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],CreateArrayNode method, IContactProperties.CreateArrayNode, IContactProperties::CreateArrayNode, _wincontacts_IContactProperties_CreateArrayNode, icontact/IContactProperties::CreateArrayNode, wincontacts._wincontacts_IContactProperties_CreateArrayNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

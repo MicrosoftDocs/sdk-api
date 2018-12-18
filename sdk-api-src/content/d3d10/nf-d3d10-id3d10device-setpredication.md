@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_setpredication.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 20a67636-3d02-6716-b38e-39b2f601230b, ID3D10Device interface [Direct3D 10],SetPredication method, ID3D10Device.SetPredication, ID3D10Device::SetPredication, SetPredication, SetPredication method [Direct3D 10], SetPredication method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetPredication, direct3d10.id3d10device_setpredication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -68,7 +66,7 @@ Pointer to a predicate (see <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 ### -param PredicateValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 If <b>TRUE</b>, rendering will be affected by when the predicate's conditions are met. If <b>FALSE</b>, rendering will be affected when the conditions are not met.
 

@@ -9,8 +9,6 @@ ms.assetid: 5a9f1509-0a69-4db8-8d74-9bf360aca64d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrokePath, StrokePath function [Windows GDI], _win32_StrokePath, gdi.strokepath, wingdi/StrokePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

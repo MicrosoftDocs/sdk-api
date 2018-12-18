@@ -9,8 +9,6 @@ ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

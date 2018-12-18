@@ -9,8 +9,6 @@ ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmdxva.h
 req.include-header: 
@@ -77,7 +75,7 @@ The <b>IWMPlayerTimestampHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67da583f-85da-4a09-be2c-44cf96bf51e7">MapTimestamp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757264(v=VS.85).aspx">MapTimestamp</a>
 </td>
 <td align="left" width="63%">
 Provides the decoder with a time stamp that it will apply to the sample before delivering it to the video renderer.

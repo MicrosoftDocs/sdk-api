@@ -9,8 +9,6 @@ ms.assetid: 401be515-ada9-42be-b8e8-4e86f513bb8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktops], base.switchdesktop, winstation.switchdesktop, winuser/SwitchDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

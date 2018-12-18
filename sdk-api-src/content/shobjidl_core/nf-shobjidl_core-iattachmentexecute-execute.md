@@ -9,8 +9,6 @@ ms.assetid: 80cbbb6c-c6f1-4937-9c1e-4de57aee748c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],Execute method, IAttachmentExecute.Execute, IAttachmentExecute::Execute, _win32_IAttachmentExecute_Execute, shell.IAttachmentExecute_Execute, shobjidl_core/IAttachmentExecute::Execute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

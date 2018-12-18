@@ -9,8 +9,6 @@ ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyCount method, IWMPropertyVault.GetPropertyCount, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,7 +111,7 @@ pdwCount is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
  
 
  

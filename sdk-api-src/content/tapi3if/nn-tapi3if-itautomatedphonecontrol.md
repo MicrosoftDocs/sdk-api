@@ -9,8 +9,6 @@ ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

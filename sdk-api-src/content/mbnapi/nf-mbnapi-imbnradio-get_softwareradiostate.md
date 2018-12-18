@@ -9,8 +9,6 @@ ms.assetid: 8e8cd410-0c8b-4e62-ab8e-65e67f7a81a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SoftwareRadioState property, IMbnRadio.SoftwareRadioState, IMbnRadio.get_SoftwareRadioState, IMbnRadio::SoftwareRadioState, IMbnRadio::get_SoftwareRadioState, SoftwareRadioState property [Microsoft Broadband Networks], SoftwareRadioState property [Microsoft Broadband Networks],IMbnRadio interface, get_SoftwareRadioState, mbn.imbnradio_softwareradiostate, mbnapi/IMbnRadio::SoftwareRadioState, mbnapi/IMbnRadio::get_SoftwareRadioState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

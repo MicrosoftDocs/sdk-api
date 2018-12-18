@@ -9,8 +9,6 @@ ms.assetid: 7f9670a5-2bf3-4971-8f7e-8cc677acfb65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNegotiate method, IWSManEx.SessionFlagUseNegotiate, IWSManEx::SessionFlagUseNegotiate, SessionFlagUseNegotiate, SessionFlagUseNegotiate method [Windows Remote Management], SessionFlagUseNegotiate method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenegotiate, wsmandisp/IWSManEx::SessionFlagUseNegotiate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

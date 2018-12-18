@@ -9,8 +9,6 @@ ms.assetid: 92678d34-9a14-8d58-129c-be31a0963942
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontDownloadListener, IDWriteFontDownloadListener interface [Direct Write], IDWriteFontDownloadListener interface [Direct Write],described, directwrite.idwritefontdownloadlistener, dwrite_3/IDWriteFontDownloadListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
- Application-defined callback interface that receives notifications from the font  download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a> 
+ Application-defined callback interface that receives notifications from the font  download queue (<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a> 
   interface). Callbacks will occur on the downloading thread, and objects must be prepared to handle calls on their methods from other threads at any time.
 
 
@@ -71,7 +69,7 @@ The <b>IDWriteFontDownloadListener</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4da0189-efe4-4ee6-4cc9-179fbda54b98">DownloadCompleted</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890776(v=VS.85).aspx">DownloadCompleted</a>
 </td>
 <td align="left" width="63%">
 The DownloadCompleted method is called back on an arbitrary thread when a    

@@ -9,8 +9,6 @@ ms.assetid: 54b89188-43d3-4997-aef4-48beaae151da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumProperties, EnumProperties method [Windows Runtime], EnumProperties method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumProperties method, IMetaDataImport.EnumProperties, IMetaDataImport::EnumProperties, rometadataapi/IMetaDataImport::EnumProperties, winrt.imetadataimport_enumproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

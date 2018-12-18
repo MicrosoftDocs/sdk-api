@@ -9,8 +9,6 @@ ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

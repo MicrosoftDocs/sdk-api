@@ -9,8 +9,6 @@ ms.assetid: 504938a1-2775-477d-a077-7afc4e333f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual.SetClip(IDCompositionClip), IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(IDCompositionClip), IDCompositionVisual::SetClip(IDCompositionClip*), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_idcompositionclip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -91,7 +89,7 @@ Setting the Clip property clips this visual along with all visuals in the subtre
 If the Clip property previously specified a clip rectangle, the newly specified Clip object replaces the clip rectangle.
 
 This method fails if <i>clip</i> is an invalid pointer or if it was not created by the 
-        same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+        same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface that created this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
       
 
 If <i>clip</i> is NULL, the visual is not clipped relative to its parent. However, the visual is clipped by the clip object of the parent visual, 
@@ -116,11 +114,11 @@ If <i>clip</i> specifies a clip object that has an empty rectangle, the visual i
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

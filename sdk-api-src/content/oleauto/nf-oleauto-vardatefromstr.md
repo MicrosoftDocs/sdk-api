@@ -9,8 +9,6 @@ ms.assetid: a5c21ceb-ed8b-4a95-8957-e9d7fc5bd90e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_HIJRI, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDateFromStr, VarDateFromStr function [Automation], _oa96_VarDateFromStr, automat.vardatefromstr, oleauto/VarDateFromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

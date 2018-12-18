@@ -9,8 +9,6 @@ ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 
@@ -67,9 +65,9 @@ A pointer to a null-terminated, Unicode string that specifies the extension.
 
 ### -param pPropStore [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface that defines the default properties to add.
+A pointer to the <a href="shell.IPropertyStore">IPropertyStore</a> interface that defines the default properties to add.
 
 
 ## -returns

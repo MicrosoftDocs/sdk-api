@@ -9,8 +9,6 @@ ms.assetid: c4238fbe-762a-492f-9eb5-d927e64436e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

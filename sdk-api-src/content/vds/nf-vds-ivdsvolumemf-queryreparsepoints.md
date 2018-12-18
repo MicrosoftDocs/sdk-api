@@ -9,8 +9,6 @@ ms.assetid: ae79355d-2012-42bf-930d-2915c4ca502c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsVolumeMF interface [VDS],QueryReparsePoints method, IVdsVolumeMF.QueryReparsePoints, IVdsVolumeMF::QueryReparsePoints, QueryReparsePoints, QueryReparsePoints method [VDS], QueryReparsePoints method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_queryreparsepoints, vds/IVdsVolumeMF::QueryReparsePoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

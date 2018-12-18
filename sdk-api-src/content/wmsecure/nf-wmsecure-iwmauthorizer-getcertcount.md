@@ -9,8 +9,6 @@ ms.assetid: afe8a924-3d2b-42e6-9700-a6075f51ff10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCertCount, GetCertCount method [windows Media Format], GetCertCount method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCertCount method, IWMAuthorizer.GetCertCount, IWMAuthorizer::GetCertCount, wmformat.iwmauthorizer_getcertcount, wmsecure/IWMAuthorizer::GetCertCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/eece7e36-7c3e-4bc4-9b5a-8142a062dbce">IWMAuthorizer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743287(v=VS.85).aspx">IWMAuthorizer</a>
  
 
  

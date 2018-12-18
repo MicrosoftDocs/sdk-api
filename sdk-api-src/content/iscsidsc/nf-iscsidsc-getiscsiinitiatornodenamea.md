@@ -9,8 +9,6 @@ ms.assetid: 592d9cd8-5944-479c-ba21-7cf911e0a5b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIScsiInitiatorNodeNameA, GetIscsiInitiatorNodeName, GetIscsiInitiatorNodeName function [iSCSI Discovery Library API], GetIscsiInitiatorNodeNameA, GetIscsiInitiatorNodeNameW, iscsidisc.getiscsiinitiatornodename, iscsidsc/GetIscsiInitiatorNodeName, iscsidsc/GetIscsiInitiatorNodeNameA, iscsidsc/GetIscsiInitiatorNodeNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

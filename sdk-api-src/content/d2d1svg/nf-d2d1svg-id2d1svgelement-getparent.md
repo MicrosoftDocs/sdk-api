@@ -9,8 +9,6 @@ ms.assetid: 1396BEE3-23F1-4C07-8A74-BF07F14AB093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParent, GetParent method [Direct2D], GetParent method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetParent method, ID2D1SvgElement.GetParent, ID2D1SvgElement::GetParent, d2d1svg/ID2D1SvgElement::GetParent, direct2d.id2d1svgelement_getparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 

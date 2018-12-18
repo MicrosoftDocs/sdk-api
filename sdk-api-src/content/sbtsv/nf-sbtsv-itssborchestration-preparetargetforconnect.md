@@ -4,13 +4,11 @@ title: ITsSbOrchestration::PrepareTargetForConnect
 author: windows-sdk-content
 description: Prepares the target for a client connection.
 old-location: termserv\itssborchestration_preparetargetforconnect.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 46ffad8a-bafc-426f-9963-9a6f6f60329b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbOrchestration interface [Remote Desktop Services],PrepareTargetForConnect method, ITsSbOrchestration.PrepareTargetForConnect, ITsSbOrchestration::PrepareTargetForConnect, PrepareTargetForConnect, PrepareTargetForConnect method [Remote Desktop Services], PrepareTargetForConnect method [Remote Desktop Services],ITsSbOrchestration interface, sbtsv/ITsSbOrchestration::PrepareTargetForConnect, termserv.itssborchestration_preparetargetforconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

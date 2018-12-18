@@ -9,8 +9,6 @@ ms.assetid: 6E40B8EA-AF61-40CF-B085-13954EDFA71F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory7 interface, ID2D1Factory7 interface [Direct2D],CreateDevice method, ID2D1Factory7.CreateDevice, ID2D1Factory7::CreateDevice, d2d1_3/ID2D1Factory7::CreateDevice, direct2d.id2d1factory7_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ The created device.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

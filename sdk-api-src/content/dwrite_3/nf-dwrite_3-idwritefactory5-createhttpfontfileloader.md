@@ -9,8 +9,6 @@ ms.assetid: 7C8D581E-489D-48BE-8B3F-278E1C246BBA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateHttpFontFileLoader, CreateHttpFontFileLoader method [Direct Write], CreateHttpFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateHttpFontFileLoader method, IDWriteFactory5.CreateHttpFontFileLoader, IDWriteFactory5::CreateHttpFontFileLoader, directwrite.idwritefactory5_createhttpfontfileloader, dwrite_3/IDWriteFactory5::CreateHttpFontFileLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ Optional additional header fields to include in HTTP requests. Each header field
 
 ### -param newLoader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/16CFF7ED-642A-48D8-8C72-3EC68B702E50">IDWriteRemoteFontFileLoader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>**</b>
 
 Receives a pointer to the newly-created loader object.
 
@@ -85,7 +83,7 @@ Receives a pointer to the newly-created loader object.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -101,7 +99,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
  
 
  

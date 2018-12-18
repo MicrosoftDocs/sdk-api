@@ -9,8 +9,6 @@ ms.assetid: 4aaf10bd-e9df-435b-a756-5ae5c1eb2903
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextLogArchiveExtent, GetNextLogArchiveExtent function [Files], clfsw32/GetNextLogArchiveExtent, fs.getnextlogarchiveextent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

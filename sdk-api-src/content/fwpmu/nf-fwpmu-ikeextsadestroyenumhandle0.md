@@ -9,8 +9,6 @@ ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

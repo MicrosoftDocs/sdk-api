@@ -9,8 +9,6 @@ ms.assetid: 28ac372a-6e73-4e66-bf69-bcc244821b71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 28ac372a-6e73-4e66-bf69-bcc244821b71, IMFMediaBuffer interface [Media Foundation],Lock method, IMFMediaBuffer.Lock, IMFMediaBuffer::Lock, Lock, Lock method [Media Foundation], Lock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_lock, mfobjects/IMFMediaBuffer::Lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

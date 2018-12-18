@@ -7,10 +7,8 @@ old-location: p2p\peergroupenummembers.htm
 tech.root: P2PSdk
 ms.assetid: 1201ce0b-961a-4848-9b9c-ad6491e3ff4a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PEER_MEMBER_PRESENT, PeerGroupEnumMembers, PeerGroupEnumMembers function [Peer Networking], p2p.peergroupenummembers, p2p/PeerGroupEnumMembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

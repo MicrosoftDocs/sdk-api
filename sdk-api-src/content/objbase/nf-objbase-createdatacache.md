@@ -9,8 +9,6 @@ ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

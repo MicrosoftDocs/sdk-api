@@ -9,8 +9,6 @@ ms.assetid: 23f63c44-4970-42b2-a19a-0a28e7fb5dea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingType method, IMSVidStreamBufferRecordingControl.get_RecordingType, IMSVidStreamBufferRecordingControl::get_RecordingType, IMSVidStreamBufferRecordingControlget_RecordingType, get_RecordingType, get_RecordingType method [Microsoft TV Technologies], get_RecordingType method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingtype, segment/IMSVidStreamBufferRecordingControl::get_RecordingType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -118,7 +116,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl Interface</a>
  
 
  

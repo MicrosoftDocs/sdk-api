@@ -9,8 +9,6 @@ ms.assetid: 8941b989-f052-4e61-a64a-06748947fcf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMHeaderInfo interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeByName method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo.GetAttributeByName, IWMHeaderInfo2 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo2::GetAttributeByName, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByName method, IWMHeaderInfo3::GetAttributeByName, IWMHeaderInfo::GetAttributeByName, IWMHeaderInfoGetAttributeByName, wmformat.iwmheaderinfo_getattributebyname, wmsdkidl/IWMHeaderInfo2::GetAttributeByName, wmsdkidl/IWMHeaderInfo3::GetAttributeByName, wmsdkidl/IWMHeaderInfo::GetAttributeByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -57,7 +55,7 @@ req.redist:
 
 
 
-The <b>GetAttributeByName</b> method returns a descriptive attribute that is stored in the header section of the ASF file. Now that attribute names can be duplicated in a file, this method is obsolete. To find attributes of a particular name, use <a href="https://msdn.microsoft.com/15c8f0c2-f2d4-441a-b6a9-774da820d03c">IWMHeaderInfo3::GetAttributeIndices</a>.
+The <b>GetAttributeByName</b> method returns a descriptive attribute that is stored in the header section of the ASF file. Now that attribute names can be duplicated in a file, this method is obsolete. To find attributes of a particular name, use <a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeIndices</a>.
 
 
 
@@ -79,7 +77,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the attribute.
 
 ### -param pType [out]
 
-Pointer to a variable that receives a value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. The returned value specifies the data type of the attribute.
+Pointer to a variable that receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. The returned value specifies the data type of the attribute.
 
 
 ### -param pValue [out]
@@ -245,23 +243,23 @@ if( FAILED( hr ) )
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/174969a2-4fe2-477b-9990-051d23bf8a29">IWMHeaderInfo::SetAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>
  
 
  

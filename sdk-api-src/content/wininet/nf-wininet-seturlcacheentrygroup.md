@@ -9,8 +9,6 @@ ms.assetid: b39a96ac-c5b5-4b02-88e2-298a037be25f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

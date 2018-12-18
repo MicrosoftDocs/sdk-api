@@ -9,8 +9,6 @@ ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

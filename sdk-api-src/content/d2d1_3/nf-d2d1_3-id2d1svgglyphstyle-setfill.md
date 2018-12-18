@@ -9,8 +9,6 @@ ms.assetid: 7F8D423C-6A3A-4240-87E9-515F5FE29C1D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgGlyphStyle interface [Direct2D],SetFill method, ID2D1SvgGlyphStyle.SetFill, ID2D1SvgGlyphStyle::SetFill, SetFill, SetFill method [Direct2D], SetFill method [Direct2D],ID2D1SvgGlyphStyle interface, d2d1_3/ID2D1SvgGlyphStyle::SetFill, direct2d.id2d1svgglyphstyle_setfill
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -72,7 +70,7 @@ Describes how the area is painted.  A null brush will cause the context-fill val
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

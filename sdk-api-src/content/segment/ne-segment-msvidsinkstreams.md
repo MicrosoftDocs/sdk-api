@@ -9,8 +9,6 @@ ms.assetid: 11738d9f-25b1-4903-94a4-145202a81380
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Audio, MSVidSinkStreams, MSVidSinkStreams enumeration [Microsoft TV Technologies], MSVidSinkStreamsEnumeration, Other, Video, mstv.msvidsinkstreams, segment/Audio, segment/MSVidSinkStreams, segment/Other, segment/Video
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: segment.h
 req.include-header: Dshow.h
@@ -95,11 +93,11 @@ Indicates a video steam.
 
 
 
-<a href="https://msdn.microsoft.com/e77f2ee8-081b-4415-87b5-ab27ee0218d2">IMSVidGenericSink::get_SinkStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694563(v=VS.85).aspx">IMSVidGenericSink::get_SinkStreams</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f">IMSVidGenericSink::put_SinkStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694564(v=VS.85).aspx">IMSVidGenericSink::put_SinkStreams</a>
 
 
 

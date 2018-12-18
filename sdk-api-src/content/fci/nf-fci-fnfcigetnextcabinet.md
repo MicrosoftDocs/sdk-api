@@ -9,8 +9,6 @@ ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <b>FNFCIGETNEXTCABINET</b> macro provides the declaration for the applicatio
 
 ### -param fn
 
-Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff797925(v=VS.85).aspx">CCAB</a> structure to provide the parameters for the creation of a new cabinet.
 
 
 #### - cbPrevCab
@@ -77,7 +75,7 @@ Pointer to an application-defined value.
 
 
 
-The <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure referenced by this function is relevant to the most recently completed cabinet. However, with each successful operation the  <i>iCab</i> field contained within this structure will have incremented by 1. Additionally, the next cabinet will be created using the fields in this structure.  The szCab, in particular, should be modified as necessary. In particular, the <i>szCab</i> field, which specifies the cabinet name, should be changed for each cabinet.
+The <a href="https://msdn.microsoft.com/en-us/library/Ff797925(v=VS.85).aspx">CCAB</a> structure referenced by this function is relevant to the most recently completed cabinet. However, with each successful operation the  <i>iCab</i> field contained within this structure will have incremented by 1. Additionally, the next cabinet will be created using the fields in this structure.  The szCab, in particular, should be modified as necessary. In particular, the <i>szCab</i> field, which specifies the cabinet name, should be changed for each cabinet.
 
 When creating multiple cabinets, typically the <i>iCab</i> field is used to create the name.
 

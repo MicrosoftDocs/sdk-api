@@ -9,8 +9,6 @@ ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

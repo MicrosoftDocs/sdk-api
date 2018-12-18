@@ -9,8 +9,6 @@ ms.assetid: 933f10b6-1af6-491a-b030-e04208e79f3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDrawingStateBlock, CreateDrawingStateBlock method [Direct2D], CreateDrawingStateBlock method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDrawingStateBlock method, ID2D1Factory.CreateDrawingStateBlock, ID2D1Factory.CreateDrawingStateBlock(ID2D1DrawingStateBlock), ID2D1Factory::CreateDrawingStateBlock, ID2D1Factory::CreateDrawingStateBlock(ID2D1DrawingStateBlock), d2d1/ID2D1Factory::CreateDrawingStateBlock, direct2d.ID2D1Factory_CreateDrawingStateBlock_ptr_ptr_ID2D1DrawingStateBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ When this method returns, contains the address of a pointer to the new drawing s
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

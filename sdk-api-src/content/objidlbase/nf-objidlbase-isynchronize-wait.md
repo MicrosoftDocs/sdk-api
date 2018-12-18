@@ -9,8 +9,6 @@ ms.assetid: 1abed0be-b4e3-41f4-af6c-e327ce934b59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

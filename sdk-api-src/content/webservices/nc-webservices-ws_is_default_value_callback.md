@@ -9,8 +9,6 @@ ms.assetid: 1bfbd405-860e-4888-8363-bbc678d1256a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_IS_DEFAULT_VALUE_CALLBACK, WS_IS_DEFAULT_VALUE_CALLBACK callback, WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows], webservices/WS_IS_DEFAULT_VALUE_CALLBACK, wsw.ws_is_default_value_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Determines if a value is the default value. This callback is used  before a value that is handled
-                by a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CUSTOM_TYPE</a> is serialized.  Support
+                by a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
                 when <a href="https://msdn.microsoft.com/85271aa4-665e-413a-be42-da6f91706bf0">WS_FIELD_OPTIONAL</a> in the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
             

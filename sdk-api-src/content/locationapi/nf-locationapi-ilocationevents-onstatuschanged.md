@@ -9,8 +9,6 @@ ms.assetid: d13d8b72-3188-479f-a70c-52b1a9435b80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnStatusChanged method, ILocationEvents.OnStatusChanged, ILocationEvents::OnStatusChanged, OnStatusChanged, OnStatusChanged method [WinLocation], OnStatusChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onstatuschanged, locationapi/ILocationEvents::OnStatusChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

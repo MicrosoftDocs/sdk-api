@@ -9,8 +9,6 @@ ms.assetid: f58ba3da-a6c2-48a5-b744-edd9581610f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetSubnetDelayOffer, DhcpSetSubnetDelayOffer function [DHCP], dhcp.dhcpsetsubnetdelayoffer, dhcpsapi/DhcpSetSubnetDelayOffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

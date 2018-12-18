@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_5u1x.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],Receive property, IFaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp, faxcom/IFaxStatus::Receive, faxcom/IFaxStatus::get_Receive, get_Receive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a> method.
+To determine if a specified port is currently sending a fax, you can call the <a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">IFaxStatus::get_Send</a> method.
 
 
 
@@ -93,7 +91,7 @@ To determine if a specified port is currently sending a fax, you can call the <a
 
 
 
-<a href="https://msdn.microsoft.com/239b98c5-be46-4e54-83f7-eb7f6250fa57">IFaxStatus::get_Send</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691890(v=VS.85).aspx">IFaxStatus::get_Send</a>
  
 
  

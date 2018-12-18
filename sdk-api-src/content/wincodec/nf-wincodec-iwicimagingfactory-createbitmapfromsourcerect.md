@@ -9,8 +9,6 @@ ms.assetid: 54111643-523a-4197-b7e9-ee0efeae5b88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBitmapFromSourceRect, CreateBitmapFromSourceRect method [Windows Imaging Component], CreateBitmapFromSourceRect method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSourceRect method, IWICImagingFactory.CreateBitmapFromSourceRect, IWICImagingFactory::CreateBitmapFromSourceRect, _wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wic._wic_codec_iwicimagingfactory_createbitmapfromsourcerect, wincodec/IWICImagingFactory::CreateBitmapFromSourceRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

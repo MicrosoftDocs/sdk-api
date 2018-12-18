@@ -9,8 +9,6 @@ ms.assetid: e293c9ae-95bc-4b6e-9074-0277afb6b17c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR8, VarBstrFromR8 function [Automation], _oa96_VarBstrFromR8, automat.varbstrfromr8, oleauto/VarBstrFromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

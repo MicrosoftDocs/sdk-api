@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchScopeRule, ISearchScopeRule interface [search], ISearchScopeRule interface [search],described, _search_ISearchScopeRule, search._search_ISearchScopeRule, searchapi/ISearchScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

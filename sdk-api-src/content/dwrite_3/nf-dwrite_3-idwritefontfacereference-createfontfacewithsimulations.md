@@ -9,8 +9,6 @@ ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method [Direct Write], CreateFontFaceWithSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFaceWithSimulations method, IDWriteFontFaceReference.CreateFontFaceWithSimulations, IDWriteFontFaceReference::CreateFontFaceWithSimulations, directwrite.idwritefontfacereference_createfontfacewithsimulations, dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -67,7 +65,7 @@ Font face simulation flags for algorithmic emboldening and italicization.
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>**</b>
 
 Newly created font face object, or nullptr in the case of failure.
 
@@ -97,7 +95,7 @@ This function can fail with DWRITE_E_REMOTEFONT if the font is not local.
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

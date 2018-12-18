@@ -9,8 +9,6 @@ ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

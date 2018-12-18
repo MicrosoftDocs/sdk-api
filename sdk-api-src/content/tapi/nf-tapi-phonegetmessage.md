@@ -9,8 +9,6 @@ ms.assetid: 8afa17ef-a47f-41af-b120-1e2d5acb4106
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function [TAPI 2.2], tapi/phoneGetMessage, tapi2.phonegetmessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

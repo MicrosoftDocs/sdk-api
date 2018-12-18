@@ -9,8 +9,6 @@ ms.assetid: ac104bf9-7ca7-417a-bd14-09b0e82c6a77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CREATE_NEW, CreateLogFile, CreateLogFile function [Files], DELETE, FILE_ATTRIBUTE_ARCHIVE, FILE_FLAG_OVERLAPPED, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, GENERIC_READ, GENERIC_WRITE, OPEN_ALWAYS, OPEN_EXISTING, clfsw32/CreateLogFile, fs.createlogfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 
@@ -324,11 +322,11 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a>
+<a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>
 
 
 

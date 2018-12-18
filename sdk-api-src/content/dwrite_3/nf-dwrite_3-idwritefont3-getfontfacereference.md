@@ -9,8 +9,6 @@ ms.assetid: 8939ADA0-B2D9-4489-B9AC-EA37776F6340
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],GetFontFaceReference method, IDWriteFont3.GetFontFaceReference, IDWriteFont3::GetFontFaceReference, directwrite.idwritefont3_getfontfacereference, dwrite_3/IDWriteFont3::GetFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,9 +58,9 @@ Gets a font face reference that identifies this font.
 
 ### -param fontFaceReference [out]
 
-Type: <b><a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a> interface for the newly created font face reference object.
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a> interface for the newly created font face reference object.
 
 
 ## -returns
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>
  
 
  

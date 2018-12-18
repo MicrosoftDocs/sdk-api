@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetRange, DateTime_SetRange macro [Windows Controls], GDTR_MAX, GDTR_MIN, _win32_DateTime_SetRange, _win32_DateTime_SetRange_cpp, commctrl/DateTime_SetRange, controls.DateTime_SetRange, controls._win32_DateTime_SetRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the minimum and maximum allowable system times for a date and time picker (
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param gd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A value that specifies which range values are valid. This value can be a combination of the following: 
 

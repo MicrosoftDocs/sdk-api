@@ -9,8 +9,6 @@ ms.assetid: C20BA303-7ECD-4CF3-BB5E-D4509162CD85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WnvOpen, WnvOpen function [Windows Network Virtualization], wnv.wnvopen, wnvapi/WnvOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wnvapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_PowerlineFrequency method, IVideoProcAmp.getRange_PowerlineFrequency, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -80,7 +78,7 @@ Receives the default power line frequency setting.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +99,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

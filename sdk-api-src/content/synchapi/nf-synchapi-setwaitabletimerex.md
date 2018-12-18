@@ -9,8 +9,6 @@ ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -66,7 +64,7 @@ Activates the specified waitable timer and provides context information for the 
 
 ### -param hTimer [in]
 
-A handle to the timer object. The <a href="https://msdn.microsoft.com/9ef51567-7d0f-4a2e-a798-289564733410">CreateWaitableTimer</a> or <a href="https://msdn.microsoft.com/0f9b49ea-5d04-449c-9b7d-f79ab28b548b">OpenWaitableTimer</a> function returns this handle.
+A handle to the timer object. The <a href="https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx">CreateWaitableTimer</a> or <a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> function returns this handle.
 
 The handle must have the <b>TIMER_MODIFY_STATE</b> access right. For more information, see 
 <a href="https://msdn.microsoft.com/92478298-617c-4672-a1cc-9a8e9af40327">Synchronization Object Security and Access Rights</a>.

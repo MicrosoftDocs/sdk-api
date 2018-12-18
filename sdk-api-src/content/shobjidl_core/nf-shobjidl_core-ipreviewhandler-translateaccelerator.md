@@ -9,8 +9,6 @@ ms.assetid: 5e7e71f2-c728-44cb-820b-9a0b28b7266c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],TranslateAccelerator method, IPreviewHandler.TranslateAccelerator, IPreviewHandler::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_TranslateAccelerator, shell.IPreviewHandler_TranslateAccelerator, shobjidl_core/IPreviewHandler::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

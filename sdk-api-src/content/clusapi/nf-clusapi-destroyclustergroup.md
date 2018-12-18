@@ -9,8 +9,6 @@ ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyClusterGroup, DestroyClusterGroup function [Failover Cluster], PCLUSAPI_DESTROY_CLUSTER_GROUP, PCLUSAPI_DESTROY_CLUSTER_GROUP function [Failover Cluster], clusapi/DestroyClusterGroup, clusapi/PCLUSAPI_DESTROY_CLUSTER_GROUP, mscs.destroyclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -93,7 +91,7 @@ The <b>PCLUSAPI_DESTROY_CLUSTER_GROUP</b> type defines a pointer to this functio
 
 Do not call <b>DestroyClusterGroup</b> from a resource 
      DLL. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -111,7 +109,7 @@ Do not call <b>DestroyClusterGroup</b> from a resource
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 7EFE1929-FCDD-48DD-99E4-135D8B515290
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_VERTEX_BUFFER_VIEW, D3D12_VERTEX_BUFFER_VIEW structure, d3d12/D3D12_VERTEX_BUFFER_VIEW, direct3d12.d3d12_vertex_buffer_view
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -77,7 +75,7 @@ Specifies the size in bytes of each vertex entry.
 
 
 
-Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Dn986883(v=VS.85).aspx">IASetVertexBuffers</a> method.
+Use this structure with the <a href="https://msdn.microsoft.com/AADD6CEF-376D-43AB-86E6-37B5D7DD0B25">IASetVertexBuffers</a> method.
 
 
 
@@ -87,7 +85,7 @@ Use this structure with the <a href="https://msdn.microsoft.com/en-us/library/Dn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

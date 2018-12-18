@@ -9,8 +9,6 @@ ms.assetid: 745d51d2-4d9e-4045-929a-2899ff4d2189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundaryBottom property [Windows Touch], BoundaryBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryBottom property, IInertiaProcessor.BoundaryBottom, IInertiaProcessor.get_BoundaryBottom, IInertiaProcessor::BoundaryBottom, IInertiaProcessor::get_BoundaryBottom, IInertiaProcessor::put_BoundaryBottom, get_BoundaryBottom, manipulations/IInertiaProcessor::BoundaryBottom, manipulations/IInertiaProcessor::get_BoundaryBottom, manipulations/IInertiaProcessor::put_BoundaryBottom, wintouch.iinertiaprocessor_bottomboundary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],ReindexMatchingURLs method, ISearchCatalogManager.ReindexMatchingURLs, ISearchCatalogManager::ReindexMatchingURLs, ReindexMatchingURLs, ReindexMatchingURLs method [search], ReindexMatchingURLs method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_ReindexMatchingURLs, search._search_ISearchCatalogManager_ReindexMatchingURLs, searchapi/ISearchCatalogManager::ReindexMatchingURLs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

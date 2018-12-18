@@ -9,8 +9,6 @@ ms.assetid: c5993e47-842d-4392-9b54-2bf6f09c377c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMProfile interface, GetName method [windows Media Format],IWMProfile2 interface, GetName method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetName method, IWMProfile.GetName, IWMProfile2 interface [windows Media Format],GetName method, IWMProfile2::GetName, IWMProfile3 interface [windows Media Format],GetName method, IWMProfile3::GetName, IWMProfile::GetName, IWMProfileGetName, wmformat.iwmprofile_getname, wmsdkidl/IWMProfile2::GetName, wmsdkidl/IWMProfile3::GetName, wmsdkidl/IWMProfile::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -158,15 +156,15 @@ Profiles have names and descriptions that are used when displaying lists of prof
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4b38ec1-8fd8-4bfe-8513-33132379f6da">IWMProfile::SetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757415(v=VS.85).aspx">IWMProfile::SetName</a>
  
 
  

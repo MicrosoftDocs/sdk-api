@@ -9,8 +9,6 @@ ms.assetid: 899cc32e-3a9f-4be0-97a9-2ddd323bf9ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMarkerName, GetMarkerName method [DirectShow], GetMarkerName method [DirectShow],IAMExtendedSeeking interface, IAMExtendedSeeking interface [DirectShow],GetMarkerName method, IAMExtendedSeeking.GetMarkerName, IAMExtendedSeeking::GetMarkerName, IAMExtendedSeekingGetMarkerName, dshow.iamextendedseeking_getmarkername, qnetwork/IAMExtendedSeeking::GetMarkerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -94,11 +92,11 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/719e87c5-7d38-4b02-8342-055e42405511">IAMExtendedSeeking::GetMarkerTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389334(v=VS.85).aspx">IAMExtendedSeeking::GetMarkerTime</a>
  
 
  

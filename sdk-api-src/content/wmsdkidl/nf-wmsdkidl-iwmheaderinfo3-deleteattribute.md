@@ -9,8 +9,6 @@ ms.assetid: a69da90f-c8c5-4bf7-a1d8-7031aa9d1704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteAttribute, DeleteAttribute method [windows Media Format], DeleteAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],DeleteAttribute method, IWMHeaderInfo3.DeleteAttribute, IWMHeaderInfo3::DeleteAttribute, IWMHeaderInfo3DeleteAttribute, wmformat.iwmheaderinfo3_deleteattribute, wmsdkidl/IWMHeaderInfo3::DeleteAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -128,9 +126,9 @@ The method is not implemented on a reader object.
 
 
 
-You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
+You can use 0xFFFF for the stream number to specify an attribute using its global index. Global index values range from 0 to one less than the count of attributes received from a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeCountEx</a> where the stream number was set to 0xFFFF.
 
-When deleting multiple attributes, you should do so in descending order by index value. For convenience, this is the order in which index values are retrieved by <a href="https://msdn.microsoft.com/15c8f0c2-f2d4-441a-b6a9-774da820d03c">IWMHeaderInfo3::GetAttributeIndices</a>.
+When deleting multiple attributes, you should do so in descending order by index value. For convenience, this is the order in which index values are retrieved by <a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeIndices</a>.
 
 
 
@@ -140,7 +138,7 @@ When deleting multiple attributes, you should do so in descending order by index
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
  
 
  

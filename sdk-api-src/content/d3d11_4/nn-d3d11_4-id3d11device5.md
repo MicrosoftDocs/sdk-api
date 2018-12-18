@@ -9,8 +9,6 @@ ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11Device5, ID3D11Device5 interface [Direct3D 11], ID3D11Device5 interface [Direct3D 11],described, d3d11_4/ID3D11Device5, direct3d11.id3d11device5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11_4.h
 req.include-header: 

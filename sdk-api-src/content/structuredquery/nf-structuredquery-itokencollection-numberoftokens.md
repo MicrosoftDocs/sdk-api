@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITokenCollection interface [search],NumberOfTokens method, ITokenCollection.NumberOfTokens, ITokenCollection::NumberOfTokens, NumberOfTokens, NumberOfTokens method [search], NumberOfTokens method [search],ITokenCollection interface, _search_ITokenCollection_NumberOfTokens, search._search_ITokenCollection_NumberOfTokens, structuredquery/ITokenCollection::NumberOfTokens
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

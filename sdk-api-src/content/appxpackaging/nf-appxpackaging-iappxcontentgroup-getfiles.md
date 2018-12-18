@@ -9,8 +9,6 @@ ms.assetid: AC946014-C0A2-45F8-9287-5852FD1B9981
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetFiles method, IAppxContentGroup.GetFiles, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

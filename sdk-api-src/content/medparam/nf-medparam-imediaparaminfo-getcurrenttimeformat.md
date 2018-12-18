@@ -9,8 +9,6 @@ ms.assetid: b93b929c-c1a7-4e8e-93cf-118fcd6a3de9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentTimeFormat, GetCurrentTimeFormat method [DirectShow], GetCurrentTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetCurrentTimeFormat method, IMediaParamInfo.GetCurrentTimeFormat, IMediaParamInfo::GetCurrentTimeFormat, IMediaParamInfoGetCurrentTimeFormat, dshow.imediaparaminfo_getcurrenttimeformat, medparam/IMediaParamInfo::GetCurrentTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
@@ -115,7 +113,7 @@ Success.
 
 
 
-The meaning of the value returned in the <i>pTimeData</i> parameter depends on the time format GUID. For more information, see <a href="https://msdn.microsoft.com/48c28dd8-aeae-4212-9221-ab943113aa76">IMediaParams::SetTimeFormat</a>.
+The meaning of the value returned in the <i>pTimeData</i> parameter depends on the time format GUID. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd406976(v=VS.85).aspx">IMediaParams::SetTimeFormat</a>.
 
 
 
@@ -125,7 +123,7 @@ The meaning of the value returned in the <i>pTimeData</i> parameter depends on t
 
 
 
-<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
  
 
  

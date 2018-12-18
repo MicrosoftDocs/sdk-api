@@ -9,8 +9,6 @@ ms.assetid: 32f98df7-e357-4d17-9e33-f162a6ffb7ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DAD_DragEnterEx, DAD_DragEnterEx function [Windows Shell], shell.DAD_DragEnterEx, shell_DAD_DragEnterEx, shlobj_core/DAD_DragEnterEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

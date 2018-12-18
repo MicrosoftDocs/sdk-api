@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10texture1d_unmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 19252c0c-8539-ab86-d402-c4d9d235f30e, ID3D10Texture1D interface [Direct3D 10],Unmap method, ID3D10Texture1D.Unmap, ID3D10Texture1D::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Texture1D interface, d3d10/ID3D10Texture1D::Unmap, direct3d10.id3d10texture1d_unmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,7 +59,7 @@ Invalidate the pointer to a resource that was retrieved by <a href="https://msdn
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Subresource</a> to be unmapped. See <a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.

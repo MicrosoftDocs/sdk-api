@@ -9,8 +9,6 @@ ms.assetid: 05896FDA-CDC2-474B-AFFB-14326989FA69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_VISIBILITY, D2D1_SVG_VISIBILITY enumeration [Direct2D], D2D1_SVG_VISIBILITY_FORCE_DWORD, D2D1_SVG_VISIBILITY_HIDDEN, D2D1_SVG_VISIBILITY_VISIBLE, d2d1svg/D2D1_SVG_VISIBILITY, d2d1svg/D2D1_SVG_VISIBILITY_FORCE_DWORD, d2d1svg/D2D1_SVG_VISIBILITY_HIDDEN, d2d1svg/D2D1_SVG_VISIBILITY_VISIBLE, direct2d.d2d1_svg_visibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 

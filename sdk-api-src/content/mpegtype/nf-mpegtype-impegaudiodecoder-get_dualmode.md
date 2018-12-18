@@ -9,8 +9,6 @@ ms.assetid: 3b536e8c-91eb-4c32-955f-b343f2c8e16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DualMode method, IMpegAudioDecoder.get_DualMode, IMpegAudioDecoder::get_DualMode, IMpegAudioDecodergetDualMode, dshow.impegaudiodecoder_get_dualmode, get_DualMode, get_DualMode method [DirectShow], get_DualMode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DualMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -134,7 +132,7 @@ The <i>pIntDecode</i> parameter can have one of the values in the following tabl
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

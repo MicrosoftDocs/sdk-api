@@ -9,8 +9,6 @@ ms.assetid: 1bc8bae0-eae7-47bd-a6ac-50ff9bdc2703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, IXpsOMColorProfileResource interface [XPS Documents and Packaging],GetStream method, IXpsOMColorProfileResource.GetStream, IXpsOMColorProfileResource::GetStream, xps.ixpsomcolorprofileresource_getstream, xpsobjectmodel/IXpsOMColorProfileResource::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

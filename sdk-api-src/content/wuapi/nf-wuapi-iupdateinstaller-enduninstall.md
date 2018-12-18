@@ -9,8 +9,6 @@ ms.assetid: a035f566-7ec6-41d5-b5b4-69c2acaa8aae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndUninstall, EndUninstall method [Windows Update Agent], EndUninstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndUninstall method, IUpdateInstaller.EndUninstall, IUpdateInstaller::EndUninstall, wua.iupdateinstaller_enduninstall, wuapi/IUpdateInstaller::EndUninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RealGetWindowClass, RealGetWindowClass function [Windows and Messages], RealGetWindowClassW, _win32_RealGetWindowClass, _win32_realgetwindowclass_cpp, winmsg.realgetwindowclass, winui._win32_realgetwindowclass, winuser/RealGetWindowClass, winuser/RealGetWindowClassW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 35af80c9-7cc7-46c7-899c-c47f56a4ec17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanUseOverlayStretch, CanUseOverlayStretch method [DirectShow], CanUseOverlayStretch method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseOverlayStretch method, IDirectDrawVideo.CanUseOverlayStretch, IDirectDrawVideo::CanUseOverlayStretch, IDirectDrawVideoCanUseOverlayStretch, amvideo/IDirectDrawVideo::CanUseOverlayStretch, dshow.idirectdrawvideo_canuseoverlaystretch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -80,7 +78,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For a description of overlay stretching, see <a href="https://msdn.microsoft.com/e617b40d-ba5b-4fc8-825e-3c751f72bc2c">IDirectDrawVideo::UseOverlayStretch</a>.
+For a description of overlay stretching, see <a href="https://msdn.microsoft.com/en-us/library/Dd406829(v=VS.85).aspx">IDirectDrawVideo::UseOverlayStretch</a>.
 
 
 
@@ -94,7 +92,7 @@ For a description of overlay stretching, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

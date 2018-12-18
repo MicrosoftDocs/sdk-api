@@ -9,8 +9,6 @@ ms.assetid: 71d92f83-f802-4b5c-a3de-4a2ad675318a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDataBytes, GetDataBytes method [Microsoft TV Technologies], GetDataBytes method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetDataBytes method, IISDB_EMM.GetDataBytes, IISDB_EMM::GetDataBytes, dvbsiparser/IISDB_EMM::GetDataBytes, mstv.iisdb_emm_getdatabytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

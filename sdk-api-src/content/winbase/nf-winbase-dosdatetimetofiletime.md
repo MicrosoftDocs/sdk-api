@@ -9,8 +9,6 @@ ms.assetid: 33459ef5-e310-4fe0-bdda-e1db2ffd4888
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DosDateTimeToFileTime, DosDateTimeToFileTime function, _win32_dosdatetimetofiletime, base.dosdatetimetofiletime, winbase/DosDateTimeToFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

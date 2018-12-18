@@ -9,8 +9,6 @@ ms.assetid: 6d178a86-270d-4323-bc9e-5e87f60b3bf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrCStdStubBuffer_Release, NdrCStdStubBuffer_Release function [RPC], rpc.ndrcstdstubbuffer_release, rpcproxy/NdrCStdStubBuffer_Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[IUnknown_Release_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::Release</a> method.
+The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::Release</a> method.
 
 
 ## -parameters
@@ -62,12 +60,12 @@ The <b>NdrCStdStubBuffer_Release</b> function implements the <a href="_com_irpcs
 
 ### -param This [in]
 
-Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
 
 
 ### -param pPSF [in]
 
-Pointer to the <a href="_com_ipsfactorybuffer">IPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">IPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h.
 
 
 ## -returns

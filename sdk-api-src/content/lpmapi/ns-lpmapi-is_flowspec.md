@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.IS_FLOWSPEC
+UID: NS:lpmapi.__unnamed_struct_29
 title: IS_FLOWSPEC
 author: windows-sdk-content
 description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
@@ -7,10 +7,8 @@ old-location: qos\is_flowspec.htm
 tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,12 +59,12 @@ The
 
 ### -field flow_header
 
-General information and length information for the Integrated Services flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+General information and length information for the Integrated Services flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field flow_body
 
-FLOWSPEC object data, expressed as an <a href="https://msdn.microsoft.com/c16115ba-03fa-4363-bf16-5341da54f792">IntServFlowSpec</a> structure.
+FLOWSPEC object data, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373721(v=VS.85).aspx">IntServFlowSpec</a> structure.
 
 
 ## -see-also
@@ -74,11 +72,11 @@ FLOWSPEC object data, expressed as an <a href="https://msdn.microsoft.com/c16115
 
 
 
-<a href="https://msdn.microsoft.com/c16115ba-03fa-4363-bf16-5341da54f792">IntServFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373721(v=VS.85).aspx">IntServFlowSpec</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

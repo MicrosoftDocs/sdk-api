@@ -9,8 +9,6 @@ ms.assetid: 8410c524-9c27-48ac-9a48-c17cae782764
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxPacketSize, GetMaxPacketSize method [windows Media Format], GetMaxPacketSize method [windows Media Format],IWMPacketSize interface, GetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize.GetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],GetMaxPacketSize method, IWMPacketSize2::GetMaxPacketSize, IWMPacketSize::GetMaxPacketSize, IWMPacketSizeGetMaxPacketSize, wmformat.iwmpacketsize_getmaxpacketsize, wmsdkidl/IWMPacketSize2::GetMaxPacketSize, wmsdkidl/IWMPacketSize::GetMaxPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -114,7 +112,7 @@ The <i>pdwMaxPacketSize</i> parameter is <b>NULL</b>.
 
 
 
-For more information, see the Remarks section of <a href="https://msdn.microsoft.com/a8230c08-e60f-454d-93a5-037685d6151c">SetMaxPacketSize</a>.
+For more information, see the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>.
 
 
 
@@ -124,11 +122,11 @@ For more information, see the Remarks section of <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
  
 
  

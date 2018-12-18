@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorlutparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorLUTParams, ColorLUTParams structure [GDI+], _gdiplus_STRUC_ColorLUTParams, gdiplus._gdiplus_STRUC_ColorLUTParams, gdipluseffects/ColorLUTParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

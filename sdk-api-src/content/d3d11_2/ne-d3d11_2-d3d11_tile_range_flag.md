@@ -9,8 +9,6 @@ ms.assetid: 3bab77f9-f18b-4b30-a1d8-09409253bfca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TILE_RANGE_FLAG, D3D11_TILE_RANGE_FLAG enumeration [Direct3D 11], D3D11_TILE_RANGE_NULL, D3D11_TILE_RANGE_REUSE_SINGLE_TILE, D3D11_TILE_RANGE_SKIP, d3d11_2/D3D11_TILE_RANGE_FLAG, d3d11_2/D3D11_TILE_RANGE_NULL, d3d11_2/D3D11_TILE_RANGE_REUSE_SINGLE_TILE, d3d11_2/D3D11_TILE_RANGE_SKIP, direct3d11.d3d11_tile_range_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Specifies a range of tile mappings to use with <a href="https://msdn.microsoft.com/en-us/library/Dn280509(v=VS.85).aspx">ID3D11DeviceContext2::UpdateTiles</a>.
+Specifies a range of tile mappings to use with <a href="https://msdn.microsoft.com/EB0F9CBD-29B2-484D-8923-6686C73487F7">ID3D11DeviceContext2::UpdateTiles</a>.
 
 
 ## -enum-fields
@@ -78,11 +76,11 @@ Reuse a single tile in the tile range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280509(v=VS.85).aspx">ID3D11DeviceContext2::UpdateTiles</a>
+<a href="https://msdn.microsoft.com/EB0F9CBD-29B2-484D-8923-6686C73487F7">ID3D11DeviceContext2::UpdateTiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

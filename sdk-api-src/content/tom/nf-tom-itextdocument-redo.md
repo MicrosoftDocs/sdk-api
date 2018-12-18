@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument interface [Windows Controls],Redo method, ITextDocument.Redo, ITextDocument::Redo, Redo, Redo method [Windows Controls], Redo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1b05ef87-5559-4310-942c-54ab113eb42d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1b05ef87-5559-4310-942c-54ab113eb42d, AddStreamSink, AddStreamSink method [Media Foundation], AddStreamSink method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],AddStreamSink method, IMFMediaSink.AddStreamSink, IMFMediaSink::AddStreamSink, mf.imfmediasink_addstreamsink, mfidl/IMFMediaSink::AddStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

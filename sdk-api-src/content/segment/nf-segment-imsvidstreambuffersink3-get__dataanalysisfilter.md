@@ -9,8 +9,6 @@ ms.assetid: 6ca6bef1-807c-4dfb-bb9e-ef90af70e981
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get__DataAnalysisFilter method, IMSVidStreamBufferSink3.get__DataAnalysisFilter, IMSVidStreamBufferSink3::get__DataAnalysisFilter, IMSVidStreamBufferSink3get__DataAnalysisFilter, get__DataAnalysisFilter, get__DataAnalysisFilter method [Microsoft TV Technologies], get__DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get__dataanalysisfilter, segment/IMSVidStreamBufferSink3::get__DataAnalysisFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -83,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5768936b-9c0a-4177-82da-cc6ebe62ea67">IMSVidStreamBufferSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694627(v=VS.85).aspx">IMSVidStreamBufferSink3 Interface</a>
  
 
  

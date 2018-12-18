@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxJob interface [Fax Service],UserName property, IFaxJob.UserName, IFaxJob.get_UserName, IFaxJob::UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_mfax_ifaxjob_get_username_cpp, faxcom/IFaxJob::UserName, faxcom/IFaxJob::get_UserName, get_UserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -88,7 +86,7 @@ You can use the <b>IFaxJob::get_UserName</b> property to retrieve the name of th
 
 
 
-<a href="https://msdn.microsoft.com/31a02244-4ea4-4231-aec3-3d699defcfc4">IFaxJob::get_SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">IFaxJob::get_SenderName</a>
 
 
 

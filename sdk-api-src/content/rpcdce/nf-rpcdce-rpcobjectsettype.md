@@ -9,8 +9,6 @@ ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

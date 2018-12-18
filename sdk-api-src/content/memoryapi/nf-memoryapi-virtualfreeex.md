@@ -9,8 +9,6 @@ ms.assetid: 2e5c862c-1251-49da-9c3a-90b09e488d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_COALESCE_PLACEHOLDERS, MEM_DECOMMIT, MEM_PRESERVE_PLACEHOLDER, MEM_RELEASE, VirtualFreeEx, VirtualFreeEx function, _win32_virtualfreeex, base.virtualfreeex, winbase/VirtualFreeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -130,7 +128,7 @@ To coalesce two adjacent placeholders, specify <code>MEM_RELEASE | MEM_COALESCE_
 </dl>
 </td>
 <td width="60%">
-Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using <a href="base.virtualalloc2">VirtualAlloc2</a> or <a href="base.virtualalloc2fromapp">Virtual2AllocFromApp</a>).
+Frees an allocation back to a placeholder (after you've replaced a placeholder with a private allocation using <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> or <a href="https://msdn.microsoft.com/en-us/library/Mt832850(v=VS.85).aspx">Virtual2AllocFromApp</a>).
 
 To split a placeholder into two placeholders, specify <code>MEM_RELEASE | MEM_PRESERVE_PLACEHOLDER</code>.
 

@@ -9,8 +9,6 @@ ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_type method, IWMPLibrary.get_type, IWMPLibrary::get_type, IWMPLibraryget_type, get_type, get_type method [Windows Media Player], get_type method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,15 +106,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/28f1e3bc-3692-4fd0-a0b3-fecc3a173103">IWMPLibrary::get_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563393(v=VS.85).aspx">IWMPLibrary::get_name</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf0e7140-5a33-4841-bd55-ac07dae09c41">WMPLibraryType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564875(v=VS.85).aspx">WMPLibraryType</a>
  
 
  

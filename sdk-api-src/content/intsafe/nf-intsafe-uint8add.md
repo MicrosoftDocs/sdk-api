@@ -9,8 +9,6 @@ ms.assetid: 576be346-55bc-41a7-93d3-612b6ef8a267
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UInt8Add, UInt8Add function [Windows Shell], intsafe/UInt8Add, shell.UInt8Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

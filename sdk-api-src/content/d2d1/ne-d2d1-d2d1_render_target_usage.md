@@ -9,8 +9,6 @@ ms.assetid: 12d717c4-5f81-4bbf-a693-042e51913081
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_RENDER_TARGET_USAGE, D2D1_RENDER_TARGET_USAGE enumeration [Direct2D], D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING, D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE, D2D1_RENDER_TARGET_USAGE_NONE, d2d1/D2D1_RENDER_TARGET_USAGE, d2d1/D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING, d2d1/D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE, d2d1/D2D1_RENDER_TARGET_USAGE_NONE, direct2d.D2D1_RENDER_TARGET_USAGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
@@ -83,7 +81,7 @@ The render target can be used efficiently with GDI.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368155(v=VS.85).aspx">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: thrdbase.h
 req.include-header: FwCommon.h
@@ -75,7 +73,7 @@ The <b>CThreadBase</b> class is a base class that supplies the internal thread s
 <a href="https://msdn.microsoft.com/B5F1F8DD-9769-40A6-B743-4F4DF4B8C363">FlagDefs</a>
 </td>
 <td align="left" width="63%">
-Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://msdn.microsoft.com/1d6d1006-99b9-4646-a5c4-835940ce3ac0">Provider::ValidateFlags</a> method.
+Specifies which flags are valid for the specified type of operation. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa392887(v=VS.85).aspx">Provider::ValidateFlags</a> method.
 
 </td>
 </tr>

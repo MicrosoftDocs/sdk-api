@@ -9,8 +9,6 @@ ms.assetid: 8dd403c1-7740-4f60-8b74-02e3b0a645e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderUnsubscribeChanges0, FwpmProviderUnsubscribeChanges0 function [Filtering], fwp.fwpmproviderunsubscribechanges0_func, fwpmu/FwpmProviderUnsubscribeChanges0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

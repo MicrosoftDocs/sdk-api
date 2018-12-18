@@ -9,8 +9,6 @@ ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -79,7 +77,7 @@ Pointer to a variable that specifies the start position
 
 ### -param ppDescriptor [out]
 
-Receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>interface pointer. Use this interface to retrieve the information
+Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>interface pointer. Use this interface to retrieve the information
   in the descriptor. The caller must release the interface.
 
 
@@ -98,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
 
 
 

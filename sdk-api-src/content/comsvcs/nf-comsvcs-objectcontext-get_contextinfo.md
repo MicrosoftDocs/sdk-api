@@ -9,8 +9,6 @@ ms.assetid: 1974edd5-3348-4ac4-a80c-c549f2d79161
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ObjectContext interface [COM+],get_ContextInfo method, ObjectContext.get_ContextInfo, ObjectContext::get_ContextInfo, _cos_ObjectContext_get_ContextInfo, comsvcs/ObjectContext::get_ContextInfo, cos.objectcontext_get_contextinfo, get_ContextInfo, get_ContextInfo method [COM+], get_ContextInfo method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the context information object of the current object's context.
 
 ### -param ppContextInfo [out]
 
-A reference to a <a href="https://msdn.microsoft.com/en-us/library/ms687780(v=VS.85).aspx">ContextInfo</a> interface that contains the context information.
+A reference to a <a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a> interface that contains the context information.
 
 
 ## -returns
@@ -77,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678909(v=VS.85).aspx">ObjectContext</a>
+<a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a>
  
 
  

@@ -1,5 +1,5 @@
 ---
-UID: NS:emi.EMI_CHANNEL_MEASUREMENT_DATA
+UID: NS:emi.__unnamed_struct_2
 title: EMI_CHANNEL_MEASUREMENT_DATA
 author: windows-sdk-content
 description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
@@ -7,10 +7,8 @@ old-location: powermeter\emi_measurement_data.htm
 tech.root: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
 ms.author: windowssdkdev
-ms.date: 11/06/2018
+ms.date: 12/5/2018
 ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_MEASUREMENT_DATA_V1, PEMI_MEASUREMENT_DATA, PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_MEASUREMENT_DATA, powermeter.emi_measurement_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h
@@ -60,7 +58,7 @@ The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy
 
 ### -field AbsoluteEnergy
 
-The total accumulated energy in the units specified by the <b>MeasurementUnit</b> field of the 	<a href="https://msdn.microsoft.com/8992AA5D-7D71-4D00-9B18-FE070D29C26E">EMI_METADATA</a> struct returned by <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
+The total accumulated energy in the units specified by the <b>MeasurementUnit</b> field of the 	<a href="https://msdn.microsoft.com/en-us/library/Dn957428(v=VS.85).aspx">EMI_METADATA</a> struct returned by <a href="https://msdn.microsoft.com/3A1A76B0-2A46-4C15-84BC-CE75701C30B7">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
 
 
 ### -field AbsoluteTime

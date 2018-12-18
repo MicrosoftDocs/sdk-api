@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument interface [Windows Controls],New method, ITextDocument.New, ITextDocument::New, New, New method [Windows Controls], New method [Windows Controls],ITextDocument interface, _win32_ITextDocument_New, _win32_ITextDocument_New_cpp, controls.ITextDocument_New, controls._win32_ITextDocument_New, tom/ITextDocument::New
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

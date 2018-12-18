@@ -9,8 +9,6 @@ ms.assetid: 97865752-e4bf-4f91-b481-22d9c8b3e090
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPStringCollection interface [Windows Media Player],get_count method, IWMPStringCollection.get_count, IWMPStringCollection::get_count, IWMPStringCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPStringCollection interface, wmp.iwmpstringcollection_get_count, wmp/IWMPStringCollection::get_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,15 +106,15 @@ To retrieve the value of this method, read access to the library is required. Fo
 
 
 
-<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/925a4c0b-d613-4248-a341-bfc51d02cb85">IWMPSettings2::requestMediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563652(v=VS.85).aspx">IWMPSettings2::requestMediaAccessRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
  
 
  

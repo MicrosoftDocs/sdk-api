@@ -9,8 +9,6 @@ ms.assetid: 5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?SetDMTF@WBEMTime@@QAEHQAG@Z, SetDMTF, SetDMTF method [Windows Management Instrumentation], SetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],SetDMTF method, WBEMTime.SetDMTF, WBEMTime::SetDMTF, _hmm_wbemtime_setdmtf, wbemtime/WBEMTime::SetDMTF, wmi.wbemtime_setdmtf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
@@ -106,11 +104,11 @@ Because <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 
 
 
-<a href="https://msdn.microsoft.com/f1fe92cc-1d51-4bd7-950b-84c76b001163">WBEMTime::GetBSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394018(v=VS.85).aspx">WBEMTime::GetBSTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394019(v=VS.85).aspx">WBEMTime::GetDMTF</a>
  
 
  

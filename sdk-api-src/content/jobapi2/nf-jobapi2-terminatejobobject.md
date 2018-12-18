@@ -9,8 +9,6 @@ ms.assetid: ff8eb4a8-26d0-4f01-ab56-3c51fb16e87c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TerminateJobObject, TerminateJobObject function, _win32_terminatejobobject, base.terminatejobobject, winbase/TerminateJobObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
 req.include-header: Windows.h, Jobapi2.h

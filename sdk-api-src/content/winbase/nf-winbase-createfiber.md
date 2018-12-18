@@ -9,8 +9,6 @@ ms.assetid: 3e44776b-7ef2-43fb-a2ae-e8ab7e20644b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFiber, CreateFiber function, _win32_createfiber, base.createfiber, winbase/CreateFiber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

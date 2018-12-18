@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\lowquota
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],LowQuotaWaterMark property, IFaxConfiguration.LowQuotaWaterMark, IFaxConfiguration.get_LowQuotaWaterMark, IFaxConfiguration::LowQuotaWaterMark, IFaxConfiguration::get_LowQuotaWaterMark, IFaxConfiguration::put_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_LowQuotaWaterMark, fax._mfax_IFaxConfiguration_LowQuotaWaterMark, faxcomex/IFaxConfiguration::LowQuotaWaterMark, faxcomex/IFaxConfiguration::get_LowQuotaWaterMark, faxcomex/IFaxConfiguration::put_LowQuotaWaterMark, get_LowQuotaWaterMark
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

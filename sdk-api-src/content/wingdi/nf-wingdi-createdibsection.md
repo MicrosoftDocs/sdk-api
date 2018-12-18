@@ -9,8 +9,6 @@ ms.assetid: 9276ec84-2860-42be-a9f8-d4efb8d25eec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDIBSection, CreateDIBSection function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBSection, gdi.createdibsection, wingdi/CreateDIBSection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

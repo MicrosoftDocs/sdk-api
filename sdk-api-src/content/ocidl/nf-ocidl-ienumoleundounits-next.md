@@ -9,8 +9,6 @@ ms.assetid: bd5ce157-37d1-4e27-a0d4-ed9cffeac2b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Next, IEnumOleUndoUnits::Next, Next, Next method [COM], Next method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

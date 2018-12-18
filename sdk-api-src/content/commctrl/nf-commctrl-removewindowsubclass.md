@@ -9,8 +9,6 @@ ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

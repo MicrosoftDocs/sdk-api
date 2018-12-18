@@ -9,8 +9,6 @@ ms.assetid: 5b6333fc-f1c3-4c76-906c-0fd13bb73953
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortProc, gdi.setabortproc, wingdi/SetAbortProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

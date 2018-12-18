@@ -9,8 +9,6 @@ ms.assetid: 756ad613-bc6b-48fb-a079-c192aa98ccfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginInstall method, IUpdateInstaller.BeginInstall, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

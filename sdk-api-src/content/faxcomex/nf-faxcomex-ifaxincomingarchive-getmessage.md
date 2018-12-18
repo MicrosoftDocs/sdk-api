@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_223p.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],GetMessage method, IFaxIncomingArchive.GetMessage, IFaxIncomingArchive::GetMessage, _mfax_faxincomingarchive.getmessage, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp, fax._mfax_faxincomingarchive_getmessage, faxcomex/IFaxIncomingArchive::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,9 +66,9 @@ Specifies a null-terminated string that contains the message ID of the fax to re
 
 ### -param pFaxIncomingMessage [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/29fa30c9-d4f2-4ed5-95fc-873f2263c7bb">IFaxIncomingMessage</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms686128(v=VS.85).aspx">IFaxIncomingMessage</a>**</b>
 
-A <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object.
 
 
 ## -returns
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right. 
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right. 
 
 
 
@@ -98,15 +96,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/a81d6314-b26f-4946-896e-218a0095938f">FaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687473(v=VS.85).aspx">FaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/0442fc06-20b8-4608-8532-c8901832f39b">IFaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

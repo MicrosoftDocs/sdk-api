@@ -9,8 +9,6 @@ ms.assetid: c3699acb-58a1-4efa-a42c-c84534abca96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAttributeStringCollection method, IWMPMediaCollection.getAttributeStringCollection, IWMPMediaCollection::getAttributeStringCollection, IWMPMediaCollectiongetAttributeStringCollection, getAttributeStringCollection, getAttributeStringCollection method [Windows Media Player], getAttributeStringCollection method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getattributestringcollection, wmp/IWMPMediaCollection::getAttributeStringCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -120,11 +118,11 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
  
 
  

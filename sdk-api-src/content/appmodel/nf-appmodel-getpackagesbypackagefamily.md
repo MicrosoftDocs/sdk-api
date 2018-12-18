@@ -9,8 +9,6 @@ ms.assetid: C2163203-D654-4491-9090-0CC43F42EC35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackagesByPackageFamily, GetPackagesByPackageFamily function [App packaging and management], appmodel/GetPackagesByPackageFamily, appxpkg.getpackagesbypackagefamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

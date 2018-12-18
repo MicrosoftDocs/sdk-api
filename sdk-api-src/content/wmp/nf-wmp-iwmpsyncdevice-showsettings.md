@@ -9,8 +9,6 @@ ms.assetid: 496bb3b6-d942-4d53-8e66-5aed5f574343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],showSettings method, IWMPSyncDevice.showSettings, IWMPSyncDevice::showSettings, IWMPSyncDeviceshowSettings, showSettings, showSettings method [Windows Media Player], showSettings method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_showsettings, wmp/IWMPSyncDevice::showSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -155,7 +153,7 @@ Note that the events for docking and undocking Windows Media Player will occur n
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
  
 
  

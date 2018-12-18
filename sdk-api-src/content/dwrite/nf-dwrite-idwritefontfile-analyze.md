@@ -9,8 +9,6 @@ ms.assetid: 71acbcf8-3024-4e04-ac8e-89cf026b9e91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Analyze, Analyze method [Direct Write], Analyze method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],Analyze method, IDWriteFontFile.Analyze, IDWriteFontFile::Analyze, directwrite.IDWriteFontFile_Analyze, dwrite/IDWriteFontFile::Analyze
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

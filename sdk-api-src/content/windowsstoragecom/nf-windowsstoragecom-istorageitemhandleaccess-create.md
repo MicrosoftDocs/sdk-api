@@ -9,8 +9,6 @@ ms.assetid: 2BBF5CFE-0212-4133-BA19-DEA322ED5569
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageItemHandleAccess interface, IStorageItemHandleAccess interface [Windows Runtime],Create method, IStorageItemHandleAccess.Create, IStorageItemHandleAccess::Create, windowsstoragecom/IStorageItemHandleAccess::Create, winrt.istorageitemhandleaccess_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 

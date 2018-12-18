@@ -9,8 +9,6 @@ ms.assetid: ba3d9748-5d3b-49ec-ac69-287a253caa12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveGraph method, IESEventServiceConfiguration.RemoveGraph, IESEventServiceConfiguration::RemoveGraph, RemoveGraph, RemoveGraph method [Microsoft TV Technologies], RemoveGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removegraph, tuner/IESEventServiceConfiguration::RemoveGraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -60,7 +58,7 @@ Removes an event service that implements the <a href="https://msdn.microsoft.com
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a> interface for the event service that is removed.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a> interface for the event service that is removed.
 
 
 ## -returns
@@ -85,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a>
  
 
  

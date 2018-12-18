@@ -9,8 +9,6 @@ ms.assetid: 5d986301-368e-4984-9f90-e2af1f87cbea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertLengthToIpv4Mask, ConvertLengthToIpv4Mask function [IP Helper], iphlp.convertlengthtoipv4mask, netioapi/ConvertLengthToIpv4Mask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

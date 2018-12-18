@@ -9,8 +9,6 @@ ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImage method, IWMImageInfo.GetImage, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>GetImage</b> method retrieves an image stored in a file as an ID3v2 "APIC
 
 ### -param wIndex [in]
 
-<b>WORD</b> containing the image index. This is a number between zero, and one less than the image count retrieved by <a href="https://msdn.microsoft.com/95cf5906-9cbc-4bba-8892-236672cf4068">IWMImageInfo::GetImageCount</a>.
+<b>WORD</b> containing the image index. This is a number between zero, and one less than the image count retrieved by <a href="https://msdn.microsoft.com/en-us/library/Dd798530(v=VS.85).aspx">IWMImageInfo::GetImageCount</a>.
 
 
 ### -param pcchMIMEType [in, out]
@@ -276,11 +274,11 @@ The value referenced by one of the following parameters is less than the require
 
 
 
-<a href="https://msdn.microsoft.com/95cf5906-9cbc-4bba-8892-236672cf4068">GetImageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798530(v=VS.85).aspx">GetImageCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3b4224-f86d-437c-969e-fe30e6d002a8">IWMImageInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798528(v=VS.85).aspx">IWMImageInfo Interface</a>
  
 
  

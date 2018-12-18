@@ -9,8 +9,6 @@ ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

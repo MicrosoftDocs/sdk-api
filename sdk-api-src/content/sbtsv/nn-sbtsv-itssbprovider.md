@@ -4,13 +4,11 @@ title: ITsSbProvider
 author: windows-sdk-content
 description: Exposes methods that create default implementations of objects that are used in Remote Desktop Virtualization.
 old-location: termserv\itssbprovider.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a8574750-d86e-4b0d-a534-d005596e2a33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], ITsSbProvider interface [Remote Desktop Services],described, sbtsv/ITsSbProvider, termserv.itssbprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

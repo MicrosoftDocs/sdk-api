@@ -9,8 +9,6 @@ ms.assetid: 446b535c-d576-4f96-8b74-305e34cb99d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBootOptions, IBootOptions interface [IMAPI], IBootOptions interface [IMAPI],described, imapi.ibootoptions, imapi2fs/IBootOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

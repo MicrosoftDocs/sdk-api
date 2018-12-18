@@ -9,8 +9,6 @@ ms.assetid: fa91794c-c502-4b36-84cc-a8d77c8e9d9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaNtStatusToWinError, LsaNtStatusToWinError function [Security], _lsa_lsantstatustowinerror, ntsecapi/LsaNtStatusToWinError, security.lsantstatustowinerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

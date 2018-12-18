@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuic
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIContextualUI, IUIContextualUI interface [Windows Ribbon], IUIContextualUI interface [Windows Ribbon],described, scenicintent_IUIContextualUI, uiribbon/IUIContextualUI, windowsribbon.windowsribbon_iuicontextualui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

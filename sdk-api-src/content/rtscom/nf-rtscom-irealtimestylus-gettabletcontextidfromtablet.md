@@ -9,8 +9,6 @@ ms.assetid: 9f4cc882-c25f-4862-8b78-4db108d0b5d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9f4cc882-c25f-4862-8b78-4db108d0b5d4, GetTabletContextIdFromTablet, GetTabletContextIdFromTablet method [Tablet PC], GetTabletContextIdFromTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTabletContextIdFromTablet method, IRealTimeStylus.GetTabletContextIdFromTablet, IRealTimeStylus::GetTabletContextIdFromTablet, rtscom/IRealTimeStylus::GetTabletContextIdFromTablet, tablet.irealtimestylus_gettabletcontextidfromtablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: nla\inetworkcostmanager_getcost.htm
 tech.root: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

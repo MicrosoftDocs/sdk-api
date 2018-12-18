@@ -9,8 +9,6 @@ ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmReleaseChangedDests, RtmReleaseChangedDests function [RAS], _rtmv2ref_rtmreleasechangeddests, rras.rtmreleasechangeddests, rtmv2/RtmReleaseChangedDests
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

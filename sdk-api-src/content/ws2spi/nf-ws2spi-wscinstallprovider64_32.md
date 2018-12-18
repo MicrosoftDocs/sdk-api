@@ -9,8 +9,6 @@ ms.assetid: 50d3a5d1-18f2-439e-a16c-6f31becb1e65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock], winsock.wscinstallprovider64_32, ws2spi/WSCInstallProvider64_32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

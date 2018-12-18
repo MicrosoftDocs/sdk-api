@@ -9,8 +9,6 @@ ms.assetid: a05e2ba8-dfe1-447d-acfa-0eb8f4252107
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdMapMemory, DdMapMemory callback function [Display Devices], PDD_MAPMEMORY, PDD_MAPMEMORY callback, ddfncs_565a064a-cd87-4f20-8478-05176ce57ad8.xml, ddrawint/DdMapMemory, display.ddmapmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

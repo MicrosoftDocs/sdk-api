@@ -9,8 +9,6 @@ ms.assetid: a46ac5b5-bc44-4857-a7fb-4f35d438e3f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

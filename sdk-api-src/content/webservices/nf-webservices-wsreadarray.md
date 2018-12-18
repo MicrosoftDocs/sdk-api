@@ -9,8 +9,6 @@ ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -84,7 +82,7 @@ The value type to use to parse the content of each element.
 ### -param array
 
 The array to populate with parsed values.  The size of the array items is determined by the value type.
-          See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
+          See <a href="https://msdn.microsoft.com/en-us/library/Dd323504(v=VS.85).aspx">WS_VALUE_TYPE</a> for more information.
         
 
 

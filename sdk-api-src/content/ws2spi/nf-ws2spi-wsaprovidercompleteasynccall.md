@@ -9,8 +9,6 @@ ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAProviderCompleteAsyncCall, WSAProviderCompleteAsyncCall function [Winsock], winsock.wsaprovidercompleteasynccall, ws2spi/WSAProviderCompleteAsyncCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

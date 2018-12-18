@@ -9,8 +9,6 @@ ms.assetid: c4e0eca5-442b-462b-a4f2-0c628b6d3d38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillRgn, FillRgn function [Windows GDI], _win32_FillRgn, gdi.fillrgn, wingdi/FillRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

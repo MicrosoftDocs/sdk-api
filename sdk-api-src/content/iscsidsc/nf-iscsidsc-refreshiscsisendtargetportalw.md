@@ -9,8 +9,6 @@ ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RefreshIScsiSendTargetPortalW, RefreshIscsiSendTargetPortal, RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API], RefreshIscsiSendTargetPortalA, RefreshIscsiSendTargetPortalW, iscsidisc.refreshiscsisendtargetportal, iscsidsc/RefreshIscsiSendTargetPortal, iscsidsc/RefreshIscsiSendTargetPortalA, iscsidsc/RefreshIscsiSendTargetPortalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 
@@ -72,7 +70,7 @@ The port number on the HBA to use for the <b>SendTargets</b> request. If the val
 
 ### -param Portal [in]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>  indicating the portal to which the iSCSI initiator service sends the <b>SendTargets</b> request to refresh the list of targets.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a>  indicating the portal to which the iSCSI initiator service sends the <b>SendTargets</b> request to refresh the list of targets.
 
 
 ## -returns
@@ -90,7 +88,7 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-<a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a>
  
 
  

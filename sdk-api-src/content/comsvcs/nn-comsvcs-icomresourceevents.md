@@ -9,8 +9,6 @@ ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Notifies the subscriber if a resource is created, allocated, tracked, or destroyed. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a resource is created, allocated, tracked, or destroyed. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
@@ -106,7 +104,7 @@ Generated when an object is finished with a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683619(v=VS.85).aspx">OnResourceTrack</a>
+<a href="https://msdn.microsoft.com/8845cf07-f796-45bd-9d3d-261cf0903050">OnResourceTrack</a>
 </td>
 <td align="left" width="63%">
 Generated when a resource is tracked.
@@ -121,11 +119,11 @@ Generated when a resource is tracked.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
  
 
  

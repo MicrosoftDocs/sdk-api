@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0z1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],get_AvailableOperations method, IFaxIncomingJob.get_AvailableOperations, IFaxIncomingJob::get_AvailableOperations, _mfax_faxincomingjob.availableoperations_cpp, fax._mfax_faxincomingjob_availableoperations_cpp, faxcomex/IFaxIncomingJob::get_AvailableOperations, get_AvailableOperations, get_AvailableOperations method [Fax Service], get_AvailableOperations method [Fax Service],IFaxIncomingJob interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -60,9 +58,9 @@ Retrieves the <b>AvailableOperations</b> property of a <a href="https://msdn.mic
 
 ### -param pAvailableOperations [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms688006(v=VS.85).aspx">FAX_JOB_OPERATIONS_ENUM</a>*</b>
 
-Pointer to a <b>long</b> value from the <a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a> enumeration that specifies a bitwise combination of the operations that you can currently perform on the fax job. Some operations are mutually exclusive. For example, you cannot pause a job that has already been paused. 
+Pointer to a <b>long</b> value from the <a href="https://msdn.microsoft.com/en-us/library/ms688006(v=VS.85).aspx">FAX_JOB_OPERATIONS_ENUM</a> enumeration that specifies a bitwise combination of the operations that you can currently perform on the fax job. Some operations are mutually exclusive. For example, you cannot pause a job that has already been paused. 
 
 
 ## -returns
@@ -81,15 +79,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/04149d5c-e26f-4cef-9ae0-eba2a199ec51">AvailableOperations</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684593(v=VS.85).aspx">AvailableOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/557655b9-d59b-4255-b071-4c1fbec3a889">FAX_JOB_OPERATIONS_ENUM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688006(v=VS.85).aspx">FAX_JOB_OPERATIONS_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
  
 
  

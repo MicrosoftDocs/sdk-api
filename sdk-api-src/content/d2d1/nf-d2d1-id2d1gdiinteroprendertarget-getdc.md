@@ -9,8 +9,6 @@ ms.assetid: 40797258-84a0-44ee-8b64-04ceb3eb1998
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDC, GetDC method [Direct2D], GetDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, ID2D1GdiInteropRenderTarget interface [Direct2D],GetDC method, ID2D1GdiInteropRenderTarget.GetDC, ID2D1GdiInteropRenderTarget::GetDC, d2d1/ID2D1GdiInteropRenderTarget::GetDC, direct2d.ID2D1GdiInteropRenderTarget_GetDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -76,7 +74,7 @@ When this method returns, contains the device context associated with this rende
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

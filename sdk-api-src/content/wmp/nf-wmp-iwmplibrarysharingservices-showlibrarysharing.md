@@ -9,8 +9,6 @@ ms.assetid: 87c335ee-c9af-4182-a460-118c53308dad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],showLibrarySharing method, IWMPLibrarySharingServices.showLibrarySharing, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -107,7 +105,7 @@ The <b>Library Sharing</b> dialog box enables the user to configure library shar
 
 
 
-<a href="https://msdn.microsoft.com/24cac18c-a3aa-4cd0-b5f7-025db2eed0b8">IWMPLibrarySharingServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563388(v=VS.85).aspx">IWMPLibrarySharingServices Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMHALF2, XMHALF2 constructor [DirectX Math Support APIs], XMHALF2 constructor [DirectX Math Support APIs],XMHALF2 structure, XMHALF2 structure [DirectX Math Support APIs],XMHALF2 constructor, XMHALF2.XMHALF2, XMHALF2.XMHALF2(), XMHALF2::XMHALF2, dxmath.xmhalf2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMHALF2</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -83,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-b
 
 
 
-<a href="https://msdn.microsoft.com/0b9229f5-5d6c-4ade-ba2f-e90933dc3289">XMHALF2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419652(v=VS.85).aspx">XMHALF2</a>
 
 
 
-<a href="https://msdn.microsoft.com/42a8fc31-2f0a-4a6b-82e7-1f0043fb69cc">XMHALF2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415315(v=VS.85).aspx">XMHALF2 Constructors</a>
  
 
  

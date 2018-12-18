@@ -9,8 +9,6 @@ ms.assetid: 10048853-424b-4761-8a80-b1f674f856f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemName, GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetItemName method, IPhotoAcquireItem.GetItemName, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

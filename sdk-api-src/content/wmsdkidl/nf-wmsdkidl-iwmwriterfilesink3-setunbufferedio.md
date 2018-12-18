@@ -9,8 +9,6 @@ ms.assetid: 51a9c21b-d301-41e4-a9bc-321a5b2decca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetUnbufferedIO method, IWMWriterFileSink3.SetUnbufferedIO, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -131,11 +129,11 @@ This method dynamically allocates a set of buffers to prepare data for unbuffere
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e87222eb-6ed1-49b7-a544-27703ba9806b">IWMWriterFileSink3::GetUnbufferedIO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798755(v=VS.85).aspx">IWMWriterFileSink3::GetUnbufferedIO</a>
  
 
  

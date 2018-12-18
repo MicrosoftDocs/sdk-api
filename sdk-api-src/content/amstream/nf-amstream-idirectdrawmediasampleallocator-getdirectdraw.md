@@ -9,8 +9,6 @@ ms.assetid: 6d6eed9d-635d-424b-ba14-213bbe56f66c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawMediaSampleAllocator interface, IDirectDrawMediaSampleAllocator interface [DirectShow],GetDirectDraw method, IDirectDrawMediaSampleAllocator.GetDirectDraw, IDirectDrawMediaSampleAllocator::GetDirectDraw, IDirectDrawMediaSampleAllocatorGetDirectDraw, amstream/IDirectDrawMediaSampleAllocator::GetDirectDraw, dshow.idirectdrawmediasampleallocator_getdirectdraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -94,7 +92,7 @@ The caller should release the returned <b>IDirectDraw</b> pointer, except when c
 
 
 
-<a href="https://msdn.microsoft.com/35fd81ce-058a-4caf-b1de-f669be586f33">IDirectDrawMediaSampleAllocator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406802(v=VS.85).aspx">IDirectDrawMediaSampleAllocator Interface</a>
  
 
  

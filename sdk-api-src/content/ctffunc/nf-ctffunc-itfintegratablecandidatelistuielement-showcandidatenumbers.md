@@ -9,8 +9,6 @@ ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -96,7 +94,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
  
 
  

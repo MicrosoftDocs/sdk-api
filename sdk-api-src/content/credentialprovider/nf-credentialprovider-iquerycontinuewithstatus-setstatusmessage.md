@@ -9,8 +9,6 @@ ms.assetid: 1619c592-f79b-429f-a1dc-ce0b66542dd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryContinueWithStatus interface [Windows Shell],SetStatusMessage method, IQueryContinueWithStatus.SetStatusMessage, IQueryContinueWithStatus::SetStatusMessage, SetStatusMessage, SetStatusMessage method [Windows Shell], SetStatusMessage method [Windows Shell],IQueryContinueWithStatus interface, _shell_IQueryContinueWithStatus_SetStatusMessage, credentialprovider/IQueryContinueWithStatus::SetStatusMessage, shell.IQueryContinueWithStatus_SetStatusMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Enables the credential provider to set status messages as it attempts to complete <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">IConnectableCredentialProviderCredential::Connect</a>.
+Enables the credential provider to set status messages as it attempts to complete <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">IConnectableCredentialProviderCredential::Connect</a>.
 
 
 ## -parameters
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The Logon UI will display the status message during <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts. 
+The Logon UI will display the status message during <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts. 
 
 
 

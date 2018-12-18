@@ -9,8 +9,6 @@ ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback, PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY callback function [Security], security.pfn_cmsg_cng_import_content_encrypt_key, wincrypt/PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -100,7 +98,7 @@ The <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">Cr
 </dl>
 
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

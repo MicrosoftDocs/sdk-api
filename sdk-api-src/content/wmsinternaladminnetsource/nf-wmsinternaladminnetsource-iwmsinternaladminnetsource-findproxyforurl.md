@@ -9,8 +9,6 @@ ms.assetid: 5c05ed2b-98ff-417c-bc48-4e8a3dd95460
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindProxyForURL, FindProxyForURL method [windows Media Format], FindProxyForURL method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],FindProxyForURL method, IWMSInternalAdminNetSource.FindProxyForURL, IWMSInternalAdminNetSource::FindProxyForURL, IWMSInternalAdminNetSourceFindProxyForURL, wmformat.iwmsinternaladminnetsource_findproxyforurl, wmsinternaladminnetsource/IWMSInternalAdminNetSource::FindProxyForURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -139,7 +137,7 @@ When calling this method multiple times to find all proxies configured, this val
 
 
 
-When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="https://msdn.microsoft.com/95c6f641-e0b1-4391-b4bd-b43c03a330b4">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
+When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd798543(v=VS.85).aspx">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
 
 
 
@@ -149,7 +147,7 @@ When you have finished making calls to <b>FindProxyForURL</b>, you must call <a 
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
  
 
  

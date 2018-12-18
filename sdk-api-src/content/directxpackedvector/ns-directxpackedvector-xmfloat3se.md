@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3SE, dxmath.xmfloat3se
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 
@@ -55,7 +53,7 @@ Describes a 3D vector of three floating-point components with 9 bit mantissas, e
     
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/07dc8e7c-8fd8-4ba5-bbdf-1ca420e38f53">XMFLOAT3SE Extensions</a>.
+	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415286(v=VS.85).aspx">XMFLOAT3SE Extensions</a>.
 
 
 ## -struct-fields
@@ -189,7 +187,7 @@ As there are no sign bits in the format for storing the components in the <code>
 <code>XMFLOAT3SE</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using <a href="https://msdn.microsoft.com/b0220152-6c23-4298-a974-46bdaaf0b662">XMLoadFloat3SE</a>.
        
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="https://msdn.microsoft.com/780980ce-4986-4b83-8402-4e7159318aa6">XMStoreFloat3SE</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420338(v=VS.85).aspx">XMStoreFloat3SE</a>.
        
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -209,7 +207,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/07dc8e7c-8fd8-4ba5-bbdf-1ca420e38f53">XMFLOAT3SE Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415286(v=VS.85).aspx">XMFLOAT3SE Extensions</a>
  
 
  

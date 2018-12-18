@@ -9,8 +9,6 @@ ms.assetid: 16144c10-419c-4e6a-bc96-2f429c793257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteCredentials, DeleteCredentials method [windows Media Format], DeleteCredentials method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],DeleteCredentials method, IWMSInternalAdminNetSource.DeleteCredentials, IWMSInternalAdminNetSource::DeleteCredentials, IWMSInternalAdminNetSourceDeleteCredentials, wmformat.iwmsinternaladminnetsource_deletecredentials, wmsinternaladminnetsource/IWMSInternalAdminNetSource::DeleteCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>DeleteCredentials</b> method removes a password from the cache.
 
 
 
-This method has been superseded by <a href="https://msdn.microsoft.com/06d82f1d-b965-40fb-8a79-904ba5af7191">IWMSInternalAdminNetSource2::DeleteCredentialsEx</a>. The methods of <b>IWMSInternalAdminNetSource2</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
+This method has been superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd743719(v=VS.85).aspx">IWMSInternalAdminNetSource2::DeleteCredentialsEx</a>. The methods of <b>IWMSInternalAdminNetSource2</b> are much more secure than the password caching methods in <b>IWMSInternalAdminNetSource</b> and should be used if available.
 
 
 ## -parameters
@@ -85,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
  
 
  

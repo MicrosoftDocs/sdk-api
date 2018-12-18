@@ -9,8 +9,6 @@ ms.assetid: b83f6833-5318-42ca-a1d6-30b6590873bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdates2 interface [Windows Update Agent],get_Results method, IAutomaticUpdates2.get_Results, IAutomaticUpdates2::get_Results, get_Results, get_Results method [Windows Update Agent], get_Results method [Windows Update Agent],IAutomaticUpdates2 interface, wua.iautomaticupdates2_results, wuapi/IAutomaticUpdates2::get_Results
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

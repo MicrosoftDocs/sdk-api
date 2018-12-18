@@ -9,8 +9,6 @@ ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

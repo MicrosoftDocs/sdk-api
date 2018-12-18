@@ -9,8 +9,6 @@ ms.assetid: b6a8ca3c-a386-48c9-9347-ef9329678b5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrInterfacePointerMarshall, NdrInterfacePointerMarshall function [RPC], rpc.ndrinterfacepointermarshall, rpcndr/NdrInterfacePointerMarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

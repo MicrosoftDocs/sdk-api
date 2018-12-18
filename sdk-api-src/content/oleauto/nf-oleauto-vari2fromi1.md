@@ -9,8 +9,6 @@ ms.assetid: f7a1961e-aa17-4227-b3fb-bcf7881c2bc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI2FromI1, VarI2FromI1 function [Automation], _oa96_VarI2FromI1, automat.vari2fromi1, oleauto/VarI2FromI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

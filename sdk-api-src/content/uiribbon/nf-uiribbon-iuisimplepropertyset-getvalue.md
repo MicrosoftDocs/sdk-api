@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

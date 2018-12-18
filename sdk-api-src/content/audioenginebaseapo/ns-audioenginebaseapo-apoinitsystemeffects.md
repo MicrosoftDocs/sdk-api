@@ -9,8 +9,6 @@ ms.assetid: E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APOInitSystemEffects, APOInitSystemEffects structure [Audio Devices], PAPOInitSystemEffects, PAPOInitSystemEffects structure pointer [Audio Devices], audio.apoinitsystemeffects, audioenginebaseapo/APOInitSystemEffects, audioenginebaseapo/PAPOInitSystemEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 

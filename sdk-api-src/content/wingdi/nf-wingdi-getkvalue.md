@@ -9,8 +9,6 @@ ms.assetid: 8015689c-920c-4896-a34f-cda4f9b187e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKValue, GetKValue macro [Windows Color System], _color_GetKValue, wcs.getkvalue, wingdi/GetKValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

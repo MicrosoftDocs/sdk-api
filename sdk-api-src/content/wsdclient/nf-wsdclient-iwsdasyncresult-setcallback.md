@@ -9,8 +9,6 @@ ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

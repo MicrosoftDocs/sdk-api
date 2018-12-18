@@ -9,8 +9,6 @@ ms.assetid: cb42fdcc-35c0-4099-97bf-a3c8c1e53047
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetPalette, MCIWndGetPalette macro [Windows Multimedia], _win32_MCIWndGetPalette, multimedia.mciwndgetpalette, vfw/MCIWndGetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedatainterface.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateDataInterface method, ID3D10DeviceChild.SetPrivateDataInterface, ID3D10DeviceChild::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 10], SetPrivateDataInterface method [Direct3D 10],ID3D10DeviceChild interface, adb67004-d0c8-2bcc-dda9-a0dbc070dbda, d3d10/ID3D10DeviceChild::SetPrivateDataInterface, direct3d10.id3d10devicechild_setprivatedatainterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Associate an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface with this device child and associate that interface with an application-defined guid.
+Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device child and associate that interface with an application-defined guid.
 
 
 ## -parameters
@@ -70,7 +68,7 @@ Guid associated with the interface.
 
 Type: <b>const IUnknown*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface to be associated with the device child.
+Pointer to an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface to be associated with the device child.
 
 
 ## -returns
@@ -88,7 +86,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-When this method is called ::addref() will be called on the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>-derived interface, and when the device child is detroyed ::release() will be called on the IUnknown-derived interface.
+When this method is called ::addref() will be called on the <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface, and when the device child is detroyed ::release() will be called on the IUnknown-derived interface.
 
 
 

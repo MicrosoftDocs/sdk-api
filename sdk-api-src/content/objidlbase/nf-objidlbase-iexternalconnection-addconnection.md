@@ -9,8 +9,6 @@ ms.assetid: 7439cb16-1da3-4fab-a16d-519f9ce1053a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddConnection, AddConnection method [COM], AddConnection method [COM],IExternalConnection interface, IExternalConnection interface [COM],AddConnection method, IExternalConnection.AddConnection, IExternalConnection::AddConnection, _com_iexternalconnection_addconnection, com.iexternalconnection_addconnection, objidlbase/IExternalConnection::AddConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

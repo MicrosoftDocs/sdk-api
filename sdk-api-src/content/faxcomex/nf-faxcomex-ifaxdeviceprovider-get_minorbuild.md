@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_88o4.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],MinorBuild property, IFaxDeviceProvider.MinorBuild, IFaxDeviceProvider.get_MinorBuild, IFaxDeviceProvider::MinorBuild, IFaxDeviceProvider::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.minorbuild, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorbuild_cpp, fax._mfax_faxdeviceprovider_minorbuild, faxcomex/IFaxDeviceProvider::MinorBuild, faxcomex/IFaxDeviceProvider::get_MinorBuild, get_MinorBuild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 
 
 
-<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

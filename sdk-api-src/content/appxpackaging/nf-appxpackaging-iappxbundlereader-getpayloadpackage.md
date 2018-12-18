@@ -9,8 +9,6 @@ ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPayloadPackage, GetPayloadPackage method [App packaging and management], GetPayloadPackage method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackage method, IAppxBundleReader.GetPayloadPackage, IAppxBundleReader::GetPayloadPackage, appxpackaging/IAppxBundleReader::GetPayloadPackage, appxpkg.iappxbundlereader_getpayloadpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

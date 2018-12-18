@@ -9,8 +9,6 @@ ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

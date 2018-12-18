@@ -9,8 +9,6 @@ ms.assetid: 2232fd7e-2015-466f-afd1-15e5b546239a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventClass interface, IEventClass interface [COM+],Description property, IEventClass.Description, IEventClass.get_Description, IEventClass::Description, IEventClass::get_Description, IEventClass::put_Description, cos.ieventclass_description, eventsys/IEventClass::Description, eventsys/IEventClass::get_Description, eventsys/IEventClass::put_Description, get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h

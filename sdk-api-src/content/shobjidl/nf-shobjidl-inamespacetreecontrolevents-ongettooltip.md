@@ -9,8 +9,6 @@ ms.assetid: 57970b8d-2461-43af-8959-c51f27679407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnGetToolTip method, INameSpaceTreeControlEvents.OnGetToolTip, INameSpaceTreeControlEvents::OnGetToolTip, OnGetToolTip, OnGetToolTip method [Windows Shell], OnGetToolTip method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnGetToolTip, shell.INameSpaceTreeControlEvents_OnGetToolTip, shobjidl/INameSpaceTreeControlEvents::OnGetToolTip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

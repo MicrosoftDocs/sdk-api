@@ -9,8 +9,6 @@ ms.assetid: 1352e2f6-cad8-4d86-b973-b7d4d8f0c448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnFormat method, IWMPCdromBurn.put_burnFormat, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,15 +106,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/564a3978-555e-4cbc-90fe-b29f61349260">IWMPCdromBurn::get_burnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563084(v=VS.85).aspx">IWMPCdromBurn::get_burnFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/5761dbfb-4e7d-4063-bde7-2aa9d7869d7c">WMPBurnFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564690(v=VS.85).aspx">WMPBurnFormat</a>
  
 
  

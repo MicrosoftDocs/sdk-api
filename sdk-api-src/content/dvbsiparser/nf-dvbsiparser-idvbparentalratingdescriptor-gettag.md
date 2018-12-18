@@ -9,8 +9,6 @@ ms.assetid: 30689876-39be-44dd-a480-c660dcf3ddd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbParentalRatingDescriptor.GetTag, IDvbParentalRatingDescriptor::GetTag, dvbsiparser/IDvbParentalRatingDescriptor::GetTag, mstv.idvbparentalratingdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

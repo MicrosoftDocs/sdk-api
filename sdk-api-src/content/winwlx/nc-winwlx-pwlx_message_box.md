@@ -9,8 +9,6 @@ ms.assetid: 5ae99416-c502-46f6-ba58-7385ce410e48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_ICONASTERISK, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_YESNO, MB_YESNOCANCEL, PWLX_MESSAGE_BOX, PWLX_MESSAGE_BOX callback, WlxMessageBox, WlxMessageBox callback function [Security], _gina_wlxmessagebox, security.wlxmessagebox, winwlx/WlxMessageBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 
@@ -274,7 +272,7 @@ The caller is a service notifying the user of an event. The function brings up a
 </td>
 <td width="60%">
 The message box becomes the foreground window. Internally, Windows calls the 
-<a href="_win32_setforegroundwindow_cpp">SetForegroundWindow</a> function for the message box.
+<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -430,7 +428,7 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsof
 <a href="https://msdn.microsoft.com/98541411-45c7-4c23-95a0-c76022184db3">WlxDialogBoxIndirectParam</a> function for security dialog boxes.
 
 <b>WlxMessageBox</b> duplicates the Windows 
-<a href="_win32_messagebox_cpp">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
+<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function, with the exception that this function also allows Winlogon to time out the dialog box. For more information, see 
 <b>MessageBox</b>.
 
 
@@ -441,11 +439,11 @@ The <b>WlxMessageBox</b> function does not handle <a href="https://msdn.microsof
 
 
 
-<a href="_win32_messagebox_cpp">MessageBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
 
 
 
-<a href="_win32_setforegroundwindow_cpp">SetForegroundWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>
 
 
 

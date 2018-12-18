@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10resource_setevictionpriority.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8ad141ef-5f50-f2f6-d2db-3f0b076d0dda, ID3D10Resource interface [Direct3D 10],SetEvictionPriority method, ID3D10Resource.SetEvictionPriority, ID3D10Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 10], SetEvictionPriority method [Direct3D 10],ID3D10Resource interface, d3d10/ID3D10Resource::SetEvictionPriority, direct3d10.id3d10resource_setevictionpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,7 +59,7 @@ Set the eviction priority of a resource.
 
 ### -param EvictionPriority [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Eviction priority for the resource, which is one of the following values:
 

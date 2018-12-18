@@ -9,8 +9,6 @@ ms.assetid: 893950d4-c19c-4635-ad66-6e363860280a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 893950d4-c19c-4635-ad66-6e363860280a, IInkRecognizerContext interface [Tablet PC],WordList property, IInkRecognizerContext.WordList, IInkRecognizerContext.putref_WordList, IInkRecognizerContext::WordList, IInkRecognizerContext::get_WordList, IInkRecognizerContext::putref_WordList, InkRecognizerContext.get_WordList, WordList property [Tablet PC], WordList property [Tablet PC],IInkRecognizerContext interface, get_WordList, msinkaut/IInkRecognizerContext::WordList, msinkaut/IInkRecognizerContext::get_WordList, msinkaut/IInkRecognizerContext::putref_WordList, putref_WordList, tablet.inkrecognizercontext_wordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -88,7 +86,7 @@ Using words longer than 256 characters will result in an E_POINTER exception whe
 
 
 
-<a href="https://msdn.microsoft.com/D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: D1B1DA8D-9A59-43A0-9A2F-8749B2C05D37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransformCount, GetTransformCount method [Media Foundation], GetTransformCount method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformCount method, IMFSensorTransformFactory.GetTransformCount, IMFSensorTransformFactory::GetTransformCount, mf.imfsensortransformfactory_gettransformcount, mfidl/IMFSensorTransformFactory::GetTransformCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

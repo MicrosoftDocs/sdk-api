@@ -9,8 +9,6 @@ ms.assetid: 7e1f39f6-0ccb-4841-ae5e-36adaf72a4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRectArray, GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRectArray method, IPropertyValue.GetRectArray, IPropertyValue.IPropertyValue, IPropertyValue::GetRectArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: eeecaeec-2e06-4d4b-9b85-5fb3ef90944a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertRequest object [Security],GetErrorMessageText method, CR_GEMT_HRESULT_STRING, GetErrorMessageText, GetErrorMessageText method [Security], GetErrorMessageText method [Security],CCertRequest object, GetErrorMessageText method [Security],ICertRequest interface, GetErrorMessageText method [Security],ICertRequest2 interface, GetErrorMessageText method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetErrorMessageText method, ICertRequest2 interface [Security],GetErrorMessageText method, ICertRequest2.GetErrorMessageText, ICertRequest2::GetErrorMessageText, ICertRequest3 interface [Security],GetErrorMessageText method, ICertRequest3::GetErrorMessageText, ICertRequest::GetErrorMessageText, Zero (0), _certsrv_icertrequest2_geterrormessagetext, certcli/ICertRequest2::GetErrorMessageText, certcli/ICertRequest3::GetErrorMessageText, certcli/ICertRequest::GetErrorMessageText, security.icertrequest2_geterrormessagetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h
@@ -113,7 +111,7 @@ A pointer to the <b>BSTR</b> that represents the error message text for <i>hrMes
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>String</b> that contains the error message text for <i>hrMessage</i>.

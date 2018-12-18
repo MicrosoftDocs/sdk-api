@@ -9,8 +9,6 @@ ms.assetid: f5cb512a-d9f5-451f-b6cb-2020ba32e855
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertTextAtSelection method, ITextStoreAnchor.InsertTextAtSelection, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

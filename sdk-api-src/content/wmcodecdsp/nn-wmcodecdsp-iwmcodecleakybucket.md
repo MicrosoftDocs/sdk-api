@@ -9,8 +9,6 @@ ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Configures the "leaky bucket" parameters on a video encoder.
 
-This interface is implemented by all of the encoder objects. You can get a pointer to the <b>IWMCodecLeakyBucket</b> interface for a Windows Media video encoder by calling the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>. This interface is not  implemented on any of the decoders.
+This interface is implemented by all of the encoder objects. You can get a pointer to the <b>IWMCodecLeakyBucket</b> interface for a Windows Media video encoder by calling the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method of any other interface on the object, such as <a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject</a> or <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a>. This interface is not  implemented on any of the decoders.
 
 
 ## -inheritance

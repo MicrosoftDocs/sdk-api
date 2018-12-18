@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxext.h
 req.include-header: 

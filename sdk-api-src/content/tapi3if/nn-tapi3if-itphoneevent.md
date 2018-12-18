@@ -9,8 +9,6 @@ ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

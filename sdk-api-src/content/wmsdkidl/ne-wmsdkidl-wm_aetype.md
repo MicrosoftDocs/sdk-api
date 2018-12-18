@@ -9,8 +9,6 @@ ms.assetid: 514e6745-c521-41bd-81c2-b6c24cfb0192
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_EXCLUDE, WM_AETYPE_INCLUDE, wmformat.wm_aetype, wmsdkidl/WM_AETYPE, wmsdkidl/WM_AETYPE_EXCLUDE, wmsdkidl/WM_AETYPE_INCLUDE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -80,11 +78,11 @@ IP addresses that match the access entry are not allowed to connect to the netwo
 
 
 
-<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/609a20a7-e1a3-4889-abf3-4a6defc7739a">IWMAddressAccess2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743280(v=VS.85).aspx">IWMAddressAccess2 Interface</a>
  
 
  

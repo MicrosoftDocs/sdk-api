@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_7vle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],ArchiveFolder property, IFaxIncomingArchive.ArchiveFolder, IFaxIncomingArchive.get_ArchiveFolder, IFaxIncomingArchive::ArchiveFolder, IFaxIncomingArchive::get_ArchiveFolder, IFaxIncomingArchive::put_ArchiveFolder, _mfax_faxincomingarchive.archivefolder, fax._mfax_faxincomingarchive_archivefolder, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_archivefolder_cpp, faxcomex/IFaxIncomingArchive::ArchiveFolder, faxcomex/IFaxIncomingArchive::get_ArchiveFolder, faxcomex/IFaxIncomingArchive::put_ArchiveFolder, get_ArchiveFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read/write.
 
 
 
-<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/c504b290-d970-4bc9-ae35-4b05b0d2be96">IFaxConfiguration::put_ArchiveLocation</a>   or <a href="https://msdn.microsoft.com/c504b290-d970-4bc9-ae35-4b05b0d2be96">IFaxConfiguration::get_ArchiveLocation</a> method.</div>
+<div class="alert"><b>Note</b>  This property is not supported in Windows Vista, Windows Server 2008, and later versions of Windows. To access this property in Windows Vista, Windows Server 2008, and later versions of Windows,  get the <a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a> interface from the <a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> interface, and then call the  <a href="https://msdn.microsoft.com/en-us/library/Aa358915(v=VS.85).aspx">IFaxConfiguration::put_ArchiveLocation</a>   or <a href="https://msdn.microsoft.com/en-us/library/Aa358915(v=VS.85).aspx">IFaxConfiguration::get_ArchiveLocation</a> method.</div>
 <div> </div>
 
 

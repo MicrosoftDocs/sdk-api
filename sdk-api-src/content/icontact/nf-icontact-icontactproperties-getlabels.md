@@ -9,8 +9,6 @@ ms.assetid: c639a30b-3778-4ed9-b175-60b4a7ba9748
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLabels, GetLabels method [Windows Contacts], GetLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetLabels method, IContactProperties.GetLabels, IContactProperties::GetLabels, _wincontacts_IContactProperties_GetLabels, icontact/IContactProperties::GetLabels, wincontacts._wincontacts_IContactProperties_GetLabels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

@@ -9,8 +9,6 @@ ms.assetid: 5f0c9da1-d18e-4f93-8b5c-c5ad18360a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartupEx, SnmpStartupEx function [SNMP], _snmp_snmpstartupex, snmp.snmpstartupex, winsnmp/SnmpStartupEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

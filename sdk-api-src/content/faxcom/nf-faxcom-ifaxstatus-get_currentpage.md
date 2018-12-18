@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3kx1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentPage property [Fax Service], CurrentPage property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],CurrentPage property, IFaxStatus.CurrentPage, IFaxStatus.get_CurrentPage, IFaxStatus::CurrentPage, IFaxStatus::get_CurrentPage, _mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_get_currentpage, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_currentpage_cpp, faxcom/IFaxStatus::CurrentPage, faxcom/IFaxStatus::get_CurrentPage, get_CurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read-only.
 
 If the current page is not available, the <b>IFaxStatus::get_CurrentPage</b> method returns zero.
 
-You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/7dd672cb-e460-4594-8aff-67292d4b34e3">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
+You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms691355(v=VS.85).aspx">FaxStatus</a> object in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">PageCount</a> property of the object to provide users with a running page count for an outbound fax job. For example, you could inform a user that the fax server is currently transmitting the second page of a four page transmission.
 
 
 
@@ -95,7 +93,7 @@ You can use the <b>CurrentPage</b> property of a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/7dd672cb-e460-4594-8aff-67292d4b34e3">IFaxStatus::get_PageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692296(v=VS.85).aspx">IFaxStatus::get_PageCount</a>
  
 
  

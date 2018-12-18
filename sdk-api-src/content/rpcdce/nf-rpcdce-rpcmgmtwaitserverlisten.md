@@ -9,8 +9,6 @@ ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcMgmtWaitServerListen, RpcMgmtWaitServerListen function [RPC], _rpc_rpcmgmtwaitserverlisten, rpc.rpcmgmtwaitserverlisten, rpcdce/RpcMgmtWaitServerListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

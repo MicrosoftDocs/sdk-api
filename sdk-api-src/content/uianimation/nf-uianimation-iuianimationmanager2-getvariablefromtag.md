@@ -9,8 +9,6 @@ ms.assetid: ED367DB7-91D6-4D2E-BDAB-27FA4340F091
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVariableFromTag, GetVariableFromTag method [Windows Animation], GetVariableFromTag method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetVariableFromTag method, IUIAnimationManager2.GetVariableFromTag, IUIAnimationManager2::GetVariableFromTag, uianimation.iuianimationmanager2_getvariablefromtag, uianimation/IUIAnimationManager2::GetVariableFromTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

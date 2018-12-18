@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_setvalue.htm
 tech.root: pla
 ms.assetid: d2143de9-f189-47e0-8b28-0422d9984459
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetValue method, IDataCollectorSet.SetValue, IDataCollectorSet::SetValue, SetValue, SetValue method [PLA], SetValue method [PLA],IDataCollectorSet interface, base.idatacollectorset_setvalue, pla.idatacollectorset_setvalue, pla/IDataCollectorSet::SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f3a664a8-565c-4894-bea7-6664df0ecd9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

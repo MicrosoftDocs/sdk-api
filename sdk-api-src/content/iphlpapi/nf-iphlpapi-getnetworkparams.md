@@ -9,8 +9,6 @@ ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
@@ -63,13 +61,13 @@ The
 ### -param pFixedInfo [out]
 
 A pointer to a 
-buffer that contains a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
+buffer that contains a <a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
 
 
 ### -param pOutBufLen [in]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the 
-<a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetNetworkParams</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
 
@@ -152,9 +150,9 @@ If the function fails, use
 
 
 
-The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
+The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
-In the Microsoft Windows Software Development Kit (SDK), the <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
+In the Microsoft Windows Software Development Kit (SDK), the <a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
      <code>_WIN32_WINNT &gt;= 0x0501</code>, or 
      <code>WINVER &gt;= 0x0501</code>), the <b>FIXED_INFO_WIN2KSP1</b> struct is typedefed to the <b>FIXED_INFO</b> structure. When compiling an application if the target 
@@ -162,7 +160,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <a href="https://ms
      <b>FIXED_INFO</b> structure is undefined.
 
 The <b>GetNetworkParams</b> function and the 
-     <a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
 #### Examples
@@ -288,7 +286,7 @@ int __cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/6dcf33c6-33dc-4583-9b04-5231948d3d9a">FIXED_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365900(v=VS.85).aspx">FIXED_INFO</a>
 
 
 

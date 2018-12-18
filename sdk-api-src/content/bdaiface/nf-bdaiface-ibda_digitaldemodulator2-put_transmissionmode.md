@@ -9,8 +9,6 @@ ms.assetid: e10c63a5-7025-49a7-9b2e-6043fabf2999
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],put_TransmissionMode method, IBDA_DigitalDemodulator2.put_TransmissionMode, IBDA_DigitalDemodulator2::put_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::put_TransmissionMode, mstv.ibda_digitaldemodulator2_put_transmissionmode, put_TransmissionMode, put_TransmissionMode method [Microsoft TV Technologies], put_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the demodulator's transmission mode.
 
 ### -param pTransmissionMode [in]
 
-Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693289(v=VS.85).aspx">TransmissionMode</a> enumeration.
+Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://msdn.microsoft.com/b5722904-24a4-491f-8563-bfb2d5695d86">TransmissionMode</a> enumeration.
 
 
 ## -returns

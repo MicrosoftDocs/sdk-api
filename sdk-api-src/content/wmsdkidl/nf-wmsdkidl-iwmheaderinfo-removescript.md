@@ -9,8 +9,6 @@ ms.assetid: c66e808d-25f9-4745-8bcc-731f2556f470
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveScript method, IWMHeaderInfo.RemoveScript, IWMHeaderInfo::RemoveScript, IWMHeaderInfoRemoveScript, RemoveScript, RemoveScript method [windows Media Format], RemoveScript method [windows Media Format],IWMHeaderInfo interface, wmformat.iwmheaderinfo_removescript, wmsdkidl/IWMHeaderInfo::RemoveScript
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -133,15 +131,15 @@ The writer only supports this method before the <b>BeginWriting</b> method has b
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e20644fb-077e-4eee-8802-6099002f3969">IWMHeaderInfo::AddScript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798517(v=VS.85).aspx">IWMHeaderInfo::AddScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/779a7618-9f22-4caf-8a4e-b622e422c30d">IWMHeaderInfo::GetScript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798523(v=VS.85).aspx">IWMHeaderInfo::GetScript</a>
  
 
  

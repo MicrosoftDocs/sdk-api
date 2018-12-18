@@ -9,8 +9,6 @@ ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, IFillLockBytes.SetFillSize, IFillLockBytes::SetFillSize, SetFillSize, SetFillSize method [Structured Storage], SetFillSize method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_setfillsize, objidl/IFillLockBytes::SetFillSize, stg.ifilllockbytes_setfillsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

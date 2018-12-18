@@ -9,8 +9,6 @@ ms.assetid: 6dc96e7b-34e5-4366-8804-d40f111d77c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPartitionProperties, GetPartitionProperties method [VDS], GetPartitionProperties method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],GetPartitionProperties method, IVdsAdvancedDisk.GetPartitionProperties, IVdsAdvancedDisk::GetPartitionProperties, base.ivdsadvanceddisk_getpartitionproperties, vds/IVdsAdvancedDisk::GetPartitionProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

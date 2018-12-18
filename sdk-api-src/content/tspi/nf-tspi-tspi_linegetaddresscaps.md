@@ -9,8 +9,6 @@ ms.assetid: b8d52a94-2666-4f92-80e0-c9a1e04d1e79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetAddressCaps, TSPI_lineGetAddressCaps function [TAPI 2.2], _tspi_tspi_linegetaddresscaps, tspi.tspi_linegetaddresscaps, tspi/TSPI_lineGetAddressCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

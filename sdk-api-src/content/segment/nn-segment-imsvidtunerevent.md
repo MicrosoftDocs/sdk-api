@@ -9,8 +9,6 @@ ms.assetid: cdffe6ca-00b0-4230-963d-b4409413e5f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], IMSVidTunerEvent interface [Microsoft TV Technologies],described, IMSVidTunerEventInterface, mstv.imsvidtunerevent, segment/IMSVidTunerEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ The <b>IMSVidTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fc30a5a-b934-4c75-9cc8-5a039843ebe8">TuneChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694706(v=VS.85).aspx">TuneChanged</a>
 </td>
 <td align="left" width="63%">
 Signals that the tuner has tuned to a new frequency.

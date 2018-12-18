@@ -9,8 +9,6 @@ ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.put_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

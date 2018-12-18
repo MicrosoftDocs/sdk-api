@@ -9,8 +9,6 @@ ms.assetid: bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentIdentifierDescriptor, mstv.idvbcontentidentifierdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

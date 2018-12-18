@@ -9,8 +9,6 @@ ms.assetid: f4e090ca-3f15-4f50-8ea7-92a06868268f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpExtensionInitEx, SnmpExtensionInitEx callback, SnmpExtensionInitEx callback function [SNMP], _snmp_snmpextensioninitex, snmp.snmpextensioninitex, snmp/SnmpExtensionInitEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The Microsoft SNMP service calls the
 ### -param pNextSupportedRegion [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the next MIB subtree that the extension agent supports.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the next MIB subtree that the extension agent supports.
 
 
 ## -returns
@@ -86,7 +84,7 @@ The SNMP service repeatedly calls the
 <b>SnmpExtensionInitEx</b> function entry point so the extension agent can register support for additional MIB subtrees.
 
 The SNMP service makes a copy of the 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure the extension agent returns in the <i>pNextSupportedRegion</i> parameter. The extension agent must allocate and deallocate the resources associated with the original structure. It can do this when the SNMP service calls the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure the extension agent returns in the <i>pNextSupportedRegion</i> parameter. The extension agent must allocate and deallocate the resources associated with the original structure. It can do this when the SNMP service calls the 
 <a href="https://msdn.microsoft.com/19fcac27-daa1-40e2-9038-7f03279381f0">SnmpExtensionClose</a> function.
 
 
@@ -97,7 +95,7 @@ The SNMP service makes a copy of the
 
 
 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a>
 
 
 

@@ -7,10 +7,8 @@ old-location: opengl\wglcreatelayercontext.htm
 tech.root: OpenGL
 ms.assetid: 81050b48-7385-4ef3-acc5-82d5c893b2e8
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ogl_wglCreateLayerContext, opengl.wglcreatelayercontext, wglCreateLayerContext, wglCreateLayerContext function [OpenGL], wingdi/wglCreateLayerContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

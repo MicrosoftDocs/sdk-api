@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Unproject(XMVECTOR,f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3Unproject, XMVector3Unproject, XMVector3Unproject method [DirectX Math Support APIs], dxmath.xmvector3unproject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -138,7 +136,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/87a0a847-b673-45b1-979b-aa6c8770dbdc">XMVector3UnprojectStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404782(v=VS.85).aspx">XMVector3UnprojectStream</a>
  
 
  

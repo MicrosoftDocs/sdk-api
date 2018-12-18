@@ -9,8 +9,6 @@ ms.assetid: 557493ea-b685-44e4-b8c3-3f8c5fbe49b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_enableErrorDialogs method, IWMPSettings.get_enableErrorDialogs, IWMPSettings::get_enableErrorDialogs, IWMPSettingsget_enableErrorDialogs, get_enableErrorDialogs, get_enableErrorDialogs method [Windows Media Player], get_enableErrorDialogs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_enableerrordialogs, wmp/IWMPSettings::get_enableErrorDialogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ This method exhibits specific behavior for remoted instances of the Windows Medi
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393">IWMPSettings::put_enableErrorDialogs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563675(v=VS.85).aspx">IWMPSettings::put_enableErrorDialogs</a>
  
 
  

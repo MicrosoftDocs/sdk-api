@@ -9,8 +9,6 @@ ms.assetid: 4db92042-38f2-42c2-9c94-b24e0eaafdf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SspiPrepareForCredWrite, SspiPrepareForCredWrite function [Security], security.sspiprepareforcredwrite, sspi/SspiPrepareForCredWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

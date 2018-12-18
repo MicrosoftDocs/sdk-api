@@ -9,8 +9,6 @@ ms.assetid: 640ac817-16f2-47c8-87e9-1ae0136e6e55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioProcessingObjectRT, IAudioProcessingObjectRT interface [Audio Devices], IAudioProcessingObjectRT interface [Audio Devices],described, audio.iaudioprocessingobjectrt, audio_syseffects_r_843f0618-1708-4779-996d-7dc474a73bbf.xml, audioenginebaseapo/IAudioProcessingObjectRT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

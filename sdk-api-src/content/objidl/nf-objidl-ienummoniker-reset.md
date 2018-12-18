@@ -9,8 +9,6 @@ ms.assetid: 0b7c74b4-cbcb-44cc-8bea-feb55abb5643
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumMoniker interface [COM],Reset method, IEnumMoniker.Reset, IEnumMoniker::Reset, Reset, Reset method [COM], Reset method [COM],IEnumMoniker interface, _ole_ienummoniker_reset, com.ienummoniker_reset, objidl/IEnumMoniker::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

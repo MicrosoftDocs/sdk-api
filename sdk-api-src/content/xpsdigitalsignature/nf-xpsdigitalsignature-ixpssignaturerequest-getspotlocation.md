@@ -9,8 +9,6 @@ ms.assetid: f8a93c77-c978-4483-b0e0-36d998add184
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpotLocation, GetSpotLocation method [XPS Documents and Packaging], GetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSpotLocation method, IXpsSignatureRequest.GetSpotLocation, IXpsSignatureRequest::GetSpotLocation, xps.ixpssignaturerequest_getspotlocation, xpsdigitalsignature/IXpsSignatureRequest::GetSpotLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

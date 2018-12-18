@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_01iq.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],RingsBeforeAnswer property, IFaxDevice.RingsBeforeAnswer, IFaxDevice.get_RingsBeforeAnswer, IFaxDevice.put_RingsBeforeAnswer, IFaxDevice::RingsBeforeAnswer, IFaxDevice::get_RingsBeforeAnswer, IFaxDevice::put_RingsBeforeAnswer, RingsBeforeAnswer property [Fax Service], RingsBeforeAnswer property [Fax Service],IFaxDevice interface, _mfax_faxdevice.ringsbeforeanswer, fax._mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp, fax._mfax_faxdevice_ringsbeforeanswer, faxcomex/IFaxDevice::RingsBeforeAnswer, faxcomex/IFaxDevice::get_RingsBeforeAnswer, faxcomex/IFaxDevice::put_RingsBeforeAnswer, put_RingsBeforeAnswer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-This property is used only if the <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> property of the device is set to <a href="https://msdn.microsoft.com/0fb87bfd-61b0-4130-86fd-0e6579bc55ea">fdrmAUTO_ANSWER</a>.
+This property is used only if the <a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a> property of the device is set to <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">fdrmAUTO_ANSWER</a>.
 
 
 
@@ -76,15 +74,15 @@ This property is used only if the <a href="https://msdn.microsoft.com/d65397eb-2
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

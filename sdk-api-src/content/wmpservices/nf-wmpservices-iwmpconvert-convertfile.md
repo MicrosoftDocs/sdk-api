@@ -9,8 +9,6 @@ ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -193,7 +191,7 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 
 
 
-<a href="https://msdn.microsoft.com/316d1a13-0803-4414-8c51-0d5c4768b06d">IWMPConvert Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563213(v=VS.85).aspx">IWMPConvert Interface</a>
  
 
  

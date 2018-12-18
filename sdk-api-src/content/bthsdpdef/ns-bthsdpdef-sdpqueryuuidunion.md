@@ -9,8 +9,6 @@ ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: bthsdpdef.h
 req.include-header: 
@@ -120,11 +118,11 @@ UUID in 16-bit format.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362938(v=VS.85).aspx">BTH_QUERY_SERVICE</a>
+<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362950(v=VS.85).aspx">SdpQueryUuid</a>
+<a href="https://msdn.microsoft.com/8c67b1b1-d289-4273-a512-589b19cd1f85">SdpQueryUuid</a>
  
 
  

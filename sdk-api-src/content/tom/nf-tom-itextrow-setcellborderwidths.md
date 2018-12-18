@@ -9,8 +9,6 @@ ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderWidths method, ITextRow.SetCellBorderWidths, ITextRow::SetCellBorderWidths, SetCellBorderWidths, SetCellBorderWidths method [Windows Controls], SetCellBorderWidths method [Windows Controls],ITextRow interface, controls.itextrow_setcellborderwidths, tom/ITextRow::SetCellBorderWidths
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

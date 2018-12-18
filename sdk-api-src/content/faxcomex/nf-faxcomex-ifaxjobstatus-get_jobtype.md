@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_8nol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],JobType property, IFaxJobStatus.JobType, IFaxJobStatus.get_JobType, IFaxJobStatus::JobType, IFaxJobStatus::get_JobType, JobType property [Fax Service], JobType property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.jobtype, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_jobtype_cpp, fax._mfax_faxjobstatus_jobtype, faxcomex/IFaxJobStatus::JobType, faxcomex/IFaxJobStatus::get_JobType, get_JobType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

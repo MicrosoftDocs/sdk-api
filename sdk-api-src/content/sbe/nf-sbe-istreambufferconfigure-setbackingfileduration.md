@@ -9,8 +9,6 @@ ms.assetid: 1825896e-0e3c-4b89-8e0e-59faa0f8000d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileDuration method, IStreamBufferConfigure.SetBackingFileDuration, IStreamBufferConfigure::SetBackingFileDuration, IStreamBufferConfigureSetBackingFileDuration, SetBackingFileDuration, SetBackingFileDuration method [Microsoft TV Technologies], SetBackingFileDuration method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfileduration, sbe/IStreamBufferConfigure::SetBackingFileDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

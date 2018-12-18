@@ -9,8 +9,6 @@ ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

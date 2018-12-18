@@ -9,8 +9,6 @@ ms.assetid: 67d73d88-6a6c-439b-a321-1b1bd05fe268
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemDefaultLCID, GetSystemDefaultLCID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLCID, intl.getsystemdefaultlcid, winnls/GetSystemDefaultLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

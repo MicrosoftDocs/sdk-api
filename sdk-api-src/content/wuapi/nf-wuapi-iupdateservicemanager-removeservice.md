@@ -9,8 +9,6 @@ ms.assetid: fedd0979-1cc1-40c7-93d1-ade2f069ee76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],RemoveService method, IUpdateServiceManager.RemoveService, IUpdateServiceManager::RemoveService, RemoveService, RemoveService method [Windows Update Agent], RemoveService method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_removeservice, wuapi/IUpdateServiceManager::RemoveService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>IWMPErrorItem2</b> interface provides a method that supplements the <b>IW
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPErrorItem2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem</a>. <b>IWMPErrorItem2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMPErrorItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe72bb1c-78ac-4a10-9abf-81722139d842">get_condition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563275(v=VS.85).aspx">get_condition</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the condition for the error.
@@ -82,7 +80,7 @@ Retrieves a value indicating the condition for the error.
 </tr>
 </table> 
 
-Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem</a> interface.
+Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>QueryInterface</b> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem</a> interface.
 	
 
 
@@ -91,7 +89,7 @@ Retrieve a pointer to an <b>IWMPErrorItem2</b> interface by calling the <b>Query
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
 
 
 

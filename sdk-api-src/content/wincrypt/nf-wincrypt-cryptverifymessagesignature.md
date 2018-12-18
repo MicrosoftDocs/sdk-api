@@ -9,8 +9,6 @@ ms.assetid: 03411e7a-b097-4059-a198-3d412ae40e38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptVerifyMessageSignature, CryptVerifyMessageSignature function [Security], _crypto2_cryptverifymessagesignature, security.cryptverifymessagesignature, wincrypt/CryptVerifyMessageSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

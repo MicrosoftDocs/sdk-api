@@ -9,8 +9,6 @@ ms.assetid: 07A61B37-C63D-4F7D-888C-96B56F30F477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteStringList, IDWriteStringList interface [Direct Write], IDWriteStringList interface [Direct Write],described, directwrite.idwritestringlist, dwrite_3/IDWriteStringList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IDWriteStringList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F185D57A-65F2-4EFA-9C93-DFA89F3FAB01">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958422(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of strings in the string list.
@@ -82,7 +80,7 @@ Gets the number of strings in the string list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3CB369A4-D1FC-4C8B-BE41-33D176117133">GetLocaleName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958423(v=VS.85).aspx">GetLocaleName</a>
 </td>
 <td align="left" width="63%">
 Copies the locale name with the specified index to the specified array.
@@ -91,7 +89,7 @@ Copies the locale name with the specified index to the specified array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AB3CDFB6-8B3E-47B1-BB19-C22E0D8D2D5C">GetLocaleNameLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958424(v=VS.85).aspx">GetLocaleNameLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length in characters (not including the null terminator) of the locale name with the specified index.
@@ -100,7 +98,7 @@ Gets the length in characters (not including the null terminator) of the locale 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9F569418-F5CF-4280-8E53-32F14AE6FD42">GetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958425(v=VS.85).aspx">GetString</a>
 </td>
 <td align="left" width="63%">
 Copies the string with the specified index to the specified array.
@@ -109,7 +107,7 @@ Copies the string with the specified index to the specified array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5511DD28-22B1-4006-A724-13C2C4A17E6C">GetStringLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958426(v=VS.85).aspx">GetStringLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length in characters (not including the null terminator) of the string with the specified index.

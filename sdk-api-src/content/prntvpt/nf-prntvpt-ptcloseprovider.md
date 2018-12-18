@@ -9,8 +9,6 @@ ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

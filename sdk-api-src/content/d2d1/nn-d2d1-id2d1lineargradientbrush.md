@@ -9,8 +9,6 @@ ms.assetid: bbb5e36a-d13d-448e-8686-d14ee99b1ccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1LinearGradientBrush, ID2D1LinearGradientBrush interface [Direct2D], ID2D1LinearGradientBrush interface [Direct2D],described, d2d1/ID2D1LinearGradientBrush, direct2d.ID2D1LinearGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -128,7 +126,7 @@ It is possible to specify a gradient axis that does not completely fill the area
 
 
 <h3><a id="Creating_ID2D1LinearGradientBrush_Objects"></a><a id="creating_id2d1lineargradientbrush_objects"></a><a id="CREATING_ID2D1LINEARGRADIENTBRUSH_OBJECTS"></a>Creating ID2D1LinearGradientBrush Objects</h3>
-To create a linear gradient brush, use the <a href="direct2d.ID2D1RenderTarget_CreateLinearGradientBrush_ptr_D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES_ptr_D2D1_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1LinearGradientBrush">ID2D1RenderTarget::CreateLinearGradientBrush</a> method of the render target on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
+To create a linear gradient brush, use the <a href="https://msdn.microsoft.com/library/Dd371842(v=VS.85).aspx">ID2D1RenderTarget::CreateLinearGradientBrush</a> method of the render target on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
 
 A linear gradient brush is a device-dependent resource: your application should create linear gradient brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
 

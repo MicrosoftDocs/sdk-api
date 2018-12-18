@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\getcurrentstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentState, GetCurrentState method [WIA], GetCurrentState method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],GetCurrentState method, IWiaVideo.GetCurrentState, IWiaVideo::GetCurrentState, _wia_IWiaVideo_GetCurrentState, wia._wia_IWiaVideo_GetCurrentState, wiavideo/IWiaVideo::GetCurrentState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

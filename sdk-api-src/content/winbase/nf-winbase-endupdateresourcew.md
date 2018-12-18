@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

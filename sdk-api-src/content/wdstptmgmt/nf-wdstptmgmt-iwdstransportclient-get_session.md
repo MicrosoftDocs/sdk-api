@@ -9,8 +9,6 @@ ms.assetid: 19aac2c4-c724-493f-a4e9-a396a1d32f15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Session property, IWdsTransportClient.Session, IWdsTransportClient.get_Session, IWdsTransportClient::Session, IWdsTransportClient::get_Session, Session property [Windows Deployment Services], Session property [Windows Deployment Services],IWdsTransportClient interface, get_Session, wds.iwdstransportclient_session, wdstptmgmt/IWdsTransportClient::Session, wdstptmgmt/IWdsTransportClient::get_Session
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

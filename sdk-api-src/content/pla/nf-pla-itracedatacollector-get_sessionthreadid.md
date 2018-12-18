@@ -7,10 +7,8 @@ old-location: pla\itracedatacollector_sessionthreadid.htm
 tech.root: pla
 ms.assetid: 15b688cc-a5db-47a4-b058-cbf69c90237e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionThreadId property, ITraceDataCollector.SessionThreadId, ITraceDataCollector.get_SessionThreadId, ITraceDataCollector::SessionThreadId, ITraceDataCollector::get_SessionThreadId, SessionThreadId property [PLA], SessionThreadId property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionthreadid, get_SessionThreadId, pla.itracedatacollector_sessionthreadid, pla/ITraceDataCollector::SessionThreadId, pla/ITraceDataCollector::get_SessionThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

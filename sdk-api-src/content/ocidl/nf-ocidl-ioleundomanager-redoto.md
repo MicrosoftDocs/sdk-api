@@ -9,8 +9,6 @@ ms.assetid: 1d5d0cb6-2c1b-49c8-8923-59845fa6231c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleUndoManager interface [COM],RedoTo method, IOleUndoManager.RedoTo, IOleUndoManager::RedoTo, RedoTo, RedoTo method [COM], RedoTo method [COM],IOleUndoManager interface, _ole_ioleundomanager_redoto, com.ioleundomanager_redoto, ocidl/IOleUndoManager::RedoTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

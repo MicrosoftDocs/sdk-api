@@ -9,8 +9,6 @@ ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

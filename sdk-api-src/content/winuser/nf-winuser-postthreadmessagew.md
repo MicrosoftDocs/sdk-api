@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PostThreadMessage, PostThreadMessage function [Windows and Messages], PostThreadMessageA, PostThreadMessageW, _win32_PostThreadMessage, _win32_postthreadmessage_cpp, winmsg.postthreadmessage, winui._win32_postthreadmessage, winuser/PostThreadMessage, winuser/PostThreadMessageA, winuser/PostThreadMessageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

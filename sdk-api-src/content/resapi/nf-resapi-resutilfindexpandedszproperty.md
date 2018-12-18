@@ -9,8 +9,6 @@ ms.assetid: 7a639932-6dd5-41ef-a126-c2d5001a436f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY function [Failover Cluster], ResUtilFindExpandedSzProperty, ResUtilFindExpandedSzProperty function [Failover Cluster], _wolf_resutilfindexpandedszproperty, mscs.resutilfindexpandedszproperty, resapi/PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, resapi/ResUtilFindExpandedSzProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

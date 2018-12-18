@@ -9,8 +9,6 @@ ms.assetid: c7afac5d-946f-49ec-a7d0-de558ed2144b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], IWSManEnumerator interface [Windows Remote Management],described, winrm.iwsmanenumerator, wsmandisp/IWSManEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Represents a stream of results returned from  operations such as a WS-Management protocol <a href="windows_remote_management_glossary.htm">WS-Enumeration</a>:Enumerate operation.
+Represents a stream of results returned from  operations such as a WS-Management protocol <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WS-Enumeration</a>:Enumerate operation.
 
 
 ## -inheritance

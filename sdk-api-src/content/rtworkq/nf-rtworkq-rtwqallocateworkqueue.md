@@ -9,8 +9,6 @@ ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RtwqAllocateWorkQueue, RtwqAllocateWorkQueue function, base.rtwqallocateworkqueue, rtworkq/RtwqAllocateWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a new work queue.
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dn448453(v=VS.85).aspx">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>

@@ -9,8 +9,6 @@ ms.assetid: cb520b55-9ef8-4f5a-935d-46c2bb01f5dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z, ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z, CreateNewInstance, CreateNewInstance method [Windows Management Instrumentation], CreateNewInstance method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],CreateNewInstance method, Provider.CreateNewInstance, Provider::CreateNewInstance, _hmm_provider_createnewinstance, provider/Provider::CreateNewInstance, wmi.provider_createnewinstance"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -85,7 +83,7 @@ Returns a pointer to the new instance.
 
 
 
-The caller must call either CInstance::Release or <a href="https://msdn.microsoft.com/619adf78-26db-4a90-90ba-bdacb3e55975">Provider::Commit</a> on the returned pointer. Either of these methods may be used, but they are not interchangeable. Refer to the Remarks section on each of these methods to determine which is appropriate.
+The caller must call either CInstance::Release or <a href="https://msdn.microsoft.com/en-us/library/Aa392763(v=VS.85).aspx">Provider::Commit</a> on the returned pointer. Either of these methods may be used, but they are not interchangeable. Refer to the Remarks section on each of these methods to determine which is appropriate.
 
 This method does not return a <b>NULL</b> pointer. If it fails, it throws an exception.
 

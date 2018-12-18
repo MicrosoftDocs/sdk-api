@@ -9,8 +9,6 @@ ms.assetid: 776bf73e-00f3-46a1-a8c7-5eb365e9a518
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindNextUrlCacheEntry, FindNextUrlCacheEntry function [WinINet], FindNextUrlCacheEntryA, FindNextUrlCacheEntryW, _inet_findnexturlcacheentry_function, wininet.findnexturlcacheentry, wininet/FindNextUrlCacheEntry, wininet/FindNextUrlCacheEntryA, wininet/FindNextUrlCacheEntryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

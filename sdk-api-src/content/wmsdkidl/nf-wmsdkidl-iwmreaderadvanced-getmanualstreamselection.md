@@ -9,8 +9,6 @@ ms.assetid: 3205f508-a24b-4d24-a5e6-be16885e941b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManualStreamSelection, GetManualStreamSelection method [windows Media Format], GetManualStreamSelection method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetManualStreamSelection method, IWMReaderAdvanced.GetManualStreamSelection, IWMReaderAdvanced::GetManualStreamSelection, IWMReaderAdvancedGetManualStreamSelection, wmformat.iwmreaderadvanced_getmanualstreamselection, wmsdkidl/IWMReaderAdvanced::GetManualStreamSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -124,11 +122,11 @@ The reader object has not opened a file yet.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6950b26c-1763-4578-ab5c-0ea29d3d77f1">IWMReaderAdvanced::SetManualStreamSelection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743485(v=VS.85).aspx">IWMReaderAdvanced::SetManualStreamSelection</a>
  
 
  

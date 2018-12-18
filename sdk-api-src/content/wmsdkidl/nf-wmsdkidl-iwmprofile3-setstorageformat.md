@@ -9,8 +9,6 @@ ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStorageFormat method, IWMProfile3.SetStorageFormat, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -92,7 +90,7 @@ To retrieve the storage format, use the <a href="https://msdn.microsoft.com/fea5
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: CF34DB7E-39CC-4044-9DF4-838EC19C1B04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory4 interface, ID2D1Factory4 interface [Direct2D],CreateDevice method, ID2D1Factory4.CreateDevice, ID2D1Factory4::CreateDevice, d2d1_3/ID2D1Factory4::CreateDevice, direct2d.id2d1factory4_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates an <a href="https://msdn.microsoft.com/60CB6308-85BE-424B-9950-1C8617D08
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
 
 The IDXGIDevice object used when creating the <a href="https://msdn.microsoft.com/60CB6308-85BE-424B-9950-1C8617D08A09">ID2D1Device3</a>.
 
@@ -76,7 +74,7 @@ The requested <a href="https://msdn.microsoft.com/60CB6308-85BE-424B-9950-1C8617
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -60,9 +58,9 @@ Decrements a global counter.
 
 ### -param id [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a></b>
 
-The <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a> to decrement.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a> to decrement.
 
 
 ## -returns
@@ -81,7 +79,7 @@ The value of the counter after the decrement.
 
 
 
-<a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a>
 
 
 

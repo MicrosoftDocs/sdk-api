@@ -9,8 +9,6 @@ ms.assetid: 1fbd0bb7-23f9-4030-a61e-a85ddc177744
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsScanPackageService property, IUpdateService.IsScanPackageService, IUpdateService.get_IsScanPackageService, IUpdateService::IsScanPackageService, IUpdateService::get_IsScanPackageService, IsScanPackageService property [Windows Update Agent], IsScanPackageService property [Windows Update Agent],IUpdateService interface, get_IsScanPackageService, wua.iupdateservice_isscanpackageservice, wuapi/IUpdateService::IsScanPackageService, wuapi/IUpdateService::get_IsScanPackageService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

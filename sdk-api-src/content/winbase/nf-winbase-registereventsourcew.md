@@ -9,8 +9,6 @@ ms.assetid: 53706f83-6bc9-45d6-981c-bd0680d7bc08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 67eb8a01-312a-45ee-8da3-59a1f9f952ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameterName method, IAMMediaContent2.get_MediaParameterName, IAMMediaContent2::get_MediaParameterName, IAMMediaContent2get_MediaParameterName, dshow.iammediacontent2_get_mediaparametername, get_MediaParameterName, get_MediaParameterName method [DirectShow], get_MediaParameterName method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameterName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -119,7 +117,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/cf8381f2-2ef0-4169-8029-bce36bf3d6a9">IAMMediaContent2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319639(v=VS.85).aspx">IAMMediaContent2 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: evntrace.h
 req.include-header: 

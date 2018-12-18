@@ -9,8 +9,6 @@ ms.assetid: a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnState method, IWMPCdromBurn.get_burnState, IWMPCdromBurn::get_burnState, IWMPCdromBurnget_burnState, get_burnState, get_burnState method [Windows Media Player], get_burnState method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnstate, wmp/IWMPCdromBurn::get_burnState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd286f68-4d36-48ae-800e-ad2be4c613c1">WMPBurnState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564691(v=VS.85).aspx">WMPBurnState</a>
  
 
  

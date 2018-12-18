@@ -9,8 +9,6 @@ ms.assetid: e3825905-2a28-4283-bb65-0273572f3150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarNot, VarNot function [Automation], _oa96_VarNot, automat.varnot, oleauto/VarNot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

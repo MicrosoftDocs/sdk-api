@@ -9,8 +9,6 @@ ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a> through the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure.
+Provides methods used to get and set shortcut menu information. This information is the same as that provided to <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a> through the <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure.
 <div class="alert"><b>Note</b>  Do not use this method to reinitialize a shortcut menu; use <a href="https://msdn.microsoft.com/1997a32e-562a-4d20-ad09-c40446a8feed">IShellExtInit::Initialize</a> instead.</div><div> </div>
 
 ## -inheritance

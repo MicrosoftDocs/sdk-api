@@ -9,8 +9,6 @@ ms.assetid: 4d512525-ed18-43af-9773-ed56c49c3641
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVideoRenderer2.get_Allocator_ID, IMSVidVideoRenderer2::get_Allocator_ID, IMSVidVideoRenderer2get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator_id, segment/IMSVidVideoRenderer2::get_Allocator_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -105,7 +103,7 @@ The identifier is for application use; it is not used by the VMR.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

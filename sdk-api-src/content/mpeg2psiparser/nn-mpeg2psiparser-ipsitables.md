@@ -9,8 +9,6 @@ ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl
@@ -72,7 +70,7 @@ The <b>IPSITables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b2362c7-bfcb-40b8-813d-1a904149600e">GetTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">GetTable</a>
 </td>
 <td align="left" width="63%">
 Gets an MPEG-2 PSI table from an MPEG-2 transport stream.

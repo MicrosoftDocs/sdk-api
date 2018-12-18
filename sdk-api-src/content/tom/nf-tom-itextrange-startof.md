@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange interface [Windows Controls],StartOf method, ITextRange.StartOf, ITextRange::StartOf, StartOf, StartOf method [Windows Controls], StartOf method [Windows Controls],ITextRange interface, _win32_ITextRange_StartOf, _win32_ITextRange_StartOf_cpp, controls.ITextRange_StartOf, controls._win32_ITextRange_StartOf, tom/ITextRange::StartOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

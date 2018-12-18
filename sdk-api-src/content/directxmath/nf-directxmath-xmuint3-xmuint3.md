@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3::XMUINT3, dxmath.xmuint3_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMUINT3</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-A
 
 
 
-<a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3737cb1-36a0-4dbc-94d5-237e7395670e">XMUINT3 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx">XMUINT3 Constructors</a>
  
 
  

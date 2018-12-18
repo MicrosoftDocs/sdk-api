@@ -9,8 +9,6 @@ ms.assetid: 45bc7abb-1d39-4988-a9f0-867eaefe148f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsWmdrmCompliant method, IWMRegisteredDevice.IsWmdrmCompliant, IWMRegisteredDevice::IsWmdrmCompliant, IWMRegisteredDeviceIsWmdrmCompliant, IsWmdrmCompliant, IsWmdrmCompliant method [windows Media Format], IsWmdrmCompliant method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_iswmdrmcompliant, wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

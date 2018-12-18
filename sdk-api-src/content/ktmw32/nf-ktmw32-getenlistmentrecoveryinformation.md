@@ -9,8 +9,6 @@ ms.assetid: 05bfbe81-5f3d-4e32-b4fa-4532227f522e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnlistmentRecoveryInformation, GetEnlistmentRecoveryInformation function [Files], fs.getenlistmentrecoveryinformation_func, ktmw32/GetEnlistmentRecoveryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

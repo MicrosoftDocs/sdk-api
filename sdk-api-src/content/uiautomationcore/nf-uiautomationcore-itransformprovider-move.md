@@ -9,8 +9,6 @@ ms.assetid: 5abd6b54-a555-4e6f-9868-9c9b3e2f6e50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransformProvider interface [Windows Accessibility],Move method, ITransformProvider.Move, ITransformProvider::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],ITransformProvider interface, uiauto.uiauto_ITransformProvider_Move, uiauto_ITransformProvider_Move, uiautomationcore/ITransformProvider::Move, winauto.uiauto_ITransformProvider_Move
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 39898f71-9a88-4651-ab23-cd54dc16fb91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportClientShutdown, WdsTransportClientShutdown function [Windows Deployment Services], wds.wdstransportclientshutdown, wdstci/WdsTransportClientShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

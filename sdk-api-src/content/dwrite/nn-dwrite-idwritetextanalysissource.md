@@ -9,8 +9,6 @@ ms.assetid: 7e2a523d-9191-4f99-9e73-a7955c432126
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextAnalysisSource, IDWriteTextAnalysisSource interface [Direct Write], IDWriteTextAnalysisSource interface [Direct Write],described, directwrite.idwritetextanalysissource, dwrite/IDWriteTextAnalysisSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fd3330e4-af51-4f4c-bc4f-1b08502009bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngGetFileChangeTime, EngGetFileChangeTime function [Display Devices], display.enggetfilechangetime, gdifncs_627ace85-186b-4fe7-bd50-f8f0fb7da105.xml, winddi/EngGetFileChangeTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

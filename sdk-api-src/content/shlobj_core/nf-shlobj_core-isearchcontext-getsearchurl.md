@@ -9,8 +9,6 @@ ms.assetid: b2c9034f-65a2-414c-b440-330413ae63ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSearchURL method [Windows Shell], GetSearchURL method [Windows Shell],ISearchContext interface, GetSearchUrl, ISearchContext interface [Windows Shell],GetSearchURL method, ISearchContext.GetSearchUrl, ISearchContext::GetSearchURL, ISearchContext::GetSearchUrl, _shell_ISearchContext_GetSearchURL, shell.ISearchContext_GetSearchURL, shlobj_core/ISearchContext::GetSearchURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the URL that is being searched for.
 
 ### -param pbstrSearchUrl [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 The <b>BSTR</b> that receives the URL.
 

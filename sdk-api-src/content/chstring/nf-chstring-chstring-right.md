@@ -9,8 +9,6 @@ ms.assetid: eccf928f-75ac-4442-90f9-0e0578c5798f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?Right@CHString@@QBE?AV1@H@Z, ?Right@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Right method, CHString.Right, CHString::Right, Right, Right method [Windows Management Instrumentation], Right method [Windows Management Instrumentation],CHString interface, _hmm_chstring_right, chstring/CHString::Right, wmi.chstring_right"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
@@ -96,7 +94,7 @@ Returns a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718cae
 
 
 
-<a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">CHString::Mid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385623(v=VS.85).aspx">CHString::Mid</a>
  
 
  

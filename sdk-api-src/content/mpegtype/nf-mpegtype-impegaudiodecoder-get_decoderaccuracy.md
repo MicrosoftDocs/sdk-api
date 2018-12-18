@@ -9,8 +9,6 @@ ms.assetid: 5b0776f2-4340-4ebc-9d28-a2a2c2a4571e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderAccuracy method, IMpegAudioDecoder.get_DecoderAccuracy, IMpegAudioDecoder::get_DecoderAccuracy, IMpegAudioDecodergetDecoderAccuracy, dshow.impegaudiodecoder_get_decoderaccuracy, get_DecoderAccuracy, get_DecoderAccuracy method [DirectShow], get_DecoderAccuracy method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderAccuracy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

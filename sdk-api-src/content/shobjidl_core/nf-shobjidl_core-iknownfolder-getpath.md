@@ -9,8 +9,6 @@ ms.assetid: c1786db0-9bcc-4fc8-ae18-8519da6edda9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetPath method, IKnownFolder.GetPath, IKnownFolder::GetPath, _shell_IKnownFolder_GetPath, shell.IKnownFolder_GetPath, shobjidl_core/IKnownFolder::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -62,7 +60,7 @@ Retrieves the path of a known folder as a string.
 
 Type: <b>DWORD</b>
 
-Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param ppszPath [out]

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4x4(const XMFLOAT4X4)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadFloat4x4, XMLoadFloat4x4, XMLoadFloat4x4 method [DirectX Math Support APIs], dxmath.xmloadfloat4x4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> into an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> into an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
 
 
 ## -parameters
@@ -60,14 +58,14 @@ Loads an <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> structure to load.
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> structure to load.
 
 
 ## -returns
 
 
 
-Returns an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
+Returns an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> loaded with the data from the <i>pSource</i> parameter.
 
 
 
@@ -77,12 +75,12 @@ Returns an <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d
 
 
 
-<a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> is a row-major form of the matrix. This function could be used to read column-major data, 
-    but would then need to be transposed with <a href="https://msdn.microsoft.com/6267c6c3-1fda-44b1-8809-f0ad8988a49f">XMMatrixTranpose</a> before use in other XMMATRIX functions.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> is a row-major form of the matrix. This function could be used to read column-major data, 
+    but would then need to be transposed with <a href="https://msdn.microsoft.com/en-us/library/Ee420022(v=VS.85).aspx">XMMatrixTranpose</a> before use in other XMMATRIX functions.
 
-The members of the <a href="https://msdn.microsoft.com/92991b18-60a5-41ec-85de-690ac6e5f1e2">XMFLOAT4X4</a> structure (<b>_11</b>, <b>_12</b>,
+The members of the <a href="https://msdn.microsoft.com/en-us/library/Ee419621(v=VS.85).aspx">XMFLOAT4X4</a> structure (<b>_11</b>, <b>_12</b>,
     <b>_13</b>, and so on) are loaded into the corresponding members of the
-    <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

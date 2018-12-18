@@ -9,8 +9,6 @@ ms.assetid: 5fdad296-5024-4360-b1c5-f0192929c612
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAddErrorString, WsAddErrorString function [Web Services for Windows], webservices/WsAddErrorString, wsw.wsadderrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -130,7 +128,7 @@ This function may return other errors not listed above.
 
 
 This function requires that the string be in the language specified by the LANGID of the 
-                error object.  You can retrieve this LANGID value by calling the  <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a> enumeration.
+                error object.  You can retrieve this LANGID value by calling the  <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>function with the WS_ERROR_PROPERTY_LANGID value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_ID</a> enumeration.
             
 
 

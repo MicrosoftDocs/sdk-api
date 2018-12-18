@@ -9,8 +9,6 @@ ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure from a specified variant element.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure from a specified variant element.
 
 
 ## -parameters

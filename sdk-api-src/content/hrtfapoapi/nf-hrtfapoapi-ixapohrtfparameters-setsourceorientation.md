@@ -9,8 +9,6 @@ ms.assetid: 5E2F0A64-39BB-47B6-8C64-1FDB0B5C537C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSourceOrientation method, IXAPOHrtfParameters.SetSourceOrientation, IXAPOHrtfParameters::SetSourceOrientation, SetSourceOrientation, SetSourceOrientation method [XAudio2 Audio Mixing APIs], SetSourceOrientation method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetSourceOrientation, xaudio2.ixapohrtfparameters_setsourceorientation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: hrtfapoapi.h
 req.include-header: 

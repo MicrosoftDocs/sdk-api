@@ -9,8 +9,6 @@ ms.assetid: ae0a9f37-2337-419e-b912-2102e8eb2a39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentPrice, GetContentPrice method [Windows Media Player], GetContentPrice method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentPrice method, IWMPContentContainer.GetContentPrice, IWMPContentContainer::GetContentPrice, IWMPContentContainerGetContentPrice, contentpartner/IWMPContentContainer::GetContentPrice, wmp.iwmpcontentcontainer_getcontentprice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
@@ -127,7 +125,7 @@ The method succeeded.
 
 
 
-The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/en-us/library/Dd564215(v=VS.85).aspx">Purchasing Media Content</a>.
+The format of the string returned in <i>pbstrPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://msdn.microsoft.com/df4a3152-f9e3-4a97-b021-6d5e8de9c184">Purchasing Media Content</a>.
 
 
 

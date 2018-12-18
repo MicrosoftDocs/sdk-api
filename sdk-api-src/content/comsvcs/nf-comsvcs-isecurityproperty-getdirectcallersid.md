@@ -9,8 +9,6 @@ ms.assetid: e322df62-25a4-40a3-9b80-da468a265162
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectCallerSID, GetDirectCallerSID method [COM+], GetDirectCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCallerSID method, ISecurityProperty.GetDirectCallerSID, ISecurityProperty::GetDirectCallerSID, _cos_ISecurityProperty_GetDirectCallerSID, comsvcs/ISecurityProperty::GetDirectCallerSID, cos.isecurityproperty_getdirectcallersid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

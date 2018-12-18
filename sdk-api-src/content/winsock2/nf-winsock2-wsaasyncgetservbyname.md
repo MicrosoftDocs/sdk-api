@@ -9,8 +9,6 @@ ms.assetid: d3524197-cd7a-4863-8fbb-a05e6f5d38e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncGetServByName, WSAAsyncGetServByName function [Winsock], _win32_wsaasyncgetservbyname_2, winsock.wsaasyncgetservbyname_2, winsock/WSAAsyncGetServByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

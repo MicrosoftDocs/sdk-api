@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_63ot_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, _mfax_faxoutgoingjobs.item_cpp, fax._mfax_faxoutgoingjobs_item_cpp, faxcomex/IFaxOutgoingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutgoingJobs interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxOutgoingJobs::get_Item</b> method returns a <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a> interface from the <a href="https://msdn.microsoft.com/en-us/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a> interface.
+The <b>IFaxOutgoingJobs::get_Item</b> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface from the <a href="https://msdn.microsoft.com/en-us/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a> interface.
 
 
 ## -parameters
@@ -72,9 +70,9 @@ If this parameter is type VT_I2 or VT_I4, the parameter specifies the index of t
 
 ### -param pFaxOutgoingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>**</b>
 
-An address of a pointer that receives a <a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a> interface.
+An address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface.
 
 
 ## -returns

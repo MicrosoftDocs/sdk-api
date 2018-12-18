@@ -9,8 +9,6 @@ ms.assetid: dcc4ea8f-6924-4e26-a675-ce326f35933c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ADsPropGetInitInfo, ADsPropGetInitInfo function [Active Directory], ad.adspropgetinitinfo, adsprop/ADsPropGetInitInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: adsprop.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns nonzero if successful or zero otherwise.
 
 The memory  for the <b>pwzCN</b> and <b>pWritableAttrs</b> members is allocated by the <b>ADsPropGetInitInfo</b> function. This memory is freed by the system after all property sheet objects are destroyed. The reference count for the interface pointer in <b>pDsObj</b> is not incremented by calling <b>ADsPropGetInitInfo</b>, so the interface must not be released by the caller.
 
-For multiple-selection property sheets, the system only binds to the first object in the <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSOBJECT</a> array. Because of this, <b>ADsPropGetInitInfo</b> only supplies the <a href="https://msdn.microsoft.com/bc4f8920-2881-4393-bb01-ed837c3db6ad">IDirectoryObject</a> and writable attributes for the first object in the array. The other objects in the array are not bound to.
+For multiple-selection property sheets, the system only binds to the first object in the <a href="https://msdn.microsoft.com/en-us/library/ms676010(v=VS.85).aspx">DSOBJECT</a> array. Because of this, <b>ADsPropGetInitInfo</b> only supplies the <a href="https://msdn.microsoft.com/bc4f8920-2881-4393-bb01-ed837c3db6ad">IDirectoryObject</a> and writable attributes for the first object in the array. The other objects in the array are not bound to.
 
 
 #### Examples

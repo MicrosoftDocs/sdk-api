@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.Error_Spec_IPv4
+UID: NS:lpmapi.__unnamed_struct_11
 title: Error_Spec_IPv4
 author: windows-sdk-content
 description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.
@@ -7,10 +7,8 @@ old-location: qos\error_spec_ipv4.htm
 tech.root: QOS
 ms.assetid: 23df7278-8f37-426f-98ff-0cf02d780b76
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Error_Spec_IPv4, Error_Spec_IPv4 structure [QOS], lpmapi/Error_Spec_IPv4, qos.error_spec_ipv4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -95,7 +93,7 @@ Error value.
 
 
 
-<a href="https://msdn.microsoft.com/4d20cbb8-c29a-4c0c-bf06-532144da3e33">ERROR_SPEC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373693(v=VS.85).aspx">ERROR_SPEC</a>
 
 
 

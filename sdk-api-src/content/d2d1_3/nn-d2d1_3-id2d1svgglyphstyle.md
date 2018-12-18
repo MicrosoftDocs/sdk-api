@@ -9,8 +9,6 @@ ms.assetid: FE01771A-D82A-4610-8014-E0C0C0C5402E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgGlyphStyle, ID2D1SvgGlyphStyle interface [Direct2D], ID2D1SvgGlyphStyle interface [Direct2D],described, d2d1_3/ID2D1SvgGlyphStyle, direct2d.id2d1svgglyphstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

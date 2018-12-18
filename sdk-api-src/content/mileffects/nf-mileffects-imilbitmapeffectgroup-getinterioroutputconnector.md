@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinterioro
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInteriorOutputConnector, GetInteriorOutputConnector method [WPF Bitmap Effects], GetInteriorOutputConnector method [WPF Bitmap Effects],IMILBitmapEffectGroup interface, IMILBitmapEffectGroup interface [WPF Bitmap Effects],GetInteriorOutputConnector method, IMILBitmapEffectGroup.GetInteriorOutputConnector, IMILBitmapEffectGroup::GetInteriorOutputConnector, _wibe_imilbitmapeffectgroup_getinterioroutputconnector, mileffects/IMILBitmapEffectGroup::GetInteriorOutputConnector, wibe._wibe_imilbitmapeffectgroup_getinterioroutputconnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

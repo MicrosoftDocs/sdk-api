@@ -9,8 +9,6 @@ ms.assetid: 8e3681a7-c5be-4104-b740-9f23d141f6cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8e3681a7-c5be-4104-b740-9f23d141f6cb, IInkDrawingAttributes interface [Tablet PC],RasterOperation property, IInkDrawingAttributes.RasterOperation, IInkDrawingAttributes.get_RasterOperation, IInkDrawingAttributes::RasterOperation, IInkDrawingAttributes::get_RasterOperation, IInkDrawingAttributes::put_RasterOperation, InkDrawingAttributes.get_RasterOperation, InkDrawingAttributes.put_RasterOperation, RasterOperation property [Tablet PC], RasterOperation property [Tablet PC],IInkDrawingAttributes interface, get_RasterOperation, msinkaut/IInkDrawingAttributes::RasterOperation, msinkaut/IInkDrawingAttributes::get_RasterOperation, msinkaut/IInkDrawingAttributes::put_RasterOperation, put_RasterOperation, tablet.inkdrawingattributes_rasteroperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -86,7 +84,7 @@ When the <b>RasterOperation</b> property is set to anything other than <a href="
 
 
 
-<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

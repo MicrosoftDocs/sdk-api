@@ -9,8 +9,6 @@ ms.assetid: 1c1b41c3-286c-4d1f-ab2f-ce088289eaae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_recoveredPackets method, IWMPNetwork.get_recoveredPackets, IWMPNetwork::get_recoveredPackets, IWMPNetworkget_recoveredPackets, get_recoveredPackets, get_recoveredPackets method [Windows Media Player], get_recoveredPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_recoveredpackets, wmp/IWMPNetwork::get_recoveredPackets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ This method retrieves valid information only during run time when the URL for pl
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

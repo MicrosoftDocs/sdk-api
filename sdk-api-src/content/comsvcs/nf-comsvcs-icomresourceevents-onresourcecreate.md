@@ -9,8 +9,6 @@ ms.assetid: 6c1cb030-c6c7-4f91-a1ea-eebbec41813b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceCreate method, IComResourceEvents.OnResourceCreate, IComResourceEvents::OnResourceCreate, OnResourceCreate, OnResourceCreate method [COM+], OnResourceCreate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceCreate, comsvcs/IComResourceEvents::OnResourceCreate, cos.icomresourceevents_onresourcecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -97,7 +95,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688516(v=VS.85).aspx">IComResourceEvents</a>
+<a href="https://msdn.microsoft.com/fdc664b6-0459-4cbd-8e9e-0c3fe82e4321">IComResourceEvents</a>
  
 
  

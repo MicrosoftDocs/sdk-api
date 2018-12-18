@@ -9,8 +9,6 @@ ms.assetid: 9c50f934-d968-4a3d-8455-8923d98b926e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetText method, ITfLangBarItemButton.GetText, ITfLangBarItemButton::GetText, _tsf_itflangbaritembutton_gettext_ref, ctfutb/ITfLangBarItemButton::GetText, tsf.itflangbaritembutton_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -117,7 +115,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628717(v=VS.85).aspx">ITfLangBarItemButton</a>
+<a href="https://msdn.microsoft.com/098a8cdc-ff34-4729-9b34-279c499d40a8">ITfLangBarItemButton</a>
 
 
 

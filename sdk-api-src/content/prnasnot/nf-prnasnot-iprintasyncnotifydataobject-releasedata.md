@@ -9,8 +9,6 @@ ms.assetid: f4960aa1-237f-491e-b69c-0aa107d9ddad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData method, IPrintAsyncNotifyDataObject.ReleaseData, IPrintAsyncNotifyDataObject::ReleaseData, ReleaseData, ReleaseData method [Windows GDI], ReleaseData method [Windows GDI],IPrintAsyncNotifyDataObject interface, _win32_IPrintAsyncNotifyDataObject_ReleaseData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata, prnasnot/IPrintAsyncNotifyDataObject::ReleaseData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
@@ -64,7 +62,7 @@ Releases the memory used by the data encapsulated in <a href="https://msdn.micro
 
 
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for the possible values.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd162835(v=VS.85).aspx">PrintAsyncNotifyError</a> for the possible values.
 
 For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox constructor [DirectX Math Support APIs], BoundingOrientedBox constructor [DirectX Math Support APIs],BoundingOrientedBox interface, BoundingOrientedBox interface [DirectX Math Support APIs],BoundingOrientedBox constructor, BoundingOrientedBox.BoundingOrientedBox, BoundingOrientedBox.BoundingOrientedBox(), BoundingOrientedBox::BoundingOrientedBox, dxmath.boundingorientedbox_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>.
 
 
 ## -parameters
@@ -75,11 +73,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3c6d25e-27f2-4f44-a53a-a8a0afe7f2b8">Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
 
 
 

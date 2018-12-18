@@ -9,8 +9,6 @@ ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

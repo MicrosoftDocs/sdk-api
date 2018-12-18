@@ -9,8 +9,6 @@ ms.assetid: 02844D45-01B2-497B-83D6-8FEB904CF2FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpDeclarePush, HttpDeclarePush function [HTTP], http.httpdeclarepush, http/HttpDeclarePush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

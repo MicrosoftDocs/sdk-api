@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.#ctor(uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUDECN4, XMUDECN4 constructor [DirectX Math Support APIs], XMUDECN4 constructor [DirectX Math Support APIs],XMUDECN4 structure, XMUDECN4 structure [DirectX Math Support APIs],XMUDECN4 constructor, XMUDECN4.XMUDECN4, XMUDECN4.XMUDECN4(uint32_t), XMUDECN4::XMUDECN4, XMUDECN4::XMUDECN4(uint32_t), dxmath.xmudecn4_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -54,7 +52,7 @@ Initializes a new instance of <code>XMUDECN4</code> from a <code>uint32_t</code>
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4 </a> from a
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4 </a> from a
 	<code>uint32_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -116,11 +114,11 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 
 
 
-<a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420527(v=VS.85).aspx">XMUDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e513f04-08fc-4f77-a19d-66d719abdb23">XMUDECN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415453(v=VS.85).aspx">XMUDECN4 Constructors</a>
  
 
  

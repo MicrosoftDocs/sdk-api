@@ -9,8 +9,6 @@ ms.assetid: FEDA0802-45A6-4ED5-9683-5278BD60B7A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12RootSignatureDeserializer, ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,described, d3d12/ID3D12RootSignatureDeserializer, direct3d12.id3d12rootsignaturedeserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

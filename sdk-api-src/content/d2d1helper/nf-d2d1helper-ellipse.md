@@ -9,8 +9,6 @@ ms.assetid: 49d1b737-acf3-4dd7-81ce-c78ac0558a87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368097(v=VS.85).aspx">D2D1_ELLIPSE</a> structure.
+Creates a <a href="https://msdn.microsoft.com/6fed6c49-ba83-4c2b-af8a-04156ee317f0">D2D1_ELLIPSE</a> structure.
 
 
 ## -parameters
@@ -63,7 +61,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368097(v=VS.85).as
 
 ### -param center [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The center point of the ellipse.
 
@@ -86,7 +84,7 @@ The y-radius of the ellipse.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368097(v=VS.85).aspx">D2D1_ELLIPSE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6fed6c49-ba83-4c2b-af8a-04156ee317f0">D2D1_ELLIPSE</a></b>
 
 The new ellipse.
 

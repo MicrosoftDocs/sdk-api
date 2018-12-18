@@ -9,8 +9,6 @@ ms.assetid: 7977680b-0967-4b85-9926-fc2725681de9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedia], mmeapi/mixerOpen, multimedia.mixeropen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

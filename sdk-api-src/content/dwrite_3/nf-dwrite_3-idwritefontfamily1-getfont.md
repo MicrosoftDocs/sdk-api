@@ -9,8 +9,6 @@ ms.assetid: B5C03AC5-E642-4AC8-94D1-D935BA159113
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFont method, IDWriteFontFamily1.GetFont, IDWriteFontFamily1::GetFont, directwrite.idwritefontfamily1_getfont, dwrite_3/IDWriteFontFamily1::GetFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -67,9 +65,9 @@ Zero-based index of the font in the font list.
 
 ### -param font [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a> interface for the newly created font object.
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a> interface for the newly created font object.
 
 
 ## -returns
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0642C2FA-03D0-4233-B8C4-27E4549B30BB">IDWriteFontFamily1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894590(v=VS.85).aspx">IDWriteFontFamily1</a>
  
 
  

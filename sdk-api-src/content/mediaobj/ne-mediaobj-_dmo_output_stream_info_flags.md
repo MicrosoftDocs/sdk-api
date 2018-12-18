@@ -9,8 +9,6 @@ ms.assetid: 570dd009-0101-4a01-b064-4f4404fb453f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_OUTPUT_STREAMF_DISCARDABLE, DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZE, DMO_OUTPUT_STREAMF_OPTIONAL, DMO_OUTPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, DMO_OUTPUT_STREAMF_WHOLE_SAMPLES, DMO_OUTPUT_STREAM_INFO_FLAGS , DMO_OUTPUT_STREAM_INFO_FLAGSEnumeration, _DMO_OUTPUT_STREAM_INFO_FLAGS, _DMO_OUTPUT_STREAM_INFO_FLAGS enumeration [DirectShow], dshow.dmo_output_stream_info_flags, mediaobj/DMO_OUTPUT_STREAMF_DISCARDABLE, mediaobj/DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZE, mediaobj/DMO_OUTPUT_STREAMF_OPTIONAL, mediaobj/DMO_OUTPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER, mediaobj/DMO_OUTPUT_STREAMF_WHOLE_SAMPLES, mediaobj/_DMO_OUTPUT_STREAM_INFO_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
@@ -78,7 +76,7 @@ All the samples in this stream are the same size.
 
 ### -field DMO_OUTPUT_STREAMF_DISCARDABLE
 
-The stream is discardable. Within calls to <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>, the DMO can discard data for this stream without copying it to an output buffer.
+The stream is discardable. Within calls to <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>, the DMO can discard data for this stream without copying it to an output buffer.
 
 
 ### -field DMO_OUTPUT_STREAMF_OPTIONAL
@@ -104,7 +102,7 @@ The DMO_OUTPUT_STREAMF_DISCARDABLE and DMO_OUTPUT_STREAMF_OPTIONAL flags are mut
 
 
 
-<a href="https://msdn.microsoft.com/a21e9943-4aaf-4f0e-a92a-5fcd551fe7e1">IMediaObject::GetOutputStreamInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406955(v=VS.85).aspx">IMediaObject::GetOutputStreamInfo</a>
  
 
  

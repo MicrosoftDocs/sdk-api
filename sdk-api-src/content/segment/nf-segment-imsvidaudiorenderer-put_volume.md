@@ -9,8 +9,6 @@ ms.assetid: a0fa96bb-a903-41e1-bd2a-6ef1733adbd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],put_Volume method, IMSVidAudioRenderer.put_Volume, IMSVidAudioRenderer::put_Volume, IMSVidAudioRendererput_Volume, mstv.imsvidaudiorenderer_put_volume, put_Volume, put_Volume method [Microsoft TV Technologies], put_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, segment/IMSVidAudioRenderer::put_Volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -86,7 +84,7 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 
 
-<a href="https://msdn.microsoft.com/95171b87-e558-450b-8a48-f43a19069218">IBasicAudio::put_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389538(v=VS.85).aspx">IBasicAudio::put_Volume</a>
 
 
 
@@ -94,7 +92,7 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 
 
-<a href="https://msdn.microsoft.com/7dbbdb17-b077-4e36-a5d4-c8e343feb930">IMSVidAudioRenderer::get_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694463(v=VS.85).aspx">IMSVidAudioRenderer::get_Volume</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: E26F5C41-50E7-4D4F-A6FF-D1B21AF28A9D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FhReassociation class [Windows API],ScanTargetForConfigurations method, IFhReassociation interface [Windows API],ScanTargetForConfigurations method, IFhReassociation.ScanTargetForConfigurations, IFhReassociation::ScanTargetForConfigurations, ScanTargetForConfigurations, ScanTargetForConfigurations method [Windows API], ScanTargetForConfigurations method [Windows API],FhReassociation class, ScanTargetForConfigurations method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::ScanTargetForConfigurations, winprog.ifhreassociation_scantargetforconfigurations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

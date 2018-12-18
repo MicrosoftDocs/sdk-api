@@ -9,8 +9,6 @@ ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

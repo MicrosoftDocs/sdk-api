@@ -9,8 +9,6 @@ ms.assetid: 06C02E3D-27FF-4E11-87C2-7D8281A69601
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetTransformParent method, IDCompositionVisual.SetTransformParent, IDCompositionVisual::SetTransformParent, SetTransformParent, SetTransformParent method [DirectComposition], SetTransformParent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetTransformParent, directcomp.idcompositionvisual_settransformparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the TransformParent property of this visual. The TransformParent property e
 
 ### -param visual [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>*</b>
 
 The new visual that establishes the base coordinate system for this visual. This parameter can be NULL.
 
@@ -88,7 +86,7 @@ If the <i>visual</i> parameter is NULL, the coordinate system is always transfor
 
 
 
-This method fails if the <i>visual</i> parameter is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if the <i>visual</i> parameter is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as this visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -99,7 +97,7 @@ This method fails if the <i>visual</i> parameter is an invalid pointer or if it 
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

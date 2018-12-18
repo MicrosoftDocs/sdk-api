@@ -9,8 +9,6 @@ ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream method, IMFMediaSourceExtension.SetEndOfStream, IMFMediaSourceExtension::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Media Foundation], SetEndOfStream method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setendofstream, mfmediaengine/IMFMediaSourceExtension::SetEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

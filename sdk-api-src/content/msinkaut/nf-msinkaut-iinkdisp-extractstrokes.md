@@ -9,8 +9,6 @@ ms.assetid: 1cb109e5-5193-4022-a3b1-ade9be1337e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1cb109e5-5193-4022-a3b1-ade9be1337e8, ExtractStrokes, ExtractStrokes method [Tablet PC], ExtractStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ExtractStrokes method, IInkDisp.ExtractStrokes, IInkDisp::ExtractStrokes, msinkaut/IInkDisp::ExtractStrokes, tablet.inkdisp_extractstrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -197,7 +195,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

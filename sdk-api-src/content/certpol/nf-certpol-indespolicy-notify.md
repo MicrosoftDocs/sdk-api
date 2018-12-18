@@ -9,8 +9,6 @@ ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify, INDESPolicy::Notify, Notify, Notify method [Security], Notify method [Security],INDESPolicy interface, certpol/INDESPolicy::Notify, security.indespolicy_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: 
@@ -97,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn383665(v=VS.85).aspx">INDESPolicy</a>
+<a href="https://msdn.microsoft.com/9ed31493-832a-4f66-bb95-02ef1ad7ca15">INDESPolicy</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInMemoryFontFileLoader, CreateInMemoryFontFileLoader method [Direct Write], CreateInMemoryFontFileLoader method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],CreateInMemoryFontFileLoader method, IDWriteFactory5.CreateInMemoryFontFileLoader, IDWriteFactory5::CreateInMemoryFontFileLoader, directwrite.idwritefactory5_createinmemoryfontfileloader, dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -61,7 +59,7 @@ Creates a loader object that can be used to create font file references to in-me
 
 ### -param newLoader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a>**</b>
 
 Receives a pointer to the newly-created loader object.
 
@@ -70,7 +68,7 @@ Receives a pointer to the newly-created loader object.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -86,7 +84,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
  
 
  

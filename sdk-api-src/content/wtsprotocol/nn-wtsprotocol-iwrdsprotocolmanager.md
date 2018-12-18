@@ -4,13 +4,11 @@ title: IWRdsProtocolManager
 author: windows-sdk-content
 description: Exposes methods that the Remote Desktop Services service uses to communicate with the protocol provider.
 old-location: termserv\iwrdsprotocolmanager.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 626d579a-88a2-4f72-9d91-b27e517b4806
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolManager, IWRdsProtocolManager interface [Remote Desktop Services], IWRdsProtocolManager interface [Remote Desktop Services],described, termserv.iwrdsprotocolmanager, wtsprotocol/IWRdsProtocolManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

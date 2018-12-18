@@ -9,8 +9,6 @@ ms.assetid: 6d36e3e2-7826-4bae-943c-3ab73404534c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmReport interface [File Server Resource Manager],SetFilter method, IFsrmReport.SetFilter, IFsrmReport::SetFilter, SetFilter, SetFilter method [File Server Resource Manager], SetFilter method [File Server Resource Manager],IFsrmReport interface, fs.ifsrmreport_setfilter, fsrm.ifsrmreport_setfilter, fsrmreports/IFsrmReport::SetFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

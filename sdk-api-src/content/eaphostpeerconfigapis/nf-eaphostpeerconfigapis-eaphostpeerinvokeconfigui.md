@@ -9,8 +9,6 @@ ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerInvokeConfigUI, EapHostPeerInvokeConfigUI function [EAPHost], eaphost.eaphostpeerinvokeconfigui, eaphostpeerconfigapis/EapHostPeerInvokeConfigUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

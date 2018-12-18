@@ -9,8 +9,6 @@ ms.assetid: f66ce774-dba0-466b-ad1e-671f9a487e0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpMgrRequest, SnmpMgrRequest function [SNMP], _snmp_snmpmgrrequest, mgmtapi/SnmpMgrRequest, snmp.snmpmgrrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
@@ -126,7 +124,7 @@ Note that PDU request types have been renamed. For additional information, see
 
 Pointer to the variable bindings list. 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> array pointed to by the <a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure must be allocated using the <a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a> function.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> array pointed to by the <a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure must be allocated using the <a href="https://msdn.microsoft.com/85e293da-4c5b-4b32-9b86-e63074d37274">SnmpUtilMemAlloc</a> function.</div>
 <div> </div>
 
 ### -param errorStatus [out]

@@ -9,8 +9,6 @@ ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

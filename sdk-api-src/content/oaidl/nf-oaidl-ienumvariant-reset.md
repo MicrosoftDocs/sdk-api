@@ -9,8 +9,6 @@ ms.assetid: 0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumVARIANT interface [Automation],Reset method, IEnumVARIANT.Reset, IEnumVARIANT::Reset, Reset, Reset method [Automation], Reset method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Reset, automat.ienumvariant_reset, oaidl/IEnumVARIANT::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

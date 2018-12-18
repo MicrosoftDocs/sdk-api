@@ -9,8 +9,6 @@ ms.assetid: e34fc088-61d7-46a8-b493-8255a733d521
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBackground, GetBackground method [MMC], GetBackground method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetBackground method, IExtendTaskPad.GetBackground, IExtendTaskPad::GetBackground, _slate_iextendtaskpad_getbackground, mmc.iextendtaskpad_getbackground, mmc/IExtendTaskPad::GetBackground
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

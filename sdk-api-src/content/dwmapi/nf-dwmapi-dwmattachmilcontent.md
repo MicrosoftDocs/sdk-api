@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmattachm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmAttachMilContent, DwmAttachMilContent function [Desktop Window Manager], _udwm_dwmattachmilcontent, _udwm_dwmattachmilcontent_cpp, dwm.dwmattachmilcontent, dwmapi/DwmAttachMilContent, winui._udwm_dwmattachmilcontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

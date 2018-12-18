@@ -9,8 +9,6 @@ ms.assetid: 185611f8-beef-47b8-a9c2-abcda7651a18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMLicenseRevocationAgent interface [windows Media Format],ProcessLRB method, IWMLicenseRevocationAgent.ProcessLRB, IWMLicenseRevocationAgent::ProcessLRB, IWMLicenseRevocationAgentProcessLRB, ProcessLRB, ProcessLRB method [windows Media Format], ProcessLRB method [windows Media Format],IWMLicenseRevocationAgent interface, wmformat.iwmlicenserevocationagent_processlrb, wmsdkidl/IWMLicenseRevocationAgent::ProcessLRB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -116,7 +114,7 @@ The method succeeded.
 
 
 
-The license server sends the signed license revocation blob after receiving a response to its initial challenge message. For more information, see <a href="https://msdn.microsoft.com/9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7">GetLRBChallenge</a>.
+The license server sends the signed license revocation blob after receiving a response to its initial challenge message. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd757226(v=VS.85).aspx">GetLRBChallenge</a>.
 
 
 
@@ -126,7 +124,7 @@ The license server sends the signed license revocation blob after receiving a re
 
 
 
-<a href="https://msdn.microsoft.com/4cb5beb9-72b8-46cb-8460-56455785a7a0">IWMLicenseRevocationAgent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757225(v=VS.85).aspx">IWMLicenseRevocationAgent Interface</a>
  
 
  

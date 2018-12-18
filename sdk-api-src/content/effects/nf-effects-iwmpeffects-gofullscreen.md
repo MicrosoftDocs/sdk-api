@@ -9,8 +9,6 @@ ms.assetid: daf69206-5756-4504-9738-e16b9af39790
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsGoFullscreen, GoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GoFullscreen method, IWMPEffects.GoFullscreen, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -91,7 +89,7 @@ A default implementation of this method is not included in the visualization wiz
 
 
 
-<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
  
 
  

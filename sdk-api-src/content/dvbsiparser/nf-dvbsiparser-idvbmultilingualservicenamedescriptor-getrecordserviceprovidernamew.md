@@ -9,8 +9,6 @@ ms.assetid: e07ebe5c-b5b3-4604-91c3-3e75042ad074
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordServiceProviderNameW, GetRecordServiceProviderNameW method [Microsoft TV Technologies], GetRecordServiceProviderNameW method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordServiceProviderNameW method, IDvbMultilingualServiceNameDescriptor.GetRecordServiceProviderNameW, IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceProviderNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordserviceprovidernamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

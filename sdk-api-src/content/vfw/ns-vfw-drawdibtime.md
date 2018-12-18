@@ -1,5 +1,5 @@
 ---
-UID: NS:vfw.DRAWDIBTIME
+UID: NS:vfw.__unnamed_struct_12
 title: DRAWDIBTIME
 author: windows-sdk-content
 description: The DRAWDIBTIME structure contains elapsed timing information for performing a set of DrawDib operations. The DrawDibTime function resets the count and the elapsed time value for each operation each time it is called.
@@ -7,10 +7,8 @@ old-location: multimedia\drawdibtime_struct.htm
 tech.root: Multimedia
 ms.assetid: ec8a4e04-9e38-4db3-bb2b-838c63284f3a
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

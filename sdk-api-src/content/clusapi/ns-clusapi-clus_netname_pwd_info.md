@@ -9,8 +9,6 @@ ms.assetid: 365959c8-63e7-477b-b772-85a0afdaa6f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUS_NETNAME_PWD_INFO, *PCLUS_RLUA_PWD_INFO, CLUS_NETNAME_PWD_INFO, CLUS_NETNAME_PWD_INFO structure [Failover Cluster], CLUS_RLUA_PWD_INFO, CLUS_RLUA_PWD_INFO structure [Failover Cluster], PCLUS_NETNAME_PWD_INFO, PCLUS_NETNAME_PWD_INFO structure pointer [Failover Cluster], PCLUS_RLUA_PWD_INFO, PCLUS_RLUA_PWD_INFO structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_PWD_INFO, clusapi/CLUS_RLUA_PWD_INFO, clusapi/PCLUS_NETNAME_PWD_INFO, clusapi/PCLUS_RLUA_PWD_INFO, mscs.clus_netname_pwd_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -83,7 +81,7 @@ Contains the ID of a security principal objecton a directory server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369165(v=VS.85).aspx">Failover Cluster Structures</a>
+<a href="https://msdn.microsoft.com/640359e9-ed65-46c1-a9d4-655e2f6a24df">Failover Cluster Structures</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultTabStop, GetDefaultTabStop method [Windows Controls], GetDefaultTabStop method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetDefaultTabStop method, ITextDocument.GetDefaultTabStop, ITextDocument::GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop_cpp, controls.ITextDocument_GetDefaultTabStop, controls._win32_ITextDocument_GetDefaultTabStop, tom/ITextDocument::GetDefaultTabStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

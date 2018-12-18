@@ -9,8 +9,6 @@ ms.assetid: 17d5450c-0894-412f-a8d1-44ea0364a606
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaGetPropertyValue, UiaGetPropertyValue function [Windows Accessibility], uiauto.uiauto_UiaGetPropertyValueAutoMeth, uiauto_UiaGetPropertyValueAutoMeth, uiautomationcoreapi/UiaGetPropertyValue, winauto.uiauto_UiaGetPropertyValueAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

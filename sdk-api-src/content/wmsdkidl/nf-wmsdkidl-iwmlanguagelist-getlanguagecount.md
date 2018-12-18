@@ -9,8 +9,6 @@ ms.assetid: 81c2edae-a793-421b-9aa2-39e280c43aeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguageCount, GetLanguageCount method [windows Media Format], GetLanguageCount method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageCount method, IWMLanguageList.GetLanguageCount, IWMLanguageList::GetLanguageCount, IWMLanguageListGetLanguageCount, wmformat.iwmlanguagelist_getlanguagecount, wmsdkidl/IWMLanguageList::GetLanguageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -111,7 +109,7 @@ For a list of common RFC 1766-compliant language identifiers, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/63ef282c-d1ab-4ce9-a56b-209407c7839b">IWMLanguageList Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757214(v=VS.85).aspx">IWMLanguageList Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Associates the caller's <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> with the specified <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a>.
+Associates the caller's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> with the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
 
 
 ## -parameters

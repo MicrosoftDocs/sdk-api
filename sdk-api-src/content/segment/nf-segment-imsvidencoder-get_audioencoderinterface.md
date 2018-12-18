@@ -9,8 +9,6 @@ ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_AudioEncoderInterface method, IMSVidEncoder.get_AudioEncoderInterface, IMSVidEncoder::get_AudioEncoderInterface, IMSVidEncoderget_AudioEncoderInterface, get_AudioEncoderInterface, get_AudioEncoderInterface method [Microsoft TV Technologies], get_AudioEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_audioencoderinterface, segment/IMSVidEncoder::get_AudioEncoderInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get_AudioEncoderInterface</b> method retrieves a pointer to the audio enc
 
 ### -param ppEncInt [out]
 
-Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://msdn.microsoft.com/823b79a1-1bf5-4aab-80dd-0e77ba950127">IEncoderAPI</a> interface.
+Pointer to a variable that receives an <b>IUnknown</b> interface pointer. The caller can query this interface for the <a href="https://msdn.microsoft.com/en-us/library/Dd693975(v=VS.85).aspx">IEncoderAPI</a> interface.
 
 
 ## -returns

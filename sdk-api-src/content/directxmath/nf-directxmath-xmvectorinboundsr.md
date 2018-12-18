@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorInBoundsR(uint32_t@,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorInBoundsR, XMVectorInBoundsR, XMVectorInBoundsR method [DirectX Math Support APIs], dxmath.xmvectorinboundsr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Tests whether the components of a given vector are within certain bounds and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Tests whether the components of a given vector are within certain bounds and set
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/6613221e-bff0-4dba-9918-6094ec3fdc99">XMComparisonAllInBounds</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437886(v=VS.85).aspx">XMComparisonAllInBounds</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V [in]
@@ -116,7 +114,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/96a5c889-1c3e-4f11-a296-974aa65addfa">XMVectorInBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421166(v=VS.85).aspx">XMVectorInBounds</a>
  
 
  

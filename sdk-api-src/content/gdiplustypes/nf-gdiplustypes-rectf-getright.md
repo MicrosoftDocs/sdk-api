@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],RectF class, RectF class [GDI+],GetRight method, RectF.GetRight, RectF::GetRight, _gdiplus_CLASS_RectF_GetRight_, gdiplus._gdiplus_CLASS_RectF_GetRight_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

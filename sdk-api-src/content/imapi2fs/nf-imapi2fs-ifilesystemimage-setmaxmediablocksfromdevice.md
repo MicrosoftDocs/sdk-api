@@ -9,8 +9,6 @@ ms.assetid: 201e7390-68f3-48a4-9036-b07219fa3d80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],SetMaxMediaBlocksFromDevice method, IFileSystemImage.SetMaxMediaBlocksFromDevice, IFileSystemImage::SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice, SetMaxMediaBlocksFromDevice method [IMAPI], SetMaxMediaBlocksFromDevice method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_setmaxmediablocksfromdevice, imapi2fs/IFileSystemImage::SetMaxMediaBlocksFromDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

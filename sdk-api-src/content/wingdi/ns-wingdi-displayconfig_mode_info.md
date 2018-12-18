@@ -9,8 +9,6 @@ ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_MODE_INFO structure [Display Devices], display.displayconfig_mode_info, wingdi/DISPLAYCONFIG_MODE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -100,7 +98,7 @@ Supported starting in Windows 10.
 
 
 
-<a href="https://msdn.microsoft.com/d5ddb1d5-6b74-471f-86f0-fee72f30b648">DISPLAYCONFIG_MODE_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553942(v=VS.85).aspx">DISPLAYCONFIG_MODE_INFO_TYPE</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 99626e6f-2716-4e36-b4ec-3fef0315ea41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

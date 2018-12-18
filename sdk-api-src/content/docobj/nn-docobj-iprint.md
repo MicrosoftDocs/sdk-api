@@ -9,8 +9,6 @@ ms.assetid: eb0d15c0-8a34-4211-b840-29d5862cf767
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrint, IPrint interface [COM], IPrint interface [COM],described, _ctrl_iprint, com.iprint, docobj/IPrint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33cc24ab-9eb4-48ef-9483-058a3af04983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyBypassForLocal method, IWMPNetwork.getProxyBypassForLocal, IWMPNetwork::getProxyBypassForLocal, IWMPNetworkgetProxyBypassForLocal, getProxyBypassForLocal, getProxyBypassForLocal method [Windows Media Player], getProxyBypassForLocal method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxybypassforlocal, wmp/IWMPNetwork::getProxyBypassForLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,15 +113,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/4477bc81-e52b-4924-a31b-6f005a5bd158">IWMPNetwork::setProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563486(v=VS.85).aspx">IWMPNetwork::setProxyBypassForLocal</a>
  
 
  

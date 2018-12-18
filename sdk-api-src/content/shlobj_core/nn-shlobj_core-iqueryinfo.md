@@ -9,8 +9,6 @@ ms.assetid: 7e256ed3-b3c7-4f9d-b3a0-e33c46fa2573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryInfo, IQueryInfo interface [Windows Shell], IQueryInfo interface [Windows Shell],described, _win32_IQueryInfo, shell.IQueryInfo, shlobj_core/IQueryInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation. Info tips are usually displayed inside a <a href="_win32_Tooltip_Controls">tooltip</a> control.
+Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation. Info tips are usually displayed inside a <a href="https://msdn.microsoft.com/en-us/library/Hh449606(v=VS.85).aspx">tooltip</a> control.
 
 
 ## -inheritance

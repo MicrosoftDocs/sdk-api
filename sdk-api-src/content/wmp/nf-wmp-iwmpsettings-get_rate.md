@@ -9,8 +9,6 @@ ms.assetid: 1c3f2938-733f-42fc-ae07-66aad715958b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_rate method, IWMPSettings.get_rate, IWMPSettings::get_rate, IWMPSettingsget_rate, get_rate, get_rate method [Windows Media Player], get_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_rate, wmp/IWMPSettings::get_rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -132,27 +130,27 @@ The playback rate of some digital media formats cannot be altered. Use the <b>IW
 
 
 
-<a href="https://msdn.microsoft.com/a741da8d-f1a2-4a96-acb6-7c40077f6b5e">IWMPControls::fastForward</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563195(v=VS.85).aspx">IWMPControls::fastForward</a>
 
 
 
-<a href="https://msdn.microsoft.com/2adec4c7-7aca-4191-8c6f-61e137188ad9">IWMPControls::fastReverse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563196(v=VS.85).aspx">IWMPControls::fastReverse</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0773792f-4046-4d58-9673-cbfef0ec5bf5">IWMPSettings::get_isAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563663(v=VS.85).aspx">IWMPSettings::get_isAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0bb1c84-d208-4d29-a797-bb18af039f03">IWMPSettings::get_mute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563664(v=VS.85).aspx">IWMPSettings::get_mute</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2">IWMPSettings::put_rate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563680(v=VS.85).aspx">IWMPSettings::put_rate</a>
  
 
  

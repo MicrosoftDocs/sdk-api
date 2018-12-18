@@ -9,8 +9,6 @@ ms.assetid: 317ed10b-f779-449e-8b57-329279629cc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetSelectedDevice, SetupDiGetSelectedDevice function [Device and Driver Installation], devinst.setupdigetselecteddevice, di-rtns_c28297c0-dcc3-4bfa-9448-46ec7e9ac3a0.xml, setupapi/SetupDiGetSelectedDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

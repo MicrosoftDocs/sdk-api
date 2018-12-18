@@ -9,8 +9,6 @@ ms.assetid: 388f862c-58b0-48a8-a865-ba7568484ef5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_BLEND_DESC, D3D11_BLEND_DESC structure [Direct3D 11], d3d11/D3D11_BLEND_DESC, direct3d11.d3d11_blend_desc, ed99badb-a124-6d18-9617-fc6a75dc845f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -152,7 +150,7 @@ If the driver type is set to <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

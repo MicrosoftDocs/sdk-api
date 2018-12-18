@@ -9,8 +9,6 @@ ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -73,7 +71,7 @@ A pointer to a description of the fault detail element.
 The action value of the fault detail description is used as a filter
                     value to match against the action of the fault.  If both action
                     strings are specified (the action value of the fault detail description 
-                    is not <b>NULL</b> and the action value <a href="https://msdn.microsoft.com/f5ae9ee9-18de-428d-9367-aa4a554577ea">WS_FAULT_ERROR_PROPERTY_ACTION</a> in the 
+                    is not <b>NULL</b> and the action value <a href="https://msdn.microsoft.com/en-us/library/Dd401880(v=VS.85).aspx">WS_FAULT_ERROR_PROPERTY_ACTION</a> in the 
                     <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> has a length greater than zero), then the action 
                     strings are compared to determine a match.  If there is a match, then the 
                     function will then try to deserialize the detail element.
@@ -87,7 +85,7 @@ The element description of the fault detail description is used to
 ### -param readOption [in]
 
 Whether the element is required, and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
                 
 
 
@@ -99,13 +97,13 @@ The heap to store the deserialized values in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
@@ -193,16 +191,16 @@ This functions supports the following scenarios, based on the contents
 
 Since different faults with different detail formats may be expected
                 from a service, this function can be called in succession to try to
-                read each type of detail.  In this case, the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a>value can be specified, which will return a <b>NULL</b> pointer if the element name
+                read each type of detail.  In this case, the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTIONAL_POINTER</a>value can be specified, which will return a <b>NULL</b> pointer if the element name
                 in the fault detail does not match the expected value.
             
 
 </li>
 <li>Reading multiple elements as a single value.  
                 In this case, the elementLocalName and elementNs
-                fields of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRUCT_TYPE</a>and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
+                fields of the <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> should be set to <b>NULL</b>, and a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRUCT_TYPE</a>and <a href="https://msdn.microsoft.com/b426a07e-9993-4cea-8847-fc80e9d0b451">WS_STRUCT_DESCRIPTION</a> should be specified.  Each field of the
                 structure value being deserialized should correspond to element(s) to read within the body.
-                The readOption parameter must be <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a> or <b>WS_READ_REQUIRED_POINTER</b>. 
+                The readOption parameter must be <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_VALUE</a> or <b>WS_READ_REQUIRED_POINTER</b>. 
                 
 
 </li>

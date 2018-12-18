@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_createpixelshader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePixelShader, CreatePixelShader method [Direct3D 10], CreatePixelShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreatePixelShader method, ID3D10Device.CreatePixelShader, ID3D10Device::CreatePixelShader, d3d10/ID3D10Device::CreatePixelShader, direct3d10.id3d10device_createpixelshader, eaddd998-99a2-ab8d-51dd-98d72c93e291
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -68,7 +66,7 @@ A pointer to the compiled shader. To get this pointer see <a href="https://msdn.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
 Size of the compiled pixel shader.
 

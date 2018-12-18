@@ -9,8 +9,6 @@ ms.assetid: 2FE35513-040E-41BF-866E-A13679C4F322
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGI_MEMORY_SEGMENT_GROUP, DXGI_MEMORY_SEGMENT_GROUP enumeration [DXGI], DXGI_MEMORY_SEGMENT_GROUP_LOCAL, DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL, direct3ddxgi.dxgi_memory_segment_group, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP_LOCAL, dxgi1_4/DXGI_MEMORY_SEGMENT_GROUP_NON_LOCAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

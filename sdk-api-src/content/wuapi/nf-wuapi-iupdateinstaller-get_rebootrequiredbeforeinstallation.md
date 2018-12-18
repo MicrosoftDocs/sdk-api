@@ -9,8 +9,6 @@ ms.assetid: ea74de9d-9e09-48c0-9653-c6e593f6497c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RebootRequiredBeforeInstallation property, IUpdateInstaller.RebootRequiredBeforeInstallation, IUpdateInstaller.get_RebootRequiredBeforeInstallation, IUpdateInstaller::RebootRequiredBeforeInstallation, IUpdateInstaller::get_RebootRequiredBeforeInstallation, RebootRequiredBeforeInstallation property [Windows Update Agent], RebootRequiredBeforeInstallation property [Windows Update Agent],IUpdateInstaller interface, get_RebootRequiredBeforeInstallation, wua.iupdateinstaller_rebootrequiredbeforeinstallation, wuapi/IUpdateInstaller::RebootRequiredBeforeInstallation, wuapi/IUpdateInstaller::get_RebootRequiredBeforeInstallation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

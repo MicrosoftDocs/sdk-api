@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_gettextfiltersize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 17c84de7-9714-f15b-6e79-288beb4a3193, GetTextFilterSize, GetTextFilterSize method [Direct3D 10], GetTextFilterSize method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetTextFilterSize method, ID3D10Device.GetTextFilterSize, ID3D10Device::GetTextFilterSize, d3d10/ID3D10Device::GetTextFilterSize, direct3d10.id3d10device_gettextfiltersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ This method is not implemented.
 
 ### -param pWidth
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 Not applicable
 
 
 ### -param pHeight
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 Not applicable
 

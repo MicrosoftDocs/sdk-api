@@ -9,8 +9,6 @@ ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetLength method, IMFSourceBufferList.GetLength, IMFSourceBufferList::GetLength, mf.imfsourcebufferlist_getlength, mfmediaengine/IMFSourceBufferList::GetLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

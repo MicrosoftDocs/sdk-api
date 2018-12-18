@@ -9,8 +9,6 @@ ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEncoder, IMSVidEncoder interface [Microsoft TV Technologies], IMSVidEncoder interface [Microsoft TV Technologies],described, IMSVidEncoderInterface, mstv.imsvidencoder, segment/IMSVidEncoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b22a062-7da5-411e-ac85-fb9c7b3650a7">get_AudioEncoderInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694534(v=VS.85).aspx">get_AudioEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the audio encoder interface.
@@ -82,7 +80,7 @@ Retrieves a pointer to the audio encoder interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6ee3169-ba24-495f-b446-161c899aab16">get_VideoEncoderInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694535(v=VS.85).aspx">get_VideoEncoderInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the video encoder interface.

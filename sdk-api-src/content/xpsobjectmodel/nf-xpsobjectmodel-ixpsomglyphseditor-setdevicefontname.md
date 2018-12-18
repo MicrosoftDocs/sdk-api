@@ -9,8 +9,6 @@ ms.assetid: d580f768-0c6a-4799-8ad8-d6f73b9216b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetDeviceFontName method, IXpsOMGlyphsEditor.SetDeviceFontName, IXpsOMGlyphsEditor::SetDeviceFontName, SetDeviceFontName, SetDeviceFontName method [XPS Documents and Packaging], SetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::SetDeviceFontName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

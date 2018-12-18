@@ -9,8 +9,6 @@ ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

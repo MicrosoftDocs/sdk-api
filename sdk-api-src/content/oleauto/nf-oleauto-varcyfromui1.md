@@ -9,8 +9,6 @@ ms.assetid: f7796e49-24c2-4ed7-9d1c-a2e48ad33c2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarCyFromUI1, VarCyFromUI1 function [Automation], _oa96_VarCyFromUI1, automat.varcyfromui1, oleauto/VarCyFromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

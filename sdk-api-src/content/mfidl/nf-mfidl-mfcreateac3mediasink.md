@@ -9,8 +9,6 @@ ms.assetid: 49203EBF-24F3-4D9D-85EC-77BD8780BB41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundation], mf.mfcreateac3mediasink, mfidl/MFCreateAC3MediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

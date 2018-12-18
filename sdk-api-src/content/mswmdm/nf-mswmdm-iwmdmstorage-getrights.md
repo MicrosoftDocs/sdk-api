@@ -9,8 +9,6 @@ ms.assetid: 5b654d32-b72a-44cf-a8d9-63fc0ae76171
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetRights method, IWMDMStorage.GetRights, IWMDMStorage::GetRights, IWMDMStorageGetRights, mswmdm/IWMDMStorage::GetRights, wmdm.iwmdmstorage_getrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

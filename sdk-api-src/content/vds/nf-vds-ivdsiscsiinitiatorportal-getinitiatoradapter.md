@@ -9,8 +9,6 @@ ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

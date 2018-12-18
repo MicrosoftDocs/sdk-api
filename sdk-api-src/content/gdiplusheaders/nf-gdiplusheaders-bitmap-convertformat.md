@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Bitmap class [GDI+],ConvertFormat method, Bitmap.ConvertFormat, Bitmap::ConvertFormat, ConvertFormat, ConvertFormat method [GDI+], ConvertFormat method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_ConvertFormat_, gdiplus._gdiplus_CLASS_Bitmap_ConvertFormat_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

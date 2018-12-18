@@ -9,8 +9,6 @@ ms.assetid: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d, IInkWordList, IInkWordList interface [Tablet PC],RemoveWord method, IInkWordList.RemoveWord, IInkWordList::RemoveWord, InkWordList class [Tablet PC],RemoveWord method, RemoveWord, RemoveWord method [Tablet PC], RemoveWord method [Tablet PC],IInkWordList interface, RemoveWord method [Tablet PC],InkWordList class, msinkaut/IInkWordList::RemoveWord, tablet.inkwordlist_removeword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -160,7 +158,7 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://msdn.microsoft.com/4E872C5A-1223-48EB-9B7D-04B3ADB84B2B">IInkWordList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832804(v=VS.85).aspx">IInkWordList</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 91f04578-9f15-44b4-8cf6-99be13d0395e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpHlprCreateV4Policy, DhcpHlprCreateV4Policy function [DHCP], dhcp.dhcphlprcreatev4policy, dhcpsapi/DhcpHlprCreateV4Policy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -82,7 +80,7 @@ Integer that specifies the processing order of the DHCP server policy. 1 indicat
 ### -param RootOperator [in]
 
 
-<a href="https://msdn.microsoft.com/e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
+<a href="https://msdn.microsoft.com/en-us/library/Hh404406(v=VS.85).aspx">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
 
 
 ### -param Description [in]

@@ -9,8 +9,6 @@ ms.assetid: 9f04ee6f-4a7d-4cdb-868e-eec2e9f41678
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionString, GetVersionString method [Windows Runtime], GetVersionString method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetVersionString method, IMetaDataImport2.GetVersionString, IMetaDataImport2::GetVersionString, rometadataapi/IMetaDataImport2::GetVersionString, winrt.imetadataimport2_getversionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

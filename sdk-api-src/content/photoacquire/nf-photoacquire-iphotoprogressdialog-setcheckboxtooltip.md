@@ -9,8 +9,6 @@ ms.assetid: 88719891-9661-4766-adce-6b74cf9a87ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxTooltip method, IPhotoProgressDialog.SetCheckboxTooltip, IPhotoProgressDialog::SetCheckboxTooltip, IPhotoProgressDialogSetCheckboxTooltip, SetCheckboxTooltip, SetCheckboxTooltip method [Picture Acquisition], SetCheckboxTooltip method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxTooltip, picacq.iphotoprogressdialog_setcheckboxtooltip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

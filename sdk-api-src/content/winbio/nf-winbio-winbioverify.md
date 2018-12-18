@@ -9,8 +9,6 @@ ms.assetid: 7266ca33-d3f9-421f-8265-e23a3ec3a77e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioVerify, WinBioVerify function [Windows Biometric Framework API], secbiomet.winbioverify, winbio/WinBioVerify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

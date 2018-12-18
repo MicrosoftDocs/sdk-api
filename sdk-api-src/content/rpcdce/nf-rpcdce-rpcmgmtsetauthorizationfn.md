@@ -9,8 +9,6 @@ ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: feeab5f0-b549-46bc-b19d-94ab3778838c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],NetworkUtilization property, IWdsTransportClient.NetworkUtilization, IWdsTransportClient.get_NetworkUtilization, IWdsTransportClient::NetworkUtilization, IWdsTransportClient::get_NetworkUtilization, NetworkUtilization property [Windows Deployment Services], NetworkUtilization property [Windows Deployment Services],IWdsTransportClient interface, get_NetworkUtilization, wds.iwdstransportclient_networkutilization, wdstptmgmt/IWdsTransportClient::NetworkUtilization, wdstptmgmt/IWdsTransportClient::get_NetworkUtilization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetPresentationClock method, IMFMediaSink.GetPresentationClock, IMFMediaSink::GetPresentationClock, ffa6a7b5-cd79-4c45-a5e3-9d133ffc89a6, mf.imfmediasink_getpresentationclock, mfidl/IMFMediaSink::GetPresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e39b5f77-97d8-4ea6-8277-7da12b3367f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSolidBrush, CreateSolidBrush function [Windows GDI], _win32_CreateSolidBrush, gdi.createsolidbrush, wingdi/CreateSolidBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

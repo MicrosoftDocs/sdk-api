@@ -9,8 +9,6 @@ ms.assetid: f17fe310-40b7-46a5-ae87-c07649c2f288
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUInt8Array, GetUInt8Array method [Windows Runtime], GetUInt8Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8Array method, IPropertyValue.GetUInt8Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8Array, winrt.ipropertyvalue_getuint8array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a09e6e9f-7e6f-4e53-b805-ee4b9d97f4e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_PrerollTime method, IMediaPosition.put_PrerollTime, IMediaPosition::put_PrerollTime, IMediaPositionput_PrerollTime, control/IMediaPosition::put_PrerollTime, dshow.imediaposition_put_prerolltime, put_PrerollTime, put_PrerollTime method [DirectShow], put_PrerollTime method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -117,7 +115,7 @@ The <i>preroll</i> is the time prior to the start position at which nonrandom ac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

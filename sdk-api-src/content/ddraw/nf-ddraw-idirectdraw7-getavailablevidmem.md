@@ -9,8 +9,6 @@ ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

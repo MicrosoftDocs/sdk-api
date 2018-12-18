@@ -9,8 +9,6 @@ ms.assetid: 6097b8cf-b46e-443d-8f32-46eb4a8f4de6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_ColorEnable method, IVideoProcAmp.get_ColorEnable, IVideoProcAmp::get_ColorEnable, IVideoProcAmpget_ColorEnable, dshow.ivideoprocamp_get_colorenable, get_ColorEnable, get_ColorEnable method [DirectShow], get_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_ColorEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -83,7 +81,7 @@ Receives one of the following values.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -104,7 +102,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

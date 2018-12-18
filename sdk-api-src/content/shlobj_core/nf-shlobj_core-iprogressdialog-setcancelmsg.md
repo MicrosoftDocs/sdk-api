@@ -9,8 +9,6 @@ ms.assetid: 520e11c0-f356-45e1-a300-cc14e88eb42e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetCancelMsg method, IProgressDialog.SetCancelMsg, IProgressDialog::SetCancelMsg, SetCancelMsg, SetCancelMsg method [Windows Shell], SetCancelMsg method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetCancelMsg, shell.IProgressDialog_SetCancelMsg, shlobj_core/IProgressDialog::SetCancelMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

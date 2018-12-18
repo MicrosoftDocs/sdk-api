@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindTextStart, FindTextStart method [Windows Controls], FindTextStart method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextStart method, ITextRange.FindTextStart, ITextRange::FindTextStart, _win32_ITextRange_FindTextStart, _win32_ITextRange_FindTextStart_cpp, controls.ITextRange_FindTextStart, controls._win32_ITextRange_FindTextStart, tom/ITextRange::FindTextStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

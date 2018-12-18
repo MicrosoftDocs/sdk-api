@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionLengthSq(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionLengthSq, XMQuaternionLengthSq, XMQuaternionLengthSq method [DirectX Math Support APIs], dxmath.xmquaternionlengthsq
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -94,7 +92,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/11ea4dd4-bf0e-46fb-91c0-cd937507536b">XMQuaternionLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420164(v=VS.85).aspx">XMQuaternionLength</a>
  
 
  

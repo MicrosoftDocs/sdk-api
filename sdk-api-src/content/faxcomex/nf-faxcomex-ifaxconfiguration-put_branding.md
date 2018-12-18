@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],Branding property, IFaxConfiguration.Branding, IFaxConfiguration.put_Branding, IFaxConfiguration::Branding, IFaxConfiguration::get_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_IFaxConfiguration_Branding, faxcomex/IFaxConfiguration::Branding, faxcomex/IFaxConfiguration::get_Branding, faxcomex/IFaxConfiguration::put_Branding, put_Branding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

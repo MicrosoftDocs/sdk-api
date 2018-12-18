@@ -9,8 +9,6 @@ ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterServiceCtrlHandlerEx, RegisterServiceCtrlHandlerEx function, RegisterServiceCtrlHandlerExA, RegisterServiceCtrlHandlerExW, _win32_registerservicectrlhandlerex, base.registerservicectrlhandlerex, winsvc/RegisterServiceCtrlHandlerEx, winsvc/RegisterServiceCtrlHandlerExA, winsvc/RegisterServiceCtrlHandlerExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

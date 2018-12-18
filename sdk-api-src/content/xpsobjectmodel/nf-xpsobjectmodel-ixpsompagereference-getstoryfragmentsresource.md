@@ -9,8 +9,6 @@ ms.assetid: 9b768734-07e3-4917-adb9-29989e7e2b32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStoryFragmentsResource, GetStoryFragmentsResource method [XPS Documents and Packaging], GetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetStoryFragmentsResource method, IXpsOMPageReference.GetStoryFragmentsResource, IXpsOMPageReference::GetStoryFragmentsResource, xps.ixpsompagereference_getstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::GetStoryFragmentsResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

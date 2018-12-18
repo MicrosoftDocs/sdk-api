@@ -9,8 +9,6 @@ ms.assetid: 0A332C96-9535-4BD3-B4D2-39559E430870
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetArchitecture, GetArchitecture method [App packaging and management], GetArchitecture method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetArchitecture method, IAppxManifestPackageId.GetArchitecture, IAppxManifestPackageId::GetArchitecture, appxpackaging/IAppxManifestPackageId::GetArchitecture, appxpkg.iappxmanifestpackageid_getarchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

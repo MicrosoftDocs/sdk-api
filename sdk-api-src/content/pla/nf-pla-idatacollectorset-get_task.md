@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_get_task.htm
 tech.root: pla
 ms.assetid: 8a89ebb9-2396-43f9-81ee-bfc2cdff18fa
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],Task property, IDataCollectorSet.Task, IDataCollectorSet.get_Task, IDataCollectorSet::Task, IDataCollectorSet::get_Task, IDataCollectorSet::put_Task, Task property [PLA], Task property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_task, get_Task, pla.idatacollectorset_get_task, pla/IDataCollectorSet::Task, pla/IDataCollectorSet::get_Task, pla/IDataCollectorSet::put_Task
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

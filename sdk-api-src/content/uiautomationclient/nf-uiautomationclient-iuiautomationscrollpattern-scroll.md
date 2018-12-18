@@ -9,8 +9,6 @@ ms.assetid: 2deb7399-604d-45eb-95d6-f1135550a18f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationScrollPattern interface [Windows Accessibility],Scroll method, IUIAutomationScrollPattern.Scroll, IUIAutomationScrollPattern::Scroll, Scroll, Scroll method [Windows Accessibility], Scroll method [Windows Accessibility],IUIAutomationScrollPattern interface, uiauto.uiauto_IUIAutomationScrollPattern_Scroll, uiauto_IUIAutomationScrollPattern_Scroll, uiautomationclient/IUIAutomationScrollPattern::Scroll, winauto.uiauto_IUIAutomationScrollPattern_Scroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

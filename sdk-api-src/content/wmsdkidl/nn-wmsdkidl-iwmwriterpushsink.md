@@ -9,8 +9,6 @@ ms.assetid: 47bee154-0d29-4f4c-ac38-af8747088024
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPushSink, IWMWriterPushSink interface [windows Media Format], IWMWriterPushSink interface [windows Media Format],described, IWMWriterPushSinkInterface, wmformat.iwmwriterpushsink, wmsdkidl/IWMWriterPushSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -51,14 +49,14 @@ req.redist:
 
 
 
-The <b>IWMWriterPushSink</b> interface enables the application to send ASF files to a publishing point on a Windows Media server. The writer push sink object exposes this interface. To create an instance of the writer push sink, call the <a href="https://msdn.microsoft.com/544aa6d4-a8fe-4ce5-b329-01b031aa3e6f">WMCreateWriterPushSink</a> function.
+The <b>IWMWriterPushSink</b> interface enables the application to send ASF files to a publishing point on a Windows Media server. The writer push sink object exposes this interface. To create an instance of the writer push sink, call the <a href="https://msdn.microsoft.com/en-us/library/Dd757792(v=VS.85).aspx">WMCreateWriterPushSink</a> function.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPushSink</b> interface inherits from <a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>. <b>IWMWriterPushSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterPushSink</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>. <b>IWMWriterPushSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMWriterPushSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5934697e-5d7c-4681-a424-9ad764dfeab1">Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757464(v=VS.85).aspx">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects to a publishing point on a Windows Media server.
@@ -82,7 +80,7 @@ Connects to a publishing point on a Windows Media server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37e8badb-139a-45bf-84bc-bb071d128847">Disconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757465(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the push sink from the server.
@@ -91,7 +89,7 @@ Disconnects the push sink from the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2fa77a6-e159-4b10-b1ba-fbf96c7e09d4">EndSession</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757466(v=VS.85).aspx">EndSession</a>
 </td>
 <td align="left" width="63%">
 Ends the push distribution session.
@@ -108,14 +106,14 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3831b727-7fdc-4d05-a7b3-86ca5b5c3b17">IWMRegisterCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback</a>
 </td>
 <td>IID_ 
 IWMRegisterCallback</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>
 </td>
 <td>IID_IWMWriterSink</td>
 </tr>
@@ -127,7 +125,7 @@ IWMRegisterCallback</td>
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a>
 
 
 

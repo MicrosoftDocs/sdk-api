@@ -9,8 +9,6 @@ ms.assetid: b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_currentFolder method, IWMPFolderMonitorServices.get_currentFolder, IWMPFolderMonitorServices::get_currentFolder, IWMPFolderMonitorServicesget_currentFolder, get_currentFolder, get_currentFolder method [Windows Media Player], get_currentFolder method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_currentfolder, wmp/IWMPFolderMonitorServices::get_currentFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>get_currentFolder</b> method retrieves the path of the folder currently being scanned.
 
@@ -110,11 +108,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c54c5b7e-3abf-4006-a811-c80b06e6def9">IWMPFolderMonitorServices::startScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563377(v=VS.85).aspx">IWMPFolderMonitorServices::startScan</a>
  
 
  

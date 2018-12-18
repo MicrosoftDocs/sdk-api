@@ -9,8 +9,6 @@ ms.assetid: c86199c3-9fe7-4d8f-8b33-b12b65b94e54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteRecord, DeleteRecord method [BITS], DeleteRecord method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteRecord method, IBitsPeerCacheAdministration.DeleteRecord, IBitsPeerCacheAdministration::DeleteRecord, bits.ibitspeercacheadministration_deleterecord, bits3_0/IBitsPeerCacheAdministration::DeleteRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -61,7 +59,7 @@ Deletes a record and file from the cache. This method uses the record's identifi
 
 ### -param id [in]
 
-Identifier of the record to delete from the cache. The <a href="https://msdn.microsoft.com/en-us/library/Aa964295(v=VS.85).aspx">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
+Identifier of the record to delete from the cache. The <a href="https://msdn.microsoft.com/a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa">IBitsPeerCacheRecord::GetId</a> method returns the identifier.
 
 
 ## -returns
@@ -117,15 +115,15 @@ The cache record is not removed until all current activity with the cache record
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964276(v=VS.85).aspx">IBitsPeerCacheAdministration::DeleteUrl</a>
+<a href="https://msdn.microsoft.com/d4849830-62fa-4bf4-bfad-59bcdbf1a10e">IBitsPeerCacheAdministration::DeleteUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964287(v=VS.85).aspx">IBitsPeerCacheAdministration::GetRecord</a>
+<a href="https://msdn.microsoft.com/7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c">IBitsPeerCacheAdministration::GetRecord</a>
  
 
  

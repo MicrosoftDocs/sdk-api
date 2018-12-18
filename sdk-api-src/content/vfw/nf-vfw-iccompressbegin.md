@@ -9,8 +9,6 @@ ms.assetid: e09d3ac8-ead3-459c-a773-ffbe8198b40f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCompressBegin, ICCompressBegin macro [Windows Multimedia], _win32_ICCompressBegin, multimedia.iccompressbegin, vfw/ICCompressBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

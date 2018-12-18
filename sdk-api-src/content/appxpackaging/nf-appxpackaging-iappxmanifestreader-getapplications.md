@@ -9,8 +9,6 @@ ms.assetid: EC575692-93D6-43F1-857B-9A27DD50B8FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplications, GetApplications method [App packaging and management], GetApplications method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetApplications method, IAppxManifestReader.GetApplications, IAppxManifestReader::GetApplications, appxpackaging/IAppxManifestReader::GetApplications, appxpkg.iappxmanifestreader_getapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

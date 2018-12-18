@@ -9,8 +9,6 @@ ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5645424b-4ca4-4f5d-b58d-16f3a7cceb6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ASYNC_FUNCTION, WS_ASYNC_FUNCTION callback, WS_ASYNC_FUNCTION callback function [Web Services for Windows], webservices/WS_ASYNC_FUNCTION, wsw.ws_async_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -69,7 +67,7 @@ The result of the previous async operation.
 ### -param callbackModel [in]
 
 Whether the callback is being invoked long or short.
-                    For more information, see <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_CALLBACK_MODEL</a>.
+                    For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">WS_CALLBACK_MODEL</a>.
                 
 
 

@@ -9,8 +9,6 @@ ms.assetid: b395d19f-812c-441a-b0a7-7edb10dc3fcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Online property, IUpdateSearcher.Online, IUpdateSearcher.put_Online, IUpdateSearcher::Online, IUpdateSearcher::get_Online, IUpdateSearcher::put_Online, Online property [Windows Update Agent], Online property [Windows Update Agent],IUpdateSearcher interface, put_Online, wua.iupdatesearcheronline, wuapi/IUpdateSearcher::Online, wuapi/IUpdateSearcher::get_Online, wuapi/IUpdateSearcher::put_Online
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

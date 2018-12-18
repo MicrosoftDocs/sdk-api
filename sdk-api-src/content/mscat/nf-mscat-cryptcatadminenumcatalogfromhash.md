@@ -9,8 +9,6 @@ ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

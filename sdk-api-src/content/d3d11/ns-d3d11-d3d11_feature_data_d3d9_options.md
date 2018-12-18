@@ -9,8 +9,6 @@ ms.assetid: E5262261-28D7-4F7A-AB9A-A73FEADAE8FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_OPTIONS, D3D11_FEATURE_DATA_D3D9_OPTIONS structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_OPTIONS, direct3d11.d3d11_feature_data_d3d9_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -68,11 +66,11 @@ Specifies whether the driver supports the nonpowers-of-2-unconditionally feature
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
  
 
  

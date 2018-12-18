@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_subresource_data.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10_SUBRESOURCE_DATA, D3D10_SUBRESOURCE_DATA structure [Direct3D 10], d3d10/D3D10_SUBRESOURCE_DATA, direct3d10.d3d10_subresource_data, e1c1f9a8-c810-27f6-5e4c-85302c900510
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
@@ -67,7 +65,7 @@ Pointer to the initialization data.
 
 ### -field SysMemPitch
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The distance (in bytes) from the beginning of one line of a texture to the next line.  
         System-memory pitch is used only for 2D and 3D texture data as it is has no meaning for the other resource types.
@@ -75,7 +73,7 @@ The distance (in bytes) from the beginning of one line of a texture to the next 
 
 ### -field SysMemSlicePitch
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The distance (in bytes) from the beginning of one depth level to the next.  
         System-memory-slice pitch is only used for 3D texture data as it has no meaning for the other resource types.

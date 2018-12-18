@@ -9,8 +9,6 @@ ms.assetid: 5004EA84-216C-4758-8AA1-7E823583871E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RenderingControls, RenderingControls function [Direct2D], d2d1_1helper/RenderingControls, direct2d.renderingcontrols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 
@@ -60,14 +58,14 @@ Returns a filled D2D1_RENDERING_CONTROLS structure.
 
 ### -param bufferPrecision
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446986(v=VS.85).aspx">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a></b>
 
 The buffer precision used by default if the buffer precision is not otherwise specified by the effect or the transform.
 
 
 ### -param tileSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368162(v=VS.85).aspx">D2D1_SIZE_U</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a></b>
 
 The minimum tile allocation size to be used by the imaging effect renderer.
 
@@ -76,7 +74,7 @@ The minimum tile allocation size to be used by the imaging effect renderer.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh404322(v=VS.85).aspx">D2D1_RENDERING_CONTROLS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a></b>
 
 Describes limitations to be applied to an imaging effect renderer.
 

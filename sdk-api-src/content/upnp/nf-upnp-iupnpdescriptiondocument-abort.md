@@ -9,8 +9,6 @@ ms.assetid: 26f5a7f0-7d29-47a6-9f43-6b0d921342ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Abort, Abort method [UPnP APIs], Abort method [UPnP APIs],IUPnPDescriptionDocument interface, IUPnPDescriptionDocument interface [UPnP APIs],Abort method, IUPnPDescriptionDocument.Abort, IUPnPDescriptionDocument::Abort, _upnp_iupnpdescriptiondocument_abort, upnp.iupnpdescriptiondocument_abort, upnp/IUPnPDescriptionDocument::Abort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

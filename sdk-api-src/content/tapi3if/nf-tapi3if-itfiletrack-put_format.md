@@ -9,8 +9,6 @@ ms.assetid: 76a60e3f-d310-457d-8d1b-17860165c1e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],put_Format method, ITFileTrack.put_Format, ITFileTrack::put_Format, _tapi3_itfiletrack_put_format, put_Format, put_Format method [TAPI 2.2], put_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_put_format, tapi3if/ITFileTrack::put_Format
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiterator.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPathIterator class [GDI+],described, _gdiplus_CLASS_GraphicsPathIterator_Class, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Class, gdipluspath/GraphicsPathIterator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdipluspath.h
 req.include-header: 

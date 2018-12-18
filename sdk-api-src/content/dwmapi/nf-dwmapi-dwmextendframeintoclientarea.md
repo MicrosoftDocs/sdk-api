@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmextendf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmExtendFrameIntoClientArea, DwmExtendFrameIntoClientArea function [Desktop Window Manager], _udwm_dwmextendframeintoclientarea, _udwm_dwmextendframeintoclientarea_cpp, dwm.dwmextendframeintoclientarea, dwmapi/DwmExtendFrameIntoClientArea, winui._udwm_dwmextendframeintoclientarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

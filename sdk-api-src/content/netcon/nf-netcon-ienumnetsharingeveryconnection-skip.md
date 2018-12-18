@@ -9,8 +9,6 @@ ms.assetid: 97400d6a-67b7-4091-82ef-38cbaa27efa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Skip method, IEnumNetSharingEveryConnection.Skip, IEnumNetSharingEveryConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_skip, ics.ienumnetsharingeveryconnection_skip, netcon/IEnumNetSharingEveryConnection::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

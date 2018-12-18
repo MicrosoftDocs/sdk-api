@@ -9,8 +9,6 @@ ms.assetid: 414F9BB0-2490-43A9-BE38-877B283573E1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Cluster], mscs.resutilpaxoscomparer, resapi/ResUtilPaxosComparer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>EnrollmentPolicyServerPropertyFlags</b> enumeration specifies the default policy server. It is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee351591(v=VS.85).aspx">Initialize</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a> interface.
+The <b>EnrollmentPolicyServerPropertyFlags</b> enumeration specifies the default policy server. It is used by the <a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a> method on the <a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a> interface.
 
 
 ## -enum-fields
@@ -65,7 +63,7 @@ No default policy server URL has been specified.
 
 ### -field DefaultPolicyServer
 
-The policy server URL returned by <a href="https://msdn.microsoft.com/en-us/library/Ee338635(v=VS.85).aspx">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
+The policy server URL returned by <a href="https://msdn.microsoft.com/9d7ba049-4566-423d-b750-ff091dce1e2a">GetPolicyServerUrl</a> is the default value when an URL has not been specified.
 
 
 ## -see-also
@@ -73,11 +71,11 @@ The policy server URL returned by <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351591(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a>
  
 
  

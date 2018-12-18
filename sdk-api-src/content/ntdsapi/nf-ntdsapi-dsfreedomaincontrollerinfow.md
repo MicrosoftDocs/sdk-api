@@ -9,8 +9,6 @@ ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, 2, DsFreeDomainControllerInfo, DsFreeDomainControllerInfo function [Active Directory], DsFreeDomainControllerInfoA, DsFreeDomainControllerInfoW, _glines_dsfreedomaincontrollerinfo, ad.dsfreedomaincontrollerinfo, ntdsapi/DsFreeDomainControllerInfo, ntdsapi/DsFreeDomainControllerInfoA, ntdsapi/DsFreeDomainControllerInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -72,13 +70,13 @@ Indicates what version of the <b>DS_DOMAIN_CONTROLLER_INFO</b> structure should 
 
 #### 1
 
-The function frees the structure that contains  <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
+The function frees the structure that contains  <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
 
 
 
 #### 2
 
-The function frees the structure that contains <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
+The function frees the structure that contains <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
 
 
 ### -param cInfo [in]
@@ -88,17 +86,17 @@ Indicates the number of items in <i>pInfo</i>.
 
 ### -param pInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO</a> structures to be freed.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO</a> structures to be freed.
 
 
 ##### - InfoLevel.1
 
-The function frees the structure that contains  <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
+The function frees the structure that contains  <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> data.
 
 
 ##### - InfoLevel.2
 
-The function frees the structure that contains <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
+The function frees the structure that contains <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> data.
 
 
 ## -returns
@@ -115,7 +113,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
 
 

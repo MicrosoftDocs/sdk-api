@@ -9,8 +9,6 @@ ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: medparam.h
 req.include-header: 
@@ -56,7 +54,7 @@ The <code>IMediaParams</code> interface sets and retrieves envelope-following pa
 
 
 
-To reduce overhead, parameters are referenced by index value, and all parameter values are 32 bits, defined as type <b>MP_DATA</b>. Use the <a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo</a> interface to determine whether a given parameter is an integer, floating-point value, Boolean value, or member of an enumerated type.
+To reduce overhead, parameters are referenced by index value, and all parameter values are 32 bits, defined as type <b>MP_DATA</b>. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo</a> interface to determine whether a given parameter is an integer, floating-point value, Boolean value, or member of an enumerated type.
 
 
 ## -inheritance
@@ -76,7 +74,7 @@ The <b>IMediaParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/acf7c96c-ce0c-40d0-b4a1-dd571fa2a514">AddEnvelope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406972(v=VS.85).aspx">AddEnvelope</a>
 </td>
 <td align="left" width="63%">
 Adds an envelope to a parameter.
@@ -85,7 +83,7 @@ Adds an envelope to a parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/574d6573-ea5d-4419-ad65-f5f7d711e720">FlushEnvelope</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406973(v=VS.85).aspx">FlushEnvelope</a>
 </td>
 <td align="left" width="63%">
 Flushes envelope data for a specified parameter over the specified time range.
@@ -94,7 +92,7 @@ Flushes envelope data for a specified parameter over the specified time range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4fcae36a-c659-4565-9169-66d97beb26a4">GetParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406974(v=VS.85).aspx">GetParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves the most recent value of the specified parameter.
@@ -103,7 +101,7 @@ Retrieves the most recent value of the specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e92681d4-2c77-4c72-b3ad-f0a6be7920e2">SetParam</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406975(v=VS.85).aspx">SetParam</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a parameter.
@@ -112,7 +110,7 @@ Sets the value of a parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48c28dd8-aeae-4212-9221-ab943113aa76">SetTimeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406976(v=VS.85).aspx">SetTimeFormat</a>
 </td>
 <td align="left" width="63%">
 Specifies the time format for the object.

@@ -9,8 +9,6 @@ ms.assetid: 794E9086-17E7-4520-AB30-63DF00FF7AA4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentThreadEffectiveToken, GetCurrentThreadEffectiveToken function [Security], processthreadsapi/GetCurrentThreadEffectiveToken, security.getcurrentthreadeffectivetoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

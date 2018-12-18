@@ -9,8 +9,6 @@ ms.assetid: ef490cec-4f25-432a-b6a5-3e16044314e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_PowerlineFrequency method, IVideoProcAmp.put_PowerlineFrequency, IVideoProcAmp::put_PowerlineFrequency, IVideoProcAmpput_PowerlineFrequency, dshow.ivideoprocamp_put_powerlinefrequency, put_PowerlineFrequency, put_PowerlineFrequency method [DirectShow], put_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_PowerlineFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -87,7 +85,7 @@ Specifies one of the following values.
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -108,7 +106,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

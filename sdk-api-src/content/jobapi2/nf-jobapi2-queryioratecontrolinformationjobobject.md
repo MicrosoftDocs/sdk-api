@@ -9,8 +9,6 @@ ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: jobapi2.h
 req.include-header: 

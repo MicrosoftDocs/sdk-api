@@ -9,8 +9,6 @@ ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Left method, IMSVidRect.put_Left, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Left
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,11 +88,11 @@ Setting the left x-coordinate also changes the width of the rectangle. For examp
 
 
 
-<a href="https://msdn.microsoft.com/caa56beb-7eba-48a1-8645-f63666ba0593">IMSVidRect::get_HWnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694605(v=VS.85).aspx">IMSVidRect::get_HWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e64e560-033b-475a-a281-57af5f893e65">IMSVidRect::get_Left</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694606(v=VS.85).aspx">IMSVidRect::get_Left</a>
  
 
  

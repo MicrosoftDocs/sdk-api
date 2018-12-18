@@ -9,8 +9,6 @@ ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetIMEFileName, ImmGetIMEFileName function [Internationalization for Windows Applications], ImmGetIMEFileNameA, ImmGetIMEFileNameW, _win32_ImmGetIMEFileName, imm/ImmGetIMEFileName, imm/ImmGetIMEFileNameA, imm/ImmGetIMEFileNameW, intl.immgetimefilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

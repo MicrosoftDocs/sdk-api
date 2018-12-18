@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_2z3h.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingMethods interface [Fax Service],get__NewEnum method, IFaxInboundRoutingMethods.get__NewEnum, IFaxInboundRoutingMethods::get__NewEnum, _mfax_ifaxinboundroutingmethods_get__newenum, fax._mfax_ifaxinboundroutingmethods_get__newenum, faxcomex/IFaxInboundRoutingMethods::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxInboundRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

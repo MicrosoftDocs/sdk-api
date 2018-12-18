@@ -9,8 +9,6 @@ ms.assetid: 74125732-4797-4DA0-A465-650B286A724C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetZoom, Edit_GetZoom macro [Windows Controls], commctrl/Edit_GetZoom, controls.edit_getzoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the <a href="https://msdn.microsoft.com/d4a1daee-4af7-44d1-80d6-0fcaaf3672a8">EM_GETZOOM</a> message explicitly.
+Gets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774208(v=VS.85).aspx">EM_GETZOOM</a> message explicitly.
 
 
 ## -parameters

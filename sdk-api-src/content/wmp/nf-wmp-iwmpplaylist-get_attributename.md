@@ -9,8 +9,6 @@ ms.assetid: 30bdf1e0-2bb8-486e-bec7-d06e1ac6ed9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeName method, IWMPPlaylist.get_attributeName, IWMPPlaylist::get_attributeName, IWMPPlaylistget_attributeName, get_attributeName, get_attributeName method [Windows Media Player], get_attributeName method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributename, wmp/IWMPPlaylist::get_attributeName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -119,19 +117,19 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6763274-01e4-4a2f-9467-150e1964193a">IWMPPlaylist::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563564(v=VS.85).aspx">IWMPPlaylist::getItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/32c18feb-4df2-41d6-9adf-49836b6b836d">IWMPPlaylist::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563565(v=VS.85).aspx">IWMPPlaylist::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd812af6-0bdf-4da4-a066-4411d0d9e259">IWMPPlaylist::setItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563580(v=VS.85).aspx">IWMPPlaylist::setItemInfo</a>
  
 
  

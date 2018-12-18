@@ -1,5 +1,5 @@
 ---
-UID: NE:qnetwork.AMExtendedSeekingCapabilities
+UID: NE:qnetwork.__unnamed_enum_0
 title: AMExtendedSeekingCapabilities
 author: windows-sdk-content
 description: The AMExtendedSeekingCapabilities enumeration contains flags that describe the extended seeking capabilities of a filter.
@@ -7,10 +7,8 @@ old-location: dshow\amextendedseekingcapabilities.htm
 tech.root: DirectShow
 ms.assetid: f5f21303-3b5b-45e8-a4dc-6c8bc7cd8ad3
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: AMExtendedSeekingCapabilities, AMExtendedSeekingCapabilities enumeration [DirectShow], AMExtendedSeekingCapabilitiesEnumeration, AM_EXSEEK_BUFFERING, AM_EXSEEK_CANSCAN, AM_EXSEEK_CANSEEK, AM_EXSEEK_MARKERSEEK, AM_EXSEEK_NOSTANDARDREPAINT, AM_EXSEEK_SCANWITHOUTCLOCK, AM_EXSEEK_SENDS_VIDEOFRAMEREADY, dshow.amextendedseekingcapabilities, qnetwork/AMExtendedSeekingCapabilities, qnetwork/AM_EXSEEK_BUFFERING, qnetwork/AM_EXSEEK_CANSCAN, qnetwork/AM_EXSEEK_CANSEEK, qnetwork/AM_EXSEEK_MARKERSEEK, qnetwork/AM_EXSEEK_NOSTANDARDREPAINT, qnetwork/AM_EXSEEK_SCANWITHOUTCLOCK, qnetwork/AM_EXSEEK_SENDS_VIDEOFRAMEREADY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: qnetwork.h
 req.include-header: 
@@ -107,7 +105,7 @@ Indicates that the filter's video pin has been created.
 
 
 
-See <a href="https://msdn.microsoft.com/caae9e8c-6d42-4bbc-a66a-bdde1009469d">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter sets these flags.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd389336(v=VS.85).aspx">IAMExtendedSeeking::get_ExSeekCapabilities</a> for descriptions of how the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter sets these flags.
 
 
 

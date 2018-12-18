@@ -9,8 +9,6 @@ ms.assetid: 84b6cd51-4cb5-4a43-9ac2-88ca8049b950
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NetworkProvider, IBDA_NetworkProvider interface [Microsoft TV Technologies], IBDA_NetworkProvider interface [Microsoft TV Technologies],described, IBDA_NetworkProviderInterface, bdaiface/IBDA_NetworkProvider, mstv.ibda_networkprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -58,9 +56,9 @@ The <b>IBDA_NetworkProvider</b> interface is implemented on a Network Provider f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -151,7 +149,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

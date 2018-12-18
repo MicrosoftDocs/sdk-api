@@ -9,8 +9,6 @@ ms.assetid: 82efd729-fbbf-449f-a347-24bceada140c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],MonitorMedia method, ITLegacyCallMediaControl.MonitorMedia, ITLegacyCallMediaControl::MonitorMedia, MonitorMedia, MonitorMedia method [TAPI 2.2], MonitorMedia method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_monitormedia, tapi3.itlegacycallmediacontrol_monitormedia, tapi3if/ITLegacyCallMediaControl::MonitorMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

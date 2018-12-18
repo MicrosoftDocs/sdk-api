@@ -9,8 +9,6 @@ ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_playerApplication method, IWMPPlayer4.get_playerApplication, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -114,11 +112,11 @@ This method is only accessible in C++ code or in script code in skins through th
 
 
 
-<a href="https://msdn.microsoft.com/afe5dbd1-96e1-4abe-b843-ec6130fa02d0">IWMPPlayer4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563522(v=VS.85).aspx">IWMPPlayer4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcdd7ea9-66b2-40e9-89a1-0fec073ccd92">IWMPPlayerApplication Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563527(v=VS.85).aspx">IWMPPlayerApplication Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\ise
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchRoot, ISearchRoot interface [search], ISearchRoot interface [search],described, _search_ISearchRoot, search._search_ISearchRoot, searchapi/ISearchRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

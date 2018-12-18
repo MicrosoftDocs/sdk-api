@@ -9,8 +9,6 @@ ms.assetid: a6eea412-553a-4bdd-afc2-cc002c4500a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellItemImageFactory, IShellItemImageFactory interface [Windows Shell], IShellItemImageFactory interface [Windows Shell],described, _shell_IShellItemImageFactory, shell.IShellItemImageFactory, shobjidl_core/IShellItemImageFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

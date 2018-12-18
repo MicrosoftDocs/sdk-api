@@ -9,8 +9,6 @@ ms.assetid: F2FFBB18-4E62-4704-B252-1749058A0A5E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory.EncryptBundle, IAppxEncryptionFactory::EncryptBundle, appxpackaging/IAppxEncryptionFactory::EncryptBundle, appxpkg.iappxencryptionfactory_encryptbundle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

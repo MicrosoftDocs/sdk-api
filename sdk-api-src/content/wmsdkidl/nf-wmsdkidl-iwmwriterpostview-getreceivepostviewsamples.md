@@ -9,8 +9,6 @@ ms.assetid: 93120e68-2d1c-4628-8e2e-d22a56fa98a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReceivePostViewSamples, GetReceivePostViewSamples method [windows Media Format], GetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetReceivePostViewSamples method, IWMWriterPostView.GetReceivePostViewSamples, IWMWriterPostView::GetReceivePostViewSamples, IWMWriterPostViewGetReceivePostViewSamples, wmformat.iwmwriterpostview_getreceivepostviewsamples, wmsdkidl/IWMWriterPostView::GetReceivePostViewSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -118,11 +116,11 @@ NULL value passed to <i>pfReceivePostViewSamples</i>.
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d58671a-357b-412b-ad77-61866b0dcce3">IWMWriterPostView::SetReceivePostViewSamples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798783(v=VS.85).aspx">IWMWriterPostView::SetReceivePostViewSamples</a>
  
 
  

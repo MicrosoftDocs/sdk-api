@@ -9,8 +9,6 @@ ms.assetid: 5B194DE3-2809-4C32-8D5F-EDF23B6CD87E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioAsyncEnumServiceProviders, WinBioAsyncEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioasyncenumserviceproviders, winbio/WinBioAsyncEnumServiceProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

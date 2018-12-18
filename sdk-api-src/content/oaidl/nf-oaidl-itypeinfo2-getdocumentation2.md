@@ -9,8 +9,6 @@ ms.assetid: 9f81cb34-5f4e-4637-9776-e7c5353349b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentation2, GetDocumentation2 method [Automation], GetDocumentation2 method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetDocumentation2 method, ITypeInfo2.GetDocumentation2, ITypeInfo2::GetDocumentation2, _oa96_ITypeInfo2_GetDocumentation2, automat.itypeinfo2_getdocumentation2, oaidl/ITypeInfo2::GetDocumentation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

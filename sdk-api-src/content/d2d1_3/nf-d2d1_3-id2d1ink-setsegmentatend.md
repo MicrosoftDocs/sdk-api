@@ -9,8 +9,6 @@ ms.assetid: E80083E4-7BBB-4AF5-81EB-49E68D6521F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegmentAtEnd method, ID2D1Ink.SetSegmentAtEnd, ID2D1Ink::SetSegmentAtEnd, ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT), SetSegmentAtEnd, SetSegmentAtEnd method [Direct2D], SetSegmentAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -69,7 +67,7 @@ A pointer to the segment data with which to overwrite this ink object's last seg
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

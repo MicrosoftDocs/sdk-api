@@ -7,10 +7,8 @@ old-location: opc\iopcdigitalsignature_getsignaturexml.htm
 tech.root: OPC
 ms.assetid: 7b495661-32ed-4010-a945-7e638f30f4f2
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [Open Packaging Conventions], GetSignatureXml method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureXml method, IOpcDigitalSignature.GetSignatureXml, IOpcDigitalSignature::GetSignatureXml, msopc/IOpcDigitalSignature::GetSignatureXml, opc.iopcdigitalsignature_getsignaturexml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

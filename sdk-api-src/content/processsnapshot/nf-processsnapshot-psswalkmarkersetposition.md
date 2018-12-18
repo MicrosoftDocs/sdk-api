@@ -9,8 +9,6 @@ ms.assetid: D89EA4DB-D8C6-43D1-B292-D24F1EAB2E43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssWalkMarkerSetPosition, PssWalkMarkerSetPosition function, proc_snap.psswalkmarkersetposition, processsnapshot/PssWalkMarkerSetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

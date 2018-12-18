@@ -9,8 +9,6 @@ ms.assetid: fb881fe0-0be3-4e23-ac50-e421e2dc7845
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRenderer interface [Tablet PC],PixelToInkSpace method, IInkRenderer.PixelToInkSpace, IInkRenderer::PixelToInkSpace, PixelToInkSpace, PixelToInkSpace method [Tablet PC], PixelToInkSpace method [Tablet PC],IInkRenderer interface, fb881fe0-0be3-4e23-ac50-e421e2dc7845, msinkaut/IInkRenderer::PixelToInkSpace, tablet.inkrenderer_pixeltoinkspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -152,7 +150,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

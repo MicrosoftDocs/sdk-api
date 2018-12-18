@@ -9,8 +9,6 @@ ms.assetid: 77246a9f-15fa-48a7-a4a8-9f7579b195c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvGetModuleHandle, DrvGetModuleHandle function [Windows Multimedia], _win32_DrvGetModuleHandle, mmsystem/DrvGetModuleHandle, multimedia.drvgetmodulehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

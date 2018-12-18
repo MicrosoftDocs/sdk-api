@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getinp
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputTerms, GetInputTerms method [search], GetInputTerms method [search],ICondition interface, ICondition interface [search],GetInputTerms method, ICondition.GetInputTerms, ICondition::GetInputTerms, _search_ICondition_GetInputTerms, search._search_ICondition_GetInputTerms, structuredquerycondition/ICondition::GetInputTerms
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

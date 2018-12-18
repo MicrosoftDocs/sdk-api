@@ -9,8 +9,6 @@ ms.assetid: b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceObject interface [COM],ReactivateAndUndo method, IOleInPlaceObject.ReactivateAndUndo, IOleInPlaceObject::ReactivateAndUndo, ReactivateAndUndo, ReactivateAndUndo method [COM], ReactivateAndUndo method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_reactivateandundo, com.ioleinplaceobject_reactivateandundo, oleidl/IOleInPlaceObject::ReactivateAndUndo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

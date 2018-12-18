@@ -9,8 +9,6 @@ ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD, TAPE_LOCK, TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _win32_preparetape, backup.preparetape, base.preparetape, winbase/PrepareTape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 0C2699CB-6AAF-4720-90AF-03A05A193DBC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetAgeGroup method, IXblIdpAuthTokenResult.GetAgeGroup, IXblIdpAuthTokenResult::GetAgeGroup, xblidp.ixblidpauthtokenresult_getagegroup, xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

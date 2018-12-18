@@ -9,8 +9,6 @@ ms.assetid: 69c0c628-e377-4c26-8fb7-1f0574fbff29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SupportHighContrastInk property, IInkOverlay.SupportHighContrastInk, IInkOverlay.put_SupportHighContrastInk, IInkOverlay::SupportHighContrastInk, IInkOverlay::get_SupportHighContrastInk, IInkOverlay::put_SupportHighContrastInk, InkOverlay.get_SupportHighContrastInk, InkOverlay.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkOverlay interface, get_SupportHighContrastInk, msinkaut/IInkOverlay::SupportHighContrastInk, msinkaut/IInkOverlay::get_SupportHighContrastInk, msinkaut/IInkOverlay::put_SupportHighContrastInk, put_SupportHighContrastInk, tablet.inkoverlay_supporthighcontrastink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -90,7 +88,7 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

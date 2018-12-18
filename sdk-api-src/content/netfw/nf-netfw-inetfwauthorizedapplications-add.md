@@ -9,8 +9,6 @@ ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

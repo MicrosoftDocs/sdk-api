@@ -7,10 +7,8 @@ old-location: of\iofflinefilesghostinfo_isghosted.htm
 tech.root: offlinefiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -91,11 +89,11 @@ An item is said to be ghosted in the offline files cache if, when the item is of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd941689(v=VS.85).aspx">IOfflineFilesGhostInfo</a>
+<a href="https://msdn.microsoft.com/bb71bc95-049d-4ade-ad10-c33b0bf739ce">IOfflineFilesGhostInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd941692(v=VS.85).aspx">IOfflineFilesPinInfo2::IsPartlyPinned</a>
+<a href="https://msdn.microsoft.com/9063a804-2597-4959-8249-e5b42f582ea3">IOfflineFilesPinInfo2::IsPartlyPinned</a>
  
 
  

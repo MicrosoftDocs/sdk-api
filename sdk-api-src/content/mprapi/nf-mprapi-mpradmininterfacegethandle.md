@@ -9,8 +9,6 @@ ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

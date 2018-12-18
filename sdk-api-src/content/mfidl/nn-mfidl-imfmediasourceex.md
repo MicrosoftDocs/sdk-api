@@ -9,8 +9,6 @@ ms.assetid: C72C79D5-FD65-4F27-A8C8-B94BF5A9E829
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSourceEx, IMFMediaSourceEx interface [Media Foundation], IMFMediaSourceEx interface [Media Foundation],described, mf.imfmediasourceex, mfidl/IMFMediaSourceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6B2CB3E8-06F8-4578-8FF0-566246C983B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRaytracingAccelerationStructurePrebuildInfo, GetRaytracingAccelerationStructurePrebuildInfo method, GetRaytracingAccelerationStructurePrebuildInfo method,ID3D12Device5 interface, ID3D12Device5 interface,GetRaytracingAccelerationStructurePrebuildInfo method, ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo, ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, d3d12/ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, direct3d12.id3d12device5_getraytracingaccelerationstructureprebuildinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -97,7 +95,7 @@ This method is on the device interface as opposed to command list on the assumpt
 
 
 
-<a href="https://msdn.microsoft.com/2D72898B-F512-4E0D-8FAC-A53EA6FE614A">ID3D12Device5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
  
 
  

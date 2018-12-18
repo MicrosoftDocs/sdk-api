@@ -9,8 +9,6 @@ ms.assetid: 115c1900-5fea-4e39-be3e-b6d04ceb8a58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsPack interface [VDS],QueryDisks method, IVdsPack.QueryDisks, IVdsPack::QueryDisks, QueryDisks, QueryDisks method [VDS], QueryDisks method [VDS],IVdsPack interface, base.ivdspack_querydisks, vds/IVdsPack::QueryDisks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

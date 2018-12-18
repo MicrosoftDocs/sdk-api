@@ -9,8 +9,6 @@ ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATAdminReleaseContext, CryptCATAdminReleaseContext function [Security], mscat/CryptCATAdminReleaseContext, security.cryptcatadminreleasecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

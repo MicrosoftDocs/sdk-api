@@ -9,8 +9,6 @@ ms.assetid: 9155c4f8-ad17-402e-80a1-3dcee044d2c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzScope object, DeleteRole method [Security],IAzScope interface, IAzScope interface [Security],DeleteRole method, IAzScope.DeleteRole, IAzScope::DeleteRole, azroles/IAzScope::DeleteRole, security.iazscope_deleterole
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -73,7 +71,7 @@ Reserved for future use.
 
 
 
-If there are any <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> references to an <b>IAzRole</b> object that has been deleted from the cache, the <b>IAzRole</b> object can no longer be used. In C++, you must release references to deleted <b>IAzRole</b> objects by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> references to an <b>IAzRole</b> object that has been deleted from the cache, the <b>IAzRole</b> object can no longer be used. In C++, you must release references to deleted <b>IAzRole</b> objects by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

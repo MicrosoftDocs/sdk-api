@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_SECURITY_KEY_ENTROPY_MODE
+UID: NE:webservices.__unnamed_enum_66
 title: WS_SECURITY_KEY_ENTROPY_MODE
 author: windows-sdk-content
 description: Defines how randomness should be contributed to the issued key during a security token negotiation done with message and mixed-mode security.
@@ -7,10 +7,8 @@ old-location: wsw\ws_security_key_entropy_mode.htm
 tech.root: wsw
 ms.assetid: dd6bca9a-e47b-46b3-b9ac-23aecb101337
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURITY_KEY_ENTROPY_MODE, WS_SECURITY_KEY_ENTROPY_MODE enumeration [Web Services for Windows], WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE, webservices/WS_SECURITY_KEY_ENTROPY_MODE_CLIENT_ONLY, webservices/WS_SECURITY_KEY_ENTROPY_MODE_COMBINED, webservices/WS_SECURITY_KEY_ENTROPY_MODE_SERVER_ONLY, wsw.ws_security_key_entropy_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

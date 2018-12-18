@@ -9,8 +9,6 @@ ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadInformation, SetThreadInformation function, base.setthreadinformation, processthreadsapi/SetThreadInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

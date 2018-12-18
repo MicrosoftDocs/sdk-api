@@ -1,16 +1,14 @@
 ---
-UID: NS:winscard.OPENCARDNAMEW
+UID: NS:winscard.__unnamed_struct_9
 title: OPENCARDNAMEW
 author: windows-sdk-content
 description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname.htm
-tech.root: SecAuthN
+tech.root: secauthn
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winscard.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 
 The <b>OPENCARDNAME</b> structure contains the information that the 
-<a href="https://msdn.microsoft.com/b103cec0-dd28-4f90-864b-5f66d044ec55">GetOpenCardName</a> function uses to initialize a smart card <b>Select Card</b> dialog box. Calling <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> with <a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> is recommended over calling <a href="https://msdn.microsoft.com/b103cec0-dd28-4f90-864b-5f66d044ec55">GetOpenCardName</a> with <b>OPENCARDNAME</b>. <b>OPENCARDNAME</b> is provided for backward compatibility.
+<a href="https://msdn.microsoft.com/b103cec0-dd28-4f90-864b-5f66d044ec55">GetOpenCardName</a> function uses to initialize a smart card <b>Select Card</b> dialog box. Calling <a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> with <a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a> is recommended over calling <a href="https://msdn.microsoft.com/b103cec0-dd28-4f90-864b-5f66d044ec55">GetOpenCardName</a> with <b>OPENCARDNAME</b>. <b>OPENCARDNAME</b> is provided for backward compatibility.
 
 
 ## -struct-fields

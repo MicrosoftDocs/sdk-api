@@ -9,8 +9,6 @@ ms.assetid: 3f8f3a0c-5076-4ce3-aa8b-5c66ac5fa47a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,SetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.SetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel, SetVolumeProtectLevel, SetVolumeProtectLevel method, SetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_setvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

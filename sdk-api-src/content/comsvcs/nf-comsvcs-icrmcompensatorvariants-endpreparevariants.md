@@ -9,8 +9,6 @@ ms.assetid: 2b9a7e75-5e7c-4f5b-b625-78abb3c5e9b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPrepareVariants, EndPrepareVariants method [COM+], EndPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndPrepareVariants method, ICrmCompensatorVariants.EndPrepareVariants, ICrmCompensatorVariants::EndPrepareVariants, _dtc_ICrmCompensatorVariants_EndPrepareVariants, comsvcs/ICrmCompensatorVariants::EndPrepareVariants, cos.icrmcompensatorvariants_endpreparevariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

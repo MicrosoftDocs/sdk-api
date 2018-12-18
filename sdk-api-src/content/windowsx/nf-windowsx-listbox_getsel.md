@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetSel, ListBox_GetSel macro [Windows Controls], _win32_ListBox_GetSel, _win32_ListBox_GetSel_cpp, controls.ListBox_GetSel, controls._win32_ListBox_GetSel, windowsx/ListBox_GetSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

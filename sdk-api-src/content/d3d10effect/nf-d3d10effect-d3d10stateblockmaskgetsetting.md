@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskgetsetting.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6309c42d-db39-eb28-25e5-ba740c57a969, D3D10StateBlockMaskGetSetting, D3D10StateBlockMaskGetSetting function [Direct3D 10], d3d10effect/D3D10StateBlockMaskGetSetting, direct3d10.d3d10stateblockmaskgetsetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

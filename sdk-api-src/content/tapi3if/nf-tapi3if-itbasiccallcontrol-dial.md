@@ -9,8 +9,6 @@ ms.assetid: 31fea4d8-9028-48d5-9f5d-53f1451103c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Dial, Dial method [TAPI 2.2], Dial method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Dial method, ITBasicCallControl.Dial, ITBasicCallControl::Dial, _tapi3_itbasiccallcontrol_dial, tapi3.itbasiccallcontrol_dial, tapi3if/ITBasicCallControl::Dial
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

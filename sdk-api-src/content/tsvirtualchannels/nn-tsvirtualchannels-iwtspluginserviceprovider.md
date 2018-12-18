@@ -4,13 +4,11 @@ title: IWTSPluginServiceProvider
 author: windows-sdk-content
 description: Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
 old-location: termserv\iwtspluginserviceprovider.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8baf8d8b-95a0-46bd-81ea-e99a7db45cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSPluginServiceProvider, IWTSPluginServiceProvider interface [Remote Desktop Services], IWTSPluginServiceProvider interface [Remote Desktop Services],described, termserv.iwtspluginserviceprovider, tsvirtualchannels/IWTSPluginServiceProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

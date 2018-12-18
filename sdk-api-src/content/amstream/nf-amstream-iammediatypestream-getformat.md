@@ -9,8 +9,6 @@ ms.assetid: 9f00fe45-df4b-4787-980c-9fe434a8ab7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetFormat method, IAMMediaTypeStream.GetFormat, IAMMediaTypeStream::GetFormat, IAMMediaTypeStreamGetFormat, amstream/IAMMediaTypeStream::GetFormat, dshow.iammediatypestream_getformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>GetFormat</code> method retrieves the format of the stream.
 
 ### -param pMediaType [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that receives the stream format.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that receives the stream format.
 
 
 ### -param dwFlags [in]
@@ -117,7 +115,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/6ca1bad2-625b-4415-8311-acd5443452c1">IAMMediaTypeStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
  
 
  

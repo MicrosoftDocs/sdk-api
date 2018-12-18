@@ -9,8 +9,6 @@ ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -80,7 +78,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The actual frame rate during playback might be less than the authored frame rate. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+The actual frame rate during playback might be less than the authored frame rate. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
 
 
 
@@ -94,7 +92,7 @@ The actual frame rate during playback might be less than the authored frame rate
 
 
 
-<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
  
 
  

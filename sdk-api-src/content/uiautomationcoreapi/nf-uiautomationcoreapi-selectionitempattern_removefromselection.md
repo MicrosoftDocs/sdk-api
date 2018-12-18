@@ -9,8 +9,6 @@ ms.assetid: 190e02a5-1ea9-44cc-a215-cabc700ec814
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SelectionItemPattern_RemoveFromSelection, SelectionItemPattern_RemoveFromSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiauto_SelectionItemPattern_RemoveFromSelectionConPat, uiautomationcoreapi/SelectionItemPattern_RemoveFromSelection, winauto.uiauto_SelectionItemPattern_RemoveFromSelectionConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

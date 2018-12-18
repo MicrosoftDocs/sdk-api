@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_3chf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],DeviceIds property, IFaxDeviceProvider.DeviceIds, IFaxDeviceProvider.get_DeviceIds, IFaxDeviceProvider::DeviceIds, IFaxDeviceProvider::get_DeviceIds, _mfax_faxdeviceprovider.deviceids, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp, fax._mfax_faxdeviceprovider_deviceids, faxcomex/IFaxDeviceProvider::DeviceIds, faxcomex/IFaxDeviceProvider::get_DeviceIds, get_DeviceIds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/ef32eb3d-e158-4740-82f5-661d5eded88c">FaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684890(v=VS.85).aspx">FaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/91899618-9164-4db4-94d3-a971db9f1ca0">IFaxDeviceProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684893(v=VS.85).aspx">IFaxDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/422003a1-7db2-4eff-97bd-8ca889a3e5f6">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693462(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

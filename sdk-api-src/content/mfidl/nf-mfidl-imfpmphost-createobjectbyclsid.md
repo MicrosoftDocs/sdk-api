@@ -9,8 +9,6 @@ ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPHost interface, IMFPMPHost interface [Media Foundation],CreateObjectByCLSID method, IMFPMPHost.CreateObjectByCLSID, IMFPMPHost::CreateObjectByCLSID, mf.imfpmphost_createobjectbyclsid, mfidl/IMFPMPHost::CreateObjectByCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

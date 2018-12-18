@@ -9,8 +9,6 @@ ms.assetid: b6a87115-f781-4283-b343-301fdf7c5845
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_SetSharedData method, IWMSecureChannel.WMSC_SetSharedData, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
  
 
  

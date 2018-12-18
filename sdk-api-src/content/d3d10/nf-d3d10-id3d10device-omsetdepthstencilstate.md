@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_omsetdepthstencilstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 75af58f4-0720-3b37-1633-f4ae71d23ebd, ID3D10Device interface [Direct3D 10],OMSetDepthStencilState method, ID3D10Device.OMSetDepthStencilState, ID3D10Device::OMSetDepthStencilState, OMSetDepthStencilState, OMSetDepthStencilState method [Direct3D 10], OMSetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMSetDepthStencilState, direct3d10.id3d10device_omsetdepthstencilstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

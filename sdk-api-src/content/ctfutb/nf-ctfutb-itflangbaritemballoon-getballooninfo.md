@@ -9,8 +9,6 @@ ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -59,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629076(v=VS.85).aspx">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
+Pointer to a <a href="https://msdn.microsoft.com/8ceed1ae-27f9-4998-b950-52865bfa2f79">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
 
 
 ## -returns
@@ -106,7 +104,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628702(v=VS.85).aspx">ITfLangBarItemBalloon</a>
+<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
 
 
 

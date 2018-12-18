@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIndexerVersion, GetIndexerVersion method [search], GetIndexerVersion method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersion method, ISearchManager.GetIndexerVersion, ISearchManager::GetIndexerVersion, _search_ISearchManager_GetIndexerVersion, search._search_ISearchManager_GetIndexerVersion, searchapi/ISearchManager::GetIndexerVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

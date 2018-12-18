@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextDocument interface [Windows Controls],Unfreeze method, ITextDocument.Unfreeze, ITextDocument::Unfreeze, Unfreeze, Unfreeze method [Windows Controls], Unfreeze method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Unfreeze, _win32_ITextDocument_Unfreeze_cpp, controls.ITextDocument_Unfreeze, controls._win32_ITextDocument_Unfreeze, tom/ITextDocument::Unfreeze
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: p2p\peergroupparseinvitation.htm
 tech.root: P2PSdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

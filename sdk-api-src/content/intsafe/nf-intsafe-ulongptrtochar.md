@@ -9,8 +9,6 @@ ms.assetid: 0cc26423-5c14-49d0-984e-f2bb81f68010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongPtrToChar, ULongPtrToChar function [Windows Shell], intsafe/ULongPtrToChar, shell.ULongPtrToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

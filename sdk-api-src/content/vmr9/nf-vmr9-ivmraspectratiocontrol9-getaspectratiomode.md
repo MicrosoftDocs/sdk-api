@@ -9,8 +9,6 @@ ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>GetAspectRatioMode</code> method queries whether the VMR preserves the
 
 ### -param lpdwARMode [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/dd1d1d99-008b-4234-a38a-314ba02bb116">VMR_ASPECT_RATIO_MODE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd390954(v=VS.85).aspx">VMR_ASPECT_RATIO_MODE</a> enumeration.
 
 
 ## -returns
@@ -115,7 +113,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/ae850eea-c283-4500-baa0-e26641576852">IVMRAspectRatioControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377343(v=VS.85).aspx">IVMRAspectRatioControl9 Interface</a>
 
 
 

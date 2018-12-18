@@ -9,8 +9,6 @@ ms.assetid: 52bcc317-b900-44b6-8ab4-637ffbd74729
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.ServiceName, INetFwRule.get_ServiceName, INetFwRule::ServiceName, INetFwRule::get_ServiceName, INetFwRule::put_ServiceName, ServiceName property [ICS/ICF], ServiceName property [ICS/ICF],INetFwRule interface, get_ServiceName, ics.inetfwrule_servicename, netfw/INetFwRule::ServiceName, netfw/INetFwRule::get_ServiceName, netfw/INetFwRule::put_ServiceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

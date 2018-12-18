@@ -9,8 +9,6 @@ ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AssocQueryStringByKey, AssocQueryStringByKey function [Windows Shell], AssocQueryStringByKeyA, AssocQueryStringByKeyW, _win32_AssocQueryStringByKey, shell.AssocQueryStringByKey, shlwapi/AssocQueryStringByKey, shlwapi/AssocQueryStringByKeyA, shlwapi/AssocQueryStringByKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -71,9 +69,9 @@ The flags that can be used to control the search. It can be any combination of <
 
 ### -param str [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762475(v=VS.85).aspx">ASSOCSTR</a></b>
 
-The <a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a> value that specifies the type of string that is to be returned.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762475(v=VS.85).aspx">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 
 ### -param hkAssoc [in]

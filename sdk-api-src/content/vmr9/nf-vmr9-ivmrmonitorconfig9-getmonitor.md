@@ -9,8 +9,6 @@ ms.assetid: 8b3e19d2-23de-42ae-9e5b-d53e24bb764a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetMonitor method, IVMRMonitorConfig9.GetMonitor, IVMRMonitorConfig9::GetMonitor, IVMRMonitorConfig9GetMonitor, dshow.ivmrmonitorconfig9_getmonitor, vmr9/IVMRMonitorConfig9::GetMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -133,11 +131,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/27a3a598-d8de-48b2-8b8c-6b5497db4c6c">IVMRMonitorConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390482(v=VS.85).aspx">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/21b0db95-3b70-4d9a-b533-393e89e106ae">IVMRMonitorConfig9::SetMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390487(v=VS.85).aspx">IVMRMonitorConfig9::SetMonitor</a>
 
 
 

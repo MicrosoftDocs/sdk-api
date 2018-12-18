@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\metadata.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEntity interface [search],MetaData method, IEntity.MetaData, IEntity::MetaData, MetaData, MetaData method [search], MetaData method [search],IEntity interface, _search_IEntity_MetaData, search._search_IEntity_MetaData, structuredquery/IEntity::MetaData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

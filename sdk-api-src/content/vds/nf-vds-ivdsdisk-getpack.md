@@ -9,8 +9,6 @@ ms.assetid: 52c7edb5-a92d-423d-8115-e8c3cccd95b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPack, GetPack method [VDS], GetPack method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetPack method, IVdsDisk.GetPack, IVdsDisk::GetPack, base.ivdsdisk_getpack, vds/IVdsDisk::GetPack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

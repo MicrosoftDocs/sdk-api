@@ -9,8 +9,6 @@ ms.assetid: 812026bf-74d0-49c2-851c-de64a6417bff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkHostWorkItem, IInkHostWorkItem interface, IInkHostWorkItem interface,described, InkPresenterDesktop.iinkhostworkitem, inkpresenterdesktop/IInkHostWorkItem, input_ink.iinkhostworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 

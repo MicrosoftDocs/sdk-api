@@ -9,8 +9,6 @@ ms.assetid: 9069D567-80BB-469D-A079-917D619F4F46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSessionStatus, GetSessionStatus method, GetSessionStatus method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetSessionStatus method, ID3D12ProtectedSession.GetSessionStatus, ID3D12ProtectedSession::GetSessionStatus, d3d12/ID3D12ProtectedSession::GetSessionStatus, direct3d12.id3d12protectedsession_getsessionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -64,7 +62,7 @@ Gets the status of the protected session.
 
 
 
-The status the protected session. If <b>D3D12_PROTECTED_SESSION_STATUS_INVALID</b>, then you need to wait for a uniqueness value bump to reuse the resource if the session is an <a href="direct3d12.id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>. If <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a> or <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>, then they need to be recreated.
+The status the protected session. If <b>D3D12_PROTECTED_SESSION_STATUS_INVALID</b>, then you need to wait for a uniqueness value bump to reuse the resource if the session is an <a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>. If <a href="direct3d12.id3d12cryptosession">ID3D12CryptoSession</a> or <a href="direct3d12.id3d12cryptosessionpolicy">ID3D12CryptoSessionPolicy</a>, then they need to be recreated.
 
 
 
@@ -74,7 +72,7 @@ The status the protected session. If <b>D3D12_PROTECTED_SESSION_STATUS_INVALID</
 
 
 
-<a href="direct3d12.id3d12protectedsession">ID3D12ProtectedSession</a>
+<a href="https://msdn.microsoft.com/BBB87F18-A4F4-44E7-AFD8-803BD2C7C753">ID3D12ProtectedSession</a>
  
 
  

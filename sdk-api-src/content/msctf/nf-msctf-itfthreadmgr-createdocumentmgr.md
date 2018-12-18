@@ -9,8 +9,6 @@ ms.assetid: 0f90a359-61e7-46e5-9d0b-ab6fe24f3136
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr.CreateDocumentMgr, ITfThreadMgr::CreateDocumentMgr, _tsf_itfthreadmgr_createdocumentmgr_ref, msctf/ITfThreadMgr::CreateDocumentMgr, tsf.itfthreadmgr_createdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

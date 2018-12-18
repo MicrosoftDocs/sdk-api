@@ -9,8 +9,6 @@ ms.assetid: 307b0686-c4ec-40c6-8bd3-18a7aa790875
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],LeaveFolder method, INamespaceWalkCB.LeaveFolder, INamespaceWalkCB::LeaveFolder, LeaveFolder, LeaveFolder method [Windows Shell], LeaveFolder method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_LeaveFolder, shell.INamespaceWalkCB_LeaveFolder, shobjidl_core/INamespaceWalkCB::LeaveFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

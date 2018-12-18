@@ -9,8 +9,6 @@ ms.assetid: A67FEAC7-1EBA-42D2-A917-4D5DEA71F557
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetCenterY method, IDCompositionSkewTransform.SetCenterY, IDCompositionSkewTransform::SetCenterY, IDCompositionSkewTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetCenterY, directcomp.idcompositionskewtransform_setcentery_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -93,7 +91,7 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
 
 
 

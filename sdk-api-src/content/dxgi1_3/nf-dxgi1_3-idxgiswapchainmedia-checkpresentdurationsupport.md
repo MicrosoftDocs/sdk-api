@@ -9,8 +9,6 @@ ms.assetid: 3334E761-745E-4476-9AB4-4FC6DABC78E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport method [DXGI], CheckPresentDurationSupport method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],CheckPresentDurationSupport method, IDXGISwapChainMedia.CheckPresentDurationSupport, IDXGISwapChainMedia::CheckPresentDurationSupport, direct3ddxgi.idxgiswapchainmedia_checkpresentdurationsupport, dxgi1_3/IDXGISwapChainMedia::CheckPresentDurationSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

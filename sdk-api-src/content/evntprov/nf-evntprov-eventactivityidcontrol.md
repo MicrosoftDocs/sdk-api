@@ -9,8 +9,6 @@ ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

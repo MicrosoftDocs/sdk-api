@@ -9,8 +9,6 @@ ms.assetid: 763ce5a7-bbad-4dd8-a416-86a96f466510
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetLocalPath method, IAttachmentExecute.SetLocalPath, IAttachmentExecute::SetLocalPath, SetLocalPath, SetLocalPath method [Windows Shell], SetLocalPath method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetLocalPath, shell.IAttachmentExecute_SetLocalPath, shobjidl_core/IAttachmentExecute::SetLocalPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -4,13 +4,11 @@ title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of the host of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d86e9092-42ca-4e62-8613-cdcf2f8b627d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnVirtualMachineHostStatusChanged method, ITsSbProvisioningPluginNotifySink.OnVirtualMachineHostStatusChanged, ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged, OnVirtualMachineHostStatusChanged method [Remote Desktop Services], OnVirtualMachineHostStatusChanged method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnVirtualMachineHostStatusChanged, termserv.itssbprovisioningpluginnotifysink_onvirtualmachinehoststatuschanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

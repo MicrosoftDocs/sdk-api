@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearGamma, ClearGamma method [GDI+], ClearGamma method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearGamma method, ImageAttributes.ClearGamma, ImageAttributes::ClearGamma, _gdiplus_CLASS_ImageAttributes_ClearGamma_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearGamma_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

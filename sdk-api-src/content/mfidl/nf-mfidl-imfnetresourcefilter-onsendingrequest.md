@@ -9,8 +9,6 @@ ms.assetid: 4FE6BBE8-A8EC-4304-BC4B-4D49F8EADC25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnSendingRequest method, IMFNetResourceFilter.OnSendingRequest, IMFNetResourceFilter::OnSendingRequest, OnSendingRequest, OnSendingRequest method [Media Foundation], OnSendingRequest method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onsendingrequest, mfidl/IMFNetResourceFilter::OnSendingRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

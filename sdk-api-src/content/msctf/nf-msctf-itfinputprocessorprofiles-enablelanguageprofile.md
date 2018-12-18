@@ -9,8 +9,6 @@ ms.assetid: 54aa6668-e577-4d75-9461-b604e1e73a78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableLanguageProfile, EnableLanguageProfile method [Text Services Framework], EnableLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnableLanguageProfile method, ITfInputProcessorProfiles.EnableLanguageProfile, ITfInputProcessorProfiles::EnableLanguageProfile, _tsf_itfinputprocessorprofiles_enablelanguageprofile_ref, msctf/ITfInputProcessorProfiles::EnableLanguageProfile, tsf.itfinputprocessorprofiles_enablelanguageprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F6125FB9-EA1B-4052-A527-F4E5FAEE5C61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyRetrievalFilter method, IDXGIInfoQueue.PushEmptyRetrievalFilter, IDXGIInfoQueue::PushEmptyRetrievalFilter, PushEmptyRetrievalFilter, PushEmptyRetrievalFilter method [DXGI], PushEmptyRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptyretrievalfilter, dxgidebug/IDXGIInfoQueue::PushEmptyRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

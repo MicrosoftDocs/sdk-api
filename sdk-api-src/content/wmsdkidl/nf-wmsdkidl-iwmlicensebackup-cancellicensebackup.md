@@ -9,8 +9,6 @@ ms.assetid: aa226875-d59f-4fac-b38b-f94727fa2f4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelLicenseBackup, CancelLicenseBackup method [windows Media Format], CancelLicenseBackup method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],CancelLicenseBackup method, IWMLicenseBackup.CancelLicenseBackup, IWMLicenseBackup::CancelLicenseBackup, IWMLicenseBackupCancelLicenseBackup, wmformat.iwmlicensebackup_cancellicensebackup, wmsdkidl/IWMLicenseBackup::CancelLicenseBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -92,7 +90,7 @@ A backup operation is asynchronous, and a call to this method cancels a backup t
 
 
 
-<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup Interface</a>
  
 
  

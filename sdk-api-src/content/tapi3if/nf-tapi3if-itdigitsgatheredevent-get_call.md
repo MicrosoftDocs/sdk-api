@@ -9,8 +9,6 @@ ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Call method, ITDigitsGatheredEvent.get_Call, ITDigitsGatheredEvent::get_Call, _tapi3_itdigitsgatheredevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_call, tapi3if/ITDigitsGatheredEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

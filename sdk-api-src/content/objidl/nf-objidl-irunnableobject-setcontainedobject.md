@@ -9,8 +9,6 @@ ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

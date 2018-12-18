@@ -9,8 +9,6 @@ ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

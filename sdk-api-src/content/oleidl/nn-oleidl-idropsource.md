@@ -9,8 +9,6 @@ ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

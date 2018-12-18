@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\color
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+],ColorBalance constructor, ColorBalance constructor [GDI+], ColorBalance constructor [GDI+],ColorBalance class, ColorBalance.ColorBalance, ColorBalance::ColorBalance, _gdiplus_CLASS_ColorBalance_ColorBalance_, gdiplus._gdiplus_CLASS_ColorBalance_ColorBalance_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

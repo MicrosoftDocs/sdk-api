@@ -9,8 +9,6 @@ ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\t
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],Terminate method, IRendezvousSession.Terminate, IRendezvousSession::Terminate, Terminate, Terminate method [Remote Assistance], Terminate method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_Terminate, remoteassist_IRendezvousSession_Terminate, rendezvoussession/IRendezvousSession::Terminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

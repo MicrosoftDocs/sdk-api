@@ -9,8 +9,6 @@ ms.assetid: 4820c93a-a5d8-4ab9-aefc-9377fc76e745
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClock2, IAudioClock2 interface [Core Audio], IAudioClock2 interface [Core Audio],described, audioclient/IAudioClock2, coreaudio.iaudioclock2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

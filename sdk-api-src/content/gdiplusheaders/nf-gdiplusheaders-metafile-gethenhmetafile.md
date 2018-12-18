@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilem
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHENHMETAFILE, GetHENHMETAFILE method [GDI+], GetHENHMETAFILE method [GDI+],Metafile class, Metafile class [GDI+],GetHENHMETAFILE method, Metafile.GetHENHMETAFILE, Metafile::GetHENHMETAFILE, _gdiplus_CLASS_Metafile_GetHENHMETAFILE_, gdiplus._gdiplus_CLASS_Metafile_GetHENHMETAFILE_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

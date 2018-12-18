@@ -7,10 +7,8 @@ old-location: pla\ivaluemap_description.htm
 tech.root: pla
 ms.assetid: 04936082-e377-46f3-b218-28a2403eee9d
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMap interface, IValueMap interface [PLA],Description property, IValueMap.Description, IValueMap.get_Description, IValueMap::Description, IValueMap::get_Description, IValueMap::put_Description, base.ivaluemap_description, get_Description, pla.ivaluemap_description, pla/IValueMap::Description, pla/IValueMap::get_Description, pla/IValueMap::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

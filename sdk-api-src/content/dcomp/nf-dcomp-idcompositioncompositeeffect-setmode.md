@@ -9,8 +9,6 @@ ms.assetid: E93FAAA1-A9C3-466A-9023-99745EA6A49B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionCompositeEffect interface [DirectComposition],SetMode method, IDCompositionCompositeEffect.SetMode, IDCompositionCompositeEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionCompositeEffect interface, dcomp/IDCompositionCompositeEffect::SetMode, directcomp.idcompositioncompositeeffect_setmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ The mode for the composite effect.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/72647FCE-F1B0-4A50-927B-23EE38EEEC8B">IDCompositionCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919728(v=VS.85).aspx">IDCompositionCompositeEffect</a>
  
 
  

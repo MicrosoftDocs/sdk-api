@@ -9,8 +9,6 @@ ms.assetid: 83800B10-7992-4A3D-B8D6-6872BAEAF7DA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTranslateTransform, CreateTranslateTransform method [DirectComposition], CreateTranslateTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateTranslateTransform method, IDCompositionDevice2.CreateTranslateTransform, IDCompositionDevice2::CreateTranslateTransform, dcomp/IDCompositionDevice2::CreateTranslateTransform, directcomp.idcompositiondevice2_createtranslatetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 2D translation transform object.
 
 ### -param translateTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2215721e-a10d-4c9e-b5b7-1698afa547d8">IDCompositionTranslateTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449113(v=VS.85).aspx">IDCompositionTranslateTransform</a>**</b>
 
 The new 2D translation transform object. This parameter must not be NULL.
 
@@ -90,7 +88,7 @@ A new 2D translation transform object has a static value of zero for the OffsetX
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 

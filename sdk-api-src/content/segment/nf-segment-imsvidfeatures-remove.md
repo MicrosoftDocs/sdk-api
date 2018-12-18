@@ -9,8 +9,6 @@ ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],Remove method, IMSVidFeatures.Remove, IMSVidFeatures::Remove, IMSVidFeaturesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_remove, segment/IMSVidFeatures::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -153,7 +151,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b">IMSVidFeatures::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694546(v=VS.85).aspx">IMSVidFeatures::Add</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: fa689979-0c8c-4295-9750-3c2fee9af4d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],CollectingInk property, IInkOverlay.CollectingInk, IInkOverlay.get_CollectingInk, IInkOverlay::CollectingInk, IInkOverlay::get_CollectingInk, InkOverlay.get_CollectingInk, get_CollectingInk, msinkaut/IInkOverlay::CollectingInk, msinkaut/IInkOverlay::get_CollectingInk, tablet.inkoverlay_collectingink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ You can use the <a href="https://msdn.microsoft.com/c0ac36a8-e36e-45a7-b047-14d7
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

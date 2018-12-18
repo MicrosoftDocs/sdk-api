@@ -9,8 +9,6 @@ ms.assetid: 76c52494-e8ad-41df-bee6-33d90f24e448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasSetAutodialParam, RasSetAutodialParam function [RAS], RasSetAutodialParamA, RasSetAutodialParamW, _ras_rassetautodialparam, ras/RasSetAutodialParam, ras/RasSetAutodialParamA, ras/RasSetAutodialParamW, rras.rassetautodialparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 80a32132-a032-452f-9438-52a1eb280fdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV6GetStatelessStoreParams, DhcpV6GetStatelessStoreParams function [DHCP], dhcp.dhcpv6getstatelessstoreparams, dhcpsapi/DhcpV6GetStatelessStoreParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -76,7 +74,7 @@ If the value of <i>fServerLevel</i> is <b>TRUE</b>, this must be 0.
 
 ### -param Params [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/852249b2-ea0d-4f83-a41f-12ef8cb029e7">DHCPV6_STATELESS_PARAMS</a> structure that contains the stateless client inventory configuration settings for a DHCPv6 server.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh404364(v=VS.85).aspx">DHCPV6_STATELESS_PARAMS</a> structure that contains the stateless client inventory configuration settings for a DHCPv6 server.
 
 
 ## -returns

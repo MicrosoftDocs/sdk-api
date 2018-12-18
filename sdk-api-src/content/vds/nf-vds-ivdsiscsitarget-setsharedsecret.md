@@ -9,8 +9,6 @@ ms.assetid: 2b2eae3d-8ad0-4b68-943b-a42696165543
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetSharedSecret method, IVdsIscsiTarget.SetSharedSecret, IVdsIscsiTarget::SetSharedSecret, SetSharedSecret, SetSharedSecret method [VDS], SetSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setsharedsecret, vds/IVdsIscsiTarget::SetSharedSecret, vdshwprv/IVdsIscsiTarget::SetSharedSecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

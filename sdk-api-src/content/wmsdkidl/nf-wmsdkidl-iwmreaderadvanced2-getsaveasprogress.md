@@ -9,8 +9,6 @@ ms.assetid: 0317f010-4b7f-4f79-9460-ba6b1e904ffa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSaveAsProgress, GetSaveAsProgress method [windows Media Format], GetSaveAsProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetSaveAsProgress method, IWMReaderAdvanced2.GetSaveAsProgress, IWMReaderAdvanced2::GetSaveAsProgress, IWMReaderAdvanced2GetSaveAsProgress, wmformat.iwmreaderadvanced2_getsaveasprogress, wmsdkidl/IWMReaderAdvanced2::GetSaveAsProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -82,7 +80,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method must only be called after <a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a> has been called.
+This method must only be called after <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a> has been called.
 
 When saving a file, the operation can take some time. This call must be made between the events WMT_SAVEAS_START and WMT_SAVEAS_STOP. If it is called before WMT_SAVEAS_START, or there is an error, this method returns zero. It returns 100 following a successful WMT_SAVEAS_STOP event.
 
@@ -94,7 +92,7 @@ When saving a file, the operation can take some time. This call must be made bet
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Read an element producing a value of the specified <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
+Read an element producing a value of the specified <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>.
             
 
 
@@ -74,7 +72,7 @@ A pointer to a description of how to deserialize the element.
 ### -param readOption [in]
 
 Whether the element is required, and how to allocate the value.  
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
                 
 
 
@@ -86,13 +84,13 @@ The heap to store the deserialized values in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 

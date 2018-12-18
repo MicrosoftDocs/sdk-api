@@ -9,8 +9,6 @@ ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

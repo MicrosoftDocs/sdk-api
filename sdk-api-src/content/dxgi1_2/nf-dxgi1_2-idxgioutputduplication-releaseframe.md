@@ -9,8 +9,6 @@ ms.assetid: 841858AA-4840-4B04-B54A-F10362D43F5B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

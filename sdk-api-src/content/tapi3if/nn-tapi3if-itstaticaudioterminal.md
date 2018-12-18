@@ -9,8 +9,6 @@ ms.assetid: 154c07b6-c693-469d-819a-f6d2d2afd744
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITStaticAudioTerminal, ITStaticAudioTerminal interface [TAPI 2.2], ITStaticAudioTerminal interface [TAPI 2.2],described, _tapi3_itstaticaudioterminal, tapi3.itstaticaudioterminal, tapi3if/ITStaticAudioTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

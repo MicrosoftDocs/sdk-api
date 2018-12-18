@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORTN2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMSHORTN2, XMSHORTN2 structure [DirectX Math Support APIs], directxpackedvector/XMSHORTN2, dxmath.xmshortn2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

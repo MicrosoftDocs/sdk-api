@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturerelationshipreference_gettransformmethod.htm
 tech.root: OPC
 ms.assetid: 87d85f7e-abf2-4f6f-91b6-36a014cc0f33
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetTransformMethod, GetTransformMethod method [Open Packaging Conventions], GetTransformMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetTransformMethod method, IOpcSignatureRelationshipReference.GetTransformMethod, IOpcSignatureRelationshipReference::GetTransformMethod, msopc/IOpcSignatureRelationshipReference::GetTransformMethod, opc.iopcsignaturerelationshipreference_gettransformmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

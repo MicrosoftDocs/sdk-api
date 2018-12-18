@@ -9,8 +9,6 @@ ms.assetid: f56fa077-749c-422b-b82d-161f9e5d4766
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClipGeometry, GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometry method, IXpsOMVisual.GetClipGeometry, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

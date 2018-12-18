@@ -9,8 +9,6 @@ ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

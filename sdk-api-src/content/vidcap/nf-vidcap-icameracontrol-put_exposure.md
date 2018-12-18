@@ -9,8 +9,6 @@ ms.assetid: 2db9bdb3-c508-40b6-bd5e-75e418ba2f18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Exposure method, ICameraControl.put_Exposure, ICameraControl::put_Exposure, ICameraControlput_Exposure, dshow.icameracontrol_put_exposure, put_Exposure, put_Exposure method [DirectShow], put_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Exposure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -66,7 +64,7 @@ Exposure time, in log base 2 seconds. If the value is <i>n</i>, the exposure tim
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -87,7 +85,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

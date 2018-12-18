@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_XML_CANONICALIZATION_ALGORITHM
+UID: NE:webservices.__unnamed_enum_1
 title: WS_XML_CANONICALIZATION_ALGORITHM
 author: windows-sdk-content
 description: The values for the XML canonicalization algorithms.
@@ -7,10 +7,8 @@ old-location: wsw\ws_xml_canonicalization_algorithm.htm
 tech.root: wsw
 ms.assetid: 230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM, WS_XML_CANONICALIZATION_ALGORITHM enumeration [Web Services for Windows], webservices/WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM, webservices/WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM, webservices/WS_XML_CANONICALIZATION_ALGORITHM, wsw.ws_xml_canonicalization_algorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

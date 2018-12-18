@@ -9,8 +9,6 @@ ms.assetid: a6cfb383-3aff-4c36-87c7-010409c732a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalPort property, IRDPSRAPITcpConnectionInfo.LocalPort, IRDPSRAPITcpConnectionInfo.get_LocalPort, IRDPSRAPITcpConnectionInfo::LocalPort, IRDPSRAPITcpConnectionInfo::get_LocalPort, LocalPort property [RDP], LocalPort property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalPort property, get_LocalPort, rdp.irdpsrapitcpconnectioninfo_localport, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

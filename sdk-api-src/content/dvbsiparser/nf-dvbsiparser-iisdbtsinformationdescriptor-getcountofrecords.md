@@ -9,8 +9,6 @@ ms.assetid: 97e0d307-f41d-44e3-8f42-d00fecbcd61e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTSInformationDescriptor.GetCountOfRecords, IIsdbTSInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTSInformationDescriptor::GetCountOfRecords, mstv.iisdbtsinformationdescriptor_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

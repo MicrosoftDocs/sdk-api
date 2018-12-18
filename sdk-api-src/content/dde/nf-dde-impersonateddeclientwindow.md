@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImpersonateDdeClientWindow, ImpersonateDdeClientWindow function [Data Exchange], _win32_ImpersonateDdeClientWindow, _win32_impersonateddeclientwindow_cpp, dataxchg.impersonateddeclientwindow, dde/ImpersonateDdeClientWindow, winui._win32_impersonateddeclientwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h

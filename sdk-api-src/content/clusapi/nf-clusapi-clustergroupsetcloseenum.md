@@ -9,8 +9,6 @@ ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGroupSetCloseEnum, ClusterGroupSetCloseEnum function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterGroupSetCloseEnum, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -70,7 +68,7 @@ The enumeration to be closed.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

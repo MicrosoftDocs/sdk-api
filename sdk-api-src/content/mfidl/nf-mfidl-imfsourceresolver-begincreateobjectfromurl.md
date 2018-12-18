@@ -9,8 +9,6 @@ ms.assetid: bc97c1fb-d23a-4887-b6ac-0751c254a405
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginCreateObjectFromURL, BeginCreateObjectFromURL method [Media Foundation], BeginCreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],BeginCreateObjectFromURL method, IMFSourceResolver.BeginCreateObjectFromURL, IMFSourceResolver::BeginCreateObjectFromURL, bc97c1fb-d23a-4887-b6ac-0751c254a405, mf.imfsourceresolver_begincreateobjectfromurl, mfidl/IMFSourceResolver::BeginCreateObjectFromURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

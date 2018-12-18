@@ -9,8 +9,6 @@ ms.assetid: d1622574-c65e-4265-9a17-22bb4d2cae0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, gdi.polybezier, wingdi/PolyBezier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

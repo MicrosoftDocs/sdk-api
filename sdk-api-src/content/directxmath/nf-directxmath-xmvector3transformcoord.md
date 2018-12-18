@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformCoord(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3TransformCoord, XMVector3TransformCoord, XMVector3TransformCoord method [DirectX Math Support APIs], dxmath.xmvector3transformcoord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -98,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/426e99c7-383f-4159-88d5-f6765f4c9d3c">XMVector3TransformCoordStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404778(v=VS.85).aspx">XMVector3TransformCoordStream</a>
  
 
  

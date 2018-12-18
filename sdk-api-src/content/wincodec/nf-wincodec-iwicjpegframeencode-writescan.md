@@ -9,8 +9,6 @@ ms.assetid: FED02403-E696-4988-BFB6-F1E37D9FA5F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICJpegFrameEncode interface [Windows Imaging Component],WriteScan method, IWICJpegFrameEncode.WriteScan, IWICJpegFrameEncode::WriteScan, WriteScan, WriteScan method [Windows Imaging Component], WriteScan method [Windows Imaging Component],IWICJpegFrameEncode interface, wic.iwicjpegframeencode_writescan, wincodec/IWICJpegFrameEncode::WriteScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

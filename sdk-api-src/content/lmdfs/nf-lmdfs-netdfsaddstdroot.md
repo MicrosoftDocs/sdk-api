@@ -9,8 +9,6 @@ ms.assetid: e59236ac-06d7-4b2f-b318-ec13e6c662ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsAddStdRoot, NetDfsAddStdRoot function [Distributed File System], _win32_netdfsaddstdroot, dfs.netdfsaddstdroot, fs.netdfsaddstdroot, lmdfs/NetDfsAddStdRoot, netmgmt.netdfsaddstdroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

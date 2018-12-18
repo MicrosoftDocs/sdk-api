@@ -9,8 +9,6 @@ ms.assetid: 8e522987-ac94-4597-8491-4c66b15aa262
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],Init method, CMSPStream.Init, CMSPStream::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_init, mspstrm/CMSPStream::Init, tapi3.cmspstream_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspstrm.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 The 
 <b>Init</b> method is called by the <b>MSPCall</b> when the stream is created. It initializes the members, calls 
-<a href="https://msdn.microsoft.com/fe70ceac-660e-4fdd-960f-b61503bc8939">MSPCallAddRef</a> on the call object, and queries for various interfaces on the filter graph.
+<a href="https://msdn.microsoft.com/en-us/library/ms726525(v=VS.85).aspx">MSPCallAddRef</a> on the call object, and queries for various interfaces on the filter graph.
 
 
 ## -parameters
@@ -68,7 +66,7 @@ Handle for address associated with this call.
 ### -param pMSPCall
 
 Pointer to MSP basic calling handler class, 
-<a href="https://msdn.microsoft.com/77b53b66-38fa-4823-9051-e857da8a7dd7">CMSPCallBase</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>.
 
 
 ### -param pGraph
@@ -93,7 +91,7 @@ Descriptor of
 
 
 
-<a href="https://msdn.microsoft.com/776ca663-faa2-4534-8873-4e20ed79530c">CMSPStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726913(v=VS.85).aspx">CMSPStream</a>
  
 
  

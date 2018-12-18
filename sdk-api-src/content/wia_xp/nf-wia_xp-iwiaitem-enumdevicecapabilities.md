@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumdevicecapabilities.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDeviceCapabilities, EnumDeviceCapabilities method [WIA], EnumDeviceCapabilities method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumDeviceCapabilities method, IWiaItem.EnumDeviceCapabilities, IWiaItem::EnumDeviceCapabilities, _wia_IWiaItem_EnumDeviceCapabilities, wia._wia_IWiaItem_EnumDeviceCapabilities, wia_xp/IWiaItem::EnumDeviceCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

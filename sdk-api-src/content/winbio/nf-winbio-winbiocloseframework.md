@@ -9,8 +9,6 @@ ms.assetid: AE13FB2F-0B6B-4D98-A75A-E8A2EA525136
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioCloseFramework, WinBioCloseFramework function [Windows Biometric Framework API], secbiomet.winbiocloseframework, winbio/WinBioCloseFramework
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

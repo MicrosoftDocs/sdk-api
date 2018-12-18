@@ -9,8 +9,6 @@ ms.assetid: 72bee160-7004-40be-9c91-e431b06ccaed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetWindowFeedbackSetting, SetWindowFeedbackSetting function, input_feedback.setwindowfeedbacksetting, inputfeedbackui.setwindowfeedbacksetting, winuser/SetWindowFeedbackSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

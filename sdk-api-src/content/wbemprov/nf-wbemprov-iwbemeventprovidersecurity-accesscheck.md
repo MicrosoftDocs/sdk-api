@@ -9,8 +9,6 @@ ms.assetid: 9c5cf37f-f43f-46c7-a5b4-1537aead158e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AccessCheck, AccessCheck method [Windows Management Instrumentation], AccessCheck method [Windows Management Instrumentation],IWbemEventProviderSecurity interface, IWbemEventProviderSecurity interface [Windows Management Instrumentation],AccessCheck method, IWbemEventProviderSecurity.AccessCheck, IWbemEventProviderSecurity::AccessCheck, _hmm_iwbemeventprovidersecurity_accesscheck, wbemprov/IWbemEventProviderSecurity::AccessCheck, wmi.iwbemeventprovidersecurity_accesscheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

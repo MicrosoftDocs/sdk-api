@@ -9,8 +9,6 @@ ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
+The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -101,7 +99,7 @@ For information about hooks, see <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377534(v=VS.85).aspx">CERT_SELECT_STRUCT</a>
+<a href="https://msdn.microsoft.com/49184872-d636-4e55-8e32-0f38b49b5c21">CERT_SELECT_STRUCT</a>
 
 
 

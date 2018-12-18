@@ -9,8 +9,6 @@ ms.assetid: 3e70b208-05b5-4b84-a582-fd835acdd777
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SyncContentTransform method, IDirectManipulationContent.SyncContentTransform, IDirectManipulationContent::SyncContentTransform, SyncContentTransform, SyncContentTransform method [Direct Manipulation], SyncContentTransform method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_synccontenttransform, directmanipulation/IDirectManipulationContent::SyncContentTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

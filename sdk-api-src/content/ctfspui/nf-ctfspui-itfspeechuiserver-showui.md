@@ -9,8 +9,6 @@ ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfspui.h
 req.include-header: Ctfutb.h

@@ -9,8 +9,6 @@ ms.assetid: 407fddaa-8b7d-4ef4-bfc8-0b7a273905e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_CNG_IMPORT_KEY_AGREE, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback, PFN_CMSG_CNG_IMPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_cng_import_key_agree, wincrypt/PFN_CMSG_CNG_IMPORT_KEY_AGREE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -109,7 +107,7 @@ If this callback function does not support the key encryption algorithm, it must
 The <a href="https://msdn.microsoft.com/a990d44d-2993-429f-b817-2a834105ecef">CryptMsgControl</a> function calls this function for the following operations specified by the <i>dwCtrlType</i> parameter:
 
 <b>CMSG_CTRL_KEY_AGREE_DECRYPT</b>
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

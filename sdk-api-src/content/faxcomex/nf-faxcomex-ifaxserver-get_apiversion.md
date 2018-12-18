@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_43vy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APIVersion property [Fax Service], APIVersion property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],APIVersion property, IFaxServer.APIVersion, IFaxServer.get_APIVersion, IFaxServer::APIVersion, IFaxServer::get_APIVersion, _mfax_faxserver.apiversion, fax._mfax_faxserver_apiversion, fax._mfax_faxserver_cpp_mfax_faxserver_apiversion_cpp, faxcomex/IFaxServer::APIVersion, faxcomex/IFaxServer::get_APIVersion, get_APIVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

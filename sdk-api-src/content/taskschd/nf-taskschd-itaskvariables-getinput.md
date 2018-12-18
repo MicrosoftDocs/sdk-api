@@ -9,8 +9,6 @@ ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

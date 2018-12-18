@@ -9,8 +9,6 @@ ms.assetid: 5e275b83-9e59-4730-b8e2-e45f78077891
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5e275b83-9e59-4730-b8e2-e45f78077891, GetMutualExclusionCount, GetMutualExclusionCount method [Media Foundation], GetMutualExclusionCount method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetMutualExclusionCount method, IMFASFProfile.GetMutualExclusionCount, IMFASFProfile::GetMutualExclusionCount, mf.imfasfprofile_getmutualexclusioncount, wmcontainer/IMFASFProfile::GetMutualExclusionCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

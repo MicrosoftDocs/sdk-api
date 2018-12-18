@@ -9,8 +9,6 @@ ms.assetid: B10A1ACB-12F4-4338-A6D6-6D2B829F9D62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxManifestReader2, IAppxManifestReader2 interface [App packaging and management], IAppxManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxManifestReader2, appxpkg.iappxmanifestreader2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

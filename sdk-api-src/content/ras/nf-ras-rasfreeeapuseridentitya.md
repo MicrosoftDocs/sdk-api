@@ -9,8 +9,6 @@ ms.assetid: 84102fdc-b44a-415e-b67e-58c82e662a23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasFreeEapUserIdentity, RasFreeEapUserIdentity function [RAS], RasFreeEapUserIdentityA, RasFreeEapUserIdentityW, _ras_rasfreeeapuseridentity, ras/RasFreeEapUserIdentity, ras/RasFreeEapUserIdentityA, ras/RasFreeEapUserIdentityW, rras.rasfreeeapuseridentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

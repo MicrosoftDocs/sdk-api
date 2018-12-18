@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6qlh.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxStatus interface [Fax Service],RecipientName property, IFaxStatus.RecipientName, IFaxStatus.get_RecipientName, IFaxStatus::RecipientName, IFaxStatus::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_get_recipientname, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp, faxcom/IFaxStatus::RecipientName, faxcom/IFaxStatus::get_RecipientName, get_RecipientName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -95,7 +93,7 @@ The <b>IFaxStatus::get_RecipientName</b> method allocates the memory required fo
 
 
 
-<a href="https://msdn.microsoft.com/e7a63893-d8df-4253-80b0-3faab13934fd">IFaxStatus::get_Receive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691932(v=VS.85).aspx">IFaxStatus::get_Receive</a>
 
 
 

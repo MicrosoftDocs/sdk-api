@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollPropPtr, _win32_FlatSB_GetScrollPropPtr_cpp, commctrl/FlatSB_GetScrollPropPtr, controls.FlatSB_GetScrollPropPtr, controls._win32_FlatSB_GetScrollPropPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -61,7 +59,7 @@ Gets the properties for a flat scroll bar. This function can also be used to det
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 

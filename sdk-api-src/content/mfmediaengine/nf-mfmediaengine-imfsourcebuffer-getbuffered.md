@@ -9,8 +9,6 @@ ms.assetid: cbed0e90-8950-46f6-acaa-5e6daf814dd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetBuffered method, IMFSourceBuffer.GetBuffered, IMFSourceBuffer::GetBuffered, mf.imfsourcebuffer_getbuffered, mfmediaengine/IMFSourceBuffer::GetBuffered
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D8E827D4-0256-4598-A99A-EDB5FA14EDC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileName, GetFileName method [App packaging and management], GetFileName method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetFileName method, IAppxBundleManifestPackageInfo.GetFileName, IAppxBundleManifestPackageInfo::GetFileName, appxpackaging/IAppxBundleManifestPackageInfo::GetFileName, appxpkg.iappxbundlemanifestpackageinfo_getfilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

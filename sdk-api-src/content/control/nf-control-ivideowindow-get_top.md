@@ -9,8 +9,6 @@ ms.assetid: 00baab45-d740-4f74-bd53-eb2ff21c5dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.get_Top, IVideoWindow::get_Top, IVideoWindowget_Top, control/IVideoWindow::get_Top, dshow.ivideowindow_get_top, get_Top, get_Top method [DirectShow], get_Top method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -123,7 +121,7 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

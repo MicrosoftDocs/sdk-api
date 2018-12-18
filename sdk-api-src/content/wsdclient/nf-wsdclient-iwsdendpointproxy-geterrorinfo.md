@@ -9,8 +9,6 @@ ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

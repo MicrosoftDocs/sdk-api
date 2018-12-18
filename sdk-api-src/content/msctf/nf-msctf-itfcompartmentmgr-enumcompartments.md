@@ -9,8 +9,6 @@ ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumCompartments, EnumCompartments method [Text Services Framework], EnumCompartments method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],EnumCompartments method, ITfCompartmentMgr.EnumCompartments, ITfCompartmentMgr::EnumCompartments, _tsf_itfcompartmentmgr_enumcompartments_ref, msctf/ITfCompartmentMgr::EnumCompartments, tsf.itfcompartmentmgr_enumcompartments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

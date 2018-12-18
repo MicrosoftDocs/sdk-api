@@ -9,8 +9,6 @@ ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColorSpace, GetColorSpace function [Windows Color System], _color_GetColorSpace, wcs.getcolorspace, wingdi/GetColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>GetColorSpace</b> function retrieves the handle to the input <a href="c.htm">color space</a> from a specified device context.
+The <b>GetColorSpace</b> function retrieves the handle to the input <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> from a specified device context.
 
 
 ## -parameters

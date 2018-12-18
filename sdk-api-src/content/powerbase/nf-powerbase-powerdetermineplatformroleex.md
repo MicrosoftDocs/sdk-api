@@ -7,10 +7,8 @@ old-location: base\powerdetermineplatformroleex.htm
 tech.root: power
 ms.assetid: 64b597d3-ca7a-4ff7-8527-72c3625147cd
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: POWER_PLATFORM_ROLE_V1, POWER_PLATFORM_ROLE_V2, POWER_PLATFORM_ROLE_VERSION, PowerDeterminePlatformRoleEx, PowerDeterminePlatformRoleEx function, base.powerdetermineplatformroleex, powerbase/PowerDeterminePlatformRoleEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 

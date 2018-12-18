@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getval
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetValueNormalization method [search],ICondition interface, ICondition interface [search],GetValueNormalization method, ICondition.GetValueNormalization, ICondition::GetValueNormalization, _search_ICondition_GetValueNormalization, search._search_ICondition_GetValueNormalization, structuredquerycondition/ICondition::GetValueNormalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

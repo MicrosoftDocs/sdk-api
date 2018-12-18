@@ -9,8 +9,6 @@ ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

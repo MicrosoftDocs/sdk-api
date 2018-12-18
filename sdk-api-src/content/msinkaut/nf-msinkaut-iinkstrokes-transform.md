@@ -9,8 +9,6 @@ ms.assetid: 910ae16d-be9a-422c-b9af-9a2df28df463
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Transform method, IInkStrokes.Transform, IInkStrokes::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokes interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokes::Transform, tablet.inkstrokes_transform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -149,7 +147,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

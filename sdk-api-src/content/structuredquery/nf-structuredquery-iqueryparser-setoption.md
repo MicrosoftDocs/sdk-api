@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\seto
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryParser interface [search],SetOption method, IQueryParser.SetOption, IQueryParser::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParser interface, _search_IQueryParser_SetOption, search._search_IQueryParser_SetOption, structuredquery/IQueryParser::SetOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

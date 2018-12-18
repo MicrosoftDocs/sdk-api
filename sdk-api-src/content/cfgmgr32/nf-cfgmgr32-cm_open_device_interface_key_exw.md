@@ -9,8 +9,6 @@ ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

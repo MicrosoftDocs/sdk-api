@@ -9,8 +9,6 @@ ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

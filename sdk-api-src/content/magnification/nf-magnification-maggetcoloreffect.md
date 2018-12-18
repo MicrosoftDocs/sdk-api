@@ -9,8 +9,6 @@ ms.assetid: VS|magapi|~\magapi\reference\functions\maggetcoloreffect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagGetColorEffect, MagGetColorEffect function [Magnification API], magapi.magapi_MagGetColorEffect, magapi_MagGetColorEffect, magnification/MagGetColorEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

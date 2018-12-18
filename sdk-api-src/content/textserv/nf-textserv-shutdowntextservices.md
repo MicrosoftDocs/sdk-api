@@ -9,8 +9,6 @@ ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: textserv.h
 req.include-header: 

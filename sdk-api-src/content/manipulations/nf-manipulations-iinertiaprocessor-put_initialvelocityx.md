@@ -9,8 +9,6 @@ ms.assetid: 23ae7083-0a78-4628-8a04-f9bd762aac02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityX property, IInertiaProcessor.InitialVelocityX, IInertiaProcessor.put_InitialVelocityX, IInertiaProcessor::InitialVelocityX, IInertiaProcessor::get_InitialVelocityX, IInertiaProcessor::put_InitialVelocityX, InitialVelocityX property [Windows Touch], InitialVelocityX property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialVelocityX, manipulations/IInertiaProcessor::get_InitialVelocityX, manipulations/IInertiaProcessor::put_InitialVelocityX, put_InitialVelocityX, wintouch.iinertiaprocessor_initialvelocityx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

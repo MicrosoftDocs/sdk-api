@@ -9,8 +9,6 @@ ms.assetid: 329193a7-932a-46d0-8e46-eef6bbdb8fa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteMessageEnd, WsWriteMessageEnd function [Web Services for Windows], webservices/WsWriteMessageEnd, wsw.wswritemessageend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -493,7 +491,7 @@ This function writes the end of the message, including the element that closes t
                 tag and the envelope tag.
             
 
-The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_WRITING</a> state.  Upon success, it will
+The message must be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_WRITING</a> state.  Upon success, it will
                 transition to <b>WS_MESSAGE_STATE_DONE</b> state.
             
 

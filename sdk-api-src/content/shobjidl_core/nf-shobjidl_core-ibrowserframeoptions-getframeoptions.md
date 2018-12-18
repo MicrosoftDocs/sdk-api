@@ -9,8 +9,6 @@ ms.assetid: 4f0e9f69-92e5-4fec-bdfa-b37d594ff5fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFrameOptions, GetFrameOptions method [Windows Shell], GetFrameOptions method [Windows Shell],IBrowserFrameOptions interface, IBrowserFrameOptions interface [Windows Shell],GetFrameOptions method, IBrowserFrameOptions.GetFrameOptions, IBrowserFrameOptions::GetFrameOptions, _shell_IBrowserFrameOptions_GetFrameOptions, shell.IBrowserFrameOptions_GetFrameOptions, shobjidl_core/IBrowserFrameOptions::GetFrameOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

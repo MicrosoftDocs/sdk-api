@@ -9,8 +9,6 @@ ms.assetid: D08FF13B-612A-4A60-B6C8-4EC1246F94E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetY method, IDCompositionTranslateTransform3D.SetOffsetY, IDCompositionTranslateTransform3D.SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY, IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -95,15 +93,15 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/C265E5FC-F7A1-4E87-8311-C4D0613DD7BC">IDCompositionTranslateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449114(v=VS.85).aspx">IDCompositionTranslateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/61EDA0AA-0274-446E-9169-974AB84802FA">IDCompositionTranslateTransform3D::SetOffsetX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449117(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1467F8A8-15CF-4B3E-8816-76F2F5BFB68B">IDCompositionTranslateTransform3D::SetOffsetZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449123(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetZ</a>
  
 
  

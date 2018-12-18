@@ -7,10 +7,8 @@ old-location: nps\SDO_isdomachine.htm
 tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sdoias.h
 req.include-header: 

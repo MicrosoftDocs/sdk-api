@@ -9,8 +9,6 @@ ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetCaps method, IDirectDrawVideo.GetCaps, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -94,7 +92,7 @@ If the renderer has not loaded DirectDraw, this method returns E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: ba6e9161-0881-4f95-9507-acf2a01e05e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidAudioRendererDevices.get_Item, IMSVidAudioRendererDevices::get_Item, IMSVidAudioRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_item, segment/IMSVidAudioRendererDevices::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

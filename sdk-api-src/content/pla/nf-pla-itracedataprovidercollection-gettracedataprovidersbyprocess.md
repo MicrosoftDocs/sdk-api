@@ -7,10 +7,8 @@ old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.ht
 tech.root: pla
 ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

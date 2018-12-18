@@ -2,7 +2,7 @@
 UID: NA:slpublic
 ms.assetid: da4b060e-dd8f-3013-b32c-1f9e15417233
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

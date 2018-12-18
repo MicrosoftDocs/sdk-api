@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Rect class, Rect class [GDI+],Equals method, Rect.Equals, Rect::Equals, _gdiplus_CLASS_Rect_Equals_rect_, gdiplus._gdiplus_CLASS_Rect_Equals_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

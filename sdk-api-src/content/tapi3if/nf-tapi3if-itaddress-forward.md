@@ -9,8 +9,6 @@ ms.assetid: 4f070b50-db9a-49e8-a0f3-e448c5dee144
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],Forward method, ITAddress.Forward, ITAddress::Forward, _tapi3_itaddress_forward, tapi3.itaddress_forward, tapi3if/ITAddress::Forward
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

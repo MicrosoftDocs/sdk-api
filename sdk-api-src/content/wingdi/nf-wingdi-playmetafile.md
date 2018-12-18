@@ -9,8 +9,6 @@ ms.assetid: 044894df-dc8a-41b2-8810-e0a1b8bc19d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PlayMetaFile, PlayMetaFile function [Windows GDI], _win32_PlayMetaFile, gdi.playmetafile, wingdi/PlayMetaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

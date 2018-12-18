@@ -9,8 +9,6 @@ ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 
@@ -64,7 +62,7 @@ Creates an Interaction/InputSink to route mouse button down and any
 
 ### -param visual [in]
 
-Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>*</b>
 
 The visual to route messages from.
 

@@ -9,8 +9,6 @@ ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitUrlCacheEntryA, CommitUrlCacheEntryA function [WinINet], wininet.commiturlcacheentrya, wininet/CommitUrlCacheEntryA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

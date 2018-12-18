@@ -9,8 +9,6 @@ ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: keycredmgr.h
 req.include-header: 
@@ -66,7 +64,7 @@ Window handle of the calling app.
 
 ### -param keyCredentialManagerOperationType [in]
 
-The intended operation from the <a href="security.keycredentialmanageroperationtype">KeyCredentialManagerOperationType</a>.
+The intended operation from the <a href="https://msdn.microsoft.com/en-us/library/Mt830291(v=VS.85).aspx">KeyCredentialManagerOperationType</a>.
 
 
 ## -returns

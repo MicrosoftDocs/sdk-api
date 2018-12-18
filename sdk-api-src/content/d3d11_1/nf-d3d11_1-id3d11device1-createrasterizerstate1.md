@@ -9,8 +9,6 @@ ms.assetid: EBA793F1-35AA-4586-9D5C-803BD58B1D95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRasterizerState1, CreateRasterizerState1 method [Direct3D 11], CreateRasterizerState1 method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateRasterizerState1 method, ID3D11Device1.CreateRasterizerState1, ID3D11Device1::CreateRasterizerState1, d3d11_1/ID3D11Device1::CreateRasterizerState1, direct3d11.id3d11device1_createrasterizerstate1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
@@ -61,19 +59,19 @@ Creates a rasterizer state object that informs the <a href="https://msdn.microso
 
 ### -param pRasterizerDesc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh404489(v=VS.85).aspx">D3D11_RASTERIZER_DESC1</a> structure that describes the  rasterizer state.
+A pointer to a <a href="https://msdn.microsoft.com/7A0E526E-9352-408F-8B11-1B7A9FBC2BE1">D3D11_RASTERIZER_DESC1</a> structure that describes the  rasterizer state.
 
 
 ### -param ppRasterizerState [out, optional]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh446828(v=VS.85).aspx">ID3D11RasterizerState1</a> interface for the rasterizer state object created.
+Address of a pointer to the <a href="https://msdn.microsoft.com/771BA97B-1DC4-46DD-AAB6-DFC1100F844D">ID3D11RasterizerState1</a> interface for the rasterizer state object created.
 
 
 ## -returns
 
 
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -93,7 +91,7 @@ An app can create up to 4096 unique rasterizer state objects. For each object cr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>
+<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>
  
 
  

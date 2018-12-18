@@ -2,7 +2,7 @@
 UID: NA:certenc
 ms.assetid: 85d548ab-64b8-378d-b871-637af43e23eb
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: c463924a-1491-4d65-86ed-827327e560b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

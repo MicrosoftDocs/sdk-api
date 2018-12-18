@@ -9,8 +9,6 @@ ms.assetid: 5BE94583-31DC-4469-9049-7768D64F7F41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12StateObject, ID3D12StateObject interface, ID3D12StateObject interface,described, d3d12/ID3D12StateObject, direct3d12.id3d12stateobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="direct3d12.id3d122device_createstateobject">ID3D12Device::CreateStateObject</a>. 
+Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://msdn.microsoft.com/library/Mt830410(v=VS.85).aspx">ID3D12Device::CreateStateObject</a>. 
 
 
 ## -see-also

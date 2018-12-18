@@ -9,8 +9,6 @@ ms.assetid: E95BB417-81FA-4824-BE68-A1E3E003F8E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemMetricsForDpi, GetSystemMetricsForDpi function [High DPI], hidpi.getsystemmetricsfordpi, winuser/GetSystemMetricsForDpi
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

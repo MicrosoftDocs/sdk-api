@@ -9,8 +9,6 @@ ms.assetid: c21124ac-f2f8-4096-9100-639ded42d198
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidToA, SnmpUtilOidToA function [SNMP], _snmp_snmputiloidtoa, snmp.snmputiloidtoa, snmp/SnmpUtilOidToA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The
 ### -param Oid [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to convert.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to convert.
 
 
 ## -returns
@@ -96,7 +94,7 @@ For more information, see the
 
 
 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a>
 
 
 

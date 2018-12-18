@@ -9,8 +9,6 @@ ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts, vdshwprv/IVdsLunControllerPorts::QueryActiveControllerPorts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

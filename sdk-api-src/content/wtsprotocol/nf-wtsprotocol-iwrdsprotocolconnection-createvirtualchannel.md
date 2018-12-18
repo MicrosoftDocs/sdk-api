@@ -4,13 +4,11 @@ title: IWRdsProtocolConnection::CreateVirtualChannel
 author: windows-sdk-content
 description: Requests that the protocol create a virtual channel.
 old-location: termserv\iwrdsprotocolconnection_createvirtualchannel.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c0302081-06af-44af-a9ed-936d705e711b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWRdsProtocolConnection interface, FALSE, IWRdsProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWRdsProtocolConnection.CreateVirtualChannel, IWRdsProtocolConnection::CreateVirtualChannel, TRUE, termserv.iwrdsprotocolconnection_createvirtualchannel, wtsprotocol/IWRdsProtocolConnection::CreateVirtualChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 

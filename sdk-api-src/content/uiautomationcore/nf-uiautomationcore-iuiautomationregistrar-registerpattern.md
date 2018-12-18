@@ -9,8 +9,6 @@ ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPattern method, IUIAutomationRegistrar.RegisterPattern, IUIAutomationRegistrar::RegisterPattern, RegisterPattern, RegisterPattern method [Windows Accessibility], RegisterPattern method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern, uiauto_IUIAutomationRegistrar_RegisterPattern, uiautomationcore/IUIAutomationRegistrar::RegisterPattern, winauto.uiauto_IUIAutomationRegistrar_RegisterPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

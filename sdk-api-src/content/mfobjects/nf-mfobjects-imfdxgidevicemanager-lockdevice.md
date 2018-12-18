@@ -9,8 +9,6 @@ ms.assetid: EFB458D5-40A9-4729-9C22-B66FE76D5680
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],LockDevice method, IMFDXGIDeviceManager.LockDevice, IMFDXGIDeviceManager::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_lockdevice, mfobjects/IMFDXGIDeviceManager::LockDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

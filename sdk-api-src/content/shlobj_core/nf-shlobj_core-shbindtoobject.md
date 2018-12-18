@@ -9,8 +9,6 @@ ms.assetid: acc16097-8301-4118-8cb5-00aa2705306a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHBindToObject, SHBindToObject function [Windows Shell], _shell_SHBindToObject, shell.SHBindToObject, shlobj_core/SHBindToObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

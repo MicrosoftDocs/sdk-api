@@ -9,8 +9,6 @@ ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

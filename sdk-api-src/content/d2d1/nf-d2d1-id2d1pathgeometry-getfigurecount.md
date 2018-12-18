@@ -9,8 +9,6 @@ ms.assetid: f46d28f6-5f46-45eb-85c9-6d3b21fa2cff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFigureCount, GetFigureCount method [Direct2D], GetFigureCount method [Direct2D],ID2D1PathGeometry interface, ID2D1PathGeometry interface [Direct2D],GetFigureCount method, ID2D1PathGeometry.GetFigureCount, ID2D1PathGeometry::GetFigureCount, d2d1/ID2D1PathGeometry::GetFigureCount, direct2d.ID2D1PathGeometry_GetFigureCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ A pointer that receives the number of figures in the path geometry when this met
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

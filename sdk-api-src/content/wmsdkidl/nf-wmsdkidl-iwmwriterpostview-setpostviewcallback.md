@@ -9,8 +9,6 @@ ms.assetid: c2814f32-1787-44a6-8ffc-5d2a9aca8601
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewCallback method, IWMWriterPostView.SetPostViewCallback, IWMWriterPostView::SetPostViewCallback, IWMWriterPostViewSetPostViewCallback, SetPostViewCallback, SetPostViewCallback method [windows Media Format], SetPostViewCallback method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewcallback, wmsdkidl/IWMWriterPostView::SetPostViewCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetPostViewCallback</b> method specifies the callback interface to use fo
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback</a> interface.
 
 
 ### -param pvContext [in]
@@ -88,7 +86,7 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
  
 
  

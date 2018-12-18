@@ -9,8 +9,6 @@ ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

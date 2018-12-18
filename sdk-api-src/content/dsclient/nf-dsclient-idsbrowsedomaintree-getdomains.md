@@ -9,8 +9,6 @@ ms.assetid: 42cd38c2-7470-49b5-9b64-d971f2a915c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, GetDomains, GetDomains method [Active Directory], GetDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],GetDomains method, IDsBrowseDomainTree.GetDomains, IDsBrowseDomainTree::GetDomains, _glines_idsbrowsedomaintree_getdomains, ad.idsbrowsedomaintree__getdomains, ad.idsbrowsedomaintree_getdomains, dsclient/IDsBrowseDomainTree::GetDomains
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <b>IDsBrowseDomainTree::GetDomains</b> method retrieves the trust domains of
 
 ### -param ppDomainTree [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c4b3f81c-0632-407c-834e-8eec6fefde68">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">IDsBrowseDomainTree::FreeDomains</a>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675909(v=VS.85).aspx">DOMAINTREE</a> structure pointer that receives the trust domain data. The caller must free this memory when no longer required by calling <a href="https://msdn.microsoft.com/d9334f4c-d5b0-445a-ad1b-8628f206b715">IDsBrowseDomainTree::FreeDomains</a>.
 
 
 ### -param dwFlags [in]
@@ -126,7 +124,7 @@ For more information about how to access and use the data provided by this metho
 
 
 
-<a href="https://msdn.microsoft.com/c4b3f81c-0632-407c-834e-8eec6fefde68">DOMAINTREE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms675909(v=VS.85).aspx">DOMAINTREE</a>
 
 
 

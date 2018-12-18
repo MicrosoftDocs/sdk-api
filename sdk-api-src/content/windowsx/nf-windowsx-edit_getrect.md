@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetRect, Edit_GetRect macro [Windows Controls], _win32_Edit_GetRect, _win32_Edit_GetRect_cpp, controls.Edit_GetRect, controls._win32_Edit_GetRect, windowsx/Edit_GetRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

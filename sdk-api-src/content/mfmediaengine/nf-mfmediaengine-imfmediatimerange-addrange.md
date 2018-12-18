@@ -9,8 +9,6 @@ ms.assetid: 6BA36A44-78AC-4868-9E6A-601C0740E67A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRange, AddRange method [Media Foundation], AddRange method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],AddRange method, IMFMediaTimeRange.AddRange, IMFMediaTimeRange::AddRange, mf.imfmediatimerange_addrange, mfmediaengine/IMFMediaTimeRange::AddRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

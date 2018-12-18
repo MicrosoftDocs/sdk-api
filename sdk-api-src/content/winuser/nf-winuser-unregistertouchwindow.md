@@ -9,8 +9,6 @@ ms.assetid: 19b83312-b52b-45a5-9595-23d4621c4342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterTouchWindow, UnregisterTouchWindow function [Windows Touch], wintouch.unregistertouchwindow, winuser/UnregisterTouchWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

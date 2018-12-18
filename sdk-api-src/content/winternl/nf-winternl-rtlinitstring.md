@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtl
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

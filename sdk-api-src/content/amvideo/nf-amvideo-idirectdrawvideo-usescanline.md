@@ -9,8 +9,6 @@ ms.assetid: 8378582d-ef82-47ff-a801-934c900ac328
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseScanLine method, IDirectDrawVideo.UseScanLine, IDirectDrawVideo::UseScanLine, IDirectDrawVideoUseScanLine, UseScanLine, UseScanLine method [DirectShow], UseScanLine method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseScanLine, dshow.idirectdrawvideo_usescanline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -94,7 +92,7 @@ If you blit an image to the video memory while the monitor's scan line is scanni
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

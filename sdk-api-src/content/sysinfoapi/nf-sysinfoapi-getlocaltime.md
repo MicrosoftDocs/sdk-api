@@ -9,8 +9,6 @@ ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

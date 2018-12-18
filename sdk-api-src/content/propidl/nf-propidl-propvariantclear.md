@@ -9,8 +9,6 @@ ms.assetid: 68b00e4b-39d3-49e3-8a0d-032edcb23b06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _shell_PropVariantClear, properties.PropVariantClear, propidl/PropVariantClear, shell.PropVariantClear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propidl.h
 req.include-header: 

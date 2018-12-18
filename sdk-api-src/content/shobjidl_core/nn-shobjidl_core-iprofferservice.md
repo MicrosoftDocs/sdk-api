@@ -9,8 +9,6 @@ ms.assetid: 91aa5f9a-c276-4822-93e1-9cd2c48ddd9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

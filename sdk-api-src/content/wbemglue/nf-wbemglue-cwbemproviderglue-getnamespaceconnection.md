@@ -9,8 +9,6 @@ ms.assetid: abbc7099-400d-47a0-9673-3d102effa897
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z, ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetNameSpaceConnection method, CWbemProviderGlue.GetNamespaceConnection, CWbemProviderGlue::GetNameSpaceConnection, CWbemProviderGlue::GetNamespaceConnection, GetNameSpaceConnection method [Windows Management Instrumentation], GetNameSpaceConnection method [Windows Management Instrumentation],CWbemProviderGlue interface, GetNamespaceConnection, _hmm_cwbemproviderglue_getnamespaceconnection, wbemglue/CWbemProviderGlue::GetNameSpaceConnection, wmi.cwbemproviderglue_getnamespaceconnection"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 

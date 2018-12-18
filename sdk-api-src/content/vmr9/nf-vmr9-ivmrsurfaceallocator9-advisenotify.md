@@ -9,8 +9,6 @@ ms.assetid: 2c367444-50bf-4fbe-b2d9-ed32275576e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseNotify, AdviseNotify method [DirectShow], AdviseNotify method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],AdviseNotify method, IVMRSurfaceAllocator9.AdviseNotify, IVMRSurfaceAllocator9::AdviseNotify, IVMRSurfaceAllocator9AdviseNotify, dshow.ivmrsurfaceallocator9_advisenotify, vmr9/IVMRSurfaceAllocator9::AdviseNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 
 
-The <b>AdviseNotify</b> method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks. If you are using a custom allocator-presenter, the application must call this method on the allocator-presenter, with a pointer to the VMR's <a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9</a> interface. The allocator-presenter uses this interface to communicate with the VMR.
+The <b>AdviseNotify</b> method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks. If you are using a custom allocator-presenter, the application must call this method on the allocator-presenter, with a pointer to the VMR's <a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9</a> interface. The allocator-presenter uses this interface to communicate with the VMR.
 
 
 
@@ -66,7 +64,7 @@ If you are not using a custom allocator-presenter, the application does not have
 
 ### -param lpIVMRSurfAllocNotify [in]
 
-Specifies the <a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9</a> interface that the allocator-presenter will use to pass notifications back to the VMR.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9</a> interface that the allocator-presenter will use to pass notifications back to the VMR.
 
 
 ## -returns
@@ -116,7 +114,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/dd187168-19c7-414c-a764-f180d1d310f2">IVMRSurfaceAllocator9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9 Interface</a>
 
 
 

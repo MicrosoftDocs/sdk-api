@@ -9,8 +9,6 @@ ms.assetid: 288ab078-5490-41a2-a3b5-87a97aa57739
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 288ab078-5490-41a2-a3b5-87a97aa57739, MFCreatePresentationDescriptor, MFCreatePresentationDescriptor function [Media Foundation], mf.mfcreatepresentationdescriptor, mfidl/MFCreatePresentationDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

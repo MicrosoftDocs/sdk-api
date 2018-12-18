@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\initializelog.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaLog interface [WIA],InitializeLog method, IWiaLog.InitializeLog, IWiaLog::InitializeLog, InitializeLog, InitializeLog method [WIA], InitializeLog method [WIA],IWiaLog interface, _wia_IWiaLog_InitializeLog, wia._wia_IWiaLog_InitializeLog, wia_xp/IWiaLog::InitializeLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

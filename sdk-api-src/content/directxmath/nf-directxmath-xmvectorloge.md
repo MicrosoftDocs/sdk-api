@@ -9,8 +9,6 @@ ms.assetid: C092B786-BAB8-4F8F-95D2-3C23F59EF064
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorLogE, XMVectorLogE, XMVectorLogE method [DirectX Math Support APIs], dxmath.xmvectorloge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -81,7 +79,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorLogE</b> is new for DirectXMath version 3.05. 
 
-It's similar to the existing <a href="https://msdn.microsoft.com/fbc211d2-1cde-4145-9439-2bcccd763358">XMVectorLog</a> function for Windows 8, but computes base e instead of base 2.
+It's similar to the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421175(v=VS.85).aspx">XMVectorLog</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorLogE</b> is implemented like this:

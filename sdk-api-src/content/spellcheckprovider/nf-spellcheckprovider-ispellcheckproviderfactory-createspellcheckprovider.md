@@ -9,8 +9,6 @@ ms.assetid: E56E13D5-A41D-41F4-8E63-55664F6A8E28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSpellCheckProvider, CreateSpellCheckProvider method [Internationalization for Windows Applications], CreateSpellCheckProvider method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, ISpellCheckProviderFactory interface [Internationalization for Windows Applications],CreateSpellCheckProvider method, ISpellCheckProviderFactory.CreateSpellCheckProvider, ISpellCheckProviderFactory::CreateSpellCheckProvider, intl.ispellcheckproviderfactory_createspellcheckprovider, spellcheckprovider/ISpellCheckProviderFactory::CreateSpellCheckProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

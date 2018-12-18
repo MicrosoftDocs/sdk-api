@@ -9,8 +9,6 @@ ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmTransactionCommit0, FwpmTransactionCommit0 function [Filtering], fwp.fwpmtransactioncommit0_func, fwpmu/FwpmTransactionCommit0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

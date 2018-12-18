@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTabCount method, ITextPara.GetTabCount, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

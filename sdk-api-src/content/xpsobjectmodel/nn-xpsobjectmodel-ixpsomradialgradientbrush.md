@@ -9,8 +9,6 @@ ms.assetid: 2f5b7b99-64a0-4156-8963-cfceb0d73503
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMRadialGradientBrush, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging], IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomradialgradientbrush, xpsobjectmodel/IXpsOMRadialGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

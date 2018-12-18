@@ -9,8 +9,6 @@ ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

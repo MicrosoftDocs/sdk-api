@@ -9,8 +9,6 @@ ms.assetid: 5bdb8b16-cda3-4f0d-b147-4dcfce81f592
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IProviderConverter.Initialize, IProviderConverter::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IProviderConverter interface, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

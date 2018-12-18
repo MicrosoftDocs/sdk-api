@@ -9,8 +9,6 @@ ms.assetid: 8afe8d0c-4c6b-45a6-a330-b2cee59ca1ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespaceManager interface [Windows Deployment Services],RetrieveNamespace method, IWdsTransportNamespaceManager.RetrieveNamespace, IWdsTransportNamespaceManager::RetrieveNamespace, RetrieveNamespace, RetrieveNamespace method [Windows Deployment Services], RetrieveNamespace method [Windows Deployment Services],IWdsTransportNamespaceManager interface, wds.iwdstransportnamespacemanager_retrievenamespace, wdstptmgmt/IWdsTransportNamespaceManager::RetrieveNamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

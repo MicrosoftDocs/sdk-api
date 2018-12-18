@@ -9,8 +9,6 @@ ms.assetid: 6c8f1c25-d752-42b6-87b7-9d6a6e38642f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetAutoIndexing method, IWMWriterFileSink3.SetAutoIndexing, IWMWriterFileSink3::SetAutoIndexing, IWMWriterFileSink3SetAutoIndexing, SetAutoIndexing, SetAutoIndexing method [windows Media Format], SetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setautoindexing, wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -126,11 +124,11 @@ If you generate an ASF file using bit-rate mutual exclusion for audio content (m
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6412ce4-03ac-4777-8eb2-ef9f265a6d6c">IWMWriterFileSink3::GetAutoIndexing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798753(v=VS.85).aspx">IWMWriterFileSink3::GetAutoIndexing</a>
 
 
 

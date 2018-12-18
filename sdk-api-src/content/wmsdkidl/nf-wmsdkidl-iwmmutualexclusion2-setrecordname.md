@@ -9,8 +9,6 @@ ms.assetid: 9527024e-2d52-4a81-90a5-4ef5241ba6dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetRecordName method, IWMMutualExclusion2.SetRecordName, IWMMutualExclusion2::SetRecordName, IWMMutualExclusion2SetRecordName, SetRecordName, SetRecordName method [windows Media Format], SetRecordName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setrecordname, wmsdkidl/IWMMutualExclusion2::SetRecordName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,11 +125,11 @@ If you pass an empty string as <i>pwszRecordName</i>, the method returns S_OK, b
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7508a473-77ae-49ce-b041-2d171193e730">IWMMutualExclusion2::GetRecordName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757244(v=VS.85).aspx">IWMMutualExclusion2::GetRecordName</a>
  
 
  

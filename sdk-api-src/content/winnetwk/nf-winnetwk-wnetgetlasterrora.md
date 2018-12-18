@@ -9,8 +9,6 @@ ms.assetid: 8e13c467-adcf-4e97-b51a-1f5fc919b51e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetGetLastError, WNetGetLastError function [Windows Networking (WNet)], WNetGetLastErrorA, WNetGetLastErrorW, _win32_wnetgetlasterror, winnetwk/WNetGetLastError, winnetwk/WNetGetLastErrorA, winnetwk/WNetGetLastErrorW, wnet.wnetgetlasterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

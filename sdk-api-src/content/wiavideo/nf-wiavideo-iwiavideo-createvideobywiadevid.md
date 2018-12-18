@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobywiadevid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVideoByWiaDevID, CreateVideoByWiaDevID method [WIA], CreateVideoByWiaDevID method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByWiaDevID method, IWiaVideo.CreateVideoByWiaDevID, IWiaVideo::CreateVideoByWiaDevID, _wia_IWiaVideo_CreateVideoByWiaDevID, wia._wia_IWiaVideo_CreateVideoByWiaDevID, wiavideo/IWiaVideo::CreateVideoByWiaDevID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.color.XMColorRGBToXYZ(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMColorRGBToXYZ, XMColorRGBToXYZ, XMColorRGBToXYZ method [DirectX Math Support APIs], dxmath.xmcolorrgbtoxyz
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -95,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/748485d7-1b40-4f4d-ad98-5082360bc84c">XMColorXYZToRGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437868(v=VS.85).aspx">XMColorXYZToRGB</a>
  
 
  

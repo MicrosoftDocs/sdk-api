@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10buffer_getdesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 43c98e35-c17e-73a5-5b4f-535b750660f1, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Buffer interface, ID3D10Buffer interface [Direct3D 10],GetDesc method, ID3D10Buffer.GetDesc, ID3D10Buffer::GetDesc, d3d10/ID3D10Buffer::GetDesc, direct3d10.id3d10buffer_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

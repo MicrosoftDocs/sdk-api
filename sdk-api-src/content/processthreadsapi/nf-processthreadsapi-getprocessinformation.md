@@ -9,8 +9,6 @@ ms.assetid: 2b075405-b7b6-4da0-b78d-45eaa9c6c8cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
@@ -93,7 +91,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
-       <a href="base.process_leap_second_info">PROCESS_LEAP_SECOND_INFO</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessAppMemoryInfo</b>, this parameter must point to a 

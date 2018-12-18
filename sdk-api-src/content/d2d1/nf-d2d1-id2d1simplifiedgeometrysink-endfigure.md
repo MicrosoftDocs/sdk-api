@@ -9,8 +9,6 @@ ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndFigure, EndFigure method [Direct2D], EndFigure method [Direct2D],ID2D1SimplifiedGeometrySink interface, ID2D1SimplifiedGeometrySink interface [Direct2D],EndFigure method, ID2D1SimplifiedGeometrySink.EndFigure, ID2D1SimplifiedGeometrySink::EndFigure, d2d1/ID2D1SimplifiedGeometrySink::EndFigure, direct2d.ID2D1SimplifiedGeometrySink_EndFigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f88a9a13-6e07-400a-bb05-75b1267343a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation interface [Windows Shell],InitWizard method, ISyncMgrScheduleWizardUIOperation.InitWizard, ISyncMgrScheduleWizardUIOperation::InitWizard, InitWizard, InitWizard method [Windows Shell], InitWizard method [Windows Shell],ISyncMgrScheduleWizardUIOperation interface, _shell_ISyncMgrScheduleWizardUIOperation_InitWizard, shell.ISyncMgrScheduleWizardUIOperation_InitWizard, syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a27dd3c7-e3f6-4ccb-b23a-17b15235245c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectionMadeNoQOCInfo, ConnectionMadeNoQOCInfo method [SENS], ConnectionMadeNoQOCInfo method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMadeNoQOCInfo method, ISensNetwork.ConnectionMadeNoQOCInfo, ISensNetwork::ConnectionMadeNoQOCInfo, _zaw_isensnetwork_connectionmadenoqocinfo, sens.isensnetwork_connectionmadenoqocinfo, sensevts/ISensNetwork::ConnectionMadeNoQOCInfo, syncmgr.isensnetwork_connectionmadenoqocinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

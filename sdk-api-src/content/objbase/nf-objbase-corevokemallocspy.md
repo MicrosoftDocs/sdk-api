@@ -9,8 +9,6 @@ ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4c997e76-9109-403f-821f-d73e8577b1ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Picture Acquisition], GetDeviceId method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetDeviceId method, IPhotoAcquireSource.GetDeviceId, IPhotoAcquireSource::GetDeviceId, IPhotoAcquireSourceGetDeviceId, photoacquire/IPhotoAcquireSource::GetDeviceId, picacq.iphotoacquiresource_getdeviceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

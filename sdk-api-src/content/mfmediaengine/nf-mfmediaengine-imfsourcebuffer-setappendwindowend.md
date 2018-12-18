@@ -9,8 +9,6 @@ ms.assetid: 80cae375-b3f4-4947-98dd-26338d4a0486
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd method, IMFSourceBuffer.SetAppendWindowEnd, IMFSourceBuffer::SetAppendWindowEnd, SetAppendWindowEnd, SetAppendWindowEnd method [Media Foundation], SetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowend, mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99730AB1-C5D9-41D6-8001-495FF26E8232
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSubresourceSurface, CreateSubresourceSurface method [DXGI], CreateSubresourceSurface method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSubresourceSurface method, IDXGIResource1.CreateSubresourceSurface, IDXGIResource1::CreateSubresourceSurface, direct3ddxgi.idxgiresource1_createsubresourcesurface, dxgi1_2/IDXGIResource1::CreateSubresourceSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

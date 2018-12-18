@@ -9,8 +9,6 @@ ms.assetid: fd421216-e2c3-453f-8dd0-0a904a2e0c31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIntPtrToInt8, UIntPtrToInt8 function [Windows Shell], intsafe/UIntPtrToInt8, shell.UIntPtrToInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

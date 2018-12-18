@@ -9,8 +9,6 @@ ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0f170b6d-fd93-4bf8-8a98-f2a80f03b380">IWMReaderStreamClock Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743566(v=VS.85).aspx">IWMReaderStreamClock Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d991e0-a271-4427-844f-5e4a9bbc6507">IWMReaderStreamClock::SetTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743573(v=VS.85).aspx">IWMReaderStreamClock::SetTimer</a>
  
 
  

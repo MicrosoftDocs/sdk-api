@@ -4,13 +4,11 @@ title: ITsSbTaskPluginNotifySink::OnDeleteTaskTime
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been removed from the queue.
 old-location: termserv\itssbtaskpluginnotifysink_ondeletetasktime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f78a22c3-45e6-4bb1-9ea0-9958339a4ff3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnDeleteTaskTime method, ITsSbTaskPluginNotifySink.OnDeleteTaskTime, ITsSbTaskPluginNotifySink::OnDeleteTaskTime, OnDeleteTaskTime, OnDeleteTaskTime method [Remote Desktop Services], OnDeleteTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime, termserv.itssbtaskpluginnotifysink_ondeletetasktime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

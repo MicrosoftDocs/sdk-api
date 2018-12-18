@@ -9,8 +9,6 @@ ms.assetid: f9bc5933-c766-5b30-e2cf-b276a80aecda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFace method, IDWriteFontFaceReference.CreateFontFace, IDWriteFontFaceReference::CreateFontFace, directwrite.idwritefontfacereference_createfontface, dwrite_3/IDWriteFontFaceReference::CreateFontFace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a font face from the reference for use with layout, shaping, or renderin
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>**</b>
 
 Newly created font face object, or nullptr in the case of failure.
 
@@ -90,7 +88,7 @@ This function can fail with DWRITE_E_REMOTEFONT if the font is not local.
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

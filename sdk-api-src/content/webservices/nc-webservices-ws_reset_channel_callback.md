@@ -9,8 +9,6 @@ ms.assetid: 3f3b4995-72ca-4e93-87de-89996f9c43cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_RESET_CHANNEL_CALLBACK, WS_RESET_CHANNEL_CALLBACK callback, WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_CHANNEL_CALLBACK, wsw.ws_reset_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b">WsResetChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

@@ -9,8 +9,6 @@ ms.assetid: 01fba0fa-9639-4033-bbdf-704549524147
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsUserEnabled method, IGPMClientSideExtension interface [GPMC],IsUserEnabled method, IGPMClientSideExtension.IsUserEnabled, IGPMClientSideExtension::IsUserEnabled, IsUserEnabled, IsUserEnabled method [GPMC], IsUserEnabled method [GPMC],GPMClientSideExtension object, IsUserEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_isuserenabled, gpmc.igpmclientsideextension_isuserenabled, gpmgmt/IGPMClientSideExtension::IsUserEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

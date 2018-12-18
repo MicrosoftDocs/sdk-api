@@ -9,8 +9,6 @@ ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fci.h
 req.include-header: 
@@ -136,7 +134,7 @@ Microsoft ZIP compression.
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 

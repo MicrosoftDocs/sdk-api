@@ -9,8 +9,6 @@ ms.assetid: 8fe5c802-cdc0-4e7a-9410-ba65f9a5140e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SafeArrayAllocDescriptor, SafeArrayAllocDescriptor function [Automation], _oa96_SafeArrayAllocDescriptor, automat.safearrayallocdescriptor, oleauto/SafeArrayAllocDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

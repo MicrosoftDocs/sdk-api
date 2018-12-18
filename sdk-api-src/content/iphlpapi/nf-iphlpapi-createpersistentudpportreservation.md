@@ -9,8 +9,6 @@ ms.assetid: AFD2EFD1-55AF-49C9-8109-D4D1B7BB7C94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePersistentUdpPortReservation, CreatePersistentUdpPortReservation function [IP Helper], iphlp.createpersistentudpportreservation, iphlpapi/CreatePersistentUdpPortReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

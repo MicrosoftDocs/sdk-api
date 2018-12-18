@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt3(const VOID)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadInt3, XMLoadInt3, XMLoadInt3 method [DirectX Math Support APIs], dxmath.xmloadint3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -81,8 +79,8 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 The w component of the returned <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> is initialized to 0.
 
 To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> into float values, use
-   <a href="https://msdn.microsoft.com/7f93353d-a00b-47a5-b7cb-99b1e79a51f1">XMConvertVectorUIntToFloat</a> or
-   <a href="https://msdn.microsoft.com/00db7e6f-af9d-4e8c-a9c0-4451d08f9e10">XMConvertVectorIntToFloat</a>.
+   <a href="https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx">XMConvertVectorUIntToFloat</a> or
+   <a href="https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx">XMConvertVectorIntToFloat</a>.
 
 The following pseudocode shows you the operation of the function.
 
@@ -116,19 +114,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8989871-b4a5-4268-b0ce-0ab6686a3bea">XMLoadSInt3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404676(v=VS.85).aspx">XMLoadSInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/00a7e599-4a1b-4911-942d-7fa6b8d42246">XMLoadUInt3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404681(v=VS.85).aspx">XMLoadUInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegCreateBatchNotifyPort, ClusterRegCreateBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCreateBatchNotifyPort, mscs.clusterregcreatebatchnotifyport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -70,7 +68,7 @@ A cluster registry key. Any updates performed at this key or keys below it will 
 ### -param phBatchNotifyPort [out]
 
 A handle to a batch notification port that allows subsequent reading batch notifications via the 
-       <a href="https://msdn.microsoft.com/en-us/library/Cc512176(v=VS.85).aspx">ClusterRegGetBatchNotification</a> 
+       <a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a> 
        function.
 
 
@@ -109,7 +107,7 @@ The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc512176(v=VS.85).aspx">ClusterRegGetBatchNotification</a>
+<a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a>
  
 
  

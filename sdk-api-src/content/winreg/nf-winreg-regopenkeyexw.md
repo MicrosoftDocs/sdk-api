@@ -9,8 +9,6 @@ ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: REG_OPTION_OPEN_LINK, RegOpenKeyEx, RegOpenKeyEx function, RegOpenKeyExA, RegOpenKeyExW, _win32_regopenkeyex, base.regopenkeyex, winreg/RegOpenKeyEx, winreg/RegOpenKeyExA, winreg/RegOpenKeyExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

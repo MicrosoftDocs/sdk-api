@@ -9,8 +9,6 @@ ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

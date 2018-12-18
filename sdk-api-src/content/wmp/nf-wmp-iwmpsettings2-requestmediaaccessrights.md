@@ -9,8 +9,6 @@ ms.assetid: 925a4c0b-d613-4248-a341-bfc51d02cb85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings2 interface [Windows Media Player],requestMediaAccessRights method, IWMPSettings2.requestMediaAccessRights, IWMPSettings2::requestMediaAccessRights, IWMPSettings2requestMediaAccessRights, requestMediaAccessRights, requestMediaAccessRights method [Windows Media Player], requestMediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_requestmediaaccessrights, wmp/IWMPSettings2::requestMediaAccessRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -139,11 +137,11 @@ Applications running on the user's computer are not required to use this method.
 
 
 
-<a href="https://msdn.microsoft.com/0fb0c7be-015e-4081-8467-c382e0858195">IWMPSettings2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563649(v=VS.85).aspx">IWMPSettings2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/07ca80a3-5175-4b1f-b83c-0df41a010cbf">IWMPSettings2::get_mediaAccessRights</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563651(v=VS.85).aspx">IWMPSettings2::get_mediaAccessRights</a>
  
 
  

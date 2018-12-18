@@ -9,8 +9,6 @@ ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the text handled by an application can include any right-to-left content, the
 
 The application can set all parameters to non-<b>NULL</b> values to have the function perform a full Unicode bidirectional analysis. To permit a correct Unicode bidirectional analysis, the <a href="https://msdn.microsoft.com/4b1724f7-7773-42c0-9c19-fbded5aef14e">SCRIPT_STATE</a> structure should be initialized according to the reading order at paragraph start, and <b>ScriptItemizeOpenType</b> should be passed the whole paragraph. In particular, the <b>uBidiLevel</b> member should be initialized to 0 for left-to-right and 1 for right-to-left.
 
-The <b>fRTL</b> member of <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> is referenced in <a href="https://msdn.microsoft.com/d309f3a7-fec3-4999-bbbe-bb85ceecb4c4">SCRIPT_ITEM</a>. The <b>fNumeric</b> member of <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> is retrieved by <a href="https://msdn.microsoft.com/4799829d-8122-4bb4-839c-92f177cfd2da">ScriptGetProperties</a>. These members together provide the same classification as the <b>lpClass</b> member of <a href="https://msdn.microsoft.com/7692637e-963a-4e0a-8a04-e05a6d01c417">GCP_RESULTS</a>, referenced by <i>lpResults</i> in <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a>.
+The <b>fRTL</b> member of <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> is referenced in <a href="https://msdn.microsoft.com/d309f3a7-fec3-4999-bbbe-bb85ceecb4c4">SCRIPT_ITEM</a>. The <b>fNumeric</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a> is retrieved by <a href="https://msdn.microsoft.com/4799829d-8122-4bb4-839c-92f177cfd2da">ScriptGetProperties</a>. These members together provide the same classification as the <b>lpClass</b> member of <a href="https://msdn.microsoft.com/7692637e-963a-4e0a-8a04-e05a6d01c417">GCP_RESULTS</a>, referenced by <i>lpResults</i> in <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a>.
 
 European digits U+0030 through U+0039 can be rendered as national digits, as shown in the following table.
 

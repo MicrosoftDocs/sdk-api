@@ -9,8 +9,6 @@ ms.assetid: f555dfd0-8af3-422f-a339-ab79daa89b45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPrimaryPages, AddPrimaryPages method [MMC], AddPrimaryPages method [MMC],IPropertySheetProvider interface, IPropertySheetProvider interface [MMC],AddPrimaryPages method, IPropertySheetProvider.AddPrimaryPages, IPropertySheetProvider::AddPrimaryPages, _slate_ipropertysheetprovider_addprimarypages, mmc.ipropertysheetprovider_addprimarypages, mmc/IPropertySheetProvider::AddPrimaryPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

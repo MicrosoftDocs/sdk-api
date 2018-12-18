@@ -9,8 +9,6 @@ ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

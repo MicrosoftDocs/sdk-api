@@ -9,8 +9,6 @@ ms.assetid: E09F96C2-72C6-4426-B395-DD590D731E5B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInterfaceHardwareTimestampCapabilities, GetInterfaceHardwareTimestampCapabilities function [IP Helper], iphlp.getinterfacehardwaretimestampcapabilities, iphlpapi/GetInterfaceHardwareTimestampCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

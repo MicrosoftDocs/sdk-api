@@ -9,8 +9,6 @@ ms.assetid: 9bc373b6-9161-4ffc-a942-50d97d6509c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGlyphs, GetGlyphs method [Direct Write], GetGlyphs method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],GetGlyphs method, IDWriteTextAnalyzer.GetGlyphs, IDWriteTextAnalyzer::GetGlyphs, directwrite.IDWriteTextAnalyzer_GetGlyphs, dwrite/IDWriteTextAnalyzer::GetGlyphs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

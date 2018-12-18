@@ -9,8 +9,6 @@ ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UShortToByte, UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

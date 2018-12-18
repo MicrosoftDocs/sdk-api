@@ -9,8 +9,6 @@ ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

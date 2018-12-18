@@ -9,8 +9,6 @@ ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_LIST, CLUSPROP_LIST, CLUSPROP_LIST structure [Failover Cluster], PCLUSPROP_LIST, PCLUSPROP_LIST structure pointer [Failover Cluster], _wolf_clusprop_list, clusapi/CLUSPROP_LIST, clusapi/PCLUSPROP_LIST, mscs.clusprop_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Accesses the beginning of a  <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">property list</a>.
+Accesses the beginning of a  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>.
 
 
 ## -struct-fields
@@ -72,7 +70,7 @@ Structure describing the name of the first property in the list.
 
 
 
-For information about property lists, see  <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">Property Lists</a>.
+For information about property lists, see  <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">Property Lists</a>.
 
 
 

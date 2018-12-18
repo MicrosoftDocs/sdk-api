@@ -9,8 +9,6 @@ ms.assetid: 66717165-1c29-4d77-b6ac-8c3638fb11f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],UnregisterNotifications method, ITTAPI.UnregisterNotifications, ITTAPI::UnregisterNotifications, UnregisterNotifications, UnregisterNotifications method [TAPI 2.2], UnregisterNotifications method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_unregisternotifications, tapi3.ittapi_unregisternotifications, tapi3if/ITTAPI::UnregisterNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

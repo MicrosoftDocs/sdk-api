@@ -9,8 +9,6 @@ ms.assetid: b11f65b0-2de2-478b-88b6-4696a8da2419
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssComponentEx, IVssComponentEx interface, IVssComponentEx interface,described, base.ivsscomponentex, vswriter/IVssComponentEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

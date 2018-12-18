@@ -9,8 +9,6 @@ ms.assetid: 87a9d003-9406-4c94-b814-4986d213ee47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMFontResource interface [XPS Documents and Packaging],SetContent method, IXpsOMFontResource.SetContent, IXpsOMFontResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMFontResource interface, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_setcontent, xpsobjectmodel/IXpsOMFontResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

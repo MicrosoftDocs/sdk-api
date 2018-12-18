@@ -9,8 +9,6 @@ ms.assetid: 9284DCBB-FC6A-4895-8AE6-58C47BB3A047
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CaretPosition, CaretPosition enumeration [Windows Accessibility], CaretPosition_BeginningOfLine, CaretPosition_EndOfLine, CaretPosition_Unknown, uiautomationcore/CaretPosition, uiautomationcore/CaretPosition_BeginningOfLine, uiautomationcore/CaretPosition_EndOfLine, uiautomationcore/CaretPosition_Unknown, winauto.uiauto_CaretPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

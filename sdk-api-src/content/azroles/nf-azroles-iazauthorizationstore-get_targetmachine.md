@@ -9,8 +9,6 @@ ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzAuthorizationStore object [Security],TargetMachine property, IAzAuthorizationStore interface [Security],TargetMachine property, IAzAuthorizationStore.TargetMachine, IAzAuthorizationStore.get_TargetMachine, IAzAuthorizationStore::TargetMachine, IAzAuthorizationStore::get_TargetMachine, TargetMachine property [Security], TargetMachine property [Security],AzAuthorizationStore object, TargetMachine property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::TargetMachine, azroles/IAzAuthorizationStore::get_TargetMachine, get_TargetMachine, security.azauthorizationstore_targetmachine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

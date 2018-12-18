@@ -9,8 +9,6 @@ ms.assetid: 3cd9b27d-ceb4-4655-ab3f-3d341774c81a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePartnershipComplete, CreatePartnershipComplete method [Windows Media Player], CreatePartnershipComplete method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],CreatePartnershipComplete method, IWMPEvents2.CreatePartnershipComplete, IWMPEvents2::CreatePartnershipComplete, IWMPEvents2CreatePartnershipComplete, wmp.iwmpevents2_iwmpevents2__createpartnershipcomplete, wmp/IWMPEvents2::CreatePartnershipComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -104,15 +102,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/61cd0a2e-b94f-4c10-b3e2-ad1dc2a0b17d">IWMPEvents2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563289(v=VS.85).aspx">IWMPEvents2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/734a8717-3b7f-4a40-895f-b55cfabd665c">IWMPSyncDevice::createPartnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">IWMPSyncDevice::createPartnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/4335d480-5af0-4764-b8f8-0e6edc1598b7">IWMPSyncDevice::isIdentical</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563743(v=VS.85).aspx">IWMPSyncDevice::isIdentical</a>
 
 
 

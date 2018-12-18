@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Color class [GDI+],MakeARGB method, Color.MakeARGB, Color::MakeARGB, MakeARGB, MakeARGB method [GDI+], MakeARGB method [GDI+],Color class, _gdiplus_CLASS_Color_MakeARGB_a_r_g_b_, gdiplus._gdiplus_CLASS_Color_MakeARGB_a_r_g_b_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

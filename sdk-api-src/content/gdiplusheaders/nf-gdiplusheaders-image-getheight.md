@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

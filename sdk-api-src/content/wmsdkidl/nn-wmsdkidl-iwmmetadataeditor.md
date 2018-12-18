@@ -9,8 +9,6 @@ ms.assetid: ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMetadataEditor, IWMMetadataEditor interface [windows Media Format], IWMMetadataEditor interface [windows Media Format],described, IWMMetadataEditorInterface, wmformat.iwmmetadataeditor, wmsdkidl/IWMMetadataEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>IWMMetadataEditor</b> interface is used to edit metadata information in ASF file headers. It is obtained by calling the <a href="https://msdn.microsoft.com/3eed88d5-18e9-40b4-998d-af33ac5440b2">WMCreateEditor</a> function.
+The <b>IWMMetadataEditor</b> interface is used to edit metadata information in ASF file headers. It is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757753(v=VS.85).aspx">WMCreateEditor</a> function.
 
 
 
@@ -73,7 +71,7 @@ The <b>IWMMetadataEditor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c10d0ea-8a19-4374-94f2-e12d7c1ba553">Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757235(v=VS.85).aspx">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the currently open file without writing any changes to the metadata back to the disk.
@@ -82,7 +80,7 @@ Closes the currently open file without writing any changes to the metadata back 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b17992f7-ed93-4f62-bf50-8fb2fd41caee">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757236(v=VS.85).aspx">Flush</a>
 </td>
 <td align="left" width="63%">
 Closes the currently open file, writing any changes to the metadata back to the disk.
@@ -91,7 +89,7 @@ Closes the currently open file, writing any changes to the metadata back to the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01dd09ff-35d2-4e00-9eab-5110a426449f">Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an ASF file.
@@ -109,31 +107,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a404d30d-0b42-44c9-93e6-3eb9ef9e40fc">IWMDRMEditor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798279(v=VS.85).aspx">IWMDRMEditor</a>
 </td>
 <td>IID_IWMDRMEditor</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo</a>
 </td>
 <td>IID_IWMHeaderInfo</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 </td>
 <td>IID_IWMHeaderInfo2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 </td>
 <td>IID_IWMHeaderInfo3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e991ac8e-35af-484f-8c60-dc6a7d402120">IWMMetadataEditor2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757233(v=VS.85).aspx">IWMMetadataEditor2</a>
 </td>
 <td>IID_IWMMetadataEditor2</td>
 </tr>

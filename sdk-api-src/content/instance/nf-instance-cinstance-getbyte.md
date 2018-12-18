@@ -9,8 +9,6 @@ ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetByte method, CInstance.GetByte, CInstance::GetByte, GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

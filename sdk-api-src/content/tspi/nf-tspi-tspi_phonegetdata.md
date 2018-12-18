@@ -9,8 +9,6 @@ ms.assetid: 16692dfe-7a78-428a-94c0-bf56dda834b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetData, TSPI_phoneGetData function [TAPI 2.2], _tspi_tspi_phonegetdata, tspi.tspi_phonegetdata, tspi/TSPI_phoneGetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

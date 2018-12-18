@@ -9,8 +9,6 @@ ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionDeviceDebug, IDCompositionDeviceDebug interface [DirectComposition], IDCompositionDeviceDebug interface [DirectComposition],described, dcomp/IDCompositionDeviceDebug, directcomp.idcompositiondevicedebug
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDCompositionDeviceDebug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169">DisableDebugCounters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280379(v=VS.85).aspx">DisableDebugCounters</a>
 </td>
 <td align="left" width="63%">
 Disables display of performance debugging counters.
@@ -79,7 +77,7 @@ Disables display of performance debugging counters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AA0E913F-D89F-4AF1-91DE-B57D0C016DB7">EnableDebugCounters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280380(v=VS.85).aspx">EnableDebugCounters</a>
 </td>
 <td align="left" width="63%">
 Enables display of performance debugging counters.
@@ -94,15 +92,15 @@ Enables display of performance debugging counters.
 
 
 
-<a href="https://msdn.microsoft.com/0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B">IDCompositionDesktopDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280350(v=VS.85).aspx">IDCompositionDesktopDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
  
 
  

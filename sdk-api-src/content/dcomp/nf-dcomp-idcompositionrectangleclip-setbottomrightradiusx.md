@@ -9,8 +9,6 @@ ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomRightRadiusX, IDCompositionRectangleClip::SetBottomRightRadiusX, SetBottomRightRadiusX, SetBottomRightRadiusX methods [DirectComposition], dcomp/SetBottomRightRadiusX, directcomp.idcompositionrectangleclip_setbottomrightradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ Animates the value of the BottomRightRadiusX property of this clip.
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
  
 
  

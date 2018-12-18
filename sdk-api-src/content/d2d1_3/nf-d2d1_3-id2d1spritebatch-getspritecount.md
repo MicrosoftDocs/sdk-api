@@ -9,8 +9,6 @@ ms.assetid: 4116A067-A02D-414F-B7A4-7D0B6A42653A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpriteCount, GetSpriteCount method [Direct2D], GetSpriteCount method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSpriteCount method, ID2D1SpriteBatch.GetSpriteCount, ID2D1SpriteBatch::GetSpriteCount, d2d1_3/ID2D1SpriteBatch::GetSpriteCount, direct2d.id2d1spritebatch_getspritecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

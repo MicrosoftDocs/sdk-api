@@ -9,8 +9,6 @@ ms.assetid: 961dd768-1849-44df-bc7f-480881ed6477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ValidateRect, ValidateRect function [Windows GDI], _win32_ValidateRect, gdi.validaterect, winuser/ValidateRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

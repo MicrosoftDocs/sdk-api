@@ -9,8 +9,6 @@ ms.assetid: c2f75645-3197-4afa-81ac-8a362ce99620
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InfiniteRect, InfiniteRect function [Direct2D], d2d1helper/InfiniteRect, direct2d.infiniterect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 
@@ -64,7 +62,7 @@ Creates a rectangle that has its upper-left corner set to (negative infinity, ne
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
 
 A rectangle that has its upper-left corner set to (negative infinity, negative infinity) and its lower-right corner set to (infinity, infinity).
 
@@ -76,7 +74,7 @@ A rectangle that has its upper-left corner set to (negative infinity, negative i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a>
+<a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>
  
 
  

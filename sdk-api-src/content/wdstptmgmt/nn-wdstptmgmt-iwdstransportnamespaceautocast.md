@@ -9,8 +9,6 @@ ms.assetid: 8db671fa-da52-4063-ad0b-a3ee7cb05497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespaceAutoCast, IWdsTransportNamespaceAutoCast interface [Windows Deployment Services], IWdsTransportNamespaceAutoCast interface [Windows Deployment Services],described, wds.iwdstransportnamespaceautocast, wdstptmgmt/IWdsTransportNamespaceAutoCast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

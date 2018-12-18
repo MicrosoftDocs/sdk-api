@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveUp method, ITextSelection.MoveUp, ITextSelection::MoveUp, MoveUp, MoveUp method [Windows Controls], MoveUp method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveUp, _win32_ITextSelection_MoveUp_cpp, controls.ITextSelection_MoveUp, controls._win32_ITextSelection_MoveUp, tom/ITextSelection::MoveUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

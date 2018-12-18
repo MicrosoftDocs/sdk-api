@@ -9,8 +9,6 @@ ms.assetid: 4e02e0b6-8c0e-4c32-9059-91b1b8be165f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig9.SetDefaultMonitor, IVMRMonitorConfig9::SetDefaultMonitor, IVMRMonitorConfig9SetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setdefaultmonitor, vmr9/IVMRMonitorConfig9::SetDefaultMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -132,7 +130,7 @@ The allocator-presenter has not been loaded.
 
 
 
-Use this method on a multi-monitor system to specify to the VMR the default Direct3D device to use when connecting to an upstream filter. The default Direct3D device can be overridden for a particular connection by the <a href="https://msdn.microsoft.com/21b0db95-3b70-4d9a-b533-393e89e106ae">SetMonitor</a> method.
+Use this method on a multi-monitor system to specify to the VMR the default Direct3D device to use when connecting to an upstream filter. The default Direct3D device can be overridden for a particular connection by the <a href="https://msdn.microsoft.com/en-us/library/Dd390487(v=VS.85).aspx">SetMonitor</a> method.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
@@ -144,11 +142,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/27a3a598-d8de-48b2-8b8c-6b5497db4c6c">IVMRMonitorConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390482(v=VS.85).aspx">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5d5bf77-5261-42eb-b79b-d72dfb2d9f21">IVMRMonitorConfig9::GetDefaultMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390484(v=VS.85).aspx">IVMRMonitorConfig9::GetDefaultMonitor</a>
 
 
 

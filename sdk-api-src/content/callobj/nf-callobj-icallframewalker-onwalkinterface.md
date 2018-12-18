@@ -9,8 +9,6 @@ ms.assetid: e599536f-87a3-4f71-ac0e-21bdafafd029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICallFrameWalker interface [COM],OnWalkInterface method, ICallFrameWalker.OnWalkInterface, ICallFrameWalker::OnWalkInterface, OnWalkInterface, OnWalkInterface method [COM], OnWalkInterface method [COM],ICallFrameWalker interface, _com_icallframewalker_onwalkinterface, callobj/ICallFrameWalker::OnWalkInterface, com.icallframewalker_onwalkinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
@@ -122,7 +120,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679746(v=VS.85).aspx">ICallFrameWalker</a>
+<a href="https://msdn.microsoft.com/1eeb00a3-d3c5-46f0-95a8-f694f802894b">ICallFrameWalker</a>
  
 
  

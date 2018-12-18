@@ -7,10 +7,8 @@ old-location: base\powerreaddcvalueindex.htm
 tech.root: power
 ms.assetid: 91ba83bd-3e28-4933-a1ad-0cd8414fee37
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDCValueIndex, PowerReadDCValueIndex function, base.powerreaddcvalueindex, powrprof/PowerReadDCValueIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

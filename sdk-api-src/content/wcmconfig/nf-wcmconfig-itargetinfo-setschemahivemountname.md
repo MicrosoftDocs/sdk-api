@@ -9,8 +9,6 @@ ms.assetid: 128cf457-c66e-49b7-88a7-3f5d87800a20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveMountName method, ITargetInfo.SetSchemaHiveMountName, ITargetInfo::SetSchemaHiveMountName, SetSchemaHiveMountName, SetSchemaHiveMountName method [SMI], SetSchemaHiveMountName method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivemountname, wcmconfig/ITargetInfo::SetSchemaHiveMountName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

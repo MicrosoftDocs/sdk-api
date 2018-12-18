@@ -9,8 +9,6 @@ ms.assetid: 6C3B223A-E791-4861-B93B-1EDC0DC8038B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnDeviceServicesEvents.OnEventNotification, IMbnDeviceServicesEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oneventnotification, mbnapi/IMbnDeviceServicesEvents::OnEventNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

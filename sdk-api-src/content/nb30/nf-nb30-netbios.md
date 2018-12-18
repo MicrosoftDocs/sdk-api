@@ -9,8 +9,6 @@ ms.assetid: 3eadbfa7-53de-4c62-b61b-da84b9da58f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Netbios, Netbios function [NetBIOS], nb30/Netbios, netbios.netbios
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: nb30.h
 req.include-header: 

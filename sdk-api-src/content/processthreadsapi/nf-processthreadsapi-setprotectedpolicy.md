@@ -9,8 +9,6 @@ ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

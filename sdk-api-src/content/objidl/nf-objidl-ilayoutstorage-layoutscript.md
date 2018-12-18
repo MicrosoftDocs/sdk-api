@@ -9,8 +9,6 @@ ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],LayoutScript method, ILayoutStorage.LayoutScript, ILayoutStorage::LayoutScript, LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

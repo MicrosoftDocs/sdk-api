@@ -9,8 +9,6 @@ ms.assetid: 916b00bd-2711-4ebd-a36d-d75b3a59a528
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8c057b75-49d4-723a-fe77-d236c5e87682, D3D11_MAP, D3D11_MAP enumeration [Direct3D 11], D3D11_MAP_READ, D3D11_MAP_READ_WRITE, D3D11_MAP_WRITE, D3D11_MAP_WRITE_DISCARD, D3D11_MAP_WRITE_NO_OVERWRITE, d3d11/D3D11_MAP, d3d11/D3D11_MAP_READ, d3d11/D3D11_MAP_READ_WRITE, d3d11/D3D11_MAP_WRITE, d3d11/D3D11_MAP_WRITE_DISCARD, d3d11/D3D11_MAP_WRITE_NO_OVERWRITE, direct3d11.d3d11_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
@@ -109,7 +107,7 @@ These remarks are divided into the following topics:
 <h3><a id="NO_OVERWRITE_DETAILS"></a><a id="no_overwrite_details"></a>Meaning of D3D11_MAP_WRITE_NO_OVERWRITE</h3>
 <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> signifies that the application promises not to write to data that the input assembler (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
 
-For example, consider the buffer illustrated in the following diagram. If a <a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a> call has been issued that uses vertices 4-6, then an application that calls <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a> on this buffer must ensure that it does not write to the vertices that the <b>Draw</b> call will access during rendering.
+For example, consider the buffer illustrated in the following diagram. If a <a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a> call has been issued that uses vertices 4-6, then an application that calls <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a> on this buffer must ensure that it does not write to the vertices that the <b>Draw</b> call will access during rendering.
 
 <img alt="Diagram of a buffer that includes vertices in different stages of utilization" src="./images/D3D10_map_nooverwrite.png"/>
 However, ensuring this can be difficult, because the GPU is often many frames behind the CPU in terms of which frame it is currently processing. Keeping track of which sections of a resource are being used because of calls made 2 to 5 frames ago is difficult and error-prone. Because of this, it is recommended that applications only write to the uninitialized portions of a resource when using <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>.
@@ -117,7 +115,7 @@ However, ensuring this can be difficult, because the GPU is often many frames be
 <h3><a id="DISCARD_NO_OVERWRITE_USES"></a><a id="discard_no_overwrite_uses"></a>Common Usage of D3D11_MAP_WRITE_DISCARD with D3D11_MAP_WRITE_NO_OVERWRITE</h3>
 <b>D3D11_MAP_WRITE_DISCARD</b> and <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> are normally used in conjunction with dynamic index/vertex buffers. <b>D3D11_MAP_WRITE_DISCARD</b> can also be used with dynamic textures. However, <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> cannot be used with dynamic textures.
 
-A common use of these two flags involves filling dynamic index/vertex buffers with geometry that can be seen from the camera's current position. The first time that data is entered into the buffer on a given frame, <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a> is called with <b>D3D11_MAP_WRITE_DISCARD</b>; doing so invalidates the previous contents of the buffer. The buffer is then filled with all available data.
+A common use of these two flags involves filling dynamic index/vertex buffers with geometry that can be seen from the camera's current position. The first time that data is entered into the buffer on a given frame, <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a> is called with <b>D3D11_MAP_WRITE_DISCARD</b>; doing so invalidates the previous contents of the buffer. The buffer is then filled with all available data.
 
 Subsequent writes to the buffer within the same frame should use <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>. This will enable the CPU to access a resource that is potentially being used by the GPU as long as the restrictions described previously are respected.
 
@@ -129,7 +127,7 @@ Subsequent writes to the buffer within the same frame should use <b>D3D11_MAP_WR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

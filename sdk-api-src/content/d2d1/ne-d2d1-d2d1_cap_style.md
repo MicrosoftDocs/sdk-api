@@ -9,8 +9,6 @@ ms.assetid: acf4365e-b9df-459e-a746-016339cd09ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_CAP_STYLE, D2D1_CAP_STYLE enumeration [Direct2D], D2D1_CAP_STYLE_FLAT, D2D1_CAP_STYLE_ROUND, D2D1_CAP_STYLE_SQUARE, D2D1_CAP_STYLE_TRIANGLE, d2d1/D2D1_CAP_STYLE, d2d1/D2D1_CAP_STYLE_FLAT, d2d1/D2D1_CAP_STYLE_ROUND, d2d1/D2D1_CAP_STYLE_SQUARE, d2d1/D2D1_CAP_STYLE_TRIANGLE, direct2d.D2D1_CAP_STYLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

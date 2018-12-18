@@ -9,8 +9,6 @@ ms.assetid: dc1e85af-f399-469d-806a-a2d80b700b75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMMDeviceEnumerator interface [Core Audio],UnregisterEndpointNotificationCallback method, IMMDeviceEnumerator.UnregisterEndpointNotificationCallback, IMMDeviceEnumerator::UnregisterEndpointNotificationCallback, IMMDeviceEnumeratorUnregisterEndpointNotificationC, UnregisterEndpointNotificationCallback, UnregisterEndpointNotificationCallback method [Core Audio], UnregisterEndpointNotificationCallback method [Core Audio],IMMDeviceEnumerator interface, coreaudio.immdeviceenumerator_unregisterendpointnotificationcallback, mmdeviceapi/IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

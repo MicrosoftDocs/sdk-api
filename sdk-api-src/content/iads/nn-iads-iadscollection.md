@@ -9,8 +9,6 @@ ms.assetid: 4552552b-c008-439a-95bf-eaf9ffd28b5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsCollection, IADsCollection interface [ADSI], IADsCollection interface [ADSI],described, _ds_iadscollection, adsi.iadscollection, iads/IADsCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsServiceUninstallDisk, IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,described, base.ivdsserviceuninstalldisk, vds/IVdsServiceUninstallDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

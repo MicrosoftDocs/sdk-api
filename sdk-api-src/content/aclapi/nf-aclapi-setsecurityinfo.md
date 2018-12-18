@@ -9,8 +9,6 @@ ms.assetid: f1781ba9-81eb-46f9-b530-c390b67d65de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
@@ -160,7 +158,7 @@ The <b>SetSecurityInfo</b> function does not reorder access-allowed or access-de
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

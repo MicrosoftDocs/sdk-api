@@ -9,8 +9,6 @@ ms.assetid: b22d643e-f458-4293-9f2b-e8bfe1499905
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get__Allocator method, IMSVidVideoRenderer2.get__Allocator, IMSVidVideoRenderer2::get__Allocator, IMSVidVideoRenderer2get__Allocator, get__Allocator, get__Allocator method [Microsoft TV Technologies], get__Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get__allocator, segment/IMSVidVideoRenderer2::get__Allocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get__Allocator</b> method retrieves the allocator-presenter from the VMR.
 
 ### -param AllocPresent [out]
 
-Receives an <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> interface pointer.
+Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface pointer.
 
 
 ## -returns
@@ -106,7 +104,7 @@ NULL pointer argument.
 
 
 
-The caller must release the <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> interface.
+The caller must release the <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface.
 
 
 
@@ -116,7 +114,7 @@ The caller must release the <a href="https://msdn.microsoft.com/bbcbe152-80fd-46
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

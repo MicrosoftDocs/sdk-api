@@ -9,8 +9,6 @@ ms.assetid: fbb17e16-b0a4-45c1-b723-cbb6a61d4d0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBody, GetBody method [Microsoft TV Technologies], GetBody method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetBody method, IGenericDescriptor.GetBody, IGenericDescriptor::GetBody, IGenericDescriptorGetBody, mpeg2psiparser/IGenericDescriptor::GetBody, mstv.igenericdescriptor_getbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -66,7 +64,7 @@ The <b>GetBody</b> method returns the body of the descriptor.
 
 ### -param ppbVal [out]
 
-Receives a pointer to a buffer. To get the size of the buffer, call the <a href="https://msdn.microsoft.com/fd36bb87-ef30-4064-a251-c89a878eeae9">IGenericDescriptor::GetLength</a> method. The buffer contains the body of the descriptor, in network byte order (Big Endian). The caller is responsible for converting the data to Little Endian byte order. The caller must free the buffer by calling the <b>CoTaskMemFree</b> function.
+Receives a pointer to a buffer. To get the size of the buffer, call the <a href="https://msdn.microsoft.com/en-us/library/Dd694095(v=VS.85).aspx">IGenericDescriptor::GetLength</a> method. The buffer contains the body of the descriptor, in network byte order (Big Endian). The caller is responsible for converting the data to Little Endian byte order. The caller must free the buffer by calling the <b>CoTaskMemFree</b> function.
 
 
 ## -returns
@@ -124,7 +122,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor Interface</a>
  
 
  

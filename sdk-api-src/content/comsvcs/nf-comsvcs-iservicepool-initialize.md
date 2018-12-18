@@ -9,8 +9,6 @@ ms.assetid: 93e88990-1737-4db4-aa37-0fe19a7ca0f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePool interface [COM+],Initialize method, IServicePool.Initialize, IServicePool::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IServicePool interface, _cos_IServicePool_Initialize, comsvcs/IServicePool::Initialize, cos.iservicepool_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -108,7 +106,7 @@ The method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688466(v=VS.85).aspx">IServicePool</a>
+<a href="https://msdn.microsoft.com/fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2">IServicePool</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 6090d96c-dd00-4df6-879b-893cd5b457b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrConformantStringBufferSize, NdrConformantStringBufferSize function [RPC], rpc.ndrconformantstringbuffersize, rpcndr/NdrConformantStringBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

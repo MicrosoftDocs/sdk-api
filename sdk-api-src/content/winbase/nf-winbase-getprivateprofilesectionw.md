@@ -9,8 +9,6 @@ ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivateProfileSection, GetPrivateProfileSection function, GetPrivateProfileSectionA, GetPrivateProfileSectionW, _win32_getprivateprofilesection, base.getprivateprofilesection, winbase/GetPrivateProfileSection, winbase/GetPrivateProfileSectionA, winbase/GetPrivateProfileSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

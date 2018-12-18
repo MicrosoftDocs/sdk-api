@@ -9,8 +9,6 @@ ms.assetid: 46a50a77-f834-4d75-89db-a9be6e1ed24f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 46a50a77-f834-4d75-89db-a9be6e1ed24f, IInkTransform interface [Tablet PC],eM22 property, IInkTransform.eM22, IInkTransform.get_eM22, IInkTransform::eM22, IInkTransform::get_eM22, IInkTransform::put_eM22, InkTransform.get_eM22, InkTransform.put_eM22, eM22 property [Tablet PC], eM22 property [Tablet PC],IInkTransform interface, get_eM22, msinkaut/IInkTransform::eM22, msinkaut/IInkTransform::get_eM22, msinkaut/IInkTransform::put_eM22, put_eM22, tablet.inktransform_em22
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -71,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

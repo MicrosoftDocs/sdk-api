@@ -9,8 +9,6 @@ ms.assetid: E7443E72-F8F6-48C4-A9BD-5EF132E8C090
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetComputeShaderConstantBuffer method, ID2D1ComputeInfo.SetComputeShaderConstantBuffer, ID2D1ComputeInfo::SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer method [Direct2D], SetComputeShaderConstantBuffer method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetComputeShaderConstantBuffer, direct2d.id2d1computeinfo_setcomputeshaderconstantbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 

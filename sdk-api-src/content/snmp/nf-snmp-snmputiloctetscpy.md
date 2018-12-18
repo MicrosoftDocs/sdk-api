@@ -9,8 +9,6 @@ ms.assetid: 5ea92551-f6af-431d-8bf8-5b6c576f3392
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsCpy, SnmpUtilOctetsCpy function [SNMP], _snmp_snmputiloctetscpy, snmp.snmputiloctetscpy, snmp/SnmpUtilOctetsCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -65,7 +63,7 @@ The
 ### -param pOctetsDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a> structure to receive the copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a> structure to receive the copy.
 
 
 ### -param pOctetsSrc [in]
@@ -101,7 +99,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
 
 
 

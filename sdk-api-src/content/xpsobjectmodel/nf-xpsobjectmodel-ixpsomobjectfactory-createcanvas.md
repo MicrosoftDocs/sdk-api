@@ -9,8 +9,6 @@ ms.assetid: 1ee3a80d-f6d8-45ba-8178-e3870404698a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCanvas, CreateCanvas method [XPS Documents and Packaging], CreateCanvas method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCanvas method, IXpsOMObjectFactory.CreateCanvas, IXpsOMObjectFactory::CreateCanvas, xps.ixpsomobjectfactory_createcanvas, xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

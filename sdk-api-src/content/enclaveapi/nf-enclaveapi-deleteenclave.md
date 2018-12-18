@@ -9,8 +9,6 @@ ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 

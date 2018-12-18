@@ -9,8 +9,6 @@ ms.assetid: 22dd44bb-2175-420f-b5fd-4648ebe489a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 22dd44bb-2175-420f-b5fd-4648ebe489a5, IEF_CopyFromOriginal, IEF_Default, IEF_RemoveFromOriginal, InkExtractFlags, InkExtractFlags enumeration [Tablet PC], msinkaut/IEF_CopyFromOriginal, msinkaut/IEF_Default, msinkaut/IEF_RemoveFromOriginal, msinkaut/InkExtractFlags, tablet.inkextractflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 23ef6abd-03e9-439e-ba05-629c8d61cd66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

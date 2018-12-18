@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3EqualInt(XMVECTOR,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3EqualInt, XMVector3EqualInt, XMVector3EqualInt method [DirectX Math Support APIs], dxmath.xmvector3equalint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -96,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a808eadd-9b2b-49e0-a2ca-24585dfc4572">XMVector3EqualIntR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420810(v=VS.85).aspx">XMVector3EqualIntR</a>
  
 
  

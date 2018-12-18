@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\im
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageAttributes class [GDI+],SetOutputChannel method, ImageAttributes.SetOutputChannel, ImageAttributes::SetOutputChannel, SetOutputChannel, SetOutputChannel method [GDI+], SetOutputChannel method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

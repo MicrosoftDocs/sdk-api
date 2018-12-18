@@ -9,8 +9,6 @@ ms.assetid: 53080d41-c8b8-46ad-a5f1-6eceb497aa9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Skip method, IEnumConnectionPoints.Skip, IEnumConnectionPoints::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_skip, com.ienumconnectionpoints_skip, ocidl/IEnumConnectionPoints::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h

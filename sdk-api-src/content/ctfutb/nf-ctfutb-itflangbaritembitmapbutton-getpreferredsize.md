@@ -9,8 +9,6 @@ ms.assetid: 271e4e24-c81e-484c-84bb-d7b67038a5c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmapButton.GetPreferredSize, ITfLangBarItemBitmapButton::GetPreferredSize, _tsf_itflangbaritembitmapbutton_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmapButton::GetPreferredSize, tsf.itflangbaritembitmapbutton_getpreferredsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -113,7 +111,7 @@ The results of this method are not currently used. The bitmap for a bitmap butto
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 

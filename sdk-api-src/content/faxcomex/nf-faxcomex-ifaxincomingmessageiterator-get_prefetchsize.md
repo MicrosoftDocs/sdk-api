@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator::PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, get_PrefetchSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,7 +66,7 @@ The prefetch buffer contains messages and makes the iteration process more effic
 
 Changes you make to the size of the prefetch buffer take place immediately because <a href="https://msdn.microsoft.com/en-us/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a> is a local object.
 
-The value of the <i>lPrefetchSize</i> property determines how many fax messages the iterator object retrieves from the archive each time the object refreshes its contents. The default value is <a href="https://msdn.microsoft.com/447a730c-6033-46ab-9d90-0aad1aa4a429">lDEFAULT_PREFETCH_SIZE</a>.
+The value of the <i>lPrefetchSize</i> property determines how many fax messages the iterator object retrieves from the archive each time the object refreshes its contents. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms689196(v=VS.85).aspx">lDEFAULT_PREFETCH_SIZE</a>.
 
 To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
 
@@ -80,11 +78,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/0dc10f14-1ae3-47e5-aab2-53ddaa45b8a0">PrefetchSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686516(v=VS.85).aspx">PrefetchSize</a>
  
 
  

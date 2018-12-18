@@ -9,8 +9,6 @@ ms.assetid: 0B8203F2-2EE0-4DBD-B1B8-FD9E7E073E6F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rpc.ndr64asyncservercallall, rpcndr/Ndr64AsyncServerCallAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

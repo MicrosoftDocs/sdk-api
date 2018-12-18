@@ -9,8 +9,6 @@ ms.assetid: F82863DC-BFC8-49D3-93C5-DCA45093F81A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFactory5 interface [Direct Write],UnpackFontFile method, IDWriteFactory5.UnpackFontFile, IDWriteFactory5::UnpackFontFile, UnpackFontFile, UnpackFontFile method [Direct Write], UnpackFontFile method [Direct Write],IDWriteFactory5 interface, directwrite.idwritefactory5_unpackfontfile, dwrite_3/IDWriteFactory5::UnpackFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -61,7 +59,7 @@ The UnpackFontFile method unpacks font data from a container file (WOFF or WOFF2
 
 ### -param containerType
 
-Type: <b><a href="https://msdn.microsoft.com/93275F1D-A25C-4BDD-B278-DA56ADB3436D">DWRITE_CONTAINER_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807680(v=VS.85).aspx">DWRITE_CONTAINER_TYPE</a></b>
 
 Container type returned by AnalyzeContainerType.
 
@@ -91,7 +89,7 @@ Receives a pointer to a newly created font file stream containing the uncompress
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Standard HRESULT error code. The return value is E_INVALIDARG if the container type is DWRITE_CONTAINER_TYPE_UNKNOWN.
 
@@ -103,7 +101,7 @@ Standard HRESULT error code. The return value is E_INVALIDARG if the container t
 
 
 
-<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
  
 
  

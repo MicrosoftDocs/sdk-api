@@ -9,8 +9,6 @@ ms.assetid: 11187826-B873-4182-A77B-FD9CCECFBAE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetBalance method, IMFMediaEngineEx.SetBalance, IMFMediaEngineEx::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setbalance, mfmediaengine/IMFMediaEngineEx::SetBalance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

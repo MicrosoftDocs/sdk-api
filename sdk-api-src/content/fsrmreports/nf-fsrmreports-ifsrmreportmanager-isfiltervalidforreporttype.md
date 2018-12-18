@@ -9,8 +9,6 @@ ms.assetid: e9f93b97-c8ac-441a-9f6b-87d45bd10cdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager interface [File Server Resource Manager],IsFilterValidForReportType method, IFsrmReportManager.IsFilterValidForReportType, IFsrmReportManager::IsFilterValidForReportType, IsFilterValidForReportType, IsFilterValidForReportType method [File Server Resource Manager], IsFilterValidForReportType method [File Server Resource Manager],FsrmReportManager class, IsFilterValidForReportType method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_isfiltervalidforreporttype, fsrm.ifsrmreportmanager_isfiltervalidforreporttype, fsrmreports/IFsrmReportManager::IsFilterValidForReportType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

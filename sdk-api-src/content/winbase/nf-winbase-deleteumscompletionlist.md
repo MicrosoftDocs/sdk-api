@@ -9,8 +9,6 @@ ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

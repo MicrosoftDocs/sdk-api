@@ -9,8 +9,6 @@ ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

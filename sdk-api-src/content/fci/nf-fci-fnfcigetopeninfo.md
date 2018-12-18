@@ -9,8 +9,6 @@ ms.assetid: 5baccb69-7872-4d67-ad74-70cdd7459f8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
 
 #### - err
 
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 #### - pattribs

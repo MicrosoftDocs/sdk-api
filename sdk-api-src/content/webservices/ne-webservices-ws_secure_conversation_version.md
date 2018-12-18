@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_SECURE_CONVERSATION_VERSION
+UID: NE:webservices.__unnamed_enum_54
 title: WS_SECURE_CONVERSATION_VERSION
 author: windows-sdk-content
 description: Defines the WS-SecureConversation specification version to be used with message security and mixed-mode security.
@@ -7,10 +7,8 @@ old-location: wsw\ws_secure_conversation_version.htm
 tech.root: wsw
 ms.assetid: 17c21a3a-1cb5-4174-8300-a5c3d87e3e0f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_SECURE_CONVERSATION_VERSION, WS_SECURE_CONVERSATION_VERSION enumeration [Web Services for Windows], WS_SECURE_CONVERSATION_VERSION_1_3, WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, webservices/WS_SECURE_CONVERSATION_VERSION, webservices/WS_SECURE_CONVERSATION_VERSION_1_3, webservices/WS_SECURE_CONVERSATION_VERSION_FEBRUARY_2005, wsw.ws_secure_conversation_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d0dce3dd-3fbf-41ea-ba70-8574701d101e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetTag method, IDirectManipulationContent.SetTag, IDirectManipulationContent::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_settag, directmanipulation/IDirectManipulationContent::SetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

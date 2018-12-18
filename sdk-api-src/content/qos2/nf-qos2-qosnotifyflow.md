@@ -9,8 +9,6 @@ ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

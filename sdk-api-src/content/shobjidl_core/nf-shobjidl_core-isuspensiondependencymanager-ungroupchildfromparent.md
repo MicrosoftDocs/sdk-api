@@ -9,8 +9,6 @@ ms.assetid: 4635FCD2-C49F-45F1-8D48-6BA418EBDFD0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],UngroupChildFromParent method, ISuspensionDependencyManager.UngroupChildFromParent, ISuspensionDependencyManager::UngroupChildFromParent, UngroupChildFromParent, UngroupChildFromParent method [Windows Shell], UngroupChildFromParent method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_UngroupChildFromParent, shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

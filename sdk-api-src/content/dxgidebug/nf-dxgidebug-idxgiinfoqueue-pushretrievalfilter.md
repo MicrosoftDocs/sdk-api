@@ -9,8 +9,6 @@ ms.assetid: 8027801C-ACDD-457D-A7A5-200B818D40A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushRetrievalFilter method, IDXGIInfoQueue.PushRetrievalFilter, IDXGIInfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method [DXGI], PushRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushretrievalfilter, dxgidebug/IDXGIInfoQueue::PushRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

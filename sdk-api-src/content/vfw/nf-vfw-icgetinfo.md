@@ -9,8 +9,6 @@ ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -68,7 +66,7 @@ Handle to a compressor.
 
 ### -param picinfo
 
-Pointer to the <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743162(v=VS.85).aspx">ICINFO</a> structure to return information about the compressor.
 
 
 ### -param cb

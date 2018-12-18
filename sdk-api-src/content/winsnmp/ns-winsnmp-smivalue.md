@@ -1,5 +1,5 @@
 ---
-UID: NS:winsnmp.smiVALUE
+UID: NS:winsnmp.__unnamed_struct_3
 title: smiVALUE
 author: windows-sdk-content
 description: The WinSNMP smiVALUE structure describes the value associated with a variable name in a variable binding entry.
@@ -7,10 +7,8 @@ old-location: snmp\smivalue_str.htm
 tech.root: SNMP
 ms.assetid: e5e8f321-54b2-469d-bdd3-9867fd85b447
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*smiLPVALUE, SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, _snmp_smivalue_str, smiLPVALUE, smiLPVALUE structure pointer [SNMP], smiVALUE, smiVALUE structure [SNMP], snmp.smivalue_str, winsnmp/smiLPVALUE, winsnmp/smiVALUE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 
@@ -235,50 +233,88 @@ The last three syntax types describe exception conditions under the SNMP version
 ### -field value
 
 Specifies the union of all possible WinSNMP syntax data types, including the 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> or 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> descriptor types.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> descriptor types.
 
 
-### -field value.sNumber
+
+#### sNumber
 
 <b>Type: <b>smiINT</b>
 </b>
 Specifies a signed long integer value.
 
 
-### -field value.uNumber
+
+#### uNumber
 
 <b>Type: <b>smiUINT32</b>
 </b>
 Specifies a 32-bit unsigned long integer value.
 
 
-### -field value.hNumber
+
+#### hNumber
 
 <b>Type: <b>smiCNTR64</b>
 </b>
 Specifies a 64-bit unsigned integer value
 
 
-### -field value.string
+
+#### string
 
 <b>Type: <b>smiOCTETS</b>
 </b>
 Specifies a string.
 
 
-### -field value.oid
+
+#### oid
 
 <b>Type: <b>smiOID</b>
 </b>
 Specifies an object identifier (OID).
 
 
-### -field value.empty
+
+#### empty
 
 <b>Type: <b>smiBYTE</b>
 </b>
 Specifies an empty member.
+
+
+### -field sNumber
+
+ 
+
+
+### -field uNumber
+
+ 
+
+
+### -field hNumber
+
+ 
+
+
+### -field string
+
+ 
+
+
+### -field oid
+
+ 
+
+
+### -field empty
+
+ 
+
+
 
 
 ## -remarks
@@ -287,14 +323,14 @@ Specifies an empty member.
 
 A WinSNMP application must check the <b>syntax</b> member of an 
 <b>smiVALUE</b> structure to correctly dereference the <b>value</b> member. The <b>value</b> member can contain a simple scalar value or a non-scalar value like an 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> or an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> descriptor structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> or an 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> descriptor structure.
 
 If the <b>syntax</b> member indicates that the <b>value</b> member is an 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> or an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> descriptor structure, the WinSNMP application must determine whether to free the resources allocated for the structure. The Microsoft WinSNMP implementation allocates and deallocates memory for all output 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> and 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structures. The application must call the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> or an 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> descriptor structure, the WinSNMP application must determine whether to free the resources allocated for the structure. The Microsoft WinSNMP implementation allocates and deallocates memory for all output 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structures. The application must call the 
 <a href="https://msdn.microsoft.com/535f728d-6964-47b6-9913-7cd38356053d">SnmpFreeDescriptor</a> function to free the memory for the <b>ptr</b> member of these structures.
 
 Because the WinSNMP application allocates memory for input descriptors with variable lengths, it must free that memory. For more information, see 
@@ -328,11 +364,11 @@ Because the WinSNMP application allocates memory for input descriptors with vari
 
 
 
-<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
  
 
  

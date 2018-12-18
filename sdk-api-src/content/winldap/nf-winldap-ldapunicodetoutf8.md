@@ -9,8 +9,6 @@ ms.assetid: 9a56cf0e-ff6c-4b0a-9138-495d9cebfc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LdapUnicodeToUTF8, LdapUnicodeToUTF8 function [LDAP], _ldap_ldapunicodetoutf8, ldap.ldapunicodetoutf8, winldap/LdapUnicodeToUTF8
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

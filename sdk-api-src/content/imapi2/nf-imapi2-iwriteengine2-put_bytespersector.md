@@ -9,8 +9,6 @@ ms.assetid: aac64c0a-4304-4a20-822e-4aa247d3d9e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_BytesPerSector method, IWriteEngine2.put_BytesPerSector, IWriteEngine2::put_BytesPerSector, imapi.iwriteengine2_put_bytespersector, imapi2/IWriteEngine2::put_BytesPerSector, put_BytesPerSector, put_BytesPerSector method [IMAPI], put_BytesPerSector method [IMAPI],IWriteEngine2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\merge.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IImageList interface [Windows Controls],Merge method, IImageList.Merge, IImageList::Merge, Merge, Merge method [Windows Controls], Merge method [Windows Controls],IImageList interface, comctl_IImageList_Merge, comctl_IImageList_Merge_cpp, commoncontrols/IImageList::Merge, controls.IImageList_Merge, controls.comctl_IImageList_Merge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

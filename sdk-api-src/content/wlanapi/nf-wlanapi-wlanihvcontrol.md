@@ -9,8 +9,6 @@ ms.assetid: 3fc32119-0f92-4939-8125-812f45584d45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanIhvControl, WlanIhvControl function [NativeWIFI], nwifi.wlanihvcontrol, wlanapi/WlanIhvControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

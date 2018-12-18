@@ -9,8 +9,6 @@ ms.assetid: 5b8f58ce-0f6f-4de3-82c8-6cfa7c842edc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetCustomDeviceProperty, SetupDiGetCustomDeviceProperty function [Device and Driver Installation], SetupDiGetCustomDevicePropertyA, SetupDiGetCustomDevicePropertyW, devinst.setupdigetcustomdeviceproperty, di-rtns_ec69099c-ea3f-47f8-bc14-c10dbd7cba0e.xml, setupapi/SetupDiGetCustomDeviceProperty, setupapi/SetupDiGetCustomDevicePropertyA, setupapi/SetupDiGetCustomDevicePropertyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

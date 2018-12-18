@@ -9,8 +9,6 @@ ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepTogether method, ITextRow.GetKeepTogether, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

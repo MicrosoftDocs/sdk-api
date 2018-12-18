@@ -9,8 +9,6 @@ ms.assetid: f0d8de56-c51e-4165-a6bb-ea7eec70c567
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Count property, IUpdateCollection.Count, IUpdateCollection.get_Count, IUpdateCollection::Count, IUpdateCollection::get_Count, get_Count, wua.iupdatecollection_count, wuapi/IUpdateCollection::Count, wuapi/IUpdateCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

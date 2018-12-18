@@ -9,8 +9,6 @@ ms.assetid: d9677fa0-cda0-4b63-a21f-1fd0e27c8f3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFileMoniker, CreateFileMoniker function [COM], _com_CreateFileMoniker, com.createfilemoniker, objbase/CreateFileMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

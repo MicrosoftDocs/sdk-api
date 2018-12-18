@@ -9,8 +9,6 @@ ms.assetid: 237bc55f-0b24-4615-85af-30ae6ad163fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIP_MREQ_SOURCE, IP_MREQ_SOURCE, IP_MREQ_SOURCE [Winsock], IP_MREQ_SOURCE structure [Winsock], PIP_MREQ_SOURCE, PIP_MREQ_SOURCE structure pointer [Winsock], ip_mreq_source, ip_mreq_source structure [Winsock], winsock.ip_mreq_source, ws2ipdef/PIP_MREQ_SOURCE, ws2ipdef/ip_mreq_source, ws2tcpip/PIP_MREQ_SOURCE, ws2tcpip/ip_mreq_source"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

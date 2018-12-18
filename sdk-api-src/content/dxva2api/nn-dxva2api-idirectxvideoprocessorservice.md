@@ -9,8 +9,6 @@ ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 

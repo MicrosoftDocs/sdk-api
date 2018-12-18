@@ -9,8 +9,6 @@ ms.assetid: D0B91FFE-2E72-4AE3-A84F-DC598C02CF53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptKeyDerivation, BCryptKeyDerivation function [Security], bcrypt/BCryptKeyDerivation, security.bcryptkeyderivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
@@ -222,7 +220,7 @@ Returns a status code that indicates the success or failure of the function.
 
 
 
-You can use the following algorithm identifiers in the <a href="https://msdn.microsoft.com/en-us/library/Aa375479(v=VS.85).aspx">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
+You can use the following algorithm identifiers in the <a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
 
 <ul>
 <li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
@@ -246,7 +244,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448516(v=VS.85).aspx">NCryptKeyDerivation</a>
+<a href="https://msdn.microsoft.com/5D2D61B1-022E-412F-A19E-11057930A615">NCryptKeyDerivation</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 5eeacde4-6e25-49dc-a8f5-77a6e56dcade
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserOwner property, INetFwRule3.LocalUserOwner, INetFwRule3.get_LocalUserOwner, INetFwRule3::LocalUserOwner, INetFwRule3::get_LocalUserOwner, INetFwRule3::put_LocalUserOwner, LocalUserOwner property [ICS/ICF], LocalUserOwner property [ICS/ICF],INetFwRule3 interface, get_LocalUserOwner, ics.inetfwrule3_localuserowner, netfw/INetFwRule3::LocalUserOwner, netfw/INetFwRule3::get_LocalUserOwner, netfw/INetFwRule3::put_LocalUserOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

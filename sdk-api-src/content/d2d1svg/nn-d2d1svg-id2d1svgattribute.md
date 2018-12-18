@@ -9,8 +9,6 @@ ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1SvgAttribute interface [Direct2D],described, d2d1svg/ID2D1SvgAttribute, direct2d.id2d1svgattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1svg.h
 req.include-header: 

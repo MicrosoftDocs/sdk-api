@@ -9,8 +9,6 @@ ms.assetid: ab55a399-1990-4cfc-a4ab-834a5db8d7a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],Enabled property, IInkCollector.Enabled, IInkCollector.get_Enabled, IInkCollector.put_Enabled, IInkCollector::Enabled, IInkCollector::get_Enabled, IInkCollector::put_Enabled, InkCollector.get_Enabled, InkCollector.put_Enabled, ab55a399-1990-4cfc-a4ab-834a5db8d7a9, get_Enabled, msinkaut/IInkCollector::Enabled, msinkaut/IInkCollector::get_Enabled, msinkaut/IInkCollector::put_Enabled, put_Enabled, tablet.inkcollector_enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -139,7 +137,7 @@ Methods
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

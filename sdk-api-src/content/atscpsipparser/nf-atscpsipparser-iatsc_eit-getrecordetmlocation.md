@@ -9,8 +9,6 @@ ms.assetid: 4997f1dc-64b2-4739-90f5-5642a2d71958
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordEtmLocation, GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordEtmLocation method, IATSC_EIT.GetRecordEtmLocation, IATSC_EIT::GetRecordEtmLocation, IATSC_EITGetRecordEtmLocation, atscpsipparser/IATSC_EIT::GetRecordEtmLocation, mstv.iatsc_eit_getrecordetmlocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

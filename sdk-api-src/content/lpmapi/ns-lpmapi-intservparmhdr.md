@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.IntServParmHdr
+UID: NS:lpmapi.__unnamed_struct_17
 title: IntServParmHdr
 author: windows-sdk-content
 description: The IntServParmHdr structure is a header for Integrated Services parameters.
@@ -7,10 +7,8 @@ old-location: qos\intservparmhdr.htm
 tech.root: QOS
 ms.assetid: 56ca242e-d5e9-4c16-9c8e-70a356375683
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IntServParmHdr, IntServParmHdr structure [QOS], lpmapi/IntServParmHdr, qos.intservparmhdr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -79,11 +77,11 @@ Number of 32-bit WORDs in the object, excluding this header object.
 
 
 
-<a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a>
  
 
  

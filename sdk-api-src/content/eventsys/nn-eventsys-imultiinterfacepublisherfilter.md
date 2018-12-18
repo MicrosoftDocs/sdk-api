@@ -9,8 +9,6 @@ ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

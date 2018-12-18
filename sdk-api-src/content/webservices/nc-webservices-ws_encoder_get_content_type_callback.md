@@ -9,8 +9,6 @@ ms.assetid: 9e17481e-91ed-4215-983e-218936a1aa4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_encoder_get_content_type_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -149,7 +147,7 @@ The content type and content encoding returned must remain valid until the
               callback is invoked again, or the encoder is freed.
             
 
-For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
+For <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
               is returned, the HTTP header "Content-Encoding" will be added to the message
               with this value.
             

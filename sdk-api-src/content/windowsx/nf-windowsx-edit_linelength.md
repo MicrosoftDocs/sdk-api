@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_LineLength, Edit_LineLength macro [Windows Controls], _win32_Edit_LineLength, _win32_Edit_LineLength_cpp, controls.Edit_LineLength, controls._win32_Edit_LineLength, windowsx/Edit_LineLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

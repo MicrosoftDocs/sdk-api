@@ -9,8 +9,6 @@ ms.assetid: 565ceb6c-0e44-4c71-8b67-092cd33d088e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

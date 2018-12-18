@@ -9,8 +9,6 @@ ms.assetid: 0890d29b-540a-45ce-a5f0-04a2db517135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_FixedUDPPort method, IAMNetShowConfig.get_FixedUDPPort, IAMNetShowConfig::get_FixedUDPPort, IAMNetShowConfigget_FixedUDPPort, dshow.iamnetshowconfig_get_fixedudpport, get_FixedUDPPort, get_FixedUDPPort method [DirectShow], get_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_FixedUDPPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,11 +78,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a4b1f3b-c630-4820-a9d1-0e93f295b7f7">IAMNetShowConfig::get_UseFixedUDPPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319706(v=VS.85).aspx">IAMNetShowConfig::get_UseFixedUDPPort</a>
  
 
  

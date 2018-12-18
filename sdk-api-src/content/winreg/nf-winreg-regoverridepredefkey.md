@@ -9,8 +9,6 @@ ms.assetid: ad58b7ff-cd61-4719-9028-b470ae7e9bb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegOverridePredefKey, RegOverridePredefKey function, _win32_regoverridepredefkey, base.regoverridepredefkey, winreg/RegOverridePredefKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

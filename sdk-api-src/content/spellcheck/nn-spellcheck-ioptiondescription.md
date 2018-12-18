@@ -9,8 +9,6 @@ ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

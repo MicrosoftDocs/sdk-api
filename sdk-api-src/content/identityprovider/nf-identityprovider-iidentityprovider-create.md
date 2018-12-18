@@ -9,8 +9,6 @@ ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

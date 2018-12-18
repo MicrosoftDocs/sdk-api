@@ -9,8 +9,6 @@ ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +53,9 @@ Provides access to a device's Conditional Access Service (CAS), which manages ac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

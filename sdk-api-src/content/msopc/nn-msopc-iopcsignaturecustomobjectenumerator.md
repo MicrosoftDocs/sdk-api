@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturecustomobjectenumerator.htm
 tech.root: OPC
 ms.assetid: e82caa1e-4cf8-457f-86d9-24f707544199
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcSignatureCustomObjectEnumerator, IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions], IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObjectEnumerator, opc.iopcsignaturecustomobjectenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

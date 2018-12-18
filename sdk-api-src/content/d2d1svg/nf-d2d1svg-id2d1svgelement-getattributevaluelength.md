@@ -9,8 +9,6 @@ ms.assetid: 2B466C04-7768-4F15-AC68-55A3074499C1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeValueLength, GetAttributeValueLength method [Direct2D], GetAttributeValueLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValueLength method, ID2D1SvgElement.GetAttributeValueLength, ID2D1SvgElement::GetAttributeValueLength, d2d1svg/ID2D1SvgElement::GetAttributeValueLength, direct2d.id2d1svgelement_getattributevaluelength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -83,7 +81,7 @@ The lengthe of the attribute. The returned string length does not include room f
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
         Returns an error if the attribute is not specified. 

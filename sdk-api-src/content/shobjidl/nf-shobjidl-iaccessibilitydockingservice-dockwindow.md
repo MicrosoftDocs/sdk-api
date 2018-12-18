@@ -9,8 +9,6 @@ ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

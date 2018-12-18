@@ -9,8 +9,6 @@ ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

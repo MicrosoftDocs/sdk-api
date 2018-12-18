@@ -9,8 +9,6 @@ ms.assetid: 1df6bf7e-0155-463c-85e2-c879557bc044
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteDriveLetter, DeleteDriveLetter method [VDS], DeleteDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeleteDriveLetter method, IVdsAdvancedDisk.DeleteDriveLetter, IVdsAdvancedDisk::DeleteDriveLetter, base.ivdsadvanceddisk_deletedriveletter, vds/IVdsAdvancedDisk::DeleteDriveLetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

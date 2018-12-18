@@ -9,8 +9,6 @@ ms.assetid: 79FB0A54-EBF0-4aab-B631-B4D3EA54D20B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterScaleChangeNotifications, RegisterScaleChangeNotifications function [Windows Shell], shell.RegisterScaleChangeNotifications, shellscalingapi/RegisterScaleChangeNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
@@ -64,7 +62,7 @@ Registers a window to receive callbacks when scaling information changes.
 
 ### -param displayDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a></b>
 
 The enum value that indicates which display device to receive notifications about.
 
@@ -105,7 +103,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://msdn.microsoft.com/18B3E8F1-C9A9-4CE4-8982-C552486EA9B1">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
+This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://msdn.microsoft.com/en-us/library/Hh802771(v=VS.85).aspx">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
 
 
 

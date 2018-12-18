@@ -9,8 +9,6 @@ ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Bitmap, Brush, Font, Pen, Region, SelectObject, SelectObject function [Windows GDI], _win32_SelectObject, gdi.selectobject, wingdi/SelectObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2659bade-af85-42c5-bdb3-32eab16753a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfReverseConversionList, ITfReverseConversionList interface [Text Services Framework], ITfReverseConversionList interface [Text Services Framework],described, msctf/ITfReverseConversionList, tsf.itfreverseconversionlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

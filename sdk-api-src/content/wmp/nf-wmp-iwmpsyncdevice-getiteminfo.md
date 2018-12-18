@@ -9,8 +9,6 @@ ms.assetid: a25b91b8-fe14-4fde-8b68-4e61515e0e5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],getItemInfo method, IWMPSyncDevice.getItemInfo, IWMPSyncDevice::getItemInfo, IWMPSyncDevicegetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_getiteminfo, wmp/IWMPSyncDevice::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -330,7 +328,7 @@ This method cannot retrieve metadata values for devices having the status <b>wmp
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 

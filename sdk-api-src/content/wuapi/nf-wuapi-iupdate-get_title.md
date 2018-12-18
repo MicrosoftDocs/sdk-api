@@ -9,8 +9,6 @@ ms.assetid: 83b1bcfc-d974-4804-8ed0-1ccde335b5ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Title property, IUpdate.Title, IUpdate.get_Title, IUpdate::Title, IUpdate::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdate interface, get_Title, wua.iupdate_title, wuapi/IUpdate::Title, wuapi/IUpdate::get_Title
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

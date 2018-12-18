@@ -9,8 +9,6 @@ ms.assetid: 36663457-57B7-40D4-8A52-9C4E9B551E8E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],QueryObjectIdRanges method, IAccessibleWindowlessSite.QueryObjectIdRanges, IAccessibleWindowlessSite::QueryObjectIdRanges, QueryObjectIdRanges, QueryObjectIdRanges method [Windows Accessibility], QueryObjectIdRanges method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges, winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

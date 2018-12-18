@@ -9,8 +9,6 @@ ms.assetid: 0ae94936-4c6a-4c9f-adb8-5e3af75cf486
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpDeleteServiceConfiguration, HttpDeleteServiceConfiguration function [HTTP], HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigTimeouts, HttpServiceConfigUrlAclInfo, _http_httpdeleteserviceconfiguration, http.httpdeleteserviceconfiguration, http/HttpDeleteServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

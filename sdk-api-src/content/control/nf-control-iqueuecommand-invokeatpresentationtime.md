@@ -9,8 +9,6 @@ ms.assetid: 95255a18-d6e3-4970-90cb-c87629560ff6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueueCommand interface [DirectShow],InvokeAtPresentationTime method, IQueueCommand.InvokeAtPresentationTime, IQueueCommand::InvokeAtPresentationTime, IQueueCommandInvokeAtPresentationTime, InvokeAtPresentationTime, InvokeAtPresentationTime method [DirectShow], InvokeAtPresentationTime method [DirectShow],IQueueCommand interface, control/IQueueCommand::InvokeAtPresentationTime, dshow.iqueuecommand_invokeatpresentationtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -132,7 +130,7 @@ For a code example, see <a href="https://msdn.microsoft.com/en-us/library/Dd3769
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

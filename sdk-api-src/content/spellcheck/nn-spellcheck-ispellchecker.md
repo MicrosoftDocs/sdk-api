@@ -9,8 +9,6 @@ ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

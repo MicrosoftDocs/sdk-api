@@ -9,8 +9,6 @@ ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

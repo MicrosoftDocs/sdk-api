@@ -9,8 +9,6 @@ ms.assetid: 1fd5606e-0a15-429a-b656-4620b873bec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoRegisterInitializeSpy, CoRegisterInitializeSpy function [COM], _com_CoRegisterInitializeSpy, com.coregisterinitializespy, objbase/CoRegisterInitializeSpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

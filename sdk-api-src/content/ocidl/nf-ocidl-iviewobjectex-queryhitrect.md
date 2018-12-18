@@ -9,8 +9,6 @@ ms.assetid: eb155424-e74c-497f-a9c0-33ed3b2b5513
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitRect method, IViewObjectEx.QueryHitRect, IViewObjectEx::QueryHitRect, QueryHitRect, QueryHitRect method [COM], QueryHitRect method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitrect, com.iviewobjectex_queryhitrect, ocidl/IViewObjectEx::QueryHitRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

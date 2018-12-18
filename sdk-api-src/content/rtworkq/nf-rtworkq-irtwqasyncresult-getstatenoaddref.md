@@ -9,8 +9,6 @@ ms.assetid: DF41E4E7-015C-469A-A94F-16F06445B804
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStateNoAddRef, GetStateNoAddRef method, GetStateNoAddRef method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStateNoAddRef method, IRtwqAsyncResult.GetStateNoAddRef, IRtwqAsyncResult::GetStateNoAddRef, base.irtwqasyncresult_getstatenoaddref, rtworkq/IRtwqAsyncResult::GetStateNoAddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtworkq.h
 req.include-header: 

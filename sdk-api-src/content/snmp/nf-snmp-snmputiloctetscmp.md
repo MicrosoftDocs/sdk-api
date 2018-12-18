@@ -9,8 +9,6 @@ ms.assetid: b7d12b31-488c-4b0b-b803-516054c99c34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOctetsCmp, SnmpUtilOctetsCmp function [SNMP], _snmp_snmputiloctetscmp, snmp.snmputiloctetscmp, snmp/SnmpUtilOctetsCmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The
 ### -param pOctets1 [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a> structure to compare.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a> structure to compare.
 
 
 ### -param pOctets2 [in]
@@ -99,7 +97,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
 
 
 

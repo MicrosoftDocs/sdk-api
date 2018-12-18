@@ -9,8 +9,6 @@ ms.assetid: e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player],described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPPlaylistArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ce0058c-8839-43da-aad8-4bc423ff3cde">get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563549(v=VS.85).aspx">get_count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of playlists in the playlist array.
@@ -82,7 +80,7 @@ Retrieves the number of playlists in the playlist array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ba85800-12b9-4f14-8d68-ff6a01167308">item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563550(v=VS.85).aspx">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playlist at the specified index.
@@ -97,7 +95,7 @@ Retrieves a pointer to the <b>IWMPPlaylist</b> interface representing the playli
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 

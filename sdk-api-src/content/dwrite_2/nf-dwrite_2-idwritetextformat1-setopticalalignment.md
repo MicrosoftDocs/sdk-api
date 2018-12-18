@@ -9,8 +9,6 @@ ms.assetid: FA050DAC-2788-4159-B299-D4B6100D85F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetOpticalAlignment method, IDWriteTextFormat1.SetOpticalAlignment, IDWriteTextFormat1::SetOpticalAlignment, SetOpticalAlignment, SetOpticalAlignment method [Direct Write], SetOpticalAlignment method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setopticalalignment, dwrite_2/IDWriteTextFormat1::SetOpticalAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_2.h
 req.include-header: 

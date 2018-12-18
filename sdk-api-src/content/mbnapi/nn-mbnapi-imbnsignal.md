@@ -9,8 +9,6 @@ ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c83faaba-0355-4765-bc08-5e0e02afe8c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],QueryChanges method, IX509EnrollmentPolicyServer.QueryChanges, IX509EnrollmentPolicyServer::QueryChanges, QueryChanges, QueryChanges method [Security], QueryChanges method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::QueryChanges, security.ix509enrollmentpolicyserver_querychanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -69,7 +67,7 @@ Pointer to a Boolean value that specifies whether the collections have changed.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -83,7 +81,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-LoadOptionRegisterForADChanges was not specified in the <i>option</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a> method.
+LoadOptionRegisterForADChanges was not specified in the <i>option</i> parameter of the <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> method.
 
 </td>
 </tr>
@@ -105,7 +103,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object has not been initialized.
 
 </td>
 </tr>
@@ -119,11 +117,11 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX
 
 
 
-The <b>QueryChanges</b> method is relevant only when you specify <b>LoadOptionRegisterForADChanges</b> in the <i>option</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a> method. The method returns <b>VARIANT_TRUE</b> for either of the following cases:
+The <b>QueryChanges</b> method is relevant only when you specify <b>LoadOptionRegisterForADChanges</b> in the <i>option</i> parameter of the <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> method. The method returns <b>VARIANT_TRUE</b> for either of the following cases:
 
 <ul>
-<li>The template collection in Active Directory has changed since the last time <a href="https://msdn.microsoft.com/en-us/library/Ee351708(v=VS.85).aspx">GetTemplates</a> was called.</li>
-<li>The certification authority collection in Active Directory has changed since the last time <a href="https://msdn.microsoft.com/en-us/library/Ee351699(v=VS.85).aspx">GetCAs</a> was called.</li>
+<li>The template collection in Active Directory has changed since the last time <a href="https://msdn.microsoft.com/52dd85aa-033b-43ab-9b71-1080f969bebc">GetTemplates</a> was called.</li>
+<li>The certification authority collection in Active Directory has changed since the last time <a href="https://msdn.microsoft.com/37836fd1-e95a-4025-b268-f78a9113e568">GetCAs</a> was called.</li>
 </ul>
 
 
@@ -133,7 +131,7 @@ The <b>QueryChanges</b> method is relevant only when you specify <b>LoadOptionRe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

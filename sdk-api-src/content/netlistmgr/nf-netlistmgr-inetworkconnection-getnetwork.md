@@ -7,10 +7,8 @@ old-location: nla\inetworkconnection_getnetwork.htm
 tech.root: nla
 ms.assetid: 7de83422-58f6-40fc-b26f-074cec550247
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetNetwork method, INetworkConnection.GetNetwork, INetworkConnection::GetNetwork, netlistmgr/INetworkConnection::GetNetwork, nla.inetworkconnection_getnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

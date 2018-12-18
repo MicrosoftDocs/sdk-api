@@ -9,8 +9,6 @@ ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F53090CC-05E9-4892-B6BF-0A849A5D98EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstant method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant method, SetGraphicsRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

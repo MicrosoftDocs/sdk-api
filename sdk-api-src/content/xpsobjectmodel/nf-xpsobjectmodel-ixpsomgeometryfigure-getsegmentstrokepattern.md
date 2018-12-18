@@ -9,8 +9,6 @@ ms.assetid: 497701aa-8738-43d1-830f-7a6c00cfa2cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSegmentStrokePattern, GetSegmentStrokePattern method [XPS Documents and Packaging], GetSegmentStrokePattern method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentStrokePattern method, IXpsOMGeometryFigure.GetSegmentStrokePattern, IXpsOMGeometryFigure::GetSegmentStrokePattern, xps.ixpsomgeometryfigure_getsegmentstrokepattern, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentStrokePattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

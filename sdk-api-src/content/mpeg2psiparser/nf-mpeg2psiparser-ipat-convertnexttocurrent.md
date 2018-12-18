@@ -9,8 +9,6 @@ ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPAT.ConvertNextToCurrent, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -128,7 +126,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/2a7808b6-2e31-4cd9-a4cc-7a6a7cf46cd4">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd694785(v=VS.85).aspx">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -138,7 +136,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
  
 
  

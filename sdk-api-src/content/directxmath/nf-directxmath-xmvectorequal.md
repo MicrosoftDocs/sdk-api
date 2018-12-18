@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqual(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorEqual, XMVectorEqual, XMVectorEqual method [DirectX Math Support APIs], dxmath.xmvectorequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -111,11 +109,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f96b619f-8aa2-47ab-8a3b-48000b9008bb">XMVectorEqualInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421014(v=VS.85).aspx">XMVectorEqualInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/b16a7517-ac45-477d-8989-4e6ce0045b42">XMVectorEqualR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404785(v=VS.85).aspx">XMVectorEqualR</a>
  
 
  

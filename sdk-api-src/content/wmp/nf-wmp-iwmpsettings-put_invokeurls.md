@@ -9,8 +9,6 @@ ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_invokeURLs method, IWMPSettings.put_invokeURLs, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,15 +108,15 @@ Digital media files and streams can contain URL script commands. When a URL scri
 
 
 
-<a href="https://msdn.microsoft.com/1010961f-6d06-455a-9c14-bc06702e9e89">IWMPEvents::ScriptCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29ea1ba-8994-4d0f-8c53-8abba8fe997d">IWMPSettings::get_invokeURLs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563662(v=VS.85).aspx">IWMPSettings::get_invokeURLs</a>
  
 
  

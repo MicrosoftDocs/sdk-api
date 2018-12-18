@@ -9,8 +9,6 @@ ms.assetid: 59c80328-0f82-4289-b55d-045f0cd3dc81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICategorizer, ICategorizer interface [Windows Shell], ICategorizer interface [Windows Shell],described, inet_ICategorizer, shell.ICategorizer, shobjidl_core/ICategorizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 53fd70eb-2694-4c8c-97cd-6ee9f2606ced
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetNumAddressIDs, TSPI_lineGetNumAddressIDs function [TAPI 2.2], _tspi_tspi_linegetnumaddressids, tspi.tspi_linegetnumaddressids, tspi/TSPI_lineGetNumAddressIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

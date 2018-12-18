@@ -9,8 +9,6 @@ ms.assetid: d19a103e-0f5a-493d-a515-21d8730e39e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSequencePaddingWidth, GetSequencePaddingWidth method [Picture Acquisition], GetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequencePaddingWidth method, IPhotoAcquireSettings.GetSequencePaddingWidth, IPhotoAcquireSettings::GetSequencePaddingWidth, IPhotoAcquireSettingsGetSequencePaddingWidth, photoacquire/IPhotoAcquireSettings::GetSequencePaddingWidth, picacq.iphotoacquiresettings_getsequencepaddingwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

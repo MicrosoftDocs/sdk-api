@@ -9,8 +9,6 @@ ms.assetid: 24F68EFD-D4D6-442B-97C1-C639F570F56B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileFragmentLocality, GetFileFragmentLocality method [Direct Write], GetFileFragmentLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetFileFragmentLocality method, IDWriteRemoteFontFileStream.GetFileFragmentLocality, IDWriteRemoteFontFileStream::GetFileFragmentLocality, directwrite.idwriteremotefontfilestream_getfilefragmentlocality, dwrite_3/IDWriteRemoteFontFileStream::GetFileFragmentLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -91,7 +89,7 @@ Receives the number of contiguous bytes from the start of the fragment that have
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -103,7 +101,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/2CC73CE0-162A-4808-ACB6-A9599FD4D09F">IDWriteRemoteFontFileStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807699(v=VS.85).aspx">IDWriteRemoteFontFileStream</a>
  
 
  

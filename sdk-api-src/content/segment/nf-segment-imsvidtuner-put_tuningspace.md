@@ -9,8 +9,6 @@ ms.assetid: b1da0078-0c5e-439e-9419-670e9e0f812c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_TuningSpace method, IMSVidTuner.put_TuningSpace, IMSVidTuner::put_TuningSpace, IMSVidTunerput_TuningSpace, mstv.imsvidtuner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_TuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -77,11 +75,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d46e7d8a-5111-4737-897b-9e1357e3249a">IMSVidTuner::get_TuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694708(v=VS.85).aspx">IMSVidTuner::get_TuningSpace</a>
 
 
 

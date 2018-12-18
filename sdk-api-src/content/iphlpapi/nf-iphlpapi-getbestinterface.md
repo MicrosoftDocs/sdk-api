@@ -9,8 +9,6 @@ ms.assetid: 9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBestInterface, GetBestInterface function [IP Helper], _iphlp_getbestinterface, iphlp.getbestinterface, iphlpapi/GetBestInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

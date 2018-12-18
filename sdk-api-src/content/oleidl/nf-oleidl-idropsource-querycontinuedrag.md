@@ -9,8 +9,6 @@ ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

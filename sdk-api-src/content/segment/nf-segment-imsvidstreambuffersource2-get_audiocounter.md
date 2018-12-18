@@ -9,8 +9,6 @@ ms.assetid: 310e59e1-afde-45ed-b2d1-eecf59319935
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSource2 interface [Microsoft TV Technologies],get_AudioCounter method, IMSVidStreamBufferSource2.get_AudioCounter, IMSVidStreamBufferSource2::get_AudioCounter, IMSVidStreamBufferSource2get_AudioCounter, get_AudioCounter, get_AudioCounter method [Microsoft TV Technologies], get_AudioCounter method [Microsoft TV Technologies],IMSVidStreamBufferSource2 interface, mstv.imsvidstreambuffersource2_get_audiocounter, segment/IMSVidStreamBufferSource2::get_AudioCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -102,11 +100,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/47012868-4c9e-4974-8549-11331836bed0">IMSVidStreamBufferSource2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694662(v=VS.85).aspx">IMSVidStreamBufferSource2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9def9b51-bae7-49a2-b32f-61811be63c58">get_VideoCounter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694665(v=VS.85).aspx">get_VideoCounter</a>
  
 
  

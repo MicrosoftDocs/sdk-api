@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_827g.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],Cancel method, IFaxOutgoingJob.Cancel, IFaxOutgoingJob::Cancel, _mfax_faxoutgoingjob.cancel, fax._mfax_faxoutgoingjob_cancel, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_cancel_cpp, faxcomex/IFaxOutgoingJob::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -75,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When you cancel a job that is not part of a broadcast or when you cancel an entire broadcast, the <a href="https://msdn.microsoft.com/904de452-446a-4dbf-9d32-b83f26a715bf">Count</a> property is updated to reflect the change in the number of outgoing jobs. However, if you cancel a single fax from a broadcast, the <b>Count</b> property does not reflect the change. The canceled fax remains in the outgoing queue, so that you can view the status of all faxes from the broadcast.
+When you cancel a job that is not part of a broadcast or when you cancel an entire broadcast, the <a href="https://msdn.microsoft.com/en-us/library/ms689537(v=VS.85).aspx">Count</a> property is updated to reflect the change in the number of outgoing jobs. However, if you cancel a single fax from a broadcast, the <b>Count</b> property does not reflect the change. The canceled fax remains in the outgoing queue, so that you can view the status of all faxes from the broadcast.
 
 To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a> or <b>farMANAGE_JOBS</b> access right. With the <b>farSUBMIT_LOW</b> access right, users will be able to use this method only for their own faxes. With the <b>farMANAGE_JOBS</b> access right, users will be able to use this method for all faxes on the server.
 

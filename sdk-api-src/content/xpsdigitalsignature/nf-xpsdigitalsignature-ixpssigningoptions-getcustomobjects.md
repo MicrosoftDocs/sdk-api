@@ -9,8 +9,6 @@ ms.assetid: 17a3f913-57f2-40e1-b886-6cefb9e42a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomObjects, GetCustomObjects method [XPS Documents and Packaging], GetCustomObjects method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomObjects method, IXpsSigningOptions.GetCustomObjects, IXpsSigningOptions::GetCustomObjects, xps.ixpssigningoptions_getcustomobjects, xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

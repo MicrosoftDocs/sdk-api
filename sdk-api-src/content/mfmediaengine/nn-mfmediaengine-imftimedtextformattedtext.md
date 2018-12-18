@@ -9,8 +9,6 @@ ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

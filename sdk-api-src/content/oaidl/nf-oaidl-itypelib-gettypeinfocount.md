@@ -9,8 +9,6 @@ ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

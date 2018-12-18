@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4ReciprocalLengthEst(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4ReciprocalLengthEst, XMVector4ReciprocalLengthEst, XMVector4ReciprocalLengthEst method [DirectX Math Support APIs], dxmath.xmvector4reciprocallengthest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -95,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ea6e9f45-469a-40fe-a4cb-d1011fd6f457">XMVector4ReciprocalLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420981(v=VS.85).aspx">XMVector4ReciprocalLength</a>
  
 
  

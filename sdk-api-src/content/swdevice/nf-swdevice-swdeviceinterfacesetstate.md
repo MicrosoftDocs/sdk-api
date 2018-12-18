@@ -9,8 +9,6 @@ ms.assetid: 09430CEF-F386-4F08-9D11-78E61C44468D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwDeviceInterfaceSetState, SwDeviceInterfaceSetState function, swdevice.swdeviceinterfacesetstate, swdevice/SwDeviceInterfaceSetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swdevice.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 51254edf-420b-42a3-a3b8-a71c23a4cb49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionName property, ICOMAdminCatalog2.CurrentPartitionName, ICOMAdminCatalog2.get_CurrentPartitionName, ICOMAdminCatalog2::CurrentPartitionName, ICOMAdminCatalog2::get_CurrentPartitionName, _cos_IComAdminCatalog2_get_CurrentPartitionName, comadmin/ICOMAdminCatalog2::CurrentPartitionName, comadmin/ICOMAdminCatalog2::get_CurrentPartitionName, cos.icomadmincatalog2_currentpartitionname, get_CurrentPartitionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

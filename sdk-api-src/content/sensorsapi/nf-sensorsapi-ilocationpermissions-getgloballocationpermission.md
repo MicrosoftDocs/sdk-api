@@ -9,8 +9,6 @@ ms.assetid: 8a2fbf9f-4b9b-4d2b-8ffc-c9491f7b8ed1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGlobalLocationPermission, GetGlobalLocationPermission method, GetGlobalLocationPermission method,ILocationPermissions interface, ILocationPermissions interface,GetGlobalLocationPermission method, ILocationPermissions.GetGlobalLocationPermission, ILocationPermissions::GetGlobalLocationPermission, sensorsapi/ILocationPermissions::GetGlobalLocationPermission, winsensors_com_ref.ilocationpermissions_getgloballocationpermission
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

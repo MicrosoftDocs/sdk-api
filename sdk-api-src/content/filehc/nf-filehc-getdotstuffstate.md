@@ -9,8 +9,6 @@ ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

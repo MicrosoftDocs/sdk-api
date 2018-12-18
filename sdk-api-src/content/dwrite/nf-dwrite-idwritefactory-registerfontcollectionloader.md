@@ -9,8 +9,6 @@ ms.assetid: 495f8f56-42b6-4731-a26e-5da2c56a28ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFactory interface [Direct Write],RegisterFontCollectionLoader method, IDWriteFactory.RegisterFontCollectionLoader, IDWriteFactory::RegisterFontCollectionLoader, RegisterFontCollectionLoader, RegisterFontCollectionLoader method [Direct Write], RegisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_RegisterFontCollectionLoader, dwrite/IDWriteFactory::RegisterFontCollectionLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

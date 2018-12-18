@@ -9,8 +9,6 @@ ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMinDiffAreaSize, GetMinDiffAreaSize method [VSS], GetMinDiffAreaSize method [VSS],IVssSnapshotMgmt2 interface, IVssSnapshotMgmt2 interface [VSS],GetMinDiffAreaSize method, IVssSnapshotMgmt2.GetMinDiffAreaSize, IVssSnapshotMgmt2::GetMinDiffAreaSize, base.ivsssnapshotmgmt2_getmindiffareasize, vsmgmt/IVssSnapshotMgmt2::GetMinDiffAreaSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

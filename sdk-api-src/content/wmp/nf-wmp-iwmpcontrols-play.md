@@ -9,8 +9,6 @@ ms.assetid: 45b5634b-6d23-4e61-90e4-ef0cc9d90a14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],play method, IWMPControls.play, IWMPControls::play, IWMPControlsplay, play, play method [Windows Media Player], play method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_play, wmp/IWMPControls::play
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,11 +103,11 @@ If this method is called while fast-forwarding or rewinding, the rate of playbac
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d4282b0-08a9-4c66-ab8b-93429e77e05d">IWMPControls::playItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563206(v=VS.85).aspx">IWMPControls::playItem</a>
  
 
  

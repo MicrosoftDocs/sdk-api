@@ -7,10 +7,8 @@ old-location: p2p\peergroupuniversaltimetopeertime.htm
 tech.root: P2PSdk
 ms.assetid: 8d64c66a-96c3-48c4-82fa-c57554074729
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupUniversalTimeToPeerTime, PeerGroupUniversalTimeToPeerTime function [Peer Networking], p2p.peergroupuniversaltimetopeertime, p2p/PeerGroupUniversalTimeToPeerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c93351f5-1829-4405-b665-00f2e78391e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],SetIsdbCasRequest method, IBDA_ISDBConditionalAccess.SetIsdbCasRequest, IBDA_ISDBConditionalAccess::SetIsdbCasRequest, SetIsdbCasRequest, SetIsdbCasRequest method [Microsoft TV Technologies], SetIsdbCasRequest method [Microsoft TV Technologies],IBDA_ISDBConditionalAccess interface, bdaiface/IBDA_ISDBConditionalAccess::SetIsdbCasRequest, mstv.ibda_isdbconditionalaccess_setisdbcasrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sends a conditional access system (CAS) command for Integrated Services Digital 
 
 ### -param ulRequestId [in]
 
-The numeric code for the CAS command. The ARIB standard defines these values. Enumeration constants for some commands are defined in the <a href="https://msdn.microsoft.com/en-us/library/Dd694912(v=VS.85).aspx">ISDBCAS_REQUEST_ID</a> enumeration.
+The numeric code for the CAS command. The ARIB standard defines these values. Enumeration constants for some commands are defined in the <a href="https://msdn.microsoft.com/5c8a97bb-9d8b-4f4f-aeab-e8bf199a652e">ISDBCAS_REQUEST_ID</a> enumeration.
 
 
 ### -param ulcbRequestBufferLen [in]

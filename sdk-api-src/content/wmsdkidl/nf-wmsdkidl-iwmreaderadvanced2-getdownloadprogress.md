@@ -9,8 +9,6 @@ ms.assetid: 06bff83f-c3f2-4eca-85dd-7e7b93cfd73d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDownloadProgress, GetDownloadProgress method [windows Media Format], GetDownloadProgress method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetDownloadProgress method, IWMReaderAdvanced2.GetDownloadProgress, IWMReaderAdvanced2::GetDownloadProgress, IWMReaderAdvanced2GetDownloadProgress, wmformat.iwmreaderadvanced2_getdownloadprogress, wmsdkidl/IWMReaderAdvanced2::GetDownloadProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -108,11 +106,11 @@ Before the first WMT_BUFFERING_START event, all the parameters return zero. Betw
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/da47fc9f-7762-4f92-8857-44a75a4cd00b">WMT_PLAY_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757850(v=VS.85).aspx">WMT_PLAY_MODE</a>
  
 
  

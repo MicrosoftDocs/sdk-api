@@ -9,8 +9,6 @@ ms.assetid: e165356c-b14b-47dc-b046-a74499251cab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCert, GetCert method [windows Media Format], GetCert method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCert method, IWMAuthorizer.GetCert, IWMAuthorizer::GetCert, wmformat.iwmauthorizer_getcert, wmsecure/IWMAuthorizer::GetCert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -85,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/eece7e36-7c3e-4bc4-9b5a-8142a062dbce">IWMAuthorizer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743287(v=VS.85).aspx">IWMAuthorizer</a>
  
 
  

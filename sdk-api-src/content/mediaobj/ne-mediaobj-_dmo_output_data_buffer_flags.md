@@ -9,8 +9,6 @@ ms.assetid: 80ce44a7-4b69-4aed-8b28-10e84a658f12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE, DMO_OUTPUT_DATA_BUFFERF_SYNCPOINT, DMO_OUTPUT_DATA_BUFFERF_TIME, DMO_OUTPUT_DATA_BUFFERF_TIMELENGTH, DMO_OUTPUT_DATA_BUFFER_FLAGS , DMO_OUTPUT_DATA_BUFFER_FLAGSEnumeration, _DMO_OUTPUT_DATA_BUFFER_FLAGS, _DMO_OUTPUT_DATA_BUFFER_FLAGS enumeration [DirectShow], dshow.dmo_output_data_buffer_flags, mediaobj/DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE, mediaobj/DMO_OUTPUT_DATA_BUFFERF_SYNCPOINT, mediaobj/DMO_OUTPUT_DATA_BUFFERF_TIME, mediaobj/DMO_OUTPUT_DATA_BUFFERF_TIMELENGTH, mediaobj/_DMO_OUTPUT_DATA_BUFFER_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
@@ -99,7 +97,7 @@ There is still input data available for processing, but the output buffer is ful
 
 
 
-<a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>
  
 
  

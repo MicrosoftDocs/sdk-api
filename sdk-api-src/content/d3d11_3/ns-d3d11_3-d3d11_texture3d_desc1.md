@@ -9,8 +9,6 @@ ms.assetid: DC20371E-6675-4AAC-A7F6-DC523BB8DBF6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_TEXTURE3D_DESC1, D3D11_TEXTURE3D_DESC1, D3D11_TEXTURE3D_DESC1 structure [Direct3D 11], d3d11_3/D3D11_TEXTURE3D_DESC1, direct3d11.d3d11_texture3d_desc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

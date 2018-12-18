@@ -9,8 +9,6 @@ ms.assetid: 9a61943a-8ff9-4504-b76f-25e3c5c8d4a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetUDPPortRanges method, IWMReaderNetworkConfig.SetUDPPortRanges, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,15 +125,15 @@ If no ranges are specified by the application, port numbers are selected by the 
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1792fd0-e9c3-4e28-9928-a615e1c9aec8">IWMReaderNetworkConfig::GetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743536(v=VS.85).aspx">IWMReaderNetworkConfig::GetUDPPortRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/122db3fa-36bb-4d0c-9d05-0b7ae37f9187">WM_PORT_NUMBER_RANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757979(v=VS.85).aspx">WM_PORT_NUMBER_RANGE</a>
  
 
  

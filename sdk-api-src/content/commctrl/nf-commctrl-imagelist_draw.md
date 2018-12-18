@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_draw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_Draw, ImageList_Draw function [Windows Controls], _win32_ImageList_Draw, _win32_ImageList_Draw_cpp, commctrl/ImageList_Draw, controls.ImageList_Draw, controls._win32_ImageList_Draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The zero-based index of the image to draw.
 
 ### -param hdcDst
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HDC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
 
 A handle to the destination device context. 
 
@@ -96,7 +94,7 @@ The y-coordinate at which to draw within the specified device context.
 
 ### -param fStyle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The drawing style and, optionally, the overlay image. For information about specifying an overlay image index, see the comments section at the end of this topic. This parameter can be a combination of an overlay image index and one or more of the following values: 
 
@@ -194,7 +192,7 @@ Draws the image transparently using the mask, regardless of the background color
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 

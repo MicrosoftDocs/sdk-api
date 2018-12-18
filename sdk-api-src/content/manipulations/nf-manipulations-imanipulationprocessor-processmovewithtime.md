@@ -9,8 +9,6 @@ ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

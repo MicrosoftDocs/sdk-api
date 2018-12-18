@@ -9,8 +9,6 @@ ms.assetid: 5A73A81A-72A3-4794-86E5-9CA8FCA200C0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fhcfg.h
 req.include-header: 

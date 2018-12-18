@@ -9,8 +9,6 @@ ms.assetid: 6a46ca72-b19d-4fd3-b783-2d182326deb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProgressDialog interface [Windows Shell],StopProgressDialog method, IProgressDialog.StopProgressDialog, IProgressDialog::StopProgressDialog, StopProgressDialog, StopProgressDialog method [Windows Shell], StopProgressDialog method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_StopProgressDialog, shell.IProgressDialog_StopProgressDialog, shlobj_core/IProgressDialog::StopProgressDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

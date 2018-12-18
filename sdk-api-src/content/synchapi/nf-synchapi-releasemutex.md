@@ -9,8 +9,6 @@ ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
@@ -68,7 +66,7 @@ Releases ownership of the specified mutex object.
 
 A handle to the mutex object. The 
 <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> or 
-<a href="https://msdn.microsoft.com/0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11">OpenMutex</a> function returns this handle. 
+<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function returns this handle. 
 
 
 

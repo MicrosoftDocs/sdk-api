@@ -9,8 +9,6 @@ ms.assetid: 8E44A677-8C08-4343-BFA4-D4B536DB082B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HSSetConstantBuffers1, HSSetConstantBuffers1 method [Direct3D 11], HSSetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],HSSetConstantBuffers1 method, ID3D11DeviceContext1.HSSetConstantBuffers1, ID3D11DeviceContext1::HSSetConstantBuffers1, d3d11_1/ID3D11DeviceContext1::HSSetConstantBuffers1, direct3d11.id3d11devicecontext1_hssetconstantbuffers1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Sets the constant buffers that the <a href="https://msdn.microsoft.com/en-us/library/Ff476340(v=VS.85).aspx">hull-shader stage</a> of the pipeline uses.
+Sets the constant buffers that the <a href="https://msdn.microsoft.com/4ad2fd3e-6e1a-4326-8469-3198acf931dc">hull-shader stage</a> of the pipeline uses.
 
 
 ## -parameters
@@ -105,12 +103,12 @@ From the shader’s point of view, element [0] in the constant buffers array is 
 
 Out of bounds access to the constant buffers from the shader to the range that is defined by <i>pFirstConstant</i> and <i>pNumConstants</i> returns 0. 
 
-If the <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/en-us/library/Ff476445(v=VS.85).aspx">HSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
+If the <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/8e3007ac-de5e-45ee-bb58-644dc857c279">HSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
 
 If either <i>pFirstConstant</i> or <i>pNumConstants</i> is <b>NULL</b>, the other parameter must also be <b>NULL</b>.
 
 <h3><a id="Calling_HSSetConstantBuffers1_with_command_list_emulation"></a><a id="calling_hssetconstantbuffers1_with_command_list_emulation"></a><a id="CALLING_HSSETCONSTANTBUFFERS1_WITH_COMMAND_LIST_EMULATION"></a>Calling HSSetConstantBuffers1 with command list emulation</h3>
-The runtime's <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command list</a> emulation of <b>HSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
+The runtime's <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command list</a> emulation of <b>HSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
 
 <b>HSSetConstantBuffers1</b> doesn't effectively change the constant buffers at the beginning and end of the range of slots that you set to update. This section shows how to work around this 
 
@@ -198,7 +196,7 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
  
 
  

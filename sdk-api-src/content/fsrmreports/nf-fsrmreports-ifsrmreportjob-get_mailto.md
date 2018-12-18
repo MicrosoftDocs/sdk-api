@@ -9,8 +9,6 @@ ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.get_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, get_MailTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnableHTTP, GetEnableHTTP method [windows Media Format], GetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableHTTP method, IWMReaderNetworkConfig.GetEnableHTTP, IWMReaderNetworkConfig::GetEnableHTTP, IWMReaderNetworkConfigGetEnableHTTP, wmformat.iwmreadernetworkconfig_getenablehttp, wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20667a28-e6e0-4ec0-905b-6735291063db">IWMReaderNetworkConfig::SetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743541(v=VS.85).aspx">IWMReaderNetworkConfig::SetEnableHTTP</a>
  
 
  

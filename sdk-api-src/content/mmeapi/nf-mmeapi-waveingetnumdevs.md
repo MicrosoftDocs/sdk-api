@@ -9,8 +9,6 @@ ms.assetid: d8cb3c6c-edf7-4035-86da-b13fbdeddf6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveInGetNumDevs, mmeapi/waveInGetNumDevs, multimedia.waveingetnumdevs, waveInGetNumDevs, waveInGetNumDevs function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

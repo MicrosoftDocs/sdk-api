@@ -9,8 +9,6 @@ ms.assetid: 62b8281e-6feb-43f5-b1a5-36444fda5543
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfig.SetScalingFactors, IVPConfig::SetScalingFactors, IVPConfigSetScalingFactors, SetScalingFactors, SetScalingFactors method [DirectShow], SetScalingFactors method [DirectShow],IVPConfig interface, dshow.ivpconfig_setscalingfactors, vpconfig/IVPConfig::SetScalingFactors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>SetScalingFactors</code> method sets the factors by which the decoder 
 
 ### -param pamvpSize [in]
 
-Pointer to the new scaling size structure (<a href="https://msdn.microsoft.com/e36163bc-a7ea-421e-b876-2d459ecb11e8">AMVPSIZE</a>) to use to specify the width and height.
+Pointer to the new scaling size structure (<a href="https://msdn.microsoft.com/en-us/library/Dd373452(v=VS.85).aspx">AMVPSIZE</a>) to use to specify the width and height.
 
 
 ## -returns
@@ -96,7 +94,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/2c0eb294-7e57-4d8d-98b1-57c3834279a0">IVPConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig Interface</a>
  
 
  

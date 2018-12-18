@@ -9,8 +9,6 @@ ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -107,7 +105,7 @@ Setting this coordinate does not affect the destination rectangle height.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 37347dd8-07c2-4521-a5f0-a51053634704
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnPinManagerEvents interface [Microsoft Broadband Networks],OnPinListAvailable method, IMbnPinManagerEvents.OnPinListAvailable, IMbnPinManagerEvents::OnPinListAvailable, OnPinListAvailable, OnPinListAvailable method [Microsoft Broadband Networks], OnPinListAvailable method [Microsoft Broadband Networks],IMbnPinManagerEvents interface, mbn.imbnpinmanagerevents_onpinlistavailable, mbnapi/IMbnPinManagerEvents::OnPinListAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

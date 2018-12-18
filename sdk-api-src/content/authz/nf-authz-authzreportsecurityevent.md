@@ -9,8 +9,6 @@ ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 043ee1c2-0012-4e64-8565-db8400a05439
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 043ee1c2-0012-4e64-8565-db8400a05439, IDM_Ink, IDM_Text, InkDisplayMode, InkDisplayMode enumeration [Tablet PC], inked/IDM_Ink, inked/IDM_Text, inked/InkDisplayMode, tablet.inkdisplaymode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

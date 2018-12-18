@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxKillTimer method, ITextHost.TxKillTimer, ITextHost::TxKillTimer, TxKillTimer, TxKillTimer method [Windows Controls], TxKillTimer method [Windows Controls],ITextHost interface, _win32_ITextHost_TxKillTimer, _win32_ITextHost_TxKillTimer_cpp, controls.ITextHost_TxKillTimer, controls._win32_ITextHost_TxKillTimer, textserv/ITextHost::TxKillTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0E307900-EA2F-44A4-A379-3192A234E399
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPublisher, GetPublisher method [App packaging and management], GetPublisher method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetPublisher method, IAppxManifestPackageDependency.GetPublisher, IAppxManifestPackageDependency::GetPublisher, appxpackaging/IAppxManifestPackageDependency::GetPublisher, appxpkg.iappxmanifestpackagedependency_getpublisher
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

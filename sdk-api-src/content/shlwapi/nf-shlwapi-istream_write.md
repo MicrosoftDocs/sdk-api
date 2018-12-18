@@ -9,8 +9,6 @@ ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStream_Write, shell.IStream_Write, shlwapi/IStream_Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

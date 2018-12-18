@@ -9,8 +9,6 @@ ms.assetid: 7b1d07b8-41e4-44f8-8c28-377c7a9e463d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-Calling the <a href="https://msdn.microsoft.com/8e61fd8a-9ea0-48c1-8749-780b0363c12d">IMSVidRect::put_Left</a> method changes the width of the rectangle. For example, if the x-coordinate is zero and the width is 100, setting the x-coordinate to 10 changes the width to 90.
+Calling the <a href="https://msdn.microsoft.com/en-us/library/Dd694611(v=VS.85).aspx">IMSVidRect::put_Left</a> method changes the width of the rectangle. For example, if the x-coordinate is zero and the width is 100, setting the x-coordinate to 10 changes the width to 90.
 
 
 
@@ -90,7 +88,7 @@ Calling the <a href="https://msdn.microsoft.com/8e61fd8a-9ea0-48c1-8749-780b0363
 
 
 
-<a href="https://msdn.microsoft.com/35eed36a-de3e-4bb6-8b1b-179ba72b568a">IMSVidRect::put_Width</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694614(v=VS.85).aspx">IMSVidRect::put_Width</a>
  
 
  

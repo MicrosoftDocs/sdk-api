@@ -9,8 +9,6 @@ ms.assetid: cc3eb6f3-c539-42c4-847a-5d1e80c53255
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPMT.ConvertNextToCurrent, IPMT::ConvertNextToCurrent, IPMTConvertNextToCurrent, mpeg2psiparser/IPMT::ConvertNextToCurrent, mstv.ipmt_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -128,7 +126,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/4759c813-3a1f-492a-bca9-cb6610f6426b">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd694839(v=VS.85).aspx">IPMT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -138,7 +136,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

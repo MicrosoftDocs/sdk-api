@@ -9,8 +9,6 @@ ms.assetid: 1b35b026-1fc1-44e8-befc-211d3387bc92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], BeginWrite method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginWrite method, IWMDMOperation.BeginWrite, IWMDMOperation::BeginWrite, IWMDMOperationBeginWrite, mswmdm/IWMDMOperation::BeginWrite, wmdm.iwmdmoperation_beginwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

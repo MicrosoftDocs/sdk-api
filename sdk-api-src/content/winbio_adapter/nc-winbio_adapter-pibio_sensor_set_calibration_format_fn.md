@@ -9,8 +9,6 @@ ms.assetid: 06BC3CBF-AB51-47C8-BCFB-ADC3D920F27B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN, PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN callback, SensorAdapterSetCalibrationFormat, SensorAdapterSetCalibrationFormat callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetcalibrationformat, winbio_adapter/SensorAdapterSetCalibrationFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

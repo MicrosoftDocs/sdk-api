@@ -7,10 +7,8 @@ old-location: opengl\wglgetcurrentcontext.htm
 tech.root: OpenGL
 ms.assetid: 8e2a4f24-689c-48b7-a06e-fc57d65b5567
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 58f794cc-da10-4772-9afe-078337b7734b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Skip method, IEnumACDGroup.Skip, IEnumACDGroup::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_skip, tapi3.ienumacdgroup_skip, tapi3cc/IEnumACDGroup::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

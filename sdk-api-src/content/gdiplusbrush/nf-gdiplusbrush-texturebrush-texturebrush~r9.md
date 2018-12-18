@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\textu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush~r9, TextureBrush::TextureBrush, TextureBrush::TextureBrush~r9, _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetDMTF@WBEMTime@@QBEPAGH@Z, ?GetDMTF@WBEMTime@@QEBAPEAGH@Z, GetDMTF, GetDMTF method [Windows Management Instrumentation], GetDMTF method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTF method, WBEMTime.GetDMTF, WBEMTime::GetDMTF, _hmm_wbemtime_getdmtf, wbemtime/WBEMTime::GetDMTF, wmi.wbemtime_getdmtf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
@@ -100,11 +98,11 @@ The calling function must call <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/f1fe92cc-1d51-4bd7-950b-84c76b001163">WBEMTime::GetBSTR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394018(v=VS.85).aspx">WBEMTime::GetBSTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730">WBEMTime::SetDMTF</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394041(v=VS.85).aspx">WBEMTime::SetDMTF</a>
  
 
  

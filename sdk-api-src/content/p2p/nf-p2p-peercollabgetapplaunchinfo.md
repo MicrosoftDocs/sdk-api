@@ -7,10 +7,8 @@ old-location: p2p\peercollabgetapplaunchinfo.htm
 tech.root: P2PSdk
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabGetAppLaunchInfo, PeerCollabGetAppLaunchInfo function [Peer Networking], p2p.peercollabgetapplaunchinfo, p2p/PeerCollabGetAppLaunchInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

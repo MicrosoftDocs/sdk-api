@@ -9,8 +9,6 @@ ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRDPViewerInputSink.SendMouseWheelEvent, IRDPViewerInputSink::SendMouseWheelEvent, SendMouseWheelEvent, SendMouseWheelEvent method [RDP], SendMouseWheelEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousewheelevent, rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

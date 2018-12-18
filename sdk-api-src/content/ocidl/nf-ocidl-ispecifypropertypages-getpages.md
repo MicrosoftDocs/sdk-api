@@ -9,8 +9,6 @@ ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

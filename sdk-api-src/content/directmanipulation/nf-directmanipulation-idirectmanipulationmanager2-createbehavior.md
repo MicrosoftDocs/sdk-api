@@ -9,8 +9,6 @@ ms.assetid: 8890E44F-595A-4116-B4A4-F10FAEE598B7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBehavior, CreateBehavior method [Direct Manipulation], CreateBehavior method [Direct Manipulation],IDirectManipulationManager2 interface, IDirectManipulationManager2 interface [Direct Manipulation],CreateBehavior method, IDirectManipulationManager2.CreateBehavior, IDirectManipulationManager2::CreateBehavior, directmanipulation.idirectmanipulationmanager2_createbehavior, directmanipulation/IDirectManipulationManager2::CreateBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCICloseProvider, DCICloseProvider function [Windows API], _dciman_dcicloseprovider, dciman/DCICloseProvider, winprog._dciman_dcicloseprovider, winui._dciman_dcicloseprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

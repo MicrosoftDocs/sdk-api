@@ -9,8 +9,6 @@ ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -73,7 +71,7 @@ Reserved for future use.
 
 
 
-To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="https://msdn.microsoft.com/en-us/library/Aa377319(v=VS.85).aspx">NonMembers</a> property.
+To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="https://msdn.microsoft.com/43bdd205-4750-4ff6-8063-8de2c5962b09">NonMembers</a> property.
 
 
 

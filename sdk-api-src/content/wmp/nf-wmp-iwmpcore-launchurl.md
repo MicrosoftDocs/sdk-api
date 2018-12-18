@@ -9,8 +9,6 @@ ms.assetid: 439bb4a7-801a-4bef-b791-b8a9cb24ab34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],launchURL method, IWMPCore.launchURL, IWMPCore::launchURL, IWMPCorelaunchURL, launchURL, launchURL method [Windows Media Player], launchURL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_launchurl, wmp/IWMPCore::launchURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ This method only opens webpages using the HTTP or HTTPS protocols.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

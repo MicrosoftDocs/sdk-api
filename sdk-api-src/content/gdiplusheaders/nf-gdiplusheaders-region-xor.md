@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Region.Xor, Region::Xor, Xor, Xor methods [GDI+], _gdiplus_CLASS_Region_Xor_Methods, gdiplus._gdiplus_CLASS_Region_Xor_Methods, gdiplusheaders/Xor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

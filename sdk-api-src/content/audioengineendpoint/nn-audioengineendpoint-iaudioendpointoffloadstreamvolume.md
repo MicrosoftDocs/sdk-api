@@ -9,8 +9,6 @@ ms.assetid: 73FD2289-8414-4A63-A518-634D6F2DF48D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], IAudioEndpointOffloadStreamVolume interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamVolume, coreaudio.iaudioendpointoffloadstreamvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

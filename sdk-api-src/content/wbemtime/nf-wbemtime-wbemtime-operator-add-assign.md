@@ -9,8 +9,6 @@ ms.assetid: fedfce44-1da2-4443-8634-e341ffae999a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator+= method, WBEMTime.operator+=, WBEMTime.operator-add-assign, WBEMTime::operator+=, WBEMTime::operator-add-assign, _hmm_wbemtime_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+=, wmi.wbemtime_operator_plus_equal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
@@ -67,5 +65,5 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 ### -param ts [ref]
 
-Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object, whose time is added to the specified object.
+Reference to the <a href="https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx">WBEMTimeSpan</a> object, whose time is added to the specified object.
 

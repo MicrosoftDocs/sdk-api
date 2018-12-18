@@ -9,8 +9,6 @@ ms.assetid: 190cec53-5cd9-4bd0-b8d9-23c5389fe231
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentItem method, IWMPControls.put_currentItem, IWMPControls::put_currentItem, IWMPControlsput_currentItem, put_currentItem, put_currentItem method [Windows Media Player], put_currentItem method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentitem, wmp/IWMPControls::put_currentItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,19 +106,19 @@ This method works only with items in the playlist. Calling <b>put_currentItem</b
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c2443cd-d7e6-466f-b728-ad04a415d192">IWMPControls::get_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563197(v=VS.85).aspx">IWMPControls::get_currentItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d837c57-8612-47ef-a0fa-a3ffa77ac704">IWMPPlaylistCollection::getByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563554(v=VS.85).aspx">IWMPPlaylistCollection::getByName</a>
  
 
  

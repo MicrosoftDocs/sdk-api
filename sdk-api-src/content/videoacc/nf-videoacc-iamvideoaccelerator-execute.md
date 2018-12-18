@@ -9,8 +9,6 @@ ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -96,7 +94,7 @@ Number of elements in the <i>pamvaBufferInfo</i> array.
 
 ### -param pamvaBufferInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/8b018c40-44ae-4033-97b3-efa4b4c1bfb2">AMVABUFFERINFO</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd373443(v=VS.85).aspx">AMVABUFFERINFO</a> structures.
           
 
 
@@ -222,7 +220,7 @@ Private data can be passed to and from a driver.
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

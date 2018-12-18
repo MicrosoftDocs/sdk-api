@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\cust
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeCaps method, CustomLineCap.GetStrokeCaps, CustomLineCap::GetStrokeCaps, GetStrokeCaps, GetStrokeCaps method [GDI+], GetStrokeCaps method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeCaps_startCap_endCap_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

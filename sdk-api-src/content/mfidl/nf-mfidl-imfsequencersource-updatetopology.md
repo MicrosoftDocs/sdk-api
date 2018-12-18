@@ -9,8 +9,6 @@ ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface [Media Foundation],UpdateTopology method, IMFSequencerSource.UpdateTopology, IMFSequencerSource::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFSequencerSource interface, mf.imfsequencersource_updatetopology, mfidl/IMFSequencerSource::UpdateTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

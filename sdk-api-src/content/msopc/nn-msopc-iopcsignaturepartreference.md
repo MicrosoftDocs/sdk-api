@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturepartreference.htm
 tech.root: OPC
 ms.assetid: b4bbf854-96b4-412b-a22d-c810423a3752
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcSignaturePartReference, IOpcSignaturePartReference interface [Open Packaging Conventions], IOpcSignaturePartReference interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReference, opc.iopcsignaturepartreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

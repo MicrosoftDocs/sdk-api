@@ -9,8 +9,6 @@ ms.assetid: d9e915c0-3443-4464-9e3e-e1fbfe37e838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleControlSite interface [COM],OnControlInfoChanged method, IOleControlSite.OnControlInfoChanged, IOleControlSite::OnControlInfoChanged, OnControlInfoChanged, OnControlInfoChanged method [COM], OnControlInfoChanged method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_oncontrolinfochanged, com.iolecontrolsite_oncontrolinfochanged, ocidl/IOleControlSite::OnControlInfoChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

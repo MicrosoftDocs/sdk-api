@@ -9,8 +9,6 @@ ms.assetid: 4b8928a0-1d72-47ee-a357-47fb5777d60c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMCreateClientSession, DRMCreateClientSession function [Active Directory Rights Management Services SDK 1.0], DRM_DEFAULTGROUPIDTYPE_PASSPORT, DRM_DEFAULTGROUPIDTYPE_WINDOWSAUTH, msdrm/DRMCreateClientSession, rm.drmcreateclientsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

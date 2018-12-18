@@ -9,8 +9,6 @@ ms.assetid: 32ccf4a7-9d07-45e1-93db-29eddee01680
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsGetSupportedNamespaceVersion, NetDfsGetSupportedNamespaceVersion function [Distributed File System], dfs.netdfsgetsupportednamespaceversion, fs.netdfsgetsupportednamespaceversion, lmdfs/NetDfsGetSupportedNamespaceVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
@@ -60,7 +58,7 @@ Determines the supported metadata version number.
 
 ### -param Origin [in]
 
-A <a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a> enumeration value that specifies the origin of the DFS namespace version.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a> enumeration value that specifies the origin of the DFS namespace version.
 
 
 ### -param pName [in]
@@ -107,7 +105,7 @@ Thus, the maximum DFS metadata version number that can be used for a new DFS nam
 
 
 
-<a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a>
 
 
 

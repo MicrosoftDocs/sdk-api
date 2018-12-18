@@ -9,8 +9,6 @@ ms.assetid: bea8f6da-f781-430f-b1cd-c28e11cc61bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyInfo, GetPropertyInfo method [Windows Controls], GetPropertyInfo method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPropertyInfo method, ITextFont2.GetPropertyInfo, ITextFont2::GetPropertyInfo, controls.itextfont2_getpropertyinfo, tom/ITextFont2::GetPropertyInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

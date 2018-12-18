@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\cust
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CustomLineCap class [GDI+],SetBaseCap method, CustomLineCap.SetBaseCap, CustomLineCap::SetBaseCap, SetBaseCap, SetBaseCap method [GDI+], SetBaseCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_, gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

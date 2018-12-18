@@ -9,8 +9,6 @@ ms.assetid: 3e84f608-73a7-448b-b45e-a0c348238251
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddIncludeFiles, AddIncludeFiles method [VSS], AddIncludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddIncludeFiles method, IVssCreateWriterMetadata.AddIncludeFiles, IVssCreateWriterMetadata::AddIncludeFiles, _win32_ivsscreatewritermetadata_addincludefiles, base.ivsscreatewritermetadata_addincludefiles, vswriter/IVssCreateWriterMetadata::AddIncludeFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

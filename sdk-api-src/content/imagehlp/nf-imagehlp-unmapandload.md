@@ -9,8 +9,6 @@ ms.assetid: 63a39d2b-a3a1-4c91-be93-f9a681756293
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

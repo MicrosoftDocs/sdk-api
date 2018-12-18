@@ -9,8 +9,6 @@ ms.assetid: 22024108-398e-4a05-b5ed-311583c69497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getMediaAtom method, IWMPMediaCollection.getMediaAtom, IWMPMediaCollection::getMediaAtom, IWMPMediaCollectiongetMediaAtom, getMediaAtom, getMediaAtom method [Windows Media Player], getMediaAtom method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getmediaatom, wmp/IWMPMediaCollection::getMediaAtom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,15 +113,15 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2e803df-84f2-4c23-9872-a5435977d189">IWMPMedia::getItemInfoByAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563432(v=VS.85).aspx">IWMPMedia::getItemInfoByAtom</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
  
 
  

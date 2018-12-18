@@ -9,8 +9,6 @@ ms.assetid: a6780070-d8de-40f9-8163-e5306e2aa1cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromBuffer, InitPropVariantFromBuffer function [Windows Properties], properties.InitPropVariantFromBuffer, propvarutil/InitPropVariantFromBuffer, shell.InitPropVariantFromBuffer, shell_InitPropVariantFromBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -99,7 +97,7 @@ Creates a VT_VECTOR | VT_UI1 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -132,11 +130,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
+<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

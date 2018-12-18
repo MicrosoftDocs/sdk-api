@@ -9,8 +9,6 @@ ms.assetid: cb0941da-607d-4082-ac8c-91d2edafa8ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorRadius, GetErrorRadius method [WinLocation], GetErrorRadius method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetErrorRadius method, ILatLongReport.GetErrorRadius, ILatLongReport::GetErrorRadius, WinLocation_COM_Ref.ilatlongreport_geterrorradius, locationapi/ILatLongReport::GetErrorRadius
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

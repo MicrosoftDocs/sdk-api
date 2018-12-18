@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHost, GetHost method [search], GetHost method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetHost method, IUrlAccessor.GetHost, IUrlAccessor::GetHost, _search_IUrlAccessor_GetHost, search._search_IUrlAccessor_GetHost, searchapi/IUrlAccessor::GetHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

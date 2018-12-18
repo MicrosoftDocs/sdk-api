@@ -9,8 +9,6 @@ ms.assetid: c513ea28-937a-4594-9a50-0c7999f435ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacity method, IXpsOMVisual.GetOpacity, IXpsOMVisual::GetOpacity, xps.ixpsomvisual_getopacity, xpsobjectmodel/IXpsOMVisual::GetOpacity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

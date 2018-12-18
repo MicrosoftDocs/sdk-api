@@ -9,8 +9,6 @@ ms.assetid: 9855D609-E863-4334-B6BA-B6777FDAB82B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RESOURCE_ALIASING_BARRIER, D3D12_RESOURCE_ALIASING_BARRIER structure, d3d12/D3D12_RESOURCE_ALIASING_BARRIER, direct3d12.d3d12_resource_aliasing_barrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

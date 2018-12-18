@@ -9,8 +9,6 @@ ms.assetid: 489aff33-2faa-480a-a146-67f6ef4b8b93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -160,23 +158,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
+<a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
+<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776547(v=VS.85).aspx">PropVariantToInt16Vector</a>
+<a href="shell.PropVariantToInt16Vector">PropVariantToInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
+<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
  
 
  

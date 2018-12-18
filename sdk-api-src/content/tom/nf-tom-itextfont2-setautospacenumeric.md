@@ -9,8 +9,6 @@ ms.assetid: 7fd911c2-a765-4bbc-a14c-15665d5a4a16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceNumeric method, ITextFont2.SetAutospaceNumeric, ITextFont2::SetAutospaceNumeric, SetAutospaceNumeric, SetAutospaceNumeric method [Windows Controls], SetAutospaceNumeric method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacenumeric, tom/ITextFont2::SetAutospaceNumeric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a6aa6588-6e3c-4229-8540-0aa5d85c0381
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnDoDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnDoDefaultAccessibilityAction, INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction, OnDoDefaultAccessibilityAction method [Windows Shell], OnDoDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnDoDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnDoDefaultAccessibilityAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaSetForestTrustInformation, LsaSetForestTrustInformation function [Security], ntsecapi/LsaSetForestTrustInformation, security.lsasetforesttrustinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

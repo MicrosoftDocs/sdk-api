@@ -9,8 +9,6 @@ ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 A WinSNMP application calls the 
 <b>SnmpGetVendorInfo</b> function to retrieve information about the Microsoft WinSNMP implementation. The function returns the information in an 
-<a href="https://msdn.microsoft.com/78b7b736-f68a-456a-9178-9a5b40e3bc8d">smiVENDORINFO</a> structure. The 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377998(v=VS.85).aspx">smiVENDORINFO</a> structure. The 
 <b>SnmpGetVendorInfo</b> function is an element of the WinSNMP API, version 2.0.
 
 
@@ -66,7 +64,7 @@ A WinSNMP application calls the
 ### -param vendorInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/78b7b736-f68a-456a-9178-9a5b40e3bc8d">smiVENDORINFO</a> structure to receive information. The information includes a way to contact Microsoft and the enterprise number assigned to Microsoft by the Internet Assigned Numbers Authority (IANA).
+<a href="https://msdn.microsoft.com/en-us/library/Aa377998(v=VS.85).aspx">smiVENDORINFO</a> structure to receive information. The information includes a way to contact Microsoft and the enterprise number assigned to Microsoft by the Internet Assigned Numbers Authority (IANA).
 
 
 ## -returns
@@ -149,7 +147,7 @@ An unknown or undefined error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/78b7b736-f68a-456a-9178-9a5b40e3bc8d">smiVENDORINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377998(v=VS.85).aspx">smiVENDORINFO</a>
  
 
  

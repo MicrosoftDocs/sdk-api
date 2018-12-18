@@ -9,8 +9,6 @@ ms.assetid: aa65e143-47db-4241-9c66-fe3a1dcf1f0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetDocumentation method, ITypeLib.GetDocumentation, ITypeLib::GetDocumentation, _oa96_ITypeLib_GetDocumentation, automat.itypelib_getdocumentation, oaidl/ITypeLib::GetDocumentation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetEmboss method, ITextFont.SetEmboss, ITextFont::SetEmboss, SetEmboss, SetEmboss method [Windows Controls], SetEmboss method [Windows Controls],ITextFont interface, _win32_ITextFont_SetEmboss, _win32_ITextFont_SetEmboss_cpp, controls.ITextFont_SetEmboss, controls._win32_ITextFont_SetEmboss, tom/ITextFont::SetEmboss
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

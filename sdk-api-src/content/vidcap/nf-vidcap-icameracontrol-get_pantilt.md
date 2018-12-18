@@ -9,8 +9,6 @@ ms.assetid: 88f67970-2946-49f9-9c90-e562f37edd83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanTilt method, ICameraControl.get_PanTilt, ICameraControl::get_PanTilt, ICameraControlget_PanTilt, dshow.icameracontrol_get_pantilt, get_PanTilt, get_PanTilt method [DirectShow], get_PanTilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanTilt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,17 +59,17 @@ The <code>get_PanTilt</code> method returns the camera's pan and tilt angles.
 
 ### -param pPanValue [out]
 
-Receives the current panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="https://msdn.microsoft.com/4cbf7582-63ad-4572-be62-be1fe5bc60b3">ICameraControl::get_Pan</a>.
+Receives the current panning angle, in arc seconds. An arc second is 1/3600th of a degree. See <a href="https://msdn.microsoft.com/en-us/library/Dd376320(v=VS.85).aspx">ICameraControl::get_Pan</a>.
 
 
 ### -param pTiltValue [out]
 
-Receives the current tilt angle, in arc seconds. See <a href="https://msdn.microsoft.com/8e9d9176-fb27-4221-876b-49f407289877">ICameraControl::get_Tilt</a>.
+Receives the current tilt angle, in arc seconds. See <a href="https://msdn.microsoft.com/en-us/library/Dd376328(v=VS.85).aspx">ICameraControl::get_Tilt</a>.
 
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -92,7 +90,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

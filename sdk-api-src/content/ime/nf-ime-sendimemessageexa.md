@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sen
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ime.h
 req.include-header: Windows.h

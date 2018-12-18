@@ -9,8 +9,6 @@ ms.assetid: F8C97013-3BDA-445F-A2C2-60D08DD9C71A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN, PIBIO_SENSOR_QUERY_CALIBRATION_FORMATS_FN callback, SensorAdapterQueryCalibrationFormats, SensorAdapterQueryCalibrationFormats callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerycalibrationformats, winbio_adapter/SensorAdapterQueryCalibrationFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

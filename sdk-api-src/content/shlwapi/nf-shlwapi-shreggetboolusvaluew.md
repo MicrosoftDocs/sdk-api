@@ -9,8 +9,6 @@ ms.assetid: afd95ce4-0ced-48ce-814f-1d02d7913be5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegGetBoolUSValue, SHRegGetBoolUSValue function [Windows Shell], SHRegGetBoolUSValueA, SHRegGetBoolUSValueW, _win32_SHRegGetBoolUSValue, shell.SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValue, shlwapi/SHRegGetBoolUSValueA, shlwapi/SHRegGetBoolUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1b8d30d1-4da0-40bc-9fee-d06eccae6539
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDrawingEffect, GetDrawingEffect method [Direct Write], GetDrawingEffect method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetDrawingEffect method, IDWriteTextLayout.GetDrawingEffect, IDWriteTextLayout::GetDrawingEffect, directwrite.IDWriteTextLayout_GetDrawingEffect, dwrite/IDWriteTextLayout::GetDrawingEffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

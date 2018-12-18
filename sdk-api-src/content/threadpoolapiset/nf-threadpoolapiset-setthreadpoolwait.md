@@ -9,8 +9,6 @@ ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

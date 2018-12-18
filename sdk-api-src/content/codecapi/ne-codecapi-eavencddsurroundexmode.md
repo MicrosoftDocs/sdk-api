@@ -9,8 +9,6 @@ ms.assetid: 067614ca-c32d-4160-ae77-4e6c3dbafdf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncDDSurroundExMode, codecapi/eAVEncDDSurroundExMode_No, codecapi/eAVEncDDSurroundExMode_NotIndicated, codecapi/eAVEncDDSurroundExMode_Yes, dshow.eavencddsurroundexmode, eAVEncDDSurroundExMode, eAVEncDDSurroundExMode enumeration [DirectShow], eAVEncDDSurroundExModeEnumeration, eAVEncDDSurroundExMode_No, eAVEncDDSurroundExMode_NotIndicated, eAVEncDDSurroundExMode_Yes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

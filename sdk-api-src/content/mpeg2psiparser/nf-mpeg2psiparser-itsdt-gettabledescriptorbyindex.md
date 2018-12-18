@@ -9,8 +9,6 @@ ms.assetid: 9adcc8f6-44a7-41c6-b42a-e45c33cd5d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ITSDT.GetTableDescriptorByIndex, ITSDT::GetTableDescriptorByIndex, ITSDTGetTableDescriptorByIndex, mpeg2psiparser/ITSDT::GetTableDescriptorByIndex, mstv.itsdt_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -66,12 +64,12 @@ The <b>GetTableDescriptorByIndex</b> method retrieves a table descriptor for the
 
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/29e2f3f7-4ff4-447b-bd17-36cd05829844">ITSDT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the TSDT.
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694982(v=VS.85).aspx">ITSDT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the TSDT.
 
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -129,7 +127,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
  
 
  

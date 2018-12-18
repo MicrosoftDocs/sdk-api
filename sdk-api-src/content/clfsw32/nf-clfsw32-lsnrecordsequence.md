@@ -9,8 +9,6 @@ ms.assetid: 90aa2df8-328d-404c-a145-ad500a6e611a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnRecordSequence, fs.lsnrecordsequence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

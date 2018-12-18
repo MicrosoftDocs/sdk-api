@@ -9,8 +9,6 @@ ms.assetid: 8b392355-6882-45e3-b915-5091c9ba51ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SoftwareUpdateMessageBox, SoftwareUpdateMessageBox function [Windows Shell], _win32_SoftwareUpdateMessageBox, shell.SoftwareUpdateMessageBox, shlobj/SoftwareUpdateMessageBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

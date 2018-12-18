@@ -9,8 +9,6 @@ ms.assetid: 895fa99d-66a5-4f5f-82ce-394264a945f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemProfileCount, GetSystemProfileCount method [windows Media Format], GetSystemProfileCount method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],GetSystemProfileCount method, IWMProfileManager.GetSystemProfileCount, IWMProfileManager::GetSystemProfileCount, IWMProfileManagerGetSystemProfileCount, wmformat.iwmprofilemanager_getsystemprofilecount, wmsdkidl/IWMProfileManager::GetSystemProfileCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -136,9 +134,9 @@ The system profiles could not be found.
 
 Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://msdn.microsoft.com/e2263c3a-56cd-4505-acd7-510dc7bac166">Reusing Stream Configurations</a>.
 
-This method can be used with <a href="https://msdn.microsoft.com/5de4bd41-953b-4f50-b495-1d852831ae34">LoadSystemProfile</a> to iterate through the system profiles.
+This method can be used with <a href="https://msdn.microsoft.com/en-us/library/Dd757396(v=VS.85).aspx">LoadSystemProfile</a> to iterate through the system profiles.
 
-The <a href="https://msdn.microsoft.com/cd957f3b-401c-4ab1-9c54-7b4ac895caac">IWMProfileManager2::SetSystemProfileVersion</a> method determines which system files are enumerated. Most applications should set the version to WMT_VER_8_0. Setting the version to WMT_VER_9_0 will return zero profiles.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd757388(v=VS.85).aspx">IWMProfileManager2::SetSystemProfileVersion</a> method determines which system files are enumerated. Most applications should set the version to WMT_VER_8_0. Setting the version to WMT_VER_9_0 will return zero profiles.
 
 
 
@@ -148,7 +146,7 @@ The <a href="https://msdn.microsoft.com/cd957f3b-401c-4ab1-9c54-7b4ac895caac">IW
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
  
 
  

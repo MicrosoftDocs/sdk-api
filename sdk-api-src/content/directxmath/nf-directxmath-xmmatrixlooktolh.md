@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookToLH(XMVECTOR,XMVECTOR,XM
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixLookToLH, XMMatrixLookToLH, XMMatrixLookToLH method [DirectX Math Support APIs], dxmath.xmmatrixlooktolh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -101,7 +99,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/28993576-40dd-4f29-b331-10b7b7e54e18">XMMatrixLookToRH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419972(v=VS.85).aspx">XMMatrixLookToRH</a>
  
 
  

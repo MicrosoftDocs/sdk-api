@@ -9,8 +9,6 @@ ms.assetid: c6377dbd-ffd9-458b-9e03-5a832f095818
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSharedBitmap, CreateSharedBitmap method [Direct2D], CreateSharedBitmap method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateSharedBitmap method, ID2D1RenderTarget.CreateSharedBitmap, ID2D1RenderTarget::CreateSharedBitmap, d2d1/ID2D1RenderTarget::CreateSharedBitmap, direct2d.ID2D1RenderTarget_CreateSharedBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ The interface ID of the object supplying the source data.
 
 Type: <b>void*</b>
 
-An <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>, <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a>, or an <a href="_wic_codec_iwicbitmaplock">IWICBitmapLock</a> that contains the data to share with the new <b>ID2D1Bitmap</b>. For more information, see the Remarks section.
+An <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>, <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a>, or an <a href="https://msdn.microsoft.com/en-us/library/Ee690161(v=VS.85).aspx">IWICBitmapLock</a> that contains the data to share with the new <b>ID2D1Bitmap</b>. For more information, see the Remarks section.
 
 
 ### -param bitmapProperties [in, optional]
@@ -90,7 +88,7 @@ When this method returns, contains the address of a pointer to the new bitmap. T
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -109,16 +107,16 @@ By passing an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa
 You may also use this method to reinterpret the data of an existing bitmap and specify a new DPI or alpha mode. For example, in the case of a bitmap atlas, an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> may contain multiple sub-images, each of which should be rendered with a different <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a> (<b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>  or <b>D2D1_ALPHA_MODE_IGNORE</b>). You could use the <b>CreateSharedBitmap</b> method to reinterpret the bitmap using the desired alpha mode  without having to load a separate copy of the bitmap into memory.
 
 <h3><a id="Sharing_an_IDXGISurface"></a><a id="sharing_an_idxgisurface"></a><a id="SHARING_AN_IDXGISURFACE"></a>Sharing an IDXGISurface</h3>
-When using a DXGI surface render target (an <a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a> object created by the <a href="https://msdn.microsoft.com/101744ea-97bc-4f92-88b0-fcdf0e4aaf4e">CreateDxgiSurfaceRenderTarget</a> method), you can pass an  <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> surface to the <b>CreateSharedBitmap</b> method to share video memory with Direct3D and manipulate Direct3D content as an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>. As described in  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>, the render target and the <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> must be using the same Direct3D device. 
+When using a DXGI surface render target (an <a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a> object created by the <a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">CreateDxgiSurfaceRenderTarget</a> method), you can pass an  <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> surface to the <b>CreateSharedBitmap</b> method to share video memory with Direct3D and manipulate Direct3D content as an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>. As described in  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>, the render target and the <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> must be using the same Direct3D device. 
 
 Note also that the <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> must use one of the supported pixel formats and alpha modes described in <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>.
 
 For more information about interoperability with Direct3D, see the <a href="https://msdn.microsoft.com/27680714-dc68-44eb-ab16-2cae3529b352">Direct2D and Direct3D Interoperability Overview</a>.
 
 <h3><a id="Sharing_an_IWICBitmapLock"></a><a id="sharing_an_iwicbitmaplock"></a><a id="SHARING_AN_IWICBITMAPLOCK"></a>Sharing an IWICBitmapLock</h3>
-An <a href="_wic_codec_iwicbitmaplock">IWICBitmapLock</a> stores the content of a WIC bitmap and shields it from simultaneous accesses. By passing an <b>IWICBitmapLock</b>  to the <b>CreateSharedBitmap</b> method, you can create an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> that points to the bitmap data already stored in the  <b>IWICBitmapLock</b>. 
+An <a href="https://msdn.microsoft.com/en-us/library/Ee690161(v=VS.85).aspx">IWICBitmapLock</a> stores the content of a WIC bitmap and shields it from simultaneous accesses. By passing an <b>IWICBitmapLock</b>  to the <b>CreateSharedBitmap</b> method, you can create an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> that points to the bitmap data already stored in the  <b>IWICBitmapLock</b>. 
 
-To use an <a href="_wic_codec_iwicbitmaplock">IWICBitmapLock</a> with the <b>CreateSharedBitmap</b> method, the render target must use software rendering. To force a render target to use software rendering, set to <a href="https://msdn.microsoft.com/4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321">D2D1_RENDER_TARGET_TYPE_SOFTWARE</a>  the <b>type</b> field of the  <a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a> structure that you use to create the render target. To check whether an existing render target uses software rendering, use the <a href="https://msdn.microsoft.com/d9fbc313-fe82-4425-9c9a-79bfacc08019">IsSupported</a> method.
+To use an <a href="https://msdn.microsoft.com/en-us/library/Ee690161(v=VS.85).aspx">IWICBitmapLock</a> with the <b>CreateSharedBitmap</b> method, the render target must use software rendering. To force a render target to use software rendering, set to <a href="https://msdn.microsoft.com/4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321">D2D1_RENDER_TARGET_TYPE_SOFTWARE</a>  the <b>type</b> field of the  <a href="https://msdn.microsoft.com/360900bd-1353-4a92-865c-ad34d5e98123">D2D1_RENDER_TARGET_PROPERTIES</a> structure that you use to create the render target. To check whether an existing render target uses software rendering, use the <a href="https://msdn.microsoft.com/d9fbc313-fe82-4425-9c9a-79bfacc08019">IsSupported</a> method.
 
 
 
@@ -140,7 +138,7 @@ To use an <a href="_wic_codec_iwicbitmaplock">IWICBitmapLock</a> with the <b>Cre
 
 
 
-<a href="_wic_codec_iwicbitmaplock">IWICBitmapLock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee690161(v=VS.85).aspx">IWICBitmapLock</a>
 
 
 

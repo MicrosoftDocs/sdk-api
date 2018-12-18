@@ -9,8 +9,6 @@ ms.assetid: 74497f4b-1c88-4c8a-b9e7-606e77364f48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IS_ERROR, IS_ERROR macro [COM], _com_IS_ERROR, com.is_error, com.is_error_macro, winerror/IS_ERROR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

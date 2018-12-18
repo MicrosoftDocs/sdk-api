@@ -9,8 +9,6 @@ ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply, monitor.capabilitiesrequestandcapabilitiesreply
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

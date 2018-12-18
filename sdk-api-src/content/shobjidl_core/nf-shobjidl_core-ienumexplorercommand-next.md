@@ -9,8 +9,6 @@ ms.assetid: 809e866d-128b-4a0e-9de0-c2123161134f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Next method, IEnumExplorerCommand.Next, IEnumExplorerCommand::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Next, shell.IEnumExplorerCommand_Next, shobjidl_core/IEnumExplorerCommand::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: CC7AEE46-88BE-445C-A377-C9E8C2B505D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],ReleaseObjectIdRange method, IAccessibleWindowlessSite.ReleaseObjectIdRange, IAccessibleWindowlessSite::ReleaseObjectIdRange, ReleaseObjectIdRange, ReleaseObjectIdRange method [Windows Accessibility], ReleaseObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::ReleaseObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4e933485-e489-4185-9879-356a4e567a48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetHttpUrlPrefix, MI_DestinationOptions_GetHttpUrlPrefix function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetHttpUrlPrefix, wmi_v2.mi_destinationoptions_gethttpurlprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

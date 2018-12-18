@@ -9,8 +9,6 @@ ms.assetid: 3A7E562C-52ED-45A4-B473-6ACBF6A9C0E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform3D.SetCenterY, IDCompositionRotateTransform3D::SetCenterY, IDCompositionRotateTransform3D::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterY, directcomp.idcompositionrotatetransform3d_setcentery_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
 
 
 
@@ -103,7 +101,7 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/7FF293B6-8FAE-4277-8C07-EBD4E819E2A0">IDCompositionRotateTransform3D::SetCenterZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448969(v=VS.85).aspx">IDCompositionRotateTransform3D::SetCenterZ</a>
  
 
  

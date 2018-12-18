@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetItemData, ListBox_GetItemData macro [Windows Controls], _win32_ListBox_GetItemData, _win32_ListBox_GetItemData_cpp, controls.ListBox_GetItemData, controls._win32_ListBox_GetItemData, windowsx/ListBox_GetItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

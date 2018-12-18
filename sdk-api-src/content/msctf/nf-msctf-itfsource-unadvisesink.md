@@ -9,8 +9,6 @@ ms.assetid: e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, ITfSource.UnadviseSink, ITfSource::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITfSource interface, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

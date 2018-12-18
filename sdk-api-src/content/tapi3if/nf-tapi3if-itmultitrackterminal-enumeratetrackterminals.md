@@ -9,8 +9,6 @@ ms.assetid: 90ef12f5-1a94-49ca-85c3-092306503827
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateTrackTerminals, EnumerateTrackTerminals method [TAPI 2.2], EnumerateTrackTerminals method [TAPI 2.2],ITMultiTrackTerminal interface, ITMultiTrackTerminal interface [TAPI 2.2],EnumerateTrackTerminals method, ITMultiTrackTerminal.EnumerateTrackTerminals, ITMultiTrackTerminal::EnumerateTrackTerminals, _tapi3_itmultitrackterminal_enumeratetrackterminals, tapi3.itmultitrackterminal_enumeratetrackterminals, tapi3if/ITMultiTrackTerminal::EnumerateTrackTerminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

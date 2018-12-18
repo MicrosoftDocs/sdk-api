@@ -9,8 +9,6 @@ ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bits4_0.h
 req.include-header: 
@@ -52,14 +50,14 @@ req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows 
 
 Use <b>IBitsTokenOptions</b> to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob::QueryInterface</a> method, using __uuidof(IBitsTokenOptions) as the interface identifier.
+To get this interface, call the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob::QueryInterface</a> method, using __uuidof(IBitsTokenOptions) as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsTokenOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBitsTokenOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsTokenOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBitsTokenOptions</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +70,7 @@ The <b>IBitsTokenOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd904471(v=VS.85).aspx">ClearHelperToken</a>
+<a href="https://msdn.microsoft.com/5af3496e-0792-46cc-bfc3-8ac6193724d1">ClearHelperToken</a>
 </td>
 <td align="left" width="63%">
 Discards the helper token and does not change the usage flags.
@@ -81,7 +79,7 @@ Discards the helper token and does not change the usage flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd904472(v=VS.85).aspx">GetHelperTokenFlags</a>
+<a href="https://msdn.microsoft.com/d00596bf-7695-4a5e-8d13-4700876fdef6">GetHelperTokenFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the usage flags for a token that is associated with a BITS transfer job.
@@ -90,7 +88,7 @@ Returns the usage flags for a token that is associated with a BITS transfer job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd904473(v=VS.85).aspx">GetHelperTokenSid</a>
+<a href="https://msdn.microsoft.com/724614af-cae8-47d7-888d-ed1504a9bc12">GetHelperTokenSid</a>
 </td>
 <td align="left" width="63%">
 Returns the SID of the helper token if one is set.
@@ -99,7 +97,7 @@ Returns the SID of the helper token if one is set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd904474(v=VS.85).aspx">SetHelperToken</a>
+<a href="https://msdn.microsoft.com/a31414b7-159e-4ce7-8d2d-02b62aa9759d">SetHelperToken</a>
 </td>
 <td align="left" width="63%">
 Sets the helper token to impersonate the token of the COM client.
@@ -108,7 +106,7 @@ Sets the helper token to impersonate the token of the COM client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd904475(v=VS.85).aspx">SetHelperTokenFlags</a>
+<a href="https://msdn.microsoft.com/bee8fda2-ec11-4969-be81-57a8b4177a1c">SetHelperTokenFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the usage flags for a token that is associated with a BITS transfer job.

@@ -9,8 +9,6 @@ ms.assetid: D78841F5-17A1-4B52-9928-7EEB878DFBF9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRotateTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionRotateTransform3D.SetCenterZ, IDCompositionRotateTransform3D.SetCenterZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterZ, IDCompositionRotateTransform3D::SetCenterZ(IDCompositionAnimation), IDCompositionRotateTransform3D::SetCenterZ(IDCompositionAnimation*), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionRotateTransform3D interface, dcomp/IDCompositionRotateTransform3D::SetCenterZ, directcomp.idcompositionrotatetransform3d_setcenterz_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -95,15 +93,15 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/BEC58B57-66A1-4645-A0B8-D546334E1E23">IDCompositionRotateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448927(v=VS.85).aspx">IDCompositionRotateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/2E4924A5-64D0-4415-B345-0DE9A0900258">IDCompositionRotateTransform3D::SetCenterX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448957(v=VS.85).aspx">IDCompositionRotateTransform3D::SetCenterX</a>
 
 
 
-<a href="https://msdn.microsoft.com/19B3B065-BE8C-4CBD-8A94-54934CA0B421">IDCompositionRotateTransform3D::SetCenterY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448963(v=VS.85).aspx">IDCompositionRotateTransform3D::SetCenterY</a>
  
 
  

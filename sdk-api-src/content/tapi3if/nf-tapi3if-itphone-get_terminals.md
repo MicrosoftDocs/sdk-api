@@ -9,8 +9,6 @@ ms.assetid: 09e5921c-c7da-40fc-902a-1e22ebe19b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Terminals method, ITPhone.get_Terminals, ITPhone::get_Terminals, _tapi3_itphone_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_terminals, tapi3if/ITPhone::get_Terminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: FAE16E2C-6E18-4345-88A8-DDC5836A75A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method, GetMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessageCountLimit method, ID3D12InfoQueue.GetMessageCountLimit, ID3D12InfoQueue::GetMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetMessageCountLimit, direct3d12.id3d12infoqueue_getmessagecountlimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -82,7 +80,7 @@ When the number of messages in the message queue has reached the maximum limit, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 01dbf2ee-5b47-47a8-b22c-a80aec5f7fff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN, PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback, SensorAdapterGetIndicatorStatus, SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptergetindicatorstatus, winbio_adapter/SensorAdapterGetIndicatorStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

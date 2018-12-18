@@ -9,8 +9,6 @@ ms.assetid: 04315431-FC5C-41FB-9806-7904F71C19FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the length of the file (or logical) line of text from the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="controls.em_filelinelength">EM_FILELINELENGTH</a> message explicitly.
+Gets the length of the file (or logical) line of text from the specified character index  (text wrap delimiters are ignored). You can use this macro or send the <a href="https://msdn.microsoft.com/B8F4039B-5969-4384-ABFF-D06FB451A278">EM_FILELINELENGTH</a> message explicitly.
 
 
 ## -parameters
@@ -79,7 +77,7 @@ The character index is the zero-based index of the character from the beginning 
 
 This macro and corresponding message do not recognize text wrapping (visible lines) and, instead, recognize file (logical) lines with an end-of-line delimiter. When text wrap is turned off, visible lines are equivalent to file lines.
 
-The <a href="https://msdn.microsoft.com/e8e9217b-3f0c-478d-b44d-2a51868dbc5a">EM_LINEFROMCHAR</a>, <a href="https://msdn.microsoft.com/a4c65012-d47f-4d87-bc7f-2002d07f5eea">EM_LINEINDEX</a>, <a href="https://msdn.microsoft.com/cfb0632c-9ba9-4864-939a-dbbaed6c177e">EM_LINELENGTH</a>, <a href="https://msdn.microsoft.com/ff56d2c6-5013-46c6-90d8-ee2bdc9074b1">EM_GETLINE</a>, and <a href="https://msdn.microsoft.com/9fe63c10-7395-4f98-a672-14960a70d14f">EM_GETLINECOUNT</a> messages recognize visible line text wrapping and provide information for the line of text up to the wrapping line break. (Each subsequent line is delimited by the next text wrap break.)
+The <a href="https://msdn.microsoft.com/en-us/library/Bb761609(v=VS.85).aspx">EM_LINEFROMCHAR</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761611(v=VS.85).aspx">EM_LINEINDEX</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761613(v=VS.85).aspx">EM_LINELENGTH</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761584(v=VS.85).aspx">EM_GETLINE</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761586(v=VS.85).aspx">EM_GETLINECOUNT</a> messages recognize visible line text wrapping and provide information for the line of text up to the wrapping line break. (Each subsequent line is delimited by the next text wrap break.)
 
 
 

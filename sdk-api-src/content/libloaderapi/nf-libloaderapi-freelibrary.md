@@ -9,8 +9,6 @@ ms.assetid: 823d3147-4ba8-4fe5-ade4-e5604f47eb0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelibrary, libloaderapi/FreeLibrary, winbase/FreeLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

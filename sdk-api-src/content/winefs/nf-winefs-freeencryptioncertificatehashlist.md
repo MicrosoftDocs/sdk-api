@@ -9,8 +9,6 @@ ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

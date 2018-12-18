@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setsamplerstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetSamplerState method, IDirect3DDevice9.SetSamplerState, IDirect3DDevice9::SetSamplerState, SetSamplerState, SetSamplerState method [Direct3D 9], SetSamplerState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetSamplerState, direct3d9.idirect3ddevice9__setsamplerstate, ea91fb0c-0668-d552-ee6a-25d1288ffe7f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

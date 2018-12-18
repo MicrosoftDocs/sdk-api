@@ -9,8 +9,6 @@ ms.assetid: 9c251e14-e080-480a-80c2-f3686429689f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetAbortCallback method, IReconcileInitiator.SetAbortCallback, IReconcileInitiator::SetAbortCallback, SetAbortCallback, SetAbortCallback method [Legacy Windows Environment Features], SetAbortCallback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetAbortCallback, lwef.ireconcileinitiator_setabortcallback, reconcil/IReconcileInitiator::SetAbortCallback, shell.ireconcileinitiator_setabortcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: reconcil.h
 req.include-header: 
@@ -60,9 +58,9 @@ Sets the object through which the initiator can asynchronously terminate a recon
 
 ### -param punkForAbort
 
-Type: <b><a href="_com_iunknown">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
-The address of the <a href="_com_iunknown">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="_com_iunknown_release">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
+The address of the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for the object. The initiator signals a request to terminate the reconciliation by using the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the object. This parameter may be <b>NULL</b> to direct the initiator to remove the previously specified object. 
 
 
 ## -returns

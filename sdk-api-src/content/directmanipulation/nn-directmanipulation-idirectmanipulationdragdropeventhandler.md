@@ -9,8 +9,6 @@ ms.assetid: B0F4120F-E64C-4224-A1C5-00DBEE63949B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationDragDropEventHandler, IDirectManipulationDragDropEventHandler interface [Direct Manipulation], IDirectManipulationDragDropEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropeventhandler, directmanipulation/IDirectManipulationDragDropEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Defines methods to handle drag-drop behavior events.
-<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a> and <a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  When implementing this interface, ensure that the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms683614(v=VS.85).aspx">InterlockedIncrement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a>.</div><div> </div>
 
 ## -inheritance
 

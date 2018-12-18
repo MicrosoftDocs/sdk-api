@@ -9,8 +9,6 @@ ms.assetid: 977030f8-264f-4fa2-8941-e419cd28c569
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],KeysOnly method, CFrameworkQuery.KeysOnly, CFrameworkQuery::KeysOnly, KeysOnly, KeysOnly method [Windows Management Instrumentation], KeysOnly method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_keysonly, frquery/CFrameworkQuery::KeysOnly, wmi.cframeworkquery_keysonly
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h

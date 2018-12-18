@@ -9,8 +9,6 @@ ms.assetid: 33bf4956-3d16-412c-9551-4ae3366ddd78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ISyncMgrEnumItems interface, ISyncMgrEnumItems interface [Windows Shell],Clone method, ISyncMgrEnumItems.Clone, ISyncMgrEnumItems::Clone, mobsync/ISyncMgrEnumItems::Clone, shell.syncmgr_isyncmgrenumitems_clone, syncmgr.isyncmgrenumitems_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

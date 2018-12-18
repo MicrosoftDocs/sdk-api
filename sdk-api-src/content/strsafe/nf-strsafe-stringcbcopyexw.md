@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyEx, StringCbCopyEx function [Menus and Other Resources], StringCbCopyExA, StringCbCopyExW, _shell_StringCbCopyEx, _shell_stringcbcopyex_cpp, menurc.stringcbcopyex, strsafe/StringCbCopyEx, strsafe/StringCbCopyExA, strsafe/StringCbCopyExW, winui._shell_stringcbcopyex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

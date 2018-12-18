@@ -1,7 +1,6 @@
 {
   "tech": "imapi",
   "headers": [
-    "eventsys.h",
     "imapi2.h",
     "imapi2fs.h",
     "imapi2error.h",

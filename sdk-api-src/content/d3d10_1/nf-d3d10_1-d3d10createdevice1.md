@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10createdevice1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5003cfd5-5629-9760-cb48-9a25e0a1a3d8, D3D10CreateDevice1, D3D10CreateDevice1 function [Direct3D 10], d3d10_1/D3D10CreateDevice1, direct3d10.d3d10createdevice1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6b0cc653-d5be-42af-ac8b-551b961550da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Count property, INetFwAuthorizedApplications.Count, INetFwAuthorizedApplications.get_Count, INetFwAuthorizedApplications::Count, INetFwAuthorizedApplications::get_Count, get_Count, ics.count_property_of_inetfwauthorizedapplications_count, netfw/INetFwAuthorizedApplications::Count, netfw/INetFwAuthorizedApplications::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

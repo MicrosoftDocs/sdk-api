@@ -9,8 +9,6 @@ ms.assetid: 64feae8f-c627-45b5-a3bc-0c47e9f8a4cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AbortAllSnapshotsInProgress, AbortAllSnapshotsInProgress method, AbortAllSnapshotsInProgress method,IVssAdmin interface, IVssAdmin interface,AbortAllSnapshotsInProgress method, IVssAdmin.AbortAllSnapshotsInProgress, IVssAdmin::AbortAllSnapshotsInProgress, base.ivssadmin_abortallsnapshotsinprogress, vsadmin/IVssAdmin::AbortAllSnapshotsInProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsadmin.h
 req.include-header: 

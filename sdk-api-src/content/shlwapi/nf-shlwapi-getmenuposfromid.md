@@ -9,8 +9,6 @@ ms.assetid: 25fb51bc-9b36-4afb-bb07-7bc455c7fbc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

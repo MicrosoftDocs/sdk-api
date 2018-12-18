@@ -9,8 +9,6 @@ ms.assetid: 94536770-01ef-41c5-9217-0aa2ef9c36ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],MousePointer property, IInkPicture.MousePointer, IInkPicture.put_MousePointer, IInkPicture::MousePointer, IInkPicture::get_MousePointer, IInkPicture::put_MousePointer, InkPicture.get_MousePointer, InkPicture.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkPicture interface, get_MousePointer, msinkaut/IInkPicture::MousePointer, msinkaut/IInkPicture::get_MousePointer, msinkaut/IInkPicture::put_MousePointer, put_MousePointer, tablet.inkpicture_mousepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -82,7 +80,7 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

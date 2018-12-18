@@ -9,8 +9,6 @@ ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

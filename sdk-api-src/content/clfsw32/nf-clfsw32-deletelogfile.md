@@ -9,8 +9,6 @@ ms.assetid: a7dd8efc-b572-4591-9e46-1cd5105d4ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteLogFile, DeleteLogFile function [Files], clfsw32/DeleteLogFile, fs.deletelogfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

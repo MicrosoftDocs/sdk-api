@@ -7,10 +7,8 @@ old-location: pla\ivaluemapitem.htm
 tech.root: pla
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

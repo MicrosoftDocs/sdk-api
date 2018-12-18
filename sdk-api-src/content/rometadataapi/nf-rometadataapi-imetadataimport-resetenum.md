@@ -9,8 +9,6 @@ ms.assetid: 74168393-e2ec-44bb-9fae-2c76ad40a3f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResetEnum method, IMetaDataImport.ResetEnum, IMetaDataImport::ResetEnum, ResetEnum, ResetEnum method [Windows Runtime], ResetEnum method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResetEnum, winrt.imetadataimport_resetenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

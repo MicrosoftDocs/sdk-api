@@ -9,8 +9,6 @@ ms.assetid: 62ef4fe6-3871-41ef-9542-6fe9f3bed21c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNotify interface [COM],described, _ole_idropsourcenotify, com.idropsourcenotify, oleidl/IDropSourceNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

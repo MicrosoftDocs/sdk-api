@@ -9,8 +9,6 @@ ms.assetid: 46da2f6a-3cb7-4220-b578-4fcf9711b99f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaNodeFromPoint, UiaNodeFromPoint function [Windows Accessibility], uiauto.uiauto_UiaNodeFromPointFunction, uiauto_UiaNodeFromPointFunction, uiautomationcoreapi/UiaNodeFromPoint, winauto.uiauto_UiaNodeFromPointFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

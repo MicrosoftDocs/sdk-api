@@ -9,8 +9,6 @@ ms.assetid: DFFB27B0-EB82-41A4-A7EE-82495023DD2D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColumnMapper, GetColumnMapper method [search], GetColumnMapper method [search],IColumnMapperCreator interface, IColumnMapperCreator interface [search],GetColumnMapper method, IColumnMapperCreator.GetColumnMapper, IColumnMapperCreator::GetColumnMapper, indexsrv/IColumnMapperCreator::GetColumnMapper, search.icolumnmappercreator_getcolumnmapper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

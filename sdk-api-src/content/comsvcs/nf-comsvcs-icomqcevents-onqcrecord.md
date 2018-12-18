@@ -9,8 +9,6 @@ ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCRecord, IComQCEvents::OnQCRecord, OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

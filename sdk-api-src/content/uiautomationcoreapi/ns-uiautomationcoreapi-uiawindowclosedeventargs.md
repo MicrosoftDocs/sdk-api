@@ -9,8 +9,6 @@ ms.assetid: e15b2e58-5eba-4804-9f4a-6bba4afa2051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaWindowClosedEventArgs, UiaWindowClosedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaWindowClosedEventArgsStruct, uiauto_UiaWindowClosedEventArgsStruct, uiautomationcoreapi/UiaWindowClosedEventArgs, winauto.uiauto_UiaWindowClosedEventArgsStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

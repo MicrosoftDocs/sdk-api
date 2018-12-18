@@ -9,8 +9,6 @@ ms.assetid: 82f915df-c031-41e9-8347-044b37793182
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

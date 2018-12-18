@@ -9,8 +9,6 @@ ms.assetid: a092406d-7af4-436d-9755-5a9b87aa6ca9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], IWCNDevice interface [Windows Connect Now],described, wcn.iwcndevice, wcndevice/IWCNDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wcndevice.h
 req.include-header: 

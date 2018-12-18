@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Graphics class, Graphics class [GDI+],GetLastStatus method, Graphics.GetLastStatus, Graphics::GetLastStatus, _gdiplus_CLASS_Graphics_GetLastStatus_, gdiplus._gdiplus_CLASS_Graphics_GetLastStatus_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

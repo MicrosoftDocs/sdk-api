@@ -9,8 +9,6 @@ ms.assetid: 008e88e4-05d6-4204-802b-dd406113a7f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiInGetID, midiInGetID, midiInGetID function [Windows Multimedia], mmeapi/midiInGetID, multimedia.midiingetid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 29D4DF13-834C-4BBE-818A-64770C68CB69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedYIntercept method, IDCompositionLinearTransferEffect.SetRedYIntercept, IDCompositionLinearTransferEffect.SetRedYIntercept(IDCompositionAnimation), IDCompositionLinearTransferEffect::SetRedYIntercept, IDCompositionLinearTransferEffect::SetRedYIntercept(IDCompositionAnimation), SetRedYIntercept, SetRedYIntercept method [DirectComposition], SetRedYIntercept method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedYIntercept, directcomp.idcompositionlineartransfereffect_setredyintercept_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ An animation that represents how the Y-intercept of the linear function for the 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/516CD029-DBB1-4AD7-92BB-8B6EF6C733FA">IDCompositionLinearTransferEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx">IDCompositionLinearTransferEffect</a>
  
 
  

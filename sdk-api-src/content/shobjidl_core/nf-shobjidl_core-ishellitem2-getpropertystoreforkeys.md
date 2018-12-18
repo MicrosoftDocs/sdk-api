@@ -9,8 +9,6 @@ ms.assetid: 2d32ece8-4a68-4bf2-a1ee-bd94a2aa6fbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Shell], GetPropertyStoreForKeys method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStoreForKeys method, IShellItem2.GetPropertyStoreForKeys, IShellItem2::GetPropertyStoreForKeys, _shell_IShellItem2_GetPropertyStoreForKeys, shell.IShellItem2_GetPropertyStoreForKeys, shobjidl_core/IShellItem2::GetPropertyStoreForKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

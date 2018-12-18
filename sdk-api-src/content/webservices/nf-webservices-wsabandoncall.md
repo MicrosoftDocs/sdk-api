@@ -9,8 +9,6 @@ ms.assetid: 709af94d-44ad-46af-8771-99d0aba5d77d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], webservices/WsAbandonCall, wsw.wsabandoncall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -123,7 +121,7 @@ A <b>NULL</b> service proxy was passed to the function.
 
 
 
-Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_ID</a> enumeration. 
+Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401770(v=VS.85).aspx">WS_CALL_PROPERTY_ID</a> enumeration. 
               
 
 If the call ID is 0,  all pending calls on the service proxy are abandoned.

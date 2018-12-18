@@ -9,8 +9,6 @@ ms.assetid: 291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPerTcp6ConnectionEStats, GetPerTcp6ConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcp6connectionestats, iphlpapi/GetPerTcp6ConnectionEStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 
@@ -68,7 +66,7 @@ A pointer to a <a href="https://msdn.microsoft.com/b3e9eda5-5e86-4790-8b1b-ca9ba
 
 The type of extended statistics for TCP requested. This parameter determines the data and format of information that is returned in the <i>Rw</i>, <i>Rod</i>, and <i>Ros</i> parameters if the call is successful.
 
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
+This parameter can be one of the values from the <a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
 
 <table>
 <tr>
@@ -382,7 +380,7 @@ The <b>GetPerTcp6ConnectionEStats</b> function is designed to use TCP to diagnos
    about its nature.
 
 
-The <b>GetPerTcp6ConnectionEStats</b> function retrieves extended statistics for the IPv6 TCP connection passed in the <i>Row</i> parameter. The type of extended statistics that is retrieved is specified in the <i>EstatsType</i> parameter. Extended statistics on this TCP connection must have previously been enabled by calls to the <a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a> function for all <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a> values except when <b>TcpConnectionEstatsSynOpts</b> is passed in the <i>EstatsType</i> parameter. 
+The <b>GetPerTcp6ConnectionEStats</b> function retrieves extended statistics for the IPv6 TCP connection passed in the <i>Row</i> parameter. The type of extended statistics that is retrieved is specified in the <i>EstatsType</i> parameter. Extended statistics on this TCP connection must have previously been enabled by calls to the <a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a> function for all <a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a> values except when <b>TcpConnectionEstatsSynOpts</b> is passed in the <i>EstatsType</i> parameter. 
 
 The <a href="https://msdn.microsoft.com/77150609-d06d-4492-bbd7-21eecd825bde">GetTcp6Table</a> function is used to retrieve the IPv6 TCP connection table on the local computer. This function returns a <a href="https://msdn.microsoft.com/62bb8544-0a0a-40b5-92cf-9631c9a9987c">MIB_TCP6TABLE</a> structure that contain an array of <a href="https://msdn.microsoft.com/b3e9eda5-5e86-4790-8b1b-ca9bae44b502">MIB_TCP6ROW</a> entries. The <i>Row</i> parameter passed to the <b>GetPerTcp6ConnectionEStats</b> function must be an entry for an existing IPv6 TCP connection.
 
@@ -1365,11 +1363,11 @@ void GetAndOutputEstats(void *row, TCP_ESTATS_TYPE type, bool v6)
 
 
 
-<a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427395(v=VS.85).aspx">TCP_ESTATS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd179e9b-86e6-48e8-bb4b-05d69b9794b2">TCP_SOFT_ERROR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427396(v=VS.85).aspx">TCP_SOFT_ERROR</a>
  
 
  

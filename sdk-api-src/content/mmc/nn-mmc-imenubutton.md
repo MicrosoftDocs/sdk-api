@@ -9,8 +9,6 @@ ms.assetid: 51bbd98a-7017-497a-858a-dd63cefc679a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMenuButton, IMenuButton interface [MMC], IMenuButton interface [MMC],described, _slate_imenubutton, mmc.imenubutton, mmc/IMenuButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

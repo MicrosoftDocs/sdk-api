@@ -9,8 +9,6 @@ ms.assetid: e2fae2ab-dfde-4efd-af83-9818322619ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILEMUIINFO_GET_MUI_TYPENAMES, FILEMUIINFO_GET_MUI_TYPENAMES macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_MUI_TYPENAMES, intl.filemuiinfo_get_mui_typenames, winnls/FILEMUIINFO_GET_MUI_TYPENAMES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h

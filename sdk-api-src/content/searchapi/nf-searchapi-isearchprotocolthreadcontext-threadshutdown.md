@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchpr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadShutdown method, ISearchProtocolThreadContext.ThreadShutdown, ISearchProtocolThreadContext::ThreadShutdown, ThreadShutdown, ThreadShutdown method [search], ThreadShutdown method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadShutdown, search._search_ISearchProtocolThreadContext_ThreadShutdown, searchapi/ISearchProtocolThreadContext::ThreadShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

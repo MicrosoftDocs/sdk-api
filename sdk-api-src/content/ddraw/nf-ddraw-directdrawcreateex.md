@@ -9,8 +9,6 @@ ms.assetid: 67fa1cd0-e47f-4dc4-b92c-b3401b4cbb57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreateEx, DirectDrawCreateEx function [DirectDraw], ddraw/DirectDrawCreateEx, directdraw.directdrawcreateex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 

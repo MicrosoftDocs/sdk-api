@@ -9,8 +9,6 @@ ms.assetid: 4AC5DB55-57EF-4182-B4B9-3A4F1DE0E6B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectManipulationDragDropEventHandler interface [Direct Manipulation],OnDragDropStatusChange method, IDirectManipulationDragDropEventHandler.OnDragDropStatusChange, IDirectManipulationDragDropEventHandler::OnDragDropStatusChange, OnDragDropStatusChange, OnDragDropStatusChange method [Direct Manipulation], OnDragDropStatusChange method [Direct Manipulation],IDirectManipulationDragDropEventHandler interface, directmanipulation.idirectmanipulationdragdropeventhandler_ondragdropstatuschange, directmanipulation/IDirectManipulationDragDropEventHandler::OnDragDropStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

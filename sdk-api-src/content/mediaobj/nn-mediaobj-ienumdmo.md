@@ -9,8 +9,6 @@ ms.assetid: 221248f2-5c8f-442e-a6ad-e0372ddc1aae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO, IEnumDMO interface [DirectShow], IEnumDMO interface [DirectShow],described, IEnumDMOInterface, dshow.ienumdmo, mediaobj/IEnumDMO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -56,7 +54,7 @@ The <code>IEnumDMO</code> interface provides methods for enumerating Microsoft D
 
 
 
-To enumerate registered DMOs, call the <a href="https://msdn.microsoft.com/2cb69d28-15be-44fb-a180-98b560848c08">DMOEnum</a> function.
+To enumerate registered DMOs, call the <a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a> function.
 
 
 ## -inheritance
@@ -76,7 +74,7 @@ The <b>IEnumDMO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9edca502-7dff-493f-8bce-4bffe8233487">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376586(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -85,7 +83,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5094f2d3-caa7-4085-aebe-306a7b05b591">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376587(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of items in the enumeration sequence.
@@ -94,7 +92,7 @@ Retrieves a specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a910c70-7f41-43d5-a677-c299b5181638">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376588(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -103,7 +101,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32722190-52b5-468a-91d6-a828ad02b203">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376589(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of items in the enumeration sequence.

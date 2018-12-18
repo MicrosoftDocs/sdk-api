@@ -9,8 +9,6 @@ ms.assetid: 277f2724-5d82-4db7-96d9-af392b39fccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],Open method, IWMRegisteredDevice.Open, IWMRegisteredDevice::Open, IWMRegisteredDeviceOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_open, wmsdkidl/IWMRegisteredDevice::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -109,11 +107,11 @@ The client computer already has the maximum number of devices opened.
 
 To receive data, a device must be opened, validated, and approved.
 
-Use this method to open the device. To determine whether the device is already open, call <a href="https://msdn.microsoft.com/5a8a6b2a-6a04-4505-b4be-ec10e1e5effe">IsOpened</a>. Only 10 devices can be open on a computer at a time.
+Use this method to open the device. To determine whether the device is already open, call <a href="https://msdn.microsoft.com/en-us/library/Dd743694(v=VS.85).aspx">IsOpened</a>. Only 10 devices can be open on a computer at a time.
 
-The device is valid only if proximity detection has been performed on it within the past 48 hours. You can check the validity of the device by calling <a href="https://msdn.microsoft.com/ce09e6ad-10c0-4cdd-8dee-4faacd958f2b">IsValid</a>. For more information, see the <a href="https://msdn.microsoft.com/0897ad8f-8e06-4de9-840e-1588e0e20c54">IWMProximityDetection</a> interface.
+The device is valid only if proximity detection has been performed on it within the past 48 hours. You can check the validity of the device by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743695(v=VS.85).aspx">IsValid</a>. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd757423(v=VS.85).aspx">IWMProximityDetection</a> interface.
 
-Call the <a href="https://msdn.microsoft.com/ab90468e-743f-4367-a49b-d494bf9be28f">IsApproved</a> method to determine whether the device is approved. To approve the device, call the <a href="https://msdn.microsoft.com/941714b8-c329-4768-9c48-86fa806550c3">Approve</a> method.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Dd743693(v=VS.85).aspx">IsApproved</a> method to determine whether the device is approved. To approve the device, call the <a href="https://msdn.microsoft.com/en-us/library/Dd743624(v=VS.85).aspx">Approve</a> method.
 
 
 
@@ -123,11 +121,11 @@ Call the <a href="https://msdn.microsoft.com/ab90468e-743f-4367-a49b-d494bf9be28
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d30eb82-1d5c-4d40-9dc9-7360e64cd55e">IWMRegisteredDevice::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743627(v=VS.85).aspx">IWMRegisteredDevice::Close</a>
  
 
  

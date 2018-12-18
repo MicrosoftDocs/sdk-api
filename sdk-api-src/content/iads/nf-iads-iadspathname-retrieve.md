@@ -9,8 +9,6 @@ ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

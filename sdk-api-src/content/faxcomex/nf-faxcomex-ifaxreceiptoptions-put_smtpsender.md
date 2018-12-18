@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_41bm.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPSender property, IFaxReceiptOptions.SMTPSender, IFaxReceiptOptions.get_SMTPSender, IFaxReceiptOptions.put_SMTPSender, IFaxReceiptOptions::SMTPSender, IFaxReceiptOptions::get_SMTPSender, IFaxReceiptOptions::put_SMTPSender, SMTPSender property [Fax Service], SMTPSender property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtpsender, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp, fax._mfax_faxreceiptoptions_smtpsender, faxcomex/IFaxReceiptOptions::SMTPSender, faxcomex/IFaxReceiptOptions::get_SMTPSender, faxcomex/IFaxReceiptOptions::put_SMTPSender, put_SMTPSender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -76,15 +74,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/6c3d1358-6819-42e3-9be0-896ed7e2d463">FaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690118(v=VS.85).aspx">FaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/95bcade2-eb0c-4e6f-8f3b-9d001f999992">IFaxReceiptOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690119(v=VS.85).aspx">IFaxReceiptOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4558e770-c6ae-4892-a2b3-40c59f6275fa">Setting Receipt Options</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693387(v=VS.85).aspx">Setting Receipt Options</a>
  
 
  

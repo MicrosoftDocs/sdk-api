@@ -9,8 +9,6 @@ ms.assetid: B3591D93-BAF5-4D6E-90ED-88E1C193670E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PMEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE enumeration, MemExtendedParameterAddressRequirements, MemExtendedParameterAttributeFlags, MemExtendedParameterInvalidType, MemExtendedParameterMax, MemExtendedParameterNumaNode, MemExtendedParameterPartitionHandle, MemExtendedParameterUserPhysicalHandle, base.mem_extended_parameter_type, winnt/MEM_EXTENDED_PARAMETER_TYPE, winnt/MemExtendedParameterAddressRequirements, winnt/MemExtendedParameterAttributeFlags, winnt/MemExtendedParameterInvalidType, winnt/MemExtendedParameterMax, winnt/MemExtendedParameterNumaNode, winnt/MemExtendedParameterPartitionHandle, winnt/MemExtendedParameterUserPhysicalHandle"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 
@@ -63,12 +61,12 @@ Defines values for extended parameters used for file mapping into an address spa
 
 ### -field MemExtendedParameterAddressRequirements
 
-This extended parameter type is used to specify alignment and virtual address range restrictions for new memory allocations created by <a href="base.virtualalloc2">VirtualAlloc2</a> and <a href="base.mapviewoffile3">MapViewOfFile3</a>.
+This extended parameter type is used to specify alignment and virtual address range restrictions for new memory allocations created by <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>.
 
 
 ### -field MemExtendedParameterNumaNode
 
-This extended parameter type is used to specify the preferred NUMA node for new memory allocations created by <a href="base.virtualalloc2">VirtualAlloc2</a> and <a href="base.mapviewoffile3">MapViewOfFile3</a>.
+This extended parameter type is used to specify the preferred NUMA node for new memory allocations created by <a href="https://msdn.microsoft.com/en-us/library/Mt832849(v=VS.85).aspx">VirtualAlloc2</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>.
 
 
 ### -field MemExtendedParameterPartitionHandle

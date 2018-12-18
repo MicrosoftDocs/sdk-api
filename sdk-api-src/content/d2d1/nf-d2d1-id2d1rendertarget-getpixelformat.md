@@ -9,8 +9,6 @@ ms.assetid: 2dcd9af4-78d7-4271-9113-a91b4bb8145e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Direct2D], GetPixelFormat method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetPixelFormat method, ID2D1RenderTarget.GetPixelFormat, ID2D1RenderTarget::GetPixelFormat, d2d1/ID2D1RenderTarget::GetPixelFormat, direct2d.ID2D1RenderTarget_GetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

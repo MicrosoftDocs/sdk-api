@@ -9,8 +9,6 @@ ms.assetid: B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_PANOSE, DWRITE_PANOSE union [Direct Write], directwrite.dwrite_panose, dwrite_1/DWRITE_PANOSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7ACA58CC-E132-4836-B955-322375ADDAA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPlanarBitmapFrameEncode, IWICPlanarBitmapFrameEncode interface [Windows Imaging Component], IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],described, wic.iwicplanarbitmapframeencode, wincodec/IWICPlanarBitmapFrameEncode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

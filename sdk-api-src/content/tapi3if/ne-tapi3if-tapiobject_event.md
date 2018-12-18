@@ -9,8 +9,6 @@ ms.assetid: 606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TAPIOBJECT_EVENT, TAPIOBJECT_EVENT enumeration [TAPI 2.2], TE_ADDRESSCLOSE, TE_ADDRESSCREATE, TE_ADDRESSREMOVE, TE_REINIT, TE_TRANSLATECHANGE, _tapi3_tapiobject_event, tapi3.tapiobject_event, tapi3if/TAPIOBJECT_EVENT, tapi3if/TE_ADDRESSCLOSE, tapi3if/TE_ADDRESSCREATE, tapi3if/TE_ADDRESSREMOVE, tapi3if/TE_REINIT, tapi3if/TE_TRANSLATECHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

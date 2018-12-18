@@ -9,8 +9,6 @@ ms.assetid: F38DBE34-A6D0-4492-A829-EFE53D361A71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_StopTrackingForTimeSync, WinUsb_StopTrackingForTimeSync function [Buses], buses.winusb_stoptrackingfortimesync, winusb/WinUsb_StopTrackingForTimeSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

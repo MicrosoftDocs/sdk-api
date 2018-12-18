@@ -9,8 +9,6 @@ ms.assetid: e32193b2-de93-417e-9fe0-49f8e45f7a01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAnimation, CreateAnimation method [DirectComposition], CreateAnimation method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateAnimation method, IDCompositionDevice.CreateAnimation, IDCompositionDevice::CreateAnimation, dcomp/IDCompositionDevice::CreateAnimation, directcomp.idcompositiondevice_createanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -94,7 +92,7 @@ A newly created animation object does not have any animation segments associated
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9f40cd7d-04b5-4880-831f-5fb5cd52a2eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLink interface [Windows Shell],SetShowCmd method, IShellLink::SetShowCmd, IShellLinkA interface [Windows Shell],SetShowCmd method, IShellLinkA::SetShowCmd, IShellLinkW interface [Windows Shell],SetShowCmd method, IShellLinkW.SetShowCmd, IShellLinkW::SetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNORMAL, SetShowCmd, SetShowCmd method [Windows Shell], SetShowCmd method [Windows Shell],IShellLink interface, SetShowCmd method [Windows Shell],IShellLinkA interface, SetShowCmd method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetShowCmd, shell.IShellLink_SetShowCmd, shobjidl_core/IShellLink::SetShowCmd, shobjidl_core/IShellLinkA::SetShowCmd, shobjidl_core/IShellLinkW::SetShowCmd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
@@ -64,7 +62,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 
 Type: <b>int</b>
 
-Command. <b>SetShowCmd</b> accepts one of the following <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> commands.
+Command. <b>SetShowCmd</b> accepts one of the following <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> commands.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 32660c95-4b09-4ede-b02d-bf3a335a9097
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],RemoveDataBlock method, IShellLinkDataList.RemoveDataBlock, IShellLinkDataList::RemoveDataBlock, RemoveDataBlock, RemoveDataBlock method [Windows Shell], RemoveDataBlock method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_RemoveDataBlock, shell.IShellLinkDataList_RemoveDataBlock, shobjidl_core/IShellLinkDataList::RemoveDataBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

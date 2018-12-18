@@ -9,8 +9,6 @@ ms.assetid: ab68f292-851d-4908-b545-4df2931fceae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClassForHandler, GetClassForHandler method [COM], GetClassForHandler method [COM],IStdMarshalInfo interface, IStdMarshalInfo interface [COM],GetClassForHandler method, IStdMarshalInfo.GetClassForHandler, IStdMarshalInfo::GetClassForHandler, _com_istdmarshalinfo_getclassforhandler, com.istdmarshalinfo_getclassforhandler, objidlbase/IStdMarshalInfo::GetClassForHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

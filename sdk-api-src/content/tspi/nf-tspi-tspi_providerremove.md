@@ -9,8 +9,6 @@ ms.assetid: 3d6c6183-d5ab-4939-8f44-dfc42458706f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerRemove, TSPI_providerRemove function [TAPI 2.2], _tspi_tspi_providerremove, tspi.tspi_providerremove, tspi/TSPI_providerRemove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

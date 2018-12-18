@@ -9,8 +9,6 @@ ms.assetid: ceec4ead-e439-4206-ab30-ae37d15c5b44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EndOfStream method, IMediaStreamFilter.EndOfStream, IMediaStreamFilter::EndOfStream, IMediaStreamFilterEndOfStream, amstream/IMediaStreamFilter::EndOfStream, dshow.imediastreamfilter_endofstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -79,7 +77,7 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

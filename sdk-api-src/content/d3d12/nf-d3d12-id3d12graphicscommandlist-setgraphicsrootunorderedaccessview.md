@@ -9,8 +9,6 @@ ms.assetid: 7EF90634-0A33-42F5-880D-8E22910FAB47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootUnorderedAccessView method, ID3D12GraphicsCommandList.SetGraphicsRootUnorderedAccessView, ID3D12GraphicsCommandList::SetGraphicsRootUnorderedAccessView, SetGraphicsRootUnorderedAccessView, SetGraphicsRootUnorderedAccessView method, SetGraphicsRootUnorderedAccessView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootUnorderedAccessView, direct3d12.id3d12graphicscommandlist_setgraphicsrootunorderedaccessview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

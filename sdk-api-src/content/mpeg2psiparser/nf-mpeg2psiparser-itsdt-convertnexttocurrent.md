@@ -9,8 +9,6 @@ ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -131,7 +129,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/f2ce7908-3650-4ecf-8014-6bae377dcb5c">ITSDT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd694989(v=VS.85).aspx">ITSDT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -141,7 +139,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/58ec73dc-79bd-415b-b9be-8e9246166391">ITSDT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT Interface</a>
  
 
  

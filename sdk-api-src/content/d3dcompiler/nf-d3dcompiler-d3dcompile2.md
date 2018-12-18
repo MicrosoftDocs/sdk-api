@@ -9,8 +9,6 @@ ms.assetid: 0CE217EA-44F4-4017-B2ED-95E8B122CA95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3DCompile2, D3DCompile2 function [HLSL], d3dcompiler/D3DCompile2, direct3dhlsl.d3dcompile2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

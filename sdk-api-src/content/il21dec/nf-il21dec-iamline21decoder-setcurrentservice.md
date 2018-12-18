@@ -9,8 +9,6 @@ ms.assetid: 2f1945c3-644d-4e72-b2b7-a7e068b59d96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetCurrentService method, IAMLine21Decoder.SetCurrentService, IAMLine21Decoder::SetCurrentService, IAMLine21DecoderSetCurrentService, SetCurrentService, SetCurrentService method [DirectShow], SetCurrentService method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setcurrentservice, il21dec/IAMLine21Decoder::SetCurrentService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>SetCurrentService</code> method sets the closed captioning service.
 
 ### -param Service
 
-Member of the <a href="https://msdn.microsoft.com/dd2b618f-ffbf-4d48-bbe8-6d237a0f54e8">AM_LINE21_CCSERVICE</a> enumeration that specifies the closed captioning service. The default service is CC1.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373474(v=VS.85).aspx">AM_LINE21_CCSERVICE</a> enumeration that specifies the closed captioning service. The default service is CC1.
 
 
 ## -returns
@@ -105,11 +103,11 @@ Member of the <a href="https://msdn.microsoft.com/dd2b618f-ffbf-4d48-bbe8-6d237a
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfd1c33d-27e0-4923-9c80-5d1bedb4fd25">IAMLine21Decoder::GetCurrentService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389387(v=VS.85).aspx">IAMLine21Decoder::GetCurrentService</a>
  
 
  

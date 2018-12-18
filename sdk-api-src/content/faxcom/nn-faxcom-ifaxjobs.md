@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8bjn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxJobs, IFaxJobs interface [Fax Service], IFaxJobs interface [Fax Service],described, _mfax_ifaxjobs, fax._mfax_ifaxjobs, faxcom/IFaxJobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

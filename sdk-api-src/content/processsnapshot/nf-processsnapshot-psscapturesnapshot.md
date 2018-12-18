@@ -9,8 +9,6 @@ ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssCaptureSnapshot, PssCaptureSnapshot function, proc_snap.psscapturesnapshot, processsnapshot/PssCaptureSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
@@ -67,7 +65,7 @@ A handle to the target process.
 
 ### -param CaptureFlags [in]
 
-Flags that specify what to capture. For more information, see <a href="https://msdn.microsoft.com/6146DDA2-2475-45F8-86F3-65791B10743D">PSS_CAPTURE_FLAGS</a>.
+Flags that specify what to capture. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457841(v=VS.85).aspx">PSS_CAPTURE_FLAGS</a>.
 
 
 ### -param ThreadContextFlags [in, optional]

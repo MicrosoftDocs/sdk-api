@@ -9,8 +9,6 @@ ms.assetid: bfa2ca4d-6ff2-45df-8b18-a7e1498b1fdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],SmsFormat property, IMbnSmsConfiguration.SmsFormat, IMbnSmsConfiguration.get_SmsFormat, IMbnSmsConfiguration::SmsFormat, IMbnSmsConfiguration::get_SmsFormat, IMbnSmsConfiguration::put_SmsFormat, SmsFormat property [Microsoft Broadband Networks], SmsFormat property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_SmsFormat, mbn.imbnsmsconfiguration_smsformat, mbnapi/IMbnSmsConfiguration::SmsFormat, mbnapi/IMbnSmsConfiguration::get_SmsFormat, mbnapi/IMbnSmsConfiguration::put_SmsFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: Mbnapi.h

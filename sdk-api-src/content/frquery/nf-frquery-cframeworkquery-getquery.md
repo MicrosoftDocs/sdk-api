@@ -9,8 +9,6 @@ ms.assetid: 2f7b5057-8522-4ef3-bf5a-3b96b72128b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetQuery@CFrameworkQuery@@QAEABVCHString@@XZ, CFrameworkQuery interface [Windows Management Instrumentation],GetQuery method, CFrameworkQuery.GetQuery, CFrameworkQuery::GetQuery, GetQuery, GetQuery method [Windows Management Instrumentation], GetQuery method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getquery, frquery/CFrameworkQuery::GetQuery, wmi.cframeworkquery_getquery"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h
@@ -81,7 +79,7 @@ Returns the WQL command if the operation was successful and <b>NULL</b> otherwis
 
 
 
-If <b>GetQuery</b> is called within <a href="https://msdn.microsoft.com/c8e2633a-cbea-422c-9598-1b1b1104bbc2">Provider::GetObject</a>, the WQL command line does not contain a <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">WHERE</a> clause.
+If <b>GetQuery</b> is called within <a href="https://msdn.microsoft.com/en-us/library/Aa392779(v=VS.85).aspx">Provider::GetObject</a>, the WQL command line does not contain a <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">WHERE</a> clause.
 
 
 

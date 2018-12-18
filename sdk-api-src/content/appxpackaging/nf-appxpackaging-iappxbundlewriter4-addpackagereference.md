@@ -9,8 +9,6 @@ ms.assetid: 16ADE271-C507-4CC4-BB42-E76438B79436
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter4.AddPackageReference, IAppxBundleWriter4::AddPackageReference, appxpackaging/IAppxBundleWriter4::AddPackageReference, appxpkg.iappxbundlewriter4_addpackagereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cac928e5-8d8f-4b2f-9c1b-c00dc891e3d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuditComputeEffectivePolicyBySid, AuditComputeEffectivePolicyBySid function [Security], ntsecapi/AuditComputeEffectivePolicyBySid, security.auditcomputeeffectivepolicybysid_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

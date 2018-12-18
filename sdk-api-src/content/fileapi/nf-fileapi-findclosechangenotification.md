@@ -9,8 +9,6 @@ ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindCloseChangeNotification, FindCloseChangeNotification function [Files], _win32_findclosechangenotification, base.findclosechangenotification, fileapi/FindCloseChangeNotification, fs.findclosechangenotification, winbase/FindCloseChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

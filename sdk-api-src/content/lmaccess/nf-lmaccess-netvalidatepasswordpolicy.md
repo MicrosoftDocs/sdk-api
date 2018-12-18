@@ -9,8 +9,6 @@ ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

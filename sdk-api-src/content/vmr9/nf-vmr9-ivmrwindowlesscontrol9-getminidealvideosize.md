@@ -9,8 +9,6 @@ ms.assetid: 9e100f04-28fc-4449-9fe4-0f0074e6439c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMinIdealVideoSize, GetMinIdealVideoSize method [DirectShow], GetMinIdealVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetMinIdealVideoSize method, IVMRWindowlessControl9.GetMinIdealVideoSize, IVMRWindowlessControl9::GetMinIdealVideoSize, IVMRWindowlessControl9GetMinIdealVideoSize, dshow.ivmrwindowlesscontrol9_getminidealvideosize, vmr9/IVMRWindowlessControl9::GetMinIdealVideoSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -125,11 +123,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/0aac9c10-c152-4c26-b520-b4ccaf37600c">GetMaxIdealVideoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390542(v=VS.85).aspx">GetMaxIdealVideoSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 

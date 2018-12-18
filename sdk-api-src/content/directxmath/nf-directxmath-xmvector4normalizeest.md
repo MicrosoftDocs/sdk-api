@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4NormalizeEst(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4NormalizeEst, XMVector4NormalizeEst, XMVector4NormalizeEst method [DirectX Math Support APIs], dxmath.xmvector4normalizeest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -97,7 +95,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/3972a658-22fc-4740-8768-e79112a0a8fa">XMVector4Normalize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420976(v=VS.85).aspx">XMVector4Normalize</a>
  
 
  

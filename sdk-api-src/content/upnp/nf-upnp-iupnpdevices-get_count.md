@@ -9,8 +9,6 @@ ms.assetid: 1a3e3b65-b147-41e7-a5df-7424613b50f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Count method, IUPnPDevices.get_Count, IUPnPDevices::get_Count, _upnp_iupnpdevices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_count, upnp/IUPnPDevices::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

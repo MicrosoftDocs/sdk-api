@@ -9,8 +9,6 @@ ms.assetid: b6a416d1-0bad-49e0-91ad-19e9ff544a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelLicenseAcquisition, CancelLicenseAcquisition method [windows Media Format], CancelLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelLicenseAcquisition method, IWMDRMReader.CancelLicenseAcquisition, IWMDRMReader::CancelLicenseAcquisition, IWMDRMReaderCancelLicenseAcquisition, wmformat.iwmdrmreader_cancellicenseacquisition, wmsdkidl/IWMDRMReader::CancelLicenseAcquisition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,7 +53,7 @@ req.redist:
 ]
 
 
-The <b>CancelLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/757e0926-81aa-48f2-9820-67c8dd51579d">AcquireLicense</a> method.
+The <b>CancelLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798347(v=VS.85).aspx">AcquireLicense</a> method.
 
 
 
@@ -81,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
  
 
  

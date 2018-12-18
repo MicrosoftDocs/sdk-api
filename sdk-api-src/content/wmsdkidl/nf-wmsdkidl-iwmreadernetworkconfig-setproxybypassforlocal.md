@@ -9,8 +9,6 @@ ms.assetid: 4a012718-a815-4e01-97f8-69ed2ba881ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyBypassForLocal method, IWMReaderNetworkConfig.SetProxyBypassForLocal, IWMReaderNetworkConfig::SetProxyBypassForLocal, IWMReaderNetworkConfigSetProxyBypassForLocal, SetProxyBypassForLocal, SetProxyBypassForLocal method [windows Media Format], SetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::SetProxyBypassForLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,15 +125,15 @@ This setting is used only when the proxy setting is WMT_PROXY_SETTING_MANUAL. If
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e960fa9-d71c-4a13-9210-8a2a86e9989c">IWMReaderNetworkConfig::GetProxyBypassForLocal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743530(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyBypassForLocal</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

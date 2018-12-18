@@ -9,8 +9,6 @@ ms.assetid: D11971C8-2E8F-4AD2-BE0B-FEFEC8949125
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindows8OrGreater, IsWindows8OrGreater function, base.iswindows8orgreater, versionhelpers/IsWindows8OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

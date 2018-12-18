@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10texture3d_map.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0a753acc-a6b4-f192-8a52-1069da27bbff, ID3D10Texture3D interface [Direct3D 10],Map method, ID3D10Texture3D.Map, ID3D10Texture3D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture3D interface, d3d10/ID3D10Texture3D::Map, direct3d10.id3d10texture3d_map
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,7 +59,7 @@ Get a pointer to the data contained in a subresource, and deny GPU access to tha
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index number of the subresource. See <a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a>for more details.
 
@@ -75,7 +73,7 @@ Specifies the CPU's read and write permissions for a resource. For possible valu
 
 ### -param MapFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 
 <a href="https://msdn.microsoft.com/en-us/library/Bb205321(v=VS.85).aspx">Flag</a> that specifies what the CPU should do when the GPU is busy. This flag is optional.

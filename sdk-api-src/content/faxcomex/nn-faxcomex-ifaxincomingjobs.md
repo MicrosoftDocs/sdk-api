@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_28vn_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJobs, IFaxIncomingJobs interface [Fax Service], IFaxIncomingJobs interface [Fax Service],described, _mfax_faxincomingjobs_cpp, fax._mfax_faxincomingjobs_cpp, faxcomex/IFaxIncomingJobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

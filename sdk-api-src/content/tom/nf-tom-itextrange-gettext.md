@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

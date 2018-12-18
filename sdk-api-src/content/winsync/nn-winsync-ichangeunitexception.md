@@ -9,8 +9,6 @@ ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync], IChangeUnitException interface [Windows Sync],described, winsync.ichangeunitexception, winsync/IChangeUnitException
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 90d61009-e0f7-4df6-a23b-1f9f489b15f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumItems, EnumItems method [Text Services Framework], EnumItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],EnumItems method, ITfLangBarItemMgr.EnumItems, ITfLangBarItemMgr::EnumItems, _tsf_itflangbaritemmgr_enumitems_ref, ctfutb/ITfLangBarItemMgr::EnumItems, tsf.itflangbaritemmgr_enumitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -59,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538185(v=VS.85).aspx">IEnumTfLangBarItems</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="https://msdn.microsoft.com/a3988c0f-db2d-4841-8098-f1dc133cb60a">IEnumTfLangBarItems</a> interface pointer that receives the enumerator object.
 
 
 ## -returns
@@ -128,11 +126,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538185(v=VS.85).aspx">IEnumTfLangBarItems</a>
+<a href="https://msdn.microsoft.com/a3988c0f-db2d-4841-8098-f1dc133cb60a">IEnumTfLangBarItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628723(v=VS.85).aspx">ITfLangBarItemMgr</a>
+<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
  
 
  

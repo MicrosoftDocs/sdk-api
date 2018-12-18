@@ -9,8 +9,6 @@ ms.assetid: 76764dbb-7de0-4b95-a210-60b8e6a4b24b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], IMbnPin interface [Microsoft Broadband Networks],described, mbn.imbnpin, mbnapi/IMbnPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

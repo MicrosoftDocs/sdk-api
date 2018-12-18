@@ -9,8 +9,6 @@ ms.assetid: b155cf6b-babd-4c47-8571-96f970878d81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam2 method, ITAddressDeviceSpecificEvent.get_lParam2, ITAddressDeviceSpecificEvent::get_lParam2, _tapi3_itaddressdevicespecificevent_get_lparam2, get_lParam2, get_lParam2 method [TAPI 2.2], get_lParam2 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam2, tapi3if/ITAddressDeviceSpecificEvent::get_lParam2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

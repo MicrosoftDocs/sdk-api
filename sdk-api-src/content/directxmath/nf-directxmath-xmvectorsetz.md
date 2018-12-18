@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetZ(XMVECTOR,float)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSetZ, XMVectorSetZ, XMVectorSetZ method [DirectX Math Support APIs], dxmath.xmvectorsetz
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: 6aef54b0-a7aa-4ff9-b50f-f84131614853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCancelEvent, GetCancelEvent method [Windows Shell], GetCancelEvent method [Windows Shell],IObjectWithCancelEvent interface, IObjectWithCancelEvent interface [Windows Shell],GetCancelEvent method, IObjectWithCancelEvent.GetCancelEvent, IObjectWithCancelEvent::GetCancelEvent, _shell_IObjectWithCancelEvent_GetCancelEvent, shell.IObjectWithCancelEvent_GetCancelEvent, shobjidl_core/IObjectWithCancelEvent::GetCancelEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

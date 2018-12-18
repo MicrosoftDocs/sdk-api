@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMHALF4, XMHALF4 constructor [DirectX Math Support APIs], XMHALF4 constructor [DirectX Math Support APIs],XMHALF4 structure, XMHALF4 structure [DirectX Math Support APIs],XMHALF4 constructor, XMHALF4.XMHALF4, XMHALF4.XMHALF4(), XMHALF4::XMHALF4, dxmath.xmhalf4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMHALF4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/194CC053-8341-4E26-B8B2-5F137B201D80">XMHALF4</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -83,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/194CC053-8341-4E26-B
 
 
 
-<a href="https://msdn.microsoft.com/194CC053-8341-4E26-B8B2-5F137B201D80">XMHALF4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419664(v=VS.85).aspx">XMHALF4</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a27ff98-5dd1-4db0-b1a1-7c2fa8b53027">XMHALF4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415321(v=VS.85).aspx">XMHALF4 Constructors</a>
  
 
  

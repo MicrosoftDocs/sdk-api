@@ -9,8 +9,6 @@ ms.assetid: b6fc4aa6-f689-4b3e-a922-f8361d33b6dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Destroy, Destroy method [Windows Shell], Destroy method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Destroy method, IExplorerBrowser.Destroy, IExplorerBrowser::Destroy, _shell_IExplorerBrowser_Destroy, shell.IExplorerBrowser_Destroy, shobjidl_core/IExplorerBrowser::Destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

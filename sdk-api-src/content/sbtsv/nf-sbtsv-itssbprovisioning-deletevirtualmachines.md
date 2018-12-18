@@ -4,13 +4,11 @@ title: ITsSbProvisioning::DeleteVirtualMachines
 author: windows-sdk-content
 description: Deletes a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_deletevirtualmachines.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 45f5398d-2d27-4f6b-9020-bcbb44edc89a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteVirtualMachines, DeleteVirtualMachines method [Remote Desktop Services], DeleteVirtualMachines method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],DeleteVirtualMachines method, ITsSbProvisioning.DeleteVirtualMachines, ITsSbProvisioning::DeleteVirtualMachines, sbtsv/ITsSbProvisioning::DeleteVirtualMachines, termserv.itssbprovisioning_deletevirtualmachines
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

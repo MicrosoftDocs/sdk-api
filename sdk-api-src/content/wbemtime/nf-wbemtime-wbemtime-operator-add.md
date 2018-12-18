@@ -9,8 +9,6 @@ ms.assetid: d805f837-4063-4c16-aebc-88940a662d5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??HWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator+ method, WBEMTime.operator+, WBEMTime.operator-add, WBEMTime::operator+, WBEMTime::operator-add, _hmm_wbemtime_operator_plus, operator+, operator+ method [Windows Management Instrumentation], operator+ method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator+, wmi.wbemtime_operator_plus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
@@ -68,14 +66,14 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 ### -param uAdd [ref]
 
-Reference to the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> object.
+Reference to the <a href="https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx">WBEMTimeSpan</a> object.
 
 
 ## -returns
 
 
 
-A new <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object whose value is the sum of the "this" object and the <a href="https://msdn.microsoft.com/bcec87c1-32ba-451b-92bb-80c8a5007adb">WBEMTimeSpan</a> argument. The value of the "this" object is unchanged by this method.
+A new <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object whose value is the sum of the "this" object and the <a href="https://msdn.microsoft.com/en-us/library/Aa393989(v=VS.85).aspx">WBEMTimeSpan</a> argument. The value of the "this" object is unchanged by this method.
 
 
 

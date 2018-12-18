@@ -9,8 +9,6 @@ ms.assetid: 5666dc47-811f-481e-8bda-bf814a4028de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmLockDestination, RtmLockDestination function [RAS], _rtmv2ref_rtmlockdestination, rras.rtmlockdestination, rtmv2/RtmLockDestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

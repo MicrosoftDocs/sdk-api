@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GCLP_HBRBACKGROUND, GCLP_HCURSOR, GCLP_HICON, GCLP_HICONSM, GCLP_HMODULE, GCLP_MENUNAME, GCLP_WNDPROC, GCL_CBCLSEXTRA, GCL_CBWNDEXTRA, GCL_STYLE, GCW_ATOM, GetClassLongPtr, GetClassLongPtr function [Windows and Messages], GetClassLongPtrA, GetClassLongPtrW, _win32_GetClassLongPtr, _win32_getclasslongptr_cpp, winmsg.getclasslongptr, winui._win32_getclasslongptr, winuser/GetClassLongPtr, winuser/GetClassLongPtrA, winuser/GetClassLongPtrW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

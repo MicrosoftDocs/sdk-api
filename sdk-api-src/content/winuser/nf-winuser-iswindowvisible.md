@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWindowVisible, IsWindowVisible function [Windows and Messages], _win32_IsWindowVisible, _win32_iswindowvisible_cpp, winmsg.iswindowvisible, winui._win32_iswindowvisible, winuser/IsWindowVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

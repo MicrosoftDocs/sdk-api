@@ -9,8 +9,6 @@ ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

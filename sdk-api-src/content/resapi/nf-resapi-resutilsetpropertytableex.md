@@ -9,8 +9,6 @@ ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

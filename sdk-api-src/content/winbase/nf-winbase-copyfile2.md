@@ -9,8 +9,6 @@ ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -107,7 +105,7 @@ If this parameter is <b>NULL</b>, the implementation registers or unregisters th
 ### -param notification [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure that contains the pattern-matching sequence for one type of trap or notification. The implementation uses this sequence to identify the type of trap or notification for which the WinSNMP application is registering or unregistering. For additional information, see the following Remarks section. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure that contains the pattern-matching sequence for one type of trap or notification. The implementation uses this sequence to identify the type of trap or notification for which the WinSNMP application is registering or unregistering. For additional information, see the following Remarks section. 
 
 
 
@@ -299,7 +297,7 @@ If a WinSNMP application passes <b>NULL</b> in a call to the
 <b>SnmpRegister</b> function in the <i>srcEntity</i>, <i>dstEntity</i>, <i>context</i>, or <i>notification</i> parameters, the implementation does not use that parameter to filter traps and notifications from reaching the WinSNMP application. If an application passes <b>NULL</b> in all of the parameters mentioned previously, the implementation delivers all received notifications to the session.
 
 If a WinSNMP application registers to receive a specific type of trap or notification, it must define an object identifier, that is, an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure, that corresponds to that type of trap. The <i>notification</i> parameter must point to this structure. RFC 1907, "Management Information Base for Version 2 of the Simple Network Management Protocol (SNMPv2)," defines trap and notification object identifiers. For additional information, see 
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure, that corresponds to that type of trap. The <i>notification</i> parameter must point to this structure. RFC 1907, "Management Information Base for Version 2 of the Simple Network Management Protocol (SNMPv2)," defines trap and notification object identifiers. For additional information, see 
 <a href="https://msdn.microsoft.com/2bccba35-bf5c-4e5c-94e4-59980f2b9776">Managing Traps and Notifications</a> and 
 <a href="https://msdn.microsoft.com/472f67ba-05d5-46f7-a2f1-1cef6182574e">Translating Traps from SNMPv1 to SNMPv2C</a>.
 

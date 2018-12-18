@@ -9,8 +9,6 @@ ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: filehc.h
 req.include-header: 

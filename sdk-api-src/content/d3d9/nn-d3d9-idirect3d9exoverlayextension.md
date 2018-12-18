@@ -9,8 +9,6 @@ ms.assetid: 57591794-96d3-40e6-a4fb-3bb195fd1396
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], IDirect3D9ExOverlayExtension interface [Media Foundation],described, d3d9/IDirect3D9ExOverlayExtension, mf.idirect3d9exoverlayextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d9.h
 req.include-header: 

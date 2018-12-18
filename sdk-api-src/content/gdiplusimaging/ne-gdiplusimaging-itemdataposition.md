@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\itemdataposition.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPositionAfterBits, ItemDataPositionAfterHeader, ItemDataPositionAfterPalette, _gdiplus_ENUM_ItemDataPosition, gdiplus._gdiplus_ENUM_ItemDataPosition, gdiplusimaging/ItemDataPosition, gdiplusimaging/ItemDataPositionAfterBits, gdiplusimaging/ItemDataPositionAfterHeader, gdiplusimaging/ItemDataPositionAfterPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h

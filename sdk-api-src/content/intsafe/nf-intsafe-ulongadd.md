@@ -9,8 +9,6 @@ ms.assetid: 63726f12-ba01-4cb7-a311-95d476e68174
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULongAdd, intsafe/ULongAdd, shell.ULongAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

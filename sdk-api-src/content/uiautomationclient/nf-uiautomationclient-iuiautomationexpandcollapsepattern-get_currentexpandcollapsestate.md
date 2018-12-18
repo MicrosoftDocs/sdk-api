@@ -9,8 +9,6 @@ ms.assetid: abd21a19-c7a0-44db-ad5b-64c476efa400
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentExpandCollapseState property [Windows Accessibility], CurrentExpandCollapseState property [Windows Accessibility],IUIAutomationExpandCollapsePattern interface, IUIAutomationExpandCollapsePattern interface [Windows Accessibility],CurrentExpandCollapseState property, IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, get_CurrentExpandCollapseState, uiauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::CurrentExpandCollapseState, uiautomationclient/IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState, winauto.uiauto_IUIAutomationExpandCollapsePattern_CurrentExpandCollapseState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

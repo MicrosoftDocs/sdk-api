@@ -9,8 +9,6 @@ ms.assetid: 693f68ce-e557-4c66-9a6d-ba76e4fde426
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemBitmapButton.OnMenuSelect, ITfLangBarItemBitmapButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_onmenuselect_ref, ctfutb/ITfLangBarItemBitmapButton::OnMenuSelect, tsf.itflangbaritembitmapbutton_onmenuselect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -60,7 +58,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param wID [in]
 
-Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/en-us/library/ms628781(v=VS.85).aspx">ITfMenu::AddMenuItem</a>.
+Specifies the identifier of the menu item selected. This is the value passed for <i>uId</i> in <a href="https://msdn.microsoft.com/c00048d1-d7c1-4ea3-a132-5f5aa570148f">ITfMenu::AddMenuItem</a>.
 
 
 ## -returns
@@ -107,7 +105,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: A7FDB75C-146C-47E9-AB3B-8457EA3304BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterDeactivate, EngineAdapterDeactivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_DEACTIVATE_FN, PIBIO_ENGINE_DEACTIVATE_FN callback, secbiomet.engineadapterdeactivate, winbio_adapter/EngineAdapterDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

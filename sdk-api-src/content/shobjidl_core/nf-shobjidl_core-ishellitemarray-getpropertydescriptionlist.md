@@ -9,8 +9,6 @@ ms.assetid: abedf6a4-dfad-4add-8464-571542b068cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetPropertyDescriptionList method, IShellItemArray.GetPropertyDescriptionList, IShellItemArray::GetPropertyDescriptionList, _shell_IShellItemArray_GetPropertyDescriptionList, shell.IShellItemArray_GetPropertyDescriptionList, shobjidl_core/IShellItemArray::GetPropertyDescriptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

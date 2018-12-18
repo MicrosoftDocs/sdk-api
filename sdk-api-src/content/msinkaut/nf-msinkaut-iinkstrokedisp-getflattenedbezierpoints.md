@@ -9,8 +9,6 @@ ms.assetid: e39e3fc3-bcdc-4d88-8051-18ed8b183c79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFlattenedBezierPoints, GetFlattenedBezierPoints method [Tablet PC], GetFlattenedBezierPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetFlattenedBezierPoints method, IInkStrokeDisp.GetFlattenedBezierPoints, IInkStrokeDisp::GetFlattenedBezierPoints, e39e3fc3-bcdc-4d88-8051-18ed8b183c79, msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints, tablet.iinkstrokedisp_getflattenedbezierpoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

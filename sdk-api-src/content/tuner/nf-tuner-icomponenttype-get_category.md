@@ -9,8 +9,6 @@ ms.assetid: e0a61359-a15a-47f6-8388-90368867e945
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_Category method, IComponentType.get_Category, IComponentType::get_Category, IComponentTypeget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_category, tuner/IComponentType::get_Category
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

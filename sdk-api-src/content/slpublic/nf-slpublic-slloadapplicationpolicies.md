@@ -9,8 +9,6 @@ ms.assetid: a0852c0c-3d7d-4cca-a30b-b413c653b284
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLLoadApplicationPolicies, SLLoadApplicationPolicies function [Security], security.slloadapplicationpolicies, slpublic/SLLoadApplicationPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

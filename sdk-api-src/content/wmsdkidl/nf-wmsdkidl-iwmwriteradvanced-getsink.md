@@ -9,8 +9,6 @@ ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="https://msdn.microsoft.com/210c96bc-3659-43e6-acb2-4d9f328e81e0">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
+The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd798729(v=VS.85).aspx">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
 
 
 
@@ -71,7 +69,7 @@ The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction wi
 
 ### -param ppSink [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink</a> interface.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a> interface.
 
 
 ## -returns
@@ -117,7 +115,7 @@ Either the <i>ppSink</i> parameter is <b>NULL</b>, or the <i>dwSinkNum</i> param
 
 
 
-You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="https://msdn.microsoft.com/352cf497-f7d6-41e8-bdbb-c59215b617a3">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
+You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
 
 
 
@@ -131,19 +129,19 @@ You can use <b>GetSink</b> to gain access to the file sink that is automatically
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/65763ac3-fba0-4de6-9c2e-4e241bbe5f13">IWMWriterAdvanced::AddSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798727(v=VS.85).aspx">IWMWriterAdvanced::AddSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/210c96bc-3659-43e6-acb2-4d9f328e81e0">IWMWriterAdvanced::GetSinkCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798729(v=VS.85).aspx">IWMWriterAdvanced::GetSinkCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2fc7f82-981a-4f69-b99d-71514ed2c6ae">IWMWriterAdvanced::RemoveSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798736(v=VS.85).aspx">IWMWriterAdvanced::RemoveSink</a>
  
 
  

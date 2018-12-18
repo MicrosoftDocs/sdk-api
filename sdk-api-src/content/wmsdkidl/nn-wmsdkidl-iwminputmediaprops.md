@@ -9,8 +9,6 @@ ms.assetid: d901ac66-d4b3-4256-bd7b-53cccb3de644
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], IWMInputMediaProps interface [windows Media Format],described, IWMInputMediaPropsInterface, wmformat.iwminputmediaprops, wmsdkidl/IWMInputMediaProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -53,14 +51,14 @@ req.redist:
 
 The <b>IWMInputMediaProps</b> interface is used to retrieve the properties of digital media that will be passed to the writer.
 
-An input media properties object is created by a call to either the <a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b15a-659f519c22f6">IWMWriter::GetInputProps</a> or <a href="https://msdn.microsoft.com/c058de81-a29a-4bcd-a819-3cdef11cae9f">IWMWriter::GetInputFormat</a> method.
+An input media properties object is created by a call to either the <a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">IWMWriter::GetInputProps</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd757478(v=VS.85).aspx">IWMWriter::GetInputFormat</a> method.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMInputMediaProps</b> interface inherits from <a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>. <b>IWMInputMediaProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMInputMediaProps</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>. <b>IWMInputMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMInputMediaProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efb8b26b-c04f-4253-85a7-13456e1599bb">GetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757210(v=VS.85).aspx">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection name specified in the profile.
@@ -84,7 +82,7 @@ Retrieves the connection name specified in the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/795cd065-62f1-4346-b2ff-f77ec4306d64">GetGroupName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757211(v=VS.85).aspx">GetGroupName</a>
 </td>
 <td align="left" width="63%">
 Not implemented in this release. Returns an empty string.
@@ -102,27 +100,27 @@ For information on which interfaces can be obtained by using the QueryInterface 
 
 
 
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c058de81-a29a-4bcd-a819-3cdef11cae9f">IWMWriter::GetInputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757478(v=VS.85).aspx">IWMWriter::GetInputFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b15a-659f519c22f6">IWMWriter::GetInputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">IWMWriter::GetInputProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/15084a4d-06e8-4f74-9697-ced794d2cdae">IWMWriter::SetInputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">IWMWriter::SetInputProps</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: cf998ecc-e80e-4eb3-9cba-61bd0b665d51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples method, IWMSyncReader.SetReadStreamSamples, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -149,11 +147,11 @@ You can call <b>SetReadStreamSamples</b> at any time after a file has been loade
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd">IWMSyncReader::GetReadStreamSamples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798594(v=VS.85).aspx">IWMSyncReader::GetReadStreamSamples</a>
  
 
  

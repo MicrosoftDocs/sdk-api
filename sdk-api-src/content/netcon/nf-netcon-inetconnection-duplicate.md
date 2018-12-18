@@ -9,8 +9,6 @@ ms.assetid: 1196e66d-95c1-4417-ac0d-b84583879d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Duplicate, Duplicate method [ICS/ICF], Duplicate method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Duplicate method, INetConnection.Duplicate, INetConnection::Duplicate, _ics_inetconnection_duplicate, ics.inetconnection_duplicate, netcon/INetConnection::Duplicate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2fdff427-a363-4ce2-b1fe-a1ed945cae8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectedUser property [Task Scheduler], ConnectedUser property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedUser property, ITaskService.ConnectedUser, ITaskService.get_ConnectedUser, ITaskService::ConnectedUser, ITaskService::get_ConnectedUser, get_ConnectedUser, taskschd.itaskservice_connecteduser, taskschd/ITaskService::ConnectedUser, taskschd/ITaskService::get_ConnectedUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

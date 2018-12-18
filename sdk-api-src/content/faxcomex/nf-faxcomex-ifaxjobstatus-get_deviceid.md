@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4dk4.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],DeviceId property, IFaxJobStatus.DeviceId, IFaxJobStatus.get_DeviceId, IFaxJobStatus::DeviceId, IFaxJobStatus::get_DeviceId, _mfax_faxjobstatus.deviceid, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_deviceid_cpp, fax._mfax_faxjobstatus_deviceid, faxcomex/IFaxJobStatus::DeviceId, faxcomex/IFaxJobStatus::get_DeviceId, get_DeviceId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

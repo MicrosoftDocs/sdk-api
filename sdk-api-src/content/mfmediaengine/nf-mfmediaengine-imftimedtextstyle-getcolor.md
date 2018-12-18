@@ -9,8 +9,6 @@ ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

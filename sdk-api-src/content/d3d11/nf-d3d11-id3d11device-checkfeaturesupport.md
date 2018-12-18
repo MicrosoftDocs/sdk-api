@@ -9,8 +9,6 @@ ms.assetid: 7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [Direct3D 11], CheckFeatureSupport method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckFeatureSupport method, ID3D11Device.CheckFeatureSupport, ID3D11Device::CheckFeatureSupport, cf1b66c2-5336-35b5-28c8-154fc99a01ee, d3d11/ID3D11Device::CheckFeatureSupport, direct3d11.id3d11device_checkfeaturesupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

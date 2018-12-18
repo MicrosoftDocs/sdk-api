@@ -9,8 +9,6 @@ ms.assetid: eda636d8-a07d-aea5-f81e-0489acc006ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISwapChainPanelNative2 interface [Windows Runtime],SetSwapChainHandle method, ISwapChainPanelNative2.SetSwapChainHandle, ISwapChainPanelNative2.xaml, ISwapChainPanelNative2::SetSwapChainHandle, ISwapChainPanelNative2::xaml, SetSwapChainHandle, SetSwapChainHandle method [Windows Runtime], SetSwapChainHandle method [Windows Runtime],ISwapChainPanelNative2 interface, windows/ISwapChainPanelNative2::SetSwapChainHandle, winrt.iswapchainpanelnative2_setswapchainhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

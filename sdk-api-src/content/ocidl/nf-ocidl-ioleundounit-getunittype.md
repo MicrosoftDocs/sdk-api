@@ -9,8 +9,6 @@ ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetUnitType method, IOleUndoUnit.GetUnitType, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

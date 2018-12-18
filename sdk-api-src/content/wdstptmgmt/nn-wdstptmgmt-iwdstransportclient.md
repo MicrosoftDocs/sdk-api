@@ -9,8 +9,6 @@ ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

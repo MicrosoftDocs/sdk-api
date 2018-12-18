@@ -9,8 +9,6 @@ ms.assetid: 4dc47d60-184d-4601-8c58-08ae8b747223
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],IsValidSetOfMediaTypes method, CMSPAddress.IsValidSetOfMediaTypes, CMSPAddress::IsValidSetOfMediaTypes, IsValidSetOfMediaTypes, IsValidSetOfMediaTypes method [TAPI 2.2], IsValidSetOfMediaTypes method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_isvalidsetofmediatypes, mspaddr/CMSPAddress::IsValidSetOfMediaTypes, tapi3.cmspaddress_isvalidsetofmediatypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
@@ -75,7 +73,7 @@ Media types mask indicating types that can be handled.
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
  
 
  

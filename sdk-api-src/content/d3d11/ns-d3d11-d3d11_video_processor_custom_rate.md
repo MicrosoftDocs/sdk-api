@@ -9,8 +9,6 @@ ms.assetid: 237357C8-546E-41E5-8002-E5499E39DA72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_VIDEO_PROCESSOR_CUSTOM_RATE structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CUSTOM_RATE, mf.d3d11_video_processor_custom_rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -102,11 +100,11 @@ The <b>CustomRate</b> member gives the rate conversion factor, while the remaini
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447804(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>
+<a href="https://msdn.microsoft.com/0FA868E6-B0FB-433B-A183-72DDE39B207E">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
@@ -71,7 +69,7 @@ The number of alternate names in the array.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of alternate names in the array.
@@ -84,7 +82,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383295(v=VS.85).aspx">ICertEncodeAltName</a>
+<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
  
 
  

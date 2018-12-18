@@ -9,8 +9,6 @@ ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssAdmin interface [VSS],RegisterProvider method, IVssAdmin.RegisterProvider, IVssAdmin::RegisterProvider, RegisterProvider, RegisterProvider method [VSS], RegisterProvider method [VSS],IVssAdmin interface, base.ivssadmin_registerprovider, vsadmin/IVssAdmin::RegisterProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsadmin.h
 req.include-header: 

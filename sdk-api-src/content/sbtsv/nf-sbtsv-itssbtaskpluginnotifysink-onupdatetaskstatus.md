@@ -4,13 +4,11 @@ title: ITsSbTaskPluginNotifySink::OnUpdateTaskStatus
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a task has changed.
 old-location: termserv\itssbtaskpluginnotifysink_onupdatetaskstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5fc22173-12b2-41a4-a487-8092088ecfe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnUpdateTaskStatus method, ITsSbTaskPluginNotifySink.OnUpdateTaskStatus, ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, OnUpdateTaskStatus, OnUpdateTaskStatus method [Remote Desktop Services], OnUpdateTaskStatus method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnUpdateTaskStatus, termserv.itssbtaskpluginnotifysink_onupdatetaskstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

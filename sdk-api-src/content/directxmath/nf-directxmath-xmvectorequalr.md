@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqualR(uint32_t@,XMVECTOR
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorEqualR, XMVectorEqualR, XMVectorEqualR method [DirectX Math Support APIs], dxmath.xmvectorequalr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Performs a per-component test for equality of two vectors and sets a comparison 
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V1 [in]
@@ -101,11 +99,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e5e3d343-6baf-4d98-b303-5d1b12bb285d">XMVectorEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421013(v=VS.85).aspx">XMVectorEqual</a>
 
 
 
-<a href="https://msdn.microsoft.com/f96b619f-8aa2-47ab-8a3b-48000b9008bb">XMVectorEqualInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421014(v=VS.85).aspx">XMVectorEqualInt</a>
  
 
  

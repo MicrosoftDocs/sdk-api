@@ -9,8 +9,6 @@ ms.assetid: f140f068-3115-4389-b67b-6d41d12f7525
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleNoteObjectVisible, OleNoteObjectVisible function [COM], _ole_OleNoteObjectVisible, com.olenoteobjectvisible, ole2/OleNoteObjectVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

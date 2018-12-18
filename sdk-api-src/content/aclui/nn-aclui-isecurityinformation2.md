@@ -9,8 +9,6 @@ ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityInformation2, ISecurityInformation2 interface [Security], ISecurityInformation2 interface [Security],described, _win32_isecurityinformation2, aclui/ISecurityInformation2, security.isecurityinformation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 
@@ -99,7 +97,7 @@ Retrieves the common names corresponding to the specified SIDs.
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
  
 
  

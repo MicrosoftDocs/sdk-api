@@ -9,8 +9,6 @@ ms.assetid: 766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibraryServices interface [Windows Media Player],getLibraryByType method, IWMPLibraryServices.getLibraryByType, IWMPLibraryServices::getLibraryByType, IWMPLibraryServicesgetLibraryByType, getLibraryByType, getLibraryByType method [Windows Media Player], getLibraryByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getlibrarybytype, wmp/IWMPLibraryServices::getLibraryByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -120,15 +118,15 @@ There is only one local library and disc libraries are available only on data CD
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ed6d02e-15ca-425f-8642-e32a5adfaa55">IWMPLibraryServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563384(v=VS.85).aspx">IWMPLibraryServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf0e7140-5a33-4841-bd55-ac07dae09c41">WMPLibraryType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564875(v=VS.85).aspx">WMPLibraryType</a>
  
 
  

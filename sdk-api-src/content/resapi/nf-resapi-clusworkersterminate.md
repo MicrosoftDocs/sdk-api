@@ -9,8 +9,6 @@ ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

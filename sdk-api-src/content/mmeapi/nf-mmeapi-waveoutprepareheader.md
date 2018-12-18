@@ -9,8 +9,6 @@ ms.assetid: f970c7ed-b9c5-45ce-a59b-dee02359ef82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutPrepareHeader, mmsystem/waveOutPrepareHeader, multimedia.waveoutprepareheader, waveOutPrepareHeader, waveOutPrepareHeader function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h

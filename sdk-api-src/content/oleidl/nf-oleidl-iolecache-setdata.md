@@ -9,8 +9,6 @@ ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

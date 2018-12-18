@@ -4,13 +4,11 @@ title: IRemoteDesktopClient::attachEvent
 author: windows-sdk-content
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],attachEvent method, IRemoteDesktopClient.attachEvent, IRemoteDesktopClient::attachEvent, attachEvent, attachEvent method [Remote Desktop Services], attachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::attachEvent, termserv.iremotedesktopclient_attachevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

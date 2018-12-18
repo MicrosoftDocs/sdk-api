@@ -9,8 +9,6 @@ ms.assetid: 510aea71-5885-4d23-8fe9-1fef4881cb18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellView interface [Windows Shell],Refresh method, IShellView.Refresh, IShellView::Refresh, Refresh, Refresh method [Windows Shell], Refresh method [Windows Shell],IShellView interface, _win32_IShellView_Refresh, shell.IShellView_Refresh, shobjidl_core/IShellView::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

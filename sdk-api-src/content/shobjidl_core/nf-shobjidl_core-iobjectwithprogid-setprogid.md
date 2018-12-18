@@ -9,8 +9,6 @@ ms.assetid: 4889f9a5-da80-4909-b4b5-4ea69ea99c3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectWithProgID interface [Windows Shell],SetProgID method, IObjectWithProgID.SetProgID, IObjectWithProgID::SetProgID, SetProgID, SetProgID method [Windows Shell], SetProgID method [Windows Shell],IObjectWithProgID interface, _shell_IObjectWithProgID_SetProgID, shell.IObjectWithProgID_SetProgID, shobjidl_core/IObjectWithProgID::SetProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

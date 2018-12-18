@@ -9,8 +9,6 @@ ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

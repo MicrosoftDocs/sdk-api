@@ -1,5 +1,5 @@
 ---
-UID: NS:ntdsapi.DS_REPSYNCALL_SYNCA
+UID: NS:ntdsapi.__unnamed_struct_4
 title: DS_REPSYNCALL_SYNCA
 author: windows-sdk-content
 description: The DS_REPSYNCALL_SYNC structure identifies a single replication operation performed between a source, and destination, server by the DsReplicaSyncAll function.
@@ -7,10 +7,8 @@ old-location: ad\ds_repsyncall_sync.htm
 tech.root: ad
 ms.assetid: 54a6695e-3493-428b-9e8d-7f781e7b3961
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNC, DS_REPSYNCALL_SYNC structure [Active Directory], DS_REPSYNCALL_SYNCA, DS_REPSYNCALL_SYNCW, PDS_REPSYNCALL_SYNC, PDS_REPSYNCALL_SYNC structure pointer [Active Directory], _glines_ds_repsyncall_sync, ad.ds__repsyncall__sync, ad.ds_repsyncall_sync, ntdsapi/DS_REPSYNCALL_SYNC, ntdsapi/DS_REPSYNCALL_SYNCA, ntdsapi/DS_REPSYNCALL_SYNCW, ntdsapi/PDS_REPSYNCALL_SYNC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 
@@ -93,7 +91,7 @@ Pointer to a null-terminated string that specifies the DNS GUID of the destinati
 
 
 
-<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a>
 
 
 

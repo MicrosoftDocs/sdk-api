@@ -9,8 +9,6 @@ ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterFromNetwork, GetClusterFromNetwork function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NETWORK, PCLUSAPI_GET_CLUSTER_FROM_NETWORK function [Failover Cluster], _wolf_getclusterfromnetwork, clusapi/GetClusterFromNetwork, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NETWORK, mscs.getclusterfromnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NETWORK</b> type defines a pointer to this function.
+Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NETWORK</b> type defines a pointer to this function.
 
 
 ## -parameters

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearMarkers, ClearMarkers method [GDI+], ClearMarkers method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],ClearMarkers method, GraphicsPath.ClearMarkers, GraphicsPath::ClearMarkers, _gdiplus_CLASS_GraphicsPath_ClearMarkers_, gdiplus._gdiplus_CLASS_GraphicsPath_ClearMarkers_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

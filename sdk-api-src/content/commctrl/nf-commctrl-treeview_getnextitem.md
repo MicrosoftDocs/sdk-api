@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TVGN_CARET, TVGN_CHILD, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TVGN_NEXT, TVGN_NEXTSELECTED, TVGN_NEXTVISIBLE, TVGN_PARENT, TVGN_PREVIOUS, TVGN_PREVIOUSVISIBLE, TVGN_ROOT, TreeView_GetNextItem, TreeView_GetNextItem macro [Windows Controls], _win32_TreeView_GetNextItem, _win32_TreeView_GetNextItem_cpp, commctrl/TreeView_GetNextItem, controls.TreeView_GetNextItem, controls._win32_TreeView_GetNextItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -61,7 +59,7 @@ Retrieves the tree-view item that bears the specified relationship to a specifie
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -75,7 +73,7 @@ Handle to an item.
 
 ### -param code
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flag specifying the item to retrieve. This parameter can be one of the following values: 
 

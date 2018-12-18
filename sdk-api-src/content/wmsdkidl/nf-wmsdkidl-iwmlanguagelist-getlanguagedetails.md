@@ -9,8 +9,6 @@ ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguageDetails, GetLanguageDetails method [windows Media Format], GetLanguageDetails method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageDetails method, IWMLanguageList.GetLanguageDetails, IWMLanguageList::GetLanguageDetails, IWMLanguageListGetLanguageDetails, wmformat.iwmlanguagelist_getlanguagedetails, wmsdkidl/IWMLanguageList::GetLanguageDetails
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -121,7 +119,7 @@ For a list of common RFC 1766-compliant language identifiers, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/63ef282c-d1ab-4ce9-a56b-209407c7839b">IWMLanguageList Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757214(v=VS.85).aspx">IWMLanguageList Interface</a>
  
 
  

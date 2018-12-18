@@ -9,8 +9,6 @@ ms.assetid: 26895526-2c1e-4335-8b45-511ca56696ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiInPrepareHeader, midiInPrepareHeader, midiInPrepareHeader function [Windows Multimedia], mmeapi/midiInPrepareHeader, multimedia.midiinprepareheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

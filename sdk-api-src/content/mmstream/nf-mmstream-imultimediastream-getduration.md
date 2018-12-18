@@ -9,8 +9,6 @@ ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetDuration method, IMultiMediaStream.GetDuration, IMultiMediaStream::GetDuration, IMultiMediaStreamGetDuration, dshow.imultimediastream_getduration, mmstream/IMultiMediaStream::GetDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -145,7 +143,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 50f44525-eb3a-4db2-90c2-3e0c6c6146e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfTextEditSink, ITfTextEditSink interface [Text Services Framework], ITfTextEditSink interface [Text Services Framework],described, _tsf_itftexteditsink_ref, msctf/ITfTextEditSink, tsf.itftexteditsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

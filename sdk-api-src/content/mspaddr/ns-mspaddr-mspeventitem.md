@@ -1,16 +1,14 @@
 ---
-UID: NS:mspaddr.MSPEVENTITEM
+UID: NS:mspaddr.__unnamed_struct_0
 title: MSPEVENTITEM
 author: windows-sdk-content
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
 old-location: tapi3\mspeventitem.htm
-tech.root: Tapi
+tech.root: tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMSPEVENTITEM, MSPEVENTITEM, MSPEVENTITEM structure [TAPI 2.2], PMSPEVENTITEM, PMSPEVENTITEM structure pointer [TAPI 2.2], _tapi3_mspeventitem, mspaddr/MSPEVENTITEM, mspaddr/PMSPEVENTITEM, tapi3.mspeventitem"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mspaddr.h
 req.include-header: 

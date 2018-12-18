@@ -9,8 +9,6 @@ ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F174DF16-6E2F-4AE1-80D9-7565F96DE03A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TEX2D_VPIV, D3D11_TEX2D_VPIV structure [Media Foundation], d3d11/D3D11_TEX2D_VPIV, mf.d3d11_tex2d_vpiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -73,11 +71,11 @@ The zero-based index of the texture.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447790(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
+<a href="https://msdn.microsoft.com/3245D2AF-74A1-4068-A0BC-577FD42B353E">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1313cd9a-757d-4716-abac-027cff9fee03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleObject interface [COM],SetMoniker method, IOleObject.SetMoniker, IOleObject::SetMoniker, SetMoniker, SetMoniker method [COM], SetMoniker method [COM],IOleObject interface, _ole_ioleobject_setmoniker, com.ioleobject_setmoniker, oleidl/IOleObject::SetMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

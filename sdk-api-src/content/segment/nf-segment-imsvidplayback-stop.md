@@ -9,8 +9,6 @@ ms.assetid: 20262521-bb9c-4e37-b89c-8c439df50ed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Stop method, IMSVidPlayback.Stop, IMSVidPlayback::Stop, IMSVidPlaybackStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_stop, segment/IMSVidPlayback::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -105,7 +103,7 @@ The method succeeded.
 
 
 
-This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl</a> interface, this method returns E_NOTIMPL.
+This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl</a> interface, this method returns E_NOTIMPL.
 
 
 
@@ -115,7 +113,7 @@ This method allows for direct control of the source. However, if the underlying 
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

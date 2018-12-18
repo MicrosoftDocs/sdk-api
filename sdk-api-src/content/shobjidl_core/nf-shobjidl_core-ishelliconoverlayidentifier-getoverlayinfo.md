@@ -9,8 +9,6 @@ ms.assetid: 301dc569-738f-454f-9063-223ea6632e55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverlayInfo, GetOverlayInfo method [Windows Shell], GetOverlayInfo method [Windows Shell],IShellIconOverlayIdentifier interface, ISIOI_ICONFILE, ISIOI_ICONINDEX, IShellIconOverlayIdentifier interface [Windows Shell],GetOverlayInfo method, IShellIconOverlayIdentifier.GetOverlayInfo, IShellIconOverlayIdentifier::GetOverlayInfo, _win32_IShellIconOverlayIdentifier_GetOverlayInfo, shell.IShellIconOverlayIdentifier_GetOverlayInfo, shobjidl_core/IShellIconOverlayIdentifier::GetOverlayInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

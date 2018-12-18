@@ -9,8 +9,6 @@ ms.assetid: 31da19a7-207f-4f11-9b0f-7402e9727f59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 31da19a7-207f-4f11-9b0f-7402e9727f59, Base64Gif, Base64InkSerializedFormat, Gif, IInkDisp interface [Tablet PC],Save method, IInkDisp.Save, IInkDisp::Save, IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkSerializedFormat, Save, Save method [Tablet PC], Save method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Save, tablet.inkdisp_save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -283,7 +281,7 @@ Attempting to save an empty <a href="https://msdn.microsoft.com/f942d6a3-f303-49
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

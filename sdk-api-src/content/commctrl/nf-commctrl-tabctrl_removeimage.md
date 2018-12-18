@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_removeimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_RemoveImage, TabCtrl_RemoveImage macro [Windows Controls], _win32_TabCtrl_RemoveImage, _win32_TabCtrl_RemoveImage_cpp, commctrl/TabCtrl_RemoveImage, controls.TabCtrl_RemoveImage, controls._win32_TabCtrl_RemoveImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

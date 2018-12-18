@@ -9,8 +9,6 @@ ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

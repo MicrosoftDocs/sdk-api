@@ -9,8 +9,6 @@ ms.assetid: 397a41dd-e4ee-4afb-b7a0-3909e79726a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetZoom, MCIWndGetZoom macro [Windows Multimedia], _win32_MCIWndGetZoom, multimedia.mciwndgetzoom, vfw/MCIWndGetZoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

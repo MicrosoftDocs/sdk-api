@@ -9,8 +9,6 @@ ms.assetid: b240acbd-2c0e-4e2c-a334-a86440627e72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsRemoveHeader, WsRemoveHeader function [Web Services for Windows], webservices/WsRemoveHeader, wsw.wsremoveheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Removes the standard <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a> object from a message.
+Removes the standard <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_HEADER_TYPE</a> object from a message.
                 
                 The function is designed to handle types of headers that appear once in the
                 message and are targeted at the ultimate receiver.  Headers targeted

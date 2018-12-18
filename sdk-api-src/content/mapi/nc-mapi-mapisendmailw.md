@@ -9,8 +9,6 @@ ms.assetid: FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISendMailW, MAPISendMailW callback, MAPISendMailW callback function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailw, mapi/MAPISendMailW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -88,7 +86,7 @@ Type: <b><b>lpMapiMessageW</b></b>
 
 Pointer to a <b>MAPISendMailW</b> structure containing the message to be sent.
 
-<div class="alert"><b>Note</b>  For the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function, this parameter points  to a <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure.</div>
+<div class="alert"><b>Note</b>  For the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function, this parameter points  to a <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure.</div>
 <div> </div>
 When you call the function, please note the following information about message structure members:<table>
 <tr>
@@ -492,16 +490,16 @@ Some messaging systems can limit the number of recipients per message. If the cl
 
 If your client application sends messages to one or more custom recipients and you want to avoid resolving the names of those recipients, you must specify the address of the custom recipient.
 
-To specify an address of a recipient when you call <b>MAPISendMailW</b>, you must set the <b>lpszAddress</b> member of the <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> 
-structure that contains the recipient's information to the custom address. This <b>MapiRecipDescW</b> structure is included in the array of recipients stored in the <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> structure that is passed to the function by the 
-<i>lpMessage</i> parameter.<div class="alert"><b>Note</b>  To specify the address of a recipient when you call <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>, follow the preceding directions for <b>MAPISendMailW</b>, but substitute the <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> and <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structures.</div>
+To specify an address of a recipient when you call <b>MAPISendMailW</b>, you must set the <b>lpszAddress</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh707274(v=VS.85).aspx">MapiRecipDescW</a> 
+structure that contains the recipient's information to the custom address. This <b>MapiRecipDescW</b> structure is included in the array of recipients stored in the <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a> structure that is passed to the function by the 
+<i>lpMessage</i> parameter.<div class="alert"><b>Note</b>  To specify the address of a recipient when you call <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>, follow the preceding directions for <b>MAPISendMailW</b>, but substitute the <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structures.</div>
 <div> </div>
 
 
 A successful return from the function does not necessarily imply recipient validation. The message might not have been sent to all recipients. Depending on the transport provider, recipient validation can be a lengthy process.
 
 <h3><a id="_handling_recipient_info"></a><a id="_HANDLING_RECIPIENT_INFO"></a>Handling recipient information</h3>
-The <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> or the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure can include either an entry identifier, the recipient's name, an address, or a name and address pair. The following table shows how the function handles each case.
+The <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a> or the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure can include either an entry identifier, the recipient's name, an address, or a name and address pair. The following table shows how the function handles each case.
 
 <table>
 <tr>

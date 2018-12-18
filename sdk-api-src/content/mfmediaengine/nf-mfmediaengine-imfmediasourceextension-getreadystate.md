@@ -9,8 +9,6 @@ ms.assetid: 155d9202-5598-467c-b4d0-d22424b13b9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetReadyState method, IMFMediaSourceExtension.GetReadyState, IMFMediaSourceExtension::GetReadyState, mf.imfmediasourceextension_getreadystate, mfmediaengine/IMFMediaSourceExtension::GetReadyState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

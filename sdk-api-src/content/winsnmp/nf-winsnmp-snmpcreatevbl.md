@@ -9,8 +9,6 @@ ms.assetid: 5e973b32-3e7e-41f7-9257-4ac3d67fd853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -71,13 +69,13 @@ Handle to the WinSNMP session.
 ### -param name [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure that contains the variable name for the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure that contains the variable name for the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
 
 
 ### -param value [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure that contains a value to associate with the variable in the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure that contains a value to associate with the variable in the first variable binding entry. This parameter can be <b>NULL</b>. For additional information, see the following Remarks section.
 
 
 ## -returns
@@ -137,7 +135,7 @@ The session handle is invalid.
 </td>
 <td width="60%">
 The <i>name</i> parameter references an invalid 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure.
 
 </td>
 </tr>
@@ -212,11 +210,11 @@ The WinSNMP application must release the resources associated with each variable
 
 
 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
  
 
  

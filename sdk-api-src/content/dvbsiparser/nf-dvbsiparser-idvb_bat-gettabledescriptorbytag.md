@@ -9,8 +9,6 @@ ms.assetid: 9c989b8d-0cd0-4556-bc96-a464b95911d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_BAT.GetTableDescriptorByTag, IDVB_BAT::GetTableDescriptorByTag, IDVB_BATGetTableDescriptorByTag, dvbsiparser/IDVB_BAT::GetTableDescriptorByTag, mstv.idvb_bat_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: 50a5563d-5872-4cfd-a600-be83beceb0fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capDriverGetName, capDriverGetName, capDriverGetName macro [Windows Multimedia], multimedia.capdrivergetname, vfw/capDriverGetName"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

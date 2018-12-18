@@ -9,8 +9,6 @@ ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_TerminalClasses method, ITPluggableTerminalSuperclassRegistration.get_TerminalClasses, ITPluggableTerminalSuperclassRegistration::get_TerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_get_terminalclasses, get_TerminalClasses, get_TerminalClasses method [TAPI 2.2], get_TerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_terminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

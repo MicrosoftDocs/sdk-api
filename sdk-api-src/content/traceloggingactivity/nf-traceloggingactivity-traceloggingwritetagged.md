@@ -9,8 +9,6 @@ ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 

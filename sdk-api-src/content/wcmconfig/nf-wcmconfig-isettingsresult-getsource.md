@@ -9,8 +9,6 @@ ms.assetid: 2a76b243-5294-47a7-8ad3-b39425735866
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

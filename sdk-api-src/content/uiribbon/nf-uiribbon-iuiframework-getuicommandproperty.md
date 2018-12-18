@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuico
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUICommandProperty, GetUICommandProperty method [Windows Ribbon], GetUICommandProperty method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetUICommandProperty method, IUIFramework.GetUICommandProperty, IUIFramework::GetUICommandProperty, scenicintent_IUIFramework_GetUICommandProperty, uiribbon/IUIFramework::GetUICommandProperty, windowsribbon.windowsribbon_iuiframework_getuicommandproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 183b1ccd-9244-42d5-a787-617e43a55f64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetID method, ITargetInfo.SetTargetID, ITargetInfo::SetTargetID, SetTargetID, SetTargetID method [SMI], SetTargetID method [SMI],ITargetInfo interface, smi.itargetinfo_settargetid, wcmconfig/ITargetInfo::SetTargetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

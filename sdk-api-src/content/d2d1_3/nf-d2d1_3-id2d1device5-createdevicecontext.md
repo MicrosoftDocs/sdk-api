@@ -9,8 +9,6 @@ ms.assetid: C1C189AC-4ABD-41F8-9696-D4D76602BE61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device5 interface, ID2D1Device5 interface [Direct2D],CreateDeviceContext method, ID2D1Device5.CreateDeviceContext, ID2D1Device5::CreateDeviceContext, d2d1_3/ID2D1Device5::CreateDeviceContext, direct2d.id2d1device5_createdevicecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a new device context with no initially assigned target.
 
 ### -param options
 
-Type: <b><a href="direct2d.d2d1_device_context_options">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446998(v=VS.85).aspx">D2D1_DEVICE_CONTEXT_OPTIONS</a></b>
 
 Options for creating the device context.
 
@@ -76,7 +74,7 @@ The created device context.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

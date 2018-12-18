@@ -9,8 +9,6 @@ ms.assetid: 0699e4ef-7ebb-4515-9894-1592f07607ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_PhysicalChannel method, IATSCLocator.put_PhysicalChannel, IATSCLocator::put_PhysicalChannel, IATSCLocatorput_PhysicalChannel, mstv.iatsclocator_put_physicalchannel, put_PhysicalChannel, put_PhysicalChannel method [Microsoft TV Technologies], put_PhysicalChannel method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_PhysicalChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

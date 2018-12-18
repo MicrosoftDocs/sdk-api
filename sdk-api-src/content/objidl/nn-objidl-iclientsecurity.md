@@ -9,8 +9,6 @@ ms.assetid: 65066913-f9d8-48c7-bcb5-68c8ddc4a009
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

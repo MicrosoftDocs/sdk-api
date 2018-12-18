@@ -9,8 +9,6 @@ ms.assetid: dbe7ccd0-494d-4f6c-90f6-e729839d7008
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

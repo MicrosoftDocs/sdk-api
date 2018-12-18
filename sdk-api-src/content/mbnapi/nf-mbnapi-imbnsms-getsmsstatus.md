@@ -9,8 +9,6 @@ ms.assetid: 58cb60dd-160c-4e1c-a244-7f20b5e79b64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSmsStatus, GetSmsStatus method [Microsoft Broadband Networks], GetSmsStatus method [Microsoft Broadband Networks],IMbnSms interface, IMbnSms interface [Microsoft Broadband Networks],GetSmsStatus method, IMbnSms.GetSmsStatus, IMbnSms::GetSmsStatus, mbn.imbnsms_getsmsstatus, mbnapi/IMbnSms::GetSmsStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

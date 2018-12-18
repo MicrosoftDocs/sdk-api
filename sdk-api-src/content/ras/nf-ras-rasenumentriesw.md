@@ -9,8 +9,6 @@ ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

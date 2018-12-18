@@ -9,8 +9,6 @@ ms.assetid: b790e1f8-9371-4ff9-a820-3ea1af29cc6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_DISK_DELETE_DRIVE_LAYOUT, IOCTL_DISK_DELETE_DRIVE_LAYOUT control, IOCTL_DISK_DELETE_DRIVE_LAYOUT control code [Files], base.ioctl_disk_delete_drive_layout, fs.ioctl_disk_delete_drive_layout, winioctl/IOCTL_DISK_DELETE_DRIVE_LAYOUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

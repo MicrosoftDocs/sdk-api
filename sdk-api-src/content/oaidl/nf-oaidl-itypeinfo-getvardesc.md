@@ -9,8 +9,6 @@ ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVarDesc, GetVarDesc method [Automation], GetVarDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetVarDesc method, ITypeInfo.GetVarDesc, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

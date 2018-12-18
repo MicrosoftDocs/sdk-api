@@ -9,8 +9,6 @@ ms.assetid: f8efd47f-2a89-4982-88dd-3bfc6c00801b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_CountryCode method, IMSVidAnalogTuner.get_CountryCode, IMSVidAnalogTuner::get_CountryCode, IMSVidAnalogTunerget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_countrycode, segment/IMSVidAnalogTuner::get_CountryCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -86,15 +84,15 @@ Do not confuse the international country/region code with the LCID. The country/
 
 
 
-<a href="https://msdn.microsoft.com/8b459ad8-c9e0-4b35-aec4-113c8a67d907">IAMTuner::get_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375950(v=VS.85).aspx">IAMTuner::get_CountryCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6ec6975-8953-45df-9d86-cf8b8888bba6">IMSVidAnalogTuner::put_CountryCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694433(v=VS.85).aspx">IMSVidAnalogTuner::put_CountryCode</a>
 
 
 

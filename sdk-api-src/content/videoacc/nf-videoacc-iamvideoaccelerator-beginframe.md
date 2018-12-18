@@ -9,8 +9,6 @@ ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <b>BeginFrame</b> method begins the processing to create a decoded picture.
 
 ### -param amvaBeginFrameInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/49af9094-86d5-4c11-b871-41f9984e0faf">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373442(v=VS.85).aspx">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
 
 
 ## -returns
@@ -166,7 +164,7 @@ If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTE
 
 This method might block if no frame buffer is available.
 
-For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="https://msdn.microsoft.com/38944989-2ce2-4275-bae9-faca0d51cca8">IAMVideoAccelerator::EndFrame</a>.
+For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">IAMVideoAccelerator::EndFrame</a>.
 
 
 
@@ -184,7 +182,7 @@ For each call to <b>BeginFrame</b>, the decoder must make a corresponding call t
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

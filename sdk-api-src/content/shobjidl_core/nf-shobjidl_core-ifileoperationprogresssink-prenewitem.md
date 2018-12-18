@@ -9,8 +9,6 @@ ms.assetid: ea6223e1-a574-4e4b-a264-384f33579c6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreNewItem method, IFileOperationProgressSink.PreNewItem, IFileOperationProgressSink::PreNewItem, PreNewItem, PreNewItem method [Windows Shell], PreNewItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreNewItem, shell.IFileOperationProgressSink_PreNewItem, shobjidl_core/IFileOperationProgressSink::PreNewItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

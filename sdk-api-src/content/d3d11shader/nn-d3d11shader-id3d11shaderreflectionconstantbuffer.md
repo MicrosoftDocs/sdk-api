@@ -9,8 +9,6 @@ ms.assetid: 4b47ed8d-e814-4a7b-bc8e-25a8b71200ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 082bcb34-3d5a-3d3f-e3c1-0cf676c0b05b, ID3D11ShaderReflectionConstantBuffer, ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11], ID3D11ShaderReflectionConstantBuffer interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflectionConstantBuffer, direct3d11.id3d11shaderreflectionconstantbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 
@@ -55,9 +53,9 @@ This shader-reflection interface provides access to a constant buffer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionConstantBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11ShaderReflectionConstantBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderReflectionConstantBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11ShaderReflectionConstantBuffer</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +68,7 @@ The <b>ID3D11ShaderReflectionConstantBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476592(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/34d84751-ccce-4c18-8027-2b5477e35abc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a constant-buffer description.
@@ -88,7 +86,7 @@ Get a shader-reflection variable by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476594(v=VS.85).aspx">GetVariableByName</a>
+<a href="https://msdn.microsoft.com/daa14557-0987-4498-a2f5-428497805eca">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection variable by name.
@@ -102,7 +100,7 @@ Get a shader-reflection variable by name.
 
 
 
-To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/6a1be6a0-0337-408d-9e31-8dd388faaf5d">ID3D11ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476613(v=VS.85).aspx">ID3D11ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/6a1be6a0-0337-408d-9e31-8dd388faaf5d">ID3D11ShaderReflection::GetConstantBufferByIndex</a> or <a href="https://msdn.microsoft.com/6b0e16c9-f45a-42d0-bd96-32dfa859b35d">ID3D11ShaderReflection::GetConstantBufferByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 
@@ -113,7 +111,7 @@ To create a constant-buffer interface, call <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
  
 
  

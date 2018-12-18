@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3xyc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],Tsid property, IFaxDoc.Tsid, IFaxDoc.put_Tsid, IFaxDoc::Tsid, IFaxDoc::get_Tsid, IFaxDoc::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp, faxcom/IFaxDoc::Tsid, faxcom/IFaxDoc::get_Tsid, faxcom/IFaxDoc::put_Tsid, put_Tsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -64,9 +62,9 @@ This property is read/write.
 
 
 
-If the fax server allows user-defined TSID strings, the service will transmit the value of the <i>pVal</i> parameter to the receiving fax device instead of the TSID associated with the sending device. You can call the <a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a> method to determine whether the fax server is configured to permit user-specified TSIDs.
+If the fax server allows user-defined TSID strings, the service will transmit the value of the <i>pVal</i> parameter to the receiving fax device instead of the TSID associated with the sending device. You can call the <a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a> method to determine whether the fax server is configured to permit user-specified TSIDs.
 
-If the fax server allows user-defined TSID strings, the service will transmit the value of <i>pVal</i> to the receiving fax device instead of the TSID associated with the sending device. You can use the <a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a> property to determine whether the fax server is configured to permit user-specified TSIDs.
+If the fax server allows user-defined TSID strings, the service will transmit the value of <i>pVal</i> to the receiving fax device instead of the TSID associated with the sending device. You can use the <a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a> property to determine whether the fax server is configured to permit user-specified TSIDs.
 
 The TSID is typically the fax number of the device sending the transmission. Note that the T.30 specification of the International Telecommunication Union (ITU) restricts the value of a TSID to 20 ASCII characters. If a fax client application specifies a TSID that contains non-ASCII characters, the fax service removes them. If the TSID exceeds 20 characters, the service truncates the extra characters.
 
@@ -96,7 +94,7 @@ The <b>get_Tsid</b> method allocates the memory required for the buffer pointed 
 
 
 
-<a href="https://msdn.microsoft.com/a27d55e8-68c0-4700-becb-d56ecddbef44">UseDeviceTsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690868(v=VS.85).aspx">UseDeviceTsid</a>
  
 
  

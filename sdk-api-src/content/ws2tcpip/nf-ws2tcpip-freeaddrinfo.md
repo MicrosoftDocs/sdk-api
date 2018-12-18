@@ -9,8 +9,6 @@ ms.assetid: d2d944df-3773-4918-a89a-3402baf8f5e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeAddrInfoA, _win32_freeaddrinfo_2, freeaddrinfo, freeaddrinfo function [Winsock], winsock.freeaddrinfo_2, ws2tcpip/freeaddrinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

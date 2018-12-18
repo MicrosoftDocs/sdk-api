@@ -9,8 +9,6 @@ ms.assetid: 79a09cf3-cf6f-479a-89c7-27f5fcee3186
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B621F413-001B-4419-8FA7-439C45F97243
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Media Foundation], IMFVideoSampleAllocatorEx interface [Media Foundation],described, mf.imfvideosampleallocatorex, mfidl/IMFVideoSampleAllocatorEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

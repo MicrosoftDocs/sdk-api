@@ -9,8 +9,6 @@ ms.assetid: 05228d88-baa2-4e89-a8c8-139f9ffea86c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyOrigin, GetPropertyOrigin method [Windows Management Instrumentation], GetPropertyOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetPropertyOrigin method, IWbemClassObject.GetPropertyOrigin, IWbemClassObject::GetPropertyOrigin, _hmm_iwbemclassobject_getpropertyorigin, wbemcli/IWbemClassObject::GetPropertyOrigin, wmi.iwbemclassobject_getpropertyorigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

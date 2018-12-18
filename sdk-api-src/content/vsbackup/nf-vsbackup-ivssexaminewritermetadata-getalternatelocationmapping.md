@@ -9,8 +9,6 @@ ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetAlternateLocationMapping method, IVssExamineWriterMetadata.GetAlternateLocationMapping, IVssExamineWriterMetadata::GetAlternateLocationMapping, _win32_ivssexaminewritermetadata_getalternatelocationmapping, base.ivssexaminewritermetadata_getalternatelocationmapping, vsbackup/IVssExamineWriterMetadata::GetAlternateLocationMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

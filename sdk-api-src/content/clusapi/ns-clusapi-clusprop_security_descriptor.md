@@ -9,8 +9,6 @@ ms.assetid: b19358cf-1cf9-4d91-85df-ed7fa804a7f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PCLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR, CLUSPROP_SECURITY_DESCRIPTOR structure [Failover Cluster], PCLUSPROP_SECURITY_DESCRIPTOR, PCLUSPROP_SECURITY_DESCRIPTOR structure pointer [Failover Cluster], _wolf_clusprop_security_descriptor, clusapi/CLUSPROP_SECURITY_DESCRIPTOR, clusapi/PCLUSPROP_SECURITY_DESCRIPTOR, mscs.clusprop_security_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -53,12 +51,12 @@ req.redist:
 Describes a security descriptor. It is used as an entry in a 
     <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> and consists of:
 <ul>
-<li>A <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the resource class information.</li>
 <li>A security descriptor in 
-     <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">self-relative</a> 
+     <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
      format.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> members are listed 
+</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
     explicitly.
 
 
@@ -73,9 +71,9 @@ Describes a security descriptor. It is used as an entry in a
 ### -field DUMMYUNIONNAME.sd
 
 Security descriptor in 
-       <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">self-relative</a> format. 
+       <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format. 
        For more information about self-relative security descriptors, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa374807(v=VS.85).aspx">Absolute and Self-Relative Security Descriptors</a>.
+       <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
 
 
 ### -field DUMMYUNIONNAME.rgbSecurityDescriptor
@@ -93,13 +91,13 @@ Byte array to address the entire security descriptor including the owner, group,
 
 #### - Syntax
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure with a 
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a 
       value of <b>CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR</b> (0x00010009).
 
 
 #### - cbLength
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure indicating 
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
       the count of bytes in the security descriptor that follows the 
       <b>CLUSPROP_VALUE</b> header. Padding bytes are not included 
       in the count.
@@ -110,7 +108,7 @@ Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

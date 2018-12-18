@@ -9,8 +9,6 @@ ms.assetid: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9dfc0efc-d274-45a6-b1ab-30f6215fbed8, GetProperties, GetProperties method [Media Foundation], GetProperties method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetProperties method, IMFClock.GetProperties, IMFClock::GetProperties, mf.imfclock_getproperties, mfidl/IMFClock::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

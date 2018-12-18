@@ -9,8 +9,6 @@ ms.assetid: 2c7f36cf-ee7d-4de0-8599-ccfd066cca7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ACCEPT_CHANNEL_CALLBACK, WS_ACCEPT_CHANNEL_CALLBACK callback, WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ACCEPT_CHANNEL_CALLBACK, wsw.ws_accept_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

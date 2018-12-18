@@ -9,8 +9,6 @@ ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPointerInteractionContext, AddPointerInteractionContext function, input_intcontext.addpointerinteractioncontext, interactioncontext.addpointerinteractioncontext, interactioncontext/AddPointerInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

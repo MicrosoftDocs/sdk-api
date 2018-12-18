@@ -9,8 +9,6 @@ ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

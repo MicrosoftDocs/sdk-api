@@ -9,8 +9,6 @@ ms.assetid: 552CCE58-0D79-468C-831D-EBEFE2F87F95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_POINTDIFFUSE_SCALE_MODE, D2D1_POINTDIFFUSE_SCALE_MODE enumeration [Direct2D], D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC, D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC, D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR, D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_ANISOTROPIC, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_CUBIC, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_LINEAR, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_POINTDIFFUSE_SCALE_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_pointdiffuse_scale_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706367(v=VS.85).aspx">Point-diffuse lighting effect</a> 
+The interpolation mode the <a href="https://msdn.microsoft.com/C98A4962-B9EB-4095-9AC4-F1C32C574892">Point-diffuse lighting effect</a> 
         uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed
 
 

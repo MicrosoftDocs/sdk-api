@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getinsertmarkcolor.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetInsertMarkColor, TreeView_GetInsertMarkColor macro [Windows Controls], _win32_TreeView_GetInsertMarkColor, _win32_TreeView_GetInsertMarkColor_cpp, commctrl/TreeView_GetInsertMarkColor, controls.TreeView_GetInsertMarkColor, controls._win32_TreeView_GetInsertMarkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the color used to draw the insertion mark for the tree view. You can u
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

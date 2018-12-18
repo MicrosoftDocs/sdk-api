@@ -9,8 +9,6 @@ ms.assetid: 1915d71f-aca3-4943-a4da-ed8f2fa3f46d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfo method, IWMPStringCollection2.getItemInfo, IWMPStringCollection2::getItemInfo, IWMPStringCollection2getItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfo, wmp/IWMPStringCollection2::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -122,11 +120,11 @@ To use this method, read access to the library is required. For more information
 
 
 
-<a href="https://msdn.microsoft.com/7aeaf549-3c60-4dd8-9e46-6bab357f4960">IWMPStringCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563687(v=VS.85).aspx">IWMPStringCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff395caf-9b5a-41e0-94c6-4a5eb96281ca">IWMPStringCollection2::getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563691(v=VS.85).aspx">IWMPStringCollection2::getItemInfoByType</a>
  
 
  

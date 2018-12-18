@@ -9,8 +9,6 @@ ms.assetid: d73aefda-2c51-466a-b590-c8f189db4719
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyHost method, IAMNetShowConfig.get_HTTPProxyHost, IAMNetShowConfig::get_HTTPProxyHost, IAMNetShowConfigget_HTTPProxyHost, dshow.iamnetshowconfig_get_httpproxyhost, get_HTTPProxyHost, get_HTTPProxyHost method [DirectShow], get_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,11 +87,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a0325bb-83d6-4fbc-a513-0b6002013a60">IAMNetShowConfig::get_HTTPProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319705(v=VS.85).aspx">IAMNetShowConfig::get_HTTPProxyPort</a>
  
 
  

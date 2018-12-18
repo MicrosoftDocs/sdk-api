@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicedlg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceDlg, DeviceDlg method [WIA], DeviceDlg method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeviceDlg method, IWiaItem.DeviceDlg, IWiaItem::DeviceDlg, _wia_IWiaItem_DeviceDlg, wia._wia_IWiaItem_DeviceDlg, wia_xp/IWiaItem::DeviceDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

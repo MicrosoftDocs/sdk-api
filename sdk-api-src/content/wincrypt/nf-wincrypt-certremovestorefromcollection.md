@@ -9,8 +9,6 @@ ms.assetid: e1564848-8b39-4ea9-9148-142ceaaaed15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertRemoveStoreFromCollection, CertRemoveStoreFromCollection function [Security], _crypto2_certremovestorefromcollection, security.certremovestorefromcollection, wincrypt/CertRemoveStoreFromCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

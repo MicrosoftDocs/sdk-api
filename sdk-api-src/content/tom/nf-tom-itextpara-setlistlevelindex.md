@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara interface [Windows Controls],SetListLevelIndex method, ITextPara.SetListLevelIndex, ITextPara::SetListLevelIndex, SetListLevelIndex, SetListLevelIndex method [Windows Controls], SetListLevelIndex method [Windows Controls],ITextPara interface, _win32_ITextPara_SetListLevelIndex, _win32_ITextPara_SetListLevelIndex_cpp, controls.ITextPara_SetListLevelIndex, controls._win32_ITextPara_SetListLevelIndex, tom/ITextPara::SetListLevelIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

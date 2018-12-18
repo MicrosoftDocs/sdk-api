@@ -9,8 +9,6 @@ ms.assetid: b8e17085-03cd-40d1-accf-6ea5fa69de65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryLuns method, IVdsSubSystem.QueryLuns, IVdsSubSystem::QueryLuns, QueryLuns, QueryLuns method [VDS], QueryLuns method [VDS],IVdsSubSystem interface, base.ivdssubsystem_queryluns, vds/IVdsSubSystem::QueryLuns, vdshwprv/IVdsSubSystem::QueryLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

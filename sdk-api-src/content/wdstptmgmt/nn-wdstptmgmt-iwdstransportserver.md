@@ -9,8 +9,6 @@ ms.assetid: 0129658d-8725-4020-ae9c-9d0a44075561
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportServer, IWdsTransportServer interface [Windows Deployment Services], IWdsTransportServer interface [Windows Deployment Services],described, wds.iwdstransportserver, wdstptmgmt/IWdsTransportServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

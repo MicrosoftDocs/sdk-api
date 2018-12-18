@@ -9,8 +9,6 @@ ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

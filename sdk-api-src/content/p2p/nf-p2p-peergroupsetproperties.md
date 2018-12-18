@@ -7,10 +7,8 @@ old-location: p2p\peergroupsetproperties.htm
 tech.root: P2PSdk
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

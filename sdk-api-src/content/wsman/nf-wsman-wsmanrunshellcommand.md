@@ -9,8 +9,6 @@ ms.assetid: 8f5c89f8-418c-4a4d-9a52-0fc01ec636b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManRunShellCommand, WSManRunShellCommand function [Windows Remote Management], winrm.wsmanrunshellcommand, wsman/WSManRunShellCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

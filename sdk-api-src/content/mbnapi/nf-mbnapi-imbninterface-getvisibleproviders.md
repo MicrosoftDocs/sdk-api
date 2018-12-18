@@ -9,8 +9,6 @@ ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnInterface.GetVisibleProviders, IMbnInterface::GetVisibleProviders, mbn.imbninterface_getvisibleproviders, mbnapi/IMbnInterface::GetVisibleProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

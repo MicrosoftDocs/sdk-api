@@ -9,8 +9,6 @@ ms.assetid: 87BA97F8-E905-44C7-BBC6-A62240216984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

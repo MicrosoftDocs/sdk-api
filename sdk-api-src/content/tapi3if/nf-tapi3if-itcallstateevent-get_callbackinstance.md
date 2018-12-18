@@ -9,8 +9,6 @@ ms.assetid: e4add561-94be-44e2-84bb-89d1e5e98969
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallStateEvent.get_CallbackInstance, ITCallStateEvent::get_CallbackInstance, _tapi3_itcallstateevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_callbackinstance, tapi3if/ITCallStateEvent::get_CallbackInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

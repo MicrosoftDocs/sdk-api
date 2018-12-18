@@ -9,8 +9,6 @@ ms.assetid: afec7f7a-0c5b-47ca-b442-5dbdba54a7af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSinkEvent4, IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent4 interface [Microsoft TV Technologies],described, mstv.imsvidstreambuffersinkevent4, segment/IMSVidStreamBufferSinkEvent4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -50,14 +48,14 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/e828d3e0-5a2a-499a-a718-11aa76a01b1b">IMSVidStreamBufferSinkEvent4</a> interface receives events from the <a href="https://msdn.microsoft.com/87605ac5-a43b-45c5-9636-4e2d1dcf3f3f">MSVidStreamBufferSink</a> object.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent4</a> interface receives events from the <a href="https://msdn.microsoft.com/87605ac5-a43b-45c5-9636-4e2d1dcf3f3f">MSVidStreamBufferSink</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent4</b> interface inherits from <a href="https://msdn.microsoft.com/3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c">IMSVidStreamBufferSinkEvent3</a>. <b>IMSVidStreamBufferSinkEvent4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694650(v=VS.85).aspx">IMSVidStreamBufferSinkEvent3</a>. <b>IMSVidStreamBufferSinkEvent4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +70,7 @@ The <b>IMSVidStreamBufferSinkEvent4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5968d45-5fd2-460a-bbd8-38671bb98a14">WriteFailureClear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743828(v=VS.85).aspx">WriteFailureClear</a>
 </td>
 <td align="left" width="63%">
 A write error on the <a href="https://msdn.microsoft.com/1606eab6-84dc-49ba-8fb6-df3b8615bf85">Stream Buffer Sink</a> filter has been cleared.
@@ -96,7 +94,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c">IMSVidStreamBufferSinkEvent3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694650(v=VS.85).aspx">IMSVidStreamBufferSinkEvent3</a>
 
 
 

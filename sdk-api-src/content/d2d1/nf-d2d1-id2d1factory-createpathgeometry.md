@@ -9,8 +9,6 @@ ms.assetid: 35c46055-3df2-44d5-b11d-520ab2fa4a0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreatePathGeometry method, ID2D1Factory.CreatePathGeometry, ID2D1Factory::CreatePathGeometry, d2d1/ID2D1Factory::CreatePathGeometry, direct2d.ID2D1Factory_CreatePathGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ When this method returns, contains the address to a pointer to the path geometry
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

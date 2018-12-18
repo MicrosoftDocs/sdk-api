@@ -9,8 +9,6 @@ ms.assetid: 0ad21e08-4566-4f3a-8506-308432996481
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPError interface [Windows Media Player],get_errorCount method, IWMPError.get_errorCount, IWMPError::get_errorCount, IWMPErrorget_errorCount, get_errorCount, get_errorCount method [Windows Media Player], get_errorCount method [Windows Media Player],IWMPError interface, wmp.iwmperror_get_errorcount, wmp/IWMPError::get_errorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSet
 
 
 
-<a href="https://msdn.microsoft.com/f22759cd-0ca7-4992-bb17-0272b35d6d75">IWMPError Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563272(v=VS.85).aspx">IWMPError Interface</a>
  
 
  

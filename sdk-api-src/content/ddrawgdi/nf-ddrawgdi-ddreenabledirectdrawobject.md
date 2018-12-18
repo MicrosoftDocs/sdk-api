@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdReenableDirectDrawObject, DdReenableDirectDrawObject function [Windows API], GdiEntry10, _dxgkernel_ddreenabledirectdrawobject, ddrawgdi/DdReenableDirectDrawObject, ddrawgdi/GdiEntry10, winprog._dxgkernel_ddreenabledirectdrawobject, winui._dxgkernel_ddreenabledirectdrawobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

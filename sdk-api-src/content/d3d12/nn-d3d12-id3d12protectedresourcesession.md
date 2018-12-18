@@ -9,8 +9,6 @@ ms.assetid: 9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12ProtectedResourceSession, ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,described, d3d12/ID3D12ProtectedResourceSession, direct3d12.id3d12protectedresourcesession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 
@@ -55,7 +53,7 @@ Monitors the validity of a protected resource session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedResourceSession</b> interface inherits from <a href="direct3d12.id3d12protectedsession">ID3D12ProtectedSession</a>. <b>ID3D12ProtectedResourceSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedResourceSession</b> interface inherits from <a href="https://msdn.microsoft.com/BBB87F18-A4F4-44E7-AFD8-803BD2C7C753">ID3D12ProtectedSession</a>. <b>ID3D12ProtectedResourceSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +68,7 @@ The <b>ID3D12ProtectedResourceSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="direct3d12.id3d12protectedresourcesession_getdesc">GetDesc</a>
+<a href="https://msdn.microsoft.com/69C7B4D6-B87E-4282-98EA-EF77AB4131E4">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the protected resource session.
@@ -85,7 +83,7 @@ Retrieves a description of the protected resource session.
 
 
 
-<a href="direct3d12.id3d12protectedsession">ID3D12ProtectedSession</a>
+<a href="https://msdn.microsoft.com/BBB87F18-A4F4-44E7-AFD8-803BD2C7C753">ID3D12ProtectedSession</a>
  
 
  

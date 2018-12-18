@@ -9,8 +9,6 @@ ms.assetid: fdf84037-a546-49fd-9af4-21ea001587f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIScsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddress, SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API], SetIscsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddressW, iscsidisc.setiscsitunnelmodeouteraddress, iscsidsc/SetIscsiTunnelModeOuterAddress, iscsidsc/SetIscsiTunnelModeOuterAddressA, iscsidsc/SetIscsiTunnelModeOuterAddressW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

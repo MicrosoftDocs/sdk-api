@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0fuf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingArchive interface [Fax Service],SizeLow property, IFaxIncomingArchive.SizeLow, IFaxIncomingArchive.get_SizeLow, IFaxIncomingArchive::SizeLow, IFaxIncomingArchive::get_SizeLow, SizeLow property [Fax Service], SizeLow property [Fax Service],IFaxIncomingArchive interface, _mfax_faxincomingarchive.sizelow, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_sizelow_cpp, fax._mfax_faxincomingarchive_sizelow, faxcomex/IFaxIncomingArchive::SizeLow, faxcomex/IFaxIncomingArchive::get_SizeLow, get_SizeLow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,9 +66,9 @@ This property is read-only.
 <div> </div>
 Because the archive may exceed 4 GB in size, the archive's size is described using two long values. SizeLow is the low 32-bit value of the archive size. SizeHigh is the high 32-bit value of the archive size. The size of the archive is: SizeLow + 4 GB * SizeHigh.
 
-If both the <b>SizeLow</b> and <a href="https://msdn.microsoft.com/628a3f20-7b6b-4e3a-8afc-44c29685e7b4">SizeHigh</a> properties have the value 0xffffffff, they specify an invalid archive size, and you should ignore both property values.
+If both the <b>SizeLow</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686172(v=VS.85).aspx">SizeHigh</a> properties have the value 0xffffffff, they specify an invalid archive size, and you should ignore both property values.
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -80,15 +78,15 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/a81d6314-b26f-4946-896e-218a0095938f">FaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687473(v=VS.85).aspx">FaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/0442fc06-20b8-4608-8532-c8901832f39b">IFaxIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

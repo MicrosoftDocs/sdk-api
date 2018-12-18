@@ -9,8 +9,6 @@ ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

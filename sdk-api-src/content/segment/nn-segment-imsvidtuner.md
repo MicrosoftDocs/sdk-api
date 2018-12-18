@@ -9,8 +9,6 @@ ms.assetid: b11f3ac4-c351-4017-9801-98d8edec7449
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies],described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>IMSVidTuner</b> interface manages tuning devices. It is exposed by the <a href="https://msdn.microsoft.com/a29f2bb1-650e-43f8-8949-b3944c54a9e1">MSVidBDATunerDevice</a> object, which represents Broadcast Driver Architecture (BDA)-compliant tuning devices. Non-BDA analog tuners expose the <a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner</a> interface, which inherits from this interface.
+The <b>IMSVidTuner</b> interface manages tuning devices. It is exposed by the <a href="https://msdn.microsoft.com/a29f2bb1-650e-43f8-8949-b3944c54a9e1">MSVidBDATunerDevice</a> object, which represents Broadcast Driver Architecture (BDA)-compliant tuning devices. Non-BDA analog tuners expose the <a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a> interface, which inherits from this interface.
 
 
 
@@ -73,7 +71,7 @@ The <b>IMSVidTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/189c878d-bf14-4464-96ce-5d2e09118dc4">get_Tune</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694707(v=VS.85).aspx">get_Tune</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current tune request.
@@ -82,7 +80,7 @@ Retrieves the current tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d46e7d8a-5111-4737-897b-9e1357e3249a">get_TuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694708(v=VS.85).aspx">get_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current tuning space.
@@ -91,7 +89,7 @@ Retrieves the current tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31139b6f-aad9-495b-9e8c-39026c8e81a9">put_Tune</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694709(v=VS.85).aspx">put_Tune</a>
 </td>
 <td align="left" width="63%">
 Specifies the tune request.
@@ -100,7 +98,7 @@ Specifies the tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1da0078-0c5e-439e-9419-670e9e0f812c">put_TuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694710(v=VS.85).aspx">put_TuningSpace</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuning space.

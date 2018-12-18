@@ -9,8 +9,6 @@ ms.assetid: f3dd4fa0-69e3-4249-8c74-7502d09ff341
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIFileAddRef, AVIFileAddRef function [Windows Multimedia], _win32_AVIFileAddRef, multimedia.avifileaddref, vfw/AVIFileAddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCompartment, ITfCompartment interface [Text Services Framework], ITfCompartment interface [Text Services Framework],described, _tsf_itfcompartment_ref, msctf/ITfCompartment, tsf.itfcompartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

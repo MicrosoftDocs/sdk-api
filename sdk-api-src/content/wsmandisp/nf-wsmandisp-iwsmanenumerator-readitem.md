@@ -9,8 +9,6 @@ ms.assetid: 6b181a4b-347c-4874-969c-9ca7d36ec788
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEnumerator interface [Windows Remote Management],ReadItem method, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],IWSManEnumerator interface, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

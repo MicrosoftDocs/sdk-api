@@ -9,8 +9,6 @@ ms.assetid: 186F99D3-4C33-4749-88DB-86A356808CCC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MF_CAPTURE_ENGINE_SINK_TYPE, MF_CAPTURE_ENGINE_SINK_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, MF_CAPTURE_ENGINE_SINK_TYPE_RECORD, mf.mf_capture_engine_sink_type, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfcaptureengine.h
 req.include-header: 

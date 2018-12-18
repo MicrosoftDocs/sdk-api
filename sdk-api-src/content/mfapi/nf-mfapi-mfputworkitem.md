@@ -9,8 +9,6 @@ ms.assetid: b0233589-2a55-4803-9dcb-85d757734dee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFPutWorkItem, MFPutWorkItem function [Media Foundation], b0233589-2a55-4803-9dcb-85d757734dee, mf.mfputworkitem, mfapi/MFPutWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

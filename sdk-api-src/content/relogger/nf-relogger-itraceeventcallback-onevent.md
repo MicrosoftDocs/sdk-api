@@ -9,8 +9,6 @@ ms.assetid: 2099db80-89fd-4ce1-a7ca-e79abbd7b9e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnEvent method, ITraceEventCallback.OnEvent, ITraceEventCallback::OnEvent, OnEvent, OnEvent method [ETW], OnEvent method [ETW],ITraceEventCallback interface, etw.ieventcallback_onevent, relogger/ITraceEventCallback::OnEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

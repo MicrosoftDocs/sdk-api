@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_lstrcmp, _win32_lstrcmp_cpp, lstrcmp, lstrcmp function [Menus and Other Resources], lstrcmpA, lstrcmpW, menurc.lstrcmp, winbase/lstrcmp, winbase/lstrcmpA, winbase/lstrcmpW, winui._win32_lstrcmp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

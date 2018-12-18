@@ -1,5 +1,5 @@
 ---
-UID: NE:qossp.FilterType
+UID: NE:qossp.__unnamed_enum_0
 title: FilterType
 author: windows-sdk-content
 description: The FilterType enumeration specifies the type of filter used for an RSVP FILTERSPEC.
@@ -7,10 +7,8 @@ old-location: qos\filtertype.htm
 tech.root: QOS
 ms.assetid: e9e961ed-80a8-4694-a11d-f6cd323ec2ff
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: FILTERSPECV4, FILTERSPECV4_GPI, FILTERSPECV6, FILTERSPECV6_FLOW, FILTERSPECV6_GPI, FILTERSPEC_END, FilterType, FilterType enumeration [QOS], qos.filtertype, qossp/FILTERSPECV4, qossp/FILTERSPECV4_GPI, qossp/FILTERSPECV6, qossp/FILTERSPECV6_FLOW, qossp/FILTERSPECV6_GPI, qossp/FILTERSPEC_END, qossp/FilterType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: qossp.h
 req.include-header: 

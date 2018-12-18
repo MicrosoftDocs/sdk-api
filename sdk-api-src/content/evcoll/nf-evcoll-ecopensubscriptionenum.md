@@ -9,8 +9,6 @@ ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

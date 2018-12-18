@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxext.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveRight method, ITextSelection.MoveRight, ITextSelection::MoveRight, MoveRight, MoveRight method [Windows Controls], MoveRight method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveRight, _win32_ITextSelection_MoveRight_cpp, controls.ITextSelection_MoveRight, controls._win32_ITextSelection_MoveRight, tom/ITextSelection::MoveRight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

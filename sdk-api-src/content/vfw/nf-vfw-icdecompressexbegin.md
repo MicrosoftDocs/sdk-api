@@ -9,8 +9,6 @@ ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDecompressExBegin, ICDecompressExBegin function [Windows Multimedia], _win32_ICDecompressExBegin, multimedia.icdecompressexbegin, vfw/ICDecompressExBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

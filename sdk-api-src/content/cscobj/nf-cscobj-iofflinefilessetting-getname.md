@@ -7,10 +7,8 @@ old-location: of\iofflinefilessetting_getname.htm
 tech.root: offlinefiles
 ms.assetid: 2e4591b5-c8a9-4645-8001-8ac09c706ee2
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Offline Files], GetName method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetName method, IOfflineFilesSetting.GetName, IOfflineFilesSetting::GetName, cscobj/IOfflineFilesSetting::GetName, of.iofflinefilessetting_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -61,7 +59,7 @@ Retrieves a name associated with a particular Offline Files setting.
 
 ### -param ppszName [out]
 
-Address of pointer variable that receives the address of a string containing the name of the Offline Files setting.  Upon successful return, the caller must free this memory block by using the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+Address of pointer variable that receives the address of a string containing the name of the Offline Files setting.  Upon successful return, the caller must free this memory block by using the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -78,7 +76,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
  
 
  

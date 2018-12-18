@@ -9,8 +9,6 @@ ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
@@ -55,7 +53,7 @@ req.redist:
 ## -description
 
 
-Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the <a href="https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx">IMalloc</a> interface) so applications can call its methods to manage memory.
+Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> interface) so applications can call its methods to manage memory.
 
 
 ## -parameters
@@ -86,7 +84,7 @@ This function can return the standard return values S_OK, E_INVALIDARG, and E_OU
 
 
 
-The pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx">IMalloc</a> interface pointer received through the <i>ppMalloc</i> parameter cannot be used from a remote process; each process must have its own allocator.
+The pointer to the <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> interface pointer received through the <i>ppMalloc</i> parameter cannot be used from a remote process; each process must have its own allocator.
 
 
 
@@ -97,11 +95,11 @@ The pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678425(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678425(v=VS.85).aspx">IMalloc</a>
+<a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>
  
 
  

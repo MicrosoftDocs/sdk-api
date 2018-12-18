@@ -9,8 +9,6 @@ ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

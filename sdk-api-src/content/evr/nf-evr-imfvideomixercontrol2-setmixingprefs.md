@@ -9,8 +9,6 @@ ms.assetid: ae8fa85a-bdae-4fbf-b9d4-a987eb1c4c41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoMixerControl2 interface [Media Foundation],SetMixingPrefs method, IMFVideoMixerControl2.SetMixingPrefs, IMFVideoMixerControl2::SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [Media Foundation], SetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, evr/IMFVideoMixerControl2::SetMixingPrefs, mf.imfvideomixercontrol2_setmixingprefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

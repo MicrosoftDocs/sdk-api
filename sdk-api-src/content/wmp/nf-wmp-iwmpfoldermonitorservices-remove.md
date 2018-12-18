@@ -9,8 +9,6 @@ ms.assetid: 4f075c31-dd09-4d35-88fa-b93a373ad2d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],remove method, IWMPFolderMonitorServices.remove, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>remove</b> method removes a folder from the list of monitored folders.
 
@@ -110,11 +108,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f12bbc31-ce9d-4d0c-af1e-9078e7948eeb">IWMPFolderMonitorServices::add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563367(v=VS.85).aspx">IWMPFolderMonitorServices::add</a>
  
 
  

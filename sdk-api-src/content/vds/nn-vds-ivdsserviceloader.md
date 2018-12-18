@@ -9,8 +9,6 @@ ms.assetid: 43533ee7-4e44-48c9-8c9d-0992426d79ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsServiceLoader, IVdsServiceLoader interface [VDS], IVdsServiceLoader interface [VDS],described, base.ivdsserviceloader, vds/IVdsServiceLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

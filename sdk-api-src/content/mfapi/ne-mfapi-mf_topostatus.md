@@ -1,5 +1,5 @@
 ---
-UID: NE:mfapi.MF_TOPOSTATUS
+UID: NE:mfapi.__unnamed_enum_1
 title: MF_TOPOSTATUS
 author: windows-sdk-content
 description: Specifies the status of a topology during playback.
@@ -7,10 +7,8 @@ old-location: mf\mf_topostatus.htm
 tech.root: medfound
 ms.assetid: 7cf2a4f2-c115-4dee-ab91-6a3fab33365f
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: 7cf2a4f2-c115-4dee-ab91-6a3fab33365f, MF_TOPOSTATUS, MF_TOPOSTATUS enumeration [Media Foundation], MF_TOPOSTATUS_DYNAMIC_CHANGED, MF_TOPOSTATUS_ENDED, MF_TOPOSTATUS_INVALID, MF_TOPOSTATUS_READY, MF_TOPOSTATUS_SINK_SWITCHED, MF_TOPOSTATUS_STARTED_SOURCE, mf.mf_topostatus, mfapi/MF_TOPOSTATUS, mfapi/MF_TOPOSTATUS_DYNAMIC_CHANGED, mfapi/MF_TOPOSTATUS_ENDED, mfapi/MF_TOPOSTATUS_INVALID, mfapi/MF_TOPOSTATUS_READY, mfapi/MF_TOPOSTATUS_SINK_SWITCHED, mfapi/MF_TOPOSTATUS_STARTED_SOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

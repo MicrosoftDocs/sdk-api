@@ -9,8 +9,6 @@ ms.assetid: 374331ec-6665-4ed9-b4ee-6d33b1e2ef2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],StreamNumFromPin method, IConfigAsfWriter2.StreamNumFromPin, IConfigAsfWriter2::StreamNumFromPin, IConfigAsfWriter2StreamNumFromPin, StreamNumFromPin, StreamNumFromPin method [DirectShow], StreamNumFromPin method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_streamnumfrompin, dshowasf/IConfigAsfWriter2::StreamNumFromPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <code>StreamNumFromPin</code> method retrieves the stream number associated 
 
 ### -param pPin [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface on the input pin.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx">IPin</a> interface on the input pin.
 
 
 ### -param pwStreamNum [out]
@@ -98,7 +96,7 @@ You may need to use the Windows Media Format SDK interfaces directly to manipula
 
 
 
-<a href="https://msdn.microsoft.com/fd931a95-3678-46de-8f17-9e7c27087398">IConfigAsfWriter2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312018(v=VS.85).aspx">IConfigAsfWriter2 Interface</a>
  
 
  

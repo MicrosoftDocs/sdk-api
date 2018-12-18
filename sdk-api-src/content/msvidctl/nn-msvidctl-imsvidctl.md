@@ -9,8 +9,6 @@ ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msvidctl.h
 req.include-header: 

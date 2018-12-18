@@ -9,8 +9,6 @@ ms.assetid: d5f0be62-4f15-45ca-8593-f5703a1f932a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMHeaderInfo interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo.GetAttributeCount, IWMHeaderInfo2 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo2::GetAttributeCount, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo3::GetAttributeCount, IWMHeaderInfo::GetAttributeCount, IWMHeaderInfoGetAttributeCount, wmformat.iwmheaderinfo_getattributecount, wmsdkidl/IWMHeaderInfo2::GetAttributeCount, wmsdkidl/IWMHeaderInfo3::GetAttributeCount, wmsdkidl/IWMHeaderInfo::GetAttributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -57,7 +55,7 @@ req.redist:
 
 
 
-The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/8c56d7b6-4f59-450e-938c-b7d0bd37ea08">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="https://msdn.microsoft.com/15c8f0c2-f2d4-441a-b6a9-774da820d03c">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
+The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="https://msdn.microsoft.com/en-us/library/Dd798513(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798514(v=VS.85).aspx">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
 
 
 
@@ -167,19 +165,19 @@ Attributes in MP3 files cannot be specific to a particular stream. For MP3 files
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/174969a2-4fe2-477b-9990-051d23bf8a29">IWMHeaderInfo::SetAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
  
 
  

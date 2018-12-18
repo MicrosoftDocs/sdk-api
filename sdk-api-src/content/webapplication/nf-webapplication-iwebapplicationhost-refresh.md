@@ -9,8 +9,6 @@ ms.assetid: 66f94cc9-9407-4844-a100-8144fc6f45ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebApplicationHost interface [Debugging Windows Store apps],Refresh method, IWebApplicationHost.Refresh, IWebApplicationHost::Refresh, Refresh, Refresh method [Debugging Windows Store apps], Refresh method [Debugging Windows Store apps],IWebApplicationHost interface, debug.iwebapplicationhost_refresh, webapplication/IWebApplicationHost::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

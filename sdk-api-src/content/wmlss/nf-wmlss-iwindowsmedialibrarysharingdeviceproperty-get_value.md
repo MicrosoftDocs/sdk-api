@@ -9,8 +9,6 @@ ms.assetid: b51b794c-eda6-4afe-8bb2-14896f7b8b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Value method, IWindowsMediaLibrarySharingDeviceProperty.get_Value, IWindowsMediaLibrarySharingDeviceProperty::get_Value, get_Value, get_Value method [Windows Media Library Sharing Services], get_Value method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Value, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

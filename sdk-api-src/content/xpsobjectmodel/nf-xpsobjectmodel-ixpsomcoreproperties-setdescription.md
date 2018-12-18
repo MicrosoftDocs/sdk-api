@@ -9,8 +9,6 @@ ms.assetid: 5be76080-0f85-4937-913c-2037740a3e9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetDescription method, IXpsOMCoreProperties.SetDescription, IXpsOMCoreProperties::SetDescription, SetDescription, SetDescription method [XPS Documents and Packaging], SetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setdescription, xpsobjectmodel/IXpsOMCoreProperties::SetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

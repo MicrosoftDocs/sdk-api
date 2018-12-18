@@ -9,8 +9,6 @@ ms.assetid: 7f999959-9b22-4491-ae2b-a2674d821110
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverlappedResult, GetOverlappedResult function, _win32_getoverlappedresult, base.getoverlappedresult, ioapiset/GetOverlappedResult, winbase/GetOverlappedResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ioapiset.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

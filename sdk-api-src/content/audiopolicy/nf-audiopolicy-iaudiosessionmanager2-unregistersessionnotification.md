@@ -9,8 +9,6 @@ ms.assetid: 0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSessionManager2 interface [Core Audio],UnregisterSessionNotification method, IAudioSessionManager2.UnregisterSessionNotification, IAudioSessionManager2::UnregisterSessionNotification, UnregisterSessionNotification, UnregisterSessionNotification method [Core Audio], UnregisterSessionNotification method [Core Audio],IAudioSessionManager2 interface, audiopolicy/IAudioSessionManager2::UnregisterSessionNotification, coreaudio.iaudiosessionmanager2_unregistersessionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

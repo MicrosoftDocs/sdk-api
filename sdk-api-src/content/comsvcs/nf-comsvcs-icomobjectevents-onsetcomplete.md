@@ -9,8 +9,6 @@ ms.assetid: 3bda05b7-3306-428c-b920-d87eee0b35d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComObjectEvents interface [COM+],OnSetComplete method, IComObjectEvents.OnSetComplete, IComObjectEvents::OnSetComplete, OnSetComplete, OnSetComplete method [COM+], OnSetComplete method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnSetComplete, comsvcs/IComObjectEvents::OnSetComplete, cos.icomobjectevents_onsetcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fd79ff50-cac2-40e0-86ad-2d6af97c99a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VDMEnumProcessWOW, VDMEnumProcessWOW function [Windows API], vdmdbg/VDMEnumProcessWOW, winprog.vdmenumprocesswow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vdmdbg.h
 req.include-header: 

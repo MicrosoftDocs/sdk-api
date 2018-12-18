@@ -9,8 +9,6 @@ ms.assetid: bc6a6048-50a8-4194-878a-015ab06955f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],PeerPort property, IRDPSRAPITcpConnectionInfo.PeerPort, IRDPSRAPITcpConnectionInfo.get_PeerPort, IRDPSRAPITcpConnectionInfo::PeerPort, IRDPSRAPITcpConnectionInfo::get_PeerPort, PeerPort property [RDP], PeerPort property [RDP],IRDPSRAPITcpConnectionInfo interface, PeerPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],PeerPort property, get_PeerPort, rdp.irdpsrapitcpconnectioninfo_peerport, rdpencomapi/IRDPSRAPITcpConnectionInfo::PeerPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_PeerPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

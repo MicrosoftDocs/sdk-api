@@ -9,8 +9,6 @@ ms.assetid: 4359eb04-aaf7-490f-ab60-b42182b53611
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_SetDestinationPort, MI_DestinationOptions_SetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDestinationPort, wmi_v2.mi_destinationoptions_setdestinationport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

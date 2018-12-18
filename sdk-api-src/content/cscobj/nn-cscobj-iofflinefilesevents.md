@@ -7,10 +7,8 @@ old-location: of\iofflinefilesevents.htm
 tech.root: offlinefiles
 ms.assetid: c0bd0033-e5e1-4d21-8d98-eb937acdd6cf
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], IOfflineFilesEvents interface [Offline Files],described, cscobj/IOfflineFilesEvents, of.iofflinefilesevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 
@@ -56,9 +54,9 @@ req.redist:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +69,7 @@ The <b>IOfflineFilesEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530537(v=VS.85).aspx">CacheIsCorrupted</a>
+<a href="https://msdn.microsoft.com/d76d9af4-bfc4-4584-b014-31a62a2894cf">CacheIsCorrupted</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -80,7 +78,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530538(v=VS.85).aspx">CacheIsFull</a>
+<a href="https://msdn.microsoft.com/535998f6-846b-4075-9504-a8d3e90a73b9">CacheIsFull</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -89,7 +87,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530540(v=VS.85).aspx">CacheMoved</a>
+<a href="https://msdn.microsoft.com/73d9bb7b-4844-4d7c-9e50-8d63727f5309">CacheMoved</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -98,7 +96,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530541(v=VS.85).aspx">DataLost</a>
+<a href="https://msdn.microsoft.com/da0414dd-2acb-48d9-ac84-66bb1f7ccbef">DataLost</a>
 </td>
 <td align="left" width="63%">
 Reports that one or more events destined for this event sink have been lost and will not be delivered.
@@ -107,7 +105,7 @@ Reports that one or more events destined for this event sink have been lost and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530542(v=VS.85).aspx">Enabled</a>
+<a href="https://msdn.microsoft.com/47db9318-2418-4e6c-aac0-75b0b498c7e6">Enabled</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -116,7 +114,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530544(v=VS.85).aspx">EncryptionChanged</a>
+<a href="https://msdn.microsoft.com/0cf93bed-e1b3-428f-a332-d50b575749f7">EncryptionChanged</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -125,7 +123,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530545(v=VS.85).aspx">ItemAddedToCache</a>
+<a href="https://msdn.microsoft.com/7ab04b07-f72a-4a04-a470-4b85c21005c0">ItemAddedToCache</a>
 </td>
 <td align="left" width="63%">
 Reports that an item has been added to the Offline Files cache.
@@ -134,7 +132,7 @@ Reports that an item has been added to the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530546(v=VS.85).aspx">ItemAvailableOffline</a>
+<a href="https://msdn.microsoft.com/6c629ede-00ee-4f5e-9f75-022e3c5b3957">ItemAvailableOffline</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is now available for offline use should the remote copy become unavailable.
@@ -143,7 +141,7 @@ Reports that an item in the Offline Files cache is now available for offline use
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530547(v=VS.85).aspx">ItemDeletedFromCache</a>
+<a href="https://msdn.microsoft.com/358b358a-65cc-4f37-8beb-be492b83c222">ItemDeletedFromCache</a>
 </td>
 <td align="left" width="63%">
 Reports that an item has been removed from the Offline Files cache.
@@ -152,7 +150,7 @@ Reports that an item has been removed from the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530548(v=VS.85).aspx">ItemDisconnected</a>
+<a href="https://msdn.microsoft.com/b0f9d873-cda5-4805-bb5e-d23d47b53f1d">ItemDisconnected</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has transitioned from online to offline.
@@ -161,7 +159,7 @@ Reports that an item in the Offline Files cache has transitioned from online to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530549(v=VS.85).aspx">ItemModified</a>
+<a href="https://msdn.microsoft.com/e689b111-d6d1-436e-b468-570e575a5170">ItemModified</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has been modified.
@@ -170,7 +168,7 @@ Reports that an item in the Offline Files cache has been modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530550(v=VS.85).aspx">ItemNotAvailableOffline</a>
+<a href="https://msdn.microsoft.com/868938fd-9da2-45fd-a00e-5dda85b4fd61">ItemNotAvailableOffline</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is no longer available for offline use should the remote copy become unavailable.
@@ -179,7 +177,7 @@ Reports that an item in the Offline Files cache is no longer available for offli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530551(v=VS.85).aspx">ItemNotPinned</a>
+<a href="https://msdn.microsoft.com/cefd7408-9e98-48a4-ad43-0bdef9da1c95">ItemNotPinned</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is no longer pinned.
@@ -188,7 +186,7 @@ Reports that an item in the Offline Files cache is no longer pinned.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530552(v=VS.85).aspx">ItemPinned</a>
+<a href="https://msdn.microsoft.com/cf298e4e-97c8-4f6f-b6f5-0bd0d9435599">ItemPinned</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache is now pinned and guaranteed to be available offline should the remote copy become unavailable.
@@ -197,7 +195,7 @@ Reports that an item in the Offline Files cache is now pinned and guaranteed to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530553(v=VS.85).aspx">ItemReconnected</a>
+<a href="https://msdn.microsoft.com/beafae9d-3ef8-401f-8ab6-79d2ae3366a4">ItemReconnected</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has transitioned from offline to online.
@@ -206,7 +204,7 @@ Reports that an item in the Offline Files cache has transitioned from offline to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530554(v=VS.85).aspx">ItemRenamed</a>
+<a href="https://msdn.microsoft.com/f1a678dd-9a02-41da-90d4-930c0d366a36">ItemRenamed</a>
 </td>
 <td align="left" width="63%">
 Reports that an item in the Offline Files cache has been renamed.
@@ -215,7 +213,7 @@ Reports that an item in the Offline Files cache has been renamed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530556(v=VS.85).aspx">NetTransportArrived</a>
+<a href="https://msdn.microsoft.com/ac44010b-b14f-41d7-89f7-6f7822ed2a5d">NetTransportArrived</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files feature has detected the arrival of a network transport.
@@ -224,7 +222,7 @@ Reports that the Offline Files feature has detected the arrival of a network tra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530557(v=VS.85).aspx">NoNetTransports</a>
+<a href="https://msdn.microsoft.com/4970acd4-b99d-4d7a-a0bc-04c10a4423b8">NoNetTransports</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files feature has detected that no network transports are available.
@@ -233,7 +231,7 @@ Reports that the Offline Files feature has detected that no network transports a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530558(v=VS.85).aspx">Ping</a>
+<a href="https://msdn.microsoft.com/edde2f37-f082-4382-8908-181bc42d30ef">Ping</a>
 </td>
 <td align="left" width="63%">
 This event is delivered to all registered event subscribers on a periodic basis.
@@ -242,7 +240,7 @@ This event is delivered to all registered event subscribers on a periodic basis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530559(v=VS.85).aspx">SyncBegin</a>
+<a href="https://msdn.microsoft.com/ba09be0a-52bc-4715-9756-383954277a31">SyncBegin</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files cache has begun a synchronize operation.
@@ -251,7 +249,7 @@ Reports that the Offline Files cache has begun a synchronize operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530560(v=VS.85).aspx">SyncConflictRecAdded</a>
+<a href="https://msdn.microsoft.com/693306de-d968-4857-8221-965b2f271aae">SyncConflictRecAdded</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict has been detected and recorded in the sync conflict log.
@@ -260,7 +258,7 @@ Reports that a sync conflict has been detected and recorded in the sync conflict
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530561(v=VS.85).aspx">SyncConflictRecRemoved</a>
+<a href="https://msdn.microsoft.com/ccdd7b74-3e00-4a3d-9632-eac48d790f23">SyncConflictRecRemoved</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
@@ -269,7 +267,7 @@ Reports that a sync conflict no longer exists and that its record has been remov
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530562(v=VS.85).aspx">SyncConflictRecUpdated</a>
+<a href="https://msdn.microsoft.com/adf13e95-bcb0-4f84-bbb9-9648f90f3be8">SyncConflictRecUpdated</a>
 </td>
 <td align="left" width="63%">
 Reports that a sync conflict has been detected and that a record of the conflict was already present in the sync conflict log, and that the existing record has been updated.
@@ -278,7 +276,7 @@ Reports that a sync conflict has been detected and that a record of the conflict
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530563(v=VS.85).aspx">SyncEnd</a>
+<a href="https://msdn.microsoft.com/2b4b32b9-7268-4f79-8eac-640a6c62b0c1">SyncEnd</a>
 </td>
 <td align="left" width="63%">
 Reports that the Offline Files cache has ended a synchronize operation.
@@ -287,7 +285,7 @@ Reports that the Offline Files cache has ended a synchronize operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530564(v=VS.85).aspx">SyncFileResult</a>
+<a href="https://msdn.microsoft.com/3770e966-7481-449e-9b57-44a7329d26db">SyncFileResult</a>
 </td>
 <td align="left" width="63%">
 Reports the result of synchronizing a particular file.
@@ -302,7 +300,7 @@ Reports the result of synchronizing a particular file.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

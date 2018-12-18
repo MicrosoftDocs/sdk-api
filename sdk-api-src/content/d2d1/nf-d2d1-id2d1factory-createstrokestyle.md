@@ -9,8 +9,6 @@ ms.assetid: 17e8cd4c-6ba4-49d4-a883-2937ff2121d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStrokeStyle, CreateStrokeStyle method [Direct2D], CreateStrokeStyle method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateStrokeStyle method, ID2D1Factory.CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle, ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES,const FLOAT,UINT32,ID2D1StrokeStyle), d2d1/ID2D1Factory::CreateStrokeStyle, direct2d.ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -90,7 +88,7 @@ When this method returns, contains the address of the pointer to the stroke styl
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

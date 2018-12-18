@@ -9,8 +9,6 @@ ms.assetid: 533F8B35-6EC1-43BB-B8E6-EB086A9C646C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeletePersistentTcpPortReservation, DeletePersistentTcpPortReservation function [IP Helper], iphlp.deletepersistenttcpportreservation, iphlpapi/DeletePersistentTcpPortReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

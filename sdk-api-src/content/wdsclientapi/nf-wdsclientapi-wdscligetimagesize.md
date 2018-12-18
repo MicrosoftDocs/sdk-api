@@ -9,8 +9,6 @@ ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment Services], wds.wdscligetimagesize, wdsclientapi/WdsCliGetImageSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

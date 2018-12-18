@@ -9,8 +9,6 @@ ms.assetid: caa56beb-7eba-48a1-8645-f63666ba0593
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_HWnd method, IMSVidRect.get_HWnd, IMSVidRect::get_HWnd, IMSVidRectget_HWnd, get_HWnd, get_HWnd method [Microsoft TV Technologies], get_HWnd method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_hwnd, segment/IMSVidRect::get_HWnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -81,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/bbc7a6d0-2829-4fdb-89da-5ebb7fc803eb">IMSVidRect::put_HWnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694610(v=VS.85).aspx">IMSVidRect::put_HWnd</a>
  
 
  

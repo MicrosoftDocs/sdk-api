@@ -9,8 +9,6 @@ ms.assetid: 1e51aea4-f56f-4a7c-95eb-e955e7d173ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4SetPolicy, DhcpV4SetPolicy function [DHCP], dhcp.dhcpv4setpolicy, dhcpsapi/DhcpV4SetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -65,7 +63,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param FieldsModified [in]
 
-A value from the <a href="https://msdn.microsoft.com/5ce80514-ad63-44dd-9b9b-36679a97488b">DHCP_POLICY_FIELDS_TO_UPDATE</a> enumeration that defines the DHCPv4 policy fields to modify.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Hh404384(v=VS.85).aspx">DHCP_POLICY_FIELDS_TO_UPDATE</a> enumeration that defines the DHCPv4 policy fields to modify.
 
 
 ### -param fGlobalPolicy [in]

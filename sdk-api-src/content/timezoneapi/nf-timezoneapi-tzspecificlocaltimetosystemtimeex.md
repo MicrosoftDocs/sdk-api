@@ -9,8 +9,6 @@ ms.assetid: C202F91E-FFFF-412D-A968-3B7AE60A5846
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TzSpecificLocalTimeToSystemTimeEx, TzSpecificLocalTimeToSystemTimeEx function, base.tzspecificlocaltimetosystemtimeex, timezoneapi/TzSpecificLocalTimeToSystemTimeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

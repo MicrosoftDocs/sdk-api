@@ -9,8 +9,6 @@ ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

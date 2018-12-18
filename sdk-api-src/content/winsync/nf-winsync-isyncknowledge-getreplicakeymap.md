@@ -9,8 +9,6 @@ ms.assetid: 5f4052f8-ad58-4805-be75-5456d2d1e7bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReplicaKeyMap, GetReplicaKeyMap method [Windows Sync], GetReplicaKeyMap method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetReplicaKeyMap method, ISyncKnowledge.GetReplicaKeyMap, ISyncKnowledge::GetReplicaKeyMap, winsync.isyncknowledge_getreplicakeymap, winsync/ISyncKnowledge::GetReplicaKeyMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

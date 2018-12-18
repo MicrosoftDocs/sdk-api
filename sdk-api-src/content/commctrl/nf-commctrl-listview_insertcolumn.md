@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_InsertColumn, ListView_InsertColumn macro [Windows Controls], _win32_ListView_InsertColumn, _win32_ListView_InsertColumn_cpp, commctrl/ListView_InsertColumn, controls.ListView_InsertColumn, controls._win32_ListView_InsertColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Inserts a new column in a list-view control. You can use this macro or send the 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

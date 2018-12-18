@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10asynchronous_getdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Direct3D 10], GetData method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetData method, ID3D10Asynchronous.GetData, ID3D10Asynchronous::GetData, c544fd10-336c-a120-6147-34aee4afeb45, d3d10/ID3D10Asynchronous::GetData, direct3d10.id3d10asynchronous_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -68,14 +66,14 @@ Address of memory that will receive the data. If <b>NULL</b>, <b>GetData</b> wil
 
 ### -param DataSize [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the data to retrieve or 0. This value can be obtained with <a href="https://msdn.microsoft.com/en-us/library/Bb173504(v=VS.85).aspx">ID3D10Asynchronous::GetDataSize</a>. Must be 0 when <i>pData</i> is <b>NULL</b>.
 
 
 ### -param GetDataFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Optional flags. Can be 0 or any combination of the flags enumerated by
             <a href="https://msdn.microsoft.com/en-us/library/Bb204887(v=VS.85).aspx">D3D10_ASYNC_GETDATA_FLAG</a>.

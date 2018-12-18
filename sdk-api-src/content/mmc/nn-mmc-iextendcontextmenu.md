@@ -9,8 +9,6 @@ ms.assetid: 8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExtendContextMenu, IExtendContextMenu interface [MMC], IExtendContextMenu interface [MMC],described, _slate_iextendcontextmenu, mmc.iextendcontextmenu, mmc/IExtendContextMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

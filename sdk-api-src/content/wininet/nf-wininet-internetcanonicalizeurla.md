@@ -9,8 +9,6 @@ ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e23e1130-dd95-43ec-8ea3-c213fd6b0b25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBstrCat, VarBstrCat function [Automation], _oa96_VarBstrCat, automat.varbstrcat, oleauto/VarBstrCat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

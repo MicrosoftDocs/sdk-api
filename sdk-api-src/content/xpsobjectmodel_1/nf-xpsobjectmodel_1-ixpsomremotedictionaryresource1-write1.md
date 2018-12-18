@@ -9,8 +9,6 @@ ms.assetid: 5C5C2DC9-1F03-44F9-9466-7AFD1BD5D098
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],Write1 method, IXpsOMRemoteDictionaryResource1.Write1, IXpsOMRemoteDictionaryResource1::Write1, Write1, Write1 method [XPS Documents and Packaging], Write1 method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource1 interface, xps.ixpsomremotedictionaryresource1_write1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

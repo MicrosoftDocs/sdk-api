@@ -9,8 +9,6 @@ ms.assetid: 668ad25c-c5a6-4676-825d-310cc99b321b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceTransportGetHandle, MprConfigInterfaceTransportGetHandle function [RAS], _mpr_mprconfiginterfacetransportgethandle, mprapi/MprConfigInterfaceTransportGetHandle, rras.mprconfiginterfacetransportgethandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

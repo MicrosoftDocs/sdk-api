@@ -9,8 +9,6 @@ ms.assetid: 937d64c3-f5af-4230-b811-6d5883ecaf86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToUInt16WithDefault, VariantToUInt16WithDefault function [Windows Properties], _shell_VariantToUInt16WithDefault, properties.VariantToUInt16WithDefault, propvarutil/VariantToUInt16WithDefault, shell.VariantToUInt16WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 13b6d2b1-f95d-4b07-bd69-2793158ee27b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPServiceCallback interface [UPnP APIs],ServiceInstanceDied method, IUPnPServiceCallback.ServiceInstanceDied, IUPnPServiceCallback::ServiceInstanceDied, ServiceInstanceDied, ServiceInstanceDied method [UPnP APIs], ServiceInstanceDied method [UPnP APIs],IUPnPServiceCallback interface, _upnp_iupnpservicecallback_serviceinstancedied, upnp.iupnpservicecallback_serviceinstancedied, upnp/IUPnPServiceCallback::ServiceInstanceDied
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

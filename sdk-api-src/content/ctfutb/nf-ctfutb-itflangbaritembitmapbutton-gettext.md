@@ -9,8 +9,6 @@ ms.assetid: ac37ea79-59bb-44c1-aace-b3c0dccfd377
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetText method, ITfLangBarItemBitmapButton.GetText, ITfLangBarItemBitmapButton::GetText, _tsf_itflangbaritembitmapbutton_gettext_ref, ctfutb/ITfLangBarItemBitmapButton::GetText, tsf.itflangbaritembitmapbutton_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -117,7 +115,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628707(v=VS.85).aspx">ITfLangBarItemBitmapButton</a>
+<a href="https://msdn.microsoft.com/29fcc913-fcc7-4321-918b-2c354dd751ff">ITfLangBarItemBitmapButton</a>
 
 
 

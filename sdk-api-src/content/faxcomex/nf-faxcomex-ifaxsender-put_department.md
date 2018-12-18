@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7hx0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Department property [Fax Service], Department property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Department property, IFaxSender.Department, IFaxSender.get_Department, IFaxSender.put_Department, IFaxSender::Department, IFaxSender::get_Department, IFaxSender::put_Department, _mfax_faxsender.department, fax._mfax_faxsender_cpp_mfax_faxsender_department_cpp, fax._mfax_faxsender_department, faxcomex/IFaxSender::Department, faxcomex/IFaxSender::get_Department, faxcomex/IFaxSender::put_Department, put_Department
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,15 +65,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687533(v=VS.85).aspx">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

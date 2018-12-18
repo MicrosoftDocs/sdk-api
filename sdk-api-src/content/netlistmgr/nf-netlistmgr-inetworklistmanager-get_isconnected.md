@@ -7,10 +7,8 @@ old-location: nla\inetworklistmanager_get_isconnected.htm
 tech.root: nla
 ms.assetid: 51bdec8e-521f-4673-a2ad-07e8995f3905
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnected method, INetworkListManager.get_IsConnected, INetworkListManager::get_IsConnected, get_IsConnected, get_IsConnected method [Network Awareness], get_IsConnected method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnected, nla.inetworklistmanager_get_isconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

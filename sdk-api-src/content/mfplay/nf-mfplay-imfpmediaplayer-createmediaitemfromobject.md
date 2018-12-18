@@ -9,8 +9,6 @@ ms.assetid: d647df89-b874-448e-ae41-ee3bcb55521f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMediaItemFromObject, CreateMediaItemFromObject method [Media Foundation], CreateMediaItemFromObject method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromObject method, IMFPMediaPlayer.CreateMediaItemFromObject, IMFPMediaPlayer::CreateMediaItemFromObject, mf.imfpmediaplayer_createmediaitemfromobject, mfplay/IMFPMediaPlayer::CreateMediaItemFromObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

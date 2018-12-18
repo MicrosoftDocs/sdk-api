@@ -9,8 +9,6 @@ ms.assetid: 549d86ed-81c1-4126-9f43-f7e5340990d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpHlprAddV4PolicyExpr, DhcpHlprAddV4PolicyExpr function [DHCP], dhcp.dhcphlpraddv4policyexpr, dhcpsapi/DhcpHlprAddV4PolicyExpr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -70,7 +68,7 @@ Integer that specifies the expression index that corresponds to this constituent
 
 ### -param Operator [in]
 
-A <a href="https://msdn.microsoft.com/e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the expression is to be evaluated in terms of the results of its constituents.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh404406(v=VS.85).aspx">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the expression is to be evaluated in terms of the results of its constituents.
 
 
 ### -param ExprIndex [out]

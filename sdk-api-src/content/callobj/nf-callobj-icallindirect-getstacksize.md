@@ -9,8 +9,6 @@ ms.assetid: 3251c9b1-e076-4bc3-a995-1b0d275929a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStackSize, GetStackSize method [COM], GetStackSize method [COM],ICallIndirect interface, ICallIndirect interface [COM],GetStackSize method, ICallIndirect.GetStackSize, ICallIndirect::GetStackSize, _com_icallindirect_getstacksize, callobj/ICallIndirect::GetStackSize, com.icallindirect_getstacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
@@ -112,7 +110,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691485(v=VS.85).aspx">ICallIndirect</a>
+<a href="https://msdn.microsoft.com/b85585fd-5f44-4c07-91a4-145eb44a6bdd">ICallIndirect</a>
  
 
  

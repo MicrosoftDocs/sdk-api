@@ -9,8 +9,6 @@ ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3GreaterR(XMVECTOR,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3GreaterR, XMVector3GreaterR, XMVector3GreaterR method [DirectX Math Support APIs], dxmath.xmvector3greaterr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Tests whether one 3D vector is greater than another 3D vector and returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Tests whether one 3D vector is greater than another 3D vector and returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -72,7 +70,7 @@ Tests whether one 3D vector is greater than another 3D vector and returns a comp
 
 
 
-Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 
@@ -106,7 +104,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/3c4e84e1-b713-4425-97fd-c558baba8d96">XMVector3Greater</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420812(v=VS.85).aspx">XMVector3Greater</a>
  
 
  

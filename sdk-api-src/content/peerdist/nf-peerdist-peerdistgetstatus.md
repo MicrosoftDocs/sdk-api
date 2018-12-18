@@ -7,10 +7,8 @@ old-location: p2p\peerdistgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
@@ -65,7 +63,7 @@ A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.co
 
 ### -param pPeerDistStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a> enumeration which upon operation success receives the current status of the Peer Distribution service.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a> enumeration which upon operation success receives the current status of the Peer Distribution service.
 
 
 ## -returns
@@ -91,7 +89,7 @@ A Group Policy change can result in the Peer Distribution service  moving to an 
 
 
 
-<a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a>
 
 
 

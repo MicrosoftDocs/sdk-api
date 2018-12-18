@@ -9,8 +9,6 @@ ms.assetid: 582f5d85-9045-4c6f-a4c0-869e6f9e9b9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377047(v=VS.85).aspx">Initialize</a> method to specify the <b>BitCount</b> property. The following symmetric encryption algorithms and key lengths are supported by the Certificate Enrollment API.<table>
+Call the <a href="https://msdn.microsoft.com/d972121d-ecfa-4a79-9322-dd0d0b81ba68">Initialize</a> method to specify the <b>BitCount</b> property. The following symmetric encryption algorithms and key lengths are supported by the Certificate Enrollment API.<table>
 <tr>
 <th>OID</th>
 <th>Key Length</th>
@@ -153,15 +151,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377047(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376841(v=VS.85).aspx">ISmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/f9750b68-9d35-4594-96fc-2fbd54a87dcc">ISmimeCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a>
+<a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378177(v=VS.85).aspx">IX509ExtensionSmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/06dca62d-282b-4bdd-bc8d-4d2e6eb226b5">IX509ExtensionSmimeCapabilities</a>
  
 
  

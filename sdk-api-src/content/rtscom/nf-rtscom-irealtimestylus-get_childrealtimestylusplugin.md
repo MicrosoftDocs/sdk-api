@@ -9,8 +9,6 @@ ms.assetid: 269c133c-6950-40e0-8de9-e38bfa06995e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 269c133c-6950-40e0-8de9-e38bfa06995e, ChildRealTimeStylusPlugin property [Tablet PC], ChildRealTimeStylusPlugin property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ChildRealTimeStylusPlugin property, IRealTimeStylus.ChildRealTimeStylusPlugin, IRealTimeStylus.get_ChildRealTimeStylusPlugin, IRealTimeStylus.put_ChildRealTimeStylusPlugin, IRealTimeStylus::ChildRealTimeStylusPlugin, IRealTimeStylus::get_ChildRealTimeStylusPlugin, IRealTimeStylus::put_ChildRealTimeStylusPlugin, get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::get_ChildRealTimeStylusPlugin, rtscom/IRealTimeStylus::put_ChildRealTimeStylusPlugin, tablet.irealtimestylus_childrealtimestylusplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

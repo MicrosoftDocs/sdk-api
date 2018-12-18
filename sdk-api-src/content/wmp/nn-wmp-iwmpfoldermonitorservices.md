@@ -9,8 +9,6 @@ ms.assetid: 42c3b03c-f8f8-4219-91e1-da54a175fb24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], IWMPFolderMonitorServices interface [Windows Media Player],described, IWMPFolderMonitorServicesInterface, wmp.iwmpfoldermonitorservices, wmp/IWMPFolderMonitorServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -77,7 +75,7 @@ The <b>IWMPFolderMonitorServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f12bbc31-ce9d-4d0c-af1e-9078e7948eeb">add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563367(v=VS.85).aspx">add</a>
 </td>
 <td align="left" width="63%">
 Adds a folder to the list of monitored folders.
@@ -86,7 +84,7 @@ Adds a folder to the list of monitored folders.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56dcbb46-8de9-4fbe-b82c-927d42e39b2b">get_addedFilesCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563369(v=VS.85).aspx">get_addedFilesCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of files added to the library during the current scanning operation.
@@ -95,7 +93,7 @@ Retrieves the count of files added to the library during the current scanning op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf80820a-d126-4af6-ba5e-c1188c5c00a4">get_count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563370(v=VS.85).aspx">get_count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of monitored folders.
@@ -104,7 +102,7 @@ Retrieves the count of monitored folders.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0bc2f6a-c5ab-4dc5-a574-5b0fde16449a">get_currentFolder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563371(v=VS.85).aspx">get_currentFolder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of the folder currently being scanned.
@@ -113,7 +111,7 @@ Retrieves the path of the folder currently being scanned.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b6a291b-b28d-4415-813c-5f4a5e1b2dca">get_scannedFilesCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563372(v=VS.85).aspx">get_scannedFilesCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of files inspected during the current scanning operation.
@@ -122,7 +120,7 @@ Retrieves the count of files inspected during the current scanning operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f13d2d0-5d8c-4aa7-bc69-c5c0436337a6">get_scanState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563373(v=VS.85).aspx">get_scanState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the scan state for the current scanning operation.
@@ -131,7 +129,7 @@ Retrieves the scan state for the current scanning operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60a612d2-8675-456f-b428-ddfd0b73fd83">get_updateProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563374(v=VS.85).aspx">get_updateProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the update progress as percent complete.
@@ -140,7 +138,7 @@ Retrieves the update progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9c79b85-ac64-456c-95b2-fe28a8c99fac">item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563375(v=VS.85).aspx">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the path of the folder corresponding to the specified index.
@@ -149,7 +147,7 @@ Retrieves the path of the folder corresponding to the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f075c31-dd09-4d35-88fa-b93a373ad2d0">remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563376(v=VS.85).aspx">remove</a>
 </td>
 <td align="left" width="63%">
 Removes a folder from the list of monitored folders.
@@ -158,7 +156,7 @@ Removes a folder from the list of monitored folders.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c54c5b7e-3abf-4006-a811-c80b06e6def9">startScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563377(v=VS.85).aspx">startScan</a>
 </td>
 <td align="left" width="63%">
 Starts a scanning operation.
@@ -167,7 +165,7 @@ Starts a scanning operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b85cefb-3118-4e7f-b6f7-2f387057895e">stopScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563378(v=VS.85).aspx">stopScan</a>
 </td>
 <td align="left" width="63%">
 Stops the scanning operation.
@@ -176,7 +174,7 @@ Stops the scanning operation.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPFolderMonitorServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
+Retrieve a pointer to <b>IWMPFolderMonitorServices</b> by calling <b>QueryInterface</b> through <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a>.
 	
 
 
@@ -185,7 +183,7 @@ Retrieve a pointer to <b>IWMPFolderMonitorServices</b> by calling <b>QueryInterf
 
 
 
-<a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer Interface</a>
 
 
 

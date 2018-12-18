@@ -9,8 +9,6 @@ ms.assetid: a384edf8-3b3d-4e0c-b39c-976798457076
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],EndInkInput method, IInkRecognizerContext.EndInkInput, IInkRecognizerContext::EndInkInput, a384edf8-3b3d-4e0c-b39c-976798457076, msinkaut/IInkRecognizerContext::EndInkInput, tablet.inkrecognizercontext_endinkinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -146,7 +144,7 @@ Incremental recognition is the ability of the recognizer to process only a small
 
 
 
-<a href="https://msdn.microsoft.com/D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

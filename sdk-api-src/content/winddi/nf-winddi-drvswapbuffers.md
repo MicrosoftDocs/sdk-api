@@ -9,8 +9,6 @@ ms.assetid: 2fee2f9d-85fd-4b21-83be-11469fede71a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvSwapBuffers, DrvSwapBuffers function [Display Devices], ddifncs_8f9d0c15-6eb3-4bed-9efa-bb40026576a1.xml, display.drvswapbuffers, winddi/DrvSwapBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

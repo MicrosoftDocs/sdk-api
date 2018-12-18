@@ -9,8 +9,6 @@ ms.assetid: a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], IAMDirectSound interface [DirectShow],described, IAMDirectSoundInterface, amaudio/IAMDirectSound, dshow.iamdirectsound
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amaudio.h
 req.include-header: 
@@ -78,7 +76,7 @@ The <b>IAMDirectSound</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0980d931-296f-47c1-a6f5-63a94032c1bf">GetDirectSoundInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389194(v=VS.85).aspx">GetDirectSoundInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -87,7 +85,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e103abb3-01fc-452f-a151-0f2d24859fba">GetFocusWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389195(v=VS.85).aspx">GetFocusWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window that is handling sound playback for the current media file.
@@ -96,7 +94,7 @@ Retrieves the window that is handling sound playback for the current media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cac3834-5f0a-4977-802e-b3b824a01dbc">GetPrimaryBufferInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389196(v=VS.85).aspx">GetPrimaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -105,7 +103,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6296d45c-e582-45d6-9f13-e758691ef5de">GetSecondaryBufferInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389306(v=VS.85).aspx">GetSecondaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -114,7 +112,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa02546b-7306-46ef-82a3-c6c1d89423e5">ReleaseDirectSoundInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389307(v=VS.85).aspx">ReleaseDirectSoundInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -123,7 +121,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a04d344-394e-4a93-a601-0aa419182d9b">ReleasePrimaryBufferInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389308(v=VS.85).aspx">ReleasePrimaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -132,7 +130,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba563876-074e-49eb-bc53-889ead49ceb8">ReleaseSecondaryBufferInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389309(v=VS.85).aspx">ReleaseSecondaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -141,7 +139,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe">SetFocusWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389310(v=VS.85).aspx">SetFocusWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the window that will handle sound playback for the current media file.

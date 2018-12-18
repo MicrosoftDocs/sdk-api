@@ -9,8 +9,6 @@ ms.assetid: 244f93cb-0976-4a31-958c-ae0ed81c1dcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrFormatByteSizeA, StrFormatByteSizeA function [Windows Shell], _win32_StrFormatByteSizeA, shell.StrFormatByteSizeA, shlwapi/StrFormatByteSizeA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

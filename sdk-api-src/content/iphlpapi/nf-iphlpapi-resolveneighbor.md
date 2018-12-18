@@ -9,8 +9,6 @@ ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

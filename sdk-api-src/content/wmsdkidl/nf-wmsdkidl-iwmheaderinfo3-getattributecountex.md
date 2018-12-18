@@ -9,8 +9,6 @@ ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCountEx method, IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -138,7 +136,7 @@ The maximum number of attributes for a single stream is 65535, the capacity of t
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
  
 
  

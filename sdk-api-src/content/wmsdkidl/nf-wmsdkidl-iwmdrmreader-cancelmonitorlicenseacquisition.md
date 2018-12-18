@@ -9,8 +9,6 @@ ms.assetid: 9d33f727-9213-4744-bf65-42b971e3f7da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelMonitorLicenseAcquisition, CancelMonitorLicenseAcquisition method [windows Media Format], CancelMonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelMonitorLicenseAcquisition method, IWMDRMReader.CancelMonitorLicenseAcquisition, IWMDRMReader::CancelMonitorLicenseAcquisition, IWMDRMReaderCancelMonitorLicenseAcquisition, wmformat.iwmdrmreader_cancelmonitorlicenseacquisition, wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -55,7 +53,7 @@ req.redist:
 ]
 
 
-The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/0b15dce6-7591-479a-b28e-5006418a1c7b">MonitorLicenseAcquisition</a> method.
+The <b>CancelMonitorLicenseAcquisition</b> method cancels a current call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798353(v=VS.85).aspx">MonitorLicenseAcquisition</a> method.
 
 
 
@@ -90,7 +88,7 @@ This method terminates the thread that periodically checks the license store to 
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
  
 
  

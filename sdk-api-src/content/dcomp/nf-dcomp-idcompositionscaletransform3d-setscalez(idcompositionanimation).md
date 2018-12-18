@@ -9,8 +9,6 @@ ms.assetid: B086983A-C436-4FF9-B8D6-8A00EEB0931C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleZ method, IDCompositionScaleTransform3D.SetScaleZ, IDCompositionScaleTransform3D.SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ, IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation*), SetScaleZ, SetScaleZ method [DirectComposition], SetScaleZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ This method makes a copy of the specified animation. If the object referenced by
 
 
 
-This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
+This method fails if <i>animation</i> is an invalid pointer or if it was not created by the same <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface as the affected visual. The interface cannot be a custom implementation; only interfaces created by Microsoft DirectComposition can be used with this method.
 
 
 
@@ -95,15 +93,15 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/96A7B9EC-7CD9-489F-AB97-A297321BDACD">IDCompositionScaleTransform3D::SetScaleX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449018(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleX</a>
 
 
 
-<a href="https://msdn.microsoft.com/90E48F55-B9A3-464D-9FB2-03AA27AA5A08">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449024(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleY</a>
  
 
  

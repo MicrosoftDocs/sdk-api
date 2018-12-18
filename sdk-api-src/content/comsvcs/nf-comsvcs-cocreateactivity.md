@@ -9,8 +9,6 @@ ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

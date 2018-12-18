@@ -9,8 +9,6 @@ ms.assetid: 7F01EB25-3A44-416F-A926-D185F2FD44EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(const D2D_RECT_F &), IDCompositionVisual::SetClip(const D2D_RECT_F&), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_const_d2d_rect_f_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -109,11 +107,11 @@ If the clip rectangle is empty, the visual is fully clipped; that is, the visual
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

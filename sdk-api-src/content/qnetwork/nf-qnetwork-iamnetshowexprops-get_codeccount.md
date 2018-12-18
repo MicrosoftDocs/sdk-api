@@ -9,8 +9,6 @@ ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
  
 
  

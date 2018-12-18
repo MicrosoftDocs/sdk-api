@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreaterR(uint32_t@,XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorGreaterR, XMVectorGreaterR, XMVectorGreaterR method [DirectX Math Support APIs], dxmath.xmvectorgreaterr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Performs a per-component test for greater-than between two vectors and sets a co
 
 ### -param pCR [out]
 
-Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
+Pointer to a <b>uint32_t</b> comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>. The <code>XMComparisonXXXX</code> functions may be used to further test the number of components that passed the comparison.
 
 
 ### -param V1 [in]
@@ -101,7 +99,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f28155e6-745e-4ed5-ba3b-218f63c18c92">XMVectorGreater</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421155(v=VS.85).aspx">XMVectorGreater</a>
  
 
  

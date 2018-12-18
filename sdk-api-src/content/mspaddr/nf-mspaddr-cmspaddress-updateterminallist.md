@@ -9,8 +9,6 @@ ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
@@ -67,7 +65,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
  
 
  

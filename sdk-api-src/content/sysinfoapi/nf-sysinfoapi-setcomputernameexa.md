@@ -9,8 +9,6 @@ ms.assetid: 12163456-770c-4f9e-9261-a6ea5f2cd93a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, SetComputerNameEx, SetComputerNameEx function, SetComputerNameExA, SetComputerNameExW, _win32_setcomputernameex, base.setcomputernameex, sysinfoapi/SetComputerNameEx, sysinfoapi/SetComputerNameExA, sysinfoapi/SetComputerNameExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

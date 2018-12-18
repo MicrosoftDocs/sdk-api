@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dtexture9__adddirtyrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DTexture9.AddDirtyRect, IDirect3DTexture9::AddDirtyRect, d3d9helper/IDirect3DTexture9::AddDirtyRect, direct3d9.idirect3dtexture9__adddirtyrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

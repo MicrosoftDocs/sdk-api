@@ -9,8 +9,6 @@ ms.assetid: a1bed6bf-9c34-40ab-b5fc-ba870e1f084a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Logging property, IFsrmFileManagementJob.Logging, IFsrmFileManagementJob.put_Logging, IFsrmFileManagementJob::Logging, IFsrmFileManagementJob::get_Logging, IFsrmFileManagementJob::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_logging, fsrm.ifsrmfilemanagementjob_logging, fsrmreports/IFsrmFileManagementJob::Logging, fsrmreports/IFsrmFileManagementJob::get_Logging, fsrmreports/IFsrmFileManagementJob::put_Logging, put_Logging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

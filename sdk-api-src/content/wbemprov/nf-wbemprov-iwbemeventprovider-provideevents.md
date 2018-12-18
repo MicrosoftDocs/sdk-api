@@ -9,8 +9,6 @@ ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemEventProvider interface [Windows Management Instrumentation],ProvideEvents method, IWbemEventProvider.ProvideEvents, IWbemEventProvider::ProvideEvents, ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation],IWbemEventProvider interface, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
@@ -62,8 +60,8 @@ Windows Management calls the
 ### -param pSink [in]
 
 Pointer to the object sink to which the provider will deliver its events. In an event provider implementation, you should use the 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> method to send events through <i>pSink</i>. This is in contrast to other providers that may use the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method: The 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> method to send events through <i>pSink</i>. This is in contrast to other providers that may use the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method: The 
 <b>ProvideEvents</b> method should use only 
 <b>Indicate</b> to update a sink.
 

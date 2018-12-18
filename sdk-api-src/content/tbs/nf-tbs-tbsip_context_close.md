@@ -9,8 +9,6 @@ ms.assetid: 405c600b-f752-48e8-9eea-473fcdf1eb2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip_context_close, tbs/Tbsip_Context_Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

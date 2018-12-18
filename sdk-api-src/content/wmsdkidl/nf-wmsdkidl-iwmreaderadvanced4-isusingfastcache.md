@@ -9,8 +9,6 @@ ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],IsUsingFastCache method, IWMReaderAdvanced4.IsUsingFastCache, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -117,7 +115,7 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_rectd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MIL_RECTD, MIL_RECTD structure [WPF Bitmap Effects], MilRectD, _wibe_mil_rectd, mileffects/MIL_RECTD, wibe._wibe_mil_rectd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 

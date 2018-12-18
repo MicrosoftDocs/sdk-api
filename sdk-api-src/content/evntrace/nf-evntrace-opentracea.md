@@ -9,8 +9,6 @@ ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

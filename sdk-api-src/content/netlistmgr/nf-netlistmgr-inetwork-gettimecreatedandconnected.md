@@ -7,10 +7,8 @@ old-location: nla\inetwork_gettimecreatedandconnected.htm
 tech.root: nla
 ms.assetid: 607ce0be-fe7e-4969-b9d0-db1def054f67
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetTimeCreatedAndConnected, GetTimeCreatedAndConnected method [Network Awareness], GetTimeCreatedAndConnected method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetTimeCreatedAndConnected method, INetwork.GetTimeCreatedAndConnected, INetwork::GetTimeCreatedAndConnected, netlistmgr/INetwork::GetTimeCreatedAndConnected, nla.inetwork_gettimecreatedandconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

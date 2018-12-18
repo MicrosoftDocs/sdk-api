@@ -9,8 +9,6 @@ ms.assetid: a077323e-d04c-4bf7-8aa6-5028fa1c6e6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareSnapshot method, CVssWriter.OnPrepareSnapshot, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

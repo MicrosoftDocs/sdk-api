@@ -9,8 +9,6 @@ ms.assetid: 09e20780-2ebd-417e-9953-421f49dba4dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PushAxisAlignedClip method, ID2D1CommandSink.PushAxisAlignedClip, ID2D1CommandSink::PushAxisAlignedClip, PushAxisAlignedClip, PushAxisAlignedClip method [Direct2D], PushAxisAlignedClip method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PushAxisAlignedClip, direct2d.id2d1commandsink_pushaxisalignedclip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -106,7 +104,7 @@ If the current world transform is not preserving the axis, <i>clipRectangle</i> 
 
 
 
-<a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

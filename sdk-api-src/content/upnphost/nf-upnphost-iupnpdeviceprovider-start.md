@@ -9,8 +9,6 @@ ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceProvider interface [UPnP APIs],Start method, IUPnPDeviceProvider.Start, IUPnPDeviceProvider::Start, Start, Start method [UPnP APIs], Start method [UPnP APIs],IUPnPDeviceProvider interface, _upnp_iupnpdeviceprovider_start, upnp.iupnpdeviceprovider_start, upnphost/IUPnPDeviceProvider::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

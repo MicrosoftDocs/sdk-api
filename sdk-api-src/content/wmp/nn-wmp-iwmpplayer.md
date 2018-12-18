@@ -9,8 +9,6 @@ ms.assetid: ce6aef79-1faa-44ac-a096-f65d09458067
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], IWMPPlayer interface [Windows Media Player],described, IWMPPlayerInterface, wmp.iwmpplayer, wmp/IWMPPlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>IWMPPlayer</b> interface provides methods for modifying the basic behavio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer</b> interface inherits from <a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore</a>. <b>IWMPPlayer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>. <b>IWMPPlayer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMPPlayer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66769441-7923-45d2-b84f-24770537923c">get_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563539(v=VS.85).aspx">get_enableContextMenu</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
@@ -82,7 +80,7 @@ Retrieves a value indicating whether to enable the context menu, which appears w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42dc1774-686c-4336-9a61-b658a75ba257">get_enabled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563540(v=VS.85).aspx">get_enabled</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the Windows Media Player control is enabled.
@@ -91,7 +89,7 @@ Retrieves a value indicating whether the Windows Media Player control is enabled
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a8bb0b5-76c6-424f-ba37-5e913b6ed542">get_fullScreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563541(v=VS.85).aspx">get_fullScreen</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether video content is played back in full-screen mode.
@@ -100,7 +98,7 @@ Retrieves a value indicating whether video content is played back in full-screen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e05342f-812a-4dca-a491-b237f9a9f1bd">get_uiMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563542(v=VS.85).aspx">get_uiMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating which controls are shown in the user interface when Windows Media Player is embedded in a webpage.
@@ -109,7 +107,7 @@ Retrieves a value indicating which controls are shown in the user interface when
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fd79fc3-34c6-4d76-a726-bbf64ee983c9">put_enableContextMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563543(v=VS.85).aspx">put_enableContextMenu</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
@@ -118,7 +116,7 @@ Specifies a value indicating whether to enable the context menu, which appears w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0e29724-1689-4b59-a9bd-b9cc3f391b68">put_enabled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563544(v=VS.85).aspx">put_enabled</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating whether the Windows Media Player control is enabled.
@@ -127,7 +125,7 @@ Specifies a value indicating whether the Windows Media Player control is enabled
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50ce0115-9e49-4431-b818-35bdc34da9a0">put_fullScreen</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563545(v=VS.85).aspx">put_fullScreen</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating whether video content is played back in full-screen mode.
@@ -136,7 +134,7 @@ Specifies a value indicating whether video content is played back in full-screen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/154db914-a0c3-44de-b692-e1b7f9c681f6">put_uiMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563546(v=VS.85).aspx">put_uiMode</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating which controls are shown in the user interface when Windows Media Player is embedded in a webpage.
@@ -154,27 +152,27 @@ Retrieve a pointer to an <b>IWMPPlayer</b> interface by calling the COM <b>CoCre
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f839bfe-bf67-49eb-8743-57713e1be7c5">IWMPCore2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563217(v=VS.85).aspx">IWMPCore2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf51d54d-d0aa-42ad-8180-d1f6487baac8">IWMPPlayer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563515(v=VS.85).aspx">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d8a9414-5c5c-40e0-a34c-430ead01ef26">IWMPPlayer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563521(v=VS.85).aspx">IWMPPlayer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/afe5dbd1-96e1-4abe-b843-ec6130fa02d0">IWMPPlayer4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563522(v=VS.85).aspx">IWMPPlayer4 Interface</a>
 
 
 

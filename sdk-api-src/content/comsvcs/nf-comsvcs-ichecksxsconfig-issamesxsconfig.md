@@ -9,8 +9,6 @@ ms.assetid: 24ea3b88-2364-49e9-88cf-90a6094b9e4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICheckSxsConfig interface [COM+],IsSameSxsConfig method, ICheckSxsConfig.IsSameSxsConfig, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+],ICheckSxsConfig interface, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [COM],IOleInPlaceObjectWindowless interface, IOleInPlaceObjectWindowless interface [COM],GetDropTarget method, IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: B368D997-F409-491A-8578-004C7408A160
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCDC_DEFAULT, DCDC_DISABLE_FONT_UPDATE, DCDC_DISABLE_RELAYOUT, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR, DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR enumeration [High DPI], DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS, DIALOG_SCALING_BEHAVIOR, DIALOG_SCALING_BEHAVIOR enumeration [High DPI], hidpi.dialog_scaling_behavior, winuser/DCDC_DEFAULT, winuser/DCDC_DISABLE_FONT_UPDATE, winuser/DCDC_DISABLE_RELAYOUT, winuser/DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bc738212-ff81-4b52-b2ef-50aabf6658ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupLogFile, SetupLogFile function [Setup API], SetupLogFileA, SetupLogFileW, _setupapi_setuplogfile, setup.setuplogfile, setupapi/SetupLogFile, setupapi/SetupLogFileA, setupapi/SetupLogFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

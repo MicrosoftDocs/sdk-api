@@ -9,8 +9,6 @@ ms.assetid: 3ebf05b9-cc53-43ae-bbcb-7841793a9d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTickCount64, GetTickCount64 function, base.gettickcount64, sysinfoapi/GetTickCount64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
@@ -86,7 +84,7 @@ The resolution of the <b>GetTickCount64</b> function is limited to the resolutio
 
 If you need a higher resolution timer, use a 
 <a href="https://msdn.microsoft.com/25e0b313-64ff-4f30-ae0a-ac364ce3f0cf">multimedia timer</a> or a 
-<a href="_win32_about_timers_cpp">high-resolution timer</a>.
+<a href="https://msdn.microsoft.com/library/ms644900(v=VS.85).aspx">high-resolution timer</a>.
 
 To obtain the time the system has spent in the working state since it was started, use the <a href="https://msdn.microsoft.com/f9cf5440-9be9-4ff9-b85c-2779b847954c">QueryUnbiasedInterruptTime</a> function. 
 

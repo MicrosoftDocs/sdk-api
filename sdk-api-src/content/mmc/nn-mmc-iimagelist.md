@@ -9,8 +9,6 @@ ms.assetid: a957239b-6cb2-4101-adeb-e9ba4f876af4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IImageList, IImageList interface [MMC], IImageList interface [MMC],described, _slate_iimagelist, mmc.iimagelist, mmc/IImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

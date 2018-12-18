@@ -9,8 +9,6 @@ ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessImageFileName, GetProcessImageFileName function [PSAPI], GetProcessImageFileNameA, GetProcessImageFileNameW, K32GetProcessImageFileName, K32GetProcessImageNameA, K32GetProcessImageNameW, _win32_getprocessimagefilename, base.getprocessimagefilename, psapi.getprocessimagefilename, psapi/GetProcessImageFileName, psapi/GetProcessImageFileNameA, psapi/GetProcessImageFileNameW, psapi/K32GetProcessImageFileName, psapi/K32GetProcessImageNameA, psapi/K32GetProcessImageNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

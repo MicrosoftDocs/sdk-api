@@ -9,8 +9,6 @@ ms.assetid: 182C9C5E-ABBC-4A7C-99E4-D019B7E237CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjUpdateFileIfNeeded, PrjUpdateFileIfNeeded function, ProjFS.prjupdatefileifneeded, projectedfslib/PrjUpdateFileIfNeeded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0d0bd09c-ea97-46fb-b7b0-6e3e0a41dbc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

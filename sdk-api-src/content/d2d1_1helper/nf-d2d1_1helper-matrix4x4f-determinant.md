@@ -9,8 +9,6 @@ ms.assetid: 900531EB-F3D4-4971-984E-A355E79D6577
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix4x4F interface, Matrix4x4F interface [Direct2D],Determinant method, Matrix4x4F.Determinant, Matrix4x4F::Determinant, d2d1_1helper/Matrix4x4F::Determinant, direct2d.matrix4x4f_determinant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1helper.h
 req.include-header: 
@@ -76,7 +74,7 @@ The determinant.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

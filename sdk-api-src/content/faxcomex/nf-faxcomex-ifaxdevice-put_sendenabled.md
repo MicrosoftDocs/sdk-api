@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_63ac.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],SendEnabled property, IFaxDevice.SendEnabled, IFaxDevice.get_SendEnabled, IFaxDevice.put_SendEnabled, IFaxDevice::SendEnabled, IFaxDevice::get_SendEnabled, IFaxDevice::put_SendEnabled, SendEnabled property [Fax Service], SendEnabled property [Fax Service],IFaxDevice interface, _mfax_faxdevice.sendenabled, fax._mfax_faxdevice_cpp_mfax_faxdevice_sendenabled_cpp, fax._mfax_faxdevice_sendenabled, faxcomex/IFaxDevice::SendEnabled, faxcomex/IFaxDevice::get_SendEnabled, faxcomex/IFaxDevice::put_SendEnabled, put_SendEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -76,15 +74,15 @@ If this property is equal to <b>TRUE</b>, the fax device is enabled to send faxe
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 08d28857-5460-407d-a169-8568b2c381e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVPNotify interface, IVPNotify interface [DirectShow],GetDeinterlaceMode method, IVPNotify.GetDeinterlaceMode, IVPNotify::GetDeinterlaceMode, IVPNotifyGetDeinterlaceMode, dshow.ivpnotify_getdeinterlacemode, vpnotify/IVPNotify::GetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 
@@ -66,7 +64,7 @@ This method is not currently implemented and returns E_NOTIMPL.
 
 ### -param pMode [out]
 
-Pointer to the retrieved mode. This value is a member of the <a href="https://msdn.microsoft.com/73d63ca2-17fb-4e27-9ea5-62686117254a">AMVP_MODE</a> enumerated data type.
+Pointer to the retrieved mode. This value is a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373453(v=VS.85).aspx">AMVP_MODE</a> enumerated data type.
 
 
 ## -returns
@@ -96,7 +94,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify Interface</a>
  
 
  

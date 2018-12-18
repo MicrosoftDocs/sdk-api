@@ -9,8 +9,6 @@ ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -99,7 +97,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/9e44b248-fc8a-44c1-9da6-8afb7649f6f4">IMSVidStreamBufferSinkEvent2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694647(v=VS.85).aspx">IMSVidStreamBufferSinkEvent2 Interface</a>
  
 
  

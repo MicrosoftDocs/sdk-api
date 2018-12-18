@@ -9,8 +9,6 @@ ms.assetid: 980D2A37-933F-41B1-A975-6BC797E8E770
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPackageTarget, IXpsOMPackageTarget interface [XPS Documents and Packaging], IXpsOMPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsompackagetarget, xpsobjectmodel/IXpsOMPackageTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

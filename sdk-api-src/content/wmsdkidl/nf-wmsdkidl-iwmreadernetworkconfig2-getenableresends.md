@@ -9,8 +9,6 @@ ms.assetid: d39d42c3-7d00-4fb6-8979-2b65d00ac636
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnableResends, GetEnableResends method [windows Media Format], GetEnableResends method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableResends method, IWMReaderNetworkConfig2.GetEnableResends, IWMReaderNetworkConfig2::GetEnableResends, IWMReaderNetworkConfig2GetEnableResends, wmformat.iwmreadernetworkconfig2_getenableresends, wmsdkidl/IWMReaderNetworkConfig2::GetEnableResends
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,11 +120,11 @@ This feature is available only for content streamed from a server running Window
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3bd0e03-eee1-4022-8540-1dcc927d6b5f">IWMReaderNetworkConfig2::SetEnableResends</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743517(v=VS.85).aspx">IWMReaderNetworkConfig2::SetEnableResends</a>
  
 
  

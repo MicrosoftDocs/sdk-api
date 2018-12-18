@@ -9,8 +9,6 @@ ms.assetid: 11d40439-0877-4870-80f8-88026c448a32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cmnquery.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
+The <b>CQPageProc</b> callback function is called by the query dialog box to notify the query form extension of events that occur in a query page. A pointer to this function is supplied to the query dialog box in the <i>pPageProc</i> member of the <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure. <b>CQPageProc</b> is a placeholder for the query form extension-defined function name.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>CQPageProc</b> callback function is called by the query dialog box to not
 
 ### -param pPage
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a> structure that contains data about a query page.
+Pointer to a <a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a> structure that contains data about a query page.
 
 
 ### -param hwnd
@@ -97,11 +95,11 @@ The return value is the result of the message  and depends on the value of the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675750(v=VS.85).aspx">CQAddPagesProc</a>
+<a href="https://msdn.microsoft.com/2b62c1aa-ace7-4083-8eb3-7c5c499762c9">CQAddPagesProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675752(v=VS.85).aspx">CQPAGE</a>
+<a href="https://msdn.microsoft.com/09e407a2-7a58-483d-8422-4ae40c05b742">CQPAGE</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 9b6f3a78-a957-4ebd-a026-a8edb30faa88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRootElement, GetRootElement method [Windows Accessibility], GetRootElement method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElement method, IUIAutomation.GetRootElement, IUIAutomation::GetRootElement, uiauto.uiauto_IUIAutomation_GetRootElement, uiauto_IUIAutomation_GetRootElement, uiautomationclient/IUIAutomation::GetRootElement, winauto.uiauto_IUIAutomation_GetRootElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

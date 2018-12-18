@@ -9,8 +9,6 @@ ms.assetid: 74ece97b-edf9-43f9-9afb-bb946ce13e89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryRetryInterval, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryretryinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

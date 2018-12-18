@@ -9,8 +9,6 @@ ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

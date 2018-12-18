@@ -9,8 +9,6 @@ ms.assetid: 20f0af32-8f4f-4326-ab6a-389dc95be73f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpOidToStr, SnmpOidToStr function [SNMP], _snmp_snmpoidtostr, snmp.snmpoidtostr, winsnmp/SnmpOidToStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The WinSNMP
 ### -param srcOID [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure with an object identifier to convert.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure with an object identifier to convert.
 
 
 ### -param size [in]
@@ -193,7 +191,7 @@ It is recommended that a WinSNMP application specify, with the <i>size</i> param
 
 
 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9c4b86d1-db5b-41cd-9dd4-85a8bb03dd20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(UINT32), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

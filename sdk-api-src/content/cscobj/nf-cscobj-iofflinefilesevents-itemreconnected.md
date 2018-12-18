@@ -7,10 +7,8 @@ old-location: of\iofflinefilesevents_itemreconnected.htm
 tech.root: offlinefiles
 ms.assetid: beafae9d-3ef8-401f-8ab6-79d2ae3366a4
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemReconnected method, IOfflineFilesEvents.ItemReconnected, IOfflineFilesEvents::ItemReconnected, ItemReconnected, ItemReconnected method [Offline Files], ItemReconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemReconnected, of.iofflinefilesevents_itemreconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -66,7 +64,7 @@ The item's UNC path string.
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ## -returns
@@ -83,7 +81,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastpa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+], _gdiplus_STRUC_BrightnessContrastParams, gdiplus._gdiplus_STRUC_BrightnessContrastParams, gdipluseffects/BrightnessContrastParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

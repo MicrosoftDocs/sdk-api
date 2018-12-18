@@ -9,8 +9,6 @@ ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>SetPostViewProps</b> method specifies the format for the specified output
 
 ### -param pOutput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a> interface.
 
 
 ## -returns
@@ -130,7 +128,7 @@ The method was unable to create an internal structure.
 
 It is not possible to resize the video output using postview properties.
 
-<b>SetPostViewProps</b> fails if <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a> has been called. If any postview properties need to be changed, this should be done before calling <b>BeginWriting</b>.
+<b>SetPostViewProps</b> fails if <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a> has been called. If any postview properties need to be changed, this should be done before calling <b>BeginWriting</b>.
 
 
 
@@ -140,11 +138,11 @@ It is not possible to resize the video output using postview properties.
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/39dc32d1-53e5-43b5-bc96-074dc286890e">IWMWriterPostView::GetPostViewProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798778(v=VS.85).aspx">IWMWriterPostView::GetPostViewProps</a>
  
 
  

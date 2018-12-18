@@ -9,8 +9,6 @@ ms.assetid: 8F8655E8-4842-411B-B408-00815B2998A5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportSetupManager2 interface [Windows Deployment Services],TftpCapabilities property, IWdsTransportSetupManager2.TftpCapabilities, IWdsTransportSetupManager2.get_TftpCapabilities, IWdsTransportSetupManager2::TftpCapabilities, IWdsTransportSetupManager2::get_TftpCapabilities, TftpCapabilities property [Windows Deployment Services], TftpCapabilities property [Windows Deployment Services],IWdsTransportSetupManager2 interface, get_TftpCapabilities, wds.iwdstransportsetupmanager2_tftpcapabilities, wdstptmgmt/IWdsTransportSetupManager2::TftpCapabilities, wdstptmgmt/IWdsTransportSetupManager2::get_TftpCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

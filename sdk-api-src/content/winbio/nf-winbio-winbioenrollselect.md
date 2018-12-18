@@ -9,8 +9,6 @@ ms.assetid: 9C06B976-9B60-43B6-B68B-255A6882912B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioEnrollSelect, WinBioEnrollSelect function [Windows Biometric Framework API], secbiomet.winbioenrollselect, winbio/WinBioEnrollSelect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: 

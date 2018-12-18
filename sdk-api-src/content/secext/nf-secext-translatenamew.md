@@ -9,8 +9,6 @@ ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: secext.h
 req.include-header: Security.h
@@ -68,13 +66,13 @@ The name to be translated.
 ### -param AccountNameFormat [in]
 
 The format of the name to be translated. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type.
 
 
 ### -param DesiredNameFormat [in]
 
 The format of the converted name. This parameter is a value from the 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
 
 
 ### -param lpTranslatedName [out]
@@ -128,7 +126,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/1270c412-2fa5-4f5d-a86e-1ab3146c6683">EXTENDED_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms724268(v=VS.85).aspx">EXTENDED_NAME_FORMAT</a>
 
 
 

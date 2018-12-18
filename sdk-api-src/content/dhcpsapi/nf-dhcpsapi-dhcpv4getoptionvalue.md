@@ -9,8 +9,6 @@ ms.assetid: eadb26ec-50d5-474f-b6fe-1a586889bd23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpV4GetOptionValue, DhcpV4GetOptionValue function [DHCP], dhcp.dhcpv4getoptionvalue, dhcpsapi/DhcpV4GetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

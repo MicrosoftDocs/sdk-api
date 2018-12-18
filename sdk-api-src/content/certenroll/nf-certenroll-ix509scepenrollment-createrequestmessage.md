@@ -9,8 +9,6 @@ ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRequestMessage, CreateRequestMessage method [Security], CreateRequestMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRequestMessage method, IX509SCEPEnrollment.CreateRequestMessage, IX509SCEPEnrollment::CreateRequestMessage, certenroll/IX509SCEPEnrollment::CreateRequestMessage, security.ix509scepenrollment_createrequestmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -77,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Dn424981(v=VS.85).aspx">Initialize</a> method before calling this method.
+You must call the <a href="https://msdn.microsoft.com/dcb887ab-c8b7-42e7-8b49-93755d24ba70">Initialize</a> method before calling this method.
 
 
 
@@ -87,7 +85,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Dn424981(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

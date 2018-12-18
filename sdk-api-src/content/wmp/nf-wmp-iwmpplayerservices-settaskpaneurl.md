@@ -9,8 +9,6 @@ ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPaneURL method, IWMPPlayerServices.setTaskPaneURL, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -140,11 +138,11 @@ This method is used only when remoting the Windows Media Player control. This me
 
 
 
-<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b34ec95-d9a3-4135-b369-39955199ac00">IWMPPlayerServices::setTaskPane</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563537(v=VS.85).aspx">IWMPPlayerServices::setTaskPane</a>
 
 
 

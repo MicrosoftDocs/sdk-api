@@ -9,8 +9,6 @@ ms.assetid: 5e019e0e-81f7-4eb9-9ddb-e20e7e216e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Reset method, IEnumGuideDataProperties.Reset, IEnumGuideDataProperties::Reset, IEnumGuideDataPropertiesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Reset, mstv.ienumguidedataproperties_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
@@ -96,11 +94,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693993(v=VS.85).aspx">IEnumGuideDataProperties Interface</a>
+<a href="https://msdn.microsoft.com/ae4db426-7e90-4cb6-b53a-2cb7074308fc">IEnumGuideDataProperties Interface</a>
  
 
  

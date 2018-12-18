@@ -9,8 +9,6 @@ ms.assetid: 3580935d-ab7e-4409-b4ac-58f3c6019514
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventDescSetChannel, EventDescSetChannel function [ETW], base.eventdescsetchannel_func, etw.eventdescsetchannel_func, evntprov/EventDescSetChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

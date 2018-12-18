@@ -9,8 +9,6 @@ ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

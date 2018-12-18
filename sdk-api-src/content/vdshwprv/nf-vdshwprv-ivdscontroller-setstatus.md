@@ -9,8 +9,6 @@ ms.assetid: f9bae451-ef47-46ad-a11e-b7b36a031a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsController interface [VDS],SetStatus method, IVdsController.SetStatus, IVdsController::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsController interface, base.ivdscontroller_setstatus, vds/IVdsController::SetStatus, vdshwprv/IVdsController::SetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

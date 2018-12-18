@@ -9,8 +9,6 @@ ms.assetid: 55da3443-ad5b-469d-a493-0e2e8ea21f0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceIcon, GetDeviceIcon method [windows Media Device Manager], GetDeviceIcon method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetDeviceIcon method, IWMDMDevice.GetDeviceIcon, IWMDMDevice::GetDeviceIcon, IWMDMDeviceGetDeviceIcon, mswmdm/IWMDMDevice::GetDeviceIcon, wmdm.iwmdmdevice_getdeviceicon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

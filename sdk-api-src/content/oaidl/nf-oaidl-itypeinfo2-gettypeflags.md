@@ -9,8 +9,6 @@ ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

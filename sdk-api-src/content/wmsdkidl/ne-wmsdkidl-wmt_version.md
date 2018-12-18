@@ -9,8 +9,6 @@ ms.assetid: 9ee414c6-49aa-42ad-9310-52f54b23e712
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_VERSION, WMT_VERSION enumeration [windows Media Format], WMT_VER_4_0, WMT_VER_7_0, WMT_VER_8_0, WMT_VER_9_0, wmformat.wmt_version, wmsdkidl/WMT_VERSION, wmsdkidl/WMT_VER_4_0, wmsdkidl/WMT_VER_7_0, wmsdkidl/WMT_VER_8_0, wmsdkidl/WMT_VER_9_0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

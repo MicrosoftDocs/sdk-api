@@ -9,8 +9,6 @@ ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

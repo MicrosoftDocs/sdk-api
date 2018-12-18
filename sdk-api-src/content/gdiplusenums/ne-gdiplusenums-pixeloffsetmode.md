@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pixeloffsetmode.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PixelOffsetMode, PixelOffsetMode enumeration [GDI+], PixelOffsetModeDefault, PixelOffsetModeHalf, PixelOffsetModeHighQuality, PixelOffsetModeHighSpeed, PixelOffsetModeInvalid, PixelOffsetModeNone, _gdiplus_ENUM_PixelOffsetMode, gdiplus._gdiplus_ENUM_PixelOffsetMode, gdiplusenums/PixelOffsetMode, gdiplusenums/PixelOffsetModeDefault, gdiplusenums/PixelOffsetModeHalf, gdiplusenums/PixelOffsetModeHighQuality, gdiplusenums/PixelOffsetModeHighSpeed, gdiplusenums/PixelOffsetModeInvalid, gdiplusenums/PixelOffsetModeNone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

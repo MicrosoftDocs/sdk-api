@@ -9,8 +9,6 @@ ms.assetid: 155b847b-81c0-4065-ae00-ca0b64cdd537
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemProfileVersion, GetSystemProfileVersion method [windows Media Format], GetSystemProfileVersion method [windows Media Format],IWMProfileManager2 interface, IWMProfileManager2 interface [windows Media Format],GetSystemProfileVersion method, IWMProfileManager2.GetSystemProfileVersion, IWMProfileManager2::GetSystemProfileVersion, IWMProfileManager2GetSystemProfileVersion, wmformat.iwmprofilemanager2_getsystemprofileversion, wmsdkidl/IWMProfileManager2::GetSystemProfileVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>GetSystemProfileVersion</b> method retrieves the version number of the sy
 
 ### -param pdwVersion
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a> enumeration type.
+Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type.
 
 
 ## -returns
@@ -92,11 +90,11 @@ Because there are no system profiles for the Windows Media 9 Series codecs, this
 
 
 
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd957f3b-401c-4ab1-9c54-7b4ac895caac">IWMProfileManager2::SetSystemProfileVersion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757388(v=VS.85).aspx">IWMProfileManager2::SetSystemProfileVersion</a>
  
 
  

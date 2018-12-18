@@ -9,8 +9,6 @@ ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amparse.h
 req.include-header: 
@@ -76,7 +74,7 @@ The <b>IAMParse</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ff33099-3dc4-4f43-8852-4bd6a8877f29">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319751(v=VS.85).aspx">Flush</a>
 </td>
 <td align="left" width="63%">
 Empties the current file buffer.
@@ -85,7 +83,7 @@ Empties the current file buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce87e39e-1e5d-4098-8431-ea9b3188784e">GetParseTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319752(v=VS.85).aspx">GetParseTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream parse time.
@@ -94,7 +92,7 @@ Retrieves the current stream parse time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52c53994-7cb7-4f50-a00d-87faa309c717">SetParseTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319753(v=VS.85).aspx">SetParseTime</a>
 </td>
 <td align="left" width="63%">
 Sets the current stream parse time.

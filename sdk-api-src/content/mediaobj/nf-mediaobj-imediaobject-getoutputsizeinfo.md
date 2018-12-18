@@ -9,8 +9,6 @@ ms.assetid: 497bc88e-4e26-409f-9d42-6a214a5d56e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputSizeInfo method, IMediaObject.GetOutputSizeInfo, IMediaObject::GetOutputSizeInfo, IMediaObjectGetOutputSizeInfo, dshow.imediaobject_getoutputsizeinfo, mediaobj/IMediaObject::GetOutputSizeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -133,7 +131,7 @@ Success.
 
 The buffer requirements may depend on the media types set for each of the streams.
 
-Before calling this method, set the media type of each stream by calling the <a href="https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1">IMediaObject::SetInputType</a> and <a href="https://msdn.microsoft.com/1dda3c55-d37b-4e04-9509-0e5197d6b019">IMediaObject::SetOutputType</a> methods. If the media types have not been set, this method might return an error. However, if a stream is optional, and the application will not use the stream, you do not have to set the media type for the stream.
+Before calling this method, set the media type of each stream by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx">IMediaObject::SetInputType</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx">IMediaObject::SetOutputType</a> methods. If the media types have not been set, this method might return an error. However, if a stream is optional, and the application will not use the stream, you do not have to set the media type for the stream.
 
 A buffer is <i>aligned</i> if the buffer's start address is a multiple of <i>*pcbAlignment</i>. Depending on the architecture of the microprocessor, it is faster to read and write to an aligned buffer than to an unaligned buffer. On some microprocessors, reading and writing to an unaligned buffer is not supported and can cause the program to crash. Zero is not a valid alignment.
 
@@ -145,7 +143,7 @@ A buffer is <i>aligned</i> if the buffer's start address is a multiple of <i>*pc
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

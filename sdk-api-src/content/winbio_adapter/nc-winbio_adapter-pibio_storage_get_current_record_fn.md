@@ -9,8 +9,6 @@ ms.assetid: a06550da-c6ea-44e5-b54f-8005bcbc0364
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_GET_CURRENT_RECORD_FN, PIBIO_STORAGE_GET_CURRENT_RECORD_FN callback, StorageAdapterGetCurrentRecord, StorageAdapterGetCurrentRecord callback function [Windows Biometric Framework API], secbiomet.storageadaptergetcurrentrecord, winbio_adapter/StorageAdapterGetCurrentRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

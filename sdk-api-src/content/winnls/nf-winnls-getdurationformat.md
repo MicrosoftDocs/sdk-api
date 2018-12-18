@@ -9,8 +9,6 @@ ms.assetid: bd3e1256-8f0c-488b-9b2f-ca93ffcbad84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDurationFormat, GetDurationFormat function [Internationalization for Windows Applications], _win32_GetDurationFormat, intl.getdurationformat, winnls/GetDurationFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 895a8564-5f06-4e20-abcc-d960d4002eb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimpleAudioVolume interface [Core Audio],SetMasterVolume method, ISimpleAudioVolume.SetMasterVolume, ISimpleAudioVolume::SetMasterVolume, ISimpleAudioVolumeSetMasterVolume, SetMasterVolume, SetMasterVolume method [Core Audio], SetMasterVolume method [Core Audio],ISimpleAudioVolume interface, audioclient/ISimpleAudioVolume::SetMasterVolume, coreaudio.isimpleaudiovolume_setmastervolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

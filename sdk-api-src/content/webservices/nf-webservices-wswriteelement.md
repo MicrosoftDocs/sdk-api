@@ -9,8 +9,6 @@ ms.assetid: 5416d167-b832-4815-9826-6128f68dbc02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteElement, WsWriteElement function [Web Services for Windows], webservices/WsWriteElement, wsw.wswriteelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -74,7 +72,7 @@ A pointer to a description of how to serialize the element.
 ### -param writeOption [in]
 
 Information about how the value is allocated.
-                    See <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> for more information.
                 
 
 

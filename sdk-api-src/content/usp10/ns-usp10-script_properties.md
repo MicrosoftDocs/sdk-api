@@ -1,5 +1,5 @@
 ---
-UID: NS:usp10.SCRIPT_PROPERTIES
+UID: NS:usp10.__unnamed_struct_0
 title: SCRIPT_PROPERTIES
 author: windows-sdk-content
 description: Contains information about special processing for each script.
@@ -7,10 +7,8 @@ old-location: intl\script_properties.htm
 tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

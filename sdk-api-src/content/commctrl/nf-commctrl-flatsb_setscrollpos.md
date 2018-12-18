@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollpos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlatSB_SetScrollPos, FlatSB_SetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_SetScrollPos, _win32_FlatSB_SetScrollPos_cpp, commctrl/FlatSB_SetScrollPos, controls.FlatSB_SetScrollPos, controls._win32_FlatSB_SetScrollPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the current position of the thumb in a flat scroll bar. If flat scroll bars
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
 
@@ -109,7 +107,7 @@ The new thumb position.
 
 ### -param fRedraw
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether the scroll bar should be redrawn immediately to reflect the change. If this parameter is <b>TRUE</b>, the scroll bar is redrawn; if it is <b>FALSE</b>, the scroll bar is not redrawn. 
 

@@ -9,8 +9,6 @@ ms.assetid: 88139383-f5d5-4e42-b41e-ea754a89356d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanHostedNetworkSetProperty, WlanHostedNetworkSetProperty function [NativeWIFI], nwifi.wlanhostednetworksetproperty, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlanapi/WlanHostedNetworkSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

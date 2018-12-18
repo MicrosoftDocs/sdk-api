@@ -9,8 +9,6 @@ ms.assetid: 82776e61-03bb-463b-8767-fa4f70fe1341
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptEnumContextFunctionProviders, BCryptEnumContextFunctionProviders function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptEnumContextFunctionProviders, security.bcryptenumcontextfunctionproviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
@@ -131,7 +129,7 @@ Retrieve the cipher function providers.
 </dl>
 </td>
 <td width="60%">
-Retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">hash</a> function providers.
+Retrieve the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> function providers.
 
 </td>
 </tr>
@@ -203,7 +201,7 @@ After this function returns, this value contains the number of bytes that were c
 
 ### -param ppBuffer [in, out]
 
-The address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa376223(v=VS.85).aspx">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
+The address of a pointer to a <a href="https://msdn.microsoft.com/5e175ac2-38eb-44c4-a01a-fb436e833546">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a> structure that receives the set of context function providers retrieved by this function. The value pointed to by the <i>pcbBuffer</i> parameter contains the size of this buffer.
 
 If the value pointed to by this parameter is <b>NULL</b>, this function will allocate the required memory. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
 
@@ -408,7 +406,7 @@ NTSTATUS EnumContextFunctionProviders()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376223(v=VS.85).aspx">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>
+<a href="https://msdn.microsoft.com/5e175ac2-38eb-44c4-a01a-fb436e833546">CRYPT_CONTEXT_FUNCTION_PROVIDERS</a>
  
 
  

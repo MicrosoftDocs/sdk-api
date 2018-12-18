@@ -9,8 +9,6 @@ ms.assetid: 28019037-15ed-4d72-bd85-d6aca3c3ca75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpControlHook, DhcpControlHook callback function [DHCP], LPDHCP_CONTROL, LPDHCP_CONTROL callback, _dhcp_dhcpcontrolhook, dhcp.dhcpcontrolhook, dhcpssdk/DhcpControlHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -121,7 +119,7 @@ If the method fails, it stops the graph before returning.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

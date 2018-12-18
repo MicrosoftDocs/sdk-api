@@ -9,8 +9,6 @@ ms.assetid: 395AC591-3D63-4990-98A7-FA154B6A000F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocality method, IDWriteRemoteFontFileStream.GetLocality, IDWriteRemoteFontFileStream::GetLocality, directwrite.idwriteremotefontfilestream_getlocality, dwrite_3/IDWriteRemoteFontFileStream::GetLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -65,7 +63,7 @@ Gets the current locality of the file.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a></b>
 
 Returns the current locality (i.e., remote, partial, or local).
 
@@ -77,7 +75,7 @@ Returns the current locality (i.e., remote, partial, or local).
 
 
 
-<a href="https://msdn.microsoft.com/2CC73CE0-162A-4808-ACB6-A9599FD4D09F">IDWriteRemoteFontFileStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807699(v=VS.85).aspx">IDWriteRemoteFontFileStream</a>
  
 
  

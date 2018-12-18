@@ -9,8 +9,6 @@ ms.assetid: 1cfc653f-b552-4f38-9ca1-457ab4de3598
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],RegisterTIFEx method, IBDA_TIF_REGISTRATION.RegisterTIFEx, IBDA_TIF_REGISTRATION::RegisterTIFEx, IBDA_TIF_REGISTRATIONRegisterTIFEx, RegisterTIFEx, RegisterTIFEx method [Microsoft TV Technologies], RegisterTIFEx method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::RegisterTIFEx, mstv.ibda_tif_registration_registertifex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
@@ -90,7 +88,7 @@ The method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693443(v=VS.85).aspx">IBDA_TIF_REGISTRATION Interface</a>
+<a href="https://msdn.microsoft.com/96c76a81-57c9-4c4b-a5f6-7b9862757847">IBDA_TIF_REGISTRATION Interface</a>
  
 
  

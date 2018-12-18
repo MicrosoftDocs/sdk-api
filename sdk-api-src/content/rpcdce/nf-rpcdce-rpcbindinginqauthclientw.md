@@ -9,8 +9,6 @@ ms.assetid: 2834a6a8-8bd6-4829-84ea-e3f35c917ab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingInqAuthClient, RpcBindingInqAuthClient function [RPC], RpcBindingInqAuthClientA, RpcBindingInqAuthClientW, _rpc_rpcbindinginqauthclient, rpc.rpcbindinginqauthclient, rpcdce/RpcBindingInqAuthClient, rpcdce/RpcBindingInqAuthClientA, rpcdce/RpcBindingInqAuthClientW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

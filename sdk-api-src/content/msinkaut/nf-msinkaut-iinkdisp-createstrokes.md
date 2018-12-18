@@ -9,8 +9,6 @@ ms.assetid: 21e68151-38c9-414f-840c-c2687a05aea4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 21e68151-38c9-414f-840c-c2687a05aea4, CreateStrokes, CreateStrokes method [Tablet PC], CreateStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStrokes method, IInkDisp.CreateStrokes, IInkDisp::CreateStrokes, msinkaut/IInkDisp::CreateStrokes, tablet.inkdisp_createstrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -171,7 +169,7 @@ If the <i>ids</i> parameter is <b>NULL</b> or an empty array, then an empty <a h
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

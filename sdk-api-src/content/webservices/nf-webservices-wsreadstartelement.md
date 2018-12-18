@@ -9,8 +9,6 @@ ms.assetid: 88661ae5-2112-4a41-8fcd-03c74f6ec170
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadStartElement, WsReadStartElement function [Web Services for Windows], webservices/WsReadStartElement, wsw.wsreadstartelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

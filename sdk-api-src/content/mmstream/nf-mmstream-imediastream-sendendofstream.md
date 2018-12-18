@@ -9,8 +9,6 @@ ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaStream interface [DirectShow],SendEndOfStream method, IMediaStream.SendEndOfStream, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow],IMediaStream interface, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -91,7 +89,7 @@ Applications do not call this internal method.
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

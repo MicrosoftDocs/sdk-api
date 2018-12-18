@@ -9,8 +9,6 @@ ms.assetid: 60ED145A-7712-43b7-A2AD-C366DD32E19E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
@@ -60,9 +58,9 @@ Retrieves the property coordinates stored in a <a href="https://msdn.microsoft.c
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -104,7 +102,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845074(v=VS.85).aspx">PSPropertyBag_WritePOINTS</a>
+<a href="shell.PSPropertyBag_WritePOINTS">PSPropertyBag_WritePOINTS</a>
  
 
  

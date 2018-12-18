@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_6uuq.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSender interface [Fax Service],SaveDefaultSender method, IFaxSender.SaveDefaultSender, IFaxSender::SaveDefaultSender, SaveDefaultSender, SaveDefaultSender method [Fax Service], SaveDefaultSender method [Fax Service],IFaxSender interface, _mfax_faxsender.savedefaultsender, fax._mfax_faxsender_cpp_mfax_faxsender_savedefaultsender_cpp, fax._mfax_faxsender_savedefaultsender, faxcomex/IFaxSender::SaveDefaultSender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxSender::SaveDefaultSender</b> method stores information about the default sender from the <a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a> object.
+The <b>IFaxSender::SaveDefaultSender</b> method stores information about the default sender from the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object.
 
 
 ## -parameters
@@ -76,9 +74,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To load the default sender information into a <a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a> object, use the <a href="https://msdn.microsoft.com/c41343c0-2d97-4bc5-ba22-a7dfec5cb336">IFaxSender::get_LoadDefaultSender</a> method.
+To load the default sender information into a <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object, use the <a href="https://msdn.microsoft.com/en-us/library/ms690195(v=VS.85).aspx">IFaxSender::get_LoadDefaultSender</a> method.
 
-This method can return remote procedure call (RPC) return values. For more information, see <a href="_rpc_rpc_return_values">RPC Return Values</a>.
+This method can return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
 
 
 
@@ -88,15 +86,15 @@ This method can return remote procedure call (RPC) return values. For more infor
 
 
 
-<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687533(v=VS.85).aspx">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

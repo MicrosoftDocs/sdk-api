@@ -9,8 +9,6 @@ ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

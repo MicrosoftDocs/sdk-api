@@ -9,8 +9,6 @@ ms.assetid: e37d1d96-27c3-415a-ac85-ab4b94dbc688
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_count method, IWMPPlaylist.get_count, IWMPPlaylist::get_count, IWMPPlaylistget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_count, wmp/IWMPPlaylist::get_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

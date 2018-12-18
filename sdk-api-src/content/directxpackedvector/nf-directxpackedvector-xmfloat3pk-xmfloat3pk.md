@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK::XMFLOAT3PK, dxmath.xmfloat3pk_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMFLOAT3PK</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-a
 
 
 
-<a href="https://msdn.microsoft.com/40b3df37-d1c1-43fe-afcb-cbac4d9b6564">XMFLOAT3PK</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee2cc939-ce97-47dd-a24d-1b35d2f145fe">XMFLOAT3PK Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
  
 
  

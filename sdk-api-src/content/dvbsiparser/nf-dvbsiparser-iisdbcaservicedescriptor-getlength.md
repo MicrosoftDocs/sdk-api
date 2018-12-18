@@ -9,8 +9,6 @@ ms.assetid: dfa6a372-8e9f-4f38-80ea-ad27c9423cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAServiceDescriptor.GetLength, IIsdbCAServiceDescriptor::GetLength, dvbsiparser/IIsdbCAServiceDescriptor::GetLength, mstv.iisdbcaservicedescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

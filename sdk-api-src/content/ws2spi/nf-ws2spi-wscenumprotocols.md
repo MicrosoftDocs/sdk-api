@@ -9,8 +9,6 @@ ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

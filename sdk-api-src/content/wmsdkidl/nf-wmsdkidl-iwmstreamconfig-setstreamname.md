@@ -9,8 +9,6 @@ ms.assetid: 90ab1591-eee7-4504-8d7f-475d90fa3b40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamName method, IWMStreamConfig.SetStreamName, IWMStreamConfig::SetStreamName, IWMStreamConfigSetStreamName, SetStreamName, SetStreamName method [windows Media Format], SetStreamName method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamname, wmsdkidl/IWMStreamConfig::SetStreamName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -114,7 +112,7 @@ The <i>pwszStreamName</i> parameter is <b>NULL</b>.
 
 This method is purely for the convenience of the developer during profile manipulation and file writing. The name assigned using this method is not stored in the header section of ASF files created using the profile and is therefore not available through the reader object or synchronous reader object.
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -124,11 +122,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/86c65cfe-d482-461b-a187-ce1ce9a30609">IWMStreamConfig::GetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">IWMStreamConfig::GetStreamName</a>
  
 
  

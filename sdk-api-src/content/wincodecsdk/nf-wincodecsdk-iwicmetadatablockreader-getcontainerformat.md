@@ -9,8 +9,6 @@ ms.assetid: b53e6b4e-e5b9-4e4a-b10b-443e3ca2d689
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataBlockReader.GetContainerFormat, IWICMetadataBlockReader::GetContainerFormat, _wic_codec_iwicmetadatablockreader_getcontainerformat, wic._wic_codec_iwicmetadatablockreader_getcontainerformat, wincodecsdk/IWICMetadataBlockReader::GetContainerFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

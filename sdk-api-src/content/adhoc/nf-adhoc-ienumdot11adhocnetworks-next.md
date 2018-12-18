@@ -9,8 +9,6 @@ ms.assetid: a695c8dd-5bde-41ff-8214-046e0a8cc26f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Next method, IEnumDot11AdHocNetworks.Next, IEnumDot11AdHocNetworks::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Next, nwifi.ienumdot11adhocnetworks_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

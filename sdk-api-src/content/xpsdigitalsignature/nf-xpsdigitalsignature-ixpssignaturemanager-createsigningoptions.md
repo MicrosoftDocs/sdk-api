@@ -9,8 +9,6 @@ ms.assetid: 0f64f46a-905a-48cf-9e7a-f6cc1b2d6450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [XPS Documents and Packaging], CreateSigningOptions method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],CreateSigningOptions method, IXpsSignatureManager.CreateSigningOptions, IXpsSignatureManager::CreateSigningOptions, xps.ixpssignaturemanager_createsigningoptions, xpsdigitalsignature/IXpsSignatureManager::CreateSigningOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 77664778-5be3-45b7-9d33-37c923070080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put__VideoAnalysisFilter method, IMSVidStreamBufferSink3.put__VideoAnalysisFilter, IMSVidStreamBufferSink3::put__VideoAnalysisFilter, IMSVidStreamBufferSink3put__VideoAnalysisFilter, mstv.imsvidstreambuffersink3_put__videoanalysisfilter, put__VideoAnalysisFilter, put__VideoAnalysisFilter method [Microsoft TV Technologies], put__VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put__VideoAnalysisFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -83,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5768936b-9c0a-4177-82da-cc6ebe62ea67">IMSVidStreamBufferSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694627(v=VS.85).aspx">IMSVidStreamBufferSink3 Interface</a>
  
 
  

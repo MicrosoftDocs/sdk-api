@@ -9,8 +9,6 @@ ms.assetid: da3987a5-b40f-49eb-9930-0162cf64d6a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGradientStops1, GetGradientStops1 method [Direct2D], GetGradientStops1 method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetGradientStops1 method, ID2D1GradientStopCollection1.GetGradientStops1, ID2D1GradientStopCollection1::GetGradientStops1, d2d1_1/ID2D1GradientStopCollection1::GetGradientStops1, direct2d.id2d1gradientstopcollection1_getgradientstops1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -85,7 +83,7 @@ This method does not return a value.
 
 
 
-If the <a href="https://msdn.microsoft.com/aa423e18-c6b5-4587-b044-deda00a84615">ID2D1GradientStopCollection1</a> object was created using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1DeviceContext::CreateGradientStopCollection</a>, this method returns the same values specified in the creation method. If the <b>ID2D1GradientStopCollection1</b> object was created using <b>ID2D1RenderTarget::CreateGradientStopCollection</b>, the stops returned here will first be transformed into the gamma space specified by the <i>colorInterpolationGamma</i> parameter. See the <a href="https://msdn.microsoft.com/6374fc62-1f54-4112-8ba3-9c1167bf8685">ID2D1DeviceContext::CreateGradientStopCollection</a>  method for more info about color space and gamma space.
+If the <a href="https://msdn.microsoft.com/aa423e18-c6b5-4587-b044-deda00a84615">ID2D1GradientStopCollection1</a> object was created using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1DeviceContext::CreateGradientStopCollection</a>, this method returns the same values specified in the creation method. If the <b>ID2D1GradientStopCollection1</b> object was created using <b>ID2D1RenderTarget::CreateGradientStopCollection</b>, the stops returned here will first be transformed into the gamma space specified by the <i>colorInterpolationGamma</i> parameter. See the <a href="https://msdn.microsoft.com/6374fc62-1f54-4112-8ba3-9c1167bf8685">ID2D1DeviceContext::CreateGradientStopCollection</a>  method for more info about color space and gamma space.
 
 If <i>gradientStopsCount</i> is less than the number of gradient stops in the collection, the remaining gradient stops are omitted. If <i>gradientStopsCount</i> is larger than the number of gradient stops in the collection, the extra gradient stops are set to <b>NULL</b>. To obtain the number of gradient stops in the collection, use the <a href="https://msdn.microsoft.com/1c3ef4b0-e781-4177-81a4-b39add8468a0">GetGradientStopCount</a> method.
 
@@ -109,7 +107,7 @@ If <i>gradientStopsCount</i> is less than the number of gradient stops in the co
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

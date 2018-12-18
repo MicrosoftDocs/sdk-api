@@ -9,8 +9,6 @@ ms.assetid: 7167fcac-b0c8-444e-a6a9-7ff9a603cc58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Saturation method, IVideoProcAmp.put_Saturation, IVideoProcAmp::put_Saturation, IVideoProcAmpput_Saturation, dshow.ivideoprocamp_put_saturation, put_Saturation, put_Saturation method [DirectShow], put_Saturation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Saturation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Specifies the saturation setting. Larger values indicate greater saturation. The
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

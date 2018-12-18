@@ -9,8 +9,6 @@ ms.assetid: d8d849b7-6acf-4007-a904-144200c934f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadXmlBuffer, WsReadXmlBuffer function [Web Services for Windows], webservices/WsReadXmlBuffer, wsw.wsreadxmlbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -137,14 +135,14 @@ A quota was exceeded.
 
 
 
-If the reader must be positioned at either <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE_BOF</a>, or <b>WS_XML_NODE_TYPE_ELEMENT</b>.
+If the reader must be positioned at either <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE_BOF</a>, or <b>WS_XML_NODE_TYPE_ELEMENT</b>.
       
 
-If the reader is positioned at <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE_BOF</a>, then the entire document will be copied from the
+If the reader is positioned at <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE_BOF</a>, then the entire document will be copied from the
         reader into the XML buffer.
       
 
-If the reader is positioned at <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE_ELEMENT</a>, then the element and all its children will be
+If the reader is positioned at <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE_ELEMENT</a>, then the element and all its children will be
         read into the XML buffer.
       
 

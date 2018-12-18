@@ -9,8 +9,6 @@ ms.assetid: 36bf82e0-f3e7-43cf-943f-eed783ad24a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetViewportExtEx, SetViewportExtEx function [Windows GDI], _win32_SetViewportExtEx, gdi.setviewportextex, wingdi/SetViewportExtEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

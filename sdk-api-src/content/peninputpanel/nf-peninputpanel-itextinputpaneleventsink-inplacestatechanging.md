@@ -9,8 +9,6 @@ ms.assetid: 866fcd8d-775c-4dc0-824f-6817767247d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 866fcd8d-775c-4dc0-824f-6817767247d9, ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanging method, ITextInputPanelEventSink.InPlaceStateChanging, ITextInputPanelEventSink::InPlaceStateChanging, InPlaceStateChanging, InPlaceStateChanging method [Tablet PC], InPlaceStateChanging method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanging, tablet.itextinputpaneleventsink_inplacestatechanging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

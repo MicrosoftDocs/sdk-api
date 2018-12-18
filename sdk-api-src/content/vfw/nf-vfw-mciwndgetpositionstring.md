@@ -9,8 +9,6 @@ ms.assetid: ccca1ec7-a523-4a36-bc81-9cb25cfa3aa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetPositionString, MCIWndGetPositionString macro [Windows Multimedia], _win32_MCIWndGetPositionString, multimedia.mciwndgetpositionstring, vfw/MCIWndGetPositionString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

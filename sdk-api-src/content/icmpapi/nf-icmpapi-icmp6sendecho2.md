@@ -9,8 +9,6 @@ ms.assetid: 622c769b-ede8-4bc2-ac54-98de47ae1fed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Icmp6SendEcho2, Icmp6SendEcho2 function [IP Helper], icmpapi/Icmp6SendEcho2, iphlp.icmp6sendecho2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: icmpapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1C86075D-17B8-481E-BDF0-6E5A8F55C188
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_PRESERVE_PLACEHOLDER, MEM_UNMAP_WITH_TRANSIENT_BOOST, UnmapViewOfFileEx, UnmapViewOfFileEx function, base.unmapviewoffileex, winbase/UnmapViewOfFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

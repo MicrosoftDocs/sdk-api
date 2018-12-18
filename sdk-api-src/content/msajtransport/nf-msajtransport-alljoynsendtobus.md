@@ -9,8 +9,6 @@ ms.assetid: 8D941DB8-AA73-472B-92E2-85EA72BD9A40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllJoynSendToBus, AllJoynSendToBus function [AllJoyn API], alljoyn.alljoynsendtobus, msajtransport/AllJoynSendToBus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 

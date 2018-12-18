@@ -9,8 +9,6 @@ ms.assetid: e345e860-247a-4c30-876b-c0e6c82767b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IISDB_CDT.GetTableDescriptorByIndex, IISDB_CDT::GetTableDescriptorByIndex, dvbsiparser/IISDB_CDT::GetTableDescriptorByIndex, mstv.iisdb_cdt_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -67,7 +65,7 @@ Specifies which descriptor to retrieve, indexed from zero. Call the <a href="htt
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface implemented by the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface implemented by the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -84,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
 
 
 

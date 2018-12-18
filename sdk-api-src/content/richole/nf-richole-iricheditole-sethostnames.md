@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetHostNames method, IRichEditOle.SetHostNames, IRichEditOle::SetHostNames, SetHostNames, SetHostNames method [Windows Controls], SetHostNames method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetHostNames, _win32_IRichEditOle_SetHostNames_cpp, controls.IRichEditOle_SetHostNames, controls._win32_IRichEditOle_SetHostNames, richole/IRichEditOle::SetHostNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

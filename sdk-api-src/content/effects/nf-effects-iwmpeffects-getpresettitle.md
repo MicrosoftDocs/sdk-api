@@ -9,8 +9,6 @@ ms.assetid: 73e80221-2170-4724-b902-5c30796cb6a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsGetPresetTitle, GetPresetTitle, GetPresetTitle method [Windows Media Player], GetPresetTitle method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetPresetTitle method, IWMPEffects.GetPresetTitle, IWMPEffects::GetPresetTitle, effects/IWMPEffects::GetPresetTitle, wmp.iwmpeffects_getpresettitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -94,7 +92,7 @@ Called by Windows Media Player to obtain the title of a given preset.
 
 
 
-<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
  
 
  

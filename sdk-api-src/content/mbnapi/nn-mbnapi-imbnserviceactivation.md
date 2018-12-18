@@ -9,8 +9,6 @@ ms.assetid: cf23be24-f7a8-41b9-81f1-c267a265f85b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnServiceActivation, IMbnServiceActivation interface [Microsoft Broadband Networks], IMbnServiceActivation interface [Microsoft Broadband Networks],described, mbn.imbnserviceactivation, mbnapi/IMbnServiceActivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

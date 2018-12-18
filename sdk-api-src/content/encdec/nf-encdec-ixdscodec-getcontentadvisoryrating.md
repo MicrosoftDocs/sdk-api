@@ -9,8 +9,6 @@ ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

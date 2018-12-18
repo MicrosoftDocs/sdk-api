@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextServices interface [Windows Controls],TxGetDropTarget method, ITextServices.TxGetDropTarget, ITextServices::TxGetDropTarget, TxGetDropTarget, TxGetDropTarget method [Windows Controls], TxGetDropTarget method [Windows Controls],ITextServices interface, _win32_ITextServices_TxGetDropTarget, _win32_ITextServices_TxGetDropTarget_cpp, controls.ITextServices_TxGetDropTarget, controls._win32_ITextServices_TxGetDropTarget, textserv/ITextServices::TxGetDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

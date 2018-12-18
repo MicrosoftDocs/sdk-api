@@ -9,8 +9,6 @@ ms.assetid: 2426058f-312c-4946-ac12-52e55a3307b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteLogByHandle, DeleteLogByHandle function [Files], clfsw32/DeleteLogByHandle, fs.deletelogbyhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

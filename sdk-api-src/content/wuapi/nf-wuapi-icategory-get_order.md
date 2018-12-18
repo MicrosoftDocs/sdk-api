@@ -9,8 +9,6 @@ ms.assetid: c4b56946-89e2-48ea-8bec-318d12c23a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICategory interface [Windows Update Agent],Order property, ICategory.Order, ICategory.get_Order, ICategory::Order, ICategory::get_Order, Order property [Windows Update Agent], Order property [Windows Update Agent],ICategory interface, get_Order, wua.icategory_order, wuapi/ICategory::Order, wuapi/ICategory::get_Order
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

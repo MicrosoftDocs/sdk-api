@@ -9,8 +9,6 @@ ms.assetid: 1521c462-b054-46d6-8646-4d20a836eadc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_frameRate method, IWMPNetwork.get_frameRate, IWMPNetwork::get_frameRate, IWMPNetworkget_frameRate, get_frameRate, get_frameRate method [Windows Media Player], get_frameRate method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_framerate, wmp/IWMPNetwork::get_frameRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ The frame rate value is returned in frames per hundred seconds. For example, a v
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d42133cf-3b81-4d22-b83d-d8a5756d9d9c">IWMPNetwork::get_encodedFrameRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563474(v=VS.85).aspx">IWMPNetwork::get_encodedFrameRate</a>
  
 
  

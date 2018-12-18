@@ -9,8 +9,6 @@ ms.assetid: 9a04d344-394e-4a93-a601-0aa419182d9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface method, IAMDirectSound.ReleasePrimaryBufferInterface, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

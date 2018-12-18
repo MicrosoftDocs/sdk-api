@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetView, ListView_GetView macro [Windows Controls], _win32_ListView_GetView, _win32_ListView_GetView_cpp, commctrl/ListView_GetView, controls.ListView_GetView, controls._win32_ListView_GetView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

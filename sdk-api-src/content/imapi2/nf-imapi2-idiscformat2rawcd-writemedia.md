@@ -9,8 +9,6 @@ ms.assetid: 137395f1-b0cf-4bd0-9d3b-a21122eb8b57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia method, IDiscFormat2RawCD.WriteMedia, IDiscFormat2RawCD::WriteMedia, WriteMedia, WriteMedia method [IMAPI], WriteMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia, imapi2/IDiscFormat2RawCD::WriteMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

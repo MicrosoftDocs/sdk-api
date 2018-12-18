@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetCheckState, TreeView_GetCheckState macro [Windows Controls], _win32_TreeView_GetCheckState, _win32_TreeView_GetCheckState_cpp, commctrl/TreeView_GetCheckState, controls.TreeView_GetCheckState, controls._win32_TreeView_GetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the check state of the specified item. You can also use the <a href="https:
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

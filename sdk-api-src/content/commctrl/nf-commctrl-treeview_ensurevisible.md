@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Ensures that a tree-view item is visible, expanding the parent item or scrolling
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

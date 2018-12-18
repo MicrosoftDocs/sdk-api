@@ -9,8 +9,6 @@ ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

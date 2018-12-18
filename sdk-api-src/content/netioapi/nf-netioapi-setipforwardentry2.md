@@ -9,8 +9,6 @@ ms.assetid: e11aab0b-6d6c-4e90-a60a-f7d68c09751b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetIpForwardEntry2, SetIpForwardEntry2 function [IP Helper], iphlp.setipforwardentry2, netioapi/SetIpForwardEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

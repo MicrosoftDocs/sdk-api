@@ -9,8 +9,6 @@ ms.assetid: 94704c44-796a-4ca7-97f3-6676d7f94078
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InvertRgn, InvertRgn function [Windows GDI], _win32_InvertRgn, gdi.invertrgn, wingdi/InvertRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

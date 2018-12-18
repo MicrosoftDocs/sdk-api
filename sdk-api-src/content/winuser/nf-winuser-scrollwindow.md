@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfuncti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScrollWindow, ScrollWindow function [Windows Controls], _win32_ScrollWindow, _win32_ScrollWindow_cpp, controls.ScrollWindow, controls._win32_ScrollWindow, winuser/ScrollWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

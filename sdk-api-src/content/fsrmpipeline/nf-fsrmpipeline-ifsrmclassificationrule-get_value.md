@@ -9,8 +9,6 @@ ms.assetid: c243cf7a-23f5-4d81-acea-9bf6ed66967d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassificationRule interface [File Server Resource Manager],Value property, IFsrmClassificationRule.Value, IFsrmClassificationRule.get_Value, IFsrmClassificationRule::Value, IFsrmClassificationRule::get_Value, IFsrmClassificationRule::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmClassificationRule interface, fs.ifsrmclassificationrule_value, fsrm.ifsrmclassificationrule_value, fsrmpipeline/IFsrmClassificationRule::Value, fsrmpipeline/IFsrmClassificationRule::get_Value, fsrmpipeline/IFsrmClassificationRule::put_Value, get_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

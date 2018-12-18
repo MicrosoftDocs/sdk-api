@@ -9,8 +9,6 @@ ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2aca7414-afb2-402d-80cf-d7ce3e719b20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],GetSelection method, IUIAutomationTextPattern.GetSelection, IUIAutomationTextPattern::GetSelection, uiauto.uiauto_IUIAutomationTextPattern_GetSelection, uiauto_IUIAutomationTextPattern_GetSelection, uiautomationclient/IUIAutomationTextPattern::GetSelection, winauto.uiauto_IUIAutomationTextPattern_GetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\co
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method [search],IWordBreaker interface, IWordBreaker interface [search],ComposePhrase method, IWordBreaker.ComposePhrase, IWordBreaker::ComposePhrase, _search_IWordBreaker_ComposePhrase, indexsrv/IWordBreaker::ComposePhrase, search._search_IWordBreaker_ComposePhrase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

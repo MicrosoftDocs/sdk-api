@@ -7,10 +7,8 @@ old-location: opc\iopcuri.htm
 tech.root: OPC
 ms.assetid: 35ce7946-f7e7-4ac3-852f-e3fcca23d6d4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcUri, IOpcUri interface [Open Packaging Conventions], IOpcUri interface [Open Packaging Conventions],described, msopc/IOpcUri, opc.iopcuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

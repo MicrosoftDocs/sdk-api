@@ -9,8 +9,6 @@ ms.assetid: 749226fa-6de8-4c1c-9ec0-9801a2029a6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllFinalizeDigest, CryptXmlDllFinalizeDigest callback, CryptXmlDllFinalizeDigest callback function [Security], cryptxml/CryptXmlDllFinalizeDigest, security.cryptxmldllfinalizedigest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

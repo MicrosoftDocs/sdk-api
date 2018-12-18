@@ -9,8 +9,6 @@ ms.assetid: ed9242e5-fee7-46ca-b42c-cda1b5dcdc78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioEnrollCommit, WinBioEnrollCommit function [Windows Biometric Framework API], secbiomet.winbioenrollcommit, winbio/WinBioEnrollCommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

@@ -9,8 +9,6 @@ ms.assetid: cfbf49a1-473b-4b51-ac35-a9ea982dcd7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaFormatType method, IComponentType.put_MediaFormatType, IComponentType::put_MediaFormatType, IComponentTypeput_MediaFormatType, mstv.icomponenttype_put_mediaformattype, put_MediaFormatType, put_MediaFormatType method [Microsoft TV Technologies], put_MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaFormatType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -80,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
 
 
 

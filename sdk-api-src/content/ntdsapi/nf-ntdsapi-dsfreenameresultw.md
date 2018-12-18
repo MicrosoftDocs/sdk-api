@@ -9,8 +9,6 @@ ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -56,7 +54,7 @@ req.redist:
 
 
 The <b>DsFreeNameResult</b> function frees the memory held by a 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure. Use this function to free the memory allocated by the 
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure. Use this function to free the memory allocated by the 
 <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function.
 
 
@@ -67,7 +65,7 @@ The <b>DsFreeNameResult</b> function frees the memory held by a
 
 ### -param pResult
 
-Pointer to the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure to be freed.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure to be freed.
 
 
 ## -returns
@@ -84,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 59393a8f-4da9-44fd-8380-bb97e50cdb51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.winusb_getdescriptor, winusb/WinUsb_GetDescriptor, winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

@@ -9,8 +9,6 @@ ms.assetid: 31139b6f-aad9-495b-9e8c-39026c8e81a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, IMSVidTuner.put_Tune, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_Tune
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -77,11 +75,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/189c878d-bf14-4464-96ce-5d2e09118dc4">IMSVidTuner::get_Tune</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694707(v=VS.85).aspx">IMSVidTuner::get_Tune</a>
 
 
 

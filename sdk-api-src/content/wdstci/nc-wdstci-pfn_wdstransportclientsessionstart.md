@@ -9,8 +9,6 @@ ms.assetid: 47a053e3-f457-4d0a-80a8-1b93d5e8688f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_WdsTransportClientSessionStart, PFN_WdsTransportClientSessionStart callback, PFN_WdsTransportClientSessionStart callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessionstart, wdstci/PFN_WdsTransportClientSessionStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wdstci.h
 req.include-header: 

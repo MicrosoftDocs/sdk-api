@@ -9,8 +9,6 @@ ms.assetid: 8511b464-1f47-4184-9cb7-9aca0cb6660f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMWriter2, IWMDRMWriter2 interface [windows Media Format], IWMDRMWriter2 interface [windows Media Format],described, IWMDRMWriter2Interface, wmformat.iwmdrmwriter2, wmsdkidl/IWMDRMWriter2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -63,7 +61,7 @@ An <b>IWMDRMWriter2</b> interface exists for every writer object. You can obtain
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/fd466cf8-b1f8-49aa-a486-8fd347b29178">IWMDRMWriter</a>. <b>IWMDRMWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter</a>. <b>IWMDRMWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +76,7 @@ The <b>IWMDRMWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecbc7dda-de24-40ce-9c42-44a14ab63881">SetWMDRMNetEncryption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798374(v=VS.85).aspx">SetWMDRMNetEncryption</a>
 </td>
 <td align="left" width="63%">
 Configures the writer to receive input samples encoded for Windows Media DRM 10 for Network Devices delivery.
@@ -93,7 +91,7 @@ Configures the writer to receive input samples encoded for Windows Media DRM 10 
 
 
 
-<a href="https://msdn.microsoft.com/fd466cf8-b1f8-49aa-a486-8fd347b29178">IWMDRMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
 
 
 

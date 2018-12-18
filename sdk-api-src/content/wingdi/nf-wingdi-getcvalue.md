@@ -9,8 +9,6 @@ ms.assetid: 0b1b1eca-61b2-4011-85ea-6311ac78cab6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCValue, GetCValue macro [Windows Color System], _color_GetCValue, wcs.getcvalue, wingdi/GetCValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

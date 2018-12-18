@@ -9,8 +9,6 @@ ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

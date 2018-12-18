@@ -9,8 +9,6 @@ ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -144,7 +142,7 @@ The file opened in the reader is not protected.
 
 
 
-<a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
  
 
  

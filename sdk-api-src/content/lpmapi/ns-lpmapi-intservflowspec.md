@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.IntServFlowSpec
+UID: NS:lpmapi.__unnamed_struct_28
 title: IntServFlowSpec
 author: windows-sdk-content
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
@@ -7,10 +7,8 @@ old-location: qos\intservflowspec.htm
 tech.root: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,7 +59,7 @@ The
 
 ### -field spec_mh
 
-General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
+General information and length information for the  flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a> structure.
 
 
 ### -field spec_u
@@ -69,19 +67,39 @@ General information and length information for the  flowspec object (this struct
 Union containing flowspec information.
 
 
-### -field spec_u.CL_spec
 
-Controlled load flowspec information, expressed as a <a href="https://msdn.microsoft.com/def835ae-f0d2-4cdc-a498-315c4ef1245b">CtrlLoadFlowspec</a> structure.
+#### CL_spec
 
-
-### -field spec_u.G_spec
-
-Guaranteed service flowspec information, expressed as a <a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a> structure.
+Controlled load flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373430(v=VS.85).aspx">CtrlLoadFlowspec</a> structure.
 
 
-### -field spec_u.Q_spec
 
-Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a> structure.
+#### G_spec
+
+Guaranteed service flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a> structure.
+
+
+
+#### Q_spec
+
+Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374106(v=VS.85).aspx">QualAppFlowSpec</a> structure.
+
+
+### -field CL_spec
+
+ 
+
+
+### -field G_spec
+
+ 
+
+
+### -field Q_spec
+
+ 
+
+
 
 
 ## -see-also
@@ -89,15 +107,15 @@ Qualitative application flowspec information, expressed as a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/def835ae-f0d2-4cdc-a498-315c4ef1245b">CtrlLoadFlowspec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373430(v=VS.85).aspx">CtrlLoadFlowspec</a>
 
 
 
-<a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374106(v=VS.85).aspx">QualAppFlowSpec</a>
  
 
  

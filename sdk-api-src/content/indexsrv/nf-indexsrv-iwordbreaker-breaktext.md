@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\br
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

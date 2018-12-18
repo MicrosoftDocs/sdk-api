@@ -9,8 +9,6 @@ ms.assetid: e353c88c-f82e-40c0-b676-38f0060acc81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAccessDeniedAceEx, AddAccessDeniedAceEx function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, _win32_addaccessdeniedaceex, security.addaccessdeniedaceex, securitybaseapi/AddAccessDeniedAceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 0cf59b02-486b-412b-a8c2-b8a6e8e50248
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Text Services Framework], GetLength method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetLength method, ITfReverseConversionList.GetLength, ITfReverseConversionList::GetLength, msctf/ITfReverseConversionList::GetLength, tsf.itfreverseconversionlist_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12CommandQueue interface,UpdateTileMappings method, ID3D12CommandQueue.UpdateTileMappings, ID3D12CommandQueue::UpdateTileMappings, UpdateTileMappings, UpdateTileMappings method, UpdateTileMappings method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::UpdateTileMappings, direct3d12.id3d12commandqueue_updatetilemappings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

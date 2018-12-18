@@ -9,8 +9,6 @@ ms.assetid: 4190337f-f9f6-4584-b667-6b96c1ce48c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromStringVector, InitPropVariantFromStringVector function [Windows Properties], properties.InitPropVariantFromStringVector, propvarutil/InitPropVariantFromStringVector, shell.InitPropVariantFromStringVector, shell_InitPropVariantFromStringVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -95,19 +93,19 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
+<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
+<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
+<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
  
 
  

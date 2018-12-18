@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Windows Controls], ImageList_LoadImageA, ImageList_LoadImageW, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, OBM_ for OEM bitmaps, OCR_ for OEM cursors, OIC_ for OEM icons, _win32_ImageList_LoadImage, _win32_ImageList_LoadImage_cpp, commctrl/ImageList_LoadImage, commctrl/ImageList_LoadImageA, commctrl/ImageList_LoadImageW, controls.ImageList_LoadImage, controls._win32_ImageList_LoadImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -63,14 +61,14 @@ Creates an image list from the specified bitmap.
 
 ### -param hi
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
 A handle to the instance that contains the resource. This parameter can be <b>NULL</b> if you are loading an image from a file or loading an OEM resource.
 
 
 ### -param lpbmp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
 
 The image to load. 
 
@@ -126,14 +124,14 @@ The number of images by which the image list can grow when the system needs to m
 
 ### -param crMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 The color used to generate a mask. Each pixel of this color in the specified bitmap, cursor, or icon is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is the CLR_NONE value, no mask is generated. If this parameter is the CLR_DEFAULT value, the color of the pixel at the upper-left corner of the image is treated as the mask color. 
 
 
 ### -param uType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A flag that specifies the type of image to load. This parameter must be IMAGE_BITMAP to indicate that a bitmap is being loaded. 
 
@@ -162,7 +160,7 @@ Loads a bitmap.
 
 ### -param uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Flags that specify how to load the image. This parameter can be a combination of the following values. 
 

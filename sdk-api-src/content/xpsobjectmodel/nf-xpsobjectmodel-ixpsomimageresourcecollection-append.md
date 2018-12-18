@@ -9,8 +9,6 @@ ms.assetid: 0932d81d-7577-4063-8207-d818164175eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

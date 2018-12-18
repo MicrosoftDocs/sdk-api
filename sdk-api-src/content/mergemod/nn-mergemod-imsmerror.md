@@ -9,8 +9,6 @@ ms.assetid: 705f53ca-82f4-4929-b2a3-0ace8e4ca19b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmError, IMsmError interface, IMsmError interface,described, mergemod/IMsmError, setup.imsmerror_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
@@ -62,7 +60,7 @@ The <b>IMsmError</b> interface retrieves details about a single merge error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -144,7 +142,7 @@ Retrieves the
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

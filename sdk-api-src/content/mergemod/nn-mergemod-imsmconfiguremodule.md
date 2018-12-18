@@ -9,8 +9,6 @@ ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
@@ -56,7 +54,7 @@ merge process.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmConfigureModule</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmConfigureModule</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -95,7 +93,7 @@ Retrieves text data from the client tool.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

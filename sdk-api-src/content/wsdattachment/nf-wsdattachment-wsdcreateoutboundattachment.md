@@ -9,8 +9,6 @@ ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h

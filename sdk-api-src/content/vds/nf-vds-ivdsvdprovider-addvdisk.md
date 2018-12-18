@@ -9,8 +9,6 @@ ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
@@ -63,7 +61,7 @@ Creates a virtual disk object  for an existing virtual disk file.
 
 ### -param VirtualDeviceType [in]
 
-The address of  a <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure 
+The address of  a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure 
 
 
 ### -param pPath [in]

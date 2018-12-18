@@ -9,8 +9,6 @@ ms.assetid: 5f3a587e-c3a8-47ee-80ac-afa0824a4585
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetDefaultFilter method, GetDefaultFilter, GetDefaultFilter method [File Server Resource Manager], GetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, GetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetDefaultFilter method, IFsrmReportManager.GetDefaultFilter, IFsrmReportManager::GetDefaultFilter, fs.ifsrmreportmanager_getdefaultfilter, fsrm.ifsrmreportmanager_getdefaultfilter, fsrmreports/IFsrmReportManager::GetDefaultFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

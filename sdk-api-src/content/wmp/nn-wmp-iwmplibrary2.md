@@ -9,8 +9,6 @@ ms.assetid: 028250e7-7415-4643-b798-af0112c1ea93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary2, IWMPLibrary2 interface [Windows Media Player], IWMPLibrary2 interface [Windows Media Player],described, wmp.iwmplibrary2, wmp/IWMPLibrary2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -55,7 +53,7 @@ The <b>IWMPLibrary2</b> interface represents a media library.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary2</b> interface inherits from <a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary</a>. <b>IWMPLibrary2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPLibrary2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary</a>. <b>IWMPLibrary2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +68,7 @@ The <b>IWMPLibrary2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38de9e72-b942-4c09-be9e-ff9f345c778d">getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757514(v=VS.85).aspx">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the <b>LibraryID</b> attribute.
@@ -85,7 +83,7 @@ Retrieves the value of the <b>LibraryID</b> attribute.
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary</a>
 
 
 

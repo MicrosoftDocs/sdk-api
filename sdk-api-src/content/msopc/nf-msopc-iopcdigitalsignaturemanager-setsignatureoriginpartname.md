@@ -7,10 +7,8 @@ old-location: opc\iopcdigitalsignaturemanager_setsignatureoriginpartname.htm
 tech.root: OPC
 ms.assetid: edf1590c-14a2-4887-a2df-20b5b4cb89a6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],SetSignatureOriginPartName method, IOpcDigitalSignatureManager.SetSignatureOriginPartName, IOpcDigitalSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [Open Packaging Conventions], SetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::SetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_setsignatureoriginpartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

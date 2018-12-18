@@ -9,8 +9,6 @@ ms.assetid: 377a6853-94fb-4467-a893-508b56637a16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],UnAdviseWMPServices method, IWMPPlugin.UnAdviseWMPServices, IWMPPlugin::UnAdviseWMPServices, IWMPPluginUnAdviseWMPServicesDSP, UnAdviseWMPServices, UnAdviseWMPServices method [Windows Media Player], UnAdviseWMPServices method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_unadvisewmpservices, wmpservices/IWMPPlugin::UnAdviseWMPServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -86,11 +84,11 @@ Windows Media Player calls this method when the pointer provided by <b>AdviseWMP
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/203b9363-1363-48be-8ba6-8b152ae9a92f">IWMPPlugin::AdviseWMPServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563599(v=VS.85).aspx">IWMPPlugin::AdviseWMPServices</a>
  
 
  

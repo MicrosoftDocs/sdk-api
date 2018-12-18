@@ -7,10 +7,8 @@ old-location: p2p\peerdistregisterforstatuschangenotificationex.htm
 tech.root: P2PSdk
 ms.assetid: 84de2b23-5536-43e9-9336-0c1d3b70891d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 
@@ -118,7 +116,7 @@ A Peer Distribution status change can result in the Peer Distribution service mo
 
 
 
-<a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a>
 
 
 

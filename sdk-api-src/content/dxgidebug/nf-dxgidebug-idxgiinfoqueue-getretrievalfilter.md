@@ -9,8 +9,6 @@ ms.assetid: 95907EF0-858B-4CDF-A112-6E59138769BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method [DXGI], GetRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilter method, IDXGIInfoQueue.GetRetrievalFilter, IDXGIInfoQueue::GetRetrievalFilter, direct3ddxgi.idxgiinfoqueue_getretrievalfilter, dxgidebug/IDXGIInfoQueue::GetRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

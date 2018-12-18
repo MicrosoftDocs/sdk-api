@@ -9,8 +9,6 @@ ms.assetid: 10f34db2-2f1b-4e51-96c7-70a080804fd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],ServiceCenterAddress property, IMbnSmsConfiguration.ServiceCenterAddress, IMbnSmsConfiguration.get_ServiceCenterAddress, IMbnSmsConfiguration::ServiceCenterAddress, IMbnSmsConfiguration::get_ServiceCenterAddress, IMbnSmsConfiguration::put_ServiceCenterAddress, ServiceCenterAddress property [Microsoft Broadband Networks], ServiceCenterAddress property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_ServiceCenterAddress, mbn.imbnsmsconfiguration_servicecenteraddress, mbnapi/IMbnSmsConfiguration::ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::get_ServiceCenterAddress, mbnapi/IMbnSmsConfiguration::put_ServiceCenterAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: Mbnapi.h

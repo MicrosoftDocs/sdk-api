@@ -9,8 +9,6 @@ ms.assetid: 91dc565f-4ccb-497c-b5d2-f9b60884b094
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMImageResource interface [XPS Documents and Packaging],SetContent method, IXpsOMImageResource.SetContent, IXpsOMImageResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMImageResource interface, xps.ixpsomimageresource_setcontent, xpsobjectmodel/IXpsOMImageResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

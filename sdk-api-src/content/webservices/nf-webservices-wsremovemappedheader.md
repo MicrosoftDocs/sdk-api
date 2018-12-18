@@ -9,8 +9,6 @@ ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -64,7 +62,7 @@ Removes all instances of a mapped header from the message.
 The message to set the header in.
                 
 
-The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 

@@ -9,8 +9,6 @@ ms.assetid: df438d87-5786-4c55-81f2-534fa9532f09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShortSub, ShortSub function [Windows Shell], intsafe/ShortSub, shell.ShortSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

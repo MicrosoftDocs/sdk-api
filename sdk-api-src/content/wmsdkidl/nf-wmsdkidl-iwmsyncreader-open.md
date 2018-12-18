@@ -9,8 +9,6 @@ ms.assetid: dab1a9c4-487c-4b20-909e-05f3504698f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],Open method, IWMSyncReader.Open, IWMSyncReader::Open, IWMSyncReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>Open</b> method opens a file for reading. Unlike <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>, this method is a synchronous call.
+The <b>Open</b> method opens a file for reading. Unlike <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, this method is a synchronous call.
 
 
 
@@ -92,15 +90,15 @@ The synchronous reader does not support streaming media. Passing a URL as <i>pws
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/98f5a44f-dc34-4732-b497-5528de6af1c3">IWMSyncReader::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798584(v=VS.85).aspx">IWMSyncReader::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef42495a-2565-4925-882e-c3c42f9d418b">IWMSyncReader::OpenStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798598(v=VS.85).aspx">IWMSyncReader::OpenStream</a>
  
 
  

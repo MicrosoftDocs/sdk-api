@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreferenc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCaretPos, GetCaretPos function [Menus and Other Resources], _win32_GetCaretPos, _win32_getcaretpos_cpp, menurc.getcaretpos, winui._win32_getcaretpos, winuser/GetCaretPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

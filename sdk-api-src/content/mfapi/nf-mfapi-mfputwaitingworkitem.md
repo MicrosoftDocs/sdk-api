@@ -9,8 +9,6 @@ ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefRawInputProc, DefRawInputProc function [Keyboard and Mouse Input], _win32_DefRawInputProc, _win32_defrawinputproc_cpp, inputdev.defrawinputproc, winui._win32_defrawinputproc, winuser/DefRawInputProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

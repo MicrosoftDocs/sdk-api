@@ -9,8 +9,6 @@ ms.assetid: 0fd88d09-79bf-45c6-93b4-1f57752ed1cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_BaseURL method, IAMMediaContent.get_BaseURL, IAMMediaContent::get_BaseURL, IAMMediaContentget_BaseURL, dshow.iammediacontent_get_baseurl, get_BaseURL, get_BaseURL method [DirectShow], get_BaseURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_BaseURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -147,7 +145,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

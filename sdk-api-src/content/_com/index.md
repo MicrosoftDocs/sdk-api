@@ -2,7 +2,7 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -25,7 +25,6 @@ To develop Component Object Model (COM), you need these headers:
  * [dmerror.h](../dmerror/index.md)
  * [docobj.h](../docobj/index.md)
  * [eventsys.h](../eventsys/index.md)
- * [guiddef.h](../guiddef/index.md)
  * [iaccess.h](../iaccess/index.md)
  * [imessagedispatcher.h](../imessagedispatcher/index.md)
  * [messagedispatcherapi.h](../messagedispatcherapi/index.md)

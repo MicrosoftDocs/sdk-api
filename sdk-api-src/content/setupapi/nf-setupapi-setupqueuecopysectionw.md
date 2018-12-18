@@ -9,8 +9,6 @@ ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

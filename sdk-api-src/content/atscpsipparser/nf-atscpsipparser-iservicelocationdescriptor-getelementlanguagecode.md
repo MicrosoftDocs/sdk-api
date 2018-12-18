@@ -9,8 +9,6 @@ ms.assetid: 8ffc0c58-1305-49bf-bdbd-efb18805516f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetElementLanguageCode, GetElementLanguageCode method [Microsoft TV Technologies], GetElementLanguageCode method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementLanguageCode method, IServiceLocationDescriptor.GetElementLanguageCode, IServiceLocationDescriptor::GetElementLanguageCode, atscpsipparser/IServiceLocationDescriptor::GetElementLanguageCode, mstv.iservicelocationdescriptor_getelementlanguagecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl

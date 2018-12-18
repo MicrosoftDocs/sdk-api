@@ -9,8 +9,6 @@ ms.assetid: 1dc4b432-8418-46a7-9ea8-5025799c8ec9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrapEx, SnmpMgrGetTrapEx function [SNMP], _snmp_snmpmgrgettrapex, mgmtapi/SnmpMgrGetTrapEx, snmp.snmpmgrgettrapex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
@@ -65,7 +63,7 @@ The
 ### -param enterprise [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
 
 
 ### -param agentAddress [out]
@@ -171,7 +169,7 @@ Pointer to a variable to receive an indicator of the specific trap generated.
 ### -param community [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a> structure to receive the community string of the generated SNMP trap.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a> structure to receive the community string of the generated SNMP trap.
 
 
 ### -param timeStamp [out]
@@ -182,7 +180,7 @@ Pointer to a variable to receive the time stamp.
 ### -param variableBindings [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to receive the variable bindings list.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure to receive the variable bindings list.
 
 
 ## -returns
@@ -259,11 +257,11 @@ The application can also poll the
 
 
 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
 
 
 
@@ -279,7 +277,7 @@ The application can also poll the
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
  
 
  

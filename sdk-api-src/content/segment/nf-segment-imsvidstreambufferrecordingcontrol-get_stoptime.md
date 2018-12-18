@@ -9,8 +9,6 @@ ms.assetid: 17abe9d3-1a84-4dcf-bc61-d9eafe7418f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_StopTime method, IMSVidStreamBufferRecordingControl.get_StopTime, IMSVidStreamBufferRecordingControl::get_StopTime, IMSVidStreamBufferRecordingControlget_StopTime, get_StopTime, get_StopTime method [Microsoft TV Technologies], get_StopTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_stoptime, segment/IMSVidStreamBufferRecordingControl::get_StopTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -107,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl Interface</a>
  
 
  

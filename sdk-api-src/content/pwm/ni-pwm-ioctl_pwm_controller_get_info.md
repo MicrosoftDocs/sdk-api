@@ -9,8 +9,6 @@ ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [GDI+], GetPropertyItem method [GDI+],Image class, Image class [GDI+],GetPropertyItem method, Image.GetPropertyItem, Image::GetPropertyItem, _gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_, gdiplus._gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

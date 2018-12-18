@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\oninco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnIncomingJobChanged, OnIncomingJobChanged, OnIncomingJobChanged method [Fax Service], OnIncomingJobChanged method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingJobChanged method, _IFaxAccountNotify.OnIncomingJobChanged, _IFaxAccountNotify::OnIncomingJobChanged, _mfax_ifaxaccountnotify_onincomingjobchanged, fax._mfax_ifaxaccountnotify_onincomingjobchanged, faxcomex/_IFaxAccountNotify::OnIncomingJobChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -61,9 +59,9 @@ Called by the fax service when the status of an incoming fax job for a particula
 
 ### -param pFaxAccount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>*</b>
 
-An <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 ### -param bstrJobId [in]
@@ -75,9 +73,9 @@ A null-terminated string that contains the ID of the job for which the status ha
 
 ### -param pJobStatus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/38527d34-feab-4fae-90c6-45ff9bcfd15c">IFaxJobStatus</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms685966(v=VS.85).aspx">IFaxJobStatus</a>*</b>
 
-A <a href="https://msdn.microsoft.com/b4e2dc9e-6a32-4fc7-94fc-2132dedcec9e">FaxJobStatus</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms685964(v=VS.85).aspx">FaxJobStatus</a> object.
 
 
 ## -returns
@@ -105,7 +103,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/10867869-66bb-4e17-a9b3-7e943fe5f510">IFaxAccountNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">IFaxAccountNotify</a>
  
 
  

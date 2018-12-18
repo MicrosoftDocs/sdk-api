@@ -9,8 +9,6 @@ ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

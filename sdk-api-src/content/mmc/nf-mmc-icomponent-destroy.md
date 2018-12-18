@@ -9,8 +9,6 @@ ms.assetid: ec4ec242-6376-44e7-bd82-09456789c4c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Destroy, Destroy method [MMC], Destroy method [MMC],IComponent interface, IComponent interface [MMC],Destroy method, IComponent.Destroy, IComponent::Destroy, _slate_icomponent_destroy, mmc.icomponent_destroy, mmc/IComponent::Destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

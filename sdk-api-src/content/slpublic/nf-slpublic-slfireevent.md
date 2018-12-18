@@ -9,8 +9,6 @@ ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

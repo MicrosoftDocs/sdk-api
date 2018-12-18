@@ -9,8 +9,6 @@ ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

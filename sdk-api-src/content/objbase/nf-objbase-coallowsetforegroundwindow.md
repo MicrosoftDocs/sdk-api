@@ -9,8 +9,6 @@ ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

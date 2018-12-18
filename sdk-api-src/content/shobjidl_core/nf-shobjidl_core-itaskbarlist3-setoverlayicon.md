@@ -9,8 +9,6 @@ ms.assetid: 77857109-64b6-428e-b2b1-ee757784532a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetOverlayIcon method, ITaskbarList3.SetOverlayIcon, ITaskbarList3::SetOverlayIcon, SetOverlayIcon, SetOverlayIcon method [Windows Shell], SetOverlayIcon method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetOverlayIcon, shell.ITaskbarList3_SetOverlayIcon, shobjidl_core/ITaskbarList3::SetOverlayIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

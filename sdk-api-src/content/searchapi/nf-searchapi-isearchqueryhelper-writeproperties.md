@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchQueryHelper interface [search],WriteProperties method, ISearchQueryHelper.WriteProperties, ISearchQueryHelper::WriteProperties, WriteProperties, WriteProperties method [search], WriteProperties method [search],ISearchQueryHelper interface, _search_ISearchQueryHelper_WriteProperties, search._search_ISearchQueryHelper_WriteProperties, searchapi/ISearchQueryHelper::WriteProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

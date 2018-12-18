@@ -9,8 +9,6 @@ ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTASK, IEnumTASK interface [MMC], IEnumTASK interface [MMC],described, _slate_ienumtask, mmc.ienumtask, mmc/IEnumTASK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

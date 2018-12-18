@@ -9,8 +9,6 @@ ms.assetid: 6C92275E-B9A6-4556-A709-8EFBAEDB94B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjMarkDirectoryAsPlaceholder, PrjMarkDirectoryAsPlaceholder function, ProjFS.prjmarkdirectoryasplaceholder, projectedfslib/PrjMarkDirectoryAsPlaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

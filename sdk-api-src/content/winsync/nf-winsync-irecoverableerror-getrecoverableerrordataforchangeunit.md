@@ -9,8 +9,6 @@ ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

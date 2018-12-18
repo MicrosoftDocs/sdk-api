@@ -9,8 +9,6 @@ ms.assetid: 5371cbe4-80f5-4514-88e7-38107cd1a127
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyPhysicalMonitor, DestroyPhysicalMonitor function [Monitor Configuration], monitor.destroyphysicalmonitor, physicalmonitorenumerationapi/DestroyPhysicalMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

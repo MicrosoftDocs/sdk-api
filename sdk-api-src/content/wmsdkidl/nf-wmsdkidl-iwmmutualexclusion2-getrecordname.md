@@ -9,8 +9,6 @@ ms.assetid: 7508a473-77ae-49ce-b041-2d171193e730
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetRecordName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordName method, IWMMutualExclusion2.GetRecordName, IWMMutualExclusion2::GetRecordName, IWMMutualExclusion2GetRecordName, wmformat.iwmmutualexclusion2_getrecordname, wmsdkidl/IWMMutualExclusion2::GetRecordName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/9527024e-2d52-4a81-90a5-4ef5241ba6dd">IWMMutualExclusion2::SetRecordName</a> method.
+The <b>GetRecordName</b> method retrieves the name of the specified record. A record has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/en-us/library/Dd757249(v=VS.85).aspx">IWMMutualExclusion2::SetRecordName</a> method.
 
 
 
@@ -149,7 +147,7 @@ Records are assigned numbers sequentially in the order they are created.
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
  
 
  

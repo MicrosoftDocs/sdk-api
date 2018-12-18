@@ -9,8 +9,6 @@ ms.assetid: c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _tsf_tf_selection_ref, msctf/TF_SELECTION, tsf.tf_selection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3f252754-c784-4ffd-bcfc-fab73fa02b9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWMBufferPassCallback interface [windows Media Format],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IAMWMBufferPassCallback interface, dshowasf/IAMWMBufferPassCallback::Notify, wmformat.iamwmbufferpasscallback_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>Notify</b> method is called by the pin for each buffer that is delivered 
 
 ### -param pNSSBuffer3 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a> interface exposed on the media sample.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a> interface exposed on the media sample.
 
 
 ### -param pPin [in]
@@ -112,7 +110,7 @@ This method enables an application to examine and act on information in the medi
 
 
 
-<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 6a159fd7-6bf2-43b7-ae7f-b4e4eb02615f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignData callback function [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 

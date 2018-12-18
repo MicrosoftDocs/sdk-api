@@ -9,8 +9,6 @@ ms.assetid: 24cc3c97-60f6-440d-80fd-da7516698a2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetNextTable method, IPAT.GetNextTable, IPAT::GetNextTable, IPATGetNextTable, mpeg2psiparser/IPAT::GetNextTable, mstv.ipat_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -130,7 +128,7 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 
 
 
-<a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT Interface</a>
  
 
  

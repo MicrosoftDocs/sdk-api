@@ -9,8 +9,6 @@ ms.assetid: 1271df60-7830-4e10-9af8-caf59aff56f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTunerId, GetTunerId method [Microsoft TV Technologies], GetTunerId method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetTunerId method, IESFileExpiryDateEvent.GetTunerId, IESFileExpiryDateEvent::GetTunerId, mstv.iesfileexpirydateevent_gettunerid, tuner/IESFileExpiryDateEvent::GetTunerId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7a805c5f-c064-4428-9cfb-1e469450a555
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExpandTargetPath, ExpandTargetPath method [SMI], ExpandTargetPath method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTargetPath method, ITargetInfo.ExpandTargetPath, ITargetInfo::ExpandTargetPath, smi.itargetinfo_expandtargetpath, wcmconfig/ITargetInfo::ExpandTargetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

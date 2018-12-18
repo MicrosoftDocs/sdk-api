@@ -9,8 +9,6 @@ ms.assetid: 4ECF7227-08A1-4AEB-8545-420090131FB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

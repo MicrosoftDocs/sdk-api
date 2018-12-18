@@ -9,8 +9,6 @@ ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_Originator method, ITDirectoryObjectConference.get_Originator, ITDirectoryObjectConference::get_Originator, _tapi3_itdirectoryobjectconference_get_originator, get_Originator, get_Originator method [TAPI 2.2], get_Originator method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_Originator, tapi3.itdirectoryobjectconference_get_originator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

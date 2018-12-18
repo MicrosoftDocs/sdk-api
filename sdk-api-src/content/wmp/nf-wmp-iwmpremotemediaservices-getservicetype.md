@@ -9,8 +9,6 @@ ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -149,7 +147,7 @@ The RemoteNoDialogs value is supported for backward compatibility with Windows M
 
 
 
-<a href="https://msdn.microsoft.com/594a614a-8da1-4ef0-a6af-01284fb48ef7">IWMPRemoteMediaServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563634(v=VS.85).aspx">IWMPRemoteMediaServices Interface</a>
 
 
 

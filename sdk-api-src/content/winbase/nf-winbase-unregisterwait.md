@@ -9,8 +9,6 @@ ms.assetid: 9ae8879f-0dbd-4d04-ae6e-094324f82acf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterWait, UnregisterWait function, _win32_unregisterwait, base.unregisterwait, winbase/UnregisterWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

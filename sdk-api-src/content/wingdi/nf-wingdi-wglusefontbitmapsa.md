@@ -7,10 +7,8 @@ old-location: opengl\wglusefontbitmaps.htm
 tech.root: OpenGL
 ms.assetid: c671965c-9b9d-4206-b467-4884ffd351eb
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ogl_wglUseFontBitmaps, opengl.wglusefontbitmaps, wglUseFontBitmaps, wglUseFontBitmaps function [OpenGL], wglUseFontBitmapsA, wglUseFontBitmapsW, wingdi/wglUseFontBitmaps, wingdi/wglUseFontBitmapsA, wingdi/wglUseFontBitmapsW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

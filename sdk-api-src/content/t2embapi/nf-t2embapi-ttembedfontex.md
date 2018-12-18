@@ -9,8 +9,6 @@ ms.assetid: 2b052d83-0791-4fcb-ab94-7924c751b051
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontEx, TTEmbedFontEx function [Windows GDI], _win32_TTEmbedFontEx, gdi.ttembedfontex, t2embapi/TTEmbedFontEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
@@ -238,7 +236,7 @@ Specifies which language in the name table to keep when subsetting. Set to 0 to 
 
 ### -param pTTEmbedInfo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>.
 
 
 ## -returns
@@ -274,7 +272,7 @@ For information on embedding Unicode characters, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a>
 
 
 

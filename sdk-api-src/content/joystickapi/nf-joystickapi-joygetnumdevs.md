@@ -9,8 +9,6 @@ ms.assetid: dc268db5-da2d-4139-97da-5d56a54287d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_joyGetNumDevs, joyGetNumDevs, joyGetNumDevs function [Windows Multimedia], joystickapi/joyGetNumDevs, multimedia.joygetnumdevs"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

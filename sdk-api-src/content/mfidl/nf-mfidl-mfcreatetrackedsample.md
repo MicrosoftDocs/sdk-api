@@ -9,8 +9,6 @@ ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

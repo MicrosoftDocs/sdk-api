@@ -9,8 +9,6 @@ ms.assetid: 36726FB6-09DE-4723-A60E-75FCE55F2E35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,Reset method, ID3D12GraphicsCommandList.Reset, ID3D12GraphicsCommandList::Reset, Reset, Reset method, Reset method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::Reset, direct3d12.id3d12graphicscommandlist_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -103,7 +101,7 @@ See <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Di
 
 
 
-By using <b>Reset</b>, you can re-use command list tracking structures without any allocations. Unlike <a href="https://msdn.microsoft.com/en-us/library/Dn770464(v=VS.85).aspx">ID3D12CommandAllocator::Reset</a>, you can call <b>Reset</b> while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. 
+By using <b>Reset</b>, you can re-use command list tracking structures without any allocations. Unlike <a href="https://msdn.microsoft.com/B7477767-9110-45DE-962F-E56FDB635D17">ID3D12CommandAllocator::Reset</a>, you can call <b>Reset</b> while the command list is still being executed. A typical pattern is to submit a command list and then immediately reset it to reuse the allocated memory for another command list. 
 
 You can use <b>Reset</b> for both direct command lists and bundles.
       
@@ -211,15 +209,15 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770464(v=VS.85).aspx">ID3D12CommandAllocator::Reset</a>
+<a href="https://msdn.microsoft.com/B7477767-9110-45DE-962F-E56FDB635D17">ID3D12CommandAllocator::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn788656(v=VS.85).aspx">ID3D12Device::CreateCommandList</a>
+<a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">ID3D12Device::CreateCommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b111a717-00c0-47cb-be6a-3050d54cd2ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensorManagerEvents, ISensorManagerEvents interface [WinSensors], ISensorManagerEvents interface [WinSensors],described, sensorsapi/ISensorManagerEvents, winsensors.isensormanagerevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

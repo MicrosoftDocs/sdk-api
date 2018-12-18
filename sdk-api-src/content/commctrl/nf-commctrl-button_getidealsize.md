@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_GetIdealSize, Button_GetIdealSize macro [Windows Controls], _win32_Button_GetIdealSize, _win32_Button_GetIdealSize_cpp, commctrl/Button_GetIdealSize, controls.Button_GetIdealSize, controls._win32_Button_GetIdealSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the size of the button that best fits the text and image, if an image list 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 

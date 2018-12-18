@@ -9,8 +9,6 @@ ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_FILL_MODE, D2D1_FILL_MODE enumeration [Direct2D], D2D1_FILL_MODE_ALTERNATE, D2D1_FILL_MODE_WINDING, d2d1/D2D1_FILL_MODE, d2d1/D2D1_FILL_MODE_ALTERNATE, d2d1/D2D1_FILL_MODE_WINDING, direct2d.D2D1_FILL_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
@@ -215,7 +213,7 @@ The following code example creates the geometry groups used the preceding illust
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756653(v=VS.85).aspx">Geometries Overview</a>
+<a href="https://msdn.microsoft.com/f5870d4b-dd30-4034-884e-1c398a6865c6">Geometries Overview</a>
 
 
 

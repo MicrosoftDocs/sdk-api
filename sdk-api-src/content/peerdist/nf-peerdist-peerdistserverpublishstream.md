@@ -7,10 +7,8 @@ old-location: p2p\peerdistserverpublishstream.htm
 tech.root: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerDistServerPublishStream, PeerDistServerPublishStream function [Peer Networking], p2p.peerdistserverpublishstream, peerdist/PeerDistServerPublishStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

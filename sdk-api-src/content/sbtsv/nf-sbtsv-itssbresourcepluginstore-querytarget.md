@@ -4,13 +4,11 @@ title: ITsSbResourcePluginStore::QueryTarget
 author: windows-sdk-content
 description: Returns the target that has the specified target name and farm name.
 old-location: termserv\itssbresourcepluginstore_querytarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ef78c055-edf6-4f0c-b47c-836ef85310bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryTarget method, ITsSbResourcePluginStore.QueryTarget, ITsSbResourcePluginStore::QueryTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryTarget method, ITsSbResourcePluginStoreEx::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryTarget, sbtsv/ITsSbResourcePluginStoreEx::QueryTarget, termserv.itssbresourcepluginstore_querytarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

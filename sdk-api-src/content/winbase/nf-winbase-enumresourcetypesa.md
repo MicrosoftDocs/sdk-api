@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresour
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumResourceTypes, EnumResourceTypes function [Menus and Other Resources], EnumResourceTypesA, EnumResourceTypesW, _win32_EnumResourceTypes, _win32_enumresourcetypes_cpp, menurc.enumresourcetypes, winbase/EnumResourceTypes, winbase/EnumResourceTypesA, winbase/EnumResourceTypesW, winui._win32_enumresourcetypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

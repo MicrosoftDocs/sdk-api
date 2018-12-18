@@ -9,8 +9,6 @@ ms.assetid: 6cb17dcc-81bf-4396-a368-c974b8136e64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],PolicyServer property, IX509CertificateRequestPkcs10V2.PolicyServer, IX509CertificateRequestPkcs10V2.get_PolicyServer, IX509CertificateRequestPkcs10V2::PolicyServer, IX509CertificateRequestPkcs10V2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::PolicyServer, certenroll/IX509CertificateRequestPkcs10V2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestpkcs10v2_policyserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351624(v=VS.85).aspx">IX509CertificateRequestPkcs10V2</a>
+<a href="https://msdn.microsoft.com/38177793-c15b-4651-8260-c90a151da83e">IX509CertificateRequestPkcs10V2</a>
  
 
  

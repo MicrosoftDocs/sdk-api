@@ -9,8 +9,6 @@ ms.assetid: b810455b-219b-49da-a4eb-c1a170711c68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeProviderEnumFirst, PxeProviderEnumFirst function [Windows Deployment Services], wds.pxeproviderenumfirst, wdspxe/PxeProviderEnumFirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

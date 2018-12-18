@@ -9,8 +9,6 @@ ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLHTTPRequest3, IXMLHTTPRequest3 interface [XMLHttpRequest2], IXMLHTTPRequest3 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3, msxml6/IXMLHTTPRequest3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 

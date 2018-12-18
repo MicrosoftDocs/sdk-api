@@ -9,8 +9,6 @@ ms.assetid: 7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSourceElements method, IMFMediaEngine.SetSourceElements, IMFMediaEngine::SetSourceElements, SetSourceElements, SetSourceElements method [Media Foundation], SetSourceElements method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsourceelements, mfmediaengine/IMFMediaEngine::SetSourceElements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

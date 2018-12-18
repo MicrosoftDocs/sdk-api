@@ -9,8 +9,6 @@ ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaEnumerateLogonSessions, LsaEnumerateLogonSessions function [Security], _lsa_lsaenumeratelogonsessions, ntsecapi/LsaEnumerateLogonSessions, security.lsaenumeratelogonsessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

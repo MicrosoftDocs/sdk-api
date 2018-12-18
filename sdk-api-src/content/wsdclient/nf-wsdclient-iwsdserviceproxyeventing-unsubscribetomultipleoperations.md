@@ -9,8 +9,6 @@ ms.assetid: 2f542dc1-639c-4201-9274-8aa5cc238482
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDServiceProxyEventing interface,UnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.UnsubscribeToMultipleOperations, IWSDServiceProxyEventing::UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations, UnsubscribeToMultipleOperations method, UnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_unsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::UnsubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

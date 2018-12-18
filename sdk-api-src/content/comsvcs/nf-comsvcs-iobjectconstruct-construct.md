@@ -9,8 +9,6 @@ ms.assetid: 6bbb25c7-bd60-46cb-baed-114c50feb1f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Construct, Construct method [COM+], Construct method [COM+],IObjectConstruct interface, IObjectConstruct interface [COM+],Construct method, IObjectConstruct.Construct, IObjectConstruct::Construct, _cos_IObjectConstruct_Construct, comsvcs/IObjectConstruct::Construct, cos.iobjectconstruct_construct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F185D57A-65F2-4EFA-9C93-DFA89F3FAB01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetCount method, IDWriteStringList.GetCount, IDWriteStringList::GetCount, directwrite.idwritestringlist_getcount, dwrite_3/IDWriteStringList::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ Returns the number of strings in the string list.
 
 
 
-<a href="https://msdn.microsoft.com/07A61B37-C63D-4F7D-888C-96B56F30F477">IDWriteStringList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958421(v=VS.85).aspx">IDWriteStringList</a>
  
 
  

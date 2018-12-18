@@ -9,8 +9,6 @@ ms.assetid: 3c312db3-a656-436c-a012-669553355fa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssocHandler interface [Windows Shell],IsRecommended method, IAssocHandler.IsRecommended, IAssocHandler::IsRecommended, IsRecommended, IsRecommended method [Windows Shell], IsRecommended method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_IsRecommended, shell.IAssocHandler_IsRecommended, shobjidl_core/IAssocHandler::IsRecommended
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

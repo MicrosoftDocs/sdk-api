@@ -9,8 +9,6 @@ ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

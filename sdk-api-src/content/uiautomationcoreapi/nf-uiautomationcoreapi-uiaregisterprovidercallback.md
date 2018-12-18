@@ -9,8 +9,6 @@ ms.assetid: f80d3f42-dc21-4790-b670-0b900f092465
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaRegisterProviderCallback, UiaRegisterProviderCallback function [Windows Accessibility], uiauto.uiauto_UiaRegisterProviderCallbackAutoMeth, uiauto_UiaRegisterProviderCallbackAutoMeth, uiautomationcoreapi/UiaRegisterProviderCallback, winauto.uiauto_UiaRegisterProviderCallbackAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: pla\idatacollectorsetcollection_add.htm
 tech.root: pla
 ms.assetid: c551e373-77a4-4bac-848d-5aaec1e89cf1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Add method, IDataCollectorSetCollection.Add, IDataCollectorSetCollection::Add, base.idatacollectorsetcollection_add, pla.idatacollectorsetcollection_add, pla/IDataCollectorSetCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

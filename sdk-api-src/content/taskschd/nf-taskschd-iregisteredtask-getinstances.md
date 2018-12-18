@@ -9,8 +9,6 @@ ms.assetid: 4634851e-e868-4915-a7da-32a39f405974
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInstances, GetInstances method [Task Scheduler], GetInstances method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetInstances method, IRegisteredTask.GetInstances, IRegisteredTask::GetInstances, taskschd.iregisteredtask_getinstances, taskschd/IRegisteredTask::GetInstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

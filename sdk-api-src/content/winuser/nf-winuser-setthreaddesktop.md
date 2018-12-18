@@ -9,8 +9,6 @@ ms.assetid: 619c591f-54b7-4b61-aa07-fc57e05ee37a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadDesktop, SetThreadDesktop function [Windows Stations and Desktops], _win32_setthreaddesktop, base.setthreaddesktop, winstation.setthreaddesktop, winuser/SetThreadDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

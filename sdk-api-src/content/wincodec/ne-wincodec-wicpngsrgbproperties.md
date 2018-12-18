@@ -9,8 +9,6 @@ ms.assetid: ec9bbdb7-9ce2-44bd-bd84-842394ce4c5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICPngSrgbProperties, WICPngSrgbProperties enumeration [Windows Imaging Component], WICPngSrgbRenderingIntent, _wic_codec_wicpngsrgbproperties, wic._wic_codec_wicpngsrgbproperties, wincodec/WICPngSrgbProperties, wincodec/WICPngSrgbRenderingIntent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

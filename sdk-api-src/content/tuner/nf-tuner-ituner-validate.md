@@ -9,8 +9,6 @@ ms.assetid: 10b238b1-1c71-4104-8c2d-f8446f0a3466
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],Validate method, ITuner.Validate, ITuner::Validate, ITunerValidate, Validate, Validate method [Microsoft TV Technologies], Validate method [Microsoft TV Technologies],ITuner interface, mstv.ituner_validate, tuner/ITuner::Validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

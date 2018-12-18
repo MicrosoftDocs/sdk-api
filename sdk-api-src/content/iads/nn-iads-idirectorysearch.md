@@ -9,8 +9,6 @@ ms.assetid: e8989795-8f72-476a-a69e-c0e8800289ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

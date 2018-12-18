@@ -9,8 +9,6 @@ ms.assetid: e202be43-48c7-4fa4-b049-efdda3ef2ada
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC],IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, put_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

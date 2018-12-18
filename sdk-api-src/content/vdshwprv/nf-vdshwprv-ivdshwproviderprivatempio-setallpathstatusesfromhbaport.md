@@ -9,8 +9,6 @@ ms.assetid: 1fc25ca9-7cb4-438c-b9da-4bf93bd18a0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsHwProviderPrivateMpio interface [VDS],SetAllPathStatusesFromHbaPort method, IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort, IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort, SetAllPathStatusesFromHbaPort method [VDS], SetAllPathStatusesFromHbaPort method [VDS],IVdsHwProviderPrivateMpio interface, base.ivdshwproviderprivatempio_setallpathstatusesfromhbaport, vdshwprv/IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e7599299-2854-4796-8760-740a6ae7ad4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponentType, GetComponentType method [Windows Imaging Component], GetComponentType method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetComponentType method, IWICComponentInfo.GetComponentType, IWICComponentInfo::GetComponentType, _wic_codec_iwiccomponentinfo_getcomponenttype, wic._wic_codec_iwiccomponentinfo_getcomponenttype, wincodec/IWICComponentInfo::GetComponentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

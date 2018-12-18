@@ -9,8 +9,6 @@ ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBitsPeer interface [BITS],IsAvailable method, IBitsPeer.IsAvailable, IBitsPeer::IsAvailable, IsAvailable, IsAvailable method [BITS], IsAvailable method [BITS],IBitsPeer interface, bits.ibitspeer_isavailable, bits3_0/IBitsPeer::IsAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -108,7 +106,7 @@ If the peer stays offline for an extended period of time, BITS removes the peer 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964270(v=VS.85).aspx">IBitsPeer</a>
+<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
  
 
  

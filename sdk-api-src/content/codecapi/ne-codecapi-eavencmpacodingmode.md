@@ -9,8 +9,6 @@ ms.assetid: 37c3309b-05ea-4c78-b447-196d16c0f0cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncMPACodingMode, codecapi/eAVEncMPACodingMode_DualChannel, codecapi/eAVEncMPACodingMode_JointStereo, codecapi/eAVEncMPACodingMode_Mono, codecapi/eAVEncMPACodingMode_Stereo, codecapi/eAVEncMPACodingMode_Surround, dshow.eavencmpacodingmode, eAVEncMPACodingMode, eAVEncMPACodingMode enumeration [DirectShow], eAVEncMPACodingModeEnumeration, eAVEncMPACodingMode_DualChannel, eAVEncMPACodingMode_JointStereo, eAVEncMPACodingMode_Mono, eAVEncMPACodingMode_Stereo, eAVEncMPACodingMode_Surround
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd317871(v=VS.85).aspx">AVEncMPACodingMode</a> property.
+Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://msdn.microsoft.com/c1a303fd-3625-4051-b6b8-4f83cceec945">AVEncMPACodingMode</a> property.
 
 
 
@@ -95,7 +93,7 @@ Surround audio (5.1 channels).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 

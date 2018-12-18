@@ -9,8 +9,6 @@ ms.assetid: 459c616d-8551-4112-850f-ddd4743fc2a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordToUChar, ULongToUChar, ULongToUChar function [Windows Shell], _shell_ULongToUChar, intsafe/ULongToUChar, shell.ULongToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

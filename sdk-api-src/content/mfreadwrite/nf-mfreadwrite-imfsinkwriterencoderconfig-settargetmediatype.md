@@ -9,8 +9,6 @@ ms.assetid: 26d6ee83-5899-40e7-8b71-ca47f5b0d1c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],SetTargetMediaType method, IMFSinkWriterEncoderConfig.SetTargetMediaType, IMFSinkWriterEncoderConfig::SetTargetMediaType, SetTargetMediaType, SetTargetMediaType method [Media Foundation], SetTargetMediaType method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_settargetmediatype, mfreadwrite/IMFSinkWriterEncoderConfig::SetTargetMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

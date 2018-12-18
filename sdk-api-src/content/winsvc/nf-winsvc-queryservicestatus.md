@@ -9,8 +9,6 @@ ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryServiceStatus, QueryServiceStatus function, _win32_queryservicestatus, base.queryservicestatus, winsvc/QueryServiceStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

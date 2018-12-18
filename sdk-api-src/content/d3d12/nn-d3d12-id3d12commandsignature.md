@@ -9,8 +9,6 @@ ms.assetid: 57EC15D0-9056-4AFC-86EF-3658DEA8AF40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12CommandSignature, ID3D12CommandSignature interface, ID3D12CommandSignature interface,described, d3d12/ID3D12CommandSignature, direct3d12.id3d12commandsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

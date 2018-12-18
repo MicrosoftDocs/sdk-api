@@ -9,8 +9,6 @@ ms.assetid: 6a28ccc6-1d06-41d7-8d76-14e594102832
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSetRetry, SnmpSetRetry function [SNMP], _snmp_snmpsetretry, snmp.snmpsetretry, winsnmp/SnmpSetRetry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

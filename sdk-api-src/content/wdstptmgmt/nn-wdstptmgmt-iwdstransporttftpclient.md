@@ -9,8 +9,6 @@ ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

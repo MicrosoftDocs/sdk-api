@@ -9,8 +9,6 @@ ms.assetid: f9c8a680-644a-4617-866f-36e721bbc7aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISendMethodEvents interface [COM+],SendMethodReturn method, ISendMethodEvents.SendMethodReturn, ISendMethodEvents::SendMethodReturn, SendMethodReturn, SendMethodReturn method [COM+], SendMethodReturn method [COM+],ISendMethodEvents interface, _cos_ISendMethodEvents_SendMethodReturn, comsvcs/ISendMethodEvents::SendMethodReturn, cos.isendmethodevents_sendmethodreturn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

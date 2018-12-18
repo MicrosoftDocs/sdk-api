@@ -7,10 +7,8 @@ old-location: opc\iopcpartenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 4d52bb74-53f5-4c7c-a42e-5d67e330b48c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcPartEnumerator.MoveNext, IOpcPartEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MoveNext, opc.iopcpartenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

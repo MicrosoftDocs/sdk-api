@@ -9,8 +9,6 @@ ms.assetid: 826b45cd-a1ec-406c-bf7a-685a766484e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfKeyTraceEventSink interface [Text Services Framework],OnKeyTraceDown method, ITfKeyTraceEventSink.OnKeyTraceDown, ITfKeyTraceEventSink::OnKeyTraceDown, OnKeyTraceDown, OnKeyTraceDown method [Text Services Framework], OnKeyTraceDown method [Text Services Framework],ITfKeyTraceEventSink interface, _tsf_itfkeytraceeventsink_onkeytracedown_ref, msctf/ITfKeyTraceEventSink::OnKeyTraceDown, tsf.itfkeytraceeventsink_onkeytracedown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6e249d8f-0351-452f-9b53-86f77df2fd70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumProtocolsSupported, GetNumProtocolsSupported method [windows Media Format], GetNumProtocolsSupported method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetNumProtocolsSupported method, IWMReaderNetworkConfig.GetNumProtocolsSupported, IWMReaderNetworkConfig::GetNumProtocolsSupported, IWMReaderNetworkConfigGetNumProtocolsSupported, wmformat.iwmreadernetworkconfig_getnumprotocolssupported, wmsdkidl/IWMReaderNetworkConfig::GetNumProtocolsSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -112,7 +110,7 @@ NULL or invalid argument passed in.
 
 
 
-Use this method along with <a href="https://msdn.microsoft.com/056d5f3f-79bf-4e21-9f2c-cda05eaca13d">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
+Use this method along with <a href="https://msdn.microsoft.com/en-us/library/Dd757436(v=VS.85).aspx">IWMReaderAdvanced2::GetProtocolName</a> to iterate through the network protocols supported by the reader.
 
 This method counts the number of protocols that the reader can use when receiving a stream. It does not indicate the protocols that are available for sending a stream.
 
@@ -124,7 +122,7 @@ This method counts the number of protocols that the reader can use when receivin
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
  
 
  

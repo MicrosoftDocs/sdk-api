@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclas
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetTransform method, LinearGradientBrush.GetTransform, LinearGradientBrush::GetTransform, _gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetTransform_matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

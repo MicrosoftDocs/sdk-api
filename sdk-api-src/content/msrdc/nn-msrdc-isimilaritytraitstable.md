@@ -9,8 +9,6 @@ ms.assetid: 0985e27c-aa70-43c1-bcec-00ef14f2df58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], ISimilarityTraitsTable interface [Remote Differential Compression],described, fs.isimilaritytraitstable, msrdc/ISimilarityTraitsTable, rdc.isimilaritytraitstable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

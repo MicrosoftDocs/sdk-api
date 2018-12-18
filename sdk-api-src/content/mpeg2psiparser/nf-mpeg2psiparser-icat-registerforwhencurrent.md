@@ -9,8 +9,6 @@ ms.assetid: 74a5c410-314e-4f49-b294-a4788e85cbef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, ICAT.RegisterForWhenCurrent, ICAT::RegisterForWhenCurrent, ICATRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForWhenCurrent, mstv.icat_registerforwhencurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -144,7 +142,7 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 
 
 
-<a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
  
 
  

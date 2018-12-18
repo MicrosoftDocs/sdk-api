@@ -9,8 +9,6 @@ ms.assetid: 96f4d621-c618-49fa-a0f6-bcc68a41467e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_CurrentPosition method, IMediaPosition.get_CurrentPosition, IMediaPosition::get_CurrentPosition, IMediaPositionget_CurrentPosition, control/IMediaPosition::get_CurrentPosition, dshow.imediaposition_get_currentposition, get_CurrentPosition, get_CurrentPosition method [DirectShow], get_CurrentPosition method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -133,7 +131,7 @@ If the graph is paused or stopped, the current position is the point at which pl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

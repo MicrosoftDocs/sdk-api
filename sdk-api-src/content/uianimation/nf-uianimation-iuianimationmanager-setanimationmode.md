@@ -9,8 +9,6 @@ ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

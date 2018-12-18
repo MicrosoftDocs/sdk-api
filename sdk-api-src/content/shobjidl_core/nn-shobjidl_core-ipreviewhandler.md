@@ -9,8 +9,6 @@ ms.assetid: a4e6507c-10b1-4c21-9359-92ba635a2a2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPreviewHandler, IPreviewHandler interface [Windows Shell], IPreviewHandler interface [Windows Shell],described, _shell_IPreviewHandler, shell.IPreviewHandler, shobjidl_core/IPreviewHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

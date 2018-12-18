@@ -9,8 +9,6 @@ ms.assetid: 7418EDE0-D9E1-4D8C-84B0-CAE9BDF053E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], IUnbufferedFileHandleOplockCallback interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleOplockCallback, winrt.iunbufferedfilehandleoplockcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windowsstoragecom.h
 req.include-header: 

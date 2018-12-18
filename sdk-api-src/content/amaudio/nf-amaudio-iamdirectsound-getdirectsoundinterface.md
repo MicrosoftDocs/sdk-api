@@ -9,8 +9,6 @@ ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

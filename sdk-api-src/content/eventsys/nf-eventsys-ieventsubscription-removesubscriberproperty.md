@@ -9,8 +9,6 @@ ms.assetid: 3c0cd763-8528-4f8b-8a09-c36860cad9b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventSubscription interface [COM+],RemoveSubscriberProperty method, IEventSubscription.RemoveSubscriberProperty, IEventSubscription::RemoveSubscriberProperty, RemoveSubscriberProperty, RemoveSubscriberProperty method [COM+], RemoveSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemoveSubscriberProperty, cos.ieventsubscription_removesubscriberproperty, eventsys/IEventSubscription::RemoveSubscriberProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

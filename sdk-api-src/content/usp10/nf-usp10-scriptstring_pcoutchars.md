@@ -9,8 +9,6 @@ ms.assetid: ad3f15cc-d4e9-4e71-a8c8-287bd62e9b15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptString_pcOutChars, ScriptString_pcOutChars function [Internationalization for Windows Applications], _win32_ScriptString_pcOutChars, intl.scriptstring_pcoutchars, usp10/ScriptString_pcOutChars
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

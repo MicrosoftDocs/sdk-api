@@ -9,8 +9,6 @@ ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetModuleHandle, GetModuleHandle function, GetModuleHandleA, GetModuleHandleW, _win32_getmodulehandle, base.getmodulehandle, libloaderapi/GetModuleHandle, libloaderapi/GetModuleHandleA, libloaderapi/GetModuleHandleW, winbase/GetModuleHandle, winbase/GetModuleHandleA, winbase/GetModuleHandleW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h
@@ -102,7 +100,7 @@ If the function fails, the return value is NULL. To get extended error informati
 
 The returned handle is not global or inheritable. It cannot be duplicated or used by another process.
 
-If <i>lpModuleName</i> does not include a path and there is more than one loaded module with the same base name and extension, you cannot predict which module handle will be returned. To work around this problem, you could specify a path, use <a href="setup.isolated_applications_and_side_by_side_assemblies_start_page">side-by-side assemblies</a>, or use <a href="https://msdn.microsoft.com/951c7e6e-1d6d-4393-a675-d2b353c53b87">GetModuleHandleEx</a> to specify a memory location rather than a DLL name. 
+If <i>lpModuleName</i> does not include a path and there is more than one loaded module with the same base name and extension, you cannot predict which module handle will be returned. To work around this problem, you could specify a path, use <a href="https://msdn.microsoft.com/en-us/library/Aa371852(v=VS.85).aspx">side-by-side assemblies</a>, or use <a href="https://msdn.microsoft.com/951c7e6e-1d6d-4393-a675-d2b353c53b87">GetModuleHandleEx</a> to specify a memory location rather than a DLL name. 
 
 The 
 <b>GetModuleHandle</b> function returns a handle to a mapped module without incrementing its reference count. However, if this handle is passed to the <a href="https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a">FreeLibrary</a> function, the reference count of the mapped module will be decremented. Therefore, do not pass a handle returned by <b>GetModuleHandle</b> to the 

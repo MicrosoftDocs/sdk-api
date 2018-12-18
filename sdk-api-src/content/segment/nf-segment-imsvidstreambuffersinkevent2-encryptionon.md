@@ -9,8 +9,6 @@ ms.assetid: 753f33bc-2430-4c76-bf9b-ccd5aeaf6676
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EncryptionOn, EncryptionOn method [Microsoft TV Technologies], EncryptionOn method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOn method, IMSVidStreamBufferSinkEvent2.EncryptionOn, IMSVidStreamBufferSinkEvent2::EncryptionOn, IMSVidStreamBufferSinkEvent2EncryptionOn, mstv.imsvidstreambuffersinkevent2_encryptionon, segment/IMSVidStreamBufferSinkEvent2::EncryptionOn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -99,7 +97,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/9e44b248-fc8a-44c1-9da6-8afb7649f6f4">IMSVidStreamBufferSinkEvent2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694647(v=VS.85).aspx">IMSVidStreamBufferSinkEvent2 Interface</a>
  
 
  

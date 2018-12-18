@@ -9,8 +9,6 @@ ms.assetid: 3669fe6e-233e-4214-9f84-763a06835f48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentItemChange, CurrentItemChange method [Windows Media Player], CurrentItemChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentItemChange method, IWMPEvents.CurrentItemChange, IWMPEvents::CurrentItemChange, IWMPEventsCurrentItemChange, wmp.iwmpevents_iwmpevents__currentitemchange, wmp/IWMPEvents::CurrentItemChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -80,11 +78,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/190cec53-5cd9-4bd0-b8d9-23c5389fe231">IWMPControls::put_currentItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563208(v=VS.85).aspx">IWMPControls::put_currentItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: a383f152-b5c2-46db-a3e8-977e9cd0caa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MBN_PIN_FORMAT, MBN_PIN_FORMAT enumeration [Microsoft Broadband Networks], MBN_PIN_FORMAT_ALPHANUMERIC, MBN_PIN_FORMAT_NONE, MBN_PIN_FORMAT_NUMERIC, mbn.mbn_pin_format, mbnapi/MBN_PIN_FORMAT, mbnapi/MBN_PIN_FORMAT_ALPHANUMERIC, mbnapi/MBN_PIN_FORMAT_NONE, mbnapi/MBN_PIN_FORMAT_NUMERIC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a38186b6-4b27-4360-8721-49c95dd94806
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], display.engdeviceiocontrol, gdifncs_735d205a-99e3-4397-a5ac-31312ac734e7.xml, winddi/EngDeviceIoControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

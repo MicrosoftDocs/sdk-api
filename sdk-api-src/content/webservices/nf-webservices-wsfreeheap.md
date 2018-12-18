@@ -9,8 +9,6 @@ ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

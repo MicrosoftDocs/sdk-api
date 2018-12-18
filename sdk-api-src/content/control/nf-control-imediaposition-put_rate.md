@@ -9,8 +9,6 @@ ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_Rate method, IMediaPosition.put_Rate, IMediaPosition::put_Rate, IMediaPositionput_Rate, control/IMediaPosition::put_Rate, dshow.imediaposition_put_rate, put_Rate, put_Rate method [DirectShow], put_Rate method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -133,7 +131,7 @@ For more information, see the remarks in <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

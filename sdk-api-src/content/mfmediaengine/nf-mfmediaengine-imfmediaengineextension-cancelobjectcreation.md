@@ -9,8 +9,6 @@ ms.assetid: E2FEC865-221E-41B5-8271-32A53D60619E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],CancelObjectCreation method, IMFMediaEngineExtension.CancelObjectCreation, IMFMediaEngineExtension::CancelObjectCreation, mf.imfmediaengineextension_cancelobjectcreation, mfmediaengine/IMFMediaEngineExtension::CancelObjectCreation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

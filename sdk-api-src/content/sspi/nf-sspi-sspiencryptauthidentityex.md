@@ -9,8 +9,6 @@ ms.assetid: 9290BEF8-24C9-47F0-B258-56ED7D67620B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SspiEncryptAuthIdentityEx, SspiEncryptAuthIdentityEx function [Security], security.sspiencryptauthidentityex, sspi/SspiEncryptAuthIdentityEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

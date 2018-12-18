@@ -9,8 +9,6 @@ ms.assetid: 99031574-a941-451f-ad2e-b99044c9c716
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtmReferenceHandles, RtmReferenceHandles function [RAS], _rtmv2ref_rtmreferencehandles, rras.rtmreferencehandles, rtmv2/RtmReferenceHandles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

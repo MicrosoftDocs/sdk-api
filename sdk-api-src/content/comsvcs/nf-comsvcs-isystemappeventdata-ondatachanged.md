@@ -9,8 +9,6 @@ ms.assetid: db30c40e-8dd8-4055-b2c4-71f9d0c2efc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISystemAppEventData interface [COM+],OnDataChanged method, ISystemAppEventData.OnDataChanged, ISystemAppEventData::OnDataChanged, OnDataChanged, OnDataChanged method [COM+], OnDataChanged method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_OnDataChanged, comsvcs/ISystemAppEventData::OnDataChanged, cos.isystemappeventdata_ondatachanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

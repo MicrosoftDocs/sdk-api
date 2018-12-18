@@ -9,8 +9,6 @@ ms.assetid: 61D64543-565B-4E64-B20E-03B1CD0F8FCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionBlendEffect interface [DirectComposition],SetMode method, IDCompositionBlendEffect.SetMode, IDCompositionBlendEffect::SetMode, SetMode, SetMode method [DirectComposition], SetMode method [DirectComposition],IDCompositionBlendEffect interface, dcomp/IDCompositionBlendEffect::SetMode, directcomp.idcompositionblendeffect_setmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ The blend mode to use when the blend effect combines the two images.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>
  
 
  

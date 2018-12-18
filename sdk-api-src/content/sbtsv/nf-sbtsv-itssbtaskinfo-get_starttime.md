@@ -4,13 +4,11 @@ title: ITsSbTaskInfo::get_StartTime
 author: windows-sdk-content
 description: Retrieves the earliest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_starttime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 74ff25aa-3336-4524-9051-69e51d357f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],StartTime property, ITsSbTaskInfo.StartTime, ITsSbTaskInfo.get_StartTime, ITsSbTaskInfo::StartTime, ITsSbTaskInfo::get_StartTime, StartTime property [Remote Desktop Services], StartTime property [Remote Desktop Services],ITsSbTaskInfo interface, get_StartTime, sbtsv/ITsSbTaskInfo::StartTime, sbtsv/ITsSbTaskInfo::get_StartTime, termserv.itssbtaskinfo_starttime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

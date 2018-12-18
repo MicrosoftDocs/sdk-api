@@ -9,8 +9,6 @@ ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_updateuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

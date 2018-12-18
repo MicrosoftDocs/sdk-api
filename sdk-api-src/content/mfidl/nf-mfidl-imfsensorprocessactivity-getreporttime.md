@@ -9,8 +9,6 @@ ms.assetid: 5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetReportTime, GetReportTime method [Media Foundation], GetReportTime method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetReportTime method, IMFSensorProcessActivity.GetReportTime, IMFSensorProcessActivity::GetReportTime, mf.imfsensorprocessactivity_getreporttime, mfidl/IMFSensorProcessActivity::GetReportTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxconfiguration\ifaxco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration, IFaxConfiguration interface [Fax Service], IFaxConfiguration interface [Fax Service],described, _mfax_IFaxConfiguration, fax._mfax_IFaxConfiguration, faxcomex/IFaxConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

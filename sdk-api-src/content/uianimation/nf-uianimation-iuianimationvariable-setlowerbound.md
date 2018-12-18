@@ -9,8 +9,6 @@ ms.assetid: 1e8f1106-6320-4670-867a-24ce6597026e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetLowerBound method, IUIAnimationVariable.SetLowerBound, IUIAnimationVariable::SetLowerBound, SetLowerBound, SetLowerBound method [Windows Animation], SetLowerBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setlowerbound, uianimation/IUIAnimationVariable::SetLowerBound
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

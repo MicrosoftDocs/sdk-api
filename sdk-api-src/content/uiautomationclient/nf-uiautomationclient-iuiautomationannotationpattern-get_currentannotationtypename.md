@@ -9,8 +9,6 @@ ms.assetid: 5AACADE4-304D-47FA-9A55-78B974E8D46C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentAnnotationTypeName property [Windows Accessibility], CurrentAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeName property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeName, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, get_CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

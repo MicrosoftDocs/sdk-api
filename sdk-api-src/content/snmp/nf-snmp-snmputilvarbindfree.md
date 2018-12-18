@@ -9,8 +9,6 @@ ms.assetid: 6e3d0a04-34f8-4342-837d-c0d357a1d1a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilVarBindFree, SnmpUtilVarBindFree function [SNMP], _snmp_snmputilvarbindfree, snmp.snmputilvarbindfree, snmp/SnmpUtilVarBindFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 The
 				<b>SnmpUtilVarBindFree</b> function frees the memory allocated for an 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure. This function is an element of the SNMP Utility API.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure. This function is an element of the SNMP Utility API.
 
 
 ## -parameters
@@ -65,7 +63,7 @@ The
 ### -param pVb [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure whose memory should be freed.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure whose memory should be freed.
 
 
 ## -returns
@@ -94,7 +92,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

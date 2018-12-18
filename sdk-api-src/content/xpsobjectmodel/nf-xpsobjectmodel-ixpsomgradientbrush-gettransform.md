@@ -9,8 +9,6 @@ ms.assetid: 6b5474d2-a97e-4446-b4a9-7efb51c31ad3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransform method, IXpsOMGradientBrush.GetTransform, IXpsOMGradientBrush::GetTransform, xps.ixpsomgradientbrush_gettransform, xpsobjectmodel/IXpsOMGradientBrush::GetTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

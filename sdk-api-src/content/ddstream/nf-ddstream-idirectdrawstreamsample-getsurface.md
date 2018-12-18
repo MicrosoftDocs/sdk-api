@@ -9,8 +9,6 @@ ms.assetid: c6802940-53e5-4458-a1eb-deddd807a18a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IDirectDrawStreamSample interface, IDirectDrawStreamSample interface [DirectShow],GetSurface method, IDirectDrawStreamSample.GetSurface, IDirectDrawStreamSample::GetSurface, IDirectDrawStreamSampleGetSurface, ddstream/IDirectDrawStreamSample::GetSurface, dshow.idirectdrawstreamsample_getsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 
@@ -96,7 +94,7 @@ Both parameters are optional. All implementations of this interface must support
 
 
 
-<a href="https://msdn.microsoft.com/afc8ac84-4629-4c5d-b4b2-59c1eb1af35d">IDirectDrawStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406813(v=VS.85).aspx">IDirectDrawStreamSample Interface</a>
  
 
  

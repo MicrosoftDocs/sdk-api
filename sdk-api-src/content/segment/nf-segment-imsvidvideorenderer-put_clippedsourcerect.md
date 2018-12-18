@@ -9,8 +9,6 @@ ms.assetid: c72d8134-ff6c-46b4-b567-35638aef53cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_ClippedSourceRect method, IMSVidVideoRenderer.put_ClippedSourceRect, IMSVidVideoRenderer::put_ClippedSourceRect, IMSVidVideoRendererput_ClippedSourceRect, mstv.imsvidvideorenderer_put_clippedsourcerect, put_ClippedSourceRect, put_ClippedSourceRect method [Microsoft TV Technologies], put_ClippedSourceRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_ClippedSourceRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle and stretches this to fill the Video Control's video window. For more information, see <a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">IMSVidVideoRenderer::put_SourceSize</a>.
+If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the video image to the video source rectangle and stretches this to fill the Video Control's video window. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">IMSVidVideoRenderer::put_SourceSize</a>.
 
 
 #### Examples
@@ -122,7 +120,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/d40d39d9-41a4-42e1-b0d0-4a6299fd1cff">IMSVidVideoRenderer::get_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694733(v=VS.85).aspx">IMSVidVideoRenderer::get_ClippedSourceRect</a>
  
 
  

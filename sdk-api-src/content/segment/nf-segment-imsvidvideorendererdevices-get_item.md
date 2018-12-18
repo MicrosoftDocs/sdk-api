@@ -9,8 +9,6 @@ ms.assetid: 2cb169d2-f6b2-4156-aa11-f9b47437b731
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidVideoRendererDevices.get_Item, IMSVidVideoRendererDevices::get_Item, IMSVidVideoRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_item, segment/IMSVidVideoRendererDevices::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -144,7 +142,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/4308ed6a-b9c4-46f3-98eb-be23cd49c7dc">IMSVidVideoRendererDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694723(v=VS.85).aspx">IMSVidVideoRendererDevices::get_Count</a> - 1.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: c5a7cbbc-361c-4e99-af31-f7114eb5261b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddStrokesAtRectangle, AddStrokesAtRectangle method [Tablet PC], AddStrokesAtRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],AddStrokesAtRectangle method, IInkDisp.AddStrokesAtRectangle, IInkDisp::AddStrokesAtRectangle, c5a7cbbc-361c-4e99-af31-f7114eb5261b, msinkaut/IInkDisp::AddStrokesAtRectangle, tablet.inkdisp_addstrokesatrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -171,7 +169,7 @@ This method can be used to copy strokes within a single <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

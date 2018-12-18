@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_creategeometryshaderwithstreamoutput.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1ef110f5-f95f-ec17-1f56-6f491a0ffac4, CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput method [Direct3D 10], CreateGeometryShaderWithStreamOutput method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateGeometryShaderWithStreamOutput method, ID3D10Device.CreateGeometryShaderWithStreamOutput, ID3D10Device::CreateGeometryShaderWithStreamOutput, d3d10/ID3D10Device::CreateGeometryShaderWithStreamOutput, direct3d10.id3d10device_creategeometryshaderwithstreamoutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -70,7 +68,7 @@ To create the stream output without using a geometry shader, pass a pointer to t
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
 
 Size of the compiled geometry shader.
 
@@ -84,14 +82,14 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172450(v=VS.85)
 
 ### -param NumEntries [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of entries in the array pointed to by <i>pSODeclaration</i>. Minimum 0, maximum 64.
 
 
 ### -param OutputStreamStride [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The size, in bytes, of each element in the array pointed to by <i>pSODeclaration</i>. This parameter is only used when the output slot is 0 for all entries in <i>pSODeclaration</i>.
 

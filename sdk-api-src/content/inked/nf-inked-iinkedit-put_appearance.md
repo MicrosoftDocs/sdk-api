@@ -9,8 +9,6 @@ ms.assetid: 4575728c-79ca-4b3f-b068-3b0f8f976cf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Appearance property, IInkEdit.Appearance, IInkEdit.put_Appearance, IInkEdit::Appearance, IInkEdit::get_Appearance, IInkEdit::put_Appearance, InkEdit.get_Appearance, InkEdit.put_Appearance, get_Appearance, inked/IInkEdit::Appearance, inked/IInkEdit::get_Appearance, inked/IInkEdit::put_Appearance, put_Appearance, tablet.inkedit_appearance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -73,7 +71,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

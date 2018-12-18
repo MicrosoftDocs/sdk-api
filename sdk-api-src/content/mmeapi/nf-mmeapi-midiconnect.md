@@ -9,8 +9,6 @@ ms.assetid: 24ee806a-f8a2-470e-8737-e4e5216f2705
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiConnect, midiConnect, midiConnect function [Windows Multimedia], mmeapi/midiConnect, multimedia.midiconnect"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

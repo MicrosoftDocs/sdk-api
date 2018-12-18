@@ -9,8 +9,6 @@ ms.assetid: c80001b8-5648-430a-b565-e90486c48ac5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Flush method, IMediaObject.Flush, IMediaObject::Flush, IMediaObjectFlush, dshow.imediaobject_flush, mediaobj/IMediaObject::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -80,13 +78,13 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 The DMO performs the following actions when this method is called:
 
 <ul>
-<li>Releases any <a href="https://msdn.microsoft.com/74d72ca6-f899-43fc-bdea-5208d920f314">IMediaBuffer</a> references it holds.</li>
+<li>Releases any <a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer</a> references it holds.</li>
 <li>Discards any values that specify the time stamp or sample length for a media buffer.</li>
 <li>Reinitializes any internal states that depend on the contents of a media sample.</li>
 </ul>
 Media types, maximum latency, and locked state do not change.
 
-When the method returns, every input stream accepts data. Output streams cannot produce any data until the application calls the <a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a> method on at least one input stream.
+When the method returns, every input stream accepts data. Output streams cannot produce any data until the application calls the <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> method on at least one input stream.
 
 
 
@@ -96,7 +94,7 @@ When the method returns, every input stream accepts data. Output streams cannot 
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

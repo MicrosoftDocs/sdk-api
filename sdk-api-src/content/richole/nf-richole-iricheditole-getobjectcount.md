@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Windows Controls], GetObjectCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObjectCount method, IRichEditOle.GetObjectCount, IRichEditOle::GetObjectCount, _win32_IRichEditOle_GetObjectCount, _win32_IRichEditOle_GetObjectCount_cpp, controls.IRichEditOle_GetObjectCount, controls._win32_IRichEditOle_GetObjectCount, richole/IRichEditOle::GetObjectCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxGetJob, FaxGetJob function [Fax Service], FaxGetJobA, FaxGetJobW, _mfax_faxgetjob, fax._mfax_faxgetjob, winfax/FaxGetJob, winfax/FaxGetJobA, winfax/FaxGetJobW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

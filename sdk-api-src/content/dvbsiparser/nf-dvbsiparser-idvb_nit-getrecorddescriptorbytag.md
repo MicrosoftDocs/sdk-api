@@ -9,8 +9,6 @@ ms.assetid: e4d3da3c-3631-41c2-b463-a90cd54e42f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_NIT.GetRecordDescriptorByTag, IDVB_NIT::GetRecordDescriptorByTag, IDVB_NITGetRecordDescriptorByTag, dvbsiparser/IDVB_NIT::GetRecordDescriptorByTag, mstv.idvb_nit_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -81,7 +79,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

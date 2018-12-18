@@ -9,8 +9,6 @@ ms.assetid: 5b627710-8507-460e-bdc7-2a5633ce370f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RenderTarget interface [Direct2D],RestoreDrawingState method, ID2D1RenderTarget.RestoreDrawingState, ID2D1RenderTarget::RestoreDrawingState, RestoreDrawingState, RestoreDrawingState method [Direct2D], RestoreDrawingState method [Direct2D],ID2D1RenderTarget interface, d2d1/ID2D1RenderTarget::RestoreDrawingState, direct2d.ID2D1RenderTarget_RestoreDrawingState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 98C790BD-5C51-4A77-9DB4-51A263A4EC2A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionDevice2 interface [DirectComposition],WaitForCommitCompletion method, IDCompositionDevice2.WaitForCommitCompletion, IDCompositionDevice2::WaitForCommitCompletion, WaitForCommitCompletion, WaitForCommitCompletion method [DirectComposition], WaitForCommitCompletion method [DirectComposition],IDCompositionDevice2 interface, dcomp/IDCompositionDevice2::WaitForCommitCompletion, directcomp.idcompositiondevice2_waitforcommitcompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Waits for the composition engine to finish processing the previous call to the <a href="https://msdn.microsoft.com/8C24DE03-CF1E-4DC4-8C27-913DAD278579">IDCompositionDevice2::Commit</a> method. 
+Waits for the composition engine to finish processing the previous call to the <a href="https://msdn.microsoft.com/en-us/library/Dn280355(v=VS.85).aspx">IDCompositionDevice2::Commit</a> method. 
 
 
 ## -parameters
@@ -74,7 +72,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1c5cdd44-e818-43ef-aaba-60a01660f7cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportClientCompleteReceive, WdsTransportClientCompleteReceive function [Windows Deployment Services], wds.wdstransportclientcompletereceive, wdstci/WdsTransportClientCompleteReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 46a8ff9f-17d9-4c33-8ca4-0a3978013f52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPIReadMail, MAPIReadMail callback, MAPIReadMail callback function, MAPI_BODY_AS_FILE, MAPI_ENVELOPE_ONLY, MAPI_PEEK, MAPI_SUPPRESS_ATTACH, mapi.mapireadmail, mapi/MAPIReadMail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -120,7 +118,7 @@ Bitmask of option flags. The following flags can be set.
 </dl>
 </td>
 <td width="60%">
-<b>MAPIReadMail</b> should not copy file attachments but should write message text into the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure. <b>MAPIReadMail</b> ignores this flag if the calling application has set the MAPI_ENVELOPE_ONLY flag. Setting the MAPI_SUPPRESS_ATTACH flag enhances performance.
+<b>MAPIReadMail</b> should not copy file attachments but should write message text into the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure. <b>MAPIReadMail</b> ignores this flag if the calling application has set the MAPI_ENVELOPE_ONLY flag. Setting the MAPI_SUPPRESS_ATTACH flag enhances performance.
 
 </td>
 </tr>
@@ -135,9 +133,9 @@ Reserved; must be zero.
 
 ### -param *lppMessage [out]
 
-Pointer to the location where the message is written. Messages are written to a <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure which can be freed with a single call to the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function.
+Pointer to the location where the message is written. Messages are written to a <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure which can be freed with a single call to the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function.
 
-When MAPI_ENVELOPE_ONLY and MAPI_SUPPRESS_ATTACH are not set, attachments are written to temporary files pointed to by the <b>lpFiles</b> member of the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure. It is the caller's responsibility to delete these files when they are no longer needed.
+When MAPI_ENVELOPE_ONLY and MAPI_SUPPRESS_ATTACH are not set, attachments are written to temporary files pointed to by the <b>lpFiles</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure. It is the caller's responsibility to delete these files when they are no longer needed.
 
 
 ## -returns
@@ -260,11 +258,11 @@ The call succeeded and the message was read.
 
 
 
-The <b>MAPIReadMail</b> function returns one message, breaking the message content into the same parameters and structures used in the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function. <b>MAPIReadMail</b> fills a block of memory with the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure containing message elements, such as the subject, message class, delivery time, and the sender. File attachments are saved to temporary files, and the names are returned to the caller in the message structure. Recipients, attachments, and contents are copied from the message before <b>MAPIReadMail</b> returns to the caller, so later changes to the files do not affect the contents of the message. 
+The <b>MAPIReadMail</b> function returns one message, breaking the message content into the same parameters and structures used in the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function. <b>MAPIReadMail</b> fills a block of memory with the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure containing message elements, such as the subject, message class, delivery time, and the sender. File attachments are saved to temporary files, and the names are returned to the caller in the message structure. Recipients, attachments, and contents are copied from the message before <b>MAPIReadMail</b> returns to the caller, so later changes to the files do not affect the contents of the message. 
 
-A flag is provided to specify that only envelope information is to be returned from the call. Another flag (in the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure) specifies whether the message is marked as sent or unsent.
+A flag is provided to specify that only envelope information is to be returned from the call. Another flag (in the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure) specifies whether the message is marked as sent or unsent.
 
-The caller is responsible for freeing the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function and deleting any files associated with attachments included with the message.
+The caller is responsible for freeing the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure by calling the <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a> function and deleting any files associated with attachments included with the message.
 
 Before calling <b>MAPIReadMail</b>, use the <a href="https://msdn.microsoft.com/6c11e88c-2883-4486-9679-2bdf0b30b8b0">MAPIFindNext</a> function to verify that the message to be read is the one you want to be read. Because message identifiers are system-specific and opaque and can be invalidated at any time, <b>MAPIReadMail</b> considers a message identifier to be valid only for the current Simple MAPI session. 
 
@@ -284,7 +282,7 @@ Before calling <b>MAPIReadMail</b>, use the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 

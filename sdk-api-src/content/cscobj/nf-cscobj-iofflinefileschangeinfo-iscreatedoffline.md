@@ -7,10 +7,8 @@ old-location: of\iofflinefileschangeinfo_iscreatedoffline.htm
 tech.root: offlinefiles
 ms.assetid: 2074df23-a2dd-45ea-9ef4-5619cebebe31
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsCreatedOffline method, IOfflineFilesChangeInfo.IsCreatedOffline, IOfflineFilesChangeInfo::IsCreatedOffline, IsCreatedOffline, IsCreatedOffline method [Offline Files], IsCreatedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsCreatedOffline, of.iofflinefileschangeinfo_iscreatedoffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -78,7 +76,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530504(v=VS.85).aspx">IOfflineFilesChangeInfo</a>
+<a href="https://msdn.microsoft.com/0ece6120-bd5d-4e3d-b71f-7aa9a51a1568">IOfflineFilesChangeInfo</a>
  
 
  

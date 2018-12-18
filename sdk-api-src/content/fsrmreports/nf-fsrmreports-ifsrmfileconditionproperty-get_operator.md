@@ -9,8 +9,6 @@ ms.assetid: b04b238b-55df-4467-809f-dbbc4ebd5595
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Operator property, IFsrmFileConditionProperty.Operator, IFsrmFileConditionProperty.get_Operator, IFsrmFileConditionProperty::Operator, IFsrmFileConditionProperty::get_Operator, IFsrmFileConditionProperty::put_Operator, Operator property [File Server Resource Manager], Operator property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_operator, fsrm.ifsrmfileconditionproperty_operator, fsrmreports/IFsrmFileConditionProperty::Operator, fsrmreports/IFsrmFileConditionProperty::get_Operator, fsrmreports/IFsrmFileConditionProperty::put_Operator, get_Operator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

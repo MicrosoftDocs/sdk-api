@@ -9,8 +9,6 @@ ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [windows Media Format], Clear method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],Clear method, IWMPropertyVault.Clear, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -80,7 +78,7 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/0e51a9be-afd4-430b-8339-f45e8f9a7d20">IWMPropertyVault Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3111eecc-b869-4235-8af4-cc0ef9cc5e4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ICAT.GetCountOfTableDescriptors, ICAT::GetCountOfTableDescriptors, ICATGetCountOfTableDescriptors, mpeg2psiparser/ICAT::GetCountOfTableDescriptors, mstv.icat_getcountoftabledescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -113,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
  
 
  

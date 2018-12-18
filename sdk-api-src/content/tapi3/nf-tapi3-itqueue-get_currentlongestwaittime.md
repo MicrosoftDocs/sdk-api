@@ -9,8 +9,6 @@ ms.assetid: f3334932-2029-4e10-a12c-605697a2bb36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_CurrentLongestWaitTime method, ITQueue.get_CurrentLongestWaitTime, ITQueue::get_CurrentLongestWaitTime, _tapi3_itqueue_get_currentlongestwaittime, get_CurrentLongestWaitTime, get_CurrentLongestWaitTime method [TAPI 2.2], get_CurrentLongestWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_currentlongestwaittime, tapi3cc/ITQueue::get_CurrentLongestWaitTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

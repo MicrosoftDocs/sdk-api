@@ -9,8 +9,6 @@ ms.assetid: 32a68af3-9270-4ac1-b133-a2770220dfcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], IWMPContentContainer interface [Windows Media Player],described, IWMPContentContainerInterface, contentpartner/IWMPContentContainer, wmp.iwmpcontentcontainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IWMPContentContainer</b> interface represents a container for information
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWMPContentContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentContainer</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -135,7 +133,7 @@ Retrieves the type of the content container.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564243(v=VS.85).aspx">Reference for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
  
 
  

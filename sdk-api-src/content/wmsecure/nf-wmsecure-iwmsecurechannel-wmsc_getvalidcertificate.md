@@ -9,8 +9,6 @@ ms.assetid: 0ecc25c5-238e-4415-952e-7d830ba1c317
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_GetValidCertificate method, IWMSecureChannel.WMSC_GetValidCertificate, IWMSecureChannel::WMSC_GetValidCertificate, WMSC_GetValidCertificate, WMSC_GetValidCertificate method [windows Media Format], WMSC_GetValidCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_getvalidcertificate, wmsecure/IWMSecureChannel::WMSC_GetValidCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -89,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
  
 
  

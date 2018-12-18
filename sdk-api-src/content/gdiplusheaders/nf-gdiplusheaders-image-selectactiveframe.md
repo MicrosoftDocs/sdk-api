@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Image class [GDI+],SelectActiveFrame method, Image.SelectActiveFrame, Image::SelectActiveFrame, SelectActiveFrame, SelectActiveFrame method [GDI+], SelectActiveFrame method [GDI+],Image class, _gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_, gdiplus._gdiplus_CLASS_Image_SelectActiveFrame_dimensionID_frameIndex_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

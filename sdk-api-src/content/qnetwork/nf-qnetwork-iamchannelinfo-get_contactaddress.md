@@ -9,8 +9,6 @@ ms.assetid: b94ccc71-92d1-4c1a-b34a-c34e6ea7bd91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactAddress method, IAMChannelInfo.get_ContactAddress, IAMChannelInfo::get_ContactAddress, IAMChannelInfoget_ContactAddress, dshow.iamchannelinfo_get_contactaddress, get_ContactAddress, get_ContactAddress method [DirectShow], get_ContactAddress method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/779d1c0a-f838-4d02-8254-d66916d3b790">IAMChannelInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389154(v=VS.85).aspx">IAMChannelInfo Interface</a>
  
 
  

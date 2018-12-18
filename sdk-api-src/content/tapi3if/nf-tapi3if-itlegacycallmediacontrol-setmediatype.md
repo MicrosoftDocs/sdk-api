@@ -9,8 +9,6 @@ ms.assetid: 627fe465-40f6-481e-9fd6-3fc3e2931e18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITLegacyCallMediaControl interface [TAPI 2.2],SetMediaType method, ITLegacyCallMediaControl.SetMediaType, ITLegacyCallMediaControl::SetMediaType, SetMediaType, SetMediaType method [TAPI 2.2], SetMediaType method [TAPI 2.2],ITLegacyCallMediaControl interface, _tapi3_itlegacycallmediacontrol_setmediatype, tapi3.itlegacycallmediacontrol_setmediatype, tapi3if/ITLegacyCallMediaControl::SetMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

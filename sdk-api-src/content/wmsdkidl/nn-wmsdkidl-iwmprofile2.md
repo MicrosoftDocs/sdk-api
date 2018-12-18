@@ -9,8 +9,6 @@ ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMProfile2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82e3e086-4b19-4eb9-91ad-d30392f97a28">GetProfileID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757267(v=VS.85).aspx">GetProfileID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the globally unique identifier of the profile.
@@ -97,7 +95,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 

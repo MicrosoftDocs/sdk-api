@@ -9,8 +9,6 @@ ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsLunNumber, IVdsLunNumber interface, IVdsLunNumber interface,described, base.ivdslunnumber, vds/IVdsLunNumber, vdshwprv/IVdsLunNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 369d6daf-26fb-47f8-b503-6b0e73613bbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressRelease method, CMSPAddress.MSPAddressRelease, CMSPAddress::MSPAddressRelease, MSPAddressRelease, MSPAddressRelease method [TAPI 2.2], MSPAddressRelease method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressrelease, mspaddr/CMSPAddress::MSPAddressRelease, tapi3.cmspaddress_mspaddressrelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
@@ -66,7 +64,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
  
 
  

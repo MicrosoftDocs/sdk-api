@@ -9,8 +9,6 @@ ms.assetid: C7EA3FB7-0D12-4E49-857F-D8311711AA89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransportInformationAsync, GetTransportInformationAsync method [Media Streaming API], GetTransportInformationAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetTransportInformationAsync method, IMediaRenderer.GetTransportInformationAsync, IMediaRenderer.streaming, IMediaRenderer::GetTransportInformationAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_gettransportinformationasync, windows/IMediaRenderer::GetTransportInformationAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

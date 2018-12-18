@@ -9,8 +9,6 @@ ms.assetid: 6251c9fa-1149-47ac-b776-7d10d153dde5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAnswerMode, GetAnswerMode method [DirectShow], GetAnswerMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetAnswerMode method, IAMWstDecoder.GetAnswerMode, IAMWstDecoder::GetAnswerMode, IAMWstDecoderGetAnswerMode, dshow.iamwstdecoder_getanswermode, iwstdec/IAMWstDecoder::GetAnswerMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -103,7 +101,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

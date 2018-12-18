@@ -9,8 +9,6 @@ ms.assetid: 198a02f1-120c-4f65-aa7c-a41f2e5e81a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RectInRegion, RectInRegion function [Windows GDI], _win32_RectInRegion, gdi.rectinregion, wingdi/RectInRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

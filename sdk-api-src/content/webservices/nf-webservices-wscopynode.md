@@ -9,8 +9,6 @@ ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -140,7 +138,7 @@ If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
 
 If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
-      For information on node types, see the <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE</a> enumeration.
+      For information on node types, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323538(v=VS.85).aspx">WS_XML_NODE_TYPE</a> enumeration.
 
 The reader will be positioned on the node following the node copied.
       

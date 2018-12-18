@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_SetCALID, MonthCal_SetCALID macro [Windows Controls], _shell_MonthCal_SetCALID, _shell_MonthCal_SetCALID_cpp, commctrl/MonthCal_SetCALID, controls.MonthCal_SetCALID, controls._shell_MonthCal_SetCALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the calendar ID for the given calendar control. You can use this macro or s
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to a month calendar control.
 
 
 ### -param calid
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Calendar ID. One of the <a href="https://msdn.microsoft.com/en-us/library/Dd317732(v=VS.85).aspx">Calendar Identifiers</a> constants.
+Calendar ID. One of the <a href="https://msdn.microsoft.com/ba2e841e-e24e-476a-851e-a29b3af4f04d">Calendar Identifiers</a> constants.
 

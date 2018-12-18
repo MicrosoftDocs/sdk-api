@@ -9,8 +9,6 @@ ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

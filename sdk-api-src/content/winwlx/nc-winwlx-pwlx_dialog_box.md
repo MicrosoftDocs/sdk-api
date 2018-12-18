@@ -9,8 +9,6 @@ ms.assetid: a16313ea-ae76-4d9b-80b3-3fb12af803c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PWLX_DIALOG_BOX, PWLX_DIALOG_BOX callback, WlxDialogBox, WlxDialogBox callback function [Security], _gina_wlxdialogbox, security.wlxdialogbox, winwlx/WlxDialogBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winwlx.h
 req.include-header: 
@@ -74,7 +72,7 @@ Specifies an instance of the module whose executable file contains the dialog bo
 ### -param lpszTemplate [in]
 
 Specifies the dialog box template. This parameter is either the address of a null-terminated character string that specifies the name of the dialog box template, or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the 
-<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro to create this value.
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to create this value.
 
 
 ### -param hwndOwner [in]
@@ -85,7 +83,7 @@ Specifies the window that owns the dialog box.
 ### -param dlgprc [in]
 
 Points to the dialog box procedure. For more information about the dialog box procedure, see the 
-<a href="_win32_dialogproc_cpp">DialogProc</a> callback function.
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a> callback function.
 
 
 ## -returns
@@ -93,7 +91,7 @@ Points to the dialog box procedure. For more information about the dialog box pr
 
 
 If the <b>WlxDialogBox</b> function succeeds, the return value is the <i>nResult</i> parameter given in the call to the 
-<a href="_win32_enddialog_cpp">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
 
 <table>
 <tr>
@@ -156,7 +154,7 @@ If the function fails, the return value is –1.
 
 
 
-GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href="_win32_dialogbox_cpp">DialogBox</a> macro. <b>WlxDialogBox</b> duplicates the Windows <b>DialogBox</b> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
+GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href="https://msdn.microsoft.com/en-us/library/ms645452(v=VS.85).aspx">DialogBox</a> macro. <b>WlxDialogBox</b> duplicates the Windows <b>DialogBox</b> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
 <b>DialogBox</b>.
 
 
@@ -167,19 +165,19 @@ GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href
 
 
 
-<a href="_win32_dialogbox_cpp">DialogBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645452(v=VS.85).aspx">DialogBox</a>
 
 
 
-<a href="_win32_dialogproc_cpp">DialogProc</a>
+<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
 
 
 
-<a href="_win32_enddialog_cpp">EndDialog</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a>
 
 
 
-<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
 
 
 

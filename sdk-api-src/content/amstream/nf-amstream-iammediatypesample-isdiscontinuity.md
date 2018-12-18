@@ -9,8 +9,6 @@ ms.assetid: 857729d9-ef46-461b-a3b5-bce9acb84538
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsDiscontinuity method, IAMMediaTypeSample.IsDiscontinuity, IAMMediaTypeSample::IsDiscontinuity, IAMMediaTypeSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsDiscontinuity, dshow.iammediatypesample_isdiscontinuity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -79,7 +77,7 @@ Returns S_OK if this sample is a discontinuity, or S_FALSE otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
  
 
  

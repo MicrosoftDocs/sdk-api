@@ -9,8 +9,6 @@ ms.assetid: 3cf54c10-a06d-49fc-aa8e-e6264ce23061
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_customUrl method, IWMPErrorItem.get_customUrl, IWMPErrorItem::get_customUrl, IWMPErrorItemget_customUrl, get_customUrl, get_customUrl method [Windows Media Player], get_customUrl method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_customurl, wmp/IWMPErrorItem::get_customUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: ddedd278-ec28-417e-bce2-cdb74db7b0f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLockGranted method, ITextStoreACPSink.OnLockGranted, ITextStoreACPSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreACPSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreacpsink_onlockgranted_ref, textstor/ITextStoreACPSink::OnLockGranted, tsf.itextstoreacpsink_onlockgranted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 62e7ae4d-7839-4568-b8b2-7a377601ea7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Tone method, ITAutomatedPhoneControl.get_Tone, ITAutomatedPhoneControl::get_Tone, _tapi3_itautomatedphonecontrol_get_tone, get_Tone, get_Tone method [TAPI 2.2], get_Tone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_tone, tapi3if/ITAutomatedPhoneControl::get_Tone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

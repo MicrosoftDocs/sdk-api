@@ -4,13 +4,11 @@ title: WTSWaitSystemEvent function
 author: windows-sdk-content
 description: Waits for a Remote Desktop Services event before returning to the caller.
 old-location: termserv\wtswaitsystemevent.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4139c009-6d2f-460b-b7a0-097bd2218505
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Services], WTS_EVENT_ALL, WTS_EVENT_CONNECT, WTS_EVENT_CREATE, WTS_EVENT_DELETE, WTS_EVENT_DISCONNECT, WTS_EVENT_LICENSE, WTS_EVENT_LOGOFF, WTS_EVENT_LOGON, WTS_EVENT_RENAME, WTS_EVENT_STATECHANGE, _win32_wtswaitsystemevent, termserv.wtswaitsystemevent, wtsapi32/WTSWaitSystemEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8f1e00fb-863a-49e6-a0e3-a3491637b47b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqUnlockPlatform, RtwqUnlockPlatform function, base.rtwqunlockplatform, rtworkq/RtwqUnlockPlatform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

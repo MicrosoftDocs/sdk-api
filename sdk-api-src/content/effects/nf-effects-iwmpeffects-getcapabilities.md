@@ -9,8 +9,6 @@ ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -121,7 +119,7 @@ A default implementation of this method is not included in the visualization wiz
 
 
 
-<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
  
 
  

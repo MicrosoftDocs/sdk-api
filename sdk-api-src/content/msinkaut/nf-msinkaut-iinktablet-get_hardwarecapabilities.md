@@ -9,8 +9,6 @@ ms.assetid: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca, HardwareCapabilities property [Tablet PC], HardwareCapabilities property [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],HardwareCapabilities property, IInkTablet.HardwareCapabilities, IInkTablet.get_HardwareCapabilities, IInkTablet::HardwareCapabilities, IInkTablet::get_HardwareCapabilities, get_HardwareCapabilities, msinkaut/IInkTablet::HardwareCapabilities, msinkaut/IInkTablet::get_HardwareCapabilities, tablet.iinktablet_hardwarecapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

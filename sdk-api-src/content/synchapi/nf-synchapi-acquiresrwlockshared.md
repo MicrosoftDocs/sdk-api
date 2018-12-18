@@ -9,8 +9,6 @@ ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireSRWLockShared, AcquireSRWLockShared function, base.acquiresrwlockshared, synchapi/AcquireSRWLockShared, winbase/AcquireSRWLockShared
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

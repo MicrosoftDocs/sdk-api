@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.Session_IPv4
+UID: NS:lpmapi.__unnamed_struct_1
 title: Session_IPv4
 author: windows-sdk-content
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
@@ -7,10 +7,8 @@ old-location: qos\session_ipv4.htm
 tech.root: QOS
 ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qos.session_ipv4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -84,7 +82,7 @@ Destination IP address for the session.
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

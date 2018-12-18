@@ -9,8 +9,6 @@ ms.assetid: ba9dfa0c-98df-4922-acba-d00e9b4b0fb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

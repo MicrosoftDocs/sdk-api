@@ -9,8 +9,6 @@ ms.assetid: 5df5918a-caca-4296-8464-3710ff904b10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],Renderer property, IInkPicture.Renderer, IInkPicture.get_Renderer, IInkPicture::Renderer, IInkPicture::get_Renderer, IInkPicture::put_Renderer, InkPicture.get_Renderer, InkPicture.put_Renderer, Renderer property [Tablet PC], Renderer property [Tablet PC],IInkPicture interface, get_Renderer, msinkaut/IInkPicture::Renderer, msinkaut/IInkPicture::get_Renderer, msinkaut/IInkPicture::put_Renderer, put_Renderer, tablet.inkpicture_renderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ When handling certain window messages, changing the <b>Renderer</b> associated w
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

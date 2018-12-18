@@ -9,8 +9,6 @@ ms.assetid: e147b0c4-7d9f-4961-8bce-25dab716f7a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

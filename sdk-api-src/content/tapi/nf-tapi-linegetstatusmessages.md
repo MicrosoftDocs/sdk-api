@@ -9,8 +9,6 @@ ms.assetid: c8ac3bff-be4f-43ca-9651-3263fa06af23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetstatusmessages, lineGetStatusMessages, lineGetStatusMessages function [TAPI 2.2], tapi/lineGetStatusMessages, tapi2.linegetstatusmessages"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

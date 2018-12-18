@@ -9,8 +9,6 @@ ms.assetid: C6A0C4E6-7939-42C1-A499-7C92D83CB418
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamAttributesCount, GetStreamAttributesCount method [Media Foundation], GetStreamAttributesCount method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetStreamAttributesCount method, IMFSensorDevice.GetStreamAttributesCount, IMFSensorDevice::GetStreamAttributesCount, mf.imfsensordevice_getstreamattributescount, mfidl/IMFSensorDevice::GetStreamAttributesCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

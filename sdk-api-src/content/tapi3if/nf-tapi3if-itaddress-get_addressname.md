@@ -9,8 +9,6 @@ ms.assetid: cb26dcf5-0192-4156-914b-9aa6e76a2bd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_AddressName method, ITAddress.get_AddressName, ITAddress::get_AddressName, _tapi3_itaddress_get_addressname, get_AddressName, get_AddressName method [TAPI 2.2], get_AddressName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_addressname, tapi3if/ITAddress::get_AddressName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

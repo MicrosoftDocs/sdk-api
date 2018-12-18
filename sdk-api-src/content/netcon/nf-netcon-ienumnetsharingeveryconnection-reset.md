@@ -9,8 +9,6 @@ ms.assetid: c41539b9-2596-4bb4-9194-fa9accde165d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumNetSharingEveryConnection interface [ICS/ICF],Reset method, IEnumNetSharingEveryConnection.Reset, IEnumNetSharingEveryConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingEveryConnection interface, _ics_ienumnetsharingeveryconnection_reset, ics.ienumnetsharingeveryconnection_reset, netcon/IEnumNetSharingEveryConnection::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

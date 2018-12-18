@@ -9,8 +9,6 @@ ms.assetid: d482b51a-7159-4aab-ac5e-3f1878d426b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRootStorage interface [Structured Storage],SwitchToFile method, IRootStorage.SwitchToFile, IRootStorage::SwitchToFile, SwitchToFile, SwitchToFile method [Structured Storage], SwitchToFile method [Structured Storage],IRootStorage interface, _stg_irootstorage_switchtofile, objidl/IRootStorage::SwitchToFile, stg.irootstorage_switchtofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

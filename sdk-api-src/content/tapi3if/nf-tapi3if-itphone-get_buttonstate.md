@@ -9,8 +9,6 @@ ms.assetid: f14e0593-0f03-4119-b80a-12d32b68aa99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonState method, ITPhone.get_ButtonState, ITPhone::get_ButtonState, _tapi3_itphone_get_buttonstate, get_ButtonState, get_ButtonState method [TAPI 2.2], get_ButtonState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonstate, tapi3if/ITPhone::get_ButtonState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: f0552573-6b67-412d-aad0-d182ee50923f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter class [VSS],IsPartialFileSupportEnabled method, CVssWriter.IsPartialFileSupportEnabled, CVssWriter::IsPartialFileSupportEnabled, IsPartialFileSupportEnabled, IsPartialFileSupportEnabled method [VSS], IsPartialFileSupportEnabled method [VSS],CVssWriter class, _win32_cvsswriter_ispartialfilesupportenabled, base.cvsswriter_ispartialfilesupportenabled, vswriter/CVssWriter::IsPartialFileSupportEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

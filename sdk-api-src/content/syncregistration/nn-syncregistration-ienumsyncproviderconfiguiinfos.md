@@ -9,8 +9,6 @@ ms.assetid: d8b4f4a4-b238-431f-a123-edebe07ea7b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos, IEnumSyncProviderConfigUIInfos interface [Windows Sync], IEnumSyncProviderConfigUIInfos interface [Windows Sync],described, syncregistration/IEnumSyncProviderConfigUIInfos, winsync.ienumsyncproviderconfiguiinfos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: C1ED87B6-CC24-48CF-BC9F-FF702A0903E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], IWebApplicationUpdateEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationupdateevents, webapplication/IWebApplicationUpdateEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 

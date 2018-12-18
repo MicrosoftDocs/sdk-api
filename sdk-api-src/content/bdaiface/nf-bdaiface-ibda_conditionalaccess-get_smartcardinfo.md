@@ -9,8 +9,6 @@ ms.assetid: 0c9143e7-1e59-4f64-84b8-2bbac18cf787
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_SmartCardInfo method, IBDA_ConditionalAccess.get_SmartCardInfo, IBDA_ConditionalAccess::get_SmartCardInfo, IBDA_ConditionalAccessget_SmartCardInfo, bdaiface/IBDA_ConditionalAccess::get_SmartCardInfo, get_SmartCardInfo, get_SmartCardInfo method [Microsoft TV Technologies], get_SmartCardInfo method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_smartcardinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

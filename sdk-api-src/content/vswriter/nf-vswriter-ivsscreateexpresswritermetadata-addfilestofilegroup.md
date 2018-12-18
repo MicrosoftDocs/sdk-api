@@ -9,8 +9,6 @@ ms.assetid: 9a3f409e-f58a-4c06-ad5e-b0a8bc03da2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method, AddFilesToFileGroup method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddFilesToFileGroup method, IVssCreateExpressWriterMetadata.AddFilesToFileGroup, IVssCreateExpressWriterMetadata::AddFilesToFileGroup, base.ivsscreateexpresswritermetadata_addfilestofilegroup, vswriter/IVssCreateExpressWriterMetadata::AddFilesToFileGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 267f6e3e-ed1d-4ce7-a554-a943ac3f469d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateImageResource, CreateImageResource method [XPS Documents and Packaging], CreateImageResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateImageResource method, IXpsOMObjectFactory.CreateImageResource, IXpsOMObjectFactory::CreateImageResource, xps.ixpsomobjectfactory_createimageresource, xpsobjectmodel/IXpsOMObjectFactory::CreateImageResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

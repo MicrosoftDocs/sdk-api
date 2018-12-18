@@ -9,8 +9,6 @@ ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

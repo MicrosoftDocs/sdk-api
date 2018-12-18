@@ -9,8 +9,6 @@ ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fci.h
 req.include-header: 
@@ -69,7 +67,7 @@ A valid FCI context handle returned by the <a href="https://msdn.microsoft.com/b
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 

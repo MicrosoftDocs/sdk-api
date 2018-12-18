@@ -9,8 +9,6 @@ ms.assetid: 5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateImageSourceFromDxgi, CreateImageSourceFromDxgi method [Direct2D], CreateImageSourceFromDxgi method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromDxgi method, ID2D1DeviceContext2.CreateImageSourceFromDxgi, ID2D1DeviceContext2::CreateImageSourceFromDxgi, d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromDxgi, direct2d.id2d1devicecontext2_createimagesourcefromdxgi
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 
 ### -param surfaces [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>**</b>
 
 The DXGI surfaces to create the image source from.
 
@@ -104,7 +102,7 @@ The regions of the surfaces to create the image source from.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

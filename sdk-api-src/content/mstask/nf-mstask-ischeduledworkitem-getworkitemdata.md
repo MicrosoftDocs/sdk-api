@@ -9,8 +9,6 @@ ms.assetid: 1b37c412-80ed-44fb-8b3a-b142a9669080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWorkItemData, GetWorkItemData method [Task Scheduler], GetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetWorkItemData method, IScheduledWorkItem.GetWorkItemData, IScheduledWorkItem::GetWorkItemData, _msb_ischeduledworkitem_getworkitemdata, mstask/IScheduledWorkItem::GetWorkItemData, taskschd.ischeduledworkitem_getworkitemdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

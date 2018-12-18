@@ -9,8 +9,6 @@ ms.assetid: c1a54d82-3fea-4f65-be46-d2a81d639429
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpCreateOptionV6, DhcpCreateOptionV6 function [DHCP], dhcp.dhcpcreateoptionv6, dhcpsapi/DhcpCreateOptionV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

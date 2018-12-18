@@ -9,8 +9,6 @@ ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 
@@ -67,7 +65,7 @@ Device context handle.
 
 ### -param pTestParam [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTPARAMSEX</a> structure specifying the parameters to test.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145162(v=VS.85).aspx">TTVALIDATIONTESTPARAMSEX</a> structure specifying the parameters to test.
 
 
 ## -returns
@@ -103,7 +101,7 @@ Effective font validation can be performed by a tool, such as Font Validator, th
 
 
 
-<a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTPARAMSEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd145162(v=VS.85).aspx">TTVALIDATIONTESTPARAMSEX</a>
  
 
  

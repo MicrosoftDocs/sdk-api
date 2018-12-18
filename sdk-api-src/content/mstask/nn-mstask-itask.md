@@ -9,8 +9,6 @@ ms.assetid: 84a70dd0-43cb-42be-8360-35263bf1afb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITask, ITask interface [Task Scheduler], ITask interface [Task Scheduler],described, _msb_itask, mstask/ITask, taskschd.itask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 

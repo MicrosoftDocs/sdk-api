@@ -9,8 +9,6 @@ ms.assetid: 2A897617-F7AA-4EF7-AE44-78EBC98C3B5F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],Name property, IWdsTransportContentProvider.Name, IWdsTransportContentProvider.get_Name, IWdsTransportContentProvider::Name, IWdsTransportContentProvider::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContentProvider interface, get_Name, wds.iwdstransportcontentprovider_name, wdstptmgmt/IWdsTransportContentProvider::Name, wdstptmgmt/IWdsTransportContentProvider::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

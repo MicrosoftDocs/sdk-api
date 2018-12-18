@@ -9,8 +9,6 @@ ms.assetid: A351B734-6311-4E89-8832-F2460E738BA0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPrivileges, GetPrivileges method, GetPrivileges method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetPrivileges method, IXblIdpAuthTokenResult.GetPrivileges, IXblIdpAuthTokenResult::GetPrivileges, xblidp.ixblidpauthtokenresult_getprivileges, xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

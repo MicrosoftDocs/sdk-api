@@ -9,8 +9,6 @@ ms.assetid: af2ea930-973e-4921-a6c8-192fa5bf4f9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMCanvas.GetAccessibilityLongDescription, IXpsOMCanvas::GetAccessibilityLongDescription, xps.ixpsomcanvas_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityLongDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

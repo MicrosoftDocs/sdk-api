@@ -9,8 +9,6 @@ ms.assetid: dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCancelIncident, NdfCancelIncident function [NDF], ndf.ndfcancelincident, ndfapi/NdfCancelIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

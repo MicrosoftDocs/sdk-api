@@ -9,8 +9,6 @@ ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

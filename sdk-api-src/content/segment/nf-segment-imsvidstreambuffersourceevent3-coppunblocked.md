@@ -9,8 +9,6 @@ ms.assetid: e206253e-40af-4b61-8dcb-465a05cfa8f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPPUnblocked, COPPUnblocked method [Microsoft TV Technologies], COPPUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPUnblocked method, IMSVidStreamBufferSourceEvent3.COPPUnblocked, IMSVidStreamBufferSourceEvent3::COPPUnblocked, IMSVidStreamBufferSourceEvent3COPPUnblocked, mstv.imsvidstreambuffersourceevent3_coppunblocked, segment/IMSVidStreamBufferSourceEvent3::COPPUnblocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -108,11 +106,11 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3da78ea-4694-45a4-9284-d40c08f12fe5">IMSVidStreamBufferSourceEvent3::COPPBlocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694676(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3::COPPBlocked</a>
  
 
  

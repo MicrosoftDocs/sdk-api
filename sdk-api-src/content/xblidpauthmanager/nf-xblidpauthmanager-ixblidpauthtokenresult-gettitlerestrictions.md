@@ -9,8 +9,6 @@ ms.assetid: 1C1DD5CF-3237-42EA-A152-E35A07CC46A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTitleRestrictions, GetTitleRestrictions method, GetTitleRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetTitleRestrictions method, IXblIdpAuthTokenResult.GetTitleRestrictions, IXblIdpAuthTokenResult::GetTitleRestrictions, xblidp.ixblidpauthtokenresult_gettitlerestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetTitleRestrictions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 55637d69-2f1a-435d-be23-4c29ec57b2ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Shrink method, ITfPropertyStore.Shrink, ITfPropertyStore::Shrink, Shrink, Shrink method [Text Services Framework], Shrink method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_shrink_ref, msctf/ITfPropertyStore::Shrink, tsf.itfpropertystore_shrink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: BA91A1A6-6C6B-4086-AE95-47372581429C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], IAppxContentGroupsEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupsEnumerator, appxpkg.iappxcontentgroupsenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

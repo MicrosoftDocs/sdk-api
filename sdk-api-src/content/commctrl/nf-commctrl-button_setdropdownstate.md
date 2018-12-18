@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_SetDropDownState, Button_SetDropDownState macro [Windows Controls], _shell_Button_SetDropDownState, _shell_Button_SetDropDownState_cpp, commctrl/Button_SetDropDownState, controls.Button_SetDropDownState, controls._shell_Button_SetDropDownState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the drop down state for a specified button with style of <a href="https://m
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 
 
 ### -param fDropDown [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 <b>TRUE</b> for state of  BST_DROPDOWNPUSHED, or <b>FALSE</b> otherwise.
 

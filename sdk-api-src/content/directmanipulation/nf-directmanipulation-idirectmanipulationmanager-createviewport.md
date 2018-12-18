@@ -9,8 +9,6 @@ ms.assetid: 82a0146d-89c1-4672-93a9-e8f406b03d4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], CreateViewport method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateViewport method, IDirectManipulationManager.CreateViewport, IDirectManipulationManager::CreateViewport, directmanipulation.idirectmanipulationmanager_createviewport, directmanipulation/IDirectManipulationManager::CreateViewport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_986d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderName property, IFaxDoc.SenderName, IFaxDoc.put_SenderName, IFaxDoc::SenderName, IFaxDoc::get_SenderName, IFaxDoc::put_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_sendername_cpp, faxcom/IFaxDoc::SenderName, faxcom/IFaxDoc::get_SenderName, faxcom/IFaxDoc::put_SenderName, put_SenderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

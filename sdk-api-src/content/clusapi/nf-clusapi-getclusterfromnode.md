@@ -9,8 +9,6 @@ ms.assetid: 8cc0f881-fbf2-452c-a044-58939f4e01ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterFromNode, GetClusterFromNode function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_NODE, PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster], _wolf_getclusterfromnode, clusapi/GetClusterFromNode, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE, mscs.getclusterfromnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NODE</b> type defines a pointer to this function.
+Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters

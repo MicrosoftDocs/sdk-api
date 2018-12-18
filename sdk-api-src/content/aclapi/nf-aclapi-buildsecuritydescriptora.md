@@ -9,8 +9,6 @@ ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
@@ -170,7 +168,7 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

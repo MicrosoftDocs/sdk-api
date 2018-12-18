@@ -9,8 +9,6 @@ ms.assetid: EF24E61E-4AF7-4946-A326-1F045267AE01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INFO, cloudApi.cf_callback_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 
@@ -179,7 +177,7 @@ The 32bit ID of the session wherein the user process that triggers the callback 
 A file name is considered normalized if all of the following are true:
 
 <ul>
-<li>It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="https://msdn.microsoft.com/en-us/library/Ff543032(v=VS.85).aspx">FltGetFileNameInformation</a>.)
+<li>It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="https://msdn.microsoft.com/707e7e83-31d8-46cf-a2ef-e53a20edaeff">FltGetFileNameInformation</a>.)
 </li>
 <li>The volume name is the volume's non-persistent device object name (for example, "\Device\HarddiskVolume1").
 </li>

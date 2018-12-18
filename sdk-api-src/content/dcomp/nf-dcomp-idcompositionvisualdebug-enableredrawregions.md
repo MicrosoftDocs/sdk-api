@@ -9,8 +9,6 @@ ms.assetid: 71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableRedrawRegions, EnableRedrawRegions method [DirectComposition], EnableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableRedrawRegions method, IDCompositionVisualDebug.EnableRedrawRegions, IDCompositionVisualDebug::EnableRedrawRegions, dcomp/IDCompositionVisualDebug::EnableRedrawRegions, directcomp.idcompositionvisualdebug_enableredrawregions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -83,15 +81,15 @@ Highlighting redraw regions can be enabled by calling <b>EnableRedrawRegions</b>
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/5F1712D4-B3F4-475E-9AB0-868B1DCB8F42">IDCompositionVisualDebug::DisableRedrawRegions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280431(v=VS.85).aspx">IDCompositionVisualDebug::DisableRedrawRegions</a>
  
 
  

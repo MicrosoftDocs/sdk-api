@@ -9,8 +9,6 @@ ms.assetid: aeeaf67c-119f-482b-b064-87739499abda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterFileSink, WMCreateWriterFileSink function [windows Media Format], wmformat.wmcreatewriterfilesink, wmsdkidl/WMCreateWriterFileSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ The <b>WMCreateWriterFileSink</b> function creates a writer file sink object.
 
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/af47b130-353e-411d-8432-09ecd20a70d2">IWMWriterFileSink</a> interface of the newly created writer file sink object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798742(v=VS.85).aspx">IWMWriterFileSink</a> interface of the newly created writer file sink object.
 
 
 ## -returns

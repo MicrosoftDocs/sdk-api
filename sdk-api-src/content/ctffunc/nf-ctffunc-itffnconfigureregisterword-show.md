@@ -9,8 +9,6 @@ ms.assetid: 61eb7452-2ada-4832-bd16-87ac56fedc6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnConfigureRegisterWord interface [Text Services Framework],Show method, ITfFnConfigureRegisterWord.Show, ITfFnConfigureRegisterWord::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterWord interface, _tsf_itffnconfigureregisterword_show_ref, ctffunc/ITfFnConfigureRegisterWord::Show, tsf.itffnconfigureregisterword_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -69,7 +67,7 @@ Contains a <b>LANGID</b> that specifies the identifier of the language currently
 
 ### -param rguidProfile [in]
 
-Contains a GUID that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://msdn.microsoft.com/en-us/library/ms628545(v=VS.85).aspx">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
+Contains a GUID that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://msdn.microsoft.com/d132bff1-24de-4e43-859b-2425ba7de8f0">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 
 ### -param bstrRegistered [in]
@@ -121,7 +119,7 @@ The text service does not implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538926(v=VS.85).aspx">ITfFnConfigureRegisterWord</a>
+<a href="https://msdn.microsoft.com/515e5f01-a68f-4e67-acf5-cac1923d485e">ITfFnConfigureRegisterWord</a>
 
 
 

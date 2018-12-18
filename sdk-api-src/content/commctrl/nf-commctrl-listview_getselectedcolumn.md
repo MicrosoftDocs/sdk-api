@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 53c1a15e-3ced-44e5-b512-b381ae11aa65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Initialize method, INSNetSourceCreator.Initialize, INSNetSourceCreator::Initialize, INSNetSourceCreatorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_initialize, wmnetsourcecreator/INSNetSourceCreator::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmnetsourcecreator.h
 req.include-header: 
@@ -109,7 +107,7 @@ The method could not allocate memory for an internal resource.
 
 
 
-When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">Shutdown</a> method to ensure that all resources are released properly.
+When you are finished using the network source creator, you must call the <a href="https://msdn.microsoft.com/en-us/library/Dd743242(v=VS.85).aspx">Shutdown</a> method to ensure that all resources are released properly.
 
 
 
@@ -119,11 +117,11 @@ When you are finished using the network source creator, you must call the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e">INSNetSourceCreator::Shutdown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743242(v=VS.85).aspx">INSNetSourceCreator::Shutdown</a>
  
 
  

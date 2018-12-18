@@ -9,8 +9,6 @@ ms.assetid: 34379b8d-4e00-49cd-9fd1-65f88746c61a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistStorage interface [COM],Load method, IPersistStorage.Load, IPersistStorage::Load, Load, Load method [COM], Load method [COM],IPersistStorage interface, _com_ipersiststorage_load, com.ipersiststorage_load, objidl/IPersistStorage::Load
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

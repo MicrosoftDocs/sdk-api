@@ -9,8 +9,6 @@ ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

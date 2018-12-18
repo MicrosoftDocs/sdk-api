@@ -9,8 +9,6 @@ ms.assetid: E989CED1-C6B7-4086-944E-924836AA7ECB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetStatus method, IUIAnimationManager2.GetStatus, IUIAnimationManager2::GetStatus, uianimation.iuianimationmanager2_getstatus, uianimation/IUIAnimationManager2::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 93275F1D-A25C-4BDD-B278-DA56ADB3436D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_CONTAINER_TYPE, DWRITE_CONTAINER_TYPE enumeration [Direct Write], DWRITE_CONTAINER_TYPE_UNKNOWN, DWRITE_CONTAINER_TYPE_WOFF, DWRITE_CONTAINER_TYPE_WOFF2, directwrite.dwrite_container_type, dwrite_3/DWRITE_CONTAINER_TYPE, dwrite_3/DWRITE_CONTAINER_TYPE_UNKNOWN, dwrite_3/DWRITE_CONTAINER_TYPE_WOFF, dwrite_3/DWRITE_CONTAINER_TYPE_WOFF2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 
@@ -74,7 +72,7 @@ Specifies the container format of a font resource. A container format is distinc
 
 
 
-DWRITE_CONTAINER_TYPE is returned by <a href="https://msdn.microsoft.com/A13656C9-E793-40E2-81BD-0F9C0F437F1E">IDWriteFactory5::AnalyzeContainerType</a>
+DWRITE_CONTAINER_TYPE is returned by <a href="https://msdn.microsoft.com/en-us/library/Mt807685(v=VS.85).aspx">IDWriteFactory5::AnalyzeContainerType</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: bc2452ca-53ad-4286-951a-c211f3f82cf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_EthernetFilter interface, IBDA_EthernetFilter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_EthernetFilter.GetMulticastListSize, IBDA_EthernetFilter::GetMulticastListSize, IBDA_EthernetFilterGetMulticastListSize, bdaiface/IBDA_EthernetFilter::GetMulticastListSize, mstv.ibda_ethernetfilter_getmulticastlistsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -89,7 +87,7 @@ Addresses in the address list are byte aligned in Network order. <i>UlcbAddresse
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

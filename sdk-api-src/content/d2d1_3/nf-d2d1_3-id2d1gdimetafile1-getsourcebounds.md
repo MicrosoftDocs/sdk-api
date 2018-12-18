@@ -9,8 +9,6 @@ ms.assetid: 7e7502ee-678e-ce26-cc0b-266faa1c320b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSourceBounds, GetSourceBounds method [Direct2D], GetSourceBounds method [Direct2D],ID2D1GdiMetafile1 interface, ID2D1GdiMetafile1 interface [Direct2D],GetSourceBounds method, ID2D1GdiMetafile1.GetSourceBounds, ID2D1GdiMetafile1::GetSourceBounds, d2d1_3/ID2D1GdiMetafile1::GetSourceBounds, direct2d.id2d1gdimetafile1_getsourcebounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

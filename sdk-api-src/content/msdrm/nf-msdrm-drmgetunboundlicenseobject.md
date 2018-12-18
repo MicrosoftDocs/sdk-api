@@ -9,8 +9,6 @@ ms.assetid: d3e03d62-5202-4969-a4c7-5fbf89070436
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetUnboundLicenseObject, DRMGetUnboundLicenseObject function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObject, rm.drmgetunboundlicenseobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

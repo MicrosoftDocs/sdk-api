@@ -9,8 +9,6 @@ ms.assetid: 6f1a388e-de23-4441-bc65-33ce13519d70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -82,7 +80,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/cf8381f2-2ef0-4169-8029-bce36bf3d6a9">IAMMediaContent2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319639(v=VS.85).aspx">IAMMediaContent2 Interface</a>
  
 
  

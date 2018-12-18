@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabextinit\iwabextinit.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABExtInit, IWABExtInit interface [Windows Address Book], IWABExtInit interface [Windows Address Book],described, _wab_IWABExtInit, wab._wab_IWABExtInit, wabapi/IWABExtInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wabapi.h
 req.include-header: 
@@ -71,7 +69,7 @@ The <b>IWABExtInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7deef238-68d3-4c5b-8196-38de86bb2092">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629473(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides a WAB module with information about the object being displayed.

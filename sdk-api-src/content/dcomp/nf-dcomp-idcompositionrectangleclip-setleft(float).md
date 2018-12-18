@@ -9,8 +9,6 @@ ms.assetid: 56614B81-3AC7-484C-9049-5E189D1C0B3B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(float), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(float), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -98,7 +96,7 @@ If the Left property was previously animated, this method removes the animation 
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
  
 
  

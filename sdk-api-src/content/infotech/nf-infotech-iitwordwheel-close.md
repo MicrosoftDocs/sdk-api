@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

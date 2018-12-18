@@ -9,8 +9,6 @@ ms.assetid: 396af0c0-2fb1-418b-bc2b-9e9eb63174bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetImageConfigInformation, SetImageConfigInformation function, _win32_setimageconfiginformation, base.setimageconfiginformation, imagehlp/SetImageConfigInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

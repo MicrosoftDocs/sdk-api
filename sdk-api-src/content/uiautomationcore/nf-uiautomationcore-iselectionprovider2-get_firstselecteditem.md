@@ -9,8 +9,6 @@ ms.assetid: EE16206F-2A7F-49D0-9587-F4A3FA918CB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FirstSelectedItem property [Windows Accessibility], FirstSelectedItem property [Windows Accessibility],ISelectionProvider2 interface, ISelectionProvider2 interface [Windows Accessibility],FirstSelectedItem property, ISelectionProvider2.FirstSelectedItem, ISelectionProvider2.get_FirstSelectedItem, ISelectionProvider2::FirstSelectedItem, ISelectionProvider2::get_FirstSelectedItem, get_FirstSelectedItem, uiautomationcore/ISelectionProvider2::FirstSelectedItem, uiautomationcore/ISelectionProvider2::get_FirstSelectedItem, winauto.uiauto_ISelectionProvider2_FirstSelectedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

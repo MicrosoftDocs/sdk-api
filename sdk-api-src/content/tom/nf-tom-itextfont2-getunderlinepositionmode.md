@@ -9,8 +9,6 @@ ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUnderlinePositionMode, GetUnderlinePositionMode method [Windows Controls], GetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetUnderlinePositionMode method, ITextFont2.GetUnderlinePositionMode, ITextFont2::GetUnderlinePositionMode, controls.itextfont2_getunderlinepositionmode, tom/ITextFont2::GetUnderlinePositionMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

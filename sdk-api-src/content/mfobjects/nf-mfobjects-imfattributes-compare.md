@@ -9,8 +9,6 @@ ms.assetid: 1d0c9d1c-448d-4851-b183-94b04acb2ab5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1d0c9d1c-448d-4851-b183-94b04acb2ab5, Compare, Compare method [Media Foundation], Compare method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],Compare method, IMFAttributes.Compare, IMFAttributes::Compare, mf.imfattributes_compare, mfobjects/IMFAttributes::Compare
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

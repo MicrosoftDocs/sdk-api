@@ -9,8 +9,6 @@ ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRollForward method, IVssBackupComponentsEx2.SetRollForward, IVssBackupComponentsEx2::SetRollForward, SetRollForward, SetRollForward method, SetRollForward method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

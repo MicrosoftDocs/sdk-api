@@ -9,8 +9,6 @@ ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsbonline.h
 req.include-header: 

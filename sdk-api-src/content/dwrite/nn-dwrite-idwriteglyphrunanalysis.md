@@ -9,8 +9,6 @@ ms.assetid: d4739b55-1a9b-4346-9b47-d8adb98df163
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteGlyphRunAnalysis, IDWriteGlyphRunAnalysis interface [Direct Write], IDWriteGlyphRunAnalysis interface [Direct Write],described, directwrite.IDWriteGlyphRunAnalysis, dwrite/IDWriteGlyphRunAnalysis
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite.h
 req.include-header: 

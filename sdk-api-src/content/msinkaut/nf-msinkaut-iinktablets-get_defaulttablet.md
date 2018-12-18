@@ -9,8 +9,6 @@ ms.assetid: 4a9713c6-91a0-4632-9c8d-58d5e1b98478
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4a9713c6-91a0-4632-9c8d-58d5e1b98478, DefaultTablet property [Tablet PC], DefaultTablet property [Tablet PC],IInkTablets interface, IInkTablets interface [Tablet PC],DefaultTablet property, IInkTablets.DefaultTablet, IInkTablets.get_DefaultTablet, IInkTablets::DefaultTablet, IInkTablets::get_DefaultTablet, InkTablets.get_DefaultTablet, get_DefaultTablet, msinkaut/IInkTablets::DefaultTablet, msinkaut/IInkTablets::get_DefaultTablet, tablet.inktablets_defaulttablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -91,7 +89,7 @@ The platform determines the default <a href="https://msdn.microsoft.com/9a945740
 
 
 
-<a href="https://msdn.microsoft.com/98052ECB-9385-45C9-A03C-3F312ADD9872">IInkTablets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
 
 
 

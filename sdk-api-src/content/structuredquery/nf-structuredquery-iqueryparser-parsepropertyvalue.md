@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\pars
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryParser interface [search],ParsePropertyValue method, IQueryParser.ParsePropertyValue, IQueryParser::ParsePropertyValue, ParsePropertyValue, ParsePropertyValue method [search], ParsePropertyValue method [search],IQueryParser interface, _search_IQueryParser_ParsePropertyValue, search._search_IQueryParser_ParsePropertyValue, structuredquery/IQueryParser::ParsePropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

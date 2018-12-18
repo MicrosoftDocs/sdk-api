@@ -9,8 +9,6 @@ ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -129,7 +127,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363023(v=VS.85).aspx">IBackgroundCopyJob::GetDescription</a>
+<a href="https://msdn.microsoft.com/1a791390-2bd8-4732-98a2-74f740cfd822">IBackgroundCopyJob::GetDescription</a>
  
 
  

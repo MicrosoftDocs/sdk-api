@@ -9,8 +9,6 @@ ms.assetid: 60c35bd1-b971-411b-92bf-bbed41fc984c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_OuterFECRate method, IBDA_DigitalDemodulator.put_OuterFECRate, IBDA_DigitalDemodulator::put_OuterFECRate, IBDA_DigitalDemodulatorput_OuterFECRate, bdaiface/IBDA_DigitalDemodulator::put_OuterFECRate, mstv.ibda_digitaldemodulator_put_outerfecrate, put_OuterFECRate, put_OuterFECRate method [Microsoft TV Technologies], put_OuterFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>put_OuterFECRate</b> method specifies the outer forward error correction 
 
 ### -param pFECRate [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd693025(v=VS.85).aspx">BinaryConvolutionCodeRate</a> variable that specifies the FEC rate.
+Pointer to a <a href="https://msdn.microsoft.com/161c963f-55b2-4a17-a537-47de3326df0e">BinaryConvolutionCodeRate</a> variable that specifies the FEC rate.
 
 
 ## -returns
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: B6B47014-CAAD-40B3-8A39-A81AD40AE1D2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IColumnMapper interface [search],IsMapUpToDate method, IColumnMapper.IsMapUpToDate, IColumnMapper::IsMapUpToDate, IsMapUpToDate, IsMapUpToDate method [search], IsMapUpToDate method [search],IColumnMapper interface, indexsrv/IColumnMapper::IsMapUpToDate, search.icolumnmapper_ismapuptodate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

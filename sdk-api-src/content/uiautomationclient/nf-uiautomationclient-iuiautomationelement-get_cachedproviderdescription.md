@@ -9,8 +9,6 @@ ms.assetid: ed26dbb7-9838-48f2-8401-f169038b8b92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedProviderDescription property [Windows Accessibility], CachedProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedProviderDescription property, IUIAutomationElement.CachedProviderDescription, IUIAutomationElement.get_CachedProviderDescription, IUIAutomationElement::CachedProviderDescription, IUIAutomationElement::get_CachedProviderDescription, get_CachedProviderDescription, uiauto.uiauto_IUIAutomationElement_CachedProviderDescription, uiauto_IUIAutomationElement_CachedProviderDescription, uiautomationclient/IUIAutomationElement::CachedProviderDescription, uiautomationclient/IUIAutomationElement::get_CachedProviderDescription, winauto.uiauto_IUIAutomationElement_CachedProviderDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 711c14b4-6a74-4860-a9cc-7b8673dc1a28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetErrorString, WsGetErrorString function [Web Services for Windows], webservices/WsGetErrorString, wsw.wsgeterrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -70,11 +68,11 @@ The error object containing the string.
 The zero-based index identifying the string to retrieve.  The first
                     error string (index 0) will be the string most recently added to the
                     error object (using <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a>). When 
-                    <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is presented in the 
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a> is presented in the 
                     error object, the corresponding error text will be available in the last index.
                 
 
-The number of errors can be retrieved using <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_STRING_COUNT</a>.
+The number of errors can be retrieved using <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_STRING_COUNT</a>.
                 
 
 
@@ -131,7 +129,7 @@ This function may return other errors not listed above.
 
 
 The string is in the language specified by the LANGID property of
-                the error object.  This can be retrieved using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>with <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_LANGID</a>.
+                the error object.  This can be retrieved using <a href="https://msdn.microsoft.com/35a1f4a8-aad6-43ad-81db-b1071a77d5f4">WsGetErrorProperty</a>with <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_LANGID</a>.
             
 
 

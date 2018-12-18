@@ -9,8 +9,6 @@ ms.assetid: 02cbe6f3-2ee8-480b-b9c1-a2dbaf80fa26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellIconOverlayIdentifier interface [Windows Shell],IsMemberOf method, IShellIconOverlayIdentifier.IsMemberOf, IShellIconOverlayIdentifier::IsMemberOf, IsMemberOf, IsMemberOf method [Windows Shell], IsMemberOf method [Windows Shell],IShellIconOverlayIdentifier interface, _win32_IShellIconOverlayIdentifier_IsMemberOf, shell.IShellIconOverlayIdentifier_IsMemberOf, shobjidl_core/IShellIconOverlayIdentifier::IsMemberOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

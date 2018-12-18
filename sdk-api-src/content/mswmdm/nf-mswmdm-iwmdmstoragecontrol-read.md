@@ -9,8 +9,6 @@ ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

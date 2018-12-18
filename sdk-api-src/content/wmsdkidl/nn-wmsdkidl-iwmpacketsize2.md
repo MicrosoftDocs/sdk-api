@@ -9,8 +9,6 @@ ms.assetid: 4af4c088-9fc3-46a9-8451-518b11bc94e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], IWMPacketSize2 interface [windows Media Format],described, IWMPacketSize2Interface, wmformat.iwmpacketsize2, wmsdkidl/IWMPacketSize2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -60,7 +58,7 @@ An <b>IWMPacketSize2</b> interface can be obtained for either a profile object, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize2</b> interface inherits from <a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize</a>. <b>IWMPacketSize2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize</a>. <b>IWMPacketSize2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMPacketSize2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45">GetMinPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757257(v=VS.85).aspx">GetMinPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum packet size for files created with the profile.
@@ -84,7 +82,7 @@ Retrieves the minimum packet size for files created with the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d58da65-710c-46ea-8fb9-9d161df06483">SetMinPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757258(v=VS.85).aspx">SetMinPacketSize</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum packet size for files created with the profile.
@@ -99,7 +97,7 @@ Sets the minimum packet size for files created with the profile.
 
 
 
-<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
 
 
 

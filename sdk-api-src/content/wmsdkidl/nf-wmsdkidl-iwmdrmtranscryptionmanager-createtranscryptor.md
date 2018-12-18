@@ -9,8 +9,6 @@ ms.assetid: e4dfa908-9fd2-4968-b4a0-c7b69064d46e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTranscryptor, CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format],IWMDRMTranscryptionManager interface, IWMDRMTranscryptionManager interface [windows Media Format],CreateTranscryptor method, IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -60,7 +58,7 @@ Creates a DRM transcryptor object.
 
 ### -param ppTranscryptor [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
 
 
 ## -returns

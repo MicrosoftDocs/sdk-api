@@ -9,8 +9,6 @@ ms.assetid: 4267FCA0-10AF-4731-8B68-B3425FA00185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetOutputBuffer method, ID2D1RenderInfo.SetOutputBuffer, ID2D1RenderInfo::SetOutputBuffer, SetOutputBuffer, SetOutputBuffer method [Direct2D], SetOutputBuffer method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetOutputBuffer, direct2d.id2d1renderinfo_setoutputbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 

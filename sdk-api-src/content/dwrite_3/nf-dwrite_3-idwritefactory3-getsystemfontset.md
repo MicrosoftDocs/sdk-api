@@ -9,8 +9,6 @@ ms.assetid: 84fd8c9f-f4b1-3015-f431-08b7a07ff32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontSet method, IDWriteFactory3.GetSystemFontSet, IDWriteFactory3::GetSystemFontSet, directwrite.idwritefactory3_getsystemfontset, dwrite_3/IDWriteFactory3::GetSystemFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the list of system fonts.
 
 ### -param fontSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>**</b>
 
 Holds the newly created font set object, or NULL in case of failure.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

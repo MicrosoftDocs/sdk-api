@@ -9,8 +9,6 @@ ms.assetid: 34136053-1c25-4f6b-8bd6-699fffb6670b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertEncodeAltName object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeAltName object, Encode method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],Encode method, ICertEncodeAltName.Encode, ICertEncodeAltName::Encode, _certsrv_icertencodealtname_encode, certenc/ICertEncodeAltName::Encode, security.icertencodealtname_encode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h
@@ -53,11 +51,11 @@ req.redist:
 
 The <b>Encode</b> method returns an ASN.1-encoded string of the alternate name array stored in this object. The names in the object are not encoded.
 
-Use the <a href="https://msdn.microsoft.com/en-us/library/Aa383300(v=VS.85).aspx">Decode</a> method to decode the encoded string into an <b>CertEncodeAltName</b> object.
+Use the <a href="https://msdn.microsoft.com/0507d3a5-b8c3-4f2e-996f-e1e32957f475">Decode</a> method to decode the encoded string into an <b>CertEncodeAltName</b> object.
 
 Before using this method, you must call both the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383627(v=VS.85).aspx">Reset</a> method to size the array and the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383657(v=VS.85).aspx">SetNameEntry</a> method to set each array element.
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">Reset</a> method to size the array and the 
+<a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">SetNameEntry</a> method to set each array element.
 
 
 ## -parameters
@@ -77,7 +75,7 @@ A pointer to a <b>BSTR</b> that receives the ASN.1-encoded alternate name extens
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the ASN.1-encoded alternate name array.
@@ -90,19 +88,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383295(v=VS.85).aspx">ICertEncodeAltName</a>
+<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383300(v=VS.85).aspx">ICertEncodeAltName::Decode</a>
+<a href="https://msdn.microsoft.com/0507d3a5-b8c3-4f2e-996f-e1e32957f475">ICertEncodeAltName::Decode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383627(v=VS.85).aspx">ICertEncodeAltName::Reset</a>
+<a href="https://msdn.microsoft.com/99aa43fe-534b-4696-8bfc-7049b16be1cf">ICertEncodeAltName::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383657(v=VS.85).aspx">ICertEncodeAltName::SetNameEntry</a>
+<a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">ICertEncodeAltName::SetNameEntry</a>
  
 
  

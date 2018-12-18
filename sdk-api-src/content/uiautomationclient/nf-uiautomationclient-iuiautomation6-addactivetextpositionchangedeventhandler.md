@@ -9,8 +9,6 @@ ms.assetid: 05D46393-6B76-415A-A1F9-F28B5DAF2074
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomation6.AddActiveTextPositionChangedEventHandler, IUIAutomation6::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomation6::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomation6_AddActiveTextPositionChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 Registers a method that handles when the active text position changes.
-<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the <a href="https://msdn.microsoft.com/4D92FFD9-1E83-4DE3-B20C-5203E4D7E3A2">IUIAutomationEventHandlerGroup</a> methods to register event listeners instead of individual event registration methods defined here and in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
+<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the <a href="https://msdn.microsoft.com/en-us/library/Mt830316(v=VS.85).aspx">IUIAutomationEventHandlerGroup</a> methods to register event listeners instead of individual event registration methods defined here and in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
 
 ## -parameters
 
@@ -109,7 +107,7 @@ is invoked, the visual location is updated, but the UI Automation client remains
 
 Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit</a> and <a href="https://msdn.microsoft.com/dc34cc88-fd65-4c28-8a6a-ccfa6f3ac614">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
+For editable text elements, such as <a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787605(v=VS.85).aspx">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 
 

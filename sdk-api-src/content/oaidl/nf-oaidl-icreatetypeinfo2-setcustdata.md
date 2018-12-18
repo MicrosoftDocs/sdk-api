@@ -9,8 +9,6 @@ ms.assetid: 52a947c8-2860-4803-9df2-7b71b8b8ef87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetCustData method, ICreateTypeInfo2.SetCustData, ICreateTypeInfo2::SetCustData, SetCustData, SetCustData method [Automation], SetCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetCustData, automat.icreatetypeinfo2_setcustdata, oaidl/ICreateTypeInfo2::SetCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

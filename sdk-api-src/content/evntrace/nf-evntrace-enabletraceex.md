@@ -9,8 +9,6 @@ ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EVENT_ENABLE_PROPERTY_SID, EVENT_ENABLE_PROPERTY_TS_ID, EnableTraceEx, EnableTraceEx function [ETW], TRACE_LEVEL_CRITICAL, TRACE_LEVEL_ERROR, TRACE_LEVEL_INFORMATION, TRACE_LEVEL_VERBOSE, TRACE_LEVEL_WARNING, base.enabletraceex_func, etw.enabletraceex_func, evntrace/EnableTraceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 
@@ -291,7 +289,7 @@ Event trace controllers call this function.
 
 The provider defines its interpretation of being enabled or disabled. Typically, if a provider has been enabled, it generates events, but while it is disabled, it does not. 
 
-To include all events that a provider provides, set <i>MatchAnyKeyword</i> to zero (for a <a href="about_event_tracing.htm">manifest-based</a> provider and 0xFFFFFFFF for a <a href="about_event_tracing.htm">classic</a> provider). To include specific events, set the <i>MatchAnyKeyword</i> mask to those specific events. For example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 2), you can set <i>MatchAnyKeyword</i> to 5 to receive
+To include all events that a provider provides, set <i>MatchAnyKeyword</i> to zero (for a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider and 0xFFFFFFFF for a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider). To include specific events, set the <i>MatchAnyKeyword</i> mask to those specific events. For example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 2), you can set <i>MatchAnyKeyword</i> to 5 to receive
 initialization and cleanup events and calculation events.
 
 If the provider defines more complex event keywords, for example, the provider defines an event that sets bit 0 for read and bit 1 for local access and a second event that sets bit 0 for read and bit 2 for remote access, you could set MatchAnyKeyword to 1 to receive all read events, or you could set MatchAnykeyword to 1 and MatchAllKeywords to 3 to receive local reads only.
@@ -304,7 +302,7 @@ If the provider is registered and already enabled to your session, you can also 
 
 You do not call <b>EnableTraceEx</b> to enable kernel providers. To enable kernel providers, set the <b>EnableFlags</b> member of <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> which you then pass to <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a>. The <b>StartTrace</b> function enables the selected kernel providers.
 
-Up to eight trace sessions can enable and receive events from the same <a href="about_event_tracing.htm">manifest-based</a> provider; however, only one trace session can enable a <a href="about_event_tracing.htm">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider; however, only one trace session can enable a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 

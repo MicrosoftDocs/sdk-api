@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coloradjusttype.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorAdjustType, ColorAdjustType enumeration [GDI+], ColorAdjustTypeAny, ColorAdjustTypeBitmap, ColorAdjustTypeBrush, ColorAdjustTypeCount, ColorAdjustTypeDefault, ColorAdjustTypePen, ColorAdjustTypeText, _gdiplus_ENUM_ColorAdjustType, gdiplus._gdiplus_ENUM_ColorAdjustType, gdipluscolormatrix/ColorAdjustType, gdipluscolormatrix/ColorAdjustTypeAny, gdipluscolormatrix/ColorAdjustTypeBitmap, gdipluscolormatrix/ColorAdjustTypeBrush, gdipluscolormatrix/ColorAdjustTypeCount, gdipluscolormatrix/ColorAdjustTypeDefault, gdipluscolormatrix/ColorAdjustTypePen, gdipluscolormatrix/ColorAdjustTypeText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegDeleteKey, RegDeleteKey function, RegDeleteKeyA, RegDeleteKeyW, _win32_regdeletekey, base.regdeletekey, winreg/RegDeleteKey, winreg/RegDeleteKeyA, winreg/RegDeleteKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

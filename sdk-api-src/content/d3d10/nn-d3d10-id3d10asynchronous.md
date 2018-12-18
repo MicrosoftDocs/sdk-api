@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10asynchronous.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Asynchronous, ID3D10Asynchronous interface [Direct3D 10], ID3D10Asynchronous interface [Direct3D 10],described, bbcae8e9-6f10-e6ca-52e5-20302edce780, d3d10/ID3D10Asynchronous, direct3d10.id3d10asynchronous
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -58,7 +56,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

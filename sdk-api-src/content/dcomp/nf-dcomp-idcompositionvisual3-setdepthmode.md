@@ -9,8 +9,6 @@ ms.assetid: 670C4203-50CE-47AA-A896-04A9F75302E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetDepthMode method, IDCompositionVisual3.SetDepthMode, IDCompositionVisual3::SetDepthMode, SetDepthMode, SetDepthMode method [DirectComposition], SetDepthMode method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetDepthMode, directcomp.idcompositionvisual3_setdepthmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ The new depth mode.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c7bf4e6f-119b-2122-1103-d6ab240121c9">IDCompositionVisual3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904490(v=VS.85).aspx">IDCompositionVisual3</a>
  
 
  

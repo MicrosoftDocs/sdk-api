@@ -9,8 +9,6 @@ ms.assetid: 2915630B-A76B-40E7-8586-B0B0EFD30780
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetViewportSize method, ID2D1SvgDocument.SetViewportSize, ID2D1SvgDocument::SetViewportSize, SetViewportSize, SetViewportSize method [Direct2D], SetViewportSize method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetViewportSize, direct2d.id2d1svgdocument_setviewportsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -69,7 +67,7 @@ The size of the viewport.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

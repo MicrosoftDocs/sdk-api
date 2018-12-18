@@ -9,8 +9,6 @@ ms.assetid: a064bf4b-3401-4f92-b318-a9f66de1e61f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSecureCall, TSPI_lineSecureCall function [TAPI 2.2], _tspi_tspi_linesecurecall, tspi.tspi_linesecurecall, tspi/TSPI_lineSecureCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

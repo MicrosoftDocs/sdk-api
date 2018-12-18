@@ -9,8 +9,6 @@ ms.assetid: fb579d25-f38c-4f26-a29b-c6875cbabb3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPostInterpolationSpace, GetPostInterpolationSpace method [Direct2D], GetPostInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPostInterpolationSpace method, ID2D1GradientStopCollection1.GetPostInterpolationSpace, ID2D1GradientStopCollection1::GetPostInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPostInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpostinterpolationspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -75,7 +73,7 @@ This method returns the color space.
 
 
 
-If you create using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>. 
+If you create using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>. 
 
 
 
@@ -97,7 +95,7 @@ If you create using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

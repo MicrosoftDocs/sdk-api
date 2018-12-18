@@ -9,8 +9,6 @@ ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -112,7 +110,7 @@ The video window is hidden.
 
 
 
-<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
  
 
  

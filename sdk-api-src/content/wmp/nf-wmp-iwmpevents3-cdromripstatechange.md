@@ -9,8 +9,6 @@ ms.assetid: 08445295-4fed-412f-84ce-eaf337758472
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromRipStateChange, CdromRipStateChange method [Windows Media Player], CdromRipStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipStateChange method, IWMPEvents3.CdromRipStateChange, IWMPEvents3::CdromRipStateChange, IWMPEvents3CdromRipStateChange, wmp.iwmpevents3_iwmpevents3__cdromripstatechange, wmp/IWMPEvents3::CdromRipStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -96,15 +94,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd62cae1-3f63-4355-afc7-e429a444189d">WMPRipState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564884(v=VS.85).aspx">WMPRipState</a>
 
 
 

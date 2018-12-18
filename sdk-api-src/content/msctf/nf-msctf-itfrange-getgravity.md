@@ -9,8 +9,6 @@ ms.assetid: 7569b9dd-869f-49a6-ad0f-c2d9b5f0ae70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetGravity method, ITfRange.GetGravity, ITfRange::GetGravity, _tsf_itfrange_getgravity_ref, msctf/ITfRange::GetGravity, tsf.itfrange_getgravity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7b1cf459-b140-4793-a9e0-4153a00b9bc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastPrinted method, IXpsOMCoreProperties.SetLastPrinted, IXpsOMCoreProperties::SetLastPrinted, SetLastPrinted, SetLastPrinted method [XPS Documents and Packaging], SetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastprinted, xpsobjectmodel/IXpsOMCoreProperties::SetLastPrinted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

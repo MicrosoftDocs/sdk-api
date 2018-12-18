@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNormalize(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneNormalize, XMPlaneNormalize, XMPlaneNormalize method [DirectX Math Support APIs], dxmath.xmplanenormalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -112,7 +110,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/07049354-6843-4453-8104-0a241477dd00">XMPlaneNormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420149(v=VS.85).aspx">XMPlaneNormalizeEst</a>
  
 
  

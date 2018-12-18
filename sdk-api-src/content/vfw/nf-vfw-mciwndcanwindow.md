@@ -9,8 +9,6 @@ ms.assetid: 2db1d83a-3e03-474e-b36e-8b3b3e3faa82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndCanWindow, MCIWndCanWindow macro [Windows Multimedia], _win32_MCIWndCanWindow, multimedia.mciwndcanwindow, vfw/MCIWndCanWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

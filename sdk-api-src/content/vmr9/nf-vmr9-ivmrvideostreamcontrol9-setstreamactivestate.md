@@ -9,8 +9,6 @@ ms.assetid: 2c17a006-f086-49cd-a237-3713fb9bd3f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRVideoStreamControl9 interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl9.SetStreamActiveState, IVMRVideoStreamControl9::SetStreamActiveState, IVMRVideoStreamControl9SetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl9 interface, dshow.ivmrvideostreamcontrol9_setstreamactivestate, vmr9/IVMRVideoStreamControl9::SetStreamActiveState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -90,7 +88,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/df642ebb-058b-41db-95d3-d7d3bf9a6dd0">IVMRVideoStreamControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390529(v=VS.85).aspx">IVMRVideoStreamControl9 Interface</a>
 
 
 

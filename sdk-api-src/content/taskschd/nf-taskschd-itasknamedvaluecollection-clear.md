@@ -9,8 +9,6 @@ ms.assetid: ac6ac365-5315-49d4-b67a-9c840a2caf51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Clear method, ITaskNamedValueCollection.Clear, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

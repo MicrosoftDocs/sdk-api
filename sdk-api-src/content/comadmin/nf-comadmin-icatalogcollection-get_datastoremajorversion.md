@@ -9,8 +9,6 @@ ms.assetid: 846f4966-ff58-46b5-a56a-dc14f64fcae7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DataStoreMajorVersion property [COM+], DataStoreMajorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMajorVersion property, ICatalogCollection.DataStoreMajorVersion, ICatalogCollection.get_DataStoreMajorVersion, ICatalogCollection::DataStoreMajorVersion, ICatalogCollection::get_DataStoreMajorVersion, _cos_ICatalogCollection_get_DataStoreMajorVersion, comadmin/ICatalogCollection::DataStoreMajorVersion, comadmin/ICatalogCollection::get_DataStoreMajorVersion, cos.icatalogcollection_datastoremajorversion, get_DataStoreMajorVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

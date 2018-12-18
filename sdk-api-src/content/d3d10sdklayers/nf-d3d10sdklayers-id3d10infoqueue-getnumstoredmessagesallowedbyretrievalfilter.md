@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getnumstoredmessagesallowedbyretrie
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 42e473fd-210b-8a78-d305-72db80e7fc30, GetNumStoredMessagesAllowedByRetrievalFilter, GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10], GetNumStoredMessagesAllowedByRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumStoredMessagesAllowedByRetrievalFilter method, ID3D10InfoQueue.GetNumStoredMessagesAllowedByRetrievalFilter, ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::GetNumStoredMessagesAllowedByRetrievalFilter, direct3d10.id3d10infoqueue_getnumstoredmessagesallowedbyretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCIEndAccess, DCIEndAccess function [Windows API], _dciman_dciendaccess, dciman/DCIEndAccess, winprog._dciman_dciendaccess, winui._dciman_dciendaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

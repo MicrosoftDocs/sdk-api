@@ -9,8 +9,6 @@ ms.assetid: 06d82f1d-b965-40fb-8a79-904ba5af7191
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteCredentialsEx, DeleteCredentialsEx method [windows Media Format], DeleteCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],DeleteCredentialsEx method, IWMSInternalAdminNetSource2.DeleteCredentialsEx, IWMSInternalAdminNetSource2::DeleteCredentialsEx, IWMSInternalAdminNetSource2DeleteCredentialsEx, wmformat.iwmsinternaladminnetsource2_deletecredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::DeleteCredentialsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>DeleteCredentialsEx</b> method removes a password from the cache. This improved version of <a href="https://msdn.microsoft.com/16144c10-419c-4e6a-bc96-2f429c793257">IWMSInternalAdminNetSource::DeleteCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
+The <b>DeleteCredentialsEx</b> method removes a password from the cache. This improved version of <a href="https://msdn.microsoft.com/en-us/library/Dd798536(v=VS.85).aspx">IWMSInternalAdminNetSource::DeleteCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
 
 
 
@@ -93,7 +91,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
  
 
  

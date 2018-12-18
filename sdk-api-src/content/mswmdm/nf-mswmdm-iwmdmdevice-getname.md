@@ -9,8 +9,6 @@ ms.assetid: 4bc5d550-6631-40ea-b020-2f5bb55899d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetName method, IWMDMDevice.GetName, IWMDMDevice::GetName, IWMDMDeviceGetName, mswmdm/IWMDMDevice::GetName, wmdm.iwmdmdevice_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

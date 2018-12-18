@@ -9,8 +9,6 @@ ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

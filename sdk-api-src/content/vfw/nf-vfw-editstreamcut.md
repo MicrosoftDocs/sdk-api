@@ -9,8 +9,6 @@ ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

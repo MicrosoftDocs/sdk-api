@@ -9,8 +9,6 @@ ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, IWMMetadataEditor2.OpenEx, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format],IWMMetadataEditor2 interface, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -158,11 +156,11 @@ The parameters <i>dwDesiredAccess</i> and <i>dwShareMode</i> are identical to th
 
 
 
-<a href="https://msdn.microsoft.com/e991ac8e-35af-484f-8c60-dc6a7d402120">IWMMetadataEditor2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757233(v=VS.85).aspx">IWMMetadataEditor2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/01dd09ff-35d2-4e00-9eab-5110a426449f">IWMMetadataEditor::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a>
  
 
  

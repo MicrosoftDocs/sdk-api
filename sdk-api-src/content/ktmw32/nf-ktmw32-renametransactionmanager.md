@@ -9,8 +9,6 @@ ms.assetid: 2767e689-1342-458f-a215-a29d774c0648
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

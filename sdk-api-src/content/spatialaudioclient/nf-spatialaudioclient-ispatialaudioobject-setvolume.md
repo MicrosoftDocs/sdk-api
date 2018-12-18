@@ -9,8 +9,6 @@ ms.assetid: DC1B4B9C-BFE0-4308-AD34-500A30C5744F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObject interface [Core Audio],SetVolume method, ISpatialAudioObject.SetVolume, ISpatialAudioObject::SetVolume, SetVolume, SetVolume method [Core Audio], SetVolume method [Core Audio],ISpatialAudioObject interface, coreaudio.ispatialaudioobject_setvolume, spatialaudioclient/ISpatialAudioObject::SetVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

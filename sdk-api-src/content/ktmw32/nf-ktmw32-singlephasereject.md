@@ -9,8 +9,6 @@ ms.assetid: 8cc77686-e130-4b82-b2f5-70121b40e052
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SinglePhaseReject, SinglePhaseReject function [Files], fs.singlephasereject, ktmw32/SinglePhaseReject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

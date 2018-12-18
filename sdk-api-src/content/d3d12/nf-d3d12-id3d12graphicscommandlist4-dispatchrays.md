@@ -9,8 +9,6 @@ ms.assetid: 157F4609-B9AF-40EC-A2E6-33D5A897A813
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DispatchRays, DispatchRays method, DispatchRays method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,DispatchRays method, ID3D12GraphicsCommandList4.DispatchRays, ID3D12GraphicsCommandList4::DispatchRays, d3d12/ID3D12GraphicsCommandList4::DispatchRays, direct3d12.id3d12graphicscommandlist4_dispatchrays
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -94,7 +92,7 @@ If any grid dimension is 0, no threads are launched.
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

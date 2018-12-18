@@ -9,8 +9,6 @@ ms.assetid: c88d2328-0338-4c0b-b719-8501bcbb8a69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetServiceState method, IAMLine21Decoder.GetServiceState, IAMLine21Decoder::GetServiceState, IAMLine21DecoderGetServiceState, dshow.iamline21decoder_getservicestate, il21dec/IAMLine21Decoder::GetServiceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>GetServiceState</code> method indicates whether closed captioning is o
 
 ### -param lpState
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/fdd1dec4-660c-46d0-b18c-b725b813c6a7">AM_LINE21_CCSTATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373475(v=VS.85).aspx">AM_LINE21_CCSTATE</a> enumeration.
 
 
 ## -returns
@@ -124,7 +122,7 @@ By default, the <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888c
 
 
 
-<a href="https://msdn.microsoft.com/009e7d14-5946-42f0-8832-7fd8c565a877">IAMLine21Decoder::SetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319637(v=VS.85).aspx">IAMLine21Decoder::SetServiceState</a>
  
 
  

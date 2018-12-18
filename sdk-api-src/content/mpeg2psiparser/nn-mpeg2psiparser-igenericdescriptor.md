@@ -9,8 +9,6 @@ ms.assetid: efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -78,7 +76,7 @@ The <b>IGenericDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbb17e16-b0a4-45c1-b723-cbb6a61d4d0f">GetBody</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694094(v=VS.85).aspx">GetBody</a>
 </td>
 <td align="left" width="63%">
 Returns the body of the descriptor.
@@ -87,7 +85,7 @@ Returns the body of the descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd36bb87-ef30-4064-a251-c89a878eeae9">GetLength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694095(v=VS.85).aspx">GetLength</a>
 </td>
 <td align="left" width="63%">
 Returns the length of the descriptor body.
@@ -96,7 +94,7 @@ Returns the length of the descriptor body.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8923e91-46e1-48fa-a24c-d43cc4a09bd2">GetTag</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694096(v=VS.85).aspx">GetTag</a>
 </td>
 <td align="left" width="63%">
 Returns the descriptor tag.
@@ -105,7 +103,7 @@ Returns the descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dfe1f52-60ac-46b6-9f55-9764b47479e8">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694097(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.

@@ -9,8 +9,6 @@ ms.assetid: 7a78cd61-e7ae-42e2-9d64-f3344fefc59d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ The <i>pmsBufferWindow</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae14f3df-222a-494c-a171-02aed04490d1">IWMStreamConfig::SetBufferWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798565(v=VS.85).aspx">IWMStreamConfig::SetBufferWindow</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
@@ -67,9 +65,9 @@ The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">AS
 
 ### -param data [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">ASSOCDATA</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762470(v=VS.85).aspx">ASSOCDATA</a></b>
 
-The <a href="https://msdn.microsoft.com/0ae5c8db-81fd-4d00-8e54-0c474f1bfd06">ASSOCDATA</a> value that specifies the type of data that is to be returned.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762470(v=VS.85).aspx">ASSOCDATA</a> value that specifies the type of data that is to be returned.
 
 
 ### -param pszExtra [in, optional]

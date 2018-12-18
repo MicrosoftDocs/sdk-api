@@ -9,8 +9,6 @@ ms.assetid: f5a01819-75d0-42a0-b66f-5a25a48b091c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterForPrintAsyncNotifications, RegisterForPrintAsyncNotifications function [Windows GDI], _win32_RegisterForPrintAsyncNotifications, gdi.registerforprintasyncnotifications, prnasnot/RegisterForPrintAsyncNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prnasnot.h
 req.include-header: 
@@ -176,7 +174,7 @@ The following code example shows how these macros can be used to evaluate the re
 </table></span></div>
 For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd162835(v=VS.85).aspx">PrintAsyncNotifyError</a> for other possible return values.
 
 
 

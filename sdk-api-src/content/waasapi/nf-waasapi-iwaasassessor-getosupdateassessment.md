@@ -9,8 +9,6 @@ ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: waasapi.h
 req.include-header: 

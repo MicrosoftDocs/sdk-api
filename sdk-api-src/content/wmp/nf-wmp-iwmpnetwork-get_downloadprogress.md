@@ -9,8 +9,6 @@ ms.assetid: e9ed2027-cba4-4701-a416-a2190b51570c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_downloadProgress method, IWMPNetwork.get_downloadProgress, IWMPNetwork::get_downloadProgress, IWMPNetworkget_downloadProgress, get_downloadProgress, get_downloadProgress method [Windows Media Player], get_downloadProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_downloadprogress, wmp/IWMPNetwork::get_downloadProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -120,11 +118,11 @@ Use the <b>IWMPEvents::Buffering</b> event to determine when buffering starts or
 
 
 
-<a href="https://msdn.microsoft.com/3e379c92-b400-48ad-a3d3-82ed3cd3f396">IWMPEvents::Buffering</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563312(v=VS.85).aspx">IWMPEvents::Buffering</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

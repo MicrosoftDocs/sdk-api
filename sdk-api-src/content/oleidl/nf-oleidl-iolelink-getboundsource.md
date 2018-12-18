@@ -9,8 +9,6 @@ ms.assetid: 37d24337-eacc-453a-9a90-043ec9b35e9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBoundSource, GetBoundSource method [COM], GetBoundSource method [COM],IOleLink interface, IOleLink interface [COM],GetBoundSource method, IOleLink.GetBoundSource, IOleLink::GetBoundSource, _ole_iolelink_getboundsource, com.iolelink_getboundsource, oleidl/IOleLink::GetBoundSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

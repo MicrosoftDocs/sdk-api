@@ -9,8 +9,6 @@ ms.assetid: 47f34048-3b07-464e-a1f2-f0b49fe76659
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],StopPresenting method, IVMRImagePresenter9.StopPresenting, IVMRImagePresenter9::StopPresenting, IVMRImagePresenter9StopPresenting, StopPresenting, StopPresenting method [DirectShow], StopPresenting method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_stoppresenting, vmr9/IVMRImagePresenter9::StopPresenting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -111,11 +109,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/2c18cdd6-af97-4db2-80b5-bab4cfa25f7d">IVMRImagePresenter9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377391(v=VS.85).aspx">IVMRImagePresenter9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429">StartPresenting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377393(v=VS.85).aspx">StartPresenting</a>
 
 
 

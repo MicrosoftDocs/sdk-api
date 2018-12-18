@@ -9,8 +9,6 @@ ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenClusterGroupEx, OpenClusterGroupEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_EX, PCLUSAPI_OPEN_CLUSTER_GROUP_EX function [Failover Cluster], clusapi/OpenClusterGroupEx, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_EX, mscs.openclustergroupex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Opens a failover cluster <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> and returns a handle to 
+Opens a failover cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and returns a handle to 
     it.
 
 
@@ -129,7 +127,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

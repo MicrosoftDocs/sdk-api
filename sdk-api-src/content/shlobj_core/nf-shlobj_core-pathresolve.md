@@ -9,8 +9,6 @@ ms.assetid: 84bf0b56-513f-4ac6-b2cf-11f0c471da1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRF_DONTFINDLNK, PRF_FIRSTDIRDEF, PRF_REQUIREABSOLUTE, PRF_TRYPROGRAMEXTENSIONS, PRF_VERIFYEXISTS, PathResolve, PathResolve function [Windows Shell], _win32_PathResolve, shell.PathResolve, shlobj_core/PathResolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

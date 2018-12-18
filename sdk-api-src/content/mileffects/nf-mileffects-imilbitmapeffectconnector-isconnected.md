@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\isconnec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectConnector interface [WPF Bitmap Effects],IsConnected method, IMILBitmapEffectConnector.IsConnected, IMILBitmapEffectConnector::IsConnected, IsConnected, IsConnected method [WPF Bitmap Effects], IsConnected method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, _wibe_imilbitmapeffectconnector_isconnected, mileffects/IMILBitmapEffectConnector::IsConnected, wibe._wibe_imilbitmapeffectconnector_isconnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

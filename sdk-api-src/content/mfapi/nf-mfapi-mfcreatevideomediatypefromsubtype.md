@@ -9,8 +9,6 @@ ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

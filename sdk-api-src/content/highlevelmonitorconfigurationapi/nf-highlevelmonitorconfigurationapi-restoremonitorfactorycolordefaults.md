@@ -9,8 +9,6 @@ ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

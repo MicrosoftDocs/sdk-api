@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdifference.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 73eee0fa-79d7-c0e4-893e-efe3c0927f3f, D3D10StateBlockMaskDifference, D3D10StateBlockMaskDifference function [Direct3D 10], d3d10effect/D3D10StateBlockMaskDifference, direct3d10.d3d10stateblockmaskdifference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

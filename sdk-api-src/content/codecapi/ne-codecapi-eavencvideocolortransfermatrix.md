@@ -9,8 +9,6 @@ ms.assetid: 6912cc24-9c67-4c52-9cb7-3decbb4ba8ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoColorTransferMatrix, codecapi/eAVEncVideoColorTransferMatrix_BT601, codecapi/eAVEncVideoColorTransferMatrix_BT709, codecapi/eAVEncVideoColorTransferMatrix_SMPTE240M, codecapi/eAVEncVideoColorTransferMatrix_SameAsSource, dshow.eavencvideocolortransfermatrix, eAVEncVideoColorTransferMatrix, eAVEncVideoColorTransferMatrix enumeration [DirectShow], eAVEncVideoColorTransferMatrixEnumeration, eAVEncVideoColorTransferMatrix_BT601, eAVEncVideoColorTransferMatrix_BT709, eAVEncVideoColorTransferMatrix_SMPTE240M, eAVEncVideoColorTransferMatrix_SameAsSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -86,7 +84,7 @@ SMPTE 240M transfer matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 

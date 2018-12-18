@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCrawlScopeManager, GetCrawlScopeManager method [search], GetCrawlScopeManager method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCrawlScopeManager method, ISearchCatalogManager.GetCrawlScopeManager, ISearchCatalogManager::GetCrawlScopeManager, _search_ISearchCatalogManager_GetCrawlScopeManager, search._search_ISearchCatalogManager_GetCrawlScopeManager, searchapi/ISearchCatalogManager::GetCrawlScopeManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

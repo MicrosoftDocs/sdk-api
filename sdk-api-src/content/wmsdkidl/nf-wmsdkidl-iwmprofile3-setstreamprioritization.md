@@ -9,8 +9,6 @@ ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritization method, IWMProfile3.SetStreamPrioritization, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetStreamPrioritization</b> method assigns a stream prioritization object
 
 ### -param pSP [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization</a> interface of the stream prioritization object you want to assign to the profile.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization</a> interface of the stream prioritization object you want to assign to the profile.
 
 
 ## -returns
@@ -137,15 +135,15 @@ If there is already a stream prioritization object in the profile, it will be lo
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/09545c1e-8090-4526-9faf-6cb2cb369208">IWMProfile3::GetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">IWMProfile3::GetStreamPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/1522cb9f-ce3f-4183-8779-3ee112efb40b">IWMProfile3::RemoveStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757382(v=VS.85).aspx">IWMProfile3::RemoveStreamPrioritization</a>
  
 
  

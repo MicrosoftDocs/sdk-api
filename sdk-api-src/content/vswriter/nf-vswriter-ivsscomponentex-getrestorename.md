@@ -9,8 +9,6 @@ ms.assetid: a544bcc1-6a42-4cda-824c-2b027b8a4a6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRestoreName, GetRestoreName method, GetRestoreName method,IVssComponentEx interface, IVssComponentEx interface,GetRestoreName method, IVssComponentEx.GetRestoreName, IVssComponentEx::GetRestoreName, base.ivsscomponentex_getrestorename, vswriter/IVssComponentEx::GetRestoreName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

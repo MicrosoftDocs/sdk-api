@@ -4,13 +4,11 @@ title: IWRdsProtocolConnectionCallback::BrokenConnection
 author: windows-sdk-content
 description: Informs the Remote Desktop Services service that the client connection has been lost.
 old-location: termserv\iwrdsprotocolconnectioncallback_brokenconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bc317e10-e09c-423b-8016-eb1cf49eba43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrokenConnection, BrokenConnection method [Remote Desktop Services], BrokenConnection method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, IWRdsProtocolConnectionCallback interface [Remote Desktop Services],BrokenConnection method, IWRdsProtocolConnectionCallback.BrokenConnection, IWRdsProtocolConnectionCallback::BrokenConnection, termserv.iwrdsprotocolconnectioncallback_brokenconnection, wtsprotocol/IWRdsProtocolConnectionCallback::BrokenConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 67da583f-85da-4a09-be2c-44cf96bf51e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPlayerTimestampHook interface [windows Media Format],MapTimestamp method, IWMPlayerTimestampHook.MapTimestamp, IWMPlayerTimestampHook::MapTimestamp, IWMPlayerTimestampHookMapTimestamp, MapTimestamp, MapTimestamp method [windows Media Format], MapTimestamp method [windows Media Format],IWMPlayerTimestampHook interface, wmdxva/IWMPlayerTimestampHook::MapTimestamp, wmformat.iwmplayertimestamphook_maptimestamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmdxva.h
 req.include-header: 
@@ -89,7 +87,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/8a1b3b1f-1c9c-429f-958e-757b383c7e2a">IWMPlayerTimestampHook Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757263(v=VS.85).aspx">IWMPlayerTimestampHook Interface</a>
  
 
  

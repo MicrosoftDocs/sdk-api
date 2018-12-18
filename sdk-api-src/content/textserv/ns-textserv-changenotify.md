@@ -9,8 +9,6 @@ ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: textserv.h
 req.include-header: 

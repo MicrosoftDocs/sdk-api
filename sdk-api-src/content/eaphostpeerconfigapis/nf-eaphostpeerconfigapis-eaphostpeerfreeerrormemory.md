@@ -9,8 +9,6 @@ ms.assetid: c80ac625-8202-49a7-813a-62a9e0d15058
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerFreeErrorMemory, EapHostPeerFreeErrorMemory function [EAPHost], eaphost.eaphostpeerfreeerrormemory, eaphostpeerconfigapis/EapHostPeerFreeErrorMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

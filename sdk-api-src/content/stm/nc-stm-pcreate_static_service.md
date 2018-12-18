@@ -9,8 +9,6 @@ ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

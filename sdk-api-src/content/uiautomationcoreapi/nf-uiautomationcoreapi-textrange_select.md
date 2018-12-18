@@ -9,8 +9,6 @@ ms.assetid: 9d781be6-9eed-4559-9c68-424eb6326ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextRange_Select, TextRange_Select function [Windows Accessibility], uiauto.uiauto_TextRange_SelectConPat, uiauto_TextRange_SelectConPat, uiautomationcoreapi/TextRange_Select, winauto.uiauto_TextRange_SelectConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

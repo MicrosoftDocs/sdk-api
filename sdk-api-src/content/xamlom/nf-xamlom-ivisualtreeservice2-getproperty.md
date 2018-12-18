@@ -9,8 +9,6 @@ ms.assetid: 6FC5A7CF-A5EF-48B1-8DCD-4885BAFA0055
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetProperty method, IVisualTreeService2.GetProperty, IVisualTreeService2::GetProperty, xaml_diagnostics.ivisualtreeservice2_getproperty, xamlom/IVisualTreeService2::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

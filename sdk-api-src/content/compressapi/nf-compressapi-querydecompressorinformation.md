@@ -9,8 +9,6 @@ ms.assetid: 85b39c04-2145-45d2-be59-24615905353d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryDecompressorInformation, QueryDecompressorInformation function [Compression API], cmpapi.querydecompressorinformation, compressapi/QueryDecompressorInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 
@@ -65,7 +63,7 @@ Handle to the decompressor being queried for information.
 
 ### -param CompressInformationClass [in]
 
-A value of the  <a href="https://msdn.microsoft.com/ebdcbe03-b7fb-4dec-b906-086f8fe9be4c">COMPRESS_INFORMATION_CLASS</a> enumeration that identifies the type of information.
+A value of the  <a href="https://msdn.microsoft.com/en-us/library/Hh437567(v=VS.85).aspx">COMPRESS_INFORMATION_CLASS</a> enumeration that identifies the type of information.
 
 
 ### -param CompressInformation [out]

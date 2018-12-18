@@ -9,8 +9,6 @@ ms.assetid: 2ce92539-f5dc-44c3-94e5-253fc9995932
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [MMC], Create method [MMC],IControlbar interface, IControlbar interface [MMC],Create method, IControlbar.Create, IControlbar::Create, _slate_icontrolbar_create, mmc.icontrolbar_create, mmc/IControlbar::Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

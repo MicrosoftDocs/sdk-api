@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEffect, CreateEffect method [WPF Bitmap Effects], CreateEffect method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffect method, IMILBitmapEffectFactory.CreateEffect, IMILBitmapEffectFactory::CreateEffect, _wibe_imilbitmapeffectfactory_createeffect, mileffects/IMILBitmapEffectFactory::CreateEffect, wibe._wibe_imilbitmapeffectfactory_createeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

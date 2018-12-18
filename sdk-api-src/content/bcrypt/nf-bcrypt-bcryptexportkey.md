@@ -9,8 +9,6 @@ ms.assetid: a5d73143-c1d6-43b3-a724-7e27c68a5ade
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCRYPT_AES_WRAP_KEY_BLOB, BCRYPT_DH_PRIVATE_BLOB, BCRYPT_DH_PUBLIC_BLOB, BCRYPT_DSA_PRIVATE_BLOB, BCRYPT_DSA_PUBLIC_BLOB, BCRYPT_ECCPRIVATE_BLOB, BCRYPT_ECCPUBLIC_BLOB, BCRYPT_KEY_DATA_BLOB, BCRYPT_OPAQUE_KEY_BLOB, BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, BCRYPT_RSAFULLPRIVATE_BLOB, BCRYPT_RSAPRIVATE_BLOB, BCRYPT_RSAPUBLIC_BLOB, BCryptExportKey, BCryptExportKey function [Security], LEGACY_DH_PRIVATE_BLOB, LEGACY_DH_PUBLIC_BLOB, LEGACY_DSA_PRIVATE_BLOB, LEGACY_DSA_PUBLIC_BLOB, LEGACY_DSA_V2_PRIVATE_BLOB, LEGACY_RSAPRIVATE_BLOB, LEGACY_RSAPUBLIC_BLOB, bcrypt/BCryptExportKey, security.bcryptexportkey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 
@@ -144,7 +142,7 @@ Export a DSA public key. The <i>pbOutput</i> buffer receives a <a href="https://
 </dl>
 </td>
 <td width="60%">
-Export an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">elliptic curve cryptography</a> (ECC) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375520(v=VS.85).aspx">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">elliptic curve cryptography</a> (ECC) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/e60f6630-e4b0-4f35-a3cf-95dbcb007124">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -154,7 +152,7 @@ Export an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff80
 </dl>
 </td>
 <td width="60%">
-Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375520(v=VS.85).aspx">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
+Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/e60f6630-e4b0-4f35-a3cf-95dbcb007124">BCRYPT_ECCKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -164,7 +162,7 @@ Export an ECC public key. The <i>pbOutput</i> buffer receives a <a href="https:/
 </dl>
 </td>
 <td width="60%">
-Export a symmetric key to a data BLOB. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375524(v=VS.85).aspx">BCRYPT_KEY_DATA_BLOB_HEADER</a> structure immediately followed by the key BLOB.
+Export a symmetric key to a data BLOB. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/054bba02-c73a-496d-b619-749c3f4e8ad9">BCRYPT_KEY_DATA_BLOB_HEADER</a> structure immediately followed by the key BLOB.
 
 </td>
 </tr>
@@ -174,7 +172,7 @@ Export a symmetric key to a data BLOB. The <i>pbOutput</i> buffer receives a <a 
 </dl>
 </td>
 <td width="60%">
-Export a symmetric key in a format that is specific to a single <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB. Opaque BLOBs are only intended to be used for interprocess transfer of keys and are not suitable to be persisted and read across versions of a provider.
+Export a symmetric key in a format that is specific to a single <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB. Opaque BLOBs are only intended to be used for interprocess transfer of keys and are not suitable to be persisted and read across versions of a provider.
 
 </td>
 </tr>
@@ -184,7 +182,7 @@ Export a symmetric key in a format that is specific to a single <a href="https:/
 </dl>
 </td>
 <td width="60%">
-Export a generic public key of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa375523(v=VS.85).aspx">BCRYPT_KEY_BLOB</a> structure.
+Export a generic public key of any type. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/ae7e8db3-858d-4573-afe1-c9bc14d76480">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -194,7 +192,7 @@ Export a generic public key of any type. The type of key in this BLOB is determi
 </dl>
 </td>
 <td width="60%">
-Export a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa375523(v=VS.85).aspx">BCRYPT_KEY_BLOB</a> structure.
+Export a generic private key of any type. The private key does not necessarily contain the public key. The type of key in this BLOB is determined by the <b>Magic</b> member of the <a href="https://msdn.microsoft.com/ae7e8db3-858d-4573-afe1-c9bc14d76480">BCRYPT_KEY_BLOB</a> structure.
 
 </td>
 </tr>
@@ -204,7 +202,7 @@ Export a generic private key of any type. The private key does not necessarily c
 </dl>
 </td>
 <td width="60%">
-Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375531(v=VS.85).aspx">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data. This BLOB will include additional key material compared to the <b>BCRYPT_RSAPRIVATE_BLOB</b> type.
+Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data. This BLOB will include additional key material compared to the <b>BCRYPT_RSAPRIVATE_BLOB</b> type.
 
 </td>
 </tr>
@@ -214,7 +212,7 @@ Export a full RSA public/private key pair. The <i>pbOutput</i> buffer receives a
 </dl>
 </td>
 <td width="60%">
-Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375531(v=VS.85).aspx">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -224,7 +222,7 @@ Export an RSA public/private key pair. The <i>pbOutput</i> buffer receives a <a 
 </dl>
 </td>
 <td width="60%">
-Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/en-us/library/Aa375531(v=VS.85).aspx">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
+Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="https://msdn.microsoft.com/bbf3f4b9-5c69-4212-bb23-34bb2c84185c">BCRYPT_RSAKEY_BLOB</a> structure immediately followed by the key data.
 
 </td>
 </tr>
@@ -234,7 +232,7 @@ Export an RSA public key. The <i>pbOutput</i> buffer receives a <a href="https:/
 </dl>
 </td>
 <td width="60%">
-Export a legacy <a href="https://msdn.microsoft.com/en-us/library/Aa381973(v=VS.85).aspx">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that can be imported by using <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">CryptoAPI</a>.
+Export a legacy <a href="https://msdn.microsoft.com/c759e6e1-f7af-4cd6-a67e-ff0da1e91eb1">Diffie-Hellman Version 3 Private Key BLOB</a> that contains a Diffie-Hellman public/private key pair that can be imported by using <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CryptoAPI</a>.
 
 </td>
 </tr>
@@ -244,7 +242,7 @@ Export a legacy <a href="https://msdn.microsoft.com/en-us/library/Aa381973(v=VS.
 </dl>
 </td>
 <td width="60%">
-Export a legacy <a href="https://msdn.microsoft.com/en-us/library/Aa381974(v=VS.85).aspx">Diffie-Hellman Version 3 Public Key BLOB</a> that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
+Export a legacy <a href="https://msdn.microsoft.com/ba29a71a-7509-49c7-93d2-f0a699532706">Diffie-Hellman Version 3 Public Key BLOB</a> that contains a Diffie-Hellman public key that can be imported by using CryptoAPI.
 
 </td>
 </tr>
@@ -403,7 +401,7 @@ The specified BLOB type is not supported by the provider.
 
 
 
-Depending on what processor modes a provider supports, <b>BCryptExportKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptExportKey</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptExportKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptExportKey</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=84080">WDK and Developer Tools</a>.<b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -417,11 +415,11 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375475(v=VS.85).aspx">BCryptImportKey</a>
+<a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375472(v=VS.85).aspx">BCryptImportKeyPair</a>
+<a href="https://msdn.microsoft.com/271fc084-6121-4666-b521-b849c7d7966c">BCryptImportKeyPair</a>
  
 
  

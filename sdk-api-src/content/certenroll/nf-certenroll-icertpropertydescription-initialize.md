@@ -9,8 +9,6 @@ ms.assetid: 17e8ee9c-c861-4437-a70d-ccad6a5a293d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertyDescription interface [Security],Initialize method, ICertPropertyDescription.Initialize, ICertPropertyDescription::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyDescription interface, certenroll/ICertPropertyDescription::Initialize, security.icertpropertydescription_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -69,7 +67,7 @@ A <b>BSTR</b> variable that contains a description. The string length cannot exc
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -110,7 +108,7 @@ The string length exceeds 260 characters.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).aspx">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375653(v=VS.85).aspx">Description</a> property to retrieve the description string.
+Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc2">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/afc8c4f4-186b-4f00-b12b-54b50913865d">Description</a> property to retrieve the description string.
 
 
 
@@ -120,19 +118,19 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375646(v=VS.85).aspx">ICertPropertyDescription</a>
+<a href="https://msdn.microsoft.com/229e8ce9-fe18-45f4-8f91-cd741052a134">ICertPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375715(v=VS.85).aspx">ICertPropertyFriendlyName</a>
+<a href="https://msdn.microsoft.com/d2bfe2f2-423e-4620-8933-bbae4f98c62a">ICertPropertyFriendlyName</a>
  
 
  

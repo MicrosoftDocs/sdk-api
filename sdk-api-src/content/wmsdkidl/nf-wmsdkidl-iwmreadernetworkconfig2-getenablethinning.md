@@ -9,8 +9,6 @@ ms.assetid: 3ad43406-56db-48db-96a7-419b6719dbd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnableThinning, GetEnableThinning method [windows Media Format], GetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableThinning method, IWMReaderNetworkConfig2.GetEnableThinning, IWMReaderNetworkConfig2::GetEnableThinning, IWMReaderNetworkConfig2GetEnableThinning, wmformat.iwmreadernetworkconfig2_getenablethinning, wmsdkidl/IWMReaderNetworkConfig2::GetEnableThinning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -131,11 +129,11 @@ This feature applies only to content streaming from a server running Windows Med
 
 
 
-<a href="https://msdn.microsoft.com/a0480243-53e0-4da5-a119-291b19f46951">IWMReaderNetworkConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743505(v=VS.85).aspx">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/98d4eb7e-e712-4ca0-a532-1160254748b8">IWMReaderNetworkConfig2::SetEnableThinning</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743518(v=VS.85).aspx">IWMReaderNetworkConfig2::SetEnableThinning</a>
  
 
  

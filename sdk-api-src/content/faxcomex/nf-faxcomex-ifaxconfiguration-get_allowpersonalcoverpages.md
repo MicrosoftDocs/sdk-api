@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],AllowPersonalCoverPages property, IFaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.get_AllowPersonalCoverPages, IFaxConfiguration::AllowPersonalCoverPages, IFaxConfiguration::get_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_IFaxConfiguration_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::AllowPersonalCoverPages, faxcomex/IFaxConfiguration::get_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages, get_AllowPersonalCoverPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

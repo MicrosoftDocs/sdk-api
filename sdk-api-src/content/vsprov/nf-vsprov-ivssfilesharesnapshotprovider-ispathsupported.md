@@ -9,8 +9,6 @@ ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSupported method, IVssFileShareSnapshotProvider.IsPathSupported, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Applications property [RDP], Applications property [RDP],IRDPSRAPIApplicationFilter interface, Applications property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter.get_Applications, IRDPSRAPIApplicationFilter::Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP],Applications property, get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

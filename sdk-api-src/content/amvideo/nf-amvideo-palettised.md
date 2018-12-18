@@ -9,8 +9,6 @@ ms.assetid: 0f233f6f-ed52-4b32-8766-42e2416b6fc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dshow.palettised
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -60,7 +58,7 @@ The <code>PALETTISED</code> macro checks whether a bitmap has a color depth of 8
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
 
 
 ## -see-also
@@ -72,7 +70,7 @@ Pointer to a <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-7854079
 
 
 
-<a href="https://msdn.microsoft.com/7923b767-2b38-4aa8-bbc2-21d0254bdbd9">PALETTE_ENTRIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377405(v=VS.85).aspx">PALETTE_ENTRIES</a>
 
 
 

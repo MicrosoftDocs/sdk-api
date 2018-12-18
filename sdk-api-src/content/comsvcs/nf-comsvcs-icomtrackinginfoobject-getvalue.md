@@ -9,8 +9,6 @@ ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTrackingInfoObject interface, IComTrackingInfoObject interface [COM+],GetValue method, IComTrackingInfoObject.GetValue, IComTrackingInfoObject::GetValue, _dtc_IComTrackingInfoObject_GetValue, comsvcs/IComTrackingInfoObject::GetValue, cos.icomtrackinginfoobject_getvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

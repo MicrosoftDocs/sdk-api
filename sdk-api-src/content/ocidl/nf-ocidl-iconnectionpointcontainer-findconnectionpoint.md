@@ -9,8 +9,6 @@ ms.assetid: bbe55013-13ca-43e8-8d5e-ef89076df039
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindConnectionPoint, FindConnectionPoint method [COM], FindConnectionPoint method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],FindConnectionPoint method, IConnectionPointContainer.FindConnectionPoint, IConnectionPointContainer::FindConnectionPoint, _com_iconnectionpointcontainer_findconnectionpoint, com.iconnectionpointcontainer_findconnectionpoint, ocidl/IConnectionPointContainer::FindConnectionPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

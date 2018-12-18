@@ -9,8 +9,6 @@ ms.assetid: 227ed0c0-0bdd-49af-b5dc-fdb69913b9c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "+1, -1, 0, Compare, Compare method [Text Services Framework], Compare method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Compare method, IAnchor.Compare, IAnchor::Compare, textstor/IAnchor::Compare, tsf.ianchor_compare"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

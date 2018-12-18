@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getrasterizerstate.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1, GetRasterizerState, GetRasterizerState method [Direct3D 10], GetRasterizerState method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetRasterizerState method, ID3D10EffectRasterizerVariable.GetRasterizerState, ID3D10EffectRasterizerVariable::GetRasterizerState, d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState, direct3d10.id3d10effectrasterizervariable_getrasterizerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 260d7699-cf75-4179-9f2b-bc3bc49c94e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetDescriptionData method, ITocEntry.SetDescriptionData, ITocEntry::SetDescriptionData, SetDescriptionData, SetDescriptionData method [Media Foundation], SetDescriptionData method [Media Foundation],ITocEntry interface, codecapi.itocentry_setdescriptiondata, mf.itocentry_setdescriptiondata, wmcodecdsp/ITocEntry::SetDescriptionData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

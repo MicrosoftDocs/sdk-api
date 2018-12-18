@@ -9,8 +9,6 @@ ms.assetid: ffbbdd4c-5d64-4ec0-a2f3-a5d31aec6402
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastManualStart, IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastmanualstart, wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

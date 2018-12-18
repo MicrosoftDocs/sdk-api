@@ -7,10 +7,8 @@ old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm
 tech.root: offlinefiles
 ms.assetid: d2e8ae5b-92e7-4284-a02f-6eb3ab288376
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -88,7 +86,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a>
+<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
  
 
  

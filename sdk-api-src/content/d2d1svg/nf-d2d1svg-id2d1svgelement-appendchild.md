@@ -9,8 +9,6 @@ ms.assetid: BE9F0820-D66E-4B20-8790-3D5B3652754B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendChild, AppendChild method [Direct2D], AppendChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],AppendChild method, ID2D1SvgElement.AppendChild, ID2D1SvgElement::AppendChild, d2d1svg/ID2D1SvgElement::AppendChild, direct2d.id2d1svgelement_appendchild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -71,7 +69,7 @@ The element to append.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
           Returns an error if this element cannot accept children of the type of newChild. 

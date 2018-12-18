@@ -9,8 +9,6 @@ ms.assetid: 74ec9ace-2468-4b26-a419-781f0b4fd073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorimetricToDeviceColorsWithBlack, ColorimetricToDeviceColorsWithBlack method [Windows Color System], ColorimetricToDeviceColorsWithBlack method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColorsWithBlack method, IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack, IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, _color_IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColorsWithBlack, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

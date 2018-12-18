@@ -9,8 +9,6 @@ ms.assetid: 37d28f32-5da5-4082-ac57-5b274e95ca68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],NotifyOwnerMessage method, IVideoWindow.NotifyOwnerMessage, IVideoWindow::NotifyOwnerMessage, IVideoWindowNotifyOwnerMessage, NotifyOwnerMessage, NotifyOwnerMessage method [DirectShow], NotifyOwnerMessage method [DirectShow],IVideoWindow interface, control/IVideoWindow::NotifyOwnerMessage, dshow.ivideowindow_notifyownermessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -64,7 +62,7 @@ The <code>NotifyOwnerMessage</code> method forwards a message to the video windo
 
 ### -param hwnd [in]
 
-A handle to the window, as an <a href="https://msdn.microsoft.com/en-us/library/Dd390937(v=VS.85).aspx">OAHWND</a> value.
+A handle to the window, as an <a href="https://msdn.microsoft.com/80194b19-9c24-48f5-aca6-6ab33bd88c90">OAHWND</a> value.
           
 
 
@@ -145,7 +143,7 @@ The Filter Graph Manager calls this method to pass various messages to the rende
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

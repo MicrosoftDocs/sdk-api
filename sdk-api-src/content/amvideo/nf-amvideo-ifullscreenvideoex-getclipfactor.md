@@ -9,8 +9,6 @@ ms.assetid: f45e1736-8130-483b-9f90-614c4b6970db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClipFactor, GetClipFactor method [DirectShow], GetClipFactor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetClipFactor method, IFullScreenVideoEx.GetClipFactor, IFullScreenVideoEx::GetClipFactor, IFullScreenVideoGetClipFactor, amvideo/IFullScreenVideoEx::GetClipFactor, dshow.ifullscreenvideoex_getclipfactor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -115,7 +113,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
  
 
  

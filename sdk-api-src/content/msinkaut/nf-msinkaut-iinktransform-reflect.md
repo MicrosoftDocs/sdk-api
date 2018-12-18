@@ -9,8 +9,6 @@ ms.assetid: ebecd285-4dc4-4f4a-9d07-a3287b0438e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reflect method, IInkTransform.Reflect, IInkTransform::Reflect, Reflect, Reflect method [Tablet PC], Reflect method [Tablet PC],IInkTransform interface, ebecd285-4dc4-4f4a-9d07-a3287b0438e9, msinkaut/IInkTransform::Reflect, tablet.inktransform_reflect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -127,7 +125,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 533f30a7-bf54-670e-63be-ffb9b07fb9d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetLocality method, IDWriteFontFaceReference.GetLocality, IDWriteFontFaceReference::GetLocality, directwrite.idwritefontfacereference_getlocality, dwrite_3/IDWriteFontFaceReference::GetLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -64,7 +62,7 @@ Get the locality of this font face reference.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a></b>
 
 Returns the locality of this font face reference.
 
@@ -89,7 +87,7 @@ You can always successfully
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

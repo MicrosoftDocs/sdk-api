@@ -9,8 +9,6 @@ ms.assetid: A116286A-F948-49AA-9D3B-F104E3312920
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIOutput3, IDXGIOutput3 interface [DXGI], IDXGIOutput3 interface [DXGI],described, direct3ddxgi.idxgioutput3, dxgi1_3/IDXGIOutput3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

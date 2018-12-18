@@ -9,8 +9,6 @@ ms.assetid: 6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_SUPPORT, D3D12_FEATURE_DATA_FORMAT_SUPPORT structure, d3d12/D3D12_FEATURE_DATA_FORMAT_SUPPORT, direct3d12.d3d12_feature_data_format_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -77,7 +75,7 @@ A combination of <a href="https://msdn.microsoft.com/29B53FBE-2FF3-4A3A-8392-307
 
 
 
-Refer to <a href="/windows/desktop/direct3d12/typed-unordered-access-view-loads">Typed unordered access view loads</a> for an example use of this structure.
+Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn914603(v=VS.85).aspx">Typed unordered access view loads</a> for an example use of this structure.
 
 Also see <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>.
 
@@ -123,7 +121,7 @@ To view tables of DXGI formats and hardware features, refer to:
 
 
 
-<a href="/windows/desktop/direct3d12/typed-unordered-access-view-loads">Typed unordered access view loads</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn914603(v=VS.85).aspx">Typed unordered access view loads</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 462dfc20-ad5a-425c-94b5-f21ab05f5af8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual, IDCompositionVisual interface [DirectComposition], IDCompositionVisual interface [DirectComposition],described, dcomp/IDCompositionVisual, directcomp.idcompositionvisual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDCompositionVisual</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1124df5-7795-49c3-a640-f218cfdd4f1d">AddVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx">AddVisual</a>
 </td>
 <td align="left" width="63%">
 Adds a new child visual to the children list of this visual.
@@ -79,7 +77,7 @@ Adds a new child visual to the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3872d6a-f3f8-4343-b01d-6db5490abb13">RemoveAllVisuals</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449143(v=VS.85).aspx">RemoveAllVisuals</a>
 </td>
 <td align="left" width="63%">
 Removes all visuals from the children list of this visual.
@@ -88,7 +86,7 @@ Removes all visuals from the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d77161b1-cb35-40a7-a51c-4b44ea320e78">RemoveVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449145(v=VS.85).aspx">RemoveVisual</a>
 </td>
 <td align="left" width="63%">
 Removes a child visual from the children list of this visual.
@@ -97,7 +95,7 @@ Removes a child visual from the children list of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F45A3619-556B-4D2C-BCB0-8D55A1397579">SetBitmapInterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449147(v=VS.85).aspx">SetBitmapInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the BitmapInterpolationMode property, which specifies the mode for DirectComposition to use when interpolating pixels from bitmaps that are not axis-aligned or drawn exactly at scale. 
@@ -106,7 +104,7 @@ Sets the BitmapInterpolationMode property, which specifies the mode for DirectCo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88C77869-B08D-43F6-8A1E-A112743C0404">SetBorderMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449149(v=VS.85).aspx">SetBorderMode</a>
 </td>
 <td align="left" width="63%">
 Sets the BorderMode property, which specifies how to compose the edges of bitmaps and clips associated with this visual, or with visuals in the subtree rooted at this visual.
@@ -115,7 +113,7 @@ Sets the BorderMode property, which specifies how to compose the edges of bitmap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ACEBA4F9-E1B0-459B-8DC2-272A822AB214">SetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">SetClip</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Clip property of this visual to the specified rectangular region or clip object.
 
@@ -123,7 +121,7 @@ Sets the BorderMode property, which specifies how to compose the edges of bitmap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2F8C7930-6BBC-4CA9-86C0-168BF0F9C0BD">SetCompositeMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802902(v=VS.85).aspx">SetCompositeMode</a>
 </td>
 <td align="left" width="63%">
 Sets the blending mode for this visual.
@@ -132,7 +130,7 @@ Sets the blending mode for this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">SetContent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx">SetContent</a>
 </td>
 <td align="left" width="63%">
 Sets the Content property of this visual to the specified bitmap or window wrapper.
@@ -141,7 +139,7 @@ Sets the Content property of this visual to the specified bitmap or window wrapp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">SetEffect</a>
 </td>
 <td align="left" width="63%">
 Sets the Effect property of this visual.
@@ -176,7 +174,7 @@ Sets the Effect property of this visual.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06C02E3D-27FF-4E11-87C2-7D8281A69601">SetTransformParent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449172(v=VS.85).aspx">SetTransformParent</a>
 </td>
 <td align="left" width="63%">
 Sets the TransformParent property of this visual. The TransformParent property establishes the coordinate system relative to which this visual is composed.
@@ -191,7 +189,7 @@ Sets the TransformParent property of this visual. The TransformParent property e
 
 
 
-<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx">IDCompositionDevice::CreateVisual</a>
  
 
  

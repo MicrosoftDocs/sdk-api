@@ -9,8 +9,6 @@ ms.assetid: fdb90fbc-9504-4b72-83ab-b410c3bd2e1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Encrypt method, IWMSecureChannel.WMSC_Encrypt, IWMSecureChannel::WMSC_Encrypt, WMSC_Encrypt, WMSC_Encrypt method [windows Media Format], WMSC_Encrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_encrypt, wmsecure/IWMSecureChannel::WMSC_Encrypt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>Encrypt</b> holds a lock on the connection which is released by <a href="https://msdn.microsoft.com/c477c1f9-0264-4d3f-8670-f0c52df9e6a6">Decrypt</a>, so threads should not block between calls to encrypt
+<b>Encrypt</b> holds a lock on the connection which is released by <a href="https://msdn.microsoft.com/en-us/library/Dd743709(v=VS.85).aspx">Decrypt</a>, so threads should not block between calls to encrypt
      and decrypt.
 
 
@@ -91,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
  
 
  

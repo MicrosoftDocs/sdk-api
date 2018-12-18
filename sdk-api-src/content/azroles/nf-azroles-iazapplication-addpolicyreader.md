@@ -9,8 +9,6 @@ ms.assetid: fb44461c-e494-4393-bdcd-0e759f6fbae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzApplication object, AddPolicyReader method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyReader method, IAzApplication interface [Security],AddPolicyReader method, IAzApplication.AddPolicyReader, IAzApplication::AddPolicyReader, azroles/IAzApplication::AddPolicyReader, security.iazapplication_addpolicyreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

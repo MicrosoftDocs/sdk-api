@@ -9,8 +9,6 @@ ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcErrorGetNextRecord, RpcErrorGetNextRecord function [RPC], _rpc_rpcerrorgetnextrecord, rpc.rpcerrorgetnextrecord, rpcasync/RpcErrorGetNextRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

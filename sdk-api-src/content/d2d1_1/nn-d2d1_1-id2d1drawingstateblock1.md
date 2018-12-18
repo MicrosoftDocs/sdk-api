@@ -9,8 +9,6 @@ ms.assetid: F3A364F6-2C30-4DDE-A5C7-7B58758F111F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DrawingStateBlock1, ID2D1DrawingStateBlock1 interface [Direct2D], ID2D1DrawingStateBlock1 interface [Direct2D],described, d2d1_1/ID2D1DrawingStateBlock1, direct2d.id2d1drawingstateblock1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_1.h
 req.include-header: 

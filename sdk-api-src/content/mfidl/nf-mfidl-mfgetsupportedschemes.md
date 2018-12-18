@@ -9,8 +9,6 @@ ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

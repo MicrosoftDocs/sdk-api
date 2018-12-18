@@ -9,8 +9,6 @@ ms.assetid: f196638e-ccbb-4768-96c1-8e1d00361831
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferRecordControl, IStreamBufferRecordControl interface [Microsoft TV Technologies], IStreamBufferRecordControl interface [Microsoft TV Technologies],described, IStreamBufferRecordControlInterface, mstv.istreambufferrecordcontrol, sbe/IStreamBufferRecordControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

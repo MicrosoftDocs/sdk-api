@@ -9,8 +9,6 @@ ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -55,7 +53,7 @@ req.redist:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionGaussianBlurEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionGaussianBlurEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionGaussianBlurEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionGaussianBlurEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +68,7 @@ The <b>IDCompositionGaussianBlurEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34A96D63-E6F3-48F3-8105-A7E30C1D4E7D">SetBorderMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919735(v=VS.85).aspx">SetBorderMode</a>
 </td>
 <td align="left" width="63%">
 Sets the mode used to calculate the border of the image.
@@ -79,7 +77,7 @@ Sets the mode used to calculate the border of the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e911c48-69c2-1c71-cc41-a501b13a0ee2">SetStandardDeviation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905289(v=VS.85).aspx">SetStandardDeviation</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the amount of blur to be applied to the image.
 
@@ -93,7 +91,7 @@ Sets the mode used to calculate the border of the image.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

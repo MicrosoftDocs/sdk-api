@@ -9,8 +9,6 @@ ms.assetid: 115FD667-64D2-4538-9EB4-B133D5DCAF30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionShadowEffect, IDCompositionShadowEffect interface [DirectComposition], IDCompositionShadowEffect interface [DirectComposition],described, dcomp/IDCompositionShadowEffect, directcomp.idcompositionshadoweffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -57,7 +55,7 @@ The shadow effect is used to generate a shadow from the alpha channel of an imag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionShadowEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionShadowEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionShadowEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +78,7 @@ The <b>IDCompositionShadowEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ef324ce-8a62-ebca-45ca-3c92671dfaa3">SetBlue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905301(v=VS.85).aspx">SetBlue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the blue value for the color of the shadow.
 
@@ -88,7 +86,7 @@ The <b>IDCompositionShadowEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1C08E464-087A-41BF-9B0E-E1370576E64A">SetColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919771(v=VS.85).aspx">SetColor</a>
 </td>
 <td align="left" width="63%">
 Sets color of the shadow.
@@ -97,7 +95,7 @@ Sets color of the shadow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1a74aca-6026-1307-7300-ca2941246000">SetRed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905303(v=VS.85).aspx">SetRed</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the red value for the color of the shadow.
 
@@ -127,7 +125,7 @@ Sets color of the shadow.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

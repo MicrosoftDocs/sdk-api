@@ -9,8 +9,6 @@ ms.assetid: e3f04252-fe49-48fb-9e77-8a05031abf5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExportPolicy property [Security], ExportPolicy property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ExportPolicy property, IX509PrivateKey.ExportPolicy, IX509PrivateKey.put_ExportPolicy, IX509PrivateKey::ExportPolicy, IX509PrivateKey::get_ExportPolicy, IX509PrivateKey::put_ExportPolicy, XCN_NCRYPT_ALLOW_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_EXPORT_FLAG, XCN_NCRYPT_ALLOW_EXPORT_NONE, XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG, XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG, certenroll/IX509PrivateKey::ExportPolicy, certenroll/IX509PrivateKey::get_ExportPolicy, certenroll/IX509PrivateKey::put_ExportPolicy, put_ExportPolicy, security.ix509privatekey_exportpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

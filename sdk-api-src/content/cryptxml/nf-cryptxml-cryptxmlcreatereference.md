@@ -9,8 +9,6 @@ ms.assetid: 1078d483-a017-486b-8967-a3efe9d3a29a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 
@@ -117,7 +115,7 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the value of 
 
 ### -param pDigestMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
+A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
 
 
 ### -param cTransform
@@ -127,7 +125,7 @@ The number of elements in the array pointed to by the <i>rgTransform</i> paramet
 
 ### -param rgTransform [in]
 
-A pointer to an ordered array of <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
+A pointer to an ordered array of <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
     the reference data before the digest calculation.
 
 

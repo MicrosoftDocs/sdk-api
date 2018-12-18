@@ -1,5 +1,5 @@
 ---
-UID: NE:iscsidsc.IKE_AUTHENTICATION_METHOD
+UID: NE:iscsidsc.__unnamed_enum_2
 title: IKE_AUTHENTICATION_METHOD
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_METHOD enumeration indicates the type of Internet Key Exchange (IKE) authentication method.
@@ -7,10 +7,8 @@ old-location: iscsidisc\ike_authentication_method.htm
 tech.root: iSCSIDisc
 ms.assetid: be92f3db-93c5-41e3-bd5a-f929f911da39
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PIKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD, IKE_AUTHENTICATION_METHOD enumeration [iSCSI Discovery Library API], IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, PIKE_AUTHENTICATION_METHOD, PIKE_AUTHENTICATION_METHOD enumeration pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_method, iscsidsc/IKE_AUTHENTICATION_METHOD, iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY_METHOD, iscsidsc/PIKE_AUTHENTICATION_METHOD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 
@@ -81,7 +79,7 @@ Used in conjunction with the <a href="https://msdn.microsoft.com/db020346-45cf-4
 
 
 
-<a href="https://msdn.microsoft.com/d61036f5-a5e8-4c1a-8f99-57fe8e5c5bd0">IKE_AUTHENTICATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870788(v=VS.85).aspx">IKE_AUTHENTICATION_INFORMATION</a>
  
 
  

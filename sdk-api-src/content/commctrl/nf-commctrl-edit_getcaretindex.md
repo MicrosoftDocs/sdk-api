@@ -9,8 +9,6 @@ ms.assetid: 548EAC06-9127-493D-BE0E-8982DCA52895
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetCaretIndex, Edit_GetCaretIndex macro [Windows Controls], commctrl/Edit_GetCaretIndex, controls.edit_getcaretindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the character index of the caret location for a given edit control. You can use this macro or send the <a href="controls.em_getcaretindex">EM_GETCARETINDEX</a> message explicitly.
+Gets the character index of the caret location for a given edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/EA1644A4-FE68-4227-A021-B48FF3137994">EM_GETCARETINDEX</a> message explicitly.
 
 
 ## -parameters

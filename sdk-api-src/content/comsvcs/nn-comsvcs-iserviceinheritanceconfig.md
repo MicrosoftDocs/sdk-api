@@ -9,8 +9,6 @@ ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 
@@ -56,9 +54,9 @@ Determines whether to construct a new context based on the current context or to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceInheritanceConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceInheritanceConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceInheritanceConfig</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +69,7 @@ The <b>IServiceInheritanceConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678878(v=VS.85).aspx">ContainingContextTreatment</a>
+<a href="https://msdn.microsoft.com/05009c50-1d39-46f7-b549-281342d07f5b">ContainingContextTreatment</a>
 </td>
 <td align="left" width="63%">
 Determines whether the containing context is based on the current context.

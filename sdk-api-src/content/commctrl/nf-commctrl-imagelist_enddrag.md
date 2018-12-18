@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_enddrag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_EndDrag, ImageList_EndDrag function [Windows Controls], _win32_ImageList_EndDrag, _win32_ImageList_EndDrag_cpp, commctrl/ImageList_EndDrag, controls.ImageList_EndDrag, controls._win32_ImageList_EndDrag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

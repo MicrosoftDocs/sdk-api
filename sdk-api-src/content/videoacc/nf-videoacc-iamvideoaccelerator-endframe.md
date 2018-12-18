@@ -9,8 +9,6 @@ ms.assetid: 38944989-2ce2-4275-bae9-faca0d51cca8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -62,7 +60,7 @@ The <b>EndFrame</b> method ends frame processing.
 
 ### -param pEndFrameInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/7f9308c1-0426-4c0f-97aa-4d946ac2403a">AMVAEndFrameInfo</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373446(v=VS.85).aspx">AMVAEndFrameInfo</a> structure.
           
 
 
@@ -166,7 +164,7 @@ The pins on the decoder and video renderer filters are not connected.
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-For more information about this method, see the remarks for  <a href="https://msdn.microsoft.com/00077ffe-4acb-4648-9e95-652184e4449b">IAMVideoAccelerator::BeginFrame</a>.
+For more information about this method, see the remarks for  <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a>.
       
 
 
@@ -185,7 +183,7 @@ For more information about this method, see the remarks for  <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

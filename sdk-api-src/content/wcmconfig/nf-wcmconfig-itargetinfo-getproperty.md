@@ -9,8 +9,6 @@ ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [SMI], GetProperty method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetProperty method, ITargetInfo.GetProperty, ITargetInfo::GetProperty, smi.itargetinfo_getproperty, wcmconfig/ITargetInfo::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

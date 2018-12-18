@@ -9,8 +9,6 @@ ms.assetid: 42199bdf-0cee-4dd0-98bc-66a8334b743b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeD3DDevice, ChangeD3DDevice method [DirectShow], ChangeD3DDevice method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],ChangeD3DDevice method, IVMRSurfaceAllocatorNotify9.ChangeD3DDevice, IVMRSurfaceAllocatorNotify9::ChangeD3DDevice, IVMRSurfaceAllocatorNotify9ChangeD3DDevice, dshow.ivmrsurfaceallocatornotify9_changed3ddevice, vmr9/IVMRSurfaceAllocatorNotify9::ChangeD3DDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -114,7 +112,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9 Interface</a>
 
 
 

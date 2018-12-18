@@ -9,8 +9,6 @@ ms.assetid: 2B21676C-90AF-418D-8213-065EBB6C165C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxManifestOptionalPackageInfo, IAppxManifestOptionalPackageInfo interface [App packaging and management], IAppxManifestOptionalPackageInfo interface [App packaging and management],described, appxpackaging/IAppxManifestOptionalPackageInfo, appxpkg.iappxmanifestoptionalpackageinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

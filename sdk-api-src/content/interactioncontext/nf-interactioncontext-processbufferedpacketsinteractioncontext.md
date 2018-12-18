@@ -9,8 +9,6 @@ ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

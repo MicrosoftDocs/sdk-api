@@ -9,8 +9,6 @@ ms.assetid: C8695514-532F-4CAC-9A50-049C81812F15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFileReferenceFromUrl, CreateFontFileReferenceFromUrl method [Direct Write], CreateFontFileReferenceFromUrl method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],CreateFontFileReferenceFromUrl method, IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl, IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl, directwrite.idwriteremotefontfileloader_createfontfilereferencefromurl, dwrite_3/IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -92,7 +90,7 @@ Receives a pointer to the newly created font file reference.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -117,7 +115,7 @@ If baseUrl is a non-empty string, then baseUrl concatenated with fontFileUrl sho
 
 
 
-<a href="https://msdn.microsoft.com/16CFF7ED-642A-48D8-8C72-3EC68B702E50">IDWriteRemoteFontFileLoader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>
  
 
  

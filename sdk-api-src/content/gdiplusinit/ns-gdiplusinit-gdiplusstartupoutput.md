@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupoutput
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdiplus_STRUC_GdiplusStartupOutput, gdiplus._gdiplus_STRUC_GdiplusStartupOutput, gdiplusinit/GdiplusStartupOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 837584b3-5f61-4535-9e66-56f50ab3fa46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 46eedc41-17ee-4306-ad34-22bfd98cb96b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiGetDeviceInterfacePropertyKeys, SetupDiGetDeviceInterfacePropertyKeys function [Device and Driver Installation], devinst.setupdigetdeviceinterfacepropertykeys, di-rtns_0f8848a9-4efc-408e-828a-6279294e6cf5.xml, setupapi/SetupDiGetDeviceInterfacePropertyKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

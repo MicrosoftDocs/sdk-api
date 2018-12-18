@@ -9,8 +9,6 @@ ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

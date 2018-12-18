@@ -9,8 +9,6 @@ ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

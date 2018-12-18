@@ -9,8 +9,6 @@ ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsbp.h
 req.include-header: 

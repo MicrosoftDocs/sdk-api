@@ -9,8 +9,6 @@ ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

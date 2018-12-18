@@ -9,8 +9,6 @@ ms.assetid: ee6c4f2f-e53c-4eae-b86c-2849395cca74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Call method, ITCallInfoChangeEvent.get_Call, ITCallInfoChangeEvent::get_Call, _tapi3_itcallinfochangeevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_call, tapi3if/ITCallInfoChangeEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

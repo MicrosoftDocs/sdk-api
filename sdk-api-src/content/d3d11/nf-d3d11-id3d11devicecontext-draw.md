@@ -9,8 +9,6 @@ ms.assetid: 9c63067b-c7ac-412c-ad49-c35d4fba1d68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 531461d1-7b41-e75e-d7e7-78e6386f31f4, Draw, Draw method [Direct3D 11], Draw method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Draw method, ID3D11DeviceContext.Draw, ID3D11DeviceContext::Draw, d3d11/ID3D11DeviceContext::Draw, direct3d11.id3d11devicecontext_draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
@@ -61,14 +59,14 @@ Draw non-indexed, non-instanced primitives.
 
 ### -param VertexCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of vertices to draw.
 
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index of the first vertex, which is usually an offset in a vertex buffer.
 
@@ -100,7 +98,7 @@ Even without any vertex buffer bound to the pipeline, you can generate your own 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

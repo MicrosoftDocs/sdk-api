@@ -9,8 +9,6 @@ ms.assetid: 054F3612-EE10-446C-87D1-BF3E0F751440
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ProcessPendingGameUI, ProcessPendingGameUI function, gamingtcui/ProcessPendingGameUI, tcui.processpendinggameui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

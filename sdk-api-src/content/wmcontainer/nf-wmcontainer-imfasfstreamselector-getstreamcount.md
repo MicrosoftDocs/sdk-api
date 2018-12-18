@@ -9,8 +9,6 @@ ms.assetid: e1e80c32-bfd4-4404-9ccc-05b5077b83a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetStreamCount method, IMFASFStreamSelector.GetStreamCount, IMFASFStreamSelector::GetStreamCount, e1e80c32-bfd4-4404-9ccc-05b5077b83a6, mf.imfasfstreamselector_getstreamcount, wmcontainer/IMFASFStreamSelector::GetStreamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

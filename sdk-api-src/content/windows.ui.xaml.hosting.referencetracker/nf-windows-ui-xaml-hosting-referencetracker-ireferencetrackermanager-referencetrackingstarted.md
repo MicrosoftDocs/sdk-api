@@ -9,8 +9,6 @@ ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReferenceTrackerManager interface [Windows Runtime],ReferenceTrackingStarted method, IReferenceTrackerManager.ReferenceTrackingStarted, IReferenceTrackerManager.xaml, IReferenceTrackerManager::ReferenceTrackingStarted, IReferenceTrackerManager::xaml, ReferenceTrackingStarted, ReferenceTrackingStarted method [Windows Runtime], ReferenceTrackingStarted method [Windows Runtime],IReferenceTrackerManager interface, windows/IReferenceTrackerManager::ReferenceTrackingStarted, winrt.ireferencetrackermanager_referencetrackingstarted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

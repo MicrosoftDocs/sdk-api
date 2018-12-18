@@ -9,8 +9,6 @@ ms.assetid: 7ed598b2-9603-454a-99cf-849715e43ca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExternalConnection interface [COM],ReleaseConnection method, IExternalConnection.ReleaseConnection, IExternalConnection::ReleaseConnection, ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM],IExternalConnection interface, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

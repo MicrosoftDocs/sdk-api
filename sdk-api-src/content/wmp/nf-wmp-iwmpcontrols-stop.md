@@ -9,8 +9,6 @@ ms.assetid: 97ab009d-5ad9-4049-a212-1ef95941f951
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],stop method, IWMPControls.stop, IWMPControls::stop, IWMPControlsstop, stop, stop method [Windows Media Player], stop method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_stop, wmp/IWMPControls::stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -107,23 +105,23 @@ When Windows Media Player is stopped, the current playback point in the media it
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f0bbc77-b271-4076-8089-92fe7745d9a8">IWMPControls::next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563203(v=VS.85).aspx">IWMPControls::next</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef8a3f0e-b424-43ab-bb42-83e9f80f5d19">IWMPControls::pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563204(v=VS.85).aspx">IWMPControls::pause</a>
 
 
 
-<a href="https://msdn.microsoft.com/45b5634b-6d23-4e61-90e4-ef0cc9d90a14">IWMPControls::play</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563205(v=VS.85).aspx">IWMPControls::play</a>
 
 
 
-<a href="https://msdn.microsoft.com/e26eca59-1e2d-4a1f-b133-e337a934014b">IWMPControls::previous</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563207(v=VS.85).aspx">IWMPControls::previous</a>
  
 
  

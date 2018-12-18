@@ -9,8 +9,6 @@ ms.assetid: ef8ae275-c36a-492c-b57c-d640044ede93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], IWMStreamPrioritization interface [windows Media Format],described, IWMStreamPrioritizationInterface, wmformat.iwmstreamprioritization, wmsdkidl/IWMStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -55,9 +53,9 @@ The <b>IWMStreamPrioritization</b> interface provides methods to set and read pr
 
 Stream prioritization allows content creators to specify the priority of the streams in an ASF file. The streams assigned the lowest priority will be dropped first in the case of insufficient bit rate during playback.
 
-Only one stream prioritization object can exist for a profile. You can check to see if one is present with a call to <a href="https://msdn.microsoft.com/09545c1e-8090-4526-9faf-6cb2cb369208">IWMProfile3::GetStreamPrioritization</a>, which will retrieve a pointer to one if it exists.
+Only one stream prioritization object can exist for a profile. You can check to see if one is present with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">IWMProfile3::GetStreamPrioritization</a>, which will retrieve a pointer to one if it exists.
 
-You can create a new stream prioritization object with a call to <a href="https://msdn.microsoft.com/801a66fa-b72d-4282-953e-216fb9a56cd7">IWMProfile3::CreateNewStreamPrioritization</a>. You will then receive a pointer to <b>IWMStreamPrioritization</b> for the new object. This will erase the existing stream prioritization, if there is one.
+You can create a new stream prioritization object with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757271(v=VS.85).aspx">IWMProfile3::CreateNewStreamPrioritization</a>. You will then receive a pointer to <b>IWMStreamPrioritization</b> for the new object. This will erase the existing stream prioritization, if there is one.
 
 
 
@@ -79,7 +77,7 @@ The <b>IWMStreamPrioritization</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50b105c7-1e4f-435c-8bb6-643ea4d065bb">GetPriorityRecords</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798574(v=VS.85).aspx">GetPriorityRecords</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of streams and their priorities from the profile.
@@ -88,7 +86,7 @@ Retrieves the list of streams and their priorities from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9bd42132-b391-4941-87db-5ce2254e19cf">SetPriorityRecords</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798575(v=VS.85).aspx">SetPriorityRecords</a>
 </td>
 <td align="left" width="63%">
 Set the list of streams and their priorities for the profile.
@@ -103,7 +101,7 @@ Set the list of streams and their priorities for the profile.
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 44906c1f-ecb2-4701-9392-a9b5924e9d65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributes, GetAttributes method, GetAttributes method,IVdsStoragePool interface, IVdsStoragePool interface,GetAttributes method, IVdsStoragePool.GetAttributes, IVdsStoragePool::GetAttributes, base.ivdsstoragepool_getattributes, vds/IVdsStoragePool::GetAttributes, vdshwprv/IVdsStoragePool::GetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: f54bba2a-872e-4ed1-b2c6-3e6b85a48df6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMWriter interface [windows Media Format],SetDRMAttribute method, IWMDRMWriter.SetDRMAttribute, IWMDRMWriter::SetDRMAttribute, IWMDRMWriterSetDRMAttribute, SetDRMAttribute, SetDRMAttribute method [windows Media Format], SetDRMAttribute method [windows Media Format],IWMDRMWriter interface, wmformat.iwmdrmwriter_setdrmattribute, wmsdkidl/IWMDRMWriter::SetDRMAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -79,7 +77,7 @@ Pointer to a null-terminated string containing the attribute name. See Remarks f
 
 ### -param Type [in]
 
-A value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type specifying the data type of the attribute data.
 
 
 ### -param pValue [in]
@@ -139,7 +137,7 @@ hr = pDRMWriter-&gt;SetDRMAttribute( 0, g_wszWMDRM_ContentID,
 
 
 
-<a href="https://msdn.microsoft.com/fd466cf8-b1f8-49aa-a486-8fd347b29178">IWMDRMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798372(v=VS.85).aspx">IWMDRMWriter Interface</a>
  
 
  

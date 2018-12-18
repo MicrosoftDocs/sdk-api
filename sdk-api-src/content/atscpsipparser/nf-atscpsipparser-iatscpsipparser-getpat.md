@@ -9,8 +9,6 @@ ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPAT method, IAtscPsipParser.GetPAT, IAtscPsipParser::GetPAT, IAtscPsipParserGetPAT, atscpsipparser/IAtscPsipParser::GetPAT, mstv.iatscpsipparser_getpat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
@@ -66,7 +64,7 @@ The <b>GetPAT</b> method retrieves the program association table (PAT).
 
 ### -param ppPAT [out]
 
-Receives an <a href="https://msdn.microsoft.com/31b0e558-0f22-4761-a964-1908c2835478">IPAT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694773(v=VS.85).aspx">IPAT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: 3C804CAF-7263-4E37-9C00-F85959CE651D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShaderStackSize, GetShaderStackSize method, GetShaderStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetShaderStackSize method, ID3D12StateObjectProperties.GetShaderStackSize, ID3D12StateObjectProperties::GetShaderStackSize, d3d12/ID3D12StateObjectProperties::GetShaderStackSize, direct3d12.id3d12stateobjectproperties_getshaderstacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -103,7 +101,7 @@ This API can be called on either collection state objects or raytracing pipeline
 
 
 
-<a href="https://msdn.microsoft.com/3971089A-2779-42FA-8FF9-6C7C8E39C7F9">ID3D12StateObjectProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
  
 
  

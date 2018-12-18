@@ -9,8 +9,6 @@ ms.assetid: 673d3bf6-27ba-4d91-b485-1171bc47a0d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelServer.fIsAuthenticated, CSecureChannelServer::fIsAuthenticated, CSecureChannelServerfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::fIsAuthenticated, wmdm.csecurechannelserver_fisauthenticated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3c7a21ec-2aa5-4e00-8d7b-a13a366a3f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalance method, IVideoProcAmp.getRange_WhiteBalance, IVideoProcAmp::getRange_WhiteBalance, IVideoProcAmpgetRange_WhiteBalance, dshow.ivideoprocamp_getrange_whitebalance, getRange_WhiteBalance, getRange_WhiteBalance method [DirectShow], getRange_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -80,7 +78,7 @@ Receives the default white balance.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +99,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

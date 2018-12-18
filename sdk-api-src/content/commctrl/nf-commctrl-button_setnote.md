@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_SetNote, Button_SetNote macro [Windows Controls], _shell_Button_SetNote, _shell_Button_SetNote_cpp, commctrl/Button_SetNote, controls.Button_SetNote, controls._shell_Button_SetNote
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the text of the note associated with a specified command link button. You c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the button control. 
 
 
 ### -param psz
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
 A pointer to a null-terminated <b>WCHAR</b> string that contains the note.
 

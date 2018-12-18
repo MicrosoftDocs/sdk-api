@@ -9,8 +9,6 @@ ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibrarySharingEnabled method, IWMPLibrarySharingServices.isLibrarySharingEnabled, IWMPLibrarySharingServices::isLibrarySharingEnabled, IWMPLibrarySharingServicesisLibrarySharingEnabled, isLibrarySharingEnabled, isLibrarySharingEnabled method [Windows Media Player], isLibrarySharingEnabled method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibrarysharingenabled, wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/24cac18c-a3aa-4cd0-b5f7-025db2eed0b8">IWMPLibrarySharingServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563388(v=VS.85).aspx">IWMPLibrarySharingServices Interface</a>
  
 
  

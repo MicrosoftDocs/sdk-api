@@ -9,8 +9,6 @@ ms.assetid: c9d19ad9-182d-469e-b783-2061b7150933
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject, ITraceRelogger::Inject, Inject, Inject method [ETW], Inject method [ETW],ITraceRelogger interface, etw.itracerelogger_inject, relogger/ITraceRelogger::Inject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

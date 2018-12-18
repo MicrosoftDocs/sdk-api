@@ -9,8 +9,6 @@ ms.assetid: ce773bbe-0a05-45b5-af80-fc594a83b87a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrap, SnmpMgrGetTrap function [SNMP], _snmp_snmpmgrgettrap, mgmtapi/SnmpMgrGetTrap, snmp.snmpmgrgettrap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 
@@ -67,7 +65,7 @@ In addition to the information returned by this function, the
 ### -param enterprise [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
 
 
 ### -param IPAddress [out]
@@ -173,7 +171,7 @@ Pointer to a variable to receive the time stamp.
 ### -param variableBindings [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to receive the variable bindings list.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure to receive the variable bindings list.
 
 
 ## -returns
@@ -250,7 +248,7 @@ The application can also poll the
 
 
 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a>
 
 
 
@@ -266,7 +264,7 @@ The application can also poll the
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
  
 
  

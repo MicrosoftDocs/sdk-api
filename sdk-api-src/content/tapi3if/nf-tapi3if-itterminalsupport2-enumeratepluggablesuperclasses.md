@@ -9,8 +9,6 @@ ms.assetid: 5f1e8490-1b26-45e6-9f9a-e7ddcc840e90
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumeratePluggableSuperclasses, EnumeratePluggableSuperclasses method [TAPI 2.2], EnumeratePluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableSuperclasses method, ITTerminalSupport2.EnumeratePluggableSuperclasses, ITTerminalSupport2::EnumeratePluggableSuperclasses, _tapi3_itterminalsupport2_enumeratepluggablesuperclasses, tapi3.itterminalsupport2_enumeratepluggablesuperclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableSuperclasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

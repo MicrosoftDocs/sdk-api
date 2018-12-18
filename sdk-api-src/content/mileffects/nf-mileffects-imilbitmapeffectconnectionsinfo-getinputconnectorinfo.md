@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\ge
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputConnectorInfo, GetInputConnectorInfo method [WPF Bitmap Effects], GetInputConnectorInfo method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetInputConnectorInfo method, IMILBitmapEffectConnectionsInfo.GetInputConnectorInfo, IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, _wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo, mileffects/IMILBitmapEffectConnectionsInfo::GetInputConnectorInfo, wibe._wibe_imilbitmapeffectconnectionsinfo_getinputconnectorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

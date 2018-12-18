@@ -9,8 +9,6 @@ ms.assetid: 7b82e79f-009e-4224-b4ce-12b60e0c1011
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ldap.ldap_stop_tls_s, ldap_stop_tls_s, ldap_stop_tls_s function [LDAP], winldap/ldap_stop_tls_s
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

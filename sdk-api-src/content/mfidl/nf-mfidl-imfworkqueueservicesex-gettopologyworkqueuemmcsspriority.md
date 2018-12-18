@@ -9,8 +9,6 @@ ms.assetid: d5550e53-cbe9-4956-a079-d2a825fd17ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTopologyWorkQueueMMCSSPriority, GetTopologyWorkQueueMMCSSPriority method [Media Foundation], GetTopologyWorkQueueMMCSSPriority method [Media Foundation],IMFWorkQueueServicesEx interface, IMFWorkQueueServicesEx interface [Media Foundation],GetTopologyWorkQueueMMCSSPriority method, IMFWorkQueueServicesEx.GetTopologyWorkQueueMMCSSPriority, IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority, mf.imfworkqueueservicesex_gettopologyworkqueuemmcsspriority, mfidl/IMFWorkQueueServicesEx::GetTopologyWorkQueueMMCSSPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

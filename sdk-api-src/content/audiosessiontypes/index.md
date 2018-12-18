@@ -2,7 +2,7 @@
 UID: NA:audiosessiontypes
 ms.assetid: 21be8879-2c22-395a-bbf6-002254a5a08b
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleConvertIStorageToOLESTREAM, OleConvertIStorageToOLESTREAM function [Structured Storage], _stg_oleconvertistoragetoolestream, ole2/OleConvertIStorageToOLESTREAM, stg.oleconvertistoragetoolestream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

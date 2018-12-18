@@ -9,8 +9,6 @@ ms.assetid: 3FEAB627-C38F-4709-BA17-0AFF76015A97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManRunShellCommandEx, WSManRunShellCommandEx function [Windows Remote Management], winrm.wsmanrunshellcommandex, wsman/WSManRunShellCommandEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

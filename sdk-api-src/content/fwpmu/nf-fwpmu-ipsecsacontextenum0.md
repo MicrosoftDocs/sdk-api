@@ -9,8 +9,6 @@ ms.assetid: 67ef4ec6-904b-4b15-a38f-a708448a8646
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextEnum0, IPsecSaContextEnum0 function [Filtering], fwp.ipsecsacontextenum0, fwpmu/IPsecSaContextEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

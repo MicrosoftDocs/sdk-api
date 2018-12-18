@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.USN_TRACK_MODIFIED_RANGES
+UID: NS:winioctl.__unnamed_struct_20
 title: USN_TRACK_MODIFIED_RANGES
 author: windows-sdk-content
 description: Contains information on range tracking parameters for an update sequence number (USN) change journal using the FSCTL_USN_TRACK_MODIFIED_RANGES control code.
@@ -7,10 +7,8 @@ old-location: fs\usn_track_modified_ranges.htm
 tech.root: fileio
 ms.assetid: 00254BBD-8F38-46AB-8B0A-3094020A48C5
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES, PUSN_TRACK_MODIFIED_RANGES structure pointer [Files], USN_TRACK_MODIFIED_RANGES, USN_TRACK_MODIFIED_RANGES structure [Files], fs.usn_track_modified_ranges, winioctl/PUSN_TRACK_MODIFIED_RANGES, winioctl/USN_TRACK_MODIFIED_RANGES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
@@ -89,7 +87,7 @@ Chunk size for tracking ranges. A single byte modification will be reflected as 
 
 ### -field FileSizeThreshold
 
-File size threshold to start outputting <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
+File size threshold to start outputting <a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a> record(s) for modified file, i.e. if the modified file size is less than this threshold, then no <b>USN_RECORD_V4</b> record will be output. 
 
 
 ## -remarks

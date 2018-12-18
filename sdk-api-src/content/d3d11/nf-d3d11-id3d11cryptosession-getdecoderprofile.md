@@ -9,8 +9,6 @@ ms.assetid: 358025E4-FC6E-4ED1-B02A-ED875DE76BCF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDecoderProfile, GetDecoderProfile method [Media Foundation], GetDecoderProfile method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetDecoderProfile method, ID3D11CryptoSession.GetDecoderProfile, ID3D11CryptoSession::GetDecoderProfile, d3d11/ID3D11CryptoSession::GetDecoderProfile, mf.id3d11cryptosession_getdecoderprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

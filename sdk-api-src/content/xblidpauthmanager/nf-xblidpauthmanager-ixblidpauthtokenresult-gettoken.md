@@ -9,8 +9,6 @@ ms.assetid: 2E90B1FA-1381-45D7-A700-A3627C56E282
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetToken, GetToken method, GetToken method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetToken method, IXblIdpAuthTokenResult.GetToken, IXblIdpAuthTokenResult::GetToken, xblidp.ixblidpauthtokenresult_gettoken, xblidpauthmanager/IXblIdpAuthTokenResult::GetToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

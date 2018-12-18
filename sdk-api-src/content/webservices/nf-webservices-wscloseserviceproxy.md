@@ -9,8 +9,6 @@ ms.assetid: 034f9c60-5616-4ec7-9773-b34bde2e26c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCloseServiceProxy, WsCloseServiceProxy function [Web Services for Windows], webservices/WsCloseServiceProxy, wsw.wscloseserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

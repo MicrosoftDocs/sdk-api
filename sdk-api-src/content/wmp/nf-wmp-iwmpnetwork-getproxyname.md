@@ -9,8 +9,6 @@ ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyName method, IWMPNetwork.getProxyName, IWMPNetwork::getProxyName, IWMPNetworkgetProxyName, getProxyName, getProxyName method [Windows Media Player], getProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyname, wmp/IWMPNetwork::getProxyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,15 +113,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f484f5b-195c-496d-932e-3e1fdbf873d8">IWMPNetwork::setProxyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563488(v=VS.85).aspx">IWMPNetwork::setProxyName</a>
  
 
  

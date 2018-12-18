@@ -9,8 +9,6 @@ ms.assetid: 2A9EB449-ED76-4E2C-BC55-20E134B43B43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],UpdateVideoStream method, IMFMediaEngineEx.UpdateVideoStream, IMFMediaEngineEx::UpdateVideoStream, UpdateVideoStream, UpdateVideoStream method [Media Foundation], UpdateVideoStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_updatevideostream, mfmediaengine/IMFMediaEngineEx::UpdateVideoStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

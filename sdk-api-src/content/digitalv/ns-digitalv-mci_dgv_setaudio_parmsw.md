@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.MCI_DGV_SETAUDIO_PARMSW
+UID: NS:digitalv.__unnamed_struct_26
 title: MCI_DGV_SETAUDIO_PARMSW
 author: windows-sdk-content
 description: The MCI_DGV_SETAUDIO_PARMS structure contains parameters for the MCI_SETAUDIO command for digital-video devices.
@@ -7,10 +7,8 @@ old-location: multimedia\mci_dgv_setaudio_parms.htm
 tech.root: Multimedia
 ms.assetid: 9c2e72d0-5f6a-4884-a072-ed3d38b953c5
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_SETAUDIO_PARMSW, MCI_DGV_SETAUDIO_PARMS, MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia], MCI_DGV_SETAUDIO_PARMSW, _win32_MCI_DGV_SETAUDIO_PARMS_str, digitalv/MCI_DGV_SETAUDIO_PARMS, multimedia.mci_dgv_setaudio_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

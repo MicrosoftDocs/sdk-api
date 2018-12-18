@@ -9,8 +9,6 @@ ms.assetid: 3f32ba6a-a82c-4c2c-8433-ebedd8799615
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignalPath, GetSignalPath method [Core Audio], GetSignalPath method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSignalPath method, IDeviceTopology.GetSignalPath, IDeviceTopology::GetSignalPath, IDeviceTopologyGetSignalPath, coreaudio.idevicetopology_getsignalpath, devicetopology/IDeviceTopology::GetSignalPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

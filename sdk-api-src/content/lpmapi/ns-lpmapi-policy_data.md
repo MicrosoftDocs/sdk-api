@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.POLICY_DATA
+UID: NS:lpmapi.__unnamed_struct_13
 title: POLICY_DATA
 author: windows-sdk-content
 description: The POLICY_DATA structure contains policy data for RSVP messages.
@@ -7,10 +7,8 @@ old-location: qos\policy_data.htm
 tech.root: QOS
 ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,7 +59,7 @@ The
 
 ### -field PolicyObjHdr
 
-Policy object header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+Policy object header, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
 
 
 ### -field usPeOffset
@@ -79,7 +77,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
  
 
  

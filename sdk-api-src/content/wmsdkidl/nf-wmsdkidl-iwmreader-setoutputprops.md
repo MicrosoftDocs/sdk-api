@@ -9,8 +9,6 @@ ms.assetid: 0a5325d1-880b-4d65-96af-9d311dca989b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],SetOutputProps method, IWMReader.SetOutputProps, IWMReader::SetOutputProps, IWMReaderSetOutputProps, SetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format],IWMReader interface, wmformat.iwmreader_setoutputprops, wmsdkidl/IWMReader::SetOutputProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>SetOutputProps</b> method specifies the media properties of an uncompress
 
 ### -param pOutput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps</a> interface.
 
 
 ## -returns
@@ -130,10 +128,10 @@ The method failed for an unspecified reason.
 
 Manipulating an object retrieved by a call to <b>GetOutputProps</b> has no effect on the output media stream unless the application also calls <b>SetOutputProps</b>.
 
-DirectX VA formats can be returned from <a href="https://msdn.microsoft.com/7faac9e7-ad5f-42a4-ba6e-562ae973f81b">GetOutputFormat</a>, but if they are passed in to <b>SetOutputProps</b>, that method will fail because DirectX VA formats cannot be specified in this way. Therefore, your code should either examine the format before passing it to <b>SetOutputProps</b>, or handle the case of that method failing by attempting the next format enumerated from <b>GetOutputFormat</b>. For a code snippet showing how to identify a DirectX VA format, see <a href="https://msdn.microsoft.com/5cb2f564-88e3-4b60-bde3-6ccf69c97c48">Enabling DirectX Video Acceleration</a>
+DirectX VA formats can be returned from <a href="https://msdn.microsoft.com/en-us/library/Dd798589(v=VS.85).aspx">GetOutputFormat</a>, but if they are passed in to <b>SetOutputProps</b>, that method will fail because DirectX VA formats cannot be specified in this way. Therefore, your code should either examine the format before passing it to <b>SetOutputProps</b>, or handle the case of that method failing by attempting the next format enumerated from <b>GetOutputFormat</b>. For a code snippet showing how to identify a DirectX VA format, see <a href="https://msdn.microsoft.com/5cb2f564-88e3-4b60-bde3-6ccf69c97c48">Enabling DirectX Video Acceleration</a>
 
 
-If this method is called while the reader is running, an <a href="https://msdn.microsoft.com/5e8193c4-5fc7-4b19-9f6e-6873ebe5156a">IWMReaderCallbackAdvanced::OnOutputPropsChanged</a> call is generated.
+If this method is called while the reader is running, an <a href="https://msdn.microsoft.com/en-us/library/Dd743497(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnOutputPropsChanged</a> call is generated.
 
 
 
@@ -143,11 +141,11 @@ If this method is called while the reader is running, an <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

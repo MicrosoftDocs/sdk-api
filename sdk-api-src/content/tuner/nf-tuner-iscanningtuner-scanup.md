@@ -9,8 +9,6 @@ ms.assetid: 2fa4d316-9f92-47d6-962f-ffe5c7e90a28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScanningTuner interface [Microsoft TV Technologies],ScanUp method, IScanningTuner.ScanUp, IScanningTuner::ScanUp, IScanningTunerScanUp, ScanUp, ScanUp method [Microsoft TV Technologies], ScanUp method [Microsoft TV Technologies],IScanningTuner interface, mstv.iscanningtuner_scanup, tuner/IScanningTuner::ScanUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

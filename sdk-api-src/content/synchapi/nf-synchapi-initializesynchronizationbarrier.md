@@ -9,8 +9,6 @@ ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

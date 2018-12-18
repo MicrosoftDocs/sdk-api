@@ -9,8 +9,6 @@ ms.assetid: 1e26b88c-808f-4807-8641-e5c6b10853ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, InetNtop, InetNtop function [Winsock], InetNtopA, InetNtopA or inet_ntop, InetNtopW, inet_ntop, winsock.inet_ntop, ws2tcpip/InetNtop, ws2tcpip/InetNtopA or inet_ntop, ws2tcpip/InetNtopW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

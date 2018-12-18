@@ -9,8 +9,6 @@ ms.assetid: BA4A13A3-6BB3-45B9-87A7-8239F148B1CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedFormula property [Windows Accessibility], CachedFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CachedFormula property, IUIAutomationSpreadsheetItemPattern.CachedFormula, IUIAutomationSpreadsheetItemPattern.get_CachedFormula, IUIAutomationSpreadsheetItemPattern::CachedFormula, IUIAutomationSpreadsheetItemPattern::get_CachedFormula, get_CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CachedFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CachedFormula, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_CachedFormula
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

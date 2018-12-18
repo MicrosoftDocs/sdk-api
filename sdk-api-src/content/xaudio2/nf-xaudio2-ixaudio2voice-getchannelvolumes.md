@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetChannelVolume
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChannelVolumes, GetChannelVolumes method [XAudio2 Audio Mixing APIs], GetChannelVolumes method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetChannelVolumes method, IXAudio2Voice.GetChannelVolumes, IXAudio2Voice::GetChannelVolumes, xaudio2.ixaudio2voice_interface_getchannelvolumes, xaudio2/IXAudio2Voice::GetChannelVolumes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
@@ -89,7 +87,7 @@ Volume levels are expressed as floating-point amplitude multipliers between -2²
 
 
 
-<div class="alert"><b>Note</b>  <b>GetChannelVolumes</b> always returns the volume levels most recently set by <a href="https://msdn.microsoft.com/9DE09972-4FBD-41F5-BDB7-75627CBDA35A">IXAudio2Voice::SetChannelVolumes</a>. However, those values may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetChannelVolumes</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetChannelVolumes</b> was called with a deferred operation ID). </div>
+<div class="alert"><b>Note</b>  <b>GetChannelVolumes</b> always returns the volume levels most recently set by <a href="https://msdn.microsoft.com/en-us/library/Ee418593(v=VS.85).aspx">IXAudio2Voice::SetChannelVolumes</a>. However, those values may not actually be in effect yet: they only take effect the next time the audio engine runs after the <b>IXAudio2Voice::SetChannelVolumes</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetChannelVolumes</b> was called with a deferred operation ID). </div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -102,7 +100,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
  
 
  

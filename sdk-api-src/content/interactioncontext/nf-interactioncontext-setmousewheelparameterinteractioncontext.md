@@ -9,8 +9,6 @@ ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMouseWheelParameterInteractionContext, SetMouseWheelParameterInteractionContext function, input_intcontext.setmousewheelparameterinteractioncontext, interactioncontext.setmousewheelparameterinteractioncontext, interactioncontext/SetMouseWheelParameterInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

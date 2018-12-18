@@ -9,8 +9,6 @@ ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, SCARD_SHARE_DIRECT, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCardConnect, SCardConnect function [Security], SCardConnectA, SCardConnectW, _smart_scardconnect, security.scardconnect, winscard/SCardConnect, winscard/SCardConnectA, winscard/SCardConnectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

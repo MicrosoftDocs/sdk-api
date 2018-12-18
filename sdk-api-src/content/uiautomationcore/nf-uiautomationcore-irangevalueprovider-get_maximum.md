@@ -9,8 +9,6 @@ ms.assetid: a681b992-c3db-497a-ae38-df62f9016ba6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Maximum property, IRangeValueProvider.Maximum, IRangeValueProvider.get_Maximum, IRangeValueProvider::Maximum, IRangeValueProvider::get_Maximum, Maximum property [Windows Accessibility], Maximum property [Windows Accessibility],IRangeValueProvider interface, get_Maximum, uiauto.uiauto_IRangeValueProvider_Maximum, uiauto_IRangeValueProvider_Maximum, uiautomationcore/IRangeValueProvider::Maximum, uiautomationcore/IRangeValueProvider::get_Maximum, winauto.uiauto_IRangeValueProvider_Maximum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

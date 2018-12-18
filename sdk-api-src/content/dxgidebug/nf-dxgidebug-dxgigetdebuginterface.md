@@ -9,8 +9,6 @@ ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGIGetDebugInterface, DXGIGetDebugInterface function [DXGI], direct3ddxgi.dxgigetdebuginterface, dxgidebug/DXGIGetDebugInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dxgidebug.h
 req.include-header: 

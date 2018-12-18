@@ -9,8 +9,6 @@ ms.assetid: 1460603c-6897-4559-b376-b87a6c2f4309
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmCalloutSubscribeChanges0, FwpmCalloutSubscribeChanges0 function [Filtering], fwp.fwpmcalloutsubscribechanges0_func, fwpmu/FwpmCalloutSubscribeChanges0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

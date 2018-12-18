@@ -9,8 +9,6 @@ ms.assetid: 7dc2dc8a-eff6-49b6-a557-88a9d0e5acbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUseRef, GetUseRef method [Direct3D 11], GetUseRef method [Direct3D 11],ID3D11SwitchToRef interface, ID3D11SwitchToRef interface [Direct3D 11],GetUseRef method, ID3D11SwitchToRef.GetUseRef, ID3D11SwitchToRef::GetUseRef, d2a88f74-2129-d715-e015-72a288420026, d3d11sdklayers/ID3D11SwitchToRef::GetUseRef, direct3d11.id3d11switchtoref_getuseref
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Ff476630(v=VS.85).aspx">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
 
 ## -parameters
 
@@ -63,7 +61,7 @@ req.redist:
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Reserved.
 
@@ -75,7 +73,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476630(v=VS.85).aspx">ID3D11SwitchToRef Interface</a>
+<a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef Interface</a>
  
 
  

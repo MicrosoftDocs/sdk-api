@@ -9,8 +9,6 @@ ms.assetid: ec32c591-d677-4251-90c8-1bd4fa516245
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr.get_LocalPolicy, INetFwMgr::LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF],INetFwMgr interface, get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

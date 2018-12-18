@@ -9,8 +9,6 @@ ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, TpSetCallbackPriority, TpSetCallbackPriority function, base.tpsetcallbackpriority, winnt/TpSetCallbackPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],GetSnapshotDeviceName method, CVssWriter.GetSnapshotDeviceName, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS],CVssWriter interface, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

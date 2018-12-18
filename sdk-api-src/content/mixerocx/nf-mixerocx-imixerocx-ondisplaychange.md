@@ -9,8 +9,6 @@ ms.assetid: 5d082ab6-6195-417b-ad0d-b8e97561b268
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.OnDisplayChange, IMixerOCX::OnDisplayChange, IMixerOCXOnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondisplaychange, mixerocx/IMixerOCX::OnDisplayChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
@@ -91,7 +89,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 2b194161-c25c-43d9-90ee-dd25ff61034b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_status method, IWMPSyncDevice.get_status, IWMPSyncDevice::get_status, IWMPSyncDeviceget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_status, wmp/IWMPSyncDevice::get_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,7 +119,7 @@ Windows Media Player 10 or later supports up to 16 device partnerships. The Play
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
@@ -129,7 +127,7 @@ Windows Media Player 10 or later supports up to 16 device partnerships. The Play
 
 
 
-<a href="https://msdn.microsoft.com/dbbb97f8-4b26-4add-a661-a48eff8ad0f5">WMPDeviceStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564695(v=VS.85).aspx">WMPDeviceStatus</a>
  
 
  

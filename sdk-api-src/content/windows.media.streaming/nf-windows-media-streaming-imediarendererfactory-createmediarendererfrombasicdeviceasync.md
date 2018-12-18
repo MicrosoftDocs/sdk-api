@@ -9,8 +9,6 @@ ms.assetid: 14A83789-0F3C-467B-8EFD-3BB421C54217
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMediaRendererFromBasicDeviceAsync, CreateMediaRendererFromBasicDeviceAsync method [Media Streaming API], CreateMediaRendererFromBasicDeviceAsync method [Media Streaming API],IMediaRendererFactory interface, IMediaRendererFactory interface [Media Streaming API],CreateMediaRendererFromBasicDeviceAsync method, IMediaRendererFactory.CreateMediaRendererFromBasicDeviceAsync, IMediaRendererFactory.streaming, IMediaRendererFactory::CreateMediaRendererFromBasicDeviceAsync, IMediaRendererFactory::streaming, mediastreaming.imediarendererfactory_createmediarendererfrombasicdeviceasync, windows/IMediaRendererFactory::CreateMediaRendererFromBasicDeviceAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

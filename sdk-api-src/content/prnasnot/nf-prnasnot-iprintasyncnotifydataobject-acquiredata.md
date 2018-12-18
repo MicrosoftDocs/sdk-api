@@ -9,8 +9,6 @@ ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: prnasnot.h
 req.include-header: 
@@ -77,7 +75,7 @@ A GUID pointer to the data schema.
 
 
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for the possible values.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd162835(v=VS.85).aspx">PrintAsyncNotifyError</a> for the possible values.
 
 For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 

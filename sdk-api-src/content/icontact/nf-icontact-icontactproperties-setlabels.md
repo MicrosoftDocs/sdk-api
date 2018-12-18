@@ -9,8 +9,6 @@ ms.assetid: 884d4edf-e001-4a1d-9ee4-7f8733aba343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetLabels method, IContactProperties.SetLabels, IContactProperties::SetLabels, SetLabels, SetLabels method [Windows Contacts], SetLabels method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetLabels, icontact/IContactProperties::SetLabels, wincontacts._wincontacts_IContactProperties_SetLabels
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

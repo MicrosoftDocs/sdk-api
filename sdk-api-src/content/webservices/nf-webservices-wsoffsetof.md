@@ -9,8 +9,6 @@ ms.assetid: a3965e97-c818-4dd3-95e7-60a844181b96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsOffsetOf, WsOffsetOf macro [Web Services for Windows], webservices/WsOffsetOf, wsw.wsoffsetof
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 

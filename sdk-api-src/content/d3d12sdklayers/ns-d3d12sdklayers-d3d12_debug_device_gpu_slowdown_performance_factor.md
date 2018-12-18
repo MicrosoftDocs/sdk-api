@@ -9,8 +9,6 @@ ms.assetid: C137DFAA-7AB9-49A6-882D-61ADE6E9E046
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure, d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, direct3d12.d3d12_debug_device_gpu_slowdown_performance_factor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
@@ -77,7 +75,7 @@ The SlowdownFactor is applied by artificially delaying the time it takes for a f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

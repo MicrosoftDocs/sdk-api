@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetShadow, GetShadow method [Windows Controls], GetShadow method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetShadow method, ITextFont.GetShadow, ITextFont::GetShadow, _win32_ITextFont_GetShadow, _win32_ITextFont_GetShadow_cpp, controls.ITextFont_GetShadow, controls._win32_ITextFont_GetShadow, tom/ITextFont::GetShadow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

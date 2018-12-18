@@ -9,8 +9,6 @@ ms.assetid: c016a61b-6b4f-4101-a357-38b8be754a57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],get_InputType method, IAnalogTVTuningSpace.get_InputType, IAnalogTVTuningSpace::get_InputType, IAnalogTVTuningSpaceget_InputType, get_InputType, get_InputType method [Microsoft TV Technologies], get_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, mstv.ianalogtvtuningspace_get_inputtype, tuner/IAnalogTVTuningSpace::get_InputType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>get_InputType</b> method gets the input type (antenna or cable) intended 
 
 ### -param InputTypeVal [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/e25ec8e2-6d94-4059-a34e-a9e7887582fb">TunerInputType</a> that receives the input type.
+Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407232(v=VS.85).aspx">TunerInputType</a> that receives the input type.
 
 
 ## -returns

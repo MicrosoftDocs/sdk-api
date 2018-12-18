@@ -9,8 +9,6 @@ ms.assetid: dae8489b-39b1-41ba-9346-c038cd0acc1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Enrollment2 interface [Security],PolicyServer property, IX509Enrollment2.PolicyServer, IX509Enrollment2.get_PolicyServer, IX509Enrollment2::PolicyServer, IX509Enrollment2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::PolicyServer, certenroll/IX509Enrollment2::get_PolicyServer, get_PolicyServer, security.ix509enrollment2_policyserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351681(v=VS.85).aspx">IX509Enrollment2</a>
+<a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a>
  
 
  

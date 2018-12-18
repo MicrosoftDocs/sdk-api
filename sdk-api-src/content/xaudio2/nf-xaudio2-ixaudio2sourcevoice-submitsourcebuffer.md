@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Subm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SubmitSourceBuffer method, IXAudio2SourceVoice.SubmitSourceBuffer, IXAudio2SourceVoice::SubmitSourceBuffer, SubmitSourceBuffer, SubmitSourceBuffer method [XAudio2 Audio Mixing APIs], SubmitSourceBuffer method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_submitsourcebuffer, xaudio2/IXAudio2SourceVoice::SubmitSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

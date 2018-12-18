@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonthCal_GetCALID, MonthCal_GetCALID macro [Windows Controls], _shell_MonthCal_GetCALID, _shell_MonthCal_GetCALID_cpp, commctrl/MonthCal_GetCALID, controls.MonthCal_GetCALID, controls._shell_MonthCal_GetCALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

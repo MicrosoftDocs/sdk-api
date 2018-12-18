@@ -9,8 +9,6 @@ ms.assetid: 470b7960-b016-4807-858b-61a53daf2396
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaSubType method, IComponentType.get_MediaSubType, IComponentType::get_MediaSubType, IComponentTypeget_MediaSubType, get_MediaSubType, get_MediaSubType method [Microsoft TV Technologies], get_MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediasubtype, tuner/IComponentType::get_MediaSubType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -80,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
 
 
 

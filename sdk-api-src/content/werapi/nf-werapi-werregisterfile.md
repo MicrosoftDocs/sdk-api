@@ -9,8 +9,6 @@ ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerRegFileTypeMax, WerRegFileTypeOther, WerRegFileTypeUserDocument, WerRegisterFile, WerRegisterFile function [Windows Error Reporting], base.werregisterfile, wer.werregisterfile, werapi/WerRegisterFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

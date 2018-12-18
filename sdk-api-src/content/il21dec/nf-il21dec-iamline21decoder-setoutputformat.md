@@ -9,8 +9,6 @@ ms.assetid: 72d63092-8ac6-42c5-a0da-6c64f3a127c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetOutputFormat method, IAMLine21Decoder.SetOutputFormat, IAMLine21Decoder::SetOutputFormat, IAMLine21DecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setoutputformat, il21dec/IAMLine21Decoder::SetOutputFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -87,11 +85,11 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d1ded3c-fdeb-4e02-92ee-d0986711c335">IAMLine21Decoder::GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389390(v=VS.85).aspx">IAMLine21Decoder::GetOutputFormat</a>
  
 
  

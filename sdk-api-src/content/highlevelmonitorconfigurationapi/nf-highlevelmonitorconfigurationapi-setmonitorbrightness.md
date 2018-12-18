@@ -9,8 +9,6 @@ ms.assetid: e7cf47f2-f833-4f34-89d2-3143ab57b561
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetMonitorBrightness, SetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorBrightness, monitor.setmonitorbrightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

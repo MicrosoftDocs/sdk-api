@@ -9,8 +9,6 @@ ms.assetid: C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssWalkSnapshot, PssWalkSnapshot function, proc_snap.psswalksnapshot, processsnapshot/PssWalkSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
@@ -67,7 +65,7 @@ A handle to the snapshot.
 
 ### -param InformationClass [in]
 
-The type of information to return. For more information, see <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a>.
+The type of information to return. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a>.
 
 
 ### -param WalkMarkerHandle [in]

@@ -9,8 +9,6 @@ ms.assetid: 531382ec-d94f-411e-bd43-86cd3066ac26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], IRDPSRAPISharingSession interface [RDP],described, rdp.irdpsrapisharingsession, rdpencomapi/IRDPSRAPISharingSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

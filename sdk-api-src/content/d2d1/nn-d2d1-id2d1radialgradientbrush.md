@@ -9,8 +9,6 @@ ms.assetid: 21ed2286-e4df-4b77-ba31-e5d5927e16f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RadialGradientBrush, ID2D1RadialGradientBrush interface [Direct2D], ID2D1RadialGradientBrush interface [Direct2D],described, d2d1/ID2D1RadialGradientBrush, direct2d.ID2D1RadialGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -166,7 +164,7 @@ It is possible to specify an ellipse that does not completely fill area being pa
 
 
 <h3><a id="Creating_ID2D1RadialGradientBrush_Objects"></a><a id="creating_id2d1radialgradientbrush_objects"></a><a id="CREATING_ID2D1RADIALGRADIENTBRUSH_OBJECTS"></a>Creating ID2D1RadialGradientBrush Objects</h3>
-To create a radial gradient brush, use the <a href="direct2d.ID2D1RenderTarget_CreateRadialGradientBrush_ptr_D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES_ptr_D2D1_BRUSH_PROPERTIES_ptr_ID2D1GradientStopCollection_ptr_ptr_ID2D1RadialGradientBrush">ID2D1RenderTarget::CreateRadialGradientBrush</a> method of the render target on which the brush will be used. The brush may be used only with the render target that created it or with the compatible targets for that render target.
+To create a radial gradient brush, use the <a href="https://msdn.microsoft.com/library/Dd371855(v=VS.85).aspx">ID2D1RenderTarget::CreateRadialGradientBrush</a> method of the render target on which the brush will be used. The brush may be used only with the render target that created it or with the compatible targets for that render target.
 
 A radial gradient brush is a device-dependent resource: your application should create radial gradient brushes after it initializes the render target with which the brushes will be used, and recreate the brushes whenever the render target needs recreated. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
 

@@ -9,8 +9,6 @@ ms.assetid: e051f228-6d53-49b8-a94b-32c65dc41b77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSessionCompartmentId, GetSessionCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_969bb416-bc97-41a4-85ca-54869540d6ca.xml, netioapi/GetSessionCompartmentId, netvista.getsessioncompartmentid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 

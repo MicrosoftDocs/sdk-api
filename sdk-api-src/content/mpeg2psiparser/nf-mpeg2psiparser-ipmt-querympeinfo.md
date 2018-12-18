@@ -9,8 +9,6 @@ ms.assetid: 14611397-7885-4553-905e-db56404f5e97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],QueryMPEInfo method, IPMT.QueryMPEInfo, IPMT::QueryMPEInfo, IPMTQueryMPEInfo, QueryMPEInfo, QueryMPEInfo method [Microsoft TV Technologies], QueryMPEInfo method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::QueryMPEInfo, mstv.ipmt_querympeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -157,7 +155,7 @@ If the method succeeds, it returns one of the two success codes listed in the pr
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntcons.h
 req.include-header: 
@@ -70,7 +68,7 @@ GUID that uniquely identifies the provider or session whose permissions you want
 ### -param Operation [in]
 
 Type of operation to perform, for example, add a DACL to the session's GUID or provider's GUID. For 
-      possible values, see the <a href="https://msdn.microsoft.com/81f6cf07-2705-4075-b085-d5aebba17121">EVENTSECURITYOPERATION</a> 
+      possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa363745(v=VS.85).aspx">EVENTSECURITYOPERATION</a> 
       enumeration.
 
 

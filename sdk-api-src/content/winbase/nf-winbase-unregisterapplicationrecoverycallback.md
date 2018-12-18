@@ -9,8 +9,6 @@ ms.assetid: 473e24d6-fddb-4935-b454-8cddfb53a02a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterApplicationRecoveryCallback, UnregisterApplicationRecoveryCallback function [Recovery], recovery.unregisterapplicationrecoverycallback, winbase/UnregisterApplicationRecoveryCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

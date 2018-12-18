@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\schedul
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob2 interface [Fax Service],ScheduleType property, IFaxOutgoingJob2.ScheduleType, IFaxOutgoingJob2.get_ScheduleType, IFaxOutgoingJob2::ScheduleType, IFaxOutgoingJob2::get_ScheduleType, ScheduleType property [Fax Service], ScheduleType property [Fax Service],IFaxOutgoingJob2 interface, _mfax_faxoutgoingjob.scheduletype, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_scheduletype_cpp, fax._mfax_faxoutgoingjob_scheduletype, faxcomex/IFaxOutgoingJob2::ScheduleType, faxcomex/IFaxOutgoingJob2::get_ScheduleType, get_ScheduleType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,11 +72,11 @@ This property can indicate the following: the fax should be transmitted right aw
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/b45eb511-ab21-4f63-8d64-d042fe0fefd0">IFaxOutgoingJob2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358991(v=VS.85).aspx">IFaxOutgoingJob2</a>
  
 
  

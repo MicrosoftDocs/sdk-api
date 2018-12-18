@@ -9,8 +9,6 @@ ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

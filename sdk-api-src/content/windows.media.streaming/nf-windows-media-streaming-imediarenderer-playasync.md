@@ -9,8 +9,6 @@ ms.assetid: 32084664-2D1B-4303-B3B7-9B896A07CB17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],PlayAsync method, IMediaRenderer.PlayAsync, IMediaRenderer.streaming, IMediaRenderer::PlayAsync, IMediaRenderer::streaming, PlayAsync, PlayAsync method [Media Streaming API], PlayAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_playasync, windows/IMediaRenderer::PlayAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

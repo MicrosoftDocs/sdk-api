@@ -9,8 +9,6 @@ ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

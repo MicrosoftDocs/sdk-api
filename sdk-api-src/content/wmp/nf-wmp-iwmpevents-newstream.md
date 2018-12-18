@@ -9,8 +9,6 @@ ms.assetid: 829cb422-eb24-4280-b565-de42c5a77b5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],NewStream method, IWMPEvents.NewStream, IWMPEvents::NewStream, IWMPEventsNewStream, NewStream, NewStream method [Windows Media Player], NewStream method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__newstream, wmp/IWMPEvents::NewStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -86,7 +84,7 @@ This event is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

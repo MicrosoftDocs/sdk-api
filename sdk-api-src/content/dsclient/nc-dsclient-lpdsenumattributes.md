@@ -9,8 +9,6 @@ ms.assetid: f4f35119-9ffc-4fe9-aea1-2d4a5d4edd0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSECAF_NOTLISTED, DSEnumAttributesCallback, DSEnumAttributesCallback callback, DSEnumAttributesCallback callback function [Active Directory], LPDSENUMATTRIBUTES, LPDSENUMATTRIBUTES callback function [Active Directory], ad.dsenumattributescallback, dsclient/DSEnumAttributesCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dsclient.h
 req.include-header: 

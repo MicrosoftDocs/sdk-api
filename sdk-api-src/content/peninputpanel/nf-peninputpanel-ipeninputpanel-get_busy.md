@@ -9,8 +9,6 @@ ms.assetid: c2ccf82a-2ca6-4358-96de-12efb77c2a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Busy property, IPenInputPanel.Busy, IPenInputPanel.get_Busy, IPenInputPanel::Busy, IPenInputPanel::get_Busy, PenInputPanel.get_Busy, c2ccf82a-2ca6-4358-96de-12efb77c2a68, get_Busy, peninputpanel/IPenInputPanel::Busy, peninputpanel/IPenInputPanel::get_Busy, tablet.peninputpanel_busy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
@@ -71,7 +69,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 

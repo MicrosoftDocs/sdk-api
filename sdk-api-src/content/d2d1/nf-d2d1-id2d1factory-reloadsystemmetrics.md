@@ -9,8 +9,6 @@ ms.assetid: 32c831c4-73e1-49f8-8d58-4248ae99fe37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Factory interface [Direct2D],ReloadSystemMetrics method, ID2D1Factory.ReloadSystemMetrics, ID2D1Factory::ReloadSystemMetrics, ReloadSystemMetrics, ReloadSystemMetrics method [Direct2D], ReloadSystemMetrics method [Direct2D],ID2D1Factory interface, d2d1/ID2D1Factory::ReloadSystemMetrics, direct2d.ID2D1Factory_ReloadSystemMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -64,7 +62,7 @@ Forces the factory to refresh any system defaults that it might have changed sin
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

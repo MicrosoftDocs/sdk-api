@@ -9,8 +9,6 @@ ms.assetid: 10fa2bf3-ec12-4c7c-b986-9b22cdaa7319
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

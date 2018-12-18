@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteallitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_DeleteAllItems, TabCtrl_DeleteAllItems macro [Windows Controls], _win32_TabCtrl_DeleteAllItems, _win32_TabCtrl_DeleteAllItems_cpp, commctrl/TabCtrl_DeleteAllItems, controls.TabCtrl_DeleteAllItems, controls._win32_TabCtrl_DeleteAllItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

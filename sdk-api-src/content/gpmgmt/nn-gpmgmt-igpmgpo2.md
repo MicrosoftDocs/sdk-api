@@ -9,8 +9,6 @@ ms.assetid: c5c21ca6-2722-4821-8760-03b6cf2befa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPMGPO2, IGPMGPO2 interface [GPMC], IGPMGPO2 interface [GPMC],described, gpmc.igpmgpo2, gpmgmt/IGPMGPO2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

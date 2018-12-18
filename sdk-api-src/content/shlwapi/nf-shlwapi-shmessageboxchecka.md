@@ -9,8 +9,6 @@ ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

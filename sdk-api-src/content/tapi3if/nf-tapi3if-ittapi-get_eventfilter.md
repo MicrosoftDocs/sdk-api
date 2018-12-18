@@ -9,8 +9,6 @@ ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

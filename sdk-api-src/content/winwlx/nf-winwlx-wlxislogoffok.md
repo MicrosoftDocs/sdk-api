@@ -9,8 +9,6 @@ ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

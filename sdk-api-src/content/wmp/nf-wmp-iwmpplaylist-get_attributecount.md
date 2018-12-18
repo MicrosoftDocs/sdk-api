@@ -9,8 +9,6 @@ ms.assetid: 32c18feb-4df2-41d6-9adf-49836b6b836d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeCount method, IWMPPlaylist.get_attributeCount, IWMPPlaylist::get_attributeCount, IWMPPlaylistget_attributeCount, get_attributeCount, get_attributeCount method [Windows Media Player], get_attributeCount method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributecount, wmp/IWMPPlaylist::get_attributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,7 +110,7 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

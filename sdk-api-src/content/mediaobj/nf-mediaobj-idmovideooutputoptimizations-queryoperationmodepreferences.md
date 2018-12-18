@@ -9,8 +9,6 @@ ms.assetid: 55916330-8395-4952-a349-f1ab5a3a2d64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],QueryOperationModePreferences method, IDMOVideoOutputOptimizations.QueryOperationModePreferences, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -69,7 +67,7 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pdwRequestedCapabilities
 
-Pointer to a variable that receives the DMO's requested features. The returned value is a bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/fafacdd8-d918-491a-a7e5-7b59128f574f">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
+Pointer to a variable that receives the DMO's requested features. The returned value is a bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375517(v=VS.85).aspx">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -127,7 +125,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/1e87d0e1-68be-4f86-aae2-cff3edfa573b">IDMOVideoOutputOptimizations Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406843(v=VS.85).aspx">IDMOVideoOutputOptimizations Interface</a>
  
 
  

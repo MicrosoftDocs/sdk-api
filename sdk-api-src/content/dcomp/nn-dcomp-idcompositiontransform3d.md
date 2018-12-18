@@ -9,8 +9,6 @@ ms.assetid: 81239AB4-C2A3-4E37-95E3-B3C10532EE15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTransform3D, IDCompositionTransform3D interface [DirectComposition], IDCompositionTransform3D interface [DirectComposition],described, dcomp/IDCompositionTransform3D, directcomp.idcompositiontransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -71,7 +69,7 @@ The <b>IDCompositionTransform3D</b> interface is an abstract interface that repr
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

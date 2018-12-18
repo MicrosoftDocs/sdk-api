@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

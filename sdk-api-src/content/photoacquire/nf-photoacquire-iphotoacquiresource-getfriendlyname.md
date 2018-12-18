@@ -9,8 +9,6 @@ ms.assetid: e6e1c5d7-b9d8-479a-a8e5-53124b55369d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Picture Acquisition], GetFriendlyName method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetFriendlyName method, IPhotoAcquireSource.GetFriendlyName, IPhotoAcquireSource::GetFriendlyName, IPhotoAcquireSourceGetFriendlyName, photoacquire/IPhotoAcquireSource::GetFriendlyName, picacq.iphotoacquiresource_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

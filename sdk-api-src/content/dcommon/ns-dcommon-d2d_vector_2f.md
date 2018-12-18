@@ -9,8 +9,6 @@ ms.assetid: DD180090-D2F4-4DF3-8652-101713C01AE4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_VECTOR_2F, D2D1_VECTOR_2F structure [Direct2D], D2D_VECTOR_2F, d2d1_1/D2D1_VECTOR_2F, dcommon/D2D1_VECTOR_2F, direct2d.d2d1_vector_2f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: 

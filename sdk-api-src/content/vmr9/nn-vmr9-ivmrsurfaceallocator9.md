@@ -9,8 +9,6 @@ ms.assetid: dd187168-19c7-414c-a764-f180d1d310f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow], IVMRSurfaceAllocator9 interface [DirectShow],described, IVMRSurfaceAllocator9Interface, dshow.ivmrsurfaceallocator9, vmr9/IVMRSurfaceAllocator9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 
@@ -74,7 +72,7 @@ The <b>IVMRSurfaceAllocator9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c367444-50bf-4fbe-b2d9-ed32275576e9">AdviseNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390501(v=VS.85).aspx">AdviseNotify</a>
 </td>
 <td align="left" width="63%">
 Provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks.
@@ -83,7 +81,7 @@ Provides the allocator-presenter with the VMR-9 filter's interface for notificat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b14c7744-b5e5-484e-b5f3-99c4185a4e7c">GetSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390502(v=VS.85).aspx">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a Direct3D surface.
@@ -92,7 +90,7 @@ Retrieves a Direct3D surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44c22dc0-98a9-4a6e-a488-1d70dfff6acd">InitializeDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390503(v=VS.85).aspx">InitializeDevice</a>
 </td>
 <td align="left" width="63%">
 Called by the VMR-9 when it needs the allocator-presenter to allocate surfaces.
@@ -101,7 +99,7 @@ Called by the VMR-9 when it needs the allocator-presenter to allocate surfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5006265d-6f2b-433b-b3ce-a7074d6eb159">TerminateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390504(v=VS.85).aspx">TerminateDevice</a>
 </td>
 <td align="left" width="63%">
 Releases the Direct3D device.

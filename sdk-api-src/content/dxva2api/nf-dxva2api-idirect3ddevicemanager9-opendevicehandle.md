@@ -9,8 +9,6 @@ ms.assetid: 74cd2260-279a-4956-8fce-40f8008b6797
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 interface [Media Foundation],OpenDeviceHandle method, IDirect3DDeviceManager9.OpenDeviceHandle, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

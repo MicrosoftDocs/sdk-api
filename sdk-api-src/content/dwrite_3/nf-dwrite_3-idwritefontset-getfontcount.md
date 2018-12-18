@@ -9,8 +9,6 @@ ms.assetid: 15231d40-9de2-54e4-f4ad-0f1ef9b35c47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontCount, GetFontCount method [Direct Write], GetFontCount method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontCount method, IDWriteFontSet.GetFontCount, IDWriteFontSet::GetFontCount, directwrite.idwritefontset_getfontcount, dwrite_3/IDWriteFontSet::GetFontCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ Returns the number of total fonts in the set.
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
  
 
  

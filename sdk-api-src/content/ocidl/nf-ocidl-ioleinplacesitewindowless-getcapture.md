@@ -9,8 +9,6 @@ ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

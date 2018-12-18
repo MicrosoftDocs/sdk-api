@@ -9,8 +9,6 @@ ms.assetid: f3884dbf-c75c-45f7-953c-bfdc14734820
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectShow], GetSurfaceDesc method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSurfaceDesc method, IDirectDrawVideo.GetSurfaceDesc, IDirectDrawVideo::GetSurfaceDesc, IDirectDrawVideoGetSurfaceDesc, amvideo/IDirectDrawVideo::GetSurfaceDesc, dshow.idirectdrawvideo_getsurfacedesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -94,7 +92,7 @@ Surfaces are allocated only when the renderer is paused. After the renderer has 
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

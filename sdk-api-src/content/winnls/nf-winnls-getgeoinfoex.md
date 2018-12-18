@@ -9,8 +9,6 @@ ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: 

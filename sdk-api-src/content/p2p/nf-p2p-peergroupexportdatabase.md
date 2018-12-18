@@ -7,10 +7,8 @@ old-location: p2p\peergroupexportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

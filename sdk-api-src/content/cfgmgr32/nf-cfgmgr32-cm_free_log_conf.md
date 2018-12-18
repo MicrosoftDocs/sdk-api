@@ -9,8 +9,6 @@ ms.assetid: 89d8e5ed-751c-4f85-8669-a33c6228fe22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Free_Log_Conf, CM_Free_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf, cfgmgrfn_68a9c019-f83c-4453-a988-3e9b1b33dd5f.xml, devinst.cm_free_log_conf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

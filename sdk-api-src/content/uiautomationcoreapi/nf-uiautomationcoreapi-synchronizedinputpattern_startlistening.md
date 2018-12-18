@@ -9,8 +9,6 @@ ms.assetid: 6c8c88fc-25b2-4ca3-86d7-f1d666fc45e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SynchronizedInputPattern_StartListening, SynchronizedInputPattern_StartListening function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_StartListening, uiauto_SynchronizedInputPattern_StartListening, uiautomationcoreapi/SynchronizedInputPattern_StartListening, winauto.uiauto_SynchronizedInputPattern_StartListening
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

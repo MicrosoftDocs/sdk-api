@@ -9,8 +9,6 @@ ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

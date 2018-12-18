@@ -9,8 +9,6 @@ ms.assetid: 5cf04ff5-d25b-42f5-a14e-2e73225765e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

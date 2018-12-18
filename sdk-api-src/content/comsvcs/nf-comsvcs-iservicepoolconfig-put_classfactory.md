@@ -9,8 +9,6 @@ ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_ClassFactory method, IServicePoolConfig.put_ClassFactory, IServicePoolConfig::put_ClassFactory, comsvcs/IServicePoolConfig::put_ClassFactory, cos.iservicepoolconfig_put_classfactory, put_ClassFactory, put_ClassFactory method [COM+], put_ClassFactory method [COM+],IServicePoolConfig interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

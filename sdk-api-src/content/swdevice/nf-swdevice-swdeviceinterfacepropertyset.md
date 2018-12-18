@@ -9,8 +9,6 @@ ms.assetid: 397E6CAB-EE99-4723-84DB-8C48859E39D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwDeviceInterfacePropertySet, SwDeviceInterfacePropertySet function, swdevice.swdeviceinterfacepropertyset, swdevice/SwDeviceInterfacePropertySet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swdevice.h
 req.include-header: 

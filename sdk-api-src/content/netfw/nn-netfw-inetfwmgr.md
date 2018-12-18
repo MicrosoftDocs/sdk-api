@@ -9,8 +9,6 @@ ms.assetid: 7534ea10-7553-4ec2-af68-0b0393ffc003
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], INetFwMgr interface [ICS/ICF],described, ics.inetfwmgr, netfw/INetFwMgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

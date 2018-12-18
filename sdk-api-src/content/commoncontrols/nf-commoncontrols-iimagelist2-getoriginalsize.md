@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getoriginalsize.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOriginalSize, GetOriginalSize method [Windows Controls], GetOriginalSize method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetOriginalSize method, IImageList2.GetOriginalSize, IImageList2::GetOriginalSize, ILGOS_ALWAYS, ILGOS_FROMSTANDBY, _shell_IImageList2_GetOriginalSize, _shell_IImageList2_GetOriginalSize_cpp, commoncontrols/IImageList2::GetOriginalSize, controls.IImageList2_GetOriginalSize, controls._shell_IImageList2_GetOriginalSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 73dbb02d-9d9e-4090-a879-8719cdd1dbdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Extensions interface [Security],_NewEnum property, IX509Extensions._NewEnum, IX509Extensions.get__NewEnum, IX509Extensions::_NewEnum, IX509Extensions::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509Extensions interface, certenroll/IX509Extensions::_NewEnum, certenroll/IX509Extensions::get__NewEnum, get__NewEnum, security.ix509extensions__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

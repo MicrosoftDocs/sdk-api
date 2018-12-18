@@ -9,8 +9,6 @@ ms.assetid: b8c975fe-6bf9-443d-b069-cb8e5e01affc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_VCT.GetRecordDescriptorByTag, IATSC_VCT::GetRecordDescriptorByTag, IATSC_VCTGetRecordDescriptorByTag, atscpsipparser/IATSC_VCT::GetRecordDescriptorByTag, mstv.iatsc_vct_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
@@ -81,7 +79,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

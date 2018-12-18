@@ -9,8 +9,6 @@ ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNotifyEventHandle, GetNotifyEventHandle function [Failover Cluster], PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 function [Failover Cluster], clusapi/GetNotifyEventHandle, clusapi/PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, mscs.getnotifyeventhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

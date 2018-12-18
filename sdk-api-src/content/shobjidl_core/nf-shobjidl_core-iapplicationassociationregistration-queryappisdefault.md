@@ -9,8 +9,6 @@ ms.assetid: 63127fa4-be09-4dd6-9084-cfde00967279
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefault method, IApplicationAssociationRegistration.QueryAppIsDefault, IApplicationAssociationRegistration::QueryAppIsDefault, QueryAppIsDefault, QueryAppIsDefault method [Windows Shell], QueryAppIsDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefault, shell.IApplicationAssociationRegistration_QueryAppIsDefault, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

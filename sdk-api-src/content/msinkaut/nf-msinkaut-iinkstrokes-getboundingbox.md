@@ -9,8 +9,6 @@ ms.assetid: 33641615-c2dc-43ee-b7be-8f24c38bac6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],GetBoundingBox method, IInkStrokes.GetBoundingBox, IInkStrokes::GetBoundingBox, msinkaut/IInkStrokes::GetBoundingBox, tablet.inkstrokes_getboundingbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -166,7 +164,7 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

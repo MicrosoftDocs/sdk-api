@@ -9,8 +9,6 @@ ms.assetid: EF56EA6C-00DB-4231-B67D-B99811F51246
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView method, ClearDepthStencilView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearDepthStencilView method, ID3D12GraphicsCommandList.ClearDepthStencilView, ID3D12GraphicsCommandList::ClearDepthStencilView, d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView, direct3d12.id3d12graphicscommandlist_cleardepthstencilview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -296,7 +294,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

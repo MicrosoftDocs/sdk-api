@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_PROCESS_BUFFER_PARAMETERS
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAPO_PROCESS_BUFFER_PARAMETERS, XAPO_PROCESS_BUFFER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapo/XAPO_PROCESS_BUFFER_PARAMETERS, xaudio2.xapo_process_buffer_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xapo.h
 req.include-header: 

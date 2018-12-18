@@ -9,8 +9,6 @@ ms.assetid: 8015d070-51b9-49d4-b760-c9faaeba2cd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

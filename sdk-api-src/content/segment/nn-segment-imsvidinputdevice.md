@@ -9,8 +9,6 @@ ms.assetid: 5b413ade-4ab2-45fa-98b2-fd93c8f89a43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Technologies], IMSVidInputDevice interface [Microsoft TV Technologies],described, IMSVidInputDeviceInterface, mstv.imsvidinputdevice, segment/IMSVidInputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -55,10 +53,10 @@ The <b>IMSVidInputDevice</b> interface represents any input device that is recog
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a>
 </li>
 </ul>
 When a method returns an <b>IMSVidInputDevice</b> pointer, the object that is returned typically supports one of the derived interfaces.
@@ -68,7 +66,7 @@ When a method returns an <b>IMSVidInputDevice</b> pointer, the object that is re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevice</b> interface inherits from <a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a>. <b>IMSVidInputDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevice</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>. <b>IMSVidInputDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -83,7 +81,7 @@ The <b>IMSVidInputDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f62bcc4-8c58-4663-9b1f-a5ed7d000a79">IsViewable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694576(v=VS.85).aspx">IsViewable</a>
 </td>
 <td align="left" width="63%">
 Determines whether this device can view the specified tune request.
@@ -92,7 +90,7 @@ Determines whether this device can view the specified tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f106e520-86e5-4b7e-8e16-1f82797f128f">View</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694577(v=VS.85).aspx">View</a>
 </td>
 <td align="left" width="63%">
 Configures the input device to view the specified tune request.
@@ -116,7 +114,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
 
 
 

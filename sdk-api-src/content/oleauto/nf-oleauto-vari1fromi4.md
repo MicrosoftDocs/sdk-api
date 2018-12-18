@@ -9,8 +9,6 @@ ms.assetid: 38d8bc5c-0d4b-4072-86ed-8a666b2aed88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI1FromI4, VarI1FromI4 function [Automation], _oa96_VarI1FromI4, automat.vari1fromi4, oleauto/VarI1FromI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

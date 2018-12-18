@@ -9,8 +9,6 @@ ms.assetid: d9f5e6b0-4317-40cd-9664-e2cc6d1a8833
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],Initialize method, IPMT.Initialize, IPMT::Initialize, IPMTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::Initialize, mstv.ipmt_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -126,7 +124,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: a8bda00b-5eff-46a4-b640-1794e8ea21cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActivationNetworkError, GetActivationNetworkError method [Microsoft Broadband Networks], GetActivationNetworkError method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetActivationNetworkError method, IMbnConnection.GetActivationNetworkError, IMbnConnection::GetActivationNetworkError, mbn.imbnconnection_getactivationnetworkerror, mbnapi/IMbnConnection::GetActivationNetworkError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

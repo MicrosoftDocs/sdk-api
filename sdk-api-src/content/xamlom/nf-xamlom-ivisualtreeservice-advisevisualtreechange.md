@@ -9,8 +9,6 @@ ms.assetid: 83971154-4E40-474C-91AD-2436B1D02CB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseVisualTreeChange, AdviseVisualTreeChange method, AdviseVisualTreeChange method,IVisualTreeService interface, IVisualTreeService interface,AdviseVisualTreeChange method, IVisualTreeService.AdviseVisualTreeChange, IVisualTreeService::AdviseVisualTreeChange, xaml_diagnostics.ivisualtreeservice_advisevisualtreechange, xamlom/IVisualTreeService::AdviseVisualTreeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

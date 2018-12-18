@@ -9,8 +9,6 @@ ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netcon.h
 req.include-header: 

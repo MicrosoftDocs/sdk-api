@@ -9,8 +9,6 @@ ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -106,7 +104,7 @@ The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C
 
 
 
-<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

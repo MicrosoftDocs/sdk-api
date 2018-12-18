@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimageinfo.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_GetImageInfo, ImageList_GetImageInfo function [Windows Controls], _win32_ImageList_GetImageInfo, _win32_ImageList_GetImageInfo_cpp, commctrl/ImageList_GetImageInfo, controls.ImageList_GetImageInfo, controls._win32_ImageList_GetImageInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -83,7 +81,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761393(v=VS.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
@@ -94,7 +92,7 @@ Returns nonzero if successful, or zero otherwise.
 
 
 
-An application should not call <a href="https://msdn.microsoft.com/en-us/library/Dd183539(v=VS.85).aspx">DeleteObject</a> to destroy the bitmaps retrieved by <b>ImageList_GetImageInfo</b>. The system destroys the bitmaps when the application calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> function. 
+An application should not call <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> to destroy the bitmaps retrieved by <b>ImageList_GetImageInfo</b>. The system destroys the bitmaps when the application calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761524(v=VS.85).aspx">ImageList_Destroy</a> function. 
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 32A51FC7-375D-40BE-95F2-65C5057F002C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
@@ -60,7 +58,7 @@ Describes a trace register.
 
 ### -field RegType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
+A <a href="https://msdn.microsoft.com/94B0BA0B-94DB-4449-8E3B-EEB1F6B85FB5">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
           
 
 
@@ -142,7 +140,7 @@ The following register types do not require an index:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

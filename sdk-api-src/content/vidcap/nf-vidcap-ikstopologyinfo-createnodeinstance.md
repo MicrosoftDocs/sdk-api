@@ -9,8 +9,6 @@ ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>CreateNodeInstance</code> method creates a COM object that represents 
 
 ### -param dwNodeId [in]
 
-Index of the node to create. To find the number of nodes, call the <a href="https://msdn.microsoft.com/fdba99d5-fd44-4d4f-8575-867d98bf3339">IKsTopologyInfo::get_NumNodes</a> method.
+Index of the node to create. To find the number of nodes, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">IKsTopologyInfo::get_NumNodes</a> method.
 
 
 ### -param iid [in]
@@ -119,7 +117,7 @@ Node objects expose the <b>IKsControl</b> interface. You can use this interface 
 
 
 
-<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
  
 
  

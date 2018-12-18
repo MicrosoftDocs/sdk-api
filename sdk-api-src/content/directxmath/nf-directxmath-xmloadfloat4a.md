@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat4A(const XMFLOAT4A)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadFloat4A, XMLoadFloat4A, XMLoadFloat4A method [DirectX Math Support APIs], dxmath.xmloadfloat4a
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/1cb0c521-3494-4bad-b6c4-3fbe029034f3">XMFLOAT4A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx">XMFLOAT4A</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Loads an <a href="https://msdn.microsoft.com/1cb0c521-3494-4bad-b6c4-3fbe029034f
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/1cb0c521-3494-4bad-b6c4-3fbe029034f3">XMFLOAT4A</a> structure to load.
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx">XMFLOAT4A</a> structure to load.
 
 
 ## -returns
@@ -76,7 +74,7 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-The members of the <a href="https://msdn.microsoft.com/1cb0c521-3494-4bad-b6c4-3fbe029034f3">XMFLOAT4A</a> are loaded into the corresponding members of the returned
+The members of the <a href="https://msdn.microsoft.com/en-us/library/Ee419609(v=VS.85).aspx">XMFLOAT4A</a> are loaded into the corresponding members of the returned
    <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

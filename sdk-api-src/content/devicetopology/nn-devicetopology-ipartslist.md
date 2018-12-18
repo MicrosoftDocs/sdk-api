@@ -9,8 +9,6 @@ ms.assetid: 3ac48781-90c2-4b23-aa68-3453091bde61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPartsList, IPartsList interface [Core Audio], IPartsList interface [Core Audio],described, coreaudio.ipartslist, devicetopology/IPartsList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

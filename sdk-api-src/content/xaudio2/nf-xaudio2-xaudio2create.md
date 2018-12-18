@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2Create(IXAudio2@,UINT32,XAUDI
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2create, xaudio2/XAudio2Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xaudio2.h
 req.include-header: 

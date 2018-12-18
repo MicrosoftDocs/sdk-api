@@ -9,8 +9,6 @@ ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mswsock.h
 req.include-header: Mswsock.h

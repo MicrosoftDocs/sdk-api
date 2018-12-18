@@ -9,8 +9,6 @@ ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

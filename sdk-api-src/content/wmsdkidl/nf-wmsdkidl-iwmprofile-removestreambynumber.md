@@ -9,8 +9,6 @@ ms.assetid: 72ecc794-d393-416e-bc21-5a7756e76d99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveStreamByNumber method, IWMProfile.RemoveStreamByNumber, IWMProfile2 interface [windows Media Format],RemoveStreamByNumber method, IWMProfile2::RemoveStreamByNumber, IWMProfile3 interface [windows Media Format],RemoveStreamByNumber method, IWMProfile3::RemoveStreamByNumber, IWMProfile::RemoveStreamByNumber, IWMProfileRemoveStreamByNumber, RemoveStreamByNumber, RemoveStreamByNumber method [windows Media Format], RemoveStreamByNumber method [windows Media Format],IWMProfile interface, RemoveStreamByNumber method [windows Media Format],IWMProfile2 interface, RemoveStreamByNumber method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removestreambynumber, wmsdkidl/IWMProfile2::RemoveStreamByNumber, wmsdkidl/IWMProfile3::RemoveStreamByNumber, wmsdkidl/IWMProfile::RemoveStreamByNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -142,19 +140,19 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/507b1c55-1ecb-41dd-a6e5-298e1047a7ea">IWMProfile::GetStreamByNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757407(v=VS.85).aspx">IWMProfile::GetStreamByNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/82817b72-fde5-492e-b197-87bf145d0be9">IWMProfile::RemoveStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757412(v=VS.85).aspx">IWMProfile::RemoveStream</a>
  
 
  

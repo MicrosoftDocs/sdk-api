@@ -9,8 +9,6 @@ ms.assetid: 4608fb27-8d8c-4ccc-9838-bdbe9dadee83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_MediaType method, IWriteSpeedDescriptor.get_MediaType, IWriteSpeedDescriptor::get_MediaType, get_MediaType, get_MediaType method [IMAPI], get_MediaType method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_mediatype, imapi2/IWriteSpeedDescriptor::get_MediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 72e3331d-1e54-4ec7-9972-7e39eaf2707d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCreateVideoAcceleratorData, GetCreateVideoAcceleratorData method [DirectShow], GetCreateVideoAcceleratorData method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetCreateVideoAcceleratorData method, IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotifyGetCreateVideoAcceleratorData, dshow.iamvideoacceleratornotify_getcreatevideoacceleratordata, videoacc/IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -160,7 +158,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/7fd0290c-8fd6-4af6-b510-7a87bc7937de">IAMVideoAcceleratorNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify Interface</a>
  
 
  

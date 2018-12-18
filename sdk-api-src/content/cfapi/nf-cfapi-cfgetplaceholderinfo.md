@@ -9,8 +9,6 @@ ms.assetid: D82269CF-8056-46CF-9832-AAE8767A854B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPlaceholderInfo, cloudApi.cfgetplaceholderinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 485844c6-7a84-4a0d-827d-060d8caef6cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Start method, IWMReader.Start, IWMReader::Start, IWMReaderStart, Start, Start method [windows Media Format], Start method [windows Media Format],IWMReader interface, wmformat.iwmreader_start, wmsdkidl/IWMReader::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>Start</b> method causes the reader object to start reading from the specified starting time offset. As data is read, it is passed to the application through the application's <a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a> callback method.
+The <b>Start</b> method causes the reader object to start reading from the specified starting time offset. As data is read, it is passed to the application through the application's <a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a> callback method.
 
 
 
@@ -155,9 +153,9 @@ To change the rate but not the current file position, use the <b>Start</b> metho
 
 Any call to <b>Start</b> while paused is treated as a <i>seek</i> through the file, and incurs a buffering penalty from network files. This is true even for calls to <b>Start</b> with the WM_START_CURRENTPOSITION value. To continue playing from the current paused position with no buffering penalty, call <b>Resume</b>.
 
-If the application is providing the clock (by calling <a href="https://msdn.microsoft.com/1f29beea-1da4-41e0-a68d-93af3b1f55ed">IWMReaderAdvanced::SetUserProvidedClock</a>), it should usually set the <i>cnsDuration</i> parameter to zero. If the application specifies a non-zero value, then it must call the <a href="https://msdn.microsoft.com/5e47ef96-9971-47b0-a003-b38f4045da7a">IWMReaderAdvanced::DeliverTime</a> method exactly once, and the value passed to <b>DeliverTime</b> must be either the stop time or <code>(QWORD)-1</code>. The reader object will then deliver samples up to the specified duration.
+If the application is providing the clock (by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743489(v=VS.85).aspx">IWMReaderAdvanced::SetUserProvidedClock</a>), it should usually set the <i>cnsDuration</i> parameter to zero. If the application specifies a non-zero value, then it must call the <a href="https://msdn.microsoft.com/en-us/library/Dd743469(v=VS.85).aspx">IWMReaderAdvanced::DeliverTime</a> method exactly once, and the value passed to <b>DeliverTime</b> must be either the stop time or <code>(QWORD)-1</code>. The reader object will then deliver samples up to the specified duration.
 
-This method is very similar to the <a href="https://msdn.microsoft.com/444adb2f-4289-4950-8841-07353479ef43">IWMReaderAdvanced2::StartAtMarker</a> method, but that method uses a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> instead of a start time.
+This method is very similar to the <a href="https://msdn.microsoft.com/en-us/library/Dd757445(v=VS.85).aspx">IWMReaderAdvanced2::StartAtMarker</a> method, but that method uses a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> instead of a start time.
 
 
 
@@ -167,15 +165,15 @@ This method is very similar to the <a href="https://msdn.microsoft.com/444adb2f-
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/781d1882-4b48-4415-9b3a-788207b42151">IWMReader::Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743610(v=VS.85).aspx">IWMReader::Stop</a>
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
  
 
  

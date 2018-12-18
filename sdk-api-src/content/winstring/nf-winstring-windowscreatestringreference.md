@@ -9,8 +9,6 @@ ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

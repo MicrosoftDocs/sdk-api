@@ -9,8 +9,6 @@ ms.assetid: 66c7af1d-5e48-4a51-ad16-e92ada87942c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],Clone method, IXpsOMCoreProperties.Clone, IXpsOMCoreProperties::Clone, xps.ixpsomcoreproperties_clone, xpsobjectmodel/IXpsOMCoreProperties::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

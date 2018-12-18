@@ -9,8 +9,6 @@ ms.assetid: a22603b9-5c23-4016-9f28-1cf420ac11fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],IsBlackWhite method, IWICPalette.IsBlackWhite, IWICPalette::IsBlackWhite, IsBlackWhite, IsBlackWhite method [Windows Imaging Component], IsBlackWhite method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_isblackwhite, wic._wic_codec_iwicpalette_isblackwhite, wincodec/IWICPalette::IsBlackWhite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

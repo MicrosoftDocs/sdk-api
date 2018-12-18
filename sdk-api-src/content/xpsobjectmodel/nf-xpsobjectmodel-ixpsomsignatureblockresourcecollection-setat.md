@@ -9,8 +9,6 @@ ms.assetid: c1f88493-0f81-4aac-b6d6-049d10934254
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

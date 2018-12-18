@@ -9,8 +9,6 @@ ms.assetid: 5d3a101a-4de3-4da2-8c03-e672e206ffb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerUninitialize, EapHostPeerUninitialize function [EAPHost], eaphost.eaphostpeeruninitialize, eappapis/EapHostPeerUninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

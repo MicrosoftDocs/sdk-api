@@ -9,8 +9,6 @@ ms.assetid: 99965928-17c7-4aaa-ba8c-6f3e07c7c5b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateHistoryEntry2, IUpdateHistoryEntry2 interface [Windows Update Agent], IUpdateHistoryEntry2 interface [Windows Update Agent],described, wua.iupdatehistoryentry2, wuapi/IUpdateHistoryEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

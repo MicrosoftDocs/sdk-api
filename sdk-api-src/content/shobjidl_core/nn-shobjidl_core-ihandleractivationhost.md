@@ -9,8 +9,6 @@ ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IHandlerActivationHost, IHandlerActivationHost interface [Windows Shell], IHandlerActivationHost interface [Windows Shell],described, shell.IHandlerActivationHost, shobjidl_core/IHandlerActivationHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

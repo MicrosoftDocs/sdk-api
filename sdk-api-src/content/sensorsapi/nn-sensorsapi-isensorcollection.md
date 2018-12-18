@@ -9,8 +9,6 @@ ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors],described, sensorsapi/ISensorCollection, winsensors.isensorcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

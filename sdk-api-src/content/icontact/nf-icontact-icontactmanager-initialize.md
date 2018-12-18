@@ -9,8 +9,6 @@ ms.assetid: 50e87ba0-fcf0-4b64-87f4-dfb0ff16373f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactManager interface [Windows Contacts],Initialize method, IContactManager.Initialize, IContactManager::Initialize, Initialize, Initialize method [Windows Contacts], Initialize method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Initialize, icontact/IContactManager::Initialize, wincontacts._wincontacts_IContactManager_Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

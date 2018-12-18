@@ -9,8 +9,6 @@ ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderSetSecurityInfoByKey0, FwpmProviderSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidersetsecurityinfobykey0_func, fwpmu/FwpmProviderSetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: A48641B8-0BFF-42B9-A093-A26404EC22C5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFontLocality method, IDWriteFontList1.GetFontLocality, IDWriteFontList1::GetFontLocality, directwrite.idwritefontlist1_getfontlocality, dwrite_3/IDWriteFontList1::GetFontLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -69,9 +67,9 @@ Zero-based index of the font in the font list.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a>-typed value that specifies the location of the specified font.
+Returns a <a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a>-typed value that specifies the location of the specified font.
 
 
 
@@ -80,7 +78,7 @@ Returns a <a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BC
 
 
 
-For fully local files, the result will always be <b>DWRITE_LOCALITY_LOCAL</b>. For streamed files, the result depends on how much of the file has been downloaded. <a href="https://msdn.microsoft.com/206A103C-5847-4388-83EC-BE038DB20A09">GetFont</a> fails if the locality is <b>DWRITE_LOCALITY_REMOTE</b> and potentially fails if <b>DWRITE_LOCALITY_PARTIAL</b>. 
+For fully local files, the result will always be <b>DWRITE_LOCALITY_LOCAL</b>. For streamed files, the result depends on how much of the file has been downloaded. <a href="https://msdn.microsoft.com/en-us/library/Dn894595(v=VS.85).aspx">GetFont</a> fails if the locality is <b>DWRITE_LOCALITY_REMOTE</b> and potentially fails if <b>DWRITE_LOCALITY_PARTIAL</b>. 
 
 
 
@@ -90,7 +88,7 @@ For fully local files, the result will always be <b>DWRITE_LOCALITY_LOCAL</b>. F
 
 
 
-<a href="https://msdn.microsoft.com/68B6B1E3-9463-4A45-853A-CCC9501E4301">IDWriteFontList1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894594(v=VS.85).aspx">IDWriteFontList1</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 623ef4ab-5bcc-4801-ba18-a246da392abe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaContextGetSpi1, IPsecSaContextGetSpi1 function [Filtering], fwp.ipsecsacontextgetspi1, fwpmu/IPsecSaContextGetSpi1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

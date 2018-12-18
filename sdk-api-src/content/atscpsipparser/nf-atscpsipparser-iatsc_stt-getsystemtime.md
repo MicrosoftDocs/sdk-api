@@ -9,8 +9,6 @@ ms.assetid: 4add19d8-9626-468f-8b15-993fb51f3c13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemTime, GetSystemTime method [Microsoft TV Technologies], GetSystemTime method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetSystemTime method, IATSC_STT.GetSystemTime, IATSC_STT::GetSystemTime, IATSC_STTGetSystemTime, atscpsipparser/IATSC_STT::GetSystemTime, mstv.iatsc_stt_getsystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

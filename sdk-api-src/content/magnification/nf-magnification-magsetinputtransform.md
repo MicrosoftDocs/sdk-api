@@ -9,8 +9,6 @@ ms.assetid: B42B59DB-9E21-4769-B605-014173514AEB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MagSetInputTransform, MagSetInputTransform function [Magnification API], magapi.magapi_magsetinputtransform, magnification/MagSetInputTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

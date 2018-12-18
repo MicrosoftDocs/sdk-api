@@ -9,8 +9,6 @@ ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

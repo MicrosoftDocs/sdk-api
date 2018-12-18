@@ -9,8 +9,6 @@ ms.assetid: 2f237cd3-668b-4b1b-b98b-4cfc40f5889e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateService, IUpdateService interface [Windows Update Agent], IUpdateService interface [Windows Update Agent],described, wua.iupdateservice, wuapi/IUpdateService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

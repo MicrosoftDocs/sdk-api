@@ -9,8 +9,6 @@ ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: hstring.h
 req.include-header: 

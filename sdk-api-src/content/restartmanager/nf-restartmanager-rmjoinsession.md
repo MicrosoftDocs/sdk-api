@@ -9,8 +9,6 @@ ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

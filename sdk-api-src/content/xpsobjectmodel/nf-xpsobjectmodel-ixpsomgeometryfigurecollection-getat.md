@@ -9,8 +9,6 @@ ms.assetid: adf36d84-7bfd-4a8c-b6e7-5a8622245ae5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGeometryFigureCollection.GetAt, IXpsOMGeometryFigureCollection::GetAt, xps.ixpsomgeometryfigurecollection_getat, xpsobjectmodel/IXpsOMGeometryFigureCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

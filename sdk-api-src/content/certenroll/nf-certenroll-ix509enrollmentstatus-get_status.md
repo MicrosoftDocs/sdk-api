@@ -9,8 +9,6 @@ ms.assetid: ca1105eb-a29a-458d-abbb-34c9b67d7c8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Status property, IX509EnrollmentStatus.Status, IX509EnrollmentStatus.get_Status, IX509EnrollmentStatus::Status, IX509EnrollmentStatus::get_Status, IX509EnrollmentStatus::put_Status, Status property [Security], Status property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Status, certenroll/IX509EnrollmentStatus::get_Status, certenroll/IX509EnrollmentStatus::put_Status, get_Status, security.ix509enrollmentstatus_status_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

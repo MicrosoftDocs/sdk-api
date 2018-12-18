@@ -9,8 +9,6 @@ ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumUILanguagesProc, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/UILANGUAGE_ENUMPROC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winnls.h
 req.include-header: Windows.h

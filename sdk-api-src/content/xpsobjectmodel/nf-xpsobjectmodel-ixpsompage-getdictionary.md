@@ -9,8 +9,6 @@ ms.assetid: e842c828-6e8c-4190-b845-8c8a26af1579
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionary method, IXpsOMPage.GetDictionary, IXpsOMPage::GetDictionary, xps.ixpsompage_getdictionary, xpsobjectmodel/IXpsOMPage::GetDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

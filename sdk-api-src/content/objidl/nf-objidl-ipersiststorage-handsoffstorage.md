@@ -9,8 +9,6 @@ ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage method [COM],IPersistStorage interface, IPersistStorage interface [COM],HandsOffStorage method, IPersistStorage.HandsOffStorage, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

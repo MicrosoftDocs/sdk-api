@@ -9,8 +9,6 @@ ms.assetid: b3dc35d8-098a-464d-957e-3746447156d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPTransactionType, WMPTransactionType enumeration [Windows Media Player], contentpartner/WMPTransactionType, contentpartner/wmpttBuy, contentpartner/wmpttDownload, contentpartner/wmpttNoTransaction, enumeration [Windows Media Player], wmp.wmptransactiontype, wmpttBuy, wmpttDownload, wmpttNoTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 
@@ -83,7 +81,7 @@ A purchase transaction.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
 
 
 

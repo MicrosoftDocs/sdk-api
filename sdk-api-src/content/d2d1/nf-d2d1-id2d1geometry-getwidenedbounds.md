@@ -9,8 +9,6 @@ ms.assetid: 2f29c116-478c-4fcd-8ea4-1126f6c93c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWidenedBounds, GetWidenedBounds method [Direct2D], GetWidenedBounds method [Direct2D],ID2D1Geometry interface, ID2D1Geometry interface [Direct2D],GetWidenedBounds method, ID2D1Geometry.GetWidenedBounds, ID2D1Geometry::GetWidenedBounds, ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_RECT_F), d2d1/ID2D1Geometry::GetWidenedBounds, direct2d.ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_RECT_F
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -101,7 +99,7 @@ When this method returns, contains the bounds of the widened geometry. You must 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

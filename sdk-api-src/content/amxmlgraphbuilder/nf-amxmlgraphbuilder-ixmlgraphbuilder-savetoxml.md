@@ -9,8 +9,6 @@ ms.assetid: 02f710a4-3d13-46b0-b00d-4ffd2b4c3157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXMLGraphBuilder interface [DirectShow],SaveToXML method, IXMLGraphBuilder.SaveToXML, IXMLGraphBuilder::SaveToXML, IXMLGraphBuilderSaveToXML, SaveToXML, SaveToXML method [DirectShow], SaveToXML method [DirectShow],IXMLGraphBuilder interface, amxmlgraphbuilder/IXMLGraphBuilder::SaveToXML, dshow.ixmlgraphbuilder_savetoxml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amxmlgraphbuilder.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>SaveToXML</b> method saves a filter graph to an XML element.
 
 ### -param pGraph [in]
 
-Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface.
+Pointer to the Filter Graph Manager's <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface.
 
 
 ### -param pbstrxml [out]
@@ -89,7 +87,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/c30a8b33-7783-4987-aa65-ccba476ea937">IXMLGraphBuilder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390622(v=VS.85).aspx">IXMLGraphBuilder Interface</a>
  
 
  

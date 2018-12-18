@@ -9,8 +9,6 @@ ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

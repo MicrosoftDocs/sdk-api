@@ -9,8 +9,6 @@ ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>Scope</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object that represents the scope in which this <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object is defined.
+The <b>Scope</b> property retrieves the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object that represents the scope in which this <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object is defined.
 
 This property is read-only.
 

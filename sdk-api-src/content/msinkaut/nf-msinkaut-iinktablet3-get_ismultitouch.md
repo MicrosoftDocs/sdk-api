@@ -9,8 +9,6 @@ ms.assetid: 126ff164-203f-42b0-b0b1-16ffc59c8fc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkTablet3 interface [Tablet PC],IsMultiTouch property, IInkTablet3.IsMultiTouch, IInkTablet3.get_IsMultiTouch, IInkTablet3::IsMultiTouch, IInkTablet3::get_IsMultiTouch, IsMultiTouch property [Tablet PC], IsMultiTouch property [Tablet PC],IInkTablet3 interface, get_IsMultiTouch, msinkaut/IInkTablet3::IsMultiTouch, msinkaut/IInkTablet3::get_IsMultiTouch, tablet.iinktablet3_ismultitouch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

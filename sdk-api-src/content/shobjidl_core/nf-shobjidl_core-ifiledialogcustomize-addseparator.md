@@ -9,8 +9,6 @@ ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddSeparator, AddSeparator method [Windows Shell], AddSeparator method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddSeparator method, IFileDialogCustomize.AddSeparator, IFileDialogCustomize::AddSeparator, shell.IFileDialogCustomize_AddSeparator, shell_IFileDialogCustomize_AddSeparator, shobjidl_core/IFileDialogCustomize::AddSeparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

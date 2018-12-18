@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_ERROR_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_30
 title: WS_ERROR_PROPERTY_ID
 author: windows-sdk-content
 description: A set of property values associated with the error. They are set and retrieved using WsGetErrorProperty and WsSetErrorProperty.
@@ -7,10 +7,8 @@ old-location: wsw\ws_error_property_id.htm
 tech.root: wsw
 ms.assetid: 527e39be-c959-40db-8f0b-14dcd49a7ca7
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ERROR_PROPERTY_ID, WS_ERROR_PROPERTY_ID enumeration [Web Services for Windows], WS_ERROR_PROPERTY_LANGID, WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE, WS_ERROR_PROPERTY_STRING_COUNT, webservices/WS_ERROR_PROPERTY_ID, webservices/WS_ERROR_PROPERTY_LANGID, webservices/WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE, webservices/WS_ERROR_PROPERTY_STRING_COUNT, wsw.ws_error_property_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -64,7 +62,7 @@ A set of property values associated with the error.  They are set
 ### -field WS_ERROR_PROPERTY_STRING_COUNT
 
 The number of error strings (ULONG) available in the error object. Error strings 
-                    might be added using <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a>. When <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
+                    might be added using <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a>. When <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
                     additional string in the returned number of error strings. 
                 
 

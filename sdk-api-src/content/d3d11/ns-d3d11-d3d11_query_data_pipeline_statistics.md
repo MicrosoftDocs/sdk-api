@@ -9,8 +9,6 @@ ms.assetid: c8a2813e-56db-421b-ad37-d353c327a457
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 27fcfb4e-e055-458a-344a-bc41add68c29, D3D11_QUERY_DATA_PIPELINE_STATISTICS, D3D11_QUERY_DATA_PIPELINE_STATISTICS structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_PIPELINE_STATISTICS, direct3d11.d3d11_query_data_pipeline_statistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

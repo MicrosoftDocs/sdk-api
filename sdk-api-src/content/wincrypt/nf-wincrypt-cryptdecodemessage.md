@@ -9,8 +9,6 @@ ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptDecodeMessage, CryptDecodeMessage function [Security], _crypto2_cryptdecodemessage, security.cryptdecodemessage, wincrypt/CryptDecodeMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

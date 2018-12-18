@@ -9,8 +9,6 @@ ms.assetid: a07fc1e0-6f06-4336-b33c-d4d6a838b609
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFreeServerOcspResponseContext, CertFreeServerOcspResponseContext function [Security], security.certfreeserverocspresponsecontext, wincrypt/CertFreeServerOcspResponseContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

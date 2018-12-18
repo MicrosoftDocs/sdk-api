@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt4(const XMINT4)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadSInt4, XMLoadSInt4, XMLoadSInt4 method [DirectX Math Support APIs], dxmath.xmloadsint4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -60,7 +58,7 @@ Loads signed integer data into an <a href="https://msdn.microsoft.com/1a044094-4
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> structure containing the data to load. 
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> structure containing the data to load. 
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionNormalize(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionNormalize, XMQuaternionNormalize, XMQuaternionNormalize method [DirectX Math Support APIs], dxmath.xmquaternionnormalize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -94,7 +92,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/fabc66dc-2930-4ef3-b202-13436176d5a5">XMQuaternionNormalizeEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420169(v=VS.85).aspx">XMQuaternionNormalizeEst</a>
  
 
  

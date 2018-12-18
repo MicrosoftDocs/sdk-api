@@ -9,8 +9,6 @@ ms.assetid: 57051571-4871-46dd-8319-9c9f29890603
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsVarTypeNumber, IsVarTypeNumber function [Windows Properties], _shell_IsVarTypeNumber, properties.IsVarTypeNumber, propvarutil/IsVarTypeNumber, shell.IsVarTypeNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Specifies whether <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a number.
+Specifies whether <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a number.
 
 
 ## -parameters
@@ -60,9 +58,9 @@ Specifies whether <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=V
 
 ### -param vt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a></b>
+Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a></b>
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> being queried.
+Specifies the <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> being queried.
 
 
 ## -returns
@@ -71,7 +69,7 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> is a number.
+Returns <b>TRUE</b> if <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> is a number.
 
 
 

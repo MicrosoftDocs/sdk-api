@@ -9,8 +9,6 @@ ms.assetid: f0aa84fa-f2a6-4494-8994-89854565fd7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],RestartWdsTransportServices method, IWdsTransportConfigurationManager.RestartWdsTransportServices, IWdsTransportConfigurationManager::RestartWdsTransportServices, RestartWdsTransportServices, RestartWdsTransportServices method [Windows Deployment Services], RestartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_restartwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

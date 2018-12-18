@@ -9,8 +9,6 @@ ms.assetid: 6aec07e1-57b9-4350-a48f-762fcf370d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],WriteFailure method, IMSVidStreamBufferSinkEvent.WriteFailure, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -80,7 +78,7 @@ Returns S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/e828d3e0-5a2a-499a-a718-11aa76a01b1b">IMSVidStreamBufferSinkEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694646(v=VS.85).aspx">IMSVidStreamBufferSinkEvent Interface</a>
  
 
  

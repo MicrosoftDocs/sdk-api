@@ -9,8 +9,6 @@ ms.assetid: c0b205d3-b36a-4ad5-9d4a-f9d8a1ab7701
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentKeyboardShortcut property [Windows Accessibility], CurrentKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, get_CurrentKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

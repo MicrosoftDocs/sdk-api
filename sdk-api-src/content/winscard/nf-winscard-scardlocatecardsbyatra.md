@@ -9,8 +9,6 @@ ms.assetid: 6c4a644c-033f-4654-b96d-0379e9ac0bb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], SCardLocateCardsByATRA, SCardLocateCardsByATRW, _smart_scardlocatecardsbyatr, security.scardlocatecardsbyatr, winscard/SCardLocateCardsByATR, winscard/SCardLocateCardsByATRA, winscard/SCardLocateCardsByATRW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 
@@ -79,7 +77,7 @@ Number of elements in the <i>rgAtrMasks</i> array.
 
 ### -param rgReaderStates [in, out]
 
-Array of <a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structures that specify the readers to search, and receive the result.
+Array of <a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structures that specify the readers to search, and receive the result.
 
 
 ### -param cReaders [in]

@@ -9,8 +9,6 @@ ms.assetid: 7024aa3e-d227-4c22-8259-6299e9205f53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capSetCallbackOnStatus, capSetCallbackOnStatus, capSetCallbackOnStatus macro [Windows Multimedia], multimedia.capsetcallbackonstatus, vfw/capSetCallbackOnStatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

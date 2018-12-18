@@ -9,8 +9,6 @@ ms.assetid: 781b2868-c8e2-4d92-98f2-c2950fac3d9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCredentialFlags, GetCredentialFlags method [windows Media Format], GetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, IWMSInternalAdminNetSource interface [windows Media Format],GetCredentialFlags method, IWMSInternalAdminNetSource.GetCredentialFlags, IWMSInternalAdminNetSource::GetCredentialFlags, IWMSInternalAdminNetSourceGetCredentialFlags, wmformat.iwmsinternaladminnetsource_getcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentialFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>GetCredentialFlags</b> method can be used in conjunction with <a href="https://msdn.microsoft.com/af6208b3-84f6-44d1-9587-140044f2b2f0">IWMSInternalAdminNetSource::SetCredentialFlags</a> to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
+The <b>GetCredentialFlags</b> method can be used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentialFlags</a> to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
 
 
 
@@ -83,15 +81,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4d6bcc3-a32b-4270-8b43-f3b6a5046fd6">IWMSInternalAdminNetSource::GetCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798539(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/af6208b3-84f6-44d1-9587-140044f2b2f0">IWMSInternalAdminNetSource::SetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798541(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentialFlags</a>
  
 
  

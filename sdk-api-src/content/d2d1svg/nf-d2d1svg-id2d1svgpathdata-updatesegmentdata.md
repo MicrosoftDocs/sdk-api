@@ -9,8 +9,6 @@ ms.assetid: 3B87B002-7F1C-4531-B584-C0CFC8E46256
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateSegmentData method, ID2D1SvgPathData.UpdateSegmentData, ID2D1SvgPathData::UpdateSegmentData, UpdateSegmentData, UpdateSegmentData method [Direct2D], UpdateSegmentData method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::UpdateSegmentData, direct2d.id2d1svgpathdata_updatesegmentdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -84,7 +82,7 @@ The index at which to begin updating segment data. Must be less than or equal to
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

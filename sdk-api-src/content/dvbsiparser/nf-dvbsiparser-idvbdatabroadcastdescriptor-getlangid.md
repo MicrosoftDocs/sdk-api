@@ -9,8 +9,6 @@ ms.assetid: 56fc47d6-042e-48ad-a0b8-39646453a6af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLangID, GetLangID method [Microsoft TV Technologies], GetLangID method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetLangID method, IDvbDataBroadcastDescriptor.GetLangID, IDvbDataBroadcastDescriptor::GetLangID, dvbsiparser/IDvbDataBroadcastDescriptor::GetLangID, mstv.idvbdatabroadcastdescriptor_getlangid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

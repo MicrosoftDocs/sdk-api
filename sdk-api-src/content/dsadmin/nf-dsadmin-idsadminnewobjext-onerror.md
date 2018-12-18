@@ -9,8 +9,6 @@ ms.assetid: d1bb1eb6-db96-4322-8beb-0b9a3c6b0318
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSA_NEWOBJ_CTX_CLEANUP, DSA_NEWOBJ_CTX_COMMIT, DSA_NEWOBJ_CTX_POSTCOMMIT, DSA_NEWOBJ_CTX_PRECOMMIT, IDsAdminNewObjExt interface [Active Directory],OnError method, IDsAdminNewObjExt.OnError, IDsAdminNewObjExt::OnError, OnError, OnError method [Active Directory], OnError method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_onerror, ad.idsadminnewobjext__onerror, ad.idsadminnewobjext_onerror, dsadmin/IDsAdminNewObjExt::OnError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0d59b778-c8bc-4ccc-bca2-013c2345814f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_TOT.GetTableDescriptorByIndex, IDVB_TOT::GetTableDescriptorByIndex, IDVB_TOTGetTableDescriptorByIndex, dvbsiparser/IDVB_TOT::GetTableDescriptorByIndex, mstv.idvb_tot_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 
@@ -71,7 +69,7 @@ Specifies which descriptor to retrieve, indexed from zero. Call the <a href="htt
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

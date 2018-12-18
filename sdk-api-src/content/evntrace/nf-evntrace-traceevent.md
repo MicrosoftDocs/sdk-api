@@ -9,8 +9,6 @@ ms.assetid: 9b21f6f0-dd9b-4f9c-a879-846901a3bab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceEvent, TraceEvent function [ETW], _evt_traceevent, base.traceevent, etw.traceevent, evntrace/TraceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

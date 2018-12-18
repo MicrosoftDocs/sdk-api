@@ -9,8 +9,6 @@ ms.assetid: 24e0872b-c408-4be4-a01d-4a1caa71f9b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetServiceEnum, NetServiceEnum function [Network Management], _win32_netserviceenum, lmsvc/NetServiceEnum, netmgmt.netserviceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmsvc.h
 req.include-header: 

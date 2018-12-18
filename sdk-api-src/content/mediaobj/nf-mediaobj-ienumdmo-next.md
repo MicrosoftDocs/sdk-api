@@ -9,8 +9,6 @@ ms.assetid: 5094f2d3-caa7-4085-aebe-306a7b05b591
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO interface [DirectShow],Next method, IEnumDMO.Next, IEnumDMO::Next, IEnumDMONext, Next, Next method [DirectShow], Next method [DirectShow],IEnumDMO interface, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -172,7 +170,7 @@ The caller must free the memory allocated for each string returned in the <i>Nam
 
 
 
-<a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO Interface</a>
  
 
  

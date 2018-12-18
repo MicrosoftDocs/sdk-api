@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\removeacc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountSet interface [Fax Service],RemoveAccount method, IFaxAccountSet.RemoveAccount, IFaxAccountSet::RemoveAccount, RemoveAccount, RemoveAccount method [Fax Service], RemoveAccount method [Fax Service],IFaxAccountSet interface, _mfax_faxaccountset.removeaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_removeaccount_cpp, fax._mfax_faxaccountset_removeaccount, faxcomex/IFaxAccountSet::RemoveAccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -91,11 +89,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ae298925-c428-420e-a0a2-ce3f72c5cff4">FaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4733772-92cb-4f4a-8a73-da1812356c30">IFaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a>
  
 
  

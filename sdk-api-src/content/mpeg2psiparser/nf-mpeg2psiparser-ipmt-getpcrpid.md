@@ -9,8 +9,6 @@ ms.assetid: 0099e5b3-d573-47b9-9581-fbb9fee3ca16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPcrPid, GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetPcrPid method, IPMT.GetPcrPid, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

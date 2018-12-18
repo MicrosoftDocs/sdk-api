@@ -9,8 +9,6 @@ ms.assetid: a9e832ea-5761-4c5d-839e-9d4db2c551c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextRange_AddToSelection, TextRange_AddToSelection function [Windows Accessibility], uiauto.uiauto_TextRange_AddToSelectionConPat, uiauto_TextRange_AddToSelectionConPat, uiautomationcoreapi/TextRange_AddToSelection, winauto.uiauto_TextRange_AddToSelectionConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

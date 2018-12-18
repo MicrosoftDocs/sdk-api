@@ -9,8 +9,6 @@ ms.assetid: 5617304f-30ed-4072-a0d7-28463ef90a10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxSpeedFactor, GetMaxSpeedFactor method [windows Media Format], GetMaxSpeedFactor method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetMaxSpeedFactor method, IWMReaderAdvanced4.GetMaxSpeedFactor, IWMReaderAdvanced4::GetMaxSpeedFactor, IWMReaderAdvanced4GetMaxSpeedFactor, wmformat.iwmreaderadvanced4_getmaxspeedfactor, wmsdkidl/IWMReaderAdvanced4::GetMaxSpeedFactor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,11 +120,11 @@ If the server is using Fast Cache streaming, this method returns 1.0. For local 
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/29d8d12c-db4c-4c2c-8747-30c8a5577f43">IWMReaderAdvanced4::IsUsingFastCache</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757458(v=VS.85).aspx">IWMReaderAdvanced4::IsUsingFastCache</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b322a6a2-edf6-428e-8477-2fcd08e70aa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateWMAEncoderActivate, MFCreateWMAEncoderActivate function [Media Foundation], b322a6a2-edf6-428e-8477-2fcd08e70aa2, mf.mfcreatewmaencoderactivate, wmcontainer/MFCreateWMAEncoderActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5F312914-03F6-42E0-80F9-761D854A81A3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScaleFactorForDevice, GetScaleFactorForDevice function [Windows Shell], shell.getscalefactorfordevice, shellscalingapi/GetScaleFactorForDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 
@@ -64,7 +62,7 @@ Gets the preferred scale factor for a display device.
 
 ### -param deviceType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a></b>
 
 The value that indicates the type of the display device.
 
@@ -75,7 +73,7 @@ The value that indicates the type of the display device.
 
 Type: <b><a href="https://msdn.microsoft.com/DB42E7D5-4E42-4b78-89F8-0B76320E2C5F">DEVICE_SCALE_FACTOR</a></b>
 
-A value that indicates the scale factor that should be used with the specified <a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a>.
+A value that indicates the scale factor that should be used with the specified <a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a>.
 
 <table>
 <tr>

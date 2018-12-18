@@ -9,8 +9,6 @@ ms.assetid: DAFDAF7C-BBE2-41AA-9E44-C1BD28CE03FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamLumaKey method, ID3D11VideoContext.VideoProcessorSetStreamLumaKey, ID3D11VideoContext::VideoProcessorSetStreamLumaKey, VideoProcessorSetStreamLumaKey, VideoProcessorSetStreamLumaKey method [Media Foundation], VideoProcessorSetStreamLumaKey method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamLumaKey, mf.id3d11videocontext_videoprocessorsetstreamlumakey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
@@ -60,12 +58,12 @@ Sets the luma key for an input stream on the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/en-us/library/Hh447788(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://msdn.microsoft.com/5A5FB7F9-F299-4E67-AFAD-E7056CBAEE76">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 
 ### -param Enable [in]
@@ -96,7 +94,7 @@ This method does not return a value.
 
 
 
-To use this feature, the driver must support luma keying, indicated by the <b>D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY</b> capability flag. To query for this capability, call <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>. In addition, if the input format is RGB, the device must support the <b>D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY</b> capability.
+To use this feature, the driver must support luma keying, indicated by the <b>D3D11_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY</b> capability flag. To query for this capability, call <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>. In addition, if the input format is RGB, the device must support the <b>D3D11_VIDEO_PROCESSOR_FORMAT_CAPS_RGB_LUMA_KEY</b> capability.
 
 The values of <i>Lower</i> and <i>Upper</i> give the lower and upper bounds of the luma key, using a nominal range of [0...1]. Given a format with <i>n</i> bits per channel, these values are converted to luma values as follows:
 
@@ -118,7 +116,7 @@ Note that the value is clamped to the range [0...1] before multiplying by 255.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a>
+<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
  
 
  

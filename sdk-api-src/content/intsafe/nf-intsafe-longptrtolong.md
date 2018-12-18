@@ -9,8 +9,6 @@ ms.assetid: e57140d5-bd92-48e3-8e3a-a112559e3e0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LongPtrToLong, LongPtrToLong function [Windows Shell], SSIZETToLong, _shell_LongPtrToLong, intsafe/LongPtrToLong, shell.LongPtrToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

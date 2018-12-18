@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixoledb_6yp9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DBCOMMANDOPENUM, DBCOMMANDOPENUM enumeration [Indexing Service], See below., _idxs_DBCOMMANDOPENUM, cmdtree/DBCOMMANDOPENUM, cmdtree/See below., indexsrv.dbcommandopenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cmdtree.h
 req.include-header: 

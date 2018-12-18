@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\ique
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

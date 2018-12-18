@@ -9,8 +9,6 @@ ms.assetid: 9639353D-EA3B-4ABD-A4DE-405B18218801
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ImageSource interface [Direct2D],TryReclaimResources method, ID2D1ImageSource.TryReclaimResources, ID2D1ImageSource::TryReclaimResources, TryReclaimResources, TryReclaimResources method [Direct2D], TryReclaimResources method [Direct2D],ID2D1ImageSource interface, d2d1_3/ID2D1ImageSource::TryReclaimResources, direct2d.id2d1imagesource_tryreclaimresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -72,7 +70,7 @@ Returns with TRUE if the corresponding resource’s content was discarded and is
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 <b>ReclaimResources</b> returns:
 

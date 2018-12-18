@@ -9,8 +9,6 @@ ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

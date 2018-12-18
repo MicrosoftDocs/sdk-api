@@ -9,8 +9,6 @@ ms.assetid: be04c9f7-397f-468e-91c0-3b11c68b489f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],SetPrimitiveBlend method, ID2D1DeviceContext.SetPrimitiveBlend, ID2D1DeviceContext::SetPrimitiveBlend, SetPrimitiveBlend, SetPrimitiveBlend method [Direct2D], SetPrimitiveBlend method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::SetPrimitiveBlend, direct2d.id2d1devicecontext_setprimitiveblend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

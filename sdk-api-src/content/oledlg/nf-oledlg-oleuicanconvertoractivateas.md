@@ -9,8 +9,6 @@ ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

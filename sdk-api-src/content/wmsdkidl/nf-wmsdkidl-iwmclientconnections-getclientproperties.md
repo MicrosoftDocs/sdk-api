@@ -9,8 +9,6 @@ ms.assetid: a05d7d1e-21dc-4e2a-a17b-5f04e639b143
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClientProperties, GetClientProperties method [windows Media Format], GetClientProperties method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientProperties method, IWMClientConnections.GetClientProperties, IWMClientConnections::GetClientProperties, IWMClientConnectionsGetClientProperties, wmformat.iwmclientconnections_getclientproperties, wmsdkidl/IWMClientConnections::GetClientProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>GetClientProperties</b> method retrieves information, including the IP ad
 
 ### -param pClientProperties [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/62a5bafd-cc49-4a60-be03-038920e5b073">WM_CLIENT_PROPERTIES</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure.
 
 
 ## -returns
@@ -144,7 +142,7 @@ Failed to get client information for unspecified reason.
 
 
 
-<a href="https://msdn.microsoft.com/fea7cd85-22ab-4f3b-8a0a-301496f0c788">IWMClientConnections Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743303(v=VS.85).aspx">IWMClientConnections Interface</a>
  
 
  

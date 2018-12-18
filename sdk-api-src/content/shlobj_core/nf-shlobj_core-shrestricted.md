@@ -9,8 +9,6 @@ ms.assetid: 94adf343-3879-455a-9770-70460cf383ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRestricted, SHRestricted function [Windows Shell], _win32_SHRestricted, shell.SHRestricted, shlobj_core/SHRestricted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,6 @@ ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BG_JOB_DISABLE_BRANCH_CACHE, BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, IBackgroundCopyJob4 interface [BITS],SetPeerCachingFlags method, IBackgroundCopyJob4.SetPeerCachingFlags, IBackgroundCopyJob4::SetPeerCachingFlags, SetPeerCachingFlags, SetPeerCachingFlags method [BITS], SetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setpeercachingflags, bits3_0/IBackgroundCopyJob4::SetPeerCachingFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -77,7 +75,7 @@ Flags that determine if the files of the job can be cached and served to peers a
 <td width="60%">
 The job can download content from peers.
 
-The job will not download from a peer unless both the client computer and the job allow Background Intelligent Transfer Service (BITS) to download files from a peer. To enable the client computer to download files from a peer, set the <a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">EnablePeerCaching</a> group policy or call the <a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method and set the BG_ENABLE_PEERCACHING_CLIENT flag.
+The job will not download from a peer unless both the client computer and the job allow Background Intelligent Transfer Service (BITS) to download files from a peer. To enable the client computer to download files from a peer, set the <a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">EnablePeerCaching</a> group policy or call the <a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method and set the BG_ENABLE_PEERCACHING_CLIENT flag.
 
 If one of the following conditions exists, BITS will stop the download and reschedule the job to begin transferring from either a peer or the origin server, depending on the value for the job and the cache:<ul>
 <li>This value for the cache is <b>TRUE</b> and the value for the job toggles between <b>TRUE</b> and <b>FALSE</b>.</li>
@@ -97,7 +95,7 @@ If one of the following conditions exists, BITS will stop the download and resch
 <td width="60%">
 The files of the job can be cached and served to peers.
 
-BITS will not cache the files and serve them to peers unless both the client computer and job allow BITS to cache and serve the files. To allow BITS to cache and serve the files on the client computer, set the <a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">EnablePeerCaching</a> group policy or call the <a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method and set the BG_ENABLE_PEERCACHING_SERVER flag.<b>BITS 4.0:  </b>This flag is deprecated.
+BITS will not cache the files and serve them to peers unless both the client computer and job allow BITS to cache and serve the files. To allow BITS to cache and serve the files on the client computer, set the <a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">EnablePeerCaching</a> group policy or call the <a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a> method and set the BG_ENABLE_PEERCACHING_SERVER flag.<b>BITS 4.0:  </b>This flag is deprecated.
 
 
 
@@ -150,7 +148,7 @@ Success
 
 
 
-Setting these flags has meaning only if the peer caching has been enabled by either setting the  <a href="https://msdn.microsoft.com/en-us/library/Aa362844(v=VS.85).aspx">EnablePeerCaching</a> group policy or calling the <a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a>.
+Setting these flags has meaning only if the peer caching has been enabled by either setting the  <a href="https://msdn.microsoft.com/32c7e2b1-bac2-4708-a30c-f6b2a816c1a4">EnablePeerCaching</a> group policy or calling the <a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a>.
 
 
 
@@ -160,15 +158,15 @@ Setting these flags has meaning only if the peer caching has been enabled by eit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362995(v=VS.85).aspx">IBackgroundCopyJob4</a>
+<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964247(v=VS.85).aspx">IBackgroundCopyJob4::GetPeerCachingFlags</a>
+<a href="https://msdn.microsoft.com/1b9cdd81-91e8-4d24-a451-61bed51289d4">IBackgroundCopyJob4::GetPeerCachingFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964288(v=VS.85).aspx">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
+<a href="https://msdn.microsoft.com/1ede7c58-bc6d-4930-bca6-e4f26f97c648">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
  
 
  

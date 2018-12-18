@@ -9,8 +9,6 @@ ms.assetid: 8C24DE03-CF1E-4DC4-8C27-913DAD278579
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],Commit method, IDCompositionDevice2.Commit, IDCompositionDevice2::Commit, dcomp/IDCompositionDevice2::Commit, directcomp.idcompositiondevice2_commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -96,7 +94,7 @@ An application that uses multiple devices must call
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
  
 
  

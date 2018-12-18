@@ -9,8 +9,6 @@ ms.assetid: db5d59a2-ab46-42f1-9637-6b342795c9f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress.Status, IGPMAsyncProgress::Status, Status, Status method [GPMC], Status method [GPMC],IGPMAsyncProgress interface, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

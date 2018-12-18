@@ -9,8 +9,6 @@ ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOutputDevice method, IWMPAudioRenderConfig.put_audioOutputDevice, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmprealestate.h
 req.include-header: 
@@ -113,7 +111,7 @@ This method validates that the endpoint specified in <i>bstrOutputDevice</i> is 
 
 
 
-<a href="https://msdn.microsoft.com/743dae18-985a-405a-8025-ead54e06a4ea">IWMPAudioRenderConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563077(v=VS.85).aspx">IWMPAudioRenderConfig</a>
  
 
  

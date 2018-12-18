@@ -9,8 +9,6 @@ ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volume method, IMSVidAudioRenderer.get_Volume, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -88,7 +86,7 @@ Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent d
 
 
 
-<a href="https://msdn.microsoft.com/3258da5a-ab44-4c8a-813b-79a0c28693a3">IBasicAudio::get_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389535(v=VS.85).aspx">IBasicAudio::get_Volume</a>
 
 
 
@@ -96,7 +94,7 @@ Full volume is 0 and silence is –10,000. Divide by 100 to get the equivalent d
 
 
 
-<a href="https://msdn.microsoft.com/a0fa96bb-a903-41e1-bd2a-6ef1733adbd4">IMSVidAudioRenderer::put_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694465(v=VS.85).aspx">IMSVidAudioRenderer::put_Volume</a>
  
 
  

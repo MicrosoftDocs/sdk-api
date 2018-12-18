@@ -9,8 +9,6 @@ ms.assetid: 9CD2AEAE-E960-450F-824B-ED9FD32FB210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateContentDecryptorContext, MFCreateContentDecryptorContext function [Media Foundation], mf.mfcreatecontentdecryptorcontext, mfidl/MFCreateContentDecryptorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

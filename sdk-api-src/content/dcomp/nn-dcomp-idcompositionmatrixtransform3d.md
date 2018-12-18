@@ -9,8 +9,6 @@ ms.assetid: 56C9A564-2504-4940-B850-D280C8E0CF82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionMatrixTransform3D, IDCompositionMatrixTransform3D interface [DirectComposition], IDCompositionMatrixTransform3D interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform3D, directcomp.idcompositionmatrixtransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -72,7 +70,7 @@ The <b>IDCompositionMatrixTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0F1DBC1C-154A-4785-B9B9-924353FD5836">SetMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437426(v=VS.85).aspx">SetMatrix</a>
 </td>
 <td align="left" width="63%">
 Changes all values of the matrix of this 3D transformation effect.

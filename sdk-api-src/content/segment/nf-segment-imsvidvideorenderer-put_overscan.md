@@ -9,8 +9,6 @@ ms.assetid: 141df99b-4fc7-439c-953e-1fa1c544258e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_OverScan method, IMSVidVideoRenderer.put_OverScan, IMSVidVideoRenderer::put_OverScan, IMSVidVideoRendererput_OverScan, mstv.imsvidvideorenderer_put_overscan, put_OverScan, put_OverScan method [Microsoft TV Technologies], put_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_OverScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the video image by the specified amount. For more information, see <a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">IMSVidVideoRenderer::put_SourceSize</a>.
+If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the video image by the specified amount. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">IMSVidVideoRenderer::put_SourceSize</a>.
 
 
 
@@ -90,7 +88,7 @@ If the current clipping mode is <b>sslClipByOverScan</b>, the VMR clips the vide
 
 
 
-<a href="https://msdn.microsoft.com/2c4946e6-b25c-4e6a-b640-73982c0da871">IMSVidVideoRenderer::get_OverScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694742(v=VS.85).aspx">IMSVidVideoRenderer::get_OverScan</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 84407961-5d79-4845-a81a-283b3689e562
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_label method, IWMPCdromBurn.put_label, IWMPCdromBurn::put_label, IWMPCdromBurnput_label, put_label, put_label method [Windows Media Player], put_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_label, wmp/IWMPCdromBurn::put_label
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ Due to the way CD labels are stored, the label of the CD may be shorter than the
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/89197e65-036c-4ffb-8b08-4ab8c194f92f">IWMPCdromBurn::get_label</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563088(v=VS.85).aspx">IWMPCdromBurn::get_label</a>
  
 
  

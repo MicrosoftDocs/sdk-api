@@ -9,8 +9,6 @@ ms.assetid: 4ab42348-0fd2-418f-a2e6-db478d3a3e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ACMFORMATTAGENUMCB, ACMFORMATTAGENUMCB callback, ACMFORMATTAGENUMCB callback function [Windows Multimedia], ACMFORMATTAGENUMCBA, ACMFORMATTAGENUMCBW, _win32_acmFormatTagEnumCallback, acmFormatTagEnumCallback, msacm/ACMFORMATTAGENUMCB, msacm/ACMFORMATTAGENUMCBA, msacm/ACMFORMATTAGENUMCBW, multimedia.acmformattagenumcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 

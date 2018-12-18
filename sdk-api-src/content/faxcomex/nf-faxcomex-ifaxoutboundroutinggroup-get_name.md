@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_0s6d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingGroup interface [Fax Service],Name property, IFaxOutboundRoutingGroup.Name, IFaxOutboundRoutingGroup.get_Name, IFaxOutboundRoutingGroup::Name, IFaxOutboundRoutingGroup::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxOutboundRoutingGroup interface, _mfax_faxoutboundroutinggroup.name, fax._mfax_faxoutboundroutinggroup_cpp_mfax_faxoutboundroutinggroup_name_cpp, fax._mfax_faxoutboundroutinggroup_name, faxcomex/IFaxOutboundRoutingGroup::Name, faxcomex/IFaxOutboundRoutingGroup::get_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/894a58b7-3a5f-4723-abcb-764567e49e76">FaxOutboundRoutingGroup</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689098(v=VS.85).aspx">FaxOutboundRoutingGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05df3b-c56b-4dfc-a0ee-7f1c2861e9ae">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693408(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

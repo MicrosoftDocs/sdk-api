@@ -9,8 +9,6 @@ ms.assetid: 09BBABC1-0644-473E-A751-C84437941A2B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],InsertChildBefore method, ID2D1SvgElement.InsertChildBefore, ID2D1SvgElement::InsertChildBefore, InsertChildBefore, InsertChildBefore method [Direct2D], InsertChildBefore method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::InsertChildBefore, direct2d.id2d1svgelement_insertchildbefore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -82,7 +80,7 @@ The element that the child should be inserted before.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. Returns an error if this element cannot accept children
             of the type of newChild. Returns an error if the newChild is an ancestor of this

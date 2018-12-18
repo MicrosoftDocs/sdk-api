@@ -9,8 +9,6 @@ ms.assetid: 4f01763d-22a2-4ee4-a559-f875cb06ea6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPIAddress, MAPIAddress callback, MAPIAddress callback function, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiaddress, mapi/MAPIAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -92,7 +90,7 @@ The number of entries in the array indicated by the <i>lpRecips</i> parameter.  
 
 ### -param lpRecips [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structures defining the initial recipient entries to be used to populate the address-list dialog box. The entries do not need to be grouped by recipient class; they are differentiated by the values of the <b>ulRecipClass</b> members of the <b>MapiRecipDesc</b> structures in the array. If the number of different recipient classes is greater than the value indicated by the <i>nEditFields</i> parameter, the <i>nEditFields</i> and <i>lpszLabels</i> parameters are ignored.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structures defining the initial recipient entries to be used to populate the address-list dialog box. The entries do not need to be grouped by recipient class; they are differentiated by the values of the <b>ulRecipClass</b> members of the <b>MapiRecipDesc</b> structures in the array. If the number of different recipient classes is greater than the value indicated by the <i>nEditFields</i> parameter, the <i>nEditFields</i> and <i>lpszLabels</i> parameters are ignored.
 
 
 ### -param flFlags [in]
@@ -140,7 +138,7 @@ Pointer to the number of entries in the <i>lppNewRecips</i> recipient output arr
 
 ### -param *lppNewRecips [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> structures containing the final list of recipients. This array is allocated by <b>MAPIAddress</b>, cannot be <b>NULL</b>, and must be freed using <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a>, even if there are no new recipients. Recipients are grouped by recipient class in the following order: MAPI_TO, MAPI_CC, MAPI_BCC.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a> structures containing the final list of recipients. This array is allocated by <b>MAPIAddress</b>, cannot be <b>NULL</b>, and must be freed using <a href="https://msdn.microsoft.com/b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed">MAPIFreeBuffer</a>, even if there are no new recipients. Recipients are grouped by recipient class in the following order: MAPI_TO, MAPI_CC, MAPI_BCC.
 
 
 ## -returns
@@ -283,7 +281,7 @@ Before <b>MAPIAddress</b> writes new or changed recipient information, it must a
 
 
 
-<a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296720(v=VS.85).aspx">MapiRecipDesc</a>
 
 
 

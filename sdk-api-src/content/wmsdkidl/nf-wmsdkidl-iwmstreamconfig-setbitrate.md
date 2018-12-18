@@ -9,8 +9,6 @@ ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetBitrate method, IWMStreamConfig.SetBitrate, IWMStreamConfig::SetBitrate, IWMStreamConfigSetBitrate, SetBitrate, SetBitrate method [windows Media Format], SetBitrate method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setbitrate, wmsdkidl/IWMStreamConfig::SetBitrate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -84,7 +82,7 @@ This method always returns S_OK.
 
 The bit rate is the number of bits per second given to the stream in the ASF file, not including any overhead. For compressed bit streams, such as audio or video, a higher bit rate gives higher quality.
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -94,11 +92,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d34bea45-758e-4c4a-928f-229ce6b4241c">IWMStreamConfig::GetBitrate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798558(v=VS.85).aspx">IWMStreamConfig::GetBitrate</a>
  
 
  

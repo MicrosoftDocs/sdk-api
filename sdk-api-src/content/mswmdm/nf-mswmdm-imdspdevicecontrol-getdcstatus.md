@@ -9,8 +9,6 @@ ms.assetid: 6fc51100-3052-4d26-8786-a7b1e9fe0529
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDCStatus, GetDCStatus method [windows Media Device Manager], GetDCStatus method [windows Media Device Manager],IMDSPDeviceControl interface, IMDSPDeviceControl interface [windows Media Device Manager],GetDCStatus method, IMDSPDeviceControl.GetDCStatus, IMDSPDeviceControl::GetDCStatus, IMDSPDeviceControlGetDCStatus, mswmdm/IMDSPDeviceControl::GetDCStatus, wmdm.imdspdevicecontrol_getdcstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b46d342a-7bfc-495a-98d3-e0c93ae4fd59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutShortMsg, midiOutShortMsg, midiOutShortMsg function [Windows Multimedia], mmeapi/midiOutShortMsg, multimedia.midioutshortmsg"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

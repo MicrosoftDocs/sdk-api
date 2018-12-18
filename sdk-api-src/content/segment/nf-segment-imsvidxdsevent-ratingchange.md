@@ -9,8 +9,6 @@ ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -110,7 +108,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/c89f378d-daa6-4e01-a087-6082d368585b">IMSVidXDSEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694770(v=VS.85).aspx">IMSVidXDSEvent Interface</a>
  
 
  

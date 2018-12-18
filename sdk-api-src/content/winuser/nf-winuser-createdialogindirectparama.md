@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDialogIndirectParam, CreateDialogIndirectParam function [Dialog Boxes], CreateDialogIndirectParamA, CreateDialogIndirectParamW, _win32_CreateDialogIndirectParam, _win32_createdialogindirectparam_cpp, dlgbox.createdialogindirectparam, winui._win32_createdialogindirectparam, winuser/CreateDialogIndirectParam, winuser/CreateDialogIndirectParamA, winuser/CreateDialogIndirectParamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

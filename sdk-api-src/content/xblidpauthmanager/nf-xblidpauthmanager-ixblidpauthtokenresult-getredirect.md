@@ -9,8 +9,6 @@ ms.assetid: 4341F176-5C7C-42C1-8C17-FFBA293AFD53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRedirect method, IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

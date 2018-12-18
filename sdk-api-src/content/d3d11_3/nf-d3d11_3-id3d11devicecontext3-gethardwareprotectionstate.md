@@ -9,8 +9,6 @@ ms.assetid: 52D1F2B2-DBC9-4714-A9C5-A0283EA6C5B7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHardwareProtectionState, GetHardwareProtectionState method [Direct3D 11], GetHardwareProtectionState method [Direct3D 11],ID3D11DeviceContext3 interface, ID3D11DeviceContext3 interface [Direct3D 11],GetHardwareProtectionState method, ID3D11DeviceContext3.GetHardwareProtectionState, ID3D11DeviceContext3::GetHardwareProtectionState, d3d11_3/ID3D11DeviceContext3::GetHardwareProtectionState, direct3d11.id3d11devicecontext3_gethardwareprotectionstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn912875(v=VS.85).aspx">ID3D11DeviceContext3</a>
+<a href="https://msdn.microsoft.com/65F462DB-5546-4B23-B438-60067FD60103">ID3D11DeviceContext3</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 72463664-783b-4375-a6ba-43633a82ec7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetString method, IQueryAssociations.GetString, IQueryAssociations::GetString, _win32_IQueryAssociations_GetString, shell.IQueryAssociations_GetString, shlwapi/IQueryAssociations::GetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 
@@ -89,9 +87,9 @@ A flag that can be used to control the search. It can be any combination of the 
 
 ### -param str [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762475(v=VS.85).aspx">ASSOCSTR</a></b>
 
-An <a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a> value that specifies the type of string that is to be returned.
+An <a href="https://msdn.microsoft.com/en-us/library/Bb762475(v=VS.85).aspx">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 
 ### -param pszExtra [in, optional]

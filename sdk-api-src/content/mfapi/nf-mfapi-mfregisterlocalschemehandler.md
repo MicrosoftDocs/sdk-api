@@ -9,8 +9,6 @@ ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

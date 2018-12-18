@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCatalog, GetCatalog method [search], GetCatalog method [search],ISearchManager interface, ISearchManager interface [search],GetCatalog method, ISearchManager.GetCatalog, ISearchManager::GetCatalog, _search_ISearchManager_GetCatalog, search._search_ISearchManager_GetCatalog, searchapi/ISearchManager::GetCatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onserv
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountNotify.OnServerShutDown, OnServerShutDown, OnServerShutDown method [Fax Service], OnServerShutDown method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnServerShutDown method, _IFaxAccountNotify.OnServerShutDown, _IFaxAccountNotify::OnServerShutDown, _mfax_ifaxaccountnotify_onservershutdown, fax._mfax_ifaxaccountnotify_onservershutdown, faxcomex/_IFaxAccountNotify::OnServerShutDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -61,9 +59,9 @@ Called by the fax service when it shuts down.
 
 ### -param pFaxServer
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>*</b>
 
-A <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 ## -returns
@@ -91,11 +89,11 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/10867869-66bb-4e17-a9b3-7e943fe5f510">_IFaxAccountNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359031(v=VS.85).aspx">_IFaxAccountNotify</a>
  
 
  

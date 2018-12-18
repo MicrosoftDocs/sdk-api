@@ -9,8 +9,6 @@ ms.assetid: df9f54cd-b2de-4107-a1c5-d5a07045851e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFile, MapViewOfFile function, _win32_mapviewoffile, base.mapviewoffile, fs.mapviewoffile, winbase/MapViewOfFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
@@ -275,8 +273,8 @@ The exception is related to remote files. Although
     computer only sees its own writes to the page. When the data gets updated on the disk, it is not merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file that is being accessed by the 
-    <a href="base.readfile">ReadFile</a> or 
-    <a href="base.writefile">WriteFile</a> function.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
 
 Do not store pointers in the memory mapped file; store offsets from the base of the file mapping so that the 
     mapping can be used at any address.

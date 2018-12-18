@@ -9,8 +9,6 @@ ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

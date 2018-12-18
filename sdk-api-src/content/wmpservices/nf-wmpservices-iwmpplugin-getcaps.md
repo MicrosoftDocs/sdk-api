@@ -9,8 +9,6 @@ ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetCaps method, IWMPPlugin.GetCaps, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -89,11 +87,11 @@ There are currently two possible [out] values that the plug-in may specify: zero
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f6cad76-7583-4272-88d7-25a121a0c2b9">WMPPlugin_Caps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564882(v=VS.85).aspx">WMPPlugin_Caps</a>
  
 
  

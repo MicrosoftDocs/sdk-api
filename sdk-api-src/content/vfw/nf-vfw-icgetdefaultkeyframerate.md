@@ -9,8 +9,6 @@ ms.assetid: 81ae287a-13e3-4bf0-bdd8-915a81e78d32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

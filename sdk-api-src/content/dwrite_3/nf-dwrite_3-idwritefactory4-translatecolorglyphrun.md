@@ -9,8 +9,6 @@ ms.assetid: D8C38635-8D7B-4C05-87D5-CCDCF31A4070
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFactory4 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory4.TranslateColorGlyphRun, IDWriteFactory4::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory4 interface, directwrite.idwritefactory4_translatecolorglyphrun, dwrite_3/IDWriteFactory4::TranslateColorGlyphRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -112,7 +110,7 @@ Zero-based index of the color palette to use.
 
 ### -param colorLayers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/692CB5FF-3E74-4D3E-B961-E4AF5995A1B2">IDWriteColorGlyphRunEnumerator1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725314(v=VS.85).aspx">IDWriteColorGlyphRunEnumerator1</a>**</b>
 
 If the function succeeds, receives a pointer to an enumerator object that can be used to obtain the color glyph runs.
           If the base run has no color glyphs, then the output pointer is NULL and the method returns DWRITE_E_NOCOLOR.
@@ -122,7 +120,7 @@ If the function succeeds, receives a pointer to an enumerator object that can be
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns DWRITE_E_NOCOLOR if the font has no color information, the glyph run
           does not contain any color glyphs, or the specified color palette index
@@ -147,7 +145,7 @@ Calling <a href="https://msdn.microsoft.com/1D31F807-C3F2-466F-9723-E6F12B13BFA1
 
 
 
-<a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt725315(v=VS.85).aspx">IDWriteFactory4</a>
  
 
  

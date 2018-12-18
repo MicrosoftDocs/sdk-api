@@ -9,8 +9,6 @@ ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

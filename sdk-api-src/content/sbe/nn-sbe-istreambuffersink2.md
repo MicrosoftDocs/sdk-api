@@ -9,8 +9,6 @@ ms.assetid: ae97e1e2-011d-4bb1-ae11-eda401e1d337
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferSink2, IStreamBufferSink2 interface [Microsoft TV Technologies], IStreamBufferSink2 interface [Microsoft TV Technologies],described, IStreamBufferSink2Interface, mstv.istreambuffersink2, sbe/IStreamBufferSink2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

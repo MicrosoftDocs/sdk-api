@@ -9,8 +9,6 @@ ms.assetid: 2cd9610b-aa83-4d0a-a7a9-1d4dab8be331
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code, base.ioctl_storage_get_device_number, winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

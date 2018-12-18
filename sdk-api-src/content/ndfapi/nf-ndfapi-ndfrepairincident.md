@@ -9,8 +9,6 @@ ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfRepairIncident, NdfRepairIncident function [NDF], ndf.ndfrepairincident, ndfapi/NdfRepairIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ce900a2b-765b-46bb-87f4-bf9fe57d1cdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMIndexer2, IWMIndexer2 interface [windows Media Format], IWMIndexer2 interface [windows Media Format],described, IWMIndexer2Interface, wmformat.iwmindexer2, wmsdkidl/IWMIndexer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -60,7 +58,7 @@ This interface is implemented as part of the indexer object. To obtain a pointer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer2</b> interface inherits from <a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer</a>. <b>IWMIndexer2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMIndexer2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer</a>. <b>IWMIndexer2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMIndexer2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86">Configure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798533(v=VS.85).aspx">Configure</a>
 </td>
 <td align="left" width="63%">
 Enables custom configuration of the indexer object.
@@ -93,7 +91,7 @@ The following interface can be obtained by using the QueryInterface method of th
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer</a>
 </td>
 <td>IID_IWMIndexer</td>
 </tr>
@@ -105,7 +103,7 @@ The following interface can be obtained by using the QueryInterface method of th
 
 
 
-<a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
 
 
 

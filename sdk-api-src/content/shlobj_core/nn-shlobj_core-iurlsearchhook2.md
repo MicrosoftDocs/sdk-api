@@ -9,8 +9,6 @@ ms.assetid: 5a17e099-a8b4-454d-8f2e-0a45435902a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IURLSearchHook2, IURLSearchHook2 interface [Windows Shell], IURLSearchHook2 interface [Windows Shell],described, _shell_IURLSearchHook2, shell.IURLSearchHook2, shlobj_core/IURLSearchHook2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj_core.h
 req.include-header: 

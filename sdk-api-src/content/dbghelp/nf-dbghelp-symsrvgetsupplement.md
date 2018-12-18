@@ -9,8 +9,6 @@ ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

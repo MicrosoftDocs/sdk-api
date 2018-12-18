@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorAndInt(XMVECTOR,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorAndInt, XMVectorAndInt, XMVectorAndInt method [DirectX Math Support APIs], dxmath.xmvectorandint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -111,7 +109,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e7c78708-1261-4907-9fbe-3226b587ed57">XMVectorAndCInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420993(v=VS.85).aspx">XMVectorAndCInt</a>
  
 
  

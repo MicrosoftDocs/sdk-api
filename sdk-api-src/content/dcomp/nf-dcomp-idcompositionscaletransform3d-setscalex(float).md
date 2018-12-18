@@ -9,8 +9,6 @@ ms.assetid: 6461C857-AC6E-4F27-9DE2-F1B3E00846D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleX method, IDCompositionScaleTransform3D.SetScaleX, IDCompositionScaleTransform3D.SetScaleX(float), IDCompositionScaleTransform3D::SetScaleX, IDCompositionScaleTransform3D::SetScaleX(float), SetScaleX, SetScaleX method [DirectComposition], SetScaleX method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -95,15 +93,15 @@ If the ScaleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://msdn.microsoft.com/8e59c484-b7c5-446a-a5d6-e00371e2c08a">IDCompositionScaleTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448990(v=VS.85).aspx">IDCompositionScaleTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/90E48F55-B9A3-464D-9FB2-03AA27AA5A08">IDCompositionScaleTransform3D::SetScaleY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449024(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleY</a>
 
 
 
-<a href="https://msdn.microsoft.com/CD00FBB3-246E-45D0-A7F6-5A7F9C37376B">IDCompositionScaleTransform3D::SetScaleZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449030(v=VS.85).aspx">IDCompositionScaleTransform3D::SetScaleZ</a>
  
 
  

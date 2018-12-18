@@ -9,8 +9,6 @@ ms.assetid: 58dfce16-2d7f-4db5-9f84-5dd651d26745
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileTimeToLocalFileTime, FileTimeToLocalFileTime function, _win32_filetimetolocalfiletime, base.filetimetolocalfiletime, fileapi/FileTimeToLocalFileTime, winbase/FileTimeToLocalFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

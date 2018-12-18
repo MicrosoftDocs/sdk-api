@@ -9,8 +9,6 @@ ms.assetid: 00f16e39-557c-4e55-bfbf-49dc0d97ab37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearTable, ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],ClearTable method, IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

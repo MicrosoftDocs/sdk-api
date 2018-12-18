@@ -9,8 +9,6 @@ ms.assetid: 47377c77-f534-4bb0-be57-49bdb109c309
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Stop method, IWMWriterFileSink2.Stop, IWMWriterFileSink2::Stop, IWMWriterFileSink2Stop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_stop, wmsdkidl/IWMWriterFileSink2::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -82,7 +80,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual stop time might not be exactly as specified in <i>cnsStopTime</i>. To increase the precision, call <a href="https://msdn.microsoft.com/c103d205-a568-4206-a66e-5473e16cfa3f">IWMWriterFileSink3::SetControlStream</a>.
+Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual stop time might not be exactly as specified in <i>cnsStopTime</i>. To increase the precision, call <a href="https://msdn.microsoft.com/en-us/library/Dd798758(v=VS.85).aspx">IWMWriterFileSink3::SetControlStream</a>.
 
 
 
@@ -92,15 +90,15 @@ Because of interleaving of streams with slightly different time stamps at any pa
 
 
 
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d1bce07-a165-45cf-95cb-03b57f0cae03">IWMWriterFileSink2::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798744(v=VS.85).aspx">IWMWriterFileSink2::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4bfddbb-9156-42bf-b8d5-424fff9f4b64">IWMWriterFileSink2::Start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798749(v=VS.85).aspx">IWMWriterFileSink2::Start</a>
  
 
  

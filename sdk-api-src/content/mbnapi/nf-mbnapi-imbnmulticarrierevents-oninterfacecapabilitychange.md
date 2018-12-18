@@ -9,8 +9,6 @@ ms.assetid: 5701E0EB-FBDC-4791-97AA-B31F87763854
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityChange method, IMbnMultiCarrierEvents.OnInterfaceCapabilityChange, IMbnMultiCarrierEvents::OnInterfaceCapabilityChange, OnInterfaceCapabilityChange, OnInterfaceCapabilityChange method [Microsoft Broadband Networks], OnInterfaceCapabilityChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oninterfacecapabilitychange, mbnapi/IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 

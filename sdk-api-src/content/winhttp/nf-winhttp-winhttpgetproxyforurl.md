@@ -9,8 +9,6 @@ ms.assetid: d01b101e-a496-4e84-9aec-61afe3920fbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpGetProxyForUrl, WinHttpGetProxyForUrl function [WinHTTP], http.winhttpgetproxyforurl, winhttp/WinHttpGetProxyForUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

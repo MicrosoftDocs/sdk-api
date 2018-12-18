@@ -9,8 +9,6 @@ ms.assetid: a1d66377-fca1-4c9c-ac59-a1417d8ab190
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessageA, GetMessageA method [Text Services Framework], GetMessageA method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageA method, ITfMessagePump.GetMessageA, ITfMessagePump::GetMessageA, _tsf_itfmessagepump_getmessagea_ref, msctf/ITfMessagePump::GetMessageA, tsf.itfmessagepump_getmessagea
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

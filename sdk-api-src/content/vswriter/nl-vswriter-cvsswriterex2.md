@@ -9,8 +9,6 @@ ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriterEx2, CVssWriterEx2 class, CVssWriterEx2 class,described, base.cvsswriterex2, vswriter/CVssWriterEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

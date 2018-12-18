@@ -9,8 +9,6 @@ ms.assetid: 0355f164-f883-4502-bd55-a6d0d60fca4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],RunOnLastDayOfMonth property, IMonthlyTrigger.RunOnLastDayOfMonth, IMonthlyTrigger.get_RunOnLastDayOfMonth, IMonthlyTrigger::RunOnLastDayOfMonth, IMonthlyTrigger::get_RunOnLastDayOfMonth, IMonthlyTrigger::put_RunOnLastDayOfMonth, RunOnLastDayOfMonth property [Task Scheduler], RunOnLastDayOfMonth property [Task Scheduler],IMonthlyTrigger interface, get_RunOnLastDayOfMonth, taskschd.imonthlytrigger_runonlastdayofmonth, taskschd/IMonthlyTrigger::RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::get_RunOnLastDayOfMonth, taskschd/IMonthlyTrigger::put_RunOnLastDayOfMonth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 95e62e9d-39bd-4bf8-ba25-c6a9c7fc515b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleCacheControl interface [COM],OnStop method, IOleCacheControl.OnStop, IOleCacheControl::OnStop, OnStop, OnStop method [COM], OnStop method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onstop, com.iolecachecontrol_onstop, oleidl/IOleCacheControl::OnStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

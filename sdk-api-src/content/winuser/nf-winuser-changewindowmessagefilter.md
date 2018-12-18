@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

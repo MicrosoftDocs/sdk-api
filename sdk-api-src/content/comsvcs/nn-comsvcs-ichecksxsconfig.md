@@ -9,8 +9,6 @@ ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig interface [COM+],described, _cos_ICheckSxsConfig, comsvcs/ICheckSxSConfig, cos.ichecksxsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

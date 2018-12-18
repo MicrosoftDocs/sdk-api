@@ -9,8 +9,6 @@ ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGradientMesh, CreateGradientMesh method [Direct2D], CreateGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateGradientMesh method, ID2D1DeviceContext2.CreateGradientMesh, ID2D1DeviceContext2::CreateGradientMesh, d2d1_3/ID2D1DeviceContext2::CreateGradientMesh, direct2d.id2d1devicecontext2_creategradientmesh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ When this method returns, contains the address of a pointer to the new gradient 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

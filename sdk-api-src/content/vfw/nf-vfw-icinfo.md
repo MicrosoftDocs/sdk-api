@@ -9,8 +9,6 @@ ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -73,7 +71,7 @@ Four-character code identifying a specific compressor or a number between zero a
 
 ### -param lpicinfo
 
-Pointer to a <a href="https://msdn.microsoft.com/5faf7022-6dc8-475c-8f5a-721bc5b6afee">ICINFO</a> structure to return information about the compressor.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd743162(v=VS.85).aspx">ICINFO</a> structure to return information about the compressor.
 
 
 ## -returns

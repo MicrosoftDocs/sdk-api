@@ -9,8 +9,6 @@ ms.assetid: 2e0eebd9-c246-42a7-90a8-d27fff6a2eab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromUInt16Vector, InitPropVariantFromUInt16Vector function [Windows Properties], properties.InitPropVariantFromUInt16Vector, propvarutil/InitPropVariantFromUInt16Vector, shell.InitPropVariantFromUInt16Vector, shell_InitPropVariantFromUInt16Vector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -99,7 +97,7 @@ Creates a VT_VECTOR | VT_UI2 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762310(v=VS.85).aspx">InitPropVariantFromUInt16Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,15 +126,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762309(v=VS.85).aspx">InitPropVariantFromUInt16</a>
+<a href="shell.InitPropVariantFromUInt16">InitPropVariantFromUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762338(v=VS.85).aspx">InitVariantFromUInt16</a>
+<a href="shell.InitVariantFromUInt16">InitVariantFromUInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776566(v=VS.85).aspx">PropVariantToUInt16Vector</a>
+<a href="shell.PropVariantToUInt16Vector">PropVariantToUInt16Vector</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -58,16 +56,16 @@ The methods in <code>IQueueCommand</code> are modeled after the <b>IDispatch::In
 
 When the command is queued, the filter graph manager returns a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd406762(v=VS.85).aspx">IDeferredCommand</a> interface. The application can use this interface to cancel or modify the command.
 
-<div class="alert"><b>Note</b>  The two methods in <code>IQueueCommand</code> refer to stream time and presentation time, respectively. In the context of the Filter Graph Manager, stream time and presentation time are identical, so there is no functional difference between the two methods. Other objects could implement <code>IQueueCommand</code> differently. For more information about stream time and presentation time, see <a href="https://msdn.microsoft.com/en-us/library/Dd407202(v=VS.85).aspx">Time and Clocks in DirectShow</a>.</div>
+<div class="alert"><b>Note</b>  The two methods in <code>IQueueCommand</code> refer to stream time and presentation time, respectively. In the context of the Filter Graph Manager, stream time and presentation time are identical, so there is no functional difference between the two methods. Other objects could implement <code>IQueueCommand</code> differently. For more information about stream time and presentation time, see <a href="https://msdn.microsoft.com/7d883638-5ddb-48b9-9d0b-104944a151e9">Time and Clocks in DirectShow</a>.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IQueueCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCommand</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

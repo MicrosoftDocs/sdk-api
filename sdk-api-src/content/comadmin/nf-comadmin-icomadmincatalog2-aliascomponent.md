@@ -9,8 +9,6 @@ ms.assetid: 99d43ef5-f117-4307-aa44-f149b4986cda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AliasComponent, AliasComponent method [COM+], AliasComponent method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AliasComponent method, ICOMAdminCatalog2.AliasComponent, ICOMAdminCatalog2::AliasComponent, _cos_icomadmincatalog2_AliasComponent, comadmin/ICOMAdminCatalog2::AliasComponent, cos.icomadmincatalog2_aliascomponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -127,7 +125,7 @@ At least one of the named applications exists in multiple partitions. To avoid t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

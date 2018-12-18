@@ -9,8 +9,6 @@ ms.assetid: a61c629f-4f7b-46f8-bdeb-543523bc2bea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIdentity, GetIdentity method [SMI], GetIdentity method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetIdentity method, ISettingsNamespace.GetIdentity, ISettingsNamespace::GetIdentity, smi.isettingsnamespace_getidentity, wcmconfig/ISettingsNamespace::GetIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

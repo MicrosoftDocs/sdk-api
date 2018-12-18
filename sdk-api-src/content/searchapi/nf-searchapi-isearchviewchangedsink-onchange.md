@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchViewChangedSink interface [search],OnChange method, ISearchViewChangedSink.OnChange, ISearchViewChangedSink::OnChange, OnChange, OnChange method [search], OnChange method [search],ISearchViewChangedSink interface, _search_ISearchViewChangedSink_OnChange, search._search_ISearchViewChangedSink_OnChange, searchapi/ISearchViewChangedSink::OnChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

@@ -9,8 +9,6 @@ ms.assetid: 46831756-ed3b-40de-80ad-21874db283c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputType method, IMediaObjectImpl.OutputType, IMediaObjectImpl::OutputType, IMediaObjectImplOutputType, OutputType, OutputType method [DirectShow], OutputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputType, dshow.imediaobjectimpl_outputtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
@@ -73,7 +71,7 @@ Index of an output stream.
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the type is not set for this stream.
+Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the type is not set for this stream.
 
 
 

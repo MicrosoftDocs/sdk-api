@@ -9,8 +9,6 @@ ms.assetid: 289555d8-2a6e-454f-86bc-48fb2c8ea345
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7665f23b-5b1b-14d0-93b2-1c24ed09a978, ID3D11ShaderResourceView, ID3D11ShaderResourceView interface [Direct3D 11], ID3D11ShaderResourceView interface [Direct3D 11],described, d3d11/ID3D11ShaderResourceView, direct3d11.id3d11shaderresourceview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
@@ -56,9 +54,9 @@ A shader-resource-view interface specifies the subresources a shader can access 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderResourceView</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476642(v=VS.85).aspx">ID3D11View</a>. <b>ID3D11ShaderResourceView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ShaderResourceView</b> interface inherits from <a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a>. <b>ID3D11ShaderResourceView</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +69,7 @@ The <b>ID3D11ShaderResourceView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff476629(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/223bcf9c-a873-498c-af58-d93fe0a7f52c">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the shader resource view's description.
@@ -85,9 +83,9 @@ Get the shader resource view's description.
 
 
 
-To create a shader-resource view, call <a href="https://msdn.microsoft.com/en-us/library/Ff476519(v=VS.85).aspx">ID3D11Device::CreateShaderResourceView</a>.
+To create a shader-resource view, call <a href="https://msdn.microsoft.com/a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8">ID3D11Device::CreateShaderResourceView</a>.
 
-A shader-resource view is required when binding a resource to a shader stage; the binding occurs by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476439(v=VS.85).aspx">ID3D11DeviceContext::GSSetShaderResources</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476494(v=VS.85).aspx">ID3D11DeviceContext::VSSetShaderResources</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476473(v=VS.85).aspx">ID3D11DeviceContext::PSSetShaderResources</a>.
+A shader-resource view is required when binding a resource to a shader stage; the binding occurs by calling <a href="https://msdn.microsoft.com/f08af865-ec0a-4fc7-af59-004b6956be00">ID3D11DeviceContext::GSSetShaderResources</a>, <a href="https://msdn.microsoft.com/f5dbd212-6896-41b1-b61b-f1c1a690a195">ID3D11DeviceContext::VSSetShaderResources</a> or <a href="https://msdn.microsoft.com/acccbde4-68d0-4c76-bf77-643884af1bbe">ID3D11DeviceContext::PSSetShaderResources</a>.
 
 
 
@@ -97,11 +95,11 @@ A shader-resource view is required when binding a resource to a shader stage; th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476642(v=VS.85).aspx">ID3D11View</a>
+<a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476172(v=VS.85).aspx">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/8e40573a-b186-41ec-b2ff-81279d77bd3a">Resource Interfaces</a>
  
 
  

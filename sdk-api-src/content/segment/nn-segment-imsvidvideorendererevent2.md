@@ -9,8 +9,6 @@ ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -70,7 +68,7 @@ The <b>IMSVidVideoRendererEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52571daa-c955-4bd3-bb97-afc480984cdf">OverlayUnavailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694729(v=VS.85).aspx">OverlayUnavailable</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.

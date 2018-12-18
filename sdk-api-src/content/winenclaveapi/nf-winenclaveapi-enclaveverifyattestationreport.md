@@ -9,8 +9,6 @@ ms.assetid: D74F89FB-9F06-4AA1-9E2E-C9265B3C5B44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 

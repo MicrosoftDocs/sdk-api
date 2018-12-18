@@ -9,8 +9,6 @@ ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

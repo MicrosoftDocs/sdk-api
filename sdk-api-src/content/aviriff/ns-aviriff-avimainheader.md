@@ -1,0 +1,220 @@
+---
+UID: NS:aviriff._avimainheader
+title: AVIMAINHEADER
+author: windows-sdk-content
+description: The AVIMAINHEADER structure defines global information in an AVI file.
+old-location: dshow\avimainheader.htm
+tech.root: DirectShow
+ms.assetid: 3b8a326c-ebb2-4fb7-a167-7382d2e78ec2
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: AVIF_COPYRIGHTED, AVIF_HASINDEX, AVIF_ISINTERLEAVED, AVIF_MUSTUSEINDEX, AVIF_WASCAPTUREFILE, AVIMAINHEADER, AVIMAINHEADER structure [DirectShow], AVIMAINHEADERStructure, aviriff/AVIMAINHEADER, dshow.avimainheader
+ms.topic: struct
+req.header: aviriff.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Aviriff.h
+api_name:
+ - AVIMAINHEADER
+product: Windows
+targetos: Windows
+req.typenames: AVIMAINHEADER
+req.redist: 
+---
+
+# AVIMAINHEADER structure
+
+
+## -description
+
+
+The <b>AVIMAINHEADER</b> structure defines global information in an AVI file.
+        
+
+
+## -struct-fields
+
+
+
+
+### -field fcc
+
+Specifies a FOURCC code. The value must be 'avih'.
+          
+
+
+### -field cb
+
+Specifies the size of the structure, not including the initial 8 bytes.
+          
+
+
+### -field dwMicroSecPerFrame
+
+Specifies the number of microseconds between frames. This value indicates the overall timing for the file.
+          
+
+
+### -field dwMaxBytesPerSec
+
+Specifies the approximate maximum data rate of the file. This value indicates the number of bytes per second the system must handle to present an AVI sequence as specified by the other parameters contained in the main header and stream header chunks.
+          
+
+
+### -field dwPaddingGranularity
+
+Specifies the alignment for data, in bytes. Pad the data to multiples of this value.
+          
+
+
+### -field dwFlags
+
+Contains a bitwise combination of zero or more of the following flags:
+          
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="AVIF_COPYRIGHTED"></a><a id="avif_copyrighted"></a><dl>
+<dt><b>AVIF_COPYRIGHTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the AVI file contains copyrighted data and software. When this flag is used, software should not permit the data to be duplicated.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="AVIF_HASINDEX"></a><a id="avif_hasindex"></a><dl>
+<dt><b>AVIF_HASINDEX</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the AVI file has an index.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="AVIF_ISINTERLEAVED"></a><a id="avif_isinterleaved"></a><dl>
+<dt><b>AVIF_ISINTERLEAVED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the AVI file is interleaved.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="AVIF_MUSTUSEINDEX"></a><a id="avif_mustuseindex"></a><dl>
+<dt><b>AVIF_MUSTUSEINDEX</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates that application should use the index, rather than the physical ordering of the chunks in the file, to determine the order of presentation of the data. For example, this flag could be used to create a list of frames for editing.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="AVIF_WASCAPTUREFILE"></a><a id="avif_wascapturefile"></a><dl>
+<dt><b>AVIF_WASCAPTUREFILE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Indicates the AVI file is a specially allocated file used for capturing real-time video. Applications should warn the user before writing over a file with this flag set because the user probably defragmented this file.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field dwTotalFrames
+
+Specifies the total number of frames of data in the file.
+          
+
+
+### -field dwInitialFrames
+
+Specifies the initial frame for interleaved files. Noninterleaved files should specify zero. If you are creating interleaved files, specify the number of frames in the file prior to the initial frame of the AVI sequence in this member.
+
+To give the audio driver enough audio to work with, the audio data in an interleaved file must be skewed from the video data. Typically, the audio data should be moved forward enough frames to allow approximately 0.75 seconds of audio data to be preloaded. The <b>dwInitialRecords</b> member should be set to the number of frames the audio is skewed. Also set the same value for the <b>dwInitialFrames</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd318183(v=VS.85).aspx">AVISTREAMHEADER</a> structure in the audio stream header.
+          
+
+
+### -field dwStreams
+
+Specifies the number of streams in the file. For example, a file with audio and video has two streams.
+          
+
+
+### -field dwSuggestedBufferSize
+
+Specifies the suggested buffer size for reading the file. Generally, this size should be large enough to contain the largest chunk in the file. If set to zero, or if it is too small, the playback software will have to reallocate memory during playback, which will reduce performance. For an interleaved file, the buffer size should be large enough to read an entire record, and not just a chunk.
+          
+
+
+### -field dwWidth
+
+Specifies the width of the AVI file in pixels.
+          
+
+
+### -field dwHeight
+
+Specifies the height of the AVI file in pixels.
+          
+
+
+### -field dwReserved
+
+Reserved. Set this array to zero.
+          
+
+
+## -remarks
+
+
+
+The header file Vfw.h defines a <b>MainAVIHeader</b> structure that is equivalent to this structure, but omits the <b>fcc</b> and <b>cb</b> members.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+
+
+
+<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+ 
+
+ 
+

@@ -9,8 +9,6 @@ ms.assetid: c2f79c5c-4a4f-4a45-ac70-432f818e7b46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_GET_LISTENER_PROPERTY_CALLBACK, WS_GET_LISTENER_PROPERTY_CALLBACK callback, WS_GET_LISTENER_PROPERTY_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_LISTENER_PROPERTY_CALLBACK, wsw.ws_get_listener_property_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/cc4fb48a-8282-471a-aed0-1ca3134f9bd0">WsGetListenerProperty</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

@@ -7,10 +7,8 @@ old-location: nps\SDO_isdo_putproperty.htm
 tech.root: Nps
 ms.assetid: c2e440a7-d58c-4542-bd0b-a06b810edd34
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdo interface [Network Policy Server],PutProperty method, ISdo.PutProperty, ISdo::PutProperty, PutProperty, PutProperty method [Network Policy Server], PutProperty method [Network Policy Server],ISdo interface, _sdo_isdo_putproperty, nps.SDO_isdo_putproperty, sdo.isdo_putproperty, sdoias/ISdo::PutProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

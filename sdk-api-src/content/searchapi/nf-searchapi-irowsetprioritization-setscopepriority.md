@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritiza
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRowsetPrioritization interface [search],SetScopePriority method, IRowsetPrioritization.SetScopePriority, IRowsetPrioritization::SetScopePriority, SetScopePriority, SetScopePriority method [search], SetScopePriority method [search],IRowsetPrioritization interface, _search_IRowsetPrioritization_SetScopePriority, search._search_IRowsetPrioritization_SetScopePriority, searchapi/IRowsetPrioritization::SetScopePriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

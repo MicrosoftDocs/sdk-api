@@ -9,8 +9,6 @@ ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreateInstance method, IFunctionDiscoveryProviderFactory.CreateInstance, IFunctionDiscoveryProviderFactory::CreateInstance, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreateInstance, ncd.ifunctiondiscoveryproviderfactory_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

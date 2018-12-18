@@ -9,8 +9,6 @@ ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetOutputTransform method, IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

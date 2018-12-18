@@ -9,8 +9,6 @@ ms.assetid: F1FCB4E3-E29D-43AB-A438-CB21D0364F67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCOMPOSITION_BACKFACE_VISIBILITY, DCOMPOSITION_BACKFACE_VISIBILITY enumeration [DirectComposition], DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN, DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT, DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_HIDDEN, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_INHERIT, dcomptypes/DCOMPOSITION_BACKFACE_VISIBILITY_VISIBLE, directcomp.dcomposition_backface_visibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: 
@@ -82,7 +80,7 @@ The back face visibility is the same as that of the target visual's parent visua
 
 
 
-<a href="https://msdn.microsoft.com/A488A0B9-3CBE-477A-9688-84A7DA43D7F6">IDCompositionVisual2::SetBackFaceVisibility</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280427(v=VS.85).aspx">IDCompositionVisual2::SetBackFaceVisibility</a>
 
 
 

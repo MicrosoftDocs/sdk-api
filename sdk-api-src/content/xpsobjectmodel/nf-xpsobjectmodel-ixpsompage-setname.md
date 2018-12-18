@@ -9,8 +9,6 @@ ms.assetid: 675e4fd2-e8b9-400f-9042-df5b0bb0b89a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetName method, IXpsOMPage.SetName, IXpsOMPage::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

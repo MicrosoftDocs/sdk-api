@@ -9,8 +9,6 @@ ms.assetid: 84889286-7740-4f4f-b095-1fb999702f9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description property [Security], Description property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Description property, IX509PrivateKey.Description, IX509PrivateKey.get_Description, IX509PrivateKey::Description, IX509PrivateKey::get_Description, IX509PrivateKey::put_Description, certenroll/IX509PrivateKey::Description, certenroll/IX509PrivateKey::get_Description, certenroll/IX509PrivateKey::put_Description, get_Description, security.ix509privatekey_description_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -74,7 +72,7 @@ This property can contain any text and is intended to be displayed in a user int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComResourceEvents.OnResourceTrack, IComResourceEvents::OnResourceTrack, OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

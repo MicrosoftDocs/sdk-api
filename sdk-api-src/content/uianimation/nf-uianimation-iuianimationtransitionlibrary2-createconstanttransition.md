@@ -9,8 +9,6 @@ ms.assetid: CC7315BB-B3EC-4B40-85B9-1AF70ABB5F77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary2.CreateConstantTransition, IUIAnimationTransitionLibrary2::CreateConstantTransition, uianimation.iuianimationtransitionlibrary2_createconstanttransition, uianimation/IUIAnimationTransitionLibrary2::CreateConstantTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

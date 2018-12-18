@@ -9,8 +9,6 @@ ms.assetid: 39ab6179-2828-46dc-bfcd-0dd62c34ce95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterComponentsCount, GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponentsCount method, IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

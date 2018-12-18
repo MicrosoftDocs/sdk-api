@@ -9,8 +9,6 @@ ms.assetid: 8AE55B74-8AC3-4F13-8FEE-7C3C52DEE96F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivatableClassId method, IActivatableClassRegistration.get_ActivatableClassId, IActivatableClassRegistration::get_ActivatableClassId, activationregistration/IActivatableClassRegistration::get_ActivatableClassId, get_ActivatableClassId, get_ActivatableClassId method [Windows Runtime], get_ActivatableClassId method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activatableclassid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 

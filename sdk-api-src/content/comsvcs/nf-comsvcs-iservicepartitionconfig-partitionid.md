@@ -9,8 +9,6 @@ ms.assetid: 40480925-dfb6-40ea-a8ea-72659e359b47
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionID method, IServicePartitionConfig.PartitionID, IServicePartitionConfig::PartitionID, PartitionID, PartitionID method [COM+], PartitionID method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionID, comsvcs/IServicePartitionConfig::PartitionID, cos.iservicepartitionconfig_partitionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

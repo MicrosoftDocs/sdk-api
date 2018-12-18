@@ -9,8 +9,6 @@ ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],isAvailable method, IWMPCdromBurn.isAvailable, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -139,7 +137,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
  
 
  

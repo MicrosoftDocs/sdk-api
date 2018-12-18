@@ -9,8 +9,6 @@ ms.assetid: f3824dee-1169-4f89-9844-35aa8a1830c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathFindFileName, PathFindFileName function [Windows Shell], PathFindFileNameA, PathFindFileNameW, _win32_PathFindFileName, shell.PathFindFileName, shlwapi/PathFindFileName, shlwapi/PathFindFileNameA, shlwapi/PathFindFileNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

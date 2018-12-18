@@ -9,8 +9,6 @@ ms.assetid: F0A37D77-6262-44B1-BEC5-083E41BDE139
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

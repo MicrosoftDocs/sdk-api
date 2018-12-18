@@ -9,8 +9,6 @@ ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCustomPaint method, IMathInputControl.SetCustomPaint, IMathInputControl::SetCustomPaint, SetCustomPaint, SetCustomPaint method [Tablet PC], SetCustomPaint method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCustomPaint, tablet.imathinputcontrol_setcustompaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

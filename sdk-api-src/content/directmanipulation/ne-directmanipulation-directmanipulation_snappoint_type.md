@@ -9,8 +9,6 @@ ms.assetid: 4ba8c216-a5bb-409d-bce8-fc85023b63d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DIRECTMANIPULATION_SNAPPOINT_MANDATORY, DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE, DIRECTMANIPULATION_SNAPPOINT_OPTIONAL, DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE, DIRECTMANIPULATION_SNAPPOINT_TYPE, DIRECTMANIPULATION_SNAPPOINT_TYPE enumeration [Direct Manipulation], directmanipulation.directmanipulation_snappoint_type, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_MANDATORY, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_MANDATORY_SINGLE, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_OPTIONAL, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_OPTIONAL_SINGLE, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

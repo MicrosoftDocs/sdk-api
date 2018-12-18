@@ -9,8 +9,6 @@ ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 

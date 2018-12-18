@@ -9,8 +9,6 @@ ms.assetid: 76cd3b1d-a6ce-4981-b82f-7ee83e118c33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_IrisRelative method, ICameraControl.put_IrisRelative, ICameraControl::put_IrisRelative, ICameraControlput_IrisRelative, dshow.icameracontrol_put_irisrelative, put_IrisRelative, put_IrisRelative method [DirectShow], put_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_IrisRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <code>put_IrisRelative</code> method sets the camera's relative aperture set
 
 ### -param Value [in]
 
-Specifies the relative aperture setting. To get the range of possible values, call <a href="https://msdn.microsoft.com/9816e29b-3366-49e7-aa4c-46b06963c176">ICameraControl::getRange_IrisRelative</a>.
+Specifies the relative aperture setting. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376304(v=VS.85).aspx">ICameraControl::getRange_IrisRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +86,7 @@ Specifies the relative aperture setting. To get the range of possible values, ca
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -109,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3ea1c5c4-bf2e-40f6-bf48-a69900128ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFourCCCodes, GetFourCCCodes method [DirectShow], GetFourCCCodes method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetFourCCCodes method, IDirectDrawVideo.GetFourCCCodes, IDirectDrawVideo::GetFourCCCodes, IDirectDrawVideoGetFourCCCodes, amvideo/IDirectDrawVideo::GetFourCCCodes, dshow.idirectdrawvideo_getfourcccodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -101,7 +99,7 @@ This method retrieves the FOURCC codes that the current display driver can suppo
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

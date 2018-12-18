@@ -9,8 +9,6 @@ ms.assetid: 3ac969fd-72ad-4d4f-b2bb-25e0f4401179
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],Append method, IXpsOMDocumentCollection.Append, IXpsOMDocumentCollection::Append, xps.ixpsomdocumentcollection_append, xpsobjectmodel/IXpsOMDocumentCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

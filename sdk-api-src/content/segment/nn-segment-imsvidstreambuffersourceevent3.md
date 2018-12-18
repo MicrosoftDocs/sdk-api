@@ -9,8 +9,6 @@ ms.assetid: 4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent3, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent3Interface, mstv.imsvidstreambuffersourceevent3, segment/IMSVidStreamBufferSourceEvent3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -63,7 +61,7 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent3</b> interface inherits from <a href="https://msdn.microsoft.com/d601efcf-d15a-4b9a-bad8-f09de80500c6">IMSVidStreamBufferSourceEvent2</a>. <b>IMSVidStreamBufferSourceEvent3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694670(v=VS.85).aspx">IMSVidStreamBufferSourceEvent2</a>. <b>IMSVidStreamBufferSourceEvent3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +76,7 @@ The <b>IMSVidStreamBufferSourceEvent3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05eeb539-3a0a-4a00-abe5-0a014629d186">BroadcastEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694673(v=VS.85).aspx">BroadcastEvent</a>
 </td>
 <td align="left" width="63%">
 Called when the object receives a broadcast event through the <a href="https://msdn.microsoft.com/90d4fbc7-d552-460b-96b2-77e2347af716">IBroadcastEvent</a> interface.
@@ -87,7 +85,7 @@ Called when the object receives a broadcast event through the <a href="https://m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d97bcc0-ae13-436b-b741-2f22eb36f5de">BroadcastEventEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694674(v=VS.85).aspx">BroadcastEventEx</a>
 </td>
 <td align="left" width="63%">
 Called when the object receives a broadcast event through the <a href="https://msdn.microsoft.com/c16ad538-afc6-4530-a2fd-18965b63983b">IBroadcastEventEx</a> interface.
@@ -96,7 +94,7 @@ Called when the object receives a broadcast event through the <a href="https://m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ee38fac-78f8-4130-8d16-db5380e11c5f">ContentPrimarilyAudio</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694675(v=VS.85).aspx">ContentPrimarilyAudio</a>
 </td>
 <td align="left" width="63%">
 Called when the Stream Buffer Engine is processing primarily audio data.
@@ -105,7 +103,7 @@ Called when the Stream Buffer Engine is processing primarily audio data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3da78ea-4694-45a4-9284-d40c08f12fe5">COPPBlocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694676(v=VS.85).aspx">COPPBlocked</a>
 </td>
 <td align="left" width="63%">
 Called when the content is blocked because of the Certified Output Protection Protocol (COPP) status.
@@ -114,7 +112,7 @@ Called when the content is blocked because of the Certified Output Protection Pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e206253e-40af-4b61-8dcb-465a05cfa8f9">COPPUnblocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694677(v=VS.85).aspx">COPPUnblocked</a>
 </td>
 <td align="left" width="63%">
 Called when the content is unblocked after a <b>COPPBlocked</b> event.
@@ -138,7 +136,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/d601efcf-d15a-4b9a-bad8-f09de80500c6">IMSVidStreamBufferSourceEvent2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694670(v=VS.85).aspx">IMSVidStreamBufferSourceEvent2</a>
 
 
 

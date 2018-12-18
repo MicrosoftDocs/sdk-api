@@ -9,8 +9,6 @@ ms.assetid: 59def393-ab3d-41a8-968a-cd22429874a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Balance method, IMSVidAudioRenderer.get_Balance, IMSVidAudioRenderer::get_Balance, IMSVidAudioRendererget_Balance, get_Balance, get_Balance method [Microsoft TV Technologies], get_Balance method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_balance, segment/IMSVidAudioRenderer::get_Balance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -88,7 +86,7 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 
 
-<a href="https://msdn.microsoft.com/bb9796c5-0dd2-496a-b5b4-a6614d7770c1">IBasicAudio::get_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389534(v=VS.85).aspx">IBasicAudio::get_Balance</a>
 
 
 
@@ -96,7 +94,7 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 
 
-<a href="https://msdn.microsoft.com/25a9231a-d34a-4657-be0a-fcc979d1745d">IMSVidAudioRenderer::put_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694464(v=VS.85).aspx">IMSVidAudioRenderer::put_Balance</a>
  
 
  

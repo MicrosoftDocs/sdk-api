@@ -9,8 +9,6 @@ ms.assetid: da52ca6d-9606-45c5-8db9-c876c827df14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Text Services Framework], GetDisplayName method [Text Services Framework],ITfFunction interface, ITfFunction interface [Text Services Framework],GetDisplayName method, ITfFunction.GetDisplayName, ITfFunction::GetDisplayName, _tsf_itffunction_getdisplayname_ref, msctf/ITfFunction::GetDisplayName, tsf.itffunction_getdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

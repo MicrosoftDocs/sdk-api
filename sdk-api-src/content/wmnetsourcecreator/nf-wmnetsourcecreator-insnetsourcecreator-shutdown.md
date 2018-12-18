@@ -9,8 +9,6 @@ ms.assetid: 746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Shutdown method, INSNetSourceCreator.Shutdown, INSNetSourceCreator::Shutdown, INSNetSourceCreatorShutdown, Shutdown, Shutdown method [windows Media Format], Shutdown method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_shutdown, wmnetsourcecreator/INSNetSourceCreator::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmnetsourcecreator.h
 req.include-header: 
@@ -80,11 +78,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/39e692a6-fb68-447f-bd28-8d216776157a">INSNetSourceCreator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743239(v=VS.85).aspx">INSNetSourceCreator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/53c1a15e-3ced-44e5-b512-b381ae11aa65">INSNetSourceCreator::Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743241(v=VS.85).aspx">INSNetSourceCreator::Initialize</a>
  
 
  

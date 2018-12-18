@@ -9,8 +9,6 @@ ms.assetid: fe5c91ce-c53e-4f33-bd67-2f1c10e5cf97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRecognizerContext interface [Tablet PC],PrefixText property, IInkRecognizerContext.PrefixText, IInkRecognizerContext.put_PrefixText, IInkRecognizerContext::PrefixText, IInkRecognizerContext::get_PrefixText, IInkRecognizerContext::put_PrefixText, InkRecognizerContext.get_PrefixText, InkRecognizerContext.put_PrefixText, PrefixText property [Tablet PC], PrefixText property [Tablet PC],IInkRecognizerContext interface, fe5c91ce-c53e-4f33-bd67-2f1c10e5cf97, get_PrefixText, msinkaut/IInkRecognizerContext::PrefixText, msinkaut/IInkRecognizerContext::get_PrefixText, msinkaut/IInkRecognizerContext::put_PrefixText, put_PrefixText, tablet.inkrecognizercontext_prefixtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -92,7 +90,7 @@ If your application provides a correction interface when converting ink to text,
 
 
 
-<a href="https://msdn.microsoft.com/D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

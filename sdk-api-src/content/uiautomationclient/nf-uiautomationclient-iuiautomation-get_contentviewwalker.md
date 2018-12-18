@@ -9,8 +9,6 @@ ms.assetid: f34b7631-1d95-4c2e-b3fc-7600d5b24b15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContentViewWalker property [Windows Accessibility], ContentViewWalker property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewWalker property, IUIAutomation.ContentViewWalker, IUIAutomation.get_ContentViewWalker, IUIAutomation::ContentViewWalker, IUIAutomation::get_ContentViewWalker, get_ContentViewWalker, uiauto.uiauto_IUIAutomation_ContentViewWalker, uiauto_IUIAutomation_ContentViewWalker, uiautomationclient/IUIAutomation::ContentViewWalker, uiautomationclient/IUIAutomation::get_ContentViewWalker, winauto.uiauto_IUIAutomation_ContentViewWalker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

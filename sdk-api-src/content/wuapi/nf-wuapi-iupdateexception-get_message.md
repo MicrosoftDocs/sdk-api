@@ -9,8 +9,6 @@ ms.assetid: 29dc3787-d646-4ebf-9a0e-c4fc42c39846
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateException interface [Windows Update Agent],Message property, IUpdateException.Message, IUpdateException.get_Message, IUpdateException::Message, IUpdateException::get_Message, Message property [Windows Update Agent], Message property [Windows Update Agent],IUpdateException interface, get_Message, wua.iupdateexception_message, wuapi/IUpdateException::Message, wuapi/IUpdateException::get_Message
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

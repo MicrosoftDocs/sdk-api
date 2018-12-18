@@ -9,8 +9,6 @@ ms.assetid: 7c714f97-4f6b-4a8b-904c-3ce0f8057533
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,23 +108,23 @@ For Windows Media-based content, properties and methods related to language sele
 
 
 
-<a href="https://msdn.microsoft.com/ee902912-4f09-4f61-9b81-f4bd50ace892">IWMPControls3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563183(v=VS.85).aspx">IWMPControls3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4530267c-8b43-4778-a396-f365f6dae5f3">IWMPControls3::getAudioLanguageDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563184(v=VS.85).aspx">IWMPControls3::getAudioLanguageDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/50874485-23fc-48cc-9149-7cbc3b8c0c00">IWMPControls3::getAudioLanguageID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563185(v=VS.85).aspx">IWMPControls3::getAudioLanguageID</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbae09f6-be4d-4736-9e02-d5b85b82ae77">IWMPControls3::getLanguageName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563186(v=VS.85).aspx">IWMPControls3::getLanguageName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ea76479-950d-4bbf-a0e9-0e7b4ddecd52">IWMPControls3::get_currentAudioLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563188(v=VS.85).aspx">IWMPControls3::get_currentAudioLanguage</a>
 
 
 

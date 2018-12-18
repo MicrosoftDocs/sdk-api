@@ -9,8 +9,6 @@ ms.assetid: dba55a36-8037-5564-59d8-e01189ff0020
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindFontFaceReference, FindFontFaceReference method [Direct Write], FindFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],FindFontFaceReference method, IDWriteFontSet.FindFontFaceReference, IDWriteFontSet::FindFontFaceReference, directwrite.idwritefontset_findfontfacereference, dwrite_3/IDWriteFontSet::FindFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 
 ### -param fontFaceReference
 
-Type: <b><a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>*</b>
 
 Font face object that specifies the physical font.
 
@@ -95,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
  
 
  

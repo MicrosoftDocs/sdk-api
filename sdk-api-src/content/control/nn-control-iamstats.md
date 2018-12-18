@@ -9,8 +9,6 @@ ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -63,7 +61,7 @@ The <code>IAMStats</code> interface retrieves performance data from the Filter G
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStats</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMStats</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -154,11 +152,11 @@ Each statistic is defined by a name and an index. Use the <b>GetIndex</b> method
 </tr>
 <tr>
 <td>Build Mapper Cache</td>
-<td>Measures the time taken to cache information about registered filters (used by the <a href="https://msdn.microsoft.com/en-us/library/Dd375788(v=VS.85).aspx">Filter Mapper</a> object).</td>
+<td>Measures the time taken to cache information about registered filters (used by the <a href="https://msdn.microsoft.com/cb8f25b3-a0f0-48fa-843f-88a5a5d17019">Filter Mapper</a> object).</td>
 </tr>
 <tr>
 <td>Process Category <i>CategoryName</i></td>
-<td>Measures the time taken to cache information about filters in a particular category, where <i>CategoryName</i> is the friendly name of the filter category. (See <a href="https://msdn.microsoft.com/en-us/library/Dd375655(v=VS.85).aspx">Filter Categories</a>.)</td>
+<td>Measures the time taken to cache information about filters in a particular category, where <i>CategoryName</i> is the friendly name of the filter category. (See <a href="https://msdn.microsoft.com/cab4e2c9-eab9-4836-adfc-870490ca5b6b">Filter Categories</a>.)</td>
 </tr>
 </table>
  

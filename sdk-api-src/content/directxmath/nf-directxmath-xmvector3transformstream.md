@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformStream(XMFL
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3TransformStream, XMVector3TransformStream, XMVector3TransformStream method [DirectX Math Support APIs], dxmath.xmvector3transformstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -60,7 +58,7 @@ Transforms a stream of 3D vectors by a given matrix.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +68,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the stream to be transformed.
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the stream to be transformed.
 
 
 ### -param InputStride [in]
@@ -92,7 +90,7 @@ Transformation matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/2af4929b-9e44-4229-916e-d7d8eae07306">XMFLOAT4</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419608(v=VS.85).aspx">XMFLOAT4</a> in the destination stream.
 
 
 
@@ -118,7 +116,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/9331e7fc-d140-43cd-b810-41c03d3041b4">XMVector3Transform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420942(v=VS.85).aspx">XMVector3Transform</a>
  
 
  

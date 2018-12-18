@@ -9,8 +9,6 @@ ms.assetid: 6a59c903-0fa8-4d2c-b426-8d3c3410c6bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferPrecision, GetBufferPrecision method [Direct2D], GetBufferPrecision method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetBufferPrecision method, ID2D1GradientStopCollection1.GetBufferPrecision, ID2D1GradientStopCollection1::GetBufferPrecision, d2d1_1/ID2D1GradientStopCollection1::GetBufferPrecision, direct2d.id2d1gradientstopcollection1_getbufferprecision
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -75,7 +73,7 @@ The buffer precision of the gradient buffer.
 
 
 
-If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
+If this object was created using <a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>, this method returns D2D1_BUFFER_PRECISION_8BPC_UNORM.
   
 
 
@@ -98,7 +96,7 @@ If this object was created using <a href="https://msdn.microsoft.com/674ffba5-18
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

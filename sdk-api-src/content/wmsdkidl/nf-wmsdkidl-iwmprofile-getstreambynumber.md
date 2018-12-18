@@ -9,8 +9,6 @@ ms.assetid: 507b1c55-1ecb-41dd-a6e5-298e1047a7ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamByNumber, GetStreamByNumber method [windows Media Format], GetStreamByNumber method [windows Media Format],IWMProfile interface, GetStreamByNumber method [windows Media Format],IWMProfile2 interface, GetStreamByNumber method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStreamByNumber method, IWMProfile.GetStreamByNumber, IWMProfile2 interface [windows Media Format],GetStreamByNumber method, IWMProfile2::GetStreamByNumber, IWMProfile3 interface [windows Media Format],GetStreamByNumber method, IWMProfile3::GetStreamByNumber, IWMProfile::GetStreamByNumber, IWMProfileGetStreamByNumber, wmformat.iwmprofile_getstreambynumber, wmsdkidl/IWMProfile2::GetStreamByNumber, wmsdkidl/IWMProfile3::GetStreamByNumber, wmsdkidl/IWMProfile::GetStreamByNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -74,7 +72,7 @@ The <b>GetStreamByNumber</b> method retrieves a stream from the profile.
 
 ### -param ppConfig [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of the stream configuration object that describes the specified stream.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of the stream configuration object that describes the specified stream.
 
 
 ## -returns
@@ -156,19 +154,19 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/067c3f03-a79a-4693-b963-7081f79c72d3">IWMProfile::GetStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757406(v=VS.85).aspx">IWMProfile::GetStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/72ecc794-d393-416e-bc21-5a7756e76d99">IWMProfile::RemoveStreamByNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757413(v=VS.85).aspx">IWMProfile::RemoveStreamByNumber</a>
  
 
  

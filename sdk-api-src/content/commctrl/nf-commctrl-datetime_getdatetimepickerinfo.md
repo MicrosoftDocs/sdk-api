@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_GetDateTimePickerInfo, DateTime_GetDateTimePickerInfo macro [Windows Controls], _shell_DateTime_GetDateTimePickerInfo, _shell_DateTime_GetDateTimePickerInfo_cpp, commctrl/DateTime_GetDateTimePickerInfo, controls.DateTime_GetDateTimePickerInfo, controls._shell_DateTime_GetDateTimePickerInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets information for a specified date and time picker (DTP) control.
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the DTP control.
 

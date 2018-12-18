@@ -9,8 +9,6 @@ ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

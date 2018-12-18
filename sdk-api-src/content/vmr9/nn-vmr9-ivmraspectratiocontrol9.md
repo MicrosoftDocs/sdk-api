@@ -9,8 +9,6 @@ ms.assetid: ae850eea-c283-4500-baa0-e26641576852
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow],described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 
 
-The <code>IVMRAspectRatioControl9</code> interface controls whether the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video. This interface is available when the VMR is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://msdn.microsoft.com/c21c5611-f376-4899-9914-c14a18af3810">IVMRWindowlessControl</a> interface.
+The <code>IVMRAspectRatioControl9</code> interface controls whether the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) preserves the aspect ratio of the source video. This interface is available when the VMR is operating in either windowed or windowless modes. In windowless mode, the same functionality is provided by the <a href="https://msdn.microsoft.com/en-us/library/Dd390536(v=VS.85).aspx">IVMRWindowlessControl</a> interface.
 
 
 
@@ -74,7 +72,7 @@ The <b>IVMRAspectRatioControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e53e9015-5186-4807-a5ee-af8598a89a2b">GetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377344(v=VS.85).aspx">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Queries whether the VMR will preserve the aspect ratio of the source video.
@@ -83,7 +81,7 @@ Queries whether the VMR will preserve the aspect ratio of the source video.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adc34013-a349-4cf6-b5c2-58b7b212d630">SetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377345(v=VS.85).aspx">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the VMR will preserve the aspect ratio of the source video.

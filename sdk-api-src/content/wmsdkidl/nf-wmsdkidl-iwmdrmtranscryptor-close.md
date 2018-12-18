@@ -9,8 +9,6 @@ ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -99,7 +97,7 @@ The method succeeded.
 
 
 
-This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_CLOSED message is sent to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method.
+This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_CLOSED message is sent to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method.
 
 
 
@@ -109,15 +107,15 @@ This method is asynchronous. It returns immediately, but processing is not compl
 
 
 
-<a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/084423cc-d10c-4993-b9dd-ace51aa6b7f0">IWMDRMTranscryptor::Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798369(v=VS.85).aspx">IWMDRMTranscryptor::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/55b1c73a-5c00-4e16-b0fe-2352ce09bffc">IWMDRMTranscryptor::Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">IWMDRMTranscryptor::Read</a>
  
 
  

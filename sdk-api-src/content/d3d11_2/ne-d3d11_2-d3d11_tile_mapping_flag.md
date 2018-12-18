@@ -9,8 +9,6 @@ ms.assetid: 13B4665C-F8A2-45A7-BBE9-FEB45FB08963
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TILE_MAPPING_FLAG, D3D11_TILE_MAPPING_FLAG enumeration [Direct3D 11], D3D11_TILE_MAPPING_NO_OVERWRITE, d3d11_2/D3D11_TILE_MAPPING_FLAG, d3d11_2/D3D11_TILE_MAPPING_NO_OVERWRITE, direct3d11.d3d11_tile_mapping_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 
@@ -68,7 +66,7 @@ Indicates that no overwriting of tiles occurs in the tile-mapping operation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

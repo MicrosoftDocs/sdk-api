@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStoryRanges interface, ITextStoryRanges interface [Windows Controls],GetCount method, ITextStoryRanges.GetCount, ITextStoryRanges::GetCount, _win32_ITextStoryRanges_GetCount, _win32_ITextStoryRanges_GetCount_cpp, controls.ITextStoryRanges_GetCount, controls._win32_ITextStoryRanges_GetCount, tom/ITextStoryRanges::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

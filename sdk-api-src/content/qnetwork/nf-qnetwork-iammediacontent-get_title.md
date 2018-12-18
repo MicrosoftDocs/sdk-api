@@ -9,8 +9,6 @@ ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

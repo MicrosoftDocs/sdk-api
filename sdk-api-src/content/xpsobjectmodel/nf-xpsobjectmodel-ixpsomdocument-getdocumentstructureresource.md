@@ -9,8 +9,6 @@ ms.assetid: 372aa8fd-efbb-4196-9137-4a9581c69f6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentStructureResource, GetDocumentStructureResource method [XPS Documents and Packaging], GetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetDocumentStructureResource method, IXpsOMDocument.GetDocumentStructureResource, IXpsOMDocument::GetDocumentStructureResource, xps.ixpsomdocument_getdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::GetDocumentStructureResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

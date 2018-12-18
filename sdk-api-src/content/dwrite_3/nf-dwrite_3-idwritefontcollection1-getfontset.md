@@ -9,8 +9,6 @@ ms.assetid: 964732b9-bf0f-2ec8-d566-3fa06c9d57e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontCollection1 interface, IDWriteFontCollection1 interface [Direct Write],GetFontSet method, IDWriteFontCollection1.GetFontSet, IDWriteFontCollection1::GetFontSet, directwrite.idwritefontcollection1_getfontset, dwrite_3/IDWriteFontCollection1::GetFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the underlying font set used by this collection.
 
 ### -param fontSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>**</b>
 
 Returns the font set used by the collection.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bdee031b-53fa-321d-5cdc-4cc2c7ec58ca">IDWriteFontCollection1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933224(v=VS.85).aspx">IDWriteFontCollection1</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwminvalid
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmInvalidateIconicBitmaps, DwmInvalidateIconicBitmaps function [Desktop Window Manager], _udwm_dwminvalidateiconicbitmaps, _udwm_dwminvalidateiconicbitmaps_cpp, dwm.dwminvalidateiconicbitmaps, dwmapi/DwmInvalidateIconicBitmaps, winui._udwm_dwminvalidateiconicbitmaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4bba1e7a-3c1f-4f69-b4ab-68a9cf3b97d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],setDeleted method, IWMPMediaCollection.setDeleted, IWMPMediaCollection::setDeleted, IWMPMediaCollectionsetDeleted, setDeleted, setDeleted method [Windows Media Player], setDeleted method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_setdeleted, wmp/IWMPMediaCollection::setDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -117,11 +115,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
  
 
  

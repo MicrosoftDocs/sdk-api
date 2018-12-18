@@ -9,8 +9,6 @@ ms.assetid: D26C9A87-8C29-4029-BF8A-E0566DC2DF2A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IApplicationDesignModeSettings, IApplicationDesignModeSettings interface [Windows Shell], IApplicationDesignModeSettings interface [Windows Shell],described, shell.IApplicationDesignModeSettings, shobjidl_core/IApplicationDesignModeSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

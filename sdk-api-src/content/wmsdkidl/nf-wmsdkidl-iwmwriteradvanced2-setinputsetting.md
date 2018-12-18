@@ -9,8 +9,6 @@ ms.assetid: a920bfe8-1f95-4957-b6c4-9749d5e10ee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced2 interface [windows Media Format],SetInputSetting method, IWMWriterAdvanced2.SetInputSetting, IWMWriterAdvanced2::SetInputSetting, IWMWriterAdvanced2SetInputSetting, SetInputSetting, SetInputSetting method [windows Media Format], SetInputSetting method [windows Media Format],IWMWriterAdvanced2 interface, wmformat.iwmwriteradvanced2_setinputsetting, wmsdkidl/IWMWriterAdvanced2::SetInputSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -76,7 +74,7 @@ Pointer to a wide-character <b>null</b>-terminated string containing the setting
 
 ### -param Type [in]
 
-Pointer to a value from the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type.
+Pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type.
 
 
 ### -param pValue [in]
@@ -171,7 +169,7 @@ Unspecified error.
 
 The encoding settings set with this method are not persisted in the output file. If you want your custom player to have access to this information, you must save the values as custom metadata attributes in the file header.
 
-Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a> has been called.
+Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a> has been called.
 
 
 
@@ -181,11 +179,11 @@ Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlace
 
 
 
-<a href="https://msdn.microsoft.com/94790b67-690c-4a0f-9b82-801bfcec9eb0">IWMWriterAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798721(v=VS.85).aspx">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aea0bc6-94e7-41ab-aec3-7366f183bb01">IWMWriterAdvanced2::GetInputSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798722(v=VS.85).aspx">IWMWriterAdvanced2::GetInputSetting</a>
 
 
 

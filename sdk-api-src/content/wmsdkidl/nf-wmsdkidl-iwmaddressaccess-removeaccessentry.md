@@ -9,8 +9,6 @@ ms.assetid: f3f9d493-90b4-4b2a-ad18-baf2b09bc72e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMAddressAccess interface [windows Media Format],RemoveAccessEntry method, IWMAddressAccess.RemoveAccessEntry, IWMAddressAccess::RemoveAccessEntry, IWMAddressAccessRemoveAccessEntry, RemoveAccessEntry, RemoveAccessEntry method [windows Media Format], RemoveAccessEntry method [windows Media Format],IWMAddressAccess interface, wmformat.iwmaddressaccess_removeaccessentry, wmsdkidl/IWMAddressAccess::RemoveAccessEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,12 +64,12 @@ The <b>RemoveAccessEntry</b> method removes an access entry.
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/514e6745-c521-41bd-81c2-b6c24cfb0192">WM_AETYPE</a> enumeration specifying the type of entry to remove (exclusion or inclusion).
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the type of entry to remove (exclusion or inclusion).
 
 
 ### -param dwEntryNum [in]
 
-Zero-based index of the access entry to remove. Use the <a href="https://msdn.microsoft.com/996d8a8a-887e-4e2f-b810-c57a4251f771">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
+Zero-based index of the access entry to remove. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
 
 
 ## -returns
@@ -129,7 +127,7 @@ Invalid index number.
 
 
 
-<a href="https://msdn.microsoft.com/7251c600-90a2-4903-b26a-643b4d10b0ce">IWMAddressAccess Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -114,9 +112,9 @@ The method succeeded.
 
 This method returns the largest time stamp that the writer can currently process. This time stamp will increase as data is produced by the writer. This method can be used to ensure that data is delivered to the writer at the proper rate.
 
-The time returned is the number of 100-nanosecond units since the call to <a href="https://msdn.microsoft.com/df511ff0-a87b-442a-85bd-c8d924ab2047">IWMWriter::BeginWriting</a>.
+The time returned is the number of 100-nanosecond units since the call to <a href="https://msdn.microsoft.com/en-us/library/Dd757474(v=VS.85).aspx">IWMWriter::BeginWriting</a>.
 
-The writer can be running in real time. Call the <a href="https://msdn.microsoft.com/3d00eb78-d90e-41a0-9bba-305ac65057f3">IWMWriterAdvanced::IsRealTime</a> method to ascertain whether this is true.
+The writer can be running in real time. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd798734(v=VS.85).aspx">IWMWriterAdvanced::IsRealTime</a> method to ascertain whether this is true.
 
 
 
@@ -126,7 +124,7 @@ The writer can be running in real time. Call the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
  
 
  

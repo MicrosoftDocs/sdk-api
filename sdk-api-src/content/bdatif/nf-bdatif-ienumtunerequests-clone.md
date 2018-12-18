@@ -9,8 +9,6 @@ ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694005(v=VS.85).aspx">IEnumTuneRequests Interface</a>
+<a href="https://msdn.microsoft.com/5ad872be-4408-4069-80db-ae73b2127b91">IEnumTuneRequests Interface</a>
  
 
  

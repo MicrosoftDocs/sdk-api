@@ -9,8 +9,6 @@ ms.assetid: df642ebb-058b-41db-95d3-d7d3bf9a6dd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRVideoStreamControl9, IVMRVideoStreamControl9 interface [DirectShow], IVMRVideoStreamControl9 interface [DirectShow],described, IVMRVideoStreamControl9Interface, dshow.ivmrvideostreamcontrol9, vmr9/IVMRVideoStreamControl9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 
@@ -74,7 +72,7 @@ The <b>IVMRVideoStreamControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db6637ec-de60-434f-be97-ce27ad02e627">GetStreamActiveState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390530(v=VS.85).aspx">GetStreamActiveState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the stream.
@@ -83,7 +81,7 @@ Retrieves the state of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c17a006-f086-49cd-a237-3713fb9bd3f9">SetStreamActiveState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390531(v=VS.85).aspx">SetStreamActiveState</a>
 </td>
 <td align="left" width="63%">
 Activates or inactivates an input stream.

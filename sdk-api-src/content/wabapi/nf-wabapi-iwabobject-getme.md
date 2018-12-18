@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\getme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AB_NO_DIALOG, GetMe, GetMe method [Windows Address Book], GetMe method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],GetMe method, IWABObject.GetMe, IWABObject::GetMe, WABOBJECT_ME_NOCREATE, _wab_IWABObject_GetMe, wab._wab_IWABObject_GetMe, wabapi/IWABObject::GetMe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -62,9 +60,9 @@ Retrieves the entry identifier of the object that has been designated
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
 				that specifies the address book object.
 
 
@@ -100,9 +98,9 @@ Pointer to a variable of type <b>DWORD</b> that
 
 ### -param lpsbEID
 
-Type: <b><a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a>*</b>
 
-Pointer to a variable of type <a href="7710f883-e168-4c49-8f29-d18792b80ad4">SBinary</a> 
+Pointer to a variable of type <a href="https://msdn.microsoft.com/library/ms528837(v=EXCHG.10).aspx">SBinary</a> 
 				that specifies the entry identifier of the ME object on return.
 
 

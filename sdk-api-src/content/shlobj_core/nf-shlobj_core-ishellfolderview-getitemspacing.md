@@ -9,8 +9,6 @@ ms.assetid: 92450bc7-26e5-4061-90f7-eea0f0a4db09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemSpacing, GetItemSpacing method [Windows Shell], GetItemSpacing method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetItemSpacing method, IShellFolderView.GetItemSpacing, IShellFolderView::GetItemSpacing, _shell_IShellFolderView_GetItemSpacing, shell.IShellFolderView_GetItemSpacing, shlobj_core/IShellFolderView::GetItemSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -82,7 +80,7 @@ Returns <b>S_OK</b> if the current view mode is positionable; otherwise, <b>S_FA
 
 
 
-This method sends an <a href="https://msdn.microsoft.com/4e43fb43-468c-4b8a-9e3b-1694e90ffef8">LVM_GETITEMSPACING</a> message to get the view mode spacing.
+This method sends an <a href="https://msdn.microsoft.com/en-us/library/Bb761051(v=VS.85).aspx">LVM_GETITEMSPACING</a> message to get the view mode spacing.
 
 This method retrieves mode spacing for only the large and small view modes.
 

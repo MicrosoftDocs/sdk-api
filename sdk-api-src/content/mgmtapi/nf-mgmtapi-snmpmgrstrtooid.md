@@ -9,8 +9,6 @@ ms.assetid: d245b43c-3893-4081-874c-93619a8c461c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpMgrStrToOid, SnmpMgrStrToOid function [SNMP], _snmp_snmpmgrstrtooid, mgmtapi/SnmpMgrStrToOid, snmp.snmpmgrstrtooid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

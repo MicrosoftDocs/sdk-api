@@ -1,0 +1,77 @@
+---
+UID: NS:mschapp._SAMPR_ENCRYPTED_USER_PASSWORD
+title: SAMPR_ENCRYPTED_USER_PASSWORD
+author: windows-sdk-content
+description: The SAMPR_ENCRYPTED_USER_PASSWORD stores a user's encrypted password.
+old-location: mschap\sampr_encrypted_user_password.htm
+tech.root: MsChap
+ms.assetid: 10137c59-db99-4d70-9716-6f05369084a0
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PSAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], SAMPR_ENCRYPTED_USER_PASSWORD, SAMPR_ENCRYPTED_USER_PASSWORD structure [MS-CHAP], mschap.sampr_encrypted_user_password, mschapp/*PSAMPR_ENCRYPTED_USER_PASSWORD, mschapp/SAMPR_ENCRYPTED_USER_PASSWORD"
+ms.topic: struct
+req.header: mschapp.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - MsChapp.h
+api_name:
+ - SAMPR_ENCRYPTED_USER_PASSWORD
+product: Windows
+targetos: Windows
+req.typenames: SAMPR_ENCRYPTED_USER_PASSWORD, *PSAMPR_ENCRYPTED_USER_PASSWORD
+req.redist: 
+---
+
+# SAMPR_ENCRYPTED_USER_PASSWORD structure
+
+
+## -description
+
+
+The <b>SAMPR_ENCRYPTED_USER_PASSWORD</b> stores a user's encrypted password.
+
+
+## -struct-fields
+
+
+
+
+### -field Buffer
+
+An array contains an encrypted password. The contents of the array are calculated using either the <b>NewPasswordEncryptedWithOldNtPasswordHash</b> or <b>NewPasswordEncryptedWithOldLmPasswordHash</b> functions as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=84041">RFC 2433</a>, sections A.11 and A.15 respectively.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/adee58bd-d2aa-4570-8c43-50240be02ed3">MS-CHAP Password Management Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/91ea4b98-79e4-4764-a580-a622d1491943">MSChapSrvChangePassword2</a>
+ 
+
+ 
+

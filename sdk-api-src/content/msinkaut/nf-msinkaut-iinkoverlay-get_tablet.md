@@ -9,8 +9,6 @@ ms.assetid: 88da4f91-2baf-4152-adc2-a6f91bc2c9e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Tablet property, IInkOverlay.Tablet, IInkOverlay.get_Tablet, IInkOverlay::Tablet, IInkOverlay::get_Tablet, InkOverlay.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkOverlay interface, get_Tablet, msinkaut/IInkOverlay::Tablet, msinkaut/IInkOverlay::get_Tablet, put_Tablet, tablet.inkoverlay_tablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ Accessing this property within certain message handlers can result in the underl
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: ad7dbd71-6241-45a0-9815-1f0eedc5213a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelectionStatus, GetSelectionStatus method [Text Services Framework], GetSelectionStatus method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetSelectionStatus method, ITfEditRecord.GetSelectionStatus, ITfEditRecord::GetSelectionStatus, _tsf_itfeditrecord_getselectionstatus_ref, msctf/ITfEditRecord::GetSelectionStatus, tsf.itfeditrecord_getselectionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

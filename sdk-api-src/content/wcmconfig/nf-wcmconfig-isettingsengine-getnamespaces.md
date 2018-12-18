@@ -9,8 +9,6 @@ ms.assetid: 0beb20a5-3dbf-48c8-9b0c-aa3dd094b59d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespaces method, ISettingsEngine.GetNamespaces, ISettingsEngine::GetNamespaces, smi.isettingsengine_getnamespaces, wcmconfig/ISettingsEngine::GetNamespaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

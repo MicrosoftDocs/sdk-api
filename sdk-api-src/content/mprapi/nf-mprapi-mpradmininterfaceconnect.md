@@ -9,8 +9,6 @@ ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

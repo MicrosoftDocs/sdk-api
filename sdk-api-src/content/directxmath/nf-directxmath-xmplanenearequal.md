@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneNearEqual(XMVECTOR,XMVECTOR,XMV
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneNearEqual, XMPlaneNearEqual, XMPlaneNearEqual method [DirectX Math Support APIs], dxmath.xmplanenearequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -86,7 +84,7 @@ Returns <b>true</b> if <i>P1</i> is nearly equal to <i>P2</i> and <b>false</b> o
 
 
 
-The <code>XMPlaneNearEqual</code> function normalizes the <i>P1</i> and <i>P2</i> parameters before passing them, and the <i>Epsilon</i> parameter, to the <a href="https://msdn.microsoft.com/e9e772d8-10ec-4b6f-bb5c-b5c9408f59e6">XMVector4NearEqual</a> function.  For more information about how the calculation is performed, see the <b>XMVector4NearEqual</b> function.
+The <code>XMPlaneNearEqual</code> function normalizes the <i>P1</i> and <i>P2</i> parameters before passing them, and the <i>Epsilon</i> parameter, to the <a href="https://msdn.microsoft.com/en-us/library/Ee420975(v=VS.85).aspx">XMVector4NearEqual</a> function.  For more information about how the calculation is performed, see the <b>XMVector4NearEqual</b> function.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.

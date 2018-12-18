@@ -9,8 +9,6 @@ ms.assetid: 945947e9-99ea-4420-95db-5b831e59e894
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [NativeWIFI], GetFriendlyName method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetFriendlyName method, IDot11AdHocInterface.GetFriendlyName, IDot11AdHocInterface::GetFriendlyName, adhoc/IDot11AdHocInterface::GetFriendlyName, nwifi.idot11adhocinterface_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 
@@ -62,7 +60,7 @@ Gets the friendly name of the NIC.
 
 The friendly name of the NIC. The SSID of the network is used as the friendly name.
 
-You must free this string using <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
 
 
 ## -returns

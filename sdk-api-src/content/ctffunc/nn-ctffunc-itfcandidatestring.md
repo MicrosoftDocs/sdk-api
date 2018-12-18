@@ -9,8 +9,6 @@ ms.assetid: 82c77b59-a50c-42ae-ba1d-25a1c196662d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Framework], ITfCandidateString interface [Text Services Framework],described, _tsf_itfcandidatestring_ref, ctffunc/ITfCandidateString, tsf.itfcandidatestring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 
@@ -54,14 +52,14 @@ The <b>ITfCandidateString</b> interface is implemented by a text service and is 
 
 The TSF manager implements this interface to provide access to this interface to other clients. This enables the TSF manager to function as a mediator between the client and the text service.
 
-To obtain an instance of this interface, the TSF manager or client can call <a href="https://msdn.microsoft.com/en-us/library/ms538494(v=VS.85).aspx">ITfCandidateList::GetCandidate</a>.
+To obtain an instance of this interface, the TSF manager or client can call <a href="https://msdn.microsoft.com/4cb2127c-cce5-4815-b40b-e6e15058eab5">ITfCandidateList::GetCandidate</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -83,7 +81,7 @@ Obtains the index of the candidate string object within the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538499(v=VS.85).aspx">GetString</a>
+<a href="https://msdn.microsoft.com/157dc848-858c-462f-8e41-78d6bfe20705">GetString</a>
 </td>
 <td align="left" width="63%">
 Obtains the text of the candidate string object.

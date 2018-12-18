@@ -9,8 +9,6 @@ ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>GetSupportedCATypes</b> method gets the types of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authorities</a> (CAs) that can be installed on a computer under the caller context. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetSupportedCATypes</b> method gets the types of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authorities</a> (CAs) that can be installed on a computer under the caller context. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 
 ## -parameters
@@ -68,7 +66,7 @@ A pointer to a <b>VARIANT</b> array of <b>VT_UI4</b> types that specify the supp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

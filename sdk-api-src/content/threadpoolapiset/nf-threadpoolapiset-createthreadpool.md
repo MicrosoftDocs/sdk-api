@@ -9,8 +9,6 @@ ms.assetid: cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateThreadpool, CreateThreadpool function, base.createthreadpool, threadpoolapiset/CreateThreadpool, winbase/CreateThreadpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

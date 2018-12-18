@@ -9,8 +9,6 @@ ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordgetinteger, msiquery/MsiRecordGetInteger, setup.msirecordgetinteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

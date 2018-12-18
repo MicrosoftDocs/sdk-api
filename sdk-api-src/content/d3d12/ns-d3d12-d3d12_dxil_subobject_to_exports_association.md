@@ -9,8 +9,6 @@ ms.assetid: 82990FE6-43A8-4597-BAC5-E995B1FA67EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure, PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer, d3d12/D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/PD3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_dxil_subobject_to_exports_association
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

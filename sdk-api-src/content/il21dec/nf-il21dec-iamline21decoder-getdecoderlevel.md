@@ -9,8 +9,6 @@ ms.assetid: 6f0fc2c3-cc98-4646-ada0-57d74c6b5dd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDecoderLevel method, IAMLine21Decoder.GetDecoderLevel, IAMLine21Decoder::GetDecoderLevel, IAMLine21DecoderGetDecoderLevel, dshow.iamline21decoder_getdecoderlevel, il21dec/IAMLine21Decoder::GetDecoderLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>GetDecoderLevel</code> method retrieves the closed-captioned decoder l
 
 ### -param lpLevel
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/ffdedab0-9a47-4599-86c2-07f90d4d87ff">AM_LINE21_CCLEVEL</a> enumeration. The returned value is always <b>AM_L21_CCLEVEL_TC2</b> (TeleCaption II).
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373473(v=VS.85).aspx">AM_LINE21_CCLEVEL</a> enumeration. The returned value is always <b>AM_L21_CCLEVEL_TC2</b> (TeleCaption II).
 
 
 ## -returns
@@ -124,7 +122,7 @@ TeleCaption I and TeleCaption II are standards for closed caption decoders. The 
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
  
 
  

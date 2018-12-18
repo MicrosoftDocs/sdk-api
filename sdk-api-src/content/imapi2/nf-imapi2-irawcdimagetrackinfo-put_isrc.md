@@ -9,8 +9,6 @@ ms.assetid: c94357dc-9d9f-40a7-8709-51f8d5bc09e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],put_ISRC method, IRawCDImageTrackInfo.put_ISRC, IRawCDImageTrackInfo::put_ISRC, imapi.irawcdimagetrackinfo_put_isrc, imapi2/IRawCDImageTrackInfo::put_ISRC, put_ISRC, put_ISRC method [IMAPI], put_ISRC method [IMAPI],IRawCDImageTrackInfo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\structs\milmatrixf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MILMatrixF, MILMatrixF structure [WPF Bitmap Effects], _wibe_milmatrixf, mileffects/MILMatrixF, wibe._wibe_milmatrixf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mileffects.h
 req.include-header: 

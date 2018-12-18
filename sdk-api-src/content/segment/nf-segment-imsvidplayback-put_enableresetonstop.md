@@ -9,8 +9,6 @@ ms.assetid: f2b4285c-3cf8-40dc-87eb-57419ef7343e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_EnableResetOnStop method, IMSVidPlayback.put_EnableResetOnStop, IMSVidPlayback::put_EnableResetOnStop, IMSVidPlaybackput_EnableResetOnStop, mstv.imsvidplayback_put_enableresetonstop, put_EnableResetOnStop, put_EnableResetOnStop method [Microsoft TV Technologies], put_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_EnableResetOnStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -125,7 +123,7 @@ By default, playback resumes from the point where it was interrupted. If <i>newV
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

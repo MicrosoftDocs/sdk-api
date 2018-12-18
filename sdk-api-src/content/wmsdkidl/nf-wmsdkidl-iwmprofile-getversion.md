@@ -9,8 +9,6 @@ ms.assetid: 4f74378e-4b60-4b49-8107-26eebdfab02a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Format], GetVersion method [windows Media Format],IWMProfile interface, GetVersion method [windows Media Format],IWMProfile2 interface, GetVersion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetVersion method, IWMProfile.GetVersion, IWMProfile2 interface [windows Media Format],GetVersion method, IWMProfile2::GetVersion, IWMProfile3 interface [windows Media Format],GetVersion method, IWMProfile3::GetVersion, IWMProfile::GetVersion, IWMProfileGetVersion, wmformat.iwmprofile_getversion, wmsdkidl/IWMProfile2::GetVersion, wmsdkidl/IWMProfile3::GetVersion, wmsdkidl/IWMProfile::GetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -69,7 +67,7 @@ The <b>GetVersion</b> method retrieves the version number of the Windows Media F
 
 ### -param pdwVersion [out]
 
-Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/9ee414c6-49aa-42ad-9310-52f54b23e712">WMT_VERSION</a> enumeration type. This value specifies the version of the Windows Media Format SDK that was used to create the profile.
+Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757860(v=VS.85).aspx">WMT_VERSION</a> enumeration type. This value specifies the version of the Windows Media Format SDK that was used to create the profile.
 
 
 ## -returns
@@ -129,11 +127,11 @@ The version number indicates the version of the Windows Media codecs used to enc
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
  
 
  

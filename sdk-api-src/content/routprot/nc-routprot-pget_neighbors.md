@@ -9,8 +9,6 @@ ms.assetid: 31a28a43-3cfd-4d3c-813e-8f8289d99712
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNeighbors, GetNeighbors callback function [RAS], PGET_NEIGHBORS, PGET_NEIGHBORS callback, _mpr_getneighbors, routprot/GetNeighbors, rras.getneighbors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

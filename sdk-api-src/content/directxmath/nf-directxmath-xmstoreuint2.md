@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUInt2(XMUINT2@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreUInt2, XMStoreUInt2, XMStoreUInt2 method [DirectX Math Support APIs], dxmath.xmstoreuint2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -61,7 +59,7 @@ Stores unsigned integer data from an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a> structure in which to store the data.
 
 
 ### -param V
@@ -82,7 +80,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/7a27fda0-d8c4-4ed2-8693-7c81982cbad0">XMStoreInt2A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420362(v=VS.85).aspx">XMStoreInt2A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.

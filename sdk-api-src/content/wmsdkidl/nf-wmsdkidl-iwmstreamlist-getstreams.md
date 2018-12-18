@@ -9,8 +9,6 @@ ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],GetStreams method, IWMStreamList.GetStreams, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -140,7 +138,7 @@ Stream numbers are in the range of 1 through 63.
 
 
 
-<a href="https://msdn.microsoft.com/076bb0bf-3cf8-48b4-bfca-abbd9c1bf211">IWMStreamList Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798569(v=VS.85).aspx">IWMStreamList Interface</a>
  
 
  

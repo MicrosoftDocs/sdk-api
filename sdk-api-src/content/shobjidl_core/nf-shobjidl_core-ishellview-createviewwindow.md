@@ -9,8 +9,6 @@ ms.assetid: 62d71bca-d2cb-4668-b0bf-2e53756f2cd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],CreateViewWindow method, IShellView.CreateViewWindow, IShellView::CreateViewWindow, _win32_IShellView_CreateViewWindow, shell.IShellView_CreateViewWindow, shobjidl_core/IShellView::CreateViewWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

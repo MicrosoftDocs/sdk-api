@@ -9,8 +9,6 @@ ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System], GetLogColorSpaceA, GetLogColorSpaceW, _color_GetLogColorSpace, wcs.getlogcolorspace, wingdi/GetLogColorSpace, wingdi/GetLogColorSpaceA, wingdi/GetLogColorSpaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

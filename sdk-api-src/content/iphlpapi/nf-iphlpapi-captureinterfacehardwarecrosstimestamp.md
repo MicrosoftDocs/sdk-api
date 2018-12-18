@@ -9,8 +9,6 @@ ms.assetid: FB3C27CD-7D56-40F3-9DF9-A1115772D1C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

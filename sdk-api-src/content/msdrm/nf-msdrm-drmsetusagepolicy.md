@@ -9,8 +9,6 @@ ms.assetid: 8c270824-ff2a-4b04-b8b0-7cc4a82d042d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMSetUsagePolicy, DRMSetUsagePolicy function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetUsagePolicy, rm.drmsetusagepolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

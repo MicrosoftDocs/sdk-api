@@ -9,8 +9,6 @@ ms.assetid: ee11cb36-4dd2-4fe4-84fd-b3fc11b13ae0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_status method, IWMPCore.get_status, IWMPCore::get_status, IWMPCoreget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_status, wmp/IWMPCore::get_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ The <b>IWMPEvents::StatusChange</b> event is fired whenever this property change
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0397ae20-bc8b-4b7e-8d5d-2b1fb427355a">IWMPEvents::StatusChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563362(v=VS.85).aspx">IWMPEvents::StatusChange</a>
  
 
  

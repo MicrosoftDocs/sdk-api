@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\rea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Read property, IFaxOutgoingMessage2.Read, IFaxOutgoingMessage2.get_Read, IFaxOutgoingMessage2.put_Read, IFaxOutgoingMessage2::Read, IFaxOutgoingMessage2::get_Read, IFaxOutgoingMessage2::put_Read, Read property [Fax Service], Read property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.read, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_read_cpp, fax._mfax_faxoutgoingmessage_read, faxcomex/IFaxOutgoingMessage2::Read, faxcomex/IFaxOutgoingMessage2::get_Read, faxcomex/IFaxOutgoingMessage2::put_Read, get_Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -69,7 +67,7 @@ Indicates if the fax has been read.
 
 Possible values are VARIANT_TRUE and VARIANT_FALSE.
 
-A change to this value is not committed to the server until <a href="https://msdn.microsoft.com/e0492e6e-db3e-449c-b58b-ff365d80d5f7">IFaxOutgoingMessage2::Save</a> is called.
+A change to this value is not committed to the server until <a href="https://msdn.microsoft.com/en-us/library/Aa358990(v=VS.85).aspx">IFaxOutgoingMessage2::Save</a> is called.
 
 
 
@@ -79,11 +77,11 @@ A change to this value is not committed to the server until <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6468db0-ea8d-4460-b389-43608337bd96">IFaxOutgoingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358984(v=VS.85).aspx">IFaxOutgoingMessage2</a>
  
 
  

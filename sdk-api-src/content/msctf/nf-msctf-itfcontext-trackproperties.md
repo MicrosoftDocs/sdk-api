@@ -9,8 +9,6 @@ ms.assetid: e283a45d-b585-4a26-89db-7ed706f0f593
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfContext interface [Text Services Framework],TrackProperties method, ITfContext.TrackProperties, ITfContext::TrackProperties, TrackProperties, TrackProperties method [Text Services Framework], TrackProperties method [Text Services Framework],ITfContext interface, _tsf_itfcontext_trackproperties_ref, msctf/ITfContext::TrackProperties, tsf.itfcontext_trackproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

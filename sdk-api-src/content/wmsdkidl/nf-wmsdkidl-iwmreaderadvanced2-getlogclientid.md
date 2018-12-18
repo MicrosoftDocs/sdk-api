@@ -9,8 +9,6 @@ ms.assetid: 034ad344-2266-4662-9797-70031f58f0cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetLogClientID method, IWMReaderAdvanced2.GetLogClientID, IWMReaderAdvanced2::GetLogClientID, IWMReaderAdvanced2GetLogClientID, wmformat.iwmreaderadvanced2_getlogclientid, wmsdkidl/IWMReaderAdvanced2::GetLogClientID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -126,11 +124,11 @@ See the remarks for <b>SetLogClientID</b>.
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/818b7a0e-bbf4-42b2-a5a4-75078834c9f6">IWMReaderAdvanced2::SetLogClientID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757441(v=VS.85).aspx">IWMReaderAdvanced2::SetLogClientID</a>
  
 
  

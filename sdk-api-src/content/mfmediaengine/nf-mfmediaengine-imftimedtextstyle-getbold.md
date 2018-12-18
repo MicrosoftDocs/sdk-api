@@ -9,8 +9,6 @@ ms.assetid: 53CAE4C9-061B-44F3-A81B-A276085C69F2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBold, GetBold method [Media Foundation], GetBold method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBold method, IMFTimedTextStyle.GetBold, IMFTimedTextStyle::GetBold, mf.imftimedtextstyle_getbold, mfmediaengine/IMFTimedTextStyle::GetBold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

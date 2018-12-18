@@ -9,8 +9,6 @@ ms.assetid: 3457f36e-fdfd-44a4-90ca-a86f00bc9f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HashTable_CoTaskMemFreeCB, ILFree, ILFree function [Windows Shell], _win32_ILFree, shell.ILFree, shlobj_core/HashTable_CoTaskMemFreeCB, shlobj_core/ILFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,6 @@ ms.assetid: b869fc51-0f03-4f93-b5ad-805f9b216423
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component],IWICBitmapFrameDecode interface, IWICBitmapFrameDecode interface [Windows Imaging Component],GetColorContexts method, IWICBitmapFrameDecode.GetColorContexts, IWICBitmapFrameDecode::GetColorContexts, _wic_codec_iwicbitmapframedecode_getcolorcontexts, wic._wic_codec_iwicbitmapframedecode_getcolorcontexts, wincodec/IWICBitmapFrameDecode::GetColorContexts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

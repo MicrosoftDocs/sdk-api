@@ -9,8 +9,6 @@ ms.assetid: a8e7ccbe-8fcf-418e-b3e8-263f6296ff36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputSchema interface, IMFOutputSchema interface [Media Foundation],GetOriginatorID method, IMFOutputSchema.GetOriginatorID, IMFOutputSchema::GetOriginatorID, a8e7ccbe-8fcf-418e-b3e8-263f6296ff36, mf.imfoutputschema_getoriginatorid, mfidl/IMFOutputSchema::GetOriginatorID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

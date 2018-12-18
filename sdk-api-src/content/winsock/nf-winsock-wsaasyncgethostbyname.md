@@ -9,8 +9,6 @@ ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAAsyncGetHostByName, WSAAsyncGetHostByName function [Winsock], _win32_wsaasyncgethostbyname_2, winsock.wsaasyncgethostbyname_2, wsipv6ok/WSAAsyncGetHostByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h, Winsock.h

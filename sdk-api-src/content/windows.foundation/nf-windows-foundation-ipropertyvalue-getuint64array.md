@@ -9,8 +9,6 @@ ms.assetid: 2981b2dc-d3ec-4886-a191-4dade13c7f32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUInt64Array, GetUInt64Array method [Windows Runtime], GetUInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt64Array method, IPropertyValue.GetUInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt64Array, winrt.ipropertyvalue_getuint64array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

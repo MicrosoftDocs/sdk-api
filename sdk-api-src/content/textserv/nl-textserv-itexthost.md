@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], ITextHost interface [Windows Controls],described, _win32_ITextHost, _win32_ITextHost_cpp, controls.ITextHost, controls._win32_ITextHost, textserv/ITextHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: textserv.h
 req.include-header: 

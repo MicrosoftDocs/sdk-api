@@ -9,8 +9,6 @@ ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

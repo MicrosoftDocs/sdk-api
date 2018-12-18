@@ -9,8 +9,6 @@ ms.assetid: 580DF262-2A86-4C21-8DFA-A804CE0A79CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGdiMetafile, CreateGdiMetafile method [Direct2D], CreateGdiMetafile method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],CreateGdiMetafile method, ID2D1Factory1.CreateGdiMetafile, ID2D1Factory1::CreateGdiMetafile, d2d1_1/ID2D1Factory1::CreateGdiMetafile, direct2d.id2d1factory1_creategdimetafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 

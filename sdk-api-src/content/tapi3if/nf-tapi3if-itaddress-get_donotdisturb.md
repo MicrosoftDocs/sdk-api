@@ -9,8 +9,6 @@ ms.assetid: d9257201-bcd1-4d6b-9bc7-24b323cd4f15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_DoNotDisturb method, ITAddress.get_DoNotDisturb, ITAddress::get_DoNotDisturb, _tapi3_itaddress_get_donotdisturb, get_DoNotDisturb, get_DoNotDisturb method [TAPI 2.2], get_DoNotDisturb method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_donotdisturb, tapi3if/ITAddress::get_DoNotDisturb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

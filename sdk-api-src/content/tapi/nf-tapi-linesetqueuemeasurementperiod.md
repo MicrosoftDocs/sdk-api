@@ -9,8 +9,6 @@ ms.assetid: 62b972ed-4a2d-4756-b905-dfb8c2bb0a8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linesetqueuemeasurementperiod, lineSetQueueMeasurementPeriod, lineSetQueueMeasurementPeriod function [TAPI 2.2], tapi/lineSetQueueMeasurementPeriod, tapi2.linesetqueuemeasurementperiod"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

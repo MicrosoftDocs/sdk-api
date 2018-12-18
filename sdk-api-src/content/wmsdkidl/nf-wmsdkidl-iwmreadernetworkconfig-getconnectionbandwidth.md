@@ -9,8 +9,6 @@ ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -124,11 +122,11 @@ If you want to determine the connection bandwidth before receiving a sample, use
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/beb84e1b-ebe2-40a0-bcf0-eded9346d7a1">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743540(v=VS.85).aspx">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
  
 
  

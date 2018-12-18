@@ -9,8 +9,6 @@ ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGetVolumeNameForVolumeMountPoint, ClusterGetVolumeNameForVolumeMountPoint function [Failover Cluster], PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT, PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT function [Failover Cluster], mscs.clustergetvolumenameforvolumemountpoint, resapi/ClusterGetVolumeNameForVolumeMountPoint, resapi/PCLUSTER_GET_VOLUME_NAME_FOR_VOLUME_MOUNT_POINT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

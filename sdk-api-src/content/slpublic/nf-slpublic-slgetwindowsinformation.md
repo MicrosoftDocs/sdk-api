@@ -9,8 +9,6 @@ ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

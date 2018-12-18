@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_1p2d.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ScheduledTime property, IFaxOutgoingJob.ScheduledTime, IFaxOutgoingJob.get_ScheduledTime, IFaxOutgoingJob::ScheduledTime, IFaxOutgoingJob::get_ScheduledTime, ScheduledTime property [Fax Service], ScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.scheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp, fax._mfax_faxoutgoingjob_scheduledtime, faxcomex/IFaxOutgoingJob::ScheduledTime, faxcomex/IFaxOutgoingJob::get_ScheduledTime, get_ScheduledTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
  
 
  

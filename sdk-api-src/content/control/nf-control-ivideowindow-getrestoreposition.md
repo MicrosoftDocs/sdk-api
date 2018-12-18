@@ -9,8 +9,6 @@ ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -150,7 +148,7 @@ If the video window is minimized or maximized, you can use this method to get th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

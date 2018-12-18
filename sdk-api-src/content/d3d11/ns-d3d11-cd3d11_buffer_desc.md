@@ -9,8 +9,6 @@ ms.assetid: A6ED5755-AB4A-4C35-A344-1693D78F7A4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC structure [Direct3D 11], d3d11/CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -133,7 +131,7 @@ struct CD3D11_BUFFER_DESC : public D3D11_BUFFER_DESC
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151647(v=VS.85).aspx">CD3D11 Helper Structures</a>
+<a href="https://msdn.microsoft.com/E44951D9-7830-4825-B7FA-CF98CC0D024C">CD3D11 Helper Structures</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: 
@@ -68,7 +66,7 @@ The <b>AllocateBuffer</b> method initializes a buffer.
 
 ### -param ppBuffer [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface.
 
 
 ## -returns
@@ -85,7 +83,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/021ced93-4b79-4821-a380-7fed43fd5391">IWMSBufferAllocator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743699(v=VS.85).aspx">IWMSBufferAllocator Interface</a>
  
 
  

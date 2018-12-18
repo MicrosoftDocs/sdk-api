@@ -9,8 +9,6 @@ ms.assetid: ffd1f166-a37c-4b39-9878-a4008260f675
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddSubrange, AddSubrange method [Windows Controls], AddSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],AddSubrange method, ITextRange2.AddSubrange, ITextRange2::AddSubrange, controls.itextrange2_addsubrange, tom/ITextRange2::AddSubrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

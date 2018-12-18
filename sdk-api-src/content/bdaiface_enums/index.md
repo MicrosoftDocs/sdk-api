@@ -2,7 +2,7 @@
 UID: NA:bdaiface_enums
 ms.assetid: aaf06821-c784-3f72-af0f-33925e1fe46d
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

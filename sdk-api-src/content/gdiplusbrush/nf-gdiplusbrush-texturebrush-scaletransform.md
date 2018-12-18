@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\textu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],ScaleTransform method, TextureBrush.ScaleTransform, TextureBrush::ScaleTransform, _gdiplus_CLASS_TextureBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_TextureBrush_ScaleTransform_sx_sy_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

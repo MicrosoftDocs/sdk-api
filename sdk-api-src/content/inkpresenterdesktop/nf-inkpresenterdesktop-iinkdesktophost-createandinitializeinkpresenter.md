@@ -9,8 +9,6 @@ ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAndInitializeInkPresenter, CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateAndInitializeInkPresenter method, IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 
@@ -63,7 +61,7 @@ Creates an <a href="https://msdn.microsoft.com/6d175981-6379-4a61-84b0-8b08274bc
 
 ### -param rootVisual [in]
 
-The <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> of the app.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a> of the app.
 
 
 ### -param width [in]

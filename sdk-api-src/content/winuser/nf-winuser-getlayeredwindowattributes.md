@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLayeredWindowAttributes, GetLayeredWindowAttributes function [Windows and Messages], LWA_ALPHA, LWA_COLORKEY, _win32_GetLayeredWindowAttributes, _win32_getlayeredwindowattributes_cpp, winmsg.getlayeredwindowattributes, winui._win32_getlayeredwindowattributes, winuser/GetLayeredWindowAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

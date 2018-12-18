@@ -9,8 +9,6 @@ ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rtworkq.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

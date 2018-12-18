@@ -9,8 +9,6 @@ ms.assetid: bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SHARDAPPIDINFO, shell.SHARDAPPIDINFO, shlobj_core/SHARDAPPIDINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

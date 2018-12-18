@@ -9,8 +9,6 @@ ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -54,7 +52,7 @@ Opens a Service Proxy to a Service endpoint.
             
 
 On success client applications can make calls using the Service Proxy. 
-            The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">channel binding</a> used. 
+            The behavior of WsOpenServiceProxy is governed by the  <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">channel binding</a> used. 
 
 
 ## -parameters

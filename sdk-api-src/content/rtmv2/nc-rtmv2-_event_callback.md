@@ -9,8 +9,6 @@ ms.assetid: 57179cea-d92b-4199-bb61-b34d980532cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RTM_CHANGE_NOTIFICATION, RTM_ENTITY_DEREGISTERED, RTM_ENTITY_REGISTERED, RTM_EVENT_CALLBACK, RTM_EVENT_CALLBACK callback function [RAS], RTM_EVENT_CALLBACK callback function pointer [RAS], RTM_ROUTE_EXPIRED, _EVENT_CALLBACK, _EVENT_CALLBACK callback, _rtmv2ref_rtm_event_callback, rras.rtm_event_callback, rtmv2/RTM_EVENT_CALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: rtmv2.h
 req.include-header: 

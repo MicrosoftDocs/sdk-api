@@ -1,16 +1,14 @@
 ---
-UID: NS:fdi_fci_types.ERF
+UID: NS:fdi_fci_types.__unnamed_struct_0
 title: ERF
 author: windows-sdk-content
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm
-tech.root: DevNotes
+tech.root: devnotes
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], ERF structure [Windows API], FCIERR_ALLOC_FAIL, FCIERR_BAD_COMPR_TYPE, FCIERR_CAB_FILE, FCIERR_CAB_FORMAT_LIMIT, FCIERR_MCI_FAIL, FCIERR_NONE, FCIERR_OPEN_SRC, FCIERR_READ_SRC, FCIERR_TEMP_FILE, FCIERR_USER_ABORT, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, fdi_fci_types/ERF, winprog.erf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: fdi_fci_types.h
 req.include-header: 

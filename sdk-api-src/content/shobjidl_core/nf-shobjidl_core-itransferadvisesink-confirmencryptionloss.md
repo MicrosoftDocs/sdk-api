@@ -9,8 +9,6 @@ ms.assetid: 6c6c6c6a-9eb0-43dd-a51f-cdbe6d538652
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConfirmEncryptionLoss, ConfirmEncryptionLoss method [Windows Shell], ConfirmEncryptionLoss method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmEncryptionLoss method, ITransferAdviseSink.ConfirmEncryptionLoss, ITransferAdviseSink::ConfirmEncryptionLoss, _shell_ITransferAdviseSink_ConfirmEncryptionLoss, shell.ITransferAdviseSink_ConfirmEncryptionLoss, shobjidl_core/ITransferAdviseSink::ConfirmEncryptionLoss
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

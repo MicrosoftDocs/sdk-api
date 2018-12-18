@@ -9,8 +9,6 @@ ms.assetid: bd817850-7776-47cd-b1b3-ccb946660781
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasUserCancelled, HasUserCancelled method [Windows Shell], HasUserCancelled method [Windows Shell],IProgressDialog interface, IProgressDialog interface [Windows Shell],HasUserCancelled method, IProgressDialog.HasUserCancelled, IProgressDialog::HasUserCancelled, _win32_IProgressDialog_HasUserCancelled, shell.IProgressDialog_HasUserCancelled, shlobj_core/IProgressDialog::HasUserCancelled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

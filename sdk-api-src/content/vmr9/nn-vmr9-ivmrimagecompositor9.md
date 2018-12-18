@@ -9,8 +9,6 @@ ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 
@@ -74,7 +72,7 @@ The <b>IVMRImageCompositor9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a59d21e8-faa2-484d-9d82-991c6bc4e045">CompositeImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377382(v=VS.85).aspx">CompositeImage</a>
 </td>
 <td align="left" width="63%">
 Composites the current frames available in each input stream.
@@ -83,7 +81,7 @@ Composites the current frames available in each input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78381141-6b6d-4ed5-b8d3-aa1114fd9ac0">InitCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377383(v=VS.85).aspx">InitCompositionDevice</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that a new composition target has been created.
@@ -92,7 +90,7 @@ Informs the compositor that a new composition target has been created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d994a83-a5be-427c-bf19-0090577d6ee5">SetStreamMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377384(v=VS.85).aspx">SetStreamMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the input stream.
@@ -101,7 +99,7 @@ Sets the media type for the input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e218222b-fed3-4f4b-8d97-785774800d89">TermCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377385(v=VS.85).aspx">TermCompositionDevice</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that the current composition target is being replaced.

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Header_SetItem, _win32_Header_SetItem_cpp, commctrl/Header_SetItem, controls.Header_SetItem, controls._win32_Header_SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the attributes of the specified item in a header control. You can use this 
 
 ### -param hwndHD
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 

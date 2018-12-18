@@ -9,8 +9,6 @@ ms.assetid: 534d453c-f47c-48e1-af59-bfa452e2d8d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateSelectedCalls, EnumerateSelectedCalls method [TAPI 2.2], EnumerateSelectedCalls method [TAPI 2.2],ITAutomatedPhoneControl interface, ITAutomatedPhoneControl interface [TAPI 2.2],EnumerateSelectedCalls method, ITAutomatedPhoneControl.EnumerateSelectedCalls, ITAutomatedPhoneControl::EnumerateSelectedCalls, _tapi3_itautomatedphonecontrol_enumerateselectedcalls, tapi3.itautomatedphonecontrol_enumerateselectedcalls, tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

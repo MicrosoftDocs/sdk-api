@@ -9,8 +9,6 @@ ms.assetid: 3b734da3-5784-4504-b22e-b86844d42f4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3b734da3-5784-4504-b22e-b86844d42f4e, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EditingMode property, IInkOverlay.EditingMode, IInkOverlay.get_EditingMode, IInkOverlay::EditingMode, IInkOverlay::get_EditingMode, IInkOverlay::put_EditingMode, InkOverlay.get_EditingMode, InkOverlay.put_EditingMode, get_EditingMode, msinkaut/IInkOverlay::EditingMode, msinkaut/IInkOverlay::get_EditingMode, msinkaut/IInkOverlay::put_EditingMode, put_EditingMode, tablet.inkoverlay_editingmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -86,7 +84,7 @@ For more information about erasing ink, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

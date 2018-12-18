@@ -9,8 +9,6 @@ ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

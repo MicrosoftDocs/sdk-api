@@ -9,8 +9,6 @@ ms.assetid: 2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Structures_b17380bb-3894-4832-bbe6-97c40607d366.xml, DISPLAYCONFIG_DEVICE_INFO_HEADER, DISPLAYCONFIG_DEVICE_INFO_HEADER structure [Display Devices], display.displayconfig_device_info_header, wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -60,7 +58,7 @@ The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information abou
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/40cc67c0-1508-4b67-b297-5a8dabaabb16">DISPLAYCONFIG_DEVICE_INFO_TYPE</a> enumerated value that determines the type of device information to retrieve or set. The remainder of the packet for the retrieve or set operation follows immediately after the DISPLAYCONFIG_DEVICE_INFO_HEADER structure. 
+A <a href="https://msdn.microsoft.com/en-us/library/Ff553924(v=VS.85).aspx">DISPLAYCONFIG_DEVICE_INFO_TYPE</a> enumerated value that determines the type of device information to retrieve or set. The remainder of the packet for the retrieve or set operation follows immediately after the DISPLAYCONFIG_DEVICE_INFO_HEADER structure. 
 
 
 ### -field size
@@ -92,7 +90,7 @@ The <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">Di
 
 
 
-<a href="https://msdn.microsoft.com/40cc67c0-1508-4b67-b297-5a8dabaabb16">DISPLAYCONFIG_DEVICE_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553924(v=VS.85).aspx">DISPLAYCONFIG_DEVICE_INFO_TYPE</a>
 
 
 

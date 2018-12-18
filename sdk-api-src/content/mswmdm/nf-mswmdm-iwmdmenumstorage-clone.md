@@ -9,8 +9,6 @@ ms.assetid: 3b4bc213-8345-45ae-90bd-49e89684fd9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IWMDMEnumStorage interface, IWMDMEnumStorage interface [windows Media Device Manager],Clone method, IWMDMEnumStorage.Clone, IWMDMEnumStorage::Clone, IWMDMEnumStorageClone, mswmdm/IWMDMEnumStorage::Clone, wmdm.iwmdmenumstorage_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

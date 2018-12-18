@@ -9,8 +9,6 @@ ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

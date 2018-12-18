@@ -9,8 +9,6 @@ ms.assetid: F63D022D-30EC-430C-8ACE-8EBD97AB8B6A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosed method, IUIManagerEventSink.OnWindowClosed, IUIManagerEventSink::OnWindowClosed, OnWindowClosed, OnWindowClosed method [Text Services Framework], OnWindowClosed method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosed, tsf.iuimanagereventsink_onwindowclosed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -74,7 +72,7 @@ Ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn495081(v=VS.85).aspx">IUIManagerEventSink</a>
+<a href="https://msdn.microsoft.com/A514833B-BC60-4D87-B2C6-849003E4EA63">IUIManagerEventSink</a>
  
 
  

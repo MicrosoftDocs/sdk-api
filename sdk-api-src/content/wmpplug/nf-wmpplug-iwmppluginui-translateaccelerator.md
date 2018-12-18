@@ -9,8 +9,6 @@ ms.assetid: 0accc3d7-a194-4f89-a90c-ee3ce10d0e27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],TranslateAccelerator method, IWMPPluginUI.TranslateAccelerator, IWMPPluginUI::TranslateAccelerator, IWMPPluginUITranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Media Player], TranslateAccelerator method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_translateaccelerator, wmpplug/IWMPPluginUI::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpplug.h
 req.include-header: 
@@ -91,7 +89,7 @@ The plug-in can set up an accelerator table to reroute specific keyboard events 
 
 
 
-<a href="https://msdn.microsoft.com/f292a3e6-87bf-4e68-8737-f7d6351c4ff4">IWMPPluginUI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563591(v=VS.85).aspx">IWMPPluginUI Interface</a>
  
 
  

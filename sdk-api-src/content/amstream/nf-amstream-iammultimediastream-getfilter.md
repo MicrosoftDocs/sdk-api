@@ -9,8 +9,6 @@ ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>GetFilter</code> method retrieves the Media Stream filter, which is us
 
 ### -param ppFilter [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter</a> interface pointer.
 
 
 ## -returns
@@ -123,7 +121,7 @@ If the method succeeds, the caller must release the <b>IMediaStreamFilter</b> in
 
 
 
-<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
  
 
  

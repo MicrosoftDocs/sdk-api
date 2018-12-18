@@ -9,8 +9,6 @@ ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

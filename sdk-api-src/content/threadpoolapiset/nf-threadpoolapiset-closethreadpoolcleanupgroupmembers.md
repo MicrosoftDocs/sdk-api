@@ -9,8 +9,6 @@ ms.assetid: 9c78db13-d8dd-4eda-83d9-c9dbbfc6e822
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseThreadpoolCleanupGroupMembers, CloseThreadpoolCleanupGroupMembers function, base.closethreadpoolcleanupgroupmembers, threadpoolapiset/CloseThreadpoolCleanupGroupMembers, winbase/CloseThreadpoolCleanupGroupMembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h

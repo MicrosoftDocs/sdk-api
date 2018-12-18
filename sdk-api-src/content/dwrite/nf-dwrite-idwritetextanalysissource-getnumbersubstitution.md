@@ -9,8 +9,6 @@ ms.assetid: 23e1539c-a58e-4123-82da-2f9d94309b05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write], GetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetNumberSubstitution method, IDWriteTextAnalysisSource.GetNumberSubstitution, IDWriteTextAnalysisSource::GetNumberSubstitution, directwrite.idwritetextanalysissource_getnumbersubstitution, dwrite/IDWriteTextAnalysisSource::GetNumberSubstitution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

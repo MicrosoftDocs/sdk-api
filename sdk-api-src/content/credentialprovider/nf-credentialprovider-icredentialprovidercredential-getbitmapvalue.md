@@ -9,8 +9,6 @@ ms.assetid: 5171b8f4-877b-43ab-be1d-4ccffdfc74ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBitmapValue, GetBitmapValue method [Windows Shell], GetBitmapValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetBitmapValue method, ICredentialProviderCredential.GetBitmapValue, ICredentialProviderCredential::GetBitmapValue, credentialprovider/ICredentialProviderCredential::GetBitmapValue, shell.ICredentialProviderCredential_GetBitmapValue, shell_ICredentialProviderCredential_GetBitmapValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

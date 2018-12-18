@@ -9,8 +9,6 @@ ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzTasks object [Security],Item property, IAzTasks interface [Security],Item property, IAzTasks.Item, IAzTasks.get_Item, IAzTasks::Item, IAzTasks::get_Item, Item property [Security], Item property [Security],AzTasks object, Item property [Security],IAzTasks interface, azroles/IAzTasks::Item, azroles/IAzTasks::get_Item, get_Item, security.iaztasks_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

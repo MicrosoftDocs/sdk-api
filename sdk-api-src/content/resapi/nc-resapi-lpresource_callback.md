@@ -9,8 +9,6 @@ ms.assetid: 1e36be6d-d869-4af9-b22a-401638701bd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPRESOURCE_CALLBACK, LPRESOURCE_CALLBACK callback function [Failover Cluster], ResourceCallback, ResourceCallback callback, ResourceCallback callback function [Failover Cluster], mscs.lpresource_callback, resapi/LPRESOURCE_CALLBACK, resapi/ResourceCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

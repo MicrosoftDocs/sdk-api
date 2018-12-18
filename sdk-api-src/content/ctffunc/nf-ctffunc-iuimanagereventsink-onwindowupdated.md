@@ -9,8 +9,6 @@ ms.assetid: A50F3F1B-B00A-4ABD-B94A-F1D3904C6938
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdated method, IUIManagerEventSink.OnWindowUpdated, IUIManagerEventSink::OnWindowUpdated, OnWindowUpdated, OnWindowUpdated method [Text Services Framework], OnWindowUpdated method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdated, tsf.iuimanagereventsink_onwindowupdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -77,7 +75,7 @@ Ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn495081(v=VS.85).aspx">IUIManagerEventSink</a>
+<a href="https://msdn.microsoft.com/A514833B-BC60-4D87-B2C6-849003E4EA63">IUIManagerEventSink</a>
  
 
  

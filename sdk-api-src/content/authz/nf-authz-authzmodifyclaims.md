@@ -9,8 +9,6 @@ ms.assetid: A93CD1DD-4E87-4C6A-928A-F90AD7F1085E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzModifyClaims, AuthzModifyClaims function [Security], authz/AuthzModifyClaims, security.authzmodifyclaims
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
@@ -70,7 +68,7 @@ Type of information to be modified. The caller can specify AuthzContextInfoUserC
 
 ### -param pClaimOperations [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration values that specify the type of claim modification to make.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration values that specify the type of claim modification to make.
 
 
 ### -param pClaims [in, optional]
@@ -94,13 +92,13 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-The <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration must have only one element if 
+The <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration must have only one element if 
     the value of that element is AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE_ALL. 
     Otherwise, the array has the same number of elements as the corresponding 
     PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION.
 
 
-If the <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration is AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE and the function fails, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the error code is ERROR_ALREADY_EXISTS, the claim's values have duplicate entries.
+If the <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration is AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE and the function fails, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the error code is ERROR_ALREADY_EXISTS, the claim's values have duplicate entries.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 4AE9A968-1325-4EFF-8F5B-8F465740B0C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_OPERATION_INFO, CF_OPERATION_INFO structure, cfapi/CF_OPERATION_INFO, cloudApi.cf_operation_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 843a95fd-27ae-4215-83d0-82fc402b82b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Process32Next, Process32Next function [ToolHelp], Process32NextW, _win32_process32next, base.process32next, tlhelp32/Process32Next, tlhelp32/Process32NextW, toolhelp.process32next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

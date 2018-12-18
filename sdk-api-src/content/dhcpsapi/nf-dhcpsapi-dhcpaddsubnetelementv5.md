@@ -9,8 +9,6 @@ ms.assetid: 200fc8da-d05c-4502-9cfc-d1092c5d0417
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpAddSubnetElementV5, DhcpAddSubnetElementV5 function [DHCP], dhcp.dhcpaddsubnetelementv5, dhcpsapi/DhcpAddSubnetElementV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

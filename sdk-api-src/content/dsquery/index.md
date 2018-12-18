@@ -2,7 +2,7 @@
 UID: NA:dsquery
 ms.assetid: a83ae1ee-3fe9-3c09-8fc2-4b96ea35acb2
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

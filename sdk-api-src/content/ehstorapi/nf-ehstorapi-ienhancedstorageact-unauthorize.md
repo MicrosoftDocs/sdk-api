@@ -9,8 +9,6 @@ ms.assetid: 82f78f9d-fb50-4f44-b4ad-f3a43ccca671
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnhancedStorageACT interface [Enhanced Storage],Unauthorize method, IEnhancedStorageACT.Unauthorize, IEnhancedStorageACT::Unauthorize, Unauthorize, Unauthorize method [Enhanced Storage], Unauthorize method [Enhanced Storage],IEnhancedStorageACT interface, ehstorapi/IEnhancedStorageACT::Unauthorize, enstor.ienhancedstorageact_unauthorize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

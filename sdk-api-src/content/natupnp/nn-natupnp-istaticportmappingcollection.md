@@ -9,8 +9,6 @@ ms.assetid: 4858c474-b57e-4baa-8e82-10bc41e026cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], IStaticPortMappingCollection interface [ICS/ICF],described, _ics_istaticportmappingcollection, ics.istaticportmappingcollection, natupnp/IStaticPortMappingCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

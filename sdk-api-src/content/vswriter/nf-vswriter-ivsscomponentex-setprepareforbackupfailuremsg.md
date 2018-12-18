@@ -9,8 +9,6 @@ ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssComponentEx interface,SetPrepareForBackupFailureMsg method, IVssComponentEx.SetPrepareForBackupFailureMsg, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 66dd853e-0fb0-4736-982a-e0183cb51842
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrUIOperation interface [Windows Shell],Run method, ISyncMgrUIOperation.Run, ISyncMgrUIOperation::Run, Run, Run method [Windows Shell], Run method [Windows Shell],ISyncMgrUIOperation interface, _shell_ISyncMgrUIOperation_Run, shell.ISyncMgrUIOperation_Run, syncmgr/ISyncMgrUIOperation::Run
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

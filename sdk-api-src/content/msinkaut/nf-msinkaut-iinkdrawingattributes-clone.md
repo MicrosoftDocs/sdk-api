@@ -9,8 +9,6 @@ ms.assetid: 97facd95-af49-459e-82fc-12534d466786
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],Clone method, IInkDrawingAttributes.Clone, IInkDrawingAttributes::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, msinkaut/IInkDrawingAttributes::Clone, tablet.inkdrawingattributes_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -184,7 +182,7 @@ In most scenarios, the duplicate object is an exact copy of the original object,
 
 
 
-<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

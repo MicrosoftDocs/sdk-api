@@ -9,8 +9,6 @@ ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 
@@ -164,7 +162,7 @@ This method returns a new <a href="https://msdn.microsoft.com/d1a71976-2825-48d2
 
 
 
-<a href="https://msdn.microsoft.com/6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9">IInkDivider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
 
 
 

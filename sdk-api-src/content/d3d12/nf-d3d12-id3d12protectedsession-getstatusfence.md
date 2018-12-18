@@ -9,8 +9,6 @@ ms.assetid: A2B4A826-198C-4D6E-9006-B6470DE1121E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatusFence, GetStatusFence method, GetStatusFence method,ID3D12ProtectedSession interface, ID3D12ProtectedSession interface,GetStatusFence method, ID3D12ProtectedSession.GetStatusFence, ID3D12ProtectedSession::GetStatusFence, d3d12/ID3D12ProtectedSession::GetStatusFence, direct3d12.id3d12protectedsession_getstatusfence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="direct3d12.id3d12protectedsession">ID3D12ProtectedSession</a>
+<a href="https://msdn.microsoft.com/BBB87F18-A4F4-44E7-AFD8-803BD2C7C753">ID3D12ProtectedSession</a>
  
 
  

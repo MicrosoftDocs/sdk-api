@@ -9,8 +9,6 @@ ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -66,7 +64,7 @@ The Microsoft SNMP service calls the
 ### -param pEnterpriseOid [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the object identifier of the enterprise that generated the trap. The SNMP service does not free the memory for this variable.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the object identifier of the enterprise that generated the trap. The SNMP service does not free the memory for this variable.
 
 
 ### -param pGenericTrapId [out]
@@ -193,7 +191,7 @@ The SNMP service repeatedly calls the
 Note that after the SNMP service sends a trap, it frees the memory associated with the variable binding list.
 
 It is important to note that earlier documentation stated that the extension agent should dynamically allocate memory for the enterprise object identifier because the SNMP service would attempt to release the memory after sending a trap. The service will not release the memory associated with the enterprise object identifier. It is recommended that you return a pointer to a static 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure instead.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure instead.
 
 
 
@@ -231,7 +229,7 @@ It is important to note that earlier documentation stated that the extension age
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
  
 
  

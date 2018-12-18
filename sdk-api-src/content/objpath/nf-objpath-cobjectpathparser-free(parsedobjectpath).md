@@ -9,8 +9,6 @@ ms.assetid: 3a18a29a-269a-490c-8ede-6ec6b77f99f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CObjectPathParser interface [Windows Management Instrumentation],Free method, CObjectPathParser.Free, CObjectPathParser.Free(ParsedObjectPath), CObjectPathParser::Free, CObjectPathParser::Free(LPWSTR), CObjectPathParser::Free(ParsedObjectPath), Free, Free method [Windows Management Instrumentation], Free method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Free, wmi.cobjectpathparser_free_lpwstr_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objpath.h
 req.include-header: ObjPath.h

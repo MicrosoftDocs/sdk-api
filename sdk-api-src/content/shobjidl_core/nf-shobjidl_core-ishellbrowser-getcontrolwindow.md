@@ -9,8 +9,6 @@ ms.assetid: 0ddcdafd-01f6-441c-9cc8-1ca9f1209e25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, GetControlWindow, GetControlWindow method [Windows Shell], GetControlWindow method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetControlWindow method, IShellBrowser.GetControlWindow, IShellBrowser::GetControlWindow, _win32_IShellBrowser_GetControlWindow, shell.IShellBrowser_GetControlWindow, shobjidl_core/IShellBrowser::GetControlWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

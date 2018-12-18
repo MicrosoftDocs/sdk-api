@@ -9,8 +9,6 @@ ms.assetid: 407607c8-c6ab-4400-b86c-9972d95f90c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMStreamConfig3 interface, IWMStreamConfig3 interface [windows Media Format],GetLanguage method, IWMStreamConfig3.GetLanguage, IWMStreamConfig3::GetLanguage, IWMStreamConfig3GetLanguage, wmformat.iwmstreamconfig3_getlanguage, wmsdkidl/IWMStreamConfig3::GetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -88,11 +86,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4">IWMStreamConfig3::SetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798557(v=VS.85).aspx">IWMStreamConfig3::SetLanguage</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 24c83763-366b-4e1b-8662-9d87250b7945
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_TickCount method, ITDigitDetectionEvent.get_TickCount, ITDigitDetectionEvent::get_TickCount, _tapi3_itdigitdetectionevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_tickcount, tapi3if/ITDigitDetectionEvent::get_TickCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

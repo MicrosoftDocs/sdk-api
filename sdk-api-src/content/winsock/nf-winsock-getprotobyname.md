@@ -9,8 +9,6 @@ ms.assetid: 00669525-d477-4607-beaa-61ef5a8dbd4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_getprotobyname_2, getprotobyname, getprotobyname function [Winsock], winsock.getprotobyname_2, winsock/getprotobyname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

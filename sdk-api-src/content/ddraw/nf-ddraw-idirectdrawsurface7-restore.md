@@ -9,8 +9,6 @@ ms.assetid: 9ca7abb2-5b9a-4323-9f0b-952e183e794b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Restore method, IDirectDrawSurface7.Restore, IDirectDrawSurface7::Restore, Restore, Restore method [DirectDraw], Restore method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Restore, directdraw.idirectdrawsurface7_restore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

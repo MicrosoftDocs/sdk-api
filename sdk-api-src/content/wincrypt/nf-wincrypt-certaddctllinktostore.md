@@ -9,8 +9,6 @@ ms.assetid: c129aeae-69d9-440a-979d-e9e481c64538
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCTLLinkToStore, CertAddCTLLinkToStore function [Security], _crypto2_certaddctllinktostore, security.certaddctllinktostore, wincrypt/CertAddCTLLinkToStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

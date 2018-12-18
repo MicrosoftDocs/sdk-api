@@ -9,8 +9,6 @@ ms.assetid: 852b88ed-6af7-4fe6-bf5f-831d55423130
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],RollbackToChangePoint method, IFileSystemImage.RollbackToChangePoint, IFileSystemImage::RollbackToChangePoint, RollbackToChangePoint, RollbackToChangePoint method [IMAPI], RollbackToChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_rollbacktochangepoint, imapi2fs/IFileSystemImage::RollbackToChangePoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

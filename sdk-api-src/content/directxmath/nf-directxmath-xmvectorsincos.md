@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorSinCos(XMVECTOR@,XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSinCos, XMVectorSinCos, XMVectorSinCos method [DirectX Math Support APIs], dxmath.xmvectorsincos
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -103,7 +101,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b450ecd2-1668-4006-b0ef-e1aa57e5a972">XMVectorSinCosEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421240(v=VS.85).aspx">XMVectorSinCosEst</a>
  
 
  

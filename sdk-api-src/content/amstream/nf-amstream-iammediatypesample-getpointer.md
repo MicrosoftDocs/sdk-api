@@ -9,8 +9,6 @@ ms.assetid: e1ca46d8-51d6-4dd5-bbcc-463acf53420c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetPointer method, IAMMediaTypeSample.GetPointer, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -82,7 +80,7 @@ Returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
  
 
  

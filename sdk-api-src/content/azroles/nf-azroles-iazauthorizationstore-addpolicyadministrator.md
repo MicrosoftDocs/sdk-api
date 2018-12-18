@@ -9,8 +9,6 @@ ms.assetid: 8d73bc05-1366-4b47-9eaf-4a247ebf8d93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzAuthorizationStore object, AddPolicyAdministrator method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyAdministrator method, IAzAuthorizationStore interface [Security],AddPolicyAdministrator method, IAzAuthorizationStore.AddPolicyAdministrator, IAzAuthorizationStore::AddPolicyAdministrator, azroles/IAzAuthorizationStore::AddPolicyAdministrator, security.azauthorizationstore_addpolicyadministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

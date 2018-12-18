@@ -9,8 +9,6 @@ ms.assetid: b1c77198-da52-4f74-9e20-56b6d1d450f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetIDList method, IKnownFolder.GetIDList, IKnownFolder::GetIDList, _shell_IKnownFolder_GetIDList, shell.IKnownFolder_GetIDList, shobjidl_core/IKnownFolder::GetIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -62,7 +60,7 @@ Gets the location of the Shell namespace folder in the IDList (<a href="https://
 
 Type: <b>DWORD</b>
 
-Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param ppidl [out]

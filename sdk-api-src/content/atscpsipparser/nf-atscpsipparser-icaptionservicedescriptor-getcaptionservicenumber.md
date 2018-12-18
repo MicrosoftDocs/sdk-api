@@ -9,8 +9,6 @@ ms.assetid: 0e8ca631-45fd-462c-bab9-4a242751f212
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

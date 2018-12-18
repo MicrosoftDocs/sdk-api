@@ -9,8 +9,6 @@ ms.assetid: 5a097e96-178a-44bd-9d3d-ed53338b97d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INewShortcutHook, INewShortcutHook interface [Windows Shell], INewShortcutHook interface [Windows Shell],described, INewShortcutHookA, INewShortcutHookW, _win32_INewShortcutHook, shell.INewShortcutHook, shlobj/INewShortcutHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shlobj.h
 req.include-header: 

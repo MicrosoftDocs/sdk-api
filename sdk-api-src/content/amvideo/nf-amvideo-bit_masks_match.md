@@ -9,8 +9,6 @@ ms.assetid: 2b9d18fd-3251-4ab4-bb79-33829190f1b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59ba3fd">VIDEOINFO</a> structures.
+The <code>BIT_MASKS_MATCH</code> macro compares the color masks for two <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structures.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 7e682a2e-5140-49ad-88de-ac681025aca4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateLibrary, SHCreateLibrary function [Windows Shell], _shell_SHCreateLibrary, shell.SHCreateLibrary, shobjidl_core/SHCreateLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

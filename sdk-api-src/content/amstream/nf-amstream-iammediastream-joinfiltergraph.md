@@ -9,8 +9,6 @@ ms.assetid: b14e9be4-f292-4a71-b541-4fda2640591d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilterGraph method, IAMMediaStream.JoinFilterGraph, IAMMediaStream::JoinFilterGraph, IAMMediaStreamJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilterGraph, dshow.iammediastream_joinfiltergraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -93,7 +91,7 @@ Applications should not call this method.
 
 
 
-<a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
  
 
  

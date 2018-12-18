@@ -9,8 +9,6 @@ ms.assetid: bd5ea824-5ac7-44e3-b7db-636e1b350d4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DecoderWordSize method, IMpegAudioDecoder.put_DecoderWordSize, IMpegAudioDecoder::put_DecoderWordSize, IMpegAudioDecoderputDecoderWordSize, dshow.impegaudiodecoder_put_decoderwordsize, mpegtype/IMpegAudioDecoder::put_DecoderWordSize, put_DecoderWordSize, put_DecoderWordSize method [DirectShow], put_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

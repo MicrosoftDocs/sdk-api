@@ -9,8 +9,6 @@ ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

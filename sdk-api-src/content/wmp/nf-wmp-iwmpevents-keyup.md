@@ -9,8 +9,6 @@ ms.assetid: e76e11d8-6cb9-488e-b5ca-1b5b11898d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyUp method, IWMPEvents.KeyUp, IWMPEvents::KeyUp, IWMPEventsKeyUp, KeyUp, KeyUp method [Windows Media Player], KeyUp method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keyup, wmp/IWMPEvents::KeyUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -94,11 +92,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3759d40c-414a-4f91-93eb-0ad4a4b091b9">KeyDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563325(v=VS.85).aspx">KeyDown</a>
  
 
  

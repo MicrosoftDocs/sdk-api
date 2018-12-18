@@ -9,8 +9,6 @@ ms.assetid: 314e6977-fe6d-40b2-a566-0e894f3d881c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBorderColor, GetBorderColor method [DirectShow], GetBorderColor method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetBorderColor method, IVMRWindowlessControl9.GetBorderColor, IVMRWindowlessControl9::GetBorderColor, IVMRWindowlessControl9GetBorderColor, dshow.ivmrwindowlesscontrol9_getbordercolor, vmr9/IVMRWindowlessControl9::GetBorderColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -120,11 +118,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/462b264d-1b4c-482a-b154-382748abaf92">SetBorderColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390548(v=VS.85).aspx">SetBorderColor</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -50,14 +48,14 @@ req.redist:
 ## -description
 
 
-The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
+The <b>IX509MachineEnrollmentFactory</b> interface can be used to create an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object on a webpage. This object cannot be created directly inside of a script.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509MachineEnrollmentFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509MachineEnrollmentFactory</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,10 +68,10 @@ The <b>IX509MachineEnrollmentFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351725(v=VS.85).aspx">CreateObject</a>
+<a href="https://msdn.microsoft.com/f9a45219-1c88-4946-ad57-81b95c609066">CreateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Ee351687(v=VS.85).aspx">IX509EnrollmentHelper</a> object on a webpage.
+Creates an <a href="https://msdn.microsoft.com/19124591-be1a-401e-9b83-c640d00de34a">IX509EnrollmentHelper</a> object on a webpage.
 
 [WebEnabled]
 

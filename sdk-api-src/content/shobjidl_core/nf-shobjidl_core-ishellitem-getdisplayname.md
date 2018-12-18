@@ -9,8 +9,6 @@ ms.assetid: 9b159be9-3797-4c8b-90f8-9d3b3a3afb71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Shell], GetDisplayName method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetDisplayName method, IShellItem.GetDisplayName, IShellItem::GetDisplayName, _win32_IShellItem_GetDisplayName, shell.IShellItem_GetDisplayName, shobjidl_core/IShellItem::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlguid.h

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__updatetexture.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 29cd384a-27b9-87ac-3d77-7fb734d0afbe, IDirect3DDevice9 interface [Direct3D 9],UpdateTexture method, IDirect3DDevice9.UpdateTexture, IDirect3DDevice9::UpdateTexture, UpdateTexture, UpdateTexture method [Direct3D 9], UpdateTexture method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::UpdateTexture, direct3d9.idirect3ddevice9__updatetexture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

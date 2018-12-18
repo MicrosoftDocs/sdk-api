@@ -9,8 +9,6 @@ ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],BeginDownload method, IUpdateDownloader.BeginDownload, IUpdateDownloader::BeginDownload, wua.iupdatedownloader_begindownload, wuapi/IUpdateDownloader::BeginDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

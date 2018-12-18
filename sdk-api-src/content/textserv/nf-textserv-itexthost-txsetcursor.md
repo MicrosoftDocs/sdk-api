@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCursor method, ITextHost.TxSetCursor, ITextHost::TxSetCursor, TxSetCursor, TxSetCursor method [Windows Controls], TxSetCursor method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCursor, _win32_ITextHost_TxSetCursor_cpp, controls.ITextHost_TxSetCursor, controls._win32_ITextHost_TxSetCursor, textserv/ITextHost::TxSetCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind method, CHString.ReverseFind, CHString::ReverseFind, ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation],CHString interface, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
@@ -88,7 +86,7 @@ Returns the zero-based index of the last character in the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">CHString::Find</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">CHString::Find</a>
 
 
 

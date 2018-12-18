@@ -9,8 +9,6 @@ ms.assetid: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816, AppearanceConstants, AppearanceConstants enumeration [Tablet PC], inked/AppearanceConstants, inked/rtfFlat, inked/rtfThreeD, rtfFlat, rtfThreeD, tablet.appearanceconstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

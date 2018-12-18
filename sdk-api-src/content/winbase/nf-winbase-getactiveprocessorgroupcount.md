@@ -9,8 +9,6 @@ ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

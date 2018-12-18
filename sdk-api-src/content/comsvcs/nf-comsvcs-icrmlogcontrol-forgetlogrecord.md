@@ -9,8 +9,6 @@ ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 04e4c9ea-4570-4fd0-986b-c835c692b73b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedTimeFormat, GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetSupportedTimeFormat method, IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
@@ -126,7 +124,7 @@ Success.
 
 
 
-Call the <a href="https://msdn.microsoft.com/5c398554-af2b-4e7d-8f5c-1c361535e7c6">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Dd406966(v=VS.85).aspx">GetNumTimeFormats</a> method to retrieve the number of time formats that the object supports.
 
 
 
@@ -136,7 +134,7 @@ Call the <a href="https://msdn.microsoft.com/5c398554-af2b-4e7d-8f5c-1c361535e7c
 
 
 
-<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
 
 
 

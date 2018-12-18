@@ -9,8 +9,6 @@ ms.assetid: EAEA2D05-2FCF-46A7-AEBD-9CF085D868E1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjWritePlaceholderInfo, PrjWritePlaceholderInfo function, ProjFS.prjwriteplaceholderinfo, projectedfslib/PrjWritePlaceholderInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

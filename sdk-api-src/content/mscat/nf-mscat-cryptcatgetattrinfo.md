@@ -9,8 +9,6 @@ ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

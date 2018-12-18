@@ -9,8 +9,6 @@ ms.assetid: 355553d7-f237-481c-a6d4-51e0af2b3f5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AttachmentFileListSize property [File Server Resource Manager], AttachmentFileListSize property [File Server Resource Manager],IFsrmActionEmail2 interface, IFsrmActionEmail2 interface [File Server Resource Manager],AttachmentFileListSize property, IFsrmActionEmail2.AttachmentFileListSize, IFsrmActionEmail2.get_AttachmentFileListSize, IFsrmActionEmail2::AttachmentFileListSize, IFsrmActionEmail2::get_AttachmentFileListSize, IFsrmActionEmail2::put_AttachmentFileListSize, fs.ifsrmactionemail2_attachmentfilelistsize, fsrm.ifsrmactionemail2_attachmentfilelistsize, fsrm/IFsrmActionEmail2::AttachmentFileListSize, fsrm/IFsrmActionEmail2::get_AttachmentFileListSize, fsrm/IFsrmActionEmail2::put_AttachmentFileListSize, get_AttachmentFileListSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

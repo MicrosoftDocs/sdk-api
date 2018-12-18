@@ -9,8 +9,6 @@ ms.assetid: c76a9117-5dd7-46fc-8390-3f1ec80f6499
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetTable method, IMpeg2Data.GetTable, IMpeg2Data::GetTable, IMpeg2DataGetTable, mpeg2data/IMpeg2Data::GetTable, mstv.impeg2data_gettable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 Retrieves a complete MPEG-2 PSI table. This method blocks until the filter receives all of the sections that make up the requested table, or until the specified time out elapses.
 

@@ -9,8 +9,6 @@ ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objsel.h
 req.include-header: 

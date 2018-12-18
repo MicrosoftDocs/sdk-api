@@ -9,8 +9,6 @@ ms.assetid: 5da076dc-360d-0b28-f131-8669d1a91dd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionDevice3, IDCompositionDevice3 interface [DirectComposition], IDCompositionDevice3 interface [DirectComposition],described, dcomp/IDCompositionDevice3, directcomp.idcompositiondevice3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -56,7 +54,7 @@ Serves as a factory for all other Microsoft DirectComposition objects and provid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>. <b>IDCompositionDevice3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>. <b>IDCompositionDevice3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,56 +69,56 @@ The <b>IDCompositionDevice3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E7421DD7-0E7D-4DDC-A6CD-807BF8638E5B">CreateAffineTransform2DEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950127(v=VS.85).aspx">CreateAffineTransform2DEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/1B693705-1118-4B9B-A7B7-E8811AE881AC">IDCompositionAffineTransform2DEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919690(v=VS.85).aspx">IDCompositionAffineTransform2DEffect</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0A06A546-7FD6-4B3C-86C8-0C5B9417D450">CreateArithmeticCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950128(v=VS.85).aspx">CreateArithmeticCompositeEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20E05261-E5B6-4F48-B595-F2AD8B96AB2E">CreateBlendEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950129(v=VS.85).aspx">CreateBlendEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4BD16F01-6CF1-4634-9D68-A153C7AABFFD">CreateBrightnessEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950130(v=VS.85).aspx">CreateBrightnessEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/22503D7B-A359-4877-A437-6A97D8835BC7">IDCompositionBrightnessEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx">IDCompositionBrightnessEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A286F5C1-764F-4FAF-B2D2-92820BD2E709">CreateColorMatrixEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950131(v=VS.85).aspx">CreateColorMatrixEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/75528E11-D041-4192-833A-31679316DF76">IDCompositionColorMatrixEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919722(v=VS.85).aspx">IDCompositionColorMatrixEffect</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9DA1541E-0792-482E-81AF-A6C91665D9D8">CreateCompositeEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950132(v=VS.85).aspx">CreateCompositeEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/72647FCE-F1B0-4A50-927B-23EE38EEEC8B">IDCompositionCompositeEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919728(v=VS.85).aspx">IDCompositionCompositeEffect</a>.
         
 
 </td>
@@ -137,69 +135,69 @@ Creates an instance of <a href="https://msdn.microsoft.com/A8A3ACF1-D074-454E-8F
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D05C7A70-107A-4246-9391-7B00ECAA0B80">CreateGaussianBlurEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950134(v=VS.85).aspx">CreateGaussianBlurEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/CFE79B69-75EC-4E22-BC3E-C82601AE1213">IDCompositionGaussianBlurEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919734(v=VS.85).aspx">IDCompositionGaussianBlurEffect</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4DA99723-CC21-454B-A24A-3988A15861D2">CreateHueRotationEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950135(v=VS.85).aspx">CreateHueRotationEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/BD11C779-78C6-4961-9DF1-2521B8F91FF5">IDCompositionHueRotationEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919738(v=VS.85).aspx">IDCompositionHueRotationEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C819B72A-ACE7-4201-9C4A-9D72E9E95FF7">CreateLinearTransferEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950136(v=VS.85).aspx">CreateLinearTransferEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/516CD029-DBB1-4AD7-92BB-8B6EF6C733FA">IDCompositionLinearTransferEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919741(v=VS.85).aspx">IDCompositionLinearTransferEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19613AF4-6EC0-4918-9FC1-147A04D321CA">CreateSaturationEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950137(v=VS.85).aspx">CreateSaturationEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/ADA7C54C-E237-4455-8808-962A631B37E0">IDCompositionSaturationEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919763(v=VS.85).aspx">IDCompositionSaturationEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C0A2B599-F061-4312-BDBC-96DF724F02D8">CreateShadowEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950138(v=VS.85).aspx">CreateShadowEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/115FD667-64D2-4538-9EB4-B133D5DCAF30">IDCompositionShadowEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919766(v=VS.85).aspx">IDCompositionShadowEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C6438DB2-26DA-451A-B748-901C809C1369">CreateTableTransferEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950139(v=VS.85).aspx">CreateTableTransferEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/147E15B8-C529-4BC6-85AA-FB069B892C6C">IDCompositionTableTransferEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx">IDCompositionTableTransferEffect</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40BCD422-7545-4CB9-9C8E-2F0D2B4E6C51">CreateTurbulenceEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950140(v=VS.85).aspx">CreateTurbulenceEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of <a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>.
         
 
 </td>

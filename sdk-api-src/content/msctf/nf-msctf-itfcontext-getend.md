@@ -9,8 +9,6 @@ ms.assetid: 4fdae76d-ad02-43a4-8a39-418cae847ae8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetEnd method, ITfContext.GetEnd, ITfContext::GetEnd, _tsf_itfcontext_getend_ref, msctf/ITfContext::GetEnd, tsf.itfcontext_getend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

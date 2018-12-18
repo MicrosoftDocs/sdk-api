@@ -9,8 +9,6 @@ ms.assetid: 2608adde-4f18-4048-a96f-d736ff09cd4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_REPSYNCALL_ABORT_IF_SERVER_UNAVAILABLE, DS_REPSYNCALL_CROSS_SITE_BOUNDARIES, DS_REPSYNCALL_DO_NOT_SYNC, DS_REPSYNCALL_ID_SERVERS_BY_DN, DS_REPSYNCALL_NO_OPTIONS, DS_REPSYNCALL_PUSH_CHANGES_OUTWARD, DS_REPSYNCALL_SKIP_INITIAL_CHECK, DS_REPSYNCALL_SYNC_ADJACENT_SERVERS_ONLY, DsReplicaSyncAll, DsReplicaSyncAll function [Active Directory], DsReplicaSyncAllA, DsReplicaSyncAllW, ad.dsreplicasyncall, ntdsapi/DsReplicaSyncAll, ntdsapi/DsReplicaSyncAllA, ntdsapi/DsReplicaSyncAllW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -142,7 +140,7 @@ Pointer to application-defined data passed as the first argument of the <a href=
 ### -param pErrors [out, optional]
 
 A NULL-terminated array of pointers to  
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a> structures that contain errors that occurred during synchronization. The memory used to hold both the array of pointers and the MsCS\mscs\clusctl_resource_type_get_private_property_fmts.xml data is allocated as a single block of memory and should be freed when no longer required  by a single call to <b>LocalFree</b> with the pointer value returned in <i>pErrors</i> used as the argument.
+<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a> structures that contain errors that occurred during synchronization. The memory used to hold both the array of pointers and the MsCS\mscs\clusctl_resource_type_get_private_property_fmts.xml data is allocated as a single block of memory and should be freed when no longer required  by a single call to <b>LocalFree</b> with the pointer value returned in <i>pErrors</i> used as the argument.
 
 
 ## -returns
@@ -174,11 +172,11 @@ The <b>DsReplicaSyncAll</b> function can use the callback function pointed to by
 
 
 
-<a href="https://msdn.microsoft.com/70af4e3e-1f0e-49c5-b8c6-5e89114ed4ea">DS_REPSYNCALL_ERRINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676278(v=VS.85).aspx">DS_REPSYNCALL_ERRINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b0005cb-0fb6-492c-89e5-8a18a88f881b">DS_REPSYNCALL_UPDATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676282(v=VS.85).aspx">DS_REPSYNCALL_UPDATE</a>
 
 
 

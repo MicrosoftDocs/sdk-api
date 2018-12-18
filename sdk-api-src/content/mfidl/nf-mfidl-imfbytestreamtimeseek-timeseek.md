@@ -9,8 +9,6 @@ ms.assetid: 786F1299-A9E2-4B2C-A6AE-F88E6BF022DC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],TimeSeek method, IMFByteStreamTimeSeek.TimeSeek, IMFByteStreamTimeSeek::TimeSeek, TimeSeek, TimeSeek method [Media Foundation], TimeSeek method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_timeseek, mfidl/IMFByteStreamTimeSeek::TimeSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

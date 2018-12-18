@@ -9,8 +9,6 @@ ms.assetid: 15d61f2c-9348-47af-a9cf-4706ab0033b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDashStyle, GetDashStyle method [Direct2D], GetDashStyle method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashStyle method, ID2D1StrokeStyle.GetDashStyle, ID2D1StrokeStyle::GetDashStyle, d2d1/ID2D1StrokeStyle::GetDashStyle, direct2d.ID2D1StrokeStyle_GetDashStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

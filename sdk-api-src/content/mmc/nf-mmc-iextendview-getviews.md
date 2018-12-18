@@ -9,8 +9,6 @@ ms.assetid: 447b51b1-e206-43c8-8536-049c831dedb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViews, GetViews method [MMC], GetViews method [MMC],IExtendView interface, IExtendView interface [MMC],GetViews method, IExtendView.GetViews, IExtendView::GetViews, _slate_iextendview_getviews, mmc.iextendview_getviews, mmc/IExtendView::GetViews
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

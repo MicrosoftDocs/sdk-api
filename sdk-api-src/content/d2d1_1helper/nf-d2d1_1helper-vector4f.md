@@ -9,8 +9,6 @@ ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Vector4F, Vector4F function [Direct2D], d2d1_1helper/Vector4F, direct2d.vector4f
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

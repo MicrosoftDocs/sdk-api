@@ -9,8 +9,6 @@ ms.assetid: 7F3E805A-FE5C-4B75-9333-AE9819CFAFFA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [Media Foundation], GetNumberOfStreams method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetNumberOfStreams method, IMFMediaEngineEx.GetNumberOfStreams, IMFMediaEngineEx::GetNumberOfStreams, mf.imfmediaengineex_getnumberofstreams, mfmediaengine/IMFMediaEngineEx::GetNumberOfStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

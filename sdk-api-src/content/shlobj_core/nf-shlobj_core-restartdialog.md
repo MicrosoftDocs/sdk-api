@@ -9,8 +9,6 @@ ms.assetid: ec1e3c11-9960-482c-8461-72c4d41dff3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialog, RestartDialog function [Windows Shell], _win32_RestartDialog, shell.RestartDialog, shlobj_core/RestartDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

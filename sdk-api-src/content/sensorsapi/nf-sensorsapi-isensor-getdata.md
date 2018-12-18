@@ -9,8 +9,6 @@ ms.assetid: 89145856-96c7-48c2-988c-b410ab20aed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

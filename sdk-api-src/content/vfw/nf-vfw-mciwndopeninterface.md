@@ -9,8 +9,6 @@ ms.assetid: ad31d945-27f8-48d5-a49b-e36f4beb5de6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndOpenInterface, MCIWndOpenInterface macro [Windows Multimedia], _win32_MCIWndOpenInterface, multimedia.mciwndopeninterface, vfw/MCIWndOpenInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

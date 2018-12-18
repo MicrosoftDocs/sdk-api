@@ -9,8 +9,6 @@ ms.assetid: e323f967-02d5-4472-a9b3-cb8a2b80070e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StopNetStreaming method, IWMReaderAdvanced3.StopNetStreaming, IWMReaderAdvanced3::StopNetStreaming, IWMReaderAdvanced3StopNetStreaming, StopNetStreaming, StopNetStreaming method [windows Media Format], StopNetStreaming method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_stopnetstreaming, wmsdkidl/IWMReaderAdvanced3::StopNetStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -89,11 +87,11 @@ When this method is finished, a WMT_END_OF_STREAMING message will be delivered t
 
 
 
-<a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 5130c88e-08e8-4faa-a1cb-a8106c86cea0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StretchBlt, StretchBlt function [Windows GDI], _win32_StretchBlt, gdi.stretchblt, wingdi/StretchBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

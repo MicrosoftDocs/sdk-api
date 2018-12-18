@@ -9,8 +9,6 @@ ms.assetid: 5289E451-58E7-4233-8498-555BFD7C3732
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMsaTarget, GetMsaTarget method, GetMsaTarget method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaTarget method, IXblIdpAuthTokenResult.GetMsaTarget, IXblIdpAuthTokenResult::GetMsaTarget, xblidp.ixblidpauthtokenresult_getmsatarget, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

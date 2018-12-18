@@ -9,8 +9,6 @@ ms.assetid: eafda7ed-b18c-4d52-9d1c-a9d1a2d5dfd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertReturnedElement, ConvertReturnedElement method [Windows Accessibility], ConvertReturnedElement method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],ConvertReturnedElement method, IAccessibleEx.ConvertReturnedElement, IAccessibleEx::ConvertReturnedElement, uiauto.uiauto_IAccessibleEx_ConvertReturnedElement, uiauto_IAccessibleEx_ConvertReturnedElement, uiautomationcore/IAccessibleEx::ConvertReturnedElement, winauto.uiauto_IAccessibleEx_ConvertReturnedElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WofEnumFilesProc, WofEnumFilesProc callback, WofEnumFilesProc callback function [Files], fs.wofenumfilesproc, wofapi/WofEnumFilesProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wofapi.h
 req.include-header: 

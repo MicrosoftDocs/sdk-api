@@ -9,8 +9,6 @@ ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

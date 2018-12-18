@@ -9,8 +9,6 @@ ms.assetid: dea82534-4b73-4c74-9cea-d17ba8aff2e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

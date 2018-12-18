@@ -9,8 +9,6 @@ ms.assetid: 4a28bf6b-ad3d-414b-8740-ce7d4301a05b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],acceptResponseBlob method, IEnroll4.acceptResponseBlob, IEnroll4::acceptResponseBlob, acceptResponseBlob, acceptResponseBlob method [Security], acceptResponseBlob method [Security],IEnroll4 interface, security.ienroll4_acceptresponseblob, xenroll/IEnroll4::acceptResponseBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

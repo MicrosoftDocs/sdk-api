@@ -9,8 +9,6 @@ ms.assetid: 975e5921-cc76-4b38-9f3c-364e8704ba03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetWindowInputRectangle method, IInkPicture.GetWindowInputRectangle, IInkPicture::GetWindowInputRectangle, msinkaut/IInkPicture::GetWindowInputRectangle, tablet.inkpicture_getwindowinputrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -146,7 +144,7 @@ If you call <b>GetWindowInputRectangle</b> before you call the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

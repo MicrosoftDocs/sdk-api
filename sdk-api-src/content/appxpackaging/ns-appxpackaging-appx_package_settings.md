@@ -9,8 +9,6 @@ ms.assetid: 85874BCD-44EF-4442-96B8-F22AC4247DB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: APPX_PACKAGE_SETTINGS, APPX_PACKAGE_SETTINGS structure [App packaging and management], appxpackaging/APPX_PACKAGE_SETTINGS, appxpkg.appx_package_settings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 

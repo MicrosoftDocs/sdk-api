@@ -9,8 +9,6 @@ ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 ]
 
 The <b>IWMGetSecureChannel</b> interface is used by one communication party to get the
- other party's <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> interface.
+ other party's <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a> interface.
 
 
 ## -inheritance
@@ -74,10 +72,10 @@ The <b>IWMGetSecureChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bda30638-10b5-4288-b885-b63485606a7f">GetPeerSecureChannelInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798503(v=VS.85).aspx">GetPeerSecureChannelInterface</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> interface from the other communication party.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a> interface from the other communication party.
 
 </td>
 </tr>

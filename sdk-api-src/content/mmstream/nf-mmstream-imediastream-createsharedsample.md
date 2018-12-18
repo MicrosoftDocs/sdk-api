@@ -9,8 +9,6 @@ ms.assetid: acefa476-e607-45b4-854d-840e948af029
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSharedSample, CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],CreateSharedSample method, IMediaStream.CreateSharedSample, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -75,7 +73,7 @@ Reserved for flag data. Must be zero.
 
 ### -param ppNewSample [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample</a> interface that will point to the newly created shared sample.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a> interface that will point to the newly created shared sample.
 
 
 ## -returns
@@ -153,7 +151,7 @@ This method calls <b>IUnknown::QueryInterface</b> on the existing sample to retr
 
 
 
-<a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream Interface</a>
  
 
  

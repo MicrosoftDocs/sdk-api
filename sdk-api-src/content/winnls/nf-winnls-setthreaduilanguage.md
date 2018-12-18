@@ -9,8 +9,6 @@ ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

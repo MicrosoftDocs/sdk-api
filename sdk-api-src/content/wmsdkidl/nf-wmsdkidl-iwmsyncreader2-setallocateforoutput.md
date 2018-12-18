@@ -9,8 +9,6 @@ ms.assetid: 2f0c754e-f09c-472f-8f40-3fcd0fb29c48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetAllocateForOutput method, IWMSyncReader2.SetAllocateForOutput, IWMSyncReader2::SetAllocateForOutput, IWMSyncReader2SetAllocateForOutput, SetAllocateForOutput, SetAllocateForOutput method [windows Media Format], SetAllocateForOutput method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setallocateforoutput, wmsdkidl/IWMSyncReader2::SetAllocateForOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>SetAllocateForOutput</b> method sets a sample allocation callback interface for allocating output samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/e2e4881b-2186-47c9-b74e-3a59a9fac7c9">IWMReaderAllocatorEx::AllocateForOutputEx</a> method every time it needs a buffer to hold an output sample.
+The <b>SetAllocateForOutput</b> method sets a sample allocation callback interface for allocating output samples. This method enables you to use your own buffers for reading samples. Once set, the synchronous reader will call the <a href="https://msdn.microsoft.com/en-us/library/Dd743491(v=VS.85).aspx">IWMReaderAllocatorEx::AllocateForOutputEx</a> method every time it needs a buffer to hold an output sample.
 
 
 
@@ -71,7 +69,7 @@ The <b>SetAllocateForOutput</b> method sets a sample allocation callback interfa
 
 ### -param pAllocator [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx</a> interface implemented in your application.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface implemented in your application.
 
 
 ## -returns
@@ -92,11 +90,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/aef68130-57a8-4bb6-8091-8ee2c75bdf76">IWMSyncReader2::GetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798578(v=VS.85).aspx">IWMSyncReader2::GetAllocateForOutput</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetName method, ICreateTypeLib.SetName, ICreateTypeLib::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

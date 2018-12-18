@@ -9,8 +9,6 @@ ms.assetid: 7446792e-7f29-4ad4-8245-b86f63f2df18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextCallback, ContextCallback method [COM], ContextCallback method [COM],IContextCallback interface, IContextCallback interface [COM],ContextCallback method, IContextCallback.ContextCallback, IContextCallback::ContextCallback, _com_icontextcallback_contextcallback, com.icontextcallback_contextcallback, ctxtcall/IContextCallback::ContextCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctxtcall.h
 req.include-header: 
@@ -112,7 +110,7 @@ If <i>riid</i> is set to IID_ICallbackWithNoReentrancyToApplicationSTA, the func
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682253(v=VS.85).aspx">IContextCallback</a>
+<a href="https://msdn.microsoft.com/47af7b80-3419-4a40-8932-a5a27f297dc9">IContextCallback</a>
  
 
  

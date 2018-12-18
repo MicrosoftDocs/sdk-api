@@ -9,8 +9,6 @@ ms.assetid: d237d3dc-b3c9-44b2-9277-798c4830b361
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetDrawBackgroundMode method, IAMWstDecoder.SetDrawBackgroundMode, IAMWstDecoder::SetDrawBackgroundMode, IAMWstDecoderSetDrawBackgroundMode, SetDrawBackgroundMode, SetDrawBackgroundMode method [DirectShow], SetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setdrawbackgroundmode, iwstdec/IAMWstDecoder::SetDrawBackgroundMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -64,7 +62,7 @@ Downstream filters use the <code>SetDrawBackgroundMode</code> method to assign w
 
 ### -param Mode [in]
 
-A member of the <a href="https://msdn.microsoft.com/1c27f3e1-a097-4f0e-af01-62cf500a3264">AM_WST_DRAWBGMODE</a> enumeration that specifies whether the caption text background is to be opaque or transparent.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373506(v=VS.85).aspx">AM_WST_DRAWBGMODE</a> enumeration that specifies whether the caption text background is to be opaque or transparent.
 
 <table>
 <tr>
@@ -103,7 +101,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

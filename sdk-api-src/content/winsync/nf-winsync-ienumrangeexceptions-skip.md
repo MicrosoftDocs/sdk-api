@@ -9,8 +9,6 @@ ms.assetid: 61907858-4089-4c12-865c-623a43132be3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Skip method, IEnumRangeExceptions.Skip, IEnumRangeExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_skip, winsync/IEnumRangeExceptions::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

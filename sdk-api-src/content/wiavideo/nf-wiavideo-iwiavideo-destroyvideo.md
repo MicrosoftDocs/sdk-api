@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\destroyvideo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],DestroyVideo method, IWiaVideo.DestroyVideo, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

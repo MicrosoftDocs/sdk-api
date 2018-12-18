@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8cdh.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],FriendlyName property, IFaxRoutingMethod.FriendlyName, IFaxRoutingMethod.get_FriendlyName, IFaxRoutingMethod::FriendlyName, IFaxRoutingMethod::get_FriendlyName, _mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_friendlyname_cpp, faxcom/IFaxRoutingMethod::FriendlyName, faxcom/IFaxRoutingMethod::get_FriendlyName, get_FriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <a href="https://msdn.microsoft.com/a87834ee-be7c-4ffc-9482-177e96bfebd0">IFaxRoutingMethod::get_Guid</a> property to uniquely identify a fax routing method. Note that it is possible for multiple routing methods to have the same user-friendly name, and even the same function name. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691955(v=VS.85).aspx">Fax Routing Methods</a>.
+A fax client application can use the <a href="https://msdn.microsoft.com/en-us/library/ms690897(v=VS.85).aspx">IFaxRoutingMethod::get_Guid</a> property to uniquely identify a fax routing method. Note that it is possible for multiple routing methods to have the same user-friendly name, and even the same function name. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691955(v=VS.85).aspx">Fax Routing Methods</a>.
 
 <b>IFaxRoutingMethod::get_FriendlyName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -91,11 +89,11 @@ A fax client application can use the <a href="https://msdn.microsoft.com/a87834e
 
 
 
-<a href="https://msdn.microsoft.com/0a6798a7-3017-4a47-a288-91a1ae453e7f">IFaxRoutingMethod::get_FunctionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690894(v=VS.85).aspx">IFaxRoutingMethod::get_FunctionName</a>
 
 
 
-<a href="https://msdn.microsoft.com/a87834ee-be7c-4ffc-9482-177e96bfebd0">IFaxRoutingMethod::get_Guid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690897(v=VS.85).aspx">IFaxRoutingMethod::get_Guid</a>
 
 
 

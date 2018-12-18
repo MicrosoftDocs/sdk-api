@@ -9,8 +9,6 @@ ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 The
 				<b>SnmpUtilVarBindCpy</b> function copies the specified 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure, and allocates any memory necessary for the destination structure. The 
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure, and allocates any memory necessary for the destination structure. The 
 <b>SnmpUtilVarBindCpy</b> function is an element of the SNMP Utility API.
 
 
@@ -66,13 +64,13 @@ The
 ### -param pVbDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure to receive the copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure to receive the copy.
 
 
 ### -param pVbSrc [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a> structure to copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a> structure to copy.
 
 
 ## -returns
@@ -114,7 +112,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a>
  
 
  

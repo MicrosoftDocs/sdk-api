@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorRotateLeft(XMVECTOR,u
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorRotateLeft, XMVectorRotateLeft, XMVectorRotateLeft method [DirectX Math Support APIs], dxmath.xmvectorrotateleft
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -92,7 +90,7 @@ XMVECTOR result = XMVectorRotateLeft( v, 1 );
 
 The rotated vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 10.0f&gt;.
 
-In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/ba3698ed-212d-4ef0-846a-4099d0e1abec">XMVectorRotateLeft</a>:
+In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855945(v=VS.85).aspx">XMVectorRotateLeft</a>:
 
 
 ```
@@ -118,15 +116,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea47a1a6-6f59-4933-99b1-1b4a67038a6e">XMVectorRotateRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d0a0795-1eb6-4189-8307-52deeb99a4ba">XMVectorShiftLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx">XMVectorShiftLeft</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 8b8e4ec9-3d85-4d64-98dc-86e5fd093e93
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCloseUrlGroup, HttpCloseUrlGroup function [HTTP], http.httpcloseurlgroup, http/HttpCloseUrlGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

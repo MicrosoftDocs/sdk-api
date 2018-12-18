@@ -9,8 +9,6 @@ ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: scrnsave.h
 req.include-header: 

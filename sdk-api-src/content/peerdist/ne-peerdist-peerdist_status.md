@@ -1,5 +1,5 @@
 ---
-UID: NE:peerdist.PEERDIST_STATUS
+UID: NE:peerdist.__unnamed_enum_0
 title: PEERDIST_STATUS
 author: windows-sdk-content
 description: PEERDIST_STATUS enumeration defines the possible status values of the Peer Distribution service.
@@ -7,10 +7,8 @@ old-location: p2p\peerdist_status.htm
 tech.root: P2PSdk
 ms.assetid: d693dc1c-39ce-4a2b-b769-9d370abc3d3c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PEERDIST_STATUS, PEERDIST_STATUS enumeration [Peer Networking], PEERDIST_STATUS_AVAILABLE, PEERDIST_STATUS_DISABLED, PEERDIST_STATUS_UNAVAILABLE, p2p.peerdist_status, peerdist/PEERDIST_STATUS, peerdist/PEERDIST_STATUS_AVAILABLE, peerdist/PEERDIST_STATUS_DISABLED, peerdist/PEERDIST_STATUS_UNAVAILABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: peerdist.h
 req.include-header: 

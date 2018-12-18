@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_arrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LVA_ALIGNLEFT, LVA_ALIGNTOP, LVA_DEFAULT, LVA_SNAPTOGRID, ListView_Arrange, ListView_Arrange macro [Windows Controls], _win32_ListView_Arrange, _win32_ListView_Arrange_cpp, commctrl/ListView_Arrange, controls.ListView_Arrange, controls._win32_ListView_Arrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Arranges items in icon view. You can use this macro or send the <a href="https:/
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param code
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 One of the following values that specifies alignment:
 

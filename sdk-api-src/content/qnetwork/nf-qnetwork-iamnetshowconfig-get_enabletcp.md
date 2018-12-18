@@ -9,8 +9,6 @@ ms.assetid: b4282f84-e05b-407f-9425-0690783957c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableTCP method, IAMNetShowConfig.get_EnableTCP, IAMNetShowConfig::get_EnableTCP, IAMNetShowConfigget_EnableTCP, dshow.iamnetshowconfig_get_enabletcp, get_EnableTCP, get_EnableTCP method [DirectShow], get_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableTCP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,11 +78,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/95c689c9-34f6-49b2-bd3b-0f68a110c4f2">IAMNetShowConfig::get_EnableUDP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319702(v=VS.85).aspx">IAMNetShowConfig::get_EnableUDP</a>
  
 
  

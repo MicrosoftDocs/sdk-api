@@ -9,8 +9,6 @@ ms.assetid: 5d4aef81-2be3-41c6-8639-8a0c5402615a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MessageText property, IFsrmActionEmail.MessageText, IFsrmActionEmail.get_MessageText, IFsrmActionEmail2 interface [File Server Resource Manager],MessageText property, IFsrmActionEmail2.MessageText, IFsrmActionEmail2::MessageText, IFsrmActionEmail2::get_MessageText, IFsrmActionEmail2::put_MessageText, IFsrmActionEmail::get_MessageText, IFsrmActionEmail::put_MessageText, MessageText property [File Server Resource Manager], MessageText property [File Server Resource Manager],IFsrmActionEmail interface, MessageText property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_messagetext, fsrm.ifsrmactionemail_messagetext, fsrm/IFsrmActionEmail2::MessageText, fsrm/IFsrmActionEmail2::get_MessageText, fsrm/IFsrmActionEmail2::put_MessageText, fsrm/IFsrmActionEmail::MessageText, fsrm/IFsrmActionEmail::get_MessageText, fsrm/IFsrmActionEmail::put_MessageText, get_MessageText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

@@ -9,8 +9,6 @@ ms.assetid: 61ecd153-ed6b-4a2c-a862-54742c5769ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleObject interface, IOleObject interface [COM],Close method, IOleObject.Close, IOleObject::Close, _ole_ioleobject_close, com.ioleobject_close, oleidl/IOleObject::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

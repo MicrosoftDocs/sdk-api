@@ -9,8 +9,6 @@ ms.assetid: FE38F14B-69EA-4129-A944-DBBF784B53DE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(float), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(float), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -93,11 +91,11 @@ If the AngleX property was previously animated, this method removes the animatio
 
 
 
-<a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/BD3D282C-5BBD-4BCE-AE15-4491A37D9149">IDCompositionSkewTransform::SetAngleY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449069(v=VS.85).aspx">IDCompositionSkewTransform::SetAngleY</a>
  
 
  

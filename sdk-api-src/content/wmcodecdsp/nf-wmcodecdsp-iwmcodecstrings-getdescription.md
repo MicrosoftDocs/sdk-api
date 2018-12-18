@@ -9,8 +9,6 @@ ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetDescription method, IWMCodecStrings.GetDescription, IWMCodecStrings::GetDescription, codecapi.iwmcodecstringsgetdescription, mf.iwmcodecstringsgetdescription, wmcodecdsp/IWMCodecStrings::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 994fef62-77cf-4c99-be54-b4aff35a10f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlushViewOfFile, FlushViewOfFile function, _win32_flushviewoffile, base.flushviewoffile, fs.flushviewoffile, winbase/FlushViewOfFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

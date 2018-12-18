@@ -9,8 +9,6 @@ ms.assetid: a20a70af-49bc-408f-8c64-779525436f8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderPlaylistBurn interface [windows Media Format],InitPlaylistBurn method, IWMReaderPlaylistBurn.InitPlaylistBurn, IWMReaderPlaylistBurn::InitPlaylistBurn, IWMReaderPlaylistBurnInitPlaylistBurn, InitPlaylistBurn, InitPlaylistBurn method [windows Media Format], InitPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, wmformat.iwmreaderplaylistburn_initplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::InitPlaylistBurn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -81,7 +79,7 @@ Address of the <b>IWMStatusCallback</b> implementation that will receive the WMT
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
+Generic pointer, for use by the application. This is passed to the application in calls to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback. You can use this parameter to differentiate between messages from different objects when sharing a single status callback.
 
 
 ## -returns
@@ -116,7 +114,7 @@ The method succeeded.
 
 
 
-This method executes asynchronously. When it is finished, a WMT_INIT_PLAYLIST_BURN message is sent to the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">OnStatus</a> method of the <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a> interface identified by the <i>pCallback</i> parameter.
+This method executes asynchronously. When it is finished, a WMT_INIT_PLAYLIST_BURN message is sent to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">OnStatus</a> method of the <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface identified by the <i>pCallback</i> parameter.
 
 The files are checked to determine whether they are DRM-protected. If a file is protected, its license is checked to verify that the license allows copying to CD as part of a playlist.
 
@@ -128,7 +126,7 @@ The files are checked to determine whether they are DRM-protected. If a file is 
 
 
 
-<a href="https://msdn.microsoft.com/a0e1a4f3-4226-44a2-b38e-e5512fda2048">IWMReaderPlaylistBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743552(v=VS.85).aspx">IWMReaderPlaylistBurn Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 55b54edf-fd1d-45b8-95d4-a746a60e5310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceObject, GetServiceObject method [UPnP APIs], GetServiceObject method [UPnP APIs],IUPnPDeviceControl interface, IUPnPDeviceControl interface [UPnP APIs],GetServiceObject method, IUPnPDeviceControl.GetServiceObject, IUPnPDeviceControl::GetServiceObject, _upnp_iupnpdevicecontrol_getserviceobject, upnp.iupnpdevicecontrol_getserviceobject, upnphost/IUPnPDeviceControl::GetServiceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 

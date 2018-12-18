@@ -9,8 +9,6 @@ ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

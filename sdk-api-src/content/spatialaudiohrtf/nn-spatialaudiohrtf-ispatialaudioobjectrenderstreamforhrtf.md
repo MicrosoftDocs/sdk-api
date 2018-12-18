@@ -9,8 +9,6 @@ ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: spatialaudiohrtf.h
 req.include-header: 
@@ -57,7 +55,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamForHrtf</b> interface inherits from <a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStreamForHrtf</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectRenderStreamForHrtf</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>. <b>ISpatialAudioObjectRenderStreamForHrtf</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,7 +84,7 @@ Activates an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A8
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
 <div> </div>
 
 
@@ -96,7 +94,7 @@ Activates an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A8
 
 
 
-<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

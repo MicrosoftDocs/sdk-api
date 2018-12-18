@@ -9,8 +9,6 @@ ms.assetid: A5ABCA78-BBA3-48EE-8A5E-BACDD2CDED37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNibTransform, GetNibTransform method [Direct2D], GetNibTransform method [Direct2D],ID2D1InkStyle interface, ID2D1InkStyle interface [Direct2D],GetNibTransform method, ID2D1InkStyle.GetNibTransform, ID2D1InkStyle::GetNibTransform, d2d1_3/ID2D1InkStyle::GetNibTransform, direct2d.id2d1inkstyle_getnibtransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d72f6877-eb89-400e-a1bc-393116a9666f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateAddresses, EnumerateAddresses method [TAPI 2.2], EnumerateAddresses method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateAddresses method, ITPhone.EnumerateAddresses, ITPhone::EnumerateAddresses, _tapi3_itphone_enumerateaddresses, tapi3.itphone_enumerateaddresses, tapi3if/ITPhone::EnumerateAddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

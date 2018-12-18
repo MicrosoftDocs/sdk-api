@@ -9,8 +9,6 @@ ms.assetid: fd00fc89-077e-4897-a7ec-d2e06167b7b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],Uninstall method, IUpdateInstaller.Uninstall, IUpdateInstaller::Uninstall, Uninstall, Uninstall method [Windows Update Agent], Uninstall method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_uninstall, wuapi/IUpdateInstaller::Uninstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

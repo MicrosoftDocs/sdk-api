@@ -9,8 +9,6 @@ ms.assetid: 748d09a6-52db-4bd0-9006-6ee96f07a74b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDrawSuggestFormat, ICDrawSuggestFormat function [Windows Multimedia], _win32_ICDrawSuggestFormat, multimedia.icdrawsuggestformat, vfw/ICDrawSuggestFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

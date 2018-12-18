@@ -9,8 +9,6 @@ ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

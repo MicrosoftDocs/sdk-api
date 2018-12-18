@@ -9,8 +9,6 @@ ms.assetid: 218875bf-be6b-4ca5-8904-81c81c7fbf70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrEventStore, ISyncMgrEventStore interface [Windows Shell], ISyncMgrEventStore interface [Windows Shell],described, _shell_ISyncMgrEventStore, shell.ISyncMgrEventStore, syncmgr/ISyncMgrEventStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b3010519-583e-4341-a673-9cc97a6f4232
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LongLongAdd, LongLongAdd function [Windows Shell], intsafe/LongLongAdd, shell.LongLongAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

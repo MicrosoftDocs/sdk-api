@@ -9,8 +9,6 @@ ms.assetid: 562e7618-06ac-4bd3-9746-6ff3a7531b6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Detach method, IWSDiscoveryProvider.Detach, IWSDiscoveryProvider::Detach, ncd.iwsdiscoveryprovider_detach_method, wsddisco/IWSDiscoveryProvider::Detach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

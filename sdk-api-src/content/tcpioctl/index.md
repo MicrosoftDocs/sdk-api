@@ -2,7 +2,7 @@
 UID: NA:tcpioctl
 ms.assetid: 2b698fce-bd98-3a50-89b5-2a40b928f028
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

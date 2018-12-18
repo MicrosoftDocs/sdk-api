@@ -9,8 +9,6 @@ ms.assetid: 99895407-2BFF-40AA-BAE4-C304295DA0E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12DebugDevice1 interface,ReportLiveDeviceObjects method, ID3D12DebugDevice1.ReportLiveDeviceObjects, ID3D12DebugDevice1::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method, ReportLiveDeviceObjects method,ID3D12DebugDevice1 interface, d3d12sdklayers/ID3D12DebugDevice1::ReportLiveDeviceObjects, direct3d12.id3d12debugdevice1_reportlivedeviceobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -60,9 +58,9 @@ Specifies the amount of information to report  on a device object's lifetime.
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950148(v=VS.85).aspx">D3D12_RLDO_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/FF868102-26FC-4541-9C21-0B8D6D4CF47B">D3D12_RLDO_FLAGS</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dn950148(v=VS.85).aspx">D3D12_RLDO_FLAGS</a> enumeration. This method uses the value in <i>Flags</i> to determine the amount of information to report about a device object's lifetime.
+A value from the <a href="https://msdn.microsoft.com/FF868102-26FC-4541-9C21-0B8D6D4CF47B">D3D12_RLDO_FLAGS</a> enumeration. This method uses the value in <i>Flags</i> to determine the amount of information to report about a device object's lifetime.
 
 
 ## -returns
@@ -71,7 +69,7 @@ A value from the <a href="https://msdn.microsoft.com/en-us/library/Dn950148(v=VS
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 
@@ -82,7 +80,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt762990(v=VS.85).aspx">ID3D12DebugDevice1</a>
+<a href="https://msdn.microsoft.com/DDB71272-195A-4E05-BA52-9EF858ACD6CB">ID3D12DebugDevice1</a>
  
 
  

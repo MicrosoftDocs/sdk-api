@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_31df.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Status property, IFaxOutgoingJob.Status, IFaxOutgoingJob.get_Status, IFaxOutgoingJob::Status, IFaxOutgoingJob::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.status, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_status_cpp, fax._mfax_faxoutgoingjob_status, faxcomex/IFaxOutgoingJob::Status, faxcomex/IFaxOutgoingJob::get_Status, get_Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/7629c51e-2108-4fc6-9870-9500a7fffa62">FAX_JOB_STATUS_ENUM</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690046(v=VS.85).aspx">FAX_JOB_STATUS_ENUM</a>.
 
 
 
@@ -74,11 +72,11 @@ For more information, see <a href="https://msdn.microsoft.com/7629c51e-2108-4fc6
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
  
 
  

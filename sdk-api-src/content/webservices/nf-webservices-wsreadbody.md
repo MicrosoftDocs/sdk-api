@@ -9,8 +9,6 @@ ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 This is a helper function that deserializes a value from the XML Readerof the message.
-            The <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> must be set to <b>WS_MESSAGE_STATE_READING</b>.  This function does
+            The <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE</a> must be set to <b>WS_MESSAGE_STATE_READING</b>.  This function does
                 not cause any state transitions.
             
 
@@ -79,7 +77,7 @@ A pointer to the object encapsulating the metadata that describes the mapping of
 ### -param readOption [in]
 
 Determines whether the value is required and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
                 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 34f22aea-9cde-411e-b2d5-bfcd3bfe325d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAuditAccessAce, AddAuditAccessAce function [Security], _win32_addauditaccessace, security.addauditaccessace, securitybaseapi/AddAuditAccessAce
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

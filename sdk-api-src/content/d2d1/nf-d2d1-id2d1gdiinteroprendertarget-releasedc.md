@@ -9,8 +9,6 @@ ms.assetid: 802bd023-f223-4505-9911-95b43f3490e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1GdiInteropRenderTarget interface [Direct2D],ReleaseDC method, ID2D1GdiInteropRenderTarget.ReleaseDC, ID2D1GdiInteropRenderTarget::ReleaseDC, ReleaseDC, ReleaseDC method [Direct2D], ReleaseDC method [Direct2D],ID2D1GdiInteropRenderTarget interface, d2d1/ID2D1GdiInteropRenderTarget::ReleaseDC, direct2d.ID2D1GdiInteropRenderTarget_ReleaseDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ The modified region of the device context, or <b>NULL</b> to specify the entire 
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

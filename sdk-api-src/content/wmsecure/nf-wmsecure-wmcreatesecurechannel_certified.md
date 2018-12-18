@@ -9,8 +9,6 @@ ms.assetid: 0381c653-05e1-417c-beee-40c4aa4271f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateSecureChannel_Certified, WMCreateSecureChannel_Certified function [windows Media Format], wmformat.wmcreatesecurechannel_certified, wmsecure/WMCreateSecureChannel_Certified
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsecure.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an object that implements <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>.
+Creates an object that implements <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Creates an object that implements <a href="https://msdn.microsoft.com/ccf34dc2-a
 
 ### -param ppChannel
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a> interface of the newly created secure channel object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a> interface of the newly created secure channel object.
 
 
 ## -returns
@@ -77,7 +75,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
  
 
  

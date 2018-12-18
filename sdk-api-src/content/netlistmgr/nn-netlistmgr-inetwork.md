@@ -7,10 +7,8 @@ old-location: nla\inetwork.htm
 tech.root: nla
 ms.assetid: 6d483058-f7c4-4a6c-a1a8-816c2fab9994
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: INetwork, INetwork interface [Network Awareness], INetwork interface [Network Awareness],described, netlistmgr/INetwork, nla.inetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

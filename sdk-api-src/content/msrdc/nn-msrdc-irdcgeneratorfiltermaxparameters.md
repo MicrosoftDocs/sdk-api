@@ -9,8 +9,6 @@ ms.assetid: 6767ab24-2bb6-48bf-8f12-794d8b22e2b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression], IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],described, fs.irdcgeneratorfiltermaxparameters, msrdc/IRdcGeneratorFilterMaxParameters, rdc.irdcgeneratorfiltermaxparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

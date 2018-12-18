@@ -9,8 +9,6 @@ ms.assetid: 1bc28f44-1595-4d45-872f-2473bffd33aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeDuckNotification method, IAudioVolumeDuckNotification.OnVolumeDuckNotification, IAudioVolumeDuckNotification::OnVolumeDuckNotification, OnVolumeDuckNotification, OnVolumeDuckNotification method [Core Audio], OnVolumeDuckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeDuckNotification, coreaudio.iaudiovolumeducknotification_onvolumeducknotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

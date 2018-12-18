@@ -9,8 +9,6 @@ ms.assetid: 1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Technologies], IMSVidDeviceEvent interface [Microsoft TV Technologies],described, IMSVidDeviceEventInterface, mstv.imsviddeviceevent, segment/IMSVidDeviceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ The <b>IMSVidDeviceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f7a5e37-5a0d-415e-aca0-df5f9448b017">StateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">StateChange</a>
 </td>
 <td align="left" width="63%">
 Signals that the state of the device has changed.

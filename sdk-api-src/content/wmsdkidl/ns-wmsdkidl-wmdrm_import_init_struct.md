@@ -9,8 +9,6 @@ ms.assetid: 191b844e-5760-44d7-9b27-9fa87fead90f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMDRM_IMPORT_INIT_STRUCT, WMDRM_IMPORT_INIT_STRUCT structure [windows Media Format], structure [windows Media Format], wmformat.wmdrm_import_init_struct, wmsdkidl/WMDRM_IMPORT_INIT_STRUCT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
@@ -90,7 +88,7 @@ Address of a buffer containing the encrypted key message. This message is contai
 
 
 
-This structure is used to initialize protected stream sample writing in a call to the <a href="https://msdn.microsoft.com/42208d02-8384-494d-b7ae-53072b795723">IWMDRMWriter3::SetProtectStreamSamples</a> method.
+This structure is used to initialize protected stream sample writing in a call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798376(v=VS.85).aspx">IWMDRMWriter3::SetProtectStreamSamples</a> method.
 
 
 

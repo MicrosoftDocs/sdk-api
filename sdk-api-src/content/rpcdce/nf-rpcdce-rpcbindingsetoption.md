@@ -9,8 +9,6 @@ ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingSetOption, RpcBindingSetOption function [RPC], _rpc_rpcbindingsetoption, rpc.rpcbindingsetoption, rpcdce/RpcBindingSetOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

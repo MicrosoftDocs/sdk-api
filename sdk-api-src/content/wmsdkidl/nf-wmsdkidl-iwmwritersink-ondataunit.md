@@ -9,8 +9,6 @@ ms.assetid: 32e52cdb-e7cb-4caf-a202-0d2ff746017c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>OnDataUnit</b> method is called by the writer when a data unit is ready f
 
 ### -param pDataUnit [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on an object containing the data unit.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object containing the data unit.
 
 
 ## -returns
@@ -83,7 +81,7 @@ This method is implemented by the application. It should always return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
  
 
  

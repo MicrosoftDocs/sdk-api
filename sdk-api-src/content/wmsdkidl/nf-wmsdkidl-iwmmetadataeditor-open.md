@@ -9,8 +9,6 @@ ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMetadataEditor interface [windows Media Format],Open method, IWMMetadataEditor.Open, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMMetadataEditor interface, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -135,15 +133,15 @@ There is not enough available memory.
 
 
 
-<a href="https://msdn.microsoft.com/ad19cd3e-d1ef-4d6c-ac23-29a56e5c1d66">IWMMetadataEditor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757232(v=VS.85).aspx">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e35f5f85-659e-4a1f-8bfd-4ad3e946d733">IWMMetadataEditor2::OpenEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757234(v=VS.85).aspx">IWMMetadataEditor2::OpenEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c10d0ea-8a19-4374-94f2-e12d7c1ba553">IWMMetadataEditor::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757235(v=VS.85).aspx">IWMMetadataEditor::Close</a>
  
 
  

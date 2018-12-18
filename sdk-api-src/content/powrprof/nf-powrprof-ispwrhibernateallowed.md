@@ -7,10 +7,8 @@ old-location: base\ispwrhibernateallowed.htm
 tech.root: power
 ms.assetid: fe9d06a8-c021-4cf4-9782-04519f370c5b
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: IsPwrHibernateAllowed, IsPwrHibernateAllowed function, _win32_ispwrhibernateallowed, base.ispwrhibernateallowed, powrprof/IsPwrHibernateAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 
@@ -77,7 +75,7 @@ If the computer supports hibernation (power state S4) and the file Hiberfil.sys 
 
 This information is also available through the 
 <a href="https://msdn.microsoft.com/adc0052d-e2dd-4c55-996c-6af8f5987d79">CallNtPowerInformation</a> function. The value is returned in the <b>SystemS4</b> member of the 
-<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a> structure.
 
 For more information on using PowrProf.h, see <a href="https://msdn.microsoft.com/36052517-a85c-4512-8772-8aec31551c77">Power Schemes</a>.
 
@@ -97,7 +95,7 @@ For more information on using PowrProf.h, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a>
  
 
  

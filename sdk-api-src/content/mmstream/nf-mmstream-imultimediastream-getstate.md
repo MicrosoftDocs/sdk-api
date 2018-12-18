@@ -9,8 +9,6 @@ ms.assetid: 8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetState method, IMultiMediaStream.GetState, IMultiMediaStream::GetState, IMultiMediaStreamGetState, dshow.imultimediastream_getstate, mmstream/IMultiMediaStream::GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>GetState</code> method retrieves the current state of the multimedia s
 
 ### -param pCurrentState [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/0be95819-0a42-4459-a891-194aacd26e2e">STREAM_STATE</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407156(v=VS.85).aspx">STREAM_STATE</a> enumeration.
 
 
 ## -returns
@@ -112,7 +110,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9A7B5891-6A0C-4302-89F7-07D985B0F185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],SetIconInfo method, IUserNotification2.SetIconInfo, IUserNotification2::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_SetIconInfo, shell.IUserNotification2_SetIconInfo, shobjidl/IUserNotification2::SetIconInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

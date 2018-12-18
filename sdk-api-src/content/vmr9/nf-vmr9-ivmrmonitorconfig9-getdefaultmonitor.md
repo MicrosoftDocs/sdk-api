@@ -9,8 +9,6 @@ ms.assetid: a5d5bf77-5261-42eb-b79b-d72dfb2d9f21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig9.GetDefaultMonitor, IVMRMonitorConfig9::GetDefaultMonitor, IVMRMonitorConfig9GetDefaultMonitor, dshow.ivmrmonitorconfig9_getdefaultmonitor, vmr9/IVMRMonitorConfig9::GetDefaultMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -133,11 +131,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/27a3a598-d8de-48b2-8b8c-6b5497db4c6c">IVMRMonitorConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390482(v=VS.85).aspx">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e02e0b6-8c0e-4c32-9059-91b1b8be165f">IVMRMonitorConfig9::SetDefaultMonitor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390486(v=VS.85).aspx">IVMRMonitorConfig9::SetDefaultMonitor</a>
 
 
 

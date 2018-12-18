@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Point class, Point class [GDI+],Equals method, Point.Equals, Point::Equals, _gdiplus_CLASS_Point_Equals_point_, gdiplus._gdiplus_CLASS_Point_Equals_point_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: BE0AD832-0FF0-44ED-BD11-3F9BD2860DE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExtendPropertySheet, IExtendPropertySheet interface [MMC], IExtendPropertySheet interface [MMC],described, mmc.iextendpropertysheet, mmc/IExtendPropertySheet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

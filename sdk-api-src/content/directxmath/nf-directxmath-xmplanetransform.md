@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransform(XMVECTOR,XMMATRIX)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMPlaneTransform, XMPlaneTransform, XMPlaneTransform method [DirectX Math Support APIs], dxmath.xmplanetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -96,7 +94,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/af8deaee-d5c5-40b2-8f78-aeff9ecaab90">XMPlaneTransformStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404689(v=VS.85).aspx">XMPlaneTransformStream</a>
  
 
  

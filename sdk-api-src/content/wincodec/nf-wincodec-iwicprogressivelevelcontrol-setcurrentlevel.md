@@ -9,8 +9,6 @@ ms.assetid: b4a2c279-385d-4177-bd8f-a49f545c692a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICProgressiveLevelControl interface [Windows Imaging Component],SetCurrentLevel method, IWICProgressiveLevelControl.SetCurrentLevel, IWICProgressiveLevelControl::SetCurrentLevel, SetCurrentLevel, SetCurrentLevel method [Windows Imaging Component], SetCurrentLevel method [Windows Imaging Component],IWICProgressiveLevelControl interface, _wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wic._wic_codec_iwicprogressivelevelcontrol_setcurrentlevel, wincodec/IWICProgressiveLevelControl::SetCurrentLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

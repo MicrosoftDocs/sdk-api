@@ -9,8 +9,6 @@ ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
@@ -135,7 +133,7 @@ If the function succeeds, the return value is a handle to the newly created mute
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 If the mutex is a named mutex and the object existed before this function call, the return value is a handle to the existing object, 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>, <i>bInitialOwner</i> is ignored, and the calling thread is not granted ownership. However, if the caller has limited access rights, the function will fail with <b>ERROR_ACCESS_DENIED</b> and the caller should use the <a href="https://msdn.microsoft.com/0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11">OpenMutex</a> function.
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_ALREADY_EXISTS</b>, <i>bInitialOwner</i> is ignored, and the calling thread is not granted ownership. However, if the caller has limited access rights, the function will fail with <b>ERROR_ACCESS_DENIED</b> and the caller should use the <a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> function.
 
 
 
@@ -166,7 +164,7 @@ Multiple processes can have handles of the same mutex object, enabling use of th
 <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> enabled inheritance. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify the handle to a mutex object in a call to the <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function to create a duplicate handle that can be used by another process. This mechanism works for both named and unnamed mutexes.</li>
 <li>A process can specify a named mutex in a call to the 
-<a href="https://msdn.microsoft.com/0ea363c2-1ff7-4bf5-9e94-f1f17b8c8a11">OpenMutex</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms684315(v=VS.85).aspx">OpenMutex</a> or 
 <a href="https://msdn.microsoft.com/c8315d1c-98c9-4f0a-ae0d-800d7d8100cd">CreateMutex</a> function to retrieve a handle to the mutex object.</li>
 </ul>
 Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The mutex object is destroyed when its last handle has been closed.

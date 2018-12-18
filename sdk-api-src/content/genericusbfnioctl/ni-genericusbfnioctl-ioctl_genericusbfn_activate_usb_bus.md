@@ -9,8 +9,6 @@ ms.assetid: A8CE2698-B2EF-409A-8251-7419F76D47BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control, IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_genericusbfn_activate_usb_bus, genericusbfnioctl/IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h

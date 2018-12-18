@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discount
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscountRateEnd property [Fax Service], DiscountRateEnd property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],DiscountRateEnd property, IFaxConfiguration.DiscountRateEnd, IFaxConfiguration.put_DiscountRateEnd, IFaxConfiguration::DiscountRateEnd, IFaxConfiguration::get_DiscountRateEnd, IFaxConfiguration::put_DiscountRateEnd, _mfax_IFaxConfiguration_DiscountRateEnd, fax._mfax_IFaxConfiguration_DiscountRateEnd, faxcomex/IFaxConfiguration::DiscountRateEnd, faxcomex/IFaxConfiguration::get_DiscountRateEnd, faxcomex/IFaxConfiguration::put_DiscountRateEnd, put_DiscountRateEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

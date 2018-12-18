@@ -9,8 +9,6 @@ ms.assetid: 2020192d-0db1-41e0-b03f-d5a7dbc85106
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncMuxOutput, codecapi/eAVEncMuxOutputAuto, codecapi/eAVEncMuxOutputPS, codecapi/eAVEncMuxOutputTS, dshow.eavencmuxoutput, eAVEncMuxOutput, eAVEncMuxOutput enumeration [DirectShow], eAVEncMuxOutputAuto, eAVEncMuxOutputPS, eAVEncMuxOutputTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -85,7 +83,7 @@ The multiplexer outputs a transport stream.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

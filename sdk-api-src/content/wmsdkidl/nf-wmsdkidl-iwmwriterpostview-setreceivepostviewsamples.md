@@ -9,8 +9,6 @@ ms.assetid: 6d58671a-357b-412b-ad77-61866b0dcce3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetReceivePostViewSamples method, IWMWriterPostView.SetReceivePostViewSamples, IWMWriterPostView::SetReceivePostViewSamples, IWMWriterPostViewSetReceivePostViewSamples, SetReceivePostViewSamples, SetReceivePostViewSamples method [windows Media Format], SetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setreceivepostviewsamples, wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -140,11 +138,11 @@ Stream does not support postview.
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/93120e68-2d1c-4628-8e2e-d22a56fa98a3">IWMWriterPostView::GetReceivePostViewSamples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798779(v=VS.85).aspx">IWMWriterPostView::GetReceivePostViewSamples</a>
  
 
  

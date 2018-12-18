@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_rasterizer_desc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D10_RASTERIZER_DESC, D3D10_RASTERIZER_DESC structure [Direct3D 10], c7cc2dab-949f-f064-3ae8-72b463253e0d, d3d10/D3D10_RASTERIZER_DESC, direct3d10.d3d10_rasterizer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 
@@ -74,35 +72,35 @@ A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb204911(v=VS.
 
 ### -field FrontCounterClockwise
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Determines if a triangle is front-facing or back-facing. If this parameter is <b>TRUE</b>, then a triangle is considered front-facing if its vertices are counter-clockwise on the render target, and considered back-facing if they are clockwise. If this parameter is <b>FALSE</b>, then the opposite is true.  The default value is <b>FALSE</b>.
 
 
 ### -field DepthBias
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
 
 Specifies the depth value added to a given pixel. The default value is 0. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
 
 
 ### -field DepthBiasClamp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Specifies the maximum depth bias of a pixel. The default value is 0.0f. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
 
 
 ### -field SlopeScaledDepthBias
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Specifies a scalar on a given pixel's slope. The default value is 0.0f. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
 
 
 ### -field DepthClipEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Enables or disables clipping based on distance.  The default value is <b>TRUE</b>.
 
@@ -121,21 +119,21 @@ When you set <b>DepthClipEnable</b> to FALSE, the hardware skips the z clipping 
 
 ### -field ScissorEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Enable or disables scissor-rectangle culling. All pixels outside an active scissor rectangle are culled. The default value is <b>FALSE</b>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">Set the Scissor Rectangle</a>.
 
 
 ### -field MultisampleEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether to use the quadrilateral or alpha line anti-aliasing algorithm on multisample antialiasing (MSAA) render targets. The default value is <b>FALSE</b>. Set to <b>TRUE</b> to use the quadrilateral line anti-aliasing algorithm and to <b>FALSE</b> to use the alpha line anti-aliasing algorithm. For more info about this member, see Remarks.
 
 
 ### -field AntialiasedLineEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Specifies whether to enable line antialiasing; only applies when alpha blending is enabled, you are drawing lines, and the <b>MultisampleEnable</b> member is <b>FALSE</b>.  The default value is <b>FALSE</b>. For more info about this member, see Remarks.
 

@@ -9,8 +9,6 @@ ms.assetid: 2769faa2-e381-4908-95f8-122ae4cd7ec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation],IMFReadWriteClassFactory interface, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromURL method, IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

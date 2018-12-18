@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\textu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetImage method, TextureBrush.GetImage, TextureBrush::GetImage, _gdiplus_CLASS_TextureBrush_GetImage_, gdiplus._gdiplus_CLASS_TextureBrush_GetImage_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

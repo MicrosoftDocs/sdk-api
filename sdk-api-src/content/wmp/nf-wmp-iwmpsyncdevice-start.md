@@ -9,8 +9,6 @@ ms.assetid: f12e5abe-3d1b-48ab-8a03-420a40ae8b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],start method, IWMPSyncDevice.start, IWMPSyncDevice::start, IWMPSyncDevicestart, start, start method [Windows Media Player], start method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_start, wmp/IWMPSyncDevice::start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -120,11 +118,11 @@ Synchronization should not be confused with transferring, which is a manual oper
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/30e6787e-851b-420c-934c-5f8e5e4d83df">IWMPSyncDevice::stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563747(v=VS.85).aspx">IWMPSyncDevice::stop</a>
  
 
  

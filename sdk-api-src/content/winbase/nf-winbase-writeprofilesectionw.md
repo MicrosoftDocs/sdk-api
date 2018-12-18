@@ -9,8 +9,6 @@ ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WriteProfileSection, WriteProfileSection function, WriteProfileSectionA, WriteProfileSectionW, _win32_writeprofilesection, base.writeprofilesection, winbase/WriteProfileSection, winbase/WriteProfileSectionA, winbase/WriteProfileSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

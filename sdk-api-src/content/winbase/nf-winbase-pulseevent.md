@@ -9,8 +9,6 @@ ms.assetid: b3cfe15a-1a0e-4c29-8840-032e56404400
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PulseEvent, PulseEvent function, _win32_pulseevent, base.pulseevent, winbase/PulseEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
@@ -112,7 +110,7 @@ Note that for a thread using the multiple-object
 <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a> to wait for all specified objects to be signaled, 
 <b>PulseEvent</b> can set the event object's state to signaled and reset it to nonsignaled without causing the wait function to return. This happens if not all of the specified objects are simultaneously signaled.
 
-Use extreme caution when using  <a href="https://msdn.microsoft.com/2b1ce22b-8edb-4685-99f4-4fc38eec202a">SignalObjectAndWait</a>  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
+Use extreme caution when using  <a href="https://msdn.microsoft.com/en-us/library/ms686293(v=VS.85).aspx">SignalObjectAndWait</a>  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
 
 

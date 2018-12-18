@@ -9,8 +9,6 @@ ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

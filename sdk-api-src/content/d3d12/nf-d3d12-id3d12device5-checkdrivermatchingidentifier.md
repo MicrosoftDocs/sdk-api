@@ -9,8 +9,6 @@ ms.assetid: 765714D4-5133-4CCA-A09F-EDE650B06905
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckDriverMatchingIdentifier, CheckDriverMatchingIdentifier method, CheckDriverMatchingIdentifier method,ID3D12Device5 interface, ID3D12Device5 interface,CheckDriverMatchingIdentifier method, ID3D12Device5.CheckDriverMatchingIdentifier, ID3D12Device5::CheckDriverMatchingIdentifier, d3d12/ID3D12Device5::CheckDriverMatchingIdentifier, direct3d12.id3d12device5_checkdrivermatchingidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -72,7 +70,7 @@ Identifier from the header of the serialized data to check with the driver. For 
 
 
 
-The returned compatibility status. For more information, see <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_driver_matching_identifier_status">D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS</a>.
+The returned compatibility status. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Mt830385(v=VS.85).aspx">D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS</a>.
 
 
 
@@ -82,7 +80,7 @@ The returned compatibility status. For more information, see <a href="http://doc
 
 
 
-<a href="https://msdn.microsoft.com/2D72898B-F512-4E0D-8FAC-A53EA6FE614A">ID3D12Device5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
  
 
  

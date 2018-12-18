@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlic
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

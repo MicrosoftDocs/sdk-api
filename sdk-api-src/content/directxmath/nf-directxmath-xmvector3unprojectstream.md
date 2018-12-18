@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3UnprojectStream(XMFL
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3UnprojectStream, XMVector3UnprojectStream, XMVector3UnprojectStream method [DirectX Math Support APIs], dxmath.xmvector3unprojectstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -60,7 +58,7 @@ Transforms a stream of 3D vectors from screen space to object space.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +68,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the stream to be transformed. X,Y are in pixels, while Z is 0.0 (at <i>ViewportMinZ</i>) to 1.0 (at <i>ViewportMaxZ</i>).
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the stream to be transformed. X,Y are in pixels, while Z is 0.0 (at <i>ViewportMinZ</i>) to 1.0 (at <i>ViewportMaxZ</i>).
 
 
 ### -param InputStride [in]
@@ -140,7 +138,7 @@ World matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/115a901e-ca61-4895-b93f-09b53dbc313f">XMFLOAT3</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419475(v=VS.85).aspx">XMFLOAT3</a> in the destination stream.
 
 
 

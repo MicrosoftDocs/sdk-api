@@ -9,8 +9,6 @@ ms.assetid: 7D680D81-921E-461F-8845-AADAF53EAEEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WslGetDistributionConfiguration, WslGetDistributionConfiguration function, wsl.wslgetdistributionconfiguration, wslapi/WslGetDistributionConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

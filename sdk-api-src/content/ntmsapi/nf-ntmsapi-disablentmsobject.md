@@ -9,8 +9,6 @@ ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

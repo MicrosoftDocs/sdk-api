@@ -9,8 +9,6 @@ ms.assetid: ef5fd5e0-d11f-44e1-8947-787f1e592c5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetVDiskFromDisk method, IVdsVdProvider.GetVDiskFromDisk, IVdsVdProvider::GetVDiskFromDisk, base.ivdsvdprovider_getvdiskfromdisk, vds/IVdsVdProvider::GetVDiskFromDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

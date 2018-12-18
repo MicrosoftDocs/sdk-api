@@ -9,8 +9,6 @@ ms.assetid: 601f26df-abcb-4a2f-8425-ec9fb808d0d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI1FromUI1, VarI1FromUI1 function [Automation], _oa96_VarI1FromUI1, automat.vari1fromui1, oleauto/VarI1FromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -4,13 +4,11 @@ title: ItsPubPlugin2::ResolvePersonalDesktop
 author: windows-sdk-content
 description: Called to resolve a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_resolvepersonaldesktop.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1f88d7a6-c662-4a14-a288-9c346c8fb7f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ItsPubPlugin2 interface [Remote Desktop Services],ResolvePersonalDesktop method, ItsPubPlugin2.ResolvePersonalDesktop, ItsPubPlugin2::ResolvePersonalDesktop, ResolvePersonalDesktop, ResolvePersonalDesktop method [Remote Desktop Services], ResolvePersonalDesktop method [Remote Desktop Services],ItsPubPlugin2 interface, termserv.itspubplugin2_resolvepersonaldesktop, tspubplugin2com/ItsPubPlugin2::ResolvePersonalDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 

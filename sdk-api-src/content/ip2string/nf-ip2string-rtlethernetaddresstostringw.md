@@ -9,8 +9,6 @@ ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h

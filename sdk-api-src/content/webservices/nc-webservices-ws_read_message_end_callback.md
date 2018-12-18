@@ -9,8 +9,6 @@ ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_READ_MESSAGE_END_CALLBACK, WS_READ_MESSAGE_END_CALLBACK callback, WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_END_CALLBACK, wsw.ws_read_message_end_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/3112be44-f610-421f-a4ea-0f87fc383540">WsReadMessageEnd</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

@@ -9,8 +9,6 @@ ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothSelectDevicesFree, BluetoothSelectDevicesFree function [Bluetooth], _bth_bluetoothselectdevicesfree, bluetooth.bluetoothselectdevicesfree, bluetoothapis/BluetoothSelectDevicesFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -52,7 +50,7 @@ req.redist:
 
 The 
 <b>BluetoothSelectDevicesFree</b> function frees resources associated with a previous call to 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a>.
+<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a>.
 
 
 ## -parameters
@@ -63,7 +61,7 @@ The
 ### -param pbtsdp
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
+<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure that identifies the Bluetooth device resources to free.
 
 
 ## -returns
@@ -79,7 +77,7 @@ Returns <b>TRUE</b> upon success. Returns <b>FALSE</b> if there are no resources
 
 
 
-Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
+Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to the <a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function returned <b>TRUE</b>.
 
 
 
@@ -89,11 +87,11 @@ Only call the <b>BluetoothSelectDevicesFree</b> function if a previous call to t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a>
+<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a>
  
 
  

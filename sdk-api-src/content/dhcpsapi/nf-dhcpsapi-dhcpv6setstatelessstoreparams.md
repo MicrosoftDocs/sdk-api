@@ -9,8 +9,6 @@ ms.assetid: 8f64c1bb-8f02-45e3-b9ed-8fce2bf9885c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams function [DHCP], dhcp.dhcpv6setstatelessstoreparams, dhcpsapi/DhcpV6SetStatelessStoreParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -76,12 +74,12 @@ If the value of <i>fServerLevel</i> is <b>TRUE</b>, this must be 0.
 
 ### -param FieldModified [in]
 
-A value from the <a href="https://msdn.microsoft.com/8670c69b-1fc0-4b60-b5cc-a616d56c9319">DHCPV6_STATELESS_PARAM_TYPE</a> enumeration that defines the DHCPv6 stateless client inventory configuration parameter type to be modified.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Hh404366(v=VS.85).aspx">DHCPV6_STATELESS_PARAM_TYPE</a> enumeration that defines the DHCPv6 stateless client inventory configuration parameter type to be modified.
 
 
 ### -param Params [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/852249b2-ea0d-4f83-a41f-12ef8cb029e7">DHCPV6_STATELESS_PARAMS</a> structure that contains the stateless client inventory configuration settings for a DHCPv6 server.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh404364(v=VS.85).aspx">DHCPV6_STATELESS_PARAMS</a> structure that contains the stateless client inventory configuration settings for a DHCPv6 server.
 
 
 ## -returns

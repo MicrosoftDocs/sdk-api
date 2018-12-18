@@ -9,8 +9,6 @@ ms.assetid: 8e29adec-13fb-4a85-87ac-9e8034dce147
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accValue method, IAccessible.get_accValue, IAccessible::get_accValue, _msaa_IAccessible_get_accValue, get_accValue, get_accValue method [Windows Accessibility], get_accValue method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accvalue, oleacc/IAccessible::get_accValue, winauto.iaccessible_iaccessible__get_accvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

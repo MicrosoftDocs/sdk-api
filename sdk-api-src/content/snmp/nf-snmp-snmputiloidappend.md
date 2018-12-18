@@ -9,8 +9,6 @@ ms.assetid: 8ffa5638-13ef-4cec-80f0-303611a52dac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputiloidappend, snmp.snmputiloidappend, snmp/SnmpUtilOidAppend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The
 ### -param pOidDst [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to receive the source structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to receive the source structure.
 
 
 ### -param pOidSrc [in]

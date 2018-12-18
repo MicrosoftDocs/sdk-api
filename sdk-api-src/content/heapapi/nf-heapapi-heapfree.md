@@ -9,8 +9,6 @@ ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 9a3d7631-6892-457a-91ab-484ae867fd9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsJackDescription2, IKsJackDescription2 interface [Core Audio], IKsJackDescription2 interface [Core Audio],described, coreaudio.iksjackdescription2, devicetopology/IKsJackDescription2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

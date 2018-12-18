@@ -9,8 +9,6 @@ ms.assetid: 36914aed-d11c-42c0-a0e5-ba1d3ba6dd22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gamma method, IVideoProcAmp.getRange_Gamma, IVideoProcAmp::getRange_Gamma, IVideoProcAmpgetRange_Gamma, dshow.ivideoprocamp_getrange_gamma, getRange_Gamma, getRange_Gamma method [DirectShow], getRange_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Gamma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -80,7 +78,7 @@ Receives the default gamma setting.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +99,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

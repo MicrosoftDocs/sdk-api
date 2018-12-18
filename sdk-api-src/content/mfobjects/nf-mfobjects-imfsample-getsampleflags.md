@@ -9,8 +9,6 @@ ms.assetid: 98e3ed97-cefc-40c2-acda-8b3da74d0d03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 98e3ed97-cefc-40c2-acda-8b3da74d0d03, GetSampleFlags, GetSampleFlags method [Media Foundation], GetSampleFlags method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleFlags method, IMFSample.GetSampleFlags, IMFSample::GetSampleFlags, mf.imfsample_getsampleflags, mfobjects/IMFSample::GetSampleFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

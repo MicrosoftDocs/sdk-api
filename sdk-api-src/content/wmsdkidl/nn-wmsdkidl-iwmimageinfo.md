@@ -9,8 +9,6 @@ ms.assetid: 1b3b4224-f86d-437c-969e-fe30e6d002a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMImageInfo, IWMImageInfo interface [windows Media Format], IWMImageInfo interface [windows Media Format],described, IWMImageInfoInterface, wmformat.iwmimageinfo, wmsdkidl/IWMImageInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>IWMImageInfo</b> interface retrieves images stored in ID3v2 "APIC" (attached picture) frames in a file. The methods of this interface are superseded in the Windows Media Format 9 Series SDK by the <a href="https://msdn.microsoft.com/ec82dfdf-7755-4758-9771-096aac114f78">WM/Picture</a> metadata attribute, which is supported by the methods of the new <a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a> interface. If you are using the Windows Media Format 9 Series SDK, you should avoid using this interface.
+The <b>IWMImageInfo</b> interface retrieves images stored in ID3v2 "APIC" (attached picture) frames in a file. The methods of this interface are superseded in the Windows Media Format 9 Series SDK by the <a href="https://msdn.microsoft.com/ec82dfdf-7755-4758-9771-096aac114f78">WM/Picture</a> metadata attribute, which is supported by the methods of the new <a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a> interface. If you are using the Windows Media Format 9 Series SDK, you should avoid using this interface.
 
 An <b>IWMImageInfo</b> interface exists for every reader, synchronous reader, and metadata editor object. You can obtain a pointer to this interface by calling the <b>QueryInterface</b> method of any other interface in one of these objects.
 
@@ -75,7 +73,7 @@ The <b>IWMImageInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe1dcd53-fcdd-4190-9a07-65d0b34112d0">GetImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798529(v=VS.85).aspx">GetImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves an image stored in a file as an ID3v2 "APIC" metadata frame.
@@ -84,7 +82,7 @@ Retrieves an image stored in a file as an ID3v2 "APIC" metadata frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95cf5906-9cbc-4bba-8892-236672cf4068">GetImageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798530(v=VS.85).aspx">GetImageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of images stored in a file using ID3v2 "APIC" frames.
@@ -101,7 +99,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-If retrieving this interface from the metadata editor, you must wait until after the file has been opened to call <b>QueryInterface</b>. If you try to <b>QueryInterface</b> for <b>IWMImageInfo</b> before receiving the WMT_OPENED message in your <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method, the call will fail.
+If retrieving this interface from the metadata editor, you must wait until after the file has been opened to call <b>QueryInterface</b>. If you try to <b>QueryInterface</b> for <b>IWMImageInfo</b> before receiving the WMT_OPENED message in your <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method, the call will fail.
 
 
 

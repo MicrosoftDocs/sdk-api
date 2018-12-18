@@ -9,8 +9,6 @@ ms.assetid: 49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, ITravelEntry interface [Windows Shell],Update method, ITravelEntry.Update, ITravelEntry::Update, TRUE, Update, Update method [Windows Shell], Update method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Update, shell.ITravelEntry_Update, zone_ITravelEntry_Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

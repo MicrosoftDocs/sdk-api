@@ -9,8 +9,6 @@ ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

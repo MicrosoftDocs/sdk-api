@@ -9,8 +9,6 @@ ms.assetid: 2fd410a0-20b5-4e16-9d36-89a14443c8bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSubItemAt, GetSubItemAt method [Picture Acquisition], GetSubItemAt method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemAt method, IPhotoAcquireItem.GetSubItemAt, IPhotoAcquireItem::GetSubItemAt, IPhotoAcquireItemGetSubItemAt, photoacquire/IPhotoAcquireItem::GetSubItemAt, picacq.iphotoacquireitem_getsubitemat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

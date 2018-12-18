@@ -9,8 +9,6 @@ ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -59,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param pic [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538703(v=VS.85).aspx">ITfContext</a> interface that represents context to perform the function on.
+Pointer to an <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface that represents context to perform the function on.
 
 
 ### -param refguidFunc [in]
@@ -105,7 +103,7 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538944(v=VS.85).aspx">ITfFnLMProcessor</a>
+<a href="https://msdn.microsoft.com/89581a75-9263-45d7-99de-b3bd78a5169c">ITfFnLMProcessor</a>
  
 
  

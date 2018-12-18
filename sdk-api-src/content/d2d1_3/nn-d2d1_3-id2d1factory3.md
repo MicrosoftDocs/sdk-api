@@ -9,8 +9,6 @@ ms.assetid: 95923BAA-0A26-45BF-85F7-8994B70B7D92
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Factory3, ID2D1Factory3 interface [Direct2D], ID2D1Factory3 interface [Direct2D],described, d2d1_3/ID2D1Factory3, direct2d.id2d1factory3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 

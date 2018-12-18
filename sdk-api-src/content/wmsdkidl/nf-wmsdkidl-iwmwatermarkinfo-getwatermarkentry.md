@@ -9,8 +9,6 @@ ms.assetid: 7f303233-cd20-40ff-b564-4c44bf17a5f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWatermarkEntry, GetWatermarkEntry method [windows Media Format], GetWatermarkEntry method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntry method, IWMWatermarkInfo.GetWatermarkEntry, IWMWatermarkInfo::GetWatermarkEntry, IWMWatermarkInfoGetWatermarkEntry, wmformat.iwmwatermarkinfo_getwatermarkentry, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,17 +64,17 @@ The <b>GetWatermarkEntry</b> method retrieves information about one available wa
 
 ### -param wmetType [in]
 
-A value from the <a href="https://msdn.microsoft.com/213fcf75-bc15-43a0-aafd-f9cd3c51de93">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757881(v=VS.85).aspx">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system.
 
 
 ### -param dwEntryNum [in]
 
-<b>DWORD</b> containing the watermark entry number. This number is between zero and one less than the number of watermark entries returned by <a href="https://msdn.microsoft.com/27a102b7-a495-49ee-9d65-a0276ca2cf76">IWMWatermarkInfo::GetWatermarkEntryCount</a>.
+<b>DWORD</b> containing the watermark entry number. This number is between zero and one less than the number of watermark entries returned by <a href="https://msdn.microsoft.com/en-us/library/Dd798718(v=VS.85).aspx">IWMWatermarkInfo::GetWatermarkEntryCount</a>.
 
 
 ### -param pEntry [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/9b7b78e1-cf28-4b7a-8a12-e9d19cec17c4">WMT_WATERMARK_ENTRY</a> structure containing information about the specified watermarking system.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757880(v=VS.85).aspx">WMT_WATERMARK_ENTRY</a> structure containing information about the specified watermarking system.
 
 
 ## -returns
@@ -121,11 +119,11 @@ No watermarking <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/4bdad433-31d1-442c-9701-f3748245070d">IWMWatermarkInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798716(v=VS.85).aspx">IWMWatermarkInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/27a102b7-a495-49ee-9d65-a0276ca2cf76">IWMWatermarkInfo::GetWatermarkEntryCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798718(v=VS.85).aspx">IWMWatermarkInfo::GetWatermarkEntryCount</a>
  
 
  

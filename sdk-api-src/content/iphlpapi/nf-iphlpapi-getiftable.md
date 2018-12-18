@@ -9,8 +9,6 @@ ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

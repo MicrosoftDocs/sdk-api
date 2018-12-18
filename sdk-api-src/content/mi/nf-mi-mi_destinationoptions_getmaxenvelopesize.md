@@ -9,8 +9,6 @@ ms.assetid: 103f5c77-3824-464b-9a0b-36e23ee98028
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetMaxEnvelopeSize, MI_DestinationOptions_GetMaxEnvelopeSize function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetMaxEnvelopeSize, wmi_v2.mi_destinationoptions_getmaxenvelopesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4d35bacd-c4e4-4c31-b946-ad76ffb250ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],put_State method, ITAgentSession.put_State, ITAgentSession::put_State, _tapi3_itagentsession_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_put_state, tapi3cc/ITAgentSession::put_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>Install</b> method installs the Certificate Enrollment Web Service (CES) configured by the <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> object.
+The <b>Install</b> method installs the Certificate Enrollment Web Service (CES) configured by the <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object.
 
 
 ## -parameters
@@ -98,9 +96,9 @@ The CES application already exists. For more information, see Remarks
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> object has not been initialized.
+The <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object has not been initialized.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -127,13 +125,13 @@ Validates the CES configuration by verifying that an application with the same n
 <li>usernamepassword</li>
 <li>certificate</li>
 </ul>
-<div class="alert"><b>Note</b>  If an application with the same name exists, the <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property is set to "Setup could not add this role service because it already exists in the default website. Please remove the existing role service or select a different certification authority (CA) or authentication type."</div>
+<div class="alert"><b>Note</b>  If an application with the same name exists, the <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property is set to "Setup could not add this role service because it already exists in the default website. Please remove the existing role service or select a different certification authority (CA) or authentication type."</div>
 <div> </div>
 
 
 </li>
 <li>
-Creates the %windir%\systemdata\ces\<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property to "Failed to create the directory %1."</div>
+Creates the %windir%\systemdata\ces\<i>SanitizedCAShortName</i>_ces_<i>AuthenticationType</i> application directory. <div class="alert"><b>Note</b>  This method does not return an error if the name specified already exists as a directory, but if the specified name exists as a file or if some other error occurred, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property to "Failed to create the directory %1."</div>
 <div> </div>
 
 
@@ -159,7 +157,7 @@ Creates a secure (https) binding to port 443 and sets the certificate hash if on
 
 </li>
 <li>
-Sets IIS authentication to anonymous if you called <a href="https://msdn.microsoft.com/en-us/library/Ff808383(v=VS.85).aspx">SetProperty</a> and specified  X509AuthCertificate or X509AuthUsername in the <i>pPropertyValue</i> argument. Sets authentication to Windows if you called <b>SetProperty</b> and specified  X509AuthKerberos.
+Sets IIS authentication to anonymous if you called <a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a> and specified  X509AuthCertificate or X509AuthUsername in the <i>pPropertyValue</i> argument. Sets authentication to Windows if you called <b>SetProperty</b> and specified  X509AuthKerberos.
 
 </li>
 <li>
@@ -173,7 +171,7 @@ Adds read and write access to the event tracing directory.
 <li>
 Updates the security descriptor of the Deleted Objects container in Active Directory to permit access by the computer and/or the application pool. This enables CES to notify the certification authority when a relevant Active Directory object is deleted. If Active Directory resides on a domain controller, both the computer and application pool are allowed to access the Deleted Objects container. If Active Directory does not reside on a domain controller, only the computer is allowed access.
 
-<div class="alert"><b>Note</b>  If access to the Deleted Objects container fails, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/en-us/library/Ff808371(v=VS.85).aspx">ErrorString</a> property to "Setup cannot give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container. The web service will not be able to detect deletion of Active Directory objects such as certificate templates. To complete Setup, a member of the Domain Admins group must manually give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container in Active Directory Domain Services (AD DS)."</div>
+<div class="alert"><b>Note</b>  If access to the Deleted Objects container fails, the method returns a failure <b>HRESULT</b> and sets the <a href="https://msdn.microsoft.com/CA9103BD-96CA-4FF3-B78D-A1F1345E58D3">ErrorString</a> property to "Setup cannot give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container. The web service will not be able to detect deletion of Active Directory objects such as certificate templates. To complete Setup, a member of the Domain Admins group must manually give the Certificate Enrollment Policy Web Service account List permission on the ""Deleted Objects"" container in Active Directory Domain Services (AD DS)."</div>
 <div> </div>
 </li>
 </ul>
@@ -185,7 +183,7 @@ Updates the security descriptor of the Deleted Objects container in Active Direc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a>
+<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
  
 
  

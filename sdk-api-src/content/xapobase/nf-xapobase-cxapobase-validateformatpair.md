@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ValidateFormatPair(const
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ValidateFormatPair method, CXAPOBase.ValidateFormatPair, CXAPOBase::ValidateFormatPair, ValidateFormatPair, ValidateFormatPair method [XAudio2 Audio Mixing APIs], ValidateFormatPair method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ValidateFormatPair, xaudio2.cxapobase_validateformatpair
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

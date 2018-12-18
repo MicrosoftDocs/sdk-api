@@ -9,8 +9,6 @@ ms.assetid: 5a26e576-df4a-462d-8fab-0a133469e77b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecDescription, GetCodecDescription method [DirectShow], GetCodecDescription method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecDescription method, IAMNetShowExProps.GetCodecDescription, IAMNetShowExProps::GetCodecDescription, IAMNetShowExPropsGetCodecDescription, dshow.iamnetshowexprops_getcodecdescription, qnetwork/IAMNetShowExProps::GetCodecDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -94,11 +92,11 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b16727d-565a-431e-8124-124d72816d65">IAMNetShowExProps::get_CodecCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319724(v=VS.85).aspx">IAMNetShowExProps::get_CodecCount</a>
  
 
  

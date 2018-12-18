@@ -9,8 +9,6 @@ ms.assetid: 391E98B4-9FFB-4065-91A4-99306B2FEB8F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSurfaceFromHandle, CreateSurfaceFromHandle method [DirectComposition], CreateSurfaceFromHandle method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSurfaceFromHandle method, IDCompositionDevice.CreateSurfaceFromHandle, IDCompositionDevice::CreateSurfaceFromHandle, dcomp/IDCompositionDevice::CreateSurfaceFromHandle, directcomp.idcompositiondevice_createsurfacefromhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -62,12 +60,12 @@ Creates a new composition surface object that wraps an existing composition surf
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
 
-The handle of an existing composition surface that was created by a call to the <a href="https://msdn.microsoft.com/550BA10B-D582-4A57-A69D-3EFFC7313D8F">DCompositionCreateSurfaceHandle</a> function.
+The handle of an existing composition surface that was created by a call to the <a href="https://msdn.microsoft.com/en-us/library/Hh437360(v=VS.85).aspx">DCompositionCreateSurfaceHandle</a> function.
 
 
 ### -param surface [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IUnknown</a>**</b>
 
 The new composition surface object. This parameter must not be NULL.
 
@@ -97,15 +95,15 @@ This method enables an application to use a shared composition surface in a comp
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3B321BF8-A7A5-4E40-B548-D88CA45F6DAF">IDCompositionDevice::CreateSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437405(v=VS.85).aspx">IDCompositionDevice::CreateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/EA49F8EB-FAC8-421E-854D-C4AA81887EB0">IDCompositionDevice::CreateSurfaceFromHwnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437407(v=VS.85).aspx">IDCompositionDevice::CreateSurfaceFromHwnd</a>
  
 
  

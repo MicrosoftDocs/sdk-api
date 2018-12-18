@@ -9,8 +9,6 @@ ms.assetid: 473af4be-d193-42a5-82ff-359b50a7bc58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback, WS_SERVICE_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_ACCEPT_CHANNEL_CALLBACK, wsw.ws_service_accept_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -74,7 +72,7 @@ The operation context.
 
 The callback may provide channel state through this parameter. This channel state is
                     made available to the service operation as part of <a href="https://msdn.microsoft.com/5c9b5906-15f0-4339-a4ad-39977d28ce5b">WS_OPERATION_CONTEXT</a> through
-                    the <a href="https://msdn.microsoft.com/71f7d0fe-c120-4667-93de-a0dfb94fccc1">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
+                    the <a href="https://msdn.microsoft.com/en-us/library/Dd401981(v=VS.85).aspx">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
                 
 
 
@@ -93,7 +91,7 @@ Specifies where additional error information should be stored if the function fa
 
 The callback may provide channel state through this parameter. This channel state is
                     made available to the service operation as part of <a href="https://msdn.microsoft.com/5c9b5906-15f0-4339-a4ad-39977d28ce5b">WS_OPERATION_CONTEXT</a> through
-                    the <a href="https://msdn.microsoft.com/71f7d0fe-c120-4667-93de-a0dfb94fccc1">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
+                    the <a href="https://msdn.microsoft.com/en-us/library/Dd401981(v=VS.85).aspx">WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE</a>.
                 
 
 

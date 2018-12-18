@@ -9,8 +9,6 @@ ms.assetid: ffa435c8-4a73-454e-be36-cd90ba6e6d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiOpenDevRegKey, SetupDiOpenDevRegKey function [Device and Driver Installation], devinst.setupdiopendevregkey, di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml, setupapi/SetupDiOpenDevRegKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -9,8 +9,6 @@ ms.assetid: a4a9d98c-834b-4578-9ba3-7c7295989a84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IViewHelper interface [Display Devices],SetActiveTopology method, IViewHelper.SetActiveTopology, IViewHelper::SetActiveTopology, SetActiveTopology, SetActiveTopology method [Display Devices], SetActiveTopology method [Display Devices],IViewHelper interface, TMM_Ref_2624b29c-5a04-4312-b65c-9878af440c39.xml, cloneviewhelper/IViewHelper::SetActiveTopology, display.iviewhelper_setactivetopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h

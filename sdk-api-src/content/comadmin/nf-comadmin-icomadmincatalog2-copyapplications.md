@@ -9,8 +9,6 @@ ms.assetid: 4ddb9cab-2e02-4b96-9216-d6cb064f8107
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyApplications, CopyApplications method [COM+], CopyApplications method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyApplications method, ICOMAdminCatalog2.CopyApplications, ICOMAdminCatalog2::CopyApplications, _cos_icomadmincatalog2_CopyApplications, comadmin/ICOMAdminCatalog2::CopyApplications, cos.icomadmincatalog2_copyapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -65,7 +63,7 @@ The partition GUID or the name of the source partition.
 
 ### -param pVarApplicationID [in]
 
-The applications to be copied. Each element of the <b>Variant</b> may be a <b>String</b> containing an application name or ID, a single catalog object, or a catalog collection (as returned, for example, by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
+The applications to be copied. Each element of the <b>Variant</b> may be a <b>String</b> containing an application name or ID, a single catalog object, or a catalog collection (as returned, for example, by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
 
 
 ### -param bstrDestinationPartitionIDOrName [in]
@@ -87,7 +85,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

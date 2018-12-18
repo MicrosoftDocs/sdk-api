@@ -9,8 +9,6 @@ ms.assetid: 1a5dce88-afc5-4d47-85e8-980192a662d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllowNoOutstandingRequest, AllowNone, AllowUntrustedCertificate, AllowUntrustedRoot, IX509Enrollment2 interface [Security],InstallResponse2 method, IX509Enrollment2.InstallResponse2, IX509Enrollment2::InstallResponse2, InstallResponse2, InstallResponse2 method [Security], InstallResponse2 method [Security],IX509Enrollment2 interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509Enrollment2::InstallResponse2, security.ix509enrollment2_installresponse2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>InstallResponse2</b> method installs a certificate chain on the end-entity computer. The byte array that contains the response is encoded by using <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) standard.  You must specify  the DER-encoded byte array in a string that is either a pure binary sequence or is Unicode encoded. This method is web enabled.
+The <b>InstallResponse2</b> method installs a certificate chain on the end-entity computer. The byte array that contains the response is encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) standard.  You must specify  the DER-encoded byte array in a string that is either a pure binary sequence or is Unicode encoded. This method is web enabled.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>InstallResponse2</b> method installs a certificate chain on the end-entit
 
 ### -param Restrictions [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa376782(v=VS.85).aspx">InstallResponseRestrictionFlags</a> enumeration value that specifies the type of certificates that can be installed. This can be one or more of the following values.
+An <a href="https://msdn.microsoft.com/070cadd8-08cf-44ce-a8b7-39a4fb11e724">InstallResponseRestrictionFlags</a> enumeration value that specifies the type of certificates that can be installed. This can be one or more of the following values.
 
 <table>
 <tr>
@@ -85,7 +83,7 @@ Do not install untrusted certificates or certificates for which there is no corr
 </dl>
 </td>
 <td width="60%">
-Create the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
+Create the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
 
 </td>
 </tr>
@@ -96,7 +94,7 @@ Create the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).a
 </dl>
 </td>
 <td width="60%">
-Install untrusted end entity and <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> certificates. Certification authority certificates include root and subordinate CA certificates. End entity certificates are installed to the personal store, and CA certificates are installed to the certification authority store.
+Install untrusted end entity and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> certificates. Certification authority certificates include root and subordinate CA certificates. End entity certificates are installed to the personal store, and CA certificates are installed to the certification authority store.
 
 </td>
 </tr>
@@ -124,12 +122,12 @@ A <b>BSTR</b> variable that contains the DER-encoded response.
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of encoding applied to  the string that contains the DER-encoded response.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of encoding applied to  the string that contains the DER-encoded response.
 
 
 ### -param strPassword [in, optional]
 
-An optional password for the certificate installation. This can be  <b>NULL</b> to indicate that  no password is used.  When you have finished using the password, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://msdn.microsoft.com/en-us/library/ms717799(v=VS.85).aspx">Handling Passwords</a>.
+An optional password for the certificate installation. This can be  <b>NULL</b> to indicate that  no password is used.  When you have finished using the password, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
 
 
 ### -param strEnrollmentPolicyServerUrl [in]
@@ -144,7 +142,7 @@ A <b>BSTR</b> that contains an identifier for the CEP server.
 
 ### -param EnrollmentPolicyServerFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351752(v=VS.85).aspx">PolicyServerUrlFlags</a> enumeration value. This can be one of the following values.
+A <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration value. This can be one of the following values.
 
 <table>
 <tr>
@@ -209,7 +207,7 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 
 ### -param authFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Ee373782(v=VS.85).aspx">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. For Windows 7, only <b>X509AuthCertificate</b> can be chosen from the following values.
+An <a href="https://msdn.microsoft.com/84a7e6e3-dfbb-4c27-af63-e521103e1b00">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. For Windows 7, only <b>X509AuthCertificate</b> can be chosen from the following values.
 
 <table>
 <tr>
@@ -268,7 +266,7 @@ Client authentication certificate installed on the local computer and used by th
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -328,25 +326,25 @@ The <b>InstallResponse2</b> method:
 </ol>
 
 
-Before calling the <b>InstallResponse2</b> method, you must initialize the <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> object by calling one of the following methods.<ul>
+Before calling the <b>InstallResponse2</b> method, you must initialize the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> object by calling one of the following methods.<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378046(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/3bf4ce4a-6556-403c-8334-a6bf01f074a3">Initialize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377872(v=VS.85).aspx">InitializeFromRequest</a>
+<a href="https://msdn.microsoft.com/04cb00af-f786-4548-bee3-2cc5083278c3">InitializeFromRequest</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Ee351682(v=VS.85).aspx">InitializeFromTemplate</a>
+<a href="https://msdn.microsoft.com/aa260ff7-d55b-4fda-88e2-2f1d68cc41e1">InitializeFromTemplate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa378023(v=VS.85).aspx">InitializeFromTemplateName</a>
+<a href="https://msdn.microsoft.com/44a934f4-9ae9-4f52-9d44-f5fcf30f3837">InitializeFromTemplateName</a>
 </li>
 </ul>
 
 
 If you call this method from the web, you can specify only <b>AllowNone</b> or <b>AllowUntrustedRoot</b> in the <i>Restrictions</i> parameter. If you specify <b>AllowNoOutstandingRequest</b> or <b>AllowUntrustedCertificate</b>, the method returns an <b>E_ACCESSDENIED</b> error.
 
-The last four parameters (<i>strEnrollmentPolicyServerUrl</i>, <i>strEnrollmentPolicyServerID</i>, <i>EnrollmentPolicyServerFlags</i>, and <i>authFlags</i>) are not included in the <a href="https://msdn.microsoft.com/en-us/library/Aa378051(v=VS.85).aspx">InstallResponse</a> method. They enable you to add a property value to the installed certificate in much the same way as the <a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a> interface does.
+The last four parameters (<i>strEnrollmentPolicyServerUrl</i>, <i>strEnrollmentPolicyServerID</i>, <i>EnrollmentPolicyServerFlags</i>, and <i>authFlags</i>) are not included in the <a href="https://msdn.microsoft.com/4ad33092-71c4-4ae1-a3a6-cef376d04c2d">InstallResponse</a> method. They enable you to add a property value to the installed certificate in much the same way as the <a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a> interface does.
 
 
 
@@ -356,7 +354,7 @@ The last four parameters (<i>strEnrollmentPolicyServerUrl</i>, <i>strEnrollmentP
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351681(v=VS.85).aspx">IX509Enrollment2</a>
+<a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a>
  
 
  

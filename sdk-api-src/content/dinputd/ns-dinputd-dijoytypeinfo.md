@@ -9,8 +9,6 @@ ms.assetid: 54f52839-59ed-4edd-8d28-e3504f9900d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPDIJOYTYPEINFO, DIJOYTYPEINFO, DIJOYTYPEINFO structure [Human Input Devices], DIJOYTYPEINFO,*LPDIJOYTYPEINFO, DIJOYTYPEINFO,*LPDIJOYTYPEINFO structure [Human Input Devices], di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml, dinputd/DIJOYTYPEINFO, hid.dijoytypeinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

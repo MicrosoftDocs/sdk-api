@@ -9,8 +9,6 @@ ms.assetid: 1c041173-0c78-486e-93b5-a46c9dc0afb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID method, IComponent.get_DescLangID, IComponent::get_DescLangID, IComponentget_DescLangID, get_DescLangID, get_DescLangID method [Microsoft TV Technologies], get_DescLangID method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_desclangid, tuner/IComponent::get_DescLangID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

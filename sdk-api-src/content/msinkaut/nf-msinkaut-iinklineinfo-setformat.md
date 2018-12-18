@@ -9,8 +9,6 @@ ms.assetid: 42e16e86-fc90-4089-9ae0-9a896cbeaccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 42e16e86-fc90-4089-9ae0-9a896cbeaccc, IInkLineInfo interface [Tablet PC],SetFormat method, IInkLineInfo.SetFormat, IInkLineInfo::SetFormat, SetFormat, SetFormat method [Tablet PC], SetFormat method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetFormat, tablet.iinklineinfo_setformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

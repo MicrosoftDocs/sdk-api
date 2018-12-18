@@ -9,8 +9,6 @@ ms.assetid: ae070004-e90e-4f1e-b8b8-15deccdc48ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -120,15 +118,15 @@ The Windows Media Player control does not support the use of two periods (..) in
 
 
 
-<a href="https://msdn.microsoft.com/1010961f-6d06-455a-9c14-bc06702e9e89">IWMPEvents::ScriptCommand</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563361(v=VS.85).aspx">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e4a2696-624f-4c6f-8947-2fe0b457332c">IWMPSettings::get_baseURL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563658(v=VS.85).aspx">IWMPSettings::get_baseURL</a>
  
 
  

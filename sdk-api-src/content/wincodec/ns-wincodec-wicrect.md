@@ -9,8 +9,6 @@ ms.assetid: e07c26bf-b645-4382-bb93-8472ba397026
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICRect, WICRect structure [Windows Imaging Component], _wic_codec_wicrect, wic._wic_codec_wicrect, wincodec/WICRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

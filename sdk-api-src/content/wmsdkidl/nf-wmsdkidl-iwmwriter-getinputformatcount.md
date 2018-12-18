@@ -9,8 +9,6 @@ ms.assetid: c3afe9e8-e045-4329-b3e5-6026147322ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputFormatCount, GetInputFormatCount method [windows Media Format], GetInputFormatCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormatCount method, IWMWriter.GetInputFormatCount, IWMWriter::GetInputFormatCount, IWMWriterGetInputFormatCount, wmformat.iwmwriter_getinputformatcount, wmsdkidl/IWMWriter::GetInputFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,11 +120,11 @@ OR
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c058de81-a29a-4bcd-a819-3cdef11cae9f">IWMWriter::GetInputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757478(v=VS.85).aspx">IWMWriter::GetInputFormat</a>
 
 
 

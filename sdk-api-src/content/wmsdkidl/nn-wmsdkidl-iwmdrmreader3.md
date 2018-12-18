@@ -9,8 +9,6 @@ ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <b>IWMDRMReader3</b> interface enables content transcription by providing a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader3</b> interface inherits from <a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2</a>. <b>IWMDRMReader3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2</a>. <b>IWMDRMReader3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +74,7 @@ The <b>IWMDRMReader3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac6f2ced-d60d-4472-8549-c52314375ac6">GetInclusionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798346(v=VS.85).aspx">GetInclusionList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of identifiers specifying approved protection systems.
@@ -91,11 +89,11 @@ Retrieves a list of identifiers specifying approved protection systems.
 
 
 
-<a href="https://msdn.microsoft.com/bf4ff0f3-1f78-43c4-be4d-c74209176e58">IWMDRMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fb7bbeb-d35f-41f7-b39a-2e5a102b5c05">IWMDRMReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798340(v=VS.85).aspx">IWMDRMReader2 Interface</a>
 
 
 

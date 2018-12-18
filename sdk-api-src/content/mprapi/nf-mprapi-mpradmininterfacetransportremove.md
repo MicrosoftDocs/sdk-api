@@ -9,8 +9,6 @@ ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

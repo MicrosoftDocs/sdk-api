@@ -9,8 +9,6 @@ ms.assetid: f387f5f5-06e4-45f2-8d93-31ff0da6151a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDigitDetectionEvent, ITDigitDetectionEvent interface [TAPI 2.2], ITDigitDetectionEvent interface [TAPI 2.2],described, _tapi3_itdigitdetectionevent, tapi3.itdigitdetectionevent, tapi3if/ITDigitDetectionEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Static_SetIcon, Static_SetIcon macro [Windows Controls], _win32_Static_SetIcon, _win32_Static_SetIcon_cpp, controls.Static_SetIcon, controls._win32_Static_SetIcon, windowsx/Static_SetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 03be09a6-da4d-4071-bd7c-df79688c20d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddStructureChangedEvent, AddStructureChangedEvent method [Windows Accessibility], AddStructureChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddStructureChangedEvent method, IProxyProviderWinEventSink.AddStructureChangedEvent, IProxyProviderWinEventSink::AddStructureChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddStructureChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

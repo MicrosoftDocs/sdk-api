@@ -9,8 +9,6 @@ ms.assetid: 03fb4bdb-1655-4923-b124-8854419766ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscardCache, DiscardCache method [COM], DiscardCache method [COM],IOleCache2 interface, IOleCache2 interface [COM],DiscardCache method, IOleCache2.DiscardCache, IOleCache2::DiscardCache, _ole_iolecache2_discardcache, com.iolecache2_discardcache, oleidl/IOleCache2::DiscardCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

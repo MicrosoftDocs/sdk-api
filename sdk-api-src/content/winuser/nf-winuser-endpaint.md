@@ -9,8 +9,6 @@ ms.assetid: b07cfed9-21c4-4459-855a-eaf4d1d34ab8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPaint, EndPaint function [Windows GDI], _win32_EndPaint, gdi.endpaint, winuser/EndPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

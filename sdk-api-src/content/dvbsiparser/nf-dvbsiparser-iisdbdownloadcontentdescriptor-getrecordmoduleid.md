@@ -9,8 +9,6 @@ ms.assetid: c714b2f2-e787-40cc-b57b-d56b54dc8966
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordModuleId, GetRecordModuleId method [Microsoft TV Technologies], GetRecordModuleId method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleId method, IIsdbDownloadContentDescriptor.GetRecordModuleId, IIsdbDownloadContentDescriptor::GetRecordModuleId, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleId, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

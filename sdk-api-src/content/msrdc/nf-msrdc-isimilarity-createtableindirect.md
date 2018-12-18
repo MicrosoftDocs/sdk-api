@@ -9,8 +9,6 @@ ms.assetid: 84df73f5-0c39-44bd-81d8-d5ca144eb2e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CreateTableIndirect method, ISimilarity.CreateTableIndirect, ISimilarity::CreateTableIndirect, fs.isimilarity_createtableindirect, msrdc/ISimilarity::CreateTableIndirect, rdc.isimilarity_createtableindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

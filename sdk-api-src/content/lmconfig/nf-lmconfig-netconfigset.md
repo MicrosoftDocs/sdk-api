@@ -9,8 +9,6 @@ ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetConfigSet, NetConfigSet function [Network Management], _win32_netconfigset, lmconfig/NetConfigSet, netmgmt.netconfigset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmconfig.h
 req.include-header: 

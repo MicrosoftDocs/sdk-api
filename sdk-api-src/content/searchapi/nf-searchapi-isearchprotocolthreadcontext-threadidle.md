@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchpr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadIdle method, ISearchProtocolThreadContext.ThreadIdle, ISearchProtocolThreadContext::ThreadIdle, ThreadIdle, ThreadIdle method [search], ThreadIdle method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadIdle, search._search_ISearchProtocolThreadContext_ThreadIdle, searchapi/ISearchProtocolThreadContext::ThreadIdle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 37b5b063-a0ae-4ef8-a63b-44c009a31eb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_LPInnerFEC method, IDVBTLocator.put_LPInnerFEC, IDVBTLocator::put_LPInnerFEC, IDVBTLocatorput_LPInnerFEC, mstv.idvbtlocator_put_lpinnerfec, put_LPInnerFEC, put_LPInnerFEC method [Microsoft TV Technologies], put_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_LPInnerFEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

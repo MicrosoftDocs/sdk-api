@@ -9,8 +9,6 @@ ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

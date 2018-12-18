@@ -9,8 +9,6 @@ ms.assetid: 42e25099-016e-4656-a412-72dd0fbac1fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyFromRenderTarget, CopyFromRenderTarget method [Direct2D], CopyFromRenderTarget method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromRenderTarget method, ID2D1Bitmap.CopyFromRenderTarget, ID2D1Bitmap::CopyFromRenderTarget, d2d1/ID2D1Bitmap::CopyFromRenderTarget, direct2d.ID2D1Bitmap_CopyFromRenderTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -83,7 +81,7 @@ The area of <i>renderTarget</i> to copy.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -96,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method does not update the size of the current bitmap. If the contents of the source bitmap do not fit in the current bitmap, this method fails. Also, note that this method does not perform format conversion, and will fail if the bitmap formats do not match.
 
-Calling this method may cause the current batch to flush if the bitmap is active in the batch. If the batch that was flushed does not complete successfully, this method fails. However, this method does not clear the error state of the render target on which the batch was flushed. The failing <a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a> and tag state will be returned at the next call to <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">Flush</a>. 
+Calling this method may cause the current batch to flush if the bitmap is active in the batch. If the batch that was flushed does not complete successfully, this method fails. However, this method does not clear the error state of the render target on which the batch was flushed. The failing <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a> and tag state will be returned at the next call to <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">Flush</a>. 
 
 All clips and layers must be popped off of the render target before calling this method.  The method returns <a href="https://msdn.microsoft.com/018bfca5-6ef4-497c-a4b6-8502c3cdac1b">D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT</a>  if any clips or layers are currently applied to the render target.
 

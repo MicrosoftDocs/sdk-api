@@ -9,8 +9,6 @@ ms.assetid: 1e894d26-de19-4c24-b4e6-58c0b4c9d5ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress,CreateMSPCallHelper, CMSPAddress.CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress object, CreateMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_createmspcallhelper, tapi3.cmspaddress_createmspcallhelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mspaddr.h
 req.include-header: 
@@ -53,8 +51,8 @@ req.redist:
 The 
 <b>CreateMSPCallHelper</b> helper template function is called in the derived class' implementation of 
 <a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>. It checks all of the arguments for validity, including the media type argument (via the address object method 
-<a href="https://msdn.microsoft.com/4dc47d60-184d-4601-8c58-08ae8b747223">IsValidSetOfMediaTypes</a>; see above). It sets up the aggregation between the MSP call object and the TAPI call object using the <b>CComAggObject</b> ATL class template. It then calls the 
-<a href="https://msdn.microsoft.com/bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda">Init</a> method on the MSP call object.
+<a href="https://msdn.microsoft.com/en-us/library/ms726439(v=VS.85).aspx">IsValidSetOfMediaTypes</a>; see above). It sets up the aggregation between the MSP call object and the TAPI call object using the <b>CComAggObject</b> ATL class template. It then calls the 
+<a href="https://msdn.microsoft.com/en-us/library/ms726510(v=VS.85).aspx">Init</a> method on the MSP call object.
 
 
 ## -parameters
@@ -65,7 +63,7 @@ The
 ### -param pCMSPAddress
 
 Pointer to 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a> interface for call.
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a> interface for call.
 
 
 ### -param htCall
@@ -120,7 +118,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
 
 
 

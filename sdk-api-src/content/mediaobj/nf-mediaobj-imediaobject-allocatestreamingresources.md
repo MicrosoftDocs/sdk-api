@@ -9,8 +9,6 @@ ms.assetid: cd608bf2-50a5-4037-aeb5-c5c380c3d6df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateStreamingResources, AllocateStreamingResources method [DirectShow], AllocateStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],AllocateStreamingResources method, IMediaObject.AllocateStreamingResources, IMediaObject::AllocateStreamingResources, IMediaObjectAllocateStreamingResources, dshow.imediaobject_allocatestreamingresources, mediaobj/IMediaObject::AllocateStreamingResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -83,9 +81,9 @@ This method is optional in the following sense:
 
 <ul>
 <li>If the DMO does not support this method, the method returns S_OK.</li>
-<li>If the application never calls this method, the DMO allocates resources within a call to <a href="https://msdn.microsoft.com/f52e9586-f65d-418f-8c1a-c97c0a81d253">IMediaObject::ProcessInput</a> or <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a>.</li>
+<li>If the application never calls this method, the DMO allocates resources within a call to <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>.</li>
 </ul>
-If the DMO supports this method, it should also support the <a href="https://msdn.microsoft.com/c4d2dbf1-45c9-47a2-a21f-5eb04f828ec1">IMediaObject::FreeStreamingResources</a> method.
+If the DMO supports this method, it should also support the <a href="https://msdn.microsoft.com/en-us/library/Dd406946(v=VS.85).aspx">IMediaObject::FreeStreamingResources</a> method.
 
 
 
@@ -95,7 +93,7 @@ If the DMO supports this method, it should also support the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

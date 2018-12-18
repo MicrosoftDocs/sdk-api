@@ -9,8 +9,6 @@ ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Refract(XMVECTOR,XMVECTOR
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4Refract, XMVector4Refract, XMVector4Refract method [DirectX Math Support APIs], dxmath.xmvector4refract
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -132,7 +130,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/259ab263-7f1f-4184-83e8-d01d475a735c">XMVector4RefractV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420985(v=VS.85).aspx">XMVector4RefractV</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f2c87f5e-5c8e-487c-ad18-ea95f334e01d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveSetCursor method, IPointerInactive.OnInactiveSetCursor, IPointerInactive::OnInactiveSetCursor, OnInactiveSetCursor, OnInactiveSetCursor method [COM], OnInactiveSetCursor method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivesetcursor, com.ipointerinactive_oninactivesetcursor, ocidl/IPointerInactive::OnInactiveSetCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

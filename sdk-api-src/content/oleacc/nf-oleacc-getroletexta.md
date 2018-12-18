@@ -9,8 +9,6 @@ ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop method, ISpatialAudioObjectRenderStreamBase.Stop, ISpatialAudioObjectRenderStreamBase::Stop, Stop, Stop method [Core Audio], Stop method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_stop, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -90,7 +88,7 @@ If the method succeeds, it returns S_OK. If the stream is not running when this 
 
 
 
-<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 94a4607c-2770-4656-8710-987d6b951e0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DavGetTheLockOwnerOfTheFile, DavGetTheLockOwnerOfTheFile function [WebDAV], davclnt/DavGetTheLockOwnerOfTheFile, webdav.davgetthelockownerofthefile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 45db472d-cffc-42d1-8270-3a0db72bdc2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],put_SubstreamTypes method, ICCSubStreamFiltering.put_SubstreamTypes, ICCSubStreamFiltering::put_SubstreamTypes, ICCSubStreamFilteringput_SubstreamTypes, bdaiface/ICCSubStreamFiltering::put_SubstreamTypes, mstv.iccsubstreamfiltering_put_substreamtypes, put_SubstreamTypes, put_SubstreamTypes method [Microsoft TV Technologies], put_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -66,7 +64,7 @@ The <b>get_SubstreamTypes</b> method sets the closed captioning services the pin
 
 ### -param Types [in]
 
-Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/en-us/library/Dd695076(v=VS.85).aspx">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
+Bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://msdn.microsoft.com/1a55a9b1-6784-4a29-93aa-95aadaf6fb7e">KS_CC_SUBSTREAM Constants</a>. Any services that are not selected are simply dropped.
 
 
 ## -returns

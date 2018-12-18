@@ -9,8 +9,6 @@ ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 

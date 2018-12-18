@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformNormal(XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2TransformNormal, XMVector2TransformNormal, XMVector2TransformNormal method [DirectX Math Support APIs], dxmath.xmvector2transformnormal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -98,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/9f8e9987-e31d-4baa-a463-18e61f25ee2f">XMVector2TransformNormalStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404774(v=VS.85).aspx">XMVector2TransformNormalStream</a>
  
 
  

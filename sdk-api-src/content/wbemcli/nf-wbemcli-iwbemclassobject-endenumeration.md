@@ -9,8 +9,6 @@ ms.assetid: a9fa8567-7504-4d59-a874-1dc7b2620a0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Windows Management Instrumentation], EndEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],EndEnumeration method, IWbemClassObject.EndEnumeration, IWbemClassObject::EndEnumeration, _hmm_iwbemclassobject_endenumeration, wbemcli/IWbemClassObject::EndEnumeration, wmi.iwbemclassobject_endenumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

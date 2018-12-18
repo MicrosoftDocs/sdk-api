@@ -9,8 +9,6 @@ ms.assetid: a29e1955-80e2-442d-9565-c885006be565
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],CreateEnumUsers method, IDiskQuotaControl.CreateEnumUsers, IDiskQuotaControl::CreateEnumUsers, _win32_idiskquotacontrol_createenumusers, base.idiskquotacontrol_createenumusers, dskquota/IDiskQuotaControl::CreateEnumUsers, fs.idiskquotacontrol_createenumusers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

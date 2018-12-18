@@ -9,8 +9,6 @@ ms.assetid: f51b487e-10b0-4539-885b-f3b9af29dc28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMImageResourceCollection.SetAt, IXpsOMImageResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_setat, xpsobjectmodel/IXpsOMImageResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

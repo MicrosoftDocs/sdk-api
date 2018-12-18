@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlsco
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScopeEx method, ISearchCrawlScopeManager.IncludedInCrawlScopeEx, ISearchCrawlScopeManager::IncludedInCrawlScopeEx, IncludedInCrawlScopeEx, IncludedInCrawlScopeEx method [search], IncludedInCrawlScopeEx method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, search._search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScopeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

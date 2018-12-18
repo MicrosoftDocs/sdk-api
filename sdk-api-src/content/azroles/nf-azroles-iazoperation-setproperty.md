@@ -9,8 +9,6 @@ ms.assetid: f510fdb4-922d-488c-ad3d-3468da6a2fb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AzOperation object [Security],SetProperty method, IAzOperation interface [Security],SetProperty method, IAzOperation.SetProperty, IAzOperation::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzOperation object, SetProperty method [Security],IAzOperation interface, azroles/IAzOperation::SetProperty, security.iazoperation_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -187,7 +185,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa377912(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/f6265bfa-c856-47db-a688-f5de25ef7157">Submit</a> method to persist any changes made by this method.
 
 
 

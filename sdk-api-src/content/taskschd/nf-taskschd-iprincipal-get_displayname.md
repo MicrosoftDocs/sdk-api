@@ -9,8 +9,6 @@ ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.get_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, get_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

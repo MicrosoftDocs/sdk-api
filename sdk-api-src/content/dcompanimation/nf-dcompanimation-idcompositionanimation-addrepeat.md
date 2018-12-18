@@ -9,8 +9,6 @@ ms.assetid: 14179e2f-3ede-4137-baa4-074bb31e1481
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRepeat, AddRepeat method [DirectComposition], AddRepeat method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],AddRepeat method, IDCompositionAnimation.AddRepeat, IDCompositionAnimation::AddRepeat, dcompanimation/IDCompositionAnimation::AddRepeat, directcomp.idcompositionanimation_addrepeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 

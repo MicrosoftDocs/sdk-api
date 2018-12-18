@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetVoiceDetails(
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVoiceDetails, GetVoiceDetails method [XAudio2 Audio Mixing APIs], GetVoiceDetails method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetVoiceDetails method, IXAudio2Voice.GetVoiceDetails, IXAudio2Voice::GetVoiceDetails, xaudio2.ixaudio2voice_interface_getvoicedetails, xaudio2/IXAudio2Voice::GetVoiceDetails
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
@@ -61,7 +59,7 @@ Returns information about the creation flags, input channels, and sample rate of
 ### -param pVoiceDetails [in, out]
 
 
-<a href="https://msdn.microsoft.com/22f7f110-1801-41a9-bfcf-974725045e68">XAUDIO2_VOICE_DETAILS</a> structure containing information about the voice.
+<a href="https://msdn.microsoft.com/en-us/library/Ee419245(v=VS.85).aspx">XAUDIO2_VOICE_DETAILS</a> structure containing information about the voice.
 
 
 ## -returns
@@ -88,7 +86,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
  
 
  

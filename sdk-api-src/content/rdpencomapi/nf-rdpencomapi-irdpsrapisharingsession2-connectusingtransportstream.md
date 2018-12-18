@@ -9,8 +9,6 @@ ms.assetid: 78f517c9-0870-4dfd-a318-3bd510e05dfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConnectUsingTransportStream, ConnectUsingTransportStream method [RDP], ConnectUsingTransportStream method [RDP],IRDPSRAPISharingSession2 interface, IRDPSRAPISharingSession2 interface [RDP],ConnectUsingTransportStream method, IRDPSRAPISharingSession2.ConnectUsingTransportStream, IRDPSRAPISharingSession2::ConnectUsingTransportStream, rdp.irdpsrapisharingsession2_connectusingtransportstream, rdpencomapi/IRDPSRAPISharingSession2::ConnectUsingTransportStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

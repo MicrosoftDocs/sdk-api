@@ -9,8 +9,6 @@ ms.assetid: 6a99c958-92f9-4487-8768-3265dab7f0ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Resets service proxy.
 
 WsResetServiceProxy provides a convenient way to reuse the service proxy. 
-                Once the proxy is <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">closed</a>,
+                Once the proxy is <a href="https://msdn.microsoft.com/en-us/library/Dd323433(v=VS.85).aspx">closed</a>,
                 the application can call WsResetServiceProxy to reuse it.
             
 

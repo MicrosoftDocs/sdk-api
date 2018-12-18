@@ -9,8 +9,6 @@ ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryWriterFromBlockWriter method, IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

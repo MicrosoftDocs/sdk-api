@@ -9,8 +9,6 @@ ms.assetid: dcc7575a-49fd-4306-8baa-57e9e0d5ed1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetBrushOrgEx, SetBrushOrgEx function [Windows GDI], _win32_SetBrushOrgEx, gdi.setbrushorgex, wingdi/SetBrushOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

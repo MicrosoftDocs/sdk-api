@@ -9,8 +9,6 @@ ms.assetid: e61c9c1a-4ffc-4a71-83b7-ad3f9937e303
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_URL method, IWMPMetadataPicture.get_URL, IWMPMetadataPicture::get_URL, IWMPMetadataPictureget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_url, wmp/IWMPMetadataPicture::get_URL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -97,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/385819d0-cf27-4f39-86be-140d1bc87d12">IWMPMetadataPicture Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563451(v=VS.85).aspx">IWMPMetadataPicture Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 191ea201-dc86-4cde-a0cd-be8d2360b22e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStartupInfo, GetStartupInfo function, GetStartupInfoA, GetStartupInfoW, _win32_getstartupinfo, base.getstartupinfo, processthreadsapi/GetStartupInfo, processthreadsapi/GetStartupInfoA, processthreadsapi/GetStartupInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 33da4c65-8ce1-44cf-9d5f-f5626620b420
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mmioAscend, mmioAscend, mmioAscend function [Windows Multimedia], mmsystem/mmioAscend, multimedia.mmioascend"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

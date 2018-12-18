@@ -9,8 +9,6 @@ ms.assetid: 5C62E73A-65D1-4B4D-9165-08B6C844FF3D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

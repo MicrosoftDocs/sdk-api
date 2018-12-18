@@ -9,8 +9,6 @@ ms.assetid: 0c2ebbba-66a4-4ef0-abba-faab129e64e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_MediaTypesInUse method, ITMultiTrackTerminal.get_MediaTypesInUse, ITMultiTrackTerminal::get_MediaTypesInUse, _tapi3_itmultitrackterminal_get_mediatypesinuse, get_MediaTypesInUse, get_MediaTypesInUse method [TAPI 2.2], get_MediaTypesInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_mediatypesinuse, tapi3if/ITMultiTrackTerminal::get_MediaTypesInUse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

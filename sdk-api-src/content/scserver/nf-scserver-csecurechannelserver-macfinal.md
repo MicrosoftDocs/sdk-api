@@ -9,8 +9,6 @@ ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACFinal method, CSecureChannelServer.MACFinal, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

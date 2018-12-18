@@ -9,8 +9,6 @@ ms.assetid: 78215141-dfe8-4f0a-ba1a-a63fa257db6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpCloseHandle, WinHttpCloseHandle function [WinHTTP], http.winhttpclosehandle, winhttp.winhttpclosehandle, winhttp/WinHttpCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

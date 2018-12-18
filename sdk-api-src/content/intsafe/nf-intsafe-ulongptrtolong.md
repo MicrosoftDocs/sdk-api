@@ -9,8 +9,6 @@ ms.assetid: 8f3f7cac-7dd4-4fe2-9415-082a24f14ba3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordPtrToLong, SIZETToLong, ULongPtrToLong, ULongPtrToLong function [Windows Shell], _shell_ULongPtrToLong, intsafe/ULongPtrToLong, shell.ULongPtrToLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

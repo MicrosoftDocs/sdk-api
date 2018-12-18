@@ -9,8 +9,6 @@ ms.assetid: 206A103C-5847-4388-83EC-BE038DB20A09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFont method, IDWriteFontList1.GetFont, IDWriteFontList1::GetFont, directwrite.idwritefontlist1_getfont, dwrite_3/IDWriteFontList1::GetFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -67,9 +65,9 @@ Zero-based index of the font in the font list.
 
 ### -param font [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a> interface for the newly created font object.
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a> interface for the newly created font object.
 
 
 ## -returns
@@ -92,7 +90,7 @@ This method returns <b>DWRITE_E_REMOTEFONT</b> if it could not construct a remot
 
 
 
-<a href="https://msdn.microsoft.com/68B6B1E3-9463-4A45-853A-CCC9501E4301">IDWriteFontList1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894594(v=VS.85).aspx">IDWriteFontList1</a>
  
 
  

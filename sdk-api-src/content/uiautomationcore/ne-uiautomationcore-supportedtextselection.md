@@ -9,8 +9,6 @@ ms.assetid: b25b2e83-d42b-4cef-a255-94008325715c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SupportedTextSelection, SupportedTextSelection enumeration [Windows Accessibility], SupportedTextSelection_Multiple, SupportedTextSelection_None, SupportedTextSelection_Single, uiauto.uiauto_SupportedTextSelectionEnum, uiauto_SupportedTextSelectionEnum, uiautomationcore/SupportedTextSelection, uiautomationcore/SupportedTextSelection_Multiple, uiautomationcore/SupportedTextSelection_None, uiautomationcore/SupportedTextSelection_Single, winauto.uiauto_SupportedTextSelectionEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

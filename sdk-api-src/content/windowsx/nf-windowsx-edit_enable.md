@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enable, _win32_Edit_Enable_cpp, controls.Edit_Enable, controls._win32_Edit_Enable, windowsx/Edit_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3922ea46-da14-44ad-a9bf-8a10480722da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactManager interface [Windows Contacts],SetMeContact method, IContactManager.SetMeContact, IContactManager::SetMeContact, SetMeContact, SetMeContact method [Windows Contacts], SetMeContact method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_SetMeContact, icontact/IContactManager::SetMeContact, wincontacts._wincontacts_IContactManager_SetMeContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

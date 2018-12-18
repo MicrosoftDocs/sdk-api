@@ -9,8 +9,6 @@ ms.assetid: a0cb92f4-6c97-42be-abf1-e1662e213a7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],GetUpdateResult method, IInstallationProgress.GetUpdateResult, IInstallationProgress::GetUpdateResult, wua.iinstallationprogress_getupdateresult, wuapi/IInstallationProgress::GetUpdateResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

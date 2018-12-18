@@ -9,8 +9,6 @@ ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpcbindingvectorfree, rpc.rpcbindingvectorfree, rpcdce/RpcBindingVectorFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

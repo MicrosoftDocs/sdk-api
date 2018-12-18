@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\item.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],Item method, IMILBitmapEffects.Item, IMILBitmapEffects::Item, Item, Item method [WPF Bitmap Effects], Item method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects_item, mileffects/IMILBitmapEffects::Item, wibe._wibe_imilbitmapeffects_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

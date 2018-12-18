@@ -9,8 +9,6 @@ ms.assetid: ecfbf297-88fa-42bf-afa7-f7884be17b15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleLoadPictureFile, OleLoadPictureFile function [Automation], _oa96_OleLoadPictureFile, automat.oleloadpicturefile, olectl/OleLoadPictureFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

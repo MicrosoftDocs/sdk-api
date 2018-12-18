@@ -9,8 +9,6 @@ ms.assetid: 9386748c-e551-49b8-89c3-65d721820736
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndConvertHNSToTimecode, EndConvertHNSToTimecode method [Media Foundation], EndConvertHNSToTimecode method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],EndConvertHNSToTimecode method, IMFTimecodeTranslate.EndConvertHNSToTimecode, IMFTimecodeTranslate::EndConvertHNSToTimecode, mf.imftimecodetranslate_endconverthnstotimecode, mfidl/IMFTimecodeTranslate::EndConvertHNSToTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

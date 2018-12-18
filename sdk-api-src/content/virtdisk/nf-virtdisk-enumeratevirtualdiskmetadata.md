@@ -9,8 +9,6 @@ ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateVirtualDiskMetadata, EnumerateVirtualDiskMetadata function [Virtual Storage], virtdisk/EnumerateVirtualDiskMetadata, vstor.enumeratevirtualdiskmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

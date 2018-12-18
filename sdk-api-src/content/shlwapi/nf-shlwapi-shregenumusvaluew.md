@@ -9,8 +9,6 @@ ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -117,9 +115,9 @@ A pointer to a <b>DWORD</b> that, on entry, contains the size of the buffer at <
 
 ### -param enumRegFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773523(v=VS.85).aspx">SHREGENUM_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/4216a983-9d53-44b1-8273-e5a90ac4b3ef">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
+One of the <a href="https://msdn.microsoft.com/en-us/library/Bb773523(v=VS.85).aspx">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
 
 
 ## -returns

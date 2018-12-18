@@ -9,8 +9,6 @@ ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

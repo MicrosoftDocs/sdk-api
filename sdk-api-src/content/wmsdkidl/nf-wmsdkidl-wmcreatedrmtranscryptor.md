@@ -9,8 +9,6 @@ ms.assetid: b8d7607f-5fd0-4f4a-b626-d08324aaa805
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateDRMTranscryptor, WMCreateDRMTranscryptor function [windows Media Format], wmformat.wmcreatedrmtranscryptor, wmsdkidl/WMCreateDRMTranscryptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ Creates a DRM transcryptor object.
 
 ### -param ppTranscryptor [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/cd154077-eebe-4a0f-ae70-5268d5af4898">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
 
 
 ## -returns

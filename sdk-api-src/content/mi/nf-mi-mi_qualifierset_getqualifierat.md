@@ -9,8 +9,6 @@ ms.assetid: 5dfcdd7a-7740-4d40-b412-89f6f090561c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_QualifierSet_GetQualifierAt, MI_QualifierSet_GetQualifierAt function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierAt, wmi_v2.mi_qualifierset_getqualifierat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

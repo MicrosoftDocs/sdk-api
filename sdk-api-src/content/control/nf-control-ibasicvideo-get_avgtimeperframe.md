@@ -9,8 +9,6 @@ ms.assetid: a32a1a46-cde3-401a-b933-c72e399e9ea1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_AvgTimePerFrame method, IBasicVideo.get_AvgTimePerFrame, IBasicVideo::get_AvgTimePerFrame, IBasicVideoget_AvgTimePerFrame, control/IBasicVideo::get_AvgTimePerFrame, dshow.ibasicvideo_get_avgtimeperframe, get_AvgTimePerFrame, get_AvgTimePerFrame method [DirectShow], get_AvgTimePerFrame method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -92,7 +90,7 @@ To retrieve the actual frame rate during playback, use the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

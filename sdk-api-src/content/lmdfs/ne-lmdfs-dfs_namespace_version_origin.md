@@ -1,5 +1,5 @@
 ---
-UID: NE:lmdfs.DFS_NAMESPACE_VERSION_ORIGIN
+UID: NE:lmdfs.__unnamed_enum_0
 title: DFS_NAMESPACE_VERSION_ORIGIN
 author: windows-sdk-content
 description: Identifies the origin of DFS namespace version information.
@@ -7,10 +7,8 @@ old-location: dfs\dfs_namespace_version_origin.htm
 tech.root: Dfs
 ms.assetid: b260e132-41fd-460b-87e6-c6e0490dc8b4
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PDFS_NAMESPACE_VERSION_ORIGIN, DFS_NAMESPACE_VERSION_ORIGIN, DFS_NAMESPACE_VERSION_ORIGIN enumeration [Distributed File System], DFS_NAMESPACE_VERSION_ORIGIN_COMBINED, DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN, DFS_NAMESPACE_VERSION_ORIGIN_SERVER, dfs.dfs_namespace_version_origin, fs.dfs_namespace_version_origin, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_COMBINED, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_DOMAIN, lmdfs/DFS_NAMESPACE_VERSION_ORIGIN_SERVER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

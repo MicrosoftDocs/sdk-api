@@ -9,8 +9,6 @@ ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 986EE898-D377-4DFF-B19E-834D5CD1A4E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],RemoveChild method, ID2D1SvgElement.RemoveChild, ID2D1SvgElement::RemoveChild, RemoveChild, RemoveChild method [Direct2D], RemoveChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::RemoveChild, direct2d.id2d1svgelement_removechild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -69,7 +67,7 @@ The child element to be removed. The oldChild element must be an immediate child
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

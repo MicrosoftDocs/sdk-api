@@ -9,8 +9,6 @@ ms.assetid: ba7d42b4-2025-4881-b1eb-98636bb1c5ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition method, IWMPControls.get_currentPosition, IWMPControls::get_currentPosition, IWMPControlsget_currentPosition, get_currentPosition, get_currentPosition method [Windows Media Player], get_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentposition, wmp/IWMPControls::get_currentPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,15 +97,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8843852b-f98a-469f-8541-44b3c51ebd6c">IWMPControls::get_currentPositionString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563200(v=VS.85).aspx">IWMPControls::get_currentPositionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/7deedeed-8ce9-4fd7-9825-817204a9cb3e">IWMPControls::put_currentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563210(v=VS.85).aspx">IWMPControls::put_currentPosition</a>
  
 
  

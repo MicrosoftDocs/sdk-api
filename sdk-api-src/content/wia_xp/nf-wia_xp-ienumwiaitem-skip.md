@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\skip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumWiaItem::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

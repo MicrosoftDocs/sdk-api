@@ -9,8 +9,6 @@ ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6570D84B-F589-4090-8F08-F91B12B0E283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPipelineStackSize, GetPipelineStackSize method, GetPipelineStackSize method,ID3D12StateObjectProperties interface, ID3D12StateObjectProperties interface,GetPipelineStackSize method, ID3D12StateObjectProperties.GetPipelineStackSize, ID3D12StateObjectProperties::GetPipelineStackSize, d3d12/ID3D12StateObjectProperties::GetPipelineStackSize, direct3d12.id3d12stateobjectproperties_getpipelinestacksize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -83,7 +81,7 @@ This method and <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-
 
 
 
-<a href="https://msdn.microsoft.com/3971089A-2779-42FA-8FF9-6C7C8E39C7F9">ID3D12StateObjectProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
  
 
  

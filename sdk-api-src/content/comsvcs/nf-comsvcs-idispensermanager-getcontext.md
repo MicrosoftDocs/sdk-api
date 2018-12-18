@@ -9,8 +9,6 @@ ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

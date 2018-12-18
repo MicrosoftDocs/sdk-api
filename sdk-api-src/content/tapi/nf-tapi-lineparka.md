@@ -9,8 +9,6 @@ ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

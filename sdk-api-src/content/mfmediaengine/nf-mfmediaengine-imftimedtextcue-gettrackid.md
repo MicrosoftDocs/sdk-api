@@ -9,8 +9,6 @@ ms.assetid: 967CA2AC-A36A-4875-9882-6EF4748EC92C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTrackId, GetTrackId method [Media Foundation], GetTrackId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetTrackId method, IMFTimedTextCue.GetTrackId, IMFTimedTextCue::GetTrackId, mf.imftimedtextcue_gettrackid, mfmediaengine/IMFTimedTextCue::GetTrackId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

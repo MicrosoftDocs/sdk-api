@@ -9,8 +9,6 @@ ms.assetid: 9a4056c6-6a21-4051-b4a6-c77351fce983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityInformation2 interface [Security],LookupSids method, ISecurityInformation2.LookupSids, ISecurityInformation2::LookupSids, LookupSids, LookupSids method [Security], LookupSids method [Security],ISecurityInformation2 interface, _win32_isecurityinformation2_lookupsids, aclui/ISecurityInformation2::LookupSids, security.isecurityinformation2_lookupsids
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
@@ -135,7 +133,7 @@ typedef struct _SID_INFO_LIST
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

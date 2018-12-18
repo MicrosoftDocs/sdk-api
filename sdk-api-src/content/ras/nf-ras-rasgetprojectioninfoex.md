@@ -9,8 +9,6 @@ ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

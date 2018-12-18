@@ -9,8 +9,6 @@ ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

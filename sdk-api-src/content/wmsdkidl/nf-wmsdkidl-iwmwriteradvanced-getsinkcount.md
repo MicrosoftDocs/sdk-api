@@ -9,8 +9,6 @@ ms.assetid: 210c96bc-3659-43e6-acb2-4d9f328e81e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSinkCount, GetSinkCount method [windows Media Format], GetSinkCount method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSinkCount method, IWMWriterAdvanced.GetSinkCount, IWMWriterAdvanced::GetSinkCount, IWMWriterAdvancedGetSinkCount, wmformat.iwmwriteradvanced_getsinkcount, wmsdkidl/IWMWriterAdvanced::GetSinkCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>GetSinkCount</b> method retrieves the number of writer sinks associated with the writer object. To obtain a pointer to an interface of an individual sink, call <a href="https://msdn.microsoft.com/6775eb89-a3af-42d2-b1e3-197abb1fce61">IWMWriterAdvanced::GetSink</a> using a sink number between 0 and one less than the count returned by this method.
+The <b>GetSinkCount</b> method retrieves the number of writer sinks associated with the writer object. To obtain a pointer to an interface of an individual sink, call <a href="https://msdn.microsoft.com/en-us/library/Dd798728(v=VS.85).aspx">IWMWriterAdvanced::GetSink</a> using a sink number between 0 and one less than the count returned by this method.
 
 
 
@@ -112,7 +110,7 @@ The method succeeded.
 
 
 
-If you specify a file by calling <a href="https://msdn.microsoft.com/352cf497-f7d6-41e8-bdbb-c59215b617a3">IWMWriter::SetOutputFilename</a>, the writer object will automatically create a file sink and add it to the writer. That sink will be included in the count retrieved by this method.
+If you specify a file by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">IWMWriter::SetOutputFilename</a>, the writer object will automatically create a file sink and add it to the writer. That sink will be included in the count retrieved by this method.
 
 
 
@@ -126,11 +124,11 @@ If you specify a file by calling <a href="https://msdn.microsoft.com/352cf497-f7
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6775eb89-a3af-42d2-b1e3-197abb1fce61">IWMWriterAdvanced::GetSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798728(v=VS.85).aspx">IWMWriterAdvanced::GetSink</a>
  
 
  

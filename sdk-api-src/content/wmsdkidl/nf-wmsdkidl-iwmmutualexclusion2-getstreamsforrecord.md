@@ -9,8 +9,6 @@ ms.assetid: a94a64e9-96c6-4aba-a5b4-f50d14c19b73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [windows Media Format], GetStreamsForRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetStreamsForRecord method, IWMMutualExclusion2.GetStreamsForRecord, IWMMutualExclusion2::GetStreamsForRecord, IWMMutualExclusion2GetStreamsForRecord, wmformat.iwmmutualexclusion2_getstreamsforrecord, wmsdkidl/IWMMutualExclusion2::GetStreamsForRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -160,7 +158,7 @@ If you pass an array that is not large enough to contain all of the streams, an 
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
  
 
  

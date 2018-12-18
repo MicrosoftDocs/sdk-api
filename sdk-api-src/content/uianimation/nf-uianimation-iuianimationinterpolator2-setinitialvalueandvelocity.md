@@ -9,8 +9,6 @@ ms.assetid: F1C0C54D-86C3-4B65-96A4-66D89F2B2084
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator2.SetInitialValueAndVelocity, IUIAnimationInterpolator2::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator2::SetInitialValueAndVelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

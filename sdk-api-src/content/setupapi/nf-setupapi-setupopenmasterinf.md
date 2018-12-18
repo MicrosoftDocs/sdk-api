@@ -9,8 +9,6 @@ ms.assetid: dbf3fb81-7416-4eb7-95b9-adfc17b2a364
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupOpenMasterInf, SetupOpenMasterInf function [Setup API], _setupapi_setupopenmasterinf, setup.setupopenmasterinf, setupapi/SetupOpenMasterInf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

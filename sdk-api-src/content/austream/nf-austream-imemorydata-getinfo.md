@@ -9,8 +9,6 @@ ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -91,7 +89,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method determines how much data the object currently contains as last set by <a href="https://msdn.microsoft.com/22d9c24b-deb0-429a-ad9c-f6d286c7cdeb">SetActual</a>.
+This method determines how much data the object currently contains as last set by <a href="https://msdn.microsoft.com/en-us/library/Dd407082(v=VS.85).aspx">SetActual</a>.
 
 
 
@@ -101,7 +99,7 @@ This method determines how much data the object currently contains as last set b
 
 
 
-<a href="https://msdn.microsoft.com/0e809ae7-381c-4ada-8940-5d42bf5c03da">IMemoryData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
  
 
  

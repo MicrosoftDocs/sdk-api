@@ -9,8 +9,6 @@ ms.assetid: ed481bfb-dd80-44fa-bf64-a0f8e903ae35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],get_DiseqResponse method, IBDA_DiseqCommand.get_DiseqResponse, IBDA_DiseqCommand::get_DiseqResponse, bdaiface/IBDA_DiseqCommand::get_DiseqResponse, get_DiseqResponse, get_DiseqResponse method [Microsoft TV Technologies], get_DiseqResponse method [Microsoft TV Technologies],IBDA_DiseqCommand interface, mstv.ibda_diseqcommand_get_diseqresponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

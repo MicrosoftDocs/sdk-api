@@ -9,8 +9,6 @@ ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 0edddd8c-8144-40dc-801c-eb8c899be249
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: End, End method [windows Media Device Manager], End method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],End method, IWMDMProgress.End, IWMDMProgress::End, IWMDMProgressEnd, mswmdm/IWMDMProgress::End, wmdm.iwmdmprogress_end
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

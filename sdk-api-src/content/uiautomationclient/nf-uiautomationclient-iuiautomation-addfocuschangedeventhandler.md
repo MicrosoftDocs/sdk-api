@@ -9,8 +9,6 @@ ms.assetid: 469e9c3e-366f-4c13-8c27-58fdb705d4d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFocusChangedEventHandler, AddFocusChangedEventHandler method [Windows Accessibility], AddFocusChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddFocusChangedEventHandler method, IUIAutomation.AddFocusChangedEventHandler, IUIAutomation::AddFocusChangedEventHandler, uiauto.uiauto_IUIAutomation_AddFocusChangedEventHandler, uiauto_IUIAutomation_AddFocusChangedEventHandler, uiautomationclient/IUIAutomation::AddFocusChangedEventHandler, winauto.uiauto_IUIAutomation_AddFocusChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

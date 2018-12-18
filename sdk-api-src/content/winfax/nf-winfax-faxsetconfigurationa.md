@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

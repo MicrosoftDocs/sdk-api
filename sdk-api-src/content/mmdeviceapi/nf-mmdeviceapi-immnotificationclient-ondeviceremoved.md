@@ -9,8 +9,6 @@ ms.assetid: 0adacdd2-5fa3-4d27-a299-fa0d41b6d285
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceRemoved method, IMMNotificationClient.OnDeviceRemoved, IMMNotificationClient::OnDeviceRemoved, IMMNotificationClientOnDeviceRemoved, OnDeviceRemoved, OnDeviceRemoved method [Core Audio], OnDeviceRemoved method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceremoved, mmdeviceapi/IMMNotificationClient::OnDeviceRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

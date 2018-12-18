@@ -9,8 +9,6 @@ ms.assetid: 941cac20-cca9-4351-8dee-f3910062c6b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportClientAddRefBuffer, WdsTransportClientAddRefBuffer function [Windows Deployment Services], wds.wdstransportclientaddrefbuffer, wdstci/WdsTransportClientAddRefBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

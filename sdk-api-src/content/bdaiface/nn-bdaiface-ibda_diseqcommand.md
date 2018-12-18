@@ -9,8 +9,6 @@ ms.assetid: 0148a32d-b131-46ba-bbf0-82e2cf9c7d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_DiseqCommand, IBDA_DiseqCommand interface [Microsoft TV Technologies], IBDA_DiseqCommand interface [Microsoft TV Technologies],described, bdaiface/IBDA_DiseqCommand, mstv.ibda_diseqcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +53,9 @@ Controls cable television satelite equipment, using Digital Satellite Equipment 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DiseqCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_DiseqCommand</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

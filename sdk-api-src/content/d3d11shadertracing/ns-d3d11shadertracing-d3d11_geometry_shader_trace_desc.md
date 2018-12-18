@@ -9,8 +9,6 @@ ms.assetid: 1E7E5BA5-C0CE-49ED-8AD3-A13300D867E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_GEOMETRY_SHADER_TRACE_DESC, D3D11_GEOMETRY_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_GEOMETRY_SHADER_TRACE_DESC, direct3d11.d3d11_geometry_shader_trace_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 
@@ -77,7 +75,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

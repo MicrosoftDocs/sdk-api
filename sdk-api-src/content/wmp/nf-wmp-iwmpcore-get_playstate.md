@@ -9,8 +9,6 @@ ms.assetid: cadac1c6-fff6-44aa-a6ce-2b2f69da2d78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playState method, IWMPCore.get_playState, IWMPCore::get_playState, IWMPCoreget_playState, get_playState, get_playState method [Windows Media Player], get_playState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playstate, wmp/IWMPCore::get_playState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/15787d18-bc38-4fc7-a920-539d66252035">WMPPlayState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564881(v=VS.85).aspx">WMPPlayState</a>
  
 
  

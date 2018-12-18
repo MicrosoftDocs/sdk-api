@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_onnewcall.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnNewCall method, IFaxServerNotify2.OnNewCall, IFaxServerNotify2::OnNewCall, OnNewCall, OnNewCall method [Fax Service], OnNewCall method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnNewCall, _IFaxServerNotify2::OnNewCall, _mfax_ifaxservernotify2_onnewcall, fax._mfax_ifaxservernotify2_onnewcall, faxcomex/IFaxServerNotify2::OnNewCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -61,9 +59,9 @@ The fax service calls the <b>IFaxServerNotify2::OnNewCall</b> method when there 
 
 ### -param pFaxServer
 
-Type: <b><a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>*</b>
 
-A <a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> object.
 
 
 ### -param lCallId
@@ -102,7 +100,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To implement this functionality in Visual Basic, select and implement the appropriate event procedure. For an example, see <a href="https://msdn.microsoft.com/3a9f42fa-383a-4072-92a6-b59f7940ab04">Registering for Fax Events</a>.
+To implement this functionality in Visual Basic, select and implement the appropriate event procedure. For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Registering for Fax Events</a>.
 
 
 
@@ -112,7 +110,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/ebd959d0-516c-46a0-95cc-78aa49d50cc1">IFaxServerNotify2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a>
  
 
  

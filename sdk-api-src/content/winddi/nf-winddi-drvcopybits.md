@@ -9,8 +9,6 @@ ms.assetid: c2d42c7a-3d6e-416c-a194-2228cc1b0fd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvCopyBits, DrvCopyBits function [Display Devices], ddifncs_95bc17c2-b4ae-4883-8866-cd9dded1f30d.xml, display.drvcopybits, winddi/DrvCopyBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

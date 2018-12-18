@@ -9,8 +9,6 @@ ms.assetid: D2BAF02F-AE05-43F2-BDB1-013EAF3AC653
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 

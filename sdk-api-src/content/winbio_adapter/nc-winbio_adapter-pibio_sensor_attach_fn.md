@@ -9,8 +9,6 @@ ms.assetid: 91243128-0543-4df9-bde8-74ef5ae46914
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_SENSOR_ATTACH_FN, PIBIO_SENSOR_ATTACH_FN callback, SensorAdapterAttach, SensorAdapterAttach callback function [Windows Biometric Framework API], secbiomet.sensoradapterattach, winbio_adapter/SensorAdapterAttach
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

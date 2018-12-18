@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxcollision.h
 req.include-header: 

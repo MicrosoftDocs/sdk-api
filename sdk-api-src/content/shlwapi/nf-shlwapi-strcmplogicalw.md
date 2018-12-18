@@ -9,8 +9,6 @@ ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 430528b7-3b3a-4df9-8093-9b0f9262f106
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Pause method, IMSVidPlayback.Pause, IMSVidPlayback::Pause, IMSVidPlaybackPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_pause, segment/IMSVidPlayback::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -105,7 +103,7 @@ The method succeeded.
 
 
 
-This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl</a> interface, this method returns E_NOTIMPL.
+This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl</a> interface, this method returns E_NOTIMPL.
 
 
 
@@ -115,7 +113,7 @@ This method allows for direct control of the source. However, if the underlying 
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

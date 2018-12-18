@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchManager interface [search],SetProxy method, ISearchManager.SetProxy, ISearchManager::SetProxy, SetProxy, SetProxy method [search], SetProxy method [search],ISearchManager interface, _search_ISearchManager_SetProxy, search._search_ISearchManager_SetProxy, searchapi/ISearchManager::SetProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

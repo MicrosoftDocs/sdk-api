@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeMargins, GetThemeMargins function [Windows Controls], controls.GetThemeMargins, controls.inet_GetThemeMargins, inet_GetThemeMargins, inet_GetThemeMargins_cpp, uxtheme/GetThemeMargins
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

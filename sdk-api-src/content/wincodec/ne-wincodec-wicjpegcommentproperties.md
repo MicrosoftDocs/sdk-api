@@ -9,8 +9,6 @@ ms.assetid: aacf1f1a-49c6-4caf-acd5-8bba0415d41a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICJpegCommentProperties, WICJpegCommentProperties enumeration [Windows Imaging Component], WICJpegCommentText, _wic_codec_wicjpegcommentproperties, wic._wic_codec_wicjpegcommentproperties, wincodec/WICJpegCommentProperties, wincodec/WICJpegCommentText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

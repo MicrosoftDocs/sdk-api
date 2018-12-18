@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_2v1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRules, GetRules method [Fax Service], GetRules method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetRules method, IFaxOutboundRouting.GetRules, IFaxOutboundRouting::GetRules, _mfax_faxoutboundrouting.getrules_cpp, fax._mfax_faxoutboundrouting_getrules_cpp, faxcomex/IFaxOutboundRouting::GetRules
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IFaxOutboundRouting::GetRules</b> method retrieves an interface that repr
 
 ### -param pFaxOutboundRoutingRules [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>**</b>
 
-An address of a pointer that receives an <a href="https://msdn.microsoft.com/bd059904-b5b6-4485-a64e-0beaa4de7379">IFaxOutboundRoutingRules</a> interface.
+An address of a pointer that receives an <a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a> interface.
 
 
 ## -returns

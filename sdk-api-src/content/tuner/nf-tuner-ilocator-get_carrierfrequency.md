@@ -9,8 +9,6 @@ ms.assetid: 15f6d54c-81c8-40d3-937f-c54102f3a230
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_CarrierFrequency method, ILocator.get_CarrierFrequency, ILocator::get_CarrierFrequency, ILocatorget_CarrierFrequency, get_CarrierFrequency, get_CarrierFrequency method [Microsoft TV Technologies], get_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_carrierfrequency, tuner/ILocator::get_CarrierFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

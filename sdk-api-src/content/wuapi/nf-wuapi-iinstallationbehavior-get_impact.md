@@ -9,8 +9,6 @@ ms.assetid: c3749335-cfaf-46f3-afeb-3b8b4507467e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],Impact property, IInstallationBehavior.Impact, IInstallationBehavior.get_Impact, IInstallationBehavior::Impact, IInstallationBehavior::get_Impact, Impact property [Windows Update Agent], Impact property [Windows Update Agent],IInstallationBehavior interface, get_Impact, wua.iinstallationbehavior_impact, wuapi/IInstallationBehavior::Impact, wuapi/IInstallationBehavior::get_Impact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: pla\idatacollectorsetcollection__newenum.htm
 tech.root: pla
 ms.assetid: f875038d-8b66-44b2-b28e-211f08a691ec
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],_NewEnum property, IDataCollectorSetCollection._NewEnum, IDataCollectorSetCollection.get__NewEnum, IDataCollectorSetCollection::_NewEnum, IDataCollectorSetCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IDataCollectorSetCollection interface, get__NewEnum, pla.idatacollectorsetcollection__newenum, pla/IDataCollectorSetCollection::_NewEnum, pla/IDataCollectorSetCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

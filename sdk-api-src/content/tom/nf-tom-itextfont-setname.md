@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetName method, ITextFont.SetName, ITextFont::SetName, SetName, SetName method [Windows Controls], SetName method [Windows Controls],ITextFont interface, _win32_ITextFont_SetName, _win32_ITextFont_SetName_cpp, controls.ITextFont_SetName, controls._win32_ITextFont_SetName, tom/ITextFont::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

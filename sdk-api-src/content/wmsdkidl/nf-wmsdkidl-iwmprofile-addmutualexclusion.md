@@ -9,8 +9,6 @@ ms.assetid: efd751cf-d34d-4e74-9a00-444ec31ebef0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddMutualExclusion, AddMutualExclusion method [windows Media Format], AddMutualExclusion method [windows Media Format],IWMProfile interface, AddMutualExclusion method [windows Media Format],IWMProfile2 interface, AddMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],AddMutualExclusion method, IWMProfile.AddMutualExclusion, IWMProfile2 interface [windows Media Format],AddMutualExclusion method, IWMProfile2::AddMutualExclusion, IWMProfile3 interface [windows Media Format],AddMutualExclusion method, IWMProfile3::AddMutualExclusion, IWMProfile::AddMutualExclusion, IWMProfileAddMutualExclusion, wmformat.iwmprofile_addmutualexclusion, wmsdkidl/IWMProfile2::AddMutualExclusion, wmsdkidl/IWMProfile3::AddMutualExclusion, wmsdkidl/IWMProfile::AddMutualExclusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -69,7 +67,7 @@ The <b>AddMutualExclusion</b> method adds a mutual exclusion object to the profi
 
 ### -param pME [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/040635fb-de00-4c8c-9c39-c28c409311c3">IWMMutualExclusion</a> interface of the mutual exclusion object to include in the profile. You must configure the mutual exclusion object by using the methods of the <b>IWMMutualExclusion</b> interface prior to using this method to add the mutual exclusion object to the profile.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion</a> interface of the mutual exclusion object to include in the profile. You must configure the mutual exclusion object by using the methods of the <b>IWMMutualExclusion</b> interface prior to using this method to add the mutual exclusion object to the profile.
 
 
 ## -returns
@@ -142,19 +140,19 @@ A stream number in the mutual exclusion object being added is not part of the pr
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/949bb57f-8656-420e-b317-8ca7eb977a4e">IWMProfile::GetMutualExclusion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757403(v=VS.85).aspx">IWMProfile::GetMutualExclusion</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb453285-a4e5-48dd-a4d0-72d2e09badc2">IWMProfile::RemoveMutualExclusion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757411(v=VS.85).aspx">IWMProfile::RemoveMutualExclusion</a>
 
 
 

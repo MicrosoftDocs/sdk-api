@@ -9,8 +9,6 @@ ms.assetid: 16b456fe-70d2-47cd-83b8-bc9b1f8a2aaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMultiTypeInfoCount, GetMultiTypeInfoCount method [COM], GetMultiTypeInfoCount method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetMultiTypeInfoCount method, IProvideMultipleClassInfo.GetMultiTypeInfoCount, IProvideMultipleClassInfo::GetMultiTypeInfoCount, _com_iprovidemultipleclassinfo_getmultitypeinfocount, com.iprovidemultipleclassinfo_getmultitypeinfocount, ocidl/IProvideMultipleClassInfo::GetMultiTypeInfoCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

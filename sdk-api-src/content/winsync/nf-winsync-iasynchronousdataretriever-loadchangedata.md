@@ -9,8 +9,6 @@ ms.assetid: b5e73504-1f9e-4a58-9bd9-2c184372b970
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAsynchronousDataRetriever interface [Windows Sync],LoadChangeData method, IAsynchronousDataRetriever.LoadChangeData, IAsynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],IAsynchronousDataRetriever interface, winsync.iasynchronousdataretriever_loadchangedata, winsync/IAsynchronousDataRetriever::LoadChangeData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

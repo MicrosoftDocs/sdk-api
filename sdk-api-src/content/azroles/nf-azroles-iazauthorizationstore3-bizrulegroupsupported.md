@@ -9,8 +9,6 @@ ms.assetid: 88449b12-5086-4f86-94d4-2a4afb4be070
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BizruleGroupSupported, BizruleGroupSupported method [Security], BizruleGroupSupported method [Security],IAzAuthorizationStore3 interface, IAzAuthorizationStore3 interface [Security],BizruleGroupSupported method, IAzAuthorizationStore3.BizruleGroupSupported, IAzAuthorizationStore3::BizruleGroupSupported, azroles/IAzAuthorizationStore3::BizruleGroupSupported, security.iazauthorizationstore3_bizrulegroupsupported_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="https://msdn.microsoft.com/en-us/library/Aa377594(v=VS.85).aspx">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
+The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="https://msdn.microsoft.com/7063416c-b132-4b3a-bb2b-d27fccea25e4">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies w
 
 ### -param pbSupported [out]
 
-<b>VARIANT_TRUE</b> if the current <a href="https://msdn.microsoft.com/en-us/library/Aa377594(v=VS.85).aspx">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the current <a href="https://msdn.microsoft.com/7063416c-b132-4b3a-bb2b-d27fccea25e4">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
 
 
 ## -returns
@@ -69,7 +67,7 @@ The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies w
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -72,7 +70,7 @@ The language of the dialog. This string contains an ISO 639-2 language code with
 
 ### -param RequestType [in]
 
-The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693004(v=VS.85).aspx">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
+The type of access that is being requested, specified as a member of the <a href="https://msdn.microsoft.com/b21bca45-e219-4670-b209-9d7a63fbd65c">BDA_CONDITIONALACCESS_REQUESTTYPE</a> enumeration.
 
 
 ### -param ulcbEntitlementTokenLen [in]

@@ -9,8 +9,6 @@ ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 
@@ -73,7 +71,7 @@ Index of an input stream.
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
+Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
 
 
 

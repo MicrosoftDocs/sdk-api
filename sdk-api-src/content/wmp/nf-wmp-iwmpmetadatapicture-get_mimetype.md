@@ -9,8 +9,6 @@ ms.assetid: bfc5243f-3f7c-4f4a-9057-7720c862a983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType method, IWMPMetadataPicture.get_mimeType, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/385819d0-cf27-4f39-86be-140d1bc87d12">IWMPMetadataPicture Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563451(v=VS.85).aspx">IWMPMetadataPicture Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9aaa3d6c-41b9-4661-8e7e-ef1d1abba4aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_TransactionState method, ICrmMonitorLogRecords.get_TransactionState, ICrmMonitorLogRecords::get_TransactionState, _dtc_ICrmMonitorLogRecords_TransactionState, comsvcs/ICrmMonitorLogRecords::get_TransactionState, cos.icrmmonitorlogrecords_get_transactionstate, get_TransactionState, get_TransactionState method [COM+], get_TransactionState method [COM+],ICrmMonitorLogRecords interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

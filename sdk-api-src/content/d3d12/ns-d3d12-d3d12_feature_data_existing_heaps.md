@@ -9,8 +9,6 @@ ms.assetid: 7F0D0FAD-BF29-43AD-95FA-85B9719C4782
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FEATURE_DATA_EXISTING_HEAPS, D3D12_FEATURE_DATA_EXISTING_HEAPS structure, d3d12/D3D12_FEATURE_DATA_EXISTING_HEAPS, direct3d12.d3d12_feature_data_existing_heaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

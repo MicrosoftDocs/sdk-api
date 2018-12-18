@@ -9,8 +9,6 @@ ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -75,7 +73,7 @@ The <b>IMSVidFeatures</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bdb5e4a-4dd7-49dc-bb9c-b6a9e435219b">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694546(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a feature to the collection.
@@ -84,7 +82,7 @@ Adds a feature to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c619f62-5041-410b-8ce0-d811992a32d6">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694549(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -93,7 +91,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45ad322a-d9ec-446d-8c1e-c955049dd257">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694547(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -102,7 +100,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5656ba2-7ba6-44ba-bcab-3678fbd10b07">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694548(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -111,7 +109,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a9e35e2-231e-4ad6-ac57-e6258df2777f">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694550(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.

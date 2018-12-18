@@ -9,8 +9,6 @@ ms.assetid: 1f76ecfa-6f2f-4dde-b05e-4252c92660d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathYetAnotherMakeUniqueName, PathYetAnotherMakeUniqueName function [Windows Shell], _win32_PathYetAnotherMakeUniqueName, shell.PathYetAnotherMakeUniqueName, shlobj_core/PathYetAnotherMakeUniqueName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

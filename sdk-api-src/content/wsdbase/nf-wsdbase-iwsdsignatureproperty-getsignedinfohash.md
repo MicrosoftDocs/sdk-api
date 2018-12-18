@@ -9,8 +9,6 @@ ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignedInfoHash method, IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymGetExtendedOption, SymGetExtendedOption function, base.symgetextendedoption, dbghelp/SymGetExtendedOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
@@ -97,7 +95,7 @@ The value of the specified symbol option.
 
 
 
-<a href="https://msdn.microsoft.com/5354F53C-F161-4887-85E4-7A00521034EE">IMAGEHLP_EXTENDED_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt842287(v=VS.85).aspx">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 

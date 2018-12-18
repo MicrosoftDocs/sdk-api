@@ -9,8 +9,6 @@ ms.assetid: 51C460E3-0A74-40A8-9F41-057EF6D03E86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KeyCredentialManagerOperationErrorStateCertificateFailure, KeyCredentialManagerOperationErrorStateDeviceJoinFailure, KeyCredentialManagerOperationErrorStateHardwareFailure, KeyCredentialManagerOperationErrorStateNone, KeyCredentialManagerOperationErrorStatePinExistsFailure, KeyCredentialManagerOperationErrorStatePolicyFailure, KeyCredentialManagerOperationErrorStateRemoteSessionFailure, KeyCredentialManagerOperationErrorStateTokenFailure, KeyCredentialManagerOperationErrorStates, KeyCredentialManagerOperationErrorStates enumeration [Security], keycredmgr/KeyCredentialManagerOperationErrorStateCertificateFailure, keycredmgr/KeyCredentialManagerOperationErrorStateDeviceJoinFailure, keycredmgr/KeyCredentialManagerOperationErrorStateHardwareFailure, keycredmgr/KeyCredentialManagerOperationErrorStateNone, keycredmgr/KeyCredentialManagerOperationErrorStatePinExistsFailure, keycredmgr/KeyCredentialManagerOperationErrorStatePolicyFailure, keycredmgr/KeyCredentialManagerOperationErrorStateRemoteSessionFailure, keycredmgr/KeyCredentialManagerOperationErrorStateTokenFailure, keycredmgr/KeyCredentialManagerOperationErrorStates, security.keycredentialmanageroperationerrorstates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: keycredmgr.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Enumeration of Error states returned by the function <a href="security.keycredentialmanagergetoperationerrorstates">KeyCredentialManagerGetOperationErrorStates</a> as flags.
+Enumeration of Error states returned by the function <a href="https://msdn.microsoft.com/en-us/library/Mt830288(v=VS.85).aspx">KeyCredentialManagerGetOperationErrorStates</a> as flags.
 
 
 ## -enum-fields

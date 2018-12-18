@@ -9,8 +9,6 @@ ms.assetid: bda8879d-d33a-48f4-8b08-e3a279126a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEnvironmentBlock, CreateEnvironmentBlock function [Windows Shell], _shell_CreateEnvironmentBlock, shell.CreateEnvironmentBlock, userenv/CreateEnvironmentBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

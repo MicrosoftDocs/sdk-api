@@ -9,8 +9,6 @@ ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

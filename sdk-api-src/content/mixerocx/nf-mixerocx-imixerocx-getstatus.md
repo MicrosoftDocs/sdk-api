@@ -9,8 +9,6 @@ ms.assetid: 2be28eec-99cd-4a4e-91fc-77bb51ec6fb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetStatus method, IMixerOCX.GetStatus, IMixerOCX::GetStatus, IMixerOCXGetStatus, dshow.imixerocx_getstatus, mixerocx/IMixerOCX::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
@@ -81,7 +79,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
 
 
 

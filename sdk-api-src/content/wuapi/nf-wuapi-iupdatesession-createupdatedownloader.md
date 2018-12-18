@@ -9,8 +9,6 @@ ms.assetid: 9d410114-2327-489c-84b6-c3f5367008c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateUpdateDownloader, CreateUpdateDownloader method [Windows Update Agent], CreateUpdateDownloader method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateDownloader method, IUpdateSession.CreateUpdateDownloader, IUpdateSession::CreateUpdateDownloader, wua.iupdatesession_createupdatedownloader, wuapi/IUpdateSession::CreateUpdateDownloader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9__getdevice.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 536585c6-a856-5863-9168-9c42256bfb53, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DVertexShader9 interface, IDirect3DVertexShader9 interface [Direct3D 9],GetDevice method, IDirect3DVertexShader9.GetDevice, IDirect3DVertexShader9::GetDevice, d3d9helper/IDirect3DVertexShader9::GetDevice, direct3d9.idirect3dvertexshader9__getdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

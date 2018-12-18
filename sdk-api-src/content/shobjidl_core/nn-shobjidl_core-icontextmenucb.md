@@ -9,8 +9,6 @@ ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -84,7 +82,7 @@ Enables the callback function for a context menu.
 
 
 
-This is the callback interface specified in the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure passed with the function <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a>.
+This is the callback interface specified in the <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure passed with the function <a href="https://msdn.microsoft.com/055ff0a0-9ba7-463d-9684-3fd072b190da">SHCreateDefaultContextMenu</a>.
 
 This interface enables <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementations to manage context menu messages before, after, and during the context menu handling of these messages.
 

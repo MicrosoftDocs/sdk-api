@@ -9,8 +9,6 @@ ms.assetid: DA63B155-56FC-49EE-99EA-56288CC7F8E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedIsGrabbed property [Windows Accessibility], CachedIsGrabbed property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedIsGrabbed property, IUIAutomationDragPattern.CachedIsGrabbed, IUIAutomationDragPattern.get_CachedIsGrabbed, IUIAutomationDragPattern::CachedIsGrabbed, IUIAutomationDragPattern::get_CachedIsGrabbed, get_CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::CachedIsGrabbed, uiautomationclient/IUIAutomationDragPattern::get_CachedIsGrabbed, winauto.uiauto_iuiautomationdragpattern_cachedisgrabbed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

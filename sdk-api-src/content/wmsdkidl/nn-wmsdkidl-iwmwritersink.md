@@ -9,8 +9,6 @@ ms.assetid: 73656814-7fac-4567-abcd-dbb3243fcaa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], IWMWriterSink interface [windows Media Format],described, IWMWriterSinkInterface, wmformat.iwmwritersink, wmsdkidl/IWMWriterSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMWriterSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56a16163-84e7-4235-8bf3-03e81696bb63">AllocateDataUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757468(v=VS.85).aspx">AllocateDataUnit</a>
 </td>
 <td align="left" width="63%">
 Creates a buffer object to receive a data unit.
@@ -84,7 +82,7 @@ Creates a buffer object to receive a data unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95a32114-4581-4870-8c7f-b79b5af8f0a4">IsRealTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757469(v=VS.85).aspx">IsRealTime</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the sink requires samples to be sent in real time.
@@ -93,7 +91,7 @@ Ascertains whether the sink requires samples to be sent in real time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32e52cdb-e7cb-4caf-a202-0d2ff746017c">OnDataUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757470(v=VS.85).aspx">OnDataUnit</a>
 </td>
 <td align="left" width="63%">
 Called by the writer object when a data unit is ready for the sink.
@@ -102,7 +100,7 @@ Called by the writer object when a data unit is ready for the sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5f653cc-e756-4f33-a6ce-3158e83129c8">OnEndWriting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757471(v=VS.85).aspx">OnEndWriting</a>
 </td>
 <td align="left" width="63%">
 Called by the writer when all data units have been sent.
@@ -111,7 +109,7 @@ Called by the writer when all data units have been sent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b1dbd0-a555-40d3-b2f0-3a363a6ce168">OnHeader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757472(v=VS.85).aspx">OnHeader</a>
 </td>
 <td align="left" width="63%">
 Called by the writer when the ASF header is ready for the sink.

@@ -9,8 +9,6 @@ ms.assetid: 050d3a01-0087-40f1-af35-b9ceeaf47813
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTraceLoggerHandle, GetTraceLoggerHandle function [ETW], _evt_gettraceloggerhandle, base.gettraceloggerhandle, etw.gettraceloggerhandle, evntrace/GetTraceLoggerHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

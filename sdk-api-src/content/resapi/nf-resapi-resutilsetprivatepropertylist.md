@@ -9,8 +9,6 @@ ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_SET_PRIVATE_PROPERTY_LIST, PRESUTIL_SET_PRIVATE_PROPERTY_LIST function [Failover Cluster], ResUtilSetPrivatePropertyList, ResUtilSetPrivatePropertyList function [Failover Cluster], _wolf_resutilsetprivatepropertylist, mscs.resutilsetprivatepropertylist, resapi/PRESUTIL_SET_PRIVATE_PROPERTY_LIST, resapi/ResUtilSetPrivatePropertyList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

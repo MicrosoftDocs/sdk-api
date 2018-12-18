@@ -9,8 +9,6 @@ ms.assetid: 5d7d72f3-140c-4af4-8876-80a558575a57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl9GetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol9_getnumberofdeinterlacemodes, vmr9/IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes 
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/af4bf46a-fae7-4485-b5fb-3fd1857f383f">VMR9VideoDesc</a> structure that describes the video.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407377(v=VS.85).aspx">VMR9VideoDesc</a> structure that describes the video.
 
 
 ### -param lpdwNumDeinterlaceModes [in, out]
@@ -159,7 +157,7 @@ All drivers are required to support the following mode:
 </table>
  
 
-Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="https://msdn.microsoft.com/62b71df5-7665-4023-90cd-e426b751c1df">IVMRDeinterlaceControl9::GetDeinterlaceModeCaps</a> method to get information about that mode.
+Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="https://msdn.microsoft.com/en-us/library/Dd377352(v=VS.85).aspx">IVMRDeinterlaceControl9::GetDeinterlaceModeCaps</a> method to get information about that mode.
 
 
 
@@ -173,7 +171,7 @@ Drivers can support additional modes and should define their own GUIDs to identi
 
 
 
-<a href="https://msdn.microsoft.com/685f3627-30bd-4c78-9eda-0b06203dd46e">IVMRDeinterlaceControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377349(v=VS.85).aspx">IVMRDeinterlaceControl9 Interface</a>
 
 
 

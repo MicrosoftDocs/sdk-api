@@ -9,8 +9,6 @@ ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

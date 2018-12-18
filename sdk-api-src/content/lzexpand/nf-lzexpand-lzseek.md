@@ -9,8 +9,6 @@ ms.assetid: eb3d8546-6280-4e4b-8ca4-3697b9339d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzseek, lzexpand/LZSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

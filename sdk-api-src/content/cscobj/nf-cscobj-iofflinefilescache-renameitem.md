@@ -7,10 +7,8 @@ old-location: of\iofflinefilescache_renameitem.htm
 tech.root: offlinefiles
 ms.assetid: 883f29cb-d551-4358-8e74-f901956d8829
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],RenameItem method, IOfflineFilesCache.RenameItem, IOfflineFilesCache::RenameItem, RenameItem, RenameItem method [Offline Files], RenameItem method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::RenameItem, of.iofflinefilescache_renameitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -93,7 +91,7 @@ This method requires system administrator privilege.
 <div> </div>
 This method fails if the path referenced by the <i>pszPathNew</i> parameter already exists in the Offline Files cache.
 
-Beginning with Windows 8 and Windows Server 2012 you can also use the <a href="https://msdn.microsoft.com/en-us/library/Hh769077(v=VS.85).aspx">IOfflineFilesCache2::RenameItemEx</a> method to rename an item. It does not require system administrator privilege or a system restart. However, it will fail if the item is currently in use.
+Beginning with Windows 8 and Windows Server 2012 you can also use the <a href="https://msdn.microsoft.com/766ABFE7-4417-47BA-ADF2-AA876C3A868A">IOfflineFilesCache2::RenameItemEx</a> method to rename an item. It does not require system administrator privilege or a system restart. However, it will fail if the item is currently in use.
 
 
 
@@ -103,11 +101,11 @@ Beginning with Windows 8 and Windows Server 2012 you can also use the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh769077(v=VS.85).aspx">IOfflineFilesCache2::RenameItemEx</a>
+<a href="https://msdn.microsoft.com/766ABFE7-4417-47BA-ADF2-AA876C3A868A">IOfflineFilesCache2::RenameItemEx</a>
  
 
  

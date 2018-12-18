@@ -9,8 +9,6 @@ ms.assetid: 3cdc7888-2d66-4fb9-abad-86e891f4ebe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_joyConfigChanged, joyConfigChanged, joyConfigChanged function [Windows Multimedia], joystickapi/joyConfigChanged, multimedia.joyconfigchanged"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Dinput.h

@@ -9,8 +9,6 @@ ms.assetid: 8843852b-f98a-469f-8541-44b3c51ebd6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPositionString method, IWMPControls.get_currentPositionString, IWMPControls::get_currentPositionString, IWMPControlsget_currentPositionString, get_currentPositionString, get_currentPositionString method [Windows Media Player], get_currentPositionString method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentpositionstring, wmp/IWMPControls::get_currentPositionString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ If the media item is less than an hour long, the current position is formatted a
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d42b4-2025-4881-b1eb-98636bb1c5ce">IWMPControls::get_currentPosition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563199(v=VS.85).aspx">IWMPControls::get_currentPosition</a>
  
 
  

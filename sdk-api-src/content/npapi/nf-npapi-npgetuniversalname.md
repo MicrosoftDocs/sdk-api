@@ -9,8 +9,6 @@ ms.assetid: 976b5910-c34f-49fa-b25e-82bf607e33a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NPGetUniversalName, NPGetUniversalName function [Security], REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, _mnp_npgetuniversalname, npapi/NPGetUniversalName, security.npgetuniversalname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

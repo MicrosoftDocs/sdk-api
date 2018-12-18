@@ -9,8 +9,6 @@ ms.assetid: f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadEnvelopeStart, WsReadEnvelopeStart function [Web Services for Windows], webservices/WsReadEnvelopeStart, wsw.wsreadenvelopestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

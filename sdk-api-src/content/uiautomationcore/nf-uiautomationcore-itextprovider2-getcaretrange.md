@@ -9,8 +9,6 @@ ms.assetid: 9DD77361-25E8-40A3-BDF4-AFE06F9D36F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCaretRange, GetCaretRange method [Windows Accessibility], GetCaretRange method [Windows Accessibility],ITextProvider2 interface, ITextProvider2 interface [Windows Accessibility],GetCaretRange method, ITextProvider2.GetCaretRange, ITextProvider2::GetCaretRange, uiautomationcore/ITextProvider2::GetCaretRange, winauto.uiauto_ITextProvider2_GetCaretRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

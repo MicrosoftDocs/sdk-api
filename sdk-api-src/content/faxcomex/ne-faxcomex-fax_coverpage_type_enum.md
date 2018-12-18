@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7lm5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FAX_COVERPAGE_TYPE_ENUM, FAX_COVERPAGE_TYPE_ENUM enumeration [Fax Service], _mfax_fax_coverpage_type_enum, fax._mfax_fax_coverpage_type_enum, faxcomex/FAX_COVERPAGE_TYPE_ENUM, faxcomex/fcptLOCAL, faxcomex/fcptNONE, faxcomex/fcptSERVER, fcptLOCAL, fcptNONE, fcptSERVER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

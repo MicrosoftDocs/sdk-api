@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_GetSelItems, ListBox_GetSelItems macro [Windows Controls], _win32_ListBox_GetSelItems, _win32_ListBox_GetSelItems_cpp, controls.ListBox_GetSelItems, controls._win32_ListBox_GetSelItems, windowsx/ListBox_GetSelItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

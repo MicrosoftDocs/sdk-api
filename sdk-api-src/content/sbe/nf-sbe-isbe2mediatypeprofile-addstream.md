@@ -9,8 +9,6 @@ ms.assetid: f847d4f1-e748-4ed5-bc79-cfff90601379
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddStream, AddStream method [Microsoft TV Technologies], AddStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],AddStream method, ISBE2MediaTypeProfile.AddStream, ISBE2MediaTypeProfile::AddStream, mstv.isbe2mediatypeprofile_addstream, sbe/ISBE2MediaTypeProfile::AddStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
@@ -60,7 +58,7 @@ Adds a stream to a media type profile.
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
 
 
 ## -returns
@@ -105,7 +103,7 @@ Invalid parameter.
 
 
 
-<a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a>
 
 
 

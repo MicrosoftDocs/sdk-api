@@ -2,7 +2,7 @@
 UID: NA:htmlhelp
 ms.assetid: b629df63-ed88-35d2-810d-a309160c7f7d
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

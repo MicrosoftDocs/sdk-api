@@ -9,8 +9,6 @@ ms.assetid: b2be62cb-7256-4031-8af9-24f3043a8430
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzRole object, AddMember method [Security],IAzRole interface, AzRole object [Security],AddMember method, IAzRole interface [Security],AddMember method, IAzRole.AddMember, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

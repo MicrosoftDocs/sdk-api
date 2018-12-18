@@ -9,8 +9,6 @@ ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallback2 interface [Windows Sync],described, winsync.isynccallback2, winsync/ISyncCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

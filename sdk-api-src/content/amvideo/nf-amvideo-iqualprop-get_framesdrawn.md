@@ -9,8 +9,6 @@ ms.assetid: 5a5d4aee-dd35-432f-b6a6-4b1b59ad9b78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDrawn method, IQualProp.get_FramesDrawn, IQualProp::get_FramesDrawn, IQualPropget_FramesDrawn, amvideo/IQualProp::get_FramesDrawn, dshow.iqualprop_get_framesdrawn, get_FramesDrawn, get_FramesDrawn method [DirectShow], get_FramesDrawn method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -85,7 +83,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
  
 
  

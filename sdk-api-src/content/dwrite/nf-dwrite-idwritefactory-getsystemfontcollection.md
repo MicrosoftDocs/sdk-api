@@ -9,8 +9,6 @@ ms.assetid: 4f5cbea1-9775-4266-aa3c-7c15892d61b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],GetSystemFontCollection method, IDWriteFactory.GetSystemFontCollection, IDWriteFactory::GetSystemFontCollection, directwrite.IDWriteFactory_GetSystemFontCollection, dwrite/IDWriteFactory::GetSystemFontCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

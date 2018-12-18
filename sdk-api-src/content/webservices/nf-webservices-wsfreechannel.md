@@ -9,8 +9,6 @@ ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeChannel, WsFreeChannel function [Web Services for Windows], webservices/WsFreeChannel, wsw.wsfreechannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Releases the memory resource associated with a Channel object.
             
-                The <b>Channel</b> must be in the either the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_CREATED</a> 
+                The <b>Channel</b> must be in the either the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_CREATED</a> 
                 or <b>WS_CHANNEL_STATE_CLOSED</b> state to be released.
             If a Channel has been successfully opened it must be closed before it
                 can be released.

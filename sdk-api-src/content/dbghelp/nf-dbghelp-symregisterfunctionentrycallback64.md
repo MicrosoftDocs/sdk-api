@@ -9,8 +9,6 @@ ms.assetid: 5915055f-2c6c-4a0e-ad0f-c5bd74558802
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymRegisterFunctionEntryCallback, SymRegisterFunctionEntryCallback function, SymRegisterFunctionEntryCallback64, SymRegisterFunctionEntryCallback64 function, _win32_symregisterfunctionentrycallback64, base.symregisterfunctionentrycallback64, dbghelp/SymRegisterFunctionEntryCallback, dbghelp/SymRegisterFunctionEntryCallback64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

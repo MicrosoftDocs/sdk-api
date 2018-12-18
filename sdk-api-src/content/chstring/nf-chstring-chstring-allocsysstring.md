@@ -9,8 +9,6 @@ ms.assetid: 21eb9990-a07f-4d6c-b674-dc35f395e603
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocSysString, AllocSysString method [Windows Management Instrumentation], AllocSysString method [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],AllocSysString method, CHString.AllocSysString, CHString::AllocSysString, _hmm_chstring_allocsysstring, chstring/CHString::AllocSysString, wmi.chstring_allocsysstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

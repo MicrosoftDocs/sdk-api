@@ -9,8 +9,6 @@ ms.assetid: 5d27e1e9-ab91-433d-8216-ace195386d44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

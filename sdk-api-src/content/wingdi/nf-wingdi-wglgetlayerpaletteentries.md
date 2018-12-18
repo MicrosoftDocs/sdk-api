@@ -7,10 +7,8 @@ old-location: opengl\wglgetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: 9f2d6f59-f1c6-44a5-8741-1ea4d84f5b2c
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: "_ogl_wglGetLayerPaletteEntries, opengl.wglgetlayerpaletteentries, wglGetLayerPaletteEntries, wglGetLayerPaletteEntries function [OpenGL], wingdi/wglGetLayerPaletteEntries"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

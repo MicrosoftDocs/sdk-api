@@ -9,8 +9,6 @@ ms.assetid: 2FD209CA-9A8D-40F3-B82E-E80A7D212A5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUInt64, GetUInt64 method [Windows Runtime], GetUInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt64 method, IPropertyValue.GetUInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt64, winrt.ipropertyvalue_getuint64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

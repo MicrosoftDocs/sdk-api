@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingBox, BoundingBox constructor [DirectX Math Support APIs], BoundingBox constructor [DirectX Math Support APIs],BoundingBox interface, BoundingBox interface [DirectX Math Support APIs],BoundingBox constructor, BoundingBox.BoundingBox, BoundingBox.BoundingBox(), BoundingBox::BoundingBox, dxmath.boundingbox_ctor_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -75,11 +73,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449580(v=VS.85).aspx">BoundingBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf065fb6-0af5-4311-b0bf-ab10b497b655">Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a>
 
 
 

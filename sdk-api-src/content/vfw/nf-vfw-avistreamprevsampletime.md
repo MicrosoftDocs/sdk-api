@@ -9,8 +9,6 @@ ms.assetid: b116e33f-de51-4251-83be-96afceb99a69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIStreamPrevSampleTime, AVIStreamPrevSampleTime macro [Windows Multimedia], _win32_AVIStreamPrevSampleTime, multimedia.avistreamprevsampletime, vfw/AVIStreamPrevSampleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

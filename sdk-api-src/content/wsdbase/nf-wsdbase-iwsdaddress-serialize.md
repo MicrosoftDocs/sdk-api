@@ -9,8 +9,6 @@ ms.assetid: 6264a2f6-39db-4c55-a0b3-2705d2093d77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDAddress interface,Serialize method, IWSDAddress.Serialize, IWSDAddress::Serialize, Serialize, Serialize method, Serialize method,IWSDAddress interface, ncd.iwsdaddress_serialize, wsdbase/IWSDAddress::Serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

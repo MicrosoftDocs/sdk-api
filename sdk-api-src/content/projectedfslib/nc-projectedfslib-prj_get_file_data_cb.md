@@ -9,8 +9,6 @@ ms.assetid: 8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_GET_FILE_DATA_CB, PRJ_GET_FILE_DATA_CB callback, PRJ_GET_FILE_DATA_CB callback function, ProjFS.prj_get_file_data_cb, projectedfslib/PRJ_GET_FILE_DATA_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 

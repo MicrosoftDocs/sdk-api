@@ -9,8 +9,6 @@ ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

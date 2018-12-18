@@ -9,8 +9,6 @@ ms.assetid: 22ef02fb-ee75-4067-a99b-a940a311347c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedFlowsTo property [Windows Accessibility], CachedFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFlowsTo property, IUIAutomationElement.CachedFlowsTo, IUIAutomationElement.get_CachedFlowsTo, IUIAutomationElement::CachedFlowsTo, IUIAutomationElement::get_CachedFlowsTo, get_CachedFlowsTo, uiauto.uiauto_IUIAutomationElement_CachedFlowsTo, uiauto_IUIAutomationElement_CachedFlowsTo, uiautomationclient/IUIAutomationElement::CachedFlowsTo, uiautomationclient/IUIAutomationElement::get_CachedFlowsTo, winauto.uiauto_IUIAutomationElement_CachedFlowsTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

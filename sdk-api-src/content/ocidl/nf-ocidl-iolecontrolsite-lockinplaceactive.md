@@ -9,8 +9,6 @@ ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleControlSite.LockInPlaceActive, IOleControlSite::LockInPlaceActive, LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

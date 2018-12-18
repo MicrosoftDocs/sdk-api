@@ -9,8 +9,6 @@ ms.assetid: 92d45a3b-12df-42ff-8d87-5c27b44dc481
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextMetrics, GetTextMetrics function [Windows GDI], GetTextMetricsA, GetTextMetricsW, _win32_GetTextMetrics, gdi.gettextmetrics, wingdi/GetTextMetrics, wingdi/GetTextMetricsA, wingdi/GetTextMetricsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

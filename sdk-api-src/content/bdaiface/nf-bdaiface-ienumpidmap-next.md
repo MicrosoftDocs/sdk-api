@@ -9,8 +9,6 @@ ms.assetid: e7e3a2a7-cc62-478d-b0b8-30d58f0b3372
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Next method, IEnumPIDMap.Next, IEnumPIDMap::Next, IEnumPIDMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Next, dshow.ienumpidmap_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -69,7 +67,7 @@ The number of elements to retrieve.
 
 ### -param pPIDMap [in, out]
 
-Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd377424(v=VS.85).aspx">PID_MAP</a> structures that describe the PID mapping.
+Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/c247ec75-483d-4587-a82f-07bbf6d277b4">PID_MAP</a> structures that describe the PID mapping.
 
 
 ### -param pcReceived [out]
@@ -132,7 +130,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobydevnum.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateVideoByDevNum, CreateVideoByDevNum method [WIA], CreateVideoByDevNum method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByDevNum method, IWiaVideo.CreateVideoByDevNum, IWiaVideo::CreateVideoByDevNum, _wia_IWiaVideo_CreateVideoByDevNum, wia._wia_IWiaVideo_CreateVideoByDevNum, wiavideo/IWiaVideo::CreateVideoByDevNum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

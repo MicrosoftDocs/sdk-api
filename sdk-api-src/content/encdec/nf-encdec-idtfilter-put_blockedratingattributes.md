@@ -9,8 +9,6 @@ ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IDTFilter.put_BlockedRatingAttributes, IDTFilter::put_BlockedRatingAttributes, IDTFilterput_BlockedRatingAttributes, encdec/IDTFilter::put_BlockedRatingAttributes, mstv.idtfilter_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

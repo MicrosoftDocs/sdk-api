@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LSFW_LOCK, LSFW_UNLOCK, LockSetForegroundWindow, LockSetForegroundWindow function [Windows and Messages], _win32_LockSetForegroundWindow, _win32_locksetforegroundwindow_cpp, winmsg.locksetforegroundwindow, winui._win32_locksetforegroundwindow, winuser/LockSetForegroundWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

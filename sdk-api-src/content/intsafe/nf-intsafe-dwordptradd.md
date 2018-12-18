@@ -9,8 +9,6 @@ ms.assetid: b7d2b04b-6ef7-45a5-a26c-b52c0a848d5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordPtrAdd, DWordPtrAdd function [Windows Shell], _shell_DWordPtrAdd, intsafe/DWordPtrAdd, shell.DWordPtrAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

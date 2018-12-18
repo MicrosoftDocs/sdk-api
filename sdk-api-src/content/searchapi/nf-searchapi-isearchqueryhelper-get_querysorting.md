@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySorting method, ISearchQueryHelper.get_QuerySorting, ISearchQueryHelper::get_QuerySorting, _search_ISearchQueryHelper_get_QuerySorting, get_QuerySorting, get_QuerySorting method [search], get_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySorting, searchapi/ISearchQueryHelper::get_QuerySorting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

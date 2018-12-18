@@ -9,8 +9,6 @@ ms.assetid: 6e05f421-d037-4d3b-908e-44ddd818a3f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreviousSiblingElement, GetPreviousSiblingElement method [Windows Accessibility], GetPreviousSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetPreviousSiblingElement method, IUIAutomationTreeWalker.GetPreviousSiblingElement, IUIAutomationTreeWalker::GetPreviousSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling, uiauto_IUIAutomationTreeWalker_GetPreviousSibling, uiautomationclient/IUIAutomationTreeWalker::GetPreviousSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetPreviousSibling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

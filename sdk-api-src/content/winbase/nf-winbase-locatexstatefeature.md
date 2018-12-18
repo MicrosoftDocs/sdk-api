@@ -9,8 +9,6 @@ ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

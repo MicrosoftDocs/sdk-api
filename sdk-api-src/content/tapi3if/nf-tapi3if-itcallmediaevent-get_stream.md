@@ -9,8 +9,6 @@ ms.assetid: 2afcb8ee-1f8c-41d0-8a8f-f34ebf09d224
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Stream method, ITCallMediaEvent.get_Stream, ITCallMediaEvent::get_Stream, _tapi3_itcallmediaevent_get_stream, get_Stream, get_Stream method [TAPI 2.2], get_Stream method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_stream, tapi3if/ITCallMediaEvent::get_Stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

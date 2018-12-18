@@ -9,8 +9,6 @@ ms.assetid: 9edca502-7dff-493f-8bce-4bffe8233487
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumDMO interface, IEnumDMO interface [DirectShow],Clone method, IEnumDMO.Clone, IEnumDMO::Clone, IEnumDMOClone, dshow.ienumdmo_clone, mediaobj/IEnumDMO::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -81,7 +79,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO Interface</a>
  
 
  

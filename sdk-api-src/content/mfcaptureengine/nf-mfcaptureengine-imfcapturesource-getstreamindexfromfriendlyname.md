@@ -9,8 +9,6 @@ ms.assetid: 38bc2ca8-29ff-4a23-9b78-693aaab6767f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamIndexFromFriendlyName, GetStreamIndexFromFriendlyName method [Media Foundation], GetStreamIndexFromFriendlyName method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetStreamIndexFromFriendlyName method, IMFCaptureSource.GetStreamIndexFromFriendlyName, IMFCaptureSource::GetStreamIndexFromFriendlyName, mf.imfcapturesource_getstreamindexfromfriendlyname, mfcaptureengine/IMFCaptureSource::GetStreamIndexFromFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

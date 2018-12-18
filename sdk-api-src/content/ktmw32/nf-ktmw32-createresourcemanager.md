@@ -9,8 +9,6 @@ ms.assetid: ad88e478-1dff-4f35-a0e3-6bda8bb45711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

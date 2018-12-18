@@ -9,8 +9,6 @@ ms.assetid: d96c97ad-085d-4753-8efb-8a6bcb284e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRange method, IWMSyncReader.SetRange, IWMSyncReader::SetRange, IWMSyncReaderSetRange, SetRange, SetRange method [windows Media Format], SetRange method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrange, wmsdkidl/IWMSyncReader::SetRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -153,11 +151,11 @@ The start time you specify might not be the presentation time of the first sampl
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d53838c-0d07-4aa6-8797-9ed7e07cb8fe">IWMSyncReader::SetRangeByFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798705(v=VS.85).aspx">IWMSyncReader::SetRangeByFrame</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatConstant(uint32_
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSplatConstant, XMVectorSplatConstant, XMVectorSplatConstant method [DirectX Math Support APIs], dxmath.xmvectorsplatconstant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -104,15 +102,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a0353e31-d847-4f11-bb6a-fd06999cdbd8">XMVectorSetBinaryConstant</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404809(v=VS.85).aspx">XMVectorSetBinaryConstant</a>
 
 
 
-<a href="https://msdn.microsoft.com/d611c895-1b52-410e-8e1b-5f6b70cf6be7">XMVectorSetInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404812(v=VS.85).aspx">XMVectorSetInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e7029de-e0b0-43f4-997e-91c70deb4f71">XMVectorSplatConstantInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404825(v=VS.85).aspx">XMVectorSplatConstantInt</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 08a3925c-e14e-442e-952e-483fc41d049c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Event method, ITCallNotificationEvent.get_Event, ITCallNotificationEvent::get_Event, _tapi3_itcallnotificationevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_event, tapi3if/ITCallNotificationEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

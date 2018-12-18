@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_2pww.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientZip property, IFaxDoc.RecipientZip, IFaxDoc.get_RecipientZip, IFaxDoc::RecipientZip, IFaxDoc::get_RecipientZip, IFaxDoc::put_RecipientZip, RecipientZip property [Fax Service], RecipientZip property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_get_recipientzip, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientzip_cpp, faxcom/IFaxDoc::RecipientZip, faxcom/IFaxDoc::get_RecipientZip, faxcom/IFaxDoc::put_RecipientZip, get_RecipientZip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

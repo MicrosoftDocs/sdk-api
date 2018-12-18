@@ -9,8 +9,6 @@ ms.assetid: 33af02c8-609f-4490-b17e-e116d24c217c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateUserPhysicalPagesNuma, AllocateUserPhysicalPagesNuma function, base.allocateuserphysicalpagesnuma, winbase/AllocateUserPhysicalPagesNuma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h

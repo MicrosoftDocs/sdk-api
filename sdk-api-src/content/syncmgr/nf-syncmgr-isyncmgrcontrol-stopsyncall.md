@@ -9,8 +9,6 @@ ms.assetid: c6f75833-a1b8-46d0-a339-99e5bf814f7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopSyncAll method, ISyncMgrControl.StopSyncAll, ISyncMgrControl::StopSyncAll, StopSyncAll, StopSyncAll method [Windows Shell], StopSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopSyncAll, shell.ISyncMgrControl_StopSyncAll, syncmgr/ISyncMgrControl::StopSyncAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,5 +1,5 @@
 ---
-UID: NS:digitalv.MCI_DGV_RECORD_PARMS
+UID: NS:digitalv.__unnamed_struct_17
 title: MCI_DGV_RECORD_PARMS
 author: windows-sdk-content
 description: The MCI_DGV_RECORD_PARMS structure contains parameters for the MCI_RECORD command for digital-video devices.
@@ -7,10 +7,8 @@ old-location: multimedia\mci_dgv_record_parms.htm
 tech.root: Multimedia
 ms.assetid: c0a537b1-d38c-41fa-8bd7-bee90ac625a7
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPMCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS, MCI_DGV_RECORD_PARMS structure [Windows Multimedia], _win32_MCI_DGV_RECORD_PARMS_str, digitalv/MCI_DGV_RECORD_PARMS, multimedia.mci_dgv_record_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

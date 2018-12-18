@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0cdh.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxTiff interface [Fax Service],Image property, IFaxTiff.Image, IFaxTiff.get_Image, IFaxTiff::Image, IFaxTiff::get_Image, IFaxTiff::put_Image, Image property [Fax Service], Image property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_get_image, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp, faxcom/IFaxTiff::Image, faxcom/IFaxTiff::get_Image, faxcom/IFaxTiff::put_Image, get_Image
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

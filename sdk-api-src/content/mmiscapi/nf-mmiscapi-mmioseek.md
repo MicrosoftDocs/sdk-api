@@ -9,8 +9,6 @@ ms.assetid: 11ef0ba9-0b8d-4c1c-981b-3cef5b6ee0e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SEEK_CUR, SEEK_END, SEEK_SET, _win32_mmioSeek, mmioSeek, mmioSeek function [Windows Multimedia], mmsystem/mmioSeek, multimedia.mmioseek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h

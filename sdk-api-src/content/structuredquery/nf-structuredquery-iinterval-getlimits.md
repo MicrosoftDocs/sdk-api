@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

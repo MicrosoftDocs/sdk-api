@@ -9,8 +9,6 @@ ms.assetid: 9525ee57-3c53-42db-bc40-eb1d4658d9b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDefault method, IDirectDrawVideo.SetDefault, IDirectDrawVideo::SetDefault, IDirectDrawVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDefault, dshow.idirectdrawvideo_setdefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -91,7 +89,7 @@ All properties set through <b>IDirectDrawVideo</b> are specific to that particul
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

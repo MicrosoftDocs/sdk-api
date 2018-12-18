@@ -9,8 +9,6 @@ ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

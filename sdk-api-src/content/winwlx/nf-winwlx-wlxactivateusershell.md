@@ -9,8 +9,6 @@ ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

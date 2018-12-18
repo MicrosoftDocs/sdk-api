@@ -9,8 +9,6 @@ ms.assetid: b3b7af75-ed94-4c2f-abb2-95194796771c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMSetIntervalTime, DRMSetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetIntervalTime, rm.drmsetintervaltime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

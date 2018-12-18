@@ -9,8 +9,6 @@ ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

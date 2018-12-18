@@ -9,8 +9,6 @@ ms.assetid: 48f0b5ad-a986-4d56-a50f-4bb4dfa7a4b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Name property, IFsrmFileManagementJob.Name, IFsrmFileManagementJob.get_Name, IFsrmFileManagementJob::Name, IFsrmFileManagementJob::get_Name, IFsrmFileManagementJob::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_name, fsrm.ifsrmfilemanagementjob_name, fsrmreports/IFsrmFileManagementJob::Name, fsrmreports/IFsrmFileManagementJob::get_Name, fsrmreports/IFsrmFileManagementJob::put_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

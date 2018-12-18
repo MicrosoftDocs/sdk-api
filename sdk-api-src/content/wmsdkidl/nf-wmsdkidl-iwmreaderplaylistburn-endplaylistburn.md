@@ -9,8 +9,6 @@ ms.assetid: 355f23eb-3cdb-4c27-bc48-499f349aef2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], EndPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],EndPlaylistBurn method, IWMReaderPlaylistBurn.EndPlaylistBurn, IWMReaderPlaylistBurn::EndPlaylistBurn, IWMReaderPlaylistBurnEndPlaylistBurn, wmformat.iwmreaderplaylistburn_endplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -101,7 +99,7 @@ The method succeeded.
 
 
 
-To abort the playlist burn process after your status callback receives the WMT_INIT_PLAYLIST_BURN message, pass the E_ABORT error code. To stop the process before initialization is complete, call the <a href="https://msdn.microsoft.com/d126f13b-90ac-489e-8dd0-e507f4003a7a">Cancel</a> method.
+To abort the playlist burn process after your status callback receives the WMT_INIT_PLAYLIST_BURN message, pass the E_ABORT error code. To stop the process before initialization is complete, call the <a href="https://msdn.microsoft.com/en-us/library/Dd743556(v=VS.85).aspx">Cancel</a> method.
 
 
 
@@ -111,7 +109,7 @@ To abort the playlist burn process after your status callback receives the WMT_I
 
 
 
-<a href="https://msdn.microsoft.com/a0e1a4f3-4226-44a2-b38e-e5512fda2048">IWMReaderPlaylistBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743552(v=VS.85).aspx">IWMReaderPlaylistBurn Interface</a>
  
 
  

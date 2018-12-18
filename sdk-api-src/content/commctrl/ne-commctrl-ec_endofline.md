@@ -9,8 +9,6 @@ ms.assetid: 8F84EFE4-E562-46D4-AEC8-2782C9EC31F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EC_ENDOFLINE, EC_ENDOFLINE enumeration [Windows Controls], EC_ENDOFLINE_CR, EC_ENDOFLINE_CRLF, EC_ENDOFLINE_DETECTFROMCONTENT, EC_ENDOFLINE_LF, commctrl/EC_ENDOFLINE, commctrl/EC_ENDOFLINE_CR, commctrl/EC_ENDOFLINE_CRLF, commctrl/EC_ENDOFLINE_DETECTFROMCONTENT, commctrl/EC_ENDOFLINE_LF, controls.ec_endofline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: commctrl.h
 req.include-header: 
@@ -85,19 +83,19 @@ End of line character is LF.
 
 
 
-<a href="controls.em_getendofline">EM_GETENDOFLINE</a>
+<a href="https://msdn.microsoft.com/BBFDC90E-A07A-4733-B817-BE9195C39110">EM_GETENDOFLINE</a>
 
 
 
-<a href="controls.em_setendofline">EM_SETENDOFLINE</a>
+<a href="https://msdn.microsoft.com/122E7BEE-EAF1-4106-8C3F-4A9A52DB8151">EM_SETENDOFLINE</a>
 
 
 
-<a href="controls.edit_getendofline">Edit_GetEndOfLine</a>
+<a href="https://msdn.microsoft.com/27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C">Edit_GetEndOfLine</a>
 
 
 
-<a href="controls.edit_setendofline">Edit_SetEndOfLine</a>
+<a href="https://msdn.microsoft.com/D143B914-5F68-4957-9D1F-C55977E27C8B">Edit_SetEndOfLine</a>
  
 
  

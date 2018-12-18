@@ -9,8 +9,6 @@ ms.assetid: 49b07233-df9d-4fd0-836e-62b992408018
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],estimateSyncSize method, IWMPSyncDevice3.estimateSyncSize, IWMPSyncDevice3::estimateSyncSize, estimateSyncSize, estimateSyncSize method [Windows Media Player], estimateSyncSize method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_estimatesyncsize, wmp/IWMPSyncDevice3::estimateSyncSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -63,12 +61,12 @@ The <b>estimateSyncSize</b> method initiates the estimation of the size required
 
 ### -param pNonRulePlaylist [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified the estimation will return the size of <i>pNonRulePlaylist</i> and the current sync rules, if any.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified the estimation will return the size of <i>pNonRulePlaylist</i> and the current sync rules, if any.
 
 
 ### -param pRulesPlaylist [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified then the current sync rules will be excluded from the estimation so that the estimation will return the size of <i>pNonRulePlaylist</i> and <i>pRulesPlaylist</i>.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified then the current sync rules will be excluded from the estimation so that the estimation will return the size of <i>pNonRulePlaylist</i> and <i>pRulesPlaylist</i>.
 
 
 ## -returns
@@ -139,7 +137,7 @@ If you call this method and then call it again before the first estimation is co
 
 
 
-<a href="https://msdn.microsoft.com/4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa">IWMPSyncDevice3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563713(v=VS.85).aspx">IWMPSyncDevice3 Interface</a>
  
 
  

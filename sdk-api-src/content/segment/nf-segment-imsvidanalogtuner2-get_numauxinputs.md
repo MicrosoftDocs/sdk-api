@@ -9,8 +9,6 @@ ms.assetid: 72e3c0eb-4c65-4782-b799-80bf968e736a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAuxInputs method, IMSVidAnalogTuner2.get_NumAuxInputs, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -126,7 +124,7 @@ The first S-video input is channel 0 and the first composite input is channel 1.
 
 
 
-<a href="https://msdn.microsoft.com/50d30a45-8cea-454c-b5d2-ff809b8a8206">IMSVidAnalogTuner2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694421(v=VS.85).aspx">IMSVidAnalogTuner2 Interface</a>
  
 
  

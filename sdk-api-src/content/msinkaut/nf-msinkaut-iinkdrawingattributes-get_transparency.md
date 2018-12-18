@@ -9,8 +9,6 @@ ms.assetid: e1537635-3457-429e-bb72-33eb4a2ea3da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkDrawingAttributes interface [Tablet PC],Transparency property, IInkDrawingAttributes.Transparency, IInkDrawingAttributes.get_Transparency, IInkDrawingAttributes::Transparency, IInkDrawingAttributes::get_Transparency, IInkDrawingAttributes::put_Transparency, InkDrawingAttributes.get_Transparency, InkDrawingAttributes.put_Transparency, Transparency property [Tablet PC], Transparency property [Tablet PC],IInkDrawingAttributes interface, e1537635-3457-429e-bb72-33eb4a2ea3da, get_Transparency, msinkaut/IInkDrawingAttributes::Transparency, msinkaut/IInkDrawingAttributes::get_Transparency, msinkaut/IInkDrawingAttributes::put_Transparency, put_Transparency, tablet.inkdrawingattributes_transparency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -92,7 +90,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

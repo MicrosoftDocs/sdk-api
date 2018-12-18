@@ -9,8 +9,6 @@ ms.assetid: 401362a3-ee68-4af1-9ea5-c871c060ef33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

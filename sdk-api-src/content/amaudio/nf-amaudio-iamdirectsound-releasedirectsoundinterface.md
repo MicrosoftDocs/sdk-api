@@ -9,8 +9,6 @@ ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

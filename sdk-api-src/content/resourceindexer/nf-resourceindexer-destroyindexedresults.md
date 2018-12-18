@@ -9,8 +9,6 @@ ms.assetid: 0E1D8CC6-B662-4068-A6BA-822E79321C33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyIndexedResults, DestroyIndexedResults function [Menus and Other Resources], menurc.destroyindexedresults, resourceindexer/DestroyIndexedResults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resourceindexer.h
 req.include-header: 
@@ -91,7 +89,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/A6F253AD-0756-4996-AC6C-5B09C55DE22E">IndexedResourceQualifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt219671(v=VS.85).aspx">IndexedResourceQualifier</a>
  
 
  

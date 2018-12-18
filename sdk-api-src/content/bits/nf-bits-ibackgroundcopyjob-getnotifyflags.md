@@ -9,8 +9,6 @@ ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, GetNotifyFlags, GetNotifyFlags method [BITS], GetNotifyFlags method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyFlags method, IBackgroundCopyJob.GetNotifyFlags, IBackgroundCopyJob::GetNotifyFlags, _drz_ibackgroundcopyjob_getnotifyflags, bits.ibackgroundcopyjob_getnotifyflags, bits/IBackgroundCopyJob::GetNotifyFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -157,15 +155,15 @@ Must pass the address of <i>pNotifyFlags</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363031(v=VS.85).aspx">IBackgroundCopyJob::GetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/6a954fbc-baf6-4efa-bec0-dd86b4b7a916">IBackgroundCopyJob::GetNotifyInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
  
 
  

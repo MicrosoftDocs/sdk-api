@@ -9,8 +9,6 @@ ms.assetid: 441df857-0498-4c6f-b279-495f1138e9c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],SetSyncProviderState method, ISyncProviderRegistration.SetSyncProviderState, ISyncProviderRegistration::SetSyncProviderState, SetSyncProviderState, SetSyncProviderState method [Windows Sync], SetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::SetSyncProviderState, winsync.isyncproviderregistration_setsyncproviderstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

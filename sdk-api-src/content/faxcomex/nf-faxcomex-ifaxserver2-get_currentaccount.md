@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\currentaccou
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentAccount property [Fax Service], CurrentAccount property [Fax Service],IFaxServer2 interface, IFaxServer2 interface [Fax Service],CurrentAccount property, IFaxServer2.CurrentAccount, IFaxServer2.get_CurrentAccount, IFaxServer2::CurrentAccount, IFaxServer2::get_CurrentAccount, _mfax_faxserver2.currentaccount, fax._mfax_faxserver2_cpp_mfax_faxserver2_currentaccount_cpp, fax._mfax_faxserver2_currentaccount, faxcomex/IFaxServer2::CurrentAccount, faxcomex/IFaxServer2::get_CurrentAccount, get_CurrentAccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/df3aa427-9d29-4024-a6d5-ed5fd8dba36c">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b049d0c-f7dc-4563-8002-4f711f584577">IFaxServer2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>
  
 
  

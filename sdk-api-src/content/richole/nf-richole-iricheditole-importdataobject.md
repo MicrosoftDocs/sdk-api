@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichEditOle interface [Windows Controls],ImportDataObject method, IRichEditOle.ImportDataObject, IRichEditOle::ImportDataObject, ImportDataObject, ImportDataObject method [Windows Controls], ImportDataObject method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_ImportDataObject, _win32_IRichEditOle_ImportDataObject_cpp, controls.IRichEditOle_ImportDataObject, controls._win32_IRichEditOle_ImportDataObject, richole/IRichEditOle::ImportDataObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

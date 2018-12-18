@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskintersect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7ef37c3a-8924-5736-9b40-6a56cdf480c7, D3D10StateBlockMaskIntersect, D3D10StateBlockMaskIntersect function [Direct3D 10], d3d10effect/D3D10StateBlockMaskIntersect, direct3d10.d3d10stateblockmaskintersect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

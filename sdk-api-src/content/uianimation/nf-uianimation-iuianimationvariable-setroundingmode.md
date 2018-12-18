@@ -9,8 +9,6 @@ ms.assetid: e8c86195-14a1-4535-9fc2-4992c8090e79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable.SetRoundingMode, IUIAnimationVariable::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setroundingmode, uianimation/IUIAnimationVariable::SetRoundingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_42wi.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxNumber property [Fax Service], FaxNumber property [Fax Service],IFaxJob interface, IFaxJob interface [Fax Service],FaxNumber property, IFaxJob.FaxNumber, IFaxJob.get_FaxNumber, IFaxJob::FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_mfax_ifaxjob_get_faxnumber_cpp, faxcom/IFaxJob::FaxNumber, faxcom/IFaxJob::get_FaxNumber, get_FaxNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>IFaxJob::get_FaxNumber</b> property contains an empty string.
+A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IFaxJob::get_Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>IFaxJob::get_FaxNumber</b> property contains an empty string.
 
 <b>IFaxJob::get_FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -87,7 +85,7 @@ A fax number is only available for faxes that have a <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IFaxJob::get_Type</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

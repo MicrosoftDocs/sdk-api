@@ -9,8 +9,6 @@ ms.assetid: a241f8a4-7609-4a6c-825f-a7b882bfc25f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],SelectStreams method, IMFASFSplitter.SelectStreams, IMFASFSplitter::SelectStreams, SelectStreams, SelectStreams method [Media Foundation], SelectStreams method [Media Foundation],IMFASFSplitter interface, a241f8a4-7609-4a6c-825f-a7b882bfc25f, mf.imfasfsplitter_selectstreams, wmcontainer/IMFASFSplitter::SelectStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

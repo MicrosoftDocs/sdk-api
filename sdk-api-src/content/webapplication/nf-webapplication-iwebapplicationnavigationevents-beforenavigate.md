@@ -9,8 +9,6 @@ ms.assetid: 1088bfa3-0a20-4156-90ff-50129e903052
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeforeNavigate, BeforeNavigate method [Debugging Windows Store apps], BeforeNavigate method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],BeforeNavigate method, IWebApplicationNavigationEvents.BeforeNavigate, IWebApplicationNavigationEvents::BeforeNavigate, debug.iwebapplicationnavigationevents_beforenavigate, webapplication/IWebApplicationNavigationEvents::BeforeNavigate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

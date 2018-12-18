@@ -9,8 +9,6 @@ ms.assetid: 7137164c-2b82-48dc-8488-6c8872896a39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndInstall, EndInstall method [Windows Update Agent], EndInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],EndInstall method, IUpdateInstaller.EndInstall, IUpdateInstaller::EndInstall, wua.iupdateinstaller_endinstall, wuapi/IUpdateInstaller::EndInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

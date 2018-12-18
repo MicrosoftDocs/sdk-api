@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\iwialogex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaLogEx, IWiaLogEx interface [WIA], IWiaLogEx interface [WIA],described, _wia_IWiaLogEx, wia._wia_IWiaLogEx, wia_xp/IWiaLogEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

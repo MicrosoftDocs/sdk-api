@@ -9,8 +9,6 @@ ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableDebugCounters, DisableDebugCounters method [DirectComposition], DisableDebugCounters method [DirectComposition],IDCompositionDeviceDebug interface, IDCompositionDeviceDebug interface [DirectComposition],DisableDebugCounters method, IDCompositionDeviceDebug.DisableDebugCounters, IDCompositionDeviceDebug::DisableDebugCounters, dcomp/IDCompositionDeviceDebug::DisableDebugCounters, directcomp.idcompositiondevicedebug_disabledebugcounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -83,11 +81,11 @@ Microsoft DirectComposition keeps a count of how many DirectComposition devices 
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/AA0E913F-D89F-4AF1-91DE-B57D0C016DB7">IDCompositionDeviceDebug::EnableDebugCounters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280380(v=VS.85).aspx">IDCompositionDeviceDebug::EnableDebugCounters</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 619adf78-26db-4a90-90ba-bdacb3e55975
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?Commit@Provider@@IAEJPAVCInstance@@_N@Z, ?Commit@Provider@@IEAAJPEAVCInstance@@_N@Z, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],Commit method, Provider.Commit, Provider::Commit, _hmm_provider_commit, provider/Provider::Commit, wmi.provider_commit"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 

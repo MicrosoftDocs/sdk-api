@@ -9,8 +9,6 @@ ms.assetid: 9a5d6b10-b4c8-41ba-9b69-4537e44416df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CLOSE_LISTENER_CALLBACK, WS_CLOSE_LISTENER_CALLBACK callback, WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_LISTENER_CALLBACK, wsw.ws_close_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/6023595a-ac52-4619-a824-df49da887fc5">WsCloseListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

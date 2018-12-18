@@ -9,8 +9,6 @@ ms.assetid: 28c6efb3-1cf7-4f3b-ad42-6f5d72d3117b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICertPropertySHA1Hash interface [Security],SHA1Hash property, ICertPropertySHA1Hash.SHA1Hash, ICertPropertySHA1Hash.get_SHA1Hash, ICertPropertySHA1Hash::SHA1Hash, ICertPropertySHA1Hash::get_SHA1Hash, SHA1Hash property [Security], SHA1Hash property [Security],ICertPropertySHA1Hash interface, certenroll/ICertPropertySHA1Hash::SHA1Hash, certenroll/ICertPropertySHA1Hash::get_SHA1Hash, get_SHA1Hash, security.icertpropertysha1hash_sha1hash_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375797(v=VS.85).aspx">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
+Call the <a href="https://msdn.microsoft.com/898da01b-94e6-4a07-9c53-f93378fbda8c">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
 
 
 
@@ -73,7 +71,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375797(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375792(v=VS.85).aspx">ICertPropertySHA1Hash</a>
+<a href="https://msdn.microsoft.com/0946827b-c933-472c-9466-aaa3495ab202">ICertPropertySHA1Hash</a>
  
 
  

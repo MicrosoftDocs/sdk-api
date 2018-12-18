@@ -9,8 +9,6 @@ ms.assetid: bc8ce504-c387-4e3b-a227-926ae26ea78b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -151,23 +149,23 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/89d3c8e2-4517-45db-a20c-961089ee8845">IWMPDVD::back</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563245(v=VS.85).aspx">IWMPDVD::back</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0817edb-49af-48b8-82d0-a8c0a827f290">IWMPDVD::resume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563249(v=VS.85).aspx">IWMPDVD::resume</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a06367-5b0b-421d-abef-f6cd23e5b0d5">IWMPDVD::titleMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563250(v=VS.85).aspx">IWMPDVD::titleMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b96763f-a174-45df-b988-955f9619a4c1">IWMPDVD::topMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563251(v=VS.85).aspx">IWMPDVD::topMenu</a>
  
 
  

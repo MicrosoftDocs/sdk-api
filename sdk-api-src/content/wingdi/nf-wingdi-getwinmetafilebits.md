@@ -9,8 +9,6 @@ ms.assetid: db61ea3a-44d0-4769-acb4-05a982d3f06f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: dfc2848c-6cd6-4dd6-95b6-4097ef641835
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],Columns property, IInkRecognizerGuide.Columns, IInkRecognizerGuide.put_Columns, IInkRecognizerGuide::Columns, IInkRecognizerGuide::get_Columns, IInkRecognizerGuide::put_Columns, InkRecognizerGuide.get_Columns, InkRecognizerGuide.put_Columns, dfc2848c-6cd6-4dd6-95b6-4097ef641835, msinkaut/IInkRecognizerGuide::Columns, msinkaut/IInkRecognizerGuide::get_Columns, msinkaut/IInkRecognizerGuide::put_Columns, put_Columns, tablet.inkrecognizerguide_columns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -207,7 +205,7 @@ z
 
 
 
-<a href="https://msdn.microsoft.com/2B0302A8-EA85-44D4-8877-EFF23DBD9271">IInkRecognizerGuide</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
 
 
 

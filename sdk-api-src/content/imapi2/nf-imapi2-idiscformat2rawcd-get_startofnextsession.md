@@ -9,8 +9,6 @@ ms.assetid: d9ffe037-c7a6-40c2-a809-58dbfd9e7415
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_StartOfNextSession method, IDiscFormat2RawCD.get_StartOfNextSession, IDiscFormat2RawCD::get_StartOfNextSession, get_StartOfNextSession, get_StartOfNextSession method [IMAPI], get_StartOfNextSession method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_startofnextsession, imapi2/IDiscFormat2RawCD::get_StartOfNextSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

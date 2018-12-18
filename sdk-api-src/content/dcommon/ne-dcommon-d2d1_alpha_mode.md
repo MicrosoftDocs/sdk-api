@@ -9,8 +9,6 @@ ms.assetid: f1b1e735-2e89-4dc1-9fee-dfb4626ef453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_ALPHA_MODE, D2D1_ALPHA_MODE enumeration [Direct2D], D2D1_ALPHA_MODE_IGNORE, D2D1_ALPHA_MODE_PREMULTIPLIED, D2D1_ALPHA_MODE_STRAIGHT, D2D1_ALPHA_MODE_UNKNOWN, dcommon/D2D1_ALPHA_MODE, dcommon/D2D1_ALPHA_MODE_IGNORE, dcommon/D2D1_ALPHA_MODE_PREMULTIPLIED, dcommon/D2D1_ALPHA_MODE_STRAIGHT, dcommon/D2D1_ALPHA_MODE_UNKNOWN, direct2d.D2D1_ALPHA_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dcommon.h
 req.include-header: D2d1.h
@@ -99,7 +97,7 @@ Regardless of the alpha mode of the render target, <a href="https://msdn.microso
 <h3><a id="Alpha_Mode_for_Render_Targets"></a><a id="alpha_mode_for_render_targets"></a><a id="ALPHA_MODE_FOR_RENDER_TARGETS"></a>Alpha Mode for Render Targets</h3>
 Regardless of the alpha mode setting, a render target's contents support transparency. For example, if you draw a partially transparent red rectangle with a render target with an alpha mode of <b>D2D1_ALPHA_MODE_IGNORE</b>, the rectangle will appear pink (if the background is white), as you might expect.
 
-If you draw a partially transparent red rectangle when the alpha mode is <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>, the rectangle will appear pink (assuming the background is white) and you can see through it to whatever is behind the render target. This is useful when using a <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a> to render to a transparent window or when using an compatible render target (a render targeted created by the <a href="https://msdn.microsoft.com/4a799a7c-0d2f-460f-99f9-24c6cf7c4537">CreateCompatibleRenderTarget</a> method) to create a bitmap that supports transparency. 
+If you draw a partially transparent red rectangle when the alpha mode is <b>D2D1_ALPHA_MODE_PREMULTIPLIED</b>, the rectangle will appear pink (assuming the background is white) and you can see through it to whatever is behind the render target. This is useful when using a <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a> to render to a transparent window or when using an compatible render target (a render targeted created by the <a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> method) to create a bitmap that supports transparency. 
 
 <h3><a id="ClearType_and_Alpha_Modes"></a><a id="cleartype_and_alpha_modes"></a><a id="CLEARTYPE_AND_ALPHA_MODES"></a>ClearType and Alpha Modes</h3>
 If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a render target, the text antialiasing mode automatically changes from <a href="https://msdn.microsoft.com/d2c829d7-9892-4cbb-9993-12bb7d77fc25">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>  to <b>D2D1_TEXT_ANTIALIAS_MODE GRAYSCALE</b>. (When you specify an alpha mode of <b>D2D1_ALPHA_MODE_UNKNOWN</b>, Direct2D sets the alpha for you depending on the type of render target. For a list of what the <b>D2D1_ALPHA_MODE_UNKNOWN</b> setting resolves to for each render target, see the <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a> overview.) 
@@ -107,8 +105,8 @@ If you specify an alpha mode other than <b>D2D1_ALPHA_MODE_IGNORE</b> for a rend
 You can use the <a href="https://msdn.microsoft.com/be6161ed-d797-4090-9bf0-5d6ee11cac0e">SetTextAntialiasMode</a> method to change the text antialias mode  back to <a href="https://msdn.microsoft.com/d2c829d7-9892-4cbb-9993-12bb7d77fc25">D2D1_TEXT_ANTIALIAS_MODE CLEARTYPE</a>, but rendering ClearType text to a transparent surface can create unpredictable results. If you want to render ClearType text to an transparent render target, we recommend that you use one of the following two techniques. 
 
 <ul>
-<li>Use the <a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://msdn.microsoft.com/3bfec923-17fc-479a-a760-9baab2ff3a56">Clear</a> method and specify an opaque color, then render your text.</li>
-<li>Use <a href="https://msdn.microsoft.com/3f8c0754-fa68-4b5b-812f-24d8b544ba6e">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
+<li>Use the <a href="https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx">PushAxisAlignedClip</a> method to clip the render target to the area where the text will be rendered,    then call the <a href="https://msdn.microsoft.com/3bfec923-17fc-479a-a760-9baab2ff3a56">Clear</a> method and specify an opaque color, then render your text.</li>
+<li>Use <a href="https://msdn.microsoft.com/en-us/library/Dd742846(v=VS.85).aspx">DrawRectangle</a> to draw an opaque rectangle behind the area where the text will be rendered.</li>
 </ul>
 
 

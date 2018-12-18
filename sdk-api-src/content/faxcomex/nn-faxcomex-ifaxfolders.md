@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service],described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

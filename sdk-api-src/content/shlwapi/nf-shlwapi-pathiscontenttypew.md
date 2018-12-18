@@ -9,8 +9,6 @@ ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

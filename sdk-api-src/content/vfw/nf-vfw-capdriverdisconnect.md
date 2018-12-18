@@ -9,8 +9,6 @@ ms.assetid: c009adb4-bc73-4d0d-9ab1-801e92e8851f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capDriverDisconnect, capDriverDisconnect, capDriverDisconnect macro [Windows Multimedia], multimedia.capdriverdisconnect, vfw/capDriverDisconnect"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

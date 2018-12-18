@@ -9,8 +9,6 @@ ms.assetid: 0ea9ad29-9903-41ac-9be8-acb41cec10d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_EnableResetOnStop method, IMSVidPlayback.get_EnableResetOnStop, IMSVidPlayback::get_EnableResetOnStop, IMSVidPlaybackget_EnableResetOnStop, get_EnableResetOnStop, get_EnableResetOnStop method [Microsoft TV Technologies], get_EnableResetOnStop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_enableresetonstop, segment/IMSVidPlayback::get_EnableResetOnStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -124,7 +122,7 @@ The method succeeded.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/f2b4285c-3cf8-40dc-87eb-57419ef7343e">IMSVidPlayback::put_EnableResetOnStop</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694597(v=VS.85).aspx">IMSVidPlayback::put_EnableResetOnStop</a>.
 
 
 
@@ -134,7 +132,7 @@ For more information, see <a href="https://msdn.microsoft.com/f2b4285c-3cf8-40dc
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

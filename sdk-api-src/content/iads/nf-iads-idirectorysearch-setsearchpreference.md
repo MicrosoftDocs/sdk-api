@@ -9,8 +9,6 @@ ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectorySearch interface [ADSI],SetSearchPreference method, IDirectorySearch.SetSearchPreference, IDirectorySearch::SetSearchPreference, SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI],IDirectorySearch interface, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

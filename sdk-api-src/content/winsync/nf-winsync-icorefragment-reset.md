@@ -9,8 +9,6 @@ ms.assetid: b39e9dee-7437-4480-9050-33bc68b41b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreFragment interface [Windows Sync],Reset method, ICoreFragment.Reset, ICoreFragment::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragment interface, winsync.icorefragment_reset, winsync/ICoreFragment::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ab490087-063d-4e9f-8aa5-679804548d26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordAncillaryPageID, GetRecordAncillaryPageID method [Microsoft TV Technologies], GetRecordAncillaryPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordAncillaryPageID method, IDvbSubtitlingDescriptor.GetRecordAncillaryPageID, IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, mstv.idvbsubtitlingdescriptor_getrecordancillarypageid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

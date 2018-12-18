@@ -9,8 +9,6 @@ ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadTerminate method, IComThreadEvents.OnThreadTerminate, IComThreadEvents::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -60,7 +58,7 @@ Generated when a single-threaded apartment (STA) thread is terminated.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ThreadID [in]
@@ -92,7 +90,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685160(v=VS.85).aspx">IComThreadEvents</a>
+<a href="https://msdn.microsoft.com/a6523088-cca4-41c1-a3fe-d8cb7320ff33">IComThreadEvents</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 64b6371c-4baf-4ec1-bd0d-6413f053e2fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInternalMemInfo, GetInternalMemInfo method [DirectShow], GetInternalMemInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetInternalMemInfo method, IAMVideoAccelerator.GetInternalMemInfo, IAMVideoAccelerator::GetInternalMemInfo, IAMVideoAcceleratorGetInternalMemInfo, dshow.iamvideoaccelerator_getinternalmeminfo, videoacc/IAMVideoAccelerator::GetInternalMemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -70,12 +68,12 @@ Pointer to a GUID that specifies the DXVA profile in use.
 
 ### -param pamvaUncompDataInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/920f88bb-c671-4ab9-b482-b03505cca118">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373449(v=VS.85).aspx">AMVAUncompDataInfo</a> structure that specifies the size and pixel format of the uncompressed data.
 
 
 ### -param pamvaInternalMemInfo [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/8ce27daa-cd8e-4dbd-a949-0c07c370d504">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373447(v=VS.85).aspx">AMVAInternalMemInfo</a> structure that receives the amount of scratch memory the HAL will allocate. 
 
 
 ## -returns
@@ -163,7 +161,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

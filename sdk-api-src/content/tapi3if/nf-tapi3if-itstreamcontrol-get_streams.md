@@ -9,8 +9,6 @@ ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],get_Streams method, ITStreamControl.get_Streams, ITStreamControl::get_Streams, _tapi3_itstreamcontrol_get_streams, get_Streams, get_Streams method [TAPI 2.2], get_Streams method [TAPI 2.2],ITStreamControl interface, tapi3.itstreamcontrol_get_streams, tapi3if/ITStreamControl::get_Streams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

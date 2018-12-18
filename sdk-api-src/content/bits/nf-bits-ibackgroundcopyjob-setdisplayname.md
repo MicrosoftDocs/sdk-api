@@ -9,8 +9,6 @@ ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetDisplayName method, IBackgroundCopyJob.SetDisplayName, IBackgroundCopyJob::SetDisplayName, SetDisplayName, SetDisplayName method [BITS], SetDisplayName method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdisplayname, bits.ibackgroundcopyjob_setdisplayname, bits/IBackgroundCopyJob::SetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -129,7 +127,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 The display name is originally set when you create the job. For details on specifying the display name when you create the job, see the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a> method.
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a> method.
 
 
 
@@ -139,11 +137,11 @@ The display name is originally set when you create the job. For details on speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363024(v=VS.85).aspx">IBackgroundCopyJob::GetDisplayName</a>
+<a href="https://msdn.microsoft.com/934cff3e-d4b8-4b76-96e1-fd7ded1842eb">IBackgroundCopyJob::GetDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

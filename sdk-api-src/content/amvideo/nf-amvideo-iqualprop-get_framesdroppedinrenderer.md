@@ -9,8 +9,6 @@ ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IQualProp interface [DirectShow],get_FramesDroppedInRenderer method, IQualProp.get_FramesDroppedInRenderer, IQualProp::get_FramesDroppedInRenderer, IQualPropget_FramesDroppedInRenderer, amvideo/IQualProp::get_FramesDroppedInRenderer, dshow.iqualprop_get_framesdroppedinrenderer, get_FramesDroppedInRenderer, get_FramesDroppedInRenderer method [DirectShow], get_FramesDroppedInRenderer method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -94,7 +92,7 @@ The property page uses this method to retrieve data from the renderer.
 
 
 
-<a href="https://msdn.microsoft.com/428dfb97-0dfa-442c-819e-291e6a58f712">IQualProp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376915(v=VS.85).aspx">IQualProp Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: bc20e4a3-1405-494a-98ea-cca4c87e4984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetAt method, IPropertyChangeArray.GetAt, IPropertyChangeArray::GetAt, _shell_IPropertyChangeArray_GetAt, properties.IPropertyChangeArray_GetAt, propsys/IPropertyChangeArray::GetAt, shell.IPropertyChangeArray_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
@@ -76,7 +74,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of a pointer to the interface specified by <i>riid</i>, usually <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a>.
+The address of a pointer to the interface specified by <i>riid</i>, usually <a href="shell.IPropertyChange">IPropertyChange</a>.
 
 
 ## -returns

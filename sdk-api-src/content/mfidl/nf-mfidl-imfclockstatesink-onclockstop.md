@@ -9,8 +9,6 @@ ms.assetid: 472b704f-d402-4e0b-96b8-fea267e8ff63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 472b704f-d402-4e0b-96b8-fea267e8ff63, IMFClockStateSink interface [Media Foundation],OnClockStop method, IMFClockStateSink.OnClockStop, IMFClockStateSink::OnClockStop, OnClockStop, OnClockStop method [Media Foundation], OnClockStop method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstop, mfidl/IMFClockStateSink::OnClockStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1d7p.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],ServerCoverpage property, IFaxDoc.ServerCoverpage, IFaxDoc.get_ServerCoverpage, IFaxDoc::ServerCoverpage, IFaxDoc::get_ServerCoverpage, IFaxDoc::put_ServerCoverpage, ServerCoverpage property [Fax Service], ServerCoverpage property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_servercoverpage_cpp, faxcom/IFaxDoc::ServerCoverpage, faxcom/IFaxDoc::get_ServerCoverpage, faxcom/IFaxDoc::put_ServerCoverpage, get_ServerCoverpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -82,19 +80,19 @@ You can send a common cover page or a personal cover page with a fax document. F
 
 
 
-<a href="https://msdn.microsoft.com/16f68004-fa4d-40c7-90a5-0bb562e72bd7">IFaxDoc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15a818b-fd37-4958-8fc7-25a8494cdf12">IFaxDoc::put_CoverpageName Method</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691453(v=VS.85).aspx">IFaxDoc::put_CoverpageName Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe9f0c64-7722-49ca-809c-5e59acacf474">IFaxDoc::put_FileName Method</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">IFaxDoc::put_FileName Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bf1dd42-bdc9-4bb9-b5e0-3a0934b0001b">IFaxDoc::put_SendCoverpage Method</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690916(v=VS.85).aspx">IFaxDoc::put_SendCoverpage Method</a>
  
 
  

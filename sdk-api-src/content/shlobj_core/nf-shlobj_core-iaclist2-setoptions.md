@@ -9,8 +9,6 @@ ms.assetid: 963428b3-408f-4bdd-b230-9e73f21247a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, IACList2 interface [Windows Shell],SetOptions method, IACList2.SetOptions, IACList2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IACList2 interface, _win32_IACList2_SetOptions, shell.IACList2_SetOptions, shlobj_core/IACList2::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

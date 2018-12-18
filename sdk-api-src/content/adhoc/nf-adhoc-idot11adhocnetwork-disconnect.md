@@ -9,8 +9,6 @@ ms.assetid: e5c96776-6bb2-43b0-86b9-c3bc058d5d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [NativeWIFI], Disconnect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Disconnect method, IDot11AdHocNetwork.Disconnect, IDot11AdHocNetwork::Disconnect, adhoc/IDot11AdHocNetwork::Disconnect, nwifi.idot11adhocnetwork_disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

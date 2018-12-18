@@ -9,8 +9,6 @@ ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

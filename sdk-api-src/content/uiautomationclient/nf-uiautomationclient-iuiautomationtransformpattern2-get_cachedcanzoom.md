@@ -9,8 +9,6 @@ ms.assetid: 36C0CEFE-8035-42CF-B480-7C9BA02F7BB3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedCanZoom property [Windows Accessibility], CachedCanZoom property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedCanZoom property, IUIAutomationTransformPattern2.CachedCanZoom, IUIAutomationTransformPattern2.get_CachedCanZoom, IUIAutomationTransformPattern2::CachedCanZoom, IUIAutomationTransformPattern2::get_CachedCanZoom, get_CachedCanZoom, uiautomationclient/IUIAutomationTransformPattern2::CachedCanZoom, uiautomationclient/IUIAutomationTransformPattern2::get_CachedCanZoom, winauto.uiauto_IUIAutomationTransformPattern2_CachedCanZoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

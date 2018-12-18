@@ -9,8 +9,6 @@ ms.assetid: 4d13c480-26f6-49d3-aaaa-1804d56f8fe3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBoolFromCy, VarBoolFromCy function [Automation], _oa96_VarBoolFromCy, automat.varboolfromcy, oleauto/VarBoolFromCy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

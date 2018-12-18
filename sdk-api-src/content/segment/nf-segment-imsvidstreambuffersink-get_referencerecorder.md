@@ -9,8 +9,6 @@ ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -65,7 +63,7 @@ Specifies the name of the file to hold the recording.
 
 ### -param pRecordingIUnknown [out]
 
-Receives a pointer to the recording object's <a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl</a> interface.
+Receives a pointer to the recording object's <a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl</a> interface.
 
 
 ## -returns
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-The caller must release the <a href="https://msdn.microsoft.com/a61414dc-a9a0-4c65-8f5a-eaabc79783e3">IMSVidStreamBufferRecordingControl</a> interface.
+The caller must release the <a href="https://msdn.microsoft.com/en-us/library/Dd694615(v=VS.85).aspx">IMSVidStreamBufferRecordingControl</a> interface.
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: b21e5872-24b2-4a4c-86a7-528789c1b9aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

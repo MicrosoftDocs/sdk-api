@@ -9,8 +9,6 @@ ms.assetid: 27CAE784-2107-4380-97E4-AE0A7D69C64F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFImageSharingEngine interface, IMFImageSharingEngine interface [Media Foundation],GetDevice method, IMFImageSharingEngine.GetDevice, IMFImageSharingEngine::GetDevice, mf.imfimagesharingengine_getdevice, mfsharingengine/IMFImageSharingEngine::GetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

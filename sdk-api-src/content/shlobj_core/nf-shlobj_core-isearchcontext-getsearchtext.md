@@ -9,8 +9,6 @@ ms.assetid: d38946be-8fd3-46e2-953e-8e94bcad4b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSearchText, GetSearchText method [Windows Shell], GetSearchText method [Windows Shell],ISearchContext interface, ISearchContext interface [Windows Shell],GetSearchText method, ISearchContext.GetSearchText, ISearchContext::GetSearchText, _shell_ISearchContext_GetSearchText, shell.ISearchContext_GetSearchText, shlobj_core/ISearchContext::GetSearchText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the text that is in the browser's Address bar.
 
 ### -param pbstrSearchText [in]
 
-Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
 
 The <b>BSTR</b> that receives the text in the Address bar.
 

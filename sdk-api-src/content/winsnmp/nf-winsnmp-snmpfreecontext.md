@@ -9,8 +9,6 @@ ms.assetid: 15ab137e-86ea-43fc-ac8c-cd6a76feaa04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpFreeContext, SnmpFreeContext function [SNMP], _snmp_snmpfreecontext, snmp.snmpfreecontext, winsnmp/SnmpFreeContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

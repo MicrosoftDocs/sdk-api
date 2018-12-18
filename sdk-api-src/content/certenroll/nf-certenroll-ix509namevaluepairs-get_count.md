@@ -9,8 +9,6 @@ ms.assetid: 52bbd5af-4bd7-4520-b4cd-6a3d92485322
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Count property, IX509NameValuePairs.Count, IX509NameValuePairs.get_Count, IX509NameValuePairs::Count, IX509NameValuePairs::get_Count, certenroll/IX509NameValuePairs::Count, certenroll/IX509NameValuePairs::get_Count, get_Count, security.ix509namevaluepairs_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a> objects in the collection.
 
 This property is read-only.
 
@@ -64,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378746(v=VS.85).aspx">IX509NameValuePairs</a>
+<a href="https://msdn.microsoft.com/c881dc9f-4187-4ba1-9f3a-e1564e4f37c7">IX509NameValuePairs</a>
  
 
  

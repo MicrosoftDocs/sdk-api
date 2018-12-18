@@ -9,8 +9,6 @@ ms.assetid: 30f5b526-d2d5-48a6-be5f-d0f2ba9397c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExtendTaskPad, IExtendTaskPad interface [MMC], IExtendTaskPad interface [MMC],described, _slate_iextendtaskpad, mmc.iextendtaskpad, mmc/IExtendTaskPad
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 189c878d-bf14-4464-96ce-5d2e09118dc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],get_Tune method, IMSVidTuner.get_Tune, IMSVidTuner::get_Tune, IMSVidTunerget_Tune, get_Tune, get_Tune method [Microsoft TV Technologies], get_Tune method [Microsoft TV Technologies],IMSVidTuner interface, mstv.imsvidtuner_get_tune, segment/IMSVidTuner::get_Tune
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -86,11 +84,11 @@ The returned <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc8
 
 
 
-<a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/31139b6f-aad9-495b-9e8c-39026c8e81a9">IMSVidTuner::put_Tune</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694709(v=VS.85).aspx">IMSVidTuner::put_Tune</a>
 
 
 

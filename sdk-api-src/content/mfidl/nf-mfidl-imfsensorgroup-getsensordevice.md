@@ -9,8 +9,6 @@ ms.assetid: 78924C45-9612-4B39-B9E2-C8D2DCCBED79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSensorDevice, GetSensorDevice method [Media Foundation], GetSensorDevice method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSensorDevice method, IMFSensorGroup.GetSensorDevice, IMFSensorGroup::GetSensorDevice, mf.imfsensorgroup_getsensordevice, mfidl/IMFSensorGroup::GetSensorDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

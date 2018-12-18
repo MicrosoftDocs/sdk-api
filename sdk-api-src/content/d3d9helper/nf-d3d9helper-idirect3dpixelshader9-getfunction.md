@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dpixelshader9__getfunction.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3fd5e480-51b4-f6cc-c9eb-1fa92415018a, GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DPixelShader9 interface, IDirect3DPixelShader9 interface [Direct3D 9],GetFunction method, IDirect3DPixelShader9.GetFunction, IDirect3DPixelShader9::GetFunction, d3d9helper/IDirect3DPixelShader9::GetFunction, direct3d9.idirect3dpixelshader9__getfunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

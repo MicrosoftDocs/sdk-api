@@ -9,8 +9,6 @@ ms.assetid: add0ed43-d83f-4793-b1f6-ccad0f01854c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary, IWMPLibrary interface [Windows Media Player], IWMPLibrary interface [Windows Media Player],described, IWMPLibraryInterface, wmp.iwmplibrary, wmp/IWMPLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6de39a4e-fcce-401b-9bbf-7b06d1fb0370">get_mediaCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563392(v=VS.85).aspx">get_mediaCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the <b>IWMPMediacollection</b> interface for the current library.
@@ -82,7 +80,7 @@ Retrieves a pointer to the <b>IWMPMediacollection</b> interface for the current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28f1e3bc-3692-4fd0-a0b3-fecc3a173103">get_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563393(v=VS.85).aspx">get_name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name of the current library.
@@ -91,7 +89,7 @@ Retrieves the display name of the current library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95f36972-2227-4fe8-88d7-41f7aebbf67a">get_type</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563394(v=VS.85).aspx">get_type</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates the library type.
@@ -100,7 +98,7 @@ Retrieves a value that indicates the library type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af121fc7-6a9a-4c1a-bea4-433e62ca19e3">isIdentical</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563395(v=VS.85).aspx">isIdentical</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that indicates whether the supplied object is the same as the current one.
@@ -115,7 +113,7 @@ Retrieves a value that indicates whether the supplied object is the same as the 
 
 
 
-<a href="https://msdn.microsoft.com/766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f">IWMPLibraryServices::getLibraryByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563386(v=VS.85).aspx">IWMPLibraryServices::getLibraryByType</a>
 
 
 

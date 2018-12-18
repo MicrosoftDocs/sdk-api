@@ -9,8 +9,6 @@ ms.assetid: 76ea520c-64c2-4096-ab21-9714b98b5dac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface [RDP], IRDPSRAPIClipboardUseEvents interface [RDP],described, rdp.irdpsrapiclipboarduseevents, rdpencomapi/IRDPSRAPIClipboardUseEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

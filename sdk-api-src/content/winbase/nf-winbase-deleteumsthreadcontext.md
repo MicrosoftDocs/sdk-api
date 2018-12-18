@@ -9,8 +9,6 @@ ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

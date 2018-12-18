@@ -9,8 +9,6 @@ ms.assetid: 2027d8cd-2528-45ad-9f36-f03cc3001ba7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMILang method, IWMPClosedCaption.put_SAMILang, IWMPClosedCaption::put_SAMILang, IWMPClosedCaptionput_SAMILang, put_SAMILang, put_SAMILang method [Windows Media Player], put_SAMILang method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samilang, wmp/IWMPClosedCaption::put_SAMILang
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -128,11 +126,11 @@ The value you specify using <b>put_SAMILang</b> must match the <b>Name</b> attri
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcb72cf3-dad2-46b4-9652-349b804cda22">IWMPClosedCaption::get_SAMILang</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563123(v=VS.85).aspx">IWMPClosedCaption::get_SAMILang</a>
  
 
  

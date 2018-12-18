@@ -9,8 +9,6 @@ ms.assetid: 27eadc99-46b6-40e1-91e0-b5c532536491
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDirectoryItem, CreateDirectoryItem method [IMAPI], CreateDirectoryItem method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateDirectoryItem method, IFileSystemImage.CreateDirectoryItem, IFileSystemImage::CreateDirectoryItem, imapi.ifilesystemimage_createdirectoryitem, imapi2fs/IFileSystemImage::CreateDirectoryItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 737C23E0-D4EF-4630-A460-2AE56FE50A12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StopRecord method, IMFCaptureEngine.StopRecord, IMFCaptureEngine::StopRecord, StopRecord, StopRecord method [Media Foundation], StopRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoprecord, mfcaptureengine/IMFCaptureEngine::StopRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

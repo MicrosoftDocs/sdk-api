@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10resource_getevictionpriority.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 83f59a92-75b3-4efe-03ec-ca8afea155dc, GetEvictionPriority, GetEvictionPriority method [Direct3D 10], GetEvictionPriority method [Direct3D 10],ID3D10Resource interface, ID3D10Resource interface [Direct3D 10],GetEvictionPriority method, ID3D10Resource.GetEvictionPriority, ID3D10Resource::GetEvictionPriority, d3d10/ID3D10Resource::GetEvictionPriority, direct3d10.id3d10resource_getevictionpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -65,7 +63,7 @@ Get the eviction priority of a resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 One of the following values, which specifies the eviction priority for the resource:
 

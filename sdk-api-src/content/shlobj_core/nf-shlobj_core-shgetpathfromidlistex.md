@@ -9,8 +9,6 @@ ms.assetid: 80270c59-275d-4b13-b16c-0c07bb79ed8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPFIDL_ALTNAME, GPFIDL_DEFAULT, GPFIDL_UNCPRINTER, SHGetPathFromIDListEx, SHGetPathFromIDListEx function [Windows Shell], _shell_SHGetPathFromIDListEx, shell.SHGetPathFromIDListEx, shlobj_core/SHGetPathFromIDListEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

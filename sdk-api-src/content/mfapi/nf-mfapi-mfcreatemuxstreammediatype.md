@@ -9,8 +9,6 @@ ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

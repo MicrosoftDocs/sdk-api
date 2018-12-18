@@ -9,8 +9,6 @@ ms.assetid: df7b14fe-9a6a-41d3-ba61-46b2e1df0b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICLocate, ICLocate function [Windows Multimedia], ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_FASTCOMPRESS, ICMODE_FASTDECOMPRESS, _win32_ICLocate, multimedia.iclocate, vfw/ICLocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

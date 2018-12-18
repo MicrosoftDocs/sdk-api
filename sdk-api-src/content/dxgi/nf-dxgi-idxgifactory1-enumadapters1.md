@@ -9,8 +9,6 @@ ms.assetid: 351b7b2d-abb7-449e-bee2-eea96fef3b9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0a909fb2-9d08-a479-d85f-14de8ba21f69, EnumAdapters1, EnumAdapters1 method [DXGI], EnumAdapters1 method [DXGI],IDXGIFactory1 interface, IDXGIFactory1 interface [DXGI],EnumAdapters1 method, IDXGIFactory1.EnumAdapters1, IDXGIFactory1::EnumAdapters1, direct3ddxgi.idxgifactory1_enumadapters1, dxgi/IDXGIFactory1::EnumAdapters1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

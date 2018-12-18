@@ -9,8 +9,6 @@ ms.assetid: 083fad34-e2e7-4f33-8eb2-01dba00fd985
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanRequestUserInput property [Windows Update Agent], CanRequestUserInput property [Windows Update Agent],IInstallationBehavior interface, IInstallationBehavior interface [Windows Update Agent],CanRequestUserInput property, IInstallationBehavior.CanRequestUserInput, IInstallationBehavior.get_CanRequestUserInput, IInstallationBehavior::CanRequestUserInput, IInstallationBehavior::get_CanRequestUserInput, get_CanRequestUserInput, wua.iinstallationbehavior_canrequestuserinput, wuapi/IInstallationBehavior::CanRequestUserInput, wuapi/IInstallationBehavior::get_CanRequestUserInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

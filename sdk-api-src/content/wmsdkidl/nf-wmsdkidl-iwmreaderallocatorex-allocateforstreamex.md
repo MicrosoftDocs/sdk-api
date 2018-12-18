@@ -9,8 +9,6 @@ ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>AllocateForStreamEx</b> method allocates a user-created buffer for samples delivered to the <a href="https://msdn.microsoft.com/6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8">IWMReaderCallbackAdvanced::OnStreamSample</a> method.
+The <b>AllocateForStreamEx</b> method allocates a user-created buffer for samples delivered to the <a href="https://msdn.microsoft.com/en-us/library/Dd743500(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSample</a> method.
 
 
 
@@ -111,7 +109,7 @@ Specifies the sample duration, in 100-nanosecond units.
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a> method.
+Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a> method.
 
 
 ## -returns
@@ -127,9 +125,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-This method differs from <a href="https://msdn.microsoft.com/82d31f4b-d8a8-4538-be5e-dd9149e3f420">IWMReaderCallbackAdvanced::AllocateForStream</a> in that sample time and duration values can be passed.
+This method differs from <a href="https://msdn.microsoft.com/en-us/library/Dd743496(v=VS.85).aspx">IWMReaderCallbackAdvanced::AllocateForStream</a> in that sample time and duration values can be passed.
 
-When you allocate a sample in your implementation of this method, you should call <a href="https://msdn.microsoft.com/3f0e8d8a-efc7-4f1b-8a42-7907439ed8af">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
+When you allocate a sample in your implementation of this method, you should call <a href="https://msdn.microsoft.com/en-us/library/Dd743263(v=VS.85).aspx">INSSBuffer::SetLength</a> to set the length of the buffer to the length passed by the reader in the <i>cbBuffer</i> parameter. If you do not set the current length on the buffer, the reader may encounter an error.
 
 
 
@@ -139,15 +137,15 @@ When you allocate a sample in your implementation of this method, you should cal
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/be727c7b-b252-44db-825b-5c683e551fd2">IWMReaderAllocatorEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
  
 
  

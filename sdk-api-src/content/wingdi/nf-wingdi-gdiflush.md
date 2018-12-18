@@ -9,8 +9,6 @@ ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

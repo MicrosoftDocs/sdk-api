@@ -9,8 +9,6 @@ ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnPrepareBackup method, CVssWriter.OnPrepareBackup, CVssWriter::OnPrepareBackup, OnPrepareBackup, OnPrepareBackup method [VSS], OnPrepareBackup method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparebackup, base.cvsswriter_onpreparebackup, vswriter/CVssWriter::OnPrepareBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

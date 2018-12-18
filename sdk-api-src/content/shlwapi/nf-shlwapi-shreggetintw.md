@@ -9,8 +9,6 @@ ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

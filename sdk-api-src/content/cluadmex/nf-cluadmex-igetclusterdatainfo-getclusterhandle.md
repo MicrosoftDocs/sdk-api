@@ -9,8 +9,6 @@ ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
@@ -77,7 +75,7 @@ A cluster handle.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370211(v=VS.85).aspx">IGetClusterDataInfo</a>
+<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
  
 
  

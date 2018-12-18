@@ -9,8 +9,6 @@ ms.assetid: 99af3767-5bc9-43e3-9413-5886f057cb85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 99af3767-5bc9-43e3-9413-5886f057cb85, IPenInputPanel interface [Tablet PC],Left property, IPenInputPanel.Left, IPenInputPanel.get_Left, IPenInputPanel::Left, IPenInputPanel::get_Left, Left property [Tablet PC], Left property [Tablet PC],IPenInputPanel interface, PenInputPanel.get_Left, get_Left, peninputpanel/IPenInputPanel::Left, peninputpanel/IPenInputPanel::get_Left, tablet.peninputpanel_left
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
@@ -82,7 +80,7 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 

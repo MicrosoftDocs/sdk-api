@@ -7,10 +7,8 @@ old-location: of\ienumofflinefilesitems_next.htm
 tech.root: offlinefiles
 ms.assetid: 509bb93a-0ab4-4e4a-935a-c30e6b1f03fd
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumOfflineFilesItems interface [Offline Files],Next method, IEnumOfflineFilesItems.Next, IEnumOfflineFilesItems::Next, Next, Next method [Offline Files], Next method [Offline Files],IEnumOfflineFilesItems interface, cscobj/IEnumOfflineFilesItems::Next, of.ienumofflinefilesitems_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -88,7 +86,7 @@ Returns <b>S_OK</b> if the number of elements returned is <i>celt</i>; S_FALSE i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530476(v=VS.85).aspx">IEnumOfflineFilesItems</a>
+<a href="https://msdn.microsoft.com/9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f">IEnumOfflineFilesItems</a>
  
 
  

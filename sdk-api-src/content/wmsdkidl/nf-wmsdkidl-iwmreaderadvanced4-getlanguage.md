@@ -9,8 +9,6 @@ ms.assetid: 2af443f5-941a-466a-8eef-d4742f8e1ae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguage method, IWMReaderAdvanced4.GetLanguage, IWMReaderAdvanced4::GetLanguage, IWMReaderAdvanced4GetLanguage, wmformat.iwmreaderadvanced4_getlanguage, wmsdkidl/IWMReaderAdvanced4::GetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -126,11 +124,11 @@ When setting the language to use for an output, you must set the value of the <b
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c63084cb-f4cf-413b-a3f1-eb6b1400ac93">IWMReaderAdvanced4::GetLanguageCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757455(v=VS.85).aspx">IWMReaderAdvanced4::GetLanguageCount</a>
  
 
  

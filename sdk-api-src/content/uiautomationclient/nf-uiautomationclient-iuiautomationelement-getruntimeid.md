@@ -9,8 +9,6 @@ ms.assetid: d351f2ca-d9de-4055-8356-9a100a77f397
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetRuntimeId method, IUIAutomationElement.GetRuntimeId, IUIAutomationElement::GetRuntimeId, uiauto.uiauto_IUIAutomationElement_GetRuntimeId, uiauto_IUIAutomationElement_GetRuntimeId, uiautomationclient/IUIAutomationElement::GetRuntimeId, winauto.uiauto_IUIAutomationElement_GetRuntimeId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 62200cb0-3704-4caf-9152-1b7b0c43856a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Format, Format method [COM], Format method [COM],IVBFormat interface, IVBFormat interface [COM],Format method, IVBFormat.Format, IVBFormat::Format, _com_IVBFormat_Format, com.ivbformat_format, vbFirstFourDays, vbFirstFullWeek, vbFirstJan1, vbFriday, vbMonday, vbSaturday, vbSunday, vbThursday, vbTuesday, vbUseSystem, vbWednesday, vbinterf/IVBFormat::Format
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vbinterf.h
 req.include-header: 

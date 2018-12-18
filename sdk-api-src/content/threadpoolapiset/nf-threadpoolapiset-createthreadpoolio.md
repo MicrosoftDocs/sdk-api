@@ -9,8 +9,6 @@ ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateThreadpoolIo, CreateThreadpoolIo function, base.createthreadpoolio, threadpoolapiset/CreateThreadpoolIo, winbase/CreateThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

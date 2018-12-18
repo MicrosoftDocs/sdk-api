@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_50x0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],TransmissionEnd property, IFaxOutgoingJob.TransmissionEnd, IFaxOutgoingJob.get_TransmissionEnd, IFaxOutgoingJob::TransmissionEnd, IFaxOutgoingJob::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.transmissionend, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_transmissionend_cpp, fax._mfax_faxoutgoingjob_transmissionend, faxcomex/IFaxOutgoingJob::TransmissionEnd, faxcomex/IFaxOutgoingJob::get_TransmissionEnd, get_TransmissionEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-The property is not valid as long as the fax is still being sent by the fax device. It will have a value only after the transmission has ended. In the case of an individual fax, once the transmission has ended, the fax will be moved to the outgoing archive, and you will not be able to retrieve this value. You can instead retrieve the value of the <a href="https://msdn.microsoft.com/313225b4-f515-4f1b-bb20-cd2b2ebf1996">TransmissionEnd</a> property. In the case of a broadcast, each fax of the broadcast remains in the outgoing queue until the entire broadcast has been completed, and you can retrieve the value for the <b>IFaxOutgoingJob::get_TransmissionEnd</b> property.
+The property is not valid as long as the fax is still being sent by the fax device. It will have a value only after the transmission has ended. In the case of an individual fax, once the transmission has ended, the fax will be moved to the outgoing archive, and you will not be able to retrieve this value. You can instead retrieve the value of the <a href="https://msdn.microsoft.com/en-us/library/ms686162(v=VS.85).aspx">TransmissionEnd</a> property. In the case of a broadcast, each fax of the broadcast remains in the outgoing queue until the entire broadcast has been completed, and you can retrieve the value for the <b>IFaxOutgoingJob::get_TransmissionEnd</b> property.
 
 In the case of a failed fax, this property will be assigned a value of zero. If you try to retrieve the property for a failed fax, you will receive an error.
 
@@ -76,15 +74,15 @@ In the case of a failed fax, this property will be assigned a value of zero. If 
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

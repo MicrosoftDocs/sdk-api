@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_draw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 32601c9d-0f76-a5ab-559a-a11064280174, Draw, Draw method [Direct3D 10], Draw method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],Draw method, ID3D10Device.Draw, ID3D10Device::Draw, d3d10/ID3D10Device::Draw, direct3d10.id3d10device_draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ Draw non-indexed, non-instanced primitives.
 
 ### -param VertexCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of vertices to draw.
 
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index of the first vertex, which is usually an offset in a vertex buffer; it could also be used as the first vertex id generated for a shader parameter marked with the <b>SV_TargetId</b> <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">system-value semantic</a>.
 

@@ -9,8 +9,6 @@ ms.assetid: e6bb0206-04c4-4d93-b267-2881e58c0a14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Zoom method, ICameraControl.put_Zoom, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Zoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,12 +59,12 @@ The <code>put_Zoom</code> method sets the camera's zoom level.
 
 ### -param Value [in]
 
-Specifies the zoom level. The units for this setting are not defined. For information about calculating magnification from zoom level, see <a href="https://msdn.microsoft.com/de566705-1f4b-4ffa-932d-a52521e6963b">ICameraControl::get_FocalLengths</a>.
+Specifies the zoom level. The units for this setting are not defined. For information about calculating magnification from zoom level, see <a href="https://msdn.microsoft.com/en-us/library/Dd376315(v=VS.85).aspx">ICameraControl::get_FocalLengths</a>.
 
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -87,7 +85,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

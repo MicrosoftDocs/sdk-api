@@ -9,8 +9,6 @@ ms.assetid: 40BCD422-7545-4CB9-9C8E-2F0D2B4E6C51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTurbulenceEffect, CreateTurbulenceEffect method [DirectComposition], CreateTurbulenceEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateTurbulenceEffect method, IDCompositionDevice3.CreateTurbulenceEffect, IDCompositionDevice3::CreateTurbulenceEffect, dcomp/IDCompositionDevice3::CreateTurbulenceEffect, directcomp.idcompositiondevice3_createturbulenceeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>.
         
 
 
@@ -61,9 +59,9 @@ Creates an instance of <a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF
 
 ### -param turbulenceEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>**</b>
 
-Receives the created instance of <a href="https://msdn.microsoft.com/6A0100DE-DB63-475C-BF7D-3B2D436704A5">IDCompositionTurbulenceEffect</a>.
+Receives the created instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919801(v=VS.85).aspx">IDCompositionTurbulenceEffect</a>.
           
 
 
@@ -71,7 +69,7 @@ Receives the created instance of <a href="https://msdn.microsoft.com/6A0100DE-DB
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -83,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5da076dc-360d-0b28-f131-8669d1a91dd6">IDCompositionDevice3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904488(v=VS.85).aspx">IDCompositionDevice3</a>
  
 
  

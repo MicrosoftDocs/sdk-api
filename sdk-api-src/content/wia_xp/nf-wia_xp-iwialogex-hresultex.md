@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\hresultex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaLogEx interface [WIA],hResultEx method, IWiaLogEx.hResultEx, IWiaLogEx::hResultEx, _wia_IWiaLogEx_hResultEx, hResultEx, hResultEx method [WIA], hResultEx method [WIA],IWiaLogEx interface, wia._wia_IWiaLogEx_hResultEx, wia_xp/IWiaLogEx::hResultEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetKeystroke(DWORD,DWORD,PXI
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XInputGetKeystroke, XInputGetKeystroke function [XInput Game Controller APIs], xinput.xinputgetkeystroke, xinput/XInputGetKeystroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xinput.h
 req.include-header: 

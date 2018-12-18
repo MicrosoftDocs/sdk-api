@@ -9,8 +9,6 @@ ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

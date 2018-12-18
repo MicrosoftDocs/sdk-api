@@ -9,8 +9,6 @@ ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC], GetSOM method [GPMC],GPMDomain class, GetSOM method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetSOM method, IGPMDomain.GetSOM, IGPMDomain::GetSOM, _win32_igpmdomain_getsom, gpmc.igpmdomain_getsom, gpmgmt/IGPMDomain::GetSOM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

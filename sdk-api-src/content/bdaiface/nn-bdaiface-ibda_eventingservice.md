@@ -9,8 +9,6 @@ ms.assetid: 45ef0b45-92d0-47c1-9334-d0df74a43d28
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_EventingService, IBDA_EventingService interface [Microsoft TV Technologies], IBDA_EventingService interface [Microsoft TV Technologies],described, bdaiface/IBDA_EventingService, mstv.ibda_eventingservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +53,9 @@ Provides access to a device's Eventing Service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EventingService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_EventingService</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

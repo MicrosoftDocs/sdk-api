@@ -9,8 +9,6 @@ ms.assetid: 569204FF-97F5-4FE2-9885-94C88AB5A6FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 
@@ -79,8 +77,8 @@ A value that uniquely identifies a particular invocation of a callback. The prov
 
 
 <ul>
-<li>In calls to <a href="https://msdn.microsoft.com/9A47FAB5-A085-41C9-861C-E74F2F5AF474">PrjCompleteCommand</a> to signal completion of a callback from which it earlier returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).</li>
-<li>When ProjFS sends a <a href="https://msdn.microsoft.com/8C646A8C-7C55-4F54-965A-04ACAC64C65D">PRJ_CANCEL_COMMAND_CB</a> callback. The commandId in the <i>PRJ_CANCEL_COMMAND_CB</i> call identifies an earlier invocation of a callback that the provider should cancel.</li>
+<li>In calls to <a href="https://msdn.microsoft.com/en-us/library/Mt815598(v=VS.85).aspx">PrjCompleteCommand</a> to signal completion of a callback from which it earlier returned HRESULT_FROM_WIN32(ERROR_IO_PENDING).</li>
+<li>When ProjFS sends a <a href="https://msdn.microsoft.com/en-us/library/Mt815615(v=VS.85).aspx">PRJ_CANCEL_COMMAND_CB</a> callback. The commandId in the <i>PRJ_CANCEL_COMMAND_CB</i> call identifies an earlier invocation of a callback that the provider should cancel.</li>
 </ul>
 
 ### -field FileId
@@ -106,7 +104,7 @@ Version information if the target of the callback is a placeholder or partial fi
 ### -field TriggeringProcessId
 
 The process identifier for the process that triggered this callback. If this information is not available, this will be 0. Callbacks that supply this information include: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_placeholder_info_cb">PRJ_GET_PLACEHOLDER_INFO_CB</a>, 
-<a href="https://msdn.microsoft.com/8F3EEC96-70C2-40ED-BDF3-B6E979EF1F7E">PRJ_GET_FILE_DATA_CB</a>, and 
+<a href="https://msdn.microsoft.com/en-us/library/Mt815622(v=VS.85).aspx">PRJ_GET_FILE_DATA_CB</a>, and 
 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_notification_cb">PRJ_NOTIFICATION_CB</a>.
 
 

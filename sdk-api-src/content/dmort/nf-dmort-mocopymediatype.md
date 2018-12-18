@@ -9,8 +9,6 @@ ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MoCopyMediaType, MoCopyMediaType function [DirectShow], dmort/MoCopyMediaType, dshow.mocopymediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h
@@ -62,12 +60,12 @@ The <b>MoCopyMediaType</b> function copies the members of one media type structu
 
 ### -param pmtDest
 
-Pointer to the target <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure. The caller must allocate, but not initialize, this structure.
+Pointer to the target <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure. The caller must allocate, but not initialize, this structure.
 
 
 ### -param pmtSrc
 
-Pointer to the source <a href="https://msdn.microsoft.com/c545ddf7-9797-45ab-a42a-d8550b598e98">DMO_MEDIA_TYPE</a> structure.
+Pointer to the source <a href="https://msdn.microsoft.com/en-us/library/Dd375504(v=VS.85).aspx">DMO_MEDIA_TYPE</a> structure.
 
 
 ## -returns
@@ -126,7 +124,7 @@ Success
 
 
 
-This function copies all the members of <i>pmtSrc</i> to <i>pmtDest</i> and copies the format block. The caller must free the target media type by calling the <a href="https://msdn.microsoft.com/a1f0949d-a590-4759-87b5-f47307bc3ec0">MoFreeMediaType</a> function.
+This function copies all the members of <i>pmtSrc</i> to <i>pmtDest</i> and copies the format block. The caller must free the target media type by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390698(v=VS.85).aspx">MoFreeMediaType</a> function.
 
 
 

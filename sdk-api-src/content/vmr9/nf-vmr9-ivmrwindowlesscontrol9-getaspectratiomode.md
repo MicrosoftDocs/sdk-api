@@ -9,8 +9,6 @@ ms.assetid: c18ab567-5e0d-400a-8dc1-e9ad83650b7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetAspectRatioMode method, IVMRWindowlessControl9.GetAspectRatioMode, IVMRWindowlessControl9::GetAspectRatioMode, IVMRWindowlessControl9GetAspectRatioMode, dshow.ivmrwindowlesscontrol9_getaspectratiomode, vmr9/IVMRWindowlessControl9::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>GetAspectRatioMode</code> method retrieves the current aspect ratio di
 
 ### -param lpAspectRatioMode [out]
 
-Pointer to a DWORD that receives a <a href="https://msdn.microsoft.com/745e7aad-a598-4be6-b28b-bb5969ef0c77">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
+Pointer to a DWORD that receives a <a href="https://msdn.microsoft.com/en-us/library/Dd407361(v=VS.85).aspx">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
 
 
 ## -returns
@@ -120,11 +118,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ba46490-0a82-495f-8742-d7a8efa95332">SetAspectRatioMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">SetAspectRatioMode</a>
 
 
 

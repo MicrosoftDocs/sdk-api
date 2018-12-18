@@ -9,8 +9,6 @@ ms.assetid: 6343c6cc-f2f3-4776-a747-7a5b5cebef5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvCompletePDEV, DrvCompletePDEV function [Display Devices], ddifncs_7d8109c8-3f74-4ae2-99d3-e2d18ff4cc32.xml, display.drvcompletepdev, winddi/DrvCompletePDEV
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,6 @@ ms.assetid: 0B526BDA-CDFA-DDE0-48DC-597D40F1BBB7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawElementProviderSimple2, IRawElementProviderSimple2 interface [Windows Accessibility], IRawElementProviderSimple2 interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderSimple2, winauto.uiauto_IRawElementProviderSimple2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

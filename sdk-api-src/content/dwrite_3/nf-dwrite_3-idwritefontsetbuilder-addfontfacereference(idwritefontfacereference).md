@@ -9,8 +9,6 @@ ms.assetid: 0E67F5EF-F8BB-47D9-995D-40879351DC17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFontFaceReference, AddFontFaceReference method [Direct Write], AddFontFaceReference method [Direct Write],IDWriteFontSetBuilder interface, IDWriteFontSetBuilder interface [Direct Write],AddFontFaceReference method, IDWriteFontSetBuilder.AddFontFaceReference, IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference), IDWriteFontSetBuilder::AddFontFaceReference, IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference), directwrite.idwritefontsetbuilder_addfontfacereference_1, dwrite_3/IDWriteFontSetBuilder::AddFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Adds a reference to a font to the set being built. The necessary metadata will a
 
 ### -param fontFaceReference [in]
 
-Type: <b><a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>*</b>
 
 Font face reference object to add to the set.
 
@@ -69,7 +67,7 @@ Font face reference object to add to the set.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CC6C95CA-BA8B-47C4-A241-650EC8477192">IDWriteFontSetBuilder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx">IDWriteFontSetBuilder</a>
  
 
  

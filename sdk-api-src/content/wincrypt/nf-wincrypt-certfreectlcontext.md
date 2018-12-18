@@ -9,8 +9,6 @@ ms.assetid: 84b1aa0c-44d9-4a2f-861c-fa7d8caac192
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

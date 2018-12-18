@@ -9,8 +9,6 @@ ms.assetid: d4511c2c-54b3-48f5-aa30-e198292a4728
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: joystickapi.h
 req.include-header: Windows.h

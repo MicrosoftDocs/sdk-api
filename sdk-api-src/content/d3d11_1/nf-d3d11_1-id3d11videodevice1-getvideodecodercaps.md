@@ -9,8 +9,6 @@ ms.assetid: 9F978BE5-568E-440C-B9B2-0972893FD970
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoDecoderCaps, GetVideoDecoderCaps method [Media Foundation], GetVideoDecoderCaps method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetVideoDecoderCaps method, ID3D11VideoDevice1.GetVideoDecoderCaps, ID3D11VideoDevice1::GetVideoDecoderCaps, d3d11_1/ID3D11VideoDevice1::GetVideoDecoderCaps, mf.id3d11videodevice1_getvideodecodercaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 
@@ -104,7 +102,7 @@ The type of cryptography used to encrypt the video stream. A value of NULL indic
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dn894120(v=VS.85).aspx">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
+A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/8E3C86A4-5F73-4E6F-8F93-5564EA0BC113">D3D11_VIDEO_DECODER_CAPS</a> values specifying the decoder capabilities.
 
 
 
@@ -137,7 +135,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894141(v=VS.85).aspx">ID3D11VideoDevice1</a>
+<a href="https://msdn.microsoft.com/10E68945-6103-491D-8846-3B7C880FEAFD">ID3D11VideoDevice1</a>
  
 
  

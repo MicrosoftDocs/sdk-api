@@ -9,8 +9,6 @@ ms.assetid: 66f051a1-eb45-43c1-bf09-4be6ca2a1c7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetKeyState method, IExecuteCommand.SetKeyState, IExecuteCommand::SetKeyState, MK_CONTROL, MK_SHIFT, SetKeyState, SetKeyState method [Windows Shell], SetKeyState method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetKeyState, shell.IExecuteCommand_SetKeyState, shobjidl_core/IExecuteCommand::SetKeyState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 39B6D8ED-25B2-4542-8994-FD607E60E19A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSprites, GetSprites method [Direct2D], GetSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSprites method, ID2D1SpriteBatch.GetSprites, ID2D1SpriteBatch::GetSprites, d2d1_3/ID2D1SpriteBatch::GetSprites, direct2d.id2d1spritebatch_getsprites
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -116,7 +114,7 @@ The identity matrix is returned for any sprites that were not assigned a transfo
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

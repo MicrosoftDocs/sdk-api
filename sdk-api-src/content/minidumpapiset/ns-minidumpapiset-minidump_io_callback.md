@@ -1,0 +1,92 @@
+---
+UID: NS:minidumpapiset._MINIDUMP_IO_CALLBACK
+title: MINIDUMP_IO_CALLBACK
+author: windows-sdk-content
+description: Contains I/O callback information.
+old-location: base\minidump_io_callback.htm
+tech.root: debug
+ms.assetid: db38f035-1fb8-4715-846f-59392aac2d4e
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PMINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK, MINIDUMP_IO_CALLBACK structure, PMINIDUMP_IO_CALLBACK, PMINIDUMP_IO_CALLBACK structure pointer, _MINIDUMP_IO_CALLBACK, base.minidump_io_callback, minidumpapiset/MINIDUMP_IO_CALLBACK, minidumpapiset/PMINIDUMP_IO_CALLBACK"
+ms.topic: struct
+req.header: minidumpapiset.h
+req.include-header: Dbghelp.h
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minidumpapiset.h
+api_name:
+ - MINIDUMP_IO_CALLBACK
+product: Windows
+targetos: Windows
+req.typenames: MINIDUMP_IO_CALLBACK, *PMINIDUMP_IO_CALLBACK
+req.redist: DbgHelp.dll 6.5 or later
+---
+
+# MINIDUMP_IO_CALLBACK structure
+
+
+## -description
+
+
+Contains I/O callback information. This structure is used by the <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>function when the callback type is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>.
+
+
+## -struct-fields
+
+
+
+
+### -field Handle
+
+The file handle passed to the <a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function.
+
+
+### -field Offset
+
+The offset for the write operation from the start of the minidump data. This member is used only with <b>IoWriteAllCallback</b>.
+
+
+### -field Buffer
+
+A pointer to a buffer that contains the data to be written. This member is used only with <b>IoWriteAllCallback</b>.
+
+
+### -field BufferBytes
+
+The size of the data buffer, in bytes. This member is used only with <b>IoWriteAllCallback</b>.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0ce3083c-21c9-48a4-9099-1dab31afcafa">MINIDUMP_CALLBACK_INPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+ 
+
+ 
+

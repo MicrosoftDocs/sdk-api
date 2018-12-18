@@ -7,10 +7,8 @@ old-location: p2p\peerfreedata.htm
 tech.root: P2PSdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerFreeData, PeerFreeData function [Peer Networking], p2p.peerfreedata, p2p/PeerFreeData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

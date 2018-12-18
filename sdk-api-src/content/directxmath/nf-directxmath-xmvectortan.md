@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTan(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorTan, XMVectorTan, XMVectorTan method [DirectX Math Support APIs], dxmath.xmvectortan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -91,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/d7be9a5e-b1d4-4c45-890f-bc9cce44db03">XMVectorTanEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421362(v=VS.85).aspx">XMVectorTanEst</a>
  
 
  

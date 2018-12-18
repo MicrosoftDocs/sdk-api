@@ -9,8 +9,6 @@ ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster], ResUtilGetExpandSzValue, ResUtilGetExpandSzValue function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE, resapi/ResUtilGetExpandSzValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
     section. Support for this method was removed in Windows Server 2003. This function is not exported 
     from ResUtils.dll and programs or DLLs that statically link to it will not load.]
 
-Returns a <a href="e_gly.htm">expandable string</a> value from the 
+Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa369570(v=VS.85).aspx">expandable string</a> value from the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
 
 

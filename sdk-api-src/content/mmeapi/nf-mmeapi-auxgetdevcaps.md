@@ -9,8 +9,6 @@ ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

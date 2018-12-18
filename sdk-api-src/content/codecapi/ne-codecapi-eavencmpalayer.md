@@ -9,8 +9,6 @@ ms.assetid: dbe5c4ac-15c8-443b-a344-a9d529ed841f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEncMPALayer_2, codecapi/eAVEncMPALayer_3, dshow.eavencmpalayer, eAVEncMPALayer, eAVEncMPALayer enumeration [DirectShow], eAVEncMPALayerEnumeration, eAVEncMPALayer_1, eAVEncMPALayer_2, eAVEncMPALayer_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -85,7 +83,7 @@ MPEG Audio Layer-3.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

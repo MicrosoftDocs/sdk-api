@@ -9,8 +9,6 @@ ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

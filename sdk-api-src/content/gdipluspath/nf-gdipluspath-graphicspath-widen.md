@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPath class [GDI+],Widen method, GraphicsPath.Widen, GraphicsPath::Widen, Widen, Widen method [GDI+], Widen method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Widen_pen_matrix_flatness_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

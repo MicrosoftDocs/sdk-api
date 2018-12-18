@@ -9,8 +9,6 @@ ms.assetid: ee458ab8-38f1-43ec-a9b4-a2c31f80fce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy.put_EndPort, IWdsTransportServicePolicy::EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, put_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

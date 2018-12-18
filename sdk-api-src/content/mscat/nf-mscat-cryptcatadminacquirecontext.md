@@ -9,8 +9,6 @@ ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

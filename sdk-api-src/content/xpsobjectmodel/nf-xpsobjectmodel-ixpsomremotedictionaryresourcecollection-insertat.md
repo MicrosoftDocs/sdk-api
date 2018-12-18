@@ -9,8 +9,6 @@ ms.assetid: 22abb514-6574-4d7e-8ea5-2b0956b4e8a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMRemoteDictionaryResourceCollection.InsertAt, IXpsOMRemoteDictionaryResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, xps.ixpsomremotedictionaryresourcecollection_insertat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

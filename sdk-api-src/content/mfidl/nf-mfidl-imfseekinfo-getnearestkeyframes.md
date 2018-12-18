@@ -9,8 +9,6 @@ ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

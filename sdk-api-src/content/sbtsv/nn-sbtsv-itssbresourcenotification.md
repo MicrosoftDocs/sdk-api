@@ -4,13 +4,11 @@ title: ITsSbResourceNotification
 author: windows-sdk-content
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects.
 old-location: termserv\itssbresourcenotification.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 70785b82-239d-4957-9703-ced685a2e0b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITsSbResourceNotification, ITsSbResourceNotification interface [Remote Desktop Services], ITsSbResourceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbResourceNotification, termserv.itssbresourcenotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

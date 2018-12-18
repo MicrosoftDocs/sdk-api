@@ -9,8 +9,6 @@ ms.assetid: 1a8e51e2-5d19-423d-acd2-8f1c0a143cf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Discontinuity, Discontinuity method [DirectShow], Discontinuity method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],Discontinuity method, IMediaObject.Discontinuity, IMediaObject::Discontinuity, IMediaObjectDiscontinuity, dshow.imediaobject_discontinuity, mediaobj/IMediaObject::Discontinuity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -132,7 +130,7 @@ Success
 
 
 
-A discontinuity represents a break in the input. A discontinuity might occur because no more data is expected, the format is changing, or there is a gap in the data. After a discontinuity, the DMO does not accept further input on that stream until all pending data has been processed. The application should call the <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a> method until none of the streams returns the DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE flag.
+A discontinuity represents a break in the input. A discontinuity might occur because no more data is expected, the format is changing, or there is a gap in the data. After a discontinuity, the DMO does not accept further input on that stream until all pending data has been processed. The application should call the <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a> method until none of the streams returns the DMO_OUTPUT_DATA_BUFFERF_INCOMPLETE flag.
 
 This method might fail if it is called before the client sets the input and output types on the DMO.
 
@@ -144,7 +142,7 @@ This method might fail if it is called before the client sets the input and outp
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

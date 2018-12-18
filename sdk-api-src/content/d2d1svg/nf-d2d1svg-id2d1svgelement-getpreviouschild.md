@@ -9,8 +9,6 @@ ms.assetid: CE4334D8-7A96-464A-BE57-A7B226221FC3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPreviousChild, GetPreviousChild method [Direct2D], GetPreviousChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetPreviousChild method, ID2D1SvgElement.GetPreviousChild, ID2D1SvgElement::GetPreviousChild, d2d1svg/ID2D1SvgElement::GetPreviousChild, direct2d.id2d1svgelement_getpreviouschild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -76,7 +74,7 @@ The output previousChild element will be non-null if the referenceChild has a pr
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

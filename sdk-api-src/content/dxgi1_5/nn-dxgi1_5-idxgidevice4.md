@@ -9,8 +9,6 @@ ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface [DXGI],described, direct3ddxgi.idxgidevice4, dxgi1_5/IDXGIDevice4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

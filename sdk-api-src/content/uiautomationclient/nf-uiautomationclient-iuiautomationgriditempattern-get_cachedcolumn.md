@@ -9,8 +9,6 @@ ms.assetid: bc2ac0da-f41c-42c3-aff9-92bc0c5c9d64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedColumn property [Windows Accessibility], CachedColumn property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedColumn property, IUIAutomationGridItemPattern.CachedColumn, IUIAutomationGridItemPattern.get_CachedColumn, IUIAutomationGridItemPattern::CachedColumn, IUIAutomationGridItemPattern::get_CachedColumn, get_CachedColumn, uiauto.uiauto_IUIAutomationGridItemPattern_CachedColumn, uiauto_IUIAutomationGridItemPattern_CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::CachedColumn, uiautomationclient/IUIAutomationGridItemPattern::get_CachedColumn, winauto.uiauto_IUIAutomationGridItemPattern_CachedColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

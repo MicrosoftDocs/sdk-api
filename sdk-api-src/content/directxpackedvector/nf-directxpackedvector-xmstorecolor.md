@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreColor(XMCOLOR@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DirectX::PackedVector.XMStoreColor, XMStoreColor, XMStoreColor method [DirectX Math Support APIs], dxmath.xmstorecolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

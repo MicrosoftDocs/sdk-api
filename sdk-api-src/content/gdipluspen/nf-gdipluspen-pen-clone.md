@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

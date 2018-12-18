@@ -9,8 +9,6 @@ ms.assetid: D226EB4B-40F5-485D-9D58-642B6AE7B482
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Class_Property_Keys, CM_Get_Class_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys, devinst.cm_get_class_property_keys
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

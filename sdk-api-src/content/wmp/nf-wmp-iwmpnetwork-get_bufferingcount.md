@@ -9,8 +9,6 @@ ms.assetid: 9ba9be8d-9b2b-4620-8572-317555d51bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingCount method, IWMPNetwork.get_bufferingCount, IWMPNetwork::get_bufferingCount, IWMPNetworkget_bufferingCount, get_bufferingCount, get_bufferingCount method [Windows Media Player], get_bufferingCount method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingcount, wmp/IWMPNetwork::get_bufferingCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ Buffering only applies to streaming content. This method retrieves valid informa
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

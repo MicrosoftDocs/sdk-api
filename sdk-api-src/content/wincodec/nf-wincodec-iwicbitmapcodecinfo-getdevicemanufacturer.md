@@ -9,8 +9,6 @@ ms.assetid: a69e8195-5dc1-4a25-ab3c-9ea0cb3de074
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Imaging Component], GetDeviceManufacturer method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetDeviceManufacturer method, IWICBitmapCodecInfo.GetDeviceManufacturer, IWICBitmapCodecInfo::GetDeviceManufacturer, _wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wic._wic_codec_iwicbitmapcodecinfo_getdevicemanufacturer, wincodec/IWICBitmapCodecInfo::GetDeviceManufacturer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

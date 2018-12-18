@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_904l.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxFolders interface [Fax Service],IncomingArchive property, IFaxFolders.IncomingArchive, IFaxFolders.get_IncomingArchive, IFaxFolders::IncomingArchive, IFaxFolders::get_IncomingArchive, IncomingArchive property [Fax Service], IncomingArchive property [Fax Service],IFaxFolders interface, _mfax_faxfolders.incomingarchive, fax._mfax_faxfolders_cpp_mfax_faxfolders_incomingarchive_cpp, fax._mfax_faxfolders_incomingarchive, faxcomex/IFaxFolders::IncomingArchive, faxcomex/IFaxFolders::get_IncomingArchive, get_IncomingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/283c75e3-e596-403c-b4ea-b62bf0c744f3">FaxFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684837(v=VS.85).aspx">FaxFolders</a>
 
 
 
-<a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

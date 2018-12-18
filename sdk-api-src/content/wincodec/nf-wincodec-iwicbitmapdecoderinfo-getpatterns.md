@@ -9,8 +9,6 @@ ms.assetid: 6143a431-cea6-4ced-adf5-2aa4d90d622f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],GetPatterns method, IWICBitmapDecoderInfo.GetPatterns, IWICBitmapDecoderInfo::GetPatterns, _wic_codec_iwicbitmapdecoderinfo_getpatterns, wic._wic_codec_iwicbitmapdecoderinfo_getpatterns, wincodec/IWICBitmapDecoderInfo::GetPatterns
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

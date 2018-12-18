@@ -9,8 +9,6 @@ ms.assetid: 0e51a9be-afd4-430b-8339-f45e8f9a7d20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPropertyVault, IWMPropertyVault interface [windows Media Format], IWMPropertyVault interface [windows Media Format],described, IWMPropertyVaultInterface, wmformat.iwmpropertyvault, wmsdkidl/IWMPropertyVault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMPropertyVault</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/567d69f3-cebf-4bb7-84df-c843cfc928a5">Clear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757417(v=VS.85).aspx">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the property vault.
@@ -84,7 +82,7 @@ Removes all items from the property vault.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34708ff4-a416-4f2a-abeb-18b9c24c4e7c">CopyPropertiesFrom</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757418(v=VS.85).aspx">CopyPropertiesFrom</a>
 </td>
 <td align="left" width="63%">
 Copies all of the properties from another property vault.
@@ -102,7 +100,7 @@ Retrieves a property from the vault by its index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65740366-ac0a-4d18-9f61-a79670998e6a">GetPropertyByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757420(v=VS.85).aspx">GetPropertyByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property from the vault by its name.
@@ -111,7 +109,7 @@ Retrieves a property from the vault by its name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2045183d-8683-416f-bda0-87c5fecf8c11">GetPropertyCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757421(v=VS.85).aspx">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of properties in the vault.
@@ -120,7 +118,7 @@ Retrieves the total number of properties in the vault.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0fae0ecf-efa9-46d0-8324-4065f351291e">SetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757422(v=VS.85).aspx">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the vault, or changes the value of an existing property.
@@ -137,31 +135,31 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
 </td>
 <td>IID_IWMMediaProps</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a>
 </td>
 <td>IID_IWMStreamConfig</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2</a>
 </td>
 <td>IID_IWMStreamConfig2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3</a>
 </td>
 <td>IID_IWMStreamConfig3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps</a> (on video streams only)</td>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps</a> (on video streams only)</td>
 <td>IID_IWMVideoMediaProps</td>
 </tr>
 </table> 

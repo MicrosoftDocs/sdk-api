@@ -9,8 +9,6 @@ ms.assetid: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC],InkInsertMode property, IInkEdit.InkInsertMode, IInkEdit.get_InkInsertMode, IInkEdit::InkInsertMode, IInkEdit::get_InkInsertMode, IInkEdit::put_InkInsertMode, InkEdit.get_InkInsertMode, InkEdit.put_InkInsertMode, InkInsertMode property [Tablet PC], InkInsertMode property [Tablet PC],IInkEdit interface, InsertAsInk, InsertAsText, get_InkInsertMode, inked/IInkEdit::InkInsertMode, inked/IInkEdit::get_InkInsertMode, inked/IInkEdit::put_InkInsertMode, put_InkInsertMode, tablet.inkedit_inkinsertmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -71,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

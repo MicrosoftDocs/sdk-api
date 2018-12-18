@@ -9,8 +9,6 @@ ms.assetid: 35eef4e5-fcd9-4017-9d15-d8d418e063e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Template property, IX509CertificateTemplateWritable.Template, IX509CertificateTemplateWritable.get_Template, IX509CertificateTemplateWritable::Template, IX509CertificateTemplateWritable::get_Template, Template property [Security], Template property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Template, certenroll/IX509CertificateTemplateWritable::get_Template, get_Template, security.ix509certificatetemplatewritable_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>Template</b> property retrieves a copy of the <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that was used to initialize this <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> instance.
+The <b>Template</b> property retrieves a copy of the <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object that was used to initialize this <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> instance.
 
 This property is read-only.
 
@@ -73,7 +71,7 @@ You must call the COM <b>Release</b> method to free the interface pointer when y
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a>
+<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
  
 
  

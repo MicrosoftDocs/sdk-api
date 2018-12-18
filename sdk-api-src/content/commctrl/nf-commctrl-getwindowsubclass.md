@@ -9,8 +9,6 @@ ms.assetid: 3969f18e-3e12-4770-8596-2c2c6519c2a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowSubclass, GetWindowSubclass function [Windows Shell], commctrl/GetWindowSubclass, inet_GetWindowSubclass, shell.GetWindowSubclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -139,15 +137,15 @@ To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776403(v=VS.85).aspx">DefSubclassProc</a>
+<a href="https://msdn.microsoft.com/43b1efa5-11da-4a95-8d81-b0d8ae64733a">DefSubclassProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762094(v=VS.85).aspx">RemoveWindowSubclass</a>
+<a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762102(v=VS.85).aspx">SetWindowSubclass</a>
+<a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a>
  
 
  

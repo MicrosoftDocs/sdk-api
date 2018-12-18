@@ -9,8 +9,6 @@ ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Opens a connection to a <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a> and returns a handle 
+Opens a connection to a <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a> and returns a handle 
     to it.
 
 
@@ -130,7 +128,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371731(v=VS.85).aspx">Failover Cluster Network Management Functions</a>
+<a href="https://msdn.microsoft.com/7908db54-f432-4aee-aaf4-91f763ffa3a0">Failover Cluster Network Management Functions</a>
 
 
 

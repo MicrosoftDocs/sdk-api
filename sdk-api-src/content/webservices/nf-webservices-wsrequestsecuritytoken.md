@@ -9,8 +9,6 @@ ms.assetid: ee754a7d-73a9-49ae-afc7-b443fbbe0cce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Services for Windows], webservices/WsRequestSecurityToken, wsw.wsrequestsecuritytoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -75,7 +73,7 @@ responsible for <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae
 this function.
                 
 
-Thus, the channel must be in state <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
+Thus, the channel must be in state <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
 function, the channel will be in state <b>WS_CHANNEL_STATE_OPEN</b>.  After a failed completion, it will
 either be in state <b>WS_CHANNEL_STATE_OPEN</b> or state <b>WS_CHANNEL_STATE_FAULTED</b>.
                 

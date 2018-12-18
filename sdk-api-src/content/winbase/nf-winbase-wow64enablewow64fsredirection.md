@@ -9,8 +9,6 @@ ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 7aeaf549-3c60-4dd8-9e46-6bab357f4960
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player],described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>IWMPStringCollection2</b> interface provides methods that supplement the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPStringCollection2</b> interface inherits from <a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection</a>. <b>IWMPStringCollection2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPStringCollection2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection</a>. <b>IWMPStringCollection2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMPStringCollection2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62e31749-2640-4b65-a8ee-47f3d3dd5485">getAttributeCountByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563688(v=VS.85).aspx">getAttributeCountByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes associated with the specified string collection item index, attribute name, and language.
@@ -82,7 +80,7 @@ Retrieves the number of attributes associated with the specified string collecti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1915d71f-aca3-4943-a4da-ed8f2fa3f46d">getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563689(v=VS.85).aspx">getItemInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string corresponding to the specified string collection item index and name.
@@ -91,7 +89,7 @@ Retrieves the string corresponding to the specified string collection item index
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff395caf-9b5a-41e0-94c6-4a5eb96281ca">getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563691(v=VS.85).aspx">getItemInfoByType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value corresponding to the specified string collection item index, name, language, and attribute index.
@@ -100,7 +98,7 @@ Retrieves the value corresponding to the specified string collection item index,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/549fdee8-7cd4-4ceb-8ed1-0de467d6c348">isIdentical</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563692(v=VS.85).aspx">isIdentical</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the supplied object is the same as the current one.
@@ -115,7 +113,7 @@ Retrieves a value indicating whether the supplied object is the same as the curr
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
 
 
 

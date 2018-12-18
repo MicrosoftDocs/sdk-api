@@ -9,8 +9,6 @@ ms.assetid: cb1bcfc1-dbaa-48f8-8547-408f6560753e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLSID, Executable name, File name extension, IQueryAssociations interface [Windows Shell],Init method, IQueryAssociations.Init, IQueryAssociations::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IQueryAssociations interface, ProgID, _win32_IQueryAssociations_Init, shell.IQueryAssociations_Init, shlwapi/IQueryAssociations::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlwapi.h
 req.include-header: 

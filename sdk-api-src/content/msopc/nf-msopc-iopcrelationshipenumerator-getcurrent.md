@@ -7,10 +7,8 @@ old-location: opc\iopcrelationshipenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 6ddd7a5f-659d-45e1-aff8-dee799efd8ac
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcRelationshipEnumerator.GetCurrent, IOpcRelationshipEnumerator::GetCurrent, msopc/IOpcRelationshipEnumerator::GetCurrent, opc.iopcrelationshipenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

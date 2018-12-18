@@ -9,8 +9,6 @@ ms.assetid: 29d53a14-0509-4a96-9b8b-59952770559a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetadataByName, GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetMetadataByName method, IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 642fe793-974f-48e5-90a2-de6ba7a5b033
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IObjectWithBackReferences interface [Windows Shell],RemoveBackReferences method, IObjectWithBackReferences.RemoveBackReferences, IObjectWithBackReferences::RemoveBackReferences, RemoveBackReferences, RemoveBackReferences method [Windows Shell], RemoveBackReferences method [Windows Shell],IObjectWithBackReferences interface, _shell_IObjectWithBackReferences_RemoveBackReferences, shell.IObjectWithBackReferences_RemoveBackReferences, shobjidl_core/IObjectWithBackReferences::RemoveBackReferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

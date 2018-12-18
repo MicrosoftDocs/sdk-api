@@ -9,8 +9,6 @@ ms.assetid: f4286901-92b2-4707-9da7-bb7abf83bb87
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSingleArray, GetSingleArray method [Windows Runtime], GetSingleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingleArray method, IPropertyValue.GetSingleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetSingleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingleArray, winrt.ipropertyvalue_getsinglearray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 
 ## -parameters

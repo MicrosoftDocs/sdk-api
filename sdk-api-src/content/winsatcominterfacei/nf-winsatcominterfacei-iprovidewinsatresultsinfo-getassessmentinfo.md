@@ -9,8 +9,6 @@ ms.assetid: dfa4d740-2dfd-41b5-a0be-a241f9ece939
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAssessmentInfo, GetAssessmentInfo method [WinSAT], GetAssessmentInfo method [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],GetAssessmentInfo method, IProvideWinSATResultsInfo.GetAssessmentInfo, IProvideWinSATResultsInfo::GetAssessmentInfo, winsat.iprovidewinsatresultsinfo_getassessmentinfo, winsatcominterfacei/IProvideWinSATResultsInfo::GetAssessmentInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

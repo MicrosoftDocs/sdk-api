@@ -9,8 +9,6 @@ ms.assetid: f62d3405-3125-4df6-bd06-fa70358560ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSyncTolerance, GetSyncTolerance method [windows Media Format], GetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSyncTolerance method, IWMWriterAdvanced.GetSyncTolerance, IWMWriterAdvanced::GetSyncTolerance, IWMWriterAdvancedGetSyncTolerance, wmformat.iwmwriteradvanced_getsynctolerance, wmsdkidl/IWMWriterAdvanced::GetSyncTolerance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,11 +120,11 @@ The default tolerance is 3000 milliseconds.
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d60020bf-52f1-46a0-aeae-367e3b179fac">IWMWriterAdvanced::SetSyncTolerance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798739(v=VS.85).aspx">IWMWriterAdvanced::SetSyncTolerance</a>
  
 
  

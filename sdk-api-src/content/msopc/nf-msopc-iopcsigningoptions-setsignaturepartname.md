@@ -7,10 +7,8 @@ old-location: opc\iopcsigningoptions_setsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 36d69a11-bfc3-4f0a-a681-4e138751990d
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignaturePartName method, IOpcSigningOptions.SetSignaturePartName, IOpcSigningOptions::SetSignaturePartName, SetSignaturePartName, SetSignaturePartName method [Open Packaging Conventions], SetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignaturePartName, opc.iopcsigningoptions_setsignaturepartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

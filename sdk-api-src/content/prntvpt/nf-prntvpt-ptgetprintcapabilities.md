@@ -9,8 +9,6 @@ ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

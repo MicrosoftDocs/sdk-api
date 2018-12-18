@@ -9,8 +9,6 @@ ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginResourceControl, BeginResourceControl callback, BeginResourceControl callback function [Failover Cluster], PBEGIN_RESCALL_ROUTINE, PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrol, resapi/BeginResourceControl, resapi/PBEGIN_RESCALL_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

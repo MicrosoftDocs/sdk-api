@@ -9,8 +9,6 @@ ms.assetid: 711e6010-2068-4c97-9009-6ecdf54797b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProductInfo, GetProductInfo function, PRODUCT_BUSINESS, PRODUCT_BUSINESS_N, PRODUCT_CLUSTER_SERVER, PRODUCT_CLUSTER_SERVER_V, PRODUCT_CORE, PRODUCT_CORE_COUNTRYSPECIFIC, PRODUCT_CORE_N, PRODUCT_CORE_SINGLELANGUAGE, PRODUCT_DATACENTER_EVALUATION_SERVER, PRODUCT_DATACENTER_SERVER, PRODUCT_DATACENTER_SERVER_CORE, PRODUCT_DATACENTER_SERVER_CORE_V, PRODUCT_DATACENTER_SERVER_V, PRODUCT_EDUCATION, PRODUCT_EDUCATION_N, PRODUCT_ENTERPRISE, PRODUCT_ENTERPRISE_E, PRODUCT_ENTERPRISE_EVALUATION, PRODUCT_ENTERPRISE_N, PRODUCT_ENTERPRISE_N_EVALUATION, PRODUCT_ENTERPRISE_S, PRODUCT_ENTERPRISE_SERVER, PRODUCT_ENTERPRISE_SERVER_CORE, PRODUCT_ENTERPRISE_SERVER_CORE_V, PRODUCT_ENTERPRISE_SERVER_IA64, PRODUCT_ENTERPRISE_SERVER_V, PRODUCT_ENTERPRISE_S_EVALUATION, PRODUCT_ENTERPRISE_S_N, PRODUCT_ENTERPRISE_S_N_EVALUATION, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDL, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDLSVC, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMT, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMTSVC, PRODUCT_HOME_BASIC, PRODUCT_HOME_BASIC_E, PRODUCT_HOME_BASIC_N, PRODUCT_HOME_PREMIUM, PRODUCT_HOME_PREMIUM_E, PRODUCT_HOME_PREMIUM_N, PRODUCT_HOME_PREMIUM_SERVER, PRODUCT_HOME_SERVER, PRODUCT_HYPERV, PRODUCT_IOTUAP, PRODUCT_IOTUAPCOMMERCIAL, PRODUCT_MEDIUMBUSINESS_SERVER_MANAGEMENT, PRODUCT_MEDIUMBUSINESS_SERVER_MESSAGING, PRODUCT_MEDIUMBUSINESS_SERVER_SECURITY, PRODUCT_MOBILE_CORE, PRODUCT_MOBILE_ENTERPRISE, PRODUCT_MULTIPOINT_PREMIUM_SERVER, PRODUCT_MULTIPOINT_STANDARD_SERVER, PRODUCT_PROFESSIONAL, PRODUCT_PROFESSIONAL_E, PRODUCT_PROFESSIONAL_N, PRODUCT_PROFESSIONAL_WMC, PRODUCT_PRO_WORKSTATION, PRODUCT_PRO_WORKSTATION_N, PRODUCT_SB_SOLUTION_SERVER, PRODUCT_SB_SOLUTION_SERVER_EM, PRODUCT_SERVER_FOR_SB_SOLUTIONS, PRODUCT_SERVER_FOR_SB_SOLUTIONS_EM, PRODUCT_SERVER_FOR_SMALLBUSINESS, PRODUCT_SERVER_FOR_SMALLBUSINESS_V, PRODUCT_SERVER_FOUNDATION, PRODUCT_SMALLBUSINESS_SERVER, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM_CORE, PRODUCT_SOLUTION_EMBEDDEDSERVER, PRODUCT_STANDARD_EVALUATION_SERVER, PRODUCT_STANDARD_SERVER, PRODUCT_STANDARD_SERVER_CORE, PRODUCT_STANDARD_SERVER_CORE_V, PRODUCT_STANDARD_SERVER_SOLUTIONS, PRODUCT_STANDARD_SERVER_SOLUTIONS_CORE, PRODUCT_STANDARD_SERVER_V, PRODUCT_STARTER, PRODUCT_STARTER_E, PRODUCT_STARTER_N, PRODUCT_STORAGE_ENTERPRISE_SERVER, PRODUCT_STORAGE_ENTERPRISE_SERVER_CORE, PRODUCT_STORAGE_EXPRESS_SERVER, PRODUCT_STORAGE_EXPRESS_SERVER_CORE, PRODUCT_STORAGE_STANDARD_EVALUATION_SERVER, PRODUCT_STORAGE_STANDARD_SERVER, PRODUCT_STORAGE_STANDARD_SERVER_CORE, PRODUCT_STORAGE_WORKGROUP_EVALUATION_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER_CORE, PRODUCT_ULTIMATE, PRODUCT_ULTIMATE_E, PRODUCT_ULTIMATE_N, PRODUCT_UNDEFINED, PRODUCT_WEB_SERVER, PRODUCT_WEB_SERVER_CORE, base.getproductinfo, sysinfoapi/GetProductInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
@@ -71,7 +69,7 @@ To retrieve product type information on versions of Windows prior to the minimum
 
 The major version number of the operating system. The minimum value is 6.
 
-The combination of the <i>dwOSMajorVersion</i>, <i>dwOSMinorVersion</i>, <i>dwSpMajorVersion</i>, and <i>dwSpMinorVersion</i> parameters describes the maximum target operating system version for the application. For example, Windows Vista and Windows Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0.
+The combination of the <i>dwOSMajorVersion</i>, <i>dwOSMinorVersion</i>, <i>dwSpMajorVersion</i>, and <i>dwSpMinorVersion</i> parameters describes the maximum target operating system version for the application. For example, Windows Vista and Windows Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0. All Windows 10 based releases will be listed as version 6.3.
 
 
 ### -param dwOSMinorVersion [in]
@@ -94,7 +92,7 @@ The minor version number of the operating system service pack. The minimum value
 The product type. This parameter cannot be <b>NULL</b>. If the specified operating system  is less than the current operating system, this information is mapped to the types supported by the specified operating system. If the specified operating system is greater than the highest supported operating system, this information is mapped to the types supported by the current operating system.
 
 
- This parameter can be one of the following values.
+ This parameter can be one of the following values (some products below may be out of support)..
 
 
 
@@ -203,13 +201,35 @@ Server Datacenter (evaluation installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_DATACENTER_A_SERVER_CORE"></a><a id="product_datacenter_a_server_core"></a><dl>
+<dt><b>PRODUCT_DATACENTER_A_SERVER_CORE</b></dt>
+<dt>0x00000091</dt>
+</dl>
+</td>
+<td width="60%">
+Server Datacenter, Semi-Annual Channel (core installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_STANDARD_A_SERVER_CORE"></a><a id="product_standard_a_server_core"></a><dl>
+<dt><b>PRODUCT_STANDARD_A_SERVER_CORE</b></dt>
+<dt>0x00000092</dt>
+</dl>
+</td>
+<td width="60%">
+Server Standard, Semi-Annual Channel (core installation)
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_DATACENTER_SERVER"></a><a id="product_datacenter_server"></a><dl>
 <dt><b>PRODUCT_DATACENTER_SERVER</b></dt>
 <dt>0x00000008</dt>
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (full installation)
+Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx">Determining whether Server Core is running</a>.) 
 
 </td>
 </tr>
@@ -220,7 +240,7 @@ Server Datacenter (full installation)
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (core installation)
+Server Datacenter (core installation, Windows Server 2008 R2 and earlier)
 
 </td>
 </tr>
@@ -869,7 +889,7 @@ Server Standard (evaluation installation)
 </dl>
 </td>
 <td width="60%">
-Server Standard
+Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx">Determining whether Server Core is running</a>.) 
 
 </td>
 </tr>
@@ -880,7 +900,7 @@ Server Standard
 </dl>
 </td>
 <td width="60%">
-Server Standard (core installation)
+Server Standard (core installation, Windows Server 2008 R2 and earlier)
 
 </td>
 </tr>
@@ -1160,7 +1180,7 @@ To detect whether a server role or feature is installed, use the  <a href="https
 
 Subsequent releases of Windows will map the product types it supports to the set of product types supported by each supported previous release of Windows, back to version 6.0.0.0. Therefore, an application that does an equality test for any of these values will continue to work on future releases, even when new product types are added.
 
-PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation.
+PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method [Determining whether Server Core is running](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx).
 
 The following table indicates the product types that were introduced in 6.1.0.0, and what they will map to if <b>GetProductInfo</b> is called with version 6.0.0.0 on a 6.1.0.0 system.
 

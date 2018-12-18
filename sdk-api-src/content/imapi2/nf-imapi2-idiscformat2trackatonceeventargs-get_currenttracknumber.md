@@ -9,8 +9,6 @@ ms.assetid: e30afc06-b56b-49bc-8ad0-7446e16bdc95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentTrackNumber method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentTrackNumber, IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber, get_CurrentTrackNumber, get_CurrentTrackNumber method [IMAPI], get_CurrentTrackNumber method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currenttracknumber, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentTrackNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

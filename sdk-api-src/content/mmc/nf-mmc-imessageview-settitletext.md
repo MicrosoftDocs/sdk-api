@@ -9,8 +9,6 @@ ms.assetid: e041cf74-9fdd-489c-a251-e5b3e55e1bc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMessageView interface [MMC],SetTitleText method, IMessageView.SetTitleText, IMessageView::SetTitleText, SetTitleText, SetTitleText method [MMC], SetTitleText method [MMC],IMessageView interface, _slate_imessageview_settitletext, mmc.imessageview_settitletext, mmc/IMessageView::SetTitleText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

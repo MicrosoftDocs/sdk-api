@@ -9,8 +9,6 @@ ms.assetid: 8af818b1-7dd8-4f48-b447-5b6dfbfce420
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginSearch, BeginSearch method [Windows Update Agent], BeginSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],BeginSearch method, IUpdateSearcher.BeginSearch, IUpdateSearcher::BeginSearch, wua.iupdatesearcherbeginsearch, wuapi/IUpdateSearcher::BeginSearch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
@@ -174,7 +172,7 @@ If the function fails, it returns a zero value. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

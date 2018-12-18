@@ -9,8 +9,6 @@ ms.assetid: 2750e8b1-eeeb-411a-89a8-b63b26f731ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Peg method, IReferenceTrackerTarget.Peg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Peg, IReferenceTrackerTarget::xaml, Peg, Peg method [Windows Runtime], Peg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

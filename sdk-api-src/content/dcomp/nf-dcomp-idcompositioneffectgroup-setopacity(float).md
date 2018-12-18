@@ -9,8 +9,6 @@ ms.assetid: B82E6BEB-CF92-4EA6-8157-5AA0A41282F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetOpacity method, IDCompositionEffectGroup.SetOpacity, IDCompositionEffectGroup.SetOpacity(float), IDCompositionEffectGroup::SetOpacity, IDCompositionEffectGroup::SetOpacity(float), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetOpacity, directcomp.idcompositioneffectgroup_setopacity_double
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -99,7 +97,7 @@ If the Opacity property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx">IDCompositionEffectGroup</a>
  
 
  

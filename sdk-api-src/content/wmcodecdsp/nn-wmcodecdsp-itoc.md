@@ -9,8 +9,6 @@ ms.assetid: b12d38c7-b80e-4ca8-9ac5-a116100911d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IToc, IToc interface [Media Foundation], IToc interface [Media Foundation],described, codecapi.itoc, mf.itoc, wmcodecdsp/IToc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

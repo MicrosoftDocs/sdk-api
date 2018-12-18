@@ -9,8 +9,6 @@ ms.assetid: 5434c744-484b-4c34-9a76-dddbcb81eb29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetKnownFolderPath, SHGetKnownFolderPath function [Windows Shell], _shell_SHGetKnownFolderPath, shell.SHGetKnownFolderPath, shlobj_core/SHGetKnownFolderPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -74,7 +72,7 @@ A reference to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-d
 
 Type: <b>DWORD</b>
 
-Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special retrieval options. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param hToken [in, optional]

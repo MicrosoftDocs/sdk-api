@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,6 @@ ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

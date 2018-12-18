@@ -9,8 +9,6 @@ ms.assetid: 4f71815b-d352-4303-a3dd-180a71f9a5fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompartment, GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],GetCompartment method, ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

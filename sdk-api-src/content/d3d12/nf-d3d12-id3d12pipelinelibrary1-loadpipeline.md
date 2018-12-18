@@ -9,8 +9,6 @@ ms.assetid: 842092FF-906D-4595-8C43-07F0349CA1A3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12PipelineLibrary1 interface,LoadPipeline method, ID3D12PipelineLibrary1.LoadPipeline, ID3D12PipelineLibrary1::LoadPipeline, LoadPipeline, LoadPipeline method, LoadPipeline method,ID3D12PipelineLibrary1 interface, d3d12/ID3D12PipelineLibrary1::LoadPipeline, direct3d12.id3d12pipelinelibrary1_loadpipeline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -119,7 +117,7 @@ This function takes the pipeline description as a <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492661(v=VS.85).aspx">ID3D12PipelineLibrary1</a>
+<a href="https://msdn.microsoft.com/66890F5B-7C1F-4E47-B141-253FC2A166B1">ID3D12PipelineLibrary1</a>
  
 
  

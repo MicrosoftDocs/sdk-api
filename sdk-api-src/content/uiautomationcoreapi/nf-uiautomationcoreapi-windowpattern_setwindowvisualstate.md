@@ -9,8 +9,6 @@ ms.assetid: ccd06650-9d37-42b7-bca5-29267c993a40
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowPattern_SetWindowVisualState, WindowPattern_SetWindowVisualState function [Windows Accessibility], uiauto.uiauto_WindowPattern_SetVisualStateConPat, uiauto_WindowPattern_SetVisualStateConPat, uiautomationcoreapi/WindowPattern_SetWindowVisualState, winauto.uiauto_WindowPattern_SetVisualStateConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgidebug.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTempPath, GetTempPath function [Files], GetTempPathA, GetTempPathW, _win32_gettemppath, base.gettemppath, fileapi/GetTempPath, fileapi/GetTempPathA, fileapi/GetTempPathW, fs.gettemppath, winbase/GetTempPath, winbase/GetTempPathA, winbase/GetTempPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

@@ -4,13 +4,11 @@ title: WTSUnRegisterSessionNotification function
 author: windows-sdk-content
 description: Unregisters the specified window so that it receives no further session change notifications.
 old-location: termserv\wtsunregistersessionnotification.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 654e585a-f0b2-45a1-a58d-fe3505b34b61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTSUnRegisterSessionNotification, WTSUnRegisterSessionNotification function [Remote Desktop Services], _win32_wtsunregistersessionnotification, termserv.wtsunregistersessionnotification, wtsapi32/WTSUnRegisterSessionNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

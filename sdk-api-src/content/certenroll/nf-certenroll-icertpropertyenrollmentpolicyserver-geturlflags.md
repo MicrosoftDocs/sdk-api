@@ -9,8 +9,6 @@ ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="https://msdn.microsoft.com/en-us/library/Ee351591(v=VS.85).aspx">Initialize</a> method.
+The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server. These flags are set by the <a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a> method.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>GetUrlFlags</b> method retrieves a set of flags that contain miscellaneou
 
 ### -param pValue [out, retval]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ee351752(v=VS.85).aspx">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
+Pointer to a <a href="https://msdn.microsoft.com/e73bccb8-ca4d-4007-bdf3-1194ede5fdd1">PolicyServerUrlFlags</a> enumeration value that specifies the  policy server flags. This can be a bitwise <b>OR</b> of the following values.
 
 <table>
 <tr>
@@ -137,7 +135,7 @@ Specifies that the certificate of the issuing CA need not be trusted by the clie
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -167,7 +165,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a>
  
 
  

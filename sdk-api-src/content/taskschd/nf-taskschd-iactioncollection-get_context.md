@@ -9,8 +9,6 @@ ms.assetid: e365955e-1648-4e11-b602-016dcbeb129e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Context property, IActionCollection.Context, IActionCollection.get_Context, IActionCollection::Context, IActionCollection::get_Context, IActionCollection::put_Context, get_Context, taskschd.iactioncollection_context, taskschd/IActionCollection::Context, taskschd/IActionCollection::get_Context, taskschd/IActionCollection::put_Context
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

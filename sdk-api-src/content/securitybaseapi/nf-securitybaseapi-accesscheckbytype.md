@@ -9,8 +9,6 @@ ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AccessCheckByType, AccessCheckByType function [Security], _win32_accesscheckbytype, security.accesscheckbytype, securitybaseapi/AccessCheckByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

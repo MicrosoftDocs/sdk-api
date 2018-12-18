@@ -9,8 +9,6 @@ ms.assetid: a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Skip method, IEnumPortableDeviceObjectIDs.Skip, IEnumPortableDeviceObjectIDs::Skip, IEnumPortableDeviceObjectIDsSkip, Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Skip, wpdsdk.ienumportabledeviceobjectids_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

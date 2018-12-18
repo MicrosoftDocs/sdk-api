@@ -9,8 +9,6 @@ ms.assetid: E73358D5-7C7E-4D66-A7E7-566BBDC75ED0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_DevNode_Property_Keys_Ex, CM_Get_DevNode_Property_Keys_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Property_Keys_Ex, devinst.cm_get_devnode_property_keys_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

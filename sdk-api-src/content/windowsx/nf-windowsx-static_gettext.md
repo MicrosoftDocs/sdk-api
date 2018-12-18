@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Static_GetText, Static_GetText macro [Windows Controls], _win32_Static_GetText, _win32_Static_GetText_cpp, controls.Static_GetText, controls._win32_Static_GetText, windowsx/Static_GetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

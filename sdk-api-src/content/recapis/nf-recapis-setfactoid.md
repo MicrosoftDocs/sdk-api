@@ -9,8 +9,6 @@ ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetFocus, SetFocus function [Keyboard and Mouse Input], _win32_SetFocus, _win32_setfocus_cpp, inputdev.setfocus, winui._win32_setfocus, winuser/SetFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

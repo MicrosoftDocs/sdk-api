@@ -9,8 +9,6 @@ ms.assetid: 003014E3-4322-4253-8D69-AE315CDFDA75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DXGI_OUTDUPL_DESC, DXGI_OUTDUPL_DESC structure [DXGI], direct3ddxgi.dxgi_outdupl_desc, dxgi1_2/DXGI_OUTDUPL_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

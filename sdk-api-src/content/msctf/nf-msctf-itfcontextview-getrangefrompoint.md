@@ -9,8 +9,6 @@ ms.assetid: 543761fe-420e-4821-a69f-abc6c853677e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetRangeFromPoint, GetRangeFromPoint method [Text Services Framework], GetRangeFromPoint method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetRangeFromPoint method, ITfContextView.GetRangeFromPoint, ITfContextView::GetRangeFromPoint, _tsf_itfcontextview_getrangefrompoint_ref, msctf/ITfContextView::GetRangeFromPoint, tsf.itfcontextview_getrangefrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

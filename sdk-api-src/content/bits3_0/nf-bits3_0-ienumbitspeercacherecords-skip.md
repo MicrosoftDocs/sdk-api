@@ -9,8 +9,6 @@ ms.assetid: f1204e4b-985e-4d3e-8a1f-d13d46e8f1ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Skip method, IEnumBitsPeerCacheRecords.Skip, IEnumBitsPeerCacheRecords::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_skip, bits3_0/IEnumBitsPeerCacheRecords::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -108,7 +106,7 @@ Skipped less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

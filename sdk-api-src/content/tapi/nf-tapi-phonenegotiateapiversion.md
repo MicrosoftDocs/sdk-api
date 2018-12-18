@@ -9,8 +9,6 @@ ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3e93284d-2810-4c8e-9619-1989d8bf788e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmDriverEnum, acmDriverEnum, acmDriverEnum function [Windows Multimedia], msacm/acmDriverEnum, multimedia.acmdriverenum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

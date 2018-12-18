@@ -9,8 +9,6 @@ ms.assetid: 83f4f504-6447-4792-9fc2-1bf479f1e6a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],ShutdownProxyContext2 method, IWMSInternalAdminNetSource3.ShutdownProxyContext2, IWMSInternalAdminNetSource3::ShutdownProxyContext2, IWMSInternalAdminNetSource3ShutdownProxyContext2, ShutdownProxyContext2, ShutdownProxyContext2 method [windows Media Format], ShutdownProxyContext2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_shutdownproxycontext2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::ShutdownProxyContext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>ShutdownProxyContext2</b> method releases the internal resources used by <a href="https://msdn.microsoft.com/03c52ed2-bf77-4013-89d6-544d048f1056">IWMSInternalAdminNetSource3::FindProxyForURLEx2</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURLEx2</b>.
+The <b>ShutdownProxyContext2</b> method releases the internal resources used by <a href="https://msdn.microsoft.com/en-us/library/Dd743723(v=VS.85).aspx">IWMSInternalAdminNetSource3::FindProxyForURLEx2</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURLEx2</b>.
 
 
 
@@ -83,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/b4ca08a4-6e2d-4646-b101-67bac67300b1">IWMSInternalAdminNetSource3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743722(v=VS.85).aspx">IWMSInternalAdminNetSource3 Interface</a>
  
 
  

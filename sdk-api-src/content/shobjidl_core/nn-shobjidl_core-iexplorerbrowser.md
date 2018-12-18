@@ -9,8 +9,6 @@ ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IExplorerBrowser, IExplorerBrowser interface [Windows Shell], IExplorerBrowser interface [Windows Shell],described, _shell_IExplorerBrowser, shell.IExplorerBrowser, shobjidl_core/IExplorerBrowser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

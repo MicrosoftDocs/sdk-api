@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_FIELD_MAPPING
+UID: NE:webservices.__unnamed_enum_82
 title: WS_FIELD_MAPPING
 author: windows-sdk-content
 description: Specifies how a field of a structure is represented in XML. This is used within a WS_FIELD_DESCRIPTION.
@@ -7,10 +7,8 @@ old-location: wsw\ws_field_mapping.htm
 tech.root: wsw
 ms.assetid: 14f4dbc6-0870-4b1c-8f6b-544f771771e8
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ANY_ATTRIBUTES_FIELD_MAPPING, WS_ANY_CONTENT_FIELD_MAPPING, WS_ATTRIBUTE_FIELD_MAPPING, WS_ELEMENT_CHOICE_FIELD_MAPPING, WS_ELEMENT_FIELD_MAPPING, WS_FIELD_MAPPING, WS_FIELD_MAPPING enumeration [Web Services for Windows], WS_NO_FIELD_MAPPING, WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_TEXT_FIELD_MAPPING, WS_TYPE_ATTRIBUTE_FIELD_MAPPING, WS_XML_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ANY_ATTRIBUTES_FIELD_MAPPING, webservices/WS_ANY_CONTENT_FIELD_MAPPING, webservices/WS_ATTRIBUTE_FIELD_MAPPING, webservices/WS_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_ELEMENT_FIELD_MAPPING, webservices/WS_FIELD_MAPPING, webservices/WS_NO_FIELD_MAPPING, webservices/WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, webservices/WS_REPEATING_ELEMENT_FIELD_MAPPING, webservices/WS_TEXT_FIELD_MAPPING, webservices/WS_TYPE_ATTRIBUTE_FIELD_MAPPING, webservices/WS_XML_ATTRIBUTE_FIELD_MAPPING, wsw.ws_field_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -63,7 +61,7 @@ Specifies how a field of a structure is represented in XML.  This is used within
 ### -field WS_TYPE_ATTRIBUTE_FIELD_MAPPING
 
 The field corresponds to the XML type attribute (xsi:type).  This
-                    can only be used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DESCRIPTION_TYPE</a>.  
+                    can only be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_DESCRIPTION_TYPE</a>.  
                 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -126,7 +124,7 @@ s.field = 1;
 
 &lt;Struct field='1'/&gt;
 </code></pre>
-To discard the attribute, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> should be used.
+To discard the attribute, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
                 
@@ -160,7 +158,7 @@ s.field = 1;
     &lt;field&gt;1&lt;/field&gt;
 &lt;/Struct&gt;
 </code></pre>
-To discard the element, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> should be used.
+To discard the element, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
                 
@@ -223,7 +221,7 @@ The field corresponds to the entire character content of the element.
                     When this mapping is used, child elements are not allowed.
                 
 
-This mapping is commonly used in conjunction with <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ATTRIBUTE_FIELD_MAPPING</a>to define a structure which maps to an element containing some text and attributes (but no
+This mapping is commonly used in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_ATTRIBUTE_FIELD_MAPPING</a>to define a structure which maps to an element containing some text and attributes (but no
                     child elements).
                 
 
@@ -251,7 +249,7 @@ The field is ignored when serializing, and is initialized to the
                     default value when deserializing.
                 
 
-If the field maps to one of the existing types (for example <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT32_TYPE</a>),
+If the field maps to one of the existing types (for example <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_INT32_TYPE</a>),
                     then the type can be specified.  If the type of the field is not one of
                     the existing types, then <b>WS_VOID_TYPE</b> can be used to specify
                     a field of an arbitrary type and size.
@@ -337,7 +335,7 @@ struct Struct
     } value;
 };                    
 </code></pre>
-This field mapping must be used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNION_TYPE</a>.
+This field mapping must be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
                     <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.  The field's localName 
                     and ns should be <b>NULL</b>.
@@ -400,7 +398,7 @@ struct Struct
         WS_STRING b;    // valid when choice is ChoiceB
     } value;
 };</code></pre>
-This field mapping must be used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNION_TYPE</a>.
+This field mapping must be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_UNION_TYPE</a>.
                     The names and namespaces of the element choices are specified in the
                     <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.  The field's localName 
                     and ns should be <b>NULL</b>.
@@ -452,7 +450,7 @@ The field corresponds to an repeating set of element choices.
                 
 
 Each item is represented by a union with selector value.
-                    This mapping must be used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_UNION_TYPE</a>.
+                    This mapping must be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_UNION_TYPE</a>.
                 
 
 The field's localName/ns are used as the XML element
@@ -516,7 +514,7 @@ The field is used to discard or store a sequence of elements
                     with any name and namespace.
                 
 
-To store the elements, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_BUFFER_TYPE</a> should
+To store the elements, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_BUFFER_TYPE</a> should
                     be used.  This corresponds to an array of <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>s,
                     as follows:
                 
@@ -541,7 +539,7 @@ s.fieldCount = 2;
     ... known fields ...
 &lt;/Struct&gt;
 </code></pre>
-To discard the elements, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> should be used.
+To discard the elements, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.  See <b>WS_VOID_TYPE</b> for
                     more information.
                 
@@ -562,7 +560,7 @@ The field is used to discard or store any remaining content
                     of an element.
                 
 
-To store the elements, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_BUFFER_TYPE</a> should
+To store the elements, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_BUFFER_TYPE</a> should
                     be used, as follows:
                 
 
@@ -584,7 +582,7 @@ s.field = ...; // 'text1&lt;unknown1/&gt;text2&lt;unknown2/&gt;'
     &lt;unknown2/&gt;
 &lt;/Struct&gt;
 </code></pre>
-To discard the elements, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> should be used.
+To discard the elements, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.  
                     See <b>WS_VOID_TYPE</b> for more information.
                 
@@ -596,7 +594,7 @@ This mapping does not support specifying a <a href="https://msdn.microsoft.com/4
 ### -field WS_ANY_ATTRIBUTES_FIELD_MAPPING
 
 The field is used to discard or store any attributes which were not
-                    mapped using other <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_FIELD_MAPPING</a> values. 
+                    mapped using other <a href="https://msdn.microsoft.com/en-us/library/Dd401883(v=VS.85).aspx">WS_FIELD_MAPPING</a> values. 
                 
 
 If this field mapping is not specified, then unmapped attributes
@@ -625,7 +623,7 @@ The ns field of the <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-
 </ul>
 
 
-To store the attributes, <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ANY_ATTRIBUTES_TYPE</a> should be
+To store the attributes, <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_ANY_ATTRIBUTES_TYPE</a> should be
                     used.  This correspond to <a href="https://msdn.microsoft.com/6c428c99-755f-40ab-bc9e-e1a7a3d70c1d">WS_ANY_ATTRIBUTES</a> as follows:
                 
 
@@ -647,7 +645,7 @@ s.field = ...; // 'unknown'/'http://example.com'/'value'
     ... other content ...
 &lt;/Struct&gt;
 </code></pre>
-To discard the unmapped attributes, a <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_VOID_TYPE</a> should be used.
+To discard the unmapped attributes, a <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_VOID_TYPE</a> should be used.
                     In this case, a field is not required in the structure.
                     See <b>WS_VOID_TYPE</b> for more information.
                 

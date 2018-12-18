@@ -9,8 +9,6 @@ ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

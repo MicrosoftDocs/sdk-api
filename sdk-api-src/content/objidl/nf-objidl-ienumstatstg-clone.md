@@ -9,8 +9,6 @@ ms.assetid: b6bc5dbd-7e09-4590-a7d4-d58fcd297f74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATSTG interface, IEnumSTATSTG interface [Structured Storage],Clone method, IEnumSTATSTG.Clone, IEnumSTATSTG::Clone, objidl/IEnumSTATSTG::Clone, stg.ienumstatstg_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

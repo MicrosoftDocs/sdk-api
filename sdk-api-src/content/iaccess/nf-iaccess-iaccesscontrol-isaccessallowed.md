@@ -9,8 +9,6 @@ ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iaccess.h
 req.include-header: 

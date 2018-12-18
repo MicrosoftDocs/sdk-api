@@ -9,8 +9,6 @@ ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h
@@ -136,11 +134,11 @@ printf("Server is %s\n",
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376585(v=VS.85).aspx">CertSrvBackupPrepare</a>
+<a href="https://msdn.microsoft.com/21af96f8-168d-4c6c-8966-357236c0e4e6">CertSrvBackupPrepare</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

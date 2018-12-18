@@ -9,8 +9,6 @@ ms.assetid: 1a319d79-7866-4121-a80f-22e3bf983a0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GOPHER_ATTRIBUTE_ENUMERATOR, GOPHER_ATTRIBUTE_ENUMERATOR callback, GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet], GopherAttributeEnumerator, _inet_gopher_attribute_enumerator_prototype, wininet.gopherattributeenumerator, wininet/GOPHER_ATTRIBUTE_ENUMERATOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wininet.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <b>GOPHER_ATTRIBUTE_ENUMERATOR</b> type defines a pointer to this callback f
 
 ### -param lpAttributeInfo
 
-Pointer to a  <a href="https://msdn.microsoft.com/01daae8c-9080-4a8d-9f73-3e364ca868fe">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
+Pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Aa384213(v=VS.85).aspx">GOPHER_ATTRIBUTE_TYPE</a> structure. The 
 <i>lpBuffer</i> parameter of 
 <a href="https://msdn.microsoft.com/c9e95532-8c65-45fb-acd0-a1f09cee2ce2">GopherGetAttribute</a> is used for storing this structure. The 
 <i>lpBuffer</i> size must be equal to or greater than the value of MIN_GOPHER_ATTRIBUTE_LENGTH.

@@ -9,8 +9,6 @@ ms.assetid: 745128cf-7737-4f95-9712-26e0f6ae39b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyIpInterfaceChange, NotifyIpInterfaceChange function [IP Helper], iphlp.notifyipinterfacechange, netioapi/NotifyIpInterfaceChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

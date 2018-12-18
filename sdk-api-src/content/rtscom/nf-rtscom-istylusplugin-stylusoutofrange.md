@@ -9,8 +9,6 @@ ms.assetid: fd662c32-c226-4dbb-807a-3e560452ef15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusOutOfRange method, IStylusPlugin.StylusOutOfRange, IStylusPlugin::StylusOutOfRange, StylusOutOfRange, StylusOutOfRange method [Tablet PC], StylusOutOfRange method [Tablet PC],IStylusPlugin interface, fd662c32-c226-4dbb-807a-3e560452ef15, rtscom/IStylusPlugin::StylusOutOfRange, tablet.istylusplugin_stylusoutofrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

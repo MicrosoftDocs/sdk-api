@@ -9,8 +9,6 @@ ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

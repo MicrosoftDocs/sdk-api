@@ -9,8 +9,6 @@ ms.assetid: c3f25484-7c6c-4625-9d26-1c01d15b10c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddObjectByTemplate, AddObjectByTemplate method [Windows Management Instrumentation], AddObjectByTemplate method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByTemplate method, IWbemConfigureRefresher.AddObjectByTemplate, IWbemConfigureRefresher::AddObjectByTemplate, _hmm_iwbemconfigurerefresher_addobjectbytemplate, wbemcli/IWbemConfigureRefresher::AddObjectByTemplate, wmi.iwbemconfigurerefresher_addobjectbytemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

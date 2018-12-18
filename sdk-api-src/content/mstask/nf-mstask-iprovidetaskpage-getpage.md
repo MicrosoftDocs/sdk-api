@@ -9,8 +9,6 @@ ms.assetid: 2313abc1-587f-473b-8d2e-390dfa7234ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPage, GetPage method [Task Scheduler], GetPage method [Task Scheduler],IProvideTaskPage interface, IProvideTaskPage interface [Task Scheduler],GetPage method, IProvideTaskPage.GetPage, IProvideTaskPage::GetPage, _msb_iprovidetaskpage_getpage, mstask/IProvideTaskPage::GetPage, taskschd.iprovidetaskpage_getpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

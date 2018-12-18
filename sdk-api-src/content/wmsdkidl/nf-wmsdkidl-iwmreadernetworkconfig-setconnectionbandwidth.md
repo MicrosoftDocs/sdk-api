@@ -9,8 +9,6 @@ ms.assetid: beb84e1b-ebe2-40a0-bcf0-eded9346d7a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetConnectionBandwidth method, IWMReaderNetworkConfig.SetConnectionBandwidth, IWMReaderNetworkConfig::SetConnectionBandwidth, IWMReaderNetworkConfigSetConnectionBandwidth, SetConnectionBandwidth, SetConnectionBandwidth method [windows Media Format], SetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::SetConnectionBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -112,7 +110,7 @@ NULL or invalid argument passed in.
 
 
 
-By default, the SDK automatically detects the bandwidth of the connection to the server. When auto-detection is set, a call to <b>GetConnectionBandwidth</b> following the <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">Open</a> request returns the dynamically detected connection bandwidth.
+By default, the SDK automatically detects the bandwidth of the connection to the server. When auto-detection is set, a call to <b>GetConnectionBandwidth</b> following the <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">Open</a> request returns the dynamically detected connection bandwidth.
 
 Setting a bandwidth by using this method is sometimes called <i>bandwidth-throttling</i> because it deliberately limits the available bandwidth.
 
@@ -124,11 +122,11 @@ Setting a bandwidth by using this method is sometimes called <i>bandwidth-thrott
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbbc945d-91ea-4d21-a1ac-2fcbcb081447">IWMReaderNetworkConfig::GetConnectionBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743521(v=VS.85).aspx">IWMReaderNetworkConfig::GetConnectionBandwidth</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 580E055C-B731-4168-8051-81BD5ACB4EFC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Class_Property_ExW, CM_Get_Class_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_ExW, devinst.cm_get_class_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -139,7 +137,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff551086(v=VS.85).aspx">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
 
 
 

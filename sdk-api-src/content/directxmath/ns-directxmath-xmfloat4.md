@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT4, XMFLOAT4 structure [DirectX Math Support APIs], directxmath/XMFLOAT4, dxmath.xmfloat4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: directxmath.h
 req.include-header: 
@@ -56,9 +54,9 @@ Describes a 4D vector consisting of four single-precision floating-point values.
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMFLOAT4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/79c3abc5-1896-4c51-b6a9-a97031961e8e">XMFLOAT4 Extensions</a>.
+	using <code>XMFLOAT4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415311(v=VS.85).aspx">XMFLOAT4 Extensions</a>.
 <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.
+	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -110,7 +108,7 @@ TBD
 	    <a href="https://msdn.microsoft.com/b23728ee-aa6d-4bed-b5fb-d4c3cb603504">XMLoadFloat4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT4</code> with <a href="https://msdn.microsoft.com/6f799757-f82b-48dc-a879-502c90735111">XMStoreFloat4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420343(v=VS.85).aspx">XMStoreFloat4</a>.
 	
 
 <b>Namespace:</b> Use DirectX
@@ -130,7 +128,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/79c3abc5-1896-4c51-b6a9-a97031961e8e">XMFLOAT4 Extensions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415311(v=VS.85).aspx">XMFLOAT4 Extensions</a>
  
 
  

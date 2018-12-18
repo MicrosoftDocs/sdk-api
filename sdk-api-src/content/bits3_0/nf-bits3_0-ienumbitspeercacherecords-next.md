@@ -9,8 +9,6 @@ ms.assetid: a8117baa-9f77-4735-bd15-2c7e1e759e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Next method, IEnumBitsPeerCacheRecords.Next, IEnumBitsPeerCacheRecords::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_next, bits3_0/IEnumBitsPeerCacheRecords::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -67,7 +65,7 @@ Number of elements requested.
 ### -param rgelt [out]
 
 Array of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a> objects. You must release each object in <i>rgelt</i> when done.
+<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a> objects. You must release each object in <i>rgelt</i> when done.
 
 
 ### -param pceltFetched [out]
@@ -119,7 +117,7 @@ Returned less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

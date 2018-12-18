@@ -9,8 +9,6 @@ ms.assetid: e7466457-1025-4f1b-8b29-01cdf2358217
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OaBuildVersion, OaBuildVersion function [Automation], _oa96_OaBuildVersion, automat.oabuildversion, oleauto/OaBuildVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8cbc1275-29d5-917d-6938-8fb35e5054fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetFontFaceReference method, IDWriteFontSet.GetFontFaceReference, IDWriteFontSet::GetFontFaceReference, directwrite.idwritefontset_getfontfacereference, dwrite_3/IDWriteFontSet::GetFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -67,7 +65,7 @@ Zero-based index of the font.
 
 ### -param fontFaceReference [out]
 
-Type: <b><a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>**</b>
 
 Receives a pointer the font face reference object, or nullptr on failure.
 
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
  
 
  

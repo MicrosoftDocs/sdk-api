@@ -9,8 +9,6 @@ ms.assetid: a4697038-8abc-42f2-9381-702fc82af90b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], IUPnPDeviceFinder interface [UPnP APIs],described, _upnp_iupnpdevicefinder, upnp.iupnpdevicefinder, upnp/IUPnPDeviceFinder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

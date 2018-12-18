@@ -9,8 +9,6 @@ ms.assetid: cf6d094f-d394-43a3-b74e-a167759d5a10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFECOuter, GetFECOuter method [Microsoft TV Technologies], GetFECOuter method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECOuter method, IDvbCableDeliverySystemDescriptor.GetFECOuter, IDvbCableDeliverySystemDescriptor::GetFECOuter, IDvbCableDeliverySystemDescriptorGetFECOuter, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetFECOuter, mstv.idvbcabledeliverysystemdescriptor_getfecouter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

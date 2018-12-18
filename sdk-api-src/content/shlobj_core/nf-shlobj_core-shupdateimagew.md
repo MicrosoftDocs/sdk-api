@@ -9,8 +9,6 @@ ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

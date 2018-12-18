@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_getcreationflags.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4822c55e-f89a-b10d-ccba-aa989735a00f, GetCreationFlags, GetCreationFlags method [Direct3D 10], GetCreationFlags method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetCreationFlags method, ID3D10Device.GetCreationFlags, ID3D10Device::GetCreationFlags, d3d10/ID3D10Device::GetCreationFlags, direct3d10.id3d10device_getcreationflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -65,7 +63,7 @@ Get the flags used during the call to create the device with <a href="https://ms
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A bitfield containing the flags used to create the device. See <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_FLAG</a>.
 

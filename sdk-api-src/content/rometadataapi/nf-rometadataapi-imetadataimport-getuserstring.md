@@ -9,8 +9,6 @@ ms.assetid: c809d878-7c9a-4759-83c8-31cb0a72ee9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserString, GetUserString method [Windows Runtime], GetUserString method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetUserString method, IMetaDataImport.GetUserString, IMetaDataImport::GetUserString, rometadataapi/IMetaDataImport::GetUserString, winrt.imetadataimport_getuserstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

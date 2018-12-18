@@ -9,8 +9,6 @@ ms.assetid: CB0C1B66-F1AB-4440-8898-77107C1A2C42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetTopRightRadiusY, IDCompositionRectangleClip::SetTopRightRadiusY, SetTopRightRadiusY, SetTopRightRadiusY methods [DirectComposition], dcomp/SetTopRightRadiusY, directcomp.idcompositionrectangleclip_settoprightradiusy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ Animates the value of the TopRightRadiusY property of this clip.
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
  
 
  

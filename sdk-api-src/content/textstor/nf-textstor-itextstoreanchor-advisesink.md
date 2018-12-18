@@ -9,8 +9,6 @@ ms.assetid: a2196d1c-b03e-44b4-b695-970feddb8ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],AdviseSink method, ITextStoreAnchor.AdviseSink, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

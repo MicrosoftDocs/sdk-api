@@ -9,8 +9,6 @@ ms.assetid: 7e130da3-2bef-4ff0-870c-31ac4c3767e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISCPSecureExchange2 interface [windows Media Device Manager],TransferContainerData2 method, ISCPSecureExchange2.TransferContainerData2, ISCPSecureExchange2::TransferContainerData2, ISCPSecureExchange2TransferContainerData2, TransferContainerData2, TransferContainerData2 method [windows Media Device Manager], TransferContainerData2 method [windows Media Device Manager],ISCPSecureExchange2 interface, mswmdm/ISCPSecureExchange2::TransferContainerData2, wmdm.iscpsecureexchange2_transfercontainerdata2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

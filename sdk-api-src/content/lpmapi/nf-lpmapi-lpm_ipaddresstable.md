@@ -9,8 +9,6 @@ ms.assetid: f02ecb97-3797-49a0-8bff-fcb16096cb25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

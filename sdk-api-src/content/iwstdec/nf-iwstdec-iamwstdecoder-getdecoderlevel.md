@@ -9,8 +9,6 @@ ms.assetid: 629ee71d-7d79-4fa9-b169-3b5328659435
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDecoderLevel method, IAMWstDecoder.GetDecoderLevel, IAMWstDecoder::GetDecoderLevel, IAMWstDecoderGetDecoderLevel, dshow.iamwstdecoder_getdecoderlevel, iwstdec/IAMWstDecoder::GetDecoderLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -64,7 +62,7 @@ Applications use the <code>GetDecoderLevel</code> method to retrieve the WST dec
 
 ### -param lpLevel [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/e9186beb-5496-49c3-a76c-febb38b5b344">AM_WST_LEVEL</a> enumeration, indicting the decoder level.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373507(v=VS.85).aspx">AM_WST_LEVEL</a> enumeration, indicting the decoder level.
 
 
 ## -returns
@@ -85,7 +83,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

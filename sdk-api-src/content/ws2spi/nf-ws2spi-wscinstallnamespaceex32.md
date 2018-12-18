@@ -9,8 +9,6 @@ ms.assetid: 222ebfcc-8854-4224-b464-28098c84b750
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCInstallNameSpaceEx32, WSCInstallNameSpaceEx32 function [Winsock], winsock.wscinstallnamespaceex32, ws2spi/WSCInstallNameSpaceEx32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

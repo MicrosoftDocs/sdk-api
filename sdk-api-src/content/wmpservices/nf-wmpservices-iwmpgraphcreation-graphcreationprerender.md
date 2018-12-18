@@ -9,8 +9,6 @@ ms.assetid: d3375fa9-2ab0-4e82-9196-0b3971a00185
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphCreationPreRender, GraphCreationPreRender method [Windows Media Player], GraphCreationPreRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPreRender method, IWMPGraphCreation.GraphCreationPreRender, IWMPGraphCreation::GraphCreationPreRender, IWMPGraphCreationGraphCreationPreRenderdeprecated, wmp.iwmpgraphcreation_graphcreationprerender, wmpservices/IWMPGraphCreation::GraphCreationPreRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -96,7 +94,7 @@ There is no guarantee that this method will be invoked for all files.  Only file
 
 
 
-<a href="https://msdn.microsoft.com/80d6f1f0-10c9-4e60-9bb7-556e340730a8">IWMPGraphCreation Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563379(v=VS.85).aspx">IWMPGraphCreation Interface</a>
  
 
  

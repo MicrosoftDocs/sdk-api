@@ -9,8 +9,6 @@ ms.assetid: 463a58f7-a10c-40b5-8183-3e16bcc7c6b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_FrequencyMultiplier method, IBDA_FrequencyFilter.get_FrequencyMultiplier, IBDA_FrequencyFilter::get_FrequencyMultiplier, IBDA_FrequencyFilterget_FrequencyMultiplier, bdaiface/IBDA_FrequencyFilter::get_FrequencyMultiplier, get_FrequencyMultiplier, get_FrequencyMultiplier method [Microsoft TV Technologies], get_FrequencyMultiplier method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_frequencymultiplier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -89,7 +87,7 @@ Frequencies for DVB-S, DVB-T, and ATSC should all be expressed in kilohertz and 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

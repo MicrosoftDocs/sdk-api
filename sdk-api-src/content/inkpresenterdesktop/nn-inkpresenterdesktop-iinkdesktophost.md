@@ -9,8 +9,6 @@ ms.assetid: 7a577536-405b-400d-89bc-c3b3894b448d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkDesktopHost, IInkDesktopHost interface, IInkDesktopHost interface,described, InkPresenterDesktop.iinkdesktophost, inkpresenterdesktop/IInkDesktopHost, input_ink.iinkdesktophost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8d92a7c3-4804-47f6-bfca-5322be119cbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Draw, Draw method [Direct Write], Draw method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],Draw method, IDWriteTextLayout.Draw, IDWriteTextLayout::Draw, directwrite.IDWriteTextLayout_Draw, dwrite/IDWriteTextLayout::Draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

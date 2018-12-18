@@ -9,8 +9,6 @@ ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress method, IWMDMProgress.Progress, IWMDMProgress::Progress, IWMDMProgressProgress, Progress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager],IWMDMProgress interface, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

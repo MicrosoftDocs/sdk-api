@@ -9,8 +9,6 @@ ms.assetid: 779a7618-9f22-4caf-8a4e-b622e422c30d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScript, GetScript method [windows Media Format], GetScript method [windows Media Format],IWMHeaderInfo interface, GetScript method [windows Media Format],IWMHeaderInfo2 interface, GetScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetScript method, IWMHeaderInfo.GetScript, IWMHeaderInfo2 interface [windows Media Format],GetScript method, IWMHeaderInfo2::GetScript, IWMHeaderInfo3 interface [windows Media Format],GetScript method, IWMHeaderInfo3::GetScript, IWMHeaderInfo::GetScript, IWMHeaderInfoGetScript, wmformat.iwmheaderinfo_getscript, wmsdkidl/IWMHeaderInfo2::GetScript, wmsdkidl/IWMHeaderInfo3::GetScript, wmsdkidl/IWMHeaderInfo::GetScript
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -205,27 +203,27 @@ You should make two calls to <b>GetScript</b> for each script you want to retrie
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/e20644fb-077e-4eee-8802-6099002f3969">IWMHeaderInfo::AddScript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798517(v=VS.85).aspx">IWMHeaderInfo::AddScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1a0b35c-db05-402a-9bde-684bead1eedf">IWMHeaderInfo::GetScriptCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798524(v=VS.85).aspx">IWMHeaderInfo::GetScriptCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/c66e808d-25f9-4745-8bcc-731f2556f470">IWMHeaderInfo::RemoveScript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798526(v=VS.85).aspx">IWMHeaderInfo::RemoveScript</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 227ECD21-AE8F-41D1-BF56-A516F14BFCD0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,SetBreakOnID method, ID3D12InfoQueue.SetBreakOnID, ID3D12InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method, SetBreakOnID method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetBreakOnID, direct3d12.id3d12infoqueue_setbreakonid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -62,7 +60,7 @@ Set a message identifier to break on when a message with that identifier passes 
 
 ### -param ID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950146(v=VS.85).aspx">D3D12_MESSAGE_ID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/95681EB0-C00B-42C8-91E1-1D1F657C886B">D3D12_MESSAGE_ID</a></b>
 
 Message identifier to break on.
           
@@ -84,7 +82,7 @@ Turns this breaking condition on or off (true for on, false for off).
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 
@@ -95,7 +93,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f1dd8d13-8d10-4c5c-bb31-b51d38834e88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrContextHandleMemorySize, NdrContextHandleMemorySize function [RPC], rpc.ndrcontexthandlememorysize, rpcndr/NdrContextHandleMemorySize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

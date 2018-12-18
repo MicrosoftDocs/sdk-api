@@ -9,8 +9,6 @@ ms.assetid: D1F82073-14DB-47B5-AB61-C1AFE5C50C42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfRetrievalFilter method, IDXGIInfoQueue.PushCopyOfRetrievalFilter, IDXGIInfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [DXGI], PushCopyOfRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofretrievalfilter, dxgidebug/IDXGIInfoQueue::PushCopyOfRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

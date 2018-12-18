@@ -9,8 +9,6 @@ ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiClassNameFromGuid, SetupDiClassNameFromGuid function [Device and Driver Installation], SetupDiClassNameFromGuidA, SetupDiClassNameFromGuidW, devinst.setupdiclassnamefromguid, di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml, setupapi/SetupDiClassNameFromGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

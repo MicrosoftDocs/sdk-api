@@ -9,8 +9,6 @@ ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rend.h
 req.include-header: 

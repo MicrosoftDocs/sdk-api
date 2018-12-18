@@ -9,8 +9,6 @@ ms.assetid: c3c4f0a1-eff5-4e83-8a1d-16e007bd119a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QueryVolumesSupportedForSnapshots method, IVssSnapshotMgmt.QueryVolumesSupportedForSnapshots, IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots, QueryVolumesSupportedForSnapshots method [VSS], QueryVolumesSupportedForSnapshots method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_queryvolumessupportedforsnapshots, vsmgmt/IVssSnapshotMgmt::QueryVolumesSupportedForSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

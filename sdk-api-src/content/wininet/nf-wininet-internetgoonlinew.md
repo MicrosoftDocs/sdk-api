@@ -9,8 +9,6 @@ ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevic
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseDeviceTSID property, IFaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, IFaxConfiguration::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_IFaxConfiguration_UseDeviceTSID, faxcomex/IFaxConfiguration::UseDeviceTSID, faxcomex/IFaxConfiguration::get_UseDeviceTSID, faxcomex/IFaxConfiguration::put_UseDeviceTSID, get_UseDeviceTSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

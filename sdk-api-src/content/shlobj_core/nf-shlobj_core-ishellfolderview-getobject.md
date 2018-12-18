@@ -9,8 +9,6 @@ ms.assetid: a231e92f-b467-4fd7-929d-92259272a734
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

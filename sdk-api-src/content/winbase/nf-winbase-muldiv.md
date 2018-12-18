@@ -9,8 +9,6 @@ ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

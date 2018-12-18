@@ -9,8 +9,6 @@ ms.assetid: 813D030B-73CD-463E-A548-E32380075524
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnforcementBans method, IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

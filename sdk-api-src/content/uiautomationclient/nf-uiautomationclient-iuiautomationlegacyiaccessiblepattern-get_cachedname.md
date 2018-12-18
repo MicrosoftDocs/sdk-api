@@ -9,8 +9,6 @@ ms.assetid: eda01409-fdb7-4dc8-844a-699120db8771
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedName property, IUIAutomationLegacyIAccessiblePattern.CachedName, IUIAutomationLegacyIAccessiblePattern.get_CachedName, IUIAutomationLegacyIAccessiblePattern::CachedName, IUIAutomationLegacyIAccessiblePattern::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

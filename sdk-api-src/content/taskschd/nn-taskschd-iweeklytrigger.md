@@ -9,8 +9,6 @@ ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWeeklyTrigger, IWeeklyTrigger interface [Task Scheduler], IWeeklyTrigger interface [Task Scheduler],described, taskschd.iweeklytrigger, taskschd/IWeeklyTrigger, weekly trigger [Task Scheduler],interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

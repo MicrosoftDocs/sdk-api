@@ -9,8 +9,6 @@ ms.assetid: 02a582d4-329e-47e3-9dbe-dba8a3e4b4b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -64,7 +62,7 @@ The <b>GetAttributeByIndex</b> method retrieves an attribute associated with the
 
 ### -param dwIndex [in]
 
-Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="https://msdn.microsoft.com/6032cb18-4c4a-4cd7-905e-5cb390bfc37b">GetAttributeCount</a>.
+Attribute index. Valid indexes range from zero to one less than the number of attributes returned by <a href="https://msdn.microsoft.com/en-us/library/Dd743633(v=VS.85).aspx">GetAttributeCount</a>.
 
 
 ### -param pbstrName [out]
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
  
 
  

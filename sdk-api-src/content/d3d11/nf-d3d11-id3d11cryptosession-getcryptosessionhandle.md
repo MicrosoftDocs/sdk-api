@@ -9,8 +9,6 @@ ms.assetid: AEF55A0B-7052-4264-BC82-DACE06D20A81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCryptoSessionHandle, GetCryptoSessionHandle method [Media Foundation], GetCryptoSessionHandle method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoSessionHandle method, ID3D11CryptoSession.GetCryptoSessionHandle, ID3D11CryptoSession::GetCryptoSessionHandle, d3d11/ID3D11CryptoSession::GetCryptoSessionHandle, mf.id3d11cryptosession_getcryptosessionhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

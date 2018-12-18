@@ -9,8 +9,6 @@ ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetGetResourceInformation, WNetGetResourceInformation function [Windows Networking (WNet)], WNetGetResourceInformationA, WNetGetResourceInformationW, _win32_wnetgetresourceinformation, winnetwk/WNetGetResourceInformation, winnetwk/WNetGetResourceInformationA, winnetwk/WNetGetResourceInformationW, wnet.wnetgetresourceinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

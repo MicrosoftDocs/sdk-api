@@ -9,8 +9,6 @@ ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],MediaInfo method, IWMPEffects.MediaInfo, IWMPEffects::MediaInfo, MediaInfo, MediaInfo method [Windows Media Player], MediaInfo method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::MediaInfo, wmp.iwmpeffects_mediainfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -90,7 +88,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
  
 
  

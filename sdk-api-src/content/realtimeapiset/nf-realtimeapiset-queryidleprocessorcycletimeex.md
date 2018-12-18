@@ -9,8 +9,6 @@ ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows.h

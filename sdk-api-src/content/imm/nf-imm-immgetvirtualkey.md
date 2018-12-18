@@ -9,8 +9,6 @@ ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

@@ -9,8 +9,6 @@ ms.assetid: F142903A-329D-40E3-A233-F013C26EC1EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

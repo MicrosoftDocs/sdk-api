@@ -9,8 +9,6 @@ ms.assetid: 63c5f2a0-5524-4df0-bc0d-fcd7c6b36167
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],get_AnalogAudioMode method, IAnalogAudioComponentType.get_AnalogAudioMode, IAnalogAudioComponentType::get_AnalogAudioMode, IAnalogAudioComponentTypeget_AnalogAudioMode, get_AnalogAudioMode, get_AnalogAudioMode method [Microsoft TV Technologies], get_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, mstv.ianalogaudiocomponenttype_get_analogaudiomode, tuner/IAnalogAudioComponentType::get_AnalogAudioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>get_AnalogAudioMode</b> method retrieves the analog audio mode.
 
 ### -param Mode [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a> variable that receives the analog audio mode.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407240(v=VS.85).aspx">TVAudioMode</a> variable that receives the analog audio mode.
 
 
 ## -returns

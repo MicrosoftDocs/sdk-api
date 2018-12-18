@@ -9,8 +9,6 @@ ms.assetid: e8c69e61-4e5e-4385-a0f1-9b594c479984
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCardControl, SCardControl function [Security], _smart_scardcontrol, security.scardcontrol, winscard/SCardControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

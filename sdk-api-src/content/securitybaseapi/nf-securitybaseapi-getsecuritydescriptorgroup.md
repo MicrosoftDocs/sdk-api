@@ -9,8 +9,6 @@ ms.assetid: a920b49e-a4c2-4e49-b529-88c12205d995
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecurityDescriptorGroup, GetSecurityDescriptorGroup function [Security], _win32_getsecuritydescriptorgroup, security.getsecuritydescriptorgroup, securitybaseapi/GetSecurityDescriptorGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

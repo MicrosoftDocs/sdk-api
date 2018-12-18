@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_DATETIME_FORMAT
+UID: NE:webservices.__unnamed_enum_102
 title: WS_DATETIME_FORMAT
 author: windows-sdk-content
 description: Specifies the textual format of a WS_DATETIME.
@@ -7,10 +7,8 @@ old-location: wsw\ws_datetime_format.htm
 tech.root: wsw
 ms.assetid: e5859797-90dd-4509-ae41-f8d8c83cfd9c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -75,7 +73,7 @@ This format displays a time with a specific timezone.  The time is followed by "
         
 
 If the system is unable to convert the time to a local format because timezone information for the time
-          specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
+          specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/en-us/library/Dd401807(v=VS.85).aspx">WS_DATETIME_FORMAT_UTC</a>.
         
 
 

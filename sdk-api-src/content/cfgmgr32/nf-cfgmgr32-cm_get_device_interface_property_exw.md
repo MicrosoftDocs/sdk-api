@@ -9,8 +9,6 @@ ms.assetid: A367AF27-BF99-4322-9D11-8792AA2863B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Device_Interface_Property_ExW, CM_Get_Device_Interface_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_Device_Interface_Property_ExW, devinst.cm_get_device_interface_property_exw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -94,7 +92,7 @@ Reserved. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Ff537948(v=VS.85).aspx">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -122,7 +120,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff537948(v=VS.85).aspx">CM_Connect_Machine</a>
+<a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>
 
 
 

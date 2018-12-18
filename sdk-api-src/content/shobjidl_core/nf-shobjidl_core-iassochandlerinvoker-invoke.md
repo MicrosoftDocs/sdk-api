@@ -9,8 +9,6 @@ ms.assetid: 9b5de945-b177-4cbc-817c-447b2174323e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssocHandlerInvoker interface [Windows Shell],Invoke method, IAssocHandlerInvoker.Invoke, IAssocHandlerInvoker::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IAssocHandlerInvoker interface, _shell_IAssocHandlerInvoker_Invoke, shell.IAssocHandlerInvoker_Invoke, shobjidl_core/IAssocHandlerInvoker::Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpencon
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Sharpen, Sharpen class [GDI+],Sharpen constructor, Sharpen constructor [GDI+], Sharpen constructor [GDI+],Sharpen class, Sharpen.Sharpen, Sharpen::Sharpen, _gdiplus_CLASS_Sharpen_Sharpen_, gdiplus._gdiplus_CLASS_Sharpen_Sharpen_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

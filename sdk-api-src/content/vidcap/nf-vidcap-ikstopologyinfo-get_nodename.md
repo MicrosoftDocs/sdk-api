@@ -9,8 +9,6 @@ ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>get_NodeName</code> method returns the name of the node.
 
 ### -param dwNodeId [in]
 
-Index of the node. To find the number of nodes, call the <a href="https://msdn.microsoft.com/fdba99d5-fd44-4d4f-8575-867d98bf3339">IKsTopologyInfo::get_NumNodes</a> method.
+Index of the node. To find the number of nodes, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">IKsTopologyInfo::get_NumNodes</a> method.
 
 
 ### -param pwchNodeName [out]
@@ -170,7 +168,7 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 
 
 
-<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
  
 
  

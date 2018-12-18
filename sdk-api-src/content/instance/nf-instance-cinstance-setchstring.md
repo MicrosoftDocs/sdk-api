@@ -9,8 +9,6 @@ ms.assetid: 590df94c-3992-49eb-a043-c5d8e1e72455
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z, ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,const CHString&), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__const_chstring__"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

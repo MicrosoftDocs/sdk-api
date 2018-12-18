@@ -9,8 +9,6 @@ ms.assetid: C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFrameStatistics, GetFrameStatistics method [DirectComposition], GetFrameStatistics method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],GetFrameStatistics method, IDCompositionDevice.GetFrameStatistics, IDCompositionDevice::GetFrameStatistics, dcomp/IDCompositionDevice::GetFrameStatistics, directcomp.idcompositiondevice_getframestatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves information from the composition engine about composition times and th
 
 ### -param statistics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/431D8399-9BCC-4B3A-89F4-E698446EF764">DCOMPOSITION_FRAME_STATISTICS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437366(v=VS.85).aspx">DCOMPOSITION_FRAME_STATISTICS</a>*</b>
 
 A structure that receives composition times and frame rate information.
 
@@ -90,11 +88,11 @@ This method retrieves timing information about the composition engine that an ap
 
 
 
-<a href="basic_concepts.htm">Composition Target Window</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437351(v=VS.85).aspx">Composition Target Window</a>
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
  
 
  

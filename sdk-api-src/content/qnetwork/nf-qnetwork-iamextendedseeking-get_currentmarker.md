@@ -9,8 +9,6 @@ ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
  
 
  

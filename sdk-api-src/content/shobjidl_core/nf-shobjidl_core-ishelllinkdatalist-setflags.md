@@ -9,8 +9,6 @@ ms.assetid: 0fca6394-e8ad-4ef3-a7d8-60e85229556b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -62,7 +60,7 @@ Sets the current option settings.
 
 Type: <b>DWORD</b>
 
-One or more of the <a href="https://msdn.microsoft.com/3b810223-b2d9-40ca-92bd-4d9f31981355">SHELL_LINK_DATA_FLAGS</a> that indicate the option settings.
+One or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb762540(v=VS.85).aspx">SHELL_LINK_DATA_FLAGS</a> that indicate the option settings.
 
 
 ## -returns

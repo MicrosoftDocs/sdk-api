@@ -9,8 +9,6 @@ ms.assetid: 66737d94-aa63-4f01-a446-1dffc18e8b82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetCount method, IXpsOMDictionary.GetCount, IXpsOMDictionary::GetCount, xps.ixpsomdictionary_getcount, xpsobjectmodel/IXpsOMDictionary::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

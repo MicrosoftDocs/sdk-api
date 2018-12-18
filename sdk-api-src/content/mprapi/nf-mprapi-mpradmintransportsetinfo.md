@@ -9,8 +9,6 @@ ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

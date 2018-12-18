@@ -9,8 +9,6 @@ ms.assetid: 15dcc7ac-4edb-42fa-8466-033794762046
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_LIST_ACCOUNT_OBJECT_FOR_SERVER, DS_LIST_DNS_HOST_NAME_FOR_SERVER, DS_LIST_DSA_OBJECT_FOR_SERVER, DsListInfoForServer, DsListInfoForServer function [Active Directory], DsListInfoForServerA, DsListInfoForServerW, _glines_dslistinfoforserver, ad.dslistinfoforserver, ntdsapi/DsListInfoForServer, ntdsapi/DsListInfoForServerA, ntdsapi/DsListInfoForServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -75,10 +73,10 @@ Pointer to a null-terminated string that specifies the server name. This name mu
 ### -param ppInfo [out]
 
 Pointer to a variable that receives a pointer to a 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure that contains the server data. The returned structure must be deallocated using 
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure that contains the server data. The returned structure must be deallocated using 
 <a href="https://msdn.microsoft.com/210650a6-70b9-4d4f-b99a-106afd3fe615">DsFreeNameResult</a>.
 
-The indexes of the array in the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure indicate what data are contained by each array element. The following constants may be used to specify the desired index for a particular piece of data.
+The indexes of the array in the <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure indicate what data are contained by each array element. The following constants may be used to specify the desired index for a particular piece of data.
 
 
 
@@ -114,7 +112,7 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
 
 
 
@@ -124,7 +122,7 @@ Individual name conversion errors are reported in the returned <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

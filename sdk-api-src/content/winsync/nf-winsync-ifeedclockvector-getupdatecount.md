@@ -9,8 +9,6 @@ ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

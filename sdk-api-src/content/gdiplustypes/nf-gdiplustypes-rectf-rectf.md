@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfconstru
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RectF, RectF class [GDI+],RectF constructor, RectF constructor [GDI+], RectF constructor [GDI+],RectF class, RectF.RectF, RectF.RectF(), RectF::RectF, _gdiplus_CLASS_RectF_RectF_, gdiplus._gdiplus_CLASS_RectF_RectF_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

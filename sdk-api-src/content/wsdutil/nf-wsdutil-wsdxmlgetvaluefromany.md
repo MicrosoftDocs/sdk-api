@@ -9,8 +9,6 @@ ms.assetid: 544399f6-d98d-4a57-824a-b21567262141
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXMLGetValueFromAny, WSDXMLGetValueFromAny function, ncd.wsdxmlgetvaluefromany, wsdutil/WSDXMLGetValueFromAny
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

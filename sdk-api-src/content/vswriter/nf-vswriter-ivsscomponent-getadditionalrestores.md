@@ -9,8 +9,6 @@ ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdditionalRestores, GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAdditionalRestores method, IVssComponent.GetAdditionalRestores, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

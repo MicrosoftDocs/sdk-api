@@ -9,8 +9,6 @@ ms.assetid: EF682ED4-2AD5-4A5B-A308-C671A9E6EB10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreateNetConnectionIncident, NdfCreateNetConnectionIncident function [NDF], ndf.ndfcreatenetconnectionincident, ndfapi/NdfCreateNetConnectionIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

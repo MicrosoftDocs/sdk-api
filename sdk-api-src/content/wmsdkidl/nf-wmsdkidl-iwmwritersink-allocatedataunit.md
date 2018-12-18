@@ -9,8 +9,6 @@ ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ Size of the data unit that the writer needs to deliver, in bytes. The buffer you
 
 ### -param ppDataUnit [out]
 
-On return, set to a pointer to the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of a buffer object.
+On return, set to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of a buffer object.
 
 
 ## -returns
@@ -88,7 +86,7 @@ This method is implemented by the application. It should always return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
  
 
  

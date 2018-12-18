@@ -9,8 +9,6 @@ ms.assetid: 1d46142d-aa4a-49fc-89dc-44266d21e405
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OFASI_EDIT, OFASI_OPENDESKTOP, SHOpenFolderAndSelectItems, SHOpenFolderAndSelectItems function [Windows Shell], shell.SHOpenFolderAndSelectItems, shell_SHOpenFolderAndSelectItems, shlobj_core/SHOpenFolderAndSelectItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

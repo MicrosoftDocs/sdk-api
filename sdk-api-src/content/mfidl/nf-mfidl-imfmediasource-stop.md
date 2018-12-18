@@ -9,8 +9,6 @@ ms.assetid: aa7af7a0-a6c2-4c9e-9f98-d36716679297
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSource.Stop, IMFMediaSource::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSource interface, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

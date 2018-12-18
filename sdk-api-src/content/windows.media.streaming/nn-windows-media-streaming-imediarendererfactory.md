@@ -9,8 +9,6 @@ ms.assetid: E07EC208-CF00-46D0-B00D-AA8E59F12A0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaRendererFactory, IMediaRendererFactory interface [Media Streaming API], IMediaRendererFactory interface [Media Streaming API],described, mediastreaming.imediarendererfactory, windows/IMediaRendererFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.media.streaming.h
 req.include-header: 

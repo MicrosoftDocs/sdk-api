@@ -9,8 +9,6 @@ ms.assetid: dd104c59-faee-4eb6-abbc-a4c13d766298
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupRemoveInstallSectionFromDiskSpaceList, SetupRemoveInstallSectionFromDiskSpaceList function [Setup API], SetupRemoveInstallSectionFromDiskSpaceListA, SetupRemoveInstallSectionFromDiskSpaceListW, _setupapi_setupremoveinstallsectionfromdiskspacelist, setup.setupremoveinstallsectionfromdiskspacelist, setupapi/SetupRemoveInstallSectionFromDiskSpaceList, setupapi/SetupRemoveInstallSectionFromDiskSpaceListA, setupapi/SetupRemoveInstallSectionFromDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

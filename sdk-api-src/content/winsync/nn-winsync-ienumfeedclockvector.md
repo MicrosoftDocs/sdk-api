@@ -9,8 +9,6 @@ ms.assetid: 87679327-3a09-4416-b802-91171feb160a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumFeedClockVector, IEnumFeedClockVector interface [Windows Sync], IEnumFeedClockVector interface [Windows Sync],described, winsync.ienumfeedclockvector, winsync/IEnumFeedClockVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

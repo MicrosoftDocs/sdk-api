@@ -9,8 +9,6 @@ ms.assetid: 66c7e52a-d7b4-4c37-a863-fb42f5415c0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_openState method, IWMPCore.get_openState, IWMPCore::get_openState, IWMPCoreget_openState, get_openState, get_openState method [Windows Media Player], get_openState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_openstate, wmp/IWMPCore::get_openState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/535c8f56-d854-449b-ad50-72e5dd32710a">WMPOpenState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564878(v=VS.85).aspx">WMPOpenState</a>
  
 
  

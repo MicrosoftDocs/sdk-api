@@ -9,8 +9,6 @@ ms.assetid: fff7f954-4e57-42bf-ad86-5ddede94279c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdleSettings interface [Task Scheduler],WaitTimeout property, IIdleSettings.WaitTimeout, IIdleSettings.get_WaitTimeout, IIdleSettings::WaitTimeout, IIdleSettings::get_WaitTimeout, IIdleSettings::put_WaitTimeout, WaitTimeout property [Task Scheduler], WaitTimeout property [Task Scheduler],IIdleSettings interface, get_WaitTimeout, taskschd.iidlesettings_waittimeout, taskschd/IIdleSettings::WaitTimeout, taskschd/IIdleSettings::get_WaitTimeout, taskschd/IIdleSettings::put_WaitTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

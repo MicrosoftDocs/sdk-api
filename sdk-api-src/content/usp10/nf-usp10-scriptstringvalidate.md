@@ -9,8 +9,6 @@ ms.assetid: dde9332a-0a89-4914-9d41-6ce6519cdcb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 
@@ -81,7 +79,7 @@ Returns S_OK if no invalid sequences are found. The function returns S_FALSE if 
 
 This function is intended for use in editors that reject the input of invalid sequences.
 
-Invalid sequences are only checked for scripts with the <b>fRejectInvalid</b> member set in the associated <a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a> structure. For example, it is conventional for Notepad to reject invalid Thai character sequences. However, invalid Indian sequences are not conventionally rejected, but instead are displayed in composition with a missing base character symbol.
+Invalid sequences are only checked for scripts with the <b>fRejectInvalid</b> member set in the associated <a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a> structure. For example, it is conventional for Notepad to reject invalid Thai character sequences. However, invalid Indian sequences are not conventionally rejected, but instead are displayed in composition with a missing base character symbol.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
@@ -93,7 +91,7 @@ Invalid sequences are only checked for scripts with the <b>fRejectInvalid</b> me
 
 
 
-<a href="https://msdn.microsoft.com/473c1265-1c2c-48f3-a852-c701bebcf9eb">SCRIPT_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd374042(v=VS.85).aspx">SCRIPT_PROPERTIES</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 81277122-b2fe-40af-85f8-d578925856a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFileOk method, IFileDialogEvents.OnFileOk, IFileDialogEvents::OnFileOk, OnFileOk, OnFileOk method [Windows Shell], OnFileOk method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFileOk, shell_IFileDialogEvents_OnFileOk, shobjidl_core/IFileDialogEvents::OnFileOk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

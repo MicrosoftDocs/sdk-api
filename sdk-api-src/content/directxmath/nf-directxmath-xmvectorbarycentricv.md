@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorBaryCentricV(XMVECTOR,XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorBaryCentricV, XMVectorBaryCentricV, XMVectorBaryCentricV method [DirectX Math Support APIs], dxmath.xmvectorbarycentricv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

@@ -9,8 +9,6 @@ ms.assetid: BF31E36C-756E-4B4A-959B-4BA7517427CB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.srpgetenterprisepolicy, SrpGetEnterprisePolicy, SrpGetEnterprisePolicy function, srpapi/SrpGetEnterprisePolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

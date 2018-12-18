@@ -9,8 +9,6 @@ ms.assetid: c8d21ea2-0104-44e1-9f5b-5c0c23593e43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamSample interface [DirectShow],SetSampleTimes method, IStreamSample.SetSampleTimes, IStreamSample::SetSampleTimes, IStreamSampleSetSampleTimes, SetSampleTimes, SetSampleTimes method [DirectShow], SetSampleTimes method [DirectShow],IStreamSample interface, dshow.istreamsample_setsampletimes, mmstream/IStreamSample::SetSampleTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -98,7 +96,7 @@ This method applies only to writable streams.
 
 
 
-<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
 
 
 

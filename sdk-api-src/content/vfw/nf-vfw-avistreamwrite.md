@@ -9,8 +9,6 @@ ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

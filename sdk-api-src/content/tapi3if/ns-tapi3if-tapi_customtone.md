@@ -9,8 +9,6 @@ ms.assetid: 1d3c7b25-92a8-41f5-8186-f6425cc6be74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tapi3if.h
 req.include-header: 

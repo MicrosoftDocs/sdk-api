@@ -9,8 +9,6 @@ ms.assetid: f7730efe-e367-4642-8482-2a23052bab0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionProfile, IMbnConnectionProfile interface [Microsoft Broadband Networks], IMbnConnectionProfile interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofile, mbnapi/IMbnConnectionProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

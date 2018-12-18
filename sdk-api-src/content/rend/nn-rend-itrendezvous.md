@@ -9,8 +9,6 @@ ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

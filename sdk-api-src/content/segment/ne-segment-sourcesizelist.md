@@ -9,8 +9,6 @@ ms.assetid: 579c4993-6238-47c7-b61c-398568c1fb94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MSVidCtlSourceSizeListEnumeration, SourceSizeList, SourceSizeList enumeration [Microsoft TV Technologies], enumeration [Microsoft TV Technologies], mstv.sourcesizelist, segment/SourceSizeList, segment/sslClipByClipRect, segment/sslClipByOverScan, segment/sslFullSize, sslClipByClipRect, sslClipByOverScan, sslFullSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: segment.h
 req.include-header: Dshow.h
@@ -71,12 +69,12 @@ Do not clip the source video rectangle.
 
 ### -field sslClipByOverScan
 
-Clip the source video rectangle by the value specified in the last call to <a href="https://msdn.microsoft.com/141df99b-4fc7-439c-953e-1fa1c544258e">IMSVidVideoRenderer::put_OverScan</a>.
+Clip the source video rectangle by the value specified in the last call to <a href="https://msdn.microsoft.com/en-us/library/Dd694754(v=VS.85).aspx">IMSVidVideoRenderer::put_OverScan</a>.
 
 
 ### -field sslClipByClipRect
 
-Clip the source video rectangle by the value specified in the last call to <a href="https://msdn.microsoft.com/c72d8134-ff6c-46b4-b567-35638aef53cd">IMSVidVideoRenderer::put_ClippedSourceRect</a>
+Clip the source video rectangle by the value specified in the last call to <a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">IMSVidVideoRenderer::put_ClippedSourceRect</a>
 
 
 
@@ -85,11 +83,11 @@ Clip the source video rectangle by the value specified in the last call to <a hr
 
 
 
-<a href="https://msdn.microsoft.com/312a2c1e-5332-4a2d-ada9-1dc8236f4170">IMSVidVideoRenderer::get_SourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694743(v=VS.85).aspx">IMSVidVideoRenderer::get_SourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c792f064-a137-4872-8c79-6e924b6023f0">IMSVidVideoRenderer::put_SourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694755(v=VS.85).aspx">IMSVidVideoRenderer::put_SourceSize</a>
 
 
 

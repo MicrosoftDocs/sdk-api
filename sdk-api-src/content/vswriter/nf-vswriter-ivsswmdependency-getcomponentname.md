@@ -9,8 +9,6 @@ ms.assetid: b0115a42-3c74-41a0-8062-0f20123780fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetComponentName method, IVssWMDependency.GetComponentName, IVssWMDependency::GetComponentName, _win32_ivsswmdependency_getcomponentname, base.ivsswmdependency_getcomponentname, vswriter/IVssWMDependency::GetComponentName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: 21960718-818c-4efb-a2c2-577c3b938da4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_LocalOscilatorFrequencyHighBand method, IBDA_LNBInfo.get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, IBDA_LNBInfoget_LocalOscilatorFrequencyHighBand, bdaiface/IBDA_LNBInfo::get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand, get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies], get_LocalOscilatorFrequencyHighBand method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_localoscilatorfrequencyhighband
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

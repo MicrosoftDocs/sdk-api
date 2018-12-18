@@ -9,8 +9,6 @@ ms.assetid: 0fd874b0-9093-4c1b-94a0-a2aaad19010e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.put_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, put_UIContextMessage, security.isignercertificate_uicontextmessage_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,26 +62,26 @@ This property is read/write.
 
 
 
-Call this property to specify a value before calling the <a href="https://msdn.microsoft.com/en-us/library/Aa376832(v=VS.85).aspx">Initialize</a> method. You can also call the following properties to retrieve additional information about the signing certificate object:
+Call this property to specify a value before calling the <a href="https://msdn.microsoft.com/2553f0bc-a177-49fc-932f-080cb4bd7a5c">Initialize</a> method. You can also call the following properties to retrieve additional information about the signing certificate object:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376831(v=VS.85).aspx">Certificate</a>
+<a href="https://msdn.microsoft.com/7c7cc326-593d-4b2b-b8db-46aaf894279b">Certificate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376834(v=VS.85).aspx">ParentWindow</a>
+<a href="https://msdn.microsoft.com/a1749c92-11e4-4726-a355-ccdd245b4df8">ParentWindow</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376835(v=VS.85).aspx">Pin</a>
+<a href="https://msdn.microsoft.com/695d895e-0646-4a2e-a699-86674f919bad">Pin</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376836(v=VS.85).aspx">PrivateKey</a>
+<a href="https://msdn.microsoft.com/047a22ba-9817-45b7-aa9a-356245d2b824">PrivateKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376838(v=VS.85).aspx">SignatureInformation</a>
+<a href="https://msdn.microsoft.com/e870e17f-42e4-4548-b876-f5e0556bff0e">SignatureInformation</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376839(v=VS.85).aspx">Silent</a>
+<a href="https://msdn.microsoft.com/b598d4a2-d53a-4091-a059-f9674acf9318">Silent</a>
 </li>
 </ul>
 
@@ -94,7 +92,7 @@ Call this property to specify a value before calling the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
  
 
  

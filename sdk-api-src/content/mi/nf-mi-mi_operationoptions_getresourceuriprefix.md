@@ -9,8 +9,6 @@ ms.assetid: c6ef1e8c-0d80-4359-a0f4-9d25ed39eae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_OperationOptions_GetResourceUriPrefix, MI_OperationOptions_GetResourceUriPrefix function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetResourceUriPrefix, wmi_v2.mi_operationoptions_getresourceuriprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

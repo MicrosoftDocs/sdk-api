@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getitemtype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemType, GetItemType method [WIA], GetItemType method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetItemType method, IWiaItem.GetItemType, IWiaItem::GetItemType, _wia_IWiaItem_GetItemType, wia._wia_IWiaItem_GetItemType, wia_xp/IWiaItem::GetItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,6 @@ ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: atacct.h
 req.include-header: 

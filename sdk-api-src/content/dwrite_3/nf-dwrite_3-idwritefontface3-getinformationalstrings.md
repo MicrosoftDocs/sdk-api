@@ -9,8 +9,6 @@ ms.assetid: F3CF5E9E-C0EA-4A29-8D42-11873DF5A9F2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetInformationalStrings method, IDWriteFontFace3.GetInformationalStrings, IDWriteFontFace3::GetInformationalStrings, directwrite.idwritefontface3_getinformationalstrings, dwrite_3/IDWriteFontFace3::GetInformationalStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the font doesn't contain the specified string, the return value is S_OK, but 
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

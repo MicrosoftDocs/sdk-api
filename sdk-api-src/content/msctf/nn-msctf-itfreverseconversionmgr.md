@@ -9,8 +9,6 @@ ms.assetid: b02f3966-4bbf-4266-b5a5-237d975f69c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfReverseConversionMgr, ITfReverseConversionMgr interface [Text Services Framework], ITfReverseConversionMgr interface [Text Services Framework],described, msctf/ITfReverseConversionMgr, tsf.itfreverseconversionmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

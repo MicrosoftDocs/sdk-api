@@ -9,8 +9,6 @@ ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindVolumeMountPointClose, FindVolumeMountPointClose function [Files], _win32_findvolumemountpointclose, base.findvolumemountpointclose, fs.findvolumemountpointclose, winbase/FindVolumeMountPointClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

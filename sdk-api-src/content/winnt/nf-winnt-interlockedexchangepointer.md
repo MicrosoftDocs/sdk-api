@@ -9,8 +9,6 @@ ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h
@@ -87,7 +85,7 @@ On a 64-bit system, the parameters are 64 bits and the <i>Target</i> parameter m
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/853x471w(v=VS.85).aspx">_InterlockedExchangePointer</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="0eaca0b0-d79e-406b-892d-b3b462c50bbb">_InterlockedExchangePointer</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

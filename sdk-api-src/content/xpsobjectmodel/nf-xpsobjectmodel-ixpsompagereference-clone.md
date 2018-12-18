@@ -9,8 +9,6 @@ ms.assetid: 30511ddc-19c3-4122-864d-c368df9619a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],Clone method, IXpsOMPageReference.Clone, IXpsOMPageReference::Clone, xps.ixpsompagereference_clone, xpsobjectmodel/IXpsOMPageReference::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

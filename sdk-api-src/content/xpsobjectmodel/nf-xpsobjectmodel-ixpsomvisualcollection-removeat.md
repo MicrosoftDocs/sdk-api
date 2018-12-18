@@ -9,8 +9,6 @@ ms.assetid: 476c296e-a4f1-4c87-afff-c8231290c581
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMVisualCollection.RemoveAt, IXpsOMVisualCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_removeat, xpsobjectmodel/IXpsOMVisualCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

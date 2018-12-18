@@ -9,8 +9,6 @@ ms.assetid: 2c8ad002-cef4-499c-acda-c162205f6a8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyFile, CopyFile function [Files], CopyFileA, CopyFileW, _win32_copyfile, base.copyfile, fs.copyfile, winbase/CopyFile, winbase/CopyFileA, winbase/CopyFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

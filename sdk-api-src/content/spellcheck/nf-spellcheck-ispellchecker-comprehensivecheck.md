@@ -9,8 +9,6 @@ ms.assetid: E364F423-AF17-4F91-993B-CEA0E50CAF67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],ComprehensiveCheck method, ISpellChecker.ComprehensiveCheck, ISpellChecker::ComprehensiveCheck, intl.ispellchecker_comprehensivecheck, spellcheck/ISpellChecker::ComprehensiveCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

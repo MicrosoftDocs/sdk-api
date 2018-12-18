@@ -9,8 +9,6 @@ ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -9,8 +9,6 @@ ms.assetid: 04b47836-0c27-41da-b71d-6c4abca6dd56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRepeatLabel, GetRepeatLabel method [Microsoft TV Technologies], GetRepeatLabel method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetRepeatLabel method, IIsdbSeriesDescriptor.GetRepeatLabel, IIsdbSeriesDescriptor::GetRepeatLabel, dvbsiparser/IIsdbSeriesDescriptor::GetRepeatLabel, mstv.iisdbseriesdescriptor_getrepeatlabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

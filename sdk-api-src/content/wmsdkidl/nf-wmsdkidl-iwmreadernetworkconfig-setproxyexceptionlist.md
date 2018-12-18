@@ -9,8 +9,6 @@ ms.assetid: 1f6c6bb6-3a42-44da-ab80-e72a19b8d272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxyExceptionList method, IWMReaderNetworkConfig.SetProxyExceptionList, IWMReaderNetworkConfig::SetProxyExceptionList, IWMReaderNetworkConfigSetProxyExceptionList, SetProxyExceptionList, SetProxyExceptionList method [windows Media Format], SetProxyExceptionList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxyexceptionlist, wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,15 +127,15 @@ Wildcard characters can be used in the list entries (using the * character). For
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/90cf6e58-8666-4bab-974e-a7e999aeddf1">IWMReaderNetworkConfig::GetProxyExceptionList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743531(v=VS.85).aspx">IWMReaderNetworkConfig::GetProxyExceptionList</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

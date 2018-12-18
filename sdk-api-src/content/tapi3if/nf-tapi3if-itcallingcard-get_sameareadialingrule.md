@@ -9,8 +9,6 @@ ms.assetid: d8539040-a988-4d96-8cf1-9ec8ff46a0a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_SameAreaDialingRule method, ITCallingCard.get_SameAreaDialingRule, ITCallingCard::get_SameAreaDialingRule, _tapi3_itcallingcard_get_sameareadialingrule, get_SameAreaDialingRule, get_SameAreaDialingRule method [TAPI 2.2], get_SameAreaDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_sameareadialingrule, tapi3if/ITCallingCard::get_SameAreaDialingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

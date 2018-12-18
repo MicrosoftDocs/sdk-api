@@ -9,8 +9,6 @@ ms.assetid: c407e0a6-676f-419d-ab9a-85f5d0dcc480
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindow, GetWindow method [Picture Acquisition], GetWindow method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],GetWindow method, IPhotoProgressDialog.GetWindow, IPhotoProgressDialog::GetWindow, IPhotoProgressDialogGetWindow, photoacquire/IPhotoProgressDialog::GetWindow, picacq.iphotoprogressdialog_getwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

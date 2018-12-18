@@ -9,8 +9,6 @@ ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

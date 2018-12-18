@@ -9,8 +9,6 @@ ms.assetid: 20822e1d-b367-4b03-9d8a-985427f0062d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],OpenStream method, IWMReaderAdvanced2.OpenStream, IWMReaderAdvanced2::OpenStream, IWMReaderAdvanced2OpenStream, OpenStream, OpenStream method [windows Media Format], OpenStream method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_openstream, wmsdkidl/IWMReaderAdvanced2::OpenStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ Pointer to an <b>IStream</b> interface (see the Remarks section below).
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback</a> interface.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback</a> interface.
 
 
 ### -param pvContext [in]
@@ -144,9 +142,9 @@ The method failed for an unspecified reason.
 
 
 
-This method is identical to <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>, except that it takes an <b>IStream</b> interface pointer instead of a URL. An <b>IStream</b> is a standard COM interface for providing data. This allows the application to provide its own data, rather than just getting data from a file or a network. For example, if you have an <b>IStream</b> interface pointer that represents the contents of a supported media file (Windows Media Audio, Windows Media Video, MP3, for example) and, for performance reasons, you do not want to write a temporary file , this is a way you can use the SDK to parse and decompress your content.
+This method is identical to <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, except that it takes an <b>IStream</b> interface pointer instead of a URL. An <b>IStream</b> is a standard COM interface for providing data. This allows the application to provide its own data, rather than just getting data from a file or a network. For example, if you have an <b>IStream</b> interface pointer that represents the contents of a supported media file (Windows Media Audio, Windows Media Video, MP3, for example) and, for performance reasons, you do not want to write a temporary file , this is a way you can use the SDK to parse and decompress your content.
 
-This method sends a WMT_OPENED status notification to the application's <b>IWMReaderCallback::OnStatus</b> function. (<a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">OnStatus</a> is inherited by <b>IWMReaderCallback</b> from <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a>.)
+This method sends a WMT_OPENED status notification to the application's <b>IWMReaderCallback::OnStatus</b> function. (<a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">OnStatus</a> is inherited by <b>IWMReaderCallback</b> from <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a>.)
 
 
 
@@ -156,7 +154,7 @@ This method sends a WMT_OPENED status notification to the application's <b>IWMRe
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
  
 
  

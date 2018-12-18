@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_pssetshaderresources.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5c6524cb-030c-fa99-f855-ac20599cb810, ID3D10Device interface [Direct3D 10],PSSetShaderResources method, ID3D10Device.PSSetShaderResources, ID3D10Device::PSSetShaderResources, PSSetShaderResources, PSSetShaderResources method [Direct3D 10], PSSetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetShaderResources, direct3d10.id3d10device_pssetshaderresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin setting shader resources to.
 
 
 ### -param NumViews [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of shader resources to set. Up to a maximum of 128 slots are available for shader resources.
 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2GreaterOrEqual(XMVECTOR,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2GreaterOrEqual, XMVector2GreaterOrEqual, XMVector2GreaterOrEqual method [DirectX Math Support APIs], dxmath.xmvector2greaterorequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -104,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/10458d7d-2d04-410c-96d5-9ac8eac8185e">XMVector2GreaterOrEqualR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420768(v=VS.85).aspx">XMVector2GreaterOrEqualR</a>
  
 
  

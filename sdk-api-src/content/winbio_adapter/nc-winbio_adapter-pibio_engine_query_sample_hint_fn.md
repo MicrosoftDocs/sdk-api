@@ -9,8 +9,6 @@ ms.assetid: 9208cd3e-205d-4ef0-8f67-292385dea9a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngineAdapterQuerySampleHint, EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN, PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback, secbiomet.engineadapterquerysamplehint, winbio_adapter/EngineAdapterQuerySampleHint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

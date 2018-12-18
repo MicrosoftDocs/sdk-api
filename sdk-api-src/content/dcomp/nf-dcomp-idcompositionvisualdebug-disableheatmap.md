@@ -9,8 +9,6 @@ ms.assetid: C186E930-4523-4DF7-8E74-B69AF91622F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableHeatMap method, IDCompositionVisualDebug.DisableHeatMap, IDCompositionVisualDebug::DisableHeatMap, dcomp/IDCompositionVisualDebug::DisableHeatMap, directcomp.idcompositionvisualdebug_disableheatmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -74,11 +72,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
  
 
  

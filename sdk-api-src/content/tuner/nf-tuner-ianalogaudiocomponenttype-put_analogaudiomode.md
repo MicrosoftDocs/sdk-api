@@ -9,8 +9,6 @@ ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],put_AnalogAudioMode method, IAnalogAudioComponentType.put_AnalogAudioMode, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>put_AnalogAudioMode</b> method specifies the analog audio mode.
 
 ### -param Mode [in]
 
-Specifies the analog audio mode. This parameter is a variable of type <a href="https://msdn.microsoft.com/70e26550-0a8f-484e-b919-cfefdcf95f6b">TVAudioMode</a>.
+Specifies the analog audio mode. This parameter is a variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407240(v=VS.85).aspx">TVAudioMode</a>.
 
 
 ## -returns

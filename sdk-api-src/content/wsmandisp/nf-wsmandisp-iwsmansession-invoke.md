@@ -9,8 +9,6 @@ ms.assetid: 3fdf769c-dc7e-4089-b781-be288855d5c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Invoke method, IWSManSession.Invoke, IWSManSession::Invoke, Invoke, Invoke method [Windows Remote Management], Invoke method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_invoke, wsmandisp/IWSManSession::Invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cbd08812-eedc-4ba7-827e-1e5d1e3e6368
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WriteCabinetState, WriteCabinetState function [Windows Shell], _win32_WriteCabinetState, shell.WriteCabinetState, shlobj_core/WriteCabinetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[<b>WriteCabinetState</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Writes the information contained in a <a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a> structure into the registry.
+Writes the information contained in a <a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a> structure into the registry.
 
 
 ## -parameters
@@ -62,9 +60,9 @@ Writes the information contained in a <a href="https://msdn.microsoft.com/4b82b6
 
 ### -param pcs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a> structure that holds the values to be set.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a> structure that holds the values to be set.
 
 
 ## -returns

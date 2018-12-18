@@ -9,8 +9,6 @@ ms.assetid: c39acf72-7c03-4d8b-b4f2-776e4b32f781
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDuration method, IUIAnimationInterpolator.GetDuration, IUIAnimationInterpolator::GetDuration, uianimation.iuianimationinterpolator_getduration, uianimation/IUIAnimationInterpolator::GetDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

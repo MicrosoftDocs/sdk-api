@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitproplistgetfirst.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFirst, GetFirst method [HTML Help Workshop], GetFirst method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetFirst method, IITPropList.GetFirst, IITPropList::GetFirst, htmlhelp.iitproplist_getfirst, infotech/IITPropList::GetFirst, refIITPropListGetFirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

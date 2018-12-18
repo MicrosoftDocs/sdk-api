@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Add method, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,9 +65,9 @@ Null-terminated string that indicates the name of the group to add. Note that yo
 
 ### -param pFaxOutboundRoutingGroup [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a>**</b>
 
-Address of a pointer that receives a <a href="https://msdn.microsoft.com/147fbebd-0000-4a24-b9cf-da4132b46edf">IFaxOutboundRoutingGroup</a> interface.
+Address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms689099(v=VS.85).aspx">IFaxOutboundRoutingGroup</a> interface.
 
 
 ## -returns

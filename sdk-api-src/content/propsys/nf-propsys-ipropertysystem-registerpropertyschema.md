@@ -9,8 +9,6 @@ ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
@@ -121,7 +119,7 @@ Indicates one or more of the property descriptions in the schema was not registe
 
 
 
-This method informs the schema subsystem of the addition of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local computer. Call this method only when the file has first been installed on the computer. Typically, a setup application calls this method after installing the .propdesc file, which should be stored in the install directory of the application under "Program Files". Multiple calls may be made to <a href="https://msdn.microsoft.com/library/Bb761441(v=VS.85).aspx">IPropertySystem::RegisterPropertySchema</a> in order to batch-register multiple schema files.
+This method informs the schema subsystem of the addition of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local computer. Call this method only when the file has first been installed on the computer. Typically, a setup application calls this method after installing the .propdesc file, which should be stored in the install directory of the application under "Program Files". Multiple calls may be made to <a href="shell.IPropertySystem_RegisterPropertySchema">IPropertySystem::RegisterPropertySchema</a> in order to batch-register multiple schema files.
 
 If a failure is encountered that prevents a property description from getting loaded, the cause will be recorded in the application event log. This method fails with E_ACCESSDENIED if the calling context does not have proper privileges, which include write access to HKLM (HKEY_LOCAL_MACHINE). It is the responsibility of the calling application to obtain privileges via limited user account (LUA) mechanisms.
 
@@ -133,7 +131,7 @@ If a failure is encountered that prevents a property description from getting lo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="shell.IPropertySystem">IPropertySystem</a>
  
 
  

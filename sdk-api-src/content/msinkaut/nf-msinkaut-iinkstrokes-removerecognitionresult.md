@@ -9,8 +9,6 @@ ms.assetid: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b, IInkStrokes interface [Tablet PC],RemoveRecognitionResult method, IInkStrokes.RemoveRecognitionResult, IInkStrokes::RemoveRecognitionResult, RemoveRecognitionResult, RemoveRecognitionResult method [Tablet PC], RemoveRecognitionResult method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveRecognitionResult, tablet.inkstrokes_removerecognitionresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -117,7 +115,7 @@ To set a recognition result on an <a href="https://msdn.microsoft.com/c7fb921c-0
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

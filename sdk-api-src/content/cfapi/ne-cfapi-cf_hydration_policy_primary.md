@@ -9,8 +9,6 @@ ms.assetid: 47ACA107-80AA-42B3-B583-399323E2B11C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_HYDRATION_POLICY_ALWAYS_FULL, CF_HYDRATION_POLICY_FULL, CF_HYDRATION_POLICY_PARTIAL, CF_HYDRATION_POLICY_PRIMARY, CF_HYDRATION_POLICY_PRIMARY enumeration, CF_HYDRATION_POLICY_PROGRESSIVE, cfapi/CF_HYDRATION_POLICY_ALWAYS_FULL, cfapi/CF_HYDRATION_POLICY_FULL, cfapi/CF_HYDRATION_POLICY_PARTIAL, cfapi/CF_HYDRATION_POLICY_PRIMARY, cfapi/CF_HYDRATION_POLICY_PROGRESSIVE, cloudApi.cf_hydration_policy_primary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

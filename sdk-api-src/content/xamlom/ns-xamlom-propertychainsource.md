@@ -9,8 +9,6 @@ ms.assetid: B9A506D5-5F7B-429C-AA62-52B4C5BF78E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PPropertyChainSource, PPropertyChainSource structure pointer, PropertyChainSource, PropertyChainSource structure, xaml_diagnostics.propertychainsource, xamlom/PPropertyChainSource, xamlom/PropertyChainSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

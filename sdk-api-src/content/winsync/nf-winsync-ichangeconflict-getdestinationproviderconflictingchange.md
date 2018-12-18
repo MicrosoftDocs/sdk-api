@@ -9,8 +9,6 @@ ms.assetid: 4624f92a-8455-4490-a256-9cf849626844
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDestinationProviderConflictingChange, GetDestinationProviderConflictingChange method [Windows Sync], GetDestinationProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingChange method, IChangeConflict.GetDestinationProviderConflictingChange, IChangeConflict::GetDestinationProviderConflictingChange, winsync.ichangeconflict_getdestinationproviderconflictingchange, winsync/IChangeConflict::GetDestinationProviderConflictingChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

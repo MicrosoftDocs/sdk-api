@@ -9,8 +9,6 @@ ms.assetid: 3b997cd0-a947-4ce7-b047-85268ea46b70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [BITS], GetFileSize method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileSize method, IBitsPeerCacheRecord.GetFileSize, IBitsPeerCacheRecord::GetFileSize, bits.ibitspeercacherecord_getfilesize, bits3_0/IBitsPeerCacheRecord::GetFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -97,7 +95,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964291(v=VS.85).aspx">IBitsPeerCacheRecord</a>
+<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
  
 
  

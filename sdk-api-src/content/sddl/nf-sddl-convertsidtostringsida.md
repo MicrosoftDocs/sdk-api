@@ -9,8 +9,6 @@ ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sddl.h
 req.include-header: 

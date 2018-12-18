@@ -9,8 +9,6 @@ ms.assetid: 11acda14-3932-43e4-b45e-e129886c354f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetTag method, IDirectManipulationContent.GetTag, IDirectManipulationContent::GetTag, directmanipulation.idirectmanipulationcontent_gettag, directmanipulation/IDirectManipulationContent::GetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

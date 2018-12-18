@@ -9,8 +9,6 @@ ms.assetid: 69C7B4D6-B87E-4282-98EA-EF77AB4131E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,GetDesc method, ID3D12ProtectedResourceSession.GetDesc, ID3D12ProtectedResourceSession::GetDesc, d3d12/ID3D12ProtectedResourceSession::GetDesc, direct3d12.id3d12protectedresourcesession_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -74,7 +72,7 @@ A <b>D3D12_PROTECTED_RESOURCE_SESSION_DESC</b> that describes the protected reso
 
 
 
-<a href="direct3d12.id3d12protectedresourcesession">ID3D12ProtectedResourceSession</a>
+<a href="https://msdn.microsoft.com/9D4833DB-DF9E-46A8-9EF7-667A95F3EFDD">ID3D12ProtectedResourceSession</a>
  
 
  

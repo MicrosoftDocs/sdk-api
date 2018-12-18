@@ -9,8 +9,6 @@ ms.assetid: ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AVDecCommonMeanBitRate, AVDecCommonMeanBitRate method [Microsoft TV Technologies], AVDecCommonMeanBitRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonMeanBitRate method, IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate, IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate, mstv.imsvidaudiorendererevent2_avdeccommonmeanbitrate, segment/IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -74,11 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae">AVDecCommonMeanBitRate Property</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694460(v=VS.85).aspx">AVDecCommonMeanBitRate Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/f37d3abb-e8ad-4aae-884a-1c6c4fa445e2">IMSVidAudioRendererEvent2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
  
 
  

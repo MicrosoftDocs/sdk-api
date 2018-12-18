@@ -9,8 +9,6 @@ ms.assetid: 52de3e11-89b3-4cf2-92f3-cc6dff686e0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],OnEndFile method, IFsrmClassifierModuleImplementation.OnEndFile, IFsrmClassifierModuleImplementation::OnEndFile, OnEndFile, OnEndFile method [File Server Resource Manager], OnEndFile method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_onendfile, fsrm.ifsrmclassifiermoduleimplementation_onendfile, fsrmpipeline/IFsrmClassifierModuleImplementation::OnEndFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

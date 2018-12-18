@@ -9,8 +9,6 @@ ms.assetid: 91e65c9a-0600-42e3-97f5-2a5960e1ec89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateShellItemArrayFromDataObject, SHCreateShellItemArrayFromDataObject function [Windows Shell], _shell_SHCreateShellItemArrayFromDataObject, shell.SHCreateShellItemArrayFromDataObject, shobjidl_core/SHCreateShellItemArrayFromDataObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

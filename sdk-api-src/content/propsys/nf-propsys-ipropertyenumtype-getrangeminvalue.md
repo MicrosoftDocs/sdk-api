@@ -9,8 +9,6 @@ ms.assetid: e25f776d-f343-4c14-931e-ce2f2761ce2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRangeMinValue, GetRangeMinValue method [Windows Properties], GetRangeMinValue method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetRangeMinValue method, IPropertyEnumType.GetRangeMinValue, IPropertyEnumType::GetRangeMinValue, _shell_IPropertyEnumType_GetRangeMinValue, properties.IPropertyEnumType_GetRangeMinValue, propsys/IPropertyEnumType::GetRangeMinValue, shell.IPropertyEnumType_GetRangeMinValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
+For additional information, see <a href="shell.propdesc_schema_enumeratedList">enumeratedList</a>.
 
 
 

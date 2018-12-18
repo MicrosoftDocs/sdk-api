@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Clear method, IITPropList.Clear, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

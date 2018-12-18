@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\hascove
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxOutgoingJob2 interface, IFaxOutgoingJob2 interface [Fax Service],HasCoverPage property, IFaxOutgoingJob2.HasCoverPage, IFaxOutgoingJob2.get_HasCoverPage, IFaxOutgoingJob2::HasCoverPage, IFaxOutgoingJob2::get_HasCoverPage, _mfax_faxoutgoingjob.hascoverpage, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_hascoverpage_cpp, fax._mfax_faxoutgoingjob_hascoverpage, faxcomex/IFaxOutgoingJob2::HasCoverPage, faxcomex/IFaxOutgoingJob2::get_HasCoverPage, get_HasCoverPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,11 +72,11 @@ The value is VARIANT_TRUE if there is a cover page; otherwise VARIANT_FALSE.
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/b45eb511-ab21-4f63-8d64-d042fe0fefd0">IFaxOutgoingJob2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358991(v=VS.85).aspx">IFaxOutgoingJob2</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

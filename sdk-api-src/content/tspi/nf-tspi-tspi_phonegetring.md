@@ -9,8 +9,6 @@ ms.assetid: dcdfff60-e853-4ad7-a2b4-ddfc0ee73a48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneGetRing, TSPI_phoneGetRing function [TAPI 2.2], _tspi_tspi_phonegetring, tspi.tspi_phonegetring, tspi/TSPI_phoneGetRing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

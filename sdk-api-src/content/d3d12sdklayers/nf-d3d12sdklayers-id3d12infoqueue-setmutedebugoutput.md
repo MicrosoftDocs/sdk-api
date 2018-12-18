@@ -9,8 +9,6 @@ ms.assetid: 470155C2-095B-44EF-8ED3-18E1B2DADE4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12InfoQueue interface,SetMuteDebugOutput method, ID3D12InfoQueue.SetMuteDebugOutput, ID3D12InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method, SetMuteDebugOutput method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::SetMuteDebugOutput, direct3d12.id3d12infoqueue_setmutedebugoutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -96,7 +94,7 @@ This will stop messages that pass the storage filter from being printed out in t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

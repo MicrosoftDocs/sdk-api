@@ -9,8 +9,6 @@ ms.assetid: 38D547D2-0C1C-4673-83BD-38458DFD7E5A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMatchingFontsByLOGFONT, GetMatchingFontsByLOGFONT method [Direct Write], GetMatchingFontsByLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetMatchingFontsByLOGFONT method, IDWriteGdiInterop1.GetMatchingFontsByLOGFONT, IDWriteGdiInterop1::GetMatchingFontsByLOGFONT, directwrite.idwritegdiinterop1_getmatchingfontsbylogfont, dwrite_3/IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -68,14 +66,14 @@ Structure containing a GDI-compatible font description.
 
 ### -param fontSet [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>*</b>
 
 The font set to search.
 
 
 ### -param filteredSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>**</b>
 
 &gt;Receives the filtered font set if successful.
 
@@ -84,7 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -96,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A69922D8-EF9F-4F46-91D3-F7F649CF4705">IDWriteGdiInterop1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958415(v=VS.85).aspx">IDWriteGdiInterop1</a>
  
 
  

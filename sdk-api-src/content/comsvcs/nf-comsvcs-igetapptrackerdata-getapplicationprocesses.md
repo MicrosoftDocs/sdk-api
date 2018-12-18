@@ -9,8 +9,6 @@ ms.assetid: ec15db5c-fce6-42c0-a291-635344a7c4fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplicationProcesses, GetApplicationProcesses method [COM+], GetApplicationProcesses method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcesses method, IGetAppTrackerData.GetApplicationProcesses, IGetAppTrackerData::GetApplicationProcesses, comsvcs/IGetAppTrackerData::GetApplicationProcesses, cos.igetapptrackerdata_getapplicationprocesses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

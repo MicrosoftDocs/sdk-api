@@ -9,8 +9,6 @@ ms.assetid: 0ac48bbb-a0d3-4c37-9f3e-4f4cc79b550b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get__CustomCompositorClass method, IMSVidVideoRenderer.get__CustomCompositorClass, IMSVidVideoRenderer::get__CustomCompositorClass, IMSVidVideoRendererget__CustomCompositorClass, get__CustomCompositorClass, get__CustomCompositorClass method [Microsoft TV Technologies], get__CustomCompositorClass method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get__customcompositorclass, segment/IMSVidVideoRenderer::get__CustomCompositorClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,11 +88,11 @@ Applications can provide their own compositors to perform custom image compositi
 
 
 
-<a href="https://msdn.microsoft.com/cafdc512-2994-4374-9396-b0bb946bc490">IMSVidVideoRenderer::get__CustomCompositor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694745(v=VS.85).aspx">IMSVidVideoRenderer::get__CustomCompositor</a>
 
 
 
-<a href="https://msdn.microsoft.com/031af4a5-6eed-44c9-9b0c-f472d709db66">IMSVidVideoRenderer::put__CustomCompositorClass</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694758(v=VS.85).aspx">IMSVidVideoRenderer::put__CustomCompositorClass</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: d7f5d13a-d36e-4da2-babc-0446e5697b61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConfigAsfWriter interface [DirectShow],SetIndexMode method, IConfigAsfWriter.SetIndexMode, IConfigAsfWriter::SetIndexMode, IConfigAsfWriterSetIndexMode, SetIndexMode, SetIndexMode method [DirectShow], SetIndexMode method [DirectShow],IConfigAsfWriter interface, dshow.iconfigasfwriter_setindexmode, dshowasf/IConfigAsfWriter::SetIndexMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -97,7 +95,7 @@ By default, the WM ASF Writer filter creates temporally indexed ASF files. It pe
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

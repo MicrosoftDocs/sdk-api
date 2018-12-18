@@ -9,8 +9,6 @@ ms.assetid: ab015f92-498e-44c7-95c9-869dfdfccc09
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetLiveSource method, IWMWriterAdvanced.SetLiveSource, IWMWriterAdvanced::SetLiveSource, IWMWriterAdvancedSetLiveSource, SetLiveSource, SetLiveSource method [windows Media Format], SetLiveSource method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setlivesource, wmsdkidl/IWMWriterAdvanced::SetLiveSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -92,7 +90,7 @@ The default is False. To handle incoming samples correctly, the writer object mu
 
 
 
-<a href="https://msdn.microsoft.com/082cd277-157d-42a4-bf37-e47d16f90c7a">IWMWriterAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
  
 
  

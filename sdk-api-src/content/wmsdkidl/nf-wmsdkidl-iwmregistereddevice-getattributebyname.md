@@ -9,8 +9,6 @@ ms.assetid: e74bd544-295d-4e83-8804-5a99d7efdbb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttributeByName, GetAttributeByName method [windows Media Format], GetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByName method, IWMRegisteredDevice.GetAttributeByName, IWMRegisteredDevice::GetAttributeByName, IWMRegisteredDeviceGetAttributeByName, wmformat.iwmregistereddevice_getattributebyname, wmsdkidl/IWMRegisteredDevice::GetAttributeByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -105,11 +103,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6babdfbd-51d5-4973-9712-f79a95f5f367">IWMRegisteredDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/49562f2a-1bb5-46d7-81cc-c13b66cf691f">IWMRegisteredDevice::SetAttributeByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743698(v=VS.85).aspx">IWMRegisteredDevice::SetAttributeByName</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\faxint
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxServerNotify2 interface [Fax Service],described, IIFaxServerNotify2, _mfax_ifaxservernotify2, fax._mfax_ifaxservernotify2, faxcomex/IFaxServerNotify2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 The <b>IFaxServerNotify2</b> interface is used for fax notifications. The fax service calls <b>IFaxServerNotify2</b> to send fax event notifications. Events include changes to fax server configuration and activity, changes to incoming and outgoing job queues, and changes to incoming and outgoing archives. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693008(v=VS.85).aspx">Registering for Event Notifications</a>.
 
-The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="https://msdn.microsoft.com/en-us/library/ms690086(v=VS.85).aspx">IFaxServerNotify</a> interface and the additional method <a href="https://msdn.microsoft.com/en-us/library/Aa358972(v=VS.85).aspx">OnGeneralServerConfigChanged</a>.
+The <b>IFaxServerNotify2</b> interface supports all the same methods as the <a href="https://msdn.microsoft.com/e8192f70-b0aa-4055-b67b-ff95991b66f2">IFaxServerNotify</a> interface and the additional method <a href="https://msdn.microsoft.com/en-us/library/Aa358972(v=VS.85).aspx">OnGeneralServerConfigChanged</a>.
 
 
 ## -inheritance

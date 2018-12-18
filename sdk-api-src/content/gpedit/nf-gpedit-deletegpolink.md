@@ -7,10 +7,8 @@ old-location: policy\deletegpolink.htm
 tech.root: policy
 ms.assetid: e797bc8d-c0c5-4d93-b553-6c07029af01f
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: DeleteGPOLink, DeleteGPOLink function [Group Policy], _win32_deletegpolink, gpedit/DeleteGPOLink, policy.deletegpolink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gpedit.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
@@ -88,7 +86,7 @@ With the <b>GetIcon</b> method, each property page
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
  
 
  

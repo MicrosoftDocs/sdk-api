@@ -9,8 +9,6 @@ ms.assetid: 66515d42-2b98-4923-b326-9fec557345b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationCondition, IUIAutomationCondition interface [Windows Accessibility], IUIAutomationCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCondition, uiauto_IUIAutomationCondition, uiautomationclient/IUIAutomationCondition, winauto.uiauto_IUIAutomationCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

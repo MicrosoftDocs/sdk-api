@@ -9,8 +9,6 @@ ms.assetid: 29307049-2165-4871-9ae3-72858752a6a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Modified property, IOCSPCAConfiguration.Modified, IOCSPCAConfiguration.get_Modified, IOCSPCAConfiguration::Modified, IOCSPCAConfiguration::get_Modified, Modified property [Security], Modified property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Modified, certadm/IOCSPCAConfiguration::get_Modified, get_Modified, security.iocspcaconfiguration_modified_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386328(v=VS.85).aspx">IOCSPCAConfiguration</a>
+<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
  
 
  

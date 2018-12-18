@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.CreateFromBo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromBoundingBox method, BoundingSphere.CreateFromBoundingBox, BoundingSphere::CreateFromBoundingBox, CreateFromBoundingBox, CreateFromBoundingBox method [DirectX Math Support APIs], CreateFromBoundingBox method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromBoundingBox, Use DirectX::::BoundingSphere::CreateFromBoundingBox, dxmath.boundingsphere_createfromboundingbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -92,11 +90,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6ecc76e1-0c80-494c-81be-0ebe78eba07c">BoundingSphere</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449592(v=VS.85).aspx">BoundingSphere</a>
 
 
 
-<a href="https://msdn.microsoft.com/28E771F0-B18F-459D-99C5-ABC43869A15A">Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
 
 
 

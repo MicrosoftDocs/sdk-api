@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_dev_info\clone.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_DEV_INFO interface, IEnumWIA_DEV_INFO interface [WIA],Clone method, IEnumWIA_DEV_INFO.Clone, IEnumWIA_DEV_INFO::Clone, _wia_IEnumWIA_DEV_INFO_Clone, wia._wia_IEnumWIA_DEV_INFO_Clone, wia_xp/IEnumWIA_DEV_INFO::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

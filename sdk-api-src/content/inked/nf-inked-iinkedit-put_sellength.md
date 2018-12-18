@@ -9,8 +9,6 @@ ms.assetid: 6295a536-831e-4603-9412-87b2fa5b7f53
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelLength property, IInkEdit.SelLength, IInkEdit.put_SelLength, IInkEdit::SelLength, IInkEdit::get_SelLength, IInkEdit::put_SelLength, InkEdit.get_SelLength, InkEdit.put_SelLength, SelLength property [Tablet PC], SelLength property [Tablet PC],IInkEdit interface, get_SelLength, inked/IInkEdit::SelLength, inked/IInkEdit::get_SelLength, inked/IInkEdit::put_SelLength, put_SelLength, tablet.inkedit_sellength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -77,7 +75,7 @@ You can use this property to determine if any characters are currently selected 
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

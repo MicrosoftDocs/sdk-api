@@ -9,8 +9,6 @@ ms.assetid: 0dadf9f0-4d49-49c3-a190-dfab0d6ace3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IConsoleNameSpace interface, GetItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetItem method, IConsoleNameSpace.GetItem, IConsoleNameSpace2 interface [MMC],GetItem method, IConsoleNameSpace2::GetItem, IConsoleNameSpace::GetItem, _slate_iconsolenamespace2_getitem, mmc.iconsolenamespace2_getitem, mmc/IConsoleNameSpace2::GetItem, mmc/IConsoleNameSpace::GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 
@@ -82,7 +80,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/444bc86d-bfd2-435c-b9fb-691c4da92411">IConsoleNameSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
 
 
 

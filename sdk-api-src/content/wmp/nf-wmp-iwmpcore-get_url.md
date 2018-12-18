@@ -9,8 +9,6 @@ ms.assetid: 54d43a1c-807a-40a5-a703-262d75f88ca0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_URL method, IWMPCore.get_URL, IWMPCore::get_URL, IWMPCoreget_URL, get_URL, get_URL method [Windows Media Player], get_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_url, wmp/IWMPCore::get_URL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ Calling this method from an event handler may yield unexpected results.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
  
 
  

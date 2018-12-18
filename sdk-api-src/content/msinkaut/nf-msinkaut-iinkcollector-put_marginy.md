@@ -9,8 +9,6 @@ ms.assetid: 6cba076e-6392-4f0a-a80d-3df903d0ba13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6cba076e-6392-4f0a-a80d-3df903d0ba13, IInkCollector interface [Tablet PC],MarginY property, IInkCollector.MarginY, IInkCollector.put_MarginY, IInkCollector::MarginY, IInkCollector::get_MarginY, IInkCollector::put_MarginY, InkCollector.get_MarginY, InkCollector.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::MarginY, msinkaut/IInkCollector::get_MarginY, msinkaut/IInkCollector::put_MarginY, put_MarginY, tablet.inkcollector_marginy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -92,7 +90,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

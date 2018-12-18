@@ -9,8 +9,6 @@ ms.assetid: 71f565b3-cf77-498c-b2a5-3a49a71c102f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescription method, IPropertyDescription.GetSortDescription, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propsys.h
 req.include-header: 
@@ -110,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The settings retrieved by this method are set through the <i>sortDescription</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773876(v=VS.85).aspx">labelInfo</a> element in the property's .propdesc file.
+The settings retrieved by this method are set through the <i>sortDescription</i> attribute of the <a href="shell.propdesc_schema_labelInfo">labelInfo</a> element in the property's .propdesc file.
 
 
 
@@ -120,7 +118,7 @@ The settings retrieved by this method are set through the <i>sortDescription</i>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="shell.IPropertyDescription">IPropertyDescription</a>
 
 
 

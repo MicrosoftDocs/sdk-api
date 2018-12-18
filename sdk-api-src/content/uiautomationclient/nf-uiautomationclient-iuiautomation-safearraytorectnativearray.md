@@ -9,8 +9,6 @@ ms.assetid: 1fa9fad1-55b9-4cb5-a5c2-687074fa5d56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],SafeArrayToRectNativeArray method, IUIAutomation.SafeArrayToRectNativeArray, IUIAutomation::SafeArrayToRectNativeArray, SafeArrayToRectNativeArray, SafeArrayToRectNativeArray method [Windows Accessibility], SafeArrayToRectNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiautomationclient/IUIAutomation::SafeArrayToRectNativeArray, winauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

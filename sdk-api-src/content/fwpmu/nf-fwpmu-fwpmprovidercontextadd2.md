@@ -9,8 +9,6 @@ ms.assetid: 07c6b1fc-55bb-4526-a24b-0e22f147e5cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextAdd2, FwpmProviderContextAdd2 function [Filtering], fwp.fwpmprovidercontextadd2, fwpmu/FwpmProviderContextAdd2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

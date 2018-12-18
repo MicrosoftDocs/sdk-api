@@ -9,8 +9,6 @@ ms.assetid: 586a4a26-2044-4044-a90d-b45d05f6ce66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WbemChangeFlagEnum, WbemChangeFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemchangeflagenum, wbemChangeFlagCreateOnly, wbemChangeFlagCreateOrUpdate, wbemChangeFlagStrongValidation, wbemChangeFlagUpdateCompatible, wbemChangeFlagUpdateForceMode, wbemChangeFlagUpdateOnly, wbemChangeFlagUpdateSafeMode, wbemdisp/WbemChangeFlagEnum, wbemdisp/wbemChangeFlagCreateOnly, wbemdisp/wbemChangeFlagCreateOrUpdate, wbemdisp/wbemChangeFlagStrongValidation, wbemdisp/wbemChangeFlagUpdateCompatible, wbemdisp/wbemChangeFlagUpdateForceMode, wbemdisp/wbemChangeFlagUpdateOnly, wbemdisp/wbemChangeFlagUpdateSafeMode, wmi.wbemchangeflagenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

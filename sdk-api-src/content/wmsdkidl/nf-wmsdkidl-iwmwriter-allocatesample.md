@@ -9,8 +9,6 @@ ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>AllocateSample</b> method allocates a buffer that can be used to provide 
 
 ### -param ppSample [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface to an object containing the sample.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface to an object containing the sample.
 
 
 ## -returns
@@ -117,7 +115,7 @@ The writer is not currently running.
 
 
 
-You must use a new buffer for each sample passed to the writer object; reusing a buffer after passing it to call <a href="https://msdn.microsoft.com/ba1cf121-1d01-4e90-9ab0-95af0b6e3850">IWMWriter::WriteSample</a> will cause errors because the writer object does not immediately release its references to the buffer object. You can release the interfaces of the buffer object safely any time after the <b>WriteSample</b> call returns.
+You must use a new buffer for each sample passed to the writer object; reusing a buffer after passing it to call <a href="https://msdn.microsoft.com/en-us/library/Dd757509(v=VS.85).aspx">IWMWriter::WriteSample</a> will cause errors because the writer object does not immediately release its references to the buffer object. You can release the interfaces of the buffer object safely any time after the <b>WriteSample</b> call returns.
 
 
 
@@ -127,7 +125,7 @@ You must use a new buffer for each sample passed to the writer object; reusing a
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 

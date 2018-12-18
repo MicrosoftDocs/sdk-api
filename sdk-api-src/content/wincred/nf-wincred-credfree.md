@@ -9,8 +9,6 @@ ms.assetid: bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredFree, CredFree function [Security], _cred_credfree, security.credfree, wincred/CredFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

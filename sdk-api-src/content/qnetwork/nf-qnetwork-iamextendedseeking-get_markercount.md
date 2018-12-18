@@ -9,8 +9,6 @@ ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_MarkerCount method, IAMExtendedSeeking.get_MarkerCount, IAMExtendedSeeking::get_MarkerCount, IAMExtendedSeekingget_MarkerCount, dshow.iamextendedseeking_get_markercount, get_MarkerCount, get_MarkerCount method [DirectShow], get_MarkerCount method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_MarkerCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/9e0e49af-61ef-408c-8c26-bb29ab26a1f5">IAMExtendedSeeking Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
  
 
  

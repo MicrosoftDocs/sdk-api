@@ -9,8 +9,6 @@ ms.assetid: 8ee96d96-bd66-4738-bfae-fbbc98ba8621
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCreated, GetCreated method [XPS Documents and Packaging], GetCreated method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreated method, IXpsOMCoreProperties.GetCreated, IXpsOMCoreProperties::GetCreated, xps.ixpsomcoreproperties_getcreated, xpsobjectmodel/IXpsOMCoreProperties::GetCreated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

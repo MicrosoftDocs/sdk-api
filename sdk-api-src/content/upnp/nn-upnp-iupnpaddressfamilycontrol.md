@@ -9,8 +9,6 @@ ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], IUPnPAddressFamilyControl interface [UPnP APIs],described, upnp.iupnpaddressfamilycontrol, upnp/IUPnPAddressFamilyControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

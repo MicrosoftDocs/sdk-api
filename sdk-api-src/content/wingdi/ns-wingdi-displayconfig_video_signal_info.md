@@ -9,8 +9,6 @@ ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -127,7 +125,7 @@ The video standard (if any) that defines the video signal. For a list of possibl
 
 ### -field scanLineOrdering
 
-The scan-line ordering (for example, progressive or interlaced) of the video signal. For a list of possible values, see the <a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type.
+The scan-line ordering (for example, progressive or interlaced) of the video signal. For a list of possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Ff553977(v=VS.85).aspx">DISPLAYCONFIG_SCANLINE_ORDERING</a> enumerated type.
 
 
 ## -see-also
@@ -147,7 +145,7 @@ The scan-line ordering (for example, progressive or interlaced) of the video sig
 
 
 
-<a href="https://msdn.microsoft.com/5b8d6c83-e8fb-4529-8d61-557ed0e4da37">DISPLAYCONFIG_SCANLINE_ORDERING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553977(v=VS.85).aspx">DISPLAYCONFIG_SCANLINE_ORDERING</a>
  
 
  

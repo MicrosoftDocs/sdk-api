@@ -9,8 +9,6 @@ ms.assetid: 20f2e95a-8362-457d-b562-f7263e698551
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetRedrawAlways method, IAMLine21Decoder.SetRedrawAlways, IAMLine21Decoder::SetRedrawAlways, IAMLine21DecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setredrawalways, il21dec/IAMLine21Decoder::SetRedrawAlways
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -112,11 +110,11 @@ Generally, applications should not call this method. The downstream mixer or ren
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ab65d23-816d-4c6f-a0bc-b3334babdc23">IAMLine21Decoder::GetRedrawAlways</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389391(v=VS.85).aspx">IAMLine21Decoder::GetRedrawAlways</a>
  
 
  

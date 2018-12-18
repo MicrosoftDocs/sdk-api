@@ -9,8 +9,6 @@ ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

@@ -9,8 +9,6 @@ ms.assetid: 0377ef07-bf9f-4938-8fc4-ae14373db590
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymEnumSourceFileTokens, SymEnumSourceFileTokens function, base.symenumsourcefiletokens, dbghelp/SymEnumSourceFileTokens
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

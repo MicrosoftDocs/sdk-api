@@ -9,8 +9,6 @@ ms.assetid: 073c0307-b1cc-443b-890f-bccc0dbd5cf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset method, IEnumTfLangBarItems.Reset, IEnumTfLangBarItems::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

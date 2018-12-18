@@ -9,8 +9,6 @@ ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmGetFiles, IMsmGetFiles interface, IMsmGetFiles interface,described, mergemod/IMsmGetFiles, setup.imsmgetfiles_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mergemod.h
 req.include-header: 
@@ -56,7 +54,7 @@ The <b>IMsmGetFiles</b> interface enables the client to retrieve the files neede
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmGetFiles</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmGetFiles</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +86,7 @@ Retrieves the
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 

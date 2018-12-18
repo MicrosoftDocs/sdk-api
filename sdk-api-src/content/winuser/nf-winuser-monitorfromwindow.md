@@ -9,8 +9,6 @@ ms.assetid: fe6505c9-b481-4fec-ae9d-995943234a3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromWindow, MonitorFromWindow function [Windows GDI], _win32_MonitorFromWindow, gdi.monitorfromwindow, winuser/MonitorFromWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

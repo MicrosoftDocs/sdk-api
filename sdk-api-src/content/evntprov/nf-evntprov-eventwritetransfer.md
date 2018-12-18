@@ -9,8 +9,6 @@ ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

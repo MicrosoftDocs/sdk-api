@@ -9,8 +9,6 @@ ms.assetid: 24303a97-e8ad-4261-bff8-575980cf3c3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TextRange_FindText, TextRange_FindText function [Windows Accessibility], uiauto.uiauto_TextRange_FindTextConPat, uiauto_TextRange_FindTextConPat, uiautomationcoreapi/TextRange_FindText, winauto.uiauto_TextRange_FindTextConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

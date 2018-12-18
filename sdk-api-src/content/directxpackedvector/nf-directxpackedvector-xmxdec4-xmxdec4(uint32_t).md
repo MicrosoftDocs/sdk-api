@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMXDEC4.#ctor(uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMXDEC4, XMXDEC4 constructor [DirectX Math Support APIs], XMXDEC4 constructor [DirectX Math Support APIs],XMXDEC4 structure, XMXDEC4 structure [DirectX Math Support APIs],XMXDEC4 constructor, XMXDEC4.XMXDEC4, XMXDEC4.XMXDEC4(uint32_t), XMXDEC4::XMXDEC4, XMXDEC4::XMXDEC4(uint32_t), dxmath.xmxdec4_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -118,11 +116,11 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned integer, 
 
 
 
-<a href="https://msdn.microsoft.com/5b46e0fb-e4a5-49c4-8084-0c631d43d4f7">XMXDEC4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421399(v=VS.85).aspx">XMXDEC4</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf040967-e482-4442-83f8-31c11aff3d95">XMXDEC4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415539(v=VS.85).aspx">XMXDEC4 Constructors</a>
  
 
  

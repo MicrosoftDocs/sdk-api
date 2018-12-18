@@ -9,8 +9,6 @@ ms.assetid: 14b34fd9-ae96-4552-b99d-488bae5c7644
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupPromptReboot, SetupPromptReboot function [Setup API], _setupapi_setuppromptreboot, setup.setuppromptreboot, setupapi/SetupPromptReboot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_02ew.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderFax property, IFaxDoc.SenderFax, IFaxDoc.get_SenderFax, IFaxDoc::SenderFax, IFaxDoc::get_SenderFax, IFaxDoc::put_SenderFax, SenderFax property [Fax Service], SenderFax property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderfax, fax._mfax_ifaxdoc_get_senderfax, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderfax_cpp, faxcom/IFaxDoc::SenderFax, faxcom/IFaxDoc::get_SenderFax, faxcom/IFaxDoc::put_SenderFax, get_SenderFax
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

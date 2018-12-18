@@ -9,8 +9,6 @@ ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusWorkerCheckTerminate, ClusWorkerCheckTerminate function [Failover Cluster], PCLUSAPIClusWorkerCheckTerminate, PCLUSAPIClusWorkerCheckTerminate function [Failover Cluster], _wolf_clusworkercheckterminate, mscs.clusworkercheckterminate, resapi/ClusWorkerCheckTerminate, resapi/PCLUSAPIClusWorkerCheckTerminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

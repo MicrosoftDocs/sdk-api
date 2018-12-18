@@ -9,8 +9,6 @@ ms.assetid: 38025B19-146A-4050-9BD2-2CF974729FE3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], BeginSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginSendRequest method, IMFHttpDownloadRequest.BeginSendRequest, IMFHttpDownloadRequest::BeginSendRequest, mf.imfhttpdownloadrequest_beginsendrequest, mfidl/IMFHttpDownloadRequest::BeginSendRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

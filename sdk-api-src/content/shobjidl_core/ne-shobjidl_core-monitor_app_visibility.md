@@ -9,8 +9,6 @@ ms.assetid: DE52080C-5EC3-489B-ACC8-D5EAEE3DDF78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAV_APP_VISIBLE, MAV_NO_APP_VISIBLE, MAV_UNKNOWN, MONITOR_APP_VISIBILITY, MONITOR_APP_VISIBILITY enumeration [Windows Shell], shell.MONITOR_APP_VISIBILITY, shobjidl_core/MAV_APP_VISIBLE, shobjidl_core/MAV_NO_APP_VISIBLE, shobjidl_core/MAV_UNKNOWN, shobjidl_core/MONITOR_APP_VISIBILITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

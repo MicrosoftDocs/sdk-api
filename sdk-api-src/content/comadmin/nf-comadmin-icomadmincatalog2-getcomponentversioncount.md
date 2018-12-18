@@ -9,8 +9,6 @@ ms.assetid: 5bbae408-3dbe-4f8f-92db-9ea1b8abd9ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetComponentVersionCount, GetComponentVersionCount method [COM+], GetComponentVersionCount method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetComponentVersionCount method, ICOMAdminCatalog2.GetComponentVersionCount, ICOMAdminCatalog2::GetComponentVersionCount, _cos_icomadmincatalog2_GetComponentVersionCount, comadmin/ICOMAdminCatalog2::GetComponentVersionCount, cos.icomadmincatalog2_getcomponentversioncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -82,7 +80,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

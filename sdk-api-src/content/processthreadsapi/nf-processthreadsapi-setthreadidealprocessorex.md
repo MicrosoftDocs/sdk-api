@@ -9,8 +9,6 @@ ms.assetid: 6b599a99-41c5-45c7-8aeb-87d8f34e9e82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadIdealProcessorEx, SetThreadIdealProcessorEx function, base.setthreadidealprocessorex, processthreadsapi/SetThreadIdealProcessorEx, winbase/SetThreadIdealProcessorEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

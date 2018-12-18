@@ -9,8 +9,6 @@ ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -123,7 +121,7 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

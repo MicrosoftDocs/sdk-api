@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.CXAPOBase(const XAPO_REG
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CXAPOBase, CXAPOBase interface [XAudio2 Audio Mixing APIs],CXAPOBase method, CXAPOBase method [XAudio2 Audio Mixing APIs], CXAPOBase method [XAudio2 Audio Mixing APIs],CXAPOBase interface, CXAPOBase.CXAPOBase, CXAPOBase::CXAPOBase, xapobase/CXAPOBase::CXAPOBase, xaudio2.cxapobase_cxapobase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

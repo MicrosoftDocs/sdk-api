@@ -9,8 +9,6 @@ ms.assetid: b0f59466-7a2a-453e-999c-c7ebf126d18b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],IsEqualDevice method, IMSVidDevice.IsEqualDevice, IMSVidDevice::IsEqualDevice, IMSVidDeviceIsEqualDevice, IsEqualDevice, IsEqualDevice method [Microsoft TV Technologies], IsEqualDevice method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_isequaldevice, segment/IMSVidDevice::IsEqualDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>IsEqualDevice</b> method queries whether this device and another device r
 
 ### -param Device [in]
 
-Pointer to the other device's <a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice</a> interface.
+Pointer to the other device's <a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a> interface.
 
 
 ### -param IsEqual [out]
@@ -152,7 +150,7 @@ Unexpected error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
  
 
  

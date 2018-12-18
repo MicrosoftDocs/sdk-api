@@ -9,8 +9,6 @@ ms.assetid: c6ec4984-d984-4642-b110-fd9c2c7e3c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilOidCmp, SnmpUtilOidCmp function [SNMP], _snmp_snmputiloidcmp, snmp.snmputiloidcmp, snmp/SnmpUtilOidCmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -64,7 +62,7 @@ The
 ### -param pOid1 [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to compare.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure to compare.
 
 
 ### -param pOid2 [in]

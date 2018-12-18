@@ -9,8 +9,6 @@ ms.assetid: 5c7c578d-7200-4807-b89b-5bc39ee83e45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerEnumDevices, TSPI_providerEnumDevices function [TAPI 2.2], _tspi_tspi_providerenumdevices, tspi.tspi_providerenumdevices, tspi/TSPI_providerEnumDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

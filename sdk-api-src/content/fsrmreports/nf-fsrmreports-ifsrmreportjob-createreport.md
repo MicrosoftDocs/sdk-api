@@ -9,8 +9,6 @@ ms.assetid: 484941d1-726c-4765-8652-bcb378f277b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5283f3be-7451-4896-82a5-bcfe63db9344
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_EXPORT_KEY_AGREE, PFN_CMSG_EXPORT_KEY_AGREE callback, PFN_CMSG_EXPORT_KEY_AGREE callback function [Security], security.pfn_cmsg_export_key_agree, wincrypt/PFN_CMSG_EXPORT_KEY_AGREE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -106,7 +104,7 @@ If, upon entry,  the <b>dwEncryptFlags</b> member of the <a href="https://msdn.m
 <div> </div>
 
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 You must define different callback functions for CAPI1 keys and Cryptography API: Next Generation (CNG) keys. Both functions have the same signature but use different OIDs. Which function is called depends on the value of the  <b>fCNG</b> member of the <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter. The following table shows the relationship between the callback function and the value of the <b>fCNG</b> member.
 

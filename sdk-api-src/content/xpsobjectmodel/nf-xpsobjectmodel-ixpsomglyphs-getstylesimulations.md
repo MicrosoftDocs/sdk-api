@@ -9,8 +9,6 @@ ms.assetid: 5678f67e-ed26-4846-b2f7-4e7f9690ca43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStyleSimulations, GetStyleSimulations method [XPS Documents and Packaging], GetStyleSimulations method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetStyleSimulations method, IXpsOMGlyphs.GetStyleSimulations, IXpsOMGlyphs::GetStyleSimulations, xps.ixpsomglyphs_getstylesimulations, xpsobjectmodel/IXpsOMGlyphs::GetStyleSimulations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

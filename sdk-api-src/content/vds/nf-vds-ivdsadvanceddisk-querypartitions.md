@@ -9,8 +9,6 @@ ms.assetid: ca02c5f8-11cd-4bdf-a376-3b146eb2aa70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsAdvancedDisk interface [VDS],QueryPartitions method, IVdsAdvancedDisk.QueryPartitions, IVdsAdvancedDisk::QueryPartitions, QueryPartitions, QueryPartitions method [VDS], QueryPartitions method [VDS],IVdsAdvancedDisk interface, base.ivdsadvanceddisk_querypartitions, vds/IVdsAdvancedDisk::QueryPartitions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

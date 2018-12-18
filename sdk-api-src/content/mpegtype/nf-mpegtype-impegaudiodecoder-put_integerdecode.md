@@ -9,8 +9,6 @@ ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_IntegerDecode method, IMpegAudioDecoder.put_IntegerDecode, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

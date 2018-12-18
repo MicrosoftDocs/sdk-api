@@ -9,8 +9,6 @@ ms.assetid: 317e2d37-432b-41ae-a1ef-66e2dd31a21c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndGetPosition, MCIWndGetPosition macro [Windows Multimedia], _win32_MCIWndGetPosition, multimedia.mciwndgetposition, vfw/MCIWndGetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITRequestEvent, ITRequestEvent interface [TAPI 2.2], ITRequestEvent interface [TAPI 2.2],described, _tapi3_itrequestevent, tapi3.itrequestevent, tapi3if/ITRequestEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

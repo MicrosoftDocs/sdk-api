@@ -9,8 +9,6 @@ ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_TeleTextFilter method, IMSVidClosedCaptioning3.get_TeleTextFilter, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies],IMSVidClosedCaptioning3 interface, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -113,7 +111,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/0b440d5a-05f0-4499-8398-2a8563f0f935">IMSVidClosedCaptioning3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694470(v=VS.85).aspx">IMSVidClosedCaptioning3 Interface</a>
  
 
  

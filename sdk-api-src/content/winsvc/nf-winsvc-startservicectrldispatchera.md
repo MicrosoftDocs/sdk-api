@@ -9,8 +9,6 @@ ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StartServiceCtrlDispatcher, StartServiceCtrlDispatcher function, StartServiceCtrlDispatcherA, StartServiceCtrlDispatcherW, _win32_startservicectrldispatcher, base.startservicectrldispatcher, winsvc/StartServiceCtrlDispatcher, winsvc/StartServiceCtrlDispatcherA, winsvc/StartServiceCtrlDispatcherW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

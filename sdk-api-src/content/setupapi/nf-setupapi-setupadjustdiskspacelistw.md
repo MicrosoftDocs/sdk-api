@@ -9,8 +9,6 @@ ms.assetid: dcdcc43c-9b5c-495b-bf4b-331c4d9461e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupAdjustDiskSpaceList, SetupAdjustDiskSpaceList function [Setup API], SetupAdjustDiskSpaceListA, SetupAdjustDiskSpaceListW, setup.setupadjustdiskspacelist, setupapi/SetupAdjustDiskSpaceList, setupapi/SetupAdjustDiskSpaceListA, setupapi/SetupAdjustDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h

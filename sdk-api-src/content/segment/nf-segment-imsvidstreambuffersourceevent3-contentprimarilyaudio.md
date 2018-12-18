@@ -9,8 +9,6 @@ ms.assetid: 5ee38fac-78f8-4130-8d16-db5380e11c5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContentPrimarilyAudio, ContentPrimarilyAudio method [Microsoft TV Technologies], ContentPrimarilyAudio method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],ContentPrimarilyAudio method, IMSVidStreamBufferSourceEvent3.ContentPrimarilyAudio, IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio, IMSVidStreamBufferSourceEvent3ContentPrimarilyAudio, mstv.imsvidstreambuffersourceevent3_contentprimarilyaudio, segment/IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -89,7 +87,7 @@ This event is sent when the <a href="https://msdn.microsoft.com/4043e199-d329-45
 
 
 
-<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
  
 
  

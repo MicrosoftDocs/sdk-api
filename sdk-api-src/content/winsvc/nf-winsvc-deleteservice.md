@@ -9,8 +9,6 @@ ms.assetid: 5b0fc714-60e0-4ae3-8fa8-ace36dab2fb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteService, DeleteService function, _win32_deleteservice, base.deleteservice, winsvc/DeleteService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

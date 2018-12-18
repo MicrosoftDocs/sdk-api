@@ -9,8 +9,6 @@ ms.assetid: 29cded59-d0f3-4678-9601-4931687b48e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrHandlerInfo, ISyncMgrHandlerInfo interface [Windows Shell], ISyncMgrHandlerInfo interface [Windows Shell],described, _shell_ISyncMgrHandlerInfo, shell.ISyncMgrHandlerInfo, syncmgr/ISyncMgrHandlerInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

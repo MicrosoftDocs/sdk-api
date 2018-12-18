@@ -9,8 +9,6 @@ ms.assetid: 4f3df841-d7fe-472e-a13c-124fdf425a35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistFile interface [COM],IsDirty method, IPersistFile.IsDirty, IPersistFile::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistFile interface, _com_ipersistfile_isdirty, com.ipersistfile_isdirty, objidl/IPersistFile::IsDirty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

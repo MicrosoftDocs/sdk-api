@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetPasswordChar, Edit_SetPasswordChar macro [Windows Controls], _win32_Edit_SetPasswordChar, _win32_Edit_SetPasswordChar_cpp, controls.Edit_SetPasswordChar, controls._win32_Edit_SetPasswordChar, windowsx/Edit_SetPasswordChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

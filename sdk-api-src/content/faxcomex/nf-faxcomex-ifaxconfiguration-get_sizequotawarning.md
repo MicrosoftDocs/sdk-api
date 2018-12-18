@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\sizequot
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],SizeQuotaWarning property, IFaxConfiguration.SizeQuotaWarning, IFaxConfiguration.get_SizeQuotaWarning, IFaxConfiguration::SizeQuotaWarning, IFaxConfiguration::get_SizeQuotaWarning, IFaxConfiguration::put_SizeQuotaWarning, SizeQuotaWarning property [Fax Service], SizeQuotaWarning property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_SizeQuotaWarning, fax._mfax_IFaxConfiguration_SizeQuotaWarning, faxcomex/IFaxConfiguration::SizeQuotaWarning, faxcomex/IFaxConfiguration::get_SizeQuotaWarning, faxcomex/IFaxConfiguration::put_SizeQuotaWarning, get_SizeQuotaWarning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/20a771ed-98c3-4d26-89dc-799008954767">IFaxConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693549(v=VS.85).aspx">IFaxConfiguration</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b7733df5-f764-4996-b324-fa050b1db0af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],INSSBuffer3 interface, INSSBuffer3 interface [windows Media Format],GetProperty method, INSSBuffer3.GetProperty, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -134,11 +132,11 @@ The property specified as <i>guidBufferProperty</i> is not set in this buffer ob
 
 
 
-<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aede025-65ae-4615-9511-af22b8c0dc00">INSSBuffer3::SetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743255(v=VS.85).aspx">INSSBuffer3::SetProperty</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9C35AF38-1937-46DD-8DC4-BBA322E5CAAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringGetter, StringGetter function [Direct2D], d2d1effecthelpers/StringGetter, direct2d.stringgetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1effecthelpers.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\met
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEmfHeader, GetEmfHeader method [GDI+], GetEmfHeader method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetEmfHeader method, MetafileHeader.GetEmfHeader, MetafileHeader::GetEmfHeader, _gdiplus_CLASS_MetafileHeader_GetEmfHeader_, gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfHeader_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

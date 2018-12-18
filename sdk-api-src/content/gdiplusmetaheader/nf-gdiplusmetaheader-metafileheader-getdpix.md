@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\met
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiX method, MetafileHeader.GetDpiX, MetafileHeader::GetDpiX, _gdiplus_CLASS_MetafileHeader_GetDpiX_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

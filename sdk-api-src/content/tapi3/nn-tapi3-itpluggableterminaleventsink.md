@@ -9,8 +9,6 @@ ms.assetid: bcf64c78-aad2-4b53-b938-cc1fd373c8b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

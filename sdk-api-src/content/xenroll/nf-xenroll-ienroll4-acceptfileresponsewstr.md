@@ -9,8 +9,6 @@ ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

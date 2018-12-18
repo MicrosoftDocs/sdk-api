@@ -2,7 +2,7 @@
 UID: TP:msipc
 ms.assetid: 73620ed6-88cf-3cf2-8bc9-535b1f0c618e
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

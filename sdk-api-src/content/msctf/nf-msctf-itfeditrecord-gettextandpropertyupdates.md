@@ -9,8 +9,6 @@ ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, GetTextAndPropertyUpdates, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetTextAndPropertyUpdates method, ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

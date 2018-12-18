@@ -9,8 +9,6 @@ ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

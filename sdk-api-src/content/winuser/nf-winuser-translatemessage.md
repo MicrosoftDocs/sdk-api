@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TranslateMessage, TranslateMessage function [Windows and Messages], _win32_TranslateMessage, _win32_translatemessage_cpp, winmsg.translatemessage, winui._win32_translatemessage, winuser/TranslateMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

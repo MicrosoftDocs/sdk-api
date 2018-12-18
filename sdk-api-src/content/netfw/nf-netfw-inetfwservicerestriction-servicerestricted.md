@@ -9,8 +9,6 @@ ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

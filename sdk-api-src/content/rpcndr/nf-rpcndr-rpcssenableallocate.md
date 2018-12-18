@@ -9,8 +9,6 @@ ms.assetid: 18060ed2-2250-47c7-8579-238edea44c66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LookupPrivilegeDisplayName, LookupPrivilegeDisplayName function [Security], LookupPrivilegeDisplayNameA, LookupPrivilegeDisplayNameW, _win32_lookupprivilegedisplayname, security.lookupprivilegedisplayname, winbase/LookupPrivilegeDisplayName, winbase/LookupPrivilegeDisplayNameA, winbase/LookupPrivilegeDisplayNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

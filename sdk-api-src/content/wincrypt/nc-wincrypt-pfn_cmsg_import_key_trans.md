@@ -9,8 +9,6 @@ ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_IMPORT_KEY_TRANS, PFN_CMSG_IMPORT_KEY_TRANS callback, PFN_CMSG_IMPORT_KEY_TRANS callback function [Security], security.pfn_cmsg_import_key_trans, wincrypt/PFN_CMSG_IMPORT_KEY_TRANS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -102,7 +100,7 @@ If this callback function does not support the key encryption algorithm, it must
 
 
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 <table>
 <tr>

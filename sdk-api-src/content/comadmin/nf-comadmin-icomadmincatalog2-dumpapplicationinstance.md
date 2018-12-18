@@ -9,8 +9,6 @@ ms.assetid: 76c121c6-4ba6-49da-93dc-9094acb1994c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DumpApplicationInstance method, ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -123,7 +121,7 @@ The specified process is not running.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

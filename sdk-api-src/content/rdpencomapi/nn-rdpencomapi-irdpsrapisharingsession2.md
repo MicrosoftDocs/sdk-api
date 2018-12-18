@@ -9,8 +9,6 @@ ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, _win32_keybd_event, _win32_keybd_event_cpp, inputdev.keybd_event, keybd_event, keybd_event function [Keyboard and Mouse Input], winui._win32_keybd_event, winuser/keybd_event
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

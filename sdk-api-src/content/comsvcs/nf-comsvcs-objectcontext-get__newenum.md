@@ -9,8 +9,6 @@ ms.assetid: 51a0ea69-c602-41db-b3a3-2cf9643c6b3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ObjectContext interface [COM+],get__NewEnum method, ObjectContext.get__NewEnum, ObjectContext::get__NewEnum, _cos_ObjectContext_get__NewEnum, comsvcs/ObjectContext::get__NewEnum, cos.objectcontext_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

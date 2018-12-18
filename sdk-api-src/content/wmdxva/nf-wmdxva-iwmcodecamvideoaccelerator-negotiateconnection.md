@@ -9,8 +9,6 @@ ms.assetid: 547c43ed-7e04-4323-9e10-019ecfdbb641
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],NegotiateConnection method, IWMCodecAMVideoAccelerator.NegotiateConnection, IWMCodecAMVideoAccelerator::NegotiateConnection, IWMCodecAMVideoAcceleratorNegotiateConnection, NegotiateConnection, NegotiateConnection method [windows Media Format], NegotiateConnection method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::NegotiateConnection, wmformat.iwmcodecamvideoaccelerator_negotiateconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmdxva.h
 req.include-header: 
@@ -139,7 +137,7 @@ The decoder has no valid <b>IAMVideoAccelerator</b> interface pointer.
 
 
 
-<a href="https://msdn.microsoft.com/48cfc4d1-4b79-47a5-9cc9-a1f19d2c0123">IWMCodecAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743308(v=VS.85).aspx">IWMCodecAMVideoAccelerator Interface</a>
  
 
  

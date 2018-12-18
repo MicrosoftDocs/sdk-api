@@ -9,8 +9,6 @@ ms.assetid: 45164225-2e0f-4415-a99c-dc0257d606d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPicture interface [COM],Render method, IPicture.Render, IPicture::Render, Render, Render method [COM], Render method [COM],IPicture interface, _ctrl_ipicture_render, com.ipicture_render, ocidl/IPicture::Render
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

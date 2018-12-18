@@ -9,8 +9,6 @@ ms.assetid: 3282d528-9997-ee8f-c001-34650551f0e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetMatchingFonts method, IDWriteFontSet.GetMatchingFonts, IDWriteFontSet::GetMatchingFonts, directwrite.idwritefontset_getmatchingfonts_1, dwrite_3/IDWriteFontSet::GetMatchingFonts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Returns a subset of fonts filtered by the given properties.
 
 #### - properties [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/C169B175-74FD-423A-8E0A-DC50314D75E6">DWRITE_FONT_PROPERTY</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn933212(v=VS.85).aspx">DWRITE_FONT_PROPERTY</a>*</b>
 
 List of properties to filter using.
 
@@ -74,7 +72,7 @@ The number of properties to filter.
 
 ### -param filteredSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>**</b>
 
 The subset of fonts that match the properties, or nullptr on failure.
 
@@ -106,7 +104,7 @@ If no fonts matched the filter, the subset will be empty (GetFontCount returns 0
 
 
 
-<a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>
  
 
  

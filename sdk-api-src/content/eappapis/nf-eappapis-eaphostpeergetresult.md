@@ -9,8 +9,6 @@ ms.assetid: e1f0fc05-d9cd-4a37-ba74-89ac9948a292
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerGetResult, EapHostPeerGetResult function [EAPHost], eaphost.eaphostpeergetresult, eappapis/EapHostPeerGetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

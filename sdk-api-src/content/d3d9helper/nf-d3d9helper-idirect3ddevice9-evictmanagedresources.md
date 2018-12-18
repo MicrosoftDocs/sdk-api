@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__evictmanagedresources.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvictManagedResources, EvictManagedResources method [Direct3D 9], EvictManagedResources method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EvictManagedResources method, IDirect3DDevice9.EvictManagedResources, IDirect3DDevice9::EvictManagedResources, d3d9helper/IDirect3DDevice9::EvictManagedResources, direct3d9.idirect3ddevice9__evictmanagedresources, ec2856fb-c12d-5e50-485d-460fa48f8758
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

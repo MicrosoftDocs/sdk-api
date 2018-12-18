@@ -7,10 +7,8 @@ old-location: of\iofflinefilesevents_cacheisfull.htm
 tech.root: offlinefiles
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
  
 
  

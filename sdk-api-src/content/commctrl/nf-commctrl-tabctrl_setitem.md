@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_SetItem, TabCtrl_SetItem macro [Windows Controls], _win32_TabCtrl_SetItem, _win32_TabCtrl_SetItem_cpp, commctrl/TabCtrl_SetItem, controls.TabCtrl_SetItem, controls._win32_TabCtrl_SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets some or all of a tab's attributes. You can use this macro or send the <a hr
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

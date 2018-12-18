@@ -9,8 +9,6 @@ ms.assetid: c298634b-bf51-4c69-a183-ce6b2f8da41a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRecognizer2 interface [Tablet PC],get_Id method, IInkRecognizer2.get_Id, IInkRecognizer2::get_Id, c298634b-bf51-4c69-a183-ce6b2f8da41a, get_Id, get_Id method [Tablet PC], get_Id method [Tablet PC],IInkRecognizer2 interface, msinkaut/IInkRecognizer2::get_Id, tablet.iinkrecognizer2_get_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

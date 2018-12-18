@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbuttonsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pager_SetButtonSize, Pager_SetButtonSize macro [Windows Controls], _win32_Pager_SetButtonSize, _win32_Pager_SetButtonSize_cpp, commctrl/Pager_SetButtonSize, controls.Pager_SetButtonSize, controls._win32_Pager_SetButtonSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the current button size for the pager control. You can use this macro or se
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the pager control. 
 

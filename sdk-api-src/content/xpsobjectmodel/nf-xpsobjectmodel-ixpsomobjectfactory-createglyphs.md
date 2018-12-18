@@ -9,8 +9,6 @@ ms.assetid: b97005dc-a79b-4234-b1a9-8fe705aea518
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGlyphs, CreateGlyphs method [XPS Documents and Packaging], CreateGlyphs method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGlyphs method, IXpsOMObjectFactory.CreateGlyphs, IXpsOMObjectFactory::CreateGlyphs, xps.ixpsomobjectfactory_createglyphs, xpsobjectmodel/IXpsOMObjectFactory::CreateGlyphs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: BE0FA122-3966-4827-9DA3-A98A162EF270
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssWalkMarkerSeekToBeginning, PssWalkMarkerSeekToBeginning function, proc_snap.psswalkmarkerseektobeginning, processsnapshot/PssWalkMarkerSeekToBeginning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

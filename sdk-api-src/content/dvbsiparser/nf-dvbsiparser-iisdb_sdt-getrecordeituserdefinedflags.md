@@ -9,8 +9,6 @@ ms.assetid: c67d37e5-f258-45f5-8bc7-c539e3fa5e1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordEITUserDefinedFlags, GetRecordEITUserDefinedFlags method [Microsoft TV Technologies], GetRecordEITUserDefinedFlags method [Microsoft TV Technologies],IISDB_SDT interface, IISDB_SDT interface [Microsoft TV Technologies],GetRecordEITUserDefinedFlags method, IISDB_SDT.GetRecordEITUserDefinedFlags, IISDB_SDT::GetRecordEITUserDefinedFlags, dvbsiparser/IISDB_SDT::GetRecordEITUserDefinedFlags, mstv.iisdb_sdt_getrecordeituserdefinedflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

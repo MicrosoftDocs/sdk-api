@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_setprivatedata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SetPrivateData method, ID3D10Device.SetPrivateData, ID3D10Device::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 10], SetPrivateData method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetPrivateData, direct3d10.id3d10device_setprivatedata, eaeabbc7-7fa6-0ea4-315b-75d083b44da6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -68,7 +66,7 @@ Guid associated with the data.
 
 ### -param DataSize [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the data.
 

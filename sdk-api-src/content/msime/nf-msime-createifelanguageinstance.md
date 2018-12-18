@@ -9,8 +9,6 @@ ms.assetid: DF79C260-F43B-4580-B252-6D906C235CD4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateIFELanguageInstance, CreateIFELanguageInstance function [Internationalization for Windows Applications], intl.createifelanguageinstance, msime/CreateIFELanguageInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msime.h
 req.include-header: 

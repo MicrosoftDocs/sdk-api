@@ -9,8 +9,6 @@ ms.assetid: 910d3f37-15f4-4a0e-8aa0-ab58be865c62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod, oleauto/VarMod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

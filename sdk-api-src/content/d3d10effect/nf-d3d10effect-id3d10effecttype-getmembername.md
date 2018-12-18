@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembername.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMemberName, GetMemberName method [Direct3D 10], GetMemberName method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberName method, ID3D10EffectType.GetMemberName, ID3D10EffectType::GetMemberName, d3aad501-489a-1c7e-5669-9c1cf7cccfce, d3d10effect/ID3D10EffectType::GetMemberName, direct3d10.id3d10effecttype_getmembername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_3jlb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxSetGlobalRoutingInfo, FaxSetGlobalRoutingInfo function [Fax Service], FaxSetGlobalRoutingInfoA, FaxSetGlobalRoutingInfoW, _mfax_faxsetglobalroutinginfo, fax._mfax_faxsetglobalroutinginfo, winfax/FaxSetGlobalRoutingInfo, winfax/FaxSetGlobalRoutingInfoA, winfax/FaxSetGlobalRoutingInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

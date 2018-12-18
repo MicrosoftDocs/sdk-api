@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b1e6bf08-3b81-4c04-92ff-73eac5f7495a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],createQuery method, IWMPMediaCollection2.createQuery, IWMPMediaCollection2::createQuery, IWMPMediaCollection2createQuery, createQuery, createQuery method [Windows Media Player], createQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_createquery, wmp/IWMPMediaCollection2::createQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ Creating a new query is the first step toward creating a compound query.
 
 
 
-<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563406(v=VS.85).aspx">IWMPMediaCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563630(v=VS.85).aspx">IWMPQuery Interface</a>
  
 
  

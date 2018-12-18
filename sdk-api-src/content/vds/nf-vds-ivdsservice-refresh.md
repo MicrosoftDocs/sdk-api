@@ -9,8 +9,6 @@ ms.assetid: ca6a1143-b5f0-49e5-8505-836c565aabcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsService interface [VDS],Refresh method, IVdsService.Refresh, IVdsService::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsService interface, base.ivdsservice_refresh, vds/IVdsService::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

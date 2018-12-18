@@ -9,8 +9,6 @@ ms.assetid: A13410D1-38F3-489A-8AAC-BD2909341ACB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConsole interface [MMC],QueryResultView method, IConsole.QueryResultView, IConsole::QueryResultView, QueryResultView, QueryResultView method [MMC], QueryResultView method [MMC],IConsole interface, mmc.iconsole_queryresultview, mmc/IConsole::QueryResultView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

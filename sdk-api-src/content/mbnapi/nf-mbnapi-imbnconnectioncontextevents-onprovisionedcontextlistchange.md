@@ -9,8 +9,6 @@ ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnProvisionedContextListChange method, IMbnConnectionContextEvents.OnProvisionedContextListChange, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

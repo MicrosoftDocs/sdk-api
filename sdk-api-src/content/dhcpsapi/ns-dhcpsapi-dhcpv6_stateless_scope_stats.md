@@ -1,5 +1,5 @@
 ---
-UID: NS:dhcpsapi.DHCPV6_STATELESS_SCOPE_STATS
+UID: NS:dhcpsapi.__unnamed_struct_1
 title: DHCPV6_STATELESS_SCOPE_STATS
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_SCOPE_STATS structure defines the address counters for a specific IPv6 stateless subnet. The number of stateless IPv6 clients added and removed from the stateless client inventory are stored in this structure.
@@ -7,10 +7,8 @@ old-location: dhcp\dhcpv6_stateless_scope_stats.htm
 tech.root: DHCP
 ms.assetid: edb099a6-18eb-49b1-8f97-7f0b32a2430a
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDHCPV6_STATELESS_SCOPE_STATS, *PDHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS structure [DHCP], LPDHCPV6_STATELESS_SCOPE_STATS, LPDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], PDHCPV6_STATELESS_SCOPE_STATS, PDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_scope_stats, dhcpsapi/DHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/LPDHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/PDHCPV6_STATELESS_SCOPE_STATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 
@@ -81,7 +79,7 @@ Integer that specifies the number of IPv6 stateless clients that have been remov
 
 
 
-<a href="https://msdn.microsoft.com/8C0E26F3-9496-497C-9E05-9995CC322189">DHCPV6_STATELESS_STATS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404369(v=VS.85).aspx">DHCPV6_STATELESS_STATS</a>
 
 
 

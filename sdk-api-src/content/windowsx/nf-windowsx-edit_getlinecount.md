@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetLineCount, Edit_GetLineCount macro [Windows Controls], _win32_Edit_GetLineCount, _win32_Edit_GetLineCount_cpp, controls.Edit_GetLineCount, controls._win32_Edit_GetLineCount, windowsx/Edit_GetLineCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

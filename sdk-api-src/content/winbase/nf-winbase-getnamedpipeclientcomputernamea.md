@@ -9,8 +9,6 @@ ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

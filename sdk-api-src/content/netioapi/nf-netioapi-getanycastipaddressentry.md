@@ -9,8 +9,6 @@ ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Helper], iphlp.getanycastipaddressentry, netioapi/GetAnycastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

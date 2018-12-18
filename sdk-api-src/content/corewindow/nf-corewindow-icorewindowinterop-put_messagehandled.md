@@ -9,8 +9,6 @@ ms.assetid: 22E94B52-98B6-4F8A-83B5-7D672143A210
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],MessageHandled property, ICoreWindowInterop.MessageHandled, ICoreWindowInterop.put_MessageHandled, ICoreWindowInterop::MessageHandled, ICoreWindowInterop::put_MessageHandled, MessageHandled property [Windows Runtime], MessageHandled property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::MessageHandled, corewindow/ICoreWindowInterop::put_MessageHandled, put_MessageHandled, winrt.icorewindowinterop_messagehandled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: corewindow.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302117(v=VS.85).aspx">ICoreWindowInterop</a>
+<a href="https://msdn.microsoft.com/6928FA3A-C367-4C99-A67E-8ED0153D6349">ICoreWindowInterop</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AZ_PROP_WRITABLE, AzRole object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzRole object, GetProperty method [Security],IAzRole interface, IAzRole interface [Security],GetProperty method, IAzRole.GetProperty, IAzRole::GetProperty, azroles/IAzRole::GetProperty, security.iazrole_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -61,7 +59,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -179,7 +177,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property.
 
 
 ## -returns

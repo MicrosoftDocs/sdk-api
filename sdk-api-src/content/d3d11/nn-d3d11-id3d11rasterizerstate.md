@@ -9,8 +9,6 @@ ms.assetid: fbe6d2b9-375e-4390-9d34-36acef0a5aa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6b2716ca-7676-6b26-071d-20ec80705737, ID3D11RasterizerState, ID3D11RasterizerState interface [Direct3D 11], ID3D11RasterizerState interface [Direct3D 11],described, d3d11/ID3D11RasterizerState, direct3d11.id3d11rasterizerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 
@@ -56,7 +54,7 @@ The rasterizer-state interface holds a description for rasterizer state that you
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RasterizerState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476380(v=VS.85).aspx">ID3D11DeviceChild</a>. <b>ID3D11RasterizerState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RasterizerState</b> interface inherits from <a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>. <b>ID3D11RasterizerState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -99,7 +97,7 @@ To create a rasterizer-state object, call <a href="https://msdn.microsoft.com/b4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476380(v=VS.85).aspx">ID3D11DeviceChild</a>
+<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
  
 
  

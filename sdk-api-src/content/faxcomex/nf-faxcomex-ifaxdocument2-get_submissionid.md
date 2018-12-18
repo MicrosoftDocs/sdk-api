@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submission
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],SubmissionId property, IFaxDocument2.SubmissionId, IFaxDocument2.get_SubmissionId, IFaxDocument2::SubmissionId, IFaxDocument2::get_SubmissionId, SubmissionId property [Fax Service], SubmissionId property [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submissionid, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submissionid_cpp, fax._mfax_faxdocument2_submissionid, faxcomex/IFaxDocument2::SubmissionId, faxcomex/IFaxDocument2::get_SubmissionId, get_SubmissionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -75,11 +73,11 @@ This property is set whenever a method that submits a fax completes.
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/20b98e3e-3126-4be1-b9af-228164d0bda6">IFaxDocument2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359010(v=VS.85).aspx">IFaxDocument2</a>
  
 
  

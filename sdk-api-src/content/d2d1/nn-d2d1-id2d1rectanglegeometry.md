@@ -9,8 +9,6 @@ ms.assetid: bb5f65ba-34d4-418b-863c-2431046bce8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1RectangleGeometry, ID2D1RectangleGeometry interface [Direct2D], ID2D1RectangleGeometry interface [Direct2D],described, d2d1/ID2D1RectangleGeometry, direct2d.ID2D1RectangleGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -85,7 +83,7 @@ Retrieves the rectangle that describes the rectangle geometry's dimensions.
 
 
 <h3><a id="Creating_ID2D1RectangleGeometry_Objects"></a><a id="creating_id2d1rectanglegeometry_objects"></a><a id="CREATING_ID2D1RECTANGLEGEOMETRY_OBJECTS"></a>Creating ID2D1RectangleGeometry Objects</h3>
-To create a rectangle geometry, use the <a href="https://msdn.microsoft.com/4c8f4950-7b5a-4f77-9a5b-513916f83d0c">ID2D1Factory::CreateRectangleGeometry</a> method.
+To create a rectangle geometry, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742727(v=VS.85).aspx">ID2D1Factory::CreateRectangleGeometry</a> method.
 
 Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>. 
 

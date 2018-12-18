@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\check
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CheckRadioButton, CheckRadioButton function [Windows Controls], _win32_CheckRadioButton, _win32_CheckRadioButton_cpp, controls.CheckRadioButton, controls._win32_CheckRadioButton, winuser/CheckRadioButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

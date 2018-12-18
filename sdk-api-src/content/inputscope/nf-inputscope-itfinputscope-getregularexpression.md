@@ -9,8 +9,6 @@ ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inputscope.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_9nqd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],ServerMapiProfile property, IFaxServer.ServerMapiProfile, IFaxServer.get_ServerMapiProfile, IFaxServer.put_ServerMapiProfile, IFaxServer::ServerMapiProfile, IFaxServer::get_ServerMapiProfile, IFaxServer::put_ServerMapiProfile, ServerMapiProfile property [Fax Service], ServerMapiProfile property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_servermapiprofile, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_servermapiprofile_cpp, fax._mfax_ifaxserver_get_servermapiprofile, faxcom/IFaxServer::ServerMapiProfile, faxcom/IFaxServer::get_ServerMapiProfile, faxcom/IFaxServer::put_ServerMapiProfile, get_ServerMapiProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>ServerMapiProfile</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>ServerMapiProfile</b> property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
+Sets or retrieves the <b>ServerMapiProfile</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ServerMapiProfile</b> property is a null-terminated string that contains the MAPI user profile that the fax server uses for routing incoming fax transmissions.
 
 This property is read/write.
 
@@ -68,7 +66,7 @@ This property is read/write.
 
 <div class="alert"><b>Note</b>  This function is not supported in Windows XP.</div>
 <div> </div>
-The <b>IFaxServer::get_ServerMapiProfile</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function to deallocate the resources associated with this parameter.
+The <b>IFaxServer::get_ServerMapiProfile</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter.
 
 
 
@@ -78,23 +76,23 @@ The <b>IFaxServer::get_ServerMapiProfile</b> method allocates the memory require
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
  
 
  

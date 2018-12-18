@@ -9,8 +9,6 @@ ms.assetid: a4ef9180-5568-4e5b-8c37-f750263060d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetTextExt method, ITfContextView.GetTextExt, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

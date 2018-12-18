@@ -7,10 +7,8 @@ old-location: base\powerregisterforeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 3C87643F-A8DA-4230-A216-8F46629BB6FB
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powersetting.h
 req.include-header: 

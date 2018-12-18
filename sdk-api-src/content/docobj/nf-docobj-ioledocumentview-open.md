@@ -9,8 +9,6 @@ ms.assetid: 46f801ae-ae03-4567-9442-cf3fbb6d06d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleDocumentView interface [COM],Open method, IOleDocumentView.Open, IOleDocumentView::Open, Open, Open method [COM], Open method [COM],IOleDocumentView interface, _ole_ioledocumentview_open, com.ioledocumentview_open, docobj/IOleDocumentView::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

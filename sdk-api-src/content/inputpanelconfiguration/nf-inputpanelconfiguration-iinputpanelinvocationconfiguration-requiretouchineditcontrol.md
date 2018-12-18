@@ -9,8 +9,6 @@ ms.assetid: FAFF0DC8-DD18-47A2-B3BD-24A69B75A100
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInputPanelInvocationConfiguration interface [Windows Shell],RequireTouchInEditControl method, IInputPanelInvocationConfiguration.RequireTouchInEditControl, IInputPanelInvocationConfiguration::RequireTouchInEditControl, RequireTouchInEditControl, RequireTouchInEditControl method [Windows Shell], RequireTouchInEditControl method [Windows Shell],IInputPanelInvocationConfiguration interface, inputpanelconfiguration/IInputPanelInvocationConfiguration::RequireTouchInEditControl, shell.iinputpanelinvocationconfiguration_requiretouchineditcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inputpanelconfiguration.h
 req.include-header: 

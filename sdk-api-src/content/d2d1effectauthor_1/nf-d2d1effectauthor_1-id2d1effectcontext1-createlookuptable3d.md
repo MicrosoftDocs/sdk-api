@@ -9,8 +9,6 @@ ms.assetid: 410D6785-944D-4A64-887A-0BD4511127DF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateLookupTable3D method [Direct2D],ID2D1EffectContext1 interface, ID2D1EffectContext1 interface [Direct2D],CreateLookupTable3D method, ID2D1EffectContext1.CreateLookupTable3D, ID2D1EffectContext1::CreateLookupTable3D, d2d1effectauthor_1/ID2D1EffectContext1::CreateLookupTable3D, direct2d.id2d1effectcontext1_createlookuptable3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor_1.h
 req.include-header: 
@@ -106,7 +104,7 @@ Receives the new lookup table instance.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

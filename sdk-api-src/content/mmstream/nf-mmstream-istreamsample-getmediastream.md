@@ -9,8 +9,6 @@ ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ Retrieves a pointer to the media stream object that created the current sample.
 
 ### -param ppMediaStream [in]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/97f5dfdc-5941-4b58-a618-1c7e9f6665e1">IMediaStream</a> interface that will point to the media stream that created the current sample.
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> interface that will point to the media stream that created the current sample.
 
 
 ## -returns
@@ -91,7 +89,7 @@ If successful, this method increments the reference count of the media stream sp
 
 
 
-<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 5bd478f1-0c01-4d7f-9ed1-af84e5bbe773
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvPlgBlt, DrvPlgBlt function [Display Devices], ddifncs_7ede9dd6-c295-42b1-96f0-966ce103cc2e.xml, display.drvplgblt, winddi/DrvPlgBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

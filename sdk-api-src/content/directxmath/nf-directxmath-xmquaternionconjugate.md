@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionConjugate(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionConjugate, XMQuaternionConjugate, XMQuaternionConjugate method [DirectX Math Support APIs], dxmath.xmquaternionconjugate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -89,7 +87,7 @@ Given a quaternion (
    <i>z</i>,
    <i>w</i>).
 
-Use the <a href="https://msdn.microsoft.com/7c9f9d16-7880-4e65-845e-3277720ed1c3">XMQuaternionNormalize</a> function for any quaternion input
+Use the <a href="https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx">XMQuaternionNormalize</a> function for any quaternion input
    that is not already normalized.
 
 

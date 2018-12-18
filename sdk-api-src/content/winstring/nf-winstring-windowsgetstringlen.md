@@ -9,8 +9,6 @@ ms.assetid: 80B659DF-C760-4D9E-B779-144A5B8FEA59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsGetStringLen, WindowsGetStringLen function [Windows Runtime], winrt.windowsgetstringlen, winstring/WindowsGetStringLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

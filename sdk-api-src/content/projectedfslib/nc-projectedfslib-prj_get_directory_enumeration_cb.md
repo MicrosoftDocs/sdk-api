@@ -9,8 +9,6 @@ ms.assetid: 45E7E7F9-9E54-44C8-9915-43CCECF85DB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 
@@ -171,7 +169,7 @@ An appropriate HRESULT error code if the provider fails the operation.
 
 
 
-ProjFS invokes this callback one or more times after invoking <a href="https://msdn.microsoft.com/09F284D4-BF39-42C9-A89B-DDC8201362EE">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
+ProjFS invokes this callback one or more times after invoking <a href="https://msdn.microsoft.com/en-us/library/Mt815635(v=VS.85).aspx">PRJ_START_DIRECTORY_ENUMERATION_CB</a>.  See the Remarks section of <i>PRJ_START_DIRECTORY_ENUMERATION_CB</i> for more information.
 
 
 

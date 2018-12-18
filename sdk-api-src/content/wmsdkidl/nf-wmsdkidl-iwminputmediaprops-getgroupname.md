@@ -9,8 +9,6 @@ ms.assetid: 795cd065-62f1-4346-b2ff-f77ec4306d64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGroupName, GetGroupName method [windows Media Format], GetGroupName method [windows Media Format],IWMInputMediaProps interface, IWMInputMediaProps interface [windows Media Format],GetGroupName method, IWMInputMediaProps.GetGroupName, IWMInputMediaProps::GetGroupName, IWMInputMediaPropsGetGroupName, wmformat.iwminputmediaprops_getgroupname, wmsdkidl/IWMInputMediaProps::GetGroupName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,7 +127,7 @@ The <i>pwszName</i> parameter is not large enough.
 
 
 
-<a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps Interface</a>
  
 
  

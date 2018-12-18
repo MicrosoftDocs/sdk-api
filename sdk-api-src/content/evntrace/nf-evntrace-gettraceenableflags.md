@@ -9,8 +9,6 @@ ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTraceEnableFlags, GetTraceEnableFlags function [ETW], _evt_gettraceenableflags, base.gettraceenableflags, etw.gettraceenableflags, evntrace/GetTraceEnableFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evntrace.h
 req.include-header: 

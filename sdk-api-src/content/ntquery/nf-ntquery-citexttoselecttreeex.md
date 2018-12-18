@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_7jg8.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CITextToSelectTreeEx, CITextToSelectTreeEx function [Indexing Service], _idxs_CITextToSelectTreeEx, indexsrv.citexttoselecttreeex, ntquery/CITextToSelectTreeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

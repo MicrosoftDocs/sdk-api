@@ -9,8 +9,6 @@ ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AssocQueryKey, AssocQueryKey function [Windows Shell], AssocQueryKeyA, AssocQueryKeyW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryKey, shell.AssocQueryKey, shlwapi/AssocQueryKey, shlwapi/AssocQueryKeyA, shlwapi/AssocQueryKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -70,9 +68,9 @@ The flags that can be used to control the search. It can be any combination of <
 
 ### -param key [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a></b>
 
-The <a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 
 ### -param pszAssoc [in]

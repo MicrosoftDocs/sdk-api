@@ -9,8 +9,6 @@ ms.assetid: c29aa79e-b978-4318-a8e1-5a321cd66327
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_FIGURE_BEGIN, D2D1_FIGURE_BEGIN enumeration [Direct2D], D2D1_FIGURE_BEGIN_FILLED, D2D1_FIGURE_BEGIN_HOLLOW, d2d1/D2D1_FIGURE_BEGIN, d2d1/D2D1_FIGURE_BEGIN_FILLED, d2d1/D2D1_FIGURE_BEGIN_HOLLOW, direct2d.D2D1_FIGURE_BEGIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 
@@ -90,7 +88,7 @@ Indicates the figure will not be filled by the FillGeometry (<a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee264309(v=VS.85).aspx">Path Geometries Overview</a>
+<a href="https://msdn.microsoft.com/38a290be-b915-4317-b9b1-0e49e40dc8ec">Path Geometries Overview</a>
  
 
  

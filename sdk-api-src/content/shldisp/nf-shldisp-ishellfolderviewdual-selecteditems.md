@@ -9,8 +9,6 @@ ms.assetid: 71ec6c0d-f3de-4a5d-941b-16d33b718921
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectedItems method, IShellFolderViewDual.SelectedItems, IShellFolderViewDual::SelectedItems, SelectedItems, SelectedItems method [Windows Shell], SelectedItems method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectedItems, shell.IShellFolderViewDual_SelectedItems, shldisp/IShellFolderViewDual::SelectedItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets a FolderItems object that represents all of the selected items in the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b99201b3-95e8-4ddd-b338-dee8d107d0a0">FolderItems</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787800(v=VS.85).aspx">FolderItems</a>**</b>
 
 The FolderItems object.
 

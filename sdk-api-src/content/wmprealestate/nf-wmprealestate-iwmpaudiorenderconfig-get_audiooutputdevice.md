@@ -9,8 +9,6 @@ ms.assetid: a6ad388e-0fb8-4188-853c-9eba67e0848e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],get_audioOutputDevice method, IWMPAudioRenderConfig.get_audioOutputDevice, IWMPAudioRenderConfig::get_audioOutputDevice, get_audioOutputDevice, get_audioOutputDevice method [Windows Media Player], get_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_get_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::get_audioOutputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmprealestate.h
 req.include-header: 
@@ -115,7 +113,7 @@ If this method retrieves an empty string, the Windows Media Player ActiveX contr
 
 
 
-<a href="https://msdn.microsoft.com/743dae18-985a-405a-8025-ead54e06a4ea">IWMPAudioRenderConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563077(v=VS.85).aspx">IWMPAudioRenderConfig</a>
  
 
  

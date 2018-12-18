@@ -9,8 +9,6 @@ ms.assetid: 5049B594-A882-49F0-A18B-6A28818AD8D2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EDP.srpistokenservice, SrpIsTokenService, SrpIsTokenService function, srpapi/SrpIsTokenService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

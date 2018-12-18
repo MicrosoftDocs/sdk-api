@@ -9,8 +9,6 @@ ms.assetid: 911ac2dd-a8df-4f71-81da-032219664453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBatchLevelKnowledgeShouldBeApplied, GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync], GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetBatchLevelKnowledgeShouldBeApplied method, ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied, ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied, winsync.isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied, winsync/ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 499c6c31-8cdf-4b99-964a-1fd51c14c5bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The output number to which the player-hook callback applies.
 
 ### -param pHook [in]
 
-Pointer to the implementation of the <a href="https://msdn.microsoft.com/5e58cb6a-3398-4b12-881e-76f936f6c7b3">IWMPlayerHook</a> interface that will be used in association with the specified output.
+Pointer to the implementation of the <a href="https://msdn.microsoft.com/en-us/library/Dd757261(v=VS.85).aspx">IWMPlayerHook</a> interface that will be used in association with the specified output.
 
 
 ## -returns
@@ -116,7 +114,7 @@ DirectX Video Acceleration enables supported graphics cards to decompress video 
 
 
 
-<a href="https://msdn.microsoft.com/28d697d8-99b5-4968-a765-ba01b86914f6">IWMReaderAdvanced5 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757460(v=VS.85).aspx">IWMReaderAdvanced5 Interface</a>
  
 
  

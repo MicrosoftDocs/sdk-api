@@ -9,8 +9,6 @@ ms.assetid: b1bcd725-723c-47a3-a2b9-468f5f2e6596
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

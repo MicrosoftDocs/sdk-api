@@ -9,8 +9,6 @@ ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6ff773a9-961e-4a5e-ad37-46234022c575, MFCreateAsyncResult, MFCreateAsyncResult function [Media Foundation], mf.mfcreateasyncresult, mfapi/MFCreateAsyncResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

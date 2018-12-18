@@ -9,8 +9,6 @@ ms.assetid: 116c5746-61ad-4a47-a5e3-4675af87b0f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStroke method, IInkDisp.CreateStroke, IInkDisp::CreateStroke, msinkaut/IInkDisp::CreateStroke, tablet.inkdisp_createstroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -169,7 +167,7 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

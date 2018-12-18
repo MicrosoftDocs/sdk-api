@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_GetMinVisible, ComboBox_GetMinVisible macro [Windows Controls], _win32_ComboBox_GetMinVisible, _win32_ComboBox_GetMinVisible_cpp, commctrl/ComboBox_GetMinVisible, controls.ComboBox_GetMinVisible, controls._win32_ComboBox_GetMinVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the minimum number of visible items in the drop-down list of a combo box.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Specifies the combo box. 
 

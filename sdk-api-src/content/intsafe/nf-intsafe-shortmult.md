@@ -9,8 +9,6 @@ ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

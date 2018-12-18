@@ -9,8 +9,6 @@ ms.assetid: c8c37aee-c5d2-479f-989f-461877ee6136
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransactionStatus, GetTransactionStatus method [COM+], GetTransactionStatus method [COM+],ITransactionStatus interface, ITransactionStatus interface [COM+],GetTransactionStatus method, ITransactionStatus.GetTransactionStatus, ITransactionStatus::GetTransactionStatus, _cos_ITransactionStatus_GetTransactionStatus, comsvcs/ITransactionStatus::GetTransactionStatus, cos.itransactionstatus_gettransactionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -98,7 +96,7 @@ The <i>pHrStatus</i> parameter is a pointer to an <b>HRESULT</b> value that indi
 <tr>
 <td>XACT_E_NOTRANSACTION
 </td>
-<td>No transactions were being used through <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>.
+<td>No transactions were being used through <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>.
 </td>
 </tr>
 <tr>
@@ -124,7 +122,7 @@ The <i>pHrStatus</i> parameter is a pointer to an <b>HRESULT</b> value that indi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687068(v=VS.85).aspx">ITransactionStatus</a>
+<a href="https://msdn.microsoft.com/df5eba93-6db7-478c-b6d7-831c20398d66">ITransactionStatus</a>
  
 
  

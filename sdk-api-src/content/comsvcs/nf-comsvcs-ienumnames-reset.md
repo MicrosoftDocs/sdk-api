@@ -9,8 +9,6 @@ ms.assetid: e7b7e703-f5d5-430f-8fa6-c26a236eab88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNames::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumNames interface, _cos_IEnumNames_Reset, comsvcs/IEnumNames::Reset, cos.ienumnames_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

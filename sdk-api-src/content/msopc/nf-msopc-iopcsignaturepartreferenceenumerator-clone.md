@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturepartreferenceenumerator_clone.htm
 tech.root: OPC
 ms.assetid: fc36f6bd-54b6-4d6d-a957-d0ea8a19d36c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignaturePartReferenceEnumerator.Clone, IOpcSignaturePartReferenceEnumerator::Clone, msopc/IOpcSignaturePartReferenceEnumerator::Clone, opc.iopcsignaturepartreferenceenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7f170430-2ce4-490b-9163-f39221a8db5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_closedCaption method, IWMPCore.get_closedCaption, IWMPCore::get_closedCaption, IWMPCoreget_closedCaption, get_closedCaption, get_closedCaption method [Windows Media Player], get_closedCaption method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_closedcaption, wmp/IWMPCore::get_closedCaption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

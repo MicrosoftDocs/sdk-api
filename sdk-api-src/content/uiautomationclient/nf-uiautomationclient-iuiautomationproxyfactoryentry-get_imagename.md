@@ -9,8 +9,6 @@ ms.assetid: 7a3fde44-5b22-4686-9d48-4bc8b651cb37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ImageName property, IUIAutomationProxyFactoryEntry.ImageName, IUIAutomationProxyFactoryEntry.get_ImageName, IUIAutomationProxyFactoryEntry::ImageName, IUIAutomationProxyFactoryEntry::get_ImageName, IUIAutomationProxyFactoryEntry::put_ImageName, ImageName property [Windows Accessibility], ImageName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, get_ImageName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ImageName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

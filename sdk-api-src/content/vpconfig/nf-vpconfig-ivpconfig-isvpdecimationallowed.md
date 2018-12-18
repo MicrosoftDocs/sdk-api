@@ -9,8 +9,6 @@ ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPConfig.IsVPDecimationAllowed, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow],IVPConfig interface, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -96,7 +94,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/2c0eb294-7e57-4d8d-98b1-57c3834279a0">IVPConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 6ad569a1-8b7a-473c-8bce-ad1fd843ec29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1.CreatePackageWriterOnFile1, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

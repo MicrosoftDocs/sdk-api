@@ -9,8 +9,6 @@ ms.assetid: 5bc3e19c-3015-44fb-87a9-645e11283643
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_ExternalIPAddressCallback method, INATEventManager.put_ExternalIPAddressCallback, INATEventManager::put_ExternalIPAddressCallback, _ics_inateventmanager_put_externalipaddresscallback, ics.inateventmanager_put_externalipaddresscallback, natupnp/INATEventManager::put_ExternalIPAddressCallback, put_ExternalIPAddressCallback, put_ExternalIPAddressCallback method [ICS/ICF], put_ExternalIPAddressCallback method [ICS/ICF],INATEventManager interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

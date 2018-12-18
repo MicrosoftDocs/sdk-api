@@ -9,8 +9,6 @@ ms.assetid: 88f67eab-c87b-4a15-b29f-25675d0cac22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_WriteInProgress method, IWriteEngine2.get_WriteInProgress, IWriteEngine2::get_WriteInProgress, get_WriteInProgress, get_WriteInProgress method [IMAPI], get_WriteInProgress method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_writeinprogress, imapi2/IWriteEngine2::get_WriteInProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

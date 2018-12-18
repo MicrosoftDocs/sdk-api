@@ -9,8 +9,6 @@ ms.assetid: B4F79A20-E69E-4EA0-A992-4415B8AA4790
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateUI, CreateUI method [Internationalization for Windows Applications], CreateUI method [Internationalization for Windows Applications],IImePadApplet interface, IImePadApplet interface [Internationalization for Windows Applications],CreateUI method, IImePadApplet.CreateUI, IImePadApplet::CreateUI, imepad/IImePadApplet::CreateUI, intl.iimepadapplet_createui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imepad.h
 req.include-header: 

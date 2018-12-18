@@ -9,8 +9,6 @@ ms.assetid: 2a3e85ea-4727-45ca-a8c9-c168b9cb7467
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmDependency interface,get_Module method, IMsmDependency.get_Module, IMsmDependency::get_Module, _msi_get_module_function, get_Module, get_Module method, get_Module method,IMsmDependency interface, mergemod/IMsmDependency::get_Module, setup.imsmdependency_get_module
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

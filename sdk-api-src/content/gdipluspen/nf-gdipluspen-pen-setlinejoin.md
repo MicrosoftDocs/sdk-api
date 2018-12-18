@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\set
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pen class [GDI+],SetLineJoin method, Pen.SetLineJoin, Pen::SetLineJoin, SetLineJoin, SetLineJoin method [GDI+], SetLineJoin method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetLineJoin_lineJoin_, gdiplus._gdiplus_CLASS_Pen_SetLineJoin_lineJoin_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

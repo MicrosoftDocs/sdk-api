@@ -9,8 +9,6 @@ ms.assetid: 3f320a0c-8586-4fc2-bd70-06ddda435cb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],Close method, IWMReader.Close, IWMReader::Close, IWMReaderClose, wmformat.iwmreader_close, wmsdkidl/IWMReader::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -109,7 +107,7 @@ The file is already closed
 
 
 
-This method sends a WMT_CLOSE status notification to the application's <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> method.
+This method sends a WMT_CLOSE status notification to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method.
 
 
 
@@ -119,23 +117,23 @@ This method sends a WMT_CLOSE status notification to the application's <a href="
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c9d60df-fa9e-42ac-907a-1958a38e430e">IWMReader::Pause</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743600(v=VS.85).aspx">IWMReader::Pause</a>
 
 
 
-<a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>
 
 
 
-<a href="https://msdn.microsoft.com/781d1882-4b48-4415-9b3a-788207b42151">IWMReader::Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743610(v=VS.85).aspx">IWMReader::Stop</a>
  
 
  

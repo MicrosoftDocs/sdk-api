@@ -9,8 +9,6 @@ ms.assetid: 447625BA-F982-4155-9B05-E478E1229443
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyValue, IPropertyValue interface [Windows Runtime], IPropertyValue interface [Windows Runtime],described, windows/IPropertyValue, winrt.ipropertyvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.foundation.h
 req.include-header: 
@@ -254,7 +252,7 @@ Gets the 32-bit floating point value that is stored in the current <b>IPropertyV
 <a href="https://msdn.microsoft.com/f4286901-92b2-4707-9da7-bb7abf83bb87">GetSingleArray</a>
 </td>
 <td align="left" width="63%">
-Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of 32-bit floating point values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 </td>
 </tr>
@@ -272,7 +270,7 @@ Gets the <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779b
 <a href="https://msdn.microsoft.com/f378c4d0-c3a2-4611-a471-0c77746602f6">GetSizeArray</a>
 </td>
 <td align="left" width="63%">
-Gets the array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a> values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a> values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 </td>
 </tr>
@@ -290,7 +288,7 @@ Gets the string value that is stored in the current <b>IPropertyValue</b> object
 <a href="https://msdn.microsoft.com/d256b888-efa0-470e-b54f-5cf8ddd6fd8a">GetStringArray</a>
 </td>
 <td align="left" width="63%">
-Gets the array of string values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of string values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 </td>
 </tr>
@@ -308,7 +306,7 @@ Gets the <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b
 <a href="https://msdn.microsoft.com/a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc">GetTimeSpanArray</a>
 </td>
 <td align="left" width="63%">
-Gets the array of <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a> values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a> values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 </td>
 </tr>

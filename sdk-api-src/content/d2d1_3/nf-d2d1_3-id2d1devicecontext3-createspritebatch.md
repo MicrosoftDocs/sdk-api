@@ -9,8 +9,6 @@ ms.assetid: C9CCDF6B-BAEC-4C37-B3C1-60D50BACF973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSpriteBatch, CreateSpriteBatch method [Direct2D], CreateSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],CreateSpriteBatch method, ID2D1DeviceContext3.CreateSpriteBatch, ID2D1DeviceContext3::CreateSpriteBatch, d2d1_3/ID2D1DeviceContext3::CreateSpriteBatch, direct2d.id2d1devicecontext3_createspritebatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Creates a new, empty sprite batch. After creating a sprite batch, use <a href="https://msdn.microsoft.com/49EA1F42-76C3-4505-B46A-422A336A13F6">ID2D1SpriteBatch::AddSprites</a> 
-        to add sprites to it, then use <a href="https://msdn.microsoft.com/66d049ca-5d4b-1570-3fa3-8991f9fc97a0">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
+        to add sprites to it, then use <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a> to draw it.
 
 
 ## -parameters
@@ -70,7 +68,7 @@ When this method returns, contains a pointer to a new, empty sprite batch to be 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 8cce1492-5c3a-4ba8-8f33-22f6ff7fcf3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Context_GetCustomOptionCount, MI_Context_GetCustomOptionCount function [Windows Management Infrastructure (MI)], mi/MI_Context_GetCustomOptionCount, wmi.mi_getcustomoptioncount, wmi_v2.mi_context_getcustomoptioncount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

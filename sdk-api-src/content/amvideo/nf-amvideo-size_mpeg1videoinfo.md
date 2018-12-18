@@ -9,8 +9,6 @@ ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
+The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 
 
 
@@ -63,7 +61,7 @@ The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="ht
 
 ### -param pv
 
-Pointer to an <a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a> structure.
 
 
 ## -see-also

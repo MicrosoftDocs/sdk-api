@@ -9,8 +9,6 @@ ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h

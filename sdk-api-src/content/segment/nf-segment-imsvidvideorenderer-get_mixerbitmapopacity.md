@@ -9,8 +9,6 @@ ms.assetid: 830eff1a-e70e-440c-81be-69058d14f314
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapOpacity method, IMSVidVideoRenderer.get_MixerBitmapOpacity, IMSVidVideoRenderer::get_MixerBitmapOpacity, IMSVidVideoRendererget_MixerBitmapOpacity, get_MixerBitmapOpacity, get_MixerBitmapOpacity method [Microsoft TV Technologies], get_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmapopacity, segment/IMSVidVideoRenderer::get_MixerBitmapOpacity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,11 +88,11 @@ If the static bitmap image is set, the VMR alpha-blends the bitmap onto the vide
 
 
 
-<a href="https://msdn.microsoft.com/cfcfab14-7084-4716-8955-574168cd3506">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694739(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/5dba67ab-9522-48a3-be09-8ed8c27bffee">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694752(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmapOpacity</a>
  
 
  

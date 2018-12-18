@@ -9,8 +9,6 @@ ms.assetid: fbb29d36-b93a-44e2-a1df-74b6de6f4e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumStream interface, IEnumStream interface [TAPI 2.2],Clone method, IEnumStream.Clone, IEnumStream::Clone, _tapi3_ienumstream_clone, tapi3.ienumstream_clone, tapi3if/IEnumStream::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

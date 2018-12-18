@@ -9,8 +9,6 @@ ms.assetid: 4e7eff5e-2877-4524-8f76-55d41afe521d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetFileIoOverlappedRange, SetFileIoOverlappedRange function [Files], fileapi/SetFileIoOverlappedRange, fs.setfileiooverlappedrange_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

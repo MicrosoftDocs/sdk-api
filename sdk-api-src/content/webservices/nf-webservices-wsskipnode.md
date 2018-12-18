@@ -9,8 +9,6 @@ ms.assetid: 90eda6f1-dda2-4595-90f5-029768278f5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsSkipNode, WsSkipNode function [Web Services for Windows], webservices/WsSkipNode, wsw.wsskipnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

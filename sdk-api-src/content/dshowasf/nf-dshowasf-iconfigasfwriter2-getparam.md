@@ -9,8 +9,6 @@ ms.assetid: 2a875d02-3814-46a1-9eee-61bad36475fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IConfigAsfWriter2 interface, IConfigAsfWriter2 interface [DirectShow],GetParam method, IConfigAsfWriter2.GetParam, IConfigAsfWriter2::GetParam, IConfigAsfWriter2GetParam, dshow.iconfigasfwriter2_getparam, dshowasf/IConfigAsfWriter2::GetParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -94,7 +92,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/fd931a95-3678-46de-8f17-9e7c27087398">IConfigAsfWriter2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312018(v=VS.85).aspx">IConfigAsfWriter2 Interface</a>
  
 
  

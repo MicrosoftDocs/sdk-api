@@ -9,8 +9,6 @@ ms.assetid: 2078ebd4-3570-4c39-9081-1b55d9e8286f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], IWMPContentPartner interface [Windows Media Player],described, IWMPContentPartnerInterface, contentpartner/IWMPContentPartner, wmp.iwmpcontentpartner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: contentpartner.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IWMPContentPartner</b> interface provides methods that Windows Media Play
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartner</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IWMPContentPartner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartner</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentPartner</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -288,7 +286,7 @@ Initiates the process of verifying permission for Windows Media Player to perfor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564243(v=VS.85).aspx">Reference for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
  
 
  

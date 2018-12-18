@@ -9,8 +9,6 @@ ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

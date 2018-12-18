@@ -9,8 +9,6 @@ ms.assetid: 006486f7-f766-44a1-a088-71035567a75d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ResultingImageType method, IRawCDImageCreator.get_ResultingImageType, IRawCDImageCreator::get_ResultingImageType, get_ResultingImageType, get_ResultingImageType method [IMAPI], get_ResultingImageType method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_resultingimagetype, imapi2/IRawCDImageCreator::get_ResultingImageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

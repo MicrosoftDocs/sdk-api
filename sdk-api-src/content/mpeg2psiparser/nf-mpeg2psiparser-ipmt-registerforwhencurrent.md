@@ -9,8 +9,6 @@ ms.assetid: 4759c813-3a1f-492a-bca9-cb6610f6426b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPMT.RegisterForWhenCurrent, IPMT::RegisterForWhenCurrent, IPMTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForWhenCurrent, mstv.ipmt_registerforwhencurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -141,7 +139,7 @@ This method applies only to <i>next</i> tables. Otherwise, the method returns E_
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEventInterface, mstv.imsvidstreambuffersourceevent, segment/IMSVidStreamBufferSourceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ The <b>IMSVidStreamBufferSourceEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10621576-65d0-46c1-8817-a96ee3822518">CertificateFailure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694678(v=VS.85).aspx">CertificateFailure</a>
 </td>
 <td align="left" width="63%">
 The object failed to get an encryption/decryption license.
@@ -87,7 +85,7 @@ The object failed to get an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c541058-5e02-4b78-8c28-a2a0709d5872">CertificateSuccess</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694679(v=VS.85).aspx">CertificateSuccess</a>
 </td>
 <td align="left" width="63%">
 The object succeeded in getting an encryption/decryption license.
@@ -96,7 +94,7 @@ The object succeeded in getting an encryption/decryption license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff28174c-a5a7-4cd3-b967-3e52d53864f3">ContentBecomingStale</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694680(v=VS.85).aspx">ContentBecomingStale</a>
 </td>
 <td align="left" width="63%">
 Called when the stream buffer source lags behind the stream buffer sink.
@@ -105,7 +103,7 @@ Called when the stream buffer source lags behind the stream buffer sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d5e510e-9629-4249-a704-b7a995d27edf">RatingsBlocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694681(v=VS.85).aspx">RatingsBlocked</a>
 </td>
 <td align="left" width="63%">
 The object has blocked the stream, because the rating is not allowed under the current permissions.
@@ -114,7 +112,7 @@ The object has blocked the stream, because the rating is not allowed under the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0754fb90-3f68-4f10-ab9b-74f7f7aeb047">RatingsChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694682(v=VS.85).aspx">RatingsChanged</a>
 </td>
 <td align="left" width="63%">
 The current rating has changed.
@@ -123,7 +121,7 @@ The current rating has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a255df5b-f7fe-4f99-9d29-59e30b922975">RatingsUnblocked</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694683(v=VS.85).aspx">RatingsUnblocked</a>
 </td>
 <td align="left" width="63%">
 The object has unblocked the stream.
@@ -132,7 +130,7 @@ The object has unblocked the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad8da4d8-9c8c-40e6-9fd4-a32cf8e775ce">StaleDataRead</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694684(v=VS.85).aspx">StaleDataRead</a>
 </td>
 <td align="left" width="63%">
 Called when the <b>MSVidStreamBufferSource</b> object reads from a temporary recording file that has been marked for deletion.
@@ -141,7 +139,7 @@ Called when the <b>MSVidStreamBufferSource</b> object reads from a temporary rec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/400efb81-6e16-4065-a9d8-3f0a801f306e">StaleFileDeleted</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694685(v=VS.85).aspx">StaleFileDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a temporary recording file is deleted.
@@ -150,7 +148,7 @@ Called when a temporary recording file is deleted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f1c3d20-7ae2-4223-8481-c22ef8422531">TimeHole</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694686(v=VS.85).aspx">TimeHole</a>
 </td>
 <td align="left" width="63%">
 Called when playback reaches a gap in the recorded content.

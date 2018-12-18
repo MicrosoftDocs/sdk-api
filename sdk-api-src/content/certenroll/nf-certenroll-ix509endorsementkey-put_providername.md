@@ -9,8 +9,6 @@ ms.assetid: 5031d14d-8a10-4821-aed4-b49e12027d91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509EndorsementKey interface [Security],ProviderName property, IX509EndorsementKey.ProviderName, IX509EndorsementKey.put_ProviderName, IX509EndorsementKey::ProviderName, IX509EndorsementKey::get_ProviderName, IX509EndorsementKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::ProviderName, certenroll/IX509EndorsementKey::get_ProviderName, certenroll/IX509EndorsementKey::put_ProviderName, put_ProviderName, security.ix509endorsementkey_providername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
+The name of the encryption provider. The default is the Microsoft Platform Crypto Provider. You must set the <b>ProviderName</b> property before you call the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method. You cannot change the <b>ProviderName</b> property after you have called the <b>Open</b> method.
 
 This property is read/write.
 
@@ -65,7 +63,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

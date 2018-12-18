@@ -9,8 +9,6 @@ ms.assetid: 02ecfecc-5c3d-458b-827a-a598b8f98916
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentHelpText property [Windows Accessibility], CurrentHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHelpText property, IUIAutomationElement.CurrentHelpText, IUIAutomationElement.get_CurrentHelpText, IUIAutomationElement::CurrentHelpText, IUIAutomationElement::get_CurrentHelpText, get_CurrentHelpText, uiauto.uiauto_IUIAutomationElement_CurrentHelpText, uiauto_IUIAutomationElement_CurrentHelpText, uiautomationclient/IUIAutomationElement::CurrentHelpText, uiautomationclient/IUIAutomationElement::get_CurrentHelpText, winauto.uiauto_IUIAutomationElement_CurrentHelpText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

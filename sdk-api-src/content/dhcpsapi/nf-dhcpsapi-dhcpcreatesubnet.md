@@ -9,8 +9,6 @@ ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

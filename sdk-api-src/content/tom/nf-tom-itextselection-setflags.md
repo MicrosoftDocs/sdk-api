@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextSelection interface [Windows Controls],SetFlags method, ITextSelection.SetFlags, ITextSelection::SetFlags, SetFlags, SetFlags method [Windows Controls], SetFlags method [Windows Controls],ITextSelection interface, _win32_ITextSelection_SetFlags, _win32_ITextSelection_SetFlags_cpp, controls.ITextSelection_SetFlags, controls._win32_ITextSelection_SetFlags, tom/ITextSelection::SetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

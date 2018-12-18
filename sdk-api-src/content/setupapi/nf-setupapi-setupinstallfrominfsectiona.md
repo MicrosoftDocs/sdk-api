@@ -9,8 +9,6 @@ ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

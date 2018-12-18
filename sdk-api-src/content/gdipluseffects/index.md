@@ -2,7 +2,7 @@
 UID: NA:gdipluseffects
 ms.assetid: d9169b79-dfbd-3dd8-9d45-476a4db1606a
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: 69aa7ecf-4816-460b-b4f8-480c0d4f8331
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],put_TiltRelative method, ICameraControl.put_TiltRelative, ICameraControl::put_TiltRelative, ICameraControlput_TiltRelative, dshow.icameracontrol_put_tiltrelative, put_TiltRelative, put_TiltRelative method [DirectShow], put_TiltRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_TiltRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <code>put_TiltRelative</code> method sets the camera's relative tilt. The re
 
 ### -param Value [in]
 
-Specifies the relative tilt. The size of the value represents the desired tilt speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/8b78e961-8b05-4339-ad66-49f2d892d4dc">ICameraControl::getRange_TiltRelative</a>.
+Specifies the relative tilt. The size of the value represents the desired tilt speed; a higher value represents a higher speed. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376310(v=VS.85).aspx">ICameraControl::getRange_TiltRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +86,7 @@ Specifies the relative tilt. The size of the value represents the desired tilt s
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -109,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

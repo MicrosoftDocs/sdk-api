@@ -9,8 +9,6 @@ ms.assetid: 302418e5-48b6-46ee-bb96-2a8170c4af5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole_CreateFormatEnumerator, com.createformatenumerator, urlmon/CreateFormatEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: urlmon.h
 req.include-header: 

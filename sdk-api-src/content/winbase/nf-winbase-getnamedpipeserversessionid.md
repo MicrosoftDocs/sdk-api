@@ -9,8 +9,6 @@ ms.assetid: cd628d6d-aa13-4762-893b-42f6cf7a2ba6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNamedPipeServerSessionId, GetNamedPipeServerSessionId function, base.getnamedpipeserversessionid, winbase/GetNamedPipeServerSessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

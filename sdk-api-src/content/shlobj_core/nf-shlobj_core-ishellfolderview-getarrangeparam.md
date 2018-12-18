@@ -9,8 +9,6 @@ ms.assetid: 15eda2f2-6956-47c1-be08-3ca2f292578e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetArrangeParam, GetArrangeParam method [Windows Shell], GetArrangeParam method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetArrangeParam method, IShellFolderView.GetArrangeParam, IShellFolderView::GetArrangeParam, SHCIDS_ALLFIELDS, SHCIDS_CANONICALONLY, _shell_IShellFolderView_GetArrangeParam, shell.IShellFolderView_GetArrangeParam, shlobj_core/IShellFolderView::GetArrangeParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

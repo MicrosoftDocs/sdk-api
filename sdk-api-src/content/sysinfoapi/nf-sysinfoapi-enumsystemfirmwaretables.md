@@ -9,8 +9,6 @@ ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
@@ -120,7 +118,7 @@ If the function fails for any other reason, the return value is zero. To get ext
 
 
 Starting with Windows 10, version 1803, Universal Windows apps can access the System Management BIOS (SMBIOS) information by declaring the <b>smbios</b> restricted capability in the app manifest.
-See <a href="base.access_smbios_information_from_a_universal_windows_app">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
+See <a href="https://msdn.microsoft.com/en-us/library/Mt829374(v=VS.85).aspx">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
 
 As of Windows Server 2003 with Service Pack 1 (SP1), applications cannot access the \Device\PhysicalMemory object. Access to this object is limited to kernel-mode drivers. This change affects applications read System Management BIOS (SMBIOS) or other BIOS data stored in the lowest 1MB of physical memory. Applications have the following alternatives to read data from low physical memory:
 
@@ -146,7 +144,7 @@ For ACPI, if the system contains multiple tables with the same name, they are al
 
 
 
-<a href="base.access_smbios_information_from_a_universal_windows_app">Access SMBIOS information from a Universal Windows App</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829374(v=VS.85).aspx">Access SMBIOS information from a Universal Windows App</a>
 
 
 

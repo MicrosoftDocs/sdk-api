@@ -9,8 +9,6 @@ ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -162,7 +160,7 @@ You can use this method to save a server-side playlist. When you do so, you spec
 
 This operation is asynchronous; WMT_SAVEAS_STOP indicates that all the data has been saved. Closing the reader ends a save operation that has not been completed.
 
-This method can take some time to complete, and a call can be made to <a href="https://msdn.microsoft.com/0317f010-4b7f-4f79-9460-ba6b1e904ffa">GetSaveAsProgress</a> to determine progress.
+This method can take some time to complete, and a call can be made to <a href="https://msdn.microsoft.com/en-us/library/Dd757437(v=VS.85).aspx">GetSaveAsProgress</a> to determine progress.
 
 <div class="alert"><b>Note</b>  It is possible to get the out of disk space error (STG_E_MEDIUMFULL) if the file being saved is greater than 1 MB. This is because Microsoft Internet Explorer has a maximum cache size of 1MB, and in this case the error does not refer to the amount of free disk space. This effectively limits the sizes of files that can be saved this way to those under 1 MB.</div>
 <div> </div>
@@ -174,7 +172,7 @@ This method can take some time to complete, and a call can be made to <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
  
 
  

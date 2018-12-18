@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10depthstencilstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 756bea1e-80cb-6163-33a9-bbedb02e57da, ID3D10DepthStencilState, ID3D10DepthStencilState interface [Direct3D 10], ID3D10DepthStencilState interface [Direct3D 10],described, d3d10/ID3D10DepthStencilState, direct3d10.id3d10depthstencilstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -58,7 +56,7 @@ A depth-stencil-state interface accesses depth-stencil state which sets up the <
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10DepthStencilState</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

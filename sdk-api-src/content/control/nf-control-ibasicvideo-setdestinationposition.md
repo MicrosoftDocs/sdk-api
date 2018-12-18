@@ -9,8 +9,6 @@ ms.assetid: e638eb33-5a7f-4ebc-910f-72566e251f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDestinationPosition method, IBasicVideo.SetDestinationPosition, IBasicVideo::SetDestinationPosition, IBasicVideoSetDestinationPosition, SetDestinationPosition, SetDestinationPosition method [DirectShow], SetDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDestinationPosition, dshow.ibasicvideo_setdestinationposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -146,7 +144,7 @@ This method has the same effect as individually calling the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

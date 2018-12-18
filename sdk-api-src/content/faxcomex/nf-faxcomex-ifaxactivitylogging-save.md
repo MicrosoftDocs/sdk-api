@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_3ht1.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxActivityLogging interface [Fax Service],Save method, IFaxActivityLogging.Save, IFaxActivityLogging::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxActivityLogging interface, _mfax_faxactivitylogging.save, fax._mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_save_cpp, fax._mfax_faxactivitylogging_save, faxcomex/IFaxActivityLogging::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxActivityLogging::Save</b> method saves the <a href="https://msdn.microsoft.com/225afdb8-7249-4aa5-bbde-638adf02eb41">FaxActivityLogging</a> object's data.
+The <b>IFaxActivityLogging::Save</b> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a> object's data.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> and <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farMANAGE_CONFIG</a> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access rights.
 
 
 
@@ -86,15 +84,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/225afdb8-7249-4aa5-bbde-638adf02eb41">FaxActivityLogging</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684576(v=VS.85).aspx">FaxActivityLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/77c3d94d-9076-4efd-833d-47373dc8b13b">IFaxActivityLogging</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684577(v=VS.85).aspx">IFaxActivityLogging</a>
 
 
 
-<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

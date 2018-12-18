@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Project(XMVECTOR,flo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3Project, XMVector3Project, XMVector3Project method [DirectX Math Support APIs], dxmath.xmvector3project
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -138,7 +136,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e1b563cd-c6fa-455b-9c43-53983a40447d">XMVector3ProjectStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404776(v=VS.85).aspx">XMVector3ProjectStream</a>
  
 
  

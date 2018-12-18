@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_5gyt.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],DeviceName property, IFaxDevice.DeviceName, IFaxDevice.get_DeviceName, IFaxDevice::DeviceName, IFaxDevice::get_DeviceName, _mfax_faxdevice.devicename, fax._mfax_faxdevice_cpp_mfax_faxdevice_devicename_cpp, fax._mfax_faxdevice_devicename, faxcomex/IFaxDevice::DeviceName, faxcomex/IFaxDevice::get_DeviceName, get_DeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

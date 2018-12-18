@@ -9,8 +9,6 @@ ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

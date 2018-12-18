@@ -9,8 +9,6 @@ ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
@@ -55,7 +53,7 @@ The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

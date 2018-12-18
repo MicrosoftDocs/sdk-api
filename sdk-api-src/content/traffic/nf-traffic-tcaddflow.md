@@ -9,8 +9,6 @@ ms.assetid: 20b4f34b-a84e-4211-8d41-0efa0dbc6cd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

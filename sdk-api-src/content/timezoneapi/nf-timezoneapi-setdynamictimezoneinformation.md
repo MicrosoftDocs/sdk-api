@@ -9,8 +9,6 @@ ms.assetid: 98ad7b94-f649-4270-8348-0aba5b59a433
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetDynamicTimeZoneInformation, SetDynamicTimeZoneInformation function, base.setdynamictimezoneinformation, timezoneapi/SetDynamicTimeZoneInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timezoneapi.h
 req.include-header: Windows.h

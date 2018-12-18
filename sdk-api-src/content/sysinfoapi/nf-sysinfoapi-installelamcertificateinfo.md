@@ -9,8 +9,6 @@ ms.assetid: 0EF40169-A078-4B1E-96EC-5390C75639F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstallELAMCertificateInfo, InstallELAMCertificateInfo function, base.installelamcertificateinfo, sysinfoapi/InstallELAMCertificateInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h
@@ -59,7 +57,7 @@ req.redist:
 Installs the certificate information specified in the resource file, which is linked into the ELAM 
     driver at build time. This API is used by anti-malware vendors to launch the anti-malware software's user-mode 
     service as protected. For more information, see 
-    <a href="m_whitepapers.protecting_anti-malware_services_">Protecting Anti-Malware Services</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a>.
 
 
 ## -parameters
@@ -94,7 +92,7 @@ Anti-malware vendors can use this API to register their anti-malware user-mode s
     only and must not be shareable for write access.
 
 For more information, see 
-    <a href="m_whitepapers.protecting_anti-malware_services_">Protecting Anti-Malware Services</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Dn313124(v=VS.85).aspx">Protecting Anti-Malware Services</a>.
 
 
 #### Examples

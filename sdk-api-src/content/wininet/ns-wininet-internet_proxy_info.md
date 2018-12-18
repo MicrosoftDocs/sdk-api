@@ -1,16 +1,14 @@
 ---
-UID: NS:wininet.INTERNET_PROXY_INFO
+UID: NS:wininet.__unnamed_struct_2
 title: INTERNET_PROXY_INFO
 author: windows-sdk-content
 description: Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the InternetOpen function.
 old-location: wininet\internet_proxy_info.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: f2431800-dbcc-4933-87f5-2d08ca22ad9c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_PROXY_INFO, INTERNET_OPEN_TYPE_DIRECT, INTERNET_OPEN_TYPE_PRECONFIG, INTERNET_OPEN_TYPE_PROXY, INTERNET_PROXY_INFO, INTERNET_PROXY_INFO structure [WinINet], LPINTERNET_PROXY_INFO, LPINTERNET_PROXY_INFO structure pointer [WinINet], _inet_internet_proxy_info_structure, wininet.internet_proxy_info, wininet/ LPINTERNET_PROXY_INFO, wininet/INTERNET_PROXY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

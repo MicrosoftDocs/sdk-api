@@ -9,8 +9,6 @@ ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

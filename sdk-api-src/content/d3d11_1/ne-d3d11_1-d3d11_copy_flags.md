@@ -9,8 +9,6 @@ ms.assetid: 2141A053-931B-42F2-BC8C-AAE9F4739ED7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_COPY_DISCARD, D3D11_COPY_FLAGS, D3D11_COPY_FLAGS enumeration [Direct3D 11], D3D11_COPY_NO_OVERWRITE, d3d11_1/D3D11_COPY_DISCARD, d3d11_1/D3D11_COPY_FLAGS, d3d11_1/D3D11_COPY_NO_OVERWRITE, direct3d11.d3d11_copy_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 
@@ -73,15 +71,15 @@ The existing contents of the resource are undefined and can be discarded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx">ID3D11DeviceContext1::CopySubresourceRegion1</a>
+<a href="https://msdn.microsoft.com/1963011F-C3E2-428D-B667-195A4976510B">ID3D11DeviceContext1::CopySubresourceRegion1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446790(v=VS.85).aspx">ID3D11DeviceContext1::UpdateSubresource1</a>
+<a href="https://msdn.microsoft.com/7D89591C-F3F7-4A4F-A91A-AC67D9A573AF">ID3D11DeviceContext1::UpdateSubresource1</a>
  
 
  

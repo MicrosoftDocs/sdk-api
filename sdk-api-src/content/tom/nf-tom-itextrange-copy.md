@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Copy method, ITextRange.Copy, ITextRange::Copy, _win32_ITextRange_Copy, _win32_ITextRange_Copy_cpp, controls.ITextRange_Copy, controls._win32_ITextRange_Copy, tom/ITextRange::Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

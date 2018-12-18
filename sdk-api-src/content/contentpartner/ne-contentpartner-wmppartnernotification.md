@@ -9,8 +9,6 @@ ms.assetid: a9292277-5283-41b8-86a6-f7059aa38a69
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPPartnerNotification, WMPPartnerNotification enumeration [Windows Media Player], contentpartner/WMPPartnerNotification, contentpartner/wmpsnBackgroundProcessingBegin, contentpartner/wmpsnBackgroundProcessingEnd, contentpartner/wmpsnCatalogDownloadComplete, contentpartner/wmpsnCatalogDownloadFailure, enumeration [Windows Media Player], wmp.wmppartnernotification, wmpsnBackgroundProcessingBegin, wmpsnBackgroundProcessingEnd, wmpsnCatalogDownloadComplete, wmpsnCatalogDownloadFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 
@@ -88,7 +86,7 @@ The catalog download completed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
 
 
 

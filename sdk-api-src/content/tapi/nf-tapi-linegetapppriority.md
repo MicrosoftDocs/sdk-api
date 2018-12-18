@@ -9,8 +9,6 @@ ms.assetid: b1e402b5-a2d0-444c-83c5-12782772a4b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_linegetapppriority, lineGetAppPriority, lineGetAppPriority function [TAPI 2.2], lineGetAppPriorityA, lineGetAppPriorityW, tapi/lineGetAppPriority, tapi/lineGetAppPriorityA, tapi/lineGetAppPriorityW, tapi2.linegetapppriority"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

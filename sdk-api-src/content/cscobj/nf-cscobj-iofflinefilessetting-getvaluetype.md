@@ -7,10 +7,8 @@ old-location: of\iofflinefilessetting_getvaluetype.htm
 tech.root: offlinefiles
 ms.assetid: 2b5567bf-a7c6-40b3-ac16-9da805ddb3b3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetValueType, GetValueType method [Offline Files], GetValueType method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValueType method, IOfflineFilesSetting.GetValueType, IOfflineFilesSetting::GetValueType, cscobj/IOfflineFilesSetting::GetValueType, of.iofflinefilessetting_getvaluetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -61,7 +59,7 @@ Retrieves the data type of a particular Offline Files setting.
 
 ### -param pType [out]
 
-Receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Bb530652(v=VS.85).aspx">OFFLINEFILES_SETTING_VALUE_TYPE</a> enumeration that describes the data type of the setting value.
+Receives a value from the <a href="https://msdn.microsoft.com/37569197-efd3-4e4e-953a-3bbd2cb07d5a">OFFLINEFILES_SETTING_VALUE_TYPE</a> enumeration that describes the data type of the setting value.
 
 
 ## -returns
@@ -78,7 +76,7 @@ S_OK if the scope is returned successfully or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
  
 
  

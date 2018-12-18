@@ -9,8 +9,6 @@ ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

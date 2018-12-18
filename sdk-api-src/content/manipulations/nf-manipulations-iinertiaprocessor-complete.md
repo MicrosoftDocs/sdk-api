@@ -9,8 +9,6 @@ ms.assetid: ff41789c-afc5-419b-9767-e99572b9b41e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Complete, Complete method [Windows Touch], Complete method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],Complete method, IInertiaProcessor.Complete, IInertiaProcessor::Complete, manipulations/IInertiaProcessor::Complete, wintouch.iinertiaprocessor_complete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

@@ -9,8 +9,6 @@ ms.assetid: 7f817edf-1b1d-495c-afd9-d97e3ae0caab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanEnumInterfaces, WlanEnumInterfaces function [NativeWIFI], nwifi.wlanenuminterfaces, wlanapi/WlanEnumInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

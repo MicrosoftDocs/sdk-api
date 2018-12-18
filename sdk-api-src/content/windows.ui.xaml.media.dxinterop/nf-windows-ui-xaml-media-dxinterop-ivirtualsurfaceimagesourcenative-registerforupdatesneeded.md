@@ -9,8 +9,6 @@ ms.assetid: D12AE5FD-ED3D-49E5-8E41-B1598C64A108
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],RegisterForUpdatesNeeded method, IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative::xaml, RegisterForUpdatesNeeded, RegisterForUpdatesNeeded method [Windows Runtime], RegisterForUpdatesNeeded method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, winrt.ivirtualsurfaceimagesourcenative_registerforupdatesneeded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

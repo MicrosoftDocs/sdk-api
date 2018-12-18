@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdUnattachSurface, DdUnattachSurface function [Windows API], GdiEntry12, _dxgkernel_ddunattachsurface, ddrawgdi/DdUnattachSurface, ddrawgdi/GdiEntry12, winprog._dxgkernel_ddunattachsurface, winui._dxgkernel_ddunattachsurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

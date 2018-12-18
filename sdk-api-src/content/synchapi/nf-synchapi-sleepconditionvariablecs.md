@@ -9,8 +9,6 @@ ms.assetid: af435aef-710a-4f97-bcfd-dcb7f2ec0253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SleepConditionVariableCS, SleepConditionVariableCS function, base.sleepconditionvariablecs, synchapi/SleepConditionVariableCS, winbase/SleepConditionVariableCS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

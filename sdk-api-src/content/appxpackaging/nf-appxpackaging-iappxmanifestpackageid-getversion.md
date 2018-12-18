@@ -9,8 +9,6 @@ ms.assetid: 85684359-9244-4130-BF0F-56DDB6427345
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVersion method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetVersion method, IAppxManifestPackageId.GetVersion, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

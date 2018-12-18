@@ -9,8 +9,6 @@ ms.assetid: 9858B3B2-CE93-4209-BAFE-BFC911042800
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIA_PFIA_DEFAULT, UIA_PFIA_UNWRAP_BRIDGE, UiaProviderFromIAccessible, UiaProviderFromIAccessible function [Windows Accessibility], uiautomationcoreapi/UiaProviderFromIAccessible, winauto.uiauto_UiaProviderFromIAccessibleFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

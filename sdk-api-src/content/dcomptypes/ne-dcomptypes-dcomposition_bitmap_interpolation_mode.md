@@ -9,8 +9,6 @@ ms.assetid: 0B919A5C-DEDD-4131-B743-A61CA49CA2B6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DCOMPOSITION_BITMAP_INTERPOLATION_MODE, DCOMPOSITION_BITMAP_INTERPOLATION_MODE enumeration [DirectComposition], DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_INHERIT, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR, dcomptypes/DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR, directcomp.dcomposition_bitmap_interpolation_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dcomptypes.h
 req.include-header: 
@@ -103,7 +101,7 @@ If you want a visual to be drawn with antialiasing, use <b>DCOMPOSITION_BITMAP_I
 
 
 
-<a href="https://msdn.microsoft.com/F45A3619-556B-4D2C-BCB0-8D55A1397579">IDCompositionVisual::SetBitmapInterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449147(v=VS.85).aspx">IDCompositionVisual::SetBitmapInterpolationMode</a>
  
 
  

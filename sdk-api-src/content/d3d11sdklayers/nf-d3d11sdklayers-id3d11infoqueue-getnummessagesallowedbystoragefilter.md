@@ -9,8 +9,6 @@ ms.assetid: 13e9caed-4c26-4b5e-b0c7-c6ef44ed688d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNumMessagesAllowedByStorageFilter, GetNumMessagesAllowedByStorageFilter method [Direct3D 11], GetNumMessagesAllowedByStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetNumMessagesAllowedByStorageFilter method, ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter, ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter, b3463b92-b74f-e638-4c8c-f02a25560668, d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter, direct3d11.id3d11infoqueue_getnummessagesallowedbystoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
@@ -65,7 +63,7 @@ Get the number of messages that were allowed to pass through a storage filter.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
 
 Number of messages allowed by a storage filter.
 
@@ -77,7 +75,7 @@ Number of messages allowed by a storage filter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
  
 
  

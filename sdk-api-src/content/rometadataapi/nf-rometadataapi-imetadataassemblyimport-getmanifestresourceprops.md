@@ -9,8 +9,6 @@ ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

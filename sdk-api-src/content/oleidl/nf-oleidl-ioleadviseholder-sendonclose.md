@@ -9,8 +9,6 @@ ms.assetid: f4efa947-d357-432c-9585-b00b19551ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleAdviseHolder interface [COM],SendOnClose method, IOleAdviseHolder.SendOnClose, IOleAdviseHolder::SendOnClose, SendOnClose, SendOnClose method [COM], SendOnClose method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_sendonclose, com.ioleadviseholder_sendonclose, oleidl/IOleAdviseHolder::SendOnClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

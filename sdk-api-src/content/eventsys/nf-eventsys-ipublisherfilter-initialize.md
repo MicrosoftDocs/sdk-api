@@ -9,8 +9,6 @@ ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPublisherFilter interface [COM+],Initialize method, IPublisherFilter.Initialize, IPublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

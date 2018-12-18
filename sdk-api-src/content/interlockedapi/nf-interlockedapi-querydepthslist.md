@@ -9,8 +9,6 @@ ms.assetid: 3f9b4481-647f-457f-bdfb-62e6ae4198e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QueryDepthSList, QueryDepthSList function, base.querydepthslist, interlockedapi/QueryDepthSList, winbase/QueryDepthSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

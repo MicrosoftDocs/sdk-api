@@ -9,8 +9,6 @@ ms.assetid: 494cfb49-c09e-4f51-85fd-5bb0f8d0a45d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/b8f5da50-d296-4550-8810-114d1f0e810b">WsAbandonMessage</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 
 ## -parameters
@@ -95,7 +93,7 @@ Specifies where additional error information should be stored if the function fa
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>state or the <b>WS_CHANNEL_STATE_FAULTED</b> state.
+This is returned if the channel is not in the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a>state or the <b>WS_CHANNEL_STATE_FAULTED</b> state.
                 
 
 </td>

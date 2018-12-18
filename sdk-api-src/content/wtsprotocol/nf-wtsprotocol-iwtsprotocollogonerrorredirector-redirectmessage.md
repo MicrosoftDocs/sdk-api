@@ -4,13 +4,11 @@ title: IWTSProtocolLogonErrorRedirector::RedirectMessage
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectMessage is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectMessage.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectmessage.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8db3657c-f64f-4e38-832e-5808557f479d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectMessage method, IWTSProtocolLogonErrorRedirector.RedirectMessage, IWTSProtocolLogonErrorRedirector::RedirectMessage, RedirectMessage, RedirectMessage method [Remote Desktop Services], RedirectMessage method [Remote Desktop Services],IWTSProtocolLogonErrorRedirector interface, termserv.iwtsprotocollogonerrorredirector_redirectmessage, wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

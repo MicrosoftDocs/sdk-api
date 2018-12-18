@@ -9,8 +9,6 @@ ms.assetid: 1fcb19ba-34bd-48c0-9964-0c973c31cacc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmapFlipRotator, IWICBitmapFlipRotator interface [Windows Imaging Component], IWICBitmapFlipRotator interface [Windows Imaging Component],described, _wic_codec_iwicbitmapfliprotator, wic._wic_codec_iwicbitmapfliprotator, wincodec/IWICBitmapFlipRotator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

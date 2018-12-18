@@ -9,8 +9,6 @@ ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

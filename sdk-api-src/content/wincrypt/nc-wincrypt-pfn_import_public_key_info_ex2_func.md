@@ -9,8 +9,6 @@ ms.assetid: b8d26a54-1549-4d2b-9cd6-c551407d795d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], X509_ASN_ENCODING, security.pfn_import_public_key_info_ex2_func, wincrypt/PFN_IMPORT_PUBLIC_KEY_INFO_EX2_FUNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -123,7 +121,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

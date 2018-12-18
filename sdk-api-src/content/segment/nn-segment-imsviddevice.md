@@ -9,8 +9,6 @@ ms.assetid: 5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], IMSVidDevice interface [Microsoft TV Technologies],described, IMSVidDeviceInterface, mstv.imsviddevice, segment/IMSVidDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c5023ee-f38b-48c7-907d-363ca70bf94f">get__Category</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694529(v=VS.85).aspx">get__Category</a>
 </td>
 <td align="left" width="63%">
 Retrieves the category of the device as a <b>GUID</b>.
@@ -82,7 +80,7 @@ Retrieves the category of the device as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80890372-2d92-4a3a-963f-2a6ca6632c52">get__ClassID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694530(v=VS.85).aspx">get__ClassID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class identifier (CLSID) of the device as a <b>GUID</b>.
@@ -91,7 +89,7 @@ Retrieves the class identifier (CLSID) of the device as a <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/369080c6-b707-494e-a663-e78e7d8d3eaf">get_Category</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694524(v=VS.85).aspx">get_Category</a>
 </td>
 <td align="left" width="63%">
 Retrieves the category of the device as a <b>BSTR</b>.
@@ -100,7 +98,7 @@ Retrieves the category of the device as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78910e3d-bd00-48c5-b1be-504dc92280a0">get_ClassID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694525(v=VS.85).aspx">get_ClassID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CLSID of the device as a <b>BSTR</b>.
@@ -109,7 +107,7 @@ Retrieves the CLSID of the device as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb484684-7c20-498d-939e-ae5964d35669">get_Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694526(v=VS.85).aspx">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the friendly name of the device.
@@ -118,7 +116,7 @@ Retrieves the friendly name of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3be4247b-43d4-4a32-8643-7eb2637aee6f">get_Power</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694527(v=VS.85).aspx">get_Power</a>
 </td>
 <td align="left" width="63%">
 Retrieves the power status of the device.
@@ -127,7 +125,7 @@ Retrieves the power status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b11df7f3-d227-4c74-89a3-90716b3b3a12">get_Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694528(v=VS.85).aspx">get_Status</a>
 </td>
 <td align="left" width="63%">
 Retrieves status information about the device.
@@ -136,7 +134,7 @@ Retrieves status information about the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0f59466-7a2a-453e-999c-c7ebf126d18b">IsEqualDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694531(v=VS.85).aspx">IsEqualDevice</a>
 </td>
 <td align="left" width="63%">
 Queries whether this device and another device represent the same underlying hardware
@@ -145,7 +143,7 @@ Queries whether this device and another device represent the same underlying har
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a0122a8-6015-4255-a7d6-ab72b4025bd6">put_Power</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694532(v=VS.85).aspx">put_Power</a>
 </td>
 <td align="left" width="63%">
 Turns the device on or off.

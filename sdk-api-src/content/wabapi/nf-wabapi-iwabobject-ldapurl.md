@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\ldapurl.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWABObject interface [Windows Address Book],LDAPUrl method, IWABObject.LDAPUrl, IWABObject::LDAPUrl, LDAPUrl, LDAPUrl method [Windows Address Book], LDAPUrl method [Windows Address Book],IWABObject interface, LDAP_AUTH_NEGOTIATE, MAPI_UNICODE, WABOBJECT_LDAPURL_RETURN_MAILUSER, _wab_IWABObject_LDAPUrl, wab._wab_IWABObject_LDAPUrl, wabapi/IWABObject::LDAPUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -69,9 +67,9 @@ Processes an Lightweight Directory Access Protocol (LDAP) URL
 
 ### -param lpIAB
 
-Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface 
 				that specifies the address book to use.
 
 
@@ -125,9 +123,9 @@ Value of type <b>LPSTR</b> that specifies the
 
 ### -param lppMailUser
 
-Type: <b><a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/7af094d9-b5fd-4214-9604-b7dd93639f5e">IMailUser</a> 
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629507(v=VS.85).aspx">IMailUser</a> 
 				interface that receives the returned Mailuser object, 
 				if requested. Otherwise, it is <b>NULL</b>.
 

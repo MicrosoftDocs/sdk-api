@@ -9,8 +9,6 @@ ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [ADSI], Create method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Create method, IADsContainer.Create, IADsContainer::Create, _ds_iadscontainer_create, adsi.iadscontainer__create, adsi.iadscontainer_create, iads/IADsContainer::Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

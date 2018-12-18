@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputref
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRegisteredRawInputDevices, GetRegisteredRawInputDevices function [Keyboard and Mouse Input], _win32_GetRegisteredRawInputDevices, _win32_getregisteredrawinputdevices_cpp, inputdev.getregisteredrawinputdevices, winui._win32_getregisteredrawinputdevices, winuser/GetRegisteredRawInputDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

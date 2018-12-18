@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getlinecolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetLineColor, TreeView_GetLineColor macro [Windows Controls], _win32_TreeView_GetLineColor, _win32_TreeView_GetLineColor_cpp, commctrl/TreeView_GetLineColor, controls.TreeView_GetLineColor, controls._win32_TreeView_GetLineColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the current line color. You can also use the <a href="https://msdn.microsof
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

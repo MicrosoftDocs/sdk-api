@@ -9,8 +9,6 @@ ms.assetid: a3dd74bc-1f1c-40b9-a43e-d45ff621248f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

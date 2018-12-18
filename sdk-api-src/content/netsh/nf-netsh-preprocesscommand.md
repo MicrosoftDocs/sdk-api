@@ -9,8 +9,6 @@ ms.assetid: 6795512e-4b90-47da-962a-d9e6ecfb7ee0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PreprocessCommand, PreprocessCommand function [NetShell], _netsh_preprocesscommand, netsh/PreprocessCommand, netshell.preprocesscommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

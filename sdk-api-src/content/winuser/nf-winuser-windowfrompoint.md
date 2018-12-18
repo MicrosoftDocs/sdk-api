@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowFromPoint, WindowFromPoint function [Windows and Messages], _win32_WindowFromPoint, _win32_windowfrompoint_cpp, winmsg.windowfrompoint, winui._win32_windowfrompoint, winuser/WindowFromPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

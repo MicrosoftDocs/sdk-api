@@ -9,8 +9,6 @@ ms.assetid: b1478a7a-f508-4b98-8c7b-adeb2f07bb86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaGetLogonSessionData, LsaGetLogonSessionData function [Security], _lsa_lsagetlogonsessiondata, ntsecapi/LsaGetLogonSessionData, security.lsagetlogonsessiondata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

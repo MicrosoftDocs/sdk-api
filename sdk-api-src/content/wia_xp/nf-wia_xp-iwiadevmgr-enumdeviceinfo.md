@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\enumdeviceinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDeviceInfo, EnumDeviceInfo method [WIA], EnumDeviceInfo method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],EnumDeviceInfo method, IWiaDevMgr.EnumDeviceInfo, IWiaDevMgr::EnumDeviceInfo, _wia_IWiaDevMgr_EnumDeviceInfo, wia._wia_IWiaDevMgr_EnumDeviceInfo, wia_xp/IWiaDevMgr::EnumDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

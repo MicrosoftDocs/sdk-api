@@ -9,8 +9,6 @@ ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -144,7 +142,7 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
  
 
  

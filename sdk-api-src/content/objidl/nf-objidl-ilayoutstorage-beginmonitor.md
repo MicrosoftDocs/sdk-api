@@ -9,8 +9,6 @@ ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginMonitor, BeginMonitor method [Structured Storage], BeginMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],BeginMonitor method, ILayoutStorage.BeginMonitor, ILayoutStorage::BeginMonitor, _stg_ilayoutstorage_beginmonitor, objidl/ILayoutStorage::BeginMonitor, stg.ilayoutstorage_beginmonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: C5E659CD-203A-4021-AB3F-3AFEE2B31E7C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwDeviceClose, SwDeviceClose function, swdevice.swdeviceclose, swdevice/SwDeviceClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: swdevice.h
 req.include-header: 

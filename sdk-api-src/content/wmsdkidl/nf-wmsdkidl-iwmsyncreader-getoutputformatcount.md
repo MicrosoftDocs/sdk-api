@@ -9,8 +9,6 @@ ms.assetid: 66f66784-791b-4f1b-8ba2-300a4521ce03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormatCount method, IWMSyncReader.GetOutputFormatCount, IWMSyncReader::GetOutputFormatCount, IWMSyncReaderGetOutputFormatCount, wmformat.iwmsyncreader_getoutputformatcount, wmsdkidl/IWMSyncReader::GetOutputFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,11 +127,11 @@ There is no file loaded in the synchronous reader.
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faac9e7-ad5f-42a4-ba6e-562ae973f81b">IWMSyncReader::GetOutputFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798589(v=VS.85).aspx">IWMSyncReader::GetOutputFormat</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

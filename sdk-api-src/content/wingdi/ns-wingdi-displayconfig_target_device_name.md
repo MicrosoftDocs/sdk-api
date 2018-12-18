@@ -9,8 +9,6 @@ ms.assetid: 85507b69-8ce0-4f39-a4d3-7d67f515b451
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Structures_71e42f61-634a-47fe-b330-404dbe59e211.xml, DISPLAYCONFIG_TARGET_DEVICE_NAME, DISPLAYCONFIG_TARGET_DEVICE_NAME structure [Display Devices], display.displayconfig_target_device_name, wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -70,7 +68,7 @@ A <a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISP
 
 ### -field outputTechnology
 
-A value from the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
 
 
 ### -field edidManufactureId
@@ -124,7 +122,7 @@ If an application calls the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-44
 
 
 
-<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 

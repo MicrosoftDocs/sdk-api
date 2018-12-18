@@ -9,8 +9,6 @@ ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

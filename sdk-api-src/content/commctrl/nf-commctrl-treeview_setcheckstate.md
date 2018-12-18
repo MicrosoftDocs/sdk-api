@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the item's state image to "checked" or "unchecked." You can also use the <a
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 

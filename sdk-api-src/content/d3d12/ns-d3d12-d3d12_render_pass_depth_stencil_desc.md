@@ -9,8 +9,6 @@ ms.assetid: 1C67A6D0-F912-471F-A38C-E3C6A74303EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RENDER_PASS_DEPTH_STENCIL_DESC, D3D12_RENDER_PASS_DEPTH_STENCIL_DESC structure, d3d12/D3D12_RENDER_PASS_DEPTH_STENCIL_DESC, direct3d12.d3d12_render_pass_depth_stencil_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -65,20 +63,20 @@ A <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D1
 
 ### -field DepthBeginningAccess
 
-A <a href="direct3d12.d3d12_render_pass_beginning_access">D3D12_RENDER_PASS_BEGINNING_ACCESS</a>. The access to the depth buffer requested at the transition into a render pass.
+A <a href="https://msdn.microsoft.com/48356954-F233-4FD5-A32B-099E83DC46C0">D3D12_RENDER_PASS_BEGINNING_ACCESS</a>. The access to the depth buffer requested at the transition into a render pass.
 
 
 ### -field StencilBeginningAccess
 
-A <a href="direct3d12.d3d12_render_pass_beginning_access">D3D12_RENDER_PASS_BEGINNING_ACCESS</a>. The access to the stencil buffer requested at the transition into a render pass.
+A <a href="https://msdn.microsoft.com/48356954-F233-4FD5-A32B-099E83DC46C0">D3D12_RENDER_PASS_BEGINNING_ACCESS</a>. The access to the stencil buffer requested at the transition into a render pass.
 
 
 ### -field DepthEndingAccess
 
-A <a href="direct3d12.d3d12_render_pass_ending_access">D3D12_RENDER_PASS_ENDING_ACCESS</a>. The access to the depth buffer requested at the transition out of a render pass.
+A <a href="https://msdn.microsoft.com/1BEE91E3-3462-4A13-88CE-31806BC451EA">D3D12_RENDER_PASS_ENDING_ACCESS</a>. The access to the depth buffer requested at the transition out of a render pass.
 
 
 ### -field StencilEndingAccess
 
-A <a href="direct3d12.d3d12_render_pass_ending_access">D3D12_RENDER_PASS_ENDING_ACCESS</a>. The access to the stencil buffer requested at the transition out of a render pass.
+A <a href="https://msdn.microsoft.com/1BEE91E3-3462-4A13-88CE-31806BC451EA">D3D12_RENDER_PASS_ENDING_ACCESS</a>. The access to the stencil buffer requested at the transition out of a render pass.
 

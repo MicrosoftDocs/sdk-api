@@ -9,8 +9,6 @@ ms.assetid: 2a83ffcb-1ebd-4024-a186-9c079896f4e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DS_KCC_FLAG_ASYNC_OP, DS_KCC_FLAG_DAMPED, DsReplicaConsistencyCheck, DsReplicaConsistencyCheck function [Active Directory], _glines_dsreplicaconsistencycheck, ad.dsreplicaconsistencycheck, ntdsapi/DsReplicaConsistencyCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -101,7 +99,7 @@ If the function performs its operation successfully, the return value is <b>ERRO
 
 
 
-<a href="https://msdn.microsoft.com/61A2BB61-E3AE-4530-96CA-E7F85CB82DB2">DS_KCC_TASKID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt445929(v=VS.85).aspx">DS_KCC_TASKID</a>
 
 
 

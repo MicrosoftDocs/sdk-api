@@ -9,8 +9,6 @@ ms.assetid: DFFED801-CCE7-4408-BD0B-E2B1AF5CD172
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnPaint method, IWebApplicationUpdateEvents.OnPaint, IWebApplicationUpdateEvents::OnPaint, OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

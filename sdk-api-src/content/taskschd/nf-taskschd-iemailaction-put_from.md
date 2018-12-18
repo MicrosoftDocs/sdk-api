@@ -9,8 +9,6 @@ ms.assetid: a0e85063-73eb-425a-a306-63ac65ab7ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: From property [Task Scheduler], From property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],From property, IEmailAction.From, IEmailAction.put_From, IEmailAction::From, IEmailAction::get_From, IEmailAction::put_From, put_From, taskschd.iemailaction_from, taskschd/IEmailAction::From, taskschd/IEmailAction::get_From, taskschd/IEmailAction::put_From
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

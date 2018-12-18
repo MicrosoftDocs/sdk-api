@@ -9,8 +9,6 @@ ms.assetid: 6fa2f206-1eea-4a25-91b3-bba0cde7f8ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Disconnect, Disconnect method [Windows Media Player], Disconnect method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Disconnect method, IWMPEvents.Disconnect, IWMPEvents::Disconnect, IWMPEventsDisconnect, wmp.iwmpevents_iwmpevents__disconnect, wmp/IWMPEvents::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -91,7 +89,7 @@ This event is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

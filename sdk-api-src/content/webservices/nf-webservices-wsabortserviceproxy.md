@@ -9,8 +9,6 @@ ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -105,7 +103,7 @@ One or more arguments are invalid.
 
 
 
-<b>WsAbortServiceProxy</b> shows the following  behavior depending on the state of service proxy (see the <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">WS_SERVICE_PROXY_STATE</a> enumeration for possible states):<ul>
+<b>WsAbortServiceProxy</b> shows the following  behavior depending on the state of service proxy (see the <a href="https://msdn.microsoft.com/en-us/library/Dd323433(v=VS.85).aspx">WS_SERVICE_PROXY_STATE</a> enumeration for possible states):<ul>
 <li>If the service proxy is opening and in the WS_SERVICE_PROXY_STATE_OPENING state, you can call <b>WsAbortServiceProxy</b> to abort the opening operation. The service proxy will
                 cancel all pending I/O and transition back to WS_SERVICE_PROXY_STATE_CREATED state.</li>
 <li>If the service proxy is already open and in the WS_SERVICE_PROXY_STATE_OPEN state, <b>WsAbortServiceProxy</b> will cause the service proxy to abort all underlying channels and transition to the 

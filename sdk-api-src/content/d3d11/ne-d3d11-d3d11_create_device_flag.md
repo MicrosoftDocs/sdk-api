@@ -9,8 +9,6 @@ ms.assetid: 580c784a-17de-495c-9159-833f858ad155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_CREATE_DEVICE_BGRA_SUPPORT, D3D11_CREATE_DEVICE_DEBUG, D3D11_CREATE_DEVICE_DEBUGGABLE, D3D11_CREATE_DEVICE_DISABLE_GPU_TIMEOUT, D3D11_CREATE_DEVICE_FLAG, D3D11_CREATE_DEVICE_FLAG enumeration [Direct3D 11], D3D11_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, D3D11_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, D3D11_CREATE_DEVICE_SINGLETHREADED, D3D11_CREATE_DEVICE_SWITCH_TO_REF, D3D11_CREATE_DEVICE_VIDEO_SUPPORT, d3d11/D3D11_CREATE_DEVICE_BGRA_SUPPORT, d3d11/D3D11_CREATE_DEVICE_DEBUG, d3d11/D3D11_CREATE_DEVICE_DEBUGGABLE, d3d11/D3D11_CREATE_DEVICE_DISABLE_GPU_TIMEOUT, d3d11/D3D11_CREATE_DEVICE_FLAG, d3d11/D3D11_CREATE_DEVICE_PREVENT_ALTERING_LAYER_SETTINGS_FROM_REGISTRY, d3d11/D3D11_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS, d3d11/D3D11_CREATE_DEVICE_SINGLETHREADED, d3d11/D3D11_CREATE_DEVICE_SWITCH_TO_REF, d3d11/D3D11_CREATE_DEVICE_VIDEO_SUPPORT, d68526ea-ccc4-6cc8-c252-eefe99541f51, direct3d11.d3d11_create_device_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 
@@ -133,7 +131,7 @@ If you attempt to create a Direct3D device with driver type <a href="https://msd
 
 
 
-Device creation flags are used by <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff476083(v=VS.85).aspx">D3D11CreateDeviceAndSwapChain</a>.
+Device creation flags are used by <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> and <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>.
 
 An application might dynamically create (and destroy) threads to improve performance especially on a machine with multiple CPU cores. There may be cases, however, when an application needs to prevent extra threads from being created. This can happen when you want to simplify debugging, profile code or develop a tool for instance. For these cases, use <b>D3D11_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS</b> to request that the runtime and video driver not create any additional threads that might interfere with the application.
 
@@ -145,7 +143,7 @@ An application might dynamically create (and destroy) threads to improve perform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
  
 
  

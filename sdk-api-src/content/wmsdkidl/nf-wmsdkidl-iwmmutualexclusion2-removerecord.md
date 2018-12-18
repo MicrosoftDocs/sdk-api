@@ -9,8 +9,6 @@ ms.assetid: 74e2825e-2200-4750-bb16-f8cf9f80ab7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],RemoveRecord method, IWMMutualExclusion2.RemoveRecord, IWMMutualExclusion2::RemoveRecord, IWMMutualExclusion2RemoveRecord, RemoveRecord, RemoveRecord method [windows Media Format], RemoveRecord method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_removerecord, wmsdkidl/IWMMutualExclusion2::RemoveRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -133,11 +131,11 @@ After you remove a record, it cannot be restored.
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/58eaa4b2-65d3-44b1-8e3d-1aac01057d0f">IWMMutualExclusion2::AddRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757240(v=VS.85).aspx">IWMMutualExclusion2::AddRecord</a>
  
 
  

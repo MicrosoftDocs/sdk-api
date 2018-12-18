@@ -9,8 +9,6 @@ ms.assetid: 0303f49c-9651-4781-8a6b-2af0a1b8f1ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoOutputFrameRateConversion, codecapi/eAVEncVideoOutputFrameRateConversion_Alias, codecapi/eAVEncVideoOutputFrameRateConversion_Disable, codecapi/eAVEncVideoOutputFrameRateConversion_Enable, dshow.eavencvideooutputframerateconversion, eAVEncVideoOutputFrameRateConversion, eAVEncVideoOutputFrameRateConversion enumeration [DirectShow], eAVEncVideoOutputFrameRateConversionEnumeration, eAVEncVideoOutputFrameRateConversion_Alias, eAVEncVideoOutputFrameRateConversion_Disable, eAVEncVideoOutputFrameRateConversion_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -85,7 +83,7 @@ Change the time stamps on the samples, but do not interpolate the time stamps.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

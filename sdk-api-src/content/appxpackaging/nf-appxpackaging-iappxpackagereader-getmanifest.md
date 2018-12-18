@@ -9,8 +9,6 @@ ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetManifest method, IAppxPackageReader.GetManifest, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7f48902d-9242-4791-b0f1-fc4ab5bd85c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LowOscillator method, IDVBSTuningSpace.get_LowOscillator, IDVBSTuningSpace::get_LowOscillator, IDVBSTuningSpaceget_LowOscillator, get_LowOscillator, get_LowOscillator method [Microsoft TV Technologies], get_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lowoscillator, tuner/IDVBSTuningSpace::get_LowOscillator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

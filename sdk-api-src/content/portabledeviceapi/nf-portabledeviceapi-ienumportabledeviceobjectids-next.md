@@ -9,8 +9,6 @@ ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

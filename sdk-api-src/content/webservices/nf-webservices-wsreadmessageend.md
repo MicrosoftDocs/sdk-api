@@ -9,8 +9,6 @@ ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -489,11 +487,11 @@ This function may return other errors not listed above.
 
 
 
-The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
+The message must be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
                 transition to <b>WS_MESSAGE_STATE_DONE</b> state.
             
 
-When streaming input is used (<a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
+When streaming input is used (<a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
                 the channel will automatically make sure that there are bytes available before reading the 
                 end of the message (the closing body and envelope tags).
             

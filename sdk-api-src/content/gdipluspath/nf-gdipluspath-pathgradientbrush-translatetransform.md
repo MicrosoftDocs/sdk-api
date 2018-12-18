@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathGradientBrush class [GDI+],TranslateTransform method, PathGradientBrush.TranslateTransform, PathGradientBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_TranslateTransform_dx_dy_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 
@@ -58,8 +56,8 @@ Implements methods that get information from an Integrated Services Digital Broa
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an LDT. Then:
 
 <ol>
-<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://msdn.microsoft.com/4b2362c7-bfcb-40b8-813d-1a904149600e">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 

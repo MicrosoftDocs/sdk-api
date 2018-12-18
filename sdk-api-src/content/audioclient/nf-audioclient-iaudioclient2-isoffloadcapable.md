@@ -9,8 +9,6 @@ ms.assetid: 275A6EB4-E6C7-4510-8EEA-BDBAFB1C06C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClient2 interface [Core Audio],IsOffloadCapable method, IAudioClient2.IsOffloadCapable, IAudioClient2::IsOffloadCapable, IsOffloadCapable, IsOffloadCapable method [Core Audio], IsOffloadCapable method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::IsOffloadCapable, coreaudio.iaudioclient2_isoffloadcapable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

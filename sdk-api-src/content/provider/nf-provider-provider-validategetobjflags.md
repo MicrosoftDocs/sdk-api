@@ -9,8 +9,6 @@ ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -85,9 +83,9 @@ Returns <b>WBEM_S_NO_ERROR</b> if the flags are valid and <b>WBEM_E_UNSUPPORTED_
 
 
 
-At present, the <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class does not support any retrieval flags. Therefore, if <i>lFlags</i> is set to a value other than zero (0),  <b>Provider::ValidateGetObjFlags</b> automatically returns <b>WBEM_E_UNSUPPORTED_PARAMETER</b>.
+At present, the <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class does not support any retrieval flags. Therefore, if <i>lFlags</i> is set to a value other than zero (0),  <b>Provider::ValidateGetObjFlags</b> automatically returns <b>WBEM_E_UNSUPPORTED_PARAMETER</b>.
 
-Framework providers must override this method to validate flags that are unknown to the base <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class.
+Framework providers must override this method to validate flags that are unknown to the base <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class.
 
 
 

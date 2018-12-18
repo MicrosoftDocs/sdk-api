@@ -9,8 +9,6 @@ ms.assetid: c4ce8f50-f090-4783-b6c9-834d9e0c33de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File System], dfs.netdfsaddroottarget, fs.netdfsaddroottarget, lmdfs/NetDfsAddRootTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
@@ -203,7 +201,7 @@ Create a stand-alone DFS namespace.
 
 
 
-<a href="https://msdn.microsoft.com/b260e132-41fd-460b-87e6-c6e0490dc8b4">DFS_NAMESPACE_VERSION_ORIGIN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736248(v=VS.85).aspx">DFS_NAMESPACE_VERSION_ORIGIN</a>
 
 
 

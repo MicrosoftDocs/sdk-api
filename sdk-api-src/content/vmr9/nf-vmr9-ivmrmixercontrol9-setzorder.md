@@ -9,8 +9,6 @@ ms.assetid: fbc847d4-5d93-4994-b5f4-d753a528532a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetZOrder method, IVMRMixerControl9.SetZOrder, IVMRMixerControl9::SetZOrder, IVMRMixerControl9SetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setzorder, vmr9/IVMRMixerControl9::SetZOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -125,7 +123,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: cc974be9-e9a4-42f9-9995-0d6eb0b12422
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetAnimation method, IProgressDialog.SetAnimation, IProgressDialog::SetAnimation, SetAnimation, SetAnimation method [Windows Shell], SetAnimation method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetAnimation, shell.IProgressDialog_SetAnimation, shlobj_core/IProgressDialog::SetAnimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -73,7 +71,7 @@ An instance handle to the module from which the AVI resource should be loaded.
 
 Type: <b>UINT</b>
 
-An AVI resource identifier. To create this value, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hInstAnimation</i>.
+An AVI resource identifier. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hInstAnimation</i>.
 
 
 ## -returns
@@ -93,7 +91,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. In Windows Vist
 
 <b>IProgressDialog::SetAnimation</b> cannot be called before the progress dialog is visible. Until it is displayed, the progress dialog does not have a valid HWND. The existance of that HWND can be used to determine whether <b>IProgressDialog::SetAnimation</b> can be called.
 
-This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="https://msdn.microsoft.com/6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
+This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="https://msdn.microsoft.com/en-us/library/Bb761884(v=VS.85).aspx">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
 
 				
 

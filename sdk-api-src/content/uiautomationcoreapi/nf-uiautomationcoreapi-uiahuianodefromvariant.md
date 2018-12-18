@@ -9,8 +9,6 @@ ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 09F284D4-BF39-42C9-A89B-DDC8201362EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_START_DIRECTORY_ENUMERATION_CB, PRJ_START_DIRECTORY_ENUMERATION_CB callback, PRJ_START_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_start_directory_enumeration_cb, projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: projectedfslib.h
 req.include-header: 

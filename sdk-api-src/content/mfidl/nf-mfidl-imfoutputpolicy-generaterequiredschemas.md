@@ -9,8 +9,6 @@ ms.assetid: 23f5f0df-e2cc-4593-8c3e-dca3638161e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 23f5f0df-e2cc-4593-8c3e-dca3638161e2, GenerateRequiredSchemas, GenerateRequiredSchemas method [Media Foundation], GenerateRequiredSchemas method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GenerateRequiredSchemas method, IMFOutputPolicy.GenerateRequiredSchemas, IMFOutputPolicy::GenerateRequiredSchemas, MFCONNECTOR_AGP, MFCONNECTOR_COMPONENT, MFCONNECTOR_COMPOSITE, MFCONNECTOR_DISPLAYPORT_EMBEDDED, MFCONNECTOR_DISPLAYPORT_EXTERNAL, MFCONNECTOR_DVI, MFCONNECTOR_D_JPN, MFCONNECTOR_HDMI, MFCONNECTOR_LVDS, MFCONNECTOR_MIRACAST, MFCONNECTOR_PCI, MFCONNECTOR_PCIX, MFCONNECTOR_PCI_Express, MFCONNECTOR_SDI, MFCONNECTOR_SPDIF, MFCONNECTOR_SVIDEO, MFCONNECTOR_UDI_EMBEDDED, MFCONNECTOR_UDI_EXTERNAL, MFCONNECTOR_UNKNOWN, MFCONNECTOR_VGA, MFOUTPUTATTRIBUTE_BUS, MFOUTPUTATTRIBUTE_BUSIMPLEMENTATION, MFOUTPUTATTRIBUTE_COMPRESSED, MFOUTPUTATTRIBUTE_DIGITAL, MFOUTPUTATTRIBUTE_NONSTANDARDIMPLEMENTATION, MFOUTPUTATTRIBUTE_SOFTWARE, MFOUTPUTATTRIBUTE_VIDEO, mf.imfoutputpolicy_generaterequiredschemas, mfidl/IMFOutputPolicy::GenerateRequiredSchemas
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

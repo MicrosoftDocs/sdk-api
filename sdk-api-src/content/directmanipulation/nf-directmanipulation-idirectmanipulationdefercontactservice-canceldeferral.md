@@ -9,8 +9,6 @@ ms.assetid: 946F8CF8-6A6D-4BC1-B9BA-91D5B4A8A178
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelDeferral, CancelDeferral method [Direct Manipulation], CancelDeferral method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelDeferral method, IDirectManipulationDeferContactService.CancelDeferral, IDirectManipulationDeferContactService::CancelDeferral, directmanipulation.idirectmanipulationdefercontactservice_canceldeferral, directmanipulation/IDirectManipulationDeferContactService::CancelDeferral
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

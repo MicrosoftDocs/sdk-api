@@ -9,8 +9,6 @@ ms.assetid: 28f1e3bc-3692-4fd0-a0b3-fecc3a173103
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_name method, IWMPLibrary.get_name, IWMPLibrary::get_name, IWMPLibraryget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_name, wmp/IWMPLibrary::get_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/add0ed43-d83f-4793-b1f6-ccad0f01854c">IWMPLibrary Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563383(v=VS.85).aspx">IWMPLibrary Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/95f36972-2227-4fe8-88d7-41f7aebbf67a">IWMPLibrary::get_type</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563394(v=VS.85).aspx">IWMPLibrary::get_type</a>
  
 
  

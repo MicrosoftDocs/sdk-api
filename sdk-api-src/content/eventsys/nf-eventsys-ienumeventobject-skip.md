@@ -9,8 +9,6 @@ ms.assetid: 7c830d29-8e66-4139-9445-d83dc7f7004f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileCounts, GetFileCounts method [VSS], GetFileCounts method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetFileCounts method, IVssExamineWriterMetadata.GetFileCounts, IVssExamineWriterMetadata::GetFileCounts, _win32_ivssexaminewritermetadata_getfilecounts, base.ivssexaminewritermetadata_getfilecounts, vsbackup/IVssExamineWriterMetadata::GetFileCounts
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

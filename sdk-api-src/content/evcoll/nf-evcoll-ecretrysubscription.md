@@ -9,8 +9,6 @@ ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectCreatorSID, GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCreatorSID method, ISecurityProperty.GetDirectCreatorSID, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

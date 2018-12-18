@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: THIRD_IPADDRESS, THIRD_IPADDRESS macro [Windows Controls], _win32_THIRD_IPADDRESS, _win32_THIRD_IPADDRESS_cpp, commctrl/THIRD_IPADDRESS, controls.THIRD_IPADDRESS, controls._win32_THIRD_IPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Extracts the field 2 value from a packed IP address retrieved with the <a href="
 
 ### -param x
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
 The packed IP address value. 
 

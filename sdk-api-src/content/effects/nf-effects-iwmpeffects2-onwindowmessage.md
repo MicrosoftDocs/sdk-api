@@ -9,8 +9,6 @@ ms.assetid: c4efdac9-b50f-4448-98f2-efe015527a4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],OnWindowMessage method, IWMPEffects2.OnWindowMessage, IWMPEffects2::OnWindowMessage, IWMPEffectsOnWindowMessage, OnWindowMessage, OnWindowMessage method [Windows Media Player], OnWindowMessage method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::OnWindowMessage, wmp.iwmpeffects2_onwindowmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: effects.h
 req.include-header: 
@@ -104,7 +102,7 @@ Your implementation must only return S_OK if it has handled the window message. 
 
 
 
-<a href="https://msdn.microsoft.com/44e044c1-97fd-43cb-9530-4556e485f5ae">IWMPEffects2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
  
 
  

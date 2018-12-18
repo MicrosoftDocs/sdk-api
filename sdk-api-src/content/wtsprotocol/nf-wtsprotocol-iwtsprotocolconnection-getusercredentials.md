@@ -4,13 +4,11 @@ title: IWTSProtocolConnection::GetUserCredentials
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetUserCredentials is no longer available. Instead, use IWRdsProtocolConnection::GetUserCredentials.
 old-location: termserv\iwtsprotocolconnection_getusercredentials.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 48cd1a57-5f6d-4feb-889d-7441a76c0410
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserCredentials, GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetUserCredentials method, IWTSProtocolConnection.GetUserCredentials, IWTSProtocolConnection::GetUserCredentials, termserv.iwtsprotocolconnection_getusercredentials, wtsprotocol/IWTSProtocolConnection::GetUserCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

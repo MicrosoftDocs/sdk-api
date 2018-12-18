@@ -9,8 +9,6 @@ ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

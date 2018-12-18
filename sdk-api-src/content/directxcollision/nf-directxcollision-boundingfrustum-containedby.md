@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.ContainedBy(XMVE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],ContainedBy method, BoundingFrustum.ContainedBy, BoundingFrustum::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_containedby
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Tests whether the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a> is contained by the specified frustum.
+Tests whether the <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a> is contained by the specified frustum.
 
 
 ## -parameters
@@ -92,7 +90,7 @@ A plane describing the frustum.
 
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the frustum contains the <a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh449605(v=VS.85).aspx">ContainmentType</a> value indicating whether the frustum contains the <a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>.
 
 
 
@@ -112,11 +110,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/C0C961B6-6F6B-443B-B02F-2601E158F51B">BoundingFrustum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855859(v=VS.85).aspx">BoundingFrustum</a>
 
 
 
-<a href="https://msdn.microsoft.com/85A76263-92C4-4AF1-BFDE-C68A30CD5583">Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a>
 
 
 

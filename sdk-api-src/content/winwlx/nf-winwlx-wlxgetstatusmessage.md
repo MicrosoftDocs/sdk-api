@@ -9,8 +9,6 @@ ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

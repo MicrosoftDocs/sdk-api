@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxfspapiref_48by.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxdev.h
 req.include-header: 

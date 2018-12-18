@@ -9,8 +9,6 @@ ms.assetid: bceb7302-e5e6-4ee5-9adb-1736ab62e819
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method [IMAPI], GetPath method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetPath method, IDiscRecorder.GetPath, IDiscRecorder::GetPath, _win32_idiscrecorder_getpath, base.idiscrecorder_getpath, imapi.idiscrecorder_getpath, imapi/IDiscRecorder::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

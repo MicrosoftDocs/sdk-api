@@ -9,8 +9,6 @@ ms.assetid: 82f6db79-f364-480a-ad9d-acf2ad94a295
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gditransparentblt, wingdi/GdiTransparentBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

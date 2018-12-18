@@ -9,8 +9,6 @@ ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1HwndRenderTarget, ID2D1HwndRenderTarget interface [Direct2D], ID2D1HwndRenderTarget interface [Direct2D],described, d2d1/ID2D1HwndRenderTarget, direct2d.ID2D1HwndRenderTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -88,7 +86,7 @@ Returns the HWND associated with this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8ea2e96-c69b-4018-9572-c9099bf6202d">Resize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742774(v=VS.85).aspx">Resize</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
 
@@ -111,7 +109,7 @@ For <b>ID2D1HwndRenderTarget</b>, the only side effect of <b>BeginDraw</b> is ch
 
 
 
-A hardware render target's back-buffer is the size specified by <a href="https://msdn.microsoft.com/d0d736b5-0427-4c0d-8085-8498fd00f6b6">GetPixelSize</a>. If <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://msdn.microsoft.com/b8ea2e96-c69b-4018-9572-c9099bf6202d">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
+A hardware render target's back-buffer is the size specified by <a href="https://msdn.microsoft.com/d0d736b5-0427-4c0d-8085-8498fd00f6b6">GetPixelSize</a>. If <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://msdn.microsoft.com/en-us/library/Dd742774(v=VS.85).aspx">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
 
 
 
@@ -123,14 +121,14 @@ If the adapter a render target is on has been removed or the driver upgraded whi
 
 
 <h3><a id="Creating_ID2D1HwndRenderTarget_Objects"></a><a id="creating_id2d1hwndrendertarget_objects"></a><a id="CREATING_ID2D1HWNDRENDERTARGET_OBJECTS"></a>Creating ID2D1HwndRenderTarget Objects</h3>
-To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">ID2D1Factory::CreateHwndRenderTarget</a> method.
+To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">ID2D1Factory::CreateHwndRenderTarget</a> method.
 
 Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> method returns the <a href="https://msdn.microsoft.com/018bfca5-6ef4-497c-a4b6-8502c3cdac1b">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/3b55b1b0-a423-40dc-9581-c1fbe8134ca5">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
+The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
 
 ```cpp

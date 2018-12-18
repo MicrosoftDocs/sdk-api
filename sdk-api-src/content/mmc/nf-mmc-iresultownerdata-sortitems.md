@@ -9,8 +9,6 @@ ms.assetid: 5326e935-cb6c-4f76-8c9b-87d910dbbb0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IResultOwnerData interface [MMC],SortItems method, IResultOwnerData.SortItems, IResultOwnerData::SortItems, RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, SortItems, SortItems method [MMC], SortItems method [MMC],IResultOwnerData interface, _slate_iresultownerdata_sortitems, mmc.iresultownerdata_sortitems, mmc/IResultOwnerData::SortItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

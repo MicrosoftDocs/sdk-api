@@ -9,8 +9,6 @@ ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mapiunicodehelp.h
 req.include-header: 
@@ -78,7 +76,7 @@ If the value of the <i>ulUIParam</i> parameter is zero and a dialog box is displ
 
 Pointer to a <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> structure containing the message to be sent.
 
-If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure calls <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> to send the message.
+If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure calls <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> to send the message.
 
 When you call the function, please note the following information about message structure members:<table>
 <tr>

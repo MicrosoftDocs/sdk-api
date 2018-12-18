@@ -9,8 +9,6 @@ ms.assetid: 571b7067-676f-4e9e-9694-268ec10dc60b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

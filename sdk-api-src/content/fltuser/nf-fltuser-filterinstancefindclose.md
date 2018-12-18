@@ -9,8 +9,6 @@ ms.assetid: f4b066ca-4154-425d-85f6-682dc7460117
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FilterInstanceFindClose, FilterInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_e9ea0ce5-7e02-40df-8e12-5b7fb8b0a189.xml, fltuser/FilterInstanceFindClose, ifsk.filterinstancefindclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h

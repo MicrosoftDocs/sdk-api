@@ -9,8 +9,6 @@ ms.assetid: 82dad1d4-2368-4cb0-a45c-0de894b016b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawPalette, IDirectDrawPalette interface [DirectDraw], IDirectDrawPalette interface [DirectDraw],described, ddraw/IDirectDrawPalette, directdraw.idirectdrawpalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 

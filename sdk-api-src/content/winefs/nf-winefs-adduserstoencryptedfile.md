@@ -9,8 +9,6 @@ ms.assetid: a92d6a52-20d1-4d5c-a222-ab9afaf85c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddUsersToEncryptedFile, AddUsersToEncryptedFile function [Files], _win32_adduserstoencryptedfile, base.adduserstoencryptedfile, fs.adduserstoencryptedfile, winefs/AddUsersToEncryptedFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

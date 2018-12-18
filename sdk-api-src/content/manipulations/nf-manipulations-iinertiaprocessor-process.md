@@ -9,8 +9,6 @@ ms.assetid: f63cafa0-0da6-46ba-91d3-956dc804dd79
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Process method, IInertiaProcessor.Process, IInertiaProcessor::Process, Process, Process method [Windows Touch], Process method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

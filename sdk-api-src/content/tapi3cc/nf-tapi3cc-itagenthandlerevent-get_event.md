@@ -9,8 +9,6 @@ ms.assetid: 3362964c-15d3-497c-876b-46e8d26389c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_Event method, ITAgentHandlerEvent.get_Event, ITAgentHandlerEvent::get_Event, _tapi3_itagenthandlerevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_event, tapi3cc/ITAgentHandlerEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

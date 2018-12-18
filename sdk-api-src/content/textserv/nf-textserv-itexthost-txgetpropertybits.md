@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetPropertyBits method, ITextHost.TxGetPropertyBits, ITextHost::TxGetPropertyBits, TxGetPropertyBits, TxGetPropertyBits method [Windows Controls], TxGetPropertyBits method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetPropertyBits, _win32_ITextHost_TxGetPropertyBits_cpp, controls.ITextHost_TxGetPropertyBits, controls._win32_ITextHost_TxGetPropertyBits, textserv/ITextHost::TxGetPropertyBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

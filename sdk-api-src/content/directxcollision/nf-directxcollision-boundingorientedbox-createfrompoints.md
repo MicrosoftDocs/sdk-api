@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.CreateFromPo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],CreateFromPoints method, BoundingOrientedBox.CreateFromPoints, BoundingOrientedBox::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_createfrompoints
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from a collection of points.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a> from a collection of points.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ Creates a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1
 
 ### -param Out [out, ref]
 
-The new <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> containing the specified points.
+The new <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a> containing the specified points.
 
 
 ### -param Count [in]
@@ -70,7 +68,7 @@ The number of points in the buffer in <i>pPoints</i>.
 
 ### -param pPoints
 
-A buffer containing points to create the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> from.
+A buffer containing points to create the <a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a> from.
 
 
 ### -param Stride [in]
@@ -102,11 +100,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855863(v=VS.85).aspx">BoundingOrientedBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/98aa4c21-2dac-4e7a-95ef-ca87fb5e5082">Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855866(v=VS.85).aspx">Methods</a>
 
 
 

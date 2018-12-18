@@ -9,8 +9,6 @@ ms.assetid: 401c4f62-a406-49ac-9911-91f815cde9c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 401c4f62-a406-49ac-9911-91f815cde9c8, HitTestWithRectangle, HitTestWithRectangle method [Tablet PC], HitTestWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],HitTestWithRectangle method, IInkDisp.HitTestWithRectangle, IInkDisp::HitTestWithRectangle, msinkaut/IInkDisp::HitTestWithRectangle, tablet.inkdisp_hittest_rectangle__single
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -157,7 +155,7 @@ To determine which points of a known stroke intersect the test area, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

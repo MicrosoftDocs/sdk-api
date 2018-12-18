@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetCapture method, ITextHost.TxSetCapture, ITextHost::TxSetCapture, TxSetCapture, TxSetCapture method [Windows Controls], TxSetCapture method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetCapture, _win32_ITextHost_TxSetCapture_cpp, controls.ITextHost_TxSetCapture, controls._win32_ITextHost_TxSetCapture, textserv/ITextHost::TxSetCapture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

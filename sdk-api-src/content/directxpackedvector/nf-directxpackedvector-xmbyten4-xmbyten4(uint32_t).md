@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTEN4.#ctor(uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMBYTEN4, XMBYTEN4 constructor [DirectX Math Support APIs], XMBYTEN4 constructor [DirectX Math Support APIs],XMBYTEN4 structure, XMBYTEN4 structure [DirectX Math Support APIs],XMBYTEN4 constructor, XMBYTEN4.XMBYTEN4, XMBYTEN4.XMBYTEN4(uint32_t), XMBYTEN4::XMBYTEN4, XMBYTEN4::XMBYTEN4(uint32_t), dxmath.xmbyten4_ctor_6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -117,11 +115,11 @@ The last 8 bits (bits 24-31) of <b>Packed</b> assigned, as an signed
 
 
 
-<a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419284(v=VS.85).aspx">XMBYTEN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/f90dfcdc-689c-4d0e-9c11-06d29b134901">XMBYTEN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415261(v=VS.85).aspx">XMBYTEN4 Constructors</a>
  
 
  

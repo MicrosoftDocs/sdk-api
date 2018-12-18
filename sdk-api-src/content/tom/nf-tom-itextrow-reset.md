@@ -9,8 +9,6 @@ ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

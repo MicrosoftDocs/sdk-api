@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

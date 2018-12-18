@@ -9,8 +9,6 @@ ms.assetid: 4e35c011-8d5b-0bb5-fea2-4034b8e379aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnqueueGlyphDownloadRequest, EnqueueGlyphDownloadRequest method [Direct Write], EnqueueGlyphDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueGlyphDownloadRequest method, IDWriteFontFaceReference.EnqueueGlyphDownloadRequest, IDWriteFontFaceReference::EnqueueGlyphDownloadRequest, directwrite.idwritefontfacereference_enqueueglyphdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueGlyphDownloadRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>).
 
 
 ## -parameters
@@ -97,7 +95,7 @@ Downloading a glyph involves downloading any other glyphs it depends on from the
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

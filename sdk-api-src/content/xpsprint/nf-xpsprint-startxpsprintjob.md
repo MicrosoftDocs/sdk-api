@@ -9,8 +9,6 @@ ms.assetid: d982ae2e-c68f-4197-b419-22a63e61db8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StartXpsPrintJob, StartXpsPrintJob function [Windows GDI], gdi.startxpsprintjob, xpsprint/StartXpsPrintJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: xpsprint.h
 req.include-header: 

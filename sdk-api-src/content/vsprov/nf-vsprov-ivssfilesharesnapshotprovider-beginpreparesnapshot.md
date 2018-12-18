@@ -9,8 +9,6 @@ ms.assetid: 16df1cbd-dbb0-41d1-a713-a80e53ea96d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginPrepareSnapshot, BeginPrepareSnapshot method [VSS], BeginPrepareSnapshot method [VSS],IVssFileShareSnapshotProvider interface, IVssFileShareSnapshotProvider interface [VSS],BeginPrepareSnapshot method, IVssFileShareSnapshotProvider.BeginPrepareSnapshot, IVssFileShareSnapshotProvider::BeginPrepareSnapshot, base.ivssfilesharesnapshotprovider_beginpreparesnapshot, vsprov/IVssFileShareSnapshotProvider::BeginPrepareSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLBACK callback function [Bluetooth], bluetooth.pfn_device_callback, bluetoothapis/PFN_DEVICE_CALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
@@ -62,7 +60,7 @@ The <b>PFN_DEVICE_CALLBACK</b> function is a callback prototype used in associat
 ### -param pvParam
 
 A parameter passed in from  the <b>pvParam</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure through the <a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a> function.
+<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure through the <a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function.
 
 
 ### -param *pDevice
@@ -84,8 +82,8 @@ Returning <b>FALSE</b> prevents the device from being added to the list view of 
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362924(v=VS.85).aspx">BLUETOOTH_DEVICE_INFO</a> structure pointed to in <i>pDevice</i> is the device that the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a> function is querying to determine if that device should be added to the list view.
+<a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a> structure pointed to in <i>pDevice</i> is the device that the 
+<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function is querying to determine if that device should be added to the list view.
 
 If the callback performs SDP queries for each device, the list of devices from which the user can choose will be delayed until all devices can be queried. A recommended approach is to use the service to call bitfield in the class of device, available through <b>GET_COD_SERVICE</b>, to determine whether the device should be displayed to the user. The service class bitfield is available in the <b>pDevice</b> parameter through the <b>ulClassOfDevice</b> member.
 
@@ -97,15 +95,15 @@ If the callback performs SDP queries for each device, the list of devices from w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362924(v=VS.85).aspx">BLUETOOTH_DEVICE_INFO</a>
+<a href="https://msdn.microsoft.com/41b14980-8217-4948-b084-1f44051d12f7">BLUETOOTH_DEVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362891(v=VS.85).aspx">BluetoothSelectDevices</a>
+<a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a>
  
 
  

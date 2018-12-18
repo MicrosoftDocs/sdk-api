@@ -9,8 +9,6 @@ ms.assetid: 727aa921-5156-4b7a-a184-b0744acfa6fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SBE_PIN_DATA, SBE_PIN_DATA structure [Microsoft TV Technologies], SBE_PIN_DATAStructure, mstv.sbe_pin_data, sbe/SBE_PIN_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: sbe.h
 req.include-header: 
@@ -76,12 +74,12 @@ Number of samples processed.
 
 ### -field cDiscontinuities
 
-Number of discontinuities. See <a href="https://msdn.microsoft.com/57041c71-4c7e-463a-92f5-c77a76aa545a">IMediaSample::SetDiscontinuity</a>.
+Number of discontinuities. See <a href="https://msdn.microsoft.com/en-us/library/Dd407017(v=VS.85).aspx">IMediaSample::SetDiscontinuity</a>.
 
 
 ### -field cSyncPoints
 
-Number of synchronization points. See <a href="https://msdn.microsoft.com/b2770045-c18b-4dbc-b104-873e07c0b5aa">IMediaSample::SetSyncPoint</a>.
+Number of synchronization points. See <a href="https://msdn.microsoft.com/en-us/library/Dd407021(v=VS.85).aspx">IMediaSample::SetSyncPoint</a>.
 
 
 ### -field cTimestamps

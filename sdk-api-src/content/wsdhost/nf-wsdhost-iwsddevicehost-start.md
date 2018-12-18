@@ -9,8 +9,6 @@ ms.assetid: 06fea296-2551-46b1-9cd7-54187bca5fe8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,Start method, IWSDDeviceHost.Start, IWSDDeviceHost::Start, Start, Start method, Start method,IWSDDeviceHost interface, ncd.iwsddevicehost_start_method, wsdhost/IWSDDeviceHost::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

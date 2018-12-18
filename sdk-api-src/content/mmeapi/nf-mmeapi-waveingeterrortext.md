@@ -9,8 +9,6 @@ ms.assetid: 49d24beb-795a-4399-b230-c65cc16337dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveInGetErrorText, mmeapi/waveInGetErrorText, multimedia.waveingeterrortext, waveInGetErrorText, waveInGetErrorText function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

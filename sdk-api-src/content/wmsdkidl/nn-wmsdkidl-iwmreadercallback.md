@@ -9,8 +9,6 @@ ms.assetid: 69b897a8-cc26-445d-9d41-b917b399fb14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderCallback, IWMReaderCallback interface [windows Media Format], IWMReaderCallback interface [windows Media Format],described, IWMReaderCallbackInterface, wmformat.iwmreadercallback, wmsdkidl/IWMReaderCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -51,14 +49,14 @@ req.redist:
 
 
 
-The <b>IWMReaderCallback</b> is implemented by the application to handle data being read from a file. A pointer to the interface is passed to <a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>.
+The <b>IWMReaderCallback</b> is implemented by the application to handle data being read from a file. A pointer to the interface is passed to <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderCallback</b> interface inherits from <a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a>. <b>IWMReaderCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMReaderCallback</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a>. <b>IWMReaderCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,10 +71,10 @@ The <b>IWMReaderCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">OnSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">OnSample</a>
 </td>
 <td align="left" width="63%">
-Called during the reading of a file (due to a <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">Start</a> call) indicating that new uncompressed data is available.
+Called during the reading of a file (due to a <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">Start</a> call) indicating that new uncompressed data is available.
 
 </td>
 </tr>
@@ -88,19 +86,19 @@ Called during the reading of a file (due to a <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d18961a-5ea4-4f3e-b473-7399e155f800">IWMReaderCallbackAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8d8eed8-0a87-40ce-b1bf-2d476c2e4ae3">IWMStatusCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a>
 
 
 

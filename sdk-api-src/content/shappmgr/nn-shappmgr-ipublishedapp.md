@@ -9,8 +9,6 @@ ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], IPublishedApp interface [Windows Shell],described, inet_IPublishedApp, shappmgr/IPublishedApp, shell.IPublishedApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shappmgr.h
 req.include-header: 

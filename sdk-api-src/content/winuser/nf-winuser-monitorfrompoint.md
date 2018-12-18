@@ -9,8 +9,6 @@ ms.assetid: c46281bf-7e45-4628-be92-736850225a9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MONITOR_DEFAULTTONEAREST, MONITOR_DEFAULTTONULL, MONITOR_DEFAULTTOPRIMARY, MonitorFromPoint, MonitorFromPoint function [Windows GDI], _win32_MonitorFromPoint, gdi.monitorfrompoint, winuser/MonitorFromPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

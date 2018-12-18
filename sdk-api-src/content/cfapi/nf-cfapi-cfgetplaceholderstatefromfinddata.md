@@ -9,8 +9,6 @@ ms.assetid: 1A8104BC-E9D1-4846-B91F-4CBEDB1FC542
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetPlaceholderStateFromFindData, CfGetPlaceholderStateFromFindData function, cfapi/CfGetPlaceholderStateFromFindData, cloudApi.cfgetplaceholderstatefromfinddata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
@@ -76,7 +74,7 @@ Can include <a href="https://msdn.microsoft.com/5E814458-2045-4CFD-90AC-F1F53DEB
 
 
 
-The WIN32_FIND_DATA structure is obtained from the Win32 <a href="https://msdn.microsoft.com/en-us/library/Aa364418(v=VS.85).aspx">FindFirstFile</a>/<a href="https://msdn.microsoft.com/en-us/library/Aa364428(v=VS.85).aspx">FindNextFile</a> functions.
+The WIN32_FIND_DATA structure is obtained from the Win32 <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a>/<a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a> functions.
 
 
 

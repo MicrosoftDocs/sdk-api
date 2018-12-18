@@ -9,8 +9,6 @@ ms.assetid: 9bd16fa1-530d-46c7-bd1b-4ec9bf596881
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DiscardEdit, DiscardEdit method [Windows Shell], DiscardEdit method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DiscardEdit method, IShellImageData.DiscardEdit, IShellImageData::DiscardEdit, _shell_IShellImageData_DiscardEdit, shell.IShellImageData_DiscardEdit, shimgdata/IShellImageData::DiscardEdit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

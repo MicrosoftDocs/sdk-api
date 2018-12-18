@@ -9,8 +9,6 @@ ms.assetid: 3ea41491-409c-42b7-a4b2-f0d7c222c299
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatisticsEx, GetStatisticsEx method [windows Media Format], GetStatisticsEx method [windows Media Format],IWMWriterAdvanced3 interface, IWMWriterAdvanced3 interface [windows Media Format],GetStatisticsEx method, IWMWriterAdvanced3.GetStatisticsEx, IWMWriterAdvanced3::GetStatisticsEx, IWMWriterAdvanced3GetStatisticsEx, wmformat.iwmwriteradvanced3_getstatisticsex, wmsdkidl/IWMWriterAdvanced3::GetStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>GetStatisticsEx</b> method retrieves extended statistics for the writer.
 
 ### -param pStats [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/f98a5934-968e-4c74-9fd2-f824ad77692c">WM_WRITER_STATISTICS_EX</a> structure that receives the statistics.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd758026(v=VS.85).aspx">WM_WRITER_STATISTICS_EX</a> structure that receives the statistics.
 
 
 ## -returns
@@ -117,7 +115,7 @@ The writer is in the configuration state, during which this method cannot be cal
 
 
 
-<b>GetStatisticsEx</b> is not an improved version of <a href="https://msdn.microsoft.com/005c2039-e821-42ab-bead-1bf40f2ab171">IWMWriterAdvanced::GetStatistics</a>. The statistics retrieved by <b>GetStatistics</b> are not retrieved by <b>GetStatisticsEx</b>; if you want to get all available statistics you must call both methods.
+<b>GetStatisticsEx</b> is not an improved version of <a href="https://msdn.microsoft.com/en-us/library/Dd798730(v=VS.85).aspx">IWMWriterAdvanced::GetStatistics</a>. The statistics retrieved by <b>GetStatistics</b> are not retrieved by <b>GetStatisticsEx</b>; if you want to get all available statistics you must call both methods.
 
 
 
@@ -127,7 +125,7 @@ The writer is in the configuration state, during which this method cannot be cal
 
 
 
-<a href="https://msdn.microsoft.com/99f7e4f7-0080-498d-b4f1-960c4955b4db">IWMWriterAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798724(v=VS.85).aspx">IWMWriterAdvanced3 Interface</a>
  
 
  

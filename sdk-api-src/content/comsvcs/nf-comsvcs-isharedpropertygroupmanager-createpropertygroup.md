@@ -9,8 +9,6 @@ ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+],ISharedPropertyGroupManager interface, ISharedPropertyGroupManager interface [COM+],CreatePropertyGroup method, ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

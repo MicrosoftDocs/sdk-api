@@ -9,8 +9,6 @@ ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -136,7 +134,7 @@ This method is useful for karaoke discs in Video CD (VCD) format that have two m
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 11309b32-bc42-41fd-a0cd-e356caade849
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capPaletteSave, capPaletteSave, capPaletteSave macro [Windows Multimedia], multimedia.cappalettesave, vfw/capPaletteSave"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

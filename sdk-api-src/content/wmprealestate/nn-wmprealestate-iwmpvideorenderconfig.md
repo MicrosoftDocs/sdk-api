@@ -9,8 +9,6 @@ ms.assetid: 60318e68-89dd-4505-a703-3de4d5442236
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPVideoRenderConfig, IWMPVideoRenderConfig interface [Windows Media Player], IWMPVideoRenderConfig interface [Windows Media Player],described, IWMPVideoRenderConfigInterface, wmp.iwmpvideorenderconfig, wmprealestate/IWMPVideoRenderConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmprealestate.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPVideoRenderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a052aecc-b37f-4999-b484-80ee3e2392ba">put_presenterActivate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563756(v=VS.85).aspx">put_presenterActivate</a>
 </td>
 <td align="left" width="63%">
 Provides Windows Media Player with an activation object for a custom video presenter.
@@ -82,7 +80,7 @@ Provides Windows Media Player with an activation object for a custom video prese
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPVideoRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/ce6aef79-1faa-44ac-a096-f65d09458067">IWMPPlayer</a>.
+Retrieve a pointer to <b>IWMPVideoRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a>.
 <div class="alert"><b>Note</b>  If the EVR is not installed, <b>QueryInterface</b> will fail. </div><div> </div>The EVR is installed as part of the Windows Vista operating system.
 
 Typically, the EVR is not installed on a computer running Microsoft Windows XP. The EVR is not part of Windows XP itself, and installing Windows Media Player 11 on Windows XP does not install the EVR. In some cases, however, a computer running Windows XP might have the EVR installed. For example, installing Windows Presentation Foundation on Windows XP results in the EVR being installed as well.

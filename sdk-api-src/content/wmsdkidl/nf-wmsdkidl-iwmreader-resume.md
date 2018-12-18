@@ -9,8 +9,6 @@ ms.assetid: 4af00d1f-c78a-4f43-be2d-9561e3c7cf36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Resume method, IWMReader.Resume, IWMReader::Resume, IWMReaderResume, Resume, Resume method [windows Media Format], Resume method [windows Media Format],IWMReader interface, wmformat.iwmreader_resume, wmsdkidl/IWMReader::Resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
  
 
  

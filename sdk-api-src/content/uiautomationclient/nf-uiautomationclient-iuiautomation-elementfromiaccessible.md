@@ -9,8 +9,6 @@ ms.assetid: b3dcc31c-e111-4841-82a8-a6329020b595
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ElementFromIAccessible, ElementFromIAccessible method [Windows Accessibility], ElementFromIAccessible method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessible method, IUIAutomation.ElementFromIAccessible, IUIAutomation::ElementFromIAccessible, uiauto.uiauto_IUIAutomation_ElementFromIAccessible, uiauto_IUIAutomation_ElementFromIAccessible, uiautomationclient/IUIAutomation::ElementFromIAccessible, winauto.uiauto_IUIAutomation_ElementFromIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

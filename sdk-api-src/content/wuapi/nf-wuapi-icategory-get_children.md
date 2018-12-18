@@ -9,8 +9,6 @@ ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Children property [Windows Update Agent], Children property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Children property, ICategory.Children, ICategory.get_Children, ICategory::Children, ICategory::get_Children, get_Children, wua.icategory_children, wuapi/ICategory::Children, wuapi/ICategory::get_Children
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

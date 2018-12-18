@@ -9,8 +9,6 @@ ms.assetid: 044979f0-df61-4a05-9d64-ac1af28bc568
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRadiusX, GetRadiusX method [Direct2D], GetRadiusX method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetRadiusX method, ID2D1RadialGradientBrush.GetRadiusX, ID2D1RadialGradientBrush::GetRadiusX, d2d1/ID2D1RadialGradientBrush::GetRadiusX, direct2d.ID2D1RadialGradientBrush_GetRadiusX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

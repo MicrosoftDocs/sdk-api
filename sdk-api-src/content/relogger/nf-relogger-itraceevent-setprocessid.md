@@ -9,8 +9,6 @@ ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

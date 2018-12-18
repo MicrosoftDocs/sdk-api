@@ -9,8 +9,6 @@ ms.assetid: 9f51fc2a-74cc-4aab-89b7-0237c14ff7f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarName method, ICreateTypeInfo.SetVarName, ICreateTypeInfo::SetVarName, SetVarName, SetVarName method [Automation], SetVarName method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarName, automat.icreatetypeinfo_setvarname, oaidl/ICreateTypeInfo::SetVarName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

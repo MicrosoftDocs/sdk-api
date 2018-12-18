@@ -9,8 +9,6 @@ ms.assetid: 75489f7f-1ec5-471c-bc45-c8f480b0fa99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Windows Shell], GetCurrentPage method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetCurrentPage method, IShellImageData.GetCurrentPage, IShellImageData::GetCurrentPage, _shell_IShellImageData_GetCurrentPage, shell.IShellImageData_GetCurrentPage, shimgdata/IShellImageData::GetCurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

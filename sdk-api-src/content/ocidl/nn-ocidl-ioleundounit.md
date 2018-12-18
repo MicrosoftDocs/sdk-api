@@ -9,8 +9,6 @@ ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

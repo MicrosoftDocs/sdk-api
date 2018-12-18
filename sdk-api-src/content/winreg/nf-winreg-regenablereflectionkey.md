@@ -9,8 +9,6 @@ ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.DSOBJECTNAMES
+UID: NS:dsclient.__unnamed_struct_1
 title: DSOBJECTNAMES
 author: windows-sdk-content
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
@@ -7,10 +7,8 @@ old-location: ad\dsobjectnames.htm
 tech.root: ad
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
@@ -70,7 +68,7 @@ Contains the number of elements in the <b>aObjects</b> array.
 
 ### -field aObjects
 
-Contains an array of <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
+Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms676010(v=VS.85).aspx">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
 
 
 ## -see-also
@@ -78,7 +76,7 @@ Contains an array of <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5
 
 
 
-<a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676010(v=VS.85).aspx">DSBOJECT</a>
 
 
 

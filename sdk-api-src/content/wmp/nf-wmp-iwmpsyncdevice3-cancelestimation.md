@@ -9,8 +9,6 @@ ms.assetid: 82e87e44-0a38-43c0-bbed-011581ae8a85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],cancelEstimation method, IWMPSyncDevice3.cancelEstimation, IWMPSyncDevice3::cancelEstimation, cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/49b07233-df9d-4fd0-836e-62b992408018">estimateSyncSize</a>.
+The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://msdn.microsoft.com/en-us/library/Dd563715(v=VS.85).aspx">estimateSyncSize</a>.
 
 
 
@@ -105,7 +103,7 @@ When you call this method, Windows Media Player raises the<a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/4fc8d307-38d4-4f46-bd8c-b05d60d9d0fa">IWMPSyncDevice3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563713(v=VS.85).aspx">IWMPSyncDevice3 Interface</a>
  
 
  

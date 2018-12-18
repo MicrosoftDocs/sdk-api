@@ -9,8 +9,6 @@ ms.assetid: ab6c9903-95ea-499b-be75-ff57328336f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNewBandwidthSharing, CreateNewBandwidthSharing method [windows Media Format], CreateNewBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewBandwidthSharing method, IWMProfile3.CreateNewBandwidthSharing, IWMProfile3::CreateNewBandwidthSharing, IWMProfile3CreateNewBandwidthSharing, wmformat.iwmprofile3_createnewbandwidthsharing, wmsdkidl/IWMProfile3::CreateNewBandwidthSharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>CreateNewBandwidthSharing</b> method creates a new bandwidth sharing obje
 
 ### -param ppBS [out]
 
-Pointer to a variable that receives the address of the <a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing</a> interface of the new object.
+Pointer to a variable that receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing</a> interface of the new object.
 
 
 ## -returns
@@ -123,9 +121,9 @@ The method is unable to allocate memory for the new object.
 
 
 
-To make use of the bandwidth sharing object, you must add it to the profile with a call to <a href="https://msdn.microsoft.com/174a4583-93fb-41cd-ba14-a959a28c1ea3">AddBandwidthSharing</a>. A bandwidth sharing object cannot exist on its own. If you release the profile object without adding the bandwidth sharing object to the profile, you will lose the bandwidth sharing object.
+To make use of the bandwidth sharing object, you must add it to the profile with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757269(v=VS.85).aspx">AddBandwidthSharing</a>. A bandwidth sharing object cannot exist on its own. If you release the profile object without adding the bandwidth sharing object to the profile, you will lose the bandwidth sharing object.
 
-You must configure the bandwidth sharing object before you use <b>AddBandwidthSharing</b> to include the bandwidth sharing object in the profile. For more information about configuring bandwidth sharing objects, see <a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>.
+You must configure the bandwidth sharing object before you use <b>AddBandwidthSharing</b> to include the bandwidth sharing object in the profile. For more information about configuring bandwidth sharing objects, see <a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>.
 
 
 
@@ -139,15 +137,15 @@ You must configure the bandwidth sharing object before you use <b>AddBandwidthSh
 
 
 
-<a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/174a4583-93fb-41cd-ba14-a959a28c1ea3">IWMProfile3::AddBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757269(v=VS.85).aspx">IWMProfile3::AddBandwidthSharing</a>
  
 
  

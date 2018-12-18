@@ -9,8 +9,6 @@ ms.assetid: dec93690-8285-4672-bf70-63f3c10294bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetClientInfo method, IWMReaderAdvanced.SetClientInfo, IWMReaderAdvanced::SetClientInfo, IWMReaderAdvancedSetClientInfo, SetClientInfo, SetClientInfo method [windows Media Format], SetClientInfo method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setclientinfo, wmsdkidl/IWMReaderAdvanced::SetClientInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>SetClientInfo</b> method sets client-side information used for logging. U
 
 ### -param pClientInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9c8d1534-976d-4a9e-9c89-368e1a11bd26">WM_READER_CLIENTINFO</a> structure allocated by the caller, which contains information about the client.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757990(v=VS.85).aspx">WM_READER_CLIENTINFO</a> structure allocated by the caller, which contains information about the client.
 
 
 ## -returns
@@ -144,7 +142,7 @@ hr = pReaderAdvanced-&gt;SetClientInfo( &amp;info );
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
  
 
  

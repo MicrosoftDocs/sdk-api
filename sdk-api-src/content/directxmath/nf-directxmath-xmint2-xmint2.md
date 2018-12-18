@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMINT2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMINT2, XMINT2 constructor [DirectX Math Support APIs], XMINT2 constructor [DirectX Math Support APIs],XMINT2 structure, XMINT2 structure [DirectX Math Support APIs],XMINT2 constructor, XMINT2.XMINT2, XMINT2.XMINT2(), XMINT2::XMINT2, dxmath.xmint2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMINT2</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9
 
 
 
-<a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f5f83a3-4a1a-44e5-835c-0eede90a32b1">XMINT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449504(v=VS.85).aspx">XMINT2 Constructors</a>
  
 
  

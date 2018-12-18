@@ -9,8 +9,6 @@ ms.assetid: 61d90fd9-6c73-4987-b424-1523f15ab023
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioClockAdjustment, IAudioClockAdjustment interface [Core Audio], IAudioClockAdjustment interface [Core Audio],described, audioclient/IAudioClockAdjustment, coreaudio.iaudioclockadjustment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

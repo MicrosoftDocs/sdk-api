@@ -4,13 +4,11 @@ title: IWRdsWddmIddProps::GetHardwareId
 author: windows-sdk-content
 description: Protocol stack uses this method to return hardware Id of WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_gethardwareid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4F9D2C6D-6555-4ABE-B856-6DD59B139978
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHardwareId, GetHardwareId method [Remote Desktop Services], GetHardwareId method [Remote Desktop Services],IWRdsWddmIddProps interface, IWRdsWddmIddProps interface [Remote Desktop Services],GetHardwareId method, IWRdsWddmIddProps.GetHardwareId, IWRdsWddmIddProps::GetHardwareId, termserv.iwrdswddmiddprops_gethardwareid, wtsprotocol/IWRdsWddmIddProps::GetHardwareId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 
@@ -82,7 +80,7 @@ S_OK or error code
 
 
 
-<a href="https://msdn.microsoft.com/9473E754-D158-40E7-9E76-D8EA5A4BE86E">IWRdsWddmIddProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832805(v=VS.85).aspx">IWRdsWddmIddProps</a>
  
 
  

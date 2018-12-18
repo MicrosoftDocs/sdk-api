@@ -9,8 +9,6 @@ ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vdssys/SetVirtualDiskInformation, vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -62,12 +60,12 @@ Sets information about a virtual hard disk (VHD).
 
 A handle to the open virtual disk, which must have been opened using the 
      <b>VIRTUAL_DISK_ACCESS_METAOPS</b> flag. For information on how to open a virtual disk, see 
-     the <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
+     the <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
 
 
 ### -param VirtualDiskInfo [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/04b2bb75-7905-469a-abf1-15591dc64686">SET_VIRTUAL_DISK_INFO</a> 
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323686(v=VS.85).aspx">SET_VIRTUAL_DISK_INFO</a> 
      structure.
 
 

@@ -9,8 +9,6 @@ ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddComponent, AddComponent method, AddComponent method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponent method, IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

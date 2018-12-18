@@ -9,8 +9,6 @@ ms.assetid: 24e02875-32ab-4844-bec3-8044b03b9843
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, ISCTE_EAS.GetTableDescriptorByIndex, ISCTE_EAS::GetTableDescriptorByIndex, ISCTE_EASGetTableDescriptorByIndex, atscpsipparser/ISCTE_EAS::GetTableDescriptorByIndex, mstv.iscte_eas_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
@@ -66,7 +64,7 @@ The zero-based index of the descriptor to retrieve. Call the <a href="https://ms
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. The caller must release the interface.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: a7127ce7-175f-463e-8d54-0c637639a108
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocalTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalTransportAddress method, IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

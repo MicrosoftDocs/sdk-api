@@ -9,8 +9,6 @@ ms.assetid: b8b72a76-6cdb-4675-8d84-f3c7171b8576
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileName method, IFileDialog.SetFileName, IFileDialog::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFileName, shell.IFileDialog_SetFileName, shobjidl_core/IFileDialog::SetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

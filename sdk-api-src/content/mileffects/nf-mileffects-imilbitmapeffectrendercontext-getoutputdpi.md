@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\geto
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputDPI, GetOutputDPI method [WPF Bitmap Effects], GetOutputDPI method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputDPI method, IMILBitmapEffectRenderContext.GetOutputDPI, IMILBitmapEffectRenderContext::GetOutputDPI, _wibe_imilbitmapeffectrendercontext_getoutputdpi, mileffects/IMILBitmapEffectRenderContext::GetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_getoutputdpi
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

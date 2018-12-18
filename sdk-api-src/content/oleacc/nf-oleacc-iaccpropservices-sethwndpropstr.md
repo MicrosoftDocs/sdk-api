@@ -9,8 +9,6 @@ ms.assetid: 68f09a23-56b2-4fae-98a2-616b17fb4e1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHwndPropStr method, IAccPropServices.SetHwndPropStr, IAccPropServices::SetHwndPropStr, SetHwndPropStr, SetHwndPropStr method [Windows Accessibility], SetHwndPropStr method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetHwndPropStr, msaa.iaccpropservices_iaccpropservices__sethwndpropstr, oleacc/IAccPropServices::SetHwndPropStr, winauto.iaccpropservices_iaccpropservices__sethwndpropstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

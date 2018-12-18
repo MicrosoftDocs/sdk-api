@@ -9,8 +9,6 @@ ms.assetid: 68b41304-2043-4cbf-8872-7f3d9f3b7a83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_IPSinkInfo interface [Microsoft TV Technologies],get_AdapterDescription method, IBDA_IPSinkInfo.get_AdapterDescription, IBDA_IPSinkInfo::get_AdapterDescription, IBDA_IPSinkInfoget_AdapterDescription, bdaiface/IBDA_IPSinkInfo::get_AdapterDescription, get_AdapterDescription, get_AdapterDescription method [Microsoft TV Technologies], get_AdapterDescription method [Microsoft TV Technologies],IBDA_IPSinkInfo interface, mstv.ibda_ipsinkinfo_get_adapterdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -92,7 +90,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

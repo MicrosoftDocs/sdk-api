@@ -9,8 +9,6 @@ ms.assetid: c8ee210c-dab9-4678-9c62-d06677cbb395
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumItems, EnumItems method [Windows Shell], EnumItems method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],EnumItems method, IShellItemArray.EnumItems, IShellItemArray::EnumItems, _shell_IShellItemArray_EnumItems, shell.IShellItemArray_EnumItems, shobjidl_core/IShellItemArray::EnumItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

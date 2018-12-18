@@ -9,8 +9,6 @@ ms.assetid: 2a106ea5-976a-40df-a554-1b76d9a07286
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Foundation], End method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],End method, IMFASFMultiplexer.End, IMFASFMultiplexer::End, mf.imfasfmultiplexer_end, wmcontainer/IMFASFMultiplexer::End
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicAudio interface [DirectShow],get_Balance method, IBasicAudio.get_Balance, IBasicAudio::get_Balance, IBasicAudioget_Balance, control/IBasicAudio::get_Balance, dshow.ibasicaudio_get_balance, get_Balance, get_Balance method [DirectShow], get_Balance method [DirectShow],IBasicAudio interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -131,7 +129,7 @@ The balance ranges from -10,000 to 10,000. The value -10,000 means the right cha
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

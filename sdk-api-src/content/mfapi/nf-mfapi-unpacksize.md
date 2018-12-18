@@ -9,8 +9,6 @@ ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

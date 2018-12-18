@@ -9,8 +9,6 @@ ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

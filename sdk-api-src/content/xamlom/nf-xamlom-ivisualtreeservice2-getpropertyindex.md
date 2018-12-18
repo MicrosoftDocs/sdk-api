@@ -9,8 +9,6 @@ ms.assetid: E23FA0C6-7822-4CEA-AF0C-75B42941B143
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPropertyIndex, GetPropertyIndex method, GetPropertyIndex method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetPropertyIndex method, IVisualTreeService2.GetPropertyIndex, IVisualTreeService2::GetPropertyIndex, xaml_diagnostics.ivisualtreeservice2_getpropertyindex, xamlom/IVisualTreeService2::GetPropertyIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

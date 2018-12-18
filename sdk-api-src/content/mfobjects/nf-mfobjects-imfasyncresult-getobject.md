@@ -9,8 +9,6 @@ ms.assetid: b4b871ff-370d-4a37-9fe4-91d1805890eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetObject method, IMFAsyncResult.GetObject, IMFAsyncResult::GetObject, b4b871ff-370d-4a37-9fe4-91d1805890eb, mf.imfasyncresult_getobject, mfobjects/IMFAsyncResult::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

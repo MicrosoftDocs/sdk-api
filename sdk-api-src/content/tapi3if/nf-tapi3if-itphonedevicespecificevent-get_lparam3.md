@@ -9,8 +9,6 @@ ms.assetid: 0dd4c5d7-033a-4e25-a7f0-6731b5b08d18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam3 method, ITPhoneDeviceSpecificEvent.get_lParam3, ITPhoneDeviceSpecificEvent::get_lParam3, _tapi3_itphonedevicespecificevent_get_lparam3, get_lParam3, get_lParam3 method [TAPI 2.2], get_lParam3 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam3, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

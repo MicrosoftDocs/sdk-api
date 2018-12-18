@@ -9,8 +9,6 @@ ms.assetid: 85ad4d42-11e7-4d26-943f-3d7451899c8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityInformation interface [Security],MapGeneric method, ISecurityInformation.MapGeneric, ISecurityInformation::MapGeneric, MapGeneric, MapGeneric method [Security], MapGeneric method [Security],ISecurityInformation interface, _win32_isecurityinformation_mapgeneric, aclui/ISecurityInformation::MapGeneric, security.isecurityinformation_mapgeneric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
@@ -110,7 +108,7 @@ Your <b>MapGeneric</b> implementation can call the
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

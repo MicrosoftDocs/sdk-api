@@ -9,8 +9,6 @@ ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

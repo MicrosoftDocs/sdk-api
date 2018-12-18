@@ -9,8 +9,6 @@ ms.assetid: 1e3b200c-0190-f600-1cb6-4e2a46f882b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginDownload, BeginDownload method [Direct Write], BeginDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],BeginDownload method, IDWriteFontDownloadQueue.BeginDownload, IDWriteFontDownloadQueue::BeginDownload, directwrite.idwritefontdownloadqueue_begindownload, dwrite_3/IDWriteFontDownloadQueue::BeginDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Begins an asynchronous download operation. The download operation executes   
-    in the background until it completes or is cancelled by a <a href="https://msdn.microsoft.com/f2ecabcf-3301-d446-8eda-4536b3f9b5e3">CancelDownload</a> call.
+    in the background until it completes or is cancelled by a <a href="https://msdn.microsoft.com/en-us/library/Dn894556(v=VS.85).aspx">CancelDownload</a> call.
 
 
 ## -parameters
@@ -98,7 +96,7 @@ BeginDownload removes all download requests from the queue, transferring them
 
 
 
-<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>
  
 
  

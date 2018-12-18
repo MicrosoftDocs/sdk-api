@@ -9,8 +9,6 @@ ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FtpSetCurrentDirectory, FtpSetCurrentDirectory function [WinINet], FtpSetCurrentDirectoryA, FtpSetCurrentDirectoryW, _inet_ftpsetcurrentdirectory_function, wininet.ftpsetcurrentdirectory, wininet/FtpSetCurrentDirectory, wininet/FtpSetCurrentDirectoryA, wininet/FtpSetCurrentDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

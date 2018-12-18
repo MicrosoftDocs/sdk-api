@@ -9,8 +9,6 @@ ms.assetid: d0c24da9-c33f-48a7-b644-a7671acca20f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMessageDrain method, IFullScreenVideoEx.SetMessageDrain, IFullScreenVideoEx::SetMessageDrain, IFullScreenVideoSetMessageDrain, SetMessageDrain, SetMessageDrain method [DirectShow], SetMessageDrain method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMessageDrain, dshow.ifullscreenvideoex_setmessagedrain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -80,7 +78,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method is equivalent to the <a href="https://msdn.microsoft.com/aaf8624c-b3ea-4034-845a-6cd74c725c44">IVideoWindow::put_MessageDrain</a> method.
+This method is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Dd377323(v=VS.85).aspx">IVideoWindow::put_MessageDrain</a> method.
 
 The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <b>put_MessageDrain</b>.
 
@@ -98,7 +96,7 @@ Applications do not need to use this method. Instead, call the Filter Graph Mana
 
 
 
-<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
  
 
  

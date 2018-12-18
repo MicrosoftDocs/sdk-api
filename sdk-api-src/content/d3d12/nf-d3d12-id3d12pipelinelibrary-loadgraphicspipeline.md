@@ -9,8 +9,6 @@ ms.assetid: 1DDD1348-2039-4BF4-9ED8-7AA087D0B654
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12PipelineLibrary interface,LoadGraphicsPipeline method, ID3D12PipelineLibrary.LoadGraphicsPipeline, ID3D12PipelineLibrary::LoadGraphicsPipeline, LoadGraphicsPipeline, LoadGraphicsPipeline method, LoadGraphicsPipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::LoadGraphicsPipeline, direct3d12.id3d12pipelinelibrary_loadgraphicspipeline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

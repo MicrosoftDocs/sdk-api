@@ -9,8 +9,6 @@ ms.assetid: 47e5a5ff-d8a7-46e6-aa42-b9e7d544954b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Description property [ICS/ICF], Description property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Description property, INetFwRule.Description, INetFwRule.get_Description, INetFwRule::Description, INetFwRule::get_Description, INetFwRule::put_Description, get_Description, ics.inetfwrule_description, netfw/INetFwRule::Description, netfw/INetFwRule::get_Description, netfw/INetFwRule::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b028a811-e559-4152-9081-abaec0cab347
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetCheckButtonState method, IFileDialogCustomize.SetCheckButtonState, IFileDialogCustomize::SetCheckButtonState, SetCheckButtonState, SetCheckButtonState method [Windows Shell], SetCheckButtonState method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetCheckButtonState, shell_IFileDialogCustomize_SetCheckButtonState, shobjidl_core/IFileDialogCustomize::SetCheckButtonState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

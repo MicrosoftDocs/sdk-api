@@ -9,8 +9,6 @@ ms.assetid: 0f21ed97-e37f-4b44-a2eb-b8e284b3dc4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetEnhMetaFileBits, SetEnhMetaFileBits function [Windows GDI], _win32_SetEnhMetaFileBits, gdi.setenhmetafilebits, wingdi/SetEnhMetaFileBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

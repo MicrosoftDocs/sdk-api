@@ -9,8 +9,6 @@ ms.assetid: 2b8baf6d-9c9a-4727-9deb-3d335bd0dc7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetCurrentProcessExplicitAppUserModelID, SetCurrentProcessExplicitAppUserModelID function [Windows Shell], _shell_SetCurrentProcessExplicitAppUserModelID, shell.SetCurrentProcessExplicitAppUserModelID, shobjidl_core/SetCurrentProcessExplicitAppUserModelID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

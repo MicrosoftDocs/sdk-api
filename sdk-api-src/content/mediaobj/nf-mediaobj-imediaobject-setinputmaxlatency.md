@@ -9,8 +9,6 @@ ms.assetid: 45fb0caa-cd12-4847-a646-f6fd90c50b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObject interface [DirectShow],SetInputMaxLatency method, IMediaObject.SetInputMaxLatency, IMediaObject::SetInputMaxLatency, IMediaObjectSetInputMaxLatency, SetInputMaxLatency, SetInputMaxLatency method [DirectShow], SetInputMaxLatency method [DirectShow],IMediaObject interface, dshow.imediaobject_setinputmaxlatency, mediaobj/IMediaObject::SetInputMaxLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -52,7 +50,7 @@ req.redist:
 
 
 
-The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="https://msdn.microsoft.com/f8a18b4c-a59c-4e9d-aff7-62333e9ffda9">IMediaObject::GetInputMaxLatency</a>.
+The <code>SetInputMaxLatency</code> method sets the maximum latency on a specified input stream. For the definition of maximum latency, see <a href="https://msdn.microsoft.com/en-us/library/Dd406948(v=VS.85).aspx">IMediaObject::GetInputMaxLatency</a>.
 
 
 
@@ -138,11 +136,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8a18b4c-a59c-4e9d-aff7-62333e9ffda9">IMediaObject::GetInputMaxLatency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406948(v=VS.85).aspx">IMediaObject::GetInputMaxLatency</a>
  
 
  

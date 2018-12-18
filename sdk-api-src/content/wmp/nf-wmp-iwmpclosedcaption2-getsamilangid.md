@@ -9,8 +9,6 @@ ms.assetid: c17418ce-d653-43b3-9702-62c049eecdfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption2 interface [Windows Media Player],getSAMILangID method, IWMPClosedCaption2.getSAMILangID, IWMPClosedCaption2::getSAMILangID, IWMPClosedCaption2getSAMILangID, getSAMILangID, getSAMILangID method [Windows Media Player], getSAMILangID method [Windows Media Player],IWMPClosedCaption2 interface, wmp.iwmpclosedcaption2_getsamilangid, wmp/IWMPClosedCaption2::getSAMILangID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,7 +119,7 @@ This method cannot be used until a digital media file is open.
 
 
 
-<a href="https://msdn.microsoft.com/21067ac1-d29e-4f1b-b123-34b24929369a">IWMPClosedCaption2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563114(v=VS.85).aspx">IWMPClosedCaption2 Interface</a>
  
 
  

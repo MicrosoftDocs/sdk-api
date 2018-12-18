@@ -9,8 +9,6 @@ ms.assetid: 770a548c-c227-4708-bc40-08bf2681c90f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphost.eappeerbeginsession, eapmethodpeerapis/EapPeerBeginSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

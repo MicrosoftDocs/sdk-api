@@ -9,8 +9,6 @@ ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateService2 interface [Windows Update Agent],IsDefaultAUService property, IUpdateService2.IsDefaultAUService, IUpdateService2.get_IsDefaultAUService, IUpdateService2::IsDefaultAUService, IUpdateService2::get_IsDefaultAUService, IsDefaultAUService property [Windows Update Agent], IsDefaultAUService property [Windows Update Agent],IUpdateService2 interface, get_IsDefaultAUService, wua.iupdateservice2_isdefaultauservice, wuapi/IUpdateService2::IsDefaultAUService, wuapi/IUpdateService2::get_IsDefaultAUService
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

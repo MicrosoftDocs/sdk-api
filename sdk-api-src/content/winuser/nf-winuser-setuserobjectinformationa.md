@@ -9,8 +9,6 @@ ms.assetid: 42ce6946-1659-41a3-8ba7-21588583b4bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetUserObjectInformation, SetUserObjectInformation function [Windows Stations and Desktops], SetUserObjectInformationA, SetUserObjectInformationW, UOI_FLAGS, UOI_TIMERPROC_EXCEPTION_SUPPRESSION, _win32_setuserobjectinformation, base.setuserobjectinformation, winstation.setuserobjectinformation, winuser/SetUserObjectInformation, winuser/SetUserObjectInformationA, winuser/SetUserObjectInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

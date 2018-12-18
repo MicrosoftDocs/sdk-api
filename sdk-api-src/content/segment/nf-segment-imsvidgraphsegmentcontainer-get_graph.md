@@ -9,8 +9,6 @@ ms.assetid: fecc2953-84d6-4d1b-bb3f-5b966debef1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],get_Graph method, IMSVidGraphSegmentContainer.get_Graph, IMSVidGraphSegmentContainer::get_Graph, IMSVidGraphSegmentContainerget_Graph, get_Graph, get_Graph method [Microsoft TV Technologies], get_Graph method [Microsoft TV Technologies],IMSVidGraphSegmentContainer interface, mstv.imsvidgraphsegmentcontainer_get_graph, segment/IMSVidGraphSegmentContainer::get_Graph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>get_Graph</b> method returns a pointer to the Filter Graph Manager.
 
 ### -param ppGraph [in]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface pointer.
 
 
 ## -returns
@@ -78,7 +76,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 Objects can use this method to find a specific DirectShow filter in the filter graph. It is not recommended that applications use this method. Applications should always control the filter graph using the Video Control.
 
-The returned <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85).aspx">IGraphBuilder</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 #### Examples
@@ -112,7 +110,7 @@ if (pSeg)
 
 
 
-<a href="https://msdn.microsoft.com/a314693f-8fc2-4816-b64b-d5f8886da39e">IMSVidGraphSegmentContainer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694566(v=VS.85).aspx">IMSVidGraphSegmentContainer Interface</a>
  
 
  

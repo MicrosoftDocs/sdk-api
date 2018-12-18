@@ -9,8 +9,6 @@ ms.assetid: a6e799b3-f90e-415f-a380-e90d69184fe2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_SDT.GetRecordRunningStatus, IDVB_SDT::GetRecordRunningStatus, IDVB_SDTGetRecordRunningStatus, dvbsiparser/IDVB_SDT::GetRecordRunningStatus, mstv.idvb_sdt_getrecordrunningstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

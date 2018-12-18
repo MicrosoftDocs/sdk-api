@@ -9,8 +9,6 @@ ms.assetid: d8c6133b-e5a7-4936-a796-0930bb95fd0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WPUCloseEvent, WPUCloseEvent function [Winsock], _win32_wpucloseevent_2, winsock.wpucloseevent_2, ws2spi/WPUCloseEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

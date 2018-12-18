@@ -9,8 +9,6 @@ ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

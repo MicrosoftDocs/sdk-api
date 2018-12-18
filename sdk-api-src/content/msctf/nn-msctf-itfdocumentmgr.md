@@ -9,8 +9,6 @@ ms.assetid: e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], ITfDocumentMgr interface [Text Services Framework],described, _tsf_itfdocumentmgr_ref, msctf/ITfDocumentMgr, tsf.itfdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

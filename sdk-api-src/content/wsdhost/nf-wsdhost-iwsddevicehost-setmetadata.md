@@ -9,8 +9,6 @@ ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

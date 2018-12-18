@@ -9,8 +9,6 @@ ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

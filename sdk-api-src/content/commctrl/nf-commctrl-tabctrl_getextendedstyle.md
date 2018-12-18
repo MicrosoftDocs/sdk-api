@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getextendedstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TabCtrl_GetExtendedStyle, TabCtrl_GetExtendedStyle macro [Windows Controls], _win32_TabCtrl_GetExtendedStyle, _win32_TabCtrl_GetExtendedStyle_cpp, commctrl/TabCtrl_GetExtendedStyle, controls.TabCtrl_GetExtendedStyle, controls._win32_TabCtrl_GetExtendedStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Retrieves the extended styles that are currently in use for the tab control. You
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tab control. 
 

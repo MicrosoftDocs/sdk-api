@@ -9,8 +9,6 @@ ms.assetid: 154cd57d-0b98-4633-a36d-93207896c9f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 154cd57d-0b98-4633-a36d-93207896c9f1, GuideData property [Tablet PC], GuideData property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],GuideData property, IInkRecognizerGuide.GuideData, IInkRecognizerGuide.get_GuideData, IInkRecognizerGuide::GuideData, IInkRecognizerGuide::get_GuideData, IInkRecognizerGuide::put_GuideData, InkRecognizerGuide.get_GuideData, InkRecognizerGuide.put_GuideData, get_GuideData, msinkaut/IInkRecognizerGuide::GuideData, msinkaut/IInkRecognizerGuide::get_GuideData, msinkaut/IInkRecognizerGuide::put_GuideData, put_GuideData, tablet.inkrecognizerguide_guidedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -71,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2B0302A8-EA85-44D4-8877-EFF23DBD9271">IInkRecognizerGuide</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
 
 
 

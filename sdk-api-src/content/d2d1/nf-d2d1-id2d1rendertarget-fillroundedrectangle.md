@@ -9,8 +9,6 @@ ms.assetid: 9c4765b0-858f-4a20-b044-0acf87a1f131
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillRoundedRectangle, FillRoundedRectangle methods [Direct2D], ID2D1RenderTarget.FillRoundedRectangle, ID2D1RenderTarget::FillRoundedRectangle, d2d1/FillRoundedRectangle, direct2d.id2d1rendertarget_fillroundedrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -88,7 +86,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/d718c355-ffd8-4a7f-90f3-9a10d37a19c8">DrawRoundedRectangle</a> and <b>FillRoundedRectangle</b> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
+The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742847(v=VS.85).aspx">DrawRoundedRectangle</a> and <b>FillRoundedRectangle</b> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration.
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 

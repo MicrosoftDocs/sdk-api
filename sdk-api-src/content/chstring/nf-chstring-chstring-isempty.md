@@ -9,8 +9,6 @@ ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

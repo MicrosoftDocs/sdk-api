@@ -9,8 +9,6 @@ ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDescription, GetDescription method [Media Foundation], GetDescription method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescription method, IToc.GetDescription, IToc::GetDescription, codecapi.itoc_getdescription, mf.itoc_getdescription, wmcodecdsp/IToc::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

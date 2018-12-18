@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt2(VOID@,XMVERTORI)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreInt2, XMStoreInt2, XMStoreInt2 method [DirectX Math Support APIs], dxmath.xmstoreint2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -110,19 +108,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7924ca9-71b9-47fd-bfb2-998f28e2427b">XMStoreSInt2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404701(v=VS.85).aspx">XMStoreSInt2</a>
 
 
 
-<a href="https://msdn.microsoft.com/69460147-3abe-4412-bbf2-184e60c65534">XMStoreUInt2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404706(v=VS.85).aspx">XMStoreUInt2</a>
 
 
 
-<a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a>
  
 
  

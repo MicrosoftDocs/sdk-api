@@ -9,8 +9,6 @@ ms.assetid: e0638668-bbd2-4696-8482-d72438510740
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , DMO_SET_TYPE_FLAGSEnumeration, _DMO_SET_TYPE_FLAGS, _DMO_SET_TYPE_FLAGS enumeration [DirectShow], dshow.dmo_set_type_flags, mediaobj/DMO_SET_TYPEF_CLEAR, mediaobj/DMO_SET_TYPEF_TEST_ONLY, mediaobj/_DMO_SET_TYPE_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
@@ -89,11 +87,11 @@ The DMO_SET_TYPEF_TEST_ONLY and DMO_SET_TYPEF_CLEAR flags are mutually exclusive
 
 
 
-<a href="https://msdn.microsoft.com/6b466fe4-97a0-46f9-9e4b-461ee66095f1">IMediaObject::SetInputType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406962(v=VS.85).aspx">IMediaObject::SetInputType</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dda3c55-d37b-4e04-9509-0e5197d6b019">IMediaObject::SetOutputType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406963(v=VS.85).aspx">IMediaObject::SetOutputType</a>
  
 
  

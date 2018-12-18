@@ -9,8 +9,6 @@ ms.assetid: 74d92e84-9819-49ed-bd56-26d6768f3ed0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveParent method, IESEventServiceConfiguration.RemoveParent, IESEventServiceConfiguration::RemoveParent, RemoveParent, RemoveParent method [Microsoft TV Technologies], RemoveParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeparent, tuner/IESEventServiceConfiguration::RemoveParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

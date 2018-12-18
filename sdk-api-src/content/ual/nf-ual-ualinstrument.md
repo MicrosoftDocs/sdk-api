@@ -9,8 +9,6 @@ ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ual.h
 req.include-header: 

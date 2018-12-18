@@ -9,8 +9,6 @@ ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnextstreamw, base.findnextstreamw, fileapi/FindNextStreamW, fs.findnextstreamw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

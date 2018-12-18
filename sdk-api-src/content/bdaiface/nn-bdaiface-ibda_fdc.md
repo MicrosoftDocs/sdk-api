@@ -9,8 +9,6 @@ ms.assetid: 8b7a07fd-99e9-4f8e-9211-109689f2f892
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FDC, IBDA_FDC interface [Microsoft TV Technologies], IBDA_FDC interface [Microsoft TV Technologies],described, bdaiface/IBDA_FDC, mstv.ibda_fdc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 
@@ -55,9 +53,9 @@ Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_FDC</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_FDC</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

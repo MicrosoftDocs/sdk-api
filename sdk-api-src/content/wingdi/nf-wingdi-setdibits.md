@@ -9,8 +9,6 @@ ms.assetid: 706f4532-4073-4d5c-ae2d-e33aea9163e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBits, SetDIBits function [Windows GDI], _win32_SetDIBits, gdi.setdibits, wingdi/SetDIBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -174,7 +172,7 @@ The scan lines must be aligned on a <b>DWORD</b> except for RLE-compressed bitma
 
 The origin for bottom-up DIBs is the lower-left corner of the bitmap; the origin for top-down DIBs is the upper-left corner of the bitmap.
 
-<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://msdn.microsoft.com/en-us/library/Dd183380(v=VS.85).aspx">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
 
 

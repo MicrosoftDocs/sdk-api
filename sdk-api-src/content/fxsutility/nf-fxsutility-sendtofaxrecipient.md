@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fxsutility.h
 req.include-header: 

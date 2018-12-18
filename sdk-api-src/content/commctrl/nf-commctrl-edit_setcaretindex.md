@@ -9,8 +9,6 @@ ms.assetid: 62D60717-4FE6-4738-8504-791CDE7C15E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetCaretIndex, Edit_SetCaretIndex macro [Windows Controls], commctrl/Edit_SetCaretIndex, controls.edit_setcaretindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Sets the character index at which to locate the caret. You can use this macro or send the <a href="controls.em_setcaretindex">EM_SETCARETINDEX</a> message explicitly.
+Sets the character index at which to locate the caret. You can use this macro or send the <a href="https://msdn.microsoft.com/8B67AD8C-A94E-49E8-98DF-EDF811270A75">EM_SETCARETINDEX</a> message explicitly.
 
 
 ## -parameters

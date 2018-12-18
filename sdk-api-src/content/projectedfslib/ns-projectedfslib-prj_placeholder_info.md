@@ -9,8 +9,6 @@ ms.assetid: 84F510F6-7192-4B0D-A063-CE99B54ED7DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PRJ_PLACEHOLDER_INFO, PRJ_PLACEHOLDER_INFO structure, ProjFS.prj_placeholder_info, projectedfslib/PRJ_PLACEHOLDER_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: projectedfslib.h
 req.include-header: 
@@ -127,5 +125,5 @@ Start of the variable-length buffer to hold EAs, a custom security descriptor, a
 
 #### - versionInfo
 
-Version information for the placeholder (see <a href="https://msdn.microsoft.com/6C92275E-B9A6-4556-A709-8EFBAEDB94B5">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
+Version information for the placeholder (see <a href="https://msdn.microsoft.com/en-us/library/Mt815607(v=VS.85).aspx">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
 

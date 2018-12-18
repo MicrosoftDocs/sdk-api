@@ -9,8 +9,6 @@ ms.assetid: f001d9e7-ccbd-4dc9-bb4b-fe45cb47700c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h

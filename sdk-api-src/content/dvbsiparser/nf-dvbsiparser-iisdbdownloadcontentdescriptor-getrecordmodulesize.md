@@ -9,8 +9,6 @@ ms.assetid: 395264ee-63de-4de4-bd28-4d5c4634dcf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordModuleSize, GetRecordModuleSize method [Microsoft TV Technologies], GetRecordModuleSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleSize method, IIsdbDownloadContentDescriptor.GetRecordModuleSize, IIsdbDownloadContentDescriptor::GetRecordModuleSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleSize, mstv.iisdbdownloadcontentdescriptor_getrecordmodulesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,6 @@ ms.assetid: f556a163-54d1-4353-ab9e-e8aa6bf35958
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObjectTag, GetObjectTag method [Media Foundation], GetObjectTag method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectTag method, IMFAsyncCallbackLogging.GetObjectTag, IMFAsyncCallbackLogging::GetObjectTag, mf.imfasynccallbacklogging_getobjecttag, mfobjects/IMFAsyncCallbackLogging::GetObjectTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

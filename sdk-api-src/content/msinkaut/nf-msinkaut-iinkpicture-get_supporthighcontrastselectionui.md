@@ -9,8 +9,6 @@ ms.assetid: f522a998-89f0-4d8d-bb19-949d62f5a786
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],SupportHighContrastSelectionUI property, IInkPicture.SupportHighContrastSelectionUI, IInkPicture.get_SupportHighContrastSelectionUI, IInkPicture::SupportHighContrastSelectionUI, IInkPicture::get_SupportHighContrastSelectionUI, IInkPicture::put_SupportHighContrastSelectionUI, InkPicture.get_SupportHighContrastSelectionUI, InkPicture.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkPicture interface, f522a998-89f0-4d8d-bb19-949d62f5a786, get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::SupportHighContrastSelectionUI, msinkaut/IInkPicture::get_SupportHighContrastSelectionUI, msinkaut/IInkPicture::put_SupportHighContrastSelectionUI, put_SupportHighContrastSelectionUI, tablet.inkpicture_supporthighcontrastselectionui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ For further details about this property, refer to the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

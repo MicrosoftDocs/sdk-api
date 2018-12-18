@@ -9,8 +9,6 @@ ms.assetid: 30f77126-a874-4014-bbde-ce194da2c61c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_acmStreamMessage, acmStreamMessage, acmStreamMessage function [Windows Multimedia], msacm/acmStreamMessage, multimedia.acmstreammessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

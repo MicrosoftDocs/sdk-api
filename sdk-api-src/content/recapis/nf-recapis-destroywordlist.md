@@ -9,8 +9,6 @@ ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 380e81a0-1df1-48b8-a582-a52badfc9ca6, DestroyWordList, DestroyWordList function [Tablet PC], recapis/DestroyWordList, tablet.destroywordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

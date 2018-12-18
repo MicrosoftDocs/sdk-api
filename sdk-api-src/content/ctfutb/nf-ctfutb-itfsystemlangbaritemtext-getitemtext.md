@@ -9,8 +9,6 @@ ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: Msctf.h

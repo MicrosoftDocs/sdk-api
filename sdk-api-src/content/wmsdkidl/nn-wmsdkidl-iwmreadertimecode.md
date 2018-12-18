@@ -9,8 +9,6 @@ ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMReaderTimecode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc">GetTimecodeRangeBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743578(v=VS.85).aspx">GetTimecodeRangeBounds</a>
 </td>
 <td align="left" width="63%">
 Retrieves the starting and ending time codes for a specified SMPTE time code range.
@@ -84,7 +82,7 @@ Retrieves the starting and ending time codes for a specified SMPTE time code ran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df58f968-23f8-407b-b18c-569732635464">GetTimecodeRangeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743580(v=VS.85).aspx">GetTimecodeRangeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of SMPTE time code ranges for a specified stream.

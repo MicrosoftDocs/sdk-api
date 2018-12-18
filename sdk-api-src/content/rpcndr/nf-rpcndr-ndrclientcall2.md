@@ -9,8 +9,6 @@ ms.assetid: 136b6461-048a-41ee-8514-0dea0861b2c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrClientCall2, NdrClientCall2 function [RPC], rpc.ndrclientcall2, rpcndr/NdrClientCall2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

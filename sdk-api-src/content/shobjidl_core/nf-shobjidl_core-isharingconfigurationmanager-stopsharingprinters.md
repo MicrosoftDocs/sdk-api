@@ -9,8 +9,6 @@ ms.assetid: dfb5a6a6-3530-4925-bbe8-d67c2537ef4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],StopSharingPrinters method, ISharingConfigurationManager.StopSharingPrinters, ISharingConfigurationManager::StopSharingPrinters, StopSharingPrinters, StopSharingPrinters method [Windows Shell], StopSharingPrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_StopSharingPrinters, shell.ISharingConfigurationManager_StopSharingPrinters, shobjidl_core/ISharingConfigurationManager::StopSharingPrinters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: f63dc869-6b95-4923-80a6-22b5d8b81fa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Copyright method, IAMMediaContent.get_Copyright, IAMMediaContent::get_Copyright, IAMMediaContentget_Copyright, dshow.iammediacontent_get_copyright, get_Copyright, get_Copyright method [DirectShow], get_Copyright method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Copyright
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

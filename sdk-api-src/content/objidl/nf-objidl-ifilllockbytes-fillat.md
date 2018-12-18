@@ -9,8 +9,6 @@ ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

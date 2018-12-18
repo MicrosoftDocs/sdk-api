@@ -9,8 +9,6 @@ ms.assetid: c970a962-8d03-4de8-9252-9babfa411e5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FillRectangle, FillRectangle method [Direct2D], FillRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillRectangle method, ID2D1CommandSink.FillRectangle, ID2D1CommandSink::FillRectangle, d2d1_1/ID2D1CommandSink::FillRectangle, direct2d.id2d1commandsink_fillrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -97,7 +95,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://msdn.microsoft.com/08e498f9-b564-4da6-ba9b-bff08964ce08">ID2D1RenderTarget::FillRectangle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742851(v=VS.85).aspx">ID2D1RenderTarget::FillRectangle</a>
  
 
  

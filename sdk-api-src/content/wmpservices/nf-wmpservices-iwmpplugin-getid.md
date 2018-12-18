@@ -9,8 +9,6 @@ ms.assetid: 883b6e19-5d1a-4ad9-882b-953772e8e11a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetID, GetID method [Windows Media Player], GetID method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetID method, IWMPPlugin.GetID, IWMPPlugin::GetID, IWMPPluginGetIDDSP, wmp.iwmpplugin_getid, wmpservices/IWMPPlugin::GetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -89,7 +87,7 @@ For more information on the <b>GUID</b> structure, see the Platform SDK.
 
 
 
-<a href="https://msdn.microsoft.com/e384aa43-72ab-44b7-b6bd-7a29335b5197">IWMPPlugin Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563582(v=VS.85).aspx">IWMPPlugin Interface</a>
  
 
  

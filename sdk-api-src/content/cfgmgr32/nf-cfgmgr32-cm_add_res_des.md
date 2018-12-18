@@ -9,8 +9,6 @@ ms.assetid: 0097b53a-c1c8-4e76-beef-812a953073b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Add_Res_Des, CM_Add_Res_Des function [Device and Driver Installation], cfgmgr32/CM_Add_Res_Des, cfgmgrfn_86ee6b93-0cdd-4f18-87c2-8c8d0c33d39f.xml, devinst.cm_add_res_des
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -149,7 +147,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff544764(v=VS.85).aspx">DMA_RESOURCE</a>
+<a href="https://msdn.microsoft.com/226a5ca1-10e1-47a7-8bd9-b153a0784ccb">DMA_RESOURCE</a>
 
 
 </td>
@@ -161,7 +159,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff548201(v=VS.85).aspx">IO_RESOURCE</a>
+<a href="https://msdn.microsoft.com/d18a1f92-b76c-4240-9a0e-7474c258436c">IO_RESOURCE</a>
 
 
 </td>
@@ -173,7 +171,7 @@ Caller-supplied pointer to one of the resource structures listed in the followin
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff548229(v=VS.85).aspx">IRQ_RESOURCE</a>
+<a href="https://msdn.microsoft.com/448298d1-2583-47d5-b393-e6c8e59da64e">IRQ_RESOURCE</a>
 
 
 </td>

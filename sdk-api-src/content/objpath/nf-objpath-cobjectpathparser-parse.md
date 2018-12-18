@@ -9,8 +9,6 @@ ms.assetid: c39dbef5-9050-487a-8e06-17087753330d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser interface [Windows Management Instrumentation],Parse method, CObjectPathParser.Parse, CObjectPathParser::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objpath.h
 req.include-header: ObjPath.h

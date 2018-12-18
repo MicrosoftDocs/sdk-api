@@ -9,8 +9,6 @@ ms.assetid: db5bf775-685c-4137-846d-fe71cddce08d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetMixingPrefs method, IVMRMixerControl9.SetMixingPrefs, IVMRMixerControl9::SetMixingPrefs, IVMRMixerControl9SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setmixingprefs, vmr9/IVMRMixerControl9::SetMixingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>SetMixingPrefs</code> method sets the mixing preferences for the strea
 
 ### -param dwMixerPrefs [in]
 
-Bitwise OR combination of <a href="https://msdn.microsoft.com/59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb">VMR9MixerPrefs</a> flags.
+Bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dd407366(v=VS.85).aspx">VMR9MixerPrefs</a> flags.
 
 
 ## -returns
@@ -143,7 +141,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

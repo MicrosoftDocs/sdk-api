@@ -9,8 +9,6 @@ ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

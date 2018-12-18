@@ -9,8 +9,6 @@ ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ImageSourceFromWic interface [Direct2D],TrimCache method, ID2D1ImageSourceFromWic.TrimCache, ID2D1ImageSourceFromWic::TrimCache, ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U), TrimCache, TrimCache method [Direct2D], TrimCache method [Direct2D],ID2D1ImageSourceFromWic interface, d2d1_3/ID2D1ImageSourceFromWic::TrimCache, direct2d.id2d1imagesourcefromwic_trimcache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -71,7 +69,7 @@ Specifies the region of the image, in pixels, which should be preserved in the i
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

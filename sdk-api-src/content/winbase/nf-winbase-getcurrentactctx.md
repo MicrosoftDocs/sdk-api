@@ -9,8 +9,6 @@ ms.assetid: d7603098-8d2d-4ace-9876-277b22f70ca8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentActCtx, GetCurrentActCtx function [Side-by-side Assemblies], _win32_getcurrentactctx, setup.getcurrentactctx, winbase/GetCurrentActCtx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

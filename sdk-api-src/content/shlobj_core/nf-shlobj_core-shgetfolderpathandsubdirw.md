@@ -9,8 +9,6 @@ ms.assetid: 7e92e136-1036-4c96-931f-6e0129fb839a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGFP_TYPE_CURRENT, SHGFP_TYPE_DEFAULT, SHGetFolderPathAndSubDir, SHGetFolderPathAndSubDir function [Windows Shell], SHGetFolderPathAndSubDirA, SHGetFolderPathAndSubDirW, _shell_SHGetFolderPathAndSubDir, shell.SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDir, shlobj_core/SHGetFolderPathAndSubDirA, shlobj_core/SHGetFolderPathAndSubDirW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

@@ -9,8 +9,6 @@ ms.assetid: 271e5fbe-54e2-47e3-97d4-cd4211b92080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumCategoriesInItem, EnumCategoriesInItem method [Text Services Framework], EnumCategoriesInItem method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumCategoriesInItem method, ITfCategoryMgr.EnumCategoriesInItem, ITfCategoryMgr::EnumCategoriesInItem, _tsf_itfcategorymgr_enumcategoriesinitem_ref, msctf/ITfCategoryMgr::EnumCategoriesInItem, tsf.itfcategorymgr_enumcategoriesinitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

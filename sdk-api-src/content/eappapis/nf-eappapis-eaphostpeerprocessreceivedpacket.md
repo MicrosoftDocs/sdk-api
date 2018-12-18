@@ -9,8 +9,6 @@ ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

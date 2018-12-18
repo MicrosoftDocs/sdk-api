@@ -9,8 +9,6 @@ ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMTileBrush, IXpsOMTileBrush interface [XPS Documents and Packaging], IXpsOMTileBrush interface [XPS Documents and Packaging],described, xps.ixpsomtilebrush, xpsobjectmodel/IXpsOMTileBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

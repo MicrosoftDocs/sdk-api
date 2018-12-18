@@ -9,8 +9,6 @@ ms.assetid: 7a15d6ef-900c-4a0b-8b85-60dc66ca03a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface [COM],described, _ole_ioledocument, com.ioledocument, docobj/IOleDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

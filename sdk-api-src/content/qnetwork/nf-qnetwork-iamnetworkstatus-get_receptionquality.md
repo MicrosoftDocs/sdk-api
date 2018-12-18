@@ -9,8 +9,6 @@ ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/51d56b76-f9fc-44e1-88f0-d35d861a4697">IAMNetworkStatus Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319732(v=VS.85).aspx">IAMNetworkStatus Interface</a>
  
 
  

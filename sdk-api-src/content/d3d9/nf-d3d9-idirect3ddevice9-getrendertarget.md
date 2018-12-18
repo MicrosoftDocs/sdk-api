@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getrendertarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderTarget, GetRenderTarget method [Direct3D 9], GetRenderTarget method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetRenderTarget method, IDirect3DDevice9.GetRenderTarget, IDirect3DDevice9::GetRenderTarget, d3d9helper/IDirect3DDevice9::GetRenderTarget, direct3d9.idirect3ddevice9__getrendertarget, e842104c-7fc7-8278-14e9-2a36b37e033b
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

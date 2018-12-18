@@ -9,8 +9,6 @@ ms.assetid: 1d927aec-db3c-403f-9952-1bcc931984bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Reenumerate_DevNode_Ex, CM_Reenumerate_DevNode_Ex function [Device and Driver Installation], cfgmgr32/CM_Reenumerate_DevNode_Ex, cfgmgrfn_164140ec-3f5b-4047-8e18-7c7154975588.xml, devinst.cm_reenumerate_devnode_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

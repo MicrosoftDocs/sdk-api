@@ -9,8 +9,6 @@ ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

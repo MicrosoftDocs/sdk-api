@@ -9,8 +9,6 @@ ms.assetid: 67386c32-5714-4b01-b860-25192349aa6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FireEvent, FireEvent method [TAPI 2.2], FireEvent method [TAPI 2.2],ITPluggableTerminalEventSink interface, ITPluggableTerminalEventSink interface [TAPI 2.2],FireEvent method, ITPluggableTerminalEventSink.FireEvent, ITPluggableTerminalEventSink::FireEvent, _tapi3_itpluggableterminaleventsink_fireevent, msp/ITPluggableTerminalEventSink::FireEvent, tapi3.itpluggableterminaleventsink_fireevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

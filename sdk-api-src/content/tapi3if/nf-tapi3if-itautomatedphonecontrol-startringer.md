@@ -9,8 +9,6 @@ ms.assetid: bf94aab7-6b12-43f8-b49f-a7cf6617dd57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],StartRinger method, ITAutomatedPhoneControl.StartRinger, ITAutomatedPhoneControl::StartRinger, StartRinger, StartRinger method [TAPI 2.2], StartRinger method [TAPI 2.2],ITAutomatedPhoneControl interface, _tapi3_itautomatedphonecontrol_startringer, tapi3.itautomatedphonecontrol_startringer, tapi3if/ITAutomatedPhoneControl::StartRinger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

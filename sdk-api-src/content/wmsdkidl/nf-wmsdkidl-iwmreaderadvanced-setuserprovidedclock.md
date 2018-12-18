@@ -9,8 +9,6 @@ ms.assetid: 1f29beea-1da4-41e0-a68d-93af3b1f55ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetUserProvidedClock method, IWMReaderAdvanced.SetUserProvidedClock, IWMReaderAdvanced::SetUserProvidedClock, IWMReaderAdvancedSetUserProvidedClock, SetUserProvidedClock, SetUserProvidedClock method [windows Media Format], SetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setuserprovidedclock, wmsdkidl/IWMReaderAdvanced::SetUserProvidedClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -136,7 +134,7 @@ Unable to set an internal event.
 
 In some cases, an application built on this SDK requires the clock to be driven by the application rather than by real time. This is true, for example, if the application reads from a file at a rate faster than it takes to play the file. User-provided clocks are only supported when the source file is a local file.
 
-This method can fail if the current source does not support user-provided clocks. To drive a clock, an application must call <a href="https://msdn.microsoft.com/5e47ef96-9971-47b0-a003-b38f4045da7a">DeliverTime</a>, and then wait for <a href="https://msdn.microsoft.com/9913bbc4-df59-484f-b050-324e2ecdeb1c">IWMReaderCallbackAdvanced::OnTime</a> to reach the time specified.
+This method can fail if the current source does not support user-provided clocks. To drive a clock, an application must call <a href="https://msdn.microsoft.com/en-us/library/Dd743469(v=VS.85).aspx">DeliverTime</a>, and then wait for <a href="https://msdn.microsoft.com/en-us/library/Dd743502(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnTime</a> to reach the time specified.
 
 
 
@@ -146,11 +144,11 @@ This method can fail if the current source does not support user-provided clocks
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/54eb30ae-4b84-489c-a5e5-e73dee2c5056">IWMReaderAdvanced::GetUserProvidedClock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743479(v=VS.85).aspx">IWMReaderAdvanced::GetUserProvidedClock</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3ad9c966-85f5-4ddb-a8c1-aefcba533509
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flush, Flush method [Direct2D], Flush method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],Flush method, ID2D1RenderTarget.Flush, ID2D1RenderTarget::Flush, d2d1/ID2D1RenderTarget::Flush, direct2d.ID2D1RenderTarget_Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -76,7 +74,7 @@ When this method returns, contains the tag for drawing operations that caused er
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code and sets <i>tag1</i> and <i>tag2</i> to the tags that were active when the error occurred. If no error occurred, this method sets the error tag state to be (0,0).
 

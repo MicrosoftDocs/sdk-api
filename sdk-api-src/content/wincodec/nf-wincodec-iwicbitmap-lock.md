@@ -9,8 +9,6 @@ ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],Lock method, IWICBitmap.Lock, IWICBitmap::Lock, Lock, Lock method [Windows Imaging Component], Lock method [Windows Imaging Component],IWICBitmap interface, WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_iwicbitmap_lock, wic._wic_codec_iwicbitmap_lock, wincodec/IWICBitmap::Lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2b15f5b9-b7c1-4427-81d9-bbcd0bb0ce45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMinPacketSize, GetMinPacketSize method [windows Media Format], GetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, IWMPacketSize2 interface [windows Media Format],GetMinPacketSize method, IWMPacketSize2.GetMinPacketSize, IWMPacketSize2::GetMinPacketSize, IWMPacketSize2GetMinPacketSize, wmformat.iwmpacketsize2_getminpacketsize, wmsdkidl/IWMPacketSize2::GetMinPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d58da65-710c-46ea-8fb9-9d161df06483">IWMPacketSize2::SetMinPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757258(v=VS.85).aspx">IWMPacketSize2::SetMinPacketSize</a>
  
 
  

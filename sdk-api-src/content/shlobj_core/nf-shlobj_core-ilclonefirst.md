@@ -9,8 +9,6 @@ ms.assetid: 931df0c7-6acb-4c49-aa2b-464255e97347
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILCloneFirst, ILCloneFirst function [Windows Shell], _win32_ILCloneFirst, shell.ILCloneFirst, shlobj_core/ILCloneFirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

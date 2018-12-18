@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafile.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Metafile, Metafile class [GDI+], Metafile class [GDI+],described, _gdiplus_CLASS_Metafile_Class, gdiplus._gdiplus_CLASS_Metafile_Class, gdiplusheaders/Metafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 

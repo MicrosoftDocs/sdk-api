@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenClipboard, _win32_openclipboard_cpp, dataxchg.openclipboard, winui._win32_openclipboard, winuser/OpenClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

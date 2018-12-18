@@ -9,8 +9,6 @@ ms.assetid: 889db097-3a16-4c35-9a79-e4a9d8060832
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamInterleave interface [IMAPI],Initialize method, IStreamInterleave.Initialize, IStreamInterleave::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamInterleave interface, imapi.istreaminterleave_initialize, imapi2/IStreamInterleave::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

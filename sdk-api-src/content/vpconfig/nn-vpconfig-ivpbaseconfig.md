@@ -9,8 +9,6 @@ ms.assetid: d9a4f395-3d2f-429a-884d-90131927a929
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig interface [DirectShow],described, IVPBaseConfigInterface, dshow.ivpbaseconfig, vpconfig/IVPBaseConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vpconfig.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-<code>IVPBaseConfig</code> is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter. This interface allows the video port to communicate with the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter regarding configuration information. The <a href="https://msdn.microsoft.com/2c0eb294-7e57-4d8d-98b1-57c3834279a0">IVPConfig</a> interface derives from this interface.
+<code>IVPBaseConfig</code> is implemented on a filter that wraps a hardware device such as a decoder or capture device, if the device has a video port to the graphics adapter. This interface allows the video port to communicate with the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter regarding configuration information. The <a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig</a> interface derives from this interface.
 
 Applications should never use this interface.
 
@@ -75,7 +73,7 @@ The <b>IVPBaseConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b428e77a-83c3-42ce-95e4-1cdde4da066d">GetConnectInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390568(v=VS.85).aspx">GetConnectInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the connections supported by the VPE object.
@@ -84,7 +82,7 @@ Retrieves information about the connections supported by the VPE object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b86ff2c-c51f-4498-a000-5f1868c2c24b">GetMaxPixelRate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390569(v=VS.85).aspx">GetMaxPixelRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum pixel rate the device will output for a given width and height.
@@ -93,7 +91,7 @@ Retrieves the maximum pixel rate the device will output for a given width and he
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4d4b63f-b84c-4831-b16e-c0042b54a215">GetOverlaySurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390570(v=VS.85).aspx">GetOverlaySurface</a>
 </td>
 <td align="left" width="63%">
 Queries whether the caller should use the driver's overlay surface, and if so, returns a pointer to the surface.
@@ -102,7 +100,7 @@ Queries whether the caller should use the driver's overlay surface, and if so, r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0426a2a-a856-4e5d-8ff2-4afa3b18355e">GetVideoFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390571(v=VS.85).aspx">GetVideoFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video formats the driver supports.
@@ -111,7 +109,7 @@ Retrieves the video formats the driver supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/385ab5e4-b904-4268-a97e-1c3e7789b0a2">GetVPDataInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390572(v=VS.85).aspx">GetVPDataInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video port data information.
@@ -120,7 +118,7 @@ Retrieves the current video port data information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9b4ea2b-ad71-4226-9aad-e68a9cb26274">InformVPInputFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390573(v=VS.85).aspx">InformVPInputFormats</a>
 </td>
 <td align="left" width="63%">
 Informs the device what video formats the video port supports.
@@ -129,7 +127,7 @@ Informs the device what video formats the video port supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1">SetConnectInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390574(v=VS.85).aspx">SetConnectInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the video port connection parameters.
@@ -138,7 +136,7 @@ Sets the video port connection parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e180f731-a540-4754-93ff-232ad4502c6f">SetDDSurfaceKernelHandles</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390575(v=VS.85).aspx">SetDDSurfaceKernelHandles</a>
 </td>
 <td align="left" width="63%">
 Specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
@@ -147,7 +145,7 @@ Specifies the kernel-mode handles of the DirectDraw surfaces to be used for the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3a04341-6cca-4fb4-bf47-30659d039a0d">SetDirectDrawKernelHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390576(v=VS.85).aspx">SetDirectDrawKernelHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the kernel-mode handle to the DirectDraw object.
@@ -156,7 +154,7 @@ Sets the kernel-mode handle to the DirectDraw object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c33cea2-2c83-4978-9059-c15706f14f85">SetInvertPolarity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390577(v=VS.85).aspx">SetInvertPolarity</a>
 </td>
 <td align="left" width="63%">
 Reverses the current polarity the driver uses.
@@ -165,7 +163,7 @@ Reverses the current polarity the driver uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4af0092e-5866-45ca-b0be-e97d9dd51b0f">SetSurfaceParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390578(v=VS.85).aspx">SetSurfaceParameters</a>
 </td>
 <td align="left" width="63%">
 Informs the device of the layout of the overlay surface.
@@ -174,7 +172,7 @@ Informs the device of the layout of the overlay surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98b4182f-c286-4f4a-86b8-40d093456628">SetVideoFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390579(v=VS.85).aspx">SetVideoFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the video format.
@@ -183,7 +181,7 @@ Sets the video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9be16349-b214-4441-8093-dfb0caa84507">SetVideoPortID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390580(v=VS.85).aspx">SetVideoPortID</a>
 </td>
 <td align="left" width="63%">
 Specifies the ID of the hardware video port to use.
@@ -207,7 +205,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify</a>
  
 
  

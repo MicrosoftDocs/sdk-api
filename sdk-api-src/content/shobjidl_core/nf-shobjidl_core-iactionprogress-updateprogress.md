@@ -9,8 +9,6 @@ ms.assetid: d9c6fd82-96a2-4021-a6c4-ab61e20eb0d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActionProgress interface [Windows Shell],UpdateProgress method, IActionProgress.UpdateProgress, IActionProgress::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IActionProgress interface, shell.IActionProgress_UpdateProgress, shell_IActionProgress_UpdateProgress, shobjidl_core/IActionProgress::UpdateProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 00f564d3-90b3-449e-a88a-ea5b3d9cff16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FWPM_PROVIDER_CHANGE_CALLBACK0, FWPM_PROVIDER_CHANGE_CALLBACK0 callback, FWPM_PROVIDER_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_provider_change_callback0_func, fwpmu/FWPM_PROVIDER_CHANGE_CALLBACK0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider.get_Help, ILegacyIAccessibleProvider::Help, ILegacyIAccessibleProvider::get_Help, get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

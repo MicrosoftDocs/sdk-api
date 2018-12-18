@@ -9,8 +9,6 @@ ms.assetid: e520dd8d-95f7-4b29-817c-14e3c663fdfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_STT.GetTableDescriptorByTag, IATSC_STT::GetTableDescriptorByTag, IATSC_STTGetTableDescriptorByTag, atscpsipparser/IATSC_STT::GetTableDescriptorByTag, mstv.iatsc_stt_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns

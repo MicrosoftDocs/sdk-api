@@ -4,13 +4,11 @@ title: IWRdsProtocolListener
 author: windows-sdk-content
 description: Exposes methods that request that the protocol start and stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 19d3176a-3f47-46c1-8bee-8e0f1d9b466e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsProtocolListener, IWRdsProtocolListener interface [Remote Desktop Services], IWRdsProtocolListener interface [Remote Desktop Services],described, termserv.iwrdsprotocollistener, wtsprotocol/IWRdsProtocolListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

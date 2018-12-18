@@ -9,8 +9,6 @@ ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

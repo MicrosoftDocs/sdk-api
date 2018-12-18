@@ -9,8 +9,6 @@ ms.assetid: c253100b-092e-4975-8411-31edb7791068
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_flatten, ber_flatten, ber_flatten function [LDAP], ldap.ber__flatten, ldap.ber_flatten, winber/ber_flatten"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 

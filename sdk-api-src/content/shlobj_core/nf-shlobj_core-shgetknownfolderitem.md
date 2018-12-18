@@ -9,8 +9,6 @@ ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -72,9 +70,9 @@ A reference to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-d
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a></b>
 
-Flags that specify special options used in the retrieval of the known folder <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>. This value can be <b>KF_FLAG_DEFAULT</b>; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special options used in the retrieval of the known folder <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>. This value can be <b>KF_FLAG_DEFAULT</b>; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param hToken [in]

@@ -9,8 +9,6 @@ ms.assetid: 76B5E0B6-7DE4-41A4-B33B-2C6A32D47DB1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative, IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime], IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],described, windows/IVirtualSurfaceUpdatesCallbackNative, winrt.ivirtualsurfaceupdatescallbacknative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

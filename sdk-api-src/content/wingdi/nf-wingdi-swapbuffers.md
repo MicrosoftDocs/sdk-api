@@ -7,10 +7,8 @@ old-location: opengl\swapbuffers.htm
 tech.root: OpenGL
 ms.assetid: 2c9728e4-c5be-4b14-a6f7-2899c792ec3d
 ms.author: windowssdkdev
-ms.date: 11/02/2018
+ms.date: 12/5/2018
 ms.keywords: SwapBuffers, SwapBuffers function [OpenGL], _ogl_SwapBuffers, opengl.swapbuffers, wingdi/SwapBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

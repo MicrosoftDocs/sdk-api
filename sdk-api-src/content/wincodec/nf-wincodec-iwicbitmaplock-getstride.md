@@ -9,8 +9,6 @@ ms.assetid: f4bde79d-29a1-46bf-b7e4-91c39c2f0690
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStride, GetStride method [Windows Imaging Component], GetStride method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetStride method, IWICBitmapLock.GetStride, IWICBitmapLock::GetStride, _wic_codec_iwicbitmaplock_getstride, wic._wic_codec_iwicbitmaplock_getstride, wincodec/IWICBitmapLock::GetStride
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

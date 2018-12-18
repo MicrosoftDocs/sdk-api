@@ -9,8 +9,6 @@ ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

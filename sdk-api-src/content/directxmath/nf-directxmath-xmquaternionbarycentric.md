@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionBaryCentric(XMVECTOR,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionBaryCentric, XMQuaternionBaryCentric, XMQuaternionBaryCentric method [DirectX Math Support APIs], dxmath.xmquaternionbarycentric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -160,7 +158,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/13119f30-2a1e-44f2-a553-71a352f4a9e2">XMQuaternionBaryCentricV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420154(v=VS.85).aspx">XMQuaternionBaryCentricV</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoderssize.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImageEncodersSize, GetImageEncodersSize function [GDI+], _gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_, gdiplus._gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_, gdiplusimagecodec/GetImageEncodersSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdiplusimagecodec.h
 req.include-header: Gdiplus.h

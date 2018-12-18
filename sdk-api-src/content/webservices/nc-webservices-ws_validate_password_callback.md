@@ -9,8 +9,6 @@ ms.assetid: 3cf8f2a1-61b4-4702-954e-e5eb260820c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_VALIDATE_PASSWORD_CALLBACK, WS_VALIDATE_PASSWORD_CALLBACK callback, WS_VALIDATE_PASSWORD_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_PASSWORD_CALLBACK, wsw.ws_validate_password_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -66,7 +64,7 @@ but it will never be invoked when a channel is not open.  In the
 current drop, this callback is always invoked synchronously.  In the
 next drop, this callback will be invoked synchronously for synchronous
 message receives and asynchronously for asynchronous message receives,
-but it will always be invoked <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">short</a>when it is invoked asynchronously.
+but it will always be invoked <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">short</a>when it is invoked asynchronously.
             
 
 

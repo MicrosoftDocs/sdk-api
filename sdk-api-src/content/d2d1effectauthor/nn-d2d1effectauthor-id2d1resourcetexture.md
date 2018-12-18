@@ -9,8 +9,6 @@ ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ResourceTexture, ID2D1ResourceTexture interface [Direct2D], ID2D1ResourceTexture interface [Direct2D],described, d2d1effectauthor/ID2D1ResourceTexture, direct2d.id2d1resourcetexture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ec6bbc1f-653a-414c-b458-1a5e1b101781
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceTypes, DeviceTypes enumeration [Media Streaming API], DigitalMediaPlayer, DigitalMediaRenderer, DigitalMediaServer, Unknown, mediastreaming.devicetypes, windows/DeviceTypes, windows/DigitalMediaPlayer, windows/DigitalMediaRenderer, windows/DigitalMediaServer, windows/Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: windows.media.streaming.h
 req.include-header: 

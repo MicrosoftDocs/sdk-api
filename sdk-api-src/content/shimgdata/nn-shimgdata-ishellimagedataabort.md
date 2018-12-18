@@ -9,8 +9,6 @@ ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 

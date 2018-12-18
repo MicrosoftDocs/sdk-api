@@ -9,8 +9,6 @@ ms.assetid: 178E1679-B78F-4032-8D1B-66B7ABE902C7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function [Buses], buses.winusb_getcurrentframenumber, winusb/WinUsb_GetCurrentFrameNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h
@@ -86,7 +84,7 @@ The time stamp value when the current frame was read.
 
 
 
-The caller may compare the PerformanceCount with the value returned by the Win32 function <a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a> to determine if there has been a delay in transitioning back to user-mode after the frame number was read.  The caller can then adjust the starting frame number as needed.
+The caller may compare the PerformanceCount with the value returned by the Win32 function <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> to determine if there has been a delay in transitioning back to user-mode after the frame number was read.  The caller can then adjust the starting frame number as needed.
 
 
 

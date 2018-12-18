@@ -9,8 +9,6 @@ ms.assetid: f7634504-d3f5-46a9-be25-08293190c27b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_AudioFormat method, IMpegAudioDecoder.get_AudioFormat, IMpegAudioDecoder::get_AudioFormat, IMpegAudioDecodergetAudioFormat, dshow.impegaudiodecoder_get_audioformat, get_AudioFormat, get_AudioFormat method [DirectShow], get_AudioFormat method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_AudioFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: cf925189-1f68-499c-9c98-063a0367dd3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getByAttributeAndMediaType method, IWMPMediaCollection2.getByAttributeAndMediaType, IWMPMediaCollection2::getByAttributeAndMediaType, IWMPMediaCollection2getByAttributeAndMediaType, getByAttributeAndMediaType, getByAttributeAndMediaType method [Windows Media Player], getByAttributeAndMediaType method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getbyattributeandmediatype, wmp/IWMPMediaCollection2::getByAttributeAndMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -123,11 +121,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563406(v=VS.85).aspx">IWMPMediaCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
  
 
  

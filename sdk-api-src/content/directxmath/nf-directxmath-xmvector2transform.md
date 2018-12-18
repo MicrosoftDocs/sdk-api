@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2Transform(XMVECTOR,X
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2Transform, XMVector2Transform, XMVector2Transform method [DirectX Math Support APIs], dxmath.xmvector2transform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -100,7 +98,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/5499b128-4425-476d-8998-c58078b0f33e">XMVector2TransformStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404775(v=VS.85).aspx">XMVector2TransformStream</a>
  
 
  

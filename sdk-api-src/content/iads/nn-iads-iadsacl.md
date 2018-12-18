@@ -9,8 +9,6 @@ ms.assetid: 71aebf28-f906-4a86-8bdb-ecb0626a350f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsAcl, IADsAcl interface [ADSI], IADsAcl interface [ADSI],described, _ds_iadsacl, adsi.iadsacl, iads/IADsAcl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

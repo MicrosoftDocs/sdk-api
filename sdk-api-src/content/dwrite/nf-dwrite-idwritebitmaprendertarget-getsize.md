@@ -9,8 +9,6 @@ ms.assetid: 1b73854c-674a-408a-8967-e72808ee296e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [Direct Write], GetSize method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetSize method, IDWriteBitmapRenderTarget.GetSize, IDWriteBitmapRenderTarget::GetSize, directwrite.IDWriteBitmapRenderTarget_GetSize, dwrite/IDWriteBitmapRenderTarget::GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

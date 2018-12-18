@@ -7,10 +7,8 @@ old-location: opc\iopcpartenumerator_clone.htm
 tech.root: OPC
 ms.assetid: b2719b6b-dcbd-4f8b-bb53-42114b95d6b3
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],Clone method, IOpcPartEnumerator.Clone, IOpcPartEnumerator::Clone, msopc/IOpcPartEnumerator::Clone, opc.iopcpartenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

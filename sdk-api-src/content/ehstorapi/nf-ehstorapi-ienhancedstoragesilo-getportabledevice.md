@@ -9,8 +9,6 @@ ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPortableDevice, GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetPortableDevice method, IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

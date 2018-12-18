@@ -9,8 +9,6 @@ ms.assetid: 0f91380d-b8c8-47db-99ca-12c897bdff20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -81,11 +79,11 @@ This method always returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9edfe229-ffc5-4266-93af-1938bbd577c2">IWMVideoMediaProps::GetQuality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798713(v=VS.85).aspx">IWMVideoMediaProps::GetQuality</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 93c963ea-9b00-4897-838c-fdc06c781a2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStorageGlobals, GetStorageGlobals method [windows Media Device Manager], GetStorageGlobals method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetStorageGlobals method, IMDSPStorage.GetStorageGlobals, IMDSPStorage::GetStorageGlobals, IMDSPStorageGetStorageGlobals, mswmdm/IMDSPStorage::GetStorageGlobals, wmdm.imdspstorage_getstorageglobals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

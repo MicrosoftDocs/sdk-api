@@ -9,8 +9,6 @@ ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 
@@ -88,7 +86,7 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/50fd7825-4844-4a7f-b949-4abfff5ef30f">IConfigAsfWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
  
 
  

@@ -4,13 +4,11 @@ title: IWorkspace::GetWorkspaceNames
 author: windows-sdk-content
 description: Retrieves the names of the connections in the current process.
 old-location: termserv\iworkspace_getworkspacenames.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 379a9fb5-36e3-4c3d-a276-9d0804599b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWorkspaceNames, GetWorkspaceNames method [Remote Desktop Services], GetWorkspaceNames method [Remote Desktop Services],IWorkspace interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace2 interface, GetWorkspaceNames method [Remote Desktop Services],IWorkspace3 interface, GetWorkspaceNames method [Remote Desktop Services],Workspace object, IWorkspace interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace.GetWorkspaceNames, IWorkspace2 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace2::GetWorkspaceNames, IWorkspace3 interface [Remote Desktop Services],GetWorkspaceNames method, IWorkspace3::GetWorkspaceNames, IWorkspace::GetWorkspaceNames, Workspace object [Remote Desktop Services],GetWorkspaceNames method, termserv.iworkspace_getworkspacenames, workspaceruntime/IWorkspace2::GetWorkspaceNames, workspaceruntime/IWorkspace3::GetWorkspaceNames, workspaceruntime/IWorkspace::GetWorkspaceNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 

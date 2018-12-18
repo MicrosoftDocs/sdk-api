@@ -7,10 +7,8 @@ old-location: opc\iopcfactory.htm
 tech.root: OPC
 ms.assetid: 0a265a0a-c109-4afc-a0ad-d3ee31757aa1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcFactory, IOpcFactory interface [Open Packaging Conventions], IOpcFactory interface [Open Packaging Conventions],described, msopc/IOpcFactory, opc.iopcfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

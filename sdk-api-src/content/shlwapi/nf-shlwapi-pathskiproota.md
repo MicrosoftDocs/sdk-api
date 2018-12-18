@@ -9,8 +9,6 @@ ms.assetid: 528a3953-26d7-4fff-be31-9c9788d429ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

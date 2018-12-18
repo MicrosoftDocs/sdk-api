@@ -9,8 +9,6 @@ ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

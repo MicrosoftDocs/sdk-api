@@ -9,8 +9,6 @@ ms.assetid: 287DA978-9797-48DF-9C90-BA53BB82475C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

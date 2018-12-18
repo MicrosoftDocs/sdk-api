@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_vsgetsamplers.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 18b97598-9d43-0a9e-c706-15e272faba6b, ID3D10Device interface [Direct3D 10],VSGetSamplers method, ID3D10Device.VSGetSamplers, ID3D10Device::VSGetSamplers, VSGetSamplers, VSGetSamplers method [Direct3D 10], VSGetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetSamplers, direct3d10.id3d10device_vsgetsamplers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ Get an array of sampler states from the <a href="https://msdn.microsoft.com/libr
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin getting samplers from.
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of samplers to get from the device. Each pipeline stage has a total of 16 sampler slots available.
 

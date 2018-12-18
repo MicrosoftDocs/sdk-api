@@ -9,8 +9,6 @@ ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -83,19 +81,19 @@ Contains a value that indicates the version of the <b>DS_DOMAIN_CONTROLLER_INFO<
 
 #### 1
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
 
 
 
 #### 2
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
 
 
 
 #### 3
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/Ee828589(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
 
 
 ### -param pcOut [out]
@@ -111,17 +109,17 @@ the <a href="https://msdn.microsoft.com/1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2">Ds
 
 ##### - InfoLevel.1
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a> structure format.
 
 
 ##### - InfoLevel.2
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a> structure format.
 
 
 ##### - InfoLevel.3
 
-The function provides the domain data in the <a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
+The function provides the domain data in the <a href="https://msdn.microsoft.com/en-us/library/Ee828589(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_3</a> structure format.
 
 
 ## -returns
@@ -140,15 +138,15 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/6cc829ac-2aa6-49ef-b1ab-9c249249e0d6">DS_DOMAIN_CONTROLLER_INFO_1</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676057(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d45b732-363d-4b20-ae5c-e9e76264bf1f">DS_DOMAIN_CONTROLLER_INFO_2</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676058(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/510f458e-4c08-41c7-b290-1372ac9c8beb">DS_DOMAIN_CONTROLLER_INFO_3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee828589(v=VS.85).aspx">DS_DOMAIN_CONTROLLER_INFO_3</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: f97be98e-8f1b-4bae-8cdd-8bdfe107894d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSample interface [Media Foundation],SetSampleDuration method, IMFSample.SetSampleDuration, IMFSample::SetSampleDuration, SetSampleDuration, SetSampleDuration method [Media Foundation], SetSampleDuration method [Media Foundation],IMFSample interface, f97be98e-8f1b-4bae-8cdd-8bdfe107894d, mf.imfsample_setsampleduration, mfobjects/IMFSample::SetSampleDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

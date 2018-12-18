@@ -9,8 +9,6 @@ ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c4e3fa2c-44f9-4160-8d0b-3021ad18a472
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvPaint, DrvPaint function [Display Devices], ddifncs_34ade16d-3f7c-42b3-a020-388ec6a36f27.xml, display.drvpaint, winddi/DrvPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

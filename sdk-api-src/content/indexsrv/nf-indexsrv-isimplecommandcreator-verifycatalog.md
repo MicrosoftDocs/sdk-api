@@ -9,8 +9,6 @@ ms.assetid: F4B1558D-F244-40ED-92C2-F5CC0B63AD50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimpleCommandCreator interface [search],VerifyCatalog method, ISimpleCommandCreator.VerifyCatalog, ISimpleCommandCreator::VerifyCatalog, VerifyCatalog, VerifyCatalog method [search], VerifyCatalog method [search],ISimpleCommandCreator interface, indexsrv/ISimpleCommandCreator::VerifyCatalog, search.isimplecommandcreator_verifycatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

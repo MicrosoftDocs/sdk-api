@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsourc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputSourceBounds, GetInputSourceBounds method [WPF Bitmap Effects], GetInputSourceBounds method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputSourceBounds method, IMILBitmapEffectImpl.GetInputSourceBounds, IMILBitmapEffectImpl::GetInputSourceBounds, _wibe_imilbitmapeffectimpl_getinputsourcebounds, mileffects/IMILBitmapEffectImpl::GetInputSourceBounds, wibe._wibe_imilbitmapeffectimpl_getinputsourcebounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

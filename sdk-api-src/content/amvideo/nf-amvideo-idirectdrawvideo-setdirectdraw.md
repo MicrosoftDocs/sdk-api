@@ -9,8 +9,6 @@ ms.assetid: fd7b9571-2edb-4f36-b7a3-b280c37cb471
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDirectDraw method, IDirectDrawVideo.SetDirectDraw, IDirectDrawVideo::SetDirectDraw, IDirectDrawVideoSetDirectDraw, SetDirectDraw, SetDirectDraw method [DirectShow], SetDirectDraw method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDirectDraw, dshow.idirectdrawvideo_setdirectdraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -82,7 +80,7 @@ Returns an <b>HRESULT</b> value.
 
 To have the renderer release a DirectDraw interface previously passed in through <code>SetDirectDraw</code>, an application can call <code>SetDirectDraw</code> and pass in <b>NULL</b>. However, the renderer will continue using that DirectDraw interface until it is disconnected. Therefore, calling <code>SetDirectDraw</code> with a <b>NULL</b> parameter does not make the renderer stop using it immediately.
 
-This method was created because only one instance of <b>IDirectDraw</b> could be loaded per process in versions of DirectDraw prior to DirectX 7.0. If you are using DirectX 7.0 or later, you never need to call this method. If an application wanted to load <b>IDirectDraw</b> but allow the Video Renderer to also allocate surfaces, the application could open <b>IDirectDraw</b> itself and then pass the interface to the loaded driver through <code>IDirectDrawVideo::SetDirectDraw</code>. Alternatively, the application could let the renderer load DirectDraw and then obtain a reference-incremented interface to it through <a href="https://msdn.microsoft.com/25c64d6e-fd49-430a-9f9b-3c2b3d43d3a1">IDirectDrawVideo::GetDirectDraw</a>. Because DirectShow ships with the most recently shipped version of DirectDraw, however, this method is not required unless the application wants to change display modes itself and pass in a DirectDraw object, which the renderer can then use to allocate surfaces.
+This method was created because only one instance of <b>IDirectDraw</b> could be loaded per process in versions of DirectDraw prior to DirectX 7.0. If you are using DirectX 7.0 or later, you never need to call this method. If an application wanted to load <b>IDirectDraw</b> but allow the Video Renderer to also allocate surfaces, the application could open <b>IDirectDraw</b> itself and then pass the interface to the loaded driver through <code>IDirectDrawVideo::SetDirectDraw</code>. Alternatively, the application could let the renderer load DirectDraw and then obtain a reference-incremented interface to it through <a href="https://msdn.microsoft.com/en-us/library/Dd406820(v=VS.85).aspx">IDirectDrawVideo::GetDirectDraw</a>. Because DirectShow ships with the most recently shipped version of DirectDraw, however, this method is not required unless the application wants to change display modes itself and pass in a DirectDraw object, which the renderer can then use to allocate surfaces.
 
 
 
@@ -96,7 +94,7 @@ This method was created because only one instance of <b>IDirectDraw</b> could be
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

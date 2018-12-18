@@ -9,8 +9,6 @@ ms.assetid: 531b4a4a-a251-4ab4-b00a-754783a51283
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TlsSetValue, TlsSetValue function, _win32_tlssetvalue, base.tlssetvalue, processthreadsapi/TlsSetValue, winbase/TlsSetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

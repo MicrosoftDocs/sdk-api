@@ -9,8 +9,6 @@ ms.assetid: dd3d8ff2-8674-4669-b7c5-6f97c957cc64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIndex, GetIndex method [XPS Documents and Packaging], GetIndex method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetIndex method, IXpsOMDictionary.GetIndex, IXpsOMDictionary::GetIndex, xps.ixpsomdictionary_getindex, xpsobjectmodel/IXpsOMDictionary::GetIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

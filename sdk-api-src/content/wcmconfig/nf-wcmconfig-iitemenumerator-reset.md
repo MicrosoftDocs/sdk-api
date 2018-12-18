@@ -9,8 +9,6 @@ ms.assetid: 6da5d581-7f8c-48fa-8522-1e51a805ad9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IItemEnumerator interface [SMI],Reset method, IItemEnumerator.Reset, IItemEnumerator::Reset, Reset, Reset method [SMI], Reset method [SMI],IItemEnumerator interface, smi.iitemenumerator_reset, wcmconfig/IItemEnumerator::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

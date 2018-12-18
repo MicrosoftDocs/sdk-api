@@ -9,8 +9,6 @@ ms.assetid: c909f779-ee27-4eb3-aee2-892ccc2a196e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsGroup interface [ADSI],Members method, IADsGroup.Members, IADsGroup::Members, Members, Members method [ADSI], Members method [ADSI],IADsGroup interface, _ds_iadsgroup_members, adsi.iadsgroup__members, adsi.iadsgroup_members, iads/IADsGroup::Members
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

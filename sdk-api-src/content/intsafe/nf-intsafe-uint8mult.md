@@ -9,8 +9,6 @@ ms.assetid: 0e8862e8-68b6-4ac3-a8fc-872c1dbb3265
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UInt8Mult, UInt8Mult function [Windows Shell], intsafe/UInt8Mult, shell.UInt8Mult
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

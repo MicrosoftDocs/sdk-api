@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt3(VOID@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreInt3, XMStoreInt3, XMStoreInt3 method [DirectX Math Support APIs], dxmath.xmstoreint3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -111,19 +109,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/9924ed70-e6f8-4040-aab1-977bc3f197e6">XMINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404659(v=VS.85).aspx">XMINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/d30a22ae-fb62-4c6a-873d-1ae34f1aa26a">XMStoreSInt3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404702(v=VS.85).aspx">XMStoreSInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/86c38bcf-09cf-44d1-a6de-6b0cdc1d01c4">XMStoreUInt3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404707(v=VS.85).aspx">XMStoreUInt3</a>
 
 
 
-<a href="https://msdn.microsoft.com/B3B7CD31-8759-4674-AAA9-E13DA1D67675">XMUINT3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
  
 
  

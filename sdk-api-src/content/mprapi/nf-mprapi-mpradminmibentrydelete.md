@@ -9,8 +9,6 @@ ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

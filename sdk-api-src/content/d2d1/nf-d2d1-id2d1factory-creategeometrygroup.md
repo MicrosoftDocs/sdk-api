@@ -9,8 +9,6 @@ ms.assetid: e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGeometryGroup, CreateGeometryGroup method [Direct2D], CreateGeometryGroup method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateGeometryGroup method, ID2D1Factory.CreateGeometryGroup, ID2D1Factory::CreateGeometryGroup, d2d1/ID2D1Factory::CreateGeometryGroup, direct2d.ID2D1Factory_CreateGeometryGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -90,7 +88,7 @@ When this method returns, contains the address of a pointer to the geometry grou
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

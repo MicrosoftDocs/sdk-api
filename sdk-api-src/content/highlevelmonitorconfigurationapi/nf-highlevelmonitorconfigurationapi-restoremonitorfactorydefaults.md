@@ -9,8 +9,6 @@ ms.assetid: e7ce81c6-28a5-4371-8fc6-d13de33c2e80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RestoreMonitorFactoryDefaults, RestoreMonitorFactoryDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryDefaults, monitor.restoremonitorfactorydefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 885fb53b-da63-4c46-8ca2-306fd430858b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PopLayer method, ID2D1CommandSink.PopLayer, ID2D1CommandSink::PopLayer, PopLayer, PopLayer method [Direct2D], PopLayer method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PopLayer, direct2d.id2d1commandsink_poplayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -85,7 +83,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-<a href="https://msdn.microsoft.com/8b777425-07b1-4494-889a-0c947fb61315">ID2D1RenderTarget::PushAxisAlignedClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742855(v=VS.85).aspx">ID2D1RenderTarget::PushAxisAlignedClip</a>
  
 
  

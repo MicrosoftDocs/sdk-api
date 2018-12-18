@@ -9,8 +9,6 @@ ms.assetid: BE77F5AD-82B1-4DB4-8BE0-8C066EA09424
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory5 interface, ID2D1Factory5 interface [Direct2D],CreateDevice method, ID2D1Factory5.CreateDevice, ID2D1Factory5::CreateDevice, d2d1_3/ID2D1Factory5::CreateDevice, direct2d.id2d1factory5_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -61,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
 
 The IDXGIDevice object used when creating the <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE4E9">ID2D1Device4</a>.
 
@@ -77,7 +75,7 @@ The requested <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

@@ -9,8 +9,6 @@ ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
@@ -62,7 +60,7 @@ Creates a string that identifies a property from that property's key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure that identifies a property.
+Reference to a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure that identifies a property.
 
 
 ### -param psz [out]
@@ -99,7 +97,7 @@ The string format retrieved is <code>"{propkey.fmtid} propkey.pid"</code>. For e
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates the use of <a href="https://msdn.microsoft.com/en-us/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>.
+The following example, to be included as part of a larger program, demonstrates the use of <a href="shell.PSPropertyKeyFromString">PSPropertyKeyFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,11 +124,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a>
+<a href="shell.PSGetNameFromPropertyKey">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762085(v=VS.85).aspx">PSPropertyKeyFromString</a>
+<a href="shell.PSPropertyKeyFromString">PSPropertyKeyFromString</a>
  
 
  

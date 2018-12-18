@@ -9,8 +9,6 @@ ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h
@@ -95,15 +93,15 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
 
 
 

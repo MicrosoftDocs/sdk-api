@@ -9,8 +9,6 @@ ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionServiceCallback interface [Windows Media Player],onComplete method, IWMPSubscriptionServiceCallback.onComplete, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player],IWMPSubscriptionServiceCallback interface, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 
@@ -101,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/64ab5548-b562-44e4-9798-8f14d3ed653b">IWMPSubscriptionService2::prepareForSync</a> and <a href="https://msdn.microsoft.com/f3450e57-5e25-411c-8b21-b687021a6500">IWMPSubscriptionService2::deviceAvailable</a> supply a pointer to an <b>IWMPSubscriptionServiceCallback</b> interface. When responding to calls from Windows Media Player to these methods, you must pass any time-consuming tasks to a separate worker thread and return immediately. When the worker thread has completed its task, it must call <b>IWMPSubscriptionServiceCallback::onComplete</b>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd563700(v=VS.85).aspx">IWMPSubscriptionService2::prepareForSync</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd563699(v=VS.85).aspx">IWMPSubscriptionService2::deviceAvailable</a> supply a pointer to an <b>IWMPSubscriptionServiceCallback</b> interface. When responding to calls from Windows Media Player to these methods, you must pass any time-consuming tasks to a separate worker thread and return immediately. When the worker thread has completed its task, it must call <b>IWMPSubscriptionServiceCallback::onComplete</b>.
 
 In your <b>prepareForSync</b> and <b>deviceAvailable</b> methods, use the following procedure to provide your worker thread with a pointer to an <b>IWMPSubscriptionServiceCallback</b> interface.
 
@@ -118,7 +116,7 @@ In your <b>prepareForSync</b> and <b>deviceAvailable</b> methods, use the follow
 
 
 
-<a href="https://msdn.microsoft.com/c40d492e-030a-4e67-9199-09f44f39a507">IWMPSubscriptionServiceCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563703(v=VS.85).aspx">IWMPSubscriptionServiceCallback Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 045df884-88e0-4d5a-a790-6b3b9ba2d4f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyJobs interface [BITS],Reset method, IEnumBackgroundCopyJobs.Reset, IEnumBackgroundCopyJobs::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyJobs interface, _drz_ienumbackgroundcopyjobs_reset, bits.ienumbackgroundcopyjobs_reset, bits/IEnumBackgroundCopyJobs::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -74,7 +72,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363109(v=VS.85).aspx">IEnumBackgroundCopyJobs</a>
+<a href="https://msdn.microsoft.com/21ff88da-9fae-478f-bcba-488ed7a89608">IEnumBackgroundCopyJobs</a>
  
 
  

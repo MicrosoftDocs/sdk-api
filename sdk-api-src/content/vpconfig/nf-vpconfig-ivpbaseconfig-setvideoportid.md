@@ -9,8 +9,6 @@ ms.assetid: 9be16349-b214-4441-8093-dfb0caa84507
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoPortID method, IVPBaseConfig.SetVideoPortID, IVPBaseConfig::SetVideoPortID, IVPBaseConfigSetVideoPortID, SetVideoPortID, SetVideoPortID method [DirectShow], SetVideoPortID method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoportid, vpconfig/IVPBaseConfig::SetVideoPortID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -95,7 +93,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
  
 
  

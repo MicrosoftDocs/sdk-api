@@ -9,8 +9,6 @@ ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 

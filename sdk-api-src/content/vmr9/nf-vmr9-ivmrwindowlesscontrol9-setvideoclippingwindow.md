@@ -9,8 +9,6 @@ ms.assetid: 426476cd-a7e9-42ef-9d1b-5bbf921557ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoClippingWindow method, IVMRWindowlessControl9.SetVideoClippingWindow, IVMRWindowlessControl9::SetVideoClippingWindow, IVMRWindowlessControl9SetVideoClippingWindow, SetVideoClippingWindow, SetVideoClippingWindow method [DirectShow], SetVideoClippingWindow method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoclippingwindow, vmr9/IVMRWindowlessControl9::SetVideoClippingWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -131,7 +129,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/9db99c31-65b5-4ff1-9c0d-22140a3687e8">IVMRWindowlessControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390537(v=VS.85).aspx">IVMRWindowlessControl9 Interface</a>
 
 
 

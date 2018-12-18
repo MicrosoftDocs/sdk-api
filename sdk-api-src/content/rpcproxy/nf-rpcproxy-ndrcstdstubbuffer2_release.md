@@ -9,8 +9,6 @@ ms.assetid: 7709da21-26a4-4ba7-a81f-fbe993fc0c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrCStdStubBuffer2_Release, NdrCStdStubBuffer2_Release function [RPC], rpc.ndrcstdstubbuffer2_release, rpcproxy/NdrCStdStubBuffer2_Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[IUnknown_Release_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>NdrCStdStubBuffer2_Release</b> function implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::Release</a> method.
+The <b>NdrCStdStubBuffer2_Release</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::Release</a> method.
 
 
 ## -parameters
@@ -62,7 +60,7 @@ The <b>NdrCStdStubBuffer2_Release</b> function implements the <a href="_com_irpc
 
 ### -param This [in]
 
-Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
+Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
 
 
 ### -param pPSF [in]

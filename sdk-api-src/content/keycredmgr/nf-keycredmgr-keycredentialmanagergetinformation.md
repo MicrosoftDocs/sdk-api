@@ -9,8 +9,6 @@ ms.assetid: 21664FAC-F380-4D32-A3A3-5F9326F5C79E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: keycredmgr.h
 req.include-header: 
@@ -61,7 +59,7 @@ API to get a unique identifier of the users enrollment.
 
 ### -param keyCredentialManagerInfo [out]
 
-Pointer to a pointer variable that receives a <a href="security.keycredentialmanagerinfo">KeyCredentialManagerInfo</a> data structure.  The caller must free this pointer, when it is no longer required, by using the <a href="security.keycredentialmanagerfreeinformation">KeyCredentialManagerFreeInformation</a> function. 
+Pointer to a pointer variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Mt830289(v=VS.85).aspx">KeyCredentialManagerInfo</a> data structure.  The caller must free this pointer, when it is no longer required, by using the <a href="https://msdn.microsoft.com/en-us/library/Mt830286(v=VS.85).aspx">KeyCredentialManagerFreeInformation</a> function. 
 
 
 ## -returns

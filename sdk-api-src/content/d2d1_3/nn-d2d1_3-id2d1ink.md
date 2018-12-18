@@ -9,8 +9,6 @@ ms.assetid: 4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Ink, ID2D1Ink interface [Direct2D], ID2D1Ink interface [Direct2D],described, d2d1_3/ID2D1Ink, direct2d.id2d1ink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
@@ -124,7 +122,7 @@ Removes the given number of segments from the end of this ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2901735-724d-502b-bc2e-dc030f8be4fe">SetSegmentAtEnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900442(v=VS.85).aspx">SetSegmentAtEnd</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the last segment in this ink object with new control points.
 

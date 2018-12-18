@@ -9,8 +9,6 @@ ms.assetid: 3afed0e8-3a9c-4513-954a-83855a53f5b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILEMUIINFO_GET_CULTURE, FILEMUIINFO_GET_CULTURE macro [Internationalization for Windows Applications], _win32_FILEMUIINFO_GET_CULTURE, intl.filemuiinfo_get_culture, winnls/FILEMUIINFO_GET_CULTURE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winnls.h
 req.include-header: Windows.h

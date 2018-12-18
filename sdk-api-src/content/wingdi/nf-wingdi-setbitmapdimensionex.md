@@ -9,8 +9,6 @@ ms.assetid: 23960533-de71-4bff-a43f-75e5fe38fbec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

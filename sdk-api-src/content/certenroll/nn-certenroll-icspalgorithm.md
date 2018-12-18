@@ -9,8 +9,6 @@ ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -50,22 +48,22 @@ req.redist:
 ## -description
 
 
-The <b>ICspAlgorithm</b> interface represents an algorithm implemented by a cryptographic provider. Providers are separate modules that implement encryption, hashing, signing, and key exchange (archival)  algorithms. Similar providers are grouped together in a type. For example, the <a href="https://msdn.microsoft.com/en-us/library/Aa387448(v=VS.85).aspx">PROV_RSA_FULL</a> type identifies providers that typically support the following algorithms. An individual provider can, however,  choose to support fewer or more algorithms than those listed.<ul>
+The <b>ICspAlgorithm</b> interface represents an algorithm implemented by a cryptographic provider. Providers are separate modules that implement encryption, hashing, signing, and key exchange (archival)  algorithms. Similar providers are grouped together in a type. For example, the <a href="https://msdn.microsoft.com/44b13a96-aba2-4b77-8e66-416aa0bcb8ad">PROV_RSA_FULL</a> type identifies providers that typically support the following algorithms. An individual provider can, however,  choose to support fewer or more algorithms than those listed.<ul>
 <li>Encryption: RC2, RC4</li>
 <li>Hashing: MD5, SHA</li>
 <li>Key Exchange: RSA</li>
 <li>Signature: RSA</li>
-</ul>For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa386983(v=VS.85).aspx">Microsoft Cryptographic Service Providers</a>. 
+</ul>For more information, see <a href="https://msdn.microsoft.com/1461914e-5506-4f24-97da-3d2148aafd1c">Microsoft Cryptographic Service Providers</a>. 
 
-A collection of <b>ICspAlgorithm</b> objects can be retrieved from an <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> object. The <b>ICspInformation</b> object can be initialized from a provider name or type.
+A collection of <b>ICspAlgorithm</b> objects can be retrieved from an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object. The <b>ICspInformation</b> object can be initialized from a provider name or type.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspAlgorithm</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICspAlgorithm</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -78,10 +76,10 @@ The <b>ICspAlgorithm</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa965586(v=VS.85).aspx">GetAlgorithmOid</a>
+<a href="https://msdn.microsoft.com/b922154d-0d57-4473-b331-c0082d9e5db5">GetAlgorithmOid</a>
 </td>
 <td align="left" width="63%">
-Retrieves the  algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+Retrieves the  algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 [WebEnabled]
 
@@ -98,7 +96,7 @@ Retrieves the  algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375958(v=VS.85).aspx">DefaultLength</a>
+<a href="https://msdn.microsoft.com/03a487e0-5ba4-4065-86e9-bed667db6ff9">DefaultLength</a>
 
 
 </td>
@@ -116,7 +114,7 @@ Retrieves the default length of a key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375959(v=VS.85).aspx">IncrementLength</a>
+<a href="https://msdn.microsoft.com/296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7">IncrementLength</a>
 
 
 </td>
@@ -134,7 +132,7 @@ Retrieves a value, in bits, that can be used to determine valid incremental key 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375960(v=VS.85).aspx">LongName</a>
+<a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a>
 
 
 </td>
@@ -150,7 +148,7 @@ Retrieves the full name of the algorithm.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375961(v=VS.85).aspx">MaxLength</a>
+<a href="https://msdn.microsoft.com/516afaa4-0317-4f05-87e7-bd614b428ccb">MaxLength</a>
 
 
 </td>
@@ -168,7 +166,7 @@ Retrieves the maximum permitted length for a key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375962(v=VS.85).aspx">MinLength</a>
+<a href="https://msdn.microsoft.com/1df00a2d-4004-4c5d-ab70-5d39ca517ebd">MinLength</a>
 
 
 </td>
@@ -186,7 +184,7 @@ Retrieves the minimum permitted length for a key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375963(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/af7fa894-58e2-4607-9b6e-c32d4f412ddf">Name</a>
 
 
 </td>
@@ -204,7 +202,7 @@ Retrieves the abbreviated algorithm name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375964(v=VS.85).aspx">Operations</a>
+<a href="https://msdn.microsoft.com/46e6bf91-a50a-4360-9bfe-e41e8bcc1112">Operations</a>
 
 
 </td>
@@ -222,7 +220,7 @@ Retrieves the operations that can be performed by the algorithm.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375966(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/28bffe60-10f2-462e-8067-943b12285982">Type</a>
 
 
 </td>
@@ -240,7 +238,7 @@ Retrieves the algorithm type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965588(v=VS.85).aspx">Valid</a>
+<a href="https://msdn.microsoft.com/8f8e9f23-f857-49d3-9519-061ccce27514">Valid</a>
 
 
 </td>
@@ -261,11 +259,11 @@ Retrieves a Boolean value that specifies whether the algorithm object is valid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380245(v=VS.85).aspx">Cryptographic Service Providers</a>
+<a href="https://msdn.microsoft.com/4e6eb2df-a917-4533-b9f1-8da39598d0b8">Cryptographic Service Providers</a>
 
 
 

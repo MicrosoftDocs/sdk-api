@@ -9,8 +9,6 @@ ms.assetid: de61badd-0794-484c-921f-4e72e881579c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDockingWindow interface [Windows Shell],ResizeBorderDW method, IDockingWindow.ResizeBorderDW, IDockingWindow::ResizeBorderDW, ResizeBorderDW, ResizeBorderDW method [Windows Shell], ResizeBorderDW method [Windows Shell],IDockingWindow interface, _win32_IDockingWindow_ResizeBorderDW, shell.IDockingWindow_ResizeBorderDW, shobjidl_core/IDockingWindow::ResizeBorderDW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

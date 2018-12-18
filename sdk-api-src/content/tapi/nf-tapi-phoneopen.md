@@ -9,8 +9,6 @@ ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

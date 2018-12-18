@@ -9,8 +9,6 @@ ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d9c79b85-ac64-456c-95b2-fe28a8c99fac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],item method, IWMPFolderMonitorServices.item, IWMPFolderMonitorServices::item, IWMPFolderMonitorServicesitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_item, wmp/IWMPFolderMonitorServices::item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-This method and all other methods of the <a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices</a> interface are deprecated.
+This method and all other methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices</a> interface are deprecated.
 
 The <b>item</b> method retrieves the path to the folder corresponding to the specified index.
 
@@ -115,7 +113,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/42c3b03c-f8f8-4219-91e1-da54a175fb24">IWMPFolderMonitorServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563366(v=VS.85).aspx">IWMPFolderMonitorServices Interface</a>
  
 
  

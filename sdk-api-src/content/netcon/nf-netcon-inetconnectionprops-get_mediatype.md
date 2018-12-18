@@ -9,8 +9,6 @@ ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

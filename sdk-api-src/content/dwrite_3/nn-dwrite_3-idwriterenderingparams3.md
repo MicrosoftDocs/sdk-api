@@ -9,8 +9,6 @@ ms.assetid: A083377C-7315-40F4-AD94-9B65B98DE0D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteRenderingParams3, IDWriteRenderingParams3 interface [Direct Write], IDWriteRenderingParams3 interface [Direct Write],described, directwrite.idwriterenderingparams3, dwrite_3/IDWriteRenderingParams3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDWriteRenderingParams3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3C8CBE42-D7F5-4646-A1C4-1C9C8C4EBAD1">GetRenderingMode1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900390(v=VS.85).aspx">GetRenderingMode1</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering mode.

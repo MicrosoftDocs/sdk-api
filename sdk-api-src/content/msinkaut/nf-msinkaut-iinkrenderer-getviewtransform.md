@@ -9,8 +9,6 @@ ms.assetid: 8a4d768d-09b6-45e1-b412-e267d92cc3ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8a4d768d-09b6-45e1-b412-e267d92cc3ef, GetViewTransform, GetViewTransform method [Tablet PC], GetViewTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetViewTransform method, IInkRenderer.GetViewTransform, IInkRenderer::GetViewTransform, msinkaut/IInkRenderer::GetViewTransform, tablet.inkrenderer_getviewtransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -139,7 +137,7 @@ View transformation occurs after object transformation.
 
 
 
-<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

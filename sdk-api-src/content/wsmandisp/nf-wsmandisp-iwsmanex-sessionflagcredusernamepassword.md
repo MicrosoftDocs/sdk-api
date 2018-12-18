@@ -9,8 +9,6 @@ ms.assetid: e9af95ac-4543-4d8b-ac6e-15e89b73713e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagCredUsernamePassword method, IWSManEx.SessionFlagCredUsernamePassword, IWSManEx::SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword, SessionFlagCredUsernamePassword method [Windows Remote Management], SessionFlagCredUsernamePassword method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagcredusernamepassword, wsmandisp/IWSManEx::SessionFlagCredUsernamePassword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

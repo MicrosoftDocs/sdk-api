@@ -9,8 +9,6 @@ ms.assetid: 74c976b0-68a5-4e09-8c6f-6ccb2766e0ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

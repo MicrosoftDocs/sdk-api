@@ -9,8 +9,6 @@ ms.assetid: 24670a23-4300-48f9-a089-dff3082cb544
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], IComMethodEvents interface [COM+],described, _dtc_IComMethodEvents, comsvcs/IComMethodEvents, cos.icommethodevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

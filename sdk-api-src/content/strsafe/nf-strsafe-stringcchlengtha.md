@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

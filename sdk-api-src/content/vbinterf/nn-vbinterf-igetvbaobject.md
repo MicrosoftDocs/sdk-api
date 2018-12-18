@@ -9,8 +9,6 @@ ms.assetid: dda96834-7fc9-4361-9861-b9831fc7e6fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGetVBAObject, IGetVBAObject interface [COM], IGetVBAObject interface [COM],described, _com_IGetVBAObject, com.igetvbaobject, vbinterf/IGetVBAObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 

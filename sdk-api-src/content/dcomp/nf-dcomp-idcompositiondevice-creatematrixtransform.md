@@ -9,8 +9,6 @@ ms.assetid: 79291366-2fb2-4130-a642-4993648d8aa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice.CreateMatrixTransform, IDCompositionDevice::CreateMatrixTransform, dcomp/IDCompositionDevice::CreateMatrixTransform, directcomp.idcompositiondevice_creatematrixtransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a 2D 3-by-2 matrix transform object.
 
 ### -param matrixTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437424(v=VS.85).aspx">IDCompositionMatrixTransform</a>**</b>
 
 The new matrix transform object. This parameter must not be NULL.
 
@@ -94,7 +92,7 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
 
 
 

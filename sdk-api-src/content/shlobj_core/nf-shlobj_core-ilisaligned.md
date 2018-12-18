@@ -9,8 +9,6 @@ ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

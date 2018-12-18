@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3EqualR(XMVECTOR,XMVECTOR
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector3EqualR, XMVector3EqualR, XMVector3EqualR method [DirectX Math Support APIs], dxmath.xmvector3equalr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Tests whether two 3D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Tests whether two 3D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 ## -parameters
@@ -72,7 +70,7 @@ Tests whether two 3D vectors are equal. In addition, this function returns a com
 
 
 
-Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/74d2856d-c311-47cd-9ff0-ee10ed66e29e">XMComparisonAllTrue</a>.
+Returns a comparison value that can be examined using functions such as <a href="https://msdn.microsoft.com/en-us/library/Hh437887(v=VS.85).aspx">XMComparisonAllTrue</a>.
 
 
 
@@ -106,7 +104,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/86a47979-9197-44f3-86b9-85ef899ecfe2">XMVector3Equal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420808(v=VS.85).aspx">XMVector3Equal</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b494d5b9-5def-4249-8b6d-37b26993cc24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleUndoManager interface [COM],Open method, IOleUndoManager.Open, IOleUndoManager::Open, Open, Open method [COM], Open method [COM],IOleUndoManager interface, _ole_ioleundomanager_open, com.ioleundomanager_open, ocidl/IOleUndoManager::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

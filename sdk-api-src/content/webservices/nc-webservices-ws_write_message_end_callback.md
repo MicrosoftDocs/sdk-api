@@ -9,8 +9,6 @@ ms.assetid: 308f4df8-6dc3-4b78-a066-3fc6da3155b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_WRITE_MESSAGE_END_CALLBACK, WS_WRITE_MESSAGE_END_CALLBACK callback, WS_WRITE_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_MESSAGE_END_CALLBACK, wsw.ws_write_message_end_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/329193a7-932a-46d0-8e46-eef6bbdb8fa2">WsWriteMessageEnd</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 
 ## -parameters

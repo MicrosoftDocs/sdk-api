@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_0lr9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],SubmissionTime property, IFaxOutgoingMessage.SubmissionTime, IFaxOutgoingMessage.get_SubmissionTime, IFaxOutgoingMessage::SubmissionTime, IFaxOutgoingMessage::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.submissiontime, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_submissiontime_cpp, fax._mfax_faxoutgoingmessage_submissiontime, faxcomex/IFaxOutgoingMessage::SubmissionTime, faxcomex/IFaxOutgoingMessage::get_SubmissionTime, get_SubmissionTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/7423ccd1-5eb6-402f-99fb-2cbed386450a">IFaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690152(v=VS.85).aspx">IFaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/072eb2cc-7fd9-4f8e-8583-44384357e708">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693402(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

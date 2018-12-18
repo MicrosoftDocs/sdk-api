@@ -9,8 +9,6 @@ ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -139,7 +137,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/52c2d9a1-f688-4f5e-a120-082d70f8dff1">IMSVidInputDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694572(v=VS.85).aspx">IMSVidInputDevices::get_Count</a> - 1.
 
 
 
@@ -153,7 +151,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/b3a8ab2a-4b9c-41d2-9fb6-5862891eba42">IMSVidInputDevices::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694571(v=VS.85).aspx">IMSVidInputDevices::Add</a>
  
 
  

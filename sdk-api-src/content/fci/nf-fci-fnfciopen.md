@@ -9,8 +9,6 @@ ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fci.h
 req.include-header: 
@@ -67,7 +65,7 @@ The name of the file.
 
 Pointer to the error code value. 
 
-This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
+This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
 
 
 #### - oflag

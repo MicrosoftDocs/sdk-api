@@ -9,8 +9,6 @@ ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: batclass.h
 req.include-header: Batclass.h
@@ -61,7 +59,7 @@ req.redist:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle previously returned by <a href="https://msdn.microsoft.com/en-us/library/Ff536266(v=VS.85).aspx">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle previously returned by <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a>.
 
 
 ## -returns
@@ -93,11 +91,11 @@ The battery's power state changes; that is, the battery starts or stops charging
 
 </li>
 <li>
-The battery's capacity or power state deviates from the criteria set by a previous call to <a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a>. 
+The battery's capacity or power state deviates from the criteria set by a previous call to <a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a>. 
 
 </li>
 </ul>
-The battery class driver queues status requests internally. If any such requests are pending when the miniclass driver calls <b>BatteryClassStatusNotify</b>, the class driver immediately calls the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536274(v=VS.85).aspx">BatteryMiniQueryStatus</a> routine.
+The battery class driver queues status requests internally. If any such requests are pending when the miniclass driver calls <b>BatteryClassStatusNotify</b>, the class driver immediately calls the miniclass driver's <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a> routine.
 
 
 
@@ -107,11 +105,11 @@ The battery class driver queues status requests internally. If any such requests
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536274(v=VS.85).aspx">BatteryMiniQueryStatus</a>
+<a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a>
+<a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a>
  
 
  

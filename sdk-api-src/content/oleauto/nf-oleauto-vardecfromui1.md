@@ -9,8 +9,6 @@ ms.assetid: dd326a61-42d1-4cf5-bd63-98a6ecdf6ce8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecFromUI1, VarDecFromUI1 function [Automation], _oa96_VarDecFromUI1, automat.vardecfromui1, oleauto/VarDecFromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h
@@ -65,7 +63,7 @@ Flashes the specified window. It does not change the active state of the window.
 ### -param pfwi [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/b16636bc-fa77-4eb9-9801-dc2cdf0556e5">FLASHWINFO</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms679348(v=VS.85).aspx">FLASHWINFO</a> structure.
 
 
 ## -returns
@@ -96,7 +94,7 @@ Typically, you flash a window to inform the user that the window requires attent
 
 
 
-<a href="https://msdn.microsoft.com/b16636bc-fa77-4eb9-9801-dc2cdf0556e5">FLASHWINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679348(v=VS.85).aspx">FLASHWINFO</a>
 
 
 

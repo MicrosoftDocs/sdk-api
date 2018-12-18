@@ -9,8 +9,6 @@ ms.assetid: 2F8C7930-6BBC-4CA9-86C0-168BF0F9C0BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetCompositeMode method, IDCompositionVisual.SetCompositeMode, IDCompositionVisual::SetCompositeMode, SetCompositeMode, SetCompositeMode method [DirectComposition], SetCompositeMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetCompositeMode, directcomp.idcompositionvisual_setcompositemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -90,11 +88,11 @@ The composite mode determines how visual's bitmap is blended with the screen. By
 
 
 
-<a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx">IDCompositionEffectGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

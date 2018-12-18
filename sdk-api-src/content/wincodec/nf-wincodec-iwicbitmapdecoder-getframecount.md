@@ -9,8 +9,6 @@ ms.assetid: 16eb613d-f649-436d-a121-e6468cd2581a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFrameCount, GetFrameCount method [Windows Imaging Component], GetFrameCount method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetFrameCount method, IWICBitmapDecoder.GetFrameCount, IWICBitmapDecoder::GetFrameCount, _wic_codec_iwicbitmapdecoder_getframecount, wic._wic_codec_iwicbitmapdecoder_getframecount, wincodec/IWICBitmapDecoder::GetFrameCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

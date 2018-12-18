@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchpr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CloseAccessor method, ISearchProtocol.CloseAccessor, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

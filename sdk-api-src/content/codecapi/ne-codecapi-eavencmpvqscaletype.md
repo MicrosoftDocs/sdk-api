@@ -9,8 +9,6 @@ ms.assetid: cc36ac03-66cb-4855-acf5-5f67265376b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncMPVQScaleType, codecapi/eAVEncMPVQScaleType_Auto, codecapi/eAVEncMPVQScaleType_Linear, codecapi/eAVEncMPVScanPattern_AlternateScan, dshow.eavencmpvqscaletype, eAVEncMPVQScaleType, eAVEncMPVQScaleType enumeration [DirectShow], eAVEncMPVQScaleTypeEnumeration, eAVEncMPVQScaleType_Auto, eAVEncMPVQScaleType_Linear, eAVEncMPVScanPattern_AlternateScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd317894(v=VS.85).aspx">AVEncMPVQScaleType</a> property.
+Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://msdn.microsoft.com/0d1a62a2-7595-4c10-a1cf-d32dda337ecd">AVEncMPVQScaleType</a> property.
 
 
 
@@ -86,7 +84,7 @@ The quantization scale is non-linear.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 

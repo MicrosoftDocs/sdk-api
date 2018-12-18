@@ -9,8 +9,6 @@ ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback, PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC callback function [Security], security.pfn_crypt_extract_encoded_signature_parameters_func, wincrypt/PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -110,7 +108,7 @@ If this callback function does not support the signature algorithm, it must retu
 
 Memory for the <i>ppvDecodedSignPara</i> and <i>ppwszCNGHashAlgid</i> parameters must be allocated by using the <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> function.
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constant for this purpose.
 
 <table>
 <tr>

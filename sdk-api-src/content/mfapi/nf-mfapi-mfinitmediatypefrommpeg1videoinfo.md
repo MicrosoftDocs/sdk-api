@@ -9,8 +9,6 @@ ms.assetid: 2506ae6e-a3bb-4d36-8c70-837a42cfb272
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

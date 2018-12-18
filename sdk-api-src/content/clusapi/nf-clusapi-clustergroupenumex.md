@@ -9,8 +9,6 @@ ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGroupEnumEx, ClusterGroupEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster], clusapi/ClusterGroupEnumEx, clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

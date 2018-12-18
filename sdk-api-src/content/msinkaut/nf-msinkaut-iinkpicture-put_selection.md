@@ -9,8 +9,6 @@ ms.assetid: 29d54781-b83b-4733-95fe-86577958e0d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 29d54781-b83b-4733-95fe-86577958e0d1, IInkPicture interface [Tablet PC],Selection property, IInkPicture.Selection, IInkPicture.put_Selection, IInkPicture::Selection, IInkPicture::get_Selection, IInkPicture::put_Selection, InkPicture.get_Selection, InkPicture.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkPicture interface, msinkaut/IInkPicture::Selection, msinkaut/IInkPicture::get_Selection, msinkaut/IInkPicture::put_Selection, put_Selection, tablet.inkpicture_selection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ For further details about this property, refer to the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

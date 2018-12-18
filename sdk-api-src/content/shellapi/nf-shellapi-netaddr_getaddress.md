@@ -9,8 +9,6 @@ ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0F63C626-DB58-4952-BBB3-7E3901429C35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrintDocumentPackageTarget, IPrintDocumentPackageTarget interface [XPS Documents and Packaging], IPrintDocumentPackageTarget interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTarget, xps.iprintdocumentpackagetarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: documenttarget.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1c8aac3e-384e-402e-aae8-11e240083603
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfCompositionView, ITfCompositionView interface [Text Services Framework], ITfCompositionView interface [Text Services Framework],described, _tsf_itfcompositionview_ref, msctf/ITfCompositionView, tsf.itfcompositionview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

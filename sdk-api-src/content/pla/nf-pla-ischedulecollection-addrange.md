@@ -7,10 +7,8 @@ old-location: pla\ischedulecollection_addrange.htm
 tech.root: pla
 ms.assetid: a1398bb5-d8a9-49c0-802c-2945428a3e0a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],AddRange method, IScheduleCollection.AddRange, IScheduleCollection::AddRange, base.ischedulecollection_addrange, pla.ischedulecollection_addrange, pla/IScheduleCollection::AddRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

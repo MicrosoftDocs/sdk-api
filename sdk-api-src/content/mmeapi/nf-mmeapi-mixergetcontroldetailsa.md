@@ -9,8 +9,6 @@ ms.assetid: b1fdd9e7-42cf-41fb-99f7-b7da990e5881
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h

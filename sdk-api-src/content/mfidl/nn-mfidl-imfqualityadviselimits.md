@@ -9,8 +9,6 @@ ms.assetid: 8ef7088c-2f49-4be9-b719-481616e1737d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

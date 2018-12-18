@@ -9,8 +9,6 @@ ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IPropertyChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb775242(v=VS.85).aspx">ApplyToPropVariant</a>
+<a href="shell.IPropertyChange_ApplyToPropVariant">ApplyToPropVariant</a>
 </td>
 <td align="left" width="63%">
 Applies a change to a property value.
@@ -89,7 +87,7 @@ Applies a change to a property value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
+<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
  
 
  

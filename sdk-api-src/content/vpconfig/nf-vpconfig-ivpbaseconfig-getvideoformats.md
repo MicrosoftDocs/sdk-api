@@ -9,8 +9,6 @@ ms.assetid: a0426a2a-a856-4e5d-8ff2-4afa3b18355e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoFormats, GetVideoFormats method [DirectShow], GetVideoFormats method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVideoFormats method, IVPBaseConfig.GetVideoFormats, IVPBaseConfig::GetVideoFormats, IVPBaseConfigGetVideoFormats, dshow.ivpbaseconfig_getvideoformats, vpconfig/IVPBaseConfig::GetVideoFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -88,7 +86,7 @@ The client first calls this method with the value <b>NULL</b> for the <i>pddPixe
 
 The <b>DDPIXELFORMAT</b> structure is documented in the Windows DDK.
 
-The client sets the format by calling the <a href="https://msdn.microsoft.com/98b4182f-c286-4f4a-86b8-40d093456628">IVPBaseConfig::SetVideoFormat</a> method with an index number, which references one of the format structures returned by this method.
+The client sets the format by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390579(v=VS.85).aspx">IVPBaseConfig::SetVideoFormat</a> method with an index number, which references one of the format structures returned by this method.
 
 Include Dvp.h and Vptype.h before Vpconfig.h.
 
@@ -104,7 +102,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
  
 
  

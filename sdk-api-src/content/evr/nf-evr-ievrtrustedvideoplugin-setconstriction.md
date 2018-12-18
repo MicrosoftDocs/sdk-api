@@ -9,8 +9,6 @@ ms.assetid: f2e9b199-969f-453c-8714-fa85c89a191a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEVRTrustedVideoPlugin interface [Media Foundation],SetConstriction method, IEVRTrustedVideoPlugin.SetConstriction, IEVRTrustedVideoPlugin::SetConstriction, SetConstriction, SetConstriction method [Media Foundation], SetConstriction method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::SetConstriction, f2e9b199-969f-453c-8714-fa85c89a191a, mf.ievrtrustedvideoplugin_setconstriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

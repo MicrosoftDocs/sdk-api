@@ -9,8 +9,6 @@ ms.assetid: 692CB5FF-3E74-4D3E-B961-E4AF5995A1B2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator1, IDWriteColorGlyphRunEnumerator1 interface [Direct Write], IDWriteColorGlyphRunEnumerator1 interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator1, dwrite_3/IDWriteColorGlyphRunEnumerator1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -71,7 +69,7 @@ The <b>IDWriteColorGlyphRunEnumerator1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0FEFD8EB-20E7-4E04-9C31-1A763D2FB816">GetCurrentRun</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt761991(v=VS.85).aspx">GetCurrentRun</a>
 </td>
 <td align="left" width="63%">
 Gets the current color glyph run.

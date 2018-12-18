@@ -9,8 +9,6 @@ ms.assetid: 6535012d-61d5-4200-8de9-786c633cf079
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Click, Click method [Windows Media Player], Click method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Click method, IWMPEvents.Click, IWMPEvents::Click, IWMPEventsClick, wmp.iwmpevents_iwmpevents__click, wmp/IWMPEvents::Click
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -104,7 +102,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

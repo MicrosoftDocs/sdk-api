@@ -4,13 +4,11 @@ title: IWRdsGraphicsChannelEvents::OnDataReceived
 author: windows-sdk-content
 description: Called when a full message is received from the server.
 old-location: termserv\iwrdsgraphicschannelevents_ondatareceived.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ac202fa0-6277-440a-8292-a785bbc78730
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataReceived method, IWRdsGraphicsChannelEvents.OnDataReceived, IWRdsGraphicsChannelEvents::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatareceived, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

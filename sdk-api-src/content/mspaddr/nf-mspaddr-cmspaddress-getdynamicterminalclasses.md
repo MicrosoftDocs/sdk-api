@@ -9,8 +9,6 @@ ms.assetid: 62ded118-ee43-4500-97e2-4177518465a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetDynamicTerminalClasses method, CMSPAddress.GetDynamicTerminalClasses, CMSPAddress::GetDynamicTerminalClasses, GetDynamicTerminalClasses, GetDynamicTerminalClasses method [TAPI 2.2], GetDynamicTerminalClasses method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getdynamicterminalclasses, mspaddr/CMSPAddress::GetDynamicTerminalClasses, tapi3.cmspaddress_getdynamicterminalclasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mspaddr.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 The 
 <b>GetDynamicTerminalClasses</b> method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address. The semantics of the arguments are the same as for 
-<a href="https://msdn.microsoft.com/8fffc00d-a783-47bc-a081-fe2116060da0">GetStaticTerminals</a>. This method simply asks the Terminal Manager for the terminal classes. MSPs that implement additional, custom types of dynamic terminals, or that want to disallow the use of certain dynamic terminal classes from the Terminal Manager, would want to override this method.
+<a href="https://msdn.microsoft.com/en-us/library/ms726432(v=VS.85).aspx">GetStaticTerminals</a>. This method simply asks the Terminal Manager for the terminal classes. MSPs that implement additional, custom types of dynamic terminals, or that want to disallow the use of certain dynamic terminal classes from the Terminal Manager, would want to override this method.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ Pointer to array of
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
  
 
  

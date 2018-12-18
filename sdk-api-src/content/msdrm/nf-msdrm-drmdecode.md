@@ -9,8 +9,6 @@ ms.assetid: 380f9770-1d0c-453a-b737-04740608d7a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMDecode, DRMDecode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDecode, rm.drmdecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

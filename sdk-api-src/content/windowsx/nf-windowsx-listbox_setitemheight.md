@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

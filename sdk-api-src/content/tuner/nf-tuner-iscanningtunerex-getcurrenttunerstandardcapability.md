@@ -9,8 +9,6 @@ ms.assetid: 4a3edf23-d782-4bfb-84c2-33eab7cb9d19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentTunerStandardCapability, GetCurrentTunerStandardCapability method [Microsoft TV Technologies], GetCurrentTunerStandardCapability method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetCurrentTunerStandardCapability method, IScanningTunerEx.GetCurrentTunerStandardCapability, IScanningTunerEx::GetCurrentTunerStandardCapability, IScanningTunerExGetCurrentTunerStandardCapability, mstv.iscanningtunerex_getcurrenttunerstandardcapability, tuner/IScanningTunerEx::GetCurrentTunerStandardCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -76,7 +74,7 @@ Receives the approximate amount of time the tuner requires to tune to a frequenc
 
 ### -param TvStandardsSupported [out]
 
-If <i>CurrentBroadcastStandard</i> is ANALOG_TV_NETWORK_TYPE, this parameter receives a bitwise OR of flags from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration, indicating which analog television formats are supported by the tuner. Otherwise, this parameter is ignored.
+If <i>CurrentBroadcastStandard</i> is ANALOG_TV_NETWORK_TYPE, this parameter receives a bitwise OR of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration, indicating which analog television formats are supported by the tuner. Otherwise, this parameter is ignored.
 
 
 ## -returns

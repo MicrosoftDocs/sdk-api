@@ -9,8 +9,6 @@ ms.assetid: 743212fd-a1e7-47c5-a220-c203cc2788e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfileByID method, IWMWriter.SetProfileByID, IWMWriter::SetProfileByID, IWMWriterSetProfileByID, SetProfileByID, SetProfileByID method [windows Media Format], SetProfileByID method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofilebyid, wmsdkidl/IWMWriter::SetProfileByID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,15 +120,15 @@ Only system profiles have IDs. Use the methods of the <b>IWMProfileManager</b> i
 
 
 
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a931896-c102-4b3b-a5a3-b3ef85b276b9">IWMWriter::SetProfile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757507(v=VS.85).aspx">IWMWriter::SetProfile</a>
 
 
 

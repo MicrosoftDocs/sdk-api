@@ -9,8 +9,6 @@ ms.assetid: 8975cb5e-024f-40bf-acd7-c5af0abd88a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMBegin method, IComCRMEvents.OnCRMBegin, IComCRMEvents::OnCRMBegin, OnCRMBegin, OnCRMBegin method [COM+], OnCRMBegin method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMBegin, comsvcs/IComCRMEvents::OnCRMBegin, cos.icomcrmevents_oncrmbegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 869e093f-8936-4b60-8818-ee2c57924d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLoggingUrlCount, GetLoggingUrlCount method [windows Media Format], GetLoggingUrlCount method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetLoggingUrlCount method, IWMReaderNetworkConfig.GetLoggingUrlCount, IWMReaderNetworkConfig::GetLoggingUrlCount, IWMReaderNetworkConfigGetLoggingUrlCount, wmformat.iwmreadernetworkconfig_getloggingurlcount, wmsdkidl/IWMReaderNetworkConfig::GetLoggingUrlCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -87,11 +85,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/27c5a97b-e04b-4d15-b19a-3c0d78feee95">IWMReaderNetworkConfig::GetLoggingUrl</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743527(v=VS.85).aspx">IWMReaderNetworkConfig::GetLoggingUrl</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],setItemInfo method, IWMPMedia.setItemInfo, IWMPMedia2 interface [Windows Media Player],setItemInfo method, IWMPMedia2::setItemInfo, IWMPMedia3 interface [Windows Media Player],setItemInfo method, IWMPMedia3::setItemInfo, IWMPMedia::setItemInfo, IWMPMediasetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPMedia interface, setItemInfo method [Windows Media Player],IWMPMedia2 interface, setItemInfo method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_setiteminfo, wmp/IWMPMedia2::setItemInfo, wmp/IWMPMedia3::setItemInfo, wmp/IWMPMedia::setItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -126,19 +124,19 @@ If you embed the Windows Media Player control in your application, file attribut
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb04e464-44dd-41ba-9296-f13aca9ef54e">IWMPMedia::getAttributeName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/33e29da2-7439-41d1-9dd9-9b66e87aeb4b">IWMPMedia::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8b2dd45-3e3f-4325-b4d0-939abbc425e1">IWMPMedia::isReadOnlyItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563447(v=VS.85).aspx">IWMPMedia::isReadOnlyItem</a>
  
 
  

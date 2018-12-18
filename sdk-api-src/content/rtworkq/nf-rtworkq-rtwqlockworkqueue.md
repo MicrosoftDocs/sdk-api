@@ -9,8 +9,6 @@ ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

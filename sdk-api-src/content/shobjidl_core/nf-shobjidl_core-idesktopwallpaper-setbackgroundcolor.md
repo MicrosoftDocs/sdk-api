@@ -9,8 +9,6 @@ ms.assetid: 9CA14C0B-4727-4702-9EB0-4D24003EB456
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetBackgroundColor method, IDesktopWallpaper.SetBackgroundColor, IDesktopWallpaper::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetBackgroundColor, shobjidl_core/IDesktopWallpaper::SetBackgroundColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

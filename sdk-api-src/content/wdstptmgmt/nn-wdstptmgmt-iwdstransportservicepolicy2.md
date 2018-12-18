@@ -9,8 +9,6 @@ ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

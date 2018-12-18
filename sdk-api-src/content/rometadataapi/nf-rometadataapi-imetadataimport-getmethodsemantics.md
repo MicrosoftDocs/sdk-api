@@ -9,8 +9,6 @@ ms.assetid: b4133bf8-4ae4-43ad-8d07-4f7805e9ef2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMethodSemantics, GetMethodSemantics method [Windows Runtime], GetMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetMethodSemantics method, IMetaDataImport.GetMethodSemantics, IMetaDataImport::GetMethodSemantics, rometadataapi/IMetaDataImport::GetMethodSemantics, winrt.imetadataimport_getmethodsemantics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

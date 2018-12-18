@@ -9,8 +9,6 @@ ms.assetid: 722c274e-1c66-4b46-b243-02eeaaad1f6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrComplexStructMarshall, NdrComplexStructMarshall function [Windows API], rpcndr/NdrComplexStructMarshall, winprog.ndrcomplexstructmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

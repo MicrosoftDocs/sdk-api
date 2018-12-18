@@ -9,8 +9,6 @@ ms.assetid: 17f5002b-0191-4cb0-8b12-0383aaabe2a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 17f5002b-0191-4cb0-8b12-0383aaabe2a8, IInkCollector interface [Tablet PC],SupportHighContrastInk property, IInkCollector.SupportHighContrastInk, IInkCollector.get_SupportHighContrastInk, IInkCollector::SupportHighContrastInk, IInkCollector::get_SupportHighContrastInk, IInkCollector::put_SupportHighContrastInk, InkCollector.get_SupportHighContrastInk, InkCollector.put_SupportHighContrastInk, SupportHighContrastInk property [Tablet PC], SupportHighContrastInk property [Tablet PC],IInkCollector interface, get_SupportHighContrastInk, msinkaut/IInkCollector::SupportHighContrastInk, msinkaut/IInkCollector::get_SupportHighContrastInk, msinkaut/IInkCollector::put_SupportHighContrastInk, put_SupportHighContrastInk, tablet.inkcollector_supporthighcontrastink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -90,7 +88,7 @@ Real-time ink application uses the COLOR_WINDOWTEXT color when the system is in 
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

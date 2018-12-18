@@ -9,8 +9,6 @@ ms.assetid: e6b7e0dd-407a-4e82-889b-31ad999a72ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

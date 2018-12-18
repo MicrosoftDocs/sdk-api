@@ -9,8 +9,6 @@ ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnEmergencyModeChange method, IMbnInterfaceEvents.OnEmergencyModeChange, IMbnInterfaceEvents::OnEmergencyModeChange, OnEmergencyModeChange, OnEmergencyModeChange method [Microsoft Broadband Networks], OnEmergencyModeChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onemergencymodechange, mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

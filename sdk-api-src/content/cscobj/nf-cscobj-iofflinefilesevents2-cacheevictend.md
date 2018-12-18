@@ -7,10 +7,8 @@ old-location: of\iofflinefilesevents2_cacheevictend.htm
 tech.root: offlinefiles
 ms.assetid: 08af0c55-17cc-4d7f-b4a3-c21a8ae91b74
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: CacheEvictEnd, CacheEvictEnd method [Offline Files], CacheEvictEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictEnd method, IOfflineFilesEvents2.CacheEvictEnd, IOfflineFilesEvents2::CacheEvictEnd, cscobj/IOfflineFilesEvents2::CacheEvictEnd, of.iofflinefilesevents2_cacheevictend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

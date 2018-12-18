@@ -9,8 +9,6 @@ ms.assetid: 31f0c64c-275c-431c-b85e-6ee5f4318e1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IMTSActivity interface, IMTSActivity interface [COM+],BindToCurrentThread method, IMTSActivity.BindToCurrentThread, IMTSActivity::BindToCurrentThread, _cos_IMTSActivity_BindToCurrentThread, comsvcs/IMTSActivity::BindToCurrentThread, cos.imtsactivity_bindtocurrentthread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

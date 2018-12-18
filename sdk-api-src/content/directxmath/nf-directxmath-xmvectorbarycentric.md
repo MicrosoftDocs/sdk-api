@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorBaryCentric(XMVECTOR,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorBaryCentric, XMVectorBaryCentric, XMVectorBaryCentric method [DirectX Math Support APIs], dxmath.xmvectorbarycentric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -137,7 +135,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f8394099-74d7-4ec2-bc8c-c2b820b40797">XMVectorBaryCentricV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421004(v=VS.85).aspx">XMVectorBaryCentricV</a>
  
 
  

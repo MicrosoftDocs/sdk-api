@@ -9,8 +9,6 @@ ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

@@ -9,8 +9,6 @@ ms.assetid: 8ae95850-59e9-4382-b88d-c51eb3077176
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstanceKeysByPath method, CWbemProviderGlue.GetInstanceKeysByPath, CWbemProviderGlue::GetInstanceKeysByPath, GetInstanceKeysByPath, GetInstanceKeysByPath method [Windows Management Instrumentation], GetInstanceKeysByPath method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancekeysbypath, wbemglue/CWbemProviderGlue::GetInstanceKeysByPath, wmi.cwbemproviderglue_getinstancekeysbypath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -77,7 +75,7 @@ A pointer to a pointer to a new <a href="https://msdn.microsoft.com/aed29340-eb6
 
 ### -param pMethodContext
 
-A pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+A pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/en-us/library/Aa392767(v=VS.85).aspx">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa392770(v=VS.85).aspx">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 
 ## -returns
@@ -105,15 +103,15 @@ In the current version of the provider framework, <i>pszInstancePath</i> must re
 
 
 
-<a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389781(v=VS.85).aspx">CWbemProviderGlue</a>
 
 
 
-<a href="https://msdn.microsoft.com/788b5f5f-b300-4c86-afbd-416b938f21c1">GetInstanceByPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389791(v=VS.85).aspx">GetInstanceByPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9232dc0-6df9-440d-bf7a-bf524acbe505">GetInstancePropertiesByPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389793(v=VS.85).aspx">GetInstancePropertiesByPath</a>
  
 
  

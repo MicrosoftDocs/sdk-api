@@ -9,8 +9,6 @@ ms.assetid: df0acbed-0352-4591-8908-f0dda1da25dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanDelete, CanDelete method [Picture Acquisition], CanDelete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],CanDelete method, IPhotoAcquireItem.CanDelete, IPhotoAcquireItem::CanDelete, IPhotoAcquireItemCanDelete, photoacquire/IPhotoAcquireItem::CanDelete, picacq.iphotoacquireitem_candelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

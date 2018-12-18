@@ -9,8 +9,6 @@ ms.assetid: 00f5dde6-e9df-4b61-8122-2183e047f9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCallInfoBuffer, GetCallInfoBuffer method [TAPI 2.2], GetCallInfoBuffer method [TAPI 2.2],ITCallInfo interface, ITCallInfo interface [TAPI 2.2],GetCallInfoBuffer method, ITCallInfo.GetCallInfoBuffer, ITCallInfo::GetCallInfoBuffer, _tapi3_itcallinfo_getcallinfobuffer, tapi3.itcallinfo_getcallinfobuffer, tapi3if/ITCallInfo::GetCallInfoBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 916E1FC2-CCA1-4B4E-8710-99D5ECA31ABE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime], winrt.windowsconcatstring, winstring/WindowsConcatString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

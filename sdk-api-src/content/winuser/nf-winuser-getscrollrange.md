@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfuncti
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScrollRange, GetScrollRange function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollRange, _win32_GetScrollRange_cpp, controls.GetScrollRange, controls._win32_GetScrollRange, winuser/GetScrollRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

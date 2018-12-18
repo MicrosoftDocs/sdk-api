@@ -9,8 +9,6 @@ ms.assetid: 78b305ef-761b-48b8-8f1b-371a75df4edb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BatteryLow, BatteryLow method [SENS], BatteryLow method [SENS],ISensOnNow interface, ISensOnNow interface [SENS],BatteryLow method, ISensOnNow.BatteryLow, ISensOnNow::BatteryLow, _zaw_isensonnow_batterylow, sens.isensonnow_batterylow, sensevts/ISensOnNow::BatteryLow, syncmgr.isensonnow_batterylow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

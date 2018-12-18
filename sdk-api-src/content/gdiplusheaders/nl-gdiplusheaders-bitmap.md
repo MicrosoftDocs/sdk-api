@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Bitmap, Bitmap class [GDI+], Bitmap class [GDI+],described, _gdiplus_CLASS_Bitmap_Class, gdiplus._gdiplus_CLASS_Bitmap_Class, gdiplusheaders/Bitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 
@@ -50,5 +48,5 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms536285(v=VS.85).aspx">Bitmap</a> class inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.
 

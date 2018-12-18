@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_VA_SPACE_ENTRY
+UID: NS:processsnapshot.__unnamed_struct_9
 title: PSS_VA_SPACE_ENTRY
 author: windows-sdk-content
 description: Holds the MEMORY_BASIC_INFORMATION returned by PssWalkSnapshot for a virtual address (VA) region.
@@ -7,10 +7,8 @@ old-location: proc_snap\pss_va_space_entry.htm
 tech.root: proc_snap
 ms.assetid: 69B8F6A3-76DF-421B-B89B-73BA3254F897
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_space_entry, processsnapshot/PSS_VA_SPACE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
@@ -128,7 +126,7 @@ If section information was captured, this is the file path backing the section (
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_VA_SPACE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_VA_SPACE</b>.
+<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_VA_SPACE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_VA_SPACE</b>.
 
 
 

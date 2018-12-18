@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2AngleBetweenVectors(XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2AngleBetweenVectors, XMVector2AngleBetweenVectors, XMVector2AngleBetweenVectors method [DirectX Math Support APIs], dxmath.xmvector2anglebetweenvectors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -81,7 +79,7 @@ Returns a vector. The radian angle between <i>V1</i> and <i>V2</i> is replicated
 
 
 
-If V1 and V2 are normalized 2D vectors, it is faster to use <a href="https://msdn.microsoft.com/b3808770-eaf1-4cd1-bf1b-22a2596734f2">XMVector2AngleBetweenNormals</a>.
+If V1 and V2 are normalized 2D vectors, it is faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420744(v=VS.85).aspx">XMVector2AngleBetweenNormals</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -98,7 +96,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b3808770-eaf1-4cd1-bf1b-22a2596734f2">XMVector2AngleBetweenNormals</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420744(v=VS.85).aspx">XMVector2AngleBetweenNormals</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 2889a1a7-3111-4c13-b15a-659f519c22f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputProps, GetInputProps method [windows Media Format], GetInputProps method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputProps method, IWMWriter.GetInputProps, IWMWriter::GetInputProps, IWMWriterGetInputProps, wmformat.iwmwriter_getinputprops, wmsdkidl/IWMWriter::GetInputProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>GetInputProps</b> method retrieves the current media properties of a spec
 
 ### -param ppInput [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> object.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> object.
 
 
 ## -returns
@@ -117,9 +115,9 @@ The <i>dwInputNum</i> value is greater than the highest index number.
 
 
 
-The range of indexes to use for the <i>dwInputNum</i> parameter can be found by calling <a href="https://msdn.microsoft.com/0cb3cd79-0640-4a3b-8e8b-d81df2ff749f">GetInputCount</a>.
+The range of indexes to use for the <i>dwInputNum</i> parameter can be found by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757477(v=VS.85).aspx">GetInputCount</a>.
 
-Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, unless the application calls the <a href="https://msdn.microsoft.com/15084a4d-06e8-4f74-9697-ced794d2cdae">SetInputProps</a> method to configure the input.
+Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, unless the application calls the <a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">SetInputProps</a> method to configure the input.
 
 
 
@@ -129,7 +127,7 @@ Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, u
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 

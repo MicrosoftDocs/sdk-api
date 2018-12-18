@@ -9,8 +9,6 @@ ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 85e293da-4c5b-4b32-9b86-e63074d37274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilMemAlloc, SnmpUtilMemAlloc function [SNMP], _snmp_snmputilmemalloc, snmp.snmputilmemalloc, snmp/SnmpUtilMemAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

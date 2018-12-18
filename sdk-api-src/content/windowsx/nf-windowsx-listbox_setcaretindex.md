@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_SetCaretIndex, ListBox_SetCaretIndex macro [Windows Controls], _win32_ListBox_SetCaretIndex, _win32_ListBox_SetCaretIndex_cpp, controls.ListBox_SetCaretIndex, controls._win32_ListBox_SetCaretIndex, windowsx/ListBox_SetCaretIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

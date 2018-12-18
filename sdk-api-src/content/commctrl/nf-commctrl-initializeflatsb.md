@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Initializes flat scroll bars for a particular window.
 
 ### -param Arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the window that will receive flat scroll bars. 
 
@@ -69,7 +67,7 @@ A handle to the window that will receive flat scroll bars.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 

@@ -9,8 +9,6 @@ ms.assetid: a1cc25ec-b519-4c24-ba85-f2c240749fbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser interface [DirectShow],described, dvbsiparser/IPBDASiParser, mstv.ipbdasiparser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

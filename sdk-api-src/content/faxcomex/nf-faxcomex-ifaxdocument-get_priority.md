@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_7sah.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDocument interface [Fax Service],Priority property, IFaxDocument.Priority, IFaxDocument.get_Priority, IFaxDocument.put_Priority, IFaxDocument::Priority, IFaxDocument::get_Priority, IFaxDocument::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxDocument interface, _mfax_faxdocument.priority, fax._mfax_faxdocument_cpp_mfax_faxdocument_priority_cpp, fax._mfax_faxdocument_priority, faxcomex/IFaxDocument::Priority, faxcomex/IFaxDocument::get_Priority, faxcomex/IFaxDocument::put_Priority, get_Priority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://msdn.microsoft.com/a7b68ea9-46c8-4509-bb91-8e13851858cb">fptLow</a>, which indicates low priority.
+By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://msdn.microsoft.com/en-us/library/ms689192(v=VS.85).aspx">fptLow</a>, which indicates low priority.
 
 
 
@@ -76,15 +74,15 @@ By default, <b>IFaxDocument::get_Priority</b> is set to <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/a87e6de7-1541-4f9e-b411-d8c6907bf93e">FaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685958(v=VS.85).aspx">FaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f01ab-66a7-49c8-95cf-7f80925401be">IFaxDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685960(v=VS.85).aspx">IFaxDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

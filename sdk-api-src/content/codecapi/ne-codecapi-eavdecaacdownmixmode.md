@@ -9,8 +9,6 @@ ms.assetid: d0a62f4a-6b0a-4a77-8d5e-cb40dc1364c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVDecAACDownmixMode, codecapi/eAVDecAACUseARIBDownmix, codecapi/eAVDecAACUseISODownmix, dshow.eavdecaacdownmixmode, eAVDecAACDownmixMode, eAVDecAACDownmixMode enumeration [DirectShow], eAVDecAACUseARIBDownmix, eAVDecAACUseISODownmix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -77,7 +75,7 @@ Use the downmix equations defined by ARIB document STD-B21.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

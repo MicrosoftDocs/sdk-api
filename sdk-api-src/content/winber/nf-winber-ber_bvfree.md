@@ -9,8 +9,6 @@ ms.assetid: 9e5a4bb9-568d-48ee-be75-952916c021b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ber_bvfree, ber_bvfree, ber_bvfree function [LDAP], ldap.ber__bvfree, ldap.ber_bvfree, winber/ber_bvfree, winldap/ber_bvfree"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winber.h
 req.include-header: 

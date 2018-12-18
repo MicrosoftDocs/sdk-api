@@ -9,8 +9,6 @@ ms.assetid: 97b1dbd0-a555-40d3-b2f0-3a363a6ce168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnHeader method, IWMWriterSink.OnHeader, IWMWriterSink::OnHeader, IWMWriterSinkOnHeader, OnHeader, OnHeader method [windows Media Format], OnHeader method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_onheader, wmsdkidl/IWMWriterSink::OnHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>OnHeader</b> method is called by the writer when the ASF header is ready 
 
 ### -param pHeader [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on an object containing the ASF header.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object containing the ASF header.
 
 
 ## -returns
@@ -92,7 +90,7 @@ The ASF header will always be sent before any data units, as the header is requi
 
 
 
-<a href="https://msdn.microsoft.com/73656814-7fac-4567-abcd-dbb3243fcaa8">IWMWriterSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
  
 
  

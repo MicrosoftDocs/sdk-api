@@ -9,8 +9,6 @@ ms.assetid: F7768A87-3981-48E0-A72D-BEA14C189E6E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], IUIAutomationDragPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDragPattern, winauto.uiauto_iuiautomationdragpattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

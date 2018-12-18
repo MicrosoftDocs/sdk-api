@@ -9,8 +9,6 @@ ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener method, IDWriteFontDownloadQueue.RemoveListener, IDWriteFontDownloadQueue::RemoveListener, RemoveListener, RemoveListener method [Direct Write], RemoveListener method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_removelistener, dwrite_3/IDWriteFontDownloadQueue::RemoveListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Unregisters a notification handler that was previously registered using <a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>.
+Unregisters a notification handler that was previously registered using <a href="https://msdn.microsoft.com/en-us/library/Dn890779(v=VS.85).aspx">AddListener</a>.
 
 
 ## -parameters
@@ -62,7 +60,7 @@ Unregisters a notification handler that was previously registered using <a href=
 
 Type: <b>UINT32</b>
 
-Token value previously returned by <a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>.
+Token value previously returned by <a href="https://msdn.microsoft.com/en-us/library/Dn890779(v=VS.85).aspx">AddListener</a>.
 
 
 ## -returns
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>
  
 
  

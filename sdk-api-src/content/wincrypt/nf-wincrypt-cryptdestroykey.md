@@ -9,8 +9,6 @@ ms.assetid: ed5d8047-c9fd-4765-915f-a6a014004b30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptDestroyKey, CryptDestroyKey function [Security], _crypto2_cryptdestroykey, security.cryptdestroykey, wincrypt/CryptDestroyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ae5d659c-5da7-4478-b65f-64cbe227dbc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],LockInChangePoint method, IFileSystemImage.LockInChangePoint, IFileSystemImage::LockInChangePoint, LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

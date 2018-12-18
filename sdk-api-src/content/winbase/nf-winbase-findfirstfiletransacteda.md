@@ -9,8 +9,6 @@ ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFileTransacted function [Files], FindFirstFileTransactedA, FindFirstFileTransactedW, fs.findfirstfiletransacted, winbase/FindFirstFileTransacted, winbase/FindFirstFileTransactedA, winbase/FindFirstFileTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 1B693705-1118-4B9B-A7B7-E8811AE881AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionAffineTransform2DEffect, IDCompositionAffineTransform2DEffect interface [DirectComposition], IDCompositionAffineTransform2DEffect interface [DirectComposition],described, dcomp/IDCompositionAffineTransform2DEffect, directcomp.idcompositionaffinetransform2deffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -56,7 +54,7 @@ The arithmetic composite effect is used to combine 2 images using a weighted sum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionAffineTransform2DEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionAffineTransform2DEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +69,7 @@ The <b>IDCompositionAffineTransform2DEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F034507-9296-4A3C-AD38-F35B0611955B">SetBorderMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919691(v=VS.85).aspx">SetBorderMode</a>
 </td>
 <td align="left" width="63%">
 Sets the border mode to use with the effect.
@@ -80,7 +78,7 @@ Sets the border mode to use with the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29994FF1-F720-4D2A-9B66-1D5E9F1EDFF5">SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919692(v=VS.85).aspx">SetInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the interpolation mode of the effect.
@@ -97,7 +95,7 @@ Sets the interpolation mode of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C6ED5F96-CA6A-4E96-A368-197242066CC0">SetTransformMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919695(v=VS.85).aspx">SetTransformMatrix</a>
 </td>
 <td align="left" width="63%">
 Sets the transform matrix of the effect.
@@ -106,7 +104,7 @@ Sets the transform matrix of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c618926b-c059-69dc-ab90-c58344128589">settransformmatrixelement</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn905279(v=VS.85).aspx">settransformmatrixelement</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets an element of the transform matrix of the effect.
 
@@ -120,7 +118,7 @@ Sets the transform matrix of the effect.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
  
 
  

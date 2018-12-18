@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxfspapiref_5ode.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxDevStartJob, FaxDevStartJob function [Fax Service], _mfax_faxdevstartjob, fax._mfax_faxdevstartjob, faxdev/FaxDevStartJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxdev.h
 req.include-header: 

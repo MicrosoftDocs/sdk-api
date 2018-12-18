@@ -9,8 +9,6 @@ ms.assetid: e1ed4873-5d07-4a96-bd99-31ceeb423f98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContainerCount, GetContainerCount method [Windows Media Player], GetContainerCount method [Windows Media Player],IWMPContentContainerList interface, IWMPContentContainerList interface [Windows Media Player],GetContainerCount method, IWMPContentContainerList.GetContainerCount, IWMPContentContainerList::GetContainerCount, IWMPContentContainerListGetContainerCount, contentpartner/IWMPContentContainerList::GetContainerCount, wmp.iwmpcontentcontainerlist_getcontainercount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

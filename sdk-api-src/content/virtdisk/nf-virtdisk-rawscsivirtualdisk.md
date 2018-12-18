@@ -9,8 +9,6 @@ ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vdssys/RawSCSIVirtualDisk, vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -62,23 +60,23 @@ Issues an embedded SCSI request directly to a virtual hard disk.
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function. This handle may also be a handle to a Remote Shared Virtual Disk. For information on how to open a Remote Shared Virtual Disk, see the <a href="https://msdn.microsoft.com/en-us/library/dn393384.aspx">Remote Shared Virtual Disk Protocol</a> documentation. 
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. This handle may also be a handle to a Remote Shared Virtual Disk. For information on how to open a Remote Shared Virtual Disk, see the <a href="https://msdn.microsoft.com/en-us/library/dn393384.aspx">Remote Shared Virtual Disk Protocol</a> documentation. 
 
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/E6E6BD59-F7BC-4523-B368-6EBE12285593">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt764773(v=VS.85).aspx">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-SCSI virtual disk flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/7E90EA65-F0A1-44C5-9254-ABE89E1F35A5">RAW_SCSI_VIRTUAL_DISK_FLAG</a> enumeration.
+SCSI virtual disk flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Mt764772(v=VS.85).aspx">RAW_SCSI_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Response [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/CF3240A0-134B-4494-8451-7F8C6429D435">RAW_SCSI_VIRTUAL_DISK_RESPONSE</a> structure that contains the results of processing the SCSI command. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt764774(v=VS.85).aspx">RAW_SCSI_VIRTUAL_DISK_RESPONSE</a> structure that contains the results of processing the SCSI command. 
 
 
 

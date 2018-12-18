@@ -9,8 +9,6 @@ ms.assetid: 2fa11ebb-0408-4ea7-9d18-c85860d6e2fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanUseScanLine, CanUseScanLine method [DirectShow], CanUseScanLine method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseScanLine method, IDirectDrawVideo.CanUseScanLine, IDirectDrawVideo::CanUseScanLine, IDirectDrawVideoCanUseScanLine, amvideo/IDirectDrawVideo::CanUseScanLine, dshow.idirectdrawvideo_canusescanline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -80,7 +78,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For a description of the use of scan line detection in the DirectShow video renderer, see <a href="https://msdn.microsoft.com/8378582d-ef82-47ff-a801-934c900ac328">IDirectDrawVideo::UseScanLine</a>.
+For a description of the use of scan line detection in the DirectShow video renderer, see <a href="https://msdn.microsoft.com/en-us/library/Dd406830(v=VS.85).aspx">IDirectDrawVideo::UseScanLine</a>.
 
 
 
@@ -94,7 +92,7 @@ For a description of the use of scan line detection in the DirectShow video rend
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

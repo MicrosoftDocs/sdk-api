@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPath.IsVisible, GraphicsPath::IsVisible, IsVisible, IsVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Methods, gdipluspath/IsVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

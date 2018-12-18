@@ -9,8 +9,6 @@ ms.assetid: 7d6d6bd5-14cc-432b-b712-64bac78f5df9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetIcon method, IShellLibrary.SetIcon, IShellLibrary::SetIcon, SetIcon, SetIcon method [Windows Shell], SetIcon method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetIcon, shell.IShellLibrary_SetIcon, shobjidl_core/IShellLibrary::SetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

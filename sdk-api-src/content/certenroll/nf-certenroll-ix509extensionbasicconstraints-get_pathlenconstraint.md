@@ -9,8 +9,6 @@ ms.assetid: 6d688596-60fd-47d0-8f91-cfda448ac015
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],PathLenConstraint property, IX509ExtensionBasicConstraints.PathLenConstraint, IX509ExtensionBasicConstraints.get_PathLenConstraint, IX509ExtensionBasicConstraints::PathLenConstraint, IX509ExtensionBasicConstraints::get_PathLenConstraint, PathLenConstraint property [Security], PathLenConstraint property [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::PathLenConstraint, certenroll/IX509ExtensionBasicConstraints::get_PathLenConstraint, get_PathLenConstraint, security.ix509extensionbasicconstraints_pathlenconstraint_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378112(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378109(v=VS.85).aspx">InitializeDecode</a> method to initialize the <a href="https://msdn.microsoft.com/en-us/library/Aa378108(v=VS.85).aspx">IX509ExtensionBasicConstraints</a> object and specify the <b>PathLenConstraint</b> property. You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) associated with the extension.
+Call the <a href="https://msdn.microsoft.com/e9a08445-8fc5-45cc-a2c6-ec62470e5c55">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/3b0b5547-6871-412a-8463-889af3b1302b">InitializeDecode</a> method to initialize the <a href="https://msdn.microsoft.com/81a1d567-191f-463c-ba67-0867025d8756">IX509ExtensionBasicConstraints</a> object and specify the <b>PathLenConstraint</b> property. You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) associated with the extension.
 
 
 
@@ -73,7 +71,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378112(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378108(v=VS.85).aspx">IX509ExtensionBasicConstraints</a>
+<a href="https://msdn.microsoft.com/81a1d567-191f-463c-ba67-0867025d8756">IX509ExtensionBasicConstraints</a>
  
 
  

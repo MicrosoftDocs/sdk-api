@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setsystemtime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetSystemtime, DateTime_SetSystemtime macro [Windows Controls], GDT_NONE, GDT_VALID, _win32_DateTime_SetSystemtime, _win32_DateTime_SetSystemtime_cpp, commctrl/DateTime_SetSystemtime, controls.DateTime_SetSystemtime, controls._win32_DateTime_SetSystemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets a date and time picker (DTP) control to a given date and time. You can use 
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param gd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 A value that specifies the action that should be performed. This should be set to one of the following values. 
 

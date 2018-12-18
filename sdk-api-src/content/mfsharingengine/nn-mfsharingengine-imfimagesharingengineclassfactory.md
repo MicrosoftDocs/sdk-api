@@ -9,8 +9,6 @@ ms.assetid: 7D6385BC-4D9C-4026-9363-0F6917A62BDE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFImageSharingEngineClassFactory, IMFImageSharingEngineClassFactory interface [Media Foundation], IMFImageSharingEngineClassFactory interface [Media Foundation],described, mf.imfimagesharingengineclassfactory, mfsharingengine/IMFImageSharingEngineClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

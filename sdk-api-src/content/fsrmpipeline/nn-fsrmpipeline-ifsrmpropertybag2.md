@@ -9,8 +9,6 @@ ms.assetid: 8f69556f-b96e-49b5-bc40-242768ebe767
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], IFsrmPropertyBag2 interface [File Server Resource Manager],described, fs.ifsrmpropertybag2, fsrm.ifsrmpropertybag2, fsrmpipeline/IFsrmPropertyBag2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: 

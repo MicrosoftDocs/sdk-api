@@ -9,8 +9,6 @@ ms.assetid: 5e47ef96-9971-47b0-a003-b38f4045da7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeliverTime, DeliverTime method [windows Media Format], DeliverTime method [windows Media Format],IWMReaderAdvanced interface, DeliverTime method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced interface [windows Media Format],DeliverTime method, IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced2 interface [windows Media Format],DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -114,9 +112,9 @@ The method failed for an unspecified reason.
 
 
 
-Before making the first call to this method, call the <a href="https://msdn.microsoft.com/1f29beea-1da4-41e0-a68d-93af3b1f55ed">IWMReaderAdvanced::SetUserProvidedClock</a> method with the value <b>TRUE</b>, to specify that the application is providing the clock. Otherwise, the <b>DeliverTime</b> method returns E_UNEXPECTED.
+Before making the first call to this method, call the <a href="https://msdn.microsoft.com/en-us/library/Dd743489(v=VS.85).aspx">IWMReaderAdvanced::SetUserProvidedClock</a> method with the value <b>TRUE</b>, to specify that the application is providing the clock. Otherwise, the <b>DeliverTime</b> method returns E_UNEXPECTED.
 
-After <b>DeliverTime</b> is called, the reader reads data as fast as possible until it reaches the specified time. When the reader reaches that time, it calls <a href="https://msdn.microsoft.com/9913bbc4-df59-484f-b050-324e2ecdeb1c">IWMReaderCallbackAdvanced::OnTime</a>, and then sends samples to the callback.
+After <b>DeliverTime</b> is called, the reader reads data as fast as possible until it reaches the specified time. When the reader reaches that time, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd743502(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnTime</a>, and then sends samples to the callback.
 
 In general, the value of <i>cnsTime</i> should increase each time the method is called (that is, the clock should run forward). However, sometimes it may be possible to pass a smaller value. The <b>DeliverTime</b> method is asynchronous, meaning the reader object reads the data on another thread. The application can specify a smaller time value only if the reader object has not reached that point in the file. For example, if the application calls <b>DeliverTime</b> with the value 100 seconds, and immediately calls it again with the value 50 seconds, the call would probably succeed, because the reader object will not reach the 50-second point in the file. However, you cannot be sure the call will succeed in this case, because the application does not control the reader's thread.
 
@@ -132,11 +130,11 @@ In general, the value of <i>cnsTime</i> should increase each time the method is 
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2</a>
  
 
  

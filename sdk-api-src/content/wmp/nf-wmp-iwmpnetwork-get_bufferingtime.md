@@ -9,8 +9,6 @@ ms.assetid: a42a7187-9bf2-4db5-8176-6912e18c4d50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingTime method, IWMPNetwork.get_bufferingTime, IWMPNetwork::get_bufferingTime, IWMPNetworkget_bufferingTime, get_bufferingTime, get_bufferingTime method [Windows Media Player], get_bufferingTime method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingtime, wmp/IWMPNetwork::get_bufferingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -99,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f25992f-e3a0-477b-b445-1f3fb7d9eae1">IWMPNetwork::put_bufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563484(v=VS.85).aspx">IWMPNetwork::put_bufferingTime</a>
  
 
  

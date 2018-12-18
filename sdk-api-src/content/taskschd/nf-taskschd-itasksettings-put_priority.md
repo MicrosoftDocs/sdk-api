@@ -9,8 +9,6 @@ ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],Priority property, ITaskSettings.Priority, ITaskSettings.put_Priority, ITaskSettings::Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler],ITaskSettings interface, put_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

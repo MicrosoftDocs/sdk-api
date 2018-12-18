@@ -9,8 +9,6 @@ ms.assetid: a8fcfd99-7b04-4aa3-8619-272b254551a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

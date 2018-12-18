@@ -2,7 +2,7 @@
 UID: NA:versionhelpers
 ms.assetid: 92defb9a-8bb0-348a-9465-c80575f46e76
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: e9c75760-42e8-4ad0-aa5c-82bfdc1327af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Manufacturer method, IBootOptions.get_Manufacturer, IBootOptions::get_Manufacturer, get_Manufacturer, get_Manufacturer method [IMAPI], get_Manufacturer method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_manufacturer, imapi2fs/IBootOptions::get_Manufacturer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

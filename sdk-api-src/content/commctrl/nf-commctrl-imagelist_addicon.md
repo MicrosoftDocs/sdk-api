@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_AddIcon, ImageList_AddIcon macro [Windows Controls], _win32_ImageList_AddIcon, _win32_ImageList_AddIcon_cpp, commctrl/ImageList_AddIcon, controls.ImageList_AddIcon, controls._win32_ImageList_AddIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -67,7 +65,7 @@ A handle to the image list. If this parameter identifies a masked image list, th
 
 ### -param hicon
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HICON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
 
 A handle to the icon or cursor that contains the bitmap and mask for the new image. 
 

@@ -9,8 +9,6 @@ ms.assetid: c226a049-e8e5-4283-a8c4-102beed08b23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInt64Array, CreateInt64Array method [Windows Runtime], CreateInt64Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt64Array method, IPropertyValueStatics.CreateInt64Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt64Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt64Array, winrt.ipropertyvaluefactory_createint64array, winrt.ipropertyvaluestatics_createint64array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

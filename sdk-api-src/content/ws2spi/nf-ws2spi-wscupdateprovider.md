@@ -9,8 +9,6 @@ ms.assetid: 7777a2ff-2ece-4f28-88af-87fc96fdda9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSCUpdateProvider, WSCUpdateProvider function [Winsock], _win32_wscupdateprovider_2, winsock.wscupdateprovider_2, ws2spi/WSCUpdateProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

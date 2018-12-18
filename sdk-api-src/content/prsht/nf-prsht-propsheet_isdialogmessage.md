@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_isdialogmessage.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_IsDialogMessage, PropSheet_IsDialogMessage macro [Windows Controls], _win32_PropSheet_IsDialogMessage, _win32_PropSheet_IsDialogMessage_cpp, controls.PropSheet_IsDialogMessage, controls._win32_PropSheet_IsDialogMessage, prsht/PropSheet_IsDialogMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

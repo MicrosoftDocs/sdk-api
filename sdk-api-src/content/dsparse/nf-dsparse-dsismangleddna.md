@@ -9,8 +9,6 @@ ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

@@ -9,8 +9,6 @@ ms.assetid: 55d53ed6-8046-4605-b543-ab0e5ad8d8f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],Open method, IRDPSRAPITransportStream.Open, IRDPSRAPITransportStream::Open, Open, Open method [RDP], Open method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_open, rdpencomapi/IRDPSRAPITransportStream::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

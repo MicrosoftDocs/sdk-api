@@ -9,8 +9,6 @@ ms.assetid: 8c50af53-8298-401e-826e-0fb1d1410499
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

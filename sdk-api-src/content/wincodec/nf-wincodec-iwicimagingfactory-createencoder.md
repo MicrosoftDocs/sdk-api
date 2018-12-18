@@ -9,8 +9,6 @@ ms.assetid: 7aae3ea6-2d8b-4764-9c78-a6cce49012a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEncoder, CreateEncoder method [Windows Imaging Component], CreateEncoder method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateEncoder method, IWICImagingFactory.CreateEncoder, IWICImagingFactory::CreateEncoder, _wic_codec_iwicimagingfactory_createencoder, wic._wic_codec_iwicimagingfactory_createencoder, wincodec/IWICImagingFactory::CreateEncoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 91576E2D-A28F-43A8-B9FE-5888779877F9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11DeviceContext4 interface [Direct3D 11],Wait method, ID3D11DeviceContext4.Wait, ID3D11DeviceContext4::Wait, Wait, Wait method [Direct3D 11], Wait method [Direct3D 11],ID3D11DeviceContext4 interface, d3d11_3/ID3D11DeviceContext4::Wait, direct3d11.id3d11devicecontext4_wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 Waits until the specified fence reaches or exceeds the specified value before future work can begin.
 
-This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/en-us/library/Dn899173(v=VS.85).aspx">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/75D494D0-BCEC-453E-AB4F-E57CE2C9B318">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 <div class="alert"><b>Note</b>  This method only applies to immediate-mode contexts.</div><div> </div>
 
 ## -parameters

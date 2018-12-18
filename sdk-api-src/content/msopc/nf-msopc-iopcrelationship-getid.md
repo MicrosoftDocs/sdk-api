@@ -7,10 +7,8 @@ old-location: opc\iopcrelationship_getid.htm
 tech.root: OPC
 ms.assetid: 8646d592-d568-4b82-80f3-2673cd0d2721
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetId method, IOpcRelationship.GetId, IOpcRelationship::GetId, msopc/IOpcRelationship::GetId, opc.iopcrelationship_getid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

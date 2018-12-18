@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_Scroll, Edit_Scroll macro [Windows Controls], _win32_Edit_Scroll, _win32_Edit_Scroll_cpp, controls.Edit_Scroll, controls._win32_Edit_Scroll, windowsx/Edit_Scroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

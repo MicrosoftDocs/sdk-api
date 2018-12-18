@@ -9,8 +9,6 @@ ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

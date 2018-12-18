@@ -9,8 +9,6 @@ ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwrite.h
 req.include-header: 

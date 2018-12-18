@@ -9,8 +9,6 @@ ms.assetid: f4fdde49-0867-4967-b975-f43bd9f6adc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetID method, ITLegacyAddressMediaControl.GetID, ITLegacyAddressMediaControl::GetID, _tapi3_itlegacyaddressmediacontrol_getid, tapi3.itlegacyaddressmediacontrol_getid, tapi3if/ITLegacyAddressMediaControl::GetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

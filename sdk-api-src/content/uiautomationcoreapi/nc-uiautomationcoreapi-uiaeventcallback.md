@@ -9,8 +9,6 @@ ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: uiautomationcoreapi.h
 req.include-header: 

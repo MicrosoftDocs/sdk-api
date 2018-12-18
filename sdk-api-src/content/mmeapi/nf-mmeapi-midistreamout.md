@@ -9,8 +9,6 @@ ms.assetid: f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamOut, midiStreamOut, midiStreamOut function [Windows Multimedia], mmeapi/midiStreamOut, multimedia.midistreamout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

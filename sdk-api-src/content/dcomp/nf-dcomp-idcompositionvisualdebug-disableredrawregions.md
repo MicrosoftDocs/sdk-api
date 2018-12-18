@@ -9,8 +9,6 @@ ms.assetid: 5F1712D4-B3F4-475E-9AB0-868B1DCB8F42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisableRedrawRegions, DisableRedrawRegions method [DirectComposition], DisableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableRedrawRegions method, IDCompositionVisualDebug.DisableRedrawRegions, IDCompositionVisualDebug::DisableRedrawRegions, dcomp/IDCompositionVisualDebug::DisableRedrawRegions, directcomp.idcompositionvisualdebug_disableredrawregions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -74,11 +72,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE">IDCompositionVisualDebug::EnableRedrawRegions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280433(v=VS.85).aspx">IDCompositionVisualDebug::EnableRedrawRegions</a>
  
 
  

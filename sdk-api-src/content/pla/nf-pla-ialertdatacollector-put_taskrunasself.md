@@ -7,10 +7,8 @@ old-location: pla\ialertdatacollector_taskrunasself.htm
 tech.root: pla
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector.put_TaskRunAsSelf, IAlertDataCollector::TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IAlertDataCollector interface, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf, put_TaskRunAsSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

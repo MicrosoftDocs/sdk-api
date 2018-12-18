@@ -9,8 +9,6 @@ ms.assetid: 6a051235-3e32-40d3-a17e-efc571592dae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToInt64WithDefault, PropVariantToInt64WithDefault function [Windows Properties], properties.PropVariantToInt64WithDefault, propvarutil/PropVariantToInt64WithDefault, shell.PropVariantToInt64WithDefault, shell_PropVariantToInt64WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -89,12 +87,12 @@ Returns the extracted <b>LONGLONG</b> value, or default.
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a <b>LONGLONG</b> value and would like to use a default value if it does not. For instance, an application obtaining values from a property store can use this to safely extract the <b>LONGLONG</b> value for Int64 properties.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I8</b>, this helper function extracts the <b>LONGLONG</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>LONGLONG</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="https://msdn.microsoft.com/en-us/library/Bb776558(v=VS.85).aspx">PropVariantToInt64WithDefault</a> will return the default provided by <i>llDefault</i>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type <b>VT_I8</b>, this helper function extracts the <b>LONGLONG</b> value. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a <b>LONGLONG</b>. If the source <b>PROPVARIANT</b> has type <b>VT_EMPTY</b> or a conversion is not possible, then <a href="shell.PropVariantToInt64WithDefault">PropVariantToInt64WithDefault</a> will return the default provided by <i>llDefault</i>. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776558(v=VS.85).aspx">PropVariantToInt64WithDefault</a> to access a <b>LONGLONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToInt64WithDefault">PropVariantToInt64WithDefault</a> to access a <b>LONGLONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -118,19 +116,19 @@ LONGLONG llValue = PropVariantToInt64WithDefault(propvar, -1);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762301(v=VS.85).aspx">InitPropVariantFromInt64</a>
+<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
+<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776554(v=VS.85).aspx">PropVariantToInt64</a>
+<a href="shell.PropVariantToInt64">PropVariantToInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776612(v=VS.85).aspx">VariantToInt64</a>
+<a href="shell.VariantToInt64">VariantToInt64</a>
  
 
  

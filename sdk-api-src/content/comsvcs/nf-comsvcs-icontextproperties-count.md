@@ -9,8 +9,6 @@ ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IContextProperties interface, IContextProperties interface [COM+],Count method, IContextProperties.Count, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

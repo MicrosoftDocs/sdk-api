@@ -9,8 +9,6 @@ ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode method, IMFSensorDevice.SetSensorDeviceMode, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

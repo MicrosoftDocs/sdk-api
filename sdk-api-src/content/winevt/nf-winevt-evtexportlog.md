@@ -9,8 +9,6 @@ ms.assetid: c177029f-84e3-41ec-bbdb-26b0c1bf481f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtExportLog, EvtExportLog function [EventLog], wes.evtexportlog, winevt/EvtExportLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

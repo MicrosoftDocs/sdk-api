@@ -9,8 +9,6 @@ ms.assetid: 45416493-7f0b-4bef-b785-513d4f404541
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method [COM],IOleUIObjInfo interface, GetConvertInfo method [COM],IOleUIObjInfoA interface, GetConvertInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetConvertInfo method, IOleUIObjInfo::GetConvertInfo, IOleUIObjInfoA interface [COM],GetConvertInfo method, IOleUIObjInfoA.GetConvertInfo, IOleUIObjInfoA::GetConvertInfo, IOleUIObjInfoW interface [COM],GetConvertInfo method, IOleUIObjInfoW::GetConvertInfo, _ole_IOleUIObjInfo_GetConvertInfo, com.ioleuiobjinfo_getconvertinfo, oledlg/IOleUIObjInfo::GetConvertInfo, oledlg/IOleUIObjInfoA::GetConvertInfo, oledlg/IOleUIObjInfoW::GetConvertInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILockBytes interface [Structured Storage],LockRegion method, ILockBytes.LockRegion, ILockBytes::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_lockregion, objidl/ILockBytes::LockRegion, stg.ilockbytes_lockregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

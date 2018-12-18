@@ -9,8 +9,6 @@ ms.assetid: 2c67eb68-1623-4aaa-abde-8481b77bd568
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveAllProps method, IWMBackupRestoreProps.RemoveAllProps, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -83,7 +81,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/3a5af1f3-e652-4729-931b-d0702af408f3">IWMBackupRestoreProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743291(v=VS.85).aspx">IWMBackupRestoreProps Interface</a>
  
 
  

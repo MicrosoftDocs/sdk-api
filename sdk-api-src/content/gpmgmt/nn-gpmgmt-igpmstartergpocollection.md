@@ -9,8 +9,6 @@ ms.assetid: b650b1c6-0597-468a-afdc-a21d61f1a8a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

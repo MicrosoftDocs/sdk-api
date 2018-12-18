@@ -9,8 +9,6 @@ ms.assetid: 72db3d85-b7f2-4dae-9637-b003df6e9cf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],ScanNetwork method, IMbnInterface.ScanNetwork, IMbnInterface::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_scannetwork, mbnapi/IMbnInterface::ScanNetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

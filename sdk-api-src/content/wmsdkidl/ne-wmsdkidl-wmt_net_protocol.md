@@ -9,8 +9,6 @@ ms.assetid: dc8b67a9-33fe-408b-b0b5-62a2b219b6b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_NET_PROTOCOL, WMT_NET_PROTOCOL enumeration [windows Media Format], WMT_PROTOCOL_HTTP, wmformat.wmt_net_protocol, wmsdkidl/WMT_NET_PROTOCOL, wmsdkidl/WMT_PROTOCOL_HTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -84,11 +82,11 @@ This enumeration is used in two methods, <b>GetNetworkProtocol</b> and <b>SetNet
 
 
 
-<a href="https://msdn.microsoft.com/5007b5be-9521-46f4-8e5c-85e70d48e99f">IWMWriterNetworkSink::GetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798766(v=VS.85).aspx">IWMWriterNetworkSink::GetNetworkProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7">IWMWriterNetworkSink::SetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798769(v=VS.85).aspx">IWMWriterNetworkSink::SetNetworkProtocol</a>
  
 
  

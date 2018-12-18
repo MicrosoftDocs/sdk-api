@@ -9,8 +9,6 @@ ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

@@ -1,5 +1,5 @@
 ---
-UID: NS:mpeg2bits.MPEG_HEADER_VERSION_BITS
+UID: NS:mpeg2bits.__unnamed_struct_5
 title: MPEG_HEADER_VERSION_BITS
 author: windows-sdk-content
 description: The MPEG_HEADER_VERSION_BITS structure contains the first 8 bits following the TSID in an MPEG-2 PSI section. These bits contain the version number and the current/next indicator.
@@ -7,10 +7,8 @@ old-location: mstv\mpeg_header_version_bits.htm
 tech.root: mstv
 ms.assetid: d9a33ca6-2e35-4f7c-8621-ce30effeb687
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PMPEG_HEADER_VERSION_BITS, MPEG_HEADER_VERSION_BITS, MPEG_HEADER_VERSION_BITS structure [Microsoft TV Technologies], MPEG_HEADER_VERSION_BITSStructure, PMPEG_HEADER_VERSION_BITS, PMPEG_HEADER_VERSION_BITS structure pointer [Microsoft TV Technologies], mpeg2bits/MPEG_HEADER_VERSION_BITS, mpeg2bits/PMPEG_HEADER_VERSION_BITS, mstv.mpeg_header_version_bits"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mpeg2bits.h
 req.include-header: Mpeg2Structs.h

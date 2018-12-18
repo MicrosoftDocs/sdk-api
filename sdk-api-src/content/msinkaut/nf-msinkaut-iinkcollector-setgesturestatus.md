@@ -9,8 +9,6 @@ ms.assetid: 7bab227f-d095-48e8-856f-6446e62826dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkCollector interface [Tablet PC],SetGestureStatus method, IInkCollector.SetGestureStatus, IInkCollector::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetGestureStatus, tablet.inkcollector_setgesturestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -192,7 +190,7 @@ For the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

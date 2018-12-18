@@ -9,8 +9,6 @@ ms.assetid: 85A16E88-5010-403F-B6B9-EBA6A4321463
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Direct2D], Clone method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],Clone method, ID2D1SvgAttribute.Clone, ID2D1SvgAttribute::Clone, d2d1svg/ID2D1SvgAttribute::Clone, direct2d.id2d1svgattribute_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -69,7 +67,7 @@ Specifies the attribute value to clone.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

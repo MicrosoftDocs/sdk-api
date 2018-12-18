@@ -9,8 +9,6 @@ ms.assetid: 75168197-FA76-4B57-AF24-C92DF2602985
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionRectangleClip.SetTopLeftRadiusX, IDCompositionRectangleClip::SetTopLeftRadiusX, SetTopLeftRadiusX, SetTopLeftRadiusX methods [DirectComposition], dcomp/SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,7 +82,7 @@ Animates the value of the TopLeftRadiusX property of this clip.
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
  
 
  

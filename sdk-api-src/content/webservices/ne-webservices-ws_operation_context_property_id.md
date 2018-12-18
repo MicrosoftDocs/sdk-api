@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_OPERATION_CONTEXT_PROPERTY_ID
+UID: NE:webservices.__unnamed_enum_27
 title: WS_OPERATION_CONTEXT_PROPERTY_ID
 author: windows-sdk-content
 description: The properties available on the Context. Not all properties may be available at a given point on a context. All context properties are available through WsGetOperationContextProperty.
@@ -7,10 +7,8 @@ old-location: wsw\ws_operation_context_property_id.htm
 tech.root: wsw
 ms.assetid: 71f7d0fe-c120-4667-93de-a0dfb94fccc1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, WS_OPERATION_CONTEXT_PROPERTY_HEAP, WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_ID, WS_OPERATION_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows], WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, webservices/WS_OPERATION_CONTEXT_PROPERTY_HEAP, webservices/WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_ID, webservices/WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, wsw.ws_operation_context_property_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -79,7 +77,7 @@ The value represents the contract description. This property is available to ser
 ### -field WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE
 
 The value is a pointer to the host state specified on the <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> as the 
-                    <a href="https://msdn.microsoft.com/305fe7ad-e4a2-499a-b34b-e5b7cde53e22">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd323431(v=VS.85).aspx">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
                      service operations  and to the <a href="https://msdn.microsoft.com/2fcd8905-7002-41b8-b947-14d53c889c21">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
                 
 

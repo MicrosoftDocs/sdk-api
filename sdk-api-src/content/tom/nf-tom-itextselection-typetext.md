@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextSelection interface [Windows Controls],TypeText method, ITextSelection.TypeText, ITextSelection::TypeText, TypeText, TypeText method [Windows Controls], TypeText method [Windows Controls],ITextSelection interface, _win32_ITextSelection_TypeText, _win32_ITextSelection_TypeText_cpp, controls.ITextSelection_TypeText, controls._win32_ITextSelection_TypeText, tom/ITextSelection::TypeText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

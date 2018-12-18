@@ -9,8 +9,6 @@ ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetGetNetworkInformation, WNetGetNetworkInformation function [Windows Networking (WNet)], WNetGetNetworkInformationA, WNetGetNetworkInformationW, _win32_wnetgetnetworkinformation, winnetwk/WNetGetNetworkInformation, winnetwk/WNetGetNetworkInformationA, winnetwk/WNetGetNetworkInformationW, wnet.wnetgetnetworkinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

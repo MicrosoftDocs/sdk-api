@@ -9,8 +9,6 @@ ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseClusterNode, CloseClusterNode function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster], _wolf_closeclusternode, clusapi/CloseClusterNode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-Closes a  <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NODE</b> type defines a pointer to this function.
+Closes a  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters

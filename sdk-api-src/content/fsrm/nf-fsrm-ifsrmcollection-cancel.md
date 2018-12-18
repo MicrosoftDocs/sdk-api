@@ -9,8 +9,6 @@ ms.assetid: f51f1a8d-a857-4a17-96ca-1f3ed391b7d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],Cancel method, IFsrmCollection.Cancel, IFsrmCollection::Cancel, fs.ifsrmcollection_cancel, fsrm.ifsrmcollection_cancel, fsrm/IFsrmCollection::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -9,8 +9,6 @@ ms.assetid: 9DF51D95-97B0-4EC9-8F77-E49B16D76D77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICDdsEncoder interface [Windows Imaging Component],SetParameters method, IWICDdsEncoder.SetParameters, IWICDdsEncoder::SetParameters, SetParameters, SetParameters method [Windows Imaging Component], SetParameters method [Windows Imaging Component],IWICDdsEncoder interface, wic.iwicddsencoder_setparameters, wincodec/IWICDdsEncoder::SetParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

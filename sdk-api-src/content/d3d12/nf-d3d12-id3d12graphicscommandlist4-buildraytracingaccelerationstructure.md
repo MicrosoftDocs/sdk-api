@@ -9,8 +9,6 @@ ms.assetid: B714530C-40E6-4C67-8908-373BB26E6635
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BuildRaytracingAccelerationStructure, BuildRaytracingAccelerationStructure method, BuildRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,BuildRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.BuildRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_buildraytracingaccelerationstructure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -98,7 +96,7 @@ Post-build information can also be obtained separately from an already built acc
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

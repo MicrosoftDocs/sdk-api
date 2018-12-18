@@ -9,8 +9,6 @@ ms.assetid: 47d52ab8-f182-4bfb-8745-ad2d23197088
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddTab, AddTab method [Windows Shell], AddTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],AddTab method, ITaskbarList.AddTab, ITaskbarList::AddTab, _win32_ITaskbarList_AddTab, shell.ITaskbarList_AddTab, shobjidl_core/ITaskbarList::AddTab
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

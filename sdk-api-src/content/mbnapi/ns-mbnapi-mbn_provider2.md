@@ -9,8 +9,6 @@ ms.assetid: 9D681192-1E40-4314-8E7F-8934AA8162D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MBN_PROVIDER2, MBN_PROVIDER2 structure [Microsoft Broadband Networks], mbn.mbn_provider2, mbnapi/MBN_PROVIDER2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

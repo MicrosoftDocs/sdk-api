@@ -9,8 +9,6 @@ ms.assetid: f9a4ec84-4ea3-4e84-9def-7ca93be0f1ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDataUnitExtensionCount, GetDataUnitExtensionCount method [windows Media Format], GetDataUnitExtensionCount method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtensionCount method, IWMStreamConfig2.GetDataUnitExtensionCount, IWMStreamConfig2::GetDataUnitExtensionCount, IWMStreamConfig2GetDataUnitExtensionCount, wmformat.iwmstreamconfig2_getdataunitextensioncount, wmsdkidl/IWMStreamConfig2::GetDataUnitExtensionCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3ce92541-6634-4418-a7ee-f9bcaf8f42ad">IWMStreamConfig2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/766124f6-b376-421b-b2ee-2c280af3bd16">IWMStreamConfig2::GetDataUnitExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798549(v=VS.85).aspx">IWMStreamConfig2::GetDataUnitExtension</a>
  
 
  

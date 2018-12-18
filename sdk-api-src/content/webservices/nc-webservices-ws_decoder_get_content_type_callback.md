@@ -9,8 +9,6 @@ ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -154,7 +152,7 @@ The callback has to set newContentType to one that is supported by underlying ch
                 the new content type should always be application/soap+msbinsession1.
             
 
-For <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
+For <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
               be set to the value of the "Content-Encoding" HTTP header.  If this header does
               not exist, then <b>NULL</b> will be passed.
             

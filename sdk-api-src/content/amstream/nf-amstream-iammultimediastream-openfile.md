@@ -9,8 +9,6 @@ ms.assetid: 0b3f7401-9afe-41e5-827f-e4e8d60b7480
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenFile method, IAMMultiMediaStream.OpenFile, IAMMultiMediaStream::OpenFile, IAMMultiMediaStreamOpenFile, OpenFile, OpenFile method [DirectShow], OpenFile method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenFile, dshow.iammultimediastream_openfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -157,7 +155,7 @@ Success.
 
 
 
-The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="https://msdn.microsoft.com/dfc38480-7b8d-42ad-937b-dd39384796c9">IStreamSample::GetMediaStream</a> method.
+The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="https://msdn.microsoft.com/en-us/library/Dd377145(v=VS.85).aspx">IStreamSample::GetMediaStream</a> method.
 
 
 
@@ -167,7 +165,7 @@ The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video 
 
 
 
-<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
  
 
  

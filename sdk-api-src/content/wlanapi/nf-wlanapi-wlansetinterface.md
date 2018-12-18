@@ -9,8 +9,6 @@ ms.assetid: 114a2a71-babd-4cd7-860a-fea523bcc865
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlanSetInterface, WlanSetInterface function [NativeWIFI], nwifi.wlansetinterface, wlanapi/WlanSetInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

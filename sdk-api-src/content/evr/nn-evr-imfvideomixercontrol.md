@@ -9,8 +9,6 @@ ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

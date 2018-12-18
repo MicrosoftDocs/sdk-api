@@ -9,8 +9,6 @@ ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

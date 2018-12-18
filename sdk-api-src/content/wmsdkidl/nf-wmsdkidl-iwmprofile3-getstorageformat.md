@@ -9,8 +9,6 @@ ms.assetid: 42aea1df-63cd-4eda-86c8-3cebe92d5c82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStorageFormat, GetStorageFormat method [windows Media Format], GetStorageFormat method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStorageFormat method, IWMProfile3.GetStorageFormat, IWMProfile3::GetStorageFormat, IWMProfile3GetStorageFormat, wmformat.iwmprofile3_getstorageformat, wmsdkidl/IWMProfile3::GetStorageFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -92,7 +90,7 @@ To retrieve the storage format, use the <a href="https://msdn.microsoft.com/fea5
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
  
 
  

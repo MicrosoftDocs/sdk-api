@@ -9,8 +9,6 @@ ms.assetid: 857111cc-f590-4383-994c-a72402f8a4aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCounter, CreateCounter method [Direct3D 11], CreateCounter method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateCounter method, ID3D11Device.CreateCounter, ID3D11Device::CreateCounter, ac3cd491-a912-ddaf-0f13-ac5555a100ca, d3d11/ID3D11Device::CreateCounter, direct3d11.id3d11device_createcounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
@@ -61,16 +59,16 @@ Create a counter object for measuring GPU performance.
 
 ### -param pCounterDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476103(v=VS.85).aspx">D3D11_COUNTER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476103(v=VS.85).aspx">D3D11_COUNTER_DESC</a>).
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/a0816409-fbe1-4b45-9b69-6f85b20008cb">D3D11_COUNTER_DESC</a>).
 
 
 ### -param ppCounter [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476364(v=VS.85).aspx">ID3D11Counter</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/3f35b3d5-f829-443c-9ea6-6cffdd4f58b7">ID3D11Counter</a>**</b>
 
-Address of a pointer to a counter (see <a href="https://msdn.microsoft.com/en-us/library/Ff476364(v=VS.85).aspx">ID3D11Counter</a>).
+Address of a pointer to a counter (see <a href="https://msdn.microsoft.com/3f35b3d5-f829-443c-9ea6-6cffdd4f58b7">ID3D11Counter</a>).
 
 
 ## -returns
@@ -95,7 +93,7 @@ E_INVALIDARG is returned whenever an out-of-range well-known or device-dependent
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

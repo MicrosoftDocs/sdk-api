@@ -9,8 +9,6 @@ ms.assetid: 4C537868-F655-457F-9B70-FA7633CF714C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Equals, Equals method [Direct Write], Equals method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],Equals method, IDWriteFont3.Equals, IDWriteFont3::Equals, directwrite.idwritefont3_equals, dwrite_3/IDWriteFont3::Equals
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ Returns whether the two instances of font references are equal. Returns <b>TRUE<
 
 
 
-<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>
  
 
  

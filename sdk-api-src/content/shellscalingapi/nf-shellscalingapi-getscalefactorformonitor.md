@@ -9,8 +9,6 @@ ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

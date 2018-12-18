@@ -9,8 +9,6 @@ ms.assetid: 89499136-ae6e-48ff-ad33-6247c8659f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationCompletedCallbackArgs, IInstallationCompletedCallbackArgs interface [Windows Update Agent], IInstallationCompletedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationcompletedcallbackargs, wuapi/IInstallationCompletedCallbackArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWMPPlayer4.openPlayer, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -112,7 +110,7 @@ If this method is called from a Windows Media Player ActiveX control embedded in
 
 
 
-<a href="https://msdn.microsoft.com/afe5dbd1-96e1-4abe-b843-ec6130fa02d0">IWMPPlayer4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563522(v=VS.85).aspx">IWMPPlayer4 Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

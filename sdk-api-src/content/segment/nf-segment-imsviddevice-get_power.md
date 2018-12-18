@@ -9,8 +9,6 @@ ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -146,11 +144,11 @@ Not all device types implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0122a8-6015-4255-a7d6-ab72b4025bd6">IMSVidDevice::put_Power</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694532(v=VS.85).aspx">IMSVidDevice::put_Power</a>
  
 
  

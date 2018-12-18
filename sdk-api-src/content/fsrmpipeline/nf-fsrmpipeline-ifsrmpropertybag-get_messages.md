@@ -9,8 +9,6 @@ ms.assetid: 3aa6bc28-03bb-40ea-8c56-94133c8eeb54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],Messages property, IFsrmPropertyBag.Messages, IFsrmPropertyBag.get_Messages, IFsrmPropertyBag::Messages, IFsrmPropertyBag::get_Messages, Messages property [File Server Resource Manager], Messages property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_messages, fsrm.ifsrmpropertybag_messages, fsrmpipeline/IFsrmPropertyBag::Messages, fsrmpipeline/IFsrmPropertyBag::get_Messages, get_Messages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

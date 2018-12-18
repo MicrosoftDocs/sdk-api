@@ -9,8 +9,6 @@ ms.assetid: 0653D169-CE6B-4D8F-A640-F49B2BCBBF61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadpoolWaitEx, SetThreadpoolWaitEx function, base.setthreadpoolwaitex, threadpoolapiset/SetThreadpoolWaitEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: 

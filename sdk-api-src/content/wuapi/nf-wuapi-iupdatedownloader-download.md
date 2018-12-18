@@ -9,8 +9,6 @@ ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7d08a349-fdfc-40bc-97f4-4429ff6ade7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerShutdown, EapPeerShutdown function [EAPHost], eaphost.eappeershutdown, eapmethodpeerapis/EapPeerShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

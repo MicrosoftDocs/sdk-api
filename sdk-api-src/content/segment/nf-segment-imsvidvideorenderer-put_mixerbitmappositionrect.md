@@ -9,8 +9,6 @@ ms.assetid: 05542d75-1723-4581-ac8b-6a577e0085cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmapPositionRect method, IMSVidVideoRenderer.put_MixerBitmapPositionRect, IMSVidVideoRenderer::put_MixerBitmapPositionRect, IMSVidVideoRendererput_MixerBitmapPositionRect, mstv.imsvidvideorenderer_put_mixerbitmappositionrect, put_MixerBitmapPositionRect, put_MixerBitmapPositionRect method [Microsoft TV Technologies], put_MixerBitmapPositionRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmapPositionRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -90,15 +88,15 @@ If the static bitmap image is set, the VMR alpha blends the bitmap onto the vide
 
 
 
-<a href="https://msdn.microsoft.com/a91561e3-469b-412a-b5ab-af2a5a0855a6">IMSVidVideoRenderer::SetupMixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694760(v=VS.85).aspx">IMSVidVideoRenderer::SetupMixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2270786-5289-4c41-898e-651ed881842b">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694741(v=VS.85).aspx">IMSVidVideoRenderer::get_MixerBitmapPositionRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa9d9bea-f711-42f1-a247-322036744c44">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1725d0b8-2ecb-4cce-b20f-7e8d0da502de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClosedRangeEnd, GetClosedRangeEnd method [Windows Sync], GetClosedRangeEnd method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeEnd method, IRangeException.GetClosedRangeEnd, IRangeException::GetClosedRangeEnd, winsync.irangeexception_getclosedrangeend, winsync/IRangeException::GetClosedRangeEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

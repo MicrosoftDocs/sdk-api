@@ -9,8 +9,6 @@ ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -73,7 +71,7 @@ A reference to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-d
 
 Type: <b>DWORD</b>
 
-Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KNOWN_FOLDER_FLAG</a> values.
 
 
 ### -param pszItem [in, optional]

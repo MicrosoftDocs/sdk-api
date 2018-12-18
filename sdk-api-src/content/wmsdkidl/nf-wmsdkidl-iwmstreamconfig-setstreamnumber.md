@@ -9,8 +9,6 @@ ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamNumber method, IWMStreamConfig.SetStreamNumber, IWMStreamConfig::SetStreamNumber, IWMStreamConfigSetStreamNumber, SetStreamNumber, SetStreamNumber method [windows Media Format], SetStreamNumber method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamnumber, wmsdkidl/IWMStreamConfig::SetStreamNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -82,7 +80,7 @@ This method always returns S_OK.
 
 
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -92,11 +90,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2996c897-eb38-4432-8bf7-549023ab00f5">IWMStreamConfig::GetStreamNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798562(v=VS.85).aspx">IWMStreamConfig::GetStreamNumber</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

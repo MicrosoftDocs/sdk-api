@@ -9,8 +9,6 @@ ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

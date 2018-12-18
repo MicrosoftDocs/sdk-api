@@ -9,8 +9,6 @@ ms.assetid: BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_VIEWPORT, D3D12_VIEWPORT structure, d3d12/D3D12_VIEWPORT, direct3d12.d3d12_viewport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -92,7 +90,7 @@ Maximum depth of the viewport. Ranges between 0 and 1.
 
 
 
-Pass an array of these structures to the <i>pViewports</i> parameter  in a call to  <a href="https://msdn.microsoft.com/en-us/library/Dn903900(v=VS.85).aspx">ID3D12GraphicsCommandList::RSSetViewports</a> to set viewports for the display.
+Pass an array of these structures to the <i>pViewports</i> parameter  in a call to  <a href="https://msdn.microsoft.com/1ACFD260-1CE5-484C-83DD-021E8D895EBB">ID3D12GraphicsCommandList::RSSetViewports</a> to set viewports for the display.
 
 
 
@@ -102,7 +100,7 @@ Pass an array of these structures to the <i>pViewports</i> parameter  in a call 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
  
 
  

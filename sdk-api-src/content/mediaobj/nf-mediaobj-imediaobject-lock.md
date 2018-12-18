@@ -9,8 +9,6 @@ ms.assetid: 6923dd91-7bdb-4a0c-833d-4742973825ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaObject interface [DirectShow],Lock method, IMediaObject.Lock, IMediaObject::Lock, IMediaObjectLock, Lock, Lock method [DirectShow], Lock method [DirectShow],IMediaObject interface, dshow.imediaobject_lock, mediaobj/IMediaObject::Lock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

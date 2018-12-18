@@ -9,8 +9,6 @@ ms.assetid: 53dbe7f0-cc1f-4ba4-9ed5-7b328c707902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Skip method, IEnumTfLatticeElements.Skip, IEnumTfLatticeElements::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_skip_ref, ctffunc/IEnumTfLatticeElements::Skip, tsf.ienumtflatticeelements_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

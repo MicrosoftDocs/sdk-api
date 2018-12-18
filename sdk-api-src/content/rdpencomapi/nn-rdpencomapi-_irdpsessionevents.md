@@ -9,8 +9,6 @@ ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 
@@ -58,7 +56,7 @@ Implement this interface to receive notifications when events occur.
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

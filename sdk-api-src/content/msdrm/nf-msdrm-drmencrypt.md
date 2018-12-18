@@ -9,8 +9,6 @@ ms.assetid: 1de19409-2b14-4ab0-9853-23ee5741a7ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMEncrypt, DRMEncrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncrypt, rm.drmencrypt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

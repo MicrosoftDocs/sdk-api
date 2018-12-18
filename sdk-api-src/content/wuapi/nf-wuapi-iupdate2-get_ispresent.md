@@ -9,8 +9,6 @@ ms.assetid: de378d24-aba9-44c2-9c49-fbd1b2fc2446
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdate2 interface [Windows Update Agent],IsPresent property, IUpdate2.IsPresent, IUpdate2.get_IsPresent, IUpdate2::IsPresent, IUpdate2::get_IsPresent, IsPresent property [Windows Update Agent], IsPresent property [Windows Update Agent],IUpdate2 interface, get_IsPresent, wua.iupdate2_ispresent, wuapi/IUpdate2::IsPresent, wuapi/IUpdate2::get_IsPresent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

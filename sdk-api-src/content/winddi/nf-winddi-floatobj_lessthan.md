@@ -9,8 +9,6 @@ ms.assetid: acd1cc6d-c88f-4336-8a6c-a8b02cf726ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_LessThan, FLOATOBJ_LessThan function [Display Devices], display.floatobj_lessthan, gdifncs_226d15f4-cebd-45a4-b8e8-7ae7ee770b30.xml, winddi/FLOATOBJ_LessThan
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

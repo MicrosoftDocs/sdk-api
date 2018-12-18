@@ -9,8 +9,6 @@ ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

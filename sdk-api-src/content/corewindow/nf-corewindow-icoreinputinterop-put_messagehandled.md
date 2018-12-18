@@ -9,8 +9,6 @@ ms.assetid: 94575082-014D-42E3-8191-F79912CBDB2A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICoreInputInterop interface [Windows Runtime],MessageHandled property, ICoreInputInterop.MessageHandled, ICoreInputInterop.put_MessageHandled, ICoreInputInterop::MessageHandled, ICoreInputInterop::put_MessageHandled, MessageHandled property [Windows Runtime], MessageHandled property [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::MessageHandled, corewindow/ICoreInputInterop::put_MessageHandled, put_MessageHandled, winrt.icoreinputinterop_messagehandled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: corewindow.h
 req.include-header: 
@@ -68,7 +66,7 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302114(v=VS.85).aspx">ICoreInputInterop</a>
+<a href="https://msdn.microsoft.com/F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599">ICoreInputInterop</a>
  
 
  

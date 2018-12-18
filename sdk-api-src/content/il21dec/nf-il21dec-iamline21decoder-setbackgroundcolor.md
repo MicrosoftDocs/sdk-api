@@ -9,8 +9,6 @@ ms.assetid: a69bb0d0-5afb-420f-a97c-071dc472e1d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetBackgroundColor method, IAMLine21Decoder.SetBackgroundColor, IAMLine21Decoder::SetBackgroundColor, IAMLine21DecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setbackgroundcolor, il21dec/IAMLine21Decoder::SetBackgroundColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 
@@ -87,11 +85,11 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b6fbb5c3-28af-4db6-8dc4-82271b69bf71">IAMLine21Decoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba75dc5b-207e-4425-a8fe-8da16fc89921">IAMLine21Decoder::GetBackgroundColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389386(v=VS.85).aspx">IAMLine21Decoder::GetBackgroundColor</a>
  
 
  

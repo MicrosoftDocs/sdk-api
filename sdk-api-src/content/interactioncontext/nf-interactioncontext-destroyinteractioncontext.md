@@ -9,8 +9,6 @@ ms.assetid: 871b35be-ccda-4a74-b516-e1e7f852782d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DestroyInteractionContext, DestroyInteractionContext function, input_intcontext.destroyinteractioncontext, interactioncontext.destroyinteractioncontext, interactioncontext/DestroyInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

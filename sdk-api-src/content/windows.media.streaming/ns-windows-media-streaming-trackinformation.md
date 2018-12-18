@@ -9,8 +9,6 @@ ms.assetid: 47398d9f-9462-49c1-a02c-985212a07363
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TrackInformation, TrackInformation structure [Media Streaming API], mediastreaming.trackinformation, windows/TrackInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: windows.media.streaming.h
 req.include-header: 

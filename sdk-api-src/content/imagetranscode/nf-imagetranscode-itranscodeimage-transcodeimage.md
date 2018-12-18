@@ -9,8 +9,6 @@ ms.assetid: 56b8c871-5c44-497d-beac-5bde01b8bd8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITranscodeImage interface [Windows Shell],TranscodeImage method, ITranscodeImage.TranscodeImage, ITranscodeImage::TranscodeImage, TI_BITMAP, TI_JPEG, TranscodeImage, TranscodeImage method [Windows Shell], TranscodeImage method [Windows Shell],ITranscodeImage interface, _shell_TranscodeImage, imagetranscode/ITranscodeImage::TranscodeImage, shell.TranscodeImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imagetranscode.h
 req.include-header: 

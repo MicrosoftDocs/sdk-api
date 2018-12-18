@@ -9,8 +9,6 @@ ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

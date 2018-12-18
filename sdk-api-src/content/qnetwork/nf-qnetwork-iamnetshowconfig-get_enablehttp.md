@@ -9,8 +9,6 @@ ms.assetid: 29495a89-644f-4c55-a740-efb0cbf6d581
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableHTTP method, IAMNetShowConfig.get_EnableHTTP, IAMNetShowConfig::get_EnableHTTP, IAMNetShowConfigget_EnableHTTP, dshow.iamnetshowconfig_get_enablehttp, get_EnableHTTP, get_EnableHTTP method [DirectShow], get_EnableHTTP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

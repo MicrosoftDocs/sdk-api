@@ -9,8 +9,6 @@ ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
@@ -67,7 +65,7 @@ The rotation angle in degrees. A positive angle creates a clockwise rotation, an
 
 ### -param center
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The point about which the rotation is performed.
 
@@ -129,7 +127,7 @@ The following illustration shows the effect of applying the  preceding rotation 
 ```
 
 
-Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756655(v=VS.85).aspx">Transforms Overview</a>. 
+Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/eea8177d-c19e-4972-a9a6-ad5d541b090f">Transforms Overview</a>. 
 
 <div class="code"></div>
 

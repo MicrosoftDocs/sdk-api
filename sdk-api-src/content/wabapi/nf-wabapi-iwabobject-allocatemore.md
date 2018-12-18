@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\allocatemore.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateMore, AllocateMore method [Windows Address Book], AllocateMore method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],AllocateMore method, IWABObject.AllocateMore, IWABObject::AllocateMore, _wab_IWABObject_AllocateMore, wab._wab_IWABObject_AllocateMore, wabapi/IWABObject::AllocateMore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.product: Internet Explorer 4.0
 
 Allocates a memory buffer that is linked to another buffer 
 		previously allocated with the 
-		<a href="https://msdn.microsoft.com/59c4362a-2a03-47a0-a606-e8be3be22d28">IWABObject::AllocateBuffer</a> method.
+		<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> method.
 
 
 ## -parameters
@@ -74,7 +72,7 @@ Value of type <b>ULONG</b> that specifies
 Type: <b>LPVOID</b>
 
 Pointer to the existing buffer object allocated using 
-				<a href="https://msdn.microsoft.com/59c4362a-2a03-47a0-a606-e8be3be22d28">IWABObject::AllocateBuffer</a>.
+				<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a>.
 
 
 ### -param lppBuffer
@@ -104,8 +102,8 @@ Returns S_OK if successful.
 It is only possible to release a buffer allocated with 
 	<b>IWABObject::AllocateMore</b> by passing the buffer pointer 
 	specified in the <i>lpObject</i> parameter to 
-	<a href="https://msdn.microsoft.com/ded42aaf-8ed0-4e21-9905-37629d2919a1">IWABObject::FreeBuffer</a>. The link between the memory 
-	buffers allocated with <a href="https://msdn.microsoft.com/59c4362a-2a03-47a0-a606-e8be3be22d28">IWABObject::AllocateBuffer</a> and 
+	<a href="https://msdn.microsoft.com/en-us/library/ms629463(v=VS.85).aspx">IWABObject::FreeBuffer</a>. The link between the memory 
+	buffers allocated with <a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> and 
 	<b>IWABObject::AllocateMore</b> enables 
 	<b>IWABObject::FreeBuffer</b> to release both buffers 
 	with a single call.

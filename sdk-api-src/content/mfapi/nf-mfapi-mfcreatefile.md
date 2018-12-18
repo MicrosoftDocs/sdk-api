@@ -9,8 +9,6 @@ ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

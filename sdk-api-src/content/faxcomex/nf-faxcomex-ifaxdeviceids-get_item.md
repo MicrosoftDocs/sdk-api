@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],get_Item method, IFaxDeviceIds.get_Item, IFaxDeviceIds::get_Item, _mfax_faxdeviceids.item_cpp, fax._mfax_faxdeviceids_item_cpp, faxcomex/IFaxDeviceIds::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceIds interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -62,7 +60,7 @@ The <b>IFaxDeviceIds::get_Item</b> method represents a device ID from the <a hre
 
 Type: <b>long</b>
 
-A value specifying the item to retrieve from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of devices returned by a call to the <a href="https://msdn.microsoft.com/d47b51e0-d228-467b-acb3-b84e3cebb76d">IFaxDeviceIds::get_Count</a> method.
+A value specifying the item to retrieve from the collection. Valid values for this parameter are in the range from 1 to n, where n is the number of devices returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms686492(v=VS.85).aspx">IFaxDeviceIds::get_Count</a> method.
 
 
 ### -param plDeviceId [out, retval]

@@ -9,8 +9,6 @@ ms.assetid: 6b6e6878-1d9d-4f45-94a9-316e86da85df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetCore method, IWMPPluginUI.SetCore, IWMPPluginUI::SetCore, IWMPPluginUISetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setcore, wmpplug/IWMPPluginUI::SetCore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpplug.h
 req.include-header: 
@@ -91,7 +89,7 @@ This method is not called when Windows Media Player instantiates the plug-in for
 
 
 
-<a href="https://msdn.microsoft.com/f292a3e6-87bf-4e68-8737-f7d6351c4ff4">IWMPPluginUI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563591(v=VS.85).aspx">IWMPPluginUI Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: de48307a-3522-49a0-b0a5-73ce7cf90517
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerBitmap9, IVMRMixerBitmap9 interface [DirectShow], IVMRMixerBitmap9 interface [DirectShow],described, IVMRMixerBitmap9Interface, dshow.ivmrmixerbitmap9, vmr9/IVMRMixerBitmap9
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 
@@ -78,7 +76,7 @@ The <b>IVMRMixerBitmap9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5e5891f-6842-40e7-8bf4-29c6979c7551">GetAlphaBitmapParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390450(v=VS.85).aspx">GetAlphaBitmapParameters</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the current image and related blending parameters.
@@ -87,7 +85,7 @@ Retrieves a copy of the current image and related blending parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22aadb5b-8dc8-48ec-bff1-1bac498f3984">SetAlphaBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390451(v=VS.85).aspx">SetAlphaBitmap</a>
 </td>
 <td align="left" width="63%">
 Specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
@@ -96,7 +94,7 @@ Specifies a new bitmap image and the source location of the bitmap and how and w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89aa0212-9311-4f23-9f55-7e7a1072a19a">UpdateAlphaBitmapParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390452(v=VS.85).aspx">UpdateAlphaBitmapParameters</a>
 </td>
 <td align="left" width="63%">
 Changes the bitmap location, size and blending value.

@@ -9,8 +9,6 @@ ms.assetid: CF13496F-4317-4FFF-85CA-08FC64E320F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResourceBindingDescByName, GetResourceBindingDescByName method, GetResourceBindingDescByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetResourceBindingDescByName method, ID3D12FunctionReflection.GetResourceBindingDescByName, ID3D12FunctionReflection::GetResourceBindingDescByName, d3d12shader/ID3D12FunctionReflection::GetResourceBindingDescByName, direct3d12.id3d12functionreflection_getresourcebindingdescbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 
@@ -61,7 +59,7 @@ Gets a description of how a resource is bound to a function.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
 The constant-buffer name of the resource.
           
@@ -69,9 +67,9 @@ The constant-buffer name of the resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960201(v=VS.85).aspx">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4179C417-388D-4A20-8878-D074E20A706F">D3D12_SHADER_INPUT_BIND_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960201(v=VS.85).aspx">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
+A pointer to a <a href="https://msdn.microsoft.com/4179C417-388D-4A20-8878-D074E20A706F">D3D12_SHADER_INPUT_BIND_DESC</a> structure that describes input binding of the resource.
           
 
 

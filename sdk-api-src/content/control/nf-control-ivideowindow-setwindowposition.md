@@ -9,8 +9,6 @@ ms.assetid: 5e667044-1781-4380-b855-d15cf8cd2349
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowPosition method, IVideoWindow.SetWindowPosition, IVideoWindow::SetWindowPosition, IVideoWindowSetWindowPosition, SetWindowPosition, SetWindowPosition method [DirectShow], SetWindowPosition method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowPosition, dshow.ivideowindow_setwindowposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -152,7 +150,7 @@ If resizing the window to the specified dimensions is impossible, this method mo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

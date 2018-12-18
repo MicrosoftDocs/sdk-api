@@ -9,8 +9,6 @@ ms.assetid: c54e936f-eca8-41ca-8a2d-94e67b5a9a49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistSetAsDeleted method, IWMPEvents.PlaylistCollectionPlaylistSetAsDeleted, IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted, IWMPEventsPlaylistCollectionPlaylistSetAsDeleted, PlaylistCollectionPlaylistSetAsDeleted, PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player], PlaylistCollectionPlaylistSetAsDeleted method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistsetasdeleted, wmp/IWMPEvents::PlaylistCollectionPlaylistSetAsDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -96,7 +94,7 @@ This event is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

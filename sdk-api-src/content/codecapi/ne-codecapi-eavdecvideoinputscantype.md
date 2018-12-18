@@ -9,8 +9,6 @@ ms.assetid: 9ea17960-af08-42ba-9646-7aaf498ceda1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVDecVideoInputScanType, codecapi/eAVDecVideoInputScan_Interlaced_LowerFieldFirst, codecapi/eAVDecVideoInputScan_Interlaced_UpperFieldFirst, codecapi/eAVDecVideoInputScan_Progressive, codecapi/eAVDecVideoInputScan_Unknown, dshow.eavdecvideoinputscantype, eAVDecVideoInputScanType, eAVDecVideoInputScanType enumeration [DirectShow], eAVDecVideoInputScanTypeEnumeration, eAVDecVideoInputScan_Interlaced_LowerFieldFirst, eAVDecVideoInputScan_Interlaced_UpperFieldFirst, eAVDecVideoInputScan_Progressive, eAVDecVideoInputScan_Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -90,7 +88,7 @@ Decoded frames are interlaced, with the lower field appearing first.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

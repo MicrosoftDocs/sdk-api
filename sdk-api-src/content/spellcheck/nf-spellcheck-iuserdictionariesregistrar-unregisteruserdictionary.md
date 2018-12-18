@@ -9,8 +9,6 @@ ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],UnregisterUserDictionary method, IUserDictionariesRegistrar.UnregisterUserDictionary, IUserDictionariesRegistrar::UnregisterUserDictionary, UnregisterUserDictionary, UnregisterUserDictionary method [Internationalization for Windows Applications], UnregisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_unregisteruserdictionary, spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 
 Enumerates the subkeys of an open 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key.
+    <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
 
 
 ## -parameters
@@ -183,11 +181,11 @@ Because <b>ClusterRegEnumKey</b> enumerates keys from
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369004(v=VS.85).aspx">ClusterRegOpenKey</a>
+<a href="https://msdn.microsoft.com/f2cf204e-d02d-40b9-86d7-0262b8cc4db1">ClusterRegOpenKey</a>
  
 
  

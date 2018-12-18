@@ -9,8 +9,6 @@ ms.assetid: 09a75986-9c5d-44fc-af62-297481854574
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ScanMode method, ICameraControl.get_ScanMode, ICameraControl::get_ScanMode, ICameraControlget_ScanMode, dshow.icameracontrol_get_scanmode, get_ScanMode, get_ScanMode method [DirectShow], get_ScanMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ScanMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -84,7 +82,7 @@ Receives one of the following values.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -105,7 +103,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

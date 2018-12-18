@@ -9,8 +9,6 @@ ms.assetid: 106451b0-4491-472d-b73a-5d8333f0a372
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetTerminal, TSPI_lineSetTerminal function [TAPI 2.2], _tspi_tspi_linesetterminal, tspi.tspi_linesetterminal, tspi/TSPI_lineSetTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDoubleClickTime, GetDoubleClickTime function [Keyboard and Mouse Input], _win32_GetDoubleClickTime, _win32_getdoubleclicktime_cpp, inputdev.getdoubleclicktime, winui._win32_getdoubleclicktime, winuser/GetDoubleClickTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

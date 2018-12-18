@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAKEIPRANGE, MAKEIPRANGE macro [Windows Controls], _win32_MAKEIPRANGE, _win32_MAKEIPRANGE_cpp, commctrl/MAKEIPRANGE, controls.MAKEIPRANGE, controls._win32_MAKEIPRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Packs two byte-values into a single LPARAM suitable for use with the <a href="ht
 
 ### -param low
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 The lower limit of the range. 
 
 
 ### -param high
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
 The upper limit of the range. 
 

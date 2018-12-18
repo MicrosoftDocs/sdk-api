@@ -9,8 +9,6 @@ ms.assetid: 817b3693-b989-431c-a8b3-bdeeb0367dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzClientContext object [Security],RoleForAccessCheck property, IAzClientContext interface [Security],RoleForAccessCheck property, IAzClientContext.RoleForAccessCheck, IAzClientContext.put_RoleForAccessCheck, IAzClientContext::RoleForAccessCheck, IAzClientContext::get_RoleForAccessCheck, IAzClientContext::put_RoleForAccessCheck, RoleForAccessCheck property [Security], RoleForAccessCheck property [Security],AzClientContext object, RoleForAccessCheck property [Security],IAzClientContext interface, azroles/IAzClientContext::RoleForAccessCheck, azroles/IAzClientContext::get_RoleForAccessCheck, azroles/IAzClientContext::put_RoleForAccessCheck, put_RoleForAccessCheck, security.iazclientcontext_roleforaccesscheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

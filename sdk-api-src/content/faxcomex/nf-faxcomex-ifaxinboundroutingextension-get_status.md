@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_96sz.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],Status property, IFaxInboundRoutingExtension.Status, IFaxInboundRoutingExtension.get_Status, IFaxInboundRoutingExtension::Status, IFaxInboundRoutingExtension::get_Status, Status property [Fax Service], Status property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.status, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_status_cpp, fax._mfax_faxinboundroutingextension_status, faxcomex/IFaxInboundRoutingExtension::Status, faxcomex/IFaxInboundRoutingExtension::get_Status, get_Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-If the extension did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/64aaac61-00ba-4888-b177-b847d8896e09">IFaxInboundRoutingExtension::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/e39bbe9b-117e-4d1f-9eda-25368923f832">FAX_PROVIDER_STATUS_ENUM</a>.
+If the extension did not load successfully, the property indicates the reason for the failure, and <a href="https://msdn.microsoft.com/en-us/library/ms687447(v=VS.85).aspx">IFaxInboundRoutingExtension::get_InitErrorCode</a> holds the last error code value. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690089(v=VS.85).aspx">FAX_PROVIDER_STATUS_ENUM</a>.
 
 
 
@@ -74,15 +72,15 @@ If the extension did not load successfully, the property indicates the reason fo
 
 
 
-<a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

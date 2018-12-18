@@ -9,8 +9,6 @@ ms.assetid: 0aee92b4-740a-4c5a-a64e-9de08d1c35c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],SetGraph method, IESEventServiceConfiguration.SetGraph, IESEventServiceConfiguration::SetGraph, SetGraph, SetGraph method [Microsoft TV Technologies], SetGraph method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_setgraph, tuner/IESEventServiceConfiguration::SetGraph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -60,7 +58,7 @@ Attaches an event service that implements the <a href="https://msdn.microsoft.co
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a> interface that is attached to the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a> interface that is attached to the <a href="https://msdn.microsoft.com/2720d616-18a6-488e-98ef-565768c22c2a">IESEventService</a> event service.
 
 
 ## -returns
@@ -85,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389989(v=VS.85).aspx">IFilterGraph</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 95ed42ed-04ff-482c-954c-a6c9dd9ccd4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],RequestStoreFlags property, IEnroll.RequestStoreFlags, IEnroll.get_RequestStoreFlags, IEnroll::RequestStoreFlags, IEnroll::get_RequestStoreFlags, IEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],IEnroll interface, get_RequestStoreFlags, security.ienroll4_requeststoreflags, xenroll/IEnroll::RequestStoreFlags, xenroll/IEnroll::get_RequestStoreFlags, xenroll/IEnroll::put_RequestStoreFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

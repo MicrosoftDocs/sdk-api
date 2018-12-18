@@ -9,8 +9,6 @@ ms.assetid: fd882612-1f60-4b51-a180-0d34d78c99dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMCodecInfo3, IWMCodecInfo3 interface [windows Media Format], IWMCodecInfo3 interface [windows Media Format],described, IWMCodecInfo3Interface, wmformat.iwmcodecinfo3, wmsdkidl/IWMCodecInfo3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -60,7 +58,7 @@ You can retrieve a pointer to <b>IWMCodecInfo3</b> with a call to the <b>QueryIn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecInfo3</b> interface inherits from <a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2</a>. <b>IWMCodecInfo3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecInfo3</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2</a>. <b>IWMCodecInfo3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMCodecInfo3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a8f34ef-4d52-47d4-b6d5-e6f07f27cc8d">GetCodecEnumerationSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743318(v=VS.85).aspx">GetCodecEnumerationSetting</a>
 </td>
 <td align="left" width="63%">
 Obtains the current value for a codec enumeration setting. Codec enumeration settings enable you to enumerate codec formats by feature.
@@ -84,7 +82,7 @@ Obtains the current value for a codec enumeration setting. Codec enumeration set
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04f5301f-0033-4cf3-bc05-3159fe274a8d">GetCodecFormatProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743319(v=VS.85).aspx">GetCodecFormatProp</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property from one format of a codec.
@@ -93,7 +91,7 @@ Retrieves a property from one format of a codec.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/444f5789-c5e5-4eeb-a2b4-11f959641206">GetCodecProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743320(v=VS.85).aspx">GetCodecProp</a>
 </td>
 <td align="left" width="63%">
 Retrieves a codec property.
@@ -102,7 +100,7 @@ Retrieves a codec property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b4883b8-63c0-40ff-b13f-303d30ebfe15">SetCodecEnumerationSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743321(v=VS.85).aspx">SetCodecEnumerationSetting</a>
 </td>
 <td align="left" width="63%">
 Sets a codec enumeration setting. Codec enumeration settings enable you to enumerate codec formats by feature.
@@ -118,43 +116,43 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo</a>
 </td>
 <td>IID_IWMCodecInfo</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2</a>
 </td>
 <td>IID_IWMCodecInfo2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/002442fe-46de-49d9-8aff-ad7c9aabc8d1">IWMPacketSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize</a>
 </td>
 <td>IID_IWMPacketSize</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4af4c088-9fc3-46a9-8451-518b11bc94e3">IWMPacketSize2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
 </td>
 <td>IID_IWMPacketSize2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e5ec945c-4513-48ad-8bef-e0fb54826991">IWMProfileManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager</a>
 </td>
 <td>IID_IWMProfileManager</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/eb5d904e-15ee-4066-ab05-c4e133bc89d7">IWMProfileManager2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757386(v=VS.85).aspx">IWMProfileManager2</a>
 </td>
 <td>IID_IWMProfileManager2</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54875162-65fe-4959-b567-38c17ba2894d">IWMProfileManagerLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757389(v=VS.85).aspx">IWMProfileManagerLanguage</a>
 </td>
 <td>IID_IWMProfileManagerLanguage</td>
 </tr>
@@ -169,11 +167,11 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/70661d13-737a-4e83-94e6-9a1af07b0369">IWMCodecInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743313(v=VS.85).aspx">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2 Interface</a>
 
 
 

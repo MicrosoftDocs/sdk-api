@@ -9,8 +9,6 @@ ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

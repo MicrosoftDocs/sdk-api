@@ -9,8 +9,6 @@ ms.assetid: 06132573-e198-4b2c-922b-3eeda53ac10b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],ProcessTime method, IInertiaProcessor.ProcessTime, IInertiaProcessor::ProcessTime, ProcessTime, ProcessTime method [Windows Touch], ProcessTime method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::ProcessTime, wintouch.iinertiaprocessor_processtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

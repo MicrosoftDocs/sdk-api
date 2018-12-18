@@ -9,8 +9,6 @@ ms.assetid: 65e19d09-4a53-439b-9678-f907caf0db5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Set_Class_Registry_Property, CM_Set_Class_Registry_Property function [Device and Driver Installation], CM_Set_Class_Registry_PropertyW, cfgmgr32/CM_Set_Class_Registry_Property, cfgmgr32/CM_Set_Class_Registry_PropertyW, cfgmgrfn_e39d0285-7d83-4228-bbf8-f0520c5d6566.xml, devinst.cm_set_class_registry_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -9,8 +9,6 @@ ms.assetid: 0560BB4B-B837-4DA8-AD68-545224152BA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ComputeInfo, ID2D1ComputeInfo interface [Direct2D], ID2D1ComputeInfo interface [Direct2D],described, d2d1effectauthor/ID2D1ComputeInfo, direct2d.id2d1computeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1effectauthor.h
 req.include-header: 

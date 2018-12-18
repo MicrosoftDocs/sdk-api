@@ -9,8 +9,6 @@ ms.assetid: e4e9ac5f-15d2-491f-9f23-3da7a5bf8fe2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentSelectionContainer property [Windows Accessibility], CurrentSelectionContainer property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CurrentSelectionContainer property, IUIAutomationSelectionItemPattern.CurrentSelectionContainer, IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer, IUIAutomationSelectionItemPattern::CurrentSelectionContainer, IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, get_CurrentSelectionContainer, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentSelectionContainer, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentSelectionContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

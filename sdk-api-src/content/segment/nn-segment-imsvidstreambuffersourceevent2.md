@@ -9,8 +9,6 @@ ms.assetid: d601efcf-d15a-4b9a-bad8-f09de80500c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent2, IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceEvent2Interface, mstv.imsvidstreambuffersourceevent2, segment/IMSVidStreamBufferSourceEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -61,7 +59,7 @@ The <b>IMSVidStreamBufferSourceEvent2</b> interface is used to receive events fr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSourceEvent2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent</a>. <b>IMSVidStreamBufferSourceEvent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +74,7 @@ The <b>IMSVidStreamBufferSourceEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c3b9e5f-51ad-4a36-8181-bec4243499a5">RateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694671(v=VS.85).aspx">RateChange</a>
 </td>
 <td align="left" width="63%">
 Called when the playback rate changes.
@@ -100,7 +98,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent</a>
 
 
 

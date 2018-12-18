@@ -9,8 +9,6 @@ ms.assetid: 0f51a37f-e340-441e-a1f1-e67791b9c008
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Clone method, ITfPropertyStore.Clone, ITfPropertyStore::Clone, _tsf_itfpropertystore_clone_ref, msctf/ITfPropertyStore::Clone, tsf.itfpropertystore_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

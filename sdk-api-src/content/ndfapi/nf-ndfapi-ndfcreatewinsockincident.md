@@ -9,8 +9,6 @@ ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

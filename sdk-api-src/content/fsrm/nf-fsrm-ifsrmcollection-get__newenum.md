@@ -9,8 +9,6 @@ ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -9,8 +9,6 @@ ms.assetid: d2d142bf-0fed-42c8-a2f1-b539a40ac074
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrationReqMsg method, IWMDRMMessageParser.ParseRegistrationReqMsg, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -77,12 +75,12 @@ The size of registration message in bytes.
 
 ### -param ppDeviceCert [out]
 
-Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface of the buffer object that contains the device certificate.
+Address of a variable that receives the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface of the buffer object that contains the device certificate.
 
 
 ### -param pDeviceSerialNumber [out]
 
-Address of a <a href="https://msdn.microsoft.com/8981042a-f11d-458d-be27-3b1749f9e995">DRM_VAL16</a> structure that receives the device identifier.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure that receives the device identifier.
 
 
 ## -returns
@@ -130,7 +128,7 @@ The <i>pbRegistrationMsg</i> parameter is <b>NULL</b>, or the <i>cbRegistrationM
 
 Registration request messages are sent by devices when they are connected to a network shared by the computer running your application. When your application receives the message, it must first parse the message by using this method to retrieve the device certificate and device identifier. The combination of device certificate and device identifier uniquely identifies the device.
 
-After parsing the message with this method, you can search the device database to determine whether the device is already registered, or you can try to register the device. Both of these actions use the methods of the <a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration</a> interface.
+After parsing the message with this method, you can search the device database to determine whether the device is already registered, or you can try to register the device. Both of these actions use the methods of the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface.
 
 
 
@@ -140,7 +138,7 @@ After parsing the message with this method, you can search the device database t
 
 
 
-<a href="https://msdn.microsoft.com/76e504e2-5978-4afd-9556-68f78c49a313">IWMDRMMessageParser Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798321(v=VS.85).aspx">IWMDRMMessageParser Interface</a>
  
 
  

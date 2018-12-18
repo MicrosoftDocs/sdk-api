@@ -9,8 +9,6 @@ ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

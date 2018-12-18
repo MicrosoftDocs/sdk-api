@@ -9,8 +9,6 @@ ms.assetid: 427d33e1-d2a5-46f3-a3be-d3589685f6af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],QueryInitiatorAdapters method, IVdsServiceIscsi.QueryInitiatorAdapters, IVdsServiceIscsi::QueryInitiatorAdapters, QueryInitiatorAdapters, QueryInitiatorAdapters method [VDS], QueryInitiatorAdapters method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_queryinitiatoradapters, vds/IVdsServiceIscsi::QueryInitiatorAdapters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 99b7e2ab-c829-4e42-805b-e1ea5b725f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_SDT.GetRecordCountOfDescriptors, IDVB_SDT::GetRecordCountOfDescriptors, IDVB_SDTGetRecordCountOfDescriptors, dvbsiparser/IDVB_SDT::GetRecordCountOfDescriptors, mstv.idvb_sdt_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

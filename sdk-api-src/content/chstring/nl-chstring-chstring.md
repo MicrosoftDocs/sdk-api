@@ -9,8 +9,6 @@ ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: class
 req.header: chstring.h
 req.include-header: FwCommon.h
@@ -135,7 +133,7 @@ Forces a string to have 0 (zero) length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a>
 </td>
 <td align="left" width="63%">Overloaded. Finds a character or substring inside a larger string.
 
@@ -302,7 +300,7 @@ Converts all of the characters in this string to uppercase characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">Mid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385623(v=VS.85).aspx">Mid</a>
 </td>
 <td align="left" width="63%">Overloaded. Extracts the middle part of a string (like the Basic <b>MID$</b> function).
 

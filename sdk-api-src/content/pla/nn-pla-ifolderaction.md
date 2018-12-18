@@ -7,10 +7,8 @@ old-location: pla\ifolderaction.htm
 tech.root: pla
 ms.assetid: a3942d5f-9ec4-4461-84f9-f2fae3971e23
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IFolderAction, IFolderAction interface [PLA], IFolderAction interface [PLA],described, base.ifolderaction, pla.ifolderaction, pla/IFolderAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

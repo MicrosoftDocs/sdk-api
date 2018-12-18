@@ -9,8 +9,6 @@ ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmapibuf.h
 req.include-header: Lm.h

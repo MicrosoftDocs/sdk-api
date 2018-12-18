@@ -9,8 +9,6 @@ ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEffectivePermission, GetEffectivePermission method [Security], GetEffectivePermission method [Security],IEffectivePermission interface, IEffectivePermission interface [Security],GetEffectivePermission method, IEffectivePermission.GetEffectivePermission, IEffectivePermission::GetEffectivePermission, aclui/IEffectivePermission::GetEffectivePermission, security.ieffectivepermission_geteffectivepermission
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 

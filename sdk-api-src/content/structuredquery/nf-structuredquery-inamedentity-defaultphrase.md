@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\defa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefaultPhrase, DefaultPhrase method [search], DefaultPhrase method [search],INamedEntity interface, INamedEntity interface [search],DefaultPhrase method, INamedEntity.DefaultPhrase, INamedEntity::DefaultPhrase, _search_INamedEntity_DefaultPhrase, search._search_INamedEntity_DefaultPhrase, structuredquery/INamedEntity::DefaultPhrase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

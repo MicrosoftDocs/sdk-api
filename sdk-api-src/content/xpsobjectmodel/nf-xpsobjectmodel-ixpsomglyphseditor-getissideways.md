@@ -9,8 +9,6 @@ ms.assetid: d115dbce-a81c-458f-8929-9e49e84a575d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, GetIsSideways, GetIsSideways method [XPS Documents and Packaging], GetIsSideways method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetIsSideways method, IXpsOMGlyphsEditor.GetIsSideways, IXpsOMGlyphsEditor::GetIsSideways, TRUE, xps.ixpsomglyphseditor_getissideways, xpsobjectmodel/IXpsOMGlyphsEditor::GetIsSideways
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

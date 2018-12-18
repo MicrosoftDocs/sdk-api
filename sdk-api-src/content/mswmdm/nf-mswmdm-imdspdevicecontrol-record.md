@@ -9,8 +9,6 @@ ms.assetid: 6cd99cfc-1961-4369-9ce9-2cdd0136d181
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Record method, IMDSPDeviceControl.Record, IMDSPDeviceControl::Record, IMDSPDeviceControlRecord, Record, Record method [windows Media Device Manager], Record method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Record, wmdm.imdspdevicecontrol_record
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

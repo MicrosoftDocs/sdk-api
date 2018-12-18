@@ -9,8 +9,6 @@ ms.assetid: 90085c75-0a38-43e8-932e-2b89d167cfa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathname.RemoveLeafElement, IADsPathname::RemoveLeafElement, RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI],IADsPathname interface, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iads.h
 req.include-header: 

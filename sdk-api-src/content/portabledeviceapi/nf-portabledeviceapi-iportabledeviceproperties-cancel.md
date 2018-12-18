@@ -9,8 +9,6 @@ ms.assetid: 6443e742-1296-4be4-b426-1f277406c01c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceProperties.Cancel, IPortableDeviceProperties::Cancel, IPortableDevicePropertiesCancel, portabledeviceapi/IPortableDeviceProperties::Cancel, wpdsdk.iportabledeviceproperties_cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 798FABE5-D6C8-58E3-B3F6-93654C0F4CAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], IUIAutomationTextEditPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextEditPattern, winauto.uiauto_IUIAutomationTextEditPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

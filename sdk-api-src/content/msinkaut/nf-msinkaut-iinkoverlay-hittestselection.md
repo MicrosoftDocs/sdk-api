@@ -9,8 +9,6 @@ ms.assetid: 289589fa-84da-40b3-b60e-551ef0114279
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 289589fa-84da-40b3-b60e-551ef0114279, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],HitTestSelection method, IInkOverlay.HitTestSelection, IInkOverlay::HitTestSelection, msinkaut/IInkOverlay::HitTestSelection, tablet.inkoverlay_hittestselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -207,7 +205,7 @@ The west side sizing handle was hit.
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

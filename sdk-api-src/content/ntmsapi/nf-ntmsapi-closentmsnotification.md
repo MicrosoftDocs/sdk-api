@@ -9,8 +9,6 @@ ms.assetid: 30aa06af-70d4-45c0-b624-575dcf867efb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw_closentmsnotification, base.closentmsnotification, fs.closentmsnotification, ntmsapi/CloseNtmsNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

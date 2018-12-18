@@ -9,8 +9,6 @@ ms.assetid: 05eeb539-3a0a-4a00-abe5-0a014629d186
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferSourceEvent3.BroadcastEvent, IMSVidStreamBufferSourceEvent3::BroadcastEvent, IMSVidStreamBufferSourceEvent3BroadcastEvent, mstv.imsvidstreambuffersourceevent3_broadcastevent, segment/IMSVidStreamBufferSourceEvent3::BroadcastEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -83,7 +81,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
  
 
  

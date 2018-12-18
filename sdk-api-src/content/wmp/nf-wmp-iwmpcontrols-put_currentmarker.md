@@ -9,8 +9,6 @@ ms.assetid: b48e50b3-46d2-4994-bbbf-668f4986109a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],put_currentMarker method, IWMPControls.put_currentMarker, IWMPControls::put_currentMarker, IWMPControlsput_currentMarker, put_currentMarker, put_currentMarker method [Windows Media Player], put_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_put_currentmarker, wmp/IWMPControls::put_currentMarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,23 +108,23 @@ Until the current media item is set (using <b>IWMPCore::put_URL</b> or <b>IWMPCo
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/42576961-a9bd-4f64-bf56-a5d6bd07e82f">IWMPControls::get_currentMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563198(v=VS.85).aspx">IWMPControls::get_currentMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a8625b9-19a1-41dc-9bb8-afca4bfebf5a">IWMPCore::put_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563243(v=VS.85).aspx">IWMPCore::put_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/003d1937-13f0-4d2c-ad5c-a83569295b62">IWMPCore::put_currentMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563241(v=VS.85).aspx">IWMPCore::put_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/e97c8d26-fa6a-4791-a698-b742eaf980eb">IWMPMedia::get_markerCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563441(v=VS.85).aspx">IWMPMedia::get_markerCount</a>
  
 
  

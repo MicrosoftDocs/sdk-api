@@ -9,8 +9,6 @@ ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

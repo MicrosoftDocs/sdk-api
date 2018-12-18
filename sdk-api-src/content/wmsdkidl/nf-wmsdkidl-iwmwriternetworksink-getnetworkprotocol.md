@@ -9,8 +9,6 @@ ms.assetid: 5007b5be-9521-46f4-8e5c-85e70d48e99f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNetworkProtocol, GetNetworkProtocol method [windows Media Format], GetNetworkProtocol method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],GetNetworkProtocol method, IWMWriterNetworkSink.GetNetworkProtocol, IWMWriterNetworkSink::GetNetworkProtocol, IWMWriterNetworkSinkGetNetworkProtocol, wmformat.iwmwriternetworksink_getnetworkprotocol, wmsdkidl/IWMWriterNetworkSink::GetNetworkProtocol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>GetNetworkProtocol</b> method retrieves the network protocol that the net
 
 ### -param pProtocol [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a> enumeration type.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a> enumeration type.
 
 
 ## -returns
@@ -113,15 +111,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3204c360-f407-4cf3-bb21-7e6094587fb0">IWMWriterNetworkSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798761(v=VS.85).aspx">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ad6b2a4-b50b-45a0-8aa0-cabfc1e59bb7">IWMWriterNetworkSink::SetNetworkProtocol</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798769(v=VS.85).aspx">IWMWriterNetworkSink::SetNetworkProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a>
  
 
  

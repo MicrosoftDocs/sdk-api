@@ -9,8 +9,6 @@ ms.assetid: d5d12529-6ce8-4189-949b-210d8ec84084
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent],described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

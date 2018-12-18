@@ -9,8 +9,6 @@ ms.assetid: 579f80af-38e0-4d3a-9307-5aa5e3fd6770
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantVectorFromPropVariant, InitPropVariantVectorFromPropVariant function [Windows Properties], properties.InitPropVariantVectorFromPropVariant, propvarutil/InitPropVariantVectorFromPropVariant, shell.InitPropVariantVectorFromPropVariant, shell_InitPropVariantVectorFromPropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -91,7 +89,7 @@ This function is used to convert a <a href="https://msdn.microsoft.com/e86cc279-
 
 For simple source types, this function initializes the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> as a vector of one element.
 
-For a source that contains a string, this function initializes the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> with zero or more substrings taken from the source string, treating semicolons as delimiters. See <a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a> for more details.
+For a source that contains a string, this function initializes the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> with zero or more substrings taken from the source string, treating semicolons as delimiters. See <a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a> for more details.
 
 The following input types are supported:
             
@@ -116,7 +114,7 @@ Additional types may be supported in the future.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762315(v=VS.85).aspx">InitPropVariantVectorFromPropVariant</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantVectorFromPropVariant">InitPropVariantVectorFromPropVariant</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -149,15 +147,15 @@ if (PropVariantGetElementCount(propvarSource) == 1)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
+<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
+<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a>
+<a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a>
  
 
  

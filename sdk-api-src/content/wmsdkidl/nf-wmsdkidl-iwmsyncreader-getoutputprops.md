@@ -9,8 +9,6 @@ ms.assetid: a5e701ea-8b53-4abe-8b78-7c6fb151d80f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputProps method, IWMSyncReader.GetOutputProps, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>GetOutputProps</b> method retrieves the current properties of an uncompre
 
 ### -param ppOutput [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
 
 
 ## -returns
@@ -138,11 +136,11 @@ Manipulating the object retrieved by a call to <b>GetOutputProps</b> has no effe
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5575fd7c-5eb0-4e4a-957d-e3fc174316ff">IWMSyncReader::SetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798599(v=VS.85).aspx">IWMSyncReader::SetOutputProps</a>
  
 
  

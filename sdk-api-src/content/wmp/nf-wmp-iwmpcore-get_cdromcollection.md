@@ -9,8 +9,6 @@ ms.assetid: 6bb6500e-7a30-400b-a88b-7ee3596501b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_cdromCollection method, IWMPCore.get_cdromCollection, IWMPCore::get_cdromCollection, IWMPCoreget_cdromCollection, get_cdromCollection, get_cdromCollection method [Windows Media Player], get_cdromCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_cdromcollection, wmp/IWMPCore::get_cdromCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/ba55ac32-149d-4f7b-a2bb-1fdb0be806cd">IWMPCdromCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563097(v=VS.85).aspx">IWMPCdromCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

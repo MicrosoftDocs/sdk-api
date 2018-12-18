@@ -7,10 +7,8 @@ old-location: nla\nlm_usage_data.htm
 tech.root: nla
 ms.assetid: 1D917CD0-4D71-4780-9720-A1F3FDCBBB16
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_USAGE_DATA, PNLM_USAGE_DATA structure pointer [Network Awareness], netlistmgr/NLM_USAGE_DATA, netlistmgr/PNLM_USAGE_DATA, nla.nlm_usage_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 

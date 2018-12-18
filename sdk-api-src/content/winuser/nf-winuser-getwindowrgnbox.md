@@ -9,8 +9,6 @@ ms.assetid: 20e23474-a1c5-4afe-976e-a7e5790fb91b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowRgnBox, GetWindowRgnBox function [Windows GDI], _win32_GetWindowRgnBox, gdi.getwindowrgnbox, winuser/GetWindowRgnBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

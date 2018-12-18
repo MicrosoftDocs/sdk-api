@@ -9,8 +9,6 @@ ms.assetid: 7f100a5b-48d1-40cc-b4ab-02245afde550
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcAmpControl, GetProcAmpControl method [DirectShow], GetProcAmpControl method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControl method, IVMRMixerControl9.GetProcAmpControl, IVMRMixerControl9::GetProcAmpControl, IVMRMixerControl9GetProcAmpControl, dshow.ivmrmixercontrol9_getprocampcontrol, vmr9/IVMRMixerControl9::GetProcAmpControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -69,7 +67,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param lpClrControl [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/c4395344-e659-4e5a-aba0-ee27e65fe2cc">VMR9ProcAmpControl</a> structure that receives the image adjustment settings. When the method returns, the <b>dwFlags</b> field indicates which properties are supported by the graphics driver. Set the <b>dwSize</b> member in the structure before calling this method.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407372(v=VS.85).aspx">VMR9ProcAmpControl</a> structure that receives the image adjustment settings. When the method returns, the <b>dwFlags</b> field indicates which properties are supported by the graphics driver. Set the <b>dwSize</b> member in the structure before calling this method.
 
 
 ## -returns
@@ -162,7 +160,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_LARGE_PAGES, FILE_MAP_READ, FILE_MAP_TARGETS_INVALID, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: eef17030-13eb-4d59-ac47-a49ffe2c80c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

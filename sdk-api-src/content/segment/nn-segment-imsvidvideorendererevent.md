@@ -9,8 +9,6 @@ ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRendererEvent, IMSVidVideoRendererEvent interface [Microsoft TV Technologies], IMSVidVideoRendererEvent interface [Microsoft TV Technologies],described, IMSVidVideoRendererEventInterface, mstv.imsvidvideorendererevent, segment/IMSVidVideoRendererEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -63,7 +61,7 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererEvent</b> interface inherits from <a href="https://msdn.microsoft.com/1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48">IMSVidDeviceEvent</a>. <b>IMSVidVideoRendererEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererEvent</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694522(v=VS.85).aspx">IMSVidDeviceEvent</a>. <b>IMSVidVideoRendererEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +76,7 @@ The <b>IMSVidVideoRendererEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d">OverlayUnavailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694730(v=VS.85).aspx">OverlayUnavailable</a>
 </td>
 <td align="left" width="63%">
 Called when the overlay surface on the graphics card is not available.
@@ -102,7 +100,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48">IMSVidDeviceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694522(v=VS.85).aspx">IMSVidDeviceEvent</a>
 
 
 

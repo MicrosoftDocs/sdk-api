@@ -9,8 +9,6 @@ ms.assetid: 046eb6be-ac7c-4cf8-82e8-f58d9d826682
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetEventInterest method, IInkOverlay.SetEventInterest, IInkOverlay::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkOverlay interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkOverlay::SetEventInterest, tablet.inkoverlay_seteventinterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -161,7 +159,7 @@ Use the <a href="https://msdn.microsoft.com/2682e7ba-dabd-497e-aea4-6d3f837f4f10
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

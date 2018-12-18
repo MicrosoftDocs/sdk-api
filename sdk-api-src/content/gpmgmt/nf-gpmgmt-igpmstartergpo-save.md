@@ -9,8 +9,6 @@ ms.assetid: 3262513c-9909-47b9-a425-41f913204f16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGPMStarterGPO interface [GPMC],Save method, IGPMStarterGPO.Save, IGPMStarterGPO::Save, Save, Save method [GPMC], Save method [GPMC],IGPMStarterGPO interface, gpmc.igpmstartergpo_save, gpmgmt/IGPMStarterGPO::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

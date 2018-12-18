@@ -9,8 +9,6 @@ ms.assetid: 4d51676a-bf14-408c-bc8b-331ce11fc237
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_UseHTTPProxy method, IAMNetShowConfig.get_UseHTTPProxy, IAMNetShowConfig::get_UseHTTPProxy, IAMNetShowConfigget_UseHTTPProxy, dshow.iamnetshowconfig_get_usehttpproxy, get_UseHTTPProxy, get_UseHTTPProxy method [DirectShow], get_UseHTTPProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_UseHTTPProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

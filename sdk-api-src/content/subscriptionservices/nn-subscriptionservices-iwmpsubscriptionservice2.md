@@ -9,8 +9,6 @@ ms.assetid: 5338a3c1-c44a-4c03-a21a-6cd5cfeef064
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], IWMPSubscriptionService2 interface [Windows Media Player],described, IWMPSubscriptionService2Interface, subscriptionservices/IWMPSubscriptionService2, wmp.iwmpsubscriptionservice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <b>IWMPSubscriptionService2</b> interface extends <b>IWMPSubscriptionService
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService2</b> interface inherits from <a href="https://msdn.microsoft.com/cb9d0f20-d5ca-4db9-adcc-0a803f97f196">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionService2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563697(v=VS.85).aspx">IWMPSubscriptionService</a>. <b>IWMPSubscriptionService2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IWMPSubscriptionService2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3450e57-5e25-411c-8b21-b687021a6500">deviceAvailable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563699(v=VS.85).aspx">deviceAvailable</a>
 </td>
 <td align="left" width="63%">
 Initiates device-specific processing tasks.
@@ -84,7 +82,7 @@ Initiates device-specific processing tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64ab5548-b562-44e4-9798-8f14d3ed653b">prepareForSync</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563700(v=VS.85).aspx">prepareForSync</a>
 </td>
 <td align="left" width="63%">
 Initiates tasks related to synchronizing a digital media file to a device.
@@ -93,7 +91,7 @@ Initiates tasks related to synchronizing a digital media file to a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5937cf18-2548-45da-87eb-519448e64405">serviceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563701(v=VS.85).aspx">serviceEvent</a>
 </td>
 <td align="left" width="63%">
 Called when the online store is activated or deactivated.
@@ -102,7 +100,7 @@ Called when the online store is activated or deactivated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afca5ab8-d7ca-48e9-8220-d132d1893f0e">stopBackgroundProcessing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563702(v=VS.85).aspx">stopBackgroundProcessing</a>
 </td>
 <td align="left" width="63%">
 Terminates background processing tasks.
@@ -117,7 +115,7 @@ Terminates background processing tasks.
 
 
 
-<a href="https://msdn.microsoft.com/cb9d0f20-d5ca-4db9-adcc-0a803f97f196">IWMPSubscriptionService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563697(v=VS.85).aspx">IWMPSubscriptionService</a>
 
 
 

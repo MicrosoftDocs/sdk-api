@@ -9,8 +9,6 @@ ms.assetid: 55b9197e-4138-4cd5-9d06-4f31f1f5781a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Reset method, IEnumCATEGORYINFO.Reset, IEnumCATEGORYINFO::Reset, Reset, Reset method [COM], Reset method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_reset, com.ienumcategoryinfo_reset, comcat/IEnumCATEGORYINFO::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
@@ -83,7 +81,7 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

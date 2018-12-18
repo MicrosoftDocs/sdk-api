@@ -9,8 +9,6 @@ ms.assetid: 5fd69b1f-4e4b-4643-8429-9b5f98f3d702
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnSelectionChange method, IFileDialogEvents.OnSelectionChange, IFileDialogEvents::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Windows Shell], OnSelectionChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnSelectionChange, shell_IFileDialogEvents_OnSelectionChange, shobjidl_core/IFileDialogEvents::OnSelectionChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

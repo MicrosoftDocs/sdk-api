@@ -9,8 +9,6 @@ ms.assetid: 6f520ab4-867f-4001-8f2f-25f0d8efe454
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetCaption method, IFullScreenVideoEx.SetCaption, IFullScreenVideoEx::SetCaption, IFullScreenVideoSetCaption, SetCaption, SetCaption method [DirectShow], SetCaption method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetCaption, dshow.ifullscreenvideoex_setcaption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -124,7 +122,7 @@ The caption is visible when the window is minimized.
 
 
 
-<a href="https://msdn.microsoft.com/4c9de58f-6ceb-4cf5-b1a5-d3e345e08190">IFullScreenVideoEx Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390056(v=VS.85).aspx">IFullScreenVideoEx Interface</a>
  
 
  

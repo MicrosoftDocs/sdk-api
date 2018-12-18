@@ -9,8 +9,6 @@ ms.assetid: 30996835-420a-4141-838f-10b62b562992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInteractionConfigurationInteractionContext, GetInteractionConfigurationInteractionContext function, input_intcontext.getinteractionconfigurationinteractioncontext, interactioncontext.getinteractionconfigurationinteractioncontext, interactioncontext/GetInteractionConfigurationInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

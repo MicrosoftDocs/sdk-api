@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMFLOAT2, XMFLOAT2 constructor [DirectX Math Support APIs], XMFLOAT2 constructor [DirectX Math Support APIs],XMFLOAT2 structure, XMFLOAT2 structure [DirectX Math Support APIs],XMFLOAT2 constructor, XMFLOAT2.XMFLOAT2, XMFLOAT2.XMFLOAT2(), XMFLOAT2::XMFLOAT2, dxmath.xmfloat2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxmath.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMFLOAT2</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-A
 
 
 
-<a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b679681-f50c-4028-8a0d-28d283e0e9e7">XMFLOAT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415279(v=VS.85).aspx">XMFLOAT2 Constructors</a>
  
 
  

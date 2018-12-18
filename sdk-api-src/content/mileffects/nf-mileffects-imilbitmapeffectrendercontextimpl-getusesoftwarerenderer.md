@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUseSoftwareRenderer, GetUseSoftwareRenderer method [WPF Bitmap Effects], GetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetUseSoftwareRenderer method, IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer, IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

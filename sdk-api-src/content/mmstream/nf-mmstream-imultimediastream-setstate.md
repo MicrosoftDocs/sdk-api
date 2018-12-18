@@ -9,8 +9,6 @@ ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>SetState</code> method runs or stops the multimedia stream object.
 
 ### -param NewState [in]
 
-A member of the <a href="https://msdn.microsoft.com/0be95819-0a42-4459-a891-194aacd26e2e">STREAM_STATE</a> enumeration, specifying the new state (running or stopped).
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407156(v=VS.85).aspx">STREAM_STATE</a> enumeration, specifying the new state (running or stopped).
 
 
 ## -returns
@@ -121,7 +119,7 @@ Stopping the multimedia stream object deletes any data that is pending.
 
 
 
-<a href="https://msdn.microsoft.com/8be6c74f-9290-48b4-ad66-8d7d7cc94174">IMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390325(v=VS.85).aspx">IMultiMediaStream Interface</a>
  
 
  

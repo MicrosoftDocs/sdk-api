@@ -9,8 +9,6 @@ ms.assetid: fe3d1158-b99b-4ae1-a509-c6f34b42615f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],CollectionMode property, IInkPicture.CollectionMode, IInkPicture.get_CollectionMode, IInkPicture::CollectionMode, IInkPicture::get_CollectionMode, IInkPicture::put_CollectionMode, InkPicture.get_CollectionMode, InkPicture.put_CollectionMode, fe3d1158-b99b-4ae1-a509-c6f34b42615f, get_CollectionMode, msinkaut/IInkPicture::CollectionMode, msinkaut/IInkPicture::get_CollectionMode, msinkaut/IInkPicture::put_CollectionMode, tablet.inkpicture_collectionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -86,7 +84,7 @@ For further details about this property, refer to the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

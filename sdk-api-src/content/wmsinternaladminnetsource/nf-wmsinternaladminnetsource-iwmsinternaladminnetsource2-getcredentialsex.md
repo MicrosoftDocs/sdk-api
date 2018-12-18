@@ -9,8 +9,6 @@ ms.assetid: 5840fe0b-34f6-4e39-b55f-7e07b7795e52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCredentialsEx, GetCredentialsEx method [windows Media Format], GetCredentialsEx method [windows Media Format],IWMSInternalAdminNetSource2 interface, IWMSInternalAdminNetSource2 interface [windows Media Format],GetCredentialsEx method, IWMSInternalAdminNetSource2.GetCredentialsEx, IWMSInternalAdminNetSource2::GetCredentialsEx, IWMSInternalAdminNetSource2GetCredentialsEx, wmformat.iwmsinternaladminnetsource2_getcredentialsex, wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -54,11 +52,11 @@ req.redist:
 
 
 
-The <b>GetCredentialsEx</b> method retrieves a cached password. This improved version of <a href="https://msdn.microsoft.com/e4d6bcc3-a32b-4270-8b43-f3b6a5046fd6">IWMSInternalAdminNetSource::GetCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
+The <b>GetCredentialsEx</b> method retrieves a cached password. This improved version of <a href="https://msdn.microsoft.com/en-us/library/Dd798539(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentials</a> uses the combination of realm, URL, and proxy use to identify the credentials. This is an improvement over using the realm by itself, which can easily be spoofed by malicious code.
 
 
 
-This method has been superseded by <a href="https://msdn.microsoft.com/e351f403-4699-4666-b98f-2aed0b80e548">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>.
+This method has been superseded by <a href="https://msdn.microsoft.com/en-us/library/Dd743724(v=VS.85).aspx">IWMSInternalAdminNetSource3::GetCredentialsEx2</a>.
 
 
 ## -parameters
@@ -85,7 +83,7 @@ Boolean value that is True if the password applies when using a proxy server to 
 
 ### -param pdwUrlPolicy [out]
 
-Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/d4ffdbc8-123e-4cb4-bcc9-8d52c3362529">NETSOURCE_URLCREDPOLICY_SETTINGS</a> enumeration type. This value is based on the user's network security settings and determines whether your application can automatically log in to sites for the user if you have credentials cached.
+Pointer to a <b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757544(v=VS.85).aspx">NETSOURCE_URLCREDPOLICY_SETTINGS</a> enumeration type. This value is based on the user's network security settings and determines whether your application can automatically log in to sites for the user if you have credentials cached.
 
 
 ### -param pbstrName [out]
@@ -117,11 +115,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/6d334725-11d5-4249-a83d-fc8c1c35a56f">IWMSInternalAdminNetSource2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743718(v=VS.85).aspx">IWMSInternalAdminNetSource2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca45626e-3f4d-415d-a4d1-90ce0177bd10">IWMSInternalAdminNetSource2::SetCredentialsEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743721(v=VS.85).aspx">IWMSInternalAdminNetSource2::SetCredentialsEx</a>
  
 
  

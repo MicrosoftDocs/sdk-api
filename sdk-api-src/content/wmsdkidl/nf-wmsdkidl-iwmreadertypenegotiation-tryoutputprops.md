@@ -9,8 +9,6 @@ ms.assetid: 87d16641-3d28-4bad-962b-8ec808cd7877
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderTypeNegotiation interface [windows Media Format],TryOutputProps method, IWMReaderTypeNegotiation.TryOutputProps, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format],IWMReaderTypeNegotiation interface, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>TryOutputProps</b> method ascertains whether certain changes to the prope
 
 ### -param pOutput [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps</a> interface of an output media properties object.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps</a> interface of an output media properties object.
 
 
 ## -returns
@@ -150,7 +148,7 @@ Not enough memory to complete the task.
 
 
 
-This method is usually used to test different output properties to find out if they are possible; for example, to find out whether a video stream can be rendered at a resolution of 320 x 240 pixels in 16-bit color. To perform this testing, call <a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a> to retrieve an <b>IWMOutputMediaProps</b> interface, and alter properties by using that interface. Then test the modified object with the <b>TryOutputProps</b> method. If it returns S_OK, the new properties would work.
+This method is usually used to test different output properties to find out if they are possible; for example, to find out whether a video stream can be rendered at a resolution of 320 x 240 pixels in 16-bit color. To perform this testing, call <a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a> to retrieve an <b>IWMOutputMediaProps</b> interface, and alter properties by using that interface. Then test the modified object with the <b>TryOutputProps</b> method. If it returns S_OK, the new properties would work.
 
 
 
@@ -160,11 +158,11 @@ This method is usually used to test different output properties to find out if t
 
 
 
-<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/289ca857-5421-47f8-927e-6ca4204a31f9">IWMReaderTypeNegotiation Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743583(v=VS.85).aspx">IWMReaderTypeNegotiation Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 83bb3495-a12d-48a8-864c-3cd636866308
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_name method, IWMPMedia.get_name, IWMPMedia2 interface [Windows Media Player],get_name method, IWMPMedia2::get_name, IWMPMedia3 interface [Windows Media Player],get_name method, IWMPMedia3::get_name, IWMPMedia::get_name, IWMPMediaget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPMedia interface, get_name method [Windows Media Player],IWMPMedia2 interface, get_name method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_name, wmp/IWMPMedia2::get_name, wmp/IWMPMedia3::get_name, wmp/IWMPMedia::get_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cf6cff8-c5d1-4d10-8d32-764e35ef7ba2">IWMPMedia::put_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563448(v=VS.85).aspx">IWMPMedia::put_name</a>
  
 
  

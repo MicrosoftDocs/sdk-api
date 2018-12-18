@@ -9,8 +9,6 @@ ms.assetid: 65343F8A-ACD5-4BD2-83CD-DA9F71690DF3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsDuplicateString, WindowsDuplicateString function [Windows Runtime], winrt.windowsduplicatestring, winstring/WindowsDuplicateString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

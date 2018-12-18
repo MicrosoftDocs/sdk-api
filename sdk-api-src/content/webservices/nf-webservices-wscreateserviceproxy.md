@@ -9,8 +9,6 @@ ms.assetid: 9215684b-979e-48ad-b4ee-2ae1db1e3034
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateServiceProxy, WsCreateServiceProxy function [Web Services for Windows], webservices/WsCreateServiceProxy, wsw.wscreateserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -64,13 +62,13 @@ Creates a  <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08
 
 ### -param channelType [in]
 
-A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy.
                 
 
 
 ### -param channelBinding [in]
 
-A <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration value representing the channel binding.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CHANNEL_BINDING</a> enumeration value representing the channel binding.
                 
 
 

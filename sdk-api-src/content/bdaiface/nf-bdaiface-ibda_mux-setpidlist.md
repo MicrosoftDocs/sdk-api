@@ -9,8 +9,6 @@ ms.assetid: 2d77086c-2321-434d-bf24-b4eac395825b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_MUX interface [Microsoft TV Technologies],SetPidList method, IBDA_MUX.SetPidList, IBDA_MUX::SetPidList, SetPidList, SetPidList method [Microsoft TV Technologies], SetPidList method [Microsoft TV Technologies],IBDA_MUX interface, bdaiface/IBDA_MUX::SetPidList, mstv.ibda_mux_setpidlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -65,7 +63,7 @@ The number of elements in the <i>pbPidListBuffer</i> array.
 
 ### -param pbPidListBuffer [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd693013(v=VS.85).aspx">BDA_MUX_PIDLISTITEM</a> structures.
+Pointer to an array of <a href="https://msdn.microsoft.com/50355317-7133-445c-9990-ab536801e555">BDA_MUX_PIDLISTITEM</a> structures.
 
 
 ## -returns

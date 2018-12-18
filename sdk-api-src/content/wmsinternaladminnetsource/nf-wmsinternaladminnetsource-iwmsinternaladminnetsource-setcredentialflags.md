@@ -9,8 +9,6 @@ ms.assetid: af6208b3-84f6-44d1-9587-140044f2b2f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentialFlags method, IWMSInternalAdminNetSource.SetCredentialFlags, IWMSInternalAdminNetSource::SetCredentialFlags, IWMSInternalAdminNetSourceSetCredentialFlags, SetCredentialFlags, SetCredentialFlags method [windows Media Format], SetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -83,15 +81,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/781b2868-c8e2-4d92-98f2-c2950fac3d9b">IWMSInternalAdminNetSource::GetCredentialFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798538(v=VS.85).aspx">IWMSInternalAdminNetSource::GetCredentialFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0655ed3-8d14-447a-b74f-054498eb75e9">IWMSInternalAdminNetSource::SetCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798542(v=VS.85).aspx">IWMSInternalAdminNetSource::SetCredentials</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: bd41cbcc-b8a8-4b08-9b25-399e366614ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_UsingOverlay method, IMSVidVideoRenderer.get_UsingOverlay, IMSVidVideoRenderer::get_UsingOverlay, IMSVidVideoRendererget_UsingOverlay, get_UsingOverlay, get_UsingOverlay method [Microsoft TV Technologies], get_UsingOverlay method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_usingoverlay, segment/IMSVidVideoRenderer::get_UsingOverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -100,7 +98,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7">IMSVidVideoRenderer::put_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">IMSVidVideoRenderer::put_UsingOverlay</a>
  
 
  

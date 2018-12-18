@@ -9,8 +9,6 @@ ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

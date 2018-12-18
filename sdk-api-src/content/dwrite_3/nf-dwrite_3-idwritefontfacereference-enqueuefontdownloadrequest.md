@@ -9,8 +9,6 @@ ms.assetid: 94b1adb2-42d5-bdfa-ce99-52e67e0f7cf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnqueueFontDownloadRequest, EnqueueFontDownloadRequest method [Direct Write], EnqueueFontDownloadRequest method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],EnqueueFontDownloadRequest method, IDWriteFontFaceReference.EnqueueFontDownloadRequest, IDWriteFontFaceReference::EnqueueFontDownloadRequest, directwrite.idwritefontfacereference_enqueuefontdownloadrequest, dwrite_3/IDWriteFontFaceReference::EnqueueFontDownloadRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>).
 
 
 ## -parameters
@@ -76,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

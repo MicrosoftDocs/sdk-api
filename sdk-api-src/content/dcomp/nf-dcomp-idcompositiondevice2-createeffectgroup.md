@@ -9,8 +9,6 @@ ms.assetid: 07AF43F9-1050-48C5-B37B-787B5CC60E9D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEffectGroup, CreateEffectGroup method [DirectComposition], CreateEffectGroup method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateEffectGroup method, IDCompositionDevice2.CreateEffectGroup, IDCompositionDevice2::CreateEffectGroup, dcomp/IDCompositionDevice2::CreateEffectGroup, directcomp.idcompositiondevice2_createeffectgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates an object that represents multiple effects to be applied to a visual sub
 
 ### -param effectGroup [out]
 
-Type: <b><a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx">IDCompositionEffectGroup</a>**</b>
 
 The new effect group object. This parameter must not be NULL.
 
@@ -84,7 +82,7 @@ An effect group enables an application to apply multiple effects to a single vis
 
 A new effect group has a default opacity value of 1.0 and no 3D transformations.
 
-To set the opacity and transform values, use the corresponding methods on the <a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a> that was created.
+To set the opacity and transform values, use the corresponding methods on the <a href="https://msdn.microsoft.com/en-us/library/Hh437418(v=VS.85).aspx">IDCompositionEffectGroup</a> that was created.
 
 
 
@@ -94,11 +92,11 @@ To set the opacity and transform values, use the corresponding methods on the <a
 
 
 
-<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

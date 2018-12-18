@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtenumwia_format_info.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

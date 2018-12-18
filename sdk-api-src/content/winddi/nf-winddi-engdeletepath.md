@@ -9,8 +9,6 @@ ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

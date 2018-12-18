@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturepartreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: 8a54debe-3ac6-471d-b5a5-c3512da4d079
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceEnumerator, opc.iopcsignaturepartreferenceenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6f485ffa-0e94-4443-9c79-991c35a60e97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],EnableNext method, IWCWizardCallback.EnableNext, IWCWizardCallback::EnableNext, _wolf_iwcwizardcallback_enablenext, cluadmex/IWCWizardCallback::EnableNext, mscs.iwcwizardcallback_enablenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
@@ -123,12 +121,12 @@ The <i>hpage</i> parameter represents an unknown page.
 Extensions should call the <b>EnableNext</b> 
      method in their handling of the <b>PSN_SETACTIVE</b> message for a property page that 
      they have added to the Failover Cluster Administrator Wizard. 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> determines whether 
+     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> determines whether 
      the <b>Next</b> or <b>Finish</b> button should be displayed based on 
      the page specified in the <i>hpage</i> parameter.
 
 For Wizard97 pages, use 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370515(v=VS.85).aspx">IWCWizard97Callback::EnableNext</a>.
+     <a href="https://msdn.microsoft.com/aac4dd75-aa98-4db0-8201-33d4c115896b">IWCWizard97Callback::EnableNext</a>.
 
 
 
@@ -138,11 +136,11 @@ For Wizard97 pages, use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370515(v=VS.85).aspx">IWCWizard97Callback::EnableNext</a>
+<a href="https://msdn.microsoft.com/aac4dd75-aa98-4db0-8201-33d4c115896b">IWCWizard97Callback::EnableNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370517(v=VS.85).aspx">IWCWizardCallback</a>
+<a href="https://msdn.microsoft.com/0d5f45c4-6091-4ea4-875a-69be7f1258db">IWCWizardCallback</a>
  
 
  

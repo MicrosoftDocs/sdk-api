@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextFont interface [Windows Controls],SetBold method, ITextFont.SetBold, ITextFont::SetBold, SetBold, SetBold method [Windows Controls], SetBold method [Windows Controls],ITextFont interface, _win32_ITextFont_SetBold, _win32_ITextFont_SetBold_cpp, controls.ITextFont_SetBold, controls._win32_ITextFont_SetBold, tom/ITextFont::SetBold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

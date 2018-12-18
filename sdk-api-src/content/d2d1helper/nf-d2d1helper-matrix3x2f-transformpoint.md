@@ -9,8 +9,6 @@ ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1.Matrix3x2F.TransformPoint, D2D1::Matrix3x2F::TransformPoint, Matrix3x2F interface [Direct2D],TransformPoint method, Matrix3x2F.TransformPoint, Matrix3x2F::TransformPoint, TransformPoint, TransformPoint method [Direct2D], TransformPoint method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::TransformPoint, direct2d.matrix3x2f_transformpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 
@@ -60,7 +58,7 @@ Uses this matrix to transform the specified point and returns the result.
 
 ### -param point
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The point to transform.
 
@@ -69,7 +67,7 @@ The point to transform.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The transformed point.
 

@@ -9,8 +9,6 @@ ms.assetid: 538f7db4-0739-421c-9d51-8144b2d52334
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange2 interface [Windows Controls],UnicodeToHex method, ITextRange2.UnicodeToHex, ITextRange2::UnicodeToHex, UnicodeToHex, UnicodeToHex method [Windows Controls], UnicodeToHex method [Windows Controls],ITextRange2 interface, controls.itextrange2_unicodetohex, tom/ITextRange2::UnicodeToHex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

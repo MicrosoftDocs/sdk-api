@@ -9,8 +9,6 @@ ms.assetid: B4EDDC32-732D-422B-85A0-FD935DBFE4EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTSetDescriptorValue, BluetoothGATTSetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattsetdescriptorvalue, bluetoothleapis/BluetoothGATTSetDescriptorValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
@@ -441,11 +439,11 @@ hr = BluetoothGATTSetDescriptorValue(hDevice,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450847(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+<a href="https://msdn.microsoft.com/81D05AA7-B16C-4705-919F-8563FFA4A58E">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
  
 
  

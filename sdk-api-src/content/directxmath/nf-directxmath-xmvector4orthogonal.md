@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Orthogonal(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4Orthogonal, XMVector4Orthogonal, XMVector4Orthogonal method [DirectX Math Support APIs], dxmath.xmvector4orthogonal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -77,7 +75,7 @@ Returns the 4D vector orthogonal to <i>V</i>.
 
 
 A 4D cross-product is not well-defined. This function computes a generalized 'cross-product' for 4D vectors. 
-    <a href="https://msdn.microsoft.com/61cc3f3b-171a-4a67-b588-ea242b1a6110">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
+    <a href="https://msdn.microsoft.com/en-us/library/Ee420956(v=VS.85).aspx">XMVector4Cross</a> is another geometric 'cross-product' for 4D vectors.
 
 The following pseudocode demonstrates the operation of the function:
 

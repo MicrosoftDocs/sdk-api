@@ -9,8 +9,6 @@ ms.assetid: dc9de369-f739-475c-96f5-e2e058705fe8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/IPInterfaceInfo, winprog.ipinterfaceinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 

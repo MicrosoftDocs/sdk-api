@@ -9,8 +9,6 @@ ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 
@@ -191,7 +189,7 @@ If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTE
 
 
 
-<a href="https://msdn.microsoft.com/78e0a165-5a19-4dca-8d6c-445345772824">IAMVideoAccelerator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 550eadd0-c03b-40b3-9f08-639085365f4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceIoControlAsync, DeviceIoControlAsync method [Device Access Broker API], DeviceIoControlAsync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlAsync method, IDeviceIoControl.DeviceIoControlAsync, IDeviceIoControl::DeviceIoControlAsync, deviceaccess.ideviceiocontrol_deviceiocontrolasync, deviceaccess/IDeviceIoControl::DeviceIoControlAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 7b120bf6-17f8-43d7-a27c-b7674535c1d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMSOM class [GPMC],GetSecurityInfo method, GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],GPMSOM class, GetSecurityInfo method [GPMC],IGPMSOM interface, IGPMSOM interface [GPMC],GetSecurityInfo method, IGPMSOM.GetSecurityInfo, IGPMSOM::GetSecurityInfo, _win32_igpmsom_getsecurityinfo, gpmc.igpmsom_getsecurityinfo, gpmgmt/IGPMSOM::GetSecurityInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

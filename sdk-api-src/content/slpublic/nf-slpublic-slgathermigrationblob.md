@@ -9,8 +9,6 @@ ms.assetid: 490a5dbd-8c4b-4b25-ae21-f5f58b97a58f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

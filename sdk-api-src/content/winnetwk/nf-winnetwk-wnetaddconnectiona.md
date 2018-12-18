@@ -9,8 +9,6 @@ ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnetwk.h
 req.include-header: 

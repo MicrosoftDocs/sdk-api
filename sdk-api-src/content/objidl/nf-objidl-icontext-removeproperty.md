@@ -9,8 +9,6 @@ ms.assetid: bb5b282a-d337-4371-b1c2-1b429a5bf135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

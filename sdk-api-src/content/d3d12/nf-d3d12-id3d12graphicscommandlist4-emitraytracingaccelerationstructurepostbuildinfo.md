@@ -9,8 +9,6 @@ ms.assetid: 05E4B38B-1A3A-4121-8BD7-A437534C8B9A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EmitRaytracingAccelerationStructurePostbuildInfo, EmitRaytracingAccelerationStructurePostbuildInfo method, EmitRaytracingAccelerationStructurePostbuildInfo method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,EmitRaytracingAccelerationStructurePostbuildInfo method, ID3D12GraphicsCommandList4.EmitRaytracingAccelerationStructurePostbuildInfo, ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, d3d12/ID3D12GraphicsCommandList4::EmitRaytracingAccelerationStructurePostbuildInfo, direct3d12.id3d12graphicscommandlist4_emitraytracingaccelerationstructurepostbuildinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -100,7 +98,7 @@ This method can be called from graphics or compute command lists but not from bu
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

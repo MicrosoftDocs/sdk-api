@@ -9,8 +9,6 @@ ms.assetid: 5d29a746-70fe-495e-a7f2-dbf085829496
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterPostViewCallback interface [windows Media Format],OnPostViewSample method, IWMWriterPostViewCallback.OnPostViewSample, IWMWriterPostViewCallback::OnPostViewSample, IWMWriterPostViewCallbackOnPostViewSample, OnPostViewSample, OnPostViewSample method [windows Media Format], OnPostViewSample method [windows Media Format],IWMWriterPostViewCallback interface, wmformat.iwmwriterpostviewcallback_onpostviewsample, wmsdkidl/IWMWriterPostViewCallback::OnPostViewSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -109,7 +107,7 @@ Sample duration, in 100-nanosecond units. This will usually be 10000 (1 millisec
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> interface on an object that contains the sample.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object that contains the sample.
 
 
 ### -param pvContext [in]
@@ -140,11 +138,11 @@ Postview data is available only for video.
 
 
 
-<a href="https://msdn.microsoft.com/0f6e4d4f-4295-44ff-95bc-e683bdbab8e0">IWMReaderCallback::OnSample</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743503(v=VS.85).aspx">IWMReaderCallback::OnSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/987dd3b4-2245-4640-820c-5a9660ab5e37">IWMWriterPostViewCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798771(v=VS.85).aspx">IWMWriterPostViewCallback Interface</a>
  
 
  

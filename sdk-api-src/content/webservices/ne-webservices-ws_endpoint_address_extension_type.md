@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
+UID: NE:webservices.__unnamed_enum_29
 title: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE
 author: windows-sdk-content
 description: This identifies a type of extension within the extensions field of the WS_ENDPOINT_ADDRESS.
@@ -7,10 +7,8 @@ old-location: wsw\ws_endpoint_address_extension_type.htm
 tech.root: wsw
 ms.assetid: c35c39ff-497e-46d4-9dd7-2187a78f710e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS, webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE, wsw.ws_endpoint_address_extension_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

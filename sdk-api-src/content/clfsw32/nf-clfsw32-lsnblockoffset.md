@@ -9,8 +9,6 @@ ms.assetid: 72445d03-1b9a-48a6-993e-792e1f524f4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsnBlockOffset, LsnBlockOffset function [Files], clfsw32/LsnBlockOffset, fs.lsnblockoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

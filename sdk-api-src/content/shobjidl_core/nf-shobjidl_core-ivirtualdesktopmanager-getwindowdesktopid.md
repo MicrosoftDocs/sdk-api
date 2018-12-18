@@ -9,8 +9,6 @@ ms.assetid: 1A53C70F-6034-449D-832E-A563886F20E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell],IVirtualDesktopManager interface, IVirtualDesktopManager interface [Windows Shell],GetWindowDesktopId method, IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl_core/IVirtualDesktopManager::GetWindowDesktopId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/B95AC349-63E3-4A5A-A353-1C93486BB67A">IVirtualDesktopManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186440(v=VS.85).aspx">IVirtualDesktopManager</a>
  
 
  

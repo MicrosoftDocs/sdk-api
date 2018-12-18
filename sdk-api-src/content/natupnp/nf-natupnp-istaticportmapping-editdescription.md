@@ -9,8 +9,6 @@ ms.assetid: 6bfa6242-298e-4835-9eda-fdc6a88d848f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EditDescription, EditDescription method [ICS/ICF], EditDescription method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditDescription method, IStaticPortMapping.EditDescription, IStaticPortMapping::EditDescription, _ics_istaticportmapping_editdescription, ics.istaticportmapping_editdescription, natupnp/IStaticPortMapping::EditDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

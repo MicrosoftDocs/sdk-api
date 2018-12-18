@@ -9,8 +9,6 @@ ms.assetid: 4a5f8430-7b5a-4184-acc9-ae4395acf2fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetName method, ISyncMgrSyncItem.GetName, ISyncMgrSyncItem::GetName, _shell_ISyncMgrSyncItem_GetName, shell.ISyncMgrSyncItem_GetName, syncmgr/ISyncMgrSyncItem::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

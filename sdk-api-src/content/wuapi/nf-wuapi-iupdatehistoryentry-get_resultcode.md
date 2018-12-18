@@ -9,8 +9,6 @@ ms.assetid: 4137dbea-bb68-4187-a8fd-902cb94c4342
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ResultCode property, IUpdateHistoryEntry.ResultCode, IUpdateHistoryEntry.get_ResultCode, IUpdateHistoryEntry::ResultCode, IUpdateHistoryEntry::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_ResultCode, wua.iupdatehistoryentry_resultcode, wuapi/IUpdateHistoryEntry::ResultCode, wuapi/IUpdateHistoryEntry::get_ResultCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

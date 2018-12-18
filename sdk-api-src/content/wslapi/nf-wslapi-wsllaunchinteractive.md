@@ -9,8 +9,6 @@ ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 24133185-0d5f-41fc-b381-ef982db46dd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimePerFrame, GetTimePerFrame method [DirectShow], GetTimePerFrame method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],GetTimePerFrame method, IDirectDrawMediaStream.GetTimePerFrame, IDirectDrawMediaStream::GetTimePerFrame, IDirectDrawMediaStreamGetTimePerFrame, ddstream/IDirectDrawMediaStream::GetTimePerFrame, dshow.idirectdrawmediastream_gettimeperframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddstream.h
 req.include-header: 
@@ -82,7 +80,7 @@ Returns S_OK if successful or E_POINTER if the pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/858af0c3-9e22-45d8-ab08-307eb39a8977">IDirectDrawMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406806(v=VS.85).aspx">IDirectDrawMediaStream Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 4113919E-84B9-402A-A2A1-64EB74D2CC59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetRedTable method, IDCompositionTableTransferEffect.SetRedTable, IDCompositionTableTransferEffect::SetRedTable, SetRedTable, SetRedTable method [DirectComposition], SetRedTable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetRedTable, directcomp.idcompositiontabletransfereffect_setredtable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -76,7 +74,7 @@ The number of values in the tableValues parameter.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/147E15B8-C529-4BC6-85AA-FB069B892C6C">IDCompositionTableTransferEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919783(v=VS.85).aspx">IDCompositionTableTransferEffect</a>
  
 
  

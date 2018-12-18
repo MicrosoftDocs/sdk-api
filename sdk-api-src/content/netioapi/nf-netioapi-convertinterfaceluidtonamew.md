@@ -9,8 +9,6 @@ ms.assetid: e4269a6a-1237-4503-b7d7-756388458750
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertInterfaceLuidToNameW, ConvertInterfaceLuidToNameW function [IP Helper], iphlp.convertinterfaceluidtonamew, netioapi/ConvertInterfaceLuidToNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -9,8 +9,6 @@ ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], ModifyQuorum, OperationalQuorum, _CLUSTER_QUORUM_TYPE, _CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], clusapi/CLUSTER_QUORUM_TYPE, clusapi/ModifyQuorum, clusapi/OperationalQuorum, clusapi/_CLUSTER_QUORUM_TYPE, msclus/CLUSTER_QUORUM_TYPE, msclus/ModifyQuorum, msclus/OperationalQuorum, msclus/_CLUSTER_QUORUM_TYPE, mscs.cluster_quorum_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2435ef20-c75c-4b28-9824-8428b2ac6326
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml, usbuser/IOCTL_GET_HCD_DRIVERKEY_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: ioctl
 req.header: usbuser.h
 req.include-header: Usbioctl.h

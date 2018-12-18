@@ -9,8 +9,6 @@ ms.assetid: 3662ac53-25d5-4d8c-8f98-02f313e03dce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsnCreate, LsnCreate function [Files], clfsw32/LsnCreate, fs.lsncreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

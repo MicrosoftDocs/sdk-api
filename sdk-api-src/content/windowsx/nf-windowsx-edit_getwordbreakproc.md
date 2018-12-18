@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetWordBreakProc, Edit_GetWordBreakProc macro [Windows Controls], _win32_Edit_GetWordBreakProc, _win32_Edit_GetWordBreakProc_cpp, controls.Edit_GetWordBreakProc, controls._win32_Edit_GetWordBreakProc, windowsx/Edit_GetWordBreakProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

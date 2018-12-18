@@ -9,8 +9,6 @@ ms.assetid: 4ff73c2c-a941-4626-ae40-cafbe6e50644
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterApplicationRecoveryCallback, RegisterApplicationRecoveryCallback function [Recovery], base.registerapplicationrecoverycallback, recovery.registerapplicationrecoverycallback, winbase/RegisterApplicationRecoveryCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

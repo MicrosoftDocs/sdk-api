@@ -9,8 +9,6 @@ ms.assetid: AA28755A-C2E3-4177-A5DD-61D9809A9D0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontFromLOGFONT, CreateFontFromLOGFONT method [Direct Write], CreateFontFromLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],CreateFontFromLOGFONT method, IDWriteGdiInterop1.CreateFontFromLOGFONT, IDWriteGdiInterop1::CreateFontFromLOGFONT, directwrite.idwritegdiinterop1_createfontfromlogfont, dwrite_3/IDWriteGdiInterop1::CreateFontFromLOGFONT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ Receives a newly created font object if successful, or NULL in case of error.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -95,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A69922D8-EF9F-4F46-91D3-F7F649CF4705">IDWriteGdiInterop1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn958415(v=VS.85).aspx">IDWriteGdiInterop1</a>
  
 
  

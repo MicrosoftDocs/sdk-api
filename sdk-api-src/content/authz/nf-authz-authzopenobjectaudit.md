@@ -9,8 +9,6 @@ ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 
@@ -119,7 +117,7 @@ If the function fails, it returns a zero value. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
  
 
  

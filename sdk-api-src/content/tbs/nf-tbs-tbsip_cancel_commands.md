@@ -9,8 +9,6 @@ ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

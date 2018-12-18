@@ -9,8 +9,6 @@ ms.assetid: 021ced93-4b79-4821-a380-7fed43fd5391
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSBufferAllocator, IWMSBufferAllocator interface [windows Media Format], IWMSBufferAllocator interface [windows Media Format],described, IWMSBufferAllocatorInterface, wmformat.iwmsbufferallocator, wmsbuffer/IWMSBufferAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMSBufferAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/857fb8fa-0e86-46f2-907d-a244d6c699ef">AllocateBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743700(v=VS.85).aspx">AllocateBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a buffer.
@@ -84,7 +82,7 @@ Initializes a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d2340dd-8f91-4cce-840a-256c04329513">AllocatePageSizeBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743701(v=VS.85).aspx">AllocatePageSizeBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a buffer that can be used to perform page-aligned reads.

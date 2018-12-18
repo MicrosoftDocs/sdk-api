@@ -9,8 +9,6 @@ ms.assetid: a52a665c-4c3a-4489-bd7b-e8ecb8dfe9cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimeSpanArray, GetTimeSpanArray method [Windows Runtime], GetTimeSpanArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpanArray method, IPropertyValue.GetTimeSpanArray, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpanArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpanArray, winrt.ipropertyvalue_gettimespanarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the array of <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a> values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a> values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 
 ## -parameters

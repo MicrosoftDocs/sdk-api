@@ -9,8 +9,6 @@ ms.assetid: fdba99d5-fd44-4d4f-8575-867d98bf3339
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumNodes method, IKsTopologyInfo.get_NumNodes, IKsTopologyInfo::get_NumNodes, IKsTopologyInfoget_NumNodes, dshow.ikstopologyinfo_get_numnodes, get_NumNodes, get_NumNodes method [DirectShow], get_NumNodes method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumNodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
  
 
  

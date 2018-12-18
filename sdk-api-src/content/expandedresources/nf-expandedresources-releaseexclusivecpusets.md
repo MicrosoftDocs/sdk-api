@@ -9,8 +9,6 @@ ms.assetid: C30D28CF-1A35-4849-AEC4-74F971C5F9DF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReleaseExclusiveCpuSets, ReleaseExclusiveCpuSets function, expandedresources/ReleaseExclusiveCpuSets, gamemode.releaseexclusivecpusets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 

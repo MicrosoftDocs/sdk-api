@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10multithread_getmultithreadprotected.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct3D 10], GetMultithreadProtected method [Direct3D 10],ID3D10Multithread interface, ID3D10Multithread interface [Direct3D 10],GetMultithreadProtected method, ID3D10Multithread.GetMultithreadProtected, ID3D10Multithread::GetMultithreadProtected, c9c76a23-94f1-07fd-0f2b-39bc5da06624, d3d10/ID3D10Multithread::GetMultithreadProtected, direct3d10.id3d10multithread_getmultithreadprotected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -65,7 +63,7 @@ Find out if multithreading is turned on or not.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Whether or not multithreading is turned on. True means on, false means off.
 

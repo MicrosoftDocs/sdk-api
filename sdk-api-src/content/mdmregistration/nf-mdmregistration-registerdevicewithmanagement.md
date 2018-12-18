@@ -9,8 +9,6 @@ ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

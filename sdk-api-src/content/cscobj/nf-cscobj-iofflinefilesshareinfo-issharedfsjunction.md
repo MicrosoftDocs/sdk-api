@@ -7,10 +7,8 @@ old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
 tech.root: offlinefiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction method, IOfflineFilesShareInfo.IsShareDfsJunction, IOfflineFilesShareInfo::IsShareDfsJunction, IsShareDfsJunction, IsShareDfsJunction method [Offline Files], IsShareDfsJunction method [Offline Files],IOfflineFilesShareInfo interface, cscobj/IOfflineFilesShareInfo::IsShareDfsJunction, of.iofflinefilesshareinfo_issharedfsjunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -78,7 +76,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530611(v=VS.85).aspx">IOfflineFilesShareInfo</a>
+<a href="https://msdn.microsoft.com/9647aae3-06ca-4813-8243-3d0fb794802d">IOfflineFilesShareInfo</a>
  
 
  

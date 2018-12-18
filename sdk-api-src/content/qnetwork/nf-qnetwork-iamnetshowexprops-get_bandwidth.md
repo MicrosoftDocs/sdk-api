@@ -9,8 +9,6 @@ ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMNetShowExProps.get_Bandwidth, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_Bandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: c26dbf15-62e8-4892-b7c5-2e6c085e4cd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExitProcess, ExitProcess function, _win32_exitprocess, base.exitprocess, processthreadsapi/ExitProcess, winbase/ExitProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

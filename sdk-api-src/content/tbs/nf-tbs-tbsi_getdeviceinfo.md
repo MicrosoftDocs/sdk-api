@@ -9,8 +9,6 @@ ms.assetid: 49C36A54-0D21-461C-A240-8D12ADF2AFA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_getdeviceinfo, tbs/Tbsi_GetDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

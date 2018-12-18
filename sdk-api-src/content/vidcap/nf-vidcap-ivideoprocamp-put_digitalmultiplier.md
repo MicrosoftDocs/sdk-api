@@ -9,8 +9,6 @@ ms.assetid: c1832aad-22fc-41f0-a99a-09b56c148384
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_DigitalMultiplier method, IVideoProcAmp.put_DigitalMultiplier, IVideoProcAmp::put_DigitalMultiplier, IVideoProcAmpput_DigitalMultiplier, dshow.ivideoprocamp_put_digitalmultiplier, put_DigitalMultiplier, put_DigitalMultiplier method [DirectShow], put_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_DigitalMultiplier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Specifies the digital zoom multiplier.
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -81,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For more information about the digital zoom multiplier, see <a href="https://msdn.microsoft.com/0b7ab1a3-193c-4682-af35-ae0cc5f28f45">IVideoProcAmp::get_DigitalMultiplier</a>.
+For more information about the digital zoom multiplier, see <a href="https://msdn.microsoft.com/en-us/library/Dd377254(v=VS.85).aspx">IVideoProcAmp::get_DigitalMultiplier</a>.
 
 
 
@@ -95,7 +93,7 @@ For more information about the digital zoom multiplier, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

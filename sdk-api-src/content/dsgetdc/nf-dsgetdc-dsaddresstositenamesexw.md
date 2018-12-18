@@ -9,8 +9,6 @@ ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

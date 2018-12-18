@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\window
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWLP_DLGPROC, DWLP_MSGRESULT, DWLP_USER, GWLP_HINSTANCE, GWLP_ID, GWLP_USERDATA, GWLP_WNDPROC, GWL_EXSTYLE, GWL_STYLE, SetWindowLongPtr, SetWindowLongPtr function [Windows and Messages], SetWindowLongPtrA, SetWindowLongPtrW, _win32_SetWindowLongPtr, _win32_setwindowlongptr_cpp, winmsg.setwindowlongptr, winui._win32_setwindowlongptr, winuser/SetWindowLongPtr, winuser/SetWindowLongPtrA, winuser/SetWindowLongPtrW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

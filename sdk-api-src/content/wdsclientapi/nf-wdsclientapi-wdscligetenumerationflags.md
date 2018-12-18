@@ -9,8 +9,6 @@ ms.assetid: 689ef310-c7e6-4ba0-9784-8cc8a8a43724
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliFlagEnumFilterVersion, WdsCliGetEnumerationFlags, WdsCliGetEnumerationFlags function [Windows Deployment Services], wds.wdscligetenumerationflags, wdsclientapi/WdsCliGetEnumerationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: WdsClientAPI.h

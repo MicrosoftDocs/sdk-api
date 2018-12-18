@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Disc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Discontinuity, Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Discontinuity method, IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

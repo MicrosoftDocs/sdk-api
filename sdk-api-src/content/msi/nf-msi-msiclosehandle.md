@@ -9,8 +9,6 @@ ms.assetid: b9e90ed4-fda8-4628-a713-67c651e1b572
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MsiCloseHandle, MsiCloseHandle function, _msi_msiclosehandle, msi/MsiCloseHandle, setup.msiclosehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 525c1a30-a870-4303-b704-e8b37f9e641f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmGetFiles interface,get_ModuleFiles method, IMsmGetFiles.get_ModuleFiles, IMsmGetFiles::get_ModuleFiles, _msi_get_modulefiles_function, get_ModuleFiles, get_ModuleFiles method, get_ModuleFiles method,IMsmGetFiles interface, mergemod/IMsmGetFiles::get_ModuleFiles, setup.imsmgetfiles_get_modulefiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

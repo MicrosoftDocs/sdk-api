@@ -9,8 +9,6 @@ ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

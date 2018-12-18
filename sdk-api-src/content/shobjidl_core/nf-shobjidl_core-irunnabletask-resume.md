@@ -9,8 +9,6 @@ ms.assetid: 51ff7ae2-b2db-4eee-b03b-da46ff0ec901
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Resume method, IRunnableTask.Resume, IRunnableTask::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Resume, shell.IRunnableTask_Resume, shobjidl_core/IRunnableTask::Resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

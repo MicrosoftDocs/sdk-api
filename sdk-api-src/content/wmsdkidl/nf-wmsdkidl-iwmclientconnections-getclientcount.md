@@ -9,8 +9,6 @@ ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -124,7 +122,7 @@ Streaming has not yet begun.
 
 
 
-<a href="https://msdn.microsoft.com/fea7cd85-22ab-4f3b-8a0a-301496f0c788">IWMClientConnections Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743303(v=VS.85).aspx">IWMClientConnections Interface</a>
  
 
  

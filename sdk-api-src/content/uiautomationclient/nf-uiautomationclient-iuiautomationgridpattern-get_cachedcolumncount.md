@@ -9,8 +9,6 @@ ms.assetid: d425d767-3ae4-4644-a8bb-b901462c6c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedColumnCount property [Windows Accessibility], CachedColumnCount property [Windows Accessibility],IUIAutomationGridPattern interface, IUIAutomationGridPattern interface [Windows Accessibility],CachedColumnCount property, IUIAutomationGridPattern.CachedColumnCount, IUIAutomationGridPattern.get_CachedColumnCount, IUIAutomationGridPattern::CachedColumnCount, IUIAutomationGridPattern::get_CachedColumnCount, get_CachedColumnCount, uiauto.uiauto_IUIAutomationGridPattern_CachedColumnCount, uiauto_IUIAutomationGridPattern_CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::CachedColumnCount, uiautomationclient/IUIAutomationGridPattern::get_CachedColumnCount, winauto.uiauto_IUIAutomationGridPattern_CachedColumnCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

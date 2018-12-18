@@ -9,8 +9,6 @@ ms.assetid: 6af44ce9-91d3-4329-835a-a1249924d672
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -146,7 +144,7 @@ If a filter is paused when it receives a seek command, it must flush existing da
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

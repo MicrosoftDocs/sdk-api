@@ -9,8 +9,6 @@ ms.assetid: 19dda0ed-0f11-4e17-823b-667a48cf6dc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],GetRecordCount method, ISimilarity.GetRecordCount, ISimilarity::GetRecordCount, fs.isimilarity_getrecordcount, msrdc/ISimilarity::GetRecordCount, rdc.isimilarity_getrecordcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

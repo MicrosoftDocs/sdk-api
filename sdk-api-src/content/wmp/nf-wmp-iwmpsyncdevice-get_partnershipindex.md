@@ -9,8 +9,6 @@ ms.assetid: a7f04b97-8a09-4feb-b776-649aa9d6f407
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_partnershipIndex method, IWMPSyncDevice.get_partnershipIndex, IWMPSyncDevice::get_partnershipIndex, IWMPSyncDeviceget_partnershipIndex, get_partnershipIndex, get_partnershipIndex method [Windows Media Player], get_partnershipIndex method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_partnershipindex, wmp/IWMPSyncDevice::get_partnershipIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -123,19 +121,19 @@ When <i>plIndex</i> equals zero, no partnership exists.
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/734a8717-3b7f-4a40-895f-b55cfabd665c">IWMPSyncDevice::createPartnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563716(v=VS.85).aspx">IWMPSyncDevice::createPartnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb525b4-c804-47e6-8d6c-7d943010077a">IWMPSyncDevice::deletePartnership</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563717(v=VS.85).aspx">IWMPSyncDevice::deletePartnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/36d40dc4-5641-49dd-9ef4-31d2acd0f41d">IWMPSyncDevice::get_deviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">IWMPSyncDevice::get_deviceId</a>
  
 
  

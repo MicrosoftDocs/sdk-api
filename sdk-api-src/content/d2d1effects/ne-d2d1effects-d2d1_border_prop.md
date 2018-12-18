@@ -9,8 +9,6 @@ ms.assetid: A8622A21-4B06-4262-B68C-A4FF075CFF37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_BORDER_PROP, D2D1_BORDER_PROP enumeration [Direct2D], D2D1_BORDER_PROP_EDGE_MODE_X, D2D1_BORDER_PROP_EDGE_MODE_Y, d2d1effects/D2D1_BORDER_PROP, d2d1effects/D2D1_BORDER_PROP_EDGE_MODE_X, d2d1effects/D2D1_BORDER_PROP_EDGE_MODE_Y, direct2d.d2d1_border_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706314(v=VS.85).aspx">Border effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D3D569F5-9496-4633-93E2-26665FFC3B37">Border effect</a>.
 
 
 ## -enum-fields
@@ -63,7 +61,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/libr
 The edge mode in the X direction for the effect. You can set this to clamp, wrap, or mirror.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934219(v=VS.85).aspx">D2D1_BORDER_EDGE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/CAB73FFA-2F81-467F-8A4D-D523793BF659">D2D1_BORDER_EDGE_MODE</a>.
 
 The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 
@@ -73,7 +71,7 @@ The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 The edge mode in the Y direction for the effect. You can set this to clamp, wrap, or mirror.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934219(v=VS.85).aspx">D2D1_BORDER_EDGE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/CAB73FFA-2F81-467F-8A4D-D523793BF659">D2D1_BORDER_EDGE_MODE</a>.
 
 The default value is D2D1_BORDER_EDGE_MODE_CLAMP.
 

@@ -9,8 +9,6 @@ ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -68,7 +66,7 @@ Pointer to an <b>IUnknown</b> interface. This value is not used and should be se
 
 ### -param ppWriter [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter</a> interface of the newly created writer object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter</a> interface of the newly created writer object.
 
 
 ## -returns

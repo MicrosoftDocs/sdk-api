@@ -9,8 +9,6 @@ ms.assetid: 25c64d6e-fd49-430a-9f9b-3c2b3d43d3a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDirectDraw, GetDirectDraw method [DirectShow], GetDirectDraw method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetDirectDraw method, IDirectDrawVideo.GetDirectDraw, IDirectDrawVideo::GetDirectDraw, IDirectDrawVideoGetDirectDraw, amvideo/IDirectDrawVideo::GetDirectDraw, dshow.idirectdrawvideo_getdirectdraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -94,7 +92,7 @@ If an application wants to load DirectDraw but allow the renderer to also alloca
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

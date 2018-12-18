@@ -9,8 +9,6 @@ ms.assetid: 9d080bd1-f8ea-4a86-89bc-f4a801917335
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateTransformGroup, CreateTransformGroup method [DirectComposition], CreateTransformGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTransformGroup method, IDCompositionDevice.CreateTransformGroup, IDCompositionDevice::CreateTransformGroup, dcomp/IDCompositionDevice::CreateTransformGroup, directcomp.idcompositiondevice_createtransformgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -104,7 +102,7 @@ The array entries in a transform group cannot be changed. However, each transfor
 
 
 
-<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
 
 
 

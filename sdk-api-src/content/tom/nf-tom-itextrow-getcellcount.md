@@ -9,8 +9,6 @@ ms.assetid: 4aae4fe5-5a54-4f32-9f89-01752701c871
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCellCount, GetCellCount method [Windows Controls], GetCellCount method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCount method, ITextRow.GetCellCount, ITextRow::GetCellCount, controls.itextrow_getcellcount, tom/ITextRow::GetCellCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

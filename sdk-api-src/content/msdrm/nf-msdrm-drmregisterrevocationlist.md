@@ -9,8 +9,6 @@ ms.assetid: 819a8471-e447-4a4d-ae52-5929350df2c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMRegisterRevocationList, DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterRevocationList, rm.drmregisterrevocationlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

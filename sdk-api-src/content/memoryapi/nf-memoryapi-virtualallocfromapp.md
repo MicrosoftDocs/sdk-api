@@ -9,8 +9,6 @@ ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

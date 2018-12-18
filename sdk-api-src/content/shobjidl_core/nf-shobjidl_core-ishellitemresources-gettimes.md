@@ -9,8 +9,6 @@ ms.assetid: 4857b824-2b58-4c26-bbab-8a799d20f584
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTimes, GetTimes method [Windows Shell], GetTimes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetTimes method, IShellItemResources.GetTimes, IShellItemResources::GetTimes, _shell_IShellItemResources_GetTimes, shell.IShellItemResources_GetTimes, shobjidl_core/IShellItemResources::GetTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

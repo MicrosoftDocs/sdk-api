@@ -9,8 +9,6 @@ ms.assetid: 103f6d52-5b59-422d-918d-5004cbdfc75a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CdromRipMediaError, CdromRipMediaError method [Windows Media Player], CdromRipMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipMediaError method, IWMPEvents3.CdromRipMediaError, IWMPEvents3::CdromRipMediaError, IWMPEvents3CdromRipMediaError, wmp.iwmpevents3_iwmpevents3__cdromripmediaerror, wmp/IWMPEvents3::CdromRipMediaError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -96,15 +94,15 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/c3e2db46-bef0-4c79-91b5-97ca5a86c6ba">IWMPCdromRip Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563102(v=VS.85).aspx">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 

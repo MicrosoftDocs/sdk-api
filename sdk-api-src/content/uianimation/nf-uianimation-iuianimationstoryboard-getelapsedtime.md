@@ -9,8 +9,6 @@ ms.assetid: 901afd34-03cc-4421-a467-9d096e1458fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard.GetElapsedTime, IUIAnimationStoryboard::GetElapsedTime, uianimation.iuianimationstoryboard_getelapsedtime, uianimation/IUIAnimationStoryboard::GetElapsedTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

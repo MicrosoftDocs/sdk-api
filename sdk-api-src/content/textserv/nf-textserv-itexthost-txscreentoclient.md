@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxScreenToClient method, ITextHost.TxScreenToClient, ITextHost::TxScreenToClient, TxScreenToClient, TxScreenToClient method [Windows Controls], TxScreenToClient method [Windows Controls],ITextHost interface, _win32_ITextHost_TxScreenToClient, _win32_ITextHost_TxScreenToClient_cpp, controls.ITextHost_TxScreenToClient, controls._win32_ITextHost_TxScreenToClient, textserv/ITextHost::TxScreenToClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

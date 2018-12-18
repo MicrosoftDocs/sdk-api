@@ -9,8 +9,6 @@ ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
@@ -58,7 +56,7 @@ req.redist:
  Provides a pointer to an interface on a class object associated with a specified CLSID. <b>CoGetClassObject</b> locates, and if necessary, dynamically loads the executable code required to do this.
 
 
-Call <b>CoGetClassObject</b> directly to create multiple objects through a class object for which there is a CLSID in the system registry. You can also retrieve a class object from a specific remote computer. Most class objects implement the <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a> interface. You would then call <a href="https://msdn.microsoft.com/en-us/library/ms682215(v=VS.85).aspx">CreateInstance</a> to create an uninitialized object. It is not always necessary to go through this process however. To create a single object, call the <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function, which allows you to create an instance on a remote machine. This replaces the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function, which can still be used to create an instance on a local computer. Both functions encapsulate connecting to the class object, creating the instance, and releasing the class object. Two other functions, <a href="https://msdn.microsoft.com/en-us/library/ms694473(v=VS.85).aspx">CoGetInstanceFromFile</a> and <a href="https://msdn.microsoft.com/en-us/library/ms686574(v=VS.85).aspx">CoGetInstanceFromIStorage</a>, provide both instance creation on a remote system and object activation. There are numerous functions and interface methods whose purpose is to create objects of a single type and provide a pointer to an interface on that object.
+Call <b>CoGetClassObject</b> directly to create multiple objects through a class object for which there is a CLSID in the system registry. You can also retrieve a class object from a specific remote computer. Most class objects implement the <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> interface. You would then call <a href="https://msdn.microsoft.com/45d34150-9e0b-4a76-a784-c81434ec73b8">CreateInstance</a> to create an uninitialized object. It is not always necessary to go through this process however. To create a single object, call the <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a> function, which allows you to create an instance on a remote machine. This replaces the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> function, which can still be used to create an instance on a local computer. Both functions encapsulate connecting to the class object, creating the instance, and releasing the class object. Two other functions, <a href="https://msdn.microsoft.com/f8a22f5f-a21f-49e7-bd6c-ca987206ee46">CoGetInstanceFromFile</a> and <a href="https://msdn.microsoft.com/6a77770c-b7e1-4d29-9c4b-331b5950a635">CoGetInstanceFromIStorage</a>, provide both instance creation on a remote system and object activation. There are numerous functions and interface methods whose purpose is to create objects of a single type and provide a pointer to an interface on that object.
 
 
 ## -parameters
@@ -78,7 +76,7 @@ The context in which the executable code is to be run. To enable a remote activa
 
 ### -param pvReserved [in, optional]
 
-A pointer to computer on which to instantiate the class object. If this parameter is <b>NULL</b>, the class object is instantiated on the current computer or at the computer specified under the class's <a href="https://msdn.microsoft.com/en-us/library/ms678423(v=VS.85).aspx">RemoteServerName</a> key, according to the interpretation of the <i>dwClsCtx</i> parameter. See <a href="https://msdn.microsoft.com/en-us/library/ms687322(v=VS.85).aspx">COSERVERINFO</a>.
+A pointer to computer on which to instantiate the class object. If this parameter is <b>NULL</b>, the class object is instantiated on the current computer or at the computer specified under the class's <a href="https://msdn.microsoft.com/0413564e-e8ba-4e6e-ad29-62997c63aab3">RemoteServerName</a> key, according to the interpretation of the <i>dwClsCtx</i> parameter. See <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a>.
 
 
 ### -param riid [in]
@@ -133,7 +131,7 @@ The CLSID is not properly registered. This error can also indicate that the valu
 </dl>
 </td>
 <td width="60%">
-Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
+Either the object pointed to by <i>ppv</i> does not support the interface identified by <i>riid</i>, or the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> operation on the class object returned E_NOINTERFACE.
 
 </td>
 </tr>
@@ -214,7 +212,7 @@ The executable was launched, but it did not register the class object (and it ma
 
 
 
-A class object in OLE is an intermediate object that supports an interface that permits operations common to a group of objects. The objects in this group are instances derived from the same object definition represented by a single CLSID. Usually, the interface implemented on a class object is <a href="https://msdn.microsoft.com/en-us/library/ms690074(v=VS.85).aspx">IClassFactory</a>, through which you can create object instances of a given definition (class).
+A class object in OLE is an intermediate object that supports an interface that permits operations common to a group of objects. The objects in this group are instances derived from the same object definition represented by a single CLSID. Usually, the interface implemented on a class object is <a href="https://msdn.microsoft.com/96466756-c135-4ee5-a48c-f31129878473">IClassFactory</a>, through which you can create object instances of a given definition (class).
 
 
 
@@ -222,7 +220,7 @@ A call to <b>CoGetClassObject</b> creates, initializes, and gives the caller acc
 
 
 
-If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://msdn.microsoft.com/en-us/library/ms687322(v=VS.85).aspx">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration.
+If the class context is CLSCTX_REMOTE_SERVER, indicating remote activation is required, the <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> structure provided in the <i>pServerInfo</i> parameter allows you to specify the computer on which the server is located. For information on the algorithm used to locate a remote server when <i>pServerInfo</i> is <b>NULL</b>, refer to the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration.
 
 
 
@@ -232,23 +230,23 @@ There are two places to find a CLSID for a class:
 <li>The registry holds an association between CLSIDs and file suffixes, and between CLSIDs and file signatures for determining the class of an object.</li>
 <li>When an object is saved to persistent storage, its CLSID is stored with its data.</li>
 </ul>
-To create and initialize embedded or linked OLE document objects, it is not necessary to call <b>CoGetClassObject</b> directly. Instead, call the <a href="https://msdn.microsoft.com/en-us/library/ms678409(v=VS.85).aspx">OleCreate</a> or <b>OleCreate</b><i>XXX</i> function. These functions encapsulate the entire object instantiation and initialization process, and call, among other functions, <b>CoGetClassObject</b>.
+To create and initialize embedded or linked OLE document objects, it is not necessary to call <b>CoGetClassObject</b> directly. Instead, call the <a href="https://msdn.microsoft.com/00b7edd2-8e2e-4e0a-91a6-d966f6c8d456">OleCreate</a> or <b>OleCreate</b><i>XXX</i> function. These functions encapsulate the entire object instantiation and initialization process, and call, among other functions, <b>CoGetClassObject</b>.
 
 
 
-The <i>riid</i> parameter specifies the interface the client will use to communicate with the class object. In most cases, this interface is <a href="https://msdn.microsoft.com/en-us/library/ms690074(v=VS.85).aspx">IClassFactory</a>. This provides access to the <a href="https://msdn.microsoft.com/en-us/library/ms682215(v=VS.85).aspx">CreateInstance</a> method, through which the caller can then create an uninitialized object of the kind specified in its implementation. All classes registered in the system with a CLSID must implement <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a>. 
+The <i>riid</i> parameter specifies the interface the client will use to communicate with the class object. In most cases, this interface is <a href="https://msdn.microsoft.com/96466756-c135-4ee5-a48c-f31129878473">IClassFactory</a>. This provides access to the <a href="https://msdn.microsoft.com/45d34150-9e0b-4a76-a784-c81434ec73b8">CreateInstance</a> method, through which the caller can then create an uninitialized object of the kind specified in its implementation. All classes registered in the system with a CLSID must implement <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a>. 
 
 
 
-In rare cases, however, you may want to specify some other interface that defines operations common to a set of objects. For example, in the way OLE implements monikers, the interface on the class object is <a href="https://msdn.microsoft.com/en-us/library/ms680604(v=VS.85).aspx">IParseDisplayName</a>, used to transform the display name of an object into a moniker.
+In rare cases, however, you may want to specify some other interface that defines operations common to a set of objects. For example, in the way OLE implements monikers, the interface on the class object is <a href="https://msdn.microsoft.com/37844d9b-35ce-4d30-8a58-dac4c671896f">IParseDisplayName</a>, used to transform the display name of an object into a moniker.
 
 
 
-The <i>dwClsContext</i> parameter specifies the execution context, allowing one CLSID to be associated with different pieces of code in different execution contexts. The <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration specifies the available context flags. <b>CoGetClassObject</b> consults (as appropriate for the context indicated) both the registry and the class objects that are currently registered by calling the <a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a> function. 
+The <i>dwClsContext</i> parameter specifies the execution context, allowing one CLSID to be associated with different pieces of code in different execution contexts. The <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a> enumeration specifies the available context flags. <b>CoGetClassObject</b> consults (as appropriate for the context indicated) both the registry and the class objects that are currently registered by calling the <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> function. 
 
 
 
-To release a class object, use the class object's <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> method. The function <a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a> is to be used only to remove a class object's CLSID from the system registry.
+To release a class object, use the class object's <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method. The function <a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a> is to be used only to remove a class object's CLSID from the system registry.
 
 
 
@@ -263,31 +261,31 @@ To release a class object, use the class object's <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687322(v=VS.85).aspx">COSERVERINFO</a>
+<a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>
+<a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693407(v=VS.85).aspx">CoRegisterClassObject</a>
+<a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688650(v=VS.85).aspx">CoRevokeClassObject</a>
+<a href="https://msdn.microsoft.com/90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec">CoRevokeClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693365(v=VS.85).aspx">Creating an Object Through a Class Object</a>
+<a href="https://msdn.microsoft.com/cecf21b0-e509-425f-8dd6-ca6b1ac04f5e">Creating an Object Through a Class Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678409(v=VS.85).aspx">OleCreate</a>
+<a href="https://msdn.microsoft.com/00b7edd2-8e2e-4e0a-91a6-d966f6c8d456">OleCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>
+<a href="https://msdn.microsoft.com/f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9">OleLoad</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 1c48647e-9e77-4b7a-add3-e035c7f9f27e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCreateMessage, WsCreateMessage function [Web Services for Windows], webservices/WsCreateMessage, wsw.wscreatemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -65,13 +63,13 @@ Creates a <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae
 
 ### -param envelopeVersion [in]
 
-A <a href="https://msdn.microsoft.com/2a6f6148-d37d-4ac2-8fd0-409eae71a3d8">WS_ENVELOPE_VERSION</a> enumeration value that specifies the version of the envelope for the message.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd401836(v=VS.85).aspx">WS_ENVELOPE_VERSION</a> enumeration value that specifies the version of the envelope for the message.
                 
 
 
 ### -param addressingVersion [in]
 
-A <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a> that specifies the version of the addressing for the message.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION</a> that specifies the version of the addressing for the message.
                 
 
 

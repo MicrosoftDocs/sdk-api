@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_8nhj_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRouting, IFaxOutboundRouting interface [Fax Service], IFaxOutboundRouting interface [Fax Service],described, _mfax_faxoutboundrouting_cpp, fax._mfax_faxoutboundrouting_cpp, faxcomex/IFaxOutboundRouting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

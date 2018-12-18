@@ -9,8 +9,6 @@ ms.assetid: c2362150-bb99-43d4-a6e6-7dc240e9826e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],SetPreferredClsid method, IMFPluginControl.SetPreferredClsid, IMFPluginControl::SetPreferredClsid, SetPreferredClsid, SetPreferredClsid method [Media Foundation], SetPreferredClsid method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__setpreferredclsid, mfobjects/IMFPluginControl::SetPreferredClsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

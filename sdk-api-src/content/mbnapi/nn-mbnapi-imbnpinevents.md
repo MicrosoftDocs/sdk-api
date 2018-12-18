@@ -9,8 +9,6 @@ ms.assetid: 4bdaa4e5-880e-4d1f-aec1-36811a0f21c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnPinEvents, IMbnPinEvents interface [Microsoft Broadband Networks], IMbnPinEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinevents, mbnapi/IMbnPinEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

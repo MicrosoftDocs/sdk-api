@@ -9,8 +9,6 @@ ms.assetid: d4331721-61c3-4de0-bb1f-c27f475170d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineGetID, TSPI_lineGetID function [TAPI 2.2], _tspi_tspi_linegetid, tspi.tspi_linegetid, tspi/TSPI_lineGetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

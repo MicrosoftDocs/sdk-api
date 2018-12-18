@@ -9,8 +9,6 @@ ms.assetid: 84a5b2ce-d26b-4ffc-b757-a799658f2b34
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_Modulation method, ILocator.put_Modulation, ILocator::put_Modulation, ILocatorput_Modulation, mstv.ilocator_put_modulation, put_Modulation, put_Modulation method [Microsoft TV Technologies], put_Modulation method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_Modulation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

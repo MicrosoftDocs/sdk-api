@@ -9,8 +9,6 @@ ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, WSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/WSPSocket
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

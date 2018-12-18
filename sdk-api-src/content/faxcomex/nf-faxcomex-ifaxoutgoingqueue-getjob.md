@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_3w6a_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],GetJob method, IFaxOutgoingQueue.GetJob, IFaxOutgoingQueue::GetJob, _mfax_faxoutgoingqueue.getjob_cpp, fax._mfax_faxoutgoingqueue_getjob_cpp, faxcomex/IFaxOutgoingQueue::GetJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,7 +65,7 @@ Specifies the job ID.
 
 ### -param pFaxOutgoingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>**</b>
 
 The address of a pointer that receives a <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object. 
 

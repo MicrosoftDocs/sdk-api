@@ -9,8 +9,6 @@ ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCurrentPage method, ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

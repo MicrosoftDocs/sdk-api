@@ -9,8 +9,6 @@ ms.assetid: 16F0BB1E-FB9E-4AC3-8FD9-A540F72F1155
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_CALLBACK_CANCEL_FLAGS, CF_CALLBACK_CANCEL_FLAGS enumeration, CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, CF_CALLBACK_CANCEL_FLAG_NONE, cfapi/CF_CALLBACK_CANCEL_FLAGS, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_ABORTED, cfapi/CF_CALLBACK_CANCEL_FLAG_IO_TIMEOUT, cfapi/CF_CALLBACK_CANCEL_FLAG_NONE, cloudApi.cf_callback_cancel_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: cfapi.h
 req.include-header: 

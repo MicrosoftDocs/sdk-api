@@ -9,8 +9,6 @@ ms.assetid: 662D9B07-755C-430D-84C6-B1E8876E26B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT, direct3d11.d3d11_feature_data_gpu_virtual_address_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 
@@ -75,7 +73,7 @@ The maximum GPU virtual address bits per process.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>.
+See <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>.
       
 
 
@@ -86,7 +84,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 52f9cfc5-67e6-4666-f34d-8344cdf131f0, ID3D10ShaderResourceView, ID3D10ShaderResourceView interface [Direct3D 10], ID3D10ShaderResourceView interface [Direct3D 10],described, d3d10/ID3D10ShaderResourceView, direct3d10.id3d10shaderresourceview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: D3D10Shader.h
@@ -58,7 +56,7 @@ A shader-resource-view interface specifies the <a href="https://msdn.microsoft.c
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderResourceView</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View</a>. <b>ID3D10ShaderResourceView</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

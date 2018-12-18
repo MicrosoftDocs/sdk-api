@@ -9,8 +9,6 @@ ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISnapinProperties, ISnapinProperties interface [MMC], ISnapinProperties interface [MMC],described, _slate_isnapinproperties, mmc.isnapinproperties, mmcobj/ISnapinProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mmcobj.h
 req.include-header: 

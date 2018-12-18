@@ -9,8 +9,6 @@ ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseThreadpoolTimer, CloseThreadpoolTimer function, base.closethreadpooltimer, threadpoolapiset/CloseThreadpoolTimer, winbase/CloseThreadpoolTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

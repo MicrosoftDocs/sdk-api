@@ -9,8 +9,6 @@ ms.assetid: 67c5fa63-3512-4b03-afb4-9b97b26200aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDServiceProxyEventing interface,RenewMultipleOperations method, IWSDServiceProxyEventing.RenewMultipleOperations, IWSDServiceProxyEventing::RenewMultipleOperations, RenewMultipleOperations, RenewMultipleOperations method, RenewMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_renewmultipleoperations, wsdclient/IWSDServiceProxyEventing::RenewMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

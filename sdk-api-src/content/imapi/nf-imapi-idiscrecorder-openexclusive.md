@@ -9,8 +9,6 @@ ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

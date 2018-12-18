@@ -9,8 +9,6 @@ ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -131,7 +129,7 @@ The method succeeded.
 
 
 
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/74a5c410-314e-4f49-b294-a4788e85cbef">ICAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://msdn.microsoft.com/en-us/library/Dd693500(v=VS.85).aspx">ICAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 
 
@@ -141,7 +139,7 @@ This method applies only to <i>next</i> tables that have become current. Before 
 
 
 
-<a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
  
 
  

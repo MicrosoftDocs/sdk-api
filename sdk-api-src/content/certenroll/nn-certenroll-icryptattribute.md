@@ -9,8 +9,6 @@ ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 
@@ -69,27 +67,27 @@ Attribute ::= SEQUENCE
 }
 
 AttributeSetValue ::= SET OF ANY
-</code></pre>A single <b>ICryptAttribute</b> object corresponds to the attributes collection in the request. The <b>ICryptAttribute</b> object in turn contains a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a> objects. Each attribute in this collection contains an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> and one or more values. Each value is an encoded <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) structure. Zero or more of the following objects can be included in the collection:<ul>
+</code></pre>A single <b>ICryptAttribute</b> object corresponds to the attributes collection in the request. The <b>ICryptAttribute</b> object in turn contains a collection of <a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a> objects. Each attribute in this collection contains an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> and one or more values. Each value is an encoded <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure. Zero or more of the following objects can be included in the collection:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377073(v=VS.85).aspx">IX509AttributeClientId</a>
+<a href="https://msdn.microsoft.com/82b773e3-7d47-4c85-a6b3-c8ef3e67630a">IX509AttributeClientId</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377059(v=VS.85).aspx">IX509AttributeArchiveKey</a>
+<a href="https://msdn.microsoft.com/b42111e9-e39e-4192-9aba-47403fb627dc">IX509AttributeArchiveKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377060(v=VS.85).aspx">IX509AttributeArchiveKeyHash</a>
+<a href="https://msdn.microsoft.com/52c92629-4c9e-4996-80a2-30e2212b3009">IX509AttributeArchiveKeyHash</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377082(v=VS.85).aspx">IX509AttributeCspProvider</a>
+<a href="https://msdn.microsoft.com/08954c87-f63b-4e1a-91b4-3773e392999b">IX509AttributeCspProvider</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377096(v=VS.85).aspx">IX509AttributeOSVersion</a>
+<a href="https://msdn.microsoft.com/2ae84d47-2bda-4954-9165-902634d09da9">IX509AttributeOSVersion</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377102(v=VS.85).aspx">IX509AttributeRenewalCertificate</a>
+<a href="https://msdn.microsoft.com/fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab">IX509AttributeRenewalCertificate</a>
 </li>
 </ul>
 
@@ -99,8 +97,8 @@ AttributeSetValue ::= SET OF ANY
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICryptAttribute</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICryptAttribute</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -113,7 +111,7 @@ The <b>ICryptAttribute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375941(v=VS.85).aspx">InitializeFromObjectId</a>
+<a href="https://msdn.microsoft.com/6825cca7-c3a5-46a8-9be5-851344629929">InitializeFromObjectId</a>
 </td>
 <td align="left" width="63%">
 Initializes a cryptographic attribute by using an object identifier.
@@ -122,10 +120,10 @@ Initializes a cryptographic attribute by using an object identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375942(v=VS.85).aspx">InitializeFromValues</a>
+<a href="https://msdn.microsoft.com/763fd244-173d-4b0b-8809-e98c18b8e5b5">InitializeFromValues</a>
 </td>
 <td align="left" width="63%">
-Initializes a cryptographic attribute by using an <a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a> object.
+Initializes a cryptographic attribute by using an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a> object.
 
 </td>
 </tr>
@@ -139,7 +137,7 @@ Initializes a cryptographic attribute by using an <a href="https://msdn.microsof
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375944(v=VS.85).aspx">ObjectId</a>
+<a href="https://msdn.microsoft.com/9ae9a217-1658-42ac-bd28-33abab5d0d70">ObjectId</a>
 
 
 </td>
@@ -151,12 +149,12 @@ Retrieves the object identifier for the attribute.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375946(v=VS.85).aspx">Values</a>
+<a href="https://msdn.microsoft.com/ae439c12-65f4-4e2b-b141-6e6bf6738a68">Values</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a> object that contains a collection of attributes.
+Retrieves an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a> object that contains a collection of attributes.
 
 </td>
 </tr>
@@ -168,11 +166,11 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375930(v=VS.85).aspx">ICryptAttributes</a>
+<a href="https://msdn.microsoft.com/beedb57c-1c89-4d16-8514-046e3071fd1e">ICryptAttributes</a>
 
 
 
@@ -180,11 +178,11 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

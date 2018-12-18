@@ -9,8 +9,6 @@ ms.assetid: 71500b3e-feb1-4d9b-9b67-b6794074a325
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDateFromI4, VarDateFromI4 function [Automation], _oa96_VarDateFromI4, automat.vardatefromi4, oleauto/VarDateFromI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

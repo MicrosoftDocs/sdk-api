@@ -9,8 +9,6 @@ ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

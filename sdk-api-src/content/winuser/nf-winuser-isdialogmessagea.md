@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogbo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsDialogMessage, IsDialogMessage function [Dialog Boxes], IsDialogMessageA, IsDialogMessageW, _win32_IsDialogMessage, _win32_isdialogmessage_cpp, dlgbox.isdialogmessage, winui._win32_isdialogmessage, winuser/IsDialogMessage, winuser/IsDialogMessageA, winuser/IsDialogMessageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

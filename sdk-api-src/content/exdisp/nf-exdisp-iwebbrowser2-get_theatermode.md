@@ -9,8 +9,6 @@ ms.assetid: 78E8B986-ABA2-47A3-AED2-97A84C10C80A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWebBrowser2 interface [Windows API],TheaterMode property, IWebBrowser2.TheaterMode, IWebBrowser2.get_TheaterMode, IWebBrowser2.put_TheaterMode, IWebBrowser2::TheaterMode, IWebBrowser2::get_TheaterMode, IWebBrowser2::put_TheaterMode, TheaterMode property [Windows API], TheaterMode property [Windows API],IWebBrowser2 interface, VARIANT_FALSE, VARIANT_TRUE, exdisp/IWebBrowser2::TheaterMode, exdisp/IWebBrowser2::get_TheaterMode, exdisp/IWebBrowser2::put_TheaterMode, get_TheaterMode, winprog.iwebbrowser2_theatermode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

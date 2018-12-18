@@ -9,8 +9,6 @@ ms.assetid: C85C4B35-EED3-4BD4-A322-7C56BCB9D858
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WIN32_MEMORY_REGION_INFORMATION, WIN32_MEMORY_REGION_INFORMATION structure, base.win32_memory_region_information, memoryapi/WIN32_MEMORY_REGION_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: memoryapi.h
 req.include-header: Windows.h

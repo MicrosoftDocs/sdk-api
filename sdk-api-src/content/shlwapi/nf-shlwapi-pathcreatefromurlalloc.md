@@ -9,8 +9,6 @@ ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

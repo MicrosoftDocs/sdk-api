@@ -9,8 +9,6 @@ ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ The <b>IMSVidPlaybackEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00c73b5e-dc0f-4ffd-930f-e93ce3d1e179">EndOfMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694588(v=VS.85).aspx">EndOfMedia</a>
 </td>
 <td align="left" width="63%">
 Called when playback has reached the end of the source media.

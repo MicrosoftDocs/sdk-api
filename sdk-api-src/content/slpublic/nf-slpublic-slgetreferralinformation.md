@@ -9,8 +9,6 @@ ms.assetid: 880ee26d-4deb-415c-b1dd-f17d802ea8e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SLGetReferralInformation, SLGetReferralInformation function [Security], SL_DOWNLOADURL, SL_INSTALLATIONPARAMETERS, SL_MERCHANTCOMMERCEURL, SL_MERCHANTSUPPORTEMAIL, SL_MERCHANTSUPPORTPHONENUMBER, SL_MERCHANTSUPPORTURL, SL_MERCHANTUPGRADEURL, SL_PARTNERID, SL_REFERRALID, SL_SERIALIZEDDATA, security.slgetreferralinformation, slpublic/SLGetReferralInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 
@@ -67,7 +65,7 @@ The handle retrieved by previous call to the <a href="https://msdn.microsoft.com
 
 ### -param eReferralType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/350a28bd-cbdf-46f2-a404-aa16550a4711">SLREFERRALTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh971191(v=VS.85).aspx">SLREFERRALTYPE</a></b>
 
 The referral type.
 

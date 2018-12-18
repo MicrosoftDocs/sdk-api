@@ -9,8 +9,6 @@ ms.assetid: 744fe166-b12c-49d4-ab13-b2ef6a6f9625
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

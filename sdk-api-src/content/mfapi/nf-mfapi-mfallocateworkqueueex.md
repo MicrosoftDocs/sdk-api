@@ -9,8 +9,6 @@ ms.assetid: 422b8bc2-0616-4f7f-9908-775940f8c1ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFAllocateWorkQueueEx, MFAllocateWorkQueueEx function [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfallocateworkqueueex, mfapi/MFAllocateWorkQueueEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 
@@ -60,7 +58,7 @@ Creates a new work queue. This function extends the capabilities of the  <a href
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://msdn.microsoft.com/a3627dbc-1794-4e2e-b7ed-869ed50ca893">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd388081(v=VS.85).aspx">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>

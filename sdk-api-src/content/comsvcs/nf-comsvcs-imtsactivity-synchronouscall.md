@@ -9,8 +9,6 @@ ms.assetid: 4f69956b-fdb3-47c4-9a19-e9f39a8d5e06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMTSActivity interface [COM+],SynchronousCall method, IMTSActivity.SynchronousCall, IMTSActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IMTSActivity interface, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -60,14 +58,14 @@ Performs the user-defined work synchronously.
 
 ### -param pCall [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms687002(v=VS.85).aspx">IMTSCall</a> interface that is used to implement the batch work.
+A pointer to the <a href="https://msdn.microsoft.com/dccf53c3-19d9-435b-91b7-98e41bd48e29">IMTSCall</a> interface that is used to implement the batch work.
 
 
 ## -returns
 
 
 
-This method always returns the <b>HRESULT</b> returned by the <a href="https://msdn.microsoft.com/410ed66e-db55-41e6-8f09-df4fe3aad3f2">OnCall</a> method of the <a href="https://msdn.microsoft.com/en-us/library/ms687002(v=VS.85).aspx">IMTSCall</a> interface.
+This method always returns the <b>HRESULT</b> returned by the <a href="https://msdn.microsoft.com/410ed66e-db55-41e6-8f09-df4fe3aad3f2">OnCall</a> method of the <a href="https://msdn.microsoft.com/dccf53c3-19d9-435b-91b7-98e41bd48e29">IMTSCall</a> interface.
 
 
 
@@ -77,7 +75,7 @@ This method always returns the <b>HRESULT</b> returned by the <a href="https://m
 
 
 
-The batch work that is run using this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/en-us/library/ms679476(v=VS.85).aspx">MTSCreateActivity</a>.
+The batch work that is run using this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/25ae1f2e-f937-4d06-9709-ded2fc8c5777">MTSCreateActivity</a>.
 
 
 
@@ -88,7 +86,7 @@ The batch work that is run using this method runs in the context and thread apar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685105(v=VS.85).aspx">IMTSActivity</a>
+<a href="https://msdn.microsoft.com/a45b29f0-d3f1-4593-9df5-4f6d617b93fa">IMTSActivity</a>
  
 
  

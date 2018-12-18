@@ -9,8 +9,6 @@ ms.assetid: 070bc947-bf2b-4c06-9ffa-6a23625d178a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getStringCollectionByQuery method, IWMPMediaCollection2.getStringCollectionByQuery, IWMPMediaCollection2::getStringCollectionByQuery, IWMPMediaCollection2getStringCollectionByQuery, getStringCollectionByQuery, getStringCollectionByQuery method [Windows Media Player], getStringCollectionByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getstringcollectionbyquery, wmp/IWMPMediaCollection2::getStringCollectionByQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -137,15 +135,15 @@ When the compound query specified by the <i>pQuery</i> parameter contains a cond
 
 
 
-<a href="https://msdn.microsoft.com/576e231e-542a-495c-ad1b-a246339c3cb1">IWMPMediaCollection2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563406(v=VS.85).aspx">IWMPMediaCollection2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1f3c46f-4756-49b4-ad4f-a9097ff787f8">IWMPQuery Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563630(v=VS.85).aspx">IWMPQuery Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cdabea9-7e37-4e63-9d6c-b6f63aa536ea">IWMPStringCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563686(v=VS.85).aspx">IWMPStringCollection Interface</a>
 
 
 

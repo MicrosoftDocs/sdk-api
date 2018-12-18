@@ -9,8 +9,6 @@ ms.assetid: 0c39b769-9523-42ce-942f-761e6d39ec5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICAsShotParameterSet, WICAutoAdjustedParameterSet, WICRawParameterSet, WICRawParameterSet enumeration [Windows Imaging Component], WICUserAdjustedParameterSet, _wic_codec_wicrawparameterset, wic._wic_codec_wicrawparameterset, wincodec/WICAsShotParameterSet, wincodec/WICAutoAdjustedParameterSet, wincodec/WICRawParameterSet, wincodec/WICUserAdjustedParameterSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

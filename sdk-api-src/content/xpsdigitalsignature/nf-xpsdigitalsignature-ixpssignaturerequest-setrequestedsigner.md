@@ -9,8 +9,6 @@ ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 41984fb1-7276-4232-b19a-d251c9fcd699
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNotify.SetDeinterlaceMode, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVPNotify interface, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 
@@ -64,7 +62,7 @@ Sets the mode (such as bob or weave).
 
 ### -param mode [in]
 
-Specified mode. This value is a member of the <a href="https://msdn.microsoft.com/73d63ca2-17fb-4e27-9ea5-62686117254a">AMVP_MODE</a> enumerated data type.
+Specified mode. This value is a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373453(v=VS.85).aspx">AMVP_MODE</a> enumerated data type.
 
 
 ## -returns
@@ -94,7 +92,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/6b40ba9e-8562-4d31-beaf-e4d4858bf145">IVPNotify Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390589(v=VS.85).aspx">IVPNotify Interface</a>
  
 
  

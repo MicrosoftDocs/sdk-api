@@ -9,8 +9,6 @@ ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Releases the memory resource associated with a Listener object.
-            The Listener state represented in <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> must be set to either <b>WS_LISTENER_STATE_CREATED</b> 
+            The Listener state represented in <a href="https://msdn.microsoft.com/en-us/library/Dd401952(v=VS.85).aspx">WS_LISTENER_STATE</a> must be set to either <b>WS_LISTENER_STATE_CREATED</b> 
                 or <b>WS_LISTENER_STATE_CLOSED</b> to be released.
             If a Listener has been successfully opened, then it must be closed 
                 using <a href="https://msdn.microsoft.com/6023595a-ac52-4619-a824-df49da887fc5">WsCloseListener</a> before it is released.

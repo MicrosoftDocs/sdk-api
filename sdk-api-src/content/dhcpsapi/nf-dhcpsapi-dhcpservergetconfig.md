@@ -9,8 +9,6 @@ ms.assetid: 79fa7f78-35ae-4f40-bf3d-3c8f6f323776
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

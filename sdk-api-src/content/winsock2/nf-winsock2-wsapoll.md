@@ -9,8 +9,6 @@ ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAPoll, WSAPoll function [Winsock], mswsock/WSAPoll, winsock.wsapoll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

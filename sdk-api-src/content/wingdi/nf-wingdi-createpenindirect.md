@@ -9,8 +9,6 @@ ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDirectoryEx, CreateDirectoryEx function [Files], CreateDirectoryExA, CreateDirectoryExW, _win32_createdirectoryex, base.createdirectoryex, fs.createdirectoryex, winbase/CreateDirectoryEx, winbase/CreateDirectoryExA, winbase/CreateDirectoryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

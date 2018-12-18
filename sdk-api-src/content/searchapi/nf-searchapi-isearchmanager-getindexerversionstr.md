@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIndexerVersionStr, GetIndexerVersionStr method [search], GetIndexerVersionStr method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersionStr method, ISearchManager.GetIndexerVersionStr, ISearchManager::GetIndexerVersionStr, WDS 2.65 on Windows XP/Windows Server 2003, WDS 2.66 on Windows XP/Windows Server 2003, WDS 3.0 on Windows XP/Windows Server 2003, WDS 3.01 on Windows XP/Windows Server 2003, Windows Search 4.0 Preview on all platforms, Windows Search 4.0 on all platforms, Windows Search on Windows Vista RTM/Windows Server RTM, Windows Search on Windows Vista SP1/Windows Server 2008, _search_ISearchManager_GetIndexerVersionStr, search._search_ISearchManager_GetIndexerVersionStr, searchapi/ISearchManager::GetIndexerVersionStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

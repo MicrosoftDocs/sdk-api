@@ -9,8 +9,6 @@ ms.assetid: 6af47a98-ceea-45dd-8a34-3f82ed8a66b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],put_VideoStandard method, IAnalogLocator.put_VideoStandard, IAnalogLocator::put_VideoStandard, IAnalogLocatorput_VideoStandard, mstv.ianaloglocator_put_videostandard, put_VideoStandard, put_VideoStandard method [Microsoft TV Technologies], put_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, tuner/IAnalogLocator::put_VideoStandard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>put_VideoStandard</b> method specifies the format of the analog televisio
 
 ### -param AVS [in]
 
-Specifies the format of the analog television signal. This parameter is of type <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a>.
+Specifies the format of the analog television signal. This parameter is of type <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a>.
 
 
 ## -returns

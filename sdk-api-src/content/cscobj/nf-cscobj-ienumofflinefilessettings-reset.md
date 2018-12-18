@@ -7,10 +7,8 @@ old-location: of\ienumofflinefilessettings_reset.htm
 tech.root: offlinefiles
 ms.assetid: 2814c63c-104a-4c19-b458-f7ce2ff51fa3
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Reset method, IEnumOfflineFilesSettings.Reset, IEnumOfflineFilesSettings::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Reset, of.ienumofflinefilessettings_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530481(v=VS.85).aspx">IEnumOfflineFilesSettings</a>
+<a href="https://msdn.microsoft.com/2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd">IEnumOfflineFilesSettings</a>
  
 
  

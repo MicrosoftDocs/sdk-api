@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchManager interface [search],get_LocalBypass method, ISearchManager.get_LocalBypass, ISearchManager::get_LocalBypass, _search_ISearchManager_get_LocalBypass, get_LocalBypass, get_LocalBypass method [search], get_LocalBypass method [search],ISearchManager interface, search._search_ISearchManager_get_LocalBypass, searchapi/ISearchManager::get_LocalBypass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

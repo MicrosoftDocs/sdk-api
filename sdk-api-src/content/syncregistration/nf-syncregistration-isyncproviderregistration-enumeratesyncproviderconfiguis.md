@@ -9,8 +9,6 @@ ms.assetid: e3f87fc7-f123-454e-851c-92dbad605600
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateSyncProviderConfigUIs, EnumerateSyncProviderConfigUIs method [Windows Sync], EnumerateSyncProviderConfigUIs method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviderConfigUIs method, ISyncProviderRegistration.EnumerateSyncProviderConfigUIs, ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, winsync.isyncproviderregistration_enumeratesyncproviderconfiguis
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

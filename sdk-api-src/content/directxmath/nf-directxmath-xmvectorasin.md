@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorASin(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorASin, XMVectorASin, XMVectorASin method [DirectX Math Support APIs], dxmath.xmvectorasin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -93,11 +91,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/1cffeed1-7214-491d-8434-38f9d6269f0e">XMVectorASinEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420996(v=VS.85).aspx">XMVectorASinEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f1c424a-1fef-42dd-9976-49f79372076d">XMVectorSin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421238(v=VS.85).aspx">XMVectorSin</a>
  
 
  

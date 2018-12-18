@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -71,7 +69,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775507(v=VS.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. 
 

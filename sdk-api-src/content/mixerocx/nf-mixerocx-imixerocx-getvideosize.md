@@ -9,8 +9,6 @@ ms.assetid: e4cc71b6-23a5-4610-ac59-06484af6d0b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVideoSize, GetVideoSize method [DirectShow], GetVideoSize method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetVideoSize method, IMixerOCX.GetVideoSize, IMixerOCX::GetVideoSize, IMixerOCXGetVideoSize, dshow.imixerocx_getvideosize, mixerocx/IMixerOCX::GetVideoSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 
@@ -86,7 +84,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/b80d720d-921d-4d24-a168-49944cfcc411">IMixerOCX Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407084(v=VS.85).aspx">IMixerOCX Interface</a>
 
 
 

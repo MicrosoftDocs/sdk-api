@@ -9,8 +9,6 @@ ms.assetid: 244a8359-9002-4ece-b340-20602d566a2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_OUTPUT_TO_CONSOLE, SNMP_OUTPUT_TO_DEBUGGER, SNMP_OUTPUT_TO_LOGFILE, SnmpSvcSetLogType, SnmpSvcSetLogType function [SNMP], _snmp_snmpsvcsetlogtype, snmp.snmpsvcsetlogtype, snmp/SnmpSvcSetLogType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

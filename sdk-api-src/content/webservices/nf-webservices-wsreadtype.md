@@ -9,8 +9,6 @@ ms.assetid: 6d026b2e-f2c2-4990-9178-152585a7749a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadType, WsReadType function [Web Services for Windows], webservices/WsReadType, wsw.wsreadtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Read a value of a given <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a> from XML according to the <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
+Read a value of a given <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a> from XML according to the <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a>.
             
 
 
@@ -80,14 +78,14 @@ The type of the value to deserialize.
 ### -param typeDescription [in, optional]
 
 Additional information about the type.  Each type has a different description
-                    structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_TYPE</a>.
+                    structure.  This may be <b>NULL</b>, depending on the <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_TYPE</a>.
                 
 
 
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -95,10 +93,10 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_POINTER</a>.
                 </li>
 </ul>
 
@@ -110,13 +108,13 @@ The heap to store the deserialized values in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
                 
 
 
@@ -192,7 +190,7 @@ One or more arguments are invalid.
 
 
 
-See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> for how to use this function to read values from elements and attributes.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> for how to use this function to read values from elements and attributes.
             
 
 If the API fails, the state of input reader becomes undefined. The only APIs that may be used on the reader

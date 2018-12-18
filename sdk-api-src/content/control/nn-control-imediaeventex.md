@@ -9,8 +9,6 @@ ms.assetid: 9d367b0a-c7ec-49d4-a41e-045ac81d2c51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], IMediaEventEx interface [DirectShow],described, IMediaEventExInterface, control/IMediaEventEx, dshow.imediaeventex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h
@@ -56,7 +54,7 @@ The <b>IMediaEventEx</b> interface inherits the <a href="https://msdn.microsoft.
 
 The Filter Graph Manager implements this interface.
 
-For more information about event notification, see <a href="https://msdn.microsoft.com/en-us/library/Dd375626(v=VS.85).aspx">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://msdn.microsoft.com/en-us/library/Dd375625(v=VS.85).aspx">Event Notification Codes</a>.
+For more information about event notification, see <a href="https://msdn.microsoft.com/301116a5-24e3-4c6d-8c80-bec77c7d62d7">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
 
 
 
@@ -65,7 +63,7 @@ For more information about event notification, see <a href="https://msdn.microso
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEventEx</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent</a>. <b>IMediaEventEx</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

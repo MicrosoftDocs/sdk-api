@@ -9,8 +9,6 @@ ms.assetid: 5cfd5bad-4401-4abd-9e81-5f139e4ecf73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BackupEventLog, BackupEventLog function, BackupEventLogA, BackupEventLogW, _win32_backupeventlog, base.backupeventlog, winbase/BackupEventLog, winbase/BackupEventLogA, winbase/BackupEventLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

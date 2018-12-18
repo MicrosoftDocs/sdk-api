@@ -9,8 +9,6 @@ ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

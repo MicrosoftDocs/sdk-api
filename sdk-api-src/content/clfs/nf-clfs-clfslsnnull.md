@@ -9,8 +9,6 @@ ms.assetid: effa7924-fcde-4aaf-964b-a6916cb6d1f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.lsnnull
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfs.h
 req.include-header: 

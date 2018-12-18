@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\freebuffer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Windows Address Book], FreeBuffer method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],FreeBuffer method, IWABObject.FreeBuffer, IWABObject::FreeBuffer, _wab_IWABObject_FreeBuffer, wab._wab_IWABObject_FreeBuffer, wabapi/IWABObject::FreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.product: Internet Explorer 4.0
 
 
 Frees memory allocated with 
-		<a href="https://msdn.microsoft.com/59c4362a-2a03-47a0-a606-e8be3be22d28">IWABObject::AllocateBuffer</a> or any of the other 
+		<a href="https://msdn.microsoft.com/en-us/library/ms629459(v=VS.85).aspx">IWABObject::AllocateBuffer</a> or any of the other 
 		Windows Address Book (WAB) methods.
 
 

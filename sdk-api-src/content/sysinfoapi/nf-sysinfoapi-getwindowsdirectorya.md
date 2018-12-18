@@ -9,8 +9,6 @@ ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowsDirectory, GetWindowsDirectory function, GetWindowsDirectoryA, GetWindowsDirectoryW, _win32_getwindowsdirectory, base.getwindowsdirectory, sysinfoapi/GetWindowsDirectory, sysinfoapi/GetWindowsDirectoryA, sysinfoapi/GetWindowsDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: Windows.h

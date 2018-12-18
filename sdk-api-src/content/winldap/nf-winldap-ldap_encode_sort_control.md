@@ -9,8 +9,6 @@ ms.assetid: 5c6c3bd4-739f-413d-adc3-668ac7b56da6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 934e8278-0e0b-4402-a2b6-ff1e913d54c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptInstallOIDFunctionAddress, CryptInstallOIDFunctionAddress function [Security], _crypto2_cryptinstalloidfunctionaddress, security.cryptinstalloidfunctionaddress, wincrypt/CryptInstallOIDFunctionAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

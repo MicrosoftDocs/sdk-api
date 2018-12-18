@@ -9,8 +9,6 @@ ms.assetid: bd6003b5-551d-41cc-8ca6-13ab245ed6fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],LoadNonloadedOverlayIdentifiers method, IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers, IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers method [Windows Shell], LoadNonloadedOverlayIdentifiers method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shell.IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

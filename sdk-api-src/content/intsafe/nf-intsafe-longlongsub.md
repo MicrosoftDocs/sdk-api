@@ -9,8 +9,6 @@ ms.assetid: 8c6c65c7-0f93-4823-a6f3-cc59c4b5b207
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LongLongSub, LongLongSub function [Windows Shell], intsafe/LongLongSub, shell.LongLongSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

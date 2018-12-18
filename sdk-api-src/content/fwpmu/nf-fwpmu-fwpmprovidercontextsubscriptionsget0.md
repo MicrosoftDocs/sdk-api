@@ -9,8 +9,6 @@ ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextSubscriptionsGet0, FwpmProviderContextSubscriptionsGet0 function [Filtering], fwp.fwpmprovidercontextsubscriptionsget0_func, fwpmu/FwpmProviderContextSubscriptionsGet0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

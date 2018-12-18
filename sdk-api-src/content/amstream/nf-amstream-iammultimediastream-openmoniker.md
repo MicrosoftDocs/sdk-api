@@ -9,8 +9,6 @@ ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -122,7 +120,7 @@ Returns S_OK if successful or E_INVALIDARG if the <i>dwFlags</i> parameter is in
 
 
 
-<a href="https://msdn.microsoft.com/2f604156-68ef-4770-9929-6dbfd46c4d6d">IAMMultiMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
  
 
  

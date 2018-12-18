@@ -9,8 +9,6 @@ ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRunningTasks, GetRunningTasks method [Task Scheduler], GetRunningTasks method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],GetRunningTasks method, ITaskService.GetRunningTasks, ITaskService::GetRunningTasks, taskschd.itaskservice_getrunningtasks, taskschd/ITaskService::GetRunningTasks
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

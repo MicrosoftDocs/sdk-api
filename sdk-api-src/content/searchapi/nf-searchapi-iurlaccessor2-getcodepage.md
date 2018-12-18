@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlacces
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodePage, GetCodePage method [search], GetCodePage method [search],IUrlAccessor2 interface, GetCodePage method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetCodePage method, IUrlAccessor2.GetCodePage, IUrlAccessor2::GetCodePage, IUrlAccessor4 interface [search],GetCodePage method, IUrlAccessor4::GetCodePage, _search_IUrlAccessor2_GetCodePage, search._search_IUrlAccessor2_GetCodePage, searchapi/IUrlAccessor2::GetCodePage, searchapi/IUrlAccessor4::GetCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

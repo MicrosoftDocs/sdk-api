@@ -9,8 +9,6 @@ ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -84,9 +82,9 @@ A pointer to the null-terminated string that names the value to remove.
 
 ### -param delRegFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a> that specifies from which base key the value will be deleted.
+One of the <a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a> that specifies from which base key the value will be deleted.
 
 
 ## -returns

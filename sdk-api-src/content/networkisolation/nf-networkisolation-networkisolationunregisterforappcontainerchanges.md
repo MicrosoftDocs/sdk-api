@@ -9,8 +9,6 @@ ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: networkisolation.h
 req.include-header: Netfw.h

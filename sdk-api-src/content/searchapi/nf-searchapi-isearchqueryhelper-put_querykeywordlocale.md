@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryKeywordLocale method, ISearchQueryHelper.put_QueryKeywordLocale, ISearchQueryHelper::put_QueryKeywordLocale, _search_ISearchQueryHelper_put_QueryKeywordLocale, put_QueryKeywordLocale, put_QueryKeywordLocale method [search], put_QueryKeywordLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryKeywordLocale, searchapi/ISearchQueryHelper::put_QueryKeywordLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

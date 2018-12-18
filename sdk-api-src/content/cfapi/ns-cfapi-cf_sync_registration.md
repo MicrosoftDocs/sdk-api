@@ -9,8 +9,6 @@ ms.assetid: F4D535FA-A0F5-4B4E-8409-0DD13C78A94E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_SYNC_REGISTRATION, CF_SYNC_REGISTRATION structure, cfapi/CF_SYNC_REGISTRATION, cloudApi.cf_sync_registration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

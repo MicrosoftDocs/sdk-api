@@ -9,8 +9,6 @@ ms.assetid: 76b2d1ab-3efb-46e6-8c44-d6913b0eecd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

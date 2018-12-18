@@ -9,8 +9,6 @@ ms.assetid: 1aecde5a-ddca-4163-9159-dafc15f9ca59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptSubstituteSingleGlyph, ScriptSubstituteSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptSubstituteSingleGlyph, intl.scriptsubstitutesingleglyph, usp10/ScriptSubstituteSingleGlyph
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

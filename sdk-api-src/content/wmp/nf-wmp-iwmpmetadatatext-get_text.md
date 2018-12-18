@@ -9,8 +9,6 @@ ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/15d040fa-6c14-41ff-bd21-a8991c17681d">IWMPMetadataText Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563457(v=VS.85).aspx">IWMPMetadataText Interface</a>
  
 
  

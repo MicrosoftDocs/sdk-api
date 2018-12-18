@@ -9,8 +9,6 @@ ms.assetid: 06F097C4-E417-48EA-A480-62E96C4A1CE6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDeviceContext, CreateDeviceContext method [Direct2D], CreateDeviceContext method [Direct2D],ID2D1Device4 interface, ID2D1Device4 interface [Direct2D],CreateDeviceContext method, ID2D1Device4.CreateDeviceContext, ID2D1Device4::CreateDeviceContext, d2d1_3/ID2D1Device4::CreateDeviceContext, direct2d.id2d1device4_createdevicecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ When this method returns, contains a pointer to the new device context.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

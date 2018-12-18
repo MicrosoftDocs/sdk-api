@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\iwiaeventcallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaEventCallback, IWiaEventCallback interface [WIA], IWiaEventCallback interface [WIA],described, _wia_IWiaEventCallback, wia._wia_IWiaEventCallback, wia_xp/IWiaEventCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

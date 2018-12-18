@@ -9,8 +9,6 @@ ms.assetid: 64cdba05-3f09-4fce-be38-9ee494018974
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeinterlaceMode, GetDeinterlaceMode method [DirectShow], GetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetDeinterlaceMode method, IVMRDeinterlaceControl9.GetDeinterlaceMode, IVMRDeinterlaceControl9::GetDeinterlaceMode, IVMRDeinterlaceControl9GetDeinterlaceMode, dshow.ivmrdeinterlacecontrol9_getdeinterlacemode, vmr9/IVMRDeinterlaceControl9::GetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -148,7 +146,7 @@ The VMR is not in mixer mode.
 
 
 
-The VMR may not be able to use the requested mode, in which case it falls back to another deinterlace mode, as specified in the <a href="https://msdn.microsoft.com/5d5b450f-bb87-41a2-bbb1-06b3956ba225">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
+The VMR may not be able to use the requested mode, in which case it falls back to another deinterlace mode, as specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd377356(v=VS.85).aspx">IVMRDeinterlaceControl9::SetDeinterlacePrefs</a> method.
 
 
 
@@ -162,7 +160,7 @@ The VMR may not be able to use the requested mode, in which case it falls back t
 
 
 
-<a href="https://msdn.microsoft.com/685f3627-30bd-4c78-9eda-0b06203dd46e">IVMRDeinterlaceControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377349(v=VS.85).aspx">IVMRDeinterlaceControl9 Interface</a>
 
 
 

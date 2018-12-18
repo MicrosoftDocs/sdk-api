@@ -9,8 +9,6 @@ ms.assetid: 073ba94a-ebfa-42f5-9d90-d5693dc25703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptShape, ScriptShape function [Internationalization for Windows Applications], _win32_ScriptShape, intl.scriptshape, usp10/ScriptShape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vdssys/ApplySnapshotVhdSet, vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -61,18 +59,18 @@ Applies a snapshot of the current virtual disk for VHD Set files.
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function.
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
 
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/0C3A8097-0630-412E-AF23-144E3D98D292">APPLY_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt638036(v=VS.85).aspx">APPLY_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot data.
 
 
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://msdn.microsoft.com/96ED6EB4-BB11-430D-9B2E-C905C223D261">APPLY_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+      <a href="https://msdn.microsoft.com/en-us/library/Mt638035(v=VS.85).aspx">APPLY_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

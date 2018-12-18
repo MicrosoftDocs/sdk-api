@@ -9,8 +9,6 @@ ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_IsConnected method, IWMSecureChannel.WMSC_IsConnected, IWMSecureChannel::WMSC_IsConnected, WMSC_IsConnected, WMSC_IsConnected method [windows Media Format], WMSC_IsConnected method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_isconnected, wmsecure/IWMSecureChannel::WMSC_IsConnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 
@@ -80,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5">IWMSecureChannel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
  
 
  

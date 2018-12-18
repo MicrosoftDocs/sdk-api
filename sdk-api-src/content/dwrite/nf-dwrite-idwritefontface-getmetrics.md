@@ -9,8 +9,6 @@ ms.assetid: 09271b06-71cb-4702-861f-c3f6b9069c15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetMetrics method, IDWriteFontFace.GetMetrics, IDWriteFontFace::GetMetrics, directwrite.IDWriteFontFace_GetMetrics, dwrite/IDWriteFontFace::GetMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

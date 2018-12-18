@@ -9,8 +9,6 @@ ms.assetid: 4f04fad9-a638-45c6-b924-50f57472dfe3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputCount method, IWMReader.GetOutputCount, IWMReader::GetOutputCount, IWMReaderGetOutputCount, wmformat.iwmreader_getoutputcount, wmsdkidl/IWMReader::GetOutputCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -123,7 +121,7 @@ The method failed for an unspecified reason.
 
 
 
-A file with mutually exclusive streams contains several streams that are delivered to the same output. But only one of those streams can be delivered at a time during playback. When reading a file, you can identify its outputs by looping through the outputs and getting the media properties of each by calling <a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a>.
+A file with mutually exclusive streams contains several streams that are delivered to the same output. But only one of those streams can be delivered at a time during playback. When reading a file, you can identify its outputs by looping through the outputs and getting the media properties of each by calling <a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a>.
 
 This method is synchronous and does not result in any messages being sent to the status callback.
 
@@ -135,11 +133,11 @@ This method is synchronous and does not result in any messages being sent to the
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a>
  
 
  

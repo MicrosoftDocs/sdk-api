@@ -9,8 +9,6 @@ ms.assetid: 2ACCB4D9-E2EA-4962-8014-7B8382251A39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnnotationProvider interface [Windows Accessibility],Target property, IAnnotationProvider.Target, IAnnotationProvider.get_Target, IAnnotationProvider::Target, IAnnotationProvider::get_Target, Target property [Windows Accessibility], Target property [Windows Accessibility],IAnnotationProvider interface, get_Target, uiautomationcore/IAnnotationProvider::Target, uiautomationcore/IAnnotationProvider::get_Target, winauto.uiauto_IAnnotationProvider_Target
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

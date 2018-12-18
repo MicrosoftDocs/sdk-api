@@ -9,8 +9,6 @@ ms.assetid: c792f064-a137-4872-8c79-6e924b6023f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_SourceSize method, IMSVidVideoRenderer.put_SourceSize, IMSVidVideoRenderer::put_SourceSize, IMSVidVideoRendererput_SourceSize, mstv.imsvidvideorenderer_put_sourcesize, put_SourceSize, put_SourceSize method [Microsoft TV Technologies], put_SourceSize method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_SourceSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>put_SourceSize</b> method specifies the type of clipping to apply to the 
 
 ### -param NewSize [in]
 
-Specifies a member of the <a href="https://msdn.microsoft.com/579c4993-6238-47c7-b61c-398568c1fb94">SourceSizeList</a> enumeration.
+Specifies a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695294(v=VS.85).aspx">SourceSizeList</a> enumeration.
 
 
 ## -returns
@@ -81,15 +79,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/312a2c1e-5332-4a2d-ada9-1dc8236f4170">IMSVidVideoRenderer::get_SourceSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694743(v=VS.85).aspx">IMSVidVideoRenderer::get_SourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c72d8134-ff6c-46b4-b567-35638aef53cd">IMSVidVideoRenderer::put_ClippedSourceRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694748(v=VS.85).aspx">IMSVidVideoRenderer::put_ClippedSourceRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/141df99b-4fc7-439c-953e-1fa1c544258e">IMSVidVideoRenderer::put_OverScan</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694754(v=VS.85).aspx">IMSVidVideoRenderer::put_OverScan</a>
  
 
  

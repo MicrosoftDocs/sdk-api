@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_8jqd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],InitErrorCode property, IFaxInboundRoutingExtension.InitErrorCode, IFaxInboundRoutingExtension.get_InitErrorCode, IFaxInboundRoutingExtension::InitErrorCode, IFaxInboundRoutingExtension::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.initerrorcode, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_initerrorcode_cpp, fax._mfax_faxinboundroutingextension_initerrorcode, faxcomex/IFaxInboundRoutingExtension::InitErrorCode, faxcomex/IFaxInboundRoutingExtension::get_InitErrorCode, get_InitErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ The error code may be an HRESULT value or a Win32 error code.
 
 
 
-<a href="https://msdn.microsoft.com/cb875610-d6c9-473d-b9c2-0035e67a8949">FaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684580(v=VS.85).aspx">FaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/e967c113-a4c0-4a83-949b-eb51fe41fb42">IFaxInboundRoutingExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

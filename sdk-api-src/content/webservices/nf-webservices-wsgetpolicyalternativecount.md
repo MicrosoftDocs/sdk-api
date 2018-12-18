@@ -9,8 +9,6 @@ ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

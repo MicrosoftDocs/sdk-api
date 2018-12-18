@@ -9,8 +9,6 @@ ms.assetid: 2a8b9b4a-0a08-442a-896f-f980bff28f03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSDXMLBuildAnyForSingleElement, WSDXMLBuildAnyForSingleElement function, ncd.wsdxmlbuildanyforsingleelement, wsdutil/WSDXMLBuildAnyForSingleElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

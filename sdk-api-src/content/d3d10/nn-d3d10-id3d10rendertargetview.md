@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10rendertargetview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 76c9084d-ce0f-116d-42dd-eae6aa607d0e, ID3D10RenderTargetView, ID3D10RenderTargetView interface [Direct3D 10], ID3D10RenderTargetView interface [Direct3D 10],described, d3d10/ID3D10RenderTargetView, direct3d10.id3d10rendertargetview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -58,7 +56,7 @@ A render-target-view interface identifies the render-target <a href="https://msd
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RenderTargetView</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View</a>. <b>ID3D10RenderTargetView</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMU555.#ctor(uint16_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(uint16_t), XMU555::XMU555, XMU555::XMU555(uint16_t), dxmath.xmu555_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -54,7 +52,7 @@ Initializes a new instance of <code>XMU555</code> from a <code>uint16_t</code> v
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a> from a
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a> from a
 	<code>uint16_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -116,11 +114,11 @@ The last 1 bits (bit 15) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
 
 
 
-<a href="https://msdn.microsoft.com/afde874c-b4e2-4edb-92bf-895224793e91">XMU555 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415437(v=VS.85).aspx">XMU555 Constructors</a>
  
 
  

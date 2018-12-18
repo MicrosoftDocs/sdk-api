@@ -9,8 +9,6 @@ ms.assetid: 1aca3e5b-20cb-4fa9-b28d-7d992601df96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILocation interface [WinLocation],RegisterForReport method, ILocation.RegisterForReport, ILocation::RegisterForReport, RegisterForReport, RegisterForReport method [WinLocation], RegisterForReport method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_registerforreport, locationapi/ILocation::RegisterForReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

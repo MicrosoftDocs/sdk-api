@@ -9,8 +9,6 @@ ms.assetid: 6a5b1a50-9d0b-440a-a98f-80fd33c6cd95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfReadingInformationUIElement.GetUpdatedFlags, ITfReadingInformationUIElement::GetUpdatedFlags, TF_RIUIE_CONTEXT, TF_RIUIE_ERRORINDEX, TF_RIUIE_MAXREADINGSTRINGLENGTH, TF_RIUIE_STRING, TF_RIUIE_VERTICALORDER, msctf/ITfReadingInformationUIElement::GetUpdatedFlags, tsf.iitfreadinginformationuielement_getupdatedflags, tsf.itfreadinginformationuielement_getupdatedflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0f5c7e2d-e88d-4236-888c-9bf5a425713c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOperations, GetOperations method [Security], GetOperations method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetOperations method, IAzClientContext3.GetOperations, IAzClientContext3::GetOperations, azroles/IAzClientContext3::GetOperations, security.iazclientcontext3_getoperations_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

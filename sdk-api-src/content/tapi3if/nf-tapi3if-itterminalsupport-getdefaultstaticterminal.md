@@ -9,8 +9,6 @@ ms.assetid: aad3a566-eb95-402c-b26f-da6bd89e52ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultStaticTerminal, GetDefaultStaticTerminal method [TAPI 2.2], GetDefaultStaticTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],GetDefaultStaticTerminal method, ITTerminalSupport.GetDefaultStaticTerminal, ITTerminalSupport::GetDefaultStaticTerminal, _tapi3_itterminalsupport_getdefaultstaticterminal, tapi3.itterminalsupport_getdefaultstaticterminal, tapi3if/ITTerminalSupport::GetDefaultStaticTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

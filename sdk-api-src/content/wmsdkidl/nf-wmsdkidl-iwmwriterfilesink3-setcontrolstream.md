@@ -9,8 +9,6 @@ ms.assetid: c103d205-a568-4206-a66e-5473e16cfa3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetControlStream method, IWMWriterFileSink3.SetControlStream, IWMWriterFileSink3::SetControlStream, IWMWriterFileSink3SetControlStream, SetControlStream, SetControlStream method [windows Media Format], SetControlStream method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setcontrolstream, wmsdkidl/IWMWriterFileSink3::SetControlStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,7 +127,7 @@ You can have more than one control stream, by making multiple calls to this meth
 
 
 
-<a href="https://msdn.microsoft.com/67f418c8-184d-46f0-8939-69194c7e7a50">IWMWriterFileSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
  
 
  

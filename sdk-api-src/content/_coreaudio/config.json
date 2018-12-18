@@ -5,7 +5,6 @@
     "audioendpoints.h",
     "audioengineendpoint.h",
     "spatialaudioclient.h",
-    "audioenginebaseapo.h",
     "mmdeviceapi.h",
     "devicetopology.h",
     "audioclient.h",
@@ -13,7 +12,8 @@
     "audiopolicy.h",
     "spatialaudiometadata.h",
     "audiosessiontypes.h",
-    "functiondiscoverykeys_devpkey.h"
+    "functiondiscoverykeys_devpkey.h",
+    "audioenginebaseapo.h"
   ],
   "displayName": "Core Audio APIs"
 }

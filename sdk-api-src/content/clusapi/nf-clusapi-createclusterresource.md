@@ -9,8 +9,6 @@ ms.assetid: c9fe8fa8-57d7-4866-8113-694dc44dae22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, CreateClusterResource, CreateClusterResource function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE, PCLUSAPI_CREATE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_createclusterresource, clusapi/CreateClusterResource, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE, mscs.createclusterresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -82,15 +80,15 @@ Pointer to the type of new resource. The specified type must be installed in the
 
 Bitmask describing how the resource should be added to the cluster. The <i>dwFlags</i> 
       parameter can be set to one of the following values enumerated from the 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb309165(v=VS.85).aspx">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
+      <a href="https://msdn.microsoft.com/16f5ab58-2507-431a-98f9-bd00a24485ba">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
       enumeration.
 
 
 
 #### CLUSTER_RESOURCE_DEFAULT_MONITOR (0)
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> determines the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa372266(v=VS.85).aspx">Resource Monitor</a> to which the new resource will be 
+The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> determines the 
+        <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a> to which the new resource will be 
         assigned.
 
 
@@ -119,7 +117,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 Do not call <b>CreateClusterResource</b> from a 
     resource DLL. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -129,11 +127,11 @@ Do not call <b>CreateClusterResource</b> from a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309165(v=VS.85).aspx">CLUSTER_RESOURCE_CREATE_FLAGS</a>
+<a href="https://msdn.microsoft.com/16f5ab58-2507-431a-98f9-bd00a24485ba">CLUSTER_RESOURCE_CREATE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Cluster Resource Management Functions</a>
 
 
 

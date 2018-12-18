@@ -9,8 +9,6 @@ ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

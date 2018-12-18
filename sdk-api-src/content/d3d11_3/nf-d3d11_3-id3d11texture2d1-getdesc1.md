@@ -9,8 +9,6 @@ ms.assetid: 968FE780-90D8-44F8-AD31-BA29854413C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 11], GetDesc1 method [Direct3D 11],ID3D11Texture2D1 interface, ID3D11Texture2D1 interface [Direct3D 11],GetDesc1 method, ID3D11Texture2D1.GetDesc1, ID3D11Texture2D1::GetDesc1, d3d11_3/ID3D11Texture2D1::GetDesc1, direct3d11.id3d11texture2d1_getdesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 
@@ -61,9 +59,9 @@ Gets the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899166(v=VS.85).aspx">D3D11_TEXTURE2D_DESC1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/DADDC12C-CF1E-48B4-B8C0-3029EC6B711B">D3D11_TEXTURE2D_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899166(v=VS.85).aspx">D3D11_TEXTURE2D_DESC1</a> structure that receives the description of the 2D texture.
+A pointer to a <a href="https://msdn.microsoft.com/DADDC12C-CF1E-48B4-B8C0-3029EC6B711B">D3D11_TEXTURE2D_DESC1</a> structure that receives the description of the 2D texture.
 
 
 ## -returns
@@ -80,7 +78,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899244(v=VS.85).aspx">ID3D11Texture2D1</a>
+<a href="https://msdn.microsoft.com/0BEBF03C-CBE5-4988-AC98-76D90363A0B7">ID3D11Texture2D1</a>
  
 
  

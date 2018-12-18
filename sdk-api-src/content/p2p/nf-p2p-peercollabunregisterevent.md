@@ -7,10 +7,8 @@ old-location: p2p\peercollabunregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: dc1bcdaa-e58e-4567-9fd2-e1fa9071880f
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerCollabUnregisterEvent, PeerCollabUnregisterEvent function [Peer Networking], p2p.peercollabunregisterevent, p2p/PeerCollabUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

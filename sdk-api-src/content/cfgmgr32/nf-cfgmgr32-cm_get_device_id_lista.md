@@ -9,8 +9,6 @@ ms.assetid: aa0ab004-3813-4339-90bb-afd9acf200c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CM_Get_Device_ID_List, CM_Get_Device_ID_List function [Device and Driver Installation], CM_Get_Device_ID_ListA, CM_Get_Device_ID_ListW, cfgmgr32/CM_Get_Device_ID_List, cfgmgr32/CM_Get_Device_ID_ListA, cfgmgr32/CM_Get_Device_ID_ListW, cfgmgrfn_e9f614d2-9bac-4b30-b9a0-f0764e37950b.xml, devinst.cm_get_device_id_list
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
@@ -69,7 +67,7 @@ Caller-supplied pointer to a character string that is either set to a subset of 
 
 ### -param Buffer [out]
 
-Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Ff538427(v=VS.85).aspx">CM_Get_Device_ID_List_Size</a>. 
+Address of a buffer to receive a set of NULL-terminated device instance identifier strings. The end of the set is terminated by an extra <b>NULL</b>. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>. 
 
 
 ### -param BufferLen [in]
@@ -197,7 +195,7 @@ For more information about device instance IDs, see <a href="https://docs.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538427(v=VS.85).aspx">CM_Get_Device_ID_List_Size</a>
+<a href="https://msdn.microsoft.com/3c650b21-56dc-4ef5-b986-417a247b3eb0">CM_Get_Device_ID_List_Size</a>
  
 
  

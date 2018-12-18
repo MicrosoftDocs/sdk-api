@@ -9,8 +9,6 @@ ms.assetid: ebc05983-3375-4ace-b192-f427b9685310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName method, IWMPClosedCaption.put_SAMIFileName, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -116,15 +114,15 @@ Once you specify a value using <b>put_SAMIFileName</b>, that value persists unti
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f09df76-3bfc-48ce-881f-c905656ecbbf">IWMPClosedCaption::get_SAMIFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563122(v=VS.85).aspx">IWMPClosedCaption::get_SAMIFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6e21995-5dbd-4893-a9f2-6ce918d3fbc4">IWMPCore::close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563223(v=VS.85).aspx">IWMPCore::close</a>
  
 
  

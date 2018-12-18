@@ -9,8 +9,6 @@ ms.assetid: 1ac4976b-7088-47ac-9689-58c143746f05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaStreamFilter, IMediaStreamFilter interface [DirectShow], IMediaStreamFilter interface [DirectShow],described, IMediaStreamFilterInterface, amstream/IMediaStreamFilter, dshow.imediastreamfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>IMediaStreamFilter</code> interface is supported by the Media Stream f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStreamFilter</b> interface inherits from <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStreamFilter</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd389526(v=VS.85).aspx">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +73,7 @@ The <b>IMediaStreamFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e4fdc28-3117-4b9d-a914-ddb70aa5125d">AddMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407043(v=VS.85).aspx">AddMediaStream</a>
 </td>
 <td align="left" width="63%">
 Connects a media stream object to the underlying filter graph.
@@ -84,7 +82,7 @@ Connects a media stream object to the underlying filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ceec4ead-e439-4206-ab30-ae37d15c5b44">EndOfStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407044(v=VS.85).aspx">EndOfStream</a>
 </td>
 <td align="left" width="63%">
 Signals the end of a stream.
@@ -93,7 +91,7 @@ Signals the end of a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f62abda-6192-4adb-985d-9bffe310b407">EnumMediaStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407045(v=VS.85).aspx">EnumMediaStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by index.
@@ -102,7 +100,7 @@ Retrieves a media stream, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30b5d8f7-e3ab-48e4-aefe-3b3e04aba638">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407046(v=VS.85).aspx">Flush</a>
 </td>
 <td align="left" width="63%">
 Notifies the filter that one of its pins has flushed data.
@@ -111,7 +109,7 @@ Notifies the filter that one of its pins has flushed data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/933f83a3-600e-4897-b4df-a481d2874155">GetCurrentStreamTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407047(v=VS.85).aspx">GetCurrentStreamTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream time.
@@ -120,7 +118,7 @@ Retrieves the current stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27ef63cf-36a4-4d35-bd38-3c51b1343ee1">GetMediaStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407048(v=VS.85).aspx">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by purpose ID.
@@ -129,7 +127,7 @@ Retrieves a media stream, specified by purpose ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71ddbf0b-17aa-4481-81a7-6d4a12275c31">ReferenceTimeToStreamTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407049(v=VS.85).aspx">ReferenceTimeToStreamTime</a>
 </td>
 <td align="left" width="63%">
 Converts a reference time to stream time.
@@ -138,7 +136,7 @@ Converts a reference time to stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cb15898-8a22-4621-a6e5-bb5d17640749">SupportSeeking</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407050(v=VS.85).aspx">SupportSeeking</a>
 </td>
 <td align="left" width="63%">
 Initializes the filter to support seeking.
@@ -147,7 +145,7 @@ Initializes the filter to support seeking.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5669a3c6-b060-49e8-b8e6-2e3617b44d62">WaitUntil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407051(v=VS.85).aspx">WaitUntil</a>
 </td>
 <td align="left" width="63%">
 Causes the filter to block until a specified stream time.
@@ -162,7 +160,7 @@ Causes the filter to block until a specified stream time.
 
 
 
-<a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389526(v=VS.85).aspx">IBaseFilter</a>
  
 
  

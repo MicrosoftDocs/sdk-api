@@ -9,8 +9,6 @@ ms.assetid: 2868e5db-f596-424d-bd6a-0f0c5f52e1e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAgentSessionEvent interface [TAPI 2.2],get_Session method, ITAgentSessionEvent.get_Session, ITAgentSessionEvent::get_Session, _tapi3_itagentsessionevent_get_session, get_Session, get_Session method [TAPI 2.2], get_Session method [TAPI 2.2],ITAgentSessionEvent interface, tapi3.itagentsessionevent_get_session, tapi3cc/ITAgentSessionEvent::get_Session
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

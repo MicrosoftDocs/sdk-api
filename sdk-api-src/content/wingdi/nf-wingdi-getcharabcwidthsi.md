@@ -9,8 +9,6 @@ ms.assetid: 7d1210ee-42b7-4f2e-9e89-fb1543d76290
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCharABCWidthsI, GetCharABCWidthsI function [Windows GDI], _win32_GetCharABCWidthsI, gdi.getcharabcwidthsi, wingdi/GetCharABCWidthsI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

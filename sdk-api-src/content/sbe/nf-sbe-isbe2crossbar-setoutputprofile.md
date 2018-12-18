@@ -9,8 +9,6 @@ ms.assetid: 34067ca5-ead0-44ac-b274-dc9e3f2fb2fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISBE2Crossbar interface [Microsoft TV Technologies],SetOutputProfile method, ISBE2Crossbar.SetOutputProfile, ISBE2Crossbar::SetOutputProfile, SetOutputProfile, SetOutputProfile method [Microsoft TV Technologies], SetOutputProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, mstv.isbe2crossbar_setoutputprofile, sbe/ISBE2Crossbar::SetOutputProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
@@ -73,13 +71,13 @@ Pointer to the <a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363c
 
 ### -param pcOutputPins [in, out]
 
-On input, specifies the size of an array allocated to receive <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
+On input, specifies the size of an array allocated to receive <a href="https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx">IPin</a> pointers for the output pins that correspond to the streams in the new profile. The <i>ppOutputPins</i> parameter points to this array. On output, if the call succeeds, gets the actual number of <b>IPin</b> pointers returned in the <i>ppOutputPins</i> output parameter.
           
 
 
 ### -param ppOutputPins [in, out]
 
-On input, specifies a pointer to an array of uninitialized <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> pointers. On output, if the call succeeds, the <b>IPin</b> pointers in the array are initialized to point to the filter output pins that have the media types listed in the new profile. The <i>pcOutputPins</i> parameter gives the number of elements in the array. The caller is responsible for freeing the <b>IPin</b> interface pointers returned in the array. 
+On input, specifies a pointer to an array of uninitialized <a href="https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx">IPin</a> pointers. On output, if the call succeeds, the <b>IPin</b> pointers in the array are initialized to point to the filter output pins that have the media types listed in the new profile. The <i>pcOutputPins</i> parameter gives the number of elements in the array. The caller is responsible for freeing the <b>IPin</b> interface pointers returned in the array. 
 
 
 ## -returns
@@ -152,7 +150,7 @@ Cannot set output profile because profile default mode is enabled.
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390397(v=VS.85).aspx">IPin</a>
 
 
 

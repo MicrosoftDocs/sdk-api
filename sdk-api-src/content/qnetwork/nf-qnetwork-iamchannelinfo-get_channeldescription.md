@@ -9,8 +9,6 @@ ms.assetid: c39b15af-0766-4512-9720-4cdaef6120ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelDescription method, IAMChannelInfo.get_ChannelDescription, IAMChannelInfo::get_ChannelDescription, IAMChannelInfoget_ChannelDescription, dshow.iamchannelinfo_get_channeldescription, get_ChannelDescription, get_ChannelDescription method [DirectShow], get_ChannelDescription method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 
 
 
-<a href="https://msdn.microsoft.com/779d1c0a-f838-4d02-8254-d66916d3b790">IAMChannelInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389154(v=VS.85).aspx">IAMChannelInfo Interface</a>
  
 
  

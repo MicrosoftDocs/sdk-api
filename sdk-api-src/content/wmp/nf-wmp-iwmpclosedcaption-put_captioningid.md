@@ -9,8 +9,6 @@ ms.assetid: 46736a28-e05d-404c-8bad-a51ac58435f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_captioningId method, IWMPClosedCaption.put_captioningId, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -114,11 +112,11 @@ The element name specified can be any HTML element in the webpage as long as it 
 
 
 
-<a href="https://msdn.microsoft.com/fd67e139-0bc1-459e-b43b-bf07f6f656ed">IWMPClosedCaption Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563113(v=VS.85).aspx">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6aa1710-9686-439b-b098-7a3e5da532ee">IWMPClosedCaption::get_captioningId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563121(v=VS.85).aspx">IWMPClosedCaption::get_captioningId</a>
  
 
  

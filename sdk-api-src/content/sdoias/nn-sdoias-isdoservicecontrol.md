@@ -7,10 +7,8 @@ old-location: nps\SDO_isdoservicecontrol.htm
 tech.root: Nps
 ms.assetid: c901ac9a-524a-498d-8b72-9afb26cf2c58
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdoServiceControl, ISdoServiceControl interface [Network Policy Server], ISdoServiceControl interface [Network Policy Server],described, _sdo_isdoservicecontrol, nps.SDO_isdoservicecontrol, sdo.isdoservicecontrol, sdoias/ISdoServiceControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sdoias.h
 req.include-header: 

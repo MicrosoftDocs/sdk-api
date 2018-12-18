@@ -9,8 +9,6 @@ ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Graphics.TranslateClip, Graphics::TranslateClip, TranslateClip, TranslateClip methods [GDI+], _gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplus._gdiplus_CLASS_Graphics_TranslateClip_Methods, gdiplusgraphics/TranslateClip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

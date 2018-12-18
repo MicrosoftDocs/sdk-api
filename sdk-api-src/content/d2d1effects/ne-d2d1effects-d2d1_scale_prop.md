@@ -9,8 +9,6 @@ ms.assetid: 0FBAC940-3E73-4672-AFD7-F29459849592
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_SCALE_PROP, D2D1_SCALE_PROP enumeration [Direct2D], D2D1_SCALE_PROP_BORDER_MODE, D2D1_SCALE_PROP_CENTER_POINT, D2D1_SCALE_PROP_INTERPOLATION_MODE, D2D1_SCALE_PROP_SCALE, D2D1_SCALE_PROP_SHARPNESS, d2d1effects/D2D1_SCALE_PROP, d2d1effects/D2D1_SCALE_PROP_BORDER_MODE, d2d1effects/D2D1_SCALE_PROP_CENTER_POINT, d2d1effects/D2D1_SCALE_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_SCALE_PROP_SCALE, d2d1effects/D2D1_SCALE_PROP_SHARPNESS, direct2d.d2d1_scale_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706339(v=VS.85).aspx">Scale effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27">Scale effect</a>.
         
 
 
@@ -89,7 +87,7 @@ The default value is {0.0f, 0.0f}.
 The interpolation mode the effect uses to scale the image. There are 6 scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934260(v=VS.85).aspx">D2D1_SCALE_INTERPOLATION_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/2673E6AE-EEF5-4727-B224-0245CED15C21">D2D1_SCALE_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.
 
@@ -99,7 +97,7 @@ The default value is D2D1_SCALE_INTERPOLATION_MODE_LINEAR.
 The mode used to calculate the border of the image, soft or hard. 
             
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

@@ -9,8 +9,6 @@ ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

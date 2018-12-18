@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Image class, Image class [GDI+],Clone method, Image.Clone, Image::Clone, _gdiplus_CLASS_Image_Clone_, gdiplus._gdiplus_CLASS_Image_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

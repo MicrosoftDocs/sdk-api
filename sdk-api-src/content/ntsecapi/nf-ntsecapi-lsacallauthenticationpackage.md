@@ -9,8 +9,6 @@ ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

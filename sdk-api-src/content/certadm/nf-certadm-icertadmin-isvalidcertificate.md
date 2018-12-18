@@ -9,8 +9,6 @@ ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCertAdmin object [Security],IsValidCertificate method, ICertAdmin interface [Security],IsValidCertificate method, ICertAdmin.IsValidCertificate, ICertAdmin2 interface [Security],IsValidCertificate method, ICertAdmin2::IsValidCertificate, ICertAdmin::IsValidCertificate, IsValidCertificate, IsValidCertificate method [Security], IsValidCertificate method [Security],CCertAdmin object, IsValidCertificate method [Security],ICertAdmin interface, IsValidCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::IsValidCertificate, certadm/ICertAdmin::IsValidCertificate, security.icertadmin2_isvalidcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>IsValidCertificate</b> method verifies the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a> against the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) key and  checks that the certificate has not been revoked. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
+The <b>IsValidCertificate</b> method verifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> against the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) key and  checks that the certificate has not been revoked. This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
 
 
 ## -parameters
@@ -63,9 +61,9 @@ The <b>IsValidCertificate</b> method verifies the <a href="https://msdn.microsof
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>IsValidCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>IsValidCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param strSerialNumber [in]
@@ -85,7 +83,7 @@ A pointer to a <b>LONG</b> that receives the disposition value.
 <h3>C++</h3>
  If the method succeeds and the <i>pDisposition</i> parameter is set to one of the following values, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the disposition of the certificate. This value is one of the following values. (These values are defined in Certadm.h.)
@@ -232,19 +230,19 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
  
 
  

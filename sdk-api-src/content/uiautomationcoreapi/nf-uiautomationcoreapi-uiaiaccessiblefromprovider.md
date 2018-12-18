@@ -9,8 +9,6 @@ ms.assetid: 79523637-9858-4E0B-87E7-8CED19FADF0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIA_IAFP_DEFAULT, UIA_IAFP_UNWRAP_BRIDGE, UiaIAccessibleFromProvider, UiaIAccessibleFromProvider function [Windows Accessibility], uiautomationcoreapi/UiaIAccessibleFromProvider, winauto.uiauto_UiaIAccessibleFromProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

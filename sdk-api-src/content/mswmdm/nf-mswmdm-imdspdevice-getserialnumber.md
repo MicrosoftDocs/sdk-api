@@ -9,8 +9,6 @@ ms.assetid: dfff9660-fc74-421c-91d2-3d6be1c753da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetSerialNumber method, IMDSPDevice.GetSerialNumber, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

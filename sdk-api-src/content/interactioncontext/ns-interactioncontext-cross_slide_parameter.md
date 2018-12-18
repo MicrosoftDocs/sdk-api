@@ -9,8 +9,6 @@ ms.assetid: 3871f24e-34a4-4524-801d-4d60cf6165d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intcontext.cross_slide_parameter, interactioncontext.cross_slide_parameter, interactioncontext/CROSS_SLIDE_PARAMETER
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

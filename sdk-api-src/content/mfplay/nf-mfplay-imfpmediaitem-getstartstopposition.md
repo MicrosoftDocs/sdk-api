@@ -9,8 +9,6 @@ ms.assetid: c992bbec-a5ca-4ece-a883-2a7d7b5d49b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStartStopPosition, GetStartStopPosition method [Media Foundation], GetStartStopPosition method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStartStopPosition method, IMFPMediaItem.GetStartStopPosition, IMFPMediaItem::GetStartStopPosition, mf.imfpmediaitem_getstartstopposition, mfplay/IMFPMediaItem::GetStartStopPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

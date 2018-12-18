@@ -4,13 +4,11 @@ title: IWTSListener
 author: windows-sdk-content
 description: Manages configuration settings for each listener for the dynamic virtual channel (DVC) connection.
 old-location: termserv\iwtslistener.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: af0dda9a-0d18-4f44-ac13-0bf2b903d34e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSListener, IWTSListener interface [Remote Desktop Services], IWTSListener interface [Remote Desktop Services],described, termserv.iwtslistener, tsvirtualchannels/IWTSListener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

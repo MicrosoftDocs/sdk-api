@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_9mn9_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Service], IFaxOutboundRoutingRule interface [Fax Service],described, _mfax_faxoutboundroutingrule_cpp, fax._mfax_faxoutboundroutingrule_cpp, faxcomex/IFaxOutboundRoutingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

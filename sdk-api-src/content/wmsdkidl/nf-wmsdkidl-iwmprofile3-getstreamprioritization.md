@@ -9,8 +9,6 @@ ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamPrioritization, GetStreamPrioritization method [windows Media Format], GetStreamPrioritization method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetStreamPrioritization method, IWMProfile3.GetStreamPrioritization, IWMProfile3::GetStreamPrioritization, IWMProfile3GetStreamPrioritization, wmformat.iwmprofile3_getstreamprioritization, wmsdkidl/IWMProfile3::GetStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -66,7 +64,7 @@ The <b>GetStreamPrioritization</b> method retrieves the stream prioritization th
 
 ### -param ppSP [out]
 
-Pointer to receive the address of the <a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization</a> interface of the stream prioritization object in the profile.
+Pointer to receive the address of the <a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization</a> interface of the stream prioritization object in the profile.
 
 
 ## -returns
@@ -133,19 +131,19 @@ Many profiles do not have a stream prioritization assigned to them. If you call 
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1522cb9f-ce3f-4183-8779-3ee112efb40b">IWMProfile3::RemoveStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757382(v=VS.85).aspx">IWMProfile3::RemoveStreamPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/16dfb205-2a0b-4dc8-a8f2-8981534018f1">IWMProfile3::SetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757384(v=VS.85).aspx">IWMProfile3::SetStreamPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
 
 
 

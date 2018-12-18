@@ -9,8 +9,6 @@ ms.assetid: 8530f436-8067-43bd-8f64-45e042ccb466
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],get_VideoStandard method, IAnalogLocator.get_VideoStandard, IAnalogLocator::get_VideoStandard, IAnalogLocatorget_VideoStandard, get_VideoStandard, get_VideoStandard method [Microsoft TV Technologies], get_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, mstv.ianaloglocator_get_videostandard, tuner/IAnalogLocator::get_VideoStandard
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <b>get_VideoStandard</b> method retrieves the format of the analog televisio
 
 ### -param AVS [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> variable that receives the format of the analog television signal.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> variable that receives the format of the analog television signal.
 
 
 ## -returns

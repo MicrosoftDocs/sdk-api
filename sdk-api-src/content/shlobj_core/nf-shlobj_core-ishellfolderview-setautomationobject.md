@@ -9,8 +9,6 @@ ms.assetid: 742b0d93-5cdf-4498-80c2-2d33359f146f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetAutomationObject method, IShellFolderView.SetAutomationObject, IShellFolderView::SetAutomationObject, SetAutomationObject, SetAutomationObject method [Windows Shell], SetAutomationObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetAutomationObject, shell.IShellFolderView_SetAutomationObject, shlobj_core/IShellFolderView::SetAutomationObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -62,7 +60,7 @@ Replaces the internal automation object of the <a href="https://msdn.microsoft.c
 
 ### -param pdisp [in, optional]
 
-Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>*</b>
 
 A pointer to the new automation object.
 

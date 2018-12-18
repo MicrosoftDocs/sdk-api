@@ -9,8 +9,6 @@ ms.assetid: a3e41e8f-45dd-4160-8a65-ec82b7e9abe7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBandHost interface [Windows Shell],SetBandAvailability method, IBandHost.SetBandAvailability, IBandHost::SetBandAvailability, SetBandAvailability, SetBandAvailability method [Windows Shell], SetBandAvailability method [Windows Shell],IBandHost interface, _shell_IBandHost_SetBandAvailability, shell.IBandHost_SetBandAvailability, shobjidl/IBandHost::SetBandAvailability
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d2dbeaf1-29cb-4848-8188-7922fdc15091
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadValue, WsReadValue function [Web Services for Windows], webservices/WsReadValue, wsw.wsreadvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -80,7 +78,7 @@ The text interpretation type.
 ### -param value
 
 A pointer to the parsed data if parsing was successful according to the specified value type.  The
-          size required is determined by value type.  See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
+          size required is determined by value type.  See <a href="https://msdn.microsoft.com/en-us/library/Dd323504(v=VS.85).aspx">WS_VALUE_TYPE</a> for more information.
         
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_HasGroup, ListView_HasGroup macro [Windows Controls], _win32_ListView_HasGroup, _win32_ListView_HasGroup_cpp, commctrl/ListView_HasGroup, controls.ListView_HasGroup, controls._win32_ListView_HasGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Determines whether the list-view control has a specified group. You can use this
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

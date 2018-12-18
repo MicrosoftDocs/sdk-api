@@ -9,8 +9,6 @@ ms.assetid: b34b2418-5ae4-49a2-913a-bb4ac604ac4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPostViewFormatCount, GetPostViewFormatCount method [windows Media Format], GetPostViewFormatCount method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormatCount method, IWMWriterPostView.GetPostViewFormatCount, IWMWriterPostView::GetPostViewFormatCount, IWMWriterPostViewGetPostViewFormatCount, wmformat.iwmwriterpostview_getpostviewformatcount, wmsdkidl/IWMWriterPostView::GetPostViewFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -117,7 +115,7 @@ NULL value passed in to <i>pcFormats</i>.
 
 
 
-This method can be used along with <a href="https://msdn.microsoft.com/3636833d-3c96-45d9-bf82-e3ff930c7d9b">GetPostViewFormat</a> to ascertain all possible format types supported by this output on the reader.
+This method can be used along with <a href="https://msdn.microsoft.com/en-us/library/Dd798775(v=VS.85).aspx">GetPostViewFormat</a> to ascertain all possible format types supported by this output on the reader.
 
 
 
@@ -127,7 +125,7 @@ This method can be used along with <a href="https://msdn.microsoft.com/3636833d-
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
  
 
  

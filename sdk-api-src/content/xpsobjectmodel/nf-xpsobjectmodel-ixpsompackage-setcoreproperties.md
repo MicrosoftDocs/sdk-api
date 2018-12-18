@@ -9,8 +9,6 @@ ms.assetid: e1be5c48-1e2b-4f94-98ec-b61bc255e63b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPackage interface [XPS Documents and Packaging],SetCoreProperties method, IXpsOMPackage.SetCoreProperties, IXpsOMPackage::SetCoreProperties, SetCoreProperties, SetCoreProperties method [XPS Documents and Packaging], SetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_setcoreproperties, xpsobjectmodel/IXpsOMPackage::SetCoreProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

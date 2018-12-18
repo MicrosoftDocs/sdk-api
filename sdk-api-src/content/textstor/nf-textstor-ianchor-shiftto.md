@@ -9,8 +9,6 @@ ms.assetid: a0fb9a08-3f46-4d2f-8887-e80dc0bade1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnchor interface [Text Services Framework],ShiftTo method, IAnchor.ShiftTo, IAnchor::ShiftTo, ShiftTo, ShiftTo method [Text Services Framework], ShiftTo method [Text Services Framework],IAnchor interface, textstor/IAnchor::ShiftTo, tsf.ianchor_shiftto
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: b4b38ec1-8fd8-4bfe-8513-33132379f6da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetName method, IWMProfile.SetName, IWMProfile2 interface [windows Media Format],SetName method, IWMProfile2::SetName, IWMProfile3 interface [windows Media Format],SetName method, IWMProfile3::SetName, IWMProfile::SetName, IWMProfileSetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMProfile interface, SetName method [windows Media Format],IWMProfile2 interface, SetName method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setname, wmsdkidl/IWMProfile2::SetName, wmsdkidl/IWMProfile3::SetName, wmsdkidl/IWMProfile::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,15 +127,15 @@ Profiles have names and descriptions, for use when displaying lists of profiles.
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5993e47-842d-4392-9b54-2bf6f09c377c">IWMProfile::GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757405(v=VS.85).aspx">IWMProfile::GetName</a>
  
 
  

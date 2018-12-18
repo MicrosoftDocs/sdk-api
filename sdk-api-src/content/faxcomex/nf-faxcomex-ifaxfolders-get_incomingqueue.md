@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_3vol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxFolders interface [Fax Service],IncomingQueue property, IFaxFolders.IncomingQueue, IFaxFolders.get_IncomingQueue, IFaxFolders::IncomingQueue, IFaxFolders::get_IncomingQueue, IncomingQueue property [Fax Service], IncomingQueue property [Fax Service],IFaxFolders interface, _mfax_faxfolders.incomingqueue, fax._mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp, fax._mfax_faxfolders_incomingqueue, faxcomex/IFaxFolders::IncomingQueue, faxcomex/IFaxFolders::get_IncomingQueue, get_IncomingQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/283c75e3-e596-403c-b4ea-b62bf0c744f3">FaxFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684837(v=VS.85).aspx">FaxFolders</a>
 
 
 
-<a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a>
  
 
  

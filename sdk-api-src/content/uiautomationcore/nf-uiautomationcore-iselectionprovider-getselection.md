@@ -9,8 +9,6 @@ ms.assetid: f97481b9-f227-47fb-9163-a65a259c9d78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelection, GetSelection method [Windows Accessibility], GetSelection method [Windows Accessibility],ISelectionProvider interface, ISelectionProvider interface [Windows Accessibility],GetSelection method, ISelectionProvider.GetSelection, ISelectionProvider::GetSelection, uiauto.uiauto_ISelectionProvider_GetSelection, uiauto_ISelectionProvider_GetSelection, uiautomationcore/ISelectionProvider::GetSelection, winauto.uiauto_ISelectionProvider_GetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

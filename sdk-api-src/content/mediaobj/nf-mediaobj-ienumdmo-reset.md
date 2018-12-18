@@ -9,8 +9,6 @@ ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -78,7 +76,7 @@ Returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO Interface</a>
  
 
  

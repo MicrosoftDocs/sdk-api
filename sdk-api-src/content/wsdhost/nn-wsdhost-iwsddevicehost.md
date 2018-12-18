@@ -9,8 +9,6 @@ ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

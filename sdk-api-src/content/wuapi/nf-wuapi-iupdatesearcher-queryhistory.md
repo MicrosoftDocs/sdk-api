@@ -9,8 +9,6 @@ ms.assetid: 4d3027a2-ba97-4dfc-9a15-c106aaf6c2b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],QueryHistory method, IUpdateSearcher.QueryHistory, IUpdateSearcher::QueryHistory, QueryHistory, QueryHistory method [Windows Update Agent], QueryHistory method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearcher_queryhistory, wuapi/IUpdateSearcher::QueryHistory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e68539dc-0ebe-41f7-a9fe-941e2f941225
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Company method, ITPluggableTerminalClassRegistration.put_Company, ITPluggableTerminalClassRegistration::put_Company, _tapi3_itpluggableterminalclassregistration_put_company, put_Company, put_Company method [TAPI 2.2], put_Company method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_company, termmgr/ITPluggableTerminalClassRegistration::put_Company
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

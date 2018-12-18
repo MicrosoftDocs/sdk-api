@@ -9,8 +9,6 @@ ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8d2e1022-ae79-4f71-a488-2c86b43b2a7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsMaintenance interface [VDS],StartMaintenance method, IVdsMaintenance.StartMaintenance, IVdsMaintenance::StartMaintenance, StartMaintenance, StartMaintenance method [VDS], StartMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_startmaintenance, vds/IVdsMaintenance::StartMaintenance, vdshwprv/IVdsMaintenance::StartMaintenance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

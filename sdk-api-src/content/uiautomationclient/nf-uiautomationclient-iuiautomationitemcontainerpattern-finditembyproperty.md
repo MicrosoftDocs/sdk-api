@@ -9,8 +9,6 @@ ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWrappedResources method,ID3D11On12Device interface, ID3D11On12Device interface,AcquireWrappedResources method, ID3D11On12Device.AcquireWrappedResources, ID3D11On12Device::AcquireWrappedResources, d3d11on12/ID3D11On12Device::AcquireWrappedResources, direct3d12.id3d11on12device_acquirewrappedresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11on12.h
 req.include-header: 
@@ -64,7 +62,7 @@ Acquires D3D11 resources for use with D3D 11on12.
 
 Type: <b>ID3D11Resource*</b>
 
-Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>.
+Specifies a pointer to a set of D3D11 resources, defined by <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>.
           
 
 
@@ -93,7 +91,7 @@ This method does not return a value.
 This method marks the resources as "acquired" in hazard tracking.
         
 
-Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/en-us/library/Ff471339(v=VS.85).aspx">IDXGIKeyedMutex::AcquireSync</a> instead.
+Keyed mutex resources cannot be provided to this method; use <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> instead.
         
 
 
@@ -138,7 +136,7 @@ void D3D1211on12::RenderUI()
 ```
 
 
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -149,7 +147,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn913197(v=VS.85).aspx">ID3D11On12Device</a>
+<a href="https://msdn.microsoft.com/031F9AC2-E5C0-47F9-B084-2D2431F1187A">ID3D11On12Device</a>
  
 
  

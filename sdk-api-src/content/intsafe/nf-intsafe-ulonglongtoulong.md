@@ -9,8 +9,6 @@ ms.assetid: d00be99c-f4ec-4a4e-98d1-6e96f5bd3a0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ULongLongToDWord, ULongLongToULong, ULongLongToULong function [Windows Shell], _shell_ULongLongToULong, intsafe/ULongLongToULong, shell.ULongLongToULong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 26d68b4b-4eeb-42e2-a1d1-0d0e73725059
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPServices, IWMPServices interface [Windows Media Player], IWMPServices interface [Windows Media Player],described, IWMPServicesInterfaceDSP, wmp.iwmpservices, wmpservices/IWMPServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a73ea54-45ce-47ff-b551-10aab2798420">GetStreamState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563643(v=VS.85).aspx">GetStreamState</a>
 </td>
 <td align="left" width="63%">
 Returns a value that represents the current stream state.
@@ -82,7 +80,7 @@ Returns a value that represents the current stream state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e6c8181-3ff9-4ce1-aad5-9d7821771f69">GetStreamTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563645(v=VS.85).aspx">GetStreamTime</a>
 </td>
 <td align="left" width="63%">
 Returns a value that indicates the current stream time.

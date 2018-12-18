@@ -9,8 +9,6 @@ ms.assetid: dc68eddb-7991-42bd-bc0e-4f5d890ca468
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ, GetStatusObject, GetStatusObject method [Windows Management Instrumentation], GetStatusObject method [Windows Management Instrumentation],MethodContext interface, MethodContext interface [Windows Management Instrumentation],GetStatusObject method, MethodContext.GetStatusObject, MethodContext::GetStatusObject, methodco/MethodContext::GetStatusObject, wmi.methodcontext_getstatusobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: methodco.h
 req.include-header: 

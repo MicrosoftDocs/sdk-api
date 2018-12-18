@@ -9,8 +9,6 @@ ms.assetid: 19609332-9fc2-4a21-b947-f103a1cf2675
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsOutputFormatSupported method, IAudioProcessingObject.IsOutputFormatSupported, IAudioProcessingObject::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [Audio Devices], IsOutputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isoutputformatsupported, audio_syseffects_r_542151d0-145f-4504-a282-e6473f1ae3c7.xml, audioenginebaseapo/IAudioProcessingObject::IsOutputFormatSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

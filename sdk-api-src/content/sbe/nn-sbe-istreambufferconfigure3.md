@@ -9,8 +9,6 @@ ms.assetid: 73f3cd43-11d1-4eff-861d-087bfda7d135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferConfigure3, IStreamBufferConfigure3 interface [Microsoft TV Technologies], IStreamBufferConfigure3 interface [Microsoft TV Technologies],described, IStreamBufferConfigure3Interface, mstv.istreambufferconfigure3, sbe/IStreamBufferConfigure3
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 58c28934-7c2f-49ec-af40-b32b05ec921a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerCreateLineDevice, TSPI_providerCreateLineDevice function [TAPI 2.2], _tspi_tspi_providercreatelinedevice, tspi.tspi_providercreatelinedevice, tspi/TSPI_providerCreateLineDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

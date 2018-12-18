@@ -9,8 +9,6 @@ ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodedTokenInfo, GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetCodedTokenInfo method, IMetaDataTables.GetCodedTokenInfo, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

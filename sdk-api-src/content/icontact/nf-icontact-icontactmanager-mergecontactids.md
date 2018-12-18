@@ -9,8 +9,6 @@ ms.assetid: 1a3aea59-ef92-4775-b942-7383a5e8a63c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IContactManager interface [Windows Contacts],MergeContactIDs method, IContactManager.MergeContactIDs, IContactManager::MergeContactIDs, MergeContactIDs, MergeContactIDs method [Windows Contacts], MergeContactIDs method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_MergeContactIDs, icontact/IContactManager::MergeContactIDs, wincontacts._wincontacts_IContactManager_MergeContactIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

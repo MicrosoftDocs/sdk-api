@@ -9,8 +9,6 @@ ms.assetid: 499190de-54e8-4be6-909b-04505bcb0aa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseThreadpoolIo, CloseThreadpoolIo function, base.closethreadpoolio, threadpoolapiset/CloseThreadpoolIo, winbase/CloseThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

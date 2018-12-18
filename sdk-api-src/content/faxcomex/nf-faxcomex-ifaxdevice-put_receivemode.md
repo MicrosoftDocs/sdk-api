@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_086d_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],ReceiveMode property, IFaxDevice.ReceiveMode, IFaxDevice.put_ReceiveMode, IFaxDevice::ReceiveMode, IFaxDevice::get_ReceiveMode, IFaxDevice::put_ReceiveMode, ReceiveMode property [Fax Service], ReceiveMode property [Fax Service],IFaxDevice interface, _mfax_faxdevice.receivemode_cpp, fax._mfax_faxdevice_receivemode_cpp, faxcomex/IFaxDevice::ReceiveMode, faxcomex/IFaxDevice::get_ReceiveMode, faxcomex/IFaxDevice::put_ReceiveMode, put_ReceiveMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a> property is a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
 
 This property is read/write.
 
@@ -64,9 +62,9 @@ This property is read/write.
 
 
 
-You can set only one device to receive faxes manually at any given time. If you set a device to answer manually and another device is already set to the manual mode, the device that had been previously set will automatically change to the no-answer mode. You should call the <a href="https://msdn.microsoft.com/9517a067-d29b-4362-a3ca-0658498aba5e">IFaxDevice::Refresh</a> method on that device to see the change.
+You can set only one device to receive faxes manually at any given time. If you set a device to answer manually and another device is already set to the manual mode, the device that had been previously set will automatically change to the no-answer mode. You should call the <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">IFaxDevice::Refresh</a> method on that device to see the change.
 
-Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>HRESULT</b> format.
+Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>HRESULT</b> format.
 
 
 

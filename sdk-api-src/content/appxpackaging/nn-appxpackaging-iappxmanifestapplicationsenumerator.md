@@ -9,8 +9,6 @@ ms.assetid: 49955DE0-A6BE-4FD7-B8E3-E4126B3C4B8F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], IAppxManifestApplicationsEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestApplicationsEnumerator, appxpkg.iappxmanifestapplicationsenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

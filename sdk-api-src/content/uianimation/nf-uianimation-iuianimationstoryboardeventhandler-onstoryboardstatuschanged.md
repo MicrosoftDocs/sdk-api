@@ -9,8 +9,6 @@ ms.assetid: e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

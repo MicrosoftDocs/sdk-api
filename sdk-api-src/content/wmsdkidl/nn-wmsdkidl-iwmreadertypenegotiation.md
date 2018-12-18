@@ -9,8 +9,6 @@ ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMReaderTypeNegotiation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87d16641-3d28-4bad-962b-8ec808cd7877">TryOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743585(v=VS.85).aspx">TryOutputProps</a>
 </td>
 <td align="left" width="63%">
 Determines whether certain changes to the properties of an output are possible.
@@ -93,7 +91,7 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 

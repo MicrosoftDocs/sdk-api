@@ -9,8 +9,6 @@ ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

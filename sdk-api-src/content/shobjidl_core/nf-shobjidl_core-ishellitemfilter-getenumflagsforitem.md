@@ -9,8 +9,6 @@ ms.assetid: a84868ab-25c4-4cb7-84a1-aba0eff09b4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnumFlagsForItem, GetEnumFlagsForItem method [Windows Shell], GetEnumFlagsForItem method [Windows Shell],IShellItemFilter interface, IShellItemFilter interface [Windows Shell],GetEnumFlagsForItem method, IShellItemFilter.GetEnumFlagsForItem, IShellItemFilter::GetEnumFlagsForItem, _shell_IShellItemFilter_GetEnumFlagsForItem, shell.IShellItemFilter_GetEnumFlagsForItem, shobjidl_core/IShellItemFilter::GetEnumFlagsForItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

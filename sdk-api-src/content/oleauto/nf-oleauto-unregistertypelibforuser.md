@@ -9,8 +9,6 @@ ms.assetid: 2d88f97b-b1f6-4682-abf5-304ee752e2ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnRegisterTypeLibForUser, UnRegisterTypeLibForUser function [Automation], _oa96_UnRegisterTypeLibForUser, automat.unregistertypelibforuser, oleauto/UnRegisterTypeLibForUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 498e81fc-90d3-4a24-b672-c7c62b3bfd39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceProtocol method, IAMNetShowExProps.get_SourceProtocol, IAMNetShowExProps::get_SourceProtocol, IAMNetShowExPropsget_SourceProtocol, dshow.iamnetshowexprops_get_sourceprotocol, get_SourceProtocol, get_SourceProtocol method [DirectShow], get_SourceProtocol method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceProtocol
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -122,7 +120,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
  
 
  

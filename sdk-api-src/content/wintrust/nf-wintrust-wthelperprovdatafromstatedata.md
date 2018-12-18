@@ -9,8 +9,6 @@ ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

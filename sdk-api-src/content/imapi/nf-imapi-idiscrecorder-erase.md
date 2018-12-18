@@ -9,8 +9,6 @@ ms.assetid: 61a9cada-a9f4-462d-ab73-a9319308ff01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Erase, Erase method [IMAPI], Erase method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],Erase method, IDiscRecorder.Erase, IDiscRecorder::Erase, _win32_idiscrecorder_erase, base.idiscrecorder_erase, imapi.idiscrecorder_erase, imapi/IDiscRecorder::Erase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

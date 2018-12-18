@@ -9,8 +9,6 @@ ms.assetid: 9511c269-0f88-4fdd-8d4b-c52bace14791
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxStreamSampleSize, GetMaxStreamSampleSize method [windows Media Format], GetMaxStreamSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxStreamSampleSize method, IWMReaderAdvanced.GetMaxStreamSampleSize, IWMReaderAdvanced::GetMaxStreamSampleSize, IWMReaderAdvancedGetMaxStreamSampleSize, wmformat.iwmreaderadvanced_getmaxstreamsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxStreamSampleSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,15 +127,15 @@ No file open for stream sample.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/816f13b1-9856-482d-b5b1-4aaf5c61c230">IWMReaderAdvanced::GetAllocateForStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743471(v=VS.85).aspx">IWMReaderAdvanced::GetAllocateForStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad21ab6e-c7af-4293-8920-05db62b9f7ef">IWMReaderAdvanced::GetMaxOutputSampleSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743473(v=VS.85).aspx">IWMReaderAdvanced::GetMaxOutputSampleSize</a>
  
 
  

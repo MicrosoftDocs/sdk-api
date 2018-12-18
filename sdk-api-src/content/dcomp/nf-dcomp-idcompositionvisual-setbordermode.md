@@ -9,8 +9,6 @@ ms.assetid: 88C77869-B08D-43F6-8A1E-A112743C0404
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetBorderMode method, IDCompositionVisual.SetBorderMode, IDCompositionVisual::SetBorderMode, SetBorderMode, SetBorderMode method [DirectComposition], SetBorderMode method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetBorderMode, directcomp.idcompositionvisual_setbordermode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,11 +82,11 @@ The border mode affects how the edges of a bitmap are composed when the bitmap i
 
 
 
-By default, a visual inherits the border mode of  its parent visual, which may inherit the border mode of its parent visual, and so on. A visual uses the default border mode if this method is never called for the visual, or if this method is called with <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_INHERIT</a>. If no visuals set the border mode, the default for the entire visual tree is aliased rendering, which offers the lowest visual quality but the highest performance.
+By default, a visual inherits the border mode of  its parent visual, which may inherit the border mode of its parent visual, and so on. A visual uses the default border mode if this method is never called for the visual, or if this method is called with <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_INHERIT</a>. If no visuals set the border mode, the default for the entire visual tree is aliased rendering, which offers the lowest visual quality but the highest performance.
 
 
 
-If the <i>borderMode</i> parameter is anything other than <a href="dcomposition_border_mode.htm">DCOMPOSITION_BORDER_MODE_INHERIT</a>, this visual's bitmap and clip are composed with the specified border mode. In addition, this border mode becomes the new default for the children of the current visual. That is, if the border mode of this visual's children is unchanged or explicitly set to <b>DCOMPOSITION_BORDER_MODE_INHERIT</b>, the bitmaps and clips of the child visuals are composed using the border mode of this visual.
+If the <i>borderMode</i> parameter is anything other than <a href="https://msdn.microsoft.com/en-us/library/Hh437365(v=VS.85).aspx">DCOMPOSITION_BORDER_MODE_INHERIT</a>, this visual's bitmap and clip are composed with the specified border mode. In addition, this border mode becomes the new default for the children of the current visual. That is, if the border mode of this visual's children is unchanged or explicitly set to <b>DCOMPOSITION_BORDER_MODE_INHERIT</b>, the bitmaps and clips of the child visuals are composed using the border mode of this visual.
 
 
 
@@ -99,7 +97,7 @@ If the <i>borderMode</i> parameter is anything other than <a href="dcomposition_
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPTranscodePolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b43e247-cbb5-4ef1-8906-5ce7e1e58484">allowTranscode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563752(v=VS.85).aspx">allowTranscode</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value specifying whether Windows Media Player is permitted to change the format of the digital media content to Windows Media Format.

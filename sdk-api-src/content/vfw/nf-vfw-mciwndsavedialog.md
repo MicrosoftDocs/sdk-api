@@ -9,8 +9,6 @@ ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

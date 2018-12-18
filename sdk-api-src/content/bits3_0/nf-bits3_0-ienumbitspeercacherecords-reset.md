@@ -9,8 +9,6 @@ ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -75,7 +73,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964302(v=VS.85).aspx">IEnumBitsPeerCacheRecords</a>
+<a href="https://msdn.microsoft.com/680c1468-d780-44a3-9048-c7c3928234f9">IEnumBitsPeerCacheRecords</a>
  
 
  

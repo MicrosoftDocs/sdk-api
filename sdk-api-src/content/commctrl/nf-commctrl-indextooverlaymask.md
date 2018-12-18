@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INDEXTOOVERLAYMASK, INDEXTOOVERLAYMASK macro [Windows Controls], _win32_INDEXTOOVERLAYMASK, _win32_INDEXTOOVERLAYMASK_cpp, commctrl/INDEXTOOVERLAYMASK, controls.INDEXTOOVERLAYMASK, controls._win32_INDEXTOOVERLAYMASK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Prepares the index of an overlay mask so that the <a href="https://msdn.microsof
 
 ### -param i
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 An index of an overlay mask. 
 

@@ -9,8 +9,6 @@ ms.assetid: 2B282647-8DCC-4624-8D35-0F63E0F93EE0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_TEX2D_ARRAY_DSV, D3D12_TEX2D_ARRAY_DSV structure, d3d12/D3D12_TEX2D_ARRAY_DSV, direct3d12.d3d12_tex2d_array_dsv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

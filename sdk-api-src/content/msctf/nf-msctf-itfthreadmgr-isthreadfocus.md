@@ -9,8 +9,6 @@ ms.assetid: fa753a4d-4f78-45e0-b711-c294adbb307a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfThreadMgr interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr.IsThreadFocus, ITfThreadMgr::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr interface, _tsf_itfthreadmgr_isthreadfocus_ref, msctf/ITfThreadMgr::IsThreadFocus, tsf.itfthreadmgr_isthreadfocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

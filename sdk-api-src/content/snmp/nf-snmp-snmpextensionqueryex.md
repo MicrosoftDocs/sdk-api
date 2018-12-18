@@ -9,8 +9,6 @@ ms.assetid: 2479c6ea-93f8-4b23-a0b7-645bf27f252f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMP_ERRORSTATUS_AUTHORIZATIONERROR, SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_COMMITFAILED, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_INCONSISTENTNAME, SNMP_ERRORSTATUS_INCONSISTENTVALUE, SNMP_ERRORSTATUS_NOACCESS, SNMP_ERRORSTATUS_NOCREATION, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_NOTWRITABLE, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_RESOURCEUNAVAILABLE, SNMP_ERRORSTATUS_TOOBIG, SNMP_ERRORSTATUS_UNDOFAILED, SNMP_ERRORSTATUS_WRONGENCODING, SNMP_ERRORSTATUS_WRONGLENGTH, SNMP_ERRORSTATUS_WRONGTYPE, SNMP_ERRORSTATUS_WRONGVALUE, SNMP_EXTENSION_GET, SNMP_EXTENSION_GET_NEXT, SNMP_EXTENSION_SET_CLEANUP, SNMP_EXTENSION_SET_COMMIT, SNMP_EXTENSION_SET_TEST, SNMP_EXTENSION_SET_UNDO, SnmpExtensionQueryEx, SnmpExtensionQueryEx callback, SnmpExtensionQueryEx callback function [SNMP], _snmp_snmpextensionqueryex, snmp.snmpextensionqueryex, snmp/SnmpExtensionQueryEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -436,7 +434,7 @@ After the UNDO request the service always calls each extension agent with the
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377955(v=VS.85).aspx">AsnOctetString</a>
 
 
 
@@ -452,7 +450,7 @@ After the UNDO request the service always calls each extension agent with the
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
  
 
  

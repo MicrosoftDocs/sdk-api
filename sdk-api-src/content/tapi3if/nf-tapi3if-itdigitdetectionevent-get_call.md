@@ -9,8 +9,6 @@ ms.assetid: 98168b0c-132b-47cf-9d5d-6fba7b570216
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_Call method, ITDigitDetectionEvent.get_Call, ITDigitDetectionEvent::get_Call, _tapi3_itdigitdetectionevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_call, tapi3if/ITDigitDetectionEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

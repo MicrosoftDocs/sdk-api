@@ -9,8 +9,6 @@ ms.assetid: 294a1d28-d09f-44a3-8bc0-6fae50c3a8f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 064e87db-4330-4b8b-9865-ba8b9714f6e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATEnumerateAttr, CryptCATEnumerateAttr function [Security], mscat/CryptCATEnumerateAttr, security.cryptcatenumerateattr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

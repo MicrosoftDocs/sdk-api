@@ -9,8 +9,6 @@ ms.assetid: 1922410a-5871-477f-b778-36b12ad95168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteEngine2EventArgs, IWriteEngine2EventArgs interface [IMAPI], IWriteEngine2EventArgs interface [IMAPI],described, imapi.iwriteengine2eventargs, imapi2/IWriteEngine2EventArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

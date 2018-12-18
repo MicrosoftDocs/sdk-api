@@ -9,8 +9,6 @@ ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

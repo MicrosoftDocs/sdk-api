@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlg method, IWiaDevMgr.SelectDeviceDlg, IWiaDevMgr::SelectDeviceDlg, SelectDeviceDlg, SelectDeviceDlg method [WIA], SelectDeviceDlg method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlg, wia._wia_IWiaDevMgr_SelectDeviceDlg, wia_xp/IWiaDevMgr::SelectDeviceDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -9,8 +9,6 @@ ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_GRADIENT_STOP, D2D1_GRADIENT_STOP structure [Direct2D], d2d1/D2D1_GRADIENT_STOP, direct2d.D2D1_GRADIENT_STOP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 
@@ -67,7 +65,7 @@ A value that indicates the relative position of the gradient stop in the brush. 
 
 ### -field color
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
 
 The color of the gradient stop.
 
@@ -152,7 +150,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
 
 
 
@@ -160,11 +158,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756678(v=VS.85).aspx">How to Create a Linear Gradient Brush</a>
+<a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a>
+<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
 
 
 

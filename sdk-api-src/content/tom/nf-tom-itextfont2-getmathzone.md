@@ -9,8 +9,6 @@ ms.assetid: 4da4d6d1-16e0-4891-9a60-c1330345e45a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMathZone, GetMathZone method [Windows Controls], GetMathZone method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetMathZone method, ITextFont2.GetMathZone, ITextFont2::GetMathZone, controls.itextfont2_getmathzone, tom/ITextFont2::GetMathZone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

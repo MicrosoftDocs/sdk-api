@@ -2,7 +2,7 @@
 UID: NA:synchapi
 ms.assetid: b8e0a318-70da-3cb8-bb0e-6b4772e1055c
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

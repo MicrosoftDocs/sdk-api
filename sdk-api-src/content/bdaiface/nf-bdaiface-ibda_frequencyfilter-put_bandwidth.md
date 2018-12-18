@@ -9,8 +9,6 @@ ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Bandwidth method, IBDA_FrequencyFilter.put_Bandwidth, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

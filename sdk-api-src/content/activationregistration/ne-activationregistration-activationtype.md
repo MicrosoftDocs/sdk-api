@@ -9,8 +9,6 @@ ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

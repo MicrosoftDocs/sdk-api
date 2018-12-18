@@ -9,8 +9,6 @@ ms.assetid: c76723e8-e895-4ba1-9ba1-7e56a44cc5f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleUILinkContainer interface [COM],SetLinkSource method, IOleUILinkContainer::SetLinkSource, IOleUILinkContainerA interface [COM],SetLinkSource method, IOleUILinkContainerA::SetLinkSource, IOleUILinkContainerW interface [COM],SetLinkSource method, IOleUILinkContainerW.SetLinkSource, IOleUILinkContainerW::SetLinkSource, SetLinkSource, SetLinkSource method [COM], SetLinkSource method [COM],IOleUILinkContainer interface, SetLinkSource method [COM],IOleUILinkContainerA interface, SetLinkSource method [COM],IOleUILinkContainerW interface, com.ioleuilinkcontainer_setlinksource, ole_IOleUILinkContainer_SetLinkSource, oledlg/IOleUILinkContainer::SetLinkSource, oledlg/IOleUILinkContainerA::SetLinkSource, oledlg/IOleUILinkContainerW::SetLinkSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

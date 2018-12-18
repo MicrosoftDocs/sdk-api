@@ -9,8 +9,6 @@ ms.assetid: e7009d13-89c2-4fd9-8f6c-dcdc67178598
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSharingManager interface [ICS/ICF],described, _ics_inetsharingmanager, ics.inetsharingmanager, netcon/INetSharingManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 
@@ -54,15 +52,15 @@ req.redist:
     section. Support for this interface was removed in Windows Server 2008.]
 
 The <b>IGetClusterResourceInfo</b> interface is 
-    called by a <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> 
-    extension to retrieve information about a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>.
+    called by a <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> 
+    extension to retrieve information about a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterResourceInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGetClusterResourceInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetClusterResourceInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGetClusterResourceInfo</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +73,7 @@ The <b>IGetClusterResourceInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370231(v=VS.85).aspx">GetResourceHandle</a>
+<a href="https://msdn.microsoft.com/a03436da-e12a-45ac-9ac1-1d1896f87fd7">GetResourceHandle</a>
 </td>
 <td align="left" width="63%">
 Returns a handle to a resource.
@@ -84,20 +82,20 @@ Returns a handle to a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370232(v=VS.85).aspx">GetResourceNetworkName</a>
+<a href="https://msdn.microsoft.com/5c4a16ab-b71c-49f6-95cb-8627eaffb8d6">GetResourceNetworkName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the network managed by the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resource on which a resource depends.
+      <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource on which a resource depends.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa370233(v=VS.85).aspx">GetResourceTypeName</a>
+<a href="https://msdn.microsoft.com/c7154163-0ab9-4766-99be-31457a0efc17">GetResourceTypeName</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource type</a> of a resource.
+Returns the <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> of a resource.
 
 </td>
 </tr>
@@ -116,19 +114,19 @@ If the object being extended is not a resource, queries for
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a>
+<a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa370713(v=VS.85).aspx">IWEExtendContextMenu::AddContextMenuItems</a>
+<a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a>
+<a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a>
+<a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa370746(v=VS.85).aspx">IWEInvokeCommand::InvokeCommand</a>
+<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
 </li>
 </ul>
 Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer, 
@@ -138,7 +136,7 @@ Failover Cluster Administrator passes in an <a href="https://msdn.microsoft.com/
 
 Use the <b>IGetClusterResourceInfo</b> interface only 
      in the context of a resource extension. Do not obtain other information interfaces, such as 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370215(v=VS.85).aspx">IGetClusterGroupInfo</a>, from the 
+     <a href="https://msdn.microsoft.com/335114ff-3db8-4867-b830-6806adef01f8">IGetClusterGroupInfo</a>, from the 
      <b>IGetClusterResourceInfo</b> interface. While 
      <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> will return a valid interface, 
      the operation is not valid in the context of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>, 
@@ -234,27 +232,27 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369074(v=VS.85).aspx">Failover Cluster Administrator Information Interfaces</a>
+<a href="https://msdn.microsoft.com/3cad771e-5640-4024-8552-d83827fb4e8b">Failover Cluster Administrator Information Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370713(v=VS.85).aspx">IWEExtendContextMenu::AddContextMenuItems</a>
+<a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370720(v=VS.85).aspx">IWEExtendPropertySheet::CreatePropertySheetPages</a>
+<a href="https://msdn.microsoft.com/00eca370-a2c6-4f5c-94a9-7d7e4334ccd5">IWEExtendPropertySheet::CreatePropertySheetPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a>
+<a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a>
+<a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370746(v=VS.85).aspx">IWEInvokeCommand::InvokeCommand</a>
+<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
  
 
  

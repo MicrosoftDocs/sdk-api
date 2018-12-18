@@ -9,8 +9,6 @@ ms.assetid: 9ba93496-d32f-44f1-83d8-1cfb61b689e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetNextTable method, IDVB_BAT.GetNextTable, IDVB_BAT::GetNextTable, IDVB_BATGetNextTable, dvbsiparser/IDVB_BAT::GetNextTable, mstv.idvb_bat_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

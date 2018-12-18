@@ -9,8 +9,6 @@ ms.assetid: 085f40ac-d91f-4853-8ad1-1fc5da08b981
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: cdd11f60-e042-4aad-a867-d1e12a88ebfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BackgroundPalette method, IVideoWindow.get_BackgroundPalette, IVideoWindow::get_BackgroundPalette, IVideoWindowget_BackgroundPalette, control/IVideoWindow::get_BackgroundPalette, dshow.ivideowindow_get_backgroundpalette, get_BackgroundPalette, get_BackgroundPalette method [DirectShow], get_BackgroundPalette method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -142,7 +140,7 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

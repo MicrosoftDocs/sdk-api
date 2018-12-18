@@ -9,8 +9,6 @@ ms.assetid: 58eaa4b2-65d3-44b1-8e3d-1aac01057d0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRecord, AddRecord method [windows Media Format], AddRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddRecord method, IWMMutualExclusion2.AddRecord, IWMMutualExclusion2::AddRecord, IWMMutualExclusion2AddRecord, wmformat.iwmmutualexclusion2_addrecord, wmsdkidl/IWMMutualExclusion2::AddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>AddRecord</b> method adds a record to the mutual exclusion object. Records can hold groups of streams. You can add streams with calls to <a href="https://msdn.microsoft.com/501fae9f-84b3-4025-83bc-ad0bbe47384d">IWMMutualExclusion2::AddStreamForRecord</a>. You can assign a name to a record with a call to <a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a>.
+The <b>AddRecord</b> method adds a record to the mutual exclusion object. Records can hold groups of streams. You can add streams with calls to <a href="https://msdn.microsoft.com/en-us/library/Dd757241(v=VS.85).aspx">IWMMutualExclusion2::AddStreamForRecord</a>. You can assign a name to a record with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a>.
 
 
 
@@ -130,19 +128,19 @@ Record numbers, which are used by other methods, are assigned to records sequent
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/501fae9f-84b3-4025-83bc-ad0bbe47384d">IWMMutualExclusion2::AddStreamForRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757241(v=VS.85).aspx">IWMMutualExclusion2::AddStreamForRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/74e2825e-2200-4750-bb16-f8cf9f80ab7e">IWMMutualExclusion2::RemoveRecord</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757246(v=VS.85).aspx">IWMMutualExclusion2::RemoveRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a>
  
 
  

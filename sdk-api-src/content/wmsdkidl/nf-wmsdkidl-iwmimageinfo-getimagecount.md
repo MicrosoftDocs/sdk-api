@@ -9,8 +9,6 @@ ms.assetid: 95cf5906-9cbc-4bba-8892-236672cf4068
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetImageCount, GetImageCount method [windows Media Format], GetImageCount method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImageCount method, IWMImageInfo.GetImageCount, IWMImageInfo::GetImageCount, IWMImageInfoGetImageCount, wmformat.iwmimageinfo_getimagecount, wmsdkidl/IWMImageInfo::GetImageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -124,11 +122,11 @@ One of the ID3 frames that should be in the file cannot be accessed.
 
 
 
-<a href="https://msdn.microsoft.com/1b3b4224-f86d-437c-969e-fe30e6d002a8">IWMImageInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798528(v=VS.85).aspx">IWMImageInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe1dcd53-fcdd-4190-9a07-65d0b34112d0">IWMImageInfo::GetImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798529(v=VS.85).aspx">IWMImageInfo::GetImage</a>
  
 
  

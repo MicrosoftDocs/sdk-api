@@ -9,8 +9,6 @@ ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlphaTextureBounds, GetAlphaTextureBounds method [Direct Write], GetAlphaTextureBounds method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaTextureBounds method, IDWriteGlyphRunAnalysis.GetAlphaTextureBounds, IDWriteGlyphRunAnalysis::GetAlphaTextureBounds, directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds, dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c5267aea-19b7-4e4a-a443-24674a6ae608
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: KFDF_LOCAL_REDIRECT_ONLY, KFDF_NO_REDIRECT_UI, KFDF_PRECREATE, KFDF_PUBLISHEXPANDEDPATH, KFDF_ROAMABLE, KFDF_STREAM, KF_DEFINITION_FLAGS, KF_DEFINITION_FLAGS enumeration [Windows Shell], _KF_DEFINITION_FLAGS, _shell_KF_DEFINITION_FLAGS, shell.KF_DEFINITION_FLAGS, shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY, shobjidl_core/KFDF_NO_REDIRECT_UI, shobjidl_core/KFDF_PRECREATE, shobjidl_core/KFDF_PUBLISHEXPANDEDPATH, shobjidl_core/KFDF_ROAMABLE, shobjidl_core/KFDF_STREAM, shobjidl_core/KF_DEFINITION_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
@@ -70,7 +68,7 @@ Can be roamed through a PC-to-PC synchronization.
 
 ### -field KFDF_PRECREATE
 
-Create the folder when the user first logs on. Normally a known folder is not created until it is first called. At that time, an API such as <a href="https://msdn.microsoft.com/dc75ee60-7319-4a11-949e-dd0c3deabd8f">SHCreateItemInKnownFolder</a> or <a href="https://msdn.microsoft.com/a42c0a20-9c72-48d3-8432-15b73ff211d2">IKnownFolder::GetShellItem</a> is called with the <a href="https://msdn.microsoft.com/7f99fb6c-32f2-4fd8-ad11-3ad84d17c5c1">KF_FLAG_CREATE</a> flag. However, some known folders need to exist immediately. An example is those known folders under %USERPROFILE%, which must exist to provide a proper view. In those cases, KFDF_PRECREATE is set and Windows Explorer calls the creation API during its user initialization.
+Create the folder when the user first logs on. Normally a known folder is not created until it is first called. At that time, an API such as <a href="https://msdn.microsoft.com/dc75ee60-7319-4a11-949e-dd0c3deabd8f">SHCreateItemInKnownFolder</a> or <a href="https://msdn.microsoft.com/a42c0a20-9c72-48d3-8432-15b73ff211d2">IKnownFolder::GetShellItem</a> is called with the <a href="https://msdn.microsoft.com/en-us/library/Dd378447(v=VS.85).aspx">KF_FLAG_CREATE</a> flag. However, some known folders need to exist immediately. An example is those known folders under %USERPROFILE%, which must exist to provide a proper view. In those cases, KFDF_PRECREATE is set and Windows Explorer calls the creation API during its user initialization.
 
 
 ### -field KFDF_STREAM

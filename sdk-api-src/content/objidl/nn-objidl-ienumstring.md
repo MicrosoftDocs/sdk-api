@@ -9,8 +9,6 @@ ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

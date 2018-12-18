@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingqueue
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetJob, GetJob method [Fax Service], GetJob method [Fax Service],IFaxAccountIncomingQueue interface, IFaxAccountIncomingQueue interface [Fax Service],GetJob method, IFaxAccountIncomingQueue.GetJob, IFaxAccountIncomingQueue::GetJob, _mfax_faxaccountincomingqueue.getjob, fax._mfax_faxaccountincomingqueue_cpp_mfax_faxaccountincomingqueue_getjob_cpp, fax._mfax_faxaccountincomingqueue_getjob, faxcomex/IFaxAccountIncomingQueue::GetJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,9 +66,9 @@ Specifies the job ID.
 
 ### -param pFaxIncomingJob [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>**</b>
 
-A <a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a> object.
+A <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object.
 
 
 ## -returns
@@ -88,9 +86,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2SUBMIT_LOW</a> access rights.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2SUBMIT_LOW</a> access rights.
 
-If the setting "All incoming faxes are viewable by everyone" is true (see <a href="https://msdn.microsoft.com/f40268ab-6df0-4c4f-9c73-c3129be589cc">IncomingFaxesArePublic</a>) or if the current user has <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2MANAGE_RECEIVE_FOLDER</a> access rights, then the set returned includes all the messages present in the fax server incoming queue.  
+If the setting "All incoming faxes are viewable by everyone" is true (see <a href="https://msdn.microsoft.com/en-us/library/Aa358923(v=VS.85).aspx">IncomingFaxesArePublic</a>) or if the current user has <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2MANAGE_RECEIVE_FOLDER</a> access rights, then the set returned includes all the messages present in the fax server incoming queue.  
 
 
 
@@ -100,11 +98,11 @@ If the setting "All incoming faxes are viewable by everyone" is true (see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/dd0ba850-d2d0-4ba3-a36c-a0947ab44c28">FaxAccountIncomingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358954(v=VS.85).aspx">FaxAccountIncomingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c21ddda-2525-4279-ade9-c8e389b79e76">IFaxAccountIncomingQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359043(v=VS.85).aspx">IFaxAccountIncomingQueue</a>
  
 
  

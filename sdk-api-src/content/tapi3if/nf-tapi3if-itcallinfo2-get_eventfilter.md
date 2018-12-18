@@ -9,8 +9,6 @@ ms.assetid: 21f4f7ae-2bba-424b-889f-4b43e9416b33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallInfo2 interface [TAPI 2.2],get_EventFilter method, ITCallInfo2.get_EventFilter, ITCallInfo2::get_EventFilter, _tapi3_itcallinfo2_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITCallInfo2 interface, tapi3.itcallinfo2_get_eventfilter, tapi3if/ITCallInfo2::get_EventFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 5935BE0D-0E5A-46A8-944C-096746C5FCA3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetURL method, IMFMediaEngineSrcElements.GetURL, IMFMediaEngineSrcElements::GetURL, mf.imfmediaenginesrcelements_geturl, mfmediaengine/IMFMediaEngineSrcElements::GetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

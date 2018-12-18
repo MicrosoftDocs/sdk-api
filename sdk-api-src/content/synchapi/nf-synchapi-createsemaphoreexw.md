@@ -9,8 +9,6 @@ ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSemaphoreExA, CreateSemaphoreExW, CreateSemaphoreExW function, base.createsemaphoreex, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -148,7 +146,7 @@ Multiple processes can have handles of the same semaphore object, enabling use o
 <li>A process can specify the semaphore-object handle in a call to the 
 <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function to create a duplicate handle that can be used by another process.</li>
 <li>A process can specify the name of a semaphore object in a call to the 
-<a href="https://msdn.microsoft.com/2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f">OpenSemaphore</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms684326(v=VS.85).aspx">OpenSemaphore</a> or 
 <b>CreateSemaphoreEx</b> function.</li>
 </ul>
 Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The semaphore object is destroyed when its last handle has been closed.

@@ -9,8 +9,6 @@ ms.assetid: 8c3f807b-3e31-4ce6-8549-74ab06cbba7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDialA, RasCustomDialFn, RasCustomDialFn callback, RasCustomDialW, _ras_rascustomdial, ras/RasCustomDial, ras/RasCustomDialA, ras/RasCustomDialW, rras.rascustomdial
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

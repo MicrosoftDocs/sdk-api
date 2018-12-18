@@ -9,8 +9,6 @@ ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTemporaryStoreLocation, GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTemporaryStoreLocation method, ITargetInfo.GetTemporaryStoreLocation, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

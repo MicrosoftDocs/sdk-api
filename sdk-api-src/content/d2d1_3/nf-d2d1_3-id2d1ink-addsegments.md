@@ -9,8 +9,6 @@ ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddSegments, AddSegments method [Direct2D], AddSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],AddSegments method, ID2D1Ink.AddSegments, ID2D1Ink::AddSegments, d2d1_3/ID2D1Ink::AddSegments, direct2d.id2d1ink_addsegments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ The number of segments to be added to this ink object.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

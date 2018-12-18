@@ -9,8 +9,6 @@ ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

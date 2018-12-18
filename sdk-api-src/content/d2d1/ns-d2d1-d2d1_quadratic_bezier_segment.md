@@ -9,8 +9,6 @@ ms.assetid: 5060cb17-b6f4-4796-b91d-602fd81591c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_QUADRATIC_BEZIER_SEGMENT, D2D1_QUADRATIC_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_QUADRATIC_BEZIER_SEGMENT, direct2d.D2D1_QUADRATIC_BEZIER_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 
@@ -60,14 +58,14 @@ Contains the control point and end point for a quadratic Bezier segment.
 
 ### -field point1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The control point of the quadratic Bezier segment.
 
 
 ### -field point2
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The end point of the quadratic Bezier segment.
 

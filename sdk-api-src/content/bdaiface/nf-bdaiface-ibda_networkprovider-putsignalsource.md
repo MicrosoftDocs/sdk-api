@@ -9,8 +9,6 @@ ms.assetid: e461ff83-c3fc-43f2-934b-3f4c3afd0061
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutSignalSource method, IBDA_NetworkProvider.PutSignalSource, IBDA_NetworkProvider::PutSignalSource, IBDA_NetworkProviderPutSignalSource, PutSignalSource, PutSignalSource method [Microsoft TV Technologies], PutSignalSource method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutSignalSource, mstv.ibda_networkprovider_putsignalsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

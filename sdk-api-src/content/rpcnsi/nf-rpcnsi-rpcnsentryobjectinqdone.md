@@ -9,8 +9,6 @@ ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

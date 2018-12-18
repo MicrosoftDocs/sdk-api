@@ -9,8 +9,6 @@ ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetOutputFormat method, IAMWstDecoder.SetOutputFormat, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -115,7 +113,7 @@ Downstream filters have already defined an output format.
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

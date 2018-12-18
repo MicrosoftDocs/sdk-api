@@ -9,8 +9,6 @@ ms.assetid: 3793cb79-37b9-4d94-9932-9eb3b259b60e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetServiceHostProperty, WsGetServiceHostProperty function [Web Services for Windows], webservices/WsGetServiceHostProperty, wsw.wsgetservicehostproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves a specified Service Host property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/305fe7ad-e4a2-499a-b34b-e5b7cde53e22">WS_SERVICE_PROPERTY_ID</a> input parameter.
+Retrieves a specified Service Host property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd323431(v=VS.85).aspx">WS_SERVICE_PROPERTY_ID</a> input parameter.
             
 
 

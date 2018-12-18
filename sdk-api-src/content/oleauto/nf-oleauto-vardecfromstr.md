@@ -9,8 +9,6 @@ ms.assetid: 6e036c9c-3b5d-4b5c-9992-526380bb544d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDecFromStr, VarDecFromStr function [Automation], _oa96_VarDecFromStr, automat.vardecfromstr, oleauto/VarDecFromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetName method, IWMMutualExclusion2.GetName, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/b288c28c-04bd-49a4-bf11-21d4968772d4">IWMMutualExclusion2::SetName</a> method.
+The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a> method.
 
 
 
@@ -129,7 +127,7 @@ If you pass an address as <i>pwszName</i>, and the length you specified in <i>pc
 
 
 
-<a href="https://msdn.microsoft.com/4a1f468c-2ba5-48a1-b56f-8b62aacf1ccf">IWMMutualExclusion2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
  
 
  

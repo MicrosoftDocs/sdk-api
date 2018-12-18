@@ -9,8 +9,6 @@ ms.assetid: d01cb679-03e2-4b76-b068-f64e576709fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaEvents interface [Files],OnUserNameChanged method, IDiskQuotaEvents.OnUserNameChanged, IDiskQuotaEvents::OnUserNameChanged, OnUserNameChanged, OnUserNameChanged method [Files], OnUserNameChanged method [Files],IDiskQuotaEvents interface, _win32_idiskquotaevents_onusernamechanged, base.idiskquotaevents_onusernamechanged, dskquota/IDiskQuotaEvents::OnUserNameChanged, fs.idiskquotaevents_onusernamechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
@@ -62,7 +60,7 @@ Notifies the client's connection sink whenever a user's SID has been asynchronou
 ### -param pUser [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="_com_iunknown_release">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
+<a href="https://msdn.microsoft.com/27edbebc-35b4-4f6a-87cc-d8a99782f405">IDiskQuotaUser</a> interface for the quota user object. Do not  call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on this pointer. The <b>DiskQuotaControl</b> object controls the lifetime of the user object.
 
 
 ## -returns

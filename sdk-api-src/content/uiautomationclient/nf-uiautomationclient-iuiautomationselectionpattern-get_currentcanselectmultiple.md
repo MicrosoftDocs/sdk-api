@@ -9,8 +9,6 @@ ms.assetid: 71a0f6aa-7605-47b3-98ce-3d413f1efa66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentCanSelectMultiple property [Windows Accessibility], CurrentCanSelectMultiple property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentCanSelectMultiple property, IUIAutomationSelectionPattern.CurrentCanSelectMultiple, IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple, IUIAutomationSelectionPattern::CurrentCanSelectMultiple, IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, get_CurrentCanSelectMultiple, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::CurrentCanSelectMultiple, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple, winauto.uiauto_IUIAutomationSelectionPattern_CurrentCanSelectMultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

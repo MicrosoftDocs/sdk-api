@@ -9,8 +9,6 @@ ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileTime method, IDWriteFontFaceReference.GetFileTime, IDWriteFontFaceReference::GetFileTime, directwrite.idwritefontfacereference_getfiletime, dwrite_3/IDWriteFontFaceReference::GetFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/04242508-7439-43B6-B3E7-07617B782038">IDWriteFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894576(v=VS.85).aspx">IDWriteFontFaceReference</a>
  
 
  

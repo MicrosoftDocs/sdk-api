@@ -9,8 +9,6 @@ ms.assetid: 7db9971e-3b53-458e-81ff-94f355c49973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

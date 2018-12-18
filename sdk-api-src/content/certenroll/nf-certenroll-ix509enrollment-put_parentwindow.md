@@ -9,8 +9,6 @@ ms.assetid: 154a73ae-e007-437b-87c3-33c2abb27aa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],ParentWindow property, IX509Enrollment.ParentWindow, IX509Enrollment.put_ParentWindow, IX509Enrollment::ParentWindow, IX509Enrollment::get_ParentWindow, IX509Enrollment::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::ParentWindow, certenroll/IX509Enrollment::get_ParentWindow, certenroll/IX509Enrollment::put_ParentWindow, put_ParentWindow, security.ix509enrollment_parentwindow_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -74,7 +72,7 @@ You can call this property before initializing the enrollment object. If you do 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

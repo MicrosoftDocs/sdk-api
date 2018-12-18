@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_showscrollbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlatSB_ShowScrollBar, FlatSB_ShowScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_ShowScrollBar, _win32_FlatSB_ShowScrollBar_cpp, commctrl/FlatSB_ShowScrollBar, controls.FlatSB_ShowScrollBar, controls._win32_FlatSB_ShowScrollBar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

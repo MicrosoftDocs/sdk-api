@@ -9,8 +9,6 @@ ms.assetid: C4A5E4E0-56CC-46E3-87C5-CA99EF512B11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorExpE, XMVectorExpE, XMVectorExpE method [DirectX Math Support APIs], dxmath.xmvectorexpe
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -82,7 +80,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 <b>XMVectorExpE</b> is new for DirectXMath version 3.05. 
 
-It's similar to the existing <a href="https://msdn.microsoft.com/c9d97292-49ee-4c55-92b4-bcc851cfd23b">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
+It's similar to the existing <a href="https://msdn.microsoft.com/en-us/library/Ee421017(v=VS.85).aspx">XMVectorExp</a> function for Windows 8, but computes base e instead of base 2.
 
 
 <b>XMVectorExpE</b> is implemented like this:

@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_stop.htm
 tech.root: pla
 ms.assetid: b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],Stop method, IDataCollectorSet.Stop, IDataCollectorSet::Stop, Stop, Stop method [PLA], Stop method [PLA],IDataCollectorSet interface, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

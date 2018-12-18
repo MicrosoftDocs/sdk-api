@@ -9,8 +9,6 @@ ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

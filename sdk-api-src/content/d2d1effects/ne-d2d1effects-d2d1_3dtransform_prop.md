@@ -9,8 +9,6 @@ ms.assetid: 56004ED1-66E2-44ED-B274-E7FF8C641954
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_3DTRANSFORM_PROP, D2D1_3DTRANSFORM_PROP enumeration [Direct2D], D2D1_3DTRANSFORM_PROP_BORDER_MODE, D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, d2d1effects/D2D1_3DTRANSFORM_PROP, d2d1effects/D2D1_3DTRANSFORM_PROP_BORDER_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_3DTRANSFORM_PROP_TRANSFORM_MATRIX, direct2d.d2d1_3dtransform_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn441538(v=VS.85).aspx">3D transform effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/BC2F2837-40F0-4293-A190-8B5F81BB01B6">3D transform effect</a>.
         
 
 

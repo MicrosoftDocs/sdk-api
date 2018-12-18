@@ -9,8 +9,6 @@ ms.assetid: 997D8F04-8667-4D90-B097-CD48F979BE02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocalityFromKey, GetLocalityFromKey method [Direct Write], GetLocalityFromKey method [Direct Write],IDWriteRemoteFontFileLoader interface, IDWriteRemoteFontFileLoader interface [Direct Write],GetLocalityFromKey method, IDWriteRemoteFontFileLoader.GetLocalityFromKey, IDWriteRemoteFontFileLoader::GetLocalityFromKey, directwrite.idwriteremotefontfileloader_getlocalityfromkey, dwrite_3/IDWriteRemoteFontFileLoader::GetLocalityFromKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -75,7 +73,7 @@ Size of font file reference key in bytes.
 
 ### -param locality [out]
 
-Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890740(v=VS.85).aspx">DWRITE_LOCALITY</a>*</b>
 
 Locality of the file.
 
@@ -84,7 +82,7 @@ Locality of the file.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -96,7 +94,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/16CFF7ED-642A-48D8-8C72-3EC68B702E50">IDWriteRemoteFontFileLoader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>
  
 
  

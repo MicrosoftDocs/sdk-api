@@ -9,8 +9,6 @@ ms.assetid: cb770e91-0d85-4f67-b7a1-8cc6e89620eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPrivateConnections method, INetSharingManager.get_EnumPrivateConnections, INetSharingManager::get_EnumPrivateConnections, _ics_inetsharingmanager_get_enumprivateconnections, get_EnumPrivateConnections, get_EnumPrivateConnections method [ICS/ICF], get_EnumPrivateConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumprivateconnections, netcon/INetSharingManager::get_EnumPrivateConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -85,7 +83,7 @@ Reserved.
 
 ### -param ppAMMediaTypeSample [in]
 
-Address of an <a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
+Address of an <a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
 
 
 ## -returns
@@ -152,7 +150,7 @@ If <i>pUnkOuter</i> is non-<b>NULL</b>, the new stream sample is aggregated into
 
 
 
-<a href="https://msdn.microsoft.com/6ca1bad2-625b-4415-8311-acd5443452c1">IAMMediaTypeStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
  
 
  

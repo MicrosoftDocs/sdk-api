@@ -9,8 +9,6 @@ ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IGPMClientSideExtension interface [GPMC],described, _win32_igpmclientsideextension, gpmc.igpmclientsideextension, gpmgmt/IGPMClientSideExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

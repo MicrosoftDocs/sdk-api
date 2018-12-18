@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4LengthSq(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4LengthSq, XMVector4LengthSq, XMVector4LengthSq method [DirectX Math Support APIs], dxmath.xmvector4lengthsq
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -91,11 +89,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/99040ded-81cd-48a0-91b9-7c9fb0b672b4">XMVector4Length</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420970(v=VS.85).aspx">XMVector4Length</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8751b06-e99a-454c-8132-c93ad5685891">XMVector4LengthEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420971(v=VS.85).aspx">XMVector4LengthEst</a>
  
 
  

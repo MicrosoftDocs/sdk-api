@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\v
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h

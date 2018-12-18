@@ -1,5 +1,5 @@
 ---
-UID: NS:dsquery.DSQUERYCLASSLIST
+UID: NS:dsquery.__unnamed_struct_3
 title: DSQUERYCLASSLIST
 author: windows-sdk-content
 description: The DSQUERYCLASSLIST structure describes a list of classes against which a directory service query is made.
@@ -7,10 +7,8 @@ old-location: ad\dsqueryclasslist.htm
 tech.root: ad
 ms.assetid: 96cc527f-490f-4701-b000-6a42db8715fc
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDSQUERYCLASSLIST, DSQUERYCLASSLIST, DSQUERYCLASSLIST structure [Active Directory], LPDSQUERYCLASSLIST, LPDSQUERYCLASSLIST structure pointer [Active Directory], _glines_dsqueryclasslist, ad.dsqueryclasslist, dsquery/DSQUERYCLASSLIST, dsquery/LPDSQUERYCLASSLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsquery.h
 req.include-header: 

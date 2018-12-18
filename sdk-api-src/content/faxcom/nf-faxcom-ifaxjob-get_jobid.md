@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0xwk.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxJob interface [Fax Service],JobId property, IFaxJob.JobId, IFaxJob.get_JobId, IFaxJob::JobId, IFaxJob::get_JobId, JobId property [Fax Service], JobId property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_get_jobid, fax._mfax_ifaxjob_mfax_ifaxjob_get_jobid_cpp, faxcom/IFaxJob::JobId, faxcom/IFaxJob::get_JobId, get_JobId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/45ba0af1-25cc-4020-ae5c-355e318a63bf">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
+You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">IFaxJob::get_DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
 
 
 
@@ -85,7 +83,7 @@ You can use the <b>IFaxJob::get_JobId</b> property to uniquely identify a fax jo
 
 
 
-<a href="https://msdn.microsoft.com/45ba0af1-25cc-4020-ae5c-355e318a63bf">IFaxJob::get_DisplayName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">IFaxJob::get_DisplayName</a>
 
 
 

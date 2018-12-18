@@ -9,8 +9,6 @@ ms.assetid: 6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IReconcilableObject interface [Legacy Windows Environment Features],Reconcile method, IReconcilableObject.Reconcile, IReconcilableObject::Reconcile, RECONCILEF_FEEDBACKWINDOWVALID, RECONCILEF_MAYBOTHERUSER, RECONCILEF_NORESIDUESOK, RECONCILEF_OMITSELFRESIDUE, RECONCILEF_ONLYYOUWERECHANGED, RECONCILEF_RESUMEDRECONCILIATION, RECONCILEF_YOUMAYDOTHEUPDATES, Reconcile, Reconcile method [Legacy Windows Environment Features], Reconcile method [Legacy Windows Environment Features],IReconcilableObject interface, _win32_IReconcilableObject_Reconcile, lwef.ireconcilableobject_reconcile, reconcil/IReconcilableObject::Reconcile, shell.ireconcilableobject_reconcile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: reconcil.h
 req.include-header: 
@@ -152,7 +150,7 @@ The number of versions or partial residues specified in
 
 ### -param rgpmkOtherInput
 
-Type: <b><a href="_com_imoniker">IMoniker</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms679705(v=VS.85).aspx">IMoniker</a>**</b>
 
 The address of an array that contains the addresses of the monikers to use to access the versions or partial residues to be reconciled. 
 
@@ -166,7 +164,7 @@ The address of the variable that receives an index value indicating whether the 
 
 ### -param pstgNewResidues
 
-Type: <b><a href="_stg_IStorage">IStorage</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380015(v=VS.85).aspx">IStorage</a>*</b>
 
 The address of the 
 					<b>IStorage</b> interface used to store the new residues. This parameter can be <b>NULL</b> to indicate that residues should not be saved. 

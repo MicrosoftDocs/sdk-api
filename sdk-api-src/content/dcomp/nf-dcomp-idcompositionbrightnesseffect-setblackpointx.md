@@ -9,8 +9,6 @@ ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetBlackPointX method, IDCompositionBrightnessEffect.SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX, IDCompositionBrightnessEffect::SetBlackPointX(float), SetBlackPointX, SetBlackPointX method [DirectComposition], SetBlackPointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -69,7 +67,7 @@ The x value of the black point.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/22503D7B-A359-4877-A437-6A97D8835BC7">IDCompositionBrightnessEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn919711(v=VS.85).aspx">IDCompositionBrightnessEffect</a>
  
 
  

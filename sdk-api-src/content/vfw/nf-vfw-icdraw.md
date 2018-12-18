@@ -9,8 +9,6 @@ ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -121,7 +119,7 @@ Size of the input data, in bytes.
 
 ### -param lTime
 
-Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/1ec2309c-7ea8-423e-aee3-5e0c650f0b3d">ICDRAWBEGIN</a> structure.
+Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Dd743013(v=VS.85).aspx">ICDRAWBEGIN</a> structure.
           
 
 

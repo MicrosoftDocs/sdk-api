@@ -9,8 +9,6 @@ ms.assetid: a551794a-6051-4c8e-9d44-5938974a6df4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_LDT.GetRecordDescriptorByIndex, IISDB_LDT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_LDT::GetRecordDescriptorByIndex, mstv.iisdb_ldt_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
@@ -77,7 +75,7 @@ to get the number of descriptors for a particular record.
 
 ### -param ppDescriptor [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>interface for the object that contains the LDT. Use this interface to retrieve the information in the descriptor. 
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>interface for the object that contains the LDT. Use this interface to retrieve the information in the descriptor. 
 The caller must release the interface.
 
 
@@ -95,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],NextMethod method, IWbemClassObject.NextMethod, IWbemClassObject::NextMethod, NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -9,8 +9,6 @@ ms.assetid: c6e41658-8d91-4c15-8a5f-a9f43490890a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],RetrieveClients method, IWdsTransportSession.RetrieveClients, IWdsTransportSession::RetrieveClients, RetrieveClients, RetrieveClients method [Windows Deployment Services], RetrieveClients method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_retrieveclients, wdstptmgmt/IWdsTransportSession::RetrieveClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

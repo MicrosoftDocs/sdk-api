@@ -9,8 +9,6 @@ ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

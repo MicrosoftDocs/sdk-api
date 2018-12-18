@@ -9,8 +9,6 @@ ms.assetid: 0211dd53-39b7-49fb-8acd-e4d02a226904
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GeneralCA, GeneralCrossCA, GeneralDefault, GeneralDonotPersist, GeneralMachineType, GeneralModified, X509CertificateTemplateGeneralFlag, X509CertificateTemplateGeneralFlag enumeration [Security], certenroll/GeneralCA, certenroll/GeneralCrossCA, certenroll/GeneralDefault, certenroll/GeneralDonotPersist, certenroll/GeneralMachineType, certenroll/GeneralModified, certenroll/X509CertificateTemplateGeneralFlag, security.x509certificatetemplategeneralflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0a8743da-ef4a-4b00-b9be-5550896d147a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: snmp.h
 req.include-header: 
@@ -65,7 +63,7 @@ The
 ### -param pAnyDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> structure to receive the copy.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a> structure to receive the copy.
 
 
 ### -param pAnySrc [in]
@@ -101,7 +99,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a>
 
 
 

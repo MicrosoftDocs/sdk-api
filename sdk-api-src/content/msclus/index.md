@@ -2,7 +2,7 @@
 UID: NA:msclus
 ms.assetid: 71c6d7e5-b3c1-3f09-bdc5-f9e9421816be
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

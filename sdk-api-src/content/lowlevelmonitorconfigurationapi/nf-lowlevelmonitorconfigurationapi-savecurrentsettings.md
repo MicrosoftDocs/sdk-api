@@ -9,8 +9,6 @@ ms.assetid: e5903e52-d04c-4ac3-9566-eb4f2559464b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SaveCurrentSettings, SaveCurrentSettings function [Monitor Configuration], lowlevelmonitorconfigurationapi/SaveCurrentSettings, monitor.savecurrentsettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

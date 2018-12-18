@@ -9,8 +9,6 @@ ms.assetid: 93a81b65-4b63-45c9-b065-f4aa5cf2e4ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Zoom method, ICameraControl.getRange_Zoom, ICameraControl::getRange_Zoom, ICameraControlgetRange_Zoom, dshow.icameracontrol_getrange_zoom, getRange_Zoom, getRange_Zoom method [DirectShow], getRange_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Zoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -81,7 +79,7 @@ Receives the default zoom.
 
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -97,7 +95,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For information about calculating magnification from zoom level, see <a href="https://msdn.microsoft.com/de566705-1f4b-4ffa-932d-a52521e6963b">ICameraControl::get_FocalLengths</a>.
+For information about calculating magnification from zoom level, see <a href="https://msdn.microsoft.com/en-us/library/Dd376315(v=VS.85).aspx">ICameraControl::get_FocalLengths</a>.
 
 
 
@@ -111,7 +109,7 @@ For information about calculating magnification from zoom level, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

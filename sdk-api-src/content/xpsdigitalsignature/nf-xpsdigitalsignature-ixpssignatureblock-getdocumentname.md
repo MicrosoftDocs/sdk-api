@@ -9,8 +9,6 @@ ms.assetid: f93e94ff-c56f-4b3c-8af8-983253bd5657
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocumentName, GetDocumentName method [XPS Documents and Packaging], GetDocumentName method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentName method, IXpsSignatureBlock.GetDocumentName, IXpsSignatureBlock::GetDocumentName, xps.ixpssignatureblock_getdocumentname, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

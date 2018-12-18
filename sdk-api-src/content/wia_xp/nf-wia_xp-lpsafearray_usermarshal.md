@@ -9,8 +9,6 @@ ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h

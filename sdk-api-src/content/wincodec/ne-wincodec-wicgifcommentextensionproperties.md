@@ -9,8 +9,6 @@ ms.assetid: 900f1c1e-e8d2-4cee-acba-c9c2a45e9bcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICGifCommentExtensionProperties, WICGifCommentExtensionProperties enumeration [Windows Imaging Component], WICGifCommentExtensionText, _wic_codec_wicgifcommentextensionproperties, wic._wic_codec_wicgifcommentextensionproperties, wincodec/WICGifCommentExtensionProperties, wincodec/WICGifCommentExtensionText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Controls], Clone method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Clone method, IImageList.Clone, IImageList::Clone, comctl_IImageList_Clone, comctl_IImageList_Clone_cpp, commoncontrols/IImageList::Clone, controls.IImageList_Clone, controls.comctl_IImageList_Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

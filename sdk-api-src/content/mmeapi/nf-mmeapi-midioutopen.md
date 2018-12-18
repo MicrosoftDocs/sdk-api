@@ -9,8 +9,6 @@ ms.assetid: 929cd4d1-6912-4456-a6c7-24a819799e46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutOpen, midiOutOpen, midiOutOpen function [Windows Multimedia], mmeapi/midiOutOpen, multimedia.midioutopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

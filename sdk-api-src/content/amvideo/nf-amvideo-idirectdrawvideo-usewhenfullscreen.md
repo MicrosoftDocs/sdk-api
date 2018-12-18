@@ -9,8 +9,6 @@ ms.assetid: e50f7f06-6534-4373-a2b8-fa315158729d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],UseWhenFullScreen method, IDirectDrawVideo.UseWhenFullScreen, IDirectDrawVideo::UseWhenFullScreen, IDirectDrawVideoUseWhenFullScreen, UseWhenFullScreen, UseWhenFullScreen method [DirectShow], UseWhenFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::UseWhenFullScreen, dshow.idirectdrawvideo_usewhenfullscreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -84,7 +82,7 @@ When asked to go to full-screen mode, DirectShow has a number of choices. The fi
 
 The second choice is to automatically add a special full-screen renderer to the filter graph that uses DirectDraw mode-changing services to play back the video. By changing display modes, the video effectively fills more (but not necessarily all) of the display. So, for example, if the current mode is 1024 x 768 pixels, a video might look relatively small, but when displayed in a 320 x 240 display mode it might look very presentable.
 
-The third and final choice is to simply take any renderer supporting the <a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow</a> interface and have its window stretched full-screen. This will typically offer lower performance than the second option (swapping in a full-screen DirectDraw-enabled renderer). If the <i>UseWhenFullScreen</i> parameter is set to On (OATRUE), the window will always be stretched full-screen for full-screen playback; if set to Off (the default), the filter graph manager is free to swap in the DirectDraw-enabled full-screen renderer.
+The third and final choice is to simply take any renderer supporting the <a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow</a> interface and have its window stretched full-screen. This will typically offer lower performance than the second option (swapping in a full-screen DirectDraw-enabled renderer). If the <i>UseWhenFullScreen</i> parameter is set to On (OATRUE), the window will always be stretched full-screen for full-screen playback; if set to Off (the default), the filter graph manager is free to swap in the DirectDraw-enabled full-screen renderer.
 
 
 
@@ -98,7 +96,7 @@ The third and final choice is to simply take any renderer supporting the <a href
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

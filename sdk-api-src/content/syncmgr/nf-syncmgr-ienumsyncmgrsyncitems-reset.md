@@ -9,8 +9,6 @@ ms.assetid: 8144b47e-0419-4bc8-a57d-dc5c2b743f62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnumSyncMgrSyncItems.Reset, IEnumSyncMgrSyncItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

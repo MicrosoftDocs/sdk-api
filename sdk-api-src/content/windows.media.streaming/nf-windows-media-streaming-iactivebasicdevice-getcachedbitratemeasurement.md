@@ -9,8 +9,6 @@ ms.assetid: 342F5240-E29D-4CC4-AA49-B039EBFC4D0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCachedBitrateMeasurement, GetCachedBitrateMeasurement method [Media Streaming API], GetCachedBitrateMeasurement method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedBitrateMeasurement method, IActiveBasicDevice.GetCachedBitrateMeasurement, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedBitrateMeasurement, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedbitratemeasurement, windows/IActiveBasicDevice::GetCachedBitrateMeasurement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ListView_SetItemState, ListView_SetItemState macro [Windows Controls], _win32_ListView_SetItemState, _win32_ListView_SetItemState_cpp, commctrl/ListView_SetItemState, controls.ListView_SetItemState, controls._win32_ListView_SetItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Changes the state of an item in a list-view control. You can use this macro or s
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -74,7 +72,7 @@ The index of the list-view item. If this parameter is -1, then the state change 
 
 ### -param data
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 New state bits for the item. The <i>mask</i> parameter indicates the valid bits of the <i>state</i> parameter. The macro ignores bits in the <i>state</i> parameter if the corresponding bit is not set in the <i>mask</i> parameter. The low-order byte contains a set of bit flags that indicate the item's state. This byte can be a combination of the following values: 
 
@@ -129,7 +127,7 @@ The item is selected. The appearance of a selected item depends on whether it ha
 
 ### -param mask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Bits of the 
 					<i>state</i> parameter that you want to set or clear. You can use <b>ListView_SetItemState</b> both to set and to clear bits. To set an item's overlay image index, set the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_OVERLAYMASK</a> bits. To set an item's state image index, set the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_STATEIMAGEMASK</a> bits. 

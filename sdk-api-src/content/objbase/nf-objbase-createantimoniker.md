@@ -9,8 +9,6 @@ ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

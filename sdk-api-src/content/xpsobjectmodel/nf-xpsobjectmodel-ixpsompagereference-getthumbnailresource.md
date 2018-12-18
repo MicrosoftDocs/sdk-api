@@ -9,8 +9,6 @@ ms.assetid: ec9cc698-892f-4216-b491-cabdfa60deaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPageReference.GetThumbnailResource, IXpsOMPageReference::GetThumbnailResource, xps.ixpsompagereference_getthumbnailresource, xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

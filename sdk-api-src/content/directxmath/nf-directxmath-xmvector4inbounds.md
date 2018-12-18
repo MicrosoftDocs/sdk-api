@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4InBounds(XMVECTOR,XMVECTO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector4InBounds, XMVector4InBounds, XMVector4InBounds method [DirectX Math Support APIs], dxmath.xmvector4inbounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h

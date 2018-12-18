@@ -9,8 +9,6 @@ ms.assetid: ad5cd485-9231-4c29-8977-754dbf25c979
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],PreserveKey method, ITfKeystrokeMgr.PreserveKey, ITfKeystrokeMgr::PreserveKey, PreserveKey, PreserveKey method [Text Services Framework], PreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_preservekey_ref, msctf/ITfKeystrokeMgr::PreserveKey, tsf.itfkeystrokemgr_preservekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

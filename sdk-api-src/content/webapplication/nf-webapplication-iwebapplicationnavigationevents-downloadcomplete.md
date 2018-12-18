@@ -9,8 +9,6 @@ ms.assetid: a787ae3b-060a-4a7e-b980-e33d3d6b2a01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DownloadComplete, DownloadComplete method [Debugging Windows Store apps], DownloadComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadComplete method, IWebApplicationNavigationEvents.DownloadComplete, IWebApplicationNavigationEvents::DownloadComplete, debug.iwebapplicationnavigationevents_downloadcomplete, webapplication/IWebApplicationNavigationEvents::DownloadComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

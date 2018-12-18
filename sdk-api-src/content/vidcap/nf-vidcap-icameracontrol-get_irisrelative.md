@@ -9,8 +9,6 @@ ms.assetid: 15f01c00-ff18-4d58-a03b-9293a8a6a68c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_IrisRelative method, ICameraControl.get_IrisRelative, ICameraControl::get_IrisRelative, ICameraControlget_IrisRelative, dshow.icameracontrol_get_irisrelative, get_IrisRelative, get_IrisRelative method [DirectShow], get_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_IrisRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <code>get_IrisRelative</code> method returns the camera's relative aperture 
 
 ### -param pValue [out]
 
-Receives the relative aperture setting. To get the range of possible values, call <a href="https://msdn.microsoft.com/9816e29b-3366-49e7-aa4c-46b06963c176">ICameraControl::getRange_IrisRelative</a>.
+Receives the relative aperture setting. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376304(v=VS.85).aspx">ICameraControl::getRange_IrisRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +86,7 @@ Receives the relative aperture setting. To get the range of possible values, cal
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -109,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

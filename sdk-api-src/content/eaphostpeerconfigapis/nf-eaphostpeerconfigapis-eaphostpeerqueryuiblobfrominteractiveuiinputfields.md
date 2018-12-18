@@ -9,8 +9,6 @@ ms.assetid: 2c4b1a0b-8c3f-47c5-8829-2f9c9bfda946
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EAPHOST_PEER_API_VERSION, EapHostPeerQueryUIBlobFromInteractiveUIInputFields, EapHostPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eaphostpeerqueryuiblobfrominteractiveuiinputfields, eaphostpeerconfigapis/EapHostPeerQueryUIBlobFromInteractiveUIInputFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

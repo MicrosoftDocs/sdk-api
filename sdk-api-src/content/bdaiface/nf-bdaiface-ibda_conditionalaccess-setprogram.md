@@ -9,8 +9,6 @@ ms.assetid: d38fc9bc-70e8-419e-b7be-33d1f53a723e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],SetProgram method, IBDA_ConditionalAccess.SetProgram, IBDA_ConditionalAccess::SetProgram, IBDA_ConditionalAccessSetProgram, SetProgram, SetProgram method [Microsoft TV Technologies], SetProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::SetProgram, mstv.ibda_conditionalaccess_setprogram
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

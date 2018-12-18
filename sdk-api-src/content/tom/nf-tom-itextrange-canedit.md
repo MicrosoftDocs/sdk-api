@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelrefer
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CanEdit, CanEdit method [Windows Controls], CanEdit method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanEdit method, ITextRange.CanEdit, ITextRange::CanEdit, _win32_ITextRange_CanEdit, _win32_ITextRange_CanEdit_cpp, controls.ITextRange_CanEdit, controls._win32_ITextRange_CanEdit, tom/ITextRange::CanEdit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

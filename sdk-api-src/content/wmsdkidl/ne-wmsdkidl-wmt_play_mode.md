@@ -9,8 +9,6 @@ ms.assetid: da47fc9f-7762-4f92-8857-44a75a4cd00b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMT_PLAY_MODE, WMT_PLAY_MODE enumeration [windows Media Format], WMT_PLAY_MODE_AUTOSELECT, WMT_PLAY_MODE_DOWNLOAD, WMT_PLAY_MODE_LOCAL, WMT_PLAY_MODE_STREAMING, enumeration [windows Media Format], wmformat.wmt_play_mode, wmsdkidl/WMT_PLAY_MODE, wmsdkidl/WMT_PLAY_MODE_AUTOSELECT, wmsdkidl/WMT_PLAY_MODE_DOWNLOAD, wmsdkidl/WMT_PLAY_MODE_LOCAL, wmsdkidl/WMT_PLAY_MODE_STREAMING
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -90,19 +88,19 @@ The reader will stream files from network locations.
 
 
 
-<a href="https://msdn.microsoft.com/06bff83f-c3f2-4eca-85dd-7e7b93cfd73d">IWMReaderAdvanced2::GetDownloadProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757432(v=VS.85).aspx">IWMReaderAdvanced2::GetDownloadProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/45c7e2c2-fff4-41a9-b5ce-76d8d6257e77">IWMReaderAdvanced2::GetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757435(v=VS.85).aspx">IWMReaderAdvanced2::GetPlayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8">IWMReaderAdvanced2::SetPlayMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757443(v=VS.85).aspx">IWMReaderAdvanced2::SetPlayMode</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetHeight method, AdjustableArrowCap.SetHeight, AdjustableArrowCap::SetHeight, SetHeight, SetHeight method [GDI+], SetHeight method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h

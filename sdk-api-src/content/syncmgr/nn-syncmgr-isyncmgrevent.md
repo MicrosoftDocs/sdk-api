@@ -9,8 +9,6 @@ ms.assetid: fb9877fc-016c-472b-9af2-f2470c5c7e3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], ISyncMgrEvent interface [Windows Shell],described, _shell_ISyncMgrEvent, shell.ISyncMgrEvent, syncmgr/ISyncMgrEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

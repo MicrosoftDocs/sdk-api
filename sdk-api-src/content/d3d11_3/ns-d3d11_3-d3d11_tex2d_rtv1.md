@@ -9,8 +9,6 @@ ms.assetid: CA815C7D-BA10-4C1B-A6E6-8B42229179B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D11_TEX2D_RTV1, D3D11_TEX2D_RTV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_RTV1, direct3d11.d3d11_tex2d_rtv1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 
@@ -73,7 +71,7 @@ The index (plane slice number) of the plane to use in the texture.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

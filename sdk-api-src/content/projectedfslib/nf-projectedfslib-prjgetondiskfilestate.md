@@ -9,8 +9,6 @@ ms.assetid: E302C472-1360-43D9-8AB9-26C93F97F00F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjgetondiskfilestate, projectedfslib/PrjGetOnDiskFileState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

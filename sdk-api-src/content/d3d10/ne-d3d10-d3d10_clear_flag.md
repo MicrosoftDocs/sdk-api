@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_clear_flag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6f00bddb-2778-cf66-6ca7-e2d2fe7b3c5a, D3D10_CLEAR_DEPTH, D3D10_CLEAR_FLAG, D3D10_CLEAR_FLAG enumeration [Direct3D 10], D3D10_CLEAR_STENCIL, d3d10/D3D10_CLEAR_DEPTH, d3d10/D3D10_CLEAR_FLAG, d3d10/D3D10_CLEAR_STENCIL, direct3d10.d3d10_clear_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

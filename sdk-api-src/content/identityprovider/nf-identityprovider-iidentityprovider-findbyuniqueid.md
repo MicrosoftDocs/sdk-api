@@ -9,8 +9,6 @@ ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

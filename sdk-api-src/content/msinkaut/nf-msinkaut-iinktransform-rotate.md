@@ -9,8 +9,6 @@ ms.assetid: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e, IInkTransform interface [Tablet PC],Rotate method, IInkTransform.Rotate, IInkTransform::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Rotate, tablet.inktransform_rotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -130,7 +128,7 @@ The center point defaults to the origin.
 
 
 
-<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

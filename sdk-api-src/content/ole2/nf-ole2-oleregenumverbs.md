@@ -9,8 +9,6 @@ ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

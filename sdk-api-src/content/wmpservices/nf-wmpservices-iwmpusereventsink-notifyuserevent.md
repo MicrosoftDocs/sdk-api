@@ -9,8 +9,6 @@ ms.assetid: f3a84ff8-2f96-43ab-a8a7-7c07d07927dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPUserEventSink interface [Windows Media Player],NotifyUserEvent method, IWMPUserEventSink.NotifyUserEvent, IWMPUserEventSink::NotifyUserEvent, IWMPUserEventSinkNotifyUserEvent, NotifyUserEvent, NotifyUserEvent method [Windows Media Player], NotifyUserEvent method [Windows Media Player],IWMPUserEventSink interface, wmp.iwmpusereventsink_notifyuserevent, wmpservices/IWMPUserEventSink::NotifyUserEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 
@@ -93,7 +91,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-An application that embeds the Windows Media Player control can provide a custom video renderer for the EVR by calling <a href="https://msdn.microsoft.com/a052aecc-b37f-4999-b484-80ee3e2392ba">IWMPVideoRenderConfig::put_presenterActivate</a>. As the custom video renderer runs, it can notify the EVR of events by calling <b>IMediaEventSink::Notify</b>. If the event code supplied by the custom video renderer is greater than or equal to WMPUE_EC_USER, the EVR passes the event notification along to the application by calling <b>NotifyUserEvent</b>.
+An application that embeds the Windows Media Player control can provide a custom video renderer for the EVR by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563756(v=VS.85).aspx">IWMPVideoRenderConfig::put_presenterActivate</a>. As the custom video renderer runs, it can notify the EVR of events by calling <b>IMediaEventSink::Notify</b>. If the event code supplied by the custom video renderer is greater than or equal to WMPUE_EC_USER, the EVR passes the event notification along to the application by calling <b>NotifyUserEvent</b>.
 
 The definition of WMPUE_EC_USER depends on the definition of EC_USER, which is defined in evcode.h.
 
@@ -107,7 +105,7 @@ The definition of WMPUE_EC_USER depends on the definition of EC_USER, which is d
 
 
 
-<a href="https://msdn.microsoft.com/b9afa601-543e-4338-a603-2fe4cd56db36">IWMPUserEventSink Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563753(v=VS.85).aspx">IWMPUserEventSink Interface</a>
  
 
  

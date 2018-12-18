@@ -9,8 +9,6 @@ ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

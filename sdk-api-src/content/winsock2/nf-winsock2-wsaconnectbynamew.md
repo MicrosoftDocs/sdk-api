@@ -9,8 +9,6 @@ ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

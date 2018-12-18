@@ -9,8 +9,6 @@ ms.assetid: 5ac647a0-7f1a-4f6a-ad01-dba019f9bf56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSession.Next, IEnumAgentSession::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_next, tapi3.ienumagentsession_next, tapi3cc/IEnumAgentSession::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

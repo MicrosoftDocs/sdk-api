@@ -7,10 +7,8 @@ old-location: nla\inetworkconnectioncostevents_connectioncostchanged.htm
 tech.root: nla
 ms.assetid: 85D0BF59-3E06-4978-8400-71FD7BF990C9
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: ConnectionCostChanged, ConnectionCostChanged method [Network Awareness], ConnectionCostChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionCostChanged method, INetworkConnectionCostEvents.ConnectionCostChanged, INetworkConnectionCostEvents::ConnectionCostChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionCostChanged, nla.inetworkconnectioncostevents_connectioncostchanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

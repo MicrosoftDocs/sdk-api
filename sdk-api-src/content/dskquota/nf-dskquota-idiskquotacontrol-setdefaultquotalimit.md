@@ -9,8 +9,6 @@ ms.assetid: 2e4d8d04-dff2-477f-a5b2-8c8415cb3b52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetDefaultQuotaLimit method, IDiskQuotaControl.SetDefaultQuotaLimit, IDiskQuotaControl::SetDefaultQuotaLimit, SetDefaultQuotaLimit, SetDefaultQuotaLimit method [Files], SetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setdefaultquotalimit, base.idiskquotacontrol_setdefaultquotalimit, dskquota/IDiskQuotaControl::SetDefaultQuotaLimit, fs.idiskquotacontrol_setdefaultquotalimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

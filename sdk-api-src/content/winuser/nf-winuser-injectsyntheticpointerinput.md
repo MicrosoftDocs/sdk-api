@@ -9,8 +9,6 @@ ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 
@@ -60,14 +58,14 @@ Simulates pointer input (pen or touch).
 
 ### -param device
 
-A handle to the pointer injection device created by <a href="https://msdn.microsoft.com/251F837F-DF9A-4A94-B790-73AA7196E4A9">CreateSyntheticPointerDevice</a>.
+A handle to the pointer injection device created by <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a>.
 
 
 ### -param pointerInfo [in]
 
 Array of injected pointers.
 
-The type must match the <i>pointerType</i> parameter of the <a href="https://msdn.microsoft.com/251F837F-DF9A-4A94-B790-73AA7196E4A9">CreateSyntheticPointerDevice</a> call that created the injection device. 
+The type must match the <i>pointerType</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Mt832775(v=VS.85).aspx">CreateSyntheticPointerDevice</a> call that created the injection device. 
 
 
 The ptPixelLocation for each POINTER_TYPE_INFO is specified relative to top left of the virtual screen:

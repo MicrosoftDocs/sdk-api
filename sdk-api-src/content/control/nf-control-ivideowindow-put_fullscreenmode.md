@@ -9,8 +9,6 @@ ms.assetid: efa1c6ed-bea5-4c25-89c2-1b6fcdad3834
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_FullScreenMode method, IVideoWindow.put_FullScreenMode, IVideoWindow::put_FullScreenMode, IVideoWindowput_FullScreenMode, control/IVideoWindow::put_FullScreenMode, dshow.ivideowindow_put_fullscreenmode, put_FullScreenMode, put_FullScreenMode method [DirectShow], put_FullScreenMode method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -152,7 +150,7 @@ Could not find any filter that supports full-screen mode.
 
 
 
-Depending on the video renderer, the switch to full-screen mode may not be visible until the application runs or pauses the graph. In full-screen mode, if the user switches away from the application (for example, using ALT + TAB), the Filter Graph Manager sends an <a href="https://msdn.microsoft.com/en-us/library/Dd319543(v=VS.85).aspx">EC_FULLSCREEN_LOST</a> event.
+Depending on the video renderer, the switch to full-screen mode may not be visible until the application runs or pauses the graph. In full-screen mode, if the user switches away from the application (for example, using ALT + TAB), the Filter Graph Manager sends an <a href="https://msdn.microsoft.com/f720a9b6-930a-4ed7-9798-1c72fa7a11ff">EC_FULLSCREEN_LOST</a> event.
 
 The following remarks describe how the Filter Graph Manager implements full-screen mode. Application developers can probably ignore this information, but it may be useful if you are writing a custom video renderer.
 
@@ -161,7 +159,7 @@ When an application switches to full-screen mode, the Filter Graph Manager searc
 <ol>
 <li>Any video renderer in the filter graph that natively supports full-screen mode.</li>
 <li>Any video renderer in the filter graph that can stretch the video to full-screen without a significant performance cost.</li>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Dd375812(v=VS.85).aspx">Full Screen Renderer</a> filter.</li>
+<li>The <a href="https://msdn.microsoft.com/59332096-bdfe-4208-b99a-1f434652f287">Full Screen Renderer</a> filter.</li>
 <li>Any video renderer in the filter graph that supports <b>IVideoWindow</b>.</li>
 </ol>
 For the first option, the Filter Graph Manager calls <a href="https://msdn.microsoft.com/en-us/library/Dd377294(v=VS.85).aspx">IVideoWindow::get_FullScreenMode</a> on every video renderer in the graph. Most renderers return E_NOTIMPL, indicating the filter does not natively support full-screen mode. If any renderer returns a value not equal to E_NOTIMPL, the Filter Graph Manager uses that one.
@@ -180,7 +178,7 @@ Except on older hardware, the second option will generally succeed. The third op
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

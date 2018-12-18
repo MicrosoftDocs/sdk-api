@@ -9,8 +9,6 @@ ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFieldNames, GetFieldNames method [Automation], GetFieldNames method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNames method, IRecordInfo.GetFieldNames, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

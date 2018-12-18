@@ -9,8 +9,6 @@ ms.assetid: 39A9665F-C2F3-48A2-A165-50AD3B82455F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEmbeddedFragmentRoots, GetEmbeddedFragmentRoots method [Windows Accessibility], GetEmbeddedFragmentRoots method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetEmbeddedFragmentRoots method, IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots, IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, uiautomationcore/IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots, winauto.uiauto_IAccessibleHostingElementProviders_GetEmbeddedFragmentRoots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

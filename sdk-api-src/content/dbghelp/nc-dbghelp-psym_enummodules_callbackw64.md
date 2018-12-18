@@ -9,8 +9,6 @@ ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

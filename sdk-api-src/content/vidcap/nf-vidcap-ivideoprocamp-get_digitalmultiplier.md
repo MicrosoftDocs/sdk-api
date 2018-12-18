@@ -9,8 +9,6 @@ ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Receives the digital zoom multiplier.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -101,7 +99,7 @@ where
 <li>
             Z'cur = Current digital zoom level.</li>
 <li>
-            Z'min, Z'max = Minimum and maximum digital zoom. See <a href="https://msdn.microsoft.com/8a8a5f72-d51f-4f5a-95e4-ac8d1ac1b24f">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
+            Z'min, Z'max = Minimum and maximum digital zoom. See <a href="https://msdn.microsoft.com/en-us/library/Dd377241(v=VS.85).aspx">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
 <li>
             m-max = Maximum digital magnification. See KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER_LIMIT, documented in the Windows DDK.</li>
 </ul>
@@ -117,11 +115,11 @@ where
 
 
 
-<a href="https://msdn.microsoft.com/de566705-1f4b-4ffa-932d-a52521e6963b">ICameraControl::get_FocalLengths</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376315(v=VS.85).aspx">ICameraControl::get_FocalLengths</a>
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

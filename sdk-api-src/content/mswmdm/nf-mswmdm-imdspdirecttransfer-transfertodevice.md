@@ -9,8 +9,6 @@ ms.assetid: 7a95a23d-751e-4101-a150-3a1e47a14a95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMDSPDirectTransfer interface [windows Media Device Manager],TransferToDevice method, IMDSPDirectTransfer.TransferToDevice, IMDSPDirectTransfer::TransferToDevice, IMDSPDirectTransferTransferToDevice, TransferToDevice, TransferToDevice method [windows Media Device Manager], TransferToDevice method [windows Media Device Manager],IMDSPDirectTransfer interface, mswmdm/IMDSPDirectTransfer::TransferToDevice, wmdm.imdspdirecttransfer_transfertodevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

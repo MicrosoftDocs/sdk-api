@@ -9,8 +9,6 @@ ms.assetid: 4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionValue method, ISpellCheckProvider.GetOptionValue, ISpellCheckProvider::GetOptionValue, intl.ispellcheckprovider_getoptionvalue, spellcheckprovider/ISpellCheckProvider::GetOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

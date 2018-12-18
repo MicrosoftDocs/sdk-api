@@ -9,8 +9,6 @@ ms.assetid: 2d97bcc0-ae13-436b-b741-2f22eb36f5de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferSourceEvent3.BroadcastEventEx, IMSVidStreamBufferSourceEvent3::BroadcastEventEx, IMSVidStreamBufferSourceEvent3BroadcastEventEx, mstv.imsvidstreambuffersourceevent3_broadcasteventex, segment/IMSVidStreamBufferSourceEvent3::BroadcastEventEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -112,7 +110,7 @@ For more information, see <a href="https://msdn.microsoft.com/b9ad8d9d-9827-44f9
 
 
 
-<a href="https://msdn.microsoft.com/4ff2e05f-1c26-48f2-8c46-beebb8b0b1b3">IMSVidStreamBufferSourceEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694672(v=VS.85).aspx">IMSVidStreamBufferSourceEvent3 Interface</a>
  
 
  

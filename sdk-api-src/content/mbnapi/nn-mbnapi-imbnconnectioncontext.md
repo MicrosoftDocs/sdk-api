@@ -9,8 +9,6 @@ ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

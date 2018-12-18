@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.utilities.XMVerifyCPUSupport
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVerifyCPUSupport, XMVerifyCPUSupport, XMVerifyCPUSupport method [DirectX Math Support APIs], dxmath.xmverifycpusupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

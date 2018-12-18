@@ -9,8 +9,6 @@ ms.assetid: 4f23295c-1c2c-4060-9c19-b3f0ed5bf44c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutClose, midiOutClose, midiOutClose function [Windows Multimedia], mmeapi/midiOutClose, multimedia.midioutclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

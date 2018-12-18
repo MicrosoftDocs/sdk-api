@@ -9,8 +9,6 @@ ms.assetid: 964634f4-700b-47a7-a86f-071f1c97bcbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ScriptApplyLogicalWidth, ScriptApplyLogicalWidth function [Internationalization for Windows Applications], _win32_ScriptApplyLogicalWidth, intl.scriptapplylogicalwidth, usp10/ScriptApplyLogicalWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

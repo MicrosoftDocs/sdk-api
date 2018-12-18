@@ -9,8 +9,6 @@ ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: austream.h
 req.include-header: 
@@ -81,7 +79,7 @@ Returns S_OK if successful or E_POINTER if the required parameter is <b>NULL</b>
 
 
 
-This method is usually called by the <a href="https://msdn.microsoft.com/b4098876-6c11-4cc6-8b6d-16edc02316f3">IAudioMediaStream</a> or <a href="https://msdn.microsoft.com/53deec43-30ca-472e-9a82-750049686d2a">IAudioStreamSample</a> object, rather than by the application.
+This method is usually called by the <a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample</a> object, rather than by the application.
 
 
 
@@ -91,7 +89,7 @@ This method is usually called by the <a href="https://msdn.microsoft.com/b409887
 
 
 
-<a href="https://msdn.microsoft.com/0e809ae7-381c-4ada-8940-5d42bf5c03da">IMemoryData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
  
 
  

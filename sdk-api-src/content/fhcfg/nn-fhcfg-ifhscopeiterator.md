@@ -9,8 +9,6 @@ ms.assetid: E8F993BD-CB53-474A-926D-AED0F5A17073
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFhScopeIterator, IFhScopeIterator interface [Windows API], IFhScopeIterator interface [Windows API],described, fhcfg/IFhScopeIterator, winprog.ifhscopeiterator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fhcfg.h
 req.include-header: 

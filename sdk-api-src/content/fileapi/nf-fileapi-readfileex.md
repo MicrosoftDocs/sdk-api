@@ -9,8 +9,6 @@ ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

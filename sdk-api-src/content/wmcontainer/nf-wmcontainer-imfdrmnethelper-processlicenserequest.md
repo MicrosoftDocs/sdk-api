@@ -9,8 +9,6 @@ ms.assetid: e60f9831-f59d-46ff-b685-b26d6484a70d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFDRMNetHelper interface [Media Foundation],ProcessLicenseRequest method, IMFDRMNetHelper.ProcessLicenseRequest, IMFDRMNetHelper::ProcessLicenseRequest, ProcessLicenseRequest, ProcessLicenseRequest method [Media Foundation], ProcessLicenseRequest method [Media Foundation],IMFDRMNetHelper interface, mf.imfdrmnethelper_processlicenserequest, wmcontainer/IMFDRMNetHelper::ProcessLicenseRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

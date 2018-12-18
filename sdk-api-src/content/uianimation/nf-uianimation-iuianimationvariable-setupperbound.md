@@ -9,8 +9,6 @@ ms.assetid: d202f453-2e69-415b-823c-5a3279722274
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetUpperBound method, IUIAnimationVariable.SetUpperBound, IUIAnimationVariable::SetUpperBound, SetUpperBound, SetUpperBound method [Windows Animation], SetUpperBound method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setupperbound, uianimation/IUIAnimationVariable::SetUpperBound
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

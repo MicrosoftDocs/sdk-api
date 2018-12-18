@@ -9,8 +9,6 @@ ms.assetid: c397e506-b7a9-4189-bf1b-6df81db8e187
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/InstallLogPolicy, fs.installlogpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

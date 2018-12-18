@@ -9,8 +9,6 @@ ms.assetid: 1F570A77-7110-4C71-A7BE-74F2B78CFE96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgDocument, ID2D1SvgDocument interface [Direct2D], ID2D1SvgDocument interface [Direct2D],described, d2d1svg/ID2D1SvgDocument, direct2d.id2d1svgdocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1svg.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>ID2D1SvgDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dba9be4a-1670-7ab9-e0a8-d9f2895011f4">CreatePaint</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492668(v=VS.85).aspx">CreatePaint</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 

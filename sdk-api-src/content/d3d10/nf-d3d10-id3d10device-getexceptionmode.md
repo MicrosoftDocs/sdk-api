@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_getexceptionmode.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 54b3d5fb-a9f3-6db2-1a8d-4bbc06e45e39, GetExceptionMode, GetExceptionMode method [Direct3D 10], GetExceptionMode method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetExceptionMode method, ID3D10Device.GetExceptionMode, ID3D10Device::GetExceptionMode, d3d10/ID3D10Device::GetExceptionMode, direct3d10.id3d10device_getexceptionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -65,7 +63,7 @@ Get the exception-mode flags.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb172407(v=VS.85).aspx">D3D10_RAISE_FLAG</a>. A default value of 0 means there are no flags.
 

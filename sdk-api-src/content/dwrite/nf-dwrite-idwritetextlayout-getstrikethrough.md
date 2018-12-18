@@ -9,8 +9,6 @@ ms.assetid: 39a1af39-a8b3-47b2-b3cb-8e807ae202c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStrikethrough, GetStrikethrough method [Direct Write], GetStrikethrough method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetStrikethrough method, IDWriteTextLayout.GetStrikethrough, IDWriteTextLayout::GetStrikethrough, directwrite.IDWriteTextLayout_GetStrikethrough, dwrite/IDWriteTextLayout::GetStrikethrough
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

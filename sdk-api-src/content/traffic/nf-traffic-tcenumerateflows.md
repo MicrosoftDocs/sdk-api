@@ -9,8 +9,6 @@ ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

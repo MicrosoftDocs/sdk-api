@@ -9,8 +9,6 @@ ms.assetid: fd286f68-4d36-48ae-800e-ad2be4c613c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPBurnState, WMPBurnState enumeration [Windows Media Player], wmp.wmpburnstate, wmp/WMPBurnState, wmp/wmpbsBurning, wmp/wmpbsBusy, wmp/wmpbsErasing, wmp/wmpbsPreparingToBurn, wmp/wmpbsReady, wmp/wmpbsRefreshStatusPending, wmp/wmpbsStopped, wmp/wmpbsUnknown, wmp/wmpbsWaitingForDisc, wmpbsBurning, wmpbsBusy, wmpbsErasing, wmpbsPreparingToBurn, wmpbsReady, wmpbsRefreshStatusPending, wmpbsStopped, wmpbsUnknown, wmpbsWaitingForDisc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 
@@ -83,7 +81,7 @@ Waiting for the disc to become available.
 
 ### -field wmpbsRefreshStatusPending
 
-The burn playlist has changed. Call <a href="https://msdn.microsoft.com/7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0">IWMPCdromBurn::refreshStatus</a>.
+The burn playlist has changed. Call <a href="https://msdn.microsoft.com/en-us/library/Dd563093(v=VS.85).aspx">IWMPCdromBurn::refreshStatus</a>.
 
 
 ### -field wmpbsPreparingToBurn
@@ -129,7 +127,7 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
  
 
  

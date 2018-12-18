@@ -9,8 +9,6 @@ ms.assetid: ef1075a6-f31b-4ad8-b31a-66ca68d2c068
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPNotify2 interface [DirectShow],SetVPSyncMaster method, IVPNotify2.SetVPSyncMaster, IVPNotify2::SetVPSyncMaster, IVPNotify2SetVPSyncMaster, SetVPSyncMaster, SetVPSyncMaster method [DirectShow], SetVPSyncMaster method [DirectShow],IVPNotify2 interface, dshow.ivpnotify2_setvpsyncmaster, vpnotify/IVPNotify2::SetVPSyncMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 
@@ -94,7 +92,7 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/8d5fc7ee-93ee-4297-ba24-0eed63bec1ea">IVPNotify2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390590(v=VS.85).aspx">IVPNotify2 Interface</a>
  
 
  

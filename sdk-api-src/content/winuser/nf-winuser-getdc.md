@@ -9,8 +9,6 @@ ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

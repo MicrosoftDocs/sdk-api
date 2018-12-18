@@ -9,8 +9,6 @@ ms.assetid: 54289d10-8393-4c49-9087-873519b32aa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBooleanArray, CreateBooleanArray method [Windows Runtime], CreateBooleanArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateBooleanArray method, IPropertyValueStatics.CreateBooleanArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateBooleanArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateBooleanArray, winrt.ipropertyvaluefactory_createbooleanarray, winrt.ipropertyvaluestatics_createbooleanarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

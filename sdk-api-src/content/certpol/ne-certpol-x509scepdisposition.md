@@ -9,8 +9,6 @@ ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certpol.h
 req.include-header: CertEnroll.h
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>X509SCEPDisposition</b> enumeration   describes the resulting disposition of a request to process a response message. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a> interface.
+The <b>X509SCEPDisposition</b> enumeration   describes the resulting disposition of a request to process a response message. This enumeration is used by the <a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a> interface.
 
 
 ## -enum-fields
@@ -86,7 +84,7 @@ The request has not completed yet.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424985(v=VS.85).aspx">ProcessResponseMessage</a>
+<a href="https://msdn.microsoft.com/4254fdf3-473f-4f22-a08f-13481fd9f779">ProcessResponseMessage</a>
  
 
  

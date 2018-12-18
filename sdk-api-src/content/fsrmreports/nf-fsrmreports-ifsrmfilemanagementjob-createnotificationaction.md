@@ -9,8 +9,6 @@ ms.assetid: d0cb2ac1-842c-4ebb-adac-8298a0e0beed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateNotificationAction, CreateNotificationAction method [File Server Resource Manager], CreateNotificationAction method [File Server Resource Manager],IFsrmFileManagementJob interface, FsrmActionType_Command, FsrmActionType_Email, FsrmActionType_EventLog, IFsrmFileManagementJob interface [File Server Resource Manager],CreateNotificationAction method, IFsrmFileManagementJob.CreateNotificationAction, IFsrmFileManagementJob::CreateNotificationAction, fs.ifsrmfilemanagementjob_createnotificationaction, fsrm.ifsrmfilemanagementjob_createnotificationaction, fsrmreports/IFsrmFileManagementJob::CreateNotificationAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

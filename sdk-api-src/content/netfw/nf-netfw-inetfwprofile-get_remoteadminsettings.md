@@ -9,8 +9,6 @@ ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile.get_RemoteAdminSettings, INetFwProfile::RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF],INetFwProfile interface, get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

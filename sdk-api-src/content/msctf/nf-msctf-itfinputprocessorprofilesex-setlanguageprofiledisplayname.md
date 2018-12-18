@@ -9,8 +9,6 @@ ms.assetid: ce762764-dcaf-4419-8ca0-44a8462a848e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework],SetLanguageProfileDisplayName method, ITfInputProcessorProfilesEx.SetLanguageProfileDisplayName, ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, SetLanguageProfileDisplayName, SetLanguageProfileDisplayName method [Text Services Framework], SetLanguageProfileDisplayName method [Text Services Framework],ITfInputProcessorProfilesEx interface, msctf/ITfInputProcessorProfilesEx::SetLanguageProfileDisplayName, tsf.itfinputprocessorprofilesex_setlanguageprofiledisplayname, tsf.setlanguageprofiledisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

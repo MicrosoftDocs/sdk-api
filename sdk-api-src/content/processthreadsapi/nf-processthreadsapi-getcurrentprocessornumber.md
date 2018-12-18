@@ -9,8 +9,6 @@ ms.assetid: 1f2bebc7-a548-409a-ab74-78a4b55c8fa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentProcessorNumber, GetCurrentProcessorNumber function, base.getcurrentprocessornumber, processthreadsapi/GetCurrentProcessorNumber, winbase/GetCurrentProcessorNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

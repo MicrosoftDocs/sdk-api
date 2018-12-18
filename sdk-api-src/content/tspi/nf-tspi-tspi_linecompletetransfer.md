@@ -9,8 +9,6 @@ ms.assetid: 486a62df-dcdb-46f5-af02-1cf091215401
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineCompleteTransfer, TSPI_lineCompleteTransfer function [TAPI 2.2], _tspi_tspi_linecompletetransfer, tspi.tspi_linecompletetransfer, tspi/TSPI_lineCompleteTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

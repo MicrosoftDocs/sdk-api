@@ -9,8 +9,6 @@ ms.assetid: a9ee20db-98cf-bc5f-96d8-232073810cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1ImageSource, ID2D1ImageSource interface [Direct2D], ID2D1ImageSource interface [Direct2D],described, d2d1_3/ID2D1ImageSource, direct2d.id2d1imagesource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1_3.h
 req.include-header: 
@@ -95,7 +93,7 @@ Restores access to resources that were previously offered by calling <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/af02630d-a9ca-f5b4-6f2a-31a73ef603e5">I2D1DeviceContext2::CreateImageSourceFromWic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900366(v=VS.85).aspx">I2D1DeviceContext2::CreateImageSourceFromWic</a>
 
 
 

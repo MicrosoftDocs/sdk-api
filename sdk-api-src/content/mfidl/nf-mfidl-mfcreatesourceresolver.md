@@ -9,8 +9,6 @@ ms.assetid: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576, MFCreateSourceResolver, MFCreateSourceResolver function [Media Foundation], mf.mfcreatesourceresolver, mfidl/MFCreateSourceResolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

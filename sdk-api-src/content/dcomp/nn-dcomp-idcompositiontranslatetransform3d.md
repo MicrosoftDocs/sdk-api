@@ -9,8 +9,6 @@ ms.assetid: C265E5FC-F7A1-4E87-8311-C4D0613DD7BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTranslateTransform3D, IDCompositionTranslateTransform3D interface [DirectComposition], IDCompositionTranslateTransform3D interface [DirectComposition],described, dcomp/IDCompositionTranslateTransform3D, directcomp.idcompositiontranslatetransform3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61EDA0AA-0274-446E-9169-974AB84802FA">SetOffsetX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449117(v=VS.85).aspx">SetOffsetX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetX property of a 3D translation transform effect.
 
@@ -78,7 +76,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/254DCA74-DB51-442D-9483-F7597643C538">SetOffsetY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449120(v=VS.85).aspx">SetOffsetY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetY property of a 3D translation transform effect.
 
@@ -86,7 +84,7 @@ The <b>IDCompositionTranslateTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1467F8A8-15CF-4B3E-8816-76F2F5BFB68B">SetOffsetZ</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449123(v=VS.85).aspx">SetOffsetZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the OffsetZ property of a 3D translation transform effect.
 
@@ -114,7 +112,7 @@ The effect is to offset the blending position of the visual's subtree by <i>x</i
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
@@ -122,7 +120,7 @@ The effect is to offset the blending position of the visual's subtree by <i>x</i
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

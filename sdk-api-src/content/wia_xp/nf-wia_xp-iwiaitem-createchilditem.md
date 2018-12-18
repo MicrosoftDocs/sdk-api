@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\createchilditem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],CreateChildItem method, IWiaItem.CreateChildItem, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

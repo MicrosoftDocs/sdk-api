@@ -9,8 +9,6 @@ ms.assetid: 56e89b63-6fb5-4509-b90f-f25ec0cf2bd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsNamedStream method, IFsiFileItem2.get_IsNamedStream, IFsiFileItem2::get_IsNamedStream, get_IsNamedStream, get_IsNamedStream method [IMAPI], get_IsNamedStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isnamedstream, imapi2fs/IFsiFileItem2::get_IsNamedStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

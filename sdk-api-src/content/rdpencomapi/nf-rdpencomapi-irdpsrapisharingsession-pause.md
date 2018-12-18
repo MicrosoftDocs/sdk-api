@@ -9,8 +9,6 @@ ms.assetid: 1ea0e8c4-39ef-4261-af7b-d27d6052c17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Pause method, IRDPSRAPISharingSession.Pause, IRDPSRAPISharingSession2 interface [RDP],Pause method, IRDPSRAPISharingSession2::Pause, IRDPSRAPISharingSession::Pause, Pause, Pause method [RDP], Pause method [RDP],IRDPSRAPISharingSession interface, Pause method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_pause, rdpencomapi/IRDPSRAPISharingSession2::Pause, rdpencomapi/IRDPSRAPISharingSession::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

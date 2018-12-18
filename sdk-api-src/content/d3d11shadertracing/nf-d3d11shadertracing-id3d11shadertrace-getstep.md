@@ -9,8 +9,6 @@ ms.assetid: ECEF965F-D046-4F84-A205-F9666ECAE08C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStep, GetStep method [Direct3D 11], GetStep method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetStep method, ID3D11ShaderTrace.GetStep, ID3D11ShaderTrace::GetStep, d3d11shadertracing/ID3D11ShaderTrace::GetStep, direct3d11.id3d11shadertrace_getstep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11shadertracing.h
 req.include-header: 
@@ -62,12 +60,12 @@ Retrieves information about the specified step in the trace.
 
 ### -param stepIndex [in]
 
-The index of the step within the trace. The range of the index is [0...NumTraceSteps-1], where <b>NumTraceSteps</b> is a member of the  <a href="https://msdn.microsoft.com/en-us/library/Hh404538(v=VS.85).aspx">D3D11_TRACE_STATS</a> structure. You can retrieve information about a step in any step order.
+The index of the step within the trace. The range of the index is [0...NumTraceSteps-1], where <b>NumTraceSteps</b> is a member of the  <a href="https://msdn.microsoft.com/E4E44F7F-3760-490D-9BA3-677F63B93AA6">D3D11_TRACE_STATS</a> structure. You can retrieve information about a step in any step order.
 
 
 ### -param pTraceStep [out]
 
-A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Hh404541(v=VS.85).aspx">D3D11_TRACE_STEP</a> structure. <b>GetStep</b> fills the members of this structure with information about the trace step that is specified by the <i>stepIndex</i>  parameter.
+A pointer to a  <a href="https://msdn.microsoft.com/E4C4757F-4948-41C9-97FB-446B26BE8E93">D3D11_TRACE_STEP</a> structure. <b>GetStep</b> fills the members of this structure with information about the trace step that is specified by the <i>stepIndex</i>  parameter.
 
 
 ## -returns
@@ -79,7 +77,7 @@ A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/Hh404541(v=VS.
 <li><b>S_OK</b> if the method retrieves the step information.</li>
 <li><b>E_FAIL</b> if a trace is not available.</li>
 <li><b>E_INVALIDARG</b> if <i>stepIndex</i> is out of range or if <i>pTraceStep</i> is NULL.</li>
-<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.</li>
+<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.</li>
 </ul>
 
 
@@ -100,7 +98,7 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446840(v=VS.85).aspx">ID3D11ShaderTrace</a>
+<a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -60,7 +58,7 @@ Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 
 ### -param VirtualStorageType [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> 
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> 
      structure.
 
 
@@ -72,19 +70,19 @@ A pointer to a valid path to the virtual disk image to open.
 ### -param VirtualDiskAccessMask [in]
 
 A valid value of the 
-     <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 
 ### -param Flags [in]
 
 A valid combination of values of the 
-     <a href="https://msdn.microsoft.com/edc7d3ad-23a0-4e7a-82d5-8ac4df785f35">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323681(v=VS.85).aspx">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in, optional]
 
 An optional pointer to a valid 
-     <a href="https://msdn.microsoft.com/ad67bc3e-a0fe-4198-9307-819577abef7f">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323682(v=VS.85).aspx">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
      be <b>NULL</b>.
 
 
@@ -165,7 +163,7 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/9d9f187e-dea1-48ca-a3fe-9e9c513e9088">CreateVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323659(v=VS.85).aspx">CreateVirtualDisk</a>
 
 
 

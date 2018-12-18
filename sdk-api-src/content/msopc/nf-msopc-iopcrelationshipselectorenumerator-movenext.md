@@ -7,10 +7,8 @@ old-location: opc\iopcrelationshipselectorenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: a958f62d-3e9a-47d9-8ac2-a92a21a74ed1
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipSelectorEnumerator.MoveNext, IOpcRelationshipSelectorEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MoveNext, opc.iopcrelationshipselectorenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

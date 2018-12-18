@@ -9,8 +9,6 @@ ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: 

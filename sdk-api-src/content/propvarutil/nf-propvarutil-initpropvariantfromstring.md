@@ -9,8 +9,6 @@ ms.assetid: eeb1002c-d06b-4f7f-b850-4c33f6e0d7aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromString, InitPropVariantFromString function [Windows Properties], properties.InitPropVariantFromString, propvarutil/InitPropVariantFromString, shell.InitPropVariantFromString, shell_InitPropVariantFromString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -92,7 +90,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -119,23 +117,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
+<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
+<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
  
 
  

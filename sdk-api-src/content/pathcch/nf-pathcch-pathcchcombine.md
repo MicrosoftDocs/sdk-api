@@ -9,8 +9,6 @@ ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

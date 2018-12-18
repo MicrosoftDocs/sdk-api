@@ -9,8 +9,6 @@ ms.assetid: B1189E10-BB04-4648-87F9-447026E441D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateEmpty, CreateEmpty method [Windows Runtime], CreateEmpty method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateEmpty method, IPropertyValueStatics.CreateEmpty, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateEmpty, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateEmpty, winrt.ipropertyvaluefactory_createempty, winrt.ipropertyvaluestatics_createempty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

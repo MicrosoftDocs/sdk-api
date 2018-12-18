@@ -9,8 +9,6 @@ ms.assetid: 3c380a68-d86c-421a-8102-019848893c35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],StopBuffering method, IWMReaderAdvanced2.StopBuffering, IWMReaderAdvanced2::StopBuffering, IWMReaderAdvanced2StopBuffering, StopBuffering, StopBuffering method [windows Media Format], StopBuffering method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_stopbuffering, wmsdkidl/IWMReaderAdvanced2::StopBuffering
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -89,11 +87,11 @@ The reader responds to the request to stop buffering only if it is currently buf
 
 
 
-<a href="https://msdn.microsoft.com/5d741e49-9fdf-4f8d-9ea1-faaecf879be4">IWMReaderAdvanced2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/da47fc9f-7762-4f92-8857-44a75a4cd00b">WMT_PLAY_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757850(v=VS.85).aspx">WMT_PLAY_MODE</a>
  
 
  

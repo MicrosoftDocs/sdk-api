@@ -1,5 +1,5 @@
 ---
-UID: NE:mfapi.MFASYNC_WORKQUEUE_TYPE
+UID: NE:mfapi.__unnamed_enum_0
 title: MFASYNC_WORKQUEUE_TYPE
 author: windows-sdk-content
 description: Specifies the type of work queue for the MFAllocateWorkQueueEx function to create.
@@ -7,10 +7,8 @@ old-location: mf\mfasync_workqueue_type.htm
 tech.root: medfound
 ms.assetid: a3627dbc-1794-4e2e-b7ed-869ed50ca893
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: MFASYNC_WORKQUEUE_TYPE, MFASYNC_WORKQUEUE_TYPE enumeration [Media Foundation], MF_MULTITHREADED_WORKQUEUE, MF_STANDARD_WORKQUEUE, MF_WINDOW_WORKQUEUE, mf.mfasync_workqueue_type, mfapi/MFASYNC_WORKQUEUE_TYPE, mfapi/MF_MULTITHREADED_WORKQUEUE, mfapi/MF_STANDARD_WORKQUEUE, mfapi/MF_WINDOW_WORKQUEUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

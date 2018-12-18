@@ -9,8 +9,6 @@ ms.assetid: FBA9E0A1-7763-4566-8245-D626C82D0355
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateTranscodeTopologyFromByteStream, MFCreateTranscodeTopologyFromByteStream function [Media Foundation], mf.mfcreatetranscodetopologyfrombytestream, mfidl/MFCreateTranscodeTopologyFromByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

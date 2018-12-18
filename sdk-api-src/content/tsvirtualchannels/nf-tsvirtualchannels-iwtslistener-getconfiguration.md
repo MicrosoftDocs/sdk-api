@@ -4,13 +4,11 @@ title: IWTSListener::GetConfiguration
 author: windows-sdk-content
 description: Retrieves the listener-specific configuration.
 old-location: termserv\iwtslistener_getconfiguration.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2d45ab39-0a65-4424-b6ea-2a54bb063c0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Remote Desktop Services], GetConfiguration method [Remote Desktop Services],IWTSListener interface, IWTSListener interface [Remote Desktop Services],GetConfiguration method, IWTSListener.GetConfiguration, IWTSListener::GetConfiguration, termserv.iwtslistener_getconfiguration, tsvirtualchannels/IWTSListener::GetConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 01c01abf-df7a-411b-979b-ddd8da569f91
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Prompt method, IAttachmentExecute.Prompt, IAttachmentExecute::Prompt, Prompt, Prompt method [Windows Shell], Prompt method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Prompt, shell.IAttachmentExecute_Prompt, shobjidl_core/IAttachmentExecute::Prompt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

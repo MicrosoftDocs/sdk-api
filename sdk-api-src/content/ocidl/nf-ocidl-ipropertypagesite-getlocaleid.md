@@ -9,8 +9,6 @@ ms.assetid: d569346d-4a40-42a4-ac8e-539588c4dd66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocaleID, GetLocaleID method [COM], GetLocaleID method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetLocaleID method, IPropertyPageSite.GetLocaleID, IPropertyPageSite::GetLocaleID, _ctrl_ipropertypagesite_getlocaleid, com.ipropertypagesite_getlocaleid, ocidl/IPropertyPageSite::GetLocaleID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

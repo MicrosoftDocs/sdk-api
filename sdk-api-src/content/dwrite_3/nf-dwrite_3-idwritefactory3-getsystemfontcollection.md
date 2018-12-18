@@ -9,8 +9,6 @@ ms.assetid: f6e983b5-5c5f-a2de-59f8-722f967bb992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory3.GetSystemFontCollection, IDWriteFactory3::GetSystemFontCollection, directwrite.idwritefactory3_getsystemfontcollection, dwrite_3/IDWriteFactory3::GetSystemFontCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -67,7 +65,7 @@ Indicates whether to include cloud fonts or only locally installed fonts.
 
 ### -param fontCollection
 
-Type: <b><a href="https://msdn.microsoft.com/bdee031b-53fa-321d-5cdc-4cc2c7ec58ca">IDWriteFontCollection1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933224(v=VS.85).aspx">IDWriteFontCollection1</a>**</b>
 
 Holds the newly created font collection object, or NULL in case of failure.
 
@@ -98,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

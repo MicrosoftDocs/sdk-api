@@ -9,8 +9,6 @@ ms.assetid: 0C04D13F-862C-4E4C-9BC1-13E6FAC86E99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PrjGetVirtualizationInstanceInfo, PrjGetVirtualizationInstanceInfo function, ProjFS.prjgetvirtualizationinstanceinfo, projectedfslib/PrjGetVirtualizationInstanceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: projectedfslib.h
 req.include-header: 

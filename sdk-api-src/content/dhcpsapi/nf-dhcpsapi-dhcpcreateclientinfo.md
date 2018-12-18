@@ -9,8 +9,6 @@ ms.assetid: 121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpCreateClientInfo, DhcpCreateClientInfo function [DHCP], dhcp.dhcpcreateclientinfo, dhcpsapi/DhcpCreateClientInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

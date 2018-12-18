@@ -9,8 +9,6 @@ ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 
@@ -110,7 +108,7 @@ The method completed successfully.
 
 A virtual disk can be expanded only if it is detached.
 
-The virtual disk must have been opened with access to perform metadata operations. This corresponds to the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> value of the <a href="https://msdn.microsoft.com/2b1f02ab-dc32-4af1-880b-73e7db8602be">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+The virtual disk must have been opened with access to perform metadata operations. This corresponds to the <b>VIRTUAL_DISK_ACCESS_METAOPS</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 
 

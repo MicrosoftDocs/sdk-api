@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

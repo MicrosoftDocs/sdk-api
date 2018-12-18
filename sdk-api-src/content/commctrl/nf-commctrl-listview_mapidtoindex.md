@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapidtoindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_MapIDToIndex, ListView_MapIDToIndex macro [Windows Controls], _win32_ListView_MapIDToIndex, _win32_ListView_MapIDToIndex_cpp, commctrl/ListView_MapIDToIndex, controls.ListView_MapIDToIndex, controls._win32_ListView_MapIDToIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Maps the ID of an item to an index. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param id
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A <b>UINT</b> that contains the unique ID of an item.
 

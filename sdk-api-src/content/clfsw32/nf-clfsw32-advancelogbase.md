@@ -9,8 +9,6 @@ ms.assetid: aecdea3b-ac42-43d4-88b3-14cd810a4017
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

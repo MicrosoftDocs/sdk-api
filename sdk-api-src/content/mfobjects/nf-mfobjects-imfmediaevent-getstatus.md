@@ -9,8 +9,6 @@ ms.assetid: e2fc6c81-11c0-4947-b647-3e74a73ee5a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetStatus method, IMFMediaEvent.GetStatus, IMFMediaEvent::GetStatus, e2fc6c81-11c0-4947-b647-3e74a73ee5a2, mf.imfmediaevent_getstatus, mfobjects/IMFMediaEvent::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

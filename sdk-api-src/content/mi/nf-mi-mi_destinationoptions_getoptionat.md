@@ -9,8 +9,6 @@ ms.assetid: 8705721f-3631-4a92-aa5b-0f1b196fe684
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetOptionAt, MI_DestinationOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetOptionAt, wmi_v2.mi_destinationoptions_getoptionat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

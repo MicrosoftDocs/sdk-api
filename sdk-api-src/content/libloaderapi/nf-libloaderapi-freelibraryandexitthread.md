@@ -9,8 +9,6 @@ ms.assetid: be63fdbf-b3a4-44a8-99b4-b41e159952a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeLibraryAndExitThread, FreeLibraryAndExitThread function, _win32_freelibraryandexitthread, base.freelibraryandexitthread, libloaderapi/FreeLibraryAndExitThread, winbase/FreeLibraryAndExitThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

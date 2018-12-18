@@ -9,8 +9,6 @@ ms.assetid: 683054fd-7ee3-4c90-a5cd-234e7d60349d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagSkipCACheck method, IWSManEx.SessionFlagSkipCACheck, IWSManEx::SessionFlagSkipCACheck, SessionFlagSkipCACheck, SessionFlagSkipCACheck method [Windows Remote Management], SessionFlagSkipCACheck method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagskipcacheck, wsmandisp/IWSManEx::SessionFlagSkipCACheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

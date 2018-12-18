@@ -9,8 +9,6 @@ ms.assetid: 9cd91f1c-58ce-4adc-b027-45748543eb06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WriteProcessMemory, WriteProcessMemory function, _win32_writeprocessmemory, base.writeprocessmemory, memoryapi/WriteProcessMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

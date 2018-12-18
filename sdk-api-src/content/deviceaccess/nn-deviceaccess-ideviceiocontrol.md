@@ -9,8 +9,6 @@ ms.assetid: d285e04e-04d0-4c2a-b9f0-72eebebf4f4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API],described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: deviceaccess.h
 req.include-header: 

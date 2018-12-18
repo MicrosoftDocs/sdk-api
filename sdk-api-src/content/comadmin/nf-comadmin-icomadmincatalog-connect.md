@@ -9,8 +9,6 @@ ms.assetid: 0fc65ec0-79a7-4544-934d-543f2946c70a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [COM+], Connect method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],Connect method, ICOMAdminCatalog.Connect, ICOMAdminCatalog::Connect, _cos_ICOMAdminCatalog_Connect, comadmin/ICOMAdminCatalog::Connect, cos.icomadmincatalog_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -66,7 +64,7 @@ The name of the remote computer. To connect to the local computer, use an empty 
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a> interface for the root collection on the remote computer.
+The <a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a> interface for the root collection on the remote computer.
 
 
 ## -returns
@@ -84,9 +82,9 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 The <b>Connect</b> method also retrieves a root collection that is bound to the remote computer. A root collection serves as a starting point to locate top-level collections and does not contain any objects or properties.
 
-You can use the <a href="https://msdn.microsoft.com/en-us/library/ms682306(v=VS.85).aspx">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
+You can use the <a href="https://msdn.microsoft.com/6f01a7a7-d8f3-470f-8eb3-aa698b353af1">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
 
-When you use the <b>Connect</b> method, the <a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
+When you use the <b>Connect</b> method, the <a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
 
 
 
@@ -96,7 +94,7 @@ When you use the <b>Connect</b> method, the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

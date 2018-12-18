@@ -9,8 +9,6 @@ ms.assetid: df3b493c-23d2-4996-9b79-86009efe3078
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumDisplayDevices, EnumDisplayDevices function [Windows GDI], EnumDisplayDevicesA, EnumDisplayDevicesW, _win32_EnumDisplayDevices, gdi.enumdisplaydevices, winuser/EnumDisplayDevices, winuser/EnumDisplayDevicesA, winuser/EnumDisplayDevicesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

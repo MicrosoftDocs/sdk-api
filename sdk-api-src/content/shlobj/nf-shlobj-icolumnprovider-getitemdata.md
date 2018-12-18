@@ -9,8 +9,6 @@ ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
@@ -69,7 +67,7 @@ An <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHC
 
 Type: <b>LPCSHCOLUMNDATA</b>
 
-An <a href="https://msdn.microsoft.com/3a0c9231-2871-4314-9db3-7e5609e08359">SHCOLUMNDATA</a> structure that specifies the file.
+An <a href="https://msdn.microsoft.com/en-us/library/Bb759747(v=VS.85).aspx">SHCOLUMNDATA</a> structure that specifies the file.
 
 
 ### -param pvarData [out]

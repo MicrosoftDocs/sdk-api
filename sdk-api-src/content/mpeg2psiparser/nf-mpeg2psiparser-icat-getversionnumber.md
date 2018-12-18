@@ -9,8 +9,6 @@ ms.assetid: d117e4dd-5e7f-4f60-b657-25eae0f655cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetVersionNumber method, ICAT.GetVersionNumber, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -113,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
  
 
  

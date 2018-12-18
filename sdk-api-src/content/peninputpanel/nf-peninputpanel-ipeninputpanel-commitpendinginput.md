@@ -9,8 +9,6 @@ ms.assetid: 4dd0f334-174a-495c-b363-149960ae2253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 4dd0f334-174a-495c-b363-149960ae2253, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],CommitPendingInput method, IPenInputPanel.CommitPendingInput, IPenInputPanel::CommitPendingInput, peninputpanel/IPenInputPanel::CommitPendingInput, tablet.peninputpanel_commitpendinginput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 
@@ -136,7 +134,7 @@ Starting with Windows XP Tablet PC Edition 2005, if the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 

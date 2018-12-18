@@ -9,8 +9,6 @@ ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceTransportGetInfo, MprAdminInterfaceTransportGetInfo function [RAS], _mpr_mpradmininterfacetransportgetinfo, mprapi/MprAdminInterfaceTransportGetInfo, rras.mpradmininterfacetransportgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

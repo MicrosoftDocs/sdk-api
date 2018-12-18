@@ -9,8 +9,6 @@ ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 
@@ -50,15 +48,15 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>IAzScope</b> interface defines a logical container of resources to which the application manages access. The scope name will be used in calls to the <a href="https://msdn.microsoft.com/en-us/library/Aa377880(v=VS.85).aspx">AccessCheck</a> method to determine whether a user has the requested access to resources logically contained within the scope.
+The <b>IAzScope</b> interface defines a logical container of resources to which the application manages access. The scope name will be used in calls to the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> method to determine whether a user has the requested access to resources logically contained within the scope.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzScope</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzScope</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -71,16 +69,16 @@ The <b>IAzScope</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378287(v=VS.85).aspx">AddPolicyAdministrator</a>
+<a href="https://msdn.microsoft.com/7aa77615-1f12-4641-877e-87b26343db4d">AddPolicyAdministrator</a>
 </td>
 <td align="left" width="63%">
-Adds the specified <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
+Adds the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form to the list of principals that act as policy administrators.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378291(v=VS.85).aspx">AddPolicyAdministratorName</a>
+<a href="https://msdn.microsoft.com/a160e4cb-e779-413e-9d8a-5fb9684a48f2">AddPolicyAdministratorName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of principals that act as policy administrators.
@@ -89,7 +87,7 @@ Adds the specified account name to the list of principals that act as policy adm
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378293(v=VS.85).aspx">AddPolicyReader</a>
+<a href="https://msdn.microsoft.com/dd4d3254-8bcf-46b5-8e7b-d3f076988a7c">AddPolicyReader</a>
 </td>
 <td align="left" width="63%">
 Adds the specified SID in text form to the list of principals that act as policy readers.
@@ -98,7 +96,7 @@ Adds the specified SID in text form to the list of principals that act as policy
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378294(v=VS.85).aspx">AddPolicyReaderName</a>
+<a href="https://msdn.microsoft.com/6beb02cb-7977-4f3f-b806-420c81f6f0b5">AddPolicyReaderName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of principals that act as policy readers.
@@ -107,7 +105,7 @@ Adds the specified account name to the list of principals that act as policy rea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378298(v=VS.85).aspx">AddPropertyItem</a>
+<a href="https://msdn.microsoft.com/5170079b-9ea6-417c-87f2-bb8835225911">AddPropertyItem</a>
 </td>
 <td align="left" width="63%">
 Adds the specified principal to the specified list of principals.
@@ -116,43 +114,43 @@ Adds the specified principal to the specified list of principals.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378312(v=VS.85).aspx">CreateApplicationGroup</a>
+<a href="https://msdn.microsoft.com/9bceb3a9-1144-48a1-a4d4-e612a3e77942">CreateApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object with the specified name.
+Creates an <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378315(v=VS.85).aspx">CreateRole</a>
+<a href="https://msdn.microsoft.com/a5e527f9-0aab-40d9-83fe-f19f73673266">CreateRole</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object with the specified name.
+Creates an <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378317(v=VS.85).aspx">CreateTask</a>
+<a href="https://msdn.microsoft.com/2be1afd7-8d10-4783-a5ea-3e8c0b103ceb">CreateTask</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object with the specified name.
+Creates an <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378320(v=VS.85).aspx">DeleteApplicationGroup</a>
+<a href="https://msdn.microsoft.com/9571bff3-dfe5-48fa-be51-38d61da40414">DeleteApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object with the specified name from the <b>IAzScope</b> object.
+Removes the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object with the specified name from the <b>IAzScope</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378341(v=VS.85).aspx">DeletePolicyAdministrator</a>
+<a href="https://msdn.microsoft.com/23077da5-5475-45c6-87c0-b38f6c05d386">DeletePolicyAdministrator</a>
 </td>
 <td align="left" width="63%">
 Removes the specified SID in text form from the list of principals that act as policy administrators.
@@ -161,7 +159,7 @@ Removes the specified SID in text form from the list of principals that act as p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378345(v=VS.85).aspx">DeletePolicyAdministratorName</a>
+<a href="https://msdn.microsoft.com/6314e1d5-e5ea-42c4-9457-dad5d6f57897">DeletePolicyAdministratorName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of principals that act as policy administrators.
@@ -170,7 +168,7 @@ Removes the specified account name from the list of principals that act as polic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378347(v=VS.85).aspx">DeletePolicyReader</a>
+<a href="https://msdn.microsoft.com/c328a838-ae81-463d-8aa5-827071f58747">DeletePolicyReader</a>
 </td>
 <td align="left" width="63%">
 Removes the specified SID in text form from the list of principals that act as policy readers.
@@ -179,7 +177,7 @@ Removes the specified SID in text form from the list of principals that act as p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378348(v=VS.85).aspx">DeletePolicyReaderName</a>
+<a href="https://msdn.microsoft.com/e65af2a2-c7f7-483c-af05-342075218158">DeletePolicyReaderName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of principals that act as policy readers.
@@ -188,7 +186,7 @@ Removes the specified account name from the list of principals that act as polic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378349(v=VS.85).aspx">DeletePropertyItem</a>
+<a href="https://msdn.microsoft.com/16500d05-c5bf-4d09-8649-ebf58407120d">DeletePropertyItem</a>
 </td>
 <td align="left" width="63%">
 Removes the specified principal from the specified  list of principals.
@@ -197,25 +195,25 @@ Removes the specified principal from the specified  list of principals.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378350(v=VS.85).aspx">DeleteRole</a>
+<a href="https://msdn.microsoft.com/9155c4f8-ad17-402e-80a1-3dcee044d2c4">DeleteRole</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object with the specified name from the <b>IAzScope</b> object.
+Removes the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name from the <b>IAzScope</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378351(v=VS.85).aspx">DeleteTask</a>
+<a href="https://msdn.microsoft.com/de72b944-2796-4445-9fdd-4d56526dc903">DeleteTask</a>
 </td>
 <td align="left" width="63%">
-Removes the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object with the specified name from the <b>IAzScope</b> object.
+Removes the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object with the specified name from the <b>IAzScope</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378353(v=VS.85).aspx">GetProperty</a>
+<a href="https://msdn.microsoft.com/c3b5b526-5662-4971-8ba2-663e4b2c36ff">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzScope</b> object property  with the specified property ID.
@@ -224,34 +222,34 @@ Returns the <b>IAzScope</b> object property  with the specified property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378355(v=VS.85).aspx">OpenApplicationGroup</a>
+<a href="https://msdn.microsoft.com/6c0e2832-e46b-428e-8f0b-ca1d816afaeb">OpenApplicationGroup</a>
 </td>
 <td align="left" width="63%">
-Opens an <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object with the specified name.
+Opens an <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378356(v=VS.85).aspx">OpenRole</a>
+<a href="https://msdn.microsoft.com/55ec166e-5aad-411d-8cc4-0d789c8397c4">OpenRole</a>
 </td>
 <td align="left" width="63%">
-Opens an <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object with the specified name.
+Opens an <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378357(v=VS.85).aspx">OpenTask</a>
+<a href="https://msdn.microsoft.com/8719ab1f-8004-4d5c-b64c-ae17c8d1ab30">OpenTask</a>
 </td>
 <td align="left" width="63%">
-Opens an <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object with the specified name.
+Opens an <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378363(v=VS.85).aspx">SetProperty</a>
+<a href="https://msdn.microsoft.com/4df2d9ca-a77f-4b32-a4e2-56ecd2059b49">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>AzScope</b> object property  with the specified property ID.
@@ -260,7 +258,7 @@ Sets the specified value to the <b>AzScope</b> object property  with the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378364(v=VS.85).aspx">Submit</a>
+<a href="https://msdn.microsoft.com/c06f1994-71d9-4867-a5ed-8fa90206994f">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>IAzScope</b> object.
@@ -278,7 +276,7 @@ Persists changes made to the <b>IAzScope</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378301(v=VS.85).aspx">ApplicationData</a>
+<a href="https://msdn.microsoft.com/c54aaadb-0c4a-43f9-ac50-413ed190b365">ApplicationData</a>
 
 
 </td>
@@ -294,7 +292,7 @@ Sets or retrieves an opaque field that can be used by the application to store i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378304(v=VS.85).aspx">ApplicationGroups</a>
+<a href="https://msdn.microsoft.com/a8c9cffa-aebb-4bb1-834b-338082a9c8de">ApplicationGroups</a>
 
 
 </td>
@@ -303,14 +301,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377293(v=VS.85).aspx">IAzApplicationGroups</a> object that is used to enumerate groups from the policy data.
+Retrieves an <a href="https://msdn.microsoft.com/e96c4cae-0a0a-4ac4-805f-2042312f0267">IAzApplicationGroups</a> object that is used to enumerate groups from the policy data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378306(v=VS.85).aspx">BizrulesWritable</a>
+<a href="https://msdn.microsoft.com/7cd84e64-ef90-48ca-8da0-88ca6d79e1bf">BizrulesWritable</a>
 
 
 </td>
@@ -326,7 +324,7 @@ Retrieves a value that indicates whether a non-delegated scope is writable.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378309(v=VS.85).aspx">CanBeDelegated</a>
+<a href="https://msdn.microsoft.com/e68bd5b2-060b-478b-9375-b23761888e6a">CanBeDelegated</a>
 
 
 </td>
@@ -342,7 +340,7 @@ Retrieves a value that indicates whether the scope can be delegated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378352(v=VS.85).aspx">Description</a>
+<a href="https://msdn.microsoft.com/51a7daff-ecb9-4a66-a7f7-aee9aeff7d6a">Description</a>
 
 
 </td>
@@ -358,7 +356,7 @@ Sets or retrieves a comment that describes the scope.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378354(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/66c5722a-5217-4e77-b14f-f9cfa4e030c0">Name</a>
 
 
 </td>
@@ -374,7 +372,7 @@ Sets or retrieves the name of the scope.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378358(v=VS.85).aspx">PolicyAdministrators</a>
+<a href="https://msdn.microsoft.com/13c11105-b44d-46e0-ab73-c11fede1507b">PolicyAdministrators</a>
 
 
 </td>
@@ -390,7 +388,7 @@ Retrieves the text form of SIDs of principals that act as policy administrators.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378359(v=VS.85).aspx">PolicyAdministratorsName</a>
+<a href="https://msdn.microsoft.com/291aa2f8-f08e-45f5-ade7-b456c962dd3f">PolicyAdministratorsName</a>
 
 
 </td>
@@ -406,7 +404,7 @@ Retrieves the account names of principals that act as policy administrators.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378360(v=VS.85).aspx">PolicyReaders</a>
+<a href="https://msdn.microsoft.com/7576997c-a585-4f0d-bec5-c616d39633f9">PolicyReaders</a>
 
 
 </td>
@@ -422,7 +420,7 @@ Retrieves the text form of SIDs of principals that act as policy readers.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378361(v=VS.85).aspx">PolicyReadersName</a>
+<a href="https://msdn.microsoft.com/4f56ee3f-f987-4569-9e19-c13ab3ff100a">PolicyReadersName</a>
 
 
 </td>
@@ -438,7 +436,7 @@ Retrieves the account names of principals that act as policy readers.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378362(v=VS.85).aspx">Roles</a>
+<a href="https://msdn.microsoft.com/4dcf0e1b-d824-4675-b2d1-f59a58adb00a">Roles</a>
 
 
 </td>
@@ -447,14 +445,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377936(v=VS.85).aspx">IAzRoles</a> object that is used to enumerate groups from the policy data.
+Retrieves an <a href="https://msdn.microsoft.com/bc69ec52-ea73-4a0c-a9a2-913a6725489e">IAzRoles</a> object that is used to enumerate groups from the policy data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378365(v=VS.85).aspx">Tasks</a>
+<a href="https://msdn.microsoft.com/4b8a5280-570d-46eb-a6cb-2723cde3eb15">Tasks</a>
 
 
 </td>
@@ -463,14 +461,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378370(v=VS.85).aspx">IAzTasks</a> object that is used to enumerate groups from the policy data.
+Retrieves an <a href="https://msdn.microsoft.com/324dec16-3fd6-4289-ba15-002e8626dec8">IAzTasks</a> object that is used to enumerate groups from the policy data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378366(v=VS.85).aspx">Writable</a>
+<a href="https://msdn.microsoft.com/8e382af1-192f-4530-82a0-434f66eac060">Writable</a>
 
 
 </td>

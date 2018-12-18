@@ -9,8 +9,6 @@ ms.assetid: b69db9e9-6ab0-40ad-b929-30613c0b9e4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AllocateSurfaceHelper, AllocateSurfaceHelper method [DirectShow], AllocateSurfaceHelper method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AllocateSurfaceHelper method, IVMRSurfaceAllocatorNotify9.AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper, IVMRSurfaceAllocatorNotify9AllocateSurfaceHelper, dshow.ivmrsurfaceallocatornotify9_allocatesurfacehelper, vmr9/IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -66,7 +64,7 @@ If you are implementing a custom allocator-presenter for the VMR-9, you can use 
 
 ### -param lpAllocInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/d263b004-30e6-4dff-9df2-f4ca492f09f7">VMR9AllocationInfo</a> structure that describes the surfaces to create.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407358(v=VS.85).aspx">VMR9AllocationInfo</a> structure that describes the surfaces to create.
 
 
 ### -param lpNumBuffers [in, out]
@@ -121,7 +119,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f275b835-e5b3-46f4-8b26-a4b0e2554c7c">IVMRSurfaceAllocatorNotify9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390508(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9 Interface</a>
 
 
 

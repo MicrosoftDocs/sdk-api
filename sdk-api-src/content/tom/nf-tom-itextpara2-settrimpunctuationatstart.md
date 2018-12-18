@@ -9,8 +9,6 @@ ms.assetid: f08f67ca-5767-4986-8af1-b3a11a1065aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetTrimPunctuationAtStart method, ITextPara2.SetTrimPunctuationAtStart, ITextPara2::SetTrimPunctuationAtStart, SetTrimPunctuationAtStart, SetTrimPunctuationAtStart method [Windows Controls], SetTrimPunctuationAtStart method [Windows Controls],ITextPara2 interface, controls.itextpara2_settrimpunctuationatstart, tom/ITextPara2::SetTrimPunctuationAtStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

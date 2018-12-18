@@ -9,8 +9,6 @@ ms.assetid: d464fd2f-40fe-4c94-9a6b-fdc45b566b6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

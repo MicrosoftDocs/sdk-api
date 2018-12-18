@@ -9,8 +9,6 @@ ms.assetid: 340b5462-890b-467d-ae11-1eb054b093f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Status property, IMbnSmsReadMsgPdu.Status, IMbnSmsReadMsgPdu.get_Status, IMbnSmsReadMsgPdu::Status, IMbnSmsReadMsgPdu::get_Status, Status property [Microsoft Broadband Networks], Status property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Status, mbn.imbnsmsreadmsgpdu_status, mbnapi/IMbnSmsReadMsgPdu::Status, mbnapi/IMbnSmsReadMsgPdu::get_Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: E8D52FDB-CD62-407A-9F70-2825E0BF8523
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyGetThreadInitializationType, AppPolicyGetThreadInitializationType function [App packaging and management], appmodel/AppPolicyGetThreadInitializationType, appxpkg.apppolicygetthreadinitializationtype_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

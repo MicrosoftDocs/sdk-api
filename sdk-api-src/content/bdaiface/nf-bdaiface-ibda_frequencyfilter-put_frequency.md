@@ -9,8 +9,6 @@ ms.assetid: 70d50a4b-b0f8-42a1-9fa2-1d09376903fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Frequency method, IBDA_FrequencyFilter.put_Frequency, IBDA_FrequencyFilter::put_Frequency, IBDA_FrequencyFilterput_Frequency, bdaiface/IBDA_FrequencyFilter::put_Frequency, mstv.ibda_frequencyfilter_put_frequency, put_Frequency, put_Frequency method [Microsoft TV Technologies], put_Frequency method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -89,7 +87,7 @@ Frequencies for DVB-S, DVB-T, and ATSC should all be expressed in kilohertz and 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 004c4caa-0063-41a3-8d6d-8b3a769b4112
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertChainFindByIssuerCallback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback, PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK callback function [Security], security.certchainfindbyissuercallback, wincrypt/PFN_CERT_CHAIN_FIND_BY_ISSUER_CALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

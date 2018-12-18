@@ -9,8 +9,6 @@ ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

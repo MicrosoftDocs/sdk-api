@@ -9,8 +9,6 @@ ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 24b45561-2a6e-4513-b597-15dbc10f0664
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpWebSocketSend, WinHttpWebSocketSend function [WinHTTP], http.winhttpwebsocketsend, winhttp/WinHttpWebSocketSend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

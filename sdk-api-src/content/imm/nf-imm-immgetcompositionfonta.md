@@ -9,8 +9,6 @@ ms.assetid: c38f424f-84d4-4181-9ada-bbd178a70373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmGetCompositionFont, ImmGetCompositionFont function [Internationalization for Windows Applications], ImmGetCompositionFontA, ImmGetCompositionFontW, _win32_ImmGetCompositionFont, imm/ImmGetCompositionFont, imm/ImmGetCompositionFontA, imm/ImmGetCompositionFontW, intl.immgetcompositionfont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

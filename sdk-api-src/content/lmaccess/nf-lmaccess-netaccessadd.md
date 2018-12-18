@@ -9,8 +9,6 @@ ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

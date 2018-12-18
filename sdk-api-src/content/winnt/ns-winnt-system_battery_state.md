@@ -1,5 +1,5 @@
 ---
-UID: NS:winnt.SYSTEM_BATTERY_STATE
+UID: NS:winnt.__unnamed_struct_27
 title: SYSTEM_BATTERY_STATE
 author: windows-sdk-content
 description: Contains information about the current state of the system battery.
@@ -7,10 +7,8 @@ old-location: base\system_battery_state_str.htm
 tech.root: power
 ms.assetid: 6eed7c93-48bd-4142-b639-df6d71b114f9
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: "*PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE, PSYSTEM_BATTERY_STATE structure pointer, SYSTEM_BATTERY_STATE, SYSTEM_BATTERY_STATE structure, _win32_system_battery_state_str, base.system_battery_state_str, winnt/PSYSTEM_BATTERY_STATE, winnt/SYSTEM_BATTERY_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 0956F801-AB61-4B8A-B893-13862A1FC3F3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IS_POINTER_THIRDBUTTON_WPARAM, IS_POINTER_THIRDBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_thirdbutton_wparam, winuser/IS_POINTER_THIRDBUTTON_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

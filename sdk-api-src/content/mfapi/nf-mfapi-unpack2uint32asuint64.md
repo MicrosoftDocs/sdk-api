@@ -9,8 +9,6 @@ ms.assetid: 507504c2-85d3-44b6-9972-bcdd3c4227f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Unpack2UINT32AsUINT64, Unpack2UINT32AsUINT64 function [Media Foundation], mf.unpack2uint32asuint64, mfapi/Unpack2UINT32AsUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dc88f657-0ec1-488d-8110-055de06c2d58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode method [IMAPI], get_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

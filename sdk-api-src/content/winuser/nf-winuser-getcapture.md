@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCapture, GetCapture function [Keyboard and Mouse Input], _win32_GetCapture, _win32_getcapture_cpp, inputdev.getcapture, winui._win32_getcapture, winuser/GetCapture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

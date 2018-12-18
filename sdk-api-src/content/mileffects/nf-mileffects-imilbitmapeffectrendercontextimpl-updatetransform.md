@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateTransform method, IMILBitmapEffectRenderContextImpl.UpdateTransform, IMILBitmapEffectRenderContextImpl::UpdateTransform, UpdateTransform, UpdateTransform method [WPF Bitmap Effects], UpdateTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updatetransform, mileffects/IMILBitmapEffectRenderContextImpl::UpdateTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_updatetransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioCalculate(const X3DAUDIO_HA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: x3daudio.h
 req.include-header: 

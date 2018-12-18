@@ -9,8 +9,6 @@ ms.assetid: a655978e-49fa-445d-8576-ba82b523750c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssEnumObject interface [VSS],Skip method, IVssEnumObject.Skip, IVssEnumObject::Skip, Skip, Skip method [VSS], Skip method [VSS],IVssEnumObject interface, _win32_ivssenumobject_skip, base.ivssenumobject_skip, vss/IVssEnumObject::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vss.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 381be283-c877-44f0-9d96-b9e80a6aeec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileSystemImage interface [IMAPI],IdentifyFileSystemsOnDisc method, IFileSystemImage.IdentifyFileSystemsOnDisc, IFileSystemImage::IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc method [IMAPI], IdentifyFileSystemsOnDisc method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_identifyfilesystemsondisc, imapi2fs/IFileSystemImage::IdentifyFileSystemsOnDisc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

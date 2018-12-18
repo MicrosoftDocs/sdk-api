@@ -9,8 +9,6 @@ ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, IMFSecureChannel.SetupSession, IMFSecureChannel::SetupSession, SetupSession, SetupSession method [Media Foundation], SetupSession method [Media Foundation],IMFSecureChannel interface, a4d38056-ea6a-441e-8b77-39ffd316cb5a, mf.imfsecurechannel_setupsession, mfidl/IMFSecureChannel::SetupSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

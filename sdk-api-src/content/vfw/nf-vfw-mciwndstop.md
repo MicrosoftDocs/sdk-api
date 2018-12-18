@@ -9,8 +9,6 @@ ms.assetid: e46bca2a-635c-4a80-849d-ee5fc0953161
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndStop, multimedia.mciwndstop, vfw/MCIWndStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

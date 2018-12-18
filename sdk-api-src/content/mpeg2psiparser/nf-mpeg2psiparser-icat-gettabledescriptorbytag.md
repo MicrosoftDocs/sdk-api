@@ -9,8 +9,6 @@ ms.assetid: f28fb2c1-d9bb-4786-b3cc-db9583752e1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ICAT.GetTableDescriptorByTag, ICAT::GetTableDescriptorByTag, ICATGetTableDescriptorByTag, mpeg2psiparser/ICAT::GetTableDescriptorByTag, mstv.icat_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -76,7 +74,7 @@ Pointer to a variable that specifies the start position in the descriptor list. 
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -165,7 +163,7 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 
 
 
-<a href="https://msdn.microsoft.com/00da2af8-0f1a-467a-b310-8b8c7e564013">ICAT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693491(v=VS.85).aspx">ICAT Interface</a>
  
 
  

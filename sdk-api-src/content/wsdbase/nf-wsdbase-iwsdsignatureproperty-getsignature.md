@@ -9,8 +9,6 @@ ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

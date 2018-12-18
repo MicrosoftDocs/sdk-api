@@ -9,8 +9,6 @@ ms.assetid: 70596630-5131-460f-9cb3-adcea201c3b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 70596630-5131-460f-9cb3-adcea201c3b2, IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], IMFVideoRenderer interface [Media Foundation],described, evr/IMFVideoRenderer, mf.imfvideorenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

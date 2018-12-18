@@ -9,8 +9,6 @@ ms.assetid: d4d25d47-6b8b-4d06-8698-bd9b4d1d8e8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecSub, VarDecSub function [Automation], _oa96_VarDecSub, automat.vardecsub, oleauto/VarDecSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

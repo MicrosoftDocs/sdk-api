@@ -9,8 +9,6 @@ ms.assetid: 0642C2FA-03D0-4233-B8C4-27E4549B30BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontFamily1, IDWriteFontFamily1 interface [Direct Write], IDWriteFontFamily1 interface [Direct Write],described, directwrite.idwritefontfamily1, dwrite_3/IDWriteFontFamily1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dwrite_3.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>IDWriteFontFamily1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B5C03AC5-E642-4AC8-94D1-D935BA159113">GetFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894591(v=VS.85).aspx">GetFont</a>
 </td>
 <td align="left" width="63%">
 Gets a font given its zero-based index.
@@ -79,7 +77,7 @@ Gets a font given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2F162135-5004-44EA-B80A-16FE0D790909">GetFontFaceReference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894592(v=VS.85).aspx">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a font face reference given its zero-based index.
@@ -88,7 +86,7 @@ Gets a font face reference given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9D262E5C-4407-4110-A315-F529B809EDE2">GetFontLocality</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894593(v=VS.85).aspx">GetFontLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current location of a font given its zero-based index.

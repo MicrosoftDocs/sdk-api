@@ -9,8 +9,6 @@ ms.assetid: 95acde54-2bdb-4a80-b078-d98945604c7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentSampleRequirements, GetCurrentSampleRequirements method [DirectShow], GetCurrentSampleRequirements method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentSampleRequirements method, IDMOVideoOutputOptimizations.GetCurrentSampleRequirements, IDMOVideoOutputOptimizations::GetCurrentSampleRequirements, IDMOVideoOutputOptimizationsGetCurrentSampleRequirements, dshow.idmovideooutputoptimizations_getcurrentsamplerequirements, mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -69,7 +67,7 @@ Zero-based index of an output stream on the DMO.
 
 ### -param pdwRequestedFeatures
 
-Pointer to a variable that receives the required features. The returned value is a bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/fafacdd8-d918-491a-a7e5-7b59128f574f">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
+Pointer to a variable that receives the required features. The returned value is a bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375517(v=VS.85).aspx">DMO_VIDEO_OUTPUT_STREAM_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -126,9 +124,9 @@ Success
 
 
 
-After an application calls the <a href="https://msdn.microsoft.com/07dc29aa-d3ee-409e-9fe8-0c54d2d6f759">IDMOVideoOutputOptimizations::SetOperationMode</a> method, it must provide all the features it has agreed to. However, the DMO might not require every feature on every sample. This method enables the DMO to waive an agreed-upon feature for one sample.
+After an application calls the <a href="https://msdn.microsoft.com/en-us/library/Dd406847(v=VS.85).aspx">IDMOVideoOutputOptimizations::SetOperationMode</a> method, it must provide all the features it has agreed to. However, the DMO might not require every feature on every sample. This method enables the DMO to waive an agreed-upon feature for one sample.
 
-Before processing a sample, the application can call this method. If the DMO does not require a given feature in order to process the next sample, it omits the corresponding flag from the <i>pdwRequestedFeatures</i> parameter. For the next sample only, the application can ignore the feature. The results of this method are valid only for the next call to the <a href="https://msdn.microsoft.com/1a3b1192-f1e9-4f04-b543-d38692502b8e">IMediaObject::ProcessOutput</a> method.
+Before processing a sample, the application can call this method. If the DMO does not require a given feature in order to process the next sample, it omits the corresponding flag from the <i>pdwRequestedFeatures</i> parameter. For the next sample only, the application can ignore the feature. The results of this method are valid only for the next call to the <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a> method.
 
 The DMO will return only the flags that were agreed to in the <b>SetOperationMode</b> method. In other words, you cannot dynamically enable new features with this method.
 
@@ -140,7 +138,7 @@ The DMO will return only the flags that were agreed to in the <b>SetOperationMod
 
 
 
-<a href="https://msdn.microsoft.com/1e87d0e1-68be-4f86-aae2-cff3edfa573b">IDMOVideoOutputOptimizations Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406843(v=VS.85).aspx">IDMOVideoOutputOptimizations Interface</a>
  
 
  

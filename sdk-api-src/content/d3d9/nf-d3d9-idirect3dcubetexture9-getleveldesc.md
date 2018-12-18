@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__getleveldesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DCubeTexture9.GetLevelDesc, IDirect3DCubeTexture9::GetLevelDesc, d3d9helper/IDirect3DCubeTexture9::GetLevelDesc, direct3d9.idirect3dcubetexture9__getleveldesc, f3b033c9-6f8e-47a9-8c20-08c7e254bd9c
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

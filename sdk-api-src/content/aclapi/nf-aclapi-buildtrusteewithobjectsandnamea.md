@@ -9,8 +9,6 @@ ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 
@@ -126,7 +124,7 @@ For more information about object-specific ACEs, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

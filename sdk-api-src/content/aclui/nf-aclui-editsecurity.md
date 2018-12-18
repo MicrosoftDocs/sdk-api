@@ -9,8 +9,6 @@ ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclui.h
 req.include-header: 
@@ -108,7 +106,7 @@ The basic security property page can include an <b>Advanced</b> button for displ
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="authorization_functions.htm">Access Control Editor Functions</a>
 
 
 

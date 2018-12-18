@@ -9,8 +9,6 @@ ms.assetid: 2746e4d9-3996-4b06-bbb9-7777de6d0202
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableAutoProxy method, IAMNetShowConfig.put_EnableAutoProxy, IAMNetShowConfig::put_EnableAutoProxy, IAMNetShowConfigput_EnableAutoProxy, dshow.iamnetshowconfig_put_enableautoproxy, put_EnableAutoProxy, put_EnableAutoProxy method [DirectShow], put_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableAutoProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -98,7 +96,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: cc21f663-e8f8-4348-920c-bffad46d0aa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Next method, IEnumBackgroundCopyGroups.Next, IEnumBackgroundCopyGroups::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_next, qmgr/IEnumBackgroundCopyGroups::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 

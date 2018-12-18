@@ -1,5 +1,5 @@
 ---
-UID: NS:winioctl.CREATE_USN_JOURNAL_DATA
+UID: NS:winioctl.__unnamed_struct_16
 title: CREATE_USN_JOURNAL_DATA
 author: windows-sdk-content
 description: Contains information that describes an update sequence number (USN) change journal.
@@ -7,10 +7,8 @@ old-location: fs\create_usn_journal_data_str.htm
 tech.root: fileio
 ms.assetid: 84d00427-c6eb-41aa-a594-8c57bdd56202
 ms.author: windowssdkdev
-ms.date: 10/12/2018
+ms.date: 12/5/2018
 ms.keywords: "*PCREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA structure [Files], PCREATE_USN_JOURNAL_DATA, PCREATE_USN_JOURNAL_DATA structure pointer [Files], _win32_create_usn_journal_data_str, base.create_usn_journal_data_str, fs.create_usn_journal_data_str, winioctl/CREATE_USN_JOURNAL_DATA, winioctl/PCREATE_USN_JOURNAL_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

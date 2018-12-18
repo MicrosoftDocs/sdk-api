@@ -9,8 +9,6 @@ ms.assetid: 92b290a5-0923-42fc-8231-1decca26adc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoInstall, CoInstall function [Windows API], objbase/CoInstall, winprog.coinstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 
@@ -77,7 +75,7 @@ A pointer to a <b>uCLSSPEC</b> union. The <b>tyspec</b> member must be set to TY
 
 ### -param pQuery [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/8b27c090-2bae-4511-9be8-4bc077295ac5">QUERYCONTEXT</a> structure. The <b>dwContext</b> field must be set to the desired <a href="_com_CLSCTX">CLSCTX</a> value. For more information, see <b>QUERYCONTEXT</b>.
+A pointer to a <a href="https://msdn.microsoft.com/8b27c090-2bae-4511-9be8-4bc077295ac5">QUERYCONTEXT</a> structure. The <b>dwContext</b> field must be set to the desired <a href="https://msdn.microsoft.com/en-us/library/ms693716(v=VS.85).aspx">CLSCTX</a> value. For more information, see <b>QUERYCONTEXT</b>.
 
 
 ### -param pszCodeBase [in]

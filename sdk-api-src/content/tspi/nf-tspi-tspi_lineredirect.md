@@ -9,8 +9,6 @@ ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineRedirect, TSPI_lineRedirect function [TAPI 2.2], _tspi_tspi_lineredirect, tspi.tspi_lineredirect, tspi/TSPI_lineRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

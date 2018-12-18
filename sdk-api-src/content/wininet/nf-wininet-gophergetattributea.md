@@ -9,8 +9,6 @@ ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGetAttributeA, GopherGetAttributeW, _inet_gophergetattribute_function, wininet.gophergetattribute, wininet/GopherGetAttribute, wininet/GopherGetAttributeA, wininet/GopherGetAttributeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wininet.h
 req.include-header: 
@@ -106,7 +104,7 @@ Pointer to a <a href="https://msdn.microsoft.com/1a319d79-7866-4121-a80f-22e3bf9
 
 
 The callback function receives the address of a single 
-<a href="https://msdn.microsoft.com/01daae8c-9080-4a8d-9f73-3e364ca868fe">GOPHER_ATTRIBUTE_TYPE</a> structure with each call. The enumeration callback function allows the application to avoid having to parse the Gopher attribute information.
+<a href="https://msdn.microsoft.com/en-us/library/Aa384213(v=VS.85).aspx">GOPHER_ATTRIBUTE_TYPE</a> structure with each call. The enumeration callback function allows the application to avoid having to parse the Gopher attribute information.
 
 
 ### -param dwContext [in]

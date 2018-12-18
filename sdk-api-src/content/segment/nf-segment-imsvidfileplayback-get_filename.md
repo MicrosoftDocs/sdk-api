@@ -9,8 +9,6 @@ ms.assetid: c8e01204-fb8e-4ebb-97d9-04dda15c491a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],get_FileName method, IMSVidFilePlayback.get_FileName, IMSVidFilePlayback::get_FileName, IMSVidFilePlaybackget_FileName, get_FileName, get_FileName method [Microsoft TV Technologies], get_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, mstv.imsvidfileplayback_get_filename, segment/IMSVidFilePlayback::get_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -105,7 +103,7 @@ The caller must release the returned string, using the <b>CoTaskMemFree</b> func
 
 
 
-<a href="https://msdn.microsoft.com/d6afaf69-5c1b-4f7f-a3cf-51268d6bc2b5">IMSVidFilePlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694551(v=VS.85).aspx">IMSVidFilePlayback Interface</a>
  
 
  

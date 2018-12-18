@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRectangle, GetRectangle methods [GDI+], PathGradientBrush.GetRectangle, PathGradientBrush::GetRectangle, _gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetRectangle_Methods, gdipluspath/GetRectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

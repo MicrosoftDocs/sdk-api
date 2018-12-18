@@ -9,8 +9,6 @@ ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: identityprovider.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1a28ff17-4a5e-4245-845e-1307830fb3fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEpisodeNumber, GetEpisodeNumber method [Microsoft TV Technologies], GetEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetEpisodeNumber method, IIsdbSeriesDescriptor.GetEpisodeNumber, IIsdbSeriesDescriptor::GetEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetEpisodeNumber, mstv.iisdbseriesdescriptor_getepisodenumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

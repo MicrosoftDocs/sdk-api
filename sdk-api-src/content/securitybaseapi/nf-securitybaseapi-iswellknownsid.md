@@ -9,8 +9,6 @@ ms.assetid: 1a08c70c-00fa-4c62-883d-4f17f9d7c04b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellknownsid, security.iswellknownsid, securitybaseapi/IsWellKnownSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h
@@ -72,7 +70,7 @@ A pointer to the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52d
 ### -param WellKnownSidType [in]
 
 Member of the 
-<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a> enumeration to compare with the SID at <i>pSid</i>.
 
 
 ## -returns
@@ -99,7 +97,7 @@ Otherwise, returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WELL_KNOWN_SID_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WELL_KNOWN_SID_TYPE</a>
  
 
  

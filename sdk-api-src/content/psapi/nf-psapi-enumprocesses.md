@@ -9,8 +9,6 @@ ms.assetid: 0c0445cb-27d2-4857-a4a5-7a4c180b068b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumProcesses, EnumProcesses function [PSAPI], K32EnumProcesses, _win32_enumprocesses, base.enumprocesses, psapi.enumprocesses, psapi/EnumProcesses, psapi/K32EnumProcesses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

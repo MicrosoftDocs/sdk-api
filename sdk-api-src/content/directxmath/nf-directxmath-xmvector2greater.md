@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2Greater(XMVECTOR,XMVECTO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2Greater, XMVector2Greater, XMVector2Greater method [DirectX Math Support APIs], dxmath.xmvector2greater
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -104,7 +102,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/b0c03983-d3d0-4103-b5f9-b78bae21f4ff">XMVector2GreaterR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420769(v=VS.85).aspx">XMVector2GreaterR</a>
  
 
  

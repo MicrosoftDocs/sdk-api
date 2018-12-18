@@ -9,8 +9,6 @@ ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

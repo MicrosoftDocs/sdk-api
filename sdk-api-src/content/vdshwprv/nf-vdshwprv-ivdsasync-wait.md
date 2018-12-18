@@ -9,8 +9,6 @@ ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsAsync interface [VDS],Wait method, IVdsAsync.Wait, IVdsAsync::Wait, Wait, Wait method [VDS], Wait method [VDS],IVdsAsync interface, base.ivdsasync_wait, vds/IVdsAsync::Wait, vdshwprv/IVdsAsync::Wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -90,7 +88,7 @@ BITS also increases the count each time it tries to transfer the job when the jo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363025(v=VS.85).aspx">IBackgroundCopyJob::GetError</a>
+<a href="https://msdn.microsoft.com/2ad4c913-2d1e-4490-968c-960178a57e3b">IBackgroundCopyJob::GetError</a>
  
 
  

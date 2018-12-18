@@ -9,8 +9,6 @@ ms.assetid: 413d63e5-da9d-4906-80a9-049da6e85275
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CCD_Structures_c8b6e9f2-0855-478f-a091-78b57b19d596.xml, DISPLAYCONFIG_SOURCE_MODE, DISPLAYCONFIG_SOURCE_MODE structure [Display Devices], display.displayconfig_source_mode, wingdi/DISPLAYCONFIG_SOURCE_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -70,7 +68,7 @@ The height in pixels of the source mode.
 
 ### -field pixelFormat
 
-A value from the <a href="https://msdn.microsoft.com/dca8433d-89a9-492c-bebb-6a28f485896c">DISPLAYCONFIG_PIXELFORMAT</a> enumeration that specifies the pixel format of the source mode.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Ff553963(v=VS.85).aspx">DISPLAYCONFIG_PIXELFORMAT</a> enumeration that specifies the pixel format of the source mode.
 
 
 ### -field position
@@ -94,7 +92,7 @@ The <a href="https://msdn.microsoft.com/9f649fa0-ffb2-44c6-9a66-049f888e3b04">Se
 
 
 
-<a href="https://msdn.microsoft.com/dca8433d-89a9-492c-bebb-6a28f485896c">DISPLAYCONFIG_PIXELFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff553963(v=VS.85).aspx">DISPLAYCONFIG_PIXELFORMAT</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_EnableGroupView, ListView_EnableGroupView macro [Windows Controls], _win32_ListView_EnableGroupView, _win32_ListView_EnableGroupView_cpp, commctrl/ListView_EnableGroupView, controls.ListView_EnableGroupView, controls._win32_ListView_EnableGroupView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Enables or disables whether the items in a list-view control display as a group.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param fEnable
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 <b>BOOL</b>
 <b>TRUE</b>

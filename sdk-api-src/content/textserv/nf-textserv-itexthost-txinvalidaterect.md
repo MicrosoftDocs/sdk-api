@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowles
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost interface [Windows Controls],TxInvalidateRect method, ITextHost.TxInvalidateRect, ITextHost::TxInvalidateRect, TxInvalidateRect, TxInvalidateRect method [Windows Controls], TxInvalidateRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxInvalidateRect, _win32_ITextHost_TxInvalidateRect_cpp, controls.ITextHost_TxInvalidateRect, controls._win32_ITextHost_TxInvalidateRect, textserv/ITextHost::TxInvalidateRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

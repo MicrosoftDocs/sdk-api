@@ -9,8 +9,6 @@ ms.assetid: dc0983c0-440d-453a-95c9-41a859a7dd9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],_SetAllocator method, IMSVidVideoRenderer2._SetAllocator, IMSVidVideoRenderer2::_SetAllocator, IMSVidVideoRenderer2_SetAllocator, _SetAllocator, _SetAllocator method [Microsoft TV Technologies], _SetAllocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2__setallocator, segment/IMSVidVideoRenderer2::_SetAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -60,7 +58,7 @@ The <b>_SetAllocator</b> method specifies an allocator-presenter for the VMR. Ap
 
 ### -param AllocPresent [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/bbcbe152-80fd-469b-a79b-c8db6f97da22">IVMRSurfaceAllocator</a> interface of the allocator-presenter object.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd390499(v=VS.85).aspx">IVMRSurfaceAllocator</a> interface of the allocator-presenter object.
 
 
 ### -param ID [in]
@@ -101,7 +99,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
  
 
  

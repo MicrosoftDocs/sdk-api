@@ -9,8 +9,6 @@ ms.assetid: 60a91156-f9c8-4f6b-92b7-21e2fcd337fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

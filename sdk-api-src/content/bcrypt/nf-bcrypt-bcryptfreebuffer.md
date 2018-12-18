@@ -9,8 +9,6 @@ ms.assetid: 0ee83ca1-2fe6-4ff2-823e-888b3e66f310
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BCryptFreeBuffer, BCryptFreeBuffer function [Security], bcrypt/BCryptFreeBuffer, security.bcryptfreebuffer_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

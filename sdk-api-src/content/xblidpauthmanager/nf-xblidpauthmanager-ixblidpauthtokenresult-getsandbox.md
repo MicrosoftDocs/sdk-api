@@ -9,8 +9,6 @@ ms.assetid: BDE93755-27E8-4D5A-A777-527954BA5E4C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSandbox method, IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

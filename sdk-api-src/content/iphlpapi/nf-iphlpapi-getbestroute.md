@@ -9,8 +9,6 @@ ms.assetid: 5e507d14-f603-467d-9c37-bb048658d0b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBestRoute, GetBestRoute function [IP Helper], _iphlp_getbestroute, iphlp.getbestroute, iphlpapi/GetBestRoute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

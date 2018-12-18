@@ -9,8 +9,6 @@ ms.assetid: ee0618a6-6162-4178-be44-978558add914
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseData method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetResponseData method, IESIsdbCasResponseEvent.GetResponseData, IESIsdbCasResponseEvent::GetResponseData, mstv.iesisdbcasresponseevent_getresponsedata, tuner/IESIsdbCasResponseEvent::GetResponseData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

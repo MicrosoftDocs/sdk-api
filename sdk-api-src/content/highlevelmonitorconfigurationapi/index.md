@@ -2,7 +2,7 @@
 UID: NA:highlevelmonitorconfigurationapi
 ms.assetid: 6df83278-e59e-33af-aa61-417bc64b16d3
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

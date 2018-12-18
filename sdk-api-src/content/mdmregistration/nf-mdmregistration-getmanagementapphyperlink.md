@@ -9,8 +9,6 @@ ms.assetid: e319dd2e-3d2b-4c65-9b59-cd4aab930f12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM Registration], mdmreg.getmanagementapphyperlink, mdmregistration/GetManagementAppHyperlink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

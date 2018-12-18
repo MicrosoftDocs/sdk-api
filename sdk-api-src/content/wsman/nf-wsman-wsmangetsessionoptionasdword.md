@@ -9,8 +9,6 @@ ms.assetid: 73ff4a3a-89f7-4362-99fb-7423e3fd853f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

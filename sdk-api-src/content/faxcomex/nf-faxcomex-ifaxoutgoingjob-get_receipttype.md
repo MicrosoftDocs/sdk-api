@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7ihx.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ReceiptType property, IFaxOutgoingJob.ReceiptType, IFaxOutgoingJob.get_ReceiptType, IFaxOutgoingJob::ReceiptType, IFaxOutgoingJob::get_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.receipttype, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_receipttype_cpp, fax._mfax_faxoutgoingjob_receipttype, faxcomex/IFaxOutgoingJob::ReceiptType, faxcomex/IFaxOutgoingJob::get_ReceiptType, get_ReceiptType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f9686d11-fd32-4eaf-ae93-399dacf028ac">FaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fab26c3-99f6-4740-9899-3dccbd26a3ba">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693393(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

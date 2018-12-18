@@ -9,8 +9,6 @@ ms.assetid: fabd6a0a-7b0c-4c99-af22-8b117addd5f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DoVerb, DoVerb method [COM], DoVerb method [COM],IOleObject interface, IOleObject interface [COM],DoVerb method, IOleObject.DoVerb, IOleObject::DoVerb, _ole_ioleobject_doverb, com.ioleobject_doverb, oleidl/IOleObject::DoVerb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

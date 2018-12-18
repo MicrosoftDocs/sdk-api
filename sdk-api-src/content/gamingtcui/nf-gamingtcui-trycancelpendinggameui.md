@@ -9,8 +9,6 @@ ms.assetid: 620159FC-AC62-4568-8354-D15BCAEEEEB2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

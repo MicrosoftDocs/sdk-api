@@ -9,8 +9,6 @@ ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOriginalId, GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetOriginalId method, IMFTimedTextCue.GetOriginalId, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

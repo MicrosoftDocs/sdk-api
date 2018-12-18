@@ -9,8 +9,6 @@ ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.get_NumSources, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources, get_NumSources method [DirectShow], get_NumSources method [DirectShow],ISelector interface, vidcap/ISelector::get_NumSources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/bd6e028c-ed6d-4dad-a276-c59ba9d88e87">ISelector Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377075(v=VS.85).aspx">ISelector Interface</a>
  
 
  

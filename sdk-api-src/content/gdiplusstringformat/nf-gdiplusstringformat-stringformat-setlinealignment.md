@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\strin
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetLineAlignment, SetLineAlignment method [GDI+], SetLineAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],SetLineAlignment method, StringFormat.SetLineAlignment, StringFormat::SetLineAlignment, _gdiplus_CLASS_StringFormat_SetLineAlignment_align_, gdiplus._gdiplus_CLASS_StringFormat_SetLineAlignment_align_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: 640E1933-E23D-4852-95A2-4FD630162D2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThemeTimingFunction, GetThemeTimingFunction function [Windows Controls], controls.getthemetimingfunction, uxtheme/GetThemeTimingFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

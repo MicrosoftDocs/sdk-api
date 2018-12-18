@@ -9,8 +9,6 @@ ms.assetid: 8c4bdd45-7d19-47a4-aa18-5944d3e58797
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoKeypadTonesMinimumDuration method, ITAutomatedPhoneControl.put_AutoKeypadTonesMinimumDuration, ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration, _tapi3_itautomatedphonecontrol_put_autokeypadtonesminimumduration, put_AutoKeypadTonesMinimumDuration, put_AutoKeypadTonesMinimumDuration method [TAPI 2.2], put_AutoKeypadTonesMinimumDuration method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autokeypadtonesminimumduration, tapi3if/ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

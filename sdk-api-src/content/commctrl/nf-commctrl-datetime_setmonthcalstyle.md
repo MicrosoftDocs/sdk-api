@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetMonthCalStyle, DateTime_SetMonthCalStyle macro [Windows Controls], _shell_DateTime_SetMonthCalStyle, _shell_DateTime_SetMonthCalStyle_cpp, commctrl/DateTime_SetMonthCalStyle, controls.DateTime_SetMonthCalStyle, controls._shell_DateTime_SetMonthCalStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,13 +58,13 @@ Sets the style for a specified date and time picker (DTP) control. Use this macr
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the DTP.
 
 
 ### -param dwStyle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 <a href="https://msdn.microsoft.com/en-us/library/Bb760919(v=VS.85).aspx">Month Calendar Control Styles</a>

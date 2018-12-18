@@ -9,8 +9,6 @@ ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

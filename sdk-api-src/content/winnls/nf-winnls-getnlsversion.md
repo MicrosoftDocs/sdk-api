@@ -9,8 +9,6 @@ ms.assetid: 09bc53e1-69f4-4a71-82b3-1b1b84a1b84f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNLSVersion, GetNLSVersion function [Internationalization for Windows Applications], _win32_GetNLSVersion, intl.getnlsversion, winnls/GetNLSVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

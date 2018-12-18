@@ -9,8 +9,6 @@ ms.assetid: 8287867d-5aaf-4c52-8a8b-d98de6a2ad4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UIAutomationParameter, UIAutomationParameter structure [Windows Accessibility], uiauto.uiauto_UIAutomationParameterStruct, uiauto_UIAutomationParameterStruct, uiautomationcore/UIAutomationParameter, winauto.uiauto_UIAutomationParameterStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

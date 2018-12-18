@@ -9,8 +9,6 @@ ms.assetid: 08109828-44d9-4b8f-a57c-bbedfc82fbbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Extensions interface, IX509Extensions interface [Security],Add method, IX509Extensions.Add, IX509Extensions::Add, certenroll/IX509Extensions::Add, security.ix509extensions_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object to the collection. This method is web enabled.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object to the collection. This method is web enabled.
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pVal [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object to add to the collection.
+Pointer to an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object to add to the collection.
 
 
 ## -returns
@@ -69,7 +67,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -79,11 +77,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a>
+<a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a>
  
 
  

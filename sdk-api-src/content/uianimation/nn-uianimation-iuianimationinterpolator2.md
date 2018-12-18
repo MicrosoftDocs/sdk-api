@@ -9,8 +9,6 @@ ms.assetid: EC0D1933-37C3-41E2-AB13-DA4AAF4B8F04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationInterpolator2, IUIAnimationInterpolator2 interface [Windows Animation], IUIAnimationInterpolator2 interface [Windows Animation],described, uianimation.iuianimationinterpolator2, uianimation/IUIAnimationInterpolator2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

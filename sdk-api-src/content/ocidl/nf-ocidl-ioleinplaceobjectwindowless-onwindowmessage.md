@@ -9,8 +9,6 @@ ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

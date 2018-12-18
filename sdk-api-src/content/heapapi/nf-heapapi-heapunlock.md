@@ -9,8 +9,6 @@ ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HeapUnlock, HeapUnlock function, _win32_heapunlock, base.heapunlock, heapapi/HeapUnlock, winbase/HeapUnlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

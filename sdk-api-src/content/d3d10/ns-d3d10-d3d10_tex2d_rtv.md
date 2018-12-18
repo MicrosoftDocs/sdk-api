@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_tex2d_rtv.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 21f542e7-4e2f-9c36-ae64-12c0d23732a8, D3D10_TEX2D_RTV, D3D10_TEX2D_RTV structure [Direct3D 10], d3d10/D3D10_TEX2D_RTV, direct3d10.d3d10_tex2d_rtv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 701B874A-BA95-43CA-8762-70BA571FDC10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasKerningPairs, HasKerningPairs method [Direct Write], HasKerningPairs method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],HasKerningPairs method, IDWriteFontFace1.HasKerningPairs, IDWriteFontFace1::HasKerningPairs, directwrite.idwritefontface1_haskerningpairs, dwrite_1/IDWriteFontFace1::HasKerningPairs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_1.h
 req.include-header: 

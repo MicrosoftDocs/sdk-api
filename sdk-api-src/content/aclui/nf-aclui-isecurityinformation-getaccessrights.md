@@ -9,8 +9,6 @@ ms.assetid: a40b3ded-9a75-476b-bc7e-38794a98261c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccessRights, GetAccessRights method [Security], GetAccessRights method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetAccessRights method, ISecurityInformation.GetAccessRights, ISecurityInformation::GetAccessRights, SI_ADVANCED, SI_EDIT_AUDITS, SI_EDIT_PROPERTIES, _win32_isecurityinformation_getaccessrights, aclui/ISecurityInformation::GetAccessRights, security.isecurityinformation_getaccessrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
@@ -161,7 +159,7 @@ The access control editor does not free the pointer returned in <i>ppAccess</i>.
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

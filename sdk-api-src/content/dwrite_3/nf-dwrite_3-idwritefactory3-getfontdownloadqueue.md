@@ -9,8 +9,6 @@ ms.assetid: 446e4544-b25d-9b59-922c-ca5c896ea99f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontDownloadQueue, GetFontDownloadQueue method [Direct Write], GetFontDownloadQueue method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetFontDownloadQueue method, IDWriteFactory3.GetFontDownloadQueue, IDWriteFactory3::GetFontDownloadQueue, directwrite.idwritefactory3_getfontdownloadqueue, dwrite_3/IDWriteFactory3::GetFontDownloadQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the font download queue associated with this factory object.
 
 ### -param fontDownloadQueue [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>**</b>
 
 Receives a pointer to the font download queue interface.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

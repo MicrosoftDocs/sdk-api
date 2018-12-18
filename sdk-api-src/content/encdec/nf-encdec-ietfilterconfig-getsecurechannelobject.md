@@ -9,8 +9,6 @@ ms.assetid: 385f4525-97b0-4973-8b74-a05816e43556
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecureChannelObject, GetSecureChannelObject method [Microsoft TV Technologies], GetSecureChannelObject method [Microsoft TV Technologies],IETFilterConfig interface, IETFilterConfig interface [Microsoft TV Technologies],GetSecureChannelObject method, IETFilterConfig.GetSecureChannelObject, IETFilterConfig::GetSecureChannelObject, IETFilterConfigGetSecureChannelObject, encdec/IETFilterConfig::GetSecureChannelObject, mstv.ietfilterconfig_getsecurechannelobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

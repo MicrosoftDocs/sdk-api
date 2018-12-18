@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_41h5_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxServer interface [Fax Service],Security property, IFaxServer.Security, IFaxServer.get_Security, IFaxServer::Security, IFaxServer::get_Security, Security property [Fax Service], Security property [Fax Service],IFaxServer interface, _mfax_faxserver.security_cpp, fax._mfax_faxserver_security_cpp, faxcomex/IFaxServer::Security, faxcomex/IFaxServer::get_Security, get_Security
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_Security</b> property creates a <a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
+The <b>IFaxServer::get_Security</b> property creates a <a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
 
 This property is read-only.
 

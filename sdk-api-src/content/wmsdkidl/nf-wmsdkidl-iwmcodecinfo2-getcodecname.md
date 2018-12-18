@@ -9,8 +9,6 @@ ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCodecName, GetCodecName method [windows Media Format], GetCodecName method [windows Media Format],IWMCodecInfo2 interface, IWMCodecInfo2 interface [windows Media Format],GetCodecName method, IWMCodecInfo2.GetCodecName, IWMCodecInfo2::GetCodecName, IWMCodecInfo2GetCodecName, wmformat.iwmcodecinfo2_getcodecname, wmsdkidl/IWMCodecInfo2::GetCodecName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -89,7 +87,7 @@ GUID identifying the major type of digital media. This must be one of the follow
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/873f8d03-5d7b-424c-91f3-e7c8156565be">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major type, use the <a href="https://msdn.microsoft.com/en-us/library/Dd743324(v=VS.85).aspx">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 
 ### -param wszName [out]
@@ -155,7 +153,7 @@ You should make two calls to <b>GetCodecName</b>. On the first call, pass <b>NUL
 
 
 
-<a href="https://msdn.microsoft.com/0cfb355e-af68-400d-aa64-57f17e7d936b">IWMCodecInfo2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743314(v=VS.85).aspx">IWMCodecInfo2 Interface</a>
  
 
  

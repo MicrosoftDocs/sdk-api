@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Loads a specified icon resource with a client-specified system metric.
 
 ### -param hinst [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
 
 A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="https://msdn.microsoft.com/29514410-89fe-4888-8b34-0c30d5af237f">GetModuleHandle</a>.
 
@@ -71,7 +69,7 @@ To load a predefined icon or a standalone icon file, set this parameter to <b>NU
 
 ### -param pszName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. It is interpreted as follows:
         

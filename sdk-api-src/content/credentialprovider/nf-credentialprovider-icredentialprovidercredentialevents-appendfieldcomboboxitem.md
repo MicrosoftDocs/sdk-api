@@ -9,8 +9,6 @@ ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 
@@ -60,9 +58,9 @@ Communicates to the Logon UI or Credential UI that a combo box needs an item app
 
 ### -param pcpc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>*</b>
 
-The credential containing the combo box that needs an item added. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a> for more information.
+The credential containing the combo box that needs an item added. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> for more information.
                     
 
 

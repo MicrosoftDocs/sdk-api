@@ -9,8 +9,6 @@ ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

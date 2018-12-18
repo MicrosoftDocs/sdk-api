@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_GetGroupCount, ListView_GetGroupCount macro [Windows Controls], _shell_ListView_GetGroupCount, _shell_ListView_GetGroupCount_cpp, commctrl/ListView_GetGroupCount, controls.ListView_GetGroupCount, controls._shell_ListView_GetGroupCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the number of groups. You can use this macro or send the <a href="https://m
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

@@ -9,8 +9,6 @@ ms.assetid: 4c3ddc9c-0261-46e8-92df-d125fea46991
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EulaText property [Windows Update Agent], EulaText property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaText property, IUpdate.EulaText, IUpdate.get_EulaText, IUpdate::EulaText, IUpdate::get_EulaText, get_EulaText, wua.iupdate_eulatext, wuapi/IUpdate::EulaText, wuapi/IUpdate::get_EulaText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

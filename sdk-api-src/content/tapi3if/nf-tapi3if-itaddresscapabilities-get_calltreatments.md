@@ -9,8 +9,6 @@ ms.assetid: fd6bbbf0-1f33-4e4f-bd81-7854019a0225
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CallTreatments method, ITAddressCapabilities.get_CallTreatments, ITAddressCapabilities::get_CallTreatments, _tapi3_itaddresscapabilities_get_calltreatments, get_CallTreatments, get_CallTreatments method [TAPI 2.2], get_CallTreatments method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_calltreatments, tapi3if/ITAddressCapabilities::get_CallTreatments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

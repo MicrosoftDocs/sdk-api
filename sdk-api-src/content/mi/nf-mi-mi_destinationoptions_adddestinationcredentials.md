@@ -9,8 +9,6 @@ ms.assetid: d3abb931-47eb-4f13-b463-caf6c6b918b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_AddDestinationCredentials, MI_DestinationOptions_AddDestinationCredentials function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_AddDestinationCredentials, wmi_v2.mi_destinationoptions_adddestinationcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

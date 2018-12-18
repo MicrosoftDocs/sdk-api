@@ -9,8 +9,6 @@ ms.assetid: 7dbd829e-eaae-42f4-ae39-9ec35cbd3102
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStartPoint, GetStartPoint method [XPS Documents and Packaging], GetStartPoint method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetStartPoint method, IXpsOMGeometryFigure.GetStartPoint, IXpsOMGeometryFigure::GetStartPoint, xps.ixpsomgeometryfigure_getstartpoint, xpsobjectmodel/IXpsOMGeometryFigure::GetStartPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

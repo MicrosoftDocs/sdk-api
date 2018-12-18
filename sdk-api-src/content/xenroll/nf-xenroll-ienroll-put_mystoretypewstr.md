@@ -9,8 +9,6 @@ ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],MyStoreTypeWStr property, IEnroll.MyStoreTypeWStr, IEnroll.put_MyStoreTypeWStr, IEnroll::MyStoreTypeWStr, IEnroll::get_MyStoreTypeWStr, IEnroll::put_MyStoreTypeWStr, MyStoreTypeWStr property [Security], MyStoreTypeWStr property [Security],IEnroll interface, put_MyStoreTypeWStr, security.ienroll4_mystoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::MyStoreTypeWStr, xenroll/IEnroll::get_MyStoreTypeWStr, xenroll/IEnroll::put_MyStoreTypeWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

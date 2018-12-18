@@ -9,8 +9,6 @@ ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

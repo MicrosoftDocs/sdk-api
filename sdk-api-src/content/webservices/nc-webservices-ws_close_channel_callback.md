@@ -9,8 +9,6 @@ ms.assetid: 363ac4e0-5cfe-4c12-ad06-027ec2b735e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">WsCloseChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

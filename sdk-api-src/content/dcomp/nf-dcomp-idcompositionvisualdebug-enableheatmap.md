@@ -9,8 +9,6 @@ ms.assetid: 9512959B-561F-4B43-9C7E-37174CC642EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableHeatMap, EnableHeatMap method [DirectComposition], EnableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableHeatMap method, IDCompositionVisualDebug.EnableHeatMap, IDCompositionVisualDebug::EnableHeatMap, dcomp/IDCompositionVisualDebug::EnableHeatMap, directcomp.idcompositionvisualdebug_enableheatmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -84,15 +82,15 @@ Heatmaps can be enabled by calling <b>EnableHeatMap</b>. The heatmaps are drawn 
 
 
 
-<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/C186E930-4523-4DF7-8E74-B69AF91622F4">IDCompositionVisualDebug::DisableHeatMap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280430(v=VS.85).aspx">IDCompositionVisualDebug::DisableHeatMap</a>
  
 
  

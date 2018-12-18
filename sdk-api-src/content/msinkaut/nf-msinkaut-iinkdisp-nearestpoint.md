@@ -9,8 +9,6 @@ ms.assetid: e9ccf201-dbc9-484f-8038-6a964d304287
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkDisp interface [Tablet PC],NearestPoint method, IInkDisp.NearestPoint, IInkDisp::NearestPoint, NearestPoint, NearestPoint method [Tablet PC], NearestPoint method [Tablet PC],IInkDisp interface, e9ccf201-dbc9-484f-8038-6a964d304287, msinkaut/IInkDisp::NearestPoint, tablet.inkdisp_nearestpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -175,7 +173,7 @@ The <i>distanceFromPacket</i> parameter describes the distance from the point to
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 14556107-3b22-48c8-b480-280b9dee9b17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearCustData, ClearCustData function [Automation], _oa96_ClearCustData, automat.clearcustdata, oleauto/ClearCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

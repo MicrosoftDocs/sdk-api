@@ -9,8 +9,6 @@ ms.assetid: dfa9c81d-cfc8-401b-b4d1-50f21b528135
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, IVMRImagePresenterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRImagePresenterConfig9.GetRenderingPrefs, IVMRImagePresenterConfig9::GetRenderingPrefs, IVMRImagePresenterConfig9GetRenderingPrefs, dshow.ivmrimagepresenterconfig9_getrenderingprefs, vmr9/IVMRImagePresenterConfig9::GetRenderingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -56,7 +54,7 @@ The <code>GetRenderingPrefs</code> method gets the current rendering preferences
 
 
 
-The VMR-9 filter's <a href="https://msdn.microsoft.com/b82a9dbe-aa86-4153-945b-fe8968faa5ca">IVMRFilterConfig9::GetRenderingPrefs</a> method calls through to this method.
+The VMR-9 filter's <a href="https://msdn.microsoft.com/en-us/library/Dd377368(v=VS.85).aspx">IVMRFilterConfig9::GetRenderingPrefs</a> method calls through to this method.
 
 
 ## -parameters
@@ -66,7 +64,7 @@ The VMR-9 filter's <a href="https://msdn.microsoft.com/b82a9dbe-aa86-4153-945b-f
 
 ### -param dwRenderFlags [out]
 
-Receives a bitwise OR of flag from the <a href="https://msdn.microsoft.com/a32119c2-a10d-41a0-b3e9-500323eb3094">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
+Receives a bitwise OR of flag from the <a href="https://msdn.microsoft.com/en-us/library/Dd407375(v=VS.85).aspx">VMR9RenderPrefs</a> enumeration, indicating the current rendering settings on the allocator-presenter.
 
 
 ## -returns
@@ -111,7 +109,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/fc3c9b4d-0213-47d5-96e4-db582c80ca4e">IVMRImagePresenterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377396(v=VS.85).aspx">IVMRImagePresenterConfig9 Interface</a>
 
 
 

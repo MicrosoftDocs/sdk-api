@@ -9,8 +9,6 @@ ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

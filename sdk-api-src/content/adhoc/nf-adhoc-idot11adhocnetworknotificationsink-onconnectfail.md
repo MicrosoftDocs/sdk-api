@@ -9,8 +9,6 @@ ms.assetid: b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnectFail method, IDot11AdHocNetworkNotificationSink.OnConnectFail, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: d7191a38-df9e-4e19-a128-35260bbbfba9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDateTime, CreateDateTime method [Windows Runtime], CreateDateTime method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTime method, IPropertyValueStatics.CreateDateTime, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTime, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTime, winrt.ipropertyvaluefactory_createdatetime, winrt.ipropertyvaluestatics_createdatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

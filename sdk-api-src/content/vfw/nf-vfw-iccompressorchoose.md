@@ -9,8 +9,6 @@ ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -109,7 +107,7 @@ Pointer to an AVI stream interface to use in the preview window. You must specif
 
 ### -param pc
 
-Pointer to a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure. The information returned initializes the structure for use with other functions.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure. The information returned initializes the structure for use with other functions.
 
 
 ### -param lpszTitle
@@ -130,7 +128,7 @@ Returns <b>TRUE</b> if the user chooses a compressor and presses OK. Returns <b>
 
 
 
-Before using this function, set the <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure to the size of the structure. Initialize the rest of the structure to zeros unless you want to specify some valid defaults for the dialog box. If specifying defaults, set the <i>dwFlags</i> member to ICMF_COMPVARS_VALID and initialize the other members of the structure. For more information about initializing the structure, see the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a> function and <b>COMPVARS</b>.
+Before using this function, set the <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure to the size of the structure. Initialize the rest of the structure to zeros unless you want to specify some valid defaults for the dialog box. If specifying defaults, set the <i>dwFlags</i> member to ICMF_COMPVARS_VALID and initialize the other members of the structure. For more information about initializing the structure, see the <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a> function and <b>COMPVARS</b>.
 
 
 

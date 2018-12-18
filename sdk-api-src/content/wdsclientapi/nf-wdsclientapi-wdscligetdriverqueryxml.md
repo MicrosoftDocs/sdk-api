@@ -9,8 +9,6 @@ ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetDriverQueryXml, WdsCliGetDriverQueryXml function [Windows Deployment Services], wds.wdscligetdriverqueryxml, wdsclientapi/WdsCliGetDriverQueryXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

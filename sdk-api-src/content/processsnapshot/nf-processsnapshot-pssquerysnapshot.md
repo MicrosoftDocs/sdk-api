@@ -9,8 +9,6 @@ ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 
@@ -67,7 +65,7 @@ A handle to the snapshot to query.
 
 ### -param InformationClass [in]
 
-An enumerator member that selects what information to query. For more information, see <a href="https://msdn.microsoft.com/1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B">PSS_QUERY_INFORMATION_CLASS</a>.
+An enumerator member that selects what information to query. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457851(v=VS.85).aspx">PSS_QUERY_INFORMATION_CLASS</a>.
 
 
 ### -param Buffer [out]

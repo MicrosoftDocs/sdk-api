@@ -9,8 +9,6 @@ ms.assetid: 2bbfa0da-5b1e-4843-9777-c2e4c5fd3b78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEnhMetaFileBits, GetEnhMetaFileBits function [Windows GDI], _win32_GetEnhMetaFileBits, gdi.getenhmetafilebits, wingdi/GetEnhMetaFileBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 
@@ -172,7 +170,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample Interface</a>
  
 
  

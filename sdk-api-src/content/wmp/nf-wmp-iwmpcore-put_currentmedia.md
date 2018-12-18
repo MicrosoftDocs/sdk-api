@@ -9,8 +9,6 @@ ms.assetid: 003d1937-13f0-4d2c-ad5c-a83569295b62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_currentMedia method, IWMPCore.put_currentMedia, IWMPCore::put_currentMedia, IWMPCoreput_currentMedia, put_currentMedia, put_currentMedia method [Windows Media Player], put_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_currentmedia, wmp/IWMPCore::put_currentMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,23 +108,23 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media item by invokin
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f199336-0555-40de-8d27-780b05ef9510">IWMPCore::get_currentMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563227(v=VS.85).aspx">IWMPCore::get_currentMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20da6e49-720c-4291-9fb7-def441c7fc66">IWMPPlaylist::get_item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563570(v=VS.85).aspx">IWMPPlaylist::get_item</a>
 
 
 
-<a href="https://msdn.microsoft.com/34f80fa4-6e9c-4435-b360-55c2856f89fb">IWMPSettings::put_autoStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563670(v=VS.85).aspx">IWMPSettings::put_autoStart</a>
  
 
  

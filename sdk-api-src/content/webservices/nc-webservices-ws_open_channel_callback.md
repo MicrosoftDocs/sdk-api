@@ -9,8 +9,6 @@ ms.assetid: 5f36b4f1-37e4-48ed-a331-d4edc7d3413b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_OPEN_CHANNEL_CALLBACK, WS_OPEN_CHANNEL_CALLBACK callback, WS_OPEN_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_OPEN_CHANNEL_CALLBACK, wsw.ws_open_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 

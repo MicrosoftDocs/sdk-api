@@ -9,8 +9,6 @@ ms.assetid: 19c37f77-1072-4740-b244-764b816a2a1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CERT_CHAIN_POLICY_AUTHENTICODE, CERT_CHAIN_POLICY_AUTHENTICODE_TS, CERT_CHAIN_POLICY_BASE, CERT_CHAIN_POLICY_BASIC_CONSTRAINTS, CERT_CHAIN_POLICY_EV, CERT_CHAIN_POLICY_MICROSOFT_ROOT, CERT_CHAIN_POLICY_NT_AUTH, CERT_CHAIN_POLICY_SSL, CERT_CHAIN_POLICY_SSL_F12, CertVerifyCertificateChainPolicy, CertVerifyCertificateChainPolicy function [Security], _crypto2_certverifycertificatechainpolicy, security.certverifycertificatechainpolicy, wincrypt/CertVerifyCertificateChainPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\set
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

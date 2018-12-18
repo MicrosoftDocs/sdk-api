@@ -9,8 +9,6 @@ ms.assetid: 52342B15-6250-4D46-9188-CC7AD98F09F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateBasicDeviceAsync, CreateBasicDeviceAsync method [Media Streaming API], CreateBasicDeviceAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateBasicDeviceAsync method, IActiveBasicDeviceStatics.CreateBasicDeviceAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateBasicDeviceAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createbasicdeviceasync, windows/IActiveBasicDeviceStatics::CreateBasicDeviceAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

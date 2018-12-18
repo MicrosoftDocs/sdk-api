@@ -9,8 +9,6 @@ ms.assetid: b7592e8d-6d7d-426a-8520-7b9cc5810d5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderInitialize, WdsTransportProviderInitialize callback, WdsTransportProviderInitialize callback function [Windows Deployment Services], wds.wdstransportproviderinitialize, wdstpdi/WdsTransportProviderInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

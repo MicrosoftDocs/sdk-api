@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3dpixelshader9__getdevice.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DPixelShader9 interface, IDirect3DPixelShader9 interface [Direct3D 9],GetDevice method, IDirect3DPixelShader9.GetDevice, IDirect3DPixelShader9::GetDevice, b94cd32b-31ba-18c7-6d62-ede96034285a, d3d9helper/IDirect3DPixelShader9::GetDevice, direct3d9.idirect3dpixelshader9__getdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,5 +1,5 @@
 ---
-UID: NS:processsnapshot.PSS_AUXILIARY_PAGE_ENTRY
+UID: NS:processsnapshot.__unnamed_struct_8
 title: PSS_AUXILIARY_PAGE_ENTRY
 author: windows-sdk-content
 description: Holds auxiliary page entry information returned by PssWalkSnapshot.
@@ -7,10 +7,8 @@ old-location: proc_snap\pss_auxiliary_page_entry.htm
 tech.root: proc_snap
 ms.assetid: A3D948E6-6FFE-4732-A8C7-A292FDA07D7C
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PSS_AUXILIARY_PAGE_ENTRY, PSS_AUXILIARY_PAGE_ENTRY structure, proc_snap.pss_auxiliary_page_entry, processsnapshot/PSS_AUXILIARY_PAGE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 
@@ -88,7 +86,7 @@ The size of the page contents that <b>PageContents</b> points to, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_AUXILIARY_PAGE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_AUXILIARY_PAGES</b>.
+<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_AUXILIARY_PAGE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_AUXILIARY_PAGES</b>.
 
 
 

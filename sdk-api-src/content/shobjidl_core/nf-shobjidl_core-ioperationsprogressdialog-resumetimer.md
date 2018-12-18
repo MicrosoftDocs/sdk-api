@@ -9,8 +9,6 @@ ms.assetid: c2f219f8-75c0-4101-a499-2770bb01ab7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],ResumeTimer method, IOperationsProgressDialog.ResumeTimer, IOperationsProgressDialog::ResumeTimer, ResumeTimer, ResumeTimer method [Windows Shell], ResumeTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_ResumeTimer, shell.IOperationsProgressDialog_ResumeTimer, shobjidl_core/IOperationsProgressDialog::ResumeTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

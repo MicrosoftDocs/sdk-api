@@ -9,8 +9,6 @@ ms.assetid: e6e21995-5dbd-4893-a9f2-6ce918d3fbc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore interface [Windows Media Player],close method, IWMPCore.close, IWMPCore::close, IWMPCoreclose, close, close method [Windows Media Player], close method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_close, wmp/IWMPCore::close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,7 +103,7 @@ This method closes the current digital media file, not Windows Media Player.
 
 
 
-<a href="https://msdn.microsoft.com/24fbb34d-4a5e-4a00-85fc-9659a31dc650">IWMPCore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore Interface</a>
  
 
  

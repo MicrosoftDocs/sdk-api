@@ -9,8 +9,6 @@ ms.assetid: 98c0640d-8ee1-4072-989d-16a2e8ba09b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetUserInfo, DRMGetUserInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUserInfo, rm.drmgetuserinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

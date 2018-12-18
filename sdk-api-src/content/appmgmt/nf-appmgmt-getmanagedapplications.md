@@ -7,10 +7,8 @@ old-location: policy\getmanagedapplications.htm
 tech.root: policy
 ms.assetid: 62e32f36-cbb2-4557-9773-8bd454870d55
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: GetManagedApplications, GetManagedApplications function [Group Policy], MANAGED_APPS_FROMCATEGORY, MANAGED_APPS_USERAPPLICATIONS, appmgmt/GetManagedApplications, policy.getmanagedapplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmgmt.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Dismount method, IVdsVolumeMF.Dismount, IVdsVolumeMF::Dismount, base.ivdsvolumemf_dismount, vds/IVdsVolumeMF::Dismount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

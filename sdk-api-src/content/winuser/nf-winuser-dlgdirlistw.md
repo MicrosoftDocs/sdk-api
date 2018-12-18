@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirList, DlgDirList function [Windows Controls], DlgDirListA, DlgDirListW, _win32_DlgDirList, _win32_DlgDirList_cpp, controls.DlgDirList, controls._win32_DlgDirList, winuser/DlgDirList, winuser/DlgDirListA, winuser/DlgDirListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

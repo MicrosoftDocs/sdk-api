@@ -9,8 +9,6 @@ ms.assetid: 92a199d6-244f-44e5-8158-d77b8488fde0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMRSOP interface, IGPMRSOP interface [GPMC],GenerateReportToFile method, IGPMRSOP.GenerateReportToFile, IGPMRSOP::GenerateReportToFile, gpmc.igpmrsop_generatereporttofile, gpmgmt/IGPMRSOP::GenerateReportToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

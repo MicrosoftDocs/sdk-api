@@ -9,8 +9,6 @@ ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1MakeSkewMatrix, D2D1MakeSkewMatrix function [Direct2D], d2d1/D2D1MakeSkewMatrix, direct2d.d2d1makeskewmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 
@@ -74,14 +72,14 @@ The y-axis skew angle, which is measured in degrees counterclockwise from the x-
 
 ### -param center [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The center point of the skew operation.
 
 
 ### -param matrix [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
 
 When this method returns, contains the rotation transformation. You must allocate storate for this parameter.
 

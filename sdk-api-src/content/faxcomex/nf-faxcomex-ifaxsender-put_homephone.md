@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_9tyd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HomePhone property [Fax Service], HomePhone property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],HomePhone property, IFaxSender.HomePhone, IFaxSender.get_HomePhone, IFaxSender.put_HomePhone, IFaxSender::HomePhone, IFaxSender::get_HomePhone, IFaxSender::put_HomePhone, _mfax_faxsender.homephone, fax._mfax_faxsender_cpp_mfax_faxsender_homephone_cpp, fax._mfax_faxsender_homephone, faxcomex/IFaxSender::HomePhone, faxcomex/IFaxSender::get_HomePhone, faxcomex/IFaxSender::put_HomePhone, put_HomePhone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,15 +65,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/f265cfd0-cf62-4d86-9ba5-d1842ac94baa">FaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/c22bd4df-6ce2-4491-91c9-7bb8c8f7eafd">IFaxSender</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687533(v=VS.85).aspx">IFaxSender</a>
 
 
 
-<a href="https://msdn.microsoft.com/347943cc-a417-469e-a936-8da5601e752f">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692936(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

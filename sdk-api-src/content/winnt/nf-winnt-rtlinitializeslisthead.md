@@ -9,8 +9,6 @@ ms.assetid: 0f5467e0-6fba-418d-8f00-cb4fa475f7e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlinitializeslisthead, winnt/RtlInitializeSListHead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

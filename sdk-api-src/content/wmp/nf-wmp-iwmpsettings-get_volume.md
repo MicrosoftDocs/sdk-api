@@ -9,8 +9,6 @@ ms.assetid: 92c217e4-2ec4-4890-810c-dc552a36d578
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSetting2.get_volume, IWMPSetting2::get_volume, IWMPSettings interface [Windows Media Player],get_volume method, IWMPSettings.get_volume, IWMPSettings::get_volume, IWMPSettingsget_volume, get_volume, get_volume method [Windows Media Player], get_volume method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_volume, wmp/IWMPSettings::get_volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,11 +108,11 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 
 
 
-<a href="https://msdn.microsoft.com/435dac36-1ccf-41fd-94c2-1242c6af1bbd">IWMPSetting::put_volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563681(v=VS.85).aspx">IWMPSetting::put_volume</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
  
 
  

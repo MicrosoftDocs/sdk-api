@@ -9,8 +9,6 @@ ms.assetid: 9cc53fb6-a652-43fa-a962-9bd3c67b5664
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferSource interface [Microsoft TV Technologies],SetStreamSink method, IStreamBufferSource.SetStreamSink, IStreamBufferSource::SetStreamSink, IStreamBufferSourceSetStreamSink, SetStreamSink, SetStreamSink method [Microsoft TV Technologies], SetStreamSink method [Microsoft TV Technologies],IStreamBufferSource interface, mstv.istreambuffersource_setstreamsink, sbe/IStreamBufferSource::SetStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
@@ -95,7 +93,7 @@ The method succeeded.
 
 
 
-The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://msdn.microsoft.com/a44b8153-19d5-43ad-936c-214c694eeeb6">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> method.
+The source filter and the sink filter must be within the same process, but can reside in different filter graphs. If they are in different processes, call <a href="https://msdn.microsoft.com/en-us/library/Dd389983(v=VS.85).aspx">IFileSourceFilter::Load</a> with the same file name used in the <a href="https://msdn.microsoft.com/9e694cc2-090e-43b1-88c7-77175a930bf1">IStreamBufferSink::LockProfile</a> method.
 
 Several Stream Buffer Source filters can stream from the same sink filter.
 

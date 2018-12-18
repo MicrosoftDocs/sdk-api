@@ -9,8 +9,6 @@ ms.assetid: 54f8a37b-87ac-449c-8e03-aeacd27e8c97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],SetSecurityDescriptor method, ITaskFolder.SetSecurityDescriptor, ITaskFolder::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],ITaskFolder interface, taskschd.itaskfolder_setsecuritydescriptor, taskschd/ITaskFolder::SetSecurityDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

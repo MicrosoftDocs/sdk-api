@@ -9,8 +9,6 @@ ms.assetid: a0393983-cb43-4dfa-91a6-d82a5fb8de12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, winbase/LocalFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

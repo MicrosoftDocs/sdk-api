@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchan
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdeReconnect, DdeReconnect function [Data Exchange], _win32_DdeReconnect, _win32_ddereconnect_cpp, dataxchg.ddereconnect, ddeml/DdeReconnect, winui._win32_ddereconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

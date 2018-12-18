@@ -9,8 +9,6 @@ ms.assetid: ff1cda58-f02d-4c39-aed5-ebacbef20780
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP2.RequestAttrsTransitioningAtPosition, ITextStoreACP2::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp2_requestattrstransitioningatposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

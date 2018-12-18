@@ -9,8 +9,6 @@ ms.assetid: 1a65aed6-34d4-420b-b175-a2a778712771
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceArrival method, IMbnInterfaceManagerEvents.OnInterfaceArrival, IMbnInterfaceManagerEvents::OnInterfaceArrival, OnInterfaceArrival, OnInterfaceArrival method [Microsoft Broadband Networks], OnInterfaceArrival method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfacearrival, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

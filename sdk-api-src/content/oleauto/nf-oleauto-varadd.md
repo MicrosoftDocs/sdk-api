@@ -9,8 +9,6 @@ ms.assetid: bdec33b1-cbdd-4ec3-83b2-4e5655ecf5bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarAdd, VarAdd function [Automation], _oa96_VarAdd, automat.varadd, oleauto/VarAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

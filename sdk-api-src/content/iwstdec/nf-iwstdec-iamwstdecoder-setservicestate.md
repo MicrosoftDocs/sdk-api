@@ -9,8 +9,6 @@ ms.assetid: c65d056e-0f39-4372-9060-37859798cade
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -64,7 +62,7 @@ Applications use the <code>SetServiceState</code> method to assign the service s
 
 ### -param State [in]
 
-Specifies a member of an <a href="https://msdn.microsoft.com/b6548144-7e18-4d5d-9243-51eb7db9821b">AM_WST_STATE</a> enumeration to assign the service state.
+Specifies a member of an <a href="https://msdn.microsoft.com/en-us/library/Dd373510(v=VS.85).aspx">AM_WST_STATE</a> enumeration to assign the service state.
 
 <table>
 <tr>
@@ -103,7 +101,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <code>HRESUL
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

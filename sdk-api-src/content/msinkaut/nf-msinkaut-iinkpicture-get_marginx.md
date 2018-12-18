@@ -9,8 +9,6 @@ ms.assetid: c463debc-341b-4491-8543-70623bf717d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.MarginX, IInkPicture.get_MarginX, IInkPicture::MarginX, IInkPicture::get_MarginX, IInkPicture::put_MarginX, InkPicture.get_MarginX, InkPicture.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkPicture interface, get_MarginX, msinkaut/IInkPicture::MarginX, msinkaut/IInkPicture::get_MarginX, msinkaut/IInkPicture::put_MarginX, put_MarginX, tablet.inkpicture_marginx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -92,7 +90,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

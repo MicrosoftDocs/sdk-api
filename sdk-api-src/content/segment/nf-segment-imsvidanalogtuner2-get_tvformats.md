@@ -9,8 +9,6 @@ ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -203,7 +201,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/50d30a45-8cea-454c-b5d2-ff809b8a8206">IMSVidAnalogTuner2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694421(v=VS.85).aspx">IMSVidAnalogTuner2 Interface</a>
  
 
  

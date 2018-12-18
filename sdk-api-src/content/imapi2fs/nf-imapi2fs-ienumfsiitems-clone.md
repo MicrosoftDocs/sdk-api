@@ -9,8 +9,6 @@ ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems interface, IEnumFsiItems interface [IMAPI],Clone method, IEnumFsiItems.Clone, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

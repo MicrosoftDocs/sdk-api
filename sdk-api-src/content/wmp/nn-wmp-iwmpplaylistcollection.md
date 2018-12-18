@@ -9,8 +9,6 @@ ms.assetid: b6861651-f0c3-4b99-8c81-a8a8f8b47692
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], IWMPPlaylistCollection interface [Windows Media Player],described, IWMPPlaylistCollectionInterface, wmp.iwmpplaylistcollection, wmp/IWMPPlaylistCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -74,7 +72,7 @@ The <b>IWMPPlaylistCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ebd966f-5fee-4a8a-909e-5adcbdebab54">getAll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563553(v=VS.85).aspx">getAll</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing all of the playlists in the library.
@@ -83,7 +81,7 @@ Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d837c57-8612-47ef-a0fa-a3ffa77ac704">getByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563554(v=VS.85).aspx">getByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object containing playlists with the specified name, if any exist.
@@ -92,7 +90,7 @@ Retrieves a pointer to an <b>IWMPPlaylistArray</b> interface on an object contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/421a1bd3-65c1-4d8f-be75-918b1cfa06d2">importPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563556(v=VS.85).aspx">importPlaylist</a>
 </td>
 <td align="left" width="63%">
 Adds a static playlist to the library.
@@ -101,7 +99,7 @@ Adds a static playlist to the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac3e3401-ac7e-44d2-9680-5abe69678fc7">isDeleted</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563557(v=VS.85).aspx">isDeleted</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the specified playlist is in the deleted items folder.
@@ -110,7 +108,7 @@ Retrieves a value indicating whether the specified playlist is in the deleted it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ad51469-a150-4322-ac16-782ef0d96a57">newPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563558(v=VS.85).aspx">newPlaylist</a>
 </td>
 <td align="left" width="63%">
 Creates a new, empty playlist in the library.
@@ -119,7 +117,7 @@ Creates a new, empty playlist in the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed678c2c-bfde-424b-9c71-21270a32a08e">remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563559(v=VS.85).aspx">remove</a>
 </td>
 <td align="left" width="63%">
 Removes a playlist from the library.
@@ -141,11 +139,11 @@ No longer supported.
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce">IWMPPlaylistArray Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563548(v=VS.85).aspx">IWMPPlaylistArray Interface</a>
 
 
 

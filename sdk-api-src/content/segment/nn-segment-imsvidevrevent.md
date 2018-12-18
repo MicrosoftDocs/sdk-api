@@ -9,8 +9,6 @@ ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -78,7 +76,7 @@ The <b>IMSVidEVREvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eee9fd9-ed8d-482d-833a-c785d65cbf6a">OnUserEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694538(v=VS.85).aspx">OnUserEvent</a>
 </td>
 <td align="left" width="63%">
 Forwards custom events from the enhanced video renderer (EVR) filter.

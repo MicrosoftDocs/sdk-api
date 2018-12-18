@@ -9,8 +9,6 @@ ms.assetid: 014bb208-1241-4022-b37a-cd16da48174c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDownloadProgressChangedCallbackArgs, IDownloadProgressChangedCallbackArgs interface [Windows Update Agent], IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.idownloadprogresschangedcallbackargs, wuapi/IDownloadProgressChangedCallbackArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

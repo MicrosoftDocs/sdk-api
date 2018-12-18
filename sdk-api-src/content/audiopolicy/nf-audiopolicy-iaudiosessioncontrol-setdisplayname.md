@@ -9,8 +9,6 @@ ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, IAudioSessionControl.SetDisplayName, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

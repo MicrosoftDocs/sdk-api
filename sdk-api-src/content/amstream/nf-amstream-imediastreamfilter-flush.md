@@ -9,8 +9,6 @@ ms.assetid: 30b5d8f7-e3ab-48e4-aefe-3b3e04aba638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flush, Flush method [DirectShow], Flush method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],Flush method, IMediaStreamFilter.Flush, IMediaStreamFilter::Flush, IMediaStreamFilterFlush, amstream/IMediaStreamFilter::Flush, dshow.imediastreamfilter_flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -82,7 +80,7 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMUNIBBLE4.#ctor(uint16_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(uint16_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(uint16_t), dxmath.xmunibble4_ctor_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -54,7 +52,7 @@ Initializes a new instance of <code>XMUNIBBLE</code> from a <code>uint16_t</code
 	  containing component data in a packed format.
   
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a> from a
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a> from a
 	  <code>uint16_t</code> variable containing component data in a packed format.
   
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
@@ -117,11 +115,11 @@ The last 4 bits (bits 12-15) of <b>Packed</b> assigned, as an integer, to
 
 
 
-<a href="https://msdn.microsoft.com/12807b12-3f95-49fd-949c-f29eee2f44c3">XMUNIBBLE4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420614(v=VS.85).aspx">XMUNIBBLE4</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e185879-4bed-42fe-92da-f5d96ddb8be7">XMUNIBBLE4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415488(v=VS.85).aspx">XMUNIBBLE4 Constructors</a>
  
 
  

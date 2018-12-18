@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\list
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListBox_FindString, ListBox_FindString macro [Windows Controls], _win32_ListBox_FindString, _win32_ListBox_FindString_cpp, controls.ListBox_FindString, controls._win32_ListBox_FindString, windowsx/ListBox_FindString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

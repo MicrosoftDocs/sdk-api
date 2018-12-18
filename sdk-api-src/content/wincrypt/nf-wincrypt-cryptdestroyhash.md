@@ -9,8 +9,6 @@ ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

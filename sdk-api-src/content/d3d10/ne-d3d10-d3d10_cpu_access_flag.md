@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\d3d10_cpu_access_flag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9751a6d6-e112-7fe3-72df-bf449b5579c2, D3D10_CPU_ACCESS_FLAG, D3D10_CPU_ACCESS_FLAG enumeration [Direct3D 10], D3D10_CPU_ACCESS_READ, D3D10_CPU_ACCESS_WRITE, d3d10/D3D10_CPU_ACCESS_FLAG, d3d10/D3D10_CPU_ACCESS_READ, d3d10/D3D10_CPU_ACCESS_WRITE, direct3d10.d3d10_cpu_access_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

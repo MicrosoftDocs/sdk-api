@@ -9,8 +9,6 @@ ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindRange, FindRange method [Text Services Framework], FindRange method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],FindRange method, ITfProperty.FindRange, ITfProperty::FindRange, _tsf_itfproperty_findrange_ref, msctf/ITfProperty::FindRange, tsf.itfproperty_findrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

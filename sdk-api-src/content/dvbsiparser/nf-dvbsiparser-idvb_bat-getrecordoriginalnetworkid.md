@@ -9,8 +9,6 @@ ms.assetid: b59aaea4-4960-4c82-b949-e8372c1e3f4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_BAT.GetRecordOriginalNetworkId, IDVB_BAT::GetRecordOriginalNetworkId, IDVB_BATGetRecordOriginalNetworkId, dvbsiparser/IDVB_BAT::GetRecordOriginalNetworkId, mstv.idvb_bat_getrecordoriginalnetworkid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

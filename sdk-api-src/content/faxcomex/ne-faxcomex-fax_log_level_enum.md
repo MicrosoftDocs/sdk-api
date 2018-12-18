@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7u3x.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FAX_LOG_LEVEL_ENUM, FAX_LOG_LEVEL_ENUM enumeration [Fax Service], _mfax_fax_log_level_enum, fax._mfax_fax_log_level_enum, faxcomex/FAX_LOG_LEVEL_ENUM, faxcomex/fllMAX, faxcomex/fllMED, faxcomex/fllMIN, faxcomex/fllNONE, fllMAX, fllMED, fllMIN, fllNONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

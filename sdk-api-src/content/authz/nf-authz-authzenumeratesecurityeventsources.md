@@ -9,8 +9,6 @@ ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuthzEnumerateSecurityEventSources, AuthzEnumerateSecurityEventSources function [Security], authz/AuthzEnumerateSecurityEventSources, security.authzenumeratesecurityeventsources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: authz.h
 req.include-header: 

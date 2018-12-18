@@ -9,8 +9,6 @@ ms.assetid: 778ea065-9a92-4244-be16-23e716ccbb8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames.get_ItemByIndex, IAlternativeNames::ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex, security.ialternativenames_itembyindex_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374981(v=VS.85).aspx">IAlternativeName</a>
+<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374984(v=VS.85).aspx">IAlternativeNames</a>
+<a href="https://msdn.microsoft.com/6ebd5bd5-7bf3-43e3-9b72-47b2c9743174">IAlternativeNames</a>
  
 
  

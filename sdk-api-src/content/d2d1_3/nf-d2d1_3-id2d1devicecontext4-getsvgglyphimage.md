@@ -9,8 +9,6 @@ ms.assetid: 096ED0A3-6222-4DC4-9463-E90D36F2442A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSvgGlyphImage, GetSvgGlyphImage method [Direct2D], GetSvgGlyphImage method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],GetSvgGlyphImage method, ID2D1DeviceContext4.GetSvgGlyphImage, ID2D1DeviceContext4::GetSvgGlyphImage, d2d1_3/ID2D1DeviceContext4::GetSvgGlyphImage, direct2d.id2d1devicecontext4_getsvgglyphimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -144,7 +142,7 @@ On completion, contains the retrieved glyph image.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

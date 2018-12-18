@@ -9,8 +9,6 @@ ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3d3ae282-d2cd-48cf-a093-c8f5ef9cc29a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitRecordVariants, CommitRecordVariants method [COM+], CommitRecordVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],CommitRecordVariants method, ICrmCompensatorVariants.CommitRecordVariants, ICrmCompensatorVariants::CommitRecordVariants, _dtc_ICrmCompensatorVariants_CommitRecordVariants, comsvcs/ICrmCompensatorVariants::CommitRecordVariants, cos.icrmcompensatorvariants_commitrecordvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_segmentmaxduration.htm
 tech.root: pla
 ms.assetid: d958c7a7-0258-4db6-b650-14a61d59221b
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],SegmentMaxDuration property, IDataCollectorSet.SegmentMaxDuration, IDataCollectorSet.get_SegmentMaxDuration, IDataCollectorSet::SegmentMaxDuration, IDataCollectorSet::get_SegmentMaxDuration, IDataCollectorSet::put_SegmentMaxDuration, SegmentMaxDuration property [PLA], SegmentMaxDuration property [PLA],IDataCollectorSet interface, base.idatacollectorset_segmentmaxduration, get_SegmentMaxDuration, pla.idatacollectorset_segmentmaxduration, pla/IDataCollectorSet::SegmentMaxDuration, pla/IDataCollectorSet::get_SegmentMaxDuration, pla/IDataCollectorSet::put_SegmentMaxDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 84f3318e-6844-464e-b04b-e5e94b42dd8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIApplication interface, Flags property [RDP],RDPSRAPIApplication object, IRDPSRAPIApplication interface [RDP],Flags property, IRDPSRAPIApplication.Flags, IRDPSRAPIApplication.get_Flags, IRDPSRAPIApplication::Flags, IRDPSRAPIApplication::get_Flags, RDPSRAPIApplication object [RDP],Flags property, get_Flags, rdp.irdpsrapiapplication_flags, rdpencomapi/IRDPSRAPIApplication::Flags, rdpencomapi/IRDPSRAPIApplication::get_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

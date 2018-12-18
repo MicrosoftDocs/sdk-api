@@ -9,8 +9,6 @@ ms.assetid: cbc11006-a434-46f8-a78c-3b67e35ed32a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteStrokes, DeleteStrokes method [Tablet PC], DeleteStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],DeleteStrokes method, IInkDisp.DeleteStrokes, IInkDisp::DeleteStrokes, cbc11006-a434-46f8-a78c-3b67e35ed32a, msinkaut/IInkDisp::DeleteStrokes, tablet.inkdisp_deletestrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -185,7 +183,7 @@ The <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">In
 
 
 
-<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

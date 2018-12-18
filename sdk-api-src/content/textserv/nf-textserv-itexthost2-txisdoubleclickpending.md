@@ -9,8 +9,6 @@ ms.assetid: 24051A4F-70CD-4147-B623-BC818F3F9AF2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxIsDoubleClickPending method, ITextHost2.TxIsDoubleClickPending, ITextHost2::TxIsDoubleClickPending, TxIsDoubleClickPending, TxIsDoubleClickPending method [Windows Controls], TxIsDoubleClickPending method [Windows Controls],ITextHost2 interface, controls.itexthost2_txisdoubleclickpending, textserv/ITextHost2::TxIsDoubleClickPending
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

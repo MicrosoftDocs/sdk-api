@@ -9,8 +9,6 @@ ms.assetid: c6ed5c47-c2cb-4025-9b93-57db25b5cec5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_VideoFrequency method, IMSVidAnalogTuner.get_VideoFrequency, IMSVidAnalogTuner::get_VideoFrequency, IMSVidAnalogTunerget_VideoFrequency, get_VideoFrequency, get_VideoFrequency method [Microsoft TV Technologies], get_VideoFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_videofrequency, segment/IMSVidAnalogTuner::get_VideoFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -86,11 +84,11 @@ This method is intended for diagnostic and testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/d19552ce-1314-4217-9bd3-72369b4334cf">IAMTVTuner::get_VideoFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375979(v=VS.85).aspx">IAMTVTuner::get_VideoFrequency</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
  
 
  

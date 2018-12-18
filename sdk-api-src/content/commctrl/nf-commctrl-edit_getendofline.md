@@ -9,8 +9,6 @@ ms.assetid: 27B0CB7B-08BE-48FD-BF65-4F2B9C481A9C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_GetEndOfLine, Edit_GetEndOfLine macro [Windows Controls], commctrl/Edit_GetEndOfLine, controls.edit_getendofline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the end of line character used for the content of the edit control. You can use this macro or send the <a href="controls.em_getendofline">EM_GETENDOFLINE</a> message explicitly. 
+Gets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/BBFDC90E-A07A-4733-B817-BE9195C39110">EM_GETENDOFLINE</a> message explicitly. 
 
 
 ## -parameters

@@ -9,8 +9,6 @@ ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMVisual.SetIsHyperlinkTarget, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

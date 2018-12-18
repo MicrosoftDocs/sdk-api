@@ -9,8 +9,6 @@ ms.assetid: ab841bee-90a0-4beb-99d3-764e608c3872
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED, COPYFILE2_CALLBACK_ERROR, COPYFILE2_CALLBACK_POLL_CONTINUE, COPYFILE2_CALLBACK_STREAM_FINISHED, COPYFILE2_CALLBACK_STREAM_STARTED, COPYFILE2_MESSAGE, COPYFILE2_MESSAGE structure [Files], fs.copyfile2_message, winbase/COPYFILE2_MESSAGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

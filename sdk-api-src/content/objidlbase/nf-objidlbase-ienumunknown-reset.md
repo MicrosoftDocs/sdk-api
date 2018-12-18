@@ -9,8 +9,6 @@ ms.assetid: 54c60e75-1b23-4e89-af16-e551ed880a61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

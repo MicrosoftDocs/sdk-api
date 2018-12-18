@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgioutput.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1d09c573-df6d-db81-0dbe-3135c4704ef8, IDXGIOutput, IDXGIOutput interface [DXGI], IDXGIOutput interface [DXGI],described, direct3ddxgi.idxgioutput, dxgi/IDXGIOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

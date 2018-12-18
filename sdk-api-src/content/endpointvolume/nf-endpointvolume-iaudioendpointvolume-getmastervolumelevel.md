@@ -9,8 +9,6 @@ ms.assetid: 26e208e1-2291-4db6-857d-00b25d8fa343
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMasterVolumeLevel, GetMasterVolumeLevel method [Core Audio], GetMasterVolumeLevel method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMasterVolumeLevel method, IAudioEndpointVolume.GetMasterVolumeLevel, IAudioEndpointVolume::GetMasterVolumeLevel, IAudioEndpointVolumeGetMasterVolumeLevel, coreaudio.iaudioendpointvolume_getmastervolumelevel, endpointvolume/IAudioEndpointVolume::GetMasterVolumeLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 91438583-e4f1-456f-a130-2a45846fd725
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellView, IShellView interface [Windows Shell], IShellView interface [Windows Shell],described, _win32_IShellView, _win32_IShellView_cpp, shell.IShellView, shobjidl_core/IShellView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

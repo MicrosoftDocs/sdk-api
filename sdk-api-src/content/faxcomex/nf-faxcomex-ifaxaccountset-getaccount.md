@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\getaccoun
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAccount, GetAccount method [Fax Service], GetAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],GetAccount method, IFaxAccountSet.GetAccount, IFaxAccountSet::GetAccount, _mfax_faxaccountset.getaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_getaccount_cpp, fax._mfax_faxaccountset_getaccount, faxcomex/IFaxAccountSet::GetAccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Returns an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object by using the account name.
+Returns an <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object by using the account name.
 
 
 ## -parameters
@@ -75,9 +73,9 @@ TBD
 
 #### - ppFaxAccount [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>**</b>
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a> object.
+The address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a> object.
 
 
 ## -returns
@@ -105,11 +103,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ae298925-c428-420e-a0a2-ce3f72c5cff4">FaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358935(v=VS.85).aspx">FaxAccountSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4733772-92cb-4f4a-8a73-da1812356c30">IFaxAccountSet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359014(v=VS.85).aspx">IFaxAccountSet</a>
  
 
  

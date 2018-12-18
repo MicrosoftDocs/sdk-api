@@ -9,8 +9,6 @@ ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

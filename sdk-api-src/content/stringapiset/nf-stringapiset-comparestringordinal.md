@@ -9,8 +9,6 @@ ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: stringapiset.h
 req.include-header: Windows.h

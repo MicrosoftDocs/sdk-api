@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SwapMouseButton, SwapMouseButton function [Keyboard and Mouse Input], _win32_SwapMouseButton, _win32_swapmousebutton_cpp, inputdev.swapmousebutton, winui._win32_swapmousebutton, winuser/SwapMouseButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

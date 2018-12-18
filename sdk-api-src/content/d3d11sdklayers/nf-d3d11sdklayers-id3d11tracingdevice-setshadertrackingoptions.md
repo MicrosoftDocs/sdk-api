@@ -9,8 +9,6 @@ ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D11TracingDevice interface [Direct3D 11],SetShaderTrackingOptions method, ID3D11TracingDevice.SetShaderTrackingOptions, ID3D11TracingDevice::SetShaderTrackingOptions, SetShaderTrackingOptions, SetShaderTrackingOptions method [Direct3D 11], SetShaderTrackingOptions method [Direct3D 11],ID3D11TracingDevice interface, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions, direct3d11.id3d11tracingdevice_setshadertrackingoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 
@@ -61,19 +59,19 @@ Sets the reference rasterizer's race-condition tracking options for a specific s
 
 ### -param pShader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of a shader.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of a shader.
 
 
 ### -param Options [in]
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Hh404501(v=VS.85).aspx">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
+A combination of <a href="https://msdn.microsoft.com/20C152CD-B155-4B46-8F41-EDDEC60494DF">D3D11_SHADER_TRACKING_OPTIONS</a>-typed flags that are combined by using a bitwise <b>OR</b> operation. The resulting value identifies tracking options. If a flag is present, the tracking option that the flag represents is set to "on"; otherwise the tracking option is set to "off."
 
 
 ## -returns
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 return codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 return codes</a>.
 
 
 
@@ -94,7 +92,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446868(v=VS.85).aspx">ID3D11TracingDevice</a>
+<a href="https://msdn.microsoft.com/AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4">ID3D11TracingDevice</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f822b5a6-c88e-48c9-91f4-611a3f147fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAudioRenderer, IMSVidAudioRenderer interface [Microsoft TV Technologies], IMSVidAudioRenderer interface [Microsoft TV Technologies],described, IMSVidAudioRendererInterface, mstv.imsvidaudiorenderer, segment/IMSVidAudioRenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -73,7 +71,7 @@ The <b>IMSVidAudioRenderer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59def393-ab3d-41a8-968a-cd22429874a0">get_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694462(v=VS.85).aspx">get_Balance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the balance level.
@@ -82,7 +80,7 @@ Retrieves the balance level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dbbdb17-b077-4e36-a5d4-c8e343feb930">get_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694463(v=VS.85).aspx">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume level.
@@ -91,7 +89,7 @@ Retrieves the volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25a9231a-d34a-4657-be0a-fcc979d1745d">put_Balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694464(v=VS.85).aspx">put_Balance</a>
 </td>
 <td align="left" width="63%">
 Specifies the balance level.
@@ -100,7 +98,7 @@ Specifies the balance level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0fa96bb-a903-41e1-bd2a-6ef1733adbd4">put_Volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694465(v=VS.85).aspx">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Specifies the volume level.

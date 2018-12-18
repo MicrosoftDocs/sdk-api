@@ -9,8 +9,6 @@ ms.assetid: b4da9c6e-3235-4c78-b9e1-57c9d06fccbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MSVidCtlStateList, MSVidCtlStateList enumeration [Microsoft TV Technologies], MSVidCtlStateListEnumeration, STATE_PAUSE, STATE_PLAY, STATE_STOP, STATE_UNBUILT, enumeration [Microsoft TV Technologies], mstv.msvidctlstatelist, msvidctl/MSVidCtlStateList, msvidctl/STATE_PAUSE, msvidctl/STATE_PLAY, msvidctl/STATE_STOP, msvidctl/STATE_UNBUILT
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msvidctl.h
 req.include-header: Dshow.h
@@ -89,7 +87,7 @@ Indicates that the Video Control is playing.
 
 
 
-<a href="https://msdn.microsoft.com/0f7a5e37-5a0d-415e-aca0-df5f9448b017">IMSVidDeviceEvent::StateChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694523(v=VS.85).aspx">IMSVidDeviceEvent::StateChange</a>
 
 
 

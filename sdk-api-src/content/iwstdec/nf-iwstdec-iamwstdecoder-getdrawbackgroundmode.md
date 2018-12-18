@@ -9,8 +9,6 @@ ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 
@@ -64,7 +62,7 @@ Downstream filters use the <code>GetDrawBackgroundMode</code> method to determin
 
 ### -param lpMode [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/1c27f3e1-a097-4f0e-af01-62cf500a3264">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373506(v=VS.85).aspx">AM_WST_DRAWBGMODE</a> enumeration. This parameter receives one of the following values.
 
 <table>
 <tr>
@@ -103,7 +101,7 @@ When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/f2f5a459-14de-4be1-909c-3c23e4cfd737">IAMWstDecoder Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376041(v=VS.85).aspx">IAMWstDecoder Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 62cc28a8-6b0e-4ded-94e9-2ef3956cfd27
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??0CWbemGlueFactory@@QAE@XZ, ??0CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory constructor [Windows Management Instrumentation], CWbemGlueFactory constructor [Windows Management Instrumentation],CWbemGlueFactory interface, CWbemGlueFactory interface [Windows Management Instrumentation],CWbemGlueFactory constructor, CWbemGlueFactory.CWbemGlueFactory, CWbemGlueFactory.CWbemGlueFactory(PLONG), CWbemGlueFactory::CWbemGlueFactory, CWbemGlueFactory::CWbemGlueFactory(PLONG), wbemglue/CWbemGlueFactory::CWbemGlueFactory, wmi.cwbemgluefactory_cwbemgluefactory"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h
@@ -53,13 +51,13 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/1287cb02-695a-47df-88f6-0d9dfd6b81af">CWbemGlueFactory</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa389779(v=VS.85).aspx">CWbemGlueFactory</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <b>CWbemGlueFactory::CWbemGlueFactory</b>  constructor initializes a new instance of <a href="https://msdn.microsoft.com/1287cb02-695a-47df-88f6-0d9dfd6b81af">CWbemGlueFactory</a>. This class is part of the WMI Provider Framework.
+The <b>CWbemGlueFactory::CWbemGlueFactory</b>  constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Aa389779(v=VS.85).aspx">CWbemGlueFactory</a>. This class is part of the WMI Provider Framework.
 
 
 ## -parameters
@@ -86,7 +84,7 @@ The destructor for the class is <b>CWbemGlueFactory::~CWbemGlueFactory.</b>
 
 
 
-<a href="https://msdn.microsoft.com/1287cb02-695a-47df-88f6-0d9dfd6b81af">CWbemGlueFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa389779(v=VS.85).aspx">CWbemGlueFactory</a>
  
 
  

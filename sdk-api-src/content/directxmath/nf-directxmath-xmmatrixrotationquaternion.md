@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixRotationQuaternion(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMMatrixRotationQuaternion, XMMatrixRotationQuaternion, XMMatrixRotationQuaternion method [DirectX Math Support APIs], dxmath.xmmatrixrotationquaternion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

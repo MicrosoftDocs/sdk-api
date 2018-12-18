@@ -9,8 +9,6 @@ ms.assetid: abbce425-9185-4235-8d8e-28be591be8e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -58,7 +56,7 @@ The <b>IWMPPlayerServices2</b> interface provides a method used by the host of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices2</b> interface inherits from <a href="https://msdn.microsoft.com/abbce425-9185-4235-8d8e-28be591be8e5">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563534(v=VS.85).aspx">IWMPPlayerServices2</a>. <b>IWMPPlayerServices2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +71,7 @@ The <b>IWMPPlayerServices2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e3536d2-006b-4019-a9c5-c460135cf555">setBackgroundProcessingPriority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563535(v=VS.85).aspx">setBackgroundProcessingPriority</a>
 </td>
 <td align="left" width="63%">
 Specifies a priority level for general background processing tasks.
@@ -91,11 +89,11 @@ Retrieve a pointer to an <b>IWMPPlayerServices2</b> interface by calling the COM
 
 
 
-<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/abbce425-9185-4235-8d8e-28be591be8e5">IWMPPlayerServices2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563534(v=VS.85).aspx">IWMPPlayerServices2</a>
 
 
 

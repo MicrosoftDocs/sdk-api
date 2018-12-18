@@ -9,8 +9,6 @@ ms.assetid: 61af7ce9-7fc6-4907-b423-3e6d2d8f39ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newPlaylist method, IWMPCore3.newPlaylist, IWMPCore3::newPlaylist, IWMPCore3newPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newplaylist, wmp/IWMPCore3::newPlaylist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -122,19 +120,19 @@ Because the library allows multiple playlists with the same name, you may want t
 
 
 
-<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/421a1bd3-65c1-4d8f-be75-918b1cfa06d2">IWMPPlaylistCollection::importPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563556(v=VS.85).aspx">IWMPPlaylistCollection::importPlaylist</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ad51469-a150-4322-ac16-782ef0d96a57">IWMPPlaylistCollection::newPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563558(v=VS.85).aspx">IWMPPlaylistCollection::newPlaylist</a>
  
 
  

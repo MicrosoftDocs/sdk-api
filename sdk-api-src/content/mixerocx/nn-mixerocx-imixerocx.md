@@ -9,8 +9,6 @@ ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mixerocx.h
 req.include-header: 
@@ -76,25 +74,16 @@ The <b>IMixerOCX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6708fc46-19cb-4843-9c9d-99ff67ee6d08">Advise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407089(v=VS.85).aspx">Advise</a>
 </td>
 <td align="left" width="63%">
-Provides the Overlay Mixer with a pointer to the client's <a href="https://msdn.microsoft.com/b73416c0-2312-4164-8a6d-f8776dc1447f">IMixerOCXNotify</a> interface for callback notifications.
+Provides the Overlay Mixer with a pointer to the client's <a href="https://msdn.microsoft.com/en-us/library/Dd407085(v=VS.85).aspx">IMixerOCXNotify</a> interface for callback notifications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6143ba3c-6472-47d3-b3ca-55c06ca8da0e">GetAspectRatio</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2be28eec-99cd-4a4e-91fc-77bb51ec6fb3">GetStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407090(v=VS.85).aspx">GetAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -103,7 +92,16 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4cc71b6-23a5-4610-ac59-06484af6d0b4">GetVideoSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407091(v=VS.85).aspx">GetStatus</a>
+</td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/en-us/library/Dd407092(v=VS.85).aspx">GetVideoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current size of the video rectangle.
@@ -112,7 +110,7 @@ Retrieves the current size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d082ab6-6195-417b-ad0d-b8e97561b268">OnDisplayChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407093(v=VS.85).aspx">OnDisplayChange</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -121,7 +119,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69b8752b-9f97-422e-8a9a-f49c7a472cb6">OnDraw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407094(v=VS.85).aspx">OnDraw</a>
 </td>
 <td align="left" width="63%">
 Instructs the Overlay Mixer to draw the video rectangle.
@@ -130,7 +128,7 @@ Instructs the Overlay Mixer to draw the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f1a9b00-4a35-4772-a185-59b2bc9b9398">SetDrawRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407095(v=VS.85).aspx">SetDrawRegion</a>
 </td>
 <td align="left" width="63%">
 Specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
@@ -139,7 +137,7 @@ Specifies the location and dimensions of the video and clipping rectangles in sc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c2837c6-ee0f-45f4-b98a-9b8957e75b48">UnAdvise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407096(v=VS.85).aspx">UnAdvise</a>
 </td>
 <td align="left" width="63%">
 Instructs the Overlay Mixer to release its pointer to the client's <b>IMixerOCXNotify</b> interface.

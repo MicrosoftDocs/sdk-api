@@ -9,8 +9,6 @@ ms.assetid: 7c3f6ccb-7a42-4a48-90ad-dba99c67aa6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary.CreateDiscreteTransition, IUIAnimationTransitionLibrary::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

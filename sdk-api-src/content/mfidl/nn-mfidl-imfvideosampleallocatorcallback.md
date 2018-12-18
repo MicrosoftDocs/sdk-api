@@ -9,8 +9,6 @@ ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

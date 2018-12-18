@@ -9,8 +9,6 @@ ms.assetid: 99842f92-b57d-43fa-aa44-412f260b8af3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Description method, IUPnPDevice.get_Description, IUPnPDevice::get_Description, _upnp_iupnpdevice_description, get_Description, get_Description method [UPnP APIs], get_Description method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_description, upnp/IUPnPDevice::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

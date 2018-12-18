@@ -9,8 +9,6 @@ ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

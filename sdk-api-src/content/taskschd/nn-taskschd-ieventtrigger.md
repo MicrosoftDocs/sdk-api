@@ -9,8 +9,6 @@ ms.assetid: 23b7ecb9-d2bb-441a-8c93-126c833f99b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

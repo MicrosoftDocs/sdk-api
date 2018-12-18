@@ -9,8 +9,6 @@ ms.assetid: 7655ddb2-7cd4-4012-913c-9909fcea639a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FNFDINOTIFY, FNFDINOTIFY macro [Windows API], fdi/FNFDINOTIFY, fdintCABINET_INFO, fdintCLOSE_FILE_INFO, fdintCOPY_FILE, fdintENUMERATE, fdintNEXT_CABINET, fdintPARTIAL_FILE, winprog.fnfdinotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 
@@ -76,7 +74,7 @@ The type of notification.
 <td width="60%">
 General information about the cabinet.
 
-When this value is set, the <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a>  structure is populated with the following information:
+When this value is set, the <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a>  structure is populated with the following information:
 
 <ul>
 <li><b>psz1</b> will point to the name of the next cabinet (excluding path information)</li>
@@ -98,7 +96,7 @@ The application should return 0 to indicate success, or -1 to indicate failure, 
 <td width="60%">
 First file in the cabinet is a continuation of a file from previous cabinet.
 
-When this value is set, the <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a> structure is populated with the following information:
+When this value is set, the <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a> structure is populated with the following information:
 
 <ul>
 <li><b>psz1</b> will point to the name of the file continued from a previous cabinet</li>
@@ -118,7 +116,7 @@ The <b>fdintPARTIAL_FILE</b> notification is called for files at the beginning o
 <td width="60%">
 Information identifying the file to be copied.
 
-When this value is set, the <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a> structure is populated with the following information:
+When this value is set, the <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a> structure is populated with the following information:
 
 <ul>
 <li><b>psz1</b>will point to the name of a file in the cabinet; cb will equal the uncompressed size of the file</li>
@@ -139,7 +137,7 @@ The application should return one of three values; 0 to skip (i.e. not copy) the
 <td width="60%">
 Close the file, set relevant information.
 
-When this value is set, the <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a> structure is populated with the following information:
+When this value is set, the <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a> structure is populated with the following information:
 
 <ul>
 <li><b>psz1</b>will point to the name of a file in the cabinet</li>
@@ -162,7 +160,7 @@ It is the responsibility of the application to execute the file if <b>cb</b> equ
 <td width="60%">
 File continued to next cabinet.
 
-When this value is set, the <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a> structure is populated with the following information: 
+When this value is set, the <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a> structure is populated with the following information: 
 
 <ul>
 <li><b>psz1</b>will point to the name of the next cabinet on which the current file is continued</li>
@@ -204,7 +202,7 @@ Enumeration status.
 
 #### - pfdin
 
-Pointer to an <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a> structure that contains notification information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a> structure that contains notification information.
 
 
 ## -see-also
@@ -216,7 +214,7 @@ Pointer to an <a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d0
 
 
 
-<a href="https://msdn.microsoft.com/8b92226e-b19a-4624-925e-4a98d037637d">FDINOTIFICATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff797928(v=VS.85).aspx">FDINOTIFICATION</a>
  
 
  

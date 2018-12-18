@@ -9,8 +9,6 @@ ms.assetid: e8362d52-ed20-444e-86ab-26c9eac3087c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_RecoveredPackets method, IAMNetworkStatus.get_RecoveredPackets, IAMNetworkStatus::get_RecoveredPackets, IAMNetworkStatusget_RecoveredPackets, dshow.iamnetworkstatus_get_recoveredpackets, get_RecoveredPackets, get_RecoveredPackets method [DirectShow], get_RecoveredPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_RecoveredPackets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/51d56b76-f9fc-44e1-88f0-d35d861a4697">IAMNetworkStatus Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319732(v=VS.85).aspx">IAMNetworkStatus Interface</a>
  
 
  

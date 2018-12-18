@@ -9,8 +9,6 @@ ms.assetid: 3a5f0c18-f73a-461e-b3cf-48742e74fed3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFileSize, GetFileSize method [windows Media Format], GetFileSize method [windows Media Format],IWMWriterFileSink2 interface, IWMWriterFileSink2 interface [windows Media Format],GetFileSize method, IWMWriterFileSink2.GetFileSize, IWMWriterFileSink2::GetFileSize, IWMWriterFileSink2GetFileSize, wmformat.iwmwriterfilesink2_getfilesize, wmsdkidl/IWMWriterFileSink2::GetFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,7 +111,7 @@ The <i>pcbFile</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
  
 
  

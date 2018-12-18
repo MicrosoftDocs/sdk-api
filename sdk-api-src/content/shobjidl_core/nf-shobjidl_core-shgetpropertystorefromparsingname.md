@@ -9,8 +9,6 @@ ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: 
@@ -74,9 +72,9 @@ A pointer to a <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfc
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
-One or more values from the <a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
+One or more values from the <a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> constants. This parameter can also be <b>NULL</b>.
 
 
 ### -param riid [in]
@@ -90,7 +88,7 @@ A reference to the desired interface ID.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or a related interface.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a> or a related interface.
 
 
 ## -returns

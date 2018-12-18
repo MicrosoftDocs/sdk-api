@@ -9,8 +9,6 @@ ms.assetid: 728df998-748b-4c53-b5a6-3a6ccae0d7e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFormatCapability, GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetFormatCapability method, IWMDMDevice3.GetFormatCapability, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

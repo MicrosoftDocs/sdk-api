@@ -9,8 +9,6 @@ ms.assetid: BEF74F58-D218-46CA-AE02-F15DDAC48FB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgElement interface [Direct2D],ReplaceChild method, ID2D1SvgElement.ReplaceChild, ID2D1SvgElement::ReplaceChild, ReplaceChild, ReplaceChild method [Direct2D], ReplaceChild method [Direct2D],ID2D1SvgElement interface, d2d1svg/ID2D1SvgElement::ReplaceChild, direct2d.id2d1svgelement_replacechild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -78,7 +76,7 @@ The child element to be replaced. The oldChild element must be an immediate chil
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. Returns an error if
             this element cannot accept children of the type of newChild. Returns an error if

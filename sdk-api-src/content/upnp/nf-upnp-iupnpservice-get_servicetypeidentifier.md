@@ -9,8 +9,6 @@ ms.assetid: 440344c9-b229-421b-b8a7-76f2f98c2c6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_ServiceTypeIdentifier method, IUPnPService.get_ServiceTypeIdentifier, IUPnPService::get_ServiceTypeIdentifier, _upnp_iupnpservice_servicetypeidentifier, get_ServiceTypeIdentifier, get_ServiceTypeIdentifier method [UPnP APIs], get_ServiceTypeIdentifier method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_servicetypeidentifier, upnp/IUPnPService::get_ServiceTypeIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: upnp.h
 req.include-header: 
@@ -61,7 +59,7 @@ The
 
 ### -param pVal [out]
 
-Receives a reference to a string that contains the service type identifier. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the service type identifier. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
 
 
 ## -returns

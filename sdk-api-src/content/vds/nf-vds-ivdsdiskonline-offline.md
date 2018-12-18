@@ -9,8 +9,6 @@ ms.assetid: 3f27dd46-2fa1-4522-9d35-db78255c6d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

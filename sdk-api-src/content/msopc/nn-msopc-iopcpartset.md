@@ -7,10 +7,8 @@ old-location: opc\iopcpartset.htm
 tech.root: OPC
 ms.assetid: f34c682f-7677-4d20-bd37-b1a68293d85c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: IOpcPartSet, IOpcPartSet interface [Open Packaging Conventions], IOpcPartSet interface [Open Packaging Conventions],described, msopc/IOpcPartSet, opc.iopcpartset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

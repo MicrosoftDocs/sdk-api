@@ -7,10 +7,8 @@ old-location: policy\igpeinformation_policychanged.htm
 tech.root: policy
 ms.assetid: 4c36fbcb-2adb-4c32-87d3-efcd55dbaf3e
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IGPEInformation interface [Group Policy],PolicyChanged method, IGPEInformation.PolicyChanged, IGPEInformation::PolicyChanged, PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy],IGPEInformation interface, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

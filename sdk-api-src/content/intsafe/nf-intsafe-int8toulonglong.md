@@ -9,8 +9,6 @@ ms.assetid: a4d35228-ad57-4bd5-b1da-b35983c1ed0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Int8ToULongLong, Int8ToULongLong function [Windows Shell], intsafe/Int8ToULongLong, shell.Int8ToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

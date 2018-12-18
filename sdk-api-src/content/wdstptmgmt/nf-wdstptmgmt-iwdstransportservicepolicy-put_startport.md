@@ -9,8 +9,6 @@ ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.put_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, put_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

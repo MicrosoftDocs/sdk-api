@@ -9,8 +9,6 @@ ms.assetid: a63dab9e-0644-4a24-9762-8cc8a4f6ea05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcSsSetClientAllocFree, RpcSsSetClientAllocFree function [RPC], _rpc_rpcsssetclientallocfree, rpc.rpcsssetclientallocfree, rpcndr/RpcSsSetClientAllocFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

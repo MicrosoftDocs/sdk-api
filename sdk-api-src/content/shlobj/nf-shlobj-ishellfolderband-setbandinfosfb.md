@@ -9,8 +9,6 @@ ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure to set the band information for a <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object.
+Uses the information in a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure to set the band information for a <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object.
 
 
 ## -parameters
@@ -62,7 +60,7 @@ Uses the information in a <a href="https://msdn.microsoft.com/7067f563-383d-469f
 
 Type: <b>PBANDINFOSFB</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure.
 
 
 ## -returns

@@ -9,8 +9,6 @@ ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

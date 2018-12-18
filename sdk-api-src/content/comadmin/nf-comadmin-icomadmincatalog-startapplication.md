@@ -9,8 +9,6 @@ ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StartApplication method, ICOMAdminCatalog.StartApplication, ICOMAdminCatalog::StartApplication, StartApplication, StartApplication method [COM+], StartApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StartApplication, comadmin/ICOMAdminCatalog::StartApplication, cos.icomadmincatalog_startapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -77,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

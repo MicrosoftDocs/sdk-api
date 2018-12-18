@@ -9,8 +9,6 @@ ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

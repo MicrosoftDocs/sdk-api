@@ -9,8 +9,6 @@ ms.assetid: bcb9d712-35b6-4dfc-91dc-dd376950e1e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

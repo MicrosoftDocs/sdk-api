@@ -9,8 +9,6 @@ ms.assetid: ed9db33a-9a04-4c1f-9996-6821f853a212
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_waveOutGetID, mmeapi/waveOutGetID, multimedia.waveoutgetid, waveOutGetID, waveOutGetID function [Windows Multimedia]"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

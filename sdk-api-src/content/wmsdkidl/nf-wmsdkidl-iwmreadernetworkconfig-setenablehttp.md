@@ -9,8 +9,6 @@ ms.assetid: 20667a28-e6e0-4ec0-905b-6735291063db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableHTTP method, IWMReaderNetworkConfig.SetEnableHTTP, IWMReaderNetworkConfig::SetEnableHTTP, IWMReaderNetworkConfigSetEnableHTTP, SetEnableHTTP, SetEnableHTTP method [windows Media Format], SetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablehttp, wmsdkidl/IWMReaderNetworkConfig::SetEnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -122,11 +120,11 @@ This setting applies only to a protocol rollover or MMS:// URL. Even if this set
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3">IWMReaderNetworkConfig::GetEnableHTTP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743522(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableHTTP</a>
  
 
  

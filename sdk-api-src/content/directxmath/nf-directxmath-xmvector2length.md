@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Length(XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2Length, XMVector2Length, XMVector2Length method [DirectX Math Support APIs], dxmath.xmvector2length
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -91,11 +89,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/acaead41-450c-4589-ac6f-a5a266e012f4">XMVector2LengthEst</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420776(v=VS.85).aspx">XMVector2LengthEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ed393dd-5c81-46ca-9557-2f9cfc8ea13b">XMVector2LengthSq</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420778(v=VS.85).aspx">XMVector2LengthSq</a>
  
 
  

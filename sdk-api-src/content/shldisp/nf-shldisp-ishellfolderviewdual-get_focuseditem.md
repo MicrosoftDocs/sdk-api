@@ -9,8 +9,6 @@ ms.assetid: e3e70cbe-51df-4749-8c6c-f3a43b33c436
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_FocusedItem method, IShellFolderViewDual.get_FocusedItem, IShellFolderViewDual::get_FocusedItem, _shell_IShellFolderViewDual_get_FocusedItem, get_FocusedItem, get_FocusedItem method [Windows Shell], get_FocusedItem method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_FocusedItem, shldisp/IShellFolderViewDual::get_FocusedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the FolderItem object that represents the item that has input focus.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf2-1b7becf16e66">FolderItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787810(v=VS.85).aspx">FolderItem</a>**</b>
 
 The FolderItem object with input focus.
 

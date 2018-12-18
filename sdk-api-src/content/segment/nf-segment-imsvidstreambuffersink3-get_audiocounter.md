@@ -9,8 +9,6 @@ ms.assetid: 8947b90e-4fb6-419a-8207-fa86ec25d40c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_AudioCounter method, IMSVidStreamBufferSink3.get_AudioCounter, IMSVidStreamBufferSink3::get_AudioCounter, IMSVidStreamBufferSink3get_AudioCounter, get_AudioCounter, get_AudioCounter method [Microsoft TV Technologies], get_AudioCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_audiocounter, segment/IMSVidStreamBufferSink3::get_AudioCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -102,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/5768936b-9c0a-4177-82da-cc6ebe62ea67">IMSVidStreamBufferSink3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694627(v=VS.85).aspx">IMSVidStreamBufferSink3 Interface</a>
  
 
  

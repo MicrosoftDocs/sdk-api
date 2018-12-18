@@ -9,8 +9,6 @@ ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ExposureRelative method, ICameraControl.get_ExposureRelative, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ExposureRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <code>get_ExposureRelative</code> method returns the camera's relative expos
 
 ### -param pValue [out]
 
-Receives the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/ab46e893-037a-42bb-a3ae-bef943cd6a5e">ICameraControl::getRange_ExposureRelative</a>.
+Receives the relative exposure. To get the range of possible values, call <a href="https://msdn.microsoft.com/en-us/library/Dd376300(v=VS.85).aspx">ICameraControl::getRange_ExposureRelative</a>.
 
 <table>
 <tr>
@@ -88,7 +86,7 @@ Receives the relative exposure. To get the range of possible values, call <a hre
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -109,7 +107,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

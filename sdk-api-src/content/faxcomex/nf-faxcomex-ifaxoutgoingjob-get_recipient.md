@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_7bhw_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Recipient property, IFaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.recipient_cpp, fax._mfax_faxoutgoingjob_recipient_cpp, faxcomex/IFaxOutgoingJob::Recipient, faxcomex/IFaxOutgoingJob::get_Recipient, get_Recipient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -68,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/3b7c9ecb-0528-4cda-9c9a-cb31e4589c71">IFaxOutgoingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>
 
 
 

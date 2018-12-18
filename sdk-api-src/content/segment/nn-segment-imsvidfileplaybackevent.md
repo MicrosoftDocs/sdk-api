@@ -9,8 +9,6 @@ ms.assetid: 7dd435a1-8cd4-45c5-8250-770b629d3f3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidFilePlaybackEvent, IMSVidFilePlaybackEvent interface [Microsoft TV Technologies], IMSVidFilePlaybackEvent interface [Microsoft TV Technologies],described, IMSVidFilePlaybackEventInterface, mstv.imsvidfileplaybackevent, segment/IMSVidFilePlaybackEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -75,7 +73,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/7347601e-e889-4a45-8b94-081678df68d9">IMSVidPlaybackEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694587(v=VS.85).aspx">IMSVidPlaybackEvent</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 1fe9b753-5ac1-4b6f-9538-5259870404ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSH_ALLOWDROPDESCRIPTIONTEXT, IDragSourceHelper2 interface [Windows Shell],SetFlags method, IDragSourceHelper2.SetFlags, IDragSourceHelper2::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IDragSourceHelper2 interface, _shell_IDragSourceHelper2_SetFlags, shell.IDragSourceHelper2_SetFlags, shobjidl/IDragSourceHelper2::SetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 
@@ -68,7 +66,7 @@ The flags that determine the characteristics of a drag-and-drop operation over a
 
 #### DSH_ALLOWDROPDESCRIPTIONTEXT (0x0001)
 
-Allow text specified in <a href="https://msdn.microsoft.com/78757001-cac8-412d-a6c3-74bae6eb3ad8">DROPDESCRIPTION</a> to be displayed on the drag image. If you pass this flag into the <i>dwFlags</i> parameter of <b>IDragSourceHelper2::SetFlags</b>, then the text description is rendered on top of the supplied drag image. If you pass a drag image into an <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a> object, then by default, the extra text description of the drag-and-drop operation is not displayed.
+Allow text specified in <a href="https://msdn.microsoft.com/en-us/library/Bb773268(v=VS.85).aspx">DROPDESCRIPTION</a> to be displayed on the drag image. If you pass this flag into the <i>dwFlags</i> parameter of <b>IDragSourceHelper2::SetFlags</b>, then the text description is rendered on top of the supplied drag image. If you pass a drag image into an <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a> object, then by default, the extra text description of the drag-and-drop operation is not displayed.
 
 
 ## -returns

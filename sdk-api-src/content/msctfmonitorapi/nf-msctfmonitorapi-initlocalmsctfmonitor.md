@@ -9,8 +9,6 @@ ms.assetid: d382afea-e30a-4aeb-a357-551fee6229ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILMCM_CHECKLAYOUTANDTIPENABLED, ILMCM_LANGUAGEBAROFF, InitLocalMsCtfMonitor, InitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/InitLocalMsCtfMonitor, tsf.InitLocalMsCtfMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msctfmonitorapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e58c69ce-032a-4024-9023-53cd1776b7f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Application_NewDeserializer, MI_Application_NewDeserializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDeserializer, wmi_v2.mi_application_newdeserializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

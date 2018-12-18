@@ -9,8 +9,6 @@ ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 
@@ -75,7 +73,7 @@ The <b>IWMPSubscriptionServiceCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a6775b5-a909-49b1-98e8-ccc110294df6">onComplete</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563704(v=VS.85).aspx">onComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies the Player when a background process is completed.

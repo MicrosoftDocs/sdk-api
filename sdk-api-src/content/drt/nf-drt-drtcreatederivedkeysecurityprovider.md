@@ -7,10 +7,8 @@ old-location: p2p\drtcreatederivedkeysecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: e4cc8326-e2bc-459f-97dd-a00cfd1ed35e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: drt.h
 req.include-header: 

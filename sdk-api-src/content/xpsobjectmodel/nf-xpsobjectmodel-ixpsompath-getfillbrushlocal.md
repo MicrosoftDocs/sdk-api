@@ -9,8 +9,6 @@ ms.assetid: 5c5a7150-19d6-40aa-871b-5600c0b0a947
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFillBrushLocal, GetFillBrushLocal method [XPS Documents and Packaging], GetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrushLocal method, IXpsOMPath.GetFillBrushLocal, IXpsOMPath::GetFillBrushLocal, xps.ixpsompath_getfillbrushlocal, xpsobjectmodel/IXpsOMPath::GetFillBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

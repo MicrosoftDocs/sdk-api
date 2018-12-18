@@ -9,8 +9,6 @@ ms.assetid: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8, GetPacketDescriptionData, GetPacketDescriptionData method [Tablet PC], GetPacketDescriptionData method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetPacketDescriptionData method, IRealTimeStylus.GetPacketDescriptionData, IRealTimeStylus::GetPacketDescriptionData, rtscom/IRealTimeStylus::GetPacketDescriptionData, tablet.irealtimestylus_getpacketdescriptiondata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

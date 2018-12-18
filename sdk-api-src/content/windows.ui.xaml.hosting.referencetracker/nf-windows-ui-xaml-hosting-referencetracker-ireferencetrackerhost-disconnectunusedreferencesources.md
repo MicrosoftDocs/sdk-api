@@ -9,8 +9,6 @@ ms.assetid: c962299e-f813-45b8-a83b-1c1887e8c0f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisconnectUnusedReferenceSources, DisconnectUnusedReferenceSources method [Windows Runtime], DisconnectUnusedReferenceSources method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],DisconnectUnusedReferenceSources method, IReferenceTrackerHost.DisconnectUnusedReferenceSources, IReferenceTrackerHost.xaml, IReferenceTrackerHost::DisconnectUnusedReferenceSources, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::DisconnectUnusedReferenceSources, winrt.ireferencetrackerhost_disconnectunusedreferencesources
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

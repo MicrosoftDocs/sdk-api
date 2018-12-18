@@ -9,8 +9,6 @@ ms.assetid: 22cc005f-6d34-f701-ff83-63ba819ab651
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory3.CreateFontCollectionFromFontSet, IDWriteFactory3::CreateFontCollectionFromFontSet, directwrite.idwritefactory3_createfontcollectionfromfontset, dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -60,14 +58,14 @@ Create a weight/width/slope tree from a set of fonts.
 
 ### -param fontSet
 
-Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>*</b>
 
 A set of fonts to use to build the collection.
 
 
 ### -param fontCollection [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bdee031b-53fa-321d-5cdc-4cc2c7ec58ca">IDWriteFontCollection1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933224(v=VS.85).aspx">IDWriteFontCollection1</a>**</b>
 
 Holds the newly created font collection object, or NULL in case of failure.
 
@@ -88,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

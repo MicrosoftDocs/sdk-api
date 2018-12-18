@@ -9,8 +9,6 @@ ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: expandedresources.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

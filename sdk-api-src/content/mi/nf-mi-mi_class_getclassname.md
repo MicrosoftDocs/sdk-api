@@ -9,8 +9,6 @@ ms.assetid: 405639e7-74b0-4cda-9883-f8442976200a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Class_GetClassName, MI_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassName, wmi_v2.mi_class_getclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

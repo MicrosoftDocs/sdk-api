@@ -9,8 +9,6 @@ ms.assetid: 4c6f9159-fac2-431e-bbdf-c35c4cdb25ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base.shutdownblockreasoncreate, winuser/ShutdownBlockReasonCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

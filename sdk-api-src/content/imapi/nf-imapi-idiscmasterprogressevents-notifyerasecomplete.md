@@ -9,8 +9,6 @@ ms.assetid: 17a0debe-919d-4db7-bcbb-eb4fc9973d83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyEraseComplete method, IDiscMasterProgressEvents.NotifyEraseComplete, IDiscMasterProgressEvents::NotifyEraseComplete, NotifyEraseComplete, NotifyEraseComplete method [IMAPI], NotifyEraseComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyerasecomplete, base.idiscmasterprogressevents_notifyerasecomplete, imapi.idiscmasterprogressevents_notifyerasecomplete, imapi/IDiscMasterProgressEvents::NotifyEraseComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

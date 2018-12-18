@@ -1,0 +1,95 @@
+---
+UID: NS:wlanapi._WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+title: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+author: windows-sdk-content
+description: Contains information about the security settings on the wireless Hosted Network.
+old-location: nwifi\wlan_hosted_network_security_settings.htm
+tech.root: NativeWiFi
+ms.assetid: b86beb10-52e5-4bc0-95fe-08307f8d1ccd
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure [NativeWIFI], nwifi.wlan_hosted_network_security_settings, wlanapi/PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS, wlanapi/WLAN_HOSTED_NETWORK_SECURITY_SETTINGS"
+ms.topic: struct
+req.header: wlanapi.h
+req.include-header: Wlanapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wlanapi.h
+api_name:
+ - WLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+product: Windows
+targetos: Windows
+req.typenames: WLAN_HOSTED_NETWORK_SECURITY_SETTINGS, *PWLAN_HOSTED_NETWORK_SECURITY_SETTINGS
+req.redist: 
+---
+
+# WLAN_HOSTED_NETWORK_SECURITY_SETTINGS structure
+
+
+## -description
+
+
+The <b>WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</b> structure contains information about the security settings on the wireless Hosted Network.
+
+
+## -struct-fields
+
+
+
+
+### -field dot11AuthAlgo
+
+The authentication algorithm used by the wireless Hosted Network.
+
+
+### -field dot11CipherAlgo
+
+The cipher algorithm used by the wireless Hosted Network.
+
+
+## -remarks
+
+
+
+The <b>WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</b>  structure is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and  later.  
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ac4097df-46dc-4c64-b72a-7cb9dce8b418">DOT11_AUTH_ALGORITHM</a>
+
+
+
+<a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT11_CIPHER_ALGORITHM</a>
+
+
+
+<a href="https://msdn.microsoft.com/bab05629-c921-4639-94db-25f77742dbd3">WlanHostedNetworkQueryProperty</a>
+ 
+
+ 
+

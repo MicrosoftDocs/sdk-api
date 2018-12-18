@@ -9,8 +9,6 @@ ms.assetid: 39731e6a-cfd7-48c5-9107-bf5373dfeb4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetClientInfo, GetClientInfo method [windows Media Format], GetClientInfo method [windows Media Format],IWMClientConnections2 interface, IWMClientConnections2 interface [windows Media Format],GetClientInfo method, IWMClientConnections2.GetClientInfo, IWMClientConnections2::GetClientInfo, IWMClientConnections2GetClientInfo, wmformat.iwmclientconnections2_getclientinfo, wmsdkidl/IWMClientConnections2::GetClientInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,7 +111,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/7148dd13-e5de-4adb-89e7-3f02a463c2d1">IWMClientConnections2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743304(v=VS.85).aspx">IWMClientConnections2 Interface</a>
  
 
  

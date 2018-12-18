@@ -9,8 +9,6 @@ ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

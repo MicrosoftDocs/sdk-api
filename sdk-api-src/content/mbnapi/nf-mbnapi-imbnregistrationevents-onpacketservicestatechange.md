@@ -9,8 +9,6 @@ ms.assetid: 19199009-a4ac-4bf9-adfc-46c06d861485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnPacketServiceStateChange method, IMbnRegistrationEvents.OnPacketServiceStateChange, IMbnRegistrationEvents::OnPacketServiceStateChange, OnPacketServiceStateChange, OnPacketServiceStateChange method [Microsoft Broadband Networks], OnPacketServiceStateChange method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onpacketservicestatechange, mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

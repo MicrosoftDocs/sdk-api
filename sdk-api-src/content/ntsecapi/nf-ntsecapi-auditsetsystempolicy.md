@@ -9,8 +9,6 @@ ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

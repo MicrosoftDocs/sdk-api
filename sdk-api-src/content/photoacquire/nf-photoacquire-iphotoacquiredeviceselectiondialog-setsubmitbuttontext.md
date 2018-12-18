@@ -9,8 +9,6 @@ ms.assetid: 4685c4b8-8c56-4be1-a73f-6d984449d227
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetSubmitButtonText method, IPhotoAcquireDeviceSelectionDialog.SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, IPhotoAcquireDeviceSelectionDialogSetPrompt, SetSubmitButtonText, SetSubmitButtonText method [Picture Acquisition], SetSubmitButtonText method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetSubmitButtonText, picacq.iphotoacquiredeviceselectiondialog_setprompt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

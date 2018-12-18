@@ -9,8 +9,6 @@ ms.assetid: 380e0e3a-b5c5-4d31-8793-417262377fef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 380e0e3a-b5c5-4d31-8793-417262377fef, GetAllocatedBlob, GetAllocatedBlob method [Media Foundation], GetAllocatedBlob method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetAllocatedBlob method, IMFAttributes.GetAllocatedBlob, IMFAttributes::GetAllocatedBlob, mf.imfattributes_getallocatedblob, mfobjects/IMFAttributes::GetAllocatedBlob
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

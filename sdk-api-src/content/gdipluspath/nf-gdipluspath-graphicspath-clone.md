@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],Clone method, GraphicsPath.Clone, GraphicsPath::Clone, _gdiplus_CLASS_GraphicsPath_Clone_, gdiplus._gdiplus_CLASS_GraphicsPath_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

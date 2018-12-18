@@ -9,8 +9,6 @@ ms.assetid: 6e89b558-bb58-4ef9-86f5-447d5cb0a946
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisassociateIdentity, DisassociateIdentity method [Security], DisassociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],DisassociateIdentity method, IAssociatedIdentityProvider.DisassociateIdentity, IAssociatedIdentityProvider::DisassociateIdentity, identityprovider/IAssociatedIdentityProvider::DisassociateIdentity, identitystore/IAssociatedIdentityProvider::DisassociateIdentity, security.iassociatedidentityprovider_disassociateidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

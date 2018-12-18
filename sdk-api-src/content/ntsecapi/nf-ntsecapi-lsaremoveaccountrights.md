@@ -9,8 +9,6 @@ ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

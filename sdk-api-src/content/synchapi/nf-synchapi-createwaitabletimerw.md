@@ -9,8 +9,6 @@ ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h
@@ -58,7 +56,7 @@ req.redist:
 
 Creates or opens a waitable timer object.
 
-To specify an access mask for the object, use the <a href="https://msdn.microsoft.com/9ef51567-7d0f-4a2e-a798-289564733410">CreateWaitableTimerEx</a> function.
+To specify an access mask for the object, use the <a href="https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx">CreateWaitableTimerEx</a> function.
 
 
 ## -parameters
@@ -128,7 +126,7 @@ Multiple processes can have handles to the same timer object, enabling use of th
 <b>CreateWaitableTimer</b> enables inheritance.</li>
 <li>A process can specify the timer object handle in a call to the <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> function. The resulting handle can be used by another process.</li>
 <li>A process can specify the name of a timer object in a call to the 
-<a href="https://msdn.microsoft.com/0f9b49ea-5d04-449c-9b7d-f79ab28b548b">OpenWaitableTimer</a> or 
+<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a> or 
 <b>CreateWaitableTimer</b> function.</li>
 </ul>
 Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle. The system closes the handle automatically when the process terminates. The timer object is destroyed when its last handle has been closed.
@@ -167,7 +165,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/9ef51567-7d0f-4a2e-a798-289564733410">CreateWaitableTimerEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682494(v=VS.85).aspx">CreateWaitableTimerEx</a>
 
 
 
@@ -183,7 +181,7 @@ For an example that uses
 
 
 
-<a href="https://msdn.microsoft.com/0f9b49ea-5d04-449c-9b7d-f79ab28b548b">OpenWaitableTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684337(v=VS.85).aspx">OpenWaitableTimer</a>
 
 
 

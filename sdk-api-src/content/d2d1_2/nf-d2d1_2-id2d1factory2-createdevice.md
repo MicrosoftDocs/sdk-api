@@ -9,8 +9,6 @@ ms.assetid: 1C7B5FE0-23DB-417F-8614-53848D61A054
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory2 interface, ID2D1Factory2 interface [Direct2D],CreateDevice method, ID2D1Factory2.CreateDevice, ID2D1Factory2::CreateDevice, d2d1_2/ID2D1Factory2::CreateDevice, direct2d.id2d1factory2_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_2.h
 req.include-header: 
@@ -60,9 +58,9 @@ Creates an <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF9945816
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>*</b>
 
-The <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> object used when creating  the <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a>. 
+The <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> object used when creating  the <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a>. 
 
 
 ### -param d2dDevice1 [out]
@@ -76,7 +74,7 @@ The requested <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF9945
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -114,7 +112,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-The <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> device defines a resource domain in which a set of Direct2D objects and Direct2D device contexts can be used together.  Each call to <a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">CreateDevice</a> returns a unique <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a> object, even if you pass the same <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a> multiple times.
+The <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> device defines a resource domain in which a set of Direct2D objects and Direct2D device contexts can be used together.  Each call to <a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">CreateDevice</a> returns a unique <a href="https://msdn.microsoft.com/D0CC0F2C-2BAA-4BD6-AE67-BF99458160F9">ID2D1Device1</a> object, even if you pass the same <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a> multiple times.
 
 
 

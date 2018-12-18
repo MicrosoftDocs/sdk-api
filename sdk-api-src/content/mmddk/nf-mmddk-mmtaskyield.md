@@ -9,8 +9,6 @@ ms.assetid: dd52af03-94fa-4227-b4fc-25089ef54fd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTaskYield, multimedia.mmtaskyield
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

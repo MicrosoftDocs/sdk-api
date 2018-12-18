@@ -9,8 +9,6 @@ ms.assetid: bfa34529-e1f9-462b-9c99-b65cd526d364
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\informatio
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity2 interface [Fax Service],InformationType property, IFaxSecurity2.InformationType, IFaxSecurity2.get_InformationType, IFaxSecurity2.put_InformationType, IFaxSecurity2::InformationType, IFaxSecurity2::get_InformationType, IFaxSecurity2::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity2 interface, _mfax_faxsecurity2.informationtype, fax._mfax_faxsecurity2_cpp_mfax_faxsecurity2_informationtype_cpp, fax._mfax_faxsecurity2_informationtype, faxcomex/IFaxSecurity2::InformationType, faxcomex/IFaxSecurity2::get_InformationType, faxcomex/IFaxSecurity2::put_InformationType, get_InformationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,9 +64,9 @@ This property is read/write.
 
 
 
-The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/9fda9779-6688-431c-8f06-8420d0263e0d">Descriptor</a> property, or when refreshing the <a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a> object using the <a href="https://msdn.microsoft.com/9dc0fccd-e588-4f21-b195-fb4a4cb80bb9">IFaxSecurity2::Refresh</a> method. The information type property also determines what information is sent to the fax server when you save changes to the <b>FaxSecurity2</b> object using the <a href="https://msdn.microsoft.com/7ae27584-956c-464a-8c0c-48b06ac9e309">IFaxSecurity2::Save</a> method.
+The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/en-us/library/Aa358872(v=VS.85).aspx">Descriptor</a> property, or when refreshing the <a href="https://msdn.microsoft.com/en-us/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a> object using the <a href="https://msdn.microsoft.com/en-us/library/Aa358982(v=VS.85).aspx">IFaxSecurity2::Refresh</a> method. The information type property also determines what information is sent to the fax server when you save changes to the <b>FaxSecurity2</b> object using the <a href="https://msdn.microsoft.com/en-us/library/Aa358983(v=VS.85).aspx">IFaxSecurity2::Save</a> method.
 
-The bits are specified in the <a href="http://msdn.microsoft.com/library/en-us/secauthz/security/security_information.asp">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service:
+The bits are specified in the <a href="https://msdn.microsoft.com/en-us/library/Aa379573(v=VS.85).aspx">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service:
 
 <table class="clsStd">
 <tr>
@@ -94,7 +92,7 @@ The bits are specified in the <a href="http://msdn.microsoft.com/library/en-us/s
 </table>
  
 
-Set the <b>IFaxSecurity2::InformationType</b> property before you get the <a href="https://msdn.microsoft.com/9fda9779-6688-431c-8f06-8420d0263e0d">Descriptor</a> property, to ensure that you receive the desired information, and that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity2::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/7ae27584-956c-464a-8c0c-48b06ac9e309">IFaxSecurity2::Save</a> method. If you do not set the <b>IFaxSecurity2::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
+Set the <b>IFaxSecurity2::InformationType</b> property before you get the <a href="https://msdn.microsoft.com/en-us/library/Aa358872(v=VS.85).aspx">Descriptor</a> property, to ensure that you receive the desired information, and that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity2::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/en-us/library/Aa358983(v=VS.85).aspx">IFaxSecurity2::Save</a> method. If you do not set the <b>IFaxSecurity2::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
 
 
 
@@ -104,11 +102,11 @@ Set the <b>IFaxSecurity2::InformationType</b> property before you get the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/213e555a-1509-4081-a21b-f33fc4653f32">FaxSecurity2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358873(v=VS.85).aspx">FaxSecurity2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6238a8f-3e19-4dd8-b602-525774d671df">IFaxSecurity2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358979(v=VS.85).aspx">IFaxSecurity2</a>
  
 
  

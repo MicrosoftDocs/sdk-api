@@ -9,8 +9,6 @@ ms.assetid: b6ac50b7-3ef1-43cf-8126-d9a003ebd825
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePresentationDescriptor, CreatePresentationDescriptor method [Media Foundation], CreatePresentationDescriptor method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],CreatePresentationDescriptor method, IMFMediaSource.CreatePresentationDescriptor, IMFMediaSource::CreatePresentationDescriptor, b6ac50b7-3ef1-43cf-8126-d9a003ebd825, mf.imfmediasource_createpresentationdescriptor, mfidl/IMFMediaSource::CreatePresentationDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

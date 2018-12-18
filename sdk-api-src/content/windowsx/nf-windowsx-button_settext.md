@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_s
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

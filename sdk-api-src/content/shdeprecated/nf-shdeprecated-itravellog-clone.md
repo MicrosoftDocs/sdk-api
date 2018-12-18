@@ -9,8 +9,6 @@ ms.assetid: 546581f1-648d-4817-b3d2-aca219b74911
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],Clone method, ITravelLog.Clone, ITravelLog::Clone, shdeprecated/ITravelLog::Clone, shell.ITravelLog_Clone, zone_ITravelLog_Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

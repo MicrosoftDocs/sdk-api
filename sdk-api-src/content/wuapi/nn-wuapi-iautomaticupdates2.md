@@ -9,8 +9,6 @@ ms.assetid: 9cb09bb2-5532-446b-9441-0987d50c6228
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAutomaticUpdates2, IAutomaticUpdates2 interface [Windows Update Agent], IAutomaticUpdates2 interface [Windows Update Agent],described, wua.iautomaticupdates2, wuapi/IAutomaticUpdates2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

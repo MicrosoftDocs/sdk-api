@@ -9,8 +9,6 @@ ms.assetid: fecb034f-3f11-4d37-9468-56d4ea6268e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitAndUpdateDerived, CommitAndUpdateDerived method [File Server Resource Manager], CommitAndUpdateDerived method [File Server Resource Manager],IFsrmQuotaTemplate interface, IFsrmQuotaTemplate interface [File Server Resource Manager],CommitAndUpdateDerived method, IFsrmQuotaTemplate.CommitAndUpdateDerived, IFsrmQuotaTemplate::CommitAndUpdateDerived, fs.ifsrmquotatemplate_commitandupdatederived, fsrm.ifsrmquotatemplate_commitandupdatederived, fsrmquota/IFsrmQuotaTemplate::CommitAndUpdateDerived
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

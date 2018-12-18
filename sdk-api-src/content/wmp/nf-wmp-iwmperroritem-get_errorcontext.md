@@ -9,8 +9,6 @@ ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ The error context is information that is used by Microsoft to provide additional
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
  
 
  

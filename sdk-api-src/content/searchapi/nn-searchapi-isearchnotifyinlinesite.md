@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotif
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: D20AE05F-466F-44B6-972A-06AA872FF7BA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetXpsOMPackageWriter, GetXpsOMPackageWriter method [XPS Documents and Packaging], GetXpsOMPackageWriter method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMPackageWriter method, IXpsDocumentPackageTarget.GetXpsOMPackageWriter, IXpsDocumentPackageTarget::GetXpsOMPackageWriter, xps.ixpsdocumentpackagetarget_getxpsompackagewriter, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMPackageWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

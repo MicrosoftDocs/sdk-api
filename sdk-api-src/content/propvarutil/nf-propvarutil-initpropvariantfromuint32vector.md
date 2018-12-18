@@ -9,8 +9,6 @@ ms.assetid: 807793fc-c679-4749-816c-005a77a37f08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitPropVariantFromUInt32Vector, InitPropVariantFromUInt32Vector function [Windows Properties], properties.InitPropVariantFromUInt32Vector, propvarutil/InitPropVariantFromUInt32Vector, shell.InitPropVariantFromUInt32Vector, shell_InitPropVariantFromUInt32Vector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -99,7 +97,7 @@ Creates a VT_VECTOR | VT_UI4 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,15 +126,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>
+<a href="shell.InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>
+<a href="shell.InitVariantFromUInt32Array">InitVariantFromUInt32Array</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776570(v=VS.85).aspx">PropVariantToUInt32Vector</a>
+<a href="shell.PropVariantToUInt32Vector">PropVariantToUInt32Vector</a>
  
 
  

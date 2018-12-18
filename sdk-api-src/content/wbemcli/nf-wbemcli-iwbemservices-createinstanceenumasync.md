@@ -9,8 +9,6 @@ ms.assetid: 5ba2ff28-034f-4949-9bde-8c98345ec7c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstanceEnumAsync, CreateInstanceEnumAsync method [Windows Management Instrumentation], CreateInstanceEnumAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateInstanceEnumAsync method, IWbemServices.CreateInstanceEnumAsync, IWbemServices::CreateInstanceEnumAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createinstanceenumasync, wbemcli/IWbemServices::CreateInstanceEnumAsync, wmi.iwbemservices_createinstanceenumasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
@@ -106,7 +104,7 @@ This flag forces the enumeration to include only pure instances of this class, e
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers with Windows Management a request to receive intermediate status reports through the clients implementation of 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 
 
@@ -149,12 +147,12 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 An instance provider can report success or failure with either the return code from 
 <b>CreateInstanceEnumAsync</b>, or through a call to 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
 <b>SetStatus</b>, the return code sent through <i>pResponseHandler</i> takes precedence.
 
 If 
 <b>CreateInstanceEnumAsync</b> returns <b>WBEM_S_NO_ERROR</b>, WMI waits for a result from the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> method of the response handler. WMI waits indefinitely on a local connection, or until a remote connection time-out occurs.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method of the response handler. WMI waits indefinitely on a local connection, or until a remote connection time-out occurs.
 
 
 
@@ -164,8 +162,8 @@ If
 
 
 The 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
 
 Because the callback might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.
 

@@ -9,8 +9,6 @@ ms.assetid: a35c5e18-f307-4e40-bc92-f91aa9eb80ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaStreamSourceSampleRequest interface [Media Foundation],SetSample method, IMFMediaStreamSourceSampleRequest.SetSample, IMFMediaStreamSourceSampleRequest::SetSample, SetSample, SetSample method [Media Foundation], SetSample method [Media Foundation],IMFMediaStreamSourceSampleRequest interface, mf.imfmediastreamsourcesamplerequest_setsample, mfidl/IMFMediaStreamSourceSampleRequest::SetSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

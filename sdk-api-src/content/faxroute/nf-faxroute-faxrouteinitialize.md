@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 

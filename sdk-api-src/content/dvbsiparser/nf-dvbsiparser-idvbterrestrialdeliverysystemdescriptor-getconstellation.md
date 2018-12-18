@@ -9,8 +9,6 @@ ms.assetid: 1a34de19-c684-4778-a164-5ddde87443b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConstellation, GetConstellation method [Microsoft TV Technologies], GetConstellation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetConstellation method, IDvbTerrestrialDeliverySystemDescriptor.GetConstellation, IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, IDvbTerrestrialDeliverySystemDescriptorGetConstellation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetConstellation, mstv.idvbterrestrialdeliverysystemdescriptor_getconstellation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dc07113f-ff93-4b0f-8328-02dd481dccb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateLinearGradientBrush, ID2D1RenderTarget::CreateLinearGradientBrush, d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -98,7 +96,7 @@ Creates an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">CreateGradientStopCollection</a>
 
 
 

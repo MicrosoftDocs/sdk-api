@@ -9,8 +9,6 @@ ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputMaxLatency method, IMediaObject.GetInputMaxLatency, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -158,7 +156,7 @@ Latency is defined only when samples have time stamps, and the time stamps incre
 
 
 
-<a href="https://msdn.microsoft.com/a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b">IMediaObject Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

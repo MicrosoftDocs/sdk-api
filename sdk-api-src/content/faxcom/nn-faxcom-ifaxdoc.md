@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Service],described, _mfax_ifaxdoc, fax._mfax_ifaxdoc, faxcom/IFaxDoc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

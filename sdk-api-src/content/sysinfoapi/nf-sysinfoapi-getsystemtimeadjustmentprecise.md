@@ -9,8 +9,6 @@ ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 
@@ -95,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 This function is used in algorithms that  synchronize the time-of-day with another time source, using a programmed clock adjustment. To do this, the system computes the adjusted clock update frequency, and then this function allows the caller to obtain that value.
 
 
-<div class="alert"><b>Note</b>  <p class="note">For a complete code sample on how to enable system-time privileges, adjust the system clock, and display clock values, see  <a href="base.SetSystemTimeAdjustmentPrecise">SetSystemTimeAdjustmentPrecise</a>.
+<div class="alert"><b>Note</b>  <p class="note">For a complete code sample on how to enable system-time privileges, adjust the system clock, and display clock values, see  <a href="https://msdn.microsoft.com/en-us/library/Mt846359(v=VS.85).aspx">SetSystemTimeAdjustmentPrecise</a>.
 
 </div>
 <div> </div>
@@ -109,7 +107,7 @@ This function is used in algorithms that  synchronize the time-of-day with anoth
 
 
 
-<a href="base.SetSystemTimeAdjustmentPrecise">SetSystemTimeAdjustmentPrecise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846359(v=VS.85).aspx">SetSystemTimeAdjustmentPrecise</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 0a5055f1-6873-4396-9a3e-b7a4cc41200e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSize, CreateSize method [Windows Runtime], CreateSize method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateSize method, IPropertyValueStatics.CreateSize, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateSize, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateSize, winrt.ipropertyvaluefactory_createsize, winrt.ipropertyvaluestatics_createsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 

@@ -4,13 +4,11 @@ title: IWTSProtocolShadowConnection
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection is no longer available. Instead, use IWRdsProtocolShadowConnection.
 old-location: termserv\iwtsprotocolshadowconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 83285a6a-903f-4c23-8f62-b04bbeaa52f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWTSProtocolShadowConnection, IWTSProtocolShadowConnection interface [Remote Desktop Services], IWTSProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowconnection, wtsprotocol/IWTSProtocolShadowConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

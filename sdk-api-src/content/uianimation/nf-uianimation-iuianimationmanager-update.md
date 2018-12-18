@@ -9,8 +9,6 @@ ms.assetid: 6008fe44-8d86-4a56-a1e2-7bc144b224b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IUIAnimationManager.Update, IUIAnimationManager::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_update, uianimation/IUIAnimationManager::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: BCBC6EC7-9792-43C0-BE0E-D94F00A7CAFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowDpiAwarenessContext, GetWindowDpiAwarenessContext function [High DPI], hidpi.getwindowdpiawarenesscontext, winuser/GetWindowDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

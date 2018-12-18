@@ -9,8 +9,6 @@ ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ccc1702b-e414-4831-ae8b-fd92499bec94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInheritanceSource, GetInheritanceSource function [Security], GetInheritanceSourceA, GetInheritanceSourceW, _win32_getinheritancesource, aclapi/GetInheritanceSource, aclapi/GetInheritanceSourceA, aclapi/GetInheritanceSourceW, security.getinheritancesource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

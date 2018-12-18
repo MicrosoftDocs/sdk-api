@@ -9,8 +9,6 @@ ms.assetid: a5d79169-ae1b-4532-b367-ec2d24fae0b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceLink method, IAMNetShowExProps.get_SourceLink, IAMNetShowExProps::get_SourceLink, IAMNetShowExPropsget_SourceLink, dshow.iamnetshowexprops_get_sourcelink, get_SourceLink, get_SourceLink method [DirectShow], get_SourceLink method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ The caller must release the returned <b>BSTR</b>, by calling <b>SysFreeString</b
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
  
 
  

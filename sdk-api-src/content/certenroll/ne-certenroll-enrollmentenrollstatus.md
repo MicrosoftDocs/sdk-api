@@ -9,8 +9,6 @@ ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa377844(v=VS.85).aspx">Status</a> property on the <a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a> interface.
+The <b>EnrollmentEnrollStatus</b> enumeration type specifies the enrollment status of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This enumeration is used by the <a href="https://msdn.microsoft.com/ca1105eb-a29a-458d-abbb-34c9b67d7c8a">Status</a> property on the <a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a> interface.
 
 
 ## -enum-fields
@@ -85,7 +83,7 @@ The enrollment status is unknown.
 
 ### -field EnrollSkipped
 
-The status information has been skipped. This can occur if a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> is not valid or has not been selected for monitoring.
+The status information has been skipped. This can occur if a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> is not valid or has not been selected for monitoring.
 
 
 ### -field EnrollDenied
@@ -98,19 +96,19 @@ Enrollment has been denied.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374969(v=VS.85).aspx">EnrollmentSelectionStatus</a>
+<a href="https://msdn.microsoft.com/a762d81b-0426-483c-a9c0-70f531f4b6ac">EnrollmentSelectionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

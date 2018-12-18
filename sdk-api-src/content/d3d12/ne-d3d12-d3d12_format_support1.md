@@ -9,8 +9,6 @@ ms.assetid: D987B228-4BC9-4A07-96A0-A518F8F52B06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_FORMAT_SUPPORT1, D3D12_FORMAT_SUPPORT1 enumeration, D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST, D3D12_FORMAT_SUPPORT1_BLENDABLE, D3D12_FORMAT_SUPPORT1_BUFFER, D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT, D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT, D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL, D3D12_FORMAT_SUPPORT1_DISPLAY, D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER, D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER, D3D12_FORMAT_SUPPORT1_MIP, D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD, D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET, D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE, D3D12_FORMAT_SUPPORT1_NONE, D3D12_FORMAT_SUPPORT1_RENDER_TARGET, D3D12_FORMAT_SUPPORT1_SHADER_GATHER, D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON, D3D12_FORMAT_SUPPORT1_SHADER_LOAD, D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE, D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON, D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT, D3D12_FORMAT_SUPPORT1_SO_BUFFER, D3D12_FORMAT_SUPPORT1_TEXTURE1D, D3D12_FORMAT_SUPPORT1_TEXTURE2D, D3D12_FORMAT_SUPPORT1_TEXTURE3D, D3D12_FORMAT_SUPPORT1_TEXTURECUBE, D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW, D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER, D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT, D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT, d3d12/D3D12_FORMAT_SUPPORT1, d3d12/D3D12_FORMAT_SUPPORT1_BACK_BUFFER_CAST, d3d12/D3D12_FORMAT_SUPPORT1_BLENDABLE, d3d12/D3D12_FORMAT_SUPPORT1_BUFFER, d3d12/D3D12_FORMAT_SUPPORT1_CAST_WITHIN_BIT_LAYOUT, d3d12/D3D12_FORMAT_SUPPORT1_DECODER_OUTPUT, d3d12/D3D12_FORMAT_SUPPORT1_DEPTH_STENCIL, d3d12/D3D12_FORMAT_SUPPORT1_DISPLAY, d3d12/D3D12_FORMAT_SUPPORT1_IA_INDEX_BUFFER, d3d12/D3D12_FORMAT_SUPPORT1_IA_VERTEX_BUFFER, d3d12/D3D12_FORMAT_SUPPORT1_MIP, d3d12/D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD, d3d12/D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RENDERTARGET, d3d12/D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE, d3d12/D3D12_FORMAT_SUPPORT1_NONE, d3d12/D3D12_FORMAT_SUPPORT1_RENDER_TARGET, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_GATHER, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_GATHER_COMPARISON, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_LOAD, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON, d3d12/D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_MONO_TEXT, d3d12/D3D12_FORMAT_SUPPORT1_SO_BUFFER, d3d12/D3D12_FORMAT_SUPPORT1_TEXTURE1D, d3d12/D3D12_FORMAT_SUPPORT1_TEXTURE2D, d3d12/D3D12_FORMAT_SUPPORT1_TEXTURE3D, d3d12/D3D12_FORMAT_SUPPORT1_TEXTURECUBE, d3d12/D3D12_FORMAT_SUPPORT1_TYPED_UNORDERED_ACCESS_VIEW, d3d12/D3D12_FORMAT_SUPPORT1_VIDEO_ENCODER, d3d12/D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_INPUT, d3d12/D3D12_FORMAT_SUPPORT1_VIDEO_PROCESSOR_OUTPUT, direct3d12.d3d12_format_support1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -119,7 +117,7 @@ The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).asp
 
 The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> functions for texture objects are supported.
 
-<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
+<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
 </div>
 <div> </div>
 
@@ -150,7 +148,7 @@ Depth stencils supported.
 
 ### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE
 
-Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Dn903897(v=VS.85).aspx">ID3D12GraphicsCommandList::ResolveSubresource</a>. 
+Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ID3D12GraphicsCommandList::ResolveSubresource</a>. 
 
 
 ### -field D3D12_FORMAT_SUPPORT1_DISPLAY
@@ -217,7 +215,7 @@ Format can be used with the video encoder.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn859386(v=VS.85).aspx">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure. 
+This enum is used by the <a href="https://msdn.microsoft.com/6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure. 
 
 
 
@@ -227,11 +225,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn859
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn986730(v=VS.85).aspx">D3D12_HEAP_FLAGS</a>
+<a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E4">D3D12_HEAP_FLAGS</a>
  
 
  

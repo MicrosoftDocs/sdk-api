@@ -9,8 +9,6 @@ ms.assetid: 13e3c2dc-99a4-4643-b8b2-48586b0eb2f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 13e3c2dc-99a4-4643-b8b2-48586b0eb2f0, IInkDrawingAttributes interface [Tablet PC],PenTip property, IInkDrawingAttributes.PenTip, IInkDrawingAttributes.put_PenTip, IInkDrawingAttributes::PenTip, IInkDrawingAttributes::get_PenTip, IInkDrawingAttributes::put_PenTip, InkDrawingAttributes.get_PenTip, InkDrawingAttributes.put_PenTip, PenTip property [Tablet PC], PenTip property [Tablet PC],IInkDrawingAttributes interface, get_PenTip, msinkaut/IInkDrawingAttributes::PenTip, msinkaut/IInkDrawingAttributes::get_PenTip, msinkaut/IInkDrawingAttributes::put_PenTip, put_PenTip, tablet.inkdrawingattributes_pentip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -88,7 +86,7 @@ To create a square pen tip, set the <b>PenTip</b> property to <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

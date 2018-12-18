@@ -9,8 +9,6 @@ ms.assetid: 091b3f17-ccf7-493c-8992-00425f37d0ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLocaleInfo, GetLocaleInfo function [Internationalization for Windows Applications], GetLocaleInfoA, GetLocaleInfoW, _win32_GetLocaleInfo, intl.getlocaleinfo, winnls/GetLocaleInfo, winnls/GetLocaleInfoA, winnls/GetLocaleInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

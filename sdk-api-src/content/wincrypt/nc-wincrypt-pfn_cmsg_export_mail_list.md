@@ -9,8 +9,6 @@ ms.assetid: 68a75714-cf47-40f9-95ab-e1ffc8936390
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PFN_CMSG_EXPORT_MAIL_LIST, PFN_CMSG_EXPORT_MAIL_LIST callback, PFN_CMSG_EXPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_export_mail_list, wincrypt/PFN_CMSG_EXPORT_MAIL_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 
@@ -102,7 +100,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 The <b>PFN_CMSG_EXPORT_MAIL_LIST</b> function must update the  <b>EncryptedKey</b> member of the <a href="https://msdn.microsoft.com/25c4338a-1ea3-4fff-a6bf-f3884a8154d3">CMSG_MAIL_LIST_ENCRYPT_INFO</a> structure pointed to by the <i>pMailListEncryptInfo</i> parameter. This function must use the <b>pfnAlloc</b> and <b>pfnFree</b> members of the <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e03fb0dfd">CMSG_CONTENT_ENCRYPT_INFO</a> structure pointed to by the <i>pContentEncryptInfo</i> parameter to manage memory for any values that it updates.
 
-You can use <a href="cryptography_functions.htm">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
+You can use <a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a> to deploy this callback function. Wincrypt.h defines the following constants for this purpose.
 
 <table>
 <tr>

@@ -9,8 +9,6 @@ ms.assetid: f24f82c8-ce32-4fbd-be49-06817cc57e5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathIsHTMLFile, PathIsHTMLFile function [Windows Shell], PathIsHTMLFileA, PathIsHTMLFileW, _win32_PathIsHTMLFile, shell.PathIsHTMLFile, shlwapi/PathIsHTMLFile, shlwapi/PathIsHTMLFileA, shlwapi/PathIsHTMLFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 

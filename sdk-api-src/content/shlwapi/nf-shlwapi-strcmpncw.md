@@ -9,8 +9,6 @@ ms.assetid: 4b4f18d3-9325-4bd9-ac65-af7f3012fdaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: StrCmpNC, StrCmpNC function [Windows Shell], StrCmpNCA, StrCmpNCW, _shell_StrCmpNC, shell.StrCmpNC, shlwapi/StrCmpNC, shlwapi/StrCmpNCA, shlwapi/StrCmpNCW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

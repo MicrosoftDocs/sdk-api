@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getresourcebindingdesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 6c7ed61d-9513-cb71-b3ae-307487d0a4eb, GetResourceBindingDesc, GetResourceBindingDesc method [Direct3D 10], GetResourceBindingDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetResourceBindingDesc method, ID3D10ShaderReflection.GetResourceBindingDesc, ID3D10ShaderReflection::GetResourceBindingDesc, d3d10shader/ID3D10ShaderReflection::GetResourceBindingDesc, direct3d10.id3d10shaderreflection_getresourcebindingdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10shader.h
 req.include-header: 

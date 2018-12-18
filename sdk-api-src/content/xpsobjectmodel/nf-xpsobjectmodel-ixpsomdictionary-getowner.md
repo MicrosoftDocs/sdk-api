@@ -9,8 +9,6 @@ ms.assetid: 3570ad03-2b68-4294-b236-86bd372876a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetOwner method, IXpsOMDictionary.GetOwner, IXpsOMDictionary::GetOwner, xps.ixpsomdictionary_getowner, xpsobjectmodel/IXpsOMDictionary::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

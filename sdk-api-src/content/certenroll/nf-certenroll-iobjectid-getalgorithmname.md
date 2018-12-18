@@ -9,8 +9,6 @@ ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>GetAlgorithmName</b> method retrieves the display name associated with an algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+The <b>GetAlgorithmName</b> method retrieves the display name associated with an algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 
 ## -parameters
@@ -60,7 +58,7 @@ The <b>GetAlgorithmName</b> method retrieves the display name associated with an
 
 ### -param GroupId [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379070(v=VS.85).aspx">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:
+An <a href="https://msdn.microsoft.com/66a70cad-ce72-461b-8d71-605a62dd35b4">ObjectIdGroupId</a> enumeration value that specifies the OID group to search. This can be any of the following algorithm groups:
 
 <ul>
 <li><b>XCN_CRYPT_HASH_ALG_OID_GROUP_ID</b></li>
@@ -80,7 +78,7 @@ In addition, you can also specify groups that do not contain cryptographic algor
 
 ### -param KeyFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379071(v=VS.85).aspx">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
+An <a href="https://msdn.microsoft.com/f41a871a-0247-4c49-b6a0-66d31c54a0e3">ObjectIdPublicKeyFlags</a> enumeration value that specifies whether to search for a signing or an encryption algorithm. This can be one of the following values:<ul>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b></li>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG</b></li>
 <li><b>XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG</b></li>
@@ -98,7 +96,7 @@ Pointer to a <b>BSTR</b> variable that contains the name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -125,7 +123,7 @@ The string that contains the algorithm name is empty.
 </dl>
 </td>
 <td width="60%">
-The algorithm name could not be found. You must call <a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a> before calling <a href="https://msdn.microsoft.com/en-us/library/Aa965697(v=VS.85).aspx">GetAlgorithmName</a>.
+The algorithm name could not be found. You must call <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> before calling <a href="https://msdn.microsoft.com/3d24d658-1016-4e63-8d93-5db0a3144121">GetAlgorithmName</a>.
 
 </td>
 </tr>
@@ -139,7 +137,7 @@ The algorithm name could not be found. You must call <a href="https://msdn.micro
 
 
 
-You can use the <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> constant to create a <i>GroupId</i> parameter value that takes account of the key size for algorithms that can be identified by a variable bit length. For example, to initialize an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-OR combination on the shifted bit length and <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b>.
+You can use the <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b> constant to create a <i>GroupId</i> parameter value that takes account of the key size for algorithms that can be identified by a variable bit length. For example, to initialize an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-OR combination on the shifted bit length and <b>XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID</b>.
 
 If you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID</b>, specify <b>XCN_CRYPT_OID_INFO_PUBKEY_ANY</b> for the <i>KeyFlags</i> parameter.
 
@@ -151,7 +149,7 @@ If you set the <i>GroupId</i> parameter to anything other than <b>XCN_CRYPT_PUBK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
  
 
  

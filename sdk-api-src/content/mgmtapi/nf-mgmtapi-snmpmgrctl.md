@@ -9,8 +9,6 @@ ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

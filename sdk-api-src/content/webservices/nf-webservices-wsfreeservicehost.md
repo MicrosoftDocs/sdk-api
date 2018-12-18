@@ -9,8 +9,6 @@ ms.assetid: 5362d8a4-8b38-462a-a7c1-9cde19abee1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeServiceHost, WsFreeServiceHost function [Web Services for Windows], webservices/WsFreeServiceHost, wsw.wsfreeservicehost
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

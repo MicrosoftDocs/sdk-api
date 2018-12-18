@@ -9,8 +9,6 @@ ms.assetid: 836f4a8d-8736-4876-8de3-a6265d7eb66a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsVolumeMF interface [VDS],SetFileSystemFlags method, IVdsVolumeMF.SetFileSystemFlags, IVdsVolumeMF::SetFileSystemFlags, SetFileSystemFlags, SetFileSystemFlags method [VDS], SetFileSystemFlags method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_setfilesystemflags, vds/IVdsVolumeMF::SetFileSystemFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

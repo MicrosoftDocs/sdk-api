@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

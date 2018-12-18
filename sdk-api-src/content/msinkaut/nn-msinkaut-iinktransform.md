@@ -9,8 +9,6 @@ ms.assetid: 1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkTransform, IInkTransform interface [Tablet PC], IInkTransform interface [Tablet PC],described, msinkaut/IInkTransform, tablet.iinktransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

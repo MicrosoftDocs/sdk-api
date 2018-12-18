@@ -9,8 +9,6 @@ ms.assetid: 70b260e7-a51d-4ddc-b395-5478e368e776
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Activate method, ObjectControl.Activate, ObjectControl::Activate, _cos_ObjectControl_Activate, comsvcs/ObjectControl::Activate, cos.objectcontrol_activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

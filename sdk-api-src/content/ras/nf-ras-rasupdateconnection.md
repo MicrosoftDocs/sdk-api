@@ -9,8 +9,6 @@ ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ras.h
 req.include-header: 

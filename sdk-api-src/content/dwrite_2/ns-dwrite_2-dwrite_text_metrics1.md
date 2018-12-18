@@ -9,8 +9,6 @@ ms.assetid: 1C374FD8-8BDC-4719-921F-2E14A919E7EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_TEXT_METRICS1, DWRITE_TEXT_METRICS1 structure [Direct Write], PDWRITE_TEXT_METRICS1, PDWRITE_TEXT_METRICS1 structure pointer [Direct Write], directwrite.dwrite_text_metrics1, dwrite_2/DWRITE_TEXT_METRICS1, dwrite_2/PDWRITE_TEXT_METRICS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_2.h
 req.include-header: 

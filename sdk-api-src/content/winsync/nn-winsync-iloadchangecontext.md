@@ -9,8 +9,6 @@ ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 84a5e022-773c-483b-adb5-5883b25b716f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [Media Foundation],SetProcAmpValues method, IMFVideoProcessor.SetProcAmpValues, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

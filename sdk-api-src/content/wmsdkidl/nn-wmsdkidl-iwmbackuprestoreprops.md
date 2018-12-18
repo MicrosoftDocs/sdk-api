@@ -9,8 +9,6 @@ ms.assetid: 3a5af1f3-e652-4729-931b-d0702af408f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMBackupRestoreProps, IWMBackupRestoreProps interface [windows Media Format], IWMBackupRestoreProps interface [windows Media Format],described, IWMBackupRestorePropsInterface, wmformat.iwmbackuprestoreprops, wmsdkidl/IWMBackupRestoreProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 ]
 
 
-The <b>IWMBackupRestoreProps</b> interface sets and retrieves properties required by the <a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup</a> and <a href="https://msdn.microsoft.com/29444445-7104-4900-a00d-dabd2766d1d7">IWMLicenseRestore</a> interfaces.
+The <b>IWMBackupRestoreProps</b> interface sets and retrieves properties required by the <a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore</a> interfaces.
 
 
 
@@ -87,7 +85,7 @@ Retrieves the name and value of a property by index. This method is not implemen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/771a7a49-7d42-4537-9945-97b907404097">GetPropByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743293(v=VS.85).aspx">GetPropByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property by name. This method is not implemented.
@@ -96,7 +94,7 @@ Retrieves the value of a property by name. This method is not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70b8dcf7-e48b-4c1e-be39-d0ae3c8a2b23">GetPropCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743294(v=VS.85).aspx">GetPropCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of properties. This method is not implemented.
@@ -105,7 +103,7 @@ Retrieves the number of properties. This method is not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c67eb68-1623-4aaa-abde-8481b77bd568">RemoveAllProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743295(v=VS.85).aspx">RemoveAllProps</a>
 </td>
 <td align="left" width="63%">
 Removes all properties.
@@ -114,7 +112,7 @@ Removes all properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3befd77c-6962-4320-9456-760e8f41cb24">RemoveProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743296(v=VS.85).aspx">RemoveProp</a>
 </td>
 <td align="left" width="63%">
 Removes one property.
@@ -123,7 +121,7 @@ Removes one property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/582c1590-8855-409c-9964-a0fb7baa05bd">SetProp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743297(v=VS.85).aspx">SetProp</a>
 </td>
 <td align="left" width="63%">
 Adds a property, and sets its name and value.
@@ -140,13 +138,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup</a>
 </td>
 <td>IID_IWMLicenseBackup</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/29444445-7104-4900-a00d-dabd2766d1d7">IWMLicenseRestore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore</a>
 </td>
 <td>IID_IWMLicenseRestore</td>
 </tr>
@@ -165,11 +163,11 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 
 
-<a href="https://msdn.microsoft.com/4ef43b7e-706b-48f6-80ba-7d0a59c3929a">IWMLicenseBackup Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757218(v=VS.85).aspx">IWMLicenseBackup Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/29444445-7104-4900-a00d-dabd2766d1d7">IWMLicenseRestore Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757221(v=VS.85).aspx">IWMLicenseRestore Interface</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: E507BA9D-D2CA-4B28-BD13-B820B666B4C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [App packaging and management], GetProperties method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetProperties method, IAppxManifestReader.GetProperties, IAppxManifestReader::GetProperties, appxpackaging/IAppxManifestReader::GetProperties, appxpkg.iappxmanifestreader_getproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

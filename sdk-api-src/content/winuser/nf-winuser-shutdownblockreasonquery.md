@@ -9,8 +9,6 @@ ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ShutdownBlockReasonQuery, ShutdownBlockReasonQuery function, base.shutdownblockreasonquery, winuser/ShutdownBlockReasonQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

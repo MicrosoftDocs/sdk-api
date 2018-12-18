@@ -9,8 +9,6 @@ ms.assetid: 1739fadf-6b43-4b89-8a17-87d9867d5197
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetProcessInformation, SetProcessInformation function, base.setprocessinformation, processthreadsapi/SetProcessInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
@@ -89,7 +87,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
-       <a href="base.process_leap_second_info">PROCESS_LEAP_SECOND_INFO</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Mt829716(v=VS.85).aspx">PROCESS_LEAP_SECOND_INFO</a> structure.
 
 
 ### -param ProcessInformationSize [in]

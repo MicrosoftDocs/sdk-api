@@ -9,8 +9,6 @@ ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

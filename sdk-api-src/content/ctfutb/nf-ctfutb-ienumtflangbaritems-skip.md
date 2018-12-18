@@ -9,8 +9,6 @@ ms.assetid: f9b4b899-1bcc-4ba5-a1e7-ca0a45749678
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Skip method, IEnumTfLangBarItems.Skip, IEnumTfLangBarItems::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_skip_ref, ctfutb/IEnumTfLangBarItems::Skip, tsf.ienumtflangbaritems_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

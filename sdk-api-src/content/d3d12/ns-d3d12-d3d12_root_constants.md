@@ -9,8 +9,6 @@ ms.assetid: B6630700-4F01-4D91-A8FF-3E9CB6505F51
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_ROOT_CONSTANTS, D3D12_ROOT_CONSTANTS structure, d3d12/D3D12_ROOT_CONSTANTS, direct3d12.d3d12_root_constants
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 
@@ -104,11 +102,11 @@ Refer to <a href="https://msdn.microsoft.com/3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn859357(v=VS.85).aspx">Creating a Root Signature</a>
+<a href="https://msdn.microsoft.com/565B28C1-DBD1-42B6-87F9-70743E4A2E4A">Creating a Root Signature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899219(v=VS.85).aspx">Using constants directly in the root signature</a>
+<a href="https://msdn.microsoft.com/F9A2640F-D1FA-481C-BDF1-B15372E3C512">Using constants directly in the root signature</a>
  
 
  

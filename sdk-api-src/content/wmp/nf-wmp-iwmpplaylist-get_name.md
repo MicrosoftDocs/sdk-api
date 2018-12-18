@@ -9,8 +9,6 @@ ms.assetid: 547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_name method, IWMPPlaylist.get_name, IWMPPlaylist::get_name, IWMPPlaylistget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_name, wmp/IWMPPlaylist::get_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/749dae2f-d9c3-4bbb-9a2f-042388f5ce0c">IWMPPlaylist::put_name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563578(v=VS.85).aspx">IWMPPlaylist::put_name</a>
  
 
  

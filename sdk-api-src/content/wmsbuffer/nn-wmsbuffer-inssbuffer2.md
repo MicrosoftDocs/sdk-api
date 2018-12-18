@@ -9,8 +9,6 @@ ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSSBuffer2, INSSBuffer2 interface [windows Media Format], INSSBuffer2 interface [windows Media Format],described, INSSBuffer2Interface, wmformat.inssbuffer2, wmsbuffer/INSSBuffer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmsbuffer.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 
 
-The <b>INSSBuffer2</b> interface inherits from <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
+The <b>INSSBuffer2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> and defines two additional methods. Currently, neither of these methods is implemented.
 
 
 
@@ -65,19 +63,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a>
 </td>
 <td>IID_INSSBuffer</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d6531e52-b58b-46ed-a47b-444cd98e1ec5">INSSBuffer4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743256(v=VS.85).aspx">INSSBuffer4</a>
 </td>
 <td>IID_INSSBuffer4</td>
 </tr>
@@ -89,7 +87,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer2</b> interface inherits from <a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a>. <b>INSSBuffer2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -124,7 +122,7 @@ Not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/c47c016a-e7eb-4a2c-b365-5537749db5bc">INSSBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: aclui.h
 req.include-header: 
@@ -147,7 +145,7 @@ Provides a security descriptor containing the security information specified by 
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

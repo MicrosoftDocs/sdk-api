@@ -9,8 +9,6 @@ ms.assetid: 1c6e9fb4-be51-4d68-8241-17119deeba3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1c6e9fb4-be51-4d68-8241-17119deeba3f, Enabled property [Tablet PC], Enabled property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],Enabled property, IInkPicture.Enabled, IInkPicture.put_Enabled, IInkPicture::Enabled, IInkPicture::get_Enabled, IInkPicture::put_Enabled, InkPicture.get_Enabled, InkPicture.put_Enabled, msinkaut/IInkPicture::Enabled, msinkaut/IInkPicture::get_Enabled, msinkaut/IInkPicture::put_Enabled, put_Enabled, tablet.inkpicture_enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -80,7 +78,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

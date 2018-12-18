@@ -9,8 +9,6 @@ ms.assetid: 00385ea4-27a9-47f4-91af-22fa82d83668
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetVersionNumber method, IPMT.GetVersionNumber, IPMT::GetVersionNumber, IPMTGetVersionNumber, mpeg2psiparser/IPMT::GetVersionNumber, mstv.ipmt_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -110,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetSecure method, IWSDHttpAddress.GetSecure, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

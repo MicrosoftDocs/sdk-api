@@ -9,8 +9,6 @@ ms.assetid: 4b050a69-39df-41f8-8d54-8c576bad3c2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

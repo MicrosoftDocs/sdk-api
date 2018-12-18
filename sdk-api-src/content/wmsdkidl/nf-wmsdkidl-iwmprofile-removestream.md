@@ -9,8 +9,6 @@ ms.assetid: 82817b72-fde5-492e-b197-87bf145d0be9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveStream method, IWMProfile.RemoveStream, IWMProfile2 interface [windows Media Format],RemoveStream method, IWMProfile2::RemoveStream, IWMProfile3 interface [windows Media Format],RemoveStream method, IWMProfile3::RemoveStream, IWMProfile::RemoveStream, IWMProfileRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMProfile interface, RemoveStream method [windows Media Format],IWMProfile2 interface, RemoveStream method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removestream, wmsdkidl/IWMProfile2::RemoveStream, wmsdkidl/IWMProfile3::RemoveStream, wmsdkidl/IWMProfile::RemoveStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -69,7 +67,7 @@ The <b>RemoveStream</b> method removes a stream from the profile.
 
 ### -param pConfig [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig</a> interface of the stream configuration object that describes the stream you want to remove.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig</a> interface of the stream configuration object that describes the stream you want to remove.
 
 
 ## -returns
@@ -131,19 +129,19 @@ The <i>pConfig</i> parameter is <b>NULL</b> or not valid.
 
 
 
-<a href="https://msdn.microsoft.com/34e30edb-3247-4eaa-9a63-6d94c9e37c0b">IWMProfile2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757266(v=VS.85).aspx">IWMProfile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/3024fd2b-c261-49bd-b9a7-c1f43b31645b">IWMProfile::AddStream</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757399(v=VS.85).aspx">IWMProfile::AddStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/72ecc794-d393-416e-bc21-5a7756e76d99">IWMProfile::RemoveStreamByNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757413(v=VS.85).aspx">IWMProfile::RemoveStreamByNumber</a>
  
 
  

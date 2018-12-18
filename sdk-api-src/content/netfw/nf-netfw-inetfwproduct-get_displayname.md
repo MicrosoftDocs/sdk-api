@@ -9,8 +9,6 @@ ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.get_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, get_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

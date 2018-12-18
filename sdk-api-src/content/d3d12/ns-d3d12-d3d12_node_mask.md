@@ -9,8 +9,6 @@ ms.assetid: DB1CF496-EB74-4898-8742-6D8374455C00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_NODE_MASK, D3D12_NODE_MASK structure, PD3D12_NODE_MASK, PD3D12_NODE_MASK structure pointer, d3d12/D3D12_NODE_MASK, d3d12/PD3D12_NODE_MASK, direct3d12.d3d12_node_mask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

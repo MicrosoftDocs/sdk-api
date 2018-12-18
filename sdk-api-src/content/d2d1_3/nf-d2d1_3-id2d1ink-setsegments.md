@@ -9,8 +9,6 @@ ms.assetid: 930D9772-D922-4CEB-A97C-06F263543D81
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegments method, ID2D1Ink.SetSegments, ID2D1Ink::SetSegments, SetSegments, SetSegments method [Direct2D], SetSegments method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegments, direct2d.id2d1ink_setsegments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -83,7 +81,7 @@ The number of segments in this ink object that will be updated with new data. No
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

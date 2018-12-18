@@ -9,8 +9,6 @@ ms.assetid: AD80B59A-AF86-4BCB-9360-D49E4337E020
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSimpleColorProfile, GetSimpleColorProfile method [Direct2D], GetSimpleColorProfile method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetSimpleColorProfile method, ID2D1ColorContext1.GetSimpleColorProfile, ID2D1ColorContext1::GetSimpleColorProfile, d2d1_3/ID2D1ColorContext1::GetSimpleColorProfile, direct2d.id2d1colorcontext1_getsimplecolorprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -69,7 +67,7 @@ Pointer to a D2D1_SIMPLE_COLOR_PROFILE that will contain the simple color profil
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

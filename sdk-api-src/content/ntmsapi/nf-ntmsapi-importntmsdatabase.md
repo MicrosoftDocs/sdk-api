@@ -9,8 +9,6 @@ ms.assetid: 9bb41109-6548-4d22-92c8-0d8ed960f119
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_importntmsdatabase, base.importntmsdatabase, fs.importntmsdatabase, ntmsapi/ImportNtmsDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

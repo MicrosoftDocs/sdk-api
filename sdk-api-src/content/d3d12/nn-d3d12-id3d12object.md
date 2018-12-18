@@ -9,8 +9,6 @@ ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

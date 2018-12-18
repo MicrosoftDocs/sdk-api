@@ -9,8 +9,6 @@ ms.assetid: f9dfefbc-c240-41c0-abb9-4bc5012c147c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],add method, IWMPMediaCollection.add, IWMPMediaCollection::add, IWMPMediaCollectionadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_add, wmp/IWMPMediaCollection::add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -117,15 +115,15 @@ Before calling this method, you must have full access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/646d2e3c-623b-4040-af82-1cefac6fc1ae">IWMPMediaCollection::remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563421(v=VS.85).aspx">IWMPMediaCollection::remove</a>
 
 
 
-<a href="https://msdn.microsoft.com/421a1bd3-65c1-4d8f-be75-918b1cfa06d2">IWMPPlaylistCollection::importPlaylist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563556(v=VS.85).aspx">IWMPPlaylistCollection::importPlaylist</a>
  
 
  

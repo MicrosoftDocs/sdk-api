@@ -9,8 +9,6 @@ ms.assetid: 00102220-3734-40f2-ae6c-2807e44e17a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EnableModeless method, ISyncMgrSynchronizeCallback.EnableModeless, ISyncMgrSynchronizeCallback::EnableModeless, mobsync/ISyncMgrSynchronizeCallback::EnableModeless, shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless, syncmgr.isyncmgrsynchronizecallback_enablemodeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

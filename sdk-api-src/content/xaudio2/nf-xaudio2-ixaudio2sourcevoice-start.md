@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Star
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Start method, IXAudio2SourceVoice.Start, IXAudio2SourceVoice::Start, Start, Start method [XAudio2 Audio Mixing APIs], Start method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_start, xaudio2/IXAudio2SourceVoice::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

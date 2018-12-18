@@ -9,8 +9,6 @@ ms.assetid: 9dfdc481-7129-47b1-9c5e-d17a70571ce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 9dfdc481-7129-47b1-9c5e-d17a70571ce2, IInkRenderer, IInkRenderer interface [Tablet PC],InkSpaceToPixel method, IInkRenderer.InkSpaceToPixel, IInkRenderer::InkSpaceToPixel, InkSpaceToPixel, InkSpaceToPixel method [Tablet PC], InkSpaceToPixel method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::InkSpaceToPixel, tablet.inkrenderer_inkspacetopixel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -164,7 +162,7 @@ Coordinates overflowed during operation.
 
 
 
-<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

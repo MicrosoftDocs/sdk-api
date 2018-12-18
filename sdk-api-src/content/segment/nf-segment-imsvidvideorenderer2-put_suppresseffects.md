@@ -9,8 +9,6 @@ ms.assetid: d362addb-626a-42f8-9b95-82189a338527
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVideoRenderer2.put_SuppressEffects, IMSVidVideoRenderer2::put_SuppressEffects, IMSVidVideoRenderer2put_SuppressEffects, mstv.imsvidvideorenderer2_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, segment/IMSVidVideoRenderer2::put_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -113,11 +111,11 @@ If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control uses the existing sy
 
 
 
-<a href="https://msdn.microsoft.com/caaa2cf1-15be-47dc-82db-06915a55ba03">IMSVidVideoRenderer2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694713(v=VS.85).aspx">IMSVidVideoRenderer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee7a5c92-bdae-4b67-9b2b-5fb4ae3a8fd7">IMSVidVideoRenderer::put_UsingOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694756(v=VS.85).aspx">IMSVidVideoRenderer::put_UsingOverlay</a>
  
 
  

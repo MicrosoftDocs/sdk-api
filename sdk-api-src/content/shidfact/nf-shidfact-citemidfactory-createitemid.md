@@ -9,8 +9,6 @@ ms.assetid: 2129F4F3-A989-4CE2-ABFF-FE83DD78D4CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],CreateItemID method, CItemIDFactory.CreateItemID, CItemIDFactory::CreateItemID, CreateItemID, CreateItemID method [Windows Shell], CreateItemID method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_createitemid, shidfact/CItemIDFactory::CreateItemID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

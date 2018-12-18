@@ -9,8 +9,6 @@ ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMenuContextHelpId, GetMenuContextHelpId function [Windows Shell], _win32_GetMenuContextHelpId, shell.GetMenuContextHelpId, winuser/GetMenuContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

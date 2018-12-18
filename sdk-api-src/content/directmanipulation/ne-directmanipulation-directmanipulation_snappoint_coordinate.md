@@ -9,8 +9,6 @@ ms.assetid: 954ab792-e2b9-4cc0-a0dc-fcb6c6cdf156
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DIRECTMANIPULATION_COORDINATE_BOUNDARY, DIRECTMANIPULATION_COORDINATE_MIRRORED, DIRECTMANIPULATION_COORDINATE_ORIGIN, DIRECTMANIPULATION_SNAPPOINT_COORDINATE, DIRECTMANIPULATION_SNAPPOINT_COORDINATE enumeration [Direct Manipulation], directmanipulation.directmanipulation_snappoint_coordinate, directmanipulation/DIRECTMANIPULATION_COORDINATE_BOUNDARY, directmanipulation/DIRECTMANIPULATION_COORDINATE_MIRRORED, directmanipulation/DIRECTMANIPULATION_COORDINATE_ORIGIN, directmanipulation/DIRECTMANIPULATION_SNAPPOINT_COORDINATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6dc363bc-366c-4d9f-8aed-b1aed752c04f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

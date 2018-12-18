@@ -9,8 +9,6 @@ ms.assetid: 106ac493-bde6-4327-b3be-3132bfd47415
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssocHandler interface [Windows Shell],MakeDefault method, IAssocHandler.MakeDefault, IAssocHandler::MakeDefault, MakeDefault, MakeDefault method [Windows Shell], MakeDefault method [Windows Shell],IAssocHandler interface, _shell_IAssocHandler_MakeDefault, shell.IAssocHandler_MakeDefault, shobjidl_core/IAssocHandler::MakeDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

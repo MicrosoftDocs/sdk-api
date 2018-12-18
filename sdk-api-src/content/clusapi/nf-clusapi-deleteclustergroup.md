@@ -9,8 +9,6 @@ ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteClusterGroup, DeleteClusterGroup function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster], _wolf_deleteclustergroup, clusapi/DeleteClusterGroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Removes an offline and empty 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> from a 
+    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> from a 
     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
@@ -69,7 +67,7 @@ Handle to the group to be removed. You must close this handle separately.
 
 
 
-This function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. If the 
+This function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. If the 
        operation completes successfully the function returns <b>ERROR_SUCCESS</b> (0). Any other 
        returned system error code would indicate that the 
        operation failed.
@@ -85,7 +83,7 @@ The <b>PCLUSAPI_DELETE_CLUSTER_GROUP</b> type defines a pointer to this function
 
 Because the <b>DeleteClusterGroup</b> function only 
      removes groups that are empty, a group must not have any 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resources</a> if it is to be successfully deleted. To delete a group 
+     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> if it is to be successfully deleted. To delete a group 
      with resources, use the <a href="https://msdn.microsoft.com/ac293d5b-edc8-4c5f-9b05-9e2349bf1453">DestroyClusterGroup</a> 
      function.
 
@@ -95,7 +93,7 @@ Because the <b>DeleteClusterGroup</b> function only
 
 Do not call <b>DeleteClusterGroup</b> from a resource 
      DLL. For more information, see 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -117,7 +115,7 @@ Do not call <b>DeleteClusterGroup</b> from a resource
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
 
 
 

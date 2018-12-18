@@ -9,8 +9,6 @@ ms.assetid: c3741092-c23a-465f-9a65-5bcbf977fad3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

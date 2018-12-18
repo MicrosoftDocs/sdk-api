@@ -9,8 +9,6 @@ ms.assetid: 6852f376-35ab-4628-9068-51a2ca2ea31f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRatedDelay method, IDTFilter.get_BlockUnRatedDelay, IDTFilter::get_BlockUnRatedDelay, IDTFilterget_BlockUnRatedDelay, encdec/IDTFilter::get_BlockUnRatedDelay, get_BlockUnRatedDelay, get_BlockUnRatedDelay method [Microsoft TV Technologies], get_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrateddelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

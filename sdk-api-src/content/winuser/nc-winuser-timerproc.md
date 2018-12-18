@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreferenc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TimerProc, TimerProc callback, TimerProc callback function [Windows and Messages], _win32_TimerProc, _win32_timerproc_cpp, winmsg.timerproc, winui._win32_timerproc, winuser/TimerProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winuser.h
 req.include-header: Windows.h

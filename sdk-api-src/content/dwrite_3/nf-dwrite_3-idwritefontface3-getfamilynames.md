@@ -9,8 +9,6 @@ ms.assetid: EAA7DF51-5089-4A0B-A0E3-C19FB71EB61E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyNames method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetFamilyNames method, IDWriteFontFace3.GetFamilyNames, IDWriteFontFace3::GetFamilyNames, directwrite.idwritefontface3_getfamilynames, dwrite_3/IDWriteFontFace3::GetFamilyNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
  
 
  

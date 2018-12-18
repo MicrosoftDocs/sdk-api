@@ -1,0 +1,107 @@
+---
+UID: NF:d3d11.CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT)
+title: CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT)
+author: windows-sdk-content
+description: Instantiates a new instance of a CD3D11_DEPTH_STENCIL_DESC structure that is initialized with default depth-stencil-state values.
+old-location: direct3d11\cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc_cd3d11_default.htm
+tech.root: direct3d11
+ms.assetid: 2790BD45-45BB-4BB7-B0B5-07B37ACC2128
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11], CD3D11_DEPTH_STENCIL_DESC constructor [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC interface, CD3D11_DEPTH_STENCIL_DESC interface [Direct3D 11],CD3D11_DEPTH_STENCIL_DESC constructor, CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT), CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT), d3d11/CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc_cd3d11_depth_stencil_desc_cd3d11_default
+ms.topic: method
+req.header: d3d11.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: D3D11.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - CD3D11_DEPTH_STENCIL_DESC.CD3D11_DEPTH_STENCIL_DESC
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# CD3D11_DEPTH_STENCIL_DESC::CD3D11_DEPTH_STENCIL_DESC(CD3D11_DEFAULT)
+
+
+## -description
+
+
+Instantiates a new instance of a <a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with default depth-stencil-state values.
+
+
+## -parameters
+
+
+
+
+### -param arg1
+
+TBD
+
+
+
+
+
+
+## -remarks
+
+
+
+Here are the default depth-stencil-state values for the members of <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a>:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DepthEnable = TRUE;
+        DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ALL;
+        DepthFunc = D3D11_COMPARISON_LESS;
+        StencilEnable = FALSE;
+        StencilReadMask = D3D11_DEFAULT_STENCIL_READ_MASK;
+        StencilWriteMask = D3D11_DEFAULT_STENCIL_WRITE_MASK;
+        const D3D11_DEPTH_STENCILOP_DESC defaultStencilOp =
+        { D3D11_STENCIL_OP_KEEP, D3D11_STENCIL_OP_KEEP, D3D11_STENCIL_OP_KEEP, D3D11_COMPARISON_ALWAYS };
+        FrontFace = defaultStencilOp;
+        BackFace = defaultStencilOp;
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/511AF313-C692-423B-AD5A-A0A36018572B">CD3D11_DEPTH_STENCIL_DESC</a>
+ 
+
+ 
+

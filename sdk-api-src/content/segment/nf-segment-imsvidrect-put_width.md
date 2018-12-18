@@ -9,8 +9,6 @@ ms.assetid: 35eed36a-de3e-4bb6-8b1b-179ba72b568a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Width method, IMSVidRect.put_Width, IMSVidRect::put_Width, IMSVidRectput_Width, mstv.imsvidrect_put_width, put_Width, put_Width method [Microsoft TV Technologies], put_Width method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -81,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/7b1d07b8-41e4-44f8-8c28-377c7a9e463d">IMSVidRect::get_Width</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694608(v=VS.85).aspx">IMSVidRect::get_Width</a>
  
 
  

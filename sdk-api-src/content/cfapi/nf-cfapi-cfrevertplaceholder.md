@@ -9,8 +9,6 @@ ms.assetid: D5404BB6-A066-4B5F-A355-A11A107610CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfRevertPlaceholder, CfRevertPlaceholder function, cfapi/CfRevertPlaceholder, cloudApi.cfrevertplaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
@@ -92,7 +90,7 @@ The caller must have WRITE_DATA or WRITE_DAC access to the placeholder to be rev
 
 If the placeholder is not already fully hydrated at the time of the call, then the filter will send a FETCH_DATA callback to the sync provider  to hydrate the file.  If the file can’t be hydrated, the revert will fail.
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a>. 
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. 
 
 
 

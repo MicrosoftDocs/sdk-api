@@ -9,8 +9,6 @@ ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

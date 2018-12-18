@@ -9,8 +9,6 @@ ms.assetid: 304564b1-6ae3-4e1c-bea9-7a49c522a914
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByTimecode method, IWMSyncReader2.SetRangeByTimecode, IWMSyncReader2::SetRangeByTimecode, IWMSyncReader2SetRangeByTimecode, SetRangeByTimecode, SetRangeByTimecode method [windows Media Format], SetRangeByTimecode method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebytimecode, wmsdkidl/IWMSyncReader2::SetRangeByTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -71,7 +69,7 @@ The <b>SetRangeByTimecode</b> method sets a starting and ending time, based on S
 
 ### -param pStart [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/039c352c-d1f0-443f-acef-f730e949725c">WMT_TIMECODE_EXTENSION_DATA</a> structure containing the starting time code.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd757858(v=VS.85).aspx">WMT_TIMECODE_EXTENSION_DATA</a> structure containing the starting time code.
 
 
 ### -param pEnd [in]
@@ -104,7 +102,7 @@ If the call is successful, all streams are synchronized to the same position bas
 
 
 
-<a href="https://msdn.microsoft.com/f3db7530-a662-46f1-bc64-1dd4523dc87c">IWMSyncReader2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 3E1B580C-88A5-4169-8E66-2BF9397C8DE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetSingleTransformNode method, ID2D1TransformGraph.SetSingleTransformNode, ID2D1TransformGraph::SetSingleTransformNode, SetSingleTransformNode, SetSingleTransformNode method [Direct2D], SetSingleTransformNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetSingleTransformNode, direct2d.id2d1transformgraph_setsingletransformnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1effectauthor.h
 req.include-header: 

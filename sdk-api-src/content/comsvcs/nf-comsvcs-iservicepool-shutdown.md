@@ -9,8 +9,6 @@ ms.assetid: d06f4227-e85a-4779-b240-5a2e71d9756b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IServicePool interface [COM+],Shutdown method, IServicePool.Shutdown, IServicePool::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IServicePool interface, _cos_IServicePool_Shutdown, comsvcs/IServicePool::Shutdown, cos.iservicepool_shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e218222b-fed3-4f4b-8d97-785774800d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],TermCompositionDevice method, IVMRImageCompositor9.TermCompositionDevice, IVMRImageCompositor9::TermCompositionDevice, IVMRImageCompositor9TermCompositionDevice, TermCompositionDevice, TermCompositionDevice method [DirectShow], TermCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_termcompositiondevice, vmr9/IVMRImageCompositor9::TermCompositionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -109,7 +107,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/19fda7f2-000f-47d0-a7c7-d8421de418a2">IVMRImageCompositor9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377381(v=VS.85).aspx">IVMRImageCompositor9 Interface</a>
 
 
 

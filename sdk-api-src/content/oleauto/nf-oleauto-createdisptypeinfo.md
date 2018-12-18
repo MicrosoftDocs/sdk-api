@@ -9,8 +9,6 @@ ms.assetid: 603e00e8-0370-4ebf-b9d2-85e6e58c2b3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDispTypeInfo, CreateDispTypeInfo function [Automation], _oa96_CreateDispTypeInfo, automat.createdisptypeinfo, oleauto/CreateDispTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

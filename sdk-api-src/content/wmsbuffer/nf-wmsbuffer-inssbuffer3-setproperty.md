@@ -9,8 +9,6 @@ ms.assetid: 5aede025-65ae-4615-9511-af22b8c0dc00
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSSBuffer3 interface [windows Media Format],SetProperty method, INSSBuffer3.SetProperty, INSSBuffer3::SetProperty, INSSBuffer3SetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],INSSBuffer3 interface, wmformat.inssbuffer3_setproperty, wmsbuffer/INSSBuffer3::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
@@ -122,7 +120,7 @@ The method was unable to allocate memory for the new property.
 
 
 
-If you set a buffer property with a size larger than that specified in your call to <a href="https://msdn.microsoft.com/db84a33c-bd83-46cb-a97c-76ddeeb74927">IWMStreamConfig2::AddDataUnitExtension</a>, you will not get an error from <b>SetProperty</b>. However, when the writer writes the sample, NS_E_DATA_UNIT_EXTENSION_TOO_LARGE will be returned.
+If you set a buffer property with a size larger than that specified in your call to <a href="https://msdn.microsoft.com/en-us/library/Dd798548(v=VS.85).aspx">IWMStreamConfig2::AddDataUnitExtension</a>, you will not get an error from <b>SetProperty</b>. However, when the writer writes the sample, NS_E_DATA_UNIT_EXTENSION_TOO_LARGE will be returned.
 
 
 
@@ -132,11 +130,11 @@ If you set a buffer property with a size larger than that specified in your call
 
 
 
-<a href="https://msdn.microsoft.com/3ebf80d0-b5b0-4024-805d-e0a3855574bf">INSSBuffer3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7733df5-f764-4996-b324-fa050b1db0af">INSSBuffer3::GetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743254(v=VS.85).aspx">INSSBuffer3::GetProperty</a>
  
 
  

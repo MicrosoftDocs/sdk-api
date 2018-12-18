@@ -9,8 +9,6 @@ ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h
@@ -61,7 +59,7 @@ The <b>Clone</b> method creates a copy of the attribute-enumeration sequence obj
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a> type. This function will fail if <i>ppenum</i> is <b>NULL</b>.
+A pointer to a pointer of <a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a> type. This function will fail if <i>ppenum</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -71,7 +69,7 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa38
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a cloned attribute-enumeration sequence object.
@@ -84,7 +82,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The attribute-enumeration sequence object is obtained by a call to 
-the <a href="https://msdn.microsoft.com/en-us/library/Aa386234(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method.
+the <a href="https://msdn.microsoft.com/53a70f66-3805-429e-8ef6-01b00b666b72">IEnumCERTVIEWROW::EnumCertViewAttribute</a> method.
 
 
 #### Examples
@@ -120,7 +118,7 @@ if (NULL != pEnumAttr2)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
  
 
  

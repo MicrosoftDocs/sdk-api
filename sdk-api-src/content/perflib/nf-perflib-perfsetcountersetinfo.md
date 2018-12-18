@@ -7,10 +7,8 @@ old-location: perf\perfsetcountersetinfo.htm
 tech.root: perfctrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

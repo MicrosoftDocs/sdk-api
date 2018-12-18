@@ -9,8 +9,6 @@ ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

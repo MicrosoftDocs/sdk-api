@@ -9,8 +9,6 @@ ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,12 +61,12 @@ The <b>WMCreateLicenseRevocationAgent</b> function creates a license revocation 
 
 ### -param pCallback [in]
 
-Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://msdn.microsoft.com/7b8cdb21-96e1-4cf9-8422-72bce693afb1">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
+Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
 
 
 ### -param ppLicenseRevocationAgent [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/4cb5beb9-72b8-46cb-8460-56455785a7a0">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757225(v=VS.85).aspx">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
 
 
 ## -returns

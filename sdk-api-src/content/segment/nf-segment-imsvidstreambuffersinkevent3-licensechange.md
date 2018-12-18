@@ -9,8 +9,6 @@ ms.assetid: 2477f082-50a6-4b4b-89ba-ccf4c8894a4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSinkEvent3 interface [Microsoft TV Technologies],LicenseChange method, IMSVidStreamBufferSinkEvent3.LicenseChange, IMSVidStreamBufferSinkEvent3::LicenseChange, IMSVidStreamBufferSinkEvent3LicenseChange, LicenseChange, LicenseChange method [Microsoft TV Technologies], LicenseChange method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent3 interface, mstv.imsvidstreambuffersinkevent3_licensechange, segment/IMSVidStreamBufferSinkEvent3::LicenseChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -83,7 +81,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/3d76be50-0e67-4e23-8ce0-8ac9f4ad0c1c">IMSVidStreamBufferSinkEvent3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694650(v=VS.85).aspx">IMSVidStreamBufferSinkEvent3 Interface</a>
  
 
  

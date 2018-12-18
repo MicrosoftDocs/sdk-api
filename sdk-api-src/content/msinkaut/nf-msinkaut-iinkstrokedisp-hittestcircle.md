@@ -9,8 +9,6 @@ ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],HitTestCircle method, IInkStrokeDisp.HitTestCircle, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

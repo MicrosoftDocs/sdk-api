@@ -9,8 +9,6 @@ ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: casetup.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>GetProviderNameList</b> method gets the list of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
+The <b>GetProviderNameList</b> method gets the list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 
 
 ## -parameters
@@ -73,7 +71,7 @@ A pointer to a <b>VARIANT</b>  array of <b>VT_BSTR</b> types, where each string 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

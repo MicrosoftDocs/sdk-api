@@ -9,8 +9,6 @@ ms.assetid: 13E0E477-9CD5-484B-9532-AB6D415CF6CB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CopyRaytracingAccelerationStructure, CopyRaytracingAccelerationStructure method, CopyRaytracingAccelerationStructure method,ID3D12GraphicsCommandList4 interface, ID3D12GraphicsCommandList4 interface,CopyRaytracingAccelerationStructure method, ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure, ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, d3d12/ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure, direct3d12.id3d12graphicscommandlist4_copyraytracingaccelerationstructure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -108,7 +106,7 @@ This method can be called from graphics or compute command lists but not from bu
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

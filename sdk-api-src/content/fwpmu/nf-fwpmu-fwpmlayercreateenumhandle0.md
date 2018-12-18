@@ -9,8 +9,6 @@ ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

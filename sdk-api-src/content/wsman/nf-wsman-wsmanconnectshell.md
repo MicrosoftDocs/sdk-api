@@ -9,8 +9,6 @@ ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManConnectShell, WSManConnectShell function [Windows Remote Management], winrm.wsmanconnectshell, wsman/WSManConnectShell
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

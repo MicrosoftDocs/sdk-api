@@ -9,8 +9,6 @@ ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -78,7 +76,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-If any references to an <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object have been deleted from the cache, you can no longer use that object. In C++, you must release references to deleted <b>IAzRoleDefinition</b> objects by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If any references to an <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object have been deleted from the cache, you can no longer use that object. In C++, you must release references to deleted <b>IAzRoleDefinition</b> objects by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

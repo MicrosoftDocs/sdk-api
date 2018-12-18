@@ -9,8 +9,6 @@ ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -106,7 +104,7 @@ BITS cannot download content from an unauthenticated peer. When peers are detect
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964270(v=VS.85).aspx">IBitsPeer</a>
+<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
  
 
  

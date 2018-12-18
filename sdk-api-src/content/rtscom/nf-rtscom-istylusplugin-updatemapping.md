@@ -9,8 +9,6 @@ ms.assetid: 26cefb86-a21e-432d-b3db-1669d5b9cd05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 26cefb86-a21e-432d-b3db-1669d5b9cd05, IStylusPlugin interface [Tablet PC],UpdateMapping method, IStylusPlugin.UpdateMapping, IStylusPlugin::UpdateMapping, UpdateMapping, UpdateMapping method [Tablet PC], UpdateMapping method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::UpdateMapping, tablet.istylusplugin_updatemapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

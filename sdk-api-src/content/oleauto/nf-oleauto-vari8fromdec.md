@@ -9,8 +9,6 @@ ms.assetid: 6fb7f5da-f82c-4a39-9900-d0ce3472a70d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarI8FromDec, VarI8FromDec function [Automation], _oa96_VarI8FromDec, automat.vari8fromdec, oleauto/VarI8FromDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

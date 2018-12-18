@@ -9,8 +9,6 @@ ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

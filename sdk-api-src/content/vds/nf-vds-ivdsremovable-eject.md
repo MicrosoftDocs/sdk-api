@@ -9,8 +9,6 @@ ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interface, IVdsRemovable interface [VDS],Eject method, IVdsRemovable.Eject, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

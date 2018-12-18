@@ -9,8 +9,6 @@ ms.assetid: 0f7a5e37-5a0d-415e-aca0-df5f9448b017
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDeviceEvent interface [Microsoft TV Technologies],StateChange method, IMSVidDeviceEvent.StateChange, IMSVidDeviceEvent::StateChange, IMSVidDeviceEventStateChange, StateChange, StateChange method [Microsoft TV Technologies], StateChange method [Microsoft TV Technologies],IMSVidDeviceEvent interface, mstv.imsviddeviceevent_statechange, segment/IMSVidDeviceEvent::StateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -102,7 +100,7 @@ The dispatch identifier (dispid) of this method is <b>eventidStateChange</b>.
 
 
 
-<a href="https://msdn.microsoft.com/1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48">IMSVidDeviceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694522(v=VS.85).aspx">IMSVidDeviceEvent</a>
  
 
  

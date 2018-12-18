@@ -9,8 +9,6 @@ ms.assetid: A0F866CD-78FE-441E-810E-763347F84323
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_LOOKUPTABLE3D_PROP, D2D1_LOOKUPTABLE3D_PROP enumeration [Direct2D], D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, D2D1_LOOKUPTABLE3D_PROP_LUT, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_LUT, direct2d.d2d1_lookuptable3d_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 
@@ -65,8 +63,8 @@ The D2D1_LOOKUPTABLE3D_PROP_LUT property is a pointer to an <a href="https://msd
 
 ### -field D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE
 
-The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/en-us/library/Dd368058(v=VS.85).aspx">D2D1_ALPHA_MODE</a> value indicating the alpha mode of the input file.
-          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/en-us/library/Dd756766(v=VS.85).aspx">Supported Pixel Formats and Alpha Modes</a> topic for additional information.
+The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a> value indicating the alpha mode of the input file.
+          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a> topic for additional information.
 
 
 ### -field D2D1_LOOKUPTABLE3D_PROP_FORCE_DWORD
@@ -79,7 +77,7 @@ The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
 
 
 

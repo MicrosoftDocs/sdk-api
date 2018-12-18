@@ -9,8 +9,6 @@ ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], IUIAutomationPatternHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternHandler, uiauto_IUIAutomationPatternHandler, uiautomationcore/IUIAutomationPatternHandler, winauto.uiauto_IUIAutomationPatternHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

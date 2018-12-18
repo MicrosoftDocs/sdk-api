@@ -9,8 +9,6 @@ ms.assetid: A9B3992C-D3D1-4190-9314-A21E388E88BA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

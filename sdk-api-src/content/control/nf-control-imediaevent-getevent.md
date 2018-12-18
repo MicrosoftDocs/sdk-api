@@ -9,8 +9,6 @@ ms.assetid: d7cbbf6d-c741-416f-b8dd-d9ca012d309a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetEvent, GetEvent method [DirectShow], GetEvent method [DirectShow],IMediaEvent interface, GetEvent method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],GetEvent method, IMediaEvent.GetEvent, IMediaEvent::GetEvent, IMediaEventEx interface [DirectShow],GetEvent method, IMediaEventEx::GetEvent, IMediaEventGetEvent, control/IMediaEvent::GetEvent, control/IMediaEventEx::GetEvent, dshow.imediaevent_getevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -130,7 +128,7 @@ If no event is on the queue, this method waits up to <i>msTimeout</i> millisecon
 
 After calling <code>GetEvent</code>, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406905(v=VS.85).aspx">IMediaEvent::FreeEventParams</a> method to release any resources allocated for the event parameters.
 
-For a list of notification codes and event parameter values, see <a href="https://msdn.microsoft.com/en-us/library/Dd375625(v=VS.85).aspx">Event Notification Codes</a>.
+For a list of notification codes and event parameter values, see <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
 
 Because this method removes the event from the filter graph event queue, there is no way for multiple clients to monitor events from the same graph.
 
@@ -142,7 +140,7 @@ Because this method removes the event from the filter graph event queue, there i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

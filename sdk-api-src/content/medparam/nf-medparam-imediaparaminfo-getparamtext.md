@@ -9,8 +9,6 @@ ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
@@ -150,7 +148,7 @@ The object uses the <b>CoTaskMemAlloc</b> function to allocate memory for the st
 
 
 
-<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
  
 
  

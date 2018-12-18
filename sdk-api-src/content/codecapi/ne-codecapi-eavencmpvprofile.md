@@ -9,8 +9,6 @@ ms.assetid: 20e6bddb-8761-4ac7-9342-09ad7c9d4905
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncMPVProfile, codecapi/eAVEncMPVProfile_422, codecapi/eAVEncMPVProfile_High, codecapi/eAVEncMPVProfile_Main, codecapi/eAVEncMPVProfile_Simple, codecapi/eAVEncMPVProfile_unknown, dshow.eavencmpvprofile, eAVEncMPVProfile, eAVEncMPVProfile enumeration [DirectShow], eAVEncMPVProfileEnumeration, eAVEncMPVProfile_422, eAVEncMPVProfile_High, eAVEncMPVProfile_Main, eAVEncMPVProfile_Simple, eAVEncMPVProfile_unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -95,7 +93,7 @@ High Profile.
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

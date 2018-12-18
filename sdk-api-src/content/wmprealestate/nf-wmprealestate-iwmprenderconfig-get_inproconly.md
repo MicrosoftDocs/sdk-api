@@ -9,8 +9,6 @@ ms.assetid: 71284af6-dc76-4a39-81f4-ed265140aad5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],get_inProcOnly method, IWMPRenderConfig.get_inProcOnly, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmprealestate.h
 req.include-header: 
@@ -110,7 +108,7 @@ Using this method with protected content is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/01a4c79e-9867-47c0-9aca-b2f1596f1c2a">IWMPRenderConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563639(v=VS.85).aspx">IWMPRenderConfig Interface</a>
  
 
  

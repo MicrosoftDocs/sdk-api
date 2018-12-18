@@ -7,10 +7,8 @@ old-location: pla\itracedataprovidercollection_count.htm
 tech.root: pla
 ms.assetid: d5ecc815-86c1-4a08-b434-88479df3d70c
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: Count property [PLA], Count property [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Count property, ITraceDataProviderCollection.Count, ITraceDataProviderCollection.get_Count, ITraceDataProviderCollection::Count, ITraceDataProviderCollection::get_Count, base.itracedataprovidercollection_count, get_Count, pla.itracedataprovidercollection_count, pla/ITraceDataProviderCollection::Count, pla/ITraceDataProviderCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

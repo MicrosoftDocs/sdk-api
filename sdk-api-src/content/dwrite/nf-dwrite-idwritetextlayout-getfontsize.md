@@ -9,8 +9,6 @@ ms.assetid: 31cf375a-d749-4af1-9470-73439fe6276e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFontSize, GetFontSize method [Direct Write], GetFontSize method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontSize method, IDWriteTextLayout.GetFontSize, IDWriteTextLayout::GetFontSize, directwrite.IDWriteTextLayout_GetFontSize, dwrite/IDWriteTextLayout::GetFontSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: a6d6434a-d4cf-4b92-958c-5ff8022a9531
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetForgottenKnowledgeRecoveryRangeStart, GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

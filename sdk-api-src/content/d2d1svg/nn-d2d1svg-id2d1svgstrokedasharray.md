@@ -9,8 +9,6 @@ ms.assetid: D3C82EC8-4172-48FE-AE8C-5F15BDBBCD30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SvgStrokeDashArray, ID2D1SvgStrokeDashArray interface [Direct2D], ID2D1SvgStrokeDashArray interface [Direct2D],described, d2d1svg/ID2D1SvgStrokeDashArray, direct2d.id2d1svgstrokedasharray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1svg.h
 req.include-header: 
@@ -70,7 +68,7 @@ The <b>ID2D1SvgStrokeDashArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d244b59c-2681-1da9-9b89-534b4f3be543">GetDashes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492672(v=VS.85).aspx">GetDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets dashes from the array.
 
@@ -96,7 +94,7 @@ Removes dashes from the end of the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9be98f2-d215-d009-ec9e-732163539053">UpdateDashes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt492673(v=VS.85).aspx">UpdateDashes</a>
 </td>
 <td align="left" width="63%">Overloaded. Updates the array.
 

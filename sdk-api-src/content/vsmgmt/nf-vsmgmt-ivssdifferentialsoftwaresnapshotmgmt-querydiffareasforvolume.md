@@ -9,8 +9,6 @@ ms.assetid: 381f8a4a-c88f-4bd3-bff1-6828fe034e66
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasForVolume method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForVolume, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume, QueryDiffAreasForVolume, QueryDiffAreasForVolume method [VSS], QueryDiffAreasForVolume method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforvolume, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 
@@ -174,7 +172,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The returned <a href="https://msdn.microsoft.com/c2067822-1824-4676-8376-7d83fcbbaea3">IVssEnumMgmtObject</a> enumerator object 
     will contain <a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a> structures inside the 
-    <a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a> union inside the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a> union inside the 
     <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> structure.
 
 

@@ -9,8 +9,6 @@ ms.assetid: a2071ca9-8675-4f53-b30e-8c7198c2acca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Exec, Exec method [COM], Exec method [COM],IOleCommandTarget interface, IOleCommandTarget interface [COM],Exec method, IOleCommandTarget.Exec, IOleCommandTarget::Exec, _ole_iolecommandtarget_exec, com.iolecommandtarget_exec, docobj/IOleCommandTarget::Exec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 
@@ -70,7 +68,7 @@ The command to be executed. This command must belong to the group specified with
 
 ### -param nCmdexecopt [in]
 
-Specifies how the object should execute the command. Possible values are taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> and <a href="https://msdn.microsoft.com/31331c73-1f26-436d-8fa7-83f13ef51f0e">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
+Specifies how the object should execute the command. Possible values are taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa344051(v=VS.85).aspx">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
 
 
 ### -param pvaIn [in]

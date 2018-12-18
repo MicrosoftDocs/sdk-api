@@ -9,8 +9,6 @@ ms.assetid: c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetListener, WsResetListener function [Web Services for Windows], webservices/WsResetListener, wsw.wsresetlistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

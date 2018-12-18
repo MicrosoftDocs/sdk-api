@@ -9,8 +9,6 @@ ms.assetid: 1264a58d-81e1-4877-915d-6ed3d7d15512
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmvSwitchEventSubscribe0, FwpmvSwitchEventSubscribe0 function [Filtering], fwp.fwpmvswitcheventsubscribe0, fwpmu/FwpmvSwitchEventSubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

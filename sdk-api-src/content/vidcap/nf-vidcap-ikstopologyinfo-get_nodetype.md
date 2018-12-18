@@ -9,8 +9,6 @@ ms.assetid: 6606d563-6a35-4595-8bb2-6cf74f7af4e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeType method, IKsTopologyInfo.get_NodeType, IKsTopologyInfo::get_NodeType, IKsTopologyInfoget_NodeType, dshow.ikstopologyinfo_get_nodetype, get_NodeType, get_NodeType method [DirectShow], get_NodeType method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>get_NodeType</code> method returns the node type for a given node.
 
 ### -param dwNodeId [in]
 
-Index of the node. To find the number of nodes, call the <a href="https://msdn.microsoft.com/fdba99d5-fd44-4d4f-8575-867d98bf3339">IKsTopologyInfo::get_NumNodes</a> method.
+Index of the node. To find the number of nodes, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390156(v=VS.85).aspx">IKsTopologyInfo::get_NumNodes</a> method.
 
 
 ### -param pNodeType [out]
@@ -105,7 +103,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
  
 
  

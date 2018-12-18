@@ -9,8 +9,6 @@ ms.assetid: a5e71e4c-5871-4bea-a4a5-a56c7e70276b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreeReservedLog, FreeReservedLog function [Files], clfsw32/FreeReservedLog, fs.freereservedlog
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

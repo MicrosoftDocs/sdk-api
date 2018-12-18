@@ -9,8 +9,6 @@ ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

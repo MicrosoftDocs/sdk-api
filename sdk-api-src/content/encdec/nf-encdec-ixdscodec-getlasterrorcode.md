@@ -9,8 +9,6 @@ ms.assetid: 57fd833a-00cc-41d5-acf9-6b07aa8dc115
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetLastErrorCode method, IXDSCodec.GetLastErrorCode, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

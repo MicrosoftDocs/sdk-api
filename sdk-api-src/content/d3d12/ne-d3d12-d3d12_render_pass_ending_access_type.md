@@ -9,8 +9,6 @@ ms.assetid: 61B6003B-DDA5-4FF5-B1F5-994642937D29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE enumeration, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE, direct3d12.d3d12_render_pass_ending_access_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 
@@ -74,5 +72,5 @@ Indicates that the resource(s)—for example, a multi-sample anti-aliasing (MSAA
 
 ### -field D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS
 
-Indicates that your application will neither read from nor write  to the resource(s) during the render pass. You would most likely use this value to indicate that you won't be accessing the depth/stencil plane for a depth/stencil view (DSV). You must pair this value with <a href="direct3d12.d3d12_render_pass_beginning_access_type">D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_NO_ACCESS</a> in the corresponding <a href="direct3d12.d3d12_render_pass_beginning_access">D3D12_RENDER_PASS_BEGINNING_ACCESS</a> structure.
+Indicates that your application will neither read from nor write  to the resource(s) during the render pass. You would most likely use this value to indicate that you won't be accessing the depth/stencil plane for a depth/stencil view (DSV). You must pair this value with <a href="https://msdn.microsoft.com/12B376DB-2CCF-493E-8B21-BAAE66B5FF1E">D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_NO_ACCESS</a> in the corresponding <a href="https://msdn.microsoft.com/48356954-F233-4FD5-A32B-099E83DC46C0">D3D12_RENDER_PASS_BEGINNING_ACCESS</a> structure.
 

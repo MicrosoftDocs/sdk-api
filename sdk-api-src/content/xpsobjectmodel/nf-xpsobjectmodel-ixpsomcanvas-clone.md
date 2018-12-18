@@ -9,8 +9,6 @@ ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],Clone method, IXpsOMCanvas.Clone, IXpsOMCanvas::Clone, xps.ixpsomcanvas_clone, xpsobjectmodel/IXpsOMCanvas::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

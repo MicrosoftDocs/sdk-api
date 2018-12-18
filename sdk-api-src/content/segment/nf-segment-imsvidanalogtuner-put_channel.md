@@ -9,8 +9,6 @@ ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel method, IMSVidAnalogTuner.put_Channel, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_Channel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -77,15 +75,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/47ad4288-d855-41cd-b8a2-7b3733a87b41">IAMTuner::put_Channel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375955(v=VS.85).aspx">IAMTuner::put_Channel</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d62cd70-02cf-4454-b5b7-da2d623ec95d">IMSVidAnalogTuner::get_Channel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694428(v=VS.85).aspx">IMSVidAnalogTuner::get_Channel</a>
  
 
  

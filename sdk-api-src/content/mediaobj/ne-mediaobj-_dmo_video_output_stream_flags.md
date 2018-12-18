@@ -9,8 +9,6 @@ ms.assetid: fafacdd8-d918-491a-a7e5-7b59128f574f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMO_VIDEO_OUTPUT_STREAM_FLAGS , DMO_VIDEO_OUTPUT_STREAM_FLAGSEnumeration, DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, _DMO_VIDEO_OUTPUT_STREAM_FLAGS, _DMO_VIDEO_OUTPUT_STREAM_FLAGS enumeration [DirectShow], dshow.dmo_video_output_stream_flags, mediaobj/DMO_VOSF_NEEDS_PREVIOUS_SAMPLE, mediaobj/_DMO_VIDEO_OUTPUT_STREAM_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 
@@ -75,7 +73,7 @@ Requests that every output buffer passed to the DMO contain the previous data th
 
 
 
-<a href="https://msdn.microsoft.com/1e87d0e1-68be-4f86-aae2-cff3edfa573b">IDMOVideoOutputOptimizations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406843(v=VS.85).aspx">IDMOVideoOutputOptimizations</a>
  
 
  

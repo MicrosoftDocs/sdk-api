@@ -9,8 +9,6 @@ ms.assetid: 76a51c21-b924-4919-a6bb-8c6bdec5b3f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

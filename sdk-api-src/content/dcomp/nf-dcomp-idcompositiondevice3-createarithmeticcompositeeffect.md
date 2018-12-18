@@ -9,8 +9,6 @@ ms.assetid: 0A06A546-7FD6-4B3C-86C8-0C5B9417D450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateArithmeticCompositeEffect, CreateArithmeticCompositeEffect method [DirectComposition], CreateArithmeticCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateArithmeticCompositeEffect method, IDCompositionDevice3.CreateArithmeticCompositeEffect, IDCompositionDevice3::CreateArithmeticCompositeEffect, dcomp/IDCompositionDevice3::CreateArithmeticCompositeEffect, directcomp.idcompositiondevice3_createarithmeticcompositeeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>.
 
 
 ## -parameters
@@ -60,16 +58,16 @@ Creates an instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A9
 
 ### -param arithmeticCompositeEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>**</b>
 
-Receives the created instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>.
+Receives the created instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -81,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5da076dc-360d-0b28-f131-8669d1a91dd6">IDCompositionDevice3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904488(v=VS.85).aspx">IDCompositionDevice3</a>
  
 
  

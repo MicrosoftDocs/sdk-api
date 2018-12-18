@@ -9,8 +9,6 @@ ms.assetid: b2d4ffa2-0b10-4bc5-9af1-83f4ee68b35f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetColorKey method, IMixerPinConfig.SetColorKey, IMixerPinConfig::SetColorKey, IMixerPinConfigSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setcolorkey, mpconfig/IMixerPinConfig::SetColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>SetColorKey</code> method sets the color key being used by a video str
 
 ### -param pColorKey [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/1563488a-e4e5-472d-b665-5bbcb13fad1a">COLORKEY</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd387889(v=VS.85).aspx">COLORKEY</a> structure.
 
 
 ## -returns

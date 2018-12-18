@@ -9,8 +9,6 @@ ms.assetid: 8bf30b4c-bddf-4ca8-91c6-af739125829c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetName method, IXpsOMVisual.SetName, IXpsOMVisual::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setname, xpsobjectmodel/IXpsOMVisual::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

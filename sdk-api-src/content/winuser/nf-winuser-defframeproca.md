@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinte
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DefFrameProc, DefFrameProc function [Windows and Messages], DefFrameProcA, DefFrameProcW, _win32_DefFrameProc, _win32_defframeproc_cpp, winmsg.defframeproc, winui._win32_defframeproc, winuser/DefFrameProc, winuser/DefFrameProcA, winuser/DefFrameProcW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

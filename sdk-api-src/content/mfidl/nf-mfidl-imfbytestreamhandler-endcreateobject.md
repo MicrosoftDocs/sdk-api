@@ -9,8 +9,6 @@ ms.assetid: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 8fd9797a-8dfb-4e59-8bcb-52dc53b5bb2e, EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],EndCreateObject method, IMFByteStreamHandler.EndCreateObject, IMFByteStreamHandler::EndCreateObject, mf.imfbytestreamhandler_endcreateobject, mfidl/IMFByteStreamHandler::EndCreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

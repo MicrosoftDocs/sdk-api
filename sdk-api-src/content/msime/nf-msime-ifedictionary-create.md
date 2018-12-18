@@ -9,8 +9,6 @@ ms.assetid: 218DEE1C-945A-4CD8-BAD5-12F904FAB2DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Create, Create method [Internationalization for Windows Applications], Create method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Create method, IFEDictionary.Create, IFEDictionary::Create, intl.ifedictionary_create, msime/IFEDictionary::Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 

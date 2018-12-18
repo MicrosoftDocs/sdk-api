@@ -9,8 +9,6 @@ ms.assetid: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3b3d5a58-31e8-4d0e-a1c9-25bb36bb8d9c, IInkStrokeDisp interface [Tablet PC],Rotate method, IInkStrokeDisp.Rotate, IInkStrokeDisp::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Rotate, tablet.iinkstrokedisp_rotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

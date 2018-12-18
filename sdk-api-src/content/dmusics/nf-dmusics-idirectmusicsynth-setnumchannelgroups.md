@@ -9,8 +9,6 @@ ms.assetid: b7a26fc6-11a9-4bb6-944f-dfbc772b4383
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetNumChannelGroups method, IDirectMusicSynth.SetNumChannelGroups, IDirectMusicSynth::SetNumChannelGroups, SetNumChannelGroups, SetNumChannelGroups method [Audio Devices], SetNumChannelGroups method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setnumchannelgroups, audmp-routines_7a3156c4-8bab-4ad5-aca6-369f322e6cb7.xml, dmusics/IDirectMusicSynth::SetNumChannelGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

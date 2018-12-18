@@ -9,8 +9,6 @@ ms.assetid: 10214543-36da-46e3-b926-0ba088f84a7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetGravity method, ITextRange2.SetGravity, ITextRange2::SetGravity, SetGravity, SetGravity method [Windows Controls], SetGravity method [Windows Controls],ITextRange2 interface, controls.itextrange2_setgravity, tom/ITextRange2::SetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

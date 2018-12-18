@@ -9,8 +9,6 @@ ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -121,11 +119,11 @@ The method failed for an unspecified reason.
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f320a0c-8586-4fc2-bd70-06ddda435cb5">IWMReader::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743588(v=VS.85).aspx">IWMReader::Close</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Controls], TRUE, _win32_Header_SetHotDivider, _win32_Header_SetHotDivider_cpp, commctrl/Header_SetHotDivider, controls.Header_SetHotDivider, controls._win32_Header_SetHotDivider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Changes the color of a divider between header items to indicate the destination 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
 
 ### -param fPos
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 A value specifying how 
 					<i>dwInputValue</i> is to be interpreted. The value in this field can be one of the following: 
@@ -105,7 +103,7 @@ Indicates that
 
 ### -param dw
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The value held here is interpreted depending on the value of 
 					<i>flag</i>. 

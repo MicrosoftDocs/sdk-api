@@ -9,8 +9,6 @@ ms.assetid: dcfe1962-c40f-4d3f-ae6a-b70755adebe8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],Close method, IOleParentUndoUnit.Close, IOleParentUndoUnit::Close, _ole_ioleparentundounit_close, com.ioleparentundounit_close, ocidl/IOleParentUndoUnit::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

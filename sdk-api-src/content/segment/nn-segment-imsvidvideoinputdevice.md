@@ -9,8 +9,6 @@ ms.assetid: cbc687b1-826d-4738-8d0a-a7b90f5ff20d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoInputDevice, IMSVidVideoInputDevice interface [Microsoft TV Technologies], IMSVidVideoInputDevice interface [Microsoft TV Technologies],described, mstv.imsvidvideoinputdevice, segment/IMSVidVideoInputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -52,7 +50,7 @@ req.redist:
 
 The <b>IMSVidVideoInputDevice</b> interface represents a video input device. This interface inherits from the <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
-The <a href="https://msdn.microsoft.com/b11f3ac4-c351-4017-9801-98d8edec7449">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a> interface, which represents video tuning devices, inherits from this interface.
 
 
 ## -remarks

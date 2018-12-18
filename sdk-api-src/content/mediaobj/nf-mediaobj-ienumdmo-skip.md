@@ -9,8 +9,6 @@ ms.assetid: 32722190-52b5-468a-91d6-a828ad02b203
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDMO interface [DirectShow],Skip method, IEnumDMO.Skip, IEnumDMO::Skip, IEnumDMOSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumDMO interface, dshow.ienumdmo_skip, mediaobj/IEnumDMO::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -81,7 +79,7 @@ Returns S_OK if the number items skipped equals <i>cItemsToSkip</i>. Otherwise, 
 
 
 
-<a href="https://msdn.microsoft.com/221248f2-5c8f-442e-a6ad-e0372ddc1aae">IEnumDMO Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376585(v=VS.85).aspx">IEnumDMO Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: fde0a136-6c13-43d9-9969-e1226be60f76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputCount method, IWMSyncReader.GetOutputCount, IWMSyncReader::GetOutputCount, IWMSyncReaderGetOutputCount, wmformat.iwmsyncreader_getoutputcount, wmsdkidl/IWMSyncReader::GetOutputCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -133,11 +131,11 @@ To enumerate the outputs, call <b>GetOutputCount</b> to get the number of output
 
 
 
-<a href="https://msdn.microsoft.com/2a46e79f-084e-4173-ad0f-211d3065d81a">IWMSyncReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e701ea-8b53-4abe-8b78-7c6fb151d80f">IWMSyncReader::GetOutputProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798592(v=VS.85).aspx">IWMSyncReader::GetOutputProps</a>
 
 
 

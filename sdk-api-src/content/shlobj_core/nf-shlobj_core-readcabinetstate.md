@@ -9,8 +9,6 @@ ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[<b>ReadCabinetState</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Fills a <a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a> structure with information from the registry.
+Fills a <a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a> structure with information from the registry.
 
 
 ## -parameters
@@ -62,9 +60,9 @@ Fills a <a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62
 
 ### -param pcs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a>*</b>
 
-When this function returns, contains a pointer to a <a href="https://msdn.microsoft.com/4b82b6a8-c4c0-4af2-9612-0551376c1c62">CABINETSTATE</a> structure that contains either information pulled from the registry or default information.
+When this function returns, contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773207(v=VS.85).aspx">CABINETSTATE</a> structure that contains either information pulled from the registry or default information.
 
 
 ### -param cLength [in]

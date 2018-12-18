@@ -9,8 +9,6 @@ ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

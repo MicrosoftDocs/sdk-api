@@ -9,8 +9,6 @@ ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

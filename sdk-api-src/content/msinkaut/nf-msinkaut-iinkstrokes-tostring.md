@@ -9,8 +9,6 @@ ms.assetid: e1f1d68b-16c2-4d97-ae5f-091e5ec285c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 702ec977-2d87-4d52-916e-423f1df03829, IInkStrokes interface [Tablet PC],ToString method, IInkStrokes.ToString, IInkStrokes::ToString, ToString, ToString method [Tablet PC], ToString method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::ToString, tablet.inkstrokes_tostring
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -183,7 +181,7 @@ No recognizers are installed, the recognizers registry key is corrupted, or your
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

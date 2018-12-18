@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_8j1v_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGroups, GetGroups method [Fax Service], GetGroups method [Fax Service],IFaxOutboundRouting interface, IFaxOutboundRouting interface [Fax Service],GetGroups method, IFaxOutboundRouting.GetGroups, IFaxOutboundRouting::GetGroups, _mfax_faxoutboundrouting.getgroups_cpp, fax._mfax_faxoutboundrouting_getgroups_cpp, faxcomex/IFaxOutboundRouting::GetGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -60,9 +58,9 @@ The <b>IFaxOutboundRouting::GetGroups</b> method retrieves an interface that rep
 
 ### -param pFaxOutboundRoutingGroups [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a>**</b>
 
-An address of a pointer that receives an <a href="https://msdn.microsoft.com/cf36787b-cc8e-48a8-b81d-5406cbc4bcc8">IFaxOutboundRoutingGroups</a> interface.
+An address of a pointer that receives an <a href="https://msdn.microsoft.com/en-us/library/ms689212(v=VS.85).aspx">IFaxOutboundRoutingGroups</a> interface.
 
 
 ## -returns

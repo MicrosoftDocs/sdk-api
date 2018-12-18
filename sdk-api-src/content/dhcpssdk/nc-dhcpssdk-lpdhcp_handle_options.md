@@ -9,8 +9,6 @@ ms.assetid: 51bb3d2c-953d-446a-ad70-eb6cc8d4dbca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpHandleOptionsHook, DhcpHandleOptionsHook callback function [DHCP], LPDHCP_HANDLE_OPTIONS, LPDHCP_HANDLE_OPTIONS callback, _dhcp_dhcphandleoptionshook, dhcp.dhcphandleoptionshook, dhcpssdk/DhcpHandleOptionsHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: dhcpssdk.h
 req.include-header: 

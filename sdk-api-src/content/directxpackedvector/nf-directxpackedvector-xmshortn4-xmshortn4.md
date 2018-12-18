@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN4.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4::XMSHORTN4, dxmath.xmshortn4_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 Default constructor for <code>XMSHORTN4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
@@ -83,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a
 
 
 
-<a href="https://msdn.microsoft.com/1dfe894e-bc5f-4bfd-a4ba-71fb3e4c9728">XMSHORTN4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420216(v=VS.85).aspx">XMSHORTN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/87b4befb-7267-4346-928e-25eaeaf1db5e">XMSHORTN4 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415434(v=VS.85).aspx">XMSHORTN4 Constructors</a>
  
 
  

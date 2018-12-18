@@ -9,8 +9,6 @@ ms.assetid: 714d1adf-df8d-4f6b-8bcd-8dd9461c102a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTypeRefProps, GetTypeRefProps method [Windows Runtime], GetTypeRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeRefProps method, IMetaDataImport.GetTypeRefProps, IMetaDataImport::GetTypeRefProps, rometadataapi/IMetaDataImport::GetTypeRefProps, winrt.imetadataimport_gettyperefprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

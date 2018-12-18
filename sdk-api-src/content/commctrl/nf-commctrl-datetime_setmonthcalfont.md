@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalfont.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetMonthCalFont, DateTime_SetMonthCalFont macro [Windows Controls], _win32_DateTime_SetMonthCalFont, _win32_DateTime_SetMonthCalFont_cpp, commctrl/DateTime_SetMonthCalFont, controls.DateTime_SetMonthCalFont, controls._win32_DateTime_SetMonthCalFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the font to be used by the date and time picker (DTP) control's child month
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param hfont
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HFONT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HFONT</a></b>
 
 A handle to the font that will be set. 
 

@@ -9,8 +9,6 @@ ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management],described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

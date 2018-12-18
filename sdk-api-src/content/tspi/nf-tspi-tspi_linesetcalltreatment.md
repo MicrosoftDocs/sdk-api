@@ -9,8 +9,6 @@ ms.assetid: 04c93e35-df6b-409e-9bc4-06c36819963a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetCallTreatment, TSPI_lineSetCallTreatment function [TAPI 2.2], _tspi_tspi_linesetcalltreatment, tspi.tspi_linesetcalltreatment, tspi/TSPI_lineSetCallTreatment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

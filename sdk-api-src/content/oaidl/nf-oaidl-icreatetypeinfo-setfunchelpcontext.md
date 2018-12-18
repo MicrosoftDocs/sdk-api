@@ -9,8 +9,6 @@ ms.assetid: 945d2faa-f35d-488f-a0df-ace3fbb85971
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncHelpContext method, ICreateTypeInfo.SetFuncHelpContext, ICreateTypeInfo::SetFuncHelpContext, SetFuncHelpContext, SetFuncHelpContext method [Automation], SetFuncHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncHelpContext, automat.icreatetypeinfo_setfunchelpcontext, oaidl/ICreateTypeInfo::SetFuncHelpContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

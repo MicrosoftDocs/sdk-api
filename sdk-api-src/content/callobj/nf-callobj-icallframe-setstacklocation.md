@@ -9,8 +9,6 @@ ms.assetid: 689f3819-488b-4679-a401-f1500db22461
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICallFrame interface [COM],SetStackLocation method, ICallFrame.SetStackLocation, ICallFrame::SetStackLocation, SetStackLocation, SetStackLocation method [COM], SetStackLocation method [COM],ICallFrame interface, _com_icallframe_setstacklocation, callobj/ICallFrame::SetStackLocation, com.icallframe_setstacklocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: callobj.h
 req.include-header: 
@@ -77,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

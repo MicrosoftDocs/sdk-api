@@ -9,8 +9,6 @@ ms.assetid: EE3591FD-4FE8-4F20-A4E2-52C896229571
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], IMFMediaEngineEx interface [Media Foundation],described, mf.imfmediaengineex, mfmediaengine/IMFMediaEngineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

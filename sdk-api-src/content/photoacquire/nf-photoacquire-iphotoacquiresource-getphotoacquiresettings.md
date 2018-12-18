@@ -9,8 +9,6 @@ ms.assetid: b4c01856-b7e4-4318-aaf8-8e34e441ce75
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPhotoAcquireSettings, GetPhotoAcquireSettings method [Picture Acquisition], GetPhotoAcquireSettings method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetPhotoAcquireSettings method, IPhotoAcquireSource.GetPhotoAcquireSettings, IPhotoAcquireSource::GetPhotoAcquireSettings, IPhotoAcquireSourceGetPhotoAcquireSettings, photoacquire/IPhotoAcquireSource::GetPhotoAcquireSettings, picacq.iphotoacquiresource_getphotoacquiresettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

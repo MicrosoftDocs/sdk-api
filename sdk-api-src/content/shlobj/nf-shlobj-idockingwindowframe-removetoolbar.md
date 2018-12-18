@@ -9,8 +9,6 @@ ms.assetid: 4ebc4561-a7fe-4fa4-ae2a-88030ede02e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWFRF_DELETECONFIGDATA, DWFRF_NORMAL, IDockingWindowFrame interface [Windows Shell],RemoveToolbar method, IDockingWindowFrame.RemoveToolbar, IDockingWindowFrame::RemoveToolbar, RemoveToolbar, RemoveToolbar method [Windows Shell], RemoveToolbar method [Windows Shell],IDockingWindowFrame interface, _win32_IDockingWindowFrame_RemoveToolbar, shell.IDockingWindowFrame_RemoveToolbar, shlobj/IDockingWindowFrame::RemoveToolbar
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
+The <b>StartAtPosition</b> method enables you to specify a starting position for a file using one of several offset formats. This method is very similar to <a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>, except that the starting position and duration can be given for time, video frame number, SMPTE time code, or playlist position. If you only need to seek on presentation time, use <b>Start</b>.
 
 
 
@@ -95,7 +93,7 @@ Void pointer to the address containing the offset start. The unit of measurement
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://msdn.microsoft.com/039c352c-d1f0-443f-acef-f730e949725c">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757858(v=VS.85).aspx">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -132,7 +130,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 <tr>
 <td>WMT_OFFSET_FORMAT_TIMECODE</td>
 <td>
-<a href="https://msdn.microsoft.com/039c352c-d1f0-443f-acef-f730e949725c">WMT_TIMECODE_EXTENSION_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757858(v=VS.85).aspx">WMT_TIMECODE_EXTENSION_DATA</a>
 </td>
 </tr>
 <tr>
@@ -145,7 +143,7 @@ Void pointer to the address containing the duration of playback. If zero is pass
 
 ### -param dwOffsetFormat [in]
 
-<b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/b4119098-0407-462b-8550-46f8c1312fe0">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
+<b>DWORD</b> containing one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757848(v=VS.85).aspx">WMT_OFFSET_FORMAT</a> enumeration type. Valid values and their meanings are as follows.
 
 <table>
 <tr>
@@ -185,7 +183,7 @@ Floating point number indicating playback rate. Normal-speed playback is 1.0; hi
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback</a>.
+Generic pointer, for use by the application. This pointer is passed back to the application on calls to <a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback</a>.
 
 
 ## -returns
@@ -284,7 +282,7 @@ If an invalid duration is specified, <b>StartAtPosition</b> will not fail. As ma
 
 
 
-<a href="https://msdn.microsoft.com/20bf3c00-0f35-4b8e-b78d-a36fbfd865b7">IWMReaderAdvanced3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757447(v=VS.85).aspx">IWMReaderAdvanced3 Interface</a>
  
 
  

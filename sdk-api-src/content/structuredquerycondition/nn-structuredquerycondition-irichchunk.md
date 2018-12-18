@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\irichc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquerycondition.h
 req.include-header: 

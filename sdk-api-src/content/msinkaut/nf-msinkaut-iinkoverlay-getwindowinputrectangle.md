@@ -9,8 +9,6 @@ ms.assetid: e0e4cabe-f8f1-48b5-a12a-789b7c9c5973
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],GetWindowInputRectangle method, IInkOverlay.GetWindowInputRectangle, IInkOverlay::GetWindowInputRectangle, msinkaut/IInkOverlay::GetWindowInputRectangle, tablet.inkoverlay_getwindowinputrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -146,7 +144,7 @@ If you call <a href="https://msdn.microsoft.com/0f47b4c7-7ba1-44a6-8f62-9e97c318
 
 
 
-<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
 
 
 

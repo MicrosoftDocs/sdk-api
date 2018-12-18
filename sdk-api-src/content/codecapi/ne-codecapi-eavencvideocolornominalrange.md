@@ -9,8 +9,6 @@ ms.assetid: e3f49d42-b683-463b-8e09-9497a9bfad25
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncVideoColorNominalRange, codecapi/eAVEncVideoColorNominalRange_0_255, codecapi/eAVEncVideoColorNominalRange_16_235, codecapi/eAVEncVideoColorNominalRange_48_208, codecapi/eAVEncVideoColorNominalRange_SameAsSource, dshow.eavencvideocolornominalrange, eAVEncVideoColorNominalRange, eAVEncVideoColorNominalRange enumeration [DirectShow], eAVEncVideoColorNominalRangeEnumeration, eAVEncVideoColorNominalRange_0_255, eAVEncVideoColorNominalRange_16_235, eAVEncVideoColorNominalRange_48_208, eAVEncVideoColorNominalRange_SameAsSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -88,7 +86,7 @@ The normalized range [0..1] maps to [48...208] for 8-bit samples.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
 
 
 

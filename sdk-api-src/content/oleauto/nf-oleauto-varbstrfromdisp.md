@@ -9,8 +9,6 @@ ms.assetid: 6a59e80b-96d2-47ff-9d23-fab9d67886b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarBstrFromDisp, VarBstrFromDisp function [Automation], _oa96_VarBstrFromDisp, automat.varbstrfromdisp, oleauto/VarBstrFromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt4(XMINT4@,XMVECTOR)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMStoreSInt4, XMStoreSInt4, XMStoreSInt4 method [DirectX Math Support APIs], dxmath.xmstoresint4
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -60,7 +58,7 @@ Stores signed integer data from an <a href="https://msdn.microsoft.com/1a044094-
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/4562AF48-FC7E-4737-AB7B-7A76789DC70B">XMINT4</a> structure in which to store the data.
+Address of an  <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> structure in which to store the data.
 
 
 ### -param V
@@ -81,7 +79,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/189369e9-cb05-4702-a011-3f4fbed7bc2b">XMStoreInt4A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420366(v=VS.85).aspx">XMStoreInt4A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.

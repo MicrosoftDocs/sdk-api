@@ -9,8 +9,6 @@ ms.assetid: 96e5d8f3-b658-408d-a615-e681d8731442
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_FrequencyDivider method, IMpegAudioDecoder.put_FrequencyDivider, IMpegAudioDecoder::put_FrequencyDivider, IMpegAudioDecoderputFrequencyDivider, dshow.impegaudiodecoder_put_frequencydivider, mpegtype/IMpegAudioDecoder::put_FrequencyDivider, put_FrequencyDivider, put_FrequencyDivider method [DirectShow], put_FrequencyDivider method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 405AB590-B579-4B61-9CE7-BF21D9E56600
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioAsyncEnumDatabases, WinBioAsyncEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioasyncenumdatabases, winbio/WinBioAsyncEnumDatabases
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

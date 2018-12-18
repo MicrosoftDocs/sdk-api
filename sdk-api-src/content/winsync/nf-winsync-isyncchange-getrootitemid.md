@@ -9,8 +9,6 @@ ms.assetid: 775868d5-8cab-431a-913b-b22b2d516f0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRootItemId, GetRootItemId method [Windows Sync], GetRootItemId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetRootItemId method, ISyncChange.GetRootItemId, ISyncChange::GetRootItemId, winsync.isyncchange_getrootitemid, winsync/ISyncChange::GetRootItemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

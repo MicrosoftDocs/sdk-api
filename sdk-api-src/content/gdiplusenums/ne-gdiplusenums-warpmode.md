@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

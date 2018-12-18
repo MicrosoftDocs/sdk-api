@@ -9,8 +9,6 @@ ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -113,11 +111,11 @@ The <i>bstrURL</i> parameter must not be an empty string or null.
 
 
 
-<a href="https://msdn.microsoft.com/3004551e-ce36-4f15-88c3-93b2bfaa72fc">IWMPCore3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563219(v=VS.85).aspx">IWMPCore3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
  
 
  

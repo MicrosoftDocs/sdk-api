@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetEffectParamet
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetEffectParameters method, IXAudio2Voice.SetEffectParameters, IXAudio2Voice::SetEffectParameters, SetEffectParameters, SetEffectParameters method [XAudio2 Audio Mixing APIs], SetEffectParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_seteffectparameters, xaudio2/IXAudio2Voice::SetEffectParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 
@@ -107,14 +105,14 @@ The specific effect being used determines the valid size and format of the <i>pP
 
 
 
-The memory pointed to by <i>pParameters</i> must <i>not</i> be freed immediately, because XAudio2 will need to refer to it later when the parameters actually are applied to the effect. This happens during the next audio processing pass if the <i>OperationSet</i> argument is <b>XAUDIO2_COMMIT_NOW</b>. Otherwise, the parameters are applied to the effect later, during the first processing pass after the <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> function is called with the same <i>OperationSet</i> argument.
+The memory pointed to by <i>pParameters</i> must <i>not</i> be freed immediately, because XAudio2 will need to refer to it later when the parameters actually are applied to the effect. This happens during the next audio processing pass if the <i>OperationSet</i> argument is <b>XAUDIO2_COMMIT_NOW</b>. Otherwise, the parameters are applied to the effect later, during the first processing pass after the <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> function is called with the same <i>OperationSet</i> argument.
 
 
 
 <b>SetEffectParameters</b> takes effect immediately when called from an XAudio2 callback with an <i>OperationSet</i> of <b>XAUDIO2_COMMIT_NOW</b>.
 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/75CC5E5D-74B2-4972-9E1D-D6CB4A3034CD">IXAudio2Voice::GetEffectParameters</a> always returns the effect's actual current parameters. However, these may not match the parameters set by the most recent call to <b>IXAudio2Voice::SetEffectParameters</b>. The actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetEffectParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/2E798B7B-AD3E-4DCD-BB88-BAD3EC64EFE1">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetEffectParameters</b> was called with a deferred operation ID).</div>
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/en-us/library/Ee418586(v=VS.85).aspx">IXAudio2Voice::GetEffectParameters</a> always returns the effect's actual current parameters. However, these may not match the parameters set by the most recent call to <b>IXAudio2Voice::SetEffectParameters</b>. The actual parameters are only changed the next time the audio engine runs after the <b>IXAudio2Voice::SetEffectParameters</b> call (or after the corresponding <a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">IXAudio2::CommitChanges</a> call, if <b>IXAudio2Voice::SetEffectParameters</b> was called with a deferred operation ID).</div>
 <div> </div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
@@ -131,11 +129,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">IXAPOParameters::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/F704008E-AE43-4189-8B34-8E3915338627">IXAudio2Voice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415917(v=VS.85).aspx">IXAudio2Voice</a>
 
 
 

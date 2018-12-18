@@ -9,8 +9,6 @@ ms.assetid: e6c2484d-8167-4305-9467-f9b2b7fedc32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerTime method, IWMPMedia.getMarkerTime, IWMPMedia2 interface [Windows Media Player],getMarkerTime method, IWMPMedia2::getMarkerTime, IWMPMedia3 interface [Windows Media Player],getMarkerTime method, IWMPMedia3::getMarkerTime, IWMPMedia::getMarkerTime, IWMPMediagetMarkerTime, getMarkerTime, getMarkerTime method [Windows Media Player], getMarkerTime method [Windows Media Player],IWMPMedia interface, getMarkerTime method [Windows Media Player],IWMPMedia2 interface, getMarkerTime method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkertime, wmp/IWMPMedia2::getMarkerTime, wmp/IWMPMedia3::getMarkerTime, wmp/IWMPMedia::getMarkerTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,11 +119,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e97c8d26-fa6a-4791-a698-b742eaf980eb">IWMPMedia::get_markerCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563441(v=VS.85).aspx">IWMPMedia::get_markerCount</a>
  
 
  

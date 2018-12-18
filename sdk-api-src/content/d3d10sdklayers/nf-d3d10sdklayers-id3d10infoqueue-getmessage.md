@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10infoqueue_getmessage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 792ee245-051d-ca89-58b7-8d2ebfaf48b6, GetMessage, GetMessage method [Direct3D 10], GetMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetMessage method, ID3D10InfoQueue.GetMessage, ID3D10InfoQueue::GetMessage, d3d10sdklayers/ID3D10InfoQueue::GetMessage, direct3d10.id3d10infoqueue_getmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

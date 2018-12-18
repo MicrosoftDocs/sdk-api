@@ -9,8 +9,6 @@ ms.assetid: a5372bfb-185c-4562-afa3-35399c8e2a46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

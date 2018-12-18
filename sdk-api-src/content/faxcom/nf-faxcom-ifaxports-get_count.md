@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7rp0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxPorts interface [Fax Service],get_Count method, IFaxPorts.get_Count, IFaxPorts::get_Count, _mfax_ifaxports_get_count, fax._mfax_ifaxports_get_count, faxcom/IFaxPorts::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxPorts interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

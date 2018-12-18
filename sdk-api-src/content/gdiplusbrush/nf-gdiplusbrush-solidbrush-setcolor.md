@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrushclass\solidbr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetColor, SetColor method [GDI+], SetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],SetColor method, SolidBrush.SetColor, SolidBrush::SetColor, _gdiplus_CLASS_SolidBrush_SetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_SetColor_color_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

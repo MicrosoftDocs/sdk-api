@@ -9,8 +9,6 @@ ms.assetid: 238e33ba-f35c-423c-be5f-73d1ca14cebd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_Stereo method, IMpegAudioDecoder.put_Stereo, IMpegAudioDecoder::put_Stereo, IMpegAudioDecoderputStereo, dshow.impegaudiodecoder_put_stereo, mpegtype/IMpegAudioDecoder::put_Stereo, put_Stereo, put_Stereo method [DirectShow], put_Stereo method [DirectShow],IMpegAudioDecoder interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpegtype.h
 req.include-header: 
@@ -100,7 +98,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/59fd96ef-2f9a-4a8e-bd08-2695de52b1c6">IMpegAudioDecoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376656(v=VS.85).aspx">IMpegAudioDecoder</a>
  
 
  

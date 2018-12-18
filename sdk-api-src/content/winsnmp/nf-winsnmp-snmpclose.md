@@ -9,8 +9,6 @@ ms.assetid: eac678f4-c77c-46b5-9c45-62b5822079da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpClose, SnmpClose function [SNMP], _snmp_snmpclose, snmp.snmpclose, winsnmp/SnmpClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

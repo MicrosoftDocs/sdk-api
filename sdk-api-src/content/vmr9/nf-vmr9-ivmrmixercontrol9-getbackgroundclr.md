@@ -9,8 +9,6 @@ ms.assetid: 1be2fb34-b0f3-4dff-8813-a487229af6dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetBackgroundClr method, IVMRMixerControl9.GetBackgroundClr, IVMRMixerControl9::GetBackgroundClr, IVMRMixerControl9GetBackgroundClr, dshow.ivmrmixercontrol9_getbackgroundclr, vmr9/IVMRMixerControl9::GetBackgroundClr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -109,11 +107,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fed7f4bb-519c-4e02-be99-065b9131e57c">SetBackgroundClr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390466(v=VS.85).aspx">SetBackgroundClr</a>
 
 
 

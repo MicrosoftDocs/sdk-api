@@ -9,8 +9,6 @@ ms.assetid: EF7CD98A-AE8D-42B3-BA1F-D50EB2FB88A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_SVG_UNIT_TYPE, D2D1_SVG_UNIT_TYPE enumeration [Direct2D], D2D1_SVG_UNIT_TYPE_FORCE_DWORD, D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX, D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE, d2d1svg/D2D1_SVG_UNIT_TYPE, d2d1svg/D2D1_SVG_UNIT_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX, d2d1svg/D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE, direct2d.d2d1_svg_unit_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1svg.h
 req.include-header: 

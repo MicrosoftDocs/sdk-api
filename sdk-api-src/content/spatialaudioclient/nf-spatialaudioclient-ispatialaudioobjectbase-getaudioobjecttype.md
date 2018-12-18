@@ -9,8 +9,6 @@ ms.assetid: C4FB5E8B-C80A-4B4B-9162-95B463543061
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAudioObjectType, GetAudioObjectType method [Core Audio], GetAudioObjectType method [Core Audio],ISpatialAudioObjectBase interface, ISpatialAudioObjectBase interface [Core Audio],GetAudioObjectType method, ISpatialAudioObjectBase.GetAudioObjectType, ISpatialAudioObjectBase::GetAudioObjectType, coreaudio.ispatialaudioobject_getaudioobjecttype, spatialaudioclient/ISpatialAudioObjectBase::GetAudioObjectType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -90,7 +88,7 @@ Set the type of the audio object with the <i>type</i> parameter to the  <a href=
 
 
 
-<a href="https://msdn.microsoft.com/54721875-D93A-4C7E-A07E-C286E1A409D3">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

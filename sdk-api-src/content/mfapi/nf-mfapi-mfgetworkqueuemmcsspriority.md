@@ -9,8 +9,6 @@ ms.assetid: 8ADF4751-3BC5-4353-9927-C7E0079D0B83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

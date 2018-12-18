@@ -9,8 +9,6 @@ ms.assetid: 76580828-c776-4787-843c-db0acb768321
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 76580828-c776-4787-843c-db0acb768321, AddStrokes, AddStrokes method [Tablet PC], AddStrokes method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],AddStrokes method, IInkStrokes.AddStrokes, IInkStrokes::AddStrokes, msinkaut/IInkStrokes::AddStrokes, tablet.inkstrokes_addstrokes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -179,7 +177,7 @@ Unexpected parameter or property type.
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

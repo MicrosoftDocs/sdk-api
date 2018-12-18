@@ -9,8 +9,6 @@ ms.assetid: 25871056-5833-40DA-9C5B-690DCAB16E5C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],OrderContainersRestore method, IDedupReadFileCallback.OrderContainersRestore, IDedupReadFileCallback::OrderContainersRestore, OrderContainersRestore, OrderContainersRestore method [Data Deduplication API], OrderContainersRestore method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::OrderContainersRestore, dedup.idedupreadfilecallback_ordercontainersrestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 

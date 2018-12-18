@@ -9,8 +9,6 @@ ms.assetid: 062aac78-6d7d-4335-963a-bc2c2d339efb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetNumberOfStreams method, IVMRFilterConfig9.SetNumberOfStreams, IVMRFilterConfig9::SetNumberOfStreams, IVMRFilterConfig9SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [DirectShow], SetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setnumberofstreams, vmr9/IVMRFilterConfig9::SetNumberOfStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -146,7 +144,7 @@ The VMR creates as many input pins as are specified without attempting to determ
 
 
 
-<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
 
 
 

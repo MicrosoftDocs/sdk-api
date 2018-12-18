@@ -9,8 +9,6 @@ ms.assetid: 9913a9e0-13ee-4f4b-9e8b-0f2549e4ded3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_capDlgVideoSource, capDlgVideoSource, capDlgVideoSource macro [Windows Multimedia], multimedia.capdlgvideosource, vfw/capDlgVideoSource"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

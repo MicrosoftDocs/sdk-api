@@ -9,8 +9,6 @@ ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

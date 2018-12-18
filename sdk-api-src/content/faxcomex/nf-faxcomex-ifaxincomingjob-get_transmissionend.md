@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_4quc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],TransmissionEnd property, IFaxIncomingJob.TransmissionEnd, IFaxIncomingJob.get_TransmissionEnd, IFaxIncomingJob::TransmissionEnd, IFaxIncomingJob::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.transmissionend, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_transmissionend_cpp, fax._mfax_faxincomingjob_transmissionend, faxcomex/IFaxIncomingJob::TransmissionEnd, faxcomex/IFaxIncomingJob::get_TransmissionEnd, get_TransmissionEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -74,15 +72,15 @@ The <b>TransmissionEnd</b> property is not valid as long as the fax is still bei
 
 
 
-<a href="https://msdn.microsoft.com/ef93899d-e797-4f07-bede-0860b695b32b">FaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3707441-6cdf-4a1c-b408-023a1a597492">IFaxIncomingJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/88cde2d4-09ee-4fbf-8a75-35de58dd45f5">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

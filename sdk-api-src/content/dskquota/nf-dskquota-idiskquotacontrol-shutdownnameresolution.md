@@ -9,8 +9,6 @@ ms.assetid: 53a2dd49-46e8-4e84-bbc2-102a57f36abc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiskQuotaControl interface [Files],ShutdownNameResolution method, IDiskQuotaControl.ShutdownNameResolution, IDiskQuotaControl::ShutdownNameResolution, ShutdownNameResolution, ShutdownNameResolution method [Files], ShutdownNameResolution method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_shutdownnameresolution, base.idiskquotacontrol_shutdownnameresolution, dskquota/IDiskQuotaControl::ShutdownNameResolution, fs.idiskquotacontrol_shutdownnameresolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The SID-to-name resolver translates user security identifiers (SID) to user names. It runs as a background thread. When a quota control object is destroyed, this thread automatically terminates. The final call to the <a href="_com_iunknown_release">IUnknown::Release</a> method terminates the thread. This is normally all that is required. If you finish with the quota control object, but it is not ready to be destroyed (there are other open reference counts), call this method to terminate the background thread before the object is destroyed.
+The SID-to-name resolver translates user security identifiers (SID) to user names. It runs as a background thread. When a quota control object is destroyed, this thread automatically terminates. The final call to the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method terminates the thread. This is normally all that is required. If you finish with the quota control object, but it is not ready to be destroyed (there are other open reference counts), call this method to terminate the background thread before the object is destroyed.
 
 
 ## -parameters

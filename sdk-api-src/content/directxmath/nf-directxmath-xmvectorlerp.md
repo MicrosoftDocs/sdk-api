@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorLerp(XMVECTOR,XMVECTOR,flo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorLerp, XMVectorLerp, XMVectorLerp method [DirectX Math Support APIs], dxmath.xmvectorlerp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -132,7 +130,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6cc4f0b8-dce5-45d3-a7cf-30d296206bf9">XMVectorLerpV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421172(v=VS.85).aspx">XMVectorLerpV</a>
  
 
  

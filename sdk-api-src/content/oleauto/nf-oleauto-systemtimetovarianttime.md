@@ -9,8 +9,6 @@ ms.assetid: d9d69521-9b33-4fc5-8a1c-929f216db450
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SystemTimeToVariantTime, SystemTimeToVariantTime function [Automation], _oa96_SystemTimeToVariantTime, automat.systemtimetovarianttime, oleauto/SystemTimeToVariantTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

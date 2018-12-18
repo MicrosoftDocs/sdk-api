@@ -9,8 +9,6 @@ ms.assetid: 0ff79820-5f44-4262-b97f-df783829e44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapFrameEncode.GetMetadataQueryWriter, IWICBitmapFrameEncode::GetMetadataQueryWriter, _wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

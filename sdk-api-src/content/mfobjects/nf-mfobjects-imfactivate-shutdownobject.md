@@ -9,8 +9,6 @@ ms.assetid: 1f88ff31-5a91-4838-bfce-673a5a85c766
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media Foundation],ShutdownObject method, IMFActivate.ShutdownObject, IMFActivate::ShutdownObject, ShutdownObject, ShutdownObject method [Media Foundation], ShutdownObject method [Media Foundation],IMFActivate interface, mf.imfactivate_shutdownobject, mfobjects/IMFActivate::ShutdownObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

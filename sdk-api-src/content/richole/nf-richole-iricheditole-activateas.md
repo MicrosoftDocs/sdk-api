@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateAs, ActivateAs method [Windows Controls], ActivateAs method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ActivateAs method, IRichEditOle.ActivateAs, IRichEditOle::ActivateAs, _win32_IRichEditOle_ActivateAs, _win32_IRichEditOle_ActivateAs_cpp, controls.IRichEditOle_ActivateAs, controls._win32_IRichEditOle_ActivateAs, richole/IRichEditOle::ActivateAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

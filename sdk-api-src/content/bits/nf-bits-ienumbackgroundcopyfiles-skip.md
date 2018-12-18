@@ -9,8 +9,6 @@ ms.assetid: 41488586-cb91-4b87-b11d-2808bc162d42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Skip method, IEnumBackgroundCopyFiles.Skip, IEnumBackgroundCopyFiles::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_skip, bits.ienumbackgroundcopyfiles_skip, bits/IEnumBackgroundCopyFiles::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits.h
 req.include-header: 
@@ -107,7 +105,7 @@ Skipped less than the number of requested elements.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363097(v=VS.85).aspx">IEnumBackgroundCopyFiles</a>
+<a href="https://msdn.microsoft.com/831998ba-601c-43c4-ba27-faff741f8eb4">IEnumBackgroundCopyFiles</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Update Agent], IInstallationBehavior interface [Windows Update Agent],described, wua.iinstallationbehavior, wuapi/IInstallationBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

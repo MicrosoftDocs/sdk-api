@@ -9,8 +9,6 @@ ms.assetid: 3e7fbf27-3519-4c02-b785-98e29902df65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetCurrentImage method, IBasicVideo.GetCurrentImage, IBasicVideo::GetCurrentImage, IBasicVideoGetCurrentImage, control/IBasicVideo::GetCurrentImage, dshow.ibasicvideo_getcurrentimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -100,7 +98,7 @@ This method is reliable regardless of whether the VMR is using DirectDraw accele
 To obtain the required buffer size to hold the image, call this method with a <b>NULL</b> pointer in the <i>pDIBImage</i> parameter. The method returns the required buffer size in the <i>pBufferSize</i> parameter. Allocate a buffer of that size and call the method again, with <i>pDIBImage</i> pointing to the buffer. On the second call, use <i>pBufferSize</i> to specify the buffer size. If the buffer is too small to hold the complete image, the method returns E_OUTOFMEMORY. 
 
 
-If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://msdn.microsoft.com/en-us/library/Dd318229(v=VS.85).aspx">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://msdn.microsoft.com/en-us/library/Dd183375(v=VS.85).aspx">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
+If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
 
 
 
@@ -111,7 +109,7 @@ If the method succeeds, the buffer is filled with the entire DIB image, includin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

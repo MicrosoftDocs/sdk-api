@@ -9,8 +9,6 @@ ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

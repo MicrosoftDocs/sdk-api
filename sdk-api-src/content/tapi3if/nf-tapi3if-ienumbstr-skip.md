@@ -9,8 +9,6 @@ ms.assetid: fcece935-d133-4991-8eae-f2cabfde423b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Skip method, IEnumBstr.Skip, IEnumBstr::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_skip, tapi3.ienumbstr_skip, tapi3if/IEnumBstr::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 896080ff-cdf0-40b1-ba4e-d94de527d86e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamOfSections, GetStreamOfSections method [Microsoft TV Technologies], GetStreamOfSections method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetStreamOfSections method, IMpeg2Data.GetStreamOfSections, IMpeg2Data::GetStreamOfSections, IMpeg2DataGetStreamOfSections, mpeg2data/IMpeg2Data::GetStreamOfSections, mstv.impeg2data_getstreamofsections
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2data.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetStreamOfSections</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>GetStreamOfSections</b> method starts an ongoing request for specific MPEG-2 table sections.
 

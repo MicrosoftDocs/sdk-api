@@ -1,16 +1,14 @@
 ---
-UID: NS:wininet.INTERNET_PER_CONN_OPTIONA
+UID: NS:wininet.__unnamed_struct_3
 title: INTERNET_PER_CONN_OPTIONA
 author: windows-sdk-content
 description: Contains the value of an option.
 old-location: wininet\internet_per_conn_option.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 35cfc768-1f1d-4be9-8d56-c56c7440513e
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPINTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL, INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS, INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL, INTERNET_PER_CONN_AUTOCONFIG_URL, INTERNET_PER_CONN_AUTODISCOVERY_FLAGS, INTERNET_PER_CONN_FLAGS, INTERNET_PER_CONN_FLAGS_UI, INTERNET_PER_CONN_OPTION, INTERNET_PER_CONN_OPTION structure [WinINet], INTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_PROXY_BYPASS, INTERNET_PER_CONN_PROXY_SERVER, LPINTERNET_PER_CONN_OPTION, LPINTERNET_PER_CONN_OPTION structure pointer [WinINet], _inet_internet_per_conn_option_structure, wininet.internet_per_conn_option, wininet/INTERNET_PER_CONN_OPTION, wininet/INTERNET_PER_CONN_OPTIONA, wininet/INTERNET_PER_CONN_OPTIONW, wininet/LPINTERNET_PER_CONN_OPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 
@@ -283,20 +281,40 @@ Union that contains the value for the option. It can be any one of the following
 <b>dwOption</b>:
 
 
-### -field Value.dwValue
+
+#### dwValue
 
 Unsigned long integer value.
 
 
-### -field Value.pszValue
+
+#### pszValue
 
 Pointer to a string value.
 
 
-### -field Value.ftValue
+
+#### ftValue
 
 A 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+
+
+### -field dwValue
+
+ 
+
+
+### -field pszValue
+
+ 
+
+
+### -field ftValue
+
+ 
+
+
 
 
 ## -remarks
@@ -324,7 +342,7 @@ For queries that return strings,
 
 
 
-<a href="https://msdn.microsoft.com/5e3178d5-b266-44bd-846c-f14bad0083c4">INTERNET_PER_CONN_OPTION_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385146(v=VS.85).aspx">INTERNET_PER_CONN_OPTION_LIST</a>
 
 
 

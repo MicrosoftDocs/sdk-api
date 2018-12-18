@@ -9,8 +9,6 @@ ms.assetid: 4e7a3d71-4ec1-4c33-9101-d9d90ee8b1f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringRemoved method, IWMPEvents.MediaCollectionAttributeStringRemoved, IWMPEvents::MediaCollectionAttributeStringRemoved, IWMPEventsMediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved, MediaCollectionAttributeStringRemoved method [Windows Media Player], MediaCollectionAttributeStringRemoved method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringremoved, wmp/IWMPEvents::MediaCollectionAttributeStringRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -96,7 +94,7 @@ When a media item is removed from the library, its metadata is removed from the 
 
 
 
-<a href="https://msdn.microsoft.com/396545d5-8844-4dd2-9ed5-e4ed77f352ac">IWMPEvents Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563310(v=VS.85).aspx">IWMPEvents Interface</a>
  
 
  

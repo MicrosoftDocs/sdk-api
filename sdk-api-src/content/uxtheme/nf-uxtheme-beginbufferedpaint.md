@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedpaint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginBufferedPaint, BeginBufferedPaint function [Windows Controls], _shell_BeginBufferedPaint, _shell_BeginBufferedPaint_cpp, controls.BeginBufferedPaint, controls._shell_BeginBufferedPaint, uxtheme/BeginBufferedPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

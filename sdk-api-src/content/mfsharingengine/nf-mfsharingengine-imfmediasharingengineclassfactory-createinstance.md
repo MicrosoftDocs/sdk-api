@@ -9,8 +9,6 @@ ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

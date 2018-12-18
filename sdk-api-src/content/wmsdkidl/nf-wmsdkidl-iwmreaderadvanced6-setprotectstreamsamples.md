@@ -9,8 +9,6 @@ ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -145,7 +143,7 @@ The constants used for <i>dwCertificateType</i> and <i>dwFlags</i> are defined i
 
 
 
-<a href="https://msdn.microsoft.com/95e8c151-9aae-4930-824c-8809dfc07705">IWMReaderAdvanced6 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757462(v=VS.85).aspx">IWMReaderAdvanced6 Interface</a>
  
 
  

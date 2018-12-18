@@ -9,8 +9,6 @@ ms.assetid: 1fe2546c-d70c-466a-8640-77cc2403a91d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetReportSizeLimit method, GetReportSizeLimit, GetReportSizeLimit method [File Server Resource Manager], GetReportSizeLimit method [File Server Resource Manager],FsrmReportManager class, GetReportSizeLimit method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetReportSizeLimit method, IFsrmReportManager.GetReportSizeLimit, IFsrmReportManager::GetReportSizeLimit, fs.ifsrmreportmanager_getreportsizelimit, fsrm.ifsrmreportmanager_getreportsizelimit, fsrmreports/IFsrmReportManager::GetReportSizeLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

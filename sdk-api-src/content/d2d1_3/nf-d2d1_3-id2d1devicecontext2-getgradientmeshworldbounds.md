@@ -9,8 +9,6 @@ ms.assetid: 809d851c-a3e0-7609-95e0-637e25cdaa06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGradientMeshWorldBounds, GetGradientMeshWorldBounds method [Direct2D], GetGradientMeshWorldBounds method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],GetGradientMeshWorldBounds method, ID2D1DeviceContext2.GetGradientMeshWorldBounds, ID2D1DeviceContext2::GetGradientMeshWorldBounds, d2d1_3/ID2D1DeviceContext2::GetGradientMeshWorldBounds, direct2d.id2d1devicecontext2_getgradientmeshworldbounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -76,7 +74,7 @@ When this method returns, contains a pointer to the bounds of the gradient mesh,
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

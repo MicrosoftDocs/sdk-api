@@ -9,8 +9,6 @@ ms.assetid: a7c1892a-9aaf-4c53-a5df-6ce2b82d9d77
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesiredBufferSize, GetDesiredBufferSize method [Audio Devices], GetDesiredBufferSize method [Audio Devices],IDirectMusicSynthSink interface, IDirectMusicSynthSink interface [Audio Devices],GetDesiredBufferSize method, IDirectMusicSynthSink.GetDesiredBufferSize, IDirectMusicSynthSink::GetDesiredBufferSize, audio.idirectmusicsynthsink_getdesiredbuffersize, audmp-routines_be109f09-5ab8-46cd-925d-fe13d60c8ddb.xml, dmusics/IDirectMusicSynthSink::GetDesiredBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

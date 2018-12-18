@@ -9,8 +9,6 @@ ms.assetid: 90b39ed2-a8a9-424c-bfd2-90517b9224fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToUInt64Array, VariantToUInt64Array function [Windows Properties], _shell_VariantToUInt64Array, properties.VariantToUInt64Array, propvarutil/VariantToUInt64Array, shell.VariantToUInt64Array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

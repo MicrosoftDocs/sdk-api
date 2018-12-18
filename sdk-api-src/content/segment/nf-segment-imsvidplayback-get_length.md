@@ -9,8 +9,6 @@ ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length method, IMSVidPlayback.get_Length, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -80,7 +78,7 @@ Pointer to a variable that receives the length. The units for the returned value
 </table>
  
 
-To set the position mode, call <a href="https://msdn.microsoft.com/b2ff0b7e-c35d-4ea9-92de-a31654781687">IMSVidPlayback::put_PositionMode</a>.
+To set the position mode, call <a href="https://msdn.microsoft.com/en-us/library/Dd694598(v=VS.85).aspx">IMSVidPlayback::put_PositionMode</a>.
 
 
 ## -returns
@@ -160,7 +158,7 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
  
 
  

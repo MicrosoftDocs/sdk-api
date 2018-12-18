@@ -9,8 +9,6 @@ ms.assetid: 6995a4a2-a8c6-4c8f-bac0-478af4d8f911
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IProvideWinSATResultsInfo interface [WinSAT],RatingStateDesc property, IProvideWinSATResultsInfo.RatingStateDesc, IProvideWinSATResultsInfo.get_RatingStateDesc, IProvideWinSATResultsInfo::RatingStateDesc, IProvideWinSATResultsInfo::get_RatingStateDesc, RatingStateDesc property [WinSAT], RatingStateDesc property [WinSAT],IProvideWinSATResultsInfo interface, get_RatingStateDesc, winsat.iprovidewinsatresultsinfo_ratingstatedesc, winsatcominterfacei/IProvideWinSATResultsInfo::RatingStateDesc, winsatcominterfacei/IProvideWinSATResultsInfo::get_RatingStateDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

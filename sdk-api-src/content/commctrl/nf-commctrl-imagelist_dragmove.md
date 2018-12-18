@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragmove.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_DragMove, ImageList_DragMove function [Windows Controls], _win32_ImageList_DragMove, _win32_ImageList_DragMove_cpp, commctrl/ImageList_DragMove, controls.ImageList_DragMove, controls._win32_ImageList_DragMove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -76,7 +74,7 @@ The y-coordinate at which to display the drag image. The coordinate is relative 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

@@ -9,8 +9,6 @@ ms.assetid: 35b83fc8-3dad-4f08-a3fe-ce047b2ca3a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHSetLocalizedName, SHSetLocalizedName function [Windows Shell], _shell_SHSetLocalizedName, _shell_SHSetLocalizedName_cpp, shell.SHSetLocalizedName, shellapi/SHSetLocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

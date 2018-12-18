@@ -9,8 +9,6 @@ ms.assetid: 3af59de9-0239-47ab-b3b3-1f1baecb169f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3af59de9-0239-47ab-b3b3-1f1baecb169f, IInkPicture interface [Tablet PC],InkEnabled property, IInkPicture.InkEnabled, IInkPicture.get_InkEnabled, IInkPicture::InkEnabled, IInkPicture::get_InkEnabled, IInkPicture::put_InkEnabled, InkEnabled property [Tablet PC], InkEnabled property [Tablet PC],IInkPicture interface, InkPicture.get_InkEnabled, InkPicture.put_InkEnabled, get_InkEnabled, msinkaut/IInkPicture::InkEnabled, msinkaut/IInkPicture::get_InkEnabled, msinkaut/IInkPicture::put_InkEnabled, put_InkEnabled, tablet.inkpicture_inkenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -131,7 +129,7 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 
-<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

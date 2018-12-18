@@ -9,8 +9,6 @@ ms.assetid: c233244c-24b6-4baa-ba36-697283ff33f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteStartCData, WsWriteStartCData function [Web Services for Windows], webservices/WsWriteStartCData, wsw.wswritestartcdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

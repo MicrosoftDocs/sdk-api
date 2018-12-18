@@ -9,8 +9,6 @@ ms.assetid: 51a26894-f391-4281-9e06-2e70fb662aa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_BORROW, MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_REQUIRED, MI_FLAG_STREAM, MI_Instance_AddElement, MI_Instance_AddElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_AddElement, wmi_v2.mi_instance_addelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

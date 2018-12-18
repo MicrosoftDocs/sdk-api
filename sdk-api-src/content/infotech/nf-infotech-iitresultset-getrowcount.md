@@ -9,8 +9,6 @@ ms.assetid: VS|htmlhelp|~\html\refiitresultsetgetrowcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRowCount, GetRowCount method [HTML Help Workshop], GetRowCount method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],GetRowCount method, IITResultSet.GetRowCount, IITResultSet::GetRowCount, htmlhelp.iitresultset_getrowcount, infotech/IITResultSet::GetRowCount, refIITResultSetGetRowCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

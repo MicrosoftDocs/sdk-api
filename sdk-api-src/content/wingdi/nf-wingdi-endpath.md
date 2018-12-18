@@ -9,8 +9,6 @@ ms.assetid: 0b4daf81-d1d6-45c1-b081-855b7cd8527a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPath, EndPath function [Windows GDI], _win32_EndPath, gdi.endpath, wingdi/EndPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

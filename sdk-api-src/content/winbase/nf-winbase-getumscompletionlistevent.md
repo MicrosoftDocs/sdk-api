@@ -9,8 +9,6 @@ ms.assetid: 393f6e0a-fbea-4aa0-9c18-f96da18e61e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUmsCompletionListEvent, GetUmsCompletionListEvent function, base.getumscompletionlistevent, winbase/GetUmsCompletionListEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

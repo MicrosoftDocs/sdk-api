@@ -9,8 +9,6 @@ ms.assetid: 8ddfe1f5-2f4a-4b41-83ce-858a669afc31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CALLHUB_STATE, CALLHUB_STATE enumeration [TAPI 2.2], CHS_ACTIVE, CHS_IDLE, _tapi3_callhub_state, tapi3.callhub_state, tapi3if/CALLHUB_STATE, tapi3if/CHS_ACTIVE, tapi3if/CHS_IDLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

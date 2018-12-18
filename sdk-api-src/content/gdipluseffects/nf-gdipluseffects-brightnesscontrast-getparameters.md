@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrightnessContrast class [GDI+],GetParameters method, BrightnessContrast.GetParameters, BrightnessContrast::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_GetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_GetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

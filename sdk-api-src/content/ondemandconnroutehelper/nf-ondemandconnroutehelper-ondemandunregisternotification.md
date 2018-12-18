@@ -7,10 +7,8 @@ old-location: nla\ondemandunregisternotification.htm
 tech.root: nla
 ms.assetid: A7FA6035-D089-4A65-8F4E-F8722C147B0F
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: OnDemandUnRegisterNotification, OnDemandUnregisterNotification, OnDemandUnregisterNotification function [Network Awareness], nla.ondemandunregisternotification, ondemandconnroutehelper/OnDemandUnregisterNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 

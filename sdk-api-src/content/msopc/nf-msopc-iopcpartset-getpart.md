@@ -7,10 +7,8 @@ old-location: opc\iopcpartset_getpart.htm
 tech.root: OPC
 ms.assetid: 3a44725b-23a0-4338-b618-c0ce4ecde204
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetPart, GetPart method [Open Packaging Conventions], GetPart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetPart method, IOpcPartSet.GetPart, IOpcPartSet::GetPart, msopc/IOpcPartSet::GetPart, opc.iopcpartset_getpart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

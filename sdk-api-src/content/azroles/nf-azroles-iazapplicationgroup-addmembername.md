@@ -9,8 +9,6 @@ ms.assetid: 148be96b-be8d-4ad7-a5ad-f22599114cfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddMemberName, AddMemberName method [Security], AddMemberName method [Security],AzApplicationGroup object, AddMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddMemberName method, IAzApplicationGroup interface [Security],AddMemberName method, IAzApplicationGroup.AddMemberName, IAzApplicationGroup::AddMemberName, azroles/IAzApplicationGroup::AddMemberName, security.iazapplicationgroup_addmembername
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

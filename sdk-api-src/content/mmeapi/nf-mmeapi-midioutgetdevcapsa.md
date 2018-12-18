@@ -9,8 +9,6 @@ ms.assetid: 8777a903-fd47-4f3f-b534-1e72a5951846
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiOutGetDevCaps, midiOutGetDevCaps, midiOutGetDevCaps function [Windows Multimedia], midiOutGetDevCapsA, midiOutGetDevCapsW, mmeapi/midiOutGetDevCaps, mmeapi/midiOutGetDevCapsA, mmeapi/midiOutGetDevCapsW, multimedia.midioutgetdevcaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

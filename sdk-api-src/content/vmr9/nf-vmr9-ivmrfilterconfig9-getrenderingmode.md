@@ -9,8 +9,6 @@ ms.assetid: e39077ce-737f-4dd9-ab7d-4dc087828fdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingMode method, IVMRFilterConfig9.GetRenderingMode, IVMRFilterConfig9::GetRenderingMode, IVMRFilterConfig9GetRenderingMode, dshow.ivmrfilterconfig9_getrenderingmode, vmr9/IVMRFilterConfig9::GetRenderingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>GetRenderingMode</code> method retrieves the rendering mode currently 
 
 ### -param pMode [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/708c45e4-e92b-4fe5-900f-7cd806011f5e">VMR9Mode</a> emumeration.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407367(v=VS.85).aspx">VMR9Mode</a> emumeration.
 
 
 ## -returns
@@ -111,7 +109,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
 
 
 

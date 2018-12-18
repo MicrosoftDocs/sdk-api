@@ -9,8 +9,6 @@ ms.assetid: 97fa62f4-5e1c-4634-a3c7-974425717080
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprConfigInterfaceGetCustomInfoEx, MprConfigInterfaceGetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceGetCustomInfoEx, rras.mprconfiginterfacegetcustominfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

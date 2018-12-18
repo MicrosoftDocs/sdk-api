@@ -9,8 +9,6 @@ ms.assetid: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86, Add, Add method [Tablet PC], Add method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Add method, IInkStrokes.Add, IInkStrokes::Add, msinkaut/IInkStrokes::Add, tablet.inkstrokes_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -174,7 +172,7 @@ Use this method to add one stroke to an <a href="https://msdn.microsoft.com/c7fb
 
 
 
-<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

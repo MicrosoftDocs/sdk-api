@@ -9,8 +9,6 @@ ms.assetid: 4ECAA174-A9C5-4A01-9341-CF6C8777E0F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_SetExtendedStyle, Edit_SetExtendedStyle macro [Windows Controls], commctrl/Edit_SetExtendedStyle, controls.edit_setextendedstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Sets extended styles for edit controls using the style mask. You can use this macro or send the <a href="controls.em_setextendedstyle">EM_SETEXTENDEDSTYLE</a> message explicitly.
+Sets extended styles for edit controls using the style mask. You can use this macro or send the <a href="https://msdn.microsoft.com/BA782136-E505-4097-8DF9-C586B1EF7FB3">EM_SETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters

@@ -9,8 +9,6 @@ ms.assetid: 544aa6d4-a8fe-4ce5-b329-01b031aa3e6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateWriterPushSink, WMCreateWriterPushSink function [windows Media Format], wmformat.wmcreatewriterpushsink, wmsdkidl/WMCreateWriterPushSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ The <b>WMCreateWriterPushSink</b> function creates a writer push sink object. Pu
 
 ### -param ppSink [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/47bee154-0d29-4f4c-ac38-af8747088024">IWMWriterPushSink</a> interface of the newly created writer push sink object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798790(v=VS.85).aspx">IWMWriterPushSink</a> interface of the newly created writer push sink object.
 
 
 ## -returns

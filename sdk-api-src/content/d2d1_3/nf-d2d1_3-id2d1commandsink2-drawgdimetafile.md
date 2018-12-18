@@ -9,8 +9,6 @@ ms.assetid: ecd1fb9e-0062-c1aa-8275-47b7453bc9ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawGdiMetafile, DrawGdiMetafile method [Direct2D], DrawGdiMetafile method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawGdiMetafile method, ID2D1CommandSink2.DrawGdiMetafile, ID2D1CommandSink2::DrawGdiMetafile, d2d1_3/ID2D1CommandSink2::DrawGdiMetafile, direct2d.id2d1commandsink2_drawgdimetafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 

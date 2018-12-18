@@ -9,8 +9,6 @@ ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

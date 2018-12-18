@@ -9,8 +9,6 @@ ms.assetid: 815844d7-930f-46c3-9403-c61cb2c8a992
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BRUSHOBJ_ulGetBrushColor, BRUSHOBJ_ulGetBrushColor function [Display Devices], display.brushobj_ulgetbrushcolor, gdifncs_d103f229-9c90-4dbc-ba0b-e909a8371cd8.xml, winddi/BRUSHOBJ_ulGetBrushColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

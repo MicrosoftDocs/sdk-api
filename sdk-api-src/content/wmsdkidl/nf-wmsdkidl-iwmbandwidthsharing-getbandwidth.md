@@ -9,8 +9,6 @@ ms.assetid: 2769328c-5c05-49fb-bfa6-729115dd417e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBandwidth, GetBandwidth method [windows Media Format], GetBandwidth method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetBandwidth method, IWMBandwidthSharing.GetBandwidth, IWMBandwidthSharing::GetBandwidth, IWMBandwidthSharingGetBandwidth, wmformat.iwmbandwidthsharing_getbandwidth, wmsdkidl/IWMBandwidthSharing::GetBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -127,11 +125,11 @@ The settings of a bandwidth sharing object are purely informational. They are no
 
 
 
-<a href="https://msdn.microsoft.com/fd0e48bb-2e5e-4158-9ff1-5b603f219689">IWMBandwidthSharing Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f2ac613-3674-46d9-ae7c-26389dbede02">IWMBandwidthSharing::SetBandwidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743301(v=VS.85).aspx">IWMBandwidthSharing::SetBandwidth</a>
  
 
  

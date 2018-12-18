@@ -9,8 +9,6 @@ ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -89,7 +87,7 @@ This flag is <b>TRUE</b> by default.
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

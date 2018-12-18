@@ -9,8 +9,6 @@ ms.assetid: ca590b80-433d-4a9f-9d6b-cbb33d328fda
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],get_playerDocked method, IWMPPlayerApplication.get_playerDocked, IWMPPlayerApplication::get_playerDocked, IWMPPlayerApplicationget_playerDocked, get_playerDocked, get_playerDocked method [Windows Media Player], get_playerDocked method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_get_playerdocked, wmp/IWMPPlayerApplication::get_playerDocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ This method is used only when remoting the Windows Media Player control.
 
 
 
-<a href="https://msdn.microsoft.com/bcdd7ea9-66b2-40e9-89a1-0fec073ccd92">IWMPPlayerApplication Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563527(v=VS.85).aspx">IWMPPlayerApplication Interface</a>
 
 
 

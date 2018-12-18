@@ -2,7 +2,7 @@
 UID: NA:dbt
 ms.assetid: cc1c1ad4-0659-3db1-a026-4ab396fc7c33
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

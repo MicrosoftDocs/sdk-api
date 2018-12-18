@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\get_item.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccounts interface [Fax Service],get_Item method, IFaxAccounts.get_Item, IFaxAccounts::get_Item, _mfax_faxaccounts.item_cpp, fax._mfax_faxaccounts_item_cpp, faxcomex/IFaxAccounts::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxAccounts interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -67,7 +65,7 @@ Type: <b>VARIANT</b>
 
 ### -param pFaxAccount [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/438a35bd-d08b-4b29-95e5-81ff5c23e92b">IFaxAccount</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa359058(v=VS.85).aspx">IFaxAccount</a>**</b>
 
 The <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).aspx">FaxAccount</a> object.
 
@@ -92,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/eab831e4-a260-4822-8582-532f7717dab8">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358941(v=VS.85).aspx">Item</a>
  
 
  

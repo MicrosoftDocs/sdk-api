@@ -9,8 +9,6 @@ ms.assetid: 9031809a-8e5b-48d9-8af9-4a1a07532406
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FContinuePrinting, FContinuePrinting method [COM], FContinuePrinting method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinuePrinting method, IContinueCallback.FContinuePrinting, IContinueCallback::FContinuePrinting, _com_icontinuecallback_fcontinueprinting, com.icontinuecallback_fcontinueprinting, docobj/IContinueCallback::FContinuePrinting
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

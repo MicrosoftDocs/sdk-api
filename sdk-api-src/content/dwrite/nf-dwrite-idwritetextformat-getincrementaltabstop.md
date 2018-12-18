@@ -9,8 +9,6 @@ ms.assetid: 080c9fe3-3323-4e30-8dbc-fe44e874cf6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIncrementalTabStop, GetIncrementalTabStop method [Direct Write], GetIncrementalTabStop method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetIncrementalTabStop method, IDWriteTextFormat.GetIncrementalTabStop, IDWriteTextFormat::GetIncrementalTabStop, directwrite.IDWriteTextFormat_GetIncrementalTabStop, dwrite/IDWriteTextFormat::GetIncrementalTabStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

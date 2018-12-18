@@ -9,8 +9,6 @@ ms.assetid: ebb418c0-c15d-42c2-88a3-1ffcd36a2750
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automat.vardeccmp, oleauto/VarDecCmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

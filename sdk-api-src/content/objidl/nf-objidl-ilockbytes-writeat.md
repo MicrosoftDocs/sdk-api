@@ -9,8 +9,6 @@ ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

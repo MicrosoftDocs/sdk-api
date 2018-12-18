@@ -9,8 +9,6 @@ ms.assetid: 41D48F64-3C90-4CB1-91F5-32FC04042471
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextChild, GetNextChild method [Direct2D], GetNextChild method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetNextChild method, ID2D1SvgElement.GetNextChild, ID2D1SvgElement::GetNextChild, d2d1svg/ID2D1SvgElement::GetNextChild, direct2d.id2d1svgelement_getnextchild
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1svg.h
 req.include-header: 
@@ -76,7 +74,7 @@ The output nextChild element will be non-null if the referenceChild has a next s
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 

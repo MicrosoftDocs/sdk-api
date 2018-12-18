@@ -7,10 +7,8 @@ old-location: perf\pdhgetcountertimebase.htm
 tech.root: perfctrs
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

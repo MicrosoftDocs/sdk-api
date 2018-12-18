@@ -9,8 +9,6 @@ ms.assetid: d92fbf18-282d-485b-9d56-22e4896ece57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineNegotiateTSPIVersion, TSPI_lineNegotiateTSPIVersion function [TAPI 2.2], _tspi_tspi_linenegotiatetspiversion, tspi.tspi_linenegotiatetspiversion, tspi/TSPI_lineNegotiateTSPIVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

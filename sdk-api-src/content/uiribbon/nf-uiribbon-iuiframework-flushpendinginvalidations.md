@@ -9,8 +9,6 @@ ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\flushpe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FlushPendingInvalidations, FlushPendingInvalidations method [Windows Ribbon], FlushPendingInvalidations method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],FlushPendingInvalidations method, IUIFramework.FlushPendingInvalidations, IUIFramework::FlushPendingInvalidations, scenicintent_IUIFramework_FlushPendingInvalidations, uiribbon/IUIFramework::FlushPendingInvalidations, windowsribbon.windowsribbon_iuiframework_flushpendinginvalidations
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

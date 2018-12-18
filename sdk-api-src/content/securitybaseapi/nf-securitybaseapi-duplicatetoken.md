@@ -9,8 +9,6 @@ ms.assetid: 796ec60e-fcae-48a9-b471-de3dce831306
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DuplicateToken, DuplicateToken function [Security], _win32_duplicatetoken, security.duplicatetoken, securitybaseapi/DuplicateToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: T:Microsoft.directx_sdk.directxcollision.PlaneIntersectionType
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BACK, FRONT, INTERSECTING, PlaneIntersectionType, PlaneIntersectionType enumeration [DirectX Math Support APIs], directxcollision/BACK, directxcollision/FRONT, directxcollision/INTERSECTING, directxcollision/PlaneIntersectionType, dxmath.planeintersectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: directxcollision.h
 req.include-header: 

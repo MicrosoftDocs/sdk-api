@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_1pwv.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FaxGetRoutingInfo, FaxGetRoutingInfo function [Fax Service], FaxGetRoutingInfoA, FaxGetRoutingInfoW, _mfax_faxgetroutinginfo, fax._mfax_faxgetroutinginfo, winfax/FaxGetRoutingInfo, winfax/FaxGetRoutingInfoA, winfax/FaxGetRoutingInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 01779628-1f46-4cea-90fa-1093e26e0285
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CompleteManipulation, CompleteManipulation method [Windows Touch], CompleteManipulation method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],CompleteManipulation method, IManipulationProcessor.CompleteManipulation, IManipulationProcessor::CompleteManipulation, manipulations/IManipulationProcessor::CompleteManipulation, wintouch.imanipulationprocessor_completemanipulation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

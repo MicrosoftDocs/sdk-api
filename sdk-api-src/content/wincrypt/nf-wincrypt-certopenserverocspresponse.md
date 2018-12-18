@@ -9,8 +9,6 @@ ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

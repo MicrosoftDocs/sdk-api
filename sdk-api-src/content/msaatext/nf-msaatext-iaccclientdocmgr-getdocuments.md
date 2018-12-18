@@ -9,8 +9,6 @@ ms.assetid: 490a202b-1fb4-4f2e-a8f2-f9134a8a9daf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDocuments, GetDocuments method [Windows Accessibility], GetDocuments method [Windows Accessibility],IAccClientDocMgr interface, IAccClientDocMgr interface [Windows Accessibility],GetDocuments method, IAccClientDocMgr.GetDocuments, IAccClientDocMgr::GetDocuments, _msaa_IAccClientDocMgr_GetDocuments, msaa.iaccclientdocmgr_iaccclientdocmgr__getdocuments, msaatext/IAccClientDocMgr::GetDocuments, winauto.iaccclientdocmgr_iaccclientdocmgr__getdocuments
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 

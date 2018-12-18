@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImageList_BeginDrag, ImageList_BeginDrag function [Windows Controls], _win32_ImageList_BeginDrag, _win32_ImageList_BeginDrag_cpp, commctrl/ImageList_BeginDrag, controls.ImageList_BeginDrag, controls._win32_ImageList_BeginDrag
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 
@@ -90,7 +88,7 @@ The y-coordinate of the location of the drag position relative to the upper-left
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

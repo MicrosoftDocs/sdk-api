@@ -9,8 +9,6 @@ ms.assetid: A7E7D1E5-8547-4898-B139-EF909D8B5630
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE enumeration, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, d3d12sdklayers/NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, direct3d12.d3d12_gpu_based_validation_shader_patch_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -87,7 +85,7 @@ Unused, simply the count of the number of modes.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt762981(v=VS.85).aspx">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
 
 
 
@@ -97,11 +95,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt762
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt490477(v=VS.85).aspx">Using D3D12 Debug Layer GPU-Based Validation</a>
+<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
  
 
  

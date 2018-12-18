@@ -9,8 +9,6 @@ ms.assetid: d54876e3-a622-4b44-a597-db0f710f7758
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsRoleGetPrimaryDomainInformation, DsRoleGetPrimaryDomainInformation function [Active Directory], _glines_dsrolegetprimarydomaininformation, ad.dsrolegetprimarydomaininformation, dsrole/DsRoleGetPrimaryDomainInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dsrole.h
 req.include-header: 

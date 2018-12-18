@@ -9,8 +9,6 @@ ms.assetid: d3294bd7-f3df-4571-92f6-eb6bc57240fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDServiceProxy interface,SubscribeToOperation method, IWSDServiceProxy.SubscribeToOperation, IWSDServiceProxy::SubscribeToOperation, SubscribeToOperation, SubscribeToOperation method, SubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_subscribetooperation_method, wsdclient/IWSDServiceProxy::SubscribeToOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

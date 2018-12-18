@@ -7,10 +7,8 @@ old-location: parcon\iwindowsparentalcontrols_getvisibility.htm
 tech.root: parcon
 ms.assetid: 08217ad2-3b1e-4733-8ca2-4463ffe96516
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetVisibility, GetVisibility method, GetVisibility method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetVisibility method, IWindowsParentalControlsCore.GetVisibility, IWindowsParentalControlsCore::GetVisibility, WPCFLAG_WPC_HIDDEN, WPCFLAG_WPC_VISIBLE, parcon.iwindowsparentalcontrols_getvisibility, wpcapi/IWindowsParentalControlsCore::GetVisibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 
@@ -163,7 +161,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/49F43A0F-5C93-4FEC-870B-17535DE674C5">IWindowsParentalControlsCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
  
 
  

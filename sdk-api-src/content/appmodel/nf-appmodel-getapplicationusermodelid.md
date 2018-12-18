@@ -9,8 +9,6 @@ ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App packaging and management], appmodel/GetApplicationUserModelId, appxpkg.getapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

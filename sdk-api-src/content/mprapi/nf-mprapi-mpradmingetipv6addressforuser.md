@@ -9,8 +9,6 @@ ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

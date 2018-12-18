@@ -9,8 +9,6 @@ ms.assetid: 435dac36-1ccf-41fd-94c2-1242c6af1bbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_volume method, IWMPSettings.put_volume, IWMPSettings::put_volume, IWMPSettingsput_volume, put_volume, put_volume method [Windows Media Player], put_volume method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_volume, wmp/IWMPSettings::put_volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/92c217e4-2ec4-4890-810c-dc552a36d578">IWMPSettings::get_volume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563668(v=VS.85).aspx">IWMPSettings::get_volume</a>
  
 
  

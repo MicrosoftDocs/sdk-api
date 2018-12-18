@@ -9,8 +9,6 @@ ms.assetid: 0e318691-07dc-421b-951d-9e65e9160bb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateDeviceRegistration, WMCreateDeviceRegistration function [windows Media Format], wmformat.wmcreatedeviceregistration, wmsdkidl/WMCreateDeviceRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ The <b>WMCreateDeviceRegistration</b> function creates a device registration obj
 
 ### -param ppDevReg [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration</a> interface of the newly created device registration object.
+Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration</a> interface of the newly created device registration object.
 
 
 ## -returns

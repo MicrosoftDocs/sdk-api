@@ -9,8 +9,6 @@ ms.assetid: 2573573e-97e0-4ed4-b702-8c54ef47c5f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableUDP method, IAMNetShowConfig.put_EnableUDP, IAMNetShowConfig::put_EnableUDP, IAMNetShowConfigput_EnableUDP, dshow.iamnetshowconfig_put_enableudp, put_EnableUDP, put_EnableUDP method [DirectShow], put_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableUDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -98,11 +96,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e875901-7ccb-4aa5-b283-f75b791e85f1">IAMNetShowConfig::put_EnableTCP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319712(v=VS.85).aspx">IAMNetShowConfig::put_EnableTCP</a>
  
 
  

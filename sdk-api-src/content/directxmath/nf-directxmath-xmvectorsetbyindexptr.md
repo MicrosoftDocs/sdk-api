@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetByIndexPtr(XMVECTOR,flo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorSetByIndexPtr, XMVectorSetByIndexPtr, XMVectorSetByIndexPtr method [DirectX Math Support APIs], dxmath.xmvectorsetbyindexptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -158,11 +156,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/49298415-3020-4c05-9a6f-d86ad4e22d2b">XMVectorGetByIndexPtr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404787(v=VS.85).aspx">XMVectorGetByIndexPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/e337d0e9-c0bc-42ef-be79-23c70d3ca5d0">XMVectorSetByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404810(v=VS.85).aspx">XMVectorSetByIndex</a>
  
 
  

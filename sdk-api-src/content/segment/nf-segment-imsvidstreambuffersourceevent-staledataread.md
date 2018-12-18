@@ -9,8 +9,6 @@ ms.assetid: ad8da4d8-9c8c-40e6-9fd4-a32cf8e775ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],StaleDataRead method, IMSVidStreamBufferSourceEvent.StaleDataRead, IMSVidStreamBufferSourceEvent::StaleDataRead, IMSVidStreamBufferSourceEventStaleDataRead, StaleDataRead, StaleDataRead method [Microsoft TV Technologies], StaleDataRead method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_staledataread, segment/IMSVidStreamBufferSourceEvent::StaleDataRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -89,7 +87,7 @@ This event corresponds to the STREAMBUFFER_EC_STALE_DATA_READ event in the Strea
 
 
 
-<a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent Interface</a>
  
 
  

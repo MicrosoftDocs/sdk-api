@@ -9,8 +9,6 @@ ms.assetid: c1fc2f3f-034b-4546-aeee-1d1a38695793
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PIBIO_STORAGE_ERASE_DATABASE_FN, PIBIO_STORAGE_ERASE_DATABASE_FN callback, StorageAdapterEraseDatabase, StorageAdapterEraseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptererasedatabase, winbio_adapter/StorageAdapterEraseDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

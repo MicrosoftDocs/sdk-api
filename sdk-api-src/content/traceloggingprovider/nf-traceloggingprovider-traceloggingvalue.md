@@ -9,8 +9,6 @@ ms.assetid: F4013632-3DC8-413C-B25F-64DE070FA4A8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TraceLoggingValue, TraceLoggingValue macro, tracelogging.traceloggingvalue, traceloggingprovider/TraceLoggingValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 4a227fd1-6cbc-4354-a3e2-04aceb73ab65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassImplCategories method, ICatRegister.UnRegisterClassImplCategories, ICatRegister::UnRegisterClassImplCategories, UnRegisterClassImplCategories, UnRegisterClassImplCategories method [COM], UnRegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassimplcategories, com.icatregister_unregisterclassimplcategories, comcat/ICatRegister::UnRegisterClassImplCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comcat.h
 req.include-header: 
@@ -126,7 +124,7 @@ In case of an error, this method does not ensure that the registry is restored t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

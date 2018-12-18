@@ -9,8 +9,6 @@ ms.assetid: 385A4C6F-69D9-46A2-ABA4-9E1AA77D6CF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Ink interface [Direct2D],StreamAsGeometry method, ID2D1Ink.StreamAsGeometry, ID2D1Ink::StreamAsGeometry, ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,FLOAT,ID2D1SimplifiedGeometrySink), StreamAsGeometry, StreamAsGeometry method [Direct2D], StreamAsGeometry method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::StreamAsGeometry, direct2d.id2d1ink_streamasgeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -90,7 +88,7 @@ The geometry sink to which the geometry representation will be streamed.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

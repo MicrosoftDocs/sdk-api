@@ -9,8 +9,6 @@ ms.assetid: 9decce55-599b-42c2-a715-84a6f4eefc33
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordBroadcasterId, GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordBroadcasterId method, IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

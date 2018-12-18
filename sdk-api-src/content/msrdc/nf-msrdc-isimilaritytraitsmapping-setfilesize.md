@@ -9,8 +9,6 @@ ms.assetid: 7f8afa56-6531-40dd-979f-12506ad8c286
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],SetFileSize method, ISimilarityTraitsMapping.SetFileSize, ISimilarityTraitsMapping::SetFileSize, SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

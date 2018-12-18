@@ -9,8 +9,6 @@ ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 

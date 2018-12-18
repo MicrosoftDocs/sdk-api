@@ -9,8 +9,6 @@ ms.assetid: 1B762B74-D282-46FE-8202-CA88E478940F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [Internationalization for Windows Applications], intl.createifedictionaryinstance, msime/CreateIFEDictionaryInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msime.h
 req.include-header: 

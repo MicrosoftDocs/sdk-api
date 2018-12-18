@@ -9,8 +9,6 @@ ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Start method, ISpatialAudioObjectRenderStreamBase.Start, ISpatialAudioObjectRenderStreamBase::Start, Start, Start method [Core Audio], Start method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_start, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -111,7 +109,7 @@ The stream must have been previously stopped with a call to <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

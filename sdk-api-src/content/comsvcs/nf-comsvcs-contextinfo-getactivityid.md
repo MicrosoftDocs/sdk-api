@@ -9,8 +9,6 @@ ms.assetid: 1bc87f84-fc98-4ea3-b137-2a88a25d290d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextInfo interface [COM+],GetActivityId method, ContextInfo.GetActivityId, ContextInfo::GetActivityId, GetActivityId, GetActivityId method [COM+], GetActivityId method [COM+],ContextInfo interface, _cos_ContextInfo_GetActivityId, comsvcs/ContextInfo::GetActivityId, cos.contextinfo_getactivityid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 
@@ -77,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687780(v=VS.85).aspx">ContextInfo</a>
+<a href="https://msdn.microsoft.com/ef8d7ef7-fae4-4a20-80fb-18f5daa9b564">ContextInfo</a>
  
 
  

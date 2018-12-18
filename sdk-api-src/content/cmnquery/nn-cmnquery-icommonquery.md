@@ -9,8 +9,6 @@ ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: cmnquery.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>ICommonQuery</b> interface is used to programmatically display the system-supplied directory service query dialog box.To create an  instance of this interface, call <a href="_com_cocreateinstance">CoCreateInstance</a> with the <b>CLSID_CommonQuery</b> class identifier as shown in the following code example.
+The <b>ICommonQuery</b> interface is used to programmatically display the system-supplied directory service query dialog box.To create an  instance of this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_CommonQuery</b> class identifier as shown in the following code example.
 
 ```cpp
 HRESULT hr;

@@ -9,8 +9,6 @@ ms.assetid: 973DA92D-7319-43A9-B4FF-3CAF8A644C50
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biometric Framework API], secbiomet.winbiomonitorpresence, winbio/WinBioMonitorPresence
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: 

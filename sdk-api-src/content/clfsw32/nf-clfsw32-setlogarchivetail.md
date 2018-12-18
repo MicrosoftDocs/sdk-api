@@ -9,8 +9,6 @@ ms.assetid: 0cdd0b85-d53e-432d-962d-9e89143ec4c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

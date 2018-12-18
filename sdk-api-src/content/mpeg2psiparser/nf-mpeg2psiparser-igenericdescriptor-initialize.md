@@ -9,8 +9,6 @@ ms.assetid: 0dfe1f52-60ac-46b6-9f55-9764b47479e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IGenericDescriptor interface [Microsoft TV Technologies],Initialize method, IGenericDescriptor.Initialize, IGenericDescriptor::Initialize, IGenericDescriptorInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IGenericDescriptor interface, mpeg2psiparser/IGenericDescriptor::Initialize, mstv.igenericdescriptor_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -151,7 +149,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor Interface</a>
  
 
  

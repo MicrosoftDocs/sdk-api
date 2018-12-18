@@ -1,0 +1,78 @@
+---
+UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0010
+title: ADS_HOLD
+author: windows-sdk-content
+description: The ADS_HOLD structure is an ADSI representation of the Hold attribute syntax.
+old-location: adsi\ads_hold.htm
+tech.root: adsi
+ms.assetid: f1ef87f0-b024-4d16-873b-a68bb62f4206
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PADS_HOLD, ADS_HOLD, ADS_HOLD structure [ADSI], PADS_HOLD, PADS_HOLD structure pointer [ADSI], _ds_ads_hold, adsi.ads__hold, adsi.ads_hold, iads/ADS_HOLD, iads/PADS_HOLD"
+ms.topic: struct
+req.header: iads.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_HOLD
+product: Windows
+targetos: Windows
+req.typenames: ADS_HOLD, *PADS_HOLD
+req.redist: 
+---
+
+# ADS_HOLD structure
+
+
+## -description
+
+
+The <b>ADS_HOLD</b> structure is an ADSI representation of the <b>Hold</b> attribute syntax.
+
+
+## -struct-fields
+
+
+
+
+### -field ObjectName
+
+The null-terminated Unicode string that contains the name of an object put on hold.
+
+
+### -field Amount
+
+Number of charges that a server places against the user on hold while it verifies the user account balance.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+ 
+
+ 
+

@@ -9,8 +9,6 @@ ms.assetid: a8d62862-5509-4401-affe-68dfa96ae60f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Gamma method, IVideoProcAmp.get_Gamma, IVideoProcAmp::get_Gamma, IVideoProcAmpget_Gamma, dshow.ivideoprocamp_get_gamma, get_Gamma, get_Gamma method [DirectShow], get_Gamma method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Gamma
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -60,12 +58,12 @@ The <code>get_Gamma</code> method returns the camera's gamma setting.
 
 ### -param pValue [out]
 
-Receives the gamma setting, in units of gamma * 100. Theoretical values range from 1 to 500, but the actual range depends on the camera. See <a href="https://msdn.microsoft.com/36914aed-d11c-42c0-a0e5-ba1d3ba6dd22">IVideoProcAmp::getRange_Gamma</a>.
+Receives the gamma setting, in units of gamma * 100. Theoretical values range from 1 to 500, but the actual range depends on the camera. See <a href="https://msdn.microsoft.com/en-us/library/Dd377243(v=VS.85).aspx">IVideoProcAmp::getRange_Gamma</a>.
 
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

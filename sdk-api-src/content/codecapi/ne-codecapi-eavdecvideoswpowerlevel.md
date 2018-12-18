@@ -9,8 +9,6 @@ ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

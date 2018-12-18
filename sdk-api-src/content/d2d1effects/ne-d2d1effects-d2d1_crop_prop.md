@@ -9,8 +9,6 @@ ms.assetid: E9C00E8A-AD1E-475C-9B81-A5EB995669C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_CROP_PROP, D2D1_CROP_PROP enumeration [Direct2D], D2D1_CROP_PROP_BORDER_MODE, D2D1_CROP_PROP_RECT, d2d1effects/D2D1_CROP_PROP, d2d1effects/D2D1_CROP_PROP_BORDER_MODE, d2d1effects/D2D1_CROP_PROP_RECT, direct2d.d2d1_crop_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706324(v=VS.85).aspx">Crop effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/DFB7DE20-F202-4E7F-AE63-94BF817B6E30">Crop effect</a>.
 
 
 ## -enum-fields
@@ -76,7 +74,7 @@ Default value is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}
 Indicates how the effect handles the crop rectangle falling on fractional pixel coordinates.
           
 
-Type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+Type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 Default value is D2D1_BORDER_MODE_SOFT.
 

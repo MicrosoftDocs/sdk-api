@@ -9,8 +9,6 @@ ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

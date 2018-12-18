@@ -9,8 +9,6 @@ ms.assetid: c1a0b35c-db05-402a-9bde-684bead1eedf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScriptCount, GetScriptCount method [windows Media Format], GetScriptCount method [windows Media Format],IWMHeaderInfo interface, GetScriptCount method [windows Media Format],IWMHeaderInfo2 interface, GetScriptCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetScriptCount method, IWMHeaderInfo.GetScriptCount, IWMHeaderInfo2 interface [windows Media Format],GetScriptCount method, IWMHeaderInfo2::GetScriptCount, IWMHeaderInfo3 interface [windows Media Format],GetScriptCount method, IWMHeaderInfo3::GetScriptCount, IWMHeaderInfo::GetScriptCount, IWMHeaderInfoGetScriptCount, wmformat.iwmheaderinfo_getscriptcount, wmsdkidl/IWMHeaderInfo2::GetScriptCount, wmsdkidl/IWMHeaderInfo3::GetScriptCount, wmsdkidl/IWMHeaderInfo::GetScriptCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -149,19 +147,19 @@ The method failed for an unspecified reason.
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/779a7618-9f22-4caf-8a4e-b622e422c30d">IWMHeaderInfo::GetScript</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798523(v=VS.85).aspx">IWMHeaderInfo::GetScript</a>
  
 
  

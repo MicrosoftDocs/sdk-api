@@ -9,8 +9,6 @@ ms.assetid: 44e044c1-97fd-43cb-9530-4556e485f5ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], IWMPEffects2 interface [Windows Media Player],described, IWMPEffects2Interface, effects/IWMPEffects2, wmp.iwmpeffects2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: effects.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +67,7 @@ The <b>IWMPEffects2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0bc4e45-7174-4dbd-a902-06c685c9a9ac">Create</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563255(v=VS.85).aspx">Create</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to instantiate a visualization window.
@@ -78,7 +76,7 @@ Called by Windows Media Player to instantiate a visualization window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dad290e6-a3be-47f0-a893-7a60eebc2a64">Destroy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563256(v=VS.85).aspx">Destroy</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to destroy a visualization window instantiated in the <b>Create</b> method.
@@ -87,7 +85,7 @@ Called by Windows Media Player to destroy a visualization window instantiated in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad1082af-9cba-4427-bacb-e552910f8e16">NotifyNewMedia</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563257(v=VS.85).aspx">NotifyNewMedia</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to inform the visualization that a new media item has been loaded.
@@ -96,7 +94,7 @@ Called by Windows Media Player to inform the visualization that a new media item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4efdac9-b50f-4448-98f2-efe015527a4e">OnWindowMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563258(v=VS.85).aspx">OnWindowMessage</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to pass window messages to a visualization.
@@ -105,7 +103,7 @@ Called by Windows Media Player to pass window messages to a visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95a0b71e-6485-4b14-81cf-b853a664b3cc">RenderWindowed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563259(v=VS.85).aspx">RenderWindowed</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to render a windowed visualization.
@@ -114,7 +112,7 @@ Called by Windows Media Player to render a windowed visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5afbf1d-ecb9-43d4-8396-db7c54720731">SetCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563260(v=VS.85).aspx">SetCore</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
@@ -133,7 +131,7 @@ Called by Windows Media Player to provide visualization access to the core Windo
 
 
 
-<a href="https://msdn.microsoft.com/0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba">IWMPEffects Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
  
 
  

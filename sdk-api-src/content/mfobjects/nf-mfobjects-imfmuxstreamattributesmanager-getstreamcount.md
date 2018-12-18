@@ -9,8 +9,6 @@ ms.assetid: 631802B5-00F7-4219-9B21-5A1FB8628477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetStreamCount method, IMFMuxStreamAttributesManager.GetStreamCount, IMFMuxStreamAttributesManager::GetStreamCount, mf.imfmuxstreamattributesmanager_getstreamcount, mfobjects/IMFMuxStreamAttributesManager::GetStreamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

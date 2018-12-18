@@ -9,8 +9,6 @@ ms.assetid: 8f77b3bc-2e47-4966-8030-d05a626ee00a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfUIElementSink, ITfUIElementSink interface [Text Services Framework], ITfUIElementSink interface [Text Services Framework],described, _tsf_itfuielementsink_ref, msctf/ITfUIElementSink, tsf.itfuielementsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

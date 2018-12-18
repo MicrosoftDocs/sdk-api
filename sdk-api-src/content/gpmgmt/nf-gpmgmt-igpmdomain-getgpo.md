@@ -9,8 +9,6 @@ ms.assetid: ac413241-3649-4f22-9a67-94e4da8672e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMDomain object [GPMC],GetGPO method, GetGPO, GetGPO method [GPMC], GetGPO method [GPMC],GPMDomain object, GetGPO method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetGPO method, IGPMDomain.GetGPO, IGPMDomain::GetGPO, _win32_igpmdomain_getgpo, gpmc.igpmdomain_getgpo, gpmgmt/IGPMDomain::GetGPO
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

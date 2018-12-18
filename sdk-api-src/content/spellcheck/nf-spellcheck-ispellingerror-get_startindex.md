@@ -9,8 +9,6 @@ ms.assetid: bf4e8981-9f7c-4f4f-bb22-866649af2727
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

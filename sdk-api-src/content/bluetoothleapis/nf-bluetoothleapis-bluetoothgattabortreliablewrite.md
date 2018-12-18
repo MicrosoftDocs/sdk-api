@@ -9,8 +9,6 @@ ms.assetid: 6EC1D80A-6327-4D5A-8460-87C339669BDA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTAbortReliableWrite, BluetoothGATTAbortReliableWrite function [Bluetooth Devices], bltooth.bluetoothgattabortreliablewrite, bluetoothleapis/BluetoothGATTAbortReliableWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
@@ -66,7 +64,7 @@ Handle to the service.
 
 ### -param ReliableWriteContext [in]
 
-The context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450792(v=VS.85).aspx">BluetoothGATTBeginReliableWrite</a>.
+The context describing the reliable write operation returned from a previous call to <a href="https://msdn.microsoft.com/D053FD0C-3088-4C56-A4EA-F41079FAAF20">BluetoothGATTBeginReliableWrite</a>.
 
 
 ### -param Flags [in]

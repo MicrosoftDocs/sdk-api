@@ -9,8 +9,6 @@ ms.assetid: dafe6c45-616f-4339-a119-9b88055b5d3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInheritTypes, GetInheritTypes method [Security], GetInheritTypes method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetInheritTypes method, ISecurityInformation.GetInheritTypes, ISecurityInformation::GetInheritTypes, _win32_isecurityinformation_getinherittypes, aclui/ISecurityInformation::GetInheritTypes, security.isecurityinformation_getinherittypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: aclui.h
 req.include-header: 
@@ -99,7 +97,7 @@ The access control editor does not free the pointer returned in <i>ppInheritType
 
 
 
-<a href="authorization_functions.htm">Access Control Editor Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 569df1e5-d45a-4f18-82ad-1e4957f47d94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, GetFileACLFlags, GetFileACLFlags method [BITS], GetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],GetFileACLFlags method, IBackgroundCopyJob3.GetFileACLFlags, IBackgroundCopyJob3::GetFileACLFlags, bits.ibackgroundcopyjob3_getfileaclflags, bits2_0/IBackgroundCopyJob3::GetFileACLFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h
@@ -156,11 +154,11 @@ Successfully retrieved the flags.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362994(v=VS.85).aspx">IBackgroundCopyJob3::SetFileACLFlags</a>
+<a href="https://msdn.microsoft.com/de218e3d-8c42-4cf3-94b9-94dbc5edbb47">IBackgroundCopyJob3::SetFileACLFlags</a>
  
 
  

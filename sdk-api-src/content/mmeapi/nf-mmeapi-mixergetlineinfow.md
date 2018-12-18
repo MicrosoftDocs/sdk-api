@@ -9,8 +9,6 @@ ms.assetid: 125f09a6-df7f-4aa0-9180-410025b617e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_mixerGetLineInfo, mixerGetLineInfo, mixerGetLineInfo function [Windows Multimedia], mixerGetLineInfoA, mixerGetLineInfoW, mmeapi/mixerGetLineInfo, mmeapi/mixerGetLineInfoA, mmeapi/mixerGetLineInfoW, multimedia.mixergetlineinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_GetItem, _win32_DSA_GetItem_cpp, controls.DSA_GetItem, controls._win32_DSA_GetItem, dpa_dsa/DSA_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

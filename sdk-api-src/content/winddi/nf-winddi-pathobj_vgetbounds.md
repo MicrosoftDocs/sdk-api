@@ -9,8 +9,6 @@ ms.assetid: f7ce7909-552c-4e23-a620-280fadeade01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PATHOBJ_vGetBounds, PATHOBJ_vGetBounds function [Display Devices], display.pathobj_vgetbounds, gdifncs_d5ad1bbf-ddbe-43c1-92a9-dbe3a0091b24.xml, winddi/PATHOBJ_vGetBounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

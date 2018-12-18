@@ -9,8 +9,6 @@ ms.assetid: 7057779b-4176-41a3-bc7e-0d6958baf245
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISMASK, DSGIF_ISNORMAL, DSGIF_ISOPEN, GetIcon, GetIcon method [Active Directory], GetIcon method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetIcon method, IDsDisplaySpecifier.GetIcon, IDsDisplaySpecifier::GetIcon, _glines_idsdisplayspecifier_geticon, ad.idsdisplayspecifier__geticon, ad.idsdisplayspecifier_geticon, dsclient/IDsDisplaySpecifier::GetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dsclient.h
 req.include-header: 
@@ -118,7 +116,7 @@ Contains the desired height, in pixels, of the icon. This method obtains the ico
 
 
 
-Returns a handle to the icon, if successful, or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="_win32_destroyicon_cpp">DestroyIcon</a>.
+Returns a handle to the icon, if successful, or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>.
 
 
 
@@ -128,7 +126,7 @@ Returns a handle to the icon, if successful, or <b>NULL</b> otherwise. The calle
 
 
 
-<a href="_win32_destroyicon_cpp">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 

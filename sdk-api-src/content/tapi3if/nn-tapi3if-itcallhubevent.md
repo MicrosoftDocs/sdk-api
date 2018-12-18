@@ -9,8 +9,6 @@ ms.assetid: 4008fc7e-f095-442d-9214-61bfead8cf04
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallHubEvent, ITCallHubEvent interface [TAPI 2.2], ITCallHubEvent interface [TAPI 2.2],described, _tapi3_itcallhubevent, tapi3.itcallhubevent, tapi3if/ITCallHubEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

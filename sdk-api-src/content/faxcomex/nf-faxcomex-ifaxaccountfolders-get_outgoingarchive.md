@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\outgo
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],OutgoingArchive property, IFaxAccountFolders.OutgoingArchive, IFaxAccountFolders.get_OutgoingArchive, IFaxAccountFolders::OutgoingArchive, IFaxAccountFolders::get_OutgoingArchive, OutgoingArchive property [Fax Service], OutgoingArchive property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.outgoingarchive, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarchive_cpp, fax._mfax_faxaccountfolders_outgoingarchive, faxcomex/IFaxAccountFolders::OutgoingArchive, faxcomex/IFaxAccountFolders::get_OutgoingArchive, get_OutgoingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/d8ac7e92-45eb-49f8-a885-0e7cb47a0e6d">FaxAccountFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358961(v=VS.85).aspx">FaxAccountFolders</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7a60c42-55c8-43c1-acce-3b4f36a1d219">IFaxAccountFolders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359052(v=VS.85).aspx">IFaxAccountFolders</a>
  
 
  

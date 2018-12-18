@@ -9,8 +9,6 @@ ms.assetid: F946AF8E-67BE-4F4B-9BE3-2142CE646B0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumerateModelOutputs, EnumerateModelOutputs method, EnumerateModelOutputs method,IWinMLModel interface, IWinMLModel interface,EnumerateModelOutputs method, IWinMLModel.EnumerateModelOutputs, IWinMLModel::EnumerateModelOutputs, MachineLearning.iwinmlmodel_enumeratemodeloutputs, winml/IWinMLModel::EnumerateModelOutputs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 

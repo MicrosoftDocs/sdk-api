@@ -9,8 +9,6 @@ ms.assetid: 734a8717-3b7f-4a40-895f-b55cfabd665c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership method, IWMPSyncDevice.createPartnership, IWMPSyncDevice::createPartnership, IWMPSyncDevicecreatePartnership, createPartnership, createPartnership method [Windows Media Player], createPartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_createpartnership, wmp/IWMPSyncDevice::createPartnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -180,15 +178,15 @@ Windows Media Player cannot create a partnership with a device having the status
 
 
 
-<a href="https://msdn.microsoft.com/3cd9b27d-ceb4-4655-ab3f-3d341774c81a">IWMPEvents2::CreatePartnershipComplete</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563290(v=VS.85).aspx">IWMPEvents2::CreatePartnershipComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/981648e4-0cb1-4d7a-bd3b-50e1b9a7282c">IWMPSyncDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/36d40dc4-5641-49dd-9ef4-31d2acd0f41d">IWMPSyncDevice::get_deviceId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">IWMPSyncDevice::get_deviceId</a>
  
 
  

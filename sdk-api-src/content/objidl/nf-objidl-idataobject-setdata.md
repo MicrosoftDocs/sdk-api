@@ -9,8 +9,6 @@ ms.assetid: 7430d12c-ab07-4a9c-a845-4743818afbc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDataObject interface [COM],SetData method, IDataObject.SetData, IDataObject::SetData, SetData, SetData method [COM], SetData method [COM],IDataObject interface, _ole_idataobject_setdata, com.idataobject_setdata, objidl/IDataObject::SetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

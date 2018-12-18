@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPFNPSPCALLBACK, LPFNPSPCALLBACK callback, LPFNPSPCALLBACK callback function [Windows Controls], LPFNPSPCALLBACKA, LPFNPSPCALLBACKW, PSPCB_ADDREF, PSPCB_CREATE, PSPCB_RELEASE, _win32_PropSheetPageProc, _win32_PropSheetPageProc_cpp, controls.PropSheetPageProc, controls._win32_PropSheetPageProc, prsht/LPFNPSPCALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: prsht.h
 req.include-header: 
@@ -116,7 +114,7 @@ A page is being destroyed. The return value is ignored.
 
 Type: <b>LPPROPSHEETPAGE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure that defines the page being created or destroyed. See the Remarks section for further discussion.
 
 
 ## -returns
@@ -134,11 +132,11 @@ The return value depends on the value of the <i>uMsg</i> parameter.
 
 
 
-An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function.
+An application must specify the address of this callback function in the <b>pfnCallback</b> member of a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure before passing the structure to the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function.
 
 <div class="alert"><b>Note</b>  The property sheet is in the process of manipulating the list of pages when this function is called. Do not attempt to add, remove, or insert pages while handling this notification. Doing so will have unpredictable results.</div>
 <div> </div>
-With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://msdn.microsoft.com/69ceb9f4-f68c-4c60-9610-4c1977aae4b8">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
+With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
 
 
 

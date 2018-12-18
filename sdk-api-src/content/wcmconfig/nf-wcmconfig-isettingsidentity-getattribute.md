@@ -9,8 +9,6 @@ ms.assetid: d79bf4be-f3ed-426b-a880-b9ab8aee0092
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetAttribute method, ISettingsIdentity.GetAttribute, ISettingsIdentity::GetAttribute, smi.isettingsidentity_getattribute, wcmconfig/ISettingsIdentity::GetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

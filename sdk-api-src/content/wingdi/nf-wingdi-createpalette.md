@@ -9,8 +9,6 @@ ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

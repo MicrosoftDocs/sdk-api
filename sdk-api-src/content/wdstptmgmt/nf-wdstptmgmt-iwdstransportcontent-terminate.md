@@ -9,8 +9,6 @@ ms.assetid: bcc4359f-0536-4cd4-a937-37d4e69ab497
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Terminate method, IWdsTransportContent.Terminate, IWdsTransportContent::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_terminate, wdstptmgmt/IWdsTransportContent::Terminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

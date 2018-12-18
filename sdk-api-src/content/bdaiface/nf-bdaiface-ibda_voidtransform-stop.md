@@ -9,8 +9,6 @@ ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Stop method, IBDA_VoidTransform.Stop, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 
@@ -77,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 221b5929-7300-4d01-b93e-7c82c446f52b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetPath method, ISettingsItem.GetPath, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

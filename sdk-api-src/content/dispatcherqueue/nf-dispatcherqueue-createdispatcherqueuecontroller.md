@@ -9,8 +9,6 @@ ms.assetid: 750097BB-C4D1-4579-9353-582124D5CE3B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dispatcherqueue.h
 req.include-header: 

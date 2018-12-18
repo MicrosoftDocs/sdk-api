@@ -9,8 +9,6 @@ ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateSyncProviderConfigUIRegistrationInstance, CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

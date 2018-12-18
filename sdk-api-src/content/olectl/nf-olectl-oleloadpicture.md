@@ -9,8 +9,6 @@ ms.assetid: de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleLoadPicture, OleLoadPicture function [COM], _ole_OleLoadPicture, com.oleloadpicture, olectl/OleLoadPicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 781d1882-4b48-4415-9b3a-788207b42151
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReader interface [windows Media Format],Stop method, IWMReader.Stop, IWMReader::Stop, IWMReaderStop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMReader interface, wmformat.iwmreader_stop, wmsdkidl/IWMReader::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -132,23 +130,23 @@ Calling <b>Stop</b> eliminates the current read position. If <b>Start</b> is cal
 
 
 
-<a href="https://msdn.microsoft.com/e995b707-d388-4ec3-b3c8-b111628c13d7">IWMReader Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757425(v=VS.85).aspx">IWMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f320a0c-8586-4fc2-bd70-06ddda435cb5">IWMReader::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743588(v=VS.85).aspx">IWMReader::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab5b7f9e-b647-4121-abb3-2c9deb1f50cc">IWMReader::Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>
 
 
 
-<a href="https://msdn.microsoft.com/485844c6-7a84-4a0d-827d-060d8caef6cc">IWMReader::Start</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743608(v=VS.85).aspx">IWMReader::Start</a>
 
 
 
-<a href="https://msdn.microsoft.com/69b897a8-cc26-445d-9d41-b917b399fb14">IWMReaderCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743493(v=VS.85).aspx">IWMReaderCallback Interface</a>
  
 
  

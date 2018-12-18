@@ -9,8 +9,6 @@ ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

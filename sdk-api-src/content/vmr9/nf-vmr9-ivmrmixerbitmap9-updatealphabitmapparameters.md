@@ -9,8 +9,6 @@ ms.assetid: 89aa0212-9311-4f23-9f55-7e7a1072a19a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRMixerBitmap9 interface [DirectShow],UpdateAlphaBitmapParameters method, IVMRMixerBitmap9.UpdateAlphaBitmapParameters, IVMRMixerBitmap9::UpdateAlphaBitmapParameters, IVMRMixerBitmap9UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [DirectShow], UpdateAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap9 interface, dshow.ivmrmixerbitmap9_updatealphabitmapparameters, vmr9/IVMRMixerBitmap9::UpdateAlphaBitmapParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <code>UpdateAlphaBitmapParameters</code> method changes the bitmap location,
 
 ### -param pBmpParms [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/62214c24-0a4b-43c3-91dc-3eb6e5df3d94">VMR9AlphaBitmap</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure.
 
 
 ## -returns
@@ -111,7 +109,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/de48307a-3522-49a0-b0a5-73ce7cf90517">IVMRMixerBitmap9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390449(v=VS.85).aspx">IVMRMixerBitmap9 Interface</a>
 
 
 

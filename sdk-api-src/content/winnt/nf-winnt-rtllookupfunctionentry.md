@@ -9,8 +9,6 @@ ms.assetid: 624b97fb-0453-4f47-b6bd-92aa14705e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RtlLookupFunctionEntry, RtlLookupFunctionEntry function, base.rtllookupfunctionentry, winnt/RtlLookupFunctionEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

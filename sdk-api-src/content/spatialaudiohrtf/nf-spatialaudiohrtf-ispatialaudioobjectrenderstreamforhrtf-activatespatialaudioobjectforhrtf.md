@@ -9,8 +9,6 @@ ms.assetid: 3E26D14B-5F69-4EBD-A48D-D63E24520D59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateSpatialAudioObjectForHrtf, ActivateSpatialAudioObjectForHrtf method [Core Audio], ActivateSpatialAudioObjectForHrtf method [Core Audio],ISpatialAudioObjectRenderStreamForHrtf interface, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],ActivateSpatialAudioObjectForHrtf method, ISpatialAudioObjectRenderStreamForHrtf.ActivateSpatialAudioObjectForHrtf, ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf, coreaudio.ispatialaudiorenderstreamforhrtf_activatespatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

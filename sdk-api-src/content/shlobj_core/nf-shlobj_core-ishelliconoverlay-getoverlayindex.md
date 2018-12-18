@@ -9,8 +9,6 @@ ms.assetid: e5bde311-8b5f-4a8b-9fff-5d062c650b95
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOverlayIndex, GetOverlayIndex method [Windows Shell], GetOverlayIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIndex method, IShellIconOverlay.GetOverlayIndex, IShellIconOverlay::GetOverlayIndex, _win32_IShellIconOverlay_GetOverlayIndex, shell.IShellIconOverlay_GetOverlayIndex, shlobj_core/IShellIconOverlay::GetOverlayIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -69,7 +67,7 @@ Pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f70
 
 Type: <b>int*</b>
 
-Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList::SetOverlayImage</a> function.
+Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList::SetOverlayImage</a> function.
 
 
 ## -returns

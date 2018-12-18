@@ -9,8 +9,6 @@ ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

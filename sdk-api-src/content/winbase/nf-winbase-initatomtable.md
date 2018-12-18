@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreferen
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitAtomTable, InitAtomTable function [Data Exchange], _win32_InitAtomTable, _win32_initatomtable_cpp, dataxchg.initatomtable, winbase/InitAtomTable, winui._win32_initatomtable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

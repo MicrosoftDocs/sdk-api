@@ -9,8 +9,6 @@ ms.assetid: 2f197faf-a91e-4984-8858-ceab6506b273
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_ColorKey method, IMSVidCtl.get_ColorKey, IMSVidCtl::get_ColorKey, IMSVidCtlget_ColorKey, get_ColorKey, get_ColorKey method [Microsoft TV Technologies], get_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_colorkey, msvidctl/IMSVidCtl::get_ColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
@@ -111,7 +109,7 @@ OleTranslateColor(ocKey, 0, &amp;clrKey);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/e10f9e03-fbcd-4002-babc-fb028e399d72">IVMRWindowlessControl::GetColorKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390554(v=VS.85).aspx">IVMRWindowlessControl::GetColorKey</a>
  
 
  

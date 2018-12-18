@@ -9,8 +9,6 @@ ms.assetid: ea52805d-201d-4fbe-a99f-5c04b7d620b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDWAITVB_BLOCKBEGIN, DDWAITVB_BLOCKBEGINEVENT, DDWAITVB_BLOCKEND, IDirectDraw7 interface [DirectDraw],WaitForVerticalBlank method, IDirectDraw7.WaitForVerticalBlank, IDirectDraw7::WaitForVerticalBlank, WaitForVerticalBlank, WaitForVerticalBlank method [DirectDraw], WaitForVerticalBlank method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::WaitForVerticalBlank, directdraw.idirectdraw7_waitforverticalblank
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

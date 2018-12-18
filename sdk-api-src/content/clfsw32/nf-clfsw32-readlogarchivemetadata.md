@@ -9,8 +9,6 @@ ms.assetid: b0b8528d-30fc-4995-b82d-5577af8d299d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ReadLogArchiveMetadata, ReadLogArchiveMetadata function [Files], clfsw32/ReadLogArchiveMetadata, fs.readlogarchivemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt2(const uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMLoadInt2, XMLoadInt2, XMLoadInt2 method [DirectX Math Support APIs], dxmath.xmloadint2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -80,7 +78,7 @@ The z and w components of the returned <a href="https://msdn.microsoft.com/1a044
 
 For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/2bf6c9d2-8440-4c2c-9fab-2af3885ccaa6">XMLoadInt2A</a> with a casting operator.
 
-To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> into float values, use <a href="https://msdn.microsoft.com/7f93353d-a00b-47a5-b7cb-99b1e79a51f1">XMConvertVectorUIntToFloat</a> or <a href="https://msdn.microsoft.com/00db7e6f-af9d-4e8c-a9c0-4451d08f9e10">XMConvertVectorIntToFloat</a>.
+To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> into float values, use <a href="https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx">XMConvertVectorUIntToFloat</a> or <a href="https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx">XMConvertVectorIntToFloat</a>.
 
 The following pseudocode shows you the operation of the function.
 
@@ -114,19 +112,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd5a4ee-1438-4cbd-8394-3ee7f002fbf6">XMLoadSInt2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404675(v=VS.85).aspx">XMLoadSInt2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dc3964f-9c5f-44c6-ae3f-6cc79e8f5470">XMLoadUInt2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404680(v=VS.85).aspx">XMLoadUInt2</a>
 
 
 
-<a href="https://msdn.microsoft.com/33240440-20A8-4320-AF2F-40BA287CB107">XMUINT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a>
  
 
  

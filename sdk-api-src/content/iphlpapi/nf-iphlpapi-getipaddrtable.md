@@ -9,8 +9,6 @@ ms.assetid: 03bf5645-8237-4c78-a921-47315cab1c44
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetIpAddrTable, GetIpAddrTable function [IP Helper], _iphlp_getipaddrtable, iphlp.getipaddrtable, iphlpapi/GetIpAddrTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

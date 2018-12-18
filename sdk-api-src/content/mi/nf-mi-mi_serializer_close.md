@@ -9,8 +9,6 @@ ms.assetid: fbae767d-1f30-4b73-8978-ea14ce707303
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_Serializer_Close, MI_Serializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Serializer_Close, wmi_v2.mi_serializer_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

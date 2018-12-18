@@ -9,8 +9,6 @@ ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetLength method, IGenericDescriptor.GetLength, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -113,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor Interface</a>
  
 
  

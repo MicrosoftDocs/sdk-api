@@ -9,8 +9,6 @@ ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

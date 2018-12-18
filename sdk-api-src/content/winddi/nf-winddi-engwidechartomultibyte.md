@@ -9,8 +9,6 @@ ms.assetid: db0ae856-f414-4ae9-9bc9-c719581873fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngWideCharToMultiByte, EngWideCharToMultiByte function [Display Devices], display.engwidechartomultibyte, gdifncs_04d04a1a-7a81-47f7-958b-47ea8f52f421.xml, winddi/EngWideCharToMultiByte
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -9,8 +9,6 @@ ms.assetid: b55bb1f5-ecde-4565-97b6-29e79823b9cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPhone interface, IEnumPhone interface [TAPI 2.2],Clone method, IEnumPhone.Clone, IEnumPhone::Clone, _tapi3_ienumphone_clone, tapi3.ienumphone_clone, tapi3if/IEnumPhone::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

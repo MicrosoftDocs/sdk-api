@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethovertime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetHoverTime, ListView_SetHoverTime macro [Windows Controls], _win32_ListView_SetHoverTime, _win32_ListView_SetHoverTime_cpp, commctrl/ListView_SetHoverTime, controls.ListView_SetHoverTime, controls._win32_ListView_SetHoverTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the amount of time that the mouse cursor must hover over an item before it 
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param dwHoverTimeMs
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The new amount of time, in milliseconds, that the mouse cursor must hover over an item before it is selected. If this value is (<b>DWORD</b>)-1, then the hover time is set to the default hover time. 
 

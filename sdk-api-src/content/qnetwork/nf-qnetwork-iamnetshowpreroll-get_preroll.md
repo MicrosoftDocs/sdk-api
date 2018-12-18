@@ -9,8 +9,6 @@ ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/13478678-00de-48e6-b9e7-fd47db423290">IAMNetShowPreroll Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319729(v=VS.85).aspx">IAMNetShowPreroll Interface</a>
  
 
  

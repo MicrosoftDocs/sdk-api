@@ -7,10 +7,8 @@ old-location: nps\SDO_isdomachine_isdirectoryavailable.htm
 tech.root: Nps
 ms.assetid: 733d2911-7e1d-4f73-ae24-1bb748213c1c
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: ISdoMachine interface [Network Policy Server],IsDirectoryAvailable method, ISdoMachine.IsDirectoryAvailable, ISdoMachine::IsDirectoryAvailable, IsDirectoryAvailable, IsDirectoryAvailable method [Network Policy Server], IsDirectoryAvailable method [Network Policy Server],ISdoMachine interface, IsDirectoryAvailable method [Network Policy Server],SdoMachine object, SdoMachine object [Network Policy Server],IsDirectoryAvailable method, _sdo_isdomachine_isdirectoryavailable, nps.SDO_isdomachine_isdirectoryavailable, sdo.isdomachine_isdirectoryavailable, sdoias/ISdoMachine::IsDirectoryAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

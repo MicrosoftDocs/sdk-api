@@ -9,8 +9,6 @@ ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

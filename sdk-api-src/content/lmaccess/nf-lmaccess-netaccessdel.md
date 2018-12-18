@@ -9,8 +9,6 @@ ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_netaccessdel, lmaccess/NetAccessDel, netmgmt.netaccessdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

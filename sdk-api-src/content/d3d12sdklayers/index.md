@@ -2,7 +2,7 @@
 UID: NA:d3d12sdklayers
 ms.assetid: f1d849c9-17a6-3fba-88ab-612df7758338
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

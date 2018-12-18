@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isindexedpixelformat.
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IsIndexedPixelFormat, IsIndexedPixelFormat function [GDI+], _gdiplus_FUNC_IsIndexedPixelFormat_, gdiplus._gdiplus_FUNC_IsIndexedPixelFormat_, gdipluspixelformats/IsIndexedPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h

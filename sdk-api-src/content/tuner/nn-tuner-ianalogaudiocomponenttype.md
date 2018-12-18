@@ -9,8 +9,6 @@ ms.assetid: bd2256b4-6e9a-4520-8988-d271fb2b84af
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], IAnalogAudioComponentType interface [Microsoft TV Technologies],described, IAnalogAudioComponentTypeInterface, mstv.ianalogaudiocomponenttype, tuner/IAnalogAudioComponentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

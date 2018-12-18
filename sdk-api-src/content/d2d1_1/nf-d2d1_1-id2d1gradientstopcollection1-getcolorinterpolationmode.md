@@ -9,8 +9,6 @@ ms.assetid: D1351D2B-B259-400C-A77A-2437E80D46E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [Direct2D], GetColorInterpolationMode method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetColorInterpolationMode method, ID2D1GradientStopCollection1.GetColorInterpolationMode, ID2D1GradientStopCollection1::GetColorInterpolationMode, d2d1_1/ID2D1GradientStopCollection1::GetColorInterpolationMode, direct2d.id2d1gradientstopcollection1_getcolorinterpolationmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_1.h
 req.include-header: 
@@ -84,7 +82,7 @@ The color interpolation mode.
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

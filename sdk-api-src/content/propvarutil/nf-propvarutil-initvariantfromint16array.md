@@ -9,8 +9,6 @@ ms.assetid: 6aeca46e-96b5-42cb-b5db-2c1e3152d629
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromInt16Array, InitVariantFromInt16Array function [Windows Properties], _shell_InitVariantFromInt16Array, properties.InitVariantFromInt16Array, propvarutil/InitVariantFromInt16Array, shell.InitVariantFromInt16Array
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an array of 16-bit integer values.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an array of 16-bit integer values.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ The number of elements in the array pointed to by <i>prgn</i>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -99,7 +97,7 @@ Creates a VT_ARRAY | VT_I2 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762328(v=VS.85).aspx">InitVariantFromInt16Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt16Array">InitVariantFromInt16Array</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -128,15 +126,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
+<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
+<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
  
 
  

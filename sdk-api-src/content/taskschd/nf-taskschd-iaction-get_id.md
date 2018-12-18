@@ -9,8 +9,6 @@ ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.get_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, get_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

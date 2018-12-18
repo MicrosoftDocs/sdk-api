@@ -9,8 +9,6 @@ ms.assetid: 5edd54c5-9dfb-44b8-a293-4fe6a8de45e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnroll interface [Security],createFilePKCS10WStr method, IEnroll.createFilePKCS10WStr, IEnroll::createFilePKCS10WStr, createFilePKCS10WStr, createFilePKCS10WStr method [Security], createFilePKCS10WStr method [Security],IEnroll interface, security.ienroll4_createfilepkcs10wstr, xenroll/IEnroll::createFilePKCS10WStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

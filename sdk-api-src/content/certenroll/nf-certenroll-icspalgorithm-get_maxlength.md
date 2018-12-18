@@ -9,8 +9,6 @@ ms.assetid: 516afaa4-0317-4f05-87e7-bd614b428ccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICspAlgorithm interface [Security],MaxLength property, ICspAlgorithm.MaxLength, ICspAlgorithm.get_MaxLength, ICspAlgorithm::MaxLength, ICspAlgorithm::get_MaxLength, MaxLength property [Security], MaxLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MaxLength, certenroll/ICspAlgorithm::get_MaxLength, get_MaxLength, security.icspalgorithm_maxlength_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa375958(v=VS.85).aspx">DefaultLength</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa375959(v=VS.85).aspx">IncrementLength</a>, <b>MaxLength</b>, and <a href="https://msdn.microsoft.com/en-us/library/Aa375962(v=VS.85).aspx">MinLength</a> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
+The <a href="https://msdn.microsoft.com/03a487e0-5ba4-4065-86e9-bed667db6ff9">DefaultLength</a>, <a href="https://msdn.microsoft.com/296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7">IncrementLength</a>, <b>MaxLength</b>, and <a href="https://msdn.microsoft.com/1df00a2d-4004-4c5d-ab70-5d39ca517ebd">MinLength</a> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -192,11 +190,11 @@ Increment: 64
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375962(v=VS.85).aspx">MinLength</a>
+<a href="https://msdn.microsoft.com/1df00a2d-4004-4c5d-ab70-5d39ca517ebd">MinLength</a>
  
 
  

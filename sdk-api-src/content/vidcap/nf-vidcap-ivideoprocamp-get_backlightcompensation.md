@@ -9,8 +9,6 @@ ms.assetid: 1b0b4c06-5958-446e-bd06-4ee6f90b6e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_BacklightCompensation method, IVideoProcAmp.get_BacklightCompensation, IVideoProcAmp::get_BacklightCompensation, IVideoProcAmpget_BacklightCompensation, dshow.ivideoprocamp_get_backlightcompensation, get_BacklightCompensation, get_BacklightCompensation method [DirectShow], get_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_BacklightCompensation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Receives the backlight compensation setting. If the value is zero, backlight com
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

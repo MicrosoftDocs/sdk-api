@@ -9,8 +9,6 @@ ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -79,7 +77,7 @@ Represents the initial asynchronous operation to be performed.
 ### -param callbackModel [in]
 
 Indicates whether the callback is being invoked long or short.
-                For more information, see <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_CALLBACK_MODEL</a>
+                For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">WS_CALLBACK_MODEL</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: F1976D40-86A9-4E86-80DD-897AE03A2A0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportServicePolicy2 interface [Windows Deployment Services],TftpMaximumBlockSize property, IWdsTransportServicePolicy2.TftpMaximumBlockSize, IWdsTransportServicePolicy2.put_TftpMaximumBlockSize, IWdsTransportServicePolicy2::TftpMaximumBlockSize, IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, IWdsTransportServicePolicy2::put_TftpMaximumBlockSize, TftpMaximumBlockSize property [Windows Deployment Services], TftpMaximumBlockSize property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, put_TftpMaximumBlockSize, wds.iwdstransportservicepolicy2_tftpmaximumblocksize, wdstptmgmt/IWdsTransportServicePolicy2::TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::get_TftpMaximumBlockSize, wdstptmgmt/IWdsTransportServicePolicy2::put_TftpMaximumBlockSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

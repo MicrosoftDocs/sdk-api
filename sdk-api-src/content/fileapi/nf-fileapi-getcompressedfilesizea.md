@@ -9,8 +9,6 @@ ms.assetid: cca91080-2270-4996-8693-933c585ff168
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCompressedFileSize, GetCompressedFileSize function [Files], GetCompressedFileSizeA, GetCompressedFileSizeW, _win32_getcompressedfilesize, base.getcompressedfilesize, fileapi/GetCompressedFileSize, fileapi/GetCompressedFileSizeA, fileapi/GetCompressedFileSizeW, fs.getcompressedfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h, Fileapi.h, Windows.h, WinBase.h, Fileapi.h

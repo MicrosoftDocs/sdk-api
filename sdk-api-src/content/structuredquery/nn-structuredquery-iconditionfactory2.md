@@ -9,8 +9,6 @@ ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], IConditionFactory2 interface [search],described, _search_IConditionFactory2, search._search_IConditionFactory2, structuredquery/IConditionFactory2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

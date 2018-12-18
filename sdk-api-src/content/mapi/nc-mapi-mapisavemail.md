@@ -9,8 +9,6 @@ ms.assetid: 995bf2cd-6ee6-46a3-a6d9-f28dc42e0e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function, MAPI_LOGON_UI, MAPI_LONG_MSGID, MAPI_NEW_SESSION, mapi.mapisavemail, mapi/MAPISaveMail
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 
@@ -72,7 +70,7 @@ Parent window handle or zero, indicating that if a dialog box is displayed, it i
 
 ### -param lpMessage [in]
 
-Input parameter pointing to a <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure containing the contents of the message to be saved. The <b>lpOriginator</b> member is ignored. Applications can either ignore the <b>flFlags</b> member, or if the message has never been saved, can set the MAPI_SENT and MAPI_UNREAD flags. 
+Input parameter pointing to a <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure containing the contents of the message to be saved. The <b>lpOriginator</b> member is ignored. Applications can either ignore the <b>flFlags</b> member, or if the message has never been saved, can set the MAPI_SENT and MAPI_UNREAD flags. 
 
 
 ### -param flFlags [in]
@@ -292,7 +290,7 @@ Because message identifiers are system-specific and opaque and can be invalidate
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
 
 
 

@@ -9,8 +9,6 @@ ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: c3c61c67-7c4a-4211-90f9-b5000a4938a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows Accessibility], uiauto.uiauto_TransformPattern_RotateConPat, uiauto_TransformPattern_RotateConPat, uiautomationcoreapi/TransformPattern_Rotate, winauto.uiauto_TransformPattern_RotateConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

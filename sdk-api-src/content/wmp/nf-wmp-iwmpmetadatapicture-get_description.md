@@ -9,8 +9,6 @@ ms.assetid: b8003560-d80d-4e0a-a6a9-88d908245477
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_description method, IWMPMetadataPicture.get_description, IWMPMetadataPicture::get_description, IWMPMetadataPictureget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_description, wmp/IWMPMetadataPicture::get_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/385819d0-cf27-4f39-86be-140d1bc87d12">IWMPMetadataPicture Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563451(v=VS.85).aspx">IWMPMetadataPicture Interface</a>
  
 
  

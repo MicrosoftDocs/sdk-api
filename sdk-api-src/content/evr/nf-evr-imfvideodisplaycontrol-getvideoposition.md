@@ -9,8 +9,6 @@ ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

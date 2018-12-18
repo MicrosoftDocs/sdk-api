@@ -9,8 +9,6 @@ ms.assetid: 87196252-3835-4828-ad0a-0edcafb286b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetColumnInfo method, IColumnProvider.GetColumnInfo, IColumnProvider::GetColumnInfo, _win32_IColumnProvider_GetColumnInfo, shell.IColumnProvider_GetColumnInfo, shlobj/IColumnProvider::GetColumnInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
@@ -67,9 +65,9 @@ The column's zero-based index. It is an arbitrary value that is used to enumerat
 
 ### -param psci [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759751(v=VS.85).aspx">SHCOLUMNINFO</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/6d7caeca-38fe-4477-a278-abf483d8d42c">SHCOLUMNINFO</a> structure to hold the column information.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb759751(v=VS.85).aspx">SHCOLUMNINFO</a> structure to hold the column information.
 
 
 ## -returns

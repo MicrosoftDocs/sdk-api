@@ -9,8 +9,6 @@ ms.assetid: 3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMStreamConfig3 interface [windows Media Format],SetLanguage method, IWMStreamConfig3.SetLanguage, IWMStreamConfig3::SetLanguage, IWMStreamConfig3SetLanguage, SetLanguage, SetLanguage method [windows Media Format], SetLanguage method [windows Media Format],IWMStreamConfig3 interface, wmformat.iwmstreamconfig3_setlanguage, wmsdkidl/IWMStreamConfig3::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -84,7 +82,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 The string passed to this method must be an RFC1766-compliant string. Use of other strings will cause problems when streaming a file made with this profile. For a list of commonly used language strings, see <a href="https://msdn.microsoft.com/625f7e95-0d21-4e16-8323-0f6301a04b30">Language Strings</a>.
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/ac6de14b-b754-4f61-9f9a-656885641fbc">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -94,11 +92,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681">IWMStreamConfig3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798554(v=VS.85).aspx">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/407607c8-c6ab-4400-b86c-9972d95f90c2">IWMStreamConfig3::GetLanguage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798556(v=VS.85).aspx">IWMStreamConfig3::GetLanguage</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: d2a8998c-e0e3-47d0-9539-9ae1d1fba5c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?Find@CHString@@QBEHPBG@Z, ?Find@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Find method, CHString.Find, CHString.Find(LPCWSTR), CHString::Find, CHString::Find(LPCWSTR), Find, Find method [Windows Management Instrumentation], Find method [Windows Management Instrumentation],CHString interface, _hmm_chstring_find, chstring/CHString::Find, wmi.chstring_find_lpcwstr_"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h
@@ -59,7 +57,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method searches a string for the first match of a substring.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method searches a string for the first match of a substring.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ A substring that the method searches for.
 
 
 
-If the <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
+If the <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
 
 
 
@@ -85,7 +83,7 @@ If the <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250"
 
 
 
-The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
+The <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
 
 
 #### Examples

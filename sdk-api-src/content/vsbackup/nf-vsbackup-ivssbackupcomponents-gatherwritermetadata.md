@@ -9,8 +9,6 @@ ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

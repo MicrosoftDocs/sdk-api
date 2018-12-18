@@ -9,8 +9,6 @@ ms.assetid: bd1f1e73-0c49-4a2f-9b29-8520da8e1d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509Enrollment interface [Security],Silent property, IX509Enrollment.Silent, IX509Enrollment.put_Silent, IX509Enrollment::Silent, IX509Enrollment::get_Silent, IX509Enrollment::put_Silent, Silent property [Security], Silent property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Silent, certenroll/IX509Enrollment::get_Silent, certenroll/IX509Enrollment::put_Silent, put_Silent, security.ix509enrollment_silent_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -74,7 +72,7 @@ You can set this property before initializing the enrollment object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

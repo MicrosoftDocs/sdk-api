@@ -9,8 +9,6 @@ ms.assetid: 21beb41d-ebbf-4925-8e21-4506cdaefb97
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Security], Count property [Security],IObjectIds interface, IObjectIds interface [Security],Count property, IObjectIds.Count, IObjectIds.get_Count, IObjectIds::Count, IObjectIds::get_Count, certenroll/IObjectIds::Count, certenroll/IObjectIds::get_Count, get_Count, security.iobjectids_count_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -64,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
+<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
  
 
  

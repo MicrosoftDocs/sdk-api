@@ -9,8 +9,6 @@ ms.assetid: 5ea04fdc-d06d-4e8e-9c66-3a6df4372481
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IkeextSaGetById2, IkeextSaGetById2 function [Filtering], fwp.ikeextsagetbyid2, fwpmu/IkeextSaGetById2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

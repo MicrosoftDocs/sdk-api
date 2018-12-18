@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertVectorFloatToInt(XMVECTO
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMConvertVectorFloatToInt, XMConvertVectorFloatToInt, XMConvertVectorFloatToInt method [DirectX Math Support APIs], dxmath.xmconvertvectorfloattoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -98,11 +96,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8fb7fd1d-a309-4394-9d3b-8368da2c05a2">XMConvertVectorFloatToUInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437933(v=VS.85).aspx">XMConvertVectorFloatToUInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/00db7e6f-af9d-4e8c-a9c0-4451d08f9e10">XMConvertVectorIntToFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437934(v=VS.85).aspx">XMConvertVectorIntToFloat</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receivedPackets method, IWMPNetwork.get_receivedPackets, IWMPNetwork::get_receivedPackets, IWMPNetworkget_receivedPackets, get_receivedPackets, get_receivedPackets method [Windows Media Player], get_receivedPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receivedpackets, wmp/IWMPNetwork::get_receivedPackets
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,7 +106,7 @@ Each time playback is stopped and restarted, the value retrieved from this metho
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b95aa113-b218-44ef-9516-20894e02ee6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],RemoveMarker method, IWMHeaderInfo.RemoveMarker, IWMHeaderInfo2 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo2::RemoveMarker, IWMHeaderInfo3 interface [windows Media Format],RemoveMarker method, IWMHeaderInfo3::RemoveMarker, IWMHeaderInfo::RemoveMarker, IWMHeaderInfoRemoveMarker, RemoveMarker, RemoveMarker method [windows Media Format], RemoveMarker method [windows Media Format],IWMHeaderInfo interface, RemoveMarker method [windows Media Format],IWMHeaderInfo2 interface, RemoveMarker method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_removemarker, wmsdkidl/IWMHeaderInfo2::RemoveMarker, wmsdkidl/IWMHeaderInfo3::RemoveMarker, wmsdkidl/IWMHeaderInfo::RemoveMarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -147,23 +145,23 @@ This method is not supported by the writer.
 
 
 
-<a href="https://msdn.microsoft.com/649f9a73-c70a-4524-b577-366ade969f2f">IWMHeaderInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/af670b54-f695-4b6f-8190-c25ea409b53a">IWMHeaderInfo2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfa111bb-7bbb-448a-b2db-d36637c01a52">IWMHeaderInfo::AddMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798516(v=VS.85).aspx">IWMHeaderInfo::AddMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae035991-86c8-4ffc-b819-5a5ce81a980f">IWMHeaderInfo::GetMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798521(v=VS.85).aspx">IWMHeaderInfo::GetMarker</a>
 
 
 

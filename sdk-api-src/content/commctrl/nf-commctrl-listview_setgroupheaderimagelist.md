@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupheaderimagel
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetGroupHeaderImageList, ListView_SetGroupHeaderImageList macro [Windows Controls], _shell_ListView_SetGroupHeaderImageList, _shell_ListView_SetGroupHeaderImageList_cpp, commctrl/ListView_SetGroupHeaderImageList, controls.ListView_SetGroupHeaderImageList, controls._shell_ListView_SetGroupHeaderImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Assigns an image list to the group header of a list-view control.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control.
 

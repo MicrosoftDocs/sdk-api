@@ -9,8 +9,6 @@ ms.assetid: 3f561b81-241f-4f7a-bb5f-a89faf253c98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNextFrameInfo, GetNextFrameInfo method [Direct Manipulation], GetNextFrameInfo method [Direct Manipulation],IDirectManipulationFrameInfoProvider interface, IDirectManipulationFrameInfoProvider interface [Direct Manipulation],GetNextFrameInfo method, IDirectManipulationFrameInfoProvider.GetNextFrameInfo, IDirectManipulationFrameInfoProvider::GetNextFrameInfo, directmanipulation.idirectmanipulationframeinfoprovider_getnextframeinfo, directmanipulation/IDirectManipulationFrameInfoProvider::GetNextFrameInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 
@@ -86,7 +84,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-The system implementation of <a href="https://msdn.microsoft.com/15B7CA2A-DEC3-479B-BD41-38A57037002F">IDirectManipulationFrameInfoProvider</a> uses <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a>. <a href="https://msdn.microsoft.com/C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A">GetFrameStatistics</a> is used to calculate the parameter values for <b>GetNextFrameInfo</b>.
+The system implementation of <a href="https://msdn.microsoft.com/15B7CA2A-DEC3-479B-BD41-38A57037002F">IDirectManipulationFrameInfoProvider</a> uses <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a>. <a href="https://msdn.microsoft.com/en-us/library/Hh437415(v=VS.85).aspx">GetFrameStatistics</a> is used to calculate the parameter values for <b>GetNextFrameInfo</b>.
 
 
 

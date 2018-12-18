@@ -9,8 +9,6 @@ ms.assetid: f953a54b-2bc0-4ddc-9837-57f72e564c02
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPlaftormWorkQueueMMCSSClass, GetPlaftormWorkQueueMMCSSClass method [Media Foundation], GetPlaftormWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetPlaftormWorkQueueMMCSSClass method, IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass, IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass, f953a54b-2bc0-4ddc-9837-57f72e564c02, mf.imfworkqueueservices_getplaftormworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DateTime_SetMonthCalColor, DateTime_SetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_SetMonthCalColor, _win32_DateTime_SetMonthCalColor_cpp, commctrl/DateTime_SetMonthCalColor, controls.DateTime_SetMonthCalColor, controls._win32_DateTime_SetMonthCalColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,7 +58,7 @@ Sets the color for a given portion of the month calendar within a date and time 
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control. 
 
@@ -142,9 +140,9 @@ Set the color used to display header day and trailing day text. Header and trail
 
 ### -param clr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd183449(v=VS.85).aspx">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar. 
+A <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar. 
 
 
 ## -remarks

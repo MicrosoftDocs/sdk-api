@@ -9,8 +9,6 @@ ms.assetid: 1678dd76-6ed4-4625-9170-22dcd3d7e8d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewCB interface [Windows Shell],MessageSFVCB method, IShellFolderViewCB.MessageSFVCB, IShellFolderViewCB::MessageSFVCB, MessageSFVCB, MessageSFVCB method [Windows Shell], MessageSFVCB method [Windows Shell],IShellFolderViewCB interface, _win32_IShellFolderViewCB_MessageSFVCB, shell.IShellFolderViewCB_MessageSFVCB, shlobj_core/IShellFolderViewCB::MessageSFVCB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 
@@ -177,7 +175,7 @@ One of the following notifications.
 <td>
 <a href="https://msdn.microsoft.com/29849218-0d30-4412-86c8-5d320bc5dd26">SFVM_GETTOOLTIPTEXT</a>
 </td>
-<td>Allows the callback object to specify a <a href="https://msdn.microsoft.com/1020cec7-57b4-4463-9419-f80fd14fa12c">tooltip</a> text string for menu items or toolbar buttons.</td>
+<td>Allows the callback object to specify a <a href="https://msdn.microsoft.com/en-us/library/Bb760250(v=VS.85).aspx">tooltip</a> text string for menu items or toolbar buttons.</td>
 </tr>
 <tr>
 <td>

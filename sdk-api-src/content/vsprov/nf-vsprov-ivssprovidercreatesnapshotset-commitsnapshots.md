@@ -9,8 +9,6 @@ ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CommitSnapshots, CommitSnapshots method [VSS], CommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],CommitSnapshots method, IVssProviderCreateSnapshotSet.CommitSnapshots, IVssProviderCreateSnapshotSet::CommitSnapshots, base.ivssprovidercreatesnapshotset_commitsnapshots, vsprov/IVssProviderCreateSnapshotSet::CommitSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

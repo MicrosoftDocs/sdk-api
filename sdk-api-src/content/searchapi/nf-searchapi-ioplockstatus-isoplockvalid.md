@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockst
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockValid method, IOpLockStatus.IsOplockValid, IOpLockStatus::IsOplockValid, IsOplockValid, IsOplockValid method [search], IsOplockValid method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockValid, search._search_IOpLockStatus_IsOplockValid, searchapi/IOpLockStatus::IsOplockValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

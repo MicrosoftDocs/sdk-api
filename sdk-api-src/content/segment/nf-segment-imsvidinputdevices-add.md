@@ -9,8 +9,6 @@ ms.assetid: b3a8ab2a-4b9c-41d2-9fb6-5862891eba42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidInputDevices interface, IMSVidInputDevices interface [Microsoft TV Technologies],Add method, IMSVidInputDevices.Add, IMSVidInputDevices::Add, IMSVidInputDevicesAdd, mstv.imsvidinputdevices_add, segment/IMSVidInputDevices::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -133,7 +131,7 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/c8990564-70d3-4962-9ff2-24664dbc1161">IMSVidInputDevices::Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694575(v=VS.85).aspx">IMSVidInputDevices::Remove</a>
  
 
  

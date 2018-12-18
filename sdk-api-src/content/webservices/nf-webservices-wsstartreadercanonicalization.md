@@ -9,8 +9,6 @@ ms.assetid: 5dad9485-db3c-4ae0-b053-e1e4f32ad64d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsStartReaderCanonicalization, WsStartReaderCanonicalization function [Web Services for Windows], webservices/WsStartReaderCanonicalization, wsw.wsstartreadercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -194,7 +192,7 @@ The input data was not in the expected format or did not have the expected value
 Calls to this function cannot be nested.  Consequently a call to <b>WsStartReaderCanonicalization</b> must be followed by a call to <a href="https://msdn.microsoft.com/5cacad47-8581-4713-96cb-3b3a863e6327">WsEndReaderCanonicalization</a> before the next <b>WsStartReaderCanonicalization</b> call can be made.
       
 
-If a <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
+If a <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
       
 
 The <b>WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> and 

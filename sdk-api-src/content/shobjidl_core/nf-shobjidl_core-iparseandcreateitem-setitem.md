@@ -9,8 +9,6 @@ ms.assetid: 4a9f2d58-2959-40bd-ba82-74ca0e504145
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IParseAndCreateItem interface [Windows Shell],SetItem method, IParseAndCreateItem.SetItem, IParseAndCreateItem::SetItem, SetItem, SetItem method [Windows Shell], SetItem method [Windows Shell],IParseAndCreateItem interface, _shell_IParseAndCreateItem_SetItem, shell.IParseAndCreateItem_SetItem, shobjidl_core/IParseAndCreateItem::SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

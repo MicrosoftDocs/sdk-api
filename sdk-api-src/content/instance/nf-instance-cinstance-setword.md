@@ -9,8 +9,6 @@ ms.assetid: e58b98d9-56c2-4e92-90ee-c9ff4fae9f8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

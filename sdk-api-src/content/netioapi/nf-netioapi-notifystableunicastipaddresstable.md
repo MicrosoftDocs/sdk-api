@@ -9,8 +9,6 @@ ms.assetid: 80d10088-79ef-41fd-add7-994d2a780ddb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

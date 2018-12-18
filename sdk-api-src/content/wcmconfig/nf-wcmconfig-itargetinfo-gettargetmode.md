@@ -9,8 +9,6 @@ ms.assetid: b21137a0-537f-43a4-857b-158a1642ea1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTargetMode, GetTargetMode method [SMI], GetTargetMode method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetMode method, ITargetInfo.GetTargetMode, ITargetInfo::GetTargetMode, smi.itargetinfo_gettargetmode, wcmconfig/ITargetInfo::GetTargetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 8e9d9176-fb27-4221-876b-49f407289877
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Tilt method, ICameraControl.get_Tilt, ICameraControl::get_Tilt, ICameraControlget_Tilt, dshow.icameracontrol_get_tilt, get_Tilt, get_Tilt method [DirectShow], get_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Tilt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -61,12 +59,12 @@ The <code>get_Tilt</code> method returns the camera's tilt angle.
 
 ### -param pValue [out]
 
-Receives the tilt angle, in degrees. Positive values point the camera up, and negative values point the camera down. Theoretical values range from –180 degrees to +180 degrees, but the actual range depends on the camera. See <a href="https://msdn.microsoft.com/d48920cf-677e-4014-a998-426bb45d1b46">ICameraControl::getRange_Tilt</a>.
+Receives the tilt angle, in degrees. Positive values point the camera up, and negative values point the camera down. Theoretical values range from –180 degrees to +180 degrees, but the actual range depends on the camera. See <a href="https://msdn.microsoft.com/en-us/library/Dd376309(v=VS.85).aspx">ICameraControl::getRange_Tilt</a>.
 
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd318251(v=VS.85).aspx">CameraControlFlags</a>.
 
 
 ## -returns
@@ -87,7 +85,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7046f96d-a613-4056-84dd-be022efdda4f">ICameraControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376298(v=VS.85).aspx">ICameraControl Interface</a>
  
 
  

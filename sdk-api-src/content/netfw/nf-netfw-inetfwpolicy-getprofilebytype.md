@@ -9,8 +9,6 @@ ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

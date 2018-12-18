@@ -9,8 +9,6 @@ ms.assetid: 0cb3cd79-0640-4a3b-8e8b-d81df2ff749f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetInputCount, GetInputCount method [windows Media Format], GetInputCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputCount method, IWMWriter.GetInputCount, IWMWriter::GetInputCount, IWMWriterGetInputCount, wmformat.iwmwriter_getinputcount, wmsdkidl/IWMWriter::GetInputCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -112,7 +110,7 @@ The <i>pcInputs</i> parameter is <b>NULL</b>.
 
 
 
-This method along with <a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b15a-659f519c22f6">GetInputProps</a> can be used to enumerate through the various inputs, and get the input format of each. These are not the output Windows Media streams specified in the profile; in a multiple bit rate scenario, one input stream can map to multiple Windows Media streams.
+This method along with <a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">GetInputProps</a> can be used to enumerate through the various inputs, and get the input format of each. These are not the output Windows Media streams specified in the profile; in a multiple bit rate scenario, one input stream can map to multiple Windows Media streams.
 
 
 
@@ -122,7 +120,7 @@ This method along with <a href="https://msdn.microsoft.com/2889a1a7-3111-4c13-b1
 
 
 
-<a href="https://msdn.microsoft.com/a194ef11-5203-4e85-af91-cdce0c53fe76">IWMWriter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
 
 
 

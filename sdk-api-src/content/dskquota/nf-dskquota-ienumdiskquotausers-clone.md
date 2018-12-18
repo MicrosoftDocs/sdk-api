@@ -9,8 +9,6 @@ ms.assetid: 1c01b2d5-5419-4694-819f-fe6ef6e1636b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Files], Clone method [Files],IEnumDiskQuotaUsers interface, IEnumDiskQuotaUsers interface [Files],Clone method, IEnumDiskQuotaUsers.Clone, IEnumDiskQuotaUsers::Clone, _win32_ienumdiskquotausers_clone, base.ienumdiskquotausers_clone, dskquota/IEnumDiskQuotaUsers::Clone, fs.ienumdiskquotausers_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dskquota.h
 req.include-header: 

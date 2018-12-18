@@ -9,8 +9,6 @@ ms.assetid: 78910e3d-bd00-48c5-b1be-504dc92280a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_ClassID method, IMSVidDevice.get_ClassID, IMSVidDevice::get_ClassID, IMSVidDeviceget_ClassID, get_ClassID, get_ClassID method [Microsoft TV Technologies], get_ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_classid, segment/IMSVidDevice::get_ClassID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -106,7 +104,7 @@ NULL pointer argument.
 
 
 
-This method is provided for Automation clients. C++ applications can use the <a href="https://msdn.microsoft.com/80890372-2d92-4a3a-963f-2a6ca6632c52">IMSVidDevice::get__ClassID</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
+This method is provided for Automation clients. C++ applications can use the <a href="https://msdn.microsoft.com/en-us/library/Dd694530(v=VS.85).aspx">IMSVidDevice::get__ClassID</a> method, which returns a <b>GUID</b> rather than a <b>BSTR</b>.
 
 The caller must free the returned string, using the <b>SysFreeString</b> function.
 
@@ -118,7 +116,7 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef">IMSVidDevice Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice Interface</a>
  
 
  

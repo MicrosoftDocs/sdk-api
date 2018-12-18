@@ -9,8 +9,6 @@ ms.assetid: 25e8fd75-7a24-421f-b61e-b131dfbbcc8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAudioBlockSize, GetAudioBlockSize method [IMAPI], GetAudioBlockSize method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAudioBlockSize method, IRedbookDiscMaster.GetAudioBlockSize, IRedbookDiscMaster::GetAudioBlockSize, _win32_iredbookdiscmaster_getaudioblocksize, base.iredbookdiscmaster_getaudioblocksize, imapi.iredbookdiscmaster_getaudioblocksize, imapi/IRedbookDiscMaster::GetAudioBlockSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

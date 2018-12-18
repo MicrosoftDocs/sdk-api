@@ -9,8 +9,6 @@ ms.assetid: 19e240e5-ba75-4806-a271-dc87235ba598
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_phoneSetStatusMessages, TSPI_phoneSetStatusMessages function [TAPI 2.2], _tspi_tspi_phonesetstatusmessages, tspi.tspi_phonesetstatusmessages, tspi/TSPI_phoneSetStatusMessages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

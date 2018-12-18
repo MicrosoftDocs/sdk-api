@@ -9,8 +9,6 @@ ms.assetid: A488A0B9-3CBE-477A-9688-84A7DA43D7F6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionVisual2 interface [DirectComposition],SetBackFaceVisibility method, IDCompositionVisual2.SetBackFaceVisibility, IDCompositionVisual2::SetBackFaceVisibility, SetBackFaceVisibility, SetBackFaceVisibility method [DirectComposition], SetBackFaceVisibility method [DirectComposition],IDCompositionVisual2 interface, dcomp/IDCompositionVisual2::SetBackFaceVisibility, directcomp.idcompositionvisual2_setbackfacevisibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -99,11 +97,11 @@ If the <i>visibility</i> parameter is anything other than DCOMPOSITION_BACKFACE_
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>
 
 
 

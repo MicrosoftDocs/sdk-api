@@ -9,8 +9,6 @@ ms.assetid: 42C7E011-ABC8-493E-853A-0925D2A94118
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDeviceController interface [Media Streaming API],remove_DeviceDeparture method, IDeviceController.remove_DeviceDeparture, IDeviceController.streaming, IDeviceController::remove_DeviceDeparture, IDeviceController::streaming, mediastreaming.idevicecontroller_remove_devicedeparture, remove_DeviceDeparture, remove_DeviceDeparture method [Media Streaming API], remove_DeviceDeparture method [Media Streaming API],IDeviceController interface, windows/IDeviceController::remove_DeviceDeparture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.media.streaming.h
 req.include-header: 

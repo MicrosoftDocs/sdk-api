@@ -9,8 +9,6 @@ ms.assetid: 27E7F647-1005-4499-9787-F2CE6E8B6AFF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TpSetCallbackLongFunction, TpSetCallbackLongFunction function, base.tpsetcallbacklongfunction, winnt/TpSetCallbackLongFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

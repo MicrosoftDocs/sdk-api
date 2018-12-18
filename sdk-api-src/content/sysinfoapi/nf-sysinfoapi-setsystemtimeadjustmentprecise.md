@@ -9,8 +9,6 @@ ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sysinfoapi.h
 req.include-header: 
@@ -96,7 +94,7 @@ the code example below.
 
 #### Examples
 
-This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="base.getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
+This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
 
 ```cpp
@@ -288,7 +286,7 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 
 
 
-<a href="base.GetSystemTimeAdjustmentPrecise">GetSystemTimeAdjustmentPrecise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a>
  
 
  

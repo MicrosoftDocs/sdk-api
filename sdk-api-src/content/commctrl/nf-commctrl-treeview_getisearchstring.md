@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getisearchstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TreeView_GetISearchString, TreeView_GetISearchString macro [Windows Controls], _win32_TreeView_GetISearchString, _win32_TreeView_GetISearchString_cpp, commctrl/TreeView_GetISearchString, controls.TreeView_GetISearchString, controls._win32_TreeView_GetISearchString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Retrieves the incremental search string for a tree-view control. The tree-view c
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param lpsz
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Pointer to the buffer that receives the incremental search string. 
 

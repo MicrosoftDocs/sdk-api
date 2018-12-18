@@ -9,8 +9,6 @@ ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

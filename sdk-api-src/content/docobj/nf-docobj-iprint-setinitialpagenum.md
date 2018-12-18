@@ -9,8 +9,6 @@ ms.assetid: 352a4dc0-c79e-46e3-8212-55fd7d2916bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPrint interface [COM],SetInitialPageNum method, IPrint.SetInitialPageNum, IPrint::SetInitialPageNum, SetInitialPageNum, SetInitialPageNum method [COM], SetInitialPageNum method [COM],IPrint interface, _ctrl_iprint_setinitialpagenum, com.iprint_setinitialpagenum, docobj/IPrint::SetInitialPageNum
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

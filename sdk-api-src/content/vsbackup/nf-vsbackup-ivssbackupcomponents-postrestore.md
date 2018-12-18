@@ -9,8 +9,6 @@ ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_2x0l.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GroupName property [Fax Service], GroupName property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],GroupName property, IFaxOutboundRoutingRule.GroupName, IFaxOutboundRoutingRule.get_GroupName, IFaxOutboundRoutingRule.put_GroupName, IFaxOutboundRoutingRule::GroupName, IFaxOutboundRoutingRule::get_GroupName, IFaxOutboundRoutingRule::put_GroupName, _mfax_faxoutboundroutingrule.groupname, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_groupname_cpp, fax._mfax_faxoutboundroutingrule_groupname, faxcomex/IFaxOutboundRoutingRule::GroupName, faxcomex/IFaxOutboundRoutingRule::get_GroupName, faxcomex/IFaxOutboundRoutingRule::put_GroupName, put_GroupName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,9 +64,9 @@ This property is read/write.
 
 
 
-This property is valid only if the <a href="https://msdn.microsoft.com/64b1778a-a53f-468b-8ec0-93db23036730">IFaxOutboundRoutingRule::get_UseDevice</a> property is equal to <b>FALSE</b>.
+This property is valid only if the <a href="https://msdn.microsoft.com/en-us/library/ms688614(v=VS.85).aspx">IFaxOutboundRoutingRule::get_UseDevice</a> property is equal to <b>FALSE</b>.
 
-To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read or to write to this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -78,15 +76,15 @@ To read or to write to this property, a user must have the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/e027093a-314c-4292-b591-29c2bc58c031">FaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/29b577f6-6aeb-43fd-8a0f-657ef1c16999">IFaxOutboundRoutingRule</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/35bb803d-fce4-46a3-825a-ec3a5138ed67">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

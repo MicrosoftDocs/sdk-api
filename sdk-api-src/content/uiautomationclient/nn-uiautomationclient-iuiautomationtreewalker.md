@@ -9,8 +9,6 @@ ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

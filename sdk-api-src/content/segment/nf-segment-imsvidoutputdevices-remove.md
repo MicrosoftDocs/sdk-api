@@ -9,8 +9,6 @@ ms.assetid: 40c4bc6b-091b-44b5-a313-5db20842adcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],Remove method, IMSVidOutputDevices.Remove, IMSVidOutputDevices::Remove, IMSVidOutputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_remove, segment/IMSVidOutputDevices::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -153,7 +151,7 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/4f8386bb-5494-4534-adec-d37ac105a3a4">IMSVidOutputDevices::Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694581(v=VS.85).aspx">IMSVidOutputDevices::Add</a>
  
 
  

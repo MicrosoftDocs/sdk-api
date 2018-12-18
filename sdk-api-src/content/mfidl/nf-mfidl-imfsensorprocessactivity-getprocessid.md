@@ -9,8 +9,6 @@ ms.assetid: E4277F4B-8CBB-4910-991B-1234AFEB49B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcessId, GetProcessId method [Media Foundation], GetProcessId method [Media Foundation],IMFSensorProcessActivity interface, IMFSensorProcessActivity interface [Media Foundation],GetProcessId method, IMFSensorProcessActivity.GetProcessId, IMFSensorProcessActivity::GetProcessId, mf.imfsensorprocessactivity_getprocessid, mfidl/IMFSensorProcessActivity::GetProcessId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

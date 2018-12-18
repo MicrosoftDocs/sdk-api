@@ -9,8 +9,6 @@ ms.assetid: 3858EF37-F545-4C2E-BC3D-E4732B49911C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder1 interface, IDWriteFontSetBuilder1 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder1.AddFontFile, IDWriteFontSetBuilder1::AddFontFile, directwrite.idwritefontsetbuilder1_addfontfile, dwrite_3/IDWriteFontSetBuilder1::AddFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -71,7 +69,7 @@ Font file reference object to add to the set. If the file is not a supported Ope
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns an HRESULT success or error code. 
 
@@ -91,7 +89,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/32023D5C-5000-44A7-8C7A-995A821951BB">IDWriteFontSetBuilder1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx">IDWriteFontSetBuilder1</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 4508d079-6f75-4842-a7e6-c2b9a99c826c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

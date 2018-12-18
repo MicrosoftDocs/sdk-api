@@ -9,8 +9,6 @@ ms.assetid: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5, BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],BeginGetEvent method, IMFMediaEventQueue.BeginGetEvent, IMFMediaEventQueue::BeginGetEvent, mf.imfmediaeventqueue_begingetevent, mfobjects/IMFMediaEventQueue::BeginGetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

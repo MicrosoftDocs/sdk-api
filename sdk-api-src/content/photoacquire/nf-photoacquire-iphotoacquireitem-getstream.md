@@ -9,8 +9,6 @@ ms.assetid: d0b138aa-42df-4bb6-905d-647b2289df58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStream, GetStream method [Picture Acquisition], GetStream method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetStream method, IPhotoAcquireItem.GetStream, IPhotoAcquireItem::GetStream, IPhotoAcquireItemGetStream, photoacquire/IPhotoAcquireItem::GetStream, picacq.iphotoacquireitem_getstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

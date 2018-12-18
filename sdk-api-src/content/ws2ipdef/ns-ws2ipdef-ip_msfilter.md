@@ -9,8 +9,6 @@ ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "*PIP_MSFILTER, IP_MSFILTER, IP_MSFILTER [Winsock], IP_MSFILTER structure [Winsock], PIP_MSFILTER, PIP_MSFILTER structure pointer [Winsock], ip_msfilter, ip_msfilter structure [Winsock], winsock.ip_msfilter, ws2ipdef/PIP_MSFILTER, ws2ipdef/ip_msfilter, ws2tcpip/PIP_MSFILTER, ws2tcpip/ip_msfilter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
@@ -77,7 +75,7 @@ The multicast filter mode to be used. This parameter can be either MCAST_INCLUDE
 
 On Windows Server 2003 and Windows XP, these values are defined in the <i>Ws2tcpip.h</i> header file. 
 
-On Windows Vistaand later, these values are defined as enumeration values in the <a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a> enumeration defined in the <i>Ws2ipdef.h</i> header file.
+On Windows Vistaand later, these values are defined as enumeration values in the <a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a> enumeration defined in the <i>Ws2ipdef.h</i> header file.
 
 
 ### -field imsf_numsrc
@@ -154,7 +152,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a>
 
 
 

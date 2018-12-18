@@ -9,8 +9,6 @@ ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

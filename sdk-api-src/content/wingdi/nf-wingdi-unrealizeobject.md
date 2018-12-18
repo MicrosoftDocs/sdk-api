@@ -9,8 +9,6 @@ ms.assetid: b84cd0b3-fdf1-4f12-bc45-308032d6d698
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnrealizeObject, UnrealizeObject function [Windows GDI], _win32_UnrealizeObject, gdi.unrealizeobject, wingdi/UnrealizeObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

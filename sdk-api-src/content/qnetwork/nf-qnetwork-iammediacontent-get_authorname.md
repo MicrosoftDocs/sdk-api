@@ -9,8 +9,6 @@ ms.assetid: 49ccb07c-1f20-47e9-a05b-f8f3b77acc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_AuthorName method, IAMMediaContent.get_AuthorName, IAMMediaContent::get_AuthorName, IAMMediaContentget_AuthorName, dshow.iammediacontent_get_authorname, get_AuthorName, get_AuthorName method [DirectShow], get_AuthorName method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_AuthorName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -145,7 +143,7 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 
-<a href="https://msdn.microsoft.com/bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09">IAMMediaContent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319638(v=VS.85).aspx">IAMMediaContent Interface</a>
  
 
  

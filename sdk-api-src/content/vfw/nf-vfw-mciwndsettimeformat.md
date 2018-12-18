@@ -9,8 +9,6 @@ ms.assetid: dcf70d76-6f53-4e05-ab05-3f9136294d7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndSetTimeFormat, MCIWndSetTimeFormat macro [Windows Multimedia], _win32_MCIWndSetTimeFormat, multimedia.mciwndsettimeformat, vfw/MCIWndSetTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

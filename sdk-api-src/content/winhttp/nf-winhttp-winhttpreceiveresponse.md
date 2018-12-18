@@ -9,8 +9,6 @@ ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

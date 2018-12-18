@@ -9,8 +9,6 @@ ms.assetid: 3596B41E-C360-4B29-BE78-AD08D0290DA9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetStatus method, IXblIdpAuthTokenResult.GetStatus, IXblIdpAuthTokenResult::GetStatus, xblidp.ixblidpauthtokenresult_getstatus, xblidpauthmanager/IXblIdpAuthTokenResult::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

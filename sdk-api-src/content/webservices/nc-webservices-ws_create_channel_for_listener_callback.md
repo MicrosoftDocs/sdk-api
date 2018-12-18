@@ -9,8 +9,6 @@ ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, wsw.ws_create_channel_for_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 
 ## -parameters
@@ -69,10 +67,10 @@ The pointer to the state specific to this listener instance,
 ### -param *channelParameters
 
 The pointer to the value that was specified by the
-                    <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
+                    <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property when the custom channel is created using <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
                 
 
-If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
+If the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
                 
 
 
@@ -81,7 +79,7 @@ If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf"
 The size in bytes of the value pointed to by channelParameters.
                 
 
-If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
+If the <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_PARAMETERS</a>property was not specified, the size will be 0.
                 
 
 

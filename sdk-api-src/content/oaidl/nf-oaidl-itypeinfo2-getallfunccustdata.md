@@ -9,8 +9,6 @@ ms.assetid: 65ea243f-fe13-4443-80e9-4b19cf0cb8c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllFuncCustData, GetAllFuncCustData method [Automation], GetAllFuncCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllFuncCustData method, ITypeInfo2.GetAllFuncCustData, ITypeInfo2::GetAllFuncCustData, _oa96_ITypeInfo2_GetAllFuncCustData, automat.itypeinfo2_getallfunccustdata, oaidl/ITypeInfo2::GetAllFuncCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

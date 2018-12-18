@@ -9,8 +9,6 @@ ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 
@@ -102,7 +100,7 @@ The previous value of the specified extended option.
 
 
 
-<a href="https://msdn.microsoft.com/5354F53C-F161-4887-85E4-7A00521034EE">IMAGEHLP_EXTENDED_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt842287(v=VS.85).aspx">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 

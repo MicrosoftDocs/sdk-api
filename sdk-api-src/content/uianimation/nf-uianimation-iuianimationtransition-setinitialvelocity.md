@@ -9,8 +9,6 @@ ms.assetid: adb5a173-6efa-4b1b-8e2f-1d69288653ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialVelocity method, IUIAnimationTransition.SetInitialVelocity, IUIAnimationTransition::SetInitialVelocity, SetInitialVelocity, SetInitialVelocity method [Windows Animation], SetInitialVelocity method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_setinitialvelocity, uianimation/IUIAnimationTransition::SetInitialVelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

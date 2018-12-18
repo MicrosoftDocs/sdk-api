@@ -9,8 +9,6 @@ ms.assetid: 09b00b49-702e-4cef-bf1c-397c5d572513
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextAnalysisSink interface [Direct Write],SetNumberSubstitution method, IDWriteTextAnalysisSink.SetNumberSubstitution, IDWriteTextAnalysisSink::SetNumberSubstitution, SetNumberSubstitution, SetNumberSubstitution method [Direct Write], SetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSink interface, directwrite.idwritetextanalysissink_setnumbersubstitution, dwrite/IDWriteTextAnalysisSink::SetNumberSubstitution
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

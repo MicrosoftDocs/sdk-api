@@ -9,8 +9,6 @@ ms.assetid: A2A9C54B-92A2-41EA-A741-797BA219BCDA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCookie, GetCookie method [XMLHttpRequest2], GetCookie method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetCookie method, IXMLHTTPRequest2.GetCookie, IXMLHTTPRequest2::GetCookie, ixhr2.ixmlhttprequest2_getcookie, msxml6/IXMLHTTPRequest2::GetCookie
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

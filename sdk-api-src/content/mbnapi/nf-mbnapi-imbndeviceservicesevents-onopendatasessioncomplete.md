@@ -9,8 +9,6 @@ ms.assetid: 50FDF285-0C93-45C3-AB07-9BFB067DAD94
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenDataSessionComplete method, IMbnDeviceServicesEvents.OnOpenDataSessionComplete, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

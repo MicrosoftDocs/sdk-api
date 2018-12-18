@@ -9,8 +9,6 @@ ms.assetid: 392a5258-306d-4c06-a632-85e6fc65ddc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vdssys/GetVirtualDiskOperationProgress, vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -72,7 +70,7 @@ A pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2
 
 ### -param Progress [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/834d7384-09fe-493e-8402-135c453a1ecf">VIRTUAL_DISK_PROGRESS</a> 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323703(v=VS.85).aspx">VIRTUAL_DISK_PROGRESS</a> 
      structure that receives the current virtual disk operation progress.
 
 
@@ -106,7 +104,7 @@ If the function fails, the return value is an error code and the value of the
 
 
 
-<a href="https://msdn.microsoft.com/834d7384-09fe-493e-8402-135c453a1ecf">VIRTUAL_DISK_PROGRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323703(v=VS.85).aspx">VIRTUAL_DISK_PROGRESS</a>
  
 
  

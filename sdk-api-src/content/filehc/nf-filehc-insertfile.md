@@ -9,8 +9,6 @@ ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

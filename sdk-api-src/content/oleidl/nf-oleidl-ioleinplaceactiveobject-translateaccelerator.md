@@ -9,8 +9,6 @@ ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

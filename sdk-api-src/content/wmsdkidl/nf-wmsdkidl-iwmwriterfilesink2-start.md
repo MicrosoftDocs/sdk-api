@@ -9,8 +9,6 @@ ms.assetid: b4bfddbb-9156-42bf-b8d5-424fff9f4b64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Start method, IWMWriterFileSink2.Start, IWMWriterFileSink2::Start, IWMWriterFileSink2Start, Start, Start method [windows Media Format], Start method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_start, wmsdkidl/IWMWriterFileSink2::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -123,9 +121,9 @@ Not enough memory to complete the task.
 
 
 
-It is not necessary to call this method unless the sink has been stopped. The sink automatically starts (at time 0) when it is added to the writer by using <a href="https://msdn.microsoft.com/65763ac3-fba0-4de6-9c2e-4e241bbe5f13">IWMWriterAdvanced::AddSink</a>.
+It is not necessary to call this method unless the sink has been stopped. The sink automatically starts (at time 0) when it is added to the writer by using <a href="https://msdn.microsoft.com/en-us/library/Dd798727(v=VS.85).aspx">IWMWriterAdvanced::AddSink</a>.
 
-Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual start time might not be exactly as specified in <i>cnsStartTime</i>. To increase the precision, call <a href="https://msdn.microsoft.com/c103d205-a568-4206-a66e-5473e16cfa3f">IWMWriterFileSink3::SetControlStream</a>.
+Because of interleaving of streams with slightly different time stamps at any particular point in the file, the actual start time might not be exactly as specified in <i>cnsStartTime</i>. To increase the precision, call <a href="https://msdn.microsoft.com/en-us/library/Dd798758(v=VS.85).aspx">IWMWriterFileSink3::SetControlStream</a>.
 
 
 
@@ -135,15 +133,15 @@ Because of interleaving of streams with slightly different time stamps at any pa
 
 
 
-<a href="https://msdn.microsoft.com/229ae2a5-103a-4a33-b7ca-c9b2854c6741">IWMWriterFileSink2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798743(v=VS.85).aspx">IWMWriterFileSink2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d1bce07-a165-45cf-95cb-03b57f0cae03">IWMWriterFileSink2::Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798744(v=VS.85).aspx">IWMWriterFileSink2::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/47377c77-f534-4bb0-be57-49bdb109c309">IWMWriterFileSink2::Stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798750(v=VS.85).aspx">IWMWriterFileSink2::Stop</a>
  
 
  

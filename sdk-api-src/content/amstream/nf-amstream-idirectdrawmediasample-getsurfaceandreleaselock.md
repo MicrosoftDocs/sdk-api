@@ -9,8 +9,6 @@ ms.assetid: f2b30974-ed4a-4783-bda5-9e7f4f9b4aab
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSurfaceAndReleaseLock, GetSurfaceAndReleaseLock method [DirectShow], GetSurfaceAndReleaseLock method [DirectShow],IDirectDrawMediaSample interface, IDirectDrawMediaSample interface [DirectShow],GetSurfaceAndReleaseLock method, IDirectDrawMediaSample.GetSurfaceAndReleaseLock, IDirectDrawMediaSample::GetSurfaceAndReleaseLock, IDirectDrawMediaSampleGetSurfaceAndReleaseLock, amstream/IDirectDrawMediaSample::GetSurfaceAndReleaseLock, dshow.idirectdrawmediasample_getsurfaceandreleaselock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -99,7 +97,7 @@ The caller should release the returned surface pointer, except when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/0a83b257-e88f-4870-924c-56ddc325f17f">IDirectDrawMediaSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample Interface</a>
  
 
  

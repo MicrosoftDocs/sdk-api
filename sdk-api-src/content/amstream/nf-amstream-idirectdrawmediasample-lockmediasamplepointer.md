@@ -9,8 +9,6 @@ ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -77,7 +75,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-Call this method only after calling <a href="https://msdn.microsoft.com/f2b30974-ed4a-4783-bda5-9e7f4f9b4aab">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
+Call this method only after calling <a href="https://msdn.microsoft.com/en-us/library/Dd406804(v=VS.85).aspx">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
 
 
 
@@ -91,7 +89,7 @@ Call this method only after calling <a href="https://msdn.microsoft.com/f2b30974
 
 
 
-<a href="https://msdn.microsoft.com/0a83b257-e88f-4870-924c-56ddc325f17f">IDirectDrawMediaSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406801(v=VS.85).aspx">IDirectDrawMediaSample Interface</a>
  
 
  

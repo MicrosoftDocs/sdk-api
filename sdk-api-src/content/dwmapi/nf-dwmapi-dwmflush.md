@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmflush.h
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmFlush, DwmFlush function [Desktop Window Manager], _udwm_dwmflush, _udwm_dwmflush_cpp, dwm.dwmflush, dwmapi/DwmFlush, winui._udwm_dwmflush
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

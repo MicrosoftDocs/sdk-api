@@ -9,8 +9,6 @@ ms.assetid: 4BBA8B7A-E2DA-445B-AE56-FFA7629E3D06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWRITE_GLYPH_IMAGE_DATA, DWRITE_GLYPH_IMAGE_DATA structure [Direct Write], directwrite.dwrite_glyph_image_data, dwrite_3/DWRITE_GLYPH_IMAGE_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

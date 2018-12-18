@@ -9,8 +9,6 @@ ms.assetid: a01a65f1-3eca-452c-a10d-dc9c6c3db124
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsResetError, WsResetError function [Web Services for Windows], webservices/WsResetError, wsw.wsreseterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

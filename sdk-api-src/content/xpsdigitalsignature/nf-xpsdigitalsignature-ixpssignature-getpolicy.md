@@ -9,8 +9,6 @@ ms.assetid: 632e5e53-1677-4b55-9085-0def97531a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPolicy, GetPolicy method [XPS Documents and Packaging], GetPolicy method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetPolicy method, IXpsSignature.GetPolicy, IXpsSignature::GetPolicy, xps.ixpssignature_getpolicy, xpsdigitalsignature/IXpsSignature::GetPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

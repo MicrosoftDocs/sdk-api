@@ -9,8 +9,6 @@ ms.assetid: 0addd55c-756e-41f6-998e-0f464b609aac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellPropSheetExt interface [Windows Shell],ReplacePage method, IShellPropSheetExt.ReplacePage, IShellPropSheetExt::ReplacePage, ReplacePage, ReplacePage method [Windows Shell], ReplacePage method [Windows Shell],IShellPropSheetExt interface, _win32_IShellPropSheetExt_ReplacePage, _win32_ishellpropsheetext_win32_ishellpropsheetext_replacepage_cpp, shell.IShellPropSheetExt_ReplacePage, shobjidl_core/IShellPropSheetExt::ReplacePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

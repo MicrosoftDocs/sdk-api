@@ -9,8 +9,6 @@ ms.assetid: 65ccd0f6-ee43-4b4d-98fd-b7a49f23ad9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AuditLookupSubCategoryName, AuditLookupSubCategoryName function [Security], AuditLookupSubCategoryNameA, AuditLookupSubCategoryNameW, ntsecapi/AuditLookupSubCategoryName, ntsecapi/AuditLookupSubCategoryNameA, ntsecapi/AuditLookupSubCategoryNameW, security.auditlookupsubcategoryname_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

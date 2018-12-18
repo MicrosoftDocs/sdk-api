@@ -9,8 +9,6 @@ ms.assetid: 2bd7e1f4-0b88-466f-a408-dddb9a11a52d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], RemoveClusterGroupToGroupSetDependency, RemoveClusterGroupToGroupSetDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_TO_GROUP_GROUPSET_DEPENDENCY, clusapi/RemoveClusterGroupToGroupSetDependency, mscs.removeclustergrouptogroupcollectiondependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -75,7 +73,7 @@ The groupset to remove.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 

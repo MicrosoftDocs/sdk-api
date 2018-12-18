@@ -9,8 +9,6 @@ ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

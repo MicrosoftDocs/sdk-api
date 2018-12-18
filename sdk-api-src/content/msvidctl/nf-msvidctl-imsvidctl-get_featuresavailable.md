@@ -9,8 +9,6 @@ ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 
@@ -76,7 +74,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method returns a collection of feature objects. Use the returned <a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures</a> pointer to enumerate the collection. To activate a feature, add it to the active features collection. To search for a specific feature, call the <a href="https://msdn.microsoft.com/80890372-2d92-4a3a-963f-2a6ca6632c52">IMSVidDevice::get__ClassID</a> method on each feature and compare the result against the CLSID of the feature you are looking for.
+This method returns a collection of feature objects. Use the returned <a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures</a> pointer to enumerate the collection. To activate a feature, add it to the active features collection. To search for a specific feature, call the <a href="https://msdn.microsoft.com/en-us/library/Dd694530(v=VS.85).aspx">IMSVidDevice::get__ClassID</a> method on each feature and compare the result against the CLSID of the feature you are looking for.
 
 
 

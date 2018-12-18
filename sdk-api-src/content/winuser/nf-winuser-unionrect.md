@@ -9,8 +9,6 @@ ms.assetid: f2da2df4-3f09-4c54-afd1-c728805f0f64
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnionRect, UnionRect function [Windows GDI], _win32_UnionRect, gdi.unionrect, winuser/UnionRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

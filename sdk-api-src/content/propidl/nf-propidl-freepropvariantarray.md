@@ -9,8 +9,6 @@ ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propidl.h
 req.include-header: 
@@ -94,12 +92,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
+This function performs the same action as <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.FreePropVariantArray">FreePropVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>

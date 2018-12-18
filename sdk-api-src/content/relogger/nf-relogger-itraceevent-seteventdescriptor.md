@@ -9,8 +9,6 @@ ms.assetid: 729a887e-1759-44d5-a7d5-8385d648eebf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITraceEvent interface [ETW],SetEventDescriptor method, ITraceEvent.SetEventDescriptor, ITraceEvent::SetEventDescriptor, SetEventDescriptor, SetEventDescriptor method [ETW], SetEventDescriptor method [ETW],ITraceEvent interface, etw.ievent_seteventdescriptor, relogger/ITraceEvent::SetEventDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: relogger.h
 req.include-header: 

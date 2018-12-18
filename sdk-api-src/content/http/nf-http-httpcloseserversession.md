@@ -9,8 +9,6 @@ ms.assetid: d1ceb491-c726-4aa0-b17e-f98f34279e32
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HttpCloseServerSession, HttpCloseServerSession function [HTTP], http.httpcloseserversession, http/HttpCloseServerSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: http.h
 req.include-header: 

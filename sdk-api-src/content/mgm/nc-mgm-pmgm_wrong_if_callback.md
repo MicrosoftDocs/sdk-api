@@ -9,8 +9,6 @@ ms.assetid: d74f6984-35a0-42f4-8460-b7ad2fbba1b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MgmWrongIfCallback, PMGM_WRONG_IF_CALLBACK, PMGM_WRONG_IF_CALLBACK callback, PMGM_WRONG_IF_CALLBACK callback function [RAS], _mpr_pmgm_wrong_if_callback, mgm/PMGM_WRONG_IF_CALLBACK, rras.pmgm_wrong_if_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 

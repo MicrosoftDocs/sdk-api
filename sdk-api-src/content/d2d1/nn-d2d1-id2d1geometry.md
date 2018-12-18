@@ -9,8 +9,6 @@ ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Geometry, ID2D1Geometry interface [Direct2D], ID2D1Geometry interface [Direct2D],described, d2d1/ID2D1Geometry, direct2d.ID2D1Geometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d2d1.h
 req.include-header: 
@@ -120,7 +118,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3932189a-7c6b-4144-9d4a-32d2aba70835">GetBounds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742751(v=VS.85).aspx">GetBounds</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves the bounds of the geometry.
 

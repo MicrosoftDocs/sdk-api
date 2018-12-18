@@ -9,8 +9,6 @@ ms.assetid: e1f54a6a-9b90-4e9e-b94c-46f6c9b683a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFile, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog2 interface [COM+],InstallPartition method, ICOMAdminCatalog2.InstallPartition, ICOMAdminCatalog2::InstallPartition, InstallPartition, InstallPartition method [COM+], InstallPartition method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_InstallPartition, comadmin/ICOMAdminCatalog2::InstallPartition, cos.icomadmincatalog2_installpartition
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -143,7 +141,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

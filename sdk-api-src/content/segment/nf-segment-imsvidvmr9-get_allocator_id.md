@@ -9,8 +9,6 @@ ms.assetid: 46ea07af-be29-4621-96cb-f3c17be12f85
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_Allocator_ID method, IMSVidVMR9.get_Allocator_ID, IMSVidVMR9::get_Allocator_ID, IMSVidVMR9get_Allocator_ID, get_Allocator_ID, get_Allocator_ID method [Microsoft TV Technologies], get_Allocator_ID method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_allocator_id, segment/IMSVidVMR9::get_Allocator_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -101,7 +99,7 @@ The method succeeded.
 
 
 
-To set a custom allocator-presenter, call <a href="https://msdn.microsoft.com/f654adac-12b6-47c7-99d4-0612b1532df4">IMSVidVMR9::SetAllocator</a>.
+To set a custom allocator-presenter, call <a href="https://msdn.microsoft.com/en-us/library/Dd694766(v=VS.85).aspx">IMSVidVMR9::SetAllocator</a>.
 
 
 

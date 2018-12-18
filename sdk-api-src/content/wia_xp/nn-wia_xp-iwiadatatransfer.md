@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\iwiadatatransfer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], IWiaDataTransfer interface [WIA],described, _wia_IWiaDataTransfer, wia._wia_IWiaDataTransfer, wia_xp/IWiaDataTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

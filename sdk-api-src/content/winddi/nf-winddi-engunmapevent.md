@@ -9,8 +9,6 @@ ms.assetid: 3be72e38-e7ea-407b-87e4-c6293d6160f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngUnmapEvent, EngUnmapEvent function [Display Devices], display.engunmapevent, gdifncs_0f5f2320-13d2-471a-93b6-739f9ecbd620.xml, winddi/EngUnmapEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

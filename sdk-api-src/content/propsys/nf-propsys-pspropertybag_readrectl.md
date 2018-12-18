@@ -9,8 +9,6 @@ ms.assetid: 4DAABF63-7CBA-4361-9E58-7072869CFDEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PSPropertyBag_ReadRECTL, PSPropertyBag_ReadRECTL function [Windows Properties], properties.PSPropertyBag_ReadRECTL, propsys/PSPropertyBag_ReadRECTL, shell.PSPropertyBag_ReadRECTL, shell_PSPropertyBag_ReadRECTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propsys.h
 req.include-header: 
@@ -60,9 +58,9 @@ Retrieves the coordinates of a rectangle stored in a property contained in a spe
 
 ### -param propBag [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a>*</b>
+Type: <b><a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/library/Aa768196(v=VS.85).aspx">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="_inet_IPropertyBag_Interface_cpp">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 
 ### -param propName [in]
@@ -104,7 +102,7 @@ The property bag property function API converts between window types and the <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee845076(v=VS.85).aspx">PSPropertyBag_WriteRECTL</a>
+<a href="shell.PSPropertyBag_WriteRECTL">PSPropertyBag_WriteRECTL</a>
  
 
  

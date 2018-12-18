@@ -9,8 +9,6 @@ ms.assetid: 9d7fcc13-13f5-494d-b6b2-d1180902ec08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

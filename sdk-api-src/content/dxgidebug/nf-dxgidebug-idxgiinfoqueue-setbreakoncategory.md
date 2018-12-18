@@ -9,8 +9,6 @@ ms.assetid: 834C803B-EA7D-4D4C-B74E-9CF7914E0A4E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnCategory method, IDXGIInfoQueue.SetBreakOnCategory, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

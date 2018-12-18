@@ -9,8 +9,6 @@ ms.assetid: df8803be-ce24-42c1-9dd2-80ce2a3e1e3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FwpmProviderContextGetByKey2, FwpmProviderContextGetByKey2 function [Filtering], fwp.fwpmprovidercontextgetbykey2, fwpmu/FwpmProviderContextGetByKey2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

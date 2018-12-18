@@ -9,8 +9,6 @@ ms.assetid: aa80b1d8-c50e-45be-8769-8b937c8e714a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],RangeFromPoint method, IUIAutomationTextPattern.RangeFromPoint, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],IUIAutomationTextPattern interface, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

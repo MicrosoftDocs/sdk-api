@@ -9,8 +9,6 @@ ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -89,7 +87,7 @@ This method does not return a value.
 
 
 
-The destructor for the <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class is <b>Provider::~Provider</b>.
+The destructor for the <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class is <b>Provider::~Provider</b>.
 
 
 

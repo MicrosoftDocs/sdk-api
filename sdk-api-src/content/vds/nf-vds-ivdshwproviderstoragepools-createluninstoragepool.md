@@ -9,8 +9,6 @@ ms.assetid: 17377671-1a30-4aeb-bc89-3c1e3823d3fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLunInStoragePool, CreateLunInStoragePool method, CreateLunInStoragePool method,IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,CreateLunInStoragePool method, IVdsHwProviderStoragePools.CreateLunInStoragePool, IVdsHwProviderStoragePools::CreateLunInStoragePool, base.ivdshwproviderstoragepools_createluninstoragepool, vds/IVdsHwProviderStoragePools::CreateLunInStoragePool, vdshwprv/IVdsHwProviderStoragePools::CreateLunInStoragePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: ad21ab6e-c7af-4293-8920-05db62b9f7ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetMaxOutputSampleSize method, IWMReaderAdvanced.GetMaxOutputSampleSize, IWMReaderAdvanced::GetMaxOutputSampleSize, IWMReaderAdvancedGetMaxOutputSampleSize, wmformat.iwmreaderadvanced_getmaxoutputsamplesize, wmsdkidl/IWMReaderAdvanced::GetMaxOutputSampleSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -129,15 +127,15 @@ No file has been opened for the sample.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f">IWMReaderAdvanced::GetAllocateForOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743470(v=VS.85).aspx">IWMReaderAdvanced::GetAllocateForOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/9511c269-0f88-4fdd-8d4b-c52bace14791">IWMReaderAdvanced::GetMaxStreamSampleSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743474(v=VS.85).aspx">IWMReaderAdvanced::GetMaxStreamSampleSize</a>
  
 
  

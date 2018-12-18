@@ -9,8 +9,6 @@ ms.assetid: 0c518b8e-d5a7-40ba-9b10-4d23d4376890
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetParamCount, GetParamCount method [DirectShow], GetParamCount method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamCount method, IMediaParamInfo.GetParamCount, IMediaParamInfo::GetParamCount, IMediaParamInfoGetParamCount, dshow.imediaparaminfo_getparamcount, medparam/IMediaParamInfo::GetParamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: medparam.h
 req.include-header: 
@@ -111,7 +109,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/80c7da71-7898-4bda-a181-09ad8906532a">IMediaParamInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406964(v=VS.85).aspx">IMediaParamInfo Interface</a>
  
 
  

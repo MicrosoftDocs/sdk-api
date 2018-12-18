@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizetarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDXGISwapChain interface [DXGI],ResizeTarget method, IDXGISwapChain.ResizeTarget, IDXGISwapChain::ResizeTarget, ResizeTarget, ResizeTarget method [DXGI], ResizeTarget method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizetarget, dxgi/IDXGISwapChain::ResizeTarget, f136baf7-17fc-2a80-f25e-e0fc612bcad7
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

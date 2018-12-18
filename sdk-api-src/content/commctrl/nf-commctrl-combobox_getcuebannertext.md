@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_GetCueBannerText, ComboBox_GetCueBannerText macro [Windows Controls], _shell_ComboBox_GetCueBannerText, _shell_ComboBox_GetCueBannerText_cpp, commctrl/ComboBox_GetCueBannerText, controls.ComboBox_GetCueBannerText, controls._shell_ComboBox_GetCueBannerText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Gets the cue banner text displayed in the edit control of a combo box. Use this 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the combo box.
 
 
 ### -param lpwText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a></b>
 
 A pointer to a Unicode string buffer that receives the cue banner text. The calling application is responsible for allocating the memory for the buffer. The buffer size must be equal to the length of the cue banner string in <b>WCHAR</b><b>s</b>, plus 1—for the terminating <b>NULL</b> <b>WCHAR</b>.
 

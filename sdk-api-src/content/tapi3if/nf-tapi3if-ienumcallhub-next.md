@@ -9,8 +9,6 @@ ms.assetid: 16469c1c-f12f-4941-9fd4-1413620c89bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Next method, IEnumCallHub.Next, IEnumCallHub::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_next, tapi3.ienumcallhub_next, tapi3if/IEnumCallHub::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

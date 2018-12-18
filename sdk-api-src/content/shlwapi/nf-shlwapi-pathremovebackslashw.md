@@ -9,8 +9,6 @@ ms.assetid: 58d13c38-40aa-4aaa-81dc-2b68425f1fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathRemoveBackslash, PathRemoveBackslash function [Windows Shell], PathRemoveBackslashA, PathRemoveBackslashW, _win32_PathRemoveBackslash, shell.PathRemoveBackslash, shlwapi/PathRemoveBackslash, shlwapi/PathRemoveBackslashA, shlwapi/PathRemoveBackslashW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

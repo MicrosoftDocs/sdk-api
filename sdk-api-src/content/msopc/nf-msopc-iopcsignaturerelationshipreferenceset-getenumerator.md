@@ -7,10 +7,8 @@ old-location: opc\iopcsignaturerelationshipreferenceset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a574a935-f89a-445f-a793-d8dc2e116a48
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureRelationshipReferenceSet.GetEnumerator, IOpcSignatureRelationshipReferenceSet::GetEnumerator, msopc/IOpcSignatureRelationshipReferenceSet::GetEnumerator, opc.iopcsignaturerelationshipreferenceset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

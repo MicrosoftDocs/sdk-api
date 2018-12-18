@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7u43.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ArchiveOutboundFaxes property [Fax Service], ArchiveOutboundFaxes property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],ArchiveOutboundFaxes property, IFaxServer.ArchiveOutboundFaxes, IFaxServer.get_ArchiveOutboundFaxes, IFaxServer.put_ArchiveOutboundFaxes, IFaxServer::ArchiveOutboundFaxes, IFaxServer::get_ArchiveOutboundFaxes, IFaxServer::put_ArchiveOutboundFaxes, _mfax_ifaxserver_get_archiveoutboundfaxes, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_archiveoutboundfaxes_cpp, fax._mfax_ifaxserver_get_archiveoutboundfaxes, faxcom/IFaxServer::ArchiveOutboundFaxes, faxcom/IFaxServer::get_ArchiveOutboundFaxes, faxcom/IFaxServer::put_ArchiveOutboundFaxes, put_ArchiveOutboundFaxes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -54,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>ArchiveOutboundFaxes</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>ArchiveOutboundFaxes</b> property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions. 
+Sets or retrieves the <b>ArchiveOutboundFaxes</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>ArchiveOutboundFaxes</b> property is a Boolean value that indicates whether the fax server archives outgoing fax transmissions. 
 
 This property is read/write.
 
@@ -66,7 +64,7 @@ This property is read/write.
 
 
 
-The fax server ignores this property unless the <a href="https://msdn.microsoft.com/1c266ddb-62dc-4faf-9761-1c8c08c0b125">ArchiveDirectory</a> property is specified.
+The fax server ignores this property unless the <a href="https://msdn.microsoft.com/en-us/library/ms691828(v=VS.85).aspx">ArchiveDirectory</a> property is specified.
 
 
 
@@ -76,23 +74,23 @@ The fax server ignores this property unless the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c266ddb-62dc-4faf-9761-1c8c08c0b125">IFaxServer::get_ArchiveDirectory</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691828(v=VS.85).aspx">IFaxServer::get_ArchiveDirectory</a>
  
 
  

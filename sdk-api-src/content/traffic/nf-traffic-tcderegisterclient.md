@@ -9,8 +9,6 @@ ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

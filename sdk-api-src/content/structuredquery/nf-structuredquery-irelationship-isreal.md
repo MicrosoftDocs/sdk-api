@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isr
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

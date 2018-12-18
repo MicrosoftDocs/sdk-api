@@ -9,8 +9,6 @@ ms.assetid: 6BC5740F-520D-47EA-A90A-973E158F2AC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1SpriteBatch interface [Direct2D],SetSprites method, ID2D1SpriteBatch.SetSprites, ID2D1SpriteBatch::SetSprites, SetSprites, SetSprites method [Direct2D], SetSprites method [Direct2D],ID2D1SpriteBatch interface, d2d1_3/ID2D1SpriteBatch::SetSprites, direct2d.id2d1spritebatch_setsprites
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -153,7 +151,7 @@ Specifies the distance, in bytes, between each transform in the transforms array
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK on success. Returns E_INVALIDARG if an invalid value was passed to the method. In this case, no sprites are modified by this call to SetSprites.
 

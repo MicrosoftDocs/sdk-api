@@ -9,8 +9,6 @@ ms.assetid: fb5fe743-4833-400a-a8aa-8de886203190
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

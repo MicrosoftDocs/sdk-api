@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMessageExtraInfo, GetMessageExtraInfo function [Windows and Messages], _win32_GetMessageExtraInfo, _win32_getmessageextrainfo_cpp, winmsg.getmessageextrainfo, winui._win32_getmessageextrainfo, winuser/GetMessageExtraInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

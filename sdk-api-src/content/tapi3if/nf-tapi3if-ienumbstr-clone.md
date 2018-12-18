@@ -9,8 +9,6 @@ ms.assetid: 17376fb1-05cc-4ca4-85ab-d578a48f03d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumBstr interface, IEnumBstr interface [TAPI 2.2],Clone method, IEnumBstr.Clone, IEnumBstr::Clone, _tapi3_ienumbstr_clone, tapi3.ienumbstr_clone, tapi3if/IEnumBstr::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -9,8 +9,6 @@ ms.assetid: 8e4a66e8-d4ab-49e0-8773-c79b5965124b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetImageCompositor method, IVMRFilterConfig9.SetImageCompositor, IVMRFilterConfig9::SetImageCompositor, IVMRFilterConfig9SetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setimagecompositor, vmr9/IVMRFilterConfig9::SetImageCompositor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -132,9 +130,9 @@ The VMR is not in mixing mode.
 
 
 
-Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="https://msdn.microsoft.com/062aac78-6d7d-4335-963a-bc2c2d339efb">IVMRFilterConfig9::SetNumberOfStreams</a>,
+Use this method to replace the VMR's default compositor with a custom compositor provided by the application. The image compositor is a sub-component of the mixer. The mixer must be loaded, through a call to <a href="https://msdn.microsoft.com/en-us/library/Dd377370(v=VS.85).aspx">IVMRFilterConfig9::SetNumberOfStreams</a>,
 
-before the compositor can be specified. The VMR manages all reference counting on the <a href="https://msdn.microsoft.com/19fda7f2-000f-47d0-a7c7-d8421de418a2">IVMRImageCompositor9</a> interface.
+before the compositor can be specified. The VMR manages all reference counting on the <a href="https://msdn.microsoft.com/en-us/library/Dd377381(v=VS.85).aspx">IVMRImageCompositor9</a> interface.
 
 
 
@@ -144,7 +142,7 @@ before the compositor can be specified. The VMR manages all reference counting o
 
 
 
-<a href="https://msdn.microsoft.com/089e44c8-6a27-410d-aad5-08816bd4f915">IVMRFilterConfig9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
 
 
 

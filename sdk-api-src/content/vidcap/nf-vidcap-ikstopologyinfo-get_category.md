@@ -9,8 +9,6 @@ ms.assetid: 1026ec92-1ccd-4658-b217-3dbc2ee9ca3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_Category method, IKsTopologyInfo.get_Category, IKsTopologyInfo::get_Category, IKsTopologyInfoget_Category, dshow.ikstopologyinfo_get_category, get_Category, get_Category method [DirectShow], get_Category method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_Category
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -60,7 +58,7 @@ The <code>get_Category</code> method returns one of the filter categories for th
 
 ### -param dwIndex [in]
 
-Index of the category GUID to retrieve. To find the number of categories, call the <a href="https://msdn.microsoft.com/86bbe461-37c1-4dbc-bebd-fa8784d49083">IKsTopologyInfo::get_NumCategories</a> method.
+Index of the category GUID to retrieve. To find the number of categories, call the <a href="https://msdn.microsoft.com/en-us/library/Dd390154(v=VS.85).aspx">IKsTopologyInfo::get_NumCategories</a> method.
 
 
 ### -param pCategory [out]
@@ -105,7 +103,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/641a10fe-8e8c-4225-b05e-b09dfb5f2fee">IKsTopologyInfo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo Interface</a>
  
 
  

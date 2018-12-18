@@ -9,8 +9,6 @@ ms.assetid: f238c446-b268-4600-b6e3-ec772a5f7575
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassifierModuleImplementation, IFsrmClassifierModuleImplementation interface [File Server Resource Manager], IFsrmClassifierModuleImplementation interface [File Server Resource Manager],described, fs.ifsrmclassifiermoduleimplementation, fsrm.ifsrmclassifiermoduleimplementation, fsrm/IFsrmClassifierModuleImplementation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

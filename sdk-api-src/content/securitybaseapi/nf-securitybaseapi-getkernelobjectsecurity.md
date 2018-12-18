@@ -9,8 +9,6 @@ ms.assetid: 276e9657-5729-48cb-9531-14bfd08b7868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKernelObjectSecurity, GetKernelObjectSecurity function [Security], _win32_getkernelobjectsecurity, security.getkernelobjectsecurity, securitybaseapi/GetKernelObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

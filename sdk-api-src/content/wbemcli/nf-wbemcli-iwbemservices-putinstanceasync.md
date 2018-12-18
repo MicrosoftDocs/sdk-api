@@ -9,8 +9,6 @@ ms.assetid: fef3eb72-74ba-49cd-b992-292405d29917
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstanceAsync method, IWbemServices.PutInstanceAsync, IWbemServices::PutInstanceAsync, PutInstanceAsync, PutInstanceAsync method [Windows Management Instrumentation], PutInstanceAsync method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstanceasync, wbemcli/IWbemServices::PutInstanceAsync, wmi.iwbemservices_putinstanceasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
@@ -117,7 +115,7 @@ This flag is for instance creation only. The call fails if the class already exi
 
 This flag registers with Windows Management a request to receive intermediate status reports through the 
         clients implementation of 
-        <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a>. Provider 
+        <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a>. Provider 
         implementation must support intermediate status reporting for this flag to change behavior.
 
 
@@ -140,7 +138,7 @@ Pointer describing if the client is requesting a partial-instance update or full
 
 Pointer to the caller's implementation of 
 <a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>. This handler receives the status of this call when it becomes available using the 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information about how to make asynchronous calls, see 
 <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
@@ -167,7 +165,7 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 Clients that call 
 <b>PutInstanceAsync</b> must always expect the results of the call to be reported using their 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> method.
 
 When the instance pointed to by <i>pInst</i> belongs to a class that is derived from other classes, the success of 
 <b>PutInstanceAsync</b> depends on the success of the providers responsible for the parent classes. For example, if <i>pInst</i> belongs to <b>ClassB</b> and <b>ClassB</b> derives from <b>ClassA</b>, a call to the 
@@ -183,8 +181,8 @@ Instance providers supporting a partial update must check for the existence of t
 <a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> interface provides access to the system context values and other provider-specific context values. The following list lists the context values that support partial-instance update operations.
 
 The 
-<a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://msdn.microsoft.com/96756b27-cbcf-47ce-a8c8-88795a81edde">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> if error conditions occur.
 
 Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
@@ -254,7 +252,7 @@ When implementing an instance provider, you should respond to a <b>NULL</b> prop
 </ul>
 If <i>pCtx</i> is not <b>NULL</b> and points to valid context information, the caller application is requesting a partial-instance update. As before, an instance providers that does not support partial-instance updating should fail the operation by returning <b>WBEM_E_PROVIDER_NOT_CAPABLE</b>.
 
-When implementing an async operation, the async operation not complete until you release any <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="https://msdn.microsoft.com/e47e8cd9-4e80-45c4-b1f0-2f68aea4eb7b">SetStatus</a> on <i>pResponseHander</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
+When implementing an async operation, the async operation not complete until you release any <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a>'s you have performed on <i>pResponseHandler</i>.  This is the case even if you call <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> on <i>pResponseHander</i>. If <i>pResponseHandler</i> is leaked, any sync or semi-sync clients will also not complete and possibly stop responding, depending on your implementation.
 
 Even in catastrophic cases, you must release the references for decoupled providers. This is because in sync and semi-sync cases, the WMI service owns the implementation of <i>pResponseHandler</i>: even if your decoupled provider's process exits, the clients will still not be responding.
 

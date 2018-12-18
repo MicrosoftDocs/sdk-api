@@ -9,8 +9,6 @@ ms.assetid: CD408074-2B2A-461C-9CA8-DC967BC61067
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList4 interface,SetPipelineState1 method, ID3D12GraphicsCommandList4.SetPipelineState1, ID3D12GraphicsCommandList4::SetPipelineState1, SetPipelineState1, SetPipelineState1 method, SetPipelineState1 method,ID3D12GraphicsCommandList4 interface, d3d12/ID3D12GraphicsCommandList4::SetPipelineState1, direct3d12.id3d12graphicscommandlist4_setpipelinestate1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 
@@ -88,7 +86,7 @@ This method is an alternative to <a href="https://msdn.microsoft.com/751E09A4-D8
 
 
 
-<a href="https://msdn.microsoft.com/2385E66F-CD42-4826-B508-3EF6144179BD">ID3D12GraphicsCommandList4</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
  
 
  

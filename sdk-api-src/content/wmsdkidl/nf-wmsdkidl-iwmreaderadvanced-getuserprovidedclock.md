@@ -9,8 +9,6 @@ ms.assetid: 54eb30ae-4b84-489c-a5e5-e73dee2c5056
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUserProvidedClock, GetUserProvidedClock method [windows Media Format], GetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetUserProvidedClock method, IWMReaderAdvanced.GetUserProvidedClock, IWMReaderAdvanced::GetUserProvidedClock, IWMReaderAdvancedGetUserProvidedClock, wmformat.iwmreaderadvanced_getuserprovidedclock, wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ The <i>pfUserClock</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a7a20f87-6f21-4fe8-8889-1b6689daf833">IWMReaderAdvanced Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f29beea-1da4-41e0-a68d-93af3b1f55ed">IWMReaderAdvanced::SetUserProvidedClock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743489(v=VS.85).aspx">IWMReaderAdvanced::SetUserProvidedClock</a>
  
 
  

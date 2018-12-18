@@ -9,8 +9,6 @@ ms.assetid: 1c642958-88df-48b2-8eb1-0d032af71f71
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -69,7 +67,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies a <a href="https://msdn.microsoft.com/7e5cf0e9-1cb9-494a-9370-550328dcd85c">VMR9PresentationInfo</a> structure that contains information about the video frame.
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/Dd407371(v=VS.85).aspx">VMR9PresentationInfo</a> structure that contains information about the video frame.
 
 
 ## -returns
@@ -118,7 +116,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/2c18cdd6-af97-4db2-80b5-bab4cfa25f7d">IVMRImagePresenter9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377391(v=VS.85).aspx">IVMRImagePresenter9 Interface</a>
 
 
 

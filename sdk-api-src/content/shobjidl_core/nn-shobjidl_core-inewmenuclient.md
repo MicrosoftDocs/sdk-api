@@ -9,8 +9,6 @@ ms.assetid: f122d728-5677-4fb7-89fe-9f0b21c4c38d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INewMenuClient, INewMenuClient interface [Windows Shell], INewMenuClient interface [Windows Shell],described, _shell_INewMenuClient, shell.INewMenuClient, shobjidl_core/INewMenuClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

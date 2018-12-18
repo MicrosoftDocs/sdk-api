@@ -9,8 +9,6 @@ ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

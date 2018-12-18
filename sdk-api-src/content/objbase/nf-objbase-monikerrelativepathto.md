@@ -9,8 +9,6 @@ ms.assetid: 55ab4db3-a94e-48ba-abe3-44963c35e062
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MonikerRelativePathTo, MonikerRelativePathTo function [COM], _com_MonikerRelativePathTo, com.monikerrelativepathto, objbase/MonikerRelativePathTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_removepage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_RemovePage, PropSheet_RemovePage macro [Windows Controls], _win32_PropSheet_RemovePage, _win32_PropSheet_RemovePage_cpp, controls.PropSheet_RemovePage, controls._win32_PropSheet_RemovePage, prsht/PropSheet_RemovePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

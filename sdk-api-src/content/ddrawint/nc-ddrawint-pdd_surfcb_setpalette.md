@@ -9,8 +9,6 @@ ms.assetid: 745b30f0-3d2f-4894-8991-6b7d511f8493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DdSetPalette, DdSetPalette callback function [Display Devices], PDD_SURFCB_SETPALETTE, PDD_SURFCB_SETPALETTE callback, ddfncs_7d4146b2-d5f8-4a02-b24e-3dfa0a8d817a.xml, ddrawint/DdSetPalette, display.ddsetpalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

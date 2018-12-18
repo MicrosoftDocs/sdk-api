@@ -9,8 +9,6 @@ ms.assetid: 9566acb0-d7bf-4d3d-b7da-5cfbce150a2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "?EnumerateInstances@Provider@@MAEJPAVMethodContext@@J@Z, EnumerateInstances, EnumerateInstances method [Windows Management Instrumentation], EnumerateInstances method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],EnumerateInstances method, Provider.EnumerateInstances, Provider::EnumerateInstances, _hmm_provider_enumerateinstances, provider/Provider::EnumerateInstances, wmi.provider_enumerateinstances"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa392762(v=VS.85).aspx">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
@@ -104,7 +102,7 @@ It is not an error for <b>EnumerateInstances</b> to return zero instances by ins
 WMI often calls <b>EnumerateInstances</b> when a client application calls <a href="https://msdn.microsoft.com/47671b9b-a2ff-4375-b2a4-7e8599f1fb69">IWbemServices::CreateInstanceEnum</a>, although WMI may call <b>EnumerateInstances</b> in other situations as well. The following is a common way to override <b>EnumerateInstances</b>:
 
 <ol>
-<li>Create an empty instance of your class using <a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">Provider::CreateNewInstance</a>.</li>
+<li>Create an empty instance of your class using <a href="https://msdn.microsoft.com/en-us/library/Aa392765(v=VS.85).aspx">Provider::CreateNewInstance</a>.</li>
 <li>Populate the properties of the empty instance using the Set methods of the <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class, such as <a href="https://msdn.microsoft.com/d6ecbada-4eb6-40ad-9e59-ba77fd3b883a">CInstance::SetByte</a> or <a href="https://msdn.microsoft.com/dcd1e108-4914-43ea-aa41-d38d38e8954a">CInstance::SetStringArray</a>.</li>
 <li>Send the instance back to the client using <a href="https://msdn.microsoft.com/699dadf9-18b5-4c6d-a5c4-59ea8a85f089">CInstance::Commit</a>.</li>
 </ol>

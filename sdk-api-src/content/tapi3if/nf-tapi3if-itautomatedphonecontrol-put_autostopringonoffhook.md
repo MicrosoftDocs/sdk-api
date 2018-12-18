@@ -9,8 +9,6 @@ ms.assetid: 114e17e2-63e7-47f9-8ae7-1c7e452376f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.put_AutoStopRingOnOffHook, ITAutomatedPhoneControl::put_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_put_autostopringonoffhook, put_AutoStopRingOnOffHook, put_AutoStopRingOnOffHook method [TAPI 2.2], put_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopRingOnOffHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

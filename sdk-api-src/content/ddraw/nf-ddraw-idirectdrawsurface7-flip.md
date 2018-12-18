@@ -9,8 +9,6 @@ ms.assetid: 6c0c23e7-7567-4e07-9ba0-5e50b758f711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDFLIP_DONOTWAIT, DDFLIP_EVEN, DDFLIP_INTERVAL2, DDFLIP_INTERVAL3, DDFLIP_INTERVAL4, DDFLIP_NOVSYNC, DDFLIP_ODD, DDFLIP_STEREO, DDFLIP_WAIT, Flip, Flip method [DirectDraw], Flip method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],Flip method, IDirectDrawSurface7.Flip, IDirectDrawSurface7::Flip, ddraw/IDirectDrawSurface7::Flip, directdraw.idirectdrawsurface7_flip
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

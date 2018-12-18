@@ -9,8 +9,6 @@ ms.assetid: 9ecd6a63-e906-483b-b404-28797d259149
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSwapHold, TSPI_lineSwapHold function [TAPI 2.2], _tspi_tspi_lineswaphold, tspi.tspi_lineswaphold, tspi/TSPI_lineSwapHold
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

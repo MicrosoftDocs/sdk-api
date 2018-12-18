@@ -9,8 +9,6 @@ ms.assetid: 4a587832-e1ce-42d4-97bb-a728f895906b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP], http.winhttptimetosystemtime, winhttp.winhttptimetosystemtime_function, winhttp/WinHttpTimeToSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

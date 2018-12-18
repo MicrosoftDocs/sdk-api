@@ -9,8 +9,6 @@ ms.assetid: 8aeb4868-f52e-4e80-b0c6-c8f759066fb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphsEditor.GetProhibitedCaretStopCount, IXpsOMGlyphsEditor::GetProhibitedCaretStopCount, xps.ixpsomglyphseditor_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

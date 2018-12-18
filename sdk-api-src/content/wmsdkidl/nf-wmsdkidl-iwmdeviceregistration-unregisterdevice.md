@@ -9,8 +9,6 @@ ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMDeviceRegistration interface [windows Media Format],UnregisterDevice method, IWMDeviceRegistration.UnregisterDevice, IWMDeviceRegistration::UnregisterDevice, IWMDeviceRegistrationUnregisterDevice, UnregisterDevice, UnregisterDevice method [windows Media Format], UnregisterDevice method [windows Media Format],IWMDeviceRegistration interface, wmformat.iwmdeviceregistration_unregisterdevice, wmsdkidl/IWMDeviceRegistration::UnregisterDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -82,7 +80,7 @@ The size of the certificate data in bytes.
 
 ### -param SerialNumber [in]
 
-128-bit device identifier, stored in a <a href="https://msdn.microsoft.com/8981042a-f11d-458d-be27-3b1749f9e995">DRM_VAL16</a> structure.
+128-bit device identifier, stored in a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure.
 
 
 ## -returns
@@ -138,7 +136,7 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 
 
-<a href="https://msdn.microsoft.com/fb08ddae-2abf-4a86-a5d8-ea745ae35aa8">IWMDeviceRegistration Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743357(v=VS.85).aspx">IWMDeviceRegistration Interface</a>
  
 
  

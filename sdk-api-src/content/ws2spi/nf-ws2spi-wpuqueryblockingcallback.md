@@ -9,8 +9,6 @@ ms.assetid: 08e6215c-536f-4ab2-9d34-096b919ef0be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

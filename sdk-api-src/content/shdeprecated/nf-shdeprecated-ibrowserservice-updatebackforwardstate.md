@@ -9,8 +9,6 @@ ms.assetid: 03e4a470-96dc-408c-a124-5230c185b075
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateBackForwardState method, IBrowserService.UpdateBackForwardState, IBrowserService::UpdateBackForwardState, UpdateBackForwardState, UpdateBackForwardState method [Windows Shell], UpdateBackForwardState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateBackForwardState, shell.IBrowserService_UpdateBackForwardState, zone_IBrowserService_UpdateBackForwardState
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

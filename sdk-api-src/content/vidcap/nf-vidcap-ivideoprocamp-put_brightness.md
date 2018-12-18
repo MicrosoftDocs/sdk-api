@@ -9,8 +9,6 @@ ms.assetid: 69c8086c-a638-4ec6-a4fd-5a400095145d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Brightness method, IVideoProcAmp.put_Brightness, IVideoProcAmp::put_Brightness, IVideoProcAmpput_Brightness, dshow.ivideoprocamp_put_brightness, put_Brightness, put_Brightness method [DirectShow], put_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Brightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Specifies the brightness setting. Larger values indicate increased brightness.
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
+Zero or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>. If the VideoProcAmp_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 
 ## -returns
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

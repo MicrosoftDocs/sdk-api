@@ -9,8 +9,6 @@ ms.assetid: d1ee158e-5d70-41a4-b746-2ecaea2db92c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateDXSurfaceBuffer, MFCreateDXSurfaceBuffer function [Media Foundation], d1ee158e-5d70-41a4-b746-2ecaea2db92c, mf.mfcreatedxsurfacebuffer, mfapi/MFCreateDXSurfaceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

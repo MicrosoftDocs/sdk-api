@@ -9,8 +9,6 @@ ms.assetid: cf158770-c9af-4488-9ed0-486e9a528a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 
@@ -60,9 +58,9 @@ Gets the current value of a global counter.
 
 ### -param id [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a></b>
 
-The <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a> for which to retrieve the current value.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a> for which to retrieve the current value.
 
 
 ## -returns
@@ -81,7 +79,7 @@ The current value of the counter.
 
 
 
-<a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a>
 
 
 

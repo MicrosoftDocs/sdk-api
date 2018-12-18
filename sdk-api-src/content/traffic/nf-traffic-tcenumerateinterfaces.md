@@ -9,8 +9,6 @@ ms.assetid: e6fbaa17-6b4b-45a2-baf7-898864a797b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

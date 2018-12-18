@@ -9,8 +9,6 @@ ms.assetid: 88823fe3-efde-4ee1-9b4f-685f8df03b29
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellImageDataAbort interface [Windows Shell],QueryAbort method, IShellImageDataAbort.QueryAbort, IShellImageDataAbort::QueryAbort, QueryAbort, QueryAbort method [Windows Shell], QueryAbort method [Windows Shell],IShellImageDataAbort interface, _shell_IShellImageDataAbort_QueryAbort, shell.IShellImageDataAbort_QueryAbort, shimgdata/IShellImageDataAbort::QueryAbort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

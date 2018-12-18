@@ -9,8 +9,6 @@ ms.assetid: 2CA84000-F114-439D-BEDE-9990044C7785
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: getsourcefilter, getsourcefilter function [Winsock], winsock.getsourcefilter, ws2tcpip/getsourcefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 
@@ -175,7 +173,7 @@ This function is part of socket interface extensions for multicast source filter
 
 
 
-<a href="https://msdn.microsoft.com/7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0">MULTICAST_MODE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb427442(v=VS.85).aspx">MULTICAST_MODE_TYPE</a>
 
 
 

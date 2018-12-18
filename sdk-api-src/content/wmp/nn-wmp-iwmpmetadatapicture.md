@@ -9,8 +9,6 @@ ms.assetid: 385819d0-cf27-4f39-86be-140d1bc87d12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player],described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPMetadataPicture</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8003560-d80d-4e0a-a6a9-88d908245477">get_description</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563452(v=VS.85).aspx">get_description</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the metadata image.
@@ -82,7 +80,7 @@ Retrieves a description of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfc5243f-3f7c-4f4a-9057-7720c862a983">get_mimeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563453(v=VS.85).aspx">get_mimeType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the MIME type of the metadata image.
@@ -91,7 +89,7 @@ Retrieves the MIME type of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c81d59a-9447-48bd-b95b-40e191e73a0f">get_pictureType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563454(v=VS.85).aspx">get_pictureType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the picture type of the metadata image.
@@ -100,7 +98,7 @@ Retrieves the picture type of the metadata image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e61c9c1a-4ffc-4a71-83b7-ad3f9937e303">get_URL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563455(v=VS.85).aspx">get_URL</a>
 </td>
 <td align="left" width="63%">
 Internal use only.

@@ -9,8 +9,6 @@ ms.assetid: 7a42ba12-987a-4b43-9d95-085a5e896245
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBandInfoSFB, GetBandInfoSFB method [Windows Shell], GetBandInfoSFB method [Windows Shell],IShellFolderBand interface, IShellFolderBand interface [Windows Shell],GetBandInfoSFB method, IShellFolderBand.GetBandInfoSFB, IShellFolderBand::GetBandInfoSFB, _win32_IShellFolderBand_GetBandInfoSFB, shell.IShellFolderBand_GetBandInfoSFB, shlobj/IShellFolderBand::GetBandInfoSFB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets information concerning an <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object and places it in a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure.
+Gets information concerning an <a href="https://msdn.microsoft.com/88ae35ea-6ff9-431c-848b-84fc61d3c690">IShellFolderBand</a> object and places it in a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure.
 
 
 ## -parameters
@@ -62,7 +60,7 @@ Gets information concerning an <a href="https://msdn.microsoft.com/88ae35ea-6ff9
 
 Type: <b>PBANDINFOSFB</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7067f563-383d-469f-abcf-3e1ea28dc956">BANDINFOSFB</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773197(v=VS.85).aspx">BANDINFOSFB</a> structure.
 
 
 ## -returns

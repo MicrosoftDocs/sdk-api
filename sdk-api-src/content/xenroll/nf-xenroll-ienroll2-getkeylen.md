@@ -9,8 +9,6 @@ ms.assetid: ece7f5a3-e982-48b2-a249-a9c5b5a8a493
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetKeyLen method, IEnroll2.GetKeyLen, IEnroll2::GetKeyLen, security.ienroll4_getkeylen, xenroll/IEnroll2::GetKeyLen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformNormalStrea
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVector2TransformNormalStream, XMVector2TransformNormalStream, XMVector2TransformNormalStream method [DirectX Math Support APIs], dxmath.xmvector2transformnormalstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -60,7 +58,7 @@ Transforms a stream of 2D normal vectors by a given matrix.
 
 ### -param pOutputStream [out]
 
-Address of the first <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> in the destination stream.
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a> in the destination stream.
 
 
 ### -param OutputStride [in]
@@ -70,7 +68,7 @@ Stride, in bytes, between vectors in the destination stream.
 
 ### -param pInputStream [in]
 
-Address of the first <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> in the stream to be transformed.
+Address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a> in the stream to be transformed.
 
 
 ### -param InputStride [in]
@@ -92,7 +90,7 @@ Transformation matrix.
 
 
 
-Returns the address of the first <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> in the destination stream.
+Returns the address of the first <a href="https://msdn.microsoft.com/en-us/library/Ee419468(v=VS.85).aspx">XMFLOAT2</a> in the destination stream.
 
 
 
@@ -120,7 +118,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/651149dd-f797-4d34-9750-d68ba87f4cbb">XMVector2TransformNormal</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420796(v=VS.85).aspx">XMVector2TransformNormal</a>
  
 
  

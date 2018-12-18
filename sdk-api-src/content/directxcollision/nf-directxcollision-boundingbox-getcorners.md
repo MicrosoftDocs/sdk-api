@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.GetCorners(XMFL
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],GetCorners method, BoundingBox.GetCorners, BoundingBox::GetCorners, GetCorners, GetCorners method [DirectX Math Support APIs], GetCorners method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.GetCorners, Use DirectX::::BoundingBox::GetCorners, dxmath.boundingbox_getcorners
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxcollision.h
 req.include-header: 
@@ -87,11 +85,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/8dac1c63-2eb6-4ad2-8495-593c4927391f">BoundingBox</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449580(v=VS.85).aspx">BoundingBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/68db5936-f0f8-4dbd-a183-b6c3089af0f0">Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449590(v=VS.85).aspx">Methods</a>
 
 
 

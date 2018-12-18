@@ -9,8 +9,6 @@ ms.assetid: 20730a90-e59c-46ae-a0bf-a212b201351c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfPersistentPropertyLoaderACP interface [Text Services Framework],LoadProperty method, ITfPersistentPropertyLoaderACP.LoadProperty, ITfPersistentPropertyLoaderACP::LoadProperty, LoadProperty, LoadProperty method [Text Services Framework], LoadProperty method [Text Services Framework],ITfPersistentPropertyLoaderACP interface, _tsf_itfpersistentpropertyloaderacp_loadproperty_ref, msctf/ITfPersistentPropertyLoaderACP::LoadProperty, tsf.itfpersistentpropertyloaderacp_loadproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

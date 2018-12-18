@@ -9,8 +9,6 @@ ms.assetid: d8b2dd45-3e3f-4325-b4d0-939abbc425e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],isReadOnlyItem method, IWMPMedia.isReadOnlyItem, IWMPMedia2 interface [Windows Media Player],isReadOnlyItem method, IWMPMedia2::isReadOnlyItem, IWMPMedia3 interface [Windows Media Player],isReadOnlyItem method, IWMPMedia3::isReadOnlyItem, IWMPMedia::isReadOnlyItem, IWMPMediaisReadOnlyItem, isReadOnlyItem, isReadOnlyItem method [Windows Media Player], isReadOnlyItem method [Windows Media Player],IWMPMedia interface, isReadOnlyItem method [Windows Media Player],IWMPMedia2 interface, isReadOnlyItem method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_isreadonlyitem, wmp/IWMPMedia2::isReadOnlyItem, wmp/IWMPMedia3::isReadOnlyItem, wmp/IWMPMedia::isReadOnlyItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -119,11 +117,11 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/919fe92f-9519-4229-8097-4970a8f6cc25">IWMPMedia::setItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563449(v=VS.85).aspx">IWMPMedia::setItemInfo</a>
  
 
  

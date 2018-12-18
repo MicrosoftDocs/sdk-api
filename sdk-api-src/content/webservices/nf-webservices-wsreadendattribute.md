@@ -9,8 +9,6 @@ ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

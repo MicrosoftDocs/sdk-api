@@ -9,8 +9,6 @@ ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

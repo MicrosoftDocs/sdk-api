@@ -9,8 +9,6 @@ ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

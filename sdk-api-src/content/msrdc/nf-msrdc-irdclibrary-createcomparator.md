@@ -9,8 +9,6 @@ ms.assetid: 21e83ed0-974a-470f-8a7f-1776f1575100
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateComparator, CreateComparator method [Remote Differential Compression], CreateComparator method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateComparator method, IRdcLibrary.CreateComparator, IRdcLibrary::CreateComparator, MSRDC_DEFAULT_COMPAREBUFFER, MSRDC_MAXIMUM_COMPAREBUFFER, MSRDC_MINIMUM_COMPAREBUFFER, fs.irdclibrary_createcomparator, msrdc/IRdcLibrary::CreateComparator, rdc.irdclibrary_createcomparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

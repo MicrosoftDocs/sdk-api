@@ -9,8 +9,6 @@ ms.assetid: a8f24501-4e85-4981-bb38-2bd6333a7b49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndDraw, EndDraw method [Direct2D], EndDraw method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],EndDraw method, ID2D1RenderTarget.EndDraw, ID2D1RenderTarget::EndDraw, d2d1/ID2D1RenderTarget::EndDraw, direct2d.ID2D1RenderTarget_EndDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -76,7 +74,7 @@ When this method returns, contains the tag for drawing operations that caused er
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code and sets <i>tag1</i> and <i>tag2</i> to the tags that were active when the error occurred.
 

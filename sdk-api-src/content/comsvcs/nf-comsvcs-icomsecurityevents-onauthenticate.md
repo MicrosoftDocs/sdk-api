@@ -9,8 +9,6 @@ ms.assetid: 4be635c6-9601-419d-933e-555b2ae6b73d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticate method, IComSecurityEvents.OnAuthenticate, IComSecurityEvents::OnAuthenticate, OnAuthenticate, OnAuthenticate method [COM+], OnAuthenticate method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticate, comsvcs/IComSecurityEvents::OnAuthenticate, cos.icomsecurityevents_onauthenticate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

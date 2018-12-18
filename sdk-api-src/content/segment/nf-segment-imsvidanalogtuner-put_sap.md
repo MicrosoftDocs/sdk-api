@@ -9,8 +9,6 @@ ms.assetid: e27efb36-de0c-4255-a5d8-6357f283cd12
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_SAP method, IMSVidAnalogTuner.put_SAP, IMSVidAnalogTuner::put_SAP, IMSVidAnalogTunerput_SAP, mstv.imsvidanalogtuner_put_sap, put_SAP, put_SAP method [Microsoft TV Technologies], put_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_SAP
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -79,15 +77,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/de340594-4410-4896-b206-0f47d4035bc1">IAMTVAudio Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375962(v=VS.85).aspx">IAMTVAudio Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9943ca7e-754e-4145-8f52-0a915fd7133d">IMSVidAnalogTuner::get_SAP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694430(v=VS.85).aspx">IMSVidAnalogTuner::get_SAP</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 323a6841-ffbd-4bbb-ac04-1d121cf5bd06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdrom, IWMPCdrom interface [Windows Media Player], IWMPCdrom interface [Windows Media Player],described, IWMPCdromInterface, wmp.iwmpcdrom, wmp/IWMPCdrom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 
@@ -73,7 +71,7 @@ The <b>IWMPCdrom</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b17c405-0887-4948-b375-c1ebcf2a72b3">eject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563108(v=VS.85).aspx">eject</a>
 </td>
 <td align="left" width="63%">
 Ejects the CD or DVD from the drive.
@@ -82,7 +80,7 @@ Ejects the CD or DVD from the drive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1">get_driveSpecifier</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563109(v=VS.85).aspx">get_driveSpecifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD or DVD drive letter.
@@ -91,7 +89,7 @@ Retrieves the CD or DVD drive letter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c726ac41-0662-4134-b187-035f941b9df9">get_playlist</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563110(v=VS.85).aspx">get_playlist</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface representing the tracks on a CD or the root-level title entries for a DVD.
@@ -109,10 +107,10 @@ Retrieve a pointer to an <b>IWMPCdrom</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/ba55ac32-149d-4f7b-a2bb-1fdb0be806cd">IWMPCdromCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563097(v=VS.85).aspx">IWMPCdromCollection</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/4604e53d-914f-4888-99c7-64d0683ac2e0">item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563100(v=VS.85).aspx">item</a>
 </td>
 </tr>
 </table> 
@@ -123,7 +121,7 @@ Retrieve a pointer to an <b>IWMPCdrom</b> interface with the following method.
 
 
 
-<a href="https://msdn.microsoft.com/04b6d6bc-a3fe-4b3f-b348-0f6b9f6e77a9">IWMPPlaylist Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
 
 
 

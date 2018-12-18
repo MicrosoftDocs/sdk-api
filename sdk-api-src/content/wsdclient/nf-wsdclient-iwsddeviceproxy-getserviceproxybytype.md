@@ -9,8 +9,6 @@ ms.assetid: 20df9a62-b983-40ed-a4bc-07131b80de6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetServiceProxyByType, GetServiceProxyByType method, GetServiceProxyByType method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyByType method, IWSDDeviceProxy.GetServiceProxyByType, IWSDDeviceProxy::GetServiceProxyByType, ncd.iwsddeviceproxy_getserviceproxybytype_method, wsdclient/IWSDDeviceProxy::GetServiceProxyByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

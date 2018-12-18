@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawBezier, DrawBezier methods [GDI+], Graphics.DrawBezier, Graphics::DrawBezier, _gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplusgraphics/DrawBezier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

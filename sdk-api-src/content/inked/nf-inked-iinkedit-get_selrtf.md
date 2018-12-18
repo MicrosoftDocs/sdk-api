@@ -9,8 +9,6 @@ ms.assetid: 85dc3b6d-54fa-4f23-9d36-03becff886cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelRTF property, IInkEdit.SelRTF, IInkEdit.get_SelRTF, IInkEdit::SelRTF, IInkEdit::get_SelRTF, IInkEdit::put_SelRTF, InkEdit.get_SelRTF, InkEdit.put_SelRTF, SelRTF property [Tablet PC], SelRTF property [Tablet PC],IInkEdit interface, get_SelRTF, inked/IInkEdit::SelRTF, inked/IInkEdit::get_SelRTF, inked/IInkEdit::put_SelRTF, put_SelRTF, tablet.inkedit_selrtf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inked.h
 req.include-header: 
@@ -77,7 +75,7 @@ Setting the SelRTF property replaces any selected text in the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

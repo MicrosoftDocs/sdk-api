@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],ShowContainerUI method, IRichEditOleCallback.ShowContainerUI, IRichEditOleCallback::ShowContainerUI, ShowContainerUI, ShowContainerUI method [Windows Controls], ShowContainerUI method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_ShowContainerUI, _win32_IRichEditOleCallback_ShowContainerUI_cpp, controls.IRichEditOleCallback_ShowContainerUI, controls._win32_IRichEditOleCallback_ShowContainerUI, richole/IRichEditOleCallback::ShowContainerUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

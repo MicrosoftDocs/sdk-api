@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchi
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxAccountIncomingArchive interface [Fax Service],Refresh method, IFaxAccountIncomingArchive.Refresh, IFaxAccountIncomingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxAccountIncomingArchive interface, _mfax_faxaccountincomingarchive.refresh, fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp, fax._mfax_faxaccountincomingarchive_refresh, faxcomex/IFaxAccountIncomingArchive::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Refreshes <a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server. 
+Refreshes <a href="https://msdn.microsoft.com/en-us/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a> object information for a particular fax account from the fax server. 
 
 
 ## -parameters
@@ -76,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/9765d6b3-7acd-4c20-8508-29fd28509fea">far2QUERY_CONFIG</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/Aa359062(v=VS.85).aspx">far2QUERY_CONFIG</a> access right.
 
 
 
@@ -86,11 +84,11 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/976
 
 
 
-<a href="https://msdn.microsoft.com/d2ae93a1-6325-4b8f-a227-4eb0678702d2">FaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358957(v=VS.85).aspx">FaxAccountIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a10e18a-fed1-47b0-bb5b-b9f21f234c5b">IFaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359046(v=VS.85).aspx">IFaxAccountIncomingArchive</a>
  
 
  

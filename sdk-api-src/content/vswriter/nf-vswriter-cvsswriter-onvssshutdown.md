@@ -9,8 +9,6 @@ ms.assetid: 79a2ebb4-300a-4c6e-b42d-8136d85fedbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CVssWriter interface [VSS],OnVssShutdown method, CVssWriter.OnVSSShutdown, CVssWriter::OnVSSShutdown, CVssWriter::OnVssShutdown, OnVSSShutdown, OnVssShutdown method [VSS], OnVssShutdown method [VSS],CVssWriter interface, _win32_cvsswriter_onvssshutdown, base.cvsswriter_onvssshutdown, vswriter/CVssWriter::OnVssShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

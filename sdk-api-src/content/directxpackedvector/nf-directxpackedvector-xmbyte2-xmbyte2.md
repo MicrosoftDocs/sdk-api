@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.reference.XMBYTE2.#ctor
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: XMBYTE2, XMBYTE2 constructor [DirectX Math Support APIs], XMBYTE2 constructor [DirectX Math Support APIs],XMBYTE2 structure, XMBYTE2 structure [DirectX Math Support APIs],XMBYTE2 constructor, XMBYTE2.XMBYTE2, XMBYTE2.XMBYTE2(), XMBYTE2::XMBYTE2, dxmath.xmbyte2_ctor_1
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 
 Default constructor for <code>XMBYTE2</code>.
 
-Default constructor for <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a>.
+Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -82,11 +80,11 @@ Default constructor for <a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-A
 
 
 
-<a href="https://msdn.microsoft.com/AA5A5A85-7AEE-4CD9-AAE9-004A65BAB076">XMBYTE2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/157ce586-aa49-49b8-9fcd-03815f4ed67b">XMBYTE2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449492(v=VS.85).aspx">XMBYTE2 Constructors</a>
  
 
  

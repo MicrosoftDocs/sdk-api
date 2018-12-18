@@ -9,8 +9,6 @@ ms.assetid: ade20bfc-0b50-4663-a1d3-14e2bd0c19a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodReturn method, IComMethodEvents.OnMethodReturn, IComMethodEvents::OnMethodReturn, OnMethodReturn, OnMethodReturn method [COM+], OnMethodReturn method [COM+],IComMethodEvents interface, _dtc_icommethodevents_onmethodreturn, comsvcs/IComMethodEvents::OnMethodReturn, cos.icommethodevents_onmethodreturn
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

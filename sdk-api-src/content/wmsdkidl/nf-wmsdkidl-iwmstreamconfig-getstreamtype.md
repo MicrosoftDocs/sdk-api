@@ -9,8 +9,6 @@ ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -133,11 +131,11 @@ For a table of stream major types, see <a href="https://msdn.microsoft.com/00dcb
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/86c65cfe-d482-461b-a187-ce1ce9a30609">IWMStreamConfig::GetStreamName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">IWMStreamConfig::GetStreamName</a>
  
 
  

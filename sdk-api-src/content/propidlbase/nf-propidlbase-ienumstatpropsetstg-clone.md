@@ -9,8 +9,6 @@ ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSETSTG interface, IEnumSTATPROPSETSTG interface [Structured Storage],Clone method, IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propidlbase.h
 req.include-header: Propidl.h

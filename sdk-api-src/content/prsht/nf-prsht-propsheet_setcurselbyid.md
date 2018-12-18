@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcurselbyid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_SetCurSelByID, PropSheet_SetCurSelByID macro [Windows Controls], _win32_PropSheet_SetCurSelByID, _win32_PropSheet_SetCurSelByID_cpp, controls.PropSheet_SetCurSelByID, controls._win32_PropSheet_SetCurSelByID, prsht/PropSheet_SetCurSelByID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

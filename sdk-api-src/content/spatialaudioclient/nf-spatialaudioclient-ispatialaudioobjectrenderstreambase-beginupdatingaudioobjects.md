@@ -9,8 +9,6 @@ ms.assetid: 9D858556-2EBE-4DF6-878B-BE0E12079248
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BeginUpdatingAudioObjects, BeginUpdatingAudioObjects method [Core Audio], BeginUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],BeginUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_beginupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -119,7 +117,7 @@ For each <b>BeginUpdatingAudioObjects</b> call, there should be a corresponding 
 
 
 
-<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

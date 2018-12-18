@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0m7o.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderDepartment property, IFaxDoc.SenderDepartment, IFaxDoc.get_SenderDepartment, IFaxDoc::SenderDepartment, IFaxDoc::get_SenderDepartment, IFaxDoc::put_SenderDepartment, SenderDepartment property [Fax Service], SenderDepartment property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_get_senderdepartment, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderdepartment_cpp, faxcom/IFaxDoc::SenderDepartment, faxcom/IFaxDoc::get_SenderDepartment, faxcom/IFaxDoc::put_SenderDepartment, get_SenderDepartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

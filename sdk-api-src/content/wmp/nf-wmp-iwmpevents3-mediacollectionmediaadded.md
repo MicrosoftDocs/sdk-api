@@ -9,8 +9,6 @@ ms.assetid: 374ac1d8-ea7f-498a-b9b1-02bf7083f682
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaAdded method, IWMPEvents3.MediaCollectionMediaAdded, IWMPEvents3::MediaCollectionMediaAdded, IWMPEvents3MediaCollectionMediaAdded, MediaCollectionMediaAdded, MediaCollectionMediaAdded method [Windows Media Player], MediaCollectionMediaAdded method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaadded, wmp/IWMPEvents3::MediaCollectionMediaAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -93,11 +91,11 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 
-<a href="https://msdn.microsoft.com/654b7d78-97d4-4770-9729-dd1fed0431d9">IWMPEvents3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563296(v=VS.85).aspx">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 

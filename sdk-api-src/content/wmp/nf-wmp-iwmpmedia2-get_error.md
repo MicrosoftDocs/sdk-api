@@ -9,8 +9,6 @@ ms.assetid: 55df580e-1a51-450e-80d9-53398f3b4d9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia2 interface [Windows Media Player],get_error method, IWMPMedia2.get_error, IWMPMedia2::get_error, IWMPMedia2get_error, IWMPMedia3 interface [Windows Media Player],get_error method, IWMPMedia3::get_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPMedia2 interface, get_error method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia2_get_error, wmp/IWMPMedia2::get_error, wmp/IWMPMedia3::get_error
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -109,11 +107,11 @@ If the media item cannot be played, this property retrieves an <b>IWMPErrorItem<
 
 
 
-<a href="https://msdn.microsoft.com/4675eebf-80d7-4412-b3f1-ec54b977db31">IWMPErrorItem Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21">IWMPMedia2 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563398(v=VS.85).aspx">IWMPMedia2 Interface</a>
  
 
  

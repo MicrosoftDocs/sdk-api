@@ -9,8 +9,6 @@ ms.assetid: 20a0f69b-950e-4ad7-9357-74f0b4a75c6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],UnadviseItemSink method, ITfLangBarItemMgr.UnadviseItemSink, ITfLangBarItemMgr::UnadviseItemSink, UnadviseItemSink, UnadviseItemSink method [Text Services Framework], UnadviseItemSink method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_unadviseitemsink_ref, ctfutb/ITfLangBarItemMgr::UnadviseItemSink, tsf.itflangbaritemmgr_unadviseitemsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 
@@ -59,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param dwCookie [in]
 
-Contains a <i>DWORD</i> that identifies the advise sink to remove. This cookie is obtained when the advise sink is installed with <a href="https://msdn.microsoft.com/en-us/library/ms628725(v=VS.85).aspx">ITfLangBarItemMgr::AdviseItemSink</a> or <a href="https://msdn.microsoft.com/en-us/library/ms628726(v=VS.85).aspx">ITfLangBarItemMgr::AdviseItemsSink</a>.
+Contains a <i>DWORD</i> that identifies the advise sink to remove. This cookie is obtained when the advise sink is installed with <a href="https://msdn.microsoft.com/c01d80eb-9156-4fbf-98ff-7f06b145e72f">ITfLangBarItemMgr::AdviseItemSink</a> or <a href="https://msdn.microsoft.com/c0a3e86b-487b-410a-8bba-c2b5126126d2">ITfLangBarItemMgr::AdviseItemsSink</a>.
 
 
 ## -returns
@@ -106,7 +104,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628723(v=VS.85).aspx">ITfLangBarItemMgr</a>
+<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
 
 
 

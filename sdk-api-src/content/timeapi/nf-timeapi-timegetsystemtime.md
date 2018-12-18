@@ -9,8 +9,6 @@ ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: timeapi.h
 req.include-header: Windows.h

@@ -9,8 +9,6 @@ ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject, GetRemoteObject method [Media Foundation], GetRemoteObject method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteObject method, IMFRemoteProxy.GetRemoteObject, IMFRemoteProxy::GetRemoteObject, mf.imfremoteproxy_getremoteobject, mfidl/IMFRemoteProxy::GetRemoteObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

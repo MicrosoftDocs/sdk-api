@@ -9,8 +9,6 @@ ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

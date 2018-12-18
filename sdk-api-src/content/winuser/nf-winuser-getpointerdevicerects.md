@@ -9,8 +9,6 @@ ms.assetid: a6586dec-6d57-4345-be56-89c7308c1097
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -63,7 +61,7 @@ This function populates a ULONG parameter with  the <a href="https://msdn.micros
 ### -param message [in]
 
 A  pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the message to query.  This envelope version of the message is used to determine which attributes match.
-                The message can be in any state except <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+                The message can be in any state except <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
 
 
 ### -param reader [in]

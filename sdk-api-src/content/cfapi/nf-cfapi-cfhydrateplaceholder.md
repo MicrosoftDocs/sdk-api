@@ -9,8 +9,6 @@ ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 
@@ -100,7 +98,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The caller must have READ_DATA or WRITE_DAC access to the placeholder to be hydrated. 
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a>. 
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. 
 
 
 

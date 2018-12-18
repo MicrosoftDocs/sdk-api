@@ -9,8 +9,6 @@ ms.assetid: 7658a030-d4b2-407c-829f-61491b5907e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenClusterNode, OpenClusterNode function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NODE, PCLUSAPI_OPEN_CLUSTER_NODE function [Failover Cluster], _wolf_openclusternode, clusapi/OpenClusterNode, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE, mscs.openclusternode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
+Opens a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -115,7 +113,7 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
 
 
 

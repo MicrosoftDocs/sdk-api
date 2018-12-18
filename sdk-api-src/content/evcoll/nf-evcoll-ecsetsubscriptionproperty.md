@@ -9,8 +9,6 @@ ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EcSetSubscriptionProperty, EcSetSubscriptionProperty function, evcoll/EcSetSubscriptionProperty, wec.ecsetsubscriptionproperty, wes.ecsetsubscriptionproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

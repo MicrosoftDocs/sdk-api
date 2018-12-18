@@ -9,8 +9,6 @@ ms.assetid: 61825be5-01c4-4d5f-be4a-6752ebf8dee8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSectionNumber, GetSectionNumber method [Microsoft TV Technologies], GetSectionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSectionNumber method, IISDB_CDT.GetSectionNumber, IISDB_CDT::GetSectionNumber, dvbsiparser/IISDB_CDT::GetSectionNumber, mstv.iisdb_cdt_getsectionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

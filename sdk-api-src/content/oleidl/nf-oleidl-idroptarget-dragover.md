@@ -9,8 +9,6 @@ ms.assetid: 31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget interface, IDropTarget interface [COM],DragOver method, IDropTarget.DragOver, IDropTarget::DragOver, _ole_idroptarget_dragover, com.idroptarget_dragover, oleidl/IDropTarget::DragOver
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

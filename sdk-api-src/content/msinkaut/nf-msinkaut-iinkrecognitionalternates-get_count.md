@@ -9,8 +9,6 @@ ms.assetid: 2bcca92c-ba9f-437f-b7a9-6056da243d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognitionAlternates interface, IInkRecognitionAlternates interface [Tablet PC],Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::Count, IInkRecognitionAlternates::get_Count, get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

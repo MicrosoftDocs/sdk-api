@@ -9,8 +9,6 @@ ms.assetid: 1f99a1d8-6d91-4114-b885-80775572ea7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClusterGetEnumCount, ClusterGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GET_ENUM_COUNT function [Failover Cluster], _wolf_clustergetenumcount, clusapi/ClusterGetEnumCount, clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT, mscs.clustergetenumcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 
@@ -53,7 +51,7 @@ req.redist:
 
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> associated with a 
+    number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a 
     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 

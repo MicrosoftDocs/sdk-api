@@ -9,8 +9,6 @@ ms.assetid: d8cb4ae1-cbbf-44cb-9387-770ee95280a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceHeight method, IBasicVideo.put_SourceHeight, IBasicVideo::put_SourceHeight, IBasicVideoput_SourceHeight, control/IBasicVideo::put_SourceHeight, dshow.ibasicvideo_put_sourceheight, put_SourceHeight, put_SourceHeight method [DirectShow], put_SourceHeight method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -81,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

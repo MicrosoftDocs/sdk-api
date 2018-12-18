@@ -9,8 +9,6 @@ ms.assetid: 931029e8-48ff-4d24-8818-57b7103fffdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateProgress method, ITransferAdviseSink.UpdateProgress, ITransferAdviseSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateProgress, shell.ITransferAdviseSink_UpdateProgress, shobjidl_core/ITransferAdviseSink::UpdateProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

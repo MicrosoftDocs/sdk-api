@@ -9,8 +9,6 @@ ms.assetid: 5c0e9e2e-a50d-45d0-b51d-065784d1d912
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptMsgEncodeAndSignCTL, CryptMsgEncodeAndSignCTL function [Security], _crypto2_cryptmsgencodeandsignctl, security.cryptmsgencodeandsignctl, wincrypt/CryptMsgEncodeAndSignCTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

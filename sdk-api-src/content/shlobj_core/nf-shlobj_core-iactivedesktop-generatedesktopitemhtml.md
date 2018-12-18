@@ -9,8 +9,6 @@ ms.assetid: 653c9c92-4301-4960-b25e-e8e11f9d2fb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GenerateDesktopItemHtml, GenerateDesktopItemHtml method [Legacy Windows Environment Features], GenerateDesktopItemHtml method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GenerateDesktopItemHtml method, IActiveDesktop.GenerateDesktopItemHtml, IActiveDesktop::GenerateDesktopItemHtml, _win32_IActiveDesktop_GenerateDesktopItemHtml, lwef.iactivedesktop_generatedesktopitemhtml, shell.iactivedesktop_generatedesktopitemhtml, shlobj_core/IActiveDesktop::GenerateDesktopItemHtml
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

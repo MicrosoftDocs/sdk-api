@@ -9,8 +9,6 @@ ms.assetid: BF7F7A94-AD3E-48DB-9A01-D4E615063A8F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWaitHandle, GetWaitHandle method [Direct Write], GetWaitHandle method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetWaitHandle method, IDWriteAsyncResult.GetWaitHandle, IDWriteAsyncResult::GetWaitHandle, directwrite.idwriteasyncresult_getwaithandle, dwrite_3/IDWriteAsyncResult::GetWaitHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -77,7 +75,7 @@ Returns a handle that can be used to wait for the asynchronous operation to comp
 
 
 
-<a href="https://msdn.microsoft.com/8F267213-EB98-4AD9-826A-7D4E34FEB3E4">IDWriteAsyncResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt807681(v=VS.85).aspx">IDWriteAsyncResult</a>
  
 
  

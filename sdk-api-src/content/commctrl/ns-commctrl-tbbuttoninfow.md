@@ -1,16 +1,14 @@
 ---
-UID: NS:commctrl.TBBUTTONINFOW
+UID: NS:commctrl.__unnamed_struct_3
 title: TBBUTTONINFOW
 author: windows-sdk-content
 description: Contains or receives information for a specific button in a toolbar.
 old-location: controls\TBBUTTONINFO.htm
-tech.root: Controls
+tech.root: controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbuttoninfo.htm
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPTBBUTTONINFOW, LPTBBUTTONINFO, LPTBBUTTONINFO structure pointer [Windows Controls], TBBUTTONINFO, TBBUTTONINFO structure [Windows Controls], TBBUTTONINFOA, TBBUTTONINFOW, TBIF_BYINDEX, TBIF_COMMAND, TBIF_IMAGE, TBIF_LPARAM, TBIF_SIZE, TBIF_STATE, TBIF_STYLE, TBIF_TEXT, _win32_TBBUTTONINFO, _win32_TBBUTTONINFO_cpp, commctrl/LPTBBUTTONINFO, commctrl/TBBUTTONINFO, commctrl/TBBUTTONINFOA, commctrl/TBBUTTONINFOW, controls.TBBUTTONINFO, controls._win32_TBBUTTONINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 
@@ -62,14 +60,14 @@ Contains or receives information for a specific button in a toolbar.
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the structure, in bytes. This member must be filled in prior to sending the associated message.
 
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 Set of flags that indicate which members contain valid information. This member must be filled in prior to sending the associated message. This can be one or more of the following values.
 
@@ -85,7 +83,7 @@ Set of flags that indicate which members contain valid information. This member 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.80.</a> The <i>wParam</i> sent with a <a href="https://msdn.microsoft.com/en-us/library/Bb787321(v=VS.85).aspx">TB_GETBUTTONINFO</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb787413(v=VS.85).aspx">TB_SETBUTTONINFO</a> message is an index, not an identifier.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> The <i>wParam</i> sent with a <a href="https://msdn.microsoft.com/87430dd2-43d1-4e33-96ac-d33f89a654b6">TB_GETBUTTONINFO</a> or <a href="https://msdn.microsoft.com/ac9b88b9-d0d0-4669-a342-708924d97c8b">TB_SETBUTTONINFO</a> message is an index, not an identifier.
 
 </td>
 </tr>
@@ -174,44 +172,44 @@ Command identifier of the button.
 
 Type: <b>int</b>
 
-Image index of the button. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
+Image index of the button. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/ed6e4141-2bf8-4a92-8349-f3833c87fcf3">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
                     
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
 
 ### -field fsState
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-State flags of the button. This can be one or more of the values listed in  <a href="https://msdn.microsoft.com/en-us/library/Bb760437(v=VS.85).aspx">Toolbar Button States</a>.
+State flags of the button. This can be one or more of the values listed in  <a href="https://msdn.microsoft.com/422e0d81-bd80-45dc-b843-82fc5d5c2a9a">Toolbar Button States</a>.
 
 
 ### -field fsStyle
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
 
-Style flags of the button. This can be one or more of the values listed in <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>.
+Style flags of the button. This can be one or more of the values listed in <a href="https://msdn.microsoft.com/75dc0c2c-6d1d-4b13-b0df-2cc541a9b1bb">Toolbar Control and Button Styles</a>.
 
 
 ### -field cx
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
 
 Width of the button, in pixels.
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD_PTR</a></b>
 
 Application-defined value associated with the button.
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
 
 Address of a character buffer that contains or receives the button text.
 

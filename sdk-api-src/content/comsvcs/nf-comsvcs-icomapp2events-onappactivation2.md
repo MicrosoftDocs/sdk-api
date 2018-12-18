@@ -9,8 +9,6 @@ ms.assetid: d621f46e-19c2-4fab-8820-a5716cb7cdc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppActivation2 method, IComApp2Events.OnAppActivation2, IComApp2Events::OnAppActivation2, OnAppActivation2, OnAppActivation2 method [COM+], OnAppActivation2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppActivation2, comsvcs/IComApp2Events::OnAppActivation2, cos.icomapp2events_onappactivation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

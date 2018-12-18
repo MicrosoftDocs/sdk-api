@@ -9,8 +9,6 @@ ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

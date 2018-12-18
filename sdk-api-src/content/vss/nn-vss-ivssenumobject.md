@@ -9,8 +9,6 @@ ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: vss.h
 req.include-header: 

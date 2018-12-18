@@ -9,8 +9,6 @@ ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -63,7 +61,7 @@ The <b>WMCreateIndexer</b> function creates an indexer object.
 
 ### -param ppIndexer [out]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer</a> interface of the newly created indexer object.
+Pointer to a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer</a> interface of the newly created indexer object.
 
 
 ## -returns
@@ -114,7 +112,7 @@ The function is unable to allocate memory for the new object.
 
 
 
-<a href="https://msdn.microsoft.com/00627b0c-4484-417a-8680-0fd97aac41fe">IWMIndexer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798531(v=VS.85).aspx">IWMIndexer Interface</a>
 
 
 

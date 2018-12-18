@@ -9,8 +9,6 @@ ms.assetid: B8C5A4D8-F161-4383-B117-B89E85C65B19
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionEffectGroup, IDCompositionEffectGroup interface [DirectComposition], IDCompositionEffectGroup interface [DirectComposition],described, dcomp/IDCompositionEffectGroup, directcomp.idcompositioneffectgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: dcomp.h
 req.include-header: 
@@ -72,7 +70,7 @@ The <b>IDCompositionEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/785DE91D-718B-4704-88E4-B8FB12586E5F">SetOpacity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437422(v=VS.85).aspx">SetOpacity</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Opacity property.
 
@@ -80,7 +78,7 @@ The <b>IDCompositionEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">SetTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">SetTransform3D</a>
 </td>
 <td align="left" width="63%">
 Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
@@ -99,7 +97,7 @@ Sets the 3D transformation effect object that modifies the rasterization of the 
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
  
 
  

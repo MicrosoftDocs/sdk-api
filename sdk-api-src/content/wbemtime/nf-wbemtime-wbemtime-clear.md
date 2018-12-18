@@ -9,8 +9,6 @@ ms.assetid: a6b3db6c-1cc8-4058-8d8b-c8126a373130
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Clear method, WBEMTime.Clear, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 
@@ -85,7 +83,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3">WBEMTime::IsOk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa394030(v=VS.85).aspx">WBEMTime::IsOk</a>
  
 
  

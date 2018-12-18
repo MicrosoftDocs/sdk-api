@@ -1,5 +1,5 @@
 ---
-UID: NS:dsclient.DSOBJECT
+UID: NS:dsclient.__unnamed_struct_0
 title: DSOBJECT
 author: windows-sdk-content
 description: Contains directory object data.
@@ -7,10 +7,8 @@ old-location: ad\dsobject.htm
 tech.root: ad
 ms.assetid: 2f16a015-a777-4410-bed5-d409a4869c97
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPDSOBJECT, DSOBJECT, DSOBJECT structure [Active Directory], DSOBJECT_ISCONTAINER, DSOBJECT_READONLYPAGES, DSPROVIDER_ADVANCED, DSPROVIDER_UNUSED_0, DSPROVIDER_UNUSED_1, DSPROVIDER_UNUSED_2, DSPROVIDER_UNUSED_3, LPDSOBJECT, LPDSOBJECT structure pointer [Active Directory], _glines_dsobject, ad.dsobject, dsclient/DSOBJECT, dsclient/LPDSOBJECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure.
+The <b>DSOBJECT</b> structure contains directory object data. An array of this structure is provided in the <b>aObjects</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure.
 
 
 ## -struct-fields
@@ -112,7 +110,7 @@ Not used.
 
 ### -field offsetName
 
-Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
+Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the ADSPath of the object.
 
 The following code example shows how to use this member.
 
@@ -131,7 +129,7 @@ The following code example shows how to use this member.
 
 ### -field offsetClass
 
-Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
+Contains the offset, in bytes, from the start of the <a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a> structure to a NULL-terminated, Unicode string that contains the class name of the object. Contains zero if the class name is unknown.
 
 The following code example shows how to use this member.
 
@@ -153,7 +151,7 @@ The following code example shows how to use this member.
 
 
 
-<a href="https://msdn.microsoft.com/dfc1e88f-40ff-4ec1-9718-4801f678fa3f">DSOBJECTNAMES</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676011(v=VS.85).aspx">DSOBJECTNAMES</a>
 
 
 

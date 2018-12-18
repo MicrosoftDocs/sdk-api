@@ -9,8 +9,6 @@ ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComObjectEvents interface [COM+],OnEnableCommit method, IComObjectEvents.OnEnableCommit, IComObjectEvents::OnEnableCommit, OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

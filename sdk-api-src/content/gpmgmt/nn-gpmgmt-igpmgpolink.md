@@ -9,8 +9,6 @@ ms.assetid: 290a53fb-8be0-477d-837c-46251b30e245
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GPMGPOLink, IGPMGPOLink, IGPMGPOLink interface [GPMC], IGPMGPOLink interface [GPMC],described, _win32_igpmgpolink, gpmc.igpmgpolink, gpmgmt/IGPMGPOLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

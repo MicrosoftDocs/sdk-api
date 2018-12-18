@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_44h0.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],IFaxRoutingMethod interface, IFaxRoutingMethod interface [Fax Service],DeviceId property, IFaxRoutingMethod.DeviceId, IFaxRoutingMethod.get_DeviceId, IFaxRoutingMethod::DeviceId, IFaxRoutingMethod::get_DeviceId, _mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_get_deviceid, fax._mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_deviceid_cpp, faxcom/IFaxRoutingMethod::DeviceId, faxcom/IFaxRoutingMethod::get_DeviceId, get_DeviceId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,7 +61,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/ae0cc37c-bfc8-4e89-a3a4-b06a3917f835">IFaxRoutingMethod::get_DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
+A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> property to uniquely identify a fax port. You can call the <a href="https://msdn.microsoft.com/en-us/library/ms690864(v=VS.85).aspx">IFaxRoutingMethod::get_DeviceName</a> property to retrieve the user-friendly name for a port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
 
 
 
@@ -93,7 +91,7 @@ A fax client application can use the <b>IFaxRoutingMethod::get_DeviceId</b> prop
 
 
 
-<a href="https://msdn.microsoft.com/ae0cc37c-bfc8-4e89-a3a4-b06a3917f835">IFaxRoutingMethod::get_DeviceName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690864(v=VS.85).aspx">IFaxRoutingMethod::get_DeviceName</a>
 
 
 

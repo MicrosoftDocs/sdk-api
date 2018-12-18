@@ -9,8 +9,6 @@ ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

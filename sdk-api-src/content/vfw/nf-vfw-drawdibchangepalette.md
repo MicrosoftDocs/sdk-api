@@ -9,8 +9,6 @@ ms.assetid: 8c94ecac-d12c-45c4-8a11-e17502bd7d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

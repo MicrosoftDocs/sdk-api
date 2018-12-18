@@ -1,5 +1,5 @@
 ---
-UID: NE:dvdmedia.AM_COPY_MACROVISION_LEVEL
+UID: NE:dvdmedia.__unnamed_enum_4
 title: AM_COPY_MACROVISION_LEVEL
 author: windows-sdk-content
 description: Identifies the analog copy protection level.
@@ -7,10 +7,8 @@ old-location: dshow\am_copy_macrovision_level.htm
 tech.root: DirectShow
 ms.assetid: d71f78f4-1107-46ba-afa8-7de87e20d814
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*PAM_COPY_MACROVISION_LEVEL, AM_COPY_MACROVISION_LEVEL, AM_COPY_MACROVISION_LEVEL enumeration [DirectShow], AM_MACROVISION_DISABLED, AM_MACROVISION_LEVEL1, AM_MACROVISION_LEVEL2, AM_MACROVISION_LEVEL3, PAM_COPY_MACROVISION_LEVEL, PAM_COPY_MACROVISION_LEVEL enumeration pointer [DirectShow], dshow.am_copy_macrovision_level, dvdmedia/AM_COPY_MACROVISION_LEVEL, dvdmedia/AM_MACROVISION_DISABLED, dvdmedia/AM_MACROVISION_LEVEL1, dvdmedia/AM_MACROVISION_LEVEL2, dvdmedia/AM_MACROVISION_LEVEL3, dvdmedia/PAM_COPY_MACROVISION_LEVEL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dvdmedia.h
 req.include-header: 
@@ -85,7 +83,7 @@ Level 3.
 
 
 
-The <a href="https://msdn.microsoft.com/7fb1b12a-92f4-48e2-8ebe-359ebc33cd09">AM_COPY_MACROVISION</a> structure uses this data type.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd373457(v=VS.85).aspx">AM_COPY_MACROVISION</a> structure uses this data type.
 
 
 

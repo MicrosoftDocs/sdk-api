@@ -9,8 +9,6 @@ ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

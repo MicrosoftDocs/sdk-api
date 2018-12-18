@@ -9,8 +9,6 @@ ms.assetid: b2211639-13ae-455c-97ef-8145318af591
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrvSetPixelFormat, DrvSetPixelFormat function [Display Devices], ddifncs_095cf66c-832a-49c2-9bf2-f97ef74665b2.xml, display.drvsetpixelformat, winddi/DrvSetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

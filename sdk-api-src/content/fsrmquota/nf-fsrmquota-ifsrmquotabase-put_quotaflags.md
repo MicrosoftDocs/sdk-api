@@ -9,8 +9,6 @@ ms.assetid: af856281-8161-4165-bf24-0c160f7394d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaFlags property, IFsrmQuotaBase.QuotaFlags, IFsrmQuotaBase.put_QuotaFlags, IFsrmQuotaBase::QuotaFlags, IFsrmQuotaBase::get_QuotaFlags, IFsrmQuotaBase::put_QuotaFlags, QuotaFlags property [File Server Resource Manager], QuotaFlags property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotaflags, fsrm.ifsrmquotabase_quotaflags, fsrmquota/IFsrmQuotaBase::QuotaFlags, fsrmquota/IFsrmQuotaBase::get_QuotaFlags, fsrmquota/IFsrmQuotaBase::put_QuotaFlags, put_QuotaFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 1d2f8041-2744-4f37-afde-ddce49a8bdc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/FindNextFileNameW, fs.findnextfilenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

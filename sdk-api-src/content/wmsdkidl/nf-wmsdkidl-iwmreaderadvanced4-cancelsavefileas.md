@@ -9,8 +9,6 @@ ms.assetid: fcf43e86-daa3-4944-b687-b8c9afab7336
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CancelSaveFileAs, CancelSaveFileAs method [windows Media Format], CancelSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CancelSaveFileAs method, IWMReaderAdvanced4.CancelSaveFileAs, IWMReaderAdvanced4::CancelSaveFileAs, IWMReaderAdvanced4CancelSaveFileAs, wmformat.iwmreaderadvanced4_cancelsavefileas, wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>CancelSaveFileAs</b> method cancels a file save resulting from a call to <a href="https://msdn.microsoft.com/97bdac1f-8830-45c0-9229-322ad72b3954">IWMReaderAdvanced2::SaveFileAs</a>.
+The <b>CancelSaveFileAs</b> method cancels a file save resulting from a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a>.
 
 
 
@@ -99,7 +97,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/56695c57-f6c5-4c57-b3d4-73d169b379fa">IWMReaderAdvanced4 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
  
 
  

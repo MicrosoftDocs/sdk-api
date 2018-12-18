@@ -2,7 +2,7 @@
 UID: NA:windowsx
 ms.assetid: 50044a11-4fd3-396d-8d3b-479f5a1f284d
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -9,8 +9,6 @@ ms.assetid: 31f7dde6-1486-4050-b9b6-ffc2ed991200
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IS_POINTER_FLAG_SET_WPARAM, IS_POINTER_FLAG_SET_WPARAM	, IS_POINTER_FLAG_SET_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_flag_set_wparam, winuser/IS_POINTER_FLAG_SET_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

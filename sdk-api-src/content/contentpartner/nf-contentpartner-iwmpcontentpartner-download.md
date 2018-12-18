@@ -9,8 +9,6 @@ ms.assetid: 0fa3ed40-e155-4e42-b031-d6cb8f8b4ac4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Download, Download method [Windows Media Player], Download method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],Download method, IWMPContentPartner.Download, IWMPContentPartner::Download, IWMPContentPartnerDownload, contentpartner/IWMPContentPartner::Download, wmp.iwmpcontentpartner_download
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 
@@ -105,7 +103,7 @@ The method succeeded.
 
 
 
-This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/en-us/library/Dd562756(v=VS.85).aspx">Downloading Media Content</a>.
+This method initiates the process of inspecting the container list passed in <i>pInfo</i> and then returns immediately. As the plug-in inspects the container list, it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563146(v=VS.85).aspx">IWMPContentPartnerCallback::DownloadTrack</a> once for each track in the container list. For more information about the download procedure, see <a href="https://msdn.microsoft.com/0a057e13-6e0c-4a8f-9cab-051183e6b222">Downloading Media Content</a>.
 
 
 

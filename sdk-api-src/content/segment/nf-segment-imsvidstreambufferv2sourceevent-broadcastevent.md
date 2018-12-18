@@ -9,8 +9,6 @@ ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -82,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ab463f6e-0718-4420-89bc-28b3c447f3a0">IMSVidStreamBufferV2SourceEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694694(v=VS.85).aspx">IMSVidStreamBufferV2SourceEvent</a>
  
 
  

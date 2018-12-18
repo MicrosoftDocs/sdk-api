@@ -9,8 +9,6 @@ ms.assetid: e7db2b22-b3d2-4c6f-84fc-5a287761ed7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProcAmpControlRange, GetProcAmpControlRange method [DirectShow], GetProcAmpControlRange method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetProcAmpControlRange method, IVMRMixerControl9.GetProcAmpControlRange, IVMRMixerControl9::GetProcAmpControlRange, IVMRMixerControl9GetProcAmpControlRange, dshow.ivmrmixercontrol9_getprocampcontrolrange, vmr9/IVMRMixerControl9::GetProcAmpControlRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -69,7 +67,7 @@ Specifies the input stream. This value corresponds to the input pin. For example
 
 ### -param lpClrControl [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/5fa61ed8-4fd6-42fb-8c5b-87d23e239cd1">VMR9ProcAmpControlRange</a> structure that receives the range. The caller must set the <b>dwSize</b> and <b>dwProperty</b> fields.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407374(v=VS.85).aspx">VMR9ProcAmpControlRange</a> structure that receives the range. The caller must set the <b>dwSize</b> and <b>dwProperty</b> fields.
 
 
 ## -returns
@@ -162,7 +160,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/f311303a-8270-40b6-8153-e0bd8b232c69">IVMRMixerControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390457(v=VS.85).aspx">IVMRMixerControl9 Interface</a>
 
 
 

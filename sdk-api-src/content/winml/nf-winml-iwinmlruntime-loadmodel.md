@@ -9,8 +9,6 @@ ms.assetid: 75FC42E6-CFFA-4E85-A2D5-80322630E958
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWinMLRuntime interface,LoadModel method, IWinMLRuntime.LoadModel, IWinMLRuntime::LoadModel, LoadModel, LoadModel method, LoadModel method,IWinMLRuntime interface, MachineLearning.iwinmlruntime_loadmodel, winml/IWinMLRuntime::LoadModel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winml.h
 req.include-header: 

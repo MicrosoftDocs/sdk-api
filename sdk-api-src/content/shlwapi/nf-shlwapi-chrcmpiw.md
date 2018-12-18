@@ -9,8 +9,6 @@ ms.assetid: ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win32_ChrCmpI, shell.ChrCmpI, shlwapi/ChrCmpI, shlwapi/ChrCmpIA, shlwapi/ChrCmpIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

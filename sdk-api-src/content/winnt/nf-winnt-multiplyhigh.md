@@ -9,8 +9,6 @@ ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

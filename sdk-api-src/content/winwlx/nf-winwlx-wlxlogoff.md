@@ -9,8 +9,6 @@ ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

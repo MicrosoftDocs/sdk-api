@@ -9,8 +9,6 @@ ms.assetid: 49f73c2d-9f86-482f-8289-fef28a461e01
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID2D1Geometry interface [Direct2D],Simplify method, ID2D1Geometry.Simplify, ID2D1Geometry::Simplify, ID2D1Geometry::Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION,const D2D1_MATRIX_3X2_F &,FLOAT,ID2D1SimplifiedGeometrySink), Simplify, Simplify method [Direct2D], Simplify method [Direct2D],ID2D1Geometry interface, d2d1/ID2D1Geometry::Simplify, direct2d.ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -93,7 +91,7 @@ Type: <b><a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a8
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

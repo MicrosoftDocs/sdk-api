@@ -9,8 +9,6 @@ ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.Reset, IEnumWIA_DEV_CAPS::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

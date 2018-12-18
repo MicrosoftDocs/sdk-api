@@ -9,8 +9,6 @@ ms.assetid: 15ecb34d-f70d-43a3-b369-2d9c2532945e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddAttribute, AddAttribute method [windows Media Format], AddAttribute method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddAttribute method, IWMHeaderInfo3.AddAttribute, IWMHeaderInfo3::AddAttribute, IWMHeaderInfo3AddAttribute, wmformat.iwmheaderinfo3_addattribute, wmsdkidl/IWMHeaderInfo3::AddAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>AddAttribute</b> method adds a metadata attribute. To change the value of an existing attribute, use the <a href="https://msdn.microsoft.com/503099e9-a1a9-406f-abc9-7c632d757cca">IWMHeaderInfo3::ModifyAttribute</a> method.
+The <b>AddAttribute</b> method adds a metadata attribute. To change the value of an existing attribute, use the <a href="https://msdn.microsoft.com/en-us/library/Dd798515(v=VS.85).aspx">IWMHeaderInfo3::ModifyAttribute</a> method.
 
 
 
@@ -81,7 +79,7 @@ Pointer to a <b>WORD</b>. On successful completion of the method, this value is 
 
 ### -param Type [in]
 
-Type of data used for the new attribute. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a>.
+Type of data used for the new attribute. For more information about the types of data supported, see <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a>.
 
 
 ### -param wLangIndex [in]
@@ -202,7 +200,7 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 
-<a href="https://msdn.microsoft.com/5791e330-3877-4d3a-b27f-f14b97d1a435">IWMHeaderInfo3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: eb463c0d-8cb3-40b8-9c81-ce98c859068a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],GetData method, CHString.GetData, CHString::GetData, GetData, GetData method [Windows Management Instrumentation], GetData method [Windows Management Instrumentation],CHString interface, chstring/CHString::GetData, wmi.chstring_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

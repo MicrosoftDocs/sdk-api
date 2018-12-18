@@ -9,8 +9,6 @@ ms.assetid: 3dd6210f-e904-46c5-8fc3-50a62b8754ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Event method, ITCallMediaEvent.get_Event, ITCallMediaEvent::get_Event, _tapi3_itcallmediaevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_event, tapi3if/ITCallMediaEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

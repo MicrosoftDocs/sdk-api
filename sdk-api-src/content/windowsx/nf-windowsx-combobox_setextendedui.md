@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ComboBox_SetExtendedUI, ComboBox_SetExtendedUI macro [Windows Controls], _win32_ComboBox_SetExtendedUI, _win32_ComboBox_SetExtendedUI_cpp, controls.ComboBox_SetExtendedUI, controls._win32_ComboBox_SetExtendedUI, windowsx/ComboBox_SetExtendedUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

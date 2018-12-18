@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\g
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],Rect class, Rect class [GDI+],GetSize method, Rect.GetSize, Rect::GetSize, _gdiplus_CLASS_Rect_GetSize_size_, gdiplus._gdiplus_CLASS_Rect_GetSize_size_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionSquadV(XMVECTOR,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMQuaternionSquadV, XMQuaternionSquadV, XMQuaternionSquadV method [DirectX Math Support APIs], dxmath.xmquaternionsquadv
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -122,7 +120,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/c50ee260-e111-43d5-9484-d7fec4d938be">XMQuaternionSquadSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420180(v=VS.85).aspx">XMQuaternionSquadSetup</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: df260524-188d-4c2a-8996-ce22ddda41e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromUInt32, InitVariantFromUInt32 function [Windows Properties], _shell_InitVariantFromUInt32, properties.InitVariantFromUInt32, propvarutil/InitVariantFromUInt32, shell.InitVariantFromUInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an unsigned 32-bit integer value.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an unsigned 32-bit integer value.
 
 
 ## -parameters
@@ -69,7 +67,7 @@ Source <b>ULONG</b> value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -94,7 +92,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt32">InitVariantFromUInt32</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -123,15 +121,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>
+<a href="shell.InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776627(v=VS.85).aspx">VariantToUInt32</a>
+<a href="shell.VariantToUInt32">VariantToUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776630(v=VS.85).aspx">VariantToUInt32WithDefault</a>
+<a href="shell.VariantToUInt32WithDefault">VariantToUInt32WithDefault</a>
  
 
  

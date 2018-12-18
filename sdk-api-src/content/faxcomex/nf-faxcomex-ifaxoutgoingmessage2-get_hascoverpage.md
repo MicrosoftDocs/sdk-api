@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\has
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxOutgoingMessage2 interface, IFaxOutgoingMessage2 interface [Fax Service],HasCoverPage property, IFaxOutgoingMessage2.HasCoverPage, IFaxOutgoingMessage2.get_HasCoverPage, IFaxOutgoingMessage2::HasCoverPage, IFaxOutgoingMessage2::get_HasCoverPage, _mfax_faxoutgoingmessage.hascoverpage, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_hascoverpage_cpp, fax._mfax_faxoutgoingmessage_hascoverpage, faxcomex/IFaxOutgoingMessage2::HasCoverPage, faxcomex/IFaxOutgoingMessage2::get_HasCoverPage, get_HasCoverPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -66,11 +64,11 @@ Indicates if the fax has a cover page.
 
 
 
-<a href="https://msdn.microsoft.com/fb06254f-f37b-4783-b4fd-42b5c5a28496">FaxOutgoingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6468db0-ea8d-4460-b389-43608337bd96">IFaxOutgoingMessage2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358984(v=VS.85).aspx">IFaxOutgoingMessage2</a>
  
 
  

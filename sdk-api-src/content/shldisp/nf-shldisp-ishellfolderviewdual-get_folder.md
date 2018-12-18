@@ -9,8 +9,6 @@ ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Folder method, IShellFolderViewDual.get_Folder, IShellFolderViewDual::get_Folder, _shell_IShellFolderViewDual_get_Folder, get_Folder, get_Folder method [Windows Shell], get_Folder method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Folder, shldisp/IShellFolderViewDual::get_Folder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 
@@ -60,7 +58,7 @@ Gets the Folder object that represents the view.
 
 ### -param ppid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f1e82c61-205e-47c8-bc7c-6a52410a672e">Folder</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787868(v=VS.85).aspx">Folder</a>**</b>
 
 The folder object.
 

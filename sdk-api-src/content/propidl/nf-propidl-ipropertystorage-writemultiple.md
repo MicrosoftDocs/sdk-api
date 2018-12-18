@@ -9,8 +9,6 @@ ms.assetid: 480a2be3-ccb0-4135-a085-733f6ab48ccd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyStorage [Strctd Stg],WriteMultiple, IPropertyStorage interface [Structured Storage],WriteMultiple method, IPropertyStorage.WriteMultiple, IPropertyStorage::WriteMultiple, WriteMultiple, WriteMultiple method [Structured Storage], WriteMultiple method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writemultiple, propidl/IPropertyStorage::WriteMultiple, stg.ipropertystorage_writemultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h

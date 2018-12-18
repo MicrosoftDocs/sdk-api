@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idxgiswapchain_getdesc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 545f3a98-5c81-337d-c4f7-cc715e0e123f, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetDesc method, IDXGISwapChain.GetDesc, IDXGISwapChain::GetDesc, direct3ddxgi.idxgiswapchain_getdesc, dxgi/IDXGISwapChain::GetDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

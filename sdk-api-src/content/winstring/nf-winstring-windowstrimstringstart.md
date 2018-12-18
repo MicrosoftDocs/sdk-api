@@ -9,8 +9,6 @@ ms.assetid: 88B9034D-D010-4C38-8F03-A5AF2FEC448B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WindowsTrimStringStart, WindowsTrimStringStart function [Windows Runtime], winrt.windowstrimstringstart, winstring/WindowsTrimStringStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

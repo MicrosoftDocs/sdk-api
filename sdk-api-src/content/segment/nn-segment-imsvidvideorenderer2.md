@@ -9,8 +9,6 @@ ms.assetid: caaa2cf1-15be-47dc-82db-06915a55ba03
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], IMSVidVideoRenderer2 interface [Microsoft TV Technologies],described, IMSVidVideoRenderer2Interface, mstv.imsvidvideorenderer2, segment/IMSVidVideoRenderer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -75,7 +73,7 @@ The <b>IMSVidVideoRenderer2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c73edfea-bafd-4640-9be6-45e5a2bb81ef">_SetAllocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694719(v=VS.85).aspx">_SetAllocator</a>
 </td>
 <td align="left" width="63%">
 Specifies an allocator-presenter for the VMR.
@@ -84,7 +82,7 @@ Specifies an allocator-presenter for the VMR.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b22d643e-f458-4293-9f2b-e8bfe1499905">get__Allocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694717(v=VS.85).aspx">get__Allocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocator-presenter from the VMR
@@ -93,7 +91,7 @@ Retrieves the allocator-presenter from the VMR
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ba2c9ba-c3ba-4095-8221-a424776f3fac">get_Allocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694714(v=VS.85).aspx">get_Allocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocator-presenter from the VMR as an <b>IUnknown</b> pointer.
@@ -102,7 +100,7 @@ Retrieves the allocator-presenter from the VMR as an <b>IUnknown</b> pointer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d512525-ed18-43af-9773-ed56c49c3641">get_Allocator_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694715(v=VS.85).aspx">get_Allocator_ID</a>
 </td>
 <td align="left" width="63%">
 Retrieves an identifier for the VMR filter's allocator-presenter
@@ -111,7 +109,7 @@ Retrieves an identifier for the VMR filter's allocator-presenter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a8546f8-61de-4e98-bee3-26ca4d0ea2e4">get_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694716(v=VS.85).aspx">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Retrieves settings that control power management and visual effects.
@@ -120,7 +118,7 @@ Retrieves settings that control power management and visual effects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d362addb-626a-42f8-9b95-82189a338527">put_SuppressEffects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694718(v=VS.85).aspx">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Sets preferences for power management and visual effects.
@@ -129,7 +127,7 @@ Sets preferences for power management and visual effects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c73edfea-bafd-4640-9be6-45e5a2bb81ef">SetAllocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694719(v=VS.85).aspx">SetAllocator</a>
 </td>
 <td align="left" width="63%">
 Specifies an allocator-presenter for the VMR as an <b>IUnknown</b> pointer.

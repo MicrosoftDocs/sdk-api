@@ -7,10 +7,8 @@ old-location: pla\idatacollectorset_taskrunasself.htm
 tech.root: pla
 ms.assetid: 14a7f6db-b5aa-4462-978e-66cd58e05446
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskRunAsSelf property, IDataCollectorSet.TaskRunAsSelf, IDataCollectorSet.put_TaskRunAsSelf, IDataCollectorSet::TaskRunAsSelf, IDataCollectorSet::get_TaskRunAsSelf, IDataCollectorSet::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskrunasself, pla/IDataCollectorSet::TaskRunAsSelf, pla/IDataCollectorSet::get_TaskRunAsSelf, pla/IDataCollectorSet::put_TaskRunAsSelf, put_TaskRunAsSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

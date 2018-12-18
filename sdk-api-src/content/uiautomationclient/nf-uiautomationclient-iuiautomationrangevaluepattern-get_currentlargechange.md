@@ -9,8 +9,6 @@ ms.assetid: 801d7a2c-387f-4770-980a-fc5fb98959d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentLargeChange property [Windows Accessibility], CurrentLargeChange property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentLargeChange property, IUIAutomationRangeValuePattern.CurrentLargeChange, IUIAutomationRangeValuePattern.get_CurrentLargeChange, IUIAutomationRangeValuePattern::CurrentLargeChange, IUIAutomationRangeValuePattern::get_CurrentLargeChange, get_CurrentLargeChange, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange, uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::CurrentLargeChange, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentLargeChange, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentLargeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

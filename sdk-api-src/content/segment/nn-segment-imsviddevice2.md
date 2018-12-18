@@ -9,8 +9,6 @@ ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies],described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ The <b>IMSVidDevice2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a0191d7-2b10-4f7e-96e1-263ddd718229">get_DevicePath</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694521(v=VS.85).aspx">get_DevicePath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device path.

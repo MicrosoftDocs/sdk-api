@@ -9,8 +9,6 @@ ms.assetid: 1c48804b-9876-9dbd-3d20-8a7b575fd3d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateLookupTable3D method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateLookupTable3D method, ID2D1DeviceContext2.CreateLookupTable3D, ID2D1DeviceContext2::CreateLookupTable3D, d2d1_3/ID2D1DeviceContext2::CreateLookupTable3D, direct2d.id2d1devicecontext2_createlookuptable3d
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1_3.h
 req.include-header: 
@@ -105,7 +103,7 @@ Receives the new lookup table instance.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 

@@ -9,8 +9,6 @@ ms.assetid: 96e18c5d-6c76-4953-8e8e-3e98943478d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ClearRecords, ClearRecords method [BITS], ClearRecords method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],ClearRecords method, IBitsPeerCacheAdministration.ClearRecords, IBitsPeerCacheAdministration::ClearRecords, bits.ibitspeercacheadministration_clearrecords, bits3_0/IBitsPeerCacheAdministration::ClearRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -103,11 +101,11 @@ The cache is not cleared until all current cache activity is complete.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964275(v=VS.85).aspx">IBitsPeerCacheAdministration::DeleteRecord</a>
+<a href="https://msdn.microsoft.com/c86199c3-9fe7-4d8f-8b33-b12b65b94e54">IBitsPeerCacheAdministration::DeleteRecord</a>
  
 
  

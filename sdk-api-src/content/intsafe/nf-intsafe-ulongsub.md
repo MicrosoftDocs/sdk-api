@@ -9,8 +9,6 @@ ms.assetid: 5d2335a4-2b2e-4820-ae82-ba94d6e4cc9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

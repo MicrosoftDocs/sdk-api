@@ -9,8 +9,6 @@ ms.assetid: 7afdea97-39b7-4dd1-8084-90ec40814735
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetCaps method, IDirectDrawPalette.GetCaps, IDirectDrawPalette::GetCaps, ddraw/IDirectDrawPalette::GetCaps, directdraw.idirectdrawpalette_getcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

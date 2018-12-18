@@ -9,8 +9,6 @@ ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenThreadToken, OpenThreadToken function [Security], _win32_openthreadtoken, processthreadsapi/OpenThreadToken, security.openthreadtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h
@@ -143,7 +141,7 @@ Close the access token handle returned through the <i>TokenHandle</i> parameter 
 
 
 
-<a href="authorization_functions.htm">Basic Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
 
 
 

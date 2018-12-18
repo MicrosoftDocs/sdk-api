@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolrefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ContextSensitiveHelp method, IRichEditOle.ContextSensitiveHelp, IRichEditOle::ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp_cpp, controls.IRichEditOle_ContextSensitiveHelp, controls._win32_IRichEditOle_ContextSensitiveHelp, richole/IRichEditOle::ContextSensitiveHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: richole.h
 req.include-header: 

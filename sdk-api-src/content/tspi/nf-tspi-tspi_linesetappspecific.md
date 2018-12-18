@@ -9,8 +9,6 @@ ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

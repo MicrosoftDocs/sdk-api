@@ -9,8 +9,6 @@ ms.assetid: ac7530cd-eac8-4b2b-89e1-e05c14a81c7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetSelection method, ITfCandidateListUIElement.GetSelection, ITfCandidateListUIElement::GetSelection, msctf/ITfCandidateListUIElement::GetSelection, tsf.itfcandidatelistuielement_getselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

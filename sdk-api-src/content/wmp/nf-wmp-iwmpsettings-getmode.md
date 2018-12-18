@@ -9,8 +9,6 @@ ms.assetid: 5275cb99-8007-4af2-9137-694de18c5434
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],getMode method, IWMPSettings.getMode, IWMPSettings::getMode, IWMPSettingsgetMode, getMode, getMode method [Windows Media Player], getMode method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_getmode, wmp/IWMPSettings::getMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -130,11 +128,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/28a404a7-5bb0-41bb-a5b2-cc6138b8176e">IWMPSettings::setMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563682(v=VS.85).aspx">IWMPSettings::setMode</a>
  
 
  

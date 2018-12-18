@@ -9,8 +9,6 @@ ms.assetid: 8a593336-7ec8-4238-8923-c65374cecbeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_description method, IWMPMetadataText.get_description, IWMPMetadataText::get_description, IWMPMetadataTextget_description, get_description, get_description method [Windows Media Player], get_description method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_description, wmp/IWMPMetadataText::get_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -110,7 +108,7 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/15d040fa-6c14-41ff-bd21-a8991c17681d">IWMPMetadataText Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563457(v=VS.85).aspx">IWMPMetadataText Interface</a>
  
 
  

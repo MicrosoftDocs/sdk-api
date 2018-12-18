@@ -9,8 +9,6 @@ ms.assetid: 0c9071d8-2ec1-49fe-976d-0c63f9de8b61
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUPnPDescriptionDocumentCallback, IUPnPDescriptionDocumentCallback interface [UPnP APIs], IUPnPDescriptionDocumentCallback interface [UPnP APIs],described, _upnp_iupnpdescriptiondocumentcallback, upnp.iupnpdescriptiondocumentcallback, upnp/IUPnPDescriptionDocumentCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

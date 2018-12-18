@@ -9,8 +9,6 @@ ms.assetid: 99032c27-d9a3-4319-ba6e-2271d35da804
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Assemblies], setup.createassemblycache, winsxs/CreateAssemblyCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsxs.h
 req.include-header: 

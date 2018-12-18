@@ -9,8 +9,6 @@ ms.assetid: 8c4e3f53-1b32-4374-915f-15651259dd55
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IISDB_NBIT interface [Microsoft TV Technologies],Initialize method, IISDB_NBIT.Initialize, IISDB_NBIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_NBIT interface, dvbsiparser/IISDB_NBIT::Initialize, mstv.iisdb_nbit_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -9,8 +9,6 @@ ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcNsBindingInqEntryName, RpcNsBindingInqEntryName function [RPC], RpcNsBindingInqEntryNameA, RpcNsBindingInqEntryNameW, _rpc_rpcnsbindinginqentryname, rpc.rpcnsbindinginqentryname, rpcdce/RpcNsBindingInqEntryName, rpcdce/RpcNsBindingInqEntryNameA, rpcdce/RpcNsBindingInqEntryNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],GetLicInfo method, IClassFactory2.GetLicInfo, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

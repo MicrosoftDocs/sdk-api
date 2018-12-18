@@ -9,8 +9,6 @@ ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6a6abc57-149d-4e4b-a29f-7b712d24e6df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetObject method, IMFPMediaItem.GetObject, IMFPMediaItem::GetObject, mf.imfpmediaitem_getobject, mfplay/IMFPMediaItem::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 2d9a5012-3b5e-4e55-984b-70a932bab569
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],AddPages method, IWizardExtension.AddPages, IWizardExtension::AddPages, _shell_IWizardExtension_AddPages, shell.IWizardExtension_AddPages, shobjidl/IWizardExtension::AddPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

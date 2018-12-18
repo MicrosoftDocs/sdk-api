@@ -9,8 +9,6 @@ ms.assetid: dbe18522-6adc-4a55-b74a-db05f619d40a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h
@@ -131,7 +129,7 @@ The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is norm
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 

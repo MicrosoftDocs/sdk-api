@@ -9,8 +9,6 @@ ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferSourceEvent.RatingsChanged, IMSVidStreamBufferSourceEvent::RatingsChanged, IMSVidStreamBufferSourceEventRatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingschanged, segment/IMSVidStreamBufferSourceEvent::RatingsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -80,7 +78,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8">IMSVidStreamBufferSourceEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694669(v=VS.85).aspx">IMSVidStreamBufferSourceEvent Interface</a>
  
 
  

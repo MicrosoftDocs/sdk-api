@@ -9,8 +9,6 @@ ms.assetid: d7f35091-93c0-45aa-87e4-49abf89998e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDy property, IInkTransform.eDy, IInkTransform.put_eDy, IInkTransform::eDy, IInkTransform::get_eDy, IInkTransform::put_eDy, InkTransform.get_eDy, InkTransform.put_eDy, d7f35091-93c0-45aa-87e4-49abf89998e5, eDy property [Tablet PC], eDy property [Tablet PC],IInkTransform interface, get_eDy, msinkaut/IInkTransform::eDy, msinkaut/IInkTransform::get_eDy, msinkaut/IInkTransform::put_eDy, put_eDy, tablet.inktransform_edy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -71,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

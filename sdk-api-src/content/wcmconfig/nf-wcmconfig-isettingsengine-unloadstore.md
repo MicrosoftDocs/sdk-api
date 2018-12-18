@@ -9,8 +9,6 @@ ms.assetid: 10c0e5c7-41df-4ebb-86be-0c2c6e013849
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISettingsEngine interface [SMI],UnloadStore method, ISettingsEngine.UnloadStore, ISettingsEngine::UnloadStore, UnloadStore, UnloadStore method [SMI], UnloadStore method [SMI],ISettingsEngine interface, smi.isettingsengine_unloadstore, wcmconfig/ISettingsEngine::UnloadStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

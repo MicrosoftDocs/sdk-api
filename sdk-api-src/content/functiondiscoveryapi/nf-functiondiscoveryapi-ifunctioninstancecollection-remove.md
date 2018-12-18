@@ -9,8 +9,6 @@ ms.assetid: e5abe3e0-a07c-45e4-a590-133f6b30a7f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

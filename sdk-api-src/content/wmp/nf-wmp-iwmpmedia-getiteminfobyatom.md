@@ -9,8 +9,6 @@ ms.assetid: c2e803df-84f2-4c23-9872-a5435977d189
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia.getItemInfoByAtom, IWMPMedia2 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia2::getItemInfoByAtom, IWMPMedia3 interface [Windows Media Player],getItemInfoByAtom method, IWMPMedia3::getItemInfoByAtom, IWMPMedia::getItemInfoByAtom, IWMPMediagetItemInfoByAtom, getItemInfoByAtom, getItemInfoByAtom method [Windows Media Player], getItemInfoByAtom method [Windows Media Player],IWMPMedia interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia2 interface, getItemInfoByAtom method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getiteminfobyatom, wmp/IWMPMedia2::getItemInfoByAtom, wmp/IWMPMedia3::getItemInfoByAtom, wmp/IWMPMedia::getItemInfoByAtom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -121,27 +119,27 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a77029b-fbae-49af-bd91-c688c11b3b16">IWMPMedia3::getItemInfoByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563403(v=VS.85).aspx">IWMPMedia3::getItemInfoByType</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/33e29da2-7439-41d1-9dd9-9b66e87aeb4b">IWMPMedia::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/919fe92f-9519-4229-8097-4970a8f6cc25">IWMPMedia::setItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563449(v=VS.85).aspx">IWMPMedia::setItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/22024108-398e-4a05-b5ed-311583c69497">IWMPMediaCollection::getMediaAtom</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563420(v=VS.85).aspx">IWMPMediaCollection::getMediaAtom</a>
  
 
  

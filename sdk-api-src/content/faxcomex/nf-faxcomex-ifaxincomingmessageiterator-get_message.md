@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_93tx.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],Message property, IFaxIncomingMessageIterator.Message, IFaxIncomingMessageIterator.get_Message, IFaxIncomingMessageIterator::Message, IFaxIncomingMessageIterator::get_Message, Message property [Fax Service], Message property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.message, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_message_cpp, fax._mfax_faxincomingmessageiterator_message, faxcomex/IFaxIncomingMessageIterator::Message, faxcomex/IFaxIncomingMessageIterator::get_Message, get_Message
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-To use this method, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_IN_ARCHIVE</a> access right.
+To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a> access right.
 
 
 
@@ -74,15 +72,15 @@ To use this method, a user must have the <a href="https://msdn.microsoft.com/70d
 
 
 
-<a href="https://msdn.microsoft.com/0969319b-7846-44a0-9667-161b326acea6">FaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687518(v=VS.85).aspx">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc7cdaa-0e37-4124-a9b3-9f9eabbe329e">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692976(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

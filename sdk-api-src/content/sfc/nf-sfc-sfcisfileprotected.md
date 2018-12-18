@@ -9,8 +9,6 @@ ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: sfc.h
 req.include-header: 

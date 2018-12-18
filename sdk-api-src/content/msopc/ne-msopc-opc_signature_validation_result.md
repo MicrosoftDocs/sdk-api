@@ -7,10 +7,8 @@ old-location: opc\opc_signature_validation_result.htm
 tech.root: OPC
 ms.assetid: 991e0620-d674-4c2c-b0d8-18d7fdd031fb
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: OPC_SIGNATURE_INVALID, OPC_SIGNATURE_VALID, OPC_SIGNATURE_VALIDATION_RESULT, OPC_SIGNATURE_VALIDATION_RESULT enumeration [Open Packaging Conventions], msopc/OPC_SIGNATURE_INVALID, msopc/OPC_SIGNATURE_VALID, msopc/OPC_SIGNATURE_VALIDATION_RESULT, opc.opc_signature_validation_result
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

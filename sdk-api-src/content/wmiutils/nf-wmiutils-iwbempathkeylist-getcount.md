@@ -9,8 +9,6 @@ ms.assetid: 92e78bd2-24f6-4e48-ae21-575cd1887c06
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCount, GetCount method [Windows Management Instrumentation], GetCount method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetCount method, IWbemPathKeyList.GetCount, IWbemPathKeyList::GetCount, _hmm_iwbempathkeylist_getcount, wmi.iwbempathkeylist_getcount, wmiutils/IWbemPathKeyList::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

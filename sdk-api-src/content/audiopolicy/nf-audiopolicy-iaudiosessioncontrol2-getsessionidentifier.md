@@ -9,8 +9,6 @@ ms.assetid: 1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSessionIdentifier, GetSessionIdentifier method [Core Audio], GetSessionIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionIdentifier method, IAudioSessionControl2.GetSessionIdentifier, IAudioSessionControl2::GetSessionIdentifier, audiopolicy/IAudioSessionControl2::GetSessionIdentifier, coreaudio.iaudiosessioncontrol2_getsessionidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

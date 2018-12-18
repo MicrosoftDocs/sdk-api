@@ -9,8 +9,6 @@ ms.assetid: ABC8699B-0DFB-401B-9DB2-F3EBA5A64C8B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOutputStreamAttributes, GetOutputStreamAttributes method [Streaming Media Devices], GetOutputStreamAttributes method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputStreamAttributes method, IMFDeviceTransform.GetOutputStreamAttributes, IMFDeviceTransform::GetOutputStreamAttributes, mftransform/IMFDeviceTransform::GetOutputStreamAttributes, stream.imfdevicetransform_getoutputstreamattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetTransform method, IMILBitmapEffectRenderContextImpl.GetTransform, IMILBitmapEffectRenderContextImpl::GetTransform, _wibe_imilbitmapeffectrendercontextimpl_gettransform, mileffects/IMILBitmapEffectRenderContextImpl::GetTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_gettransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

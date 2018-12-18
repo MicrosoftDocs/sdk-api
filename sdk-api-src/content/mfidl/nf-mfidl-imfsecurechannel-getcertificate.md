@@ -9,8 +9,6 @@ ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

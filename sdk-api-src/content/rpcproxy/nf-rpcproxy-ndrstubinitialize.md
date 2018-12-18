@@ -9,8 +9,6 @@ ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

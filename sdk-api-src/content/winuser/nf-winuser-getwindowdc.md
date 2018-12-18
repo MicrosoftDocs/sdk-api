@@ -9,8 +9,6 @@ ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

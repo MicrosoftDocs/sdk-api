@@ -9,8 +9,6 @@ ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DisplayProperty, DisplayProperty method [Internationalization for Windows Applications], DisplayProperty method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],DisplayProperty method, IFEDictionary.DisplayProperty, IFEDictionary::DisplayProperty, intl.ifedictionary_displayproperty, msime/IFEDictionary::DisplayProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msime.h
 req.include-header: 

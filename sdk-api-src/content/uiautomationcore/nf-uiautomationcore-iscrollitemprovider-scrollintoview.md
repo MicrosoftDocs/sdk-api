@@ -9,8 +9,6 @@ ms.assetid: 2d1ce9f2-b3ba-40c5-a750-bd739b1abc07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IScrollItemProvider interface [Windows Accessibility],ScrollIntoView method, IScrollItemProvider.ScrollIntoView, IScrollItemProvider::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IScrollItemProvider interface, uiauto.uiauto_IScrollItemProvider_ScrollIntoView, uiauto_IScrollItemProvider_ScrollIntoView, uiautomationcore/IScrollItemProvider::ScrollIntoView, winauto.uiauto_IScrollItemProvider_ScrollIntoView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: 222b3682-8ccc-4c52-858a-ad4ac8a65add
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateView, CreateView method [Remote Differential Compression], CreateView method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CreateView method, ISimilarityTraitsMapping.CreateView, ISimilarityTraitsMapping::CreateView, fs.isimilaritytraitsmapping_createview, msrdc/ISimilarityTraitsMapping::CreateView, rdc.isimilaritytraitsmapping_createview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

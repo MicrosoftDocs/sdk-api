@@ -9,8 +9,6 @@ ms.assetid: 81b3b750-b9bd-42f1-b49d-134a10493ae5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumTypeSpecs, EnumTypeSpecs method [Windows Runtime], EnumTypeSpecs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeSpecs method, IMetaDataImport.EnumTypeSpecs, IMetaDataImport::EnumTypeSpecs, rometadataapi/IMetaDataImport::EnumTypeSpecs, winrt.imetadataimport_enumtypespecs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

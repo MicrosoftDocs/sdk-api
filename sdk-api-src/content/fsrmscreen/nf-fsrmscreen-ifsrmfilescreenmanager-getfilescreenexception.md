@@ -9,8 +9,6 @@ ms.assetid: 634c54b0-2766-4248-8a27-506eaa3d6a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FsrmFileScreenManager class [File Server Resource Manager],GetFileScreenException method, GetFileScreenException, GetFileScreenException method [File Server Resource Manager], GetFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, GetFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, IFsrmFileScreenManager interface [File Server Resource Manager],GetFileScreenException method, IFsrmFileScreenManager.GetFileScreenException, IFsrmFileScreenManager::GetFileScreenException, fs.ifsrmfilescreenmanager_getfilescreenexception, fsrm.ifsrmfilescreenmanager_getfilescreenexception, fsrmscreen/IFsrmFileScreenManager::GetFileScreenException
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

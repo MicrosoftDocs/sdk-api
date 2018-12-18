@@ -9,8 +9,6 @@ ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfmediacapture.h
 req.include-header: 

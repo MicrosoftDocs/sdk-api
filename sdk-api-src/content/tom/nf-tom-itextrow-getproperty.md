@@ -9,8 +9,6 @@ ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetProperty method, ITextRow.GetProperty, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tom.h
 req.include-header: 

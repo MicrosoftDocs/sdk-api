@@ -9,8 +9,6 @@ ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

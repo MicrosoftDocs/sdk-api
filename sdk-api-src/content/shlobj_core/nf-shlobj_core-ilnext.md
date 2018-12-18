@@ -9,8 +9,6 @@ ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

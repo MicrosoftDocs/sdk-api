@@ -9,8 +9,6 @@ ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], IMSVidGenericSink interface [Microsoft TV Technologies],described, IMSVidGenericSinkInterface, mstv.imsvidgenericsink, segment/IMSVidGenericSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -76,7 +74,7 @@ The <b>IMSVidGenericSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e77f2ee8-081b-4415-87b5-ab27ee0218d2">get_SinkStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694563(v=VS.85).aspx">get_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -85,7 +83,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f">put_SinkStreams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694564(v=VS.85).aspx">put_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -94,7 +92,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51a26dc5-a551-4f97-9dd4-6522a14989a8">SetSinkFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694565(v=VS.85).aspx">SetSinkFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the filter for the sink.

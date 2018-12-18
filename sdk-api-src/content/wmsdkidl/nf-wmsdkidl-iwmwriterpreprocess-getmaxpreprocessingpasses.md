@@ -9,8 +9,6 @@ ms.assetid: 6acdc536-8b38-4fd4-9705-f4399dfc3faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMaxPreprocessingPasses, GetMaxPreprocessingPasses method [windows Media Format], GetMaxPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],GetMaxPreprocessingPasses method, IWMWriterPreprocess.GetMaxPreprocessingPasses, IWMWriterPreprocess::GetMaxPreprocessingPasses, IWMWriterPreprocessGetMaxPreprocessingPasses, wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -154,7 +152,7 @@ If no preprocessing is supported for the specified input, <i>pdwMaxNumPasses</i>
 
 
 
-<a href="https://msdn.microsoft.com/06803639-3f21-4003-a460-16a0b5cc6d6f">IWMWriterPreprocess Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798784(v=VS.85).aspx">IWMWriterPreprocess Interface</a>
  
 
  

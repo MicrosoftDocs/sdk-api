@@ -9,8 +9,6 @@ ms.assetid: 42f3c684-64c3-4bcb-b9c0-25a008075902
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetListCountryCode, GetListCountryCode method [Microsoft TV Technologies], GetListCountryCode method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListCountryCode method, IDvbLogicalChannel2Descriptor.GetListCountryCode, IDvbLogicalChannel2Descriptor::GetListCountryCode, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListCountryCode, mstv.idvblogicalchannel2descriptor_getlistcountrycode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

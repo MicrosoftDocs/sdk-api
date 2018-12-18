@@ -9,8 +9,6 @@ ms.assetid: 95dfb36b-e6bc-4cfe-bff1-08763a8e245d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordFreeCAMode, GetRecordFreeCAMode method [Microsoft TV Technologies], GetRecordFreeCAMode method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordFreeCAMode method, IDVB_SDT.GetRecordFreeCAMode, IDVB_SDT::GetRecordFreeCAMode, IDVB_SDTGetRecordFreeCAMode, dvbsiparser/IDVB_SDT::GetRecordFreeCAMode, mstv.idvb_sdt_getrecordfreecamode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

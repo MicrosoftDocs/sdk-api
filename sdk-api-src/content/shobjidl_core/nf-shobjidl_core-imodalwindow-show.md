@@ -9,8 +9,6 @@ ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

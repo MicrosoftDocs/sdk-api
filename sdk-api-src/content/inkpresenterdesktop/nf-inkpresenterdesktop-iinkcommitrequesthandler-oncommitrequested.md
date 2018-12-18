@@ -9,8 +9,6 @@ ms.assetid: c40ddcd3-ebb6-442b-b36d-2d7d27cfa5db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCommitRequestHandler.OnCommitRequested, IInkCommitRequestHandler::OnCommitRequested, InkPresenterDesktop.iinkcommitrequesthandler_oncommitrequested, OnCommitRequested, OnCommitRequested method, OnCommitRequested method,IInkCommitRequestHandler interface, inkpresenterdesktop/IInkCommitRequestHandler::OnCommitRequested, input_ink.iinkcommitrequesthandler_oncommitrequested
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: inkpresenterdesktop.h
 req.include-header: 

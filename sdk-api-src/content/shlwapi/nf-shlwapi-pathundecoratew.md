@@ -9,8 +9,6 @@ ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PathUndecorate, PathUndecorate function [Windows Shell], PathUndecorateA, PathUndecorateW, _win32_PathUndecorate, shell.PathUndecorate, shlwapi/PathUndecorate, shlwapi/PathUndecorateA, shlwapi/PathUndecorateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

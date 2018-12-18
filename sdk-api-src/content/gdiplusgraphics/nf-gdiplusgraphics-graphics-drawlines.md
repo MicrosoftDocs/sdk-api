@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DrawLines, DrawLines methods [GDI+], Graphics.DrawLines, Graphics::DrawLines, _gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLines_Methods, gdiplusgraphics/DrawLines
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

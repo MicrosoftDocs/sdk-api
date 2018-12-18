@@ -9,8 +9,6 @@ ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PD2D1_EFFECT_FACTORY, PD2D1_EFFECT_FACTORY callback, PD2D1_EFFECT_FACTORY callback function [Direct2D], d2d1_1/PD2D1_EFFECT_FACTORY, direct2d.pd2d1_effect_factory
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: d2d1_1.h
 req.include-header: 

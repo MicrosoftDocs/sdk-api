@@ -9,8 +9,6 @@ ms.assetid: 7bda3916-6db3-4f56-b18c-288506c0b646
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetGdiCompatibleGlyphMetrics, GetGdiCompatibleGlyphMetrics method [Direct Write], GetGdiCompatibleGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGdiCompatibleGlyphMetrics method, IDWriteFontFace.GetGdiCompatibleGlyphMetrics, IDWriteFontFace::GetGdiCompatibleGlyphMetrics, directwrite.idwritefontface_getgdicompatibleglyphmetrics, dwrite/IDWriteFontFace::GetGdiCompatibleGlyphMetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

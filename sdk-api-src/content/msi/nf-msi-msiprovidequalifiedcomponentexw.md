@@ -9,8 +9,6 @@ ms.assetid: b8b567de-c21a-4e8f-840c-e71f41c11447
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponentEx, MsiProvideQualifiedComponentEx function, MsiProvideQualifiedComponentExA, MsiProvideQualifiedComponentExW, _msi_msiprovidequalifiedcomponentex, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponentEx, msi/MsiProvideQualifiedComponentExA, msi/MsiProvideQualifiedComponentExW, setup.msiprovidequalifiedcomponentex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 406dbfe6-d5c8-44b1-9052-88df40a6a522
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: codecapi/eAVEncCommonStreamEndHandling, codecapi/eAVEncCommonStreamEndHandling_DiscardPartial, codecapi/eAVEncCommonStreamEndHandling_EnsureComplete, dshow.eavenccommonstreamendhandling, eAVEncCommonStreamEndHandling, eAVEncCommonStreamEndHandling enumeration [DirectShow], eAVEncCommonStreamEndHandlingEnumeration, eAVEncCommonStreamEndHandling_DiscardPartial, eAVEncCommonStreamEndHandling_EnsureComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 
@@ -80,7 +78,7 @@ If there is a partial GOP at the end of the stream, the encoder will adjust the 
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard and Mouse Input], HKL_NEXT, HKL_PREV, KLF_REORDER, KLF_RESET, KLF_SETFORPROCESS, KLF_SHIFTLOCK, KLF_UNLOADPREVIOUS, _win32_ActivateKeyboardLayout, _win32_activatekeyboardlayout_cpp, inputdev.activatekeyboardlayout, winui._win32_activatekeyboardlayout, winuser/ActivateKeyboardLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

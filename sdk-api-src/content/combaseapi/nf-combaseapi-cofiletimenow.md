@@ -9,8 +9,6 @@ ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h
@@ -79,11 +77,11 @@ This function returns S_OK to indicate success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693800(v=VS.85).aspx">CoDosDateTimeToFileTime</a>
+<a href="https://msdn.microsoft.com/eb7af6a3-7547-405e-b96e-3e68a1ac273b">CoDosDateTimeToFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680620(v=VS.85).aspx">CoFileTimeToDosDateTime</a>
+<a href="https://msdn.microsoft.com/38670fe7-10cf-44e2-a5f1-60ec43fd83b5">CoFileTimeToDosDateTime</a>
  
 
  

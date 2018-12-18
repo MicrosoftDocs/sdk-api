@@ -9,8 +9,6 @@ ms.assetid: bb198bc0-a0cf-4f6b-9a1e-f9a552db7092
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_balance method, IWMPSettings.put_balance, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -108,11 +106,11 @@ The value zero indicates that the audio plays at equal volume on both left and r
 
 
 
-<a href="https://msdn.microsoft.com/e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd">IWMPSettings Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563648(v=VS.85).aspx">IWMPSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/457ee1a8-44da-424d-9cc5-0f0421791757">IWMPSettings::get_balance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563657(v=VS.85).aspx">IWMPSettings::get_balance</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: e7c05a67-f739-487d-872a-3598b790d5c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrentView, GetCurrentView method [Windows Shell], GetCurrentView method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetCurrentView method, IExplorerBrowser.GetCurrentView, IExplorerBrowser::GetCurrentView, _shell_IExplorerBrowser_GetCurrentView, shell.IExplorerBrowser_GetCurrentView, shobjidl_core/IExplorerBrowser::GetCurrentView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

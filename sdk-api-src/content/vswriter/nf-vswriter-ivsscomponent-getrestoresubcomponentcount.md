@@ -9,8 +9,6 @@ ms.assetid: 04c1dcdc-7672-4b7c-a9db-eafca80ab257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRestoreSubcomponentCount, GetRestoreSubcomponentCount method [VSS], GetRestoreSubcomponentCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponentCount method, IVssComponent.GetRestoreSubcomponentCount, IVssComponent::GetRestoreSubcomponentCount, _win32_ivsscomponent_getrestoresubcomponentcount, base.ivsscomponent_getrestoresubcomponentcount, vswriter/IVssComponent::GetRestoreSubcomponentCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

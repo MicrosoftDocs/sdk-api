@@ -9,8 +9,6 @@ ms.assetid: 5BF8BA9C-F07F-43F0-B712-71220E6535A5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory3.CreateGlyphRunAnalysis, IDWriteFactory3::CreateGlyphRunAnalysis, directwrite.idwritefactory3_createglyphrunanalysis, dwrite_3/IDWriteFactory3::CreateGlyphRunAnalysis
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -76,9 +74,9 @@ A <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRI
 
 ### -param renderingMode
 
-Type: <b><a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a></b>
 
-A <a href="https://msdn.microsoft.com/CAA88479-FE39-48D0-89D8-CEA0C922428A">DWRITE_RENDERING_MODE1</a>-typed value that specifies the rendering mode, which must be one of the raster rendering modes (that is, not default and not outline).
+A <a href="https://msdn.microsoft.com/en-us/library/Dn890741(v=VS.85).aspx">DWRITE_RENDERING_MODE1</a>-typed value that specifies the rendering mode, which must be one of the raster rendering modes (that is, not default and not outline).
           
 
 
@@ -146,7 +144,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>
  
 
  

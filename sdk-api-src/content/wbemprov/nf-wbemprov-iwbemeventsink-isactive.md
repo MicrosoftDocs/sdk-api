@@ -9,8 +9,6 @@ ms.assetid: dc5afbc1-60da-42ec-9dc3-79b66243690c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],IsActive method, IWbemEventSink.IsActive, IWbemEventSink::IsActive, IsActive, IsActive method [Windows Management Instrumentation], IsActive method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_isactive, wbemprov/IWbemEventSink::IsActive, wmi.iwbemeventsink_isactive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
@@ -52,7 +50,7 @@ req.redist:
 
 The 
 <b>IWbemEventSink::IsActive</b> method is used by the provider to determine if there is interest in the events that the sink is filtering. In the case of a restricted sink, these events are defined by the queries passed to 
-<a href="https://msdn.microsoft.com/f72ab8f7-e4de-4f64-80db-6981b0bd13d3">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
+<a href="https://msdn.microsoft.com/en-us/library/Aa391746(v=VS.85).aspx">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
 
 
 ## -parameters

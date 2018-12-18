@@ -9,8 +9,6 @@ ms.assetid: 9e058e8d-ace6-4892-87c1-07e28ff24462
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetContentStatus, GetContentStatus method [XPS Documents and Packaging], GetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentStatus method, IXpsOMCoreProperties.GetContentStatus, IXpsOMCoreProperties::GetContentStatus, xps.ixpsomcoreproperties_getcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::GetContentStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],AddWizardPage method, IWCWizardCallback.AddWizardPage, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 
@@ -113,16 +111,16 @@ The <i>hpage</i> parameter represents an unknown page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extensions call the 
+<a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions call the 
      <b>AddWizardPage</b> method from their 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a> 
+     <a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a> 
      methods. Before calling <b>AddWizardPage</b>, 
      extensions must call the function 
      <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> to retrieve a 
      handle to pass in the <i>hpage</i> parameter.
 
 Use 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370512(v=VS.85).aspx">IWCWizard97Calllback::AddWizard97Page</a> 
+     <a href="https://msdn.microsoft.com/c5de70da-2a08-4142-8f21-53a98e28fd42">IWCWizard97Calllback::AddWizard97Page</a> 
      to add Wizard97 pages.
 
 
@@ -133,15 +131,15 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370512(v=VS.85).aspx">IWCWizard97Callback::AddWizard97Page</a>
+<a href="https://msdn.microsoft.com/c5de70da-2a08-4142-8f21-53a98e28fd42">IWCWizard97Callback::AddWizard97Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370517(v=VS.85).aspx">IWCWizardCallback</a>
+<a href="https://msdn.microsoft.com/0d5f45c4-6091-4ea4-875a-69be7f1258db">IWCWizardCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370738(v=VS.85).aspx">IWEExtendWizard::CreateWizardPages</a>
+<a href="https://msdn.microsoft.com/b52ea5a5-aa80-4f65-9bab-b60fa8363b01">IWEExtendWizard::CreateWizardPages</a>
  
 
  

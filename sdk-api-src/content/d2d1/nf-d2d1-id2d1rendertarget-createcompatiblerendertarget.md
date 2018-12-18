@@ -9,8 +9,6 @@ ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget, d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 

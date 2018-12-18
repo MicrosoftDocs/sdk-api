@@ -9,8 +9,6 @@ ms.assetid: FAD56873-8812-42DC-9975-9507F73BD9E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfRegisterSyncRoot, CfRegisterSyncRoot function, cfapi/CfRegisterSyncRoot, cloudApi.cfregistersyncroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

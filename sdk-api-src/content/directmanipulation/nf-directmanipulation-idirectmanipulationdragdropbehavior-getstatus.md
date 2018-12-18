@@ -9,8 +9,6 @@ ms.assetid: 40D706B0-E396-436C-BD0B-66B8F6EFA5B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, IDirectManipulationDragDropBehavior interface [Direct Manipulation],GetStatus method, IDirectManipulationDragDropBehavior.GetStatus, IDirectManipulationDragDropBehavior::GetStatus, directmanipulation.idirectmanipulationdragdropbehavior_getstatus, directmanipulation/IDirectManipulationDragDropBehavior::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

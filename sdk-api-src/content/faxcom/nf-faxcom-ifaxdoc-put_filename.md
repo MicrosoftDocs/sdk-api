@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_7rqd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FileName property [Fax Service], FileName property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],FileName property, IFaxDoc.FileName, IFaxDoc.put_FileName, IFaxDoc::FileName, IFaxDoc::get_FileName, IFaxDoc::put_FileName, _mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_get_filename, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_filename_cpp, faxcom/IFaxDoc::FileName, faxcom/IFaxDoc::get_FileName, faxcom/IFaxDoc::put_FileName, put_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read/write.
 
 
 
-The <b>FileName</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/a4c70429-4d1d-4708-acd6-e077bddfbd6c">IFaxDoc::Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+The <b>FileName</b> property is required to send a fax transmission using a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692792(v=VS.85).aspx">IFaxDoc::Send</a> method. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
 
 The <b>get_FileName</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 

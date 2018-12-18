@@ -9,8 +9,6 @@ ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIObjectPropertiesA, OleUIObjectPropertiesW, _ole_OleUIObjectProperties, com.oleuiobjectproperties, oledlg/OleUIObjectProperties, oledlg/OleUIObjectPropertiesA, oledlg/OleUIObjectPropertiesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

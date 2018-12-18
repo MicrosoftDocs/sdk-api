@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.ht
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoordinateSpace, CoordinateSpace enumeration [GDI+], CoordinateSpaceDevice, CoordinateSpacePage, CoordinateSpaceWorld, _gdiplus_ENUM_CoordinateSpace, gdiplus._gdiplus_ENUM_CoordinateSpace, gdiplusenums/CoordinateSpace, gdiplusenums/CoordinateSpaceDevice, gdiplusenums/CoordinateSpacePage, gdiplusenums/CoordinateSpaceWorld
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

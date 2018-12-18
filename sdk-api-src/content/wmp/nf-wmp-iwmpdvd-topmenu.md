@@ -9,8 +9,6 @@ ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -107,11 +105,11 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 
 
 
-<a href="https://msdn.microsoft.com/d133f1e1-cbeb-403d-b247-9f495cb6f0f7">IWMPDVD Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563244(v=VS.85).aspx">IWMPDVD Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a06367-5b0b-421d-abef-f6cd23e5b0d5">IWMPDVD::titleMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563250(v=VS.85).aspx">IWMPDVD::titleMenu</a>
  
 
  

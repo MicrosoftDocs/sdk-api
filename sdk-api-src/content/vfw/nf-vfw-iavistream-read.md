@@ -9,8 +9,6 @@ ms.assetid: 95835ba2-5085-467f-ae2c-27dd4d2ea68c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Read method, IAVIStream.Read, IAVIStream::Read, Read, Read method [Windows Multimedia], Read method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Read, multimedia.iavistream_read, vfw/IAVIStream::Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

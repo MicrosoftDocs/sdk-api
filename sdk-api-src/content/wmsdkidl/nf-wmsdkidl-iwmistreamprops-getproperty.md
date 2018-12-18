@@ -9,8 +9,6 @@ ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -109,7 +107,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the property t
 
 ### -param pType [out]
 
-Pointer to a variable that will receive one member of the <a href="https://msdn.microsoft.com/2a2756f9-2d76-48c9-bbea-35ee33a39918">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
+Pointer to a variable that will receive one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This value indicates the type of data in the buffer at <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -190,7 +188,7 @@ You should make two calls to <b>GetProperty</b> for each property you want to re
 
 
 
-<a href="https://msdn.microsoft.com/336e11ce-6212-4d08-8c50-76b2128ddc35">IWMIStreamProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757212(v=VS.85).aspx">IWMIStreamProps Interface</a>
  
 
  

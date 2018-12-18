@@ -9,8 +9,6 @@ ms.assetid: ba0dbfdf-1bab-42ba-910f-04a3f37be955
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMFTopologyServiceLookup interface [Media Foundation],LookupService method, IMFTopologyServiceLookup.LookupService, IMFTopologyServiceLookup::LookupService, LookupService, LookupService method [Media Foundation], LookupService method [Media Foundation],IMFTopologyServiceLookup interface, ba0dbfdf-1bab-42ba-910f-04a3f37be955, evr/IMFTopologyServiceLookup::LookupService, mf.imftopologyservicelookup_lookupservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: evr.h
 req.include-header: 

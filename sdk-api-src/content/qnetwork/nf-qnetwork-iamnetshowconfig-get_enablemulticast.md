@@ -9,8 +9,6 @@ ms.assetid: dae5c0ad-a41e-424c-a04d-69dbe7264143
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableMulticast method, IAMNetShowConfig.get_EnableMulticast, IAMNetShowConfig::get_EnableMulticast, IAMNetShowConfigget_EnableMulticast, dshow.iamnetshowconfig_get_enablemulticast, get_EnableMulticast, get_EnableMulticast method [DirectShow], get_EnableMulticast method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableMulticast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/611b43dc-7f6d-404e-90a4-b109b9475fb6">IAMNetShowConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319696(v=VS.85).aspx">IAMNetShowConfig Interface</a>
  
 
  

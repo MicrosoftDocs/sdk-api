@@ -9,8 +9,6 @@ ms.assetid: 070a208b-cf4c-41e1-9a5f-76cc444285c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidClosedCaptioning, IMSVidClosedCaptioning interface [Microsoft TV Technologies], IMSVidClosedCaptioning interface [Microsoft TV Technologies],described, IMSVidClosedCaptioningInterface, mstv.imsvidclosedcaptioning, segment/IMSVidClosedCaptioning
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -53,7 +51,7 @@ req.redist:
 
 The <b>IMSVidClosedCaptioning</b> interface enables or disables closed captions. The <a href="https://msdn.microsoft.com/9b56ae46-f1b3-41f0-a002-4444f220f767">MSVidClosedCaptioning</a> feature exposes this interface.
 
-To obtain this interface, enumerate the collection of available features on the Video Control. To use closed captioning, activate the closed captioning feature before you build the graph. Once the feature is active, you can enable or disable the closed captioning display by calling the <a href="https://msdn.microsoft.com/2485b634-24e9-4945-ae46-0ca7fdb9d92b">IMSVidClosedCaptioning::put_Enable</a> method.
+To obtain this interface, enumerate the collection of available features on the Video Control. To use closed captioning, activate the closed captioning feature before you build the graph. Once the feature is active, you can enable or disable the closed captioning display by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd694473(v=VS.85).aspx">IMSVidClosedCaptioning::put_Enable</a> method.
 
 
 
@@ -75,7 +73,7 @@ The <b>IMSVidClosedCaptioning</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bb46aa7-fd94-4afa-9bba-769472e014ff">get_Enable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694472(v=VS.85).aspx">get_Enable</a>
 </td>
 <td align="left" width="63%">
 Queries whether closed captioning is enabled.
@@ -84,7 +82,7 @@ Queries whether closed captioning is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2485b634-24e9-4945-ae46-0ca7fdb9d92b">put_Enable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694473(v=VS.85).aspx">put_Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captioning.

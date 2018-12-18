@@ -9,8 +9,6 @@ ms.assetid: E058C71F-5F37-4089-89BD-28D8FF7E0711
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_Attributes method, IActivatableClassRegistration.get_Attributes, IActivatableClassRegistration::get_Attributes, activationregistration/IActivatableClassRegistration::get_Attributes, get_Attributes, get_Attributes method [Windows Runtime], get_Attributes method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_attributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: activationregistration.h
 req.include-header: 

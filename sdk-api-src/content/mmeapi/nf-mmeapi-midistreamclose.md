@@ -9,8 +9,6 @@ ms.assetid: 53096399-3e79-4534-8b67-ccb70c32ccf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: "_win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mmeapi.h
 req.include-header: Windows.h

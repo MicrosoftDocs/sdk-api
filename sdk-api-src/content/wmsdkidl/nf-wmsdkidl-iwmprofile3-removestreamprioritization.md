@@ -9,8 +9,6 @@ ms.assetid: 1522cb9f-ce3f-4183-8779-3ee112efb40b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveStreamPrioritization method, IWMProfile3.RemoveStreamPrioritization, IWMProfile3::RemoveStreamPrioritization, IWMProfile3RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [windows Media Format], RemoveStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removestreamprioritization, wmsdkidl/IWMProfile3::RemoveStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -110,15 +108,15 @@ No stream prioritization object exists in the profile.
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/09545c1e-8090-4526-9faf-6cb2cb369208">IWMProfile3::GetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757380(v=VS.85).aspx">IWMProfile3::GetStreamPrioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/16dfb205-2a0b-4dc8-a8f2-8981534018f1">IWMProfile3::SetStreamPrioritization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757384(v=VS.85).aspx">IWMProfile3::SetStreamPrioritization</a>
  
 
  

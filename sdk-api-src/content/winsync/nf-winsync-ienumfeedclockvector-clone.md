@@ -9,8 +9,6 @@ ms.assetid: ad2664d2-c36c-46bf-9f80-001c2e5d4251
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumFeedClockVector interface, IEnumFeedClockVector interface [Windows Sync],Clone method, IEnumFeedClockVector.Clone, IEnumFeedClockVector::Clone, winsync.ienumfeedclockvector_clone, winsync/IEnumFeedClockVector::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

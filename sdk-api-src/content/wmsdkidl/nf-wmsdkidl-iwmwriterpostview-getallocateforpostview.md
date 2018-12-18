@@ -9,8 +9,6 @@ ms.assetid: bd17eeec-a1ce-42db-a807-008ca2c4194f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAllocateForPostView, GetAllocateForPostView method [windows Media Format], GetAllocateForPostView method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetAllocateForPostView method, IWMWriterPostView.GetAllocateForPostView, IWMWriterPostView::GetAllocateForPostView, IWMWriterPostViewGetAllocateForPostView, wmformat.iwmwriterpostview_getallocateforpostview, wmsdkidl/IWMWriterPostView::GetAllocateForPostView
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -117,7 +115,7 @@ NULL value passed in to <i>pfAllocate</i>.
 
 
 
-See the Remarks for <a href="https://msdn.microsoft.com/995bf3fa-3e10-46a2-ad51-55375d6af447">SetAllocateForPostView</a>.
+See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd798780(v=VS.85).aspx">SetAllocateForPostView</a>.
 
 
 
@@ -127,7 +125,7 @@ See the Remarks for <a href="https://msdn.microsoft.com/995bf3fa-3e10-46a2-ad51-
 
 
 
-<a href="https://msdn.microsoft.com/1d24dbd6-86df-4a0a-8110-15f6a4c1f31d">IWMWriterPostView Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
  
 
  

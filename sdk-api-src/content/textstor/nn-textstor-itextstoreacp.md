@@ -9,8 +9,6 @@ ms.assetid: 21e011f7-6791-4eb9-85c9-18bd10107119
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], ITextStoreACP interface [Text Services Framework],described, _tsf_itextstoreacp_ref, textstor/ITextStoreACP, tsf.itextstoreacp
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 

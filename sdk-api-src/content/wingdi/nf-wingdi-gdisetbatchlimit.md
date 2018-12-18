@@ -9,8 +9,6 @@ ms.assetid: 53bf0dfe-e93c-401d-ac5d-6717bad2625e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GdiSetBatchLimit, GdiSetBatchLimit function [Windows GDI], _win32_GdiSetBatchLimit, gdi.gdisetbatchlimit, wingdi/GdiSetBatchLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

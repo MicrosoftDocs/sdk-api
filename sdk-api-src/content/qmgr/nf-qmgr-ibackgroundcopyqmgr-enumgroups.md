@@ -9,8 +9,6 @@ ms.assetid: 27cf17e3-b35a-4453-ae0a-8b080fd120dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EnumGroups, EnumGroups method [BITS], EnumGroups method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],EnumGroups method, IBackgroundCopyQMgr.EnumGroups, IBackgroundCopyQMgr::EnumGroups, bits.ibackgroundcopyqmgr_enumgroups, qmgr/IBackgroundCopyQMgr::EnumGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 

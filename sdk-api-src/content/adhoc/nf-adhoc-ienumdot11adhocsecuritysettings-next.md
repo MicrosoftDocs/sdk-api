@@ -9,8 +9,6 @@ ms.assetid: 77101f70-de5d-4db9-a59d-5b07f386c0b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method, IEnumDot11AdHocSecuritySettings.Next, IEnumDot11AdHocSecuritySettings::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Next, nwifi.ienumdot11adhocsecuritysettings_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

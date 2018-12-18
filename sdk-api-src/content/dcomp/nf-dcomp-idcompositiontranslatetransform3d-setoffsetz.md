@@ -9,8 +9,6 @@ ms.assetid: 98FC07F4-BD13-448A-8421-9049CF9C0850
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetZ method, IDCompositionTranslateTransform3D.SetOffsetZ, IDCompositionTranslateTransform3D::SetOffsetZ, IDCompositionTranslateTransform3D::SetOffsetZ(float), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_float
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dcomp.h
 req.include-header: 
@@ -95,15 +93,15 @@ If the OffsetZ property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/C265E5FC-F7A1-4E87-8311-C4D0613DD7BC">IDCompositionTranslateTransform3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449114(v=VS.85).aspx">IDCompositionTranslateTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/61EDA0AA-0274-446E-9169-974AB84802FA">IDCompositionTranslateTransform3D::SetOffsetX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449117(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetX</a>
 
 
 
-<a href="https://msdn.microsoft.com/254DCA74-DB51-442D-9483-F7597643C538">IDCompositionTranslateTransform3D::SetOffsetY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449120(v=VS.85).aspx">IDCompositionTranslateTransform3D::SetOffsetY</a>
  
 
  

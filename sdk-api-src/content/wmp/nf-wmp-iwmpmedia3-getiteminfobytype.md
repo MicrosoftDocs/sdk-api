@@ -9,8 +9,6 @@ ms.assetid: 2a77029b-fbae-49af-bd91-c688c11b3b16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -135,23 +133,23 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/664a3148-3c78-41b0-85ba-9c2b3ac821d9">IWMPMedia3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563401(v=VS.85).aspx">IWMPMedia3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/86f5e67a-408f-4b93-b89a-12f42fd31966">IWMPMedia3::getAttributeCountByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563402(v=VS.85).aspx">IWMPMedia3::getAttributeCountByType</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb04e464-44dd-41ba-9296-f13aca9ef54e">IWMPMedia::getAttributeName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563430(v=VS.85).aspx">IWMPMedia::getAttributeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee964f68-d44c-4e66-908b-09070a96d96f">IWMPMedia::getItemInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/33e29da2-7439-41d1-9dd9-9b66e87aeb4b">IWMPMedia::get_attributeCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563435(v=VS.85).aspx">IWMPMedia::get_attributeCount</a>
  
 
  

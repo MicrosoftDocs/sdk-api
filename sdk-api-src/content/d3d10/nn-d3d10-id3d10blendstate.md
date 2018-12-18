@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10blendstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10BlendState, ID3D10BlendState interface [Direct3D 10], ID3D10BlendState interface [Direct3D 10],described, d3d10/ID3D10BlendState, direct3d10.id3d10blendstate, e7edf841-099a-0302-cacb-da34c915ac4c
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -58,7 +56,7 @@ This blend-state interface accesses blending state for a Direct3D 10.0 device fo
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10BlendState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10BlendState</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

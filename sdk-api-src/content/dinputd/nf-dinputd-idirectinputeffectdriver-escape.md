@@ -9,8 +9,6 @@ ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

@@ -9,8 +9,6 @@ ms.assetid: f1fdb223-b649-4467-a4c4-56cce4f4d975
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EngGetCurrentThreadId, EngGetCurrentThreadId function [Display Devices], display.enggetcurrentthreadid, gdifncs_f6b5f95d-aa1b-4ff9-8523-79f6e2baef9d.xml, winddi/EngGetCurrentThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

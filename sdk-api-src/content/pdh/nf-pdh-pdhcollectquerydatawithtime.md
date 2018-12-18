@@ -7,10 +7,8 @@ old-location: perf\pdhcollectquerydatawithtime.htm
 tech.root: perfctrs
 ms.assetid: 2c47c690-0748-4ed4-a138-894d45c72581
 ms.author: windowssdkdev
-ms.date: 10/26/2018
+ms.date: 12/5/2018
 ms.keywords: PdhCollectQueryDataWithTime, PdhCollectQueryDataWithTime function [Perf], base.pdhcollectquerydatawithtime, pdh/PdhCollectQueryDataWithTime, perf.pdhcollectquerydatawithtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

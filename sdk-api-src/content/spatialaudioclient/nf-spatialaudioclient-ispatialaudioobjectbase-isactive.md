@@ -9,8 +9,6 @@ ms.assetid: 3339E021-4AC3-43CB-9306-C8D58541CA5F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],IsActive method, ISpatialAudioObjectBase.IsActive, ISpatialAudioObjectBase::IsActive, IsActive, IsActive method [Core Audio], IsActive method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_isactive, spatialaudioclient/ISpatialAudioObjectBase::IsActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 
@@ -94,7 +92,7 @@ The rendering engine will also deactivate the audio object, setting <b>IsActive<
 
 
 
-<a href="https://msdn.microsoft.com/54721875-D93A-4C7E-A07E-C286E1A409D3">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

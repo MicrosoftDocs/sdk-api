@@ -9,8 +9,6 @@ ms.assetid: f8897936-91fa-4b91-a13a-0ef0a52d780c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WSManPluginAuthzUserComplete, WSManPluginAuthzUserComplete function [Windows Remote Management], winrm.wsmanpluginauthzusercomplete, wsman/WSManPluginAuthzUserComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

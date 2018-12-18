@@ -9,8 +9,6 @@ ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -67,12 +65,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/A10EB006-2FE5-4445-9E2F-DF2C1AF0A44F">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Mt414214(v=VS.85).aspx">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-Snapshot deletion flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/42B56389-8ECE-4127-A641-7F0A0A1E7D2D">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+Snapshot deletion flags, which must be a valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Mt414213(v=VS.85).aspx">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

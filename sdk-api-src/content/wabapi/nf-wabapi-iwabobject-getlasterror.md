@@ -9,8 +9,6 @@ ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\getlasterror.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLastError, GetLastError method [Windows Address Book], GetLastError method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],GetLastError method, IWABObject.GetLastError, IWABObject::GetLastError, _wab_IWABObject_GetLastError, wab._wab_IWABObject_GetLastError, wabapi/IWABObject::GetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wabapi.h
 req.include-header: 

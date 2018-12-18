@@ -9,8 +9,6 @@ ms.assetid: 40c5ec95-9317-4123-8f9f-fe34b6c983b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentAriaProperties property [Windows Accessibility], CurrentAriaProperties property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAriaProperties property, IUIAutomationElement.CurrentAriaProperties, IUIAutomationElement.get_CurrentAriaProperties, IUIAutomationElement::CurrentAriaProperties, IUIAutomationElement::get_CurrentAriaProperties, get_CurrentAriaProperties, uiauto.uiauto_IUIAutomationElement_CurrentAriaProperties, uiauto_IUIAutomationElement_CurrentAriaProperties, uiautomationclient/IUIAutomationElement::CurrentAriaProperties, uiautomationclient/IUIAutomationElement::get_CurrentAriaProperties, winauto.uiauto_IUIAutomationElement_CurrentAriaProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -9,8 +9,6 @@ ms.assetid: cc653877-de16-4ccc-b48e-8bd7cfacb43c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslation, NlsDllCodePageTranslation function [Internationalization for Windows Applications], _win32_NlsDllCodePageTranslation, gb18030/NlsDllCodePageTranslation, intl.nlsdllcodepagetranslation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: gb18030.h
 req.include-header: 

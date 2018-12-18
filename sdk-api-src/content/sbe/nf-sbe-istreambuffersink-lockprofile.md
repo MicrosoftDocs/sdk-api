@@ -9,8 +9,6 @@ ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sbe.h
 req.include-header: 
@@ -136,7 +134,7 @@ The stub file is automatically deleted when the last process closes the file han
 
 After the first successful call to this method, further calls with the same value of <i>pszFileName</i> return S_FALSE. Further calls with a different value for <i>pszFileName</i> fail and return E_UNEXPECTED.
 
-The name of the stub file can be given to the Stream Buffer Source filter through that filter's <a href="https://msdn.microsoft.com/a44b8153-19d5-43ad-936c-214c694eeeb6">IFileSourceFilter::Load</a> method.
+The name of the stub file can be given to the Stream Buffer Source filter through that filter's <a href="https://msdn.microsoft.com/en-us/library/Dd389983(v=VS.85).aspx">IFileSourceFilter::Load</a> method.
 
 <h3><a id="Windows_Vista_or_later"></a><a id="windows_vista_or_later"></a><a id="WINDOWS_VISTA_OR_LATER"></a>Windows Vista or later</h3>
 This method requires administrator privileges, unless you first call <a href="https://msdn.microsoft.com/e009e078-99f5-4da1-88ce-c07e9588c5e8">IStreamBufferConfigure3::SetNamespace</a> with the value <b>NULL</b>.

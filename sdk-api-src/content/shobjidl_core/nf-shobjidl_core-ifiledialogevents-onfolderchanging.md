@@ -9,8 +9,6 @@ ms.assetid: 4114ed48-8e1e-4ddf-9434-629b99fc40d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnFolderChanging method, IFileDialogEvents.OnFolderChanging, IFileDialogEvents::OnFolderChanging, OnFolderChanging, OnFolderChanging method [Windows Shell], OnFolderChanging method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnFolderChanging, shell_IFileDialogEvents_OnFolderChanging, shobjidl_core/IFileDialogEvents::OnFolderChanging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

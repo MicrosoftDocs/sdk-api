@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_5ss3_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Folders property, IFaxServer.Folders, IFaxServer.get_Folders, IFaxServer::Folders, IFaxServer::get_Folders, _mfax_faxserver.folders_cpp, fax._mfax_faxserver_folders_cpp, faxcomex/IFaxServer::Folders, faxcomex/IFaxServer::get_Folders, get_Folders
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-The <b>IFaxServer::get_Folders</b> property accesses a <a href="https://msdn.microsoft.com/98e650c7-fc8e-4bf3-91ca-d9dc2ab09f50">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
+The <b>IFaxServer::get_Folders</b> property accesses a <a href="https://msdn.microsoft.com/en-us/library/ms684838(v=VS.85).aspx">IFaxFolders</a> configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
 
 This property is read-only.
 

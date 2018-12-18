@@ -1,5 +1,5 @@
 ---
-UID: NS:cmnquery.CQFORM
+UID: NS:cmnquery.__unnamed_struct_0
 title: CQFORM
 author: windows-sdk-content
 description: Used to define a query form added to the query dialog box with the CQAddFormsProc callback function.
@@ -7,10 +7,8 @@ old-location: ad\cqform.htm
 tech.root: ad
 ms.assetid: 65cf2e9c-8f88-4e84-8bf2-2b0fd246a835
 ms.author: windowssdkdev
-ms.date: 11/14/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPCQFORM, CQFF_ISOPTIONAL, CQFF_NOGLOBALPAGES, CQFORM, CQFORM structure [Active Directory], LPCQFORM, LPCQFORM structure pointer [Active Directory], _glines_cqform, ad.cqform, cmnquery/CQFORM, cmnquery/LPCQFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cmnquery.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CQFORM</b> structure is used to define a query form added to the query dialog box with the <a href="https://msdn.microsoft.com/en-us/library/ms675749(v=VS.85).aspx">CQAddFormsProc</a> callback function.
+The <b>CQFORM</b> structure is used to define a query form added to the query dialog box with the <a href="https://msdn.microsoft.com/e4221299-93de-4747-b464-0d152d6e767b">CQAddFormsProc</a> callback function.
 
 
 ## -struct-fields
@@ -100,7 +98,7 @@ Pointer to a null-terminated Unicode string that contains the title of the query
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675749(v=VS.85).aspx">CQAddFormsProc</a>
+<a href="https://msdn.microsoft.com/e4221299-93de-4747-b464-0d152d6e767b">CQAddFormsProc</a>
 
 
 

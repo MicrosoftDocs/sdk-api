@@ -9,8 +9,6 @@ ms.assetid: fba3c7f3-61f8-4704-8068-cb1d3171345a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVBTuningSpace, IDVBTuningSpace interface [Microsoft TV Technologies], IDVBTuningSpace interface [Microsoft TV Technologies],described, IDVBTuningSpaceInterface, mstv.idvbtuningspace, tuner/IDVBTuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs_CICreateCommand, indexsrv.cicreatecommand, ntquery/CICreateCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

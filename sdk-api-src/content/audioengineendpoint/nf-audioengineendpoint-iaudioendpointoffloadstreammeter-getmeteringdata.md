@@ -9,8 +9,6 @@ ms.assetid: 31F76D5B-D047-4D0E-AA22-DCC1E2E36561
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMeteringData, GetMeteringData method [Core Audio], GetMeteringData method [Core Audio],IAudioEndpointOffloadStreamMeter interface, IAudioEndpointOffloadStreamMeter interface [Core Audio],GetMeteringData method, IAudioEndpointOffloadStreamMeter.GetMeteringData, IAudioEndpointOffloadStreamMeter::GetMeteringData, audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeteringData, coreaudio.iaudioendpointoffloadstreammeter_getmeteringdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

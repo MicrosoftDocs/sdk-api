@@ -9,8 +9,6 @@ ms.assetid: 0a9cbaed-c8aa-445a-9f8e-d84a7b50166e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CreationDate method, IAMNetShowExProps.get_CreationDate, IAMNetShowExProps::get_CreationDate, IAMNetShowExPropsget_CreationDate, dshow.iamnetshowexprops_get_creationdate, get_CreationDate, get_CreationDate method [DirectShow], get_CreationDate method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CreationDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 
@@ -80,7 +78,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/e68959dc-1a79-4e2c-aeaf-3febcb9c09ce">IAMNetShowExProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319719(v=VS.85).aspx">IAMNetShowExProps Interface</a>
  
 
  

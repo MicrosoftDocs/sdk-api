@@ -9,8 +9,6 @@ ms.assetid: d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 763ee631-eef7-d99f-1d0d-58e3651843f9, D3D11CreateDevice, D3D11CreateDevice function [Direct3D 11], d3d11/D3D11CreateDevice, direct3d11.d3d11createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d3d11.h
 req.include-header: 
@@ -146,9 +144,9 @@ The SDK version; use <i>D3D11_SDK_VERSION</i>.
 
 ### -param ppDevice [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>**</b>
 
-Returns the address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> object that represents the device created. If this parameter is <b>NULL</b>, no ID3D11Device will be returned.
+Returns the address of a pointer to an <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> object that represents the device created. If this parameter is <b>NULL</b>, no ID3D11Device will be returned.
           
 
 
@@ -194,18 +192,18 @@ This entry-point is supported by the Direct3D 11 runtime, which is available on 
           Windows Vista (KB971644).
         
 
-To create a Direct3D 11.1 device (<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>), which is available on Windows 8, Windows Server 2012, and Windows 7 and Windows Server 2008 R2 with the <a href="https://msdn.microsoft.com/en-us/library/JJ863687(v=VS.85).aspx">Platform Update for Windows 7</a> installed, you first create a <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device1</b> interface.
+To create a Direct3D 11.1 device (<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>), which is available on Windows 8, Windows Server 2012, and Windows 7 and Windows Server 2008 R2 with the <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a> installed, you first create a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device1</b> interface.
         
 
-To create a Direct3D 11.2 device (<a href="https://msdn.microsoft.com/en-us/library/Dn280493(v=VS.85).aspx">ID3D11Device2</a>), which is available on Windows 8.1 and Windows Server 2012 R2, you first create a <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device2</b> interface.
+To create a Direct3D 11.2 device (<a href="https://msdn.microsoft.com/C476AA0E-4A49-4E1E-8308-FB72EAD3E30C">ID3D11Device2</a>), which is available on Windows 8.1 and Windows Server 2012 R2, you first create a <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> with this function, and then call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on the <b>ID3D11Device</b> object to obtain the <b>ID3D11Device2</b> interface.
         
 
 Set <i>ppDevice</i> and <i>ppImmediateContext</i> to <b>NULL</b> to determine which feature level is supported by looking
           at <i>pFeatureLevel</i> without creating a device.
         
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Ff476879(v=VS.85).aspx">How To: Create a Device and Immediate Context</a>; to create a device and a swap chain at the same time,
-          use <a href="https://msdn.microsoft.com/en-us/library/Ff476083(v=VS.85).aspx">D3D11CreateDeviceAndSwapChain</a>.
+For an example, see <a href="https://msdn.microsoft.com/02a20ada-b3aa-435e-8d66-117a19222f9f">How To: Create a Device and Immediate Context</a>; to create a device and a swap chain at the same time,
+          use <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>.
         
 
 If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value, you must also set the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_UNKNOWN value. If you set the <i>pAdapter</i> parameter to a non-<b>NULL</b> value and the <i>DriverType</i> parameter to the D3D_DRIVER_TYPE_HARDWARE value, <b>D3D11CreateDevice</b> returns an <a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a> of E_INVALIDARG.
@@ -263,7 +261,7 @@ The function signature PFN_D3D11_CREATE_DEVICE is provided as a typedef, so that
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476153(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/3acbd433-c28d-4630-aa0e-25f2fb5c32d0">Core Functions</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 638ab6e1-7663-4f15-a487-e22496672ddb
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaStream interface [DirectShow],JoinFilter method, IAMMediaStream.JoinFilter, IAMMediaStream::JoinFilter, IAMMediaStreamJoinFilter, JoinFilter, JoinFilter method [DirectShow], JoinFilter method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::JoinFilter, dshow.iammediastream_joinfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>JoinFilter</code> method connects a media stream to the Media Stream f
 
 ### -param pMediaStreamFilter [in]
 
-Pointer to the filter's <a href="https://msdn.microsoft.com/1ac4976b-7088-47ac-9689-58c143746f05">IMediaStreamFilter</a> interface.
+Pointer to the filter's <a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter</a> interface.
 
 
 ## -returns
@@ -82,7 +80,7 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
  
 
  

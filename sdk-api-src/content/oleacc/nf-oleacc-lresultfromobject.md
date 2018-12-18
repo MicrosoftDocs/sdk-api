@@ -9,8 +9,6 @@ ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 6747534F-7121-4783-BC19-D564C7014815
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDefaultCompartmentId, GetDefaultCompartmentId function [IP Helper], iphlp.getdefaultcompartmentid, netioapi/GetDefaultCompartmentId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

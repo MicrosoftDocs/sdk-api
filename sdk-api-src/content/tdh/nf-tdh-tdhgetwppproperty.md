@@ -9,8 +9,6 @@ ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: dfe9040d-18f1-4a35-a4ed-bb3f84ad8dd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordServiceNameW, GetRecordServiceNameW method [Microsoft TV Technologies], GetRecordServiceNameW method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordServiceNameW method, IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW, IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordservicenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

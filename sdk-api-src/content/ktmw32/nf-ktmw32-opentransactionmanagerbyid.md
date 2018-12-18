@@ -9,8 +9,6 @@ ms.assetid: 4724383d-8ecf-40cb-8159-15a6d5ddfd1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: OpenTransactionManagerById, OpenTransactionManagerById function [Files], fs.opentransactionmanagerbyid, ktmw32/OpenTransactionManagerById
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

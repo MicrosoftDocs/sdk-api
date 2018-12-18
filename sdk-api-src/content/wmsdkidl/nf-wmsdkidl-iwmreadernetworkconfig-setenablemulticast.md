@@ -9,8 +9,6 @@ ms.assetid: 02e3a7cc-1dcf-4aba-a18f-2056742f0777
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetEnableMulticast method, IWMReaderNetworkConfig.SetEnableMulticast, IWMReaderNetworkConfig::SetEnableMulticast, IWMReaderNetworkConfigSetEnableMulticast, SetEnableMulticast, SetEnableMulticast method [windows Media Format], SetEnableMulticast method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setenablemulticast, wmsdkidl/IWMReaderNetworkConfig::SetEnableMulticast
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -113,11 +111,11 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fc51a74-18b6-4ddd-9089-9a8bdfce70ea">IWMReaderNetworkConfig::GetEnableMulticast</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743523(v=VS.85).aspx">IWMReaderNetworkConfig::GetEnableMulticast</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: b3c0cad8-d578-4752-a2ea-0aa5c35a181a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

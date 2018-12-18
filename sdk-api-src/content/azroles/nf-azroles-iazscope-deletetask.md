@@ -9,8 +9,6 @@ ms.assetid: de72b944-2796-4445-9fdd-4d56526dc903
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzScope object, DeleteTask method [Security],IAzScope interface, IAzScope interface [Security],DeleteTask method, IAzScope.DeleteTask, IAzScope::DeleteTask, azroles/IAzScope::DeleteTask, security.iazscope_deletetask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -73,7 +71,7 @@ Reserved for future use.
 
 
 
-If there are any <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> references to an <b>IAzTask</b> object that has been deleted from the cache, the <b>IAzTask</b> object can no longer be used. In C++, you must release references to deleted <b>IAzTask</b> objects by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> references to an <b>IAzTask</b> object that has been deleted from the cache, the <b>IAzTask</b> object can no longer be used. In C++, you must release references to deleted <b>IAzTask</b> objects by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

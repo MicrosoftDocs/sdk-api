@@ -9,8 +9,6 @@ ms.assetid: 2F48142B-88D2-49B7-9FAA-5D6BA4DC3837
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: UnregisterAuthoringClientFunctionType, UnregisterAuthoringClientFunctionType callback, UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.unregisterauthoringclientfunctiontype, webapplication/UnregisterAuthoringClientFunctionType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: webapplication.h
 req.include-header: 

@@ -2,7 +2,7 @@
 UID: NA:propidlbase
 ms.assetid: 0bfbc614-51e7-3d64-9e9b-adcb839b500b
 ms.author: windowssdkdev
-ms.date: 12/06/2018
+ms.date: 12/16/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

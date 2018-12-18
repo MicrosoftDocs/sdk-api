@@ -9,8 +9,6 @@ ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

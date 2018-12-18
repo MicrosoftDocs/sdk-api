@@ -9,8 +9,6 @@ ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

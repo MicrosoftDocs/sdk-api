@@ -9,8 +9,6 @@ ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

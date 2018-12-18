@@ -9,8 +9,6 @@ ms.assetid: 8143d11c-3740-4ffc-88f0-6df779c50521
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDisplayInfo, GetDisplayInfo method [MMC], GetDisplayInfo method [MMC],IComponent interface, IComponent interface [MMC],GetDisplayInfo method, IComponent.GetDisplayInfo, IComponent::GetDisplayInfo, _slate_icomponent_getdisplayinfo, mmc.icomponent_getdisplayinfo, mmc/IComponent::GetDisplayInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mmc.h
 req.include-header: 

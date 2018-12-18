@@ -9,8 +9,6 @@ ms.assetid: 5CD64E71-8530-43FB-B441-25C61ED6F317
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D3D12_INFO_QUEUE_FILTER, D3D12_INFO_QUEUE_FILTER structure, d3d12sdklayers/D3D12_INFO_QUEUE_FILTER, direct3d12.d3d12_info_queue_filter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12sdklayers.h
 req.include-header: 
@@ -60,7 +58,7 @@ Debug message filter; contains a lists of message types to allow or deny.
 
 ### -field AllowList
 
-Specifies types of messages that you want to allow. See <a href="https://msdn.microsoft.com/en-us/library/Dn950143(v=VS.85).aspx">D3D12_INFO_QUEUE_FILTER_DESC</a>.
+Specifies types of messages that you want to allow. See <a href="https://msdn.microsoft.com/079494EC-3FC3-490D-B2BC-0FBD976ECC97">D3D12_INFO_QUEUE_FILTER_DESC</a>.
 
 
           
@@ -78,7 +76,7 @@ Specifies types of messages that you want to deny.
 
 
 
-For use with an <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a> Interface.
+For use with an <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
 
 
 
@@ -88,7 +86,7 @@ For use with an <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950152(v=VS.85).aspx">Debug Layer Structures</a>
+<a href="https://msdn.microsoft.com/FE8796A7-98D1-4333-8755-2A47567560B3">Debug Layer Structures</a>
  
 
  

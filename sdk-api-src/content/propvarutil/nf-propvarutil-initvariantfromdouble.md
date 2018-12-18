@@ -9,8 +9,6 @@ ms.assetid: a0a13843-e943-4fca-b4d4-5af1d2ff02e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a value of type DOUBLE.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a value of type DOUBLE.
 
 
 ## -parameters
@@ -69,7 +67,7 @@ Source value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -94,7 +92,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -122,15 +120,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>
+<a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776598(v=VS.85).aspx">VariantToDouble</a>
+<a href="shell.VariantToDouble">VariantToDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776601(v=VS.85).aspx">VariantToDoubleWithDefault</a>
+<a href="shell.VariantToDoubleWithDefault">VariantToDoubleWithDefault</a>
  
 
  

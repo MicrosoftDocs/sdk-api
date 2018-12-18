@@ -9,8 +9,6 @@ ms.assetid: 2134c2cf-4d78-438c-8fb9-a96f87f682d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAMMediaStream interface [DirectShow],SetState method, IAMMediaStream.SetState, IAMMediaStream::SetState, IAMMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::SetState, dshow.iammediastream_setstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>SetState</code> method sets the filter state.
 
 ### -param State [in]
 
-Sets the filter's state, as specified by the <a href="https://msdn.microsoft.com/41f88abc-57d1-4f80-a099-d17e624ab8a6">FILTER_STATE</a> enumerated type.
+Sets the filter's state, as specified by the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumerated type.
 
 
 ## -returns
@@ -91,7 +89,7 @@ Applications should not call this method.
 
 
 
-<a href="https://msdn.microsoft.com/14185e7d-d08d-4fd8-a255-075eaf12a708">IAMMediaStream Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 6cff906a-adb7-4453-8d44-6a5bf44a681b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsCombineUrl, WsCombineUrl function [Web Services for Windows], webservices/WsCombineUrl, wsw.wscombineurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -168,7 +166,7 @@ If the reference URL is absolute, it is returned unchanged, if the specified fla
             If the reference URL is relative, it is combined with the base URL before being returned.
             
 
-Only the schemes listed in <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
+Only the schemes listed in <a href="https://msdn.microsoft.com/en-us/library/Dd323494(v=VS.85).aspx">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

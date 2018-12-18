@@ -9,8 +9,6 @@ ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

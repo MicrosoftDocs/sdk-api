@@ -9,8 +9,6 @@ ms.assetid: bcdbd3e0-a19a-448c-92b7-71720eff3386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCustomReferenceEnumerator, GetCustomReferenceEnumerator method [XPS Documents and Packaging], GetCustomReferenceEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomReferenceEnumerator method, IXpsSignature.GetCustomReferenceEnumerator, IXpsSignature::GetCustomReferenceEnumerator, xps.ixpssignature_getcustomreferenceenumerator, xpsdigitalsignature/IXpsSignature::GetCustomReferenceEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 646d2e3c-623b-4040-af82-1cefac6fc1ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],remove method, IWMPMediaCollection.remove, IWMPMediaCollection::remove, IWMPMediaCollectionremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_remove, wmp/IWMPMediaCollection::remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -115,15 +113,15 @@ Before calling this method, you must have read access to the library. For more i
 
 
 
-<a href="https://msdn.microsoft.com/2311067c-b731-47d2-880d-73870fee7694">IWMPMedia Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563397(v=VS.85).aspx">IWMPMedia Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf975a30-dfb1-4994-9095-510a6b997aff">IWMPMediaCollection Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563405(v=VS.85).aspx">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9dfefbc-c240-41c0-abb9-4bc5012c147c">IWMPMediaCollection::add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563412(v=VS.85).aspx">IWMPMediaCollection::add</a>
  
 
  

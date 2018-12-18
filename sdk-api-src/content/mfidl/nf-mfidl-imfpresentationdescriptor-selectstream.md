@@ -9,8 +9,6 @@ ms.assetid: 3f0eaace-9d85-4999-bb3f-34c268dfea2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3f0eaace-9d85-4999-bb3f-34c268dfea2c, IMFPresentationDescriptor interface [Media Foundation],SelectStream method, IMFPresentationDescriptor.SelectStream, IMFPresentationDescriptor::SelectStream, SelectStream, SelectStream method [Media Foundation], SelectStream method [Media Foundation],IMFPresentationDescriptor interface, mf.imfpresentationdescriptor_selectstream, mfidl/IMFPresentationDescriptor::SelectStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certpol.h
 req.include-header: 
@@ -97,7 +95,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn383665(v=VS.85).aspx">INDESPolicy</a>
+<a href="https://msdn.microsoft.com/9ed31493-832a-4f66-bb95-02ef1ad7ca15">INDESPolicy</a>
  
 
  

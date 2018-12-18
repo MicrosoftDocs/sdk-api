@@ -9,8 +9,6 @@ ms.assetid: A27C0AE1-1C51-4CAC-8929-63870ADB15A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WFDCloseHandle, WFDCloseHandle function [NativeWIFI], nwifi.wfdclosehandle, wlanapi/WFDCloseHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: 

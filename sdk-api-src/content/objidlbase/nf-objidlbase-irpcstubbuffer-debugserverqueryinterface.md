@@ -9,8 +9,6 @@ ms.assetid: c735a99f-c67a-44eb-ae60-950dc4e68e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DebugServerQueryInterface, DebugServerQueryInterface method [COM], DebugServerQueryInterface method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerQueryInterface method, IRpcStubBuffer.DebugServerQueryInterface, IRpcStubBuffer::DebugServerQueryInterface, _com_irpcstubbuffer_debugserverqueryinterface, com.irpcstubbuffer_debugserverqueryinterface, objidlbase/IRpcStubBuffer::DebugServerQueryInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

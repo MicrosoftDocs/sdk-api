@@ -9,8 +9,6 @@ ms.assetid: a0ffa39a-9e91-4229-8dee-b31f3973f384
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],Initialize method, IDVB_EIT.Initialize, IDVB_EIT::Initialize, IDVB_EITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::Initialize, mstv.idvb_eit_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

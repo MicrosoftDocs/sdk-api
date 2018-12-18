@@ -9,8 +9,6 @@ ms.assetid: b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDropTargetHelper, IDropTargetHelper interface [Windows Shell], IDropTargetHelper interface [Windows Shell],described, _win32_IDropTargetHelper, shell.IDropTargetHelper, shobjidl_core/IDropTargetHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

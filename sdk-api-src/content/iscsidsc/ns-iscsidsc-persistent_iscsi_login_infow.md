@@ -1,5 +1,5 @@
 ---
-UID: NS:iscsidsc.PERSISTENT_ISCSI_LOGIN_INFOW
+UID: NS:iscsidsc.__unnamed_struct_22
 title: PERSISTENT_ISCSI_LOGIN_INFOW
 author: windows-sdk-content
 description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
@@ -7,10 +7,8 @@ old-location: iscsidisc\persistent_iscsi_login_info.htm
 tech.root: iSCSIDisc
 ms.assetid: adfd57fb-18dc-440f-988e-f2c01698d987
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: "*PPERSISTENT_ISCSI_LOGIN_INFOW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, PERSISTENT_ISCSI_LOGIN_INFO, PERSISTENT_ISCSI_LOGIN_INFO structure [iSCSI Discovery Library API], PERSISTENT_ISCSI_LOGIN_INFOA, PERSISTENT_ISCSI_LOGIN_INFOW, PPERSISTENT_ISCSI_LOGIN_INFO, PPERSISTENT_ISCSI_LOGIN_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.persistent_iscsi_login_info, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOW, iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 
@@ -86,7 +84,7 @@ The port number of the Host-Bus Adapter (HBA) through which the session login is
 
 ### -field TargetPortal
 
-A <a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a> structure that describes the portal used by the Microsoft iSCSI initiator service to log on to the target.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a> structure that describes the portal used by the Microsoft iSCSI initiator service to log on to the target.
 
 
 ### -field SecurityFlags
@@ -174,12 +172,12 @@ The other mask values are valid; otherwise, security flags are not specified.
 
 ### -field Mappings
 
-A pointer to a <a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a> structure that contains information about a target, its logical units, HBAs, and buses through which it is reached.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870805(v=VS.85).aspx">ISCSI_TARGET_MAPPING</a> structure that contains information about a target, its logical units, HBAs, and buses through which it is reached.
 
 
 ### -field LoginOptions
 
-An <a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a> structure that contains the persistent login characteristics.
+An <a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a> structure that contains the persistent login characteristics.
 
 
 ## -remarks
@@ -196,11 +194,11 @@ The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the
 
 
 
-<a href="https://msdn.microsoft.com/7d45be86-3d85-4253-aef7-92e05379f1b2">ISCSI_LOGIN_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870801(v=VS.85).aspx">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/de78c7ec-c2ce-493a-ad29-2ea10e3d7dff">ISCSI_TARGET_PORTAL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870808(v=VS.85).aspx">ISCSI_TARGET_PORTAL</a>
 
 
 

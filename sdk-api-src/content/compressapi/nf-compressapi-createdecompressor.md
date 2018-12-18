@@ -9,8 +9,6 @@ ms.assetid: a30b3ebe-24ef-4615-a555-a0383b46cd15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: COMPRESS_ALGORITHM_LZMS, COMPRESS_ALGORITHM_MSZIP, COMPRESS_ALGORITHM_XPRESS, COMPRESS_ALGORITHM_XPRESS_HUFF, CreateDecompressor, CreateDecompressor function [Compression API], cmpapi.createdecompressor, compressapi/CreateDecompressor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

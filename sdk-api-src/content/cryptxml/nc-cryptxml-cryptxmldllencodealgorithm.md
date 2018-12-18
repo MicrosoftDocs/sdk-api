@@ -9,8 +9,6 @@ ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CryptXmlDllEncodeAlgorithm, CryptXmlDllEncodeAlgorithm callback, CryptXmlDllEncodeAlgorithm callback function [Security], cryptxml/CryptXmlDllEncodeAlgorithm, security.cryptxmldllencodealgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: cryptxml.h
 req.include-header: 
@@ -67,7 +65,7 @@ A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5a
 
 ### -param dwCharset
 
-A <a href="https://msdn.microsoft.com/3f115ac1-a8ed-4151-b3f3-7ddb695802a0">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd433845(v=VS.85).aspx">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
 
 
 ### -param *pvCallbackState [in, out]

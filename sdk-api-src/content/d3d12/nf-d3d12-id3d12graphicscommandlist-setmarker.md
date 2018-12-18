@@ -9,8 +9,6 @@ ms.assetid: 521844B8-0EF8-4F09-ABCE-E8C96129F548
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetMarker method, ID3D12GraphicsCommandList.SetMarker, ID3D12GraphicsCommandList::SetMarker, SetMarker, SetMarker method, SetMarker method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetMarker, direct3d12.id3d12graphicscommandlist_setmarker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 04ec12fb-946b-46cc-aa3f-515a86b9a217
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EndPreprocessingPass, EndPreprocessingPass method [windows Media Format], EndPreprocessingPass method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],EndPreprocessingPass method, IWMWriterPreprocess.EndPreprocessingPass, IWMWriterPreprocess::EndPreprocessingPass, IWMWriterPreprocessEndPreprocessingPass, wmformat.iwmwriterpreprocess_endpreprocessingpass, wmsdkidl/IWMWriterPreprocess::EndPreprocessingPass
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -54,7 +52,7 @@ req.redist:
 
 
 
-The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://msdn.microsoft.com/593aaa1f-b0eb-43a0-bf73-e90225c07cdf">IWMWriterPreprocess::BeginPreprocessingPass</a>.
+The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798785(v=VS.85).aspx">IWMWriterPreprocess::BeginPreprocessingPass</a>.
 
 
 
@@ -144,7 +142,7 @@ There was an error ending the preprocessing path.
 
 
 
-<a href="https://msdn.microsoft.com/06803639-3f21-4003-a460-16a0b5cc6d6f">IWMWriterPreprocess Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798784(v=VS.85).aspx">IWMWriterPreprocess Interface</a>
  
 
  

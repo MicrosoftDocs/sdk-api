@@ -9,8 +9,6 @@ ms.assetid: A1DDA62D-D668-4292-9DFF-09B17A78A54E
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFCreateSensorGroup, MFCreateSensorGroup function [Media Foundation], mf.mfcreatesensorgroup, mfidl/MFCreateSensorGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

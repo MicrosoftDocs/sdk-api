@@ -9,8 +9,6 @@ ms.assetid: 1968c4e5-4b28-4387-a918-3326bc80bb3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

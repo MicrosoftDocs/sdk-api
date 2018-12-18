@@ -9,8 +9,6 @@ ms.assetid: fc861cbb-a14e-499e-8b80-f5912e4f6076
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 

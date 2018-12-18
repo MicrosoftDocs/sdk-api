@@ -9,8 +9,6 @@ ms.assetid: 86f6f991-7ba6-4dcc-86bd-03e44c799c22
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FrequencyMapping method, ITuningSpace.get_FrequencyMapping, ITuningSpace::get_FrequencyMapping, ITuningSpaceget_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_frequencymapping, tuner/ITuningSpace::get_FrequencyMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

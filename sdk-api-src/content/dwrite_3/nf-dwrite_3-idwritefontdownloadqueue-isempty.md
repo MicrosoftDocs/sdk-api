@@ -9,8 +9,6 @@ ms.assetid: 2f1f0d1c-0db8-c382-7879-92a889cfeb6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],IsEmpty method, IDWriteFontDownloadQueue.IsEmpty, IDWriteFontDownloadQueue::IsEmpty, IsEmpty, IsEmpty method [Direct Write], IsEmpty method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_isempty, dwrite_3/IDWriteFontDownloadQueue::IsEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite_3.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 Determines whether the download queue is empty. Note that the queue does not    
-    include requests that are already being downloaded. Calling <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>clears the queue.
+    include requests that are already being downloaded. Calling <a href="https://msdn.microsoft.com/en-us/library/Dn894554(v=VS.85).aspx">BeginDownload</a>clears the queue.
 
 
 ## -parameters
@@ -67,7 +65,7 @@ Determines whether the download queue is empty. Note that the queue does not
 
 Type: <b>BOOL</b>
 
-TRUE if the queue is empty, FALSE if there are requests pending for <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>.
+TRUE if the queue is empty, FALSE if there are requests pending for <a href="https://msdn.microsoft.com/en-us/library/Dn894554(v=VS.85).aspx">BeginDownload</a>.
 
 
 
@@ -77,7 +75,7 @@ TRUE if the queue is empty, FALSE if there are requests pending for <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>
  
 
  

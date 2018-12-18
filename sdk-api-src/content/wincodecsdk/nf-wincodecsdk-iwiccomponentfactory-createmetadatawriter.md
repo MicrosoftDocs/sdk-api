@@ -9,8 +9,6 @@ ms.assetid: e4e82125-bdaa-44c5-a370-22390764753b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMetadataWriter, CreateMetadataWriter method [Windows Imaging Component], CreateMetadataWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataWriter method, IWICComponentFactory.CreateMetadataWriter, IWICComponentFactory::CreateMetadataWriter, _wic_codec_iwiccomponentfactory_createmetadatawriter, wic._wic_codec_iwiccomponentfactory_createmetadatawriter, wincodecsdk/IWICComponentFactory::CreateMetadataWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

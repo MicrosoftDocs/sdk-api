@@ -9,8 +9,6 @@ ms.assetid: dbeeaac7-3841-42ec-a3f3-bdf94694dbef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DownloadContents property [Windows Update Agent], DownloadContents property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DownloadContents property, IUpdate.DownloadContents, IUpdate.get_DownloadContents, IUpdate::DownloadContents, IUpdate::get_DownloadContents, get_DownloadContents, wua.iupdate_downloadcontents, wuapi/IUpdate::DownloadContents, wuapi/IUpdate::get_DownloadContents
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

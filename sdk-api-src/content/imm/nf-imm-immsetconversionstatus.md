@@ -9,8 +9,6 @@ ms.assetid: cdf6ea84-bab9-4ecc-b2d1-748e5e28615f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ImmSetConversionStatus, ImmSetConversionStatus function [Internationalization for Windows Applications], _win32_ImmSetConversionStatus, imm/ImmSetConversionStatus, intl.immsetconversionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h

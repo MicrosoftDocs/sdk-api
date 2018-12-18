@@ -9,8 +9,6 @@ ms.assetid: d256b888-efa0-470e-b54f-5cf8ddd6fd8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetStringArray, GetStringArray method [Windows Runtime], GetStringArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetStringArray method, IPropertyValue.GetStringArray, IPropertyValue.IPropertyValue, IPropertyValue::GetStringArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetStringArray, winrt.ipropertyvalue_getstringarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.foundation.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the array of string values that is stored in the current <a href="https://msdn.microsoft.com/29a8e6e5-764b-4de9-84ea-97abdee6b02f">IPropertyValue</a> object.
+Gets the array of string values that is stored in the current <a href="https://msdn.microsoft.com/en-us/library/BR224510(v=VS.85).aspx">IPropertyValue</a> object.
 
 
 ## -parameters

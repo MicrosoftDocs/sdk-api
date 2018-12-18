@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertVectorFloatToUInt(XMVECT
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMConvertVectorFloatToUInt, XMConvertVectorFloatToUInt, XMConvertVectorFloatToUInt method [DirectX Math Support APIs], dxmath.xmconvertvectorfloattouint
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 
@@ -98,11 +96,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0642e272-63a1-4595-a6ca-0ec77af01559">XMConvertVectorFloatToInt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437932(v=VS.85).aspx">XMConvertVectorFloatToInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f93353d-a00b-47a5-b7cb-99b1e79a51f1">XMConvertVectorUIntToFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437937(v=VS.85).aspx">XMConvertVectorUIntToFloat</a>
  
 
  

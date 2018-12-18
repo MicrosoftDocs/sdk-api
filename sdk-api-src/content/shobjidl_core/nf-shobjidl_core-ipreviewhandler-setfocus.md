@@ -9,8 +9,6 @@ ms.assetid: 93667383-da56-4fe9-a79e-933ab9703365
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetFocus method, IPreviewHandler.SetFocus, IPreviewHandler::SetFocus, SetFocus, SetFocus method [Windows Shell], SetFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetFocus, shell.IPreviewHandler_SetFocus, shobjidl_core/IPreviewHandler::SetFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

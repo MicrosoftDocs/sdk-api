@@ -9,8 +9,6 @@ ms.assetid: 9f2a000a-0133-44f4-8e9c-7d37435596d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Locator method, ITuneRequest.get_Locator, ITuneRequest::get_Locator, ITuneRequestget_Locator, get_Locator, get_Locator method [Microsoft TV Technologies], get_Locator method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_locator, tuner/ITuneRequest::get_Locator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

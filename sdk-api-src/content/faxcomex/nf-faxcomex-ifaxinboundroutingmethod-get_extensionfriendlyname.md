@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_5nz9.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ExtensionFriendlyName property [Fax Service], ExtensionFriendlyName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionFriendlyName property, IFaxInboundRoutingMethod.ExtensionFriendlyName, IFaxInboundRoutingMethod.get_ExtensionFriendlyName, IFaxInboundRoutingMethod::ExtensionFriendlyName, IFaxInboundRoutingMethod::get_ExtensionFriendlyName, _mfax_faxinboundroutingmethod.extensionfriendlyname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionfriendlyname_cpp, fax._mfax_faxinboundroutingmethod_extensionfriendlyname, faxcomex/IFaxInboundRoutingMethod::ExtensionFriendlyName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionFriendlyName, get_ExtensionFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/8eb68201-4c87-41ce-a401-a039b5ad454d">FaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687469(v=VS.85).aspx">FaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca33c439-24e7-4b85-8e29-a0a0176f0ae2">IFaxInboundRoutingMethod</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687470(v=VS.85).aspx">IFaxInboundRoutingMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/cef24608-cab1-4090-aa94-3a1b76733e98">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693492(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

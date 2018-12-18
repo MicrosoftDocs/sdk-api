@@ -1,16 +1,14 @@
 ---
-UID: NS:wininet.AUTO_PROXY_SCRIPT_BUFFER
+UID: NS:wininet.__unnamed_struct_39
 title: AUTO_PROXY_SCRIPT_BUFFER
 author: windows-sdk-content
 description: The AUTO_PROXY_SCRIPT_BUFFER structure is used to pass an autoproxy script in a buffer to InternetInitializeAutoProxyDll , instead of identifying a file that InternetInitializeAutoProxyDll opens.
 old-location: wininet\auto_proxy_script_buffer.htm
-tech.root: WinInet
+tech.root: wininet
 ms.assetid: 4bbe875a-1eac-421a-90c6-ac60b2229b4c
 ms.author: windowssdkdev
-ms.date: 11/15/2018
+ms.date: 12/5/2018
 ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

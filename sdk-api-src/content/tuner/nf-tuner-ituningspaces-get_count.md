@@ -9,8 +9,6 @@ ms.assetid: df620224-5ee4-4cb6-973a-560dc9d9f4de
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_Count method, ITuningSpaces.get_Count, ITuningSpaces::get_Count, ITuningSpacesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_count, tuner/ITuningSpaces::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

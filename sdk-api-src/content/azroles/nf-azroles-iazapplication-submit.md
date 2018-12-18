@@ -9,8 +9,6 @@ ms.assetid: d00d55a1-884f-46c2-b80b-f90ce8f5c648
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzApplication object [Security],Submit method, IAzApplication interface [Security],Submit method, IAzApplication.Submit, IAzApplication::Submit, Submit, Submit method [Security], Submit method [Security],AzApplication object, Submit method [Security],IAzApplication interface, azroles/IAzApplication::Submit, security.iazapplication_submit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

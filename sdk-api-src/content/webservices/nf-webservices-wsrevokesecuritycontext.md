@@ -9,8 +9,6 @@ ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

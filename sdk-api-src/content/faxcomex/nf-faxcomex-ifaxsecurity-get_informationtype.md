@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.get_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, get_InformationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read/write.
 
 
 
-The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a> object using the <a href="https://msdn.microsoft.com/32e13dff-72a5-4968-9f86-12fff06bd06a">IFaxSecurity::Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>IFaxSecurity</b> object using the <a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">IFaxSecurity::Save</a> method.
+The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">IFaxSecurity::Descriptor</a> property or when refreshing the <a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a> object using the <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IFaxSecurity::Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>IFaxSecurity</b> object using the <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method.
 
 The bits are specified in the <a href="https://msdn.microsoft.com/en-us/library/Aa379573(v=VS.85).aspx">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service.
 
@@ -92,7 +90,7 @@ The bits are specified in the <a href="https://msdn.microsoft.com/en-us/library/
 </table>
  
 
-You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
+You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
 
 
 

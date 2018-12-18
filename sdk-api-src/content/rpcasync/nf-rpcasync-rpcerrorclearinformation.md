@@ -9,8 +9,6 @@ ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

@@ -9,8 +9,6 @@ ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: winsxs.h
 req.include-header: 

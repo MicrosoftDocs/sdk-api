@@ -9,8 +9,6 @@ ms.assetid: 30F27963-DF93-46B6-A30E-F89AD634C987
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: D2D1_YCBCR_INTERPOLATION_MODE, D2D1_YCBCR_INTERPOLATION_MODE enumeration [Direct2D], D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects_1/D2D1_YCBCR_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_ycbcr_interpolation_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: d2d1effects_1.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Specifies the interpolation mode for the <a href="https://msdn.microsoft.com/en-us/library/Dn280624(v=VS.85).aspx">YCbCr effect</a>.
+Specifies the interpolation mode for the <a href="https://msdn.microsoft.com/E4492996-54DA-4C5F-B44C-8FBE97C8DD7D">YCbCr effect</a>.
 
 
 ## -enum-fields

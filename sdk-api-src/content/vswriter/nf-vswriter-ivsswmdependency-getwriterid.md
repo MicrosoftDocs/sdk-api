@@ -9,8 +9,6 @@ ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetWriterId, GetWriterId method [VSS], GetWriterId method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetWriterId method, IVssWMDependency.GetWriterId, IVssWMDependency::GetWriterId, _win32_ivsswmdependency_getwriterid, base.ivsswmdependency_getwriterid, vswriter/IVssWMDependency::GetWriterId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

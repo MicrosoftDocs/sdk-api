@@ -9,8 +9,6 @@ ms.assetid: 6bf59735-aaa3-4751-8c98-00cc197df4e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSecurityDescriptorSacl, GetSecurityDescriptorSacl function [Security], _win32_getsecuritydescriptorsacl, security.getsecuritydescriptorsacl, securitybaseapi/GetSecurityDescriptorSacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: Windows.h

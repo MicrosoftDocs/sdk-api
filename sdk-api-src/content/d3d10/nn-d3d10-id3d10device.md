@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], ID3D10Device interface [Direct3D 10],described, ac9e57ea-6b44-febb-6528-dfb8cc6740db, d3d10/ID3D10Device, direct3d10.id3d10device
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -56,7 +54,7 @@ The device interface represents a virtual adapter for Direct3D 10.0; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxlegacy_0nlg.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxJob interface [Fax Service],PageCount property, IFaxJob.PageCount, IFaxJob.get_PageCount, IFaxJob::PageCount, IFaxJob::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_get_pagecount, fax._mfax_ifaxjob_mfax_ifaxjob_get_pagecount_cpp, faxcom/IFaxJob::PageCount, faxcom/IFaxJob::get_PageCount, get_PageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 
@@ -63,9 +61,9 @@ This property is read-only.
 
 
 
-The total page count is only available for faxes where <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> returns JT_SEND. If the page count is not available, <b>IFaxJob::get_PageCount</b> returns zero.
+The total page count is only available for faxes where <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IFaxJob::get_Type</a> returns JT_SEND. If the page count is not available, <b>IFaxJob::get_PageCount</b> returns zero.
 
-The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a> property equal to JT_SEND. If the page count is not available, the <b>IFaxJob::get_PageCount</b> property is zero.
+The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IFaxJob::get_Type</a> property equal to JT_SEND. If the page count is not available, the <b>IFaxJob::get_PageCount</b> property is zero.
 
 
 
@@ -87,7 +85,7 @@ The total page count is only available for faxes that have a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">IFaxJob::get_Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IFaxJob::get_Type</a>
 
 
 

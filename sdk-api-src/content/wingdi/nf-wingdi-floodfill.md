@@ -9,8 +9,6 @@ ms.assetid: e53bebb5-4e46-4ea4-8d41-c12f4c6645ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FloodFill, FloodFill function [Windows GDI], _win32_FloodFill, gdi.floodfill, wingdi/FloodFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

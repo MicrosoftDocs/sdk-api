@@ -9,8 +9,6 @@ ms.assetid: 6ca7fe28-53e1-49e0-ab3c-4e8e4343c88c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MprAdminAcceptNewConnection, MprAdminAcceptNewConnection callback, MprAdminAcceptNewConnection callback function [RAS], _mpr_mpradminacceptnewconnection, mprapi/MprAdminAcceptNewConnection, rras.mpradminacceptnewconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

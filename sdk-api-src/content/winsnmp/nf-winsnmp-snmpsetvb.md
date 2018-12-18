@@ -9,8 +9,6 @@ ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 
@@ -74,13 +72,13 @@ Specifies an unsigned long integer variable that contains the position of the va
 ### -param name [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a> structure that represents the name of the variable to append or change. For more information, see the following Remarks section.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a> structure that represents the name of the variable to append or change. For more information, see the following Remarks section.
 
 
 ### -param value [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a> structure. The structure contains the value associated with the variable specified by the <i>name</i> parameter.
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a> structure. The structure contains the value associated with the variable specified by the <i>name</i> parameter.
 
 
 ## -returns
@@ -217,11 +215,11 @@ If the <i>index</i> parameter is not equal to zero, and the <i>name</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/0bdf900e-6e67-4461-97bc-4c9650d888bf">smiOID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377996(v=VS.85).aspx">smiOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5e8f321-54b2-469d-bdd3-9867fd85b447">smiVALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377997(v=VS.85).aspx">smiVALUE</a>
  
 
  

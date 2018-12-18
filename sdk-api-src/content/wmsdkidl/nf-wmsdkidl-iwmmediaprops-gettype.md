@@ -9,8 +9,6 @@ ms.assetid: d878caf9-2cd2-4b1d-b204-a43fe947c4c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetType method, IWMMediaProps.GetType, IWMMediaProps::GetType, IWMMediaPropsGetType, wmformat.iwmmediaprops_gettype, wmsdkidl/IWMMediaProps::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -114,7 +112,7 @@ The <i>pguidType</i> parameter is <b>NULL</b>.
 
 These media types are used by the writer, reader, and profile objects to identify the properties of a media stream that are specific to the media type.
 
-<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://msdn.microsoft.com/37a9ac59-e152-47e1-96ee-b816cd645936">WM_MEDIA_TYPE</a>.
+<b>GetType</b> is provided for convenience; it returns the same value as the <b>majortype</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx">WM_MEDIA_TYPE</a>.
 
 
 
@@ -124,15 +122,15 @@ These media types are used by the writer, reader, and profile objects to identif
 
 
 
-<a href="https://msdn.microsoft.com/a81abd80-e487-421c-ba81-9b43c4233084">IWMMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8357e5c6-d8c6-4a30-8446-85fa7fa118f7">IWMMediaProps::GetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">IWMMediaProps::GetMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d6ba1d8-b046-450b-a3f9-4810faba5b77">IWMVideoMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798711(v=VS.85).aspx">IWMVideoMediaProps Interface</a>
 
 
 

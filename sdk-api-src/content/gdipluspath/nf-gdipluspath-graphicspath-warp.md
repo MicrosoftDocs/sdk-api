@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graph
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GraphicsPath class [GDI+],Warp method, GraphicsPath.Warp, GraphicsPath::Warp, Warp, Warp method [GDI+], Warp method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_, gdiplus._gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

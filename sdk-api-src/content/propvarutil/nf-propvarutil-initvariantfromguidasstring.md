@@ -9,8 +9,6 @@ ms.assetid: 2a78257a-a8ce-45e8-aea2-dfa9f380528a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: InitVariantFromGUIDAsString, InitVariantFromGUIDAsString function [Windows Shell], _shell_InitVariantFromGUIDAsString, properties.InitVariantFromGUIDAsString, propvarutil/InitVariantFromGUIDAsString
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as a <b>VT_BSTR</b> type.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as a <b>VT_BSTR</b> type.
 
 
 ## -parameters
@@ -69,7 +67,7 @@ Reference to the source <b>GUID</b>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns

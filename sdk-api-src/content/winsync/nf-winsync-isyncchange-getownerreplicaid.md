@@ -9,8 +9,6 @@ ms.assetid: c65dc19e-e11a-4bd1-b10f-f2af75294d48
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetOwnerReplicaId method, ISyncChange.GetOwnerReplicaId, ISyncChange::GetOwnerReplicaId, winsync.isyncchange_getownerreplicaid, winsync/ISyncChange::GetOwnerReplicaId
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

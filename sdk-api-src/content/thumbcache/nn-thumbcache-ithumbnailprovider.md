@@ -9,8 +9,6 @@ ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: 

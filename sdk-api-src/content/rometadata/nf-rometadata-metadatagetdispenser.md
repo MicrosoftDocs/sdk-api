@@ -9,8 +9,6 @@ ms.assetid: F540CD4F-BDFB-44F8-B3A8-BFDA9199F2B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtime], rometadata/MetaDataGetDispenser, winrt.metadatagetdispenser
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rometadata.h
 req.include-header: 

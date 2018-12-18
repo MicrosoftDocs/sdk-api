@@ -9,8 +9,6 @@ ms.assetid: 6c0145e0-974e-42b2-936e-9396f5c96e72
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Connect, Connect method [WinLocation], Connect method [WinLocation],ILocationPower interface, ILocationPower interface [WinLocation],Connect method, ILocationPower.Connect, ILocationPower::Connect, WinLocation_COM_Ref.ilocationpower_connect, locationapi/ILocationPower::Connect, winlocation.ilocationpower_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: locationapi.h
 req.include-header: 

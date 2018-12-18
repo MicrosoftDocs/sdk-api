@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchman
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchManager interface [search],get_PortNumber method, ISearchManager.get_PortNumber, ISearchManager::get_PortNumber, _search_ISearchManager_get_PortNumber, get_PortNumber, get_PortNumber method [search], get_PortNumber method [search],ISearchManager interface, search._search_ISearchManager_get_PortNumber, searchapi/ISearchManager::get_PortNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

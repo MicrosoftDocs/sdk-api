@@ -9,8 +9,6 @@ ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

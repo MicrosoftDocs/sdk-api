@@ -9,8 +9,6 @@ ms.assetid: 1f03a556-feb7-40c7-a3df-818de6873049
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AM_MPEG2Profile, AM_MPEG2Profile enumeration [DirectShow], AM_MPEG2Profile_High, AM_MPEG2Profile_Main, AM_MPEG2Profile_SNRScalable, AM_MPEG2Profile_Simple, AM_MPEG2Profile_SpatiallyScalable, MPEG2ProfileEnumeration, dshow.am_mpeg2profile, dvdmedia/AM_MPEG2Profile, dvdmedia/AM_MPEG2Profile_High, dvdmedia/AM_MPEG2Profile_Main, dvdmedia/AM_MPEG2Profile_SNRScalable, dvdmedia/AM_MPEG2Profile_Simple, dvdmedia/AM_MPEG2Profile_SpatiallyScalable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: dvdmedia.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10device_pssetsamplers.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5f7069fa-43fc-1459-30dc-3cb118f8bb46, ID3D10Device interface [Direct3D 10],PSSetSamplers method, ID3D10Device.PSSetSamplers, ID3D10Device::PSSetSamplers, PSSetSamplers, PSSetSamplers method [Direct3D 10], PSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSSetSamplers, direct3d10.id3d10device_pssetsamplers
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 
@@ -61,14 +59,14 @@ Set an array of sampler states to the <a href="https://msdn.microsoft.com/librar
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Index into the device's zero-based array to begin setting samplers to.
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of samplers in the array. Each pipeline stage has a total of 16 sampler slots available.
 

@@ -7,10 +7,8 @@ old-location: base\powerwritesettingattributes.htm
 tech.root: power
 ms.assetid: 9c18f79a-809b-4e48-a749-5de061566362
 ms.author: windowssdkdev
-ms.date: 10/05/2018
+ms.date: 12/5/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, POWER_ATTRIBUTE_HIDE, PowerWriteSettingAttributes, PowerWriteSettingAttributes function, base.powerwritesettingattributes, powrprof/PowerWriteSettingAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

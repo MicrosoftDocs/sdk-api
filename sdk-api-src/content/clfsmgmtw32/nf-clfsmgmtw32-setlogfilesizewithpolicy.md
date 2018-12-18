@@ -9,8 +9,6 @@ ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 36c509a2-6592-4fa0-8e4a-4b21f4cf7a13
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_RotationTypeIsPureCAV method, IWriteSpeedDescriptor.get_RotationTypeIsPureCAV, IWriteSpeedDescriptor::get_RotationTypeIsPureCAV, get_RotationTypeIsPureCAV, get_RotationTypeIsPureCAV method [IMAPI], get_RotationTypeIsPureCAV method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_rotationtypeispurecav, imapi2/IWriteSpeedDescriptor::get_RotationTypeIsPureCAV
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

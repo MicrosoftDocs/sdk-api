@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorInsert(XMVECTOR,XMVEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorInsert, XMVectorInsert, XMVectorInsert method [DirectX Math Support APIs], dxmath.xmvectorinsert
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -114,7 +112,7 @@ Returns the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531
 For best performance, the result of
    <b>XMVectorInsert</b>should be assigned back to <i>VD</i>.
 
-For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/d96248a6-35ef-4d37-a929-ac7ea00a6d08">XMVectorInsert</a>:
+For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855943(v=VS.85).aspx">XMVectorInsert</a>:
 
 
 ```
@@ -140,19 +138,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/212c9381-6bde-4a09-9710-e2e3fe54f405">XMVectorPermute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12f6450-683d-431f-98d3-324b6c5cdf8f">XMVectorRotateLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx">XMVectorRotateLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea47a1a6-6f59-4933-99b1-1b4a67038a6e">XMVectorRotateRight</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d0a0795-1eb6-4189-8307-52deeb99a4ba">XMVectorShiftLeft</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx">XMVectorShiftLeft</a>
  
 
  

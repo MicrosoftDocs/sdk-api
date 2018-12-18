@@ -9,8 +9,6 @@ ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IURLSearchHook interface [Windows Shell],Translate method, IURLSearchHook.Translate, IURLSearchHook::Translate, Translate, Translate method [Windows Shell], Translate method [Windows Shell],IURLSearchHook interface, _win32_IURLSearchHook_Translate, shell.IURLSearchHook_Translate, shlobj_core/IURLSearchHook::Translate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shlobj_core.h
 req.include-header: 

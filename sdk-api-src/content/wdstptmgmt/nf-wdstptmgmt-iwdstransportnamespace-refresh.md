@@ -9,8 +9,6 @@ ms.assetid: 9d5742e0-4197-4a15-82c6-5623940c0c7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Refresh method, IWdsTransportNamespace.Refresh, IWdsTransportNamespace::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_refresh, wdstptmgmt/IWdsTransportNamespace::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

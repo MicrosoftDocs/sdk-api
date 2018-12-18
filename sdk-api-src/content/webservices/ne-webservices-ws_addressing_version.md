@@ -1,5 +1,5 @@
 ---
-UID: NE:webservices.WS_ADDRESSING_VERSION
+UID: NE:webservices.__unnamed_enum_44
 title: WS_ADDRESSING_VERSION
 author: windows-sdk-content
 description: Identifies the version of the specification used for the addressing headers.
@@ -7,10 +7,8 @@ old-location: wsw\ws_addressing_version.htm
 tech.root: wsw
 ms.assetid: 87f60067-109c-456c-b060-33ab840872e0
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: WS_ADDRESSING_VERSION, WS_ADDRESSING_VERSION enumeration [Web Services for Windows], WS_ADDRESSING_VERSION_0_9, WS_ADDRESSING_VERSION_1_0, WS_ADDRESSING_VERSION_TRANSPORT, webservices/WS_ADDRESSING_VERSION, webservices/WS_ADDRESSING_VERSION_0_9, webservices/WS_ADDRESSING_VERSION_1_0, webservices/WS_ADDRESSING_VERSION_TRANSPORT, wsw.ws_addressing_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 
@@ -82,13 +80,13 @@ This addressing version indicates that the only addressing headers
                     as part of the SOAP envelope).
                 
 
-The <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_ACTION_HEADER</a> and <b>WS_TO_HEADER</b> are
+The <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_ACTION_HEADER</a> and <b>WS_TO_HEADER</b> are
                     automatically mapped to/from the transport-specific message locations
                     when messages are sent/received.  Use of other <b>WS_HEADER_TYPE</b>are not supported for this addressing version.
                 
 
-This addressing version is only supported for <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
+This addressing version is only supported for <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_HTTP_CHANNEL_BINDING</a>.
                     Since the SOAP over HTTP protocol does not support sending an action on a reply,
-                    the value of the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_ACTION_HEADER</a> will not be transmitted by the channel.
+                    the value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401897(v=VS.85).aspx">WS_ACTION_HEADER</a> will not be transmitted by the channel.
                 
 

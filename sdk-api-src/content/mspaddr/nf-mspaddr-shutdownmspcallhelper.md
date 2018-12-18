@@ -9,8 +9,6 @@ ms.assetid: 66f7b743-6100-45b9-98b0-3bacfcffed15
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAddress,ShutdownMSPCallHelper, CMSPAddress.ShutdownMSPCallHelper, ShutdownMSPCallHelper, ShutdownMSPCallHelper method [TAPI 2.2], ShutdownMSPCallHelper method [TAPI 2.2],CMSPAddress object, ShutdownMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_shutdownmspcallhelper, tapi3.cmspaddress_shutdownmspcallhelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mspaddr.h
 req.include-header: 
@@ -83,7 +81,7 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/864bf814-43dd-4d2b-a5a7-fff12520accb">CMSPAddress</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a>
  
 
  

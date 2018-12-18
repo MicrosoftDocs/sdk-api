@@ -9,8 +9,6 @@ ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymEnumSourceLines, SymEnumSourceLines function, SymEnumSourceLinesW, base.symenumsourcelines, dbghelp/SymEnumSourceLines, dbghelp/SymEnumSourceLinesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 87eb8e34-046e-46a5-9d9b-efeb6fa03485
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h
@@ -75,7 +73,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964308(v=VS.85).aspx">IEnumBitsPeers</a>
+<a href="https://msdn.microsoft.com/2715a58c-ba76-4223-ad9e-453d029e0eda">IEnumBitsPeers</a>
  
 
  

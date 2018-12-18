@@ -9,8 +9,6 @@ ms.assetid: bf9ec856-951e-4a75-a136-9fa6eaf9e8cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetRecordNumberOfServices, GetRecordNumberOfServices method [Microsoft TV Technologies], GetRecordNumberOfServices method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordNumberOfServices method, IIsdbTSInformationDescriptor.GetRecordNumberOfServices, IIsdbTSInformationDescriptor::GetRecordNumberOfServices, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordNumberOfServices, mstv.iisdbtsinformationdescriptor_getrecordnumberofservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

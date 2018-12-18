@@ -9,8 +9,6 @@ ms.assetid: 98cb412b-9742-4f94-a470-61e675f6b253
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleAssignment method, IAzScope2.CreateRoleAssignment, IAzScope2::CreateRoleAssignment, azroles/IAzScope2::CreateRoleAssignment, security.iazscope2_createroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -67,7 +65,7 @@ A string that contains the name of the new <a href="https://msdn.microsoft.com/3
 
 The address of  a pointer to the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object that this method creates.
 
-When you have finished using the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+When you have finished using the <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object, release it by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method.
 
 
 ## -returns

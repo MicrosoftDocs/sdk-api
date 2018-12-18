@@ -9,8 +9,6 @@ ms.assetid: 6cb7817b-6df3-4a6a-a666-b41c2eb0b118
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: TSPI_providerInit, TSPI_providerInit function [TAPI 2.2], _tspi_tspi_providerinit, tspi.tspi_providerinit, tspi/TSPI_providerInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: tspi.h
 req.include-header: 

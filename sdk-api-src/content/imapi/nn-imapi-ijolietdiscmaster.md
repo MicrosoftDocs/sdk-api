@@ -9,8 +9,6 @@ ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 

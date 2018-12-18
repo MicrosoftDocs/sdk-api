@@ -9,8 +9,6 @@ ms.assetid: d9f739ea-3df5-4275-868a-3e0d611254c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_DirectionsInUse method, ITMultiTrackTerminal.get_DirectionsInUse, ITMultiTrackTerminal::get_DirectionsInUse, _tapi3_itmultitrackterminal_get_directionsinuse, get_DirectionsInUse, get_DirectionsInUse method [TAPI 2.2], get_DirectionsInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_directionsinuse, tapi3if/ITMultiTrackTerminal::get_DirectionsInUse
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

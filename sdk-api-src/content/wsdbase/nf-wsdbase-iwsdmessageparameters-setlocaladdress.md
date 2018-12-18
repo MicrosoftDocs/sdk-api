@@ -9,8 +9,6 @@ ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

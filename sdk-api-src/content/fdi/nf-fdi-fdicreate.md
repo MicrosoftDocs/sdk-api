@@ -9,8 +9,6 @@ ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: fdi.h
 req.include-header: 
@@ -143,7 +141,7 @@ Only 80286 instructions can be used.
 
 ### -param perf [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure that receives the error information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure that receives the error information.
 
 
 ## -returns
@@ -152,7 +150,7 @@ Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25
 
 If the function succeeds, it returns a non-<b>NULL</b> HFDI context pointer; otherwise, it returns <b>NULL</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure.
+Extended error information is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure.
 
 
 

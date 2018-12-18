@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 9], GetVertexShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShader method, IDirect3DDevice9.GetVertexShader, IDirect3DDevice9::GetVertexShader, ce5c5bb1-c3dc-79d2-8932-365b84538ce0, d3d9helper/IDirect3DDevice9::GetVertexShader, direct3d9.idirect3ddevice9__getvertexshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

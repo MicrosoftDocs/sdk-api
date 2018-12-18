@@ -9,8 +9,6 @@ ms.assetid: 1bf0b337-01de-4ce3-851f-d845866fb46f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ColorHLSToRGB, ColorHLSToRGB function [Windows Shell], _win32_ColorHLSToRGB, shell.ColorHLSToRGB, shlwapi/ColorHLSToRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

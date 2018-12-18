@@ -9,8 +9,6 @@ ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetConnectInfo method, IVPBaseConfig.SetConnectInfo, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 
@@ -63,7 +61,7 @@ The <code>SetConnectInfo</code> method sets the video port connection parameters
 
 ### -param dwChosenEntry [in]
 
-Specifies the index of connect information to pass to the driver. The value is a zero-based index into the array returned by the <a href="https://msdn.microsoft.com/b428e77a-83c3-42ce-95e4-1cdde4da066d">IVPBaseConfig::GetConnectInfo</a> method.
+Specifies the index of connect information to pass to the driver. The value is a zero-based index into the array returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd390568(v=VS.85).aspx">IVPBaseConfig::GetConnectInfo</a> method.
 
 
 ## -returns
@@ -93,7 +91,7 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/d9a4f395-3d2f-429a-884d-90131927a929">IVPBaseConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
  
 
  

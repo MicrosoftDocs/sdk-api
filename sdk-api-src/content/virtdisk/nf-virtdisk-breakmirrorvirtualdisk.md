@@ -9,8 +9,6 @@ ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: 
@@ -62,8 +60,8 @@ Breaks a previously initiated mirror operation and sets the mirror to be the act
 ### -param VirtualDiskHandle [in]
 
 A handle to the open mirrored virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a> function. For information on how to 
-      mirror a virtual disk, see the <a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
+      mirror a virtual disk, see the <a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a> 
       function.
 
 
@@ -86,11 +84,11 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/08e2a82d-9110-42b1-be09-dc5150da42f6">OpenVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>
 
 
 

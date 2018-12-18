@@ -9,8 +9,6 @@ ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -160,7 +158,7 @@ This method must be called before the Video Renderer is connected.
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

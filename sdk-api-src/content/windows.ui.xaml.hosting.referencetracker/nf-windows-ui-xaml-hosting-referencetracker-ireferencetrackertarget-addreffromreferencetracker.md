@@ -9,8 +9,6 @@ ms.assetid: 91c02fd8-a210-4e6a-ab60-43ea7c1312be
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddRefFromReferenceTracker, AddRefFromReferenceTracker method [Windows Runtime], AddRefFromReferenceTracker method [Windows Runtime],IReferenceTrackerTarget interface, IReferenceTrackerTarget interface [Windows Runtime],AddRefFromReferenceTracker method, IReferenceTrackerTarget.AddRefFromReferenceTracker, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::AddRefFromReferenceTracker, IReferenceTrackerTarget::xaml, windows/IReferenceTrackerTarget::AddRefFromReferenceTracker, winrt.ireferencetrackertarget_addreffromreferencetracker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

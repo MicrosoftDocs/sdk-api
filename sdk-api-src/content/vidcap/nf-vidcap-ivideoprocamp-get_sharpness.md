@@ -9,8 +9,6 @@ ms.assetid: 12cb9934-4cef-4356-9b59-6b4e6caca573
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Sharpness method, IVideoProcAmp.get_Sharpness, IVideoProcAmp::get_Sharpness, IVideoProcAmpget_Sharpness, dshow.ivideoprocamp_get_sharpness, get_Sharpness, get_Sharpness method [DirectShow], get_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Sharpness
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -65,7 +63,7 @@ Receives the sharpness setting. Larger values indicate increasing sharpness.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/42876f3b-d2b9-4ddb-85c0-80f5177eef6b">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -86,7 +84,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/efaef34a-688a-4c7d-b8ee-e0f52468e355">IVideoProcAmp Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
  
 
  

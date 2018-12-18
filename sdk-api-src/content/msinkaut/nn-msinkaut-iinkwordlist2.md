@@ -9,8 +9,6 @@ ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

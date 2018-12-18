@@ -9,8 +9,6 @@ ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: NetLocalGroupDelMember, NetLocalGroupDelMember function [Network Management], _win32_netlocalgroupdelmember, lmaccess/NetLocalGroupDelMember, netmgmt.netlocalgroupdelmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

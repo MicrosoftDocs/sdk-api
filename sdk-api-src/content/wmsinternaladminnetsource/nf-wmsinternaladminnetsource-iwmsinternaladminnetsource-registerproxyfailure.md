@@ -9,8 +9,6 @@ ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],RegisterProxyFailure method, IWMSInternalAdminNetSource.RegisterProxyFailure, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
@@ -85,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0fbdad85-d94a-4598-bb25-f733df33692a">IWMSInternalAdminNetSource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
  
 
  

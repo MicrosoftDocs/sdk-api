@@ -9,8 +9,6 @@ ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
@@ -112,7 +110,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802717(v=VS.85).aspx">ICameraUIControl</a>
+<a href="https://msdn.microsoft.com/e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9">ICameraUIControl</a>
  
 
  

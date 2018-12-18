@@ -9,8 +9,6 @@ ms.assetid: a054fb71-66ab-46fd-be19-2237f05662bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, INTERNET_STATUS_CALLBACK, INTERNET_STATUS_CALLBACK callback function [WinINet], INTERNET_STATUS_CLOSING_CONNECTION, INTERNET_STATUS_CONNECTED_TO_SERVER, INTERNET_STATUS_CONNECTING_TO_SERVER, INTERNET_STATUS_CONNECTION_CLOSED, INTERNET_STATUS_COOKIE_HISTORY, INTERNET_STATUS_COOKIE_RECEIVED, INTERNET_STATUS_COOKIE_SENT, INTERNET_STATUS_CTL_RESPONSE_RECEIVED, INTERNET_STATUS_DETECTING_PROXY, INTERNET_STATUS_HANDLE_CLOSING, INTERNET_STATUS_HANDLE_CREATED, INTERNET_STATUS_INTERMEDIATE_RESPONSE, INTERNET_STATUS_NAME_RESOLVED, INTERNET_STATUS_P3P_HEADER, INTERNET_STATUS_P3P_POLICYREF, INTERNET_STATUS_PREFETCH, INTERNET_STATUS_PRIVACY_IMPACTED, INTERNET_STATUS_RECEIVING_RESPONSE, INTERNET_STATUS_REDIRECT, INTERNET_STATUS_REQUEST_COMPLETE, INTERNET_STATUS_REQUEST_SENT, INTERNET_STATUS_RESOLVING_NAME, INTERNET_STATUS_RESPONSE_RECEIVED, INTERNET_STATUS_SENDING_REQUEST, INTERNET_STATUS_STATE_CHANGE, INTERNET_STATUS_USER_INPUT_REQUIRED, InternetStatusCallback, InternetStatusCallback callback, InternetStatusCallback callback function [WinINet], _inet_internet_status_callback_prototype, wininet.internetstatuscallback, wininet/InternetStatusCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: callback
 req.header: wininet.h
 req.include-header: 
@@ -295,7 +293,7 @@ An HTTP request is about to automatically redirect the request. The
 <td width="60%">
 An asynchronous operation has been completed. The 
 <i>lpvStatusInformation</i> parameter contains the address of an 
-<a href="https://msdn.microsoft.com/e86fb4fd-8601-42e1-8c8e-9747a24459f9">INTERNET_ASYNC_RESULT</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385129(v=VS.85).aspx">INTERNET_ASYNC_RESULT</a> structure.
 
 </td>
 </tr>
@@ -474,7 +472,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/e86fb4fd-8601-42e1-8c8e-9747a24459f9">INTERNET_ASYNC_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385129(v=VS.85).aspx">INTERNET_ASYNC_RESULT</a>
 
 
 

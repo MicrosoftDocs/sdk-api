@@ -9,8 +9,6 @@ ms.assetid: 00f4ab59-8808-4bcb-8258-5aad113ad2b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

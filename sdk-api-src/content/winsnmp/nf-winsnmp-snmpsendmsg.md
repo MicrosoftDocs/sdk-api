@@ -9,8 +9,6 @@ ms.assetid: c4b9f4bb-24f0-4b5e-b12d-8be839b34895
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SnmpSendMsg, SnmpSendMsg function [SNMP], _snmp_snmpsendmsg, snmp.snmpsendmsg, winsnmp/SnmpSendMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

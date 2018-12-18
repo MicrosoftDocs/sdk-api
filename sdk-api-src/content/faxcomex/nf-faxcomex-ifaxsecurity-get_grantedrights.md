@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_4wab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GrantedRights property [Fax Service], GrantedRights property [Fax Service],IFaxSecurity interface, IFaxSecurity interface [Fax Service],GrantedRights property, IFaxSecurity.GrantedRights, IFaxSecurity.get_GrantedRights, IFaxSecurity::GrantedRights, IFaxSecurity::get_GrantedRights, _mfax_faxsecurity.grantedrights, fax._mfax_faxsecurity_cpp_mfax_faxsecurity_grantedrights_cpp, fax._mfax_faxsecurity_grantedrights, faxcomex/IFaxSecurity::GrantedRights, faxcomex/IFaxSecurity::get_GrantedRights, get_GrantedRights
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -64,9 +62,9 @@ This property is read-only.
 
 
 
-The <b>IFaxSecurity::get_GrantedRights</b> property reflects rights granted by the fax server, while the <a href="https://msdn.microsoft.com/a8e4a0c4-324a-4337-a69b-c934bc261b34">IFaxSecurity::Descriptor</a> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
+The <b>IFaxSecurity::get_GrantedRights</b> property reflects rights granted by the fax server, while the <a href="https://msdn.microsoft.com/en-us/library/Aa358834(v=VS.85).aspx">IFaxSecurity::Descriptor</a> property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
 
-To read this property, a user must have the <a href="https://msdn.microsoft.com/70d729c6-8299-47d7-8dea-f7c754a25531">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a> access right.
 
 
 
@@ -76,11 +74,11 @@ To read this property, a user must have the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04">FaxSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8dabda0-29aa-4ef2-a797-14aae1d8b539">IFaxSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689510(v=VS.85).aspx">IFaxSecurity</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 677bb4e2-4ae9-4e79-96a3-d4961e317886
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetUnderline method, IDWriteTextLayout.SetUnderline, IDWriteTextLayout::SetUnderline, SetUnderline, SetUnderline method [Direct Write], SetUnderline method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetUnderline, dwrite/IDWriteTextLayout::SetUnderline
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 9571bff3-dfe5-48fa-be51-38d61da40414
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeleteApplicationGroup method, DeleteApplicationGroup, DeleteApplicationGroup method [Security], DeleteApplicationGroup method [Security],AzScope object, DeleteApplicationGroup method [Security],IAzScope interface, IAzScope interface [Security],DeleteApplicationGroup method, IAzScope.DeleteApplicationGroup, IAzScope::DeleteApplicationGroup, azroles/IAzScope::DeleteApplicationGroup, security.iazscope_deleteapplicationgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ## -description
 
 
-The <b>DeleteApplicationGroup</b> method removes the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object with the specified name from the <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object.
+The <b>DeleteApplicationGroup</b> method removes the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object with the specified name from the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object.
 
 
 ## -parameters
@@ -61,7 +59,7 @@ The <b>DeleteApplicationGroup</b> method removes the <a href="https://msdn.micro
 
 ### -param bstrGroupName [in]
 
-Name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to delete.
+Name of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to delete.
 
 
 ### -param varReserved [in, optional]
@@ -73,7 +71,7 @@ Reserved for future use.
 
 
 
-If there are any <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
+If there are any <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> references to an <b>IAzApplicationGroup</b> object that has been deleted from the cache, the <b>IAzApplicationGroup</b> object can no longer be used. In C++, you must release references to deleted <b>IAzApplicationGroup</b> objects by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
 
 
 

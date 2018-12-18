@@ -9,8 +9,6 @@ ms.assetid: a61c0df9-786e-45e7-8b3d-f950decc596d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMoniker interface [COM],IsSystemMoniker method, IMoniker.IsSystemMoniker, IMoniker::IsSystemMoniker, IsSystemMoniker, IsSystemMoniker method [COM], IsSystemMoniker method [COM],IMoniker interface, _com_imoniker_issystemmoniker, com.imoniker_issystemmoniker, objidl/IMoniker::IsSystemMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

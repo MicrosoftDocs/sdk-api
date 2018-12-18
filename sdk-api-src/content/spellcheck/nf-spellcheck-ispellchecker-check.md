@@ -9,8 +9,6 @@ ms.assetid: 687d7e2f-13b1-4871-8850-2b179a6ce786
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Check method, ISpellChecker.Check, ISpellChecker::Check, intl.ispellchecker_check, spellcheck/ISpellChecker::Check
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

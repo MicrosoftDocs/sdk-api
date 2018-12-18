@@ -9,8 +9,6 @@ ms.assetid: 0aaa4d8e-e760-4e22-90fe-e5667fafa113
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDigitalLocatorput_OuterFEC, ILocator interface [Microsoft TV Technologies],put_OuterFEC method, ILocator.put_OuterFEC, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFEC
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

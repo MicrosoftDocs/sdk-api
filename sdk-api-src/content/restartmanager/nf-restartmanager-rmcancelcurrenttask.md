@@ -9,8 +9,6 @@ ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: FD356AA9-F4BC-4864-8A9F-994EB527E123
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetSpatialAudioMetadataItems, GetSpatialAudioMetadataItems method [Core Audio], GetSpatialAudioMetadataItems method [Core Audio],ISpatialAudioObjectForMetadataItems interface, ISpatialAudioObjectForMetadataItems interface [Core Audio],GetSpatialAudioMetadataItems method, ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems, ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_getspatialaudiometadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h

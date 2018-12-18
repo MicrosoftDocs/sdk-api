@@ -9,8 +9,6 @@ ms.assetid: 5e5b3f26-332a-456e-875f-12e440ae67ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ActivateProfile, ActivateProfile method [Text Services Framework], ActivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],ActivateProfile method, ITfInputProcessorProfileMgr.ActivateProfile, ITfInputProcessorProfileMgr::ActivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_DONTCARECURRENTINPUTLANGUAGE, TF_IPPMF_ENABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::ActivateProfile, tsf.itfinputprocessorprofilemgr_activateprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

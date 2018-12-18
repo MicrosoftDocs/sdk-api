@@ -9,8 +9,6 @@ ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],refreshStatus method, IWMPCdromBurn.refreshStatus, IWMPCdromBurn::refreshStatus, IWMPCdromBurnrefreshStatus, refreshStatus, refreshStatus method [Windows Media Player], refreshStatus method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_refreshstatus, wmp/IWMPCdromBurn::refreshStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -109,15 +107,15 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 
 
 
-<a href="https://msdn.microsoft.com/45116a33-62f9-4c7d-b246-25905cbaf118">IWMPCdromBurn Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6bcb8d6-07ad-4d8f-a94a-6b8c1b7f0c2b">IWMPCdromBurn::get_burnState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563087(v=VS.85).aspx">IWMPCdromBurn::get_burnState</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd286f68-4d36-48ae-800e-ad2be4c613c1">WMPBurnState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564691(v=VS.85).aspx">WMPBurnState</a>
  
 
  

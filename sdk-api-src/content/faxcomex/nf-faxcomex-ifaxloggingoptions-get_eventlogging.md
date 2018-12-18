@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_6rqf.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EventLogging property [Fax Service], EventLogging property [Fax Service],IFaxLoggingOptions interface, IFaxLoggingOptions interface [Fax Service],EventLogging property, IFaxLoggingOptions.EventLogging, IFaxLoggingOptions.get_EventLogging, IFaxLoggingOptions::EventLogging, IFaxLoggingOptions::get_EventLogging, _mfax_faxloggingoptions.eventlogging, fax._mfax_faxloggingoptions_cpp_mfax_faxloggingoptions_eventlogging_cpp, fax._mfax_faxloggingoptions_eventlogging, faxcomex/IFaxLoggingOptions::EventLogging, faxcomex/IFaxLoggingOptions::get_EventLogging, get_EventLogging
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -52,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>EventLogging</b> property retrieves the <a href="https://msdn.microsoft.com/c46f1b55-8211-4c9b-a622-356f2ea2db36">FaxEventLogging</a> configuration object.
+The <b>EventLogging</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms684912(v=VS.85).aspx">FaxEventLogging</a> configuration object.
 
 This property is read-only.
 
@@ -65,15 +63,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/438e4e89-88c9-431d-b774-98e65cf57064">FaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686863(v=VS.85).aspx">FaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6cbb0e8-fc98-431c-add6-6a6538051db7">IFaxLoggingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686873(v=VS.85).aspx">IFaxLoggingOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/afee6ea0-f63d-4818-9ff0-1887638d232c">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693401(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

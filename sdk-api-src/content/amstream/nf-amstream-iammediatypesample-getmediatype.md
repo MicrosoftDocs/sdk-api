@@ -9,8 +9,6 @@ ms.assetid: 40a2640e-aaeb-44f2-a772-2deda2fd3999
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetMediaType, GetMediaType method [DirectShow], GetMediaType method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaType method, IAMMediaTypeSample.GetMediaType, IAMMediaTypeSample::GetMediaType, IAMMediaTypeSampleGetMediaType, amstream/IAMMediaTypeSample::GetMediaType, dshow.iammediatypesample_getmediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amstream.h
 req.include-header: 
@@ -65,7 +63,7 @@ The <code>GetMediaType</code> method retrieves the media type of the sample. If 
 
 ### -param ppMediaType
 
-Address of a pointer that receives an <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure.
+Address of a pointer that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure.
 
 
 ## -returns
@@ -123,7 +121,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/e0a62251-68ee-4318-b09a-0aac6b73bf54">IAMMediaTypeSample Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319663(v=VS.85).aspx">IAMMediaTypeSample Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: f223503c-4934-4b3d-b489-c8f6488b05d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeEndLineCap method, IXpsOMPath.SetStrokeEndLineCap, IXpsOMPath::SetStrokeEndLineCap, SetStrokeEndLineCap, SetStrokeEndLineCap method [XPS Documents and Packaging], SetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokeendlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeEndLineCap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

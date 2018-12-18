@@ -9,8 +9,6 @@ ms.assetid: 76d859fa-11a5-451f-9d7a-9cf0740eca36
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

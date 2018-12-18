@@ -9,8 +9,6 @@ ms.assetid: c82ef360-e0b1-4e1a-b839-36b8e9c52347
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],GetValue method, ITfReadOnlyProperty.GetValue, ITfReadOnlyProperty::GetValue, _tsf_itfreadonlyproperty_getvalue_ref, msctf/ITfReadOnlyProperty::GetValue, tsf.itfreadonlyproperty_getvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

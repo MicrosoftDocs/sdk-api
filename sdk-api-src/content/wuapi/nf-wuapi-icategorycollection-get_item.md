@@ -9,8 +9,6 @@ ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

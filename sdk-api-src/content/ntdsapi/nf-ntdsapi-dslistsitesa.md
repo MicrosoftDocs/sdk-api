@@ -9,8 +9,6 @@ ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -69,7 +67,7 @@ Contains a directory service handle obtained from either the
 
 ### -param ppSites [out]
 
-Pointer to a pointer to a <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure that receives the list of sites in the enterprise. The site name is returned in the distinguished name (DN) format. The returned structure must be freed using the 
+Pointer to a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure that receives the list of sites in the enterprise. The site name is returned in the distinguished name (DN) format. The returned structure must be freed using the 
 <a href="https://msdn.microsoft.com/210650a6-70b9-4d4f-b99a-106afd3fe615">DsFreeNameResult</a> function.
 
 
@@ -86,7 +84,7 @@ If the function returns a list of sites, the return value is <b>NO_ERROR</b>. If
 
 
 
-Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
 
 
 
@@ -96,7 +94,7 @@ Individual name conversion errors are reported in the returned <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

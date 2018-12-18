@@ -9,8 +9,6 @@ ms.assetid: d0513ea0-305b-40ac-95ad-ed47a0417046
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_AudioFrequency method, IMSVidAnalogTuner.get_AudioFrequency, IMSVidAnalogTuner::get_AudioFrequency, IMSVidAnalogTunerget_AudioFrequency, get_AudioFrequency, get_AudioFrequency method [Microsoft TV Technologies], get_AudioFrequency method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_audiofrequency, segment/IMSVidAnalogTuner::get_AudioFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -86,11 +84,11 @@ This method is intended for diagnostic and testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/7d0d288a-7ad0-40ad-b86e-9df9447ed484">IAMTVTuner::get_AudioFrequency</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375973(v=VS.85).aspx">IAMTVTuner::get_AudioFrequency</a>
 
 
 
-<a href="https://msdn.microsoft.com/640143d3-6712-4e92-a1d9-0689637b3d90">IMSVidAnalogTuner Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner Interface</a>
  
 
  

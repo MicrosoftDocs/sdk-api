@@ -9,8 +9,6 @@ ms.assetid: AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetDesc method, ID3D12CommandQueue.GetDesc, ID3D12CommandQueue::GetDesc, d3d12/ID3D12CommandQueue::GetDesc, direct3d12.id3d12commandqueue_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

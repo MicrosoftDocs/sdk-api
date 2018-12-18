@@ -9,8 +9,6 @@ ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 
@@ -69,7 +67,7 @@ A <b>VARIANT</b> of type <b>VT_ARRAY|VT_UI1</b> that contains the templates and 
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -83,7 +81,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object has already been initialized.
+The  <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object has already been initialized.
 
 </td>
 </tr>
@@ -108,7 +106,7 @@ The <b>VARIANT</b> in the <i>val</i> parameter is not of type <b>VT_ARRAY</b>.
 
 
 
-Call this method to import templates and OIDs previously written to a buffer by the <a href="https://msdn.microsoft.com/en-us/library/Ee351694(v=VS.85).aspx">Export</a> method.
+Call this method to import templates and OIDs previously written to a buffer by the <a href="https://msdn.microsoft.com/b821329b-2ec6-4f47-ba5f-2e1cd7ffb06f">Export</a> method.
 
 
 
@@ -118,7 +116,7 @@ Call this method to import templates and OIDs previously written to a buffer by 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

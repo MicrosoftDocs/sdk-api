@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringrefere
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintfEx, StringCchVPrintfEx function [Menus and Other Resources], StringCchVPrintfExA, StringCchVPrintfExW, _shell_StringCchVPrintfEx, _shell_stringcchvprintfex_cpp, menurc.stringcchvprintfex, strsafe/StringCchVPrintfEx, strsafe/StringCchVPrintfExA, strsafe/StringCchVPrintfExW, winui._shell_stringcchvprintfex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

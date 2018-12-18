@@ -9,8 +9,6 @@ ms.assetid: 91ce59a5-2ab4-41be-a95c-ce12e9a52e4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VarDateFromI2, VarDateFromI2 function [Automation], _oa96_VarDateFromI2, automat.vardatefromi2, oleauto/VarDateFromI2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

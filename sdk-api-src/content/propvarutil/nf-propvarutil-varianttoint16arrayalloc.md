@@ -9,8 +9,6 @@ ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

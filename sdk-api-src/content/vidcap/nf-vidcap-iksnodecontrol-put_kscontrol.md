@@ -9,8 +9,6 @@ ms.assetid: 145967fc-3124-4e3b-b1ce-a381ea97cb89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IKsNodeControl interface [DirectShow],put_KsControl method, IKsNodeControl.put_KsControl, IKsNodeControl::put_KsControl, IKsNodeControlput_KsControl, dshow.iksnodecontrol_put_kscontrol, put_KsControl, put_KsControl method [DirectShow], put_KsControl method [DirectShow],IKsNodeControl interface, vidcap/IKsNodeControl::put_KsControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 
@@ -93,7 +91,7 @@ The KsProxy filter calls this method with a pointer to its own <b>IKsControl</b>
 
 
 
-<a href="https://msdn.microsoft.com/c38ce847-726a-4c1a-9276-810385af6c9f">IKsNodeControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390139(v=VS.85).aspx">IKsNodeControl Interface</a>
  
 
  

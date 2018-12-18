@@ -9,8 +9,6 @@ ms.assetid: 830cd19e-06a9-46dc-a869-d2a17107d942
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog.ifentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 

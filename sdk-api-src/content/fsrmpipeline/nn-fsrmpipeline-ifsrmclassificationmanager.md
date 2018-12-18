@@ -9,8 +9,6 @@ ms.assetid: cc504f6c-00d7-4f9d-9688-1c29b5066ce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], IFsrmClassificationManager interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager, fsrm.ifsrmclassificationmanager, fsrmpipeline/IFsrmClassificationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

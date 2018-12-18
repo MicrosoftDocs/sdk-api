@@ -9,8 +9,6 @@ ms.assetid: 09faaacd-3583-4129-b8e3-068e34e220b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointY property, IManipulationProcessor.PivotPointY, IManipulationProcessor.get_PivotPointY, IManipulationProcessor::PivotPointY, IManipulationProcessor::get_PivotPointY, IManipulationProcessor::put_PivotPointY, PivotPointY property [Windows Touch], PivotPointY property [Windows Touch],IManipulationProcessor interface, get_PivotPointY, manipulations/IManipulationProcessor::PivotPointY, manipulations/IManipulationProcessor::get_PivotPointY, manipulations/IManipulationProcessor::put_PivotPointY, wintouch.imanipulationprocessor_pivotpointy
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

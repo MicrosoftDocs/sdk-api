@@ -9,8 +9,6 @@ ms.assetid: 47ccc16c-b061-489b-b534-5b5929c5d010
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetupDiDestroyClassImageList, SetupDiDestroyClassImageList function [Device and Driver Installation], devinst.setupdidestroyclassimagelist, di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml, setupapi/SetupDiDestroyClassImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

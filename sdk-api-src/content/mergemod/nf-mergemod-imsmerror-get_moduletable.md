@@ -9,8 +9,6 @@ ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

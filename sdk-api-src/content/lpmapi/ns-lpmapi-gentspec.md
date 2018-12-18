@@ -1,5 +1,5 @@
 ---
-UID: NS:lpmapi.GenTspec
+UID: NS:lpmapi.__unnamed_struct_19
 title: GenTspec
 author: windows-sdk-content
 description: The GenTspec structure stores generic Tspec information.
@@ -7,10 +7,8 @@ old-location: qos\gentspec.htm
 tech.root: QOS
 ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: GenTspec, GenTspec structure [QOS], lpmapi/GenTspec, qos.gentspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 
@@ -61,17 +59,17 @@ The
 
 ### -field gen_Tspec_serv_hdr
 
-General information and length information for the GenTspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a> structure.
+General information and length information for the GenTspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a> structure.
 
 
 ### -field gen_Tspec_parm_hdr
 
-Parameter header, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
+Parameter header, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
 
 
 ### -field gen_Tspec_parms
 
-Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/8a702e7c-0dfd-48f5-8612-d64d19f2a55c">GenTspecParms</a> structure.
+Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373708(v=VS.85).aspx">GenTspecParms</a> structure.
 
 
 ## -see-also
@@ -79,35 +77,35 @@ Tspec parameters, expressed as a <a href="https://msdn.microsoft.com/8a702e7c-0d
 
 
 
-<a href="https://msdn.microsoft.com/8a702e7c-0dfd-48f5-8612-d64d19f2a55c">GenTspecParms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373708(v=VS.85).aspx">GenTspecParms</a>
 
 
 
-<a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4244dba-237a-437b-94b7-fd814edb3506">IntServTspecBody</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373725(v=VS.85).aspx">IntServTspecBody</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374106(v=VS.85).aspx">QualAppFlowSpec</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc22de18-3e9f-4b92-aba4-579aa47fab64">QualTspec</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374112(v=VS.85).aspx">QualTspec</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9afa6f9-1de7-469e-a317-2dea98c8291c">QualTspecParms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374114(v=VS.85).aspx">QualTspecParms</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7905687-1af8-4469-b8de-a2445afa90f4">SENDER_TSPEC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374418(v=VS.85).aspx">SENDER_TSPEC</a>
  
 
  

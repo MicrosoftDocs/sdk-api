@@ -9,8 +9,6 @@ ms.assetid: 5935EA6A-AD7F-4462-B539-A01439D0A373
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxContentGroupsEnumerator interface, IAppxContentGroupsEnumerator interface [App packaging and management],GetHasCurrent method, IAppxContentGroupsEnumerator.GetHasCurrent, IAppxContentGroupsEnumerator::GetHasCurrent, appxpackaging/IAppxContentGroupsEnumerator::GetHasCurrent, appxpkg.iappxcontentgroupsenumerator_gethascurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

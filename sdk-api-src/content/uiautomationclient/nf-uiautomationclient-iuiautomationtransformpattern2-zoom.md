@@ -9,8 +9,6 @@ ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

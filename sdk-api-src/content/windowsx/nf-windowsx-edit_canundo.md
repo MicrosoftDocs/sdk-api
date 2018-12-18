@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrol
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Edit_CanUndo, Edit_CanUndo macro [Windows Controls], _win32_Edit_CanUndo, _win32_Edit_CanUndo_cpp, controls.Edit_CanUndo, controls._win32_Edit_CanUndo, windowsx/Edit_CanUndo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 541ef7a4-c238-4fc5-9b2d-1fadb1472b2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISensorEvents interface,OnLeave method, ISensorEvents.OnLeave, ISensorEvents::OnLeave, OnLeave, OnLeave method, OnLeave method,ISensorEvents interface, sensorsapi/ISensorEvents::OnLeave, winsensors_com_ref.isensorevents_onleave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: sensorsapi.h
 req.include-header: 

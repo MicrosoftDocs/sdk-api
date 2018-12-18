@@ -9,8 +9,6 @@ ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorHermite(XMVECTOR,XMVECTOR,
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Use DirectX..XMVectorHermite, XMVectorHermite, XMVectorHermite method [DirectX Math Support APIs], dxmath.xmvectorhermite
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: directxmath.h
 req.include-header: DirectXMath.h
@@ -134,7 +132,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f18acdc6-6d1c-4955-a3e5-5a6d738f767d">XMVectorHermiteV</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee421160(v=VS.85).aspx">XMVectorHermiteV</a>
  
 
  

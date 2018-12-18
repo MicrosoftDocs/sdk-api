@@ -4,13 +4,11 @@ title: IAudioOutputEndpointRT::ReleaseOutputDataPointer
 author: windows-sdk-content
 description: Releases the pointer to the output buffer.
 old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 55b7d55e-b684-4c6e-a937-e8922732857d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],ReleaseOutputDataPointer method, IAudioOutputEndpointRT.ReleaseOutputDataPointer, IAudioOutputEndpointRT::ReleaseOutputDataPointer, ReleaseOutputDataPointer, ReleaseOutputDataPointer method [Remote Desktop Services], ReleaseOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::ReleaseOutputDataPointer, termserv.iaudiooutputendpointrt_releaseoutputdatapointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

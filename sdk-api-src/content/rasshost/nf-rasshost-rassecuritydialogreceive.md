@@ -9,8 +9,6 @@ ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

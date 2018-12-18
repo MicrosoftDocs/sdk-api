@@ -9,8 +9,6 @@ ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

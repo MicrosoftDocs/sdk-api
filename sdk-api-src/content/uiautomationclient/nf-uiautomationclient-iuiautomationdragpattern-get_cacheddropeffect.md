@@ -9,8 +9,6 @@ ms.assetid: A99F5E0F-FC61-4AD7-9DC8-B4B7B1AB2F6C
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CachedDropEffect property [Windows Accessibility], CachedDropEffect property [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],CachedDropEffect property, IUIAutomationDragPattern.CachedDropEffect, IUIAutomationDragPattern.get_CachedDropEffect, IUIAutomationDragPattern::CachedDropEffect, IUIAutomationDragPattern::get_CachedDropEffect, get_CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::CachedDropEffect, uiautomationclient/IUIAutomationDragPattern::get_CachedDropEffect, winauto.uiauto_iuiautomationdragpattern_cacheddropeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

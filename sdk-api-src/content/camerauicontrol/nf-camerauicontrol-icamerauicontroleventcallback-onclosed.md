@@ -9,8 +9,6 @@ ms.assetid: 5d9237bc-38bb-4c14-8485-edec7c739150
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnClosed method, ICameraUIControlEventCallback.OnClosed, ICameraUIControlEventCallback::OnClosed, OnClosed, OnClosed method [Windows API], OnClosed method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnClosed, winprog.icamerauicontroleventcallback_onclosed
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 
@@ -74,7 +72,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802718(v=VS.85).aspx">ICameraUIControlEventCallback</a>
+<a href="https://msdn.microsoft.com/f870557e-0e01-4f5c-81be-c709e397e5fd">ICameraUIControlEventCallback</a>
  
 
  

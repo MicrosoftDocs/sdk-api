@@ -9,8 +9,6 @@ ms.assetid: 2DC1FF5F-FBFD-45CA-8CD5-B2F586C22778
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CF_PLACEHOLDER_CREATE_INFO, CF_PLACEHOLDER_CREATE_INFO structure, cfapi/CF_PLACEHOLDER_CREATE_INFO, cloudApi.cf_placeholder_create_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: cfapi.h
 req.include-header: 

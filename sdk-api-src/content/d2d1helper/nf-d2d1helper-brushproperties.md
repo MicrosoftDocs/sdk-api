@@ -9,8 +9,6 @@ ms.assetid: eeb438e4-300a-4d7d-b8bf-91baba4a729e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BrushProperties, BrushProperties function [Direct2D], d2d1helper/BrushProperties, direct2d.brushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368077(v=VS.85).aspx">D2D1_BRUSH_PROPERTIES</a> structure.
+Creates a <a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a> structure.
 
 
 ## -parameters
@@ -67,16 +65,16 @@ The base opacity of the brush. The default value is 1.0.
 
 ### -param transform [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
-The transformation to apply to the brush. The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd372258(v=VS.85).aspx">D2D1::IdentityMatrix</a>.
+The transformation to apply to the brush. The default value is <a href="https://msdn.microsoft.com/09c2ed59-db4a-4753-a98a-bef7748d3803">D2D1::IdentityMatrix</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368077(v=VS.85).aspx">D2D1_BRUSH_PROPERTIES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/37b2fc18-a320-41c0-8717-dcd561a2f2df">D2D1_BRUSH_PROPERTIES</a></b>
 
 The new brush properties structure. 
 

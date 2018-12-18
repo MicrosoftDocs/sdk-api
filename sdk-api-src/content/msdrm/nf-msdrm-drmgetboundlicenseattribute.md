@@ -9,8 +9,6 @@ ms.assetid: 715fb3e6-6b1e-4136-9c25-efcde2015d6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttribute, rm.drmgetboundlicenseattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

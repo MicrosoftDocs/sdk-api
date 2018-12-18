@@ -9,8 +9,6 @@ ms.assetid: 93367398-07aa-4c14-85c8-e3a904bd4564
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetConnectionName method, IWMOutputMediaProps.GetConnectionName, IWMOutputMediaProps::GetConnectionName, IWMOutputMediaPropsGetConnectionName, wmformat.iwmoutputmediaprops_getconnectionname, wmsdkidl/IWMOutputMediaProps::GetConnectionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -142,15 +140,15 @@ This connection name is used to match stream numbers to output numbers. All stre
 
 
 
-<a href="https://msdn.microsoft.com/8cf40db5-3902-4c14-b728-98da90567e89">IWMOutputMediaProps Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757252(v=VS.85).aspx">IWMOutputMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e013996a-95b6-4cd3-9fb5-75dbce821eef">IWMStreamConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/04d50606-c355-45d4-9cc1-a8ef37113bf7">IWMStreamConfig::GetConnectionName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798560(v=VS.85).aspx">IWMStreamConfig::GetConnectionName</a>
 
 
 

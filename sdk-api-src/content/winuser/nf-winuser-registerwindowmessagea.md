@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequ
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: RegisterWindowMessage, RegisterWindowMessage function [Windows and Messages], RegisterWindowMessageA, RegisterWindowMessageW, _win32_RegisterWindowMessage, _win32_registerwindowmessage_cpp, winmsg.registerwindowmessage, winui._win32_registerwindowmessage, winuser/RegisterWindowMessage, winuser/RegisterWindowMessageA, winuser/RegisterWindowMessageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

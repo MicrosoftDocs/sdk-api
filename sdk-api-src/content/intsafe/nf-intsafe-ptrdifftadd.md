@@ -9,8 +9,6 @@ ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

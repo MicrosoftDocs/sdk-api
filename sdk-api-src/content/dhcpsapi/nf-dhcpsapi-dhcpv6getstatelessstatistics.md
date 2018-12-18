@@ -9,8 +9,6 @@ ms.assetid: 4f6ba79c-5ab5-4d89-907d-83bdddbd09a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpV6GetStatelessStatistics, DhcpV6GetStatelessStatistics function [DHCP], dhcp.dhcpv6getstatelessstatistics, dhcpsapi/DhcpV6GetStatelessStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 
@@ -65,7 +63,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param StatelessStats [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8C0E26F3-9496-497C-9E05-9995CC322189">DHCPV6_STATELESS_STATS</a> structure that contain DHCPv6 stateless server IPv6 subnet statistics.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Hh404369(v=VS.85).aspx">DHCPV6_STATELESS_STATS</a> structure that contain DHCPv6 stateless server IPv6 subnet statistics.
 
 
 ## -returns

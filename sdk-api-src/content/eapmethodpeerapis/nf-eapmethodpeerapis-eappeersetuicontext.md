@@ -9,8 +9,6 @@ ms.assetid: 90a3844b-5fe9-44ad-981a-0aae643b2390
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: EapPeerSetUIContext, EapPeerSetUIContext function [EAPHost], eaphost.eappeersetuicontext, eapmethodpeerapis/EapPeerSetUIContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

@@ -9,8 +9,6 @@ ms.assetid: 3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGetCorrelationVector, cloudApi.cfgetcorrelationvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: cfapi.h
 req.include-header: 

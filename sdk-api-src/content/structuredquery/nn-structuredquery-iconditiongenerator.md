@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

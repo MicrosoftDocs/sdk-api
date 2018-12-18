@@ -9,8 +9,6 @@ ms.assetid: 16c08c8a-9ce7-455a-9859-6b0be406f642
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeviceDescription, GetDeviceDescription method [Windows Portable Devices SDK], GetDeviceDescription method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceDescription method, IPortableDeviceManager.GetDeviceDescription, IPortableDeviceManager::GetDeviceDescription, IPortableDeviceManagerGetDeviceDescription, portabledeviceapi/IPortableDeviceManager::GetDeviceDescription, wpdsdk.iportabledevicemanager_getdevicedescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

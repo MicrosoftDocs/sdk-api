@@ -1,0 +1,87 @@
+---
+UID: NS:tdh._PROVIDER_FIELD_INFO
+title: PROVIDER_FIELD_INFO
+author: windows-sdk-content
+description: Defines the field information.
+old-location: etw\provider_field_info_struct.htm
+tech.root: etw
+ms.assetid: a7c88c25-3acc-42aa-bf2b-bc7651e84f8c
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: "*PPROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO structure [ETW], etw.provider_field_info_struct, tdh.provider_field_info_struct, tdh/PROVIDER_FIELD_INFO"
+ms.topic: struct
+req.header: tdh.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - PROVIDER_FIELD_INFO
+product: Windows
+targetos: Windows
+req.typenames: PROVIDER_FIELD_INFO
+req.redist: 
+---
+
+# PROVIDER_FIELD_INFO structure
+
+
+## -description
+
+
+Defines the field information.
+		
+		
+	
+	
+
+
+## -struct-fields
+
+
+
+
+### -field NameOffset
+
+Offset to the null-terminated Unicode string that contains the name of the field, in English only.
+
+
+### -field DescriptionOffset
+
+Offset to the null-terminated Unicode string that contains the localized description of the field. The value is zero if the description does not exist.
+
+
+### -field Value
+
+Field value.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c3755ca2-7b17-4f86-9ae8-34621f8b8c1b">PROVIDER_FIELD_INFOARRAY</a>
+ 
+
+ 
+

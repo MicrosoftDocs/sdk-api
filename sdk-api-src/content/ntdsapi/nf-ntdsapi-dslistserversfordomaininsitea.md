@@ -9,8 +9,6 @@ ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DsListServersForDomainInSite, DsListServersForDomainInSite function [Active Directory], DsListServersForDomainInSiteA, DsListServersForDomainInSiteW, _glines_dslistserversfordomaininsite, ad.dslistserversfordomaininsite, ntdsapi/DsListServersForDomainInSite, ntdsapi/DsListServersForDomainInSiteA, ntdsapi/DsListServersForDomainInSiteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 
@@ -80,7 +78,7 @@ Pointer to a null-terminated string that specifies the site name. This string is
 ### -param ppServers [out]
 
 Pointer to a pointer to a 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure that receives the list of servers in the domain. The returned structure must be freed using 
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure that receives the list of servers in the domain. The returned structure must be freed using 
 the <a href="https://msdn.microsoft.com/210650a6-70b9-4d4f-b99a-106afd3fe615">DsFreeNameResult</a> function.
 
 
@@ -97,7 +95,7 @@ If the function returns a list of servers, the return value is <b>NO_ERROR</b>. 
 
 
 
-Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
+Individual name conversion errors are reported in the returned <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
 
 
 
@@ -107,7 +105,7 @@ Individual name conversion errors are reported in the returned <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
 
 
 

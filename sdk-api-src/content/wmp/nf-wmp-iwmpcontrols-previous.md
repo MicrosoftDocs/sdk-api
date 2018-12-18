@@ -9,8 +9,6 @@ ms.assetid: e26eca59-1e2d-4a1f-b133-e337a934014b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPControls interface [Windows Media Player],previous method, IWMPControls.previous, IWMPControls::previous, IWMPControlsprevious, previous, previous method [Windows Media Player], previous method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_previous, wmp/IWMPControls::previous
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,15 +103,15 @@ If the playlist is on the first entry when <b>previous</b> is invoked, the last 
 
 
 
-<a href="https://msdn.microsoft.com/422ac0d8-8e94-4484-802f-cdf4ae482fa8">IWMPControls Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f0bbc77-b271-4076-8089-92fe7745d9a8">IWMPControls::next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563203(v=VS.85).aspx">IWMPControls::next</a>
 
 
 
-<a href="https://msdn.microsoft.com/97ab009d-5ad9-4049-a212-1ef95941f951">IWMPControls::stop</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563211(v=VS.85).aspx">IWMPControls::stop</a>
  
 
  

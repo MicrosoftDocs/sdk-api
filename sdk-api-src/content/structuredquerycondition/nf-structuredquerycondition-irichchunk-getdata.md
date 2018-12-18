@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IRichChunk interface, IRichChunk interface [search],GetData method, IRichChunk.GetData, IRichChunk::GetData, _search_IRichChunk_GetData, search._search_IRichChunk_GetData, structuredquerycondition/IRichChunk::GetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: 

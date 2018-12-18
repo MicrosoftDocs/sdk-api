@@ -9,8 +9,6 @@ ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BreakPlex, BreakPlex method [VDS], BreakPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],BreakPlex method, IVdsVolume.BreakPlex, IVdsVolume::BreakPlex, base.ivdsvolume_breakplex, vds/IVdsVolume::BreakPlex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

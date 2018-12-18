@@ -9,8 +9,6 @@ ms.assetid: aca5305f-68fc-4211-9f71-3f572340e94d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IIdleTrigger, IIdleTrigger interface [Task Scheduler], IIdleTrigger interface [Task Scheduler],described, idle trigger [Task Scheduler],interface, taskschd.iidletrigger, taskschd/IIdleTrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 
@@ -78,7 +76,7 @@ If the initial instance of a task with an idle trigger is still running, then th
 
 
 
-<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
  
 
  

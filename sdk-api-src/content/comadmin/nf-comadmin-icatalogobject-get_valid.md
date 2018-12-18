@@ -9,8 +9,6 @@ ms.assetid: c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICatalogObject interface [COM+],Valid property, ICatalogObject.Valid, ICatalogObject.get_Valid, ICatalogObject::Valid, ICatalogObject::get_Valid, Valid property [COM+], Valid property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Valid, comadmin/ICatalogObject::Valid, comadmin/ICatalogObject::get_Valid, cos.icatalogobject_valid, get_Valid
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 
@@ -64,7 +62,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688526(v=VS.85).aspx">ICatalogObject</a>
+<a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: dc635134-33da-4197-966a-5cb64315cb7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaSubType method, IComponentType.put_MediaSubType, IComponentType::put_MediaSubType, IComponentTypeput_MediaSubType, mstv.icomponenttype_put_mediasubtype, put_MediaSubType, put_MediaSubType method [Microsoft TV Technologies], put_MediaSubType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaSubType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

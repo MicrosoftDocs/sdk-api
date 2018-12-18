@@ -9,8 +9,6 @@ ms.assetid: d0a8e389-ba5b-45f4-9682-1fbe456daaed
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToEntity, SnmpStrToEntity function [SNMP], _snmp_snmpstrtoentity, snmp.snmpstrtoentity, winsnmp/SnmpStrToEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

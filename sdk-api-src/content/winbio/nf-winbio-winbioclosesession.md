@@ -9,8 +9,6 @@ ms.assetid: b0adcf87-2f99-4154-a4fb-fb2f07181cd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinBioCloseSession, WinBioCloseSession function [Windows Biometric Framework API], secbiomet.winbioclosesession, winbio/WinBioCloseSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

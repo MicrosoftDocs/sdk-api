@@ -9,8 +9,6 @@ ms.assetid: 7f5a11a7-d81a-4ca1-8b0f-1d561f736523
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBandwidthSharingCount, GetBandwidthSharingCount method [windows Media Format], GetBandwidthSharingCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharingCount method, IWMProfile3.GetBandwidthSharingCount, IWMProfile3::GetBandwidthSharingCount, IWMProfile3GetBandwidthSharingCount, wmformat.iwmprofile3_getbandwidthsharingcount, wmsdkidl/IWMProfile3::GetBandwidthSharingCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -117,11 +115,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/7942aa81-ada7-4e9c-a261-f257f8f890b7">IWMProfile3 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/be66ff8b-c883-4329-aaa4-e9549d0cbb9e">IWMProfile3::GetBandwidthSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757272(v=VS.85).aspx">IWMProfile3::GetBandwidthSharing</a>
  
 
  

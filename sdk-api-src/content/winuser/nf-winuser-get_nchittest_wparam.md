@@ -9,8 +9,6 @@ ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinpu
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GET_NCHITTEST_WPARAM, GET_NCHITTEST_WPARAM macro [Keyboard and Mouse Input], _win32_GET_NCHITTEST_WPARAM, _win32_get_nchittest_wparam_cpp, inputdev.get_nchittest_wparam, winui._win32_get_nchittest_wparam, winuser/GET_NCHITTEST_WPARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

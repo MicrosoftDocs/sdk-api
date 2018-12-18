@@ -9,8 +9,6 @@ ms.assetid: be134953-b569-48ea-80ac-ab14dee24500
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontext, base.setthreadcontext, processthreadsapi/SetThreadContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows.h

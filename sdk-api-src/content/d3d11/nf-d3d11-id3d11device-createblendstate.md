@@ -9,8 +9,6 @@ ms.assetid: 05b27d72-6ae5-4bab-8906-2d1373ea8d4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 3e6800b8-cd67-743c-c74d-b23a9a29daea, CreateBlendState, CreateBlendState method [Direct3D 11], CreateBlendState method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBlendState method, ID3D11Device.CreateBlendState, ID3D11Device::CreateBlendState, d3d11/ID3D11Device::CreateBlendState, direct3d11.id3d11device_createblendstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 
@@ -108,7 +106,7 @@ An application can create up to 4096 unique blend-state objects. For each object
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

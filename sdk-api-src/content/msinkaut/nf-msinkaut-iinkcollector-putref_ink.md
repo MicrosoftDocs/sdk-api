@@ -9,8 +9,6 @@ ms.assetid: 62881a0e-3932-49a1-8e7d-3e74474f2214
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 62881a0e-3932-49a1-8e7d-3e74474f2214, IInkCollector interface [Tablet PC],Ink property, IInkCollector.Ink, IInkCollector.get_Ink, IInkCollector.putref_Ink, IInkCollector::Ink, IInkCollector::get_Ink, IInkCollector::putref_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkCollector interface, InkCollector.get_Ink, get_Ink, msinkaut/IInkCollector::Ink, msinkaut/IInkCollector::get_Ink, msinkaut/IInkCollector::putref_Ink, putref_Ink, tablet.inkcollector_ink
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 
@@ -86,7 +84,7 @@ An <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">Ink
 
 
 
-<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
 
 
 

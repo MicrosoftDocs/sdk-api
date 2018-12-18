@@ -9,8 +9,6 @@ ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IWeeklyTrigger interface, IWeeklyTrigger interface [Task Scheduler],DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger.get_DaysOfWeek, IWeeklyTrigger::DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

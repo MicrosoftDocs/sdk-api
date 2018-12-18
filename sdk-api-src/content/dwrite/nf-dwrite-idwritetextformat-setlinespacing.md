@@ -9,8 +9,6 @@ ms.assetid: 3629779a-5e50-43ea-b161-dd17598b5b43
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetLineSpacing method, IDWriteTextFormat.SetLineSpacing, IDWriteTextFormat::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetLineSpacing, dwrite/IDWriteTextFormat::SetLineSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: dwrite.h
 req.include-header: 

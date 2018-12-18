@@ -9,8 +9,6 @@ ms.assetid: 2b3050da-6914-4d7f-af6f-d8e504da0870
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MFGetAttribute2UINT32asUINT64, MFGetAttribute2UINT32asUINT64 function [Media Foundation], mf.mfgetattribute2uint32asuint64, mfobjects/MFGetAttribute2UINT32asUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mfapi.h
 req.include-header: Mfapi.h

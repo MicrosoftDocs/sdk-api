@@ -7,10 +7,8 @@ old-location: pla\idatamanager_rules.htm
 tech.root: pla
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.author: windowssdkdev
-ms.date: 11/16/2018
+ms.date: 12/5/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.put_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules, put_Rules
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: pla.h
 req.include-header: 

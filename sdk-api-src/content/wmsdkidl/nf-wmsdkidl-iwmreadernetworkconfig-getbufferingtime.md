@@ -9,8 +9,6 @@ ms.assetid: a3f35230-363c-48e7-bef9-b92e0b50b978
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBufferingTime, GetBufferingTime method [windows Media Format], GetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetBufferingTime method, IWMReaderNetworkConfig.GetBufferingTime, IWMReaderNetworkConfig::GetBufferingTime, IWMReaderNetworkConfigGetBufferingTime, wmformat.iwmreadernetworkconfig_getbufferingtime, wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
@@ -112,7 +110,7 @@ NULL passed in to <i>pcnsBufferingTime</i>
 
 
 
-See the Remarks for <a href="https://msdn.microsoft.com/64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f">SetBufferingTime</a>.
+See the Remarks for <a href="https://msdn.microsoft.com/en-us/library/Dd743539(v=VS.85).aspx">SetBufferingTime</a>.
 
 
 
@@ -122,11 +120,11 @@ See the Remarks for <a href="https://msdn.microsoft.com/64b8eb13-3b96-4bb7-8d75-
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f">IWMReaderNetworkConfig::SetBufferingTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743539(v=VS.85).aspx">IWMReaderNetworkConfig::SetBufferingTime</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 0ada3e78-f093-4b03-8db6-793cf80f0000
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDeinterlacePrefs, GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl9 interface, IVMRDeinterlaceControl9 interface [DirectShow],GetDeinterlacePrefs method, IVMRDeinterlaceControl9.GetDeinterlacePrefs, IVMRDeinterlaceControl9::GetDeinterlacePrefs, IVMRDeinterlaceControl9GetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol9_getdeinterlaceprefs, vmr9/IVMRDeinterlaceControl9::GetDeinterlacePrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 
@@ -64,7 +62,7 @@ The <b>GetDeinterlacePrefs</b> method queries how the VMR will select a deinterl
 
 ### -param lpdwDeinterlacePrefs [in]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/1e5f5749-bdf9-4220-9867-ba6899797850">VMR9DeinterlacePrefs</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407363(v=VS.85).aspx">VMR9DeinterlacePrefs</a> enumeration.
 
 
 ## -returns
@@ -121,7 +119,7 @@ The VMR is not in mixer mode.
 
 
 
-By default, the preferred deinterlacing mode is the first mode reported by the driver. The application can set the preferred mode by calling the <a href="https://msdn.microsoft.com/2c88b3b9-32eb-473b-9db5-9e9d65e2062c">IVMRDeinterlaceControl9::SetDeinterlaceMode</a> method. If the VMR cannot use the preferred mode, it will fall back to another mode as specified by the <i>dwDeinterlacePrefs</i> parameter.
+By default, the preferred deinterlacing mode is the first mode reported by the driver. The application can set the preferred mode by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd377355(v=VS.85).aspx">IVMRDeinterlaceControl9::SetDeinterlaceMode</a> method. If the VMR cannot use the preferred mode, it will fall back to another mode as specified by the <i>dwDeinterlacePrefs</i> parameter.
 
 
 
@@ -135,7 +133,7 @@ By default, the preferred deinterlacing mode is the first mode reported by the d
 
 
 
-<a href="https://msdn.microsoft.com/685f3627-30bd-4c78-9eda-0b06203dd46e">IVMRDeinterlaceControl9 Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377349(v=VS.85).aspx">IVMRDeinterlaceControl9 Interface</a>
 
 
 

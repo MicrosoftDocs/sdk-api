@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinta_n_1c10.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IFaxDevice interface [Fax Service],TSID property, IFaxDevice.TSID, IFaxDevice.get_TSID, IFaxDevice.put_TSID, IFaxDevice::TSID, IFaxDevice::get_TSID, IFaxDevice::put_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxDevice interface, _mfax_faxdevice.tsid, fax._mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp, fax._mfax_faxdevice_tsid, faxcomex/IFaxDevice::TSID, faxcomex/IFaxDevice::get_TSID, faxcomex/IFaxDevice::put_TSID, get_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 
@@ -76,15 +74,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

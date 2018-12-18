@@ -9,8 +9,6 @@ ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ITfFnPropertyUIStatus interface [Text Services Framework],SetStatus method, ITfFnPropertyUIStatus.SetStatus, ITfFnPropertyUIStatus::SetStatus, SetStatus, SetStatus method [Text Services Framework], SetStatus method [Text Services Framework],ITfFnPropertyUIStatus interface, _tsf_itffnpropertyuistatus_setstatus_ref, ctffunc/ITfFnPropertyUIStatus::SetStatus, tsf.itffnpropertyuistatus_setstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 
@@ -59,12 +57,12 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param refguidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/en-us/library/ms629017(v=VS.85).aspx">predefined property</a> identifiers.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">predefined property</a> identifiers.
 
 
 ### -param dw [in]
 
-Contains the new property UI status. See the <i>pdw</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/ms538965(v=VS.85).aspx">ITfFnPropertyUIStatus::GetStatus</a> for possible values.
+Contains the new property UI status. See the <i>pdw</i> parameter of <a href="https://msdn.microsoft.com/aef8c1b4-3cda-4fa3-ae8c-a8f8da4840b5">ITfFnPropertyUIStatus::GetStatus</a> for possible values.
 
 
 ## -returns
@@ -111,7 +109,7 @@ The text service does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538963(v=VS.85).aspx">ITfFnPropertyUIStatus</a>
+<a href="https://msdn.microsoft.com/5583ae98-02a5-4303-9674-b8a85b52442a">ITfFnPropertyUIStatus</a>
 
 
 

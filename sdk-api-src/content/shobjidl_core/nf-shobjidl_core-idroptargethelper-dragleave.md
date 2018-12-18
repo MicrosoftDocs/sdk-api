@@ -9,8 +9,6 @@ ms.assetid: a14b56e2-3a90-4802-bb28-869467878c2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragLeave method, IDropTargetHelper.DragLeave, IDropTargetHelper::DragLeave, _win32_IDropTargetHelper_DragLeave, shell.IDropTargetHelper_DragLeave, shobjidl_core/IDropTargetHelper::DragLeave
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -9,8 +9,6 @@ ms.assetid: 8e971571-61f4-4b24-81a7-45fa17b6b785
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Step method, IMSVidPlayback.Step, IMSVidPlayback::Step, IMSVidPlaybackStep, Step, Step method [Microsoft TV Technologies], Step method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_step, segment/IMSVidPlayback::Step
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h
@@ -131,11 +129,11 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 
 
-<a href="https://msdn.microsoft.com/ed954545-f58f-4841-9ffd-185350f76388">IMSVidPlayback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/41aad247-1f04-4245-89df-8ac527926307">IMSVidPlayback::get_CanStep</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694589(v=VS.85).aspx">IMSVidPlayback::get_CanStep</a>
  
 
  

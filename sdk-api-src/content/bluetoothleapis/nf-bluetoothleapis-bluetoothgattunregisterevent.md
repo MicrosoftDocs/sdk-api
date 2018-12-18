@@ -9,8 +9,6 @@ ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: bluetoothleapis.h
 req.include-header: 
@@ -61,7 +59,7 @@ The <b>BluetoothGATTUnregisterEvent</b> function unregisters the given character
 
 ### -param EventHandle [in]
 
-Handle returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>.
+Handle returned from a previous call to <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>.
 
 
 ### -param Flags [in]
@@ -142,7 +140,7 @@ A parameter was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>
+<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
  
 
  

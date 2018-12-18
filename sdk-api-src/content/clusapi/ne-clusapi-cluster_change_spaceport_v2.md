@@ -9,8 +9,6 @@ ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2, CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, clusapi/CLUSTER_CHANGE_SPACEPORT_V2, msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, msclus/CLUSTER_CHANGE_SPACEPORT_V2, mscs.cluster_change_spaceport_v2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 
@@ -67,7 +65,7 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

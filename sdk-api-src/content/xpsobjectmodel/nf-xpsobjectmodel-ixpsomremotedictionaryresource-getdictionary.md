@@ -9,8 +9,6 @@ ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

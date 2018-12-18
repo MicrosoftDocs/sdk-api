@@ -9,8 +9,6 @@ ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetFocusWindow method, IAMDirectSound.GetFocusWindow, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 
@@ -149,7 +147,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/a9afaeb7-e2d4-4dbf-9f4d-144cafbd5e28">IAMDirectSound Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389193(v=VS.85).aspx">IAMDirectSound Interface</a>
  
 
  

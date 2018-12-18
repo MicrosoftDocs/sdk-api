@@ -9,8 +9,6 @@ ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap function [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

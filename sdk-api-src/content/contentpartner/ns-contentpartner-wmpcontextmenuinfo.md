@@ -9,8 +9,6 @@ ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: struct
 req.header: contentpartner.h
 req.include-header: 
@@ -87,7 +85,7 @@ This structure is retrieved by a call to <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564419(v=VS.85).aspx">Structures for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/e1aff1a3-cf24-4292-afcd-92e77b178a3a">Structures for Type 1 Online Stores</a>
  
 
  

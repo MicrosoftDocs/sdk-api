@@ -9,8 +9,6 @@ ms.assetid: f8a7226b-270e-495e-a43f-8e6a9c7a77df
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLinkText, GetLinkText method [Windows Shell], GetLinkText method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkText method, ISyncMgrEvent.GetLinkText, ISyncMgrEvent::GetLinkText, _shell_ISyncMgrEvent_GetLinkText, shell.ISyncMgrEvent_GetLinkText, syncmgr/ISyncMgrEvent::GetLinkText
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

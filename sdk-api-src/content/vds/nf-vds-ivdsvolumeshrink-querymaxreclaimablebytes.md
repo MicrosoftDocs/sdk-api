@@ -9,8 +9,6 @@ ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vds.h
 req.include-header: 

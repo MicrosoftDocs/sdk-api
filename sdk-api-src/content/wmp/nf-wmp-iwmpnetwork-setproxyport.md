@@ -9,8 +9,6 @@ ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyPort method, IWMPNetwork.setProxyPort, IWMPNetwork::setProxyPort, IWMPNetworksetProxyPort, setProxyPort, setProxyPort method [Windows Media Player], setProxyPort method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyport, wmp/IWMPNetwork::setProxyPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -117,15 +115,15 @@ This method fails unless the calling application is running on the local compute
 
 
 
-<a href="https://msdn.microsoft.com/074a4bc2-3d9f-4007-b6c8-91ea92a87b67">IWMPNetwork Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563461(v=VS.85).aspx">IWMPNetwork Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d636e61-a5c1-495a-8d1d-ce2937dd3f18">IWMPNetwork::getProxyPort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563466(v=VS.85).aspx">IWMPNetwork::getProxyPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/103e0d53-943d-4aba-9db1-20cdc1d75d52">IWMPNetwork::getProxySettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">IWMPNetwork::getProxySettings</a>
  
 
  

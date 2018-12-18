@@ -9,8 +9,6 @@ ms.assetid: 57901FAC-428C-437B-9C9B-2DB2D16049F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateDeferredContext2, CreateDeferredContext2 method [Direct3D 11], CreateDeferredContext2 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],CreateDeferredContext2 method, ID3D11Device2.CreateDeferredContext2, ID3D11Device2::CreateDeferredContext2, d3d11_2/ID3D11Device2::CreateDeferredContext2, direct3d11.id3d11device2_createdeferredcontext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d3d11_2.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 ## -description
 
 
-Creates a deferred context, which can record <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command lists</a>.
+Creates a deferred context, which can record <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command lists</a>.
         
 
 
@@ -62,7 +60,7 @@ Creates a deferred context, which can record <a href="https://msdn.microsoft.com
 
 ### -param ContextFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Reserved for future use.
             Pass 0.
@@ -71,9 +69,9 @@ Reserved for future use.
 
 ### -param ppDeferredContext [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a> interface pointer is initialized.
           
 
 
@@ -91,7 +89,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
                 If this error occurs, you should destroy and recreate the device.
               </li>
 <li>Returns <b>DXGI_ERROR_INVALID_CALL</b> if the <b>CreateDeferredContext2</b> method can't be called from the current context.
-                For example, if the device was created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext2</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
+                For example, if the device was created with the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext2</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
               </li>
 <li>Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.
               </li>
@@ -106,7 +104,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
 
 
 A deferred context is a thread-safe context that you can use to record graphics commands on a thread other than the main rendering thread.
-          By using a deferred context, you can record graphics commands into a command list that is encapsulated by the <a href="https://msdn.microsoft.com/en-us/library/Ff476361(v=VS.85).aspx">ID3D11CommandList</a> interface.
+          By using a deferred context, you can record graphics commands into a command list that is encapsulated by the <a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a> interface.
           After you record all scene items, you can then submit them to the main render thread for final rendering.
           In this manner, you can perform rendering tasks concurrently across multiple threads and potentially improve performance in multi-core CPU scenarios.
         
@@ -114,11 +112,11 @@ A deferred context is a thread-safe context that you can use to record graphics 
 You can create multiple deferred contexts.
         
 
-<div class="alert"><b>Note</b>  If you use the <a href="https://msdn.microsoft.com/en-us/library/Ff476107(v=VS.85).aspx">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value to create the device,
+<div class="alert"><b>Note</b>  If you use the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value to create the device,
           <b>CreateDeferredContext2</b> fails with <b>DXGI_ERROR_INVALID_CALL</b>, and you can't create a deferred context.
         </div>
 <div> </div>
-For more information about deferred contexts, see <a href="https://msdn.microsoft.com/en-us/library/Ff476892(v=VS.85).aspx">Immediate and Deferred Rendering</a>.
+For more information about deferred contexts, see <a href="https://msdn.microsoft.com/8991be9f-c882-4752-9048-704fe4ae1725">Immediate and Deferred Rendering</a>.
         
 
 
@@ -129,19 +127,19 @@ For more information about deferred contexts, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404580(v=VS.85).aspx">ID3D11Device1::CreateDeferredContext1</a>
+<a href="https://msdn.microsoft.com/2F7E343F-2A25-44F2-9352-5F378718D6F6">ID3D11Device1::CreateDeferredContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280493(v=VS.85).aspx">ID3D11Device2</a>
+<a href="https://msdn.microsoft.com/C476AA0E-4A49-4E1E-8308-FB72EAD3E30C">ID3D11Device2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn912871(v=VS.85).aspx">ID3D11Device3::CreateDeferredContext3</a>
+<a href="https://msdn.microsoft.com/78B52E38-3256-4151-96DA-4C81A2A516CF">ID3D11Device3::CreateDeferredContext3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476505(v=VS.85).aspx">ID3D11Device::CreateDeferredContext</a>
+<a href="https://msdn.microsoft.com/fbf01844-eaf1-4360-833e-c95ba686fff5">ID3D11Device::CreateDeferredContext</a>
  
 
  

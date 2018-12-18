@@ -9,8 +9,6 @@ ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 

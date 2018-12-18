@@ -9,8 +9,6 @@ ms.assetid: f6ed4824-bc18-4a12-82d3-d68e98f6d964
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],GetLatency method, IMediaObjectInPlace.GetLatency, IMediaObjectInPlace::GetLatency, IMediaObjectInPlaceGetLatency, dshow.imediaobjectinplace_getlatency, mediaobj/IMediaObjectInPlace::GetLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h
@@ -90,7 +88,7 @@ This method returns the average time required to process each buffer. This value
 
 
 
-<a href="https://msdn.microsoft.com/c2105141-6c5e-4edb-aa3b-3227ca223329">IMediaObjectInPlace Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406939(v=VS.85).aspx">IMediaObjectInPlace Interface</a>
  
 
  

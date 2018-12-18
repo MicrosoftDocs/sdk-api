@@ -9,8 +9,6 @@ ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmetho
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

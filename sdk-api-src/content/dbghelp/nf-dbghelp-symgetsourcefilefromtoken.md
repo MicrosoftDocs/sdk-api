@@ -9,8 +9,6 @@ ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

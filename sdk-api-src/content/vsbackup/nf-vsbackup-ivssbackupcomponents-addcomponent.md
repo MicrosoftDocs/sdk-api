@@ -9,8 +9,6 @@ ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

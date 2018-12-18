@@ -9,8 +9,6 @@ ms.assetid: 8c17cfcc-4f09-4cb5-a3fa-4eb865123ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WICPersistOptionBigEndian, WICPersistOptionDefault, WICPersistOptionLittleEndian, WICPersistOptionMask, WICPersistOptionNoCacheStream, WICPersistOptionPreferUTF8, WICPersistOptionStrictFormat, WICPersistOptions, WICPersistOptions enumeration [Windows Imaging Component], _wic_codec_wicpersistoptions, wic._wic_codec_wicpersistoptions, wincodecsdk/WICPersistOptionBigEndian, wincodecsdk/WICPersistOptionDefault, wincodecsdk/WICPersistOptionLittleEndian, wincodecsdk/WICPersistOptionMask, wincodecsdk/WICPersistOptionNoCacheStream, wincodecsdk/WICPersistOptionPreferUTF8, wincodecsdk/WICPersistOptionStrictFormat, wincodecsdk/WICPersistOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: enum
 req.header: wincodecsdk.h
 req.include-header: 

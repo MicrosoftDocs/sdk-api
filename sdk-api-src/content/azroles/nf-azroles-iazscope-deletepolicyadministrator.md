@@ -9,8 +9,6 @@ ms.assetid: 23077da5-5475-45c6-87c0-b38f6c05d386
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AzScope object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzScope object, DeletePolicyAdministrator method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyAdministrator method, IAzScope.DeletePolicyAdministrator, IAzScope::DeletePolicyAdministrator, azroles/IAzScope::DeletePolicyAdministrator, security.iazscope_deletepolicyadministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

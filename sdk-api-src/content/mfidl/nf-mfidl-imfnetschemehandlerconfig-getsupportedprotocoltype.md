@@ -9,8 +9,6 @@ ms.assetid: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 51cd90cf-a3ae-45dd-bc27-c91d44cab9f5, GetSupportedProtocolType, GetSupportedProtocolType method [Media Foundation], GetSupportedProtocolType method [Media Foundation],IMFNetSchemeHandlerConfig interface, IMFNetSchemeHandlerConfig interface [Media Foundation],GetSupportedProtocolType method, IMFNetSchemeHandlerConfig.GetSupportedProtocolType, IMFNetSchemeHandlerConfig::GetSupportedProtocolType, mf.imfnetschemehandlerconfig_getsupportedprotocoltype, mfidl/IMFNetSchemeHandlerConfig::GetSupportedProtocolType
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

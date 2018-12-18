@@ -9,8 +9,6 @@ ms.assetid: 31442c1f-0921-49b8-ab38-d75ccc2c4f0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IPMT.GetTableDescriptorByIndex, IPMT::GetTableDescriptorByIndex, IPMTGetTableDescriptorByIndex, mpeg2psiparser/IPMT::GetTableDescriptorByIndex, mstv.ipmt_gettabledescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 
@@ -63,12 +61,12 @@ The <b>GetTableDescriptorByIndex</b> method retrieves a table-wide descriptor fo
 
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/e1f91a13-afec-4703-8f1c-be64c8a8b8f9">IPMT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the PMT.
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694823(v=VS.85).aspx">IPMT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the PMT.
 
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/efca0ecf-eb3e-4dcd-a674-b8fe1a66ff84">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 
 ## -returns
@@ -126,7 +124,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24">IPMT Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
  
 
  

@@ -9,8 +9,6 @@ ms.assetid: 9bf6f7b1-7a30-4398-a12a-b1de986f860d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetThreadSelectorEntry, GetThreadSelectorEntry function, _win32_getthreadselectorentry, base.getthreadselectorentry, winbase/GetThreadSelectorEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

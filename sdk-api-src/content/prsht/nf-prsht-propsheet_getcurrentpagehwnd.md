@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getcurrentpagehwnd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropSheet_GetCurrentPageHwnd, PropSheet_GetCurrentPageHwnd macro [Windows Controls], _win32_PropSheet_GetCurrentPageHwnd, _win32_PropSheet_GetCurrentPageHwnd_cpp, controls.PropSheet_GetCurrentPageHwnd, controls._win32_PropSheet_GetCurrentPageHwnd, prsht/PropSheet_GetCurrentPageHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

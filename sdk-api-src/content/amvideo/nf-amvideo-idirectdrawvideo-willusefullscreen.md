@@ -9,8 +9,6 @@ ms.assetid: de2addfc-e289-4277-a283-b7aa2aa47ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],WillUseFullScreen method, IDirectDrawVideo.WillUseFullScreen, IDirectDrawVideo::WillUseFullScreen, IDirectDrawVideoWillUseFullScreen, WillUseFullScreen, WillUseFullScreen method [DirectShow], WillUseFullScreen method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::WillUseFullScreen, dshow.idirectdrawvideo_willusefullscreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h
@@ -80,7 +78,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-For a description of this feature, see <a href="https://msdn.microsoft.com/e50f7f06-6534-4373-a2b8-fa315158729d">IDirectDrawVideo::UseWhenFullScreen</a>.
+For a description of this feature, see <a href="https://msdn.microsoft.com/en-us/library/Dd406831(v=VS.85).aspx">IDirectDrawVideo::UseWhenFullScreen</a>.
 
 
 
@@ -94,7 +92,7 @@ For a description of this feature, see <a href="https://msdn.microsoft.com/e50f7
 
 
 
-<a href="https://msdn.microsoft.com/b918bf3b-b91b-40fb-abb8-4115a4f254bb">IDirectDrawVideo Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406816(v=VS.85).aspx">IDirectDrawVideo Interface</a>
  
 
  

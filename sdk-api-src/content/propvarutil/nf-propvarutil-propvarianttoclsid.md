@@ -9,8 +9,6 @@ ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 
@@ -100,12 +98,12 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
+<a href="shell.PropVariantToCLSID">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776537(v=VS.85).aspx">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToCLSID">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -146,15 +144,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776545(v=VS.85).aspx">PropVariantToGUID</a>
+<a href="shell.PropVariantToGUID">PropVariantToGUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776603(v=VS.85).aspx">VariantToGUID</a>
+<a href="shell.VariantToGUID">VariantToGUID</a>
  
 
  

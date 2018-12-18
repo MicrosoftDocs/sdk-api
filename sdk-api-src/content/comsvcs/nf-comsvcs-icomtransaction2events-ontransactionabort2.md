@@ -9,8 +9,6 @@ ms.assetid: 8c74410c-c9a0-4115-876b-4b4db798e54f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionAbort2 method, IComTransaction2Events.OnTransactionAbort2, IComTransaction2Events::OnTransactionAbort2, OnTransactionAbort2, OnTransactionAbort2 method [COM+], OnTransactionAbort2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactionabort2, comsvcs/IComTransaction2Events::OnTransactionAbort2, cos.icomtransaction2events_ontransactionabort2
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

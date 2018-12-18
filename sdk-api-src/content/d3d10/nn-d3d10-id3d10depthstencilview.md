@@ -9,8 +9,6 @@ ms.assetid: VS|directx_sdk|~\id3d10depthstencilview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ID3D10DepthStencilView, ID3D10DepthStencilView interface [Direct3D 10], ID3D10DepthStencilView interface [Direct3D 10],described, d3d10/ID3D10DepthStencilView, dac84102-a993-d10e-a776-72797e15d8c1, direct3d10.id3d10depthstencilview
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: d3d10.h
 req.include-header: 
@@ -58,7 +56,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">dept
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilView</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View</a>. <b>ID3D10DepthStencilView</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members

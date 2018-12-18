@@ -9,8 +9,6 @@ ms.assetid: 2AB56616-3F67-4428-8A99-FCE733A5FDBF
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC], IInkRenderer interface [Tablet PC],described, msinkaut/IInkRenderer, tablet.iinkrenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

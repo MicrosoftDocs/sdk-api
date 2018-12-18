@@ -9,8 +9,6 @@ ms.assetid: 3B1C3731-72E5-4407-AFA8-4E5ACB3F1FD2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CurrentFillColor property [Windows Accessibility], CurrentFillColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillColor property, IUIAutomationStylesPattern.CurrentFillColor, IUIAutomationStylesPattern.get_CurrentFillColor, IUIAutomationStylesPattern::CurrentFillColor, IUIAutomationStylesPattern::get_CurrentFillColor, get_CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

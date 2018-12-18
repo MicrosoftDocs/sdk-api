@@ -9,8 +9,6 @@ ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

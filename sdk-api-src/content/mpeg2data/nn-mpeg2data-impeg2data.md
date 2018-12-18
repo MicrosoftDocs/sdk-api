@@ -9,8 +9,6 @@ ms.assetid: 82af47a2-cac4-4d4f-ba20-d4f6b5485a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], IMpeg2Data interface [Microsoft TV Technologies],described, IMpeg2DataInterface, mpeg2data/IMpeg2Data, mstv.impeg2data
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/6f07b4d2-7a52-448c-9e9f-729bd5261757">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>IMpeg2Data</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 The <b>IMpeg2Data</b> interface is exposed by the <a href="https://msdn.microsoft.com/03027748-03da-485c-8787-3cf171fff1e0">MPEG-2 Sections and Tables</a> filter. It enables the client to retrieve unparsed sections or tables from an MPEG-2 transport stream.
 

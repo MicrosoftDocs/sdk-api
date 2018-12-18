@@ -9,8 +9,6 @@ ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Branding property, IFaxOutgoingQueue.Branding, IFaxOutgoingQueue.get_Branding, IFaxOutgoingQueue::Branding, IFaxOutgoingQueue::get_Branding, IFaxOutgoingQueue::put_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp, faxcomex/IFaxOutgoingQueue::Branding, faxcomex/IFaxOutgoingQueue::get_Branding, faxcomex/IFaxOutgoingQueue::put_Branding, get_Branding
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

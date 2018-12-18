@@ -9,8 +9,6 @@ ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],activateUIPlugin method, IWMPPlayerServices.activateUIPlugin, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: wmp.h
 req.include-header: 
@@ -105,7 +103,7 @@ This method is used only when remoting the Windows Media Player control.
 
 
 
-<a href="https://msdn.microsoft.com/3d9ca91f-c672-4ecb-a6db-67d7e1ddbe7e">IWMPPlayerServices Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563533(v=VS.85).aspx">IWMPPlayerServices Interface</a>
 
 
 

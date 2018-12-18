@@ -9,8 +9,6 @@ ms.assetid: 6c0036d8-1f91-4d90-a301-b58bde8da974
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: CreateMesh, CreateMesh method [Direct2D], CreateMesh method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],CreateMesh method, ID2D1RenderTarget.CreateMesh, ID2D1RenderTarget::CreateMesh, d2d1/ID2D1RenderTarget::CreateMesh, direct2d.ID2D1RenderTarget_CreateMesh
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: d2d1.h
 req.include-header: 
@@ -69,7 +67,7 @@ When this method returns, contains a pointer to a pointer to the new mesh.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

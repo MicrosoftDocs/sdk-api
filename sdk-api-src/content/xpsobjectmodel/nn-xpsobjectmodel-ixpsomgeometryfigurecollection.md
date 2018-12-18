@@ -9,8 +9,6 @@ ms.assetid: 24ed79ff-9160-4e9b-b322-c538b30f113b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IXpsOMGeometryFigureCollection, IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging], IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],described, xps.ixpsomgeometryfigurecollection, xpsobjectmodel/IXpsOMGeometryFigureCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

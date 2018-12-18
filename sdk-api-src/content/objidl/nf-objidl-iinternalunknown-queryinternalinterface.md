@@ -9,8 +9,6 @@ ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

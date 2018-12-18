@@ -9,8 +9,6 @@ ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcat
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method, ISearchCatalogManager.SetExtensionClusion, ISearchCatalogManager::SetExtensionClusion, SetExtensionClusion, SetExtensionClusion method [search], SetExtensionClusion method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetExtensionClusion, search._search_ISearchCatalogManager_SetExtensionClusion, searchapi/ISearchCatalogManager::SetExtensionClusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

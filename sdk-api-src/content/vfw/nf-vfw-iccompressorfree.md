@@ -9,8 +9,6 @@ ms.assetid: 6d0c9a7d-6458-4330-af74-3f471555cbfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ICCompressorFree, ICCompressorFree function [Windows Multimedia], _win32_ICCompressorFree, multimedia.iccompressorfree, vfw/ICCompressorFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: vfw.h
 req.include-header: 
@@ -51,7 +49,7 @@ req.redist:
 
 
 
-The <b>ICCompressorFree</b> function frees the resources in the <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure used by other VCM functions.
+The <b>ICCompressorFree</b> function frees the resources in the <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure used by other VCM functions.
 
 
 
@@ -63,7 +61,7 @@ The <b>ICCompressorFree</b> function frees the resources in the <a href="https:/
 
 ### -param pc
 
-Pointer to the <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure containing the resources to be freed.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure containing the resources to be freed.
 
 
 ## -returns
@@ -79,7 +77,7 @@ This function does not return a value.
 
 
 
-Use this function to release the resources in the <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure after using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a>, <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a>, <a href="https://msdn.microsoft.com/6159e455-1e1a-4aa5-9d75-53cd2af2656a">ICSeqCompressFrame</a>, and <a href="https://msdn.microsoft.com/3fdcd18d-4ee7-4b5a-871d-61316c716e06">ICSeqCompressFrameEnd</a> functions.
+Use this function to release the resources in the <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure after using the <a href="https://msdn.microsoft.com/4a58df6a-9ac4-44bb-8c49-338bb60193fc">ICCompressorChoose</a>, <a href="https://msdn.microsoft.com/90103468-fcdc-4c40-b328-29fe467b9039">ICSeqCompressFrameStart</a>, <a href="https://msdn.microsoft.com/6159e455-1e1a-4aa5-9d75-53cd2af2656a">ICSeqCompressFrame</a>, and <a href="https://msdn.microsoft.com/3fdcd18d-4ee7-4b5a-871d-61316c716e06">ICSeqCompressFrameEnd</a> functions.
 
 
 

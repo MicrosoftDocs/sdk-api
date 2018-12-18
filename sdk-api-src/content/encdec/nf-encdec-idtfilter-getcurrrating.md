@@ -9,8 +9,6 @@ ms.assetid: 6ea5c9a0-b04c-41a6-83ed-48ea9d187da7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IDTFilter interface, IDTFilter interface [Microsoft TV Technologies],GetCurrRating method, IDTFilter.GetCurrRating, IDTFilter::GetCurrRating, IDTFilterGetCurrRating, encdec/IDTFilter::GetCurrRating, mstv.idtfilter_getcurrrating
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

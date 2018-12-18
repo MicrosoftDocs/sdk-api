@@ -9,8 +9,6 @@ ms.assetid: 85af8514-a448-44c4-b1ad-f0a6b5c4a8a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MI_DestinationOptions_GetCertRevocationCheck, MI_DestinationOptions_GetCertRevocationCheck function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCertRevocationCheck, wmi_v2.mi_destinationoptions_getcertrevocationcheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: mi.h
 req.include-header: 

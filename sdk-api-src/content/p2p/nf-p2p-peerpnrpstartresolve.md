@@ -7,10 +7,8 @@ old-location: p2p\peerpnrpstartresolve.htm
 tech.root: P2PSdk
 ms.assetid: 140ecca5-85fe-480e-bc69-86e0bc69ad2e
 ms.author: windowssdkdev
-ms.date: 09/26/2018
+ms.date: 12/5/2018
 ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networking], p2p.peerpnrpstartresolve, p2p/PeerPnrpStartResolve
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

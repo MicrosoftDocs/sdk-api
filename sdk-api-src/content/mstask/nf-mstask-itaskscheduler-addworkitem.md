@@ -9,8 +9,6 @@ ms.assetid: 5d776e19-c40e-4e0a-8ae1-a14c4f23b442
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: AddWorkItem, AddWorkItem method [Task Scheduler], AddWorkItem method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],AddWorkItem method, ITaskScheduler.AddWorkItem, ITaskScheduler::AddWorkItem, _msb_itaskscheduler_addworkitem, mstask/ITaskScheduler::AddWorkItem, taskschd.itaskscheduler_addworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

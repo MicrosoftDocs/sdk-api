@@ -9,8 +9,6 @@ ms.assetid: BE4DC6B9-BCD6-4E27-81F8-E3CF054CFBE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetAwarenessFromDpiAwarenessContext, GetAwarenessFromDpiAwarenessContext function [High DPI], hidpi.getawarenessfromdpiawarenesscontext, winuser/GetAwarenessFromDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

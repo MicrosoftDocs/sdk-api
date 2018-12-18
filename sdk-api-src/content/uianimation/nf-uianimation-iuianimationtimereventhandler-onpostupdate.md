@@ -9,8 +9,6 @@ ms.assetid: 3a09537a-6cf7-4824-90c6-265dafa07a1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPostUpdate method, IUIAnimationTimerEventHandler.OnPostUpdate, IUIAnimationTimerEventHandler::OnPostUpdate, OnPostUpdate, OnPostUpdate method [Windows Animation], OnPostUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpostupdate, uianimation/IUIAnimationTimerEventHandler::OnPostUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

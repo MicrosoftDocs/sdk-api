@@ -9,8 +9,6 @@ ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: ListView_SetHotCursor, ListView_SetHotCursor macro [Windows Controls], _win32_ListView_SetHotCursor, _win32_ListView_SetHotCursor_cpp, commctrl/ListView_SetHotCursor, controls.ListView_SetHotCursor, controls._win32_ListView_SetHotCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 
@@ -60,14 +58,14 @@ Sets the HCURSOR that the list-view control uses when the pointer is over an ite
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a list-view control. 
 
 
 ### -param hcur
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HCURSOR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HCURSOR</a></b>
 
 A handle to the cursor to be set. 
 

@@ -9,8 +9,6 @@ ms.assetid: 79a19a38-3941-41bd-a1bd-5260ba36541f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Point2U, Point2U function [Direct2D], d2d1helper/Point2U, direct2d.point2u
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 
@@ -50,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368142(v=VS.85).aspx">D2D1_POINT_2U</a> structure that contains the specified x-coordinates and y-coordinates.
+Creates a <a href="https://msdn.microsoft.com/652c0dd7-c24d-4941-ae23-2be21b53af69">D2D1_POINT_2U</a> structure that contains the specified x-coordinates and y-coordinates.
 
 
 ## -parameters
@@ -76,7 +74,7 @@ The y-coordinate of the point. The default value is 0.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368142(v=VS.85).aspx">D2D1_POINT_2U</a></b>
+Type: <b><a href="https://msdn.microsoft.com/652c0dd7-c24d-4941-ae23-2be21b53af69">D2D1_POINT_2U</a></b>
 
 The new point.
 

@@ -9,8 +9,6 @@ ms.assetid: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7, IInkDivisionUnit, IInkDivisionUnit interface [Tablet PC], IInkDivisionUnit interface [Tablet PC],described, msinkaut15/IInkDivisionUnit, tablet.iinkdivisionunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 

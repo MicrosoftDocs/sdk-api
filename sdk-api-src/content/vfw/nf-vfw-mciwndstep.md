@@ -9,8 +9,6 @@ ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndStep, multimedia.mciwndstep, vfw/MCIWndStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

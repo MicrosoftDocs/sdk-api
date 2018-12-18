@@ -9,8 +9,6 @@ ms.assetid: 933d502a-c752-45ae-b51f-8c0a876856bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetNameFromToken, GetNameFromToken method [Windows Runtime], GetNameFromToken method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNameFromToken method, IMetaDataImport.GetNameFromToken, IMetaDataImport::GetNameFromToken, rometadataapi/IMetaDataImport::GetNameFromToken, winrt.imetadataimport_getnamefromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

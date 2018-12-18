@@ -9,8 +9,6 @@ ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
 ms.topic: function
 req.header: webservices.h
 req.include-header: 
@@ -121,7 +119,7 @@ One or more arguments are invalid.
 
 <b>Windows Server 2003 and before:  </b>On Windows platforms before Windows Vista, this function is not supported for WS_UDP_CHANNEL_BINDING or WS_HTTP_CHANNEL_BINDING  if the channel is in the WS_CHANNEL_STATE_ACCEPTING state and the listener has not already been aborted. 
 
-(For information on channel bindings and channel states, see the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> and <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE</a> enumerations.)<p class="note"> This function is also not supported for WS_HTTP_CHANNEL_BINDING with WS_CHANNEL_TYPE_REPLY when aborting a channel  in the WS_CHANNEL_STATE_OPEN or WS_CHANNEL_STATE_FAULTED state. (For information on channel types, see the <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration.
+(For information on channel bindings and channel states, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CHANNEL_BINDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE</a> enumerations.)<p class="note"> This function is also not supported for WS_HTTP_CHANNEL_BINDING with WS_CHANNEL_TYPE_REPLY when aborting a channel  in the WS_CHANNEL_STATE_OPEN or WS_CHANNEL_STATE_FAULTED state. (For information on channel types, see the <a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE</a> enumeration.
 
 
 
