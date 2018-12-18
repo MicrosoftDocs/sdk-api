@@ -69,7 +69,7 @@ To retrieve product type information on versions of Windows prior to the minimum
 
 The major version number of the operating system. The minimum value is 6.
 
-The combination of the <i>dwOSMajorVersion</i>, <i>dwOSMinorVersion</i>, <i>dwSpMajorVersion</i>, and <i>dwSpMinorVersion</i> parameters describes the maximum target operating system version for the application. For example, Windows Vista and Windows Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0.
+The combination of the <i>dwOSMajorVersion</i>, <i>dwOSMinorVersion</i>, <i>dwSpMajorVersion</i>, and <i>dwSpMinorVersion</i> parameters describes the maximum target operating system version for the application. For example, Windows Vista and Windows Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0. All Windows 10 based releases will be listed as version 6.3.
 
 
 ### -param dwOSMinorVersion [in]
@@ -92,7 +92,7 @@ The minor version number of the operating system service pack. The minimum value
 The product type. This parameter cannot be <b>NULL</b>. If the specified operating system  is less than the current operating system, this information is mapped to the types supported by the specified operating system. If the specified operating system is greater than the highest supported operating system, this information is mapped to the types supported by the current operating system.
 
 
- This parameter can be one of the following values.
+ This parameter can be one of the following values (some products below may be out of support)..
 
 
 
@@ -201,13 +201,35 @@ Server Datacenter (evaluation installation)
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_DATACENTER_A_SERVER_CORE"></a><a id="product_datacenter_a_server_core"></a><dl>
+<dt><b>PRODUCT_DATACENTER_A_SERVER_CORE</b></dt>
+<dt>0x00000091</dt>
+</dl>
+</td>
+<td width="60%">
+Server Datacenter, Semi-Annual Channel (core installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_STANDARD_A_SERVER_CORE"></a><a id="product_standard_a_server_core"></a><dl>
+<dt><b>PRODUCT_STANDARD_A_SERVER_CORE</b></dt>
+<dt>0x00000092</dt>
+</dl>
+</td>
+<td width="60%">
+Server Standard, Semi-Annual Channel (core installation)
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_DATACENTER_SERVER"></a><a id="product_datacenter_server"></a><dl>
 <dt><b>PRODUCT_DATACENTER_SERVER</b></dt>
 <dt>0x00000008</dt>
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (full installation)
+Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx">Determining whether Server Core is running</a>.) 
 
 </td>
 </tr>
@@ -218,7 +240,7 @@ Server Datacenter (full installation)
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (core installation)
+Server Datacenter (core installation, Windows Server 2008 R2 and earlier)
 
 </td>
 </tr>
@@ -867,7 +889,7 @@ Server Standard (evaluation installation)
 </dl>
 </td>
 <td width="60%">
-Server Standard
+Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx">Determining whether Server Core is running</a>.) 
 
 </td>
 </tr>
@@ -878,7 +900,7 @@ Server Standard
 </dl>
 </td>
 <td width="60%">
-Server Standard (core installation)
+Server Standard (core installation, Windows Server 2008 R2 and earlier)
 
 </td>
 </tr>
@@ -1158,7 +1180,7 @@ To detect whether a server role or feature is installed, use the  <a href="https
 
 Subsequent releases of Windows will map the product types it supports to the set of product types supported by each supported previous release of Windows, back to version 6.0.0.0. Therefore, an application that does an equality test for any of these values will continue to work on future releases, even when new product types are added.
 
-PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation.
+PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method [Determining whether Server Core is running](https://msdn.microsoft.com/en-us/library/windows/desktop/hh846315(v=vs.85).aspx).
 
 The following table indicates the product types that were introduced in 6.1.0.0, and what they will map to if <b>GetProductInfo</b> is called with version 6.0.0.0 on a 6.1.0.0 system.
 
