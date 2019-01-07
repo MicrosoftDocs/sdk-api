@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::EnumerateEnvironmentsByProvider
 author: windows-sdk-content
 description: Returns an array that contains the environments present on the specified provider.
 old-location: termserv\itssbglobalstore_enumerateenvironmentsbyprovider.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4fb29524-61e3-4d1a-be98-45f61b796e9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

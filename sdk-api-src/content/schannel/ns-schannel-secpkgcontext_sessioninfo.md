@@ -4,7 +4,7 @@ title: SecPkgContext_SessionInfo
 author: windows-sdk-content
 description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
 old-location: security\secpkgcontext_sessioninfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d7725803-1f4c-4d5d-8c53-81ec24d5a9d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

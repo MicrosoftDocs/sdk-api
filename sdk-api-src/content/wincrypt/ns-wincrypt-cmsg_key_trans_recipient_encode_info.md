@@ -4,7 +4,7 @@ title: CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 author: windows-sdk-content
 description: Contains encoded key transport information for a message recipient.
 old-location: security\cmsg_key_trans_recipient_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 20b20759-3d76-4814-9e71-7376dd326f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

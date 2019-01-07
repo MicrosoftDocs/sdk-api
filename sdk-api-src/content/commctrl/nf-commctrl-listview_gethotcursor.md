@@ -4,7 +4,7 @@ title: ListView_GetHotCursor macro
 author: windows-sdk-content
 description: Gets the HCURSOR used when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_GETHOTCURSOR message explicitly.
 old-location: controls\ListView_GetHotCursor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCardGetProviderIdA function
 author: windows-sdk-content
 description: Returns the identifier (GUID) of the primary service provider for a given card.
 old-location: security\scardgetproviderid.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

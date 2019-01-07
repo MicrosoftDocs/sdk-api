@@ -4,7 +4,7 @@ title: IImageList2::ForceImagePresent
 author: windows-sdk-content
 description: Forces an image present, as specified.
 old-location: controls\IImageList2_ForceImagePresent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\forceimagepresent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

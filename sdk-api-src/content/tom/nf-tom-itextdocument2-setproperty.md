@@ -4,7 +4,7 @@ title: ITextDocument2::SetProperty
 author: windows-sdk-content
 description: Specifies a new value for a property.
 old-location: controls\itextdocument2_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 29e70a21-9fab-4fba-9cc4-f1268b005edb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

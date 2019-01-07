@@ -4,7 +4,7 @@ title: ITextServices::TxGetDropTarget
 author: windows-sdk-content
 description: Gets the drop target for the text control.
 old-location: controls\ITextServices_TxGetDropTarget.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdroptarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

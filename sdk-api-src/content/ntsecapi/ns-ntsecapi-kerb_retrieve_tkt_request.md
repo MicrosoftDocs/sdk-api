@@ -4,7 +4,7 @@ title: KERB_RETRIEVE_TKT_REQUEST
 author: windows-sdk-content
 description: Contains information used to retrieve a ticket.
 old-location: security\kerb_retrieve_tkt_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3b088c94-810b-44c7-887a-58e8dbd13603
 ms.author: windowssdkdev
 ms.date: 12/5/2018

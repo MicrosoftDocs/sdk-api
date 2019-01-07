@@ -4,7 +4,7 @@ title: CERT_CHAIN_ENGINE_CONFIG
 author: windows-sdk-content
 description: Sets parameters for building a non-default certificate chain engine. The engine used determines the ways that certificate chains are built.
 old-location: security\cert_chain_engine_config.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9e010eb9-2cbb-4fca-ba5c-4a5a50f23786
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertDuplicateCertificateContext function
 author: windows-sdk-content
 description: Duplicates a certificate context by incrementing its reference count.
 old-location: security\certduplicatecertificatecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

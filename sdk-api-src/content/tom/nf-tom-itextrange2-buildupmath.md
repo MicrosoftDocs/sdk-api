@@ -4,7 +4,7 @@ title: ITextRange2::BuildUpMath
 author: windows-sdk-content
 description: Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
 old-location: controls\itextrange2_buildupmath.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b6382f09-126e-4107-a4b9-288777549181
 ms.author: windowssdkdev
 ms.date: 12/5/2018

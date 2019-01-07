@@ -4,7 +4,7 @@ title: ITsSbTarget::get_IpAddresses
 author: windows-sdk-content
 description: Retrieves or specifies the external IP addresses of the target.
 old-location: termserv\itssbtarget_ipaddresses.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 938a753c-d541-4772-b41b-817324488685
 ms.author: windowssdkdev
 ms.date: 12/5/2018

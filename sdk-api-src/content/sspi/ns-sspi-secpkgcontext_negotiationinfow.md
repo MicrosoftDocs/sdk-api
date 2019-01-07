@@ -4,7 +4,7 @@ title: SecPkgContext_NegotiationInfoW
 author: windows-sdk-content
 description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 old-location: security\secpkgcontext_negotiationinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

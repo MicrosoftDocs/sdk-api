@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::GetDistPointCount
 author: windows-sdk-content
 description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.
 old-location: security\icertencodecrldistinfo_getdistpointcount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8c7d0d14-e755-4223-8cd5-0ebc784960cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

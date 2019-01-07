@@ -4,7 +4,7 @@ title: PKU2U_LOGON_SUBMIT_TYPE
 author: windows-sdk-content
 description: Indicates the type of logon message passed in a PKU2U_CERTIFICATE_S4U_LOGON structure.
 old-location: security\pku2u_logon_submit_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 10de9dd4-0f6c-4431-a60d-9b9c60585676
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DateTime_GetRange macro
 author: windows-sdk-content
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the DTM_GETRANGE message explicitly.
 old-location: controls\DateTime_GetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

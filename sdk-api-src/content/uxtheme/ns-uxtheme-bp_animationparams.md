@@ -4,7 +4,7 @@ title: BP_ANIMATIONPARAMS
 author: windows-sdk-content
 description: Defines animation parameters for the BP_PAINTPARAMS structure used by BeginBufferedPaint.
 old-location: controls\BP_ANIMATIONPARAMS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_animationparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

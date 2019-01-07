@@ -4,7 +4,7 @@ title: IWTSBitmapRenderer::Render
 author: windows-sdk-content
 description: Called by a dynamic virtual channel plug-in to render bitmaps.
 old-location: termserv\iwtsbitmaprenderer_render.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 536c6954-0cde-48d1-ba5b-a97c9942f0f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DECODING_SOURCE
 author: windows-sdk-content
 description: Defines the source of the event data.
 old-location: etw\decoding_source_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStorage::CopyTo
 author: windows-sdk-content
 description: Copies the entire contents of an open storage object to another storage object.
 old-location: stg\istorage_copyto.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
 ms.author: windowssdkdev
 ms.date: 12/5/2018

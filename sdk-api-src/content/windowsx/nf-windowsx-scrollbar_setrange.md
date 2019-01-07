@@ -4,7 +4,7 @@ title: ScrollBar_SetRange macro
 author: windows-sdk-content
 description: Sets the range of a scroll bar.
 old-location: controls\ScrollBar_SetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_setrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

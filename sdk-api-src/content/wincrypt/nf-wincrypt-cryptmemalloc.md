@@ -4,7 +4,7 @@ title: CryptMemAlloc function
 author: windows-sdk-content
 description: The CryptMemAlloc function allocates memory for a buffer. It is used by all Crypt32.lib functions that return allocated buffers.
 old-location: security\cryptmemalloc.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ac7588b1-ff8c-4f8d-a8ab-f0e8a18e5614
 ms.author: windowssdkdev
 ms.date: 12/5/2018

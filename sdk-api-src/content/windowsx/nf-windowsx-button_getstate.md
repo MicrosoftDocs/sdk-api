@@ -4,7 +4,7 @@ title: Button_GetState macro
 author: windows-sdk-content
 description: Retrieves the state of a button or check box. You can use this macro or send the BM_GETSTATE message explicitly.
 old-location: controls\Button_GetState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

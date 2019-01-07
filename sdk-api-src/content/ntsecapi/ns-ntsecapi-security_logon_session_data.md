@@ -4,7 +4,7 @@ title: SECURITY_LOGON_SESSION_DATA
 author: windows-sdk-content
 description: Contains information about a logon session.
 old-location: security\security_logon_session_data.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 284ddb9a-fd08-4f38-b1d0-242596c114a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

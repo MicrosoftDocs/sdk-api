@@ -4,7 +4,7 @@ title: ITextRange2::GetSubrange
 author: windows-sdk-content
 description: Retrieves a subrange in a range.
 old-location: controls\itextrange2_getsubrange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 64b031cf-9d32-4e36-8e13-f32a53f00abf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

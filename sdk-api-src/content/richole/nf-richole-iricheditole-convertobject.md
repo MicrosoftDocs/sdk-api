@@ -4,7 +4,7 @@ title: IRichEditOle::ConvertObject
 author: windows-sdk-content
 description: Converts an object to a new type. This call reloads the object but does not force an update; the caller must do this.
 old-location: controls\IRichEditOle_ConvertObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleconvertobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

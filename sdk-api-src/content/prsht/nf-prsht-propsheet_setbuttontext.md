@@ -4,7 +4,7 @@ title: PropSheet_SetButtonText macro
 author: windows-sdk-content
 description: Sets the text of a button in an Aero wizard. You can use this macro or send the PSM_SETBUTTONTEXT message explicitly.
 old-location: controls\PropSheet_SetButtonText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setbuttontext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

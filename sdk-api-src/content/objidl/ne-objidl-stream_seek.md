@@ -4,7 +4,7 @@ title: STREAM_SEEK
 author: windows-sdk-content
 description: The STREAM_SEEK enumeration values specify the origin from which to calculate the new seek-pointer location.
 old-location: stg\stream_seek.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f73a8f98-c004-40c7-b8d2-5b84d7aa2c31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

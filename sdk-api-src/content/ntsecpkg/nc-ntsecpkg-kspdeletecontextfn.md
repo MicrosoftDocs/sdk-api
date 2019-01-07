@@ -4,7 +4,7 @@ title: KspDeleteContextFn
 author: windows-sdk-content
 description: Deletes a security context.
 old-location: security\spdeletecontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 70e64bd3-7fdf-464b-bc0a-a0384a3e1a59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertServerExit::EnumerateAttributesSetup
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverexit_enumerateattributessetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c81b9c4d-483e-48b8-a270-f570e148d371
 ms.author: windowssdkdev
 ms.date: 12/5/2018

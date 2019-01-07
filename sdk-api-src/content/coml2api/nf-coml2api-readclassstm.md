@@ -4,7 +4,7 @@ title: ReadClassStm function
 author: windows-sdk-content
 description: Reads the CLSID previously written to a stream object with the WriteClassStm function.
 old-location: stg\readclassstm.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: bcf11c5b-e164-4a0f-b30f-ee9e76c4356d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

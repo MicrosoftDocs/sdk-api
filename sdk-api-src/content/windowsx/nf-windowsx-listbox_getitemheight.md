@@ -4,7 +4,7 @@ title: ListBox_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the height of items in a list box.
 old-location: controls\ListBox_GetItemHeight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemheight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

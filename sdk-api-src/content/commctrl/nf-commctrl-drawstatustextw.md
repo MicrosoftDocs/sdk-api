@@ -4,7 +4,7 @@ title: DrawStatusTextW function
 author: windows-sdk-content
 description: The DrawStatusText function draws the specified text in the style of a status window with borders.
 old-location: controls\DrawStatusText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

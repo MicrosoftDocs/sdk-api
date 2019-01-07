@@ -90,3 +90,14 @@ A <a href="https://msdn.microsoft.com/1E14F62A-E6B9-4C88-AC28-2322C4662E1F">D3D1
 
 A <b>BOOL</b>. <b>TRUE</b> to preserve the resolve source, otherwise <b>FALSE</b>.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

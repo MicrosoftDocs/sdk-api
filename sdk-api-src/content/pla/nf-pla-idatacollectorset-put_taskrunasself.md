@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_TaskRunAsSelf
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\idatacollectorset_taskrunasself.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 14a7f6db-b5aa-4462-978e-66cd58e05446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

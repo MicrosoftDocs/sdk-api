@@ -4,7 +4,7 @@ title: Str_SetPtrW function
 author: windows-sdk-content
 description: Sets ppszCurrent to a copy of pszNew and frees the previous value, if necessary.
 old-location: controls\Str_SetPtrW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\str_setptrw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

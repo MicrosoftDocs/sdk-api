@@ -4,7 +4,7 @@ title: MonthCal_GetCurSel macro
 author: windows-sdk-content
 description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.
 old-location: controls\MonthCal_GetCurSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

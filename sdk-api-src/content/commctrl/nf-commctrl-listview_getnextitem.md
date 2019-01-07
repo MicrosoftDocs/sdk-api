@@ -4,7 +4,7 @@ title: ListView_GetNextItem macro
 author: windows-sdk-content
 description: Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the LVM_GETNEXTITEM message explicitly.
 old-location: controls\ListView_GetNextItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

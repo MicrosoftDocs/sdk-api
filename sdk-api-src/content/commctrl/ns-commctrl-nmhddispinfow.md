@@ -4,7 +4,7 @@ title: NMHDDISPINFOW
 author: windows-sdk-content
 description: Contains information used in handling HDN_GETDISPINFO notification codes.
 old-location: controls\NMHDDISPINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhddispinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

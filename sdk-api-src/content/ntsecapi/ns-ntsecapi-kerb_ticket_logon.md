@@ -4,7 +4,7 @@ title: KERB_TICKET_LOGON
 author: windows-sdk-content
 description: Contains profile information for a network logon.
 old-location: security\kerb_ticket_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2c082c79-ce7f-45a1-8552-3b4e9034b7e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_SGNR
 author: windows-sdk-content
 description: Provides information about a signer or countersigner.
 old-location: security\crypt_provider_sgnr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

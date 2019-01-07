@@ -4,7 +4,7 @@ title: FileTimeToLocalFileTime function
 author: windows-sdk-content
 description: Converts a file time to a local file time.
 old-location: base\filetimetolocalfiletime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 58dfce16-2d7f-4db5-9f84-5dd651d26745
 ms.author: windowssdkdev
 ms.date: 12/5/2018

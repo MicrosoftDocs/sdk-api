@@ -4,7 +4,7 @@ title: WTS_POLICY_DATA
 author: windows-sdk-content
 description: Contains policy information that is passed by the Remote Desktop Services service to the protocol.
 old-location: termserv\wts_policy_data.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 407de671-f6e3-407e-9c97-11ea9ac8bdde
 ms.author: windowssdkdev
 ms.date: 12/5/2018

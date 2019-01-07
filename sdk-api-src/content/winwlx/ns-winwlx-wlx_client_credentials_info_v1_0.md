@@ -4,7 +4,7 @@ title: WLX_CLIENT_CREDENTIALS_INFO_V1_0
 author: windows-sdk-content
 description: Contains the client credentials returned by a call to WlxQueryClientCredentials or WlxQueryInetConnectorCredentials.
 old-location: security\wlx_client_credentials_info_v1_0.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 25fdc00d-e484-415f-8f1b-1f8ed911f9ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

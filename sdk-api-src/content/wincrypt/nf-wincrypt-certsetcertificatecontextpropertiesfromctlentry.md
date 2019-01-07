@@ -4,7 +4,7 @@ title: CertSetCertificateContextPropertiesFromCTLEntry function
 author: windows-sdk-content
 description: Sets the properties on the certificate context by using the attributes in the specified certificate trust list (CTL) entry.
 old-location: security\certsetcertificatecontextpropertiesfromctlentry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b53b046a-68d4-4dc5-ab89-1b30ebd1de60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

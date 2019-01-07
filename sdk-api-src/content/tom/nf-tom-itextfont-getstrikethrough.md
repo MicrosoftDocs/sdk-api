@@ -4,7 +4,7 @@ title: ITextFont::GetStrikeThrough
 author: windows-sdk-content
 description: Gets whether characters are displayed with a horizontal line through the center.
 old-location: controls\ITextFont_GetStrikeThrough.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstrikethrough.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

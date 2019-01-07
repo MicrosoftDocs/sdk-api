@@ -4,7 +4,7 @@ title: UpdateTraceA function
 author: windows-sdk-content
 description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\updatetrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
 author: windows-sdk-content
 description: Encrypts the private key and returns the encrypted contents in the pbEncryptedKey parameter.
 old-location: security\pcrypt_encrypt_private_key_func.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aa6b8bca-4f0d-491e-ab38-5c273a01ca05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

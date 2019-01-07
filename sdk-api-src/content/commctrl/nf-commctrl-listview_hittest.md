@@ -4,7 +4,7 @@ title: ListView_HitTest macro
 author: windows-sdk-content
 description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
 old-location: controls\ListView_HitTest.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittest.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

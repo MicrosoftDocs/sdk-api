@@ -4,7 +4,7 @@ title: ITsSbProvider::RegisterForNotification
 author: windows-sdk-content
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) send notifications about specified events.
 old-location: termserv\itssbprovider_registerfornotification.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 71e55a94-7e15-45f1-a1f3-d3cf8814e0c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

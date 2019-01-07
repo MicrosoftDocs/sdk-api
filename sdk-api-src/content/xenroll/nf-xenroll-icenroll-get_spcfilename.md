@@ -4,7 +4,7 @@ title: ICEnroll::get_SPCFileName
 author: windows-sdk-content
 description: Sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\icenroll4_spcfilename.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ff2f111-31bd-4ed4-a335-2db536477660
 ms.author: windowssdkdev
 ms.date: 12/5/2018

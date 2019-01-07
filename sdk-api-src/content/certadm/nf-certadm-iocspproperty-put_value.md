@@ -4,7 +4,7 @@ title: IOCSPProperty::put_Value
 author: windows-sdk-content
 description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_value_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

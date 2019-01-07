@@ -4,7 +4,7 @@ title: ListView_RedrawItems macro
 author: windows-sdk-content
 description: Forces a list-view control to redraw a range of items. You can use this macro or send the LVM_REDRAWITEMS message explicitly.
 old-location: controls\ListView_RedrawItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_redrawitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

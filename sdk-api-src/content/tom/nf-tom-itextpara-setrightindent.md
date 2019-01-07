@@ -4,7 +4,7 @@ title: ITextPara::SetRightIndent
 author: windows-sdk-content
 description: Sets the right margin of paragraph.
 old-location: controls\ITextPara_SetRightIndent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrightindent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

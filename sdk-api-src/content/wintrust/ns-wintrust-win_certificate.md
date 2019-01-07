@@ -4,7 +4,7 @@ title: WIN_CERTIFICATE
 author: windows-sdk-content
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

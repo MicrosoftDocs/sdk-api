@@ -4,7 +4,7 @@ title: IDataManager::put_Rules
 author: windows-sdk-content
 description: Retrieves or sets the rules to apply to the report.
 old-location: pla\idatamanager_rules.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.author: windowssdkdev
 ms.date: 12/5/2018

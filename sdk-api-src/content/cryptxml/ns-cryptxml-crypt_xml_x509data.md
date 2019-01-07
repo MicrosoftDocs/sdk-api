@@ -4,7 +4,7 @@ title: CRYPT_XML_X509DATA
 author: windows-sdk-content
 description: Represents the sequence of choices in the X509Data element.
 old-location: security\crypt_xml_x509data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4895a6e6-ffac-419f-af9b-f2062a1aecd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

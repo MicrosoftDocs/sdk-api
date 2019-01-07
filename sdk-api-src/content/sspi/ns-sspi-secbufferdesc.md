@@ -4,7 +4,7 @@ title: SecBufferDesc
 author: windows-sdk-content
 description: The SecBufferDesc structure describes an array of SecBuffer structures to pass from a transport application to a security package.
 old-location: security\secbufferdesc.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OSVERSIONINFOA
 author: windows-sdk-content
 description: Contains operating system version information.
 old-location: base\osversioninfo_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

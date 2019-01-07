@@ -4,7 +4,7 @@ title: NMCUSTOMDRAW
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW notification code.
 old-location: controls\NMCUSTOMDRAW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\custdraw\structures\nmcustomdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

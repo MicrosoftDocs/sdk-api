@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::put_HashAlgorithm
 author: windows-sdk-content
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LSA_STRING
 author: windows-sdk-content
 description: Used by Local Security Authority (LSA) functions to specify an ANSI string.
 old-location: security\lsa_string.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4ae4160f-bcad-41d9-8239-91da44702b76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

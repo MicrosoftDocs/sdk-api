@@ -4,7 +4,7 @@ title: CryptGenRandom function
 author: windows-sdk-content
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

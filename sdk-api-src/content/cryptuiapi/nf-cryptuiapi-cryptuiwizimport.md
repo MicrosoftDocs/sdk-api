@@ -4,7 +4,7 @@ title: CryptUIWizImport function
 author: windows-sdk-content
 description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.
 old-location: security\cryptuiwizimport.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6b2b9c89-229a-4626-a8b4-fe2b7cc0af86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EVENT_HEADER
 author: windows-sdk-content
 description: Defines information about the event.
 old-location: etw\event_header.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 479091ae-7229-433b-b93b-8da6cc18df89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

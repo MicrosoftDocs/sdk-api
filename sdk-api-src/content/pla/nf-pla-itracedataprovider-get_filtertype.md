@@ -4,7 +4,7 @@ title: ITraceDataProvider::get_FilterType
 author: windows-sdk-content
 description: Retrieves or sets a provider-defined filter type.
 old-location: pla\itracedataprovider_filtertype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: adc9f89f-fffe-4df0-a9fd-72ae80fdf9b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

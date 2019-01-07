@@ -4,7 +4,7 @@ title: CryptXmlGetDocContext function
 author: windows-sdk-content
 description: Returns the document context specified by the supplied handle.
 old-location: security\cryptxmlgetdoccontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0532c790-381c-4a91-8211-725b0fa73830
 ms.author: windowssdkdev
 ms.date: 12/5/2018

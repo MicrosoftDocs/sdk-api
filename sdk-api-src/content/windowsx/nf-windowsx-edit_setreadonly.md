@@ -4,7 +4,7 @@ title: Edit_SetReadOnly macro
 author: windows-sdk-content
 description: Sets or removes the read-only style (ES_READONLY) of an edit or rich edit control. You can use this macro or send the EM_SETREADONLY message explicitly.
 old-location: controls\Edit_SetReadOnly.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setreadonly.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

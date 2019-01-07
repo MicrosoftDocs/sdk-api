@@ -4,7 +4,7 @@ title: ITextDocument2::SysBeep
 author: windows-sdk-content
 description: Generates a system beep.
 old-location: controls\itextdocument2_sysbeep.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2f1f83a0-9308-40c8-b889-aa8118ee9e71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

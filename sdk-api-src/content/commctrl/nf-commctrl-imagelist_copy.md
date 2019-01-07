@@ -4,7 +4,7 @@ title: ImageList_Copy function
 author: windows-sdk-content
 description: Copies images within a given image list.
 old-location: controls\ImageList_Copy.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_copy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

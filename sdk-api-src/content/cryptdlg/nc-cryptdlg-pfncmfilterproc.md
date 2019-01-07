@@ -4,7 +4,7 @@ title: PFNCMFILTERPROC
 author: windows-sdk-content
 description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.
 old-location: security\pfncmfilterproc.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
 ms.author: windowssdkdev
 ms.date: 12/5/2018

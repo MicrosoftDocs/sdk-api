@@ -4,7 +4,7 @@ title: WTSStartRemoteControlSessionW function
 author: windows-sdk-content
 description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
 old-location: termserv\wtsstartremotecontrolsession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

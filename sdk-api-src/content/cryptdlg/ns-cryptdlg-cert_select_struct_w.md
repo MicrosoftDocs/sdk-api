@@ -4,7 +4,7 @@ title: CERT_SELECT_STRUCT_W
 author: windows-sdk-content
 description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
 old-location: security\cert_select_struct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

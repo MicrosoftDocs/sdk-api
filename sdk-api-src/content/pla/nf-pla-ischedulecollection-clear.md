@@ -4,7 +4,7 @@ title: IScheduleCollection::Clear
 author: windows-sdk-content
 description: Removes all schedules from the collection.
 old-location: pla\ischedulecollection_clear.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

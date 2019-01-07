@@ -4,7 +4,7 @@ title: Edit_ScrollCaret macro
 author: windows-sdk-content
 description: Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the EM_SCROLLCARET message explicitly.
 old-location: controls\Edit_ScrollCaret.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scrollcaretl.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

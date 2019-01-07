@@ -4,7 +4,7 @@ title: CERT_EXTENSIONS
 author: windows-sdk-content
 description: The CERT_EXTENSIONS structure contains an array of extensions.
 old-location: security\cert_extensions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b393ef08-cedb-4840-a427-10ead315d6ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

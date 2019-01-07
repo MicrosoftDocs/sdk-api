@@ -4,7 +4,7 @@ title: Button_SetNote macro
 author: windows-sdk-content
 description: Sets the text of the note associated with a specified command link button. You can use this macro or send the BCM_SETNOTE message explicitly.
 old-location: controls\Button_SetNote.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setnote.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ComboBox_ResetContent macro
 author: windows-sdk-content
 description: Removes all items from the list box and edit control of a combo box. You can use this macro or send the CB_RESETCONTENT message explicitly.
 old-location: controls\ComboBox_ResetContent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_resetcontent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

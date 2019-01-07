@@ -4,7 +4,7 @@ title: ITextDocument::Save
 author: windows-sdk-content
 description: Saves the document.
 old-location: controls\ITextDocument_Save.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\save.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

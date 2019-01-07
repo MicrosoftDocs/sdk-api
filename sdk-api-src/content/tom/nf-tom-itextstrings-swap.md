@@ -4,7 +4,7 @@ title: ITextStrings::Swap
 author: windows-sdk-content
 description: Swaps the top two strings in the collection.
 old-location: controls\itextstrings_swap.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 06759b26-672c-4a3d-a2d4-085bfd09e50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

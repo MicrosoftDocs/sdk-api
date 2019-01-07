@@ -4,7 +4,7 @@ title: ITextRange::SetPoint
 author: windows-sdk-content
 description: Changes the range based on a specified point at or up through (depending on Extend) the point (x, y) aligned according to Type.
 old-location: controls\ITextRange_SetPoint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setpoint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

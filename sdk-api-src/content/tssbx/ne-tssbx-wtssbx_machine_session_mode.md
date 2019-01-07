@@ -4,7 +4,7 @@ title: WTSSBX_MACHINE_SESSION_MODE
 author: windows-sdk-content
 description: Contains values that indicate the session mode of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_session_mode.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 38894819-a39f-4c1f-aef9-ec3036b42877
 ms.author: windowssdkdev
 ms.date: 12/5/2018

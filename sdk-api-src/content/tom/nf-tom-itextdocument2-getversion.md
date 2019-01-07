@@ -4,7 +4,7 @@ title: ITextDocument2::GetVersion
 author: windows-sdk-content
 description: Gets the version number of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getversion.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4cc4502b-4e7c-4561-b7d4-a248bf248a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

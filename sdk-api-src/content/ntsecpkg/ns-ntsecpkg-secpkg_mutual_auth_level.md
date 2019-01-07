@@ -4,7 +4,7 @@ title: SECPKG_MUTUAL_AUTH_LEVEL
 author: windows-sdk-content
 description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.
 old-location: security\secpkg_mutual_auth_level.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f56cd322-8f82-43d7-a666-7067bf23b0a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

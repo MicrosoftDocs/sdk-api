@@ -4,7 +4,7 @@ title: QUOTA_LIMITS
 author: windows-sdk-content
 description: Describes the amount of system resources available to a user.
 old-location: security\quota_limits.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7514ec77-34b1-490d-ba21-3b6944942aa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SecPkgContext_StreamSizes
 author: windows-sdk-content
 description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_streamsizes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 75e5fc96-56cc-4713-a34f-fca687798ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

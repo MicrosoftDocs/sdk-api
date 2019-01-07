@@ -4,7 +4,7 @@ title: CRYPT_XML_ALGORITHM
 author: windows-sdk-content
 description: Specifies the algorithm used to sign or transform the message.
 old-location: security\crypt_xml_algorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertRequest::GetRequestId
 author: windows-sdk-content
 description: Gets the current internal request number for the request and subsequent certificate.
 old-location: security\icertrequest2_getrequestid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bb808834-7083-4b14-bce7-96b6fef242cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertGetCertificateChain function
 author: windows-sdk-content
 description: Builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted root certificate.
 old-location: security\certgetcertificatechain.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8c93036c-0b93-40d4-b0e3-ba1f2fc72db1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_DELETE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCRLFromStore before deleting the CRL from the store.
 old-location: security\certstoreprovdeletecrlcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowssdkdev
 ms.date: 12/5/2018

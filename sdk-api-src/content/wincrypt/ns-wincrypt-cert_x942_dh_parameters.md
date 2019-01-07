@@ -4,7 +4,7 @@ title: CERT_X942_DH_PARAMETERS
 author: windows-sdk-content
 description: Contains parameters associated with a Diffie-Hellman public key algorithm.
 old-location: security\cert_x942_dh_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 833d8e36-af78-4daa-92c5-0cb37a31df2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

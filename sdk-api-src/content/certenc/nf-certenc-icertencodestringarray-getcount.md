@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::GetCount
 author: windows-sdk-content
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

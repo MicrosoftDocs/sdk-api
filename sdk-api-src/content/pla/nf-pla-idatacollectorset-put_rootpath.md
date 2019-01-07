@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_RootPath
 author: windows-sdk-content
 description: Retrieves or sets the base path where the subdirectories are created.
 old-location: pla\idatacollectorset_get_rootpath.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 42940cec-c76a-433c-9308-f030dacb05a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

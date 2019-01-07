@@ -4,7 +4,7 @@ title: SCardForgetReaderGroupW function
 author: windows-sdk-content
 description: Removes a previously introduced smart card reader group from the smart card subsystem. Although this function automatically clears all readers from the group, it does not affect the existence of the individual readers in the database.
 old-location: security\scardforgetreadergroup.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WlxDisplaySASNotice function
 author: windows-sdk-content
 description: Winlogon calls this function when no user is logged on.
 old-location: security\wlxdisplaysasnotice.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2b56c037-aae6-4cb7-932f-15cf18c4444a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

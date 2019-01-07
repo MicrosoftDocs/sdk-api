@@ -4,7 +4,7 @@ title: PropSheet_ShowWizButtons macro
 author: windows-sdk-content
 description: Show or hide buttons in a wizard. You can use this macro or send the PSM_SHOWWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_ShowWizButtons.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

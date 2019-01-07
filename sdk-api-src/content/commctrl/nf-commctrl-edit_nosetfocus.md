@@ -4,7 +4,7 @@ title: Edit_NoSetFocus macro
 author: windows-sdk-content
 description: Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the EM_NOSETFOCUS message explicitly.
 old-location: controls\Edit_NoSetFocus.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_nosetfocus.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumSTATPROPSTG::Clone
 author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current STATPROPSTG structure enumerator.
 old-location: stg\ienumstatpropstg_clone.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: e06e109a-3f9d-4b08-bde9-888cb795287c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

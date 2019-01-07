@@ -4,7 +4,7 @@ title: CryptRetrieveTimeStamp function
 author: windows-sdk-content
 description: Encodes a time stamp request and retrieves the time stamp token from a location specified by a URL to a Time Stamping Authority (TSA).
 old-location: security\cryptretrievetimestamp.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 68ba3d40-08b0-4261-ab2f-6deb1795f830
 ms.author: windowssdkdev
 ms.date: 12/5/2018

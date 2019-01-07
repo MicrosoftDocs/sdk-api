@@ -4,7 +4,7 @@ title: CryptDeriveKey function
 author: windows-sdk-content
 description: Generates cryptographic session keys derived from a base data value.
 old-location: security\cryptderivekey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

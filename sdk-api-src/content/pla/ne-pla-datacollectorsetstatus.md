@@ -4,7 +4,7 @@ title: DataCollectorSetStatus
 author: windows-sdk-content
 description: Defines the running status of the data collector set.
 old-location: pla\datacollectorsetstatus.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

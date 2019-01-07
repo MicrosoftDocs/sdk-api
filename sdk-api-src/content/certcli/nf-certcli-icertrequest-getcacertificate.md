@@ -4,7 +4,7 @@ title: ICertRequest::GetCACertificate
 author: windows-sdk-content
 description: Returns the certification authority (CA) certificate for the Certificate Services server.
 old-location: security\icertrequest2_getcacertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 711fdcec-0a07-4559-a577-1eb73053dd38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

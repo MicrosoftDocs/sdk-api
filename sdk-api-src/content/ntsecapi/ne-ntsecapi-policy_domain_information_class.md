@@ -4,7 +4,7 @@ title: POLICY_DOMAIN_INFORMATION_CLASS
 author: windows-sdk-content
 description: Defines the type of policy domain information.
 old-location: security\policy_domain_information_class.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

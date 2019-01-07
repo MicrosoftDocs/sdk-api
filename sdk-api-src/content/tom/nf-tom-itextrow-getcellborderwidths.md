@@ -4,7 +4,7 @@ title: ITextRow::GetCellBorderWidths
 author: windows-sdk-content
 description: Gets the border widths of the active cell.
 old-location: controls\itextrow_getcellborderwidths.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e0ab26ca-ffb6-4f75-846b-e267e4ad6572
 ms.author: windowssdkdev
 ms.date: 12/5/2018

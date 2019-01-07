@@ -4,7 +4,7 @@ title: ITextDocument2::SetEffectColor
 author: windows-sdk-content
 description: Specifies the color to use for special text attributes.
 old-location: controls\itextdocument2_seteffectcolor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6371b525-96da-42a7-8cee-228b47208f46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll2::put_EnableT61DNEncoding
 author: windows-sdk-content
 description: The EnableT61DNEncoding property of ICEnroll4 sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
 old-location: security\icenroll4_enablet61dnencoding.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ff8fe103-0303-4f40-af25-efa50155c36f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

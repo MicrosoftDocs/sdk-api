@@ -4,7 +4,7 @@ title: NMTVDISPINFOEXA
 author: windows-sdk-content
 description: Contains information pertaining to extended TreeView notification information.
 old-location: controls\NMTVDISPINFOEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvdispinfoex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

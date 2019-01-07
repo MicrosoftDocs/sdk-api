@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_BYTE_VECTOR
 author: windows-sdk-content
 description: Specifies the byte offset and array length of the data in an authentication structure.
 old-location: security\sec_winnt_auth_byte_vector.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ee511497-2b70-4c51-bcc2-7585143b4f43
 ms.author: windowssdkdev
 ms.date: 12/5/2018

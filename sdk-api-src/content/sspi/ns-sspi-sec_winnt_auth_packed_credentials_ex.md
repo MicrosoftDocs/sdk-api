@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX
 author: windows-sdk-content
 description: Specifies serialized credentials and a list of security packages that support the credentials.
 old-location: security\sec_winnt_auth_packed_credentials_ex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 33e42e35-e34c-4e89-90c7-8aee5176ae1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

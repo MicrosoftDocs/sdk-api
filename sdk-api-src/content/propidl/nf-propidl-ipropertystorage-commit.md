@@ -4,14 +4,14 @@ title: IPropertyStorage::Commit
 author: windows-sdk-content
 description: Saves changes made to a property storage object to the parent storage object.
 old-location: stg\ipropertystorage_commit.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
 ms.topic: method
 req.header: propidl.h
-req.include-header: Objbase.h
+req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]

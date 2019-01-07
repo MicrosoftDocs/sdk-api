@@ -4,7 +4,7 @@ title: IEnroll4::acceptResponseBlob
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequestWStr and places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptresponseblob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4a28bf6b-ad3d-414b-8740-ce7d4301a05b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

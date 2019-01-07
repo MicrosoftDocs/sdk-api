@@ -4,7 +4,7 @@ title: PstGetTrustAnchors function
 author: windows-sdk-content
 description: Retrieves a list of certification authorities (CAs) trusted by the specified server.
 old-location: security\pstgettrustanchors.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: bbd69763-6801-4321-be18-802d48850d8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

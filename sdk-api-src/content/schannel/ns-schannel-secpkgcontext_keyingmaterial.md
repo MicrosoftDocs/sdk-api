@@ -4,7 +4,7 @@ title: SecPkgContext_KeyingMaterial
 author: windows-sdk-content
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

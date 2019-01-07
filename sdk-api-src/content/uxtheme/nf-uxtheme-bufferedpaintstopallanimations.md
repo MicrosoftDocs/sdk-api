@@ -4,7 +4,7 @@ title: BufferedPaintStopAllAnimations function
 author: windows-sdk-content
 description: Stops all buffered animations for the given window.
 old-location: controls\BufferedPaintStopAllAnimations.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintstopallanimations.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

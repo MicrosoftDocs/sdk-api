@@ -4,7 +4,7 @@ title: IWTSBitmapRenderer::GetRendererStatistics
 author: windows-sdk-content
 description: Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

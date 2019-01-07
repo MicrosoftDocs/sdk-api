@@ -4,7 +4,7 @@ title: NPFMXGetPermCaps function
 author: windows-sdk-content
 description: Retrieves the capabilities of the permission editor. The return value is a bitmask that indicates which of the Security menu items in File Manager are to be enabled.
 old-location: security\npfmxgetpermcaps.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.author: windowssdkdev
 ms.date: 12/5/2018

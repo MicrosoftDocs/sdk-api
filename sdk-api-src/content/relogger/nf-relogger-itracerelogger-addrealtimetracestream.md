@@ -4,7 +4,7 @@ title: ITraceRelogger::AddRealtimeTraceStream
 author: windows-sdk-content
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

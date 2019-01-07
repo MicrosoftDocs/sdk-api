@@ -4,7 +4,7 @@ title: CHANGENOTIFY
 author: windows-sdk-content
 description: Contains information that is associated with an EN_CHANGE notification code. A windowless rich edit control sends this notification to its host window when the content of the control changes.
 old-location: controls\changenotify.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: F4756754-EF22-430F-B9EE-F4270EBBEF33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

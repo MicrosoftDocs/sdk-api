@@ -4,7 +4,7 @@ title: ITextFont::SetDuplicate
 author: windows-sdk-content
 description: Sets the character formatting by copying another text font object.
 old-location: controls\ITextFont_SetDuplicate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetduplicate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

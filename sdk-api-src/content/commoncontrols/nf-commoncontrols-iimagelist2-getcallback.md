@@ -4,7 +4,7 @@ title: IImageList2::GetCallback
 author: windows-sdk-content
 description: Gets an image list callback object.
 old-location: controls\IImageList2_GetCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getcallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

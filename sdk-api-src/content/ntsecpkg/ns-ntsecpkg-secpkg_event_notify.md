@@ -4,7 +4,7 @@ title: SECPKG_EVENT_NOTIFY
 author: windows-sdk-content
 description: The SECPKG_EVENT_NOTIFY structure contains information about security events. This structure is passed to a function registered to receive event notifications. Event notification functions are registered by calling the RegisterNotification function.
 old-location: security\secpkg_event_notify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 68516a5a-940f-48be-ba9c-5e72d23bc737
 ms.author: windowssdkdev
 ms.date: 12/5/2018

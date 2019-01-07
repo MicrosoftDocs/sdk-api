@@ -4,7 +4,7 @@ title: GetPrivateProfileIntW function
 author: windows-sdk-content
 description: Retrieves an integer associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofileint.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

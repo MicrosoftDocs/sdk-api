@@ -4,7 +4,7 @@ title: ListBox_InsertString macro
 author: windows-sdk-content
 description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

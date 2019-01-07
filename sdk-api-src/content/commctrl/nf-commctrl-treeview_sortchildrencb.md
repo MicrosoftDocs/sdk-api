@@ -4,7 +4,7 @@ title: TreeView_SortChildrenCB macro
 author: windows-sdk-content
 description: Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the TVM_SORTCHILDRENCB message explicitly.
 old-location: controls\TreeView_SortChildrenCB.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildrencb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

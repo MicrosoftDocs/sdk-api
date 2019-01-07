@@ -4,7 +4,7 @@ title: ComboBox_SetExtendedUI macro
 author: windows-sdk-content
 description: Selects either the default user interface (UI) or the extended UI for a combo box that has the CBS_DROPDOWN or CBS_DROPDOWNLIST style. You can use this macro or send the CB_SETEXTENDEDUI message explicitly.
 old-location: controls\ComboBox_SetExtendedUI.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setextendedui.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

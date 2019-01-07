@@ -4,7 +4,7 @@ title: ItsPubPlugin::GetCacheLastUpdateTime
 author: windows-sdk-content
 description: Returns the time that the cache was last updated.
 old-location: termserv\itspubplugin_getcachelastupdatetime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 66b18c7f-2623-44ed-8cb9-3cceaa9bab34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

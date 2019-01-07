@@ -4,7 +4,7 @@ title: CryptUpdateProtectedState function
 author: windows-sdk-content
 description: Migrates the current user's master keys after the user's security identifier (SID) has changed.
 old-location: security\cryptupdateprotectedstate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

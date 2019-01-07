@@ -4,7 +4,7 @@ title: IMAGEINFO
 author: windows-sdk-content
 description: Contains information about an image in an image list. This structure is used with the IImageList::GetImageInfo function.
 old-location: controls\IMAGEINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

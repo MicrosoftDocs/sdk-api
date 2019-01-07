@@ -4,7 +4,7 @@ title: ITextFont2::GetDoubleStrike
 author: windows-sdk-content
 description: Gets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_getdoublestrike.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9e599c29-4b47-4043-b9c7-75a736ca64fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

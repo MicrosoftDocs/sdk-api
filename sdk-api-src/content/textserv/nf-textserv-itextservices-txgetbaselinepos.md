@@ -4,7 +4,7 @@ title: ITextServices::TxGetBaseLinePos
 author: windows-sdk-content
 description: Gets the base line position of the first visible line, in pixels, relative to the text services client rectangle. This permits aligning controls on their base lines.
 old-location: controls\ITextServices_TxGetBaseLinePos.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbaselinepos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

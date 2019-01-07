@@ -4,7 +4,7 @@ title: IDataManager::get_MaxFolderCount
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxfoldercount.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

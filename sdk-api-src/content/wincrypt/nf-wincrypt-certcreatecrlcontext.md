@@ -4,7 +4,7 @@ title: CertCreateCRLContext function
 author: windows-sdk-content
 description: The CertCreateCRLContext function creates a certificate revocation list (CRL) context from an encoded CRL. The created context is not persisted to a certificate store. It makes a copy of the encoded CRL within the created context.
 old-location: security\certcreatecrlcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

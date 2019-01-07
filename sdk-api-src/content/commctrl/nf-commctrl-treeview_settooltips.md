@@ -4,7 +4,7 @@ title: TreeView_SetToolTips macro
 author: windows-sdk-content
 description: Sets a tree-view control's child tooltip control. You can use this macro or send the TVM_SETTOOLTIPS message explicitly.
 old-location: controls\TreeView_SetToolTips.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

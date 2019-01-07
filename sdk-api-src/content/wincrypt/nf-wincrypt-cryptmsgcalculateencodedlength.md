@@ -4,7 +4,7 @@ title: CryptMsgCalculateEncodedLength function
 author: windows-sdk-content
 description: Calculates the maximum number of bytes needed for an encoded cryptographic message given the message type, encoding parameters, and total length of the data to be encoded.
 old-location: security\cryptmsgcalculateencodedlength.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1c12003a-c2f3-4069-8bd6-b8f2875b0c98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

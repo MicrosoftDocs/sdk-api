@@ -4,7 +4,7 @@ title: ITextDocument
 author: windows-sdk-content
 description: The ITextDocument interface is the Text Object Model (TOM) top-level interface, which retrieves the active selection and range objects for any story in the document&#8212;whether active or not.
 old-location: controls\ITextDocument.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

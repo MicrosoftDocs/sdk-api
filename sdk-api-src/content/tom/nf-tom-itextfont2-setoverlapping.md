@@ -4,7 +4,7 @@ title: ITextFont2::SetOverlapping
 author: windows-sdk-content
 description: Sets whether overlapping text is active.
 old-location: controls\itextfont2_setoverlapping.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 40addd31-5c0e-45bd-a649-c65973ae8340
 ms.author: windowssdkdev
 ms.date: 12/5/2018

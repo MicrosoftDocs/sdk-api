@@ -4,7 +4,7 @@ title: WLX_PROFILE_V1_0
 author: windows-sdk-content
 description: Contains information used for setting up the initial environment.
 old-location: security\wlx_profile_v1_0.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3b75cf38-e1d7-48dd-8319-d4daf508a3e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

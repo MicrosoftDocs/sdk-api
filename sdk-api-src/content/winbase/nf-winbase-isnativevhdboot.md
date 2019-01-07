@@ -4,7 +4,7 @@ title: IsNativeVhdBoot function
 author: windows-sdk-content
 description: Indicates if the OS was booted from a VHD container.
 old-location: base\isnativevhdboot.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 8198D4AF-553D-42B3-AF22-EC2C63C0E9AE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

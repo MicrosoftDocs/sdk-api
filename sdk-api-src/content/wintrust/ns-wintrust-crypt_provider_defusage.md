@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_DEFUSAGE
 author: windows-sdk-content
 description: Used by the WintrustGetDefaultForUsage function to retrieve callback information for a provider's default usage.
 old-location: security\crypt_provider_defusage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 28A93F39-0CBC-432C-841B-83B54A50EA14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

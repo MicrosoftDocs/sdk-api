@@ -4,7 +4,7 @@ title: ILockBytes::SetSize
 author: windows-sdk-content
 description: The SetSize method changes the size of the byte array.
 old-location: stg\ilockbytes_setsize.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 13b3237b-d113-4505-b397-b06916368fef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

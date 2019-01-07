@@ -4,7 +4,7 @@ title: EXTENDED_NAME_FORMAT
 author: windows-sdk-content
 description: Specifies a format for a directory service object name.
 old-location: base\extended_name_format_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 1270c412-2fa5-4f5d-a86e-1ab3146c6683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

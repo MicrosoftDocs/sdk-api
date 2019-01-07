@@ -4,7 +4,7 @@ title: ListView_GetItem macro
 author: windows-sdk-content
 description: Gets some or all of a list-view item's attributes. You can use this macro or send the LVM_GETITEM message explicitly.
 old-location: controls\ListView_GetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListBox_SetSel macro
 author: windows-sdk-content
 description: Selects or deselects an item in a multiple-selection list box. You can use this macro or send the LB_SETSEL message explicitly.
 old-location: controls\ListBox_SetSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setsel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

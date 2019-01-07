@@ -4,7 +4,7 @@ title: ListView_GetItemRect macro
 author: windows-sdk-content
 description: Gets the bounding rectangle for all or part of an item in the current view. You can use this macro or send the LVM_GETITEMRECT message explicitly.
 old-location: controls\ListView_GetItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

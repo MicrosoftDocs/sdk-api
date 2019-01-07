@@ -4,7 +4,7 @@ title: SetProviderStatusFunc
 author: windows-sdk-content
 description: Sets the time provider's status information.
 old-location: base\setproviderstatusfunc.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: e52dd1d3-081a-4fcc-85d9-a1dcef0e8011
 ms.author: windowssdkdev
 ms.date: 12/5/2018

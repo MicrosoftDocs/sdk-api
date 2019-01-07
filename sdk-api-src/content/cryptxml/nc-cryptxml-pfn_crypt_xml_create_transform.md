@@ -4,7 +4,7 @@ title: PFN_CRYPT_XML_CREATE_TRANSFORM
 author: windows-sdk-content
 description: Creates a transform for a specified data provider.
 old-location: security\pfn_crypt_xml_create_transform.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d9228015-d5e7-4c72-9561-be4ee5fa4264
 ms.author: windowssdkdev
 ms.date: 12/5/2018

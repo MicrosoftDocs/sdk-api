@@ -4,7 +4,7 @@ title: CERT_ID
 author: windows-sdk-content
 description: Is used as a flexible means of uniquely identifying a certificate.
 old-location: security\cert_id.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

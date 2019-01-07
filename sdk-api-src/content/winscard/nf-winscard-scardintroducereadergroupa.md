@@ -4,7 +4,7 @@ title: SCardIntroduceReaderGroupA function
 author: windows-sdk-content
 description: Introduces a reader group to the smart card subsystem. However, the reader group is not created until the group is specified when adding a reader to the smart card database.
 old-location: security\scardintroducereadergroup.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

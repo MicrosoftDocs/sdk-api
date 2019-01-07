@@ -4,7 +4,7 @@ title: IEnroll2::put_LimitExchangeKeyToEncipherment
 author: windows-sdk-content
 description: The LimitExchangeKeyToEncipherment property of IEnroll4 sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains digital signature and nonrepudiation key usages.
 old-location: security\ienroll4_limitexchangekeytoencipherment.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 53d23dcb-081f-44f4-823f-e3cf79955bc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextPara::GetListStart
 author: windows-sdk-content
 description: Retrieves the starting value or code of a list numbering sequence.
 old-location: controls\ITextPara_GetListStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getliststart.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

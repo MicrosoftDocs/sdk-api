@@ -4,7 +4,7 @@ title: LPFNADDPROPSHEETPAGE
 author: windows-sdk-content
 description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
 old-location: controls\AddPropSheetPageProc.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\addpropsheetpageproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\itracedataprovidercollection__newenum.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cd80839a-0cf0-4553-819e-7a8be830b9fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

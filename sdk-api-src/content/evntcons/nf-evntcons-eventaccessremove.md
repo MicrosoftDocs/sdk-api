@@ -4,7 +4,7 @@ title: EventAccessRemove function
 author: windows-sdk-content
 description: Removes the permissions defined in the registry for the specified provider or session.
 old-location: etw\eventaccessremove_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

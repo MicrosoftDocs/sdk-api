@@ -4,7 +4,7 @@ title: ISequentialStream::Read
 author: windows-sdk-content
 description: Reads a specified number of bytes from the stream object into memory, starting at the current seek pointer.
 old-location: stg\isequentialstream_read.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 934a90bb-5ed0-4d80-9906-352ad8586655
 ms.author: windowssdkdev
 ms.date: 12/5/2018

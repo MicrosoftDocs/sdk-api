@@ -4,7 +4,7 @@ title: ICertEncodeBitString::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded bit string and stores the resulting bit string in this object.
 old-location: security\icertencodebitstring_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 65856db4-97db-4c9b-ac12-1a9262c7b4e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

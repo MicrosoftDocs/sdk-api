@@ -4,7 +4,7 @@ title: ITextStrings::Add
 author: windows-sdk-content
 description: Adds a string to the end of the collection.
 old-location: controls\itextstrings_add.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
 ms.author: windowssdkdev
 ms.date: 12/5/2018

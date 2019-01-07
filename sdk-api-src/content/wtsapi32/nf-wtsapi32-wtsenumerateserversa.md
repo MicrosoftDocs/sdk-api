@@ -4,7 +4,7 @@ title: WTSEnumerateServersA function
 author: windows-sdk-content
 description: Returns a list of all Remote Desktop Session Host (RD Session Host) servers within the specified domain.
 old-location: termserv\wtsenumerateservers.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 49aa3813-4e29-420e-9309-3ef9b11f1da7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

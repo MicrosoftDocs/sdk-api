@@ -4,7 +4,7 @@ title: ITextRow::GetCellWidth
 author: windows-sdk-content
 description: Gets the width of the active cell.
 old-location: controls\itextrow_getcellwidth.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: dc73fdf4-29ce-4432-825d-725d61717b7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

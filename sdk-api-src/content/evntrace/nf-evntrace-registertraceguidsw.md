@@ -4,7 +4,7 @@ title: RegisterTraceGuidsW function
 author: windows-sdk-content
 description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
 old-location: etw\registertraceguids.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

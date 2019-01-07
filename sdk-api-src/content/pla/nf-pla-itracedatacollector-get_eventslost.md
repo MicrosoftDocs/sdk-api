@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_EventsLost
 author: windows-sdk-content
 description: Retrieves the number of events that were not written to the buffer.
 old-location: pla\itracedatacollector_eventslost.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f11cf095-405b-4129-aaad-d1558f01606e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

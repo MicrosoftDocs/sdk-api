@@ -4,7 +4,7 @@ title: CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 author: windows-sdk-content
 description: Contains information about a key agreement recipient.
 old-location: security\cmsg_ctrl_key_agree_decrypt_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 14e58281-4315-4ece-8ea8-92765cffd212
 ms.author: windowssdkdev
 ms.date: 12/5/2018

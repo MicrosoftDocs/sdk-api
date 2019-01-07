@@ -4,7 +4,7 @@ title: MAKEIPADDRESS macro
 author: windows-sdk-content
 description: Packs four byte-values into a single LPARAM suitable for use with the IPM_SETADDRESS message.
 old-location: controls\MAKEIPADDRESS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

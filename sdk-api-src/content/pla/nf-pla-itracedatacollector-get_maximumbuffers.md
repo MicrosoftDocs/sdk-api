@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_MaximumBuffers
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_maximumbuffers.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 545c56e3-b915-4f2a-8563-81368ca9b19e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

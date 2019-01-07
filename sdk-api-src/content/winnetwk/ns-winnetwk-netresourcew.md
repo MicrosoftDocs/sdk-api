@@ -4,7 +4,7 @@ title: NETRESOURCEW
 author: windows-sdk-content
 description: The following structure contains information about a network resource. It is used by several of the network provider functions, including NPOpenEnum and NPAddConnection.
 old-location: security\netresource.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c7e22694-2dfd-4a9e-bd40-277611476f97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange::StartOf
 author: windows-sdk-content
 description: Moves the range ends to the start of the first overlapping Unit in the range.
 old-location: controls\ITextRange_StartOf.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\startof.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

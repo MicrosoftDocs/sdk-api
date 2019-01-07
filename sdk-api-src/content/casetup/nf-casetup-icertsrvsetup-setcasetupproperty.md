@@ -4,7 +4,7 @@ title: ICertSrvSetup::SetCASetupProperty
 author: windows-sdk-content
 description: Sets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_setcasetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 91df1926-a4b6-4ba2-ab59-0258293fc1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

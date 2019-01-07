@@ -4,7 +4,7 @@ title: NMTCKEYDOWN
 author: windows-sdk-content
 description: Contains information about a key press in a tab control. It is used with the TCN_KEYDOWN notification code. This structure supersedes the TC_KEYDOWN structure.
 old-location: controls\NMTCKEYDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\nmtckeydown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

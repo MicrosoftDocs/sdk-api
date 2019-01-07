@@ -4,7 +4,7 @@ title: DlgDirSelectExW function
 author: windows-sdk-content
 description: Retrieves the current selection from a single-selection list box. It assumes that the list box has been filled by the DlgDirList function and that the selection is a drive letter, filename, or directory name.
 old-location: controls\DlgDirSelectEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\dlgdirselectex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

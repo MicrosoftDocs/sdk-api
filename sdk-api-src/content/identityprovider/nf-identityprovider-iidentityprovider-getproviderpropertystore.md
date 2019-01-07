@@ -4,7 +4,7 @@ title: IIdentityProvider::GetProviderPropertyStore
 author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface associated with the identity provider.
 old-location: security\iidentityprovider_getproviderpropertystore.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e0a8f732-5675-49f7-8c2f-6e5f8f1be957
 ms.author: windowssdkdev
 ms.date: 12/5/2018

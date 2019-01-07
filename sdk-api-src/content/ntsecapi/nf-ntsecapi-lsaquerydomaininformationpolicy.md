@@ -4,7 +4,7 @@ title: LsaQueryDomainInformationPolicy function
 author: windows-sdk-content
 description: Retrieves domain information from the Policyobject.
 old-location: security\lsaquerydomaininformationpolicy.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 39a511d7-46fc-4d12-ba43-771f6db2a33b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

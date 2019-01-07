@@ -4,7 +4,7 @@ title: IAssociatedIdentityProvider::ChangeCredential
 author: windows-sdk-content
 description: Changes the credentials associated with the specified identity.
 old-location: security\iassociatedidentityprovider_changecredential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

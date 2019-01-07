@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::AcceptConnection
 author: windows-sdk-content
 description: Directs the protocol to continue with the connection request.
 old-location: termserv\iwrdsprotocolconnection_acceptconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ef7e13ad-eeb8-4452-b3d6-a137b766f98f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

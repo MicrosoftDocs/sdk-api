@@ -4,7 +4,7 @@ title: GetUserNameW function
 author: windows-sdk-content
 description: Retrieves the name of the user associated with the current thread.
 old-location: base\getusername.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

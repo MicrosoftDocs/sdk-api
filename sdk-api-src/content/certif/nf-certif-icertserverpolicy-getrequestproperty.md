@@ -4,7 +4,7 @@ title: ICertServerPolicy::GetRequestProperty
 author: windows-sdk-content
 description: Retrieves a specific property from a request.
 old-location: security\icertserverpolicy_getrequestproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

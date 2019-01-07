@@ -4,7 +4,7 @@ title: RegSetKeyValueW function
 author: windows-sdk-content
 description: Sets the data for the specified value in the specified registry key and subkey.
 old-location: base\regsetkeyvalue.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: e27d2dd6-b139-4ac1-8dd8-527022333364
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Animate_Create macro
 author: windows-sdk-content
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
 old-location: controls\Animate_Create.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

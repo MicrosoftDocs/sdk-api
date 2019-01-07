@@ -4,7 +4,7 @@ title: FlatSB_SetScrollRange function
 author: windows-sdk-content
 description: Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollRange function.
 old-location: controls\FlatSB_SetScrollRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EVENT_PROPERTY_INFO
 author: windows-sdk-content
 description: Provides information about a single property of the event or filter.
 old-location: etw\event_property_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 06b82b31-1f0e-45d5-88ec-9b9835af10df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

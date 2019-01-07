@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Subdirectory
 author: windows-sdk-content
 description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
 old-location: pla\idatacollectorset_get_subdirectory.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: c2c55fd9-3b29-46be-9792-acb095b1c0e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

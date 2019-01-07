@@ -4,7 +4,7 @@ title: CredGetSessionTypes function
 author: windows-sdk-content
 description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
 old-location: security\credgetsessiontypes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

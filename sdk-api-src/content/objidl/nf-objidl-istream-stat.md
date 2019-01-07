@@ -4,7 +4,7 @@ title: IStream::Stat
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this stream.
 old-location: stg\istream_stat.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: c22ab396-dbc5-43a0-8448-35a2c094464f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

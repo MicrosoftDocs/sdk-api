@@ -4,7 +4,7 @@ title: TdhGetProperty function
 author: windows-sdk-content
 description: Retrieves a property value from the event data.
 old-location: etw\tdhgetproperty_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3975792e-cc24-430a-914f-420f3a5ec1d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

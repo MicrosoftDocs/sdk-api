@@ -4,7 +4,7 @@ title: ICEnroll::get_KeySpec
 author: windows-sdk-content
 description: The KeySpec property of ICEnroll4 sets or retrieves the type of key generated.
 old-location: security\icenroll4_keyspec.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 30cc7c86-29ce-42e9-b9dc-d29f5b5450a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

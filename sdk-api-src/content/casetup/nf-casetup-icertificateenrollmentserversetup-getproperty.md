@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::GetProperty
 author: windows-sdk-content
 description: Retrieves a CESSetupProperty enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 old-location: security\icertificateenrollmentserversetup_getproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

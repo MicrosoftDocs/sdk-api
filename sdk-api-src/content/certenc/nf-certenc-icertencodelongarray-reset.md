@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::Reset
 author: windows-sdk-content
 description: Specifies the size of the array in this object.
 old-location: security\icertencodelongarray_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4b5821e0-c81a-47b7-98b0-2a293967d8f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

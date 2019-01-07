@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::InitializeFromProperties
 author: windows-sdk-content
 description: Creates a property set from the properties contained in an existing server configuration.
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.author: windowssdkdev
 ms.date: 12/5/2018

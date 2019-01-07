@@ -4,7 +4,7 @@ title: TreeView_GetNextSelected macro
 author: windows-sdk-content
 description: Retrieves the tree-view item that bears the TVGN_NEXTSELECTED relationship to a specified tree item.
 old-location: controls\TreeView_GetNextSelected.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextselected.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

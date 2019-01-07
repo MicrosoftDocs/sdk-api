@@ -4,7 +4,7 @@ title: PropSheet_HwndToIndex macro
 author: windows-sdk-content
 description: Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the PSM_HWNDTOINDEX message explicitly.
 old-location: controls\PropSheet_HwndToIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_hwndtoindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

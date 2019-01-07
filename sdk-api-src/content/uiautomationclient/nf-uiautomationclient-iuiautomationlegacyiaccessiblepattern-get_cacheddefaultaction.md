@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedDefaultAction
 author: windows-sdk-content
-description: Retrieves the Microsoft Active Accessibility default action for the element.
+description: Retrieves the Microsoft Active Accessibility cached default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: acd43075-4f53-48d3-a039-0882a4833d9e
@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Retrieves the Microsoft Active Accessibility default action for the element.
+Retrieves the Microsoft Active Accessibility cached default action for the element.
 
 This property is read-only.
 

@@ -4,7 +4,7 @@ title: LVTILEINFO
 author: windows-sdk-content
 description: Provides information about an item in a list-view control when it is displayed in tile view.
 old-location: controls\LVTILEINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Edit_GetWordBreakProc macro
 author: windows-sdk-content
 description: Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the EM_GETWORDBREAKPROC message explicitly.
 old-location: controls\Edit_GetWordBreakProc.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getwordbreakproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BLUETOOTH_AUTHENTICATION_METHOD
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_METHOD enumeration defines the supported authentication types during device pairing.
 old-location: bluetooth\bluetooth_authentication_method.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 2374df2c-2f50-4a06-aaad-384d81b067c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

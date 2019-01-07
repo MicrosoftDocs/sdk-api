@@ -4,7 +4,7 @@ title: IStorage
 author: windows-sdk-content
 description: The IStorage interface supports the creation and management of structured storage objects.
 old-location: stg\istorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487
 ms.author: windowssdkdev
 ms.date: 12/5/2018

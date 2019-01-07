@@ -4,7 +4,7 @@ title: CMSG_KEY_AGREE_RECIPIENT_INFO
 author: windows-sdk-content
 description: Contains information used for key agreement algorithms.
 old-location: security\cmsg_key_agree_recipient_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d29d04d6-065e-4bb7-843b-f563643eeb4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_PARA
 author: windows-sdk-content
 description: Defines additional parameters for the time stamp request.
 old-location: security\crypt_timestamp_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 26a6e9d3-b35e-47ae-9cea-a37ca6297c28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

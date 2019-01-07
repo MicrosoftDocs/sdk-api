@@ -4,7 +4,7 @@ title: ListView_GetInsertMarkRect macro
 author: windows-sdk-content
 description: Gets the rectangle that bounds the insertion point. You can use this macro or send the LVM_GETINSERTMARKRECT message explicitly.
 old-location: controls\ListView_GetInsertMarkRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmarkrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

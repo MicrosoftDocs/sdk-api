@@ -4,7 +4,7 @@ title: LHITTESTINFO
 author: windows-sdk-content
 description: Used to get information about the link corresponding to a given location.
 old-location: controls\LHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\lhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

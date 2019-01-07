@@ -4,7 +4,7 @@ title: ICEnroll::freeRequestInfo
 author: windows-sdk-content
 description: Releases session identifiers when they are no longer needed.
 old-location: security\icenroll4_freerequestinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d3fd4d4-779f-4e28-9b07-4de17262ac5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

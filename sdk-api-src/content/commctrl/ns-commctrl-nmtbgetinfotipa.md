@@ -4,7 +4,7 @@ title: NMTBGETINFOTIPA
 author: windows-sdk-content
 description: Contains and receives infotip information for a toolbar item. This structure is used with the TBN_GETINFOTIP notification code.
 old-location: controls\NMTBGETINFOTIP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbgetinfotip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

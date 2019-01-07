@@ -4,7 +4,7 @@ title: NMSELCHANGE
 author: windows-sdk-content
 description: Carries information required to process the MCN_SELCHANGE notification code.
 old-location: controls\NMSELCHANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmselchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

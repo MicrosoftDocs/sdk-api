@@ -4,7 +4,7 @@ title: TBADDBITMAP
 author: windows-sdk-content
 description: Adds a bitmap that contains button images to a toolbar.
 old-location: controls\TBADDBITMAP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

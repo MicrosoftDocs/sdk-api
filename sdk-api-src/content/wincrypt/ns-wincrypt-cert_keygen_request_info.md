@@ -4,7 +4,7 @@ title: CERT_KEYGEN_REQUEST_INFO
 author: windows-sdk-content
 description: Contains information stored in the Netscape key generation request. The subject and subject public key BLOBs are encoded.
 old-location: security\cert_keygen_request_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 44cbe4de-a9cc-48b2-ad04-9acd42fac07c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

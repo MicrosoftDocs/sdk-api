@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::get_Actions
 author: windows-sdk-content
 description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_actions.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 54ff5568-046e-42de-9b7c-b8c8c9be815c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

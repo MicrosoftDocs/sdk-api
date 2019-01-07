@@ -4,7 +4,7 @@ title: VIRTUALCHANNELCLOSE
 author: windows-sdk-content
 description: Closes the client end of a virtual channel.
 old-location: termserv\virtualchannelclose.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

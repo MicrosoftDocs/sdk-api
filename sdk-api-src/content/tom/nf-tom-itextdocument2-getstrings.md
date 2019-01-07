@@ -4,7 +4,7 @@ title: ITextDocument2::GetStrings
 author: windows-sdk-content
 description: Gets a collection of rich-text strings.
 old-location: controls\itextdocument2_getstrings.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 54d8c682-4e30-4ce2-baa1-d89e28491015
 ms.author: windowssdkdev
 ms.date: 12/5/2018

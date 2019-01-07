@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_SigningFlags
 author: windows-sdk-content
 description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_signingflags_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

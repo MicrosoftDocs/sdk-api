@@ -4,7 +4,7 @@ title: TreeView_SetTextColor macro
 author: windows-sdk-content
 description: Sets the text color of the control. You can use this macro or send the TVM_SETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_SetTextColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settextcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

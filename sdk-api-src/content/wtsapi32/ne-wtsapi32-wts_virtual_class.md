@@ -4,7 +4,7 @@ title: WTS_VIRTUAL_CLASS
 author: windows-sdk-content
 description: Contains values that indicate the type of virtual channel information to retrieve.
 old-location: termserv\wts_virtual_class.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

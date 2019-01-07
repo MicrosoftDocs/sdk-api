@@ -4,7 +4,7 @@ title: OCSP_SIGNED_REQUEST_INFO
 author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.
 old-location: security\ocsp_signed_request_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b3ff0843-77d8-4a9e-a3ba-97e9c398919a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

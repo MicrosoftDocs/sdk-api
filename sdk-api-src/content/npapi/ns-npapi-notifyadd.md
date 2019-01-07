@@ -4,7 +4,7 @@ title: NOTIFYADD
 author: windows-sdk-content
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
 old-location: security\notifyadd.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
 ms.author: windowssdkdev
 ms.date: 12/5/2018

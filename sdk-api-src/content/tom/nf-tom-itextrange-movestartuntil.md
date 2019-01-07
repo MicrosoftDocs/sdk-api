@@ -4,7 +4,7 @@ title: ITextRange::MoveStartUntil
 author: windows-sdk-content
 description: Moves the start position of the range the position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the start position.
 old-location: controls\ITextRange_MoveStartUntil.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartuntil.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

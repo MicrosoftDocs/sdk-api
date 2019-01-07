@@ -4,7 +4,7 @@ title: ITsSbProvisioningPluginNotifySink::OnJobCreated
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

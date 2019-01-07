@@ -4,7 +4,7 @@ title: ITsSbProvider::CreatePluginPropertySet
 author: windows-sdk-content
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageList_AddIcon macro
 author: windows-sdk-content
 description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.
 old-location: controls\ImageList_AddIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

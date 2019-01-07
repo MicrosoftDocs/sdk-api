@@ -4,7 +4,7 @@ title: GetWindowTheme function
 author: windows-sdk-content
 description: Retrieves a theme handle to a window that has visual styles applied.
 old-location: controls\GetWindowTheme.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

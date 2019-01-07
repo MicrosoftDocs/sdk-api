@@ -4,7 +4,7 @@ title: CERT_REVOCATION_INFO
 author: windows-sdk-content
 description: Indicates the revocation status of a certificate in a CERT_CHAIN_ELEMENT.
 old-location: security\cert_revocation_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 798aa2d7-bf8a-425f-bc36-98a44ba3a9d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IsProcessorFeaturePresent function
 author: windows-sdk-content
 description: Determines whether the specified processor feature is supported by the current computer.
 old-location: base\isprocessorfeaturepresent.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: c58cfb0a-f40f-429c-abe9-83b6f038f612
 ms.author: windowssdkdev
 ms.date: 12/5/2018

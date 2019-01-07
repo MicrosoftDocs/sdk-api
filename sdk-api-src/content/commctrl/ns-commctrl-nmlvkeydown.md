@@ -4,7 +4,7 @@ title: NMLVKEYDOWN
 author: windows-sdk-content
 description: Contains information used in processing the LVN_KEYDOWN notification code. This structure is the same as the NMLVKEYDOWN structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLVKEYDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvkeydown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

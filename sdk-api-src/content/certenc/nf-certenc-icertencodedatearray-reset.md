@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::Reset
 author: windows-sdk-content
 description: Specifies the size of DATE array in this object.
 old-location: security\icertencodedatearray_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f09087aa-ae10-4a59-9b59-5f8b72254ce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

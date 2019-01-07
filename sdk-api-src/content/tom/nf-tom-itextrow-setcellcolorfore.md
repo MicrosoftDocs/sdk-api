@@ -4,7 +4,7 @@ title: ITextRow::SetCellColorFore
 author: windows-sdk-content
 description: Sets the foreground color of the active cell.
 old-location: controls\itextrow_setcellcolorfore.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2eff9f39-b79d-4fcb-b8ee-ef067cff2c78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

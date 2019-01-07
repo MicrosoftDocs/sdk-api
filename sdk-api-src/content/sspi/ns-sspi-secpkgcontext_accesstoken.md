@@ -4,7 +4,7 @@ title: SecPkgContext_AccessToken
 author: windows-sdk-content
 description: Returns a handle to the access token for the current security context.
 old-location: security\secpkgcontext_accesstoken.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

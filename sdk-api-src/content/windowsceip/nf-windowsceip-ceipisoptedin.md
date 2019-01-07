@@ -4,7 +4,7 @@ title: CeipIsOptedIn function
 author: windows-sdk-content
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 old-location: base\ceipisoptedin.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
 ms.author: windowssdkdev
 ms.date: 12/5/2018

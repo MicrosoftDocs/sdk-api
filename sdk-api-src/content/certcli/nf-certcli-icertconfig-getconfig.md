@@ -4,7 +4,7 @@ title: ICertConfig::GetConfig
 author: windows-sdk-content
 description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getconfig.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3a35b2a0-f8e4-496d-b76a-a7310842cc4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

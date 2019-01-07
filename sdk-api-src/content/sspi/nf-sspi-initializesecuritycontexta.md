@@ -4,7 +4,7 @@ title: InitializeSecurityContextA function
 author: windows-sdk-content
 description: Initiates the client side, outbound security context from a credential handle.
 old-location: security\initializesecuritycontext__general_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

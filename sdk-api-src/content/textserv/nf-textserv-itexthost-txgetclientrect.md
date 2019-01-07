@@ -4,7 +4,7 @@ title: ITextHost::TxGetClientRect
 author: windows-sdk-content
 description: Retrieves the client coordinates of the text host's client area.
 old-location: controls\ITextHost_TxGetClientRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetclientrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2::GetChar2
 author: windows-sdk-content
 description: Gets the character at the specified offset from the end of this range.
 old-location: controls\itextrange2_getchar2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8ece8ca0-fd05-481c-9ce2-b2b7a3df354e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

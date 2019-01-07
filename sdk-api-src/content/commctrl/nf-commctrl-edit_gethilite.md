@@ -4,7 +4,7 @@ title: Edit_GetHilite macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_GetHilite.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethilite.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

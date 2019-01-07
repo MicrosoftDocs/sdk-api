@@ -4,7 +4,7 @@ title: TRACE_EVENT_INFO
 author: windows-sdk-content
 description: Defines the information about the event.
 old-location: etw\trace_event_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ecf57a23-0dd2-4954-82ac-e92f651c226f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

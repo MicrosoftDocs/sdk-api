@@ -4,7 +4,7 @@ title: SspiMarshalAuthIdentity function
 author: windows-sdk-content
 description: Serializes the specified identity structure into a byte array.
 old-location: security\sspimarshalauthidentity.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextPara2::GetEffects
 author: windows-sdk-content
 description: Gets the paragraph format effects.
 old-location: controls\itextpara2_geteffects.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7f672cc9-e8f3-416a-8f41-9b71ca1858a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

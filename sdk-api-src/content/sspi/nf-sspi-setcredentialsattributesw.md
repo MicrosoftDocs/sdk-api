@@ -4,7 +4,7 @@ title: SetCredentialsAttributesW function
 author: windows-sdk-content
 description: Sets the attributes of a credential, such as the name associated with the credential.
 old-location: security\setcredentialsattributes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

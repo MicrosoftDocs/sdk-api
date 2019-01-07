@@ -4,7 +4,7 @@ title: IEnroll4::addNameValuePairToRequestWStr
 author: windows-sdk-content
 description: Adds an unauthenticated name-value string pair to the request.
 old-location: security\ienroll4_addnamevaluepairtorequestwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25f8ae01-e975-4ada-b17c-c97385dc0585
 ms.author: windowssdkdev
 ms.date: 12/5/2018

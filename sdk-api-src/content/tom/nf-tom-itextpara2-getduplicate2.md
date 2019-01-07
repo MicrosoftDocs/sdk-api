@@ -4,7 +4,7 @@ title: ITextPara2::GetDuplicate2
 author: windows-sdk-content
 description: Gets a duplicate of this text paragraph format object.
 old-location: controls\itextpara2_getduplicate2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1b7855ca-1e69-48c8-b186-99b191a7ee29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

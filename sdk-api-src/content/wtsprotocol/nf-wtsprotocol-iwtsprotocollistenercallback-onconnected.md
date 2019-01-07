@@ -4,7 +4,7 @@ title: IWTSProtocolListenerCallback::OnConnected
 author: windows-sdk-content
 description: IWTSProtocolListenerCallback::OnConnected is no longer available. Instead, use IWRdsProtocolListenerCallback::OnConnected.
 old-location: termserv\iwtsprotocollistenercallback_onconnected.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0874c394-6260-4ac1-b5a8-27879f562e19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

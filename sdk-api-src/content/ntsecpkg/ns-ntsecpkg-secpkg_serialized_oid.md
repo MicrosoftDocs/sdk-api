@@ -4,7 +4,7 @@ title: SECPKG_SERIALIZED_OID
 author: windows-sdk-content
 description: Contains the security package's object identifier (OID).
 old-location: security\secpkg_serialized_oid.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007
 ms.author: windowssdkdev
 ms.date: 12/5/2018

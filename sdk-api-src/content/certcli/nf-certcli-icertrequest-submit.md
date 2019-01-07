@@ -4,7 +4,7 @@ title: ICertRequest::Submit
 author: windows-sdk-content
 description: Submits a request to the Certificate Services server.
 old-location: security\icertrequest2_submit.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

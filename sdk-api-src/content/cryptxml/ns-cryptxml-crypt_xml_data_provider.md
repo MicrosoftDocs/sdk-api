@@ -4,7 +4,7 @@ title: CRYPT_XML_DATA_PROVIDER
 author: windows-sdk-content
 description: Specifies the interface to the XML data provider.
 old-location: security\crypt_xml_data_provider.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 98f32310-a4fa-414c-8a3e-877839eacd1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

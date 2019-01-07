@@ -4,7 +4,7 @@ title: CryptXmlDllSignData
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptxmldllsigndata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6a159fd7-6bf2-43b7-ae7f-b4e4eb02615f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STATPROPSETSTG
 author: windows-sdk-content
 description: The STATPROPSETSTG structure contains information about a property set.
 old-location: stg\statpropsetstg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

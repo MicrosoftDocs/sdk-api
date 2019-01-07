@@ -4,7 +4,7 @@ title: ITextRange2::GetStartPara
 author: windows-sdk-content
 description: Gets the character position of the start of the paragraph that contains the range's start character position.
 old-location: controls\itextrange2_getstartpara.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: c6a59ffd-0271-4c2a-9a9e-f31287b47ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

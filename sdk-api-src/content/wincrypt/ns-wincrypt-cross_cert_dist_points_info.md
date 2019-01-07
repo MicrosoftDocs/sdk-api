@@ -4,7 +4,7 @@ title: CROSS_CERT_DIST_POINTS_INFO
 author: windows-sdk-content
 description: Provides information used to update dynamic cross certificates.
 old-location: security\cross_cert_dist_points_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 13358822-c690-40af-ba9d-2fafa0233a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTS_INFO_CLASS
 author: windows-sdk-content
 description: Contains values that indicate the type of session information to retrieve in a call to the WTSQuerySessionInformation function.
 old-location: termserv\wts_info_class_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 20e015bd-323a-44c4-a0d6-02781f3a5eec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

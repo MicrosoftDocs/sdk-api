@@ -4,7 +4,7 @@ title: ICertAdmin::GetCRL
 author: windows-sdk-content
 description: Retrieves the current certificate revocation list (CRL) for the Certificate Services certification authority (CA).
 old-location: security\icertadmin2_getcrl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

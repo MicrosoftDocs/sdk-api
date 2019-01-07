@@ -4,7 +4,7 @@ title: ITextHost2::TxGetWindowStyles
 author: windows-sdk-content
 description: Retrieves the window styles and extended windows styles of the text host window.
 old-location: controls\itexthost2_txgetwindowstyles.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 51885B3E-3DEE-461C-8625-3DE9D8C1F992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

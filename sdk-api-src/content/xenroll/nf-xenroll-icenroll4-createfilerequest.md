@@ -4,7 +4,7 @@ title: ICEnroll4::createFileRequest
 author: windows-sdk-content
 description: Creates a PKCS #10 certificate request, a PKCS #7 request, or a full Certificate Management over CMS (CMC) request and stores it in a file.
 old-location: security\icenroll4_createfilerequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8902eb8e-c597-42a6-8836-6a24181da4d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

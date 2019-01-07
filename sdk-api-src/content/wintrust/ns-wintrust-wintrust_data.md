@@ -4,7 +4,7 @@ title: WINTRUST_DATA
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to pass necessary information into the trust providers.
 old-location: security\wintrust_data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8fb68f44-6f69-4eac-90de-02689e3e86cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

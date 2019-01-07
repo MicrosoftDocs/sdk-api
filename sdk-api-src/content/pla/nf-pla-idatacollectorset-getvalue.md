@@ -4,7 +4,7 @@ title: IDataCollectorSet::GetValue
 author: windows-sdk-content
 description: Retrieves a user-defined value.
 old-location: pla\idatacollectorset_getvalue.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 0f82e154-7d3f-44c9-8bdd-cc1522499e85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

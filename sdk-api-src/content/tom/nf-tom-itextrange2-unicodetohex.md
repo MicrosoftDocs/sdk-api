@@ -4,7 +4,7 @@ title: ITextRange2::UnicodeToHex
 author: windows-sdk-content
 description: Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.
 old-location: controls\itextrange2_unicodetohex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 538f7db4-0739-421c-9d51-8144b2d52334
 ms.author: windowssdkdev
 ms.date: 12/5/2018

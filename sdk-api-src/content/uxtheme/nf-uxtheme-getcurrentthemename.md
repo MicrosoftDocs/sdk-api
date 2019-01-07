@@ -4,7 +4,7 @@ title: GetCurrentThemeName function
 author: windows-sdk-content
 description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
 old-location: controls\GetCurrentThemeName.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getcurrentthemename.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

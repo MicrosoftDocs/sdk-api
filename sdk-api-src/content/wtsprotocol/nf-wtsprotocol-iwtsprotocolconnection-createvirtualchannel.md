@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::CreateVirtualChannel
 author: windows-sdk-content
 description: IWTSProtocolConnection::CreateVirtualChannel is no longer available. Instead, use IWRdsProtocolConnection::CreateVirtualChannel.
 old-location: termserv\iwtsprotocolconnection_createvirtualchannel.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 28cdabde-980f-48b7-920e-1eeeb70b6952
 ms.author: windowssdkdev
 ms.date: 12/5/2018

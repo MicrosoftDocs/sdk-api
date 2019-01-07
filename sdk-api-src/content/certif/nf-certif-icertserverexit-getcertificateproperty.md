@@ -4,7 +4,7 @@ title: ICertServerExit::GetCertificateProperty
 author: windows-sdk-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverexit_getcertificateproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

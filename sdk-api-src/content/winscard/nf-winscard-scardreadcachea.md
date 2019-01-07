@@ -4,7 +4,7 @@ title: SCardReadCacheA function
 author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardreadcache.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

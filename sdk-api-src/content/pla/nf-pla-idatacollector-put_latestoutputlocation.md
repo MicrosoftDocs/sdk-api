@@ -4,7 +4,7 @@ title: IDataCollector::put_LatestOutputLocation
 author: windows-sdk-content
 description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
 old-location: pla\idatacollector_latestoutputlocation.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e451c3a7-aec3-4fa7-9313-730bfac55f19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

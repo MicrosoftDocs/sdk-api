@@ -4,7 +4,7 @@ title: INDESPolicy::Uninitialize
 author: windows-sdk-content
 description: Uninitializes the NDES policy module.
 old-location: security\indespolicy_uninitialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 47e9f422-a46a-486f-bbed-94dcd04b7f65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

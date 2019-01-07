@@ -4,7 +4,7 @@ title: IADsTSUserEx::put_DefaultToMainPrinter
 author: windows-sdk-content
 description: A value that specifies whether to print automatically to the client's default printer.
 old-location: termserv\iadstsuserex_defaulttomainprinter.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ec9dd6b1-ba1e-4a69-b488-fff2e1fd994f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

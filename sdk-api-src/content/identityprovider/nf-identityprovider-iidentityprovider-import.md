@@ -4,7 +4,7 @@ title: IIdentityProvider::Import
 author: windows-sdk-content
 description: Imports an identity to the system.
 old-location: security\iidentityprovider_import.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 16cf4e84-1a68-4794-a456-1a9f5ce4896d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

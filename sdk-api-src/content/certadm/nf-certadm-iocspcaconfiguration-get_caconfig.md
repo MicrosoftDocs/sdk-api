@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_CAConfig
 author: windows-sdk-content
 description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.
 old-location: security\iocspcaconfiguration_caconfig.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.author: windowssdkdev
 ms.date: 12/5/2018

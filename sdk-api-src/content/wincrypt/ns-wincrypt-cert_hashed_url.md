@@ -4,7 +4,7 @@ title: CERT_HASHED_URL
 author: windows-sdk-content
 description: Contains a hashed URL.
 old-location: security\cert_hashed_url.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 961feb88-b924-4834-bc68-d87f410259f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

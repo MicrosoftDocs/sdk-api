@@ -4,7 +4,7 @@ title: KERB_RETRIEVE_TKT_RESPONSE
 author: windows-sdk-content
 description: Contains the response from retrieving a ticket.
 old-location: security\kerb_retrieve_tkt_response.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 682d4076-dc65-4291-8a82-981f207ae432
 ms.author: windowssdkdev
 ms.date: 12/5/2018

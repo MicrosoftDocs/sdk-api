@@ -4,7 +4,7 @@ title: BufferedPaintSetAlpha function
 author: windows-sdk-content
 description: Sets the alpha to a specified value in a given rectangle. The alpha controls the amount of transparency applied when blending with the buffer onto the destination target device context (DC).
 old-location: controls\BufferedPaintSetAlpha.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintsetalpha.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

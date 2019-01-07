@@ -38,6 +38,8 @@ api_name:
  - INewShortcutHookA.SetReferent
  - INewShortcutHookW.SetReferent
  - INewShortcutHook.SetReferent
+ - INewShortcutHookA::SetReferent
+ - INewShortcutHookW::SetReferent
 product: Windows
 targetos: Windows
 req.typenames: 

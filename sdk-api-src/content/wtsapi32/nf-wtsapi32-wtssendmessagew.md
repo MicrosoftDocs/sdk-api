@@ -4,7 +4,7 @@ title: WTSSendMessageW function
 author: windows-sdk-content
 description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
 old-location: termserv\wtssendmessage.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

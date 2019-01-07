@@ -4,7 +4,7 @@ title: IScheduleCollection
 author: windows-sdk-content
 description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
 old-location: pla\ischedulecollection.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

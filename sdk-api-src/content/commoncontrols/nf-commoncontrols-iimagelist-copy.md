@@ -4,7 +4,7 @@ title: IImageList::Copy
 author: windows-sdk-content
 description: Copies images from a given image list.
 old-location: controls\IImageList_Copy.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\copy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

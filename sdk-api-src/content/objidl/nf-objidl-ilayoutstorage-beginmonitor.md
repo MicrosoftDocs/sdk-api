@@ -4,7 +4,7 @@ title: ILayoutStorage::BeginMonitor
 author: windows-sdk-content
 description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.
 old-location: stg\ilayoutstorage_beginmonitor.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 16371d6c-adb9-43c2-80a4-377e94854bbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

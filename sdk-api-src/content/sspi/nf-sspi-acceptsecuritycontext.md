@@ -4,7 +4,7 @@ title: AcceptSecurityContext function
 author: windows-sdk-content
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 old-location: security\acceptsecuritycontext__credssp_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 ms.author: windowssdkdev
 ms.date: 12/5/2018

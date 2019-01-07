@@ -4,7 +4,7 @@ title: BluetoothSdpGetAttributeValue function
 author: windows-sdk-content
 description: The BluetoothSdpGetAttributeValue function retrieves the attribute value for an attribute identifier.
 old-location: bluetooth\bluetoothsdpgetattributevalue.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 79368265-3d01-4bfd-ba71-930696e0bc08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

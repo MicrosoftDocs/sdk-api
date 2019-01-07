@@ -4,7 +4,7 @@ title: IEnroll4::enumPendingRequestWStr
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each.
 old-location: security\ienroll4_enumpendingrequestwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ae1ac12c-0332-4796-8269-a3b6f72b8bff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

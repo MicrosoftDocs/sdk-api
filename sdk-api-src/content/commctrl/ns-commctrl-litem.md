@@ -4,7 +4,7 @@ title: LITEM
 author: windows-sdk-content
 description: Used to set and retrieve information about a link item.
 old-location: controls\LITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

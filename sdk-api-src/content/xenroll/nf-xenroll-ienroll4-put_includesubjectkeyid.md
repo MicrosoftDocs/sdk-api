@@ -4,7 +4,7 @@ title: IEnroll4::put_IncludeSubjectKeyID
 author: windows-sdk-content
 description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\ienroll4_includesubjectkeyid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 76b85d63-374c-4ce1-97d4-95f42ddcd53f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

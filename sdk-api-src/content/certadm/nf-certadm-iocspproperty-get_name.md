@@ -4,7 +4,7 @@ title: IOCSPProperty::get_Name
 author: windows-sdk-content
 description: Gets the identifier part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_name_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

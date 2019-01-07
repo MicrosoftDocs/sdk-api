@@ -4,7 +4,7 @@ title: Header_GetOrderArray macro
 author: windows-sdk-content
 description: Gets the current left-to-right order of items in a header control. You can use this macro or send the HDM_GETORDERARRAY message explicitly.
 old-location: controls\Header_GetOrderArray.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getorderarray.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

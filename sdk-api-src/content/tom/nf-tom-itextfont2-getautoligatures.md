@@ -4,7 +4,7 @@ title: ITextFont2::GetAutoLigatures
 author: windows-sdk-content
 description: Gets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_getautoligatures.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f8209c34-139c-45e6-b110-f6d3d76f5575
 ms.author: windowssdkdev
 ms.date: 12/5/2018

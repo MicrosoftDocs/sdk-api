@@ -4,7 +4,7 @@ title: ListBox_InsertItemData macro
 author: windows-sdk-content
 description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

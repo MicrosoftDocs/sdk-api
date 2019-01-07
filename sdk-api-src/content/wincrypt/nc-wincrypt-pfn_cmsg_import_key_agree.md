@@ -4,7 +4,7 @@ title: PFN_CMSG_IMPORT_KEY_AGREE
 author: windows-sdk-content
 description: Imports a content encryption key for a key transport recipient of an enveloped message.
 old-location: security\pfn_cmsg_import_key_agree.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1ce0fc46-c175-44cf-a553-a8366dca188f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

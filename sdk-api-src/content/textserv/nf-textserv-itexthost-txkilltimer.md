@@ -4,7 +4,7 @@ title: ITextHost::TxKillTimer
 author: windows-sdk-content
 description: Requests the text host to destroy the specified timer.
 old-location: controls\ITextHost_TxKillTimer.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxkilltimer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

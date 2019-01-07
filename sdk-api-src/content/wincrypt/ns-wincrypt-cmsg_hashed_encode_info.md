@@ -4,7 +4,7 @@ title: CMSG_HASHED_ENCODE_INFO
 author: windows-sdk-content
 description: Used with hashed messages. It is passed to the CryptMsgOpenToEncode function if the CryptMsgOpenToEncode function's dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_hashed_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 05dfeda0-a8a1-4203-a68a-af92903ab215
 ms.author: windowssdkdev
 ms.date: 12/5/2018

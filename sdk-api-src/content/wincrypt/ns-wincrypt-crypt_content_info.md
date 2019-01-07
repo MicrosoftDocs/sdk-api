@@ -4,7 +4,7 @@ title: CRYPT_CONTENT_INFO
 author: windows-sdk-content
 description: Contains data encoded in the PKCS #7 ContentInfo data format.
 old-location: security\crypt_content_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 033de6e3-c860-4f41-902b-79f528f5736b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

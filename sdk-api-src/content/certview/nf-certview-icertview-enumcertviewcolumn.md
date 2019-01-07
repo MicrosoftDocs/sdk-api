@@ -4,7 +4,7 @@ title: ICertView::EnumCertViewColumn
 author: windows-sdk-content
 description: Obtains an instance of a column-enumeration sequence for the database schema.
 old-location: security\icertview2_enumcertviewcolumn.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a51162f9-cc3d-4f06-993a-e5c9f57dd8a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

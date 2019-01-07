@@ -4,7 +4,7 @@ title: IEnroll::AddNameValuePairToSignatureWStr
 author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. The certification authority (CA) interprets the meaning of the name-value pair.
 old-location: security\ienroll4_addnamevaluepairtosignaturewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8ccc0bdf-01db-4863-aaaf-94910bfa0b8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

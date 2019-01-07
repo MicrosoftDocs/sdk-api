@@ -4,7 +4,7 @@ title: ICertServerPolicy::EnumerateAttributesClose
 author: windows-sdk-content
 description: Frees the resources connected with attribute enumeration.
 old-location: security\icertserverpolicy_enumerateattributesclose.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 91cb8edd-7735-44c5-b2c5-d46fa1e33e41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

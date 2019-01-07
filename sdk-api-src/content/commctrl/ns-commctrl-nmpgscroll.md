@@ -4,7 +4,7 @@ title: NMPGSCROLL
 author: windows-sdk-content
 description: Contains and receives information that the pager control uses when scrolling the contained window. It is used with the PGN_SCROLL notification.
 old-location: controls\NMPGSCROLL.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpgscroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

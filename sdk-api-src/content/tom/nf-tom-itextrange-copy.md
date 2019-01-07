@@ -4,7 +4,7 @@ title: ITextRange::Copy
 author: windows-sdk-content
 description: Copies the text to a data object.
 old-location: controls\ITextRange_Copy.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\copy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

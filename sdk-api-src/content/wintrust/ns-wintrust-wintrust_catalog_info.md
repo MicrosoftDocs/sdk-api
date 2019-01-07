@@ -4,7 +4,7 @@ title: WINTRUST_CATALOG_INFO
 author: windows-sdk-content
 description: The WINTRUST_CATALOG_INFO structure is used when calling WinVerifyTrust to verify a member of a Microsoft catalog.
 old-location: security\wintrust_catalog_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextDocument2::GetGenerator
 author: windows-sdk-content
 description: Gets the name of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getgenerator.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 22cfa44e-3603-458b-991e-6e536df63803
 ms.author: windowssdkdev
 ms.date: 12/5/2018

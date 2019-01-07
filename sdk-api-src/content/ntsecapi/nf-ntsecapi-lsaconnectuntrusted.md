@@ -4,7 +4,7 @@ title: LsaConnectUntrusted function
 author: windows-sdk-content
 description: Establishes an untrusted connection to the LSA server.
 old-location: security\lsaconnectuntrusted.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

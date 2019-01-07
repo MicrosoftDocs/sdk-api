@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1f5b8ee0-2820-481b-8836-b2926aec0933
 ms.author: windowssdkdev
 ms.date: 12/5/2018

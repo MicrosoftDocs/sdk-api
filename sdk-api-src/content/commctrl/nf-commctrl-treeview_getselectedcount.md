@@ -4,7 +4,7 @@ title: TreeView_GetSelectedCount macro
 author: windows-sdk-content
 description: TreeView_GetSelectedCount macro
 old-location: controls\TreeView_GetSelectedCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextHost::TxGetCharFormat
 author: windows-sdk-content
 description: Requests the text host's default character format.
 old-location: controls\ITextHost_TxGetCharFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

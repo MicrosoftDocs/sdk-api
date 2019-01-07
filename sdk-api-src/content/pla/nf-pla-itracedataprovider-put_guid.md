@@ -4,7 +4,7 @@ title: ITraceDataProvider::put_Guid
 author: windows-sdk-content
 description: Retrieves or sets the provider's GUID.
 old-location: pla\itracedataprovider_guid.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 0d2166dc-24cf-4d5f-8b37-94c4f9990178
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageList_WriteEx function
 author: windows-sdk-content
 description: Writes an image list to a stream.
 old-location: controls\ImageList_WriteEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_writeex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll2::SetHStoreCA
 author: windows-sdk-content
 description: The SetHStoreCA method specifies the handle to use for the CA store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreca.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d70fa8c0-7cdf-4023-9700-68f24d9116af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

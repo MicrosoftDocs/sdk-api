@@ -4,7 +4,7 @@ title: ITextPara::GetKeepWithNext
 author: windows-sdk-content
 description: Determines whether page breaks are allowed between paragraphs in the range.
 old-location: controls\ITextPara_GetKeepWithNext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

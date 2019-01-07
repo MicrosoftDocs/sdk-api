@@ -4,7 +4,7 @@ title: ImageList_DrawIndirect function
 author: windows-sdk-content
 description: Draws an image list image based on an IMAGELISTDRAWPARAMS structure.
 old-location: controls\ImageList_DrawIndirect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawindirect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

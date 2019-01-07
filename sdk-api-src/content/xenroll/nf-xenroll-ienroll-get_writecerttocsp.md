@@ -4,7 +4,7 @@ title: IEnroll::get_WriteCertToCSP
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\ienroll4_writecerttocsp.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 07463f0d-f46c-4bc3-8170-0a480b826049
 ms.author: windowssdkdev
 ms.date: 12/5/2018

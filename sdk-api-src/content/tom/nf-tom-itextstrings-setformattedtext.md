@@ -4,7 +4,7 @@ title: ITextStrings::SetFormattedText
 author: windows-sdk-content
 description: Replaces text with formatted text.
 old-location: controls\itextstrings_setformattedtext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4ebf7b46-8398-4751-b8b3-19e94fdbce87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

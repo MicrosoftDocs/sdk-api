@@ -4,7 +4,7 @@ title: ITextServices::TxQueryHitPoint
 author: windows-sdk-content
 description: Tests whether a specified point is within the rectangle of the text services object.
 old-location: controls\ITextServices_TxQueryHitPoint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txqueryhitpoint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

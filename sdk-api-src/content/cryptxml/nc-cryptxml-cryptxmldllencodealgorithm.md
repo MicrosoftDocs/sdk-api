@@ -4,7 +4,7 @@ title: CryptXmlDllEncodeAlgorithm
 author: windows-sdk-content
 description: Encodes SignatureMethod or DigestMethod elements for agile algorithms with default parameters.
 old-location: security\cryptxmldllencodealgorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

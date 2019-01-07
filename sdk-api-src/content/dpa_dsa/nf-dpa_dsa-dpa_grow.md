@@ -4,7 +4,7 @@ title: DPA_Grow function
 author: windows-sdk-content
 description: Changes the number of pointers in a dynamic pointer array (DPA).
 old-location: controls\DPA_Grow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_grow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

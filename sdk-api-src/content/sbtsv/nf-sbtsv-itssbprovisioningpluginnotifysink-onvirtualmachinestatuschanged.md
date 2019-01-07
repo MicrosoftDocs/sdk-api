@@ -4,7 +4,7 @@ title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5a256dec-fa40-48c2-b7e3-e89ec9e75f0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

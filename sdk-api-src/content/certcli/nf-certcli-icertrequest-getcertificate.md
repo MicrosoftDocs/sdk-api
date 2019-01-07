@@ -4,7 +4,7 @@ title: ICertRequest::GetCertificate
 author: windows-sdk-content
 description: Returns the certificate issued for the request as an X.509 certificate, or optionally packaged in a Public Key Cryptography Standards (PKCS) #7 message that contains the complete certificate chain for the Certificate Services server.
 old-location: security\icertrequest2_getcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ba8fc725-c376-4e66-8417-777ce13f2954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

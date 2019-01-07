@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildren
 title: IUIAutomationOrCondition::GetChildren
 author: windows-sdk-content
-description: Retrieves the conditions that make up this condition.
+description: Retrieves the conditions that make up this &#0034;or&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: b1af107d-2916-4061-9515-002c3af6eb00
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves the conditions that make up this condition.
+Retrieves the conditions that make up this "or" condition.
 
 
 ## -parameters

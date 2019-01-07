@@ -4,7 +4,7 @@ title: CRL_CONTEXT
 author: windows-sdk-content
 description: The CRL_CONTEXT structure contains both the encoded and decoded representations of a certificate revocation list (CRL). CRL contexts returned by any CryptoAPI function must be freed by calling the CertFreeCRLContext function.
 old-location: security\crl_context.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cf7cabcd-b469-492a-b855-8870465ea1cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

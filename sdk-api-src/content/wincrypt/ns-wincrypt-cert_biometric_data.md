@@ -4,7 +4,7 @@ title: CERT_BIOMETRIC_DATA
 author: windows-sdk-content
 description: Contains information about biometric data.
 old-location: security\cert_biometric_data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMTVITEMCHANGE
 author: windows-sdk-content
 description: Contains information on a tree-view item change. This structure is sent with the TVN_ITEMCHANGED and TVN_ITEMCHANGING notifications.
 old-location: controls\NMTVITEMCHANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

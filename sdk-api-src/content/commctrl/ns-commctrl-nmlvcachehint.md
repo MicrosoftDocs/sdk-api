@@ -4,7 +4,7 @@ title: NMLVCACHEHINT
 author: windows-sdk-content
 description: Contains information used to update the cached item information for use with a virtual list view.
 old-location: controls\NMLVCACHEHINT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcachehint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

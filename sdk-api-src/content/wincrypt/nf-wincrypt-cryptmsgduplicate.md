@@ -4,7 +4,7 @@ title: CryptMsgDuplicate function
 author: windows-sdk-content
 description: The CryptMsgDuplicate function duplicates a cryptographic message handle by incrementing its reference count.
 old-location: security\cryptmsgduplicate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9b1142b9-0caa-4304-bfe6-1c27c6a7b782
 ms.author: windowssdkdev
 ms.date: 12/5/2018

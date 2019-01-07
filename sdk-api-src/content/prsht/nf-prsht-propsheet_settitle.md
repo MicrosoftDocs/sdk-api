@@ -4,7 +4,7 @@ title: PropSheet_SetTitle macro
 author: windows-sdk-content
 description: Sets the title of a property sheet. You can use this macro or send the PSM_SETTITLE message explicitly.
 old-location: controls\PropSheet_SetTitle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

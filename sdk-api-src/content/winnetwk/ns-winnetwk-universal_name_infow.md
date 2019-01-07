@@ -4,7 +4,7 @@ title: UNIVERSAL_NAME_INFOW
 author: windows-sdk-content
 description: The UNIVERSAL_NAME_INFO structure contains information about the UNC form of a universal name. It is used by the NPGetUniversalName function.
 old-location: security\universal_name_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 505bcd3e-4043-4856-9a6f-a6f074dc6076
 ms.author: windowssdkdev
 ms.date: 12/5/2018

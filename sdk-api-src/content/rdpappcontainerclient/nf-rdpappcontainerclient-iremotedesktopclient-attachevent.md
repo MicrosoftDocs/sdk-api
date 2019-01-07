@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::attachEvent
 author: windows-sdk-content
 description: Attaches an event handler to an event.
 old-location: termserv\iremotedesktopclient_attachevent.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a904827b-644b-459b-b1bd-399bad21f94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

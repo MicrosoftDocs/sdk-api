@@ -4,7 +4,7 @@ title: CreatePropertySheetPageA function
 author: windows-sdk-content
 description: Creates a new page for a property sheet.
 old-location: controls\CreatePropertySheetPage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

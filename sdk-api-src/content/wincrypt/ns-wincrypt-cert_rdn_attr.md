@@ -4,7 +4,7 @@ title: CERT_RDN_ATTR
 author: windows-sdk-content
 description: Contains a single attribute of a relative distinguished name (RDN). A whole RDN is expressed in a CERT_RDN structure that contains an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn_attr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4729e824-761c-4115-8b7b-76ffdab8ea62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

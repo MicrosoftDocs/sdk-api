@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationAndCondition.get_ChildCount
 title: IUIAutomationAndCondition::get_ChildCount
 author: windows-sdk-content
-description: Retrieves the number of conditions that make up this condition.
+description: Retrieves the number of conditions that make up this &#0034;and&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_ChildCount.htm
 tech.root: WinAuto
 ms.assetid: 9e87bc65-5b41-4256-92c7-21b92032b83f
@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Retrieves the number of conditions that make up this condition.
+Retrieves the number of conditions that make up this "and" condition.
 
 This property is read-only.
 

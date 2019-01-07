@@ -4,7 +4,7 @@ title: TimeSample
 author: windows-sdk-content
 description: Represents a time sample.
 old-location: base\timesample_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

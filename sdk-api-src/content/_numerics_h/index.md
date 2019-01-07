@@ -2,7 +2,7 @@
 UID: TP:numerics_h
 ms.assetid: b9cac013-64b0-3818-a2bc-91f1189620ce
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

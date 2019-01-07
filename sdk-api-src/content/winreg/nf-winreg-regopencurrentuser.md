@@ -4,7 +4,7 @@ title: RegOpenCurrentUser function
 author: windows-sdk-content
 description: Retrieves a handle to the HKEY_CURRENT_USER key for the user the current thread is impersonating.
 old-location: base\regopencurrentuser.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 10a8cbfb-52dc-436a-827e-78f12eb62af0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TraceEventInstance function
 author: windows-sdk-content
 description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 old-location: etw\traceeventinstance.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_INFORMATION
 author: windows-sdk-content
 description: Contains Local Security Authority forest trust information.
 old-location: security\lsa_forest_trust_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9e456462-59a9-4f18-ba47-92fc2350889b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

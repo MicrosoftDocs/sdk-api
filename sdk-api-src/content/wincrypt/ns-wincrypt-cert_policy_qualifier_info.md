@@ -4,7 +4,7 @@ title: CERT_POLICY_QUALIFIER_INFO
 author: windows-sdk-content
 description: The CERT_POLICY_QUALIFIER_INFO structure contains an object identifier (OID) specifying the qualifier and qualifier-specific supplemental information.
 old-location: security\cert_policy_qualifier_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 86b1716d-541f-4e06-a824-01c22f0eba27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

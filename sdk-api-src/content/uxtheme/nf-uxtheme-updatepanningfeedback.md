@@ -4,7 +4,7 @@ title: UpdatePanningFeedback function
 author: windows-sdk-content
 description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.
 old-location: controls\UpdatePanningFeedback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PWLX_SET_TIMEOUT
 author: windows-sdk-content
 description: Called by GINA to change the time-out associated with a dialog box. The default time-out is two minutes.
 old-location: security\wlxsettimeout.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e5f1a184-195a-4a0e-849a-ed629a6c9049
 ms.author: windowssdkdev
 ms.date: 12/5/2018

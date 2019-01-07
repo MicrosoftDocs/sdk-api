@@ -4,7 +4,7 @@ title: SECPKG_USER_FUNCTION_TABLE
 author: windows-sdk-content
 description: The SECPKG_USER_FUNCTION_TABLE structure contains pointers to the functions that a security package implements to support executing in process with client/server applications. This structure is provided by the SpUserModeInitialize function.
 old-location: security\secpkg_user_function_table.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2b3fc6d1-2f55-4053-9271-f5cb5c318555
 ms.author: windowssdkdev
 ms.date: 12/5/2018

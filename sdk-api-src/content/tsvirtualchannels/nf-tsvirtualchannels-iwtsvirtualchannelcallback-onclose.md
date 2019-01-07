@@ -4,7 +4,7 @@ title: IWTSVirtualChannelCallback::OnClose
 author: windows-sdk-content
 description: Notifies the user that the channel has been closed.
 old-location: termserv\iwtsvirtualchannelcallback_onclose.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

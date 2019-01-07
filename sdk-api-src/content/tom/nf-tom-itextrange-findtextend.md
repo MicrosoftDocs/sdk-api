@@ -4,7 +4,7 @@ title: ITextRange::FindTextEnd
 author: windows-sdk-content
 description: Searches up to Count characters for the string, bstr, starting from the range's End cp.
 old-location: controls\ITextRange_FindTextEnd.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextend.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

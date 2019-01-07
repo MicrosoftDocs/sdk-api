@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup
 author: windows-sdk-content
 description: The ICertificateEnrollmentPolicyServerSetup interface represents the Certificate Enrollment Policy (CEP) Web Service within Active Directory Certificate Services (ADCS).
 old-location: security\icertificateenrollmentpolicyserversetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

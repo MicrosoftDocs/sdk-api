@@ -4,7 +4,7 @@ title: BluetoothAuthenticateDevice function
 author: windows-sdk-content
 description: Sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedevice.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9f8ff768-a794-4a61-a215-ae17e9acf620
 ms.author: windowssdkdev
 ms.date: 12/5/2018

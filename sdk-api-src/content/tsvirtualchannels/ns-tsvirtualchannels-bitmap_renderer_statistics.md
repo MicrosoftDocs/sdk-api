@@ -4,7 +4,7 @@ title: BITMAP_RENDERER_STATISTICS
 author: windows-sdk-content
 description: Contains statistics for the RemoteFX media redirection bitmap renderer.
 old-location: termserv\bitmap_renderer_statistics.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

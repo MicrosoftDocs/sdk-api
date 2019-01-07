@@ -4,7 +4,7 @@ title: IImageList::Add
 author: windows-sdk-content
 description: Adds an image or images to an image list.
 old-location: controls\IImageList_Add.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\add.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

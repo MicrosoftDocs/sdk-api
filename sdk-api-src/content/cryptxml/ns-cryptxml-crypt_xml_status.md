@@ -4,7 +4,7 @@ title: CRYPT_XML_STATUS
 author: windows-sdk-content
 description: Returns information about the signature validation status, summary status information about a SignedInfo element, or summary status information about an array of Reference elements.
 old-location: security\crypt_xml_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1d49429e-9c81-4bf0-92d8-4effe9795dc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

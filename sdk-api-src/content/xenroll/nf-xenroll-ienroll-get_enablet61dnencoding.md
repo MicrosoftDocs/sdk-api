@@ -4,7 +4,7 @@ title: IEnroll::get_EnableT61DNEncoding
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
 old-location: security\ienroll4_enablet61dnencoding.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7ed181d1-b06f-40f4-892a-80edf327bf40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

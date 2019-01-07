@@ -4,7 +4,7 @@ title: TCHITTESTINFO
 author: windows-sdk-content
 description: Contains information about a hit test. This structure supersedes the TC_HITTESTINFO structure.
 old-location: controls\TCHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont::SetSubscript
 author: windows-sdk-content
 description: Sets whether characters are displayed as subscript.
 old-location: controls\ITextFont_SetSubscript.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsubscript.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TabCtrl_SetItem macro
 author: windows-sdk-content
 description: Sets some or all of a tab's attributes. You can use this macro or send the TCM_SETITEM message explicitly.
 old-location: controls\TabCtrl_SetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

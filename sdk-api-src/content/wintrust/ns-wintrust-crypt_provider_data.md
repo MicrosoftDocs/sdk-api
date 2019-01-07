@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_DATA
 author: windows-sdk-content
 description: Used to pass data between WinVerifyTrust and trust providers.
 old-location: security\crypt_provider_data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 93ea2ad5-65da-4daa-bfd4-e3d1307829b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

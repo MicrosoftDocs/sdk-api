@@ -4,7 +4,7 @@ title: TreeView_GetRoot macro
 author: windows-sdk-content
 description: Retrieves the topmost or very first item of the tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_ROOT flag.
 old-location: controls\TreeView_GetRoot.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getroot.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

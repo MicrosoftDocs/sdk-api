@@ -4,7 +4,7 @@ title: BLUETOOTH_PASSKEY_INFO
 author: windows-sdk-content
 description: BLUETOOTH_PASSKEY_INFO structure contains a passkey value used for authentication. A passkey is similar to a password, except that a passkey value is used for authentication only once.
 old-location: bluetooth\bluetooth_passkey_info.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

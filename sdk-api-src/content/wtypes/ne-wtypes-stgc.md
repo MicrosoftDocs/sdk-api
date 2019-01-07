@@ -4,7 +4,7 @@ title: STGC
 author: windows-sdk-content
 description: Specify the conditions for performing the commit operation in the IStorage::Commit and IStream::Commit methods.
 old-location: stg\stgc.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f37260c0-d03d-4ead-a342-d2454ce8b1ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_FileMaxCount
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of files to collect.
 old-location: pla\iconfigurationdatacollector_filemaxcount.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 20089bc0-8af4-48b4-85aa-51ab2e4bf5be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

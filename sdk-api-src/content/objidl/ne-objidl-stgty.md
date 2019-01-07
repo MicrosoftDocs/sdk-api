@@ -4,7 +4,7 @@ title: STGTY
 author: windows-sdk-content
 description: The STGTY enumeration values are used in the type member of the STATSTG structure to indicate the type of the storage element. A storage element is a storage object, a stream object, or a byte-array object (LOCKBYTES).
 old-location: stg\stgty.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 67189e7a-b089-4a29-adf8-ad7c459c7974
 ms.author: windowssdkdev
 ms.date: 12/5/2018

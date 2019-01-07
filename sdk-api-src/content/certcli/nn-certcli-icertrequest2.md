@@ -4,7 +4,7 @@ title: ICertRequest2
 author: windows-sdk-content
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8587a682-27a5-4f26-b4bb-7088e4e5d8d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

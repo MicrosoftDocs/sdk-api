@@ -4,7 +4,7 @@ title: LVFINDINFOW
 author: windows-sdk-content
 description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 old-location: controls\LVFINDINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

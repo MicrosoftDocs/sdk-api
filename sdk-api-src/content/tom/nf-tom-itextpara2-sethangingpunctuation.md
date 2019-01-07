@@ -4,7 +4,7 @@ title: ITextPara2::SetHangingPunctuation
 author: windows-sdk-content
 description: Sets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_sethangingpunctuation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8c70f76f-7a4a-49b3-bc16-8e90ad7ee041
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWTSProtocolLogonErrorRedirector::RedirectStatus
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::RedirectStatus is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectStatus.
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectstatus.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a333db5a-3564-4d33-bfd6-244975cc3c4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

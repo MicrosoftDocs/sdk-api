@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_SigningCertificate
 author: windows-sdk-content
 description: Gets or sets a signing certificate that has been encoded by using Distinguished Encoding Rules (DER). An Online Certificate Status Protocol (OCSP) responder service uses this certificate to sign its responses to certificate status requests.
 old-location: security\iocspcaconfiguration_signingcertificate_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8635c9f0-3c70-4037-8633-7a3440aff6c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

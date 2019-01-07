@@ -4,7 +4,7 @@ title: WintrustAddActionID function
 author: windows-sdk-content
 description: Adds a trust provider action to the user's system.
 old-location: security\wintrustaddactionid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CTL_CONTEXT
 author: windows-sdk-content
 description: The CTL_CONTEXT structure contains both the encoded and decoded representations of a CTL.
 old-location: security\ctl_context.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 780edddf-1b44-4292-9156-4dfd5100adb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

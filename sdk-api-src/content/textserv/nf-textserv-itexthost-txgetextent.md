@@ -4,7 +4,7 @@ title: ITextHost::TxGetExtent
 author: windows-sdk-content
 description: Requests the native size of the control in HIMETRIC.
 old-location: controls\ITextHost_TxGetExtent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetextent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_CMS_RECIPIENT_INFO
 author: windows-sdk-content
 description: Used with the CryptMsgGetParam function to get information on a key transport, key agreement, or mail list envelope message recipient.
 old-location: security\cmsg_cms_recipient_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

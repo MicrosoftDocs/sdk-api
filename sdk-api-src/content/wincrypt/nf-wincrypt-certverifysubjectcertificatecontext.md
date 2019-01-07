@@ -4,7 +4,7 @@ title: CertVerifySubjectCertificateContext function
 author: windows-sdk-content
 description: The CertVerifySubjectCertificateContext function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new Certificate Chain Verification Functions are recommended instead of this function.
 old-location: security\certverifysubjectcertificatecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 063b19cf-d3b3-4ec3-bfd3-9406eecd3e10
 ms.author: windowssdkdev
 ms.date: 12/5/2018

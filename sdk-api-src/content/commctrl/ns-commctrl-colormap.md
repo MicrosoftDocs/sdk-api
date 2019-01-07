@@ -4,7 +4,7 @@ title: COLORMAP
 author: windows-sdk-content
 description: Contains information used by the CreateMappedBitmap function to map the colors of the bitmap.
 old-location: controls\COLORMAP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

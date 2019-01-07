@@ -4,7 +4,7 @@ title: STATSTG
 author: windows-sdk-content
 description: Contains statistical data about an open storage, stream, or byte-array object.
 old-location: stg\statstg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839
 ms.author: windowssdkdev
 ms.date: 12/5/2018

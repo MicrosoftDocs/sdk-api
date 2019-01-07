@@ -4,7 +4,7 @@ title: IDataManager::put_ReportFileName
 author: windows-sdk-content
 description: Retrieves or sets the name of the HTML file that results from converting the file in the IDataManager::RuleTargetFileName property from XML to HTML.
 old-location: pla\idatamanager_reportfilename.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5b4c1d99-2f41-423a-b019-845dcd61d516
 ms.author: windowssdkdev
 ms.date: 12/5/2018

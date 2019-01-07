@@ -4,7 +4,7 @@ title: PSHNOTIFY
 author: windows-sdk-content
 description: Contains information for the property sheet notification messages.
 old-location: controls\PSHNOTIFY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\pshnotify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

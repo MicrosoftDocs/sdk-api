@@ -2,7 +2,7 @@
 UID: NA:inputscope
 ms.assetid: 34803fab-f9b7-37c1-a42f-98fbb1bee73c
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: Edit_GetSel macro
 author: windows-sdk-content
 description: Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the EM_GETSEL message explicitly.
 old-location: controls\Edit_GetSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getsel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

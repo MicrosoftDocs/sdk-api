@@ -4,7 +4,7 @@ title: CRYPT_MASK_GEN_ALGORITHM
 author: windows-sdk-content
 description: Identifies the algorithm used to generate an RSA PKCS #1 v2.1 signature mask.
 old-location: security\crypt_mask_gen_algorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 26ccf26d-9cde-4653-b4ab-7362f4fad640
 ms.author: windowssdkdev
 ms.date: 12/5/2018

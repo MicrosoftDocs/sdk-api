@@ -4,7 +4,7 @@ title: ITextRange::SetEnd
 author: windows-sdk-content
 description: Sets the end position of the range.
 old-location: controls\ITextRange_SetEnd.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setend.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

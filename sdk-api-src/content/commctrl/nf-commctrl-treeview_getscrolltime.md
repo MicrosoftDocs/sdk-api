@@ -4,7 +4,7 @@ title: TreeView_GetScrollTime macro
 author: windows-sdk-content
 description: Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the TVM_GETSCROLLTIME message explicitly.
 old-location: controls\TreeView_GetScrollTime.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getscrolltime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

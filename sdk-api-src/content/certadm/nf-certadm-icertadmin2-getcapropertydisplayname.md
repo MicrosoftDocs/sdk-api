@@ -4,7 +4,7 @@ title: ICertAdmin2::GetCAPropertyDisplayName
 author: windows-sdk-content
 description: The ICertAdmin2::GetCAPropertyDisplayName method retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertydisplayname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8f879b94-d15a-48e6-9e71-a24c1c39c618
 ms.author: windowssdkdev
 ms.date: 12/5/2018

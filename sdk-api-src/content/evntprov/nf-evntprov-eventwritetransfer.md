@@ -4,7 +4,7 @@ title: EventWriteTransfer function
 author: windows-sdk-content
 description: Links events together when tracing events in an end-to-end scenario.
 old-location: etw\eventwritetransfer_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

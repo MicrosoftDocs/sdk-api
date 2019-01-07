@@ -4,7 +4,7 @@ title: ICertEncodeBitString::GetBitString
 author: windows-sdk-content
 description: Returns the string of bits in the object's bit string.
 old-location: security\icertencodebitstring_getbitstring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

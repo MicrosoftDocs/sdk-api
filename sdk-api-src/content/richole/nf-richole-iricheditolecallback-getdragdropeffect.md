@@ -4,7 +4,7 @@ title: IRichEditOleCallback::GetDragDropEffect
 author: windows-sdk-content
 description: Allows the client to specify the effects of a drop operation.
 old-location: controls\IRichEditOleCallback_GetDragDropEffect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetdragdropeffect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

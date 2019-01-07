@@ -4,7 +4,7 @@ title: pCryptSIPGetCaps
 author: windows-sdk-content
 description: Is implemented by an subject interface package (SIP) to report capabilities.
 old-location: security\pfncryptsipgetcaps.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8EA46B67-F542-4B15-81F4-3DD83DD45764
 ms.author: windowssdkdev
 ms.date: 12/5/2018

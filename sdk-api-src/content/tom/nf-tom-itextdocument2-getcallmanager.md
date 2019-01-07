@@ -4,7 +4,7 @@ title: ITextDocument2::GetCallManager
 author: windows-sdk-content
 description: Gets the call manager.
 old-location: controls\itextdocument2_getcallmanager.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0a90e6f5-1231-45fc-868f-4f24ed195638
 ms.author: windowssdkdev
 ms.date: 12/5/2018

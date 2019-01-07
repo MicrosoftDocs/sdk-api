@@ -4,7 +4,7 @@ title: CERT_NAME_VALUE
 author: windows-sdk-content
 description: Contains a relative distinguished name (RDN) attribute value.
 old-location: security\cert_name_value.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WINTRUST_CERT_INFO
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CERT_CONTEXT.
 old-location: security\wintrust_cert_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6522d1f0-3d96-4499-9220-23288122e0e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

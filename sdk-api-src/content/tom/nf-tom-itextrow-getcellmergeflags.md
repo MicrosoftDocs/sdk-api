@@ -4,7 +4,7 @@ title: ITextRow::GetCellMergeFlags
 author: windows-sdk-content
 description: Gets the merge flags of the active cell.
 old-location: controls\itextrow_getcellmergeflags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0e3c0cf4-b371-4622-a183-61d213fc9291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

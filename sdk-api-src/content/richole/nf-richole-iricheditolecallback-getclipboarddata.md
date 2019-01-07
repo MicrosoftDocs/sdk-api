@@ -4,7 +4,7 @@ title: IRichEditOleCallback::GetClipboardData
 author: windows-sdk-content
 description: Allows the client to supply its own clipboard object.
 old-location: controls\IRichEditOleCallback_GetClipboardData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetclipboarddata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SIP_DISPATCH_INFO
 author: windows-sdk-content
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
 old-location: security\sip_dispatch_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
 ms.author: windowssdkdev
 ms.date: 12/5/2018

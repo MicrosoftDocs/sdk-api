@@ -4,7 +4,7 @@ title: EVENT_EXTENDED_ITEM_STACK_TRACE32
 author: windows-sdk-content
 description: Defines a call stack on a 32-bit computer.
 old-location: etw\event_extended_item_stack_trace32.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 6898951a-5719-47aa-a219-97f82095686f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

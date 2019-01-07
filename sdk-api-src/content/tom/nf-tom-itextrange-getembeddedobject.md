@@ -4,7 +4,7 @@ title: ITextRange::GetEmbeddedObject
 author: windows-sdk-content
 description: Retrieves a pointer to the embedded object at the start of the specified range, that is, at cpFirst. The range must either be an insertion point or it must select only the embedded object.
 old-location: controls\ITextRange_GetEmbeddedObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getembeddedobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

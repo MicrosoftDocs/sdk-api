@@ -4,7 +4,7 @@ title: GetSystemWow64Directory2W function
 author: windows-sdk-content
 description: Retrieves the path of the system directory used by WOW64, using the specified image file machine type.
 old-location: base\getsystemwow64directory2.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 938370BE-6EAB-4198-9AF3-ED8889E1E41F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -8,10 +8,10 @@ tech.root: com
 ms.assetid: 1945d4a2-dd1f-453e-ab7e-093f26171c84
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, ole/LPOLEUPDATE, ole/OLEUPDATE, ole/OLEUPDATE_ALWAYS, ole/OLEUPDATE_ONCALL, ole/POLEUPDATE"
+ms.keywords: "*LPOLEUPDATE, *POLEUPDATE, LPOLEUPDATE, LPOLEUPDATE enumeration pointer [COM], OLEUPDATE, OLEUPDATE enumeration [COM], OLEUPDATE_ALWAYS, OLEUPDATE_ONCALL, POLEUPDATE, POLEUPDATE enumeration pointer [COM], _ole_OLEUPDATE, com.oleupdate, oleidl/LPOLEUPDATE, oleidl/OLEUPDATE, oleidl/OLEUPDATE_ALWAYS, oleidl/OLEUPDATE_ONCALL, oleidl/POLEUPDATE"
 ms.topic: enum
 req.header: oleidl.h
-req.include-header: OleIdl.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -33,7 +33,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - ole.h
+ - OleIdl.h
 api_name:
  - OLEUPDATE
 product: Windows

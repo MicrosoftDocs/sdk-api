@@ -4,7 +4,7 @@ title: GetThemeSysInt function
 author: windows-sdk-content
 description: Retrieves the value of a system int.
 old-location: controls\GetThemeSysInt.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

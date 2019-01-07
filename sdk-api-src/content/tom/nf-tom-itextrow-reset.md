@@ -4,7 +4,7 @@ title: ITextRow::Reset
 author: windows-sdk-content
 description: Resets a row.
 old-location: controls\itextrow_reset.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

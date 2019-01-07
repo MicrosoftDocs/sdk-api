@@ -4,7 +4,7 @@ title: ITextRange::Delete
 author: windows-sdk-content
 description: Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 old-location: controls\ITextRange_Delete.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\delete.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

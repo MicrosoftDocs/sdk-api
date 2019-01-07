@@ -4,7 +4,7 @@ title: ListView_GetHotItem macro
 author: windows-sdk-content
 description: Gets the index of the hot item. You can use this macro or send the LVM_GETHOTITEM message explicitly.
 old-location: controls\ListView_GetHotItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

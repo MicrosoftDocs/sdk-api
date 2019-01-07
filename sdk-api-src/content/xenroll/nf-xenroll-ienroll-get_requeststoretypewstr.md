@@ -4,7 +4,7 @@ title: IEnroll::get_RequestStoreTypeWStr
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreNameWStr property. This store type is passed directly to the CertOpenStore function.
 old-location: security\ienroll4_requeststoretypewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5b06552a-7b8d-4044-9c2c-994f67e9c36d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

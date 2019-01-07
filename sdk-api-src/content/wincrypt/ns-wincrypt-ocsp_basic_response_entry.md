@@ -4,7 +4,7 @@ title: OCSP_BASIC_RESPONSE_ENTRY
 author: windows-sdk-content
 description: Contains the current certificate status for a single certificate.
 old-location: security\ocsp_basic_response_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

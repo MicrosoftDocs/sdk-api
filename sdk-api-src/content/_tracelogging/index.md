@@ -2,7 +2,7 @@
 UID: TP:tracelogging
 ms.assetid: 1bc44f9c-6d1d-3afa-9402-657cb5c8625e
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

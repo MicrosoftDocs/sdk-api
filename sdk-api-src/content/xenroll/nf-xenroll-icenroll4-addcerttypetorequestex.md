@@ -4,7 +4,7 @@ title: ICEnroll4::addCertTypeToRequestEx
 author: windows-sdk-content
 description: Adds a certificate template (or &#0034;certificate type&#0034;) to a request.
 old-location: security\icenroll4_addcerttypetorequestex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bde35e01-8b26-44f7-828e-e8313a2b5a12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

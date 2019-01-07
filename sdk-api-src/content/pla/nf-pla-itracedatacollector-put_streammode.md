@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_StreamMode
 author: windows-sdk-content
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

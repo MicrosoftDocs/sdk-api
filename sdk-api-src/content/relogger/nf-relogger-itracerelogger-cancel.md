@@ -4,7 +4,7 @@ title: ITraceRelogger::Cancel
 author: windows-sdk-content
 description: Terminates the relogging process.
 old-location: etw\itracerelogger_cancel.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331
 ms.author: windowssdkdev
 ms.date: 12/5/2018

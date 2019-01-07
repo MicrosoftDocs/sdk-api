@@ -4,7 +4,7 @@ title: IWRdsProtocolLogonErrorRedirector::RedirectMessage
 author: windows-sdk-content
 description: Queries the protocol regarding how to redirect the logon message.
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectmessage.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b818e2b0-3d6c-4a56-8175-75b585553520
 ms.author: windowssdkdev
 ms.date: 12/5/2018

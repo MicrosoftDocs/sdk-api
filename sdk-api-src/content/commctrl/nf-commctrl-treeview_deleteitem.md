@@ -4,7 +4,7 @@ title: TreeView_DeleteItem macro
 author: windows-sdk-content
 description: Removes an item and all its children from a tree-view control. You can also send the TVM_DELETEITEM message explicitly.
 old-location: controls\TreeView_DeleteItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

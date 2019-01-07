@@ -4,7 +4,7 @@ title: StgOpenLayoutDocfile function
 author: windows-sdk-content
 description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
 old-location: stg\stgopenlayoutdocfile.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

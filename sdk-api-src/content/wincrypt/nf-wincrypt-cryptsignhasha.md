@@ -4,7 +4,7 @@ title: CryptSignHashA function
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

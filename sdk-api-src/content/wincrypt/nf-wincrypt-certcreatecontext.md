@@ -4,7 +4,7 @@ title: CertCreateContext function
 author: windows-sdk-content
 description: Creates the specified context from the encoded bytes. The context created does not include any extended properties.
 old-location: security\certcreatecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

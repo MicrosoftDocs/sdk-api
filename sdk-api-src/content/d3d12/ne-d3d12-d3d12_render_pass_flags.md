@@ -75,3 +75,14 @@ Indicates that this is a suspending render pass.
 
 Indicates that this is a resuming render pass.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

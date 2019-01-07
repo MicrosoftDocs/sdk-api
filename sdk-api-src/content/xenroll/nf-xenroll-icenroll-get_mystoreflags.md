@@ -4,7 +4,7 @@ title: ICEnroll::get_MyStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for MY store.
 old-location: security\icenroll4_mystoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0616c666-9cfc-48f9-93a2-91d51d8dff04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

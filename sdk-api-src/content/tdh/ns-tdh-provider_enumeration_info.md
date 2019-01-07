@@ -4,7 +4,7 @@ title: PROVIDER_ENUMERATION_INFO
 author: windows-sdk-content
 description: Defines the array of providers that have registered a MOF or manifest on the computer.
 old-location: etw\provider_enumeration_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

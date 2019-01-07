@@ -4,7 +4,7 @@ title: CMSG_KEY_AGREE_ENCRYPT_INFO
 author: windows-sdk-content
 description: Contains encryption information applicable to all key agreement recipients of an enveloped message.
 old-location: security\cmsg_key_agree_encrypt_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7604ac82-a1a2-451b-8615-98303ce1d83e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

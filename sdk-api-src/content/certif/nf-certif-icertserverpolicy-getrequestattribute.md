@@ -4,7 +4,7 @@ title: ICertServerPolicy::GetRequestAttribute
 author: windows-sdk-content
 description: Returns a named attribute from a request.
 old-location: security\icertserverpolicy_getrequestattribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 344cb710-4824-455c-9599-3036a2b36905
 ms.author: windowssdkdev
 ms.date: 12/5/2018

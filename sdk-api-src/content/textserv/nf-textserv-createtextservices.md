@@ -4,7 +4,7 @@ title: CreateTextServices function
 author: windows-sdk-content
 description: The CreateTextServices function creates an instance of a text services object. The text services object supports a variety of interfaces, including ITextServices and the Text Object Model (TOM).
 old-location: controls\CreateTextServices.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolfunctions\createtextservices.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

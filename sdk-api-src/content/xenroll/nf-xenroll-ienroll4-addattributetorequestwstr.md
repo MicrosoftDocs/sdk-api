@@ -4,7 +4,7 @@ title: IEnroll4::addAttributeToRequestWStr
 author: windows-sdk-content
 description: Adds an attribute to the certificate request.
 old-location: security\ienroll4_addattributetorequestwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 71421bca-ef72-47d3-8f4a-95cb9768644f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

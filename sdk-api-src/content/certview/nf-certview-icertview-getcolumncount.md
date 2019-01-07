@@ -4,7 +4,7 @@ title: ICertView::GetColumnCount
 author: windows-sdk-content
 description: Retrieves the number of columns in the view of the Certificate Services database.
 old-location: security\icertview2_getcolumncount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0297d8e3-5077-40da-88b7-adac252e0f1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

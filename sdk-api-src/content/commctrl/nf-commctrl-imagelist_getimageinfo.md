@@ -4,7 +4,7 @@ title: ImageList_GetImageInfo function
 author: windows-sdk-content
 description: Retrieves information about an image.
 old-location: controls\ImageList_GetImageInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimageinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateUpDownControl function
 author: windows-sdk-content
 description: Creates an up-down control. Note:\_This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.
 old-location: controls\CreateUpDownControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

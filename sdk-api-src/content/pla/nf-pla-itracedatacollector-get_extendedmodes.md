@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_ExtendedModes
 author: windows-sdk-content
 description: Retrieves or sets the extended log file modes.
 old-location: pla\itracedatacollector_extendedmodes.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: c9f20dd2-4411-4069-8455-9095939581e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

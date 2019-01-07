@@ -4,7 +4,7 @@ title: TreeView_Expand macro
 author: windows-sdk-content
 description: The TreeView_Expand macro expands or collapses the list of child items associated with the specified parent item, if any. You can use this macro or send the TVM_EXPAND message explicitly.
 old-location: controls\TreeView_Expand.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_expand.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

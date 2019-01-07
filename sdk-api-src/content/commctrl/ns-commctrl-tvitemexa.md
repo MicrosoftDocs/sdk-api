@@ -4,7 +4,7 @@ title: TVITEMEXA
 author: windows-sdk-content
 description: Specifies or receives attributes of a tree-view item. This structure is an enhancement to the TVITEM structure. New applications should use this structure where appropriate.
 old-location: controls\TVITEMEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitemex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll::put_ProviderNameWStr
 author: windows-sdk-content
 description: Sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\ienroll4_providernamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 42300501-2a64-4433-81e9-6ee3fc31b094
 ms.author: windowssdkdev
 ms.date: 12/5/2018

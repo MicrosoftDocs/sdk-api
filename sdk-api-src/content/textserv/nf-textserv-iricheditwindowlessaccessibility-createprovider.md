@@ -4,7 +4,7 @@ title: IRicheditWindowlessAccessibility::CreateProvider
 author: windows-sdk-content
 description: Obtains a Microsoft UI Automation provider object for the parent of a windowless rich edit control.
 old-location: controls\iricheditwindowlessaccessibility_createprovider.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 660E8B3E-1372-458D-A6E0-B88B1E5A01B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

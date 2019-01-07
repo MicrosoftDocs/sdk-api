@@ -4,7 +4,7 @@ title: ICertAdmin2::SetConfigEntry
 author: windows-sdk-content
 description: Sets configuration information for a certification authority (CA).
 old-location: security\icertadmin2_setconfigentry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6ed1dd69-3553-4dcc-a98a-1954013082cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

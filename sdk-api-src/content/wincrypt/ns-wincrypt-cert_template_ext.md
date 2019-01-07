@@ -4,7 +4,7 @@ title: CERT_TEMPLATE_EXT
 author: windows-sdk-content
 description: A certificate template.
 old-location: security\cert_template_ext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 23cec38e-0d70-47bb-a2a4-6bbd3f4b018e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

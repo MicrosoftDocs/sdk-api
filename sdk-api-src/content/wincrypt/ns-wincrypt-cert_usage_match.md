@@ -4,7 +4,7 @@ title: CERT_USAGE_MATCH
 author: windows-sdk-content
 description: Provides criteria for identifying issuer certificates to be used to build a certificate chain.
 old-location: security\cert_usage_match.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6154f1f7-4293-4b8e-91ab-9f57bb6f5743
 ms.author: windowssdkdev
 ms.date: 12/5/2018

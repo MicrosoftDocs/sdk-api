@@ -4,7 +4,7 @@ title: SCROLLBARINFO
 author: windows-sdk-content
 description: The SCROLLBARINFO structure contains scroll bar information.
 old-location: controls\SCROLLBARINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollbarinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

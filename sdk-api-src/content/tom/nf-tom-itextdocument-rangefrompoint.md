@@ -4,7 +4,7 @@ title: ITextDocument::RangeFromPoint
 author: windows-sdk-content
 description: Retrieves a range for the content at or nearest to the specified point on the screen.
 old-location: controls\ITextDocument_RangeFromPoint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\rangefrompoint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

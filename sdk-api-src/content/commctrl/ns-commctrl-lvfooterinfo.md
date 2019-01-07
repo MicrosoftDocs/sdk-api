@@ -4,7 +4,7 @@ title: LVFOOTERINFO
 author: windows-sdk-content
 description: Contains information on a footer in a list-view control.
 old-location: controls\LVFOOTERINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooterinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

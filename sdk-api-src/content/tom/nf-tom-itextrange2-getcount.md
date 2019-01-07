@@ -4,7 +4,7 @@ title: ITextRange2::GetCount
 author: windows-sdk-content
 description: Gets the count of subranges, including the active subrange in the current range.
 old-location: controls\itextrange2_getcount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a1744e60-74b0-44a0-b470-6e89d328fa11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

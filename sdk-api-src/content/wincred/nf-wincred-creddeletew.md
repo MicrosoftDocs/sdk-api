@@ -4,7 +4,7 @@ title: CredDeleteW function
 author: windows-sdk-content
 description: Deletes a credential from the user's credential set.
 old-location: security\creddelete.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 154af9c8-18fd-412d-899d-7c6d2138380d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll2::addCertTypeToRequest
 author: windows-sdk-content
 description: Adds a certificate template to a request (used to support the enterprise certification authority (CA)). This method was first defined by the ICEnroll2 interface.
 old-location: security\icenroll4_addcerttypetorequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d2c22689-d386-43d1-a42f-f303a034a087
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertEncodeBitString::Encode
 author: windows-sdk-content
 description: Performs Abstract Syntax Notation One (ASN.1) encoding on a given bit string.
 old-location: security\icertencodebitstring_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

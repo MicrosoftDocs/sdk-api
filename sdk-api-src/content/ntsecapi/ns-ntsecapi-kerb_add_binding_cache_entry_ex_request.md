@@ -4,7 +4,7 @@ title: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
 author: windows-sdk-content
 description: Allows the user to bind to a specific domain controller (DC), overriding the Kerberos domain binding cache.
 old-location: security\kerb_add_binding_cache_entry_ex_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: B1E58228-59B3-471D-A90C-DAAC17BA7937
 ms.author: windowssdkdev
 ms.date: 12/5/2018

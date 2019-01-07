@@ -4,7 +4,7 @@ title: CERT_BIOMETRIC_EXT_INFO
 author: windows-sdk-content
 description: Contains a set of biometric information.
 old-location: security\cert_biometric_ext_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b2a877e1-2be2-428c-bc47-ec5ce6cef7e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

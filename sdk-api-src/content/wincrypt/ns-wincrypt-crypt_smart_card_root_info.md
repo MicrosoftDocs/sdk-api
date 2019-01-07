@@ -4,7 +4,7 @@ title: CRYPT_SMART_CARD_ROOT_INFO
 author: windows-sdk-content
 description: Contains the smart card and session IDs associated with a certificate context.
 old-location: security\crypt_smart_card_root_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 165a1a9e-e426-4823-8d1b-f13c338964c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

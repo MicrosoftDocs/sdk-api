@@ -4,7 +4,7 @@ title: DPA_FastGetPtr macro
 author: windows-sdk-content
 description: Gets the value of the specified pointer in the dynamic pointer array (DPA).
 old-location: controls\DPA_FastGetPtr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

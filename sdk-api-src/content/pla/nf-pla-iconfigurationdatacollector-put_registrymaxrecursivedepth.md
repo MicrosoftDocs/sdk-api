@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::put_RegistryMaxRecursiveDepth
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of subkeys from which to recursively collect registry values.
 old-location: pla\iconfigurationdatacollector_registrymaxrecursivedepth.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f291a404-a952-42cd-a538-c7d326aa29d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

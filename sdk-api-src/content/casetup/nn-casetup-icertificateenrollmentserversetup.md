@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup
 author: windows-sdk-content
 description: The ICertificateEnrollmentServerSetup interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS).
 old-location: security\icertificateenrollmentserversetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

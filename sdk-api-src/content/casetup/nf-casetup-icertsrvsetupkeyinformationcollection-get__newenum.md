@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an enumerator for the information set.
 old-location: security\icertsrvsetupkeyinformationcollection__newenum.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 80a34341-176d-4040-bc60-79ce81b917b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

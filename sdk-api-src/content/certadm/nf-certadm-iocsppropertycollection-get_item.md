@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::get_Item
 author: windows-sdk-content
 description: Gets the property identified by index in a property set.
 old-location: security\iocsppropertycollection_item_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 33fce781-f65d-433a-b2ba-0f694cee1220
 ms.author: windowssdkdev
 ms.date: 12/5/2018

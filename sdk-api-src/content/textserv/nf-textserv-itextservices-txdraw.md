@@ -4,7 +4,7 @@ title: ITextServices::TxDraw
 author: windows-sdk-content
 description: Draws the text services object.
 old-location: controls\ITextServices_TxDraw.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itextservices\itextservicestxdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

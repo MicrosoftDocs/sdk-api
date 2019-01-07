@@ -4,7 +4,7 @@ title: PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY
 author: windows-sdk-content
 description: Generates the symmetric key used to encrypt content for an enveloped message.
 old-location: security\pfn_cmsg_gen_content_encrypt_key.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f06d0efb-44e1-40ed-9480-35dbdfce934c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

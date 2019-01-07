@@ -4,7 +4,7 @@ title: PFNDACOMPARE
 author: windows-sdk-content
 description: Defines the prototype for the compare function used by DSA_Sort.
 old-location: controls\PFNDACOMPARE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

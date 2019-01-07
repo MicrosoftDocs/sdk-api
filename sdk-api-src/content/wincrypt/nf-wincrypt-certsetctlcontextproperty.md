@@ -4,7 +4,7 @@ title: CertSetCTLContextProperty function
 author: windows-sdk-content
 description: Sets an extended property for the specified certificate trust list (CTL) context.
 old-location: security\certsetctlcontextproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3af01ca6-6fa1-4510-872a-b5e13e07f49f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

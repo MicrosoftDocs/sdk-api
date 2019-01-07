@@ -4,7 +4,7 @@ title: ICertAdmin2::GetCAProperty
 author: windows-sdk-content
 description: Retrieves a property value for the certification authority (CA).
 old-location: security\icertadmin2_getcaproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8eaa2e36-4358-4abd-a7c2-2c9768766597
 ms.author: windowssdkdev
 ms.date: 12/5/2018

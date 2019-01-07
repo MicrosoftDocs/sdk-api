@@ -4,7 +4,7 @@ title: USERNAME_TARGET_CREDENTIAL_INFO
 author: windows-sdk-content
 description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.
 old-location: security\username_target_credential_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1cb56a85-fafd-4471-b0e9-660ac0dc0219
 ms.author: windowssdkdev
 ms.date: 12/5/2018

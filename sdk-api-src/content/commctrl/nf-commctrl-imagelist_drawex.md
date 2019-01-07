@@ -4,7 +4,7 @@ title: ImageList_DrawEx function
 author: windows-sdk-content
 description: Draws an image list item in the specified device context. The function uses the specified drawing style and blends the image with the specified color.
 old-location: controls\ImageList_DrawEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

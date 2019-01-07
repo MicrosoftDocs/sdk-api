@@ -4,7 +4,7 @@ title: IAudioOutputEndpointRT
 author: windows-sdk-content
 description: Gets the output buffer for each processing pass.
 old-location: termserv\iaudiooutputendpointrt.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b881b2f9-ffe9-46ff-94aa-eef0af172a3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

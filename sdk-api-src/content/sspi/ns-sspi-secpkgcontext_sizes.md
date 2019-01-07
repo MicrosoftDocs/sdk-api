@@ -4,7 +4,7 @@ title: SecPkgContext_Sizes
 author: windows-sdk-content
 description: The SecPkgContext_Sizes structure indicates the sizes of important structures used in the message support functions. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_sizes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 46b6a155-8855-4aa0-a513-aa5b3760fcd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CloseTrace function
 author: windows-sdk-content
 description: The CloseTrace function closes a trace.
 old-location: etw\closetrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

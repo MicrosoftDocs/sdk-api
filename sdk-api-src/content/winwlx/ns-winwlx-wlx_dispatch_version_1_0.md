@@ -4,7 +4,7 @@ title: WLX_DISPATCH_VERSION_1_0
 author: windows-sdk-content
 description: Defines the format of the Winlogon version 1.0 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_0.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 13b08978-5112-44d8-ae41-207e0040eb73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextSelection
 author: windows-sdk-content
 description: A text selection is a text range with selection highlighting.
 old-location: controls\ITextSelection.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextselection.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

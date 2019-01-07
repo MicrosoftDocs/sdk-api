@@ -4,7 +4,7 @@ title: ImageList_SetOverlayImage function
 author: windows-sdk-content
 description: Adds a specified image to the list of images to be used as overlay masks. An image list can have up to four overlay masks in version 4.70 and earlier and up to 15 in version 4.71. The function assigns an overlay mask index to the specified image.
 old-location: controls\ImageList_SetOverlayImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setoverlayimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

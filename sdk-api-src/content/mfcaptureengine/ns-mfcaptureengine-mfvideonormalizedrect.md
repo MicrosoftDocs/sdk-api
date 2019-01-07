@@ -1,0 +1,103 @@
+---
+UID: NS:mfcaptureengine.MFVideoNormalizedRect
+title: MFVideoNormalizedRect
+author: windows-sdk-content
+description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
+old-location: mf\mfvideonormalizedrect.htm
+tech.root: medfound
+ms.assetid: c1dd42ca-64a0-4f30-82e1-eda3f4721526
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
+ms.topic: struct
+req.header: mfcaptureengine.h
+req.include-header: Mfcaptureengine.h, Mfmediaengine.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - evr.h
+api_name:
+ - MFVideoNormalizedRect
+product: Windows
+targetos: Windows
+req.typenames: MFVideoNormalizedRect
+req.redist: 
+---
+
+# MFVideoNormalizedRect structure
+
+
+## -description
+
+
+
+Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle. When a rectangle N is <i>normalized</i> relative to some other rectangle R, it means the following:
+
+<ul>
+<li>
+The coordinate (0.0, 0.0) on N is mapped to the upper-left corner of R.
+
+</li>
+<li>
+The coordinate (1.0, 1.0) on N is mapped to the lower-right corner of R.
+
+</li>
+</ul>
+Any coordinates of N that fall outside the range [0...1] are mapped to positions outside the rectangle R. A normalized rectangle can be used to specify a region within a video rectangle without knowing the resolution or even the aspect ratio of the video. For example, the upper-left quadrant is defined as {0.0, 0.0, 0.5, 0.5}.
+
+
+
+
+## -struct-fields
+
+
+
+
+### -field left
+
+X-coordinate of the upper-left corner of the rectangle.
+
+
+### -field top
+
+Y-coordinate of the upper-left corner of the rectangle.
+
+
+### -field right
+
+X-coordinate of the lower-right corner of the rectangle.
+
+
+### -field bottom
+
+Y-coordinate of the lower-right corner of the rectangle.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+ 
+
+ 
+

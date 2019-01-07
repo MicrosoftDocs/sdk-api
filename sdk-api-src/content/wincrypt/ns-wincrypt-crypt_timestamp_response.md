@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_RESPONSE
 author: windows-sdk-content
 description: Is used internally to encapsulate an Abstract Syntax Notation One (ASN.1) Distinguished Encoding Rules (DER) encoded response.
 old-location: security\crypt_timestamp_response.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 81647cb7-e5da-4a8b-a50f-83bedd9c0aba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

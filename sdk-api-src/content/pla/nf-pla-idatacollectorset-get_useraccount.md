@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_UserAccount
 author: windows-sdk-content
 description: Retrieves the user account under which the data collector set will run.
 old-location: pla\idatacollectorset_get_useraccount.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 32fe1dcf-9682-40fd-b301-45385fa33cbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

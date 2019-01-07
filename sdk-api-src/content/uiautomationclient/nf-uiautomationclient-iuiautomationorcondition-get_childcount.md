@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationOrCondition.get_ChildCount
 title: IUIAutomationOrCondition::get_ChildCount
 author: windows-sdk-content
-description: Retrieves the number of conditions that make up this condition.
+description: Retrieves the number of conditions that make up this &#0034;or&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationOrCondition_ChildCount.htm
 tech.root: WinAuto
 ms.assetid: 2dce4d7d-73c4-4882-953e-c7bbf1c1c0e7
@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Retrieves the number of conditions that make up this condition.
+Retrieves the number of conditions that make up this "or" condition.
 
 This property is read-only.
 

@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::SetErrorInfo
 author: windows-sdk-content
 description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0ec35560-5aad-403a-9477-50e48ee7136a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

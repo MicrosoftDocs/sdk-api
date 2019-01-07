@@ -4,7 +4,7 @@ title: ITextRow::GetCellColorBack
 author: windows-sdk-content
 description: Gets the background color of the active cell.
 old-location: controls\itextrow_getcellcolorback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d199c4d7-17fd-4d1d-9d6d-b11db71f1363
 ms.author: windowssdkdev
 ms.date: 12/5/2018

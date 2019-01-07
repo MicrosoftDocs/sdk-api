@@ -4,7 +4,7 @@ title: ImageList_ReplaceIcon function
 author: windows-sdk-content
 description: Replaces an image with an icon or cursor.
 old-location: controls\ImageList_ReplaceIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replaceicon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

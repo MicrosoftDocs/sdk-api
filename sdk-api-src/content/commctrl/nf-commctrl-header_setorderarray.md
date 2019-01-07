@@ -4,7 +4,7 @@ title: Header_SetOrderArray macro
 author: windows-sdk-content
 description: Sets the left-to-right order of header items. You can use this macro or send the HDM_SETORDERARRAY message explicitly.
 old-location: controls\Header_SetOrderArray.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setorderarray.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

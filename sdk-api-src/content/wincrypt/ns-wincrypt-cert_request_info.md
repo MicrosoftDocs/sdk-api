@@ -4,7 +4,7 @@ title: CERT_REQUEST_INFO
 author: windows-sdk-content
 description: The CERT_REQUEST_INFO structure contains information for a certificate request. The subject, subject public key, and attribute BLOBs are encoded.
 old-location: security\cert_request_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6edeed33-16e1-4295-90e9-769929ab916a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

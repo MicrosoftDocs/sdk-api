@@ -4,7 +4,7 @@ title: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
 old-location: bluetooth\bluetooth_authentication_requirements.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
 ms.author: windowssdkdev
 ms.date: 12/5/2018

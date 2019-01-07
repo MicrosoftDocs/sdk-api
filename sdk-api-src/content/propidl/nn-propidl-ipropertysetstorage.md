@@ -4,7 +4,7 @@ title: IPropertySetStorage
 author: windows-sdk-content
 description: The IPropertySetStorage interface creates, opens, deletes, and enumerates property set storages that support instances of the IPropertyStorage interface.
 old-location: stg\ipropertysetstorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
 ms.author: windowssdkdev
 ms.date: 12/5/2018

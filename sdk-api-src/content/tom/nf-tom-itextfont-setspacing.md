@@ -4,7 +4,7 @@ title: ITextFont::SetSpacing
 author: windows-sdk-content
 description: Sets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_SetSpacing.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

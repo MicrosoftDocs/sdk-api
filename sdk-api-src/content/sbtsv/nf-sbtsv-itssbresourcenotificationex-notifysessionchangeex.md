@@ -4,7 +4,7 @@ title: ITsSbResourceNotificationEx::NotifySessionChangeEx
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_RECORD_TYPE
 author: windows-sdk-content
 description: Defines the type of a Local Security Authority forest trust record.
 old-location: security\lsa_forest_trust_record_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8a4a7080-fab0-4ab2-a0b4-e929cce21f0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

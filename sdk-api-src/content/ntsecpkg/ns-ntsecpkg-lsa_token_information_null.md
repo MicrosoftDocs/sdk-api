@@ -4,7 +4,7 @@ title: LSA_TOKEN_INFORMATION_NULL
 author: windows-sdk-content
 description: Used in cases where a non-authenticated system access is needed.
 old-location: security\lsa_token_information_null.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fbcd0f78-1ad5-4bea-a95f-d19fb3894537
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertServerExit::EnumerateExtensionsClose
 author: windows-sdk-content
 description: Frees any resources connected with extension enumeration.
 old-location: security\icertserverexit_enumerateextensionsclose.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 769235cd-d5ef-458b-a04b-88f9f831ce3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

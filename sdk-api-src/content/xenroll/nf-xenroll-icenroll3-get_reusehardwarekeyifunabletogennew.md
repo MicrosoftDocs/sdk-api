@@ -4,7 +4,7 @@ title: ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\icenroll4_reusehardwarekeyifunabletogennew.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5a9d5f78-bf88-4e24-9685-7c504f9f2e38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

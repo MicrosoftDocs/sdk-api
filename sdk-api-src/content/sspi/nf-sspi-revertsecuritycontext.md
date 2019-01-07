@@ -4,7 +4,7 @@ title: RevertSecurityContext function
 author: windows-sdk-content
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 old-location: security\revertsecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

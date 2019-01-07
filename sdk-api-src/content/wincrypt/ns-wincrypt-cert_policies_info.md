@@ -4,7 +4,7 @@ title: CERT_POLICIES_INFO
 author: windows-sdk-content
 description: The CERT_POLICIES_INFO structure contains an array of CERT_POLICY_INFO.
 old-location: security\cert_policies_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cf5fafd9-6129-4f25-8d61-189b46585e57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

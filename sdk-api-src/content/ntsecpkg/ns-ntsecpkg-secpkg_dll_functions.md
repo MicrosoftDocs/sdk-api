@@ -4,7 +4,7 @@ title: SECPKG_DLL_FUNCTIONS
 author: windows-sdk-content
 description: The SECPKG_DLL_FUNCTIONS structure contains pointers to the LSA functions that a security package can call while executing in-process with a client/server application.
 old-location: security\secpkg_dll_functions.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a7881f06-792c-4791-9aa6-9a7eb202020b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

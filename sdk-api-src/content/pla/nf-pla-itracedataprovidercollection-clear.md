@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::Clear
 author: windows-sdk-content
 description: Removes all trace providers from the collection.
 old-location: pla\itracedataprovidercollection_clear.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: aee595c2-bffc-4c79-89b3-b83f75e58d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

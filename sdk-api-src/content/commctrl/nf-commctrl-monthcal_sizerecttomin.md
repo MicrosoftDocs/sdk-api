@@ -4,7 +4,7 @@ title: MonthCal_SizeRectToMin macro
 author: windows-sdk-content
 description: Calculates how many calendars will fit in the given rectangle, and then returns the minimum size that a rectangle needs to be to fit that number of calendars. You can use this macro or send the MCM_SIZERECTTOMIN message explicitly.
 old-location: controls\MonthCal_SizeRectToMin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_sizerecttomin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

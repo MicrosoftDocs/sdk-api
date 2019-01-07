@@ -4,7 +4,7 @@ title: IImageList2::SetOriginalSize
 author: windows-sdk-content
 description: Sets the original size of a specified image.
 old-location: controls\IImageList2_SetOriginalSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setoriginalsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

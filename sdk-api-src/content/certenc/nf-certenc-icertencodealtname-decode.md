@@ -4,7 +4,7 @@ title: ICertEncodeAltName::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the CertEncodeAltName object.
 old-location: security\icertencodealtname_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0507d3a5-b8c3-4f2e-996f-e1e32957f475
 ms.author: windowssdkdev
 ms.date: 12/5/2018

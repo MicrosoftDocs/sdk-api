@@ -4,7 +4,7 @@ title: ITextRange::GetPara
 author: windows-sdk-content
 description: Gets an ITextPara object with the paragraph attributes of the specified range.
 old-location: controls\ITextRange_GetPara.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpara.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

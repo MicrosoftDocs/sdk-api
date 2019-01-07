@@ -4,7 +4,7 @@ title: IDataCollector::SetXml
 author: windows-sdk-content
 description: Sets the property values of those properties included in the XML.
 old-location: pla\idatacollector_setxml.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 12ed8697-caec-45d5-9ecf-658b3e4ca8ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

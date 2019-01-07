@@ -4,7 +4,7 @@ title: ITextFont2
 author: windows-sdk-content
 description: In the Text Object Model (TOM), applications access text-range attributes by using a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\itextfont2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d2d43bfd-7cdf-458a-822d-e3965bfe2284
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TVHITTESTINFO
 author: windows-sdk-content
 description: Contains information used to determine the location of a point relative to a tree-view control.
 old-location: controls\TVHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

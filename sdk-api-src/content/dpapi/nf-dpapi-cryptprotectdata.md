@@ -4,7 +4,7 @@ title: CryptProtectData function
 author: windows-sdk-content
 description: Performs encryption on the data in a DATA_BLOB structure.
 old-location: security\cryptprotectdata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextStory::SetText
 author: windows-sdk-content
 description: Replaces the text in a story with the specified text.
 old-location: controls\itextstory_settext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9efd45ed-00f7-47e1-90e7-82a420e79bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

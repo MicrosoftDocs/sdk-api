@@ -4,7 +4,7 @@ title: SCardDisconnect function
 author: windows-sdk-content
 description: Terminates a connection previously opened between the calling application and a smart card in the target reader.
 old-location: security\scarddisconnect.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d087a006-bd2d-4ad7-965b-36ea8d712ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

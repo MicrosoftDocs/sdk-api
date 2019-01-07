@@ -4,7 +4,7 @@ title: PropSheet_AddPage macro
 author: windows-sdk-content
 description: Adds a new page to the end of an existing property sheet. You can use this macro or send the PSM_ADDPAGE message explicitly.
 old-location: controls\PropSheet_AddPage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

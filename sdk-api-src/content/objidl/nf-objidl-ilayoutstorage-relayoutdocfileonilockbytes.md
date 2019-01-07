@@ -4,7 +4,7 @@ title: ILayoutStorage::ReLayoutDocfileOnILockBytes
 author: windows-sdk-content
 description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.
 old-location: stg\ilayoutstorage_relayoutdocfileonilockbytes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 4d62ea35-d9cb-4ec6-ad71-7b32096953f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

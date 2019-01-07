@@ -4,7 +4,7 @@ title: ICertAdmin::DenyRequest
 author: windows-sdk-content
 description: Denies a specified certificate request that is pending.
 old-location: security\icertadmin2_denyrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
 ms.author: windowssdkdev
 ms.date: 12/5/2018

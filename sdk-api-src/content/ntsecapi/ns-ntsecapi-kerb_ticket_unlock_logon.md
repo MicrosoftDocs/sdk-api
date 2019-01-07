@@ -4,7 +4,7 @@ title: KERB_TICKET_UNLOCK_LOGON
 author: windows-sdk-content
 description: Contains information to unlock a workstation.
 old-location: security\kerb_ticket_unlock_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 24daa3d1-1116-4b0b-a19b-a23075a69197
 ms.author: windowssdkdev
 ms.date: 12/5/2018

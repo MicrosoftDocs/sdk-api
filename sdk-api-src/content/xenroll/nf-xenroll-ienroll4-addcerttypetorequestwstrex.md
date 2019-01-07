@@ -4,7 +4,7 @@ title: IEnroll4::AddCertTypeToRequestWStrEx
 author: windows-sdk-content
 description: Adds a certificate template (also known as certificate type) to a request.
 old-location: security\ienroll4_addcerttypetorequestwstrex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aa3bab0d-2ed4-4ef2-9665-a6c70e14308d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NPOpenEnum function
 author: windows-sdk-content
 description: Opens an enumeration of network resources or existing connections. The NPOpenEnum function must be called to obtain a valid handle for an enumeration.
 old-location: security\npopenenum.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d8fa7336-3ede-4445-b2e8-1a3efcae22ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

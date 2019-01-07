@@ -4,7 +4,7 @@ title: TraceSetInformation function
 author: windows-sdk-content
 description: Enables or disables event tracing session settings for the specified information class.
 old-location: etw\tracesetinformation.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: f4cdbe32-6885-4844-add5-560961c3dd1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

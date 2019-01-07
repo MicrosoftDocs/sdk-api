@@ -4,7 +4,7 @@ title: RegSetValueA function
 author: windows-sdk-content
 description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
 old-location: base\regsetvalue.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

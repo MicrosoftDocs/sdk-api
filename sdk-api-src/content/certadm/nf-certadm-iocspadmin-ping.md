@@ -4,7 +4,7 @@ title: IOCSPAdmin::Ping
 author: windows-sdk-content
 description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ping.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2::GetGravity
 author: windows-sdk-content
 description: Gets the gravity of this range.
 old-location: controls\itextrange2_getgravity.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a57ab2c2-1871-413a-bccd-47f5c1dd4570
 ms.author: windowssdkdev
 ms.date: 12/5/2018

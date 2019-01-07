@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_Status
 author: windows-sdk-content
 description: Retrieves an RDV_TASK_STATUS enumeration value that represents the state of the task.
 old-location: termserv\itssbtaskinfo_status.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 779af127-133c-47ff-8fca-bfd2c96c9768
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WinVerifyTrust function
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object.
 old-location: security\winverifytrust.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b7efac6a-ac9f-477a-aada-63fe32208e6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

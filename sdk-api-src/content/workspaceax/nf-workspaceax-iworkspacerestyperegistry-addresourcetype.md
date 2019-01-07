@@ -4,7 +4,7 @@ title: IWorkspaceResTypeRegistry::AddResourceType
 author: windows-sdk-content
 description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0f4b82a6-1eca-4890-aa0c-1e4c5821cd33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

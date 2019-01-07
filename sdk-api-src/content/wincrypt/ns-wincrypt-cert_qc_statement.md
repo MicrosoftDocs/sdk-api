@@ -4,7 +4,7 @@ title: CERT_QC_STATEMENT
 author: windows-sdk-content
 description: Represents a single statement in a sequence of one or more statements for inclusion in a Qualified Certificate (QC) statements extension.
 old-location: security\cert_qc_statement.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e163da81-d854-4f56-8eef-2788f1b566ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

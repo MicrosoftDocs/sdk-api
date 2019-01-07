@@ -4,7 +4,7 @@ title: ITextRow::SetCellCountCache
 author: windows-sdk-content
 description: Sets the count of cells cached for a row.
 old-location: controls\itextrow_setcellcountcache.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 54b9a0a0-1822-4cd6-afef-8ed9403e750a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

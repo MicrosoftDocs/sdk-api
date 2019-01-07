@@ -4,7 +4,7 @@ title: ITsSbSession::get_ClientDisplay
 author: windows-sdk-content
 description: Retrieves or specifies information about the display device of the client computer.
 old-location: termserv\itssbsession_clientdisplay.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: cde688e4-b477-4e55-aa99-14d3f03de204
 ms.author: windowssdkdev
 ms.date: 12/5/2018

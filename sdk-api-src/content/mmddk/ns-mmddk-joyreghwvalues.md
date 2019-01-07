@@ -11,7 +11,7 @@ ms.date: 12/5/2018
 ms.keywords: "*LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES, FAR *LPJOYREGHWVALUES structure [Human Input Devices], JOYREGHWVALUES, JOYREGHWVALUES structure [Human Input Devices], di_ref_bd51a1ee-82e2-417f-81a1-9732931706a3.xml, hid.joyreghwvalues, mmddk/FAR *LPJOYREGHWVALUES, mmddk/JOYREGHWVALUES"
 ms.topic: struct
 req.header: mmddk.h
-req.include-header: 
+req.include-header: Dinputd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

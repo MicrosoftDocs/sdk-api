@@ -4,7 +4,7 @@ title: EVENT_EXTENDED_ITEM_TS_ID
 author: windows-sdk-content
 description: Defines the terminal session that logged the event.
 old-location: etw\event_extended_item_ts_id.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

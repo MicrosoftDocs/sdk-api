@@ -4,7 +4,7 @@ title: ITextHost::TxEnableScrollBar
 author: windows-sdk-content
 description: Enables or disables one or both scroll bar arrows in the text host window.
 old-location: controls\ITextHost_TxEnableScrollBar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txenablescrollbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

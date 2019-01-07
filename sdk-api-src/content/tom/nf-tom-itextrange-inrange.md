@@ -4,7 +4,7 @@ title: ITextRange::InRange
 author: windows-sdk-content
 description: Determines whether this range is within or at the same text as a specified range.
 old-location: controls\ITextRange_InRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

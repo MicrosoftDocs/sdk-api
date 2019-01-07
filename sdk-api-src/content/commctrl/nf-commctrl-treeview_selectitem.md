@@ -4,7 +4,7 @@ title: TreeView_SelectItem macro
 author: windows-sdk-content
 description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

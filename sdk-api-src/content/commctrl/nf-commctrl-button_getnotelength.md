@@ -4,7 +4,7 @@ title: Button_GetNoteLength macro
 author: windows-sdk-content
 description: Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the BCM_GETNOTELENGTH message explicitly.
 old-location: controls\Button_GetNoteLength.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

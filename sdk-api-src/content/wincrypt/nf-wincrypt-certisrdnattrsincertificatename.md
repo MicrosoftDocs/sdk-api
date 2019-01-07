@@ -4,7 +4,7 @@ title: CertIsRDNAttrsInCertificateName function
 author: windows-sdk-content
 description: The CertIsRDNAttrsInCertificateName function compares the attributes in the certificate name with the specified CERT_RDN to determine whether all attributes are included there.
 old-location: security\certisrdnattrsincertificatename.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

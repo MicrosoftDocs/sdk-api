@@ -4,7 +4,7 @@ title: INDEXTOSTATEIMAGEMASK macro
 author: windows-sdk-content
 description: Prepares the index of a state image so that a tree-view control or list-view control can use the index to retrieve the state image for an item.
 old-location: controls\INDEXTOSTATEIMAGEMASK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\indextostateimagemask.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

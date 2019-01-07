@@ -4,7 +4,7 @@ title: ICEnroll::enumProviders
 author: windows-sdk-content
 description: Retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumproviders.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 05188aee-2b03-46bc-89f4-506a019496a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

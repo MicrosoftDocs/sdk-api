@@ -72,7 +72,7 @@ The <b>IUIAutomationAndCondition</b> interface has these methods.
 <a href="https://msdn.microsoft.com/6868fae6-74fb-4133-8dc5-73ce5f8a6f7b">GetChildren</a>
 </td>
 <td align="left" width="63%">
-Retrieves the conditions that make up this condition.
+Retrieves the conditions that make up this "and" condition.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Retrieves the conditions that make up this condition.
 <a href="https://msdn.microsoft.com/2543dd60-88cb-4477-9008-4ec8f9d8f287">GetChildrenAsNativeArray</a>
 </td>
 <td align="left" width="63%">
-Retrieves the conditions that make up this condition, as an ordinary array.
+Retrieves the conditions that make up this "and" condition, as an ordinary array.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of conditions that make up this condition.
+Retrieves the number of conditions that make up this "and" condition.
 
 </td>
 </tr>

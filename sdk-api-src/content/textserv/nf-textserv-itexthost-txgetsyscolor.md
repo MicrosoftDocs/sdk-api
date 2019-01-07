@@ -4,7 +4,7 @@ title: ITextHost::TxGetSysColor
 author: windows-sdk-content
 description: Retrieves the text host's color for a specified display element.
 old-location: controls\ITextHost_TxGetSysColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetsyscolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

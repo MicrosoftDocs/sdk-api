@@ -4,7 +4,7 @@ title: ITextRange2::Linearize
 author: windows-sdk-content
 description: Translates the built-up math, ruby, and other inline objects in this range to linearized form.
 old-location: controls\itextrange2_linearize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9906547b-e31c-48a6-961e-0b7f5c0c0506
 ms.author: windowssdkdev
 ms.date: 12/5/2018

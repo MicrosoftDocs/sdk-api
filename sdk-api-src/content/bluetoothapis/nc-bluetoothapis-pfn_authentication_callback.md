@@ -4,7 +4,7 @@ title: PFN_AUTHENTICATION_CALLBACK
 author: windows-sdk-content
 description: Used in conjunction with the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\pfn_authentication_callback.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RegDeleteKeyW function
 author: windows-sdk-content
 description: Deletes a subkey and its values.
 old-location: base\regdeletekey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a2310ca0-1b9f-48d1-a3b5-ea3a528bfaba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

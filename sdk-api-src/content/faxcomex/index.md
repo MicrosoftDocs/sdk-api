@@ -2,7 +2,7 @@
 UID: NA:faxcomex
 ms.assetid: c63a3cf0-5ec8-3714-9692-7b8d0679fb35
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

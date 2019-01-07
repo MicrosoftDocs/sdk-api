@@ -4,7 +4,7 @@ title: CryptCATAdminResolveCatalogPath function
 author: windows-sdk-content
 description: Retrieves the fully qualified path of the specified catalog.
 old-location: security\cryptcatadminresolvecatalogpath.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

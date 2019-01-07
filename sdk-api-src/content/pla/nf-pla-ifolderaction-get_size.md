@@ -4,7 +4,7 @@ title: IFolderAction::get_Size
 author: windows-sdk-content
 description: Retrieves or sets the minimum folder size that, when exceeded, initiates the actions.
 old-location: pla\ifolderaction_size.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 6df7b5fb-0f36-4e7e-95fb-f0157fc57cbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

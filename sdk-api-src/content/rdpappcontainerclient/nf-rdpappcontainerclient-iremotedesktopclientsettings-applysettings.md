@@ -4,7 +4,7 @@ title: IRemoteDesktopClientSettings::ApplySettings
 author: windows-sdk-content
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
 ms.author: windowssdkdev
 ms.date: 12/5/2018

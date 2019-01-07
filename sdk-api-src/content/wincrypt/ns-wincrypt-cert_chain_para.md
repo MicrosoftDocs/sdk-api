@@ -4,7 +4,7 @@ title: CERT_CHAIN_PARA
 author: windows-sdk-content
 description: The CERT_CHAIN_PARA structure establishes the searching and matching criteria to be used in building a certificate chain.
 old-location: security\cert_chain_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 86094e1c-be59-4a15-a05b-21769f80e653
 ms.author: windowssdkdev
 ms.date: 12/5/2018

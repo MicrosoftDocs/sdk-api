@@ -4,7 +4,7 @@ title: ITextRange2::SetText2
 author: windows-sdk-content
 description: Sets the text of this range.
 old-location: controls\itextrange2_settext2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: dd7a8a16-6cb5-40ee-8f5f-e51e68785d93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

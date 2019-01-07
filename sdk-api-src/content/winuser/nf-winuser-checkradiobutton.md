@@ -4,7 +4,7 @@ title: CheckRadioButton function
 author: windows-sdk-content
 description: Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group.
 old-location: controls\CheckRadioButton.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkradiobutton.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

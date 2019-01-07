@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::GetValue
 author: windows-sdk-content
 description: Returns the specified Long value from the Long array.
 old-location: security\icertencodelongarray_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0a7c1d6b-8fe7-4cc0-8cbd-2831dd3a178b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

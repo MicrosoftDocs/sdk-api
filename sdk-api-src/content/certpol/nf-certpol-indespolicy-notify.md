@@ -4,7 +4,7 @@ title: INDESPolicy::Notify
 author: windows-sdk-content
 description: Notifies the plug-in of the transaction status of the SCEP certificate request.
 old-location: security\indespolicy_notify.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

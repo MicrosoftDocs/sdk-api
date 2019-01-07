@@ -4,7 +4,7 @@ title: GetThemeMargins function
 author: windows-sdk-content
 description: Retrieves the value of a MARGINS property.
 old-location: controls\GetThemeMargins.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

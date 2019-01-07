@@ -4,7 +4,7 @@ title: PROVIDER_FILTER_INFO
 author: windows-sdk-content
 description: Defines a filter and its data.
 old-location: etw\provider_filter_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 0541b24a-8531-4828-8c3b-d889e58b0b38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IRichEditOleCallback::GetContextMenu
 author: windows-sdk-content
 description: Queries the application for a context menu to use on a right-click event.
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

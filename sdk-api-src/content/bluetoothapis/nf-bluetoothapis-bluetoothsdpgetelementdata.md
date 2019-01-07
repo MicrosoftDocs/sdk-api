@@ -4,7 +4,7 @@ title: BluetoothSdpGetElementData function
 author: windows-sdk-content
 description: Retrieves and parses a single element from an SDP stream.
 old-location: bluetooth\bluetoothsdpgetelementdata.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 65de8f2f-1781-44fa-87a9-21aa461eb8ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

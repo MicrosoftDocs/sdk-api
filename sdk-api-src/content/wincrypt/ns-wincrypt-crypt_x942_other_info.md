@@ -4,7 +4,7 @@ title: CRYPT_X942_OTHER_INFO
 author: windows-sdk-content
 description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
 old-location: security\crypt_x942_other_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

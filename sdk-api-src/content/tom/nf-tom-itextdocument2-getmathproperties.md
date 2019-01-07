@@ -4,7 +4,7 @@ title: ITextDocument2::GetMathProperties
 author: windows-sdk-content
 description: Gets the math properties for the document.
 old-location: controls\itextdocument2_getmathproperties.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7686d0d6-5f49-4ab6-8a9e-1e53447ffe27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

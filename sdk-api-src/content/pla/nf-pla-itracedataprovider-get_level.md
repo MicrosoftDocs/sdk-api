@@ -4,7 +4,7 @@ title: ITraceDataProvider::get_Level
 author: windows-sdk-content
 description: Retrieves the level of information used to enable the provider.
 old-location: pla\itracedataprovider_level.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5e9390c4-12d4-4087-b4c8-5f58c2522a93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SecPkgCredentials_Cert
 author: windows-sdk-content
 description: Specifies the certificate credentials. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_cert.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9EEE6E98-D45C-4929-9C9C-F344972D186F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

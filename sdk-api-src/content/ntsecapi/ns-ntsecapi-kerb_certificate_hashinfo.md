@@ -4,7 +4,7 @@ title: KERB_CERTIFICATE_HASHINFO
 author: windows-sdk-content
 description: Provides the payload information of the certificate hash.
 old-location: security\kerb_certificate_hashinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 09D78E91-5873-481D-A5FC-B7F39F8F9BB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

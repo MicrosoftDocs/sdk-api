@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an enumerator for a property set.
 old-location: security\iocsppropertycollection__newenum_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 09ed83ce-ebab-4d03-a508-304f54206921
 ms.author: windowssdkdev
 ms.date: 12/5/2018

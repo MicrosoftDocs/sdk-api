@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::LogonNotify
 author: windows-sdk-content
 description: Called when the user has logged on to the session.
 old-location: termserv\iwrdsprotocolconnection_logonnotify.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

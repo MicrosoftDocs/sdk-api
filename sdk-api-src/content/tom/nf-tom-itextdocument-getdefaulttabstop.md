@@ -4,7 +4,7 @@ title: ITextDocument::GetDefaultTabStop
 author: windows-sdk-content
 description: Gets the default tab width.
 old-location: controls\ITextDocument_GetDefaultTabStop.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getdefaulttabstop.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageList_Duplicate function
 author: windows-sdk-content
 description: Creates a duplicate of an existing image list.
 old-location: controls\ImageList_Duplicate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_duplicate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

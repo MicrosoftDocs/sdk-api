@@ -4,7 +4,7 @@ title: ITextFont2::GetUnderlinePositionMode
 author: windows-sdk-content
 description: Gets the underline position mode.
 old-location: controls\itextfont2_getunderlinepositionmode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

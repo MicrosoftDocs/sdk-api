@@ -4,7 +4,7 @@ title: SECPKG_WOW_CLIENT_DLL
 author: windows-sdk-content
 description: Contains the path to the WOW-aware 32-bit DLL.
 old-location: security\secpkg_wow_client_dll.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: AA48B271-E63F-4742-9776-6C85ED3A2BAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

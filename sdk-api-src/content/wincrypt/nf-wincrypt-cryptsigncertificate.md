@@ -4,7 +4,7 @@ title: CryptSignCertificate function
 author: windows-sdk-content
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

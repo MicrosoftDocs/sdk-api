@@ -4,7 +4,7 @@ title: OLD_LARGE_INTEGER
 author: windows-sdk-content
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
 ms.author: windowssdkdev
 ms.date: 12/5/2018

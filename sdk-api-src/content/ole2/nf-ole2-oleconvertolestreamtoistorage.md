@@ -4,7 +4,7 @@ title: OleConvertOLESTREAMToIStorage function
 author: windows-sdk-content
 description: Converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object without specifying presentation data.
 old-location: stg\oleconvertolestreamtoistorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8fed879c-5f97-4450-8259-da9643dd828c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

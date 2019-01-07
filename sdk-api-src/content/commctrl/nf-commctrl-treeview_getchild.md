@@ -4,7 +4,7 @@ title: TreeView_GetChild macro
 author: windows-sdk-content
 description: Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CHILD flag.
 old-location: controls\TreeView_GetChild.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getchild.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

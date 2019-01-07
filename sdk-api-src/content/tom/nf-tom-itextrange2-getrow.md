@@ -4,7 +4,7 @@ title: ITextRange2::GetRow
 author: windows-sdk-content
 description: Gets the row properties in the currently selected row.
 old-location: controls\itextrange2_getrow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3f15605a-8f81-4fc4-ad12-5300ecd03c16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

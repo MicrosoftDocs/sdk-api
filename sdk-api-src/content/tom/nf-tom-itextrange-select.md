@@ -4,7 +4,7 @@ title: ITextRange::Select
 author: windows-sdk-content
 description: Sets the start and end positions, and story values of the active selection, to those of this range.
 old-location: controls\ITextRange_Select.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\select.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

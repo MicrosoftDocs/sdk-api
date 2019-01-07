@@ -4,7 +4,7 @@ title: IDataCollectorSetCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more data collector sets to the collection.
 old-location: pla\idatacollectorsetcollection_addrange.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 52a7d9ba-9bff-428e-a43c-cc354157fd24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

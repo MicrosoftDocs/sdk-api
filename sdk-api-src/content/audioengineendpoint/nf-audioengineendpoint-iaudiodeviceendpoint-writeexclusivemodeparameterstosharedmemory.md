@@ -4,7 +4,7 @@ title: IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory
 author: windows-sdk-content
 description: Creates and writes the exclusive-mode parameters to shared memory.
 old-location: termserv\iaudiodeviceendpoint_writeexclusivemodeparameterstosharedmemory.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0484432a-4bbe-4892-8888-f11d6384d387
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DTBGOPTS
 author: windows-sdk-content
 description: Defines the options for the DrawThemeBackgroundEx function.
 old-location: controls\DTBGOPTS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

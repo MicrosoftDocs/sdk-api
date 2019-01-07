@@ -4,7 +4,7 @@ title: CryptDecodeObject function
 author: windows-sdk-content
 description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptdecodeobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7d5ed4f4-9d76-4a16-9059-27b0edd83459
 ms.author: windowssdkdev
 ms.date: 12/5/2018

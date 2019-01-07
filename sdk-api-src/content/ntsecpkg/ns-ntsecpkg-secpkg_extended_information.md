@@ -4,7 +4,7 @@ title: SECPKG_EXTENDED_INFORMATION
 author: windows-sdk-content
 description: The SECPKG_EXTENDED_INFORMATION structure is used to hold information about optional package capabilities.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3d80dfc0-c35b-4d14-8196-02944c3db8d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

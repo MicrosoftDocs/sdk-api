@@ -4,7 +4,7 @@ title: CryptSIPGetCaps function
 author: windows-sdk-content
 description: Retrieves the capabilities of a subject interface package (SIP).
 old-location: security\cryptsipgetcaps.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
 ms.author: windowssdkdev
 ms.date: 12/5/2018

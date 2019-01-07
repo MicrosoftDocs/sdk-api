@@ -4,7 +4,7 @@ title: ITextStrings::PrefixTop
 author: windows-sdk-content
 description: Prefixes a string to the top string in the collection.
 old-location: controls\itextstrings_prefixtop.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fbdae612-1d6e-4f10-9b55-5ee038f27b79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IRichEditUiaInformation::GetBoundaryRectangle
 author: windows-sdk-content
 description: Retrieves the bounding rectangle of a windowless rich edit control.
 old-location: controls\irichedituiainformation_getboundaryrectangle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: DCDE0730-25C4-4856-AC20-36C36E20AFB1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

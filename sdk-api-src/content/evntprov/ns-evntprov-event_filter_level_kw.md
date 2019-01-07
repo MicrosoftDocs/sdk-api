@@ -4,7 +4,7 @@ title: EVENT_FILTER_LEVEL_KW
 author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for a stack walk level-keyword filter.
 old-location: etw\event_filter_level_kw.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2FE25C55-8028-4894-9DD8-FC997B7D9ADB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

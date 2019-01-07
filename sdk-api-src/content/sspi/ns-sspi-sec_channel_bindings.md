@@ -4,7 +4,7 @@ title: SEC_CHANNEL_BINDINGS
 author: windows-sdk-content
 description: Specifies channel binding information for a security context.
 old-location: security\sec_channel_bindings.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1cdbe53f-3fa0-46b1-9449-8fd3db6cddce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

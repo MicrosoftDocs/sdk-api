@@ -4,7 +4,7 @@ title: TreeView_SelectSetFirstVisible macro
 author: windows-sdk-content
 description: Scrolls the tree-view control vertically to ensure that the specified item is visible.
 old-location: controls\TreeView_SelectSetFirstVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectsetfirstvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

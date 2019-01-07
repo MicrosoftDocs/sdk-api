@@ -4,7 +4,7 @@ title: ICertAdmin2::GetMyRoles
 author: windows-sdk-content
 description: Retrieves the certification authority (CA) roles of the caller.
 old-location: security\icertadmin2_getmyroles.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1378f1ad-1e01-4f09-869c-f450b9b2f454
 ms.author: windowssdkdev
 ms.date: 12/5/2018

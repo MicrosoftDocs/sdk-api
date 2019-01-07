@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::ConnectNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

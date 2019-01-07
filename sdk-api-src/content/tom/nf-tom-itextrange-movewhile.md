@@ -4,7 +4,7 @@ title: ITextRange::MoveWhile
 author: windows-sdk-content
 description: Starts at a specified end of a range and searches while the characters belong to the set specified by Cset and while the number of characters is less than or equal to Count.
 old-location: controls\ITextRange_MoveWhile.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movewhile.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

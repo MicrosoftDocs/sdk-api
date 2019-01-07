@@ -4,7 +4,7 @@ title: ICertRequest::GetDispositionMessage
 author: windows-sdk-content
 description: Gets a human-readable message that gives the current disposition of the certificate request.
 old-location: security\icertrequest2_getdispositionmessage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c3639cf6-c70f-4f15-a0ed-e60abe2955cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

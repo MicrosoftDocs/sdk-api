@@ -4,7 +4,7 @@ title: ITextHost::TxReleaseDC
 author: windows-sdk-content
 description: Releases the device context obtained by the ITextHost::TxGetDC method.
 old-location: controls\ITextHost_TxReleaseDC.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxreleasedc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

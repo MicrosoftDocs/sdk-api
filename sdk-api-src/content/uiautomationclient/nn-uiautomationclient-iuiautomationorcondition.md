@@ -72,7 +72,7 @@ The <b>IUIAutomationOrCondition</b> interface has these methods.
 <a href="https://msdn.microsoft.com/b1af107d-2916-4061-9515-002c3af6eb00">GetChildren</a>
 </td>
 <td align="left" width="63%">
-Retrieves the conditions that make up this condition.
+Retrieves the conditions that make up this "or" condition.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ Retrieves the conditions that make up this condition.
 <a href="https://msdn.microsoft.com/d8c45ccb-5e3c-4816-8ffe-6865a7794e8b">GetChildrenAsNativeArray</a>
 </td>
 <td align="left" width="63%">
-Retrieves the conditions that make up this condition, as an ordinary array.
+Retrieves the conditions that make up this "or" condition, as an ordinary array.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of conditions that make up this condition.
+Retrieves the number of conditions that make up this "or" condition.
 
 </td>
 </tr>

@@ -4,7 +4,7 @@ title: ITextStoryRanges
 author: windows-sdk-content
 description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
 old-location: controls\ITextStoryRanges.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

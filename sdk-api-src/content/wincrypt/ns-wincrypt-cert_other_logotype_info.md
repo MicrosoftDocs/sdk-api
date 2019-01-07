@@ -4,7 +4,7 @@ title: CERT_OTHER_LOGOTYPE_INFO
 author: windows-sdk-content
 description: Contains information about logo types that are not predefined.
 old-location: security\cert_other_logotype_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 104cc412-a268-4b5f-bb9d-9df27f4df6b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

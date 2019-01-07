@@ -4,7 +4,7 @@ title: CertAddEncodedCRLToStore function
 author: windows-sdk-content
 description: Creates a certificate revocation list (CRL) context from an encoded CRL and adds it to the certificate store.
 old-location: security\certaddencodedcrltostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ec2361e6-a1e6-413a-828e-d543a09c88f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

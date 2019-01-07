@@ -4,7 +4,7 @@ title: KERB_TICKET_CACHE_INFO
 author: windows-sdk-content
 description: Contains information about a cached Kerberos ticket. The Kerberos ticket is defined in Internet RFC 4120. For more information, see http://www.ietf.org.
 old-location: security\kerb_ticket_cache_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.author: windowssdkdev
 ms.date: 12/5/2018

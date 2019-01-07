@@ -4,7 +4,7 @@ title: DPA_GetPtrCount macro
 author: windows-sdk-content
 description: Gets the number of pointers in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_getptrcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

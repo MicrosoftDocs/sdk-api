@@ -4,7 +4,7 @@ title: SYSTEMTIME
 author: windows-sdk-content
 description: Specifies a date and time, using individual members for the month, day, year, weekday, hour, minute, second, and millisecond. The time is either in coordinated universal time (UTC) or local time, depending on the function that is being called.
 old-location: base\systemtime_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f77cdf86-0f97-4a89-b565-95b46fa7d65b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

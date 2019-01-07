@@ -4,7 +4,7 @@ title: ICertServerPolicy::EnumerateAttributes
 author: windows-sdk-content
 description: Retrieves the name of the current attribute and moves the internal enumeration pointer to the next attribute.
 old-location: security\icertserverpolicy_enumerateattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5db05ed9-ab17-462b-9a76-34458489771a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

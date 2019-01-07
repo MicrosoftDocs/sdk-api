@@ -4,7 +4,7 @@ title: ICEnroll::put_ProviderFlags
 author: windows-sdk-content
 description: Sets or retrieves the provider type.
 old-location: security\icenroll4_providerflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ddf92921-368f-4769-b2c1-b9d6a94b0fcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

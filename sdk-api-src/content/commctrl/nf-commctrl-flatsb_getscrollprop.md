@@ -4,7 +4,7 @@ title: FlatSB_GetScrollProp function
 author: windows-sdk-content
 description: Gets the properties for a flat scroll bar. This function can also be used to determine if InitializeFlatSB has been called for this window.
 old-location: controls\FlatSB_GetScrollProp.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollprop.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

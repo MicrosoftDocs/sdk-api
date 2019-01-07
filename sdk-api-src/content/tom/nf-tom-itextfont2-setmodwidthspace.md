@@ -4,7 +4,7 @@ title: ITextFont2::SetModWidthSpace
 author: windows-sdk-content
 description: Sets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_setmodwidthspace.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: df3ea127-1f47-4173-ad2c-0a7af4c8454c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

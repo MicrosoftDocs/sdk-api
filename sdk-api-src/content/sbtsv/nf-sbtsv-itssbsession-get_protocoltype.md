@@ -4,7 +4,7 @@ title: ITsSbSession::get_ProtocolType
 author: windows-sdk-content
 description: Retrieves or specifies the protocol type for the session.
 old-location: termserv\itssbsession_protocoltype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ee4016c7-1cd4-456c-abec-e43d57866bc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

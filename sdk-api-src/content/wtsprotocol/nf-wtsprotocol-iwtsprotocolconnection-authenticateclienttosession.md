@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::AuthenticateClientToSession
 author: windows-sdk-content
 description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 541bf463-9a4a-4237-8a61-1288ab1540cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

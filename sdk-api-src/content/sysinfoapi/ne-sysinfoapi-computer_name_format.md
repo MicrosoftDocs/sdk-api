@@ -4,7 +4,7 @@ title: COMPUTER_NAME_FORMAT
 author: windows-sdk-content
 description: Specifies a type of computer name.
 old-location: base\computer_name_format_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 249830be-acd7-4417-ac33-c0fb2d87c4af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRow::SetIndent
 author: windows-sdk-content
 description: Sets the indent of a row.
 old-location: controls\itextrow_setindent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9846fbd5-c210-49c4-8abe-dfb9cb85f7ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

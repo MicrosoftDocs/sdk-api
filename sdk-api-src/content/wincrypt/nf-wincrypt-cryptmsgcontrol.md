@@ -4,7 +4,7 @@ title: CryptMsgControl function
 author: windows-sdk-content
 description: Performs a control operation after a message has been decoded by a final call to the CryptMsgUpdate function.
 old-location: security\cryptmsgcontrol.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a990d44d-2993-429f-b817-2a834105ecef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

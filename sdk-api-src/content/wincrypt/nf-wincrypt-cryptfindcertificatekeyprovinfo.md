@@ -4,7 +4,7 @@ title: CryptFindCertificateKeyProvInfo function
 author: windows-sdk-content
 description: Enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's public key.
 old-location: security\cryptfindcertificatekeyprovinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9e63517d-a56e-45a9-972c-de9a297e9e25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

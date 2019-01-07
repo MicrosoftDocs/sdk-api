@@ -4,7 +4,7 @@ title: ITsSbLoadBalanceResult::get_TargetName
 author: windows-sdk-content
 description: Retrieves the target name returned by a load-balancing algorithm.
 old-location: termserv\itssbloadbalanceresult_targetname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a3503aef-e177-4ebb-ac9a-8e24ab8610b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_STORE_PROV_INFO
 author: windows-sdk-content
 description: Contains information returned by the installed CertDllOpenStoreProv function when a store is opened by using the CertOpenStore function.
 old-location: security\cert_store_prov_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dc6789a7-09a5-467a-b2e4-16acfa25b5f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
 author: windows-sdk-content
 description: The CertEnumSystemStoreLocationCallback callback function formats and presents information on each system store location found by a call to CertEnumSystemStoreLocation.
 old-location: security\certenumsystemstorelocationcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a5f1badd-3e68-4e0f-9a42-1b1876c9cb56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

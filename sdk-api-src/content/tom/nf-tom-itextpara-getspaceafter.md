@@ -4,7 +4,7 @@ title: ITextPara::GetSpaceAfter
 author: windows-sdk-content
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

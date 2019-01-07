@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::GetServerState
 author: windows-sdk-content
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

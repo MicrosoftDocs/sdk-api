@@ -4,7 +4,7 @@ title: ICertExit::Initialize
 author: windows-sdk-content
 description: Called by the server engine when it initializes itself.
 old-location: security\icertexit2_initialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 61d27de8-f940-4f18-ba44-7e91378f035c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

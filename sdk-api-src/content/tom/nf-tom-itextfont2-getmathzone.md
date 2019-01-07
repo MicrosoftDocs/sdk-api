@@ -4,7 +4,7 @@ title: ITextFont2::GetMathZone
 author: windows-sdk-content
 description: Gets whether a math zone is active.
 old-location: controls\itextfont2_getmathzone.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4da4d6d1-16e0-4891-9a60-c1330345e45a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WintrustSetRegPolicyFlags function
 author: windows-sdk-content
 description: Sets policy flags for a policy provider.
 old-location: security\wintrustsetregpolicyflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8aaeecd0-3814-42a0-9e5b-82b0b220bc9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

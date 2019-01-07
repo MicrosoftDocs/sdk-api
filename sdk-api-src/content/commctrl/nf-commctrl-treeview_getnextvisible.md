@@ -4,7 +4,7 @@ title: TreeView_GetNextVisible macro
 author: windows-sdk-content
 description: Retrieves the next visible item that follows a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXTVISIBLE flag.
 old-location: controls\TreeView_GetNextVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

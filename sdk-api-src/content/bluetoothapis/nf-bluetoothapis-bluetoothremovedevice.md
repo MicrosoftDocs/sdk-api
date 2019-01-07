@@ -4,7 +4,7 @@ title: BluetoothRemoveDevice function
 author: windows-sdk-content
 description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.
 old-location: bluetooth\bluetoothremovedevice.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

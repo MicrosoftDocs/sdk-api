@@ -4,7 +4,7 @@ title: SetSystemTime function
 author: windows-sdk-content
 description: Sets the current system time and date. The system time is expressed in Coordinated Universal Time (UTC).
 old-location: base\setsystemtime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 0768794d-de61-4d5c-96ad-4c4711c72584
 ms.author: windowssdkdev
 ms.date: 12/5/2018

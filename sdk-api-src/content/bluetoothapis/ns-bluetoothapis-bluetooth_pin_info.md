@@ -4,7 +4,7 @@ title: BLUETOOTH_PIN_INFO
 author: windows-sdk-content
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
 old-location: bluetooth\bluetooth_pin_info.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

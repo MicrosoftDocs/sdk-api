@@ -4,7 +4,7 @@ title: ITraceDataCollector
 author: windows-sdk-content
 description: Collects trace events from registered providers.This interface defines the trace session.
 old-location: pla\itracedatacollector.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1f57aa92-81f0-445f-baa3-274714e8291e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::QueryTarget
 author: windows-sdk-content
 description: Retrieves the ITsSbTarget object for the given parameters.
 old-location: termserv\itssbglobalstore_querytarget.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e89ed692-66e5-49ed-b5d9-69eefeeae66f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

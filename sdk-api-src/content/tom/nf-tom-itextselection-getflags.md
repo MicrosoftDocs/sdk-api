@@ -4,7 +4,7 @@ title: ITextSelection::GetFlags
 author: windows-sdk-content
 description: Gets the text selection flags.
 old-location: controls\ITextSelection_GetFlags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

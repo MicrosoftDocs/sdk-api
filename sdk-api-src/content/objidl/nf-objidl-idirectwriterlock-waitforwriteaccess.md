@@ -4,7 +4,7 @@ title: IDirectWriterLock::WaitForWriteAccess
 author: windows-sdk-content
 description: The WaitForWriteAccess method obtains exclusive write access to a storage object.
 old-location: stg\idirectwriterlock_waitforwriteaccess.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: e4505bed-325b-494e-93bd-7bf23b3a1215
 ms.author: windowssdkdev
 ms.date: 12/5/2018

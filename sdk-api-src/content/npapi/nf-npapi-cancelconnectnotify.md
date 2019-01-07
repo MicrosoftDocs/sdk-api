@@ -4,7 +4,7 @@ title: CancelConnectNotify function
 author: windows-sdk-content
 description: Calls CancelConnectNotify before and after each cancel connection operation (WNetCancelConnection and WNetCancelConnection2).
 old-location: security\cancelconnectnotify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 94bd969d-f94d-449c-971d-d17fff2c07e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OCSP_BASIC_RESPONSE_INFO
 author: windows-sdk-content
 description: Contains a basic online certificate status protocol (OCSP) response as specified by RFC 2560.
 old-location: security\ocsp_basic_response_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f067bfa0-114b-4295-bbee-a963d8b64332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

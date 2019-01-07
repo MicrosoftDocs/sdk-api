@@ -4,7 +4,7 @@ title: ListBox_Enable macro
 author: windows-sdk-content
 description: Enables or disables a list box control.
 old-location: controls\ListBox_Enable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

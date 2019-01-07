@@ -4,7 +4,7 @@ title: CertIsStrongHashToSign function
 author: windows-sdk-content
 description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
 old-location: security\certisstronghashtosign.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

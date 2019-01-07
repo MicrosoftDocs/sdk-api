@@ -4,7 +4,7 @@ title: ITSGAuthenticateUserSink::OnUserAuthenticated
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in has successfully authenticated the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticated.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2f3dd498-661c-4787-8db4-bcc43bd76294
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFNDAENUMCALLBACK
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions.
 old-location: controls\PFNDAENUMCALLBACK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

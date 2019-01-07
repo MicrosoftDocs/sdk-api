@@ -4,7 +4,7 @@ title: ITextFont2::GetCookie
 author: windows-sdk-content
 description: Gets the client cookie.
 old-location: controls\itextfont2_getcookie.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f3e36338-8c88-4aaf-bbd0-c07a2228cb23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

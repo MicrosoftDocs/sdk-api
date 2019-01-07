@@ -4,7 +4,7 @@ title: GetHGlobalFromStream function
 author: windows-sdk-content
 description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
 old-location: stg\gethglobalfromstream.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260
 ms.author: windowssdkdev
 ms.date: 12/5/2018

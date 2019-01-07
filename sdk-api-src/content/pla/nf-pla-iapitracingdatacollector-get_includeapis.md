@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::get_IncludeApis
 author: windows-sdk-content
 description: Retrieves or sets the list of functions to include in the trace.
 old-location: pla\iapitracingdatacollector_includeapis.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: eca2b220-5316-4f8b-a1f2-808a8d10b43e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

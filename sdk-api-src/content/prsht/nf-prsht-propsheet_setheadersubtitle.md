@@ -4,7 +4,7 @@ title: PropSheet_SetHeaderSubTitle macro
 author: windows-sdk-content
 description: Sets the subtitle text for the header of a wizard's interior page. You can use this macro or send the PSM_SETHEADERSUBTITLE message explicitly.
 old-location: controls\PropSheet_SetHeaderSubTitle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setheadersubtitle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

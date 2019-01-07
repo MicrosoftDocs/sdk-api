@@ -4,7 +4,7 @@ title: IValueMap::get_Value
 author: windows-sdk-content
 description: Retrieves or sets the value of the collection.
 old-location: pla\ivaluemap_value.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 9f344845-956e-4254-82e2-e4e00f6a371b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

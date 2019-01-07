@@ -4,7 +4,7 @@ title: PropertySheetW function
 author: windows-sdk-content
 description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
 old-location: controls\PropertySheet.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

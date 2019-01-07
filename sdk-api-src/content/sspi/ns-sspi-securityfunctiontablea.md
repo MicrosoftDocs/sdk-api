@@ -4,7 +4,7 @@ title: SecurityFunctionTableA
 author: windows-sdk-content
 description: The SecurityFunctionTable structure is a dispatch table that contains pointers to the functions defined in SSPI.
 old-location: security\securityfunctiontable.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6315e8d6-b40a-4dd6-b6a6-598a965f93dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

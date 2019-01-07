@@ -4,7 +4,7 @@ title: ITextFont::GetHidden
 author: windows-sdk-content
 description: Gets whether characters are hidden.
 old-location: controls\ITextFont_GetHidden.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethidden.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

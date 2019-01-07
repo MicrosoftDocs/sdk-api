@@ -4,7 +4,7 @@ title: IImageList2::ReplaceFromImageList
 author: windows-sdk-content
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replacefromimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

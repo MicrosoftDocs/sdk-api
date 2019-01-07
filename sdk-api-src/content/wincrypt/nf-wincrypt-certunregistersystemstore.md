@@ -4,7 +4,7 @@ title: CertUnregisterSystemStore function
 author: windows-sdk-content
 description: The CertUnregisterSystemStore function unregisters a specified system store.
 old-location: security\certunregistersystemstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

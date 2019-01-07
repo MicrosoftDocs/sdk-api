@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_SchedulesEnabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

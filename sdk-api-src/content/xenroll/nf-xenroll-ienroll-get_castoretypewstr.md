@@ -4,7 +4,7 @@ title: IEnroll::get_CAStoreTypeWStr
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property.
 old-location: security\ienroll4_castoretypewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cbb60c1c-04ed-4477-bf8e-4dae9fd964ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

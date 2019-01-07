@@ -4,7 +4,7 @@ title: ITextHost::TxScreenToClient
 author: windows-sdk-content
 description: Converts the screen coordinates to the text host window coordinates.
 old-location: controls\ITextHost_TxScreenToClient.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscreentoclient.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

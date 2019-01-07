@@ -4,7 +4,7 @@ title: IDataCollectorCollection::Add
 author: windows-sdk-content
 description: Adds a data collector to the collection.
 old-location: pla\idatacollectorcollection_add.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 6302e144-74ef-4251-a857-d3e066c9763d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertAdmin::ResubmitRequest
 author: windows-sdk-content
 description: Submits the specified certificate request to the policy module for the specified certification authority. This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_resubmitrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

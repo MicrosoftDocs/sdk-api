@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_ProviderProperties
 author: windows-sdk-content
 description: Gets or sets information that provides certificate status responses.
 old-location: security\iocspcaconfiguration_providerproperties_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
 ms.author: windowssdkdev
 ms.date: 12/5/2018

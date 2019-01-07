@@ -4,7 +4,7 @@ title: CREDUI_INFOA
 author: windows-sdk-content
 description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
 old-location: security\credui_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

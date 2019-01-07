@@ -4,7 +4,7 @@ title: IImageList::Clone
 author: windows-sdk-content
 description: Clones an existing image list.
 old-location: controls\IImageList_Clone.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

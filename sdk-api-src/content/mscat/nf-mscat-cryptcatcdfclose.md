@@ -4,7 +4,7 @@ title: CryptCATCDFClose function
 author: windows-sdk-content
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
 old-location: security\cryptcatcdfclose.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

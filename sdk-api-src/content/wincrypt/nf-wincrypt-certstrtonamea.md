@@ -4,7 +4,7 @@ title: CertStrToNameA function
 author: windows-sdk-content
 description: Converts a null-terminated X.500 string to an encoded certificate name.
 old-location: security\certstrtoname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8bdfafa6-9833-4689-a155-dff09647ec8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

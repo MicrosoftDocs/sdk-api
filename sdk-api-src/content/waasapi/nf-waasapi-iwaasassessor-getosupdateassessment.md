@@ -4,7 +4,7 @@ title: IWaaSAssessor::GetOSUpdateAssessment
 author: windows-sdk-content
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 old-location: base\iwaasassessor_getosupdateassessment.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

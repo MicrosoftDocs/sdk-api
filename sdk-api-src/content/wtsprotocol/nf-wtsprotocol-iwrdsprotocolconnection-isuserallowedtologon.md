@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::IsUserAllowedToLogon
 author: windows-sdk-content
 description: Determines from the protocol whether a user is allowed to log on to a session.
 old-location: termserv\iwrdsprotocolconnection_isuserallowedtologon.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4e2c5d2b-ec45-45ea-8bd3-71aaa0b15529
 ms.author: windowssdkdev
 ms.date: 12/5/2018

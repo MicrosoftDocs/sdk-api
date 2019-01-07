@@ -4,7 +4,7 @@ title: IMSCEPSetup::PostUnInstall
 author: windows-sdk-content
 description: Is not implemented. It is reserved for future use.
 old-location: security\imscepsetup_postuninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.author: windowssdkdev
 ms.date: 12/5/2018

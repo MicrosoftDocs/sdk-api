@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_ClientConnectionPropertySet
 author: windows-sdk-content
 description: Retrieves an object that contains properties associated with the client connection.
 old-location: termserv\itssbclientconnection_clientconnectionpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 488c5b71-7139-4744-93bf-484d05457d0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EVENT_INSTANCE_HEADER
 author: windows-sdk-content
 description: The EVENT_INSTANCE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_instance_header.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334
 ms.author: windowssdkdev
 ms.date: 12/5/2018

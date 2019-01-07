@@ -4,7 +4,7 @@ title: ListView_InsertColumn macro
 author: windows-sdk-content
 description: Inserts a new column in a list-view control. You can use this macro or send the LVM_INSERTCOLUMN message explicitly.
 old-location: controls\ListView_InsertColumn.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

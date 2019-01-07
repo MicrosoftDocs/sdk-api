@@ -4,7 +4,7 @@ title: IValueMapItem::get_Description
 author: windows-sdk-content
 description: Retrieves or sets a description of the item.
 old-location: pla\ivaluemapitem_description.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

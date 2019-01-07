@@ -4,7 +4,7 @@ title: StgOpenStorage function
 author: windows-sdk-content
 description: Opens an existing root storage object in the file system.
 old-location: stg\stgopenstorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687
 ms.author: windowssdkdev
 ms.date: 12/5/2018

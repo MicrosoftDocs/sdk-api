@@ -4,7 +4,7 @@ title: DPA_DestroyCallback function
 author: windows-sdk-content
 description: Calls pfnCB on each element of the dynamic pointer array (DPA), then frees the DPA.
 old-location: controls\DPA_DestroyCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroycallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

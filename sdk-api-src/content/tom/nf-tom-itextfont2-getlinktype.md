@@ -4,7 +4,7 @@ title: ITextFont2::GetLinkType
 author: windows-sdk-content
 description: Gets the link type.
 old-location: controls\itextfont2_getlinktype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 5405b2ce-52c9-4630-a091-3221820a4e0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

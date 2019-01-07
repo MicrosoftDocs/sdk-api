@@ -4,7 +4,7 @@ title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
 author: windows-sdk-content
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

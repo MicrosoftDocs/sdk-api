@@ -4,7 +4,7 @@ title: IImageList::BeginDrag
 author: windows-sdk-content
 description: Begins dragging an image.
 old-location: controls\IImageList_BeginDrag.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\begindrag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

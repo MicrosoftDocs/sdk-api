@@ -4,7 +4,7 @@ title: IRichEditOle::InsertObject
 author: windows-sdk-content
 description: Inserts an object into a rich edit control.
 old-location: controls\IRichEditOle_InsertObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinsertobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll::enumProvidersWStr
 author: windows-sdk-content
 description: The IEnroll4::enumProvidersWStr method retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property.
 old-location: security\ienroll4_enumproviderswstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
 ms.author: windowssdkdev
 ms.date: 12/5/2018

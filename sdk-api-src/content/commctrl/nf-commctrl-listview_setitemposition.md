@@ -4,7 +4,7 @@ title: ListView_SetItemPosition macro
 author: windows-sdk-content
 description: Moves an item to a specified position in a list-view control (in icon or small icon view). You can use this macro or send the LVM_SETITEMPOSITION message explicitly.
 old-location: controls\ListView_SetItemPosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

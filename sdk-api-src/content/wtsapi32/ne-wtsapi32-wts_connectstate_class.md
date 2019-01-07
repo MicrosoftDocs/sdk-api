@@ -4,7 +4,7 @@ title: WTS_CONNECTSTATE_CLASS
 author: windows-sdk-content
 description: Specifies the connection state of a Remote Desktop Services session.
 old-location: termserv\wts_connectstate_class_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ee376f5a-3474-4e31-94c1-e760346eb794
 ms.author: windowssdkdev
 ms.date: 12/5/2018

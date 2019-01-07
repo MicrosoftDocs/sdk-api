@@ -4,7 +4,7 @@ title: ICertAdmin::GetRevocationReason
 author: windows-sdk-content
 description: Returns the reason a certificate was revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_getrevocationreason.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.author: windowssdkdev
 ms.date: 12/5/2018

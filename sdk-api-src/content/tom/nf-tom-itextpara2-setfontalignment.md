@@ -4,7 +4,7 @@ title: ITextPara2::SetFontAlignment
 author: windows-sdk-content
 description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
 old-location: controls\itextpara2_setfontalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
 ms.author: windowssdkdev
 ms.date: 12/5/2018

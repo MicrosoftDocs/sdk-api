@@ -4,7 +4,7 @@ title: MonthCal_GetCalendarBorder macro
 author: windows-sdk-content
 description: Gets the border size, in pixels, of a month calendar control. You can use this macro or send the MCM_GETCALENDARBORDER message explicitly.
 old-location: controls\MonthCal_GetCalendarBorder.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarborder.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

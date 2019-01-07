@@ -4,7 +4,7 @@ title: NMTOOLTIPSCREATED
 author: windows-sdk-content
 description: Contains information used with NM_TOOLTIPSCREATED notification codes.
 old-location: controls\NMTOOLTIPSCREATED.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmtooltipscreated.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

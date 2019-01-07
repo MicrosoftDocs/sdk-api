@@ -4,7 +4,7 @@ title: ITextPara::SetWidowControl
 author: windows-sdk-content
 description: Controls the suppression of widows and orphans.
 old-location: controls\ITextPara_SetWidowControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setwidowcontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollector::get_LogOverwrite
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 17f40639-2e24-4a7e-b934-036d8595bdbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

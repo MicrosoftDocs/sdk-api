@@ -4,7 +4,7 @@ title: VER_SET_CONDITION macro
 author: windows-sdk-content
 description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This macro is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
 old-location: base\ver_set_condition.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: c93be952-41a8-48c4-b24f-996bf9237727
 ms.author: windowssdkdev
 ms.date: 12/5/2018

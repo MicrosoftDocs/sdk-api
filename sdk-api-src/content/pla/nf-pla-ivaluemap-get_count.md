@@ -4,7 +4,7 @@ title: IValueMap::get_Count
 author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 990b48d8-357f-4157-a3d2-1ea1c80e1887
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IImageList2::DiscardImages
 author: windows-sdk-content
 description: Discards images from list, as specified.
 old-location: controls\IImageList2_DiscardImages.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\discardimages.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

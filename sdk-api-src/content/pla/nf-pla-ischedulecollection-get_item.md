@@ -4,7 +4,7 @@ title: IScheduleCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested schedule from the collection.
 old-location: pla\ischedulecollection_item.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
 ms.author: windowssdkdev
 ms.date: 12/5/2018

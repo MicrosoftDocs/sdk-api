@@ -4,7 +4,7 @@ title: ITextRow::SetKeepTogether
 author: windows-sdk-content
 description: Sets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_setkeeptogether.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
 ms.author: windowssdkdev
 ms.date: 12/5/2018

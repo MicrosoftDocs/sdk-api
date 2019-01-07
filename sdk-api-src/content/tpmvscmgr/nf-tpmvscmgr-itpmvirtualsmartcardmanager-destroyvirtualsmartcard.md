@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
 author: windows-sdk-content
 description: Destroys the TPM virtual smart card that has the given instance ID.
 old-location: security\itpmvirtualsmartcardmanager_destroyvirtualsmartcard.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: C8624CBF-FC39-4269-9405-8E7B5EE88F8D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

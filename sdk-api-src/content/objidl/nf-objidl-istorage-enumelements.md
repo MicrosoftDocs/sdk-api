@@ -4,7 +4,7 @@ title: IStorage::EnumElements
 author: windows-sdk-content
 description: The EnumElements method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
 old-location: stg\istorage_enumelements.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

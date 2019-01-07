@@ -4,7 +4,7 @@ title: IPropertySetStorage::Enum
 author: windows-sdk-content
 description: The Enum method creates an enumerator object which contains information on the property sets stored in this property set storage. On return, this method supplies a pointer to the IEnumSTATPROPSETSTG pointer on the enumerator object.
 old-location: stg\ipropertysetstorage_enum.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 979ee86b-fabc-428c-8134-f16c2a33270f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

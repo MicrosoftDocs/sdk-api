@@ -4,7 +4,7 @@ title: RegDeleteKeyTransactedA function
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry as a transacted operation.
 old-location: base\regdeletekeytransacted.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 4c67e08b-4338-4441-8300-6b6ed31d4b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMTVKEYDOWN
 author: windows-sdk-content
 description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVKEYDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvkeydown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

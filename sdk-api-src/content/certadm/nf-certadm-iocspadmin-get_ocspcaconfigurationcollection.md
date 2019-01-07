@@ -4,7 +4,7 @@ title: IOCSPAdmin::get_OCSPCAConfigurationCollection
 author: windows-sdk-content
 description: Gets an instance of an OCSPCAConfigurationCollection object. This object represents the set of certification authority (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 old-location: security\iocspadmin_ocspcaconfigurationcollection_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 77be6c77-f693-448b-ad2d-f148b2b3dc78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

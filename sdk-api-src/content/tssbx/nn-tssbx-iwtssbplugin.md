@@ -4,7 +4,7 @@ title: IWTSSBPlugin
 author: windows-sdk-content
 description: Used to extend the capabilities of Terminal Services Session Broker (TS&#160;Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS&#160;Session Broker.
 old-location: termserv\iwtssbplugin.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f6959b8c-a8a8-438b-8b6d-31bf0e782bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

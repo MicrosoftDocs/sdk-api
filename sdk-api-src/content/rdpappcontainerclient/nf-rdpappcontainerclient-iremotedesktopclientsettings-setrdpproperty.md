@@ -4,7 +4,7 @@ title: IRemoteDesktopClientSettings::SetRdpProperty
 author: windows-sdk-content
 description: Sets the value of a single named RDP property.
 old-location: termserv\iremotedesktopclientsettings_setrdpproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3c1a9e70-3e77-4f21-b3a1-8e4c3c5cf148
 ms.author: windowssdkdev
 ms.date: 12/5/2018

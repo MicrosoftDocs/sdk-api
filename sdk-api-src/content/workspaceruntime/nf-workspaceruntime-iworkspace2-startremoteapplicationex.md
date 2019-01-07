@@ -4,7 +4,7 @@ title: IWorkspace2::StartRemoteApplicationEx
 author: windows-sdk-content
 description: Not supported.
 old-location: termserv\iworkspace2_startremoteapplicationex.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: df901da6-6464-4ed3-abbb-16756f90ccf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

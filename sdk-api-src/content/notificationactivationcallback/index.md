@@ -2,7 +2,7 @@
 UID: NA:notificationactivationcallback
 ms.assetid: bd43c3d1-f444-368e-89ce-2a1a2a9a0197
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA
 author: windows-sdk-content
 description: Contains information used to verify a message signature. It contains the signer index and signer public key.
 old-location: security\cmsg_ctrl_verify_signature_ex_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 56b73de8-c170-46f6-b488-096475b59c15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

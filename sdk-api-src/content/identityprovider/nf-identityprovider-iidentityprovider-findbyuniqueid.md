@@ -4,7 +4,7 @@ title: IIdentityProvider::FindByUniqueID
 author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 old-location: security\iidentityprovider_findbyuniqueid.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMRBAUTOSIZE
 author: windows-sdk-content
 description: Contains information used in handling the RBN_AUTOSIZE notification codes.
 old-location: controls\NMRBAUTOSIZE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrbautosize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

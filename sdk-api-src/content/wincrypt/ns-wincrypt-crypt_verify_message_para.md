@@ -4,7 +4,7 @@ title: CRYPT_VERIFY_MESSAGE_PARA
 author: windows-sdk-content
 description: The CRYPT_VERIFY_MESSAGE_PARA structure contains information needed to verify signed messages.
 old-location: security\crypt_verify_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bbd56b5e-2bbe-420f-8842-1be50dca779f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

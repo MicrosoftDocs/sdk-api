@@ -4,7 +4,7 @@ title: IIdentityProvider::Create
 author: windows-sdk-content
 description: Creates a new identity associated with the specified user name.
 old-location: security\iidentityprovider_create.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

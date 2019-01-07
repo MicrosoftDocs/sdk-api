@@ -4,7 +4,7 @@ title: ITextStoryRanges2
 author: windows-sdk-content
 description: The ITextStoryRanges2 interface enumerates the stories in an ITextDocument.
 old-location: controls\itextstoryranges2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 24e2dd79-8054-44e3-aa68-778a96e2f66a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

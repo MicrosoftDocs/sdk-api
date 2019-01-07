@@ -4,7 +4,7 @@ title: Edit_SetRectNoPaint macro
 author: windows-sdk-content
 description: Sets the formatting rectangle of a multiline edit control. This macro is equivalent to Edit_SetRect, except that it does not redraw the edit control window. You can use this macro or send the EM_SETRECTNP message explicitly.
 old-location: controls\Edit_SetRectNoPaint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setrectnopaint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertSrvSetup::SetParentCAInformation
 author: windows-sdk-content
 description: Sets the parent certification authority (CA) information for a subordinate CA configuration.
 old-location: security\icertsrvsetup_setparentcainformation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SecPkgContext_Lifespan
 author: windows-sdk-content
 description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_lifespan.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowssdkdev
 ms.date: 12/5/2018

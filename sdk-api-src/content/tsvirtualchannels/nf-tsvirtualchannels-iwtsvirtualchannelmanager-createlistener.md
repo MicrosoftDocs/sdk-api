@@ -4,7 +4,7 @@ title: IWTSVirtualChannelManager::CreateListener
 author: windows-sdk-content
 description: Returns an instance of a listener object that listens on a specific endpoint.
 old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCardGetReaderIconA function
 author: windows-sdk-content
 description: Gets an icon of the smart card reader for a given reader's name.
 old-location: security\scardgetreadericon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: A83B5AF3-BF2C-42AE-9D34-3B651D7AF047
 ms.author: windowssdkdev
 ms.date: 12/5/2018

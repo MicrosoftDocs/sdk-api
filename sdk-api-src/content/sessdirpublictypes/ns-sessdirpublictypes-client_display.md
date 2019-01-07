@@ -4,7 +4,7 @@ title: CLIENT_DISPLAY
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\client_display.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6436c049-d710-4208-882a-0c7e83b4a079
 ms.author: windowssdkdev
 ms.date: 12/5/2018

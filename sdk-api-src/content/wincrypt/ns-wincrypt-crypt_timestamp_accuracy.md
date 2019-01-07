@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_ACCURACY
 author: windows-sdk-content
 description: Is used by the CRYPT_TIMESTAMP_INFO structure to represent the accuracy of the time deviation around the UTC time at which the time stamp token was created by the Time Stamp Authority (TSA).
 old-location: security\crypt_timestamp_accuracy.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9115db8a-7cc1-4360-b89b-6c33ddb67fe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

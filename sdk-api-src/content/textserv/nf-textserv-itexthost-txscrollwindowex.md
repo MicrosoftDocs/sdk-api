@@ -4,7 +4,7 @@ title: ITextHost::TxScrollWindowEx
 author: windows-sdk-content
 description: Requests the text host to scroll the content of the specified client area.
 old-location: controls\ITextHost_TxScrollWindowEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscrollwindowex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

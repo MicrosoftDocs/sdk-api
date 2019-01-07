@@ -4,7 +4,7 @@ title: CryptUnregisterOIDInfo function
 author: windows-sdk-content
 description: The CryptUnregisterOIDInfo function removes the registration of a specified CRYPT_OID_INFO OID information structure. The structure to be unregistered is identified by the structure's pszOID and dwGroupId members.
 old-location: security\cryptunregisteroidinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1217397b-2af9-4f58-8616-5a18ee2f4b8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

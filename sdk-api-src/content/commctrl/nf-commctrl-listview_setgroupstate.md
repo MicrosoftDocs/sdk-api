@@ -4,7 +4,7 @@ title: ListView_SetGroupState macro
 author: windows-sdk-content
 description: Sets the state for a specified group.
 old-location: controls\ListView_SetGroupState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

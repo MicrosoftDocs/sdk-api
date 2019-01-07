@@ -4,7 +4,7 @@ title: ITextStory::GetRange
 author: windows-sdk-content
 description: Gets a text range object for the story.
 old-location: controls\itextstory_getrange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7cc02056-c431-470a-83ef-99e47123da1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

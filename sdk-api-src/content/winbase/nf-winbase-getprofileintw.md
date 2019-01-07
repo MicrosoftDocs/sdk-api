@@ -4,7 +4,7 @@ title: GetProfileIntW function
 author: windows-sdk-content
 description: Retrieves an integer from a key in the specified section of the Win.ini file.
 old-location: base\getprofileint.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

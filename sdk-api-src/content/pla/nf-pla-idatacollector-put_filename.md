@@ -4,7 +4,7 @@ title: IDataCollector::put_FileName
 author: windows-sdk-content
 description: Retrieves or sets the base name of the file that will contain the data collector data.
 old-location: pla\idatacollector_filename.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

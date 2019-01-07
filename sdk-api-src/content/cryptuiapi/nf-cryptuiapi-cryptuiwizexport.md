@@ -4,7 +4,7 @@ title: CryptUIWizExport function
 author: windows-sdk-content
 description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
 old-location: security\cryptuiwizexport.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

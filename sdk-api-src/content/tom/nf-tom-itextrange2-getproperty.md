@@ -4,7 +4,7 @@ title: ITextRange2::GetProperty
 author: windows-sdk-content
 description: Gets the value of a property.
 old-location: controls\itextrange2_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d5e636b9-d02e-46ac-b224-7d1019da44eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

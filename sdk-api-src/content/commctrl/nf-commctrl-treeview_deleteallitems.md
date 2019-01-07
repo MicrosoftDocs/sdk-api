@@ -4,7 +4,7 @@ title: TreeView_DeleteAllItems macro
 author: windows-sdk-content
 description: Deletes all items from a tree-view control.
 old-location: controls\TreeView_DeleteAllItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteallitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

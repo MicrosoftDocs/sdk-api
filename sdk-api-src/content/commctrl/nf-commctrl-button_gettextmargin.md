@@ -4,7 +4,7 @@ title: Button_GetTextMargin macro
 author: windows-sdk-content
 description: Gets the margins used to draw text in a button control. You can use this macro or send the BCM_GETTEXTMARGIN message explicitly.
 old-location: controls\Button_GetTextMargin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextmargin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

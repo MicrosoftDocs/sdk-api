@@ -4,7 +4,7 @@ title: ICertServerExit::EnumerateExtensions
 author: windows-sdk-content
 description: Returns the object identifier (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 old-location: security\icertserverexit_enumerateextensions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

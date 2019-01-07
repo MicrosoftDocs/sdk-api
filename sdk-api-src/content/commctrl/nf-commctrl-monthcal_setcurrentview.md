@@ -4,7 +4,7 @@ title: MonthCal_SetCurrentView macro
 author: windows-sdk-content
 description: Sets the view for a month calendar control. You can use this macro or send the MCM_SETCURRENTVIEW message explicitly.
 old-location: controls\MonthCal_SetCurrentView.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcurrentview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

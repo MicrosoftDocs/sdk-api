@@ -4,7 +4,7 @@ title: NMCHAR
 author: windows-sdk-content
 description: Contains information used with character notification messages.
 old-location: controls\NMCHAR.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmchar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

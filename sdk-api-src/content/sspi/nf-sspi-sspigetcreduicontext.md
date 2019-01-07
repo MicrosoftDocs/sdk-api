@@ -4,7 +4,7 @@ title: SspiGetCredUIContext function
 author: windows-sdk-content
 description: Retrieves context information from a credential provider.
 old-location: security\sspigetcreduicontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9da39bc4-ece8-493f-b9fd-5f8ba9ed288e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

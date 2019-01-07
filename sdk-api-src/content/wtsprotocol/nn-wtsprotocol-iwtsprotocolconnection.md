@@ -4,7 +4,7 @@ title: IWTSProtocolConnection
 author: windows-sdk-content
 description: IWTSProtocolConnection is no longer available. Instead, use IWRdsProtocolConnection.
 old-location: termserv\iwtsprotocolconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 584a6874-0df4-480e-a10a-4b603643870e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

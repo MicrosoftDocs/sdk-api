@@ -4,7 +4,7 @@ title: IEnroll::freeRequestInfoBlob
 author: windows-sdk-content
 description: The freeRequestInfoBlob method deletes a certificate context. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_freerequestinfoblob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7c89de98-51b6-44c2-acd2-879d1d4e7f29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

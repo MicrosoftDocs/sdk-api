@@ -4,7 +4,7 @@ title: RegOpenKeyTransactedA function
 author: windows-sdk-content
 description: Opens the specified registry key and associates it with a transaction.
 old-location: base\regopenkeytransacted.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 11663ed2-d17c-4f08-be7b-9b591271fbcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MAKEIPRANGE macro
 author: windows-sdk-content
 description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
 old-location: controls\MAKEIPRANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeiprange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

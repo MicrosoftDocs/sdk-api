@@ -4,7 +4,7 @@ title: ICEnroll4::GetKeyLenEx
 author: windows-sdk-content
 description: Retrieves size information for the signature and exchange keys. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getkeylenex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4e54926f-f600-4795-b6d8-efb146edcda2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TimeProvCommand function
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to send commands to the time provider.
 old-location: base\timeprovcommand.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

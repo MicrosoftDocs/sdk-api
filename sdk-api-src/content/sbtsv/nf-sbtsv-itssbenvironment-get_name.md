@@ -4,7 +4,7 @@ title: ITsSbEnvironment::get_Name
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_name.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8104bdae-f445-425b-b326-cc3333839d29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

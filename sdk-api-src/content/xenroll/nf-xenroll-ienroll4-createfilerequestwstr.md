@@ -4,7 +4,7 @@ title: IEnroll4::createFileRequestWStr
 author: windows-sdk-content
 description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a file.
 old-location: security\ienroll4_createfilerequestwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5750f2ad-a96f-4bc7-9a1f-354e279a7860
 ms.author: windowssdkdev
 ms.date: 12/5/2018

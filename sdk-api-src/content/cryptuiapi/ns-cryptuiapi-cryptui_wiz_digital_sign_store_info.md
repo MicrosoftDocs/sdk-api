@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO
 author: windows-sdk-content
 description: Contains information about the certificate store used by the digital signature wizard.
 old-location: security\cryptui_wiz_digital_sign_store_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d3ffbf1c-e8c2-44ab-84d2-d32350d04407
 ms.author: windowssdkdev
 ms.date: 12/5/2018

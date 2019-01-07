@@ -4,7 +4,7 @@ title: CertIsValidCRLForCertificate function
 author: windows-sdk-content
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

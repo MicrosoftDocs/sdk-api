@@ -4,7 +4,7 @@ title: ITraceEventCallback
 author: windows-sdk-content
 description: Used by ETW to provide information to the relogger as the tracing process starts, ends, and logs events.
 old-location: etw\ieventcallback.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

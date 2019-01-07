@@ -4,7 +4,7 @@ title: IMSCEPSetup::GetProviderNameList
 author: windows-sdk-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 old-location: security\imscepsetup_getprovidernamelist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
 ms.author: windowssdkdev
 ms.date: 12/5/2018

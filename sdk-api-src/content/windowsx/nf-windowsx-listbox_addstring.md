@@ -4,7 +4,7 @@ title: ListBox_AddString macro
 author: windows-sdk-content
 description: Adds a string to a list box.
 old-location: controls\ListBox_AddString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_addstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

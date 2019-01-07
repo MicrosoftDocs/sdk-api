@@ -4,7 +4,7 @@ title: ITextRange::SetRange
 author: windows-sdk-content
 description: Adjusts the range endpoints to the specified values.
 old-location: controls\ITextRange_SetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

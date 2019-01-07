@@ -4,7 +4,7 @@ title: ITextFont::GetProtected
 author: windows-sdk-content
 description: Gets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_GetProtected.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getprotected.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

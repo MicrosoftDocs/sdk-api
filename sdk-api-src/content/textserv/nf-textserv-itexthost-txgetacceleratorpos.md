@@ -4,7 +4,7 @@ title: ITextHost::TxGetAcceleratorPos
 author: windows-sdk-content
 description: Requests the special character to use for the underlining accelerator character.
 old-location: controls\ITextHost_TxGetAcceleratorPos.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetacceleratorpos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_REVOCATION_CRL_INFO
 author: windows-sdk-content
 description: Contains information updated by a certificate revocation list (CRL) revocation type handler.
 old-location: security\cert_revocation_crl_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 069ff521-90fd-4de8-9b5c-045e44e87f75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

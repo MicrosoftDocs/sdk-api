@@ -4,7 +4,7 @@ title: ICertGetConfig
 author: windows-sdk-content
 description: Provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertgetconfig.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 753d1527-1863-41af-9715-2c1fe138e67d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

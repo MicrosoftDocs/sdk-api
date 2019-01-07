@@ -4,7 +4,7 @@ title: ListView_InsertMarkHitTest macro
 author: windows-sdk-content
 description: Retrieves the insertion point closest to a specified point. You can use this macro or send the LVM_INSERTMARKHITTEST message explicitly.
 old-location: controls\ListView_InsertMarkHitTest.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

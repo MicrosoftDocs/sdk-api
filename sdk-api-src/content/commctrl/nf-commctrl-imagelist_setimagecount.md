@@ -4,7 +4,7 @@ title: ImageList_SetImageCount function
 author: windows-sdk-content
 description: Resizes an existing image list.
 old-location: controls\ImageList_SetImageCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setimagecount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Header_SetBitmapMargin macro
 author: windows-sdk-content
 description: Sets the width of the margin for a bitmap in an existing header control. You can use this macro or send the HDM_SETBITMAPMARGIN message explicitly.
 old-location: controls\Header_SetBitmapMargin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStream::Revert
 author: windows-sdk-content
 description: The Revert method discards all changes that have been made to a transacted stream since the last IStream::Commit call. On streams open in direct mode and streams using the COM compound file implementation of IStream::Revert, this method has no effect.
 old-location: stg\istream_revert.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 1a707b17-840f-4cd2-9e43-97a8c02120b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

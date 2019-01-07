@@ -4,7 +4,7 @@ title: MANCODE
 author: windows-sdk-content
 description: Represents mathematical alphanumeric codes.
 old-location: controls\mancode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2d5ad40c-8c34-4365-a699-508ea918df2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

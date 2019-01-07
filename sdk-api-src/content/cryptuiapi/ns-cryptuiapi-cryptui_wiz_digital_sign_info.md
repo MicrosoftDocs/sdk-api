@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 author: windows-sdk-content
 description: Contains information about digital signing.
 old-location: security\cryptui_wiz_digital_sign_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

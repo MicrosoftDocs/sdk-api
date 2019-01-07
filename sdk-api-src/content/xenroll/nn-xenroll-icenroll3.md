@@ -4,7 +4,7 @@ title: ICEnroll3
 author: windows-sdk-content
 description: One of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll3.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4caa7e75-0116-4891-8bf2-ede09a05a440
 ms.author: windowssdkdev
 ms.date: 12/5/2018

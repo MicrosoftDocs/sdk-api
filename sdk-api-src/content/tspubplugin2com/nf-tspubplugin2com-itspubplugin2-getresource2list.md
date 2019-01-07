@@ -4,7 +4,7 @@ title: ItsPubPlugin2::GetResource2List
 author: windows-sdk-content
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin2_getresource2list.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

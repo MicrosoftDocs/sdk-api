@@ -4,7 +4,7 @@ title: KERB_PROFILE_BUFFER_TYPE
 author: windows-sdk-content
 description: Lists the type of logon profile returned.
 old-location: security\kerb_profile_buffer_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c590b6fd-c241-4ff8-9475-c8af7de7b431
 ms.author: windowssdkdev
 ms.date: 12/5/2018

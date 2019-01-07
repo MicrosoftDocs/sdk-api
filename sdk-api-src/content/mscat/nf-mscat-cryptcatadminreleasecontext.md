@@ -4,7 +4,7 @@ title: CryptCATAdminReleaseContext function
 author: windows-sdk-content
 description: Releases the handle previously assigned by the CryptCATAdminAcquireContext function.
 old-location: security\cryptcatadminreleasecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dff253dc-c444-46be-a383-41340d634cce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

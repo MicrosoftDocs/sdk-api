@@ -4,7 +4,7 @@ title: NMLVGETINFOTIPA
 author: windows-sdk-content
 description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code.
 old-location: controls\NMLVGETINFOTIP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvgetinfotip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

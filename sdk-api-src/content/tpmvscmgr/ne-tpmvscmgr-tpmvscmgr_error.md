@@ -4,7 +4,7 @@ title: TPMVSCMGR_ERROR
 author: windows-sdk-content
 description: Provides predefined error codes to represent the contexts of errors from the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_error.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0B8A5703-DA7C-4FD6-A39E-BA2CE172ADF9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

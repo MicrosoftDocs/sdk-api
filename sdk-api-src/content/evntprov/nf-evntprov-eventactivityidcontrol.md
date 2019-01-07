@@ -4,7 +4,7 @@ title: EventActivityIdControl function
 author: windows-sdk-content
 description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
 old-location: etw\eventactivityidcontrol_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_InsertGroup macro
 author: windows-sdk-content
 description: Inserts a group into a list-view control. You can use this macro or send the LVM_INSERTGROUP message explicitly.
 old-location: controls\ListView_InsertGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertgroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

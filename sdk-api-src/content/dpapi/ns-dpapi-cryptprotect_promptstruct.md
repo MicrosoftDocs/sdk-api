@@ -4,7 +4,7 @@ title: CRYPTPROTECT_PROMPTSTRUCT
 author: windows-sdk-content
 description: Provides the text of a prompt and information about when and where that prompt is to be displayed when using the CryptProtectData and CryptUnprotectData functions.
 old-location: security\cryptprotect_promptstruct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 412ce598-a7c9-446d-bd98-6583a20d6cd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

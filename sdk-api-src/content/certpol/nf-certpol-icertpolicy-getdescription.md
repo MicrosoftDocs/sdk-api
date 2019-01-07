@@ -4,7 +4,7 @@ title: ICertPolicy::GetDescription
 author: windows-sdk-content
 description: Returns a human-readable description of the policy module and its function.
 old-location: security\icertpolicy2_getdescription.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 38b85fa8-f5e7-4ac8-9f38-1cad83417797
 ms.author: windowssdkdev
 ms.date: 12/5/2018

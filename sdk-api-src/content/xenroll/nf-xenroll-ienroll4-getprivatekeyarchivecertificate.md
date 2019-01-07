@@ -4,7 +4,7 @@ title: IEnroll4::GetPrivateKeyArchiveCertificate
 author: windows-sdk-content
 description: The GetPrivateKeyArchiveCertificate method retrieves the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_getprivatekeyarchivecertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0fdcd4ff-2dd1-4654-9901-a9824d4eddec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

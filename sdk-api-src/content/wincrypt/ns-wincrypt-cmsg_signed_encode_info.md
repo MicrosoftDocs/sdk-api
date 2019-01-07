@@ -4,7 +4,7 @@ title: CMSG_SIGNED_ENCODE_INFO
 author: windows-sdk-content
 description: Contains information to be passed to CryptMsgOpenToEncode if dwMsgType is CMSG_SIGNED.
 old-location: security\cmsg_signed_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 93138744-8316-461b-908a-1eab47e83f63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: HANDLE_WM_NOTIFY macro
 author: windows-sdk-content
 description: Calls a function that processes the WM_NOTIFY message.
 old-location: controls\HANDLE_WM_NOTIFY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\handle_wm_notify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetSystemWindowsDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path of the shared Windows directory on a multi-user system.
 old-location: base\getsystemwindowsdirectory.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 4f0955fb-8fa3-4102-b2a5-44ce5cbd2e35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

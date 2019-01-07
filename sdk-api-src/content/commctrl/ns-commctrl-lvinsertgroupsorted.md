@@ -4,7 +4,7 @@ title: LVINSERTGROUPSORTED
 author: windows-sdk-content
 description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.
 old-location: controls\LVINSERTGROUPSORTED.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertgroupsorted.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

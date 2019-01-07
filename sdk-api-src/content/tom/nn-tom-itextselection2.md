@@ -4,7 +4,7 @@ title: ITextSelection2
 author: windows-sdk-content
 description: Currently, this interface contains no methods other than those inherited from ITextRange2.
 old-location: controls\itextselection2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 75a4e233-6672-4407-bd68-ba8a7072b7b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStorage::CreateStorage
 author: windows-sdk-content
 description: Creates and opens a new storage object nested within this storage object with the specified name in the specified access mode.
 old-location: stg\istorage_createstorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8c74cacf-8d3c-4d57-b1e9-dc5e4f281717
 ms.author: windowssdkdev
 ms.date: 12/5/2018

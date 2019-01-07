@@ -4,7 +4,7 @@ title: CERT_ALT_NAME_ENTRY
 author: windows-sdk-content
 description: Contains an alternative name in one of a variety of name forms.
 old-location: security\cert_alt_name_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

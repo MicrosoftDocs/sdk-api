@@ -4,7 +4,7 @@ title: SCH_CRED_PUBLIC_CERTCHAIN
 author: windows-sdk-content
 description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
 old-location: security\sch_cred_public_certchain.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b6019f43-df94-4d30-9acf-a94772901e6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

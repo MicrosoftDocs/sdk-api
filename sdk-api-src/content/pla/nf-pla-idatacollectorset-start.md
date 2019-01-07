@@ -4,7 +4,7 @@ title: IDataCollectorSet::Start
 author: windows-sdk-content
 description: Manually starts the data collector set.
 old-location: pla\idatacollectorset_start.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 63f0c7b7-0dc6-4491-a2f5-eaae9d22da61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

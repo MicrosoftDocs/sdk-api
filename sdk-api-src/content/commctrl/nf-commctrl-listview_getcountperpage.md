@@ -4,7 +4,7 @@ title: ListView_GetCountPerPage macro
 author: windows-sdk-content
 description: Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the LVM_GETCOUNTPERPAGE message explicitly.
 old-location: controls\ListView_GetCountPerPage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcountperpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

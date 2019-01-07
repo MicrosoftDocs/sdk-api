@@ -4,7 +4,7 @@ title: ITextRange2::Find
 author: windows-sdk-content
 description: Searchs for math inline functions in text as specified by a source range.
 old-location: controls\itextrange2_find.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4935d322-016a-4c08-858e-42009a9f59f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

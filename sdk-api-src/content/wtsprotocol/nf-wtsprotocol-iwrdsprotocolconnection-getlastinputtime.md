@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetLastInputTime
 author: windows-sdk-content
 description: Retrieves the last time the protocol received user input.
 old-location: termserv\iwrdsprotocolconnection_getlastinputtime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1a6acbd2-6155-4513-8892-50a4552abb12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

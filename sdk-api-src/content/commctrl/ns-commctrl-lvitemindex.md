@@ -4,7 +4,7 @@ title: LVITEMINDEX
 author: windows-sdk-content
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

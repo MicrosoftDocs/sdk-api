@@ -4,7 +4,7 @@ title: ITextPara::GetWidowControl
 author: windows-sdk-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getwidowcontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

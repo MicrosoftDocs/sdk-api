@@ -4,7 +4,7 @@ title: CryptUIDlgCertMgr function
 author: windows-sdk-content
 description: Displays a dialog box that allows the user to manage certificates.
 old-location: security\cryptuidlgcertmgr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

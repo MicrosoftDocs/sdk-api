@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetMaxLength
 author: windows-sdk-content
 description: Retrieves the maximum allowable length, in bytes, for the column data.
 old-location: security\ienumcertviewcolumn_getmaxlength.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

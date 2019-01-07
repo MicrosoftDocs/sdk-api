@@ -4,7 +4,7 @@ title: ListBox_AddItemData macro
 author: windows-sdk-content
 description: Adds item data to the list box at the specified location. You can use this macro or send the LB_ADDSTRING message explicitly.
 old-location: controls\ListBox_AddItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_additemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

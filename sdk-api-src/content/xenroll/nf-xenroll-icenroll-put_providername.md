@@ -4,7 +4,7 @@ title: ICEnroll::put_ProviderName
 author: windows-sdk-content
 description: The ProviderName property of ICEnroll4 sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\icenroll4_providername.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 092d5ed1-8d03-45d8-bc7a-3e27035f4b2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

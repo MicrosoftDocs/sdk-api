@@ -4,7 +4,7 @@ title: ITraceDataProvider::get_Properties
 author: windows-sdk-content
 description: Retrieves the list of extended data items that Event Tracing for Windows (ETW) includes with the event.
 old-location: pla\itracedataprovider_properties.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1dc21423-fa55-4312-b86a-63d4f59e4cf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

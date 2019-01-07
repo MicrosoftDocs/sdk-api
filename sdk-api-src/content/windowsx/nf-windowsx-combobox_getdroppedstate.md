@@ -4,7 +4,7 @@ title: ComboBox_GetDroppedState macro
 author: windows-sdk-content
 description: Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the CB_GETDROPPEDSTATE message explicitly.
 old-location: controls\ComboBox_GetDroppedState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

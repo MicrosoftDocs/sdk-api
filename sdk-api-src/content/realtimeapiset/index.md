@@ -2,7 +2,7 @@
 UID: NA:realtimeapiset
 ms.assetid: 56954e94-5413-37c0-8652-f06fa37b14a7
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

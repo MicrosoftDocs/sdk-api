@@ -4,7 +4,7 @@ title: SCardIntroduceCardTypeA function
 author: windows-sdk-content
 description: Introduces a smart card to the smart card subsystem (for the active user) by adding it to the smart card database.
 old-location: security\scardintroducecardtype.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1ac88466-1277-44d7-a471-b31d6bfce99e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

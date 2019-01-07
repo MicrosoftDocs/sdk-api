@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
 author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

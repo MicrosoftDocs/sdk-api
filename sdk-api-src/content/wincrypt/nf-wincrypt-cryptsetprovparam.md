@@ -4,7 +4,7 @@ title: CryptSetProvParam function
 author: windows-sdk-content
 description: Customizes the operations of a cryptographic service provider (CSP). This function is commonly used to set a security descriptor on the key container associated with a CSP to control access to the private keys in that key container.
 old-location: security\cryptsetprovparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 98306a7b-b218-4eb4-99f0-0b5bcc632a13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

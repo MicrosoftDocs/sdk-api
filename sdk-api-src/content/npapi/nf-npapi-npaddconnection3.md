@@ -4,7 +4,7 @@ title: NPAddConnection3 function
 author: windows-sdk-content
 description: Connects a local device to a network resource.
 old-location: security\npaddconnection3.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b0d730f7-595e-4ea7-8688-db479dcc40b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

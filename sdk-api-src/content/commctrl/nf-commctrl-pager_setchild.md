@@ -4,7 +4,7 @@ title: Pager_SetChild macro
 author: windows-sdk-content
 description: Sets the contained window for the pager control.
 old-location: controls\Pager_SetChild.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setchild.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

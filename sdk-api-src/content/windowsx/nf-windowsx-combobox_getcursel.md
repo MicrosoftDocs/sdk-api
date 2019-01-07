@@ -4,7 +4,7 @@ title: ComboBox_GetCurSel macro
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a combo box. You can use this macro or send the CB_GETCURSEL message explicitly.
 old-location: controls\ComboBox_GetCurSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

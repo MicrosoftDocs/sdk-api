@@ -4,7 +4,7 @@ title: TARGET_TYPE
 author: windows-sdk-content
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

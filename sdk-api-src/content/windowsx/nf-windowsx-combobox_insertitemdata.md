@@ -4,7 +4,7 @@ title: ComboBox_InsertItemData macro
 author: windows-sdk-content
 description: Inserts item data in a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextHost::TxGetDC
 author: windows-sdk-content
 description: Requests the device context for the text host window.
 old-location: controls\ITextHost_TxGetDC.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

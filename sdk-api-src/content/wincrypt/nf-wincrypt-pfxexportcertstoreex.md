@@ -4,7 +4,7 @@ title: PFXExportCertStoreEx function
 author: windows-sdk-content
 description: Exports the certificates and, if available, their associated private keys from the referenced certificate store.
 old-location: security\pfxexportcertstoreex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e8bd54b1-946f-4c65-8a86-96f0dbec07ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

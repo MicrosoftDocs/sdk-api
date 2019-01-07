@@ -4,7 +4,7 @@ title: KERB_ADD_BINDING_CACHE_ENTRY_REQUEST
 author: windows-sdk-content
 description: Specifies a message to add a binding cache entry.
 old-location: security\kerb_add_binding_cache_entry_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2EFB8F01-0665-4031-B02A-8ECB5B9C7C21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

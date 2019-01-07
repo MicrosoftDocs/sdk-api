@@ -4,7 +4,7 @@ title: DateTime_GetMonthCalFont macro
 author: windows-sdk-content
 description: Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the DTM_GETMCFONT message explicitly.
 old-location: controls\DateTime_GetMonthCalFont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

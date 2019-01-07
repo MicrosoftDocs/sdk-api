@@ -4,7 +4,7 @@ title: KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE
 author: windows-sdk-content
 description: Contains the results of querying for the extended policies of the specified domain.
 old-location: security\kerb_query_domain_extended_policies_response.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4BFF08D8-9D5E-4041-9DF6-AAE44292C135
 ms.author: windowssdkdev
 ms.date: 12/5/2018

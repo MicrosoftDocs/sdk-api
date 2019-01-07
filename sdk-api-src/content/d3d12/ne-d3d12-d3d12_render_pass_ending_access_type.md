@@ -74,3 +74,14 @@ Indicates that the resource(s)—for example, a multi-sample anti-aliasing (MSAA
 
 Indicates that your application will neither read from nor write  to the resource(s) during the render pass. You would most likely use this value to indicate that you won't be accessing the depth/stencil plane for a depth/stencil view (DSV). You must pair this value with <a href="https://msdn.microsoft.com/12B376DB-2CCF-493E-8B21-BAAE66B5FF1E">D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_NO_ACCESS</a> in the corresponding <a href="https://msdn.microsoft.com/48356954-F233-4FD5-A32B-099E83DC46C0">D3D12_RENDER_PASS_BEGINNING_ACCESS</a> structure.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

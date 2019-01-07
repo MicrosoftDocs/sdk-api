@@ -4,7 +4,7 @@ title: ITextDocument2::GetDocumentFont
 author: windows-sdk-content
 description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentfont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

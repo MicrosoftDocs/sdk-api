@@ -4,7 +4,7 @@ title: CryptRetrieveObjectByUrlA function
 author: windows-sdk-content
 description: Retrieves the public key infrastructure (PKI) object from a location specified by a URL.
 old-location: security\cryptretrieveobjectbyurl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2e205f97-be9b-4358-ba22-d475b6a250b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

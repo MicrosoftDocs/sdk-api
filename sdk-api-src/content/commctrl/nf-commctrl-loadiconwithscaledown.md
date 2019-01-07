@@ -4,7 +4,7 @@ title: LoadIconWithScaleDown function
 author: windows-sdk-content
 description: Loads an icon. If the icon is not a standard size, this function scales down a larger image instead of scaling up a smaller image.
 old-location: controls\LoadIconWithScaleDown.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconwithscaledown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

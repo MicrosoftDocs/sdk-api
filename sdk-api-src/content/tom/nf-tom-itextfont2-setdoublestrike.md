@@ -4,7 +4,7 @@ title: ITextFont2::SetDoubleStrike
 author: windows-sdk-content
 description: Sets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_setdoublestrike.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: bed8ce93-5c3a-43ee-b9c7-c1fd42481bbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCARD_ATRMASK
 author: windows-sdk-content
 description: Used by the SCardLocateCardsByATR function to locate cards.
 old-location: security\scard_atrmask.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d7f1a747-a858-4bf6-874a-d76aa4227cd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: QueryUnbiasedInterruptTimePrecise function
 author: windows-sdk-content
 description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 old-location: base\queryunbiasedinterrupttimeprecise.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.author: windowssdkdev
 ms.date: 12/5/2018

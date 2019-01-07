@@ -4,7 +4,7 @@ title: PFN_CERT_DLL_OPEN_STORE_PROV_FUNC
 author: windows-sdk-content
 description: Implemented by a store-provider and is used to open a store.
 old-location: security\certdllopenstoreprov.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2fe291dd-23e2-49df-b9e4-a4ed29667123
 ms.author: windowssdkdev
 ms.date: 12/5/2018

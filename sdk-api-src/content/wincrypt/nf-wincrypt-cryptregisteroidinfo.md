@@ -4,7 +4,7 @@ title: CryptRegisterOIDInfo function
 author: windows-sdk-content
 description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.
 old-location: security\cryptregisteroidinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.author: windowssdkdev
 ms.date: 12/5/2018

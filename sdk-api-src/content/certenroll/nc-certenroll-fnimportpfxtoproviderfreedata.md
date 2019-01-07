@@ -4,7 +4,7 @@ title: FNIMPORTPFXTOPROVIDERFREEDATA
 author: windows-sdk-content
 description: Frees PFX certificate context(s).
 old-location: security\fnimportpfxtoproviderfreedata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: F3A28405-8D6E-4930-946B-FB7D9B6518B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

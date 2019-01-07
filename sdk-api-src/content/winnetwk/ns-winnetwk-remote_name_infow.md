@@ -4,7 +4,7 @@ title: REMOTE_NAME_INFOW
 author: windows-sdk-content
 description: The REMOTE_NAME_INFO structure contains information about the remote form of a universal name. It is used by the NPGetUniversalName function.
 old-location: security\remote_name_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5dec0c40-757e-4c3b-8442-23f6d0f0e670
 ms.author: windowssdkdev
 ms.date: 12/5/2018

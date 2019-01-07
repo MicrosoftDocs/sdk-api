@@ -4,7 +4,7 @@ title: ITextRange::GetPoint
 author: windows-sdk-content
 description: Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
 old-location: controls\ITextRange_GetPoint.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpoint.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

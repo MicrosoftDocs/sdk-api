@@ -4,7 +4,7 @@ title: IImageList::EndDrag
 author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\IImageList_EndDrag.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\enddrag.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

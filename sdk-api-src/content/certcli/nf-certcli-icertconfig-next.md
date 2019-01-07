@@ -4,7 +4,7 @@ title: ICertConfig::Next
 author: windows-sdk-content
 description: Retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_next.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: af81c25e-94e7-4c50-9e90-612c034e24b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

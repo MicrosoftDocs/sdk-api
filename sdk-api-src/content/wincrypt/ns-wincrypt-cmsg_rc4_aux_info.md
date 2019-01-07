@@ -4,7 +4,7 @@ title: CMSG_RC4_AUX_INFO
 author: windows-sdk-content
 description: The CMSG_RC4_AUX_INFO structure contains the bit length of the key for RC4 encryption algorithms. The pvEncryptionAuxInfo member in CMSG_ENVELOPED_ENCODE_INFO can be set to point to an instance of this structure.
 old-location: security\cmsg_rc4_aux_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8e456156-b84a-4ca7-9dc7-9f5da4a32a6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

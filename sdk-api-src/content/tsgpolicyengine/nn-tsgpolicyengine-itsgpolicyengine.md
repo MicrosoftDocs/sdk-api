@@ -4,7 +4,7 @@ title: ITSGPolicyEngine
 author: windows-sdk-content
 description: Exposes methods that authorize connections and resources.
 old-location: termserv\itsgpolicyengine.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

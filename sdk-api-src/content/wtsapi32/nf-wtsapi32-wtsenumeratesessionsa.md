@@ -4,7 +4,7 @@ title: WTSEnumerateSessionsA function
 author: windows-sdk-content
 description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumeratesessions.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6f9dd7d4-48dc-411c-85f1-cd1239d1e106
 ms.author: windowssdkdev
 ms.date: 12/5/2018

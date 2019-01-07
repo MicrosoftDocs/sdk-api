@@ -4,7 +4,7 @@ title: ComboBox_GetCueBannerText macro
 author: windows-sdk-content
 description: Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the CB_GETCUEBANNER message explicitly.
 old-location: controls\ComboBox_GetCueBannerText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcuebannertext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

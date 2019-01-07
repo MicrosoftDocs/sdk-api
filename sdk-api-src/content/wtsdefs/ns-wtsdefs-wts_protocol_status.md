@@ -4,7 +4,7 @@ title: WTS_PROTOCOL_STATUS
 author: windows-sdk-content
 description: Contains information about the status of the protocol.
 old-location: termserv\wts_protocol_status.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 20e66033-fc79-49c9-af0e-abaf6e4ba501
 ms.author: windowssdkdev
 ms.date: 12/5/2018

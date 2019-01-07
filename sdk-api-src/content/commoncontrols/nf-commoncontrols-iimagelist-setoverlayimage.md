@@ -4,7 +4,7 @@ title: IImageList::SetOverlayImage
 author: windows-sdk-content
 description: Adds a specified image to the list of images used as overlay masks.
 old-location: controls\IImageList_SetOverlayImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setoverlayimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SR_SECURITY_DESCRIPTOR
 author: windows-sdk-content
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
 ms.author: windowssdkdev
 ms.date: 12/5/2018

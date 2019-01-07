@@ -4,7 +4,7 @@ title: KERB_CHANGEPASSWORD_REQUEST
 author: windows-sdk-content
 description: Contains information used to change a password.
 old-location: security\kerb_changepassword_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 96463bac-0833-4a5e-b054-e32a29bc903d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

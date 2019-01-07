@@ -4,7 +4,7 @@ title: IRichEditOleCallback::DeleteObject
 author: windows-sdk-content
 description: Sends notification that an object is about to be deleted from a rich edit control. The object is not necessarily being released when this member is called.
 old-location: controls\IRichEditOleCallback_DeleteObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackdeleteobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

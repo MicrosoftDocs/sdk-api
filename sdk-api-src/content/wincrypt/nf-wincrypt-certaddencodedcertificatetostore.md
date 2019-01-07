@@ -4,7 +4,7 @@ title: CertAddEncodedCertificateToStore function
 author: windows-sdk-content
 description: Creates a certificate context from an encoded certificate and adds it to the certificate store.
 old-location: security\certaddencodedcertificatetostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

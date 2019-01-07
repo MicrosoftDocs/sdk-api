@@ -4,7 +4,7 @@ title: LSA_TOKEN_INFORMATION_V1
 author: windows-sdk-content
 description: Contains information an authentication package can place in a Version 2 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v2.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6BEDAC01-99DA-4EE5-9667-A11E00BE7A30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

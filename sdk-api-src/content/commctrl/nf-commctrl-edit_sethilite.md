@@ -4,7 +4,7 @@ title: Edit_SetHilite macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_SetHilite.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_sethilite.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

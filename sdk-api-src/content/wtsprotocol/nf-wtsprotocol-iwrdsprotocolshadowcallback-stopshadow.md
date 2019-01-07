@@ -4,7 +4,7 @@ title: IWRdsProtocolShadowCallback::StopShadow
 author: windows-sdk-content
 description: Instructs the Remote Desktop Services service to stop shadowing a target.
 old-location: termserv\iwrdsprotocolshadowcallback_stopshadow.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 09911813-554d-4ce1-b34e-5a6f57ec286d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

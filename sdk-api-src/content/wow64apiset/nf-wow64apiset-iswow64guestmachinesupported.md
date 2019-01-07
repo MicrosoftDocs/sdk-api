@@ -4,7 +4,7 @@ title: IsWow64GuestMachineSupported function
 author: windows-sdk-content
 description: Determines which architectures are supported (under WOW64) on the given machine architecture.
 old-location: base\iswow64guestmachinesupported.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417
 ms.author: windowssdkdev
 ms.date: 12/5/2018

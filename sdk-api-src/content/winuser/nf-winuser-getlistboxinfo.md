@@ -4,7 +4,7 @@ title: GetListBoxInfo function
 author: windows-sdk-content
 description: Retrieves the number of items per column in a specified list box.
 old-location: controls\GetListBoxInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxfunctions\getlistboxinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

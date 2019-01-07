@@ -4,7 +4,7 @@ title: GetThemePosition function
 author: windows-sdk-content
 description: Retrieves the value of a position property.
 old-location: controls\GetThemePosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

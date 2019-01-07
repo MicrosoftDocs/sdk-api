@@ -4,7 +4,7 @@ title: ICertRequest2::GetErrorMessageText
 author: windows-sdk-content
 description: Retrieves the error message text for an HRESULT error code.
 old-location: security\icertrequest2_geterrormessagetext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: eeecaeec-2e06-4d4b-9b85-5fb3ef90944a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

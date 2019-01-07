@@ -4,7 +4,7 @@ title: CredIsMarshaledCredentialW function
 author: windows-sdk-content
 description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
 old-location: security\credismarshaledcredential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
 ms.author: windowssdkdev
 ms.date: 12/5/2018

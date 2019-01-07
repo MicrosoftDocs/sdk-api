@@ -4,7 +4,7 @@ title: StartTraceW function
 author: windows-sdk-content
 description: The StartTrace function registers and starts an event tracing session.
 old-location: etw\starttrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

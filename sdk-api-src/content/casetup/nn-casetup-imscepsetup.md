@@ -4,7 +4,7 @@ title: IMSCEPSetup
 author: windows-sdk-content
 description: Defines functionality to install and uninstall a Network Device Enrollment Service (NDES) role on a Certificate Services computer.
 old-location: security\imscepsetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

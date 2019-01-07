@@ -4,7 +4,7 @@ title: UninitializeFlatSB function
 author: windows-sdk-content
 description: Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
 old-location: controls\UninitializeFlatSB.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

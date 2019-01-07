@@ -2,7 +2,7 @@
 UID: NA:schedule
 ms.assetid: 3fab69ba-c45f-3e1d-904f-8add6b8fb6b5
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: DRAGLISTINFO
 author: windows-sdk-content
 description: Contains information about a drag event. The pointer to DRAGLISTINFO is passed as the lParam parameter of the drag list message.
 old-location: controls\DRAGLISTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\structures\draglistinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

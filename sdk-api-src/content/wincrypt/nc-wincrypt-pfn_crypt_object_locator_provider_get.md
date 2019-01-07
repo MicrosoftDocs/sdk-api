@@ -4,7 +4,7 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 author: windows-sdk-content
 description: Retrieves an object.
 old-location: security\pfn_crypt_object_locator_provider_get.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

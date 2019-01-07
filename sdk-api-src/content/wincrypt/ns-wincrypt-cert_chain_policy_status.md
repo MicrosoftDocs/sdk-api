@@ -4,7 +4,7 @@ title: CERT_CHAIN_POLICY_STATUS
 author: windows-sdk-content
 description: Holds certificate chain status information returned by the CertVerifyCertificateChainPolicy function when the certificate chains are validated.
 old-location: security\cert_chain_policy_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 599a09b6-fe9e-4489-99ae-8a88fa78a660
 ms.author: windowssdkdev
 ms.date: 12/5/2018

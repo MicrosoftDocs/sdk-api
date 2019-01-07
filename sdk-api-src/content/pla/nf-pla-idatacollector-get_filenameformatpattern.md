@@ -4,7 +4,7 @@ title: IDataCollector::get_FileNameFormatPattern
 author: windows-sdk-content
 description: Retrieves or sets the format pattern to use when decorating the file name.
 old-location: pla\idatacollector_filenameformatpattern.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 94e6bb13-fb99-4968-8a7f-fbda1f6ea42e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

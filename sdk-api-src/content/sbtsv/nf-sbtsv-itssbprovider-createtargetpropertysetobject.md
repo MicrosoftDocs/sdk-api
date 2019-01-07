@@ -4,7 +4,7 @@ title: ITsSbProvider::CreateTargetPropertySetObject
 author: windows-sdk-content
 description: Creates an ITsSbTargetPropertySet target property set object.
 old-location: termserv\itssbprovider_createtargetpropertysetobject.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 82e9d414-2137-44f3-a984-dc12aba3ecd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

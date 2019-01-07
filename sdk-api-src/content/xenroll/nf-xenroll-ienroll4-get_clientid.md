@@ -4,7 +4,7 @@ title: IEnroll4::get_ClientId
 author: windows-sdk-content
 description: The ClientId property sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_clientid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7a21b390-4b44-4c50-b11f-1ebf2118f7e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

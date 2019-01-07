@@ -4,7 +4,7 @@ title: IRemoteDesktopClientTouchPointer::get_PointerSpeed
 author: windows-sdk-content
 description: How fast the touch pointer cursor will move on the virtual desktop relative to the speed of the gesture on the client.
 old-location: termserv\iremotedesktopclienttouchpointer_pointerspeed.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 40c35308-cabe-4a71-b7bb-b5ada5eafa91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

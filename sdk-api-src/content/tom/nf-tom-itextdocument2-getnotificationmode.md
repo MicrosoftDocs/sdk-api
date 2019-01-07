@@ -4,7 +4,7 @@ title: ITextDocument2::GetNotificationMode
 author: windows-sdk-content
 description: Gets the notification mode.
 old-location: controls\itextdocument2_getnotificationmode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 720f9759-96c1-45f0-9251-90d60532d247
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CESSetupProperty
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cessetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9FA6B249-B5B3-40AF-B175-CD5933D468B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TRACE_PERIODIC_CAPTURE_STATE_INFO
 author: windows-sdk-content
 description: Information relating to a periodic capture state.
 old-location: etw\trace_periodic_capture_state_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

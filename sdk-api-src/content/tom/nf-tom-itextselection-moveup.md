@@ -4,7 +4,7 @@ title: ITextSelection::MoveUp
 author: windows-sdk-content
 description: Mimics the functionality of the Up Arrow and Page Up keys.
 old-location: controls\ITextSelection_MoveUp.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

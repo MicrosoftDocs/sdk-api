@@ -4,7 +4,7 @@ title: CertCloseStore function
 author: windows-sdk-content
 description: Closes a certificate store handle and reduces the reference count on the store.
 old-location: security\certclosestore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
 ms.author: windowssdkdev
 ms.date: 12/5/2018

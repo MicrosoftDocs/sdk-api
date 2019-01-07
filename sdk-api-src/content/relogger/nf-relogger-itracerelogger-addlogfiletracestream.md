@@ -4,7 +4,7 @@ title: ITraceRelogger::AddLogfileTraceStream
 author: windows-sdk-content
 description: Adds a new logfile-based ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addlogfiletracestream.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2bdf6175-f4c6-4217-a37a-b2af32ad38c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

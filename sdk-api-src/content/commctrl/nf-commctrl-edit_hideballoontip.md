@@ -4,7 +4,7 @@ title: Edit_HideBalloonTip macro
 author: windows-sdk-content
 description: Hides any balloon tip associated with an edit control. You can use this macro or send the EM_HIDEBALLOONTIP message explicitly.
 old-location: controls\Edit_HideBalloonTip.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_hideballoontip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

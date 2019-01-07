@@ -4,7 +4,7 @@ title: OPENCARD_SEARCH_CRITERIAA
 author: windows-sdk-content
 description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure.
 old-location: security\opencard_search_criteria.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f20874ca-a714-45b7-abcb-85bedc4e6245
 ms.author: windowssdkdev
 ms.date: 12/5/2018

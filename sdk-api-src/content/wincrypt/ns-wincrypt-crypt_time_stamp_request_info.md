@@ -4,7 +4,7 @@ title: CRYPT_TIME_STAMP_REQUEST_INFO
 author: windows-sdk-content
 description: Used for time stamping.
 old-location: security\crypt_time_stamp_request_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 876527dd-1ec5-4783-a7ad-20a0e2d2367a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

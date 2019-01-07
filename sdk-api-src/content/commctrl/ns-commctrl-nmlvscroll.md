@@ -4,7 +4,7 @@ title: NMLVSCROLL
 author: windows-sdk-content
 description: Provides information about a scrolling operation.
 old-location: controls\NMLVSCROLL.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvscroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

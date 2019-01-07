@@ -4,7 +4,7 @@ title: SaslGetContextOption function
 author: windows-sdk-content
 description: Retrieves the specified property of the specified SASL context.
 old-location: security\saslgetcontextoption.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c9c424d3-07e6-4ed0-9189-c932af0475d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

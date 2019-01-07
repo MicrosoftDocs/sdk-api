@@ -4,7 +4,7 @@ title: CERT_PRIVATE_KEY_VALIDITY
 author: windows-sdk-content
 description: The CERT_PRIVATE_KEY_VALIDITY structure indicates a valid time span for the private key corresponding to a certificate's public key.
 old-location: security\cert_private_key_validity.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4764174f-eecc-402e-8395-d3e2be0b0ae6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

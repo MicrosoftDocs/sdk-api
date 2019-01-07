@@ -4,7 +4,7 @@ title: Edit_TakeFocus macro
 author: windows-sdk-content
 description: Forces a single-line edit control to receive keyboard focus. You can use this macro or send the EM_TAKEFOCUS message explicitly.
 old-location: controls\Edit_TakeFocus.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_takefocus.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

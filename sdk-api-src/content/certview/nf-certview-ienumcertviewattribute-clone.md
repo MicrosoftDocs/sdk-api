@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::Clone
 author: windows-sdk-content
 description: Creates a copy of the attribute-enumeration sequence object in its current state.
 old-location: security\ienumcertviewattribute_clone.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TBBUTTON
 author: windows-sdk-content
 description: Contains information about a button in a toolbar.
 old-location: controls\TBBUTTON.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

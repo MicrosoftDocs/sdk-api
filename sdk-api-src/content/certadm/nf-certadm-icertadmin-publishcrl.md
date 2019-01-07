@@ -4,7 +4,7 @@ title: ICertAdmin::PublishCRL
 author: windows-sdk-content
 description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_publishcrl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

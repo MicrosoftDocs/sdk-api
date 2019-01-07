@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildrenAsNativeArray
 title: IUIAutomationOrCondition::GetChildrenAsNativeArray
 author: windows-sdk-content
-description: Retrieves the conditions that make up this condition, as an ordinary array.
+description: Retrieves the conditions that make up this &#0034;or&#0034; condition, as an ordinary array.
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray.htm
 tech.root: WinAuto
 ms.assetid: d8c45ccb-5e3c-4816-8ffe-6865a7794e8b
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves the conditions that make up this condition, as an ordinary array.
+Retrieves the conditions that make up this "or" condition, as an ordinary array.
 
 
 ## -parameters

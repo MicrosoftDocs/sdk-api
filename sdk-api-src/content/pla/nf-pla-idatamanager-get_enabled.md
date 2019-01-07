@@ -4,7 +4,7 @@ title: IDataManager::get_Enabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the data manager is enabled to run.
 old-location: pla\idatamanager_enabled.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3048a4b6-3e18-4585-bf5e-d91a4c0adcfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

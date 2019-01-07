@@ -4,7 +4,7 @@ title: ITextPara::GetListLevelIndex
 author: windows-sdk-content
 description: Retrieves the list level index used with paragraphs.
 old-location: controls\ITextPara_GetListLevelIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistlevelindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptImportPublicKeyInfoEx2 function
 author: windows-sdk-content
 description: Imports a public key into the CNG asymmetric provider that corresponds to the public key object identifier (OID) and returns a CNG handle to the key.
 old-location: security\cryptimportpublickeyinfoex2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c73f2499-75e9-4146-ae4c-0e949206ea37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

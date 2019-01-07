@@ -4,7 +4,7 @@ title: Edit_SetModify macro
 author: windows-sdk-content
 description: Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the EM_SETMODIFY message explicitly.
 old-location: controls\Edit_SetModify.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setmodify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

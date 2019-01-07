@@ -4,7 +4,7 @@ title: ScrollWindow function
 author: windows-sdk-content
 description: The ScrollWindow function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_ENCODE_PARA
 author: windows-sdk-content
 description: Used by the CryptEncodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_encode_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
 ms.author: windowssdkdev
 ms.date: 12/5/2018

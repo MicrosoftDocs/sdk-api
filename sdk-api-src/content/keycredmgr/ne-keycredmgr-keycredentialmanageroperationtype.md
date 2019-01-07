@@ -4,7 +4,7 @@ title: KeyCredentialManagerOperationType
 author: windows-sdk-content
 description: These are the operational enum values that are passed to KeyCredentialManagerShowUIOperation.
 old-location: security\keycredentialmanageroperationtype.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 871DA6A2-0033-4863-B37E-C75ADD512C3A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

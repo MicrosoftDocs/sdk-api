@@ -4,7 +4,7 @@ title: CMC_TAGGED_OTHER_MSG
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_other_msg.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cf70c245-fe22-4c02-9cfd-07690b930585
 ms.author: windowssdkdev
 ms.date: 12/5/2018

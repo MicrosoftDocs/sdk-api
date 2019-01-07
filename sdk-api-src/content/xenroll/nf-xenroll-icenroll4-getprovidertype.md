@@ -4,7 +4,7 @@ title: ICEnroll4::getProviderType
 author: windows-sdk-content
 description: Retrieves the type of the specified cryptographic service provider (CSP). This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getprovidertype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f47c07b8-0919-44d4-b331-e062341aa050
 ms.author: windowssdkdev
 ms.date: 12/5/2018

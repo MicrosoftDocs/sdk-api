@@ -4,7 +4,7 @@ title: PWLX_QUERY_TERMINAL_SERVICES_DATA
 author: windows-sdk-content
 description: Called by GINA to retrieve Terminal Services user configuration information after a user has logged on.
 old-location: security\wlxqueryterminalservicesdata.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a7b81d76-74de-44a8-92ad-765ad1f7013e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

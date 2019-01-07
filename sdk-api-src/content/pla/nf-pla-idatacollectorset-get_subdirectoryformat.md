@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_SubdirectoryFormat
 author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the subdirectory name.
 old-location: pla\idatacollectorset_get_subdirectoryformat.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f9e6eb88-ac38-4b99-ab64-a408f75f7969
 ms.author: windowssdkdev
 ms.date: 12/5/2018

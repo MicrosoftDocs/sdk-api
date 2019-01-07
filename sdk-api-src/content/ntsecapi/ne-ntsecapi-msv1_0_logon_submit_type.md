@@ -4,7 +4,7 @@ title: MSV1_0_LOGON_SUBMIT_TYPE
 author: windows-sdk-content
 description: Indicates the kind of logon being requested.
 old-location: security\msv1_0_logon_submit_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 03bf43f0-44f4-40c6-8d5d-381f36ebdd0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

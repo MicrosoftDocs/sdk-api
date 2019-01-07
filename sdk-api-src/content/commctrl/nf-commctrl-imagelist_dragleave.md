@@ -4,7 +4,7 @@ title: ImageList_DragLeave function
 author: windows-sdk-content
 description: Unlocks the specified window and hides the drag image, allowing the window to be updated.
 old-location: controls\ImageList_DragLeave.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragleave.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

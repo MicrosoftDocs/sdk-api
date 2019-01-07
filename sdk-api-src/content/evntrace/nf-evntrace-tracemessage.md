@@ -4,7 +4,7 @@ title: TraceMessage function
 author: windows-sdk-content
 description: The TraceMessage function sends an informational message to an event tracing session.
 old-location: etw\tracemessage.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

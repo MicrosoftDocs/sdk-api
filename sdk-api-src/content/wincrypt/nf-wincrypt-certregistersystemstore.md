@@ -4,7 +4,7 @@ title: CertRegisterSystemStore function
 author: windows-sdk-content
 description: Registers a system store.
 old-location: security\certregistersystemstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b6f72826-92ab-4e21-8db9-eb053663148b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

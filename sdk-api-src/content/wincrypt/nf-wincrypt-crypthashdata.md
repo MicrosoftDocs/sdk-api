@@ -4,7 +4,7 @@ title: CryptHashData function
 author: windows-sdk-content
 description: Adds data to a specified hash object.
 old-location: security\crypthashdata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

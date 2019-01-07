@@ -4,7 +4,7 @@ title: ListView_Scroll macro
 author: windows-sdk-content
 description: Scrolls the content of a list-view control. You can use this macro or send the LVM_SCROLL message explicitly.
 old-location: controls\ListView_Scroll.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

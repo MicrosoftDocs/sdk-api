@@ -4,7 +4,7 @@ title: ITextStory::SetFormattedText
 author: windows-sdk-content
 description: Replaces a story’s text with specified formatted text.
 old-location: controls\itextstory_setformattedtext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.author: windowssdkdev
 ms.date: 12/5/2018

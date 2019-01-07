@@ -4,7 +4,7 @@ title: CERT_CHAIN_POLICY_PARA
 author: windows-sdk-content
 description: Contains information used in CertVerifyCertificateChainPolicy to establish policy criteria for the verification of certificate chains.
 old-location: security\cert_chain_policy_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5e4fffcb-132b-42c0-81b2-9f866e274c32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -59,7 +59,7 @@ Provides detail about the adapter architecture, so that your application can bet
 ### -field NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device is relevant.
-            See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
+            See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
             <b>NodeIndex</b> is filled out by the application before calling <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
           
 

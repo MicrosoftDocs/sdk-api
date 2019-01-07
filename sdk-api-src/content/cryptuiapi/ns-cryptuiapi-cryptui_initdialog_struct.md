@@ -4,7 +4,7 @@ title: CRYPTUI_INITDIALOG_STRUCT
 author: windows-sdk-content
 description: Supports the CRYPTUI_VIEWCERTIFICATE_STRUCT structure.
 old-location: security\cryptui_initdialog_struct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c6335c02-3b3e-45e2-bb58-b7213aea500b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

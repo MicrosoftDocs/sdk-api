@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
 old-location: security\icertencodelongarray_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont2::SetCookie
 author: windows-sdk-content
 description: Sets the client cookie.
 old-location: controls\itextfont2_setcookie.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

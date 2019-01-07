@@ -4,7 +4,7 @@ title: TreeView_SetScrollTime macro
 author: windows-sdk-content
 description: Sets the maximum scroll time for the tree-view control. You can use this macro or send the TVM_SETSCROLLTIME message explicitly.
 old-location: controls\TreeView_SetScrollTime.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setscrolltime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

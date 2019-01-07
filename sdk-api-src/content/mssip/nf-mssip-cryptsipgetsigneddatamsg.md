@@ -4,7 +4,7 @@ title: CryptSIPGetSignedDataMsg function
 author: windows-sdk-content
 description: Retrieves an Authenticode signature from the file.
 old-location: security\cryptsipgetsigneddatamsg.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

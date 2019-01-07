@@ -4,7 +4,7 @@ title: MonthCal_GetSelRange macro
 author: windows-sdk-content
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the MCM_GETSELRANGE message explicitly.
 old-location: controls\MonthCal_GetSelRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getselrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

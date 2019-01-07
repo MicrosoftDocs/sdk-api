@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::IsWorkspaceSSOEnabled
 author: windows-sdk-content
 description: Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.
 old-location: termserv\iworkspacescriptable_isworkspacessoenabled.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 54608723-9a17-4bf2-a46d-8fed52378767
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:expandedresources
 ms.assetid: 38a92760-c59b-33df-9c93-c34bb0842696
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

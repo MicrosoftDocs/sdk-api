@@ -4,7 +4,7 @@ title: ListView_SetItemIndexState macro
 author: windows-sdk-content
 description: Sets the state of a specified list-view item. Use this macro or send the LVM_SETITEMINDEXSTATE message explicitly.
 old-location: controls\ListView_SetItemIndexState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

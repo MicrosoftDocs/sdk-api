@@ -4,7 +4,7 @@ title: CERT_TRUST_STATUS
 author: windows-sdk-content
 description: Contains trust information about a certificate in a certificate chain, summary trust information about a simple chain of certificates, or summary information about an array of simple chains.
 old-location: security\cert_trust_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: af1e1db2-7b53-4491-8317-4abf3568fb03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

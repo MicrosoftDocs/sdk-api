@@ -4,7 +4,7 @@ title: RegFlushKey function
 author: windows-sdk-content
 description: Writes all the attributes of the specified open registry key into the registry.
 old-location: base\regflushkey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

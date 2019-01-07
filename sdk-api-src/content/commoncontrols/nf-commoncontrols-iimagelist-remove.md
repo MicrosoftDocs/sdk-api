@@ -4,7 +4,7 @@ title: IImageList::Remove
 author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\IImageList_Remove.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\remove.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

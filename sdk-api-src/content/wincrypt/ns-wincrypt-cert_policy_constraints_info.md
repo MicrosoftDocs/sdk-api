@@ -4,7 +4,7 @@ title: CERT_POLICY_CONSTRAINTS_INFO
 author: windows-sdk-content
 description: The CERT_POLICY_CONSTRAINTS_INFO structure contains established policies for accepting certificates as trusted.
 old-location: security\cert_policy_constraints_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f0121ae9-165c-4e86-8672-352a177bb877
 ms.author: windowssdkdev
 ms.date: 12/5/2018

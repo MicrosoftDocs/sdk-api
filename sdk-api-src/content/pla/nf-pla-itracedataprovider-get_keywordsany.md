@@ -4,7 +4,7 @@ title: ITraceDataProvider::get_KeywordsAny
 author: windows-sdk-content
 description: Retrieves the list of keywords that determine the category of events that you want the provider to write.
 old-location: pla\itracedataprovider_keywordsany.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

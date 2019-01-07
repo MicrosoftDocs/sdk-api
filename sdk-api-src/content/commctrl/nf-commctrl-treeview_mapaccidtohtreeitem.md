@@ -4,7 +4,7 @@ title: TreeView_MapAccIDToHTREEITEM macro
 author: windows-sdk-content
 description: Maps an accessibility ID to an HTREEITEM. You can use this macro or send the TVM_MAPACCIDTOHTREEITEM message explicitly.
 old-location: controls\TreeView_MapAccIDToHTREEITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_mapaccidtohtreeitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

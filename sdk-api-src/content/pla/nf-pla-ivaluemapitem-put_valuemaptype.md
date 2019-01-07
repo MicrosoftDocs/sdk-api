@@ -4,7 +4,7 @@ title: IValueMapItem::put_ValueMapType
 author: windows-sdk-content
 description: Retrieves or sets the type of the item.
 old-location: pla\ivaluemapitem_valuemaptype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 006d134d-d14b-4964-b46c-7dd2353d2493
 ms.author: windowssdkdev
 ms.date: 12/5/2018

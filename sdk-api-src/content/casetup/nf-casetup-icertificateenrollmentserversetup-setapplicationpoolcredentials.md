@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials
 author: windows-sdk-content
 description: Specifies user account information for the application pool in which the Certificate Enrollment Web Service (CES) runs.
 old-location: security\icertificateenrollmentserversetup_setapplicationpoolcredentials.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

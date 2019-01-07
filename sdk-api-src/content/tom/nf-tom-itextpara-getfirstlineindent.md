@@ -4,7 +4,7 @@ title: ITextPara::GetFirstLineIndent
 author: windows-sdk-content
 description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
 old-location: controls\ITextPara_GetFirstLineIndent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfirstlineindent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

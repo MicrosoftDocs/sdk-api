@@ -4,7 +4,7 @@ title: CERT_LOGOTYPE_REFERENCE
 author: windows-sdk-content
 description: Contains logotype reference information.
 old-location: security\cert_logotype_reference.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 22e6492e-afc2-4160-ad6c-0b65265eafeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

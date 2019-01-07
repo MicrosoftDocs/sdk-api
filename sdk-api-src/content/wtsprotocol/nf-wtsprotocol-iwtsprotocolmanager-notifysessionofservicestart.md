@@ -4,7 +4,7 @@ title: IWTSProtocolManager::NotifySessionOfServiceStart
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionOfServiceStart is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStart.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestart.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8b9e7578-75e1-4447-8ff9-e391bf339fbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

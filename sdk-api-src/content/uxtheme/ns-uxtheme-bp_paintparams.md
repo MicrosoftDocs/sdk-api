@@ -4,7 +4,7 @@ title: BP_PAINTPARAMS
 author: windows-sdk-content
 description: Defines paint operation parameters for BeginBufferedPaint.
 old-location: controls\BP_PAINTPARAMS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\bp_paintparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

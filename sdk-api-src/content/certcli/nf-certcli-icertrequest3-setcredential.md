@@ -4,7 +4,7 @@ title: ICertRequest3::SetCredential
 author: windows-sdk-content
 description: Sets the credential used to contact the Certificate Enrollment Web Service.
 old-location: security\icertrequest3_setcredential.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

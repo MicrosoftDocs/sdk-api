@@ -4,7 +4,7 @@ title: ISchedule::put_StartDate
 author: windows-sdk-content
 description: Retrieves or sets the date when the schedule becomes valid.
 old-location: pla\ischedule_startdate.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1bb90c84-0249-4714-9371-d2aed2922d9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

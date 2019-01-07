@@ -4,7 +4,7 @@ title: ScrollBar_Enable macro
 author: windows-sdk-content
 description: Enables or disables a scroll bar control.
 old-location: controls\ScrollBar_Enable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_enable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

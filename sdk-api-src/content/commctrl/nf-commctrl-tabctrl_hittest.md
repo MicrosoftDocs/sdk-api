@@ -4,7 +4,7 @@ title: TabCtrl_HitTest macro
 author: windows-sdk-content
 description: Determines which tab, if any, is at a specified screen position. You can use this macro or send the TCM_HITTEST message explicitly.
 old-location: controls\TabCtrl_HitTest.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_hittest.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll4::resetBlobProperties
 author: windows-sdk-content
 description: Resets the properties of a BLOB.
 old-location: security\icenroll4_resetblobproperties.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ee3c056-27b0-4606-bdf6-63e5e4439274
 ms.author: windowssdkdev
 ms.date: 12/5/2018

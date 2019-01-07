@@ -4,7 +4,7 @@ title: ITsSbResourceNotification::NotifyTargetChange
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a target object.
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

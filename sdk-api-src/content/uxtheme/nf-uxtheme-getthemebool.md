@@ -4,7 +4,7 @@ title: GetThemeBool function
 author: windows-sdk-content
 description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
 old-location: controls\GetThemeBool.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

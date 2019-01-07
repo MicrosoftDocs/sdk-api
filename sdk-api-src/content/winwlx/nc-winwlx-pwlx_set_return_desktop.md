@@ -4,7 +4,7 @@ title: PWLX_SET_RETURN_DESKTOP
 author: windows-sdk-content
 description: Called by GINA to specify the alternate application desktop that Winlogon will switch to when the current secure attention sequence (SAS) event processing function is complete.
 old-location: security\wlxsetreturndesktop.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 539e81d9-6362-4476-bdbc-849fb905b268
 ms.author: windowssdkdev
 ms.date: 12/5/2018

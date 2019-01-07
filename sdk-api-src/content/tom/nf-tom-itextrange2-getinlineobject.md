@@ -4,7 +4,7 @@ title: ITextRange2::GetInlineObject
 author: windows-sdk-content
 description: Gets the properties of the inline object at the range active end.
 old-location: controls\itextrange2_getinlineobject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

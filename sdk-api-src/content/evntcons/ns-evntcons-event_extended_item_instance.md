@@ -4,7 +4,7 @@ title: EVENT_EXTENDED_ITEM_INSTANCE
 author: windows-sdk-content
 description: Defines the relationship between events if TraceEventInstance was used to log related events.
 old-location: etw\event_extended_item_instance.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3def638b-cab2-4b5d-b409-7285caa77ae1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

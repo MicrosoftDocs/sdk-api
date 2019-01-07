@@ -4,7 +4,7 @@ title: NPGetResourceInformation function
 author: windows-sdk-content
 description: Separates the part of a network resource accessed through the WNet API from the part accessed through APIs specific to the resource type.
 old-location: security\npgetresourceinformation.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c256dec0-6e5c-4a67-bc99-c322086a8fc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

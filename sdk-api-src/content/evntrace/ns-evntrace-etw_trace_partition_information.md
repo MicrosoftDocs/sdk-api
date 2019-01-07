@@ -4,7 +4,7 @@ title: ETW_TRACE_PARTITION_INFORMATION
 author: windows-sdk-content
 description: Contains partition information pulled from an ETW trace.
 old-location: etw\etw_trace_partition_information.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 8D8F8E79-B273-417A-B8C2-6CE4FC454C07
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -122,7 +122,7 @@ For events originating from a “Hyper-V Container” template virtual machine.
 </dl>
 </td>
 <td width="60%">
-For events originating from applications running with  <a href="https://blogs.windows.com/msedgedev/2016/09/27/application-guard-microsoft-edge/">Windows Defender Application Guard</a>.
+For events originating from applications running with  <a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows Defender Application Guard</a>.
 
 </td>
 </tr>

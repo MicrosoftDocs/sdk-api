@@ -4,7 +4,7 @@ title: IFillLockBytes::SetFillSize
 author: windows-sdk-content
 description: The SetFillSize method sets the expected size of the byte array.
 old-location: stg\ifilllockbytes_setfillsize.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

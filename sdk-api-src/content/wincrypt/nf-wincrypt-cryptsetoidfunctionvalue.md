@@ -4,7 +4,7 @@ title: CryptSetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptSetOIDFunctionValue function sets a value for the specified encoding type, function name, OID, and value name.
 old-location: security\cryptsetoidfunctionvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e167c5d-0000-4359-a7b0-9b3e4e64c50c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont2::GetPropertyInfo
 author: windows-sdk-content
 description: Gets the property type and value of the specified extra propety.
 old-location: controls\itextfont2_getpropertyinfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: bea8f6da-f781-430f-b1cd-c28e11cc61bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

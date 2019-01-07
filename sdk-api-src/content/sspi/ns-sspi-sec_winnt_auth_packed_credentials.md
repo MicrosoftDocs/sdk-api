@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_PACKED_CREDENTIALS
 author: windows-sdk-content
 description: Specifies serialized credentials.
 old-location: security\sec_winnt_auth_packed_credentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

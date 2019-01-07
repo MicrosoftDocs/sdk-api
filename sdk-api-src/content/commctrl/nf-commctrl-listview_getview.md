@@ -4,7 +4,7 @@ title: ListView_GetView macro
 author: windows-sdk-content
 description: Gets the current view of a list-view control. You can use this macro or send the LVM_GETVIEW message explicitly.
 old-location: controls\ListView_GetView.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

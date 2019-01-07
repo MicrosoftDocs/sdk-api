@@ -4,7 +4,7 @@ title: ListView_SetItemCount macro
 author: windows-sdk-content
 description: Causes the list-view control to allocate memory for the specified number of items. You can use this macro or send the LVM_SETITEMCOUNT message explicitly.
 old-location: controls\ListView_SetItemCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

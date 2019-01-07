@@ -2,7 +2,7 @@
 UID: NA:photoacquire
 ms.assetid: 8578d389-ba4d-38b4-a2fd-3ab1943b6394
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

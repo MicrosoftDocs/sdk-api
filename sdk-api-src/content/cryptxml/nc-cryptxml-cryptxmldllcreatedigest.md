@@ -4,7 +4,7 @@ title: CryptXmlDllCreateDigest
 author: windows-sdk-content
 description: Creates a digest object for the specified method.
 old-location: security\cryptxmldllcreatedigest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

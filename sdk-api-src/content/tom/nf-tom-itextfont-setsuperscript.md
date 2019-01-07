@@ -4,7 +4,7 @@ title: ITextFont::SetSuperscript
 author: windows-sdk-content
 description: Sets whether characters are displayed as superscript.
 old-location: controls\ITextFont_SetSuperscript.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsuperscript.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

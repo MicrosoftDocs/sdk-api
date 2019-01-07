@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded certificate revocation list (CRL) distribution information extension and stores the resulting array in the COM object.
 old-location: security\icertencodecrldistinfo_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3df104a5-fbd7-4eb1-a6b2-b3e51afa15bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

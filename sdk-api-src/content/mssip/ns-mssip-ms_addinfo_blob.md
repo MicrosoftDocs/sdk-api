@@ -4,7 +4,7 @@ title: MS_ADDINFO_BLOB
 author: windows-sdk-content
 description: Provides additional information for in-memory BLOB subject types.
 old-location: security\ms_addinfo_blob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 236c8778-0b80-4157-8a81-24712ebf9a77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IImageList2::Initialize
 author: windows-sdk-content
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

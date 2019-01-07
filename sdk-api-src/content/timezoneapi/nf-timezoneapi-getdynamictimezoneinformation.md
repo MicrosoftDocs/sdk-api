@@ -4,7 +4,7 @@ title: GetDynamicTimeZoneInformation function
 author: windows-sdk-content
 description: Retrieves the current time zone and dynamic daylight saving time settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 old-location: base\getdynamictimezoneinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 9f96f779-7e4f-4a50-a9dc-f3bc86c76ece
 ms.author: windowssdkdev
 ms.date: 12/5/2018

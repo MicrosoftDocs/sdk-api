@@ -4,7 +4,7 @@ title: Header_GetItemCount macro
 author: windows-sdk-content
 description: Gets a count of the items in a header control. You can use this macro or send the HDM_GETITEMCOUNT message explicitly.
 old-location: controls\Header_GetItemCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

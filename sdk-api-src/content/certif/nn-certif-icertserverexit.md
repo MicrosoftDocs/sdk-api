@@ -4,7 +4,7 @@ title: ICertServerExit
 author: windows-sdk-content
 description: Exported by the server engine and is called by exit modules.
 old-location: security\icertserverexit.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1554c09c-a7c1-44ad-9821-93c0913212fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TdhGetEventInformation function
 author: windows-sdk-content
 description: Retrieves metadata about an event.
 old-location: etw\tdhgeteventinformation_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

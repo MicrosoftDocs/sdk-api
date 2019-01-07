@@ -4,7 +4,7 @@ title: NPPasswordChangeNotify function
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager of a password change event.
 old-location: security\nppasswordchangenotify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

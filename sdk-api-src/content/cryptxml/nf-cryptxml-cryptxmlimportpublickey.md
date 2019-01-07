@@ -4,7 +4,7 @@ title: CryptXmlImportPublicKey function
 author: windows-sdk-content
 description: Imports the public key specified by the supplied handle.
 old-location: security\cryptxmlimportpublickey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 599e8bbd-a41f-4781-850d-6590d22d9c3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

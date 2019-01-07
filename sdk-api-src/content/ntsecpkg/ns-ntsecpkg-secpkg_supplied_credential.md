@@ -4,7 +4,7 @@ title: SECPKG_SUPPLIED_CREDENTIAL
 author: windows-sdk-content
 description: Specifies the supplied credentials.
 old-location: security\secpkg_supplied_credential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 23849312-7AC5-4D09-8889-27DFF8E32FE8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

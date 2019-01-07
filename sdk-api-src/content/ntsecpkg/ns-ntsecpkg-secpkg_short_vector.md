@@ -4,7 +4,7 @@ title: SECPKG_SHORT_VECTOR
 author: windows-sdk-content
 description: Specifies the short vector information.
 old-location: security\secpkg_short_vector.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 55F6B72E-B4D5-44F0-9268-D25D677746C5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

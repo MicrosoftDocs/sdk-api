@@ -4,7 +4,7 @@ title: ImageList_DragMove function
 author: windows-sdk-content
 description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
 old-location: controls\ImageList_DragMove.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragmove.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

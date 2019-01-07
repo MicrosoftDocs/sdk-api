@@ -4,7 +4,7 @@ title: IOCSPAdmin::GetMyRoles
 author: windows-sdk-content
 description: Gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getmyroles_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

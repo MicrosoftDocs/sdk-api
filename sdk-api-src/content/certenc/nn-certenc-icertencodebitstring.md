@@ -4,7 +4,7 @@ title: ICertEncodeBitString
 author: windows-sdk-content
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

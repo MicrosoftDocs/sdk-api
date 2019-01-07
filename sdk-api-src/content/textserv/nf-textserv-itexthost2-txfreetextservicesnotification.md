@@ -4,7 +4,7 @@ title: ITextHost2::TxFreeTextServicesNotification
 author: windows-sdk-content
 description: Notifies the text host that text services have been freed.
 old-location: controls\itexthost2_txfreetextservicesnotification.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: AD017B2A-C38E-4A55-AA31-84639BE87FA8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

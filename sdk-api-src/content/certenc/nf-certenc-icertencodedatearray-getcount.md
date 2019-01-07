@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::GetCount
 author: windows-sdk-content
 description: Returns the number of DATE values in the object's DATE array.
 old-location: security\icertencodedatearray_getcount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

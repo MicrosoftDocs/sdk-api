@@ -4,7 +4,7 @@ title: CREDENTIALW
 author: windows-sdk-content
 description: The CREDENTIAL structure contains an individual credential.
 old-location: security\credential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.author: windowssdkdev
 ms.date: 12/5/2018

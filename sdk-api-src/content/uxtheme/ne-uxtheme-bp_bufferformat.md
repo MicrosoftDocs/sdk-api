@@ -4,7 +4,7 @@ title: BP_BUFFERFORMAT
 author: windows-sdk-content
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
 old-location: controls\BP_BUFFERFORMAT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

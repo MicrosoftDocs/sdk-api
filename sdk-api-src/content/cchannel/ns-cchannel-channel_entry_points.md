@@ -4,7 +4,7 @@ title: CHANNEL_ENTRY_POINTS
 author: windows-sdk-content
 description: Contains pointers to the functions called by a client-side DLL to access virtual channels.
 old-location: termserv\channel_entry_points_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f64471b0-1f2e-48cb-9f9c-1bb536afc248
 ms.author: windowssdkdev
 ms.date: 12/5/2018

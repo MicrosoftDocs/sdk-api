@@ -4,7 +4,7 @@ title: CryptXmlAddObject function
 author: windows-sdk-content
 description: Adds the Object element to the Signature in the Document Context opened for encoding.
 old-location: security\cryptxmladdobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 906c17a2-d8f3-4f90-a697-432cae7c789a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

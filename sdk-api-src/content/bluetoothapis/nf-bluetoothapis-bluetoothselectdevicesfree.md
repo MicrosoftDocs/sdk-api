@@ -4,7 +4,7 @@ title: BluetoothSelectDevicesFree function
 author: windows-sdk-content
 description: Frees resources associated with a previous call to BluetoothSelectDevices.
 old-location: bluetooth\bluetoothselectdevicesfree.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

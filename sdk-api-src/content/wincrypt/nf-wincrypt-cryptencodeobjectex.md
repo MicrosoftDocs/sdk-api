@@ -4,7 +4,7 @@ title: CryptEncodeObjectEx function
 author: windows-sdk-content
 description: Encodes a structure of the type indicated by the value of the lpszStructType parameter.
 old-location: security\cryptencodeobjectex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 45134db8-059b-43d3-90c2-9b6cc970fca0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

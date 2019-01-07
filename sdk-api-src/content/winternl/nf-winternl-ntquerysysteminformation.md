@@ -4,7 +4,7 @@ title: NtQuerySystemInformation function
 author: windows-sdk-content
 description: Retrieves the specified system information.
 old-location: base\ntquerysysteminformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

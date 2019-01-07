@@ -4,7 +4,7 @@ title: SCardListReaderGroupsW function
 author: windows-sdk-content
 description: Provides the list of reader groups that have previously been introduced to the system.
 old-location: security\scardlistreadergroups.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
 ms.author: windowssdkdev
 ms.date: 12/5/2018

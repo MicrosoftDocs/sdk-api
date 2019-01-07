@@ -4,7 +4,7 @@ title: IsWindowsVistaOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

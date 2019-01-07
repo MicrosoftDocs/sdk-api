@@ -4,7 +4,7 @@ title: CryptGenKey function
 author: windows-sdk-content
 description: Generates a random cryptographic session key or a public/private key pair. A handle to the key or key pair is returned in phKey. This handle can then be used as needed with any CryptoAPI function that requires a key handle.
 old-location: security\cryptgenkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b65dd856-2dfa-4cda-9b2f-b32f3c291470
 ms.author: windowssdkdev
 ms.date: 12/5/2018

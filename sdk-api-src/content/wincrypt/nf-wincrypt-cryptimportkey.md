@@ -4,7 +4,7 @@ title: CryptImportKey function
 author: windows-sdk-content
 description: Transfers a cryptographic key from a key BLOB into a cryptographic service provider (CSP).
 old-location: security\cryptimportkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f48b6ec9-e03b-43b0-9f22-120ae93d934c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SaslGetProfilePackageW function
 author: windows-sdk-content
 description: Returns the package information for the specified package.
 old-location: security\saslgetprofilepackage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.author: windowssdkdev
 ms.date: 12/5/2018

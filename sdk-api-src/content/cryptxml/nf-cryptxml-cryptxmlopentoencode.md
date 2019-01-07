@@ -4,7 +4,7 @@ title: CryptXmlOpenToEncode function
 author: windows-sdk-content
 description: Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.
 old-location: security\cryptxmlopentoencode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

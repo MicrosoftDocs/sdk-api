@@ -4,7 +4,7 @@ title: TRACE_ENABLE_INFO
 author: windows-sdk-content
 description: Defines the session and the information that the session used to enable the provider.
 old-location: etw\trace_enable_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

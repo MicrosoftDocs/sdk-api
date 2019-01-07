@@ -4,7 +4,7 @@ title: ITextHost
 author: windows-sdk-content
 description: The ITextHost interface is used by a text services object to obtain text host services.
 old-location: controls\ITextHost.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertConfig::GetField
 author: windows-sdk-content
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getfield.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

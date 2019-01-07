@@ -4,7 +4,7 @@ title: IEnroll2::SetHStoreMy
 author: windows-sdk-content
 description: The SetHStoreMy method specifies the handle to use for the MY store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoremy.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 669c8fe4-def3-41c5-82fc-95c26f3950c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

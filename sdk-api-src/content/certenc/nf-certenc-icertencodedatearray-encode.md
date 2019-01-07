@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::Encode
 author: windows-sdk-content
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

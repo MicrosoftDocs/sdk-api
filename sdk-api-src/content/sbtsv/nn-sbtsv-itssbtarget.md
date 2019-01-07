@@ -4,7 +4,7 @@ title: ITsSbTarget
 author: windows-sdk-content
 description: Exposes properties that store configuration and state information about a target.
 old-location: termserv\itssbtarget.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
 ms.author: windowssdkdev
 ms.date: 12/5/2018

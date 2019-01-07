@@ -4,7 +4,7 @@ title: ListView_GetEmptyText macro
 author: windows-sdk-content
 description: Gets the text meant for display when the list-view control appears empty. Use this macro or send the LVM_GETEMPTYTEXT message explicitly.
 old-location: controls\ListView_GetEmptyText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getemptytext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

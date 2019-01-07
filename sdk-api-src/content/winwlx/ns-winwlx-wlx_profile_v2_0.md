@@ -4,7 +4,7 @@ title: WLX_PROFILE_V2_0
 author: windows-sdk-content
 description: Contains profile information in addition to the information provided by WLX_PROFILE_V1_0.
 old-location: security\wlx_profile_v2_0.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6ecec95f-e663-4fb3-b2d4-82984f31cb62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

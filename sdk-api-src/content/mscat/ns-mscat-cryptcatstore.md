@@ -4,7 +4,7 @@ title: CRYPTCATSTORE
 author: windows-sdk-content
 description: Represents a catalog file.
 old-location: security\cryptcatstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 65a15797-453c-4f47-8ea1-c92e616b50aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

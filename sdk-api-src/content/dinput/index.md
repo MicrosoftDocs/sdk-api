@@ -2,7 +2,7 @@
 UID: NA:dinput
 ms.assetid: b3863d7e-5815-3deb-b7ae-defb8eb6e15a
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

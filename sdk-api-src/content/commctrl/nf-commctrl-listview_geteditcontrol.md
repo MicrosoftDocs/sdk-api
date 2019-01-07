@@ -4,7 +4,7 @@ title: ListView_GetEditControl macro
 author: windows-sdk-content
 description: Gets the handle to the edit control being used to edit a list-view item's text. You can use this macro or send the LVM_GETEDITCONTROL message explicitly.
 old-location: controls\ListView_GetEditControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_geteditcontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

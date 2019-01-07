@@ -4,7 +4,7 @@ title: DPA_SortedInsertPtr macro
 author: windows-sdk-content
 description: Inserts a new item before or after a specified existing item.
 old-location: controls\DPA_SortedInsertPtr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

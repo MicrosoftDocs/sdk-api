@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Name
 author: windows-sdk-content
 description: Retrieves the unique name used to identify the data collector set.
 old-location: pla\idatacollectorset_get_name.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 69f6af39-b614-4957-a1e5-1f381c915f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

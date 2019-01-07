@@ -4,7 +4,7 @@ title: CERT_ISSUER_SERIAL_NUMBER
 author: windows-sdk-content
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4e44113f-81e7-4551-bf4d-50986d6d57bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

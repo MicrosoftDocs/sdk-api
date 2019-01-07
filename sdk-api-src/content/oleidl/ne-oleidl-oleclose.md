@@ -8,10 +8,10 @@ tech.root: com
 ms.assetid: 386f24a4-11d7-4471-960e-1a3ff67ba3c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, ole/OLECLOSE, ole/OLECLOSE_NOSAVE, ole/OLECLOSE_PROMPTSAVE, ole/OLECLOSE_SAVEIFDIRTY
+ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, oleidl/OLECLOSE, oleidl/OLECLOSE_NOSAVE, oleidl/OLECLOSE_PROMPTSAVE, oleidl/OLECLOSE_SAVEIFDIRTY
 ms.topic: enum
 req.header: oleidl.h
-req.include-header: OleIdl.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -33,7 +33,7 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - ole.h
+ - OleIdl.h
 api_name:
  - OLECLOSE
 product: Windows

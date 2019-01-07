@@ -4,7 +4,7 @@ title: CEPSetupProperty
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentPolicyServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cepsetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 344701CA-089C-4152-BDA4-249728863180
 ms.author: windowssdkdev
 ms.date: 12/5/2018

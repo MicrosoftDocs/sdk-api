@@ -4,7 +4,7 @@ title: HW_PROFILE_INFOW
 author: windows-sdk-content
 description: Contains information about a hardware profile.
 old-location: base\hw_profile_info_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

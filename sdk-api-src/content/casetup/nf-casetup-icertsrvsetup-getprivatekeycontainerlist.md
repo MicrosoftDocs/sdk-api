@@ -4,7 +4,7 @@ title: ICertSrvSetup::GetPrivateKeyContainerList
 author: windows-sdk-content
 description: Gets the list of key container names stored by the specified cryptographic service provider (CSP) for asymmetric signature key algorithms.
 old-location: security\icertsrvsetup_getprivatekeycontainerlist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a57590d3-0882-4407-b920-964c0e489f80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

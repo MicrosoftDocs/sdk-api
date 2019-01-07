@@ -4,7 +4,7 @@ title: CERT_SERVER_OCSP_RESPONSE_CONTEXT
 author: windows-sdk-content
 description: Contains an encoded OCSP response.
 old-location: security\cert_server_ocsp_response_context.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 732e91a3-dcd2-491a-ba4f-e22b75b5a71e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

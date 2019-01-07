@@ -4,7 +4,7 @@ title: CryptGetObjectUrl function
 author: windows-sdk-content
 description: Acquires the URL of the remote object from a certificate, certificate trust list (CTL), or certificate revocation list (CRL).
 old-location: security\cryptgetobjecturl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a92117b8-9144-4480-b88a-b9ffe1026d63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

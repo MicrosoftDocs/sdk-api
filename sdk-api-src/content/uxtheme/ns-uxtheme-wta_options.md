@@ -4,7 +4,7 @@ title: WTA_OPTIONS
 author: windows-sdk-content
 description: Defines options that are used to set window visual style attributes.
 old-location: controls\WTA_OPTIONS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\wta_options.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

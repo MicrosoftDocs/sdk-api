@@ -4,7 +4,7 @@ title: ITextHost2::TxDestroyCaret
 author: windows-sdk-content
 description: Destroys the caret (Direct2D only).
 old-location: controls\itexthost2_txdestroycaret.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 627FEF54-FD74-4A41-89FC-E02EBD29D18A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

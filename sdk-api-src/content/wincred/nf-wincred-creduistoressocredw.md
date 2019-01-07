@@ -4,7 +4,7 @@ title: CredUIStoreSSOCredW function
 author: windows-sdk-content
 description: The CredUIStoreSSOCredW function stores a single logon credential.
 old-location: security\creduistoressocredw.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004
 ms.author: windowssdkdev
 ms.date: 12/5/2018

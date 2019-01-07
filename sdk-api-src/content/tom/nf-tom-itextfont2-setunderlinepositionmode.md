@@ -4,7 +4,7 @@ title: ITextFont2::SetUnderlinePositionMode
 author: windows-sdk-content
 description: Sets the underline position mode.
 old-location: controls\itextfont2_setunderlinepositionmode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 31dff2d0-7165-42f0-b3d0-9cb679c738c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

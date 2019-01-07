@@ -4,7 +4,7 @@ title: ETW_PROCESS_HANDLE_INFO_TYPE
 author: windows-sdk-content
 description: Specifies what kind of operation will be done on a handle.
 old-location: etw\etw_process_handle_info_type.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

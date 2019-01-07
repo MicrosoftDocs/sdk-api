@@ -4,7 +4,7 @@ title: UnregisterTraceGuids function
 author: windows-sdk-content
 description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 old-location: etw\unregistertraceguids.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 1fa10f66-a78b-4f40-9518-72d48365246e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

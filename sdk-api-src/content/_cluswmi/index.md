@@ -2,7 +2,7 @@
 UID: TP:cluswmi
 ms.assetid: 3b6837b5-f894-368b-839d-37d95fe1d98d
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

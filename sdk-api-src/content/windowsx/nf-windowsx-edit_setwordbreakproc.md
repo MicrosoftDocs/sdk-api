@@ -4,7 +4,7 @@ title: Edit_SetWordBreakProc macro
 author: windows-sdk-content
 description: Replaces an edit control's default Wordwrap function with an application-defined Wordwrap function. You can use this macro or send the EM_SETWORDBREAKPROC message explicitly.
 old-location: controls\Edit_SetWordBreakProc.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setwordbreakproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

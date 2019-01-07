@@ -4,7 +4,7 @@ title: IScheduleCollection::Add
 author: windows-sdk-content
 description: Adds a schedule to the collection.
 old-location: pla\ischedulecollection_add.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

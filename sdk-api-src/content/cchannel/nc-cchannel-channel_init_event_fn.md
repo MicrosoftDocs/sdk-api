@@ -4,7 +4,7 @@ title: CHANNEL_INIT_EVENT_FN
 author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.
 old-location: termserv\virtualchannelinitevent.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

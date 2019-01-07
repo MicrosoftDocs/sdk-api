@@ -4,7 +4,7 @@ title: Edit_SearchWeb macro
 author: windows-sdk-content
 description: Invokes the &#0034;Search with Bing…&#0034; context menu item in edit controls. You can use this macro or send the EM_SEARCHWEB message explicitly.
 old-location: controls\edit_searchweb.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 33F79879-EC55-438F-AC55-14BC119A4EFC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

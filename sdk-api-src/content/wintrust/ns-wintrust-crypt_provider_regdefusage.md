@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_REGDEFUSAGE
 author: windows-sdk-content
 description: Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.
 old-location: security\crypt_provider_regdefusage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: A6047CBA-E4BA-4A31-B700-C368CFB57895
 ms.author: windowssdkdev
 ms.date: 12/5/2018

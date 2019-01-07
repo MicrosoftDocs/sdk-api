@@ -4,7 +4,7 @@ title: ITsSbProvider::GetFilterPluginStore
 author: windows-sdk-content
 description: Retrieves a FilterPluginStore instance of the filter plugin store.
 old-location: termserv\itssbprovider_getfilterpluginstore.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 39ba9d60-7dde-4aa1-b95e-ec26aef731ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

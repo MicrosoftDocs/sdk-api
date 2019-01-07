@@ -4,7 +4,7 @@ title: NMUPDOWN
 author: windows-sdk-content
 description: Contains information specific to up-down control notification messages. It is identical to and replaces the NM_UPDOWN structure.
 old-location: controls\NMUPDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

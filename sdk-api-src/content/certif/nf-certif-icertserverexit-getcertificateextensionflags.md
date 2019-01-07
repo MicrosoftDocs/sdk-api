@@ -4,7 +4,7 @@ title: ICertServerExit::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NPGetCaps function
 author: windows-sdk-content
 description: Returns information about which services are supported on the network.
 old-location: security\npgetcaps.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMDATETIMEWMKEYDOWNA
 author: windows-sdk-content
 description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimewmkeydown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

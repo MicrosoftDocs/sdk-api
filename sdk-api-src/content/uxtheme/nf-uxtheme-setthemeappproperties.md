@@ -4,7 +4,7 @@ title: SetThemeAppProperties function
 author: windows-sdk-content
 description: Sets the flags that determine how visual styles are implemented in the calling application.
 old-location: controls\SetThemeAppProperties.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OBJECTTYPE
 author: windows-sdk-content
 description: Defines values that identify object types in the Text Object Model (TOM)&#32; content.
 old-location: controls\objecttype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fbac082e-adf2-48f9-ae13-5ea1357fc428
 ms.author: windowssdkdev
 ms.date: 12/5/2018

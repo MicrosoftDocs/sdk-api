@@ -4,7 +4,7 @@ title: CertAddSerializedElementToStore function
 author: windows-sdk-content
 description: Adds a serialized certificate, certificate revocation list (CRL), or certificate trust list (CTL) element to the store.
 old-location: security\certaddserializedelementtostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2726cd34-51ba-4f68-9a3c-7cd505eb32a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

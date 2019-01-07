@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested trace provider from the collection.
 old-location: pla\itracedataprovidercollection_item.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7668d9cc-c1b3-4b72-8e37-305c334905f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

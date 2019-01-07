@@ -4,7 +4,7 @@ title: ListView_MapIndexToID macro
 author: windows-sdk-content
 description: Maps the index of an item to a unique ID. You can use this macro or send the LVM_MAPINDEXTOID message explicitly.
 old-location: controls\ListView_MapIndexToID.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_mapindextoid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

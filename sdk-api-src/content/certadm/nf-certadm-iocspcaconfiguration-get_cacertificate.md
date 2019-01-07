@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_CACertificate
 author: windows-sdk-content
 description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).
 old-location: security\iocspcaconfiguration_cacertificate_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 73fd56d2-a0d4-4bf8-b818-aadf8cbac9c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRow::GetKeepWithNext
 author: windows-sdk-content
 description: Gets whether this row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_getkeepwithnext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TVINSERTSTRUCTW
 author: windows-sdk-content
 description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
 old-location: controls\TVINSERTSTRUCT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

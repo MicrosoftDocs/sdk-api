@@ -4,7 +4,7 @@ title: CRYPT_PROVUI_FUNCS
 author: windows-sdk-content
 description: Provides information about the user interface (UI) functions of a provider. This structure is used by the CRYPT_PROVIDER_FUNCTIONS structure.
 old-location: security\crypt_provui_funcs.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

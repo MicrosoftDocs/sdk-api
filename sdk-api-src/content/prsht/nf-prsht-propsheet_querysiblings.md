@@ -4,7 +4,7 @@ title: PropSheet_QuerySiblings macro
 author: windows-sdk-content
 description: Causes a property sheet to send the PSM_QUERYSIBLINGS message to each of its pages. You can use this macro or send the PSM_QUERYSIBLINGS message explicitly.
 old-location: controls\PropSheet_QuerySiblings.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_querysiblings.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorCollection::CreateDataCollector
 author: windows-sdk-content
 description: Creates a data collector of the specified type.
 old-location: pla\idatacollectorcollection_createdatacollector.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

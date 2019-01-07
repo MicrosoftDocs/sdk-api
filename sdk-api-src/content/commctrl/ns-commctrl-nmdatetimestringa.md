@@ -4,7 +4,7 @@ title: NMDATETIMESTRINGA
 author: windows-sdk-content
 description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code.
 old-location: controls\NMDATETIMESTRING.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimestring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

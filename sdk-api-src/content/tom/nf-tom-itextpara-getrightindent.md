@@ -4,7 +4,7 @@ title: ITextPara::GetRightIndent
 author: windows-sdk-content
 description: Retrieves the size of the right margin indent of a paragraph.
 old-location: controls\ITextPara_GetRightIndent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getrightindent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

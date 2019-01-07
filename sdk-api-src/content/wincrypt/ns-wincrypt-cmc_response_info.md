@@ -4,7 +4,7 @@ title: CMC_RESPONSE_INFO
 author: windows-sdk-content
 description: Provides a means of communicating different pieces of tagged information.
 old-location: security\cmc_response_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 82d9314f-2f0f-4a98-a0da-a89cd8905886
 ms.author: windowssdkdev
 ms.date: 12/5/2018

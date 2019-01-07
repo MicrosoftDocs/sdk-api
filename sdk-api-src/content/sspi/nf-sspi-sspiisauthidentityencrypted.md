@@ -4,7 +4,7 @@ title: SspiIsAuthIdentityEncrypted function
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is encrypted.
 old-location: security\sspiisauthidentityencrypted.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b85095f5-0ca5-4d75-866d-9b756404c1d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

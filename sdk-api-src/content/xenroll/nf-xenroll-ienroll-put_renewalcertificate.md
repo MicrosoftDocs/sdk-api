@@ -4,7 +4,7 @@ title: IEnroll::put_RenewalCertificate
 author: windows-sdk-content
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

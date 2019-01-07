@@ -4,7 +4,7 @@ title: PROPSHEETHEADERW_V2
 author: windows-sdk-content
 description: Defines the frame and pages of a property sheet.
 old-location: controls\PROPSHEETHEADER.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetheader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetScrollBarInfo function
 author: windows-sdk-content
 description: The GetScrollBarInfo function retrieves information about the specified scroll bar.
 old-location: controls\GetScrollBarInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollbarinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

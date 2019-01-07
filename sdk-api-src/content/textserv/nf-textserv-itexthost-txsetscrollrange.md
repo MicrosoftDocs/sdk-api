@@ -4,7 +4,7 @@ title: ITextHost::TxSetScrollRange
 author: windows-sdk-content
 description: Sets the minimum and maximum position values for the specified scroll bar in the text host window.
 old-location: controls\ITextHost_TxSetScrollRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

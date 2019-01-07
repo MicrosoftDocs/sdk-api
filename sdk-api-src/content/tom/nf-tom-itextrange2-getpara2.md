@@ -4,7 +4,7 @@ title: ITextRange2::GetPara2
 author: windows-sdk-content
 description: Gets an ITextPara2 object with the paragraph attributes of a range.
 old-location: controls\itextrange2_getpara2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b20ebe85-f2a6-4a19-8b25-f1f16ebf5627
 ms.author: windowssdkdev
 ms.date: 12/5/2018

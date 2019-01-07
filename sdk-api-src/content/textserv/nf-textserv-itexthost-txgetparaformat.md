@@ -4,7 +4,7 @@ title: ITextHost::TxGetParaFormat
 author: windows-sdk-content
 description: Requests the text host's default paragraph format.
 old-location: controls\ITextHost_TxGetParaFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetparaformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

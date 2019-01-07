@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_AllowLogon
 author: windows-sdk-content
 description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_allowlogon.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046
 ms.author: windowssdkdev
 ms.date: 12/5/2018

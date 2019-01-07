@@ -4,7 +4,7 @@ title: CRED_PROTECTION_TYPE
 author: windows-sdk-content
 description: Specifies the security context in which credentials are encrypted when using the CredProtect function.
 old-location: security\cred_protection_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

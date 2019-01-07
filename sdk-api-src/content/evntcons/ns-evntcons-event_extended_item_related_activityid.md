@@ -4,7 +4,7 @@ title: EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 author: windows-sdk-content
 description: Defines the parent event of this event.
 old-location: etw\event_extended_item_related_activityid.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: cabc11ca-e65e-4ffd-9832-7fb4f77417e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

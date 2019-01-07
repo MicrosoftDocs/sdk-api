@@ -4,7 +4,7 @@ title: PropSheet_RestartWindows macro
 author: windows-sdk-content
 description: Sends a PSM_RESTARTWINDOWS message indicating that Windows needs to be restarted for changes to take effect. You can use this macro or send the PSM_RESTARTWINDOWS message explicitly.
 old-location: controls\PropSheet_RestartWindows.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_restartwindows.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

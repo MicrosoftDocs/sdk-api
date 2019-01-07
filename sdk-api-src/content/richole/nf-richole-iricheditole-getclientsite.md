@@ -4,7 +4,7 @@ title: IRichEditOle::GetClientSite
 author: windows-sdk-content
 description: Retrieves an IOleClientSite interface to be used when creating a new object. All objects inserted into a rich edit control must use client site interfaces returned by this function. A client site may be used with exactly one object.
 old-location: controls\IRichEditOle_GetClientSite.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclientsite.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

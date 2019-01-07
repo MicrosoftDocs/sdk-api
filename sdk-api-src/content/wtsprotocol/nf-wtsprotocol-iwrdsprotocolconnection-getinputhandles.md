@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetInputHandles
 author: windows-sdk-content
 description: Obtains the handles to input/output devices for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

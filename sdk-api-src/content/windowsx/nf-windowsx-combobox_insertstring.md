@@ -4,7 +4,7 @@ title: ComboBox_InsertString macro
 author: windows-sdk-content
 description: Adds a string to a list in a combo box at the specified location. You can use this macro or send the CB_INSERTSTRING message explicitly.
 old-location: controls\ComboBox_InsertString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_insertstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

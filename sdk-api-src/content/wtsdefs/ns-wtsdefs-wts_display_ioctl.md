@@ -4,7 +4,7 @@ title: WTS_DISPLAY_IOCTL
 author: windows-sdk-content
 description: Contains information about the client display.
 old-location: termserv\wts_display_ioctl.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1a052b7c-8c15-4921-8548-8fa461210e9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_COLLISION_RECORD_TYPE
 author: windows-sdk-content
 description: Defines the types of collision that can occur between Local Security Authority forest trust records.
 old-location: security\lsa_forest_trust_collision_record_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 67c89d75-2c2d-4980-a1c9-32e7f64a7b49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITSGAuthorizeConnectionSink
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
 old-location: termserv\itsgauthorizeconnectionsink.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4aa6ec0d-6525-46e1-ba0b-29d80c5ee0f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

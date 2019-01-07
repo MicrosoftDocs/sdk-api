@@ -4,7 +4,7 @@ title: SECPKG_SUPPLEMENTAL_CRED
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED structure contains supplemental credentials recognized by the security package.
 old-location: security\secpkg_supplemental_cred.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d5a1a986-5343-420d-8553-f1078bbd0e00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

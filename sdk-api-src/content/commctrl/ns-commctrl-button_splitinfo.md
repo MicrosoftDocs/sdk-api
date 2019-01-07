@@ -4,7 +4,7 @@ title: BUTTON_SPLITINFO
 author: windows-sdk-content
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
 old-location: controls\BUTTON_SPLITINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

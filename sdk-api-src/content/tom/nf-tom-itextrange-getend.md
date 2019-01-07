@@ -4,7 +4,7 @@ title: ITextRange::GetEnd
 author: windows-sdk-content
 description: Gets the end character position of the range.
 old-location: controls\ITextRange_GetEnd.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getend.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

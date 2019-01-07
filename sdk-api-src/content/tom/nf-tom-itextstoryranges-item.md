@@ -4,7 +4,7 @@ title: ITextStoryRanges::Item
 author: windows-sdk-content
 description: Retrieves an ITextRange object for the Indexth story in this story collection.
 old-location: controls\ITextStoryRanges_Item.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\item.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

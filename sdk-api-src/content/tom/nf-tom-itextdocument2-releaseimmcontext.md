@@ -4,7 +4,7 @@ title: ITextDocument2::ReleaseImmContext
 author: windows-sdk-content
 description: Releases an Input Method Manager (IMM) input context.
 old-location: controls\itextdocument2_releaseimmcontext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2172e20b-2343-4a65-a08e-0d8b8c101860
 ms.author: windowssdkdev
 ms.date: 12/5/2018

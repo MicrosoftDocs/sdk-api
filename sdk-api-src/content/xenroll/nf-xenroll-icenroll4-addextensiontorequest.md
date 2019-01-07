@@ -4,7 +4,7 @@ title: ICEnroll4::addExtensionToRequest
 author: windows-sdk-content
 description: The ICEnroll4::addExtensionToRequest method adds an extension to the request.
 old-location: security\icenroll4_addextensiontorequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0bd46cd6-cc7e-4d87-b8ff-8fa01f639282
 ms.author: windowssdkdev
 ms.date: 12/5/2018

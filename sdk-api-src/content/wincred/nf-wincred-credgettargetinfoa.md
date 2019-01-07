@@ -4,7 +4,7 @@ title: CredGetTargetInfoA function
 author: windows-sdk-content
 description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
 old-location: security\credgettargetinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

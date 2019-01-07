@@ -4,7 +4,7 @@ title: WRDS_CONNECTION_SETTING
 author: windows-sdk-content
 description: Contains different levels of settings for a remote desktop connection.
 old-location: termserv\wrds_connection_setting.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 15991230-DBF9-4D32-A65A-1D67D1804D05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

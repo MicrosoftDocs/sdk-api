@@ -4,7 +4,7 @@ title: ICEnroll4::getCertFromResponse
 author: windows-sdk-content
 description: Retrieves the certificate from a certification authority's response. This method was first defined by the ICEnroll4 interface.
 old-location: security\icenroll4_getcertfromresponse.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4e2b1f53-c6fc-4fb8-a69c-58ab8ac6f258
 ms.author: windowssdkdev
 ms.date: 12/5/2018

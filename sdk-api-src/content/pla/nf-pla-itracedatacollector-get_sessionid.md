@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_SessionId
 author: windows-sdk-content
 description: Retrieves the session identifier.
 old-location: pla\itracedatacollector_sessionid.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bcbe5dba-6d45-4b0a-a66a-68ce03b493bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

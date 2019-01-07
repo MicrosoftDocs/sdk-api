@@ -4,7 +4,7 @@ title: ICertServerPolicy::SetContext
 author: windows-sdk-content
 description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
 old-location: security\icertserverpolicy_setcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

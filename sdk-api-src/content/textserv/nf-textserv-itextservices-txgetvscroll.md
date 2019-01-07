@@ -4,7 +4,7 @@ title: ITextServices::TxGetVScroll
 author: windows-sdk-content
 description: Returns vertical scroll bar state information.
 old-location: controls\ITextServices_TxGetVScroll.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetvscroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

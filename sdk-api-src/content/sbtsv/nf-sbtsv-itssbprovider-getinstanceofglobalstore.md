@@ -4,7 +4,7 @@ title: ITsSbProvider::GetInstanceOfGlobalStore
 author: windows-sdk-content
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptGetDefaultOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptGetDefaultOIDFunctionAddress function loads the DLL that contains a default function address.
 old-location: security\cryptgetdefaultoidfunctionaddress.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3977368c-ad13-43f9-859b-10c7f170f482
 ms.author: windowssdkdev
 ms.date: 12/5/2018

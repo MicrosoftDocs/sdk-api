@@ -4,7 +4,7 @@ title: WLX_DESKTOP
 author: windows-sdk-content
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 old-location: security\wlx_desktop.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

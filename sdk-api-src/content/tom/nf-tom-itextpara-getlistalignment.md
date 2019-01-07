@@ -4,7 +4,7 @@ title: ITextPara::GetListAlignment
 author: windows-sdk-content
 description: Retrieves the kind of alignment to use for bulleted and numbered lists.
 old-location: controls\ITextPara_GetListAlignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistalignment.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

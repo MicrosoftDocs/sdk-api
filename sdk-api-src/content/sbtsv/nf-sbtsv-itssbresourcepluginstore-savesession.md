@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SaveSession
 author: windows-sdk-content
 description: Saves a session.
 old-location: termserv\itssbresourcepluginstore_savesession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a4f29a99-8478-425d-91d7-c771c35bb2fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

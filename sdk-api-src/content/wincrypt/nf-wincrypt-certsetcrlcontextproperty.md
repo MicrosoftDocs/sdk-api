@@ -4,7 +4,7 @@ title: CertSetCRLContextProperty function
 author: windows-sdk-content
 description: Sets an extended property for the specified certificate revocation list (CRL) context.
 old-location: security\certsetcrlcontextproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7e4a0a39-ce55-4171-9b66-31c1c28d895f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

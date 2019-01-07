@@ -4,7 +4,7 @@ title: ITextStory::GetText
 author: windows-sdk-content
 description: Gets the text in a story according to the specified conversion flags.
 old-location: controls\itextstory_gettext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8107910f-eb77-4313-97f5-1bd8126d6dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

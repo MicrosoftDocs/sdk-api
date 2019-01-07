@@ -4,7 +4,7 @@ title: DRAWITEMSTRUCT
 author: windows-sdk-content
 description: Provides information that the owner window uses to determine how to paint an owner-drawn control or menu item.
 old-location: controls\DRAWITEMSTRUCT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\drawitemstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

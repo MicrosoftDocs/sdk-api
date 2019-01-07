@@ -4,7 +4,7 @@ title: IStorage::OpenStorage
 author: windows-sdk-content
 description: Opens an existing storage object with the specified name in the specified access mode.
 old-location: stg\istorage_openstorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f1f0564e-0ecd-4b73-8863-9d6b6746fd02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

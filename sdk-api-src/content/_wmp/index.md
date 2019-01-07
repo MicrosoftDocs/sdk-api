@@ -2,7 +2,7 @@
 UID: TP:wmp
 ms.assetid: 3fef26d9-3534-3463-99c7-69be76d785ec
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

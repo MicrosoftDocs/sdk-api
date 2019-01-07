@@ -4,7 +4,7 @@ title: DPA_Destroy function
 author: windows-sdk-content
 description: Frees a Dynamic Pointer Array (DPA).
 old-location: controls\DPA_Destroy.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

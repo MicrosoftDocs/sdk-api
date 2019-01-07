@@ -4,7 +4,7 @@ title: ITextFont2::GetCount
 author: windows-sdk-content
 description: Gets the count of extra properties in this character formatting collection.
 old-location: controls\itextfont2_getcount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0caca891-7c25-4b04-bda3-47de2f0ab6ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

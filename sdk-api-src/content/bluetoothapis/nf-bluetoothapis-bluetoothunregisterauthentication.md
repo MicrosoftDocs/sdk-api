@@ -4,7 +4,7 @@ title: BluetoothUnregisterAuthentication function
 author: windows-sdk-content
 description: The BluetoothUnregisterAuthentication function removes registration for a callback routine that was previously registered with a call to the BluetoothRegisterForAuthentication function.
 old-location: bluetooth\bluetoothunregisterauthentication.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: bfb1a18c-e5b1-4053-8652-5a76b196bebe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

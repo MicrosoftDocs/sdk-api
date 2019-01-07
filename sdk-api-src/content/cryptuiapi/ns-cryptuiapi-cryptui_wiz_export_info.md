@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_EXPORT_INFO
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function.
 old-location: security\cryptui_wiz_export_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3c509bb6-d391-4b59-809c-23466c8196ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

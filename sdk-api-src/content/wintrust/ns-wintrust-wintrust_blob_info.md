@@ -4,7 +4,7 @@ title: WINTRUST_BLOB_INFO
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a memory BLOB.
 old-location: security\wintrust_blob_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

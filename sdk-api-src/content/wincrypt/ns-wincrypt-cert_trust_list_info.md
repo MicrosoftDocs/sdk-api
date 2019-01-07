@@ -4,7 +4,7 @@ title: CERT_TRUST_LIST_INFO
 author: windows-sdk-content
 description: The CERT_TRUST_LIST_INFO structure that indicates valid usage of a CTL.
 old-location: security\cert_trust_list_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 774f5626-9b48-4585-b713-adbf191861cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

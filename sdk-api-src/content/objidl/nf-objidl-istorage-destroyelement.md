@@ -4,7 +4,7 @@ title: IStorage::DestroyElement
 author: windows-sdk-content
 description: Removes the specified storage or stream from this storage object.
 old-location: stg\istorage_destroyelement.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

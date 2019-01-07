@@ -4,7 +4,7 @@ title: CRYPTCATATTRIBUTE
 author: windows-sdk-content
 description: The CRYPTCATATTRIBUTE structure defines a catalog attribute. This structure is used by the CryptCATEnumerateAttr and CryptCATEnumerateCatAttr functions.
 old-location: security\cryptcatattribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 41b91303-f3eb-4288-9ad2-98f170680988
 ms.author: windowssdkdev
 ms.date: 12/5/2018

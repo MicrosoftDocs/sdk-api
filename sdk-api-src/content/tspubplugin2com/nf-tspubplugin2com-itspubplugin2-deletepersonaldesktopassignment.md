@@ -4,7 +4,7 @@ title: ItsPubPlugin2::DeletePersonalDesktopAssignment
 author: windows-sdk-content
 description: Called to delete a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_deletepersonaldesktopassignment.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 962d7de7-a447-44f9-b3bd-a87d122a6328
 ms.author: windowssdkdev
 ms.date: 12/5/2018

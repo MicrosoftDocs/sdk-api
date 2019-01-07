@@ -4,7 +4,7 @@ title: ITextStrings::CatTop2
 author: windows-sdk-content
 description: Inserts text between the top two strings in a collection.
 old-location: controls\itextstrings_cattop2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 50cc7bbb-51c2-40fd-9ef9-3b06ee9aca1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

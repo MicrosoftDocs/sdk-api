@@ -4,7 +4,7 @@ title: ICEnroll::get_ProviderType
 author: windows-sdk-content
 description: The ProviderType property of ICEnroll4 sets or retrieves the type of provider.
 old-location: security\icenroll4_providertype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 90daa97a-350e-4307-80a5-b018cc1f0e86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

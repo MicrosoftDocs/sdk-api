@@ -4,7 +4,7 @@ title: ICertAdmin2
 author: windows-sdk-content
 description: Provide administration functionality for properly authorized clients.
 old-location: security\icertadmin2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: df40b6ac-825d-4e8d-a80b-6e57a4e740a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

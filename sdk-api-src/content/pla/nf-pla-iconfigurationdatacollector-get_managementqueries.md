@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_ManagementQueries
 author: windows-sdk-content
 description: Retrieves or sets Windows Management Instrumentation (WMI) queries to run.
 old-location: pla\iconfigurationdatacollector_managementqueries.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 183762e4-d312-4a0c-8195-d38d1b79d17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

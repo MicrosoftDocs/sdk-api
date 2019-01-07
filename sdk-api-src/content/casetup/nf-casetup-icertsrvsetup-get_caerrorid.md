@@ -4,7 +4,7 @@ title: ICertSrvSetup::get_CAErrorId
 author: windows-sdk-content
 description: Gets the ID for additional error information related to a failed certification authority (CA) specification.
 old-location: security\icertsrvsetup_caerrorid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 462fb4a6-2aad-46d4-98e0-32c095eff5c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

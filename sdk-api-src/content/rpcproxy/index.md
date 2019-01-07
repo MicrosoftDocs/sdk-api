@@ -2,7 +2,7 @@
 UID: NA:rpcproxy
 ms.assetid: d7263a08-fcbb-3f42-abc5-6346bb273c50
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

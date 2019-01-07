@@ -4,7 +4,7 @@ title: CertEnumCertificateContextProperties function
 author: windows-sdk-content
 description: The CertEnumCertificateContextProperties function retrieves the first or next extended property associated with a certificate context.
 old-location: security\certenumcertificatecontextproperties.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b7304ab2-432b-40c0-8014-7f8874fa36fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

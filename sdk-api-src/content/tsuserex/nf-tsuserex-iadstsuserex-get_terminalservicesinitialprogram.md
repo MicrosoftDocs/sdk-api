@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_TerminalServicesInitialProgram
 author: windows-sdk-content
 description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
 ms.author: windowssdkdev
 ms.date: 12/5/2018

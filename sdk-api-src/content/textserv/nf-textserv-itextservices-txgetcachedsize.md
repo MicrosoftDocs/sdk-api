@@ -4,7 +4,7 @@ title: ITextServices::TxGetCachedSize
 author: windows-sdk-content
 description: Returns the cached drawing logical size (if any) that text services is using. Typically, this will be the size of the last client rectangle used in ITextServices::TxDraw, ITextServices::OnTxSetCursor, and so forth, although it is not guaranteed to be.
 old-location: controls\ITextServices_TxGetCachedSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcachedsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

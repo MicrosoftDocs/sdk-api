@@ -4,7 +4,7 @@ title: BluetoothGetDeviceInfo function
 author: windows-sdk-content
 description: Retrieves information about a remote Bluetooth device.
 old-location: bluetooth\bluetoothgetdeviceinfo.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

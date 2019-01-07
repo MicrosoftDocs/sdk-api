@@ -4,7 +4,7 @@ title: CASetupProperty
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a certification authority (CA) role when using the ICertSrvSetup interface.
 old-location: security\icertsrvsetup_casetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2245ad2f-89ca-4478-91d0-cbd7a0648479
 ms.author: windowssdkdev
 ms.date: 12/5/2018

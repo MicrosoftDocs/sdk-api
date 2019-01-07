@@ -4,7 +4,7 @@ title: ITextStrings::InsertNullStr
 author: windows-sdk-content
 description: Inserts a NULL string in the collection at a selected string index.
 old-location: controls\itextstrings_insertnullstr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: dc269f41-f65c-4335-ac5c-5c57187f20aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

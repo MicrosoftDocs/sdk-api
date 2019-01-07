@@ -4,7 +4,7 @@ title: SDP_ELEMENT_DATA
 author: windows-sdk-content
 description: The SDP_ELEMENT_DATA structure stores SDP element data.
 old-location: bluetooth\sdp_element_data.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9c9d6103-cc49-41d2-bbb3-6b6888fb93e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

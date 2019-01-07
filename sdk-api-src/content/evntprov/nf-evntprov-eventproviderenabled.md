@@ -4,7 +4,7 @@ title: EventProviderEnabled function
 author: windows-sdk-content
 description: Determines if the event is enabled for any session.
 old-location: etw\eventproviderenabled_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertRegisterPhysicalStore function
 author: windows-sdk-content
 description: Adds a physical store to a registry system store collection.
 old-location: security\certregisterphysicalstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e301c76d-cacd-441a-b925-754b07e4bfa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

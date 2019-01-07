@@ -4,7 +4,7 @@ title: ImageList_AddMasked function
 author: windows-sdk-content
 description: Adds an image or images to an image list, generating a mask from the specified bitmap.
 old-location: controls\ImageList_AddMasked.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_addmasked.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

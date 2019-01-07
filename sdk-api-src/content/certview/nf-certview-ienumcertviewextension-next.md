@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::Next
 author: windows-sdk-content
 description: Moves to the next extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_next.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 658daf9d-0f61-4c93-9688-a7c74464ca89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

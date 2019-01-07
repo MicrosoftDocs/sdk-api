@@ -4,7 +4,7 @@ title: ITextRow::GetRTL
 author: windows-sdk-content
 description: Gets whether this row has right-to-left orientation.
 old-location: controls\itextrow_getrtl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 60261327-71f1-4bc3-97ac-b9c5ee3d44c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

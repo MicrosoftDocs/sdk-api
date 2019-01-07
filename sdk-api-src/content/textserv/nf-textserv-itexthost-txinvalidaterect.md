@@ -4,7 +4,7 @@ title: ITextHost::TxInvalidateRect
 author: windows-sdk-content
 description: Specifies a rectangle for the text host to add to the update region of the text host window.
 old-location: controls\ITextHost_TxInvalidateRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxinvalidaterect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptQueryObject function
 author: windows-sdk-content
 description: Retrieves information about the contents of a cryptography API object, such as a certificate, a certificate revocation list, or a certificate trust list.
 old-location: security\cryptqueryobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d882f2b0-0f0a-41c7-afca-a232dc00797b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll4::resetExtensions
 author: windows-sdk-content
 description: Removes all extensions from the request.
 old-location: security\ienroll4_resetextensions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

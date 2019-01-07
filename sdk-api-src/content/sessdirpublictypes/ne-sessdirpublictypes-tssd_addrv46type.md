@@ -4,7 +4,7 @@ title: TSSD_AddrV46Type
 author: windows-sdk-content
 description: Indicates the IP address type.
 old-location: termserv\tssd_addrv46type.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

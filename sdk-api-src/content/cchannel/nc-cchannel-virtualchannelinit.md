@@ -4,7 +4,7 @@ title: VIRTUALCHANNELINIT
 author: windows-sdk-content
 description: Initializes a client DLL's access to Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelinit.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

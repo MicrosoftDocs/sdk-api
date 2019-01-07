@@ -4,7 +4,7 @@ title: IImageList::Draw
 author: windows-sdk-content
 description: Draws an image list item in the specified device context.
 old-location: controls\IImageList_Draw.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\draw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

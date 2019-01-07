@@ -4,7 +4,7 @@ title: WTSVirtualChannelOpenEx function
 author: windows-sdk-content
 description: Creates a virtual channel in a manner similar to WTSVirtualChannelOpen.
 old-location: termserv\wtsvirtualchannelopenex.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5694c4b6-3d0f-4a48-8d15-1e404cbb6164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

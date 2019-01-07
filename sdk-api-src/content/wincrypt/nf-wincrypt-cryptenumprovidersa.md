@@ -4,7 +4,7 @@ title: CryptEnumProvidersA function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

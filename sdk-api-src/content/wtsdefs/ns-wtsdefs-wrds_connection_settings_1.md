@@ -4,7 +4,7 @@ title: WRDS_CONNECTION_SETTINGS_1
 author: windows-sdk-content
 description: Contains connection setting information for a remote session.
 old-location: termserv\wrds_connection_settings_1.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 93D4C843-7974-4287-9222-B90206DE6B75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

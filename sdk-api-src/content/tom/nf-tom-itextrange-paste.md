@@ -4,7 +4,7 @@ title: ITextRange::Paste
 author: windows-sdk-content
 description: Pastes text from a specified data object.
 old-location: controls\ITextRange_Paste.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

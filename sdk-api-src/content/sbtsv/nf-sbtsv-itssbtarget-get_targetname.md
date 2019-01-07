@@ -4,7 +4,7 @@ title: ITsSbTarget::get_TargetName
 author: windows-sdk-content
 description: Specifies or retrieves the name of the target.
 old-location: termserv\itssbtarget_targetname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
 ms.author: windowssdkdev
 ms.date: 12/5/2018

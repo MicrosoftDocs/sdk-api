@@ -4,7 +4,7 @@ title: EVENT_TRACE_LOGFILEW
 author: windows-sdk-content
 description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
 old-location: etw\event_trace_logfile.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

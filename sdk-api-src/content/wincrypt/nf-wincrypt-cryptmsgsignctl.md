@@ -4,7 +4,7 @@ title: CryptMsgSignCTL function
 author: windows-sdk-content
 description: The CryptMsgSignCTL function creates a signed message containing an encoded CTL.
 old-location: security\cryptmsgsignctl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 85ae8ce3-d0a7-4fcb-beaa-ede09d30930e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

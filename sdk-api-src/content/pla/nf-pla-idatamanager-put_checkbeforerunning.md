@@ -4,7 +4,7 @@ title: IDataManager::put_CheckBeforeRunning
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the data manager should check imposed limits, such as the minimum available free disk space, before collecting data.
 old-location: pla\idatamanager_checkbeforerunning.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 23c7aced-d159-4d5e-a9ff-f0ca5b3e4470
 ms.author: windowssdkdev
 ms.date: 12/5/2018

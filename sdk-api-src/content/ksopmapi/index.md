@@ -2,7 +2,7 @@
 UID: NA:ksopmapi
 ms.assetid: 23d185f4-4f68-368e-b1d5-66a28e100d1a
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

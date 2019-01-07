@@ -4,7 +4,7 @@ title: GetMUILanguage function
 author: windows-sdk-content
 description: Gets the language currently in use by the common controls for a particular process.
 old-location: controls\GetMUILanguage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\getmuilanguage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

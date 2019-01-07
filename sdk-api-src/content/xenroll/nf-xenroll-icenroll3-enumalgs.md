@@ -4,7 +4,7 @@ title: ICEnroll3::EnumAlgs
 author: windows-sdk-content
 description: The ICEnroll4::EnumAlgs method retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\icenroll4_enumalgs.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b7fe4abc-38e8-42a0-a7a0-312ccfc309e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

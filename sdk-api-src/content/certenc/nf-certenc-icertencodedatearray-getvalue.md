@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::GetValue
 author: windows-sdk-content
 description: Returns the specified date from the DATE array.
 old-location: security\icertencodedatearray_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

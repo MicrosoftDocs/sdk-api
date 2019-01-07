@@ -4,7 +4,7 @@ title: CREDENTIAL_TARGET_INFORMATIONA
 author: windows-sdk-content
 description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
 old-location: security\credential_target_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

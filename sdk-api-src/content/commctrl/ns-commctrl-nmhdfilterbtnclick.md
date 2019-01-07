@@ -4,7 +4,7 @@ title: NMHDFILTERBTNCLICK
 author: windows-sdk-content
 description: Specifies or receives the attributes of a filter button click.
 old-location: controls\NMHDFILTERBTNCLICK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhdfilterbtnclick.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

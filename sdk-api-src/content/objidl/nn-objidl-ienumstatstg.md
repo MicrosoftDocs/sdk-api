@@ -4,7 +4,7 @@ title: IEnumSTATSTG
 author: windows-sdk-content
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

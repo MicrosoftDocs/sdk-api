@@ -4,7 +4,7 @@ title: IStream::LockRegion
 author: windows-sdk-content
 description: The LockRegion method restricts access to a specified range of bytes in the stream.
 old-location: stg\istream_lockregion.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f2606833-05ed-4bd0-a762-7b8172fb14c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

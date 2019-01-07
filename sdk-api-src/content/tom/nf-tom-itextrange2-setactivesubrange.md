@@ -4,7 +4,7 @@ title: ITextRange2::SetActiveSubrange
 author: windows-sdk-content
 description: Makes the specified subrange the active subrange of this range.
 old-location: controls\itextrange2_setactivesubrange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a635edd3-dcb9-4f1f-bf6e-774ce3f0c505
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_GetTileInfo macro
 author: windows-sdk-content
 description: Gets information about a tile in a list-view control. You can use this macro or send the LVM_GETTILEINFO message explicitly.
 old-location: controls\ListView_GetTileInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettileinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

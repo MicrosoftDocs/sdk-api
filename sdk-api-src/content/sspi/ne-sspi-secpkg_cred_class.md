@@ -4,7 +4,7 @@ title: SECPKG_CRED_CLASS
 author: windows-sdk-content
 description: Indicates the type of credential used in a client context. The SECPKG_CRED_CLASS enumeration is used in the SecPkgContext_CredInfo structure.
 old-location: security\secpkg_cred_class.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2f5f9be2-e7b5-4d34-a2ad-89a99db78ad0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::OnAuthenticated
 author: windows-sdk-content
 description: Marks the authentication of user credentials for the connection ID, and subsequently shows the connect notification in the taskbar notification area.
 old-location: termserv\iworkspacescriptable_onauthenticated.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4675fa5b-ea73-4046-a7f9-0b237bd283df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

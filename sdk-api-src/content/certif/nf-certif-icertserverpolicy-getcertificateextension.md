@@ -4,7 +4,7 @@ title: ICertServerPolicy::GetCertificateExtension
 author: windows-sdk-content
 description: Retrieves a specific certificate extension.
 old-location: security\icertserverpolicy_getcertificateextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

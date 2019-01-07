@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::Add
 author: windows-sdk-content
 description: Adds a trace provider to the collection.
 old-location: pla\itracedataprovidercollection_add.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3214f25d-1991-439a-b237-61249a531a2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

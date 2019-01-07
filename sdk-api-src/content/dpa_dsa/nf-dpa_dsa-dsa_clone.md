@@ -4,7 +4,7 @@ title: DSA_Clone function
 author: windows-sdk-content
 description: Duplicates a dynamic structure array (DSA).
 old-location: controls\DSA_Clone.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_clone.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

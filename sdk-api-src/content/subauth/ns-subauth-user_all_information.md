@@ -4,7 +4,7 @@ title: USER_ALL_INFORMATION
 author: windows-sdk-content
 description: Contains information on the session user.
 old-location: security\user_all_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 18cf7194-4309-47b6-bfd1-9fb52bfddd56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

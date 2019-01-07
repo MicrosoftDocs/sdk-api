@@ -4,7 +4,7 @@ title: ISequentialStream::Write
 author: windows-sdk-content
 description: Writes a specified number of bytes into the stream object starting at the current seek pointer.
 old-location: stg\isequentialstream_write.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f0323dda-6c31-4411-bf20-9650162109c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

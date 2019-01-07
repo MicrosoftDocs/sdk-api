@@ -4,7 +4,7 @@ title: IImageList2::GetStatistics
 author: windows-sdk-content
 description: Gets an image list statistics structure.
 old-location: controls\IImageList2_GetStatistics.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getstatistics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

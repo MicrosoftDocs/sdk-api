@@ -4,7 +4,7 @@ title: SecPkgContext_EapKeyBlock
 author: windows-sdk-content
 description: Contains key data used by the EAP TLS Authentication Protocol.
 old-location: security\secpkgcontext_eapkeyblock.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

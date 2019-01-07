@@ -2,7 +2,7 @@
 UID: NA:wmp
 ms.assetid: decba095-2dbc-3d2b-9f9a-dbd7dd739bd9
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

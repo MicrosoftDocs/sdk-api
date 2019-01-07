@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_OutputLocation
 author: windows-sdk-content
 description: Retrieves the decorated folder name if PLA were to create it now.
 old-location: pla\idatacollectorset_get_outputlocation.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d0ca2655-f65a-4bcb-8e9e-f247b4207e56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

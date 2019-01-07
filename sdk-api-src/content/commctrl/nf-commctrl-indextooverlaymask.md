@@ -4,7 +4,7 @@ title: INDEXTOOVERLAYMASK macro
 author: windows-sdk-content
 description: Prepares the index of an overlay mask so that the ImageList_Draw function can use it.
 old-location: controls\INDEXTOOVERLAYMASK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

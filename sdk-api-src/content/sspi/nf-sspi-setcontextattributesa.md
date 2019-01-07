@@ -4,7 +4,7 @@ title: SetContextAttributesA function
 author: windows-sdk-content
 description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
 old-location: security\setcontextattributes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -111,7 +111,7 @@ This attribute is supported only by the Schannel security package.
 <td width="60%">
 The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt829323(v=VS.85).aspx">SecPkgContext_EarlyStart</a> structure.
 
-Sets the False Start feature. See  the <a href="https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/">Building a faster and more secure web</a> blog post for information on this feature.
+Sets the False Start feature. See  the <a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Building a faster and more secure web</a> blog post for information on this feature.
 
 </td>
 </tr>

@@ -4,7 +4,7 @@ title: ITextFont::GetSmallCaps
 author: windows-sdk-content
 description: Gets whether characters are in small capital letters.
 old-location: controls\ITextFont_GetSmallCaps.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsmallcaps.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

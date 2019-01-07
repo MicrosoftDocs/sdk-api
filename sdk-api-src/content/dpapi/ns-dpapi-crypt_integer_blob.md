@@ -4,7 +4,7 @@ title: CRYPT_INTEGER_BLOB
 author: windows-sdk-content
 description: The CryptoAPI CRYPT_INTEGER_BLOB structure is used for an arbitrary array of bytes. It is declared in Wincrypt.h and provides flexibility for objects that can contain various data types.
 old-location: security\cryptoapi_blob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

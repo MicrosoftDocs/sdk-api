@@ -4,7 +4,7 @@ title: IADsTSUserEx::put_TerminalServicesWorkDirectory
 author: windows-sdk-content
 description: The working directory path for the user.
 old-location: termserv\iadstsuserex_terminalservicesworkdirectory.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 66048329-ae5a-4e70-b6a4-dcdc312a74df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

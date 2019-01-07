@@ -4,7 +4,7 @@ title: DeleteSecurityContext function
 author: windows-sdk-content
 description: Deletes the local data structures associated with the specified security context initiated by a previous call to the InitializeSecurityContext (General) function or the AcceptSecurityContext (General) function.
 old-location: security\deletesecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

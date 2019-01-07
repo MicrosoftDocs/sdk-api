@@ -4,7 +4,7 @@ title: IRichEditOle::GetClipboardData
 author: windows-sdk-content
 description: Retrieves a clipboard object for a range in an edit control.
 old-location: controls\IRichEditOle_GetClipboardData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetclipboarddata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

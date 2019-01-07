@@ -4,7 +4,7 @@ title: TdhEnumerateProviderFieldInformation function
 author: windows-sdk-content
 description: Retrieves the specified field metadata for a given provider.
 old-location: etw\tdhenumerateproviderfieldinformation_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

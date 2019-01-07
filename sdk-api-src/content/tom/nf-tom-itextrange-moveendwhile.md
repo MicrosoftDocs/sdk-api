@@ -4,7 +4,7 @@ title: ITextRange::MoveEndWhile
 author: windows-sdk-content
 description: Moves the end of the range either Count characters or just past all contiguous characters that are found in the set of characters specified by Cset, whichever is less.
 old-location: controls\ITextRange_MoveEndWhile.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveendwhile.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

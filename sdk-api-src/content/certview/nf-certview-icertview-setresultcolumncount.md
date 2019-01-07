@@ -4,7 +4,7 @@ title: ICertView::SetResultColumnCount
 author: windows-sdk-content
 description: Specifies the maximum number of columns for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumncount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

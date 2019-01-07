@@ -4,7 +4,7 @@ title: KERB_EXTERNAL_TICKET
 author: windows-sdk-content
 description: Contains information about an external ticket.
 old-location: security\kerb_external_ticket.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 742e2795-ec74-4856-a680-7a1c233a2934
 ms.author: windowssdkdev
 ms.date: 12/5/2018

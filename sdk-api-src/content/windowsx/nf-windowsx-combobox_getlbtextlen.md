@@ -4,7 +4,7 @@ title: ComboBox_GetLBTextLen macro
 author: windows-sdk-content
 description: Gets the length of a string in the list in a combo box. You can use this macro or send the CB_GETLBTEXTLEN message explicitly.
 old-location: controls\ComboBox_GetLBTextLen.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

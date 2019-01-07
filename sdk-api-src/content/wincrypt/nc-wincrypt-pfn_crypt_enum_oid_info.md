@@ -4,7 +4,7 @@ title: PFN_CRYPT_ENUM_OID_INFO
 author: windows-sdk-content
 description: The CRYPT_ENUM_OID_INFO callback function is used with the CryptEnumOIDInfo function.
 old-location: security\crypt_enum_oid_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 30ae4274-631d-4c6a-96c5-18f096607cad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

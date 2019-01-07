@@ -4,7 +4,7 @@ title: ITextPara::GetTabCount
 author: windows-sdk-content
 description: Retrieves the tab count.
 old-location: controls\ITextPara_GetTabCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

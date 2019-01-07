@@ -4,7 +4,7 @@ title: ITextSelection::GetType
 author: windows-sdk-content
 description: Gets the type of text selection.
 old-location: controls\ITextSelection_GetType.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

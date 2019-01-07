@@ -4,7 +4,7 @@ title: CERT_DH_PARAMETERS
 author: windows-sdk-content
 description: Contains parameters associated with a Diffie/Hellman public key algorithm.
 old-location: security\cert_dh_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bd57236a-1763-4a43-83f4-95131d8adec9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptUIDlgViewContext function
 author: windows-sdk-content
 description: Displays a certificate, CTL, or CRL context.
 old-location: security\cryptuidlgviewcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

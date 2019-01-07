@@ -4,7 +4,7 @@ title: SetFirmwareEnvironmentVariableExW function
 author: windows-sdk-content
 description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
 old-location: base\setfirmwareenvironmentvariableex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

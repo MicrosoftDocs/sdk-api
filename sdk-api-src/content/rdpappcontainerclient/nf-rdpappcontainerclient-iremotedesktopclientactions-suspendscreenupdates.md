@@ -4,7 +4,7 @@ title: IRemoteDesktopClientActions::SuspendScreenUpdates
 author: windows-sdk-content
 description: Suspends screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

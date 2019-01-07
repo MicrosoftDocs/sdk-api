@@ -4,7 +4,7 @@ title: ITextSelection::TypeText
 author: windows-sdk-content
 description: Types the string given by bstr at this selection as if someone typed it. This is similar to the underlying SetText method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
 old-location: controls\ITextSelection_TypeText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\typetext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

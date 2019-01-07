@@ -4,7 +4,7 @@ title: IEnroll::CreatePKCS7RequestFromRequest
 author: windows-sdk-content
 description: The CreatePKCS7RequestFromRequest method creates a PKCS #7 request from an existing certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_createpkcs7requestfromrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f1d2df72-bedc-45e5-8c0a-a731845d4487
 ms.author: windowssdkdev
 ms.date: 12/5/2018

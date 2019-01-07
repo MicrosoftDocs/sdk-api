@@ -4,7 +4,7 @@ title: SecPkgContext_AuthorityA
 author: windows-sdk-content
 description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
 old-location: security\secpkgcontext_authority.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 619bf16b-c439-48e7-b013-3622e2f3bbc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

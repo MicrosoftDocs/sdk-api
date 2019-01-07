@@ -4,7 +4,7 @@ title: SPC_INDIRECT_DATA_CONTENT
 author: windows-sdk-content
 description: Is used in Authenticode signatures to store the digest and other attributes of the signed file.
 old-location: security\spc_indirect_data_content.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: BD790CA5-9C51-4483-93C1-5492154BF913
 ms.author: windowssdkdev
 ms.date: 12/5/2018

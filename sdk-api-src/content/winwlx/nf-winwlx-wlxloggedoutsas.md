@@ -4,7 +4,7 @@ title: WlxLoggedOutSAS function
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while no user is logged on.
 old-location: security\wlxloggedoutsas.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7f3996b6-7c99-42c5-a39f-8c67ff19a580
 ms.author: windowssdkdev
 ms.date: 12/5/2018

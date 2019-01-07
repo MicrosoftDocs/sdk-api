@@ -4,7 +4,7 @@ title: PropSheet_GetTabControl macro
 author: windows-sdk-content
 description: Retrieves the handle to the tab control of a property sheet. You can use this macro or send the PSM_GETTABCONTROL message explicitly.
 old-location: controls\PropSheet_GetTabControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_gettabcontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

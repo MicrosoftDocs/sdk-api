@@ -4,7 +4,7 @@ title: ITsSbSession::get_TargetName
 author: windows-sdk-content
 description: Retrieves the name of the target on which this session was created.
 old-location: termserv\itssbsession_targetname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5ab4cdd6-9f5f-4253-9b80-6cc35cff8b79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

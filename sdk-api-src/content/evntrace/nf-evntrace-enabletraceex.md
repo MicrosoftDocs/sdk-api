@@ -4,7 +4,7 @@ title: EnableTraceEx function
 author: windows-sdk-content
 description: Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.
 old-location: etw\enabletraceex_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

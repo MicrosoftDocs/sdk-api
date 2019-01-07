@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::IsUserAllowedToLogon
 author: windows-sdk-content
 description: IWTSProtocolConnection::IsUserAllowedToLogon is no longer available. Instead, use IWRdsProtocolConnection::IsUserAllowedToLogon.
 old-location: termserv\iwtsprotocolconnection_isuserallowedtologon.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 297ecc6c-6598-4c1a-94df-9d9924917cdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

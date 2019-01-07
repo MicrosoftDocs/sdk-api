@@ -4,7 +4,7 @@ title: WTSSetListenerSecurityA function
 author: windows-sdk-content
 description: Configures the security descriptor of a Remote Desktop Services listener.
 old-location: termserv\wtssetlistenersecurity.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bc90d526-e252-4506-b781-66da5bd66ced
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_ConnectionError
 author: windows-sdk-content
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

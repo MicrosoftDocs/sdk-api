@@ -4,7 +4,7 @@ title: ICertPolicy::Initialize
 author: windows-sdk-content
 description: Called by the server engine to allow the policy module to perform initialization tasks.
 old-location: security\icertpolicy2_initialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b0a0e9a6-79ca-4898-bddd-e736552aaf68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

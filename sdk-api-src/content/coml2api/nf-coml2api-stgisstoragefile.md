@@ -4,7 +4,7 @@ title: StgIsStorageFile function
 author: windows-sdk-content
 description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.
 old-location: stg\stgisstoragefile.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

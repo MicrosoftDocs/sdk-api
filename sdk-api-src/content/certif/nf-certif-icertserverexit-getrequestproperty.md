@@ -4,7 +4,7 @@ title: ICertServerExit::GetRequestProperty
 author: windows-sdk-content
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
 ms.author: windowssdkdev
 ms.date: 12/5/2018

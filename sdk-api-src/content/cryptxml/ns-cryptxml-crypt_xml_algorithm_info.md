@@ -4,7 +4,7 @@ title: CRYPT_XML_ALGORITHM_INFO
 author: windows-sdk-content
 description: Contains algorithm information.
 old-location: security\crypt_xml_algorithm_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

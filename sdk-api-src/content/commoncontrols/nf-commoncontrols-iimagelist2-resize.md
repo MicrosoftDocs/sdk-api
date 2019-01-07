@@ -4,7 +4,7 @@ title: IImageList2::Resize
 author: windows-sdk-content
 description: Resizes the current image.
 old-location: controls\IImageList2_Resize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\resize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

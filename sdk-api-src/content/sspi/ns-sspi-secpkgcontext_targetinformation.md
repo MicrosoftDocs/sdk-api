@@ -4,7 +4,7 @@ title: SecPkgContext_TargetInformation
 author: windows-sdk-content
 description: Returns information about the credential used for the security context.
 old-location: security\secpkgcontext_targetinformation.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.author: windowssdkdev
 ms.date: 12/5/2018

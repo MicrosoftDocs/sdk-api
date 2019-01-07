@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_LocalRevocationInformation
 author: windows-sdk-content
 description: Gets or sets the certificate revocation list (CRL) of the local machine.
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 76581c1c-9eba-456c-b1cb-ff61e530a53a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: APO_CONNECTION_PROPERTY
 author: windows-sdk-content
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

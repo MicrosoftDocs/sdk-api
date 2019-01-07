@@ -4,7 +4,7 @@ title: WTSSBX_MACHINE_DRAIN
 author: windows-sdk-content
 description: Contains values that indicate the drain state of a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtssbx_machine_drain.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 251d1534-0571-427a-a9a1-2327eba55c2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertificateEnrollmentServerSetup::UnInstall
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Web Service (CES).
 old-location: security\icertificateenrollmentserversetup_uninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

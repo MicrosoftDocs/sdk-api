@@ -4,7 +4,7 @@ title: NMLVEMPTYMARKUP
 author: windows-sdk-content
 description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
 old-location: controls\NMLVEMPTYMARKUP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange::Move
 author: windows-sdk-content
 description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.
 old-location: controls\ITextRange_Move.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

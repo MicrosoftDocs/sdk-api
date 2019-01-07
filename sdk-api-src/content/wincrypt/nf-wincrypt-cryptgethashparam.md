@@ -4,7 +4,7 @@ title: CryptGetHashParam function
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

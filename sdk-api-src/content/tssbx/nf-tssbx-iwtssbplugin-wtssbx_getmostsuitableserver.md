@@ -4,7 +4,7 @@ title: IWTSSBPlugin::WTSSBX_GetMostSuitableServer
 author: windows-sdk-content
 description: Returns the ID of the server to which Terminal Services Session Broker (TS&#160;Session Broker) should direct the incoming connection.
 old-location: termserv\iwtssbplugin_wtssbx_getmostsuitableserver.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d25527ec-1007-4b7b-93ad-6c96780dddec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetThemeSysString function
 author: windows-sdk-content
 description: Retrieves the value of a system string.
 old-location: controls\GetThemeSysString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

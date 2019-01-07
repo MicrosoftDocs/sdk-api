@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
 author: windows-sdk-content
 description: Contains information about the public key BLOB used by the CryptUIWizDigitalSign function.
 old-location: security\cryptui_wiz_digital_sign_blob_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9750f52a-f605-4f43-98e1-0f0ea947a214
 ms.author: windowssdkdev
 ms.date: 12/5/2018

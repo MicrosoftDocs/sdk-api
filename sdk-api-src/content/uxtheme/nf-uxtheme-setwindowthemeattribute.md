@@ -4,7 +4,7 @@ title: SetWindowThemeAttribute function
 author: windows-sdk-content
 description: Sets attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeAttribute.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemeattribute.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

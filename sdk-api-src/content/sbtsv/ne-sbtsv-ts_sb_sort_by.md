@@ -4,7 +4,7 @@ title: TS_SB_SORT_BY
 author: windows-sdk-content
 description: Specifies sort order. It is used as a parameter in the EnumerateTargets method.
 old-location: termserv\ts_sb_sort_by.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 50945048-5E79-4423-8983-543085E3D953
 ms.author: windowssdkdev
 ms.date: 12/5/2018

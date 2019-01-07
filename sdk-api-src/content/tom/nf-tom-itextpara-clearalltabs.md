@@ -4,7 +4,7 @@ title: ITextPara::ClearAllTabs
 author: windows-sdk-content
 description: Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 old-location: controls\ITextPara_ClearAllTabs.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

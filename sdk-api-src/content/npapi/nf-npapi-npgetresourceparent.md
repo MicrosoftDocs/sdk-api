@@ -4,7 +4,7 @@ title: NPGetResourceParent function
 author: windows-sdk-content
 description: Retrieves the parent of a specified network resource in the browse hierarchy.
 old-location: security\npgetresourceparent.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

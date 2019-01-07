@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_SubdirectoryFormatPattern
 author: windows-sdk-content
 description: Retrieves or sets a format pattern to use when decorating the folder name.
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 83b7df10-8b00-4d64-bf71-2c68e037ab3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

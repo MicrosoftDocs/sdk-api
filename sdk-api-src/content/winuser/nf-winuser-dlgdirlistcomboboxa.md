@@ -4,7 +4,7 @@ title: DlgDirListComboBoxA function
 author: windows-sdk-content
 description: Replaces the contents of a combo box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list of names can include mapped drive letters.
 old-location: controls\DlgDirListComboBox.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

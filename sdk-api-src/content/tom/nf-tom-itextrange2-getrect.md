@@ -4,7 +4,7 @@ title: ITextRange2::GetRect
 author: windows-sdk-content
 description: Retrieves a rectangle of the specified type for the current range.
 old-location: controls\itextrange2_getrect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 14f0faab-ff37-4f86-a4ba-b6c207d7ddf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

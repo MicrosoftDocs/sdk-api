@@ -4,7 +4,7 @@ title: Edit_LineLength macro
 author: windows-sdk-content
 description: Retrieves the length, in characters, of a line in an edit or rich edit control. You can use this macro or send the EM_LINELENGTH message explicitly.
 old-location: controls\Edit_LineLength.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_linelength.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

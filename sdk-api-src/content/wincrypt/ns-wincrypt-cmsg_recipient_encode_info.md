@@ -4,7 +4,7 @@ title: CMSG_RECIPIENT_ENCODE_INFO
 author: windows-sdk-content
 description: Contains information a message recipient's content encryption key management type.
 old-location: security\cmsg_recipient_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: eb85f3e4-a5f8-45e7-9bbf-9c649db1e141
 ms.author: windowssdkdev
 ms.date: 12/5/2018

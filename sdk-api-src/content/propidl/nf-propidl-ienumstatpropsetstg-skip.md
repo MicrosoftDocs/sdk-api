@@ -4,7 +4,7 @@ title: IEnumSTATPROPSETSTG::Skip
 author: windows-sdk-content
 description: Skips a specified number of STATPROPSETSTG structures in the enumeration sequence.
 old-location: stg\ienumstatpropsetstg_skip.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 48275ca5-f9d1-42cb-b218-f51488a91bf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

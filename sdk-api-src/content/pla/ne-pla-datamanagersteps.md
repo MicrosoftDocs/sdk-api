@@ -4,7 +4,7 @@ title: DataManagerSteps
 author: windows-sdk-content
 description: Defines the actions that the data manager takes when it runs.
 old-location: pla\datamanagersteps.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e647987d-e524-475e-a355-539cb3f04635
 ms.author: windowssdkdev
 ms.date: 12/5/2018

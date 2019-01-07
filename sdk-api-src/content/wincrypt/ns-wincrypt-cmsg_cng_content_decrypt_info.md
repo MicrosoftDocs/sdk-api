@@ -4,7 +4,7 @@ title: CMSG_CNG_CONTENT_DECRYPT_INFO
 author: windows-sdk-content
 description: Contains all the relevant information passed between CryptMsgControl and object identifier (OID) installable functions for the import and decryption of a Cryptography API:\_Next Generation (CNG) content encryption key (CEK).
 old-location: security\cmsg_cng_content_decrypt_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 56e94b20-9d0a-4694-973f-a5878ad54f48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

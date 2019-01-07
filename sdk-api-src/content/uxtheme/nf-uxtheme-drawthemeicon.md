@@ -4,7 +4,7 @@ title: DrawThemeIcon function
 author: windows-sdk-content
 description: Draws an image from an image list with the icon effect defined by the visual style.
 old-location: controls\DrawThemeIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeicon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

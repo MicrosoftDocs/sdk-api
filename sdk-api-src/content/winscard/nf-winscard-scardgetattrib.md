@@ -4,7 +4,7 @@ title: SCardGetAttrib function
 author: windows-sdk-content
 description: Retrieves the current reader attributes for the given handle. It does not affect the state of the reader, driver, or card.
 old-location: security\scardgetattrib.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 309ac107-175b-489e-b428-b87bc4204f34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

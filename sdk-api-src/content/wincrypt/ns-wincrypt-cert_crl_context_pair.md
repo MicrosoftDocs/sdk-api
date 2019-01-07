@@ -4,7 +4,7 @@ title: CERT_CRL_CONTEXT_PAIR
 author: windows-sdk-content
 description: The CERT_CRL_CONTEXT_PAIR structure contains a certificate context and an associated CRL context.
 old-location: security\cert_crl_context_pair.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e88781f0-8474-47d3-8218-de95f7eadf04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

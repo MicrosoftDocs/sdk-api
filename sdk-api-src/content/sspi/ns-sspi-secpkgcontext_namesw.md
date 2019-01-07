@@ -4,7 +4,7 @@ title: SecPkgContext_NamesW
 author: windows-sdk-content
 description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_names.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

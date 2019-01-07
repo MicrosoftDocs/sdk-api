@@ -4,7 +4,7 @@ title: RegDisablePredefinedCacheEx function
 author: windows-sdk-content
 description: Disables handle caching for all predefined registry handles for the current process.
 old-location: base\regdisablepredefinedcacheex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a56cf7d9-0ac4-4719-af41-3c0cdcef6faf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

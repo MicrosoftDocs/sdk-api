@@ -4,7 +4,7 @@ title: IEnroll::AddExtensionsToRequest
 author: windows-sdk-content
 description: The AddExtensionsToRequest method adds extensions to the certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_addextensionstorequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6976fd52-98f0-4eff-aa83-7cf5cb5d5e67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

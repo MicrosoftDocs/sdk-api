@@ -4,7 +4,7 @@ title: ListView_GetSubItemRect macro
 author: windows-sdk-content
 description: Gets information about the rectangle that surrounds a subitem in a list-view control.
 old-location: controls\ListView_GetSubItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

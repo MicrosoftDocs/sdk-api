@@ -4,7 +4,7 @@ title: CMS_KEY_INFO
 author: windows-sdk-content
 description: Not used.
 old-location: security\cms_key_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4aec1184-d375-48a0-8b98-d5ff5932d297
 ms.author: windowssdkdev
 ms.date: 12/5/2018

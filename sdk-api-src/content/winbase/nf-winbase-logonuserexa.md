@@ -4,7 +4,7 @@ title: LogonUserExA function
 author: windows-sdk-content
 description: The LogonUserEx function attempts to log a user on to the local computer.
 old-location: security\logonuserex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4aba1cad-f234-4329-8599-7438cb9bee98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

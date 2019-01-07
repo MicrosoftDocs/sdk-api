@@ -4,7 +4,7 @@ title: ITextFont::SetOutline
 author: windows-sdk-content
 description: Sets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_SetOutline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setoutline.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

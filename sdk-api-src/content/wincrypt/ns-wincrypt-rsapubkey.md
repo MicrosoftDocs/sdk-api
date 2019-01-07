@@ -4,7 +4,7 @@ title: RSAPUBKEY
 author: windows-sdk-content
 description: The RSAPUBKEY structure contains information specific to the particular public key contained in the key BLOB.
 old-location: security\rsapubkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

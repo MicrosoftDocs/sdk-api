@@ -4,7 +4,7 @@ title: BTH_SET_SERVICE
 author: windows-sdk-content
 description: Provides service information for the specified Bluetooth service.
 old-location: bluetooth\bth_set_service.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

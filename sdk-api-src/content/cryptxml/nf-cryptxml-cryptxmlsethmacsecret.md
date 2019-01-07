@@ -4,7 +4,7 @@ title: CryptXmlSetHMACSecret function
 author: windows-sdk-content
 description: Sets the HMAC secret on the handle before calling the CryptXmlSign or CryptXmlVerify function.
 old-location: security\cryptxmlsethmacsecret.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

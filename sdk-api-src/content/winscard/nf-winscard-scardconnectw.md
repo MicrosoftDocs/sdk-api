@@ -4,7 +4,7 @@ title: SCardConnectW function
 author: windows-sdk-content
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
 old-location: security\scardconnect.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2::InsertTable
 author: windows-sdk-content
 description: Inserts a table in a range.
 old-location: controls\itextrange2_inserttable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f62cc778-8f06-43d1-985b-d233b02d3255
 ms.author: windowssdkdev
 ms.date: 12/5/2018

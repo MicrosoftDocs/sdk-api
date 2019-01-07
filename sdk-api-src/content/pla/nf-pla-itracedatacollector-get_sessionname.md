@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_SessionName
 author: windows-sdk-content
 description: Retrieves or sets the name of the session.
 old-location: pla\itracedatacollector_sessionname.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
 ms.author: windowssdkdev
 ms.date: 12/5/2018

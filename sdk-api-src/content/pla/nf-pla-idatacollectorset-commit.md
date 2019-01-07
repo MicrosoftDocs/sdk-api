@@ -4,7 +4,7 @@ title: IDataCollectorSet::Commit
 author: windows-sdk-content
 description: Saves, updates, or validates the data collector set. You can also use this method to flush a trace session.
 old-location: pla\idatacollectorset_commit.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7e432e1f-4b86-45dc-93d5-df603068273d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

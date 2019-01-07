@@ -4,7 +4,7 @@ title: SecPkgInfoA
 author: windows-sdk-content
 description: The SecPkgInfo structure provides general information about a security package, such as its name and capabilities.
 old-location: security\secpkginfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d0bff3d8-63f1-4a4e-851f-177040af6bd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

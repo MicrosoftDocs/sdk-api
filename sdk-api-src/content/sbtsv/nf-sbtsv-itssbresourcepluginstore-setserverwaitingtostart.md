@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetServerWaitingToStart
 author: windows-sdk-content
 description: Indicates to the session host that the server is waiting to start.
 old-location: termserv\itssbresourcepluginstore_setserverwaitingtostart.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: cf677be1-387b-4a63-902b-bacda8729b23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont2::SetEffects2
 author: windows-sdk-content
 description: Sets the additional character format effects.
 old-location: controls\itextfont2_seteffects2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fb4bfbe3-1e66-41ed-92e6-8d4f3877bdf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

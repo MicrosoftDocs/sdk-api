@@ -4,7 +4,7 @@ title: SCHANNEL_CRED
 author: windows-sdk-content
 description: Contains the data for an Schannel credential.
 old-location: security\schannel_cred.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8398e029-473e-488f-a861-c7ceae07e678
 ms.author: windowssdkdev
 ms.date: 12/5/2018

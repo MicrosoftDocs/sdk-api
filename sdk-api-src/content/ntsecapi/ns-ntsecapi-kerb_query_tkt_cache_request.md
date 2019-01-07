@@ -4,7 +4,7 @@ title: KERB_QUERY_TKT_CACHE_REQUEST
 author: windows-sdk-content
 description: Contains information used to query the ticket cache.
 old-location: security\kerb_query_tkt_cache_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3c8e63b3-9ac4-4228-87e1-6802c3d12d6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

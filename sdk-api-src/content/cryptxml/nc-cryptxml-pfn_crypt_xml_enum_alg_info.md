@@ -4,7 +4,7 @@ title: PFN_CRYPT_XML_ENUM_ALG_INFO
 author: windows-sdk-content
 description: Enumerates predefined and registered CRYPT_XML_ALGORITHM_INFO entries.
 old-location: security\pfn_crypt_xml_enum_alg_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d4e4752a-347c-45b0-97f2-6a692088c908
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: KERB_PURGE_TKT_CACHE_REQUEST
 author: windows-sdk-content
 description: Contains information used to delete entries from the ticket cache.
 old-location: security\kerb_purge_tkt_cache_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4e5e944a-8163-42de-b534-3b0478d9f334
 ms.author: windowssdkdev
 ms.date: 12/5/2018

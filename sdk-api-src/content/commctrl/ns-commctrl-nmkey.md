@@ -4,7 +4,7 @@ title: NMKEY
 author: windows-sdk-content
 description: Contains information used with key notification messages.
 old-location: controls\NMKEY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmkey.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRow::SetCellVerticalText
 author: windows-sdk-content
 description: Sets the vertical-text setting of the active cell.
 old-location: controls\itextrow_setcellverticaltext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: aa4c60c0-9c8f-4743-aff6-b87134ba2dd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

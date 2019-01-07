@@ -4,7 +4,7 @@ title: IValueMap::get_Item
 author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTSVirtualChannelWrite function
 author: windows-sdk-content
 description: Writes data to the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelwrite.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont2::GetModWidthSpace
 author: windows-sdk-content
 description: Gets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_getmodwidthspace.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6ce6250f-94e6-4a20-89cd-f3e9a83a9408
 ms.author: windowssdkdev
 ms.date: 12/5/2018

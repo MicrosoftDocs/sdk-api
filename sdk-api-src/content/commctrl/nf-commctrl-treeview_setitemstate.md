@@ -4,7 +4,7 @@ title: TreeView_SetItemState macro
 author: windows-sdk-content
 description: Sets a tree-view item's state attributes. You can use this macro or send the TVM_SETITEM message explicitly.
 old-location: controls\TreeView_SetItemState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

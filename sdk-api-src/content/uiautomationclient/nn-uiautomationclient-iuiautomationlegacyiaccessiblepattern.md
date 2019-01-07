@@ -157,7 +157,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the Microsoft Active Accessibility default action for the element.
+Retrieves the Microsoft Active Accessibility cached default action for the element.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the Microsoft Active Accessibility default action for the element.
+Retrieves the Microsoft Active Accessibility current default action for the element.
 
 </td>
 </tr>

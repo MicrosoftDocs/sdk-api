@@ -4,7 +4,7 @@ title: ImageList_GetIconSize function
 author: windows-sdk-content
 description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\ImageList_GetIconSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticonsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

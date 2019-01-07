@@ -4,7 +4,7 @@ title: IEnroll4::getCertContextFromFileResponseWStr
 author: windows-sdk-content
 description: Retrieves the certificate from a file containing a response from a certification authority.
 old-location: security\ienroll4_getcertcontextfromfileresponsewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 04a57bd4-4e04-41eb-97c9-87bfb51be645
 ms.author: windowssdkdev
 ms.date: 12/5/2018

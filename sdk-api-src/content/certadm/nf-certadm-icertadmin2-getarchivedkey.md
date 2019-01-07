@@ -4,7 +4,7 @@ title: ICertAdmin2::GetArchivedKey
 author: windows-sdk-content
 description: Retrieves an archived key recovery BLOB.
 old-location: security\icertadmin2_getarchivedkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2da85485-99ef-4381-888b-f0ac930b70dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

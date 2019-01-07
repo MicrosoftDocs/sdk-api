@@ -4,7 +4,7 @@ title: APO_BUFFER_FLAGS
 author: windows-sdk-content
 description: Defines the buffer validation flags for the APO_CONNECTION_PROPERTY structure associated with each APO connection.
 old-location: termserv\apo_buffer_flags.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 996b56d7-1187-4ed7-b5f5-7d77291113f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

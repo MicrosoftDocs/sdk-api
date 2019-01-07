@@ -2,7 +2,7 @@
 UID: NA:sysinfoapi
 ms.assetid: 6e1f154e-cb89-3563-bfef-9ccac20a6b15
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

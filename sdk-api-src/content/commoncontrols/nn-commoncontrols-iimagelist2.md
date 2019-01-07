@@ -4,7 +4,7 @@ title: IImageList2
 author: windows-sdk-content
 description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
 old-location: controls\IImageList2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

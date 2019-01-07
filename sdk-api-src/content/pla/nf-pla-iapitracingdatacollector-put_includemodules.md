@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::put_IncludeModules
 author: windows-sdk-content
 description: Retrieves or sets the list of modules to include in the trace.
 old-location: pla\iapitracingdatacollector_includemodules.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ec97533c-88a7-4360-bc2d-8e6465256032
 ms.author: windowssdkdev
 ms.date: 12/5/2018

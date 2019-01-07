@@ -4,7 +4,7 @@ title: EVENT_INFO_CLASS
 author: windows-sdk-content
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWorkspace3::GetClaimsToken2
 author: windows-sdk-content
 description: Retrieves a claims token.
 old-location: termserv\iworkspace3_getclaimstoken2.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

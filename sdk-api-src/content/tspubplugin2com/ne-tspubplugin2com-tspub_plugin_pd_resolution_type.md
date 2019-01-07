@@ -4,7 +4,7 @@ title: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
 author: windows-sdk-content
 description: Specifies the type of personal desktop resolution being requested.
 old-location: termserv\tspub_plugin_pd_resolution_type.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8cba4e6a-3508-4f9f-a206-4a0b41a933c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

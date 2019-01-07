@@ -4,7 +4,7 @@ title: UNICODE_STRING
 author: windows-sdk-content
 description: Used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\unicode_string.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4687d63a-4e58-4181-a48f-2724e5015e77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

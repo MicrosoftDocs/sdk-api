@@ -4,7 +4,7 @@ title: ITextFont::GetEmboss
 author: windows-sdk-content
 description: Gets whether characters are embossed.
 old-location: controls\ITextFont_GetEmboss.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

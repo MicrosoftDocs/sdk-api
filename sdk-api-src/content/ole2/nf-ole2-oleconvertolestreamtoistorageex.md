@@ -4,7 +4,7 @@ title: OleConvertOLESTREAMToIStorageEx function
 author: windows-sdk-content
 description: The OleConvertOLESTREAMToIStorageEx function converts the specified object from the OLE 1 storage model to an OLE 2 structured storage object including presentation data. This is one of several compatibility functions.
 old-location: stg\oleconvertolestreamtoistorageex.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 2e77fa0e-1d98-4c59-8d3c-65bd7235ec8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

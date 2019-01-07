@@ -4,7 +4,7 @@ title: IEnroll2::get_EnableSMIMECapabilities
 author: windows-sdk-content
 description: Controls whether the PKCS #10 will contain a signed attribute for Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities.
 old-location: security\ienroll4_enablesmimecapabilities.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e0571a8c-c682-44fd-a479-ace627b314b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

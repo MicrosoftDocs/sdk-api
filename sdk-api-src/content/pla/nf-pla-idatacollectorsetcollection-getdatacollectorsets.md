@@ -4,7 +4,7 @@ title: IDataCollectorSetCollection::GetDataCollectorSets
 author: windows-sdk-content
 description: Populates the data collector set collection.
 old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418
 ms.author: windowssdkdev
 ms.date: 12/5/2018

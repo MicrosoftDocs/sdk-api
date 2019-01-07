@@ -4,7 +4,7 @@ title: CRYPT_PKCS8_IMPORT_PARAMS
 author: windows-sdk-content
 description: Contains a PKCS #8 private key and pointers to callback functions. CRYPT_PKCS8_IMPORT_PARAMS is used by the CryptImportPKCS8 function.
 old-location: security\crypt_pkcs8_import_params.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a016e807-60d3-4ae4-829b-43acea2ee8c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

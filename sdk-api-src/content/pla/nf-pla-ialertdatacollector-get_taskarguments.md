@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_TaskArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskarguments.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3062688f-a612-4824-beae-b75687b4feed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

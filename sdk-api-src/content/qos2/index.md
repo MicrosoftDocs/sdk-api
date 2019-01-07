@@ -2,7 +2,7 @@
 UID: NA:qos2
 ms.assetid: 763b1312-8c59-3fb2-a278-3e3af4c10385
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

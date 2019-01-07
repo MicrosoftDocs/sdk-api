@@ -4,7 +4,7 @@ title: IEnroll4::acceptFileResponseWStr
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequestWStr, and it places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptfileresponsewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

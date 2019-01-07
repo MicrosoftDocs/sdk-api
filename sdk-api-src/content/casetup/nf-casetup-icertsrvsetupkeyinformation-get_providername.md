@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::get_ProviderName
 author: windows-sdk-content
 description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
 old-location: security\icertsrvsetupkeyinformation_providername.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a8f50b34-0403-40c0-9ecb-f663ccbd622a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

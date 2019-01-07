@@ -4,7 +4,7 @@ title: OPENCARDNAMEA
 author: windows-sdk-content
 description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

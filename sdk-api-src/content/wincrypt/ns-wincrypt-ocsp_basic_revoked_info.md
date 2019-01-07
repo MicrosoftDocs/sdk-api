@@ -4,7 +4,7 @@ title: OCSP_BASIC_REVOKED_INFO
 author: windows-sdk-content
 description: Contains the reason a certificate was revoked.
 old-location: security\ocsp_basic_revoked_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4475cf2a-bf25-427d-8e53-5e5b96dd676a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

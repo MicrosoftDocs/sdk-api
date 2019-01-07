@@ -4,7 +4,7 @@ title: ListView_EnableGroupView macro
 author: windows-sdk-content
 description: Enables or disables whether the items in a list-view control display as a group. You can use this macro or send the LVM_ENABLEGROUPVIEW message explicitly.
 old-location: controls\ListView_EnableGroupView.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_enablegroupview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_Task
 author: windows-sdk-content
 description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
 old-location: pla\idatacollectorset_get_task.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 8a89ebb9-2396-43f9-81ee-bfc2cdff18fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

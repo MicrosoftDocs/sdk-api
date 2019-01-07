@@ -4,7 +4,7 @@ title: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 author: windows-sdk-content
 description: The SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure checks if any certificates in the chain have weak cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements.
 old-location: security\ssl_f12_extra_cert_chain_policy_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: A78598AA-1C5F-49E9-9A0D-6B6C838F7DDD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptGetKeyParam function
 author: windows-sdk-content
 description: Retrieves data that governs the operations of a key.
 old-location: security\cryptgetkeyparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 07956d74-0e22-484b-9bf1-e0184a2ff32f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

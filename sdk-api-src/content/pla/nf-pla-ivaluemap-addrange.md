@@ -4,7 +4,7 @@ title: IValueMap::AddRange
 author: windows-sdk-content
 description: Adds one or more items to the collection.
 old-location: pla\ivaluemap_addrange.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 80893a3d-fcfc-475f-86ad-d19bb9e43ee0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

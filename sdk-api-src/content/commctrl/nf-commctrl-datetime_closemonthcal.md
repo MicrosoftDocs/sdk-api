@@ -4,7 +4,7 @@ title: DateTime_CloseMonthCal macro
 author: windows-sdk-content
 description: Closes the date and time picker (DTP) control. Use this macro or send the DTM_CLOSEMONTHCAL message explicitly.
 old-location: controls\DateTime_CloseMonthCal.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_closemonthcal.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

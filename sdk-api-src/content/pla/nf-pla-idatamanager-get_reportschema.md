@@ -4,7 +4,7 @@ title: IDataManager::get_ReportSchema
 author: windows-sdk-content
 description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
 old-location: pla\idatamanager_reportschema.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextDocument::GetSaved
 author: windows-sdk-content
 description: Gets a value that indicates whether changes have been made since the file was last saved.
 old-location: controls\ITextDocument_GetSaved.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsaved.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

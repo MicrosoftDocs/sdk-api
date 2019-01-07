@@ -4,7 +4,7 @@ title: GetOpenCardNameW function
 author: windows-sdk-content
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
 ms.author: windowssdkdev
 ms.date: 12/5/2018

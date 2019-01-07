@@ -4,7 +4,7 @@ title: ITextStrings::DeleteRange
 author: windows-sdk-content
 description: Deletes the contents of a given range.
 old-location: controls\itextstrings_deleterange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2dd6312a-77ab-4538-a51b-7de49a5457ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

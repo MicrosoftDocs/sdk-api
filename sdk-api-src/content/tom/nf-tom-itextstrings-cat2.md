@@ -4,7 +4,7 @@ title: ITextStrings::Cat2
 author: windows-sdk-content
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

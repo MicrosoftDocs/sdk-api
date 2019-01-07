@@ -4,7 +4,7 @@ title: CRYPT_XML_X509DATA_ITEM
 author: windows-sdk-content
 description: Represents X.509 data that is to be encoded in an X509Data named element.
 old-location: security\crypt_xml_x509data_item.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 118371c7-9b75-4330-9897-bd352b072fa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

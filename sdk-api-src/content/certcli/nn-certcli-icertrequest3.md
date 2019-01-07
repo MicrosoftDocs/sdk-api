@@ -4,7 +4,7 @@ title: ICertRequest3
 author: windows-sdk-content
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest3.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 01de2ac0-4844-41a6-acef-e3e83b350393
 ms.author: windowssdkdev
 ms.date: 12/5/2018

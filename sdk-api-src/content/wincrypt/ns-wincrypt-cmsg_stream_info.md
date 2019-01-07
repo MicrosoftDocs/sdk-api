@@ -4,7 +4,7 @@ title: CMSG_STREAM_INFO
 author: windows-sdk-content
 description: Used to enable stream processing of data rather than single block processing.
 old-location: security\cmsg_stream_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
 ms.author: windowssdkdev
 ms.date: 12/5/2018

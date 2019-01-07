@@ -4,7 +4,7 @@ title: ITextPara::SetListType
 author: windows-sdk-content
 description: Sets the type of list to be used for paragraphs.
 old-location: controls\ITextPara_SetListType.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

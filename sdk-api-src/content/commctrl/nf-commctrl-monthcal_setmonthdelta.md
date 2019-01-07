@@ -4,7 +4,7 @@ title: MonthCal_SetMonthDelta macro
 author: windows-sdk-content
 description: Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the MCM_SETMONTHDELTA message explicitly.
 old-location: controls\MonthCal_SetMonthDelta.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmonthdelta.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

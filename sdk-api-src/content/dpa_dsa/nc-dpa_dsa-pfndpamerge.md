@@ -4,7 +4,7 @@ title: PFNDPAMERGE
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge.
 old-location: controls\PFNDPAMERGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamerge.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

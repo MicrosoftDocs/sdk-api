@@ -4,7 +4,7 @@ title: ITextServices::TxGetText
 author: windows-sdk-content
 description: Returns all of the Unicode plain text in the control as a BSTR.
 old-location: controls\ITextServices_TxGetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgettext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

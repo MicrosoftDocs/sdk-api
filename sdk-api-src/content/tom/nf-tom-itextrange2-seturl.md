@@ -4,7 +4,7 @@ title: ITextRange2::SetURL
 author: windows-sdk-content
 description: Sets the text in this range to that of the specified URL.
 old-location: controls\itextrange2_seturl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f8e62056-5177-4c88-99d8-32ca30bc71e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

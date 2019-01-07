@@ -4,7 +4,7 @@ title: CryptGetDefaultProviderW function
 author: windows-sdk-content
 description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptgetdefaultprovider.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

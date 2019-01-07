@@ -4,7 +4,7 @@ title: IDataManager::get_FolderActions
 author: windows-sdk-content
 description: Retrieves a collection that you use to manage the actions to take on each folder in the data collector set when the age and size conditions are met.
 old-location: pla\idatamanager_folderactions.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 59fad3d2-9971-4608-8576-977d4dd8ace4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

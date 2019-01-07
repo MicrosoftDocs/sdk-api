@@ -4,7 +4,7 @@ title: IWTSProtocolManager::NotifySessionOfServiceStop
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionOfServiceStop is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStop.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestop.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: cdad7006-4cd5-4ea3-84a3-f3cdeb57befa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

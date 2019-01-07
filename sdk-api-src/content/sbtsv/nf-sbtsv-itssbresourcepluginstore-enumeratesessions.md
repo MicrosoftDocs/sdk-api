@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::EnumerateSessions
 author: windows-sdk-content
 description: Enumerates a specified set of sessions.
 old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 217b5c28-b0f8-4a8f-8695-8c8e0895b508
 ms.author: windowssdkdev
 ms.date: 12/5/2018

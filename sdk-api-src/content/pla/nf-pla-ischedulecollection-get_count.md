@@ -4,7 +4,7 @@ title: IScheduleCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of schedules in the collection.
 old-location: pla\ischedulecollection_count.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ade49ca4-3cd6-4d42-bf2c-50bdc6301dbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

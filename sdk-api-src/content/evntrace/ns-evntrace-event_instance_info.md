@@ -4,7 +4,7 @@ title: EVENT_INSTANCE_INFO
 author: windows-sdk-content
 description: The EVENT_INSTANCE_INFO structure maps a unique transaction identifier to a registered event trace class.
 old-location: etw\event_instance_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 83a3802c-b992-43a2-a98a-bdee2ecfef24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCROLLINFO
 author: windows-sdk-content
 description: The SCROLLINFO structure contains scroll bar parameters to be set by the SetScrollInfo function (or SBM_SETSCROLLINFO message), or retrieved by the GetScrollInfo function (or SBM_GETSCROLLINFO message).
 old-location: controls\SCROLLINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarstructures\scrollinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector::get_SampleInterval
 author: windows-sdk-content
 description: Retrieves or sets the interval to wait between sampling counter data.
 old-location: pla\iperformancecounterdatacollector_sampleinterval.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3bd3aad3-9ec6-4e61-9d98-3a71f7f1165a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

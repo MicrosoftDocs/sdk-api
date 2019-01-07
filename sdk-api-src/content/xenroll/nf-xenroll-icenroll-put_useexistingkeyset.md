@@ -4,7 +4,7 @@ title: ICEnroll::put_UseExistingKeySet
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the existing keys should be used.
 old-location: security\icenroll4_useexistingkeyset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e5115033-bda1-4160-84b3-80c692bf64fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

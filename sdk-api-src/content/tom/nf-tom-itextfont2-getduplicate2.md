@@ -4,7 +4,7 @@ title: ITextFont2::GetDuplicate2
 author: windows-sdk-content
 description: Gets a duplicate of this character format object.
 old-location: controls\itextfont2_getduplicate2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: dc6b979b-f837-4945-a35d-c5585d703bd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

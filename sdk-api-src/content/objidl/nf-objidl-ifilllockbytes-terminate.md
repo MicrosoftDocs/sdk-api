@@ -4,7 +4,7 @@ title: IFillLockBytes::Terminate
 author: windows-sdk-content
 description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.
 old-location: stg\ifilllockbytes_terminate.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 21ea78c7-51f1-4418-915c-79db47c25715
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::SetValue
 author: windows-sdk-content
 description: Sets a user-defined value.
 old-location: pla\idatacollectorset_setvalue.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d2143de9-f189-47e0-8b28-0422d9984459
 ms.author: windowssdkdev
 ms.date: 12/5/2018

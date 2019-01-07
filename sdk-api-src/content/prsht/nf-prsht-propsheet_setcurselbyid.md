@@ -4,7 +4,7 @@ title: PropSheet_SetCurSelByID macro
 author: windows-sdk-content
 description: Activates the specified page in a property sheet based on the resource identifier of the page. You can use this macro or send the PSM_SETCURSELID message explicitly.
 old-location: controls\PropSheet_SetCurSelByID.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcurselbyid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

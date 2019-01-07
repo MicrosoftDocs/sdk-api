@@ -4,7 +4,7 @@ title: ITextHost2::TxGetEditStyle
 author: windows-sdk-content
 description: Gets whether a rich edit control is in a dialog box.
 old-location: controls\itexthost2_txgeteditstyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8C5468C9-D152-4F57-9E8A-23B4852BFD69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

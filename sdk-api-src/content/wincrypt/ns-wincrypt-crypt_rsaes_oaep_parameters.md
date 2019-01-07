@@ -4,7 +4,7 @@ title: CRYPT_RSAES_OAEP_PARAMETERS
 author: windows-sdk-content
 description: Contains the parameters for an RSAES-OAEP key encryption.
 old-location: security\crypt_rsaes_oaep_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

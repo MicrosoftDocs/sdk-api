@@ -4,7 +4,7 @@ title: ComboBox_ShowDropdown macro
 author: windows-sdk-content
 description: Shows or hides the list in a combo box. You can use this macro or send the CB_SHOWDROPDOWN message explicitly.
 old-location: controls\ComboBox_ShowDropdown.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_SegmentMaxSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum size of any log file in the data collector set.
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7dd96822-a398-42c3-94f1-b9cd7a647575
 ms.author: windowssdkdev
 ms.date: 12/5/2018

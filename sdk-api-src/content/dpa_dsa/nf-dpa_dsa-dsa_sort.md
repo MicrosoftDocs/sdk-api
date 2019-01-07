@@ -4,7 +4,7 @@ title: DSA_Sort function
 author: windows-sdk-content
 description: Sorts the items in a dynamic structure array (DSA).
 old-location: controls\DSA_Sort.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_sort.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

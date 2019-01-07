@@ -4,7 +4,7 @@ title: TCITEMA
 author: windows-sdk-content
 description: Specifies or receives the attributes of a tab item. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEM structure.
 old-location: controls\TCITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

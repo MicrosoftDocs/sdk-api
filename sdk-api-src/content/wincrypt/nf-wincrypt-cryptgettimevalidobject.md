@@ -4,7 +4,7 @@ title: CryptGetTimeValidObject function
 author: windows-sdk-content
 description: Retrieves a CRL, an OCSP response, or CTL object that is valid within a given context and time.
 old-location: security\cryptgettimevalidobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dd639b43-1560-4e9f-a778-9e20484ae012
 ms.author: windowssdkdev
 ms.date: 12/5/2018

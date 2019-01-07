@@ -2,7 +2,7 @@
 UID: NA:netlistmgr
 ms.assetid: dd5832e2-5045-3c5b-b1bd-e6c951807f12
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

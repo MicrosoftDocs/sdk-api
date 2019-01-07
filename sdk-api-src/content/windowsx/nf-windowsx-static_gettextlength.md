@@ -4,7 +4,7 @@ title: Static_GetTextLength macro
 author: windows-sdk-content
 description: Gets the number of characters in the text of a static control.
 old-location: controls\Static_GetTextLength.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_gettextlength.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

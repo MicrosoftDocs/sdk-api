@@ -4,7 +4,7 @@ title: ICertEncodeDateArray
 author: windows-sdk-content
 description: Provides methods for handling Date arrays used in certificate extensions.
 old-location: security\icertencodedatearray.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9973c49a-d886-4cc4-b75e-7ff46f56d51c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

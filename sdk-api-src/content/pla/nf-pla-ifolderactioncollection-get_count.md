@@ -4,7 +4,7 @@ title: IFolderActionCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of folder actions in the collection.
 old-location: pla\ifolderactioncollection_count.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a6b0dbbd-aeb7-404a-8f7c-f9e52a772838
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::Next
 author: windows-sdk-content
 description: Moves to the next row in the row-enumeration sequence.
 old-location: security\ienumcertviewrow_next.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6e471ee9-4b69-468c-a724-e43bd93419d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

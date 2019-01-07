@@ -4,7 +4,7 @@ title: IEnroll::get_KeySpec
 author: windows-sdk-content
 description: Sets or retrieves the type of key generated.
 old-location: security\ienroll4_keyspec.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b05851a0-6228-44e4-9bd7-354c862596e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

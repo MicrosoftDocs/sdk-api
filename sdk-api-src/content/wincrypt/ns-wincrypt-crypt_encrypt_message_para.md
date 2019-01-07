@@ -4,7 +4,7 @@ title: CRYPT_ENCRYPT_MESSAGE_PARA
 author: windows-sdk-content
 description: Contains information used to encrypt messages.
 old-location: security\crypt_encrypt_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SECPKG_ATTR_LCT_STATUS
 author: windows-sdk-content
 description: Indicates whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkg_attr_lct_status.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b9067862-2339-4543-a8cd-610e6f921bfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

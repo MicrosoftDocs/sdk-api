@@ -4,7 +4,7 @@ title: QueryContextAttributesExA function
 author: windows-sdk-content
 description: Enables a transport application to query a security package for certain attributes of a security context.
 old-location: security\querycontextattributesex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: FD91EE99-F94E-44CE-9331-933D0CAA5F75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

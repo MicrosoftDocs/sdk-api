@@ -4,7 +4,7 @@ title: FIRMWARE_TYPE
 author: windows-sdk-content
 description: Specifies a firmware type.
 old-location: base\firmware_type.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: c058e20e-11f9-4652-b658-9fd0a43d4224
 ms.author: windowssdkdev
 ms.date: 12/5/2018

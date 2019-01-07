@@ -4,7 +4,7 @@ title: REBARINFO
 author: windows-sdk-content
 description: Contains information that describes rebar control characteristics.
 old-location: controls\REBARINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTS_USER_CREDENTIAL
 author: windows-sdk-content
 description: Contains credential information for a user.
 old-location: termserv\wts_user_credential.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 79474bc1-3626-4c0e-ae63-6180404369ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

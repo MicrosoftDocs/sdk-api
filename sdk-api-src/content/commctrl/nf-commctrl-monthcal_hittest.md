@@ -4,7 +4,7 @@ title: MonthCal_HitTest macro
 author: windows-sdk-content
 description: Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the MCM_HITTEST message explicitly.
 old-location: controls\MonthCal_HitTest.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_hittest.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TabCtrl_HighlightItem macro
 author: windows-sdk-content
 description: Sets the highlight state of a tab item. You can use this macro or send the TCM_HIGHLIGHTITEM message explicitly.
 old-location: controls\TabCtrl_HighlightItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_highlightitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

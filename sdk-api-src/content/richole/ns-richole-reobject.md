@@ -4,7 +4,7 @@ title: REOBJECT
 author: windows-sdk-content
 description: Contains information about an OLE or image object in a rich edit control.
 old-location: controls\REOBJECT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

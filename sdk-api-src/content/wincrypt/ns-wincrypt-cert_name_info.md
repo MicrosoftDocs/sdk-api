@@ -4,7 +4,7 @@ title: CERT_NAME_INFO
 author: windows-sdk-content
 description: Contains subject or issuer names.
 old-location: security\cert_name_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 402d1051-d91a-4a79-96f6-10ed96a32d5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

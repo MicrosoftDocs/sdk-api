@@ -4,7 +4,7 @@ title: SECPKG_PRIMARY_CRED
 author: windows-sdk-content
 description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.
 old-location: security\secpkg_primary_cred.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

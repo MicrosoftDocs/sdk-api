@@ -4,7 +4,7 @@ title: CryptCATCDFEnumCatAttributes function
 author: windows-sdk-content
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 old-location: security\cryptcatcdfenumcatattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

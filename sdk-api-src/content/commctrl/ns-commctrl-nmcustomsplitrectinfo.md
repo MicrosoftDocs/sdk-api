@@ -4,7 +4,7 @@ title: NMCUSTOMSPLITRECTINFO
 author: windows-sdk-content
 description: Contains information about the two rectangles of a split button. Sent with the NM_GETCUSTOMSPLITRECT notification.
 old-location: controls\NMCUSTOMSPLITRECTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

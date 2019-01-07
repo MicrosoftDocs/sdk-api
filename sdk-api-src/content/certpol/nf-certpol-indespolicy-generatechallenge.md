@@ -4,7 +4,7 @@ title: INDESPolicy::GenerateChallenge
 author: windows-sdk-content
 description: Performs the policy decision whether to issue a challenge password to the SCEP client.
 old-location: security\indespolicy_generatechallenge.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e09ef64c-5b4c-41ef-942a-1080cd566a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

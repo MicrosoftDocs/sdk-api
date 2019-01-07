@@ -4,7 +4,7 @@ title: AAAuthSchemes
 author: windows-sdk-content
 description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\aaauthschemes.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ff80f8ac-8378-4087-aa95-a081d2dd710a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

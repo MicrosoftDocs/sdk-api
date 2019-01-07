@@ -4,7 +4,7 @@ title: ICEnroll::get_CAStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the CAStoreName property.
 old-location: security\icenroll4_castoretype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8b0b113d-4046-4b2b-8f3b-ad08bfe3d0ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

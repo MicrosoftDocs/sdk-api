@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::EnumCertViewAttribute
 author: windows-sdk-content
 description: Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewattribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 53a70f66-3805-429e-8ef6-01b00b666b72
 ms.author: windowssdkdev
 ms.date: 12/5/2018

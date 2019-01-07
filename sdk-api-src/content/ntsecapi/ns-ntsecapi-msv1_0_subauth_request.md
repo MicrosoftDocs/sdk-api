@@ -4,7 +4,7 @@ title: MSV1_0_SUBAUTH_REQUEST
 author: windows-sdk-content
 description: Contains information to pass to an subauthentication package.
 old-location: security\msv1_0_subauth_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5a408c0a-56d4-48f6-8289-6f203ef998df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

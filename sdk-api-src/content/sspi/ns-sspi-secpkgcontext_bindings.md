@@ -4,7 +4,7 @@ title: SecPkgContext_Bindings
 author: windows-sdk-content
 description: Specifies a structure that contains channel binding information for a security context.
 old-location: security\secpkgcontext_bindings.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6823cc31-acd3-4d67-92c6-65ff4d1c6aed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

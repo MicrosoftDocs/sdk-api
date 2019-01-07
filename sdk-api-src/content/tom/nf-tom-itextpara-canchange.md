@@ -4,7 +4,7 @@ title: ITextPara::CanChange
 author: windows-sdk-content
 description: Determines whether the paragraph formatting can be changed.
 old-location: controls\ITextPara_CanChange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparacanchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

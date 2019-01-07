@@ -4,7 +4,7 @@ title: LVGROUP
 author: windows-sdk-content
 description: Used to set and retrieve groups.
 old-location: controls\LVGROUP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

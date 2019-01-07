@@ -4,7 +4,7 @@ title: CERT_LOGOTYPE_AUDIO
 author: windows-sdk-content
 description: Contains information about an audio logotype.
 old-location: security\cert_logotype_audio.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 97357faa-2720-4240-a3c3-77abdce8d86d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

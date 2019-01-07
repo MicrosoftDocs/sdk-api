@@ -4,7 +4,7 @@ title: NMREBARAUTOBREAK
 author: windows-sdk-content
 description: Contains information used with the RBN_AUTOBREAK notification code.
 old-location: controls\NMREBARAUTOBREAK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarautobreak.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

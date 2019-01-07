@@ -4,7 +4,7 @@ title: RegDeleteKeyExA function
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry.
 old-location: base\regdeletekeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_MAIL_LIST_RECIPIENT_INFO
 author: windows-sdk-content
 description: Contains information used for previously distributed symmetric key-encryption keys (KEK).
 old-location: security\cmsg_mail_list_recipient_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e0946278-75e9-4990-af81-d9e61da9724b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

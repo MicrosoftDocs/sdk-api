@@ -4,7 +4,7 @@ title: SCardSetAttrib function
 author: windows-sdk-content
 description: Sets the given reader attribute for the given handle.
 old-location: security\scardsetattrib.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

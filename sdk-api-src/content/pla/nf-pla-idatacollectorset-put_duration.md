@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_Duration
 author: windows-sdk-content
 description: Retrieves and sets the duration that the data collector set runs.
 old-location: pla\idatacollectorset_get_duration.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: afa8f8f2-52a7-481f-ba7e-19f9b757aeb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

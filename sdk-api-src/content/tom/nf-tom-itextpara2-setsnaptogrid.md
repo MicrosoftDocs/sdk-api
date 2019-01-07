@@ -4,7 +4,7 @@ title: ITextPara2::SetSnapToGrid
 author: windows-sdk-content
 description: Sets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_setsnaptogrid.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 93116780-03e2-406b-8923-b9f02f53892d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

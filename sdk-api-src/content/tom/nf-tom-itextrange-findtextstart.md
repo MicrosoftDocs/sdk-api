@@ -4,7 +4,7 @@ title: ITextRange::FindTextStart
 author: windows-sdk-content
 description: Searches up to Count characters for the string, bstr, starting at the range's Start cp (cpFirst).
 old-location: controls\ITextRange_FindTextStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextstart.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

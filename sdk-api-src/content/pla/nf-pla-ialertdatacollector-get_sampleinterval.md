@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_SampleInterval
 author: windows-sdk-content
 description: Retrieves or sets the time interval to wait between sampling counter data.
 old-location: pla\ialertdatacollector_sampleinterval.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 657a5449-acb6-45cb-a862-815fa8cabdc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

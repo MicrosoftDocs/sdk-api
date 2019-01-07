@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandler
 title: IUIAutomation::AddPropertyChangedEventHandler
 author: windows-sdk-content
-description: Registers a method that handles property-changed events.
+description: Registers a method that handles and array of property-changed events.
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 2623a48e-8818-486c-9bde-b218cde49189
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Registers a method that handles property-changed events. 
+Registers a method that handles and array of property-changed events. 
 <div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://msdn.microsoft.com/0772969a-da55-488e-8b21-7368434df8a9">Understanding Threading Issues</a>.</div><div> </div>
 
 ## -parameters

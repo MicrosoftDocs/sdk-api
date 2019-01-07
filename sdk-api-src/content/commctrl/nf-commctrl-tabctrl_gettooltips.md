@@ -4,7 +4,7 @@ title: TabCtrl_GetToolTips macro
 author: windows-sdk-content
 description: Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the TCM_GETTOOLTIPS message explicitly.
 old-location: controls\TabCtrl_GetToolTips.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

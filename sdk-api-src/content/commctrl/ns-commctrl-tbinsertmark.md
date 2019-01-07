@@ -4,7 +4,7 @@ title: TBINSERTMARK
 author: windows-sdk-content
 description: Contains information on the insertion mark in a toolbar control.
 old-location: controls\TBINSERTMARK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbinsertmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

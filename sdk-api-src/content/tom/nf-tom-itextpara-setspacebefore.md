@@ -4,7 +4,7 @@ title: ITextPara::SetSpaceBefore
 author: windows-sdk-content
 description: Sets the amount of space preceding a paragraph.
 old-location: controls\ITextPara_SetSpaceBefore.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacebefore.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

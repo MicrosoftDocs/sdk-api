@@ -4,7 +4,7 @@ title: ITextFont2::SetAutospaceNumeric
 author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_setautospacenumeric.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7fd911c2-a765-4bbc-a14c-15665d5a4a16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

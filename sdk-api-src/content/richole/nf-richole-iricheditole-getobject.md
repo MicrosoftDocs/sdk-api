@@ -4,7 +4,7 @@ title: IRichEditOle::GetObject
 author: windows-sdk-content
 description: Retrieves information, stored in a REOBJECT structure, about an object in a rich edit control.
 old-location: controls\IRichEditOle_GetObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromNativeArray
 title: IUIAutomation::CreateAndConditionFromNativeArray
 author: windows-sdk-content
-description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
+description: Creates a condition that selects elements from a native array, based on multiple conditions that must all be true.
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 2f47dfa7-1558-4984-8400-cac549543819
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a condition that selects elements based on multiple conditions, all of which must be true.
+Creates a condition that selects elements from a native array, based on multiple conditions that  must all be true.
 
 
 ## -parameters

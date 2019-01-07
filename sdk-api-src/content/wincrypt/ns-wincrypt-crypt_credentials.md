@@ -4,7 +4,7 @@ title: CRYPT_CREDENTIALS
 author: windows-sdk-content
 description: Contains information about credentials that can be passed as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_credentials.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

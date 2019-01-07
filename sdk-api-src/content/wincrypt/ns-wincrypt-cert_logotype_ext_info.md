@@ -4,7 +4,7 @@ title: CERT_LOGOTYPE_EXT_INFO
 author: windows-sdk-content
 description: Contains a set of logotype information.
 old-location: security\cert_logotype_ext_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5013241b-439e-4aea-9161-699ee69c65c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

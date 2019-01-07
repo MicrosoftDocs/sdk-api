@@ -4,7 +4,7 @@ title: PWLX_MESSAGE_BOX
 author: windows-sdk-content
 description: Called by GINA to create, display, and operate a message box.
 old-location: security\wlxmessagebox.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5ae99416-c502-46f6-ba58-7385ce410e48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MonthCal_SetToday macro
 author: windows-sdk-content
 description: Sets the &#0034;today&#0034; selection for a month calendar control. You can use this macro or send the MCM_SETTODAY message explicitly.
 old-location: controls\MonthCal_SetToday.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_settoday.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextStory::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

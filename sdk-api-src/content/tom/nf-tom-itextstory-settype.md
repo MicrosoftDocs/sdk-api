@@ -4,7 +4,7 @@ title: ITextStory::SetType
 author: windows-sdk-content
 description: Sets the story type.
 old-location: controls\itextstory_settype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b1fda663-cbfa-4972-bc40-004b82631f92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ComboBox_AddString macro
 author: windows-sdk-content
 description: Adds a string to a list in a combo box.
 old-location: controls\ComboBox_AddString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_addstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

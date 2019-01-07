@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_AlertThresholds
 author: windows-sdk-content
 description: Retrieves or sets a list of performance counters and thresholds to monitor.
 old-location: pla\ialertdatacollector_alertthresholds.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

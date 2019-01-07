@@ -4,7 +4,7 @@ title: SECOND_IPADDRESS macro
 author: windows-sdk-content
 description: Extracts the field 1 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\SECOND_IPADDRESS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\second_ipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

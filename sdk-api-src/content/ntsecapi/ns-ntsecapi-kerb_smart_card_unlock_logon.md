@@ -4,7 +4,7 @@ title: KERB_SMART_CARD_UNLOCK_LOGON
 author: windows-sdk-content
 description: Contains information used to unlock a workstation that has been locked during a smart card logon session.
 old-location: security\kerb_smart_card_unlock_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5fcd61f6-d93d-4047-b472-8b44f9681907
 ms.author: windowssdkdev
 ms.date: 12/5/2018

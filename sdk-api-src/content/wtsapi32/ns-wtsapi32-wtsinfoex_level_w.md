@@ -4,7 +4,7 @@ title: WTSINFOEX_LEVEL_W
 author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL1 structure that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex_level.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d3df1f40-698b-43ca-808d-0df5550b6eae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

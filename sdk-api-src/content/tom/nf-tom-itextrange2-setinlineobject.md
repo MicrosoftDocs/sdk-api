@@ -4,7 +4,7 @@ title: ITextRange2::SetInlineObject
 author: windows-sdk-content
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

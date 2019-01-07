@@ -4,7 +4,7 @@ title: ITextHost::TxGetViewInset
 author: windows-sdk-content
 description: Requests the dimensions of the white space inset around the text in the text host window.
 old-location: controls\ITextHost_TxGetViewInset.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

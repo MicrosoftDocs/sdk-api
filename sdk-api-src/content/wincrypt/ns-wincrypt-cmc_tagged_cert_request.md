@@ -4,7 +4,7 @@ title: CMC_TAGGED_CERT_REQUEST
 author: windows-sdk-content
 description: Used in the CMC_TAGGED_REQUEST structure.
 old-location: security\cmc_tagged_cert_request.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a90ec8c8-bda5-47a8-a1bb-f70f2eda01b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

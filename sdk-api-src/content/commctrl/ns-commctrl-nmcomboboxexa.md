@@ -4,7 +4,7 @@ title: NMCOMBOBOXEXA
 author: windows-sdk-content
 description: Contains information specific to ComboBoxEx items for use with notification codes.
 old-location: controls\NMCOMBOBOXEX.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcomboboxex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PropSheet_RemovePage macro
 author: windows-sdk-content
 description: Removes a page from a property sheet. You can use this macro or send the PSM_REMOVEPAGE message explicitly.
 old-location: controls\PropSheet_RemovePage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_removepage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

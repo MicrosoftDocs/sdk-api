@@ -4,7 +4,7 @@ title: LVGROUPMETRICS
 author: windows-sdk-content
 description: Contains information about the display of groups in a list-view control.
 old-location: controls\LVGROUPMETRICS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRL_FIND_ISSUED_FOR_PARA
 author: windows-sdk-content
 description: Contains the certificate contexts of both a subject and a certificate issuer.
 old-location: security\crl_find_issued_for_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a5c04859-00bb-4b7d-a98c-5b17bf0fa38a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

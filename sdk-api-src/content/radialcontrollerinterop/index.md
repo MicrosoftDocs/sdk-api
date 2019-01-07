@@ -2,7 +2,7 @@
 UID: NA:radialcontrollerinterop
 ms.assetid: d781c2b2-f7a0-3d61-9675-5e4e9726e48f
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

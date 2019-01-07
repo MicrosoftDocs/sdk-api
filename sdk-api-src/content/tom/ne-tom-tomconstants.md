@@ -4,7 +4,7 @@ title: tomConstants
 author: windows-sdk-content
 description: Defines values that are used with the Text Object Model (TOM)&#32;API.
 old-location: controls\tomconstants.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 041b0f07-3a7c-4ed9-9d1c-8373eacfb2ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

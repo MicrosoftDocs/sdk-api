@@ -4,7 +4,7 @@ title: SCARD_READERSTATEA
 author: windows-sdk-content
 description: Used by functions for tracking smart cards within readers.
 old-location: security\scard_readerstate.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4e9bbed7-f899-4361-a526-029a710d5147
 ms.author: windowssdkdev
 ms.date: 12/5/2018

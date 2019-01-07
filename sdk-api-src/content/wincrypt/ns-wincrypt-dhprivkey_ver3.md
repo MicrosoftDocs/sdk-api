@@ -4,7 +4,7 @@ title: DHPRIVKEY_VER3
 author: windows-sdk-content
 description: Contains information specific to the particular private key contained in the key BLOB.
 old-location: security\dhprivkey_ver3.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

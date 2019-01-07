@@ -4,7 +4,7 @@ title: CERT_POLICY_INFO
 author: windows-sdk-content
 description: The CERT_POLICY_INFO structure contains an object identifier (OID) specifying a policy and an optional array of policy qualifiers.
 old-location: security\cert_policy_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0d6396fe-99f6-4f66-9f01-55582d24ddc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

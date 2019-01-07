@@ -4,7 +4,7 @@ title: CertEnumCertificatesInStore function
 author: windows-sdk-content
 description: Retrieves the first or next certificate in a certificate store. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
 old-location: security\certenumcertificatesinstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

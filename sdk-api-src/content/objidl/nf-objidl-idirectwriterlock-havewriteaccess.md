@@ -4,7 +4,7 @@ title: IDirectWriterLock::HaveWriteAccess
 author: windows-sdk-content
 description: The HaveWriteAccess method indicates whether the write lock has been taken.
 old-location: stg\idirectwriterlock_havewriteaccess.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8366b6b5-73c3-4b05-be68-c24ecd2eab96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

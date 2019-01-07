@@ -4,7 +4,7 @@ title: ITsSbProvider::CreateEnvironmentPropertySetObject
 author: windows-sdk-content
 description: Creates an ITsSbEnvironmentPropertySet environment property set object.
 old-location: termserv\itssbprovider_createenvironmentpropertysetobject.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

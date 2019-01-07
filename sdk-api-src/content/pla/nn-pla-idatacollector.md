@@ -4,7 +4,7 @@ title: IDataCollector
 author: windows-sdk-content
 description: Sets and retrieves collector properties using XML, specifies the log file name, and retrieves the location of the log file.This interface is an abstract class from which the following data collectors derive:IAlertDataCollectorIApiTracingDataCollectorIConfigurationDataCollectorIPerformanceCounterDataCollectorITraceDataCollector
 old-location: pla\idatacollector.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e1860bcf-c62d-434b-b98b-38bad7f84d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

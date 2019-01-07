@@ -4,7 +4,7 @@ title: OPENCARDNAME_EXA
 author: windows-sdk-content
 description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname_ex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
 ms.author: windowssdkdev
 ms.date: 12/5/2018

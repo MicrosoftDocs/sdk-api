@@ -4,7 +4,7 @@ title: CryptVerifyDetachedMessageHash function
 author: windows-sdk-content
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
 old-location: security\cryptverifydetachedmessagehash.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

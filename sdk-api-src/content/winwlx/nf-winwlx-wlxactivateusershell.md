@@ -4,7 +4,7 @@ title: WlxActivateUserShell function
 author: windows-sdk-content
 description: Activates the user shell program.
 old-location: security\wlxactivateusershell.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

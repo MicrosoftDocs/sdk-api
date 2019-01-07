@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::Install
 author: windows-sdk-content
 description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

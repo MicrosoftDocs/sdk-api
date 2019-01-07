@@ -4,7 +4,7 @@ title: NMDAYSTATE
 author: windows-sdk-content
 description: Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.
 old-location: controls\NMDAYSTATE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmdaystate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

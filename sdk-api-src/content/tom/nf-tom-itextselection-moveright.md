@@ -4,7 +4,7 @@ title: ITextSelection::MoveRight
 author: windows-sdk-content
 description: Generalizes the functionality of the Right Arrow key.
 old-location: controls\ITextSelection_MoveRight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveright.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_SP3_COMPATIBLE_AUX_INFO
 author: windows-sdk-content
 description: Contains information needed for SP3 compatible encryption.
 old-location: security\cmsg_sp3_compatible_aux_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9afd38c5-fccd-43ea-9c30-c62fdcbee633
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LVINSERTMARK
 author: windows-sdk-content
 description: Used to describe insertion points.
 old-location: controls\LVINSERTMARK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

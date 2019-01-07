@@ -4,7 +4,7 @@ title: KeyCredentialManagerOperationErrorStates
 author: windows-sdk-content
 description: Enumeration of Error states returned by the function KeyCredentialManagerGetOperationErrorStates as flags.
 old-location: security\keycredentialmanageroperationerrorstates.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 51C460E3-0A74-40A8-9F41-057EF6D03E86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

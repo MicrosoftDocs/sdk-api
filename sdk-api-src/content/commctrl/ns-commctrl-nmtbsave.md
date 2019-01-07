@@ -4,7 +4,7 @@ title: NMTBSAVE
 author: windows-sdk-content
 description: This structure is passed to applications when they receive a TBN_SAVE notification code. It contains information about the button currently being saved. Applications can modify the values of the members to save additional information.
 old-location: controls\NMTBSAVE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbsave.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

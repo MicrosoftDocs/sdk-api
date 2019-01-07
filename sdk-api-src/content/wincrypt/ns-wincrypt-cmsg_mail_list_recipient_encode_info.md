@@ -4,7 +4,7 @@ title: CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
 author: windows-sdk-content
 description: The CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure is used with previously distributed symmetric keys for decrypting the content key encryption key (KEK).
 old-location: security\cmsg_mail_list_recipient_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4303a7e7-cb93-4ed1-85e6-42359c2c687c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

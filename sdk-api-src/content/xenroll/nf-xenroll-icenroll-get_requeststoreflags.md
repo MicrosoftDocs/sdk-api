@@ -4,7 +4,7 @@ title: ICEnroll::get_RequestStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the request store.
 old-location: security\icenroll4_requeststoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 399870f0-69e1-4a21-a7fa-c3de9ee66876
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BluetoothAuthenticateDeviceEx function
 author: windows-sdk-content
 description: The BluetoothAuthenticateDeviceEx function sends an authentication request to a remote Bluetooth device.
 old-location: bluetooth\bluetoothauthenticatedeviceex.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

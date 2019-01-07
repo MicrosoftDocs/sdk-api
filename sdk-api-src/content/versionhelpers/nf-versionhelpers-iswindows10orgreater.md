@@ -4,7 +4,7 @@ title: IsWindows10OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.
 old-location: base\iswindows10orgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

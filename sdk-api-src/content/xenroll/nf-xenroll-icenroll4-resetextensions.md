@@ -4,7 +4,7 @@ title: ICEnroll4::resetExtensions
 author: windows-sdk-content
 description: Removes all extensions from the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_resetextensions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ef21a5e4-2641-4602-b1ae-f0f74b9a8346
 ms.author: windowssdkdev
 ms.date: 12/5/2018

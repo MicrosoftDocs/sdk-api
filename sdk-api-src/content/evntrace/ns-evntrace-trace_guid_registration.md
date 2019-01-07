@@ -4,7 +4,7 @@ title: TRACE_GUID_REGISTRATION
 author: windows-sdk-content
 description: The TRACE_GUID_REGISTRATION structure is used to register event trace classes.
 old-location: etw\trace_guid_registration.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: fc7b61fb-ef1c-48ec-8523-5f3114b5407a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

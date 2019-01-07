@@ -4,7 +4,7 @@ title: WritePrivateProfileSectionA function
 author: windows-sdk-content
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

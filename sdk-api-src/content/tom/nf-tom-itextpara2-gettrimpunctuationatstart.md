@@ -4,7 +4,7 @@ title: ITextPara2::GetTrimPunctuationAtStart
 author: windows-sdk-content
 description: Gets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_gettrimpunctuationatstart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 965df0ef-b8ff-4d0e-8124-c811e74e0208
 ms.author: windowssdkdev
 ms.date: 12/5/2018

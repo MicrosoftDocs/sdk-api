@@ -4,7 +4,7 @@ title: ITextRange::ScrollIntoView
 author: windows-sdk-content
 description: Scrolls the specified range into view.
 old-location: controls\ITextRange_ScrollIntoView.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

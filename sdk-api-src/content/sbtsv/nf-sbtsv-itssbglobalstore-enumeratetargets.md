@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::EnumerateTargets
 author: windows-sdk-content
 description: Returns an array that contains the specified targets present in the global store.
 old-location: termserv\itssbglobalstore_enumeratetargets.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 939d967f-6846-4ef2-9943-a171eac6cb21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

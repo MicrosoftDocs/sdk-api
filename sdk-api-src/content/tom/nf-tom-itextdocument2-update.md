@@ -4,7 +4,7 @@ title: ITextDocument2::Update
 author: windows-sdk-content
 description: Updates the selection and caret.
 old-location: controls\itextdocument2_update.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0ac5c944-227d-4ba3-afcf-ccb969902383
 ms.author: windowssdkdev
 ms.date: 12/5/2018

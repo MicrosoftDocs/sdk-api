@@ -4,7 +4,7 @@ title: CryptSIPRemoveSignedDataMsg function
 author: windows-sdk-content
 description: Removes a specified Authenticode signature.
 old-location: security\cryptsipremovesigneddatamsg.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

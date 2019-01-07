@@ -4,7 +4,7 @@ title: ITsSbTargetPropertySet
 author: windows-sdk-content
 description: Derive from this interface to define a custom target property set.
 old-location: termserv\itssbtargetpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 74ea8132-cb06-40ce-b3bf-4bd8babe3711
 ms.author: windowssdkdev
 ms.date: 12/5/2018

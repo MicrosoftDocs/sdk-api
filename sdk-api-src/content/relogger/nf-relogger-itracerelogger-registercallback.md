@@ -4,7 +4,7 @@ title: ITraceRelogger::RegisterCallback
 author: windows-sdk-content
 description: Registers an implementation of IEventCallback with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 old-location: etw\itracerelogger_registercallback.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: d3c739bd-9285-49ec-b2cf-d607f3d9be0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

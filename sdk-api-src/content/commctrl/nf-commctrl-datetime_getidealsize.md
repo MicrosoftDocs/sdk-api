@@ -4,7 +4,7 @@ title: DateTime_GetIdealSize macro
 author: windows-sdk-content
 description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.
 old-location: controls\DateTime_GetIdealSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SspiFreeAuthIdentity function
 author: windows-sdk-content
 description: Frees the memory allocated for the specified identity structure.
 old-location: security\sspifreeauthidentity.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6199f66e-7adb-4bb9-8e77-a735e31dd5f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler
 author: windows-sdk-content
-description: Registers a method that handles property-changed events.
+description: Registers a method that handles a property-changed event.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler.htm
 tech.root: WinAuto
 ms.assetid: 186958B6-6D13-41F2-B6E5-A4C36D1B8451
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Registers a method that handles property-changed events. 
+Registers a method that handles a property-changed event. 
 <div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
 
 ## -parameters

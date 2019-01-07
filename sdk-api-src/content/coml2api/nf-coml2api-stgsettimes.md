@@ -4,7 +4,7 @@ title: StgSetTimes function
 author: windows-sdk-content
 description: The StgSetTimes function sets the creation, access, and modification times of the indicated file, if supported by the underlying file system.
 old-location: stg\stgsettimes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 5ade3e7a-a22a-458f-b463-1680893edc15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

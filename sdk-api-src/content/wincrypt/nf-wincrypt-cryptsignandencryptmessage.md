@@ -4,7 +4,7 @@ title: CryptSignAndEncryptMessage function
 author: windows-sdk-content
 description: The CryptSignAndEncryptMessage function creates a hash of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash.
 old-location: security\cryptsignandencryptmessage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0ab234f2-a681-463f-8ba8-b23b05cf2626
 ms.author: windowssdkdev
 ms.date: 12/5/2018

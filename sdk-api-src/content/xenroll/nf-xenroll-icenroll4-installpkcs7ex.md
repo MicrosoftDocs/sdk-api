@@ -4,7 +4,7 @@ title: ICEnroll4::InstallPKCS7Ex
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores.InstallPKCS7 except that it returns the number of certificates actually installed in local stores.
 old-location: security\icenroll4_installpkcs7ex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 886fd5f0-d91f-439f-b259-dfb0206d3078
 ms.author: windowssdkdev
 ms.date: 12/5/2018

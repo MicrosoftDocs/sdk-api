@@ -4,7 +4,7 @@ title: MSV1_0_LM20_LOGON
 author: windows-sdk-content
 description: Contains logon information used in network logons.
 old-location: security\msv1_0_lm20_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0736ab5b-a475-4593-a15e-970b5d4c64d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

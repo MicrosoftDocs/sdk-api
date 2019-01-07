@@ -4,7 +4,7 @@ title: Pager_SetScrollInfo macro
 author: windows-sdk-content
 description: Sets the scrolling parameters of the pager control, including the timeout value, the lines per timeout, and the pixels per line. You can use this macro or send the PGM_SETSETSCROLLINFO message explicitly.
 old-location: controls\Pager_SetScrollInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setscrollinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

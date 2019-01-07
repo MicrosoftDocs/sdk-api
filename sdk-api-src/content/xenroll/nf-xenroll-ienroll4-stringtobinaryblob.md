@@ -4,7 +4,7 @@ title: IEnroll4::stringToBinaryBlob
 author: windows-sdk-content
 description: Converts an encoded string to a binary data BLOB.
 old-location: security\ienroll4_stringtobinaryblob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b15df753-77c5-4746-a6a5-ddbf3cc8158f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

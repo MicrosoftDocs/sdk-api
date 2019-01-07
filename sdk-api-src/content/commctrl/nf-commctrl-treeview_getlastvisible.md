@@ -4,7 +4,7 @@ title: TreeView_GetLastVisible macro
 author: windows-sdk-content
 description: Retrieves the last expanded item in a tree-view control. This does not retrieve the last item visible in the tree-view window. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_LASTVISIBLE flag.
 old-location: controls\TreeView_GetLastVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getlastvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

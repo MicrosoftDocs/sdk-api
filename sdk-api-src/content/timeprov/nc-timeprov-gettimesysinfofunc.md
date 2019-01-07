@@ -4,7 +4,7 @@ title: GetTimeSysInfoFunc
 author: windows-sdk-content
 description: Retrieves the system time state information.
 old-location: base\gettimesysinfo.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: e1b527e2-ab7c-4106-b203-e74b4ce2a89b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

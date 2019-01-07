@@ -4,7 +4,7 @@ title: ITextPara::GetKeepTogether
 author: windows-sdk-content
 description: Determines whether page breaks are allowed within paragraphs.
 old-location: controls\ITextPara_GetKeepTogether.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeeptogether.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

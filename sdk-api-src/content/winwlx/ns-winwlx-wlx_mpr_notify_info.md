@@ -4,7 +4,7 @@ title: WLX_MPR_NOTIFY_INFO
 author: windows-sdk-content
 description: Provides identification and authentication information to network providers.
 old-location: security\wlx_mpr_notify_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 68098b26-c58d-45fb-aebe-780a73cded80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

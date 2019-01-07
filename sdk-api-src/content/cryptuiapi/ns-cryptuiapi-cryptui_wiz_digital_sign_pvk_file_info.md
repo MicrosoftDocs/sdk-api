@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO
 author: windows-sdk-content
 description: Used with the CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure to contain information about the PVK file used by the digital signature wizard.
 old-location: security\cryptui_wiz_digital_sign_pvk_file_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0e737661-2cc3-47be-ab32-0efbc18fefbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

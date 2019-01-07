@@ -4,7 +4,7 @@ title: ITextServices::OnTxUIDeactivate
 author: windows-sdk-content
 description: Informs the text services object that the control is no longer UI active.
 old-location: controls\ITextServices_OnTxUIDeactivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

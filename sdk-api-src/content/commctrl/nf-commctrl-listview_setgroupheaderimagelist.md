@@ -4,7 +4,7 @@ title: ListView_SetGroupHeaderImageList macro
 author: windows-sdk-content
 description: Assigns an image list to the group header of a list-view control.
 old-location: controls\ListView_SetGroupHeaderImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupheaderimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

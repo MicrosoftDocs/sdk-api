@@ -4,7 +4,7 @@ title: ITextHost::OnTxParaFormatChange
 author: windows-sdk-content
 description: Sets the default paragraph format for the text host.
 old-location: controls\ITextHost_OnTxParaFormatChange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxparaformatchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

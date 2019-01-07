@@ -4,7 +4,7 @@ title: ListView_GetGroupInfo macro
 author: windows-sdk-content
 description: Gets group information. You can use this macro or send the LVM_GETGROUPINFO message explicitly.
 old-location: controls\ListView_GetGroupInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

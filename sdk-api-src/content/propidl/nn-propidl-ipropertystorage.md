@@ -4,14 +4,14 @@ title: IPropertyStorage
 author: windows-sdk-content
 description: The IPropertyStorage interface manages the persistent properties of a single property set.
 old-location: stg\ipropertystorage.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 ms.topic: interface
 req.header: propidl.h
-req.include-header: Objbase.h
+req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]

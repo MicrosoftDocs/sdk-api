@@ -4,7 +4,7 @@ title: IEnroll::put_UseExistingKeySet
 author: windows-sdk-content
 description: The UseExistingKeySet property of IEnroll4 sets or retrieves a Boolean value that determines whether the existing keys should be used.
 old-location: security\ienroll4_useexistingkeyset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1534ec57-71d3-4189-a94e-7bcb3c0670e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

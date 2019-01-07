@@ -4,7 +4,7 @@ title: PAYLOAD_FILTER_PREDICATE
 author: windows-sdk-content
 description: Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 old-location: etw\payload_filter_predicate.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

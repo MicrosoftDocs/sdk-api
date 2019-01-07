@@ -4,7 +4,7 @@ title: SspiPromptForCredentialsA function
 author: windows-sdk-content
 description: Allows a Security Support Provider Interface (SSPI) application to prompt a user to enter credentials.
 old-location: security\sspipromptforcredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

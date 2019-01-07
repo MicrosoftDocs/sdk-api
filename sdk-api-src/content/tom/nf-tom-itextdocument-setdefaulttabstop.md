@@ -4,7 +4,7 @@ title: ITextDocument::SetDefaultTabStop
 author: windows-sdk-content
 description: Sets the default tab stop, which is used when no tab exists beyond the current display position.
 old-location: controls\ITextDocument_SetDefaultTabStop.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setdefaulttabstop.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

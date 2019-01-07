@@ -4,7 +4,7 @@ title: MS_ADDINFO_CATALOGMEMBER
 author: windows-sdk-content
 description: Provides additional information for catalog member subject types.
 old-location: security\ms_addinfo_catalogmember.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 40a00c8a-95e4-406c-b04e-0d29beb70d67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

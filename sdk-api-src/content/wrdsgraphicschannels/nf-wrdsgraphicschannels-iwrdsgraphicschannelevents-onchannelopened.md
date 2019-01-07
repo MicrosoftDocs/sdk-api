@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannelEvents::OnChannelOpened
 author: windows-sdk-content
 description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043
 ms.author: windowssdkdev
 ms.date: 12/5/2018

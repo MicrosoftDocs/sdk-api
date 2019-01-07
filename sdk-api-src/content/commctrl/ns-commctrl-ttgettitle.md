@@ -4,7 +4,7 @@ title: TTGETTITLE
 author: windows-sdk-content
 description: Provides information about the title of a tooltip control.
 old-location: controls\TTGETTITLE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

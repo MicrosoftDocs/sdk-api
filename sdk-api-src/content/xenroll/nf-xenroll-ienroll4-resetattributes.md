@@ -4,7 +4,7 @@ title: IEnroll4::resetAttributes
 author: windows-sdk-content
 description: Removes all attributes from the request.
 old-location: security\ienroll4_resetattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f9da2371-441e-45c7-9723-39d01b6ece27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertEnumSystemStore function
 author: windows-sdk-content
 description: The CertEnumSystemStore function retrieves the system stores available. The function calls the provided callback function for each system store found.
 old-location: security\certenumsystemstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll3::GetKeyLen
 author: windows-sdk-content
 description: Retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\icenroll4_getkeylen.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9d4cde68-f47c-46ad-a0ca-ee287f6e5bed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

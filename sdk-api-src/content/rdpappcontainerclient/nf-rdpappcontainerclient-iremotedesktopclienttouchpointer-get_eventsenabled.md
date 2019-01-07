@@ -4,7 +4,7 @@ title: IRemoteDesktopClientTouchPointer::get_EventsEnabled
 author: windows-sdk-content
 description: Whether touch pointer event notifications are enabled for the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

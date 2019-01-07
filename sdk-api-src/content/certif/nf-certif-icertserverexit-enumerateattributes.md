@@ -4,7 +4,7 @@ title: ICertServerExit::EnumerateAttributes
 author: windows-sdk-content
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

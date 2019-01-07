@@ -4,7 +4,7 @@ title: TCITEMHEADERW
 author: windows-sdk-content
 description: Specifies or receives the attributes of a tab. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEMHEADER structure.
 old-location: controls\TCITEMHEADER.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitemheader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

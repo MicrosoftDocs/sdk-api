@@ -4,7 +4,7 @@ title: ITraceEvent::SetThreadId
 author: windows-sdk-content
 description: Sets the identifier of a thread that generates an event.
 old-location: etw\ievent_setthreadid.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

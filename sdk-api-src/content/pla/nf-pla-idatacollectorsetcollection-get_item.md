@@ -4,7 +4,7 @@ title: IDataCollectorSetCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_item.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ebb126d5-8582-4afa-833c-146cd4ad9efb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

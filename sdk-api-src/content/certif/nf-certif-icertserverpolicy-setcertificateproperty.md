@@ -4,7 +4,7 @@ title: ICertServerPolicy::SetCertificateProperty
 author: windows-sdk-content
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

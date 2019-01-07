@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetUserData
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetUserData is no longer available. Instead, use IWRdsProtocolSettings::MergeSettings.
 old-location: termserv\iwtsprotocolconnection_getuserdata.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: fa77c537-c78d-4fe3-b597-787efd740cf6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

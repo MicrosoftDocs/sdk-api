@@ -4,7 +4,7 @@ title: Header_GetItem macro
 author: windows-sdk-content
 description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.
 old-location: controls\Header_GetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

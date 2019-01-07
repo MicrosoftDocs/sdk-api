@@ -4,7 +4,7 @@ title: PFN_CERT_ENUM_SYSTEM_STORE
 author: windows-sdk-content
 description: The CertEnumSystemStoreCallback callback function formats and presents information on each system store found by a call to CertEnumSystemStore.
 old-location: security\certenumsystemstorecallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f070a9bd-be0b-49d0-9cab-a5d6f05d4e22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

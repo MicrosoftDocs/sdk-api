@@ -4,7 +4,7 @@ title: TreeView_GetItem macro
 author: windows-sdk-content
 description: Retrieves some or all of a tree-view item's attributes. You can use this macro or send the TVM_GETITEM message explicitly.
 old-location: controls\TreeView_GetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

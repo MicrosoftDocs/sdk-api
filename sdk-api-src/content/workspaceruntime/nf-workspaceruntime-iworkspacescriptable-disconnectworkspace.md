@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::DisconnectWorkspace
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the specified connection ID.
 old-location: termserv\iworkspacescriptable_disconnectworkspace.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f422535a-0226-4951-b505-410711878fe7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

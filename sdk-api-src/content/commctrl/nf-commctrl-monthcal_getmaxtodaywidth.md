@@ -4,7 +4,7 @@ title: MonthCal_GetMaxTodayWidth macro
 author: windows-sdk-content
 description: Retrieves the maximum width of the &#0034;today&#0034; string in a month calendar control. This includes the label text and the date text. You can use this macro or send the MCM_GETMAXTODAYWIDTH message explicitly.
 old-location: controls\MonthCal_GetMaxTodayWidth.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxtodaywidth.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

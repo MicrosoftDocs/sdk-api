@@ -4,7 +4,7 @@ title: SCardSetCardTypeProviderNameA function
 author: windows-sdk-content
 description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type.
 old-location: security\scardsetcardtypeprovidername.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c36dfb77-6ebe-4073-b657-72fa294b5464
 ms.author: windowssdkdev
 ms.date: 12/5/2018

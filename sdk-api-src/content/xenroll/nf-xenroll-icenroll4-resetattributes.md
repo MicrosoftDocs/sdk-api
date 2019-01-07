@@ -4,7 +4,7 @@ title: ICEnroll4::resetAttributes
 author: windows-sdk-content
 description: Removes all attributes from the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_resetattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 606cc93a-cc18-43fb-94e7-dc35dc7f2533
 ms.author: windowssdkdev
 ms.date: 12/5/2018

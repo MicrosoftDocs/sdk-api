@@ -4,7 +4,7 @@ title: PropSheet_GetResult macro
 author: windows-sdk-content
 description: Used by modeless property sheets to retrieve the information returned to modal property sheets by PropertySheet. You can use this macro or sent the PSM_GETRESULT message explicitly.
 old-location: controls\PropSheet_GetResult.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getresult.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

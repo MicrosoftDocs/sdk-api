@@ -4,7 +4,7 @@ title: ImageList_GetImageCount function
 author: windows-sdk-content
 description: Retrieves the number of images in an image list.
 old-location: controls\ImageList_GetImageCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimagecount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

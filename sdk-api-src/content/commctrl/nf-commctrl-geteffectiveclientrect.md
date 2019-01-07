@@ -4,7 +4,7 @@ title: GetEffectiveClientRect function
 author: windows-sdk-content
 description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
 old-location: controls\GetEffectiveClientRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

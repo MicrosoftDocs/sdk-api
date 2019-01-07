@@ -4,7 +4,7 @@ title: HDHITTESTINFO
 author: windows-sdk-content
 description: Contains information about a hit test. This structure is used with the HDM_HITTEST message and it supersedes the HD_HITTESTINFO structure.
 old-location: controls\HDHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

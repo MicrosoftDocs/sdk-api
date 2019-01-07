@@ -4,7 +4,7 @@ title: ITextRange2::HexToUnicode
 author: windows-sdk-content
 description: Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
 old-location: controls\itextrange2_hextounicode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 024f9f32-2362-4f1c-b8db-9b4fb1ee157c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

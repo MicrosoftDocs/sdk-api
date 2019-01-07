@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_CSPName
 author: windows-sdk-content
 description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
 old-location: security\iocspcaconfiguration_cspname_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

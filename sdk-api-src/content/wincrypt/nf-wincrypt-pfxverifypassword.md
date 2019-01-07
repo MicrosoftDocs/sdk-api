@@ -4,7 +4,7 @@ title: PFXVerifyPassword function
 author: windows-sdk-content
 description: The PFXVerifyPassword function attempts to decode the outer layer of a BLOB as a Personal Information Exchange (PFX) packet and to decrypt it with the given password. No data from the BLOB is imported.
 old-location: security\pfxverifypassword.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 47560192-547e-4440-9f10-43327355e1a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

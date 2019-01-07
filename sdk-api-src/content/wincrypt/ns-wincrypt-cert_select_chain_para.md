@@ -4,7 +4,7 @@ title: CERT_SELECT_CHAIN_PARA
 author: windows-sdk-content
 description: Contains the parameters used for building and selecting chains.
 old-location: security\cert_select_chain_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 55c6c063-2a65-40ad-8d3f-7723b83cf021
 ms.author: windowssdkdev
 ms.date: 12/5/2018

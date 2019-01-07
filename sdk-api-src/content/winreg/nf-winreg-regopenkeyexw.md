@@ -4,7 +4,7 @@ title: RegOpenKeyExW function
 author: windows-sdk-content
 description: Opens the specified registry key. Note that key names are not case sensitive.
 old-location: base\regopenkeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
 ms.author: windowssdkdev
 ms.date: 12/5/2018

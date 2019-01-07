@@ -4,7 +4,7 @@ title: CertOpenStore function
 author: windows-sdk-content
 description: Opens a certificate store by using a specified store provider type.
 old-location: security\certopenstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4edccbfe-c0a8-442b-b6b7-51ef598e7c90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

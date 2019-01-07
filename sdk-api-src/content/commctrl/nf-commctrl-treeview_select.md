@@ -4,7 +4,7 @@ title: TreeView_Select macro
 author: windows-sdk-content
 description: Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation.
 old-location: controls\TreeView_Select.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_select.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

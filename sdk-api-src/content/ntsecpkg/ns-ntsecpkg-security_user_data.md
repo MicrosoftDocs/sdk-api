@@ -4,7 +4,7 @@ title: SECURITY_USER_DATA
 author: windows-sdk-content
 description: The SecurityUserData structure contains information about the user of a security support provider/authentication package. This structure is used by the SpGetUserInfo function.
 old-location: security\securityuserdata.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1a56203a-ed6a-4f32-9e7c-b498ba61a64b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

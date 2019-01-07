@@ -2,7 +2,7 @@
 UID: NA:identityprovider
 ms.assetid: 4b77c6e4-49c7-3d2c-97d7-f2697f557b11
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

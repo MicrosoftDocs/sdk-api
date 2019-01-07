@@ -4,7 +4,7 @@ title: CredRenameW function
 author: windows-sdk-content
 description: CredRename is no longer supported.
 old-location: security\credrename.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
 ms.author: windowssdkdev
 ms.date: 12/5/2018

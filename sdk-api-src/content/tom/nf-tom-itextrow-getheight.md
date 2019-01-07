@@ -4,7 +4,7 @@ title: ITextRow::GetHeight
 author: windows-sdk-content
 description: Gets the height of the row.
 old-location: controls\itextrow_getheight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextDocument2::GetImmContext
 author: windows-sdk-content
 description: Gets the Input Method Manager (IMM) input context from the Text Object Model (TOM) host.
 old-location: controls\itextdocument2_getimmcontext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 42ee6d71-b51d-459a-b1af-638a19d8be2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

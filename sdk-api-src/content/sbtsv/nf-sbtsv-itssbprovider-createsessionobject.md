@@ -4,7 +4,7 @@ title: ITsSbProvider::CreateSessionObject
 author: windows-sdk-content
 description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.
 old-location: termserv\itssbprovider_createsessionobject.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 14c800f8-a3d6-4d12-b568-94ef2d8e0aaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

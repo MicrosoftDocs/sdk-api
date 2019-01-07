@@ -4,7 +4,7 @@ title: IsDlgButtonChecked function
 author: windows-sdk-content
 description: The IsDlgButtonChecked function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate.
 old-location: controls\IsDlgButtonChecked.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

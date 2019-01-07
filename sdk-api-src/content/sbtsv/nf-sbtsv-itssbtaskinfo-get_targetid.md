@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_TargetId
 author: windows-sdk-content
 description: Retrieves the target identifier.
 old-location: termserv\itssbtaskinfo_targetid.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

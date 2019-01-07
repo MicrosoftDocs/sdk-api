@@ -4,7 +4,7 @@ title: PROPERTY_FLAGS
 author: windows-sdk-content
 description: Defines if the property is contained in a structure or array.
 old-location: etw\property_flags_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 517c1662-4230-44dc-94f0-a1996291bbee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

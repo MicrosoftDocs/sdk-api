@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::Skip
 author: windows-sdk-content
 description: Skips a specified number of columns in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_skip.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
 ms.author: windowssdkdev
 ms.date: 12/5/2018

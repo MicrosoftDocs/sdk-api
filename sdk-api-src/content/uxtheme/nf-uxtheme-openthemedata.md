@@ -4,7 +4,7 @@ title: OpenThemeData function
 author: windows-sdk-content
 description: Opens the theme data for a window and its associated class.
 old-location: controls\OpenThemeData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

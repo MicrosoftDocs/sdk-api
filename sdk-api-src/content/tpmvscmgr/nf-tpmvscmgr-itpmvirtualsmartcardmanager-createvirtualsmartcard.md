@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 author: windows-sdk-content
 description: Creates a TPM virtual smart card with the given parameters.
 old-location: security\itpmvirtualsmartcardmanager_createvirtualsmartcard.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: C80C4DE2-0C43-40A5-81E6-7036A0B8DEB7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

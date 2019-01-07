@@ -4,7 +4,7 @@ title: ITextPara::SetHyphenation
 author: windows-sdk-content
 description: Controls hyphenation for the paragraphs in the range.
 old-location: controls\ITextPara_SetHyphenation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SIP_ADD_NEWPROVIDER
 author: windows-sdk-content
 description: Defines a subject interface package (SIP). This structure is used by the CryptSIPAddProvider function.
 old-location: security\sip_add_newprovider.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

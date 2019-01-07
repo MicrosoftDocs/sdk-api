@@ -4,7 +4,7 @@ title: Animate_Seek macro
 author: windows-sdk-content
 description: Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Seek.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_seek.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

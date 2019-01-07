@@ -4,7 +4,7 @@ title: SOCKADDR_BTH
 author: windows-sdk-content
 description: The SOCKADDR_BTH structure is used in conjunction with Bluetooth socket operations, defined by address family AF_BTH.
 old-location: bluetooth\sockaddr_bth.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: e8eefa1d-94fa-45f3-a7c2-ea12a372a43b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

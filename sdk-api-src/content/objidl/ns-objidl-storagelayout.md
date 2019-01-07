@@ -4,7 +4,7 @@ title: StorageLayout
 author: windows-sdk-content
 description: Describes a single block of data, including its name, location, and length.
 old-location: stg\storagelayout.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_MoveItemToGroup macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveItemToGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_moveitemtogroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

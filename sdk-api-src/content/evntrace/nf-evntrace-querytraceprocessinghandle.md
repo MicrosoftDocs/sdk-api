@@ -4,7 +4,7 @@ title: QueryTraceProcessingHandle function
 author: windows-sdk-content
 description: Queries the system for the trace processing handle.
 old-location: etw\querytraceprocessinghandle.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 87666275-8752-4EC8-9C01-16D36AE4C5E8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

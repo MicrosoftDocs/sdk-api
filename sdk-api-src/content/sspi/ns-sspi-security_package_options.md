@@ -4,7 +4,7 @@ title: SECURITY_PACKAGE_OPTIONS
 author: windows-sdk-content
 description: Specifies information about a security package.
 old-location: security\security_package_options.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2e9f65ec-72a5-4d6f-aa63-f83369f0dd07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

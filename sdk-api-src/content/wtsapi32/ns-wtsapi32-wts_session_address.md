@@ -4,7 +4,7 @@ title: WTS_SESSION_ADDRESS
 author: windows-sdk-content
 description: Contains the virtual IP address assigned to a session.
 old-location: termserv\wts_session_address.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

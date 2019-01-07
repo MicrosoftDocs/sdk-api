@@ -4,7 +4,7 @@ title: DrawInsert function
 author: windows-sdk-content
 description: Draws the insert icon in the parent window of the specified drag list box.
 old-location: controls\DrawInsert.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\drawinsert.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

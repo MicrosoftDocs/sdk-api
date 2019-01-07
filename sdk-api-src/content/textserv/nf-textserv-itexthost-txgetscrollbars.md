@@ -4,7 +4,7 @@ title: ITextHost::TxGetScrollBars
 author: windows-sdk-content
 description: Requests information about the scroll bars supported by the text host.
 old-location: controls\ITextHost_TxGetScrollBars.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetscrollbars.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbEnvironment::get_EnvironmentPropertySet
 author: windows-sdk-content
 description: Retrieves or specifies the property set for the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_environmentpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1615cfbc-09f7-4304-9995-fc1a26b76ce6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

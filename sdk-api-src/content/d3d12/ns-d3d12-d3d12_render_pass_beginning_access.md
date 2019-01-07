@@ -65,3 +65,14 @@ A <a href="https://msdn.microsoft.com/12B376DB-2CCF-493E-8B21-BAAE66B5FF1E">D3D1
 
 A <a href="https://msdn.microsoft.com/E52C3630-1E57-4756-8D25-57E4A9AFDAE9">D3D12_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS</a>. Appropriate when  <b>Type</b> is <a href="https://msdn.microsoft.com/12B376DB-2CCF-493E-8B21-BAAE66B5FF1E">D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE_CLEAR</a>. The clear value to which resource(s) should be cleared.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

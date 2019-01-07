@@ -4,7 +4,7 @@ title: CRYPT_XML_REFERENCE
 author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

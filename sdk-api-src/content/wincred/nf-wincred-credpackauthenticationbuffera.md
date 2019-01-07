@@ -4,7 +4,7 @@ title: CredPackAuthenticationBufferA function
 author: windows-sdk-content
 description: Converts a string user name and password into an authentication buffer.
 old-location: security\credpackauthenticationbuffer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 48ffdd7a-1969-4f6a-bbc7-2826e21ea052
 ms.author: windowssdkdev
 ms.date: 12/5/2018

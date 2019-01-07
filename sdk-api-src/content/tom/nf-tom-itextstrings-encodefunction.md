@@ -4,7 +4,7 @@ title: ITextStrings::EncodeFunction
 author: windows-sdk-content
 description: Encodes an object, given a set of argument strings.
 old-location: controls\itextstrings_encodefunction.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f22bb343-4fcc-4473-84cc-807011b5a7b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

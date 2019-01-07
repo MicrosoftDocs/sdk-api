@@ -4,7 +4,7 @@ title: IWorkspaceRegistration::RemoveResource
 author: windows-sdk-content
 description: Notifies the RemoteApp and Desktop Connection runtime that the client is disconnecting the connection.
 old-location: termserv\iworkspaceregistration_removeresource.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f700e3c2-06fe-4f98-9b1e-aeadc339ed7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

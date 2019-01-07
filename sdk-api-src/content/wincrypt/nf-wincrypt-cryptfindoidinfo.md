@@ -4,7 +4,7 @@ title: CryptFindOIDInfo function
 author: windows-sdk-content
 description: Retrieves the first predefined or registered CRYPT_OID_INFO structure that matches a specified key type and key. The search can be limited to object identifiers (OIDs) within a specified OID group.
 old-location: security\cryptfindoidinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 87acf207-d109-4173-9530-8cbbebb473b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

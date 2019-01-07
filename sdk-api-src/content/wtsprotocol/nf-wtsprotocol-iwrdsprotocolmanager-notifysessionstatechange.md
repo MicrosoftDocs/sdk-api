@@ -4,7 +4,7 @@ title: IWRdsProtocolManager::NotifySessionStateChange
 author: windows-sdk-content
 description: Notifies the protocol provider of changes in the state of a session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionstatechange.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 72438718-1a66-473b-a563-67cfc8095318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont::SetPosition
 author: windows-sdk-content
 description: Sets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_SetPosition.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setposition.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

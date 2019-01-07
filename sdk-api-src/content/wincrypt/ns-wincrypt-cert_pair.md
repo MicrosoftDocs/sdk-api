@@ -4,7 +4,7 @@ title: CERT_PAIR
 author: windows-sdk-content
 description: The CERT_PAIR structure contains a certificate and its pair cross certificate.
 old-location: security\cert_pair.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b5929430-1b12-4ebf-a5ef-3669bba63f8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

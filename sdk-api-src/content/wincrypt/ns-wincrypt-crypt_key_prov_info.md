@@ -4,7 +4,7 @@ title: CRYPT_KEY_PROV_INFO
 author: windows-sdk-content
 description: The CRYPT_KEY_PROV_INFO structure contains information about a key container within a cryptographic service provider (CSP).
 old-location: security\crypt_key_prov_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6aea2f47-9d4a-4069-ac6d-f28907df00be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

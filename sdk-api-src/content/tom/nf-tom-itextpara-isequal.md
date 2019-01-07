@@ -4,7 +4,7 @@ title: ITextPara::IsEqual
 author: windows-sdk-content
 description: Determines if the current range has the same properties as a specified range.
 old-location: controls\ITextPara_IsEqual.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparaisequal.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

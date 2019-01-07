@@ -4,7 +4,7 @@ title: CERT_CONTEXT
 author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a certificate.
 old-location: security\cert_context.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f0a3200e-6541-423d-a4a3-595a31026eea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

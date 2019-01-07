@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_TerminalServicesHomeDirectory
 author: windows-sdk-content
 description: The root directory for the user. Each user on a Remote Desktop Session Host (RD Session Host) server has a unique root directory. This ensures that application information is stored separately for each user in a multiuser environment.
 old-location: termserv\iadstsuserex_terminalserviceshomedirectory.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3993b664-82bb-4419-a06f-2a4e24003170
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWRdsProtocolSettings::GetSettings
 author: windows-sdk-content
 description: Retrieves the settings for a particular policy.
 old-location: termserv\iwrdsprotocolsettings_getsettings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3a5a7ffd-15e1-4313-ad44-e720cd260f02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_BuffersLost
 author: windows-sdk-content
 description: Retrieves the number of buffers that were not written to the log file.
 old-location: pla\itracedatacollector_bufferslost.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 84c001f7-da5c-4d79-aba1-76c11e11bdae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

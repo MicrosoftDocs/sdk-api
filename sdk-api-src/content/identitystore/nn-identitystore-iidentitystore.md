@@ -4,7 +4,7 @@ title: IIdentityStore
 author: windows-sdk-content
 description: Provides methods to enumerate and manage identities and identity providers.
 old-location: security\iidentitystore.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

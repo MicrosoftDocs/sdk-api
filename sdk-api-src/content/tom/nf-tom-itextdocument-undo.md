@@ -4,7 +4,7 @@ title: ITextDocument::Undo
 author: windows-sdk-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

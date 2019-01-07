@@ -4,7 +4,7 @@ title: PKU2U_CREDUI_CONTEXT
 author: windows-sdk-content
 description: Specifies a PKU2U client context.
 old-location: security\pku2u_credui_context.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 38de5472-27f2-40d4-90e8-7b59d3982f03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

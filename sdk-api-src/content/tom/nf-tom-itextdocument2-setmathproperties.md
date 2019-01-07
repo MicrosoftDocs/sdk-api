@@ -4,7 +4,7 @@ title: ITextDocument2::SetMathProperties
 author: windows-sdk-content
 description: Specifies the math properties to use for the document.
 old-location: controls\itextdocument2_setmathproperties.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a688354b-b231-44fc-9cfb-32c8e8b1361f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

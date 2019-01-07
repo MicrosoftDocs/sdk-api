@@ -4,7 +4,7 @@ title: LsaLogonUser function
 author: windows-sdk-content
 description: Authenticates a security principal's logon data by using stored credentials information.
 old-location: security\lsalogonuser.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

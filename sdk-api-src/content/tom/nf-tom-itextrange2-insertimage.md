@@ -4,7 +4,7 @@ title: ITextRange2::InsertImage
 author: windows-sdk-content
 description: Inserts an image into this range.
 old-location: controls\itextrange2_insertimage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: CBC71EDC-CBE3-4C44-84C8-6AE6DEBC8D0C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

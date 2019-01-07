@@ -4,7 +4,7 @@ title: ITraceDataProvider::put_FilterData
 author: windows-sdk-content
 description: Retrieves or sets arbitrary data that is sent to the trace data provider for filtering purposes.
 old-location: pla\itracedataprovider_filterdata.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a5b1c141-d820-4435-be1e-93f2ae69d1e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

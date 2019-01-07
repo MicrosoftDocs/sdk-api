@@ -4,7 +4,7 @@ title: ITsSbSession::get_InitialProgram
 author: windows-sdk-content
 description: Retrieves or specifies the initial program for this session.
 old-location: termserv\itssbsession_initialprogram.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c299c4f7-3c5f-468f-9fc7-81eac322dfa2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

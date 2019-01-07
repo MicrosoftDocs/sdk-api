@@ -4,7 +4,7 @@ title: CMS_DH_KEY_INFO
 author: windows-sdk-content
 description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.
 old-location: security\cms_dh_key_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ecfd8a63-95f9-4026-b31b-671ea58b683f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

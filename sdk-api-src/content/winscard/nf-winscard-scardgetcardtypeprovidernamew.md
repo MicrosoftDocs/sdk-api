@@ -4,7 +4,7 @@ title: SCardGetCardTypeProviderNameW function
 author: windows-sdk-content
 description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
 old-location: security\scardgetcardtypeprovidername.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

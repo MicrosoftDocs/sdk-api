@@ -4,7 +4,7 @@ title: RegQueryValueExA function
 author: windows-sdk-content
 description: Retrieves the type and data for the specified value name associated with an open registry key.
 old-location: base\regqueryvalueex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

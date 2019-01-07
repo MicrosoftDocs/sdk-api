@@ -4,7 +4,7 @@ title: ITextDocument::EndEditCollection
 author: windows-sdk-content
 description: Turns off edit collection (also called undo grouping).
 old-location: controls\ITextDocument_EndEditCollection.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

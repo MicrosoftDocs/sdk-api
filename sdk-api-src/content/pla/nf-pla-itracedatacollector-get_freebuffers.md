@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_FreeBuffers
 author: windows-sdk-content
 description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_freebuffers.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

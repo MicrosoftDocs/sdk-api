@@ -79,3 +79,14 @@ To determine the level of support for render passes for a graphics device, pass 
 
 
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

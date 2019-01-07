@@ -4,7 +4,7 @@ title: CryptGetProvParam function
 author: windows-sdk-content
 description: Retrieves parameters that govern the operations of a cryptographic service provider (CSP).
 old-location: security\cryptgetprovparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c0b7c1c8-aa42-4d40-a7f7-99c0821c8977
 ms.author: windowssdkdev
 ms.date: 12/5/2018

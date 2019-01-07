@@ -4,7 +4,7 @@ title: TreeView_SetHot macro
 author: windows-sdk-content
 description: Sets the hot item for a tree-view control. You can use this macro or send the TVM_SETHOT message explicitly.
 old-location: controls\TreeView_SetHot.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\messages\treeview_sethot.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

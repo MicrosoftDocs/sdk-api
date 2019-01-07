@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannelEvents::OnClose
 author: windows-sdk-content
 description: Called when the channel has been closed.
 old-location: termserv\iwrdsgraphicschannelevents_onclose.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: fd195c0e-68bf-4361-9795-0e436c1abc90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

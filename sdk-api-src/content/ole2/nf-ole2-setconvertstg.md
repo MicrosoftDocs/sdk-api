@@ -4,7 +4,7 @@ title: SetConvertStg function
 author: windows-sdk-content
 description: The SetConvertStg function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the GetConvertStg function.
 old-location: stg\setconvertstg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

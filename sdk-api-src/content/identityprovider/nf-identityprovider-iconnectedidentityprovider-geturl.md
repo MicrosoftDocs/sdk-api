@@ -4,7 +4,7 @@ title: IConnectedIdentityProvider::GetUrl
 author: windows-sdk-content
 description: Returns the URL string for the specified wizard or webpage.
 old-location: security\iconnectedidentityprovider_geturl.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 623A9AE8-D838-4F00-B81E-35031ADB67F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

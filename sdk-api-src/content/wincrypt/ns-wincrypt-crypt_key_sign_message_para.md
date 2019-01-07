@@ -4,7 +4,7 @@ title: CRYPT_KEY_SIGN_MESSAGE_PARA
 author: windows-sdk-content
 description: Contains information about the cryptographic service provider (CSP) and algorithms used to sign a message.
 old-location: security\crypt_key_sign_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d5426ad6-2181-42ce-99f2-cc6cc83e20a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

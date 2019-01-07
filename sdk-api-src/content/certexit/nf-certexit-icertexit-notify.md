@@ -4,7 +4,7 @@ title: ICertExit::Notify
 author: windows-sdk-content
 description: Called by the server engine to notify an exit module that an event has occurred.
 old-location: security\icertexit2_notify.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebe4ef0c-5778-4a62-b112-9b16b250814f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

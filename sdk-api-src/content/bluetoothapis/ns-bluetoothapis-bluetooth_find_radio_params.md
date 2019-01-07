@@ -4,7 +4,7 @@ title: BLUETOOTH_FIND_RADIO_PARAMS
 author: windows-sdk-content
 description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.
 old-location: bluetooth\bluetooth_find_radio_params.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

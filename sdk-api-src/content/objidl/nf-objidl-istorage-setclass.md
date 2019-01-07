@@ -4,7 +4,7 @@ title: IStorage::SetClass
 author: windows-sdk-content
 description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.
 old-location: stg\istorage_setclass.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 02ab2708-fc8b-4941-939a-a819cf823108
 ms.author: windowssdkdev
 ms.date: 12/5/2018

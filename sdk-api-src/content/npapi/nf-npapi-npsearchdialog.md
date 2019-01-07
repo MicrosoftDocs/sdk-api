@@ -4,7 +4,7 @@ title: NPSearchDialog function
 author: windows-sdk-content
 description: Enables network vendors to supply their own form of browsing and search, beyond the hierarchical view presented in the Connection dialog box.
 old-location: security\npsearchdialog.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: df0d7149-4fb3-41b9-8037-d3c89eee0241
 ms.author: windowssdkdev
 ms.date: 12/5/2018

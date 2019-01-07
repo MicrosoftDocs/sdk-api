@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::get_Length
 author: windows-sdk-content
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 old-location: security\icertsrvsetupkeyinformation_length.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

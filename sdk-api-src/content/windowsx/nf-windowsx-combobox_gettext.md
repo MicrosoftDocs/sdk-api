@@ -4,7 +4,7 @@ title: ComboBox_GetText macro
 author: windows-sdk-content
 description: Retrieves the text from a combo box control.
 old-location: controls\ComboBox_GetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

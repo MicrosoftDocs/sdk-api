@@ -4,7 +4,7 @@ title: CRYPT_ALGORITHM_IDENTIFIER
 author: windows-sdk-content
 description: Specifies an algorithm used to encrypt a private key.
 old-location: security\crypt_algorithm_identifier.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ef0d3aa6-6b36-426f-a14c-2fdf7543deb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

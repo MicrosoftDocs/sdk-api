@@ -4,7 +4,7 @@ title: ICertSrvSetup::CAImportPFX
 author: windows-sdk-content
 description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.
 old-location: security\icertsrvsetup_caimportpfx.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

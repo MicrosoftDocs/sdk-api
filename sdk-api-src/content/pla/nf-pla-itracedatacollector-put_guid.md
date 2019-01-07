@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_Guid
 author: windows-sdk-content
 description: Retrieves or sets the session GUID.
 old-location: pla\itracedatacollector_guid.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 9f5ef256-725f-4cba-8fe7-a689045b8e66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

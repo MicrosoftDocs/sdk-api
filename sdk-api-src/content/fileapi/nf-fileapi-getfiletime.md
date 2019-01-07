@@ -4,7 +4,7 @@ title: GetFileTime function
 author: windows-sdk-content
 description: Retrieves the date and time that a file or directory was created, last accessed, and last modified.
 old-location: base\getfiletime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 7f88e1c8-4328-40c2-857d-745e4a1d350d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

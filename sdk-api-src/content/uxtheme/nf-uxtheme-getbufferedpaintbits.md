@@ -4,7 +4,7 @@ title: GetBufferedPaintBits function
 author: windows-sdk-content
 description: Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB).
 old-location: controls\GetBufferedPaintBits.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

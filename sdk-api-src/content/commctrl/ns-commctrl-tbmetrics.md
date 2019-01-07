@@ -4,7 +4,7 @@ title: TBMETRICS
 author: windows-sdk-content
 description: Defines the metrics of a toolbar that are used to shrink or expand toolbar items.
 old-location: controls\TBMETRICS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbmetrics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTS_CONFIG_CLASS
 author: windows-sdk-content
 description: Contains values that indicate the type of user configuration information to set or retrieve in a call to the WTSQueryUserConfig and WTSSetUserConfig functions.
 old-location: termserv\wts_config_class_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 623b8a86-aa0d-497c-a2e6-5526f9b13d98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: THIRD_IPADDRESS macro
 author: windows-sdk-content
 description: Extracts the field 2 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\THIRD_IPADDRESS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\third_ipaddress.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

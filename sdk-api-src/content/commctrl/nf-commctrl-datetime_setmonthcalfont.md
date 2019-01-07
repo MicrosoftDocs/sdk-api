@@ -4,7 +4,7 @@ title: DateTime_SetMonthCalFont macro
 author: windows-sdk-content
 description: Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the DTM_SETMCFONT message.
 old-location: controls\DateTime_SetMonthCalFont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalfont.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

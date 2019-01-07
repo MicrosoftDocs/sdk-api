@@ -4,7 +4,7 @@ title: ILayoutStorage::ReLayoutDocfile
 author: windows-sdk-content
 description: The ReLayoutDocfile method rewrites the compound file, using the layout script obtained through monitoring, or provided through explicit layout scripting, to create a new compound file.
 old-location: stg\ilayoutstorage_relayoutdocfile.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 5db3a26c-595a-4c9b-bb6d-b170eb9864df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

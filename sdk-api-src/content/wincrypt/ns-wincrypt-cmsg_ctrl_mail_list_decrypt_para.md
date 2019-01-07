@@ -4,7 +4,7 @@ title: CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 author: windows-sdk-content
 description: Contains information on a mail list message recipient.
 old-location: security\cmsg_ctrl_mail_list_decrypt_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 30735e01-db6b-40fc-b4c8-cdc24e73defa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

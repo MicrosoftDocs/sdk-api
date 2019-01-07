@@ -4,7 +4,7 @@ title: TreeView_EditLabel macro
 author: windows-sdk-content
 description: Begins in-place editing of the specified item's text, replacing the text of the item with a single-line edit control containing the text.
 old-location: controls\TreeView_EditLabel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_editlabel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

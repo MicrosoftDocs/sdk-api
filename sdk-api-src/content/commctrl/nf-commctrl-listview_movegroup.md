@@ -4,7 +4,7 @@ title: ListView_MoveGroup macro
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_movegroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

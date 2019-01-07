@@ -2,7 +2,7 @@
 UID: NA:wsdclient
 ms.assetid: cb4fff0f-6d45-391e-99df-d12e10aa5946
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

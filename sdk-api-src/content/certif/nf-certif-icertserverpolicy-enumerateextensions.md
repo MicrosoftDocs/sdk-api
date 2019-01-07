@@ -4,7 +4,7 @@ title: ICertServerPolicy::EnumerateExtensions
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the current extension and moves the internal enumeration pointer to the next extension.
 old-location: security\icertserverpolicy_enumerateextensions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 565ff4d5-0d22-466d-8458-f98b992a1868
 ms.author: windowssdkdev
 ms.date: 12/5/2018

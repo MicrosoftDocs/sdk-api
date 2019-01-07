@@ -4,7 +4,7 @@ title: CryptCATPersistStore function
 author: windows-sdk-content
 description: Saves the information in the specified catalog store to an unsigned catalog file.
 old-location: security\cryptcatpersiststore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2a564b0e-fcc6-4702-8173-d18df7064e53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

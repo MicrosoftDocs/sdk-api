@@ -4,7 +4,7 @@ title: ITextRange::Collapse
 author: windows-sdk-content
 description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
 old-location: controls\ITextRange_Collapse.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

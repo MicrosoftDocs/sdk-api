@@ -4,7 +4,7 @@ title: IEnroll4::get_ThumbPrintWStr
 author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3682e83d-8c3c-42fa-b743-0b149c956339
 ms.author: windowssdkdev
 ms.date: 12/5/2018

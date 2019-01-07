@@ -4,7 +4,7 @@ title: BP_ANIMATIONSTYLE
 author: windows-sdk-content
 description: Used in the BP_ANIMATIONPARAMS structure to declare animation options.
 old-location: controls\BP_ANIMATIONSTYLE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_animationstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFolderAction::put_Age
 author: windows-sdk-content
 description: Retrieves or sets the interval to wait between applying the actions.
 old-location: pla\ifolderaction_age.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptMsgGetParam function
 author: windows-sdk-content
 description: Acquires a message parameter after a cryptographic message has been encoded or decoded.
 old-location: security\cryptmsggetparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5a05eb09-208f-4e94-abfa-c2f14c0a3164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

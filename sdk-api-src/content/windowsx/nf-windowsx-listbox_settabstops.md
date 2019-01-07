@@ -4,7 +4,7 @@ title: ListBox_SetTabStops macro
 author: windows-sdk-content
 description: Sets the tab-stop positions in a list box. You can use this macro or send the LB_SETTABSTOPS message explicitly.
 old-location: controls\ListBox_SetTabStops.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settabstops.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

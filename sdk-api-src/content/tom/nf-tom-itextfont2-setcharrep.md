@@ -4,7 +4,7 @@ title: ITextFont2::SetCharRep
 author: windows-sdk-content
 description: Sets the character repertoire (writing system).
 old-location: controls\itextfont2_setcharrep.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

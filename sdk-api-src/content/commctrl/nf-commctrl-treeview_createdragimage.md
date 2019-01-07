@@ -4,7 +4,7 @@ title: TreeView_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 old-location: controls\TreeView_CreateDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

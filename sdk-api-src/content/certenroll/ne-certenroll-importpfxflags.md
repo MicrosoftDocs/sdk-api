@@ -4,7 +4,7 @@ title: ImportPFXFlags
 author: windows-sdk-content
 description: Flags to use when importing a PFX certificate.
 old-location: security\importpfxflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: B91A32A9-680F-4012-896E-7B3DF6629B25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAssociatedIdentityProvider::AssociateIdentity
 author: windows-sdk-content
 description: Associates an identity with a local user account.
 old-location: security\iassociatedidentityprovider_associateidentity.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

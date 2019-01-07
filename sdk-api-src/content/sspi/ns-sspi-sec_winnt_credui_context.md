@@ -4,7 +4,7 @@ title: SEC_WINNT_CREDUI_CONTEXT
 author: windows-sdk-content
 description: Specifies unserialized credential information.
 old-location: security\sec_winnt_credui_context.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ac9410eb-ec1b-494c-8e8b-6d161ff2b41c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

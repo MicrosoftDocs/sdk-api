@@ -4,7 +4,7 @@ title: ITextRange::GetChar
 author: windows-sdk-content
 description: Gets the character at the start position of the range.
 old-location: controls\ITextRange_GetChar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

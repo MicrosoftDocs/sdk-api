@@ -4,7 +4,7 @@ title: ITsSbLoadBalancingNotifySink
 author: windows-sdk-content
 description: Exposes methods that return the result of a load-balancing algorithm to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: cc6d2616-27e1-4731-91bf-fe96bcea2cab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

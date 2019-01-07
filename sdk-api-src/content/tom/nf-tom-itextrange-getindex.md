@@ -4,7 +4,7 @@ title: ITextRange::GetIndex
 author: windows-sdk-content
 description: Retrieves the story index of the Unit parameter at the specified range Start character position.
 old-location: controls\ITextRange_GetIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

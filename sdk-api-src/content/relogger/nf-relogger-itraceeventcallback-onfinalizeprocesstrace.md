@@ -4,7 +4,7 @@ title: ITraceEventCallback::OnFinalizeProcessTrace
 author: windows-sdk-content
 description: Indicates that a trace is about to end so that relogging can be finalized.
 old-location: etw\ieventcallback_onfinalizeprocesstrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: b152b6fd-4af5-4781-9c88-c71364ef86ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

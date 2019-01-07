@@ -4,7 +4,7 @@ title: CryptEncryptMessage function
 author: windows-sdk-content
 description: The CryptEncryptMessage function encrypts and encodes a message.
 old-location: security\cryptencryptmessage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 927f2e9a-96cf-4744-bd57-420b5034d28d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

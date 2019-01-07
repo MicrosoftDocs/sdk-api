@@ -4,7 +4,7 @@ title: IMAGELISTSTATS
 author: windows-sdk-content
 description: Contains image list statistics. Used by GetStatistics.
 old-location: controls\IMAGELISTSTATS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageliststats.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

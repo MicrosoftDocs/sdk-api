@@ -4,7 +4,7 @@ title: RegNotifyChangeKeyValue function
 author: windows-sdk-content
 description: Notifies the caller about changes to the attributes or contents of a specified registry key.
 old-location: base\regnotifychangekeyvalue.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: aad72ed5-1123-4a8b-9fc4-b54a713b635e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

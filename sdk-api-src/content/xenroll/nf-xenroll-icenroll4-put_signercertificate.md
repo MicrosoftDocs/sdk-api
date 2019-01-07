@@ -4,7 +4,7 @@ title: ICEnroll4::put_SignerCertificate
 author: windows-sdk-content
 description: Sets the signer's certificate.
 old-location: security\icenroll4_signercertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

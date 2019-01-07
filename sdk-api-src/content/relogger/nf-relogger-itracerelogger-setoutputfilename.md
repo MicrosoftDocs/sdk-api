@@ -4,7 +4,7 @@ title: ITraceRelogger::SetOutputFilename
 author: windows-sdk-content
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

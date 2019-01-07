@@ -4,7 +4,7 @@ title: CreateToolbarEx function
 author: windows-sdk-content
 description: Creates a toolbar window and adds the specified buttons to the toolbar.
 old-location: controls\CreateToolbarEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\functions\createtoolbarex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMDATETIMEFORMATW
 author: windows-sdk-content
 description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
 old-location: controls\NMDATETIMEFORMAT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

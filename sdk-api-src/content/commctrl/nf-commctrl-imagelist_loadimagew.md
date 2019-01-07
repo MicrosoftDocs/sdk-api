@@ -4,7 +4,7 @@ title: ImageList_LoadImageW function
 author: windows-sdk-content
 description: Creates an image list from the specified bitmap.
 old-location: controls\ImageList_LoadImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextPara::SetListAlignment
 author: windows-sdk-content
 description: Sets the alignment of bulleted or numbered text used for paragraphs.
 old-location: controls\ITextPara_SetListAlignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistalignment.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

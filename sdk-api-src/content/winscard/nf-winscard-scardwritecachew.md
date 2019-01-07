@@ -4,7 +4,7 @@ title: SCardWriteCacheW function
 author: windows-sdk-content
 description: Writes a name-value pair from a smart card to the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardwritecache.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e982e297-6a78-41f4-a81c-d207a96f1dab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

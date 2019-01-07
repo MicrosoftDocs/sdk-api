@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_TraceDataProviders
 author: windows-sdk-content
 description: Retrieves the list of providers enabled for this trace session.
 old-location: pla\itracedatacollector_tracedataprovider.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7a2006e8-3c4c-4441-8c9e-be9ce584dd63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

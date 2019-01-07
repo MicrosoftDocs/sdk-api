@@ -4,7 +4,7 @@ title: INITCOMMONCONTROLSEX
 author: windows-sdk-content
 description: Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the InitCommonControlsEx function.
 old-location: controls\INITCOMMONCONTROLSEX_4vvx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\initcommoncontrolsex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

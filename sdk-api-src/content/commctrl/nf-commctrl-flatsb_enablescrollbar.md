@@ -4,7 +4,7 @@ title: FlatSB_EnableScrollBar function
 author: windows-sdk-content
 description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.
 old-location: controls\FlatSB_EnableScrollBar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_enablescrollbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

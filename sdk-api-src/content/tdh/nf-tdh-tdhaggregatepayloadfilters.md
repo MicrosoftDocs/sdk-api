@@ -4,7 +4,7 @@ title: TdhAggregatePayloadFilters function
 author: windows-sdk-content
 description: Aggregates multiple payload filters for a single provider into a single data structure for use with the EnableTraceEx2 function.
 old-location: etw\tdhaggregatepayloadfilters.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

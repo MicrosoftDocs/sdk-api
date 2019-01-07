@@ -4,7 +4,7 @@ title: Header_SetHotDivider macro
 author: windows-sdk-content
 description: Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the HDM_SETHOTDIVIDER message explicitly.
 old-location: controls\Header_SetHotDivider.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

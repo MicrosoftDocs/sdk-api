@@ -4,7 +4,7 @@ title: EventDescGetLevel function
 author: windows-sdk-content
 description: Retrieves the severity level from the event descriptor.
 old-location: etw\eventdescgetlevel_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 29f356ad-c957-4a1e-abf8-5c7e6212c92e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

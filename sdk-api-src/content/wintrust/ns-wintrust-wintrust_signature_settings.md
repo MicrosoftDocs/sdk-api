@@ -4,7 +4,7 @@ title: WINTRUST_SIGNATURE_SETTINGS
 author: windows-sdk-content
 description: Can be used to specify the signatures on a file.
 old-location: security\wintrust_signature_settings.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: E0F526B4-AFDE-4481-B49F-EE7467F97A46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

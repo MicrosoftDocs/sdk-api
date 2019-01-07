@@ -4,7 +4,7 @@ title: ITextFont2::GetOverlapping
 author: windows-sdk-content
 description: Gets whether overlapping text is active.
 old-location: controls\itextfont2_getoverlapping.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

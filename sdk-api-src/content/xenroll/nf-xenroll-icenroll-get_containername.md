@@ -4,7 +4,7 @@ title: ICEnroll::get_ContainerName
 author: windows-sdk-content
 description: The ContainerName property of ICEnroll4 sets or retrieves the name of the key container to use.
 old-location: security\icenroll4_containername.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fa863843-8bbc-47c5-9d58-b64fb6703c0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -71,7 +71,7 @@ The <b>IUIAutomationTextRange2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/03165205-C56C-6002-A820-9214725B93E1">ShowContextMenu</a>
 </td>
 <td align="left" width="63%">
-Programmatically invokes a context menu on the target element.
+Programmatically invokes a context menu on the target text range.
 
 </td>
 </tr>

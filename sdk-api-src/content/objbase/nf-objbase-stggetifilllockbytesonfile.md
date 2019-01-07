@@ -4,7 +4,7 @@ title: StgGetIFillLockBytesOnFile function
 author: windows-sdk-content
 description: Opens a wrapper object on a temporary file.
 old-location: stg\stggetifilllockbytesonfile.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 948724ff-d1eb-43ca-b498-6296909cfb28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

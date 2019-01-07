@@ -4,7 +4,7 @@ title: StreamMode
 author: windows-sdk-content
 description: Defines where the trace events are delivered.
 old-location: pla\streammode.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604
 ms.author: windowssdkdev
 ms.date: 12/5/2018

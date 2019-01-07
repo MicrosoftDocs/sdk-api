@@ -4,7 +4,7 @@ title: ITextFont2::GetPositionSubSuper
 author: windows-sdk-content
 description: Gets the subscript or superscript position relative to the baseline.
 old-location: controls\itextfont2_getpositionsubsuper.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: c7e53a94-b218-47d1-b366-3bbf7779516e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

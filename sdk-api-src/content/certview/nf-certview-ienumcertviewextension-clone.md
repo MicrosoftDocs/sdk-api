@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::Clone
 author: windows-sdk-content
 description: Creates a copy of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_clone.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2b8e19e4-459f-45f0-abb6-e1e0e115e0f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

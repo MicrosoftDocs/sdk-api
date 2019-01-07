@@ -4,7 +4,7 @@ title: ListBox_SetItemData macro
 author: windows-sdk-content
 description: Sets the application-defined value associated with the specified list box item. You can use this macro or send the LB_SETITEMDATA message explicitly.
 old-location: controls\ListBox_SetItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

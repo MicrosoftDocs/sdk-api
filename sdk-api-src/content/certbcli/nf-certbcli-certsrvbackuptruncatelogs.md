@@ -4,7 +4,7 @@ title: CertSrvBackupTruncateLogs function
 author: windows-sdk-content
 description: Eliminates redundant records and reduces the disk storage space used by log files.
 old-location: security\certsrvbackuptruncatelogs.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8ccab63c-1057-485e-970e-8298dfea3426
 ms.author: windowssdkdev
 ms.date: 12/5/2018

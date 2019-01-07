@@ -4,7 +4,7 @@ title: IEnroll4::SetSignerCertificate
 author: windows-sdk-content
 description: The SetSignerCertificate method specifies the signer's certificate. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_setsignercertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1c970f6b-6b8f-4396-b59b-d6b58d52172b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

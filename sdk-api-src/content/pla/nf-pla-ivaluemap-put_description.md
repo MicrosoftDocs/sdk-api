@@ -4,7 +4,7 @@ title: IValueMap::put_Description
 author: windows-sdk-content
 description: Retrieves or sets a description of the collection.
 old-location: pla\ivaluemap_description.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 04936082-e377-46f3-b218-28a2403eee9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
