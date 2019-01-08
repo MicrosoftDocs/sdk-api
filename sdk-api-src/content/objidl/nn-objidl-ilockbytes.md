@@ -4,7 +4,7 @@ title: ILockBytes
 author: windows-sdk-content
 description: The ILockBytes interface is implemented on a byte array object that is backed by some physical storage, such as a disk file, global memory, or a database.
 old-location: stg\ilockbytes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: bb2c5d0d-8dc8-4844-9a20-ef8e4def5731
 ms.author: windowssdkdev
 ms.date: 12/5/2018

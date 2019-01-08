@@ -4,7 +4,7 @@ title: Header_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a transparent version of an item image within an existing header control. You can use this macro or send the HDM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\Header_CreateDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_createdragimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

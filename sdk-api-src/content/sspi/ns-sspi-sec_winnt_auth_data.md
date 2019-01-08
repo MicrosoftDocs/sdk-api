@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_DATA
 author: windows-sdk-content
 description: Specifies authentication data.
 old-location: security\sec_winnt_auth_data.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d5319273-ef6c-4971-9336-394394d0dbc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

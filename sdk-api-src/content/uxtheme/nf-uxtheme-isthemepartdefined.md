@@ -4,7 +4,7 @@ title: IsThemePartDefined function
 author: windows-sdk-content
 description: Retrieves whether a visual style has defined parameters for the specified part and state.
 old-location: controls\IsThemePartDefined.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

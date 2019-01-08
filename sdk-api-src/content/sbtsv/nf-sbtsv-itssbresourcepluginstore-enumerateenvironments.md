@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::EnumerateEnvironments
 author: windows-sdk-content
 description: Returns an array that contains the environments present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumerateenvironments.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5c9d2fb4-05e7-449d-8326-b983701b3302
 ms.author: windowssdkdev
 ms.date: 12/5/2018

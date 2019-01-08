@@ -4,7 +4,7 @@ title: ICertExit
 author: windows-sdk-content
 description: Provides communications between the Certificate Services server and an exit module.
 old-location: security\icertexit.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

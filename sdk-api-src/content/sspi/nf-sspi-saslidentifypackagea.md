@@ -4,7 +4,7 @@ title: SaslIdentifyPackageA function
 author: windows-sdk-content
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer.
 old-location: security\saslidentifypackage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

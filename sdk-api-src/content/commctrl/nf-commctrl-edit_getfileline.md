@@ -4,7 +4,7 @@ title: Edit_GetFileLine macro
 author: windows-sdk-content
 description: Gets the text of the specified file (or logical) line (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINE message explicitly.
 old-location: controls\edit_getfileline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: F59ECED6-5584-43A9-A5F8-5502D66A29B6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

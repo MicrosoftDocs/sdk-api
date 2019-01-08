@@ -4,7 +4,7 @@ title: CertGetCTLContextProperty function
 author: windows-sdk-content
 description: Retrieves an extended property of a certificate trust list (CTL) context.
 old-location: security\certgetctlcontextproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 16e45fe1-2710-4fa1-82da-c298645d7379
 ms.author: windowssdkdev
 ms.date: 12/5/2018

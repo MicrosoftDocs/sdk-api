@@ -4,7 +4,7 @@ title: InitCommonControlsEx function
 author: windows-sdk-content
 description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.
 old-location: controls\InitCommonControlsEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

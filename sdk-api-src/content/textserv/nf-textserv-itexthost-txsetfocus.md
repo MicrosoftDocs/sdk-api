@@ -4,7 +4,7 @@ title: ITextHost::TxSetFocus
 author: windows-sdk-content
 description: Sets the focus to the text host window.
 old-location: controls\ITextHost_TxSetFocus.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetfocus.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

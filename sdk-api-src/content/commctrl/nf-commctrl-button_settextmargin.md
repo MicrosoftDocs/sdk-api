@@ -4,7 +4,7 @@ title: Button_SetTextMargin macro
 author: windows-sdk-content
 description: Sets the margins for drawing text in a button control. You can use this macro or send the BCM_SETTEXTMARGIN message explicitly.
 old-location: controls\Button_SetTextMargin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_settextmargin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_DOMAIN_INFO
 author: windows-sdk-content
 description: Contains identifying information for a domain.
 old-location: security\lsa_forest_trust_domain_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c0e06735-ca10-4bee-a45b-6db5b6666e31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

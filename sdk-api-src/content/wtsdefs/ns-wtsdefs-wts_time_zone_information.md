@@ -4,7 +4,7 @@ title: WTS_TIME_ZONE_INFORMATION
 author: windows-sdk-content
 description: Contains client time zone information.
 old-location: termserv\wts_time_zone_information.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 7d0e75b1-0a9b-47b1-8bf7-192966e3d19a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

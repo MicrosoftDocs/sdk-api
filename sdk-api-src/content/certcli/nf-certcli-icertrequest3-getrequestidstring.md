@@ -4,7 +4,7 @@ title: ICertRequest3::GetRequestIdString
 author: windows-sdk-content
 description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
 old-location: security\icertrequest3_getrequestidstring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077
 ms.author: windowssdkdev
 ms.date: 12/5/2018

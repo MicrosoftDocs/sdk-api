@@ -4,7 +4,7 @@ title: IStorage::RenameElement
 author: windows-sdk-content
 description: The RenameElement method renames the specified substorage or stream in this storage object.
 old-location: stg\istorage_renameelement.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 9d88b2e0-8b68-4607-8f96-5e36e831c283
 ms.author: windowssdkdev
 ms.date: 12/5/2018

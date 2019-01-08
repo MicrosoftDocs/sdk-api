@@ -4,7 +4,7 @@ title: SECPKG_BYTE_VECTOR
 author: windows-sdk-content
 description: Specifies the byte vector information.
 old-location: security\secpkg_byte_vector.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2EB8591E-8FBC-47DA-8128-F82D82CB0B26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

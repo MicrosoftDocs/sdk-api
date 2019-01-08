@@ -4,7 +4,7 @@ title: INDESPolicy::Initialize
 author: windows-sdk-content
 description: Initializes the NDES policy module.
 old-location: security\indespolicy_initialize.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.author: windowssdkdev
 ms.date: 12/5/2018

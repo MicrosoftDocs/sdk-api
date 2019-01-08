@@ -4,7 +4,7 @@ title: PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY
 author: windows-sdk-content
 description: Imports an already decrypted content encryption key (CEK).
 old-location: security\pfn_cmsg_cng_import_content_encrypt_key.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cb410582-68bd-43ed-b65f-17a7c1e0800f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

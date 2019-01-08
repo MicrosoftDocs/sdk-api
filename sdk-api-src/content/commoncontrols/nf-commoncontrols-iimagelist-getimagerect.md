@@ -4,7 +4,7 @@ title: IImageList::GetImageRect
 author: windows-sdk-content
 description: Gets an image's bounding rectangle.
 old-location: controls\IImageList_GetImageRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagerect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

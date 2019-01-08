@@ -4,7 +4,7 @@ title: IWTSProtocolLicenseConnection
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection is no longer available. Instead, use IWRdsProtocolLicenseConnection.
 old-location: termserv\iwtsprotocollicenseconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3f6925b6-c712-40c6-8b48-7df8ef4a9872
 ms.author: windowssdkdev
 ms.date: 12/5/2018

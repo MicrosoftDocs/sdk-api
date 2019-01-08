@@ -4,7 +4,7 @@ title: ICertAdmin2::ImportKey
 author: windows-sdk-content
 description: Adds an encrypted key set to an item in the Certificate Services database. The key set is encrypted to one or several key recovery agent (KRA) certificates.
 old-location: security\icertadmin2_importkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d71f20d7-5b27-41e5-adc1-6f0ae4160210
 ms.author: windowssdkdev
 ms.date: 12/5/2018

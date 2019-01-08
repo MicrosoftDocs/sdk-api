@@ -4,7 +4,7 @@ title: CERT_SYSTEM_STORE_INFO
 author: windows-sdk-content
 description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.
 old-location: security\cert_system_store_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9c17ebd9-423b-4063-bdc3-6be70ceb8623
 ms.author: windowssdkdev
 ms.date: 12/5/2018

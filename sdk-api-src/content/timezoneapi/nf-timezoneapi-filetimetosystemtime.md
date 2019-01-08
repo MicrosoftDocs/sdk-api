@@ -4,7 +4,7 @@ title: FileTimeToSystemTime function
 author: windows-sdk-content
 description: Converts a file time to system time format. System time is based on Coordinated Universal Time (UTC).
 old-location: base\filetimetosystemtime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: d1d55f1f-4daa-4b9d-9962-873e38b1e0cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

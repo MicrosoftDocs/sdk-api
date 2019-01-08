@@ -4,7 +4,7 @@ title: ListView_SetToolTips macro
 author: windows-sdk-content
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can use this macro or send the LVM_SETTOOLTIPS message explicitly.
 old-location: controls\ListView_SetToolTips.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

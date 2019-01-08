@@ -2,7 +2,7 @@
 UID: NN:uiautomationclient.IUIAutomationChangesEventHandler
 title: IUIAutomationChangesEventHandler
 author: windows-sdk-content
-description: Exposes a method to handle Microsoft UI Automation events that occur when a property is changed.
+description: Exposes a method to handle one or more Microsoft UI Automation change events.
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 8DCF8826-B688-416C-9195-34E0290054AA
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Exposes a method to handle Microsoft UI Automation events that occur when a property is changed.
+Exposes a method to handle one or more Microsoft UI Automation change events.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IUIAutomationChangesEventHandler</b> interface has these methods.
 <a href="https://msdn.microsoft.com/5BCE09F7-9811-49F5-B2C4-8DABC44CA406">HandleChangesEvent</a>
 </td>
 <td align="left" width="63%">
-Handles a UI Automation changes event.
+Handles one or more UI Automation change events.
 
 </td>
 </tr>

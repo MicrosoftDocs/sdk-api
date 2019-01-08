@@ -4,7 +4,7 @@ title: Header_SetUnicodeFormat macro
 author: windows-sdk-content
 description: Sets the UNICODE character format flag for the control.
 old-location: controls\Header_SetUnicodeFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

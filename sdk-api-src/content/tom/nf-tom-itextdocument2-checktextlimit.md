@@ -4,7 +4,7 @@ title: ITextDocument2::CheckTextLimit
 author: windows-sdk-content
 description: Checks whether the number of characters to be added would exceed the maximum text limit.
 old-location: controls\itextdocument2_checktextlimit.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2c3aae14-8fa4-47bf-93ae-1d34333f0356
 ms.author: windowssdkdev
 ms.date: 12/5/2018

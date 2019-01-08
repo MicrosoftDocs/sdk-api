@@ -4,7 +4,7 @@ title: NMLINK
 author: windows-sdk-content
 description: The NMLINK Contains notification information. Send this structure with the NM_CLICK or NM_RETURN messages.
 old-location: controls\NMLINK.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\nmlink.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

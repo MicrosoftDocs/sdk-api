@@ -4,7 +4,7 @@ title: IEnroll2::GetKeyLen
 author: windows-sdk-content
 description: The IEnroll4::GetKeyLen method retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\ienroll4_getkeylen.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ece7f5a3-e982-48b2-a249-a9c5b5a8a493
 ms.author: windowssdkdev
 ms.date: 12/5/2018

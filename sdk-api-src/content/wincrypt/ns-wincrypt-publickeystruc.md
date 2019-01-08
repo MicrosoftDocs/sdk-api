@@ -4,7 +4,7 @@ title: PUBLICKEYSTRUC
 author: windows-sdk-content
 description: Indicates a key's BLOB type and the algorithm that the key uses.
 old-location: security\publickeystruc.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 99d41222-b4ca-40f3-a240-52b0a9b3a9aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

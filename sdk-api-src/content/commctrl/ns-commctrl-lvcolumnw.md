@@ -4,7 +4,7 @@ title: LVCOLUMNW
 author: windows-sdk-content
 description: Contains information about a column in report view. This structure is used both for creating and manipulating columns. This structure supersedes the LV_COLUMN structure.
 old-location: controls\LVCOLUMN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvcolumn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

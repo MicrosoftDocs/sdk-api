@@ -4,7 +4,7 @@ title: ITextRange2::GetDuplicate2
 author: windows-sdk-content
 description: Gets a duplicate of a range object.
 old-location: controls\itextrange2_getduplicate2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6dce56b6-463a-49d4-8e4b-397e2841544c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

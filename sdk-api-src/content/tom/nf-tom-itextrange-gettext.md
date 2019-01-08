@@ -4,7 +4,7 @@ title: ITextRange::GetText
 author: windows-sdk-content
 description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
 old-location: controls\ITextRange_GetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

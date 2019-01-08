@@ -4,7 +4,7 @@ title: PFXImportCertStore function
 author: windows-sdk-content
 description: Imports a PFX BLOB and returns the handle of a store that contains certificates and any associated private keys.
 old-location: security\pfximportcertstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2c83774a-f2df-4d28-9abd-e39aa507ba88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

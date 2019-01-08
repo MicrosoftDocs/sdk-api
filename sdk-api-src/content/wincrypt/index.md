@@ -2,7 +2,7 @@
 UID: NA:wincrypt
 ms.assetid: 9f9635e4-3e62-30ea-ac59-30f821c272a5
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection
 author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to configure a client connection.
 old-location: termserv\iwrdsprotocolconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2b8a5b2f-5a54-4d60-8b5a-8a914728087c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

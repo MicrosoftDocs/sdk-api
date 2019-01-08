@@ -4,7 +4,7 @@ title: NMBCDROPDOWN
 author: windows-sdk-content
 description: Contains information about a BCN_DROPDOWN notification.
 old-location: controls\NMBCDROPDOWN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbcdropdown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

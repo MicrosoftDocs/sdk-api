@@ -4,7 +4,7 @@ title: StgIsStorageILockBytes function
 author: windows-sdk-content
 description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.
 old-location: stg\stgisstorageilockbytes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

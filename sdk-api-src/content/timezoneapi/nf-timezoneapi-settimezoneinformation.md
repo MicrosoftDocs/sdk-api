@@ -4,7 +4,7 @@ title: SetTimeZoneInformation function
 author: windows-sdk-content
 description: Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
 old-location: base\settimezoneinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: afb13501-3a87-433a-a05e-139103060109
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertGetCertificateContextProperty function
 author: windows-sdk-content
 description: Retrieves the information contained in an extended property of a certificate context.
 old-location: security\certgetcertificatecontextproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f766db64-3121-4f70-ac83-ce25ee634efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

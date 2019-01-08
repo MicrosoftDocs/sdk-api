@@ -4,7 +4,7 @@ title: IRichEditOleCallback::ContextSensitiveHelp
 author: windows-sdk-content
 description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackcontextsensitivehelp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

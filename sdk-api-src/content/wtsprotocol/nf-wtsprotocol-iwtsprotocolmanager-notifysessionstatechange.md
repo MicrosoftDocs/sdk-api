@@ -4,7 +4,7 @@ title: IWTSProtocolManager::NotifySessionStateChange
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifySessionStateChange.
 old-location: termserv\iwtsprotocolmanager_notifysessionstatechange.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 59c284bf-8175-46d2-ab44-8b2975574c14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

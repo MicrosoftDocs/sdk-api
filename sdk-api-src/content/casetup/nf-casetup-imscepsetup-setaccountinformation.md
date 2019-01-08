@@ -4,7 +4,7 @@ title: IMSCEPSetup::SetAccountInformation
 author: windows-sdk-content
 description: Sets the user account information used by the IIS Network Device Enrollment Service (NDES) extension to perform enrollment on behalf of network devices.
 old-location: security\imscepsetup_setaccountinformation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 32d09bdc-e8e8-4368-9f51-cc7ba170c8a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

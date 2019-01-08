@@ -4,7 +4,7 @@ title: ITextDocument::GetName
 author: windows-sdk-content
 description: Gets the file name of this document. This is the ITextDocument default property.
 old-location: controls\ITextDocument_GetName.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextdocument\itextdocumentgetname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SECPKG_PARAMETERS
 author: windows-sdk-content
 description: The SECPKG_PARAMETERS structure contains information about the computer system. This structure is used by the SpInitialize function.
 old-location: security\secpkg_parameters.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2e3b7961-e2c4-4011-91b1-0ba9d35e9188
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Description
 author: windows-sdk-content
 description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
 old-location: pla\idatacollectorset_get_description.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

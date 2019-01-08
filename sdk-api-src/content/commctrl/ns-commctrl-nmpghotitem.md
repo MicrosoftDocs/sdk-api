@@ -4,7 +4,7 @@ title: NMPGHOTITEM
 author: windows-sdk-content
 description: Contains information used with the PGN_HOTITEMCHANGE notification code.
 old-location: controls\NMPGHOTITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

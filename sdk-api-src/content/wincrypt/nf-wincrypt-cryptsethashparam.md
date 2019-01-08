@@ -4,7 +4,7 @@ title: CryptSetHashParam function
 author: windows-sdk-content
 description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.
 old-location: security\cryptsethashparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

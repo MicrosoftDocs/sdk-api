@@ -4,7 +4,7 @@ title: CMC_PEND_INFO
 author: windows-sdk-content
 description: A possible member of a CMC_STATUS_INFO structure.
 old-location: security\cmc_pend_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ac3dcd19-caed-4453-bac7-55ffa3a02f54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

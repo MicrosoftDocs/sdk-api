@@ -4,7 +4,7 @@ title: IImageList::GetIcon
 author: windows-sdk-content
 description: Creates an icon from an image and a mask in an image list.
 old-location: controls\IImageList_GetIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

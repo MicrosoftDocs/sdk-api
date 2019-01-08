@@ -4,7 +4,7 @@ title: WTSLogoffSession function
 author: windows-sdk-content
 description: Logs off a specified Remote Desktop Services session.
 old-location: termserv\wtslogoffsession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: dba7b6fb-f906-40d1-baae-6ee7b8cfe86d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

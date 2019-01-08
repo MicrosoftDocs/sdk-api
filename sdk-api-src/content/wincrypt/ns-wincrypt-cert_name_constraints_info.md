@@ -4,7 +4,7 @@ title: CERT_NAME_CONSTRAINTS_INFO
 author: windows-sdk-content
 description: The CERT_NAME_CONSTRAINTS_INFO structure contains information about certificates that are specifically permitted or excluded from trust.
 old-location: security\cert_name_constraints_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 16a57c4b-905f-40c0-b298-71f0534bfa5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

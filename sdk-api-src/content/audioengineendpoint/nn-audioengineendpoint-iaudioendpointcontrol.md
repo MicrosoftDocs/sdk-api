@@ -4,7 +4,7 @@ title: IAudioEndpointControl
 author: windows-sdk-content
 description: Controls the stream state of an endpoint.
 old-location: termserv\iaudioendpointcontrol.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4514521a-e9a9-4f39-ab7d-4ef7e514bd10
 ms.author: windowssdkdev
 ms.date: 12/5/2018

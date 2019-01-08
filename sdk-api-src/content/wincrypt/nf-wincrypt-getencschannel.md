@@ -4,7 +4,7 @@ title: GetEncSChannel function
 author: windows-sdk-content
 description: This function is unavailable.
 old-location: security\getencschannel.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

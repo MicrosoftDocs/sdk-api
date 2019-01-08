@@ -4,7 +4,7 @@ title: IEnroll4::createPFXWStr
 author: windows-sdk-content
 description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12.
 old-location: security\ienroll4_createpfxwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

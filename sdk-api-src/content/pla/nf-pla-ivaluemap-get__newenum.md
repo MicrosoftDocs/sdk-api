@@ -4,7 +4,7 @@ title: IValueMap::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ivaluemap__newenum.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1d40104c-c0a4-41d2-8427-364c37b52e02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

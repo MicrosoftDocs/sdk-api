@@ -4,7 +4,7 @@ title: CryptCATPutCatAttrInfo function
 author: windows-sdk-content
 description: Allocates memory for a catalog file attribute and adds it to the catalog.
 old-location: security\cryptcatputcatattrinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 16bb8560-d4fc-4c81-8eed-21a2da7f396d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

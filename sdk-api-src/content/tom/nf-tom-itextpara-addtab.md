@@ -4,7 +4,7 @@ title: ITextPara::AddTab
 author: windows-sdk-content
 description: Adds a tab at the displacement tbPos, with type tbAlign, and leader style, tbLeader.
 old-location: controls\ITextPara_AddTab.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\addtab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

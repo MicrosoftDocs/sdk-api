@@ -4,7 +4,7 @@ title: PWLX_SWITCH_DESKTOP_TO_WINLOGON
 author: windows-sdk-content
 description: Allows the GINA DLL switch to the Winlogon desktop.
 old-location: security\wlxswitchdesktoptowinlogon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ed910769-94c2-455b-9788-de3795330821
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EventUnregister function
 author: windows-sdk-content
 description: Removes the provider's registration. You must call this function before your process exits.
 old-location: etw\eventunregister_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

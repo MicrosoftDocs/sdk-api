@@ -4,7 +4,7 @@ title: ITextRange2::SetGravity
 author: windows-sdk-content
 description: Sets the gravity of this range.
 old-location: controls\itextrange2_setgravity.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 10214543-36da-46e3-b926-0ba088f84a7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

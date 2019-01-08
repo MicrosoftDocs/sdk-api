@@ -4,7 +4,7 @@ title: ITextFont::GetBold
 author: windows-sdk-content
 description: Gets whether the characters are bold.
 old-location: controls\ITextFont_GetBold.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbold.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:windows.media.core.interop
 ms.assetid: ac82089b-5833-36c5-961e-38216f91cd89
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

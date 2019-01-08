@@ -4,7 +4,7 @@ title: IRemoteDesktopClientActions::ExecuteRemoteAction
 author: windows-sdk-content
 description: Causes an action to be performed in the remote session.
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

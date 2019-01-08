@@ -4,7 +4,7 @@ title: MSV1_0_LM20_LOGON_PROFILE
 author: windows-sdk-content
 description: Contains information about a network logon session.
 old-location: security\msv1_0_lm20_logon_profile.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4bf69171-1f92-40df-ab0f-cd6790ce34f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

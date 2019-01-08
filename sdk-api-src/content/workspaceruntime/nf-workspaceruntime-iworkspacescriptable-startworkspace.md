@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::StartWorkspace
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID.
 old-location: termserv\iworkspacescriptable_startworkspace.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a2985ae1-7874-43e8-b0d3-ef3f13ac2f8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

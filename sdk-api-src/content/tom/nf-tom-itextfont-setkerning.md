@@ -4,7 +4,7 @@ title: ITextFont::SetKerning
 author: windows-sdk-content
 description: Sets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_SetKerning.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkerning.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

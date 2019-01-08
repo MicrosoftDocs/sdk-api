@@ -4,7 +4,7 @@ title: CTL_MODIFY_REQUEST
 author: windows-sdk-content
 description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
 old-location: security\ctl_modify_request.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

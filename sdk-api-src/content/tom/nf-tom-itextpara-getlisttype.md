@@ -4,7 +4,7 @@ title: ITextPara::GetListType
 author: windows-sdk-content
 description: Retrieves the kind of numbering to use with paragraphs.
 old-location: controls\ITextPara_GetListType.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

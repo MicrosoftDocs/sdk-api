@@ -4,7 +4,7 @@ title: WINTRUST_FILE_INFO
 author: windows-sdk-content
 description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.
 old-location: security\wintrust_file_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

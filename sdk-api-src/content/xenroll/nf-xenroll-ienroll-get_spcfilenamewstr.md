@@ -4,7 +4,7 @@ title: IEnroll::get_SPCFileNameWStr
 author: windows-sdk-content
 description: The SPCFileNameWStr property of IEnroll4 sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\ienroll4_spcfilenamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408
 ms.author: windowssdkdev
 ms.date: 12/5/2018

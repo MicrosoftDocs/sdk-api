@@ -4,7 +4,7 @@ title: ENUM_CATYPES
 author: windows-sdk-content
 description: Specifies a certification authority (CA) type.
 old-location: security\enum_catypes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 32b20317-c0ef-4896-a8c6-309e34f87c30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

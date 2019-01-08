@@ -4,7 +4,7 @@ title: ICertManageModule::Configure
 author: windows-sdk-content
 description: Displays the module user interface.
 old-location: security\icertmanagemodule_configure.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dc54cda9-1818-40af-9005-f31ad3c110c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

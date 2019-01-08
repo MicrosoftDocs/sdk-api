@@ -4,7 +4,7 @@ title: CERT_VIEWPROPERTIES_STRUCT_W
 author: windows-sdk-content
 description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
 old-location: security\cert_viewproperties_struct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
 ms.author: windowssdkdev
 ms.date: 12/5/2018

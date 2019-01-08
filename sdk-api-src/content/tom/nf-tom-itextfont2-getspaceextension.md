@@ -4,7 +4,7 @@ title: ITextFont2::GetSpaceExtension
 author: windows-sdk-content
 description: Gets the East Asian space extension value.
 old-location: controls\itextfont2_getspaceextension.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

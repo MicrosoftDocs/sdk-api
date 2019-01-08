@@ -4,7 +4,7 @@ title: ICEnroll3::put_EnableSMIMECapabilities
 author: windows-sdk-content
 description: The ICEnroll4::EnableSMIMECapabilities property controls whether the PKCS #10 will contain a signed attribute for Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities.
 old-location: security\icenroll4_enablesmimecapabilities.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 057033ab-f2e0-4d60-b47f-73973f82f806
 ms.author: windowssdkdev
 ms.date: 12/5/2018

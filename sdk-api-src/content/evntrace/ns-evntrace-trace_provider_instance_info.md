@@ -4,7 +4,7 @@ title: TRACE_PROVIDER_INSTANCE_INFO
 author: windows-sdk-content
 description: Defines an instance of the provider GUID.
 old-location: etw\trace_provider_instance_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 49c11cd5-2cb1-474a-8b51-2d86b4501da1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

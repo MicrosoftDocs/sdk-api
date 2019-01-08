@@ -4,7 +4,7 @@ title: CertFindCertificateInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindcertificateinstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

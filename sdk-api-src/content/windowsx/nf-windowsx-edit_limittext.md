@@ -4,7 +4,7 @@ title: Edit_LimitText macro
 author: windows-sdk-content
 description: Limits the length of text that can be entered into an edit control. You can use this macro or send the EM_LIMITTEXT message explicitly.
 old-location: controls\Edit_LimitText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_limittext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IPropertySetStorage::Delete
 author: windows-sdk-content
 description: The Delete method deletes one of the property sets contained in the property set storage object.
 old-location: stg\ipropertysetstorage_delete.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 5c65942f-b73b-48e5-a59e-4424708a084a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

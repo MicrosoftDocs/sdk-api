@@ -4,7 +4,7 @@ title: Pager_GetDropTarget macro
 author: windows-sdk-content
 description: Retrieves a pager control's IDropTarget interface pointer. You can use this macro or send the PGM_GETDROPTARGET message explicitly.
 old-location: controls\Pager_GetDropTarget.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getdroptarget.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

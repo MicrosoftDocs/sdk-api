@@ -4,7 +4,7 @@ title: CRYPT_XML_CRYPTOGRAPHIC_INTERFACE
 author: windows-sdk-content
 description: Exposes the implemented CryptXML functions.
 old-location: security\crypt_xml_cryptographic_interface.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 55585a57-be3e-492d-bf56-4e2456572161
 ms.author: windowssdkdev
 ms.date: 12/5/2018

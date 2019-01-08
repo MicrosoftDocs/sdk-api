@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_RdFarmType
 author: windows-sdk-content
 description: Rd Farm Type.
 old-location: termserv\itssbclientconnection_rdfarmtype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a4dd43fe-2421-4666-a6ff-974555e44e60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

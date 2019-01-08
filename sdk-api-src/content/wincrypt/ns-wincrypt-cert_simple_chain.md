@@ -4,7 +4,7 @@ title: CERT_SIMPLE_CHAIN
 author: windows-sdk-content
 description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.
 old-location: security\cert_simple_chain.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c130cab4-bf8d-429a-beb7-04cb5d37d466
 ms.author: windowssdkdev
 ms.date: 12/5/2018

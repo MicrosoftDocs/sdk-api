@@ -4,7 +4,7 @@ title: ITextRow::GetAlignment
 author: windows-sdk-content
 description: Gets the horizontal alignment of a row.
 old-location: controls\itextrow_getalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2c7279b0-6329-4abd-a719-da4ed4d71c71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

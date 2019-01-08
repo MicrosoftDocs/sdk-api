@@ -4,7 +4,7 @@ title: DYNAMIC_TIME_ZONE_INFORMATION
 author: windows-sdk-content
 description: Specifies settings for a time zone and dynamic daylight saving time.
 old-location: base\dynamic_time_zone_information.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: d60b1212-26bc-4fad-afce-9bd9062ca5b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

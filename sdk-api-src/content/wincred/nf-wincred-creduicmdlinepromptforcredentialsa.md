@@ -4,7 +4,7 @@ title: CredUICmdLinePromptForCredentialsA function
 author: windows-sdk-content
 description: Prompts for and accepts credential information from a user working in a command-line (console) application. The name and password typed by the user are passed back to the calling application for verification.
 old-location: security\creduicmdlinepromptforcredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5b5bfe87-8f31-4228-931e-50cfc399b66b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

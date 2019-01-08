@@ -4,7 +4,7 @@ title: IStream::CopyTo
 author: windows-sdk-content
 description: Copies a specified number of bytes from the current seek pointer in the stream to the current seek pointer in another stream.
 old-location: stg\istream_copyto.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

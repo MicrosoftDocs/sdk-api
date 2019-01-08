@@ -4,7 +4,7 @@ title: ITsSbTarget::get_TargetState
 author: windows-sdk-content
 description: Retrieves or specifies the target state.
 old-location: termserv\itssbtarget_targetstate.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0913e997-d3f0-44a3-977f-eb760489c43b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

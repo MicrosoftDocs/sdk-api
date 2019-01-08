@@ -4,7 +4,7 @@ title: IValueMapItem
 author: windows-sdk-content
 description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.
 old-location: pla\ivaluemapitem.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

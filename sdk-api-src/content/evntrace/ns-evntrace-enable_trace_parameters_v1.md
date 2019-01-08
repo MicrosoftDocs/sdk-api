@@ -4,7 +4,7 @@ title: ENABLE_TRACE_PARAMETERS_V1
 author: windows-sdk-content
 description: Defines the information used to enable a provider.
 old-location: etw\enable_trace_parameters_v1.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

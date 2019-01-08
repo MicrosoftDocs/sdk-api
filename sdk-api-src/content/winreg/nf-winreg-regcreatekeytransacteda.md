@@ -4,7 +4,7 @@ title: RegCreateKeyTransactedA function
 author: windows-sdk-content
 description: Creates the specified registry key and associates it with a transaction.
 old-location: base\regcreatekeytransacted.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

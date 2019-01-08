@@ -4,7 +4,7 @@ title: CRYPT_XML_KEY_DSA_KEY_VALUE
 author: windows-sdk-content
 description: Defines a Digital Signature Algorithm (DSA) key value. The CRYPT_XML_KEY_DSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_dsa_key_value.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 634c47c2-28ba-40ea-975d-95f5663eb0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MSV1_0_SUPPLEMENTAL_CREDENTIAL
 author: windows-sdk-content
 description: The MSV1_0_SUPPLEMENTAL_CREDENTIAL structure is used to pass credentials into MSV1_0 from Kerberos or custom authentication package.
 old-location: security\msv1_0_supplemental_credential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 63848b26-b611-4ae6-8bc3-fc124a825d3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

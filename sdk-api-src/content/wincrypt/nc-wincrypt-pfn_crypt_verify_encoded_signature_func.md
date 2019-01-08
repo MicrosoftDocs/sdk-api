@@ -4,7 +4,7 @@ title: PFN_CRYPT_VERIFY_ENCODED_SIGNATURE_FUNC
 author: windows-sdk-content
 description: Called to decrypt an encoded signature and compare it to a computed hash.
 old-location: security\pfn_crypt_verify_encoded_signature_func.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0093ce11-8b72-403d-a3fd-3eaf2dc29d71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

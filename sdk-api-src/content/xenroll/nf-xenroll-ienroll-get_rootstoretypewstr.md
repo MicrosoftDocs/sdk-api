@@ -4,7 +4,7 @@ title: IEnroll::get_RootStoreTypeWStr
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property.
 old-location: security\ienroll4_rootstoretypewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 42e50e99-a5ef-40b7-b6ef-c86272d1cd0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

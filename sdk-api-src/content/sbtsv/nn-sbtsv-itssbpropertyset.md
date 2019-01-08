@@ -4,7 +4,7 @@ title: ITsSbPropertySet
 author: windows-sdk-content
 description: Can be used to define custom properties as appropriate.
 old-location: termserv\itssbpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 687a96db-f066-465b-858b-2c19fe2f171c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

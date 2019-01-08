@@ -4,7 +4,7 @@ title: ITextRow
 author: windows-sdk-content
 description: The ITextRow interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call ITextRow::Insert for each different row configuration.
 old-location: controls\itextrow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 49f5ffc1-d615-4d07-9f41-1c5f0dd9045b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

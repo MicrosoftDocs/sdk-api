@@ -4,7 +4,7 @@ title: FILETIME
 author: windows-sdk-content
 description: Contains a 64-bit value representing the number of 100-nanosecond intervals since January 1, 1601 (UTC).
 old-location: base\filetime_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 9baf8a0e-59e3-4fbd-9616-2ec9161520d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

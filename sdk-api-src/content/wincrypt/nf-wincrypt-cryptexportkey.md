@@ -4,7 +4,7 @@ title: CryptExportKey function
 author: windows-sdk-content
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
 ms.author: windowssdkdev
 ms.date: 12/5/2018

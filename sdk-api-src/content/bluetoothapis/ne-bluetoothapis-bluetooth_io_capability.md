@@ -4,7 +4,7 @@ title: BLUETOOTH_IO_CAPABILITY
 author: windows-sdk-content
 description: BLUETOOTH_IO_CAPABILITY enumeration defines the input/output capabilities of a Bluetooth Device.
 old-location: bluetooth\bluetooth_io_capability.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: f1cd4fc9-5206-4f38-a2b9-621ca4c6ab86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

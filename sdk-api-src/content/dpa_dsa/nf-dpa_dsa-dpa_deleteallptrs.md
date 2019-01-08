@@ -4,7 +4,7 @@ title: DPA_DeleteAllPtrs function
 author: windows-sdk-content
 description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.
 old-location: controls\DPA_DeleteAllPtrs.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteallptrs.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

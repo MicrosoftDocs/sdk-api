@@ -4,7 +4,7 @@ title: EVENT_TRACE_PROPERTIES
 author: windows-sdk-content
 description: The EVENT_TRACE_PROPERTIES structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
 old-location: etw\event_trace_properties.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 0c967971-8df1-4679-a8a9-a783f5b35860
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:uiautomationcoreapi
 ms.assetid: 1e52caa2-4757-3a0c-bfdb-77e25cb76c00
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: ITSGAccountingEngine
 author: windows-sdk-content
 description: Exposes methods that provide information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 49b402a9-137a-4cfa-89f5-12bf89c3ebb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

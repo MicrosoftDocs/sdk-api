@@ -4,7 +4,7 @@ title: ITextPara::SetDuplicate
 author: windows-sdk-content
 description: Sets the formatting for an existing paragraph by copying a given format.
 old-location: controls\ITextPara_SetDuplicate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetduplicate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

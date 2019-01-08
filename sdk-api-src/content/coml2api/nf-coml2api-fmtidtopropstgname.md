@@ -4,7 +4,7 @@ title: FmtIdToPropStgName function
 author: windows-sdk-content
 description: Converts a property set format identifier (FMTID) to its storage or stream name.
 old-location: stg\fmtidtopropstgname.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 044f8883-bbd2-4cd3-b9dc-739ecb711bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

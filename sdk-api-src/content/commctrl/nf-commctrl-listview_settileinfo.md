@@ -4,7 +4,7 @@ title: ListView_SetTileInfo macro
 author: windows-sdk-content
 description: Sets information for an existing tile of a list-view control. You can use this macro or send the LVM_SETTILEINFO message explicitly.
 old-location: controls\ListView_SetTileInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

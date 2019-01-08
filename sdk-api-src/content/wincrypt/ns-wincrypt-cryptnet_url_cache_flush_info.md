@@ -4,7 +4,7 @@ title: CRYPTNET_URL_CACHE_FLUSH_INFO
 author: windows-sdk-content
 description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_flush_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697
 ms.author: windowssdkdev
 ms.date: 12/5/2018

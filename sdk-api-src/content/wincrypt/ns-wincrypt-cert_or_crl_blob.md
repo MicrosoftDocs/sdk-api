@@ -4,7 +4,7 @@ title: CERT_OR_CRL_BLOB
 author: windows-sdk-content
 description: Encapsulates certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_blob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
 ms.author: windowssdkdev
 ms.date: 12/5/2018

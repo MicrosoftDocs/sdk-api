@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::Encode
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the LONG array stored in this object.
 old-location: security\icertencodelongarray_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e2cf6e69-2431-4a97-86f1-9e1546aa6c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

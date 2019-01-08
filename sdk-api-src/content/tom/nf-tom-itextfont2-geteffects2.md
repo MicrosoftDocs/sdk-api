@@ -4,7 +4,7 @@ title: ITextFont2::GetEffects2
 author: windows-sdk-content
 description: Gets the additional character format effects.
 old-location: controls\itextfont2_geteffects2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6b28c995-33dd-4f5b-ac89-eec367e0a4d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

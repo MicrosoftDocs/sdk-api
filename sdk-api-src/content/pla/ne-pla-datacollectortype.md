@@ -4,7 +4,7 @@ title: DataCollectorType
 author: windows-sdk-content
 description: Defines the data collector types.
 old-location: pla\datacollectortype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 535b17a9-2e71-4513-83be-56a93ab87627
 ms.author: windowssdkdev
 ms.date: 12/5/2018

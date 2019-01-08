@@ -4,7 +4,7 @@ title: EV_EXTRA_CERT_CHAIN_POLICY_STATUS
 author: windows-sdk-content
 description: Contains policy flags returned from a call to the CertVerifyCertificateChainPolicy function.
 old-location: security\ev_extra_cert_chain_policy_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 65810a26-2675-4a98-b2ee-59d4e3bc1994
 ms.author: windowssdkdev
 ms.date: 12/5/2018

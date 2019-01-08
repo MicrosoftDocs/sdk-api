@@ -4,7 +4,7 @@ title: CERT_CREDENTIAL_INFO
 author: windows-sdk-content
 description: The CERT_CREDENTIAL_INFO structure contains a reference to a certificate.
 old-location: security\cert_credential_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: acaa94c3-0562-420a-95c7-44a71374d5ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

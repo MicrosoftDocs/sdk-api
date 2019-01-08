@@ -4,7 +4,7 @@ title: SecPkgContext_NegoStatus
 author: windows-sdk-content
 description: Specifies the error status of the last attempt to create a client context.
 old-location: security\secpkgcontext_negostatus.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 09201338-4743-44a2-b84f-35b26116976d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

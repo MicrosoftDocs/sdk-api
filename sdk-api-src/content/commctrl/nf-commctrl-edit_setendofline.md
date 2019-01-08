@@ -4,7 +4,7 @@ title: Edit_SetEndOfLine macro
 author: windows-sdk-content
 description: Sets the end of line character used for the content of the edit control. You can use this macro or send the EM_SETENDOFLINE message explicitly.
 old-location: controls\edit_setendofline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: D143B914-5F68-4957-9D1F-C55977E27C8B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

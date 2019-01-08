@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetServerDrainMode
 author: windows-sdk-content
 description: Sets the drain mode of the specified server.
 old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: E0213889-7CC9-446A-9EFF-7C8B02E4A35D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

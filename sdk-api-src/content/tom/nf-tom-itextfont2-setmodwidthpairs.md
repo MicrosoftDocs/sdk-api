@@ -4,7 +4,7 @@ title: ITextFont2::SetModWidthPairs
 author: windows-sdk-content
 description: Sets whether &#0034;decrease widths on pairs&#0034; is active.
 old-location: controls\itextfont2_setmodwidthpairs.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 60117c84-18f9-49db-8d13-b55576874d2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

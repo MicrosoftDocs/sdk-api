@@ -4,7 +4,7 @@ title: ITextRange2::GetDropCap
 author: windows-sdk-content
 description: Gets the drop-cap parameters of the paragraph that contains this range.
 old-location: controls\itextrange2_getdropcap.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: c653c002-6708-4813-83ae-1ea578bdcee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

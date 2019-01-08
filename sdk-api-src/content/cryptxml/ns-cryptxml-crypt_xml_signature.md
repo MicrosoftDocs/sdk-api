@@ -4,7 +4,7 @@ title: CRYPT_XML_SIGNATURE
 author: windows-sdk-content
 description: Contains information used to populate the Signature element.
 old-location: security\crypt_xml_signature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d9930946-aec0-42a4-949f-af8b2e9c6e6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

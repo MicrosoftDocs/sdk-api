@@ -4,7 +4,7 @@ title: ITextDocument2::Range2
 author: windows-sdk-content
 description: Retrieves a new text range for the active story of the document.
 old-location: controls\itextdocument2_range2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e0cd3788-de0e-4b57-8f24-f0897e2b0bed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

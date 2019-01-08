@@ -4,7 +4,7 @@ title: ITextFont::GetAnimation
 author: windows-sdk-content
 description: Gets the animation type.
 old-location: controls\ITextFont_GetAnimation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

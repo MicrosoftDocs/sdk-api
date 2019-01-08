@@ -4,7 +4,7 @@ title: BluetoothFindFirstRadio function
 author: windows-sdk-content
 description: The BluetoothFindFirstRadio function begins the enumeration of local Bluetooth radios.
 old-location: bluetooth\bluetoothfindfirstradio.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: f31bb18b-c129-417f-ab87-cf114a2e094f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

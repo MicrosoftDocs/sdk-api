@@ -4,7 +4,7 @@ title: EnableScrollBar function
 author: windows-sdk-content
 description: The EnableScrollBar function enables or disables one or both scroll bar arrows.
 old-location: controls\EnableScrollBar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\enablescrollbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

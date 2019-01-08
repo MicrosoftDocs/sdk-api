@@ -4,7 +4,7 @@ title: ITextDocument2::SetActiveStory
 author: windows-sdk-content
 description: Sets the active story; that is, the story that receives keyboard and mouse input.
 old-location: controls\itextdocument2_setactivestory.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2c71673c-5119-4906-99e0-1a2aa04589e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

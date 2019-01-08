@@ -4,7 +4,7 @@ title: ITextRange::SetText
 author: windows-sdk-content
 description: Sets the text in this range.
 old-location: controls\ITextRange_SetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\settext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

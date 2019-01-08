@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannelManager::CreateChannel
 author: windows-sdk-content
 description: Used to create a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

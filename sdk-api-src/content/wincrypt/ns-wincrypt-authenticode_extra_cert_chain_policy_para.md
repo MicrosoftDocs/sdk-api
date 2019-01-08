@@ -4,7 +4,7 @@ title: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 author: windows-sdk-content
 description: Holds policy information used in the verification of certificate chains for files.
 old-location: security\authenticode_extra_cert_chain_policy_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 591bd4d4-5062-4282-84fc-f7e02e9592e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

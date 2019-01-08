@@ -4,7 +4,7 @@ title: ICertSrvSetup::GetKeyLengthList
 author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\icertsrvsetup_getkeylengthlist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9360522a-05fd-41ae-95b1-9270a9f4f728
 ms.author: windowssdkdev
 ms.date: 12/5/2018

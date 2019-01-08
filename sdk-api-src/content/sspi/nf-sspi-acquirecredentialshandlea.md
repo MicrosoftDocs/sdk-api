@@ -4,7 +4,7 @@ title: AcquireCredentialsHandleA function
 author: windows-sdk-content
 description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 old-location: security\acquirecredentialshandle__credssp_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

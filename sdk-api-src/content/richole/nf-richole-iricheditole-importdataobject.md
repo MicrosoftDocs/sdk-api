@@ -4,7 +4,7 @@ title: IRichEditOle::ImportDataObject
 author: windows-sdk-content
 description: Imports a clipboard object into a rich edit control, replacing the current selection.
 old-location: controls\IRichEditOle_ImportDataObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleimportdataobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

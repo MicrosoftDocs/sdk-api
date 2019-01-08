@@ -4,7 +4,7 @@ title: ICertEncodeBitString::GetBitCount
 author: windows-sdk-content
 description: Returns the number of bits in a bit string that belongs to the CertEncodeBitString object and has been initialized by an earlier call to ICertEncodeBitString::Decode.
 old-location: security\icertencodebitstring_getbitcount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

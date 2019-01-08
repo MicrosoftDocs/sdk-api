@@ -4,7 +4,7 @@ title: ITSGAuthenticationEngine
 author: windows-sdk-content
 description: Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgauthenticationengine.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024
 ms.author: windowssdkdev
 ms.date: 12/5/2018

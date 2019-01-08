@@ -4,7 +4,7 @@ title: ICEnroll::put_WriteCertToCSP
 author: windows-sdk-content
 description: The WriteCertToCSP property of ICEnroll4 sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\icenroll4_writecerttocsp.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cc622f5b-e6d0-48c5-8535-29d6d4b02129
 ms.author: windowssdkdev
 ms.date: 12/5/2018

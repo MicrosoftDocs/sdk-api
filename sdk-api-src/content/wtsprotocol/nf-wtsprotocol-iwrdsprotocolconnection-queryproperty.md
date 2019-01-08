@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::QueryProperty
 author: windows-sdk-content
 description: Retrieves a property value from the protocol.
 old-location: termserv\iwrdsprotocolconnection_queryproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d504a40f-5dc5-4c1b-960f-d41cccef9154
 ms.author: windowssdkdev
 ms.date: 12/5/2018

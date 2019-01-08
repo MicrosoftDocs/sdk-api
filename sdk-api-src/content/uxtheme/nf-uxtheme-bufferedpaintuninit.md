@@ -4,7 +4,7 @@ title: BufferedPaintUnInit function
 author: windows-sdk-content
 description: Closes down buffered painting for the current thread. Called once for each call to BufferedPaintInit after calls to BeginBufferedPaint are no longer needed.
 old-location: controls\BufferedPaintUnInit.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintuninit.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

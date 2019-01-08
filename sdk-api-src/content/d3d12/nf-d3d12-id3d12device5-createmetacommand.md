@@ -1,0 +1,140 @@
+---
+UID: NF:d3d12.ID3D12Device5.CreateMetaCommand
+title: ID3D12Device5::CreateMetaCommand
+author: windows-sdk-content
+description: Creates an instance of the specified meta command.
+old-location: direct3d12\id3d12device5_createmetacommand.htm
+tech.root: direct3d12
+ms.assetid: 70AB644F-7406-4271-89C9-8D38FE3B4D7A
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CreateMetaCommand, CreateMetaCommand method, CreateMetaCommand method,ID3D12Device5 interface, ID3D12Device5 interface,CreateMetaCommand method, ID3D12Device5.CreateMetaCommand, ID3D12Device5::CreateMetaCommand, d3d12/ID3D12Device5::CreateMetaCommand, direct3d12.id3d12device5_createmetacommand
+ms.topic: method
+req.header: d3d12.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.h
+api_name:
+ - ID3D12Device5.CreateMetaCommand
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ID3D12Device5::CreateMetaCommand
+
+
+## -description
+
+
+Creates an instance of the specified meta command.
+
+
+## -parameters
+
+
+
+
+### -param CommandId [in]
+
+Type: <b>REFIID</b>
+
+A reference to the globally unique identifier (GUID) of the meta command that you wish to instantiate.
+
+
+### -param NodeMask [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
+For single-adapter operation, set this to zero. If there are multiple adapter nodes, set a bit to identify the node (one of the device's physical adapters) to which the meta command applies. Each bit in the mask corresponds to a single node. Only one bit must be set. See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+
+
+### -param pCreationParametersData [in, optional]
+
+Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">void</a>*</b>
+
+An optional pointer to a constant structure containing the values of the parameters for creating the meta command.
+
+
+### -param CreationParametersDataSizeInBytes [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+
+A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a> containing the size of the structure pointed to by <i>pCreationParametersData</i>, if set, otherwise 0.
+
+
+### -param riid
+
+Type: <b>REFIID</b>
+
+A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppMetaCommand</i>. This is expected to be the GUID of <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a>.
+
+
+### -param ppMetaCommand [out]
+
+Type: <b>void**</b>
+
+A pointer to a memory block that receives a pointer to the meta command. This is the address of a pointer to an <a href="https://msdn.microsoft.com/976A7F78-1801-47DD-9350-21F530B4D145">ID3D12MetaCommand</a>, representing  the meta command created.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>DXGI_ERROR_UNSUPPORTED</dt>
+</dl>
+</td>
+<td width="60%">
+The current hardware does not support the algorithm being requested
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2D72898B-F512-4E0D-8FAC-A53EA6FE614A">ID3D12Device5</a>
+ 
+
+ 
+

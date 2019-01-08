@@ -4,7 +4,7 @@ title: KERB_TICKET_PROFILE
 author: windows-sdk-content
 description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.
 old-location: security\kerb_ticket_profile.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9db0f9ac-b469-4e62-a735-ca3c56086009
 ms.author: windowssdkdev
 ms.date: 12/5/2018

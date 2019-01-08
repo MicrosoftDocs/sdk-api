@@ -4,7 +4,7 @@ title: ITextDocument2::RangeFromPoint2
 author: windows-sdk-content
 description: Retrieves the degenerate range at (or nearest to) a particular point on the screen.
 old-location: controls\itextdocument2_rangefrompoint2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3212c6cc-a1fb-44ca-aba9-2234414e7a39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

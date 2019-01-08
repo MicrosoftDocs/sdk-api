@@ -4,7 +4,7 @@ title: ITextFont2::SetScaling
 author: windows-sdk-content
 description: Sets the font horizontal scaling percentage.
 old-location: controls\itextfont2_setscaling.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: b5f26c0a-a1bd-4be8-84b8-92a6d0cfafdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

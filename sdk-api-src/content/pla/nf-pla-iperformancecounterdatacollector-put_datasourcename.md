@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector::put_DataSourceName
 author: windows-sdk-content
 description: Retrieves or sets the data source name if the log file is an SQL log file.
 old-location: pla\iperformancecounterdatacollector_datasourcename.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 67ed9ce6-392b-42ac-81f8-b5f26241c0a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertServerPolicy::EnumerateExtensionsSetup
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverpolicy_enumerateextensionssetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

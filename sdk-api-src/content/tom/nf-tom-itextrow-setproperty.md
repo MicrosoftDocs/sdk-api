@@ -4,7 +4,7 @@ title: ITextRow::SetProperty
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrow_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d43172b9-c717-41b2-ba22-aa164a595140
 ms.author: windowssdkdev
 ms.date: 12/5/2018

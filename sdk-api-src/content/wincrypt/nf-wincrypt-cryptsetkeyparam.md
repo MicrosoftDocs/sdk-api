@@ -4,7 +4,7 @@ title: CryptSetKeyParam function
 author: windows-sdk-content
 description: Customizes various aspects of a session key's operations.
 old-location: security\cryptsetkeyparam.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e99a84a2-c23e-4251-8062-dd286ccc29b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextServices::TxGetHScroll
 author: windows-sdk-content
 description: Returns horizontal scroll bar information.
 old-location: controls\ITextServices_TxGetHScroll.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgethscroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

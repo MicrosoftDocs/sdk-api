@@ -4,7 +4,7 @@ title: ITextRow::Apply
 author: windows-sdk-content
 description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
 old-location: controls\itextrow_apply.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f09f73d3-c71f-43f1-b671-aba392e1fb49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

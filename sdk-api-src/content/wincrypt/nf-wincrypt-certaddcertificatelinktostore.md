@@ -4,7 +4,7 @@ title: CertAddCertificateLinkToStore function
 author: windows-sdk-content
 description: Adds a link in a certificate store to a certificate context in a different store.
 old-location: security\certaddcertificatelinktostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bcbf7755-d0ce-4dd5-8462-72760364fdc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

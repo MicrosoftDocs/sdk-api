@@ -4,7 +4,7 @@ title: CMC_STATUS_INFO
 author: windows-sdk-content
 description: Contains status information about Certificate Management Messages over CMS.
 old-location: security\cmc_status_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 008f6de4-bad2-4c63-ba64-8d42ae71d50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

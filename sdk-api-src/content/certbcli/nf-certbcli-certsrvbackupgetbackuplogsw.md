@@ -4,7 +4,7 @@ title: CertSrvBackupGetBackupLogsW function
 author: windows-sdk-content
 description: Retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetbackuplogs.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

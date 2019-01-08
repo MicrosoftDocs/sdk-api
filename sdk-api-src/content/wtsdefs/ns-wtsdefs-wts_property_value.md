@@ -4,7 +4,7 @@ title: WTS_PROPERTY_VALUE
 author: windows-sdk-content
 description: Contains information about a property value to retrieve from the protocol.
 old-location: termserv\wts_property_value.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3a4d18db-ef6a-4a7f-a676-1bc952ecae50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LsaGetAppliedCAPIDs function
 author: windows-sdk-content
 description: Returns an array of central access policies (CAPs) identifiers (CAPIDs) of all the CAPs applied on a specific computer.
 old-location: security\lsagetappliedcapids.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: DF10F5CE-BBF5-4CA8-919B-F59B7775C983
 ms.author: windowssdkdev
 ms.date: 12/5/2018

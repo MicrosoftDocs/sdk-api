@@ -4,7 +4,7 @@ title: ITextRange::Cut
 author: windows-sdk-content
 description: Cuts the plain or rich text to a data object or to the Clipboard, depending on the pVar parameter.
 old-location: controls\ITextRange_Cut.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\cut.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EC_ENDOFLINE
 author: windows-sdk-content
 description: Indicates the end of line character used by an edit control.
 old-location: controls\ec_endofline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8F84EFE4-E562-46D4-AEC8-2782C9EC31F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

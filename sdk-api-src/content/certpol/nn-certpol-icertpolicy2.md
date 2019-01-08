@@ -4,7 +4,7 @@ title: ICertPolicy2
 author: windows-sdk-content
 description: Provide communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CREDSSP_CRED
 author: windows-sdk-content
 description: Specifies authentication data for both Schannel and Negotiate security packages.
 old-location: security\credssp_cred.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

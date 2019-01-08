@@ -4,7 +4,7 @@ title: IDataCollector::get_LogAppend
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should append the collected data to the current file.
 old-location: pla\idatacollector_logappend.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: c9843647-2c36-4d08-98d0-4df63b054993
 ms.author: windowssdkdev
 ms.date: 12/5/2018

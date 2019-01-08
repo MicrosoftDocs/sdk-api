@@ -108,7 +108,7 @@ Retrieves the last child element of the specified UI Automation element, and cac
 <a href="https://msdn.microsoft.com/a1e42cb4-0b87-42c2-9ea5-67630c0b895a">GetNextSiblingElement</a>
 </td>
 <td align="left" width="63%">
-Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
+Retrieves the next sibling element of the specified UI Automation element.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Retrieves the parent element of the specified UI Automation element, and caches 
 <a href="https://msdn.microsoft.com/6e05f421-d037-4d3b-908e-44ddd818a3f1">GetPreviousSiblingElement</a>
 </td>
 <td align="left" width="63%">
-Retrieves the previous sibling element of the specified UI Automation element, and caches properties and control patterns.
+Retrieves the previous sibling element of the specified UI Automation element.
 
 </td>
 </tr>

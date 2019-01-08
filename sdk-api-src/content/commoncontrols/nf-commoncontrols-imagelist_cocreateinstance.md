@@ -4,7 +4,7 @@ title: ImageList_CoCreateInstance function
 author: windows-sdk-content
 description: Creates a single instance of an imagelist and returns an interface pointer to it.
 old-location: controls\ImageList_CoCreateInstance.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_cocreateinstance.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

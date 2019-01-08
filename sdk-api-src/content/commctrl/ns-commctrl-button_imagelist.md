@@ -4,7 +4,7 @@ title: BUTTON_IMAGELIST
 author: windows-sdk-content
 description: Contains information about an image list that is used with a button control.
 old-location: controls\BUTTON_IMAGELIST.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_imagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

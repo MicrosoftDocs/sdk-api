@@ -4,7 +4,7 @@ title: SECPKG_NAME_TYPE
 author: windows-sdk-content
 description: The SECPKG_NAME_TYPE enumeration is used to describe the type of name specified for an account.The SECPKG_NAME_TYPE enumeration is used by the GetAuthDataForUser and OpenSamUser functions.
 old-location: security\secpkg_name_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6a534bfa-83ec-408d-ad21-e230a7adc61e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

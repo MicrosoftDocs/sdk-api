@@ -4,7 +4,7 @@ title: ITextDocument::Freeze
 author: windows-sdk-content
 description: Increments the freeze count.
 old-location: controls\ITextDocument_Freeze.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\freeze.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

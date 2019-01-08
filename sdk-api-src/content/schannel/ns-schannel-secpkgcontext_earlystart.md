@@ -4,7 +4,7 @@ title: SecPkgContext_EarlyStart
 author: windows-sdk-content
 description: The SecPkgContext_EarlyStart structure contains information about whether to attempt to use the False Start feature in a security context.
 old-location: security\secpkgcontext_earlystart.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5DD5D0B9-CFFF-4743-94EC-A569D265D31F
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -52,7 +52,7 @@ req.redist:
 
 The <b>SecPkgContext_EarlyStart</b> structure contains information about whether to attempt to use the False Start feature in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. 
 
-See  the <a href="https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/">Building a faster and more secure web</a> blog post for information on this feature.
+See  the <a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Building a faster and more secure web</a> blog post for information on this feature.
 
 
 ## -struct-fields

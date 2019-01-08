@@ -4,7 +4,7 @@ title: IsWindowsXPSP3OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP with Service Pack 3 (SP3) version.
 old-location: base\iswindowsxpsp3orgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 06DC8FF0-8652-4652-855F-600AC53C6301
 ms.author: windowssdkdev
 ms.date: 12/5/2018

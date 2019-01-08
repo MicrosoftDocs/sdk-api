@@ -4,7 +4,7 @@ title: PropSheet_GetCurrentPageHwnd macro
 author: windows-sdk-content
 description: Retrieves a handle to the window of the current page of a property sheet. You can use this macro or send the PSM_GETCURRENTPAGEHWND message explicitly.
 old-location: controls\PropSheet_GetCurrentPageHwnd.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_getcurrentpagehwnd.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

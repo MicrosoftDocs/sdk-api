@@ -4,7 +4,7 @@ title: ITsSbTarget::get_NumPendingConnections
 author: windows-sdk-content
 description: Retrieves the number of pending user connections for the target.
 old-location: termserv\itssbtarget_numpendingconnections.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6a910269-3023-4c81-999b-7ab8bb56dcc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

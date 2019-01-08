@@ -4,7 +4,7 @@ title: ITextFont::SetAnimation
 author: windows-sdk-content
 description: Sets the animation type.
 old-location: controls\ITextFont_SetAnimation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setanimation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

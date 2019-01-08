@@ -4,7 +4,7 @@ title: ListView_GetFooterItemRect macro
 author: windows-sdk-content
 description: Gets the coordinates of a footer for a specified item in a list-view control. Use this macro or send the LVM_GETFOOTERITEMRECT message explicitly.
 old-location: controls\ListView_GetFooterItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

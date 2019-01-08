@@ -4,7 +4,7 @@ title: ImageList_Remove function
 author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\ImageList_Remove.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_remove.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

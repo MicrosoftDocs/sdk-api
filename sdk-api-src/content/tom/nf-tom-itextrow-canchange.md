@@ -4,7 +4,7 @@ title: ITextRow::CanChange
 author: windows-sdk-content
 description: Determines whether changes can be made to this row.
 old-location: controls\itextrow_canchange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

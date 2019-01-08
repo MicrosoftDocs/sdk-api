@@ -4,7 +4,7 @@ title: PWLX_CLOSE_USER_DESKTOP
 author: windows-sdk-content
 description: Called by GINA to close an alternate user desktop and clean up after the desktop is closed.
 old-location: security\wlxcloseuserdesktop.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ad910f0b-f8fb-4246-830e-1edb23e06f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

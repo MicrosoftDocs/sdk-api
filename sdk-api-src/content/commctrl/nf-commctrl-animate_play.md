@@ -4,7 +4,7 @@ title: Animate_Play macro
 author: windows-sdk-content
 description: Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the ACM_PLAY message explicitly.
 old-location: controls\Animate_Play.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_play.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

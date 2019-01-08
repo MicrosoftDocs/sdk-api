@@ -4,7 +4,7 @@ title: ImageList_Create function
 author: windows-sdk-content
 description: Creates a new image list.
 old-location: controls\ImageList_Create.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_create.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

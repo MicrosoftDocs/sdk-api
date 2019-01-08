@@ -4,7 +4,7 @@ title: IDataManager::get_ResourcePolicy
 author: windows-sdk-content
 description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
 old-location: pla\idatamanager_resourcepolicy.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 541cd28c-2e01-4b8a-9cd3-044896c8fb80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

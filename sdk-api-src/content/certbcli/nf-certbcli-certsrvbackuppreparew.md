@@ -4,7 +4,7 @@ title: CertSrvBackupPrepareW function
 author: windows-sdk-content
 description: Used to prepare a Certificate Services server for backup operations.
 old-location: security\certsrvbackupprepare.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

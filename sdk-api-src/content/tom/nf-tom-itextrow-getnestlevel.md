@@ -4,7 +4,7 @@ title: ITextRow::GetNestLevel
 author: windows-sdk-content
 description: Gets the nest level of a table.
 old-location: controls\itextrow_getnestlevel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

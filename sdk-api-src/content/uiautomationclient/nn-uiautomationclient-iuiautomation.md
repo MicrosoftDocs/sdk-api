@@ -94,7 +94,7 @@ Registers a method that handles focus-changed events.
 <a href="https://msdn.microsoft.com/2623a48e-8818-486c-9bde-b218cde49189">AddPropertyChangedEventHandler</a>
 </td>
 <td align="left" width="63%">
-Registers a method that handles property-changed events. 
+Registers a method that handles and array of property-changed events. 
 
 <div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://msdn.microsoft.com/0772969a-da55-488e-8b21-7368434df8a9">Understanding Threading Issues</a>.</div>
 <div> </div>
@@ -105,7 +105,7 @@ Registers a method that handles property-changed events.
 <a href="https://msdn.microsoft.com/0d3cf5c3-5d0e-4214-a9fc-8b0132ad9b77">AddPropertyChangedEventHandlerNativeArray</a>
 </td>
 <td align="left" width="63%">
-Registers a method that handles property-changed events. 
+Registers a method that handles a native array of property-changed events. 
 
 <div class="alert"><b>Note</b>  Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://msdn.microsoft.com/0772969a-da55-488e-8b21-7368434df8a9">Understanding Threading Issues</a>.</div>
 <div> </div>
@@ -172,7 +172,7 @@ Creates a condition that selects elements based on multiple conditions, all of w
 <a href="https://msdn.microsoft.com/2f47dfa7-1558-4984-8400-cac549543819">CreateAndConditionFromNativeArray</a>
 </td>
 <td align="left" width="63%">
-Creates a condition that selects elements based on multiple conditions, all of which must be true.
+Creates a condition that selects elements from a native array, based on multiple conditions that  must all be true.
 
 </td>
 </tr>

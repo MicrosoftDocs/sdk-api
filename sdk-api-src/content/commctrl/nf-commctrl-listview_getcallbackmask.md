@@ -4,7 +4,7 @@ title: ListView_GetCallbackMask macro
 author: windows-sdk-content
 description: Gets the callback mask for a list-view control. You can use this macro or send the LVM_GETCALLBACKMASK message explicitly.
 old-location: controls\ListView_GetCallbackMask.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcallbackmask.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

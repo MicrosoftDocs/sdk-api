@@ -4,7 +4,7 @@ title: SECPKG_EVENT_PACKAGE_CHANGE
 author: windows-sdk-content
 description: The SECPKG_EVENT_PACKAGE_CHANGE structure contains information about changes in security package availability.
 old-location: security\secpkg_event_package_change.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fc341828-6491-435e-a20f-c7a4a3c2123d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

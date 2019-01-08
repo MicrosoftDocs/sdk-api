@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the connection that has the specified name.
 old-location: termserv\iworkspacescriptable_disconnectworkspacebyfriendlyname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e9cf9c1a-8400-4a69-9cf1-0dfa6fe6a38b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

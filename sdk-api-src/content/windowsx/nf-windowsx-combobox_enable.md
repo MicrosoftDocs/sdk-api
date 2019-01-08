@@ -4,7 +4,7 @@ title: ComboBox_Enable macro
 author: windows-sdk-content
 description: Enables or disables a combo box control.
 old-location: controls\ComboBox_Enable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_enable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

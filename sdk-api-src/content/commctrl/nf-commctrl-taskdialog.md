@@ -4,7 +4,7 @@ title: TaskDialog function
 author: windows-sdk-content
 description: The TaskDialog function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialog.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

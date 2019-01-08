@@ -4,7 +4,7 @@ title: ICertEncodeAltName::GetNameChoice
 author: windows-sdk-content
 description: Returns the name choice at a specified index of an alternate name array.
 old-location: security\icertencodealtname_getnamechoice.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
 ms.author: windowssdkdev
 ms.date: 12/5/2018

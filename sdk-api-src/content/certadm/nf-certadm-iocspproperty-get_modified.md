@@ -4,7 +4,7 @@ title: IOCSPProperty::get_Modified
 author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPProperty object has been modified since it was instantiated.
 old-location: security\iocspproperty_modified_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e965ee2-4b6f-4c95-b048-b9e9c7701306
 ms.author: windowssdkdev
 ms.date: 12/5/2018

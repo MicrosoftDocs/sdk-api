@@ -4,7 +4,7 @@ title: CryptInstallDefaultContext function
 author: windows-sdk-content
 description: Installs a specific provider to be the default context provider for the specified algorithm.
 old-location: security\cryptinstalldefaultcontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

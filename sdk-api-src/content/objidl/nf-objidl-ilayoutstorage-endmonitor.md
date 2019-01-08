@@ -4,7 +4,7 @@ title: ILayoutStorage::EndMonitor
 author: windows-sdk-content
 description: The EndMonitor method ends monitoring of a compound file. Must be preceded by a call to ILayoutStorage::BeginMonitor.
 old-location: stg\ilayoutstorage_endmonitor.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 83b9486b-78b6-473c-9a9a-33f470a4d70f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

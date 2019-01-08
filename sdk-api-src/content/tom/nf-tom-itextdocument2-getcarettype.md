@@ -4,7 +4,7 @@ title: ITextDocument2::GetCaretType
 author: windows-sdk-content
 description: Gets the caret type.
 old-location: controls\itextdocument2_getcarettype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4ab170d2-50a3-4fbf-8e02-92b031bc1e4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

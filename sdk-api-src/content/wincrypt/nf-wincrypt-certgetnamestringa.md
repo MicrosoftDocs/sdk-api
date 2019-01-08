@@ -4,7 +4,7 @@ title: CertGetNameStringA function
 author: windows-sdk-content
 description: Obtains the subject or issuer name from a certificate CERT_CONTEXT structure and converts it to a null-terminated character string.
 old-location: security\certgetnamestring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 300e6345-0be0-48c7-a3a3-174879cf0bbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

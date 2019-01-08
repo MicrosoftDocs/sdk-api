@@ -4,7 +4,7 @@ title: ENCRYPTED_CREDENTIALW
 author: windows-sdk-content
 description: Represents an encrypted credential.
 old-location: security\encrypted_credentialw.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b350ef3d-5ed5-4355-ae3a-f03fafff2f52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetThemeString function
 author: windows-sdk-content
 description: Retrieves the value of a string property.
 old-location: controls\GetThemeString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

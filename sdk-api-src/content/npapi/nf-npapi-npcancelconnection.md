@@ -4,7 +4,7 @@ title: NPCancelConnection function
 author: windows-sdk-content
 description: Disconnects a network connection.
 old-location: security\npcancelconnection.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

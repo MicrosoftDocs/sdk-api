@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION
 author: windows-sdk-content
 description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

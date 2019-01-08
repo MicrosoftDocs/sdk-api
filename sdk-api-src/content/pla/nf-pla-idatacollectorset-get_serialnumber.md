@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_SerialNumber
 author: windows-sdk-content
 description: Retrieves or sets the number of times that this data collector set has been started, including segments.
 old-location: pla\idatacollectorset_get_serialnumber.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 92bfd307-362e-4d60-9a61-d2096fbb3d19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

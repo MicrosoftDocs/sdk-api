@@ -4,7 +4,7 @@ title: IStorage::Commit
 author: windows-sdk-content
 description: The Commit method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage.
 old-location: stg\istorage_commit.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 72831f2c-1e07-429b-af4c-2aaced3f3888
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll4::createRequest
 author: windows-sdk-content
 description: Creates a PKCS #10, PKCS #7, or full Certificate Management over CMS (CMC) format certificate request and stores it in a string. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_createrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d2a1c1c4-dbbf-423c-bf59-da0ab9a71078
 ms.author: windowssdkdev
 ms.date: 12/5/2018

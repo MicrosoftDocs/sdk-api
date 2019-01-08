@@ -4,7 +4,7 @@ title: ITextDocument::GetStoryCount
 author: windows-sdk-content
 description: Gets the count of stories in this document.
 old-location: controls\ITextDocument_GetStoryCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorycount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

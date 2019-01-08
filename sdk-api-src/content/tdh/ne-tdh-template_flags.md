@@ -4,7 +4,7 @@ title: TEMPLATE_FLAGS
 author: windows-sdk-content
 description: Defines constant values that indicates the layout of the event data.
 old-location: etw\template_flags_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 07132dc2-fad9-4ddb-bf46-70a887f0b585
 ms.author: windowssdkdev
 ms.date: 12/5/2018

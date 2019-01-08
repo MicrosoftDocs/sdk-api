@@ -4,7 +4,7 @@ title: DHPUBKEY
 author: windows-sdk-content
 description: Contains information specific to the particular Diffie-Hellman public key contained in the key BLOB.
 old-location: security\dhpubkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

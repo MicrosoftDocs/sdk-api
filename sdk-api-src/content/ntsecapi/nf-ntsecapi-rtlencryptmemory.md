@@ -4,7 +4,7 @@ title: RtlEncryptMemory function
 author: windows-sdk-content
 description: Encrypts memory contents.
 old-location: security\rtlencryptmemory.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

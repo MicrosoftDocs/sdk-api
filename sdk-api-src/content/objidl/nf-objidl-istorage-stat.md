@@ -4,7 +4,7 @@ title: IStorage::Stat
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this open storage object.
 old-location: stg\istorage_stat.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 87478fa8-1b5f-44ed-bffc-e139c7f44a12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

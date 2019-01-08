@@ -4,7 +4,7 @@ title: EnumDynamicTimeZoneInformation function
 author: windows-sdk-content
 description: Enumerates DYNAMIC_TIME_ZONE_INFORMATION entries stored in the registry.
 old-location: base\enumdynamictimezoneinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: EBB2366A-86FE-4764-B7F9-5D305993CE0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

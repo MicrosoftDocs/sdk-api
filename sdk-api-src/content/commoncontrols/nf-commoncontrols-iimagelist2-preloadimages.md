@@ -4,7 +4,7 @@ title: IImageList2::PreloadImages
 author: windows-sdk-content
 description: Preloads images, as specified.
 old-location: controls\IImageList2_PreloadImages.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\preloadimages.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

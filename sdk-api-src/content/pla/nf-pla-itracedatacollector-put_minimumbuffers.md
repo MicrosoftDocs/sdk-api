@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_MinimumBuffers
 author: windows-sdk-content
 description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_minimumbuffers.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

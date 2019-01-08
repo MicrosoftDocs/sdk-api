@@ -4,7 +4,7 @@ title: CertSrvRestoreEnd function
 author: windows-sdk-content
 description: Ends a Certificate Services restore session.
 old-location: security\certsrvrestoreend.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

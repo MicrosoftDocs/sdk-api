@@ -4,7 +4,7 @@ title: CertAddStoreToCollection function
 author: windows-sdk-content
 description: The CertAddStoreToCollection function adds a sibling certificate store to a collection certificate store.
 old-location: security\certaddstoretocollection.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

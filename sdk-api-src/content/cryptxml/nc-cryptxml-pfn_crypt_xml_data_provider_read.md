@@ -4,7 +4,7 @@ title: PFN_CRYPT_XML_DATA_PROVIDER_READ
 author: windows-sdk-content
 description: Reads XML data.
 old-location: security\pfn_crypt_xml_data_provider_read.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 86c7003e-eee2-4adf-adf4-8f9d1acb5c45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

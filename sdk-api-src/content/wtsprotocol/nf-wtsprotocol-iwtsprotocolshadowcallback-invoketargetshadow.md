@@ -4,7 +4,7 @@ title: IWTSProtocolShadowCallback::InvokeTargetShadow
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

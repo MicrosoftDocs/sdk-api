@@ -4,7 +4,7 @@ title: SCardReconnect function
 author: windows-sdk-content
 description: Reestablishes an existing connection between the calling application and a smart card.
 old-location: security\scardreconnect.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c79e5810-c2be-4184-8ac7-c058ccb9308e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

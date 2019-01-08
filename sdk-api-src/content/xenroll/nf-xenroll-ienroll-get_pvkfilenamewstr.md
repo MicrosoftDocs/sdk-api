@@ -4,7 +4,7 @@ title: IEnroll::get_PVKFileNameWStr
 author: windows-sdk-content
 description: Sets or retrieves the name of the file that will contain exported keys.
 old-location: security\ienroll4_pvkfilenamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5518c252-fdca-444b-b87e-9fe3cb3b3e3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

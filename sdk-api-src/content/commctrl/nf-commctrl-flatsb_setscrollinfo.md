@@ -4,7 +4,7 @@ title: FlatSB_SetScrollInfo function
 author: windows-sdk-content
 description: Sets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollInfo function.
 old-location: controls\FlatSB_SetScrollInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_setscrollinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

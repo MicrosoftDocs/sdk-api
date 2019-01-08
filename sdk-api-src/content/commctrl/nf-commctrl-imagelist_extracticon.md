@@ -4,7 +4,7 @@ title: ImageList_ExtractIcon macro
 author: windows-sdk-content
 description: Calls the ImageList_GetIcon function to create an icon or cursor based on an image and mask in an image list.
 old-location: controls\ImageList_ExtractIcon.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_extracticon.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

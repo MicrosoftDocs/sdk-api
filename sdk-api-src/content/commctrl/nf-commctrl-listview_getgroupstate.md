@@ -4,7 +4,7 @@ title: ListView_GetGroupState macro
 author: windows-sdk-content
 description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.
 old-location: controls\ListView_GetGroupState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

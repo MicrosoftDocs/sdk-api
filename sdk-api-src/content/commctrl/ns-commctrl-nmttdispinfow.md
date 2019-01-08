@@ -4,7 +4,7 @@ title: NMTTDISPINFOW
 author: windows-sdk-content
 description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
 old-location: controls\NMTTDISPINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

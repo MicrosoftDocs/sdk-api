@@ -4,7 +4,7 @@ title: CryptSIPPutSignedDataMsg function
 author: windows-sdk-content
 description: Stores an Authenticode signature in the target file.
 old-location: security\cryptsipputsigneddatamsg.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 731f64bf-49f0-4799-b84a-9ca04292aa91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: QuerySecurityContextToken function
 author: windows-sdk-content
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
 ms.author: windowssdkdev
 ms.date: 12/5/2018

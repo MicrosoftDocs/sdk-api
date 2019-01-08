@@ -4,7 +4,7 @@ title: TreeView_SetItem macro
 author: windows-sdk-content
 description: The TreeView_SetItem macro sets some or all of a tree-view item's attributes. You can use this macro or send the TVM_SETITEM message explicitly.
 old-location: controls\TreeView_SetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMC_TAGGED_REQUEST
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO structures to request a certificate.
 old-location: security\cmc_tagged_request.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

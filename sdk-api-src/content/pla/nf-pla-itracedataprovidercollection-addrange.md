@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more trace providers to the collection.
 old-location: pla\itracedataprovidercollection_addrange.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 235c390a-c31c-4b31-bece-3ea7ac345391
 ms.author: windowssdkdev
 ms.date: 12/5/2018

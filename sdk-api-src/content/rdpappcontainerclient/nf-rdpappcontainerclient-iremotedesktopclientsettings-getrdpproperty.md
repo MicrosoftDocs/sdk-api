@@ -4,7 +4,7 @@ title: IRemoteDesktopClientSettings::GetRdpProperty
 author: windows-sdk-content
 description: Retrieves a single named RDP property value.
 old-location: termserv\iremotedesktopclientsettings_getrdpproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e172098a-d3c1-46cc-8c46-cdf14c46b43a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

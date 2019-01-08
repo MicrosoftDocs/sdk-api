@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::Next
 author: windows-sdk-content
 description: Moves to the next column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_next.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4c77d1c7-af3a-4a7d-bf42-69be887c881e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

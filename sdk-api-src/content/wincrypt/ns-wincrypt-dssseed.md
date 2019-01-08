@@ -4,7 +4,7 @@ title: DSSSEED
 author: windows-sdk-content
 description: Holds the seed and counter values that can be used to verify the primes of the DSS public key.
 old-location: security\dssseed.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fbf2b5e4-b572-4b2c-907d-281570a0f26b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

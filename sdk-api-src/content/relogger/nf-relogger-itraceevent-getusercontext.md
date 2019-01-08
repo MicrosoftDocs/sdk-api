@@ -4,7 +4,7 @@ title: ITraceEvent::GetUserContext
 author: windows-sdk-content
 description: Retrieves the user context associated with the stream to which the event belongs.
 old-location: etw\ievent_getusercontext.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 9d4d8abd-b48a-487b-bb73-a6fa48c512c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertView2
 author: windows-sdk-content
 description: Allow properly authorized clients to create a customized or complete view of the Certificate Services database.
 old-location: security\icertview2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

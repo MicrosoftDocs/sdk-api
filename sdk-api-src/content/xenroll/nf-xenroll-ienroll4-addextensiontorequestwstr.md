@@ -4,7 +4,7 @@ title: IEnroll4::addExtensionToRequestWStr
 author: windows-sdk-content
 description: Adds an extension to the request.
 old-location: security\ienroll4_addextensiontorequestwstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

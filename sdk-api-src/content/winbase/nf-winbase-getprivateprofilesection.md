@@ -4,7 +4,7 @@ title: GetPrivateProfileSection function
 author: windows-sdk-content
 description: Retrieves all the keys and values for the specified section of an initialization file.
 old-location: base\getprivateprofilesection.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

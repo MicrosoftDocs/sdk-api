@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetClientMonitorData
 author: windows-sdk-content
 description: Retrieves the number of monitors and the primary monitor number on the client.
 old-location: termserv\iwrdsprotocolconnection_getclientmonitordata.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: df70ff56-3e12-4842-a818-31ee75da96a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

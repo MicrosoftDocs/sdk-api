@@ -4,7 +4,7 @@ title: TzSpecificLocalTimeToSystemTime function
 author: windows-sdk-content
 description: Converts a local time to a time in Coordinated Universal Time (UTC).
 old-location: base\tzspecificlocaltimetosystemtime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: d671499a-027d-4b1f-ae16-8b1978eb9783
 ms.author: windowssdkdev
 ms.date: 12/5/2018

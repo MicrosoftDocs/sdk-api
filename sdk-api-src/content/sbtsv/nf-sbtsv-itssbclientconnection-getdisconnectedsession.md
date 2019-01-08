@@ -4,7 +4,7 @@ title: ITsSbClientConnection::GetDisconnectedSession
 author: windows-sdk-content
 description: Gets a disconnected session.
 old-location: termserv\itssbclientconnection_getdisconnectedsession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3fb6d2af-a60c-4173-a2c0-9d9ce5d26811
 ms.author: windowssdkdev
 ms.date: 12/5/2018

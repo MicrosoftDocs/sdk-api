@@ -4,7 +4,7 @@ title: CMC_ADD_ATTRIBUTES_INFO
 author: windows-sdk-content
 description: Contains certificate attributes to be added to a certificate.
 old-location: security\cmc_add_attributes_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fd13cd2b-b818-41ca-85be-d51b864194df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFN_CMSG_IMPORT_KEY_TRANS
 author: windows-sdk-content
 description: Imports a content encryption key for a key transport recipient of an enveloped message.
 old-location: security\pfn_cmsg_import_key_trans.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ad8051a9-a8ca-47fc-8b4c-d6c085ff1db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OCSP_RESPONSE_INFO
 author: windows-sdk-content
 description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.
 old-location: security\ocsp_response_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

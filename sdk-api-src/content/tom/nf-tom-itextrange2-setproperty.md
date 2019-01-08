@@ -4,7 +4,7 @@ title: ITextRange2::SetProperty
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrange2_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0d6c2f44-40e9-48b2-850d-d74d7a50fa0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

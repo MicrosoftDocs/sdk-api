@@ -4,7 +4,7 @@ title: ICertView2::SetTable
 author: windows-sdk-content
 description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
 old-location: security\icertview2_settable.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 76353137-75c5-46e5-82da-33d2f8e54661
 ms.author: windowssdkdev
 ms.date: 12/5/2018

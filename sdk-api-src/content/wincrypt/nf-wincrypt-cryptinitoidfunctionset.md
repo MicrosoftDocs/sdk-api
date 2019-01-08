@@ -4,7 +4,7 @@ title: CryptInitOIDFunctionSet function
 author: windows-sdk-content
 description: The CryptInitOIDFunctionSet initializes and returns the handle of the OID function set identified by a supplied function set name.
 old-location: security\cryptinitoidfunctionset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554
 ms.author: windowssdkdev
 ms.date: 12/5/2018

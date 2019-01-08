@@ -4,7 +4,7 @@ title: KERB_PURGE_BINDING_CACHE_REQUEST
 author: windows-sdk-content
 description: Deletes the request for the binding cache.
 old-location: security\kerb_purge_binding_cache_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: E78F90D6-8425-480C-B997-35CC4E5612E7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

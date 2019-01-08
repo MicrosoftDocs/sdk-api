@@ -4,7 +4,7 @@ title: VIRTUALCHANNELWRITE
 author: windows-sdk-content
 description: Sends data from the client end of a virtual channel to a partner application on the server end.
 old-location: termserv\virtualchannelwrite.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

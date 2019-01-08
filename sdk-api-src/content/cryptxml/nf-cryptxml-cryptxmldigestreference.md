@@ -4,7 +4,7 @@ title: CryptXmlDigestReference function
 author: windows-sdk-content
 description: Is used by an application to digest the resolved reference. This function applies transforms before updating the digest.
 old-location: security\cryptxmldigestreference.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 781bacc2-6783-4884-8290-a36f917c17c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

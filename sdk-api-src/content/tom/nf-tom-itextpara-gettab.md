@@ -4,7 +4,7 @@ title: ITextPara::GetTab
 author: windows-sdk-content
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTSQueryUserConfigA function
 author: windows-sdk-content
 description: Retrieves configuration information for the specified user on the specified domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsqueryuserconfig.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: aabbcc03-3241-49ab-ab11-ccd3e6893e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

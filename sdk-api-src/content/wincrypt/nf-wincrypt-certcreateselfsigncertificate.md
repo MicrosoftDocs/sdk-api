@@ -4,7 +4,7 @@ title: CertCreateSelfSignCertificate function
 author: windows-sdk-content
 description: Builds a self-signed certificate and returns a pointer to a CERT_CONTEXT structure that represents the certificate.
 old-location: security\certcreateselfsigncertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 89028c4e-f896-4c50-9fa2-bcb4e1784244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

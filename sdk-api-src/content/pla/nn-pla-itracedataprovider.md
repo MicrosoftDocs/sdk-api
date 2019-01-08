@@ -4,7 +4,7 @@ title: ITraceDataProvider
 author: windows-sdk-content
 description: Specifies a trace provider to enable in the trace session.
 old-location: pla\itracedataprovider.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

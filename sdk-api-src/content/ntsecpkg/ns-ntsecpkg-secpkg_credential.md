@@ -4,7 +4,7 @@ title: SECPKG_CREDENTIAL
 author: windows-sdk-content
 description: Specifies the credentials.
 old-location: security\secpkg_credential.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 67BB382B-E6DB-4E93-90EE-6441751220B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

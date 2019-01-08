@@ -4,7 +4,7 @@ title: WlxDisplayLockedNotice function
 author: windows-sdk-content
 description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
 old-location: security\wlxdisplaylockednotice.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

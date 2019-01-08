@@ -4,7 +4,7 @@ title: WTSSBX_IP_ADDRESS
 author: windows-sdk-content
 description: Contains information about the IP address of a network resource.
 old-location: termserv\wtssbx_ip_address.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 92fe662a-ad31-4ed3-9393-c7d86f97e702
 ms.author: windowssdkdev
 ms.date: 12/5/2018

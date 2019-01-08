@@ -4,7 +4,7 @@ title: KERB_PROTOCOL_MESSAGE_TYPE
 author: windows-sdk-content
 description: Lists the types of messages that can be sent to the Kerberos authentication package by calling the LsaCallAuthenticationPackage function.
 old-location: security\kerb_protocol_message_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8ad183d2-3fe8-4f52-bfa4-16f2a711f0c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

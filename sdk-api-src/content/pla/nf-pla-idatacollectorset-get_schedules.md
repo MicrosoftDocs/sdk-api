@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Schedules
 author: windows-sdk-content
 description: Retrieves the list of schedules that determine when the data collector set runs.
 old-location: pla\idatacollectorset_get_schedules.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 6654c101-5179-41db-8fd9-ae281691073f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

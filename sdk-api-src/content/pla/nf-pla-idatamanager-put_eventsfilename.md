@@ -4,7 +4,7 @@ title: IDataManager::put_EventsFileName
 author: windows-sdk-content
 description: Retrieves or sets the name for the events file.
 old-location: pla\idatamanager_eventsfilename.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ce67779a-3312-496f-a793-ac8720e63fb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

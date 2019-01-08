@@ -4,7 +4,7 @@ title: CryptEncodeObject function
 author: windows-sdk-content
 description: The CryptEncodeObject function encodes a structure of the type indicated by the value of the lpszStructType parameter. The use of CryptEncodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptencodeobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

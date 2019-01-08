@@ -4,7 +4,7 @@ title: ITextFont2::SetProperty
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextfont2_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

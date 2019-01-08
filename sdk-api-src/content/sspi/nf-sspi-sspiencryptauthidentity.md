@@ -4,7 +4,7 @@ title: SspiEncryptAuthIdentity function
 author: windows-sdk-content
 description: Encrypts the specified identity structure.
 old-location: security\sspiencryptauthidentity.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnameentry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fe33265a-8c75-4e16-8178-3569cf30d8e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

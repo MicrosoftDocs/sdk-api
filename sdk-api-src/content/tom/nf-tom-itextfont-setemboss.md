@@ -4,7 +4,7 @@ title: ITextFont::SetEmboss
 author: windows-sdk-content
 description: Sets whether characters are embossed.
 old-location: controls\ITextFont_SetEmboss.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setemboss.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

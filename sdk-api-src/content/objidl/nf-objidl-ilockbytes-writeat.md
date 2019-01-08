@@ -4,7 +4,7 @@ title: ILockBytes::WriteAt
 author: windows-sdk-content
 description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
 old-location: stg\ilockbytes_writeat.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

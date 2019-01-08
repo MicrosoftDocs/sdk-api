@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_DataCollectors
 author: windows-sdk-content
 description: Retrieves the list of data collectors in this set.
 old-location: pla\idatacollectorset_get_datacollectors.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1bcfc15e-bc20-4dfa-a934-d0100b8db23f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_DisplayNameUnresolved
 author: windows-sdk-content
 description: Retrieves the display name of the data collector set in its original form.
 old-location: pla\idatacollectorset_displaynameunresolved.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 47941406-e05d-4a64-9a84-8aa7162e5b48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

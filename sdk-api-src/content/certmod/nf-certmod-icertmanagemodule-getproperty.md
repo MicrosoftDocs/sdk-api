@@ -4,7 +4,7 @@ title: ICertManageModule::GetProperty
 author: windows-sdk-content
 description: Retrieves a module's property value.
 old-location: security\icertmanagemodule_getproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

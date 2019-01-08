@@ -4,7 +4,7 @@ title: EVENT_FILTER_HEADER
 author: windows-sdk-content
 description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.
 old-location: etw\event_filter_header.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 364a253d-f4c4-494a-af43-487c70912542
 ms.author: windowssdkdev
 ms.date: 12/5/2018

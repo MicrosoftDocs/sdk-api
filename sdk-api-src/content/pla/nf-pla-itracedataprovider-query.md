@@ -4,7 +4,7 @@ title: ITraceDataProvider::Query
 author: windows-sdk-content
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_GetSelectedCount macro
 author: windows-sdk-content
 description: Determines the number of selected items in a list-view control. You can use this macro or send the LVM_GETSELECTEDCOUNT message explicitly.
 old-location: controls\ListView_GetSelectedCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

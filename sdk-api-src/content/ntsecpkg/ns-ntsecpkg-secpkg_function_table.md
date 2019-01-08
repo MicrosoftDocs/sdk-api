@@ -4,7 +4,7 @@ title: SECPKG_FUNCTION_TABLE
 author: windows-sdk-content
 description: The SECPKG_FUNCTION_TABLE structure contains pointers to the LSA functions that a security package must implement. The Local Security Authority (LSA) obtains this structure from an SSP/AP DLL when it calls the SpLsaModeInitialize function.
 old-location: security\secpkg_function_table.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 43ca0f9b-1393-48aa-9d9c-4dd19963a66d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWorkspaceClientExt::GetResourceDisplayName
 author: windows-sdk-content
 description: Returns the display name of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourcedisplayname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f67fa6f3-621a-4015-8fcf-85b1302a3c8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

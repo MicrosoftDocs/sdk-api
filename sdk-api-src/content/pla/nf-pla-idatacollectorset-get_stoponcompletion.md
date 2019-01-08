@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_StopOnCompletion
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 old-location: pla\idatacollectorset_stoponcompletion.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

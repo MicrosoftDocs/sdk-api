@@ -4,7 +4,7 @@ title: IIdentityAdvise::IdentityUpdated
 author: windows-sdk-content
 description: Is called by an identity provider to notify a calling application that an identity event occurred.
 old-location: security\iidentityadvise_identityupdated.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c41ca389-eac9-4c74-b0e7-950cd21f2199
 ms.author: windowssdkdev
 ms.date: 12/5/2018

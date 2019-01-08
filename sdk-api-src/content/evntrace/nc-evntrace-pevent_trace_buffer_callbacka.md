@@ -4,7 +4,7 @@ title: PEVENT_TRACE_BUFFER_CALLBACKA
 author: windows-sdk-content
 description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
 old-location: etw\buffercallback.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

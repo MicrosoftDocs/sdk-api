@@ -4,7 +4,7 @@ title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 author: windows-sdk-content
 description: Releases the provider.
 old-location: security\pfn_crypt_object_locator_provider_release.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCH_CRED_SECRET_PRIVKEY
 author: windows-sdk-content
 description: Contains private key information needed to authenticate a client or server.
 old-location: security\sch_cred_secret_privkey.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3d637716-e4cd-427c-bc80-7d0ace6ac521
 ms.author: windowssdkdev
 ms.date: 12/5/2018

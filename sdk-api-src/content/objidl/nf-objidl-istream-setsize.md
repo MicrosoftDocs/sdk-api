@@ -4,7 +4,7 @@ title: IStream::SetSize
 author: windows-sdk-content
 description: Changes the size of the stream object.
 old-location: stg\istream_setsize.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 05627db5-067b-4a1a-a7ed-c83314f8bd8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

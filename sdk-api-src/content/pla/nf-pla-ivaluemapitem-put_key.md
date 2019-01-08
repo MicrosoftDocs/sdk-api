@@ -4,7 +4,7 @@ title: IValueMapItem::put_Key
 author: windows-sdk-content
 description: Retrieves or sets the name of the item.
 old-location: pla\ivaluemapitem_key.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 965a5ac4-a811-4fd3-8862-51d82d27c0e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

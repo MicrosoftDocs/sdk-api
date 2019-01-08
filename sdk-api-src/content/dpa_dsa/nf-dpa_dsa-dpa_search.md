@@ -4,7 +4,7 @@ title: DPA_Search function
 author: windows-sdk-content
 description: Finds an item in a dynamic pointer array (DPA).
 old-location: controls\DPA_Search.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_search.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_GetItemText macro
 author: windows-sdk-content
 description: Gets the text of a list-view item or subitem. You can use this macro or send the LVM_GETITEMTEXT message explicitly.
 old-location: controls\ListView_GetItemText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemtext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

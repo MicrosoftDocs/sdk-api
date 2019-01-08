@@ -4,7 +4,7 @@ title: SetProviderStatusInfoFreeFunc
 author: windows-sdk-content
 description: Frees a SetProviderStatusInfo structure.
 old-location: base\setproviderstatusinfofreefunc.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

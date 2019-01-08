@@ -4,7 +4,7 @@ title: KERB_CERTIFICATE_INFO_TYPE
 author: windows-sdk-content
 description: Specifies the type of certificate information that is provided.
 old-location: security\kerb_certificate_info_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: B6BAF09D-D284-4287-B760-32E4D5A9F091
 ms.author: windowssdkdev
 ms.date: 12/5/2018

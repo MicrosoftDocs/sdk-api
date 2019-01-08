@@ -4,7 +4,7 @@ title: EventAccessControl function
 author: windows-sdk-content
 description: Adds or modifies the permissions of the specified provider or session.
 old-location: etw\eventaccesscontrol_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

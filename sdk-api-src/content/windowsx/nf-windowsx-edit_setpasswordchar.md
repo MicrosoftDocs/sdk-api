@@ -4,7 +4,7 @@ title: Edit_SetPasswordChar macro
 author: windows-sdk-content
 description: Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the EM_SETPASSWORDCHAR message explicitly.
 old-location: controls\Edit_SetPasswordChar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setpasswordchar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

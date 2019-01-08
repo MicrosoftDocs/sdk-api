@@ -4,7 +4,7 @@ title: QuerySecurityPackageInfoW function
 author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

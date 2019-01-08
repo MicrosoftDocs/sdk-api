@@ -4,7 +4,7 @@ title: ListView_SetHoverTime macro
 author: windows-sdk-content
 description: Sets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the LVM_SETHOVERTIME message explicitly.
 old-location: controls\ListView_SetHoverTime.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethovertime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

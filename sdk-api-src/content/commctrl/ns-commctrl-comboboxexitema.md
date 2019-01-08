@@ -4,7 +4,7 @@ title: COMBOBOXEXITEMA
 author: windows-sdk-content
 description: Contains information about an item in a ComboBoxEx control.
 old-location: controls\COMBOBOXEXITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\comboboxexitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

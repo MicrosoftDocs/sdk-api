@@ -4,7 +4,7 @@ title: CertAddCertificateContextToStore function
 author: windows-sdk-content
 description: Adds a certificate context to the certificate store.
 old-location: security\certaddcertificatecontexttostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5e4d8cae-1096-491f-9a04-92b7e9c020bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

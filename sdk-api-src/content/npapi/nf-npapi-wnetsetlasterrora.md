@@ -4,7 +4,7 @@ title: WNetSetLastErrorA function
 author: windows-sdk-content
 description: Sets extended error information. Network providers should call this function instead of SetLastError.
 old-location: security\wnetsetlasterror.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

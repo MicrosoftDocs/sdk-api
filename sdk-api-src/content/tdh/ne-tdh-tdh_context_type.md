@@ -4,7 +4,7 @@ title: TDH_CONTEXT_TYPE
 author: windows-sdk-content
 description: Defines the context type.
 old-location: etw\tdh_context_type_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 7892f0d2-84f6-4543-b94e-8501e3911266
 ms.author: windowssdkdev
 ms.date: 12/5/2018

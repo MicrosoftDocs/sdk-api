@@ -4,7 +4,7 @@ title: CertDuplicateStore function
 author: windows-sdk-content
 description: Duplicates a store handle by incrementing the store's reference count.
 old-location: security\certduplicatestore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
 ms.author: windowssdkdev
 ms.date: 12/5/2018

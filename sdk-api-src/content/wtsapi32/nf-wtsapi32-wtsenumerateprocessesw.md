@@ -4,7 +4,7 @@ title: WTSEnumerateProcessesW function
 author: windows-sdk-content
 description: Retrieves information about the active processes on a specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumerateprocesses.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ddfae294-2e7c-416e-b328-76d011b4af39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

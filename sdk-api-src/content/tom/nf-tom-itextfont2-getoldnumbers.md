@@ -4,7 +4,7 @@ title: ITextFont2::GetOldNumbers
 author: windows-sdk-content
 description: Gets whether old-style numbers are active.
 old-location: controls\itextfont2_getoldnumbers.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188
 ms.author: windowssdkdev
 ms.date: 12/5/2018

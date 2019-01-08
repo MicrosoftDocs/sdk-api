@@ -4,7 +4,7 @@ title: ITextPara2::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextpara2_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 628ec2d7-2553-4a76-a5e6-c3a5bef3f8d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

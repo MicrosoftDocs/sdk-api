@@ -4,7 +4,7 @@ title: IRichEditOle::HandsOffStorage
 author: windows-sdk-content
 description: Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's IRichEditOle::HandsOffStorage method; the caller must do that.
 old-location: controls\IRichEditOle_HandsOffStorage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolehandsoffstorage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

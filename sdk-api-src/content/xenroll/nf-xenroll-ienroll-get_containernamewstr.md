@@ -4,7 +4,7 @@ title: IEnroll::get_ContainerNameWStr
 author: windows-sdk-content
 description: Sets or retrieves the name of the key container to use.
 old-location: security\ienroll4_containernamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

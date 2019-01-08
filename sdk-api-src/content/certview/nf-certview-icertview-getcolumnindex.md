@@ -4,7 +4,7 @@ title: ICertView::GetColumnIndex
 author: windows-sdk-content
 description: Retrieves the zero-based index of a column.
 old-location: security\icertview2_getcolumnindex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3d869db9-b4df-4fcd-85e7-19fe773b4262
 ms.author: windowssdkdev
 ms.date: 12/5/2018

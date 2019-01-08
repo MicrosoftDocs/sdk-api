@@ -4,7 +4,7 @@ title: REBARBANDINFOA
 author: windows-sdk-content
 description: Contains information that defines a band in a rebar control.
 old-location: controls\REBARBANDINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarbandinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

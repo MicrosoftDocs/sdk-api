@@ -4,7 +4,7 @@ title: ITsSbProvisioning::CancelJob
 author: windows-sdk-content
 description: Cancels a provisioning job.
 old-location: termserv\itssbprovisioning_canceljob.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

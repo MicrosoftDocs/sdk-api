@@ -4,7 +4,7 @@ title: EDITBALLOONTIP
 author: windows-sdk-content
 description: Contains information about a balloon tip associated with a button control.
 old-location: controls\EDITBALLOONTIP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolstructures\editballoontip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

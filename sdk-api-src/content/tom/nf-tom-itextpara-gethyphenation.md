@@ -4,7 +4,7 @@ title: ITextPara::GetHyphenation
 author: windows-sdk-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

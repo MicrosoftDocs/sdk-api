@@ -4,7 +4,7 @@ title: CryptEnumKeyIdentifierProperties function
 author: windows-sdk-content
 description: The CryptEnumKeyIdentifierProperties function enumerates key identifiers and their properties.
 old-location: security\cryptenumkeyidentifierproperties.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6e57d935-4cfb-44af-b1c6-6c399c959452
 ms.author: windowssdkdev
 ms.date: 12/5/2018

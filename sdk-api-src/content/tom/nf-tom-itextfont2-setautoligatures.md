@@ -4,7 +4,7 @@ title: ITextFont2::SetAutoLigatures
 author: windows-sdk-content
 description: Sets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_setautoligatures.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f40fecfe-3c3b-46f0-9edf-ba48236e50e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

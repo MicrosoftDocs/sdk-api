@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetTargetProperty
 author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 11d03b69-a7d0-4930-ba9c-a9373706580c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

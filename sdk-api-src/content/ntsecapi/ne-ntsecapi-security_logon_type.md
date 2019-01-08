@@ -4,7 +4,7 @@ title: SECURITY_LOGON_TYPE
 author: windows-sdk-content
 description: Indicates the type of logon requested by a logon process.
 old-location: security\security_logon_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d775d782-9403-47b2-bb43-8f677db49eb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

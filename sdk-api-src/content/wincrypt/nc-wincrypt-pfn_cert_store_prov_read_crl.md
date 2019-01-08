@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_READ_CRL
 author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the CRL context.
 old-location: security\certstoreprovreadcrlcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9644c200-1b55-4287-8d98-27b5a8d38c90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

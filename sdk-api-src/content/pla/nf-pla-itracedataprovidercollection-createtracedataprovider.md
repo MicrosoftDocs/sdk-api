@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::CreateTraceDataProvider
 author: windows-sdk-content
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

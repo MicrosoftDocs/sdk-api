@@ -4,7 +4,7 @@ title: MCGRIDINFO
 author: windows-sdk-content
 description: Contains information about part of a calendar control.
 old-location: controls\MCGRIDINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mcgridinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

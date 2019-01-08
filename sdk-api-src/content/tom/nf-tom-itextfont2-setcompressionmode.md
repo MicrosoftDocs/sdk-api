@@ -4,7 +4,7 @@ title: ITextFont2::SetCompressionMode
 author: windows-sdk-content
 description: Sets the East Asian compression mode.
 old-location: controls\itextfont2_setcompressionmode.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 834bb793-b4a8-40b6-b210-05d17332ddb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

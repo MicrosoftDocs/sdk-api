@@ -4,7 +4,7 @@ title: IEnroll4::setPendingRequestInfoWStr
 author: windows-sdk-content
 description: Sets properties for a pending request.
 old-location: security\ienroll4_setpendingrequestinfowstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 02b49033-3354-4e30-a816-a9c078c6164a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

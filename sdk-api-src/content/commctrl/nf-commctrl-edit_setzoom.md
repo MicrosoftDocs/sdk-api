@@ -4,7 +4,7 @@ title: Edit_SetZoom macro
 author: windows-sdk-content
 description: Sets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the EM_SETZOOM message explicitly.
 old-location: controls\edit_setzoom.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 228EE5A0-AFAE-4485-8942-EB9BB6C12D54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

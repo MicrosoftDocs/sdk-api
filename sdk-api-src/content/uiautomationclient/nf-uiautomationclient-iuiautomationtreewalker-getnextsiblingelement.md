@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElement
 title: IUIAutomationTreeWalker::GetNextSiblingElement
 author: windows-sdk-content
-description: Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
+description: Retrieves the next sibling element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSibling.htm
 tech.root: WinAuto
 ms.assetid: a1e42cb4-0b87-42c2-9ea5-67630c0b895a
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
+Retrieves the next sibling element of the specified UI Automation element.
 
 
 ## -parameters

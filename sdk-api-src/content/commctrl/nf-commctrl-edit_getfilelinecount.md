@@ -4,7 +4,7 @@ title: Edit_GetFileLineCount macro
 author: windows-sdk-content
 description: Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINECOUNT message explicitly.
 old-location: controls\edit_getfilelinecount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

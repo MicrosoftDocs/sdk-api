@@ -4,7 +4,7 @@ title: EVENTSECURITYOPERATION
 author: windows-sdk-content
 description: Defines what component of the security descriptor that the EventAccessControl function modifies.
 old-location: etw\eventsecurityoperation.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 81f6cf07-2705-4075-b085-d5aebba17121
 ms.author: windowssdkdev
 ms.date: 12/5/2018

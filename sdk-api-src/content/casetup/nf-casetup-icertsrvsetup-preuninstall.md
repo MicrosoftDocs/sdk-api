@@ -4,7 +4,7 @@ title: ICertSrvSetup::PreUnInstall
 author: windows-sdk-content
 description: Temporarily saves role-specific state information and then it uninstalls the role.
 old-location: security\icertsrvsetup_preuninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2872a7fb-fe96-4ace-b5f4-af88350835ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

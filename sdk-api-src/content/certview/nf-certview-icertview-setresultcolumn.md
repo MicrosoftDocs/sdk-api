@@ -4,7 +4,7 @@ title: ICertView::SetResultColumn
 author: windows-sdk-content
 description: Specifies a column for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumn.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c13bdc3a-e623-49df-bba0-34c4c178dc3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

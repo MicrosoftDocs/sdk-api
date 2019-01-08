@@ -4,7 +4,7 @@ title: TreeView_SetBorder macro
 author: windows-sdk-content
 description: Sets the size of the border for the items in a tree-view control. You can use this macro or send the TVM_SETBORDER message explicitly.
 old-location: controls\TreeView_SetBorder.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setborder.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

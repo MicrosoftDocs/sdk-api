@@ -4,7 +4,7 @@ title: X509Certificate
 author: windows-sdk-content
 description: Represents an X.509 certificate.
 old-location: security\x509certificate.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

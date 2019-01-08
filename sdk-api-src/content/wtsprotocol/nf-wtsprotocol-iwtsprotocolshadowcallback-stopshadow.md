@@ -4,7 +4,7 @@ title: IWTSProtocolShadowCallback::StopShadow
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback::StopShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::StopShadow.
 old-location: termserv\iwtsprotocolshadowcallback_stopshadow.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 54e47922-aea5-4e2f-b329-94300fc1ac3d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

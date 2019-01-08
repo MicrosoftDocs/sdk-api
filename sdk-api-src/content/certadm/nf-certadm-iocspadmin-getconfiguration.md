@@ -4,7 +4,7 @@ title: IOCSPAdmin::GetConfiguration
 author: windows-sdk-content
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
 old-location: security\iocspadmin_getconfiguration_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

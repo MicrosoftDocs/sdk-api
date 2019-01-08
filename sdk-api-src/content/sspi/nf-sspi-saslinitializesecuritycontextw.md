@@ -4,7 +4,7 @@ title: SaslInitializeSecurityContextW function
 author: windows-sdk-content
 description: Wraps a standard call to the Security Support Provider Interface InitializeSecurityContext (General) function and processes SASL server cookies from the server.
 old-location: security\saslinitializesecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9cc661b7-f1b0-4fb1-b799-5b318d87fd4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

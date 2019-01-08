@@ -4,7 +4,7 @@ title: TdhGetDecodingParameter function
 author: windows-sdk-content
 description: Retrieves the value of a decoding parameter.
 old-location: etw\tdhgetdecodingparameter.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

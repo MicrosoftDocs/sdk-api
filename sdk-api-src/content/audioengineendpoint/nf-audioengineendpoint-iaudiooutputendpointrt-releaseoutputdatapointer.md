@@ -4,7 +4,7 @@ title: IAudioOutputEndpointRT::ReleaseOutputDataPointer
 author: windows-sdk-content
 description: Releases the pointer to the output buffer.
 old-location: termserv\iaudiooutputendpointrt_releaseoutputdatapointer.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 55b7d55e-b684-4c6e-a937-e8922732857d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

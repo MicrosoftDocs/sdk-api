@@ -4,7 +4,7 @@ title: ImageList_RemoveAll macro
 author: windows-sdk-content
 description: Calls the ImageList_Remove function to remove all of the images from an image list.
 old-location: controls\ImageList_RemoveAll.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_removeall.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

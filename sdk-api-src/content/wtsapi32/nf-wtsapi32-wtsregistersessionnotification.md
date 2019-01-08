@@ -4,7 +4,7 @@ title: WTSRegisterSessionNotification function
 author: windows-sdk-content
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotification.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5067bb03-d8d5-41ce-b187-04d7dd22a028
 ms.author: windowssdkdev
 ms.date: 12/5/2018

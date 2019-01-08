@@ -4,7 +4,7 @@ title: WRDS_LISTENER_SETTINGS_1
 author: windows-sdk-content
 description: Contains listener settings for a remote session.
 old-location: termserv\wrds_listener_settings_1.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

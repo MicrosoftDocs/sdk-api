@@ -4,7 +4,7 @@ title: ScrollWindowEx function
 author: windows-sdk-content
 description: The ScrollWindowEx function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindowEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrollwindowex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SspiUpdateCredentials function
 author: windows-sdk-content
 description: Updates the credentials associated with the specified context.
 old-location: security\sspiupdatecredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

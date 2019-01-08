@@ -4,7 +4,7 @@ title: NMBCHOTITEM
 author: windows-sdk-content
 description: Contains information about the movement of the mouse over a button control.
 old-location: controls\NMBCHOTITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\nmbchotitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

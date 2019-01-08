@@ -4,7 +4,7 @@ title: ICEnroll::get_MyStoreName
 author: windows-sdk-content
 description: Sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\icenroll4_mystorename.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aa08e88d-bd1f-4bd6-806e-56f720846623
 ms.author: windowssdkdev
 ms.date: 12/5/2018

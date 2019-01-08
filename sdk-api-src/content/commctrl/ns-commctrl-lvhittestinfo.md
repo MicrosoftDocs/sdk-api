@@ -4,7 +4,7 @@ title: LVHITTESTINFO
 author: windows-sdk-content
 description: Contains information about a hit test.
 old-location: controls\LVHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

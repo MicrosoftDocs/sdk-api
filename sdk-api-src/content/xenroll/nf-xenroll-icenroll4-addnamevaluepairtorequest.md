@@ -4,7 +4,7 @@ title: ICEnroll4::addNameValuePairToRequest
 author: windows-sdk-content
 description: Adds an unauthenticated name-value string pair to the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addnamevaluepairtorequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 252d1789-1207-4281-b044-e1f1ca6cd585
 ms.author: windowssdkdev
 ms.date: 12/5/2018

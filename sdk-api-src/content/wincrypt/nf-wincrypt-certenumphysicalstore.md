@@ -4,7 +4,7 @@ title: CertEnumPhysicalStore function
 author: windows-sdk-content
 description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
 old-location: security\certenumphysicalstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.author: windowssdkdev
 ms.date: 12/5/2018

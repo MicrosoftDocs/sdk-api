@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

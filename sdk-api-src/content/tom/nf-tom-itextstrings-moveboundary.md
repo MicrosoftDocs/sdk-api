@@ -4,7 +4,7 @@ title: ITextStrings::MoveBoundary
 author: windows-sdk-content
 description: Moves the start boundary of a string, by index, for a selected number of characters.
 old-location: controls\itextstrings_moveboundary.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: db0eff33-f20a-481e-bcae-8a72674ab906
 ms.author: windowssdkdev
 ms.date: 12/5/2018

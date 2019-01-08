@@ -4,7 +4,7 @@ title: RtlLocalTimeToSystemTime function
 author: windows-sdk-content
 description: Converts the specified local time to system time.
 old-location: base\rtllocaltimetosystemtime.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

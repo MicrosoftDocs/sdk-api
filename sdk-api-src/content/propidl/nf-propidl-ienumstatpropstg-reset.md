@@ -4,7 +4,7 @@ title: IEnumSTATPROPSTG::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the STATPROPSTG structure array.
 old-location: stg\ienumstatpropstg_reset.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: e742e3ee-6261-4d6d-85ca-8df770aa58ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

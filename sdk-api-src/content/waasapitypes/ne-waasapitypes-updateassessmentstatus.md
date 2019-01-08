@@ -4,7 +4,7 @@ title: UpdateAssessmentStatus
 author: windows-sdk-content
 description: Describes how up-to-date the OS on a device is.
 old-location: base\updateassessmentstatus.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 157E241E-E8D8-41F8-9565-5C9298DCD1BE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

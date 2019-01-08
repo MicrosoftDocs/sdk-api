@@ -4,7 +4,7 @@ title: ITextRow::SetCellBorderColors
 author: windows-sdk-content
 description: Sets the border colors of the active cell.
 old-location: controls\itextrow_setcellbordercolors.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2a8762ba-a92b-46aa-99bc-57406a872174
 ms.author: windowssdkdev
 ms.date: 12/5/2018

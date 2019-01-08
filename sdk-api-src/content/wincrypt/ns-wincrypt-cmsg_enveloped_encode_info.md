@@ -4,7 +4,7 @@ title: CMSG_ENVELOPED_ENCODE_INFO
 author: windows-sdk-content
 description: Contains information needed to encode an enveloped message. It is passed to CryptMsgOpenToEncode if the dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_enveloped_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 87712541-2806-4709-a7cf-c9ba966c96fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

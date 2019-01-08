@@ -4,7 +4,7 @@ title: Edit_SetText macro
 author: windows-sdk-content
 description: Sets the text of an edit control.
 old-location: controls\Edit_SetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

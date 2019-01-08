@@ -4,7 +4,7 @@ title: ICertServerPolicy::EnumerateAttributesSetup
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverpolicy_enumerateattributessetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 14b81b88-36db-4b01-96e6-eafed22ae02e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll::put_DeleteRequestCert
 author: windows-sdk-content
 description: The DeleteRequestCert property of IEnroll4 sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\ienroll4_deleterequestcert.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 54b85347-cdc1-42e3-bc26-0b50bd58131a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

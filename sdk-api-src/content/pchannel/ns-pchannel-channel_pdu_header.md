@@ -4,7 +4,7 @@ title: CHANNEL_PDU_HEADER
 author: windows-sdk-content
 description: Contains information about a data block being received by the server end of a virtual channel.
 old-location: termserv\channel_pdu_header_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: f980e746-fc05-45e8-af27-6f137ef01bf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

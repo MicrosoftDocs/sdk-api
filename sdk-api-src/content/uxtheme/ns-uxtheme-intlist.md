@@ -4,7 +4,7 @@ title: INTLIST
 author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA
 author: windows-sdk-content
 description: Used to add an unauthenticated attribute to a signer of a signed message.
 old-location: security\cmsg_ctrl_add_signer_unauth_attr_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5e347a50-942e-4278-a9ae-ad4c30c55c6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

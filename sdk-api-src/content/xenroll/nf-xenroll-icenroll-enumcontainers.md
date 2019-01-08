@@ -4,7 +4,7 @@ title: ICEnroll::enumContainers
 author: windows-sdk-content
 description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderName property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumcontainers.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 28102a55-3bda-4413-84b6-cfa2057be98b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

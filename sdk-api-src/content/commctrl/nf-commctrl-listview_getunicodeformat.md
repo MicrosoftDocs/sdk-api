@@ -4,7 +4,7 @@ title: ListView_GetUnicodeFormat macro
 author: windows-sdk-content
 description: Gets the Unicode character format flag for the control. You can use this macro or send the LVM_GETUNICODEFORMAT message explicitly.
 old-location: controls\ListView_GetUnicodeFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

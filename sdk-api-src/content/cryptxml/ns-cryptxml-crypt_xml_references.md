@@ -4,7 +4,7 @@ title: CRYPT_XML_REFERENCES
 author: windows-sdk-content
 description: Defines an array of CRYPT_XML_REFERENCE structures.
 old-location: security\crypt_xml_references.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

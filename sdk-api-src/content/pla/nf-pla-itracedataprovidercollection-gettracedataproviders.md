@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::GetTraceDataProviders
 author: windows-sdk-content
 description: Populates the collection with registered trace providers.
 old-location: pla\itracedataprovidercollection_gettracedataproviders.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ff35087e-be55-42e8-96e9-c923d06248d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

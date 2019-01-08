@@ -4,7 +4,7 @@ title: ListView_GetOutlineColor macro
 author: windows-sdk-content
 description: Gets the color of the border of a list-view control if the LVS_EX_BORDERSELECT extended window style is set. You can use this macro or send the LVM_GETOUTLINECOLOR message explicitly.
 old-location: controls\ListView_GetOutlineColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getoutlinecolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

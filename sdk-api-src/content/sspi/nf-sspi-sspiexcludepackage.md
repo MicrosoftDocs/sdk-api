@@ -4,7 +4,7 @@ title: SspiExcludePackage function
 author: windows-sdk-content
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

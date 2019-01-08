@@ -4,7 +4,7 @@ title: CryptMsgUpdate function
 author: windows-sdk-content
 description: Adds contents to a cryptographic message.
 old-location: security\cryptmsgupdate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
 author: windows-sdk-content
 description: Contains information about a key transport message recipient.
 old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5f3387c9-4ff0-42a0-8fc7-67d3bb8b6bef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

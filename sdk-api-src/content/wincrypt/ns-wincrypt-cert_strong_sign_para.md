@@ -4,7 +4,7 @@ title: CERT_STRONG_SIGN_PARA
 author: windows-sdk-content
 description: Contains parameters used to check for strong signatures on certificates, certificate revocation lists (CRLs), online certificate status protocol (OCSP) responses, and PKCS #7 messages.
 old-location: security\cert_strong_sign_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 12D9F82C-F484-43B0-BD55-F07321058671
 ms.author: windowssdkdev
 ms.date: 12/5/2018

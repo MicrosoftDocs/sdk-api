@@ -4,7 +4,7 @@ title: ITextHost::TxGetBackStyle
 author: windows-sdk-content
 description: Requests the background style of the text host.
 old-location: controls\ITextHost_TxGetBackStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetbackstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

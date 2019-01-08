@@ -4,7 +4,7 @@ title: ComboBox_FindItemData macro
 author: windows-sdk-content
 description: Finds the first item in a combo box list that has the specified item data. You can use this macro or send the CB_FINDSTRING message explicitly.
 old-location: controls\ComboBox_FindItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_finditemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

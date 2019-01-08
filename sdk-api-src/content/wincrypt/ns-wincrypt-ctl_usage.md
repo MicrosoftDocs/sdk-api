@@ -4,7 +4,7 @@ title: CTL_USAGE
 author: windows-sdk-content
 description: Contains an array of object identifiers (OIDs) for Certificate Trust List (CTL) extensions.
 old-location: security\ctl_usage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 70ee138a-df94-4fc4-9de5-0d8b7704b890
 ms.author: windowssdkdev
 ms.date: 12/5/2018

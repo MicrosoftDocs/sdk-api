@@ -4,7 +4,7 @@ title: Button_GetImageList macro
 author: windows-sdk-content
 description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.
 old-location: controls\Button_GetImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

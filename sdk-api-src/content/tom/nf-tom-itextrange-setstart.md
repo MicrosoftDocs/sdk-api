@@ -4,7 +4,7 @@ title: ITextRange::SetStart
 author: windows-sdk-content
 description: Sets the character position for the start of this range.
 old-location: controls\ITextRange_SetStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstart.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCardListInterfacesA function
 author: windows-sdk-content
 description: Provides a list of interfaces supplied by a given card.
 old-location: security\scardlistinterfaces.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

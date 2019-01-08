@@ -4,7 +4,7 @@ title: BTH_RADIO_IN_RANGE
 author: windows-sdk-content
 description: Stores data about Bluetooth devices within communication range.
 old-location: bluetooth\bth_radio_in_range.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 997c50bb-1313-409a-9a24-9225a6cf91d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

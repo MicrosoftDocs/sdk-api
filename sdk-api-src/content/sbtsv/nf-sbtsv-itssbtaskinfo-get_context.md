@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_Context
 author: windows-sdk-content
 description: Retrieves the context bytes associated with the task.
 old-location: termserv\itssbtaskinfo_context.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

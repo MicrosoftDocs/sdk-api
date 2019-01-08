@@ -4,7 +4,7 @@ title: ListView_SetCheckState macro
 author: windows-sdk-content
 description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
 old-location: controls\ListView_SetCheckState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

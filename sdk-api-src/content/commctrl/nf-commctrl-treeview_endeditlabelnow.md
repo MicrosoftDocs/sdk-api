@@ -4,7 +4,7 @@ title: TreeView_EndEditLabelNow macro
 author: windows-sdk-content
 description: Ends the editing of a tree-view item's label. You can use this macro or send the TVM_ENDEDITLABELNOW message explicitly.
 old-location: controls\TreeView_EndEditLabelNow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

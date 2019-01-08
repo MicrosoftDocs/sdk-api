@@ -4,7 +4,7 @@ title: Edit_GetCaretIndex macro
 author: windows-sdk-content
 description: Gets the character index of the caret location for a given edit control. You can use this macro or send the EM_GETCARETINDEX message explicitly.
 old-location: controls\edit_getcaretindex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 548EAC06-9127-493D-BE0E-8982DCA52895
 ms.author: windowssdkdev
 ms.date: 12/5/2018

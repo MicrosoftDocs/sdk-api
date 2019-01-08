@@ -4,7 +4,7 @@ title: ITextHost2
 author: windows-sdk-content
 description: The ITextHost2 interface extends the ITextHost interface.
 old-location: controls\itexthost2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
 ms.author: windowssdkdev
 ms.date: 12/5/2018

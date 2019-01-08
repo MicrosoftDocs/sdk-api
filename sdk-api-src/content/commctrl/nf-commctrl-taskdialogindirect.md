@@ -4,7 +4,7 @@ title: TaskDialogIndirect function
 author: windows-sdk-content
 description: The TaskDialogIndirect function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialogIndirect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

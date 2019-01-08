@@ -4,7 +4,7 @@ title: ITSGAccountingEngine::DoAccounting
 author: windows-sdk-content
 description: Provides information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine_doaccounting.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ebc57caa-804b-46a4-96bb-8b50c13029ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

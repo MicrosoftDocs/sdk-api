@@ -4,7 +4,7 @@ title: GetSystemFirmwareTable function
 author: windows-sdk-content
 description: Retrieves the specified firmware table from the firmware table provider.
 old-location: base\getsystemfirmwaretable.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 3bfe81ca-6d04-4da1-9579-6b0b48faa4a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

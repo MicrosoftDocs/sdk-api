@@ -4,7 +4,7 @@ title: GetWindowsDirectoryA function
 author: windows-sdk-content
 description: Retrieves the path of the Windows directory.
 old-location: base\getwindowsdirectory.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

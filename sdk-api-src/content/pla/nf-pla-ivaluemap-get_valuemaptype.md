@@ -4,7 +4,7 @@ title: IValueMap::get_ValueMapType
 author: windows-sdk-content
 description: Retrieves or sets the type of items in the collection.
 old-location: pla\ivaluemap_valuemaptype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 42cea1e6-c945-4bae-ac65-a052b4069e5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

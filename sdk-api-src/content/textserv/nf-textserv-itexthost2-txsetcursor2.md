@@ -4,7 +4,7 @@ title: ITextHost2::TxSetCursor2
 author: windows-sdk-content
 description: Sets the shape of the cursor in the text host window.
 old-location: controls\itexthost2_txsetcursor2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9671AEEC-CA31-4CE7-8B40-57859E36EF23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 author: windows-sdk-content
 description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.
 old-location: security\certstoreprovsetctlproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

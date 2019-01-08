@@ -4,7 +4,7 @@ title: WinVerifyTrustEx function
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.
 old-location: security\winverifytrustex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

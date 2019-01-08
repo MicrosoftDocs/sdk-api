@@ -4,7 +4,7 @@ title: KERB_QUERY_BINDING_CACHE_REQUEST
 author: windows-sdk-content
 description: Contains information used to query the binding cache.
 old-location: security\kerb_query_binding_cache_request.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 45DAA909-8D5D-4522-803B-E42EA8E09CE8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

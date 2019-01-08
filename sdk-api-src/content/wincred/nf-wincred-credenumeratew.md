@@ -4,7 +4,7 @@ title: CredEnumerateW function
 author: windows-sdk-content
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
 ms.author: windowssdkdev
 ms.date: 12/5/2018

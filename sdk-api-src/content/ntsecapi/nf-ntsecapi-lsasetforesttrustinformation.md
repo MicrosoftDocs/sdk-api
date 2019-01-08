@@ -4,7 +4,7 @@ title: LsaSetForestTrustInformation function
 author: windows-sdk-content
 description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.
 old-location: security\lsasetforesttrustinformation.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

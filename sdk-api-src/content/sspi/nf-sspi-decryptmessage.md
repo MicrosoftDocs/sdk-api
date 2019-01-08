@@ -4,7 +4,7 @@ title: DecryptMessage function
 author: windows-sdk-content
 description: Decrypts a message by using Digest.
 old-location: security\decryptmessage__digest_.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LVSETINFOTIP
 author: windows-sdk-content
 description: Provides information about tooltip text that is to be set.
 old-location: controls\LVSETINFOTIP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptCATAdminAddCatalog function
 author: windows-sdk-content
 description: Adds a catalog to the catalog database.
 old-location: security\cryptcatadminaddcatalog.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

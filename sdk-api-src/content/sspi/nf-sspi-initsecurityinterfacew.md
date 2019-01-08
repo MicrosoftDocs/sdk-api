@@ -4,7 +4,7 @@ title: InitSecurityInterfaceW function
 author: windows-sdk-content
 description: The InitSecurityInterface function returns a pointer to an SSPI dispatch table. This function enables clients to use SSPI without binding directly to an implementation of the interface.
 old-location: security\initsecurityinterface.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

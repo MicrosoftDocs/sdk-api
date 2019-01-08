@@ -4,7 +4,7 @@ title: DSA_GetItemPtr function
 author: windows-sdk-content
 description: Gets a pointer to an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItemPtr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

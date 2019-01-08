@@ -4,7 +4,7 @@ title: ITextHost::TxSetCursor
 author: windows-sdk-content
 description: Establishes a new cursor shape (I-beam) in the text host's window.
 old-location: controls\ITextHost_TxSetCursor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

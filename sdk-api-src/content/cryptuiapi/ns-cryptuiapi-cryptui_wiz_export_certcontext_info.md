@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
 old-location: security\cryptui_wiz_export_certcontext_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

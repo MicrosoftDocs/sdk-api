@@ -4,7 +4,7 @@ title: IStream
 author: windows-sdk-content
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
 ms.author: windowssdkdev
 ms.date: 12/5/2018

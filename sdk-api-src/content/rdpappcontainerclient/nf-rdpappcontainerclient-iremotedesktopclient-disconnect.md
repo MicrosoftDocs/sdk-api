@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::Disconnect
 author: windows-sdk-content
 description: Disconnects the active connection.
 old-location: termserv\iremotedesktopclient_disconnect.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 134e72ad-93dd-4f53-b26c-09654f309658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

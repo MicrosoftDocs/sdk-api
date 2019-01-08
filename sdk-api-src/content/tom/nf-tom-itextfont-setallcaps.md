@@ -4,7 +4,7 @@ title: ITextFont::SetAllCaps
 author: windows-sdk-content
 description: Sets whether the characters are all uppercase.
 old-location: controls\ITextFont_SetAllCaps.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setallcaps.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFNDPAMERGECONST
 author: windows-sdk-content
 description: Defines the prototype for the merge function used by DPA_Merge, using constant values.
 old-location: controls\PFNDPAMERGECONST.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpamergeconst.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

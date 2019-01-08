@@ -4,7 +4,7 @@ title: TabCtrl_SetPadding macro
 author: windows-sdk-content
 description: Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the TCM_SETPADDING message explicitly.
 old-location: controls\TabCtrl_SetPadding.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setpadding.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertRequest2::GetCAPropertyFlags
 author: windows-sdk-content
 description: Retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertyflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bdc6ab73-a0b4-44cd-9e46-c453dcb45a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

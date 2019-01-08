@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::EnumCertViewExtension
 author: windows-sdk-content
 description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptAcquireCertificatePrivateKey function
 author: windows-sdk-content
 description: Obtains the private key for a certificate.
 old-location: security\cryptacquirecertificateprivatekey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 53c9aec9-701d-4c21-9814-d344a8dde0c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

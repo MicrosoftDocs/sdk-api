@@ -4,7 +4,7 @@ title: ICEnroll::createPKCS10
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_createpkcs10.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b8e841c1-f16e-4f3a-94f2-ef6708c88910
 ms.author: windowssdkdev
 ms.date: 12/5/2018

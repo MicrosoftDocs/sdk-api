@@ -4,7 +4,7 @@ title: IEnumSTATPROPSETSTG
 author: windows-sdk-content
 description: Iterates through an array of STATPROPSETSTG structures. The STATPROPSETSTG structures contain statistical data about the property sets managed by the current IPropertySetStorage instance.
 old-location: stg\ienumstatpropsetstg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BTH_L2CAP_EVENT_INFO
 author: windows-sdk-content
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IIdentityProvider::GetIdentityEnum
 author: windows-sdk-content
 description: Retrieves an IEnumUnknown interface pointer that can be used to enumerate identities.
 old-location: security\iidentityprovider_getidentityenum.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

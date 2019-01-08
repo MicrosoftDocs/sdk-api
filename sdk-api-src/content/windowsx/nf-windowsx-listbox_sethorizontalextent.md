@@ -4,7 +4,7 @@ title: ListBox_SetHorizontalExtent macro
 author: windows-sdk-content
 description: Set the width by which a list box can be scrolled horizontally (the scrollable width).
 old-location: controls\ListBox_SetHorizontalExtent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_sethorizontalextent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

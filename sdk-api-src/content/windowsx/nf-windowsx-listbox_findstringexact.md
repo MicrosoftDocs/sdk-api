@@ -4,7 +4,7 @@ title: ListBox_FindStringExact macro
 author: windows-sdk-content
 description: Finds the first list box string that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the LB_FINDSTRINGEXACT message explicitly.
 old-location: controls\ListBox_FindStringExact.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_findstringexact.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WeekDays
 author: windows-sdk-content
 description: Defines the days of the week on which to run the data collector set.
 old-location: pla\weekdays.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5246fee3-0536-4525-bab8-5087330a1b49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2
 author: windows-sdk-content
 description: The ITextRange2 interface is derived from ITextRange, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 old-location: controls\itextrange2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

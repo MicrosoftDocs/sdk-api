@@ -4,7 +4,7 @@ title: ITextFont::SetUnderline
 author: windows-sdk-content
 description: Sets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_SetUnderline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setunderline.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

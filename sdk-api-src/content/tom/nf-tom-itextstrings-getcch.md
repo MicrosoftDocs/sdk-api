@@ -4,7 +4,7 @@ title: ITextStrings::GetCch
 author: windows-sdk-content
 description: Gets the count of characters for a selected string index.
 old-location: controls\itextstrings_getcch.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 73b88019-f74b-4345-95f3-9f924c999b8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

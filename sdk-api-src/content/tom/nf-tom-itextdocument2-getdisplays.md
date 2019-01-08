@@ -4,7 +4,7 @@ title: ITextDocument2::GetDisplays
 author: windows-sdk-content
 description: Gets the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdocument2_getdisplays.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

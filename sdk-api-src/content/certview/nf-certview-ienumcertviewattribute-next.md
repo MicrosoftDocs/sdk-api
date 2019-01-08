@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::Next
 author: windows-sdk-content
 description: Moves to the next attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_next.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2903ccda-e06d-4690-accf-79bc73d8569f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

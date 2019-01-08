@@ -4,7 +4,7 @@ title: DOMAIN_PASSWORD_INFORMATION
 author: windows-sdk-content
 description: Contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
 old-location: security\domain_password_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7dceaf70-d8de-47c0-b940-f0d6a0cca101
 ms.author: windowssdkdev
 ms.date: 12/5/2018

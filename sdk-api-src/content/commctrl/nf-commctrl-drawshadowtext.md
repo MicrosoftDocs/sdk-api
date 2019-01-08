@@ -4,7 +4,7 @@ title: DrawShadowText function
 author: windows-sdk-content
 description: Draws text that has a shadow.
 old-location: controls\DrawShadowText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

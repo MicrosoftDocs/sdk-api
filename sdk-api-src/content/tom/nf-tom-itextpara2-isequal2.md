@@ -4,7 +4,7 @@ title: ITextPara2::IsEqual2
 author: windows-sdk-content
 description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
 old-location: controls\itextpara2_isequal2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

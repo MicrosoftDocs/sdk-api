@@ -4,7 +4,7 @@ title: NMHEADERW
 author: windows-sdk-content
 description: Contains information about header control notification messages. This structure supersedes the HD_NOTIFY structure.
 old-location: controls\NMHEADER.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmheader.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: KERB_CRYPTO_KEY
 author: windows-sdk-content
 description: Contains information about a Kerberos cryptographic session key.
 old-location: security\kerb_crypto_key.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ac7ea61c-b1e0-4dc0-931e-81bb6fd74888
 ms.author: windowssdkdev
 ms.date: 12/5/2018

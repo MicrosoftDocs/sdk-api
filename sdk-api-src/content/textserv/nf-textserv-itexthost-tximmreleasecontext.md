@@ -4,7 +4,7 @@ title: ITextHost::TxImmReleaseContext
 author: windows-sdk-content
 description: Releases an input context returned by the ITextHost::TxImmGetContext method and unlocks the memory associated with the context. This method is used only in Asian-language versions of the operating system.
 old-location: controls\ITextHost_TxImmReleaseContext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmreleasecontext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

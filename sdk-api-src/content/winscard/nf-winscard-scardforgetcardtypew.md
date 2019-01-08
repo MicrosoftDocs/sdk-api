@@ -4,7 +4,7 @@ title: SCardForgetCardTypeW function
 author: windows-sdk-content
 description: Removes an introduced smart card from the smart card subsystem.
 old-location: security\scardforgetcardtype.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

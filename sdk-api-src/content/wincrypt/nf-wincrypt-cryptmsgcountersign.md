@@ -4,7 +4,7 @@ title: CryptMsgCountersign function
 author: windows-sdk-content
 description: Countersigns an existing signature in a message.
 old-location: security\cryptmsgcountersign.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebf76664-bca6-462d-b519-2b60f435d8ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

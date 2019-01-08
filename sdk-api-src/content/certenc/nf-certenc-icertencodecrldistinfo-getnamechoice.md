@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::GetNameChoice
 author: windows-sdk-content
 description: Returns the name choice at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getnamechoice.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

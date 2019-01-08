@@ -4,7 +4,7 @@ title: ITextHost::TxDeactivate
 author: windows-sdk-content
 description: Notifies the text host that the control is now inactive.
 old-location: controls\ITextHost_TxDeactivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txdeactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

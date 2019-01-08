@@ -4,7 +4,7 @@ title: DrawThemeEdge function
 author: windows-sdk-content
 description: Draws one or more edges defined by the visual style of a rectangle.
 old-location: controls\DrawThemeEdge.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeedge.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

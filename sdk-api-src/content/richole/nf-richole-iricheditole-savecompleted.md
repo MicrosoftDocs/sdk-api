@@ -4,7 +4,7 @@ title: IRichEditOle::SaveCompleted
 author: windows-sdk-content
 description: Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.
 old-location: controls\IRichEditOle_SaveCompleted.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesavecompleted.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbServiceNotification::NotifyServiceFailure
 author: windows-sdk-content
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has stopped.
 old-location: termserv\itssbservicenotification_notifyservicefailure.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

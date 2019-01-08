@@ -4,7 +4,7 @@ title: BluetoothFindNextDevice function
 author: windows-sdk-content
 description: The BluetoothFindNextDevice function finds the next Bluetooth device.
 old-location: bluetooth\bluetoothfindnextdevice.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: a17d87b2-91d7-4a03-bff7-9bc0ee48c3b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

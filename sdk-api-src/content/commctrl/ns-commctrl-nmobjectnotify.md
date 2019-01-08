@@ -4,7 +4,7 @@ title: NMOBJECTNOTIFY
 author: windows-sdk-content
 description: Contains information used with the TBN_GETOBJECT, TCN_GETOBJECT, and PSN_GETOBJECT notification codes.
 old-location: controls\NMOBJECTNOTIFY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmobjectnotify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

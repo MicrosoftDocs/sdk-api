@@ -4,7 +4,7 @@ title: EVENT_TRACE_PROPERTIES_V2
 author: windows-sdk-content
 description: The EVENT_TRACE_PROPERTIES_V2 structure contains information about an event tracing session.
 old-location: etw\event_trace_properties_v2.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2EEDB53B-75BC-48AC-A70D-9AEAED526C40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

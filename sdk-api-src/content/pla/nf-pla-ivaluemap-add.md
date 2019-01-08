@@ -4,7 +4,7 @@ title: IValueMap::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: pla\ivaluemap_add.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

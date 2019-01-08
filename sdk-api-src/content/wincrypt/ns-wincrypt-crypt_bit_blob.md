@@ -4,7 +4,7 @@ title: CRYPT_BIT_BLOB
 author: windows-sdk-content
 description: Contains a set of bits represented by an array of bytes.
 old-location: security\crypt_bit_blob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6f102ff3-bfff-4415-a5d8-ca2c226074b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

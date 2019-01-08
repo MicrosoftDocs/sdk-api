@@ -4,7 +4,7 @@ title: SpAcceptCredentialsFn
 author: windows-sdk-content
 description: Called by the Local Security Authority (LSA) to pass the security package any credentials stored for the authenticated security principal.
 old-location: security\spacceptcredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: bb382937-e5d6-452b-b166-505d0c80412c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

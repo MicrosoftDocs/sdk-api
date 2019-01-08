@@ -4,7 +4,7 @@ title: IEnroll4::getProviderTypeWStr
 author: windows-sdk-content
 description: Retrieves the type of the specified cryptographic service provider (CSP).
 old-location: security\ienroll4_getprovidertypewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

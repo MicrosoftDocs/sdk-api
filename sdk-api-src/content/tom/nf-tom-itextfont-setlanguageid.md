@@ -4,7 +4,7 @@ title: ITextFont::SetLanguageID
 author: windows-sdk-content
 description: Sets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_SetLanguageID.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

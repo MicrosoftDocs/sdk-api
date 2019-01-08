@@ -4,7 +4,7 @@ title: SECPKG_NEGO2_INFO
 author: windows-sdk-content
 description: Contains extended package information used for NEGO2 negotiations.
 old-location: security\secpkg_nego2_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8B093B74-DBF2-4DBD-9FDC-72FD6CC3CCA6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

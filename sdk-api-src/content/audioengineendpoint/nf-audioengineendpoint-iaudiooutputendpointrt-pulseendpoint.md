@@ -4,7 +4,7 @@ title: IAudioOutputEndpointRT::PulseEndpoint
 author: windows-sdk-content
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
 ms.author: windowssdkdev
 ms.date: 12/5/2018

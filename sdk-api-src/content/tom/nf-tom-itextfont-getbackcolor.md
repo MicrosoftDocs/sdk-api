@@ -4,7 +4,7 @@ title: ITextFont::GetBackColor
 author: windows-sdk-content
 description: Gets the text background (highlight) color.
 old-location: controls\ITextFont_GetBackColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbackcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

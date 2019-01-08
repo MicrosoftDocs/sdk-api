@@ -4,7 +4,7 @@ title: ITextRow::GetCellMargin
 author: windows-sdk-content
 description: Gets the cell margin of this row.
 old-location: controls\itextrow_getcellmargin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fc477a0f-2368-40c8-9b75-caec3afedea0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

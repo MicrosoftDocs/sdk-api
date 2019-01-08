@@ -4,7 +4,7 @@ title: CERT_X942_DH_VALIDATION_PARAMS
 author: windows-sdk-content
 description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.
 old-location: security\cert_x942_dh_validation_params.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 26c367d5-c338-4db3-9973-ce21dcddf7ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

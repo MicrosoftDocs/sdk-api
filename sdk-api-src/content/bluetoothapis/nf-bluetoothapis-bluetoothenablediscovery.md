@@ -4,7 +4,7 @@ title: BluetoothEnableDiscovery function
 author: windows-sdk-content
 description: The BluetoothEnableDiscovery function changes the discovery state of a local Bluetooth radio or radios.
 old-location: bluetooth\bluetoothenablediscovery.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: ca28c9cd-a271-48fa-901c-e99e063854d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

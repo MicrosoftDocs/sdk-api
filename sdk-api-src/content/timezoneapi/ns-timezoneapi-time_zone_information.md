@@ -4,7 +4,7 @@ title: TIME_ZONE_INFORMATION
 author: windows-sdk-content
 description: Specifies settings for a time zone.
 old-location: base\time_zone_information_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 18c10ad6-8bc9-4a3b-a424-d17ee1d9e004
 ms.author: windowssdkdev
 ms.date: 12/5/2018

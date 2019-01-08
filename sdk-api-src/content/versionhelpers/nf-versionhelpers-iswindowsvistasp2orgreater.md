@@ -4,7 +4,7 @@ title: IsWindowsVistaSP2OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 2 (SP2) version.
 old-location: base\iswindowsvistasp2orgreater.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

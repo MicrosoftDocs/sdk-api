@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_IDENTITY_EX2
 author: windows-sdk-content
 description: Contains information about an authentication identity.
 old-location: security\sec_winnt_auth_identity_ex2.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a6083d76-1774-428c-85ca-fea817827d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

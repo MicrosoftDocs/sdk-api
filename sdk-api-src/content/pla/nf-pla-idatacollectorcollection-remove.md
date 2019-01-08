@@ -4,7 +4,7 @@ title: IDataCollectorCollection::Remove
 author: windows-sdk-content
 description: Removes a data collector from the collection.
 old-location: pla\idatacollectorcollection_remove.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7f5a6d20-d65a-477b-8886-8536315bc36e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

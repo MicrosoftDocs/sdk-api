@@ -4,7 +4,7 @@ title: ListView_SetHotCursor macro
 author: windows-sdk-content
 description: Sets the HCURSOR that the list-view control uses when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_SETHOTCURSOR message explicitly. To check whether hot tracking is enabled, call SystemParametersInfo.
 old-location: controls\ListView_SetHotCursor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Header_ClearFilter macro
 author: windows-sdk-content
 description: Clears the filter for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.
 old-location: controls\Header_ClearFilter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearfilter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

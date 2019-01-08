@@ -4,7 +4,7 @@ title: IOCSPAdmin::get_OCSPServiceProperties
 author: windows-sdk-content
 description: Gets an instance of an OCSPPropertyCollection object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ocspserviceproperties_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

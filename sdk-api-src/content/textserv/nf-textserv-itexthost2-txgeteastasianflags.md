@@ -4,7 +4,7 @@ title: ITextHost2::TxGetEastAsianFlags
 author: windows-sdk-content
 description: Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include ES_SELFIME.
 old-location: controls\itexthost2_txgeteastasianflags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3D704159-795A-4BD6-B699-EC311D9B780C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BluetoothIsDiscoverable function
 author: windows-sdk-content
 description: The BluetoothIsDiscoverable function determines whether a Bluetooth radio or radios is discoverable.
 old-location: bluetooth\bluetoothisdiscoverable.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

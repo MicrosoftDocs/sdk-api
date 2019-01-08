@@ -4,7 +4,7 @@ title: ICertManageModule
 author: windows-sdk-content
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
 old-location: security\icertmanagemodule.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.author: windowssdkdev
 ms.date: 12/5/2018

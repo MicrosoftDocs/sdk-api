@@ -4,7 +4,7 @@ title: SCardListReadersWithDeviceInstanceIdW function
 author: windows-sdk-content
 description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbTaskPluginNotifySink::OnSetTaskTime
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been scheduled.
 old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

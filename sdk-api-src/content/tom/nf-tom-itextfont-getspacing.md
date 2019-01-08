@@ -4,7 +4,7 @@ title: ITextFont::GetSpacing
 author: windows-sdk-content
 description: Gets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_GetSpacing.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

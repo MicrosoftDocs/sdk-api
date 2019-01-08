@@ -4,7 +4,7 @@ title: ICertAdmin::IsValidCertificate
 author: windows-sdk-content
 description: Verifies the certificate against the certification authority (CA) key and checks that the certificate has not been revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_isvalidcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cd133c57-a62e-4083-b4fd-7eaf0c9e7606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

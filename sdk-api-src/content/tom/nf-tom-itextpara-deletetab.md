@@ -4,7 +4,7 @@ title: ITextPara::DeleteTab
 author: windows-sdk-content
 description: Deletes a tab at a specified displacement.
 old-location: controls\ITextPara_DeleteTab.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\deletetab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

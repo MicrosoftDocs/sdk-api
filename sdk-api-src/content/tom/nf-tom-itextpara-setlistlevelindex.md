@@ -4,7 +4,7 @@ title: ITextPara::SetListLevelIndex
 author: windows-sdk-content
 description: Sets the list level index used for paragraphs.
 old-location: controls\ITextPara_SetListLevelIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlistlevelindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

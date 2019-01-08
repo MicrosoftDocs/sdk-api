@@ -4,7 +4,7 @@ title: ComboBox_SetText macro
 author: windows-sdk-content
 description: Sets the text of a combo box.
 old-location: controls\ComboBox_SetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_settext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BluetoothFindFirstDevice function
 author: windows-sdk-content
 description: The BluetoothFindFirstDevice function begins the enumeration Bluetooth devices.
 old-location: bluetooth\bluetoothfindfirstdevice.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

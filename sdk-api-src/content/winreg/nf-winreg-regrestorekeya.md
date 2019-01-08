@@ -4,7 +4,7 @@ title: RegRestoreKeyA function
 author: windows-sdk-content
 description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
 old-location: base\regrestorekey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

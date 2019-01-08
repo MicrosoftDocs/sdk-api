@@ -4,7 +4,7 @@ title: TraceMessageVa function
 author: windows-sdk-content
 description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
 old-location: etw\tracemessageva.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2cfb7226-fd29-432e-abfd-bd10c6344a67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_SetColumnWidth macro
 author: windows-sdk-content
 description: Used to change the width of a column in report view or the width of all columns in list-view mode. You can use this macro or send the LVM_SETCOLUMNWIDTH message explicitly.
 old-location: controls\ListView_SetColumnWidth.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumnwidth.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

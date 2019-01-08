@@ -4,7 +4,7 @@ title: CryptUnprotectData function
 author: windows-sdk-content
 description: Decrypts and does an integrity check of the data in a DATA_BLOB structure.
 old-location: security\cryptunprotectdata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 54eab3b0-d341-47c6-9c32-79328d7a7155
 ms.author: windowssdkdev
 ms.date: 12/5/2018

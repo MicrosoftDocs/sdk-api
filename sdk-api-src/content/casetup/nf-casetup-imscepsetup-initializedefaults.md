@@ -4,7 +4,7 @@ title: IMSCEPSetup::InitializeDefaults
 author: windows-sdk-content
 description: Initializes a CMSCEPSetup object with default values to enable installation of a Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_initializedefaults.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25b1fd48-7b2c-4687-af7e-09efd99038b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

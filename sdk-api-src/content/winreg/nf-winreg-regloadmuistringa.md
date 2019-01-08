@@ -4,7 +4,7 @@ title: RegLoadMUIStringA function
 author: windows-sdk-content
 description: Loads the specified string from the specified key and subkey.
 old-location: base\regloadmuistring.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

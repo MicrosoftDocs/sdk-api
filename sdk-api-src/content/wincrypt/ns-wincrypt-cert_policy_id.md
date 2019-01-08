@@ -4,7 +4,7 @@ title: CERT_POLICY_ID
 author: windows-sdk-content
 description: The CERT_POLICY_ID structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
 old-location: security\cert_policy_id.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d0a8989c-3a32-4093-9db3-0811049b6601
 ms.author: windowssdkdev
 ms.date: 12/5/2018

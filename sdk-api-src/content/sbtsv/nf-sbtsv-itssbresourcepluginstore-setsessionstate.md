@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetSessionState
 author: windows-sdk-content
 description: Sets the session state.
 old-location: termserv\itssbresourcepluginstore_setsessionstate.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e6cb83d4-9d85-43d0-812d-ad6e2bdcb067
 ms.author: windowssdkdev
 ms.date: 12/5/2018

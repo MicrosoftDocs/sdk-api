@@ -4,7 +4,7 @@ title: EVENT_TRACE_HEADER
 author: windows-sdk-content
 description: The EVENT_TRACE_HEADER structure contains standard event tracing information common to all events.
 old-location: etw\event_trace_header.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 33c2de6b-afc2-4323-8d81-2970e66edf5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

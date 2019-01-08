@@ -4,7 +4,7 @@ title: RtlDecryptMemory function
 author: windows-sdk-content
 description: Decrypts memory contents previously encrypted by the RtlEncryptMemory function.
 old-location: security\rtldecryptmemory.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8ecc5007-92ce-4e32-a093-dcb75ee8ba62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

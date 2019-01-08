@@ -4,7 +4,7 @@ title: CMC_DATA_INFO
 author: windows-sdk-content
 description: Provides a means of communicating different pieces of tagged information.
 old-location: security\cmc_data_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6245af5a-7a19-4665-bf6c-ad803998d840
 ms.author: windowssdkdev
 ms.date: 12/5/2018

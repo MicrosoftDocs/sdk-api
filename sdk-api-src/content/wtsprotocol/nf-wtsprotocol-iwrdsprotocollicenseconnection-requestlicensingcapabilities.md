@@ -4,7 +4,7 @@ title: IWRdsProtocolLicenseConnection::RequestLicensingCapabilities
 author: windows-sdk-content
 description: Requests license capabilities from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestlicensingcapabilities.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

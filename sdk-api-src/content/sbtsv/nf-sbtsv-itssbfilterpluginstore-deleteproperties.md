@@ -4,7 +4,7 @@ title: ITsSbFilterPluginStore::DeleteProperties
 author: windows-sdk-content
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

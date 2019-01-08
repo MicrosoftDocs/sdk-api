@@ -4,7 +4,7 @@ title: ITextRange::MoveStart
 author: windows-sdk-content
 description: Moves the start postion of the range the specified number of units in the specified direction.
 old-location: controls\ITextRange_MoveStart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestart.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

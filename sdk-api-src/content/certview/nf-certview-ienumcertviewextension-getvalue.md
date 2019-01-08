@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::GetValue
 author: windows-sdk-content
 description: Retrieves the value of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7a81b096-36ba-416a-ad15-5bf1c4d512dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_RDN
 author: windows-sdk-content
 description: The CERT_RDN structure contains a relative distinguished name (RDN) consisting of an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e84254b9-e9a7-4689-a12f-2772282c5433
 ms.author: windowssdkdev
 ms.date: 12/5/2018

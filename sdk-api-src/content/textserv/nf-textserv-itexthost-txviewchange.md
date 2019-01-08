@@ -4,7 +4,7 @@ title: ITextHost::TxViewChange
 author: windows-sdk-content
 description: Indicates to the text host that the update region has changed.
 old-location: controls\ITextHost_TxViewChange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txviewchange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

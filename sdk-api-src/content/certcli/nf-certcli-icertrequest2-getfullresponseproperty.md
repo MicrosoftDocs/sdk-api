@@ -4,7 +4,7 @@ title: ICertRequest2::GetFullResponseProperty
 author: windows-sdk-content
 description: Retrieves the cached response data returned by the server.
 old-location: security\icertrequest2_getfullresponseproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1ee979b7-2d2a-4140-8eef-5e3a5e0c132c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

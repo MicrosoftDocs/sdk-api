@@ -4,7 +4,7 @@ title: CheckDlgButton function
 author: windows-sdk-content
 description: Changes the check state of a button control.
 old-location: controls\CheckDlgButton.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

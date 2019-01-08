@@ -4,7 +4,7 @@ title: ListView_GetExtendedListViewStyle macro
 author: windows-sdk-content
 description: Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the LVM_GETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_GetExtendedListViewStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getextendedlistviewstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

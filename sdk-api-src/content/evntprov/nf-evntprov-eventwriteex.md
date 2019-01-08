@@ -4,7 +4,7 @@ title: EventWriteEx function
 author: windows-sdk-content
 description: Use this function to write an event.
 old-location: etw\eventwriteex.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

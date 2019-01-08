@@ -4,7 +4,7 @@ title: DateTime_SetFormat macro
 author: windows-sdk-content
 description: Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the DTM_SETFORMAT message explicitly.
 old-location: controls\DateTime_SetFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

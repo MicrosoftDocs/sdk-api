@@ -4,7 +4,7 @@ title: ImageList_LoadBitmap macro
 author: windows-sdk-content
 description: Calls the ImageList_LoadImage function to create an image list from the specified bitmap resource.
 old-location: controls\ImageList_LoadBitmap.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_loadbitmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

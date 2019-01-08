@@ -4,7 +4,7 @@ title: TSSD_ConnectionPoint
 author: windows-sdk-content
 description: Defines the IP address of a target.
 old-location: termserv\tssd_connectionpoint.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

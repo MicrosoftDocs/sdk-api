@@ -4,7 +4,7 @@ title: CertControlStore function
 author: windows-sdk-content
 description: Allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage.
 old-location: security\certcontrolstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 04cd9349-50c1-44b4-b080-631a24a80d70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

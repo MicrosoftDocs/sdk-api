@@ -4,7 +4,7 @@ title: CertFindSubjectInCTL function
 author: windows-sdk-content
 description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).
 old-location: security\certfindsubjectinctl.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e0c81531-e649-45bb-bafe-bced00c7b16a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

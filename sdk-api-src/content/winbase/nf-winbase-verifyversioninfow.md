@@ -4,7 +4,7 @@ title: VerifyVersionInfoW function
 author: windows-sdk-content
 description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.
 old-location: base\verifyversioninfo.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

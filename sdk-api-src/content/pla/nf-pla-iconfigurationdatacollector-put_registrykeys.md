@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::put_RegistryKeys
 author: windows-sdk-content
 description: Retrieves or sets a list of registry keys to collect.
 old-location: pla\iconfigurationdatacollector_registrykeys.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 990a5f92-2285-4461-8020-25028d2cab90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

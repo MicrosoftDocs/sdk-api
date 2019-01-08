@@ -4,7 +4,7 @@ title: CryptXmlGetAlgorithmInfo function
 author: windows-sdk-content
 description: Decodes the CRYPT_XML_ALGORITHM structure and returns information about the algorithm.
 old-location: security\cryptxmlgetalgorithminfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6def15be-d88f-4e2b-b579-eea7742d77b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

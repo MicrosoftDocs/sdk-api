@@ -4,7 +4,7 @@ title: IEnumSTATSTG::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning of the STATSTG structure array.
 old-location: stg\ienumstatstg_reset.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 696aaa93-1b56-4baf-a6be-753c7d6f5456
 ms.author: windowssdkdev
 ms.date: 12/5/2018

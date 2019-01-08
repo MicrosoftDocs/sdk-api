@@ -4,7 +4,7 @@ title: TreeView_GetCheckState macro
 author: windows-sdk-content
 description: Gets the check state of the specified item. You can also use the TVM_GETITEMSTATE message directly.
 old-location: controls\TreeView_GetCheckState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

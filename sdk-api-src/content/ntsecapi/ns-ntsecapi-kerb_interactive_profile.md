@@ -4,7 +4,7 @@ title: KERB_INTERACTIVE_PROFILE
 author: windows-sdk-content
 description: The KERB_INTERACTIVE_PROFILE structure contains information about an interactive logon profile. This structure is used by the LsaLogonUser function.
 old-location: security\kerb_interactive_profile.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8e9dd04b-8155-4f85-be00-ff9d8297deaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EventDescSetKeyword function
 author: windows-sdk-content
 description: Sets the Keyword member of the event descriptor.
 old-location: etw\eventdescsetkeyword_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: b1870a89-2e15-42b6-8441-82e6f9165540
 ms.author: windowssdkdev
 ms.date: 12/5/2018

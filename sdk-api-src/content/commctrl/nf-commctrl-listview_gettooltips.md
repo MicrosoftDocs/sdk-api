@@ -4,7 +4,7 @@ title: ListView_GetToolTips macro
 author: windows-sdk-content
 description: Gets the tooltip control that the list-view control uses to display tooltips. You can use this macro or send the LVM_GETTOOLTIPS message explicitly.
 old-location: controls\ListView_GetToolTips.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettooltips.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

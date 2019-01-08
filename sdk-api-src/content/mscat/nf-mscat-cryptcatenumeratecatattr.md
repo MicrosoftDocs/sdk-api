@@ -4,7 +4,7 @@ title: CryptCATEnumerateCatAttr function
 author: windows-sdk-content
 description: Enumerates the attributes associated with a catalog. This function has no associated import library.
 old-location: security\cryptcatenumeratecatattr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 57b6ff5c-e47e-41ac-8ec8-01a47ea77acf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

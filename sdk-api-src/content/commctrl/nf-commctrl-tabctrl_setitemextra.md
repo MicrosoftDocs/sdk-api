@@ -4,7 +4,7 @@ title: TabCtrl_SetItemExtra macro
 author: windows-sdk-content
 description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.
 old-location: controls\TabCtrl_SetItemExtra.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

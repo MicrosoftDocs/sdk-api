@@ -4,7 +4,7 @@ title: ITextFont::SetItalic
 author: windows-sdk-content
 description: Sets whether characters are in italics.
 old-location: controls\ITextFont_SetItalic.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setitalic.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextDocument2::GetProperty
 author: windows-sdk-content
 description: Retrieves the value of a property.
 old-location: controls\itextdocument2_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 30775a51-0e63-453e-ac94-39d4510002f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertSetCertificateContextProperty function
 author: windows-sdk-content
 description: Sets an extended property for a specified certificate context.
 old-location: security\certsetcertificatecontextproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b4a0c66d-997f-49cb-935a-9187320037f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

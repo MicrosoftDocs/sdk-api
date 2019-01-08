@@ -4,7 +4,7 @@ title: WlxWkstaLockedSAS function
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) and the workstation is locked.
 old-location: security\wlxwkstalockedsas.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7a9f8b00-857a-432e-bb49-2251504c46a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

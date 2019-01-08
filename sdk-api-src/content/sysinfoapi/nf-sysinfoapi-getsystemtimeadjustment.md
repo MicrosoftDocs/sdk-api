@@ -4,7 +4,7 @@ title: GetSystemTimeAdjustment function
 author: windows-sdk-content
 description: Determines whether the system is applying periodic time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 old-location: base\getsystemtimeadjustment.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 6c748726-c81d-4669-87a1-28aad0fccead
 ms.author: windowssdkdev
 ms.date: 12/5/2018

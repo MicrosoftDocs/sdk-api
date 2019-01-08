@@ -4,7 +4,7 @@ title: CertFindCRLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
 old-location: security\certfindcrlinstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertServerPolicy
 author: windows-sdk-content
 description: Allows the policy module to communicate with Certificate Services.
 old-location: security\icertserverpolicy.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7d16161e-9827-46a0-9989-30ebca792bb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

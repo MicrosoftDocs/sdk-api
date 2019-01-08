@@ -4,7 +4,7 @@ title: ITextServices::OnTxInPlaceActivate
 author: windows-sdk-content
 description: Notifies the text services object that this control is in-place active.
 old-location: controls\ITextServices_OnTxInPlaceActivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplaceactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

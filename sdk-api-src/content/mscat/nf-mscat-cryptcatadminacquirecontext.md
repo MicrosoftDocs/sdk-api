@@ -4,7 +4,7 @@ title: CryptCATAdminAcquireContext function
 author: windows-sdk-content
 description: Acquires a handle to a catalog administrator context.
 old-location: security\cryptcatadminacquirecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

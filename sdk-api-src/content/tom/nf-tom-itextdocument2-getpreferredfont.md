@@ -4,7 +4,7 @@ title: ITextDocument2::GetPreferredFont
 author: windows-sdk-content
 description: Retrieves the preferred font for a particular character repertoire and character position.
 old-location: controls\itextdocument2_getpreferredfont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d07c3093-8050-4c62-8e90-3b09cdb10700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

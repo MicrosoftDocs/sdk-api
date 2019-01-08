@@ -4,7 +4,7 @@ title: SIP_CAP_SET_V2
 author: windows-sdk-content
 description: Defines the capabilities of a subject interface package (SIP).
 old-location: security\sip_cap_set.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

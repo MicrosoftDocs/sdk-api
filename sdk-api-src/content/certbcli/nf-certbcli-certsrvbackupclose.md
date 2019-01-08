@@ -4,7 +4,7 @@ title: CertSrvBackupClose function
 author: windows-sdk-content
 description: Closes the file opened by the CertSrvBackupOpenFile function.
 old-location: security\certsrvbackupclose.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
 ms.author: windowssdkdev
 ms.date: 12/5/2018

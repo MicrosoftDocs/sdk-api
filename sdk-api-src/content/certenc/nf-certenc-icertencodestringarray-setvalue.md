@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::SetValue
 author: windows-sdk-content
 description: Sets a string value at the specified index of the string array.
 old-location: security\icertencodestringarray_setvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

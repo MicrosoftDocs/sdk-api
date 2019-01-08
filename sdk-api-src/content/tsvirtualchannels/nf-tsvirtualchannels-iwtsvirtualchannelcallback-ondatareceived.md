@@ -4,7 +4,7 @@ title: IWTSVirtualChannelCallback::OnDataReceived
 author: windows-sdk-content
 description: Notifies the user about data that is being received.
 old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5876ba1a-3f37-4140-b448-91978aa7b0c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

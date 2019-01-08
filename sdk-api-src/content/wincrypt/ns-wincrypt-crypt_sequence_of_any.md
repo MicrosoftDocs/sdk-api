@@ -4,7 +4,7 @@ title: CRYPT_SEQUENCE_OF_ANY
 author: windows-sdk-content
 description: Contains an arbitrary list of encoded BLOBs.
 old-location: security\crypt_sequence_of_any.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9500fa37-742b-4d37-8f45-0fb3c4cdda8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICEnroll::getCertFromPKCS7
 author: windows-sdk-content
 description: Retrieves the certificate, contained in a PKCS #7 message, that was issued in response to a PKCS #10 certificate request. This method was first defined by the ICEnroll interface.
 old-location: security\icenroll4_getcertfrompkcs7.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3094cd58-d123-40f1-ac81-dffdfb56d47d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

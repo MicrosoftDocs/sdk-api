@@ -4,7 +4,7 @@ title: TreeView_SetUnicodeFormat macro
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\TreeView_SetUnicodeFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

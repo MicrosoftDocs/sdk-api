@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::EnumCertViewColumn
 author: windows-sdk-content
 description: Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewcolumn.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 78fd2431-c4c7-4df9-856a-69665fa8c063
 ms.author: windowssdkdev
 ms.date: 12/5/2018

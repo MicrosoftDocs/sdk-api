@@ -4,7 +4,7 @@ title: PROVIDER_FIELD_INFOARRAY
 author: windows-sdk-content
 description: Defines metadata information about the requested field.
 old-location: etw\provider_field_infoarray_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c3755ca2-7b17-4f86-9ae8-34621f8b8c1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

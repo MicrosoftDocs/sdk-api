@@ -4,7 +4,7 @@ title: BluetoothSetServiceState function
 author: windows-sdk-content
 description: Enables or disables services for a Bluetooth device.
 old-location: bluetooth\bluetoothsetservicestate.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9c68139c-6f55-4b5a-bea0-64681e32a7c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

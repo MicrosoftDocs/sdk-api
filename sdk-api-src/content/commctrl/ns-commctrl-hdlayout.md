@@ -4,7 +4,7 @@ title: HDLAYOUT
 author: windows-sdk-content
 description: Contains information used to set the size and position of a header control. HDLAYOUT is used with the HDM_LAYOUT message. This structure supersedes the HD_LAYOUT structure.
 old-location: controls\HDLAYOUT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\hdlayout.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

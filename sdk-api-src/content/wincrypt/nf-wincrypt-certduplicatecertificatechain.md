@@ -4,7 +4,7 @@ title: CertDuplicateCertificateChain function
 author: windows-sdk-content
 description: The CertDuplicateCertificateChain function duplicates a pointer to a certificate chain by incrementing the chain's reference count.
 old-location: security\certduplicatecertificatechain.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fea72a3e-5a22-47c7-8f6e-0d76fc3339f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

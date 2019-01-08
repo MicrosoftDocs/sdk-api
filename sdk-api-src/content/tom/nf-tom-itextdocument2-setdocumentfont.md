@@ -4,7 +4,7 @@ title: ITextDocument2::SetDocumentFont
 author: windows-sdk-content
 description: Sets the default character formatting for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_setdocumentfont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1fbc000a-76c2-4b80-856b-42f2e1829e93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

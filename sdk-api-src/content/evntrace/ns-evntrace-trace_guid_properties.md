@@ -4,7 +4,7 @@ title: TRACE_GUID_PROPERTIES
 author: windows-sdk-content
 description: The TRACE_GUID_PROPERTIES structure contains information about an event trace provider.
 old-location: etw\trace_guid_properties.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 849f2d34-14e0-43e8-a735-d46e94671725
 ms.author: windowssdkdev
 ms.date: 12/5/2018

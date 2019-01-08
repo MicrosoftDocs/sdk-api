@@ -4,7 +4,7 @@ title: DPA_SaveStream function
 author: windows-sdk-content
 description: Saves the dynamic pointer array (DPA) to a stream by writing out a header, and then calling the specified callback function to write each element.
 old-location: controls\DPA_SaveStream.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_savestream.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

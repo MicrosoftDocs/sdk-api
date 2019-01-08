@@ -2,7 +2,7 @@
 UID: TP:gamingdvcinfo
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

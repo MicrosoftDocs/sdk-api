@@ -4,7 +4,7 @@ title: TBREPLACEBITMAP
 author: windows-sdk-content
 description: Used with the TB_REPLACEBITMAP message to replace one toolbar bitmap with another.
 old-location: controls\TBREPLACEBITMAP.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbreplacebitmap.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

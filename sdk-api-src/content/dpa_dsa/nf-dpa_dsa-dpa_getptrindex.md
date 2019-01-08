@@ -4,7 +4,7 @@ title: DPA_GetPtrIndex function
 author: windows-sdk-content
 description: Gets the index of a matching item found in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_getptrindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

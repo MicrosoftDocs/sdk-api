@@ -4,7 +4,7 @@ title: ITextPara2::SetDuplicate2
 author: windows-sdk-content
 description: Sets the properties of this object by copying the properties of another text paragraph object.
 old-location: controls\itextpara2_setduplicate2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 403fd23b-5d66-4e30-b1aa-eec9e4676318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

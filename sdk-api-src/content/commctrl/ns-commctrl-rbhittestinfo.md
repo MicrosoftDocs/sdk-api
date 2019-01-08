@@ -4,7 +4,7 @@ title: RBHITTESTINFO
 author: windows-sdk-content
 description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
 old-location: controls\RBHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

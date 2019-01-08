@@ -4,7 +4,7 @@ title: ITsSbSession::get_Domain
 author: windows-sdk-content
 description: Retrieves the domain name of the user.
 old-location: termserv\itssbsession_domain.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
 ms.author: windowssdkdev
 ms.date: 12/5/2018

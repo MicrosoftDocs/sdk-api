@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::PreDisconnect
 author: windows-sdk-content
 description: Notifies the protocol that the session is about to be disconnected.
 old-location: termserv\iwrdsprotocolconnection_predisconnect.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 988032B5-94AA-40ED-B571-E7C2E652D023
 ms.author: windowssdkdev
 ms.date: 12/5/2018

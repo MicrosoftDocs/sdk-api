@@ -4,7 +4,7 @@ title: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 author: windows-sdk-content
 description: Used with the CryptInstallDefaultContext function to contain an array of object identifier strings.
 old-location: security\crypt_default_context_multi_oid_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2826ee4f-55b7-4161-8698-3a9b59190dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

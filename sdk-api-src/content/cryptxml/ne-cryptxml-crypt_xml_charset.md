@@ -4,7 +4,7 @@ title: CRYPT_XML_CHARSET
 author: windows-sdk-content
 description: Used to specify the character set used in the XML.
 old-location: security\crypt_xml_charset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3f115ac1-a8ed-4151-b3f3-7ddb695802a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

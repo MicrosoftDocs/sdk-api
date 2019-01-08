@@ -4,7 +4,7 @@ title: SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS
 author: windows-sdk-content
 description: Describes the status of the SEC application protocol negotiation.
 old-location: security\sec_application_protocol_negotiation_status.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 64236EA6-C0CE-484A-9B12-4E653790D281
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BluetoothSelectDevices function
 author: windows-sdk-content
 description: Enables Bluetooth device selection.
 old-location: bluetooth\bluetoothselectdevices.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

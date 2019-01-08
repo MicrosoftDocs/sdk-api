@@ -4,7 +4,7 @@ title: ICEnroll::get_HashAlgorithm
 author: windows-sdk-content
 description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
 old-location: security\icenroll4_hashalgorithm.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 48f8a47b-0ab4-4150-b8cf-37e57fb04d3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

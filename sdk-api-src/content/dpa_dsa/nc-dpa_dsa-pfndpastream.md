@@ -4,7 +4,7 @@ title: PFNDPASTREAM
 author: windows-sdk-content
 description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.
 old-location: controls\PFNDPASTREAM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: HTTPSPolicyCallbackData
 author: windows-sdk-content
 description: Holds policy information used in the verification of Secure Sockets Layer (SSL) client/server certificate chains.
 old-location: security\ssl_extra_cert_chain_policy_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
 ms.author: windowssdkdev
 ms.date: 12/5/2018

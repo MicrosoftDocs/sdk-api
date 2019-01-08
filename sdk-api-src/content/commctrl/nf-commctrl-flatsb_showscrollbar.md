@@ -4,7 +4,7 @@ title: FlatSB_ShowScrollBar function
 author: windows-sdk-content
 description: Shows or hides a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard ShowScrollBar function.
 old-location: controls\FlatSB_ShowScrollBar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_showscrollbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITraceEvent::SetTimeStamp
 author: windows-sdk-content
 description: Sets the time at which an event occurred.
 old-location: etw\ievent_settimestamp.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: e1f76887-8edd-414e-bee3-36b61709c2b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

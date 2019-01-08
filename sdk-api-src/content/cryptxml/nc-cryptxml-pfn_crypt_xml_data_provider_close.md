@@ -4,7 +4,7 @@ title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
 author: windows-sdk-content
 description: Releases the data provider.
 old-location: security\pfn_crypt_xml_data_provider_close.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 886fbe92-f9ab-49d4-968a-afeadbf2f030
 ms.author: windowssdkdev
 ms.date: 12/5/2018

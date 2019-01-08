@@ -4,7 +4,7 @@ title: KERB_ADD_CREDENTIALS_REQUEST_EX
 author: windows-sdk-content
 description: Specifies a message to add, remove, or replace an extra server credential for a logon session, and the service principal names (SPNs) to be associated with that credential.
 old-location: security\kerb_add_credentials_request_ex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9e806fce-9b3e-4bc9-bd75-a692f0ca5680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

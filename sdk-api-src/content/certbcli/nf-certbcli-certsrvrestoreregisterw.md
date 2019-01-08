@@ -4,7 +4,7 @@ title: CertSrvRestoreRegisterW function
 author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregister.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4549ba26-d52c-4779-b27d-126cef6ef15d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

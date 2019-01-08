@@ -4,7 +4,7 @@ title: CreateStatusWindowW function
 author: windows-sdk-content
 description: Creates a status window, which is typically used to display the status of an application.
 old-location: controls\CreateStatusWindow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

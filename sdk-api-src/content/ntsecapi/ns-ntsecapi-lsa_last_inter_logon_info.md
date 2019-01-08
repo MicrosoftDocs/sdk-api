@@ -4,7 +4,7 @@ title: LSA_LAST_INTER_LOGON_INFO
 author: windows-sdk-content
 description: Contains information about a logon session.
 old-location: security\lsa_last_inter_logon_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: FB935FED-571F-4298-8F83-0F805408179D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IIdentityStore::EnumerateIdentities
 author: windows-sdk-content
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 old-location: security\iidentitystore_enumerateidentities.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.author: windowssdkdev
 ms.date: 12/5/2018

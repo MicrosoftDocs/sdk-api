@@ -4,7 +4,7 @@ title: IRichEditOleCallback::ShowContainerUI
 author: windows-sdk-content
 description: Indicates whether or not the application is to display its container UI.
 old-location: controls\IRichEditOleCallback_ShowContainerUI.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackshowcontainerui.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

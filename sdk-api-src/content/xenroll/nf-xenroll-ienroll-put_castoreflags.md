@@ -4,7 +4,7 @@ title: IEnroll::put_CAStoreFlags
 author: windows-sdk-content
 description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\ienroll4_castoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 294a8a38-9c76-4e5c-ac11-2fcb8b81727e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::get_LogApiNamesOnly
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA logs only the function name.
 old-location: pla\iapitracingdatacollector_logapinamesonly.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bb3cc333-52d9-416c-9db2-654a254f4477
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WlxRemoveStatusMessage function
 author: windows-sdk-content
 description: Winlogon calls this function to tell the GINA DLL to stop displaying the status message.
 old-location: security\wlxremovestatusmessage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b8e64f7b-04fc-4dbe-8670-314ff8838ba4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

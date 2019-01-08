@@ -4,7 +4,7 @@ title: ListView_GetColumnOrderArray macro
 author: windows-sdk-content
 description: Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the LVM_GETCOLUMNORDERARRAY message explicitly.
 old-location: controls\ListView_GetColumnOrderArray.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcolumnorderarray.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

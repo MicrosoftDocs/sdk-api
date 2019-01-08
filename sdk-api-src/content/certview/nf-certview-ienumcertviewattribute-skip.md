@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::Skip
 author: windows-sdk-content
 description: Skips a specified number of attributes in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_skip.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

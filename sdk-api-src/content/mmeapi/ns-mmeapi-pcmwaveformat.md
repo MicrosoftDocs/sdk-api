@@ -11,7 +11,7 @@ ms.date: 12/5/2018
 ms.keywords: "*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag"
 ms.topic: struct
 req.header: mmeapi.h
-req.include-header: Windows.h
+req.include-header: Mmreg.h, Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]

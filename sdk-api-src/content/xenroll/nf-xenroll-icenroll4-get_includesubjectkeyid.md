@@ -4,7 +4,7 @@ title: ICEnroll4::get_IncludeSubjectKeyID
 author: windows-sdk-content
 description: Determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\icenroll4_includesubjectkeyid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 12150ca2-59cc-402e-b25e-cc98b940ecf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

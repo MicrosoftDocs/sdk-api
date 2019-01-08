@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::SetNameCount
 author: windows-sdk-content
 description: Sets a name count for the specified distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnamecount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ce27adfd-e21a-4e8d-882e-72041f97958a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollector::get_FileNameFormat
 author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the file name.
 old-location: pla\idatacollector_filenameformat.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3a7744a6-feb3-4aea-856d-8496aecc0176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

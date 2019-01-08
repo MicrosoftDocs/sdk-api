@@ -4,7 +4,7 @@ title: IWRdsProtocolManager::NotifySessionOfServiceStart
 author: windows-sdk-content
 description: Notifies the protocol provider that the Remote Desktop Services service has started for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestart.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: b0beb07a-69a0-4cb8-adcb-f95d8fd721df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

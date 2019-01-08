@@ -4,7 +4,7 @@ title: LogTimeProvEventFunc
 author: windows-sdk-content
 description: Logs a time provider event in the event log.
 old-location: base\logtimeprovevent.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: ddaea389-3f58-4011-bcf8-c60546d1bce1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

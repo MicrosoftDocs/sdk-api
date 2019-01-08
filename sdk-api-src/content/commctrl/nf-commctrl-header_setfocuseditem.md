@@ -4,7 +4,7 @@ title: Header_SetFocusedItem macro
 author: windows-sdk-content
 description: Sets the focus to a specified item in a header control. Use this macro or send the HDM_SETFOCUSEDITEM message explicitly.
 old-location: controls\Header_SetFocusedItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setfocuseditem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

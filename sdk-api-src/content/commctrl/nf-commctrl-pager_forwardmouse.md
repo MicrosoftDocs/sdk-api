@@ -4,7 +4,7 @@ title: Pager_ForwardMouse macro
 author: windows-sdk-content
 description: Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards WM_MOUSEMOVE messages to the contained window. You can use this macro or send the PGM_FORWARDMOUSE message explicitly.
 old-location: controls\Pager_ForwardMouse.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_forwardmouse.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

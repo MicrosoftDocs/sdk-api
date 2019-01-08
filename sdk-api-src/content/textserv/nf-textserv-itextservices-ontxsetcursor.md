@@ -4,7 +4,7 @@ title: ITextServices::OnTxSetCursor
 author: windows-sdk-content
 description: Notifies the text services object to set the cursor.
 old-location: controls\ITextServices_OnTxSetCursor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

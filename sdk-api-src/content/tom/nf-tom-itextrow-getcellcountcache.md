@@ -4,7 +4,7 @@ title: ITextRow::GetCellCountCache
 author: windows-sdk-content
 description: Gets the count of cells cached for this row.
 old-location: controls\itextrow_getcellcountcache.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e94abbcb-2a7a-4904-a832-0d2158d49010
 ms.author: windowssdkdev
 ms.date: 12/5/2018

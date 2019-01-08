@@ -4,7 +4,7 @@ title: CRYPTNET_URL_CACHE_RESPONSE_INFO
 author: windows-sdk-content
 description: Contains response information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_response_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 26cd6065-8be9-4b3b-8207-5ad620e9b537
 ms.author: windowssdkdev
 ms.date: 12/5/2018

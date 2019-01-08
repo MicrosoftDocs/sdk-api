@@ -4,7 +4,7 @@ title: ITsSbOrchestrationNotifySink
 author: windows-sdk-content
 description: Exposes methods that return an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 767b6e73-ee0d-4802-99ff-ac37880a0884
 ms.author: windowssdkdev
 ms.date: 12/5/2018

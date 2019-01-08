@@ -4,7 +4,7 @@ title: ICEnroll4::enumPendingRequest
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_enumpendingrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 566974d1-79ec-4cbd-ae84-85e0a78edf58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

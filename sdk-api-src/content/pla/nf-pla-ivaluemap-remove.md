@@ -4,7 +4,7 @@ title: IValueMap::Remove
 author: windows-sdk-content
 description: Removes an item from the collection.
 old-location: pla\ivaluemap_remove.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

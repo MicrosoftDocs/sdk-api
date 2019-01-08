@@ -4,7 +4,7 @@ title: IAudioEndpointRT::ProcessingComplete
 author: windows-sdk-content
 description: Notifies the endpoint that a processing pass has been completed.
 old-location: termserv\iaudioendpointrt_processingcomplete.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

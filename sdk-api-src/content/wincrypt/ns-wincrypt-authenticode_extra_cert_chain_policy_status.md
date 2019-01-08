@@ -4,7 +4,7 @@ title: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
 author: windows-sdk-content
 description: The AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure holds additional Authenticode policy information for chain verification of files.
 old-location: security\authenticode_extra_cert_chain_policy_status.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bc123d07-0d59-49e0-b0e3-23dadb270347
 ms.author: windowssdkdev
 ms.date: 12/5/2018

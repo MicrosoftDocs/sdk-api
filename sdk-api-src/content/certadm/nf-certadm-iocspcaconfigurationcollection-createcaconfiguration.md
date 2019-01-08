@@ -4,7 +4,7 @@ title: IOCSPCAConfigurationCollection::CreateCAConfiguration
 author: windows-sdk-content
 description: Creates a new certification authority (CA) configuration and adds it to the configuration set.
 old-location: security\iocspcaconfigurationcollection_createcaconfiguration_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d1c47402-77b1-4c43-8d57-20b9dd2682f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

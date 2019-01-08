@@ -4,7 +4,7 @@ title: ImageList_GetBkColor function
 author: windows-sdk-content
 description: Retrieves the current background color for an image list.
 old-location: controls\ImageList_GetBkColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

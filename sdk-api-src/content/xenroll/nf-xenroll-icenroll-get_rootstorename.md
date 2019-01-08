@@ -4,7 +4,7 @@ title: ICEnroll::get_RootStoreName
 author: windows-sdk-content
 description: Sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\icenroll4_rootstorename.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5b686ade-e8ee-4c59-ab90-05088f575acd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_ProviderCLSID
 author: windows-sdk-content
 description: Gets or sets the CLSID of the revocation information provider used by the CA configuration.
 old-location: security\iocspcaconfiguration_providerclsid_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ea109a9-00ed-46b5-a58c-7dc5bc936102
 ms.author: windowssdkdev
 ms.date: 12/5/2018

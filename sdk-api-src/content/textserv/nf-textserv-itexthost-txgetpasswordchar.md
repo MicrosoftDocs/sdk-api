@@ -4,7 +4,7 @@ title: ITextHost::TxGetPasswordChar
 author: windows-sdk-content
 description: Requests the text host's password character.
 old-location: controls\ITextHost_TxGetPasswordChar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpasswordchar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SecPkgContext_LastClientTokenStatus
 author: windows-sdk-content
 description: Specifies whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkgcontext_lastclienttokenstatus.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

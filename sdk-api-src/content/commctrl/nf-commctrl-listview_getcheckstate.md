@@ -4,7 +4,7 @@ title: ListView_GetCheckState macro
 author: windows-sdk-content
 description: Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the LVS_EX_CHECKBOXES style.
 old-location: controls\ListView_GetCheckState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcheckstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

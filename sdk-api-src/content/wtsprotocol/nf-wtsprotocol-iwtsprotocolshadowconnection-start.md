@@ -4,7 +4,7 @@ title: IWTSProtocolShadowConnection::Start
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Start is no longer available. Instead, use IWRdsProtocolShadowConnection::Start.
 old-location: termserv\iwtsprotocolshadowconnection_start.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

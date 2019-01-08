@@ -4,7 +4,7 @@ title: DSA_SetItem function
 author: windows-sdk-content
 description: Sets the contents of an element in a dynamic structure array (DSA).
 old-location: controls\DSA_SetItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

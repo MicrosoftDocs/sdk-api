@@ -4,7 +4,7 @@ title: ICEnroll::get_CAStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\icenroll4_castoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cde75e0f-5074-44f7-a101-f503913a58f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

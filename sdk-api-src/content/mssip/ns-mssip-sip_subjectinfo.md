@@ -4,7 +4,7 @@ title: SIP_SUBJECTINFO
 author: windows-sdk-content
 description: Specifies subject information data to the subject interface package (SIP) APIs.
 old-location: security\sip_subjectinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

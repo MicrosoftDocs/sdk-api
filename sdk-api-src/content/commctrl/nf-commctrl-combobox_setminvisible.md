@@ -4,7 +4,7 @@ title: ComboBox_SetMinVisible macro
 author: windows-sdk-content
 description: Sets the minimum number of visible items in the drop-down list of a combo box.
 old-location: controls\ComboBox_SetMinVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setminvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextStrings::Remove
 author: windows-sdk-content
 description: Removes a string from a string collection, starting at an index.
 old-location: controls\itextstrings_remove.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1909e8b6-ee18-4d17-87cf-29bb3553bb25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

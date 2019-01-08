@@ -4,7 +4,7 @@ title: IRemoteDesktopClientTouchPointer
 author: windows-sdk-content
 description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

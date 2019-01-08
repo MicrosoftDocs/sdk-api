@@ -4,7 +4,7 @@ title: MAP_VALUETYPE
 author: windows-sdk-content
 description: Defines if the value map value is in a ULONG data type or a string.
 old-location: etw\map_valuetype_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: a17e5214-29d3-465f-9785-0cc8965a42c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

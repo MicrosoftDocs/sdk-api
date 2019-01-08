@@ -4,7 +4,7 @@ title: ITextFont::GetSize
 author: windows-sdk-content
 description: Gets the font size.
 old-location: controls\ITextFont_GetSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

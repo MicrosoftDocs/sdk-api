@@ -4,7 +4,7 @@ title: IWorkspaceScriptable2::ResourceDismissed
 author: windows-sdk-content
 description: Alerts the user that a resource has been disabled or otherwise dismissed.
 old-location: termserv\iworkspacescriptable2_resourcedismissed.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e45d806c-56de-4f76-a76a-ba6db63f4ac2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

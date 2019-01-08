@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::Close
 author: windows-sdk-content
 description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.
 old-location: termserv\iwtsprotocolconnection_close.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 746f5f06-7068-461b-8adf-b35d0c318942
 ms.author: windowssdkdev
 ms.date: 12/5/2018

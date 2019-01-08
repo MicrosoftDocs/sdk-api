@@ -4,7 +4,7 @@ title: CRL_DIST_POINT
 author: windows-sdk-content
 description: Identifies a single certificate revocation list (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked.
 old-location: security\crl_dist_point.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991
 ms.author: windowssdkdev
 ms.date: 12/5/2018

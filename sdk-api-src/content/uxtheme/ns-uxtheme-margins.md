@@ -4,7 +4,7 @@ title: MARGINS
 author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

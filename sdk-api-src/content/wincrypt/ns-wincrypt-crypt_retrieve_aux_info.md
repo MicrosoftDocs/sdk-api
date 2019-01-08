@@ -4,7 +4,7 @@ title: CRYPT_RETRIEVE_AUX_INFO
 author: windows-sdk-content
 description: Contains optional information to pass to the CryptRetrieveObjectByUrl function.
 old-location: security\crypt_retrieve_aux_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 33ea51e7-c3e3-4cf8-ade0-099cb8b2e651
 ms.author: windowssdkdev
 ms.date: 12/5/2018

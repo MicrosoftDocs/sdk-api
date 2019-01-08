@@ -4,7 +4,7 @@ title: ICertSrvSetup::PostUnInstall
 author: windows-sdk-content
 description: Is not implemented and is reserved for future use.
 old-location: security\icertsrvsetup_postuninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

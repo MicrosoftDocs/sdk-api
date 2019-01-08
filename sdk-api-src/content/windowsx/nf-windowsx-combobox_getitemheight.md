@@ -4,7 +4,7 @@ title: ComboBox_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the height of list items in a combo box. You can use this macro or send the CB_GETITEMHEIGHT message explicitly.
 old-location: controls\ComboBox_GetItemHeight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getitemheight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

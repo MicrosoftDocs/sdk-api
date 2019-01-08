@@ -4,7 +4,7 @@ title: Header_GetItemDropDownRect macro
 author: windows-sdk-content
 description: Gets the coordinates of the drop-down button for a specified item in a header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETITEMDROPDOWNRECT message explicitly.
 old-location: controls\Header_GetItemDropDownRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemdropdownrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

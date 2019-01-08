@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_ProcessMode
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
 old-location: pla\itracedatacollector_processmode.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 63962145-7627-46bc-9be1-3a0738bdb1ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

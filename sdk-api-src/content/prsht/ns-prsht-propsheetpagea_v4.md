@@ -4,7 +4,7 @@ title: PROPSHEETPAGEA_V4
 author: windows-sdk-content
 description: Defines a page in a property sheet.
 old-location: controls\PROPSHEETPAGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

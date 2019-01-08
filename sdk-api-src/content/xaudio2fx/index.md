@@ -2,7 +2,7 @@
 UID: NA:xaudio2fx
 ms.assetid: 5f39ed02-5d31-35b4-8add-f7d37e0d9cbf
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

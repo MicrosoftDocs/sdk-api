@@ -4,7 +4,7 @@ title: ITextSelection::MoveDown
 author: windows-sdk-content
 description: Mimics the functionality of the Down Arrow and Page Down keys.
 old-location: controls\ITextSelection_MoveDown.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movedown.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

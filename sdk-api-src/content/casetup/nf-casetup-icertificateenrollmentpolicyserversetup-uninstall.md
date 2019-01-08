@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::UnInstall
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Policy (CEP) Web Service.
 old-location: security\icertificateenrollmentpolicyserversetup_uninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

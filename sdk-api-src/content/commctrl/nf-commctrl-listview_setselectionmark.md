@@ -4,7 +4,7 @@ title: ListView_SetSelectionMark macro
 author: windows-sdk-content
 description: Sets the selection mark in a list-view control. You can use this macro or send the LVM_SETSELECTIONMARK message explicitly.
 old-location: controls\ListView_SetSelectionMark.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectionmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

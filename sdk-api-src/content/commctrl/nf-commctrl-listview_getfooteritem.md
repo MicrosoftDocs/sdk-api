@@ -4,7 +4,7 @@ title: ListView_GetFooterItem macro
 author: windows-sdk-content
 description: Gets information on a footer item for a specified list-view control. Use this macro or send the LVM_GETFOOTERITEM message explicitly.
 old-location: controls\ListView_GetFooterItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

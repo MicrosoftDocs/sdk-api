@@ -4,7 +4,7 @@ title: HMAC_INFO
 author: windows-sdk-content
 description: The HMAC_INFO structure specifies the hash algorithm and the inner and outer strings that are to be used to calculate the HMAC hash.
 old-location: security\hmac_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0c9a9b60-077d-48c0-a5a6-01640cfc0c4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

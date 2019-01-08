@@ -4,7 +4,7 @@ title: IOCSPCAConfigurationCollection
 author: windows-sdk-content
 description: Represents a set of certificates for which an Online Certificate Status Protocol (OCSP) service has been configured to provide certificate status responses.
 old-location: security\iocspcaconfigurationcollection.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

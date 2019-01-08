@@ -4,7 +4,7 @@ title: RtlTimeToSecondsSince1970 function
 author: windows-sdk-content
 description: Converts the specified 64-bit system time to the number of seconds since the beginning of January 1, 1970.
 old-location: base\rtltimetosecondssince1970.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: cb2e041a-cbbb-4572-85da-b282fa692261
 ms.author: windowssdkdev
 ms.date: 12/5/2018

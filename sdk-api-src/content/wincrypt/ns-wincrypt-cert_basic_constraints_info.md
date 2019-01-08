@@ -4,7 +4,7 @@ title: CERT_BASIC_CONSTRAINTS_INFO
 author: windows-sdk-content
 description: The CERT_BASIC_CONSTRAINTS_INFO structure contains information that indicates whether the certified subject can act as a certification authority (CA), an end entity, or both.
 old-location: security\cert_basic_constraints_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6603b627-5e5d-48bc-b200-c8dcdd646994
 ms.author: windowssdkdev
 ms.date: 12/5/2018

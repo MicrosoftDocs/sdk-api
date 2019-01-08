@@ -4,7 +4,7 @@ title: ListView_SetUnicodeFormat macro
 author: windows-sdk-content
 description: Sets the Unicode character format flag for the control.
 old-location: controls\ListView_SetUnicodeFormat.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setunicodeformat.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

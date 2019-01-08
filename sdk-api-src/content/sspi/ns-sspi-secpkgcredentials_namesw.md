@@ -4,7 +4,7 @@ title: SecPkgCredentials_NamesW
 author: windows-sdk-content
 description: The SecPkgCredentials_Names structure holds the name of the user associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_names.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

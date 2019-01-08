@@ -4,7 +4,7 @@ title: ICertRequest::GetLastStatus
 author: windows-sdk-content
 description: Gets the last return code for this request. This returns the error code information, rather than the disposition of the request.
 old-location: security\icertrequest2_getlaststatus.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebe5cfa7-6bfd-4454-9272-64e3b1bf0ae2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

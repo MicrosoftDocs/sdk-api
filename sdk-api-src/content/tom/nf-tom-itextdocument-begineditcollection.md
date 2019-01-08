@@ -4,7 +4,7 @@ title: ITextDocument::BeginEditCollection
 author: windows-sdk-content
 description: Turns on edit collection (also called undo grouping).
 old-location: controls\ITextDocument_BeginEditCollection.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\begineditcollection.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

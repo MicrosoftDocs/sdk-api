@@ -4,7 +4,7 @@ title: ICEnroll::get_MyStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store specified by the MyStoreName property.
 old-location: security\icenroll4_mystoretype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 948a9012-b2ac-4bf0-8cae-690ea3ecdb2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptReleaseContext function
 author: windows-sdk-content
 description: Releases the handle of a cryptographic service provider (CSP) and a key container.
 old-location: security\cryptreleasecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614
 ms.author: windowssdkdev
 ms.date: 12/5/2018

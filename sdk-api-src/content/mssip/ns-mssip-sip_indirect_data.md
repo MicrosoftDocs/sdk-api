@@ -4,7 +4,7 @@ title: SIP_INDIRECT_DATA
 author: windows-sdk-content
 description: Contains the digest of the hashed subject information.
 old-location: security\sip_indirect_data.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253
 ms.author: windowssdkdev
 ms.date: 12/5/2018

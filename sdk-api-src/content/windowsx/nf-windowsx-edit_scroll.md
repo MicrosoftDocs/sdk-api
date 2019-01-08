@@ -4,7 +4,7 @@ title: Edit_Scroll macro
 author: windows-sdk-content
 description: Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the EM_SCROLL message explicitly.
 old-location: controls\Edit_Scroll.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scroll.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

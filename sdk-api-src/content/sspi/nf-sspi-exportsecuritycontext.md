@@ -4,7 +4,7 @@ title: ExportSecurityContext function
 author: windows-sdk-content
 description: The ExportSecurityContext function creates a serialized representation of a security context that can later be imported into a different process by calling ImportSecurityContext.
 old-location: security\exportsecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4ebc7f37-b948-4c78-973f-0a74e55c7ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

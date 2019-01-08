@@ -4,7 +4,7 @@ title: IAudioEndpoint::GetLatency
 author: windows-sdk-content
 description: Gets the latency of the audio endpoint.
 old-location: termserv\iaudioendpoint_getlatency.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9afca6b7-2e0e-40a1-bb4a-932dad21b9eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

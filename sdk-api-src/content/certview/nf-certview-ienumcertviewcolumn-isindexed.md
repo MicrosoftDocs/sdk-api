@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::IsIndexed
 author: windows-sdk-content
 description: Reports whether the data in the column is indexed.
 old-location: security\ienumcertviewcolumn_isindexed.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

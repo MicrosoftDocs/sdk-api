@@ -4,7 +4,7 @@ title: CENTRAL_ACCESS_POLICY
 author: windows-sdk-content
 description: Represents a central access policy that contains a set of central access policy entries.
 old-location: security\central_access_policy.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
 ms.author: windowssdkdev
 ms.date: 12/5/2018

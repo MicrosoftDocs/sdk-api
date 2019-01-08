@@ -4,7 +4,7 @@ title: ICertManageModule::SetProperty
 author: windows-sdk-content
 description: Allows a module to set a property value.
 old-location: security\icertmanagemodule_setproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

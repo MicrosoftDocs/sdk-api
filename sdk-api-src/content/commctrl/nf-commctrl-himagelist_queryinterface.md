@@ -4,7 +4,7 @@ title: HIMAGELIST_QueryInterface function
 author: windows-sdk-content
 description: Retrieves a pointer to an IImageList or IImageList2 object that corresponds to the image list's HIMAGELIST handle.
 old-location: controls\HIMAGELIST_QueryInterface.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\himagelist_queryinterface.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

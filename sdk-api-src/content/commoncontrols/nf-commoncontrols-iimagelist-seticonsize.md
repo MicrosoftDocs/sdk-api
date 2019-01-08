@@ -4,7 +4,7 @@ title: IImageList::SetIconSize
 author: windows-sdk-content
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\IImageList_SetIconSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\seticonsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

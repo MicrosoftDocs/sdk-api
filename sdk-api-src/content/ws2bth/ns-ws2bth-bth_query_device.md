@@ -4,7 +4,7 @@ title: BTH_QUERY_DEVICE
 author: windows-sdk-content
 description: The BTH_QUERY_DEVICE structure is used when querying for the presence of a Bluetooth device.
 old-location: bluetooth\bth_query_device.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DateTime_GetMonthCal macro
 author: windows-sdk-content
 description: Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the DTM_GETMONTHCAL message explicitly.
 old-location: controls\DateTime_GetMonthCal.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcal.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

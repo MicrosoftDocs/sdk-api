@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_FUNCTIONS
 author: windows-sdk-content
 description: Defines the functions used by a cryptographic service provider (CSP) for WinTrust operations.
 old-location: security\crypt_provider_functions.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2c00f8ec-e262-4df8-8984-a2702a4162bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

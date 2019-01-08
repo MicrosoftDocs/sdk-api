@@ -4,7 +4,7 @@ title: IEnroll::acceptFilePKCS7WStr
 author: windows-sdk-content
 description: Accepts and processes a PKCS #7 message containing a certificate, then stores the message to a file.
 old-location: security\ienroll4_acceptfilepkcs7wstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9c2b99df-769b-457b-b5c5-7690b73d6f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

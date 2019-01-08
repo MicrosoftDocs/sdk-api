@@ -4,7 +4,7 @@ title: ITextDocument2::GetSelection2
 author: windows-sdk-content
 description: Gets the active selection.
 old-location: controls\itextdocument2_getselection2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a81fde9e-aef8-49cf-88b2-d0416195d70a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

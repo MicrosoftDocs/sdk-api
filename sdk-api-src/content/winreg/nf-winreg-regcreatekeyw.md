@@ -4,7 +4,7 @@ title: RegCreateKeyW function
 author: windows-sdk-content
 description: Creates the specified registry key. If the key already exists in the registry, the function opens it.
 old-location: base\regcreatekey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: cb4d30f4-e288-41e8-86e0-807c313db53d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PWLX_GET_OPTION
 author: windows-sdk-content
 description: Called by GINA to retrieve the current value of an option.
 old-location: security\wlxgetoption.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 724477d4-ec56-44bd-801e-23c225bafd03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

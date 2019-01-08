@@ -4,7 +4,7 @@ title: IEnumCERTVIEWROW::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 76bee5db-0443-4673-a59c-0198587736dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

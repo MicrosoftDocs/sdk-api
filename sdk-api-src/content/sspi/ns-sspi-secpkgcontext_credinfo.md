@@ -4,7 +4,7 @@ title: SecPkgContext_CredInfo
 author: windows-sdk-content
 description: Specifies the type of credentials used to create a client context.
 old-location: security\secpkgcontext_credinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5c2c6d01-5de3-4dd1-9fa2-cce9eadd6902
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTS_CERT_TYPE
 author: windows-sdk-content
 description: Contains values that specify the type of certificate used to obtain a license.
 old-location: termserv\wts_cert_type.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: bf3dcb94-e788-4c60-ad4e-001ca040c6b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

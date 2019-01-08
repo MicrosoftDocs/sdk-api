@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::put_QueryNetworkAdapters
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 42ec786f-abfc-4331-9e75-ce894a2a5110
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Server
 author: windows-sdk-content
 description: Retrieves the name of the server where the data collector set is run.
 old-location: pla\idatacollectorset_get_server.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 43098848-1b1f-4ce1-a34c-62bb493aaf0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

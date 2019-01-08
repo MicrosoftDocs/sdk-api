@@ -4,7 +4,7 @@ title: ItsPubPlugin::get_pluginVersion
 author: windows-sdk-content
 description: Retrieves the version of the plug-in.
 old-location: termserv\itspubplugin_pluginversion.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

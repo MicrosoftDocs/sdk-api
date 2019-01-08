@@ -4,7 +4,7 @@ title: CertFindCTLInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate trust list (CTL) context that matches search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindctlinstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e5ed3b22-e96f-4e7d-a20e-eebed0a84d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
 author: windows-sdk-content
 description: Called to decode and return the hash algorithm identifier and optionally the signature parameters.
 old-location: security\pfn_crypt_extract_encoded_signature_parameters_func.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2b990a1d-8913-49bc-920f-253b38871eb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

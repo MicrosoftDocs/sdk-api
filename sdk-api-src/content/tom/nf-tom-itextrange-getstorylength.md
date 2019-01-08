@@ -4,7 +4,7 @@ title: ITextRange::GetStoryLength
 author: windows-sdk-content
 description: Gets the count of characters in the range's story.
 old-location: controls\ITextRange_GetStoryLength.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorylength.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

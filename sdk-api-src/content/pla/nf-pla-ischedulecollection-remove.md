@@ -4,7 +4,7 @@ title: IScheduleCollection::Remove
 author: windows-sdk-content
 description: Removes a schedule from the collection.
 old-location: pla\ischedulecollection_remove.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bb419f7e-b5fd-47ea-88e5-f86788423edf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

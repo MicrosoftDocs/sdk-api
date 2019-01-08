@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_WRITE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCertificateToStore, CertAddCertificateContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecertcallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
 ms.author: windowssdkdev
 ms.date: 12/5/2018

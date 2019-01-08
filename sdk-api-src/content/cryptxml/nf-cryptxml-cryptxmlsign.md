@@ -4,7 +4,7 @@ title: CryptXmlSign function
 author: windows-sdk-content
 description: Creates a cryptographic signature of a SignedInfo element.
 old-location: security\cryptxmlsign.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

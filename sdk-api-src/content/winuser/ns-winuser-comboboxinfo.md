@@ -4,7 +4,7 @@ title: COMBOBOXINFO
 author: windows-sdk-content
 description: Contains combo box status information.
 old-location: controls\COMBOBOXINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\comboboxinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

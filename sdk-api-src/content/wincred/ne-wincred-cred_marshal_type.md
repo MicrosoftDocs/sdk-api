@@ -4,7 +4,7 @@ title: CRED_MARSHAL_TYPE
 author: windows-sdk-content
 description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
 old-location: security\cred_marshal_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

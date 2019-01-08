@@ -4,7 +4,7 @@ title: IAlertDataCollector::put_TaskRunAsSelf
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\ialertdatacollector_taskrunasself.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

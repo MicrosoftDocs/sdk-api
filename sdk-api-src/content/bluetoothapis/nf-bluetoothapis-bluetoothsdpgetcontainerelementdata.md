@@ -4,7 +4,7 @@ title: BluetoothSdpGetContainerElementData function
 author: windows-sdk-content
 description: Iterates a container stream and returns each element contained within the container element.
 old-location: bluetooth\bluetoothsdpgetcontainerelementdata.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 7dbf44f6-8a80-419e-9db7-60ada9ca9647
 ms.author: windowssdkdev
 ms.date: 12/5/2018

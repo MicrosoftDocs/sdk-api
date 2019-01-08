@@ -4,7 +4,7 @@ title: ICertificateEnrollmentPolicyServerSetup::SetProperty
 author: windows-sdk-content
 description: Specifies a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_setproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057
 ms.author: windowssdkdev
 ms.date: 12/5/2018

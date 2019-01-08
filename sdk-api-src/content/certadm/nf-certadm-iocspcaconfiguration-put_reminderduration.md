@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_ReminderDuration
 author: windows-sdk-content
 description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.
 old-location: security\iocspcaconfiguration_reminderduration_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 861289e7-b2f1-433f-a896-47f4b161712e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

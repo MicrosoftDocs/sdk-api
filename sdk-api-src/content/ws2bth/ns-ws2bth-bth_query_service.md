@@ -4,7 +4,7 @@ title: BTH_QUERY_SERVICE
 author: windows-sdk-content
 description: The BTH_QUERY_SERVICE structure is used to query a Bluetooth service.
 old-location: bluetooth\bth_query_service.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: b208b7d6-305c-4acc-9c89-75721ff5dcb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

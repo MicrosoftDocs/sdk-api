@@ -4,7 +4,7 @@ title: CERT_SELECTUI_INPUT
 author: windows-sdk-content
 description: Used by the CertSelectionGetSerializedBlob function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized BLOB can be passed to the CredUIPromptForWindowsCredentials function.
 old-location: security\cert_selectui_input.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8953cddd-86b6-4781-8dca-b5fd3d298bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

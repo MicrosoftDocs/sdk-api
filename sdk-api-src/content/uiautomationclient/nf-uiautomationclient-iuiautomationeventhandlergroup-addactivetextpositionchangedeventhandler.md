@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
 author: windows-sdk-content
-description: Registers a method that handles when the active text position changes.
+description: Registers a method (in an event handler group) that handles when the active text position changes.
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Registers a method that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div>
+Registers a method (in an event handler group) that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div>
 <div> </div>
 
 
@@ -104,7 +104,7 @@ is invoked, the visual location is updated, but the UI Automation client remains
 
 Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787605(v=VS.85).aspx">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
+For editable text elements, such as <a href="https://docs.microsoft.com/windows/desktop/controls/edit-controls">Edit</a> and <a href="https://docs.microsoft.com/windows/desktop/controls/rich-edit-controls">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 
 

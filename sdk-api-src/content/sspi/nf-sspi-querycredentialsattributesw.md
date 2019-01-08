@@ -4,7 +4,7 @@ title: QueryCredentialsAttributesW function
 author: windows-sdk-content
 description: Retrieves the attributes of a credential, such as the name associated with the credential.
 old-location: security\querycredentialsattributes.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
 ms.author: windowssdkdev
 ms.date: 12/5/2018

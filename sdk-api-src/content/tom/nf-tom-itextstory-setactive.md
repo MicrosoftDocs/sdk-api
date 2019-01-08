@@ -4,7 +4,7 @@ title: ITextStory::SetActive
 author: windows-sdk-content
 description: Sets the active state of a story.
 old-location: controls\itextstory_setactive.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fa0177be-2016-4205-b121-921dbdbf5b71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

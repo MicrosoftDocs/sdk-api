@@ -4,7 +4,7 @@ title: IAudioEndpoint::GetFrameFormat
 author: windows-sdk-content
 description: Retrieves the format of the audio endpoint.
 old-location: termserv\iaudioendpoint_getframeformat.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: fb34ef19-4155-461e-a8d7-0a903e9d7c72
 ms.author: windowssdkdev
 ms.date: 12/5/2018

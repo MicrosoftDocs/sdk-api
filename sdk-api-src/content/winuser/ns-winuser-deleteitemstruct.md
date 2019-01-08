@@ -4,7 +4,7 @@ title: DELETEITEMSTRUCT
 author: windows-sdk-content
 description: Describes a deleted list box or combo box item.
 old-location: controls\DELETEITEMSTRUCT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

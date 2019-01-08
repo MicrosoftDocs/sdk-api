@@ -4,7 +4,7 @@ title: CryptSetProviderA function
 author: windows-sdk-content
 description: Specifies the current user's default cryptographic service provider (CSP).
 old-location: security\cryptsetprovider.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

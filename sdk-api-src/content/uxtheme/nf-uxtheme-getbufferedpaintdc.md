@@ -4,7 +4,7 @@ title: GetBufferedPaintDC function
 author: windows-sdk-content
 description: Gets the paint device context (DC). This is the same value retrieved by BeginBufferedPaint.
 old-location: controls\GetBufferedPaintDC.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

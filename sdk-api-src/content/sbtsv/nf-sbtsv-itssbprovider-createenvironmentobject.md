@@ -4,7 +4,7 @@ title: ITsSbProvider::CreateEnvironmentObject
 author: windows-sdk-content
 description: Creates an ITsSbEnvironment environment object.
 old-location: termserv\itssbprovider_createenvironmentobject.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 11570f40-979e-4caf-81af-f8d16ec61391
 ms.author: windowssdkdev
 ms.date: 12/5/2018

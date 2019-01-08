@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_FileMaxRecursiveDepth
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of subfolders from which to recursively collect files.
 old-location: pla\iconfigurationdatacollector_filemaxrecursivedepth.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 79a87a02-6e9e-4b21-b90f-59c600349ae0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

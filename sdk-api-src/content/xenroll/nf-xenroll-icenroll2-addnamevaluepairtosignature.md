@@ -4,7 +4,7 @@ title: ICEnroll2::addNameValuePairToSignature
 author: windows-sdk-content
 description: Adds the authenticated name-value pair of an attribute to the request. It is up to the certification authority (CA) to interpret the meaning of the name-value pair.
 old-location: security\icenroll4_addnamevaluepairtosignature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a31975f7-432e-47bb-a24e-508c6ca85373
 ms.author: windowssdkdev
 ms.date: 12/5/2018

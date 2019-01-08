@@ -4,7 +4,7 @@ title: ICertAdmin2::GetCAPropertyFlags
 author: windows-sdk-content
 description: The ICertAdmin2::GetCAPropertyFlags method retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertyflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6f38bea1-e278-4085-b321-05f6765cc676
 ms.author: windowssdkdev
 ms.date: 12/5/2018

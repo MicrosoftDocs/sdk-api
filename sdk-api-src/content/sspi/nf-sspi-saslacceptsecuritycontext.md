@@ -4,7 +4,7 @@ title: SaslAcceptSecurityContext function
 author: windows-sdk-content
 description: Wraps a standard call to the Security Support Provider Interface AcceptSecurityContext (General) function and includes creation of SASL server cookies.
 old-location: security\saslacceptsecuritycontext.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

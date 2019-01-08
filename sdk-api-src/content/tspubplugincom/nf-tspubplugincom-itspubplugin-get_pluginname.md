@@ -4,7 +4,7 @@ title: ItsPubPlugin::get_pluginName
 author: windows-sdk-content
 description: Retrieves the name of the plug-in.
 old-location: termserv\itspubplugin_pluginname.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c1ea46b6-fac6-4140-a278-cb04ee9af739
 ms.author: windowssdkdev
 ms.date: 12/5/2018

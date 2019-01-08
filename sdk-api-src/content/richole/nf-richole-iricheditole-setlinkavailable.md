@@ -4,7 +4,7 @@ title: IRichEditOle::SetLinkAvailable
 author: windows-sdk-content
 description: Sets the value of the link-available bit in the object's flags.
 old-location: controls\IRichEditOle_SetLinkAvailable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetlinkavailable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

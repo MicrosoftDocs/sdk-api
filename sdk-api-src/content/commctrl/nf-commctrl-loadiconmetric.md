@@ -4,7 +4,7 @@ title: LoadIconMetric function
 author: windows-sdk-content
 description: Loads a specified icon resource with a client-specified system metric.
 old-location: controls\LoadIconMetric.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

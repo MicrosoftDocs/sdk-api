@@ -60,6 +60,8 @@ Creates a context state object that holds all Microsoft Direct3D state and some 
 
 ### -param Flags
 
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
 A combination of 
               <a href="https://msdn.microsoft.com/45F1C268-AA8A-44D5-BE9E-0C185738EB69">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG</a> 
               values that are combined by using a bitwise <b>OR</b> operation. 
@@ -79,6 +81,8 @@ If you set the single-threaded flag for both the context state object and the de
 
 
 ### -param pFeatureLevels [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
 
 A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> values. The array can contain elements from the following list and determines the order of feature levels for which creation is attempted.
               Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
@@ -106,11 +110,15 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
 
 ### -param FeatureLevels
 
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+
 The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
           
 
 
 ### -param SDKVersion
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
           
@@ -118,17 +126,23 @@ The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
 
 ### -param EmulatedInterface
 
+Type: <b>REFIID</b>
+
 The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
           
 
 
 ### -param pChosenFeatureLevel [out, optional]
 
+Type: <b><a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+
 A pointer to a variable that receives a <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
           
 
 
 ### -param ppContextState [out, optional]
+
+Type: <b><a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a>**</b>
 
 The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a> object that represents the state of a Direct3D device.
           
@@ -137,6 +151,8 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7
 ## -returns
 
 
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

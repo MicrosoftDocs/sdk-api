@@ -4,7 +4,7 @@ title: WriteClassStm function
 author: windows-sdk-content
 description: The WriteClassStm function stores the specified CLSID in the stream.
 old-location: stg\writeclassstm.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

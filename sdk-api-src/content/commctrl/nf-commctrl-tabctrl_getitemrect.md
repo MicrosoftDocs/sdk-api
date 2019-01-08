@@ -4,7 +4,7 @@ title: TabCtrl_GetItemRect macro
 author: windows-sdk-content
 description: Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the TCM_GETITEMRECT message explicitly.
 old-location: controls\TabCtrl_GetItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

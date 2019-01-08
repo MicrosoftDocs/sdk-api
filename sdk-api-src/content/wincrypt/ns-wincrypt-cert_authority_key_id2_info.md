@@ -4,7 +4,7 @@ title: CERT_AUTHORITY_KEY_ID2_INFO
 author: windows-sdk-content
 description: The CERT_AUTHORITY_KEY_ID2_INFO structure identifies the key used to sign a certificate or CRL.
 old-location: security\cert_authority_key_id2_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0a5005a5-71be-4f4d-8de8-c7452402b646
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NOTIFYINFO
 author: windows-sdk-content
 description: The NOTIFYINFO structure contains status information about a network connect or disconnect operation. It is used by the AddConnectNotify and CancelConnectNotify functions.
 old-location: security\notifyinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

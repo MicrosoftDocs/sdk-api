@@ -4,7 +4,7 @@ title: IDataCollectorSet::SetCredentials
 author: windows-sdk-content
 description: Specifies the user account under which the data collector set runs.
 old-location: pla\idatacollectorset_setcredentials.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 39275154-fe85-492e-9d64-79d17cb4f88d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

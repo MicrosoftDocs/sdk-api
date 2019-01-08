@@ -4,7 +4,7 @@ title: ITextHost::TxCreateCaret
 author: windows-sdk-content
 description: Creates a new shape for windowless rich edit control's caret.
 old-location: controls\ITextHost_TxCreateCaret.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txcreatecaret.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

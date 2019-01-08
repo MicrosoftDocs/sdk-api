@@ -4,7 +4,7 @@ title: ITraceEvent::SetProviderId
 author: windows-sdk-content
 description: Sets the GUID for the provider which traced an event.
 old-location: etw\ievent_setproviderid.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

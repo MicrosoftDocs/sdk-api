@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector::put_LogFileFormat
 author: windows-sdk-content
 description: Retrieves or sets the format of the log file.
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageList_DragShowNolock function
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: controls\ImageList_DragShowNolock.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

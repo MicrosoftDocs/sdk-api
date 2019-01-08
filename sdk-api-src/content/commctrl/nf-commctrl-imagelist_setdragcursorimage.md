@@ -4,7 +4,7 @@ title: ImageList_SetDragCursorImage function
 author: windows-sdk-content
 description: Creates a new drag image by combining the specified image (typically a mouse cursor image) with the current drag image.
 old-location: controls\ImageList_SetDragCursorImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setdragcursorimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

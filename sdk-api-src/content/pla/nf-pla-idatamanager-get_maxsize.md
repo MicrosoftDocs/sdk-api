@@ -4,7 +4,7 @@ title: IDataManager::get_MaxSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxsize.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a9508617-acb5-4e11-8f4a-72c8e5cb4cba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Pager_GetButtonSize macro
 author: windows-sdk-content
 description: Retrieves the current button size for the pager control. You can use this macro or send the PGM_GETBUTTONSIZE message explicitly.
 old-location: controls\Pager_GetButtonSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCardAddReaderToGroupA function
 author: windows-sdk-content
 description: Adds a reader to a reader group.
 old-location: security\scardaddreadertogroup.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

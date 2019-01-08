@@ -4,7 +4,7 @@ title: ICertEncodeAltName::Encode
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the alternate name array stored in this object. The names in the object are not encoded.
 old-location: security\icertencodealtname_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 34136053-1c25-4f6b-8bd6-699fffb6670b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

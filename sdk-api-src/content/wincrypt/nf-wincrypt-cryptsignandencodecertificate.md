@@ -4,7 +4,7 @@ title: CryptSignAndEncodeCertificate function
 author: windows-sdk-content
 description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
 old-location: security\cryptsignandencodecertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

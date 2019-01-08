@@ -4,7 +4,7 @@ title: IEnroll::put_RootStoreFlags
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the root store.
 old-location: security\ienroll4_rootstoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

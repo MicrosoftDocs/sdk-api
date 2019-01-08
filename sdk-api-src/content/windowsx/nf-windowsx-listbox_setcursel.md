@@ -4,7 +4,7 @@ title: ListBox_SetCurSel macro
 author: windows-sdk-content
 description: Sets the currently selected item in a single-selection list box. You can use this macro or send the LB_SETCURSEL message explicitly.
 old-location: controls\ListBox_SetCurSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

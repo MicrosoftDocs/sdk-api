@@ -4,7 +4,7 @@ title: BufferedPaintRenderAnimation function
 author: windows-sdk-content
 description: Paints the next frame of a buffered paint animation.
 old-location: controls\BufferedPaintRenderAnimation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintrenderanimation.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

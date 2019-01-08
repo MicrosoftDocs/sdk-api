@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_NumberOfBuffers
 author: windows-sdk-content
 description: Retrieves or sets the suggested number of buffers to use for logging.
 old-location: pla\itracedatacollector_numberofbuffers.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 78d7ed42-ccd1-4e00-a52d-e5341de2f76e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

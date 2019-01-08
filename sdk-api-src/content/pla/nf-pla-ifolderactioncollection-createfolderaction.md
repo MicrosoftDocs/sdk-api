@@ -4,7 +4,7 @@ title: IFolderActionCollection::CreateFolderAction
 author: windows-sdk-content
 description: Creates a folder action object.
 old-location: pla\ifolderactioncollection_createfolderaction.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: caced576-cbe8-49d1-a372-70f035a6e3ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

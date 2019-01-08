@@ -4,7 +4,7 @@ title: ClockType
 author: windows-sdk-content
 description: Defines the clock resolution to use when tracing events.
 old-location: pla\clocktype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073
 ms.author: windowssdkdev
 ms.date: 12/5/2018

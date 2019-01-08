@@ -4,7 +4,7 @@ title: COMPAREITEMSTRUCT
 author: windows-sdk-content
 description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
 old-location: controls\COMPAREITEMSTRUCT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

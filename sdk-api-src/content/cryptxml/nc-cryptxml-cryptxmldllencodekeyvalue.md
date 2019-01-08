@@ -4,7 +4,7 @@ title: CryptXmlDllEncodeKeyValue
 author: windows-sdk-content
 description: Encodes a KeyValue element.
 old-location: security\cryptxmldllencodekeyvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a0737139-a820-455d-85f4-c56b63a1a8e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

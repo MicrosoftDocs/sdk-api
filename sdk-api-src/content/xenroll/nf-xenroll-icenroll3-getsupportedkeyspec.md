@@ -4,7 +4,7 @@ title: ICEnroll3::GetSupportedKeySpec
 author: windows-sdk-content
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations. This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_getsupportedkeyspec.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e225eddb-0c36-446a-9696-38653ff22511
 ms.author: windowssdkdev
 ms.date: 12/5/2018

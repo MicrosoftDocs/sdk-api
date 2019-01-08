@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_BuffersWritten
 author: windows-sdk-content
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e150a68f-da6d-4ee1-9ac8-d19d0cae62cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

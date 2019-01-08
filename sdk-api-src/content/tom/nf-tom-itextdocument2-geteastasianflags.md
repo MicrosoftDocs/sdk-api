@@ -4,7 +4,7 @@ title: ITextDocument2::GetEastAsianFlags
 author: windows-sdk-content
 description: Gets the East Asian flags.
 old-location: controls\itextdocument2_geteastasianflags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 730c869d-cac0-40ce-b6c5-ca3be2c94419
 ms.author: windowssdkdev
 ms.date: 12/5/2018

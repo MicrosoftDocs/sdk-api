@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_PreallocateFile
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA should allocate the entire log file size before logging.
 old-location: pla\itracedatacollector_preallocatefile.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7d05055b-a596-40b0-b289-31641957a72f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

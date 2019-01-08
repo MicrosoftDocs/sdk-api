@@ -4,7 +4,7 @@ title: DateTime_SetMonthCalStyle macro
 author: windows-sdk-content
 description: Sets the style for a specified date and time picker (DTP) control. Use this macro or send the DTM_SETMCSTYLE message explicitly.
 old-location: controls\DateTime_SetMonthCalStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

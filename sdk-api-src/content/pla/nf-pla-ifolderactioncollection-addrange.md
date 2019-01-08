@@ -4,7 +4,7 @@ title: IFolderActionCollection::AddRange
 author: windows-sdk-content
 description: Adds one or more folder actions to the collection.
 old-location: pla\ifolderactioncollection_addrange.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545
 ms.author: windowssdkdev
 ms.date: 12/5/2018

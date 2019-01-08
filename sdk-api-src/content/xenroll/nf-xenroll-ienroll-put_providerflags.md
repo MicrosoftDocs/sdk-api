@@ -4,7 +4,7 @@ title: IEnroll::put_ProviderFlags
 author: windows-sdk-content
 description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type.
 old-location: security\ienroll4_providerflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RegLoadKeyW function
 author: windows-sdk-content
 description: Creates a subkey under HKEY_USERS or HKEY_LOCAL_MACHINE and loads the data from the specified registry hive into that subkey.
 old-location: base\regloadkey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 536395aa-03ba-430d-a66d-fcabdc9dfe22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

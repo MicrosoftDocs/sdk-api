@@ -4,7 +4,7 @@ title: ITextFont::GetKerning
 author: windows-sdk-content
 description: Gets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_GetKerning.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

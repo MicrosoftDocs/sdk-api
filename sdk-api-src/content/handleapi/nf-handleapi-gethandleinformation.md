@@ -4,7 +4,7 @@ title: GetHandleInformation function
 author: windows-sdk-content
 description: Retrieves certain properties of an object handle.
 old-location: base\gethandleinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

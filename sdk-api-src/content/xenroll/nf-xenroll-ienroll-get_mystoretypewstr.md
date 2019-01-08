@@ -4,7 +4,7 @@ title: IEnroll::get_MyStoreTypeWStr
 author: windows-sdk-content
 description: Sets or retrieves the type of store specified by the MyStoreTypeWStr property.
 old-location: security\ienroll4_mystoretypewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 46f95ae3-efd2-4545-b31d-df04112aa737
 ms.author: windowssdkdev
 ms.date: 12/5/2018

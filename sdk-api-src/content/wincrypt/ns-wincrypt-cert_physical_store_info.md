@@ -4,7 +4,7 @@ title: CERT_PHYSICAL_STORE_INFO
 author: windows-sdk-content
 description: Contains information on physical certificate stores.
 old-location: security\cert_physical_store_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ad86f388-27af-442a-a76f-f386f66296ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::Skip
 author: windows-sdk-content
 description: Skips a specified number of extensions in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_skip.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b354cf0e-2f15-42a5-8e84-4db9bc4e6a8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

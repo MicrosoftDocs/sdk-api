@@ -4,7 +4,7 @@ title: Pager_GetPos macro
 author: windows-sdk-content
 description: Retrieves the current scroll position of the pager control. You can use this macro or send the PGM_GETPOS message explicitly.
 old-location: controls\Pager_GetPos.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getpos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

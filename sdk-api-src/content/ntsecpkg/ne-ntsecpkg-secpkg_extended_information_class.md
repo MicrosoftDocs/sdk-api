@@ -4,7 +4,7 @@ title: SECPKG_EXTENDED_INFORMATION_CLASS
 author: windows-sdk-content
 description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information_class.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 52c24886-ae81-4ac8-97d5-d638016e82bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

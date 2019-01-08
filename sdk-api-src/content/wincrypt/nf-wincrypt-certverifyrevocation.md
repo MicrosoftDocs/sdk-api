@@ -4,7 +4,7 @@ title: CertVerifyRevocation function
 author: windows-sdk-content
 description: Checks the revocation status of the certificates contained in the rgpvContext array. If a certificate in the list is found to be revoked, no further checking is done.
 old-location: security\certverifyrevocation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d6fb244-5273-4530-bec4-e5451fe26f2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

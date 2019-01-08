@@ -4,7 +4,7 @@ title: ICertRequest2::GetCAPropertyDisplayName
 author: windows-sdk-content
 description: Retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertydisplayname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5c294758-b2aa-497b-8377-6c5987576f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

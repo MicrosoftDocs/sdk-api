@@ -4,7 +4,7 @@ title: EventDescGetChannel function
 author: windows-sdk-content
 description: Retrieves the channel from the event descriptor.
 old-location: etw\eventdescgetchannel_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 193786ad-751e-477d-8747-a38b43292648
 ms.author: windowssdkdev
 ms.date: 12/5/2018

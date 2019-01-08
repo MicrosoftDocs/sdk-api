@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::SetValue
 author: windows-sdk-content
 description: Sets a DATE value at the specified index of the DATE array.
 old-location: security\icertencodedatearray_setvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e05a7aa1-81ad-4564-a6a5-65b8ac816598
 ms.author: windowssdkdev
 ms.date: 12/5/2018

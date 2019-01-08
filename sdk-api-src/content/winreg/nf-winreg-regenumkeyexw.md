@@ -4,7 +4,7 @@ title: RegEnumKeyExW function
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key. The function retrieves information about one subkey each time it is called.
 old-location: base\regenumkeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

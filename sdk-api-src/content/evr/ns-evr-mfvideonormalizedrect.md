@@ -11,7 +11,7 @@ ms.date: 12/5/2018
 ms.keywords: MFVideoNormalizedRect, MFVideoNormalizedRect structure [Media Foundation], c1dd42ca-64a0-4f30-82e1-eda3f4721526, evr/MFVideoNormalizedRect, mf.mfvideonormalizedrect
 ms.topic: struct
 req.header: evr.h
-req.include-header: 
+req.include-header: Mfcaptureengine.h, Mfmediaengine.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]

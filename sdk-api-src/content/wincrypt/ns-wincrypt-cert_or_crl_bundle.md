@@ -4,7 +4,7 @@ title: CERT_OR_CRL_BUNDLE
 author: windows-sdk-content
 description: Encapsulates an array of certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_bundle.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a06e71b4-63c7-4d4a-820c-e5901015aaa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

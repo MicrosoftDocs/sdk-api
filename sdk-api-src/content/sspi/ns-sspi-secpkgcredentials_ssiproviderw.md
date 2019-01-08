@@ -4,7 +4,7 @@ title: SecPkgCredentials_SSIProviderW
 author: windows-sdk-content
 description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_ssiprovider.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0C6D6217-3A97-40B5-A7FB-B9D49C5FBC7C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

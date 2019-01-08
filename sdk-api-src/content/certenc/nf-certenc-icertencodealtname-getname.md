@@ -4,7 +4,7 @@ title: ICertEncodeAltName::GetName
 author: windows-sdk-content
 description: Returns the specified name from the alternate name array.
 old-location: security\icertencodealtname_getname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25a3f36b-1c09-4b2e-84b7-a725d366fd77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

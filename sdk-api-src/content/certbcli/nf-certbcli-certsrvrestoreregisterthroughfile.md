@@ -4,7 +4,7 @@ title: CertSrvRestoreRegisterThroughFile function
 author: windows-sdk-content
 description: Registers a Certificate Services restore.
 old-location: security\certsrvrestoreregisterthroughfile.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6b929983-9905-48c1-96f3-01d8b39878be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

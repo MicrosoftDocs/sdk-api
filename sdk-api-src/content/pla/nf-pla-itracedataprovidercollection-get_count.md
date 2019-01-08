@@ -4,7 +4,7 @@ title: ITraceDataProviderCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of trace providers in the collection.
 old-location: pla\itracedataprovidercollection_count.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d5ecc815-86c1-4a08-b434-88479df3d70c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

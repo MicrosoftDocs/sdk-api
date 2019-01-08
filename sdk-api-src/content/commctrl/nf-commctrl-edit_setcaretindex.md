@@ -4,7 +4,7 @@ title: Edit_SetCaretIndex macro
 author: windows-sdk-content
 description: Sets the character index at which to locate the caret. You can use this macro or send the EM_SETCARETINDEX message explicitly.
 old-location: controls\edit_setcaretindex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 62D60717-4FE6-4738-8504-791CDE7C15E3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

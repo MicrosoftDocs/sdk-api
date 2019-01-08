@@ -4,7 +4,7 @@ title: TreeView_GetEditControl macro
 author: windows-sdk-content
 description: Retrieves the handle to the edit control being used to edit a tree-view item's text. You can use this macro or send the TVM_GETEDITCONTROL message explicitly.
 old-location: controls\TreeView_GetEditControl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_geteditcontrol.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

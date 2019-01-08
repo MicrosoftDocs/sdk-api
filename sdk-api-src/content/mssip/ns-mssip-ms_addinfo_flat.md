@@ -4,7 +4,7 @@ title: MS_ADDINFO_FLAT
 author: windows-sdk-content
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

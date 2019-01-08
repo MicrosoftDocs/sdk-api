@@ -4,7 +4,7 @@ title: CERT_SIGNED_CONTENT_INFO
 author: windows-sdk-content
 description: The CERT_SIGNED_CONTENT_INFO structure contains encoded content to be signed and a BLOB to hold the signature. The ToBeSigned member is an encoded CERT_INFO, CRL_INFO, CTL_INFO or CERT_REQUEST_INFO.
 old-location: security\cert_signed_content_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f650765e-7a72-42a3-baf7-29779fd04adc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

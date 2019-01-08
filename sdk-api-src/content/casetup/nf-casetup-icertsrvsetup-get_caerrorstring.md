@@ -4,7 +4,7 @@ title: ICertSrvSetup::get_CAErrorString
 author: windows-sdk-content
 description: Gets the string data for additional error information related to a failed certification authority (CA) specification.
 old-location: security\icertsrvsetup_caerrorstring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 154397f8-aa0e-4d74-b18e-b68b46fdfcdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

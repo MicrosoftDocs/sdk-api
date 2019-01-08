@@ -4,7 +4,7 @@ title: KERB_EXTERNAL_NAME
 author: windows-sdk-content
 description: Contains information about an external name.
 old-location: security\kerb_external_name.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861
 ms.author: windowssdkdev
 ms.date: 12/5/2018

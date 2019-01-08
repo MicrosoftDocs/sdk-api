@@ -4,7 +4,7 @@ title: UDACCEL
 author: windows-sdk-content
 description: Contains acceleration information for an up-down control.
 old-location: controls\UDACCEL.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

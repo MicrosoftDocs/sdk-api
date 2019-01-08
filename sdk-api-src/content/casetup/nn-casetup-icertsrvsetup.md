@@ -4,7 +4,7 @@ title: ICertSrvSetup
 author: windows-sdk-content
 description: Defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a Certificate Services computer.
 old-location: security\icertsrvsetup.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

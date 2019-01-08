@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetValue
 author: windows-sdk-content
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

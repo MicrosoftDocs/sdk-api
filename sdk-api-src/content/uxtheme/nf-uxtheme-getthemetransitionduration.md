@@ -4,7 +4,7 @@ title: GetThemeTransitionDuration function
 author: windows-sdk-content
 description: Gets the duration for the specified transition.
 old-location: controls\GetThemeTransitionDuration.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetransitionduration.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

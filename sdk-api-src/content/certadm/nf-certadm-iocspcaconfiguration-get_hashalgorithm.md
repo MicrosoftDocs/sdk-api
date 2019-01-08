@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_HashAlgorithm
 author: windows-sdk-content
 description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

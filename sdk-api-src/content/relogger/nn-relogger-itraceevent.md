@@ -4,7 +4,7 @@ title: ITraceEvent
 author: windows-sdk-content
 description: Provides access to data relating to a specific event.
 old-location: etw\ievent.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
 ms.author: windowssdkdev
 ms.date: 12/5/2018

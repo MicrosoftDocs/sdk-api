@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::get_ItemByName
 author: windows-sdk-content
 description: Gets the property identified by name in a property set.
 old-location: security\iocsppropertycollection_itembyname_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

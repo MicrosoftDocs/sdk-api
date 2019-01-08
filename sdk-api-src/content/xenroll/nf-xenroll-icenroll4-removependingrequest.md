@@ -4,7 +4,7 @@ title: ICEnroll4::removePendingRequest
 author: windows-sdk-content
 description: Removes a pending request from the client's request store. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_removependingrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 22ddd7f8-b2c0-4b9a-a2b3-c2cb470d0502
 ms.author: windowssdkdev
 ms.date: 12/5/2018

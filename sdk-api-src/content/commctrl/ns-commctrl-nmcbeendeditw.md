@@ -4,7 +4,7 @@ title: NMCBEENDEDITW
 author: windows-sdk-content
 description: Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the CBEN_ENDEDIT notification code.
 old-location: controls\NMCBEENDEDIT.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbeendedit.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

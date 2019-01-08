@@ -4,7 +4,7 @@ title: ILockBytes::LockRegion
 author: windows-sdk-content
 description: The LockRegion method restricts access to a specified range of bytes in the byte array.
 old-location: stg\ilockbytes_lockregion.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

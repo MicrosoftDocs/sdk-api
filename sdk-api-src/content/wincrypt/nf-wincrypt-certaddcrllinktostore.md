@@ -4,7 +4,7 @@ title: CertAddCRLLinkToStore function
 author: windows-sdk-content
 description: Adds a link in a store to a certificate revocation list (CRL) context in a different store.
 old-location: security\certaddcrllinktostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

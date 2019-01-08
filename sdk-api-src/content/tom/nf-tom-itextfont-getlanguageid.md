@@ -4,7 +4,7 @@ title: ITextFont::GetLanguageID
 author: windows-sdk-content
 description: Gets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_GetLanguageID.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlanguageid.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

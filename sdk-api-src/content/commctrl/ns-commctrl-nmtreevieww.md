@@ -4,7 +4,7 @@ title: NMTREEVIEWW
 author: windows-sdk-content
 description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTREEVIEW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtreeview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

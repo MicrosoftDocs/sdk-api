@@ -4,7 +4,7 @@ title: CERT_STORE_PROV_FIND_INFO
 author: windows-sdk-content
 description: Used by many of the store provider callback functions.
 old-location: security\cert_store_prov_find_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b3c5960c-7800-485c-b030-199fee027154
 ms.author: windowssdkdev
 ms.date: 12/5/2018

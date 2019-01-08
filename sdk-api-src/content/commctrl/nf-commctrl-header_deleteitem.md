@@ -4,7 +4,7 @@ title: Header_DeleteItem macro
 author: windows-sdk-content
 description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.
 old-location: controls\Header_DeleteItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

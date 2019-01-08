@@ -4,7 +4,7 @@ title: CMC_TAGGED_CONTENT_INFO
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_content_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

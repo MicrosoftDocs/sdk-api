@@ -4,7 +4,7 @@ title: ITextRow::SetCellMargin
 author: windows-sdk-content
 description: Sets the cell margin of a row.
 old-location: controls\itextrow_setcellmargin.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 826be963-ccac-4bb3-b5e0-1df5554e1c8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextStoryRanges2::Item2
 author: windows-sdk-content
 description: Gets an ITextRange2 object for a story, by index, in a stories collection.
 old-location: controls\itextstoryranges2_item2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0e77584e-e7ea-44ee-bce8-6f3b84d106bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

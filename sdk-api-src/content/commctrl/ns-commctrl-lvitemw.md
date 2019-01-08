@@ -4,7 +4,7 @@ title: LVITEMW
 author: windows-sdk-content
 description: Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the LV_ITEM structure.
 old-location: controls\LVITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

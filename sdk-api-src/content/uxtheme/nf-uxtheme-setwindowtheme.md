@@ -4,7 +4,7 @@ title: SetWindowTheme function
 author: windows-sdk-content
 description: Causes a window to use a different set of visual style information than its class normally uses.
 old-location: controls\SetWindowTheme.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

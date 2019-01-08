@@ -4,7 +4,7 @@ title: ListView_SetSelectedColumn macro
 author: windows-sdk-content
 description: Sets the index of the selected column. You can use this macro or send the LVM_SETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_SetSelectedColumn.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectedcolumn.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_CERT
 author: windows-sdk-content
 description: Provides information about a provider certificate.
 old-location: security\crypt_provider_cert.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 622e7a72-445a-4820-b236-1c90dad08351
 ms.author: windowssdkdev
 ms.date: 12/5/2018

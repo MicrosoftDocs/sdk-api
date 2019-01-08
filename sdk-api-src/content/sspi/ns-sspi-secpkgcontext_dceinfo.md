@@ -4,7 +4,7 @@ title: SecPkgContext_DceInfo
 author: windows-sdk-content
 description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_dceinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

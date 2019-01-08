@@ -4,7 +4,7 @@ title: CERT_EXTENSION
 author: windows-sdk-content
 description: The CERT_EXTENSION structure contains the extension information for a certificate, Certificate Revocation List (CRL) or Certificate Trust List (CTL).
 old-location: security\cert_extension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 787a4df0-c0e3-46b9-a7e6-eb3bee3ed717
 ms.author: windowssdkdev
 ms.date: 12/5/2018

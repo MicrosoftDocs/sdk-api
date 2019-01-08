@@ -4,7 +4,7 @@ title: CryptUIDlgSelectCertificateFromStore function
 author: windows-sdk-content
 description: Displays a dialog box that allows the selection of a certificate from a specified store.
 old-location: security\cryptuidlgselectcertificatefromstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5774af1c-f2d4-4b1e-a20b-dfb57bf9aa37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

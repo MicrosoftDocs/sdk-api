@@ -4,7 +4,7 @@ title: ITextFont::SetEngrave
 author: windows-sdk-content
 description: Sets whether characters are displayed as imprinted characters.
 old-location: controls\ITextFont_SetEngrave.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setengrave.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

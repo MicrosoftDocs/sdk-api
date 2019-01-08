@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_Plugin
 author: windows-sdk-content
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
 ms.author: windowssdkdev
 ms.date: 12/5/2018

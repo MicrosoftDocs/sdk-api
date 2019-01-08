@@ -4,7 +4,7 @@ title: CREDUIWIN_MARSHALED_CONTEXT
 author: windows-sdk-content
 description: Specifies credential information that has been serialized by using the ICredentialProvider::SetSerialization method.
 old-location: security\creduiwin_marshaled_context.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 61e0c9c8-f484-42a9-95c2-5ab77fb20c6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

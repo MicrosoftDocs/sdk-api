@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::put_ExePath
 author: windows-sdk-content
 description: Retrieves or sets the path to the executable file whose API calls you want to trace.
 old-location: pla\iapitracingdatacollector_exepath.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: aa2239f0-b70e-491f-8a88-b41d429e8bb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

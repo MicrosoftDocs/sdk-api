@@ -4,7 +4,7 @@ title: CRYPT_BLOB_ARRAY
 author: windows-sdk-content
 description: Contains an array of CRYPT_DATA_BLOB structures.
 old-location: security\crypt_blob_array.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c4429a0c-6e79-4f02-acac-42b5280aa3b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

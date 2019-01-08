@@ -4,7 +4,7 @@ title: IMSCEPSetup::GetKeyLengthList
 author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\imscepsetup_getkeylengthlist.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 992619dd-1d59-4033-b3aa-ae32dc9948c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DATETIMEPICKERINFO
 author: windows-sdk-content
 description: Contains information about a date and time picker (DTP) control.
 old-location: controls\DATETIMEPICKERINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

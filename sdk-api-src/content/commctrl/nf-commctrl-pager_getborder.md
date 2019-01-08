@@ -4,7 +4,7 @@ title: Pager_GetBorder macro
 author: windows-sdk-content
 description: Retrieves the current border size for the pager control. You can use this macro or send the PGM_GETBORDER message explicitly.
 old-location: controls\Pager_GetBorder.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getborder.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

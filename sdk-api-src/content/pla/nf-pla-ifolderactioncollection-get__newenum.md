@@ -4,7 +4,7 @@ title: IFolderActionCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ifolderactioncollection__newenum.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 92b13b4f-31bd-42c7-9aed-02cef9ca38f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

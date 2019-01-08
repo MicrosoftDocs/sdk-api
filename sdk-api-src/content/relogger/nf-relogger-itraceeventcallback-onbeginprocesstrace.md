@@ -4,7 +4,7 @@ title: ITraceEventCallback::OnBeginProcessTrace
 author: windows-sdk-content
 description: Indicates that a trace is about to begin so that relogging can be started.
 old-location: etw\ieventcallback_onbeginprocesstrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: acc6b1c4-9be1-490d-8b82-7ae8e73bd929
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListBox_GetSelItems macro
 author: windows-sdk-content
 description: Gets the indexes of selected items in a multiple-selection list box. You can use this macro or send the LB_GETSELITEMS message explicitly.
 old-location: controls\ListBox_GetSelItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

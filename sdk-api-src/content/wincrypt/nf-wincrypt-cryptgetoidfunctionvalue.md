@@ -4,7 +4,7 @@ title: CryptGetOIDFunctionValue function
 author: windows-sdk-content
 description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
 old-location: security\cryptgetoidfunctionvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

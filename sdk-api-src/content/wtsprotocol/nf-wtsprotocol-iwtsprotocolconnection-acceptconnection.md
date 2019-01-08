@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::AcceptConnection
 author: windows-sdk-content
 description: IWTSProtocolConnection::AcceptConnection is no longer available. Instead, use IWRdsProtocolConnection::AcceptConnection.
 old-location: termserv\iwtsprotocolconnection_acceptconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5be00911-f68a-410d-8d56-81458b5ff44e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

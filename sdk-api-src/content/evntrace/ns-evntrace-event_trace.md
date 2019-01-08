@@ -4,7 +4,7 @@ title: EVENT_TRACE
 author: windows-sdk-content
 description: The EVENT_TRACE structure is used to deliver event information to an event trace consumer.
 old-location: etw\event_trace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

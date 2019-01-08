@@ -4,7 +4,7 @@ title: IFolderAction::put_Actions
 author: windows-sdk-content
 description: Retrieves or sets the actions that the data manager is to take if both conditions (age and size) are met.
 old-location: pla\ifolderaction_actions.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7e7672d9-9384-4365-aa4a-bf8dace050c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

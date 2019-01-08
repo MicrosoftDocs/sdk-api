@@ -4,7 +4,7 @@ title: TreeView_GetItemHeight macro
 author: windows-sdk-content
 description: Retrieves the current height of the tree-view items. You can use this macro or send the TVM_GETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_GetItemHeight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemheight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

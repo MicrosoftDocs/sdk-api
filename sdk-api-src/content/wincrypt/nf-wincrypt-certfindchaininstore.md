@@ -4,7 +4,7 @@ title: CertFindChainInStore function
 author: windows-sdk-content
 description: Finds the first or next certificate in a store that meets the specified criteria.
 old-location: security\certfindchaininstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 698cece8-71a8-4bfa-8ee6-8035a6dcbe05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

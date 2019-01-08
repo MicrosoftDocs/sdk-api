@@ -4,7 +4,7 @@ title: CertSrvBackupFree function
 author: windows-sdk-content
 description: Used to free memory allocated from certain Certificate Services Backup APIs.
 old-location: security\certsrvbackupfree.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
 ms.author: windowssdkdev
 ms.date: 12/5/2018

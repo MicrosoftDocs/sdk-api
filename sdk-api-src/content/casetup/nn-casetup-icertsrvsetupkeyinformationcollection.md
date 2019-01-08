@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection
 author: windows-sdk-content
 description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.
 old-location: security\icertsrvsetupkeyinformationcollection.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

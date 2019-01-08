@@ -4,7 +4,7 @@ title: ITextPara::GetLineSpacingRule
 author: windows-sdk-content
 description: Retrieves the line-spacing rule for the text range.
 old-location: controls\ITextPara_GetLineSpacingRule.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlinespacingrule.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

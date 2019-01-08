@@ -4,7 +4,7 @@ title: CertVerifyCertificateChainPolicy function
 author: windows-sdk-content
 description: Checks a certificate chain to verify its validity, including its compliance with any specified validity policy criteria.
 old-location: security\certverifycertificatechainpolicy.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 19c37f77-1072-4740-b244-764b816a2a1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

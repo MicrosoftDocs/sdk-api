@@ -4,7 +4,7 @@ title: PROVIDER_EVENT_INFO
 author: windows-sdk-content
 description: Defines an array of events in a provider manifest.
 old-location: etw\provider_event_info.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014
 ms.author: windowssdkdev
 ms.date: 12/5/2018

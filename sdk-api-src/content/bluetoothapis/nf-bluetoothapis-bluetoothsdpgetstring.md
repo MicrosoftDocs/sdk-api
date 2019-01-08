@@ -4,7 +4,7 @@ title: BluetoothSdpGetString function
 author: windows-sdk-content
 description: Converts a raw string embedded in the SDP record into a Unicode string.
 old-location: bluetooth\bluetoothsdpgetstring.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

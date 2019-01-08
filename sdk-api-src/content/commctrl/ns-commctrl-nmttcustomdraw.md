@@ -4,7 +4,7 @@ title: NMTTCUSTOMDRAW
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a tooltip control.
 old-location: controls\NMTTCUSTOMDRAW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

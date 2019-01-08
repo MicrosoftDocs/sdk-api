@@ -4,7 +4,7 @@ title: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 author: windows-sdk-content
 description: Called by CryptExportPublicKeyInfoEx to export a public key BLOB and encode it.
 old-location: security\pfn_crypt_export_public_key_info_ex2_func.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 37315539-64f8-4708-8a17-f80a2869e6b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

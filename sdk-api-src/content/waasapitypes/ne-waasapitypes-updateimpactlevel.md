@@ -4,7 +4,7 @@ title: UpdateImpactLevel
 author: windows-sdk-content
 description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 old-location: base\updateimpactlevel.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 ms.author: windowssdkdev
 ms.date: 12/5/2018

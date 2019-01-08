@@ -4,7 +4,7 @@ title: IMSCEPSetup::get_MSCEPErrorId
 author: windows-sdk-content
 description: Gets the ID for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
 old-location: security\imscepsetup_msceperrorid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3edec047-1034-44c8-bac5-f3593cb1b66b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

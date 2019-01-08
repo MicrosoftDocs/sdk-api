@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_Label
 author: windows-sdk-content
 description: Retrieves the label that describes the purpose of the task.
 old-location: termserv\itssbtaskinfo_label.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 075de6a4-53b0-43b0-9bca-03bf312fff6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

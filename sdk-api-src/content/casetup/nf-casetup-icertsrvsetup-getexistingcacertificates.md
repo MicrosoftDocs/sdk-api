@@ -4,7 +4,7 @@ title: ICertSrvSetup::GetExistingCACertificates
 author: windows-sdk-content
 description: Gets the collection of CertSrvSetupKeyInformation objects that represent valid certification authority (CA) certificates currently installed on the computer.
 old-location: security\icertsrvsetup_getexistingcacertificates.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fd8c7bac-b6db-41f2-a648-e01ebd09c41c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

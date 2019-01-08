@@ -4,7 +4,7 @@ title: MSV1_0_INTERACTIVE_PROFILE
 author: windows-sdk-content
 description: The MSV1_0_INTERACTIVE_PROFILE structure contains information about an interactive logon profile. This structure is used by the LsaLogonUser function.
 old-location: security\msv1_0_interactive_profile.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 70592c29-0810-4d3b-bc5a-73165582a94b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

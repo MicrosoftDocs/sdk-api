@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of properties in a property set.
 old-location: security\iocsppropertycollection_count_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 28cf1108-42a8-41d1-baf4-140b5789fb24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

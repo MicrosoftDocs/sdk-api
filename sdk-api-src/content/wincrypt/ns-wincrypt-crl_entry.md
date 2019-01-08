@@ -4,7 +4,7 @@ title: CRL_ENTRY
 author: windows-sdk-content
 description: Contains information about a single revoked certificate. It is a member of a CRL_INFO structure.
 old-location: security\crl_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

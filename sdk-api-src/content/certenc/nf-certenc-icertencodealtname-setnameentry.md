@@ -4,7 +4,7 @@ title: ICertEncodeAltName::SetNameEntry
 author: windows-sdk-content
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TreeView_GetNextItem macro
 author: windows-sdk-content
 description: Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the TreeView_Get macros described below, or send the TVM_GETNEXTITEM message explicitly.
 old-location: controls\TreeView_GetNextItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

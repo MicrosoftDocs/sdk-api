@@ -4,7 +4,7 @@ title: DPA_DeletePtr function
 author: windows-sdk-content
 description: Removes an item from a dynamic pointer array (DPA). The DPA shrinks if necessary to accommodate the removed item.
 old-location: controls\DPA_DeletePtr.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

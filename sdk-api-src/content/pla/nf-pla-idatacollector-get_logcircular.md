@@ -4,7 +4,7 @@ title: IDataCollector::get_LogCircular
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

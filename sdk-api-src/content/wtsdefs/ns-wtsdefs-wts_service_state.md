@@ -4,7 +4,7 @@ title: WTS_SERVICE_STATE
 author: windows-sdk-content
 description: Contains information about changes in the state of the Remote Desktop Services service.
 old-location: termserv\wts_service_state.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5f4469f5-5a64-4292-bbe6-cc030f1421f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::get_Modified
 author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPCAConfiguration object has been modified since it was created.
 old-location: security\iocspcaconfiguration_modified_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 29307049-2165-4871-9ae3-72858752a6a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

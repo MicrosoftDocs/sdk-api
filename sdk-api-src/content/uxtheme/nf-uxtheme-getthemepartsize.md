@@ -4,7 +4,7 @@ title: GetThemePartSize function
 author: windows-sdk-content
 description: Calculates the original size of the part defined by a visual style.
 old-location: controls\GetThemePartSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

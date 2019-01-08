@@ -4,7 +4,7 @@ title: IFillLockBytes
 author: windows-sdk-content
 description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.
 old-location: stg\ifilllockbytes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

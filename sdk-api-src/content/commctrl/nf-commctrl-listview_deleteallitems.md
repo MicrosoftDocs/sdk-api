@@ -4,7 +4,7 @@ title: ListView_DeleteAllItems macro
 author: windows-sdk-content
 description: Removes all items from a list-view control. You can use this macro or send the LVM_DELETEALLITEMS message explicitly.
 old-location: controls\ListView_DeleteAllItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteallitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

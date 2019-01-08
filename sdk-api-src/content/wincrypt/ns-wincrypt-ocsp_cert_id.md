@@ -4,7 +4,7 @@ title: OCSP_CERT_ID
 author: windows-sdk-content
 description: Contains information to identify a certificate in an online certificate status protocol (OCSP) request or response.
 old-location: security\ocsp_cert_id.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 58717990-a7f7-4b41-aceb-cbce55411396
 ms.author: windowssdkdev
 ms.date: 12/5/2018

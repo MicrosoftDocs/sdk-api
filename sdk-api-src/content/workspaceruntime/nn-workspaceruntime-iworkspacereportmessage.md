@@ -4,7 +4,7 @@ title: IWorkspaceReportMessage
 author: windows-sdk-content
 description: Exposes methods that support error message handling for remote workspaces.
 old-location: termserv\iworkspacereportmessage.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 841fce89-2996-42eb-81fc-7d6f8f864398
 ms.author: windowssdkdev
 ms.date: 12/5/2018

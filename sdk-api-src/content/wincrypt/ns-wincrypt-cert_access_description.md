@@ -4,7 +4,7 @@ title: CERT_ACCESS_DESCRIPTION
 author: windows-sdk-content
 description: The CERT_ACCESS_DESCRIPTION structure is a member of a CERT_AUTHORITY_INFO_ACCESS structure.
 old-location: security\cert_access_description.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

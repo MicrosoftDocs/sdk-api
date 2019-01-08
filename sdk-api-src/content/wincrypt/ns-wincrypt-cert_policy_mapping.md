@@ -4,7 +4,7 @@ title: CERT_POLICY_MAPPING
 author: windows-sdk-content
 description: Contains a mapping between issuer domain and subject domain policy OIDs.
 old-location: security\cert_policy_mapping.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6270888a-1c61-472d-8ec7-10c24b890220
 ms.author: windowssdkdev
 ms.date: 12/5/2018

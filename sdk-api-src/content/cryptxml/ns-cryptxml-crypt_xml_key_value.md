@@ -4,7 +4,7 @@ title: CRYPT_XML_KEY_VALUE
 author: windows-sdk-content
 description: Contains a single public key that may be useful in validating the signature.
 old-location: security\crypt_xml_key_value.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

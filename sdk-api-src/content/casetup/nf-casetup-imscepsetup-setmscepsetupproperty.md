@@ -4,7 +4,7 @@ title: IMSCEPSetup::SetMSCEPSetupProperty
 author: windows-sdk-content
 description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_setmscepsetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

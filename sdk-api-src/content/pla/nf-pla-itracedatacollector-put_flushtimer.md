@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_FlushTimer
 author: windows-sdk-content
 description: Retrieves or sets the time to wait before flushing buffers.
 old-location: pla\itracedatacollector_flushtimer.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 545f40ec-cbe2-4109-a018-d27000eeaf08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

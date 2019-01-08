@@ -4,7 +4,7 @@ title: SCHANNEL_SESSION_TOKEN
 author: windows-sdk-content
 description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_session_token.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
 ms.author: windowssdkdev
 ms.date: 12/5/2018

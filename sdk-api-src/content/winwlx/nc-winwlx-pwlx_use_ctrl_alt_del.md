@@ -4,7 +4,7 @@ title: PWLX_USE_CTRL_ALT_DEL
 author: windows-sdk-content
 description: Called by GINA to tell Winlogon to use the standard CTRL+ALT+DEL key combination as a secure attention sequence (SAS).
 old-location: security\wlxusectrlaltdel.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 827bc495-eb7d-4a83-a325-903de0551d5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

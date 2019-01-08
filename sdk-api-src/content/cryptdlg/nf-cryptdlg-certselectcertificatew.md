@@ -4,7 +4,7 @@ title: CertSelectCertificateW function
 author: windows-sdk-content
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria.
 old-location: security\certselectcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

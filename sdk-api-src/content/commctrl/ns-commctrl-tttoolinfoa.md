@@ -4,7 +4,7 @@ title: TTTOOLINFOA
 author: windows-sdk-content
 description: The TOOLINFO structure contains information about a tool in a tooltip control.
 old-location: controls\TOOLINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\toolinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

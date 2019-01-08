@@ -4,7 +4,7 @@ title: CRYPT_ATTRIBUTES
 author: windows-sdk-content
 description: Contains an array of attributes.
 old-location: security\crypt_attributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 782f3022-d852-4ad7-8e0f-afbccc25928a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

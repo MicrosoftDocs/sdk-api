@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector
 author: windows-sdk-content
 description: Specifies the performance counters to query and the log file to which the counter data is written.To create this data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method.
 old-location: pla\iperformancecounterdatacollector.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

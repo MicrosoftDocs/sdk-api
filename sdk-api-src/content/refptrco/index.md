@@ -2,7 +2,7 @@
 UID: NA:refptrco
 ms.assetid: f80ad2b3-75e3-3de1-b71a-f841b474b6b3
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

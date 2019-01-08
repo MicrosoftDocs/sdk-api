@@ -4,7 +4,7 @@ title: ITextRange
 author: windows-sdk-content
 description: The ITextRange objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.
 old-location: controls\ITextRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

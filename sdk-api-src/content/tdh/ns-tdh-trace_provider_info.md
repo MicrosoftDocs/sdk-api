@@ -4,7 +4,7 @@ title: TRACE_PROVIDER_INFO
 author: windows-sdk-content
 description: Defines the GUID and name for a provider.
 old-location: etw\trace_provider_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 0dbfde78-b1d4-4cc6-99aa-81de3f647cdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

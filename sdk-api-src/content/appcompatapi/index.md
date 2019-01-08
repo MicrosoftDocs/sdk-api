@@ -2,7 +2,7 @@
 UID: NA:appcompatapi
 ms.assetid: 432df6ee-f095-3c5c-9e44-8bdb00741a61
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

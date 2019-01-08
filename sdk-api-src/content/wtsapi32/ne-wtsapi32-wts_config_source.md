@@ -4,7 +4,7 @@ title: WTS_CONFIG_SOURCE
 author: windows-sdk-content
 description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.
 old-location: termserv\wts_config_source.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737
 ms.author: windowssdkdev
 ms.date: 12/5/2018

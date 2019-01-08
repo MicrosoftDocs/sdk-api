@@ -4,7 +4,7 @@ title: BluetoothSendAuthenticationResponse function
 author: windows-sdk-content
 description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

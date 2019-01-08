@@ -4,7 +4,7 @@ title: TreeView_GetPrevVisible macro
 author: windows-sdk-content
 description: Retrieves the first visible item that precedes a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PREVIOUSVISIBLE flag.
 old-location: controls\TreeView_GetPrevVisible.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevvisible.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

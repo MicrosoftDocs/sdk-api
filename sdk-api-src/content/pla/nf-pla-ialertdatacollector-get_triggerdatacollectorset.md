@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_TriggerDataCollectorSet
 author: windows-sdk-content
 description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_triggerdatacollectorset.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PWLX_DISCONNECT
 author: windows-sdk-content
 description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to disconnect from a Terminal Services network session.
 old-location: security\wlxdisconnect.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 4f9f56dd-13cf-4125-90d0-4858a6c141be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

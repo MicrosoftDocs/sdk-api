@@ -4,7 +4,7 @@ title: ICertExit2::GetManageModule
 author: windows-sdk-content
 description: Retrieves the ICertManageModule interface associated with the ICertExit2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertexit2_getmanagemodule.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7f0c1b63-fd09-43b9-9f88-fab154d94e94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

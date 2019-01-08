@@ -4,7 +4,7 @@ title: ITextDocument::GetStoryRanges
 author: windows-sdk-content
 description: Gets the story collection object used to enumerate the stories in a document.
 old-location: controls\ITextDocument_GetStoryRanges.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstoryranges.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStorage::OpenStream
 author: windows-sdk-content
 description: Opens an existing stream object within this storage object in the specified access mode.
 old-location: stg\istorage_openstream.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f7bd1f26-e9a3-415d-8cd3-dc34f7ad8feb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Edit_GetFirstVisibleLine macro
 author: windows-sdk-content
 description: Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the EM_GETFIRSTVISIBLELINE message explicitly.
 old-location: controls\Edit_GetFirstVisibleLine.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getfirstvisibleline.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_BASIC_CONSTRAINTS2_INFO
 author: windows-sdk-content
 description: The CERT_BASIC_CONSTRAINTS2_INFO structure contains information indicating whether the certified subject can act as a CA or an end entity. If the subject can act as a CA, a certification path length constraint can also be specified.
 old-location: security\cert_basic_constraints2_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bbeeb18b-c5d7-4490-8edc-4af19b37ab3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

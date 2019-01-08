@@ -4,7 +4,7 @@ title: LSA_FOREST_TRUST_COLLISION_INFORMATION
 author: windows-sdk-content
 description: Contains information about Local Security Authority forest trust collisions.
 old-location: security\lsa_forest_trust_collision_information.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a4a3b040-c074-4756-a30f-408d8bca87ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

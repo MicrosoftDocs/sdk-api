@@ -78,7 +78,7 @@ A <a href="https://msdn.microsoft.com/EFA3FF00-F121-4ED8-AF83-1952C73AE06D">D3D1
 
 For multi-adapter operation, this indicates the node where the resource should be created.
               Exactly one bit of this UINT must be set.
-              See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
+              See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
             
 
 Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.
@@ -89,7 +89,7 @@ Passing zero is equivalent to passing one, in order to simplify the usage of sin
 
 For multi-adapter operation, this indicates the set of nodes where the resource is visible.
               <i>VisibleNodeMask</i> must have the same bits set as <i>CreationNodeMask</i> has.
-              See <a href="https://msdn.microsoft.com/CC4C6594-D48F-40C1-93EE-9F98532BC038">Multi-Adapter</a>.
+              See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
             
 
 Passing zero is equivalent to passing one, in order to simplify the usage of single-GPU adapters.

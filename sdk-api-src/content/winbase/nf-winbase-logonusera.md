@@ -4,7 +4,7 @@ title: LogonUserA function
 author: windows-sdk-content
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
 old-location: security\logonuser.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

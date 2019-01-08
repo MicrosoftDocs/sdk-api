@@ -4,7 +4,7 @@ title: ITextFont::SetBackColor
 author: windows-sdk-content
 description: Sets the background color.
 old-location: controls\ITextFont_SetBackColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

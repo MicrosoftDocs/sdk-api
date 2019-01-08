@@ -4,7 +4,7 @@ title: TranslateNameA function
 author: windows-sdk-content
 description: Converts a directory service object name from one format to another.
 old-location: base\translatename.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 4df25519-e7d6-46ea-b0e8-ba1f82e5f94f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DuplicateHandle function
 author: windows-sdk-content
 description: Duplicates an object handle.
 old-location: base\duplicatehandle.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
 ms.author: windowssdkdev
 ms.date: 12/5/2018

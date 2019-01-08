@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::AddTargetToStore
 author: windows-sdk-content
 description: Adds a target to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addtargettostore.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 207761eb-b87a-44e5-9101-84d77f95fc23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

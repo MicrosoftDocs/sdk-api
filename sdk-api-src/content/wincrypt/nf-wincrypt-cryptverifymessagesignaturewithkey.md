@@ -4,7 +4,7 @@ title: CryptVerifyMessageSignatureWithKey function
 author: windows-sdk-content
 description: Verifies a signed message's signature by using specified public key information.
 old-location: security\cryptverifymessagesignaturewithkey.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6fe0f9ee-1838-4eb7-8254-05b878eb8f56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

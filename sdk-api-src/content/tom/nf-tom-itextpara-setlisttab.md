@@ -4,7 +4,7 @@ title: ITextPara::SetListTab
 author: windows-sdk-content
 description: Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line.
 old-location: controls\ITextPara_SetListTab.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlisttab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

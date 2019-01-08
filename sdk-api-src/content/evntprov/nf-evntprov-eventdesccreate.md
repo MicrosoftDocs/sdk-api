@@ -4,7 +4,7 @@ title: EventDescCreate function
 author: windows-sdk-content
 description: Sets the values of an event descriptor.
 old-location: etw\eventdesccreate_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 05ce400e-c2e5-4852-9c41-d98ac2a6b467
 ms.author: windowssdkdev
 ms.date: 12/5/2018

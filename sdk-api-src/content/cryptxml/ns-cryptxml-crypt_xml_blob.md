@@ -4,7 +4,7 @@ title: CRYPT_XML_BLOB
 author: windows-sdk-content
 description: Contains an arbitrary array of bytes.
 old-location: security\crypt_xml_blob.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b70aae53-919b-4d4a-b284-ea6bc223842f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

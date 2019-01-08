@@ -4,7 +4,7 @@ title: PWLX_CHANGE_PASSWORD_NOTIFY_EX
 author: windows-sdk-content
 description: Called by GINA to tell a specific network provider (or all network providers) that a password has changed.
 old-location: security\wlxchangepasswordnotifyex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 2381bf3e-37d3-460a-acb2-e2d59cd7d847
 ms.author: windowssdkdev
 ms.date: 12/5/2018

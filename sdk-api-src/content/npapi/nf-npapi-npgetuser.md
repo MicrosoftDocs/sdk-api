@@ -4,7 +4,7 @@ title: NPGetUser function
 author: windows-sdk-content
 description: Retrieves the value of the current default user name or the user name used to establish a network connection.
 old-location: security\npgetuser.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

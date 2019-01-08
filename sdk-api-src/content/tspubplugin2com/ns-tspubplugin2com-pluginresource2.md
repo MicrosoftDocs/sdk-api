@@ -4,7 +4,7 @@ title: pluginResource2
 author: windows-sdk-content
 description: Contains additional information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource2.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: BD4761C7-377C-499C-B984-3B126C704089
 ms.author: windowssdkdev
 ms.date: 12/5/2018

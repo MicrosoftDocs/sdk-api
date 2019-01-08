@@ -4,7 +4,7 @@ title: CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
 author: windows-sdk-content
 description: The CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure contains information used for an individual key agreement recipient.
 old-location: security\cmsg_recipient_encrypted_key_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1921f9b6-86d9-47a0-a36e-e20d481382a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

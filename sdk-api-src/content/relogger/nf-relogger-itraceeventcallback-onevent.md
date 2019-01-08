@@ -4,7 +4,7 @@ title: ITraceEventCallback::OnEvent
 author: windows-sdk-content
 description: Indicates that an event has been received on the trace streams associated with a relogger.
 old-location: etw\ieventcallback_onevent.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2099db80-89fd-4ce1-a7ca-e79abbd7b9e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

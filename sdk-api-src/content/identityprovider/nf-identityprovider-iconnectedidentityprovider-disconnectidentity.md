@@ -4,7 +4,7 @@ title: IConnectedIdentityProvider::DisconnectIdentity
 author: windows-sdk-content
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.author: windowssdkdev
 ms.date: 12/5/2018

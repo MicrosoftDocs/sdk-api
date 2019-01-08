@@ -4,7 +4,7 @@ title: Edit_FmtLines macro
 author: windows-sdk-content
 description: Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters.
 old-location: controls\Edit_FormatLines.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_formatlines.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

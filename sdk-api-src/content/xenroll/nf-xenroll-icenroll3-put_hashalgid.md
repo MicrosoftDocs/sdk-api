@@ -4,7 +4,7 @@ title: ICEnroll3::put_HashAlgID
 author: windows-sdk-content
 description: Sets or retrieves the hash algorithm used when signing a PKCS #10 certificate request.
 old-location: security\icenroll4_hashalgid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 46f371a3-7254-4f54-b147-402f2a37e277
 ms.author: windowssdkdev
 ms.date: 12/5/2018

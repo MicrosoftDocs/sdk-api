@@ -4,7 +4,7 @@ title: SCardTransmit function
 author: windows-sdk-content
 description: Sends a service request to the smart card and expects to receive data back from the card.
 old-location: security\scardtransmit.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

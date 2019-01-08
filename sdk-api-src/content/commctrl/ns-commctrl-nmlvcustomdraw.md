@@ -4,7 +4,7 @@ title: NMLVCUSTOMDRAW
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW (list view) notification code sent by a list-view control.
 old-location: controls\NMLVCUSTOMDRAW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvcustomdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

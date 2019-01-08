@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_PRIVDATA
 author: windows-sdk-content
 description: Contains private data to be used by a provider.
 old-location: security\crypt_provider_privdata.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 499e4d9b-991a-4317-bc74-a1dfb6609a70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

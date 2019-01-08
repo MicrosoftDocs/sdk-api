@@ -4,7 +4,7 @@ title: MonthCal_SetSelRange macro
 author: windows-sdk-content
 description: Sets the selection for a month calendar control to a given date range. You can use this macro or send the MCM_SETSELRANGE message explicitly.
 old-location: controls\MonthCal_SetSelRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setselrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

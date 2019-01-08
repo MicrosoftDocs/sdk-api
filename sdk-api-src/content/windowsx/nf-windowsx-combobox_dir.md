@@ -4,7 +4,7 @@ title: ComboBox_Dir macro
 author: windows-sdk-content
 description: Adds names to the list displayed by a combo box.
 old-location: controls\ComboBox_Dir.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_dir.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: KERB_S4U_LOGON
 author: windows-sdk-content
 description: Contains information about a service for user (S4U) logon.
 old-location: security\kerb_s4u_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

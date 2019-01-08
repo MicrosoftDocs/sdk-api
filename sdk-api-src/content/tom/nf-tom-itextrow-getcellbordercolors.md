@@ -4,7 +4,7 @@ title: ITextRow::GetCellBorderColors
 author: windows-sdk-content
 description: Gets the border colors of the active cell.
 old-location: controls\itextrow_getcellbordercolors.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 2cc0a3b0-3988-4dff-9553-a86d37f4011f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

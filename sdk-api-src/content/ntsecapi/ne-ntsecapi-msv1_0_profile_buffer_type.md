@@ -4,7 +4,7 @@ title: MSV1_0_PROFILE_BUFFER_TYPE
 author: windows-sdk-content
 description: Lists the kind of logon profile returned.
 old-location: security\msv1_0_profile_buffer_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c8fe967a-e172-4200-ab15-daebf441c689
 ms.author: windowssdkdev
 ms.date: 12/5/2018

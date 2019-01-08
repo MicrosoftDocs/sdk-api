@@ -4,7 +4,7 @@ title: ITextFont::SetStyle
 author: windows-sdk-content
 description: Sets the character style handle of the characters in a range.
 old-location: controls\ITextFont_SetStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

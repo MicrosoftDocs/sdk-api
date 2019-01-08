@@ -4,7 +4,7 @@ title: BTH_HCI_EVENT_INFO
 author: windows-sdk-content
 description: Used in connection with obtaining WM_DEVICECHANGE messages for Bluetooth.
 old-location: bluetooth\bth_hci_event_info.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 9cb5eada-2fce-4568-9d2c-530cd39a2e4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptVerifyCertificateSignatureEx function
 author: windows-sdk-content
 description: Verifies the signature of a subject certificate, certificate revocation list, certificate request, or keygen request by using the issuer's public key.
 old-location: security\cryptverifycertificatesignatureex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8a84af66-b174-4a3e-b1d7-6f218a52d877
 ms.author: windowssdkdev
 ms.date: 12/5/2018

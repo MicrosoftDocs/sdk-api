@@ -4,7 +4,7 @@ title: IOCSPCAConfigurationCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of certification authority (CA) configurations in the configuration set.
 old-location: security\iocspcaconfigurationcollection_count_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

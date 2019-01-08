@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_SystemStateFile
 author: windows-sdk-content
 description: Retrieves or sets the name of the file that contains the saved system state.
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: e8e4ec1f-4b43-4252-8a31-55b2ed2dca36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

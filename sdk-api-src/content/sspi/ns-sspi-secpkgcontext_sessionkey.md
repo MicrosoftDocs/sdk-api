@@ -4,7 +4,7 @@ title: SecPkgContext_SessionKey
 author: windows-sdk-content
 description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.
 old-location: security\secpkgcontext_sessionkey.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_KEY_ATTRIBUTES_INFO
 author: windows-sdk-content
 description: The CERT_KEY_ATTRIBUTES_INFO structure contains optional additional information about the public key being certified.
 old-location: security\cert_key_attributes_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cedf0321-4f5a-48a9-abfd-d8642bb89576
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptSetProviderExW function
 author: windows-sdk-content
 description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptsetproviderex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5f0c2724-5144-4a22-a7da-2a5162f06f5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

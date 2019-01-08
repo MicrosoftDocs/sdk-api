@@ -4,7 +4,7 @@ title: ICEnroll::get_RootStoreFlags
 author: windows-sdk-content
 description: The RootStoreFlags property of ICEnroll4 sets or retrieves the registry location used for the root store.
 old-location: security\icenroll4_rootstoreflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bf844047-4f5a-42de-a446-195371c0dbcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

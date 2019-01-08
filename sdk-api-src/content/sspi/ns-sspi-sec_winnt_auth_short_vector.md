@@ -4,7 +4,7 @@ title: SEC_WINNT_AUTH_SHORT_VECTOR
 author: windows-sdk-content
 description: Specifies the offset and number of characters in an array of USHORT values.
 old-location: security\sec_winnt_auth_short_vector.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c3c1ade7-db2b-4450-97c1-5b67e4ebdcb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

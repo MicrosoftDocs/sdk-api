@@ -4,7 +4,7 @@ title: Static_Enable macro
 author: windows-sdk-content
 description: Enables or disables a static control.
 old-location: controls\Static_Enable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_enable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

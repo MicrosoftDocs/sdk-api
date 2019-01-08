@@ -4,7 +4,7 @@ title: CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 author: windows-sdk-content
 description: Contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_pre_fetch_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4c3e3248-83d2-45f4-84a5-a73f0434b804
 ms.author: windowssdkdev
 ms.date: 12/5/2018

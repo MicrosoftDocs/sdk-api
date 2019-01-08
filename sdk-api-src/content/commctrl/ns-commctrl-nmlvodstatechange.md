@@ -4,7 +4,7 @@ title: NMLVODSTATECHANGE
 author: windows-sdk-content
 description: Structure that contains information for use in processing the LVN_ODSTATECHANGED notification code.
 old-location: controls\NMLVODSTATECHANGE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvodstatechange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

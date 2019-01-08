@@ -4,7 +4,7 @@ title: SecBuffer
 author: windows-sdk-content
 description: Describes a buffer allocated by a transport application to pass to a security package.
 old-location: security\secbuffer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

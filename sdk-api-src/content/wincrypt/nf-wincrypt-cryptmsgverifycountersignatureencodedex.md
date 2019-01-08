@@ -4,7 +4,7 @@ title: CryptMsgVerifyCountersignatureEncodedEx function
 author: windows-sdk-content
 description: Verifies that the pbSignerInfoCounterSignature parameter contains the encrypted hash of the encryptedDigest field of the pbSignerInfo parameter structure.
 old-location: security\cryptmsgverifycountersignatureencodedex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

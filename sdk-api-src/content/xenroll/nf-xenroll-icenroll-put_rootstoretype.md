@@ -4,7 +4,7 @@ title: ICEnroll::put_RootStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreName property.
 old-location: security\icenroll4_rootstoretype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 452f89ad-e512-4ac7-816a-c3f97e25350a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextFont::GetOutline
 author: windows-sdk-content
 description: Gets whether characters are displayed as outlined characters.
 old-location: controls\ITextFont_GetOutline.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getoutline.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

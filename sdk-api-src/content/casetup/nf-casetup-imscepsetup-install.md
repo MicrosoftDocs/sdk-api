@@ -4,7 +4,7 @@ title: IMSCEPSetup::Install
 author: windows-sdk-content
 description: Installs a Network Device Enrollment Service (NDES) role as configured in a CMSCEPSetup object.
 old-location: security\imscepsetup_install.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 26ed36bd-8d27-42ce-81a5-a980fdebf5af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

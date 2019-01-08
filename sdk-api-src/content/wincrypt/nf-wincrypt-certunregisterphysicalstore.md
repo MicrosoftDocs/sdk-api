@@ -4,7 +4,7 @@ title: CertUnregisterPhysicalStore function
 author: windows-sdk-content
 description: The CertUnregisterPhysicalStore function removes a physical store from a specified system store collection. CertUnregisterPhysicalStore can also be used to delete the physical store.
 old-location: security\certunregisterphysicalstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 06480a2f-5a94-4cf5-9774-ceb9499e1d44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ComboBox_SetCueBannerText macro
 author: windows-sdk-content
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 old-location: controls\ComboBox_SetCueBannerText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

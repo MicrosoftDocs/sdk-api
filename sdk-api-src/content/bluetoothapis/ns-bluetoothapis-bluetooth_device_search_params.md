@@ -4,7 +4,7 @@ title: BLUETOOTH_DEVICE_SEARCH_PARAMS
 author: windows-sdk-content
 description: Specifies search criteria for Bluetooth device searches.
 old-location: bluetooth\bluetooth_device_search_params.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextServices::TxSendMessage
 author: windows-sdk-content
 description: Used by the window host to forward messages sent from its window to the text services object.
 old-location: controls\ITextServices_TxSendMessage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsendmessage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RegEnumKeyA function
 author: windows-sdk-content
 description: Enumerates the subkeys of the specified open registry key.
 old-location: base\regenumkey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 18a05c60-6c6d-438f-9003-f07d688d86a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

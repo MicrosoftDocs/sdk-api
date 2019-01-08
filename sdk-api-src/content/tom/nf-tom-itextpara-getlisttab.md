@@ -4,7 +4,7 @@ title: ITextPara::GetListTab
 author: windows-sdk-content
 description: Retrieves the list tab setting, which is the distance between the first-line indent and the text on the first line. The numbered or bulleted text is left-justified, centered, or right-justified at the first-line indent value.
 old-location: controls\ITextPara_GetListTab.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttab.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

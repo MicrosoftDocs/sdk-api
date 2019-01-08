@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::put_LogFilePath
 author: windows-sdk-content
 description: Retrieves or sets the name of the log file that contains the API trace data.
 old-location: pla\iapitracingdatacollector_logfilepath.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

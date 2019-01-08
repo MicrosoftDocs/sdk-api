@@ -4,7 +4,7 @@ title: DHPUBKEY_VER3
 author: windows-sdk-content
 description: Contains information specific to the particular public key contained in the key BLOB.
 old-location: security\dhpubkey_ver3.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 02f702dd-be9d-4a9a-a3af-4db1802386b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

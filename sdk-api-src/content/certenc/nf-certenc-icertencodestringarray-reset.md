@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::Reset
 author: windows-sdk-content
 description: Specifies the size of the string array and the type of strings the array will contain.
 old-location: security\icertencodestringarray_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 125524ae-236d-4507-9c00-76a016bf6c62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

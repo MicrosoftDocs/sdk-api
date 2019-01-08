@@ -4,7 +4,7 @@ title: CMC_TAGGED_ATTRIBUTE
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_attribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4c350cda-2318-49b2-86dc-452423ceb9e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

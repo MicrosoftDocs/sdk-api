@@ -4,7 +4,7 @@ title: CRYPT_RSA_SSA_PSS_PARAMETERS
 author: windows-sdk-content
 description: Contains the parameters for an RSA PKCS #1 v2.1 signature.
 old-location: security\crypt_rsa_ssa_pss_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3887e6c7-17df-42d3-82b1-a8f410321ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

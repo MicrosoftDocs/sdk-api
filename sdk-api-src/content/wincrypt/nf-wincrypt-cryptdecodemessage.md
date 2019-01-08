@@ -4,7 +4,7 @@ title: CryptDecodeMessage function
 author: windows-sdk-content
 description: Decodes, decrypts, and verifies a cryptographic message.
 old-location: security\cryptdecodemessage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

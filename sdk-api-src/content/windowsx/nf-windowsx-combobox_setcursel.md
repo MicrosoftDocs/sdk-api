@@ -4,7 +4,7 @@ title: ComboBox_SetCurSel macro
 author: windows-sdk-content
 description: Sets the currently selected item in a combo box. You can use this macro or send the CB_SETCURSEL message explicitly.
 old-location: controls\ComboBox_SetCurSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

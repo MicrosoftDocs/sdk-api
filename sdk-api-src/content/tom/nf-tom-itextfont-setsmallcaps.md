@@ -4,7 +4,7 @@ title: ITextFont::SetSmallCaps
 author: windows-sdk-content
 description: Sets whether characters are in small capital letters.
 old-location: controls\ITextFont_SetSmallCaps.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsmallcaps.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

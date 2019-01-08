@@ -4,7 +4,7 @@ title: CryptProtectMemory function
 author: windows-sdk-content
 description: encrypts memory to prevent others from viewing sensitive information in your process.
 old-location: security\cryptprotectmemory.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.author: windowssdkdev
 ms.date: 12/5/2018

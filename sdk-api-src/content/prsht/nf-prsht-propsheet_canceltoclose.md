@@ -4,7 +4,7 @@ title: PropSheet_CancelToClose macro
 author: windows-sdk-content
 description: Used when changes made since the most recent PSN_APPLY notification cannot be canceled. You can also send a PSM_CANCELTOCLOSE message explicitly.
 old-location: controls\PropSheet_CancelToClose.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_canceltoclose.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Edit_Enable macro
 author: windows-sdk-content
 description: Enables or disables an edit control.
 old-location: controls\Edit_Enable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

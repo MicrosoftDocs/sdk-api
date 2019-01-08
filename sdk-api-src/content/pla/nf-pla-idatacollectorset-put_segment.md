@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_Segment
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA creates new logs if the maximum size or segment duration is reached before the data collector set is stopped.
 old-location: pla\idatacollectorset_get_segment.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 5ecac3dd-0cd1-4563-a6b3-1b98e29fe769
 ms.author: windowssdkdev
 ms.date: 12/5/2018

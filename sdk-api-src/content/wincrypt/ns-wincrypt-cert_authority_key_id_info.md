@@ -4,7 +4,7 @@ title: CERT_AUTHORITY_KEY_ID_INFO
 author: windows-sdk-content
 description: Identifies the key used to sign a certificate or certificate revocation list (CRL).
 old-location: security\cert_authority_key_id_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

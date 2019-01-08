@@ -4,7 +4,7 @@ title: IDataManager::get_RuleTargetFileName
 author: windows-sdk-content
 description: Retrieves or sets the name of the report file that the TraceRpt.exe application creates.
 old-location: pla\idatamanager_ruletargetfilename.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: fc1484ea-c1d5-4267-bdf5-366c080bfc61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

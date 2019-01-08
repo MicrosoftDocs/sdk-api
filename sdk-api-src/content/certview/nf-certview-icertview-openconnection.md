@@ -4,7 +4,7 @@ title: ICertView::OpenConnection
 author: windows-sdk-content
 description: Establishes a connection with a Certificate Services server.
 old-location: security\icertview2_openconnection.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

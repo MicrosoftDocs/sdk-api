@@ -4,7 +4,7 @@ title: TreeView_GetItemPartRect macro
 author: windows-sdk-content
 description: Retrieves the largest possible bounding rectangle that constitutes the &#0034;hit zone&#0034; for a specified part of an item. Use this macro or send the TVM_GETITEMPARTRECT message explicitly.
 old-location: controls\TreeView_GetItemPartRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitempartrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

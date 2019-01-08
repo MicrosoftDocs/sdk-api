@@ -4,7 +4,7 @@ title: MonthCal_GetCalendarGridInfo macro
 author: windows-sdk-content
 description: Gets information about a calendar grid.
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

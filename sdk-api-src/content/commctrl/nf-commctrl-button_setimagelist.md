@@ -4,7 +4,7 @@ title: Button_SetImageList macro
 author: windows-sdk-content
 description: Assigns an image list to a button control. You can use this macro or send the BCM_SETIMAGELIST message explicitly.
 old-location: controls\Button_SetImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

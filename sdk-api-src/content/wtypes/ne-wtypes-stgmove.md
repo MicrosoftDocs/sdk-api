@@ -4,7 +4,7 @@ title: STGMOVE
 author: windows-sdk-content
 description: Indicate whether a storage element is to be moved or copied.
 old-location: stg\stgmove.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f55c376b-f150-406a-b960-f096c2deeff1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListBox_GetCurSel macro
 author: windows-sdk-content
 description: Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the LB_GETCURSEL message explicitly.
 old-location: controls\ListBox_GetCurSel.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcursel.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

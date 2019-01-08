@@ -4,7 +4,7 @@ title: WTS_PROTOCOL_CACHE
 author: windows-sdk-content
 description: Contains the number of cache reads and cache hits.
 old-location: termserv\wts_protocol_cache.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 94e699f4-278c-45fd-88e2-42f97e7ea305
 ms.author: windowssdkdev
 ms.date: 12/5/2018

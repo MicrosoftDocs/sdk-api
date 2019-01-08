@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector::get_SegmentMaxRecords
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of samples to log.
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cc987959-dbf6-44da-8f1a-d66a3ad791a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

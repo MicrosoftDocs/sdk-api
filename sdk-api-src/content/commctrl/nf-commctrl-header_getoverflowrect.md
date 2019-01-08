@@ -4,7 +4,7 @@ title: Header_GetOverflowRect macro
 author: windows-sdk-content
 description: Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETOVERFLOWRECT message explicitly.
 old-location: controls\Header_GetOverflowRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getoverflowrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

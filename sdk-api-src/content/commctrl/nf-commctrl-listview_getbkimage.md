@@ -4,7 +4,7 @@ title: ListView_GetBkImage macro
 author: windows-sdk-content
 description: Gets the background image in a list-view control. You can use this macro or send the LVM_GETBKIMAGE message explicitly.
 old-location: controls\ListView_GetBkImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextSelection::HomeKey
 author: windows-sdk-content
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

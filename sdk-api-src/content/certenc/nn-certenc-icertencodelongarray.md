@@ -4,7 +4,7 @@ title: ICertEncodeLongArray
 author: windows-sdk-content
 description: Provides methods for handling Long arrays used in certificate extensions.
 old-location: security\icertencodelongarray.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

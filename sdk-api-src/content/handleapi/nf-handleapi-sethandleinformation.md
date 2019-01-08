@@ -4,7 +4,7 @@ title: SetHandleInformation function
 author: windows-sdk-content
 description: Sets certain properties of an object handle.
 old-location: base\sethandleinformation.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a3fa8b92-cba2-414e-9fb8-d0fcb98ede36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

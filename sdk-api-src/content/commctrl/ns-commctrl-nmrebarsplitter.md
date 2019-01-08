@@ -4,7 +4,7 @@ title: NMREBARSPLITTER
 author: windows-sdk-content
 description: Contains information used to handle an RBN_SPLITTERDRAG notification code.
 old-location: controls\NMREBARSPLITTER.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarsplitter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

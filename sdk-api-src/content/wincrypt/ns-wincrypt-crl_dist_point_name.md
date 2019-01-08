@@ -4,7 +4,7 @@ title: CRL_DIST_POINT_NAME
 author: windows-sdk-content
 description: Identifies a location from which the CRL can be obtained.
 old-location: security\crl_dist_point_name.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageList_Merge function
 author: windows-sdk-content
 description: Creates a new image by combining two existing images. The function also creates a new image list in which to store the image.
 old-location: controls\ImageList_Merge.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_merge.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

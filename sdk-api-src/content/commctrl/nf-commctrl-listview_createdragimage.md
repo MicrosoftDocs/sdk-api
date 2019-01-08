@@ -4,7 +4,7 @@ title: ListView_CreateDragImage macro
 author: windows-sdk-content
 description: Creates a drag image list for the specified item. You can use this macro or send the LVM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\ListView_CreateDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_createdragimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

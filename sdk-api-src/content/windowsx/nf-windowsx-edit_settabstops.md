@@ -4,7 +4,7 @@ title: Edit_SetTabStops macro
 author: windows-sdk-content
 description: Sets the tab stops in a multiline edit or rich edit control. When text is copied to the control, any tab character in the text causes space to be generated up to the next tab stop. You can use this macro or send the EM_SETTABSTOPS message explicitly.
 old-location: controls\Edit_SetTabStops.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_settabstops.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

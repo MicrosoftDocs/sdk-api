@@ -4,7 +4,7 @@ title: IIdentityStore::AddToCache
 author: windows-sdk-content
 description: Caches the specified identity in the registry.
 old-location: security\iidentitystore_addtocache.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5ce977bc-41fa-4f80-bb82-76a8bdc40e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

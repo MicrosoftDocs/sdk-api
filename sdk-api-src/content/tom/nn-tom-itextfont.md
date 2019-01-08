@@ -4,7 +4,7 @@ title: ITextFont
 author: windows-sdk-content
 description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\ITextFont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

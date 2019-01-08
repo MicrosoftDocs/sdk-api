@@ -4,7 +4,7 @@ title: DSA_DeleteItem function
 author: windows-sdk-content
 description: Deletes an item from a dynamic structure array (DSA).
 old-location: controls\DSA_DeleteItem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteitem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

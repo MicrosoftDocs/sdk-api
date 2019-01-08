@@ -4,7 +4,7 @@ title: ETW_BUFFER_CONTEXT
 author: windows-sdk-content
 description: Provides context information about the event.
 old-location: etw\etw_buffer_context.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 75577305-fb3f-40a2-8fe6-9cd82c3f4e69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

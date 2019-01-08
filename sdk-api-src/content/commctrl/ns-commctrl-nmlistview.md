@@ -4,7 +4,7 @@ title: NMLISTVIEW
 author: windows-sdk-content
 description: Contains information about a list-view notification message. This structure is the same as the NM_LISTVIEW structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLISTVIEW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlistview.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CERT_LDAP_STORE_OPENED_PARA
 author: windows-sdk-content
 description: Used with the CertOpenStore function when the CERT_STORE_PROV_LDAP provider is specified by using the CERT_LDAP_STORE_OPENED_FLAG flag to specify both the existing LDAP session to use to perform the query as well as the LDAP query string.
 old-location: security\cert_ldap_store_opened_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f13b8181-6173-44f8-ab30-4311042cd1b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

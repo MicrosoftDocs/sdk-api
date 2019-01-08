@@ -4,7 +4,7 @@ title: ListView_SetGroupMetrics macro
 author: windows-sdk-content
 description: Sets information about the display of groups. You can use this macro or send the LVM_SETGROUPMETRICS message explicitly.
 old-location: controls\ListView_SetGroupMetrics.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupmetrics.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

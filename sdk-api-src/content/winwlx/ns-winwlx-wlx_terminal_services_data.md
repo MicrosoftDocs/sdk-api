@@ -4,7 +4,7 @@ title: WLX_TERMINAL_SERVICES_DATA
 author: windows-sdk-content
 description: Used to provide GINA with Terminal Services user configuration information.
 old-location: security\wlx_terminal_services_data.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e3c6285e-cac3-490d-b2db-ea63871b3620
 ms.author: windowssdkdev
 ms.date: 12/5/2018

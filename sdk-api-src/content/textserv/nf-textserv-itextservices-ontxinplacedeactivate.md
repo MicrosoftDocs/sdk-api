@@ -4,7 +4,7 @@ title: ITextServices::OnTxInPlaceDeactivate
 author: windows-sdk-content
 description: Notifies the text services object that this control is no longer in-place active.
 old-location: controls\ITextServices_OnTxInPlaceDeactivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplacedeactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

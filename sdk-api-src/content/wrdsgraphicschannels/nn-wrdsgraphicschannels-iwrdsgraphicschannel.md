@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannel
 author: windows-sdk-content
 description: This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel.
 old-location: termserv\iwrdsgraphicschannel.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 5d1e88b4-3dff-4f88-a6de-abc02da57ece
 ms.author: windowssdkdev
 ms.date: 12/5/2018

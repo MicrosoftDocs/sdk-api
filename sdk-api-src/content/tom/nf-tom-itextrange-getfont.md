@@ -4,7 +4,7 @@ title: ITextRange::GetFont
 author: windows-sdk-content
 description: Gets an ITextFont object with the character attributes of the specified range.
 old-location: controls\ITextRange_GetFont.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfont.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll4::GetKeyLenEx
 author: windows-sdk-content
 description: Retrieves size information for the signature and exchange keys.
 old-location: security\ienroll4_getkeylenex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 377fed60-7c04-41c1-bc3d-6567d7d8c389
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTSOpenServerExA function
 author: windows-sdk-content
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsopenserverex.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8122de66-c096-4bd8-95ff-ed64b88afcae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

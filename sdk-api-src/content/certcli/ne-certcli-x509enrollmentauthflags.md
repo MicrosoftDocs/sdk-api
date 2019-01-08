@@ -4,7 +4,7 @@ title: X509EnrollmentAuthFlags
 author: windows-sdk-content
 description: Specifies the authentication type.
 old-location: security\x509enrollmentauthflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

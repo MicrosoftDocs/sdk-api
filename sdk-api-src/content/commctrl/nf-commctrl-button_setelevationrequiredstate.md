@@ -4,7 +4,7 @@ title: Button_SetElevationRequiredState macro
 author: windows-sdk-content
 description: Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the BCM_SETSHIELD message explicitly.
 old-location: controls\Button_SetElevationRequiredState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IConfigurationDataCollector
 author: windows-sdk-content
 description: Collects computer settings at the time of collection.
 old-location: pla\iconfigurationdatacollector.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158
 ms.author: windowssdkdev
 ms.date: 12/5/2018

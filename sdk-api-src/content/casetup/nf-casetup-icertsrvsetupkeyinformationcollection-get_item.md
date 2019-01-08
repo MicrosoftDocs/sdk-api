@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection::get_Item
 author: windows-sdk-content
 description: Gets an ICertSrvSetupKeyInformation object that is identified by index in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_item.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2ae3d695-4dfe-4c72-8e66-64dce88c2bb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

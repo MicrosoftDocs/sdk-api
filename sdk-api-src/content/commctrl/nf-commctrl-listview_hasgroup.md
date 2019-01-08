@@ -4,7 +4,7 @@ title: ListView_HasGroup macro
 author: windows-sdk-content
 description: Determines whether the list-view control has a specified group. You can use this macro or send the LVM_HASGROUP message explicitly.
 old-location: controls\ListView_HasGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

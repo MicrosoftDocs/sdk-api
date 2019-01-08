@@ -4,7 +4,7 @@ title: CertAddCRLContextToStore function
 author: windows-sdk-content
 description: Adds a certificate revocation list (CRL) context to the specified certificate store.
 old-location: security\certaddcrlcontexttostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5dfa1c08-5d75-4ee4-bd65-ce56eb61ecce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

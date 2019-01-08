@@ -80,3 +80,14 @@ A <b>UINT</b>. The y coordinate within the destination subresource.
 
 A <a href="https://msdn.microsoft.com/39511ACE-7AC5-42A2-896D-7E0977A346C6">D3D12_RECT</a>. The rectangle within the source subresource.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

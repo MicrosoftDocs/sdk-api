@@ -4,7 +4,7 @@ title: CRYPT_ATTRIBUTE
 author: windows-sdk-content
 description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.
 old-location: security\crypt_attribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
 ms.author: windowssdkdev
 ms.date: 12/5/2018

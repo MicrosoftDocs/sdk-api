@@ -4,7 +4,7 @@ title: CryptAcquireContextW function
 author: windows-sdk-content
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

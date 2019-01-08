@@ -4,7 +4,7 @@ title: ListView_GetGroupRect macro
 author: windows-sdk-content
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
 old-location: controls\ListView_GetGroupRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

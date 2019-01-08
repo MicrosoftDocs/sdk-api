@@ -4,7 +4,7 @@ title: ITSGAuthenticateUserSink
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.
 old-location: termserv\itsgauthenticateusersink.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210
 ms.author: windowssdkdev
 ms.date: 12/5/2018

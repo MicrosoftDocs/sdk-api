@@ -4,7 +4,7 @@ title: CRYPT_XML_TRANSFORM_CHAIN_CONFIG
 author: windows-sdk-content
 description: Contains application defined transforms that are allowed for use in the XML digital signature.
 old-location: security\crypt_xml_transform_chain_config.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ad18ee99-685d-4a79-bd91-492df20edb8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

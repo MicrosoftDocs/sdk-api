@@ -4,7 +4,7 @@ title: Edit_GetExtendedStyle macro
 author: windows-sdk-content
 description: Gets the extended styles that are currently in use for a given edit control. You can use this macro or send the EM_GETEXTENDEDSTYLE message explicitly.
 old-location: controls\edit_getextendedstyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 6E29C7FE-A0D4-4A4D-B10A-2E2B2211D6C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FORWARD_WM_NOTIFY macro
 author: windows-sdk-content
 description: Sends or posts the WM_NOTIFY message.
 old-location: controls\FORWARD_WM_NOTIFY.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\forward_wm_notify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

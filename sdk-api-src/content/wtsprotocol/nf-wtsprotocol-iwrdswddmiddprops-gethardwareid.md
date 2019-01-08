@@ -4,7 +4,7 @@ title: IWRdsWddmIddProps::GetHardwareId
 author: windows-sdk-content
 description: Protocol stack uses this method to return hardware Id of WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_gethardwareid.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 4F9D2C6D-6555-4ABE-B856-6DD59B139978
 ms.author: windowssdkdev
 ms.date: 12/5/2018

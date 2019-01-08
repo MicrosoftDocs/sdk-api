@@ -4,7 +4,7 @@ title: SEC_WINNT_CREDUI_CONTEXT_VECTOR
 author: windows-sdk-content
 description: Specifies the offset and size of the credential context data in a SEC_WINNT_CREDUI_CONTEXT structure.
 old-location: security\sec_winnt_credui_context_vector.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 11a82e82-f5c5-4549-8e5f-9d479e9c8249
 ms.author: windowssdkdev
 ms.date: 12/5/2018

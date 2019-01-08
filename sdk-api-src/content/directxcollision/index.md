@@ -2,7 +2,7 @@
 UID: NA:directxcollision
 ms.assetid: 99342ae6-316f-3c01-8d39-173dd588aa1c
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

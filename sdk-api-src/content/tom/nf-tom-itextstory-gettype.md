@@ -4,7 +4,7 @@ title: ITextStory::GetType
 author: windows-sdk-content
 description: Gets this story's type.
 old-location: controls\itextstory_gettype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 43a75284-c461-4118-834c-9ce5ded55094
 ms.author: windowssdkdev
 ms.date: 12/5/2018

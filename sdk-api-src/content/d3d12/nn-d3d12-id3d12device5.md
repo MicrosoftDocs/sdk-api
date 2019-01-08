@@ -77,10 +77,37 @@ Reports the compatibility of serialized data, such as a serialized raytracing ac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/70AB644F-7406-4271-89C9-8D38FE3B4D7A">CreateMetaCommand</a>
+</td>
+<td align="left" width="63%">
+Creates an instance of the specified meta command.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/en-us/library/Mt815644(v=VS.85).aspx">CreateStateObject</a>
 </td>
 <td align="left" width="63%">
 Creates an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/EA4DD3FE-E11A-4F1C-A765-4B1FCA71FB4B">EnumerateMetaCommandParameters</a>
+</td>
+<td align="left" width="63%">
+Queries reflection metadata about the parameters of the specified meta command.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/71A16704-487F-49AA-B229-61CCD15B3037">EnumerateMetaCommands</a>
+</td>
+<td align="left" width="63%">
+Queries reflection metadata about available meta commands.
 
 </td>
 </tr>

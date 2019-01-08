@@ -4,7 +4,7 @@ title: IWorkspaceReportMessage::RegisterErrorLogMessage
 author: windows-sdk-content
 description: Registers the specified error message to use in the UI.
 old-location: termserv\iworkspacereportmessage_registererrorlogmessage.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3aca491f-2cbd-4f04-a06c-986c37e6ce5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

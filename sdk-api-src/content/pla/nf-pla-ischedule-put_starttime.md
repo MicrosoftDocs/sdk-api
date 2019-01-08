@@ -4,7 +4,7 @@ title: ISchedule::put_StartTime
 author: windows-sdk-content
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

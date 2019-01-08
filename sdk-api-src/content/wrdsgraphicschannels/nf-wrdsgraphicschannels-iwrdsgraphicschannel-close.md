@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannel::Close
 author: windows-sdk-content
 description: Called to close the channel.
 old-location: termserv\iwrdsgraphicschannel_close.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

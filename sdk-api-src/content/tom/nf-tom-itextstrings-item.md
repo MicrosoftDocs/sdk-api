@@ -4,7 +4,7 @@ title: ITextStrings::Item
 author: windows-sdk-content
 description: Gets an ITextRange2 object for a selected index in a string collection.
 old-location: controls\itextstrings_item.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 8eed4bc6-75a8-440e-a334-543e7b996df0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

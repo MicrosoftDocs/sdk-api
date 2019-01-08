@@ -4,7 +4,7 @@ title: CryptStringToBinaryW function
 author: windows-sdk-content
 description: Converts a formatted string into an array of bytes.
 old-location: security\cryptstringtobinary.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 13b6f5ef-174a-4254-8492-6e7dcc58945f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ValueMapType
 author: windows-sdk-content
 description: Defines the type of the value.
 old-location: pla\valuemaptype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

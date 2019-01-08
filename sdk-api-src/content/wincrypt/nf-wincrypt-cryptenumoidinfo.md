@@ -4,7 +4,7 @@ title: CryptEnumOIDInfo function
 author: windows-sdk-content
 description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.
 old-location: security\cryptenumoidinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFolderActionCollection::Add
 author: windows-sdk-content
 description: Adds a folder action to the collection.
 old-location: pla\ifolderactioncollection_add.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977
 ms.author: windowssdkdev
 ms.date: 12/5/2018

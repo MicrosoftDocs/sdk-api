@@ -4,7 +4,7 @@ title: ITextHost::TxGetPropertyBits
 author: windows-sdk-content
 description: Requests the bit property settings for the text host.
 old-location: controls\ITextHost_TxGetPropertyBits.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetpropertybits.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

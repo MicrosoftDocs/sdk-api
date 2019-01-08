@@ -4,7 +4,7 @@ title: ITextDocument2::AttachMsgFilter
 author: windows-sdk-content
 description: Attaches a new message filter to the edit instance. All window messages that the edit instance receives are forwarded to the message filter.
 old-location: controls\itextdocument2_attachmsgfilter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 055b9d59-59cc-4922-b6b9-920885969dbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EVENT_FILTER_EVENT_ID
 author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event ID or stack walk filter.
 old-location: etw\event_filter_event_id.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: D660D140-BE86-44F6-B1D2-E1B97300BD11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

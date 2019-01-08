@@ -4,7 +4,7 @@ title: ILockBytes::UnlockRegion
 author: windows-sdk-content
 description: The UnlockRegion method removes the access restriction on a previously locked range of bytes.
 old-location: stg\ilockbytes_unlockregion.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

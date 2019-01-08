@@ -4,7 +4,7 @@ title: CRYPT_PKCS8_EXPORT_PARAMS
 author: windows-sdk-content
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS #8 format.
 old-location: security\crypt_pkcs8_export_params.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

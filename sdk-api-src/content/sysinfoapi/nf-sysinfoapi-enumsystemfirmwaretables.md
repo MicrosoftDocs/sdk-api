@@ -4,7 +4,7 @@ title: EnumSystemFirmwareTables function
 author: windows-sdk-content
 description: Enumerates all system firmware tables of the specified type.
 old-location: base\enumsystemfirmwaretables.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

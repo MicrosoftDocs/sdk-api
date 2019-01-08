@@ -4,7 +4,7 @@ title: CertSelectCertificateChains function
 author: windows-sdk-content
 description: Retrieves certificate chains based on specified selection criteria.
 old-location: security\certselectcertificatechains.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b740772b-d25b-4b3d-9acb-03f7018750d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

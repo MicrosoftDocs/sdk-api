@@ -4,7 +4,7 @@ title: PWLX_SET_OPTION
 author: windows-sdk-content
 description: Called by GINA to set the value of an option.
 old-location: security\wlxsetoption.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 59f775dd-b3ed-4a57-bec7-fa6ddf267401
 ms.author: windowssdkdev
 ms.date: 12/5/2018

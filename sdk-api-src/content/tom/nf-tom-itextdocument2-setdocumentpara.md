@@ -4,7 +4,7 @@ title: ITextDocument2::SetDocumentPara
 author: windows-sdk-content
 description: Sets the default paragraph formatting for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_setdocumentpara.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: d35d57e9-a005-48cd-a92d-381dc490d44f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

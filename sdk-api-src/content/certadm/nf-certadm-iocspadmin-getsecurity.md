@@ -4,7 +4,7 @@ title: IOCSPAdmin::GetSecurity
 author: windows-sdk-content
 description: Gets security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
 old-location: security\iocspadmin_getsecurity.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0859ea85-66b2-45af-9559-c81e6a766cfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

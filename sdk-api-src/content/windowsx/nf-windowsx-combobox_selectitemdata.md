@@ -4,7 +4,7 @@ title: ComboBox_SelectItemData macro
 author: windows-sdk-content
 description: Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectitemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

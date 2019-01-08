@@ -4,7 +4,7 @@ title: WTS_SERVER_INFOW
 author: windows-sdk-content
 description: Contains information about a specific Remote Desktop Services server.
 old-location: termserv\wts_server_info.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

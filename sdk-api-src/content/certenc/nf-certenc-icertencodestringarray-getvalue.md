@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::GetValue
 author: windows-sdk-content
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

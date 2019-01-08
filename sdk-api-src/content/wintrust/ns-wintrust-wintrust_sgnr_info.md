@@ -4,7 +4,7 @@ title: WINTRUST_SGNR_INFO
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CMSG_SIGNER_INFO structure.
 old-location: security\wintrust_sgnr_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 04e62bfa-efe4-428a-ae6b-58c2377fd5ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

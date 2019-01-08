@@ -4,7 +4,7 @@ title: ITextServices2::TxGetNaturalSize2
 author: windows-sdk-content
 description: Resizes a control so it fits its content appropriately. This method is similar to TxGetNaturalSize, but also retrieves the ascent of the top line of text.
 old-location: controls\itextservices2_txgetnaturalsize2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9D9A3D06-5C1F-4D50-B7B7-E6CA2BFDB89C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

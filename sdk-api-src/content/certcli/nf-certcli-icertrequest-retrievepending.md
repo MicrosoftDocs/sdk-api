@@ -4,7 +4,7 @@ title: ICertRequest::RetrievePending
 author: windows-sdk-content
 description: Retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
 old-location: security\icertrequest2_retrievepending.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 07a9ac57-f90e-4c5c-b563-8aebbcf8f42e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

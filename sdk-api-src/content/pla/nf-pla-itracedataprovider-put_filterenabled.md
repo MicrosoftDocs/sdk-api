@@ -4,7 +4,7 @@ title: ITraceDataProvider::put_FilterEnabled
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
 old-location: pla\itracedataprovider_filterenabled.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: fef5e6a4-3a97-4799-b46d-c0e82b1c0104
 ms.author: windowssdkdev
 ms.date: 12/5/2018

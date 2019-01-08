@@ -4,7 +4,7 @@ title: CERT_INFO
 author: windows-sdk-content
 description: Contains the information of a certificate.
 old-location: security\cert_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8d0a3053-52d4-437a-bf55-6724b5825cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

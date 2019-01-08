@@ -4,7 +4,7 @@ title: ICertEncodeAltName
 author: windows-sdk-content
 description: Provides methods for handling alternate names used in certificate extensions.
 old-location: security\icertencodealtname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
 ms.author: windowssdkdev
 ms.date: 12/5/2018

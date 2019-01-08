@@ -4,7 +4,7 @@ title: ListView_GetTextBkColor macro
 author: windows-sdk-content
 description: Gets the text background color of a list-view control. You can use this macro or send the LVM_GETTEXTBKCOLOR message explicitly.
 old-location: controls\ListView_GetTextBkColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettextbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MAP_FLAGS
 author: windows-sdk-content
 description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 old-location: etw\map_flags_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2::SetPara2
 author: windows-sdk-content
 description: Sets the paragraph format attributes of a range.
 old-location: controls\itextrange2_setpara2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819
 ms.author: windowssdkdev
 ms.date: 12/5/2018

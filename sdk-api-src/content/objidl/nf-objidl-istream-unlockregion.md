@@ -4,7 +4,7 @@ title: IStream::UnlockRegion
 author: windows-sdk-content
 description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.
 old-location: stg\istream_unlockregion.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

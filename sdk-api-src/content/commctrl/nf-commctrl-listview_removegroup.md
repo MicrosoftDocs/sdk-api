@@ -4,7 +4,7 @@ title: ListView_RemoveGroup macro
 author: windows-sdk-content
 description: Removes a group from a list-view control. You can use this macro or send the LVM_REMOVEGROUP message explicitly.
 old-location: controls\ListView_RemoveGroup.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removegroup.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

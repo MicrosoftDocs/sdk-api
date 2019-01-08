@@ -4,7 +4,7 @@ title: ITextRange::SetIndex
 author: windows-sdk-content
 description: Changes this range to the specified unit of the story.
 old-location: controls\ITextRange_SetIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

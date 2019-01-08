@@ -4,7 +4,7 @@ title: GetPrivateProfileSectionNamesW function
 author: windows-sdk-content
 description: Retrieves the names of all sections in an initialization file.
 old-location: base\getprivateprofilesectionnames.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

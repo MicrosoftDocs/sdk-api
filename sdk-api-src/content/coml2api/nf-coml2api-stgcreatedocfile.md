@@ -4,7 +4,7 @@ title: StgCreateDocfile function
 author: windows-sdk-content
 description: Creates a new compound file storage object using the COM-provided compound file implementation for the IStorage interface.
 old-location: stg\stgcreatedocfile.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

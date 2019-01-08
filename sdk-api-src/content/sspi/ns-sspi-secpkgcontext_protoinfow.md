@@ -4,7 +4,7 @@ title: SecPkgContext_ProtoInfoW
 author: windows-sdk-content
 description: The SecPkgContext_ProtoInfo structure holds information about the protocol in use.
 old-location: security\secpkgcontext_protoinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c10eb1fc-b957-4853-86c1-070749488bb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

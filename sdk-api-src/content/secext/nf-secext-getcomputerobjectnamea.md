@@ -4,7 +4,7 @@ title: GetComputerObjectNameA function
 author: windows-sdk-content
 description: Retrieves the local computer's name in a specified format.
 old-location: base\getcomputerobjectname.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: aead19ae-a27c-486e-aa2e-220d337044fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

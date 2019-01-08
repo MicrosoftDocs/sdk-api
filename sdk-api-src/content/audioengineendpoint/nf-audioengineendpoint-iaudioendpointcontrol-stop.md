@@ -4,7 +4,7 @@ title: IAudioEndpointControl::Stop
 author: windows-sdk-content
 description: Stops the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_stop.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 803aec38-abc8-4f55-bb56-3dcc3eeb924a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

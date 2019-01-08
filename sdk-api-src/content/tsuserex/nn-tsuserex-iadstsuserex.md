@@ -4,7 +4,7 @@ title: IADsTSUserEx
 author: windows-sdk-content
 description: Used to examine and configure Remote Desktop Services user properties.
 old-location: termserv\iadstsuserex.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

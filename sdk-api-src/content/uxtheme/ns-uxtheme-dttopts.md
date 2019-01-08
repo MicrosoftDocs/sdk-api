@@ -4,7 +4,7 @@ title: DTTOPTS
 author: windows-sdk-content
 description: Defines the options for the DrawThemeTextEx function.
 old-location: controls\DTTOPTS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dttopts.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

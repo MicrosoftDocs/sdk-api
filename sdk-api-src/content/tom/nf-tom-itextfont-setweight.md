@@ -4,7 +4,7 @@ title: ITextFont::SetWeight
 author: windows-sdk-content
 description: Sets the font weight for the characters in a range.
 old-location: controls\ITextFont_SetWeight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setweight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

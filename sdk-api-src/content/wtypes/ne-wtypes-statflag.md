@@ -4,7 +4,7 @@ title: STATFLAG
 author: windows-sdk-content
 description: Indicate whether the method should try to return a name in the pwcsName member of the STATSTG structure.
 old-location: stg\statflag.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

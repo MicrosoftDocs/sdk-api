@@ -4,7 +4,7 @@ title: IImageList::GetOverlayImage
 author: windows-sdk-content
 description: Retrieves a specified image from the list of images used as overlay masks.
 old-location: controls\IImageList_GetOverlayImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

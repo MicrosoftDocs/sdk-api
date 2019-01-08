@@ -4,7 +4,7 @@ title: COLORSCHEME
 author: windows-sdk-content
 description: Contains information for the drawing of buttons in a toolbar or rebar.
 old-location: controls\COLORSCHEME.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\colorscheme.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

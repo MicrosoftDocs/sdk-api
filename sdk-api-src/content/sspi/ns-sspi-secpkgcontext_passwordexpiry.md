@@ -4,7 +4,7 @@ title: SecPkgContext_PasswordExpiry
 author: windows-sdk-content
 description: The SecPkgContext_PasswordExpiry structure contains information about the expiration of a password or other credential used for the security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_passwordexpiry.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f45dde88-1520-4e65-8fae-8407dfaa0850
 ms.author: windowssdkdev
 ms.date: 12/5/2018

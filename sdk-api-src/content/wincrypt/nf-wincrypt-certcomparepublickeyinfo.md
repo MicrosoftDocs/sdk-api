@@ -4,7 +4,7 @@ title: CertComparePublicKeyInfo function
 author: windows-sdk-content
 description: The CertComparePublicKeyInfo function compares two encoded public keys to determine whether they are identical.
 old-location: security\certcomparepublickeyinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 079e4d5e-c8cb-4c3e-8094-13b9a140d564
 ms.author: windowssdkdev
 ms.date: 12/5/2018

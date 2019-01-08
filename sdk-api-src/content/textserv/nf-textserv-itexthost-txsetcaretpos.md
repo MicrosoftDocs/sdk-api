@@ -4,7 +4,7 @@ title: ITextHost::TxSetCaretPos
 author: windows-sdk-content
 description: Moves the caret position to the specified coordinates in the text host window.
 old-location: controls\ITextHost_TxSetCaretPos.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcaretpos.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

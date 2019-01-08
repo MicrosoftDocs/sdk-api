@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::UpdateSessionDisplaySettings
 author: windows-sdk-content
 description: Updates the width and height settings for the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient_updatesessiondisplaysettings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d8a7f2b7-925a-49b8-aa7b-c59736a13c67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

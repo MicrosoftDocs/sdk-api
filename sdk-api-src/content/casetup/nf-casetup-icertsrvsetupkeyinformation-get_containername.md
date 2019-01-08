@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::get_ContainerName
 author: windows-sdk-content
 description: Gets or sets the name used by the cryptographic service provider (CSP) to generate, store, or access the key.
 old-location: security\icertsrvsetupkeyinformation_containername.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: dc644471-6825-48b1-bbfa-da9af6dd0652
 ms.author: windowssdkdev
 ms.date: 12/5/2018

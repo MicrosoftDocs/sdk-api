@@ -4,7 +4,7 @@ title: ITsSbProvisioningPluginNotifySink::OnJobCancelled
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is cancelled.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcancelled.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: c4e65194-47c1-43d9-93b3-fbbb57d7f34a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

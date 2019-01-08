@@ -4,7 +4,7 @@ title: IEnroll2::GetAlgNameWStr
 author: windows-sdk-content
 description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP).
 old-location: security\ienroll4_getalgnamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d628d26-a081-49a2-8fc9-88f014d24a4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

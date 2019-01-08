@@ -4,7 +4,7 @@ title: ListView_SetCallbackMask macro
 author: windows-sdk-content
 description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.
 old-location: controls\ListView_SetCallbackMask.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

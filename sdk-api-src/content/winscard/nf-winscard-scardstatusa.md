@@ -4,7 +4,7 @@ title: SCardStatusA function
 author: windows-sdk-content
 description: Provides the current status of a smart card in a reader.
 old-location: security\scardstatus.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

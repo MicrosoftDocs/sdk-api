@@ -4,7 +4,7 @@ title: ICEnroll4::acceptResponse
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequest and places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptresponse.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1149a76e-e714-4bc7-842c-6fcbe220cd24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_TaskArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IDataCollectorSet::Task property.
 old-location: pla\idatacollectorset_get_taskarguments.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 7bd045df-379b-40fb-b309-cec531493018
 ms.author: windowssdkdev
 ms.date: 12/5/2018

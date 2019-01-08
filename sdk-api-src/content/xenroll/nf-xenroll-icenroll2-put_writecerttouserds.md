@@ -4,7 +4,7 @@ title: ICEnroll2::put_WriteCertToUserDS
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\icenroll4_writecerttouserds.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 8c80f6b9-f5f7-4fa1-9cb5-db19cdc9ec25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

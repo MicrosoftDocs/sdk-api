@@ -4,7 +4,7 @@ title: IEnroll::put_CAStoreNameWStr
 author: windows-sdk-content
 description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
 old-location: security\ienroll4_castorenamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4c016649-a780-45c1-94a4-fb08c15c4e0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

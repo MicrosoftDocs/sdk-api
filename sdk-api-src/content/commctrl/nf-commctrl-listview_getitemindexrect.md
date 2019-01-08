@@ -4,7 +4,7 @@ title: ListView_GetItemIndexRect macro
 author: windows-sdk-content
 description: Gets the bounding rectangle for all or part of a subitem in the current view of a specified list-view control. Use this macro or send the LVM_GETITEMINDEXRECT message explicitly.
 old-location: controls\ListView_GetItemIndexRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemindexrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextPara2::GetFontAlignment
 author: windows-sdk-content
 description: Gets the paragraph font alignment state.
 old-location: controls\itextpara2_getfontalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1064c033-2ae0-46ec-a670-603edd673e87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

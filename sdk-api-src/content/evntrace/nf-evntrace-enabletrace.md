@@ -4,7 +4,7 @@ title: EnableTrace function
 author: windows-sdk-content
 description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
 old-location: etw\enabletrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

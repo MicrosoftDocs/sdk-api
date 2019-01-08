@@ -4,7 +4,7 @@ title: CertNameToStrW function
 author: windows-sdk-content
 description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
 old-location: security\certnametostr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

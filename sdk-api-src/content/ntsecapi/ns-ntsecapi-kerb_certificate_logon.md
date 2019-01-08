@@ -4,7 +4,7 @@ title: KERB_CERTIFICATE_LOGON
 author: windows-sdk-content
 description: Contains information about a smart card logon session.
 old-location: security\kerb_certificate_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e6aa0042-edb5-4e9b-b545-5159d3bfb8fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

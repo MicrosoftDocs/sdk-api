@@ -4,7 +4,7 @@ title: ITsSbTarget::get_TargetPropertySet
 author: windows-sdk-content
 description: Retrieves or specifies the set of properties for the target.
 old-location: termserv\itssbtarget_targetpropertyset.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 0c3e84d6-17a2-452f-98bd-f9b8670710e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

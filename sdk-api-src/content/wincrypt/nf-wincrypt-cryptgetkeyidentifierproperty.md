@@ -4,7 +4,7 @@ title: CryptGetKeyIdentifierProperty function
 author: windows-sdk-content
 description: The CryptGetKeyIdentifierProperty acquires a specific property from a specified key identifier.
 old-location: security\cryptgetkeyidentifierproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bc0511c1-0699-4959-afd7-a838c91c77d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

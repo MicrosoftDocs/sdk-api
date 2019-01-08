@@ -4,7 +4,7 @@ title: EVENT_MAP_INFO
 author: windows-sdk-content
 description: Defines the metadata about the event map.
 old-location: etw\event_map_info_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: dc7f14e7-16d7-4dfc-8c1a-5db6fa999d98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

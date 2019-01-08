@@ -4,7 +4,7 @@ title: ITextFont::GetShadow
 author: windows-sdk-content
 description: Gets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_GetShadow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getshadow.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

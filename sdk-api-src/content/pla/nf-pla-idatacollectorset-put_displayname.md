@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_DisplayName
 author: windows-sdk-content
 description: Retrieves or sets the display name of the data collector set.
 old-location: pla\idatacollectorset_displayname.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 4be6d1a1-54de-45fa-8d00-36f8b95e30a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

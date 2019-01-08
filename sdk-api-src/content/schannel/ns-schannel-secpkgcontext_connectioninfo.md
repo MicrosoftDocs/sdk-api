@@ -4,7 +4,7 @@ title: SecPkgContext_ConnectionInfo
 author: windows-sdk-content
 description: The SecPkgContext_ConnectionInfo structure contains protocol and cipher information. This structure is used by the InitializeSecurityContext (Schannel) function.This attribute is supported only by the Schannel security support provider (SSP).
 old-location: security\secpkgcontext_connectioninfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 5380c03b-d2c5-4a0d-96a1-c39305b9c9ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFNPROPSHEETCALLBACK
 author: windows-sdk-content
 description: An application-defined callback function that the system calls when the property sheet is being created and initialized.
 old-location: controls\PropSheetProc.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

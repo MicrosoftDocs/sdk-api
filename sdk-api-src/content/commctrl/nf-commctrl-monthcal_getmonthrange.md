@@ -4,7 +4,7 @@ title: MonthCal_GetMonthRange macro
 author: windows-sdk-content
 description: Retrieves date information (using SYSTEMTIME structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the MCM_GETMONTHRANGE message explicitly.
 old-location: controls\MonthCal_GetMonthRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

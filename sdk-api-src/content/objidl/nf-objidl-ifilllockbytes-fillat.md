@@ -4,7 +4,7 @@ title: IFillLockBytes::FillAt
 author: windows-sdk-content
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

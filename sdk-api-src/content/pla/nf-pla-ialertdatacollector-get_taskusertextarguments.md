@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_TaskUserTextArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskusertextarguments.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d432652a-3dea-43f0-a698-bb7ccb1cb79a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

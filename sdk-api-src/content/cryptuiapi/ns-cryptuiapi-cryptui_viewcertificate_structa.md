@@ -4,7 +4,7 @@ title: CRYPTUI_VIEWCERTIFICATE_STRUCTA
 author: windows-sdk-content
 description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function.
 old-location: security\cryptui_viewcertificate_struct.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7bbd58df-3a1b-4d82-9a90-7c94260a7165
 ms.author: windowssdkdev
 ms.date: 12/5/2018

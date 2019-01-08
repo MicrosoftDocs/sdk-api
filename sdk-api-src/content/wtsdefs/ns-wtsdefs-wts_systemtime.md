@@ -4,7 +4,7 @@ title: WTS_SYSTEMTIME
 author: windows-sdk-content
 description: Specifies date and time information for transitions between standard time and daylight saving time.
 old-location: termserv\wts_systemtime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 3d123666-c13c-4061-9c03-a84cc3ab2a51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

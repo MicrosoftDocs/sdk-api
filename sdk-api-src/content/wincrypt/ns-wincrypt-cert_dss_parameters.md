@@ -4,7 +4,7 @@ title: CERT_DSS_PARAMETERS
 author: windows-sdk-content
 description: Contains parameters associated with a Digital Signature Standard (DSS) public key algorithm.
 old-location: security\cert_dss_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4544986a-8168-4d56-be5f-59d318da7c30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

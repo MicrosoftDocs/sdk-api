@@ -4,7 +4,7 @@ title: ISchedule::get_Days
 author: windows-sdk-content
 description: Retrieves or sets the days on which the data collector set runs.
 old-location: pla\ischedule_days.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 2986032f-647a-457a-ac7b-48439fd229a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

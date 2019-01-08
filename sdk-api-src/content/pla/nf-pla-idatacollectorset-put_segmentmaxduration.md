@@ -4,7 +4,7 @@ title: IDataCollectorSet::put_SegmentMaxDuration
 author: windows-sdk-content
 description: Retrieves or sets the duration that the data collector set can run before it begins writing to new log files.
 old-location: pla\idatacollectorset_segmentmaxduration.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d958c7a7-0258-4db6-b650-14a61d59221b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

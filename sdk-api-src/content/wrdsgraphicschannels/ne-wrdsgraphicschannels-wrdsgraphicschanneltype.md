@@ -4,7 +4,7 @@ title: WRdsGraphicsChannelType
 author: windows-sdk-content
 description: Used to specify the type of graphics virtual channel to create in the IWRdsGraphicsChannelManager::CreateChannel method.
 old-location: termserv\wrdsgraphicschanneltype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 79B63FCD-6BCD-44E6-A5C3-6F5E1336DAA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

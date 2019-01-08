@@ -4,7 +4,7 @@ title: ListBox_DeleteString macro
 author: windows-sdk-content
 description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.
 old-location: controls\ListBox_DeleteString.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_deletestring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

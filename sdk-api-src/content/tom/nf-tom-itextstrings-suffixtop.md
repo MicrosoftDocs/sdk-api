@@ -4,7 +4,7 @@ title: ITextStrings::SuffixTop
 author: windows-sdk-content
 description: Suffixes a string to the top string in the collection.
 old-location: controls\itextstrings_suffixtop.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: KERB_LOGON_SUBMIT_TYPE
 author: windows-sdk-content
 description: Identifies the type of logon being requested.
 old-location: security\kerb_logon_submit_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 500bee53-638b-4782-b42d-1df158396fb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCSPAdmin::GetHashAlgorithms
 author: windows-sdk-content
 description: Gets a list of hash-algorithm names. The Online Certificate Status Protocol (OCSP) responder server uses these names to sign OCSP responses for a given certification authority (CA) configuration.
 old-location: security\iocspadmin_gethashalgorithms.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

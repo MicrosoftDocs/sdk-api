@@ -4,7 +4,7 @@ title: IWRdsProtocolListenerCallback::OnConnected
 author: windows-sdk-content
 description: Notifies the Remote Desktop Services service that a client connection request has been received.
 old-location: termserv\iwrdsprotocollistenercallback_onconnected.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9d2d5393-f0a6-40ec-9bf2-2e8c945693db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

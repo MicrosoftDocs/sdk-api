@@ -4,7 +4,7 @@ title: SecPkgContext_SupportedSignatures
 author: windows-sdk-content
 description: Specifies the signature algorithms supported by an Schannel connection.
 old-location: security\secpkgcontext_supportedsignatures.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

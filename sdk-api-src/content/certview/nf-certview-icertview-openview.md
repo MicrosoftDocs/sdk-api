@@ -4,7 +4,7 @@ title: ICertView::OpenView
 author: windows-sdk-content
 description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.
 old-location: security\icertview2_openview.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

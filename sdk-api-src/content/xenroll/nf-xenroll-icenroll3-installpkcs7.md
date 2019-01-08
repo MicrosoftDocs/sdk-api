@@ -4,7 +4,7 @@ title: ICEnroll3::InstallPKCS7
 author: windows-sdk-content
 description: Processes a certificate or chain of certificates, placing them into the appropriate certificate stores. This method differs from the acceptPKCS7 method in that InstallPKCS7 does not receive a request certificate.
 old-location: security\icenroll4_installpkcs7.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 63482360-0d8a-4e23-8942-8276630778a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

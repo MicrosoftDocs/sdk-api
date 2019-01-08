@@ -4,7 +4,7 @@ title: SecPkgCredentials_KdcProxySettingsW
 author: windows-sdk-content
 description: Specifies the Kerberos proxy settings for the credentials.
 old-location: security\secpkgcredentials_kdcproxysettings.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 42BC75B8-6392-4FD4-95BC-266B3AFDDC62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

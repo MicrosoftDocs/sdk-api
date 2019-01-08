@@ -4,7 +4,7 @@ title: PFN_CERT_STORE_PROV_CLOSE
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertCloseStore when the store's reference count is decremented to zero.
 old-location: security\certstoreprovclosecallback.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2d0aa2c2-e79f-485c-ad47-6d9672c778da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

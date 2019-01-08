@@ -4,7 +4,7 @@ title: AutoPathFormat
 author: windows-sdk-content
 description: Defines how to decorate the file name or subdirectory name.
 old-location: pla\autopathformat.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: eee5e4fc-7754-44ad-b22d-5296223e2e9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

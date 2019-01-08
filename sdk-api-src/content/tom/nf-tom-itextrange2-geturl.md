@@ -4,7 +4,7 @@ title: ITextRange2::GetURL
 author: windows-sdk-content
 description: Returns the URL text associated with a range.
 old-location: controls\itextrange2_geturl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0d23f261-0b44-4532-86da-0ca40561bfe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

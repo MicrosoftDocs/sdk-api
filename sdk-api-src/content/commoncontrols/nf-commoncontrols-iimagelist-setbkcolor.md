@@ -4,7 +4,7 @@ title: IImageList::SetBkColor
 author: windows-sdk-content
 description: Sets the background color for an image list.
 old-location: controls\IImageList_SetBkColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

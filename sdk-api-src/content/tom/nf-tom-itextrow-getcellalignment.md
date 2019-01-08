@@ -4,7 +4,7 @@ title: ITextRow::GetCellAlignment
 author: windows-sdk-content
 description: Gets the vertical alignment of the active cell.
 old-location: controls\itextrow_getcellalignment.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 379d6fa5-ea73-4b72-9251-942f66925d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

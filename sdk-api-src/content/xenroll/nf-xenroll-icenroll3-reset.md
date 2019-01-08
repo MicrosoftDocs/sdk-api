@@ -4,7 +4,7 @@ title: ICEnroll3::Reset
 author: windows-sdk-content
 description: Returns the certificate enrollment control object to its initial state and thereby allow reuse of the control. This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 503062c3-8a73-4218-a826-c72f926f36db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

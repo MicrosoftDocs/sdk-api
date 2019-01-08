@@ -4,7 +4,7 @@ title: OpenThemeDataEx function
 author: windows-sdk-content
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

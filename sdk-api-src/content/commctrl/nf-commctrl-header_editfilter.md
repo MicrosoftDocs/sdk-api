@@ -4,7 +4,7 @@ title: Header_EditFilter macro
 author: windows-sdk-content
 description: Moves the input focus to the edit box when a filter button has the focus.
 old-location: controls\Header_EditFilter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWTSListener::GetConfiguration
 author: windows-sdk-content
 description: Retrieves the listener-specific configuration.
 old-location: termserv\iwtslistener_getconfiguration.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2d45ab39-0a65-4424-b6ea-2a54bb063c0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

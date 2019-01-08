@@ -4,7 +4,7 @@ title: ITextStrings::SetOpCp
 author: windows-sdk-content
 description: Sets the character position in the source range's story that has desired character formatting attributes.
 old-location: controls\itextstrings_setopcp.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: c869a42a-0937-4051-9cb0-d454255989d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

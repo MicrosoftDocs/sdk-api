@@ -4,7 +4,7 @@ title: ICEnroll::get_RequestStoreName
 author: windows-sdk-content
 description: Sets or retrievesICEnroll the name of the store that contains the dummy certificate.
 old-location: security\icenroll4_requeststorename.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c42d1dc8-ee1c-4bb7-b54f-6ede3301ce03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

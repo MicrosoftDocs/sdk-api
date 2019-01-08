@@ -4,7 +4,7 @@ title: TreeView_GetParent macro
 author: windows-sdk-content
 description: Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PARENT flag.
 old-location: controls\TreeView_GetParent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getparent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

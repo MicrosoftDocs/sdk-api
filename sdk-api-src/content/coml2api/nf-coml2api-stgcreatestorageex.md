@@ -4,7 +4,7 @@ title: StgCreateStorageEx function
 author: windows-sdk-content
 description: Creates a new storage object using a provided implementation for the IStorage or IPropertySetStorage interfaces.
 old-location: stg\stgcreatestorageex.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 6442977d-e980-419e-abe9-9d15dbb045c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

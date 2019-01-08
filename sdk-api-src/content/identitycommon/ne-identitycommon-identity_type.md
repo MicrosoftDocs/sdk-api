@@ -4,7 +4,7 @@ title: IDENTITY_TYPE
 author: windows-sdk-content
 description: Specifies the type of identities to enumerate.
 old-location: security\identity_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b15fadf6-5331-4c66-9a6b-0cfdef2ca867
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMSCEPSetup::IsMSCEPStoreEmpty
 author: windows-sdk-content
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

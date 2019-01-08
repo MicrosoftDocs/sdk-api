@@ -4,7 +4,7 @@ title: CRYPT_PROVIDER_SIGSTATE
 author: windows-sdk-content
 description: Is used to communicate between policy providers and Wintrust.
 old-location: security\crypt_provider_sigstate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: B362A161-6B92-41B0-AE81-337EB42502D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

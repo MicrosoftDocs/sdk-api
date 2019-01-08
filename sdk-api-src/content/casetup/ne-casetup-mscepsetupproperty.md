@@ -4,7 +4,7 @@ title: MSCEPSetupProperty
 author: windows-sdk-content
 description: Specifies a property type for setup and configuration of a Microsoft Simple Certificate Enrollment Protocol (SCEP) role using IMSCEPSetup.
 old-location: security\mscepsetupproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c3740afc-842e-427f-87bf-022f5544d0d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

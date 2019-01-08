@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration
 author: windows-sdk-content
 description: Represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific certification authority (CA).
 old-location: security\iocspcaconfiguration.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.author: windowssdkdev
 ms.date: 12/5/2018

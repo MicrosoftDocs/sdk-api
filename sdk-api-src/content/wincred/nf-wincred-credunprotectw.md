@@ -4,7 +4,7 @@ title: CredUnprotectW function
 author: windows-sdk-content
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

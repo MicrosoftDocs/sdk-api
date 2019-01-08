@@ -4,7 +4,7 @@ title: ITextFont::GetName
 author: windows-sdk-content
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetname.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

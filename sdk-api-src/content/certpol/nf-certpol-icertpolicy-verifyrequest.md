@@ -4,7 +4,7 @@ title: ICertPolicy::VerifyRequest
 author: windows-sdk-content
 description: Notifies the policy module that a new request has entered the system.
 old-location: security\icertpolicy2_verifyrequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CryptFreeOIDFunctionAddress function
 author: windows-sdk-content
 description: The CryptFreeOIDFunctionAddress function releases a handle returned by CryptGetOIDFunctionAddress or CryptGetDefaultOIDFunctionAddress by decrementing the reference count on the function handle.
 old-location: security\cryptfreeoidfunctionaddress.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

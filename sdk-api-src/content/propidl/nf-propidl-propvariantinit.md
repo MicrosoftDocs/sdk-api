@@ -4,7 +4,7 @@ title: PropVariantInit macro
 author: windows-sdk-content
 description: The PropVariantInit function initializes a PROPVARIANT structure.Note  This function is implemented as a macro, available by including the provided ole2.h header file.
 old-location: stg\propvariantinit.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 8c1bf6ac-2b15-4a05-8cb9-a07d1437017c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

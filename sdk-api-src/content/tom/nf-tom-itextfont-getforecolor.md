@@ -4,7 +4,7 @@ title: ITextFont::GetForeColor
 author: windows-sdk-content
 description: Gets the foreground, or text, color.
 old-location: controls\ITextFont_GetForeColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getforecolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

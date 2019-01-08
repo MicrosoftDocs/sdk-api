@@ -4,7 +4,7 @@ title: CERT_KEY_CONTEXT
 author: windows-sdk-content
 description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
 old-location: security\cert_key_context.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetNativeSystemInfo function
 author: windows-sdk-content
 description: Retrieves information about the current system to an application running under WOW64.
 old-location: base\getnativesysteminfo.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: a4a1123b-83d7-4ee2-aa38-68fff5373618
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_XML_KEY_INFO
 author: windows-sdk-content
 description: Encapsulates key information data.
 old-location: security\crypt_xml_key_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

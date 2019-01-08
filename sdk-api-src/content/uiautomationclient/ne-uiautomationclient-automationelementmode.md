@@ -11,7 +11,7 @@ ms.date: 12/5/2018
 ms.keywords: AutomationElementMode, AutomationElementMode enumeration [Windows Accessibility], AutomationElementMode_Full, AutomationElementMode_None, uiauto.uiauto_AutomationElementModeEnum, uiauto_AutomationElementModeEnum, uiautomationclient/AutomationElementMode, uiautomationclient/AutomationElementMode_Full, uiautomationclient/AutomationElementMode_None, winauto.uiauto_AutomationElementModeEnum
 ms.topic: enum
 req.header: uiautomationclient.h
-req.include-header: UIAutomation.h
+req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

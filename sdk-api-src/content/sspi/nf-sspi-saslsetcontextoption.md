@@ -4,7 +4,7 @@ title: SaslSetContextOption function
 author: windows-sdk-content
 description: Sets the value of the specified property for the specified SASL context.
 old-location: security\saslsetcontextoption.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

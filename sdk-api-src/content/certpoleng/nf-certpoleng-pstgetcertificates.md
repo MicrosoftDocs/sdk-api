@@ -4,7 +4,7 @@ title: PstGetCertificates function
 author: windows-sdk-content
 description: Retrieves certificate chains that specify certificates that can be used to authenticate a user on the specified server.
 old-location: security\pstgetcertificates.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbGenericNotifySink::GetWaitTimeout
 author: windows-sdk-content
 description: Retrieves the wait timeout.
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EVENT_DESCRIPTOR
 author: windows-sdk-content
 description: Contains metadata that defines the event.
 old-location: etw\event_descriptor.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

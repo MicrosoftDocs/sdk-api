@@ -4,7 +4,7 @@ title: Edit_GetFileLineFromChar macro
 author: windows-sdk-content
 description: Gets the index of the file (or logical) line of text that includes the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINEFROMCHAR message explicitly.
 old-location: controls\edit_getfilelinefromchar.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1427DEB0-2B15-4DC5-AD0B-D4F9BA12CB2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

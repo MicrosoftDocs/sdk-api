@@ -4,7 +4,7 @@ title: WTSGetListenerSecurityA function
 author: windows-sdk-content
 description: Retrieves the security descriptor of a Remote Desktop Services listener.
 old-location: termserv\wtsgetlistenersecurity.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6e49df9a-679d-4cc1-9297-90cf1e3509fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

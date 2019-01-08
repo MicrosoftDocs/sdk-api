@@ -4,7 +4,7 @@ title: EVENT_RECORD
 author: windows-sdk-content
 description: Defines the layout of an event that ETW delivers.
 old-location: etw\event_record.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: e352c1a7-39a2-43e3-a723-5fc6a3921ee8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

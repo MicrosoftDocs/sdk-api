@@ -4,7 +4,7 @@ title: ITextRange2::AddSubrange
 author: windows-sdk-content
 description: Adds a subrange to this range.
 old-location: controls\itextrange2_addsubrange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ffd1f166-a37c-4b39-9878-a4008260f675
 ms.author: windowssdkdev
 ms.date: 12/5/2018

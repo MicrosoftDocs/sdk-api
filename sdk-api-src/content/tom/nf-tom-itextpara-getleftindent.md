@@ -4,7 +4,7 @@ title: ITextPara::GetLeftIndent
 author: windows-sdk-content
 description: Retrieves the distance used to indent all lines except the first line of a paragraph. The distance is relative to the left margin.
 old-location: controls\ITextPara_GetLeftIndent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getleftindent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DateTime_GetDateTimePickerInfo macro
 author: windows-sdk-content
 description: Gets information for a specified date and time picker (DTP) control.
 old-location: controls\DateTime_GetDateTimePickerInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getdatetimepickerinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

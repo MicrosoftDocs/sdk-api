@@ -4,7 +4,7 @@ title: IEnumSTATSTG::Next
 author: windows-sdk-content
 description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.
 old-location: stg\ienumstatstg_next.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 09363d3e-a606-4a50-8758-d7ef5b3c05ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

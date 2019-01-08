@@ -4,7 +4,7 @@ title: NMTVCUSTOMDRAW
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW (tree view) notification code sent by a tree-view control.
 old-location: controls\NMTVCUSTOMDRAW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

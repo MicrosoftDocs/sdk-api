@@ -4,7 +4,7 @@ title: ITsSbSession::get_DisconnectTime
 author: windows-sdk-content
 description: Retrieves or specifies the time the session was disconnected.
 old-location: termserv\itssbsession_disconnecttime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e4bbb6e5-5fe2-4aa8-8a14-40fb2a4251e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

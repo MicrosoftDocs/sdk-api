@@ -4,7 +4,7 @@ title: MonthCal_SetRange macro
 author: windows-sdk-content
 description: Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the MCM_SETRANGE message explicitly.
 old-location: controls\MonthCal_SetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MSV1_0_SUBAUTH_RESPONSE
 author: windows-sdk-content
 description: Contains the response from a subauthentication package.
 old-location: security\msv1_0_subauth_response.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 62808fba-6e10-4f3b-a705-6958fc4fe480
 ms.author: windowssdkdev
 ms.date: 12/5/2018

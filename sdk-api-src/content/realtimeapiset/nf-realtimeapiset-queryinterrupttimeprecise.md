@@ -4,7 +4,7 @@ title: QueryInterruptTimePrecise function
 author: windows-sdk-content
 description: Gets the current interrupt-time count, in a more precise form than QueryInterruptTime does.
 old-location: base\queryinterrupttimeprecise.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 0F65A707-0899-4F79-B7CD-16C9143C4173
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,11 +4,11 @@ title: FolderActionSteps
 author: windows-sdk-content
 description: Defines the action that the data manager takes when both the age and size limits are met.
 old-location: pla\folderactionsteps.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 94d199a1-36f7-4064-a4fb-90dd26c37960
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
+ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0012, base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

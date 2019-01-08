@@ -4,7 +4,7 @@ title: ICertEncodeDateArray::Decode
 author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded date array and stores the resulting array of date values in the CertEncodeDateArray object.
 old-location: security\icertencodedatearray_decode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

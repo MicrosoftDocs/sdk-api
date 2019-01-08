@@ -4,7 +4,7 @@ title: IValueMapItem::get_Enabled
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the item is enabled.
 old-location: pla\ivaluemapitem_enabled.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f23e02bf-217a-44a2-9e1f-e92a39c1b065
 ms.author: windowssdkdev
 ms.date: 12/5/2018

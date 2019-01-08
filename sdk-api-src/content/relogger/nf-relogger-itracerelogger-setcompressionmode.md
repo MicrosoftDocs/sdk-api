@@ -4,7 +4,7 @@ title: ITraceRelogger::SetCompressionMode
 author: windows-sdk-content
 description: Enables or disables compression on the relogged trace.
 old-location: etw\itracerelogger_setcompressionmode.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 2a758af0-2316-4c4b-8717-ee1ebad205ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

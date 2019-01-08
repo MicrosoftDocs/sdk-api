@@ -4,7 +4,7 @@ title: PROPERTYORIGIN
 author: windows-sdk-content
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\propertyorigin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

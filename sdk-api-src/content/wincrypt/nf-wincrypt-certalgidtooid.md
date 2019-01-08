@@ -4,7 +4,7 @@ title: CertAlgIdToOID function
 author: windows-sdk-content
 description: Converts a CryptoAPI algorithm identifier (ALG_ID) to an Abstract Syntax Notation One (ASN.1) object identifier (OID) string.
 old-location: security\certalgidtooid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2a66c6da-22dd-4192-9f3d-2fb85f8032e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumCERTVIEWEXTENSION::GetFlags
 author: windows-sdk-content
 description: Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c175eba9-ea7c-4018-876a-2db732cb57c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

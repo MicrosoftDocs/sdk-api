@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::Reset
 author: windows-sdk-content
 description: Moves to the beginning of the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_reset.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0be00eb0-1a22-4849-95ca-276099bbfa74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

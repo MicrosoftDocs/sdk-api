@@ -4,7 +4,7 @@ title: ITextPara2::SetProperty
 author: windows-sdk-content
 description: Sets the property value.
 old-location: controls\itextpara2_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 5a95c055-5118-4c2a-8f63-3a2a3114451e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

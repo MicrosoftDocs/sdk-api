@@ -4,7 +4,7 @@ title: ITextRow::SetRTL
 author: windows-sdk-content
 description: Sets whether this row has right-to-left orientation.
 old-location: controls\itextrow_setrtl.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
 ms.author: windowssdkdev
 ms.date: 12/5/2018

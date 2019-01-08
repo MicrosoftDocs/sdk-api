@@ -4,7 +4,7 @@ title: SslFreeCertificate function
 author: windows-sdk-content
 description: Frees a certificate that was allocated by a previous call to the SslCrackCertificate function.
 old-location: security\sslfreecertificate.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: bf643ece-fe79-4f6e-a216-108fce6757a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

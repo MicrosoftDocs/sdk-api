@@ -4,7 +4,7 @@ title: ITextHost2::TxSetForegroundWindow
 author: windows-sdk-content
 description: Sets the rich edit control's host window as the foreground window.
 old-location: controls\itexthost2_txsetforegroundwindow.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 0C3400BB-FC9A-43C3-92B4-055DE0A17717
 ms.author: windowssdkdev
 ms.date: 12/5/2018

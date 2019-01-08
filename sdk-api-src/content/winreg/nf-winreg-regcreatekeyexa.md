@@ -4,7 +4,7 @@ title: RegCreateKeyExA function
 author: windows-sdk-content
 description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
 old-location: base\regcreatekeyex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

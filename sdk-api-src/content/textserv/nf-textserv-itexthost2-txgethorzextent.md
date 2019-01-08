@@ -4,7 +4,7 @@ title: ITextHost2::TxGetHorzExtent
 author: windows-sdk-content
 description: Gets the horizontal scroll extent of the text host window.
 old-location: controls\itexthost2_txgethorzextent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 86D53FEF-DB50-41F6-AC99-106FC01BCD61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITraceDataCollector::get_SessionThreadId
 author: windows-sdk-content
 description: Retrieves the current thread of the log session, if the thread is running.
 old-location: pla\itracedatacollector_sessionthreadid.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 15b688cc-a5db-47a4-b058-cbf69c90237e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IImageList::GetItemFlags
 author: windows-sdk-content
 description: Gets the flags of an image.
 old-location: controls\IImageList_GetItemFlags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

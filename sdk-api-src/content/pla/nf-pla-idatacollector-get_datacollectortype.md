@@ -4,7 +4,7 @@ title: IDataCollector::get_DataCollectorType
 author: windows-sdk-content
 description: Retrieves the type of this data collector, for example, a performance data collector.
 old-location: pla\idatacollector_datacollectortype.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

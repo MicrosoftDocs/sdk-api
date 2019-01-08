@@ -4,7 +4,7 @@ title: ICertAdmin::RevokeCertificate
 author: windows-sdk-content
 description: Revokes a certificate either on a specified date or immediately. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_revokecertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d44ff8c1-a248-4e2a-a73f-55fbea9fce03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

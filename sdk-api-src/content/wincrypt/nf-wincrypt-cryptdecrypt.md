@@ -4,7 +4,7 @@ title: CryptDecrypt function
 author: windows-sdk-content
 description: Decrypts data previously encrypted by using the CryptEncrypt function.
 old-location: security\cryptdecrypt.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

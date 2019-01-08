@@ -4,7 +4,7 @@ title: IIdentityProvider::UnAdvise
 author: windows-sdk-content
 description: Deletes a connection created by calling the Advise method.
 old-location: security\iidentityprovider_unadvise.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

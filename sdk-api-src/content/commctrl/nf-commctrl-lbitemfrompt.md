@@ -4,7 +4,7 @@ title: LBItemFromPt function
 author: windows-sdk-content
 description: Retrieves the index of the item at the specified point in a list box.
 old-location: controls\LBItemFromPt.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\lbitemfrompt.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

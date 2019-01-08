@@ -4,7 +4,7 @@ title: IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew
 author: windows-sdk-content
 description: The ReuseHardwareKeyIfUnableToGenNew property of IEnroll4 sets or retrieves a Boolean value that determines the action taken by the certificate enrollment control object if an error is encountered when generating a new key.
 old-location: security\ienroll4_reusehardwarekeyifunabletogennew.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d67d47f2-9d89-44ba-a5de-e1ae2bc85673
 ms.author: windowssdkdev
 ms.date: 12/5/2018

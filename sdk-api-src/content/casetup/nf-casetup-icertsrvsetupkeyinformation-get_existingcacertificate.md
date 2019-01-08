@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation::get_ExistingCACertificate
 author: windows-sdk-content
 description: Gets or sets the binary value that has been encoded by using Distinguished Encoding Rules (DER) and that is the binary value of the certification authority (CA) certificate that corresponds to an existing key.
 old-location: security\icertsrvsetupkeyinformation_existingcacertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 54a3ad75-8aa9-4e1b-b9ea-006f3b2cbf29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

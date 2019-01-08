@@ -4,7 +4,7 @@ title: NMREBARCHEVRON
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHEVRONPUSHED notification code.
 old-location: controls\NMREBARCHEVRON.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchevron.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

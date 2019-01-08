@@ -4,7 +4,7 @@ title: ITextPara::GetPageBreakBefore
 author: windows-sdk-content
 description: Determines whether each paragraph in the range must begin on a new page.
 old-location: controls\ITextPara_GetPageBreakBefore.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getpagebreakbefore.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

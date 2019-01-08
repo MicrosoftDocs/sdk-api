@@ -4,7 +4,7 @@ title: MSV1_0_SUBAUTH_LOGON
 author: windows-sdk-content
 description: Used by subauthentication DLLs.
 old-location: security\msv1_0_subauth_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e53cb14a-097c-4ee4-ab7a-baa4b6699cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

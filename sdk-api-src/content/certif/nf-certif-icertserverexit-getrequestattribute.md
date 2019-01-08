@@ -4,7 +4,7 @@ title: ICertServerExit::GetRequestAttribute
 author: windows-sdk-content
 description: Returns a named attribute value from a request.
 old-location: security\icertserverexit_getrequestattribute.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 894bde77-5e76-452b-acf5-c73fcaf1fa31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

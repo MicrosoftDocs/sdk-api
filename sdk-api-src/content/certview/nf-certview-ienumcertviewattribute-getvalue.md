@@ -4,7 +4,7 @@ title: IEnumCERTVIEWATTRIBUTE::GetValue
 author: windows-sdk-content
 description: Retrieves the value of the current attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_getvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a03a6da4-d286-487e-a292-8a02626325a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

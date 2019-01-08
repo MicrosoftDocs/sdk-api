@@ -4,7 +4,7 @@ title: EventDescSetChannel function
 author: windows-sdk-content
 description: Sets the Channel member of the event descriptor.
 old-location: etw\eventdescsetchannel_func.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 3580935d-ab7e-4409-b4ac-58f3c6019514
 ms.author: windowssdkdev
 ms.date: 12/5/2018

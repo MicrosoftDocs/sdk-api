@@ -4,7 +4,7 @@ title: ICEnroll::put_DeleteRequestCert
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\icenroll4_deleterequestcert.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f026f4ed-e003-4ece-8c08-427dac48229f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

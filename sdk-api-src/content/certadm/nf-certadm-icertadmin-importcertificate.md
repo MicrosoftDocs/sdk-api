@@ -4,7 +4,7 @@ title: ICertAdmin::ImportCertificate
 author: windows-sdk-content
 description: Takes a previously issued certificate and imports it to the certification authority's (CA) database. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_importcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b79a726e-5823-468b-869d-382e6fd73b44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

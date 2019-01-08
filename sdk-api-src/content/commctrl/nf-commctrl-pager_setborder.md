@@ -4,7 +4,7 @@ title: Pager_SetBorder macro
 author: windows-sdk-content
 description: Sets the current border size for the pager control. You can use this macro or send the PGM_SETBORDER message explicitly.
 old-location: controls\Pager_SetBorder.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setborder.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

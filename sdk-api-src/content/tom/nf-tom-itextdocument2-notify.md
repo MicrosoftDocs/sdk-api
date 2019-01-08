@@ -4,7 +4,7 @@ title: ITextDocument2::Notify
 author: windows-sdk-content
 description: Notifies the Text Object Model (TOM) engine client of particular Input Method Editor (IME) events.
 old-location: controls\itextdocument2_notify.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 5c7962a5-5f8d-4db1-bb94-a77738cf75bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll4
 author: windows-sdk-content
 description: The IEnroll4 interface represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll4.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 133529fb-e02a-41a2-83df-646cbc01dbe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

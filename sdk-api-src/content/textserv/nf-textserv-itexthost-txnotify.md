@@ -4,7 +4,7 @@ title: ITextHost::TxNotify
 author: windows-sdk-content
 description: Notifies the text host of various events.
 old-location: controls\ITextHost_TxNotify.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxnotify.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

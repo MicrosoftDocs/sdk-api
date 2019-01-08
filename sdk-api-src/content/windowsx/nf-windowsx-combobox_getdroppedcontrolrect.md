@@ -4,7 +4,7 @@ title: ComboBox_GetDroppedControlRect macro
 author: windows-sdk-content
 description: Retrieves the screen coordinates of a combo box in its dropped-down state. You can use this macro or send the CB_GETDROPPEDCONTROLRECT message explicitly.
 old-location: controls\ComboBox_GetDroppedControlRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getdroppedcontrolrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

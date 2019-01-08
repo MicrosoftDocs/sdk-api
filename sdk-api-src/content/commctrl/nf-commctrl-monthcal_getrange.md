@@ -4,7 +4,7 @@ title: MonthCal_GetRange macro
 author: windows-sdk-content
 description: Retrieves the minimum and maximum allowable dates set for a month calendar control. You can use this macro or send the MCM_GETRANGE message explicitly.
 old-location: controls\MonthCal_GetRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:gdiplusbrush
 ms.assetid: 85a30302-2823-3e0d-bb57-a705e73c91f9
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

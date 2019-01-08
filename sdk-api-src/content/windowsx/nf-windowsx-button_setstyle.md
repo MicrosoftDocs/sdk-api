@@ -4,7 +4,7 @@ title: Button_SetStyle macro
 author: windows-sdk-content
 description: Sets the style of a button. You can use this macro or send the BM_SETSTYLE message explicitly.
 old-location: controls\Button_SetStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

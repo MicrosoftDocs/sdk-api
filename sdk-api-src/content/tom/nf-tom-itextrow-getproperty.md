@@ -4,7 +4,7 @@ title: ITextRow::GetProperty
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextrow_getproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

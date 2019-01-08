@@ -4,7 +4,7 @@ title: WINDOWTHEMEATTRIBUTETYPE
 author: windows-sdk-content
 description: Specifies the type of visual style attribute to set on a window.
 old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

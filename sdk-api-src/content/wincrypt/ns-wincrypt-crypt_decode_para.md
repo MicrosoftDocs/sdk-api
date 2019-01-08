@@ -4,7 +4,7 @@ title: CRYPT_DECODE_PARA
 author: windows-sdk-content
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_decode_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

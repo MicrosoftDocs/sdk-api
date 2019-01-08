@@ -4,7 +4,7 @@ title: TreeView_GetItemRect macro
 author: windows-sdk-content
 description: Retrieves the bounding rectangle for a tree-view item and indicates whether the item is visible. You can use this macro or send the TVM_GETITEMRECT message explicitly.
 old-location: controls\TreeView_GetItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

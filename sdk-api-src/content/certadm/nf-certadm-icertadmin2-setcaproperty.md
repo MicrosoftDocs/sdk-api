@@ -4,7 +4,7 @@ title: ICertAdmin2::SetCAProperty
 author: windows-sdk-content
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
 ms.author: windowssdkdev
 ms.date: 12/5/2018

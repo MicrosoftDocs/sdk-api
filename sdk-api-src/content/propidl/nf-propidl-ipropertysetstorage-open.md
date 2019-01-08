@@ -4,7 +4,7 @@ title: IPropertySetStorage::Open
 author: windows-sdk-content
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.author: windowssdkdev
 ms.date: 12/5/2018

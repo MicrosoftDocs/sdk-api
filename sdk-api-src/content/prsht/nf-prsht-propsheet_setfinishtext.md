@@ -4,7 +4,7 @@ title: PropSheet_SetFinishText macro
 author: windows-sdk-content
 description: Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can use this macro or send the PSM_SETFINISHTEXT message explicitly.
 old-location: controls\PropSheet_SetFinishText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setfinishtext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

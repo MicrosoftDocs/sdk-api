@@ -4,7 +4,7 @@ title: SECURITY_INTEGER
 author: windows-sdk-content
 description: SECURITY_INTEGER is a structure that holds a numeric value. It is used in defining other types.
 old-location: security\security_integer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 51805230-afcb-490c-8c3d-1a533f3a58f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

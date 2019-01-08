@@ -4,7 +4,7 @@ title: LSA_TOKEN_INFORMATION_TYPE
 author: windows-sdk-content
 description: Specifies the levels of information that can be included in a logon token.
 old-location: security\lsa_token_information_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

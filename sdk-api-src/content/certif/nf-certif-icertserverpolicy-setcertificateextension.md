@@ -4,7 +4,7 @@ title: ICertServerPolicy::SetCertificateExtension
 author: windows-sdk-content
 description: Adds a new extension to the certificate.
 old-location: security\icertserverpolicy_setcertificateextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: aed8b621-3881-41fe-b7a3-657fecdab351
 ms.author: windowssdkdev
 ms.date: 12/5/2018

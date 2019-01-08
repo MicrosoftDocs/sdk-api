@@ -4,7 +4,7 @@ title: ReadFmtUserTypeStg function
 author: windows-sdk-content
 description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.
 old-location: stg\readfmtusertypestg.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

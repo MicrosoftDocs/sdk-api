@@ -4,7 +4,7 @@ title: TRACE_QUERY_INFO_CLASS
 author: windows-sdk-content
 description: Determines the type of information to include with the trace.
 old-location: etw\trace_info_class.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: b163e120-454a-48ba-93a9-71351fc3f2c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

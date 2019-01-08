@@ -4,7 +4,7 @@ title: ITextHost2::TxIsDoubleClickPending
 author: windows-sdk-content
 description: Discovers whether the message queue contains a WM_LBUTTONDBLCLK message that is pending for the text host window.
 old-location: controls\itexthost2_txisdoubleclickpending.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 24051A4F-70CD-4147-B623-BC818F3F9AF2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

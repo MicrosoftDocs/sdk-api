@@ -4,7 +4,7 @@ title: CRYPT_OID_FUNC_ENTRY
 author: windows-sdk-content
 description: Contains an object identifier (OID) and a pointer to its related function.
 old-location: security\crypt_oid_func_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 84c4aca8-ee38-455f-8330-58f512a6d12c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

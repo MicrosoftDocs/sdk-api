@@ -4,7 +4,7 @@ title: CRYPT_XML_PROPERTY_ID
 author: windows-sdk-content
 description: Specifies the type and usage of the XML property.
 old-location: security\crypt_xml_property_id.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
 ms.author: windowssdkdev
 ms.date: 12/5/2018

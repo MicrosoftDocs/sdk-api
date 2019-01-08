@@ -4,7 +4,7 @@ title: EnumerateSecurityPackagesA function
 author: windows-sdk-content
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

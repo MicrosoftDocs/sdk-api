@@ -4,7 +4,7 @@ title: ICEnroll4::get_ClientId
 author: windows-sdk-content
 description: Sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_clientid.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cf46af62-815a-4ad5-bca9-e81eb7c0d1e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

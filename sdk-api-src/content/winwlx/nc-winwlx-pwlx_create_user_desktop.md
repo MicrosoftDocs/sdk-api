@@ -4,7 +4,7 @@ title: PWLX_CREATE_USER_DESKTOP
 author: windows-sdk-content
 description: Called by GINA to create alternate application desktops for the user.
 old-location: security\wlxcreateuserdesktop.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6985e858-f914-426a-91b4-cf8c3f604318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

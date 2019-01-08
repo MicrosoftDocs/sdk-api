@@ -4,7 +4,7 @@ title: ITextServices::TxGetNaturalSize
 author: windows-sdk-content
 description: Allows a control to be resized so it fits its content appropriately.
 old-location: controls\ITextServices_TxGetNaturalSize.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetnaturalsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

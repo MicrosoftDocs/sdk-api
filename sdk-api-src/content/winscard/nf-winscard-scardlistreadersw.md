@@ -4,7 +4,7 @@ title: SCardListReadersW function
 author: windows-sdk-content
 description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
 old-location: security\scardlistreaders.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

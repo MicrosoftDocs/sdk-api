@@ -4,7 +4,7 @@ title: SecPkgContext_IssuerListInfoEx
 author: windows-sdk-content
 description: The SecPkgContext_IssuerListInfoEx structure holds a list of trusted certification authorities (CAs).
 old-location: security\secpkgcontext_issuerlistinfoex.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
 ms.author: windowssdkdev
 ms.date: 12/5/2018

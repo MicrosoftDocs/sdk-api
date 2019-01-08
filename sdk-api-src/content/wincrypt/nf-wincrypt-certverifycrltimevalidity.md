@@ -4,7 +4,7 @@ title: CertVerifyCRLTimeValidity function
 author: windows-sdk-content
 description: The CertVerifyCRLTimeValidity function verifies the time validity of a CRL.
 old-location: security\certverifycrltimevalidity.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ff321fe8-df45-4a1d-b626-055fb0696438
 ms.author: windowssdkdev
 ms.date: 12/5/2018

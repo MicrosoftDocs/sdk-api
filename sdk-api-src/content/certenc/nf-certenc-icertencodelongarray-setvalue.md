@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::SetValue
 author: windows-sdk-content
 description: Sets a Long value at the specified index of the Long array.
 old-location: security\icertencodelongarray_setvalue.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

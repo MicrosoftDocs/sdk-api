@@ -4,7 +4,7 @@ title: CRYPTUI_WIZ_IMPORT_SRC_INFO
 author: windows-sdk-content
 description: Contains the subject to import into the CryptUIWizImport function.
 old-location: security\cryptui_wiz_import_src_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 17d932e3-05ea-4ed0-9f88-fbb674b6b070
 ms.author: windowssdkdev
 ms.date: 12/5/2018

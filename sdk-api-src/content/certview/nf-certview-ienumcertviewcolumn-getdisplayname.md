@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetDisplayName
 author: windows-sdk-content
 description: Retrieves the localized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getdisplayname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_Environment
 author: windows-sdk-content
 description: Retrieves an object that contains information about the environment that hosts the target computer.
 old-location: termserv\itssbclientconnection_environment.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 97fe4851-96a9-4b23-8ad7-f42b87c655d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

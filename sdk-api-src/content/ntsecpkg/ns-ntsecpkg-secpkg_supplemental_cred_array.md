@@ -4,7 +4,7 @@ title: SECPKG_SUPPLEMENTAL_CRED_ARRAY
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED_ARRAY structure contains supplemental credentials information. This structure is used by the LsaApLogonUserEx2 and UpdateCredentials functions.
 old-location: security\secpkg_supplemental_cred_array.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b9514e26-29a5-4ba8-a375-1723c0a1ce39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

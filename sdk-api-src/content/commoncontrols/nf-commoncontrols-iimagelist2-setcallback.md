@@ -4,7 +4,7 @@ title: IImageList2::SetCallback
 author: windows-sdk-content
 description: Sets an image list callback.
 old-location: controls\IImageList2_SetCallback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setcallback.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

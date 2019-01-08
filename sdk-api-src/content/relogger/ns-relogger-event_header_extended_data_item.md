@@ -4,7 +4,7 @@ title: EVENT_HEADER_EXTENDED_DATA_ITEM
 author: windows-sdk-content
 description: Defines the extended data that ETW collects as part of the event data.
 old-location: etw\event_header_extended_data_item.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 130dc14b-7488-48ab-a31d-310c0f4ee13f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

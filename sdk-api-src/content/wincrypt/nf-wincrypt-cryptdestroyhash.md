@@ -4,7 +4,7 @@ title: CryptDestroyHash function
 author: windows-sdk-content
 description: Destroys the hash object referenced by the hHash parameter.
 old-location: security\cryptdestroyhash.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

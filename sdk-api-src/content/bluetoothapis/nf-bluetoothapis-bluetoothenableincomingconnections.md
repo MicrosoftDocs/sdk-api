@@ -4,7 +4,7 @@ title: BluetoothEnableIncomingConnections function
 author: windows-sdk-content
 description: The BluetoothEnableIncomingConnections function modifies whether a local Bluetooth radio accepts incoming connections.
 old-location: bluetooth\bluetoothenableincomingconnections.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertServerPolicy::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Retrieves the flags associated with the extension acquired by the most recent call to GetCertificateExtension.
 old-location: security\icertserverpolicy_getcertificateextensionflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

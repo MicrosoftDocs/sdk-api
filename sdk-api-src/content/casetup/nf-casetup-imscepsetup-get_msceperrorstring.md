@@ -4,7 +4,7 @@ title: IMSCEPSetup::get_MSCEPErrorString
 author: windows-sdk-content
 description: Contains the string data for additional error information related to a failed Network Device Enrollment Service (NDES) specification. Any method call on the parent object resets this property.
 old-location: security\imscepsetup_msceperrorstring.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5da4d9ac-ba59-499e-a062-381349b411a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

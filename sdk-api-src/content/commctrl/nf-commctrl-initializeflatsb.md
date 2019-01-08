@@ -4,7 +4,7 @@ title: InitializeFlatSB function
 author: windows-sdk-content
 description: Initializes flat scroll bars for a particular window.
 old-location: controls\InitializeFlatSB.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

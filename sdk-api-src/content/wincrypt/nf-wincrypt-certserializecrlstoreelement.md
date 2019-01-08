@@ -4,7 +4,7 @@ title: CertSerializeCRLStoreElement function
 author: windows-sdk-content
 description: The CertSerializeCRLStoreElement function serializes an encoded certificate revocation list (CRL) context and the encoded representation of its properties.
 old-location: security\certserializecrlstoreelement.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ab053cd-d3d4-483c-b0ff-b8de63d88707
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::GetFarmProperty
 author: windows-sdk-content
 description: Retrieves a property of a farm.
 old-location: termserv\itssbresourcepluginstore_getfarmproperty.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 83cf8f54-99c2-46fb-b882-e2f3c31240e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

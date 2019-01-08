@@ -122,6 +122,24 @@ Marks the ending of a render pass.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/208D3152-C0CA-40C4-A990-8815C69E73FB">ExecuteMetaCommand</a>
+</td>
+<td align="left" width="63%">
+Records the execution (or invocation) of the specified meta command into a graphics command list.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/EC50FE25-27C7-4A5D-B4D1-57D402730AF0">InitializeMetaCommand</a>
+</td>
+<td align="left" width="63%">
+Initializes the specified meta command.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/en-us/library/Mt847465(v=VS.85).aspx">SetPipelineState1</a>
 </td>
 <td align="left" width="63%">

@@ -2,7 +2,7 @@
 UID: NA:keycredmgr
 ms.assetid: 8366108f-6e93-3da1-a1fd-6b3be4aacd6a
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

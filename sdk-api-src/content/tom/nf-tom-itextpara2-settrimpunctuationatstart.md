@@ -4,7 +4,7 @@ title: ITextPara2::SetTrimPunctuationAtStart
 author: windows-sdk-content
 description: Sets whether to trim the leading space of a punctuation symbol at the start of a line.
 old-location: controls\itextpara2_settrimpunctuationatstart.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: f08f67ca-5767-4986-8af1-b3a11a1065aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

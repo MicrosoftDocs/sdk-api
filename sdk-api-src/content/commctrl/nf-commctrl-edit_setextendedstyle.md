@@ -4,7 +4,7 @@ title: Edit_SetExtendedStyle macro
 author: windows-sdk-content
 description: Sets extended styles for edit controls using the style mask. You can use this macro or send the EM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\edit_setextendedstyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4ECAA174-A9C5-4A01-9341-CF6C8777E0F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

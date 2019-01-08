@@ -4,7 +4,7 @@ title: ListBox_SetTopIndex macro
 author: windows-sdk-content
 description: Ensures that the specified item in a list box is visible. You can use this macro or send the LB_SETTOPINDEX message explicitly.
 old-location: controls\ListBox_SetTopIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settopindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

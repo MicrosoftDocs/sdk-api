@@ -4,7 +4,7 @@ title: CertRetrieveLogoOrBiometricInfo function
 author: windows-sdk-content
 description: Performs a URL retrieval of logo or biometric information specified in either the szOID_LOGOTYPE_EXT or szOID_BIOMETRIC_EXT certificate extension.
 old-location: security\certretrievelogoorbiometricinfo.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 35813928-728e-40b7-b627-817d3094eeb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

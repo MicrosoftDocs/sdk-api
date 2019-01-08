@@ -4,7 +4,7 @@ title: ICertEncodeStringArray::Encode
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the string array stored in this object.
 old-location: security\icertencodestringarray_encode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d8fc51ea-4d83-402a-a4ac-ce55d385905c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

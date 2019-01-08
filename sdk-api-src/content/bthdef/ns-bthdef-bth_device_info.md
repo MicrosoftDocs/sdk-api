@@ -4,7 +4,7 @@ title: BTH_DEVICE_INFO
 author: windows-sdk-content
 description: Stores information about a Bluetooth device.
 old-location: bluetooth\bth_device_info.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: b0f2c1fe-1fa0-4816-8471-73fbbced529b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

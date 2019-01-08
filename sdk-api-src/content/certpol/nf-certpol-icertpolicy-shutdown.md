@@ -4,7 +4,7 @@ title: ICertPolicy::ShutDown
 author: windows-sdk-content
 description: Called by the server engine before the server is terminated.
 old-location: security\icertpolicy2_shutdown.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389
 ms.author: windowssdkdev
 ms.date: 12/5/2018

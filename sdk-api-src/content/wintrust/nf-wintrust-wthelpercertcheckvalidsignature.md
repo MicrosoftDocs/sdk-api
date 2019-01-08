@@ -4,7 +4,7 @@ title: WTHelperCertCheckValidSignature function
 author: windows-sdk-content
 description: Checks whether a signature is valid.
 old-location: security\wthelpercertcheckvalidsignature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d46eea18-03cb-4199-873e-0e9e13061598
 ms.author: windowssdkdev
 ms.date: 12/5/2018

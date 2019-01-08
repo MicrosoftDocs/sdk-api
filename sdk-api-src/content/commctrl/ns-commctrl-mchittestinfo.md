@@ -4,7 +4,7 @@ title: MCHITTESTINFO
 author: windows-sdk-content
 description: Carries information specific to hit-testing points for a month calendar control. This structure is used with the MCM_HITTEST message and the corresponding MonthCal_HitTest macro.
 old-location: controls\MCHITTESTINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mchittestinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

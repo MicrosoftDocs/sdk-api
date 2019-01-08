@@ -4,7 +4,7 @@ title: DrawThemeParentBackgroundEx function
 author: windows-sdk-content
 description: Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a WM_ERASEBKGND message followed by a WM_PRINTCLIENT.
 old-location: controls\DrawThemeParentBackgroundEx.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

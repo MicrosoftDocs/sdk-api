@@ -4,7 +4,7 @@ title: CRYPT_XML_TRANSFORM_INFO
 author: windows-sdk-content
 description: Contains information that is used when applying the data transform.
 old-location: security\crypt_xml_transform_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4821dc8f-11d4-4083-bb17-9d9637d99af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

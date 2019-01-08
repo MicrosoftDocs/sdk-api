@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::get_LogApisRecursively
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertEncodeLongArray::GetCount
 author: windows-sdk-content
 description: Returns the number of Long values in the object's Long array.
 old-location: security\icertencodelongarray_getcount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f60cffb1-5202-4dc8-97dd-9eddd381602a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

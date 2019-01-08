@@ -4,7 +4,7 @@ title: IRichEditOle::SetHostNames
 author: windows-sdk-content
 description: Sets the host names to be given to objects as they are inserted to a rich edit control. The host names are used in the user interface of servers to describe the container context of opened objects.
 old-location: controls\IRichEditOle_SetHostNames.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesethostnames.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

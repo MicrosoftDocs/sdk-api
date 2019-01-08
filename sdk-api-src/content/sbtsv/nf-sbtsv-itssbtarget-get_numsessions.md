@@ -4,7 +4,7 @@ title: ITsSbTarget::get_NumSessions
 author: windows-sdk-content
 description: Retrieves the number of sessions maintained by broker for the target.
 old-location: termserv\itssbtarget_numsessions.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6163f4c3-135c-4282-91ac-d01cfb0cec05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

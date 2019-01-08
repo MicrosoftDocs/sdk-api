@@ -4,7 +4,7 @@ title: MOF_FIELD
 author: windows-sdk-content
 description: You may use the MOF_FIELD structures to append event data to the EVENT_TRACE_HEADER or EVENT_INSTANCE_HEADER structures.
 old-location: etw\mof_field.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 64ff1191-2177-4d51-afcd-b58d510e9ae8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

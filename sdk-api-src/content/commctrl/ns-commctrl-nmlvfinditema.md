@@ -4,7 +4,7 @@ title: NMLVFINDITEMA
 author: windows-sdk-content
 description: Contains information the owner needs to find items requested by a virtual list-view control. This structure is used with the LVN_ODFINDITEM notification code.
 old-location: controls\NMLVFINDITEM.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvfinditem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMTBDISPINFOA
 author: windows-sdk-content
 description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code.
 old-location: controls\NMTBDISPINFO.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

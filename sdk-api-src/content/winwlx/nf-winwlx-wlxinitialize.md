@@ -4,7 +4,7 @@ title: WlxInitialize function
 author: windows-sdk-content
 description: Winlogon calls this function once for each window station present on the computer. Currently, the operating system supports one window station per workstation.
 old-location: security\wlxinitialize.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: db03f2b3-0719-40be-8a42-04ab7110f711
 ms.author: windowssdkdev
 ms.date: 12/5/2018

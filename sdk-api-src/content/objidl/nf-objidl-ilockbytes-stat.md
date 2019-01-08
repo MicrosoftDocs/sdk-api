@@ -4,7 +4,7 @@ title: ILockBytes::Stat
 author: windows-sdk-content
 description: The Stat method retrieves a STATSTG structure containing information for this byte array object.
 old-location: stg\ilockbytes_stat.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: e7953f21-ac34-44e3-9b6f-b93ac89e2e32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

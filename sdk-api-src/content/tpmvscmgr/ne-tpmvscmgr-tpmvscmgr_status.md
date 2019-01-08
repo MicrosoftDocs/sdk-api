@@ -4,7 +4,7 @@ title: TPMVSCMGR_STATUS
 author: windows-sdk-content
 description: Provides predefined status codes to represent the progress of the TPM virtual smart card manager.
 old-location: security\tpmvscmgr_status.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9E678584-D225-4BDD-8035-92818B977DE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

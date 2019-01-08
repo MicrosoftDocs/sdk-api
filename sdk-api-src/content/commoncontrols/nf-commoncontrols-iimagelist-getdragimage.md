@@ -4,7 +4,7 @@ title: IImageList::GetDragImage
 author: windows-sdk-content
 description: Gets the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\IImageList_GetDragImage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getdragimage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

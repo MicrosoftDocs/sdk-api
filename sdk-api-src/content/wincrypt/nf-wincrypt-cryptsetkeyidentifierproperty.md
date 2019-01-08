@@ -4,7 +4,7 @@ title: CryptSetKeyIdentifierProperty function
 author: windows-sdk-content
 description: The CryptSetKeyIdentifierProperty function sets the property of a specified key identifier. This function can set the property on the computer identified in pwszComputerName.
 old-location: security\cryptsetkeyidentifierproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0970aaaa-3f9a-4471-bd21-5de8746f94a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TdhEnumerateManifestProviderEvents function
 author: windows-sdk-content
 description: Retrieves the list of events present in the provider manifest.
 old-location: etw\tdhenumeratemanifestproviderevents.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 93A03E1D-4047-49F1-987B-FB7BE03E0483
 ms.author: windowssdkdev
 ms.date: 12/5/2018

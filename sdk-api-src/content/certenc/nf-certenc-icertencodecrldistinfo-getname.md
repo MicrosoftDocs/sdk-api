@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::GetName
 author: windows-sdk-content
 description: Returns the name at a specified index of a certificate revocation list (CRL) distribution information point.
 old-location: security\icertencodecrldistinfo_getname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a564af61-fb5e-46b7-a818-333b4d5e2f25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

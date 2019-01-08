@@ -4,7 +4,7 @@ title: IMAGELISTDRAWPARAMS
 author: windows-sdk-content
 description: Contains information about an image list draw operation and is used with the IImageList::Draw function.
 old-location: controls\IMAGELISTDRAWPARAMS.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imagelistdrawparams.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

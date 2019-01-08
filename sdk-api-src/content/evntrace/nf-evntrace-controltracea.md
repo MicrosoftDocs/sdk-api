@@ -4,7 +4,7 @@ title: ControlTraceA function
 author: windows-sdk-content
 description: The ControlTrace function flushes, queries, updates, or stops the specified event tracing session.
 old-location: etw\controltrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: c39f669c-ff40-40ed-ba47-798474ec2de4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

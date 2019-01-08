@@ -4,7 +4,7 @@ title: TdhOpenDecodingHandle function
 author: windows-sdk-content
 description: Opens a decoding handle.
 old-location: etw\tdhopendecodinghandle.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

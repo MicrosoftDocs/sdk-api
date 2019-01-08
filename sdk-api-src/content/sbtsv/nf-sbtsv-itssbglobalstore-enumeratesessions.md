@@ -4,7 +4,7 @@ title: ITsSbGlobalStore::EnumerateSessions
 author: windows-sdk-content
 description: Returns an array that contains sessions on the specified provider.
 old-location: termserv\itssbglobalstore_enumeratesessions.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 16fe9154-913a-4b7f-8ab5-ea8654b7cc98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

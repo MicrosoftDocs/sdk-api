@@ -4,7 +4,7 @@ title: WlxIsLockOk function
 author: windows-sdk-content
 description: Winlogon calls this function before attempting to lock the workstation.
 old-location: security\wlxislockok.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 764d7fc9-57d8-472a-9b91-ebfbe3628452
 ms.author: windowssdkdev
 ms.date: 12/5/2018

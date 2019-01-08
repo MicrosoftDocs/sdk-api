@@ -4,7 +4,7 @@ title: ITextDocument2::GetDocumentPara
 author: windows-sdk-content
 description: Gets an object that provides the default paragraph format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentpara.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3667587e-3cf1-4b86-82fd-2fc34d4cbeee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

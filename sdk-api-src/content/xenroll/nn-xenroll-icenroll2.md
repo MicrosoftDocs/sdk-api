@@ -4,7 +4,7 @@ title: ICEnroll2
 author: windows-sdk-content
 description: The ICEnroll2 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll2.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 12c51daf-a72f-43da-9fb7-20ec261b4917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

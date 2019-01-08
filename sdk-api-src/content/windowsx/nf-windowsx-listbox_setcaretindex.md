@@ -4,7 +4,7 @@ title: ListBox_SetCaretIndex macro
 author: windows-sdk-content
 description: Sets the focus rectangle to the item at the specified index in a multiple-selection list box. If the item is not visible, it is scrolled into view. You can use this macro or send the LB_SETCARETINDEX message explicitly.
 old-location: controls\ListBox_SetCaretIndex.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcaretindex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

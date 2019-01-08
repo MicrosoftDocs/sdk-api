@@ -4,7 +4,7 @@ title: ITSGPolicyEngine::AuthorizeConnection
 author: windows-sdk-content
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
 ms.author: windowssdkdev
 ms.date: 12/5/2018

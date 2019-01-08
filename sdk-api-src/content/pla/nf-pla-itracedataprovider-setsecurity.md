@@ -4,7 +4,7 @@ title: ITraceDataProvider::SetSecurity
 author: windows-sdk-content
 description: Sets the security information for the trace data provider.
 old-location: pla\itracedataprovider_setsecurity.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 07b6f5b3-5531-4174-9315-661695bd7c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

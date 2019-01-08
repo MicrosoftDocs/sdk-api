@@ -4,7 +4,7 @@ title: ITextRow::SetCellBorderWidths
 author: windows-sdk-content
 description: Sets the border widths of the active cell.
 old-location: controls\itextrow_setcellborderwidths.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 343270e6-8f92-4429-9350-4031ae8bb0e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

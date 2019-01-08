@@ -4,7 +4,7 @@ title: ISchedule::get_EndDate
 author: windows-sdk-content
 description: Retrieves or sets the last date that the schedule is valid.
 old-location: pla\ischedule_enddate.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
 author: windows-sdk-content
 description: Reports the progress of the current operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: E20CF68F-0DFB-48E4-9B68-83A8E8763424
 ms.author: windowssdkdev
 ms.date: 12/5/2018

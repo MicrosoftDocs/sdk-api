@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_DataManager
 author: windows-sdk-content
 description: Retrieves the data manager associated with this data collector set.
 old-location: pla\idatacollectorset_get_datamanager.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 739cf386-c5fb-454c-9919-e3997944d68c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

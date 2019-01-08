@@ -4,7 +4,7 @@ title: TreeView_SetImageList macro
 author: windows-sdk-content
 description: Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the TVM_SETIMAGELIST message explicitly.
 old-location: controls\TreeView_SetImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

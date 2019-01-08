@@ -4,7 +4,7 @@ title: ITextFont2::SetPositionSubSuper
 author: windows-sdk-content
 description: Sets the position of a subscript or superscript relative to the baseline, as a percentage of the font height.
 old-location: controls\itextfont2_setpositionsubsuper.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3f78a91b-17a3-48ff-9ca0-1eb4f9c95be4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

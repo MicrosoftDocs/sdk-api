@@ -4,7 +4,7 @@ title: ITsSbPlacement
 author: windows-sdk-content
 description: Exposes methods that prepare the environment (the computer that hosts the virtual machine).
 old-location: termserv\itssbplacement.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

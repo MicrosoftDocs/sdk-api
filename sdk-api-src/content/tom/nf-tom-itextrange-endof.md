@@ -4,7 +4,7 @@ title: ITextRange::EndOf
 author: windows-sdk-content
 description: Moves this range's ends to the end of the last overlapping Unit in the range.
 old-location: controls\ITextRange_EndOf.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

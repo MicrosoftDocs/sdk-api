@@ -4,7 +4,7 @@ title: ICertServerPolicy::GetCertificateProperty
 author: windows-sdk-content
 description: Returns a named property from a certificate.
 old-location: security\icertserverpolicy_getcertificateproperty.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e7ece535-31c7-4468-a9ef-84f4dbf16d76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

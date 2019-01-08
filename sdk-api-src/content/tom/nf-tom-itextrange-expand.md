@@ -4,7 +4,7 @@ title: ITextRange::Expand
 author: windows-sdk-content
 description: Expands this range so that any partial units it contains are completely contained.
 old-location: controls\ITextRange_Expand.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\expand.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

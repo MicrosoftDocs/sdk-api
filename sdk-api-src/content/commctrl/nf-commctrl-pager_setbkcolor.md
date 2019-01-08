@@ -4,7 +4,7 @@ title: Pager_SetBkColor macro
 author: windows-sdk-content
 description: Sets the current background color for the pager control. You can use this macro or send the PGM_SETBKCOLOR message explicitly.
 old-location: controls\Pager_SetBkColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbkcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TreeView_SetInsertMark macro
 author: windows-sdk-content
 description: Sets the insertion mark in a tree-view control. You can use this macro or send the TVM_SETINSERTMARK message explicitly.
 old-location: controls\TreeView_SetInsertMark.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setinsertmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

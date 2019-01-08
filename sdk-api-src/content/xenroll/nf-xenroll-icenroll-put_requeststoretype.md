@@ -4,7 +4,7 @@ title: ICEnroll::put_RequestStoreType
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreName property. This store type is passed directly to the CertOpenStore function.
 old-location: security\icenroll4_requeststoretype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cc0d09bc-3589-454d-a1fe-141af46bc45b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

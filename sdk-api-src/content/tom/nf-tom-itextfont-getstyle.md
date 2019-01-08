@@ -4,7 +4,7 @@ title: ITextFont::GetStyle
 author: windows-sdk-content
 description: Gets the character style handle of the characters in a range.
 old-location: controls\ITextFont_GetStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

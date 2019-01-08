@@ -4,7 +4,7 @@ title: GetFirmwareEnvironmentVariableExW function
 author: windows-sdk-content
 description: Retrieves the value of the specified firmware environment variable and its attributes.
 old-location: base\getfirmwareenvironmentvariableex.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: B093BA68-C68B-4ED6-9902-058650A191FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

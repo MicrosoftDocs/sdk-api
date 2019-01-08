@@ -4,7 +4,7 @@ title: OCSP_SIGNATURE_INFO
 author: windows-sdk-content
 description: Contains a signature for an online certificate status protocol (OCSP) request or response.
 old-location: security\ocsp_signature_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1489e2a4-36f3-4e8c-9b99-7c2e396b3814
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OSVERSIONINFOEXA
 author: windows-sdk-content
 description: Contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and information about product suites and the latest Service Pack installed on the system.
 old-location: base\osversioninfoex_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 4ab07a72-404d-459b-b061-b3b06b5db37e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

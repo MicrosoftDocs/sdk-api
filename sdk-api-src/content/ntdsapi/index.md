@@ -2,7 +2,7 @@
 UID: NA:ntdsapi
 ms.assetid: cb6ec198-ba04-3c17-b674-2b0630c2a5d4
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetLastInputTime
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.
 old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392
 ms.author: windowssdkdev
 ms.date: 12/5/2018

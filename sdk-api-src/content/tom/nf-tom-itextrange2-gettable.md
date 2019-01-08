@@ -4,7 +4,7 @@ title: ITextRange2::GetTable
 author: windows-sdk-content
 description: Gets the table properties in the currently selected table.
 old-location: controls\itextrange2_gettable.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: ade77edf-6a9e-4c8d-a522-3158c802b6dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

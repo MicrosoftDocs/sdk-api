@@ -2,7 +2,7 @@
 UID: NA:atacct
 ms.assetid: 9148a56e-aa8d-3f9d-b6c2-fd983f5e54e2
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

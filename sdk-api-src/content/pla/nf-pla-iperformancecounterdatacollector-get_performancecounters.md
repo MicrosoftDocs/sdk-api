@@ -4,7 +4,7 @@ title: IPerformanceCounterDataCollector::get_PerformanceCounters
 author: windows-sdk-content
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

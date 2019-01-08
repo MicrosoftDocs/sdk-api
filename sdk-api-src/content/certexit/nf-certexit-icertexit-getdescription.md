@@ -4,7 +4,7 @@ title: ICertExit::GetDescription
 author: windows-sdk-content
 description: Returns a human-readable description of the exit module and its function.
 old-location: security\icertexit2_getdescription.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 362d67c7-54ab-482e-9b2b-05ba1b6e2a70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

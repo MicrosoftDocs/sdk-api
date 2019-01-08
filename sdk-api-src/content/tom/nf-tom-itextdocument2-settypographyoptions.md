@@ -4,7 +4,7 @@ title: ITextDocument2::SetTypographyOptions
 author: windows-sdk-content
 description: Specifies the typography options for the document.
 old-location: controls\itextdocument2_settypographyoptions.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 1013c9bf-b6fe-4396-b7a8-36e61edf1df3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

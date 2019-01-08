@@ -4,7 +4,7 @@ title: ITextRange2::GetFormattedText2
 author: windows-sdk-content
 description: Gets an ITextRange2 object with the current range's formatted text.
 old-location: controls\itextrange2_getformattedtext2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 9fe5d82d-b13e-4b94-beb6-15691d4c5176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAudioOutputEndpointRT::GetOutputDataPointer
 author: windows-sdk-content
 description: Returns a pointer to the output buffer in which data will be written by the audio engine.
 old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

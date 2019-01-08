@@ -4,7 +4,7 @@ title: QueryTrace macro
 author: windows-sdk-content
 description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\querytrace.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

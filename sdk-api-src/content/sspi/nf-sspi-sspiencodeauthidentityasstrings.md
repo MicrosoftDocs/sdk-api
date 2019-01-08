@@ -4,7 +4,7 @@ title: SspiEncodeAuthIdentityAsStrings function
 author: windows-sdk-content
 description: Encodes the specified authentication identity as three strings.
 old-location: security\sspiencodeauthidentityasstrings.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

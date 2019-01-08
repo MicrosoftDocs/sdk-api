@@ -4,7 +4,7 @@ title: ITextDocument2::GetEffectColor
 author: windows-sdk-content
 description: Retrieves the color used for special text attributes.
 old-location: controls\itextdocument2_geteffectcolor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4bc2740e-852f-430b-913e-5d28baec3272
 ms.author: windowssdkdev
 ms.date: 12/5/2018

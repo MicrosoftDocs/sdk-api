@@ -4,7 +4,7 @@ title: Animate_IsPlaying macro
 author: windows-sdk-content
 description: Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an ACM_ISPLAYING message.
 old-location: controls\Animate_IsPlaying.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_isplaying.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

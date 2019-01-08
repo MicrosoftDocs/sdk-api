@@ -4,7 +4,7 @@ title: NMTVASYNCDRAW
 author: windows-sdk-content
 description: Contains an explanation of why the draw of an icon or overlay tree item failed.
 old-location: controls\NMTVASYNCDRAW.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvasyncdraw.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

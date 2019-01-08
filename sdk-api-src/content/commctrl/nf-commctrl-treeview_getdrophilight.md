@@ -4,7 +4,7 @@ title: TreeView_GetDropHilight macro
 author: windows-sdk-content
 description: Retrieves the tree-view item that is the target of a drag-and-drop operation. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_DROPHILITE flag.
 old-location: controls\TreeView_GetDropHilight.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getdrophilight.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

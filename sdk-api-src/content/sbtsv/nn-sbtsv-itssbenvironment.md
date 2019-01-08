@@ -4,7 +4,7 @@ title: ITsSbEnvironment
 author: windows-sdk-content
 description: Exposes methods and properties that contain information about the environment that hosts the target computer. This interface can be used to store information about a physical server that hosts virtual machines.
 old-location: termserv\itssbenvironment.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 287cea18-c13c-4396-8970-39dd7f9b960e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

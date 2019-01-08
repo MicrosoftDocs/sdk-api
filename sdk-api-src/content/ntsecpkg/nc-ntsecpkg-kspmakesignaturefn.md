@@ -4,7 +4,7 @@ title: KspMakeSignatureFn
 author: windows-sdk-content
 description: Generates a signature based on the specified message and security context.
 old-location: security\spmakesignature.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 9db828f3-b15c-4e22-bbd8-5daa223b2be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

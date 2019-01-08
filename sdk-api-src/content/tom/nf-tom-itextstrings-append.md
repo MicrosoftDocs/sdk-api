@@ -4,7 +4,7 @@ title: ITextStrings::Append
 author: windows-sdk-content
 description: Appends a string to the string at the specified index in the collection.
 old-location: controls\itextstrings_append.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

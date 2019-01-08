@@ -4,7 +4,7 @@ title: CryptCATEnumerateMember function
 author: windows-sdk-content
 description: Enumerates the members of a catalog.
 old-location: security\cryptcatenumeratemember.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

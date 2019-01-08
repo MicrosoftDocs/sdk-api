@@ -4,7 +4,7 @@ title: IWRdsProtocolConnectionCallback::GetConnectionId
 author: windows-sdk-content
 description: Retrieves the connection identifier.
 old-location: termserv\iwrdsprotocolconnectioncallback_getconnectionid.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 2EE03CA1-25D5-4B03-A2F1-EC167BD694B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

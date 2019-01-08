@@ -4,7 +4,7 @@ title: WTS_CLIENT_ADDRESS
 author: windows-sdk-content
 description: Contains the client network address of a Remote Desktop Services session.
 old-location: termserv\wts_client_address_str.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 29034986-f8d1-4cf0-9f53-e4b195d450a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

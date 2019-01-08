@@ -4,7 +4,7 @@ title: IDirectWriterLock::ReleaseWriteAccess
 author: windows-sdk-content
 description: The ReleaseWriteAccess method releases the write lock previously obtained.
 old-location: stg\idirectwriterlock_releasewriteaccess.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

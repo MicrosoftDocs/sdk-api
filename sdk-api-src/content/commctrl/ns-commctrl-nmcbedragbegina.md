@@ -4,7 +4,7 @@ title: NMCBEDRAGBEGINA
 author: windows-sdk-content
 description: Contains information used with the CBEN_DRAGBEGIN notification code.
 old-location: controls\NMCBEDRAGBEGIN.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\nmcbedragbegin.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

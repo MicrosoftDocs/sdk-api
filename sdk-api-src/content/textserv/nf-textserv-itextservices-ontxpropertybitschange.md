@@ -4,7 +4,7 @@ title: ITextServices::OnTxPropertyBitsChange
 author: windows-sdk-content
 description: Sets properties (represented by bits) for the control.
 old-location: controls\ITextServices_OnTxPropertyBitsChange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxpropertybitschange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

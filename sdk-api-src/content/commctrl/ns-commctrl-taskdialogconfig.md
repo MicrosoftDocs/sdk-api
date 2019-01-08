@@ -4,7 +4,7 @@ title: TASKDIALOGCONFIG
 author: windows-sdk-content
 description: The TASKDIALOGCONFIG structure contains information used to display a task dialog. The TaskDialogIndirect function uses this structure.
 old-location: controls\TASKDIALOGCONFIG.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogstructures\taskdialogconfig.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

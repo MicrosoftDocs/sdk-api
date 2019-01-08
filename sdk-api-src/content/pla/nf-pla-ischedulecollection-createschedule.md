@@ -4,7 +4,7 @@ title: IScheduleCollection::CreateSchedule
 author: windows-sdk-content
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
 ms.author: windowssdkdev
 ms.date: 12/5/2018

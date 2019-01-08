@@ -4,7 +4,7 @@ title: SCHANNEL_CERT_HASH_STORE
 author: windows-sdk-content
 description: Contains the hash store data for the certificate that Schannel uses in kernel-mode.
 old-location: security\schannel_cert_hash_store.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 26902BD9-9426-4061-AC70-67A4F4063511
 ms.author: windowssdkdev
 ms.date: 12/5/2018

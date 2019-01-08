@@ -4,7 +4,7 @@ title: CommitMode
 author: windows-sdk-content
 description: Defines the action to take when committing changes to the data collector set.
 old-location: pla\commitmode.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3c485b4d-ba0b-456a-b942-27829371d7fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

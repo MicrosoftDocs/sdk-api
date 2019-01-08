@@ -4,7 +4,7 @@ title: PropSheet_RebootSystem macro
 author: windows-sdk-content
 description: Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the PSM_REBOOTSYSTEM message explicitly.
 old-location: controls\PropSheet_RebootSystem.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_rebootsystem.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

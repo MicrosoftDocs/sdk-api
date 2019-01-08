@@ -4,7 +4,7 @@ title: IEnroll::get_GenKeyFlags
 author: windows-sdk-content
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IsThemeActive function
 author: windows-sdk-content
 description: Tests if a visual style for the current application is active.
 old-location: controls\IsThemeActive.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

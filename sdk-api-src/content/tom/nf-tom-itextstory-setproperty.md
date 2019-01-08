@@ -4,7 +4,7 @@ title: ITextStory::SetProperty
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextstory_setproperty.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 432afe58-a1ed-45aa-b018-bf608bbb7e2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

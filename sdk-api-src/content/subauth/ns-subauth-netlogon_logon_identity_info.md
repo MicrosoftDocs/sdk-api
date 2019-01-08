@@ -4,7 +4,7 @@ title: NETLOGON_LOGON_IDENTITY_INFO
 author: windows-sdk-content
 description: Used to pass information about a user for logon subauthentication.
 old-location: security\netlogon_logon_identity_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: b9cdf09f-897c-407e-80ba-e18c9ba667ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

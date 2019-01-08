@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformationCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

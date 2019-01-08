@@ -4,7 +4,7 @@ title: DrawThemeText function
 author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style.
 old-location: controls\DrawThemeText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

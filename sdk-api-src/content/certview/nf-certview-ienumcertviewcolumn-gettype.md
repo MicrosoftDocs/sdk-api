@@ -4,7 +4,7 @@ title: IEnumCERTVIEWCOLUMN::GetType
 author: windows-sdk-content
 description: Retrieves the data type of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_gettype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

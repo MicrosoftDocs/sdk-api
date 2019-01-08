@@ -4,7 +4,7 @@ title: CERT_AUTHORITY_INFO_ACCESS
 author: windows-sdk-content
 description: Represents authority information access and subject information access certificate extensions and specifies how to access additional information and services for the subject or the issuer of a certificate.
 old-location: security\cert_authority_info_access.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5f4abb15-3057-4d20-a319-550cec45d1f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

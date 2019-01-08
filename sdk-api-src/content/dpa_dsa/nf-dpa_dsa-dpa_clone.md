@@ -4,7 +4,7 @@ title: DPA_Clone function
 author: windows-sdk-content
 description: Duplicates a dynamic pointer array (DPA).
 old-location: controls\DPA_Clone.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

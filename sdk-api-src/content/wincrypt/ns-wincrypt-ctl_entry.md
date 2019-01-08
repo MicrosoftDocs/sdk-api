@@ -4,7 +4,7 @@ title: CTL_ENTRY
 author: windows-sdk-content
 description: An element of a certificate trust list (CTL).
 old-location: security\ctl_entry.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebc63847-b641-4205-b15c-7b32c1426c21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

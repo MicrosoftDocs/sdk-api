@@ -4,7 +4,7 @@ title: DateTime_SetMonthCalColor macro
 author: windows-sdk-content
 description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_SETMCCOLOR message explicitly.
 old-location: controls\DateTime_SetMonthCalColor.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

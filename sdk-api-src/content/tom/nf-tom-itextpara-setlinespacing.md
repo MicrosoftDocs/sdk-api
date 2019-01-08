@@ -4,7 +4,7 @@ title: ITextPara::SetLineSpacing
 author: windows-sdk-content
 description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 old-location: controls\ITextPara_SetLineSpacing.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

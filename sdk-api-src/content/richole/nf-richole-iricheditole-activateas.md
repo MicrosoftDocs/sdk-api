@@ -4,7 +4,7 @@ title: IRichEditOle::ActivateAs
 author: windows-sdk-content
 description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
 old-location: controls\IRichEditOle_ActivateAs.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleactivateas.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

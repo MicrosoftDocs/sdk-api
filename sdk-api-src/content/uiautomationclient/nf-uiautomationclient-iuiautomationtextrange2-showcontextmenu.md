@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationTextRange2.ShowContextMenu
 title: IUIAutomationTextRange2::ShowContextMenu
 author: windows-sdk-content
-description: Programmatically invokes a context menu on the target element.
+description: Programmatically invokes a context menu on the target text range.
 old-location: winauto\uiauto_IUIAutomationTextRange2_ShowContextMenu.htm
 tech.root: WinAuto
 ms.assetid: 03165205-C56C-6002-A820-9214725B93E1
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Programmatically invokes a context menu on the target element.
+Programmatically invokes a context menu on the target text range.
 
 
 ## -parameters

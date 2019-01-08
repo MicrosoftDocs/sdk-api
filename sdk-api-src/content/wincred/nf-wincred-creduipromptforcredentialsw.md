@@ -4,7 +4,7 @@ title: CredUIPromptForCredentialsW function
 author: windows-sdk-content
 description: Creates and displays a configurable dialog box that accepts credentials information from a user.
 old-location: security\creduipromptforcredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 97a8e750-3e63-4e6f-a875-1e5c49c30dd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

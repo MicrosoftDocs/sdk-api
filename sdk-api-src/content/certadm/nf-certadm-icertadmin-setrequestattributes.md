@@ -4,7 +4,7 @@ title: ICertAdmin::SetRequestAttributes
 author: windows-sdk-content
 description: Sets attributes in the specified pending certificate request. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_setrequestattributes.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 309c53f9-50cf-4c50-bc48-a4f15a8ced18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

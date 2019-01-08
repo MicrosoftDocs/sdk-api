@@ -4,7 +4,7 @@ title: IValueMapItem::get_Value
 author: windows-sdk-content
 description: Retrieves or sets the value of the item.
 old-location: pla\ivaluemapitem_value.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3f7549aa-2ad6-40f4-ae09-c5130a9c3451
 ms.author: windowssdkdev
 ms.date: 12/5/2018

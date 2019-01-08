@@ -4,7 +4,7 @@ title: PROPERTY_DATA_DESCRIPTOR
 author: windows-sdk-content
 description: Defines the property to retrieve.
 old-location: etw\property_data_descriptor_struct.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
 ms.author: windowssdkdev
 ms.date: 12/5/2018

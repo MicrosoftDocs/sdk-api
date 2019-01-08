@@ -4,7 +4,7 @@ title: IIdentityProvider::Advise
 author: windows-sdk-content
 description: Allows a calling application to specify the list of identity events for which the application is to be notified.
 old-location: security\iidentityprovider_advise.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
 ms.author: windowssdkdev
 ms.date: 12/5/2018

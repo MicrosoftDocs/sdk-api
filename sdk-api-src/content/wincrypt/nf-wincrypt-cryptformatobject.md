@@ -4,7 +4,7 @@ title: CryptFormatObject function
 author: windows-sdk-content
 description: The CryptFormatObject function formats the encoded data and returns a Unicode string in the allocated buffer according to the certificate encoding type.
 old-location: security\cryptformatobject.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 307e0bd5-b8a6-4d85-9775-65aae99e8dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

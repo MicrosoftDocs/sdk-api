@@ -4,7 +4,7 @@ title: CRYPT_PASSWORD_CREDENTIALSA
 author: windows-sdk-content
 description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_password_credentials.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 21461344-1080-4603-bda1-a92dfda68c15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

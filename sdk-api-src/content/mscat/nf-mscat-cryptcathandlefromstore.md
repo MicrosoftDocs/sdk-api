@@ -4,7 +4,7 @@ title: CryptCATHandleFromStore function
 author: windows-sdk-content
 description: Retrieves a catalog handle from memory.
 old-location: security\cryptcathandlefromstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e9aedc2d-9492-4ed7-9f2d-891997f85f6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

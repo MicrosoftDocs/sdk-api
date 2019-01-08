@@ -4,7 +4,7 @@ title: ITsSbBaseNotifySink::OnError
 author: windows-sdk-content
 description: Reports an error condition to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbbasenotifysink_onerror.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: d8101644-51b4-45a8-8696-7dbb28aaaf0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

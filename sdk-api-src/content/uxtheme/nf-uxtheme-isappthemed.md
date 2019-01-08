@@ -4,7 +4,7 @@ title: IsAppThemed function
 author: windows-sdk-content
 description: Reports whether the current application's user interface displays using visual styles.
 old-location: controls\IsAppThemed.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

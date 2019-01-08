@@ -4,7 +4,7 @@ title: IWTSSBPlugin::Terminated
 author: windows-sdk-content
 description: Notifies the plug-in that it is about to be destroyed by Terminal Services Session Broker (TS&#160;Session Broker).
 old-location: termserv\iwtssbplugin_terminated.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 123455dd-6ef3-409f-b021-e641868b16f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_TaskUserTextArguments
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property.
 old-location: pla\idatacollectorset_taskusertextarguments.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 99fb2ed4-525b-4733-a652-b164b2c19980
 ms.author: windowssdkdev
 ms.date: 12/5/2018

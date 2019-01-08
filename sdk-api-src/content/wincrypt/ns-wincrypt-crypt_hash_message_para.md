@@ -4,7 +4,7 @@ title: CRYPT_HASH_MESSAGE_PARA
 author: windows-sdk-content
 description: Contains data for hashing messages.
 old-location: security\crypt_hash_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 60415136-3ac0-4fab-bdbf-faa16e8e43e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

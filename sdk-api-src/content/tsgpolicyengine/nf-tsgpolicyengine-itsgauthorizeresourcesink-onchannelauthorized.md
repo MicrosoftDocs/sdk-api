@@ -4,7 +4,7 @@ title: ITSGAuthorizeResourceSink::OnChannelAuthorized
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

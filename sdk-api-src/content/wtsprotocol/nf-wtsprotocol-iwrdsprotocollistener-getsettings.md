@@ -4,7 +4,7 @@ title: IWRdsProtocolListener::GetSettings
 author: windows-sdk-content
 description: Gets the listener setting information for client connection requests.
 old-location: termserv\iwrdsprotocollistener_getsettings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

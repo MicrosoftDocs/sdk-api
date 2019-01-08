@@ -4,7 +4,7 @@ title: IEnroll::get_RequestStoreNameWStr
 author: windows-sdk-content
 description: The RequestStoreNameWStr property of IEnroll4 sets or retrieves the name of the store that contains the dummy certificate.
 old-location: security\ienroll4_requeststorenamewstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4ad739c0-fcf7-435b-b427-96ecca1afab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

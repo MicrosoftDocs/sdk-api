@@ -4,7 +4,7 @@ title: CertDeleteCertificateFromStore function
 author: windows-sdk-content
 description: The CertDeleteCertificateFromStore function deletes the specified certificate context from the certificate store.
 old-location: security\certdeletecertificatefromstore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

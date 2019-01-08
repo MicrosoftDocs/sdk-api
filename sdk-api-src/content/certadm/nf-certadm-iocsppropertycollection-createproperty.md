@@ -4,7 +4,7 @@ title: IOCSPPropertyCollection::CreateProperty
 author: windows-sdk-content
 description: Creates a new property and adds it to a property set.
 old-location: security\iocsppropertycollection_createproperty_method.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSG_SIGNER_ENCODE_INFO
 author: windows-sdk-content
 description: Contains signer information. It is passed to CryptMsgCountersign, CryptMsgCountersignEncoded, and optionally to CryptMsgOpenToEncode as a member of the CMSG_SIGNED_ENCODE_INFO structure, if the dwMsgType parameter is CMSG_SIGNED.
 old-location: security\cmsg_signer_encode_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f599226d-ddd7-455f-b650-74b91674d8f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

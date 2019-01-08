@@ -4,7 +4,7 @@ title: SECPKG_EXTRA_OIDS
 author: windows-sdk-content
 description: Contains the object identifiers (OIDs) for the extended security package.
 old-location: security\secpkg_extra_oids.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 188EB248-F056-40F4-8A27-6BEC75F14154
 ms.author: windowssdkdev
 ms.date: 12/5/2018

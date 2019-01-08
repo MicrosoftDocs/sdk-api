@@ -4,7 +4,7 @@ title: IScheduleCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ischedulecollection__newenum.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 4aae67ae-8b9d-4baa-b617-b6e44b7e7edf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

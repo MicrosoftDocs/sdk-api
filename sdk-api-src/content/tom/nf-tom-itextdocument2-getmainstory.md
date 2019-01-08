@@ -4,7 +4,7 @@ title: ITextDocument2::GetMainStory
 author: windows-sdk-content
 description: Gets the main story.
 old-location: controls\itextdocument2_getmainstory.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 732165f2-e6cd-4f39-85c6-06faebfa65e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

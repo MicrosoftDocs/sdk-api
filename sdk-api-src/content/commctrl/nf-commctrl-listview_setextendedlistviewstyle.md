@@ -4,7 +4,7 @@ title: ListView_SetExtendedListViewStyle macro
 author: windows-sdk-content
 description: Sets extended styles for list-view controls. You can use this macro or send the LVM_SETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_SetExtendedListViewStyle.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

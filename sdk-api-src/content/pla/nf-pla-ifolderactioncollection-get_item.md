@@ -4,7 +4,7 @@ title: IFolderActionCollection::get_Item
 author: windows-sdk-content
 description: Retrieves the requested folder action from the collection.
 old-location: pla\ifolderactioncollection_item.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cf11f194-b518-41de-8f98-c4487c3d2fee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

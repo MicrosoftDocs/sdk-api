@@ -4,7 +4,7 @@ title: PWLX_QUERY_CONSOLESWITCH_CREDENTIALS
 author: windows-sdk-content
 description: Called by GINA to read the credentials transferred from the Winlogon of the temporary session to the Winlogon of the destination session.
 old-location: security\wlxqueryconsoleswitchcredentials.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: cbb9342e-c06a-4040-9c6c-c761195734a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

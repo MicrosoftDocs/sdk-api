@@ -2,7 +2,7 @@
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildren
 title: IUIAutomationAndCondition::GetChildren
 author: windows-sdk-content
-description: Retrieves the conditions that make up this condition.
+description: Retrieves the conditions that make up this &#0034;and&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: 6868fae6-74fb-4133-8dc5-73ce5f8a6f7b
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves the conditions that make up this condition.
+Retrieves the conditions that make up this "and" condition.
 
 
 ## -parameters

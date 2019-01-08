@@ -4,7 +4,7 @@ title: IWorkspaceResTypeRegistry::DeleteResourceType
 author: windows-sdk-content
 description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: a50bd4a0-8f59-4ed9-8f5f-c2522540c41e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NMREBAR
 author: windows-sdk-content
 description: Contains information used in handling various rebar notifications.
 old-location: controls\NMREBAR.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

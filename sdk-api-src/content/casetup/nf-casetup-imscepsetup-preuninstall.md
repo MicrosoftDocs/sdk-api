@@ -4,7 +4,7 @@ title: IMSCEPSetup::PreUnInstall
 author: windows-sdk-content
 description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_preuninstall.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

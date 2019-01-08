@@ -4,7 +4,7 @@ title: CryptXmlClose function
 author: windows-sdk-content
 description: Closes a cryptographic XML object handle.
 old-location: security\cryptxmlclose.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ee3f8ea3-4898-462b-87cd-47dd3134636c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::QuerySessionBySessionId
 author: windows-sdk-content
 description: Returns the session object that has the specified session ID.
 old-location: termserv\itssbresourcepluginstore_querysessionbysessionid.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 51a1e876-09fb-4b1c-bb86-028afc46f31e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

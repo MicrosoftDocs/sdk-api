@@ -4,7 +4,7 @@ title: IPropertySetStorage::Create
 author: windows-sdk-content
 description: Creates and opens a new property set in the property set storage object.
 old-location: stg\ipropertysetstorage_create.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

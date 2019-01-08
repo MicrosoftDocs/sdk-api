@@ -4,7 +4,7 @@ title: QueryAllTracesW function
 author: windows-sdk-content
 description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
 old-location: etw\queryalltraces.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
 ms.author: windowssdkdev
 ms.date: 12/5/2018

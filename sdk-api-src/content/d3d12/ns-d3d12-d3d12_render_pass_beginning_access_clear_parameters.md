@@ -60,3 +60,14 @@ Describes the clear value to which resource(s) should be cleared at the beginnin
 
 A  <a href="https://msdn.microsoft.com/03B67F91-C150-4719-8C43-D04F51DC9C06">D3D12_CLEAR_VALUE</a>. The clear value to which the resource(s) should be cleared.
 
+
+## -see-also
+
+
+
+
+<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+ 
+
+ 
+

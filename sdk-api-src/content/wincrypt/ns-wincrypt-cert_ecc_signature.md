@@ -4,7 +4,7 @@ title: CERT_ECC_SIGNATURE
 author: windows-sdk-content
 description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.
 old-location: security\cert_ecc_signature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: UpdateAssessment
 author: windows-sdk-content
 description: UpdateAssessment contains information that assesses how up-to-date an installed OS is.
 old-location: base\updateassessment.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

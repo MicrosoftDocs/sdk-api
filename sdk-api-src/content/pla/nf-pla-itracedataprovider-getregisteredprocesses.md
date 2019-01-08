@@ -4,7 +4,7 @@ title: ITraceDataProvider::GetRegisteredProcesses
 author: windows-sdk-content
 description: Retrieves a list of processes that have registered as an Event Tracing for Windows (ETW) provider.
 old-location: pla\itracedataprovider_getregisteredprocesses.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f848f209-c761-41aa-8e9f-4b7e2ecb54ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

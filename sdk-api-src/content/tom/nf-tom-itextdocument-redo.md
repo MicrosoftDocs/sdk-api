@@ -4,7 +4,7 @@ title: ITextDocument::Redo
 author: windows-sdk-content
 description: Performs a specified number of redo operations.
 old-location: controls\ITextDocument_Redo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

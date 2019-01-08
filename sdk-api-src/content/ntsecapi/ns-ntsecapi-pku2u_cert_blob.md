@@ -4,7 +4,7 @@ title: PKU2U_CERT_BLOB
 author: windows-sdk-content
 description: Specifies PKU2U certificate data.
 old-location: security\pku2u_cert_blob.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRange2::GetCells
 author: windows-sdk-content
 description: Gets a cells object with the parameters of cells in the currently selected table row or column.
 old-location: controls\itextrange2_getcells.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: caaee637-d80a-44c6-9d9b-ed16a980afd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

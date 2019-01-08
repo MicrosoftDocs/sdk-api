@@ -4,7 +4,7 @@ title: ITextDocument::Open
 author: windows-sdk-content
 description: Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
 old-location: controls\ITextDocument_Open.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

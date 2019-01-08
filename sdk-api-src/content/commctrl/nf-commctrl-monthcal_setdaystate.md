@@ -4,7 +4,7 @@ title: MonthCal_SetDayState macro
 author: windows-sdk-content
 description: Sets the day states for all months that are currently visible within a month calendar control. You can use this macro or send the MCM_SETDAYSTATE message explicitly.
 old-location: controls\MonthCal_SetDayState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setdaystate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

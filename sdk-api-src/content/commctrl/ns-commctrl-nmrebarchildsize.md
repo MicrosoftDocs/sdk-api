@@ -4,7 +4,7 @@ title: NMREBARCHILDSIZE
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHILDSIZE notification code.
 old-location: controls\NMREBARCHILDSIZE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

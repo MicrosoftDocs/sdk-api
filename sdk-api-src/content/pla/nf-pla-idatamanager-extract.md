@@ -4,7 +4,7 @@ title: IDataManager::Extract
 author: windows-sdk-content
 description: Extracts the specified CAB file.
 old-location: pla\idatamanager_extract.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

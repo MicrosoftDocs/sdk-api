@@ -4,7 +4,7 @@ title: BluetoothDisplayDeviceProperties function
 author: windows-sdk-content
 description: Starts Control Panel device information property sheet.
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
-tech.root: Bluetooth
+tech.root: bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

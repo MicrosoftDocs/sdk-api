@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetVideoHandle
 author: windows-sdk-content
 description: Obtains the handle of the video device for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getvideohandle.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 069ee899-ae3a-4043-92b5-e193dbfe4f54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

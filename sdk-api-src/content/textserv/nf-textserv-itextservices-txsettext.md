@@ -4,7 +4,7 @@ title: ITextServices::TxSetText
 author: windows-sdk-content
 description: Sets all of the text in the control.
 old-location: controls\ITextServices_TxSetText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

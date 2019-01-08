@@ -4,7 +4,7 @@ title: CRYPT_RC2_CBC_PARAMETERS
 author: windows-sdk-content
 description: Contains information used with szOID_RSA_RC2CBC encryption.
 old-location: security\crypt_rc2_cbc_parameters.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 58b1dc44-55ea-4c22-a115-dfeaee8a2297
 ms.author: windowssdkdev
 ms.date: 12/5/2018

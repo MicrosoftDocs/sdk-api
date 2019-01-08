@@ -4,7 +4,7 @@ title: ICertAdmin2::DeleteRow
 author: windows-sdk-content
 description: The DeleteRow method deletes a row or set of rows from a database table. The caller specifies a database table and either a row ID or an ending date.
 old-location: security\icertadmin2_deleterow.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ee64740a-850b-4af5-a7cd-75eaa1687f8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

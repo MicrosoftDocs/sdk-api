@@ -4,7 +4,7 @@ title: CRYPT_TIMESTAMP_INFO
 author: windows-sdk-content
 description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.
 old-location: security\crypt_timestamp_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626
 ms.author: windowssdkdev
 ms.date: 12/5/2018

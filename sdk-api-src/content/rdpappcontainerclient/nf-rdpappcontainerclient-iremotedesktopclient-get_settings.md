@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::get_Settings
 author: windows-sdk-content
 description: Retrieves the settings object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_settings.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 59999489-9ad0-4b85-9643-3b8355b817c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

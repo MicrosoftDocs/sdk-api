@@ -4,7 +4,7 @@ title: RDV_TASK_STATUS
 author: windows-sdk-content
 description: Used with the IRDVTaskPluginNotifySink::OnTaskStateChange method to indicate the status of a task.
 old-location: termserv\rdv_task_status.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 69278A29-9100-4855-B5B3-C790563B8B72
 ms.author: windowssdkdev
 ms.date: 12/5/2018

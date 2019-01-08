@@ -4,7 +4,7 @@ title: CTL_USAGE_MATCH
 author: windows-sdk-content
 description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
 old-location: security\ctl_usage_match.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 0b1146b7-a6fe-4cd0-aff7-b49ec6f561a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

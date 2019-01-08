@@ -4,7 +4,7 @@ title: WTSUSERCONFIGA
 author: windows-sdk-content
 description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsuserconfig.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

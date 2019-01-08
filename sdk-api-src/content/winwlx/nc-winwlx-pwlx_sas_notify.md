@@ -4,7 +4,7 @@ title: PWLX_SAS_NOTIFY
 author: windows-sdk-content
 description: Called by GINA to notify Winlogon of a secure attention sequence (SAS) event.
 old-location: security\wlxsasnotify.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 534afdf8-6809-413a-ac5c-23978f2b288a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCHANNEL_ALERT_TOKEN
 author: windows-sdk-content
 description: Generates a Secure Sockets Layer Protocol (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_alert_token.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 1c3a896d-4252-44ef-9e4b-6ad00e3d6f05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

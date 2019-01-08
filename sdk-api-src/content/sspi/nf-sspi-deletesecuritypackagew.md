@@ -4,7 +4,7 @@ title: DeleteSecurityPackageW function
 author: windows-sdk-content
 description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
 old-location: security\deletesecuritypackage.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CRYPT_ATTRIBUTE_TYPE_VALUE
 author: windows-sdk-content
 description: Contains a single attribute value. The Value member's CRYPT_OBJID_BLOB is encoded.
 old-location: security\crypt_attribute_type_value.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 84057581-d0a9-464a-9399-ba806e37516f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

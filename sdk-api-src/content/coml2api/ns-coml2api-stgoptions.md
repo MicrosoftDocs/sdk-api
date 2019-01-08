@@ -4,7 +4,7 @@ title: STGOPTIONS
 author: windows-sdk-content
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
 ms.author: windowssdkdev
 ms.date: 12/5/2018

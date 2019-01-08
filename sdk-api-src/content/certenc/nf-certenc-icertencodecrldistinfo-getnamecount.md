@@ -4,7 +4,7 @@ title: ICertEncodeCRLDistInfo::GetNameCount
 author: windows-sdk-content
 description: Returns the number of names in a certificate revocation list (CRL) distribution point.
 old-location: security\icertencodecrldistinfo_getnamecount.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 64102b89-defe-4f26-b6b2-8c3903e08347
 ms.author: windowssdkdev
 ms.date: 12/5/2018

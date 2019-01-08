@@ -4,7 +4,7 @@ title: CRYPT_XML_DOC_CTXT
 author: windows-sdk-content
 description: Defines document context information.
 old-location: security\crypt_xml_doc_ctxt.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b57cccb1-b26f-4710-b888-f864cc9ae3be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

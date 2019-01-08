@@ -4,7 +4,7 @@ title: EDITWORDBREAKPROCW
 author: windows-sdk-content
 description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
 old-location: controls\EditWordBreakProc.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolfunctions\editwordbreakproc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

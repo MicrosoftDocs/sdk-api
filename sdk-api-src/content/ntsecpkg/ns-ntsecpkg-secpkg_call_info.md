@@ -4,7 +4,7 @@ title: SECPKG_CALL_INFO
 author: windows-sdk-content
 description: Contains information about a currently executing call.
 old-location: security\secpkg_call_info.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: ac25ef88-7c64-42dd-8daa-fad039453043
 ms.author: windowssdkdev
 ms.date: 12/5/2018

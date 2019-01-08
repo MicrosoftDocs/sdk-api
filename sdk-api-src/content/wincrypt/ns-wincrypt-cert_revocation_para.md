@@ -4,7 +4,7 @@ title: CERT_REVOCATION_PARA
 author: windows-sdk-content
 description: Is passed in calls to the CertVerifyRevocation function to assist in finding the issuer of the context to be verified.
 old-location: security\cert_revocation_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 730db593-c55f-4ecf-bcac-5de54ab90db6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

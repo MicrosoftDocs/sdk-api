@@ -4,7 +4,7 @@ title: ITextRow::SetCellColorBack
 author: windows-sdk-content
 description: Sets the background color of the active cell.
 old-location: controls\itextrow_setcellcolorback.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235
 ms.author: windowssdkdev
 ms.date: 12/5/2018

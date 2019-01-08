@@ -4,7 +4,7 @@ title: ITextFont::SetBold
 author: windows-sdk-content
 description: Sets whether characters are bold.
 old-location: controls\ITextFont_SetBold.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbold.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

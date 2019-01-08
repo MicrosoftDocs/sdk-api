@@ -4,7 +4,7 @@ title: CRYPT_SMIME_CAPABILITY
 author: windows-sdk-content
 description: The CRYPT_SMIME_CAPABILITY structure specifies a single capability and its associated parameters. Single capabilities are grouped together into a list of CRYPT_SMIME_CAPABILITIES which can specify a prioritized list of capability preferences.
 old-location: security\crypt_smime_capability.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

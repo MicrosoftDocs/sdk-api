@@ -4,7 +4,7 @@ title: RegLoadAppKeyW function
 author: windows-sdk-content
 description: Loads the specified registry hive as an application hive.
 old-location: base\regloadappkey.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 88eb79c1-9ea0-436e-ad2e-9ce05b8dcb2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

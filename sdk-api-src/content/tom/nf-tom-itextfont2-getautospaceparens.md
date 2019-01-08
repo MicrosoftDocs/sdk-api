@@ -4,7 +4,7 @@ title: ITextFont2::GetAutospaceParens
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_getautospaceparens.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: fce60349-cded-4cab-b2e5-4fad02d11195
 ms.author: windowssdkdev
 ms.date: 12/5/2018

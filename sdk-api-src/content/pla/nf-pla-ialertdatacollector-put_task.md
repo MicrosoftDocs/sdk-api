@@ -4,7 +4,7 @@ title: IAlertDataCollector::put_Task
 author: windows-sdk-content
 description: Retrieves or sets the name of a Task Scheduler job to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_task.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: a86f8524-3564-4a65-9574-1709f82280d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

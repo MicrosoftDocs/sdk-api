@@ -4,7 +4,7 @@ title: PropSheet_InsertPage macro
 author: windows-sdk-content
 description: Inserts a new page into an existing property sheet. The page can be inserted either at a specified index or after a specified page. You can use this macro or send the PSM_INSERTPAGE message explicitly.
 old-location: controls\PropSheet_InsertPage.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_insertpage.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

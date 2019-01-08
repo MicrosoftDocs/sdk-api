@@ -4,7 +4,7 @@ title: IWTSProtocolConnectionCallback
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.
 old-location: termserv\iwtsprotocolconnectioncallback.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

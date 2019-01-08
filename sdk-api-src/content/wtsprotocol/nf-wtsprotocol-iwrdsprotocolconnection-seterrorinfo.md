@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::SetErrorInfo
 author: windows-sdk-content
 description: Sets error information in the protocol.
 old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 114abaf1-fe67-4d80-ad5d-f49aac9dd587
 ms.author: windowssdkdev
 ms.date: 12/5/2018

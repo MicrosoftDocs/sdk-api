@@ -4,7 +4,7 @@ title: CERT_STRONG_SIGN_SERIALIZED_INFO
 author: windows-sdk-content
 description: Contains the signature algorithm/hash algorithm and public key algorithm/bit length pairs that can be used for strong signing.
 old-location: security\cert_strong_sign_serialized_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

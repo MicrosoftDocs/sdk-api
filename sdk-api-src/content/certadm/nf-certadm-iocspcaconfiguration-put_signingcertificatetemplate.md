@@ -4,7 +4,7 @@ title: IOCSPCAConfiguration::put_SigningCertificateTemplate
 author: windows-sdk-content
 description: Gets or sets the template name for a signing certificate.
 old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

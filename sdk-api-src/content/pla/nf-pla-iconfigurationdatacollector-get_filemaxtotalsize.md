@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_FileMaxTotalSize
 author: windows-sdk-content
 description: Retrieves or sets the maximum total file size of all files combined that you can collect.
 old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: bcfe2b95-770d-4543-8f79-c5f1b55c5dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

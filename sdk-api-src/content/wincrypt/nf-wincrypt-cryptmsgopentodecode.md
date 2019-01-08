@@ -4,7 +4,7 @@ title: CryptMsgOpenToDecode function
 author: windows-sdk-content
 description: Opens a cryptographic message for decoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentodecode.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b3df6312-c866-4faa-8b89-bda67c697631
 ms.author: windowssdkdev
 ms.date: 12/5/2018

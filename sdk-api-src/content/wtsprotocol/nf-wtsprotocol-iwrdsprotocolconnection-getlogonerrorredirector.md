@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetLogonErrorRedirector
 author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.
 old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

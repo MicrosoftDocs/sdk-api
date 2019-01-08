@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::AuthenticateClientToSession
 author: windows-sdk-content
 description: Specifies a session that the connection should be reconnected to.
 old-location: termserv\iwrdsprotocolconnection_authenticateclienttosession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 314f1ae8-5b2d-4c95-bb2d-0d9288d38934
 ms.author: windowssdkdev
 ms.date: 12/5/2018

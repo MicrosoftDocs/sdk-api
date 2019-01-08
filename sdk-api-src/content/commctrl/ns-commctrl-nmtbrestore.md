@@ -4,7 +4,7 @@ title: NMTBRESTORE
 author: windows-sdk-content
 description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.
 old-location: controls\NMTBRESTORE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

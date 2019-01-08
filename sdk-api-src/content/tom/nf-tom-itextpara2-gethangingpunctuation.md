@@ -4,7 +4,7 @@ title: ITextPara2::GetHangingPunctuation
 author: windows-sdk-content
 description: Gets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_gethangingpunctuation.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 781b7c53-e9a1-4c4a-84d7-ea70efc173d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

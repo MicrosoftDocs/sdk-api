@@ -4,7 +4,7 @@ title: THEMESIZE
 author: windows-sdk-content
 description: Identifies the type of size value to retrieve for a visual style part.
 old-location: controls\THEME_SIZE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\themesize.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITraceDataCollector::put_BufferSize
 author: windows-sdk-content
 description: Retrieves or sets the suggested buffer size for each buffer in the event tracing session.
 old-location: pla\itracedatacollector_buffersize.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 2a735f9e-964a-4949-8660-fe3b40ce711e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

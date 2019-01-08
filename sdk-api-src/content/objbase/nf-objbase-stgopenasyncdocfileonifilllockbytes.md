@@ -4,7 +4,7 @@ title: StgOpenAsyncDocfileOnIFillLockBytes function
 author: windows-sdk-content
 description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
 old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

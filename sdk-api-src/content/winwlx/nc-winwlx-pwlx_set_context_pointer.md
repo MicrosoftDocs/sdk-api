@@ -4,7 +4,7 @@ title: PWLX_SET_CONTEXT_POINTER
 author: windows-sdk-content
 description: Called by GINA to specify the context pointer passed by Winlogon as the first parameter to all future calls to GINA functions.
 old-location: security\wlxsetcontextpointer.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 592d05f4-be7c-4606-91ad-77e3fb4f6b7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

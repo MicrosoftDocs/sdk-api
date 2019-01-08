@@ -4,7 +4,7 @@ title: IWTSSBPlugin::WTSSBX_GetUserExternalSession
 author: windows-sdk-content
 description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
 old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

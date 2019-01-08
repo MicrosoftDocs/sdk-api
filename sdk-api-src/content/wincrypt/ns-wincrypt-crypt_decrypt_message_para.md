@@ -4,7 +4,7 @@ title: CRYPT_DECRYPT_MESSAGE_PARA
 author: windows-sdk-content
 description: The CRYPT_DECRYPT_MESSAGE_PARA structure contains information for decrypting messages.
 old-location: security\crypt_decrypt_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
 ms.author: windowssdkdev
 ms.date: 12/5/2018

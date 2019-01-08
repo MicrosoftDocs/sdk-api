@@ -4,7 +4,7 @@ title: ITsSbProvisioning::DeleteVirtualMachines
 author: windows-sdk-content
 description: Deletes a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_deletevirtualmachines.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 45f5398d-2d27-4f6b-9020-bcbb44edc89a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

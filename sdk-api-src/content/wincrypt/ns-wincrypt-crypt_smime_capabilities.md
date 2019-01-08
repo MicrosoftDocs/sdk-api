@@ -4,7 +4,7 @@ title: CRYPT_SMIME_CAPABILITIES
 author: windows-sdk-content
 description: Contains a prioritized array of supported capabilities.
 old-location: security\crypt_smime_capabilities.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 2ee70ff5-4ef4-457c-90c8-629ad0bc3c25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

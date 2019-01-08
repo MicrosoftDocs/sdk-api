@@ -4,7 +4,7 @@ title: CTL_VERIFY_USAGE_PARA
 author: windows-sdk-content
 description: The CTL_VERIFY_USAGE_PARA structure contains parameters used by CertVerifyCTLUsage to establish the validity of a CTL's usage.
 old-location: security\ctl_verify_usage_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bf9a3c81-f8c4-45a6-b045-8cbefebebbd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

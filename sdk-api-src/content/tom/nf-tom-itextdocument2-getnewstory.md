@@ -4,7 +4,7 @@ title: ITextDocument2::GetNewStory
 author: windows-sdk-content
 description: Gets a new story.
 old-location: controls\itextdocument2_getnewstory.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

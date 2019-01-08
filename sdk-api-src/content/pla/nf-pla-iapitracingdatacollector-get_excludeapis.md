@@ -4,7 +4,7 @@ title: IApiTracingDataCollector::get_ExcludeApis
 author: windows-sdk-content
 description: Retrieves or sets the list of functions to exclude from the trace.
 old-location: pla\iapitracingdatacollector_excludeapis.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

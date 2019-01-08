@@ -4,7 +4,7 @@ title: Edit_EmptyUndoBuffer macro
 author: windows-sdk-content
 description: Resets the undo flag of an edit or rich edit control. The undo flag is set whenever an operation within the edit control can be undone. You can use this macro or send the EM_EMPTYUNDOBUFFER message explicitly.
 old-location: controls\Edit_EmptyUndoBuffer.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_emptyundobuffer.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

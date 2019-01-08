@@ -4,7 +4,7 @@ title: MonthCal_SetMaxSelCount macro
 author: windows-sdk-content
 description: Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the MCM_SETMAXSELCOUNT message explicitly.
 old-location: controls\MonthCal_SetMaxSelCount.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

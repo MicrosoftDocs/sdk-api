@@ -4,7 +4,7 @@ title: ITextStoryRanges::_NewEnum
 author: windows-sdk-content
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
 old-location: controls\ITextStoryRanges__NewEnum.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

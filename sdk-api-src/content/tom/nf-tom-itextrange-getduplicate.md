@@ -4,7 +4,7 @@ title: ITextRange::GetDuplicate
 author: windows-sdk-content
 description: Gets a duplicate of this range object.
 old-location: controls\ITextRange_GetDuplicate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangegetduplicate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

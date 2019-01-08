@@ -4,7 +4,7 @@ title: ITpmVirtualSmartCardManagerStatusCallback
 author: windows-sdk-content
 description: Notifies the caller of the progress of the requested operation or any resulting errors.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368
 ms.author: windowssdkdev
 ms.date: 12/5/2018

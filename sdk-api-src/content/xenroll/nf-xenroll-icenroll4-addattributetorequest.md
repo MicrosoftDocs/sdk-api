@@ -4,7 +4,7 @@ title: ICEnroll4::addAttributeToRequest
 author: windows-sdk-content
 description: Adds an attribute to the certificate request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addattributetorequest.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a15fe06c-e2a5-4292-ad82-ea350e652a07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

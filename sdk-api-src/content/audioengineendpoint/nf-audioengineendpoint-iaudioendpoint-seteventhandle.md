@@ -4,7 +4,7 @@ title: IAudioEndpoint::SetEventHandle
 author: windows-sdk-content
 description: Sets the handle for the event that the endpoint uses to signal that it has completed processing of a buffer.
 old-location: termserv\iaudioendpoint_seteventhandle.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9f0f216a-d785-42e9-b07d-f1f2568b5833
 ms.author: windowssdkdev
 ms.date: 12/5/2018

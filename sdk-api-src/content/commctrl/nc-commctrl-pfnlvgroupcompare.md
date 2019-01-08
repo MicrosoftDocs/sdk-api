@@ -4,7 +4,7 @@ title: PFNLVGROUPCOMPARE
 author: windows-sdk-content
 description: The LVGroupCompare function is an application-defined callback function used with the LVM_INSERTGROUPSORTED and LVM_SORTGROUPS messages.
 old-location: controls\LVGroupCompare.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

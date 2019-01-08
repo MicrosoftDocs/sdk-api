@@ -4,7 +4,7 @@ title: NMTOOLBARW
 author: windows-sdk-content
 description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure.
 old-location: controls\NMTOOLBAR.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtoolbar.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

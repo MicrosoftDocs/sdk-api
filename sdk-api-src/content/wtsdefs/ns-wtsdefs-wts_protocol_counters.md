@@ -4,7 +4,7 @@ title: WTS_PROTOCOL_COUNTERS
 author: windows-sdk-content
 description: Contains protocol performance counters.
 old-location: termserv\wts_protocol_counters.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 118c5e12-5436-4c0a-a31d-a60c5123e384
 ms.author: windowssdkdev
 ms.date: 12/5/2018

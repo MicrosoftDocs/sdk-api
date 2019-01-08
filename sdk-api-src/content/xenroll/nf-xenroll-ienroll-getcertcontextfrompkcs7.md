@@ -4,7 +4,7 @@ title: IEnroll::getCertContextFromPKCS7
 author: windows-sdk-content
 description: Retrieves a certificate context based on a PKCS #7 message that was issued in response to a PKCS #10 certificate request.
 old-location: security\ienroll4_getcertcontextfrompkcs7.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 3781729d-8b08-41b5-8ff4-1de19fc4ee2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

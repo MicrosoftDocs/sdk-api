@@ -4,7 +4,7 @@ title: CryptExportPublicKeyInfoFromBCryptKeyHandle function
 author: windows-sdk-content
 description: Exports the public key information associated with a provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

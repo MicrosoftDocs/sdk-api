@@ -4,7 +4,7 @@ title: CERT_SELECT_CRITERIA
 author: windows-sdk-content
 description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.
 old-location: security\cert_select_criteria.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 246722a9-5db6-4a82-8f29-f60f0a2263e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

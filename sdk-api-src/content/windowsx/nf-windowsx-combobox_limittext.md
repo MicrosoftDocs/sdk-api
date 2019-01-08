@@ -4,7 +4,7 @@ title: ComboBox_LimitText macro
 author: windows-sdk-content
 description: Limits the length of the text the user may type into the edit control of a combo box. You can use this macro or send the CB_LIMITTEXT message explicitly.
 old-location: controls\ComboBox_LimitText.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_limittext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

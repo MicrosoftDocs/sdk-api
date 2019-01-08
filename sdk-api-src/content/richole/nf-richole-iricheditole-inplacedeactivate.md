@@ -4,7 +4,7 @@ title: IRichEditOle::InPlaceDeactivate
 author: windows-sdk-content
 description: Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
 old-location: controls\IRichEditOle_InPlaceDeactivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinplacedeactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

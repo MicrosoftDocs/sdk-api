@@ -4,7 +4,7 @@ title: IAlertDataCollector::get_EventLog
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should log an event each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_eventlog.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 3ba20fac-5817-47ed-a934-e43f49f0a121
 ms.author: windowssdkdev
 ms.date: 12/5/2018

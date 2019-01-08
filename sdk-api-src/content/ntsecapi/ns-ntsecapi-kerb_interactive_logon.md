@@ -4,7 +4,7 @@ title: KERB_INTERACTIVE_LOGON
 author: windows-sdk-content
 description: Contains information about an interactive logon session.
 old-location: security\kerb_interactive_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

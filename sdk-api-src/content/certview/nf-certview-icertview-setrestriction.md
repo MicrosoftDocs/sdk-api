@@ -4,7 +4,7 @@ title: ICertView::SetRestriction
 author: windows-sdk-content
 description: Sets the sorting and qualifying restrictions on a column.
 old-location: security\icertview2_setrestriction.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a2dc8675-1d75-4c15-a9f7-971274ab044c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextHost::TxActivate
 author: windows-sdk-content
 description: Notifies the text host that the control is active.
 old-location: controls\ITextHost_TxActivate.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

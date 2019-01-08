@@ -4,7 +4,7 @@ title: CTL_FIND_USAGE_PARA
 author: windows-sdk-content
 description: A member of the CTL_FIND_SUBJECT_PARA structure and it is used by CertFindCTLInStore.
 old-location: security\ctl_find_usage_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bb6a7013-19ec-4263-b7a2-33c79c2b5feb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

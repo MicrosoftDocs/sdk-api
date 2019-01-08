@@ -4,7 +4,7 @@ title: CertOpenServerOcspResponse function
 author: windows-sdk-content
 description: Opens a handle to an online certificate status protocol (OCSP) response associated with a server certificate chain.
 old-location: security\certopenserverocspresponse.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbProvider::GetResourcePluginStore
 author: windows-sdk-content
 description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
 old-location: termserv\itssbprovider_getresourcepluginstore.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329
 ms.author: windowssdkdev
 ms.date: 12/5/2018

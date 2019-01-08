@@ -4,7 +4,7 @@ title: CRYPT_SIGN_MESSAGE_PARA
 author: windows-sdk-content
 description: The CRYPT_SIGN_MESSAGE_PARA structure contains information for signing messages using a specified signing certificate context.
 old-location: security\crypt_sign_message_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 1601d860-6054-4650-a033-ea088655b7e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

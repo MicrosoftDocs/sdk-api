@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Status
 author: windows-sdk-content
 description: Retrieves the status of the data collector set.
 old-location: pla\idatacollectorset_get_status.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d957d34d-5455-486a-bd54-28afd7e6f979
 ms.author: windowssdkdev
 ms.date: 12/5/2018

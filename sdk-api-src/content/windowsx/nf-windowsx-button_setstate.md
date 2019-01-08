@@ -4,7 +4,7 @@ title: Button_SetState macro
 author: windows-sdk-content
 description: Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the BM_SETSTATE message explicitly.
 old-location: controls\Button_SetState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

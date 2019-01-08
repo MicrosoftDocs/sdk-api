@@ -4,7 +4,7 @@ title: Button_SetDropDownState macro
 author: windows-sdk-content
 description: Sets the drop down state for a specified button with style of BS_SPLITBUTTON. Use this macro or send the BCM_SETDROPDOWNSTATE message explicitly.
 old-location: controls\Button_SetDropDownState.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setdropdownstate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

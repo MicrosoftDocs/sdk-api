@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannelEvents::OnDataSent
 author: windows-sdk-content
 description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.
 old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

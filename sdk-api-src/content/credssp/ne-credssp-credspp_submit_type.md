@@ -4,7 +4,7 @@ title: CREDSPP_SUBMIT_TYPE
 author: windows-sdk-content
 description: Specifies the type of credentials specified by a CREDSSP_CRED structure.
 old-location: security\credspp_submit_type.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d30e219b-ea39-41da-b714-3ceb13a5614d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

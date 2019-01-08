@@ -4,7 +4,7 @@ title: IDataCollectorCollection::CreateDataCollectorFromXml
 author: windows-sdk-content
 description: Creates a data collector using the specified XML.
 old-location: pla\idatacollectorcollection_createdatacollectorfromxml.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 32a1aba6-24f4-416a-b2ba-9be264fce3fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

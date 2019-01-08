@@ -4,7 +4,7 @@ title: CMSG_KEY_TRANS_RECIPIENT_INFO
 author: windows-sdk-content
 description: The CMSG_KEY_TRANS_RECIPIENT_INFO structure contains information used in key transport algorithms.
 old-location: security\cmsg_key_trans_recipient_info.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 956b0646-50a5-46d1-aa9a-91194c35d2b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertRequest2::GetIssuedCertificate
 author: windows-sdk-content
 description: Retrieves a certificate's disposition by specifying either the request ID or the certificate serial number.
 old-location: security\icertrequest2_getissuedcertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ea7f6013-a55d-4a76-9c9e-df180ba9bb79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

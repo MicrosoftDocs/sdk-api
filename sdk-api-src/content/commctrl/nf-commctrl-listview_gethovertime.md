@@ -4,7 +4,7 @@ title: ListView_GetHoverTime macro
 author: windows-sdk-content
 description: Gets the amount of time that the mouse cursor must hover over an item before it is selected. You can use this macro or send the LVM_GETHOVERTIME message explicitly.
 old-location: controls\ListView_GetHoverTime.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethovertime.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

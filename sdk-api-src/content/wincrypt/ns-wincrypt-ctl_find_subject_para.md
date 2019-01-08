@@ -4,7 +4,7 @@ title: CTL_FIND_SUBJECT_PARA
 author: windows-sdk-content
 description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).
 old-location: security\ctl_find_subject_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: b3a63010-9025-4a86-aa48-bfb6e800a07a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICertAdmin::SetCertificateExtension
 author: windows-sdk-content
 description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
 old-location: security\icertadmin2_setcertificateextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

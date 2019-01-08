@@ -4,7 +4,7 @@ title: GetScrollRange function
 author: windows-sdk-content
 description: The GetScrollRange function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 old-location: controls\GetScrollRange.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollrange.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IIdentityProvider::Delete
 author: windows-sdk-content
 description: Removes the specified identity from the identity store or the specified properties from the identity.
 old-location: security\iidentityprovider_delete.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: a21aa2eb-2551-4920-a312-34fa327572ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

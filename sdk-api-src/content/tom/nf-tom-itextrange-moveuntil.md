@@ -4,7 +4,7 @@ title: ITextRange::MoveUntil
 author: windows-sdk-content
 description: Searches up to Count characters for the first character in the set of characters specified by Cset. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by Count.
 old-location: controls\ITextRange_MoveUntil.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveuntil.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

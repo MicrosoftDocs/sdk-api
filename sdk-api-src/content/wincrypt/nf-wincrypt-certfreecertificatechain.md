@@ -4,7 +4,7 @@ title: CertFreeCertificateChain function
 author: windows-sdk-content
 description: The CertFreeCertificateChain function frees a certificate chain by reducing its reference count. If the reference count becomes zero, memory allocated for the chain is released.
 old-location: security\certfreecertificatechain.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5ba181c2-6936-4848-a571-2bb58f46f081
 ms.author: windowssdkdev
 ms.date: 12/5/2018

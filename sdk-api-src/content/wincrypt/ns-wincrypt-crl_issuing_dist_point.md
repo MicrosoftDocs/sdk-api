@@ -4,7 +4,7 @@ title: CRL_ISSUING_DIST_POINT
 author: windows-sdk-content
 description: Contains information about the kinds of certificates listed in a certificate revocation list (CRL).
 old-location: security\crl_issuing_dist_point.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: cdac9e96-5b26-4398-8863-16ea2c43f11e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

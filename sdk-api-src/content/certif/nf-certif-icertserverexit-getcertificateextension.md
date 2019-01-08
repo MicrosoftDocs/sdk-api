@@ -4,7 +4,7 @@ title: ICertServerExit::GetCertificateExtension
 author: windows-sdk-content
 description: Gets a specified certificate extension.
 old-location: security\icertserverexit_getcertificateextension.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

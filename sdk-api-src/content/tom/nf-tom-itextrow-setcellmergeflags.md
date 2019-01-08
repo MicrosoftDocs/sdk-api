@@ -4,7 +4,7 @@ title: ITextRow::SetCellMergeFlags
 author: windows-sdk-content
 description: Sets the merge flags of the active cell.
 old-location: controls\itextrow_setcellmergeflags.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

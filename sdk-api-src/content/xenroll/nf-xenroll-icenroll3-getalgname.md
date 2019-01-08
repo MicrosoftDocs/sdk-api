@@ -4,7 +4,7 @@ title: ICEnroll3::GetAlgName
 author: windows-sdk-content
 description: Retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current cryptographic service provider (CSP). This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_getalgname.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 9c5fa25c-7fab-4fb5-9ff6-bc7379260926
 ms.author: windowssdkdev
 ms.date: 12/5/2018

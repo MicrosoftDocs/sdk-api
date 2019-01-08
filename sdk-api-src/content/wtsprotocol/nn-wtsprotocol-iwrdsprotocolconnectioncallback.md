@@ -4,7 +4,7 @@ title: IWRdsProtocolConnectionCallback
 author: windows-sdk-content
 description: Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
 old-location: termserv\iwrdsprotocolconnectioncallback.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 81a73688-f39e-4960-8587-602d56c11e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

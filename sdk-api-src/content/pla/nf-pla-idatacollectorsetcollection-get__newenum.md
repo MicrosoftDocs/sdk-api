@@ -4,7 +4,7 @@ title: IDataCollectorSetCollection::get__NewEnum
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\idatacollectorsetcollection__newenum.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f875038d-8b66-44b2-b28e-211f08a691ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

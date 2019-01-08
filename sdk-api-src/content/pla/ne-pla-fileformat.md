@@ -4,7 +4,7 @@ title: FileFormat
 author: windows-sdk-content
 description: Defines the format of the data in the log file.
 old-location: pla\fileformat.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 8ec50a96-0c8c-401a-8849-e3753fe15952
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListBox_FindItemData macro
 author: windows-sdk-content
 description: Finds the first item in a list box that has the specified item data. You can use this macro or send the LB_FINDSTRING message explicitly.
 old-location: controls\ListBox_FindItemData.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_finditemdata.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

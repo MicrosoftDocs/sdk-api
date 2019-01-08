@@ -4,7 +4,7 @@ title: Button_GetSplitInfo macro
 author: windows-sdk-content
 description: Gets information for a specified split button control. Use this macro or send the BCM_GETSPLITINFO message explicitly.
 old-location: controls\Button_GetSplitInfo.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getsplitinfo.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

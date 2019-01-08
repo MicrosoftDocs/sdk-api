@@ -4,7 +4,7 @@ title: SCardFreeMemory function
 author: windows-sdk-content
 description: Releases memory that has been returned from the resource manager using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardfreememory.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
 ms.author: windowssdkdev
 ms.date: 12/5/2018

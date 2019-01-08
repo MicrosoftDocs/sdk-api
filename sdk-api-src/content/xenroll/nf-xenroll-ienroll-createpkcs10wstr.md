@@ -4,7 +4,7 @@ title: IEnroll::createPKCS10WStr
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request.
 old-location: security\ienroll4_createpkcs10wstr.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: ebbcc9ad-9f87-4abe-963b-38c57a60e45e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

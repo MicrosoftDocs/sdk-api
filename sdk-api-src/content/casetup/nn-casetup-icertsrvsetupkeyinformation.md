@@ -4,7 +4,7 @@ title: ICertSrvSetupKeyInformation
 author: windows-sdk-content
 description: Defines a set of private key properties that are used for setup of certification authority (CA) or Microsoft Simple Certificate Enrollment Protocol (SCEP) roles.
 old-location: security\icertsrvsetupkeyinformation.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d27c9ba5-ddee-4c9c-b812-e61b974b515a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

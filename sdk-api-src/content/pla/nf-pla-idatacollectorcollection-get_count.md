@@ -4,7 +4,7 @@ title: IDataCollectorCollection::get_Count
 author: windows-sdk-content
 description: Retrieves the number of data collectors in the collection.
 old-location: pla\idatacollectorcollection_count.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: f18f5b40-35bb-472b-bd42-04b0a018dbf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

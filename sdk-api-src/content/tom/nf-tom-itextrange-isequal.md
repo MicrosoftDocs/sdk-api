@@ -4,7 +4,7 @@ title: ITextRange::IsEqual
 author: windows-sdk-content
 description: Determines whether this range has the same character positions and story as those of a specified range.
 old-location: controls\ITextRange_IsEqual.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange\itextrangeisequal.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

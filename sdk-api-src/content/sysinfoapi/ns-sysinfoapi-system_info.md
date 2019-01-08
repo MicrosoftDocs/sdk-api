@@ -4,7 +4,7 @@ title: SYSTEM_INFO
 author: windows-sdk-content
 description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
 old-location: base\system_info_str.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 971293b8-0af0-4bdf-a7d7-6b1bb80a469c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

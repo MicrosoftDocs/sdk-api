@@ -4,7 +4,7 @@ title: ITextFont2::GetAutospaceAlpha
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace alphabetics&#0034; state.
 old-location: controls\itextfont2_getautospacealpha.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 3f2070e9-2909-4642-ade2-54ef9af9cfc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

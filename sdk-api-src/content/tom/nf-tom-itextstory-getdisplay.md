@@ -4,7 +4,7 @@ title: ITextStory::GetDisplay
 author: windows-sdk-content
 description: Gets a new display for a story.
 old-location: controls\itextstory_getdisplay.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

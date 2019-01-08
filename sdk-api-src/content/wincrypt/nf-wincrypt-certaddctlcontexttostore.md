@@ -4,7 +4,7 @@ title: CertAddCTLContextToStore function
 author: windows-sdk-content
 description: Adds a certificate trust list (CTL) context to a certificate store.
 old-location: security\certaddctlcontexttostore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: e8858f75-77a1-4c5f-a3e3-a645c5e0f053
 ms.author: windowssdkdev
 ms.date: 12/5/2018

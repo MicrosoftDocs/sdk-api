@@ -4,7 +4,7 @@ title: ICEnroll3::put_LimitExchangeKeyToEncipherment
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains digital signature and nonrepudiation key usages.
 old-location: security\icenroll4_limitexchangekeytoencipherment.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d8ed3663-bbda-4052-9c72-b00543ca73ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

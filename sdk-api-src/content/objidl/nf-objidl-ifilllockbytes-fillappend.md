@@ -4,7 +4,7 @@ title: IFillLockBytes::FillAppend
 author: windows-sdk-content
 description: The FillAppend method writes a new block of bytes to the end of a byte array.
 old-location: stg\ifilllockbytes_fillappend.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: 3f25c48f-85a4-4778-b262-ad0c52cb1ac9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

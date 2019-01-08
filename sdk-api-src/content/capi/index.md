@@ -2,7 +2,7 @@
 UID: NA:capi
 ms.assetid: fff82193-eb79-3515-ab53-ba472b0f2a56
 ms.author: windowssdkdev
-ms.date: 12/16/2018
+ms.date: 01/07/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

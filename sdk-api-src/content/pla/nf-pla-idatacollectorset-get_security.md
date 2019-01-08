@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_Security
 author: windows-sdk-content
 description: Retrieves or sets access control information that determines who can access this data collector set.
 old-location: pla\idatacollectorset_get_security.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cd915df3-2823-4d3e-bfd0-545c24f95267
 ms.author: windowssdkdev
 ms.date: 12/5/2018

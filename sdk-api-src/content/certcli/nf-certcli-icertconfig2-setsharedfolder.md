@@ -4,7 +4,7 @@ title: ICertConfig2::SetSharedFolder
 author: windows-sdk-content
 description: Specifies the path to be used as the certification authority's (CA) shared folder.
 old-location: security\icertconfig2_setsharedfolder.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: f0fc4218-ca07-4488-bd0c-bfa8bdcd2179
 ms.author: windowssdkdev
 ms.date: 12/5/2018

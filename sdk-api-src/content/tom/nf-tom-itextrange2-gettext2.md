@@ -4,7 +4,7 @@ title: ITextRange2::GetText2
 author: windows-sdk-content
 description: Gets the text in this range according to the specified conversion flags.
 old-location: controls\itextrange2_gettext2.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 77f39808-b39d-45bb-ba03-3a27d503fe0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

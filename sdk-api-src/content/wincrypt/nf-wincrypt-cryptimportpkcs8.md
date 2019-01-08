@@ -4,7 +4,7 @@ title: CryptImportPKCS8 function
 author: windows-sdk-content
 description: Imports the private key in PKCS #8 format to a cryptographic service provider (CSP).
 old-location: security\cryptimportpkcs8.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409
 ms.author: windowssdkdev
 ms.date: 12/5/2018

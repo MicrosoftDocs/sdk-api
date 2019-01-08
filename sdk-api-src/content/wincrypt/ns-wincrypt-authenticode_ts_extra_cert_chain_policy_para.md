@@ -4,7 +4,7 @@ title: AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 author: windows-sdk-content
 description: The AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure contains time stamp policy information that can be used in certificate chain verification of files.
 old-location: security\authenticode_ts_extra_cert_chain_policy_para.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 4c24c924-f466-42d1-a3e0-e86446750040
 ms.author: windowssdkdev
 ms.date: 12/5/2018

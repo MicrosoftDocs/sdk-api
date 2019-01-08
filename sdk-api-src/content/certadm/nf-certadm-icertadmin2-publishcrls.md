@@ -4,7 +4,7 @@ title: ICertAdmin2::PublishCRLs
 author: windows-sdk-content
 description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
 old-location: security\icertadmin2_publishcrls.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

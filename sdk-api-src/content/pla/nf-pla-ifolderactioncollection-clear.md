@@ -4,7 +4,7 @@ title: IFolderActionCollection::Clear
 author: windows-sdk-content
 description: Removes all folder actions from the collection.
 old-location: pla\ifolderactioncollection_clear.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

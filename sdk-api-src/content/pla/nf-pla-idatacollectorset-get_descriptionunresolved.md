@@ -4,7 +4,7 @@ title: IDataCollectorSet::get_DescriptionUnresolved
 author: windows-sdk-content
 description: Retrieves the description of the data collector set in its original form.
 old-location: pla\idatacollectorset_descriptionunresolved.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 153159b2-54dc-477a-92eb-18328ea3351b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

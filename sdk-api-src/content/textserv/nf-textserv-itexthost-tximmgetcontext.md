@@ -4,7 +4,7 @@ title: ITextHost::TxImmGetContext
 author: windows-sdk-content
 description: Retrieves the Input Method Editor (IME) input context associated with the text services host. This method is used only in Asian-language versions of the operating system.
 old-location: controls\ITextHost_TxImmGetContext.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmgetcontext.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

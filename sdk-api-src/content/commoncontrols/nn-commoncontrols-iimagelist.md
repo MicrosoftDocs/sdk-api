@@ -4,7 +4,7 @@ title: IImageList
 author: windows-sdk-content
 description: Exposes methods that manipulate and interact with image lists.
 old-location: controls\IImageList.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

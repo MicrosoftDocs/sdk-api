@@ -4,7 +4,7 @@ title: ITextDocument::Range
 author: windows-sdk-content
 description: Retrieves a text range object for a specified range of content in the active story of the document.
 old-location: controls\ITextDocument_Range.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\range.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

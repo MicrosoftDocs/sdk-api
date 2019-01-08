@@ -4,7 +4,7 @@ title: SecPkgContext_CipherInfo
 author: windows-sdk-content
 description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.
 old-location: security\secpkgcontext_cipherinfo.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CertFreeCertificateContext function
 author: windows-sdk-content
 description: Frees a certificate context by decrementing its reference count. When the reference count goes to zero, CertFreeCertificateContext frees the memory used by a certificate context.
 old-location: security\certfreecertificatecontext.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 7d2f3237-3f8b-4234-b6db-3057384cd89b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll::get_ProviderType
 author: windows-sdk-content
 description: Sets or retrieves the type of provider.
 old-location: security\ienroll4_providertype.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d4ab2b0e-127f-4ec0-9e4a-4314561912e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

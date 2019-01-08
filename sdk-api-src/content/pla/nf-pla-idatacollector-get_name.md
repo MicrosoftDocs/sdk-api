@@ -4,7 +4,7 @@ title: IDataCollector::get_Name
 author: windows-sdk-content
 description: Retrieves or sets the name of the data collector.
 old-location: pla\idatacollector_name.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: d023fe2f-7b3c-4ce9-9950-ec30ea09181c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

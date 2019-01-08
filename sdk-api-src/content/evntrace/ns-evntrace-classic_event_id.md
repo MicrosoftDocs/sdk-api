@@ -4,7 +4,7 @@ title: CLASSIC_EVENT_ID
 author: windows-sdk-content
 description: Identifies the kernel event for which you want to enable call stack tracing.
 old-location: etw\classic_event_id.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: KERB_CERTIFICATE_S4U_LOGON
 author: windows-sdk-content
 description: Contains information about the certificate for a service for user (S4U) logon.
 old-location: security\kerb_certificate_s4u_logon.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

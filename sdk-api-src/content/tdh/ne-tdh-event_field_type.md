@@ -4,7 +4,7 @@ title: EVENT_FIELD_TYPE
 author: windows-sdk-content
 description: Defines the provider information to retrieve.
 old-location: etw\event_field_type_enum.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: da525556-e42b-41cb-b954-300f378477e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

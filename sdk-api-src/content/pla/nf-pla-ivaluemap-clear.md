@@ -4,7 +4,7 @@ title: IValueMap::Clear
 author: windows-sdk-content
 description: Removes all items from the collection
 old-location: pla\ivaluemap_clear.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: 41c80954-efc2-47ff-87e2-f33d7123cb40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ListView_GetSelectionMark macro
 author: windows-sdk-content
 description: Gets the selection mark from a list-view control. You can use this macro or explicitly send the LVM_GETSELECTIONMARK message.
 old-location: controls\ListView_GetSelectionMark.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectionmark.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

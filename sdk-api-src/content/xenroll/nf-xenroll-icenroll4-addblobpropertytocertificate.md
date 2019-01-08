@@ -4,7 +4,7 @@ title: ICEnroll4::addBlobPropertyToCertificate
 author: windows-sdk-content
 description: Adds a BLOB property to a certificate.
 old-location: security\icenroll4_addblobpropertytocertificate.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

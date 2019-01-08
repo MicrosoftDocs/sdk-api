@@ -4,7 +4,7 @@ title: ICEnroll::get_GenKeyFlags
 author: windows-sdk-content
 description: Sets or retrieves the values passed to the CryptGenKey function when the certificate request is generated.
 old-location: security\icenroll4_genkeyflags.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d22fe4d4-a939-4f77-8e11-f9312c81ec1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Header_GetItemRect macro
 author: windows-sdk-content
 description: Gets the bounding rectangle for a given item in a header control. You can use this macro or send the HDM_GETITEMRECT message explicitly.
 old-location: controls\Header_GetItemRect.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemrect.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IRichEditOleCallback::QueryInsertObject
 author: windows-sdk-content
 description: Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).
 old-location: controls\IRichEditOleCallback_QueryInsertObject.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

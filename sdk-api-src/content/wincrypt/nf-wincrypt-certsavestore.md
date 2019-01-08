@@ -4,7 +4,7 @@ title: CertSaveStore function
 author: windows-sdk-content
 description: Saves the certificate store to a file or to a memory BLOB.
 old-location: security\certsavestore.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 5cc818d7-b079-4962-aabc-fc512d4e92ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

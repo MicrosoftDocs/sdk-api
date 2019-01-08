@@ -4,7 +4,7 @@ title: ITextFont::Reset
 author: windows-sdk-content
 description: Resets the character formatting to the specified values.
 old-location: controls\ITextFont_Reset.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontreset.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

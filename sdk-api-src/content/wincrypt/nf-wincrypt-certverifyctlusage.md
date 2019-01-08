@@ -4,7 +4,7 @@ title: CertVerifyCTLUsage function
 author: windows-sdk-content
 description: Verifies that a subject is trusted for a specified usage by finding a signed and time-valid certificate trust list (CTL) with the usage identifiers that contain the subject.
 old-location: security\certverifyctlusage.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: d87d8157-8e52-4198-bfd4-46d83d72eb13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

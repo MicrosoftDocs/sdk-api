@@ -4,7 +4,7 @@ title: PFN_CMSG_EXPORT_KEY_TRANS
 author: windows-sdk-content
 description: Encrypts and exports the content encryption key for a key transport recipient of an enveloped message.
 old-location: security\pfn_cmsg_export_key_trans.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: bbb976df-5c8d-4d5e-ba92-7c534bba59de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

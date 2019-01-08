@@ -4,7 +4,7 @@ title: IConfigurationDataCollector::get_Files
 author: windows-sdk-content
 description: Retrieves or sets the files to collect.
 old-location: pla\iconfigurationdatacollector_files.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: ca495768-8f84-489b-8590-3ab7d031f0be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

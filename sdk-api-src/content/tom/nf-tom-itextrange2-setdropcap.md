@@ -4,7 +4,7 @@ title: ITextRange2::SetDropCap
 author: windows-sdk-content
 description: Sets the drop-cap parameters for the paragraph that contains the current range.
 old-location: controls\itextrange2_setdropcap.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 189c1a69-44eb-4de0-8ffc-9a026d9e6f16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

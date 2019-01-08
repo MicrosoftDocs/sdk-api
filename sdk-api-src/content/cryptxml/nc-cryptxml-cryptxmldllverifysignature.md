@@ -4,7 +4,7 @@ title: CryptXmlDllVerifySignature
 author: windows-sdk-content
 description: Verifies a signature.
 old-location: security\cryptxmldllverifysignature.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6e864156-37bd-4f2a-b2e9-f7269aa70241
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnroll4::InstallPKCS7BlobEx
 author: windows-sdk-content
 description: The same as InstallPKCS7Blob except that it returns the number of certificates actually installed in local stores.
 old-location: security\ienroll4_installpkcs7blobex.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 6a65eac6-3fe5-4464-876d-80eedaca7ae6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

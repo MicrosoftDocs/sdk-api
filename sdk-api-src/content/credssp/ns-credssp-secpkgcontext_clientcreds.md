@@ -4,7 +4,7 @@ title: SecPkgContext_ClientCreds
 author: windows-sdk-content
 description: Specifies client credentials when calling the QueryContextAttributes (CredSSP) function.
 old-location: security\secpkgcontext_clientcreds.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

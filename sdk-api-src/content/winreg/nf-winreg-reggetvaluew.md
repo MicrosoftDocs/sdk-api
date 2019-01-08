@@ -4,7 +4,7 @@ title: RegGetValueW function
 author: windows-sdk-content
 description: Retrieves the type and data for the specified registry value.
 old-location: base\reggetvalue.htm
-tech.root: sysinfo
+tech.root: SysInfo
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
 ms.author: windowssdkdev
 ms.date: 12/5/2018

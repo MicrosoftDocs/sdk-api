@@ -4,7 +4,7 @@ title: RemoveTraceCallback function
 author: windows-sdk-content
 description: The RemoveTraceCallback function stops an EventClassCallback function from receiving events for an event trace class.
 old-location: etw\removetracecallback.htm
-tech.root: etw
+tech.root: ETW
 ms.assetid: da779e8d-4984-44e3-8731-647a422b55b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

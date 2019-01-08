@@ -4,7 +4,7 @@ title: NMMOUSE
 author: windows-sdk-content
 description: Contains information used with mouse notification messages.
 old-location: controls\NMMOUSE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

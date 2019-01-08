@@ -4,7 +4,7 @@ title: IWRdsGraphicsChannel::Write
 author: windows-sdk-content
 description: Called to send data to the virtual channel.
 old-location: termserv\iwrdsgraphicschannel_write.htm
-tech.root: TermServ
+tech.root: termserv
 ms.assetid: 6ce627d8-078d-427a-b732-473d4f44f719
 ms.author: windowssdkdev
 ms.date: 12/5/2018

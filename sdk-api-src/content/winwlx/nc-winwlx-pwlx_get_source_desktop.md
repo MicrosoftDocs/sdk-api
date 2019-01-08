@@ -4,7 +4,7 @@ title: PWLX_GET_SOURCE_DESKTOP
 author: windows-sdk-content
 description: Called by GINA to determine the name and handle of the desktop that was current before Winlogon switched to the Winlogon desktop.
 old-location: security\wlxgetsourcedesktop.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: c0b6c64e-7c2b-4dc9-81fd-243fc2230249
 ms.author: windowssdkdev
 ms.date: 12/5/2018

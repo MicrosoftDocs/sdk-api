@@ -4,7 +4,7 @@ title: IImageList::DragEnter
 author: windows-sdk-content
 description: Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window.
 old-location: controls\IImageList_DragEnter.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragenter.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

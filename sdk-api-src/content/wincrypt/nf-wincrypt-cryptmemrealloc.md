@@ -4,7 +4,7 @@ title: CryptMemRealloc function
 author: windows-sdk-content
 description: The CryptMemRealloc function frees the memory currently allocated for a buffer and allocates memory for a new buffer.
 old-location: security\cryptmemrealloc.htm
-tech.root: seccrypto
+tech.root: SecCrypto
 ms.assetid: 74bdd2dd-9f05-4d36-8323-79d547820068
 ms.author: windowssdkdev
 ms.date: 12/5/2018

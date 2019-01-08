@@ -4,7 +4,7 @@ title: TreeView_GetIndent macro
 author: windows-sdk-content
 description: Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the TVM_GETINDENT message explicitly.
 old-location: controls\TreeView_GetIndent.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getindent.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

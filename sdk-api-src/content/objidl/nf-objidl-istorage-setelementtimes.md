@@ -4,7 +4,7 @@ title: IStorage::SetElementTimes
 author: windows-sdk-content
 description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
 old-location: stg\istorage_setelementtimes.htm
-tech.root: stg
+tech.root: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TabCtrl_DeleteAllItems macro
 author: windows-sdk-content
 description: Removes all items from a tab control. You can use this macro or send the TCM_DELETEALLITEMS message explicitly.
 old-location: controls\TabCtrl_DeleteAllItems.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteallitems.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

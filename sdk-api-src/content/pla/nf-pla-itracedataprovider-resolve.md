@@ -4,7 +4,7 @@ title: ITraceDataProvider::Resolve
 author: windows-sdk-content
 description: Merges the details about a provider with this instance.
 old-location: pla\itracedataprovider_resolve.htm
-tech.root: pla
+tech.root: PLA
 ms.assetid: cabe7207-30f9-4382-bc29-b435d6e4c218
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FreeCredentialsHandle function
 author: windows-sdk-content
 description: Notifies the security system that the credentials are no longer needed.
 old-location: security\freecredentialshandle.htm
-tech.root: secauthn
+tech.root: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

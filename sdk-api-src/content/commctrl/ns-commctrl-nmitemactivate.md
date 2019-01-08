@@ -4,7 +4,7 @@ title: NMITEMACTIVATE
 author: windows-sdk-content
 description: Contains information about an LVN_ITEMACTIVATE notification code.
 old-location: controls\NMITEMACTIVATE.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmitemactivate.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

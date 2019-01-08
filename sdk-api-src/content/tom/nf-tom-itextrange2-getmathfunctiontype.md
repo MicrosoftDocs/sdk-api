@@ -4,7 +4,7 @@ title: ITextRange2::GetMathFunctionType
 author: windows-sdk-content
 description: Retrieves the math function type associated with the specified math function name.
 old-location: controls\itextrange2_getmathfunctiontype.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 00bae237-5853-430e-8313-563da0cf0fde
 ms.author: windowssdkdev
 ms.date: 12/5/2018

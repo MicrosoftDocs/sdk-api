@@ -4,7 +4,7 @@ title: NMTVSTATEIMAGECHANGING
 author: windows-sdk-content
 description: Contains information about an NM_TVSTATEIMAGECHANGING notification code.
 old-location: controls\NMTVSTATEIMAGECHANGING.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvstateimagechanging.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITextRow::GetCellShading
 author: windows-sdk-content
 description: Gets the shading of the active cell.
 old-location: controls\itextrow_getcellshading.htm
-tech.root: controls
+tech.root: Controls
 ms.assetid: 450f97ea-b5b4-44e4-92b8-155c1a9c9c1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
