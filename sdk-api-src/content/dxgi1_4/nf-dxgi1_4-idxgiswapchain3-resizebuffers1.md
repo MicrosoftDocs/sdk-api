@@ -153,7 +153,7 @@ This method is only valid to call when the swapchain was created using a D3D12 c
 When a swapchain is created on a multi-GPU adapter, the backbuffers are all created on node 1 and only a single command queue is supported.
           <b>ResizeBuffers1</b> enables applications to create backbuffers on different nodes, allowing a different command queue to be used with each node.
           These capabilities enable Alternate Frame Rendering (AFR) techniques to be used with the swapchain.
-          See <a href="/windows/desktop/direct3d12/mulit-engine">Direct3D 12 Multi-Adapters</a>.
+          See <a href="/windows/desktop/direct3d12/multi-engine">Direct3D 12 Multi-Adapters</a>.
         
 
 The only difference between <a href="https://msdn.microsoft.com/en-us/library/Bb174577(v=VS.85).aspx">IDXGISwapChain::ResizeBuffers</a> in Windows 8 versus Windows 7 is with

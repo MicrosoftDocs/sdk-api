@@ -64,7 +64,7 @@ Type: <b>UINT</b>
 Specifies the device's physical adapter for which the video memory information is queried.
             For single-GPU operation, set this to zero.
             If there are multiple GPU nodes, set this to the index of the node (the device's physical adapter) for which the video memory information is queried.
-            See <a href="/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+            See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
           
 
 
