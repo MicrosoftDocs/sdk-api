@@ -4,7 +4,7 @@ title: ITsSbBaseNotifySink::OnReportStatus
 author: windows-sdk-content
 description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

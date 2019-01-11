@@ -4,7 +4,7 @@ title: WSASetServiceW function
 author: windows-sdk-content
 description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
 old-location: winsock\wsasetservice_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

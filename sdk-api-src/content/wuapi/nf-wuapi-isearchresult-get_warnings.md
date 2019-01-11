@@ -4,7 +4,7 @@ title: ISearchResult::get_Warnings
 author: windows-sdk-content
 description: Gets a collection of the warnings that result from a search.
 old-location: wua\isearchresult_warnings.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a341676e-75b3-46e5-8c55-b070147d4277
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWebProxy::put_BypassList
 author: windows-sdk-content
 description: Gets and sets a collection of addresses that do not use the proxy server.
 old-location: wua\iwebproxy_bypasslist.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a93742d2-73ce-4e7b-a000-592fd588cb1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

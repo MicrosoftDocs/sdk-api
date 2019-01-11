@@ -4,7 +4,7 @@ title: IUpdateSession3::CreateUpdateServiceManager
 author: windows-sdk-content
 description: Returns a pointer to an IUpdateServiceManager2 interface for the session.
 old-location: wua\iupdatesession3_createupdateservicemanager.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 79d8f489-5375-48e2-a40d-d6f38f4843aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

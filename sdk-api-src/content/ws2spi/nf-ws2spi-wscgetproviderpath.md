@@ -4,7 +4,7 @@ title: WSCGetProviderPath function
 author: windows-sdk-content
 description: The WSCGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wscgetproviderpath_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: fe60c8c4-e2d0-48cc-9fdf-e58e408fb1b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

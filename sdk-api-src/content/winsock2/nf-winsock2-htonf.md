@@ -4,7 +4,7 @@ title: htonf function
 author: windows-sdk-content
 description: Converts a float from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonf.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
 ms.author: windowssdkdev
 ms.date: 12/5/2018

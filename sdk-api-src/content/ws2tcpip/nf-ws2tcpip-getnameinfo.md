@@ -4,7 +4,7 @@ title: getnameinfo function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution from an address to an ANSI host name and from a port number to the ANSI service name.
 old-location: winsock\getnameinfo_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.author: windowssdkdev
 ms.date: 12/5/2018

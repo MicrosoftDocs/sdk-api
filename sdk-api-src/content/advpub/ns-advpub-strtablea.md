@@ -4,7 +4,7 @@ title: STRTABLEA
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablea.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: BCDD9AE4-6ADF-4018-A9C0-7924DE30B954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

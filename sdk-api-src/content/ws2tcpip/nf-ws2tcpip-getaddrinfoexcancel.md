@@ -4,7 +4,7 @@ title: GetAddrInfoExCancel function
 author: windows-sdk-content
 description: Cancels an asynchronous operation by the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexcancel.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: A4DE552D-DEA7-44F5-865F-5B02C9BB4AB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

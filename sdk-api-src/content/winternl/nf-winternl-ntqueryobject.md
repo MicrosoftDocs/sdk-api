@@ -4,7 +4,7 @@ title: NtQueryObject function
 author: windows-sdk-content
 description: Retrieves various kinds of object information.
 old-location: winprog\ntqueryobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
 ms.author: windowssdkdev
 ms.date: 12/5/2018

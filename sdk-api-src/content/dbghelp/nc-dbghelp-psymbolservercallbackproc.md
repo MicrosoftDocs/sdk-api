@@ -4,7 +4,7 @@ title: PSYMBOLSERVERCALLBACKPROC
 author: windows-sdk-content
 description: An entry point to the symbol server DLL.
 old-location: winprog\symbolservercallback.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.author: windowssdkdev
 ms.date: 12/5/2018

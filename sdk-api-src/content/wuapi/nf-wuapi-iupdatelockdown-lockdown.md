@@ -4,7 +4,7 @@ title: IUpdateLockdown::LockDown
 author: windows-sdk-content
 description: Restricts access to the methods and properties of the object that implements this method.
 old-location: wua\iupdatelockdown_lockdown.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3d3be6f8-acdc-4cef-a0bc-6572a5b315d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

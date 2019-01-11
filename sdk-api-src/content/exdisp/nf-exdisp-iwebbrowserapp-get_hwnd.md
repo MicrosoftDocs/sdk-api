@@ -4,7 +4,7 @@ title: IWebBrowserApp::get_HWND
 author: windows-sdk-content
 description: Gets the handle of the Windows Internet Explorer main window.
 old-location: winprog\iwebbrowser2_hwnd.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 4A37C795-C8C7-4861-A03D-E56D9BD8FF5D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

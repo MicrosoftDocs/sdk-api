@@ -4,7 +4,7 @@ title: IUpdate::get_DeploymentAction
 author: windows-sdk-content
 description: Gets the action for which the update is deployed.
 old-location: wua\iupdate_deploymentaction.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 52bdde0e-6b00-4bc9-8ad6-8bae5b01b7f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

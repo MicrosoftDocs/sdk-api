@@ -4,7 +4,7 @@ title: IAudioDeviceEndpoint::GetRTCaps
 author: windows-sdk-content
 description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.
 old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ba8aa8c2-8d62-477a-b5c0-338c989c57a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: getservbyname function
 author: windows-sdk-content
 description: The getservbyname function retrieves service information corresponding to a service name and protocol.
 old-location: winsock\getservbyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 730fa372-f620-4d21-99b9-3e7b79932792
 ms.author: windowssdkdev
 ms.date: 12/5/2018

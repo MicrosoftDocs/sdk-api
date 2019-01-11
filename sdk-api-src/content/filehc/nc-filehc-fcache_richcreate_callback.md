@@ -4,7 +4,7 @@ title: FCACHE_RICHCREATE_CALLBACK
 author: windows-sdk-content
 description: A callback function that is used to create items in the cache.
 old-location: winprog\fcache_richcreate_callback.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSAPROTOCOL_INFOW
 author: windows-sdk-content
 description: Used to store or retrieve complete information for a given protocol.
 old-location: winsock\wsaprotocol_infow_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: be5f3e81-1442-43c7-9e4e-9eb2b2a05132
 ms.author: windowssdkdev
 ms.date: 12/5/2018

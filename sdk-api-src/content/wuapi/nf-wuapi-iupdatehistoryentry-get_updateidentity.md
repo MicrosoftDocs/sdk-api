@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_UpdateIdentity
 author: windows-sdk-content
 description: Gets the IUpdateIdentity interface that contains the identity of the update.
 old-location: wua\iupdatehistoryentry_updateidentity.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 428206f9-4812-4a9a-8b8f-8a22db401c19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

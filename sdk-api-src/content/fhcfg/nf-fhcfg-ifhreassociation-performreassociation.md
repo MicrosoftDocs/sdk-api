@@ -4,7 +4,7 @@ title: IFhReassociation::PerformReassociation
 author: windows-sdk-content
 description: This method re-establishes relationship between the current user and the configuration selected previously via the IFhReassociation::SelectConfiguration method and prepares the target device for accepting backup data from the current computer.
 old-location: winprog\ifhreassociation_performreassociation.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

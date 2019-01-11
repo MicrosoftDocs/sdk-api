@@ -4,7 +4,7 @@ title: NSPV2_ROUTINE
 author: windows-sdk-content
 description: Contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.
 old-location: winsock\nspv2_routine.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

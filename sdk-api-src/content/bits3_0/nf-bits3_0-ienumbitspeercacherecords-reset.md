@@ -4,7 +4,7 @@ title: IEnumBitsPeerCacheRecords::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeercacherecords_reset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

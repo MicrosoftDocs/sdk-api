@@ -4,7 +4,7 @@ title: WSCSetProviderInfo32 function
 author: windows-sdk-content
 description: Sets the data value for specified information class for a layered service provider (LSP).
 old-location: winsock\wscsetproviderinfo32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: adb2737f-5327-4306-bd57-f165f339f911
 ms.author: windowssdkdev
 ms.date: 12/5/2018

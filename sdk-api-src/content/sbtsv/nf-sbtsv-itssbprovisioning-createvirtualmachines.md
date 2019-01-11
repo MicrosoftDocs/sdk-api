@@ -4,7 +4,7 @@ title: ITsSbProvisioning::CreateVirtualMachines
 author: windows-sdk-content
 description: Creates a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_createvirtualmachines.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 752da6d8-d036-4a39-aed5-c1fd7a11474e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

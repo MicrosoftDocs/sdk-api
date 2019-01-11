@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyJobs1
 author: windows-sdk-content
 description: Use the IEnumBackgroundCopyJobs1 interface to enumerate the list of jobs in a group. To get an IEnumBackgroundCopyJobs1 interface pointer, call the IBackgroundCopyGroup::EnumJobs method.
 old-location: bits\ienumbackgroundcopyjobs1.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 93feac90-8eb8-49d8-9841-d78a2645fbcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

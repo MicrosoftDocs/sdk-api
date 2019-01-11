@@ -4,7 +4,7 @@ title: IWRdsProtocolShadowConnection::Stop
 author: windows-sdk-content
 description: Notifies the protocol that shadowing has stopped.
 old-location: termserv\iwrdsprotocolshadowconnection_stop.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b6abe698-a390-485a-9a31-823ff25351c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

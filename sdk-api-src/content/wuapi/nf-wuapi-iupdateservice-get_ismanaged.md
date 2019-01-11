@@ -4,7 +4,7 @@ title: IUpdateService::get_IsManaged
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is a managed service.
 old-location: wua\iupdateservice_ismanaged.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1a473cb3-7209-4056-91bc-bfa416981ae5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSCProductList
 author: windows-sdk-content
 description: Provides methods to collect product information for the selected type of providers installed on the computer.
 old-location: winprog\iwscproductlist.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

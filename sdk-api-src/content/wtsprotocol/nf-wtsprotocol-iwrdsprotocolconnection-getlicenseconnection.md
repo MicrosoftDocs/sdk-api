@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetLicenseConnection
 author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLicenseConnection object that is used to begin the client licensing process.
 old-location: termserv\iwrdsprotocolconnection_getlicenseconnection.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6c75f80a-0d47-489d-b684-f718326e2b0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

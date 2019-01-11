@@ -4,7 +4,7 @@ title: RIO_BUF
 author: windows-sdk-content
 description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_buf.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

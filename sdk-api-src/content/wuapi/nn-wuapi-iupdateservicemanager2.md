@@ -4,7 +4,7 @@ title: IUpdateServiceManager2
 author: windows-sdk-content
 description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
 old-location: wua\iupdateservicemanager2.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 26b75edc-eb43-4ee0-8040-da8b3252cf21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

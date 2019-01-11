@@ -4,7 +4,7 @@ title: gethostname function
 author: windows-sdk-content
 description: The gethostname function retrieves the standard host name for the local computer.
 old-location: winsock\gethostname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8fa40b60-0e93-493b-aee1-cea6cf595707
 ms.author: windowssdkdev
 ms.date: 12/5/2018

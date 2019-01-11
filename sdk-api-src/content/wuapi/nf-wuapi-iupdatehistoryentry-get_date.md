@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_Date
 author: windows-sdk-content
 description: Gets the date and the time an update was applied.
 old-location: wua\iupdatehistoryentry_date.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 9ae4d1ae-5d6f-42a9-88ef-c1a0cdef5e5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

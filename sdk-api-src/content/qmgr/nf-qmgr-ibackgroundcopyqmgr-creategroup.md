@@ -4,7 +4,7 @@ title: IBackgroundCopyQMgr::CreateGroup
 author: windows-sdk-content
 description: Use the CreateGroup method to create a new group and add it to the download queue.
 old-location: bits\ibackgroundcopyqmgr_creategroup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

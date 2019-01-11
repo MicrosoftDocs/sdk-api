@@ -4,7 +4,7 @@ title: DdSetGammaRamp function
 author: windows-sdk-content
 description: The DdSetGammaRamp function sets the gamma ramp for the device.
 old-location: winprog\_dxgkernel_ddsetgammaramp.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddsetgammaramp.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntryCollection::get_Item
 author: windows-sdk-content
 description: Gets an IWindowsDriverUpdateEntry interface in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4d91a59d-895b-41a5-b631-e954fa60b80c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

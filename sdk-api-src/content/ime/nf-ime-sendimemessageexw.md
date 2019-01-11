@@ -4,7 +4,7 @@ title: SendIMEMessageExW function
 author: windows-sdk-content
 description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 old-location: winprog\_win32_sendimemessageex.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

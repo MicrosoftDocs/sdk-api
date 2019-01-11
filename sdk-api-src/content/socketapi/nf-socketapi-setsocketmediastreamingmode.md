@@ -4,7 +4,7 @@ title: SetSocketMediaStreamingMode function
 author: windows-sdk-content
 description: Indicates whether the network is to be used for transferring streaming media that requires quality of service.
 old-location: winsock\setsocketmediastreamingmode.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5D1C18FC-2F25-44C0-AD3C-F1E7744C4963
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NtCreateFile function
 author: windows-sdk-content
 description: Creates a new file or directory, or opens an existing file, device, directory, or volume.
 old-location: winprog\ntcreatefile.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 82965665-8531-4cca-bf37-6044e154d43b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

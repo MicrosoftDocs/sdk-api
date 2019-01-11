@@ -4,7 +4,7 @@ title: IWebProxy::PromptForCredentialsFromHwnd
 author: windows-sdk-content
 description: Prompts the user for a password to use for proxy authentication using the hWnd property of the parent window.
 old-location: wua\iwebproxy_promptforcredentialsfromhwnd.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 36ee1771-cfa6-4fa0-924b-69dbd57b1ad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdate::get_ReleaseNotes
 author: windows-sdk-content
 description: Gets the localized release notes for the update.
 old-location: wua\iupdate_releasenotes.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b27dc2f6-c985-437f-b960-f2470c30ef0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ADDRINFOW
 author: windows-sdk-content
 description: Used by the GetAddrInfoW function to hold host address information.
 old-location: winsock\addrinfow.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a4896eac-68ae-4a08-8647-36be65fe4478
 ms.author: windowssdkdev
 ms.date: 12/5/2018

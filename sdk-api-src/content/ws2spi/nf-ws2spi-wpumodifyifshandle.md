@@ -4,7 +4,7 @@ title: WPUModifyIFSHandle function
 author: windows-sdk-content
 description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.
 old-location: winsock\wpumodifyifshandle_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721
 ms.author: windowssdkdev
 ms.date: 12/5/2018

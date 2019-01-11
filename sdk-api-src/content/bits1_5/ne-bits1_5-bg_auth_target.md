@@ -4,7 +4,7 @@ title: BG_AUTH_TARGET
 author: windows-sdk-content
 description: The BG_AUTH_TARGET enumeration defines the constant values that specify whether the credentials are used for proxy or server user authentication requests.
 old-location: bits\bg_auth_target.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: efe7aa0a-48fc-4192-b81b-40d3a9b0fb22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

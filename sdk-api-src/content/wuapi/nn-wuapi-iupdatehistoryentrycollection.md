@@ -4,7 +4,7 @@ title: IUpdateHistoryEntryCollection
 author: windows-sdk-content
 description: Represents an ordered read-only list of IUpdateHistoryEntry interfaces.
 old-location: wua\iupdatehistoryentrycollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
 ms.author: windowssdkdev
 ms.date: 12/5/2018

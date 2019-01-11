@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::GetCustomHeaders
 author: windows-sdk-content
 description: Retrieves the custom headers set by an earlier call to IBackgroundCopyJobHttpOptions::SetCustomHeaders (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
 old-location: bits\ibackgroundcopyjobhttpoptions_getcustomheaders.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8be6e9ec-7c74-44ff-94d7-a1a1d7fb18e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

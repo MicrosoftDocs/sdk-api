@@ -4,7 +4,7 @@ title: DdGetDC function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdGetDC function and returns a Windows Graphics Device Interface (GDI)  device context (DC) that represents the Microsoft DirectDraw surface indicated. GdiEntry7 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddgetdc.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

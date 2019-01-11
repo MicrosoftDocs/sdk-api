@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::SetSecurityFlags
 author: windows-sdk-content
 description: Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setsecurityflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: afac84cb-28ab-4c80-ab39-eefe450ae3e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

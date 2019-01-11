@@ -4,7 +4,7 @@ title: ITSGAuthenticationEngine::AuthenticateUser
 author: windows-sdk-content
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

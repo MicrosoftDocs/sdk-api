@@ -4,7 +4,7 @@ title: IUpdateCollection::get_Item
 author: windows-sdk-content
 description: Gets or sets an IUpdate interface in a collection.
 old-location: wua\iupdatecollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d36af17d-b4ac-48ef-8ca4-cc44d7f9a4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

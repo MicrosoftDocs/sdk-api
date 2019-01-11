@@ -4,7 +4,7 @@ title: WSAVERSION
 author: windows-sdk-content
 description: The WSAVERSION structure provides version comparison in Windows Sockets.
 old-location: winsock\wsaversion_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 27af3b20-9460-466d-bc58-5e31e08bb6c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

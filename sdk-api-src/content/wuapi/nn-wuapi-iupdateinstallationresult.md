@@ -4,7 +4,7 @@ title: IUpdateInstallationResult
 author: windows-sdk-content
 description: Contains the properties and the methods that are available to the status of an installation or uninstallation of an update.
 old-location: wua\iupdateinstallationresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6c27d691-d9b1-41ce-b3e8-dd2574c19b8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

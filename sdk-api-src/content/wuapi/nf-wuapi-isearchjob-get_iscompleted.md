@@ -4,7 +4,7 @@ title: ISearchJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the call to the IUpdateSearch.BeginSearch method is completely processed.
 old-location: wua\isearchjob_iscompleted.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 32bb990d-89ce-4aca-8a9f-28cbd991e506
 ms.author: windowssdkdev
 ms.date: 12/5/2018

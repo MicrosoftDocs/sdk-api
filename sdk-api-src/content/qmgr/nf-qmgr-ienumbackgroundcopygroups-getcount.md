@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyGroups::GetCount
 author: windows-sdk-content
 description: Use the GetCount method to retrieve a count of the number of groups in the enumeration.
 old-location: bits\ienumbackgroundcopygroups_getcount.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 70bbc495-f133-4703-a51a-1a1a180720f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

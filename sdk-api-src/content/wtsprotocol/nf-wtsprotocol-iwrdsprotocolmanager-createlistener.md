@@ -4,7 +4,7 @@ title: IWRdsProtocolManager::CreateListener
 author: windows-sdk-content
 description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.
 old-location: termserv\iwrdsprotocolmanager_createlistener.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: df91dc10-77af-4b5a-8033-1b1ff614bb17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

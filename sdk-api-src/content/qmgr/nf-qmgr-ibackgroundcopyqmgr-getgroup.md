@@ -4,7 +4,7 @@ title: IBackgroundCopyQMgr::GetGroup
 author: windows-sdk-content
 description: Use the GetGroup method to retrieve a group from the download queue.
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

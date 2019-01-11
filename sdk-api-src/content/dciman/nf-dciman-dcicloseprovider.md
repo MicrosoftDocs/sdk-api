@@ -4,7 +4,7 @@ title: DCICloseProvider function
 author: windows-sdk-content
 description: Closes a device context of a display.
 old-location: winprog\_dciman_dcicloseprovider.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcicloseprovider.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

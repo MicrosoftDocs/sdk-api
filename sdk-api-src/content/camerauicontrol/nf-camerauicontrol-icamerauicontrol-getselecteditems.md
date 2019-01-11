@@ -4,7 +4,7 @@ title: ICameraUIControl::GetSelectedItems
 author: windows-sdk-content
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

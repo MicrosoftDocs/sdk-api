@@ -4,7 +4,7 @@ title: GROUPPROP
 author: windows-sdk-content
 description: The GROUPPROP enumeration defines the constant values for retrieving and setting group property values.
 old-location: bits\groupprop.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8bd5d1df-237a-4c42-afe1-6540ab1ad8c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

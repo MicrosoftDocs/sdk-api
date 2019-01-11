@@ -4,7 +4,7 @@ title: IUpdateCollection::Insert
 author: windows-sdk-content
 description: Inserts an item into the collection at the specified position.
 old-location: wua\iupdatecollection_insert.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

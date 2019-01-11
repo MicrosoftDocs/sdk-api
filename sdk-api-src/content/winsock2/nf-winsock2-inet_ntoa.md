@@ -4,7 +4,7 @@ title: inet_ntoa function
 author: windows-sdk-content
 description: The inet_ntoa function converts an (Ipv4) Internet network address into an ASCII string in Internet standard dotted-decimal format.
 old-location: winsock\inet_ntoa_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 01cd32e7-a01d-40e8-afb5-69223d643a0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -57,7 +57,14 @@ The
 
 
 
-### -param in [in]
+### -param in
+
+TBD
+
+
+
+
+#### - a [in]
 
 An 
 <a href="https://msdn.microsoft.com/fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c">in_addr</a> structure that represents an Internet host address.

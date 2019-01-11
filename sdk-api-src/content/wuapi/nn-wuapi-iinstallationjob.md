@@ -4,7 +4,7 @@ title: IInstallationJob
 author: windows-sdk-content
 description: Contains properties and methods that are available to an installation or uninstallation operation.
 old-location: wua\iinstallationjob.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1a83a44e-cd3b-43b0-8741-a73fe9954063
 ms.author: windowssdkdev
 ms.date: 12/5/2018

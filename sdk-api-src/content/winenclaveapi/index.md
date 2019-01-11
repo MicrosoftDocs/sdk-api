@@ -2,7 +2,7 @@
 UID: NA:winenclaveapi
 ms.assetid: 3d0a5616-bf27-3ff0-b4b6-017537728b7c
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

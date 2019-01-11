@@ -4,7 +4,7 @@ title: UnregisterServerForPMP function
 author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 old-location: winprog\unregisterserverforpmp.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
 ms.author: windowssdkdev
 ms.date: 12/5/2018

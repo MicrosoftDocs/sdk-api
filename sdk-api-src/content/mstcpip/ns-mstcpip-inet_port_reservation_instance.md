@@ -4,7 +4,7 @@ title: INET_PORT_RESERVATION_INSTANCE
 author: windows-sdk-content
 description: Contains a port reservation and a token for a block of TCP or UDP ports.
 old-location: winsock\inet_port_reservation_instance.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: F2332474-453F-40A3-8A0B-03A97300B724
 ms.author: windowssdkdev
 ms.date: 12/5/2018

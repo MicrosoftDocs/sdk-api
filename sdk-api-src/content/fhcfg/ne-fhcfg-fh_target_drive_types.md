@@ -4,7 +4,7 @@ title: FH_TARGET_DRIVE_TYPES
 author: windows-sdk-content
 description: Specifies the type of a File History backup target.
 old-location: winprog\fh_target_drive_types.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 4D3F3B57-BD6E-4334-8DF6-ECD317A051EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

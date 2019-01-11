@@ -4,7 +4,7 @@ title: IWebProxy::get_AutoDetect
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether IWebProxy automatically detects proxy settings.
 old-location: wua\iwebproxy_autodetect.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: cd222133-e44b-453a-9fbf-72f609cb2d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

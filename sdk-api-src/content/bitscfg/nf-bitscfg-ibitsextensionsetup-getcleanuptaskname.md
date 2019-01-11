@@ -4,7 +4,7 @@ title: IBITSExtensionSetup::GetCleanupTaskName
 author: windows-sdk-content
 description: Use the GetCleanupTaskName method to retrieve the name of the cleanup task associated with the virtual directory.
 old-location: bits\ibitsextensionsetup_getcleanuptaskname.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: edca833f-16ec-40c7-a3d8-f893a635b8e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtlFreeAnsiString function
 author: windows-sdk-content
 description: Frees the string buffer allocated by RtlUnicodeStringToAnsiString.
 old-location: winprog\rtlfreeansistring.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeansistring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

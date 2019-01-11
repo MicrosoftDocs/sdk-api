@@ -4,7 +4,7 @@ title: IUpdate::get_DeltaCompressedContentAvailable
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether delta-compressed content is available on a server for the update.
 old-location: wua\iupdate_deltacompressedcontentavailable.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b713a349-45fe-492a-a966-17112edf00ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

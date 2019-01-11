@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::ClearWorkspaceCredential
 author: windows-sdk-content
 description: Deletes the user credentials associated with the specified connection ID.
 old-location: termserv\iworkspacescriptable_clearworkspacecredential.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f21df395-3ff7-43c0-b1cd-010ae2c1d16b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

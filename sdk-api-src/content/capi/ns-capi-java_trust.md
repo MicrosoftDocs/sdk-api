@@ -4,7 +4,7 @@ title: JAVA_TRUST
 author: windows-sdk-content
 description: Contains trust information.
 old-location: winprog\java_trust.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

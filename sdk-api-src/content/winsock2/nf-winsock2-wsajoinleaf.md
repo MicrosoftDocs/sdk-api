@@ -4,7 +4,7 @@ title: WSAJoinLeaf function
 author: windows-sdk-content
 description: The WSAJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the specified FLOWSPEC structures.
 old-location: winsock\wsajoinleaf_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ef9efa03-feed-4f0d-b874-c646cce745c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::get_JobID
 author: windows-sdk-content
 description: Use the get_JobID method to retrieve the job's identifier.
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBitsPeer
 author: windows-sdk-content
 description: Use IBitsPeer to get information about a peer in the neighborhood.
 old-location: bits\ibitspeer.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 617b88d4-6c3e-4c33-9bfa-6d9f6f629866
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: UpdateServiceOption
 author: windows-sdk-content
 description: Defines the options that affect how the service registration for a scan package service is removed.
 old-location: wua\updateserviceoption.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateDownloader::EndDownload
 author: windows-sdk-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

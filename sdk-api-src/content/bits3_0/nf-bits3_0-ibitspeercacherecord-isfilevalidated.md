@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord::IsFileValidated
 author: windows-sdk-content
 description: Determines whether the file has been validated.
 old-location: bits\ibitspeercacherecord_isfilevalidated.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: f492f009-bef7-412e-8626-ae84cd5ce03f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

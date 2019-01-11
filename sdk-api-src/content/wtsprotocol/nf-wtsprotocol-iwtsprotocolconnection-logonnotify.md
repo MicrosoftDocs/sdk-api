@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::LogonNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::LogonNotify is no longer available. Instead, use IWRdsProtocolConnection::LogonNotify.
 old-location: termserv\iwtsprotocolconnection_logonnotify.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

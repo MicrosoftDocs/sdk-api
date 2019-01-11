@@ -4,7 +4,7 @@ title: WSALookupServiceNextW function
 author: windows-sdk-content
 description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\wsalookupservicenext_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ab4f1830-b38d-4224-a6a9-6d4512245ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FDICreate function
 author: windows-sdk-content
 description: The FDICreate function creates an FDI context.
 old-location: winprog\fdicreate.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.author: windowssdkdev
 ms.date: 12/5/2018

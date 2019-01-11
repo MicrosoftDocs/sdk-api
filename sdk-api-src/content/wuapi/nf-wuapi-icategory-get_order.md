@@ -4,7 +4,7 @@ title: ICategory::get_Order
 author: windows-sdk-content
 description: Gets the recommended display order of this category among its sibling categories.
 old-location: wua\icategory_order.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c4b56946-89e2-48ea-8bec-318d12c23a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

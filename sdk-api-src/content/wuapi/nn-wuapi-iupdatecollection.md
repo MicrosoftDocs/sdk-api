@@ -4,7 +4,7 @@ title: IUpdateCollection
 author: windows-sdk-content
 description: Represents an ordered list of updates.
 old-location: wua\iupdatecollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e56a09e9-6a5f-4579-9a5c-987519fccaad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

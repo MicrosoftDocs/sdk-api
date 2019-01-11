@@ -4,7 +4,7 @@ title: ICameraUIControlEventCallback::OnSuspendComplete
 author: windows-sdk-content
 description: Occurs when the camera UI control has completed being suspended.
 old-location: winprog\icamerauicontroleventcallback_onsuspendcomplete.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 4ec41f09-8278-48ad-838f-9f796617a683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyFile3
 author: windows-sdk-content
 description: Use this interface to retrieve the name of the temporary file that contains the downloaded content and to validate the file so that peers can request its content.
 old-location: bits\ibackgroundcopyfile3.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 5304f93a-993a-4327-9fdb-fb2ef1dafecb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

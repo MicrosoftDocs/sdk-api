@@ -4,7 +4,7 @@ title: IUpdateHistoryEntryCollection::get_Item
 author: windows-sdk-content
 description: Gets an IUpdateHistoryEntry interface in the collection.
 old-location: wua\iupdatehistoryentrycollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 38b371bf-0dc3-4b16-8c7c-8a9e2a19c29b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

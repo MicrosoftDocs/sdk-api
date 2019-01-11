@@ -4,7 +4,7 @@ title: BITS_JOB_TRANSFER_POLICY
 author: windows-sdk-content
 description: Enumeration that defines ID values corresponding to BITS properties.
 old-location: bits\bits_job_transfer_policy.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6B321E80-333A-49F3-B36F-18652F2C92FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

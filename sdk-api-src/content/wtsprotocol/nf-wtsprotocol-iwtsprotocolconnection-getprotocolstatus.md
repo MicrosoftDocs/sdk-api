@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetProtocolStatus
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolStatus is no longer available. Instead, use IWRdsProtocolConnection::GetProtocolStatus.
 old-location: termserv\iwtsprotocolconnection_getprotocolstatus.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d224877a-649a-4ac2-a5e7-831592e6a0d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

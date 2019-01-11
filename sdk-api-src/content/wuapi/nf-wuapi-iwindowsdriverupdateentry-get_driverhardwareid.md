@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntry::get_DriverHardwareID
 author: windows-sdk-content
 description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.
 old-location: wua\iwindowsdriverupdateentry_driverhardwareid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ff8e2336-634f-4217-b08a-fb3131ec8986
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateServiceManager::get_Services
 author: windows-sdk-content
 description: Gets an IUpdateServiceCollection of the services that are registered with WUA.
 old-location: wua\iupdateservicemanager_services.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 9810e56b-a884-454b-adc8-ad839269dae3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

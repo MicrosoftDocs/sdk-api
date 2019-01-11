@@ -4,7 +4,7 @@ title: WPUResetEvent function
 author: windows-sdk-content
 description: The WPUResetEvent function resets the state of the specified event object to nonsignaled. This call is safe for use within interrupt context.
 old-location: winsock\wpuresetevent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

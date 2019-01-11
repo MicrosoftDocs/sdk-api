@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord::GetFileModificationTime
 author: windows-sdk-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback2::FileTransferred
 author: windows-sdk-content
 description: BITS calls your implementation of the FileTransferred method when BITS successfully finishes transferring a file.
 old-location: bits\ibackgroundcopycallback2_filetransferred.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c7e22911-9c14-48ef-8283-f0787b089432
 ms.author: windowssdkdev
 ms.date: 12/5/2018

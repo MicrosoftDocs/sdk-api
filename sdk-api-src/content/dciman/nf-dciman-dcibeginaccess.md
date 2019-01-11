@@ -4,7 +4,7 @@ title: DCIBeginAccess function
 author: windows-sdk-content
 description: Obtains an access pointer to display frame buffer based on the given rectangle.
 old-location: winprog\_dciman_dcibeginaccess.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcibeginaccess.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

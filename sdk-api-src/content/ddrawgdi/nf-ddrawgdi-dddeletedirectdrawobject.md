@@ -4,7 +4,7 @@ title: DdDeleteDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdDeleteDirectDrawObject function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using DdCreateDirectDrawObject. GdiEntry3 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_dddeletedirectdrawobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

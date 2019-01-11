@@ -4,7 +4,7 @@ title: WSPDATA
 author: windows-sdk-content
 description: The WSPDATA structure contains service provider information.
 old-location: winsock\wspdata_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 0592aa8f-5fac-4bbd-9fb8-e61d374ad0a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

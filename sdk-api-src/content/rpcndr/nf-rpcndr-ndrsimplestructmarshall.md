@@ -4,7 +4,7 @@ title: NdrSimpleStructMarshall function
 author: windows-sdk-content
 description: The NdrSimpleStructMarshall function marshals the simple structure into a network buffer.
 old-location: winprog\ndrsimplestructmarshall.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 9e921653-0669-4fe9-8a54-509ed39ad204
 ms.author: windowssdkdev
 ms.date: 12/5/2018

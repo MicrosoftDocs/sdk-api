@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyFiles::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopyfiles_next.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: ac62533a-8949-41b9-a3e6-f9030884a9ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

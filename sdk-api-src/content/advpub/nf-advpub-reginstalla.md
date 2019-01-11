@@ -4,7 +4,7 @@ title: RegInstallA function
 author: windows-sdk-content
 description: Updates the string registry values in the provided table.
 old-location: winprog\reginstalla.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 53BE8B69-2028-42EB-9A45-6CE776A7B9A6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

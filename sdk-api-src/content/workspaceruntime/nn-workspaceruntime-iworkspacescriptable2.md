@@ -4,7 +4,7 @@ title: IWorkspaceScriptable2
 author: windows-sdk-content
 description: Exposes methods that manage RemoteApp and Desktop Connection credentials and connections.
 old-location: termserv\iworkspacescriptable2.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 66a6c283-bef9-4cb4-9035-d4a2d2cb7b4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

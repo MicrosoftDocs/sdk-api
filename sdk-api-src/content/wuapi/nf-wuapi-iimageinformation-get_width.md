@@ -4,7 +4,7 @@ title: IImageInformation::get_Width
 author: windows-sdk-content
 description: Gets the width of the image, in pixels.
 old-location: wua\iimageinformation_width.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 90379e21-f67b-4c59-b3bf-da6aeefe5b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

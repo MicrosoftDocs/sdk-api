@@ -4,7 +4,7 @@ title: ITSGAuthenticationEngine::CancelAuthentication
 author: windows-sdk-content
 description: Cancels an existing authentication request.
 old-location: termserv\itsgauthenticationengine_cancelauthentication.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 07da9ffa-b137-4e99-a1d1-14b7c14438a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

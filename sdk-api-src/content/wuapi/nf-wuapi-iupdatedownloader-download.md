@@ -4,7 +4,7 @@ title: IUpdateDownloader::Download
 author: windows-sdk-content
 description: Starts a synchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_download.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

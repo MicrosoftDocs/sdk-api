@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate3::get_BrowseOnly
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
 old-location: wua\iwindowsdriverupdate3_browseonly.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ca66bb76-af82-4bcd-b8e1-8ca3662c19bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

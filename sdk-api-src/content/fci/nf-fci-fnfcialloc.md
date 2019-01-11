@@ -4,7 +4,7 @@ title: FNFCIALLOC macro
 author: windows-sdk-content
 description: The FNFCIALLOC provides the declaration for the application-defined callback function to allocate memory within an FCI context.
 old-location: winprog\fnfcialloc.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

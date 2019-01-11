@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::GetStatus
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the job.
 old-location: bits\ibackgroundcopyjob1_getstatus.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6a4530fd-6b8e-4f31-a16e-5ed40adb4957
 ms.author: windowssdkdev
 ms.date: 12/5/2018

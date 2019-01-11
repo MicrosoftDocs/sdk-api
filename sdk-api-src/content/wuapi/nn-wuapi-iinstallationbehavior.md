@@ -4,7 +4,7 @@ title: IInstallationBehavior
 author: windows-sdk-content
 description: Represents the installation and uninstallation options of an update.
 old-location: wua\iinstallationbehavior.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

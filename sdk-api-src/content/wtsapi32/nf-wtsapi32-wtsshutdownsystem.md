@@ -4,7 +4,7 @@ title: WTSShutdownSystem function
 author: windows-sdk-content
 description: Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsshutdownsystem.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

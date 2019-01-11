@@ -4,7 +4,7 @@ title: ISearchJob
 author: windows-sdk-content
 description: Contains properties and methods that are available to a search operation.
 old-location: wua\isearchjob.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771
 ms.author: windowssdkdev
 ms.date: 12/5/2018

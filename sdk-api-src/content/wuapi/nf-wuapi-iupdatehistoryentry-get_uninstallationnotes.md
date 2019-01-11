@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_UninstallationNotes
 author: windows-sdk-content
 description: Gets the uninstallation notes of an update.
 old-location: wua\iupdatehistoryentry_uninstallationnotes.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 735393fc-da9e-46a9-abf2-0e2e31c24fb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

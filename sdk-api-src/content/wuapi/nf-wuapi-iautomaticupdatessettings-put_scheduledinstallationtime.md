@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings::put_ScheduledInstallationTime
 author: windows-sdk-content
 description: Gets and sets the time at which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationtime.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1b1adefc-785e-46ad-8984-d2beb1c2202c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

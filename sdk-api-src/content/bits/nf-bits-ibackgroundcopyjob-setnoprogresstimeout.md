@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetNoProgressTimeout
 author: windows-sdk-content
 description: Sets the length of time that BITS tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_setnoprogresstimeout.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSPPROC_TABLE
 author: windows-sdk-content
 description: Contains a table of pointers to service provider functions.
 old-location: winsock\wspproc_table.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f6fbf6da-58c5-4cef-8897-789a1e02aabb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

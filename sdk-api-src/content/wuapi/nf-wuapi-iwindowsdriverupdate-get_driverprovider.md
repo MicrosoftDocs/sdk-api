@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate::get_DriverProvider
 author: windows-sdk-content
 description: Gets the language-invariant name of the provider of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverprovider.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 919b4696-773c-4866-b051-7438b5c399a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

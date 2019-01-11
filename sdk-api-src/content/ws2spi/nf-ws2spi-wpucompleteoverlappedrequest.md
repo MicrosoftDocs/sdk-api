@@ -4,7 +4,7 @@ title: WPUCompleteOverlappedRequest function
 author: windows-sdk-content
 description: The WPUCompleteOverlappedRequest function performs overlapped I/O completion notification for overlapped I/O operations.
 old-location: winsock\wpucompleteoverlappedrequest_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

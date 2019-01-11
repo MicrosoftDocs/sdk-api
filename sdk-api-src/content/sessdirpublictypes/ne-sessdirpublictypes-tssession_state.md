@@ -4,7 +4,7 @@ title: TSSESSION_STATE
 author: windows-sdk-content
 description: Indicates the state of a session.
 old-location: termserv\tssession_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2780e704-72f1-44a9-ad54-ab3d2b19befe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

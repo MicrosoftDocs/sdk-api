@@ -4,7 +4,7 @@ title: GetTypeByNameA function
 author: windows-sdk-content
 description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
 old-location: winsock\gettypebyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

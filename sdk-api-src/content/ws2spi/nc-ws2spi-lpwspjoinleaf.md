@@ -4,7 +4,7 @@ title: LPWSPJOINLEAF
 author: windows-sdk-content
 description: The WSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
 old-location: winsock\wspjoinleaf_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

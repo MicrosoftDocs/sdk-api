@@ -4,7 +4,7 @@ title: IWTSProtocolConnectionCallback::DisplayIOCtl
 author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

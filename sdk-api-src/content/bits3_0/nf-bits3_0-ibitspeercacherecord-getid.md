@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord::GetId
 author: windows-sdk-content
 description: Gets the identifier that uniquely identifies the record in the cache.
 old-location: bits\ibitspeercacherecord_getid.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a1894ab3-0b3f-492b-8ed7-51f3b4ee1eaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

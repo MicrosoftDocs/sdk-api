@@ -4,7 +4,7 @@ title: IUpdateHistoryEntryCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatehistoryentrycollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f6bdf1f6-9754-45d7-a45b-3b1e8c9d400a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

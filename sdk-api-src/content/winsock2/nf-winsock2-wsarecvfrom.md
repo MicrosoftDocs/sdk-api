@@ -4,7 +4,7 @@ title: WSARecvFrom function
 author: windows-sdk-content
 description: Receives a datagram and stores the source address.
 old-location: winsock\wsarecvfrom_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8617dbb8-0e4e-4cd3-9597-5d20de6778f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

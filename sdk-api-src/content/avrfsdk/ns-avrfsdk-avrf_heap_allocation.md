@@ -4,7 +4,7 @@ title: AVRF_HEAP_ALLOCATION
 author: windows-sdk-content
 description: Stores metadata information about heap allocation.
 old-location: winprog\avrf_heap_allocation.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSC_SECURITY_PRODUCT_STATE
 author: windows-sdk-content
 description: Defines the current state of the security product that is made available to Windows Security Center.
 old-location: winprog\wsc_security_product_state.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2783795B-4A7A-4033-A9EE-9B4CEF2E61B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

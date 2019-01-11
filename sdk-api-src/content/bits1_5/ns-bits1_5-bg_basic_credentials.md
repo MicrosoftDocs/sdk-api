@@ -4,7 +4,7 @@ title: BG_BASIC_CREDENTIALS
 author: windows-sdk-content
 description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.
 old-location: bits\bg_basic_credentials.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

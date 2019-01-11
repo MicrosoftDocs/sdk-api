@@ -4,7 +4,7 @@ title: LPNSPV2STARTUP
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that a new client process is to begin using the provider.
 old-location: winsock\nspv2startup.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 93224e66-9c94-4b5c-af11-ae988b74bc03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

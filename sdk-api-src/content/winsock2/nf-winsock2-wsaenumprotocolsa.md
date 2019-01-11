@@ -4,7 +4,7 @@ title: WSAEnumProtocolsA function
 author: windows-sdk-content
 description: The WSAEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wsaenumprotocols_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

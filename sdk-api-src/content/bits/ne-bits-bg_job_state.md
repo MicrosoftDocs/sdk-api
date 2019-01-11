@@ -4,7 +4,7 @@ title: BG_JOB_STATE
 author: windows-sdk-content
 description: The BG_JOB_STATE enumeration defines constant values for the different states of a job.
 old-location: bits\bg_job_state.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a7857cf1-05b7-42df-b79e-50a2f6a406dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

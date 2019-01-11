@@ -4,7 +4,7 @@ title: IWorkspace3
 author: windows-sdk-content
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds the ability to retrieve or set a claims token.
 old-location: termserv\iworkspace3.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

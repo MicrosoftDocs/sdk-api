@@ -4,7 +4,7 @@ title: IUpdateCollection::get_ReadOnly
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update collection is read-only.
 old-location: wua\iupdatecollection_readonly.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7443f842-8de5-4309-95bf-5ea427b25b4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

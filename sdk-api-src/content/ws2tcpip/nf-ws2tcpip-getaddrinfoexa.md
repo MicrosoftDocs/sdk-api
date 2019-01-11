@@ -4,7 +4,7 @@ title: GetAddrInfoExA function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

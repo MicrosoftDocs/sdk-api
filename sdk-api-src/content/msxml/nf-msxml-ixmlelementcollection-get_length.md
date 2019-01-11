@@ -4,7 +4,7 @@ title: IXMLElementCollection::get_length
 author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winprog\ixmlelementcollection_length.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: eb9236ad-378e-499e-8ab5-ed5bd327ef95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

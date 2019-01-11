@@ -4,7 +4,7 @@ title: IUpdate2::get_IsPresent
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is present on a computer.
 old-location: wua\iupdate2_ispresent.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: de378d24-aba9-44c2-9c49-fbd1b2fc2446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

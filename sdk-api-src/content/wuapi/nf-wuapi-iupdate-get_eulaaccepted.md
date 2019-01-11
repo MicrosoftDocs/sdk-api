@@ -4,7 +4,7 @@ title: IUpdate::get_EulaAccepted
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the Microsoft Software License Terms that are associated with the update are accepted for the computer.
 old-location: wua\iupdate_eulaaccepted.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c62967c1-d72a-4ae0-ad02-94e948985b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

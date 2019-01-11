@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::EnumerateFarms
 author: windows-sdk-content
 description: Enumerates all the farms that have been added to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratefarms.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 54ed82b2-531c-468b-a4d3-ad299ae1f2d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

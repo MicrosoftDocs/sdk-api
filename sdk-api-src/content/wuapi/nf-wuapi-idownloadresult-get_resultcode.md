@@ -4,7 +4,7 @@ title: IDownloadResult::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCodeenumeration that specifies the result of the download.
 old-location: wua\idownloadresult_resultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
 ms.author: windowssdkdev
 ms.date: 12/5/2018

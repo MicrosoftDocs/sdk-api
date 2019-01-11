@@ -4,7 +4,7 @@ title: IP_MREQ_SOURCE
 author: windows-sdk-content
 description: The ip_mreq_source structure provides multicast group information for IPv4 addresses.
 old-location: winsock\ip_mreq_source.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 237bc55f-0b24-4615-85af-30ae6ad163fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

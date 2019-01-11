@@ -4,7 +4,7 @@ title: LPNSPSETSERVICE
 author: windows-sdk-content
 description: Registers or deregisters a service instance within a namespace.
 old-location: winsock\nspsetservice_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: df76ea75-c0bc-48b8-b1a7-0c510c5cc28d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWorkspaceClientExt::IssueDisconnect
 author: windows-sdk-content
 description: Disconnects the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_issuedisconnect.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 07c2546b-e9bf-46e6-a1de-6da31fa1579b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

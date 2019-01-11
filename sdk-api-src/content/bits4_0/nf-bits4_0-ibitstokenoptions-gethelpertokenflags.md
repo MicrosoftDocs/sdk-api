@@ -4,7 +4,7 @@ title: IBitsTokenOptions::GetHelperTokenFlags
 author: windows-sdk-content
 description: Returns the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

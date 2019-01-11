@@ -4,7 +4,7 @@ title: IUpdateServiceManager2::QueryServiceRegistration
 author: windows-sdk-content
 description: Returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_queryserviceregistration_methods.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d8fd077f-f4a9-4db0-8a47-14241bc574fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

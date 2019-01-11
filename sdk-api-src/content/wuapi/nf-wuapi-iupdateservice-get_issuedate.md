@@ -4,7 +4,7 @@ title: IUpdateService::get_IssueDate
 author: windows-sdk-content
 description: Gets the date on which the authorization cabinet file was issued.
 old-location: wua\iupdateservice_issuedate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: UpdateOperation
 author: windows-sdk-content
 description: Defines operations that can be attempted on an update.
 old-location: wua\updateoperation.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ICategory::get_Image
 author: windows-sdk-content
 description: Gets an interface that contains information about the image that is associated with the category.
 old-location: wua\icategory_image.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 41f0dd44-c919-4264-8f35-ea4e48fd5503
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateDownloadResult
 author: windows-sdk-content
 description: Contains the properties that indicate the status of a download operation for an update.
 old-location: wua\iupdatedownloadresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d2a800c9-c23a-4aab-a9c6-e408349818dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

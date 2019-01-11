@@ -4,7 +4,7 @@ title: WTS_USER_DATA
 author: windows-sdk-content
 description: Contains select client property values.
 old-location: termserv\wts_user_data.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: be2f7338-44a8-433f-b45d-620b9b7e93c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

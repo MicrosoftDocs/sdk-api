@@ -4,7 +4,7 @@ title: IUpdate::get_Identity
 author: windows-sdk-content
 description: Gets an interface that contains the unique identifier of the update.
 old-location: wua\iupdate_identity.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e34019e4-54f4-486d-b5e7-5e65f65d1941
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateSearcher::GetTotalHistoryCount
 author: windows-sdk-content
 description: Returns the number of update events on the computer.
 old-location: wua\iupdatesearchergettotalhistorycount.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 895f60c2-c106-4088-9a4f-7c1d159d8a9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

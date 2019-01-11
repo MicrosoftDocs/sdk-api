@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::QueryTarget
 author: windows-sdk-content
 description: Returns the target that has the specified target name and farm name.
 old-location: termserv\itssbresourcepluginstore_querytarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ef78c055-edf6-4f0c-b47c-836ef85310bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

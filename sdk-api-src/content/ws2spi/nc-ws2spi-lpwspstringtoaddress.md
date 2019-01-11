@@ -4,7 +4,7 @@ title: LPWSPSTRINGTOADDRESS
 author: windows-sdk-content
 description: The WSPStringToAddress function converts a human-readable numeric string to a socket address structure (sockaddr) suitable to passing to Windows Sockets routines that take such a structure.
 old-location: winsock\wspstringtoaddress_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 65cf8f7e-7ef0-472c-82d8-e8f7df9976a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

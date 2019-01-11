@@ -4,7 +4,7 @@ title: IBackgroundCopyError::GetProtocol
 author: windows-sdk-content
 description: Retrieves the protocol used to transfer the file. The remote file name identifies the protocol to use to transfer the file.
 old-location: bits\ibackgroundcopyerror_getprotocol.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 94c1fcc8-7132-41db-9a1c-cbe105e3b0bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

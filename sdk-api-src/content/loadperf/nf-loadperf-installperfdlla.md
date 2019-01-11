@@ -4,7 +4,7 @@ title: InstallPerfDllA function
 author: windows-sdk-content
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

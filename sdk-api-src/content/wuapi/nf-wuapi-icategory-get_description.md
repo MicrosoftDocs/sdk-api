@@ -4,7 +4,7 @@ title: ICategory::get_Description
 author: windows-sdk-content
 description: Gets the description of the category.
 old-location: wua\icategory_description.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ef22db9f-2ac8-4f20-b898-774dd9b1ce8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

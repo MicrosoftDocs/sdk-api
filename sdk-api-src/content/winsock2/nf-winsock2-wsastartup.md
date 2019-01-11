@@ -4,7 +4,7 @@ title: WSAStartup function
 author: windows-sdk-content
 description: Initiates use of the Winsock DLL by a process.
 old-location: winsock\wsastartup_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
 ms.author: windowssdkdev
 ms.date: 12/5/2018

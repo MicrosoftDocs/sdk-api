@@ -4,7 +4,7 @@ title: WSASocketW function
 author: windows-sdk-content
 description: The WSASocket function creates a socket that is bound to a specific transport-service provider.
 old-location: winsock\wsasocket_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: dcf2e543-de54-43d9-9e45-4cb935da3548
 ms.author: windowssdkdev
 ms.date: 12/5/2018

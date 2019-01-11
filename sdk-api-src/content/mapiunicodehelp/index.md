@@ -2,7 +2,7 @@
 UID: NA:mapiunicodehelp
 ms.assetid: 934df035-3853-348e-9aea-890d961e71f7
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

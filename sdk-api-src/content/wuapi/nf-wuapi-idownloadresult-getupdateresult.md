@@ -4,7 +4,7 @@ title: IDownloadResult::GetUpdateResult
 author: windows-sdk-content
 description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
 old-location: wua\idownloadresult_getupdateresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
 ms.author: windowssdkdev
 ms.date: 12/5/2018

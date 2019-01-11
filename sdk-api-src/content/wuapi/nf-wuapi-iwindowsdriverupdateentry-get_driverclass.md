@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntry::get_DriverClass
 author: windows-sdk-content
 description: Retrieves the class of the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_driverclass.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: cce717f6-613f-4177-9ab4-09786649c099
 ms.author: windowssdkdev
 ms.date: 12/5/2018

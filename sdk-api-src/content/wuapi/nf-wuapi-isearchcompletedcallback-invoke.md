@@ -4,7 +4,7 @@ title: ISearchCompletedCallback::Invoke
 author: windows-sdk-content
 description: Handles the notification of the completion of an asynchronous search that is initiated by calling the IUpdateSearcher.BeginSearch method.
 old-location: wua\isearchcompletedcallback_invoke.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2d06754a-5750-4986-9f54-98f91dcc705b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

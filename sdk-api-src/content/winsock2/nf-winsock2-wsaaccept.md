@@ -4,7 +4,7 @@ title: WSAAccept function
 author: windows-sdk-content
 description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
 old-location: winsock\wsaaccept_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.author: windowssdkdev
 ms.date: 12/5/2018

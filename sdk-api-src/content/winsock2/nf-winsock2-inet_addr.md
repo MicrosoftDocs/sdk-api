@@ -4,7 +4,7 @@ title: inet_addr function
 author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -58,7 +58,14 @@ The
 
 
 
-### -param cp [in]
+### -param cp
+
+TBD
+
+
+
+
+#### - a [in]
 
 A <b>NULL</b>-terminated character string representing a number expressed in the Internet standard ".'' (dotted) notation.
 

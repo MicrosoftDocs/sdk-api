@@ -4,7 +4,7 @@ title: IWRdsProtocolConnectionCallback::StopScreenUpdates
 author: windows-sdk-content
 description: Requests that the Remote Desktop Services service stop updating the client screen.
 old-location: termserv\iwrdsprotocolconnectioncallback_stopscreenupdates.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 698b59d3-8391-4101-801c-8d5fd701a757
 ms.author: windowssdkdev
 ms.date: 12/5/2018

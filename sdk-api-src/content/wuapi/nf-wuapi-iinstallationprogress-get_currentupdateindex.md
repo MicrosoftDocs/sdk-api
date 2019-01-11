@@ -4,7 +4,7 @@ title: IInstallationProgress::get_CurrentUpdateIndex
 author: windows-sdk-content
 description: Gets a zero-based index value. This value specifies the update that is currently being installed or uninstalled when multiple updates have been selected.
 old-location: wua\iinstallationprogress_currentupdateindex.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 9e52e1f3-2115-49b9-8f94-daa89378a371
 ms.author: windowssdkdev
 ms.date: 12/5/2018

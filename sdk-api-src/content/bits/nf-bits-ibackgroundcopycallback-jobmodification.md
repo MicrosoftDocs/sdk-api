@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback::JobModification
 author: windows-sdk-content
 description: BITS calls your implementation of the JobModification method when the job has been modified.
 old-location: bits\ibackgroundcopycallback_jobmodification.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 7614756d-92d1-4b71-a589-c0e39728a51c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

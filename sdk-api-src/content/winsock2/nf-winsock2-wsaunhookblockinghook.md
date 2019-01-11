@@ -4,7 +4,7 @@ title: WSAUnhookBlockingHook function
 author: windows-sdk-content
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsaunhookblockinghook_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 944c3802-364e-4934-b7ec-6c70d06739ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

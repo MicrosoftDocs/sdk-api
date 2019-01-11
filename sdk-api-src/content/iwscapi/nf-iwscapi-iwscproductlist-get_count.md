@@ -4,7 +4,7 @@ title: IWSCProductList::get_Count
 author: windows-sdk-content
 description: Gathers the total number of all security product providers of the specified type on the computer.
 old-location: winprog\iwscproductlist_count.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: A28A6D3B-DC11-418B-987F-04711358B6EE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

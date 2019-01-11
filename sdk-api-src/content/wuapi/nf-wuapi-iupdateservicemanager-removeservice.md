@@ -4,7 +4,7 @@ title: IUpdateServiceManager::RemoveService
 author: windows-sdk-content
 description: Removes a service registration from Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_removeservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fedd0979-1cc1-40c7-93d1-ade2f069ee76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

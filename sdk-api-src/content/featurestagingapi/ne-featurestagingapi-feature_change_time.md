@@ -4,7 +4,7 @@ title: FEATURE_CHANGE_TIME
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_change_time.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: BF4301FD-8F23-48EE-826C-2C4378F24CE1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

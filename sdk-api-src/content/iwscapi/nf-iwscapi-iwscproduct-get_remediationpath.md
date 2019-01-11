@@ -4,7 +4,7 @@ title: IWscProduct::get_RemediationPath
 author: windows-sdk-content
 description: Returns the current remediation path for the security product.
 old-location: winprog\iwscproduct_remediationpath.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 6922B572-4E00-4B0B-BE1F-64343DD776A0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

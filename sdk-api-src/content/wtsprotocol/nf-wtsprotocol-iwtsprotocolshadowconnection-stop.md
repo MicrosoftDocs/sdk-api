@@ -4,7 +4,7 @@ title: IWTSProtocolShadowConnection::Stop
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974
 ms.author: windowssdkdev
 ms.date: 12/5/2018

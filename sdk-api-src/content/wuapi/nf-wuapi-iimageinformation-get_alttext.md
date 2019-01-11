@@ -4,7 +4,7 @@ title: IImageInformation::get_AltText
 author: windows-sdk-content
 description: Gets the alternate text for the image.
 old-location: wua\iimageinformation_alttext.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b64f1d4f-6f37-4728-b2e5-f9c408d9909e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStringCollection::RemoveAt
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\istringcollection_removeat.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::GetProgress
 author: windows-sdk-content
 description: Use the GetProgress method to retrieve the progress of the download.
 old-location: bits\ibackgroundcopygroup_getprogress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

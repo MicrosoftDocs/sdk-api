@@ -4,7 +4,7 @@ title: NETLOGON_INFO_2
 author: windows-sdk-content
 description: Defines a level-2 control query response from a domain controller.
 old-location: winprog\netlogon_info_2.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: ab29013d-e93a-4f15-84e1-c0e3e55b288d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

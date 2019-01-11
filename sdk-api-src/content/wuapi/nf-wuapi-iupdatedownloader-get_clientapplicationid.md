@@ -4,7 +4,7 @@ title: IUpdateDownloader::get_ClientApplicationID
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdatedownloader_clientapplicationid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 97feda21-b592-49af-8c3a-90abd086c190
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbGenericNotifySink::OnCompleted
 author: windows-sdk-content
 description: Reports completion to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbgenericnotifysink_oncompleted.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 6d8dd044-988e-4e37-9936-2a3639dedca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

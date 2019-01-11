@@ -4,7 +4,7 @@ title: IBitsPeer::IsAvailable
 author: windows-sdk-content
 description: Determines whether the peer is available (online) to serve content.
 old-location: bits\ibitspeer_isavailable.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e38166da-2139-4108-bb8a-74bb7a7997c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

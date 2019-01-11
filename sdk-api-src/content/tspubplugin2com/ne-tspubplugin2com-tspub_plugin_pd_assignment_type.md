@@ -4,7 +4,7 @@ title: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 author: windows-sdk-content
 description: Specifies the type of assignment for a personal desktop resolution.
 old-location: termserv\tspub_plugin_pd_assignment_type.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8a55d72c-215e-4f72-90dd-0f68c107a635
 ms.author: windowssdkdev
 ms.date: 12/5/2018

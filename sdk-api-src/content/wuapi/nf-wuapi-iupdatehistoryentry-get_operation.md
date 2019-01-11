@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_Operation
 author: windows-sdk-content
 description: Gets an UpdateOperation value that specifies the operation on an update.
 old-location: wua\iupdatehistoryentry_operation.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4dfad46b-ee42-41d6-be25-69aaf12fd53c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

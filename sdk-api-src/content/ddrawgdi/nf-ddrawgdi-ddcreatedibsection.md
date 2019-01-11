@@ -4,7 +4,7 @@ title: DdCreateDIBSection function
 author: windows-sdk-content
 description: Creates a DIBSECTION structure that shares its color table with the device. GdiEntry9 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatedibsection.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedibsection.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

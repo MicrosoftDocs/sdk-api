@@ -4,7 +4,7 @@ title: IUpdateInstaller::BeginUninstall
 author: windows-sdk-content
 description: Starts an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_beginuninstall.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6ff82120-aa8f-4daf-b9f9-e0129fad0a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

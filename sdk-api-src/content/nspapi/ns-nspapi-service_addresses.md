@@ -4,7 +4,7 @@ title: SERVICE_ADDRESSES
 author: windows-sdk-content
 description: The SERVICE_ADDRESSES structure contains an array of SERVICE_ADDRESS data structures.
 old-location: winsock\service_addresses_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 1ed0c634-4f09-49c1-8fbf-9182d6a4bd51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

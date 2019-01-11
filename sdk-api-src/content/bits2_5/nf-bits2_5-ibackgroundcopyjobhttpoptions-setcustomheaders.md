@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::SetCustomHeaders
 author: windows-sdk-content
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateService::get_Name
 author: windows-sdk-content
 description: Gets the name of the service.
 old-location: wua\iupdateservice_name.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 37c84d46-628f-4af9-ac40-8ba2c5a24fd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

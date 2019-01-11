@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 author: windows-sdk-content
 description: Removes the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_removeclientcertificate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b4fb7213-5f6b-407f-bc44-6d11886ed5ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

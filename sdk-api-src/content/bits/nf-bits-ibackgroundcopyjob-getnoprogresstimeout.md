@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetNoProgressTimeout
 author: windows-sdk-content
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_getnoprogresstimeout.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4881e5f7-a835-40d5-a056-d6b23e3cd84c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

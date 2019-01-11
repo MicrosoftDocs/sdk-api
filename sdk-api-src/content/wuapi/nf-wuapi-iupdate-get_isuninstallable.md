@@ -4,7 +4,7 @@ title: IUpdate::get_IsUninstallable
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a user can uninstall the update from a computer.
 old-location: wua\iupdate_isuninstallable.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0f67461b-3df9-45e9-95b3-d7f46fa11162
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdate::get_IsDownloaded
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
 old-location: wua\iupdate_isdownloaded.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4e20f2b0-096c-4ec6-b554-1891522b8933
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSCEnumNameSpaceProviders32 function
 author: windows-sdk-content
 description: Returns information on available 32-bit namespace providers.Note  This call is a strictly 32-bit version of WSAEnumNameSpaceProviders for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
 old-location: winsock\wscenumnamespaceproviders32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 792737d9-231d-4524-b1a6-b9904951d5b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

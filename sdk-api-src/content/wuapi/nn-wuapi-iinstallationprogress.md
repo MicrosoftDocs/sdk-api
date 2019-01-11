@@ -4,7 +4,7 @@ title: IInstallationProgress
 author: windows-sdk-content
 description: Represents the progress of an asynchronous installation or uninstallation.
 old-location: wua\iinstallationprogress.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: aa7e0c4d-9cb3-4473-a3b9-02ff9643f7de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

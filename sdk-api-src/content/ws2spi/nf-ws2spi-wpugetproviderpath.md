@@ -4,7 +4,7 @@ title: WPUGetProviderPath function
 author: windows-sdk-content
 description: The WPUGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wpugetproviderpath_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

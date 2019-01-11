@@ -4,7 +4,7 @@ title: RM_RECEIVER_STATS
 author: windows-sdk-content
 description: Provides statistical information for a Reliable Multicast receiver session. This structure is used with the RM_RECEIVER_STATISTICS socket option.
 old-location: winsock\rm_receiver_stats.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 972cf340-1e0e-4add-b218-054d6998023c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateServiceCollection
 author: windows-sdk-content
 description: Represents a list of IUpdateService interfaces.
 old-location: wua\iupdateservicecollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

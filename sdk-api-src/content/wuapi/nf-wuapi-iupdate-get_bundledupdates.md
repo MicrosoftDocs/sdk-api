@@ -4,7 +4,7 @@ title: IUpdate::get_BundledUpdates
 author: windows-sdk-content
 description: Gets an interface that contains information about the ordered list of the bundled updates for the update.
 old-location: wua\iupdate_bundledupdates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 17fcde27-86be-4fe1-8cd2-a49cfe2b408f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

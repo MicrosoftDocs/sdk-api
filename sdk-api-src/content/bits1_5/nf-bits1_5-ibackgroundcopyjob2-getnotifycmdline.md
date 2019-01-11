@@ -4,7 +4,7 @@ title: IBackgroundCopyJob2::GetNotifyCmdLine
 author: windows-sdk-content
 description: Retrieves the program to execute when the job enters the error or transferred state.
 old-location: bits\ibackgroundcopyjob2_getnotifycmdline.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 62978315-e893-4617-8e6d-63bab8204913
 ms.author: windowssdkdev
 ms.date: 12/5/2018

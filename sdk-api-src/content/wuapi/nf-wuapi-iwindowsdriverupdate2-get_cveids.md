@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate2::get_CveIDs
 author: windows-sdk-content
 description: Contains a collection of the Common Vulnerabilities and Exposures (CVE) identifiers that are associated with an update.
 old-location: wua\iwindowsdriverupdate2_cveids.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6399d545-b300-4f78-b6df-c9892bc62fbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

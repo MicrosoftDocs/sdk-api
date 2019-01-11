@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetPriority
 author: windows-sdk-content
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

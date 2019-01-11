@@ -4,7 +4,7 @@ title: IPX_NETNUM_DATA
 author: windows-sdk-content
 description: The IPX_NETNUM_DATA structure provides information about a specified IPX network number. Used in conjunction with getsockopt function calls that specify IPX_GETNETINFO in the optname parameter.
 old-location: winsock\ipx_netnum_data_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9ac7f6ea-5ed3-45f9-8422-62fef1681cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

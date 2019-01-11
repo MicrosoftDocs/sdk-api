@@ -4,7 +4,7 @@ title: WTS_LICENSE_CAPABILITIES
 author: windows-sdk-content
 description: Contains information about the licensing capabilities of the client.
 old-location: termserv\wts_license_capabilities.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 975a534e-03f1-4c8f-9de1-42144e31c8cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

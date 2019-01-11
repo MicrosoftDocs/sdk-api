@@ -4,7 +4,7 @@ title: SnapshotFormatType
 author: windows-sdk-content
 description: The data format used for a Remote Desktop Protocol (RDP) app container client snapshot.
 old-location: termserv\snapshotformattype.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

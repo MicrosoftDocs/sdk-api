@@ -4,7 +4,7 @@ title: IInstallationResult::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCode value that specifies the result of an operation on an update.
 old-location: wua\iinstallationresult_resultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 09454585-ce1e-41e9-8c8a-8a5cffb94388
 ms.author: windowssdkdev
 ms.date: 12/5/2018

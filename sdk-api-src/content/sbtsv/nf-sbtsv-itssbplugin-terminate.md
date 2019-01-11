@@ -4,7 +4,7 @@ title: ITsSbPlugin::Terminate
 author: windows-sdk-content
 description: Performs clean-up and unloads the plug-in.
 old-location: termserv\itssbplugin_terminate.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: c47c6231-f967-4239-afd4-a87e9d8f49c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

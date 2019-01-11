@@ -4,7 +4,7 @@ title: WSARecv function
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecv_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: bfe66e11-e9a7-4321-ad55-3141113e9a03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

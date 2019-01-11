@@ -4,7 +4,7 @@ title: setipv4sourcefilter function
 author: windows-sdk-content
 description: Sets the multicast filter state for an IPv4 socket.
 old-location: winsock\setipv4sourcefilter.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855
 ms.author: windowssdkdev
 ms.date: 12/5/2018

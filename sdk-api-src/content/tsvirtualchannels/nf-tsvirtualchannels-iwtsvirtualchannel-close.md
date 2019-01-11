@@ -4,7 +4,7 @@ title: IWTSVirtualChannel::Close
 author: windows-sdk-content
 description: Closes the channel.
 old-location: termserv\iwtsvirtualchannel_close.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b900789d-c7da-4974-8c46-72ea8ffd6892
 ms.author: windowssdkdev
 ms.date: 12/5/2018

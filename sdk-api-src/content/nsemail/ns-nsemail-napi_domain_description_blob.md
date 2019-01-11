@@ -4,7 +4,7 @@ title: NAPI_DOMAIN_DESCRIPTION_BLOB
 author: windows-sdk-content
 description: Describes a domain handled by a namespace provider for the NS_EMAIL namespace.
 old-location: winsock\napi_domain_description_blob.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 543aa20c-eec2-4177-87ed-ba9c91251010
 ms.author: windowssdkdev
 ms.date: 12/5/2018

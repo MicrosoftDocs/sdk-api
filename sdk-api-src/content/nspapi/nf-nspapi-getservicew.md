@@ -4,7 +4,7 @@ title: GetServiceW function
 author: windows-sdk-content
 description: The GetService function retrieves information about a network service in the context of a set of default namespaces or a specified namespace.
 old-location: winsock\getservice_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d09ffe2d-33c3-4ca3-bc99-d7d78fd83620
 ms.author: windowssdkdev
 ms.date: 12/5/2018

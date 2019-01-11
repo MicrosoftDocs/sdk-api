@@ -4,7 +4,7 @@ title: ICameraUIControl::GetActiveItem
 author: windows-sdk-content
 description: Gets the active captured item.
 old-location: winprog\icamerauicontrol_getactiveitem.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 9ef05929-7292-4833-95e7-d420abb6cd43
 ms.author: windowssdkdev
 ms.date: 12/5/2018

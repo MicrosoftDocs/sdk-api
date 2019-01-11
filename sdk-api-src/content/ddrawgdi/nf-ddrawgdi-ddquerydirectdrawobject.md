@@ -4,7 +4,7 @@ title: DdQueryDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdQueryDirectDrawObject function and queries a previously created kernel-mode representation for capabilities. GdiEntry2 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddquerydirectdrawobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydirectdrawobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

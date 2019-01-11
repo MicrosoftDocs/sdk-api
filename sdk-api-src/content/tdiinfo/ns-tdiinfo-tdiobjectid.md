@@ -4,7 +4,7 @@ title: TDIObjectID
 author: windows-sdk-content
 description: Contains a part of the TCP_REQUEST_QUERY_INFORMATION_EX structure that is used with the IOCTL_TCP_QUERY_INFORMATION_EX control code to specify the kind of information being requested from the TCP driver.
 old-location: winprog\tdiobjectid.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 79d34f1c-2ea7-4867-9fb2-80401b0859bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

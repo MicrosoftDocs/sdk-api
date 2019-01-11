@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::GetMaximumContentAge
 author: windows-sdk-content
 description: Gets the age by when files are removed from the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcontentage.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6b6b0c97-9906-464d-b267-5adde1919a45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

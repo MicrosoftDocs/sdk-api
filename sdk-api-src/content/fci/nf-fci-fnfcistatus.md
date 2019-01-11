@@ -4,7 +4,7 @@ title: FNFCISTATUS macro
 author: windows-sdk-content
 description: The FNFCISTATUS macro provides the declaration for the application-defined callback function to update the user.
 old-location: winprog\fnfcistatus.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

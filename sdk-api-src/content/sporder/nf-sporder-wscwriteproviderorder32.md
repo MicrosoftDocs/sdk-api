@@ -4,7 +4,7 @@ title: WSCWriteProviderOrder32 function
 author: windows-sdk-content
 description: Used to reorder the available 32-bit transport providers.
 old-location: winsock\wscwriteproviderorder32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

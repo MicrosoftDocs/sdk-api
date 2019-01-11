@@ -4,7 +4,7 @@ title: InetPtonW function
 author: windows-sdk-content
 description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton.
 old-location: winsock\inet_pton.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d0705997-0dc7-443b-a43f-611301cc9169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

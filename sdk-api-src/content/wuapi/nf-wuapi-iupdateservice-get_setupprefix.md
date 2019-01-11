@@ -4,7 +4,7 @@ title: IUpdateService::get_SetupPrefix
 author: windows-sdk-content
 description: Identifies the prefix for the setup files.
 old-location: wua\iupdateservice_setupprefix.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 025d2278-c973-410a-bccf-da8d1a59b6ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtlAnsiStringToUnicodeString function
 author: windows-sdk-content
 description: Converts the specified ANSI source string into a Unicode string.
 old-location: winprog\rtlansistringtounicodestring.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlansistringtounicodestring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TCP_INITIAL_RTO_PARAMETERS
 author: windows-sdk-content
 description: Specifies data used by the SIO_TCP_INITIAL_RTO IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
 old-location: winsock\tcp_initial_rto_parameters.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: D8445188-A7D5-4A2C-827A-CB559C3B0748
 ms.author: windowssdkdev
 ms.date: 12/5/2018

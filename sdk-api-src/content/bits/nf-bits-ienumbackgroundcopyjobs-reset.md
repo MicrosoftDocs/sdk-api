@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyJobs::Reset
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyjobs_reset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 045df884-88e0-4d5a-a790-6b3b9ba2d4f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

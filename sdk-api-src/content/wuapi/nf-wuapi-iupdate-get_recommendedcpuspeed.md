@@ -4,7 +4,7 @@ title: IUpdate::get_RecommendedCpuSpeed
 author: windows-sdk-content
 description: Gets the recommended CPU speed used to install the update, in megahertz (MHz).
 old-location: wua\iupdate_recommendedcpuspeed.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 21003be2-c14e-48d4-a51f-ed75b1b47284
 ms.author: windowssdkdev
 ms.date: 12/5/2018

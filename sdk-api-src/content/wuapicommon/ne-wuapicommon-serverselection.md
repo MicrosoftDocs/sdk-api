@@ -4,7 +4,7 @@ title: ServerSelection
 author: windows-sdk-content
 description: Defines the update services that Windows Update can operate against.
 old-location: wua\serverselection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

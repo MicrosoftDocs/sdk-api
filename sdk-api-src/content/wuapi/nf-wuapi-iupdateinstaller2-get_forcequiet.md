@@ -4,7 +4,7 @@ title: IUpdateInstaller2::get_ForceQuiet
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether Windows Installer is forced to install the updates without user interaction.
 old-location: wua\iupdateinstaller2_forcequiet.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 762da3b9-8fb6-44a6-bce2-df8f15a6db0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

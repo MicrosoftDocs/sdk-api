@@ -4,7 +4,7 @@ title: CHANNEL_OPEN_EVENT_FN
 author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of events for a specific virtual channel.
 old-location: termserv\virtualchannelopenevent.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 7412d125-1a3c-4e9a-9804-b612030682da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

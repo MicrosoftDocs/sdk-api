@@ -4,7 +4,7 @@ title: IRemoteDesktopClient::detachEvent
 author: windows-sdk-content
 description: Detaches an event handler from an event.
 old-location: termserv\iremotedesktopclient_detachevent.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5913da44-3dc2-40a3-9808-3619e5fa91b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

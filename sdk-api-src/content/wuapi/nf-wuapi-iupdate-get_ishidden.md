@@ -4,7 +4,7 @@ title: IUpdate::get_IsHidden
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is hidden by a user.
 old-location: wua\iupdate_ishidden.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 229fbb68-cc99-440e-89e1-b9c4e69dd0b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

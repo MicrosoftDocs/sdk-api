@@ -4,7 +4,7 @@ title: ICategory::get_Name
 author: windows-sdk-content
 description: Gets the localized name of the category.
 old-location: wua\icategory_name.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d0975b3f-88b4-4f20-ae1d-e76a8bb23fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

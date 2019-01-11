@@ -4,7 +4,7 @@ title: IWRdsProtocolLicenseConnection::RequestClientLicense
 author: windows-sdk-content
 description: Requests a license from the client.
 old-location: termserv\iwrdsprotocollicenseconnection_requestclientlicense.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 73660029-2d2e-4240-babe-208daa164290
 ms.author: windowssdkdev
 ms.date: 12/5/2018

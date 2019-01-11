@@ -4,7 +4,7 @@ title: SOCKADDR_IRDA
 author: windows-sdk-content
 description: The SOCKADDR_IRDA structure is used in conjunction with IrDA socket operations, defined by address family AF_IRDA.
 old-location: winsock\sockaddr_irda_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 6a5b8d70-f005-4d84-b575-22ad48564793
 ms.author: windowssdkdev
 ms.date: 12/5/2018

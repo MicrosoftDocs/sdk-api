@@ -4,7 +4,7 @@ title: CacheCreateFile function
 author: windows-sdk-content
 description: Creates a file in the cache or finds an existing file.
 old-location: winprog\_cachecreatefile.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

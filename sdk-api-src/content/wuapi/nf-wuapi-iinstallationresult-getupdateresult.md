@@ -4,7 +4,7 @@ title: IInstallationResult::GetUpdateResult
 author: windows-sdk-content
 description: Returns an IUpdateInstallationResult interface that contains the installation results for a specified update.
 old-location: wua\iinstallationresult_getupdateresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 51d84e9e-9d92-43c9-af13-f833c3f3d631
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:t2embapi
 ms.assetid: 56646535-c93f-30ed-8193-2f68e356b508
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

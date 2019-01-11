@@ -4,7 +4,7 @@ title: WSACleanup function
 author: windows-sdk-content
 description: The WSACleanup function terminates use of the WS2_32.dll.
 old-location: winsock\wsacleanup_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 72b7cc3e-be34-41e7-acbf-61742149ec8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

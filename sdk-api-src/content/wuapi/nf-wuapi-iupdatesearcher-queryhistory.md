@@ -4,7 +4,7 @@ title: IUpdateSearcher::QueryHistory
 author: windows-sdk-content
 description: Synchronously queries the computer for the history of the update events.
 old-location: wua\iupdatesearcher_queryhistory.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4d3027a2-ba97-4dfc-9a15-c106aaf6c2b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

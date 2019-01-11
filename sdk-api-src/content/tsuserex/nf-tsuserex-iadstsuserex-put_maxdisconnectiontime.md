@@ -4,7 +4,7 @@ title: IADsTSUserEx::put_MaxDisconnectionTime
 author: windows-sdk-content
 description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated.
 old-location: termserv\iadstsuserex_maxdisconnectiontime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 35f0f7fd-eff9-4ee0-99f0-83af7ec2796a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

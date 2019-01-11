@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetDisplayName
 author: windows-sdk-content
 description: Specifies a display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_setdisplayname.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 504b0096-891c-4bf7-a311-9d351b359210
 ms.author: windowssdkdev
 ms.date: 12/5/2018

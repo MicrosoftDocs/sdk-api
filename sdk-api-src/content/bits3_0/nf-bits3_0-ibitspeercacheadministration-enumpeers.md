@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::EnumPeers
 author: windows-sdk-content
 description: Gets an IEnumBitsPeers interface pointer that you use to enumerate the peers that can serve content. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumpeers.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

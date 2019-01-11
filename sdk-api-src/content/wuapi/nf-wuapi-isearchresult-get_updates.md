@@ -4,7 +4,7 @@ title: ISearchResult::get_Updates
 author: windows-sdk-content
 description: Gets an interface collection of the updates that result from a search.
 old-location: wua\isearchresult_updates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a978986c-6cb0-4333-9bfe-0456a133ee08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

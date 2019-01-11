@@ -4,7 +4,7 @@ title: IUpdateSession3::QueryHistory
 author: windows-sdk-content
 description: Synchronously queries the computer for the history of update events.
 old-location: wua\iupdatesession3_queryhistory.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 614a392e-949b-4fba-a4e7-5c393c2b51c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

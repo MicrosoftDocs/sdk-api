@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_StartTime
 author: windows-sdk-content
 description: Retrieves the earliest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_starttime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 74ff25aa-3336-4524-9051-69e51d357f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

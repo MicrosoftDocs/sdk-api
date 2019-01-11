@@ -4,7 +4,7 @@ title: INTERFACE_INFO_EX
 author: windows-sdk-content
 description: The INTERFACE_INFO_EX structure is used in conjunction with the SIO_GET_INTERFACE_LIST IOCTL command to obtain information about an interface IP address.
 old-location: winsock\interface_info_ex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d13a4b5d-9f61-464f-be50-ceda596cbb65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

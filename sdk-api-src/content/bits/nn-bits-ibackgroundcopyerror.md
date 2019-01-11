@@ -4,7 +4,7 @@ title: IBackgroundCopyError
 author: windows-sdk-content
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
 old-location: bits\ibackgroundcopyerror.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

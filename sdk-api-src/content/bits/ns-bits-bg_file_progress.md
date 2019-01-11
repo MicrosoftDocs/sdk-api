@@ -4,7 +4,7 @@ title: BG_FILE_PROGRESS
 author: windows-sdk-content
 description: The BG_FILE_PROGRESS structure provides file-related progress information, such as the number of bytes transferred.
 old-location: bits\bg_file_progress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 322363b4-081e-4100-9087-e34c21a3ffae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

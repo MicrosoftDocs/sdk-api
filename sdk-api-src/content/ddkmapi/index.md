@@ -2,7 +2,7 @@
 UID: NA:ddkmapi
 ms.assetid: b6ffa318-6cae-316b-afea-e5809778bc2e
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

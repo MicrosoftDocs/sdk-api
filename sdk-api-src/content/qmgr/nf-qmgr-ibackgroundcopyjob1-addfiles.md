@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::AddFiles
 author: windows-sdk-content
 description: Use the AddFiles method to add one or more files to download to the job.
 old-location: bits\ibackgroundcopyjob1_addfiles.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

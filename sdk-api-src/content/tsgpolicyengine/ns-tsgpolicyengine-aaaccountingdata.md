@@ -4,7 +4,7 @@ title: AAAccountingData
 author: windows-sdk-content
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

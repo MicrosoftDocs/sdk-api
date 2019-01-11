@@ -4,7 +4,7 @@ title: IBackgroundCopyJob2::GetReplyProgress
 author: windows-sdk-content
 description: Retrieves progress information related to the transfer of the reply data from an upload-reply job.
 old-location: bits\ibackgroundcopyjob2_getreplyprogress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 76509b1a-fdfb-4236-8554-f63282bfc1b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: pluginResource2FileAssociation
 author: windows-sdk-content
 description: Contains information about a file association in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource2fileassociation.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: A3485D5F-EBF0-480B-9AD2-534361E82B40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSACancelBlockingCall function
 author: windows-sdk-content
 description: The WSACancelBlockingCall function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsacancelblockingcall_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: b3597d29-51a5-410f-9925-4d678dd641c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

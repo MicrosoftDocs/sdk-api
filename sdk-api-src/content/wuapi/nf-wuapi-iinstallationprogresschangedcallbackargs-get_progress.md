@@ -4,7 +4,7 @@ title: IInstallationProgressChangedCallbackArgs::get_Progress
 author: windows-sdk-content
 description: Gets an interface that contains the progress of the asynchronous installation or uninstallation at the time the callback was made.
 old-location: wua\iinstallationprogresschangedcallbackargs_progress.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 362e4138-5ba0-4aba-bff3-bf0834d21059
 ms.author: windowssdkdev
 ms.date: 12/5/2018

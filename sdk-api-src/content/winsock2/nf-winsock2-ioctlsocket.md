@@ -4,7 +4,7 @@ title: ioctlsocket function
 author: windows-sdk-content
 description: The ioctlsocket function controls the I/O mode of a socket.
 old-location: winsock\ioctlsocket_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 048fcb8d-acd3-4917-a997-dd133db399f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

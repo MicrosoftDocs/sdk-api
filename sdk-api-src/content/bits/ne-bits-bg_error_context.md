@@ -4,7 +4,7 @@ title: BG_ERROR_CONTEXT
 author: windows-sdk-content
 description: The BG_ERROR_CONTEXT enumeration defines the constant values that specify the context in which the error occurred.
 old-location: bits\bg_error_context.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c9d98518-6f2e-4fd1-b0ee-6735c6d6ecd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

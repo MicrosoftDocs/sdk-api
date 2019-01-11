@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::SwitchToForeground
 author: windows-sdk-content
 description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

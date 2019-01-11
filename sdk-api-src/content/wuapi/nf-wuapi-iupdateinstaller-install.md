@@ -4,7 +4,7 @@ title: IUpdateInstaller::Install
 author: windows-sdk-content
 description: Starts a synchronous installation of the updates.
 old-location: wua\iupdateinstaller_install.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 009fc238-fcc4-4131-b770-9f0d0946e741
 ms.author: windowssdkdev
 ms.date: 12/5/2018

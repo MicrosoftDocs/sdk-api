@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate2::get_IsPresent
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is installed on a computer.
 old-location: wua\iwindowsdriverupdate2_ispresent.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4ed74cf9-bd97-4b6a-a8c2-d2d65d18f693
 ms.author: windowssdkdev
 ms.date: 12/5/2018

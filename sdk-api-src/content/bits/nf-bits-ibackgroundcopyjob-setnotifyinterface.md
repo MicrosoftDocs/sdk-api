@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetNotifyInterface
 author: windows-sdk-content
 description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 34d51546-ec27-471f-9da5-3bec7ed4e1ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

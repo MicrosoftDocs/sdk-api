@@ -4,7 +4,7 @@ title: IUpdate::CopyFromCache
 author: windows-sdk-content
 description: Copies the contents of an update to a specified path.
 old-location: wua\iupdate_copyfromcache.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 43af8bb9-0e09-4541-bc2e-fd40be64a980
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate4::get_PerUser
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is a per-user update.
 old-location: wua\iwindowsdriverupdate4_peruser.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 97e1ede2-9b7d-46af-b3a5-d0860eaa9dce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDownloadProgress
 author: windows-sdk-content
 description: Represents the progress of an asynchronous download operation.
 old-location: wua\idownloadprogress.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 773de760-5fde-4975-ba8d-d20b3affb4a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

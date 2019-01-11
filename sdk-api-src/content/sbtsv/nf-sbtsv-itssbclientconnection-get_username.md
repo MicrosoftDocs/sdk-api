@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_UserName
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the user who initiated the connection.
 old-location: termserv\itssbclientconnection_username.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

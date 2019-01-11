@@ -4,7 +4,7 @@ title: ITSGPolicyEngine::IsQuarantineEnabled
 author: windows-sdk-content
 description: Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
 old-location: termserv\itsgpolicyengine_isquarantineenabled.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e63b99ba-068f-4842-b00a-9bfc5f8dac73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

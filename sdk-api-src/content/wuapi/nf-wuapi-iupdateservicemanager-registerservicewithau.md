@@ -4,7 +4,7 @@ title: IUpdateServiceManager::RegisterServiceWithAU
 author: windows-sdk-content
 description: Registers a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_registerservicewithau.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ea54d96a-9ffb-4abd-a032-4dfcc7ba6403
 ms.author: windowssdkdev
 ms.date: 12/5/2018

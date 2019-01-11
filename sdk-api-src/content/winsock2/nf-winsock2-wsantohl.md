@@ -4,7 +4,7 @@ title: WSANtohl function
 author: windows-sdk-content
 description: The WSANtohl function converts a u_long from network byte order to host byte order.
 old-location: winsock\wsantohl_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7e3b42eb-3b93-459f-828a-c19e277882c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

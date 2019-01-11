@@ -4,7 +4,7 @@ title: WSAGetLastError function
 author: windows-sdk-content
 description: Returns the error status for the last Windows Sockets operation that failed.
 old-location: winsock\wsagetlasterror_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 39e41b66-44ed-46dc-bfc2-65228b669992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

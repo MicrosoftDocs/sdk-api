@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetNotifyFlags
 author: windows-sdk-content
 description: Retrieves the event notification flags for the job.
 old-location: bits\ibackgroundcopyjob_getnotifyflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

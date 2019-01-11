@@ -4,7 +4,7 @@ title: WSCGetProviderPath32 function
 author: windows-sdk-content
 description: Retrieves the DLL path for the specified 32-bit provider.Note  This call is a strictly 32-bit version of WSCGetProviderPath for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
 old-location: winsock\wscgetproviderpath32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: fd4ef7da-344d-4825-93b2-f0cd5622aeac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

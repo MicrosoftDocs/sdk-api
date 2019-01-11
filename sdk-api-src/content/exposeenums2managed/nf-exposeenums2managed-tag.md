@@ -4,7 +4,7 @@ title: TAG macro
 author: windows-sdk-content
 description: Identifies an entry in the shim database.
 old-location: winprog\tag.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: c092592d-a4f4-4b2f-9b03-c07951ed214a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

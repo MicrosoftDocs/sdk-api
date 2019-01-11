@@ -4,7 +4,7 @@ title: ADDRINFOEX2W
 author: windows-sdk-content
 description: Used by the GetAddrInfoEx function to hold host address information when both a canonical name and a fully qualified domain name have been requested.
 old-location: winsock\addrinfoex2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9CB33347-A838-473D-B5CD-1149D6632CF2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

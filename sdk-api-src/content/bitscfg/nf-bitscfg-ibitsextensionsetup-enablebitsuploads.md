@@ -4,7 +4,7 @@ title: IBITSExtensionSetup::EnableBITSUploads
 author: windows-sdk-content
 description: Use the EnableBITSUploads method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_enablebitsuploads.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 5b68dea2-f9a7-4a99-93d3-62c4f24b769f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

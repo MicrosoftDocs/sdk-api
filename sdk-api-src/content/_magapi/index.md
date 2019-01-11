@@ -2,7 +2,7 @@
 UID: TP:magapi
 ms.assetid: 19ca8483-79f5-3a9e-a85d-cd3f31a764c4
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

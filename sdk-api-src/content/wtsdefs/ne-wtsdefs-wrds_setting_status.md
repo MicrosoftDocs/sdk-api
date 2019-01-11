@@ -4,7 +4,7 @@ title: WRDS_SETTING_STATUS
 author: windows-sdk-content
 description: Specifies the status of a policy setting for various members of the WRDS_SETTINGS_1 structure.
 old-location: termserv\wrds_setting_status.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: FA56FDCB-70E7-4D90-99DE-6C624404BEF9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

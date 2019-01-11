@@ -4,7 +4,7 @@ title: IInstallationBehavior::get_CanRequestUserInput
 author: windows-sdk-content
 description: Gets a Boolean value thast indicates whether the installation or uninstallation of an update can prompt for user input.
 old-location: wua\iinstallationbehavior_canrequestuserinput.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 083fad34-e2e7-4f33-8eb2-01dba00fd985
 ms.author: windowssdkdev
 ms.date: 12/5/2018

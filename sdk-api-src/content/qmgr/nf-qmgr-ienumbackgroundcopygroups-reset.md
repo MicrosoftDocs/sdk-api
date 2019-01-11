@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyGroups::Reset
 author: windows-sdk-content
 description: Use the Reset method to reset the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopygroups_reset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 16bcfd69-9fb2-4214-8a7d-4188c6516ebb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVICE_ADDRESS
 author: windows-sdk-content
 description: Contains address information for a service. The structure can accommodate many types of interprocess communications (IPC) mechanisms and their address forms, including remote procedure calls (RPC), named pipes, and sockets.
 old-location: winsock\service_address_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5fc99e3a-7316-4950-9249-968bbc4168c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

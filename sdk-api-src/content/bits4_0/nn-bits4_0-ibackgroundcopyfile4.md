@@ -4,7 +4,7 @@ title: IBackgroundCopyFile4
 author: windows-sdk-content
 description: Use this interface to retrieve download statistics for peers and origin servers.
 old-location: bits\ibackgroundcopyfile4.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d404c4f8-cc97-4254-bca8-41bc359f0777
 ms.author: windowssdkdev
 ms.date: 12/5/2018

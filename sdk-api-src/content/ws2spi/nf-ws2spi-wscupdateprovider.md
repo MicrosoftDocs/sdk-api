@@ -4,7 +4,7 @@ title: WSCUpdateProvider function
 author: windows-sdk-content
 description: Modifies the specified transport provider in the system configuration database.
 old-location: winsock\wscupdateprovider_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7777a2ff-2ece-4f28-88af-87fc96fdda9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

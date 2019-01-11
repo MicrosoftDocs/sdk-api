@@ -4,7 +4,7 @@ title: IUpdateSession::CreateUpdateSearcher
 author: windows-sdk-content
 description: Returns an IUpdateSearcher interface for this session.
 old-location: wua\iupdatesession_createupdatesearcher.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7e7a4aa9-7952-4080-9ac0-9544f959475f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

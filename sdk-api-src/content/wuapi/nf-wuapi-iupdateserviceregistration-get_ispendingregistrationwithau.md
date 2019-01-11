@@ -4,7 +4,7 @@ title: IUpdateServiceRegistration::get_IsPendingRegistrationWithAU
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service will also be registered with Automatic Updates, when added.
 old-location: wua\iupdateserviceregistration_ispendingregistrationwithau.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: abd90925-979a-49ef-b071-ea48b537fee7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

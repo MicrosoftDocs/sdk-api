@@ -4,7 +4,7 @@ title: FH_BACKUP_STATUS
 author: windows-sdk-content
 description: Specifies whether File History backups are enabled.
 old-location: winprog\fh_backup_status.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 7F988CA1-8295-4758-B66B-9B707B2CA126
 ms.author: windowssdkdev
 ms.date: 12/5/2018

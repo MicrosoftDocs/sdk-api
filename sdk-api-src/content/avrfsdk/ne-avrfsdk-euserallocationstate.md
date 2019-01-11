@@ -4,7 +4,7 @@ title: eUserAllocationState
 author: windows-sdk-content
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

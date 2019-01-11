@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::get_GroupID
 author: windows-sdk-content
 description: Use the get_GroupID method to retrieve the group's identifier.
 old-location: bits\ibackgroundcopygroup_get_groupid.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: fde4dfb9-002b-436e-96c1-a893a95dcacc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

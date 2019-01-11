@@ -4,7 +4,7 @@ title: IUpdateServiceRegistration::get_RegistrationState
 author: windows-sdk-content
 description: Gets an UpdateServiceRegistrationState value that indicates the current state of the service registration.
 old-location: wua\iupdateserviceregistration_registrationstate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4998546e-ec2c-4147-8c6f-5e232e4ec1a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

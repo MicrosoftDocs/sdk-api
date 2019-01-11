@@ -4,7 +4,7 @@ title: "__WSAFDIsSet function"
 author: windows-sdk-content
 description: The __WSAFDIsSet function specifies whether a socket is included in a set of socket descriptors.
 old-location: winsock\wsafdisset.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

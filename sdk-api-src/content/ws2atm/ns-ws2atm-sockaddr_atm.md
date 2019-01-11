@@ -4,7 +4,7 @@ title: sockaddr_atm
 author: windows-sdk-content
 description: The Windows Sockets sockaddr_atm structure stores socket address information for ATM sockets.
 old-location: winsock\sockaddr_atm_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 6cbeb19f-0aa8-48a1-a46a-691edc542d5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

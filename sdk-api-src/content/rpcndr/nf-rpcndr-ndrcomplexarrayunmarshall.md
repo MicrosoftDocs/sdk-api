@@ -4,7 +4,7 @@ title: NdrComplexArrayUnmarshall function
 author: windows-sdk-content
 description: The NdrComplexArrayUnmarshall function unmarshals the complex array from the network buffer to memory.
 old-location: winprog\ndrcomplexarrayunmarshall.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2b702bec-e5f4-4bf3-a2d4-d4b901929e53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

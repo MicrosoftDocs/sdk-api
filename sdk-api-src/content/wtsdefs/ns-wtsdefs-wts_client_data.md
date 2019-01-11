@@ -4,7 +4,7 @@ title: WTS_CLIENT_DATA
 author: windows-sdk-content
 description: Contains information about the client connection.
 old-location: termserv\wts_client_data.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a8e0fcbd-4f5c-4692-9bb0-aaa00465acf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

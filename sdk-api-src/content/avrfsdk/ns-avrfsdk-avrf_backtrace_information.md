@@ -4,7 +4,7 @@ title: AVRF_BACKTRACE_INFORMATION
 author: windows-sdk-content
 description: Contains information about backtraces performed.
 old-location: winprog\avrf_backtrace_information.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

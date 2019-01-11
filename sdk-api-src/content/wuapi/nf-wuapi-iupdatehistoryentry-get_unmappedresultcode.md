@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_UnmappedResultCode
 author: windows-sdk-content
 description: Gets the unmapped result code that is returned from an operation on an update.
 old-location: wua\iupdatehistoryentry_unmappedresultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8c0c49c2-6902-4c4b-95a9-5254b0b83897
 ms.author: windowssdkdev
 ms.date: 12/5/2018

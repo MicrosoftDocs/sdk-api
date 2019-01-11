@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings2::get_IncludeRecommendedUpdates
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to include optional or recommended updates when a search for updates and installation of updates is performed.
 old-location: wua\iautomaticupdatessettings2_includerecommendedupdates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 502b0490-8834-496a-8691-d9325ad86799
 ms.author: windowssdkdev
 ms.date: 12/5/2018

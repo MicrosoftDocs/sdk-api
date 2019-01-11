@@ -4,7 +4,7 @@ title: ICameraUIControl::Resume
 author: windows-sdk-content
 description: Simulates resume of the user interface control.
 old-location: winprog\icamerauicontrol_resume.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 42bd87ab-8877-48cd-abc1-6fae2cb111aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

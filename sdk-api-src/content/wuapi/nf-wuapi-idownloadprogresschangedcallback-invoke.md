@@ -4,7 +4,7 @@ title: IDownloadProgressChangedCallback::Invoke
 author: windows-sdk-content
 description: Handles the notification of a change in the progress of an asynchronous download that was initiated by calling the IUpdateDownloader.BeginDownload method.
 old-location: wua\idownloadprogresschangedcallback_invoke.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 09bdbb3a-0556-4b3a-ba18-2fe7bcb33999
 ms.author: windowssdkdev
 ms.date: 12/5/2018

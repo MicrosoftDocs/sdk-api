@@ -4,7 +4,7 @@ title: NETLOGON_INFO_1
 author: windows-sdk-content
 description: Defines a level-1 control query response from a domain controller.
 old-location: winprog\netlogon_info_1.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 053e937a-c7a9-4b8f-9312-32c82b705c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

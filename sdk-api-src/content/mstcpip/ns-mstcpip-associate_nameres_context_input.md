@@ -4,7 +4,7 @@ title: ASSOCIATE_NAMERES_CONTEXT_INPUT
 author: windows-sdk-content
 description: Contains the transport setting ID and handle to a fully qualified domain name.
 old-location: winsock\associate_nameres_context_input.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8B6EB9A4-47B9-40C3-B647-BB05B657B7CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

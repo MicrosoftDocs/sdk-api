@@ -4,7 +4,7 @@ title: IUpdateException::get_Context
 author: windows-sdk-content
 description: Gets the context of search results.
 old-location: wua\iupdateexception_context.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 05924bb7-cc59-4df6-a2dd-4e6032a0eb8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

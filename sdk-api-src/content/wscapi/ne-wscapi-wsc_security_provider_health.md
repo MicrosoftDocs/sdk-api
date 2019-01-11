@@ -4,7 +4,7 @@ title: WSC_SECURITY_PROVIDER_HEALTH
 author: windows-sdk-content
 description: Defines the possible states for any service monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider_health.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: a5f34088-13b9-4269-a3ca-777e0bb9b655
 ms.author: windowssdkdev
 ms.date: 12/5/2018

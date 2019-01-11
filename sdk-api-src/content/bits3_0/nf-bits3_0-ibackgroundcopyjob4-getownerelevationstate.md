@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4::GetOwnerElevationState
 author: windows-sdk-content
 description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerelevationstate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2ab62c27-5ba1-46f3-a5e9-020fde17a1ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

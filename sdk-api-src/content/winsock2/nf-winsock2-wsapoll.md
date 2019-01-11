@@ -4,7 +4,7 @@ title: WSAPoll function
 author: windows-sdk-content
 description: The WSAPoll function determines status of one or more sockets.
 old-location: winsock\wsapoll.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3f6f872c-5cee-49f3-bf22-2e8a5d147987
 ms.author: windowssdkdev
 ms.date: 12/5/2018

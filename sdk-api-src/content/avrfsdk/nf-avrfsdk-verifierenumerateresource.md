@@ -4,7 +4,7 @@ title: VerifierEnumerateResource function
 author: windows-sdk-content
 description: Enumerates operating system resources for use by debugging and support tools.
 old-location: winprog\verifierenumerateresource.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

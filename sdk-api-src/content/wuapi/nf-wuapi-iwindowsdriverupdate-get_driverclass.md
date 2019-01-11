@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate::get_DriverClass
 author: windows-sdk-content
 description: Gets the class of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverclass.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4d11012c-6ccb-4e4a-91b7-39fefb0efb28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

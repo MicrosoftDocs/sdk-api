@@ -4,7 +4,7 @@ title: WTSVirtualChannelRead function
 author: windows-sdk-content
 description: Reads data from the server end of a virtual channel.
 old-location: termserv\wtsvirtualchannelread.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 7434e761-303f-496f-81cb-83c199ddec8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

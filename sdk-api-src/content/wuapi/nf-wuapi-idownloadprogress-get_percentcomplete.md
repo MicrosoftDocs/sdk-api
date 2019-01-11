@@ -4,7 +4,7 @@ title: IDownloadProgress::get_PercentComplete
 author: windows-sdk-content
 description: Gets an estimate of the percentage of all the updates that have been downloaded.
 old-location: wua\idownloadprogress_percentcomplete.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: af6a4424-eaf4-438b-b879-a9f3da3044ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

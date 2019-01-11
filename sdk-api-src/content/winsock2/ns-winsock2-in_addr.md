@@ -4,7 +4,7 @@ title: in_addr
 author: windows-sdk-content
 description: The in_addr structure represents an IPv4 Internet address.
 old-location: winsock\in_addr_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: fc41a2d1-ea6e-41bb-b2c8-531ac8b5434c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

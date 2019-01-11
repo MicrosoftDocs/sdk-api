@@ -4,7 +4,7 @@ title: SetAddrInfoExW function
 author: windows-sdk-content
 description: Registers or deregisters a name, a service name, and associated addresses with a specific namespace provider.
 old-location: winsock\setaddrinfoex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 6d3c5b97-32ce-4eb5-a047-d9b37c37cdda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DdCreateSurfaceObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdCreateSurfaceObject function and creates a kernel-mode surface object. GdiEntry4 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatesurfaceobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatesurfaceobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

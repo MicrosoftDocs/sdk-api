@@ -4,7 +4,7 @@ title: IUpdateInstaller::EndInstall
 author: windows-sdk-content
 description: Completes an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_endinstall.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7137164c-2b82-48dc-8488-6c8872896a39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

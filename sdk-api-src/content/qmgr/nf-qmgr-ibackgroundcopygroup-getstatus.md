@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::GetStatus
 author: windows-sdk-content
 description: Use the GetStatus method to retrieve the state of the group.
 old-location: bits\ibackgroundcopygroup_getstatus.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9ac76e50-a2cf-4dfb-af7e-803ee483f0f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

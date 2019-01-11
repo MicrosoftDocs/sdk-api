@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate5::get_AutoSelection
 author: windows-sdk-content
 description: Gets an AutoSelectionMode value indicating the automatic selection mode of an update in the Control Panel of Windows Update.
 old-location: wua\iwindowsdriverupdate5_autoselection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 23b7c124-5cb9-4a2d-9f85-d015cfa980ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSCUnInstallNameSpace32 function
 author: windows-sdk-content
 description: Uninstalls a specific 32-bit namespace provider.
 old-location: winsock\wscuninstallnamespace32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a2a08159-6ac0-493d-8f9f-d19aa199a65f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

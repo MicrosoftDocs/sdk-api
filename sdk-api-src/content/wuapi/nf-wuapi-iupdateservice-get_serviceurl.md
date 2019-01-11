@@ -4,7 +4,7 @@ title: IUpdateService::get_ServiceUrl
 author: windows-sdk-content
 description: Retrieves the URL for the service.
 old-location: wua\iupdateservice_serviceurl.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6671dabb-a13d-45cc-9a1d-5ee538dec09f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

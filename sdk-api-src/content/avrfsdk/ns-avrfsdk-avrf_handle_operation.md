@@ -4,7 +4,7 @@ title: AVRF_HANDLE_OPERATION
 author: windows-sdk-content
 description: Contains information required to collect handle trace information.
 old-location: winprog\avrf_handle_operation.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

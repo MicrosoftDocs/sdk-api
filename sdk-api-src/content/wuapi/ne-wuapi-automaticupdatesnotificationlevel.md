@@ -4,7 +4,7 @@ title: AutomaticUpdatesNotificationLevel
 author: windows-sdk-content
 description: Defines the possible ways in which elevated users are notified about Automatic Updates events.
 old-location: wua\automaticupdatesnotificationlevel.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a326400b-d6df-4947-8ab8-126d357834c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

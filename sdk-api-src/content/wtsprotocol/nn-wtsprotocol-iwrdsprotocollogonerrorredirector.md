@@ -4,7 +4,7 @@ title: IWRdsProtocolLogonErrorRedirector
 author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.
 old-location: termserv\iwrdsprotocollogonerrorredirector.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 43c283f5-c902-49cc-81a0-15fc6316c7d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

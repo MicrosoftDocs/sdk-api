@@ -4,7 +4,7 @@ title: WSAPROTOCOL_INFOA
 author: windows-sdk-content
 description: Used to store or retrieve complete information for a given protocol.
 old-location: winsock\wsaprotocol_info_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 758c5553-056f-4ea5-a851-30ef641ffb14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

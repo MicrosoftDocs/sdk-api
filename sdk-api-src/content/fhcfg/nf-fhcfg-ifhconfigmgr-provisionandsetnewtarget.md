@@ -4,7 +4,7 @@ title: IFhConfigMgr::ProvisionAndSetNewTarget
 author: windows-sdk-content
 description: Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
 old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 9C9FA696-CFB2-4814-96D5-2B9B6A2AB426
 ms.author: windowssdkdev
 ms.date: 12/5/2018

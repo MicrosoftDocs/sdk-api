@@ -4,7 +4,7 @@ title: SOCKET_SECURITY_SETTINGS
 author: windows-sdk-content
 description: Specifies generic security requirements for a socket.
 old-location: winsock\socket_security_settings.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9c47efb4-dd3e-4db9-a659-003292e2c5e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

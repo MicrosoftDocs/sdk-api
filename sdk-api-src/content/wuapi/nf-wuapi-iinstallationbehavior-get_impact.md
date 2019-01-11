@@ -4,7 +4,7 @@ title: IInstallationBehavior::get_Impact
 author: windows-sdk-content
 description: Gets an InstallationImpact enumeration that indicates how the installation or uninstallation of the update affects the computer.
 old-location: wua\iinstallationbehavior_impact.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c3749335-cfaf-46f3-afeb-3b8b4507467e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

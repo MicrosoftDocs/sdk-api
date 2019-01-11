@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::Suspend
 author: windows-sdk-content
 description: Suspends a job. New jobs, jobs that are in error, and jobs that have finished transferring files are automatically suspended.
 old-location: bits\ibackgroundcopyjob_suspend.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 88429730-b8e5-4969-934c-f0945fdd46a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

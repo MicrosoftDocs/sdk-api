@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetDescription
 author: windows-sdk-content
 description: Provides a description of the job.
 old-location: bits\ibackgroundcopyjob_setdescription.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.author: windowssdkdev
 ms.date: 12/5/2018

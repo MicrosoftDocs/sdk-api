@@ -4,7 +4,7 @@ title: DCIEndAccess function
 author: windows-sdk-content
 description: Releases access to display frame buffer.
 old-location: winprog\_dciman_dciendaccess.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciendaccess.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

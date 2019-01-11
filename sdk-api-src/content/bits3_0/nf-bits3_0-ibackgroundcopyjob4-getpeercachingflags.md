@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4::GetPeerCachingFlags
 author: windows-sdk-content
 description: Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
 old-location: bits\ibackgroundcopyjob4_getpeercachingflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

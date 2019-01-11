@@ -4,7 +4,7 @@ title: CCAB
 author: windows-sdk-content
 description: The CCAB structure contains cabinet information.
 old-location: winprog\ccab.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

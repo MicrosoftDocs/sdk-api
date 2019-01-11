@@ -4,7 +4,7 @@ title: GetNameInfoW function
 author: windows-sdk-content
 description: Provides protocol-independent name resolution from an address to a Unicode host name and from a port number to the Unicode service name.
 old-location: winsock\getnameinfow.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5630a49a-c182-440c-ad54-6ff3ba4274c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

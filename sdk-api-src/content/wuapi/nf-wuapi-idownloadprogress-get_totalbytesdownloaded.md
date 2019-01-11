@@ -4,7 +4,7 @@ title: IDownloadProgress::get_TotalBytesDownloaded
 author: windows-sdk-content
 description: Gets a string that specifies the total amount of data that has been downloaded, in bytes.
 old-location: wua\idownloadprogress_totalbytesdownloaded.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 83d8f7d2-e06d-461a-be45-ebbb448b2480
 ms.author: windowssdkdev
 ms.date: 12/5/2018

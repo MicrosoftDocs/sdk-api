@@ -4,7 +4,7 @@ title: connect function
 author: windows-sdk-content
 description: The connect function establishes a connection to a specified socket.
 old-location: winsock\connect_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

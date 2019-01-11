@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetProxySettings
 author: windows-sdk-content
 description: Specifies which proxy to use to transfer files.
 old-location: bits\ibackgroundcopyjob_setproxysettings.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: fd21a17b-1049-4dd9-a08b-da84699b8006
 ms.author: windowssdkdev
 ms.date: 12/5/2018

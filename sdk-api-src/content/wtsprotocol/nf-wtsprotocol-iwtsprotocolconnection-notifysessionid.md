@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::NotifySessionId
 author: windows-sdk-content
 description: IWTSProtocolConnection::NotifySessionId is no longer available. Instead, use IWRdsProtocolConnection::NotifySessionId.
 old-location: termserv\iwtsprotocolconnection_notifysessionid.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 5a545f66-7143-419d-9e0c-a96070472ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

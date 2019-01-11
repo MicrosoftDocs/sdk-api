@@ -4,7 +4,7 @@ title: LPNSPLOOKUPSERVICENEXT
 author: windows-sdk-content
 description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\nsplookupservicenext_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

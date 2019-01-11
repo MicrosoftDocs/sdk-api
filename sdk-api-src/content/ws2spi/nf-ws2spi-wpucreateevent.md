@@ -4,7 +4,7 @@ title: WPUCreateEvent function
 author: windows-sdk-content
 description: The WPUCreateEvent function creates a new event object.
 old-location: winsock\wpucreateevent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 61e71e93-e35f-4122-bd4d-c103f652d2ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: TP:dxmath
 ms.assetid: 31d9cfe2-2d9e-3607-827d-7ef612e38185
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

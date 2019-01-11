@@ -4,7 +4,7 @@ title: ITsSbResourcePluginStore::SetEnvironmentProperty
 author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a120ff15-2d78-4bca-b470-0eb03933a4d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

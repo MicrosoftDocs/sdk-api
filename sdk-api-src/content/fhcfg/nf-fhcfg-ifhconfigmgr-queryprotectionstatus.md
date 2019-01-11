@@ -4,7 +4,7 @@ title: IFhConfigMgr::QueryProtectionStatus
 author: windows-sdk-content
 description: Retrieves the current File History protection state.
 old-location: winprog\ifhconfigmgr_queryprotectionstatus.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 662B1F54-D50D-4434-BD81-DF600D28B573
 ms.author: windowssdkdev
 ms.date: 12/5/2018

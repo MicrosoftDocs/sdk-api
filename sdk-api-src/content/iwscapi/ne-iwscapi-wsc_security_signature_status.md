@@ -4,7 +4,7 @@ title: WSC_SECURITY_SIGNATURE_STATUS
 author: windows-sdk-content
 description: Reports the current version status of the security product to Windows Security Center.
 old-location: winprog\wsc_security_signature_status.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

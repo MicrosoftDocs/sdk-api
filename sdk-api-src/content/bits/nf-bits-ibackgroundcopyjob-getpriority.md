@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetPriority
 author: windows-sdk-content
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
 ms.author: windowssdkdev
 ms.date: 12/5/2018

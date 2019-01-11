@@ -4,7 +4,7 @@ title: IEditionUpgradeHelper::GetOsProductContentId
 author: windows-sdk-content
 description: Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
 old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
 ms.author: windowssdkdev
 ms.date: 12/5/2018

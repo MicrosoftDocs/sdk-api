@@ -2,7 +2,7 @@
 UID: NA:cscobj
 ms.assetid: 9cc082e3-9819-3507-b9ff-9018d3ecc51f
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

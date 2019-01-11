@@ -4,7 +4,7 @@ title: IUpdate::get_IsMandatory
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation of the update is mandatory.
 old-location: wua\iupdate_ismandatory.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 5052914f-7b92-4637-b188-dce4a8e15328
 ms.author: windowssdkdev
 ms.date: 12/5/2018

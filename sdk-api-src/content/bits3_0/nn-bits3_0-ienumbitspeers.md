@@ -4,7 +4,7 @@ title: IEnumBitsPeers
 author: windows-sdk-content
 description: Use IEnumBitsPeers to enumerate the list of peers that BITS has discovered.
 old-location: bits\ienumbitspeers.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2715a58c-ba76-4223-ad9e-453d029e0eda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

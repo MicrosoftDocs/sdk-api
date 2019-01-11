@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate::get_DriverModel
 author: windows-sdk-content
 description: Gets the language-invariant model name of the device for which the Windows driver update is intended.
 old-location: wua\iwindowsdriverupdate_drivermodel.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d7139893-6090-441d-962b-e94ac2205f9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

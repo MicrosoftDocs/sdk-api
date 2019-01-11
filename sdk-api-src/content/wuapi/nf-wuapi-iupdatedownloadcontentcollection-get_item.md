@@ -4,7 +4,7 @@ title: IUpdateDownloadContentCollection::get_Item
 author: windows-sdk-content
 description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
 old-location: wua\iupdatedownloadcontentcollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 64684a77-e264-40a5-a517-e4b58947c613
 ms.author: windowssdkdev
 ms.date: 12/5/2018

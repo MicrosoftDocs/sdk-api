@@ -4,7 +4,7 @@ title: IUpdateServiceManager2::AddService2
 author: windows-sdk-content
 description: Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_addservice2_methods.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893
 ms.author: windowssdkdev
 ms.date: 12/5/2018

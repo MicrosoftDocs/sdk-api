@@ -4,7 +4,7 @@ title: IUpdateIdentity::get_UpdateID
 author: windows-sdk-content
 description: Gets the revision-independent identifier of an update.
 old-location: wua\iupdateidentity_updateid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 072c85a7-bcac-4323-97df-75aa2b89f1ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

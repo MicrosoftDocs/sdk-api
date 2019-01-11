@@ -2,7 +2,7 @@
 UID: NA:d3d11shadertracing
 ms.assetid: 7194b51c-404a-32d5-b462-985ef4139fdf
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

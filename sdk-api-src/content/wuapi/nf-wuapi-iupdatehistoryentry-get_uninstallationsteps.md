@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_UninstallationSteps
 author: windows-sdk-content
 description: Gets the IStringCollection interface that contains the uninstallation steps for an update.
 old-location: wua\iupdatehistoryentry_uninstallationsteps.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 28c3db7b-a212-40d8-8557-02509675db5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbTaskPluginNotifySink
 author: windows-sdk-content
 description: Exposes methods that report status and error messages about tasks to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbtaskpluginnotifysink.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: dc1b56f3-ea5f-4df5-b90a-ce24c36aee21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

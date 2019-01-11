@@ -4,7 +4,7 @@ title: IWSCProductList::get_Item
 author: windows-sdk-content
 description: Returns one of the types of providers on the computer.
 old-location: winprog\iwscproductlist_item.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

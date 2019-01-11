@@ -4,7 +4,7 @@ title: IUpdateExceptionCollection::get_Item
 author: windows-sdk-content
 description: Gets an IUpdateException interface in the collection.
 old-location: wua\iupdateexceptioncollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 62f3992a-a295-4036-a488-cca0945574ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

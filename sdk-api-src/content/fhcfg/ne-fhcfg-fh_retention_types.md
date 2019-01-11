@@ -4,7 +4,7 @@ title: FH_RETENTION_TYPES
 author: windows-sdk-content
 description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
 old-location: winprog\fh_retention_types.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

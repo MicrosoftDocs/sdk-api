@@ -4,7 +4,7 @@ title: BG_JOB_PRIORITY
 author: windows-sdk-content
 description: The BG_JOB_PRIORITY enumeration defines the constant values that specify the priority level of a job.
 old-location: bits\bg_job_priority.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

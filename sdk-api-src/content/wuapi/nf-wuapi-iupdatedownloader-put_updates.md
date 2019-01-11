@@ -4,7 +4,7 @@ title: IUpdateDownloader::put_Updates
 author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
 old-location: wua\iupdatedownloader_updates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7c0444be-a9eb-461a-858e-1dea670afd06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

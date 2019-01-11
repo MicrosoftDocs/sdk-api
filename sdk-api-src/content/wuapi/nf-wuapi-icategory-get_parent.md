@@ -4,7 +4,7 @@ title: ICategory::get_Parent
 author: windows-sdk-content
 description: Gets an interface that describes the parent category of this category.
 old-location: wua\icategory_parent.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 29d93cd6-3ecf-44f8-8481-267c3e88be50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

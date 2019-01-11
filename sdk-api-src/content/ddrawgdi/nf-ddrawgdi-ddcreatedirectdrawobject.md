@@ -4,7 +4,7 @@ title: DdCreateDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdCreateDirectDrawObject function and creates a kernel-side representation of the Microsoft DirectDraw object.
 old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

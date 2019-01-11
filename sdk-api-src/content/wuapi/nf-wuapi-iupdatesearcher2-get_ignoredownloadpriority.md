@@ -4,7 +4,7 @@ title: IUpdateSearcher2::get_IgnoreDownloadPriority
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether to ignore the download priority.
 old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7c33a9c0-d77b-4ba1-9df4-152f47508d48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

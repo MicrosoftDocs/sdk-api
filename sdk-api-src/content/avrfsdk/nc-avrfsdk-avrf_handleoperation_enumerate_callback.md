@@ -4,7 +4,7 @@ title: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK
 author: windows-sdk-content
 description: Receives information related to the enumeration of handle traces.
 old-location: winprog\avrf_handleoperation_enumerate_callback.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 55949e7b-f47e-4b19-9c1d-e398db3e5ea7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::ClearRecords
 author: windows-sdk-content
 description: Removes all the records and files from the cache.
 old-location: bits\ibitspeercacheadministration_clearrecords.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 96e18c5d-6c76-4953-8e8e-3e98943478d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

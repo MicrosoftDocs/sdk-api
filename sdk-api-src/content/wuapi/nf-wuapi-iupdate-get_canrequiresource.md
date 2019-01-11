@@ -4,7 +4,7 @@ title: IUpdate::get_CanRequireSource
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the source media of the update is required for installation or uninstallation.
 old-location: wua\iupdate_canrequiresource.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 45d1cdb1-6aab-4119-8cd5-a4217c9adc3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

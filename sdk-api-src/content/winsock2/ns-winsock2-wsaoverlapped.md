@@ -4,7 +4,7 @@ title: WSAOVERLAPPED
 author: windows-sdk-content
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
 old-location: winsock\wsaoverlapped_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.author: windowssdkdev
 ms.date: 12/5/2018

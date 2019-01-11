@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_HResult
 author: windows-sdk-content
 description: Gets the HRESULT value that is returned from the operation on an update.
 old-location: wua\iupdatehistoryentry_hresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7e1968f9-548c-4002-848b-9443d12ea0a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

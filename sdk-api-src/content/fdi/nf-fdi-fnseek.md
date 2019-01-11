@@ -4,7 +4,7 @@ title: FNSEEK macro
 author: windows-sdk-content
 description: The FNSEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FDI context.
 old-location: winprog\fnseek.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

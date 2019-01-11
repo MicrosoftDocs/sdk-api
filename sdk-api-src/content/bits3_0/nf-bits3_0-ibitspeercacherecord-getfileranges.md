@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord::GetFileRanges
 author: windows-sdk-content
 description: Gets the ranges of the file that are in the cache.
 old-location: bits\ibitspeercacherecord_getfileranges.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 63f9821c-f5b6-4646-96e0-4ec61ce16e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

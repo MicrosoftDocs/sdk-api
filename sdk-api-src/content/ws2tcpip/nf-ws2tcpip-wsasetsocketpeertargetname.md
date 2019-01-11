@@ -4,7 +4,7 @@ title: WSASetSocketPeerTargetName function
 author: windows-sdk-content
 description: Is used to specify the peer target name (SPN) that corresponds to a peer IP address. This target name is meant to be specified by client applications to securely identify the peer that should be authenticated.
 old-location: winsock\wsasetsocketpeertargetname.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c293658c-d7f9-411d-b6c1-a333592a741c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

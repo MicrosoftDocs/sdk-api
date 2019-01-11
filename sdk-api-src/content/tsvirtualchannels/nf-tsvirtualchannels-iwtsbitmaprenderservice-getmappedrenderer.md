@@ -4,7 +4,7 @@ title: IWTSBitmapRenderService::GetMappedRenderer
 author: windows-sdk-content
 description: Obtains the bitmap rendering object used to render media on the server.
 old-location: termserv\iwtsbitmaprenderservice_getmappedrenderer.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1a5f8ddb-eaf6-4138-8bb7-4d513aff88b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

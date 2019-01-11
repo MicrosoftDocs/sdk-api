@@ -4,7 +4,7 @@ title: BG_JOB_REPLY_PROGRESS
 author: windows-sdk-content
 description: The BG_JOB_REPLY_PROGRESS structure provides progress information related to the reply portion of an upload-reply job.
 old-location: bits\bg_job_reply_progress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

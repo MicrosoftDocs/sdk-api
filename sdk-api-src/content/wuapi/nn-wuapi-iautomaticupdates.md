@@ -4,7 +4,7 @@ title: IAutomaticUpdates
 author: windows-sdk-content
 description: Contains the functionality of Automatic Updates.
 old-location: wua\iautomaticupdates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b5f05e2a-ad60-4d4c-8bdd-1c03df3d508d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdate::get_Description
 author: windows-sdk-content
 description: Gets the localized description of the update.
 old-location: wua\iupdate_description.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

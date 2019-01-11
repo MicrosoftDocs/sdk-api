@@ -4,7 +4,7 @@ title: ISearchJob::CleanUp
 author: windows-sdk-content
 description: Waits for an asynchronous operation to complete and then releases all the callbacks.
 old-location: wua\isearchjob_cleanup.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 35f345ac-cf5b-4ba6-9422-5d9da449bcdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

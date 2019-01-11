@@ -4,7 +4,7 @@ title: IWTSBitmapRenderer::RemoveMapping
 author: windows-sdk-content
 description: Called by a dynamic virtual channel plug-in to remove a render mapping.
 old-location: termserv\iwtsbitmaprenderer_removemapping.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 7961ba11-4ef8-4b08-8c50-68bd26999dc2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

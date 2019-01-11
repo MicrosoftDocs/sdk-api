@@ -4,7 +4,7 @@ title: NS_SERVICE_INFOW
 author: windows-sdk-content
 description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
 old-location: winsock\ns_service_info_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5bcdeddf-2971-491b-9cf4-70595d3a7ff1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

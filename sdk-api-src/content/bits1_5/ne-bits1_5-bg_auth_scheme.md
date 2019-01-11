@@ -4,7 +4,7 @@ title: BG_AUTH_SCHEME
 author: windows-sdk-content
 description: The BG_AUTH_SCHEME enumeration defines the constant values that specify the authentication scheme to use when a proxy or server requests user authentication.
 old-location: bits\bg_auth_scheme.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e5a97cee-0012-4e30-850a-9adc258a36d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

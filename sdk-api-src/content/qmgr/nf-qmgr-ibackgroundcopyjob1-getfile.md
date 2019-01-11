@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::GetFile
 author: windows-sdk-content
 description: Use the GetFile method to retrieve the remote and local file names for the given file in the job.
 old-location: bits\ibackgroundcopyjob1_getfile.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6cd680cc-abe0-44e1-a650-079295a8dd4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

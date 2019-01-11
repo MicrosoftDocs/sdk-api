@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::AddFile
 author: windows-sdk-content
 description: Adds a single file to the job.
 old-location: bits\ibackgroundcopyjob_addfile.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

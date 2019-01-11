@@ -4,7 +4,7 @@ title: INET_PORT_RANGE
 author: windows-sdk-content
 description: Provides input data used by the SIO_ACQUIRE_PORT_RESERVATION IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
 old-location: winsock\inet_port_range.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: FE6946CF-61B6-422C-B9B8-5045EFAB705F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

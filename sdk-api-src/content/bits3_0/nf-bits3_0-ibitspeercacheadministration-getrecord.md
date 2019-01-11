@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::GetRecord
 author: windows-sdk-content
 description: Gets a record from the cache.
 old-location: bits\ibitspeercacheadministration_getrecord.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 7dd32e9c-bf4e-4dbf-aa9f-9ffbf98d3f1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

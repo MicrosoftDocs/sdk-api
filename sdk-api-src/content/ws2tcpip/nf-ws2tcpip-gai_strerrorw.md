@@ -4,7 +4,7 @@ title: gai_strerrorW function
 author: windows-sdk-content
 description: The gai_strerror function assists in printing error messages based on the EAI_* errors returned by the getaddrinfo function.
 old-location: winsock\gai_strerror_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 00b4c5de-89c9-419f-bff8-822ef0446697
 ms.author: windowssdkdev
 ms.date: 12/5/2018

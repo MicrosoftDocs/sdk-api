@@ -4,7 +4,7 @@ title: ITsSbTaskInfo::get_EndTime
 author: windows-sdk-content
 description: Retrieves the latest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_endtime.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3bf8b99f-02d2-41b4-82e1-7403b827b701
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFhConfigMgr::GetLocalPolicy
 author: windows-sdk-content
 description: Retrieves the numeric parameter for a local policy for the File History feature.
 old-location: winprog\ifhconfigmgr_getlocalpolicy.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 380B77C3-CA93-48D6-9915-FB788CF24C99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

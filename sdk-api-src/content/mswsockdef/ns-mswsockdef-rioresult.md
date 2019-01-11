@@ -4,7 +4,7 @@ title: RIORESULT
 author: windows-sdk-content
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

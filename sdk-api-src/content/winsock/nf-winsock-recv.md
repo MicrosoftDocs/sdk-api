@@ -4,7 +4,7 @@ title: recv function
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\recv_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

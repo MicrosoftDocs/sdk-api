@@ -4,7 +4,7 @@ title: AutomaticUpdatesScheduledInstallationDay
 author: windows-sdk-content
 description: Defines the days of the week when Automatic Updates installs or uninstalls updates.
 old-location: wua\automaticupdatesscheduledinstallationday.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8c7525bf-e15f-4c30-8e16-4b945d73f3cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

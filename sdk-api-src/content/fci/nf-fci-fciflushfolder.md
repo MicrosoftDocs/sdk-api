@@ -4,7 +4,7 @@ title: FCIFlushFolder function
 author: windows-sdk-content
 description: The FCIFlushFolder function forces the current folder under construction to be completed immediately.
 old-location: winprog\fciflushfolder.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

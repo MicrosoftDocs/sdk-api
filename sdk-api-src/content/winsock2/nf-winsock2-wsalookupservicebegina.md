@@ -4,7 +4,7 @@ title: WSALookupServiceBeginA function
 author: windows-sdk-content
 description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
 old-location: winsock\wsalookupservicebegin_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 448309ef-b9dd-4960-8016-d26691df59ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

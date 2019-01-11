@@ -4,7 +4,7 @@ title: IWTSProtocolShadowConnection::DoTarget
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.
 old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

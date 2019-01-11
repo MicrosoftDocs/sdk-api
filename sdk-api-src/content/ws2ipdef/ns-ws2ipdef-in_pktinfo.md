@@ -4,7 +4,7 @@ title: IN_PKTINFO
 author: windows-sdk-content
 description: The in_pktinfo structure is used to store received packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv4 address to use for sending packets.
 old-location: winsock\in_pktinfo_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
 ms.author: windowssdkdev
 ms.date: 12/5/2018

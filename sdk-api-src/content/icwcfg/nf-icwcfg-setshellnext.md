@@ -4,7 +4,7 @@ title: SetShellNext function
 author: windows-sdk-content
 description: Sets the ShellNext registry key with the specified value.
 old-location: winprog\setshellnext.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

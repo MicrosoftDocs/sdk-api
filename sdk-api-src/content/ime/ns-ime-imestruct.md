@@ -4,7 +4,7 @@ title: IMESTRUCT
 author: windows-sdk-content
 description: Used by SendIMEMessageEx to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
 old-location: winprog\_win32_imestruct.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\imestruct.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

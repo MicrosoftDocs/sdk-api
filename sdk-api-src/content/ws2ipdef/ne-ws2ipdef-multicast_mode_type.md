@@ -4,7 +4,7 @@ title: MULTICAST_MODE_TYPE
 author: windows-sdk-content
 description: Specifies the filter mode for multicast group addresses.
 old-location: winsock\multicast_mode_type.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7ca9cb9b-618a-4e73-9e2a-18e55e5c00c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

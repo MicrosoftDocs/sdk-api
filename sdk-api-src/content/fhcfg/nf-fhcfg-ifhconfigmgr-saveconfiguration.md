@@ -4,7 +4,7 @@ title: IFhConfigMgr::SaveConfiguration
 author: windows-sdk-content
 description: Saves to disk all the changes that were made in an FhConfigMgr object since the last time that the LoadConfiguration, CreateDefaultConfiguration or SaveConfiguration method was called for the File History configuration files of the current user.
 old-location: winprog\ifhconfigmgr_saveconfiguration.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 71D6E732-927B-4AA4-9947-6E52B09FF5B8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

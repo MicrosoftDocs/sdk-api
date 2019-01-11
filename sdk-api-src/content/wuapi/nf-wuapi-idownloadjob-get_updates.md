@@ -4,7 +4,7 @@ title: IDownloadJob::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in a download.
 old-location: wua\idownloadjob_updates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 43ceffc8-f045-4cac-976a-2357ab0d1283
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IInstallationCompletedCallbackArgs
 author: windows-sdk-content
 description: Contains information about the completion of an installation and acts as a parameter to the IInstallationCompletedCallback delegate. The download and installation of the update is asynchronous.
 old-location: wua\iinstallationcompletedcallbackargs.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 89499136-ae6e-48ff-ad33-6247c8659f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

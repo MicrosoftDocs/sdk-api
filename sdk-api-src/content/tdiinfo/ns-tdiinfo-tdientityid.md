@@ -4,7 +4,7 @@ title: TDIEntityID
 author: windows-sdk-content
 description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tdientityid.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

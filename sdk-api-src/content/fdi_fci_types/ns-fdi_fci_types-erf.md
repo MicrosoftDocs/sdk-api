@@ -4,7 +4,7 @@ title: ERF
 author: windows-sdk-content
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
 old-location: winprog\erf.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_SupportUrl
 author: windows-sdk-content
 description: Gets a hyperlink to the language-specific support information for an update.
 old-location: wua\iupdatehistoryentry_supporturl.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8dabc5db-2741-4399-9cfc-eb79613e0d57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

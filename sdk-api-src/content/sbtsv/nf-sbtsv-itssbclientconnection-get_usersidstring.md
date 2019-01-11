@@ -4,7 +4,7 @@ title: ITsSbClientConnection::get_UserSidString
 author: windows-sdk-content
 description: User SID as a string.
 old-location: termserv\itssbclientconnection_usersidstring.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

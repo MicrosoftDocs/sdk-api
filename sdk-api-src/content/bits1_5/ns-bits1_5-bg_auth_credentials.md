@@ -4,7 +4,7 @@ title: BG_AUTH_CREDENTIALS
 author: windows-sdk-content
 description: The BG_AUTH_CREDENTIALS structure identifies the target (proxy or server), authentication scheme, and the user's credentials to use for user authentication requests. The structure is passed to the IBackgroundCopyJob2::SetCredentials method.
 old-location: bits\bg_auth_credentials.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: f89ebf46-da83-495c-bafe-b2e0f72f5d8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

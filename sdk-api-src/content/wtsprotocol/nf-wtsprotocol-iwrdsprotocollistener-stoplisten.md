@@ -4,7 +4,7 @@ title: IWRdsProtocolListener::StopListen
 author: windows-sdk-content
 description: Notifies the protocol to stop listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_stoplisten.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bfb758e8-3d71-47b9-bf7d-075c0c401177
 ms.author: windowssdkdev
 ms.date: 12/5/2018

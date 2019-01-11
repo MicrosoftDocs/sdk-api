@@ -4,7 +4,7 @@ title: FEATURE_ENABLED_STATE
 author: windows-sdk-content
 description: This enumeration is intended for infrastructure use only.
 old-location: winprog\feature_enabled_state.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 3517732F-926F-4A64-90EE-7923D03270AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

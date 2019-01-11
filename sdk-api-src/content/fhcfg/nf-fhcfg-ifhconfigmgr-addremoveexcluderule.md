@@ -4,7 +4,7 @@ title: IFhConfigMgr::AddRemoveExcludeRule
 author: windows-sdk-content
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8900944D-3B73-49AB-AE26-F0B2D5842B02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

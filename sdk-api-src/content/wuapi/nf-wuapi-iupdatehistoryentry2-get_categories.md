@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry2::get_Categories
 author: windows-sdk-content
 description: Gets a collection of the update categories to which an update belongs.
 old-location: wua\iupdatehistoryentry2_categories.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

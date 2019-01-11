@@ -4,7 +4,7 @@ title: IUpdateInstaller::get_ParentWindow
 author: windows-sdk-content
 description: Gets and sets the interface that represents the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parentwindow.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

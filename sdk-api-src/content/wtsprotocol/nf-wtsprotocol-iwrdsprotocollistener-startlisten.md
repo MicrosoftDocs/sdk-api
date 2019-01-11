@@ -4,7 +4,7 @@ title: IWRdsProtocolListener::StartListen
 author: windows-sdk-content
 description: Notifies the protocol to start listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_startlisten.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d3797411-2ac6-4d3c-8c90-5c566e6d8fa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

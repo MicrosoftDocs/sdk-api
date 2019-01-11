@@ -4,7 +4,7 @@ title: WSCInstallNameSpace32 function
 author: windows-sdk-content
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespace32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: b107fbe6-bbfb-45be-8419-4d85d3c4e80c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyError::GetErrorDescription
 author: windows-sdk-content
 description: Retrieves the error text associated with the error.
 old-location: bits\ibackgroundcopyerror_geterrordescription.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 57323f38-c2e6-4e40-b357-7df758899f97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

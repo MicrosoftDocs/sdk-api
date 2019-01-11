@@ -4,7 +4,7 @@ title: IFhReassociation::ValidateTarget
 author: windows-sdk-content
 description: This method checks whether a certain storage device or network share can be used as a File History default target and, thus, whether reassociation is possible at all or not.
 old-location: winprog\ifhreassociation_validatetarget.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 307F2C8F-B847-437C-BDD7-BE09FD407C79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

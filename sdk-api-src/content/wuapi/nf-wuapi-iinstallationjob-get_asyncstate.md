@@ -4,7 +4,7 @@ title: IInstallationJob::get_AsyncState
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateInstaller.BeginInstall method or to the IUpdateInstaller.BeginUninstall method.
 old-location: wua\iinstallationjob_asyncstate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ff3632de-4fb7-4e82-a642-9c9b38f4063c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

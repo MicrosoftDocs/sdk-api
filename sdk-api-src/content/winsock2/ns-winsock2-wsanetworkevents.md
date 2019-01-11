@@ -4,7 +4,7 @@ title: WSANETWORKEVENTS
 author: windows-sdk-content
 description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.
 old-location: winsock\wsanetworkevents_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 72ae4aa8-4e15-4215-8dcb-45e394ac1313
 ms.author: windowssdkdev
 ms.date: 12/5/2018

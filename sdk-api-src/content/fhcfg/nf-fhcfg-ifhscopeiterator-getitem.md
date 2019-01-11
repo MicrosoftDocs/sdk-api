@@ -4,7 +4,7 @@ title: IFhScopeIterator::GetItem
 author: windows-sdk-content
 description: Retrieves the current item in an inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_getitem.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

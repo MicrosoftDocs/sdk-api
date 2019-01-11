@@ -4,7 +4,7 @@ title: IBackgroundCopyJob2::SetCredentials
 author: windows-sdk-content
 description: Specifies the credentials to use for a proxy or remote server user authentication request.
 old-location: bits\ibackgroundcopyjob2_setcredentials.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

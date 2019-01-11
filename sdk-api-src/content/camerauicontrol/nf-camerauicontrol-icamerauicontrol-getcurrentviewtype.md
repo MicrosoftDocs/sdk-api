@@ -4,7 +4,7 @@ title: ICameraUIControl::GetCurrentViewType
 author: windows-sdk-content
 description: Gets the type of the current view.
 old-location: winprog\icamerauicontrol_getcurrentviewtype.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 1037db43-58db-4131-9a7d-d392250e133a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

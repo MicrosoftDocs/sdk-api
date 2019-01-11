@@ -4,7 +4,7 @@ title: IBackgroundCopyError::GetFile
 author: windows-sdk-content
 description: Retrieves an interface pointer to the file object associated with the error.
 old-location: bits\ibackgroundcopyerror_getfile.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 7b6d4bd4-2102-4e6b-b250-1d73fae94cf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

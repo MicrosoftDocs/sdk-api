@@ -4,7 +4,7 @@ title: AFPROTOCOLS
 author: windows-sdk-content
 description: The AFPROTOCOLS structure supplies a list of protocols to which application programmers can constrain queries. The AFPROTOCOLS structure is used for query purposes only.
 old-location: winsock\afprotocols_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

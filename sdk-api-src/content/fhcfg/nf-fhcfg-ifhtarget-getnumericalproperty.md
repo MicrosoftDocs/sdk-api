@@ -4,7 +4,7 @@ title: IFhTarget::GetNumericalProperty
 author: windows-sdk-content
 description: Retrieves a numeric property of the File History backup target that is represented by an IFhTarget interface.
 old-location: winprog\ifhtarget_getnumericalproperty.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

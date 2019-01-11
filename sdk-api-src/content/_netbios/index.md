@@ -2,7 +2,7 @@
 UID: TP:netbios
 ms.assetid: 56c0f787-fc02-3057-a19f-746dbdfe8392
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

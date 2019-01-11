@@ -4,7 +4,7 @@ title: IFhConfigMgr::SetLocalPolicy
 author: windows-sdk-content
 description: Changes the numeric parameter value of a local policy in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setlocalpolicy.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: A1106349-6B14-4A44-B845-7853FA1919D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

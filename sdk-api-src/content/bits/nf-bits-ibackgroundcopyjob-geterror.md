@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetError
 author: windows-sdk-content
 description: Retrieves the error interface after an error occurs.
 old-location: bits\ibackgroundcopyjob_geterror.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2ad4c913-2d1e-4490-968c-960178a57e3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

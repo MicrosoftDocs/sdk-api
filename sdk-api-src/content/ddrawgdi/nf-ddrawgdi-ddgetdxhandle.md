@@ -4,7 +4,7 @@ title: DdGetDxHandle function
 author: windows-sdk-content
 description: Returns the kernel-mode Microsoft DirectX  API handle to use in subsequent calls to the kernel-mode entry points that control the DirectX  API mechanism.
 old-location: winprog\_dxgkernel_ddgetdxhandle.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdxhandle.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

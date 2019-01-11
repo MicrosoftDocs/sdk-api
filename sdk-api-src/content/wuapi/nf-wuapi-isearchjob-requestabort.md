@@ -4,7 +4,7 @@ title: ISearchJob::RequestAbort
 author: windows-sdk-content
 description: Makes a request to cancel the asynchronous search.
 old-location: wua\isearchjob_requestabort.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ceedfa28-eef3-4707-8e3a-e59ad45dbea7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetMinimumRetryDelay
 author: windows-sdk-content
 description: Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_setminimumretrydelay.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

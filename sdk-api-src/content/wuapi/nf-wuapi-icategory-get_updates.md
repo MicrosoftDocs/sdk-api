@@ -4,7 +4,7 @@ title: ICategory::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a collection of updates that immediately belong to the category.
 old-location: wua\icategory_updates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f611b2df-c77f-4df0-8d7d-c8ed18f0222a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSAAsyncGetHostByName function
 author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 1a2b9c76-6e84-4ac2-b5c1-a2268edd0c49
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -60,22 +60,49 @@ The
 
 
 
-### -param hWnd [in]
+### -param hWnd
+
+TBD
+
+
+### -param wMsg
+
+TBD
+
+
+### -param name
+
+TBD
+
+
+### -param buf
+
+TBD
+
+
+### -param buflen
+
+TBD
+
+
+
+
+#### - a [in]
 
 Handle of the window that will receive a message when the asynchronous request completes.
 
 
-### -param wMsg [in]
+#### - b [in]
 
 Message to be received when the asynchronous request completes.
 
 
-### -param name [in]
+#### - c [in]
 
 Pointer to the null-terminated name of the host.
 
 
-### -param buf [out]
+#### - d [out]
 
 Pointer to the data area to receive the 
 <a href="https://msdn.microsoft.com/f194b9d5-dfaf-4a02-95c6-6d06015aad1d">hostent</a> data. The data area must be larger than the size of a 
@@ -84,7 +111,7 @@ Pointer to the data area to receive the
 <b>hostent</b> structure. A buffer of MAXGETHOSTSTRUCT bytes is recommended.
 
 
-### -param buflen [in]
+#### - e [in]
 
 Size of data area for the <i>buf</i> parameter, in bytes.
 

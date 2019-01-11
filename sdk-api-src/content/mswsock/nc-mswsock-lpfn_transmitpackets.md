@@ -4,7 +4,7 @@ title: LPFN_TRANSMITPACKETS
 author: windows-sdk-content
 description: Transmits in-memory data or file data over a connected socket.
 old-location: winsock\transmitpackets_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c574d320-2a90-40bb-b34c-6023e80514e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

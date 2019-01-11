@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback2
 author: windows-sdk-content
 description: Implement this interface to receive notification that a file has completed downloading.
 old-location: bits\ibackgroundcopycallback2.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9bbc323c-0caf-46a9-ba25-e72a2c6ae363
 ms.author: windowssdkdev
 ms.date: 12/5/2018

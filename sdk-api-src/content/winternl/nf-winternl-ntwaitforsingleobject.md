@@ -4,7 +4,7 @@ title: NtWaitForSingleObject function
 author: windows-sdk-content
 description: Deprecated. Waits until the specified object attains a state of signaled. NtWaitForSingleObject is superseded by WaitForSingleObject.
 old-location: winprog\ntwaitforsingleobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntwaitforsingleobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

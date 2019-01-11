@@ -4,7 +4,7 @@ title: DdAttachSurface function
 author: windows-sdk-content
 description: The DdAttachSurface function attaches two kernel-mode surface representations. GdiEntry11 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddattachsurface.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddattachsurface.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

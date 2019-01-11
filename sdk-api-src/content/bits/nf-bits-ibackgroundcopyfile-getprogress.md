@@ -4,7 +4,7 @@ title: IBackgroundCopyFile::GetProgress
 author: windows-sdk-content
 description: Retrieves information on the progress of the file transfer.
 old-location: bits\ibackgroundcopyfile_getprogress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e72ec5af-7c21-48f8-b027-76a6c9e67f5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

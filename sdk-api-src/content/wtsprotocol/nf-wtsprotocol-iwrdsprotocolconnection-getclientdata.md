@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetClientData
 author: windows-sdk-content
 description: Requests client settings from the protocol.
 old-location: termserv\iwrdsprotocolconnection_getclientdata.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 4005ff92-56ea-46ae-a546-e08a80303ef5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

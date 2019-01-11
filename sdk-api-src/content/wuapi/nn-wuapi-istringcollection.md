@@ -4,7 +4,7 @@ title: IStringCollection
 author: windows-sdk-content
 description: Represents an ordered list of strings.
 old-location: wua\istringcollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

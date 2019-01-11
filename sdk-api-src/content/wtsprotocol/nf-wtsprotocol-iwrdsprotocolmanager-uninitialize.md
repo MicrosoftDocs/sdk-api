@@ -4,7 +4,7 @@ title: IWRdsProtocolManager::Uninitialize
 author: windows-sdk-content
 description: Uninitializes the protocol manager.
 old-location: termserv\iwrdsprotocolmanager_uninitialize.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1d7bc6e3-798e-4dc8-8892-7be6992b67ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

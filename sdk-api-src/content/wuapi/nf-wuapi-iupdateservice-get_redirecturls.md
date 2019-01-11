@@ -4,7 +4,7 @@ title: IUpdateService::get_RedirectUrls
 author: windows-sdk-content
 description: Contains the URLs for the redirector cabinet file.
 old-location: wua\iupdateservice_redirecturls.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

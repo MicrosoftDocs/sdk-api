@@ -4,7 +4,7 @@ title: IDownloadJob::CleanUp
 author: windows-sdk-content
 description: Waits for an asynchronous operation to be completed and releases all callbacks.
 old-location: wua\idownloadjob_cleanup.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0910acbc-81d7-44ae-bae1-26c82b33d29b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

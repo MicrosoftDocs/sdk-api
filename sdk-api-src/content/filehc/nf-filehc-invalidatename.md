@@ -4,7 +4,7 @@ title: InvalidateName function
 author: windows-sdk-content
 description: Enables the user to remove a single name and all associated data from the name cache.
 old-location: winprog\_invalidatename.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

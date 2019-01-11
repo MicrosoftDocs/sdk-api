@@ -4,7 +4,7 @@ title: IUpdateSearcher::get_ClientApplicationID
 author: windows-sdk-content
 description: Identifies the current client application.
 old-location: wua\iupdatesearcherclientapplicationid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 5b9ae823-5304-4ec4-937e-684d35bd3aed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

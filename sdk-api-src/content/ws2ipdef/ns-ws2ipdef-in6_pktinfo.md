@@ -4,7 +4,7 @@ title: IN6_PKTINFO
 author: windows-sdk-content
 description: The in6_pktinfo structure is used to store received IPv6 packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv6 address to use for sending packets.
 old-location: winsock\in6_pktinfo_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d0f1006c-2b6f-4bc9-855b-e268c27f6ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

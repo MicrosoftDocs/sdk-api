@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCode value that specifies the result of an operation on an update.
 old-location: wua\iupdatehistoryentry_resultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4137dbea-bb68-4187-a8fd-902cb94c4342
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IInstallationResult::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
 old-location: wua\iinstallationresult_rebootrequired.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7a865933-53f7-4d3e-88cf-088acedeed02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

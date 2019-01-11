@@ -4,7 +4,7 @@ title: IBackgroundCopyFile2::GetFileRanges
 author: windows-sdk-content
 description: Retrieves the ranges that you want to download from the remote file.
 old-location: bits\ibackgroundcopyfile2_getfileranges.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2e0ea08e-5f97-45c9-9280-ce6c4dce7a17
 ms.author: windowssdkdev
 ms.date: 12/5/2018
