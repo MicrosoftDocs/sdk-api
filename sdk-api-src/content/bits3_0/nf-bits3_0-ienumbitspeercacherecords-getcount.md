@@ -4,7 +4,7 @@ title: IEnumBitsPeerCacheRecords::GetCount
 author: windows-sdk-content
 description: Retrieves a count of the number of cache records in the enumeration.
 old-location: bits\ienumbitspeercacherecords_getcount.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 40c4e7da-031f-4c3b-ab18-2476b54ae972
 ms.author: windowssdkdev
 ms.date: 12/5/2018

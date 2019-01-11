@@ -4,7 +4,7 @@ title: IPV6_MREQ
 author: windows-sdk-content
 description: The ipv6_mreq structure provides multicast group information for IPv6 addresses.
 old-location: winsock\ipv6_mreq.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 672ce465-357c-450c-83a2-3cbdb28e018c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

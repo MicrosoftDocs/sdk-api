@@ -4,7 +4,7 @@ title: IUpdate::AcceptEula
 author: windows-sdk-content
 description: Accepts the Microsoft Software License Terms that are associated with Windows Update.
 old-location: wua\iupdate_accepteula.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SOCKET_ADDRESS
 author: windows-sdk-content
 description: SOCKET_ADDRESS structure stores protocol-specific address information.
 old-location: winsock\socket_address_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 37fbcb96-a859-4eca-8928-8051f95407b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FH_DEVICE_VALIDATION_RESULT
 author: windows-sdk-content
 description: Indicates whether the storage device or network share can be used as a File History backup target.
 old-location: winprog\fh_device_validation_result.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: DAADC244-D0F5-44F9-9F61-48E6C6EFB91A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

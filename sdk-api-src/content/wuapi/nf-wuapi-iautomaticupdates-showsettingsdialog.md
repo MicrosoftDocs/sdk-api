@@ -4,7 +4,7 @@ title: IAutomaticUpdates::ShowSettingsDialog
 author: windows-sdk-content
 description: Displays a dialog box that contains settings for Automatic Updates.
 old-location: wua\iautomaticupdates_showsettingsdialog.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: da153799-9414-4e8e-aed4-96e0fff9ca88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

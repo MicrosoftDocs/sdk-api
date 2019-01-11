@@ -4,7 +4,7 @@ title: IWorkspace::GetWorkspaceNames
 author: windows-sdk-content
 description: Retrieves the names of the connections in the current process.
 old-location: termserv\iworkspace_getworkspacenames.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 379a9fb5-36e3-4c3d-a276-9d0804599b42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

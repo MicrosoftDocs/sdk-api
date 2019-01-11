@@ -4,7 +4,7 @@ title: RegisterServerForPMP function
 author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
 old-location: winprog\registerserverforpmp.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

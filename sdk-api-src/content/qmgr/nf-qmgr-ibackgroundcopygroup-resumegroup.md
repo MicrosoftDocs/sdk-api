@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::ResumeGroup
 author: windows-sdk-content
 description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
 old-location: bits\ibackgroundcopygroup_resumegroup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

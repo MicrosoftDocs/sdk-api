@@ -4,7 +4,7 @@ title: IUpdateInstaller3::put_AttemptCloseAppsIfNecessary
 author: windows-sdk-content
 description: Sets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
 old-location: wua\iupdateinstaller3_put_attemptcloseappsifnecessary.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3D6F1FED-0A5A-4D6F-ACE1-BA233F5AED2E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

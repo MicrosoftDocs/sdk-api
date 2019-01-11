@@ -4,7 +4,7 @@ title: WTS_SOCKADDR
 author: windows-sdk-content
 description: Contains a socket address.
 old-location: termserv\wts_sockaddr.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

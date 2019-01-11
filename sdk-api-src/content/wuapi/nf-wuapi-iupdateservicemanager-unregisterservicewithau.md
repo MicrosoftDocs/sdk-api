@@ -4,7 +4,7 @@ title: IUpdateServiceManager::UnregisterServiceWithAU
 author: windows-sdk-content
 description: Unregisters a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

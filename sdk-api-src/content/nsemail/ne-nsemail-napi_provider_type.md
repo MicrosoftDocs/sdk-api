@@ -4,7 +4,7 @@ title: NAPI_PROVIDER_TYPE
 author: windows-sdk-content
 description: Specifies the type of hosting expected for a namespace provider.
 old-location: winsock\napi_provider_type.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 0d845cc5-a84a-43fe-b9e7-d1a9153bae73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

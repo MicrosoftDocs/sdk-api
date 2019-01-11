@@ -4,7 +4,7 @@ title: TCP_INFO_v0
 author: windows-sdk-content
 description: Contains the Transmission Control Protocol (TCP) statistics that were collected for a socket.
 old-location: winsock\tcp_info_v0.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9A51A059-59EC-4D30-9ECE-C81351C0861F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IInstallationCompletedCallback
 author: windows-sdk-content
 description: Handles the notification that indicates that an asynchronous installation or uninstallation is complete.
 old-location: wua\iinstallationcompletedcallback.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAutomaticUpdates::EnableService
 author: windows-sdk-content
 description: Enables all the components that Automatic Updates requires.
 old-location: wua\iautomaticupdates_enableservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0dd80943-f9d6-4179-8b02-3a03b5ba3636
 ms.author: windowssdkdev
 ms.date: 12/5/2018

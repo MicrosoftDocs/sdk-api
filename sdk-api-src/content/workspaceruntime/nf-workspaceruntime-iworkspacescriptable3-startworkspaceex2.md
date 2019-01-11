@@ -4,7 +4,7 @@ title: IWorkspaceScriptable3::StartWorkspaceEx2
 author: windows-sdk-content
 description: Not implemented.
 old-location: termserv\iworkspacescriptable3_startworkspaceex2.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 819eb47e-f697-4b34-a91f-44aa95cf116a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

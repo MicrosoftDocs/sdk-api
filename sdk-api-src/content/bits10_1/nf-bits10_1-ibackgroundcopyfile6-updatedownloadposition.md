@@ -4,7 +4,7 @@ title: IBackgroundCopyFile6::UpdateDownloadPosition
 author: windows-sdk-content
 description: Specifies a position to prioritize downloading missing data from.
 old-location: bits\ibackgroundcopyfile6_updatedownloadposition.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 243F9D5A-32D8-4D39-A9B2-E452CF745844
 ms.author: windowssdkdev
 ms.date: 12/5/2018

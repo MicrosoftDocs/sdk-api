@@ -4,7 +4,7 @@ title: WPUQuerySocketHandleContext function
 author: windows-sdk-content
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

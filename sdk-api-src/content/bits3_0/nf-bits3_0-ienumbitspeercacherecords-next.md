@@ -4,7 +4,7 @@ title: IEnumBitsPeerCacheRecords::Next
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbitspeercacherecords_next.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: a8117baa-9f77-4735-bd15-2c7e1e759e9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

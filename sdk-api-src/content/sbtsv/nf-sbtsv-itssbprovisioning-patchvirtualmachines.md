@@ -4,7 +4,7 @@ title: ITsSbProvisioning::PatchVirtualMachines
 author: windows-sdk-content
 description: Patches a virtual machine asynchronously.
 old-location: termserv\itssbprovisioning_patchvirtualmachines.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 99afcba2-5567-47fa-9752-80394f145176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LPNSPLOOKUPSERVICEEND
 author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.
 old-location: winsock\nsplookupserviceend_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137
 ms.author: windowssdkdev
 ms.date: 12/5/2018

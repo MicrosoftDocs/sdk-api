@@ -4,7 +4,7 @@ title: "_lclose function"
 author: windows-sdk-content
 description: The _lclose function closes the specified file so that it is no longer available for reading or writing. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CloseHandle function.
 old-location: winprog\_lclose.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: FBFBD963-0461-4357-9362-D32A83C1F969
 ms.author: windowssdkdev
 ms.date: 12/5/2018

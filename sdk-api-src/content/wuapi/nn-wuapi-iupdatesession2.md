@@ -4,7 +4,7 @@ title: IUpdateSession2
 author: windows-sdk-content
 description: Represents a session in which the caller can perform operations that involve updates. For example, this interface represents sessions in which the caller performs a search, download, installation, or uninstallation operation.
 old-location: wua\iupdatesession2.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c074cbc8-6d1b-41dd-a54c-30f02fca9215
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStringCollection::Clear
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\istringcollection_clear.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 480b8a8a-ecf1-4f1c-b53d-98a0151c57b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

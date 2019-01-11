@@ -4,7 +4,7 @@ title: IAudioDeviceEndpoint
 author: windows-sdk-content
 description: Initializes a device endpoint object and gets the capabilities of the device that it represents.
 old-location: termserv\iaudiodeviceendpoint.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 3112bc7e-e138-4b42-8f82-61fdf19f7e94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

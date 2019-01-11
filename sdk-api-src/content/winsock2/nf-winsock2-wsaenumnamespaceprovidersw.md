@@ -4,7 +4,7 @@ title: WSAEnumNameSpaceProvidersW function
 author: windows-sdk-content
 description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.
 old-location: winsock\wsaenumnamespaceproviders_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f5b6cd42-c5cb-43b6-bb96-fd260217e252
 ms.author: windowssdkdev
 ms.date: 12/5/2018

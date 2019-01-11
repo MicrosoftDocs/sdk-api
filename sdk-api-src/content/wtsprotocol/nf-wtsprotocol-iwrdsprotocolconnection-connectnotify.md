@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::ConnectNotify
 author: windows-sdk-content
 description: Signals the protocol that the session has been initialized.
 old-location: termserv\iwrdsprotocolconnection_connectnotify.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 057a093b-9b2d-4a2e-9593-fe0251427be0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

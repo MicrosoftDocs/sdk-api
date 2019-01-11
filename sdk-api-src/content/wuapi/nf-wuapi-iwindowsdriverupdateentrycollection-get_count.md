@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntryCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements contained in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

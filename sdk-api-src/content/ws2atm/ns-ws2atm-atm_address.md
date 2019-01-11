@@ -4,7 +4,7 @@ title: ATM_ADDRESS
 author: windows-sdk-content
 description: The ATM_ADDRESS structure holds ATM address data for ATM-based sockets.
 old-location: winsock\atm_address_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 794d4070-45d7-41c3-8229-660ba3c5f72a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

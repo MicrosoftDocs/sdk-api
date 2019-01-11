@@ -4,7 +4,7 @@ title: ITsSbEnvironment::get_ServerWeight
 author: windows-sdk-content
 description: Retrieves a value that indicates the server weight of the environment that hosts the target computer.
 old-location: termserv\itssbenvironment_serverweight.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1c8119ec-22ce-4405-8b30-8cb0c3e2f1c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

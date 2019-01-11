@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyJobs::GetCount
 author: windows-sdk-content
 description: Retrieves a count of the number of jobs in the enumeration.
 old-location: bits\ienumbackgroundcopyjobs_getcount.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 024ffd11-5084-4ff5-b1b6-9aec3e802900
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TerminateCache function
 author: windows-sdk-content
 description: Eliminates the cache and ends asynchronous I/O with the DLL.
 old-location: winprog\_terminatecache.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 3c4bdb54-8baa-4302-89ab-c7e6f35582e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

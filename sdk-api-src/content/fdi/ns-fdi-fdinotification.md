@@ -4,7 +4,7 @@ title: FDINOTIFICATION
 author: windows-sdk-content
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
 old-location: winprog\fdinotification.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

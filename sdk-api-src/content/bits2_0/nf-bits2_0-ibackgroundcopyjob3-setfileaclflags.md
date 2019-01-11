@@ -4,7 +4,7 @@ title: IBackgroundCopyJob3::SetFileACLFlags
 author: windows-sdk-content
 description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STRENTRYW
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentryw.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

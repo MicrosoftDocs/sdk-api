@@ -4,7 +4,7 @@ title: GetNameByTypeA function
 author: windows-sdk-content
 description: The GetNameByType function retrieves the name of a network service for the specified service type.
 old-location: winsock\getnamebytype_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 74d747f0-5f5e-4f54-8b2f-7ea96d4043ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

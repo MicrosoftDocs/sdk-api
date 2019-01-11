@@ -4,7 +4,7 @@ title: IBackgroundCopyManager::EnumJobs
 author: windows-sdk-content
 description: Retrieves an interface pointer to an enumerator object that you use to enumerate the jobs in the transfer queue. The order of the jobs in the enumerator is arbitrary.
 old-location: bits\ibackgroundcopymanager_enumjobs.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e8b73060-dff9-4ab3-8009-d2b41502fc1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

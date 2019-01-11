@@ -4,7 +4,7 @@ title: IUpdateService2::get_IsDefaultAUService
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service is registered with Automatic Updates and whether the service is currently used by Automatic Updates as the default service.
 old-location: wua\iupdateservice2_isdefaultauservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2c7645b7-3845-4340-904b-38c56d4aa0ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

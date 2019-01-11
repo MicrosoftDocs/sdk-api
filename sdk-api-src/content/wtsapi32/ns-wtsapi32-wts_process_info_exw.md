@@ -4,7 +4,7 @@ title: WTS_PROCESS_INFO_EXW
 author: windows-sdk-content
 description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wts_process_info_ex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

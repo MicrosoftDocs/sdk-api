@@ -4,7 +4,7 @@ title: IWTSProtocolLogonErrorRedirector::OnBeginPainting
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1356deeb-ac4a-4877-95be-9df09f4b0210
 ms.author: windowssdkdev
 ms.date: 12/5/2018

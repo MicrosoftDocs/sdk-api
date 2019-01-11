@@ -4,7 +4,7 @@ title: IUpdateInstaller::BeginInstall
 author: windows-sdk-content
 description: Starts an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_begininstall.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 756ad613-bc6b-48fb-a079-c192aa98ccfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

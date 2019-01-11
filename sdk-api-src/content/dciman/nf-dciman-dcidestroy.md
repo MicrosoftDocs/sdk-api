@@ -4,7 +4,7 @@ title: DCIDestroy function
 author: windows-sdk-content
 description: Destroys a primary surface on the display device.
 old-location: winprog\_dciman_dcidestroy.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcidestroy.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

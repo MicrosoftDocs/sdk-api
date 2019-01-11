@@ -4,7 +4,7 @@ title: WTSCONFIGINFOA
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsconfiginfo.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 11561aee-0b73-4e4a-8a53-11a46c7838c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

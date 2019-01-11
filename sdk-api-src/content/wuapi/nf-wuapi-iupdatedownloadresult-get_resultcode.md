@@ -4,7 +4,7 @@ title: IUpdateDownloadResult::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCode enumeration value that specifies the result of an operation on the update.
 old-location: wua\iupdatedownloadresult_resultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 62dd9463-aa41-419d-8bee-e63bd6177c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

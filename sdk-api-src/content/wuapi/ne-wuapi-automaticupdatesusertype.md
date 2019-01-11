@@ -4,7 +4,7 @@ title: AutomaticUpdatesUserType
 author: windows-sdk-content
 description: Defines the type of user.
 old-location: wua\automaticupdatesusertype.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e18c7aa0-111b-4209-bc7f-e533a26d684c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

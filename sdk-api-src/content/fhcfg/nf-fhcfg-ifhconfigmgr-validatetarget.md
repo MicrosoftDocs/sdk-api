@@ -4,7 +4,7 @@ title: IFhConfigMgr::ValidateTarget
 author: windows-sdk-content
 description: Checks whether a certain storage device or network share can be used as a File History backup target.
 old-location: winprog\ifhconfigmgr_validatetarget.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: EC41C4EE-A909-4DD4-AA32-5054BBEAF421
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TIMEVAL
 author: windows-sdk-content
 description: The timeval structure is used to specify a time interval. It is associated with the Berkeley Software Distribution (BSD) Time.h header file.
 old-location: winsock\timeval_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3024c961-bb47-40ac-a49c-b12cd431e4e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

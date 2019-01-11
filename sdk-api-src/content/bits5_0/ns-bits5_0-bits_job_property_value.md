@@ -4,7 +4,7 @@ title: BITS_JOB_PROPERTY_VALUE
 author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 old-location: bits\bits_job_property_value.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

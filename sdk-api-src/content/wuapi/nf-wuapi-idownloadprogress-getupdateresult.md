@@ -4,7 +4,7 @@ title: IDownloadProgress::GetUpdateResult
 author: windows-sdk-content
 description: Returns the result of the download of a specified update.
 old-location: wua\idownloadprogress_getupdateresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e7474a0a-98dc-4dd6-b5b8-8f88f0539f9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IInstallationProgress::GetUpdateResult
 author: windows-sdk-content
 description: Returns the result of the installation or uninstallation of a specified update.
 old-location: wua\iinstallationprogress_getupdateresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a0cb92f4-6c97-42be-abf1-e1662e213a7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

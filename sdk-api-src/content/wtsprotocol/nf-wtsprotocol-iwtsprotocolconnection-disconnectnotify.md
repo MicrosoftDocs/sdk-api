@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::DisconnectNotify
 author: windows-sdk-content
 description: IWTSProtocolConnection::DisconnectNotify is no longer available. Instead, use IWRdsProtocolConnection::DisconnectNotify.
 old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

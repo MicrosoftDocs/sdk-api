@@ -4,7 +4,7 @@ title: AuxUlibSetSystemFileCacheSize function
 author: windows-sdk-content
 description: Sets the current file system cache size.
 old-location: winprog\auxulibsetsystemfilecachesize_func.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

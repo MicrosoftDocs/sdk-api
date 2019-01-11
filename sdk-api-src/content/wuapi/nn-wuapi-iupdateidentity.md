@@ -4,7 +4,7 @@ title: IUpdateIdentity
 author: windows-sdk-content
 description: Represents the unique identifier of an update.
 old-location: wua\iupdateidentity.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2086a120-3a9a-48c9-bf8a-ec86624f960c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntry::get_DriverVerDate
 author: windows-sdk-content
 description: Gets the driver version date of the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_driververdate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fdc95add-8310-4008-ac0c-e0ba8a068d01
 ms.author: windowssdkdev
 ms.date: 12/5/2018

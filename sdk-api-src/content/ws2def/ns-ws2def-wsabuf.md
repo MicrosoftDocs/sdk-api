@@ -4,7 +4,7 @@ title: WSABUF
 author: windows-sdk-content
 description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.
 old-location: winsock\wsabuf_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

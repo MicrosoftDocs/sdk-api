@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings::get_Required
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether Group Policy requires the Automatic Updates service.
 old-location: wua\iautomaticupdatessettings_required.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d3700208-4e87-495e-98cf-cc495b380528
 ms.author: windowssdkdev
 ms.date: 12/5/2018

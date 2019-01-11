@@ -4,7 +4,7 @@ title: IUpdateException::get_HResult
 author: windows-sdk-content
 description: Gets the Windows-based HRESULT code for the search results.
 old-location: wua\iupdateexception_hresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 122c7945-c75d-4205-8df6-3136d388baee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

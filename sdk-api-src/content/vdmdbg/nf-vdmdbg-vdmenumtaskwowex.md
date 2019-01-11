@@ -4,7 +4,7 @@ title: VDMEnumTaskWOWEx function
 author: windows-sdk-content
 description: Enumerates tasks within a particular virtual DOS machine (VDM).
 old-location: winprog\vdmenumtaskwowex.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: c09c5d80-9de6-424b-bd57-bf6a450221e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

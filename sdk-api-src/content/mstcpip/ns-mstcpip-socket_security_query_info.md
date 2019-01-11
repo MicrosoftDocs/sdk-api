@@ -4,7 +4,7 @@ title: SOCKET_SECURITY_QUERY_INFO
 author: windows-sdk-content
 description: Contains security information returned by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_info.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787
 ms.author: windowssdkdev
 ms.date: 12/5/2018

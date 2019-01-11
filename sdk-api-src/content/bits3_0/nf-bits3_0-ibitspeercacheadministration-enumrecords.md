@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::EnumRecords
 author: windows-sdk-content
 description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.
 old-location: bits\ibitspeercacheadministration_enumrecords.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b471cee0-0ad0-4488-9819-e524e50dbc76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

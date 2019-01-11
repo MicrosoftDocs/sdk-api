@@ -4,7 +4,7 @@ title: IOCTL_TCP_QUERY_INFORMATION_EX
 author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

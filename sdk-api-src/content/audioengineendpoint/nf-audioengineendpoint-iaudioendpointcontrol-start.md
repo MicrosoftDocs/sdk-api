@@ -4,7 +4,7 @@ title: IAudioEndpointControl::Start
 author: windows-sdk-content
 description: Starts the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_start.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d9b54618-9750-49be-a966-1a2f02c81af6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STRENTRYA
 author: windows-sdk-content
 description: Represents a registry string replacement.
 old-location: winprog\_strentrya.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: BE4239CA-68D5-4E5A-BA53-087001ACD7BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4::GetMaximumDownloadTime
 author: windows-sdk-content
 description: Retrieves the maximum time that BITS will spend transferring the files in the job.
 old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2d258dc4-a6fd-46d7-ac90-2703c8ddc666
 ms.author: windowssdkdev
 ms.date: 12/5/2018

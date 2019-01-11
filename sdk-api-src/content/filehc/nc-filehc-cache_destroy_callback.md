@@ -4,7 +4,7 @@ title: CACHE_DESTROY_CALLBACK
 author: windows-sdk-content
 description: A function that is called whenever an entry in the name cache is destroyed.
 old-location: winprog\cache_destroy_callback.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

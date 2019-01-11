@@ -4,7 +4,7 @@ title: FH_TARGET_PROPERTY_TYPE
 author: windows-sdk-content
 description: Specifies the type of a property of a backup target.
 old-location: winprog\fh_target_property_type.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0A39626B-942F-4BD6-930D-15E9D401F0FF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

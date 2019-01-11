@@ -4,7 +4,7 @@ title: accept function
 author: windows-sdk-content
 description: The accept function permits an incoming connection attempt on a socket.
 old-location: winsock\accept_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

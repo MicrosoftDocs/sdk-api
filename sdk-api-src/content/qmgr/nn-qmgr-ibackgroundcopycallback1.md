@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback1
 author: windows-sdk-content
 description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
 old-location: bits\ibackgroundcopycallback1.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d5d22cf6-d9b5-4001-a0ac-f67d59dde779
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVICE_TYPE_VALUE_ABSW
 author: windows-sdk-content
 description: Contains information about a network-service type value. This information may be specific to a namespace.
 old-location: winsock\service_type_value_abs_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:tspi
 ms.assetid: 8b5930f5-2069-3b7a-9d86-e7c148f8868f
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

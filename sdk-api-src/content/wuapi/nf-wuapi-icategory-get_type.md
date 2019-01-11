@@ -4,7 +4,7 @@ title: ICategory::get_Type
 author: windows-sdk-content
 description: Gets the type of the category.
 old-location: wua\icategory_type.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3c3621bd-a76f-473c-8fcc-397370fcc42e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

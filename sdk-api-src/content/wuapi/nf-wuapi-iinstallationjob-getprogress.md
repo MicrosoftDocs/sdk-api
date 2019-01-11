@@ -4,7 +4,7 @@ title: IInstallationJob::GetProgress
 author: windows-sdk-content
 description: Returns an IInstallationProgress interface that describes the current progress of an installation or uninstallation.
 old-location: wua\iinstallationjob_getprogress.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7d63ec9d-bf7a-4c5d-a1e7-4dcc0f236d07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

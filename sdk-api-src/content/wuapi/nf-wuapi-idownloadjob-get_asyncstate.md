@@ -4,7 +4,7 @@ title: IDownloadJob::get_AsyncState
 author: windows-sdk-content
 description: Gets the caller-specific state object that is passed to the IUpdateDownloader.BeginDownload method.
 old-location: wua\idownloadjob_asyncstate.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 47d2af4a-c04f-4413-ad29-3b8cb1292539
 ms.author: windowssdkdev
 ms.date: 12/5/2018

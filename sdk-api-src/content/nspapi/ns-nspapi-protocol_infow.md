@@ -4,7 +4,7 @@ title: PROTOCOL_INFOW
 author: windows-sdk-content
 description: Contains information about a protocol.
 old-location: winsock\protocol_info_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 0cbddf17-41a8-4e61-b3b0-080ef50dc5de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

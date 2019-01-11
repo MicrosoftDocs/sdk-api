@@ -4,7 +4,7 @@ title: DownloadPhase
 author: windows-sdk-content
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 old-location: wua\downloadphase.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

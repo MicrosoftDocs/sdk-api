@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_ClientApplicationID
 author: windows-sdk-content
 description: Gets the identifier of the client application that processed an update.
 old-location: wua\iupdatehistoryentry_clientapplicationid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7c2a209f-10e8-4158-8201-a062f86b5fdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

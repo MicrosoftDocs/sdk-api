@@ -4,7 +4,7 @@ title: IUpdate::get_RecommendedMemory
 author: windows-sdk-content
 description: Gets the recommended physical memory size that should be available in your computer before you install the update. The physical memory size is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedmemory.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 68a8341b-ba0a-4694-89c3-34fefb950bf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

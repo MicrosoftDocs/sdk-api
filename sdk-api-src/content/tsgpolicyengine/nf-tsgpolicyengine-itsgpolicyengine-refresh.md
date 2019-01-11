@@ -4,7 +4,7 @@ title: ITSGPolicyEngine::Refresh
 author: windows-sdk-content
 description: This method is reserved.
 old-location: termserv\itsgpolicyengine_refresh.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

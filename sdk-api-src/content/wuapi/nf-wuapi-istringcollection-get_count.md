@@ -4,7 +4,7 @@ title: IStringCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\istringcollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f735ee0b-56db-44f4-b8e6-38843098fe77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

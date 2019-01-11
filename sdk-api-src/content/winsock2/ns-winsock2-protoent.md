@@ -4,7 +4,7 @@ title: PROTOENT
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NtDeviceIoControlFile function
 author: windows-sdk-content
 description: Deprecated. Builds descriptors for the supplied buffer(s) and passes the untyped data to the device driver associated with the file handle. NtDeviceIoControlFile is superseded by DeviceIoControl.
 old-location: winprog\ntdeviceiocontrolfile.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

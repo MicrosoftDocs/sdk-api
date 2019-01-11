@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate5
 author: windows-sdk-content
 description: Contains the properties and methods that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdate5.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ec25e83b-2bd0-4ec4-99db-7a9877c4a42f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback::JobError
 author: windows-sdk-content
 description: BITS calls your implementation of the JobError method when the state of the job changes to BG_JOB_STATE_ERROR.
 old-location: bits\ibackgroundcopycallback_joberror.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 3e206195-1a8c-435e-9b8f-6517b8e3c4ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

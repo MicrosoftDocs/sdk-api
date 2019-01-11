@@ -4,7 +4,7 @@ title: REAL_TIME_NOTIFICATION_SETTING_OUTPUT
 author: windows-sdk-content
 description: Provides the output settings from a query for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\real_time_notification_setting_output.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7585CA60-8C7B-4187-A311-72DFA38EB577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

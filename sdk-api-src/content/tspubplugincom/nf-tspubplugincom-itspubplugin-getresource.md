@@ -4,7 +4,7 @@ title: ItsPubPlugin::GetResource
 author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin_getresource.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: eceadfef-6980-452a-b983-3813f6e7ade8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: BITS_FILE_PROPERTY_ID
 author: windows-sdk-content
 description: Enumerates values that define ID values corresponding to BackgroundCopyFile properties.
 old-location: bits\bits_file_property_id.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: A14E301E-029E-43C8-B012-8FFFA652EA40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

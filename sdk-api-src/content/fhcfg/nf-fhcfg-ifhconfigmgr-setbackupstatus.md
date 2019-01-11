@@ -4,7 +4,7 @@ title: IFhConfigMgr::SetBackupStatus
 author: windows-sdk-content
 description: Changes the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setbackupstatus.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 17FF01A1-028D-4A22-A64C-F24C98F86663
 ms.author: windowssdkdev
 ms.date: 12/5/2018

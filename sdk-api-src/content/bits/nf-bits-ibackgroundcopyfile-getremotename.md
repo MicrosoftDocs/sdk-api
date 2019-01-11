@@ -4,7 +4,7 @@ title: IBackgroundCopyFile::GetRemoteName
 author: windows-sdk-content
 description: Retrieves the remote name of the file.
 old-location: bits\ibackgroundcopyfile_getremotename.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

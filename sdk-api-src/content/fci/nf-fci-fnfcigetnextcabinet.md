@@ -4,7 +4,7 @@ title: FNFCIGETNEXTCABINET macro
 author: windows-sdk-content
 description: The FNFCIGETNEXTCABINET macro provides the declaration for the application-defined callback function to request information for the next cabinet.
 old-location: winprog\fnfcigetnextcabinet.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

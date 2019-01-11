@@ -4,7 +4,7 @@ title: DownloadPriority
 author: windows-sdk-content
 description: Defines the possible priorities for a download operation.
 old-location: wua\downloadpriority.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

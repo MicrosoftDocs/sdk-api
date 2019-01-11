@@ -4,7 +4,7 @@ title: WSACloseEvent function
 author: windows-sdk-content
 description: The WSACloseEvent function closes an open event object handle.
 old-location: winsock\wsacloseevent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 40cefe46-10a3-4b6a-8c89-3e16237fc685
 ms.author: windowssdkdev
 ms.date: 12/5/2018

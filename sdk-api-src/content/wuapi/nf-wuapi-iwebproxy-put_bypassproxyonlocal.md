@@ -4,7 +4,7 @@ title: IWebProxy::put_BypassProxyOnLocal
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether local addresses bypass the proxy server.
 old-location: wua\iwebproxy_bypassproxyonlocal.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 541626ca-0b68-41cd-8f20-5ffd034fc878
 ms.author: windowssdkdev
 ms.date: 12/5/2018

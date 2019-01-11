@@ -4,7 +4,7 @@ title: WTSEnumerateProcessesExW function
 author: windows-sdk-content
 description: Retrieves information about the active processes on the specified Remote Desktop Session Host (RD Session Host) server or Remote Desktop Virtualization Host (RD Virtualization Host) server.
 old-location: termserv\wtsenumerateprocessesex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: bc8a2550-cf89-4203-b96b-c750c0dff255
 ms.author: windowssdkdev
 ms.date: 12/5/2018

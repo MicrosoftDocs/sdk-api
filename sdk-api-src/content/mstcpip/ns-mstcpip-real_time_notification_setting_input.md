@@ -4,7 +4,7 @@ title: REAL_TIME_NOTIFICATION_SETTING_INPUT
 author: windows-sdk-content
 description: Provides input settings to apply for the REAL_TIME_NOTIFICATION_CAPABILITY transport setting for a TCP socket that is used with ControlChannelTrigger to receive background network notifications in a Windows Store app.
 old-location: winsock\real_time_notification_setting_input.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: A008310D-D812-4DCD-A3F2-64FEEEB31DB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

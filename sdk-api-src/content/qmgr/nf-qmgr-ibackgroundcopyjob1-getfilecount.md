@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::GetFileCount
 author: windows-sdk-content
 description: Use the GetFileCount method to retrieve the number of files in the job.
 old-location: bits\ibackgroundcopyjob1_getfilecount.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673
 ms.author: windowssdkdev
 ms.date: 12/5/2018

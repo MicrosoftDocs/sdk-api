@@ -4,7 +4,7 @@ title: TASKENUMPROCEX
 author: windows-sdk-content
 description: Implement this function to receive information for each task that VDMEnumTaskWOWEx enumerates.
 old-location: winprog\processtasks.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0ef6b3b0-1b65-4919-8857-33651b9c154f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyFile3::GetValidationState
 author: windows-sdk-content
 description: Gets the current validation state of this file.
 old-location: bits\ibackgroundcopyfile3_getvalidationstate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 705644e2-fd15-4225-b26a-e75c2dd2f6e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

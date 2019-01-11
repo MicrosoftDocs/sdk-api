@@ -4,7 +4,7 @@ title: IBackgroundCopyManager::GetErrorDescription
 author: windows-sdk-content
 description: Retrieves a description for the specified error code.
 old-location: bits\ibackgroundcopymanager_geterrordescription.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e62e2bde-485d-42d4-b824-a682ab9e16ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

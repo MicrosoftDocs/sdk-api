@@ -4,7 +4,7 @@ title: IImageInformation::get_Source
 author: windows-sdk-content
 description: Gets the source location of the image.
 old-location: wua\iimageinformation_source.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 631d5887-7f0d-4051-a8fe-9c1df0b35382
 ms.author: windowssdkdev
 ms.date: 12/5/2018

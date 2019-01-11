@@ -4,7 +4,7 @@ title: WTSVirtualChannelQuery function
 author: windows-sdk-content
 description: Returns information about a specified virtual channel.
 old-location: termserv\wtsvirtualchannelquery.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 68ae8174-d72b-4b1c-b8e9-ae5fed51d385
 ms.author: windowssdkdev
 ms.date: 12/5/2018

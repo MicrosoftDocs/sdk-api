@@ -4,7 +4,7 @@ title: BITS_JOB_PROPERTY_ID
 author: windows-sdk-content
 description: Specifies the ID of the property for the BITS job.
 old-location: bits\bits_job_property_id.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITsSbPlugin
 author: windows-sdk-content
 description: Exposes methods that initialize and terminate plug-ins.
 old-location: termserv\itssbplugin.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

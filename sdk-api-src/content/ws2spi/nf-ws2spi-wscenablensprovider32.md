@@ -4,7 +4,7 @@ title: WSCEnableNSProvider32 function
 author: windows-sdk-content
 description: Enables or disables a specified 32-bit namespace provider.
 old-location: winsock\wscenablensprovider32.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5ab4f8bd-d32d-4962-aac7-2d92847d0e03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

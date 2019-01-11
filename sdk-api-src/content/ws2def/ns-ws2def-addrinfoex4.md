@@ -4,7 +4,7 @@ title: ADDRINFOEX4
 author: windows-sdk-content
 description: Used by the GetAddrInfoEx function to hold host address information when a specific network interface has been requested.
 old-location: winsock\addrinfoex4.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

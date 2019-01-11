@@ -4,7 +4,7 @@ title: ISearchCompletedCallbackArgs
 author: windows-sdk-content
 description: Contains information about the completion of an asynchronous search. It also acts as a parameter to the SearchCompletedCallback delegate.
 old-location: wua\isearchcompletedcallbackargs.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

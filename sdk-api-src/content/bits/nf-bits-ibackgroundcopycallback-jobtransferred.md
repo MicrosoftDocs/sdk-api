@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback::JobTransferred
 author: windows-sdk-content
 description: BITS calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 old-location: bits\ibackgroundcopycallback_jobtransferred.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NETLOGON_INFO_3
 author: windows-sdk-content
 description: Defines a level-3 control query response from a domain controller.
 old-location: winprog\netlogon_info_3.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 6498c4b2-523a-4050-acbd-5088b9e0eaae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateService::get_ContentValidationCert
 author: windows-sdk-content
 description: Gets an SHA-1 hash of the certificate that is used to sign the contents of the service.
 old-location: wua\iupdateservice_contentvalidationcert.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c511a7d4-ac3c-4b54-9048-2397f359838b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

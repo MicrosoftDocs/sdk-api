@@ -4,7 +4,7 @@ title: GROUP_REQ
 author: windows-sdk-content
 description: Provides multicast group information for IPv6 or IPv4 addresses.
 old-location: winsock\group_req.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 053cf2c3-4f31-4f1e-be5c-d857e74d9465
 ms.author: windowssdkdev
 ms.date: 12/5/2018

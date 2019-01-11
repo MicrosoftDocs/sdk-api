@@ -4,7 +4,7 @@ title: DisableProcessWindowsGhosting function
 author: windows-sdk-content
 description: Disables the window ghosting feature for the calling GUI process. Window ghosting is a Windows Manager feature that lets the user minimize, move, or close the main window of an application that is not responding.
 old-location: winprog\disableprocesswindowsghosting.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtldisableprocesswindowsghosting.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

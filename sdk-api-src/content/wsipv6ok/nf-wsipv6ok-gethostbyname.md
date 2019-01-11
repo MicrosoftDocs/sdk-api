@@ -4,7 +4,7 @@ title: gethostbyname macro
 author: windows-sdk-content
 description: The gethostbyname function retrieves host information corresponding to a host name from a host database.
 old-location: winsock\gethostbyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 2526ecb5-927b-40c8-8d8f-919e7986ff05
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -66,16 +66,7 @@ The
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - name [in]
+#### - a [in]
 
 A pointer to the <b>null</b>-terminated name of the host to resolve.
 

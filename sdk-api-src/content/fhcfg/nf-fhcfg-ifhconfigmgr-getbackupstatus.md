@@ -4,7 +4,7 @@ title: IFhConfigMgr::GetBackupStatus
 author: windows-sdk-content
 description: Retrieves the backup status value for an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_getbackupstatus.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0AC8F205-B593-4117-9059-0DDA5BBE3124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

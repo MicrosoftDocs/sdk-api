@@ -4,7 +4,7 @@ title: WTSSBX_SESSION_STATE
 author: windows-sdk-content
 description: Contains values that indicate the connection state of a user session.
 old-location: termserv\wtssbx_session_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d31118c5-56a3-4792-83fd-fdd3cd7a79ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

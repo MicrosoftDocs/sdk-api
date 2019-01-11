@@ -4,7 +4,7 @@ title: eHeapEnumerationLevel
 author: windows-sdk-content
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

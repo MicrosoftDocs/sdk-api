@@ -4,7 +4,7 @@ title: IWebBrowserApp::get_ToolBar
 author: windows-sdk-content
 description: Sets or gets whether toolbars for the object are visible.
 old-location: winprog\iwebbrowser2_toolbar.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 25C459AF-A57C-453A-987C-004CCA8F276F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

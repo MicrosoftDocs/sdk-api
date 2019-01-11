@@ -2,7 +2,7 @@
 UID: NA:wbemglue
 ms.assetid: 7c4aacde-77ac-3385-b9b2-724a3b5cf14f
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

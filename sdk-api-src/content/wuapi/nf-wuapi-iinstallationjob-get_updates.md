@@ -4,7 +4,7 @@ title: IInstallationJob::get_Updates
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 old-location: wua\iinstallationjob_updates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

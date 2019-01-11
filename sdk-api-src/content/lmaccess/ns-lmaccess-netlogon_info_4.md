@@ -4,7 +4,7 @@ title: NETLOGON_INFO_4
 author: windows-sdk-content
 description: Defines a level-4 control query response from a domain controller.
 old-location: winprog\netlogon_info_4.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 6a0ffd68-149f-4d5d-8a8a-69f429ca135a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

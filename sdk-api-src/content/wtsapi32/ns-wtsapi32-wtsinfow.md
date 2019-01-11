@@ -4,7 +4,7 @@ title: WTSINFOW
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsinfo.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 14e2d3bb-8c83-45aa-aa63-87afef3008b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

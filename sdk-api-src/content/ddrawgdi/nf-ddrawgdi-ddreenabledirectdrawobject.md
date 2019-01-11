@@ -4,7 +4,7 @@ title: DdReenableDirectDrawObject function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdReenableDirectDrawObject function.
 old-location: winprog\_dxgkernel_ddreenabledirectdrawobject.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreenabledirectdrawobject.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

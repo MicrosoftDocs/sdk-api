@@ -4,7 +4,7 @@ title: ITsSbSession::get_Username
 author: windows-sdk-content
 description: Retrieves the user name for this session.
 old-location: termserv\itssbsession_username.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0034e8cc-b67b-4e30-a059-47a269bab0fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

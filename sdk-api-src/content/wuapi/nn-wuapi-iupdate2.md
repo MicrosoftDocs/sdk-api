@@ -4,7 +4,7 @@ title: IUpdate2
 author: windows-sdk-content
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate2.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 75041e85-0f3c-4996-9af2-d2969549393e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSASendMsg function
 author: windows-sdk-content
 description: Sends data and optional control information from connected and unconnected sockets. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\wsasendmsg.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

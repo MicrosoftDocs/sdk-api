@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings2::CheckPermission
 author: windows-sdk-content
 description: Determines whether a specific user or type of user has permission to perform a selected action.
 old-location: wua\iautomaticupdatessettings2_checkpermission.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fbf36d9f-98c1-4b9d-b479-a9203b6ce952
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -62,31 +62,19 @@ Determines whether a specific user or type of user has permission to perform a s
 
 
 
-### -param userType
+### -param userType [in]
 
-TBD
-
-
-### -param permissionType
-
-TBD
+An enumeration that indicates the type of user to verify permissions.
 
 
-### -param userHasPermission
-
-TBD
-
-
-
-
-#### - AutomaticUpdatesPermissionType [in]
+### -param permissionType [in]
 
 An enumeration that indicates the user's permission level.
 
 
-#### - AutomaticUpdatesUserType [in]
+### -param userHasPermission
 
-An enumeration that indicates the type of user to verify permissions.
+True if the user has the specified permission type; otherwise, false.
 
 
 ## -returns

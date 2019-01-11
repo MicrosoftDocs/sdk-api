@@ -4,7 +4,7 @@ title: UpdateType
 author: windows-sdk-content
 description: Defines the types of update, such as a driver or software update.
 old-location: wua\updatetype.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2845075f-f27a-44f5-8dc3-bdf67ce15c79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

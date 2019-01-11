@@ -4,7 +4,7 @@ title: IUpdate::get_Deadline
 author: windows-sdk-content
 description: Gets the date by which the update must be installed.
 old-location: wua\iupdate_deadline.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 78f5ab06-13d1-4564-b9eb-334d4f0c34e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

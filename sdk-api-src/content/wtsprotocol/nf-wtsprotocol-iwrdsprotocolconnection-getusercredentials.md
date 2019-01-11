@@ -4,7 +4,7 @@ title: IWRdsProtocolConnection::GetUserCredentials
 author: windows-sdk-content
 description: Returns user credentials.
 old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: dcd8de76-e260-4b3b-98ca-4f486b3b6635
 ms.author: windowssdkdev
 ms.date: 12/5/2018

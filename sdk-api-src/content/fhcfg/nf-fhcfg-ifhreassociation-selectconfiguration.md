@@ -4,7 +4,7 @@ title: IFhReassociation::SelectConfiguration
 author: windows-sdk-content
 description: Selects one of the File History configurations discovered on a storage device or network share by the IFhReassociation::ScanTargetForConfigurations method for subsequent reassociation.
 old-location: winprog\ifhreassociation_selectconfiguration.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 5501F87D-2998-4CB7-B9C8-9EC04F42B22D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LPWSPGETOVERLAPPEDRESULT
 author: windows-sdk-content
 description: The WSPGetOverlappedResult function returns the results of an overlapped operation on the specified socket.
 old-location: winsock\wspgetoverlappedresult_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8156b8ab-00f8-4325-9b81-3e43053f4f56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

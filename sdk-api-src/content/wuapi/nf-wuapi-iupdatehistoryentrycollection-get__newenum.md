@@ -4,7 +4,7 @@ title: IUpdateHistoryEntryCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdatehistoryentrycollection__newenum.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ff34cf19-c189-41ce-a14e-c833e6366487
 ms.author: windowssdkdev
 ms.date: 12/5/2018

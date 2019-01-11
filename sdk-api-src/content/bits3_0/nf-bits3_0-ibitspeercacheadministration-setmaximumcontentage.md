@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::SetMaximumContentAge
 author: windows-sdk-content
 description: Specifies when files are removed from the cache based on age.
 old-location: bits\ibitspeercacheadministration_setmaximumcontentage.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 815d9e48-f1f0-4c40-a277-d78db9d6ace1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

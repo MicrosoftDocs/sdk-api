@@ -4,7 +4,7 @@ title: AutomaticUpdatesPermissionType
 author: windows-sdk-content
 description: Defines the possible ways to set the NotificationLevel property of the IAutomaticUpdatesSettings interface or the IncludeRecommendedUpdates property of the IAutomaticUpdatesSettings2 interface.
 old-location: wua\automaticupdatespermissiontype.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0bacce1d-438d-4d33-91f8-235ffe26abb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

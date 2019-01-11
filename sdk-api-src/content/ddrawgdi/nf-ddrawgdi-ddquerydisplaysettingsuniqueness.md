@@ -4,7 +4,7 @@ title: DdQueryDisplaySettingsUniqueness function
 author: windows-sdk-content
 description: Returns the current value of an integer that is incremented whenever a mode switch occurs, such as when there is a desktop switch, a Fast User Switch, or a full-screen Microsoft MS-DOS box.
 old-location: winprog\_dxgkernel_ddquerydisplaysettingsuniqueness.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydisplaysettingsuniqueness.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

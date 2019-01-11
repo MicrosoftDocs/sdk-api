@@ -4,7 +4,7 @@ title: ISearchResult::get_RootCategories
 author: windows-sdk-content
 description: Gets an interface collection of the root categories that are currently available on the computer.
 old-location: wua\isearchresult_rootcategories.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 13539f86-3336-45df-82f8-758e821e35c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

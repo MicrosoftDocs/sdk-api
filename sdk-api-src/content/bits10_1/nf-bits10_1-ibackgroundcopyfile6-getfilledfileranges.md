@@ -4,7 +4,7 @@ title: IBackgroundCopyFile6::GetFilledFileRanges
 author: windows-sdk-content
 description: Returns the set of file ranges that have been downloaded.
 old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateInstaller4
 author: windows-sdk-content
 description: Provides methods to finalize updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 75A90895-BAD0-41F7-BFB1-16B8BF145441
 ms.author: windowssdkdev
 ms.date: 12/5/2018

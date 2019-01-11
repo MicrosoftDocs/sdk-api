@@ -4,7 +4,7 @@ title: TRANSMIT_PACKETS_ELEMENT
 author: windows-sdk-content
 description: Specifies a single data element to be transmitted by the TransmitPackets function.
 old-location: winsock\transmit_packets_element_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cf9f8cd1-284d-4aed-bb43-af02bd012f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018

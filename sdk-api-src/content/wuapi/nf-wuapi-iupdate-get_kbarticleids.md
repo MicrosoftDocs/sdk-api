@@ -4,7 +4,7 @@ title: IUpdate::get_KBArticleIDs
 author: windows-sdk-content
 description: Gets a collection of Microsoft Knowledge Base article IDs that are associated with the update.
 old-location: wua\iupdate_kbarticleids.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3f30f356-6534-40b7-b3e5-18ab2980a610
 ms.author: windowssdkdev
 ms.date: 12/5/2018

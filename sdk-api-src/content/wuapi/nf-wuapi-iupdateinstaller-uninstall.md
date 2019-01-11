@@ -4,7 +4,7 @@ title: IUpdateInstaller::Uninstall
 author: windows-sdk-content
 description: Starts a synchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_uninstall.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fd00fc89-077e-4897-a7ec-d2e06167b7b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWorkspaceResTypeRegistry::ModifyResourceType
 author: windows-sdk-content
 description: Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_modifyresourcetype.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a1feac54-218c-4c17-87d6-27d764d355f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

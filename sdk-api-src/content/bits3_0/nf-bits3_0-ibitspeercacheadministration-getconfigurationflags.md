@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::GetConfigurationFlags
 author: windows-sdk-content
 description: Gets the configuration flags that determine if the computer serves content to peers and can download content from peers.
 old-location: bits\ibitspeercacheadministration_getconfigurationflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: caa54ee0-c771-47e7-95d1-26a812f0f95f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

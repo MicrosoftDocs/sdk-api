@@ -4,7 +4,7 @@ title: WSANAMESPACE_INFOEXA
 author: windows-sdk-content
 description: Contains all registration information for a namespace provider.
 old-location: winsock\wsanamespace_infoex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3f4a8916-9db9-4b65-982f-4cb4ec2205ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

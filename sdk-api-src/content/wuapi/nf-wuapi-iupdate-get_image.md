@@ -4,7 +4,7 @@ title: IUpdate::get_Image
 author: windows-sdk-content
 description: Gets an interface that contains information about an image that is associated with the update.
 old-location: wua\iupdate_image.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0cae0b5b-8a47-461f-ab91-b9ac80418e20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

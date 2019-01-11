@@ -4,7 +4,7 @@ title: FH_PROTECTED_ITEM_CATEGORY
 author: windows-sdk-content
 description: Specifies the type of an inclusion or exclusion list.
 old-location: winprog\fh_protected_item_category.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 40AE4FB7-B81D-4CC1-B1A2-53952AE538DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

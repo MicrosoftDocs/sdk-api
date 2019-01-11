@@ -4,7 +4,7 @@ title: WSAGetQOSByName function
 author: windows-sdk-content
 description: The WSAGetQOSByName function initializes a QOS structure based on a named template, or it supplies a buffer to retrieve an enumeration of the available template names.
 old-location: winsock\wsagetqosbyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9b586856-5441-414b-8b91-298c952c351b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

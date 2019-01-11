@@ -4,7 +4,7 @@ title: IUpdateCollection::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\iupdatecollection_add.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 32b25c99-d2a0-4365-a285-f66381cfc3e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

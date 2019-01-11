@@ -4,7 +4,7 @@ title: WSAECOMPARATOR
 author: windows-sdk-content
 description: The Windows Sockets WSAECOMPARATOR enumeration type is used for version-comparison semantics in Windows Sockets 2.
 old-location: winsock\wsaecomparator_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a1de171e-42d7-4d57-b241-1db9989dbd8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

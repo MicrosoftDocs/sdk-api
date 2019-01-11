@@ -4,7 +4,7 @@ title: IWTSVirtualChannel
 author: windows-sdk-content
 description: Used to control the channel state, and writes on the channel.
 old-location: termserv\iwtsvirtualchannel.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8a5b093f-5756-400f-9442-b95d6010ee46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

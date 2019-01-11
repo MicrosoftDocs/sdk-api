@@ -4,7 +4,7 @@ title: IUpdateExceptionCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateexceptioncollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a78f4f2f-8d9f-45f1-9606-162cc9bdc8f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

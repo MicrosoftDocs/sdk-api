@@ -4,7 +4,7 @@ title: DCIOpenProvider function
 author: windows-sdk-content
 description: Obtains a device context handle of display.
 old-location: winprog\_dciman_dciopenprovider.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciopenprovider.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

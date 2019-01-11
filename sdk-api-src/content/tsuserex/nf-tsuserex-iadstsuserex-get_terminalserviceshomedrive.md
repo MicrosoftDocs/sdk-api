@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_TerminalServicesHomeDrive
 author: windows-sdk-content
 description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped.
 old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e5cfa526-eff8-4a89-9b13-c4a06a416fe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

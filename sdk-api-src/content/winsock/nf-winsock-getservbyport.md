@@ -4,7 +4,7 @@ title: getservbyport function
 author: windows-sdk-content
 description: The getservbyport function retrieves service information corresponding to a port and protocol.
 old-location: winsock\getservbyport_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: afd63c2d-4f77-49df-aeff-bfe56598fcbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWscProduct::get_SignatureStatus
 author: windows-sdk-content
 description: Returns the current status of the signature data for the security product.
 old-location: winprog\iwscproduct_signaturestatus.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 07F7EADE-44E9-472F-BA30-7B7EDEF48192
 ms.author: windowssdkdev
 ms.date: 12/5/2018

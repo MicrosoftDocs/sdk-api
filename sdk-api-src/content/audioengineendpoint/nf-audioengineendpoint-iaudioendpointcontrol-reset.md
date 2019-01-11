@@ -4,7 +4,7 @@ title: IAudioEndpointControl::Reset
 author: windows-sdk-content
 description: Resets the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_reset.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

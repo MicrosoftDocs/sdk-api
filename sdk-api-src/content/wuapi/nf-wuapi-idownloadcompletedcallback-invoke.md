@@ -4,7 +4,7 @@ title: IDownloadCompletedCallback::Invoke
 author: windows-sdk-content
 description: Notifies the caller that the download is complete.
 old-location: wua\idownloadcompletedcallback_invoke.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 87334ff3-bfb0-48cb-b2e1-ea6d4617638d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAudioEndpoint
 author: windows-sdk-content
 description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.
 old-location: termserv\iaudioendpoint.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a1bb3fe4-6051-4b9c-8270-70375e700f01
 ms.author: windowssdkdev
 ms.date: 12/5/2018

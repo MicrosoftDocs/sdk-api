@@ -4,7 +4,7 @@ title: IFhConfigMgr::CreateDefaultConfiguration
 author: windows-sdk-content
 description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 70F67D8D-E449-4006-BB14-0E5E9B91D517
 ms.author: windowssdkdev
 ms.date: 12/5/2018

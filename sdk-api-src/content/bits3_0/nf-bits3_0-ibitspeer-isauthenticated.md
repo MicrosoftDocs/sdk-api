@@ -4,7 +4,7 @@ title: IBitsPeer::IsAuthenticated
 author: windows-sdk-content
 description: Determines whether the peer is authenticated.
 old-location: bits\ibitspeer_isauthenticated.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

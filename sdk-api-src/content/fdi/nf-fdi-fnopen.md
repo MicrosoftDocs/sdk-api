@@ -4,7 +4,7 @@ title: FNOPEN macro
 author: windows-sdk-content
 description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.
 old-location: winprog\fnopen.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

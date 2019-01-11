@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions
 author: windows-sdk-content
 description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

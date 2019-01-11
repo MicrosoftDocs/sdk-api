@@ -4,7 +4,7 @@ title: GetAddrInfoW function
 author: windows-sdk-content
 description: Provides protocol-independent translation from a Unicode host name to an address.
 old-location: winsock\getaddrinfow.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 82436a88-5b37-4758-a5c9-b60dd1cbc36c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

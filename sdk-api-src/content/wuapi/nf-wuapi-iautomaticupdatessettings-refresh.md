@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings::Refresh
 author: windows-sdk-content
 description: Retrieves the latest Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_refresh.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

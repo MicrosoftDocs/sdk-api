@@ -4,7 +4,7 @@ title: ISystemInformation::get_OemHardwareSupportLink
 author: windows-sdk-content
 description: Gets a hyperlink to technical support information for OEM hardware.
 old-location: wua\isysteminformation_oemhardwaresupportlink.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 38d7b629-39e1-4265-8f1b-7fb187e1cab3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: "_llseek function"
 author: windows-sdk-content
 description: Repositions the file pointer for the specified file.
 old-location: winprog\_llseek.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -59,7 +59,9 @@ Creates an instance of the <a href="https://msdn.microsoft.com/en-us/library/Ee4
 
 ### -param pRegistrationProperties
 
-TBD
+Type: <b>const XAPO_REGISTRATION_PROPERTIES*</b>
+
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure that contains the registration properties for the XAPO. 
 
 
 ### -param pParameterBlocks
@@ -81,13 +83,6 @@ Size of a parameter block in <i>pParameterBlocks</i>.
 Type: <b>BOOL</b>
 
 If TRUE, indicates <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> produces data to be returned by <a href="https://msdn.microsoft.com/en-us/library/Ee418443(v=VS.85).aspx">IXAPOParameters::GetParameters</a> and disallows calls to <a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">IXAPOParameters::SetParameters</a>.
-
-
-#### - pRegProperties
-
-Type: <b>const XAPO_REGISTRATION_PROPERTIES*</b>
-
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure that contains the registration properties for the XAPO. 
 
 
 ## -returns

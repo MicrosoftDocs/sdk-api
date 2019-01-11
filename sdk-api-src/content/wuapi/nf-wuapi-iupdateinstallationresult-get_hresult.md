@@ -4,7 +4,7 @@ title: IUpdateInstallationResult::get_HResult
 author: windows-sdk-content
 description: Gets the HRESULT exception value that is raised during the operation on an update.
 old-location: wua\iupdateinstallationresult_hresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 0db7d280-b703-4cfb-8332-d33f9fc89a55
 ms.author: windowssdkdev
 ms.date: 12/5/2018

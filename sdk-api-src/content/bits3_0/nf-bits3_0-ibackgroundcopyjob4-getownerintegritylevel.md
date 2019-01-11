@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4::GetOwnerIntegrityLevel
 author: windows-sdk-content
 description: Gets the integrity level of the token of the owner that created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerintegritylevel.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

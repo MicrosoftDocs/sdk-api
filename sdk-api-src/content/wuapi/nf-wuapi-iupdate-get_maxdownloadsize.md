@@ -4,7 +4,7 @@ title: IUpdate::get_MaxDownloadSize
 author: windows-sdk-content
 description: Gets the maximum download size of the update.
 old-location: wua\iupdate_maxdownloadsize.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 22f19d4f-e144-4b06-a428-d2133198288a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

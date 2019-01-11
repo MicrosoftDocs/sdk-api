@@ -4,7 +4,7 @@ title: IBackgroundCopyJob3::AddFileWithRanges
 author: windows-sdk-content
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b3601f23-1a69-47db-8943-7515652cf015
 ms.author: windowssdkdev
 ms.date: 12/5/2018

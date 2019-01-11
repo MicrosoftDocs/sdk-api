@@ -4,7 +4,7 @@ title: IUpdateSearcher::EscapeString
 author: windows-sdk-content
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 old-location: wua\iupdatesearcherescapestring.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

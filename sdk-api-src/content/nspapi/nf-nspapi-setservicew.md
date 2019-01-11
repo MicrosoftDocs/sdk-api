@@ -4,7 +4,7 @@ title: SetServiceW function
 author: windows-sdk-content
 description: The SetService function registers or removes from the registry a network service within one or more namespaces.
 old-location: winsock\setservice_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cc5e35ef-5c64-41ba-a5f9-5961371c4d08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

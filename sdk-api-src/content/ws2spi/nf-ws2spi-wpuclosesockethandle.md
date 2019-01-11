@@ -4,7 +4,7 @@ title: WPUCloseSocketHandle function
 author: windows-sdk-content
 description: The WPUCloseSocketHandle function closes an existing socket handle.
 old-location: winsock\wpuclosesockethandle_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

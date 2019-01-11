@@ -4,7 +4,7 @@ title: ITsSbEnvironmentPropertySet
 author: windows-sdk-content
 description: Can be used to define custom properties of an environment that hosts target computers as appropriate.
 old-location: termserv\itssbenvironmentpropertyset.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 613c972d-ab52-495a-a8fd-2827e39e9a4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

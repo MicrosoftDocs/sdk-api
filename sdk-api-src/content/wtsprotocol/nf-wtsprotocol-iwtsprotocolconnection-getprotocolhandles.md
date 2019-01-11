@@ -4,7 +4,7 @@ title: IWTSProtocolConnection::GetProtocolHandles
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetProtocolHandles is no longer available.
 old-location: termserv\iwtsprotocolconnection_getprotocolhandles.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d453ac71-4733-4a68-892c-ffca2d2954c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

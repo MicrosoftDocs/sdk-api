@@ -4,7 +4,7 @@ title: IP_MSFILTER
 author: windows-sdk-content
 description: The ip_msfilter structure provides multicast filtering parameters for IPv4 addresses.
 old-location: winsock\ip_msfilter.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 8d9d515e-9369-4d71-9614-6cbeb5557a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWebProxy::put_UserName
 author: windows-sdk-content
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

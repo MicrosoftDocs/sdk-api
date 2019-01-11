@@ -4,7 +4,7 @@ title: ICameraUIControlEventCallback::OnItemDeleted
 author: windows-sdk-content
 description: Occurs when an item is deleted.
 old-location: winprog\icamerauicontroleventcallback_onitemdeleted.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 008bac9d-4daa-4729-b414-b9551eb636f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

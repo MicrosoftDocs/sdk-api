@@ -2,7 +2,7 @@
 UID: NA:minwinbase
 ms.assetid: 98fe10dc-6483-32eb-9941-22f7aea357c9
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

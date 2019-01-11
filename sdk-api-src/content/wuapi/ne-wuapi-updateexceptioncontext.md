@@ -4,7 +4,7 @@ title: UpdateExceptionContext
 author: windows-sdk-content
 description: Defines the context in which an IUpdateException object can be provided.
 old-location: wua\updateexceptioncontext.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ad8aa73f-10d3-40b0-8bb3-1742dac0897d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

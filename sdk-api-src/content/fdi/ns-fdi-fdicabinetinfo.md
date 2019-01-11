@@ -4,7 +4,7 @@ title: FDICABINETINFO
 author: windows-sdk-content
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 old-location: winprog\fdicabinetinfo.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

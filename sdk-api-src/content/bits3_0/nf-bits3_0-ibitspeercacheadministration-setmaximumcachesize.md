@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::SetMaximumCacheSize
 author: windows-sdk-content
 description: Specifies the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_setmaximumcachesize.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 064376cf-8865-45a1-a63a-1096bc0d58ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

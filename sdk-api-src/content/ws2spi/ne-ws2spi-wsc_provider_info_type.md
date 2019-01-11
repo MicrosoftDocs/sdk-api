@@ -4,7 +4,7 @@ title: WSC_PROVIDER_INFO_TYPE
 author: windows-sdk-content
 description: Enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 old-location: winsock\wsc_provider_info_type.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7f93a660-6f53-4e3c-a938-54a13b34258d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

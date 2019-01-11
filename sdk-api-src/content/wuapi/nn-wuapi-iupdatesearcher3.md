@@ -4,7 +4,7 @@ title: IUpdateSearcher3
 author: windows-sdk-content
 description: Searches for updates on a server.
 old-location: wua\iupdatesearcher3.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
 ms.author: windowssdkdev
 ms.date: 12/5/2018

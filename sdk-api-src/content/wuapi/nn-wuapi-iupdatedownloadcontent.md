@@ -4,7 +4,7 @@ title: IUpdateDownloadContent
 author: windows-sdk-content
 description: Represents the download content of an update.
 old-location: wua\iupdatedownloadcontent.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c3e355bb-6e68-432c-83ef-1c9e0d6b63f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

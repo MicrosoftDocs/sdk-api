@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntry::get_DeviceProblemNumber
 author: windows-sdk-content
 description: Gets the problem number of the matching device for the Windows driver update.
 old-location: wua\iwindowsdriverupdateentry_deviceproblemnumber.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8f275525-27fe-4bff-a471-e21d737e6479
 ms.author: windowssdkdev
 ms.date: 12/5/2018

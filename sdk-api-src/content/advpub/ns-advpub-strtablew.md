@@ -4,7 +4,7 @@ title: STRTABLEW
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablew.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 60CE245D-1572-46FC-B3E3-7CE421599E0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

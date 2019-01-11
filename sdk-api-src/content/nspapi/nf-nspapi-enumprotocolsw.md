@@ -4,7 +4,7 @@ title: EnumProtocolsW function
 author: windows-sdk-content
 description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
 old-location: winsock\enumprotocols_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ATM_BLLI
 author: windows-sdk-content
 description: The ATM_BLLI structure is used to identify B-LLI information for an associated ATM socket.
 old-location: winsock\atm_blli_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

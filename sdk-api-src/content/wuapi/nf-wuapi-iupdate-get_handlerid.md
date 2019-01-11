@@ -4,7 +4,7 @@ title: IUpdate::get_HandlerID
 author: windows-sdk-content
 description: Gets the install handler of the update.
 old-location: wua\iupdate_handlerid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: af7d4b22-c4e2-4f3d-bef6-5a0cc4f4d5a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STRING
 author: windows-sdk-content
 description: Used with the RtlUnicodeStringToOemString function.
 old-location: winprog\_win32_string.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\string.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

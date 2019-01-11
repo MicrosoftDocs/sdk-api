@@ -4,7 +4,7 @@ title: IInstallationJob::CleanUp
 author: windows-sdk-content
 description: Waits for an asynchronous operation to be completed and then releases all the callbacks.
 old-location: wua\iinstallationjob_cleanup.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ceb42a41-9df0-4075-afbe-f8753d4543d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

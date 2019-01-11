@@ -4,7 +4,7 @@ title: WSAMSG
 author: windows-sdk-content
 description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
 old-location: winsock\wsamsg_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

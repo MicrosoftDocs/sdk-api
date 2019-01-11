@@ -4,7 +4,7 @@ title: IDownloadJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets the setting that indicates whether the call to IUpdateDownloader.BeginDownload was processed completely.
 old-location: wua\idownloadjob_iscompleted.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d63f1bfc-589c-4cd2-95dd-e8c88e7f593c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

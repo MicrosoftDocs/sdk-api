@@ -4,7 +4,7 @@ title: ICameraUIControl::Show
 author: windows-sdk-content
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyJob5::GetProperty
 author: windows-sdk-content
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 567C21C7-C689-4A13-9DCA-D45766CB5150
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBackgroundCopyManager::GetJob
 author: windows-sdk-content
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
 old-location: bits\ibackgroundcopymanager_getjob.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBitsTokenOptions::ClearHelperToken
 author: windows-sdk-content
 description: Discards the helper token, and does not change the usage flags.
 old-location: bits\ibitstokenoptions_clearhelpertoken.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 5af3496e-0792-46cc-bfc3-8ac6193724d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

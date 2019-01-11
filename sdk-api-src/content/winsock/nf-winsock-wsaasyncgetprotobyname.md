@@ -4,7 +4,7 @@ title: WSAAsyncGetProtoByName function
 author: windows-sdk-content
 description: The WSAAsyncGetProtoByName function asynchronously retrieves protocol information that corresponds to a protocol name.
 old-location: winsock\wsaasyncgetprotobyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 747c40fd-5dc1-4533-896e-bc1c4368d7bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

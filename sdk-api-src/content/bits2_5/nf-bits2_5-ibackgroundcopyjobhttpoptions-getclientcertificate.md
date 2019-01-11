@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::GetClientCertificate
 author: windows-sdk-content
 description: Retrieves the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: cd317bf9-1d4b-438e-beec-15ea7da90fc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

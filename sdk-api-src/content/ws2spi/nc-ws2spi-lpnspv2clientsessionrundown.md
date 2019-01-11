@@ -4,7 +4,7 @@ title: LPNSPV2CLIENTSESSIONRUNDOWN
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that the client session is terminating.
 old-location: winsock\nspv2clientsessionrundown.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 7379b502-129a-4dac-b7eb-e6fae8fb23f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

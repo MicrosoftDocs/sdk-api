@@ -4,7 +4,7 @@ title: LPNSPV2SETSERVICEEX
 author: windows-sdk-content
 description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
 old-location: winsock\nspv2setserviceex.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

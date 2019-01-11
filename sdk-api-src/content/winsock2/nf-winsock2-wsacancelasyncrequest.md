@@ -4,7 +4,7 @@ title: WSACancelAsyncRequest function
 author: windows-sdk-content
 description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation.
 old-location: winsock\wsacancelasyncrequest_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 0e53eccf-ef85-43ec-a02c-12896471a7a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

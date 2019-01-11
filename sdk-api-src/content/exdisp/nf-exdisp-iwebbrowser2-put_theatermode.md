@@ -4,7 +4,7 @@ title: IWebBrowser2::put_TheaterMode
 author: windows-sdk-content
 description: Sets or gets whether the object is in theater mode.
 old-location: winprog\iwebbrowser2_theatermode.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 78E8B986-ABA2-47A3-AED2-97A84C10C80A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWRdsWddmIddProps
 author: windows-sdk-content
 description: This interface allows a custom IDD driver to be loaded in a remote session.
 old-location: termserv\iwrdswddmiddprops.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9473E754-D158-40E7-9E76-D8EA5A4BE86E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

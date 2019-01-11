@@ -4,7 +4,7 @@ title: IInstallationProgress::get_PercentComplete
 author: windows-sdk-content
 description: Gets how far the overall installation or uninstallation process has progressed, as a percentage.
 old-location: wua\iinstallationprogress_percentcomplete.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 46f1d509-942f-4931-81ec-c01bac38c00b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

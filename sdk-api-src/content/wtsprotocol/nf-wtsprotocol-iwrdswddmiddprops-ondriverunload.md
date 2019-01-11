@@ -4,7 +4,7 @@ title: IWRdsWddmIddProps::OnDriverUnload
 author: windows-sdk-content
 description: Termsrv uses this method to tell the protocol stack that PnP unloaded the WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_ondriverunload.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: D61C38FD-0298-4363-8A09-D0C2844C23CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

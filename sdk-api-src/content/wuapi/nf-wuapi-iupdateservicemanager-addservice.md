@@ -4,7 +4,7 @@ title: IUpdateServiceManager::AddService
 author: windows-sdk-content
 description: Registers a service with Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_addservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b4071ef7-316f-4624-bc43-79c5982c4a82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

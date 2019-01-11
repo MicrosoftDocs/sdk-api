@@ -4,7 +4,7 @@ title: WSASendDisconnect function
 author: windows-sdk-content
 description: The WSASendDisconnect function initiates termination of the connection for the socket and sends disconnect data.
 old-location: winsock\wsasenddisconnect_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c05fc719-e35a-4194-ac01-a294b19ccce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

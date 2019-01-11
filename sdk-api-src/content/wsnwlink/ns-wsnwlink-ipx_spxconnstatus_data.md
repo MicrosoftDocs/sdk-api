@@ -4,7 +4,7 @@ title: IPX_SPXCONNSTATUS_DATA
 author: windows-sdk-content
 description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
 old-location: winsock\ipx_spxconnstatus_data_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 741fdb22-a92c-4159-bde6-e3d18a222b9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FhServiceStopBackup function
 author: windows-sdk-content
 description: This function stops an ongoing backup cycle for the current user.
 old-location: winprog\fhservicestopbackup.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IBitsPeer::GetPeerName
 author: windows-sdk-content
 description: Gets the server principal name that uniquely identifies the peer.
 old-location: bits\ibitspeer_getpeername.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 71cfc0a5-1f60-4e61-a706-bb9f9c5a6c76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IStringCollection::Add
 author: windows-sdk-content
 description: Adds an item to the collection.
 old-location: wua\istringcollection_add.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f5412e0d-a8b7-43a6-b7a5-95d662459f78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

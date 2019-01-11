@@ -4,7 +4,7 @@ title: IWTSProtocolShadowCallback
 author: windows-sdk-content
 description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.
 old-location: termserv\iwtsprotocolshadowcallback.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: ce224b9f-161c-4133-97d9-05c339eefb77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

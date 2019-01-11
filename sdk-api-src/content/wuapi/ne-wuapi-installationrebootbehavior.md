@@ -4,7 +4,7 @@ title: InstallationRebootBehavior
 author: windows-sdk-content
 description: Defines the possible restart behaviors for an update.
 old-location: wua\installationrebootbehavior.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFhConfigMgr::LoadConfiguration
 author: windows-sdk-content
 description: Loads the File History configuration information for the current user into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_loadconfiguration.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

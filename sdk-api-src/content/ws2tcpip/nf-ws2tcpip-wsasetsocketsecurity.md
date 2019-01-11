@@ -4,7 +4,7 @@ title: WSASetSocketSecurity function
 author: windows-sdk-content
 description: Enables and applies security for a socket.
 old-location: winsock\wsasetsocketsecurity.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

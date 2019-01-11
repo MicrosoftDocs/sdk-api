@@ -4,7 +4,7 @@ title: WSACreateEvent function
 author: windows-sdk-content
 description: The WSACreateEvent function creates a new event object.
 old-location: winsock\wsacreateevent_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cff3bc31-f34c-4bb2-9004-5ec31d0a704a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

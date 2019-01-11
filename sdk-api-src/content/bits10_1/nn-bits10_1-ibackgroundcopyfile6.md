@@ -4,7 +4,7 @@ title: IBackgroundCopyFile6
 author: windows-sdk-content
 description: Use this interface to request file ranges for On Demand download jobs.
 old-location: bits\ibackgroundcopyfile6.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: FE3B1BAB-2634-4BE0-91B7-F97041CB3655
 ms.author: windowssdkdev
 ms.date: 12/5/2018

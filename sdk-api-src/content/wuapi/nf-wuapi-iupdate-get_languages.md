@@ -4,7 +4,7 @@ title: IUpdate::get_Languages
 author: windows-sdk-content
 description: Gets an interface that contains the languages that are supported by the update.
 old-location: wua\iupdate_language.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 788942cc-5cfa-4ce3-bcf6-05c78a817ec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

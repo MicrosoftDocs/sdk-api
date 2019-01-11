@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetNotifyInterface
 author: windows-sdk-content
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
 ms.author: windowssdkdev
 ms.date: 12/5/2018

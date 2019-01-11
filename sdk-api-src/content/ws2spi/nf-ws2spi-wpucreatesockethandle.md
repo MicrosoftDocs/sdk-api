@@ -4,7 +4,7 @@ title: WPUCreateSocketHandle function
 author: windows-sdk-content
 description: The WPUCreateSocketHandle function creates a new socket handle.
 old-location: winsock\wpucreatesockethandle_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ecbf9d8b-b705-4160-ac77-afa5b1501534
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GROUP_SOURCE_REQ
 author: windows-sdk-content
 description: Provides multicast group information for IPv6 or IPv4 addresses that includes the source IP address.
 old-location: winsock\group_source_req.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c8f442e0-e7c3-4421-a664-3f4e31a68eb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

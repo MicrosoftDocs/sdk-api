@@ -4,7 +4,7 @@ title: ICategoryCollection::get_Item
 author: windows-sdk-content
 description: Gets an ICategory interface from the collection.
 old-location: wua\icategorycollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

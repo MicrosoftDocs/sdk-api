@@ -4,7 +4,7 @@ title: recvfrom function
 author: windows-sdk-content
 description: The recvfrom function receives a datagram and stores the source address.
 old-location: winsock\recvfrom_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

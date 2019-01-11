@@ -4,7 +4,7 @@ title: IUpdateDownloadContentCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatedownloadcontentcollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fbe4e702-644c-4eee-beea-a91bad9cb1be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

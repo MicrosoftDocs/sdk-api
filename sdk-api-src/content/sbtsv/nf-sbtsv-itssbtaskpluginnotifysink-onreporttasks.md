@@ -4,7 +4,7 @@ title: ITsSbTaskPluginNotifySink::OnReportTasks
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) of a new task report.
 old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: e3b722c2-e6fa-46c5-a851-a039553b8e95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

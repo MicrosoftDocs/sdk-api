@@ -4,7 +4,7 @@ title: IAutomaticUpdates::get_Settings
 author: windows-sdk-content
 description: Gets the configuration settings for Automatic Updates.
 old-location: wua\iautomaticupdates_settings.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4b64d8bd-98bb-4d3a-9e90-2c6500c8614b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

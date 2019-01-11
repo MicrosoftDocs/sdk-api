@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::SetProp
 author: windows-sdk-content
 description: Use the SetProp method to set the property value for a group property.
 old-location: bits\ibackgroundcopygroup_setprop.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 057a1004-fbe6-4c90-84c0-4e5b55539ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

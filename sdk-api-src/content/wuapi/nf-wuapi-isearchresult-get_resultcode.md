@@ -4,7 +4,7 @@ title: ISearchResult::get_ResultCode
 author: windows-sdk-content
 description: Gets an OperationResultCode enumeration that specifies the result of a search.
 old-location: wua\isearchresult_resultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 83c59fd1-0d2f-4028-9345-c9dec1f94b09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

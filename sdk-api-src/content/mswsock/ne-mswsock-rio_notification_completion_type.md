@@ -4,7 +4,7 @@ title: RIO_NOTIFICATION_COMPLETION_TYPE
 author: windows-sdk-content
 description: Specifies the type of completion queue notifications to use with the RIONotify function when sending or receiving data using the Winsock registered I/O extensions.
 old-location: winsock\rio_notification_completion_type.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: F60DC5AD-9114-46FA-BCFF-981D637B3683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

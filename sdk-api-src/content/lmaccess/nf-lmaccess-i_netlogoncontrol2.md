@@ -4,7 +4,7 @@ title: I_NetLogonControl2 function
 author: windows-sdk-content
 description: Controls various aspects of the Netlogon service.
 old-location: winprog\i_netlogoncontrol2.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: bf40ee60-3a13-4a4e-a0f4-ba7c9fc11097
 ms.author: windowssdkdev
 ms.date: 12/5/2018

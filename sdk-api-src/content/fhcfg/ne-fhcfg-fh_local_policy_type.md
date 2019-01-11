@@ -4,7 +4,7 @@ title: FH_LOCAL_POLICY_TYPE
 author: windows-sdk-content
 description: Specifies the type of a local policy for the File History feature. Each local policy has a numeric parameter associated with it.
 old-location: winprog\fh_local_policy_type.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 59C54A67-91A3-495F-95F2-50EB373D442C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

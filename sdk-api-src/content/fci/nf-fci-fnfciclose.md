@@ -4,7 +4,7 @@ title: FNFCICLOSE macro
 author: windows-sdk-content
 description: The FNFCICLOSE macro provides the declaration for the application-defined callback function to close a file in an FCI context.
 old-location: winprog\fnfciclose.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

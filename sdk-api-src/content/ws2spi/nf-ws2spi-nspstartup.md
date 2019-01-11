@@ -4,7 +4,7 @@ title: NSPStartup function
 author: windows-sdk-content
 description: Retrieves the dynamic information about a provider, such as the list of the DLL entry points.
 old-location: winsock\nspstartup_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

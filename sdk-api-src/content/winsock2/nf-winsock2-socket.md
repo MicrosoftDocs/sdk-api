@@ -4,7 +4,7 @@ title: socket function
 author: windows-sdk-content
 description: The socket function creates a socket that is bound to a specific transport service provider.
 old-location: winsock\socket_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

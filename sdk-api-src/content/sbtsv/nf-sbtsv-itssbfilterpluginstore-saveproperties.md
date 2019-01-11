@@ -4,7 +4,7 @@ title: ITsSbFilterPluginStore::SaveProperties
 author: windows-sdk-content
 description: Saves a property set.
 old-location: termserv\itssbfilterpluginstore_saveproperties.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 79e5e519-e004-49c8-9d1b-705704446628
 ms.author: windowssdkdev
 ms.date: 12/5/2018

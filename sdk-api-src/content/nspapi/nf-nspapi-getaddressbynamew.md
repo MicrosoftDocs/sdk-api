@@ -4,7 +4,7 @@ title: GetAddressByNameW function
 author: windows-sdk-content
 description: GetAddressByName is no longer available for use as of Windows Sockets 2.
 old-location: winsock\getaddressbyname_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ea257b9e-5c5b-41fb-bcf0-7ac10b563b8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

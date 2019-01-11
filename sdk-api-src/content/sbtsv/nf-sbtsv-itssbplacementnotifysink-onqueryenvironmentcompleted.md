@@ -4,7 +4,7 @@ title: ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the environment specified by the ITsSbClientConnection object is already hosting the correct target.
 old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 937982aa-7655-4681-ba6c-94201743c90c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

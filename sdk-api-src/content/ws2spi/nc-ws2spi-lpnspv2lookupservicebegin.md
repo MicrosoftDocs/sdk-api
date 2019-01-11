@@ -4,7 +4,7 @@ title: LPNSPV2LOOKUPSERVICEBEGIN
 author: windows-sdk-content
 description: Initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a WSAQUERYSET2 structure.
 old-location: winsock\nspv2lookupservicebegin.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 5664b85d-8432-4068-aa97-caa57d9377ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

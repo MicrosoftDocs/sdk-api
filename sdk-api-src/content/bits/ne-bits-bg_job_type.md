@@ -4,7 +4,7 @@ title: BG_JOB_TYPE
 author: windows-sdk-content
 description: The BG_JOB_TYPE enumeration defines constant values that specify the type of transfer job, such as download.
 old-location: bits\bg_job_type.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b341a63f-3a1d-4518-8f05-17d28af603b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TCOMPfromLZXWindow macro
 author: windows-sdk-content
 description: The TCOMPfromLZXWindow macro converts window size into an LXZTCOMP value for FCIAddFile.
 old-location: winprog\tcompfromlzxwindow.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
 ms.author: windowssdkdev
 ms.date: 12/5/2018

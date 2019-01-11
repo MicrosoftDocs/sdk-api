@@ -4,7 +4,7 @@ title: select function
 author: windows-sdk-content
 description: The select function determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O.
 old-location: winsock\select_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

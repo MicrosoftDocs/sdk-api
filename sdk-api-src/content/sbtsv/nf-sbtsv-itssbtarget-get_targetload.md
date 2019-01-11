@@ -4,7 +4,7 @@ title: ITsSbTarget::get_TargetLoad
 author: windows-sdk-content
 description: Retrieves the relative load on a target.
 old-location: termserv\itssbtarget_targetload.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 56618dcf-1319-4310-80ba-7ed71b8b02e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

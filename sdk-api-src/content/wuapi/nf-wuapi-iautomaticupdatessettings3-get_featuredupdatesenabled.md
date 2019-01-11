@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled
 author: windows-sdk-content
 description: Not supported.
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

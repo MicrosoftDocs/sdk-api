@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::AddFileSet
 author: windows-sdk-content
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: fe2f9b47-0f0a-48ab-be0e-658307cfec5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

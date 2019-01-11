@@ -4,7 +4,7 @@ title: CSADDR_INFO
 author: windows-sdk-content
 description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
 old-location: winsock\csaddr_info_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9cad3586-e315-4f6f-9045-7c95502bb768
 ms.author: windowssdkdev
 ms.date: 12/5/2018

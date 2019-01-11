@@ -2,7 +2,7 @@
 UID: NA:dsparse
 ms.assetid: 52894d62-a539-32b9-97d7-886b29466afd
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

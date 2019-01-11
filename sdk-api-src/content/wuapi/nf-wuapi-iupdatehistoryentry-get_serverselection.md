@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_ServerSelection
 author: windows-sdk-content
 description: Gets the ServerSelection value that indicates which server provided an update.
 old-location: wua\iupdatehistoryentry_serverselection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 26b1c4ce-edc0-46cb-80f7-6a140df9c88b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

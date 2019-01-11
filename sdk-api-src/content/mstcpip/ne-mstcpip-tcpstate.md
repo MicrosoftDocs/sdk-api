@@ -4,7 +4,7 @@ title: TCPSTATE
 author: windows-sdk-content
 description: Indicates the possible states of a Transmission Control Protocol (TCP) connection.
 old-location: winsock\tcpstate.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 225C423E-C820-4E9F-8261-DA1E14F81683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

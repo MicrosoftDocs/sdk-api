@@ -4,7 +4,7 @@ title: IUpdateIdentity::get_RevisionNumber
 author: windows-sdk-content
 description: Gets the revision number of an update.
 old-location: wua\iupdateidentity_revisionnumber.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1d95a83f-52d9-49d1-a604-087aef449e9a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

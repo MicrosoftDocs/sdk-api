@@ -4,7 +4,7 @@ title: ITsSbPluginNotifySink::OnTerminated
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Terminate.
 old-location: termserv\itssbpluginnotifysink_onterminated.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 554139f5-dd20-4bca-8eae-4621535616e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

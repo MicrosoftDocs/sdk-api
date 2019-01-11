@@ -4,7 +4,7 @@ title: IBITSExtensionSetupFactory::GetObject
 author: windows-sdk-content
 description: Use the GetObject method to retrieve a pointer to the IBITSExtensionSetup interface. This method performs the same binding that the ADsGetObject ADSI function performs.
 old-location: bits\ibitsextensionsetupfactory_getobject.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: ac0bb9d5-3f1f-4c9b-bd7d-905e0451bf70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

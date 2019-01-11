@@ -4,7 +4,7 @@ title: send function
 author: windows-sdk-content
 description: Sends data on a connected socket.
 old-location: winsock\send_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 902bb9cf-d847-43fc-8282-394d619b8f1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

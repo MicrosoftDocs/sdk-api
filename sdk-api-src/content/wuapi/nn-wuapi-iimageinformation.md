@@ -4,7 +4,7 @@ title: IImageInformation
 author: windows-sdk-content
 description: Contains information about a localized image that is associated with an update or a category.
 old-location: wua\iimageinformation.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

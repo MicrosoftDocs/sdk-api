@@ -4,7 +4,7 @@ title: eWINDOW_ADVANCE_METHOD
 author: windows-sdk-content
 description: The eWINDOW_ADVANCE_METHOD enumeration specifies the window advance mode used for Reliable Multicast.
 old-location: winsock\ewindow_advance_method.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cd6f0809-ca6b-4a83-ae21-aea1cb4a101a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

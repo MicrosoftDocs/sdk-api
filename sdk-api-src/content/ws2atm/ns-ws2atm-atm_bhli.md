@@ -4,7 +4,7 @@ title: ATM_BHLI
 author: windows-sdk-content
 description: The ATM_BHLI structure is used to identify B-HLI information for an associated ATM socket.
 old-location: winsock\atm_bhli_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a7e09a8e-5990-4493-bd73-016363b57427
 ms.author: windowssdkdev
 ms.date: 12/5/2018

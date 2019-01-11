@@ -4,7 +4,7 @@ title: WTSSBX_MACHINE_INFO
 author: windows-sdk-content
 description: Contains information about a computer and its current state.
 old-location: termserv\wtssbx_machine_info.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 88d49ae4-bf48-4b04-8a16-58d32efd62fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

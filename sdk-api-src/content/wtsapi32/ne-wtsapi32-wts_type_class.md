@@ -4,7 +4,7 @@ title: WTS_TYPE_CLASS
 author: windows-sdk-content
 description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 old-location: termserv\wts_type_class.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateInstaller::get_ParentHwnd
 author: windows-sdk-content
 description: Gets and sets a handle to the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parenthwnd.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6862ad8c-e1fa-4880-8800-88f485b7cebf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

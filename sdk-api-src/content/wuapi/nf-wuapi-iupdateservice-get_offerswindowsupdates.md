@@ -4,7 +4,7 @@ title: IUpdateService::get_OffersWindowsUpdates
 author: windows-sdk-content
 description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
 old-location: wua\iupdateservice_offerswindowsupdates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 926230ea-e8cf-4ecb-980a-88852d033c70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

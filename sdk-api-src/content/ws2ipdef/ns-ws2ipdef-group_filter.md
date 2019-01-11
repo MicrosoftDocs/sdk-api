@@ -4,7 +4,7 @@ title: GROUP_FILTER
 author: windows-sdk-content
 description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
 old-location: winsock\group_filter.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

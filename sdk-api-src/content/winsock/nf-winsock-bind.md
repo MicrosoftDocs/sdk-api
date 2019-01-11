@@ -4,7 +4,7 @@ title: bind function
 author: windows-sdk-content
 description: The bind function associates a local address with a socket.
 old-location: winsock\bind_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

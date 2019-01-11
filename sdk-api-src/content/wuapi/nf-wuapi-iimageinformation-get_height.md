@@ -4,7 +4,7 @@ title: IImageInformation::get_Height
 author: windows-sdk-content
 description: Gets the height of the image, in pixels.
 old-location: wua\iimageinformation_height.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 327b7579-3406-483a-9110-a20f9057e2a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

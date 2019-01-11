@@ -4,7 +4,7 @@ title: WSCWriteProviderOrder function
 author: windows-sdk-content
 description: Used to reorder the available transport providers.
 old-location: winsock\wscwriteproviderorder_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 459a2fc9-fa05-4ebc-8cc7-3f4915b4b800
 ms.author: windowssdkdev
 ms.date: 12/5/2018

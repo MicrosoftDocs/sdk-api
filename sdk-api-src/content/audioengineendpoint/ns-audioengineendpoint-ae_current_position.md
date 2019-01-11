@@ -4,7 +4,7 @@ title: AE_CURRENT_POSITION
 author: windows-sdk-content
 description: Reports the current frame position from the device to the clients.
 old-location: termserv\ae_current_position.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 2e239114-1af7-455a-a60f-2054b05e1414
 ms.author: windowssdkdev
 ms.date: 12/5/2018

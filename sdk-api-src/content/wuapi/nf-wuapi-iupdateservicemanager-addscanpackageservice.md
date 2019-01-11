@@ -4,7 +4,7 @@ title: IUpdateServiceManager::AddScanPackageService
 author: windows-sdk-content
 description: Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.
 old-location: wua\iupdateservicemanager_addscanpackageservice.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

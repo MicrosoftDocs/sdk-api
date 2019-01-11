@@ -4,7 +4,7 @@ title: WSCEnumProtocols function
 author: windows-sdk-content
 description: The WSCEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wscenumprotocols_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

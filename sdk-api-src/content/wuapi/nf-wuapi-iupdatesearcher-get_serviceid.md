@@ -4,7 +4,7 @@ title: IUpdateSearcher::get_ServiceID
 author: windows-sdk-content
 description: Gets and sets a site to search when the site to search is not a Windows Update site.
 old-location: wua\iupdatesearcherserviceid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7c00d26a-9ef0-45ec-81b3-d13f91dd7d8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

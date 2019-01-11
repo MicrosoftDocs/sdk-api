@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_Description
 author: windows-sdk-content
 description: Gets the description of an update.
 old-location: wua\iupdatehistoryentry_description.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 355d4623-a84e-4994-ad41-cb4237feeaab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

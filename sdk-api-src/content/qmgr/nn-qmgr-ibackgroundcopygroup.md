@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup
 author: windows-sdk-content
 description: Use the IBackgroundCopyGroup interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
 old-location: bits\ibackgroundcopygroup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFhConfigMgr::ChangeDefaultTargetRecommendation
 author: windows-sdk-content
 description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

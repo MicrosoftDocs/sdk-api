@@ -4,7 +4,7 @@ title: SERVICE_TYPE_INFO_ABSA
 author: windows-sdk-content
 description: The SERVICE_TYPE_INFO_ABS structure contains information about a network service type. Use SERVICE_TYPE_INFO_ABS to add a network service type to a namespace.
 old-location: winsock\service_type_info_abs_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 9adf92b0-1268-48c1-91e4-d05ad696ff06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

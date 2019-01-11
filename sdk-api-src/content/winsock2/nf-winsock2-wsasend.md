@@ -4,7 +4,7 @@ title: WSASend function
 author: windows-sdk-content
 description: Sends data on a connected socket.
 old-location: winsock\wsasend_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 764339e6-a1ac-455d-8ebd-ad0fa50dc3b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

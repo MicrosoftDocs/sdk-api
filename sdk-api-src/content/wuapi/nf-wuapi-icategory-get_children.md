@@ -4,7 +4,7 @@ title: ICategory::get_Children
 author: windows-sdk-content
 description: Gets an interface collection that contains the child categories of this category.
 old-location: wua\icategory_children.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

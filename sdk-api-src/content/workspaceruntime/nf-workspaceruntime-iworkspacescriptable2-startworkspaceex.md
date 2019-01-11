@@ -4,7 +4,7 @@ title: IWorkspaceScriptable2::StartWorkspaceEx
 author: windows-sdk-content
 description: Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
 old-location: termserv\iworkspacescriptable2_startworkspaceex.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 8383ee1c-ff6a-4251-8b0d-a2a8c0674873
 ms.author: windowssdkdev
 ms.date: 12/5/2018

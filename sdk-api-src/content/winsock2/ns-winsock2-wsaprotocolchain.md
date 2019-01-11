@@ -4,7 +4,7 @@ title: WSAPROTOCOLCHAIN
 author: windows-sdk-content
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWTSListenerCallback
 author: windows-sdk-content
 description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
 old-location: termserv\iwtslistenercallback.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: b5f1d74d-31e6-4447-82ab-6dd3ad9957fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IInstallationProgressChangedCallback::Invoke
 author: windows-sdk-content
 description: Handles the notification of the change in the progress of an asynchronous installation or uninstallation that was initiated by a call to the IUpdateInstaller.BeginInstall method or the IUpdateInstaller.BeginUninstall method.
 old-location: wua\iinstallationprogresschangedcallback_invoke.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1ef4ab68-8bf3-4141-aba2-826bb606eab5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

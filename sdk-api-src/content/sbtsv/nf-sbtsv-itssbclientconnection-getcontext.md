@@ -4,7 +4,7 @@ title: ITsSbClientConnection::GetContext
 author: windows-sdk-content
 description: Retrieves context information that was stored by a plug-in by using the PutContext method.
 old-location: termserv\itssbclientconnection_getcontext.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815
 ms.author: windowssdkdev
 ms.date: 12/5/2018

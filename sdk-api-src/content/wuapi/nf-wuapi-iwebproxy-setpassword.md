@@ -4,7 +4,7 @@ title: IWebProxy::SetPassword
 author: windows-sdk-content
 description: Sets the password to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_setpassword.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 59b500f1-2015-4f72-9be5-c2f57462dff0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

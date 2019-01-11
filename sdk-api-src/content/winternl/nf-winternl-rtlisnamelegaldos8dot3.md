@@ -4,7 +4,7 @@ title: RtlIsNameLegalDOS8Dot3 function
 author: windows-sdk-content
 description: Determines whether or not a specified name can be used to create a file on the FAT file system.
 old-location: winprog\rtlisnamelegaldos8dot3.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 705fd65a-dd56-46c8-9910-5c07caff9173
 ms.author: windowssdkdev
 ms.date: 12/5/2018

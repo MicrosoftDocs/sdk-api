@@ -4,7 +4,7 @@ title: RtlInitString function
 author: windows-sdk-content
 description: Initializes a counted string.
 old-location: winprog\rtlinitstring.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitstring.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

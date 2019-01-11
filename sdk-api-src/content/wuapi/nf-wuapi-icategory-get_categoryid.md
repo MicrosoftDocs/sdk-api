@@ -4,7 +4,7 @@ title: ICategory::get_CategoryID
 author: windows-sdk-content
 description: Gets the identifier of the category.
 old-location: wua\icategory_categoryid.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 56982453-6f2d-4401-83a9-672c0d8a2409
 ms.author: windowssdkdev
 ms.date: 12/5/2018

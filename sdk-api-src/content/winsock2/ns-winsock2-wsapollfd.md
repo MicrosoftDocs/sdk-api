@@ -4,7 +4,7 @@ title: WSAPOLLFD
 author: windows-sdk-content
 description: Stores socket information used by the WSAPoll function.
 old-location: winsock\pollfd.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

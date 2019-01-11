@@ -4,7 +4,7 @@ title: IUpdate::get_Type
 author: windows-sdk-content
 description: Gets the type of the update.
 old-location: wua\iupdate_type.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 2556ee19-b6ff-4e66-9e40-2c0a1d6a0176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

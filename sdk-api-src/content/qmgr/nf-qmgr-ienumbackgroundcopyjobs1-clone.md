@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyJobs1::Clone
 author: windows-sdk-content
 description: Use the Clone method to create another IEnumBackgroundCopyJobs1 enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs1_clone.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c26bec86-1cff-44bb-aa0c-c48b076ff993
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LPNSPLOOKUPSERVICEBEGIN
 author: windows-sdk-content
 description: Initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
 old-location: winsock\nsplookupservicebegin_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: a0b71821-4434-470f-b729-370d7e1722ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

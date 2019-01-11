@@ -4,7 +4,7 @@ title: IBackgroundCopyJob3::GetFileACLFlags
 author: windows-sdk-content
 description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
 old-location: bits\ibackgroundcopyjob3_getfileaclflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 569df1e5-d45a-4f18-82ad-1e4957f47d94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

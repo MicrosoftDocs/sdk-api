@@ -4,7 +4,7 @@ title: BG_AUTH_CREDENTIALS_UNION
 author: windows-sdk-content
 description: The BG_AUTH_CREDENTIALS_UNION union identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
 old-location: bits\bg_auth_credentials_union.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

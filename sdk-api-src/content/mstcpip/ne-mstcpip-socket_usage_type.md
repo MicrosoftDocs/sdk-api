@@ -4,7 +4,7 @@ title: SOCKET_USAGE_TYPE
 author: windows-sdk-content
 description: Used to specified the usage type for the socket.
 old-location: winsock\socket_usage_type.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 27142160-7381-47d0-8664-4064be801a06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

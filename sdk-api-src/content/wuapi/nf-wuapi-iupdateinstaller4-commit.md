@@ -4,7 +4,7 @@ title: IUpdateInstaller4::Commit
 author: windows-sdk-content
 description: Finalizes updates that were previously staged or installed.
 old-location: wua\iupdateinstaller4_commit.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: F94F443D-9A15-42C3-A404-B80F5E498AD3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

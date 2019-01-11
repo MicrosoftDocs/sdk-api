@@ -4,7 +4,7 @@ title: BG_CERT_STORE_LOCATION
 author: windows-sdk-content
 description: The BG_CERT_STORE_LOCATION enumeration defines the location of the certificate store.
 old-location: bits\bg_cert_store_location.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 596b1ba1-6652-4c97-a44d-e8271471d864
 ms.author: windowssdkdev
 ms.date: 12/5/2018

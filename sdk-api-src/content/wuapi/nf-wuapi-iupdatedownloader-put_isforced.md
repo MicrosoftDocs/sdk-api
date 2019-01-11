@@ -4,7 +4,7 @@ title: IUpdateDownloader::put_IsForced
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the Windows Update Agent (WUA) forces the download of updates that are already installed or that cannot be installed.
 old-location: wua\iupdatedownloader_isforced.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e1ac3da4-341c-4a4e-920f-b84af03e324e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

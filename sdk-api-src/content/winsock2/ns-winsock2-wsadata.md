@@ -4,7 +4,7 @@ title: WSADATA
 author: windows-sdk-content
 description: Contains information about the Windows Sockets implementation.
 old-location: winsock\wsadata_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c3c4c0d6-c8b3-4991-bedb-f45816cc8160
 ms.author: windowssdkdev
 ms.date: 12/5/2018

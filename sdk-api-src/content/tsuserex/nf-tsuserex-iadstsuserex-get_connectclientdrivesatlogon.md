@@ -4,7 +4,7 @@ title: IADsTSUserEx::get_ConnectClientDrivesAtLogon
 author: windows-sdk-content
 description: A value that specifies if mapped client drives should be reconnected when a Remote Desktop Services session is started.
 old-location: termserv\iadstsuserex_connectclientdrivesatlogon.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: d9c37f08-67f2-401c-b5a7-1866b8a3d611
 ms.author: windowssdkdev
 ms.date: 12/5/2018

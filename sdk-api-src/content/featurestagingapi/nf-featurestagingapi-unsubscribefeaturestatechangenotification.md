@@ -4,7 +4,7 @@ title: UnsubscribeFeatureStateChangeNotification function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\unsubscribefeaturestatechangenotification.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 489FFAE2-E2A0-4DE2-B66A-7165E28CD90A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

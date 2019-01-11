@@ -4,7 +4,7 @@ title: DdSwapTextureHandles function
 author: windows-sdk-content
 description: Developed for device driver interfaces (DDIs) prior to Microsoft DirectDraw 7.0 and does nothing on Microsoft Windows NT systems. All parameters are ignored. GdiEntry16 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddswaptexturehandles.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddswaptexturehandles.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

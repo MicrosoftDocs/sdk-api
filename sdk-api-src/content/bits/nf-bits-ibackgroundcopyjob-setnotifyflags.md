@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::SetNotifyFlags
 author: windows-sdk-content
 description: Specifies the type of event notification you want to receive, such as job transferred events.
 old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

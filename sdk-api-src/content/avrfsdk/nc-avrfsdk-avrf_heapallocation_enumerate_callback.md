@@ -4,7 +4,7 @@ title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 author: windows-sdk-content
 description: Receives information related to heap allocations.
 old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
 ms.author: windowssdkdev
 ms.date: 12/5/2018

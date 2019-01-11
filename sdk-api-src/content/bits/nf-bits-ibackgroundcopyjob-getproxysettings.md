@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetProxySettings
 author: windows-sdk-content
 description: Retrieves the proxy information that the job uses to transfer the files.
 old-location: bits\ibackgroundcopyjob_getproxysettings.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c2d0ec9b-eaa1-4f78-9ccc-4e91d045cd94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

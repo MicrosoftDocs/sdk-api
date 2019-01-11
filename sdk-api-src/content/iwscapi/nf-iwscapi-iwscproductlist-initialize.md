@@ -4,7 +4,7 @@ title: IWSCProductList::Initialize
 author: windows-sdk-content
 description: Gathers information on all of the providers of the specified type on the computer.
 old-location: winprog\iwscproductlist_initialize.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 0D003510-BCFE-45E9-A34E-58036C382157
 ms.author: windowssdkdev
 ms.date: 12/5/2018

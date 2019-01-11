@@ -4,7 +4,7 @@ title: TransmitFile function
 author: windows-sdk-content
 description: Transmits file data over a connected socket handle.
 old-location: winsock\transmitfile_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 45db763e-735d-48ac-a0e4-6e63b5dda7a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

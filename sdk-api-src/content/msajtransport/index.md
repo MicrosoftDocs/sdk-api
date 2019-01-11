@@ -2,7 +2,7 @@
 UID: NA:msajtransport
 ms.assetid: c59fe873-368c-3798-a004-f41c3063785b
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

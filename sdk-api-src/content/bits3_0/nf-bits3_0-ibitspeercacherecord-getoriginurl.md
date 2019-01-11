@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord::GetOriginUrl
 author: windows-sdk-content
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

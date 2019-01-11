@@ -4,7 +4,7 @@ title: RecordFeatureError function
 author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureerror.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

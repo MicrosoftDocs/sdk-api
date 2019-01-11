@@ -4,7 +4,7 @@ title: IWindowsDriverUpdate5::get_AutoDownload
 author: windows-sdk-content
 description: Gets an AutoDownloadMode value that indicates the automatic download mode of update.
 old-location: wua\iwindowsdriverupdate5_autodownload.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 598829d2-35a3-48ac-836c-138fd766b22e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

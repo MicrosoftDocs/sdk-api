@@ -4,7 +4,7 @@ title: IUpdateService::get_CanRegisterWithAU
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service can register with Automatic Updates.
 old-location: wua\iupdateservice_canregisterwithau.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 79198de8-548a-4d9a-ae07-d421babe8700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

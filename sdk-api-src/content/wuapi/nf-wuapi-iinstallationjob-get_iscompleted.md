@@ -4,7 +4,7 @@ title: IInstallationJob::get_IsCompleted
 author: windows-sdk-content
 description: Gets a value that indicates whether a call to the IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall method is completely processed.
 old-location: wua\iinstallationjob_iscompleted.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 043e1f6a-993c-48be-9d91-7f99cd5712d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

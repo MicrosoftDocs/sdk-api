@@ -4,7 +4,7 @@ title: IBackgroundCopyJob4
 author: windows-sdk-content
 description: Use this interface to enable peer caching, restrict download time, and inspect user token characteristics.
 old-location: bits\ibackgroundcopyjob4.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 68909710-f749-487e-b064-9f8630929c53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WRDS_SETTING_LEVEL
 author: windows-sdk-content
 description: Specifies the type of structure contained in the WRdsSetting member of the WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_level.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 9E0D754D-4FB4-4878-AA59-33ACFE295651
 ms.author: windowssdkdev
 ms.date: 12/5/2018

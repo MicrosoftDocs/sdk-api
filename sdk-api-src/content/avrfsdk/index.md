@@ -2,7 +2,7 @@
 UID: NA:avrfsdk
 ms.assetid: 4fec5ee0-3163-3bb6-9b10-7e0d680efb4d
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

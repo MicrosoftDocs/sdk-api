@@ -4,7 +4,7 @@ title: IUpdateSearcher::put_IncludePotentiallySupersededUpdates
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the search results include updates that are superseded by other updates in the search results.
 old-location: wua\iupdatesearcher_includepotentiallysupersededupdates.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e01be972-e5d1-4b37-9ac4-cf9966ed0a4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

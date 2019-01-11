@@ -4,7 +4,7 @@ title: "_lwrite function"
 author: windows-sdk-content
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

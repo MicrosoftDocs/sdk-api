@@ -4,7 +4,7 @@ title: IBackgroundCopyJob2::GetReplyData
 author: windows-sdk-content
 description: Retrieves an in-memory copy of the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY and its state is BG_JOB_STATE_TRANSFERRED.
 old-location: bits\ibackgroundcopyjob2_getreplydata.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: f29df35f-48c2-4837-9809-46bd04f08bfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

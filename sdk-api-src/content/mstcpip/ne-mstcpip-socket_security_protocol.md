@@ -4,7 +4,7 @@ title: SOCKET_SECURITY_PROTOCOL
 author: windows-sdk-content
 description: Indicates the type of security protocol to be used on a socket to secure network traffic.
 old-location: winsock\socket_security_protocol.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ae77ac61-5035-401e-a4b6-345c1be7b2b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

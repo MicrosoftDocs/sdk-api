@@ -4,7 +4,7 @@ title: IUpdateServiceCollection::get_Count
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateservicecollection_count.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c52afc93-ac73-46d5-9f32-9d2bb8e65176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

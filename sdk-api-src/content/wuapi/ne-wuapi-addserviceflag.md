@@ -4,7 +4,7 @@ title: AddServiceFlag
 author: windows-sdk-content
 description: Defines the possible ways in which the IUpdateServiceManager2 interface can process service registration requests.
 old-location: wua\addserviceflag.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 1372a062-9f62-4b4d-8476-b6c7059a801a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

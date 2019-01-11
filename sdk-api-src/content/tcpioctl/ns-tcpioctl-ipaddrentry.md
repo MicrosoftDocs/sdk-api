@@ -4,7 +4,7 @@ title: IPAddrEntry
 author: windows-sdk-content
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipaddrentry.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings::Save
 author: windows-sdk-content
 description: Applies the current Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_save.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateServiceRegistration
 author: windows-sdk-content
 description: Contains information about the registration state of a service.
 old-location: wua\iupdateserviceregistration.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 729664f2-5f75-4e73-9ccc-150b2e201f66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

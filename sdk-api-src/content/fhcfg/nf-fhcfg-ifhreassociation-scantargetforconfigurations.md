@@ -4,7 +4,7 @@ title: IFhReassociation::ScanTargetForConfigurations
 author: windows-sdk-content
 description: Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.
 old-location: winprog\ifhreassociation_scantargetforconfigurations.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: E26F5C41-50E7-4D4F-A6FF-D1B21AF28A9D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

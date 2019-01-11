@@ -4,7 +4,7 @@ title: ITsSbFilterPluginStore
 author: windows-sdk-content
 description: Filter Plugin Store
 old-location: termserv\itssbfilterpluginstore.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 59541fc2-0063-41ca-bcfe-536bb1742c6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

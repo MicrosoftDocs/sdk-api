@@ -4,7 +4,7 @@ title: IDownloadResult::get_HResult
 author: windows-sdk-content
 description: Gets the exception code number if an exception code number is raised during the download.
 old-location: wua\idownloadresult_hresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 3f1aa4d9-0e34-4456-bac0-2c8b08519cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

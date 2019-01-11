@@ -4,7 +4,7 @@ title: IEnumBackgroundCopyJobs::Clone
 author: windows-sdk-content
 description: Creates another IEnumBackgroundCopyJobs enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs_clone.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 5d83af74-c24c-41e2-aef4-d7210a1d0160
 ms.author: windowssdkdev
 ms.date: 12/5/2018

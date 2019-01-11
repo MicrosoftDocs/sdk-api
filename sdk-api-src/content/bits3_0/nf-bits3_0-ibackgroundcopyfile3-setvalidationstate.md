@@ -4,7 +4,7 @@ title: IBackgroundCopyFile3::SetValidationState
 author: windows-sdk-content
 description: Sets the validation state of this file.
 old-location: bits\ibackgroundcopyfile3_setvalidationstate.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c032ce32-07a4-4ab2-ae57-f9d526d1371a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

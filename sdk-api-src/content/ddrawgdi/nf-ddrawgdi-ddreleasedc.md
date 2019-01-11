@@ -4,7 +4,7 @@ title: DdReleaseDC function
 author: windows-sdk-content
 description: Wrapper for the NtGdiDdReleaseDC function and releases a device context (DC) previously obtained through DdGetDC or GdiEntry7. GdiEntry8 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddreleasedc.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddreleasedc.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

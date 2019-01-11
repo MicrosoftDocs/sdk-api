@@ -4,7 +4,7 @@ title: WSCGetApplicationCategory function
 author: windows-sdk-content
 description: Retrieves the layered service provider (LSP) categories associated with an application.
 old-location: winsock\wscgetapplicationcategory.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: c4e149ce-dff9-401a-8488-23676992c04d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSAHtonl function
 author: windows-sdk-content
 description: The WSAHtonl function converts a u_long from host byte order to network byte order.
 old-location: winsock\wsahtonl_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 33512f49-d576-4439-ad8d-5c87387d6214
 ms.author: windowssdkdev
 ms.date: 12/5/2018

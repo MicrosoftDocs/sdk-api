@@ -4,7 +4,7 @@ title: IInstallationBehavior::get_RequiresNetworkConnectivity
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation or uninstallation of an update requires network connectivity.
 old-location: wua\iinstallationbehavior_requiresnetworkconnectivity.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d74dd93a-17ba-4293-a146-19c86a8dfdf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

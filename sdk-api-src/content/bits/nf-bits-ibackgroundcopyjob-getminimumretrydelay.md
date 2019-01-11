@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetMinimumRetryDelay
 author: windows-sdk-content
 description: Retrieves the minimum length of time that the service waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_getminimumretrydelay.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: af599174-44f8-4d5e-b9ff-61ddbb330580
 ms.author: windowssdkdev
 ms.date: 12/5/2018

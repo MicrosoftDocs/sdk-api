@@ -4,7 +4,7 @@ title: TCP_REQUEST_QUERY_INFORMATION_EX_XP
 author: windows-sdk-content
 description: Contains the input for the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tcp_request_query_information_ex.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 2a1f3a41-ee18-4a67-9da1-a5b18d32defb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

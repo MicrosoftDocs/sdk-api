@@ -4,7 +4,7 @@ title: IWebProxy::get_ReadOnly
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the WebProxy object is read-only.
 old-location: wua\iwebproxy_readonly.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: daa1a276-e03c-448c-8572-3bec9151bcb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

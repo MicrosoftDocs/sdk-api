@@ -4,7 +4,7 @@ title: WSAInstallServiceClassA function
 author: windows-sdk-content
 description: The WSAInstallServiceClass function registers a service class schema within a namespace.
 old-location: winsock\wsainstallserviceclass_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
 ms.author: windowssdkdev
 ms.date: 12/5/2018

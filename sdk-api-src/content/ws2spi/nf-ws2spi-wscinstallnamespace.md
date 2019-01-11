@@ -4,7 +4,7 @@ title: WSCInstallNameSpace function
 author: windows-sdk-content
 description: Installs a namespace provider.
 old-location: winsock\wscinstallnamespace_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: f17f6174-879e-45e7-a250-975d1ee24fe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

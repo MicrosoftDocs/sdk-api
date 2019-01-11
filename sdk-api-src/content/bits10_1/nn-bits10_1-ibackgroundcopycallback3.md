@@ -4,7 +4,7 @@ title: IBackgroundCopyCallback3
 author: windows-sdk-content
 description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.
 old-location: bits\ibackgroundcopycallback3.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
 ms.author: windowssdkdev
 ms.date: 12/5/2018

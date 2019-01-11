@@ -4,7 +4,7 @@ title: FNFREE macro
 author: windows-sdk-content
 description: The FNFREE macro provides the declaration for the application-defined callback function to free previously allocated memory in an FDI context.
 old-location: winprog\fnfree.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.author: windowssdkdev
 ms.date: 12/5/2018

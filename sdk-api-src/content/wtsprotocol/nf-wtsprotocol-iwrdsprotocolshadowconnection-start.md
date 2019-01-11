@@ -4,7 +4,7 @@ title: IWRdsProtocolShadowConnection::Start
 author: windows-sdk-content
 description: Notifies the protocol that shadowing has started.
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AreDvdCodecsEnabled function
 author: windows-sdk-content
 description: Returns a value indicating whether DVD codecs are enabled on the current device.
 old-location: winprog\aredvdcodecsenabled.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 706476D1-B372-4C51-8534-0085A4735D4C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

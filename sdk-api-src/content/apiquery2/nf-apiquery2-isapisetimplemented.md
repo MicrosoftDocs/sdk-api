@@ -4,7 +4,7 @@ title: IsApiSetImplemented function
 author: windows-sdk-content
 description: The IsApiSetImplemented function tests if a specified API set is present on the computer.
 old-location: winprog\isapisetimplemented.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

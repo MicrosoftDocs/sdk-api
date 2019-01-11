@@ -4,7 +4,7 @@ title: IEnumBitsPeers::Clone
 author: windows-sdk-content
 description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeers_clone.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

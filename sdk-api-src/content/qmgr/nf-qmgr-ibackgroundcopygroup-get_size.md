@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::get_Size
 author: windows-sdk-content
 description: Use the get_Size method to retrieve the size of all files in the group to download.
 old-location: bits\ibackgroundcopygroup_get_size.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 69190b6a-6920-4f84-9109-12079f00a6ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

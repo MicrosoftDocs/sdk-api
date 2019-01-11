@@ -4,7 +4,7 @@ title: IUpdateDownloader::BeginDownload
 author: windows-sdk-content
 description: Starts an asynchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_begindownload.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
 ms.author: windowssdkdev
 ms.date: 12/5/2018

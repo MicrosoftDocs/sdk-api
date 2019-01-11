@@ -85,13 +85,6 @@ Number of channels in the output data buffer.
 
 ### -param MixWithOutput
 
-TBD
-
-
-
-
-#### - MixWithDestination
-
 TRUE to mix with the destination buffer, FALSE to overwrite the destination buffer.
 
 

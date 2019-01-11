@@ -4,7 +4,7 @@ title: IUpdate::get_Categories
 author: windows-sdk-content
 description: Gets an interface that contains a collection of categories to which the update belongs.
 old-location: wua\iupdate_categories.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

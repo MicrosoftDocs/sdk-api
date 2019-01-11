@@ -4,7 +4,7 @@ title: IUpdateSearcher::EndSearch
 author: windows-sdk-content
 description: Completes an asynchronous search for updates.
 old-location: wua\iupdatesearcherendsearch.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

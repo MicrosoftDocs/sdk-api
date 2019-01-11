@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::GetJob
 author: windows-sdk-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

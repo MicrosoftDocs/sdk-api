@@ -4,7 +4,7 @@ title: OperationResultCode
 author: windows-sdk-content
 description: Defines the possible results of a download, install, uninstall, or verification operation on an update.
 old-location: wua\operationresultcode.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 02d3442e-d098-42b6-b1b1-cc2d1a815fa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

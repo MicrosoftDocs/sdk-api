@@ -4,7 +4,7 @@ title: IBackgroundCopyJob::GetType
 author: windows-sdk-content
 description: Retrieves the type of transfer being performed, such as a file download or upload.
 old-location: bits\ibackgroundcopyjob_gettype.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: b84c45c2-379a-40d0-91ab-0124f0ef6b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

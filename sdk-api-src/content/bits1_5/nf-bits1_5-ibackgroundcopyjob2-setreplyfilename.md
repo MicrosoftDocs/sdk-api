@@ -4,7 +4,7 @@ title: IBackgroundCopyJob2::SetReplyFileName
 author: windows-sdk-content
 description: Specifies the name of the file to contain the reply data from the server application. Call this method only if the job's type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_setreplyfilename.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 9f8591a3-ecc2-497a-ac12-67e5862efde4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

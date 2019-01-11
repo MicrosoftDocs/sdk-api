@@ -4,7 +4,7 @@ title: listen function
 author: windows-sdk-content
 description: The listen function places a socket in a state in which it is listening for an incoming connection.
 old-location: winsock\listen_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IUpdateDownloadResult::get_HResult
 author: windows-sdk-content
 description: Gets the exception HRESULT value, if any, that is raised during the operation on the update.
 old-location: wua\iupdatedownloadresult_hresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 18a1100d-c7b0-42ac-af0b-90e83f60cbec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

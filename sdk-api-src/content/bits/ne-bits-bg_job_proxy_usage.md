@@ -4,7 +4,7 @@ title: BG_JOB_PROXY_USAGE
 author: windows-sdk-content
 description: The BG_JOB_PROXY_USAGE enumeration defines constant values that specify which proxy to use for file transfers. You can define different proxy settings for each job.
 old-location: bits\bg_job_proxy_usage.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: e066b6c8-905f-4e18-9be7-aa3c134f9e13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

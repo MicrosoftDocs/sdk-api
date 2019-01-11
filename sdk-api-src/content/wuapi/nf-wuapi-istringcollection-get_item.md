@@ -4,7 +4,7 @@ title: IStringCollection::get_Item
 author: windows-sdk-content
 description: Gets or sets a string in the collection.
 old-location: wua\istringcollection_item.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SOCKET_SECURITY_SETTINGS_IPSEC
 author: windows-sdk-content
 description: Specifies various security requirements and settings that are specific to IPsec.
 old-location: winsock\socket_security_settings_ipsec.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 99af6ebd-6a7d-4753-8bc6-cfd42919843e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

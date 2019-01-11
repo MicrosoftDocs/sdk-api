@@ -4,7 +4,7 @@ title: IAutomaticUpdatesSettings3::get_NonAdministratorsElevated
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether non-administrators can perform some update-related actions without administrator approval.
 old-location: wua\iautomaticupdatessettings3_nonadministratorselevated.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 6294d982-e6ed-472d-b94b-c140b423ea88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

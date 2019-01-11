@@ -4,7 +4,7 @@ title: SOCKADDR_IN
 author: windows-sdk-content
 description: The sockaddr structure varies depending on the protocol selected.
 old-location: winsock\sockaddr_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

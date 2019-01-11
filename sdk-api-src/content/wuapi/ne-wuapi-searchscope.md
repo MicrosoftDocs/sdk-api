@@ -4,7 +4,7 @@ title: SearchScope
 author: windows-sdk-content
 description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.
 old-location: wua\searchscope.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

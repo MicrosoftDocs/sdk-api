@@ -4,7 +4,7 @@ title: WTSLISTENERCONFIGA
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

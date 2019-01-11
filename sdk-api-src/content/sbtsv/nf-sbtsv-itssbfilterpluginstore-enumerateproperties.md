@@ -4,7 +4,7 @@ title: ITsSbFilterPluginStore::EnumerateProperties
 author: windows-sdk-content
 description: Enumerates a property set.
 old-location: termserv\itssbfilterpluginstore_enumerateproperties.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0eb489d2-2644-4d34-83a7-132d28a7b871
 ms.author: windowssdkdev
 ms.date: 12/5/2018

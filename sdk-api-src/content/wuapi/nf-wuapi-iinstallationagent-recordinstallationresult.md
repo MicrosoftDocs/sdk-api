@@ -4,7 +4,7 @@ title: IInstallationAgent::RecordInstallationResult
 author: windows-sdk-content
 description: Records the result for an update. The result is specified by an IStringCollection object.
 old-location: wua\iinstallationagent_recordinstallationresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

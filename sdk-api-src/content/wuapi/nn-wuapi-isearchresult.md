@@ -4,7 +4,7 @@ title: ISearchResult
 author: windows-sdk-content
 description: Represents the result of a search.
 old-location: wua\isearchresult.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f38c5b0f-8010-4db1-802c-5005c332188b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

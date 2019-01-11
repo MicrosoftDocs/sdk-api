@@ -4,7 +4,7 @@ title: IUpdate::get_DownloadContents
 author: windows-sdk-content
 description: Gets file information about the download contents of the update.
 old-location: wua\iupdate_downloadcontents.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: dbeeaac7-3841-42ec-a3f3-bdf94694dbef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

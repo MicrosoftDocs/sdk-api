@@ -4,7 +4,7 @@ title: FEATURE_ERROR
 author: windows-sdk-content
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

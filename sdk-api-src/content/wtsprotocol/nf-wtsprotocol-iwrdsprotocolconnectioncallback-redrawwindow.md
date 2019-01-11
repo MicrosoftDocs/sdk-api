@@ -4,7 +4,7 @@ title: IWRdsProtocolConnectionCallback::RedrawWindow
 author: windows-sdk-content
 description: Requests that the Remote Desktop Services service redraw the client window.
 old-location: termserv\iwrdsprotocolconnectioncallback_redrawwindow.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 92d52015-c5b9-472e-898b-aca6f6e83620
 ms.author: windowssdkdev
 ms.date: 12/5/2018

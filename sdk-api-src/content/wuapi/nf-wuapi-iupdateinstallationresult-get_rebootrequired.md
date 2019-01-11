@@ -4,7 +4,7 @@ title: IUpdateInstallationResult::get_RebootRequired
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation of an update.
 old-location: wua\iupdateinstallationresult_rebootrequired.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8c4f7dd1-66f3-43b7-b084-55d64ca748c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LPNSPV2CLEANUP
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.
 old-location: winsock\nspv2cleanup.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 36064c0e-c83c-4819-a3e4-c89df50eb659
 ms.author: windowssdkdev
 ms.date: 12/5/2018

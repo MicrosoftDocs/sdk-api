@@ -4,7 +4,7 @@ title: IAutomaticUpdatesResults
 author: windows-sdk-content
 description: Contains the read-only properties that describe Automatic Updates.
 old-location: wua\iautomaticupdatesresults.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: fe9a5ea3-9d59-450b-8c5e-3444ec13dc97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

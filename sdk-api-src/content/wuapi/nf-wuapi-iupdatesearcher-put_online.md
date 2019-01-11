@@ -4,7 +4,7 @@ title: IUpdateSearcher::put_Online
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates.
 old-location: wua\iupdatesearcheronline.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b395d19f-812c-441a-b0a7-7edb10dc3fcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

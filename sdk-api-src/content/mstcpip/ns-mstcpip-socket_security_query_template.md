@@ -4,7 +4,7 @@ title: SOCKET_SECURITY_QUERY_TEMPLATE
 author: windows-sdk-content
 description: Contains the security template used by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_template.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

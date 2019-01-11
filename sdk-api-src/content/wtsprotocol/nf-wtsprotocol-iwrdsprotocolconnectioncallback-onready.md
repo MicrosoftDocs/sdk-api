@@ -4,7 +4,7 @@ title: IWRdsProtocolConnectionCallback::OnReady
 author: windows-sdk-content
 description: Requests that the Remote Desktop Services service continue the connection process for that client.
 old-location: termserv\iwrdsprotocolconnectioncallback_onready.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 88134a34-c494-48ea-9063-206e7d0c5139
 ms.author: windowssdkdev
 ms.date: 12/5/2018

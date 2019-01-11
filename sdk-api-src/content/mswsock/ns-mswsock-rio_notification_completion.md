@@ -4,7 +4,7 @@ title: RIO_NOTIFICATION_COMPLETION
 author: windows-sdk-content
 description: Specifies the method for I/O completion to be used with a RIONotify function for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_notification_completion.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

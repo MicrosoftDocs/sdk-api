@@ -4,7 +4,7 @@ title: SOCKET_PROCESSOR_AFFINITY
 author: windows-sdk-content
 description: Contains the association between a socket and an RSS processor core and NUMA node.
 old-location: winsock\socket_processor_affinity.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: CB1E9F79-C6BD-40C2-8D0F-36B24B1BBBF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

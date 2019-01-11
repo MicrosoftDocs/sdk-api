@@ -4,7 +4,7 @@ title: IBackgroundCopyJobHttpOptions::SetClientCertificateByName
 author: windows-sdk-content
 description: Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyname.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 8262b360-ab05-42a3-b5e7-178dc9f23fc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

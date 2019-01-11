@@ -4,7 +4,7 @@ title: IUpdateSession2::put_UserLocale
 author: windows-sdk-content
 description: Gets and sets the preferred locale for which update information is retrieved..
 old-location: wua\iupdatesession2_userlocale.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 30ee1836-ea70-4dd1-b531-a7ca32ca940d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

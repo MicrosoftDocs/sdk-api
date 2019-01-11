@@ -4,7 +4,7 @@ title: IUpdateCollection::RemoveAt
 author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

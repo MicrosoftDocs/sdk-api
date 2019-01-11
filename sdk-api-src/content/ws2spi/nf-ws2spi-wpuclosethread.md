@@ -4,7 +4,7 @@ title: WPUCloseThread function
 author: windows-sdk-content
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
 old-location: winsock\wpuclosethread_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

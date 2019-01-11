@@ -4,7 +4,7 @@ title: IBackgroundCopyJob1::GetProgress
 author: windows-sdk-content
 description: Use the GetProgress method to retrieve the job's progress.
 old-location: bits\ibackgroundcopyjob1_getprogress.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 4d4444b6-e40a-4138-9462-49809ec84ccd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

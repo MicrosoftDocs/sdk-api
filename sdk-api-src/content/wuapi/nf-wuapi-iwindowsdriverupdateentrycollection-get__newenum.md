@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntryCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
 old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: ef1179a6-5d93-4a4f-8cda-a1876f01be5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

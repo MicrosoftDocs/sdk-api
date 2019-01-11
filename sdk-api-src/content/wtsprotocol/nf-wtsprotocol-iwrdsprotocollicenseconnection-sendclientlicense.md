@@ -4,7 +4,7 @@ title: IWRdsProtocolLicenseConnection::SendClientLicense
 author: windows-sdk-content
 description: Sends a license to the client.
 old-location: termserv\iwrdsprotocollicenseconnection_sendclientlicense.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: a758f6c8-1f84-4c20-857c-019cde68915c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DeploymentAction
 author: windows-sdk-content
 description: Defines the action for which an update is explicitly deployed.
 old-location: wua\deploymentaction.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WTS_CLIENT_DISPLAY
 author: windows-sdk-content
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\wts_client_display_str.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

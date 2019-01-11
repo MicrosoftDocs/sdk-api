@@ -4,7 +4,7 @@ title: WSAGetOverlappedResult function
 author: windows-sdk-content
 description: The WSAGetOverlappedResult function retrieves the results of an overlapped operation on the specified socket.
 old-location: winsock\wsagetoverlappedresult_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

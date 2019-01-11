@@ -4,7 +4,7 @@ title: IInstallationJob::RequestAbort
 author: windows-sdk-content
 description: Makes a request to cancel the installation or uninstallation.
 old-location: wua\iinstallationjob_requestabort.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

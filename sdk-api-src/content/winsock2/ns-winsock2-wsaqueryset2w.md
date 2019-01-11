@@ -4,7 +4,7 @@ title: WSAQUERYSET2W
 author: windows-sdk-content
 description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
 old-location: winsock\wsaqueryset2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

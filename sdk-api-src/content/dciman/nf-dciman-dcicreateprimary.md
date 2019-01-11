@@ -4,7 +4,7 @@ title: DCICreatePrimary function
 author: windows-sdk-content
 description: Creates a primary surface and obtains surface information.
 old-location: winprog\_dciman_dcicreateprimary.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dcicreateprimary.htm
 ms.author: windowssdkdev
 ms.date: 12/5/2018

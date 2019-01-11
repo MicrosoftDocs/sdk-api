@@ -4,7 +4,7 @@ title: IUpdateInstaller
 author: windows-sdk-content
 description: Installs or uninstalls updates from or onto a computer.
 old-location: wua\iupdateinstaller.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 7f1c272f-73ef-43ee-b1ac-ef97a4791313
 ms.author: windowssdkdev
 ms.date: 12/5/2018

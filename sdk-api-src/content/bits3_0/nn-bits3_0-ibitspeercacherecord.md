@@ -4,7 +4,7 @@ title: IBitsPeerCacheRecord
 author: windows-sdk-content
 description: Use IBitsPeerCacheRecord to get information about a file in the cache.
 old-location: bits\ibitspeercacherecord.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 61db33de-a38c-4c52-9f1b-66d46f25c297
 ms.author: windowssdkdev
 ms.date: 12/5/2018

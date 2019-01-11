@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::SuspendGroup
 author: windows-sdk-content
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

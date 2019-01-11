@@ -4,7 +4,7 @@ title: IUpdateHistoryEntry::get_Title
 author: windows-sdk-content
 description: Gets the title of an update.
 old-location: wua\iupdatehistoryentry_title.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 8a49fddf-ebaf-403e-bb7f-705ab08395eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

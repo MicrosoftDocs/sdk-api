@@ -4,7 +4,7 @@ title: CheckConnectionWizard function
 author: windows-sdk-content
 description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
 old-location: winprog\checkconnectionwizard.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

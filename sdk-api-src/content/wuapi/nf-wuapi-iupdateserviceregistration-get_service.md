@@ -4,7 +4,7 @@ title: IUpdateServiceRegistration::get_Service
 author: windows-sdk-content
 description: Gets a pointer to an IUpdateService2 interface. This property is the default property.
 old-location: wua\iupdateserviceregistration_service.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

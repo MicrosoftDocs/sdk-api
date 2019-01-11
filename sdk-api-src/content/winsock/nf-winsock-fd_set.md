@@ -4,7 +4,7 @@ title: FD_SET macro
 author: windows-sdk-content
 description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.
 old-location: winsock\fd_set_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.author: windowssdkdev
 ms.date: 12/5/2018

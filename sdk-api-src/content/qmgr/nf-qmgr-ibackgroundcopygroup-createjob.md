@@ -4,7 +4,7 @@ title: IBackgroundCopyGroup::CreateJob
 author: windows-sdk-content
 description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
 old-location: bits\ibackgroundcopygroup_createjob.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
 ms.author: windowssdkdev
 ms.date: 12/5/2018

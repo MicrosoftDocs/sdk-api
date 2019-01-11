@@ -4,7 +4,7 @@ title: IStringCollection::get__NewEnum
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: b131b276-4254-4a08-8121-3a86e28d08cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

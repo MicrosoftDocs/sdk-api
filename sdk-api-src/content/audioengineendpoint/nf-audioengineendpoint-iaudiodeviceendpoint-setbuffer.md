@@ -4,7 +4,7 @@ title: IAudioDeviceEndpoint::SetBuffer
 author: windows-sdk-content
 description: Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.
 old-location: termserv\iaudiodeviceendpoint_setbuffer.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 345a172b-11af-4c98-9f9c-54bfa38c5077
 ms.author: windowssdkdev
 ms.date: 12/5/2018

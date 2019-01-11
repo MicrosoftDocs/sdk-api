@@ -4,7 +4,7 @@ title: IWindowsDriverUpdateEntryCollection
 author: windows-sdk-content
 description: Contains a collection of driver update entries associated with a driver update. All of the properties have the standard collection semantics.
 old-location: wua\iwindowsdriverupdateentrycollection.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: f071b05f-f0fa-43af-a502-f83a5f877120
 ms.author: windowssdkdev
 ms.date: 12/5/2018

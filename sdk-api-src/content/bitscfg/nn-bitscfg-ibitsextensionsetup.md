@@ -4,7 +4,7 @@ title: IBITSExtensionSetup
 author: windows-sdk-content
 description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
 old-location: bits\ibitsextensionsetup.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

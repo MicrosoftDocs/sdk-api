@@ -4,7 +4,7 @@ title: AE_POSITION_FLAGS
 author: windows-sdk-content
 description: Defines constants for the AE_CURRENT_POSITION structure. These constants describe the degree of validity of the current position.
 old-location: termserv\ae_position_flags.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 09edc9ae-923c-4f57-9479-c0331588dd92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

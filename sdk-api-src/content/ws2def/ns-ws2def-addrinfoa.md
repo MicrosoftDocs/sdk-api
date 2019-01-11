@@ -4,7 +4,7 @@ title: ADDRINFOA
 author: windows-sdk-content
 description: Used by the getaddrinfo function to hold host address information.
 old-location: winsock\addrinfo_2.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 4df914ab-59b0-4110-bc81-59e5f6722b8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

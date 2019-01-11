@@ -4,7 +4,7 @@ title: IWorkspaceScriptable::IsWorkspaceCredentialSpecified
 author: windows-sdk-content
 description: Determines whether user credentials exist for the specified connection ID.
 old-location: termserv\iworkspacescriptable_isworkspacecredentialspecified.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 1b01f48d-161a-4cea-84d4-82c98d2e6998
 ms.author: windowssdkdev
 ms.date: 12/5/2018

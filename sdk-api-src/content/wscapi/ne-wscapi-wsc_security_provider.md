@@ -4,7 +4,7 @@ title: WSC_SECURITY_PROVIDER
 author: windows-sdk-content
 description: Defines all the services that are monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: b32664f4-9a1d-4fd2-ab2b-e3c5a8ddf187
 ms.author: windowssdkdev
 ms.date: 12/5/2018

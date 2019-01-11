@@ -4,7 +4,7 @@ title: IDownloadProgress::get_CurrentUpdateIndex
 author: windows-sdk-content
 description: Gets a zero-based index value that specifies the update that is currently being downloaded when multiple updates have been selected.
 old-location: wua\idownloadprogress_currentupdateindex.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: e357229d-cfb3-4ed6-b5b4-2e830fbda1ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

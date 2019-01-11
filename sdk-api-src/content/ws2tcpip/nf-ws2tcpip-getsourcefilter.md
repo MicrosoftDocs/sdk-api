@@ -4,7 +4,7 @@ title: getsourcefilter function
 author: windows-sdk-content
 description: Retrieves the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\getsourcefilter.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 2CA84000-F114-439D-BEDE-9990044C7785
 ms.author: windowssdkdev
 ms.date: 12/5/2018

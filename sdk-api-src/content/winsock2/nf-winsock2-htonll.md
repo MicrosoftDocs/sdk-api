@@ -4,7 +4,7 @@ title: htonll function
 author: windows-sdk-content
 description: Converts an unsigned __int64 from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonll.htm
-tech.root: winsock
+tech.root: WinSock
 ms.assetid: 3155C55D-681E-4D6D-9DFF-219465F04E4A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

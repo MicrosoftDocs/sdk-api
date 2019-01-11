@@ -4,7 +4,7 @@ title: IUpdateCollection::Clear
 author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,7 +2,7 @@
 UID: NA:raseapif
 ms.assetid: e655ee18-e35d-3e45-a978-87a1288d8061
 ms.author: windowssdkdev
-ms.date: 01/07/2019
+ms.date: 01/11/2019
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

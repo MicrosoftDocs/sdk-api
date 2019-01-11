@@ -4,7 +4,7 @@ title: eHANDLE_TRACE_OPERATIONS
 author: windows-sdk-content
 description: Identifies the type of handle operation that has occurred.
 old-location: winprog\ehandle_trace_operations.htm
-tech.root: devnotes
+tech.root: DevNotes
 ms.assetid: bcaaa52a-8eb1-4ad7-9ee5-97cca91a2238
 ms.author: windowssdkdev
 ms.date: 12/5/2018

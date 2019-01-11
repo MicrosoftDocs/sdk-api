@@ -4,7 +4,7 @@ title: IBitsPeerCacheAdministration::GetMaximumCacheSize
 author: windows-sdk-content
 description: Gets the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm
-tech.root: bits
+tech.root: Bits
 ms.assetid: 6ea0e6f7-c674-4088-9085-5f6246681009
 ms.author: windowssdkdev
 ms.date: 12/5/2018

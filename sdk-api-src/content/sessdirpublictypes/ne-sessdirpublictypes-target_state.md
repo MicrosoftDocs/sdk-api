@@ -4,7 +4,7 @@ title: TARGET_STATE
 author: windows-sdk-content
 description: Indicates the state of a target.
 old-location: termserv\target_state.htm
-tech.root: termserv
+tech.root: TermServ
 ms.assetid: 52ef4bb9-d025-4b54-ac5b-16fa28047cc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

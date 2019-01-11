@@ -4,7 +4,7 @@ title: InstallationImpact
 author: windows-sdk-content
 description: Defines the possible levels of impact that can be caused by installing or uninstalling an update.
 old-location: wua\installationimpact.htm
-tech.root: wua_sdk
+tech.root: Wua_Sdk
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
