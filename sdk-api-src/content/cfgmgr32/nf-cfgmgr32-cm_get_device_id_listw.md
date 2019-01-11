@@ -127,7 +127,7 @@ If this flag is set, <i>pszFilter</i> must specify a device instance identifier.
 
 #### CM_GETIDLIST_FILTER_ENUMERATOR
 
-If this flag is set, <i>pszFilter</i> must specify the name of a device enumerator, optionally followed by a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>. The string format is <i>EnumeratorName</i><b>\</b>&lt;<i>DeviceID&gt;</i>, such as <b>ROOT</b> or <b>ROOT\*PNP0500</b>.
+If this flag is set, *pszFilter* must specify the name of a device enumerator, optionally followed by a <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a>. The string format is *EnumeratorName*\\&lt;*DeviceID*&gt;, such as **ROOT** or **ROOT\\\*PNP0500**.
 
 If <i>pszFilter</i> supplies only an enumerator name, the function returns <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the instances of each device associated with the enumerator. Enumerator names can be obtained by calling <a href="https://msdn.microsoft.com/85fbca44-bd3b-4654-bba2-099135c42d23">CM_Enumerate_Enumerators</a>.
 
