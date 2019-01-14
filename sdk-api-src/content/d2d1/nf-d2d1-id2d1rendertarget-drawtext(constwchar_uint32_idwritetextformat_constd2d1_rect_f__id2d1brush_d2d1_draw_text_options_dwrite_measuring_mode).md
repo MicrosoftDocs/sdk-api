@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const D2
 author: windows-sdk-content
 description: Draws the specified text using the format information provided by an IDWriteTextFormat object.
 old-location: direct2d\ID2D1RenderTarget_DrawText_ptr_WCHAR_ptr_IDWriteTextFormat_ref_D2D_RECT_F_ptr_ID2D1Brush_D2D1_DRAW_TEXT_OPTIONS_DWRITE_TEXT_MEASURING_METHOD.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 226de985-0d7a-4891-83a0-b1f022ff8bd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::DrawInk
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1devicecontext2_drawink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d7c27267-c0c3-d21c-7980-3d92396509c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

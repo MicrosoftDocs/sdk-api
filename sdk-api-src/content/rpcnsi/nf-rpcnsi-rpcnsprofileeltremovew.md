@@ -4,7 +4,7 @@ title: RpcNsProfileEltRemoveW function
 author: windows-sdk-content
 description: The RpcNsProfileEltRemove function removes an element from a profile.
 old-location: rpc\rpcnsprofileeltremove.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 303df924-73ad-4e2f-aa30-e600bb5594c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::DeleteOperation
 author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the task.
 old-location: security\iaztask_deleteoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3f370d04-2115-4dcc-bf18-2d28a52bdead
 ms.author: windowssdkdev
 ms.date: 12/5/2018

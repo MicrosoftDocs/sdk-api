@@ -4,7 +4,7 @@ title: D2D1_STRAIGHTEN_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Straighten effect.
 old-location: direct2d\d2d1_straighten_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AD22B649-E4FE-41BD-85FE-B000CCB7F48D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

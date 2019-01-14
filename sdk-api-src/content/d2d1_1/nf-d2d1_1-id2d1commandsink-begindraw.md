@@ -4,7 +4,7 @@ title: ID2D1CommandSink::BeginDraw
 author: windows-sdk-content
 description: Notifies the implementation of the command sink that drawing is about to commence.
 old-location: direct2d\id2d1commandsink_begindraw.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: acadc36f-5028-4f8f-93c6-7fbc0de3c3d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

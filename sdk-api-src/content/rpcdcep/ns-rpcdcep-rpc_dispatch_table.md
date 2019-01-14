@@ -4,7 +4,7 @@ title: RPC_DISPATCH_TABLE
 author: windows-sdk-content
 description: The RPC_DISPATCH_TABLE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
 old-location: rpc\rpc_dispatch_table.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6e34c7a6-3d74-4d1d-9b56-8120fbca1d67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

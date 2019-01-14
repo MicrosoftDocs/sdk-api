@@ -4,7 +4,7 @@ title: ID2D1ColorContext1::GetColorContextType
 author: windows-sdk-content
 description: Retrieves the color context type.
 old-location: direct2d\id2d1colorcontext1_getcolorcontexttype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9A9E4EE4-943B-4332-B9F1-269CF629A8FA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1CommandSink::PopLayer
 author: windows-sdk-content
 description: Removes a layer from the layer and clip stack.
 old-location: direct2d\id2d1commandsink_poplayer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 885fb53b-da63-4c46-8ca2-306fd430858b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

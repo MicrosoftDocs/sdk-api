@@ -4,7 +4,7 @@ title: SI_OBJECT_INFO
 author: windows-sdk-content
 description: Used to initialize the access control editor.
 old-location: security\si_object_info.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: bdfd0753-4727-4ca1-ac36-0a77db0a16c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

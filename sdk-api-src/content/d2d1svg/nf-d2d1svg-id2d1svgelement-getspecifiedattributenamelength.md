@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetSpecifiedAttributeNameLength
 author: windows-sdk-content
 description: Gets the string length of the name of the specified attribute at the given index.
 old-location: direct2d\id2d1svgelement_getspecifiedattributenamelength.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AD94B020-D9AA-4B1F-B7C3-DEF97DADFEEA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

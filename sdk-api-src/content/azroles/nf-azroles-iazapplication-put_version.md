@@ -4,7 +4,7 @@ title: IAzApplication::put_Version
 author: windows-sdk-content
 description: Sets or retrieves the version of the application.
 old-location: security\iazapplication_version.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

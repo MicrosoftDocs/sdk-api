@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::DrawSvgGlyphRun
 author: windows-sdk-content
 description: Draws a color glyph run that has the format of DWRITE_GLYPH_IMAGE_FORMATS_SVG.
 old-location: direct2d\id2d1devicecontext4_drawsvgglyphrun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 20E9047F-3671-4C6D-8A46-C3F77E16BC1C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

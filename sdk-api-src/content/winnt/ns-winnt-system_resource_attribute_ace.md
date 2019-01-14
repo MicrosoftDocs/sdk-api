@@ -4,7 +4,7 @@ title: SYSTEM_RESOURCE_ATTRIBUTE_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the system resource attributes for a securable object.
 old-location: security\system_resource_attribute_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: A222E1B7-CA9C-4250-A697-B9D278B26C06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

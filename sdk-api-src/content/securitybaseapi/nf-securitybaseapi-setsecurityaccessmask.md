@@ -4,7 +4,7 @@ title: SetSecurityAccessMask function
 author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to set the specified object security information.
 old-location: security\setsecurityaccessmask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 764a4e93-0865-49f8-9b3a-1a178073454d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

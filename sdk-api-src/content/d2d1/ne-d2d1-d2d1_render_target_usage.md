@@ -4,7 +4,7 @@ title: D2D1_RENDER_TARGET_USAGE
 author: windows-sdk-content
 description: Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_RENDER_TARGET_USAGE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 12d717c4-5f81-4bbf-a693-042e51913081
 ms.author: windowssdkdev
 ms.date: 12/5/2018

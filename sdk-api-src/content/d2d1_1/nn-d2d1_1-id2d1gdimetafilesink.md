@@ -4,7 +4,7 @@ title: ID2D1GdiMetafileSink
 author: windows-sdk-content
 description: A developer implemented interface that allows a metafile to be replayed.
 old-location: direct2d\id2d1gdimetafilesink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272
 ms.author: windowssdkdev
 ms.date: 12/5/2018

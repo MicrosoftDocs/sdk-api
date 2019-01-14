@@ -4,7 +4,7 @@ title: Matrix3x2F::ReinterpretBaseType
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_3X2_F matrix to a Matrix3x2F without making a copy.
 old-location: direct2d\matrix3x2f_reinterpretbasetype_const_d2d1_matrix_3x2_f__pmatrix_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6bf93ed8-4ca7-4e6f-b2fb-68f896469667
 ms.author: windowssdkdev
 ms.date: 12/5/2018

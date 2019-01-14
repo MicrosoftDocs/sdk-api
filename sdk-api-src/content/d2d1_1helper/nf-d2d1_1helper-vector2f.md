@@ -4,7 +4,7 @@ title: Vector2F function
 author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_2F structure.
 old-location: direct2d\vector2f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 11279C5A-F825-437D-9F5F-ADCA328EBD33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

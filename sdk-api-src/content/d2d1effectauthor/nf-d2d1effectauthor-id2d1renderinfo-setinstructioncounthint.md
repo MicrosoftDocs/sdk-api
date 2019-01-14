@@ -4,7 +4,7 @@ title: ID2D1RenderInfo::SetInstructionCountHint
 author: windows-sdk-content
 description: Provides an estimated hint of shader execution cost to D2D.
 old-location: direct2d\id2d1renderinfo_setinstructioncounthint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 44077C5C-E3AA-4AE6-B772-BF2669B205B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

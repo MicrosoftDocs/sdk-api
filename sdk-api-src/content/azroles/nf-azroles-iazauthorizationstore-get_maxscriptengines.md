@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_MaxScriptEngines
 author: windows-sdk-content
 description: Sets or retrieves the maximum number of Business Rule (BizRule) script engines that will be cached.
 old-location: security\azauthorizationstore_maxscriptengines.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d18fe030-5177-4516-b4bf-6fea78abea52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

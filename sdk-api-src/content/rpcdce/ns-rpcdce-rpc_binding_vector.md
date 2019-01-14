@@ -4,7 +4,7 @@ title: RPC_BINDING_VECTOR
 author: windows-sdk-content
 description: The RPC_BINDING_VECTOR structure contains a list of binding handles over which a server application can receive remote procedure calls.
 old-location: rpc\rpc_binding_vector.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 16a0a595-ed4f-4871-a1a3-268c6bed0305
 ms.author: windowssdkdev
 ms.date: 12/5/2018

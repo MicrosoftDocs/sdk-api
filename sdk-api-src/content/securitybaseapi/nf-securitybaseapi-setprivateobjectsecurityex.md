@@ -4,7 +4,7 @@ title: SetPrivateObjectSecurityEx function
 author: windows-sdk-content
 description: Modifies the security descriptor of a private object maintained by the resource manager calling this function.
 old-location: security\setprivateobjectsecurityex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: eb3a751f-741e-448f-b812-5f16a4040b5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

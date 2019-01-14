@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawLine
 author: windows-sdk-content
 description: Draws a line between the specified points using the specified stroke style.
 old-location: direct2d\ID2D1RenderTarget_DrawLine.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7eb70308-4142-4d32-a070-9e937579b896
 ms.author: windowssdkdev
 ms.date: 12/5/2018

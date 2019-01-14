@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetPrimitiveBlend
 author: windows-sdk-content
 description: Returns the currently set primitive blend used by the device context.
 old-location: direct2d\id2d1devicecontext_getprimitiveblend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c3d6cfae-5776-4d1d-933b-b94271c431b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

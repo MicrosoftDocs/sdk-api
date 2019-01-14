@@ -4,7 +4,7 @@ title: ID2D1Ink::AddSegments
 author: windows-sdk-content
 description: Adds the given segments to the end of this ink object.
 old-location: direct2d\id2d1ink_addsegments.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
 ms.author: windowssdkdev
 ms.date: 12/5/2018

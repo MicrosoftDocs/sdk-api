@@ -4,7 +4,7 @@ title: IAzRole
 author: windows-sdk-content
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2934d783-b379-486c-80e7-e7650b89dc1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

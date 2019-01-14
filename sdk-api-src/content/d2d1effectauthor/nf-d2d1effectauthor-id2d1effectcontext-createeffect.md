@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateEffect
 author: windows-sdk-content
 description: Creates a Direct2D effect for the specified class ID.
 old-location: direct2d\id2d1contextinternal_createeffect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BF903D96-F643-4C87-9191-A46B7CE3B12C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

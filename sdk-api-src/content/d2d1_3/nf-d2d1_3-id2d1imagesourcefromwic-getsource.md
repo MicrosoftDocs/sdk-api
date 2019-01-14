@@ -4,7 +4,7 @@ title: ID2D1ImageSourceFromWic::GetSource
 author: windows-sdk-content
 description: Retrieves the underlying bitmap image source from the Windows Imaging Component (WIC).
 old-location: direct2d\id2d1imagesourcefromwic_getsource.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B7E2FD7F-1427-46D9-B638-6A0FF86042B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

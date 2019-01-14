@@ -4,7 +4,7 @@ title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySin
 author: windows-sdk-content
 description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\ID2D1Geometry_Outline_ptr_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 10ab30b9-6141-4b4f-a3e7-9aa690043381
 ms.author: windowssdkdev
 ms.date: 12/5/2018

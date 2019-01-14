@@ -4,7 +4,7 @@ title: IAzScope::get_PolicyReaders
 author: windows-sdk-content
 description: The PolicyReaders property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy readers.
 old-location: security\iazscope_policyreaders.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7576997c-a585-4f0d-bec5-c616d39633f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

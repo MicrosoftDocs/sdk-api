@@ -4,7 +4,7 @@ title: ACL
 author: windows-sdk-content
 description: Header of an access control list (ACL).
 old-location: security\acl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

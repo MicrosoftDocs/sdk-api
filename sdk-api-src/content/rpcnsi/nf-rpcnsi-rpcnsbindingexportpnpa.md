@@ -4,7 +4,7 @@ title: RpcNsBindingExportPnPA function
 author: windows-sdk-content
 description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
 old-location: rpc\rpcnsbindingexportpnp.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

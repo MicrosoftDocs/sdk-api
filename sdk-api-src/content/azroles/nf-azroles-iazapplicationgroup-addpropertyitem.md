@@ -4,7 +4,7 @@ title: IAzApplicationGroup::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazapplicationgroup_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

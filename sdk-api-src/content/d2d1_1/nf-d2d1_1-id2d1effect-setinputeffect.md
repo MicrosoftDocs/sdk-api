@@ -4,7 +4,7 @@ title: ID2D1Effect::SetInputEffect
 author: windows-sdk-content
 description: Sets the given input effect by index.
 old-location: direct2d\id2d1effect_setinputeffect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 361B0644-7437-47DA-A34C-0234EE4E92C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

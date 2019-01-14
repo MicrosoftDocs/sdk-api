@@ -4,7 +4,7 @@ title: IAzRole::DeleteOperation
 author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the role.
 old-location: security\iazrole_deleteoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d3486a12-7059-47b8-9f06-a025d5756b70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

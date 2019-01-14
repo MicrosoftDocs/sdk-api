@@ -4,7 +4,7 @@ title: D2D1_DISCRETETRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Discrete transfer effect.
 old-location: direct2d\d2d1_discretetransfer_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F00C9CF5-7103-450B-A211-02BB49A88EF8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

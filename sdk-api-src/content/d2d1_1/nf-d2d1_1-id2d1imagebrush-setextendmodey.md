@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::SetExtendModeY
 author: windows-sdk-content
 description: Sets the extend mode on the y-axis.
 old-location: direct2d\id2d1imagebrush_setextendmodey.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8c71dff4-f682-4649-8e29-41bcd4b911a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

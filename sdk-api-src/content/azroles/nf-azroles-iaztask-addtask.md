@@ -4,7 +4,7 @@ title: IAzTask::AddTask
 author: windows-sdk-content
 description: Adds the IAzTask object with the specified name to the task.
 old-location: security\iaztask_addtask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6b3057d1-26aa-443c-857f-0057ef9d2072
 ms.author: windowssdkdev
 ms.date: 12/5/2018

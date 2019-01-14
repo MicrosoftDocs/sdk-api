@@ -4,7 +4,7 @@ title: ID2D1Properties::GetType
 author: windows-sdk-content
 description: Gets the D2D1_PROPERTY_TYPE of the selected property.
 old-location: direct2d\id2d1properties_gettype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42e80588-9e80-4f30-9a3c-77b64f88ff7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

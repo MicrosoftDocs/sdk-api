@@ -4,7 +4,7 @@ title: RpcStringBindingParseA function
 author: windows-sdk-content
 description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
 old-location: rpc\rpcstringbindingparse.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -69,7 +69,7 @@ Pointer to a <b>null</b>-terminated string representation of a binding.
 ### -param ObjUuid
 
 Returns a pointer to a pointer to a <b>null</b>-terminated string representation of an object 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>. 
+<a href="https://msdn.microsoft.com/">UUID</a>. 
 
 
 

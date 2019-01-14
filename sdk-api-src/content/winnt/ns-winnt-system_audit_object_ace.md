@@ -4,7 +4,7 @@ title: SYSTEM_AUDIT_OBJECT_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for a system access control list (SACL).
 old-location: security\system_audit_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: de37bef6-e6c8-4455-856a-adebebda4cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

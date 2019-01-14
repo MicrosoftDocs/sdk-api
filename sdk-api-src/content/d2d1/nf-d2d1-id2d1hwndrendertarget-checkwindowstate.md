@@ -4,7 +4,7 @@ title: ID2D1HwndRenderTarget::CheckWindowState
 author: windows-sdk-content
 description: Indicates whether the HWND associated with this render target is occluded.
 old-location: direct2d\ID2D1HwndRenderTarget_CheckWindowState.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f40d46dc-04ec-4d11-bc3e-96043b16dcb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

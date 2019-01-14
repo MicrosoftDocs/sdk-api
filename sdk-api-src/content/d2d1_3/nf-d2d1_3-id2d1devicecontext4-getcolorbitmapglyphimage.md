@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::GetColorBitmapGlyphImage
 author: windows-sdk-content
 description: Retrieves an image of the color bitmap glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getcolorbitmapglyphimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 493224CD-A31E-405B-A084-24C377F713A0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

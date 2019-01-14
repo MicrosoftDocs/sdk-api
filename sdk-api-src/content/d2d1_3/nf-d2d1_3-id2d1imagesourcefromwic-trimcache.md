@@ -4,7 +4,7 @@ title: ID2D1ImageSourceFromWic::TrimCache
 author: windows-sdk-content
 description: This method trims the populated regions of the image source cache to just the specified rectangle.
 old-location: direct2d\id2d1imagesourcefromwic_trimcache.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8C6A42BB-D7CA-4766-BE59-B9F8150C0AC1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

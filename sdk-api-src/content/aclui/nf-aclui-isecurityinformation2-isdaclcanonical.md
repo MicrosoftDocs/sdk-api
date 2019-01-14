@@ -4,7 +4,7 @@ title: ISecurityInformation2::IsDaclCanonical
 author: windows-sdk-content
 description: The IsDaclCanonical method determines whether the ACEs contained in the specified DACL structure are ordered according to the definition of DACL ordering implemented by the client.
 old-location: security\isecurityinformation2_isdaclcanonical.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 54b83592-0cfb-45db-9788-05459c9ec35c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1IsMatrixInvertible function
 author: windows-sdk-content
 description: Indicates whether the specified matrix is invertible.
 old-location: direct2d\d2d1ismatrixinvertible.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

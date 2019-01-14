@@ -4,7 +4,7 @@ title: AuthzReportSecurityEventFromParams function
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source by using the specified array of audit parameters.
 old-location: security\authzreportsecurityeventfromparams.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

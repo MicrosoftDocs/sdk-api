@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::SetTextAntialiasMode
 author: windows-sdk-content
 description: Specifies the antialiasing mode to use for subsequent text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTextAntialiasMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be6161ed-d797-4090-9bf0-5d6ee11cac0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

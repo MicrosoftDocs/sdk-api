@@ -4,7 +4,7 @@ title: AuthzInitializeContextFromSid function
 author: windows-sdk-content
 description: Creates a user-mode client context from a user security identifier (SID).
 old-location: security\authzinitializecontextfromsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

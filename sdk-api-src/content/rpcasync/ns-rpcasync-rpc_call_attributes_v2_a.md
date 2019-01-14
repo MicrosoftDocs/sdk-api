@@ -4,7 +4,7 @@ title: RPC_CALL_ATTRIBUTES_V2_A
 author: windows-sdk-content
 description: The RPC_CALL_ATTRIBUTES_V2 structure provides parameters to the RpcServerInqCallAttributes function. Version 2 specifies support for local addresses and client process IDs.
 old-location: rpc\rpc_call_attributes_v2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: eccc4b78-19f8-415f-bd0f-b1f9f454435e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

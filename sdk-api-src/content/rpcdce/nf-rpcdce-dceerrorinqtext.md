@@ -4,7 +4,7 @@ title: DceErrorInqText function
 author: windows-sdk-content
 description: The DceErrorInqText function returns the message text for a status code.
 old-location: rpc\dceerrorinqtext.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

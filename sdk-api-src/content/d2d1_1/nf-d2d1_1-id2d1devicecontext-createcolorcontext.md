@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateColorContext
 author: windows-sdk-content
 description: Creates a color context.
 old-location: direct2d\id2d1devicecontext_createcolorcontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4e03dfe6-b114-46da-820e-341c554b178b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

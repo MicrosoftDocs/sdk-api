@@ -4,7 +4,7 @@ title: IAzRole::DeleteMemberName
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that belong to the role.
 old-location: security\iazrole_deletemembername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

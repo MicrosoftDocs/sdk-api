@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::ConnectNode
 author: windows-sdk-content
 description: Connects two nodes inside the transform graph.
 old-location: direct2d\id2d1transformgraph_connectnode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 59C7A366-804F-4CB3-A8CB-8617F226CE6B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

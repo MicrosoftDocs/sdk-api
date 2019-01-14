@@ -4,7 +4,7 @@ title: IAzApplicationGroup::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the application group.
 old-location: security\iazapplicationgroup_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b2ef8988-b4de-423f-b727-f69a789b98cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

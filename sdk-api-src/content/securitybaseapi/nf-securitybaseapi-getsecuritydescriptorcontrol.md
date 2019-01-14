@@ -4,7 +4,7 @@ title: GetSecurityDescriptorControl function
 author: windows-sdk-content
 description: Retrieves a security descriptor control and revision information.
 old-location: security\getsecuritydescriptorcontrol.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d66682f2-8017-4245-9d93-5f8332a5b483
 ms.author: windowssdkdev
 ms.date: 12/5/2018

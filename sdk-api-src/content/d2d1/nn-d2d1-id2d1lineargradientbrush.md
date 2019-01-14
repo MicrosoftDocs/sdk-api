@@ -4,7 +4,7 @@ title: ID2D1LinearGradientBrush
 author: windows-sdk-content
 description: Paints an area with a linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: bbb5e36a-d13d-448e-8686-d14ee99b1ccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

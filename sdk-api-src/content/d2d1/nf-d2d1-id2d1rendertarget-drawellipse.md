@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawEllipse
 author: windows-sdk-content
 description: Draws the outline of an ellipse with the specified dimensions and stroke.
 old-location: direct2d\id2d1rendertarget_drawellipse.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: dabbb399-2d72-41c3-8b2f-aea49d7ad0cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

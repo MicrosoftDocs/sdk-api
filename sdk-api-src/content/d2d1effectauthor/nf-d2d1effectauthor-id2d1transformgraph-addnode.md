@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::AddNode
 author: windows-sdk-content
 description: Adds the provided node to the transform graph.
 old-location: direct2d\id2d1transformgraph_addnode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1937BD5F-C26A-4E67-8E07-688A24DA201E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

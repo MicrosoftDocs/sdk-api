@@ -4,7 +4,7 @@ title: ID2D1TransformGraph
 author: windows-sdk-content
 description: Represents a graph of transform nodes.
 old-location: direct2d\id2d1transformgraph.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6CA29200-9834-4A5B-99E8-434CD6E9B243
 ms.author: windowssdkdev
 ms.date: 12/5/2018

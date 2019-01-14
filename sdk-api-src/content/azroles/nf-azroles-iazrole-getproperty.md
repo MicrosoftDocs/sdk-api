@@ -4,7 +4,7 @@ title: IAzRole::GetProperty
 author: windows-sdk-content
 description: Returns the IAzRole object property with the specified property ID.
 old-location: security\iazrole_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AuthzInitializeObjectAccessAuditEvent2 function
 author: windows-sdk-content
 description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
 old-location: security\authzinitializeobjectaccessauditevent2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

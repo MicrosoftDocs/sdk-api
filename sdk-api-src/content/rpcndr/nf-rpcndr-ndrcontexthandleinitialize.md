@@ -4,7 +4,7 @@ title: NdrContextHandleInitialize function
 author: windows-sdk-content
 description: Initializes a new RPC context handle.
 old-location: rpc\ndrcontexthandleinitialize.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 023f5137-fbdb-44c2-9c11-a3a8f1eb615e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

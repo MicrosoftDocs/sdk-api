@@ -4,7 +4,7 @@ title: D2D1_YCBCR_CHROMA_SUBSAMPLING
 author: windows-sdk-content
 description: Specifies the chroma subsampling of the input chroma image used by the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_chroma_subsampling.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4B0BDC1D-B39C-4787-90D3-50845C3A2B9A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

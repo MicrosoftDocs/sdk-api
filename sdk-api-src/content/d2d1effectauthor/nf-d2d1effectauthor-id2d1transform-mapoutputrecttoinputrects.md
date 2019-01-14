@@ -4,7 +4,7 @@ title: ID2D1Transform::MapOutputRectToInputRects
 author: windows-sdk-content
 description: Allows a transform to state how it would map a rectangle requested on its output to a set of sample rectangles on its input.
 old-location: direct2d\id2d1transform_mapoutputrecttoinputrects.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: EE098F67-B5A7-41C1-886A-2C7779B5E05C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

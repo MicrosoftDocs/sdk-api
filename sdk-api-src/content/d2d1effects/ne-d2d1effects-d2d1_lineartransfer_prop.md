@@ -4,7 +4,7 @@ title: D2D1_LINEARTRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Linear transfer effect.
 old-location: direct2d\d2d1_lineartransfer_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 25D06C2C-210F-4C10-9842-4355C9371902
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_POSTERIZE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Posterize effect.
 old-location: direct2d\d2d1_posterize_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F5A41C61-6AEB-47A6-813E-FF19994D013D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

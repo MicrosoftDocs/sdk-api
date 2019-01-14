@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::SetFillMode
 author: windows-sdk-content
 description: Specifies the method used to determine which points are inside the geometry described by this geometry sink and which points are outside.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetFillMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f60f48bb-989e-46a5-b77f-65da0b91a599
 ms.author: windowssdkdev
 ms.date: 12/5/2018

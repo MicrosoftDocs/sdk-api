@@ -4,7 +4,7 @@ title: ID2D1Device::SetMaximumTextureMemory
 author: windows-sdk-content
 description: Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
 old-location: direct2d\id2d1device_setmaximumtexturememory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8B714995-8837-4605-8CA3-7D7941D2C10D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

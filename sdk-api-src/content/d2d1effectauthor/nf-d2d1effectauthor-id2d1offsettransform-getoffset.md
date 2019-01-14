@@ -4,7 +4,7 @@ title: ID2D1OffsetTransform::GetOffset
 author: windows-sdk-content
 description: Gets the offset currently in the offset transform.
 old-location: direct2d\id2d1offsettransform_getoffset.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DC928758-4493-4D45-A52B-3E22A98BAF12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

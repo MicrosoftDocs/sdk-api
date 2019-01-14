@@ -4,7 +4,7 @@ title: RpcIfInqId function
 author: windows-sdk-content
 description: The RpcIfInqId function returns the interface-identification part of an interface specification.
 old-location: rpc\rpcifinqid.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 1b91e88c-b242-472f-b719-60f96599cb67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

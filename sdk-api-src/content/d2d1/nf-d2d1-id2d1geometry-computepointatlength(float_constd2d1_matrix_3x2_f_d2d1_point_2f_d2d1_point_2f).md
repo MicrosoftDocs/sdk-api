@@ -4,7 +4,7 @@ title: ID2D1Geometry::ComputePointAtLength(FLOAT,const D2D1_MATRIX_3X2_F,D2D1_PO
 author: windows-sdk-content
 description: Calculates the point and tangent vector at the specified distance along the geometry after it has been transformed by the specified matrix and flattened using the default tolerance.
 old-location: direct2d\ID2D1Geometry_ComputePointAtLength_FLOAT_ptr_D2D_MATRIX_3X2_F_ptr_D2D_POINT_2F_ptr_D2D_POINT_2F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 28fa1309-6d8f-4e20-9290-35c94b5a9658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

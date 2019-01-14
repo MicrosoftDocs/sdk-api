@@ -4,7 +4,7 @@ title: D2D1_OPACITY_MASK_CONTENT
 author: windows-sdk-content
 description: Describes whether an opacity mask contains graphics or text. Direct2D uses this information to determine which gamma space to use when blending the opacity mask.
 old-location: direct2d\d2d1_opacity_mask_content.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ea14d7eb-b8cc-4ab8-8f51-9174748ee6a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

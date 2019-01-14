@@ -4,7 +4,7 @@ title: ID2D1Bitmap1
 author: windows-sdk-content
 description: Represents a bitmap that can be used as a surface for an ID2D1DeviceContext or mapped into system memory, and can contain additional color context information.
 old-location: direct2d\id2d1bitmap1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 669a9377-248c-4a86-b447-ed117fff43a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

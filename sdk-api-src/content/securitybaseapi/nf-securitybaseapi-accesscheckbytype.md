@@ -4,7 +4,7 @@ title: AccessCheckByType function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheckbytype.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 50acfc17-459d-464c-9927-88b32dd424c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

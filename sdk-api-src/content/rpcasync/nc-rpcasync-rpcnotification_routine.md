@@ -4,7 +4,7 @@ title: RPCNOTIFICATION_ROUTINE
 author: windows-sdk-content
 description: The RPCNOTIFICATION_ROUTINE function provides programs that utilize asynchronous RPC with the ability to customize responses to asynchronous events.
 old-location: rpc\rpcnotification_routine.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 679d7a40-5803-4c18-950b-e6763cbf10f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

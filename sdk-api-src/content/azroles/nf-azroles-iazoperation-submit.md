@@ -4,7 +4,7 @@ title: IAzOperation::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzOperation object.
 old-location: security\iazoperation_submit.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
 ms.author: windowssdkdev
 ms.date: 12/5/2018

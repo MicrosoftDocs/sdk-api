@@ -4,7 +4,7 @@ title: ID2D1RenderInfo::SetInputDescription
 author: windows-sdk-content
 description: Sets how a specific input to the transform should be handled by the renderer in terms of sampling.
 old-location: direct2d\id2d1renderinfo_setinputdescription.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 31571676-7030-4FBB-BDED-3CE3BA7E7CE6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

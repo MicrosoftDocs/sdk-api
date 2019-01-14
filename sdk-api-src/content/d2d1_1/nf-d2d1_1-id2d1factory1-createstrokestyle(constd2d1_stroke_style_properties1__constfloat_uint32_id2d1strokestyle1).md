@@ -4,7 +4,7 @@ title: ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1 &,co
 author: windows-sdk-content
 description: Creates a ID2D1StrokeStyle1 object.
 old-location: direct2d\id2d1factory1_createstrokestyle2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4DEB9CDE-ABE2-47CB-BB06-27535F89D793
 ms.author: windowssdkdev
 ms.date: 12/5/2018

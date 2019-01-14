@@ -4,7 +4,7 @@ title: ID2D1LinearGradientBrush::GetStartPoint
 author: windows-sdk-content
 description: Retrieves the starting coordinates of the linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush_GetStartPoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8b79b265-4bf4-48e7-99c9-64a52d8cb6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

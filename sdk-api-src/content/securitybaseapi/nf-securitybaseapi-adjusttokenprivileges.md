@@ -4,7 +4,7 @@ title: AdjustTokenPrivileges function
 author: windows-sdk-content
 description: Enables or disables privileges in the specified access token. Enabling or disabling privileges in an access token requires TOKEN_ADJUST_PRIVILEGES access.
 old-location: security\adjusttokenprivileges.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8e3f70cd-814e-4aab-8f48-0ca482beef2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

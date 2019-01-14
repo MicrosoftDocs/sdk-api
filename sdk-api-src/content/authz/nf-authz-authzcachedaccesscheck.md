@@ -4,7 +4,7 @@ title: AuthzCachedAccessCheck function
 author: windows-sdk-content
 description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.
 old-location: security\authzcachedaccesscheck.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

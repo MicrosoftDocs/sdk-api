@@ -4,7 +4,7 @@ title: IAzRole::get_MembersName
 author: windows-sdk-content
 description: Retrieves the account names of accounts that belong to the role.
 old-location: security\iazrole_membersname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: defaefa8-2d76-49c6-bd1c-8b386f9dc5f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

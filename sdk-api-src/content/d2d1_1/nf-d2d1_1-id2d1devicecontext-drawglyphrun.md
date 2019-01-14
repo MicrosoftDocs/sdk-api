@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::DrawGlyphRun
 author: windows-sdk-content
 description: Draws a series of glyphs to the device context.
 old-location: direct2d\id2d1devicecontext_drawglyphrun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a169604c-64d6-401f-83f5-fb322230e110
 ms.author: windowssdkdev
 ms.date: 12/5/2018

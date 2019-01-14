@@ -4,7 +4,7 @@ title: ID2D1EffectContext::FindVertexBuffer
 author: windows-sdk-content
 description: This finds the given vertex buffer if it has already been created with ID2D1EffectContext::CreateVertexBuffer with the same GUID.
 old-location: direct2d\id2d1contextinternal_findvertexbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8CAC0872-2368-4926-8FF9-87D73136986F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

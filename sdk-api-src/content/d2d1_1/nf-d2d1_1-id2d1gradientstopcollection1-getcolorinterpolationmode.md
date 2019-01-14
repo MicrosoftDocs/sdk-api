@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection1::GetColorInterpolationMode
 author: windows-sdk-content
 description: Retrieves the color interpolation mode that the gradient stop collection uses.
 old-location: direct2d\id2d1gradientstopcollection1_getcolorinterpolationmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D1351D2B-B259-400C-A77A-2437E80D46E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

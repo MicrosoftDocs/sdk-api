@@ -4,7 +4,7 @@ title: D2D1_THREADING_MODE
 author: windows-sdk-content
 description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.
 old-location: direct2d\__d2d1_threading_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

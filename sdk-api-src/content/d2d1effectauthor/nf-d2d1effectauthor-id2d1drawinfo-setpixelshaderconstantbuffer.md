@@ -4,7 +4,7 @@ title: ID2D1DrawInfo::SetPixelShaderConstantBuffer
 author: windows-sdk-content
 description: Sets the constant buffer for this transform's pixel shader.
 old-location: direct2d\id2d1drawinfo_setpixelshaderconstantbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3A32E831-3754-4EF5-B559-ED02EF747897
 ms.author: windowssdkdev
 ms.date: 12/5/2018

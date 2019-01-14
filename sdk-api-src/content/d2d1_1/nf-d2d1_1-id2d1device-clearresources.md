@@ -4,7 +4,7 @@ title: ID2D1Device::ClearResources
 author: windows-sdk-content
 description: Clears all of the rendering resources used by Direct2D.
 old-location: direct2d\id2d1device_clearresources.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 310817b7-0548-4846-9d36-98842c06a450
 ms.author: windowssdkdev
 ms.date: 12/5/2018

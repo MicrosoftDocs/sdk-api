@@ -4,7 +4,7 @@ title: IAzClientContext3::AccessCheck2
 author: windows-sdk-content
 description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
 old-location: security\iazclientcontext3_accesscheck2_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 042d1f51-5eb8-4c32-97f1-bb76546e6624
 ms.author: windowssdkdev
 ms.date: 12/5/2018

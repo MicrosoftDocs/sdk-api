@@ -4,7 +4,7 @@ title: IAzTasks::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzTask objects in the collection.
 old-location: security\iaztasks_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 505768ce-27a3-4f36-aeea-081cf8e45d14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

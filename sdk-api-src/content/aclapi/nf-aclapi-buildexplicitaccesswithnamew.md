@@ -4,7 +4,7 @@ title: BuildExplicitAccessWithNameW function
 author: windows-sdk-content
 description: Initializes an EXPLICIT_ACCESS structure with data specified by the caller. The trustee is identified by a name string.
 old-location: security\buildexplicitaccesswithname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5f12db19-63cf-4be6-9450-3c36e425967b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

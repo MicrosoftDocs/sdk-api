@@ -4,7 +4,7 @@ title: RpcObjectSetType function
 author: windows-sdk-content
 description: The RpcObjectSetType function assigns the type of an object.
 old-location: rpc\rpcobjectsettype.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

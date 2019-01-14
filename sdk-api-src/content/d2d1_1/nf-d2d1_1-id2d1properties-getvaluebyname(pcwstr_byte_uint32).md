@@ -4,7 +4,7 @@ title: ID2D1Properties::GetValueByName(PCWSTR,BYTE,UINT32)
 author: windows-sdk-content
 description: Gets the property value by name.
 old-location: direct2d\id2d1properties_getvaluebyname.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2dc60fad-9ce2-4951-85ea-647a828420a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_SVG_OVERFLOW
 author: windows-sdk-content
 description: Specifies a value for the SVG overflow property.
 old-location: direct2d\d2d1_svg_overflow.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5023A745-9012-47C8-ACE6-D68218B2C17B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

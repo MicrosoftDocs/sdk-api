@@ -4,7 +4,7 @@ title: TRUSTEE_TYPE
 author: windows-sdk-content
 description: Values that indicate the type of trustee identified by a TRUSTEE structure.
 old-location: security\trustee_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6519c79d-9cee-4565-a71e-0b81a27c1185
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateWellKnownSid function
 author: windows-sdk-content
 description: Creates a SID for predefined aliases.
 old-location: security\createwellknownsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 00e75bae-fbce-41a3-a0bc-c345c36f2c84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

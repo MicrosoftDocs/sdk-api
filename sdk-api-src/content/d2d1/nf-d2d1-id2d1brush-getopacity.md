@@ -4,7 +4,7 @@ title: ID2D1Brush::GetOpacity
 author: windows-sdk-content
 description: Gets the degree of opacity of this brush.
 old-location: direct2d\ID2D1Brush_GetOpacity.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1a11b36f-96c3-46fb-9fae-721edb097ad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

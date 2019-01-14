@@ -4,7 +4,7 @@ title: D2D1_TEXT_ANTIALIAS_MODE
 author: windows-sdk-content
 description: Describes the antialiasing mode used for drawing text.
 old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

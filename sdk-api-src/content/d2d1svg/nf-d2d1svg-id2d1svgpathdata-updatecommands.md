@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::UpdateCommands
 author: windows-sdk-content
 description: Updates the commands array. Existing commands not updated by this method are preserved. The array is resized larger if necessary to accomodate the new commands.
 old-location: direct2d\id2d1svgpathdata_updatecommands.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B6A6BC06-01C4-47D0-BC3C-7E0CE1A926F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

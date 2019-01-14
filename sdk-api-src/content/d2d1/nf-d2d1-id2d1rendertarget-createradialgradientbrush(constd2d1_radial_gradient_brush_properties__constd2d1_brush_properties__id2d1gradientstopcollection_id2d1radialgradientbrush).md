@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateRadialGradientBrush(const D2D1_RADIAL_GRADIENT_B
 author: windows-sdk-content
 description: Creates an ID2D1RadialGradientBrush that contains the specified gradient stops and has the specified transform and base opacity.
 old-location: direct2d\ID2D1RenderTarget_CreateRadialGradientBrush_overload1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: df87e288-392d-439e-8d03-e4866fde892f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

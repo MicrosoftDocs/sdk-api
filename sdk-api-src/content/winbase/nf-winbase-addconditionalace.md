@@ -4,7 +4,7 @@ title: AddConditionalAce function
 author: windows-sdk-content
 description: Adds a conditional access control entry (ACE) to the specified access control list (ACL).
 old-location: security\addconditionalace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 89f038be-d15c-4c0b-8145-ba531bdf87ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

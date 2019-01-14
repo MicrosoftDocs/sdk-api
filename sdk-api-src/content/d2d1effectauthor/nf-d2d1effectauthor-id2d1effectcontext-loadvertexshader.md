@@ -4,7 +4,7 @@ title: ID2D1EffectContext::LoadVertexShader
 author: windows-sdk-content
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadvertexshader.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 60D3DB1B-D347-44FC-98F9-545D4213F1F0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

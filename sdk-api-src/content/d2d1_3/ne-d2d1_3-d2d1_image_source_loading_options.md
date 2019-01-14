@@ -4,7 +4,7 @@ title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 author: windows-sdk-content
 description: Controls option flags for a new ID2D1ImageSource when it is created.
 old-location: direct2d\D2D1_IMAGE_SOURCE_LOADING_OPTIONS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b2dcd7aa-177c-62bf-cb3e-2eb4bd4f9627
 ms.author: windowssdkdev
 ms.date: 12/5/2018

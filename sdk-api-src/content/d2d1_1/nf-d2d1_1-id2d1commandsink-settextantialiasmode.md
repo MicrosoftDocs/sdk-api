@@ -4,7 +4,7 @@ title: ID2D1CommandSink::SetTextAntialiasMode
 author: windows-sdk-content
 description: Indicates the new default antialiasing mode for text.
 old-location: direct2d\id2d1commandsink_settextantialiasmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c6bd9c50-b0a5-4d5e-b554-1c4caa6d8e00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

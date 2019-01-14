@@ -4,7 +4,7 @@ title: ID2D1Bitmap1::Map
 author: windows-sdk-content
 description: Maps the given bitmap into memory.
 old-location: direct2d\id2d1bitmap1_map.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 284c16ea-1a9f-4f13-b359-214178650add
 ms.author: windowssdkdev
 ms.date: 12/5/2018

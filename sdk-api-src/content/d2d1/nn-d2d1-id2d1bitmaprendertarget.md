@@ -4,7 +4,7 @@ title: ID2D1BitmapRenderTarget
 author: windows-sdk-content
 description: Renders to an intermediate texture created by the CreateCompatibleRenderTarget method.
 old-location: direct2d\ID2D1BitmapRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

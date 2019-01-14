@@ -4,7 +4,7 @@ title: TOKEN_ACCESS_INFORMATION
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary to perform an access check.
 old-location: security\token_access_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb727b91-c88f-48f3-8329-020d3f727dc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

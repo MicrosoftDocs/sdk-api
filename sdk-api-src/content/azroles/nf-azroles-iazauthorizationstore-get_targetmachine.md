@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_TargetMachine
 author: windows-sdk-content
 description: Retrieves the name of the computer on which account resolution should occur.
 old-location: security\azauthorizationstore_targetmachine.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804
 ms.author: windowssdkdev
 ms.date: 12/5/2018

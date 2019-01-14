@@ -4,7 +4,7 @@ title: SE_OBJECT_TYPE
 author: windows-sdk-content
 description: Contains values that correspond to the types of Windows objects that support security.
 old-location: security\se_object_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1dee5e3d-0d41-4717-811b-7e05b4deb55f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

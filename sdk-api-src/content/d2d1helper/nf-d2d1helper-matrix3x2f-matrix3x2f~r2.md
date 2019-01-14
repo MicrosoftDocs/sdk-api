@@ -4,7 +4,7 @@ title: Matrix3x2F::Matrix3x2F~r2
 author: windows-sdk-content
 description: Instantiates a new instance of the Matrix3x2F class without initializing the matrix values.
 old-location: direct2d\matrix3x2f_matrix3x2f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2a78374f-8163-4323-a62d-beeb25cd5bea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

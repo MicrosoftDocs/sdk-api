@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetSpecifiedAttributeName
 author: windows-sdk-content
 description: Gets the name of the attribute at the given index.
 old-location: direct2d\id2d1svgelement_getspecifiedattributename.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 08419C4C-4EED-406F-884C-84532C6AF1CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

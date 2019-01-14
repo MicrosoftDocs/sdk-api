@@ -4,7 +4,7 @@ title: RpcExceptionFilter function
 author: windows-sdk-content
 description: A default exception filter that determines whether an exception is fatal or non-fatal.
 old-location: rpc\rpcexceptionfilter.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: AB1AE035-5874-4415-8B85-BDC0E2139416
 ms.author: windowssdkdev
 ms.date: 12/5/2018

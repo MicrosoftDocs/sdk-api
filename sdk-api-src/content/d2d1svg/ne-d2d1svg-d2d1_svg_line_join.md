@@ -4,7 +4,7 @@ title: D2D1_SVG_LINE_JOIN
 author: windows-sdk-content
 description: Specifies a value for the SVG stroke-linejoin property.
 old-location: direct2d\d2d1_svg_line_join.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C0D506E4-529D-41B1-AB1E-64E12526C7CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

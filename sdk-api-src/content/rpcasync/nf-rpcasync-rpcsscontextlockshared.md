@@ -4,7 +4,7 @@ title: RpcSsContextLockShared function
 author: windows-sdk-content
 description: The RpcSsContextLockShared function enables an application to begin using a context handle in shared mode.
 old-location: rpc\rpcsscontextlockshared.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 469f0995-54ff-40a6-9322-3d173e2c9861
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -135,7 +135,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
 
 
 

@@ -4,7 +4,7 @@ title: ID2D1EffectImpl::PrepareForRender
 author: windows-sdk-content
 description: Prepares an effect for the rendering process.
 old-location: direct2d\id2d1effectimpl_prepareforrender.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

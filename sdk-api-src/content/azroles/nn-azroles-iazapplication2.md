@@ -4,7 +4,7 @@ title: IAzApplication2
 author: windows-sdk-content
 description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.
 old-location: security\iazapplication2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 58f0627e-fa92-4b3b-a0cd-7e437d451606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1GeometryGroup::GetSourceGeometries
 author: windows-sdk-content
 description: Retrieves the geometries in the geometry group.
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometries.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 11c375a1-aea0-44bf-abcb-ee071140525a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

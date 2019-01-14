@@ -4,7 +4,7 @@ title: SetDpiCompensatedEffectInput function
 author: windows-sdk-content
 description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
 old-location: direct2d\setdpicompensatedeffectinput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659
 ms.author: windowssdkdev
 ms.date: 12/5/2018

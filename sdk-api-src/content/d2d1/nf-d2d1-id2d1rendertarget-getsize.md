@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetSize
 author: windows-sdk-content
 description: Returns the size of the render target in device-independent pixels.
 old-location: direct2d\ID2D1RenderTarget_GetSize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a46ec1c6-b0ff-4822-ab92-0b0a2ab564ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

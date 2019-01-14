@@ -4,7 +4,7 @@ title: NdrUserMarshalBufferSize function
 author: windows-sdk-content
 description: The NdrUserMarshalBufferSize function calculates the size of the buffer, in bytes, needed to marshal the user marshal object.
 old-location: rpc\ndrusermarshalbuffersize.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6c3f9073-3695-4eec-a973-e40aa55f9504
 ms.author: windowssdkdev
 ms.date: 12/5/2018

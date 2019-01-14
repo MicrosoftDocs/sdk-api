@@ -4,7 +4,7 @@ title: UuidToStringW function
 author: windows-sdk-content
 description: The UuidToString function converts a UUID to a string.
 old-location: rpc\uuidtostring.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

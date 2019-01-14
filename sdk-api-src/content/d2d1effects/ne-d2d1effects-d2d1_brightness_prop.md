@@ -4,7 +4,7 @@ title: D2D1_BRIGHTNESS_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the Brightness effect.
 old-location: direct2d\d2d1_brightness_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7D3CEF7A-AF72-451B-8E6A-A9DF8E85EDE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AddAuditAccessAceEx function
 author: windows-sdk-content
 description: Adds a system-audit access control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addauditaccessaceex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ddd1d815-c4ce-4572-982c-139e17cda192
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::put_BizRuleImportedPath
 author: windows-sdk-content
 description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
 old-location: security\iaztask_bizruleimportedpath.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 52422e14-4a96-455d-ad35-b8816871ee10
 ms.author: windowssdkdev
 ms.date: 12/5/2018

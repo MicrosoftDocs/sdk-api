@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const D2D1_BITMAP_PROPERTIES 
 author: windows-sdk-content
 description: Creates an uninitialized Direct2D bitmap.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ref_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 134453e3-180a-4682-a748-b74c6113be6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::get_PolicyAdministrators
 author: windows-sdk-content
 description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazscope_policyadministrators.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

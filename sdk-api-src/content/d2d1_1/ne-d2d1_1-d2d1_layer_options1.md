@@ -4,7 +4,7 @@ title: D2D1_LAYER_OPTIONS1
 author: windows-sdk-content
 description: Specifies how the layer contents should be prepared.
 old-location: direct2d\d2d1_layer_options1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 13C9EDE7-A1D0-4359-8EF3-77FF763B9244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

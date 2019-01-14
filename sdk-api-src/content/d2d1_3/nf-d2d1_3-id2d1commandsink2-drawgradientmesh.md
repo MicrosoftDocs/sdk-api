@@ -4,7 +4,7 @@ title: ID2D1CommandSink2::DrawGradientMesh
 author: windows-sdk-content
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1commandsink2_drawgradientmesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 19adf39c-5eec-aa77-9022-1b69ef924679
 ms.author: windowssdkdev
 ms.date: 12/5/2018

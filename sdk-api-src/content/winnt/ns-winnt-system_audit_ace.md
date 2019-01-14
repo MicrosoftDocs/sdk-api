@@ -4,7 +4,7 @@ title: SYSTEM_AUDIT_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c26b5856-5447-4606-8110-f24a4d235c64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

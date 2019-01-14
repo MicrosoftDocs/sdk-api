@@ -4,7 +4,7 @@ title: ID2D1Ink::GetSegmentCount
 author: windows-sdk-content
 description: Returns the number of segments in this ink object.
 old-location: direct2d\id2d1ink_getsegmentcount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8222B527-FEEE-4456-8C0E-35437CB81DE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

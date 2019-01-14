@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::PushAxisAlignedClip
 author: windows-sdk-content
 description: Specifies a rectangle to which all subsequent drawing operations are clipped.
 old-location: direct2d\id2d1rendertarget_pushaxisalignedclip.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8b777425-07b1-4494-889a-0c947fb61315
 ms.author: windowssdkdev
 ms.date: 12/5/2018

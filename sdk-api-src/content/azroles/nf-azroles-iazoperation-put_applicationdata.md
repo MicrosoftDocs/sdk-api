@@ -4,7 +4,7 @@ title: IAzOperation::put_ApplicationData
 author: windows-sdk-content
 description: The ApplicationData property of IAzOperation sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazoperation_applicationdata.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d4d22aae-6ca3-4a97-aa44-fa07674dc556
 ms.author: windowssdkdev
 ms.date: 12/5/2018

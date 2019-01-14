@@ -4,7 +4,7 @@ title: D2D1_COLORMANAGEMENT_ALPHA_MODE
 author: windows-sdk-content
 description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
 old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplication::get_Scopes
 author: windows-sdk-content
 description: Retrieves an IAzScopes object that is used to enumerate IAzScope objects from the policy data.
 old-location: security\iazapplication_scopes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb56e48c-5c36-49f5-927e-417bfb59f940
 ms.author: windowssdkdev
 ms.date: 12/5/2018

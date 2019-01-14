@@ -4,7 +4,7 @@ title: IAzTask::get_BizRuleLanguage
 author: windows-sdk-content
 description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.
 old-location: security\iaztask_bizrulelanguage.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

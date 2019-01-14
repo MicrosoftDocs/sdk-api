@@ -4,7 +4,7 @@ title: ID2D1TransformedGeometry
 author: windows-sdk-content
 description: Represents a geometry that has been transformed.
 old-location: direct2d\ID2D1TransformedGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

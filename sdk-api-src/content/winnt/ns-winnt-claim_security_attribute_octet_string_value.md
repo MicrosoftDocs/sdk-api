@@ -4,7 +4,7 @@ title: CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
 author: windows-sdk-content
 description: Specifies the OCTET_STRING value type of the claim security attribute.
 old-location: security\claim_security_attribute_octet_string_value.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

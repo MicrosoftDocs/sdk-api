@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::GetImage
 author: windows-sdk-content
 description: Gets the image associated with the image brush.
 old-location: direct2d\id2d1imagebrush_getimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b5be6722-1ef5-40a5-babb-179f91412765
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_SCALE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Scale effect.
 old-location: direct2d\d2d1_scale_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0FBAC940-3E73-4672-AFD7-F29459849592
 ms.author: windowssdkdev
 ms.date: 12/5/2018

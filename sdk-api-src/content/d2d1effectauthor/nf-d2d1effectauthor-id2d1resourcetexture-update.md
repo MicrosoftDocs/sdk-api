@@ -4,7 +4,7 @@ title: ID2D1ResourceTexture::Update
 author: windows-sdk-content
 description: Updates the specific resource texture inside the specific range or box using the supplied data.
 old-location: direct2d\id2d1resourcetexture_update.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B2E36886-DAD5-47EA-9252-541283064D98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

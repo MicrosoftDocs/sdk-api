@@ -4,7 +4,7 @@ title: D2D1_OPACITYMETADATA_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Opacity metadata effect.
 old-location: direct2d\d2d1_opacitymetadata_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D8BA5767-EDB0-4BD0-9B07-9009DB1FD678
 ms.author: windowssdkdev
 ms.date: 12/5/2018

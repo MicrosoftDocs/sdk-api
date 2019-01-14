@@ -4,7 +4,7 @@ title: ID2D1CommandSink::FillRectangle
 author: windows-sdk-content
 description: Indicates to the command sink a rectangle to be filled.
 old-location: direct2d\id2d1commandsink_fillrectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c970a962-8d03-4de8-9252-9babfa411e5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

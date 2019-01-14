@@ -4,7 +4,7 @@ title: IAzApplications::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzApplication objects in the collection.
 old-location: security\iazapplications_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
 ms.author: windowssdkdev
 ms.date: 12/5/2018

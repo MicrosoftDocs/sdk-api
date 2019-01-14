@@ -4,7 +4,7 @@ title: ID2D1Brush::SetOpacity
 author: windows-sdk-content
 description: Sets the degree of opacity of this brush.
 old-location: direct2d\ID2D1Brush_SetOpacity.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c2e6df27-4007-4f2e-9567-439dd3842318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

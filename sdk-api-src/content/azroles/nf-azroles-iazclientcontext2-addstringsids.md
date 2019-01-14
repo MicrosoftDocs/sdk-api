@@ -4,7 +4,7 @@ title: IAzClientContext2::AddStringSids
 author: windows-sdk-content
 description: Adds an array of string representations of security identifiers (SIDs) to the client context.
 old-location: security\iazclientcontext2_addstringsids.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ac437686-fefb-413e-9f53-eed6c1df5798
 ms.author: windowssdkdev
 ms.date: 12/5/2018

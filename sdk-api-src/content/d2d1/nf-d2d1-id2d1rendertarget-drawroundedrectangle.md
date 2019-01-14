@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawRoundedRectangle
 author: windows-sdk-content
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

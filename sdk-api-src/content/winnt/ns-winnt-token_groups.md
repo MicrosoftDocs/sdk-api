@@ -4,7 +4,7 @@ title: TOKEN_GROUPS
 author: windows-sdk-content
 description: Contains information about the group security identifiers (SIDs) in an access token.
 old-location: security\token_groups.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 387dd7f8-4177-40fa-b5fd-bb4b371a0e64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

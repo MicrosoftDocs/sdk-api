@@ -4,7 +4,7 @@ title: ID2D1BoundsAdjustmentTransform::GetOutputBounds
 author: windows-sdk-content
 description: Returns the output rectangle of the support transform.
 old-location: direct2d\id2d1boundsadjustmenttransform_getoutputbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 779654CB-1E9F-49F6-BD50-0BF8A2595713
 ms.author: windowssdkdev
 ms.date: 12/5/2018

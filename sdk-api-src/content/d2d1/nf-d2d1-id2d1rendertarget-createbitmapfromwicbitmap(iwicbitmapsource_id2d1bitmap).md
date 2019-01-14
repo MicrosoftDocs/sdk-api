@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap
 author: windows-sdk-content
 description: Creates an ID2D1Bitmap by copying the specified Microsoft Windows Imaging Component (WIC) bitmap.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapFromWicBitmap_ptr_IWICBitmapSource_ptr_ptr_ID2D1Bitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b2a106b4-067b-42ad-97ab-b5c0f07e5204
 ms.author: windowssdkdev
 ms.date: 12/5/2018

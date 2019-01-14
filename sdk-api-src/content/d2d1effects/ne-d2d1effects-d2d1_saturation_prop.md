@@ -4,7 +4,7 @@ title: D2D1_SATURATION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Saturation effect.
 old-location: direct2d\d2d1_saturation_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 69F237FD-F9EE-4C6B-B6E1-673FE815FC6D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

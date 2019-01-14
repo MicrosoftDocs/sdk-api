@@ -4,7 +4,7 @@ title: ID2D1EffectContext::LoadPixelShader
 author: windows-sdk-content
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadpixelshader.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7A5F58DD-8A43-406D-AC3B-2FB99BE7FBF6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

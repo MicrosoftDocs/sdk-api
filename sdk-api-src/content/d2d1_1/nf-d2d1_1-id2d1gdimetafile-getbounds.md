@@ -4,7 +4,7 @@ title: ID2D1GdiMetafile::GetBounds
 author: windows-sdk-content
 description: Gets the bounds of the metafile, in device-independent pixels (DIPs), as reported in the metafile’s header.
 old-location: direct2d\id2d1gdimetafile_getbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 59DA5314-2A6C-42B0-A4B8-72F6302B4B0F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NdrMesProcEncodeDecode4 function
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode4 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode4.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

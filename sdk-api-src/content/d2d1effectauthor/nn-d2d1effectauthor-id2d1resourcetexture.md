@@ -4,7 +4,7 @@ title: ID2D1ResourceTexture
 author: windows-sdk-content
 description: Tracks a transform-created resource texture.
 old-location: direct2d\id2d1resourcetexture.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPointCollection)
 author: windows-sdk-content
 description: Gets an attribute of this element as points. This method can be used to get the value of the points attribute on a polygon or polyline element.
 old-location: direct2d\id2d1svgelement_getattributevalue_20.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2EA7A72F-91A1-46BA-A930-A2000C340DB2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

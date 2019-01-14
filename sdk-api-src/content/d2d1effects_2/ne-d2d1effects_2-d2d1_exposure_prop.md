@@ -4,7 +4,7 @@ title: D2D1_EXPOSURE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Exposure effect.
 old-location: direct2d\d2d1_exposure_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0C294B8B-2E18-48B7-AB81-602AB7949131
 ms.author: windowssdkdev
 ms.date: 12/5/2018

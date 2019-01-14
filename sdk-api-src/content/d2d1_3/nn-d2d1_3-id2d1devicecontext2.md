@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext1 interface, plus it enables functionality such as ink rendering, gradient mesh rendering, and improved image loading.
 old-location: direct2d\id2d1devicecontext2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 25c11cfc-75af-20a1-8f54-6b370942b841
 ms.author: windowssdkdev
 ms.date: 12/5/2018

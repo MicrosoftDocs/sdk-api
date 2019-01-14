@@ -4,7 +4,7 @@ title: ID2D1Factory7::CreateDevice
 author: windows-sdk-content
 description: Creates a new Direct2D device from the given IDXGIDevice.
 old-location: direct2d\id2d1factory7_createdevice.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6E40B8EA-AF61-40CF-B085-13954EDFA71F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

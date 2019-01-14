@@ -4,7 +4,7 @@ title: AccessCheckByTypeAndAuditAlarmA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 old-location: security\accesscheckbytypeandauditalarm.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ea14fd55-e0e4-4bf2-b20e-5874783c16c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

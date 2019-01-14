@@ -4,7 +4,7 @@ title: ID2D1GradientMesh::GetPatchCount
 author: windows-sdk-content
 description: Returns the number of patches that make up this gradient mesh.
 old-location: direct2d\id2d1gradientmesh_getpatchcount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 389bc25d-832c-56de-3568-d136f60b935f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

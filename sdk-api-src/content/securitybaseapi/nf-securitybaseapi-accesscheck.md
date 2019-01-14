@@ -4,7 +4,7 @@ title: AccessCheck function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheck.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d9fd2e44-5782-40c9-a1cf-1788ca7afc50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

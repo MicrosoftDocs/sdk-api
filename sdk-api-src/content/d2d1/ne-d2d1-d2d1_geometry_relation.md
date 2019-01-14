@@ -4,7 +4,7 @@ title: D2D1_GEOMETRY_RELATION
 author: windows-sdk-content
 description: Describes how one geometry object is spatially related to another geometry object.
 old-location: direct2d\D2D1_GEOMETRY_RELATION.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6c7290c8-9363-414b-af2c-0f2a79da99f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

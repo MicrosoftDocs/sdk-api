@@ -4,7 +4,7 @@ title: IAzObjectPicker::GetPrincipals
 author: windows-sdk-content
 description: Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding security identifiers (SIDs).
 old-location: security\iazobjectpicker_getprincipals_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e03a2160-42bc-44a9-a893-36d2d1de18d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

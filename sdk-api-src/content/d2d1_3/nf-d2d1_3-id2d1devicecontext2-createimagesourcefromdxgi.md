@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::CreateImageSourceFromDxgi
 author: windows-sdk-content
 description: Creates an image source from a set of DXGI surface(s). The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromdxgi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

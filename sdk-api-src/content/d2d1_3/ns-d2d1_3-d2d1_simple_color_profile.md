@@ -4,7 +4,7 @@ title: D2D1_SIMPLE_COLOR_PROFILE
 author: windows-sdk-content
 description: Simple description of a color space.
 old-location: direct2d\d2d1_simple_color_profile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B48A7333-AC8B-4965-9D78-6FFC3B0F01A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

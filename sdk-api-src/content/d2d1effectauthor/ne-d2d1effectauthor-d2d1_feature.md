@@ -4,7 +4,7 @@ title: D2D1_FEATURE
 author: windows-sdk-content
 description: Defines capabilities of the underlying Direct3D device which may be queried using ID2D1EffectContext::CheckFeatureSupport.
 old-location: direct2d\d2d1_feature.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1C64F1BE-DB38-440A-A1BA-65A40E5A9997
 ms.author: windowssdkdev
 ms.date: 12/5/2018

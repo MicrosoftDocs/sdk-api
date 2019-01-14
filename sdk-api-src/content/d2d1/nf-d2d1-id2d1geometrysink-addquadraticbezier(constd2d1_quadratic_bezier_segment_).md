@@ -4,7 +4,7 @@ title: ID2D1GeometrySink::AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT
 author: windows-sdk-content
 description: Creates a quadratic Bezier curve between the current point and the specified end point.
 old-location: direct2d\ID2D1GeometrySink_AddQuadraticBezier_ref_D2D1_QUADRATIC_BEZIER_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 452d1cb8-be2c-4019-afbc-d4b632e7ee78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

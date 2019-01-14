@@ -4,7 +4,7 @@ title: ISecurityInformation2
 author: windows-sdk-content
 description: Enables the access control editor to obtain information from the client that is not provided by the ISecurityInformation interface.
 old-location: security\isecurityinformation2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5cb7a096-5088-424a-82d1-0351ce5bb413
 ms.author: windowssdkdev
 ms.date: 12/5/2018

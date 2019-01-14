@@ -4,7 +4,7 @@ title: CStdStubBuffer2_CountRefs function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::CountRefs method.
 old-location: rpc\cstdstubbuffer2_countrefs.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 871484FD-D51C-4F6E-8A44-5ABDD86E7BB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

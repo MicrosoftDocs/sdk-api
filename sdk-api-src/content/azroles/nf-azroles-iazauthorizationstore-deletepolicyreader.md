@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::DeletePolicyReader
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_deletepolicyreader.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 948732bb-4d29-402b-bb12-02d2b73bc443
 ms.author: windowssdkdev
 ms.date: 12/5/2018

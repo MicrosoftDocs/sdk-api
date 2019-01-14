@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetRenderingControls
 author: windows-sdk-content
 description: Gets the rendering controls that have been applied to the context.
 old-location: direct2d\id2d1devicecontext_getrenderingcontrols.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b1d15530-a525-42ba-bc58-f8f429cdd2a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

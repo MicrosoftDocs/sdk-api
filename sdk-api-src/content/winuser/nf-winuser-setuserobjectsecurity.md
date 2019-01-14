@@ -4,7 +4,7 @@ title: SetUserObjectSecurity function
 author: windows-sdk-content
 description: Sets the security of a user object. This can be, for example, a window or a DDE conversation.
 old-location: security\setuserobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 219e41b8-9ac7-4747-a585-b6b9df6a1c9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

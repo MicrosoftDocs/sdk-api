@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::BeginFigure
 author: windows-sdk-content
 description: Starts a new figure at the specified point.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
 ms.date: 12/5/2018

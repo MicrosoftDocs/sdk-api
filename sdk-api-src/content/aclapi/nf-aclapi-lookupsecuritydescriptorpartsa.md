@@ -4,7 +4,7 @@ title: LookupSecurityDescriptorPartsA function
 author: windows-sdk-content
 description: Retrieves security information from a self-relative security descriptor.
 old-location: security\lookupsecuritydescriptorparts.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

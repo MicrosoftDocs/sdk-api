@@ -4,7 +4,7 @@ title: ID2D1ComputeTransform::SetComputeInfo
 author: windows-sdk-content
 description: Sets the render information used to specify the compute shader pass.
 old-location: direct2d\id2d1computetransform_setrenderinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9FDA98A0-90DC-47A5-8839-33606A12C700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

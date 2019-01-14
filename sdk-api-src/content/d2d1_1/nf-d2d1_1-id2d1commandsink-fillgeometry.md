@@ -4,7 +4,7 @@ title: ID2D1CommandSink::FillGeometry
 author: windows-sdk-content
 description: Indicates to the command sink a geometry to be filled.
 old-location: direct2d\id2d1commandsink_fillgeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 04e93b19-f3a7-4196-bce0-e656d48116ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

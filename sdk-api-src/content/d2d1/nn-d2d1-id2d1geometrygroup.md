@@ -4,7 +4,7 @@ title: ID2D1GeometryGroup
 author: windows-sdk-content
 description: Represents a composite geometry, composed of other ID2D1Geometry objects.
 old-location: direct2d\ID2D1GeometryGroup.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

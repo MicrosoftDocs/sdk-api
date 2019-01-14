@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::GetInterpolationMode
 author: windows-sdk-content
 description: Gets the interpolation mode of the image brush.
 old-location: direct2d\id2d1imagebrush_getinterpolationmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 74f708eb-e860-4186-822f-8c5296a4b3ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

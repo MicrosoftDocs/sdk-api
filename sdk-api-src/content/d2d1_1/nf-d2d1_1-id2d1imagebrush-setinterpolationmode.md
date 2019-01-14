@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::SetInterpolationMode
 author: windows-sdk-content
 description: Sets the interpolation mode for the image brush.
 old-location: direct2d\id2d1imagebrush_setinterpolationmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4e85b5bc-3df8-4ac0-b022-0faf025ea7a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

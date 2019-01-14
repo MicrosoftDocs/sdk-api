@@ -4,7 +4,7 @@ title: AddResourceAttributeAce function
 author: windows-sdk-content
 description: Adds a SYSTEM_RESOURCE_ATTRIBUTE_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addresourceattributeace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1EffectImpl::Initialize
 author: windows-sdk-content
 description: The effect can use this method to do one time initialization tasks.
 old-location: direct2d\id2d1effectimpl_initialize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

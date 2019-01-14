@@ -4,7 +4,7 @@ title: GetSecurityInfo function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for an object specified by a handle.
 old-location: security\getsecurityinfo.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_ORIENTATION
 author: windows-sdk-content
 description: Specifies the flip and rotation at which an image appears.
 old-location: direct2d\d2d1_orientation.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: CFDE26F2-2D10-4B7E-A7B0-A2A86923116E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

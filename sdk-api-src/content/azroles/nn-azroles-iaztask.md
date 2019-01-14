@@ -4,7 +4,7 @@ title: IAzTask
 author: windows-sdk-content
 description: Describes a set of operations.
 old-location: security\iaztask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 90eb19c9-1490-43f4-ab4b-393e825aeb2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

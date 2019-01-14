@@ -4,7 +4,7 @@ title: GetSecurityDescriptorDacl function
 author: windows-sdk-content
 description: Retrieves a pointer to the discretionary access control list (DACL) in a specified security descriptor.
 old-location: security\getsecuritydescriptordacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8006c8bb-4976-463f-b074-a59c3bbab36b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

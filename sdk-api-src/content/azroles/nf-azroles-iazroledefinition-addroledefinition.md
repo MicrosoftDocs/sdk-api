@@ -4,7 +4,7 @@ title: IAzRoleDefinition::AddRoleDefinition
 author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleDefinition object.
 old-location: security\iazroledefinition_addroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 38d65f5f-452b-4641-a683-2740fb529064
 ms.author: windowssdkdev
 ms.date: 12/5/2018

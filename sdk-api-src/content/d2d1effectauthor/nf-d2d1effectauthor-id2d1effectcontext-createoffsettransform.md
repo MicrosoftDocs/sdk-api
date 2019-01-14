@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateOffsetTransform
 author: windows-sdk-content
 description: Creates and returns an offset transform.
 old-location: direct2d\id2d1contextinternal_createoffsettransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A0A479F7-CB2C-4A9A-B482-2383A3A1A841
 ms.author: windowssdkdev
 ms.date: 12/5/2018

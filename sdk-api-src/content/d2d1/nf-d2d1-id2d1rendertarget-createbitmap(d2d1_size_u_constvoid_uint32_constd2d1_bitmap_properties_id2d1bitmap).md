@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_
 author: windows-sdk-content
 description: Creates an ID2D1BitmapBrush from the specified bitmap.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9c3be6a0-ac67-4dc1-9c5a-0ee47343cb86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

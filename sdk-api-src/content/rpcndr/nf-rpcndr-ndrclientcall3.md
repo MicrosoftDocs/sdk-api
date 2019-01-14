@@ -4,7 +4,7 @@ title: NdrClientCall3 function
 author: windows-sdk-content
 description: NdrClientCall3 may be altered or unavailable.
 old-location: rpc\ndrclientcall3.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

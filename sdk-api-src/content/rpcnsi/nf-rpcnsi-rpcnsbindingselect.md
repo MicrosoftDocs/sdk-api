@@ -4,7 +4,7 @@ title: RpcNsBindingSelect function
 author: windows-sdk-content
 description: The RpcNsBindingSelect function returns a binding handle from a list of compatible binding handles.
 old-location: rpc\rpcnsbindingselect.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 1acdd266-9ca2-43d4-b677-7c30b4dca4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

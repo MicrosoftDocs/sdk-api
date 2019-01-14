@@ -4,7 +4,7 @@ title: HwndRenderTargetProperties function
 author: windows-sdk-content
 description: Creates a D2D1_HWND_RENDER_TARGET_PROPERTIES structure.
 old-location: direct2d\hwndrendertargetproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 41d4c58d-6840-48b6-8e31-1a0c412156cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

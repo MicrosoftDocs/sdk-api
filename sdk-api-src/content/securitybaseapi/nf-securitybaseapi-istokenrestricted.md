@@ -4,7 +4,7 @@ title: IsTokenRestricted function
 author: windows-sdk-content
 description: Indicates whether a token contains a list of restricted security identifiers (SIDs).
 old-location: security\istokenrestricted.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: eaa63bb9-3084-4246-b2ab-f913bb7348fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

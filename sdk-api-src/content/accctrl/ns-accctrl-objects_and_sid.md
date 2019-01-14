@@ -4,7 +4,7 @@ title: OBJECTS_AND_SID
 author: windows-sdk-content
 description: Contains a security identifier (SID) that identifies a trustee and GUIDs that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_sid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 77ba8a3c-01e5-4a3e-835f-c7b9ef60035a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

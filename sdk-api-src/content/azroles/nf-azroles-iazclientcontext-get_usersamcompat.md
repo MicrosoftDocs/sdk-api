@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserSamCompat
 author: windows-sdk-content
 description: Retrieves the name of the current client in a format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_usersamcompat.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3b1f9e8a-cc3b-4be6-b2d9-8e8b3164d46a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

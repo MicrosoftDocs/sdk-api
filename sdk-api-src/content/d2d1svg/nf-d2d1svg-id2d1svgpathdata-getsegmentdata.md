@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::GetSegmentData
 author: windows-sdk-content
 description: Gets data from the segment data array.
 old-location: direct2d\id2d1svgpathdata_getsegmentdata.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D935BCEB-D7B8-4245-AD1C-25BAE63F8944
 ms.author: windowssdkdev
 ms.date: 12/5/2018

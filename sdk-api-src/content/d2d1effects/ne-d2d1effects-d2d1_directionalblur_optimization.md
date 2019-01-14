@@ -4,7 +4,7 @@ title: D2D1_DIRECTIONALBLUR_OPTIMIZATION
 author: windows-sdk-content
 description: Specifies the optimization mode for the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_optimization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 28B99069-3380-4D44-82A1-9A8F551B3C45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

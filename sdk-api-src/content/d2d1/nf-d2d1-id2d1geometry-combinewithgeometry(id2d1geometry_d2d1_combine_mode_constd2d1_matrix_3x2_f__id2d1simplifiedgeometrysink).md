@@ -4,7 +4,7 @@ title: ID2D1Geometry::CombineWithGeometry(ID2D1Geometry,D2D1_COMBINE_MODE,const 
 author: windows-sdk-content
 description: Combines this geometry with the specified geometry and stores the result in an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\ID2D1Geometry_CombineWithGeometry_ptr_ID2D1Geometry_D2D1_COMBINE_MODE_ref_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 957e9117-9434-4fe6-a93d-986134be7828
 ms.author: windowssdkdev
 ms.date: 12/5/2018

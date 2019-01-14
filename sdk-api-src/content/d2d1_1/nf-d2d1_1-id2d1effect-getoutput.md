@@ -4,7 +4,7 @@ title: ID2D1Effect::GetOutput
 author: windows-sdk-content
 description: Gets the output image from the effect.
 old-location: direct2d\id2d1effect_getoutput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e14066f7-b195-44f1-a952-1b6c9f3832cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

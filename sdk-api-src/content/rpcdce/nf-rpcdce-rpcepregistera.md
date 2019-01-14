@@ -4,7 +4,7 @@ title: RpcEpRegisterA function
 author: windows-sdk-content
 description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
 old-location: rpc\rpcepregister.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -188,7 +188,7 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 <ul>
 <li>Interface 
-<a href="https://msdn.microsoft.com/72cf12f5-49cd-440d-9665-73211509d050">UUID</a>
+<a href="https://msdn.microsoft.com/">UUID</a>
 </li>
 <li>Interface version (major and minor)</li>
 <li>Binding handle</li>

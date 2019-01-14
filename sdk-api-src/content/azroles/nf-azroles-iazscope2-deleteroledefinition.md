@@ -4,7 +4,7 @@ title: IAzScope2::DeleteRoleDefinition
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from this scope.
 old-location: security\iazscope2_deleteroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 12eddceb-15e2-4c9a-8372-749b0eccdd79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

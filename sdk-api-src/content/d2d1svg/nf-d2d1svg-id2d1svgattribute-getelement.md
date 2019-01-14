@@ -4,7 +4,7 @@ title: ID2D1SvgAttribute::GetElement
 author: windows-sdk-content
 description: Returns the element on which this attribute is set. Returns null if the attribute is not set on any element.
 old-location: direct2d\id2d1svgattribute_getelement.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F02A13BF-955A-4D74-BC12-F1E6DCFFCCE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

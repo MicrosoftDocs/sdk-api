@@ -4,7 +4,7 @@ title: RpcErrorAddRecord function
 author: windows-sdk-content
 description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.
 old-location: rpc\rpcerroraddrecord.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: b82708ef-0760-49b0-87d2-3d55a07b351f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

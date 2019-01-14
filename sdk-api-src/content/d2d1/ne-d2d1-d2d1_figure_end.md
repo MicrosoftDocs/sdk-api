@@ -4,7 +4,7 @@ title: D2D1_FIGURE_END
 author: windows-sdk-content
 description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is open or closed.
 old-location: direct2d\D2D1_FIGURE_END.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 44821eef-7ecf-44c1-bbfb-df259c0489dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

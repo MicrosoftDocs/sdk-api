@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::EndFigure
 author: windows-sdk-content
 description: Ends the current figure; optionally, closes it.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

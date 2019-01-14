@@ -4,7 +4,7 @@ title: D2D1_DISTANTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Distant-diffuse lighting effect.
 old-location: direct2d\d2d1_distantdiffuse_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C47029DF-D612-4256-ABFC-57F42614E78A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

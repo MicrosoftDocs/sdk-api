@@ -4,7 +4,7 @@ title: IAzScope::AddPolicyReader
 author: windows-sdk-content
 description: The AddPolicyReader method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy readers.
 old-location: security\iazscope_addpolicyreader.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: dd4d3254-8bcf-46b5-8e7b-d3f076988a7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

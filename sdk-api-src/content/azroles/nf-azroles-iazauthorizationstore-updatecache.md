@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::UpdateCache
 author: windows-sdk-content
 description: Updates the cache of objects and object attributes to match the underlying policy store.
 old-location: security\azauthorizationstore_updatecache.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1fd17040-f736-44a6-8a01-720f4c8fe9ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

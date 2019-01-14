@@ -4,7 +4,7 @@ title: ACL_SIZE_INFORMATION
 author: windows-sdk-content
 description: Contains information about the size of an ACL structure.
 old-location: security\acl_size_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 05034096-211d-4ee3-a686-dfebfa167814
 ms.author: windowssdkdev
 ms.date: 12/5/2018

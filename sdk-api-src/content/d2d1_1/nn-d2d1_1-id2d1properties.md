@@ -4,7 +4,7 @@ title: ID2D1Properties
 author: windows-sdk-content
 description: Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
 old-location: direct2d\id2d1properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1OffsetTransform
 author: windows-sdk-content
 description: Instructs the effect-rendering system to offset an input bitmap without inserting a rendering pass.
 old-location: direct2d\id2d1offsettransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0809C0FC-2F7B-49D8-A695-AD451C9BD17F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

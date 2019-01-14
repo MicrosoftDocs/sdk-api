@@ -4,7 +4,7 @@ title: ACL_REVISION_INFORMATION
 author: windows-sdk-content
 description: Contains revision information about an ACL structure.
 old-location: security\acl_revision_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cdc7f6b1-aaa1-4893-a192-5a42233b3ec1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Bitmap::GetPixelFormat
 author: windows-sdk-content
 description: Retrieves the pixel format and alpha mode of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetPixelFormat.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e94a0930-f681-47d0-8cee-bacf631ee6db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

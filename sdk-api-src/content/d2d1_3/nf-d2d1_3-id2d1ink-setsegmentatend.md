@@ -4,7 +4,7 @@ title: ID2D1Ink::SetSegmentAtEnd
 author: windows-sdk-content
 description: Updates the last segment in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegmentatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E80083E4-7BBB-4AF5-81EB-49E68D6521F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

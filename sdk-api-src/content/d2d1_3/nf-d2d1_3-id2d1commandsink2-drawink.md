@@ -4,7 +4,7 @@ title: ID2D1CommandSink2::DrawInk
 author: windows-sdk-content
 description: Renders the given ink object using the given brush and ink style.
 old-location: direct2d\id2d1commandsink2_drawink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: dd328fdb-c87c-e3ee-b8cd-f89ff3fb1b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

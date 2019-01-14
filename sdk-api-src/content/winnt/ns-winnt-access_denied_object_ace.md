@@ -4,7 +4,7 @@ title: ACCESS_DENIED_OBJECT_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls denied access to an object, a property set, or property.
 old-location: security\access_denied_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 80e00c2b-7c31-428d-96c1-c4e3d22619f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

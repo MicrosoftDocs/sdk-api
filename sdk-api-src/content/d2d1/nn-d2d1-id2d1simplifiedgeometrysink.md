@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink
 author: windows-sdk-content
 description: Describes a geometric path that does not contain quadratic bezier curves or arcs.
 old-location: direct2d\ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cf877a25-7b9f-4db0-ac53-b4a350795a86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

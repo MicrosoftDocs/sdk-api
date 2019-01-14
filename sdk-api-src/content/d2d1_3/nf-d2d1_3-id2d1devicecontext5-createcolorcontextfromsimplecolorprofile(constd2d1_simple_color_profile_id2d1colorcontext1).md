@@ -4,7 +4,7 @@ title: ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_
 author: windows-sdk-content
 description: Creates a color context from a simple color profile. It is only valid to use this with the Color Management Effect in 'Best' mode.
 old-location: direct2d\id2d1devicecontext5_createcolorcontextfromsimplecolorprofile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 27727A6C-2DF2-432B-AFBF-CF63BD9E5B53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

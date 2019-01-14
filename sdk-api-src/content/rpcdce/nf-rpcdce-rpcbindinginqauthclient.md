@@ -4,7 +4,7 @@ title: RpcBindingInqAuthClient function
 author: windows-sdk-content
 description: A server application calls the RpcBindingInqAuthClient function to obtain the principal name or privilege attributes of the authenticated client that made the remote procedure call.
 old-location: rpc\rpcbindinginqauthclient.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2834a6a8-8bd6-4829-84ea-e3f35c917ab7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3
 author: windows-sdk-content
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
 old-location: direct2d\ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 14ffec4f-3ea1-4dd1-85ea-f6b9d439226e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

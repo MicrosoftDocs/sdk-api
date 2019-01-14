@@ -4,7 +4,7 @@ title: SECURITY_CAPABILITIES
 author: windows-sdk-content
 description: Defines the security capabilities of the app container.
 old-location: security\security_capabilities.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1A865519-E042-4871-886C-9AA64D71CCE4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

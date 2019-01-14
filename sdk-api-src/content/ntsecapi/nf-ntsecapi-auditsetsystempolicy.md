@@ -4,7 +4,7 @@ title: AuditSetSystemPolicy function
 author: windows-sdk-content
 description: Sets system audit policy for one or more audit-policy subcategories.
 old-location: security\auditsetsystempolicy_func.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

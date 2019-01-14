@@ -4,7 +4,7 @@ title: AuthzRegisterSecurityEventSource function
 author: windows-sdk-content
 description: Registers a security event source with the Local Security Authority (LSA).
 old-location: security\authzregistersecurityeventsource.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

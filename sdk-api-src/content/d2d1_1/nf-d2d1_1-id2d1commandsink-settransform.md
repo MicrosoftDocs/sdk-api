@@ -4,7 +4,7 @@ title: ID2D1CommandSink::SetTransform
 author: windows-sdk-content
 description: Sets a new transform.
 old-location: direct2d\id2d1commandsink_settransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: bc284b13-cf22-45aa-b80c-0750622f5284
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AreAnyAccessesGranted function
 author: windows-sdk-content
 description: Tests whether any of a set of requested access rights has been granted. The access rights are represented as bit flags in an access mask.
 old-location: security\areanyaccessesgranted.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4bac6ebc-716a-4725-b9e6-a109b27dfc18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

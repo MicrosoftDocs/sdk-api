@@ -4,7 +4,7 @@ title: UuidCreateSequential function
 author: windows-sdk-content
 description: The UuidCreateSequential function creates a new UUID.
 old-location: rpc\uuidcreatesequential.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 66975d82-559c-4a13-846c-e403b015563b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

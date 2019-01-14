@@ -4,7 +4,7 @@ title: ID2D1PrintControl::Close
 author: windows-sdk-content
 description: Passes all remaining resources to the print sub-system, then clean up and close the current print job.
 old-location: direct2d\id2d1printcontrol_close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ADCA373-C461-4737-A292-AF29977B148C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

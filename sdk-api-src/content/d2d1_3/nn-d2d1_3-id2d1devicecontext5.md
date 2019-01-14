@@ -4,7 +4,7 @@ title: ID2D1DeviceContext5
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext4 interface, plus it enables the creation of color contexts and Svg documents.
 old-location: direct2d\id2d1devicecontext5.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 38689191-3315-44F3-A259-DC1EB378485D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

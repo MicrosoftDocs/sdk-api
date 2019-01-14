@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_ApplicationData
 author: windows-sdk-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\azauthorizationstore_applicationdata.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 21a76185-6bcf-405a-a2c5-5509b51ed16e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

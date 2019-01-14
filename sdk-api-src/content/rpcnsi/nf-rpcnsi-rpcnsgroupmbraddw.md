@@ -4,7 +4,7 @@ title: RpcNsGroupMbrAddW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
 old-location: rpc\rpcnsgroupmbradd.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

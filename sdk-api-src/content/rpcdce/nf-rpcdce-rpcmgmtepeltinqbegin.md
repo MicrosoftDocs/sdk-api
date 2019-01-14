@@ -4,7 +4,7 @@ title: RpcMgmtEpEltInqBegin function
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqBegin function creates an inquiry context for viewing the elements in an endpoint map.
 old-location: rpc\rpcmgmtepeltinqbegin.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 659ab657-e17f-46a9-942e-aa2631c1716d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

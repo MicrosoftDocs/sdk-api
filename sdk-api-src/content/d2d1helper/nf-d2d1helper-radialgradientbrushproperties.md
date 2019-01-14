@@ -4,7 +4,7 @@ title: RadialGradientBrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\radialgradientbrushproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d65ee26c-28d4-4b58-9089-1aab959246cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

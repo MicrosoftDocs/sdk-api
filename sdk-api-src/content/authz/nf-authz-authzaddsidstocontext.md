@@ -4,7 +4,7 @@ title: AuthzAddSidsToContext function
 author: windows-sdk-content
 description: Creates a copy of an existing context and appends a given set of security identifiers (SIDs) and restricted SIDs.
 old-location: security\authzaddsidstocontext.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

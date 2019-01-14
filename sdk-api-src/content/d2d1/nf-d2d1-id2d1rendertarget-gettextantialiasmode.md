@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetTextAntialiasMode
 author: windows-sdk-content
 description: Gets the current antialiasing mode for text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetTextAntialiasMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c9d4ecd9-816d-43b2-adcf-25ac595279f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

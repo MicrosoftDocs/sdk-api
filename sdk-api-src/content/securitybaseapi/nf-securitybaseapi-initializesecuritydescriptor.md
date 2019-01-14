@@ -4,7 +4,7 @@ title: InitializeSecurityDescriptor function
 author: windows-sdk-content
 description: Initializes a new security descriptor.
 old-location: security\initializesecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 234fcda4-7d30-4c3f-a036-7ace58ca8a3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

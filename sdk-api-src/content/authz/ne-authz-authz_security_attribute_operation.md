@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTE_OPERATION
 author: windows-sdk-content
 description: Indicates the type of modification to be made to security attributes by a call to the AuthzModifySecurityAttributes function.
 old-location: security\authz_security_attribute_operation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c1716cdb-87f9-47d6-bfc3-ae6cc043e917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT)
 author: windows-sdk-content
 description: Calculates the length of the geometry as though each segment were unrolled into a line.
 old-location: direct2d\ID2D1Geometry_ComputeLength_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8f91ceca-c862-4173-b819-2a2668845c29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetSecurityDescriptorControl function
 author: windows-sdk-content
 description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.
 old-location: security\setsecuritydescriptorcontrol.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 672406af-ae04-4939-82a4-069a91e61b3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

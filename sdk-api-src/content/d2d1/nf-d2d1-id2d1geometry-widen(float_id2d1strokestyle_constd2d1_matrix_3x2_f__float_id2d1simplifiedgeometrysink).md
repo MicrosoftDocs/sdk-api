@@ -4,7 +4,7 @@ title: ID2D1Geometry::Widen(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,FLO
 author: windows-sdk-content
 description: Widens the geometry by the specified stroke and writes the result to an ID2D1SimplifiedGeometrySink after it has been transformed by the specified matrix and flattened using the specified tolerance.
 old-location: direct2d\ID2D1Geometry_Widen_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f0adc3fa-be9e-489e-9de3-465daa0f41c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

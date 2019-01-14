@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext3 interface, plus it enables functionality for handling new types of color font glyphs.
 old-location: direct2d\id2d1devicecontext4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 59E1F73B-BAD9-4826-BF5B-435E760CC546
 ms.author: windowssdkdev
 ms.date: 12/5/2018

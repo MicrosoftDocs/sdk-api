@@ -4,7 +4,7 @@ title: D2D1_YCBCR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 08019B09-0254-48B3-9213-3E7362358109
 ms.author: windowssdkdev
 ms.date: 12/5/2018

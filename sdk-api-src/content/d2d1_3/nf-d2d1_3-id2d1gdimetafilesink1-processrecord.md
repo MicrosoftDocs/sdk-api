@@ -4,7 +4,7 @@ title: ID2D1GdiMetafileSink1::ProcessRecord
 author: windows-sdk-content
 description: Provides access to metafile records, including their type, data, and flags.
 old-location: direct2d\id2d1gdimetafilesink1_processrecord.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1f33988f-e4c5-23f9-899a-64ebeaa77007
 ms.author: windowssdkdev
 ms.date: 12/5/2018

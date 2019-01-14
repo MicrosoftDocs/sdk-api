@@ -4,7 +4,7 @@ title: IAzRole::DeleteTask
 author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the role.
 old-location: security\iazrole_deletetask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

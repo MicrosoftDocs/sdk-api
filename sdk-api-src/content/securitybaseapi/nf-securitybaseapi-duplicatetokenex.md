@@ -4,7 +4,7 @@ title: DuplicateTokenEx function
 author: windows-sdk-content
 description: Creates a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
 old-location: security\duplicatetokenex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.author: windowssdkdev
 ms.date: 12/5/2018

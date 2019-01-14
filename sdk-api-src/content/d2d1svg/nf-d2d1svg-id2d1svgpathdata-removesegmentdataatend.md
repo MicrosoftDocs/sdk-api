@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::RemoveSegmentDataAtEnd
 author: windows-sdk-content
 description: Removes data from the end of the segment data array.
 old-location: direct2d\id2d1svgpathdata_removesegmentdataatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 549531A1-099D-477E-8D77-CF90BD75FAB8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RPC_SECURITY_QOS
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS structure defines security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f7733b9d-ae32-44ff-b1ca-dd0292dd0ff6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

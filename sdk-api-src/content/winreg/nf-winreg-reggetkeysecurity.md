@@ -4,7 +4,7 @@ title: RegGetKeySecurity function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor protecting the specified open registry key.
 old-location: security\reggetkeysecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 26bd8f89-9241-4c13-a214-c2b276d68c92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

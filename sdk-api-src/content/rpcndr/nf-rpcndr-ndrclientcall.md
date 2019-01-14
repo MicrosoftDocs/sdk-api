@@ -4,7 +4,7 @@ title: NdrClientCall function
 author: windows-sdk-content
 description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/">/Oicf</a> mode stub.
+The <b>NdrClientCall</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft.com/">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf /robust</a>  client-side stub. The <b>/Oi</b> and <b>/Oic</b> client-side stubs are obsolete as of MIDL version 6.0.359 and should not be used. The <b>NdrClientCall</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 
@@ -96,7 +96,7 @@ The <b>NdrClientCall</b> function is used by the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/">/Oicf</a>
+<a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a>
 
 
 

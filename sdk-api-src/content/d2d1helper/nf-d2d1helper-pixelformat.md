@@ -4,7 +4,7 @@ title: PixelFormat function
 author: windows-sdk-content
 description: Creates a D2D1_PIXEL_FORMAT structure.
 old-location: direct2d\pixelformat.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 97128e07-68c2-40ab-bad1-7b6f599291b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AUTHZ_SID_OPERATION
 author: windows-sdk-content
 description: Indicates the type of SID operations that can be made by a call to the AuthzModifySids function.
 old-location: security\authz_sid_operation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: C312BE7D-DA1B-47FE-80BA-7506B9A26E9E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

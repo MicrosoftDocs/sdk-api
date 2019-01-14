@@ -4,7 +4,7 @@ title: ID2D1PathGeometry::Open
 author: windows-sdk-content
 description: Retrieves the geometry sink that is used to populate the path geometry with figures and segments.
 old-location: direct2d\ID2D1PathGeometry_Open.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

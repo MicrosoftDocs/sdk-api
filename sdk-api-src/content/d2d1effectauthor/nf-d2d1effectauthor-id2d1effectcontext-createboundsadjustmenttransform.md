@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateBoundsAdjustmentTransform
 author: windows-sdk-content
 description: Creates and returns a bounds adjustment transform.
 old-location: direct2d\id2d1effectcontext_createboundsadjustment.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6B6820E5-792F-447C-81C9-493FA572F61A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Device5::CreateDeviceContext
 author: windows-sdk-content
 description: Creates a new device context with no initially assigned target.
 old-location: direct2d\id2d1device5_createdevicecontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C1C189AC-4ABD-41F8-9696-D4D76602BE61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

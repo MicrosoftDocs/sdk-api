@@ -4,7 +4,7 @@ title: ISecurityInformation3::GetFullResourceName
 author: windows-sdk-content
 description: Retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the OpenElevatedEditor method.
 old-location: security\isecurityinformation3_getfullresourcename.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a22b9a75-6aa8-4b32-8d86-7fb21afd248f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

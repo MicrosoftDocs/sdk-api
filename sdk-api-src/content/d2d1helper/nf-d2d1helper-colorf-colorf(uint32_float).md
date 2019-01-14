@@ -4,7 +4,7 @@ title: ColorF::ColorF(UINT32,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified RGB and alpha values.
 old-location: direct2d\colorf_colorf_uint32_rgb__float_a_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1edb46b1-9700-4c0d-b987-660034e8fb55
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcNsProfileEltInqBeginA function
 author: windows-sdk-content
 description: The RpcNsProfileEltInqBegin function creates an inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqbegin.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 5b14eb21-0c3e-4f12-b1dc-95b364d87a4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

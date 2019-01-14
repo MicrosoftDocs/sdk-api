@@ -4,7 +4,7 @@ title: TOKEN_GROUPS_AND_PRIVILEGES
 author: windows-sdk-content
 description: Contains information about the group security identifiers (SIDs) and privileges in an access token.
 old-location: security\token_groups_and_privileges.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 085ccd0a-d6c2-48ca-ad2a-933f22831b14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Ink::GetBounds
 author: windows-sdk-content
 description: Retrieve the bounds of the geometry, with an optional applied transform.
 old-location: direct2d\id2d1ink_getbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 83BA2631-B3EA-4411-A5F7-265C95A00C9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Multithread::Leave
 author: windows-sdk-content
 description: Leaves the Direct2D API critical section, if it exists.
 old-location: direct2d\id2d1multithread_leave.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C5A7DB35-3AB8-4BB9-A75E-6DA1480738C2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

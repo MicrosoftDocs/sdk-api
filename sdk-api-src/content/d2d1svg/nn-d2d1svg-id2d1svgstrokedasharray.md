@@ -4,7 +4,7 @@ title: ID2D1SvgStrokeDashArray
 author: windows-sdk-content
 description: Interface describing an SVG stroke-dasharray value.
 old-location: direct2d\id2d1svgstrokedasharray.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D3C82EC8-4172-48FE-AE8C-5F15BDBBCD30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

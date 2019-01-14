@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::DrawColorBitmapGlyphRun
 author: windows-sdk-content
 description: Draws a color bitmap glyph run using one of the bitmap formats.
 old-location: direct2d\id2d1devicecontext4_drawcolorbitmapglyphrun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E3DDC924-87A1-43C7-8FC7-3C4E3FC2AC59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

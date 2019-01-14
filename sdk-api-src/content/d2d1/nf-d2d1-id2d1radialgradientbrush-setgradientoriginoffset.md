@@ -4,7 +4,7 @@ title: ID2D1RadialGradientBrush::SetGradientOriginOffset
 author: windows-sdk-content
 description: Specifies the offset of the gradient origin relative to the gradient ellipse's center.
 old-location: direct2d\ID2D1RadialGradientBrush_SetGradientOriginOffset.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 108d73a4-6d8e-4cce-ac70-ee79bbaef5b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

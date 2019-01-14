@@ -4,7 +4,7 @@ title: D2D1_SPOTSPECULAR_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the Spot-specular lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_spotspecular_scale_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6E99B62F-CDEE-4612-824E-94FE232490DF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::DrawBitmap
 author: windows-sdk-content
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1devicecontext_drawbitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e6cff1b7-055b-442c-99aa-afeeee4d06e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

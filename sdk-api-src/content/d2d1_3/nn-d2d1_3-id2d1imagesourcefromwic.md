@@ -4,7 +4,7 @@ title: ID2D1ImageSourceFromWic
 author: windows-sdk-content
 description: Produces 2D pixel data that has been sourced from WIC.
 old-location: direct2d\id2d1imagesourcefromwic.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: EA1F1377-A314-4375-AB86-A36CFE5AF0C8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

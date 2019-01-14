@@ -4,7 +4,7 @@ title: ID2D1Brush::GetTransform
 author: windows-sdk-content
 description: Gets the transform applied to this brush.
 old-location: direct2d\ID2D1Brush_GetTransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f28282e8-f994-4501-a327-fcceb8379f70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

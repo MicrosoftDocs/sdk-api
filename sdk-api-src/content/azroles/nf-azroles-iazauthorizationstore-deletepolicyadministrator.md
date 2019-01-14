@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::DeletePolicyAdministrator
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy administrators.
 old-location: security\azauthorizationstore_deletepolicyadministrator.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c27ca754-7808-4c96-8966-0be3960f2926
 ms.author: windowssdkdev
 ms.date: 12/5/2018

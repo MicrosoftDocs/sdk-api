@@ -4,7 +4,7 @@ title: ID2D1DCRenderTarget
 author: windows-sdk-content
 description: Issues drawing commands to a GDI device context.
 old-location: direct2d\ID2D1DCRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6546998e-6740-413a-88c5-36fa0decec8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

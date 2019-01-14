@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateLinearGradientBrush(const D2D1_LINEAR_GRADIENT_B
 author: windows-sdk-content
 description: Creates an ID2D1LinearGradientBrush that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
 old-location: direct2d\ID2D1RenderTarget_CreateLinearGradientBrush_overload2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b13314ca-3b0b-4d51-99cc-0a56eae223f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

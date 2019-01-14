@@ -4,7 +4,7 @@ title: CStdStubBuffer_AddRef function
 author: windows-sdk-content
 description: The CStdStubBuffer_AddRef function implements the IRpcStubBuffer::AddRef method.
 old-location: rpc\cstdstubbuffer_addref.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4dbef7a0-6332-4307-8d22-40414a1df4f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

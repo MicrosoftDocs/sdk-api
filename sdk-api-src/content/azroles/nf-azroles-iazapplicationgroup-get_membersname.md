@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_MembersName
 author: windows-sdk-content
 description: Retrieves the account names of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_membersname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: bdd6f88f-ea06-4075-b563-d0c7707107f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

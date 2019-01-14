@@ -4,7 +4,7 @@ title: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 author: windows-sdk-content
 description: The RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure contains a cookie that is inserted into the header of RPC/HTTP traffic.
 old-location: rpc\rpc_c_opt_cookie_auth_descriptor.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 808fdf38-4b54-42ab-855c-da9f2081214a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

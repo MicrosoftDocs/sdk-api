@@ -4,7 +4,7 @@ title: D2D1_GRADIENT_MESH_PATCH
 author: windows-sdk-content
 description: Represents a tensor patch with 16 control points, 4 corner colors, and boundary flags. An ID2D1GradientMesh is made up of 1 or more gradient mesh patches. Use the GradientMeshPatch function or the GradientMeshPatchFromCoonsPatch function to create one.
 old-location: direct2d\D2D1_GRADIENT_MESH_PATCH.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 16d1ef03-f0c9-7414-d54d-9513199272aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

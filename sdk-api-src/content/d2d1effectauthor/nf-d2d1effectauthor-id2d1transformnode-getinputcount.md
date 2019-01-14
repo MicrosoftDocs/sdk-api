@@ -4,7 +4,7 @@ title: ID2D1TransformNode::GetInputCount
 author: windows-sdk-content
 description: Gets the number of inputs to the transform node.
 old-location: direct2d\id2d1transformnode_getinputcount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8F8D2BD1-AF03-4EEA-8F5E-DED174074333
 ms.author: windowssdkdev
 ms.date: 12/5/2018

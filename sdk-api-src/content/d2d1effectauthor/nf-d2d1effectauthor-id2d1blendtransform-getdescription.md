@@ -4,7 +4,7 @@ title: ID2D1BlendTransform::GetDescription
 author: windows-sdk-content
 description: Gets the blend description of the corresponding blend transform object.
 old-location: direct2d\id2d1blendtransform_getdescription.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7608A055-FD44-406E-86C7-DF575718D936
 ms.author: windowssdkdev
 ms.date: 12/5/2018

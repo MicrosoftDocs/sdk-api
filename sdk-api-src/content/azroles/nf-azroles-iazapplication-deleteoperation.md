@@ -4,7 +4,7 @@ title: IAzApplication::DeleteOperation
 author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2541e01d-20a4-424f-b8e0-5d6dedfbd7fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext3::DrawSpriteBatch(ID2D1SpriteBatch,UINT32,UINT32,ID2D1
 author: windows-sdk-content
 description: Renders part or all of the given sprite batch to the device context using the specified drawing options.
 old-location: direct2d\id2d1devicecontext3_drawspritebatch.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 407529D4-6FA3-4C09-876C-03A8A8D1390D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

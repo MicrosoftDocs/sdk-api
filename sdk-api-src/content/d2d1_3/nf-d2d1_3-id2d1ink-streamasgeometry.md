@@ -4,7 +4,7 @@ title: ID2D1Ink::StreamAsGeometry
 author: windows-sdk-content
 description: Retrieves a geometric representation of this ink object.
 old-location: direct2d\id2d1ink_streamasgeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 385A4C6F-69D9-46A2-ABA4-9E1AA77D6CF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

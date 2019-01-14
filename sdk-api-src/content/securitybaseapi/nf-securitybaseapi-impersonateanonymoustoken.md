@@ -4,7 +4,7 @@ title: ImpersonateAnonymousToken function
 author: windows-sdk-content
 description: Enables the specified thread to impersonate the system's anonymous logon token.
 old-location: security\impersonateanonymoustoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 98d1072e-f569-4c8c-9254-fa558054c7ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

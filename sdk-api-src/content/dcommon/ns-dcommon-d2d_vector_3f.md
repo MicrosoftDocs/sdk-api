@@ -4,7 +4,7 @@ title: D2D_VECTOR_3F
 author: windows-sdk-content
 description: A vector of 3 FLOAT values (x, y, z).
 old-location: direct2d\d2d1_vector_3f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 469A4FFC-6B5B-4C88-B6A5-23AFD41B885A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

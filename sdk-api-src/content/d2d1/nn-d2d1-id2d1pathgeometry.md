@@ -4,7 +4,7 @@ title: ID2D1PathGeometry
 author: windows-sdk-content
 description: Represents a complex shape that may be composed of arcs, curves, and lines.
 old-location: direct2d\ID2D1PathGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d200563c-d78e-4fa0-a8f2-242b24480e99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

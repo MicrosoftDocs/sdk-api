@@ -4,7 +4,7 @@ title: D2D1_POINT_DESCRIPTION
 author: windows-sdk-content
 description: Describes a point on a path geometry.
 old-location: direct2d\d2d1_point_description.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d6e7a4c1-135f-4ffe-91d7-486de8a9338d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

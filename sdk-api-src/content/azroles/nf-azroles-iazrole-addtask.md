@@ -4,7 +4,7 @@ title: IAzRole::AddTask
 author: windows-sdk-content
 description: Adds the IAzTask object with the specified name to the role.
 old-location: security\iazrole_addtask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 51ba30c3-8067-4aca-b8aa-8e64d4427b98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

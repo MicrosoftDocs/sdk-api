@@ -4,7 +4,7 @@ title: IAzTask::put_IsRoleDefinition
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the task is a role definition.
 old-location: security\iaztask_isroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fef32545-de7e-4516-a289-b9ddf45b7c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

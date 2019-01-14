@@ -4,7 +4,7 @@ title: ID2D1SvgStrokeDashArray::GetDashesCount
 author: windows-sdk-content
 description: Gets the number of the dashes in the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashescount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D43F005C-FC19-47B9-AAC0-E620FCAECADE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

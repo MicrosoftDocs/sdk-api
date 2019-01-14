@@ -4,7 +4,7 @@ title: IAzBizRuleContext::GetParameter
 author: windows-sdk-content
 description: Gets the specified value from the varParameterValues parameter of the IAzClientContext::AccessCheck method.
 old-location: security\azbizrulecontext_getparameter.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

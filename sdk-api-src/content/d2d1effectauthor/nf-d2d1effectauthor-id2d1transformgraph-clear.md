@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::Clear
 author: windows-sdk-content
 description: Clears the transform nodes and all connections from the transform graph.
 old-location: direct2d\id2d1transformgraph_clear.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7223A2FF-2B86-4080-B97E-BAE1C3E7000E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

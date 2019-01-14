@@ -4,7 +4,7 @@ title: SYSTEM_ALARM_CALLBACK_OBJECT_ACE
 author: windows-sdk-content
 description: The SYSTEM_ALARM_CALLBACK_OBJECT_ACE structure is reserved for future use.
 old-location: security\system_alarm_callback_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3fdd0b75-666a-4064-95ed-9e708f34bed6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

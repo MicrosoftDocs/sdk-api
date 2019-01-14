@@ -4,7 +4,7 @@ title: IAzRoleAssignments::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzRoleAssignments objects in the collection.
 old-location: security\iazroleassignments_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a137b247-ee0c-46da-8994-23ba88d207ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TOKEN_STATISTICS
 author: windows-sdk-content
 description: Contains information about an access token.
 old-location: security\token_statistics.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7fcc4a46-1bac-49c1-a239-b466d3bf31d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

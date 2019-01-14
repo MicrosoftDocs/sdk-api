@@ -4,7 +4,7 @@ title: D2D1_COLOR_CONTEXT_TYPE
 author: windows-sdk-content
 description: Specifies which way a color profile is defined.
 old-location: direct2d\d2d1_color_context_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 28708EEF-2EA9-4111-8A8A-4AEEA6B49F17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

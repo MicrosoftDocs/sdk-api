@@ -4,7 +4,7 @@ title: PRIVILEGE_SET
 author: windows-sdk-content
 description: Specifies a set of privileges.
 old-location: security\privilege_set.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2ee5615c-f684-4062-a6cb-e43e9de3a2fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

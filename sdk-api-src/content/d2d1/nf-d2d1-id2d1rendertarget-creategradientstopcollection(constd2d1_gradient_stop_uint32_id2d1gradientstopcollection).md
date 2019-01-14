@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP,
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified gradient stops that uses the D2D1_GAMMA_2_2 color interpolation gamma and the clamp extend mode.
 old-location: direct2d\ID2D1RenderTarget_CreateGradientStopCollection_ptr_D2D1_GRADIENT_STOP_ptr_ptr_ID2D1GradientStopCollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0351e843-18cc-402b-8e4d-3f834de9501a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

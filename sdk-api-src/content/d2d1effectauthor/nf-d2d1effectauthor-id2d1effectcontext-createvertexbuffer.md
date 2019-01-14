@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateVertexBuffer
 author: windows-sdk-content
 description: Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices.
 old-location: direct2d\id2d1contextinternal_createvertexbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: InkPoint function
 author: windows-sdk-content
 description: Creates a D2D1_INK_POINT structure.
 old-location: direct2d\inkpoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

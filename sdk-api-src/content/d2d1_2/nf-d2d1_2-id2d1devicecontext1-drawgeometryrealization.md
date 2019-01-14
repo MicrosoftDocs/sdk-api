@@ -4,7 +4,7 @@ title: ID2D1DeviceContext1::DrawGeometryRealization
 author: windows-sdk-content
 description: Renders a given geometry realization to the target with the specified brush.
 old-location: direct2d\id2d1devicecontext1_drawgeometryrealization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BA4FB8E7-E59A-42BD-86BB-8048267A26AA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

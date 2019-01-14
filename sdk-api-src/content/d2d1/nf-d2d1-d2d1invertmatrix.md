@@ -4,7 +4,7 @@ title: D2D1InvertMatrix function
 author: windows-sdk-content
 description: Tries to invert the specified matrix.
 old-location: direct2d\d2d1invertmatrix.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

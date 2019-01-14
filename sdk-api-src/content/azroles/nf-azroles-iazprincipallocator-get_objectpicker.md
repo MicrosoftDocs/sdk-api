@@ -4,7 +4,7 @@ title: IAzPrincipalLocator::get_ObjectPicker
 author: windows-sdk-content
 description: Gets a pointer to the IAzObjectPicker interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_objectpicker_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 23861b03-0e18-4c0a-a58e-91bac2d474b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

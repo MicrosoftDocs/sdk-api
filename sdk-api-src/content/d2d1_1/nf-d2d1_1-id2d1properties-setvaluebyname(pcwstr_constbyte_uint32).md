@@ -4,7 +4,7 @@ title: ID2D1Properties::SetValueByName(PCWSTR,const BYTE,UINT32)
 author: windows-sdk-content
 description: Sets the named property to the given value.
 old-location: direct2d\id2d1properties_setvaluebyname.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3faedf5e-9329-4502-a1c9-162fd7b00319
 ms.author: windowssdkdev
 ms.date: 12/5/2018

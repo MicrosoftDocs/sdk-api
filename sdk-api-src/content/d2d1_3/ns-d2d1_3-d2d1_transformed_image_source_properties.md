@@ -4,7 +4,7 @@ title: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
 author: windows-sdk-content
 description: Properties of a transformed image source.
 old-location: direct2d\d2d1_transformed_image_source_properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E8A39769-07F2-42CA-A7CA-F83FF97E2076
 ms.author: windowssdkdev
 ms.date: 12/5/2018

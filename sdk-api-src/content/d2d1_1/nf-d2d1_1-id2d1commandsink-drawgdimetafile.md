@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawGdiMetafile
 author: windows-sdk-content
 description: Draw a metafile to the device context.
 old-location: direct2d\id2d1commandsink_drawmetafile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5D986C99-BB7D-4A46-A147-E907F1031E92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

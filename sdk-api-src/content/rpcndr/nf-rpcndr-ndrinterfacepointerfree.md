@@ -4,7 +4,7 @@ title: NdrInterfacePointerFree function
 author: windows-sdk-content
 description: The NdrInterfacePointerFree function releases the interface pointer.
 old-location: rpc\ndrinterfacepointerfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
 ms.author: windowssdkdev
 ms.date: 12/5/2018

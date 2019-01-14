@@ -4,7 +4,7 @@ title: IAzClientContext3::IsInRoleAssignment
 author: windows-sdk-content
 description: Checks whether the principal represented by the current client context is a member of the specified role in the specified scope.
 old-location: security\iazclientcontext3_isinroleassignment_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 20e19ee7-3b65-4f0f-ba19-7fb6cbbaea7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1RadialGradientBrush::GetCenter
 author: windows-sdk-content
 description: Retrieves the center of the gradient ellipse.
 old-location: direct2d\ID2D1RadialGradientBrush_GetCenter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9f6fd69b-bc0e-458c-8e39-546103874fe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

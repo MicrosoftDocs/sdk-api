@@ -4,7 +4,7 @@ title: ID2D1Factory3
 author: windows-sdk-content
 description: Creates Direct2D resources. This interface also enables the creation of ID2D1Device2 objects.
 old-location: direct2d\id2d1factory3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 95923BAA-0A26-45BF-85F7-8994B70B7D92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

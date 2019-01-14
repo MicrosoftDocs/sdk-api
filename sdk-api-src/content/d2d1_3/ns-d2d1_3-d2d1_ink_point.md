@@ -4,7 +4,7 @@ title: D2D1_INK_POINT
 author: windows-sdk-content
 description: Represents a point, radius pair that makes up part of a D2D1_INK_BEZIER_SEGMENT.
 old-location: direct2d\d2d1_ink_point.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C18E7B04-12B8-4EB9-BAFB-24FBA99210E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

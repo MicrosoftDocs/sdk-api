@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::GetCommandsCount
 author: windows-sdk-content
 description: Gets the size of the commands array.
 old-location: direct2d\id2d1svgpathdata_getcommandscount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FF5AC30D-6EEF-4963-BC1C-979F8747DABA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzClientContext::put_RoleForAccessCheck
 author: windows-sdk-content
 description: Sets or retrieves the role that is used to perform the access check.
 old-location: security\iazclientcontext_roleforaccesscheck.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 817b3693-b989-431c-a8b3-bdeeb0367dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

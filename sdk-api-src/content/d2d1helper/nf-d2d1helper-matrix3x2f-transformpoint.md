@@ -4,7 +4,7 @@ title: Matrix3x2F::TransformPoint
 author: windows-sdk-content
 description: Uses this matrix to transform the specified point and returns the result.
 old-location: direct2d\matrix3x2f_transformpoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f7c31524-5c29-4c09-b863-6b511ef9ce70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

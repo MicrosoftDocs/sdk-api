@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::SetSegmentFlags
 author: windows-sdk-content
 description: Specifies stroke and join options to be applied to new segments added to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_SetSegmentFlags.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e1162564-a39b-4c16-887e-ec06dd37301c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

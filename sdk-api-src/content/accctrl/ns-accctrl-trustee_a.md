@@ -4,7 +4,7 @@ title: TRUSTEE_A
 author: windows-sdk-content
 description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
 old-location: security\trustee.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
 ms.author: windowssdkdev
 ms.date: 12/5/2018

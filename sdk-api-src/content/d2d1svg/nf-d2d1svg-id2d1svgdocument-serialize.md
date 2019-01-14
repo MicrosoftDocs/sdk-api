@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::Serialize
 author: windows-sdk-content
 description: Serializes an element and its subtree to XML. The output XML is encoded as UTF-8.
 old-location: direct2d\id2d1svgdocument_serialize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 799E975A-F3BF-4832-AE51-DA064E5C698E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext1::CreateStrokedGeometryRealization
 author: windows-sdk-content
 description: Creates a device-dependent representation of the stroke of a geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createstrokedgeometryrealization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 455EE223-4CEA-4FBA-8885-B0BA6B465C05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

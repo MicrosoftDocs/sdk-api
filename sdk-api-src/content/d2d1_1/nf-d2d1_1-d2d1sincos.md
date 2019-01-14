@@ -4,7 +4,7 @@ title: D2D1SinCos function
 author: windows-sdk-content
 description: Returns the sine and cosine of an angle.
 old-location: direct2d\d2d1sincos.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: CE5899A8-B70F-492E-9A16-849FB64830AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

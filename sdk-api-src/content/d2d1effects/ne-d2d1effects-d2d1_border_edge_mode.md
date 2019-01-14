@@ -4,7 +4,7 @@ title: D2D1_BORDER_EDGE_MODE
 author: windows-sdk-content
 description: The edge mode for the Border effect.
 old-location: direct2d\d2d1_border_edge_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: CAB73FFA-2F81-467F-8A4D-D523793BF659
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzRole::get_Operations
 author: windows-sdk-content
 description: Retrieves the operations associated with the role.
 old-location: security\iazrole_operations.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 44d90f1e-6112-4f02-b840-2ba7af8d9f33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_ApplyStoreSacl
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 old-location: security\azauthorizationstore_applystoresacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fdace7a9-4b6b-4698-812d-c53fc3b8f0d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

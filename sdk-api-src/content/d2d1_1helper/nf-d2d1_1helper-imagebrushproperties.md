@@ -4,7 +4,7 @@ title: ImageBrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.
 old-location: direct2d\imagebrushproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

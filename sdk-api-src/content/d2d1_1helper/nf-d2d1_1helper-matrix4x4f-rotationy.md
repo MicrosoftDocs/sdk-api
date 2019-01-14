@@ -4,7 +4,7 @@ title: Matrix4x4F::RotationY
 author: windows-sdk-content
 description: Rotates the transform matrix around the Y axis.
 old-location: direct2d\matrix4x4f_rotationy.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F761CAB1-77F8-4C98-9085-3FBF4452AA51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

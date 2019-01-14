@@ -4,7 +4,7 @@ title: IAzOperation::GetProperty
 author: windows-sdk-content
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

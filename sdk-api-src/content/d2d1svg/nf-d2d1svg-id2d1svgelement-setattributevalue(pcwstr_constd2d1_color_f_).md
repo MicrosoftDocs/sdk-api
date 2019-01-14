@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_COLOR_F &)
 author: windows-sdk-content
 description: Sets an attribute of this element as a color.
 old-location: direct2d\id2d1svgelement_setattributevalue_5.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 652A0C00-59BC-41E7-8B9D-F4AE37416610
 ms.author: windowssdkdev
 ms.date: 12/5/2018

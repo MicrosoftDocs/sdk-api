@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetNextChild
 author: windows-sdk-content
 description: Gets the next sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getnextchild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 41D48F64-3C90-4CB1-91F5-32FC04042471
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEffectivePermission::GetEffectivePermission
 author: windows-sdk-content
 description: Returns the effective permission for an object type.
 old-location: security\ieffectivepermission_geteffectivepermission.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

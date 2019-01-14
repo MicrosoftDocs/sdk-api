@@ -4,7 +4,7 @@ title: D2D1_DPICOMPENSATION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the DPI compensation effect.
 old-location: direct2d\d2d1_dpicompensation_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

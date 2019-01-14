@@ -4,7 +4,7 @@ title: ID2D1BitmapBrush::GetBitmap
 author: windows-sdk-content
 description: Gets the bitmap source that this brush uses to paint.
 old-location: direct2d\ID2D1BitmapBrush_GetBitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 754eb1d7-bce6-42bd-9b51-9565e31f1d73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

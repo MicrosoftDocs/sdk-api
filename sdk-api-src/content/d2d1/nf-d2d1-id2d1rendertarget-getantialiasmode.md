@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetAntialiasMode
 author: windows-sdk-content
 description: Retrieves the current antialiasing mode for nontext drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetAntialiasMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e9aa93fa-0978-415e-b9f7-802494e81095
 ms.author: windowssdkdev
 ms.date: 12/5/2018

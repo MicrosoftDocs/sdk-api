@@ -4,7 +4,7 @@ title: RpcServerCompleteSecurityCallback function
 author: windows-sdk-content
 description: The RpcServerCompleteSecurityCallback function completes an asynchronous security callback.
 old-location: rpc\rpcservercompletesecuritycallback.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4DF613C7-CF82-47DB-9D6A-F820373534E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

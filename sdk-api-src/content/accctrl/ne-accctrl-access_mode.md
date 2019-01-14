@@ -4,7 +4,7 @@ title: ACCESS_MODE
 author: windows-sdk-content
 description: Contains values that indicate how the access rights in an EXPLICIT_ACCESS structure apply to the trustee.
 old-location: security\access_mode.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 52d1b3a3-eed5-4603-9056-520320da2a52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

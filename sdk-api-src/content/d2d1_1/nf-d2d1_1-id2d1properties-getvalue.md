@@ -4,7 +4,7 @@ title: ID2D1Properties::GetValue
 author: windows-sdk-content
 description: Gets the value of the specified property by index.
 old-location: direct2d\id2d1properties_getvalue.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

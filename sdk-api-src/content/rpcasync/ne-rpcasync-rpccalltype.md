@@ -4,7 +4,7 @@ title: RpcCallType
 author: windows-sdk-content
 description: Specifies the set of RPC call types.
 old-location: rpc\rpccalltype.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPathData)
 author: windows-sdk-content
 description: Gets an attribute of this element as path data. This method can be used to get the value of the d attribute on a path element.
 old-location: direct2d\id2d1svgelement_getattributevalue_21.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B30040E1-7EF4-4AF1-A261-2820B398B66E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1Sim
 author: windows-sdk-content
 description: Retrieves a geometric representation of this ink object.
 old-location: direct2d\id2d1ink_streamasgeometry_3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F00E48F7-24A3-4F05-B664-0236BCBA62D2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

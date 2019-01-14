@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetTextValue
 author: windows-sdk-content
 description: Sets the value of a text content element.
 old-location: direct2d\id2d1svgelement_settextvalue.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 569257CB-1B85-458D-92F4-EBE6C3FF0639
 ms.author: windowssdkdev
 ms.date: 12/5/2018

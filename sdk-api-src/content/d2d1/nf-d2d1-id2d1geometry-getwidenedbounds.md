@@ -4,7 +4,7 @@ title: ID2D1Geometry::GetWidenedBounds
 author: windows-sdk-content
 description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
 old-location: direct2d\ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D_RECT_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2f29c116-478c-4fcd-8ea4-1126f6c93c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

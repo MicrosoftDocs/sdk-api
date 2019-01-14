@@ -4,7 +4,7 @@ title: IAzRoleAssignment::get_RoleDefinitions
 author: windows-sdk-content
 description: Retrieves a collection of the IAzRoleDefinition objects associated with this IAzRoleAssignment object.
 old-location: security\iazroleassignment_roledefinitions.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7528c9aa-264c-4bdc-8a50-c3d41ac00cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

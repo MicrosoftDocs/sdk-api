@@ -4,7 +4,7 @@ title: OBJECT_TYPE_LIST
 author: windows-sdk-content
 description: Identifies an object type element in a hierarchy of object types.
 old-location: security\object_type_list.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

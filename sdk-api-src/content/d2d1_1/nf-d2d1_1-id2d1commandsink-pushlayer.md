@@ -4,7 +4,7 @@ title: ID2D1CommandSink::PushLayer
 author: windows-sdk-content
 description: Pushes a layer onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushlayer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 071d7d7a-12d7-4611-812c-103e2b9a5e56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_FILL_MODE)
 author: windows-sdk-content
 description: Gets an attribute of this element as a fill mode. This method can be used to get the value of the fill-rule or clip-rule properties.
 old-location: direct2d\id2d1svgelement_getattributevalue_6.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 26F7B02A-7A2C-4C73-BD30-426579F467AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

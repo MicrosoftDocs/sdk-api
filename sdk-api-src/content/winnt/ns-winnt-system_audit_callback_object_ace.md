@@ -4,7 +4,7 @@ title: SYSTEM_AUDIT_CALLBACK_OBJECT_ACE
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_OBJECT_ACE structure defines an access control entry for a system access control list.
 old-location: security\system_audit_callback_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f547c928-4850-4072-be05-76a6c83b79bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::DeleteDelegatedPolicyUserName
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyusername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a2e7523a-41d3-4fb5-b455-588e0618f51f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

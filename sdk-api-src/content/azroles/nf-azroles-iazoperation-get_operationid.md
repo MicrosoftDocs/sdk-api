@@ -4,7 +4,7 @@ title: IAzOperation::get_OperationID
 author: windows-sdk-content
 description: Sets or retrieves an application-specific value that uniquely identifies the operation within the application.
 old-location: security\iazoperation_operationid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3466dea1-b005-40fc-87d1-29b5e033f6a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

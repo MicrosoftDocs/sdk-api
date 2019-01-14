@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawRectangle
 author: windows-sdk-content
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenThreadToken function
 author: windows-sdk-content
 description: Opens the access token associated with a thread.
 old-location: security\openthreadtoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5003f0c4-41e9-4a14-b6a9-4f259c4af08b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::CreateApplication
 author: windows-sdk-content
 description: Creates an IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_createapplication.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ca6feb69-15cd-454a-a2b8-c75c4c6b38cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

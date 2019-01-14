@@ -4,7 +4,7 @@ title: IAzApplication::InitializeClientContextFromStringSid
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the specified security identifier (SID) in text form.
 old-location: security\iazapplication_initializeclientcontextfromstringsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b718b0bf-bb11-4485-a4d8-0a90aab62165
 ms.author: windowssdkdev
 ms.date: 12/5/2018

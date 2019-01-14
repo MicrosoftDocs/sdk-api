@@ -4,7 +4,7 @@ title: ISecurityInformation::GetSecurity
 author: windows-sdk-content
 description: The GetSecurity method requests a security descriptor for the securable object whose security descriptor is being edited. The access control editor calls this method to retrieve the object's current or default security descriptor.
 old-location: security\isecurityinformation_getsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4c9e05fd-0b58-4d6d-b33e-067d9e8e2915
 ms.author: windowssdkdev
 ms.date: 12/5/2018

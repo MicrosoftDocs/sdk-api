@@ -4,7 +4,7 @@ title: AccessCheckByTypeResultListAndAuditAlarmByHandleA function
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client that the calling thread is impersonating.
 old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 author: windows-sdk-content
 description: Defines a resource attribute that is defined in continuous memory for persistence within a serialized security descriptor.
 old-location: security\claim_security_attribute_relative_v1.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7516CFA6-3726-4004-854E-CD07347898E5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

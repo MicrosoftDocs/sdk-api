@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPaint)
 author: windows-sdk-content
 description: Gets an attribute of this element as a paint. This method can be used to get the value of the fill or stroke properties.
 old-location: direct2d\id2d1svgelement_getattributevalue_18.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9A772DC4-22D9-4383-A3CD-A8C7DE496F05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::GetGradientMeshWorldBounds
 author: windows-sdk-content
 description: Returns the world bounds of a given gradient mesh.
 old-location: direct2d\id2d1devicecontext2_getgradientmeshworldbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 809d851c-a3e0-7609-95e0-637e25cdaa06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

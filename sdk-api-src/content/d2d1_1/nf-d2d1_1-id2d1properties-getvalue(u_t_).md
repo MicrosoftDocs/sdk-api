@@ -4,7 +4,7 @@ title: ID2D1Properties::GetValue(U,T,)
 author: windows-sdk-content
 description: Gets the value of the property by index. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_getvalue4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49278198-5763-4377-A4CA-8B605B9BB138
 ms.author: windowssdkdev
 ms.date: 12/5/2018

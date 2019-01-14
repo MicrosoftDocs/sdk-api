@@ -4,7 +4,7 @@ title: IAzApplicationGroup2::get_BizRuleLanguage
 author: windows-sdk-content
 description: Gets or sets the programming language of the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizrulelanguage_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4f70daf0-57f2-47d8-93ce-133e0b714388
 ms.author: windowssdkdev
 ms.date: 12/5/2018

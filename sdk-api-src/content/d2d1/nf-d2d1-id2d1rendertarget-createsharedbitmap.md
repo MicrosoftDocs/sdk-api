@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateSharedBitmap
 author: windows-sdk-content
 description: Creates an ID2D1Bitmap whose data is shared with another resource.
 old-location: direct2d\ID2D1RenderTarget_CreateSharedBitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c6377dbd-ffd9-458b-9e03-5a832f095818
 ms.author: windowssdkdev
 ms.date: 12/5/2018

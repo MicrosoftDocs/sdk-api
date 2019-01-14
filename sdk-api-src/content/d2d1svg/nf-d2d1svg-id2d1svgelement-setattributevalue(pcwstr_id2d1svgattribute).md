@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,ID2D1SvgAttribute)
 author: windows-sdk-content
 description: Sets an attribute of this element using an interface.
 old-location: direct2d\id2d1svgelement_setattributevalue_3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1E4AAA78-6746-4DD8-8BD8-C1AB63A51A9B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

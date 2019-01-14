@@ -4,7 +4,7 @@ title: ID2D1Geometry::FillContainsPoint(D2D1_POINT_2F,const D2D1_MATRIX_3X2_F &,
 author: windows-sdk-content
 description: Indicates whether the area filled by the geometry would contain the specified point.
 old-location: direct2d\ID2D1Geometry_FillContainsPoint_D2D_POINT_2F_ref_D2D_MATRIX_3X2_F_ptr_BOOL.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d78efac3-2751-4a7e-8682-59b1a36c28cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

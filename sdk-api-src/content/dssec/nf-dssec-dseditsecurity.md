@@ -4,7 +4,7 @@ title: DSEditSecurity function
 author: windows-sdk-content
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 old-location: security\dseditsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

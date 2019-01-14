@@ -4,7 +4,7 @@ title: D2D1_EFFECT_INPUT_DESCRIPTION
 author: windows-sdk-content
 description: Describes features of an effect.
 old-location: direct2d\d2d1_effect_input_description.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ce9405a-e36d-4b9e-b9d2-2a58b78696ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

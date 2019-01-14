@@ -4,7 +4,7 @@ title: ID2D1CommandList
 author: windows-sdk-content
 description: Represents a sequence of commands that can be recorded and played back.
 old-location: direct2d\id2d1commandlist.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 30b89f53-d20b-4070-abcd-ef95813130d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

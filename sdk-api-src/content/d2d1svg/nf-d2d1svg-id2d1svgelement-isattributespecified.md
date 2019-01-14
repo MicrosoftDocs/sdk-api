@@ -4,7 +4,7 @@ title: ID2D1SvgElement::IsAttributeSpecified
 author: windows-sdk-content
 description: Returns a boolean indicating if the attribute is explicitly set on the element.
 old-location: direct2d\id2d1svgelement_isattributespecified.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 94B91C4E-B2E5-4E23-B381-5920EA0F8F31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1ComputeTransform
 author: windows-sdk-content
 description: Defines a transform that uses a compute shader.
 old-location: direct2d\id2d1computetransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2D7B82E1-6EB7-492A-B65C-CE5EFBFACC31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

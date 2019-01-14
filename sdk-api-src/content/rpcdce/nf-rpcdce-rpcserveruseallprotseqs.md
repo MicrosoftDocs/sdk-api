@@ -4,7 +4,7 @@ title: RpcServerUseAllProtseqs function
 author: windows-sdk-content
 description: The RpcServerUseAllProtseqs function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqs.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: e7379656-d6b7-4e5f-9251-7b112a40c6d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -150,7 +150,7 @@ For each protocol sequence registered by a server, the RPC run-time library crea
 <a href="https://msdn.microsoft.com/3633842c-d1f5-46d9-866e-e54f31415ea5">ncacn_nb_tcp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/">ncacn_nb_ipx</a>
+<a href="https://msdn.microsoft.com/641471d4-eba4-4d4a-a3fe-1e40b3751e38">ncacn_nb_ipx</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>

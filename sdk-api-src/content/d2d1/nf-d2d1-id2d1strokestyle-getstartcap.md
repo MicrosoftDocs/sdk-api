@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle::GetStartCap
 author: windows-sdk-content
 description: Retrieves the type of shape used at the beginning of a stroke.
 old-location: direct2d\ID2D1StrokeStyle_GetStartCap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8df80ac7-8dad-418f-bff5-14c39ad38fac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

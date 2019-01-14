@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetTextValue
 author: windows-sdk-content
 description: Gets the value of a text content element.
 old-location: direct2d\id2d1svgelement_gettextvalue.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 97B396BE-467A-4B5D-A87B-8B2B8BC6E71D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SourceTransform::SetRenderInfo
 author: windows-sdk-content
 description: Sets the render information for the transform.
 old-location: direct2d\id2d1sourcetransform_setrenderinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7082A748-E1DF-4805-BBB5-9EF50841B36D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

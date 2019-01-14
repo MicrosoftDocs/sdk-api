@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::CloseApplication
 author: windows-sdk-content
 description: Unloads a specified IAzApplication object from the cache.
 old-location: security\azauthorizationstore_closeapplication.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7ba5fc77-676a-4fbe-8de8-2af5bf5f82f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

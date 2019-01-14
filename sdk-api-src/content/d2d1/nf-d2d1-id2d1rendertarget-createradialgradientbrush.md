@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateRadialGradientBrush
 author: windows-sdk-content
 description: Creates an ID2D1RadialGradientBrush object that can be used to paint areas with a radial gradient.
 old-location: direct2d\id2d1rendertarget_createradialgradientbrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 985a4c1b-d29b-46ed-bc55-6dcd313718a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

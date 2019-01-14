@@ -4,7 +4,7 @@ title: IAzBizRuleParameters::Remove
 author: windows-sdk-content
 description: Removes the specified parameter from the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_remove_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1874ac48-0a06-4387-89c2-c194b60bb8f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

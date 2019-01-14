@@ -4,7 +4,7 @@ title: AUTHZ_RPC_INIT_INFO_CLIENT
 author: windows-sdk-content
 description: Initializes a remote resource manager for a client.
 old-location: security\authz_rpc_init_info_client.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

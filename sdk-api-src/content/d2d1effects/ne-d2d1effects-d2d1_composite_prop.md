@@ -4,7 +4,7 @@ title: D2D1_COMPOSITE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Composite effect.
 old-location: direct2d\d2d1_composite_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E3A521E9-20BC-4F82-A673-1BC854D2E297
 ms.author: windowssdkdev
 ms.date: 12/5/2018

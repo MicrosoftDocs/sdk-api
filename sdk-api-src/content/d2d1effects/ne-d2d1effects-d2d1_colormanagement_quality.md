@@ -4,7 +4,7 @@ title: D2D1_COLORMANAGEMENT_QUALITY
 author: windows-sdk-content
 description: The quality level of the transform for the Color management effect.
 old-location: direct2d\d2d1_colormanagement_quality.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 99BB95AE-E5C6-4D56-9EB9-740DD7D0EFEF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

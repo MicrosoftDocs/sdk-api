@@ -4,7 +4,7 @@ title: IAzClientContext3::get_BizRuleInterfaces
 author: windows-sdk-content
 description: Gets the collection of IDispatch interfaces that can be called by the business rule (BizRule) script associated with this client context.
 old-location: security\iazclientcontext3_bizruleinterfaces_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6cb1e53e-2e15-4f5f-9a8e-e9f988370cba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

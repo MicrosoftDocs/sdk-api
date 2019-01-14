@@ -4,7 +4,7 @@ title: D2D1_SVG_DISPLAY
 author: windows-sdk-content
 description: Specifies a value for the SVG display property.
 old-location: direct2d\d2d1_svg_display.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 028B78B3-FCDA-4260-8720-3DC5C2557DE5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

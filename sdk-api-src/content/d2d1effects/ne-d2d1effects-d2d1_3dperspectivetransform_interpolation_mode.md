@@ -4,7 +4,7 @@ title: D2D1_3DPERSPECTIVETRANSFORM_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the 3D perspective transform effect uses on the image. There are 5 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_3dperspectivetransform_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3B78FAD2-C4C1-4093-8314-8C079D01A4B8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

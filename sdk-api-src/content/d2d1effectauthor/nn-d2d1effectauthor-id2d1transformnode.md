@@ -4,7 +4,7 @@ title: ID2D1TransformNode
 author: windows-sdk-content
 description: Describes a node in a transform topology.
 old-location: direct2d\id2d1transformnode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ACF65DA-A812-4983-B044-71103A9AA450
 ms.author: windowssdkdev
 ms.date: 12/5/2018

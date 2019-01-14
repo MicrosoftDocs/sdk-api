@@ -4,7 +4,7 @@ title: IAzApplication::GetProperty
 author: windows-sdk-content
 description: Returns the IAzApplication object property with the specified property ID.
 old-location: security\iazapplication_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cc2c7a59-497f-403f-8ed1-8a2d5b33c07d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

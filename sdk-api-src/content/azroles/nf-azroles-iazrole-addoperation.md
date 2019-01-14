@@ -4,7 +4,7 @@ title: IAzRole::AddOperation
 author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the role.
 old-location: security\iazrole_addoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

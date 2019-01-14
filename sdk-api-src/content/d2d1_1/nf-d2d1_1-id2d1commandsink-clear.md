@@ -4,7 +4,7 @@ title: ID2D1CommandSink::Clear
 author: windows-sdk-content
 description: Clears the drawing area to the specified color.
 old-location: direct2d\id2d1commandsink_clear.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d91bb6b2-ecc8-4c16-95fc-c0cb7bbe80e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

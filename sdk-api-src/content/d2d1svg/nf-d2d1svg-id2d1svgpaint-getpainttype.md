@@ -4,7 +4,7 @@ title: ID2D1SvgPaint::GetPaintType
 author: windows-sdk-content
 description: Gets the paint type.
 old-location: direct2d\id2d1svgpaint_getpainttype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1EAF1119-BCBC-40B2-B1D6-60B72AEC79DF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

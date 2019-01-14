@@ -4,7 +4,7 @@ title: IAzOperation2
 author: windows-sdk-content
 description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.
 old-location: security\iazoperation2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

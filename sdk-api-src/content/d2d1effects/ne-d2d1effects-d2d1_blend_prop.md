@@ -4,7 +4,7 @@ title: D2D1_BLEND_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Blend effect.
 old-location: direct2d\d2d1_blend_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 475CD001-27F6-40DE-887E-EC3EECB40DDA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

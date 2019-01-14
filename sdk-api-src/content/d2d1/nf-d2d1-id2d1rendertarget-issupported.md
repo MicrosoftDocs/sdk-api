@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::IsSupported
 author: windows-sdk-content
 description: Indicates whether the render target supports the specified properties.
 old-location: direct2d\id2d1rendertarget_issupported.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d9fbc313-fe82-4425-9c9a-79bfacc08019
 ms.author: windowssdkdev
 ms.date: 12/5/2018

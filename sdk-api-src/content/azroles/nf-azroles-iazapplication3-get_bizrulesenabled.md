@@ -4,7 +4,7 @@ title: IAzApplication3::get_BizRulesEnabled
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether business rules are enabled for this application.
 old-location: security\iazapplication3_bizrulesenabled.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 92303a5d-a705-4003-890e-e75886451c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

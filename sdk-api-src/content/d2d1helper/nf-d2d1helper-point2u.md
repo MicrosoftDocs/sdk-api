@@ -4,7 +4,7 @@ title: Point2U function
 author: windows-sdk-content
 description: Creates a D2D1_POINT_2U structure that contains the specified x-coordinates and y-coordinates.
 old-location: direct2d\point2u.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 79a19a38-3941-41bd-a1bd-5260ba36541f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

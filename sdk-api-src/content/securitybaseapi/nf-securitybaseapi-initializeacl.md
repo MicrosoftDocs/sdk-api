@@ -4,7 +4,7 @@ title: InitializeAcl function
 author: windows-sdk-content
 description: Initializes a new ACL structure.
 old-location: security\initializeacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b990a7bd-7840-4c10-baf8-68b3862147f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

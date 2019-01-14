@@ -4,7 +4,7 @@ title: IAzApplication::AddDelegatedPolicyUserName
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyusername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f30392f6-7100-43dd-ab20-419cd02d9ea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

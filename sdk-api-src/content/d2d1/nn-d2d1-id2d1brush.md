@@ -4,7 +4,7 @@ title: ID2D1Brush
 author: windows-sdk-content
 description: Defines an object that paints an area. Interfaces that derive from ID2D1Brush describe how the area is painted.
 old-location: direct2d\ID2D1Brush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5b8f6ff8-ba52-4d30-9bea-3de89793c868
 ms.author: windowssdkdev
 ms.date: 12/5/2018

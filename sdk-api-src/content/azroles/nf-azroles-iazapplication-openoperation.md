@@ -4,7 +4,7 @@ title: IAzApplication::OpenOperation
 author: windows-sdk-content
 description: Opens an IAzOperation object with the specified name.
 old-location: security\iazapplication_openoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

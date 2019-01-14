@@ -4,7 +4,7 @@ title: IAzBizRuleInterfaces::AddInterface
 author: windows-sdk-content
 description: Adds the specified interface to the list of IDispatch interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_addinterface.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 063492b9-9970-4605-84f5-d8b80afc719b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

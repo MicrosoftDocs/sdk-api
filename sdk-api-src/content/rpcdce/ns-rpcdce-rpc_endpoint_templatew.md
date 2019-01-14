@@ -4,7 +4,7 @@ title: RPC_ENDPOINT_TEMPLATEW
 author: windows-sdk-content
 description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
 old-location: rpc\rpc_endpoint_template.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

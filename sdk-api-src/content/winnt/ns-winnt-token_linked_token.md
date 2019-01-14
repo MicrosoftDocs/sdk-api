@@ -4,7 +4,7 @@ title: TOKEN_LINKED_TOKEN
 author: windows-sdk-content
 description: Contains a handle to a token. This token is linked to the token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_linked_token.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a77dd410-1074-4196-8323-ccf52ed0375a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -48,8 +48,6 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
 Specifies the properties of a High Efficiency Image Format (HEIF) image.
 
 

@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection1::GetBufferPrecision
 author: windows-sdk-content
 description: Gets the precision of the gradient buffer.
 old-location: direct2d\id2d1gradientstopcollection1_getbufferprecision.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6a59c903-0fa8-4d2c-b426-8d3c3410c6bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

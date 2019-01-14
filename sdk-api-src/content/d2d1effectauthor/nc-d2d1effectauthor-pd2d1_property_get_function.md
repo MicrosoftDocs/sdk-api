@@ -4,7 +4,7 @@ title: PD2D1_PROPERTY_GET_FUNCTION
 author: windows-sdk-content
 description: Gets a property from an effect.
 old-location: direct2d\pd2d1_property_get_function.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A6F6F22A-762A-4D77-8008-8226C75AD205
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcRevertToSelfEx function
 author: windows-sdk-content
 description: The RpcRevertToSelfEx function allows a server to impersonate a client and then revert in a multithreaded operation where the call to impersonate a client can come from a thread other than the thread originally dispatched from the RPC.
 old-location: rpc\rpcreverttoselfex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 8860cee2-7e53-4a07-a379-fd00f3d01def
 ms.author: windowssdkdev
 ms.date: 12/5/2018

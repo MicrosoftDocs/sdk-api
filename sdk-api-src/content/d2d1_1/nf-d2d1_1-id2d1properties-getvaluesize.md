@@ -4,7 +4,7 @@ title: ID2D1Properties::GetValueSize
 author: windows-sdk-content
 description: Gets the size of the property value in bytes, using the property index.
 old-location: direct2d\id2d1properties_getvaluesize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: fd65a610-9552-4efe-9050-715cb672acc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

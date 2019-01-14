@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_NonMembersName
 author: windows-sdk-content
 description: Retrieves the account names of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_nonmembersname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d78556ae-0d22-4df0-b850-dd7077fa3f85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MANDATORY_LEVEL
 author: windows-sdk-content
 description: Lists the possible security levels.
 old-location: security\mandatory_level.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0D6EC16C-F21E-4BED-AF57-93D282D6CF86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

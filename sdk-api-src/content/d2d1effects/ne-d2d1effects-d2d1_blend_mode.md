@@ -4,7 +4,7 @@ title: D2D1_BLEND_MODE
 author: windows-sdk-content
 description: The blend mode used for the Blend effect.
 old-location: direct2d\d2d1_blend_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 006EE339-5E67-434B-BB47-FCBBC2D3FB50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

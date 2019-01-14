@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgStrokeDashArray)
 author: windows-sdk-content
 description: Gets an attribute of this element as a stroke dash array. This method can be used to get the value of the stroke-dasharray property.
 old-location: direct2d\id2d1svgelement_getattributevalue_19.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3D9AAC6F-A6FC-451A-BF94-07F6D20C7605
 ms.author: windowssdkdev
 ms.date: 12/5/2018

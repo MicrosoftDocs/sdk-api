@@ -4,7 +4,7 @@ title: IAzApplication3::ScopeExists
 author: windows-sdk-content
 description: Indicates whether the specified scope exists in this IAzApplication3 object.
 old-location: security\iazapplication3_scopeexists.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 585f8b16-e634-4ac6-a20a-214eea344b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

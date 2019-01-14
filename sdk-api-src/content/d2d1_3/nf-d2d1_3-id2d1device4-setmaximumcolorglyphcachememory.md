@@ -4,7 +4,7 @@ title: ID2D1Device4::SetMaximumColorGlyphCacheMemory
 author: windows-sdk-content
 description: Sets the maximum capacity of the color glyph cache.
 old-location: direct2d\id2d1device4_setmaximumcolorglyphcachememory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 477386A0-0EED-489A-BBFD-8371153D5BA1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

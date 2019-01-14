@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::Clear
 author: windows-sdk-content
 description: Clears the drawing area to the specified color.
 old-location: direct2d\ID2D1RenderTarget_Clear_ptr_COLOR_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c39b83e0-4cde-4e94-94e9-37b5c36f7877
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1CreateDeviceContext function
 author: windows-sdk-content
 description: Creates a new Direct2D device context associated with a DXGI surface.
 old-location: direct2d\d2d1createdevicecontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0e56d057-20a5-47b7-aec9-63c8e31f349b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplicationGroup::DeleteMember
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

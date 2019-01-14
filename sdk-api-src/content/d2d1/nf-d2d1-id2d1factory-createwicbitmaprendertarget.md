@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateWicBitmapRenderTarget
 author: windows-sdk-content
 description: Creates a render target that renders to a Microsoft Windows Imaging Component (WIC) bitmap.
 old-location: direct2d\ID2D1Factory_CreateWicBitmapRenderTarget_ptr_IWICBitmap_ptr_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: fddd7a14-1fb0-4372-8f3e-94b54fef9051
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Matrix3x2F::Translation
 author: windows-sdk-content
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: eb289287-4f33-42cf-a306-120adda70371
 ms.author: windowssdkdev
 ms.date: 12/5/2018

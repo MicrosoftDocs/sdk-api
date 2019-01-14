@@ -4,7 +4,7 @@ title: IAzRole::get_AppMembers
 author: windows-sdk-content
 description: Retrieves the application groups that belong to the role.
 old-location: security\iazrole_appmembers.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c41933d4-d3fe-485c-9249-e82d51c0bfc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

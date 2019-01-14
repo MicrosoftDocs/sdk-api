@@ -4,7 +4,7 @@ title: D2D1_BITMAP_OPTIONS
 author: windows-sdk-content
 description: Specifies how a bitmap can be used.
 old-location: direct2d\__d2d1_bitmap_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c080e23e-99c4-46ed-8b21-be26dec288af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

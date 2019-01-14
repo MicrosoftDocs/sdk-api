@@ -4,7 +4,7 @@ title: UuidHash function
 author: windows-sdk-content
 description: An application calls the UuidHash function to generate a hash value for a specified UUID.
 old-location: rpc\uuidhash.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

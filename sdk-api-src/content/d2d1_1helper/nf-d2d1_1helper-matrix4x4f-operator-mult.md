@@ -4,7 +4,7 @@ title: Matrix4x4F::operator-mult
 author: windows-sdk-content
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix4x4f_operator_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

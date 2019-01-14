@@ -4,7 +4,7 @@ title: D2D1_PROPERTY
 author: windows-sdk-content
 description: Specifies the indices of the system properties present on the ID2D1Properties interface for an ID2D1Effect.
 old-location: direct2d\__d2d1_property.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7261ea3c-bd52-4809-93c8-9e7a0a7424d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

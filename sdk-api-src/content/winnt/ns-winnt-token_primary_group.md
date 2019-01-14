@@ -4,7 +4,7 @@ title: TOKEN_PRIMARY_GROUP
 author: windows-sdk-content
 description: Specifies a group security identifier (SID) for an access token.
 old-location: security\token_primary_group.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d23ebe6c-36a3-434a-a0fa-fcdf50dd19a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::Deserialize
 author: windows-sdk-content
 description: Deserializes a subtree from the stream. The stream must have only one root element, but that root element need not be an 'svg' element. The output element is not inserted into this document tree.
 old-location: direct2d\id2d1svgdocument_deserialize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 576A1D80-3FB5-4495-85CD-2E1DDBCA1C99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

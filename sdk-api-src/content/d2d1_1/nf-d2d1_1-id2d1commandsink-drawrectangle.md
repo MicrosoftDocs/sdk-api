@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawRectangle
 author: windows-sdk-content
 description: Draws a rectangle.
 old-location: direct2d\id2d1commandsink_drawrectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 93c617fb-3c9d-4735-a077-7a3a58033369
 ms.author: windowssdkdev
 ms.date: 12/5/2018

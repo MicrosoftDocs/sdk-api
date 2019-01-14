@@ -4,7 +4,7 @@ title: D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES
 author: windows-sdk-content
 description: Defines a vertex shader and the input element description to define the input layout.
 old-location: direct2d\d2d1_custom_vertex_buffer_properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e3cebb2b-48fb-42b2-8eb4-b9676b581bac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

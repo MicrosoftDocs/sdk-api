@@ -4,7 +4,7 @@ title: ID2D1RadialGradientBrush::SetRadiusX
 author: windows-sdk-content
 description: Specifies the x-radius of the gradient ellipse, in the brush's coordinate space.
 old-location: direct2d\ID2D1RadialGradientBrush_SetRadiusX.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6392b3fd-4eab-48a3-ada4-230e2b274df1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

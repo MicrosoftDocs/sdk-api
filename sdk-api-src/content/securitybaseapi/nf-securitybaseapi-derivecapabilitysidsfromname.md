@@ -4,7 +4,7 @@ title: DeriveCapabilitySidsFromName function
 author: windows-sdk-content
 description: This function constructs two arrays of SIDs out of a capability name. One is an array group SID with NT Authority, and the other is an array of capability SIDs with AppAuthority.
 old-location: security\derivecapabilitysidsfromname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1A911FCC-6D11-4185-B532-20FE6C7C4B0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

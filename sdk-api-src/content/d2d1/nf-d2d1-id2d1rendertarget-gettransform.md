@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetTransform
 author: windows-sdk-content
 description: Gets the current transform of the render target.
 old-location: direct2d\ID2D1RenderTarget_GetTransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9ed0eded-ffbe-44f1-8fb0-b57f0cab7b70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

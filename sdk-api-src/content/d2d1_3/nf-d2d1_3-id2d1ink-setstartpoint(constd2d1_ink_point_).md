@@ -4,7 +4,7 @@ title: ID2D1Ink::SetStartPoint(const D2D1_INK_POINT &)
 author: windows-sdk-content
 description: Sets the starting point for this ink object. This determines where this ink object will start rendering.
 old-location: direct2d\id2d1ink_setstartpoint_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4B8E8AEB-DD8A-4ADF-9ECB-C1BDA4009021
 ms.author: windowssdkdev
 ms.date: 12/5/2018

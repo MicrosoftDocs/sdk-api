@@ -4,7 +4,7 @@ title: ID2D1SvgGlyphStyle::GetFill
 author: windows-sdk-content
 description: Returns the requested fill parameters.
 old-location: direct2d\id2d1svgglyphstyle_getfill.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9F57178E-87F7-43C7-9DCD-643E1A6B3B4D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

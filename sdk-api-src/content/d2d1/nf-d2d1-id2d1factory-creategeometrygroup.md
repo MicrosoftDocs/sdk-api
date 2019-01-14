@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateGeometryGroup
 author: windows-sdk-content
 description: Creates an ID2D1GeometryGroup, which is an object that holds other geometries.
 old-location: direct2d\ID2D1Factory_CreateGeometryGroup.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

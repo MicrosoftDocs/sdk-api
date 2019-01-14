@@ -4,7 +4,7 @@ title: ID2D1BlendTransform::SetDescription
 author: windows-sdk-content
 description: Changes the blend description of the corresponding blend transform object.
 old-location: direct2d\id2d1blendtransform_setdescription.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 37E52B64-D998-4D85-858D-04A7751D7E0A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

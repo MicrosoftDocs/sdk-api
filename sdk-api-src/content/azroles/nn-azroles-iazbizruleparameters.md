@@ -4,7 +4,7 @@ title: IAzBizRuleParameters
 author: windows-sdk-content
 description: Provides methods and properties used to manage a list of parameters that can be passed to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 07eb33be-71a3-42fc-b7f3-12be23746aa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_EDGEDETECTION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Edge Detection effect.
 old-location: direct2d\d2d1_edgedetection_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F3B94BDC-120E-4B44-9AA8-595AAEFD1F61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

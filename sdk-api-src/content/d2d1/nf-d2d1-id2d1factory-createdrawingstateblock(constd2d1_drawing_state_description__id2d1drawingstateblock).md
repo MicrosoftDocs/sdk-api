@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateDrawingStateBlock(const D2D1_DRAWING_STATE_DESCRIPTIO
 author: windows-sdk-content
 description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target.
 old-location: direct2d\ID2D1Factory_CreateDrawingStateBlock_ref_D2D1_DRAWING_STATE_DESCRIPTION_ptr_ptr_ID2D1DrawingStateBlock.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6fd7c199-e2a2-42bb-8227-8d39bae68958
 ms.author: windowssdkdev
 ms.date: 12/5/2018

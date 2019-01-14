@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawTextLayout
 author: windows-sdk-content
 description: Draws the formatted text described by the specified IDWriteTextLayout object.
 old-location: direct2d\ID2D1RenderTarget_DrawTextLayout.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9356071a-35ca-462a-8a77-887e63850586
 ms.author: windowssdkdev
 ms.date: 12/5/2018

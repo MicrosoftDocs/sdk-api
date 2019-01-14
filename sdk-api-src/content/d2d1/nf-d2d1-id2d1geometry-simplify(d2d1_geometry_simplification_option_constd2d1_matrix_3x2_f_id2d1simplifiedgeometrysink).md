@@ -4,7 +4,7 @@ title: ID2D1Geometry::Simplify(D2D1_GEOMETRY_SIMPLIFICATION_OPTION,const D2D1_MA
 author: windows-sdk-content
 description: Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\ID2D1Geometry_Simplify_D2D1_GEOMETRY_SIMPLIFICATION_OPTION_ref_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c59677bf-dbcc-403a-b86f-eb1531365fa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

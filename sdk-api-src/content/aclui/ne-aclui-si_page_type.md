@@ -4,7 +4,7 @@ title: SI_PAGE_TYPE
 author: windows-sdk-content
 description: Contains values that indicate the types of property pages in an access control editor property sheet.
 old-location: security\si_page_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 122b2dcb-5557-4692-a0d6-4a0accf71740
 ms.author: windowssdkdev
 ms.date: 12/5/2018

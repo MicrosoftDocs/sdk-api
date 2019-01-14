@@ -4,7 +4,7 @@ title: D2D1_ALPHA_MODE
 author: windows-sdk-content
 description: Specifies how the alpha value of a bitmap or render target should be treated.
 old-location: direct2d\D2D1_ALPHA_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f1b1e735-2e89-4dc1-9fee-dfb4626ef453
 ms.author: windowssdkdev
 ms.date: 12/5/2018

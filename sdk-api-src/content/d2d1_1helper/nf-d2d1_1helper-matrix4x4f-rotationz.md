@@ -4,7 +4,7 @@ title: Matrix4x4F::RotationZ
 author: windows-sdk-content
 description: Rotates the transform matrix around the Z axis.
 old-location: direct2d\matrix4x4f_rotationz.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4E17EE04-C4B9-49AC-819A-9518937B78F9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

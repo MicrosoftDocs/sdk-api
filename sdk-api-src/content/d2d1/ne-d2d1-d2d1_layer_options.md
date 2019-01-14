@@ -4,7 +4,7 @@ title: D2D1_LAYER_OPTIONS
 author: windows-sdk-content
 description: Specifies options that can be applied when a layer resource is applied to create a layer.
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

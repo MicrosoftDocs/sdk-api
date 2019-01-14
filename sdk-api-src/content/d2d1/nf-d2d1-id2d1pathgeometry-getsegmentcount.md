@@ -4,7 +4,7 @@ title: ID2D1PathGeometry::GetSegmentCount
 author: windows-sdk-content
 description: Retrieves the number of segments in the path geometry.
 old-location: direct2d\ID2D1PathGeometry_GetSegmentCount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 53a80fec-5851-4b62-aa9b-fb7f8b15b0e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

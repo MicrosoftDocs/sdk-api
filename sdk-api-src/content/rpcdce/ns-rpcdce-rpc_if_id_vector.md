@@ -4,7 +4,7 @@ title: RPC_IF_ID_VECTOR
 author: windows-sdk-content
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 old-location: rpc\rpc_if_id_vector.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0bbef807-9eba-496b-be1c-4e48be7cc713
 ms.author: windowssdkdev
 ms.date: 12/5/2018

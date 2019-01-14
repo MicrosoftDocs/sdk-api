@@ -4,7 +4,7 @@ title: ID2D1SvgElement::IsTextContent
 author: windows-sdk-content
 description: Returns a boolean indicating wether this element represents text content.
 old-location: direct2d\id2d1svgelement_istextcontent.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AB2078AC-033F-4111-B67D-014EF439E2B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcMgmtEpEltInqDone function
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqDone function deletes the inquiry context for viewing the elements in an endpoint map.
 old-location: rpc\rpcmgmtepeltinqdone.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596
 ms.author: windowssdkdev
 ms.date: 12/5/2018

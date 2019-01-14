@@ -4,7 +4,7 @@ title: AUTHZ_ACCESS_REQUEST
 author: windows-sdk-content
 description: Defines an access check request.
 old-location: security\authz_access_request.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3748075c-b31a-4669-b8a6-1a540449d8fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

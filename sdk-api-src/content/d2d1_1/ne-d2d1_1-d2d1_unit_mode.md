@@ -4,7 +4,7 @@ title: D2D1_UNIT_MODE
 author: windows-sdk-content
 description: Specifies how units in Direct2D will be interpreted.
 old-location: direct2d\__d2d1_unit_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

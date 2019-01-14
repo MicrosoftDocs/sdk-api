@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::Delete
 author: windows-sdk-content
 description: Deletes the policy store currently in use by the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_delete.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443
 ms.author: windowssdkdev
 ms.date: 12/5/2018

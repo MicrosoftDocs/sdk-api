@@ -4,7 +4,7 @@ title: ID2D1Bitmap
 author: windows-sdk-content
 description: Represents a bitmap that has been bound to an ID2D1RenderTarget.
 old-location: direct2d\ID2D1Bitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e58216ea-e6b5-450f-a0ea-b879aa5dff38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

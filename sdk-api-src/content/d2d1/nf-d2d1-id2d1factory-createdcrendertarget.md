@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateDCRenderTarget
 author: windows-sdk-content
 description: Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
 old-location: direct2d\ID2D1Factory_CreateDCRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: de062068-d2b5-4576-a475-a0e2c9840506
 ms.author: windowssdkdev
 ms.date: 12/5/2018

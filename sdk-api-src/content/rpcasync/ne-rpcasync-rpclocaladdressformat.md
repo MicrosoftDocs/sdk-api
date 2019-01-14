@@ -4,7 +4,7 @@ title: RpcLocalAddressFormat
 author: windows-sdk-content
 description: Specifies the possible local IP address formats supported by RPC.
 old-location: rpc\rpclocaladdressformat.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

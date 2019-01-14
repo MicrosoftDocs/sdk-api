@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_NonMembers
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_nonmembers.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 43bdd205-4750-4ff6-8063-8de2c5962b09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

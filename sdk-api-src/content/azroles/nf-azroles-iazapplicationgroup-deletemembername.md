@@ -4,7 +4,7 @@ title: IAzApplicationGroup::DeleteMemberName
 author: windows-sdk-content
 description: Removes the specified account name from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemembername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ACL_INFORMATION_CLASS
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).
 old-location: security\acl_information_class.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e1abf877-9757-4ee4-b7da-f3e7eb53bddd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

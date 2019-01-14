@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the operation.
 old-location: security\azauthorizationstore_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 79ef0e2f-3178-4310-832c-b0eea06cf1b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

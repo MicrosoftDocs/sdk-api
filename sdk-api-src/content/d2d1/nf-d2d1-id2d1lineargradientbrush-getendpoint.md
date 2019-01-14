@@ -4,7 +4,7 @@ title: ID2D1LinearGradientBrush::GetEndPoint
 author: windows-sdk-content
 description: Retrieves the ending coordinates of the linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush_GetEndPoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c4d2f490-7712-4c37-8054-38f6bc557563
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetSidSubAuthorityCount function
 author: windows-sdk-content
 description: Returns a pointer to the member in a security identifier (SID) structure that contains the subauthority count.
 old-location: security\getsidsubauthoritycount.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ca81fb91-f5a1-4dc6-83ec-eadb62a37805
 ms.author: windowssdkdev
 ms.date: 12/5/2018

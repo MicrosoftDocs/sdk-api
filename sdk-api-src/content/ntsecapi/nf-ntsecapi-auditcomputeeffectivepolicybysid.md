@@ -4,7 +4,7 @@ title: AuditComputeEffectivePolicyBySid function
 author: windows-sdk-content
 description: Computes the effective audit policy for one or more subcategories for the specified security principal. The function computes effective audit policy by combining system audit policy with per-user policy.
 old-location: security\auditcomputeeffectivepolicybysid_func.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cac928e5-8d8f-4b2f-9c1b-c00dc891e3d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

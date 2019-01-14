@@ -4,7 +4,7 @@ title: RPC_EXTENDED_ERROR_INFO
 author: windows-sdk-content
 description: The RPC_EXTENDED_ERROR_INFO structure is used to store extended error information.
 old-location: rpc\rpc_extended_error_info.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 1e906192-c9f1-41c2-bf7f-9967a3d0e1d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

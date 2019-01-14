@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_PRESERVE_ASPECT_RATIO)
 author: windows-sdk-content
 description: Gets an attribute of this element as a preserve aspect ratio value. This method can be used to get the value of a preserveAspectRatio attribute.
 old-location: direct2d\id2d1svgelement_getattributevalue_15.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F65F9346-82C5-433E-938F-35D3FC1F4907
 ms.author: windowssdkdev
 ms.date: 12/5/2018

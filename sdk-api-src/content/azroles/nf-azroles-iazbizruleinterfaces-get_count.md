@@ -4,7 +4,7 @@ title: IAzBizRuleInterfaces::get_Count
 author: windows-sdk-content
 description: Specifies the number of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_count_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

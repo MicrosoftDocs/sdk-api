@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::put_GenerateAudits
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\azauthorizationstore_generateaudits.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e9362ae0-488d-4b6b-9a7b-c70fd85042ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

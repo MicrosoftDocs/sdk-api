@@ -4,7 +4,7 @@ title: IAzNameResolver::NameFromSid
 author: windows-sdk-content
 description: Gets the display name that corresponds to the specified security identifier (SID).
 old-location: security\iaznameresolver_namefromsid_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3518e620-85cf-4bae-8366-d43564535774
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcBindingVectorFree function
 author: windows-sdk-content
 description: The RpcBindingVectorFree function frees the binding handles contained in the vector and the vector itself.
 old-location: rpc\rpcbindingvectorfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

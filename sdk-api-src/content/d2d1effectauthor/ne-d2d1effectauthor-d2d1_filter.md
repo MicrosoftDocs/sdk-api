@@ -4,7 +4,7 @@ title: D2D1_FILTER
 author: windows-sdk-content
 description: Represents filtering modes that a transform may select to use on input textures.
 old-location: direct2d\d2d1_filter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cd978d3c-ae41-4321-95dd-46b186acf002
 ms.author: windowssdkdev
 ms.date: 12/5/2018

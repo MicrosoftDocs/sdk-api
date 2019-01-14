@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_Type
 author: windows-sdk-content
 description: Sets or retrieves the group type of the application group.
 old-location: security\iazapplicationgroup_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: dc100895-4cfb-4e02-97bc-5c99bf26fbe2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

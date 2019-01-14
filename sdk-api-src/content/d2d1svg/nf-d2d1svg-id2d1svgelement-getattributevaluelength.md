@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValueLength
 author: windows-sdk-content
 description: Gets the string length of an attribute of this element.
 old-location: direct2d\id2d1svgelement_getattributevaluelength.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2B466C04-7768-4F15-AC68-55A3074499C1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcMgmtStatsVectorFree function
 author: windows-sdk-content
 description: The RpcMgmtStatsVectorFree function frees a statistics vector.
 old-location: rpc\rpcmgmtstatsvectorfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

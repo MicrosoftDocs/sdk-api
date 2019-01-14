@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP)
 author: windows-sdk-content
 description: Gets an attribute of this element as a line cap value. This method can be used to get the value of the stroke-linecap property.
 old-location: direct2d\id2d1svgelement_getattributevalue_10.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AFA24178-B862-4FA1-99D1-2408E0C1BE52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

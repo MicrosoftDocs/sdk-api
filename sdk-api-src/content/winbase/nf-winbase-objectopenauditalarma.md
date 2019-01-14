@@ -4,7 +4,7 @@ title: ObjectOpenAuditAlarmA function
 author: windows-sdk-content
 description: Generates audit messages when a client application attempts to gain access to an object or to create a new one.
 old-location: security\objectopenauditalarm.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f3cb607b-a8fd-4a1b-9361-7ccd7cd8aac2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1GeometryGroup::GetFillMode
 author: windows-sdk-content
 description: Indicates how the intersecting areas of the geometries contained in this geometry group are combined.
 old-location: direct2d\ID2D1GeometryGroup_GetFillMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e248d28e-861b-49b9-a3f7-789604f8eedf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

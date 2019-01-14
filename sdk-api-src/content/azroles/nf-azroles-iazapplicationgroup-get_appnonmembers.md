@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_AppNonMembers
 author: windows-sdk-content
 description: Retrieves the application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_appnonmembers.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a85a9004-f3f5-44ce-a0d7-fa450af74917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

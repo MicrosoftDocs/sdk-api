@@ -4,7 +4,7 @@ title: IAzRoleAssignments::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzRoleAssignment object at the specified index in the IAzRoleAssignments collection.
 old-location: security\iazroleassignments_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 68685b4e-6451-4243-990d-5302d478210f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

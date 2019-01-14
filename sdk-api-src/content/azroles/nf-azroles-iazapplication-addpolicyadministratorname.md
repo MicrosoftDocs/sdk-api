@@ -4,7 +4,7 @@ title: IAzApplication::AddPolicyAdministratorName
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministratorname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

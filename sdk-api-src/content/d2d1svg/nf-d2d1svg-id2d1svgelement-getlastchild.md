@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetLastChild
 author: windows-sdk-content
 description: Gets the last child of this element.
 old-location: direct2d\id2d1svgelement_getlastchild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DA100037-7177-4547-B161-D52E059A5F35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

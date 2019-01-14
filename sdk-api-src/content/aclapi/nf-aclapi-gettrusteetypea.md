@@ -4,7 +4,7 @@ title: GetTrusteeTypeA function
 author: windows-sdk-content
 description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 old-location: security\gettrusteetype.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

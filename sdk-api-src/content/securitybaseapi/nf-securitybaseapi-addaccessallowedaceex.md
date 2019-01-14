@@ -4,7 +4,7 @@ title: AddAccessAllowedAceEx function
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessallowedaceex.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6ddec01f-237f-4b6a-8ea8-a126017b30c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

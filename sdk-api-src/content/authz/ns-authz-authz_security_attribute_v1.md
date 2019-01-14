@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTE_V1
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with an authorization context.
 old-location: security\authz_security_attribute_v1.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0c4778bb-1b5d-4422-b066-d2a6aaa1f351
 ms.author: windowssdkdev
 ms.date: 12/5/2018

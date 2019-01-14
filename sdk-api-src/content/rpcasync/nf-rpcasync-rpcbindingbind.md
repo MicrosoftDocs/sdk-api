@@ -4,7 +4,7 @@ title: RpcBindingBind function
 author: windows-sdk-content
 description: The RpcBindingBind function contacts an RPC server and binds to it.
 old-location: rpc\rpcbindingbind.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

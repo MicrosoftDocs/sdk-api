@@ -4,7 +4,7 @@ title: D2D_MATRIX_5X4_F
 author: windows-sdk-content
 description: Describes a 5-by-4 floating point matrix.
 old-location: direct2d\d2d_matrix_5x4_f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E7161468-82F4-4DAC-B376-FFB96293F634
 ms.author: windowssdkdev
 ms.date: 12/5/2018

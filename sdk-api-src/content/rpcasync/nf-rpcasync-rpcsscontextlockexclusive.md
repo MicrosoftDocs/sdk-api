@@ -4,7 +4,7 @@ title: RpcSsContextLockExclusive function
 author: windows-sdk-content
 description: The RpcSsContextLockExclusive function enables an application to begin using a context handle in exclusive mode.
 old-location: rpc\rpcsscontextlockexclusive.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -148,7 +148,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
 
 
 

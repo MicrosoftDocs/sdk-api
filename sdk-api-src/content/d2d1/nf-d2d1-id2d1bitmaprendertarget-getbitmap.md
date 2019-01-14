@@ -4,7 +4,7 @@ title: ID2D1BitmapRenderTarget::GetBitmap
 author: windows-sdk-content
 description: Retrieves the bitmap for this render target. The returned bitmap can be used for drawing operations.
 old-location: direct2d\ID2D1BitmapRenderTarget_GetBitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 173a3e2d-82b8-4c33-9a74-1bbf755bbf65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

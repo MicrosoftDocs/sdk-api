@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::FindElementById
 author: windows-sdk-content
 description: Gets the SVG element with the specified ID.
 old-location: direct2d\id2d1svgdocument_findelementbyid.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B4E4EE0E-0A2B-479A-B101-AC9DF8546A4F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

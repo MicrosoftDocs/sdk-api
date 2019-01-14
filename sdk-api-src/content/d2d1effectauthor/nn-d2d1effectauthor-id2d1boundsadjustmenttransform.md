@@ -4,7 +4,7 @@ title: ID2D1BoundsAdjustmentTransform
 author: windows-sdk-content
 description: A support transform for effects to modify the output rectangle of the previous effect or bitmap.
 old-location: direct2d\id2d1boundadjustmenttransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 40482670-2989-47B2-9558-FF017C8A2FBB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

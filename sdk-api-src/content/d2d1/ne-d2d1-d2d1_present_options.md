@@ -4,7 +4,7 @@ title: D2D1_PRESENT_OPTIONS
 author: windows-sdk-content
 description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PRESENT_OPTIONS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 56178ee9-7d35-42e1-97f8-62835010f277
 ms.author: windowssdkdev
 ms.date: 12/5/2018

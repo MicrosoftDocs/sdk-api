@@ -4,7 +4,7 @@ title: D2D1_2DAFFINETRANSFORM_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the 2D affine transform effect.
 old-location: direct2d\d2d1_2daffinetransform_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B1D8916F-124B-40BF-ABC5-78745D98DF97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

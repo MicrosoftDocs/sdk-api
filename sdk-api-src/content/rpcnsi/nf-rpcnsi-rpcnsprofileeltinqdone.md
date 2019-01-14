@@ -4,7 +4,7 @@ title: RpcNsProfileEltInqDone function
 author: windows-sdk-content
 description: The RpcNsProfileEltInqDone function deletes the inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqdone.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 957cdfb6-2b5a-4339-8197-897999df5ea0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

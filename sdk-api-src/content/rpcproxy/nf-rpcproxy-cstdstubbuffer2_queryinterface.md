@@ -4,7 +4,7 @@ title: CStdStubBuffer2_QueryInterface function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer2_queryinterface.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 50859CA3-6DD5-4316-974A-971DA6523B5A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

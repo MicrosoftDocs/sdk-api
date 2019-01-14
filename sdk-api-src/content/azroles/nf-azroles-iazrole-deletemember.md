@@ -4,7 +4,7 @@ title: IAzRole::DeleteMember
 author: windows-sdk-content
 description: Removes the specified security identifier (SID) in text form from the list of Windows accounts that belong to the role.
 old-location: security\iazrole_deletemember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 676f0469-f57f-4f3f-8295-b9c99eb13de8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

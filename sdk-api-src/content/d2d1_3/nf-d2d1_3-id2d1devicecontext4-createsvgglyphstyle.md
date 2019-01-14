@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::CreateSvgGlyphStyle
 author: windows-sdk-content
 description: Creates an SVG glyph style object.
 old-location: direct2d\id2d1devicecontext4_createsvgglyphstyle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 56E357D3-D361-4A56-990F-1CD4051BD4F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

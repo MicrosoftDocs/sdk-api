@@ -4,7 +4,7 @@ title: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Contains the starting point and endpoint of the gradient axis for an ID2D1LinearGradientBrush.
 old-location: direct2d\D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 753278f0-d8a1-4dc5-b976-a00f8aab357e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

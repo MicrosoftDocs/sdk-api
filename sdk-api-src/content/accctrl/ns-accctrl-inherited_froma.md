@@ -4,7 +4,7 @@ title: INHERITED_FROMA
 author: windows-sdk-content
 description: Provides information about an object's inherited access control entry (ACE).
 old-location: security\inherited_from.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
 ms.author: windowssdkdev
 ms.date: 12/5/2018

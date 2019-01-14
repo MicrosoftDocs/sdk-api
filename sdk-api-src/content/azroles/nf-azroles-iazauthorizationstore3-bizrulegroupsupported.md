@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3::BizruleGroupSupported
 author: windows-sdk-content
 description: Returns a Boolean value that specifies whether this IAzAuthorizationStore3 object supports application groups that use business rule (BizRule) scripts.
 old-location: security\iazauthorizationstore3_bizrulegroupsupported_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 88449b12-5086-4f86-94d4-2a4afb4be070
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN)
 author: windows-sdk-content
 description: Gets an attribute of this element as a line join value. This method can be used to get the value of the stroke-linejoin property.
 old-location: direct2d\id2d1svgelement_getattributevalue_9.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F7B2E7B0-CCDE-4B37-93F7-5DBA83AE9191
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcSmSwapClientAllocFree function
 author: windows-sdk-content
 description: The RpcSmSwapClientAllocFree function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 old-location: rpc\rpcsmswapclientallocfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::get_BizrulesWritable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether a non-delegated scope is writable.
 old-location: security\iazscope_bizruleswritable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7cd84e64-ef90-48ca-8da0-88ca6d79e1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

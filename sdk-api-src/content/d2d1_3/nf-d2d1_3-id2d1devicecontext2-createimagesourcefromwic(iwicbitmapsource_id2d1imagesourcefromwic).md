@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1Image
 author: windows-sdk-content
 description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 78e39978-099f-1096-ed7a-5b2dc68bb9c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

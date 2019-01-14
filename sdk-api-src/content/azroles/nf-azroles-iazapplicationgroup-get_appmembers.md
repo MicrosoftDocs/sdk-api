@@ -4,7 +4,7 @@ title: IAzApplicationGroup::get_AppMembers
 author: windows-sdk-content
 description: Retrieves the application groups that belong to this application group.
 old-location: security\iazapplicationgroup_appmembers.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 74239ac2-b6ea-4839-b4c5-7a77d454aa0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

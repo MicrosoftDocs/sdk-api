@@ -4,7 +4,7 @@ title: Matrix3x2F::SetProduct
 author: windows-sdk-content
 description: Multiplies the two matrices and stores the result in this matrix.
 old-location: direct2d\matrix3x2f_setproduct.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 922524f0-e058-47da-8eaa-ee5a8bc1e315
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzRole::Submit
 author: windows-sdk-content
 description: Persists changes made to the IAzRole object.
 old-location: security\iazrole_submit.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 97f2018a-92f0-4ebb-85f1-78c140003d8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

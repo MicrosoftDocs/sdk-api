@@ -4,7 +4,7 @@ title: ID2D1GradientMesh::GetPatches
 author: windows-sdk-content
 description: Returns a subset of the patches that make up this gradient mesh.
 old-location: direct2d\id2d1gradientmesh_getpatches.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d3ef9370-fb9f-d55b-d910-7dd938ecf0b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

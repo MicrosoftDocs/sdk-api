@@ -4,7 +4,7 @@ title: IAzRole::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the role.
 old-location: security\iazrole_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fecd1cb8-55b8-4c7c-ba49-a633f9c8710c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

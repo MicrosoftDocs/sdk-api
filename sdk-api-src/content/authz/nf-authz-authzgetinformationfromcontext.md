@@ -4,7 +4,7 @@ title: AuthzGetInformationFromContext function
 author: windows-sdk-content
 description: Returns information about an Authz context.
 old-location: security\authzgetinformationfromcontext.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

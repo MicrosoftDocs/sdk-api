@@ -4,7 +4,7 @@ title: IAzClientContext2
 author: windows-sdk-content
 description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
 old-location: security\iazclientcontext2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

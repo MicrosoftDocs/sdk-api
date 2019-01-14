@@ -4,7 +4,7 @@ title: RpcMgmtWaitServerListen function
 author: windows-sdk-content
 description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
 old-location: rpc\rpcmgmtwaitserverlisten.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
 ms.author: windowssdkdev
 ms.date: 12/5/2018

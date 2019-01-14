@@ -4,7 +4,7 @@ title: D2D1_SHARPEN_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Sharpen effect.
 old-location: direct2d\d2d1_sharpen_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 73ED06C4-A8FB-4312-8BB8-3B9C885E9FEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

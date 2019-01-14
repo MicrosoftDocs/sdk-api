@@ -4,7 +4,7 @@ title: IAzApplicationGroup::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

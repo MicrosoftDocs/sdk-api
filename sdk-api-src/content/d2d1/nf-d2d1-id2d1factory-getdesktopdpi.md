@@ -4,7 +4,7 @@ title: ID2D1Factory::GetDesktopDpi
 author: windows-sdk-content
 description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.
 old-location: direct2d\ID2D1Factory_GetDesktopDpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: dd46252b-80eb-42c2-a2b4-5c49ef124bd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

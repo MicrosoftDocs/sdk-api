@@ -4,7 +4,7 @@ title: IAzApplication::CreateApplicationGroup
 author: windows-sdk-content
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\iazapplication_createapplicationgroup.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 86f1694e-09a4-4a53-ae63-cfdb5d2e44ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::Close
 author: windows-sdk-content
 description: Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_Close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9dbbe5c6-d21c-4408-9208-53c7c051b22a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

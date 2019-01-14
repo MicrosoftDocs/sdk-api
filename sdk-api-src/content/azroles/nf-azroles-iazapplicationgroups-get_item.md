@@ -4,7 +4,7 @@ title: IAzApplicationGroups::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzApplicationGroup object at the specified index into the IAzApplicationGroups collection.
 old-location: security\iazapplicationgroups_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9b895379-9b2f-45f5-997e-b589f08d7d6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

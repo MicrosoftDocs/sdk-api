@@ -4,7 +4,7 @@ title: AddAccessAllowedObjectAce function
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessallowedobjectace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ccf83e95-ba6f-49f5-a312-52eac90f209a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

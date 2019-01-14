@@ -4,7 +4,7 @@ title: ID2D1GdiMetafileSink::ProcessRecord
 author: windows-sdk-content
 description: This method is called once for each record stored in a metafile.
 old-location: direct2d\id2d1gdimetafilesink_processrecord.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E2133C62-A689-4FE6-8E9D-39E161EEFCE1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

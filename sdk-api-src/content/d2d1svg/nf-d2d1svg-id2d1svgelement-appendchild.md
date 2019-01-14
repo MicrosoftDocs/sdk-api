@@ -4,7 +4,7 @@ title: ID2D1SvgElement::AppendChild
 author: windows-sdk-content
 description: Appends an element to the list of children.
 old-location: direct2d\id2d1svgelement_appendchild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BE9F0820-D66E-4B20-8790-3D5B3652754B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

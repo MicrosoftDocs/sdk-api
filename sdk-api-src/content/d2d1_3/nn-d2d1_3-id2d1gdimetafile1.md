@@ -4,7 +4,7 @@ title: ID2D1GdiMetafile1
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1GdiMetafile interface. It also enables accessing the metafile DPI and bounds.
 old-location: direct2d\id2d1gdimetafile1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7a05abd6-ea75-8496-85c3-efa1e307482d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

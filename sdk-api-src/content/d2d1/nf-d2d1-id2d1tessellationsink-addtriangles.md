@@ -4,7 +4,7 @@ title: ID2D1TessellationSink::AddTriangles
 author: windows-sdk-content
 description: Copies the specified triangles to the sink.
 old-location: direct2d\ID2D1TessellationSink_AddTriangles.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 45084e57-d022-4bdb-9001-83e4e88c9c55
 ms.author: windowssdkdev
 ms.date: 12/5/2018

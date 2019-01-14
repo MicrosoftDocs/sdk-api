@@ -4,7 +4,7 @@ title: ID2D1Geometry
 author: windows-sdk-content
 description: Represents a geometry resource and defines a set of helper methods for manipulating and measuring geometric shapes. Interfaces that inherit from ID2D1Geometry define specific shapes.
 old-location: direct2d\ID2D1Geometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

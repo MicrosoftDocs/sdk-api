@@ -4,7 +4,7 @@ title: D2D1_SUBPROPERTY
 author: windows-sdk-content
 description: Specifies the indices of the system sub-properties that may be present in any property.
 old-location: direct2d\__d2d1_subproperty.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 311a1b6f-ef0e-4453-a5fe-d06ebb0bb222
 ms.author: windowssdkdev
 ms.date: 12/5/2018

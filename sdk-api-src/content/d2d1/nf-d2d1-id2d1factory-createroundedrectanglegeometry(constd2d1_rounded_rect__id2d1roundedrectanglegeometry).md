@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID
 author: windows-sdk-content
 description: Creates an ID2D1RoundedRectangleGeometry.
 old-location: direct2d\ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a779a6ad-2d86-416f-8f3f-1ccc90c13572
 ms.author: windowssdkdev
 ms.date: 12/5/2018

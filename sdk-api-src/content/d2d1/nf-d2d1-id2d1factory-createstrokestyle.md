@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateStrokeStyle
 author: windows-sdk-content
 description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke.
 old-location: direct2d\ID2D1Factory_CreateStrokeStyle_ptr_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 17e8cd4c-6ba4-49d4-a883-2937ff2121d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

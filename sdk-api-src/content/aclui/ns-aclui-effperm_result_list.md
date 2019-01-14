@@ -4,7 +4,7 @@ title: EFFPERM_RESULT_LIST
 author: windows-sdk-content
 description: Lists the effective permissions.
 old-location: security\effperm_result_list.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763
 ms.author: windowssdkdev
 ms.date: 12/5/2018

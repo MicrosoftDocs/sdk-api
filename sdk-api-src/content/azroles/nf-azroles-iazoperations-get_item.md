@@ -4,7 +4,7 @@ title: IAzOperations::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzOperation object at the specified index into the IAzOperations collection.
 old-location: security\iazoperations_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1b763828-8e83-4f9c-82ad-9e7bfe205de3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

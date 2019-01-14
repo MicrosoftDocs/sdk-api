@@ -4,7 +4,7 @@ title: Point2L function
 author: windows-sdk-content
 description: Returns a point struct of long integers.
 old-location: direct2d\point2l.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

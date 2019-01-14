@@ -4,7 +4,7 @@ title: D2D1ComputeMaximumScaleFactor function
 author: windows-sdk-content
 description: Computes the maximum factor by which a given transform can stretch any vector.
 old-location: direct2d\d2d1computemaximumscalefactor.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5BC10305-436F-4528-9647-E70713130505
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RPC_IF_CALLBACK_FN
 author: windows-sdk-content
 description: The RPC_IF_CALLBACK_FN is a prototype for a security-callback function that your application supplies. Your program can provide a callback function for each interface it defines.
 old-location: rpc\rpc_if_callback_fn.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 6c2239db-4a01-4ba1-b8ea-1c4b3467e326
 ms.author: windowssdkdev
 ms.date: 12/5/2018

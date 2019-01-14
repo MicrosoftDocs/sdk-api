@@ -4,7 +4,7 @@ title: TOKEN_DEVICE_CLAIMS
 author: windows-sdk-content
 description: Defines the device claims for the token.
 old-location: security\token_device_claims.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: FF20B64C-BD5F-45F5-83F1-B52634BE1065
 ms.author: windowssdkdev
 ms.date: 12/5/2018

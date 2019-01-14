@@ -4,7 +4,7 @@ title: IAzTask::DeleteTask
 author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the task.
 old-location: security\iaztask_deletetask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1e1288ff-d67b-4180-bfd0-63b81df8f99b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

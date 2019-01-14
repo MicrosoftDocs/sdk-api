@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::SetTags
 author: windows-sdk-content
 description: Specifies a label for subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTags.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d71c3500-e11f-4b2d-9b78-b57df7dbc2bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

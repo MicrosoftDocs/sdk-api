@@ -4,7 +4,7 @@ title: SID_INFO_LIST
 author: windows-sdk-content
 description: Contains a list of SID_INFO structures.
 old-location: security\sid_info_list.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

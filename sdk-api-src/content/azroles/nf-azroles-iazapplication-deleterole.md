@@ -4,7 +4,7 @@ title: IAzApplication::DeleteRole
 author: windows-sdk-content
 description: Removes the IAzRole object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleterole.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c97c271a-f08c-481e-9787-61518d8cbb73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcAsyncGetCallHandle macro
 author: windows-sdk-content
 description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.
 old-location: rpc\rpcasyncgetcallhandle.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

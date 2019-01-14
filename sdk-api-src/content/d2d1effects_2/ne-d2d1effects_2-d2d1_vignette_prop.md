@@ -4,7 +4,7 @@ title: D2D1_VIGNETTE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Vignette effect.
 old-location: direct2d\d2d1_vignette_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B45EFED7-97CA-41AF-9C36-4ECDCC153183
 ms.author: windowssdkdev
 ms.date: 12/5/2018

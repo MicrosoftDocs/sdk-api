@@ -4,7 +4,7 @@ title: IAzBizRuleContext::get_BusinessRuleString
 author: windows-sdk-content
 description: Sets or retrieves an application-specific string for the Business Rule (BizRule).
 old-location: security\azbizrulecontext_businessrulestring.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0370b251-625a-410c-ab36-76f4432405cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

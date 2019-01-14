@@ -4,7 +4,7 @@ title: D2D1_POINTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Point-diffuse lighting effect.
 old-location: direct2d\d2d1_pointdiffuse_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D5FD5E6E-A50C-4434-9F68-F0B41E79267A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateSecurityPage function
 author: windows-sdk-content
 description: Creates a basic security property page that enables the user to view and edit the access rights allowed or denied by the access control entries (ACEs) in an object's discretionary access control list (DACL).
 old-location: security\createsecuritypage.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

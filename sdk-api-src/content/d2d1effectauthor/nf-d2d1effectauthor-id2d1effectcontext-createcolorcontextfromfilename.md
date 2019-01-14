@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateColorContextFromFilename
 author: windows-sdk-content
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by filename.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromfilename.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 84B12901-48B1-4FA9-8C81-1CEA70CF2824
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_DPICOMPENSATION_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode the DPI compensation effect uses to scale the image.
 old-location: direct2d\d2d1_dpicompensation_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D47BE47D-09E3-46A5-8D89-884102EDEA9A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Ink::GetSegments
 author: windows-sdk-content
 description: Retrieves the specified subset of segments stored in this ink object.
 old-location: direct2d\id2d1ink_getsegments.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3B6E2823-6F66-4C2F-B8EA-94B03F19DFCD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_GAUSSIANBLUR_OPTIMIZATION
 author: windows-sdk-content
 description: The optimization mode for the Gaussian blur effect.
 old-location: direct2d\d2d1_gaussianblur_optimization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D6A8BB3A-8286-4410-8EA3-A9AEA1797C5E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

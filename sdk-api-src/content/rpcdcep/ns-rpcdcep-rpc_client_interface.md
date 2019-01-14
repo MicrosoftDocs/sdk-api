@@ -4,7 +4,7 @@ title: RPC_CLIENT_INTERFACE
 author: windows-sdk-content
 description: The RPC_CLIENT_INTERFACE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
 old-location: rpc\rpc_client_interface.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: be995f3b-1d4f-4622-9a00-ddaaeab3788d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

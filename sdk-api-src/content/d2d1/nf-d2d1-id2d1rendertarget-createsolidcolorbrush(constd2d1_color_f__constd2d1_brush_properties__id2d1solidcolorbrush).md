@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,const D2D1_
 author: windows-sdk-content
 description: Creates a new ID2D1SolidColorBrush that has the specified color and opacity.
 old-location: direct2d\ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ref_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1SolidColorBrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c6597602-92b2-491c-b9f3-5a44a6980b80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::InvalidateEffectInputRectangle
 author: windows-sdk-content
 description: This indicates that a portion of an effect's input is invalid. This method can be called many times.
 old-location: direct2d\id2d1devicecontext_invalidateeffectinputrectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3EB22E7B-69B4-4936-B8ED-093EA1EA1759
 ms.author: windowssdkdev
 ms.date: 12/5/2018

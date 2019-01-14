@@ -4,7 +4,7 @@ title: ID2D1DeviceContext5::CreateSvgDocument
 author: windows-sdk-content
 description: Creates an SVG document from a stream.
 old-location: direct2d\id2d1devicecontext5_createsvgdocument.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B7965388-EFF0-40B4-AE00-3AB28DEA800B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::DeletePolicyAdministrator
 author: windows-sdk-content
 description: The DeletePolicyAdministrator method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy administrators.
 old-location: security\iazscope_deletepolicyadministrator.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 23077da5-5475-45c6-87c0-b38f6c05d386
 ms.author: windowssdkdev
 ms.date: 12/5/2018

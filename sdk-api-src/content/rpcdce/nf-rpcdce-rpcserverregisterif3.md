@@ -4,7 +4,7 @@ title: RpcServerRegisterIf3 function
 author: windows-sdk-content
 description: The RpcServerRegisterIf3 function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif3.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

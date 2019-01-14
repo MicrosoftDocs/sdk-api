@@ -4,7 +4,7 @@ title: ID2D1GeometrySink::AddLine
 author: windows-sdk-content
 description: Creates a line segment between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\ID2D1GeometrySink_AddLine.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9ab11c38-784b-4834-bced-cd560a5273f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

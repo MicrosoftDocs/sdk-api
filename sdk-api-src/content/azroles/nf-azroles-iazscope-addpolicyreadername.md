@@ -4,7 +4,7 @@ title: IAzScope::AddPolicyReaderName
 author: windows-sdk-content
 description: The AddPolicyReaderName method of IAzScope adds the specified account name to the list of principals that act as policy readers.
 old-location: security\iazscope_addpolicyreadername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6beb02cb-7977-4f3f-b806-420c81f6f0b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

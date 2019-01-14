@@ -4,7 +4,7 @@ title: GetNamedSecurityInfoA function
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for an object specified by name.
 old-location: security\getnamedsecurityinfo.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

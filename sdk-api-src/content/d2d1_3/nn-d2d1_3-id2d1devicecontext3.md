@@ -4,7 +4,7 @@ title: ID2D1DeviceContext3
 author: windows-sdk-content
 description: This interface performs all the same functions as the ID2D1DeviceContext2 interface, plus it enables functionality for creating and drawing sprite batches.
 old-location: direct2d\id2d1devicecontext3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AD763619-7880-41EB-8446-2E4B84CB4EAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

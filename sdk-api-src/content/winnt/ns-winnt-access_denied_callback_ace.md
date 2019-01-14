@@ -4,7 +4,7 @@ title: ACCESS_DENIED_CALLBACK_ACE
 author: windows-sdk-content
 description: The ACCESS_DENIED_CALLBACK_ACE structure defines an access control entry for the discretionary access control list that controls access to an object.
 old-location: security\access_denied_callback_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6df77b27-7aa3-455f-bffe-eeb90ba1bc15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

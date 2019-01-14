@@ -4,7 +4,7 @@ title: D2D1_HUETORGB_INPUT_COLOR_SPACE
 author: windows-sdk-content
 description: Values for the D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property of the Hue to RGB effect.
 old-location: direct2d\d2d1_huetorgb_input_color_space.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2A8166D8-73F5-4D29-BCD2-7F4FE70AA9A1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

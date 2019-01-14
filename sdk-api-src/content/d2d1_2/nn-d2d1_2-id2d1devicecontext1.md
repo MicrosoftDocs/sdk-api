@@ -4,7 +4,7 @@ title: ID2D1DeviceContext1
 author: windows-sdk-content
 description: Enables creation and drawing of geometry realization objects.
 old-location: direct2d\id2d1devicecontext1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E08FDAE4-05D3-472C-9AD9-228BAF989F1D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

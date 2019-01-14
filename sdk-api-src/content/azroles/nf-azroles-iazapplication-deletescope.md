@@ -4,7 +4,7 @@ title: IAzApplication::DeleteScope
 author: windows-sdk-content
 description: Removes the IAzScope object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deletescope.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426
 ms.author: windowssdkdev
 ms.date: 12/5/2018

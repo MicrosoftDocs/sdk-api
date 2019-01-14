@@ -4,7 +4,7 @@ title: AddAccessAllowedAce function
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to a specified security identifier (SID).
 old-location: security\addaccessallowedace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1004353a-f907-4452-9c0f-85eba0ece813
 ms.author: windowssdkdev
 ms.date: 12/5/2018

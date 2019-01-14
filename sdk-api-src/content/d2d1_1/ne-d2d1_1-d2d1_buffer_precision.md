@@ -4,7 +4,7 @@ title: D2D1_BUFFER_PRECISION
 author: windows-sdk-content
 description: Represents the bit depth of the imaging pipeline in Direct2D.
 old-location: direct2d\__d2d1_buffer_precision.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a2a4b4fd-685d-4068-b1f5-609e6ab024e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

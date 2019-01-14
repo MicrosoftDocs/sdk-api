@@ -4,7 +4,7 @@ title: IAzScope::DeletePolicyReaderName
 author: windows-sdk-content
 description: The DeletePolicyReaderName method of IAzScope removes the specified account name from the list of principals that act as policy readers.
 old-location: security\iazscope_deletepolicyreadername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e65af2a2-c7f7-483c-af05-342075218158
 ms.author: windowssdkdev
 ms.date: 12/5/2018

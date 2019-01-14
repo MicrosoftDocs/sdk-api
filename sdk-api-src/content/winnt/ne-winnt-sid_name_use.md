@@ -4,7 +4,7 @@ title: SID_NAME_USE
 author: windows-sdk-content
 description: Contains values that specify the type of a security identifier (SID).
 old-location: security\sid_name_use.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4e6af6bd-056b-4f5a-b223-57a673c3fcfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

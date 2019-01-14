@@ -4,7 +4,7 @@ title: ID2D1Bitmap1::GetColorContext
 author: windows-sdk-content
 description: Gets the color context information associated with the bitmap.
 old-location: direct2d\id2d1bitmap1_getcolorcontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7ab8bed5-c124-4e14-8a05-3a71f07f5fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

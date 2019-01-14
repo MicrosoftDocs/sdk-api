@@ -4,7 +4,7 @@ title: SECURITY_QUALITY_OF_SERVICE
 author: windows-sdk-content
 description: Contains information used to support client impersonation.
 old-location: security\security_quality_of_service.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

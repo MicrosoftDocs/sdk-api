@@ -4,7 +4,7 @@ title: ID2D1ComputeTransform::CalculateThreadgroups
 author: windows-sdk-content
 description: This method allows a compute-shader–based transform to select the number of thread groups to execute based on the number of output pixels it needs to fill.
 old-location: direct2d\id2d1computetransform_calculatethreadgroups.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6B662297-3EBE-459F-8284-7A59F67DB025
 ms.author: windowssdkdev
 ms.date: 12/5/2018

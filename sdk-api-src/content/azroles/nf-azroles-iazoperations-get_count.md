@@ -4,7 +4,7 @@ title: IAzOperations::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzOperation objects in the collection.
 old-location: security\iazoperations_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 665fdf1f-4606-4cfc-b33b-6bae4ce3b6c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

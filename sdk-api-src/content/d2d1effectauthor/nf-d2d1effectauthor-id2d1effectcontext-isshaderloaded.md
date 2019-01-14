@@ -4,7 +4,7 @@ title: ID2D1EffectContext::IsShaderLoaded
 author: windows-sdk-content
 description: This tests to see if the given shader is loaded.
 old-location: direct2d\id2d1contextinternal_isresourceloaded.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9B923E7A-FF71-4575-880F-FA6AB6C9F366
 ms.author: windowssdkdev
 ms.date: 12/5/2018

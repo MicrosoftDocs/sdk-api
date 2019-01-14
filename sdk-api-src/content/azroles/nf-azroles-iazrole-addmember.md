@@ -4,7 +4,7 @@ title: IAzRole::AddMember
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of Windows accounts that belong to the role.
 old-location: security\iazrole_addmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b2be62cb-7256-4031-8af9-24f3043a8430
 ms.author: windowssdkdev
 ms.date: 12/5/2018

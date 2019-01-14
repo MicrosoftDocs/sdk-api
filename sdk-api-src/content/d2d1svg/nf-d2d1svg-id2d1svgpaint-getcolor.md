@@ -4,7 +4,7 @@ title: ID2D1SvgPaint::GetColor
 author: windows-sdk-content
 description: Gets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 old-location: direct2d\id2d1svgpaint_getcolor.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 17B4A208-9658-4BD3-AFC3-33D25CD58B6F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

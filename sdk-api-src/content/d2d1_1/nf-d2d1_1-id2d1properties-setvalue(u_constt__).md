@@ -4,7 +4,7 @@ title: ID2D1Properties::SetValue(U,const T &,)
 author: windows-sdk-content
 description: Sets the corresponding property by index. This is a template overload.
 old-location: direct2d\id2d1properties_setvalue2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9E5DBADF-33E9-45BB-889D-80F770670C5C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

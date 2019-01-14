@@ -4,7 +4,7 @@ title: QuadraticBezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_QUADRATIC_BEZIER_SEGMENT structure.
 old-location: direct2d\quadraticbeziersegment.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9b72e367-85dd-4a1f-a67e-34fc4b078ebe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

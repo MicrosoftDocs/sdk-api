@@ -4,7 +4,7 @@ title: IAzApplication::put_GenerateAudits
 author: windows-sdk-content
 description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\iazapplication_generateaudits.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

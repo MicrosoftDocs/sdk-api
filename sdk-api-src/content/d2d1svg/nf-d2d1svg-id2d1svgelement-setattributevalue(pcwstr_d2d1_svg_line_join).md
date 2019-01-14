@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_LINE_JOIN)
 author: windows-sdk-content
 description: Sets an attribute of this element as a line join value. This method can be used to set the value of the stroke-linejoin property.
 old-location: direct2d\id2d1svgelement_setattributevalue_9.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B559FC14-8B16-4272-A83F-6F8C0CC2D438
 ms.author: windowssdkdev
 ms.date: 12/5/2018

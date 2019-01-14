@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::OpenApplication
 author: windows-sdk-content
 description: Opens the IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_openapplication.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
 ms.author: windowssdkdev
 ms.date: 12/5/2018

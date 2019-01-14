@@ -4,7 +4,7 @@ title: ID2D1DrawInfo
 author: windows-sdk-content
 description: This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to ID2D1DrawTransform.
 old-location: direct2d\id2d1drawinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9C7B8CE0-0D2D-4383-9BE1-25F86BCEF253
 ms.author: windowssdkdev
 ms.date: 12/5/2018

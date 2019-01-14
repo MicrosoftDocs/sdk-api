@@ -4,7 +4,7 @@ title: D2D1_VERTEX_USAGE
 author: windows-sdk-content
 description: Indicates whether the vertex buffer changes infrequently or frequently.
 old-location: direct2d\d2d1_vertex_usage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ff122e0d-5f0e-4a61-bead-53bea6f1648f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgStrokeDashArray::RemoveDashesAtEnd
 author: windows-sdk-content
 description: Removes dashes from the end of the array.
 old-location: direct2d\id2d1svgstrokedasharray_removedashesatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BF695850-55E2-420E-84B2-075174C0EB8B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

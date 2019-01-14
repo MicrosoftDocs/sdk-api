@@ -4,7 +4,7 @@ title: NdrStubInitialize function
 author: windows-sdk-content
 description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.
 old-location: rpc\ndrstubinitialize.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

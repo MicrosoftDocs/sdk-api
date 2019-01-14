@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection1::GetPostInterpolationSpace
 author: windows-sdk-content
 description: Gets the color space after interpolation has occurred.
 old-location: direct2d\id2d1gradientstopcollection1_getpostinterpolationspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: fb579d25-f38c-4f26-a29b-c6875cbabb3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

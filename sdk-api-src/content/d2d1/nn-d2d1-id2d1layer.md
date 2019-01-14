@@ -4,7 +4,7 @@ title: ID2D1Layer
 author: windows-sdk-content
 description: Represents the backing store required to render a layer.
 old-location: direct2d\ID2D1Layer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ce7b2345-f0e5-4e44-9146-b1f140bb00ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

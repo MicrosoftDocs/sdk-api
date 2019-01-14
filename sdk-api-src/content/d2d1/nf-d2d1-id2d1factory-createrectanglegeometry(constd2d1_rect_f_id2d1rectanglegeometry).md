@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F,ID2D1RectangleGeo
 author: windows-sdk-content
 description: Creates an ID2D1RectangleGeometry.
 old-location: direct2d\ID2D1Factory_CreateRectangleGeometry_ptr_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3d9a1e40-1432-4800-8d15-e2b8bda8f04f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

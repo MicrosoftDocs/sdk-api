@@ -4,7 +4,7 @@ title: ID2D1Mesh
 author: windows-sdk-content
 description: Represents a set of vertices that form a list of triangles.
 old-location: direct2d\ID2D1Mesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2a58fb5f-2281-4f73-a689-cc1350d13c8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

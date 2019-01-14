@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,REFIID,void)
 author: windows-sdk-content
 description: Gets an attribute of this element as an interface type.
 old-location: direct2d\id2d1svgelement_getattributevalue_3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5EDFBEB6-E28E-44BD-AE4C-1FCCD9D11EAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

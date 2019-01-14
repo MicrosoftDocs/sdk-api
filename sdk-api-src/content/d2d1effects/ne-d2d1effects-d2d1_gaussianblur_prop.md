@@ -4,7 +4,7 @@ title: D2D1_GAUSSIANBLUR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Gaussian blur effect.
 old-location: direct2d\d2d1_gaussianblur_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0413E97C-1114-4EC4-955E-229BD39E15EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

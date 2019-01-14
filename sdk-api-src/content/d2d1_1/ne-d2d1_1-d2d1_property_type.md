@@ -4,7 +4,7 @@ title: D2D1_PROPERTY_TYPE
 author: windows-sdk-content
 description: Specifies the types of properties supported by the Direct2D property interface.
 old-location: direct2d\__d2d1_property_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6535d71a-c76c-462c-9972-4db7e4ef383d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

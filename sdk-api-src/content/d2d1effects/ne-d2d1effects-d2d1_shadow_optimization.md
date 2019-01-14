@@ -4,7 +4,7 @@ title: D2D1_SHADOW_OPTIMIZATION
 author: windows-sdk-content
 description: The level of performance optimization for the Shadow effect.
 old-location: direct2d\d2d1_shadow_optimization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1C509608-BEBA-4E4C-8EC5-88B587D81B34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

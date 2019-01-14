@@ -4,7 +4,7 @@ title: RpcErrorLoadErrorInfo function
 author: windows-sdk-content
 description: The RpcErrorLoadErrorInfo function converts a BLOB obtained by a call to RpcErrorSaveErrorInfo into extended error information.
 old-location: rpc\rpcerrorloaderrorinfo.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: cbd171ee-cef3-4880-a26d-81267cb813e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

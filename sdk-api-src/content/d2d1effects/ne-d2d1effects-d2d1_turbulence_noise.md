@@ -4,7 +4,7 @@ title: D2D1_TURBULENCE_NOISE
 author: windows-sdk-content
 description: The turbulence noise mode for the Turbulence effect. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function.
 old-location: direct2d\d2d1_turbulence_noise.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

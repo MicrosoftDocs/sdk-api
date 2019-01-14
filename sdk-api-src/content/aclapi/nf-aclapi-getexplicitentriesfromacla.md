@@ -4,7 +4,7 @@ title: GetExplicitEntriesFromAclA function
 author: windows-sdk-content
 description: Retrieves an array of structures that describe the access control entries (ACEs) in an access control list (ACL).
 old-location: security\getexplicitentriesfromacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 186aa6aa-efc3-4f8a-acad-e257da3dac0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

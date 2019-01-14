@@ -4,7 +4,7 @@ title: IAzScopes::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzScope objects in the collection.
 old-location: security\iazscopes_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: aff809a6-c768-4cfe-a41f-ee227f77a3b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

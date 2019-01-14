@@ -4,7 +4,7 @@ title: ID2D1LinearGradientBrush::SetEndPoint
 author: windows-sdk-content
 description: Sets the ending coordinates of the linear gradient in the brush's coordinate space.
 old-location: direct2d\ID2D1LinearGradientBrush_SetEndPoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b4d64f42-6038-442e-8666-0555a3e4ed75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

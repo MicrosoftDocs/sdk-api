@@ -4,7 +4,7 @@ title: TOKEN_TYPE
 author: windows-sdk-content
 description: Contains values that differentiate between a primary token and an impersonation token.
 old-location: security\token_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 51b6717e-3fda-4af4-8995-4ac571eae2fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

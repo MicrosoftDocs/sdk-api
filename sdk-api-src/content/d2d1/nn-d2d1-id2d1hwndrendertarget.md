@@ -4,7 +4,7 @@ title: ID2D1HwndRenderTarget
 author: windows-sdk-content
 description: Renders drawing instructions to a window.
 old-location: direct2d\ID2D1HwndRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

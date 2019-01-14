@@ -4,7 +4,7 @@ title: ID2D1VertexBuffer::Unmap
 author: windows-sdk-content
 description: Unmaps the vertex buffer.
 old-location: direct2d\id2d1vertexbuffer_unmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DD33E4D4-C020-4830-AD31-380E8E9217D0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

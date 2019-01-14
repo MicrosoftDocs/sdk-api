@@ -4,7 +4,7 @@ title: TOKEN_USER_CLAIMS
 author: windows-sdk-content
 description: Defines the user claims for the token.
 old-location: security\token_user_claims.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355
 ms.author: windowssdkdev
 ms.date: 12/5/2018

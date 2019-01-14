@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawGlyphRun
 author: windows-sdk-content
 description: Draws the specified glyphs.
 old-location: direct2d\ID2D1RenderTarget_DrawGlyphRun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 064ede6c-139c-4160-9c50-460179d46f97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

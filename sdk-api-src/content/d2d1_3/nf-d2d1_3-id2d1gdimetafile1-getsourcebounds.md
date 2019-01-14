@@ -4,7 +4,7 @@ title: ID2D1GdiMetafile1::GetSourceBounds
 author: windows-sdk-content
 description: Gets the bounds of the metafile in source space in DIPs. This corresponds to the frame rect in an EMF/EMF+.
 old-location: direct2d\id2d1gdimetafile1_getsourcebounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7e7502ee-678e-ce26-cc0b-266faa1c320b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

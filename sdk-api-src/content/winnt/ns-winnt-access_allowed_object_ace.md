@@ -4,7 +4,7 @@ title: ACCESS_ALLOWED_OBJECT_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls allowed access to an object, a property set, or property.
 old-location: security\access_allowed_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ee91ca50-e81b-4872-95eb-349c2d5be004
 ms.author: windowssdkdev
 ms.date: 12/5/2018

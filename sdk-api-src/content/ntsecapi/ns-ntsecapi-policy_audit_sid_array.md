@@ -4,7 +4,7 @@ title: POLICY_AUDIT_SID_ARRAY
 author: windows-sdk-content
 description: Specifies an array of SID structures that represent Windows users or groups.
 old-location: security\policy_audit_sid_array.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

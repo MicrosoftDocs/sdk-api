@@ -4,7 +4,7 @@ title: ID2D1Factory3::CreateDevice
 author: windows-sdk-content
 description: Creates an ID2D1Device2 object.
 old-location: direct2d\id2d1factory3_createdevice.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 17AE8381-2CAA-4607-B63D-17F76DF0D814
 ms.author: windowssdkdev
 ms.date: 12/5/2018

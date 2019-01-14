@@ -4,7 +4,7 @@ title: ID2D1BlendTransform
 author: windows-sdk-content
 description: Provides methods to allow a blend operation to be inserted into a transform graph.
 old-location: direct2d\id2d1blendtransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0DC46758-6005-4A33-9539-9C95CF8CFB6A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::CreateTask
 author: windows-sdk-content
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazscope_createtask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2be1afd7-8d10-4783-a5ea-3e8c0b103ceb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

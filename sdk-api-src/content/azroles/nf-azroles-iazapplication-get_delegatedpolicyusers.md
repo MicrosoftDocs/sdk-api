@@ -4,7 +4,7 @@ title: IAzApplication::get_DelegatedPolicyUsers
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusers.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b20e1d5c-b07e-4f75-8b63-38036b07b24d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

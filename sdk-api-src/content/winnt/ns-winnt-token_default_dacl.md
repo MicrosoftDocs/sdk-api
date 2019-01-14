@@ -4,7 +4,7 @@ title: TOKEN_DEFAULT_DACL
 author: windows-sdk-content
 description: Specifies a discretionary access control list (DACL).
 old-location: security\token_default_dacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 29fb738f-1ecd-4b72-9aea-64698cd74c12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

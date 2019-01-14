@@ -4,7 +4,7 @@ title: CreationProperties function
 author: windows-sdk-content
 description: Returns a D2D1_CREATION_PROPERTIES that describes root-level creation details.
 old-location: direct2d\creationproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 81D88AFE-77B9-4871-9832-7323CAAB39CF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

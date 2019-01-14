@@ -4,7 +4,7 @@ title: D2D1_SVG_PATH_COMMAND
 author: windows-sdk-content
 description: Represents a path commmand. Each command may reference floats from the segment data. Commands ending in _ABSOLUTE interpret data as absolute coordinate. Commands ending in _RELATIVE interpret data as being relative to the previous point.
 old-location: direct2d\d2d1_svg_path_command.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E0A5F435-F4FB-4CD3-84B3-962CB7B96446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgStrokeDashArray::GetDashes
 author: windows-sdk-content
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E5C7A573-3373-4323-8712-93D89B6A53C5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

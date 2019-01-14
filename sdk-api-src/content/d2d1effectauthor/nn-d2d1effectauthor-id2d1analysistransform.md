@@ -4,7 +4,7 @@ title: ID2D1AnalysisTransform
 author: windows-sdk-content
 description: Supplies data to an analysis effect.
 old-location: direct2d\id2d1analysistransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 64CDA0A7-2790-436C-9EFC-3A74D09602B9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

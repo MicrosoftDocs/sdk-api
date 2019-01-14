@@ -4,7 +4,7 @@ title: AuthzEnumerateSecurityEventSources function
 author: windows-sdk-content
 description: Retrieves the registered security event sources that are not installed by default.
 old-location: security\authzenumeratesecurityeventsources.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2a20ccc9-f2ac-41e4-9d86-745004775e67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

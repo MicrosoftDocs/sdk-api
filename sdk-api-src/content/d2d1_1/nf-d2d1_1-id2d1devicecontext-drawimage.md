@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::DrawImage
 author: windows-sdk-content
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c41d8a79-280a-451e-b07b-f904d07da5c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

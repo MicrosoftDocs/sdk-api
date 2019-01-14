@@ -4,7 +4,7 @@ title: SetEntriesInAclW function
 author: windows-sdk-content
 description: Creates a new access control list (ACL) by merging new access control or audit control information into an existing ACL structure.
 old-location: security\setentriesinacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

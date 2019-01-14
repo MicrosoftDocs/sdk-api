@@ -4,7 +4,7 @@ title: RpcCancelThreadEx function
 author: windows-sdk-content
 description: The RpcCancelThreadEx function stops the execution of a thread.
 old-location: rpc\rpccancelthreadex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

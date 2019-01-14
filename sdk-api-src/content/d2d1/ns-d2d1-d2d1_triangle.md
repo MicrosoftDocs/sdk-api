@@ -4,7 +4,7 @@ title: D2D1_TRIANGLE
 author: windows-sdk-content
 description: Contains the three vertices that describe a triangle.
 old-location: direct2d\D2D1_TRIANGLE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6978bfff-05ca-44b6-8694-c4741f7987f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

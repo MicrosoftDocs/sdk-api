@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::SetViewportSize
 author: windows-sdk-content
 description: Sets the size of the initial viewport.
 old-location: direct2d\id2d1svgdocument_setviewportsize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2915630B-A76B-40E7-8586-B0B0EFD30780
 ms.author: windowssdkdev
 ms.date: 12/5/2018

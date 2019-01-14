@@ -4,7 +4,7 @@ title: RpcBindingFromStringBindingW function
 author: windows-sdk-content
 description: Returns a binding handle from a string representation of a binding handle.
 old-location: rpc\rpcbindingfromstringbinding.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_BITMAP_INTERPOLATION_MODE
 author: windows-sdk-content
 description: Specifies the algorithm that is used when images are scaled or rotated.
 old-location: direct2d\D2D1_BITMAP_INTERPOLATION_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b53b7e0a-aa8b-4788-896c-9825c9e6cceb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U)
 author: windows-sdk-content
 description: Ensures that a specified region of the image source cache is populated.
 old-location: direct2d\id2d1imagesourcefromwic_ensurecached.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3FF4E140-8318-4306-97EC-22BCCF69AD6E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

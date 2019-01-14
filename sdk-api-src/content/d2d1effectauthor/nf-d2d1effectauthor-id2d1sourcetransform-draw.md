@@ -4,7 +4,7 @@ title: ID2D1SourceTransform::Draw
 author: windows-sdk-content
 description: Draws the transform to the graphics processing unit (GPU)–based Direct2D pipeline.
 old-location: direct2d\id2d1sourcetransform_draw.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 38EBBFB2-7A49-4386-80B3-86B44BF2FC39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

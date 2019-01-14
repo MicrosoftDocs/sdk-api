@@ -4,7 +4,7 @@ title: ID2D1ImageSource::TryReclaimResources
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling OfferResources.
 old-location: direct2d\id2d1imagesource_tryreclaimresources.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9639353D-EA3B-4ABD-A4DE-405B18218801
 ms.author: windowssdkdev
 ms.date: 12/5/2018

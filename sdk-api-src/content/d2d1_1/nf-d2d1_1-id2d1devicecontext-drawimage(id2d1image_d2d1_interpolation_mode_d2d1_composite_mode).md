@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::DrawImage(ID2D1Image,D2D1_INTERPOLATION_MODE,D2D1_COM
 author: windows-sdk-content
 description: Draws an image to the device context.
 old-location: direct2d\id2d1devicecontext_drawimage3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F3FD80A4-1A15-411A-8CE0-EB18D697513A
 ms.author: windowssdkdev
 ms.date: 12/5/2018
