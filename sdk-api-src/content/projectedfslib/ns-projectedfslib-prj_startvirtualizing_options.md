@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_STARTVIRTUALIZING_OPTIONS
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_STARTVIRTUALIZING_OPTIONS structure

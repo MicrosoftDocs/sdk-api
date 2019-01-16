@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_FILE_STATE
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_FILE_STATE enumeration

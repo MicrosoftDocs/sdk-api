@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_UPDATE_TYPES
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_UPDATE_TYPES enumeration

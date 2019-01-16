@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_QUERY_FILE_NAME_CB callback function

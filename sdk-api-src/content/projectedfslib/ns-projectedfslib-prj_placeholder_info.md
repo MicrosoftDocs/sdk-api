@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_PLACEHOLDER_INFO
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_PLACEHOLDER_INFO structure
