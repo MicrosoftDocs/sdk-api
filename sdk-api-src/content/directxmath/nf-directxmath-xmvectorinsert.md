@@ -114,13 +114,19 @@ For best performance, the result of
 
 For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855943(v=VS.85).aspx">XMVectorInsert</a>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint32_t Select2, uint32_t Select3>
     XMVECTOR XMVectorInsert(FXMVECTOR VD, FXMVECTOR VS)
-   
-```
+   </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

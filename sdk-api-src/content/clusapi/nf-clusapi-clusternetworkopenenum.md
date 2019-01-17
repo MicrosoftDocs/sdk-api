@@ -4,7 +4,7 @@ title: ClusterNetworkOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through objects on a network.
 old-location: mscs\clusternetworkopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
 ms.author: windowssdkdev
 ms.date: 12/5/2018

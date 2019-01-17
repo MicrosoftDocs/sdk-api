@@ -4,7 +4,7 @@ title: RASIKEV2_PROJECTION_INFO
 author: windows-sdk-content
 description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\rasikev2_projection_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

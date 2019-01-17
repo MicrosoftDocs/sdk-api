@@ -4,7 +4,7 @@ title: ID2D1SvgElement::RemoveChild
 author: windows-sdk-content
 description: Removes the oldChild from the tree. Children of oldChild remain children of oldChild.
 old-location: direct2d\id2d1svgelement_removechild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 986EE898-D377-4DFF-B19E-834D5CD1A4E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

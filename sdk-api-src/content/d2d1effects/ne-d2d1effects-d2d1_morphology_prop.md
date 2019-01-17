@@ -4,7 +4,7 @@ title: D2D1_MORPHOLOGY_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Morphology effect.
 old-location: direct2d\d2d1_morphology_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D5916AD4-F19A-42F0-BA24-B61BA9786013
 ms.author: windowssdkdev
 ms.date: 12/5/2018

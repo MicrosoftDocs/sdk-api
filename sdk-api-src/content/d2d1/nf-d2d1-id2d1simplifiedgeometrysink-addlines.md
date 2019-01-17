@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::AddLines
 author: windows-sdk-content
 description: Creates a sequence of lines using the specified points and adds them to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_AddLines.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3f9c5106-6a4e-4623-8ce5-6f21f0380976
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -211,6 +211,10 @@ There are a number of concrete implemenations of this interface representing eac
 <td>0xb54e85d9, 0xfe23, 0x499f, 0x8b, 0x88, 0x6a, 0xce, 0xa7, 0x13, 0x75, 0x2b</td>
 </tr>
 <tr>
+<td>CLSID_WICWebpDecoder</td>
+<td>0x7693e886, 0x51c9, 0x4070, 0x84, 0x19, 0x9f, 0x70, 0X73, 0X8e, 0Xc8, 0Xfa</td>
+</tr>
+<tr>
 <td>CLSID_WICWmpDecoder</td>
 <td>0xa26cec36, 0x234c, 0x4950, 0xae, 0x16, 0xe3, 0x4a, 0xac, 0xe7, 0x1d, 0x0d</td>
 </tr>
@@ -220,6 +224,8 @@ There are a number of concrete implemenations of this interface representing eac
 This interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="http://msdn.microsoft.com/en-us/library/ms771770.aspx">AITCodec Sample CODEC</a>.
 
 Codecs written as TIFF container formats that are not register will decode as a TIFF image. Client applications should check for a zero frame count to determine if the codec is valid.
+
+CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 

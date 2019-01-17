@@ -4,7 +4,7 @@ title: OpenProcessToken function
 author: windows-sdk-content
 description: Opens the access token associated with a process.
 old-location: security\openprocesstoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1e760ad8-7e46-4748-8c45-36ad8efe936a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

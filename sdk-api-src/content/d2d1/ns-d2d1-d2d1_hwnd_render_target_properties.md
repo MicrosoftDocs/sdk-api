@@ -4,7 +4,7 @@ title: D2D1_HWND_RENDER_TARGET_PROPERTIES
 author: windows-sdk-content
 description: Contains the HWND, pixel size, and presentation options for an ID2D1HwndRenderTarget.
 old-location: direct2d\D2D1_HWND_RENDER_TARGET_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4300843a-a24f-4f9e-a396-67172f083638
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -90,9 +90,13 @@ For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/41d4c
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a> method to create an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>. It uses the <a href="https://msdn.microsoft.com/41d4c58d-6840-48b6-8e31-1a0c412156cb">D2D1::HwndRenderTargetProperties</a> helper function to create a <b>D2D1_HWND_RENDER_TARGET_PROPERTIES</b> structure that contains a handle to a window and the size of the drawing area. Because a <a href="https://msdn.microsoft.com/56178ee9-7d35-42e1-97f8-62835010f277">D2D1_PRESENT_OPTIONS</a> value isn't specified, the function uses the default value, <b>D2D1_PRESENT_OPTIONS_NONE</b>.  
 
-
-```cpp
-RECT rc;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RECT rc;
 GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
@@ -106,8 +110,10 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
     &m_pRenderTarget
     );
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Code has been omitted from this example.

@@ -4,7 +4,7 @@ title: SYSTEM_AUDIT_CALLBACK_ACE
 author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_callback_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4d1799b0-3e55-48d7-94ff-c0094945adea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

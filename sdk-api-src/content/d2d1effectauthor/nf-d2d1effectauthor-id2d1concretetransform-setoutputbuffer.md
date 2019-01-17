@@ -4,7 +4,7 @@ title: ID2D1ConcreteTransform::SetOutputBuffer
 author: windows-sdk-content
 description: Sets the properties of the output buffer of the specified transform node.
 old-location: direct2d\id2d1concretetransform_setoutputbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DCA691ED-B9DF-4B1A-8662-0981BFB359CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

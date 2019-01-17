@@ -4,7 +4,7 @@ title: ClusRemoveClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusremoveclusterhealthfault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplicationGroup::AddAppMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this application group.
 old-location: security\iazapplicationgroup_addappmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 35b6c928-0c11-420d-8ba7-f28b0c67f55d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

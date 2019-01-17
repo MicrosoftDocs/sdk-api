@@ -4,7 +4,7 @@ title: RasCustomScriptExecuteFn
 author: windows-sdk-content
 description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.
 old-location: rras\rascustomscriptexecute.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

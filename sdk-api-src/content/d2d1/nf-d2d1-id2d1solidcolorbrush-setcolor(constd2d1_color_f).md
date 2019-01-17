@@ -4,7 +4,7 @@ title: ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F)
 author: windows-sdk-content
 description: Specifies the color of this solid color brush.
 old-location: direct2d\ID2D1SolidColorBrush_SetColor_ptr_COLOR_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3ae172a2-dbd8-4ca7-8151-a73fec95d6d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

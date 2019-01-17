@@ -4,7 +4,7 @@ title: ID2D1Device
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together.
 old-location: direct2d\id2d1device.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 21f77c38-c115-4fdf-b294-570577a29201
 ms.author: windowssdkdev
 ms.date: 12/5/2018

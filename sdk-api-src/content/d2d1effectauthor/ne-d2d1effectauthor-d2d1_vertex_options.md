@@ -4,7 +4,7 @@ title: D2D1_VERTEX_OPTIONS
 author: windows-sdk-content
 description: Describes flags that influence how the renderer interacts with a custom vertex shader.
 old-location: direct2d\d2d1_vertex_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b308aaf4-edf0-49a8-8fbf-04bb38c00605
 ms.author: windowssdkdev
 ms.date: 12/5/2018

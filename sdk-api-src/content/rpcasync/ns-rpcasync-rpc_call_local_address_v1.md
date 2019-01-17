@@ -4,7 +4,7 @@ title: RPC_CALL_LOCAL_ADDRESS_V1
 author: windows-sdk-content
 description: Contains information about the local address on which a call was made.
 old-location: rpc\rpc_call_local_address_v1.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

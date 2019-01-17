@@ -4,7 +4,7 @@ title: ID2D1Factory1::GetRegisteredEffects
 author: windows-sdk-content
 description: Returns the class IDs of the currently registered effects and global effects on this factory.
 old-location: direct2d\id2d1factory1_getregisteredeffects.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c3363411-908f-4b02-b77e-ca563094f9a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

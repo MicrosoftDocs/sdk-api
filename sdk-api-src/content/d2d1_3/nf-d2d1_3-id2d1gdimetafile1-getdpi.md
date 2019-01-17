@@ -4,7 +4,7 @@ title: ID2D1GdiMetafile1::GetDpi
 author: windows-sdk-content
 description: Gets the DPI reported by the metafile.
 old-location: direct2d\id2d1gdimetafile1_getdpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 21238137-034c-9439-8b42-aba1be6a69af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

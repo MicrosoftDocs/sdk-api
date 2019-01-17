@@ -4,7 +4,7 @@ title: ID2D1PathGeometry
 author: windows-sdk-content
 description: Represents a complex shape that may be composed of arcs, curves, and lines.
 old-location: direct2d\ID2D1PathGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d200563c-d78e-4fa0-a8f2-242b24480e99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -121,15 +121,24 @@ To create a path geometry, use the <a href="https://msdn.microsoft.com/35c46055-
 
 The following example creates an <b>ID2D1PathGeometry</b>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -171,8 +180,10 @@ if (SUCCEEDED(hr))
         SafeRelease(&pSink);
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

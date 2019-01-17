@@ -4,7 +4,7 @@ title: RtmAddRouteToDest function
 author: windows-sdk-content
 description: The RtmAddRouteToDest function adds a new route to the routing table or updates an existing route in the routing table. If the best route changes, a change notification is generated.
 old-location: rras\rtmaddroutetodest.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 422beb9b-b7e8-446f-8294-9f87a9f66f7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

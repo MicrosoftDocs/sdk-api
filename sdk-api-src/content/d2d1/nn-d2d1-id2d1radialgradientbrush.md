@@ -4,7 +4,7 @@ title: ID2D1RadialGradientBrush
 author: windows-sdk-content
 description: Paints an area with a radial gradient.
 old-location: direct2d\ID2D1RadialGradientBrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 21ed2286-e4df-4b77-ba31-e5d5927e16f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

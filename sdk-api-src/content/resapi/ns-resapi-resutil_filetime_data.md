@@ -4,7 +4,7 @@ title: RESUTIL_FILETIME_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.author: windowssdkdev
 ms.date: 12/5/2018

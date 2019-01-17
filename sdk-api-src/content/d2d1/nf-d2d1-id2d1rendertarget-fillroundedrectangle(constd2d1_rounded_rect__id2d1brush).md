@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::FillRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Br
 author: windows-sdk-content
 description: Paints the interior of the specified rounded rectangle.
 old-location: direct2d\ID2D1RenderTarget_FillRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: db000907-eff2-4cf7-a805-be1ff4cb30fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

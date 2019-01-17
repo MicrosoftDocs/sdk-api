@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateCommandList
 author: windows-sdk-content
 description: Creates a ID2D1CommandList object.
 old-location: direct2d\id2d1devicecontext_createcommandlist.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f34710dc-7845-457f-9b27-51ae937d9f74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

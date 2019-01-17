@@ -4,7 +4,7 @@ title: Matrix3x2F::Invert
 author: windows-sdk-content
 description: Inverts the matrix, if it is invertible.
 old-location: direct2d\matrix3x2f_invert.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 44c5229e-778c-431a-b812-cf2f59c2280c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

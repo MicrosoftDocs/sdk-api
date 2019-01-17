@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateLayer(D2D1_SIZE_F,ID2D1Layer)
 author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size.
 old-location: direct2d\ID2D1RenderTarget_CreateLayer_D2D_SIZE_F_ptr_ptr_ID2D1Layer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c21596a3-2b10-4a96-9a01-cf9325e51fe3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

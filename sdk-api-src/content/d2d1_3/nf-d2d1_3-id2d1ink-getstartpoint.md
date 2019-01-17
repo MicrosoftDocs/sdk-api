@@ -4,7 +4,7 @@ title: ID2D1Ink::GetStartPoint
 author: windows-sdk-content
 description: Retrieves the starting point for this ink object.
 old-location: direct2d\id2d1ink_getstartpoint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 95CD771D-1B7A-4E6F-B9B2-B0565221F8F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

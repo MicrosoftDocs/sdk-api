@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::AddDelegatedPolicyUser
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_adddelegatedpolicyuser.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0c6714e9-489e-4266-a8b5-35c66b0a14f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

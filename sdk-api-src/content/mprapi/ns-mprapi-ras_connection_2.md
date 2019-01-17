@@ -4,7 +4,7 @@ title: RAS_CONNECTION_2
 author: windows-sdk-content
 description: The RAS_CONNECTION_2 structure contains information for a connection, including the Globally Unique Identifier (GUID) that identifies the connection.
 old-location: rras\ras_connection_2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 5dcc20f0-7447-4256-9dde-18a4a3c95816
 ms.author: windowssdkdev
 ms.date: 12/5/2018

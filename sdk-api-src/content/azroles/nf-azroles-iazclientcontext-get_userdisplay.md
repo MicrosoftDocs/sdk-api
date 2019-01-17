@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserDisplay
 author: windows-sdk-content
 description: Retrieves the name of the current client in user display name format.
 old-location: security\iazclientcontext_userdisplay.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: db75ecc1-0096-4e14-a5be-10b596ad5163
 ms.author: windowssdkdev
 ms.date: 12/5/2018

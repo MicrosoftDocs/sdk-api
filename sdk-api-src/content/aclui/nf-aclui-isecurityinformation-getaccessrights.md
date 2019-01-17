@@ -4,7 +4,7 @@ title: ISecurityInformation::GetAccessRights
 author: windows-sdk-content
 description: The GetAccessRights method requests information about the access rights that can be controlled for a securable object.
 old-location: security\isecurityinformation_getaccessrights.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a40b3ded-9a75-476b-bc7e-38794a98261c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -96,9 +96,13 @@ the code example below.
 
 This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 /****************************************************************** 
 * 
 * ObtainRequiredPrivileges 
@@ -274,8 +278,10 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
     PrintCurrentClockAdjustments(); 
 
     printf("Adjustment sequence complete\n\n"); 
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

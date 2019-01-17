@@ -4,7 +4,7 @@ title: ID2D1GdiMetafile
 author: windows-sdk-content
 description: A Direct2D resource that wraps a WMF, EMF, or EMF+ metafile.
 old-location: direct2d\id2d1gdimetafile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 36A454EC-7DE0-4610-B49C-7FBBD21C425C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

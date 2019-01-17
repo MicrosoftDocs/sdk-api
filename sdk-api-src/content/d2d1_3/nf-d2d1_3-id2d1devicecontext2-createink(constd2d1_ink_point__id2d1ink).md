@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &,ID2D1Ink)
 author: windows-sdk-content
 description: Creates a new ID2D1Ink object that starts at the given point.
 old-location: direct2d\id2d1devicecontext2_createink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3079f5d4-3b7d-c3dd-86cd-cca40674bf49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

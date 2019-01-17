@@ -4,7 +4,7 @@ title: CLUSTER_OBJECT_TYPE
 author: windows-sdk-content
 description: Defines the type of object for which a notification is requested or generated.
 old-location: mscs\cluster_object_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 714C0EF1-7397-4227-B4B1-AFC5E61E08C2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

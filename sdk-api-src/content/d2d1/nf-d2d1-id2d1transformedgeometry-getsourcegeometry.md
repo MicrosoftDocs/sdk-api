@@ -4,7 +4,7 @@ title: ID2D1TransformedGeometry::GetSourceGeometry
 author: windows-sdk-content
 description: Retrieves the source geometry of this transformed geometry object.
 old-location: direct2d\ID2D1TransformedGeometry_GetSourceGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2e07c2e4-5f34-4949-bca1-92183652d2fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

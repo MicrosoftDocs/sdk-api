@@ -4,7 +4,7 @@ title: IAzScope::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzScope object property with the specified property ID.
 old-location: security\iazscope_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4df2d9ca-a77f-4b32-a4e2-56ecd2059b49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

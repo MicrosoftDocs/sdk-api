@@ -4,7 +4,7 @@ title: D2D1_DC_INITIALIZE_MODE
 author: windows-sdk-content
 description: Specifies how a device context is initialized for GDI rendering when it is retrieved from the render target.
 old-location: direct2d\D2D1_DC_INITIALIZE_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a7837fe4-6e11-42a0-8a85-cba42e0f123a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

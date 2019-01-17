@@ -4,7 +4,7 @@ title: ResUtilSetQwordValue function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c4bb777f-07dd-4eff-a39c-6de48e12b61e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

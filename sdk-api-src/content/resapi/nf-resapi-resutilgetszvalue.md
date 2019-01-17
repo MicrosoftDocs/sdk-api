@@ -4,7 +4,7 @@ title: ResUtilGetSzValue function
 author: windows-sdk-content
 description: Returns a string value from the cluster database.
 old-location: mscs\resutilgetszvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

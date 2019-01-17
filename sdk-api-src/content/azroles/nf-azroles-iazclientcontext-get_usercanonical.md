@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserCanonical
 author: windows-sdk-content
 description: Retrieves the name of the current client in canonical format.
 old-location: security\iazclientcontext_usercanonical.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 413cdbbd-a9c6-4117-9df5-d7eb202191a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplication2::InitializeClientContextFromToken2
 author: windows-sdk-content
 description: Retrieves an IAzClientContext2 object pointer from the specified client token.
 old-location: security\iazapplication2_initializeclientcontextfromtoken2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f77b5eb1-c121-4392-a317-7021059268ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

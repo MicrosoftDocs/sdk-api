@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserDnsSamCompat
 author: windows-sdk-content
 description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_userdnssamcompat.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
 ms.author: windowssdkdev
 ms.date: 12/5/2018

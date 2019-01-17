@@ -4,7 +4,7 @@ title: IAzRoleAssignment
 author: windows-sdk-content
 description: Represents a role to which users and groups can be assigned.
 old-location: security\iazroleassignment.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3f0b926f-77f4-4477-b155-5f866822baba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

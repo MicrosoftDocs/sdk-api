@@ -4,7 +4,7 @@ title: D2D1_FEATURE_LEVEL
 author: windows-sdk-content
 description: Describes the minimum DirectX support required for hardware rendering by a render target.
 old-location: direct2d\D2D1_FEATURE_LEVEL.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d9604c37-7345-40e3-850c-2e2c99353ba5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_SETUP_PHASE_SEVERITY
 author: windows-sdk-content
 description: Describes the severity of the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase_severity.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -161,9 +161,13 @@ For more information about using methods semisynchronously, see <a href="https:/
 The following code example shows how to implement 
 <b>CreateClassEnumAsync</b>.
 
-
-```cpp
-HRESULT CStdProvider::CreateClassEnumAsync( 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CStdProvider::CreateClassEnumAsync( 
             /* [in] */ BSTR strSuperclass,
             /* [in] */ long lFlags,
             /* [in] */ IWbemContext __RPC_FAR *pCtx,
@@ -210,8 +214,10 @@ HRESULT CStdProvider::CreateClassEnumAsync(
     pResponseHandler->SetStatus(0, hRes, 0, 0);
 
     return hRes;
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 In the previous example, the class provider acquires a thread from WMI to perform the necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on the amount of time the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.

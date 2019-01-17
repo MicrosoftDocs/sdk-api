@@ -4,7 +4,7 @@ title: GetCurrentClusterNodeId macro
 author: windows-sdk-content
 description: Returns the unique identifier of the current cluster node.
 old-location: mscs\getcurrentclusternodeid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

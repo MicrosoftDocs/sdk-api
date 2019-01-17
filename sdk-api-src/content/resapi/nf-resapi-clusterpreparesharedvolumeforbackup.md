@@ -4,7 +4,7 @@ title: ClusterPrepareSharedVolumeForBackup function
 author: windows-sdk-content
 description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

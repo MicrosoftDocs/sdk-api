@@ -4,7 +4,7 @@ title: ID2D1DrawInfo::SetVertexShaderConstantBuffer
 author: windows-sdk-content
 description: Sets the constant buffer for this transform's vertex shader.
 old-location: direct2d\id2d1drawinfo_setvertexshaderconstantbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1A7991C9-BB3F-4E58-9FA7-5C4B194C33F6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

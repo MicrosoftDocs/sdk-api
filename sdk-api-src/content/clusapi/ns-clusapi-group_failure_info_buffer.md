@@ -4,7 +4,7 @@ title: GROUP_FAILURE_INFO_BUFFER
 author: windows-sdk-content
 description: Represents a buffer for a GROUP_FAILURE_INFO structure.
 old-location: mscs\group_failure_info_buffer.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 69824D88-B9CE-451B-B65A-84822755CEAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

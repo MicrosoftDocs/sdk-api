@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateSolidColorBrush
 author: windows-sdk-content
 description: Creates a new ID2D1SolidColorBrush that can be used to paint areas with a solid color.
 old-location: direct2d\id2d1rendertarget_createsolidcolorbrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3dbfe26f-cf36-47b0-925e-4934e0d7c390
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenClusterNode function
 author: windows-sdk-content
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7658a030-d4b2-407c-829f-61491b5907e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetPrivateObjectSecurity function
 author: windows-sdk-content
 description: Modifies a private object's security descriptor.
 old-location: security\setprivateobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 726994c8-7813-4f1a-b7d7-a25e79202c33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

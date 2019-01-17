@@ -4,7 +4,7 @@ title: D2D1_HUEROTATION_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Hue rotate effect.
 old-location: direct2d\d2d1_huerotation_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4283B5E4-9B90-41E0-91A5-1122B2F91C25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

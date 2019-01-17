@@ -4,7 +4,7 @@ title: CLUS_NETNAME_IP_INFO_ENTRY
 author: windows-sdk-content
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

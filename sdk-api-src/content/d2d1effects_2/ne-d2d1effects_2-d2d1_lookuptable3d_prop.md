@@ -4,7 +4,7 @@ title: D2D1_LOOKUPTABLE3D_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the 3D Lookup Table effect.
 old-location: direct2d\d2d1_lookuptable3d_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A0F866CD-78FE-441E-810E-763347F84323
 ms.author: windowssdkdev
 ms.date: 12/5/2018

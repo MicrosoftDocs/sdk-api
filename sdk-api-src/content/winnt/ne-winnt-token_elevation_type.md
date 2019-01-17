@@ -4,7 +4,7 @@ title: TOKEN_ELEVATION_TYPE
 author: windows-sdk-content
 description: Indicates the elevation type of token being queried by the GetTokenInformation function or set by the SetTokenInformation function.
 old-location: security\token_elevation_type_.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: bfdfa7b3-a8a9-4e54-896c-4be97521a079
 ms.author: windowssdkdev
 ms.date: 12/5/2018

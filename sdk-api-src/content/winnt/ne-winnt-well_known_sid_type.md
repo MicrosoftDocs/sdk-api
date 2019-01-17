@@ -4,7 +4,7 @@ title: WELL_KNOWN_SID_TYPE
 author: windows-sdk-content
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the CreateWellKnownSid function to create a SID from this list.
 old-location: security\well_known_sid_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6f1fa59e-17c0-412b-937b-ddf746ed68bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

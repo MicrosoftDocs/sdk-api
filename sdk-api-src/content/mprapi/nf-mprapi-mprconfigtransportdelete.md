@@ -4,7 +4,7 @@ title: MprConfigTransportDelete function
 author: windows-sdk-content
 description: The MprConfigTransportDelete function removes the specified transport from the list of transports present in the specified router configuration.
 old-location: rras\mprconfigtransportdelete.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e022d0bc-f5ae-4c04-80f7-40ec77e2fa80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

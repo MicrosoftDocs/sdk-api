@@ -4,7 +4,7 @@ title: IAzRoleDefinition::DeleteRoleDefinition
 author: windows-sdk-content
 description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleDefinition object.
 old-location: security\iazroledefinition_deleteroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: aba2f195-ebd8-40a2-8af4-455144822588
 ms.author: windowssdkdev
 ms.date: 12/5/2018

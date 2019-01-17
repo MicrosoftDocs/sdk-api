@@ -4,7 +4,7 @@ title: Matrix4x4F::PerspectiveProjection
 author: windows-sdk-content
 description: A perspective transformation given a depth value.
 old-location: direct2d\matrix4x4f_perspectiveprojection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AE896E2E-752E-46D1-9281-4B3511D21468
 ms.author: windowssdkdev
 ms.date: 12/5/2018

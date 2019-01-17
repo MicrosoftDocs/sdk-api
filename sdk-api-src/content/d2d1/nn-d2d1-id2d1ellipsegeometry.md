@@ -4,7 +4,7 @@ title: ID2D1EllipseGeometry
 author: windows-sdk-content
 description: Represents an ellipse.
 old-location: direct2d\ID2D1EllipseGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4ab6452c-6df8-46c0-9e0d-0cebc19d84ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

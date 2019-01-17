@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_EMBEDDED_FAILURE_ACTION
 author: windows-sdk-content
 description: Specifies the various actions that can be performed when a resource has an embedded failure.
 old-location: mscs\cluster_resource_embedded_failure_action.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 72251E97-0DBC-4EEA-BACF-3F7677483F29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IGetClusterDataInfo::GetClusterName
 author: windows-sdk-content
 description: Returns the name of the cluster.
 old-location: mscs\igetclusterdatainfo_getclustername.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

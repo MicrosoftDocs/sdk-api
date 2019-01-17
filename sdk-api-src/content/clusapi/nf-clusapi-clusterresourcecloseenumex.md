@@ -4,7 +4,7 @@ title: ClusterResourceCloseEnumEx function
 author: windows-sdk-content
 description: Closes a handle to a resource enumeration.
 old-location: mscs\clusterresourcecloseenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 643CA960-F4F1-4028-B0A3-5258E9421D62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

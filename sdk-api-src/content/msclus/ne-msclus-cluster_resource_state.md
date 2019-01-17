@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_STATE
 author: windows-sdk-content
 description: Describes the operational condition of a resource.
 old-location: mscs\cluster_resource_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: bd5dee18-a06f-4e46-a27e-c907b1c25a68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

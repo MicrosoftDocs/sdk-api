@@ -4,7 +4,7 @@ title: POFFLINE_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offline.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889
 ms.author: windowssdkdev
 ms.date: 12/5/2018

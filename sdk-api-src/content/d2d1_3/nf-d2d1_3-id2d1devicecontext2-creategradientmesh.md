@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::CreateGradientMesh
 author: windows-sdk-content
 description: Creates a new ID2D1GradientMesh instance using the given array of patches.
 old-location: direct2d\id2d1devicecontext2_creategradientmesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DuplicateToken function
 author: windows-sdk-content
 description: Creates a new access token that duplicates one already in existence.
 old-location: security\duplicatetoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 796ec60e-fcae-48a9-b471-de3dce831306
 ms.author: windowssdkdev
 ms.date: 12/5/2018

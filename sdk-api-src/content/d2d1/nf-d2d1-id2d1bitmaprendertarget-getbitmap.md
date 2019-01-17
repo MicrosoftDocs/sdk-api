@@ -4,7 +4,7 @@ title: ID2D1BitmapRenderTarget::GetBitmap
 author: windows-sdk-content
 description: Retrieves the bitmap for this render target. The returned bitmap can be used for drawing operations.
 old-location: direct2d\ID2D1BitmapRenderTarget_GetBitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 173a3e2d-82b8-4c33-9a74-1bbf755bbf65
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -85,9 +85,13 @@ The DPI for the <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> method to create an <a href="https://msdn.microsoft.com/f298d4f7-acb8-4fbe-89f7-2410e3b753bd">ID2D1BitmapRenderTarget</a> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>.
 
-
-```cpp
-HRESULT DemoApp::CreateGridPatternBrush(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::CreateGridPatternBrush(
     ID2D1RenderTarget *pRenderTarget,
     ID2D1BitmapBrush **ppBitmapBrush
     )
@@ -136,8 +140,10 @@ HRESULT DemoApp::CreateGridPatternBrush(
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following code example uses the brush to paint a pattern.

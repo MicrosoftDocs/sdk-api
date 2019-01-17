@@ -4,7 +4,7 @@ title: D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS
 author: windows-sdk-content
 description: Option flags for transformed image sources.
 old-location: direct2d\d2d1_transformed_image_source_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 25A55F80-ACE0-4955-8483-687C7A7E4E20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

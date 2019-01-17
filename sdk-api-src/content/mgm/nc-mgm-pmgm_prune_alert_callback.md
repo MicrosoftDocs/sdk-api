@@ -4,7 +4,7 @@ title: PMGM_PRUNE_ALERT_CALLBACK
 author: windows-sdk-content
 description: The PMGM_PRUNE_ALERT_CALLBACK callback is a call into a routing protocol to notify the protocol that receivers are no longer present on interfaces owned by other routing protocols.
 old-location: rras\pmgm_prune_alert_callback.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1c23df04-2a31-475e-a8da-783796a60e00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

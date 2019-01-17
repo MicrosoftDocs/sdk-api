@@ -4,7 +4,7 @@ title: CLUSTER_ROLE_STATE
 author: windows-sdk-content
 description: Defines the potential return values for the ResUtilGetClusterRoleState function.
 old-location: mscs\cluster_role_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 21424e31-4eba-4ff9-95c1-0908827936df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

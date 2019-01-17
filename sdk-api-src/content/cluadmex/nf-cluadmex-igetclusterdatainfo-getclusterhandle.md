@@ -4,7 +4,7 @@ title: IGetClusterDataInfo::GetClusterHandle
 author: windows-sdk-content
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

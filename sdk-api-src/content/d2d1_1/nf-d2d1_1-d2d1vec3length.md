@@ -4,7 +4,7 @@ title: D2D1Vec3Length function
 author: windows-sdk-content
 description: Returns the length of a 3 dimensional vector.
 old-location: direct2d\d2d1vec3length.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

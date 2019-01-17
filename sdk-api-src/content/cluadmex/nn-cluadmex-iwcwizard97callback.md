@@ -4,7 +4,7 @@ title: IWCWizard97Callback
 author: windows-sdk-content
 description: The IWCWizard97Callback interface is called by a Failover Cluster Administrator extension to add a Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

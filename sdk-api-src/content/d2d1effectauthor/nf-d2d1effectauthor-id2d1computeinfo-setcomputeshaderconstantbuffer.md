@@ -4,7 +4,7 @@ title: ID2D1ComputeInfo::SetComputeShaderConstantBuffer
 author: windows-sdk-content
 description: Establishes or changes the constant buffer data for this transform.
 old-location: direct2d\id2d1computeinfo_setcomputeshaderconstantbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E7443E72-F8F6-48C4-A9BD-5EF132E8C090
 ms.author: windowssdkdev
 ms.date: 12/5/2018

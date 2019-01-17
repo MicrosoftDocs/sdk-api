@@ -99,9 +99,13 @@ If the window is moved off-screen or resized to zero, the system stops composing
 
 The following code snippet creates a wrapper object that represents the rasterization of a layered window.
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 IDCompositionVisual *pVisual = nullptr;
 IUnknown *pSurface = nullptr;
 
@@ -121,8 +125,10 @@ if (SUCCEEDED(hr))
     // Set the content of the Control child visual.
     hr = pVisual->SetContent(pSurface);
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: IAzApplication::InitializeClientContextFromName
 author: windows-sdk-content
 description: Gets an IAzClientContext object pointer from the client identity as a (domain name, client name) pair.
 old-location: security\iazapplication_initializeclientcontextfromname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 25628f06-fea7-4acd-b1db-b3667fcd07a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

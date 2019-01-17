@@ -4,7 +4,7 @@ title: OfflineClusterResourceEx function
 author: windows-sdk-content
 description: Extends the OfflineClusterResource method.
 old-location: mscs\offlineclusterresourceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8AE70F5F-349B-40D1-830B-A135D4364B83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

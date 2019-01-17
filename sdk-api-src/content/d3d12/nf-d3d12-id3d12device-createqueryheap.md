@@ -111,9 +111,13 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create a query heap and a query result buffer.
 
-
-```cpp
-// Pipeline objects.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
 ComPtr<IDXGISwapChain3> m_swapChain;
@@ -144,17 +148,24 @@ ComPtr<ID3D12Resource> m_constantBuffer;
 ComPtr<ID3D12Resource> m_depthStencil;
 ComPtr<ID3D12Resource> m_queryResult;
 D3D12_VERTEX_BUFFER_VIEW m_vertexBufferView;
-
-```
-
-```cpp
-// Describe and create a heap for occlusion queries.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Describe and create a heap for occlusion queries.
 D3D12_QUERY_HEAP_DESC queryHeapDesc = {};
 queryHeapDesc.Count = 1;
 queryHeapDesc.Type = D3D12_QUERY_HEAP_TYPE_OCCLUSION;
 ThrowIfFailed(m_device->CreateQueryHeap(&queryHeapDesc, IID_PPV_ARGS(&m_queryHeap)));
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

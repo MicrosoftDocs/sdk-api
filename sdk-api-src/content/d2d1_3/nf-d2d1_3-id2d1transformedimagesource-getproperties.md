@@ -4,7 +4,7 @@ title: ID2D1TransformedImageSource::GetProperties
 author: windows-sdk-content
 description: Retrieves the properties specified when the transformed image source was created.
 old-location: direct2d\id2d1transformedimagesource_getproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D8291B02-9C32-412B-8F25-63A4A551B023
 ms.author: windowssdkdev
 ms.date: 12/5/2018

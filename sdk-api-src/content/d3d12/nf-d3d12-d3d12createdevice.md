@@ -152,9 +152,13 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to a device can be obtained 
 Create a hardware based device, unless instructed to create a WARP software device.
         
 
-
-```cpp
-ComPtr<IDXGIFactory4> factory;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ComPtr<IDXGIFactory4> factory;
 ThrowIfFailed(CreateDXGIFactory1(IID_PPV_ARGS(&factory)));
 
 if (m_useWarpDevice)
@@ -179,8 +183,10 @@ else
         IID_PPV_ARGS(&m_device)
         ));
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>. 

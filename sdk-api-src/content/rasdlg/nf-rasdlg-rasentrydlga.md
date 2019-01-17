@@ -4,7 +4,7 @@ title: RasEntryDlgA function
 author: windows-sdk-content
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
 ms.author: windowssdkdev
 ms.date: 12/5/2018

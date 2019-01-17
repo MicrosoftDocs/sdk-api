@@ -4,7 +4,7 @@ title: D2D1Tan function
 author: windows-sdk-content
 description: Returns the tangent of an angle.
 old-location: direct2d\d2d1tan.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2BC66DEA-5C40-4EBA-8CDB-B48036E8A85F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

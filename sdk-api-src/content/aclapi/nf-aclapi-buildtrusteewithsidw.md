@@ -4,7 +4,7 @@ title: BuildTrusteeWithSidW function
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 old-location: security\buildtrusteewithsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

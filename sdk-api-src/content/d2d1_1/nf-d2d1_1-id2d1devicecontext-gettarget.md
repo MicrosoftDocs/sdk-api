@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetTarget
 author: windows-sdk-content
 description: Gets the target currently associated with the device context.
 old-location: direct2d\id2d1devicecontext_gettarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a70307db-863a-4c59-a327-fb71a5d58f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

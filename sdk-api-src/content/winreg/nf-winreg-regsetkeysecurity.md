@@ -4,7 +4,7 @@ title: RegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security of an open registry key.
 old-location: security\regsetkeysecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
 ms.date: 12/5/2018

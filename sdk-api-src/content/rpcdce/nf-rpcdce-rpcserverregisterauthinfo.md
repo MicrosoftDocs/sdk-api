@@ -4,7 +4,7 @@ title: RpcServerRegisterAuthInfo function
 author: windows-sdk-content
 description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
 old-location: rpc\rpcserverregisterauthinfo.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

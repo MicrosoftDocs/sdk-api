@@ -4,7 +4,7 @@ title: D2D1_YCBCR_INTERPOLATION_MODE
 author: windows-sdk-content
 description: Specifies the interpolation mode for the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 30F27963-DF93-46B6-A30E-F89AD634C987
 ms.author: windowssdkdev
 ms.date: 12/5/2018

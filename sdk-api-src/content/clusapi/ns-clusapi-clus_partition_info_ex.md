@@ -4,7 +4,7 @@ title: CLUS_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

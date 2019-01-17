@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_EXTEND_MODE)
 author: windows-sdk-content
 description: Sets an attribute of this element as an extend mode value. This method can be used to set the value of a spreadMethod attribute.
 old-location: direct2d\id2d1svgelement_setattributevalue_14.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 18FD0ECC-1045-4914-9461-999952B4EAAF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

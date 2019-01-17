@@ -4,7 +4,7 @@ title: PSET_INTERNAL_STATE
 author: windows-sdk-content
 description: Sets the internal state of a resource.
 old-location: mscs\setinternalstate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B9ECD98B-D867-44C0-846F-8FE96E44F387
 ms.author: windowssdkdev
 ms.date: 12/5/2018

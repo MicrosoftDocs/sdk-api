@@ -351,9 +351,13 @@ if (!bResult){
 
 The following example shows how you could enable all gestures.
 
-
-```cpp
-GESTURECONFIG gc = {0,GC_ALLGESTURES,0};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>GESTURECONFIG gc = {0,GC_ALLGESTURES,0};
 
 UINT uiGcs = 1;
 
@@ -362,8 +366,10 @@ BOOL bResult = SetGestureConfig(hWnd, 0, uiGcs, &gc, sizeof(GESTURECONFIG));
 if (!bResult){                
     DWORD err = GetLastError();                                       
 }              
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following example shows how you could enable all Windows 7 gestures.

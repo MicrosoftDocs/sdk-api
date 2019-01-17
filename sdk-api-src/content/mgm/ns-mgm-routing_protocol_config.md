@@ -4,7 +4,7 @@ title: ROUTING_PROTOCOL_CONFIG
 author: windows-sdk-content
 description: The ROUTING_PROTOCOL_CONFIG structure describes the routing protocol configuration information that is passed to the multicast group manager when a protocol registers with the multicast group manager.
 old-location: rras\routing_protocol_config_str.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: acbf0519-a0c8-4b96-9722-9eeccee026d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

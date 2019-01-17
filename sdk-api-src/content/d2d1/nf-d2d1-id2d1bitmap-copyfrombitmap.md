@@ -4,7 +4,7 @@ title: ID2D1Bitmap::CopyFromBitmap
 author: windows-sdk-content
 description: Copies the specified region from the specified bitmap into the current bitmap.
 old-location: direct2d\ID2D1Bitmap_CopyFromBitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d43685d9-292c-462c-bdd2-c4e81b6d704e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

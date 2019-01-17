@@ -4,7 +4,7 @@ title: BrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_BRUSH_PROPERTIES structure.
 old-location: direct2d\brushproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: eeb438e4-300a-4d7d-b8bf-91baba4a729e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

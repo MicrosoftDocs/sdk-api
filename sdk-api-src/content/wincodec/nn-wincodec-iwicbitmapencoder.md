@@ -204,6 +204,8 @@ There are a number of concrete implemenations of this interface representing eac
 
 Additionally this interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="http://msdn.microsoft.com/en-us/library/ms771770.aspx">AITCodec Sample CODEC</a>.
 
+CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
+
 
 
 

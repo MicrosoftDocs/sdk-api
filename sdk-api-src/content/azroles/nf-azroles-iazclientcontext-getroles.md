@@ -4,7 +4,7 @@ title: IAzClientContext::GetRoles
 author: windows-sdk-content
 description: Returns the roles for the client context.
 old-location: security\iazclientcontext_getroles.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

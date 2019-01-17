@@ -4,7 +4,7 @@ title: DSCreateSecurityPage function
 author: windows-sdk-content
 description: Creates a security property page for an Active Directory object.
 old-location: security\dscreatesecuritypage.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

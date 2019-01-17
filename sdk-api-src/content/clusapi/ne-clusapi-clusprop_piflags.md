@@ -4,7 +4,7 @@ title: CLUSPROP_PIFLAGS
 author: windows-sdk-content
 description: Represents disk partition information. The enumeration flags identify certain properties of a disk partition, which is a storage class resource.
 old-location: mscs\clusprop_piflags.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 54597c05-57af-49ad-96e0-171f09c45a65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

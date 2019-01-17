@@ -4,7 +4,7 @@ title: MoveClusterGroup function
 author: windows-sdk-content
 description: Moves a group and all of its resources from one node to another.
 old-location: mscs\moveclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 32408600-5118-47fb-890b-9c31faef2299
 ms.author: windowssdkdev
 ms.date: 12/5/2018

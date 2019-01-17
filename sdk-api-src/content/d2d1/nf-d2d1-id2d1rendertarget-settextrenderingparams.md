@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::SetTextRenderingParams
 author: windows-sdk-content
 description: Specifies text rendering options to be applied to all subsequent text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTextRenderingParams.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ab4b29a5-72a7-49dc-9131-696f888b0355
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PMIB_GET_NEXT
 author: windows-sdk-content
 description: The MibGetNext function passes a SNMP MIB-style Get Next Request to the routing protocol.
 old-location: rras\mibgetnext.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 00047426-11b6-4b68-8a44-45608611eafe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

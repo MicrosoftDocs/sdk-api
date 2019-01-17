@@ -4,7 +4,7 @@ title: ID2D1Bitmap1::GetSurface
 author: windows-sdk-content
 description: Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created.
 old-location: direct2d\id2d1bitmap1_getsurface.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f9cb3830-7c1a-4254-a3fd-f1c056bec0c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

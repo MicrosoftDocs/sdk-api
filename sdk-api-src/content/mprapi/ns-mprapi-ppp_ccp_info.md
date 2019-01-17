@@ -4,7 +4,7 @@ title: PPP_CCP_INFO
 author: windows-sdk-content
 description: The PPP_CCP_INFO structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
 old-location: rras\ppp_ccp_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d50493c4-8a18-4cab-8973-a752f3f7f6c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

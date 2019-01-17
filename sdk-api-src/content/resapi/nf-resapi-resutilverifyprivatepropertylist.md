@@ -4,7 +4,7 @@ title: ResUtilVerifyPrivatePropertyList function
 author: windows-sdk-content
 description: Verifies that a property list is correctly formatted.
 old-location: mscs\resutilverifyprivatepropertylist.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

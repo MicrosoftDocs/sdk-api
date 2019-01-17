@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_PolicyReaders
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy readers in text form.
 old-location: security\azauthorizationstore_policyreaders.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 22479ced-b393-40d3-bb16-f3c3e595dacf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

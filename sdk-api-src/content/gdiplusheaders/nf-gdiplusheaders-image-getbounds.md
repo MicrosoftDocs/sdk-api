@@ -105,9 +105,13 @@ The following example creates an
 						<b>X</b> and 
 						<b>Y</b> data members returned by <b>Image::GetBounds</b> to specify the upper-left corner of the source rectangle.
 
-
-```cpp
-VOID Example_GetBounds(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetBounds(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -140,8 +144,10 @@ VOID Example_GetBounds(HDC hdc)
       0.75f*boundsRect.Width,        // width of source rectangle
       boundsRect.Height,             // height of source rectangle
       UnitPixel);
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The preceding code, along with a particular file, SampleMetafile2.emf, produced the following output. Note that the first attempt (upper-right) to draw 75 percent of the image shows only about 30 percent of the image.

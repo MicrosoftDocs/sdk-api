@@ -4,7 +4,7 @@ title: ID2D1SvgDocument
 author: windows-sdk-content
 description: Represents an SVG document.
 old-location: direct2d\id2d1svgdocument.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1F570A77-7110-4C71-A7BE-74F2B78CFE96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

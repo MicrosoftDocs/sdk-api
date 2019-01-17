@@ -4,7 +4,7 @@ title: IAzScope2::DeleteRoleAssignment
 author: windows-sdk-content
 description: Removes the specified IAzRoleAssignment object from this scope.
 old-location: security\iazscope2_deleteroleassignment.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8e28e09a-f9a4-4e6e-bb11-cfa1145f1ba1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

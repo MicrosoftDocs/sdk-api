@@ -4,7 +4,7 @@ title: ID2D1BitmapBrush::SetExtendModeY
 author: windows-sdk-content
 description: Specifies how the brush vertically tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeY.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6039ad41-e4b4-41e2-a4b1-31ad93ba88fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

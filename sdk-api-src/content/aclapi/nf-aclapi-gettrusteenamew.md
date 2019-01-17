@@ -4,7 +4,7 @@ title: GetTrusteeNameW function
 author: windows-sdk-content
 description: Retrieves the trustee name from the specified TRUSTEE structure.
 old-location: security\gettrusteename.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Ink
 author: windows-sdk-content
 description: Represents a single continuous stroke of variable-width ink, as defined by a series of Bezier segments and widths.
 old-location: direct2d\id2d1ink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1CreateFactory function
 author: windows-sdk-content
 description: Creates a factory object that can be used to create Direct2D resources.
 old-location: direct2d\d2d1createfactory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8c0a685a-8f33-4072-a715-bb423cb44f03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

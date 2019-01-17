@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::GetInputCount
 author: windows-sdk-content
 description: Returns the number of inputs to the transform graph.
 old-location: direct2d\id2d1transfromgraph_getinputcount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 02CF2DE7-E1FD-4A6D-84FC-FA842EAE14C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

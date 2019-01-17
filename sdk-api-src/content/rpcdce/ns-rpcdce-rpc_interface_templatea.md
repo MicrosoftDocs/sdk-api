@@ -4,7 +4,7 @@ title: RPC_INTERFACE_TEMPLATEA
 author: windows-sdk-content
 description: Defines an RPC interface group server interface.
 old-location: rpc\rpc_interface_template.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4DBD0B43-659B-4074-954B-FE9ABB0DCE63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

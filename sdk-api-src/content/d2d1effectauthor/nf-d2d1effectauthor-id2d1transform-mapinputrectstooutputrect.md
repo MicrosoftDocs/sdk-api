@@ -4,7 +4,7 @@ title: ID2D1Transform::MapInputRectsToOutputRect
 author: windows-sdk-content
 description: Performs the inverse mapping to MapOutputRectToInputRects.
 old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8FC15A61-767C-460A-A260-9F56A41DA87F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

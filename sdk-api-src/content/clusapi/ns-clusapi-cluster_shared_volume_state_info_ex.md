@@ -4,7 +4,7 @@ title: CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info_ex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B0926E1A-CA39-44FE-989C-B8BDD86F9683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

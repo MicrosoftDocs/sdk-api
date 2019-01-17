@@ -4,7 +4,7 @@ title: D2D1_CROP_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Crop effect.
 old-location: direct2d\d2d1_crop_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E9C00E8A-AD1E-475C-9B81-A5EB995669C6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

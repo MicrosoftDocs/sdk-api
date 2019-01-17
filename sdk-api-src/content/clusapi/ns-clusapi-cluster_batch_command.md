@@ -4,7 +4,7 @@ title: CLUSTER_BATCH_COMMAND
 author: windows-sdk-content
 description: Represents the order in which current batch command data is sent to the ClusterRegBatchReadCommand function.
 old-location: mscs\cluster_batch_command.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 31f8e255-80c8-4381-a8f3-0d48a3831a89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

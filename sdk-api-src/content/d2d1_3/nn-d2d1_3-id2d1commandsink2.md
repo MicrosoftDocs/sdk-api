@@ -4,7 +4,7 @@ title: ID2D1CommandSink2
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink1 interface. It also enables access to ink rendering and gradient mesh rendering.
 old-location: direct2d\id2d1commandsink2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: bd1a22a8-bbf3-d515-5596-1797e261cd1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

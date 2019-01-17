@@ -4,7 +4,7 @@ title: D2D1_SVG_LENGTH_UNITS
 author: windows-sdk-content
 description: Specifies the units for an SVG length.
 old-location: direct2d\d2d1_svg_length_units.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1C0BDB9A-197F-42E1-87BB-3E8C8DE621BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

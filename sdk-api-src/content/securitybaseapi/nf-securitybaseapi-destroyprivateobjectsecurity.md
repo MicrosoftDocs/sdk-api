@@ -4,7 +4,7 @@ title: DestroyPrivateObjectSecurity function
 author: windows-sdk-content
 description: Deletes a private object's security descriptor.
 old-location: security\destroyprivateobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4ef10852-8229-41de-a4d7-d2845e4c92ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

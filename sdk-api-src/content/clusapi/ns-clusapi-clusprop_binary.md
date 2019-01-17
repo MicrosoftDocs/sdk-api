@@ -4,7 +4,7 @@ title: CLUSPROP_BINARY
 author: windows-sdk-content
 description: Describes a binary data value.
 old-location: mscs\clusprop_binary.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -54,9 +54,7 @@ Describes a binary data value. It is used as an entry in a
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
        of <b>CLUSPROP_SYNTAX_LIST_VALUE_BINARY</b> (0x00010001).</li>
 <li>A byte array containing the data.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+</ul>
 
 ## -struct-fields
 
@@ -70,20 +68,9 @@ Array of bytes containing the data.
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_LIST_VALUE_BINARY</b> (0x00010001).
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+       of <b>CLUSPROP_SYNTAX_LIST_VALUE_BINARY</b> (0x00010001) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>rgb</b> member.
 
 

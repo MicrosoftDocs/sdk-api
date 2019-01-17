@@ -4,7 +4,7 @@ title: RtmCreateNextHopEnum function
 author: windows-sdk-content
 description: The RtmCreateNextHopEnum enumerates the next hops in the next-hop list.
 old-location: rras\rtmcreatenexthopenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d26ce475-ea05-4e84-92da-06df9c386858
 ms.author: windowssdkdev
 ms.date: 12/5/2018

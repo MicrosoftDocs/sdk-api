@@ -4,7 +4,7 @@ title: PPP_IPXCP_INFO
 author: windows-sdk-content
 description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.
 old-location: rras\ppp_ipxcp_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -80,9 +80,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The following code example shows how to get the font family name from a <a href="https://msdn.microsoft.com/1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13">IDWriteFontFamily</a> object.
 
-
-```cpp
-IDWriteLocalizedStrings* pFamilyNames = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IDWriteLocalizedStrings* pFamilyNames = NULL;
 
 // Get a list of localized strings for the family name.
 if (SUCCEEDED(hr))
@@ -135,8 +139,10 @@ if (SUCCEEDED(hr))
 {
     hr = pFamilyNames->GetString(index, name, length+1);
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

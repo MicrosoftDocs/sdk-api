@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::SetUnitMode
 author: windows-sdk-content
 description: Sets what units will be used to interpret values passed into the device context.
 old-location: direct2d\id2d1devicecontext_setunitmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a5774b9a-4458-47e7-821a-4ac4b70468e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

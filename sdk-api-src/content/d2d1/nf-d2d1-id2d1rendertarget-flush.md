@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::Flush
 author: windows-sdk-content
 description: Executes all pending drawing commands.
 old-location: direct2d\ID2D1RenderTarget_Flush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3ad9c966-85f5-4ddb-a8c1-aefcba533509
 ms.author: windowssdkdev
 ms.date: 12/5/2018

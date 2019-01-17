@@ -4,7 +4,7 @@ title: ID2D1Multithread
 author: windows-sdk-content
 description: A locking mechanism from a Direct2D factory that Direct2D uses to control exclusive resource access in an app that is uses multiple threads.
 old-location: direct2d\id2d1multithread.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 885E7580-6BF0-4A44-9493-6D4FFCB5577B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

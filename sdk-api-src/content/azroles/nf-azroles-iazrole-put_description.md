@@ -4,7 +4,7 @@ title: IAzRole::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the role.
 old-location: security\iazrole_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2909c2ea-8308-49c3-9456-d035c1c242f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

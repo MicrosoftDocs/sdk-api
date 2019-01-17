@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle::GetLineJoin
 author: windows-sdk-content
 description: Retrieves the type of joint used at the vertices of a shape's outline.
 old-location: direct2d\ID2D1StrokeStyle_GetLineJoin.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 408e473d-c143-490e-98c3-2da312aa0c94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

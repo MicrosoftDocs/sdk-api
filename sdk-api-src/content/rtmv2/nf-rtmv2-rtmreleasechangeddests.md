@@ -4,7 +4,7 @@ title: RtmReleaseChangedDests function
 author: windows-sdk-content
 description: The RtmReleaseChangedDests function releases the changed destination handles.
 old-location: rras\rtmreleasechangeddests.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 542cb23f-81c2-4b29-b049-ebb5827b1d62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

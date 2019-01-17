@@ -4,7 +4,7 @@ title: IAzApplicationGroups::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzApplicationGroup objects in the collection.
 old-location: security\iazapplicationgroups_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d57e4428-3666-4eb0-8157-8b35acfc517b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

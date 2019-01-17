@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_GROUP_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a group.
 old-location: mscs\cluster_change_group_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0D7871CA-A186-4693-AD0B-2FA8CF25D634
 ms.author: windowssdkdev
 ms.date: 12/5/2018

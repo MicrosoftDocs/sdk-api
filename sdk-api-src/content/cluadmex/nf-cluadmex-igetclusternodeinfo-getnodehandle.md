@@ -4,7 +4,7 @@ title: IGetClusterNodeInfo::GetNodeHandle
 author: windows-sdk-content
 description: Returns a handle to a node.
 old-location: mscs\igetclusternodeinfo_getnodehandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d1932844-9900-4a16-8c9a-39f89bddfdb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

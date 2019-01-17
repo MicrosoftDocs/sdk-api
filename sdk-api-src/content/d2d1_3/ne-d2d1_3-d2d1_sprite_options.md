@@ -4,7 +4,7 @@ title: D2D1_SPRITE_OPTIONS
 author: windows-sdk-content
 description: Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to ID2D1DeviceContext3::DrawSpriteBatch.
 old-location: direct2d\d2d1_sprite_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 64B7D987-A79C-412C-8D12-53E21DD8DDD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

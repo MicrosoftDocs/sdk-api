@@ -4,7 +4,7 @@ title: PGET_FIRST_ORDERED_SERVICE
 author: windows-sdk-content
 description: The GetFirstOrderedService function returns the first service in the specified order from the designated subset of services in the table.
 old-location: rras\getfirstorderedservice.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 193ca671-3b1a-493f-a655-a27f6348f5d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

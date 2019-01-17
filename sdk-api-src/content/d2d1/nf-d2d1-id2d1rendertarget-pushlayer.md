@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::PushLayer
 author: windows-sdk-content
 description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
 old-location: direct2d\ID2D1RenderTarget_PushLayer_ptr_D2D1_LAYER_PARAMETERS_ptr_ID2D1Layer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0fc7ac38-ff74-4f3b-9aa2-025a99e6b013
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplication::CreateScope
 author: windows-sdk-content
 description: Creates an IAzScope object with the specified name.
 old-location: security\iazapplication_createscope.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6d5044d8-0b6a-4681-a8eb-e93f50fbdf36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

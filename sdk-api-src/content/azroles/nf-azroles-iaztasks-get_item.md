@@ -4,7 +4,7 @@ title: IAzTasks::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzTask object at the specified index into the IAzTasks collection.
 old-location: security\iaztasks_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: eddfebba-4f0e-405a-90b5-dbdc87dca3da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

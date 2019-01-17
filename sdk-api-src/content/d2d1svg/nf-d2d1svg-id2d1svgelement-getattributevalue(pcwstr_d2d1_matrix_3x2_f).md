@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Gets an attribute of this element as a matrix value. This method can be used to get the value of a transform or gradientTransform attribute.
 old-location: direct2d\id2d1svgelement_getattributevalue_12.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E36FCF86-0315-46D2-A3CA-E14F1D465C4C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

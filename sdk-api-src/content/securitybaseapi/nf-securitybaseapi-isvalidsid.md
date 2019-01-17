@@ -4,7 +4,7 @@ title: IsValidSid function
 author: windows-sdk-content
 description: Validates a security identifier (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
 old-location: security\isvalidsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0fb08512-90a1-4a5c-9b4c-121bf7701bba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

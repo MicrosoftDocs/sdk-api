@@ -4,7 +4,7 @@ title: ID2D1GeometryGroup
 author: windows-sdk-content
 description: Represents a composite geometry, composed of other ID2D1Geometry objects.
 old-location: direct2d\ID2D1GeometryGroup.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 15c3800c-b57c-4c3c-995f-407beee4cc99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -112,9 +112,13 @@ Direct2D geometries are immutable and device-independent resources created by <a
 
 The following code example first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <a href="https://msdn.microsoft.com/f1a14447-39fa-4a48-9516-ff5b03abc3a6">D2D1_FILL_MODE_ALTERNATE</a>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-
-```cpp
-ID2D1Geometry *ppGeometries[] =
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Geometry *ppGeometries[] =
 {
     m_pEllipseGeometry1,
     m_pEllipseGeometry2,
@@ -138,8 +142,10 @@ if (SUCCEEDED(hr))
         &m_pGeoGroup_WindingFill
         );
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following illustration shows the results of rendering the two group geometries from the example.

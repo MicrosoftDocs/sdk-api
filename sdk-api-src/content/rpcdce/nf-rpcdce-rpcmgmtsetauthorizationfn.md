@@ -4,7 +4,7 @@ title: RpcMgmtSetAuthorizationFn function
 author: windows-sdk-content
 description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.
 old-location: rpc\rpcmgmtsetauthorizationfn.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

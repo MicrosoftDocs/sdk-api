@@ -4,7 +4,7 @@ title: ClusAddClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusaddclusterhealthfault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
 ms.author: windowssdkdev
 ms.date: 12/5/2018

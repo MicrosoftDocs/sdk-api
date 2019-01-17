@@ -4,7 +4,7 @@ title: IGetClusterUIInfo::GetLocale
 author: windows-sdk-content
 description: Returns the locale identifier to be used with property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getlocale.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1ab4e6bb-0aba-4115-b068-171aaf0b7cef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

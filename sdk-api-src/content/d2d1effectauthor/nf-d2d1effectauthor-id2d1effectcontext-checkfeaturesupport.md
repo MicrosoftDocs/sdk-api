@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CheckFeatureSupport
 author: windows-sdk-content
 description: This indicates whether an optional capability is supported by the D3D device.
 old-location: direct2d\id2d1effectcontext_checkfeaturesupport.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1A97B928-7715-4D4E-AD38-7D01EE243494
 ms.author: windowssdkdev
 ms.date: 12/5/2018

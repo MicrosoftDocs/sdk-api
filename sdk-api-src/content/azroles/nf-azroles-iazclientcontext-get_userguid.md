@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserGuid
 author: windows-sdk-content
 description: Retrieves the name of the current client in GUID format.
 old-location: security\iazclientcontext_userguid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

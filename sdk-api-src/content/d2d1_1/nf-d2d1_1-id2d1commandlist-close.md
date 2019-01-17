@@ -4,7 +4,7 @@ title: ID2D1CommandList::Close
 author: windows-sdk-content
 description: Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to ID2D1DeviceContext::DrawImage.
 old-location: direct2d\id2d1commandlist_close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 161A8E33-25C7-4007-8397-D86EBA777D4D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

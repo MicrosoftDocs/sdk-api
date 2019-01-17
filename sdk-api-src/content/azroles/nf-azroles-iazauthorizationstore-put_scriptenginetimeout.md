@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::put_ScriptEngineTimeout
 author: windows-sdk-content
 description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 old-location: security\azauthorizationstore_scriptenginetimeout.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IPX_SERVER_ENTRY
 author: windows-sdk-content
 description: The IPX_SERVER_ENTRY structure describes a particular IPX service.
 old-location: rras\ipx_server_entry.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 5b865c28-6a0e-4af3-a646-c1082b5c3ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

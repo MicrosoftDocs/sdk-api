@@ -4,7 +4,7 @@ title: RpcBindingSetOption function
 author: windows-sdk-content
 description: The RpcBindingSetOption function enables client applications to specify message-queuing options on a binding handle.
 old-location: rpc\rpcbindingsetoption.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: bc721fb0-2271-4658-995b-a41e8eefc5d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

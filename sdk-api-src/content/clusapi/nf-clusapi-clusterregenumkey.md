@@ -4,7 +4,7 @@ title: ClusterRegEnumKey function
 author: windows-sdk-content
 description: Enumerates the subkeys of an open cluster database key.
 old-location: mscs\clusterregenumkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

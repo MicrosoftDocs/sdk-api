@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::RemoveCommandsAtEnd
 author: windows-sdk-content
 description: Removes commands from the end of the commands array.
 old-location: direct2d\id2d1svgpathdata_removecommandsatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A1DB006D-9986-482A-A9F0-9D7C22ABC604
 ms.author: windowssdkdev
 ms.date: 12/5/2018

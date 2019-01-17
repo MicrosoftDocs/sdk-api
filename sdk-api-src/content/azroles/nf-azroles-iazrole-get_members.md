@@ -4,7 +4,7 @@ title: IAzRole::get_Members
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs), in text form, of Windows accounts that belong to the role.
 old-location: security\iazrole_members.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 03391842-fc8a-4dc2-878e-4fe1c41cc4dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

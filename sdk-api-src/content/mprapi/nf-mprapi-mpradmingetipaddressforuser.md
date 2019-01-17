@@ -4,7 +4,7 @@ title: MprAdminGetIpAddressForUser function
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpAddressForUser function once for each user that requires an IP address.
 old-location: rras\mpradmingetipaddressforuser.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 79deeb39-1916-4bb0-b701-8f0a05dc55af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

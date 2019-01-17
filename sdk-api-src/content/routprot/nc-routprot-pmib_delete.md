@@ -4,7 +4,7 @@ title: PMIB_DELETE
 author: windows-sdk-content
 description: The MibDelete function passes an SNMP MIB-style Delete Request to the routing protocol.
 old-location: rras\mibdelete.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

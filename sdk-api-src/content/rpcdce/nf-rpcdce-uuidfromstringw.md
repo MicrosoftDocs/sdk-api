@@ -4,7 +4,7 @@ title: UuidFromStringW function
 author: windows-sdk-content
 description: The UuidFromString function converts a string to a UUID.
 old-location: rpc\uuidfromstring.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 90b3cf6b-a15b-4f91-9ba2-0e43fe3374df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

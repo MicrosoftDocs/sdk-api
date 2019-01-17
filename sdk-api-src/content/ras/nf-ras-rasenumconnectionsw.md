@@ -4,7 +4,7 @@ title: RasEnumConnectionsW function
 author: windows-sdk-content
 description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 old-location: rras\rasenumconnections.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.author: windowssdkdev
 ms.date: 12/5/2018

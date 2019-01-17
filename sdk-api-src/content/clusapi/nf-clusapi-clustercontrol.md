@@ -4,7 +4,7 @@ title: ClusterControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a cluster.
 old-location: mscs\clustercontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

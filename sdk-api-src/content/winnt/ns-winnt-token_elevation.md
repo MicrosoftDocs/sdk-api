@@ -4,7 +4,7 @@ title: TOKEN_ELEVATION
 author: windows-sdk-content
 description: Indicates whether a token has elevated privileges.
 old-location: security\token_elevation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a1c87818-f092-43cf-872d-4bb2590a944b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

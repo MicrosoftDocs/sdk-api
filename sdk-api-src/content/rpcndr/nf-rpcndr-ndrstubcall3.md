@@ -4,7 +4,7 @@ title: NdrStubCall3 function
 author: windows-sdk-content
 description: NdrStubCall3 is not intended to be directly called by applications.
 old-location: rpc\ndrstubcall3.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

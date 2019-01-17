@@ -4,7 +4,7 @@ title: RpcRevertContainerImpersonation function
 author: windows-sdk-content
 description: RpcRevertContainerImpersonation may be altered or unavailable.
 old-location: rpc\rpcrevertcontainerimpersonation.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SID_INFO
 author: windows-sdk-content
 description: Contains the list of common names corresponding to the SID structures returned by ISecurityInformation2::LookupSids.
 old-location: security\sid_info.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

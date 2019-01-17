@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetTextRenderingParams
 author: windows-sdk-content
 description: Retrieves the render target's current text rendering options.
 old-location: direct2d\ID2D1RenderTarget_GetTextRenderingParams.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 563a13c9-7f13-4b38-afa1-72e847dc8349
 ms.author: windowssdkdev
 ms.date: 12/5/2018

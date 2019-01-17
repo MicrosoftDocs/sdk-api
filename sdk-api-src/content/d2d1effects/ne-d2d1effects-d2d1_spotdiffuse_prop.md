@@ -4,7 +4,7 @@ title: D2D1_SPOTDIFFUSE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Spot-diffuse lighting effect.
 old-location: direct2d\d2d1_spotdiffuse_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 64F7B03C-DD29-4B23-9C8B-2D0390AD61B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

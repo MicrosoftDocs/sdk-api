@@ -4,7 +4,7 @@ title: ID2D1SvgPaint
 author: windows-sdk-content
 description: Interface describing an SVG fill or stroke value.
 old-location: direct2d\id2d1svgpaint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 80FE02F1-D83B-4AA1-94F1-B754106CB19D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

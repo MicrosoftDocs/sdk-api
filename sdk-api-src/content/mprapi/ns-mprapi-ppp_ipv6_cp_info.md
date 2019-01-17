@@ -4,7 +4,7 @@ title: PPP_IPV6_CP_INFO
 author: windows-sdk-content
 description: Contains the result of an IPv6 control protocol negotiation.
 old-location: rras\ppp_ipv6cp_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fb77a15d-a513-456d-9d55-258b93fe8db5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

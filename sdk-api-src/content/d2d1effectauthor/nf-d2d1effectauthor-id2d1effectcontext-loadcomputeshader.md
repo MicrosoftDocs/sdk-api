@@ -4,7 +4,7 @@ title: ID2D1EffectContext::LoadComputeShader
 author: windows-sdk-content
 description: Loads the given shader by its unique ID.
 old-location: direct2d\id2d1contextinternal_loadcomputeshader.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 64CA9647-8E9E-417D-A8D4-71AAF58F1C32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

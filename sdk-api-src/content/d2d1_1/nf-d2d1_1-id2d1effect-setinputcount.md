@@ -4,7 +4,7 @@ title: ID2D1Effect::SetInputCount
 author: windows-sdk-content
 description: Allows the application to change the number of inputs to an effect.
 old-location: direct2d\id2d1effect_setnumberofinputs.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cdcaa997-acbe-40e3-9439-629b3853d8d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

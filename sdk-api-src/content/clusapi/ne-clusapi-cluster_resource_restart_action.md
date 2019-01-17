@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_RESTART_ACTION
 author: windows-sdk-content
 description: Used by the RestartAction&#32;resource common property to specify the action to be taken by the cluster service if the resource fails.
 old-location: mscs\cluster_resource_restart_action.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6300bdb7-2349-44f8-913a-dd84813bd3bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

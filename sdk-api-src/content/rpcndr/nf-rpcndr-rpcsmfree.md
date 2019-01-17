@@ -4,7 +4,7 @@ title: RpcSmFree function
 author: windows-sdk-content
 description: The RpcSmFree function releases memory allocated by RpcSmAllocate.
 old-location: rpc\rpcsmfree.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: d8f7fae4-4d91-4f91-9018-c4bcdb4d6c65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

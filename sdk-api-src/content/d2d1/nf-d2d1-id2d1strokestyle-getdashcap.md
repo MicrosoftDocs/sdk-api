@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle::GetDashCap
 author: windows-sdk-content
 description: Gets a value that specifies how the ends of each dash are drawn.
 old-location: direct2d\ID2D1StrokeStyle_GetDashCap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42e5d760-dee0-4360-be47-6db9870d51f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

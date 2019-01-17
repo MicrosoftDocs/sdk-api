@@ -4,7 +4,7 @@ title: D2D1_PATCH_EDGE_MODE
 author: windows-sdk-content
 description: Specifies how to render gradient mesh edges.
 old-location: direct2d\d2d1_patch_edge_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5AE38632-B068-4A14-9DAB-67FD58E3894B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

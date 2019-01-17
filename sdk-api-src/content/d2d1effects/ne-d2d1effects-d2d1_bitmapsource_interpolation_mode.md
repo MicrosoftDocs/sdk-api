@@ -4,7 +4,7 @@ title: D2D1_BITMAPSOURCE_INTERPOLATION_MODE
 author: windows-sdk-content
 description: The interpolation mode used to scale the image in the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2912E2FA-4B1D-43FF-9684-22C3B2720395
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterNodeOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through the network interfaces or groups installed on a node.
 old-location: mscs\clusternodeopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f187f4d7-24c8-477d-91fc-0ef738b66f22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

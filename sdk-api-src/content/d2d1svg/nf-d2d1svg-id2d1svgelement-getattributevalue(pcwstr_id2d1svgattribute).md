@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgAttribute)
 author: windows-sdk-content
 description: Gets an attribute of this element.
 old-location: direct2d\id2d1svgelement_getattributevalue_17.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5D20D5D2-16CB-47E6-A150-73C49F117616
 ms.author: windowssdkdev
 ms.date: 12/5/2018

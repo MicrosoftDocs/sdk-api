@@ -4,7 +4,7 @@ title: IUnknown_QueryInterface_Proxy function
 author: windows-sdk-content
 description: The IUnknown_QueryInterface_Proxy function implements the QueryInterface method for all interface proxies.
 old-location: rpc\iunknown_queryinterface_proxy.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

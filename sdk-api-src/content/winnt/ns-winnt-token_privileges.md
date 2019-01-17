@@ -4,7 +4,7 @@ title: TOKEN_PRIVILEGES
 author: windows-sdk-content
 description: Contains information about a set of privileges for an access token.
 old-location: security\token_privileges.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c9016511-740f-44f3-92ed-17cc518c6612
 ms.author: windowssdkdev
 ms.date: 12/5/2018

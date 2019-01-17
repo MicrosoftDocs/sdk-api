@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::Submit
 author: windows-sdk-content
 description: Persists changes made to the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_submit.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: bf2962af-0e8f-4c4c-a63a-dfd623308e4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

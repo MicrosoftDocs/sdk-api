@@ -4,7 +4,7 @@ title: CLUSPROP_VALUE
 author: windows-sdk-content
 description: Describes the syntax and length of a data value used in a value list. The CLUSPROP_VALUE structure is used as a generic header in all of the structures that describe data of a particular type, such as CLUSPROP_BINARY and CLUSPROP_SZ.
 old-location: mscs\clusprop_value.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

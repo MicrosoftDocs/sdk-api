@@ -4,7 +4,7 @@ title: D2D1_SVG_ASPECT_ALIGN
 author: windows-sdk-content
 description: The alignment portion of the SVG preserveAspectRatio attribute.
 old-location: direct2d\d2d1_svg_aspect_align.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9B60A60B-7838-404B-B39E-75A8F0F90DF8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

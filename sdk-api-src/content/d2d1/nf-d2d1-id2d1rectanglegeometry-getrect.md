@@ -4,7 +4,7 @@ title: ID2D1RectangleGeometry::GetRect
 author: windows-sdk-content
 description: Retrieves the rectangle that describes the rectangle geometry's dimensions.
 old-location: direct2d\ID2D1RectangleGeometry_GetRect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9c9858d0-abb0-4ab5-8e7f-e613b256bbd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

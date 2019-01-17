@@ -4,7 +4,7 @@ title: D2D1_PATH_SEGMENT
 author: windows-sdk-content
 description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PATH_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 375a0a40-ec98-4f41-9c15-d284f8b17a73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

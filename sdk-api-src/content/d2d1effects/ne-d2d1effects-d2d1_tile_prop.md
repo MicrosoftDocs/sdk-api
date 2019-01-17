@@ -4,7 +4,7 @@ title: D2D1_TILE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Tile effect.
 old-location: direct2d\d2d1_tile_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F5A1A309-1844-4C8A-8F6F-0E2D82CB4AFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

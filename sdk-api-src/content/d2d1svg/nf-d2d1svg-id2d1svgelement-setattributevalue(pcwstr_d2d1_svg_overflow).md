@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_OVERFLOW)
 author: windows-sdk-content
 description: Sets an attribute of this element as an overflow value. This method can be used to set the value of the overflow property.
 old-location: direct2d\id2d1svgelement_setattributevalue_8.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C8D942A4-EBE7-433E-9B2F-2432A1305861
 ms.author: windowssdkdev
 ms.date: 12/5/2018

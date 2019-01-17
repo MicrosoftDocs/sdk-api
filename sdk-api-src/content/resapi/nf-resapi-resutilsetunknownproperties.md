@@ -4,7 +4,7 @@ title: ResUtilSetUnknownProperties function
 author: windows-sdk-content
 description: Stores a cluster object's unknown properties in the cluster database.
 old-location: mscs\resutilsetunknownproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ee729a3d-9d10-459c-b57d-de17f29d8ae8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

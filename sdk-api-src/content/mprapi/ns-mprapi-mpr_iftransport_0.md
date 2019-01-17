@@ -4,7 +4,7 @@ title: MPR_IFTRANSPORT_0
 author: windows-sdk-content
 description: The MPR_IFTRANSPORT_0 structure contains information for a particular interface transport.
 old-location: rras\mpr_iftransport_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4ee360be-fe5f-477e-901f-92d083f68451
 ms.author: windowssdkdev
 ms.date: 12/5/2018

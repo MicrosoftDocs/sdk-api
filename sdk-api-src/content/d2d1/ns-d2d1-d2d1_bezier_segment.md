@@ -4,7 +4,7 @@ title: D2D1_BEZIER_SEGMENT
 author: windows-sdk-content
 description: Represents a cubic bezier segment drawn between two points.
 old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

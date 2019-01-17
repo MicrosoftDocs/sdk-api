@@ -4,7 +4,7 @@ title: VM_RESDLL_CONTEXT
 author: windows-sdk-content
 description: Contains actions for a virtual machine to perform.
 old-location: mscs\vm_resdll_context.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F01306D5-9D46-4489-AB38-67029EEFE6D0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

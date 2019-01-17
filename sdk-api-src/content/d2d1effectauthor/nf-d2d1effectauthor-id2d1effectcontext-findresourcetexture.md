@@ -4,7 +4,7 @@ title: ID2D1EffectContext::FindResourceTexture
 author: windows-sdk-content
 description: Finds the given resource texture if it has already been created with ID2D1EffectContext::CreateResourceTexture with the same GUID.
 old-location: direct2d\id2d1effectcontext_findresourcetexture.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7E205798-A9E1-4213-925B-7A5DF918F60E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TOKEN_INFORMATION_CLASS
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: security\token_information_class.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cb606665-1266-4e71-a145-9b04bf157cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

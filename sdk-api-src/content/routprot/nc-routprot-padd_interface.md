@@ -4,7 +4,7 @@ title: PADD_INTERFACE
 author: windows-sdk-content
 description: The AddInterface function adds an interface to be managed by the routing protocol.
 old-location: rras\addinterface.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310
 ms.author: windowssdkdev
 ms.date: 12/5/2018

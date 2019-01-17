@@ -4,7 +4,7 @@ title: SID_AND_ATTRIBUTES_HASH
 author: windows-sdk-content
 description: Specifies a hash values for the specified array of security identifiers (SIDs).
 old-location: security\sid_and_attributes_hash.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ef6e32f5-b47e-463e-a447-bed149b8d616
 ms.author: windowssdkdev
 ms.date: 12/5/2018

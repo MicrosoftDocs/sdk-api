@@ -4,7 +4,7 @@ title: PONLINE_V2_ROUTINE
 author: windows-sdk-content
 description: Marks a resource as available for use.
 old-location: mscs\onlinev2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0462CDFD-6499-4FF8-8B5C-4DC15AC30169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

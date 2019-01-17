@@ -4,7 +4,7 @@ title: IGetClusterResourceInfo::GetResourceTypeName
 author: windows-sdk-content
 description: Returns the type of a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_COLORMANAGEMENT_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the Color management effect.
 old-location: direct2d\d2d1_colormanagement_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1003B981-5F12-4CE9-B4A5-2E96CAEE6AC8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

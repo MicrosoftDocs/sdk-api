@@ -4,7 +4,7 @@ title: SECURITY_OBJECT
 author: windows-sdk-content
 description: Contains the security object information.
 old-location: security\security_object.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: C3E61527-76AB-49E9-8BBD-486F437CC677
 ms.author: windowssdkdev
 ms.date: 12/5/2018

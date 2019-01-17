@@ -4,7 +4,7 @@ title: Matrix3x2F::Rotation
 author: windows-sdk-content
 description: Creates a rotation transformation that has the specified angle and center point.
 old-location: direct2d\matrix3x2f_rotate.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

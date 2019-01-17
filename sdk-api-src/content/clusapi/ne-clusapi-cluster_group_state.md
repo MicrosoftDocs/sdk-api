@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_STATE
 author: windows-sdk-content
 description: Enumerates the possible states of a group.
 old-location: mscs\cluster_group_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1dbc5494-a830-4ee7-b982-48792ad87c51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterNodeEnum function
 author: windows-sdk-content
 description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.
 old-location: mscs\clusternodeenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e184ef8e-9ec6-4d84-a3d0-850298262b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

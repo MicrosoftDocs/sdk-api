@@ -4,7 +4,7 @@ title: CLUSPROP_LARGE_INTEGER
 author: windows-sdk-content
 description: Describes a signed large integer.
 old-location: mscs\clusprop_large_integer.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3e0849e6-3d93-47cb-858d-9891451b8dfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -55,9 +55,7 @@ Describes
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the integer value.</li>
 <li>Assigned large integer value.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly.
-
+</ul>
 
 ## -struct-fields
 
@@ -71,20 +69,8 @@ Signed large integer value.
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing 
-       the format and type of the unsigned large integer.
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a  <b>cbLength</b> field indicating 
        the count of bytes in the <b>li</b> member.
 
 

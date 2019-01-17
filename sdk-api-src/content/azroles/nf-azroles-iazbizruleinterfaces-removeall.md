@@ -4,7 +4,7 @@ title: IAzBizRuleInterfaces::RemoveAll
 author: windows-sdk-content
 description: Removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_removeall_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

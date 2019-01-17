@@ -4,7 +4,7 @@ title: RpcCancelThread function
 author: windows-sdk-content
 description: The RpcCancelThread function cancels a thread. The RpcCancelThread function should not be used to cancel asynchronous RPC calls; instead, use the RpcAsyncCancelCall function to cancel an asynchronous RPC call.
 old-location: rpc\rpccancelthread.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4315562e-674b-40a4-a2d9-133e6ab27c25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

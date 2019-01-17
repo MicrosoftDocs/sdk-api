@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_QUORUM_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for quorum-specific information.
 old-location: mscs\cluster_change_quorum_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 373E451C-B05F-4D46-9303-60D2C6090228
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcBindingInqAuthClientExW function
 author: windows-sdk-content
 description: A server application calls the RpcBindingInqAuthClientEx function to obtain extended information about the client program that made the remote procedure call.
 old-location: rpc\rpcbindinginqauthclientex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MPR_INTERFACE_1
 author: windows-sdk-content
 description: The MPR_INTERFACE_1 structure contains configuration and status information for a particular router interface.
 old-location: rras\mpr_interface_1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 90a3da46-7dd1-428b-ab72-d5defa710225
 ms.author: windowssdkdev
 ms.date: 12/5/2018

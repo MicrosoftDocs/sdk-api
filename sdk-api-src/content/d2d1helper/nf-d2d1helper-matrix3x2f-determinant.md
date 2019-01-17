@@ -4,7 +4,7 @@ title: Matrix3x2F::Determinant
 author: windows-sdk-content
 description: Calculates the determinant of the matrix.
 old-location: direct2d\matrix3x2f_determinant.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0b403b67-11a7-48cf-9e29-ce29f8511749
 ms.author: windowssdkdev
 ms.date: 12/5/2018

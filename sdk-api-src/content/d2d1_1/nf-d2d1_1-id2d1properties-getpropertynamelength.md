@@ -4,7 +4,7 @@ title: ID2D1Properties::GetPropertyNameLength
 author: windows-sdk-content
 description: Gets the number of characters for the given property name.
 old-location: direct2d\id2d1properties_getpropertynamelength.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9c4b86d1-db5b-41cd-9dd4-85a8bb03dd20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetClusterResourceName function
 author: windows-sdk-content
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

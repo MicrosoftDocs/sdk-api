@@ -4,7 +4,7 @@ title: ResUtilVerifyPropertyTable function
 author: windows-sdk-content
 description: Uses a property table to verify that a property list is correctly formatted.
 old-location: mscs\resutilverifypropertytable.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

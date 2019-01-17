@@ -4,7 +4,7 @@ title: ID2D1RenderInfo
 author: windows-sdk-content
 description: Describes the render information common to all of the various transform implementations.
 old-location: direct2d\id2d1renderinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 26FB6D27-7EE0-43DA-A575-D9FF77846A16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

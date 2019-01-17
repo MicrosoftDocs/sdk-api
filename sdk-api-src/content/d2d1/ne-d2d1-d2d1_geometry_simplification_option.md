@@ -4,7 +4,7 @@ title: D2D1_GEOMETRY_SIMPLIFICATION_OPTION
 author: windows-sdk-content
 description: Specifies how a geometry is simplified to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\D2D1_GEOMETRY_SIMPLIFICATION_OPTION.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cda5968b-843b-4759-ae0f-cb83e9990590
 ms.author: windowssdkdev
 ms.date: 12/5/2018

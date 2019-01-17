@@ -4,7 +4,7 @@ title: RtmDeleteRouteToDest function
 author: windows-sdk-content
 description: The RtmDeleteRouteToDest function deletes a route from the routing table and updates the best-route information for the corresponding destination, if the best route changed. If the best route changes, a change notification is generated.
 old-location: rras\rtmdeleteroutetodest.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d82e68b4-aff4-4872-b719-d9354f35024c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

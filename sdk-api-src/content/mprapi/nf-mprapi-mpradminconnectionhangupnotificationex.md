@@ -4,7 +4,7 @@ title: MprAdminConnectionHangupNotificationEx function
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotificationex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: de251e1b-53ff-45c8-8e2e-65ac26b4a7f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

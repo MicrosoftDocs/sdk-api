@@ -4,7 +4,7 @@ title: ResUtilEnumPrivateProperties function
 author: windows-sdk-content
 description: Retrieves the names of a cluster object's&#32;private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumprivateproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 83e08a14-4f0f-4c5b-9066-53ee5bb45901
 ms.author: windowssdkdev
 ms.date: 12/5/2018

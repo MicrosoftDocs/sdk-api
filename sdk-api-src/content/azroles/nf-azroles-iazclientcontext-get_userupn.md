@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserUpn
 author: windows-sdk-content
 description: Retrieves the name of the current client in user principal name (UPN) format.
 old-location: security\iazclientcontext_userupn.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e54d450b-7059-43c7-9c08-688975031401
 ms.author: windowssdkdev
 ms.date: 12/5/2018

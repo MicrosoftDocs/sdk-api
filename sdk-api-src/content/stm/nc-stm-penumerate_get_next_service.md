@@ -4,7 +4,7 @@ title: PENUMERATE_GET_NEXT_SERVICE
 author: windows-sdk-content
 description: The EnumerateGetNextService function returns the next service entry in an enumeration started by CreateServiceEnumerationHandle.
 old-location: rras\enumerategetnextservice.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 45d0ccaa-97d5-4a14-9983-dc0ca268ed4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

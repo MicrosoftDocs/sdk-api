@@ -4,7 +4,7 @@ title: GetAppContainerNamedObjectPath function
 author: windows-sdk-content
 description: Retrieves the named object path for the app container.
 old-location: security\getappcontainernamedobjectpath.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 466CE2DA-332E-4AA7-A0EB-868A646C0979
 ms.author: windowssdkdev
 ms.date: 12/5/2018

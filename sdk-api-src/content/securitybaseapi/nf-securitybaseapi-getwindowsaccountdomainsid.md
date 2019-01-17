@@ -4,7 +4,7 @@ title: GetWindowsAccountDomainSid function
 author: windows-sdk-content
 description: Receives a security identifier (SID) and returns a SID representing the domain of that SID.
 old-location: security\getwindowsaccountdomainsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ee2ba1b4-1bef-4d79-bb18-512705e2c378
 ms.author: windowssdkdev
 ms.date: 12/5/2018

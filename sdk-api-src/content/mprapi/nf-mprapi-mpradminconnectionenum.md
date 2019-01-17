@@ -4,7 +4,7 @@ title: MprAdminConnectionEnum function
 author: windows-sdk-content
 description: The MprAdminConnectionEnum function enumerates all active connections.
 old-location: rras\mpradminconnectionenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 27be536e-0437-4e30-aef7-ed92f50baeaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::AddOperation
 author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the task.
 old-location: security\iaztask_addoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 73da7094-440c-4e68-8d43-9f4ba26dd14b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLAIM_SECURITY_ATTRIBUTES_INFORMATION
 author: windows-sdk-content
 description: Defines the security attributes for the claim.
 old-location: security\claim_security_attributes_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

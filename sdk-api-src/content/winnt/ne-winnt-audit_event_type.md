@@ -4,7 +4,7 @@ title: AUDIT_EVENT_TYPE
 author: windows-sdk-content
 description: Defines values that indicate the type of object being audited. The AccessCheckByTypeAndAuditAlarm and AccessCheckByTypeResultListAndAuditAlarm functions use these values.
 old-location: security\audit_event_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7dc21840-6dcc-445b-a254-f8ca27008d63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

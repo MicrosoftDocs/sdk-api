@@ -4,7 +4,7 @@ title: ID2D1Device2::FlushDeviceContexts
 author: windows-sdk-content
 description: Flush all device contexts that reference a given bitmap.
 old-location: direct2d\id2d1device2_flushdevicecontexts.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 914A64BA-61CD-4A66-91D8-F7CC040AF67A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

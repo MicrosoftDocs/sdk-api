@@ -4,7 +4,7 @@ title: IAzScope::OpenRole
 author: windows-sdk-content
 description: Opens an IAzRole object with the specified name.
 old-location: security\iazscope_openrole.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 55ec166e-5aad-411d-8cc4-0d789c8397c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

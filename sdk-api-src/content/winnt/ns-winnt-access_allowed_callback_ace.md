@@ -4,7 +4,7 @@ title: ACCESS_ALLOWED_CALLBACK_ACE
 author: windows-sdk-content
 description: The ACCESS_ALLOWED_CALLBACK_ACE structure defines an access control entry for the discretionary access control list that controls access to an object.
 old-location: security\access_allowed_callback_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0dbca19b-4b54-4c55-920a-c00335692d68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SI_INHERIT_TYPE
 author: windows-sdk-content
 description: Contains information about how access control entries (ACEs) can be inherited by child objects.
 old-location: security\si_inherit_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

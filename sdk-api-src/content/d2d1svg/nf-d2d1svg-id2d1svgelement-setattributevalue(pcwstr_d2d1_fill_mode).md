@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_FILL_MODE)
 author: windows-sdk-content
 description: Sets an attribute of this element as a fill mode. This method can be used to set the value of the 'fill-rule' or 'clip-rule' properties.
 old-location: direct2d\id2d1svgelement_setattributevalue_6.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49EFE20B-4122-4426-9A47-7572696A59A2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

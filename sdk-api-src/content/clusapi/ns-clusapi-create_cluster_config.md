@@ -4,7 +4,7 @@ title: CREATE_CLUSTER_CONFIG
 author: windows-sdk-content
 description: Defines the initial cluster configuration.
 old-location: mscs\create_cluster_config.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

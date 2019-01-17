@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the AzAuthorizationStore object property with the specified property ID.
 old-location: security\azauthorizationstore_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c71a022f-8244-4263-8ff6-6c2d9562fcd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SID
 author: windows-sdk-content
 description: Used to uniquely identify users or groups.
 old-location: security\sid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 328fba4e-e590-4174-9274-52dad58cb91f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

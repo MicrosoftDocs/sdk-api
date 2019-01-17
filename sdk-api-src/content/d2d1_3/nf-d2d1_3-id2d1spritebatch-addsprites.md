@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch::AddSprites
 author: windows-sdk-content
 description: Adds the given sprites to the end of this sprite batch.
 old-location: direct2d\id2d1spritebatch_addsprites.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 49EA1F42-76C3-4505-B46A-422A336A13F6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

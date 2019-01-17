@@ -4,7 +4,7 @@ title: PGET_NEIGHBORS
 author: windows-sdk-content
 description: The router manager calls the GetNeighbors function to obtain the querier for the network attached through the specified interface.
 old-location: rras\getneighbors.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 31a28a43-3cfd-4d3c-813e-8f8289d99712
 ms.author: windowssdkdev
 ms.date: 12/5/2018

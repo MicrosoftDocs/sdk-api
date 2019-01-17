@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetTextValueLength
 author: windows-sdk-content
 description: Gets the length of the text content value.
 old-location: direct2d\id2d1svgelement_gettextvaluelength.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DC644B2A-3DBF-46D7-B5A3-88FD0BC51D38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

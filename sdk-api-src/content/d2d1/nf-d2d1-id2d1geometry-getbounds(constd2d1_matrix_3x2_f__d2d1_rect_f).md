@@ -4,7 +4,7 @@ title: ID2D1Geometry::GetBounds(const D2D1_MATRIX_3X2_F &,D2D1_RECT_F)
 author: windows-sdk-content
 description: Retrieves the bounds of the geometry.
 old-location: direct2d\ID2D1Geometry_GetBounds_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a161de0f-18ed-49e3-bf80-6bb9c3e3b332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

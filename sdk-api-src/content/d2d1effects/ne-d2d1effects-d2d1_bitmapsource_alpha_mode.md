@@ -4,7 +4,7 @@ title: D2D1_BITMAPSOURCE_ALPHA_MODE
 author: windows-sdk-content
 description: Specifies the alpha mode of the output of the Bitmap source effect.
 old-location: direct2d\d2d1_bitmapsource_alpha_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2DC16975-3ABF-4880-9F62-2EE55FE604F6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

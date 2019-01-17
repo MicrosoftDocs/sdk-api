@@ -4,7 +4,7 @@ title: TOKEN_AUDIT_POLICY
 author: windows-sdk-content
 description: Specifies the per user audit policy for a token.
 old-location: security\token_audit_policy.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 02c03560-4886-4a63-ba0d-c77494d6595e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

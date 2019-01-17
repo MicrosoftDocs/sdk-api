@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::BeginFigure
 author: windows-sdk-content
 description: Starts a new figure at the specified point.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -90,15 +90,24 @@ If this method is called while a figure is currently in progress, the interface 
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -140,8 +149,10 @@ if (SUCCEEDED(hr))
         SafeRelease(&pSink);
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

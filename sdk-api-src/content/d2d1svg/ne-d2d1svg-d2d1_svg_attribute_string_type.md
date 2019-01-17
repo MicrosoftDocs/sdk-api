@@ -4,7 +4,7 @@ title: D2D1_SVG_ATTRIBUTE_STRING_TYPE
 author: windows-sdk-content
 description: Defines the type of SVG string attribute to set or get.
 old-location: direct2d\d2d1_svg_attribute_string_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 71991A28-FEA0-42A1-B5D0-DA13BBA77500
 ms.author: windowssdkdev
 ms.date: 12/5/2018

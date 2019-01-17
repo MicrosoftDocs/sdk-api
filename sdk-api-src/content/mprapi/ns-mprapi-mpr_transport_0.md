@@ -4,7 +4,7 @@ title: MPR_TRANSPORT_0
 author: windows-sdk-content
 description: The MPR_TRANSPORT_0 structure contains information for a particular transport.
 old-location: rras\mpr_transport_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f5515a39-377d-4767-b508-2306832d81f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

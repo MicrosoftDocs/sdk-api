@@ -83,9 +83,13 @@ None.
 <a href="https://msdn.microsoft.com/en-us/library/Ee419612(v=VS.85).aspx">XMFLOAT4X3A</a> is a row-major matrix form. This function cannot be used 
    to write out column-major data since it assumes the last column is 
 
-
-```
-assert(pDestination);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>assert(pDestination);
 assert(((uint32_t_PTR)pDestination & 0xF) == 0);
 
 pDestination->m[0][0] = M.r[0].v[0];
@@ -102,8 +106,10 @@ pDestination->m[2][2] = M.r[2].v[2];
 
 pDestination->m[3][0] = M.r[3].v[0];
 pDestination->m[3][1] = M.r[3].v[1];
-pDestination->m[3][2] = M.r[3].v[2];
-```
+pDestination->m[3][2] = M.r[3].v[2];</pre>
+</td>
+</tr>
+</table></span></div>
 
 .
 

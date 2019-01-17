@@ -4,7 +4,7 @@ title: PEND_CONTROL_CALL
 author: windows-sdk-content
 description: Called when a resource control code operation completes. The PEND_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\endcontrolcall.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
 ms.author: windowssdkdev
 ms.date: 12/5/2018

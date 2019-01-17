@@ -4,7 +4,7 @@ title: ROUTER_CUSTOM_IKEv2_POLICY0
 author: windows-sdk-content
 description: Contains the IKEv2 main mode and quick mode policy configuration.
 old-location: rras\router_custom_ikev2_policy0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 46ea7b05-0d2d-4ba1-b3c3-fab67eabf552
 ms.author: windowssdkdev
 ms.date: 12/5/2018

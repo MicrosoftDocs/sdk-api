@@ -4,7 +4,7 @@ title: IAzScope::AddPolicyAdministratorName
 author: windows-sdk-content
 description: The AddPolicyAdministratorName method of IAzScope adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministratorname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a160e4cb-e779-413e-9d8a-5fb9684a48f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

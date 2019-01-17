@@ -4,7 +4,7 @@ title: ID2D1Device3::CreateDeviceContext
 author: windows-sdk-content
 description: Creates a new ID2D1DeviceContext3 from this Direct2D device.
 old-location: direct2d\id2d1device3_createdevicecontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DA82C681-7A9B-42A4-AC02-CD8ACFDB7F0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

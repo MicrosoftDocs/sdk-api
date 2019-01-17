@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::DrawBitmap(ID2D1Bitmap,const D2D1_RECT_F &,FLOAT,D2D1_
 author: windows-sdk-content
 description: Draws the specified bitmap after scaling it to the size of the specified rectangle.
 old-location: direct2d\ID2D1RenderTarget_DrawBitmap_ptr_ID2D1Bitmap_ref_D2D_RECT_F_FLOAT_D2D1_BITMAP_INTERPOLATION_MODE_ref_D2D_RECT_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7a02772f-dc7a-4fc3-8695-a29810fb080b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::BeginDraw
 author: windows-sdk-content
 description: Initiates drawing on this render target.
 old-location: direct2d\ID2D1RenderTarget_BeginDraw.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0562b286-7427-4d76-b699-a39356496a0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

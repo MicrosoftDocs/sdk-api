@@ -4,7 +4,7 @@ title: CloseClusterNetInterface function
 author: windows-sdk-content
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

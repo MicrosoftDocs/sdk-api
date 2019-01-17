@@ -4,7 +4,7 @@ title: IGetClusterUIInfo::GetIcon
 author: windows-sdk-content
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowssdkdev
 ms.date: 12/5/2018

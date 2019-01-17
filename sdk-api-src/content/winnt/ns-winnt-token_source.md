@@ -4,7 +4,7 @@ title: TOKEN_SOURCE
 author: windows-sdk-content
 description: Identifies the source of an access token.
 old-location: security\token_source.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

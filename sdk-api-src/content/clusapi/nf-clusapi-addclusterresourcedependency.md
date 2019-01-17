@@ -4,7 +4,7 @@ title: AddClusterResourceDependency function
 author: windows-sdk-content
 description: Creates a dependency relationship between two resources.
 old-location: mscs\addclusterresourcedependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

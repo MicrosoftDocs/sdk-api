@@ -4,7 +4,7 @@ title: IAzBizRuleParameters::get_Count
 author: windows-sdk-content
 description: Gets the number of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_count_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5ba6f289-2349-444b-8693-53aadb0ea4d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

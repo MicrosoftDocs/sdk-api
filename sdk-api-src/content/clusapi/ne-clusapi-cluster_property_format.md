@@ -4,7 +4,7 @@ title: CLUSTER_PROPERTY_FORMAT
 author: windows-sdk-content
 description: Specifies the data type of a property value in a property list.
 old-location: mscs\cluster_property_format.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a5e06aaf-96ef-41e9-ab73-c0edc8f34d12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

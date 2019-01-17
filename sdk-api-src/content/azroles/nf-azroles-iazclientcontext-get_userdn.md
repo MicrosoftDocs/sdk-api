@@ -4,7 +4,7 @@ title: IAzClientContext::get_UserDn
 author: windows-sdk-content
 description: Retrieves the name of the current client in distinguished name (DN) format.
 old-location: security\iazclientcontext_userdn.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1561352c-254e-41a2-bfc9-795a678ce180
 ms.author: windowssdkdev
 ms.date: 12/5/2018

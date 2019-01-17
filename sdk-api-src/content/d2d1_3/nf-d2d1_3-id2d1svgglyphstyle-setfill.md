@@ -4,7 +4,7 @@ title: ID2D1SvgGlyphStyle::SetFill
 author: windows-sdk-content
 description: Provides values to an SVG glyph for fill.
 old-location: direct2d\id2d1svgglyphstyle_setfill.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7F8D423C-6A3A-4240-87E9-515F5FE29C1D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: "_EVENT_CALLBACK"
 author: windows-sdk-content
 description: The RTM_EVENT_CALLBACK callback is used by the routing table manager to inform a client that the specified event occurred.
 old-location: rras\rtm_event_callback.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 57179cea-d92b-4199-bb61-b34d980532cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

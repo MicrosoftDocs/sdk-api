@@ -516,9 +516,13 @@ The following example shows you how to use the
      <a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a> functions to 
      filter on specific conditions in a logger session.
 
-
-```cpp
-#define INITGUID  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define INITGUID  
 #include <windows.h>  
 #include <stdlib.h>  
 #include <stdio.h>  
@@ -820,8 +824,10 @@ Exit:
   
     return Status;  
 }  
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

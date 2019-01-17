@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::SetDpi
 author: windows-sdk-content
 description: Sets the dots per inch (DPI) of the render target.
 old-location: direct2d\ID2D1RenderTarget_SetDpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 603a838b-4abc-4adf-93a9-ec8535d42ed6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

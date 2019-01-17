@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
 author: windows-sdk-content
 description: Upgrades this authorization store from version 1 to version 2.
 old-location: security\iazauthorizationstore3_upgradestoresfunctionallevel_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7719e3fd-5b06-468c-9034-f1f0bb41a5be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

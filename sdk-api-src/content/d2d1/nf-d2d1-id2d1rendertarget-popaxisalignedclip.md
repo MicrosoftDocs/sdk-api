@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::PopAxisAlignedClip
 author: windows-sdk-content
 description: Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_PopAxisAlignedClip.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0f0a2826-2356-4ced-a372-5bb59dd394ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

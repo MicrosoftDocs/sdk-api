@@ -4,7 +4,7 @@ title: ClusterGroupGetEnumCount function
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a group enumeration handle.
 old-location: mscs\clustergroupgetenumcount.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

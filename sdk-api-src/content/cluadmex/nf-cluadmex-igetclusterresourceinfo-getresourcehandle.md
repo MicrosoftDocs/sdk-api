@@ -4,7 +4,7 @@ title: IGetClusterResourceInfo::GetResourceHandle
 author: windows-sdk-content
 description: Returns a handle to a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcehandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a03436da-e12a-45ac-9ac1-1d1896f87fd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

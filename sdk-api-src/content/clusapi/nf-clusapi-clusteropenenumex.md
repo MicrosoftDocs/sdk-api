@@ -4,7 +4,7 @@ title: ClusterOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to a cluster in order to iterate through its objects.
 old-location: mscs\clusteropenenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcNsBindingImportBeginW function
 author: windows-sdk-content
 description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
 old-location: rpc\rpcnsbindingimportbegin.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

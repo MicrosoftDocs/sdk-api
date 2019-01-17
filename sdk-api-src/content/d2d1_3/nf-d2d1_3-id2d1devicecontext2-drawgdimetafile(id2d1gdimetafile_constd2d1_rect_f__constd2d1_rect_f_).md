@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::DrawGdiMetafile(ID2D1GdiMetafile,const D2D1_RECT_F &
 author: windows-sdk-content
 description: Draws a metafile to the device context using the given source and destination rectangles.
 old-location: direct2d\id2d1devicecontext2_drawgdimetafile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 643c929f-9be9-ee5f-fc77-476e7596c965
 ms.author: windowssdkdev
 ms.date: 12/5/2018

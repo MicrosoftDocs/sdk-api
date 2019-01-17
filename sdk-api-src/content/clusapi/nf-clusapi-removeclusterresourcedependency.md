@@ -4,7 +4,7 @@ title: RemoveClusterResourceDependency function
 author: windows-sdk-content
 description: Removes a dependency relationship between two resources.
 old-location: mscs\removeclusterresourcedependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3640ad8d-db0d-4e55-bff0-35fb5d26776f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

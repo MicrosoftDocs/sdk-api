@@ -4,7 +4,7 @@ title: ID2D1Device1::SetRenderingPriority
 author: windows-sdk-content
 description: Sets the priority of Direct2D rendering operations performed on any device context associated with the device.
 old-location: direct2d\id2d1device1_setrenderingpriority.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 520B4D0D-8D54-4599-9BA3-A03DBF35BCFF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

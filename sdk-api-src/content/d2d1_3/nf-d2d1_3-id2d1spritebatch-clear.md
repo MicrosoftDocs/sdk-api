@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch::Clear
 author: windows-sdk-content
 description: Removes all sprites from this sprite batch.
 old-location: direct2d\id2d1spritebatch_clear.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 01CCF4B6-C3CA-4E59-8436-AAE633C7A5FD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

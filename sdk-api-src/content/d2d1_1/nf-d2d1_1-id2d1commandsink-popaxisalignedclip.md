@@ -4,7 +4,7 @@ title: ID2D1CommandSink::PopAxisAlignedClip
 author: windows-sdk-content
 description: Removes an axis-aligned clip from the layer and clip stack.
 old-location: direct2d\id2d1commandsink_popaxisalignedclip.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 602cede8-dce1-4032-b099-b8088bc57459
 ms.author: windowssdkdev
 ms.date: 12/5/2018

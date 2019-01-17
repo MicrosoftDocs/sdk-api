@@ -4,7 +4,7 @@ title: ID2D1Multithread::Enter
 author: windows-sdk-content
 description: Enters the Direct2D API critical section, if it exists.
 old-location: direct2d\id2d1multithread_enter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5578DAC4-90C6-4E6D-B38B-D5AC301A8DB2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

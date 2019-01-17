@@ -4,7 +4,7 @@ title: StringGetter function
 author: windows-sdk-content
 description: Calls a member-function property getter callback for a string-type property.
 old-location: direct2d\stringgetter.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9C35AF38-1937-46DD-8DC4-BBA322E5CAAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

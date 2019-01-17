@@ -4,7 +4,7 @@ title: CLRES_V3_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 3.0 entry points, except StartupEx.
 old-location: mscs\clres_v3_functions.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5D4B5494-5F75-4864-9BA5-EF1A88DFE143
 ms.author: windowssdkdev
 ms.date: 12/5/2018

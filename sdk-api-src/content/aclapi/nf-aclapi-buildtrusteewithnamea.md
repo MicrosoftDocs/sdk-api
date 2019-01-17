@@ -4,7 +4,7 @@ title: BuildTrusteeWithNameA function
 author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 old-location: security\buildtrusteewithname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
 ms.author: windowssdkdev
 ms.date: 12/5/2018

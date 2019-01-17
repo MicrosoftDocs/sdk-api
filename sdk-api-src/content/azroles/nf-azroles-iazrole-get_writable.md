@@ -4,7 +4,7 @@ title: IAzRole::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the role can be modified by the user context that initialized it.
 old-location: security\iazrole_writable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 053b0ec4-143b-449d-bbbd-8ec8f00b0f2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

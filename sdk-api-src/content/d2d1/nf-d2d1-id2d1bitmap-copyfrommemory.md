@@ -4,7 +4,7 @@ title: ID2D1Bitmap::CopyFromMemory
 author: windows-sdk-content
 description: Copies the specified region from memory into the current bitmap.
 old-location: direct2d\ID2D1Bitmap_CopyFromMemory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 594cba56-6f18-439a-ada4-0f591af094bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

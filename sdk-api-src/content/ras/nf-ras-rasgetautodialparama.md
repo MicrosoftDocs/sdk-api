@@ -4,7 +4,7 @@ title: RasGetAutodialParamA function
 author: windows-sdk-content
 description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
 old-location: rras\rasgetautodialparam.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
 ms.author: windowssdkdev
 ms.date: 12/5/2018

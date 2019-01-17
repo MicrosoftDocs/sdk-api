@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateGradientStopCollection
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 674ffba5-18c5-46bf-8813-d8d13e5ba903
 ms.author: windowssdkdev
 ms.date: 12/5/2018

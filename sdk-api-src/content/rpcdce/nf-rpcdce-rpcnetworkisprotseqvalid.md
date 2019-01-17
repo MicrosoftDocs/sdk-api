@@ -4,7 +4,7 @@ title: RpcNetworkIsProtseqValid function
 author: windows-sdk-content
 description: The RpcNetworkIsProtseqValid function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use RpcNetworkInqProtseqs.
 old-location: rpc\rpcnetworkisprotseqvalid.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\azauthorizationstore_deletepropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7c204a3c-2c5b-44d3-bbab-2765e66da925
 ms.author: windowssdkdev
 ms.date: 12/5/2018

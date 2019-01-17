@@ -4,7 +4,7 @@ title: IAzClientContext3::GetGroups
 author: windows-sdk-content
 description: Returns an array of the application groups associated with this client context.
 old-location: security\iazclientcontext3_getgroups.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e34b55e1-df7f-4356-b84e-8f297afcda24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

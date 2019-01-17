@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_DISPLAY)
 author: windows-sdk-content
 description: Gets an attribute of this element as a display value. This method can be used to get the value of the display property.
 old-location: direct2d\id2d1svgelement_getattributevalue_7.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4D673B29-1ABF-4E21-8ED3-D87510E934A0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

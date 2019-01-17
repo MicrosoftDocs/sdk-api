@@ -4,7 +4,7 @@ title: ChangeClusterResourceGroup function
 author: windows-sdk-content
 description: Moves a resource from one group to another.
 old-location: mscs\changeclusterresourcegroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TOKEN_APPCONTAINER_INFORMATION
 author: windows-sdk-content
 description: Specifies all the information in a token that is necessary for an app container.
 old-location: security\token_appcontainer_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6038C7E9-AED6-49D2-8D96-907E973A64B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

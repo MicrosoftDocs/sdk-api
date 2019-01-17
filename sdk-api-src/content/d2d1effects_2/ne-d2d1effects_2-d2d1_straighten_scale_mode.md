@@ -4,7 +4,7 @@ title: D2D1_STRAIGHTEN_SCALE_MODE
 author: windows-sdk-content
 description: Values for the D2D1_STRAIGHTEN_PROP_SCALE_MODE property of the Straighten effect.
 old-location: direct2d\d2d1_straighten_scale_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: EF6831AD-3D79-4A48-ACA5-7B8D80E8BAF3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

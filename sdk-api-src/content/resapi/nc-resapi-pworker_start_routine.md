@@ -4,7 +4,7 @@ title: PWORKER_START_ROUTINE
 author: windows-sdk-content
 description: Initializes a worker thread with the specified callback routine. The PWORKER_START_ROUTINE type defines a pointer to this function.
 old-location: mscs\pworker_start_routine.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d46eaaa7-241a-40a5-a691-68631565e2e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

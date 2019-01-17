@@ -4,7 +4,7 @@ title: ClusterRegCreateKey function
 author: windows-sdk-content
 description: Creates a specified cluster database key. If the key already exists in the database, ClusterRegCreateKey opens it without making changes.
 old-location: mscs\clusterregcreatekey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a5e924bd-9336-45c8-b2c9-48291f8db774
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RESUTIL_ULARGEINT_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for an unsigned large integer.
 old-location: mscs\resutil_ulargeint_data.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 44b937dc-e2f1-4c2d-9689-35b772103b8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

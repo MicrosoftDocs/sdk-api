@@ -4,7 +4,7 @@ title: D2D1_DEVICE_CONTEXT_OPTIONS
 author: windows-sdk-content
 description: This specifies options that apply to the device context for its lifetime.
 old-location: direct2d\__d2d1_device_context_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be4e6eb7-0767-4faf-9f27-eeb3bed48244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterGroupEnum and ClusterGroupOpenEnum functions.
 old-location: mscs\cluster_group_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c70bc230-850b-4290-8275-f60ffc8d66bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

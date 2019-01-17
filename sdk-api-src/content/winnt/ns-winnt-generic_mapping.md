@@ -4,7 +4,7 @@ title: GENERIC_MAPPING
 author: windows-sdk-content
 description: Defines the mapping of generic access rights to specific and standard access rights for an object.
 old-location: security\generic_mapping.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e3c49b47-9bc7-4000-a131-449345ebb9cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

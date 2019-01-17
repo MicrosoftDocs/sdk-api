@@ -96,17 +96,23 @@ Returns the result of the per-component selection.
 If any given bit of <i>Control</i> is set, the corresponding bit from <i>V2</i> is used, otherwise, the
    corresponding bit from <i>V1</i> is used. The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.u[0] = (V1.u[0] & ~Control.u[0]) | (V2.u[0] & Control.u[0]);
 Result.u[1] = (V1.u[1] & ~Control.u[1]) | (V2.u[1] & Control.u[1]);
 Result.u[2] = (V1.u[2] & ~Control.u[2]) | (V2.u[2] & Control.u[2]);
 Result.u[3] = (V1.u[3] & ~Control.u[3]) | (V2.u[3] & Control.u[3]);
 
-return Result;
-```
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Manual construction of a control vector is not necessary. There are two simple ways of constructing an appropriate

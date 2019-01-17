@@ -4,7 +4,7 @@ title: IAzRole::get_Tasks
 author: windows-sdk-content
 description: Retrieves the tasks associated with the role.
 old-location: security\iazrole_tasks.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 60342e8f-1947-4949-b25e-01db473712ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

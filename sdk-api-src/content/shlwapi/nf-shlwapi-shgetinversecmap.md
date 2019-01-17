@@ -113,10 +113,16 @@ For example, the method for determining a color in the halftone palette that is 
 
                         
 
-
-```
-((red / 8) << 10) + ((blue / 8) << 5) + (green / 8)
-```
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>((red / 8) << 10) + ((blue / 8) << 5) + (green / 8)</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 In this example, the value in 555 format is ((0x30 / 8) &lt;&lt; 10) + ((0x60 / 8) &lt;&lt; 5) + (0x40 / 8) = 6536.

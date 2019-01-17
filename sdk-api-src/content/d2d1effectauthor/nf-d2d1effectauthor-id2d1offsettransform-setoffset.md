@@ -4,7 +4,7 @@ title: ID2D1OffsetTransform::SetOffset
 author: windows-sdk-content
 description: Sets the offset in the current offset transform.
 old-location: direct2d\id2d1offsettransform_setoffset.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4694BB45-4D26-4CB8-B0D3-560493D60D88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

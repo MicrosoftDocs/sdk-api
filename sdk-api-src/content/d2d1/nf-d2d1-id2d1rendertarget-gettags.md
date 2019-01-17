@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetTags
 author: windows-sdk-content
 description: Gets the label for subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_GetTags.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 71da439f-4666-4e49-93f8-26acd222ed1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

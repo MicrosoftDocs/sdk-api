@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetEffectInvalidRectangles
 author: windows-sdk-content
 description: Gets the invalid rectangles that have accumulated since the last time the effect was drawn and EndDraw was then called on the device context.
 old-location: direct2d\id2d1devicecontext_geteffectinvalidrectangles.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D5CEFDB0-BD54-4CB9-801C-528CDA49C19C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

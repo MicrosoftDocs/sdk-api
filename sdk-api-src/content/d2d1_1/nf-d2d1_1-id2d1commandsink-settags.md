@@ -4,7 +4,7 @@ title: ID2D1CommandSink::SetTags
 author: windows-sdk-content
 description: Sets the tags that correspond to the tags in the command sink.
 old-location: direct2d\id2d1commandsink_settags.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 56898541-8c4a-4dbb-aa34-cc957b1f17ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

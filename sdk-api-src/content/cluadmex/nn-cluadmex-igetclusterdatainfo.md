@@ -4,7 +4,7 @@ title: IGetClusterDataInfo
 author: windows-sdk-content
 description: The IGetClusterDataInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a cluster.
 old-location: mscs\igetclusterdatainfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RESOURCE_FAILURE_INFO
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
 old-location: mscs\resource_failure_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3FE0CC0E-B097-48FC-882F-F6B236BB0CCB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

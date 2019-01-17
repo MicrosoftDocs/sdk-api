@@ -4,7 +4,7 @@ title: ID2D1ComputeInfo
 author: windows-sdk-content
 description: Enables specification of information for a compute-shader rendering pass.
 old-location: direct2d\id2d1computeinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0560BB4B-B837-4DA8-AD68-545224152BA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

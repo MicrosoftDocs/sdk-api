@@ -4,7 +4,7 @@ title: SetServiceObjectSecurity function
 author: windows-sdk-content
 description: Sets the security descriptor of a service object.
 old-location: security\setserviceobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 39481d9a-79d5-4bbf-8480-4095a34dddb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

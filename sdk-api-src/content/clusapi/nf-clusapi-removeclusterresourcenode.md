@@ -4,7 +4,7 @@ title: RemoveClusterResourceNode function
 author: windows-sdk-content
 description: Removes a node from the list of nodes that can host a resource.
 old-location: mscs\removeclusterresourcenode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

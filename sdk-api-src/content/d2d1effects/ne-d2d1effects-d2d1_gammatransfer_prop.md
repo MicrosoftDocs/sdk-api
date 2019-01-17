@@ -4,7 +4,7 @@ title: D2D1_GAMMATRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Gamma transfer effect.
 old-location: direct2d\d2d1_gammatransfer_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3A2344BC-8A47-45E7-B26A-8124892F3F27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

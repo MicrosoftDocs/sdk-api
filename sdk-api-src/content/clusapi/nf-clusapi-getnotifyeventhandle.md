@@ -4,7 +4,7 @@ title: GetNotifyEventHandle function
 author: windows-sdk-content
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

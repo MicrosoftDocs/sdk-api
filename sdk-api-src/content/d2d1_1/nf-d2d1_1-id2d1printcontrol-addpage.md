@@ -4,7 +4,7 @@ title: ID2D1PrintControl::AddPage
 author: windows-sdk-content
 description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.
 old-location: direct2d\id2d1printcontrol_addpage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6B157EE8-36C8-4054-9975-3D3B82B3D013
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -117,9 +117,13 @@ The following console application creates an
 						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
 						GUID.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 #include <gdiplus.h>
 #include <stdio.h>
 using namespace Gdiplus;
@@ -154,8 +158,10 @@ INT main()
    delete(image);
    GdiplusShutdown(gdiplusToken);
    return 0;
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The preceding code, along with a particular file, Multiframe.tif, produced the following output:

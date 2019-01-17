@@ -4,7 +4,7 @@ title: CLUSTER_SETUP_PHASE_TYPE
 author: windows-sdk-content
 description: Describes the progress of the cluster setup process.
 old-location: mscs\cluster_setup_phase_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

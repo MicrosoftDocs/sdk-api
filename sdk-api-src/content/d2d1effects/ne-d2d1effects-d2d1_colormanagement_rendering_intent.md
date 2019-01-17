@@ -4,7 +4,7 @@ title: D2D1_COLORMANAGEMENT_RENDERING_INTENT
 author: windows-sdk-content
 description: Specifies which ICC rendering intent the Color management effect should use.
 old-location: direct2d\d2d1_colormanagement_rendering_intent.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 64161335-7974-4B8D-9385-045A94625FE1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

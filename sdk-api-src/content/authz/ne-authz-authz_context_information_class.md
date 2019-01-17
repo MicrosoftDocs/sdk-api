@@ -4,7 +4,7 @@ title: AUTHZ_CONTEXT_INFORMATION_CLASS
 author: windows-sdk-content
 description: Specifies the type of information to be retrieved from an existing AuthzClientContext. This enumeration is used by the AuthzGetInformationFromContext function.
 old-location: security\authz_context_information_class.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5eb752dc-17f7-4510-8aef-d18280322e76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

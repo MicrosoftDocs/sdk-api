@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection::GetColorInterpolationGamma
 author: windows-sdk-content
 description: Indicates the gamma space in which the gradient stops are interpolated.
 old-location: direct2d\ID2D1GradientStopCollection_GetColorInterpolationGamma.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d07f4dcc-7656-44ca-87cc-d59cb62eb36a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

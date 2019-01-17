@@ -4,7 +4,7 @@ title: TOKEN_CONTROL
 author: windows-sdk-content
 description: Contains information that identifies an access token.
 old-location: security\token_control.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b87c942b-8e58-471d-8cdf-e46cdac647c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RemoveClusterGroupDependency function
 author: windows-sdk-content
 description: Removes a dependency between two cluster groups.
 old-location: mscs\removeclustergroupdependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: da264d42-28ee-4589-a790-51da9f788ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

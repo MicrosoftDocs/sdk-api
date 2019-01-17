@@ -4,7 +4,7 @@ title: OfflineClusterGroupEx function
 author: windows-sdk-content
 description: Extends the OfflineClusterGroup method.
 old-location: mscs\offlineclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

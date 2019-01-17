@@ -4,7 +4,7 @@ title: NdrInterfacePointerMarshall function
 author: windows-sdk-content
 description: The NdrInterfacePointerMarshall function marshals the interface pointer into a network buffer to be sent to the server.
 old-location: rpc\ndrinterfacepointermarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: b6a8ca3c-a386-48c9-9347-ef9329678b5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

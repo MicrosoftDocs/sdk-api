@@ -4,7 +4,7 @@ title: RpcServerInterfaceGroupInqBindings function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupInqBindings function returns the binding handles over which remote procedure calls can be received for the given interface group.
 old-location: rpc\rpcserverinterfacegroupinqbindings.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 90535A05-9835-45F2-A62F-718736A80ED3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

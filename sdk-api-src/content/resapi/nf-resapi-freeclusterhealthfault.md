@@ -4,7 +4,7 @@ title: FreeClusterHealthFault function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclusterhealthfault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5a79d105-dd15-4205-99e6-b389b2adeed5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

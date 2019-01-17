@@ -4,7 +4,7 @@ title: ID2D1Effect
 author: windows-sdk-content
 description: Represents a basic image-processing construct in Direct2D.
 old-location: direct2d\id2d1effect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e90d1830-c356-48f1-ac7b-1d94c8c26569
 ms.author: windowssdkdev
 ms.date: 12/5/2018

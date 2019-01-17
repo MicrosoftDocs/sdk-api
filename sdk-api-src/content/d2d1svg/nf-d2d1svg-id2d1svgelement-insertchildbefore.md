@@ -4,7 +4,7 @@ title: ID2D1SvgElement::InsertChildBefore
 author: windows-sdk-content
 description: Inserts newChild as a child of this element, before the referenceChild element.
 old-location: direct2d\id2d1svgelement_insertchildbefore.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 09BBABC1-0644-473E-A751-C84437941A2B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

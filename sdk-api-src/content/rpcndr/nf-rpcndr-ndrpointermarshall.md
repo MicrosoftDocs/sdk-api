@@ -4,7 +4,7 @@ title: NdrPointerMarshall function
 author: windows-sdk-content
 description: The NdrPointerMarshall function marshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerMarshall directly.
 old-location: rpc\ndrpointermarshall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: efbdb93e-5d6b-4116-b1bf-8836cd9d7b89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

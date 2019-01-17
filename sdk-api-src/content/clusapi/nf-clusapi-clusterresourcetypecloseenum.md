@@ -4,7 +4,7 @@ title: ClusterResourceTypeCloseEnum function
 author: windows-sdk-content
 description: Closes a resource type enumeration handle.
 old-location: mscs\clusterresourcetypecloseenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::IsDxgiFormatSupported
 author: windows-sdk-content
 description: Indicates whether the format is supported by the device context.
 old-location: direct2d\id2d1devicecontext_isdxgiformatsupported.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AA70292A-7B1C-4916-91CA-80263839BC3F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

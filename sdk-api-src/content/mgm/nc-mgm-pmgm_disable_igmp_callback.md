@@ -4,7 +4,7 @@ title: PMGM_DISABLE_IGMP_CALLBACK
 author: windows-sdk-content
 description: The PMGM_DISABLE_IGMP_CALLBACK callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
 old-location: rras\pmgm_disable_igmp_callback.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4f790e1b-b10f-477b-b2bc-75c95560d7f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

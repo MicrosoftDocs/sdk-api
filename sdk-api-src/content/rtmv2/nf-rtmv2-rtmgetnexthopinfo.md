@@ -4,7 +4,7 @@ title: RtmGetNextHopInfo function
 author: windows-sdk-content
 description: The RtmGetNextHopInfo function returns information about the specified next hop.
 old-location: rras\rtmgetnexthopinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 45f18cfe-b863-4b78-90e4-c7b25c949834
 ms.author: windowssdkdev
 ms.date: 12/5/2018

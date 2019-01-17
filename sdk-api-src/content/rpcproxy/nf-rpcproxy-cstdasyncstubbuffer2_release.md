@@ -4,7 +4,7 @@ title: CStdAsyncStubBuffer2_Release function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Release method.
 old-location: rpc\cstdasyncstubbuffer2_release.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: EFA170DE-1EE2-453D-BB0D-EEEEB7E1837B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

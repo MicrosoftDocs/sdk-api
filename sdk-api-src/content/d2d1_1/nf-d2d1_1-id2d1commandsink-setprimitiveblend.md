@@ -4,7 +4,7 @@ title: ID2D1CommandSink::SetPrimitiveBlend
 author: windows-sdk-content
 description: Sets a new primitive blend mode.
 old-location: direct2d\id2d1commandsink_setprimitiveblend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 80b7047f-1200-4dc9-bc64-96678524a449
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWEExtendWizard97
 author: windows-sdk-content
 description: Implement the IWEExtendWizard97 interface to add Wizard97-style wizard pages to a Failover Cluster Administrator wizard.
 old-location: mscs\iweextendwizard97.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3473dc89-8676-4b13-b3c8-f112c0b9cf8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

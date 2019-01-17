@@ -4,7 +4,7 @@ title: ID2D1TransformedImageSource::GetSource
 author: windows-sdk-content
 description: Retrieves the source image used to create the transformed image source.
 old-location: direct2d\id2d1transformedimagesource_getsource.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751
 ms.author: windowssdkdev
 ms.date: 12/5/2018

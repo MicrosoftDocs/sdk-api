@@ -4,7 +4,7 @@ title: MprAdminConnectionGetInfo function
 author: windows-sdk-content
 description: Retrieves data about a specific connection.
 old-location: rras\mpradminconnectiongetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1fef5fbf-de3f-43c6-8b94-808f6ed209d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

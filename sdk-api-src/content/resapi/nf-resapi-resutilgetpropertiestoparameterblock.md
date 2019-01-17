@@ -4,7 +4,7 @@ title: ResUtilGetPropertiesToParameterBlock function
 author: windows-sdk-content
 description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
 old-location: mscs\resutilgetpropertiestoparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
 ms.author: windowssdkdev
 ms.date: 12/5/2018

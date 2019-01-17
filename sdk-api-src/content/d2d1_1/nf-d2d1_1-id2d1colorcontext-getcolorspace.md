@@ -4,7 +4,7 @@ title: ID2D1ColorContext::GetColorSpace
 author: windows-sdk-content
 description: Gets the color space of the color context.
 old-location: direct2d\id2d1colorcontext_getcolorspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D084D2B2-987A-4BCC-945A-9ED7C1119F1F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

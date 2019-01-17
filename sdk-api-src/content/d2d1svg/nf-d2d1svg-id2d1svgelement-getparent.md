@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetParent
 author: windows-sdk-content
 description: Gets the parent element.
 old-location: direct2d\id2d1svgelement_getparent.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1396BEE3-23F1-4C07-8A74-BF07F14AB093
 ms.author: windowssdkdev
 ms.date: 12/5/2018

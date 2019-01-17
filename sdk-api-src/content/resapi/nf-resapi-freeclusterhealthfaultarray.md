@@ -4,7 +4,7 @@ title: FreeClusterHealthFaultArray function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclusterhealthfaultarray.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f8c29dc0-dde0-4782-8a54-52a40f6f1586
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_SHARED_VOLUME_BACKUP_STATE
 author: windows-sdk-content
 description: Describes the CSV backup state.
 old-location: mscs\cluster_shared_volume_backup_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f83a7dfe-ad48-41e2-983e-75dfd921c137
 ms.author: windowssdkdev
 ms.date: 12/5/2018

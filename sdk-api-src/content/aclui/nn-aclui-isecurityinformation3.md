@@ -4,7 +4,7 @@ title: ISecurityInformation3
 author: windows-sdk-content
 description: Provides methods necessary for displaying an elevated access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
 old-location: security\isecurityinformation3.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e6cf92da-ebd2-4960-9df1-7124745df616
 ms.author: windowssdkdev
 ms.date: 12/5/2018

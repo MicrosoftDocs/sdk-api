@@ -4,7 +4,7 @@ title: ResUtilSetPropertyTable function
 author: windows-sdk-content
 description: Sets properties in the cluster database based on a property list from a property table..
 old-location: mscs\resutilsetpropertytable.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

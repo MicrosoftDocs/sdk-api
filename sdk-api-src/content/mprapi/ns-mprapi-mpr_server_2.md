@@ -4,7 +4,7 @@ title: MPR_SERVER_2
 author: windows-sdk-content
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP), Layer 2 Tunneling Protocol (L2TP), and Secure Socket Tunneling Protocol (SSTP) on a device.
 old-location: rras\mpr_server_2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9e38651a-541f-4470-a841-4eb94dbe4835
 ms.author: windowssdkdev
 ms.date: 12/5/2018

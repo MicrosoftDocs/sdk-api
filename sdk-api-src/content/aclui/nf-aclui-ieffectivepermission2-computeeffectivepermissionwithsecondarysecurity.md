@@ -4,7 +4,7 @@ title: IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity
 author: windows-sdk-content
 description: Computes the effective permissions by using the secondary security for an object.
 old-location: security\ieffectivepermission2_computeeffectivepermissionwithsecondarysecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 03B73103-D7C0-4BA2-B315-3CC0049B1B8E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

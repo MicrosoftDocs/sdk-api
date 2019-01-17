@@ -4,7 +4,7 @@ title: IGetClusterNetInterfaceInfo::GetNetInterfaceHandle
 author: windows-sdk-content
 description: Retrieves a handle to a node.
 old-location: mscs\igetclusternetinterfaceinfo_getnetinterfacehandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a11ebbed-72e3-4f57-af8d-8a14c4b0fad2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

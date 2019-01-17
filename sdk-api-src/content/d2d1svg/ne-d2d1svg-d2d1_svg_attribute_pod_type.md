@@ -4,7 +4,7 @@ title: D2D1_SVG_ATTRIBUTE_POD_TYPE
 author: windows-sdk-content
 description: Defines the type of SVG POD attribute to set or get.
 old-location: direct2d\d2d1_svg_attribute_pod_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B04D5E56-8E59-4907-BEA0-D954A300DAD0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

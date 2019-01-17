@@ -4,7 +4,7 @@ title: RpcBindingToStringBinding function
 author: windows-sdk-content
 description: The RpcBindingToStringBinding function returns a string representation of a binding handle.
 old-location: rpc\rpcbindingtostringbinding.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fd4fea9a-067e-4a1b-8be5-867bbe9663c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

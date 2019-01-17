@@ -4,7 +4,7 @@ title: RasUpdateConnection function
 author: windows-sdk-content
 description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.
 old-location: rras\rasupdateconnection.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

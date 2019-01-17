@@ -4,7 +4,7 @@ title: CStdAsyncStubBuffer_Invoke function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Invoke method.
 old-location: rpc\cstdasyncstubbuffer_invoke.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 069A6E16-D96F-4E74-B511-77B6496FE966
 ms.author: windowssdkdev
 ms.date: 12/5/2018

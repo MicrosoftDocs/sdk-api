@@ -4,7 +4,7 @@ title: ID2D1Properties::GetType(U,)
 author: windows-sdk-content
 description: Gets the D2D1_PROPERTY_TYPE of the selected property. This is a template overload. See Remarks.
 old-location: direct2d\id2d1properties_gettype2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4EFE306B-DE39-4536-8BE0-8036A380E2BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

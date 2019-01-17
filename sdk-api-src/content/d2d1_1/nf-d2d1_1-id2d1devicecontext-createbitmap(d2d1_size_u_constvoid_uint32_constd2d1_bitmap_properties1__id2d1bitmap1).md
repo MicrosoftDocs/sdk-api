@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1
 author: windows-sdk-content
 description: Creates a bitmap that can be used as a target surface, for reading back to the CPU, or as a source for the DrawBitmap and ID2D1BitmapBrush APIs. In addition, color context information can be passed to the bitmap.
 old-location: direct2d\id2d1devicecontext_createbitmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8292da6b-8232-4ef0-967d-a53d586aa9a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

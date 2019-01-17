@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 author: windows-sdk-content
 description: Describes a set of data disks retrieved by a resource type control code operation for storage replication.
 old-location: mscs\sr_resource_type_eligible_disks_result.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

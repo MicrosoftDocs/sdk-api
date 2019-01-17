@@ -4,7 +4,7 @@ title: ClusterNodeCloseEnum function
 author: windows-sdk-content
 description: Closes a node enumeration handle.
 old-location: mscs\clusternodecloseenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8133125f-eb5a-4cbc-a39d-72fb5f3ee384
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Ink::RemoveSegmentsAtEnd
 author: windows-sdk-content
 description: Removes the given number of segments from the end of this ink object.
 old-location: direct2d\id2d1ink_removesegmentsatend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8EA09675-971E-4399-B718-E7433D894867
 ms.author: windowssdkdev
 ms.date: 12/5/2018

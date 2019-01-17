@@ -4,7 +4,7 @@ title: ID2D1CommandSink3
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink2 interface. It also enables access to sprite batch rendering.
 old-location: direct2d\id2d1commandsink3.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DC4C947E-2EC9-44CC-872A-74DAB6E9C2C8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

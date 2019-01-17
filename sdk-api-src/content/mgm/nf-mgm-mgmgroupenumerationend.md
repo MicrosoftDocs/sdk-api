@@ -4,7 +4,7 @@ title: MgmGroupEnumerationEnd function
 author: windows-sdk-content
 description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
 old-location: rras\mgmgroupenumerationend.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
 ms.author: windowssdkdev
 ms.date: 12/5/2018

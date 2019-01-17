@@ -4,7 +4,7 @@ title: RasGetSubEntryPropertiesA function
 author: windows-sdk-content
 description: The RasGetSubEntryProperties function retrieves information about a subentry for a specified phone-book entry.
 old-location: rras\rasgetsubentryproperties.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6efe7824-54a1-491c-a568-21e23e98ed46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AuditSetPerUserPolicy function
 author: windows-sdk-content
 description: Sets per-user audit policy in one or more audit subcategories for the specified principal.
 old-location: security\auditsetperuserpolicy_func.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a6cef640-5658-4c13-96fb-a664d2a61b57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RTM_IPV4_GET_ADDR_AND_MASK macro
 author: windows-sdk-content
 description: The RTM_IPV4_GET_ADDR_AND_MASK macro converts to a generic RTM_NET_ADDRESS structure and length to an IPv4 address and mask.
 old-location: rras\rtm_ipv4_get_addr_and_mask.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 2dd2c01b-41f1-48e3-942b-954f7b2efac5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

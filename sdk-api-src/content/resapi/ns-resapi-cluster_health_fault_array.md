@@ -4,7 +4,7 @@ title: CLUSTER_HEALTH_FAULT_ARRAY
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_health_fault_array.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7d741fca-3ded-4f24-81e0-e2c4e230ead2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

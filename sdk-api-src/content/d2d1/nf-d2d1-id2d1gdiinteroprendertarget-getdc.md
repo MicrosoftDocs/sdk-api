@@ -4,7 +4,7 @@ title: ID2D1GdiInteropRenderTarget::GetDC
 author: windows-sdk-content
 description: Retrieves the device context associated with this render target.
 old-location: direct2d\ID2D1GdiInteropRenderTarget_GetDC.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 40797258-84a0-44ee-8b64-04ceb3eb1998
 ms.author: windowssdkdev
 ms.date: 12/5/2018

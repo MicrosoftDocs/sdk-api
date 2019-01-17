@@ -4,7 +4,7 @@ title: CLUSTER_MAKE_VERSION macro
 author: windows-sdk-content
 description: Creates a Cluster service version number.
 old-location: mscs\cluster_make_version.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0a53c070-efed-4105-8dce-60647869a93f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_RENDER_TARGET_TYPE
 author: windows-sdk-content
 description: Describes whether a render target uses hardware or software rendering, or if Direct2D should select the rendering mode.
 old-location: direct2d\D2D1_RENDER_TARGET_TYPE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4ae6e4cf-e1c9-476e-a7b5-31cdad9cf321
 ms.author: windowssdkdev
 ms.date: 12/5/2018

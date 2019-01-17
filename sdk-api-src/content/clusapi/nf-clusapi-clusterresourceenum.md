@@ -4,7 +4,7 @@ title: ClusterResourceEnum function
 author: windows-sdk-content
 description: Enumerates a resource's dependent resources, nodes, or both.
 old-location: mscs\clusterresourceenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 73627594-90df-496d-8120-b24c34f13fb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

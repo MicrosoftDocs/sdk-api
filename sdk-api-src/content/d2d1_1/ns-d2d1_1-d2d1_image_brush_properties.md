@@ -4,7 +4,7 @@ title: D2D1_IMAGE_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Describes image brush features.
 old-location: direct2d\d2d1_image_brush_properties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c7bcae4d-cdef-4bfc-aa5a-68b85497a7f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

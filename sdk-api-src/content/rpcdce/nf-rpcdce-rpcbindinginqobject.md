@@ -4,7 +4,7 @@ title: RpcBindingInqObject function
 author: windows-sdk-content
 description: The RpcBindingInqObject function returns the object UUID from a binding handle.
 old-location: rpc\rpcbindinginqobject.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165
 ms.author: windowssdkdev
 ms.date: 12/5/2018

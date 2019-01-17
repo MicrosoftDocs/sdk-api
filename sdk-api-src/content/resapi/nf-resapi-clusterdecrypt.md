@@ -4,7 +4,7 @@ title: ClusterDecrypt function
 author: windows-sdk-content
 description: Decrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterdecrypt.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

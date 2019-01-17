@@ -4,7 +4,7 @@ title: ID2D1SvgPointCollection::GetPointsCount
 author: windows-sdk-content
 description: Gets the number of points in the array.
 old-location: direct2d\id2d1svgpointcollection_getpointscount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 57D125F0-F2CF-411C-93DA-13E13234E13E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

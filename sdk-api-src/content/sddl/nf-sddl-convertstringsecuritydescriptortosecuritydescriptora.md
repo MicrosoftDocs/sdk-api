@@ -4,7 +4,7 @@ title: ConvertStringSecurityDescriptorToSecurityDescriptorA function
 author: windows-sdk-content
 description: Converts a string-format security descriptor into a valid, functional security descriptor.
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
 ms.author: windowssdkdev
 ms.date: 12/5/2018

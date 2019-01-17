@@ -4,7 +4,7 @@ title: IAzApplicationGroup::put_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the application group.
 old-location: security\iazapplicationgroup_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a42fb625-d04e-4884-b644-2007f6dc52ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

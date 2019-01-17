@@ -4,7 +4,7 @@ title: TOKEN_MANDATORY_POLICY
 author: windows-sdk-content
 description: Specifies the mandatory integrity policy for a token.
 old-location: security\token_mandatory_policy.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f5fc438b-c4f0-46f6-a188-52ce660d13da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

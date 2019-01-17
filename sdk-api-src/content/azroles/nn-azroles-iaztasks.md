@@ -4,7 +4,7 @@ title: IAzTasks
 author: windows-sdk-content
 description: Represents a collection of IAzTask objects.
 old-location: security\iaztasks.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

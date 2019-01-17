@@ -4,7 +4,7 @@ title: MprConfigTransportSetInfo function
 author: windows-sdk-content
 description: The MprConfigTransportSetInfo function changes the configuration for the specified transport protocol in the specified router configuration.
 old-location: rras\mprconfigtransportsetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 571149a5-5a09-4a04-9327-47aecca7d17f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

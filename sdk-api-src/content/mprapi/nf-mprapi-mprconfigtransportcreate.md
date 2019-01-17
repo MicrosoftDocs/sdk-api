@@ -4,7 +4,7 @@ title: MprConfigTransportCreate function
 author: windows-sdk-content
 description: The MprConfigTransportCreate function adds the specified transport to the list of transport protocols present in the specified router configuration.
 old-location: rras\mprconfigtransportcreate.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a4cc4519-ce76-4619-b6dc-a5dfa18134e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

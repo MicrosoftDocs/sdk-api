@@ -4,7 +4,7 @@ title: ID2D1Resource::GetFactory
 author: windows-sdk-content
 description: Retrieves the factory associated with this resource.
 old-location: direct2d\ID2D1Resource_GetFactory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 93afc187-d1ef-46f8-98b0-efe31345ae98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

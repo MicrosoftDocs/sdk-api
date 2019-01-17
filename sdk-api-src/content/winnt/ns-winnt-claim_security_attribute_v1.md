@@ -4,7 +4,7 @@ title: CLAIM_SECURITY_ATTRIBUTE_V1
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with a token or authorization context.
 old-location: security\claim_security_attribute_v1.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

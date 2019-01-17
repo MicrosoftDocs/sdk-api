@@ -4,7 +4,7 @@ title: ID2D1VertexBuffer::Map
 author: windows-sdk-content
 description: Maps the provided data into user memory.
 old-location: direct2d\id2d1vertexbuffer_map.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3EFC0584-2F03-4B35-8C6C-E46CDD9D9057
 ms.author: windowssdkdev
 ms.date: 12/5/2018

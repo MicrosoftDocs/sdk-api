@@ -4,7 +4,7 @@ title: PGET_EVENT_MESSAGE
 author: windows-sdk-content
 description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
 old-location: rras\geteventmessage.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

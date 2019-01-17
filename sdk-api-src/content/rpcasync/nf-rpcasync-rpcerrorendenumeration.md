@@ -4,7 +4,7 @@ title: RpcErrorEndEnumeration function
 author: windows-sdk-content
 description: The RpcErrorEndEnumeration function ends enumeration of extended error information and frees all resources allocated by RPC for the enumeration.
 old-location: rpc\rpcerrorendenumeration.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 04da6e7d-bbdb-47d3-9924-604ddf56d177
 ms.author: windowssdkdev
 ms.date: 12/5/2018

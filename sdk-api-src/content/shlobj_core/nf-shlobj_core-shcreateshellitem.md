@@ -112,12 +112,18 @@ There are three valid calling patterns for this function:
 
                         
 
-
-```cpp
-IShellItem *psi;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IShellItem *psi;
 SHCreateShellItem(pidlParent, NULL, pidlChild, &psi);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 </li>
@@ -125,12 +131,18 @@ SHCreateShellItem(pidlParent, NULL, pidlChild, &psi);
 
                         
 
-
-```cpp
-IShellItem *psi;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IShellItem *psi;
 SHCreateShellItem(NULL, psfParent, pidlChild, &psi);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 </li>
@@ -138,12 +150,18 @@ SHCreateShellItem(NULL, psfParent, pidlChild, &psi);
 
                         
 
-
-```cpp
-IShellItem *psi;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IShellItem *psi;
 SHCreateShellItem(NULL, NULL, pidlFull, &psi);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 </li>

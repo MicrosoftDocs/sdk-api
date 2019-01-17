@@ -4,7 +4,7 @@ title: ID2D1Transform::MapInvalidRect
 author: windows-sdk-content
 description: Sets the input rectangles for this rendering pass into the transform.
 old-location: direct2d\id2d1transform_setinputrects.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AUTHZ_SOURCE_SCHEMA_REGISTRATION
 author: windows-sdk-content
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

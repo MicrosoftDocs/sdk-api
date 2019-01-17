@@ -4,7 +4,7 @@ title: D2D1_POINTSPECULAR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Point-specular lighting effect.
 old-location: direct2d\d2d1_pointspecular_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5026F106-F5AA-4D03-BEFE-F1E8E880EF44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

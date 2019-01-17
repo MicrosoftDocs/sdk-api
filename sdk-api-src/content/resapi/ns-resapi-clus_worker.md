@@ -4,7 +4,7 @@ title: CLUS_WORKER
 author: windows-sdk-content
 description: Contains information about a worker thread.
 old-location: mscs\clus_worker.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 559b147f-8e8a-4bc7-94ea-e2042f288b6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

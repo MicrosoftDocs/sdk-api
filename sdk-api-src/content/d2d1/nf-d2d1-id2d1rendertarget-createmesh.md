@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateMesh
 author: windows-sdk-content
 description: Create a mesh that uses triangles to describe a shape.
 old-location: direct2d\ID2D1RenderTarget_CreateMesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6c0036d8-1f91-4d90-a301-b58bde8da974
 ms.author: windowssdkdev
 ms.date: 12/5/2018

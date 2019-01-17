@@ -4,7 +4,7 @@ title: ID2D1GeometrySink::AddArc
 author: windows-sdk-content
 description: Creates a single arc and adds it to the path geometry.
 old-location: direct2d\id2d1geometrysink_addarc.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 845fed36-8425-45fd-a12e-7537e5ba3c4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1MakeSkewMatrix function
 author: windows-sdk-content
 description: Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.
 old-location: direct2d\d2d1makeskewmatrix.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

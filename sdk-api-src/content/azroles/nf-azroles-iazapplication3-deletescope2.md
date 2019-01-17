@@ -4,7 +4,7 @@ title: IAzApplication3::DeleteScope2
 author: windows-sdk-content
 description: Removes the specified IAzScope2 object from the IAzApplication3 object.
 old-location: security\iazapplication3_deletescope2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f42f9288-896b-4034-a16c-3d555acea453
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcImpersonateClientContainer function
 author: windows-sdk-content
 description: RpcImpersonateClientContainer may be altered or unavailable.
 old-location: rpc\rpcimpersonateclientcontainer.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: C81E71C9-C044-487E-BFD7-859775E877F0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

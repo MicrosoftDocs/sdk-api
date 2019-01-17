@@ -4,7 +4,7 @@ title: AUDIT_PARAM_TYPE
 author: windows-sdk-content
 description: Defines the type of audit parameters that are available.
 old-location: security\audit_param_type.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1ECC866A-2DD3-4EE4-B2CC-7F5ADF7FFC99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::get_BizRule
 author: windows-sdk-content
 description: Sets or retrieves the text of the script that implements the business rule (BizRule).
 old-location: security\iaztask_bizrule.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cf3d87af-5320-4fe0-b513-e242f8a1dd1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

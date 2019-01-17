@@ -4,7 +4,7 @@ title: RtmReferenceHandles function
 author: windows-sdk-content
 description: The RtmReferenceHandles function increases the reference count for objects pointed to by one or more handles that the routing manager used to access those objects.
 old-location: rras\rtmreferencehandles.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 99031574-a941-451f-ad2e-b99044c9c716
 ms.author: windowssdkdev
 ms.date: 12/5/2018

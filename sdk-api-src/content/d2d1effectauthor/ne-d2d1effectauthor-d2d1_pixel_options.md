@@ -4,7 +4,7 @@ title: D2D1_PIXEL_OPTIONS
 author: windows-sdk-content
 description: Indicates how pixel shader sampling will be restricted.
 old-location: direct2d\d2d1_pixel_options.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

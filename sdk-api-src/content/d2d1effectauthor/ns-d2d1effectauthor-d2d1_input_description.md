@@ -4,7 +4,7 @@ title: D2D1_INPUT_DESCRIPTION
 author: windows-sdk-content
 description: Describes the options that transforms may set on input textures.
 old-location: direct2d\d2d1_input_description.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ba900ef8-a71a-4aac-a884-38917b78b8df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

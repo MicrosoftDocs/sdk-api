@@ -4,7 +4,7 @@ title: MGM_IF_ENTRY
 author: windows-sdk-content
 description: The MGM_IF_ENTRY structure describes a router interface.
 old-location: rras\mgm_if_entry_str.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: df3d18fe-1f73-47fd-aab8-818f83c7fcb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

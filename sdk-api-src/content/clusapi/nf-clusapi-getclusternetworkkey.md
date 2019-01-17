@@ -4,7 +4,7 @@ title: GetClusterNetworkKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a network.
 old-location: mscs\getclusternetworkkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c5d914b4-0419-4c03-bed4-ecb87e44db5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

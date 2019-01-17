@@ -4,7 +4,7 @@ title: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Contains the starting point and endpoint of the gradient axis for an ID2D1LinearGradientBrush.
 old-location: direct2d\D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 753278f0-d8a1-4dc5-b976-a00f8aab357e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -85,9 +85,13 @@ The following illustration shows how a linear gradient changes as you change its
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742783(v=VS.85).aspx">CreateLinearGradientBrush</a> method to create an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> (<i>m_pLinearGradientBrush</i>). It uses the <a href="https://msdn.microsoft.com/dba59936-2b2d-4a9b-aba4-acb6ff84c037">D2D1::LinearGradientBrushProperties</a> helper method to create a <b>D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES</b> structure that contains a start point of (0, 0) and and end point of (150, 150) and passes it to the  <b>CreateLinearGradientBrush</b> method.
 
-
-```cpp
-// The line that determines the direction of the gradient starts at
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The line that determines the direction of the gradient starts at
 // the upper-left corner of the square and ends at the lower-right corner.
 
 if (SUCCEEDED(hr))
@@ -100,8 +104,10 @@ if (SUCCEEDED(hr))
         &m_pLinearGradientBrush
         );
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For more information about creating and using linear gradient brushes, see 

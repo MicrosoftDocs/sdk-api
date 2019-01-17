@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::SetOutputNode
 author: windows-sdk-content
 description: Sets the output node for the transform graph.
 old-location: direct2d\id2d1transformgraph_setoutputnode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 46C92F32-6D1B-49B8-B44A-F5415E670D9C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Factory1::CreateGdiMetafile
 author: windows-sdk-content
 description: Creates a new ID2D1GdiMetafile object that you can use to replay metafile content.
 old-location: direct2d\id2d1factory1_creategdimetafile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 580DF262-2A86-4C21-8DFA-A804CE0A79CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

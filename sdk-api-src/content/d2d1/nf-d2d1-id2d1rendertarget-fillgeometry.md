@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::FillGeometry
 author: windows-sdk-content
 description: Paints the interior of the specified geometry.
 old-location: direct2d\ID2D1RenderTarget_FillGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 097f21ac-a062-4ce1-bdc7-87317dbdf5be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

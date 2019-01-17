@@ -4,7 +4,7 @@ title: D2D1_RGBTOHUE_PROP
 author: windows-sdk-content
 description: Indentifiers for properties of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C5CB2C7A-C7C0-4FC9-BAB0-0360ABE984E6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

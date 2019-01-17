@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES 
 author: windows-sdk-content
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 old-location: direct2d\ID2D1Factory_CreateHwndRenderTarget_ref_D2D1_RENDER_TARGET_PROPERTIES_ref_D2D1_HWND_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1HwndRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c1f5f5dd-3ae8-4483-bd7d-f25a69489bab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

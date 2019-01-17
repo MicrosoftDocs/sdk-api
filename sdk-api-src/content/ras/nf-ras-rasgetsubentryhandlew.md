@@ -4,7 +4,7 @@ title: RasGetSubEntryHandleW function
 author: windows-sdk-content
 description: The RasGetSubEntryHandle function retrieves a connection handle for a specified subentry of a multilink connection.
 old-location: rras\rasgetsubentryhandle.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 020388b1-9965-4bd1-be7b-30f2127cb0fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

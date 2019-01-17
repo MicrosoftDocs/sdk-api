@@ -4,7 +4,7 @@ title: D2D1_LINE_JOIN
 author: windows-sdk-content
 description: Describes the shape that joins two lines or segments.
 old-location: direct2d\D2D1_LINE_JOIN.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4368e93e-af69-4555-ac2b-c9c576c81372
 ms.author: windowssdkdev
 ms.date: 12/5/2018

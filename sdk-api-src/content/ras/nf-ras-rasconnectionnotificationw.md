@@ -4,7 +4,7 @@ title: RasConnectionNotificationW function
 author: windows-sdk-content
 description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
 old-location: rras\rasconnectionnotification.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

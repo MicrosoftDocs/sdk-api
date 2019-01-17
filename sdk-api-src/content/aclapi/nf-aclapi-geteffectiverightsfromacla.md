@@ -4,7 +4,7 @@ title: GetEffectiveRightsFromAclA function
 author: windows-sdk-content
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

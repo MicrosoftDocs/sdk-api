@@ -4,7 +4,7 @@ title: RasDialA function
 author: windows-sdk-content
 description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 old-location: rras\rasdial.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

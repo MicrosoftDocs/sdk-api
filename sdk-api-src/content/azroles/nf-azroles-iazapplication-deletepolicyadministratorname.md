@@ -4,7 +4,7 @@ title: IAzApplication::DeletePolicyAdministratorName
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministratorname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6da92103-6de0-4310-b52c-c1441e775da8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

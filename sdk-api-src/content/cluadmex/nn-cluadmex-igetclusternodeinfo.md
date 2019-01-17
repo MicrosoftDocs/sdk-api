@@ -4,7 +4,7 @@ title: IGetClusterNodeInfo
 author: windows-sdk-content
 description: The IGetClusterNodeInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a node.
 old-location: mscs\igetclusternodeinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 97c90830-1f6d-4f8f-ba0a-fee39aef5c1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

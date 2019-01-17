@@ -4,7 +4,7 @@ title: RtmGetMostSpecificDestination function
 author: windows-sdk-content
 description: The RtmGetMostSpecificDestination function searches the routing table for a destination with the exact match for a specified network address and subnet mask; if the exact match is not found, the best prefix is matched.
 old-location: rras\rtmgetmostspecificdestination.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 682a41bb-c623-4c01-856a-5f1923c6cab8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

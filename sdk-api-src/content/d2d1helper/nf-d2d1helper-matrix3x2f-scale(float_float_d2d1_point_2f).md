@@ -4,7 +4,7 @@ title: Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F)
 author: windows-sdk-content
 description: Creates a scale transformation that has the specified scale factors and center point.
 old-location: direct2d\matrix3x2f_scale_float_float_d2d1_point_2f_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 401b8710-c486-44b0-b79c-d7238279fdef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

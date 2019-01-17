@@ -4,7 +4,7 @@ title: ID2D1Factory::ReloadSystemMetrics
 author: windows-sdk-content
 description: Forces the factory to refresh any system defaults that it might have changed since factory creation.
 old-location: direct2d\ID2D1Factory_ReloadSystemMetrics.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 32c831c4-73e1-49f8-8d58-4248ae99fe37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

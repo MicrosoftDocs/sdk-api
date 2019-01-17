@@ -4,7 +4,7 @@ title: MPR_CREDENTIALSEX_1
 author: windows-sdk-content
 description: The MPR_CREDENTIALSEX_1 structure contains a pre-shared key used by a demand-dial interface.
 old-location: rras\mpr_credentialsex_1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b37b9589-5c25-44ac-954a-c9fb2c2ee503
 ms.author: windowssdkdev
 ms.date: 12/5/2018

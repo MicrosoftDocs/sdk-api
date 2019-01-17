@@ -95,9 +95,13 @@ This method uses the server and user credentials set by a previous call to
 
 The following code example demonstrates how to call this method.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 IDsDisplaySpecifier *pDS;
 
 hr = CoCreateInstance(CLSID_DsDisplaySpecifier,
@@ -118,8 +122,10 @@ if(SUCCEEDED(hr))
 
     pDS->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

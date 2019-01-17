@@ -4,7 +4,7 @@ title: IAzOperation::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f510fdb4-922d-488c-ad3d-3468da6a2fb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

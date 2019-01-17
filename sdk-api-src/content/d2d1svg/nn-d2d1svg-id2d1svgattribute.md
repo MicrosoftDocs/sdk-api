@@ -4,7 +4,7 @@ title: ID2D1SvgAttribute
 author: windows-sdk-content
 description: Interface describing an SVG attribute.
 old-location: direct2d\id2d1svgattribute.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
 ms.author: windowssdkdev
 ms.date: 12/5/2018

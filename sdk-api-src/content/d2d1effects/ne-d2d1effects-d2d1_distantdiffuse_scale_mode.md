@@ -4,7 +4,7 @@ title: D2D1_DISTANTDIFFUSE_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_distantdiffuse_scale_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8DBA8D16-507F-40F7-9C8D-E0D84B548BB0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

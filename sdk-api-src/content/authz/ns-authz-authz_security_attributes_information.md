@@ -4,7 +4,7 @@ title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
 author: windows-sdk-content
 description: Specifies one or more security attributes and values.
 old-location: security\authz_security_attributes_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster objects being enumerated.
 old-location: mscs\cluster_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e3d5a207-d30e-4935-be95-0957e68d4fe6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

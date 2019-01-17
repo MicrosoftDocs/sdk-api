@@ -4,7 +4,7 @@ title: RpcMgmtStopServerListening function
 author: windows-sdk-content
 description: The RpcMgmtStopServerListening function tells a server to stop listening for remote procedure calls. This function will not affect auto-listen interfaces. See RpcServerRegisterIfEx for more details.
 old-location: rpc\rpcmgmtstopserverlistening.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

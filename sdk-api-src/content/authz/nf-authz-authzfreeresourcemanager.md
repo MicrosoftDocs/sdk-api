@@ -4,7 +4,7 @@ title: AuthzFreeResourceManager function
 author: windows-sdk-content
 description: Frees a resource manager object.
 old-location: security\authzfreeresourcemanager.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

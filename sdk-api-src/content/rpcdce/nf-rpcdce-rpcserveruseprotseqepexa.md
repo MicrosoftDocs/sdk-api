@@ -4,7 +4,7 @@ title: RpcServerUseProtseqEpExA function
 author: windows-sdk-content
 description: The RpcServerUseProtseqEpEx function tells the RPC run-time library to use the specified protocol sequence combined with the specified endpoint for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqepex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c5bc52c5-9799-4fab-89fa-a680639a229f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

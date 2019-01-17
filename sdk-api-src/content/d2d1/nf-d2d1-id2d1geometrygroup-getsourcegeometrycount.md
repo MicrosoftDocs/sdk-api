@@ -4,7 +4,7 @@ title: ID2D1GeometryGroup::GetSourceGeometryCount
 author: windows-sdk-content
 description: Indicates the number of geometry objects in the geometry group.
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometryCount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d5338e38-98b7-4e17-933c-f806bd030f88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

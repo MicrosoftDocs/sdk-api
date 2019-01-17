@@ -81,9 +81,13 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-uint32_t* pElement = (uint32_t*)pDestination;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>uint32_t* pElement = (uint32_t*)pDestination;
 
 assert(pDestination);
 assert(((uint32_t_PTR)pDestination & 0xF) == 0);
@@ -91,8 +95,10 @@ assert(((uint32_t_PTR)pDestination & 0xF) == 0);
 pElement[0] = V.u[0];
 pElement[1] = V.u[1];
 pElement[2] = V.u[2];
-pElement[3] = V.u[3];
-```
+pElement[3] = V.u[3];</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

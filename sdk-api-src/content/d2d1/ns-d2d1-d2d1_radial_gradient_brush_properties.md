@@ -4,7 +4,7 @@ title: D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES
 author: windows-sdk-content
 description: Contains the gradient origin offset and the size and position of the gradient ellipse for an ID2D1RadialGradientBrush.
 old-location: direct2d\D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 194f7624-ac3b-4054-8d6f-5b4c99ef6546
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -101,9 +101,13 @@ The following example calls <a href="https://msdn.microsoft.com/en-us/library/Dd
 
 <img alt="Illustration of a circle with a radial gradient brush" src="./images/brushes_ovw_radials.png"/>
 
-
-```cpp
-// The center of the gradient is in the center of the box.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The center of the gradient is in the center of the box.
 // The gradient origin offset was set to zero(0, 0) or center in this case.
 if (SUCCEEDED(hr))
 {
@@ -117,8 +121,10 @@ if (SUCCEEDED(hr))
         &m_pRadialGradientBrush
         );
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For more information about radial gradient brushes, see the <a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a> topic and the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.

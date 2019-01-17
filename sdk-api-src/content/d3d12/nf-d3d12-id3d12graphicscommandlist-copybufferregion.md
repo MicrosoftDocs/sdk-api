@@ -122,9 +122,13 @@ Consider using the <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::CopyBufferRegion</b> as follows:
         
 
-
-```cpp
-inline UINT64 UpdateSubresources(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT64 UpdateSubresources(
     _In_ ID3D12GraphicsCommandList* pCmdList,
     _In_ ID3D12Resource* pDestinationResource,
     _In_ ID3D12Resource* pIntermediate,
@@ -180,8 +184,10 @@ inline UINT64 UpdateSubresources(
     }
     return RequiredSize;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

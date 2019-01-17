@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::Initialize
 author: windows-sdk-content
 description: Initializes the authorization manager.
 old-location: security\azauthorizationstore_initialize.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c461d50a-c785-4b32-b331-fe3a1693f4de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

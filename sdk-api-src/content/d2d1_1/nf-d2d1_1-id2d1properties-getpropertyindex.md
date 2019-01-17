@@ -4,7 +4,7 @@ title: ID2D1Properties::GetPropertyIndex
 author: windows-sdk-content
 description: Gets the index corresponding to the given property name.
 old-location: direct2d\id2d1properties_getpropertyindex.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b1c7003f-b7c2-464c-8e8e-a641068b9393
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_TURBULENCE_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Turbulence effect.
 old-location: direct2d\d2d1_turbulence_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C045CA4D-C6B0-47CD-A479-DC3FDFF8D697
 ms.author: windowssdkdev
 ms.date: 12/5/2018

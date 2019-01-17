@@ -4,7 +4,7 @@ title: ID2D1DeviceContext6::BlendImage
 author: windows-sdk-content
 description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
 old-location: direct2d\id2d1devicecontext6_blendimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

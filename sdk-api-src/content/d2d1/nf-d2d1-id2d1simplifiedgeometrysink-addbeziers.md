@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::AddBeziers
 author: windows-sdk-content
 description: Creates a sequence of cubic Bezier curves and adds them to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_AddBeziers.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9f079b38-b8ba-40b2-a5ed-4c9732cfd0c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

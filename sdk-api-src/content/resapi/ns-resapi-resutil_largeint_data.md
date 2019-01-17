@@ -4,7 +4,7 @@ title: RESUTIL_LARGEINT_DATA
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a signed large integer.
 old-location: mscs\resutil_largeint_data.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

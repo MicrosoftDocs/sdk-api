@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_SPACEPORT_V2
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_change_spaceport_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966
 ms.author: windowssdkdev
 ms.date: 12/5/2018

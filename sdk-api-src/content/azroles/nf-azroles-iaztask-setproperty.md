@@ -4,7 +4,7 @@ title: IAzTask::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzTask object property with the specified property ID.
 old-location: security\iaztask_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 515d23f6-fcd9-4838-8910-2675211dfc48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

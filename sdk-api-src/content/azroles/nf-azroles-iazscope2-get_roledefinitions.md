@@ -4,7 +4,7 @@ title: IAzScope2::get_RoleDefinitions
 author: windows-sdk-content
 description: Retrieves an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with this scope.
 old-location: security\iazscope2_roledefinitions.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cff40ce8-fa5f-4673-9338-58cff2c941aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

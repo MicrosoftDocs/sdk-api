@@ -4,7 +4,7 @@ title: RasCustomHangUpFn
 author: windows-sdk-content
 description: The RasCustomHangUp function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom connection hang-up routines.
 old-location: rras\rascustomhangup.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

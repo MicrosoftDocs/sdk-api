@@ -4,7 +4,7 @@ title: GetClusterNetInterface function
 author: windows-sdk-content
 description: Returns the name of a node's interface to a network in a cluster.
 old-location: mscs\getclusternetinterface.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b9bca010-7401-4a2f-95df-a5d0ef3dbfae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

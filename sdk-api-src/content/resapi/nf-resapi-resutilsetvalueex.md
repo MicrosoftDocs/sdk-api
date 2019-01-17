@@ -4,7 +4,7 @@ title: ResUtilSetValueEx function
 author: windows-sdk-content
 description: Sets a value in the cluster database.
 old-location: mscs\resutilsetvalueex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

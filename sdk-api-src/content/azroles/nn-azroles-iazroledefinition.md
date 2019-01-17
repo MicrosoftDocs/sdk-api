@@ -4,7 +4,7 @@ title: IAzRoleDefinition
 author: windows-sdk-content
 description: Represents one or more IAzRoleDefinition, IAzTask, and IAzOperation objects that specify a set of operations.
 old-location: security\iazroledefinition.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d951f5cc-85da-4898-a70f-9e50ab66ade5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

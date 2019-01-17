@@ -4,7 +4,7 @@ title: RPC_ASYNC_STATE
 author: windows-sdk-content
 description: The RPC_ASYNC_STATE structure holds the state of an asynchronous remote procedure call. RPC_ASYNC_STATE is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.
 old-location: rpc\rpc_async_state.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ad004f49-89a6-486c-80ec-5b85ab4b8db9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

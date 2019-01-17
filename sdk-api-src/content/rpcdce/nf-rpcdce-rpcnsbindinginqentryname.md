@@ -4,7 +4,7 @@ title: RpcNsBindingInqEntryName function
 author: windows-sdk-content
 description: The RpcNsBindingInqEntryName function returns the entry name from which the binding handle came.
 old-location: rpc\rpcnsbindinginqentryname.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fff87506-4c3f-47cb-8130-78e46e906bf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

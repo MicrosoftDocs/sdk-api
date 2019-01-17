@@ -4,7 +4,7 @@ title: SI_ACCESS
 author: windows-sdk-content
 description: Contains information about an access right or default access mask for a securable object.
 old-location: security\si_access.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9c9b14da-a030-4f90-b090-d6de10507eb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

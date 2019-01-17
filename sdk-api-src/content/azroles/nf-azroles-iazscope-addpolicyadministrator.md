@@ -4,7 +4,7 @@ title: IAzScope::AddPolicyAdministrator
 author: windows-sdk-content
 description: The AddPolicyAdministrator method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministrator.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7aa77615-1f12-4641-877e-87b26343db4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

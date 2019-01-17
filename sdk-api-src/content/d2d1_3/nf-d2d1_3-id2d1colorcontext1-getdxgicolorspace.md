@@ -4,7 +4,7 @@ title: ID2D1ColorContext1::GetDXGIColorSpace
 author: windows-sdk-content
 description: Retrieves the DXGI color space of this context. Returns DXGI_COLOR_SPACE_CUSTOM when color context type is ICC.
 old-location: direct2d\id2d1colorcontext1_getdxgicolorspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DDDF1277-D1E6-49AF-8F2F-F1B18BC2DB7D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

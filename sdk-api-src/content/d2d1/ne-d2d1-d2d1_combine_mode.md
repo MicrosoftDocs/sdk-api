@@ -4,7 +4,7 @@ title: D2D1_COMBINE_MODE
 author: windows-sdk-content
 description: Specifies the different methods by which two geometries can be combined.
 old-location: direct2d\D2D1_COMBINE_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

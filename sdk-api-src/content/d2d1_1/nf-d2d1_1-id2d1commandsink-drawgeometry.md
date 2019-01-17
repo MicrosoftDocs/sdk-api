@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawGeometry
 author: windows-sdk-content
 description: Indicates the geometry to be drawn to the command sink.
 old-location: direct2d\id2d1commandsink_drawgeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ff91dd6c-0604-44aa-a30c-6b531cc3fb58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

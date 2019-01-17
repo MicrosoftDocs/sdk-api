@@ -4,7 +4,7 @@ title: RpcNsBindingImportNext function
 author: windows-sdk-content
 description: The RpcNsBindingImportNext function looks up an interface (and optionally an object from a name-service database) and returns a binding handle of a compatible server, if found.
 old-location: rpc\rpcnsbindingimportnext.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

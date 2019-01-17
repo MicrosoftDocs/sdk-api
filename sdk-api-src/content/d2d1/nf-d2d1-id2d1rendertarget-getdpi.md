@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetDpi
 author: windows-sdk-content
 description: Return the render target's dots per inch (DPI).
 old-location: direct2d\ID2D1RenderTarget_GetDpi.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 72a25b78-96fd-42bf-9e71-6bb80efea0ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

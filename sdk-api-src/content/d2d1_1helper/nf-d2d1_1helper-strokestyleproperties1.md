@@ -4,7 +4,7 @@ title: StrokeStyleProperties1 function
 author: windows-sdk-content
 description: Returns a filled D2D1_STROKE_STYLE_PROPERTIES1 structure.
 old-location: direct2d\strokestyleproperties1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 12D8FBEF-2FB5-4846-857D-6D6B230DE837
 ms.author: windowssdkdev
 ms.date: 12/5/2018

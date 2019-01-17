@@ -4,7 +4,7 @@ title: D2D_SIZE_F
 author: windows-sdk-content
 description: Stores an ordered pair of floating-point values, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9d519bb9-3eb8-4d7e-ba00-b6cf5a428a04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

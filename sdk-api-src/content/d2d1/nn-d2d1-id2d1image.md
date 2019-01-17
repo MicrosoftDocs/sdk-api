@@ -4,7 +4,7 @@ title: ID2D1Image
 author: windows-sdk-content
 description: Represents a producer of pixels that can fill an arbitrary 2D plane.
 old-location: direct2d\id2d1image.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9f7b4546-edbe-4000-a4ce-1a69563ebf9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

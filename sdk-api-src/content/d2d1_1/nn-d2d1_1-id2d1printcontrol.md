@@ -4,7 +4,7 @@ title: ID2D1PrintControl
 author: windows-sdk-content
 description: Converts Direct2D primitives stored in an ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1printcontrol.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0E8D8218-0671-44A2-AD6E-13BB0B4EB66C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

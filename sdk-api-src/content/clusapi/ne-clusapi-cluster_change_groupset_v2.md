@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_GROUPSET_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a groupset.
 old-location: mscs\cluster_change_collection_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5ad843d6-618b-4648-9c34-daf2f43adbec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

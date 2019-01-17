@@ -4,7 +4,7 @@ title: ClusterRegReadBatchReplyNextCommand function
 author: windows-sdk-content
 description: Reads the next command from a read batch result.
 old-location: mscs\clusterregreadbatchreplynextcommand.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

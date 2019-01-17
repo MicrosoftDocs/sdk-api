@@ -4,7 +4,7 @@ title: PBLOCK_CONVERT_SERVICES_TO_STATIC
 author: windows-sdk-content
 description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
 old-location: rras\blockconvertservicestostatic.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

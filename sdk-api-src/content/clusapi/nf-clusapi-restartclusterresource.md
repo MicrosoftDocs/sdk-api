@@ -4,7 +4,7 @@ title: RestartClusterResource function
 author: windows-sdk-content
 description: Restarts a cluster resource.
 old-location: mscs\restartclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

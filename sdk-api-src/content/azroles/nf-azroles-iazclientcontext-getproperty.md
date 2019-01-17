@@ -4,7 +4,7 @@ title: IAzClientContext::GetProperty
 author: windows-sdk-content
 description: Returns the IAzClientContext object property with the specified property ID.
 old-location: security\iazclientcontext_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4be02b6d-5eeb-46e6-9339-3edd904f3606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

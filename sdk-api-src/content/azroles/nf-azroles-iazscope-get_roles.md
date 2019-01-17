@@ -4,7 +4,7 @@ title: IAzScope::get_Roles
 author: windows-sdk-content
 description: Retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
 old-location: security\iazscope_roles.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4dcf0e1b-d824-4675-b2d1-f59a58adb00a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

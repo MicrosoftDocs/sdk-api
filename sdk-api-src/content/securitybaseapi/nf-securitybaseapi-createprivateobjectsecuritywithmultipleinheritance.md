@@ -4,7 +4,7 @@ title: CreatePrivateObjectSecurityWithMultipleInheritance function
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8c5a2ac2-612c-4625-8c68-27d99d4ba9d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

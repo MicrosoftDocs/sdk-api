@@ -4,7 +4,7 @@ title: RPC_EE_INFO_PARAM
 author: windows-sdk-content
 description: The RPC_EE_INFO_PARAM structure is used to store extended error information.
 old-location: rpc\rpc_ee_info_param.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: a201f8f3-6e74-4550-9738-d5415340994b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

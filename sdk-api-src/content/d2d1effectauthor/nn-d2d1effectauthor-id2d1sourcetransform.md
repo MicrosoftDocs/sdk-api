@@ -4,7 +4,7 @@ title: ID2D1SourceTransform
 author: windows-sdk-content
 description: Represents a CPU-based rasterization stage in the transform pipeline graph.
 old-location: direct2d\id2d1sourcetransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

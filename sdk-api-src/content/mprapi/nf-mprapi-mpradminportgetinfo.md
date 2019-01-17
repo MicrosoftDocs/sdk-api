@@ -4,7 +4,7 @@ title: MprAdminPortGetInfo function
 author: windows-sdk-content
 description: The MprAdminPortGetInfo function gets information for a specific port.
 old-location: rras\mpradminportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b990b2bf-6c08-4cfd-8b17-1b3fe39277d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

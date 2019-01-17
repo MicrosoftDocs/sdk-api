@@ -4,7 +4,7 @@ title: AZ_PROP_CONSTANTS
 author: windows-sdk-content
 description: Defines constants used by Authorization Manager.
 old-location: security\az_prop_constants.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4d84389d-91cf-476e-b10e-fb339b4fddcb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\azauthorizationstore_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 88ac498c-2871-4260-8011-0aea9e6c346d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

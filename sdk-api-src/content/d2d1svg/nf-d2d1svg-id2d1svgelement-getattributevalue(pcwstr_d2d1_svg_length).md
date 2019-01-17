@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LENGTH)
 author: windows-sdk-content
 description: Gets an attribute of this element as a length value.
 old-location: direct2d\id2d1svgelement_getattributevalue_16.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A0946450-795F-428C-B219-CBEA3A0955FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

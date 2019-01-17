@@ -4,7 +4,7 @@ title: EvictClusterNode function
 author: windows-sdk-content
 description: Deletes a node from the cluster database.
 old-location: mscs\evictclusternode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0353b640-5fa6-4e83-a7e5-1b4bd2ca16d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

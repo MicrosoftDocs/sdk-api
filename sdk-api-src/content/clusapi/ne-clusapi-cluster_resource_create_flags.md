@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_CREATE_FLAGS
 author: windows-sdk-content
 description: Determines which resource monitor a given resource will be assigned to.
 old-location: mscs\cluster_resource_create_flags.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 16f5ab58-2507-431a-98f9-bd00a24485ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

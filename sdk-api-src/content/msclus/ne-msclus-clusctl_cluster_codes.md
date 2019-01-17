@@ -4,7 +4,7 @@ title: CLUSCTL_CLUSTER_CODES
 author: windows-sdk-content
 description: Enumerates cluster control codes used by the ClusterControl function.
 old-location: mscs\clusctl_cluster_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b5ce8c3c-3a5d-4785-a3ce-b8b37c6c5dc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

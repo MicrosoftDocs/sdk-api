@@ -4,7 +4,7 @@ title: TOKEN_OWNER
 author: windows-sdk-content
 description: Contains the default owner security identifier (SID) that will be applied to newly created objects.
 old-location: security\token_owner.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 85617d56-ad46-40a3-a335-121f3c8edcc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

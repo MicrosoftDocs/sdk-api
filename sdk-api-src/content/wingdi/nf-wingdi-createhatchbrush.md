@@ -166,9 +166,13 @@ When you no longer need the brush, call the <a href="https://msdn.microsoft.com/
 
 The following example creates a logical brush that has the specified hatch pattern and color. You can also  set a hatch brush background to transparent or to opaque.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #include <windows.h>
 #include <stdlib.h>
 #include <string.h>
@@ -413,8 +417,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
     return 0;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

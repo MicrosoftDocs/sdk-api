@@ -4,7 +4,7 @@ title: LookupPrivilegeNameA function
 author: windows-sdk-content
 description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
 old-location: security\lookupprivilegename.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

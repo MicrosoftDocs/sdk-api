@@ -4,7 +4,7 @@ title: LUID_AND_ATTRIBUTES
 author: windows-sdk-content
 description: Represents a locally unique identifier (LUID) and its attributes.
 old-location: security\luid_and_attributes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f337b561-4b67-42a0-b8de-06f546bafb26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

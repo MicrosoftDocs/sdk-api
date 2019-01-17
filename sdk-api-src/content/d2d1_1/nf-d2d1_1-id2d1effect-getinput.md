@@ -4,7 +4,7 @@ title: ID2D1Effect::GetInput
 author: windows-sdk-content
 description: Gets the given input image by index.
 old-location: direct2d\id2d1effect_getinput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: fca22cc2-2299-4f74-8dc9-d931b899d4fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

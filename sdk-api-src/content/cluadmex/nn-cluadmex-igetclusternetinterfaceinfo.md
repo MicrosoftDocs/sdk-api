@@ -4,7 +4,7 @@ title: IGetClusterNetInterfaceInfo
 author: windows-sdk-content
 description: The IGetClusterNetInterfaceInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a network interface.
 old-location: mscs\igetclusternetinterfaceinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c7a0ee81-e263-4a2d-a0e5-18d3a4ad0d79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

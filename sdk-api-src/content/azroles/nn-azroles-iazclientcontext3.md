@@ -4,7 +4,7 @@ title: IAzClientContext3
 author: windows-sdk-content
 description: Extends the IAzClientContext2 interface.
 old-location: security\iazclientcontext3.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9435e41b-b2ec-4a2a-9058-82025f2c2e09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

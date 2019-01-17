@@ -4,7 +4,7 @@ title: ID2D1VertexBuffer
 author: windows-sdk-content
 description: Defines a mappable single-dimensional vertex buffer.
 old-location: direct2d\id2d1vertexbuffer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1DBCDF93-83C6-4B02-9E94-8024D7849DF7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

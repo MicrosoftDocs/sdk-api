@@ -4,7 +4,7 @@ title: AddAuditAccessAce function
 author: windows-sdk-content
 description: Adds a system-audit access control entry (ACE) to a system access control list (ACL). The access of a specified security identifier (SID) is audited.
 old-location: security\addauditaccessace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 34f22aea-9cde-411e-b2d5-bfcd3bfe325d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

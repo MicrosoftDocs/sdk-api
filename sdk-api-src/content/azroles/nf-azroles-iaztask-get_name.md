@@ -4,7 +4,7 @@ title: IAzTask::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the task.
 old-location: security\iaztask_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 135706b0-8ef9-430b-aff3-3783a62232d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

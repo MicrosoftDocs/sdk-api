@@ -4,7 +4,7 @@ title: CLUSCTL_GET_ACCESS_MODE macro
 author: windows-sdk-content
 description: Extracts the access code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
 old-location: mscs\clusctl_get_access_mode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 75544022-6c6b-4a04-83cc-427307eaf3ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

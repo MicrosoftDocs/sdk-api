@@ -4,7 +4,7 @@ title: PauseClusterNodeEx function
 author: windows-sdk-content
 description: Requests that a node temporarily suspends its cluster activity.
 old-location: mscs\pauseclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 632C26C2-ED12-40DC-9615-4A09A7E2F7CB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

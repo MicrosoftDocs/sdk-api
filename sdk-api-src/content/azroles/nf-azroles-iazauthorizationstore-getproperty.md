@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::GetProperty
 author: windows-sdk-content
 description: Returns the AzAuthorizationStore object property with the specified property ID.
 old-location: security\azauthorizationstore_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 93bd6813-cc46-4f48-b39b-1e67cda562ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

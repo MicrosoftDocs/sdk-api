@@ -160,9 +160,13 @@ To retrieve information for a single session, use the
 
 The following example shows how to call this function.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 #include <stdio.h>
 #include <wmistr.h>
 #include <evntrace.h>
@@ -251,8 +255,10 @@ cleanup:
         pBuffer = NULL;
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

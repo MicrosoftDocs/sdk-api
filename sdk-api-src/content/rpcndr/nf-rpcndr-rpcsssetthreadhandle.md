@@ -4,7 +4,7 @@ title: RpcSsSetThreadHandle function
 author: windows-sdk-content
 description: The RpcSsSetThreadHandle function sets a thread handle for the stub memory–management environment.
 old-location: rpc\rpcsssetthreadhandle.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 8984e253-ea78-4ca2-bf24-83100a0ac79d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

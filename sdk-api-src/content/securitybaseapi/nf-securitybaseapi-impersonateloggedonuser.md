@@ -4,7 +4,7 @@ title: ImpersonateLoggedOnUser function
 author: windows-sdk-content
 description: Lets the calling thread impersonate the security context of a logged-on user. The user is represented by a token handle.
 old-location: security\impersonateloggedonuser.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cf5c31ae-6749-45c2-888f-697060cc8c75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

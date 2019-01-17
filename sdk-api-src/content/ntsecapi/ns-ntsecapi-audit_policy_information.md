@@ -4,7 +4,7 @@ title: AUDIT_POLICY_INFORMATION
 author: windows-sdk-content
 description: Specifies a security event type and when to audit that type.
 old-location: security\audit_policy_information.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3fafeec9-a028-4a65-933e-fb973eb257b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

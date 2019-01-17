@@ -4,7 +4,7 @@ title: ID2D1ColorContext::GetProfile
 author: windows-sdk-content
 description: Gets the color profile bytes for an ID2D1ColorContext.
 old-location: direct2d\id2d1colorcontext_getprofile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f6beae12-e02d-432b-b9d8-5e1206e3c482
 ms.author: windowssdkdev
 ms.date: 12/5/2018

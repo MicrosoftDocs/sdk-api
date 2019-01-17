@@ -4,7 +4,7 @@ title: BuildSecurityDescriptorW function
 author: windows-sdk-content
 description: Allocates and initializes a new security descriptor.
 old-location: security\buildsecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966
 ms.author: windowssdkdev
 ms.date: 12/5/2018

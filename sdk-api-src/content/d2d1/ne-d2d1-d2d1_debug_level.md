@@ -4,7 +4,7 @@ title: D2D1_DEBUG_LEVEL
 author: windows-sdk-content
 description: Indicates the type of information provided by the Direct2D Debug Layer.
 old-location: direct2d\D2D1_DEBUG_LEVEL.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3f1b4127-12d4-4472-ae26-0b69fdbb35a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RasCustomEntryDlgFn
 author: windows-sdk-content
 description: The RasCustomEntryDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomentrydlg.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NdrClientCall2 function
 author: windows-sdk-content
 description: The NdrClientCall2 function is the client-side entry point for the /Oicf mode stub.
 old-location: rpc\ndrclientcall2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 136b6461-048a-41ee-8514-0dea0861b2c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/">/Oicf</a> mode stub.
+The <b>NdrClientCall2</b> function is the client-side entry point for the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stub.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Depending on the method definition, this function can throw an exception if ther
 
 
 
-The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
+The <b>NdrClientCall2</b> function is used by all <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode client-side stubs. The <b>NdrClientCall2</b> function transmits all [in] data to the remote server, and upon receipt of the response packet, returns the [out] value to the client-side application.
 
 
 

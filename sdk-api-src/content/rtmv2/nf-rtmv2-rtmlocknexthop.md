@@ -4,7 +4,7 @@ title: RtmLockNextHop function
 author: windows-sdk-content
 description: The RtmLockNextHop function locks or unlocks a next hop. This function should be called by the next hop's owner to lock the next hop before making changes to the next hop. A pointer to the next hop is returned.
 old-location: rras\rtmlocknexthop.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f5b6d430-a50e-49fc-8274-81bac1300477
 ms.author: windowssdkdev
 ms.date: 12/5/2018

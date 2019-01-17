@@ -4,7 +4,7 @@ title: CLUSTER_IP_ENTRY
 author: windows-sdk-content
 description: Describes an IP address for a cluster.
 old-location: mscs\cluster_ip_entry.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

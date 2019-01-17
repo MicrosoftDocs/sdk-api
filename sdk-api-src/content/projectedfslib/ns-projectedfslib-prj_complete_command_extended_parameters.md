@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure

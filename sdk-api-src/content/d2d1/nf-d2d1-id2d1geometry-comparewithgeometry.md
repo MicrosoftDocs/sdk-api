@@ -4,7 +4,7 @@ title: ID2D1Geometry::CompareWithGeometry
 author: windows-sdk-content
 description: Describes the intersection between this geometry and the specified geometry. The comparison is performed by using the specified flattening tolerance.
 old-location: direct2d\ID2D1Geometry_CompareWithGeometry_ptr_ID2D1Geometry_ptr_D2D_MATRIX_3X2_F_FLOAT_ptr_D2D1_GEOMETRY_RELATION.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2b858c8c-6b9b-45bf-8d12-cb14af1987b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

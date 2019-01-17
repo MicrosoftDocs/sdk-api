@@ -4,7 +4,7 @@ title: GROUP_FAILURE_INFO
 author: windows-sdk-content
 description: Represents information about the Failover attempts for a group failure.
 old-location: mscs\group_failure_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C3E7585B-21F8-4E4C-A970-C07F72C80E76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

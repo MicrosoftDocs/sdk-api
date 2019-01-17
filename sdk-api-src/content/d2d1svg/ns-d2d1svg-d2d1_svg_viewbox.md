@@ -4,7 +4,7 @@ title: D2D1_SVG_VIEWBOX
 author: windows-sdk-content
 description: Represents an SVG viewBox.
 old-location: direct2d\d2d1_svg_viewbox.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 35D576E1-18E1-4A3B-A1E9-7A6A55AA2872
 ms.author: windowssdkdev
 ms.date: 12/5/2018

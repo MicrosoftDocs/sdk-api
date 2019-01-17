@@ -4,7 +4,7 @@ title: ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &)
 author: windows-sdk-content
 description: Sets the transform to apply to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_setnibtransform_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: CA8AD85B-F292-4E8B-A7FE-D9E8E269F644
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Matrix3x2F::Identity
 author: windows-sdk-content
 description: Creates an identity matrix.
 old-location: direct2d\matrix3x2f_identity.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c4596d43-fbc8-489e-a8fd-d33fb26461cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

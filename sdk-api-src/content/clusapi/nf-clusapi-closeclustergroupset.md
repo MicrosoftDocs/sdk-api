@@ -4,7 +4,7 @@ title: CloseClusterGroupSet function
 author: windows-sdk-content
 description: Closes a groupset handle returned from OpenClusterGroupSet.
 old-location: mscs\closeclustergroupcollection.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RoundedRect function
 author: windows-sdk-content
 description: Creates a D2D1_ROUNDED_RECT structure.
 old-location: direct2d\roundedrect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 200119a2-941c-493f-9e56-c9f306dc5322
 ms.author: windowssdkdev
 ms.date: 12/5/2018

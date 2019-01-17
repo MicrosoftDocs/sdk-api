@@ -4,7 +4,7 @@ title: LookupAccountSidLocalW function
 author: windows-sdk-content
 description: Retrieves the name of the account for the specified SID on the local machine.
 old-location: security\lookupaccountsidlocal.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
 ms.date: 12/5/2018

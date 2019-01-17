@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::IsBufferPrecisionSupported
 author: windows-sdk-content
 description: Indicates whether the buffer precision is supported by the underlying Direct3D device.
 old-location: direct2d\id2d1devicecontext_isbufferprecisionsupported.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c65824dc-a9d5-4d4d-a2de-b4283153f64f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

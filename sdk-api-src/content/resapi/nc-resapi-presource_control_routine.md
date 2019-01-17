@@ -4,7 +4,7 @@ title: PRESOURCE_CONTROL_ROUTINE
 author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

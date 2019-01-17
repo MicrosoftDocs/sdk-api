@@ -4,7 +4,7 @@ title: IAzApplication::get_Operations
 author: windows-sdk-content
 description: Retrieves an IAzOperations object that is used to enumerate IAzOperation objects from the policy data.
 old-location: security\iazapplication_operations.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 274a130a-3a3c-46fc-9d2a-3123cdc98d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

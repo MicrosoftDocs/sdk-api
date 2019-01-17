@@ -4,7 +4,7 @@ title: SizeU function
 author: windows-sdk-content
 description: Creates a D2D1_SIZE_U structure that contains the specified width and height.
 old-location: direct2d\sizeu.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 147670e3-c451-401e-9e79-dacd7c33385d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

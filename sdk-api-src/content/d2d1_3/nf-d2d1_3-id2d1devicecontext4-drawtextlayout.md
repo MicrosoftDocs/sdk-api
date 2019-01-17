@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::DrawTextLayout
 author: windows-sdk-content
 description: Draws a text layout object. If the layout is not subsequently changed, this can be more efficient than DrawText when drawing the same layout repeatedly.
 old-location: direct2d\id2d1devicecontext4_drawtextlayout.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 54993EFD-A649-4613-8A9C-744FE22F7BFC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

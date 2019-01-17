@@ -143,9 +143,13 @@ If your app needs to copy an entire resource, we recommend to use <a href="https
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following code snippet copies the box (located at (120,100),(200,220)) from a source texture into the region (10,20),(90,140) in a destination texture.
 
-
-```
-D3D12_BOX sourceRegion;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_BOX sourceRegion;
 sourceRegion.left = 120;
 sourceRegion.top = 100;
 sourceRegion.right = 200;
@@ -154,8 +158,10 @@ sourceRegion.front = 0;
 sourceRegion.back = 1;
 
 pCmdList -> CopyTextureRegion(pDestTexture, 10, 20, 0, pSourceTexture, &sourceRegion);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
@@ -166,9 +172,13 @@ Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
 The <b>HelloTriangle</b> sample uses <b>ID3D12GraphicsCommandList::CopyTextureRegion</b> as follows:
         
 
-
-```cpp
-inline UINT64 UpdateSubresources(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT64 UpdateSubresources(
     _In_ ID3D12GraphicsCommandList* pCmdList,
     _In_ ID3D12Resource* pDestinationResource,
     _In_ ID3D12Resource* pIntermediate,
@@ -224,8 +234,10 @@ inline UINT64 UpdateSubresources(
     }
     return RequiredSize;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

@@ -4,7 +4,7 @@ title: D2D_MATRIX_3X2_F
 author: windows-sdk-content
 description: Represents a 3-by-2 matrix.
 old-location: direct2d\D2D_MATRIX_3X2_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c8a54bad-4376-479b-8529-1e407623e473
 ms.author: windowssdkdev
 ms.date: 12/5/2018

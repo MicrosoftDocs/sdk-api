@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::CreateTransformedImageSource
 author: windows-sdk-content
 description: Creates an image source which shares resources with an original.
 old-location: direct2d\id2d1devicecontext2_createtransformedimagesource.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

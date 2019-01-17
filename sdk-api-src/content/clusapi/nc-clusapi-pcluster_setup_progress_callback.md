@@ -4,7 +4,7 @@ title: PCLUSTER_SETUP_PROGRESS_CALLBACK
 author: windows-sdk-content
 description: Callback function that receives regular updates on the progression of the setup of the cluster.
 old-location: mscs\pcluster_setup_progress_callback.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fb7a6991-576c-4c03-aef0-89811fbc1a0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

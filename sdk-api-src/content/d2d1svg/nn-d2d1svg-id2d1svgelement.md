@@ -4,7 +4,7 @@ title: ID2D1SvgElement
 author: windows-sdk-content
 description: Interface for all SVG elements.
 old-location: direct2d\id2d1svgelement.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 19099DC9-EA14-41C5-A9DF-5EBB12696C79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

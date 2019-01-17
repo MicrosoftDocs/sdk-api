@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_LENGTH &)
 author: windows-sdk-content
 description: Sets an attribute of this element as a length value.
 old-location: direct2d\id2d1svgelement_setattributevalue_16.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 61C6D9AC-09F7-4F42-B476-88D32EB167C4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

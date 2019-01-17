@@ -4,7 +4,7 @@ title: GetClusterInformation function
 author: windows-sdk-content
 description: Retrieves a cluster's name and version.
 old-location: mscs\getclusterinformation.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5b259eb9-c5d0-4f4f-8a6b-14eaed716612
 ms.author: windowssdkdev
 ms.date: 12/5/2018

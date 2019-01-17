@@ -4,7 +4,7 @@ title: DSCreateISecurityInfoObject function
 author: windows-sdk-content
 description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object.
 old-location: security\dscreateisecurityinfoobject.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 44cd8d55-7232-478a-a3d3-bbf5fc764bcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

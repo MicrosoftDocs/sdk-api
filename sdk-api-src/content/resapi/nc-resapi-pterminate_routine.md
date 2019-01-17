@@ -4,7 +4,7 @@ title: PTERMINATE_ROUTINE
 author: windows-sdk-content
 description: Immediately marks a resource as unavailable for use without waiting for cleanup processing to be completed.
 old-location: mscs\terminate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

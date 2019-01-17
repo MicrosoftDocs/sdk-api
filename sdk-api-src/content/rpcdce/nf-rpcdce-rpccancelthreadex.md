@@ -4,7 +4,7 @@ title: RpcCancelThreadEx function
 author: windows-sdk-content
 description: The RpcCancelThreadEx function stops the execution of a thread.
 old-location: rpc\rpccancelthreadex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -134,7 +134,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 <div class="alert"><b>Note</b>  You can use 
 <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
-<a href="https://msdn.microsoft.com/">ncacn_http</a>, and with any of the datagram protocols except 
+<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>, and with any of the datagram protocols except 
 <a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> and 
 <a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>.</div>
 <div> </div>
@@ -158,7 +158,7 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/">ncacn_http</a>
+<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
 
 
 

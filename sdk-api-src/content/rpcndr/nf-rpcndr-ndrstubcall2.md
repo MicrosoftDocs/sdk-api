@@ -4,7 +4,7 @@ title: NdrStubCall2 function
 author: windows-sdk-content
 description: The NdrStubCall2 function is the server-side entry point for /Oicf mode stubs.
 old-location: rpc\ndrstubcall2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
 
 
 ## -parameters

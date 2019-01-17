@@ -4,7 +4,7 @@ title: D2D1_CAP_STYLE
 author: windows-sdk-content
 description: Describes the shape at the end of a line or segment.
 old-location: direct2d\D2D1_CAP_STYLE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: acf4365e-b9df-459e-a746-016339cd09ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

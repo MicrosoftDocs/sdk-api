@@ -4,7 +4,7 @@ title: RtmDeleteRouteList function
 author: windows-sdk-content
 description: The RtmDeleteRouteList function removes all routes from a client-specific route list, then frees any resources allocated to the list.
 old-location: rras\rtmdeleteroutelist.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0f8f04af-6ef6-42a7-a086-ba1706815ccb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcNsGroupMbrInqBeginW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members.
 old-location: rpc\rpcnsgroupmbrinqbegin.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

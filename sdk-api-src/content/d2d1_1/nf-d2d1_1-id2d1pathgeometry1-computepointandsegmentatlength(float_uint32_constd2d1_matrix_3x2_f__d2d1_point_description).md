@@ -4,7 +4,7 @@ title: ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D
 author: windows-sdk-content
 description: Computes the point that exists at a given distance along the path geometry along with the index of the segment the point is on and the directional vector at that point.
 old-location: direct2d\id2d1pathgeometry1_computepointandsegmentatlength_4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 03921E25-BC5A-425B-8D65-3FC0EAA8E0AD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

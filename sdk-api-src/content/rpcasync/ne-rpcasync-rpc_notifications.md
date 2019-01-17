@@ -4,7 +4,7 @@ title: RPC_NOTIFICATIONS
 author: windows-sdk-content
 description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
 old-location: rpc\rpc_notifications.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
 ms.author: windowssdkdev
 ms.date: 12/5/2018

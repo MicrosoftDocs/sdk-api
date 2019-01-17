@@ -4,7 +4,7 @@ title: IAzScope::DeleteTask
 author: windows-sdk-content
 description: Removes the IAzTask object with the specified name from the IAzScope object.
 old-location: security\iazscope_deletetask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: de72b944-2796-4445-9fdd-4d56526dc903
 ms.author: windowssdkdev
 ms.date: 12/5/2018

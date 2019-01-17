@@ -4,7 +4,7 @@ title: OpenClusterNetInterfaceEx function
 author: windows-sdk-content
 description: Opens a handle to a network interface.
 old-location: mscs\openclusternetinterfaceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

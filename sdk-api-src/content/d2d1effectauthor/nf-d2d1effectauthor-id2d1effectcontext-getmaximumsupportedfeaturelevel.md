@@ -4,7 +4,7 @@ title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel
 author: windows-sdk-content
 description: This indicates the maximum feature level from the provided list which is supported by the device.
 old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BDB553F8-C19D-46FC-A3CF-7E525DA81CE2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

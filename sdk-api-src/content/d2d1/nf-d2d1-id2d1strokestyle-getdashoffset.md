@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle::GetDashOffset
 author: windows-sdk-content
 description: Retrieves a value that specifies how far in the dash sequence the stroke will start.
 old-location: direct2d\ID2D1StrokeStyle_GetDashOffset.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: db540976-95a7-47c9-aeec-d5f874d22764
 ms.author: windowssdkdev
 ms.date: 12/5/2018

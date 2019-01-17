@@ -4,7 +4,7 @@ title: ResUtilGetQwordValue function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\resutilgetqwordvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

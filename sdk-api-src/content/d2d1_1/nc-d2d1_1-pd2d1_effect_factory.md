@@ -4,7 +4,7 @@ title: PD2D1_EFFECT_FACTORY
 author: windows-sdk-content
 description: Describes the implementation of an effect.
 old-location: direct2d\pd2d1_effect_factory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e4f99762-4328-4b9c-ab0d-14b78a1581b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

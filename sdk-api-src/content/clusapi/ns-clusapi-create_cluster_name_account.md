@@ -4,7 +4,7 @@ title: CREATE_CLUSTER_NAME_ACCOUNT
 author: windows-sdk-content
 description: Describes a cluster name resource and domain credentials used by the CreateClusterNameAccount function to add a cluster to a domain. PCREATE_CLUSTER_NAME_ACCOUNT defines a pointer to this structure.
 old-location: mscs\create_cluster_name_account.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 21D43B28-0B14-4A00-BDEE-B2B769BF9777
 ms.author: windowssdkdev
 ms.date: 12/5/2018

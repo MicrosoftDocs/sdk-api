@@ -4,7 +4,7 @@ title: SetClusterGroupNodeList function
 author: windows-sdk-content
 description: Sets the preferred node list for a group.
 old-location: mscs\setclustergroupnodelist.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 663ccafe-0456-406e-a50d-e17e6d85a9a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

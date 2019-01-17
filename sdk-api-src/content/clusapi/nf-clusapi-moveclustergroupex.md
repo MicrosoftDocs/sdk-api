@@ -4,7 +4,7 @@ title: MoveClusterGroupEx function
 author: windows-sdk-content
 description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
 old-location: mscs\moveclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

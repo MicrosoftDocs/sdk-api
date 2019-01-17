@@ -4,7 +4,7 @@ title: Matrix4x4F::Scale
 author: windows-sdk-content
 description: Scales the perspective plane of the matrix.
 old-location: direct2d\matrix4x4f_scale.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D0ACA5DC-D144-4832-94EB-A851F7602FD9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

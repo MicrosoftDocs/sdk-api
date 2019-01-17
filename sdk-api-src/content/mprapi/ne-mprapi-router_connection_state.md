@@ -4,7 +4,7 @@ title: ROUTER_CONNECTION_STATE
 author: windows-sdk-content
 description: Enumerates the possible states of an interface on a router.
 old-location: rras\router_connection_state.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e98f9843-c5a2-4714-8e22-58f24256d08f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

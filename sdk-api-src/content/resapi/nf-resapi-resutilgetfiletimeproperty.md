@@ -4,7 +4,7 @@ title: ResUtilGetFileTimeProperty function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_GET_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetfiletimeproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 80e05f95-d57f-40a4-a56c-bbadcfaa144e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

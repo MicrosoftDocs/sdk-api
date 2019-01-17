@@ -4,7 +4,7 @@ title: ID2D1Factory
 author: windows-sdk-content
 description: Creates Direct2D resources.
 old-location: direct2d\ID2D1Factory.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cef6115c-98e8-49e6-b419-271b43ce2938
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -220,27 +220,43 @@ See <a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Mu
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 
-
-```cpp
-ID2D1Factory* m_pDirect2dFactory;
-
-```
-
-```cpp
-    // Create a Direct2D factory.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1Factory* m_pDirect2dFactory;
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    // Create a Direct2D factory.
     hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
-
-```
-
-```cpp
-        // Create a Direct2D render target.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Create a Direct2D render target.
         hr = m_pDirect2dFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
             &m_pRenderTarget
             );
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

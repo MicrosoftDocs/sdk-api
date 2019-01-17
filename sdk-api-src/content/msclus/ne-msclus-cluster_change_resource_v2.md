@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_RESOURCE_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a resource.
 old-location: mscs\cluster_change_resource_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3CA4EE2C-78CA-42CF-B053-E6B9C58B77E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

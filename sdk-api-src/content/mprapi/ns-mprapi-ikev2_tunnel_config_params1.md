@@ -4,7 +4,7 @@ title: IKEV2_TUNNEL_CONFIG_PARAMS1
 author: windows-sdk-content
 description: Used to get or set tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0f76df0a-11f3-472a-b9ff-9a1e81c81e70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterSetAccountAccess function
 author: windows-sdk-content
 description: Updates an account access list (ACL) for a cluster.
 old-location: mscs\clustersetaccountaccess.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

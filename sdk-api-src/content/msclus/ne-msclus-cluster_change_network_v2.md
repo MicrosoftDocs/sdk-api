@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_NETWORK_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster network.
 old-location: mscs\cluster_change_network_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1FEB810F-C289-4615-8BCB-B1343200CBF1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

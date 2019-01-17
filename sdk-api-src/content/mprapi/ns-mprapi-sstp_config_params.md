@@ -4,7 +4,7 @@ title: SSTP_CONFIG_PARAMS
 author: windows-sdk-content
 description: Used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
 old-location: rras\sstp_config_params.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6f21d569-af9b-49ba-ab02-4dfc74e87ed2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

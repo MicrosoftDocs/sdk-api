@@ -4,7 +4,7 @@ title: ID2D1BoundsAdjustmentTransform::SetOutputBounds
 author: windows-sdk-content
 description: This sets the output bounds for the support transform.
 old-location: direct2d\id2d1boundsadjustmenttransform_setoutputbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AC0E392A-0410-44BC-8B52-FAD97D45970F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

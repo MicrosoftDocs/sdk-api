@@ -4,7 +4,7 @@ title: IAzApplication
 author: windows-sdk-content
 description: Defines an installed instance of an application. An IAzApplication object is created when an application is installed.
 old-location: security\iazapplication.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ea4a8a84-5003-44da-b75e-34da6bd898dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

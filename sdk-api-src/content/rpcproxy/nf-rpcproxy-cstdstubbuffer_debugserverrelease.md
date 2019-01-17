@@ -4,7 +4,7 @@ title: CStdStubBuffer_DebugServerRelease function
 author: windows-sdk-content
 description: The CStdStubBuffer_DebugServerRelease function implements the IRpcStubBuffer::DebugServerRelease method.
 old-location: rpc\cstdstubbuffer_debugserverrelease.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 3bdf74bf-2aed-4527-8c60-02537465354b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

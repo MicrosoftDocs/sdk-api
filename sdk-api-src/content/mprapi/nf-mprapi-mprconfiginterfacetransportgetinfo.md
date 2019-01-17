@@ -4,7 +4,7 @@ title: MprConfigInterfaceTransportGetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.
 old-location: rras\mprconfiginterfacetransportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

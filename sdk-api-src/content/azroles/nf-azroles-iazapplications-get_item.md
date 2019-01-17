@@ -4,7 +4,7 @@ title: IAzApplications::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzApplication object at the specified index into the IAzApplications collection.
 old-location: security\iazapplications_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

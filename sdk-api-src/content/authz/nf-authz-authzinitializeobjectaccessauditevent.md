@@ -4,7 +4,7 @@ title: AuthzInitializeObjectAccessAuditEvent function
 author: windows-sdk-content
 description: Initializes auditing for an object.
 old-location: security\authzinitializeobjectaccessauditevent.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cf79a92f-31e0-47cf-8990-4dbd46056a90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

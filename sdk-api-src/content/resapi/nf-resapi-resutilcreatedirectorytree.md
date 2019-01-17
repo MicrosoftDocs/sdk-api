@@ -4,7 +4,7 @@ title: ResUtilCreateDirectoryTree function
 author: windows-sdk-content
 description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.
 old-location: mscs\resutilcreatedirectorytree.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5e1e689f-cc33-4cc7-9c6c-9799a6d6f70a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the scope.
 old-location: security\iazscope_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 51a7daff-ecb9-4a66-a7f7-aee9aeff7d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

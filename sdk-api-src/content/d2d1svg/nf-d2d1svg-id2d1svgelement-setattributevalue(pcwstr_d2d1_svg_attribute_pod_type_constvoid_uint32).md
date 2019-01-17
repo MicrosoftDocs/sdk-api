@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,con
 author: windows-sdk-content
 description: Sets an attribute of this element using a POD type.
 old-location: direct2d\id2d1svgelement_setattributevalue_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8ACAA04E-8ABB-49D1-A6F8-BCCEAD1DA460
 ms.author: windowssdkdev
 ms.date: 12/5/2018

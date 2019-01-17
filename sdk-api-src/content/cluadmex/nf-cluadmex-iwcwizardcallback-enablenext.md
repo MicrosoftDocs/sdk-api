@@ -4,7 +4,7 @@ title: IWCWizardCallback::EnableNext
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Failover Cluster Administrator Wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizardcallback_enablenext.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6f485ffa-0e94-4443-9c79-991c35a60e97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

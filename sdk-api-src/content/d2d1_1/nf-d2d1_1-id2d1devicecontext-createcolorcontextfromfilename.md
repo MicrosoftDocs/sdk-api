@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateColorContextFromFilename
 author: windows-sdk-content
 description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by Filename.
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromfilename.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ae72c68a-d984-4287-b607-a18913f083d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

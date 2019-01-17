@@ -4,7 +4,7 @@ title: RtmGetRouteInfo function
 author: windows-sdk-content
 description: The RtmGetRouteInfo function returns information for the specified route.
 old-location: rras\rtmgetrouteinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

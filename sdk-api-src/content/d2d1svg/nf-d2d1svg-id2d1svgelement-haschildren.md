@@ -4,7 +4,7 @@ title: ID2D1SvgElement::HasChildren
 author: windows-sdk-content
 description: Returns a boolean indicating whether this element has children.
 old-location: direct2d\id2d1svgelement_haschildren.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8E7942E1-AD67-44B5-9C8D-89DD7551BA18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

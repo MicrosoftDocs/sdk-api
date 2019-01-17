@@ -4,7 +4,7 @@ title: ID2D1CommandSink2::DrawGdiMetafile
 author: windows-sdk-content
 description: Draws a metafile to the command sink using the given source and destination rectangles.
 old-location: direct2d\id2d1commandsink2_drawgdimetafile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ecd1fb9e-0062-c1aa-8275-47b7453bc9ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

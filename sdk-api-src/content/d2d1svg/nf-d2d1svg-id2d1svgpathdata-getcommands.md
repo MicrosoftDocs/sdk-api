@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::GetCommands
 author: windows-sdk-content
 description: Gets commands from the commands array.
 old-location: direct2d\id2d1svgpathdata_getcommands.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D72199E5-11E5-413E-88F0-85EF17585587
 ms.author: windowssdkdev
 ms.date: 12/5/2018

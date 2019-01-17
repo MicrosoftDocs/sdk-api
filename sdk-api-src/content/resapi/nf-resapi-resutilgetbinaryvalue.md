@@ -4,7 +4,7 @@ title: ResUtilGetBinaryValue function
 author: windows-sdk-content
 description: Returns a binary value from the cluster database.
 old-location: mscs\resutilgetbinaryvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

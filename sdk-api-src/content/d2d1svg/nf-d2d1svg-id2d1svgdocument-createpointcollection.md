@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::CreatePointCollection
 author: windows-sdk-content
 description: Creates a points object which can be used to set a points attribute on a polygon or polyline element.
 old-location: direct2d\id2d1svgdocument_createpointcollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A7AB02F2-32B0-4FF5-8A3A-CE7A6AD9DB57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

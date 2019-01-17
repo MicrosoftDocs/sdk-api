@@ -4,7 +4,7 @@ title: SID_AND_ATTRIBUTES
 author: windows-sdk-content
 description: Represents a security identifier (SID) and its attributes.
 old-location: security\sid_and_attributes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d15d5a3f-6b38-4b92-b59c-ff0d27d111d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

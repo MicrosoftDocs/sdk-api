@@ -4,7 +4,7 @@ title: DestroyCluster function
 author: windows-sdk-content
 description: Removes a cluster.
 old-location: mscs\destroycluster.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

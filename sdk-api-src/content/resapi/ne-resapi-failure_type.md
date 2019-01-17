@@ -4,7 +4,7 @@ title: FAILURE_TYPE
 author: windows-sdk-content
 description: Defines the failure types for cluster resources.
 old-location: mscs\failure_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C838BE66-5CAB-4884-AC64-EC5EC3A87679
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetUnitMode
 author: windows-sdk-content
 description: Gets the mode that is being used to interpret values by the device context.
 old-location: direct2d\id2d1devicecontext_getunitmode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d1c6476d-151b-4f2a-9aae-726de219567c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 author: windows-sdk-content
 description: Describes a replicated partition.
 old-location: mscs\sr_resource_type_replicated_partition_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D8EAC986-280E-4092-AF1A-17AAB38248AF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

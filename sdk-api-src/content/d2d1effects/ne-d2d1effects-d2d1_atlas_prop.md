@@ -4,7 +4,7 @@ title: D2D1_ATLAS_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Atlas effect.
 old-location: direct2d\d2d1_atlas_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7450C113-F1F0-433C-928B-19B0FF21B69B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

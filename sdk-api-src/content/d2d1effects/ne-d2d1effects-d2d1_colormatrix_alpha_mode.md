@@ -4,7 +4,7 @@ title: D2D1_COLORMATRIX_ALPHA_MODE
 author: windows-sdk-content
 description: The alpha mode of the output of the Color matrix effect.
 old-location: direct2d\d2d1_colormatrix_alpha_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7D7CB142-5758-4745-A4CD-41B3E2465562
 ms.author: windowssdkdev
 ms.date: 12/5/2018

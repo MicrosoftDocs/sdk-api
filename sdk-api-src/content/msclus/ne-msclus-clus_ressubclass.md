@@ -4,7 +4,7 @@ title: CLUS_RESSUBCLASS
 author: windows-sdk-content
 description: Identifies a resource subclass that manages a shared resource.
 old-location: mscs\clus_ressubclass.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

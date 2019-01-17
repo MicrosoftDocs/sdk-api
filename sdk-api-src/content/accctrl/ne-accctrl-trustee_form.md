@@ -4,7 +4,7 @@ title: TRUSTEE_FORM
 author: windows-sdk-content
 description: Values that indicate the type of data pointed to by the ptstrName member of the TRUSTEE structure.
 old-location: security\trustee_form.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 991ac6cb-3fc9-4915-b5c9-ae73efb25d68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

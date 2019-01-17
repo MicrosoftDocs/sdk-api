@@ -4,7 +4,7 @@ title: MprAdminRegisterConnectionNotification function
 author: windows-sdk-content
 description: The MprAdminRegisterConnectionNotification function registers an event object with the Demand Dial Manager (DDM) so that, if an interface connects or disconnects, the event is signaled.
 old-location: rras\mpradminregisterconnectionnotification.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

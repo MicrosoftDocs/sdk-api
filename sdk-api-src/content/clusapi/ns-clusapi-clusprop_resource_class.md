@@ -4,7 +4,7 @@ title: CLUSPROP_RESOURCE_CLASS
 author: windows-sdk-content
 description: Describes a resource class.
 old-location: mscs\clusprop_resource_class.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9ec01908-3765-4e95-a9d3-fdf6daa5f64d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -56,9 +56,7 @@ Describes a resource class. It is used as an entry in a
 <li>A <a href="https://msdn.microsoft.com/65168256-f097-48a5-9e86-ec419ccb13bd">CLUSTER_RESOURCE_CLASS</a> value describing the 
      resource class. <b>CLUSTER_RESOURCE_CLASS</b> is an 
      enumeration defined in ClusAPI.h.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+</ul>
 
 ## -struct-fields
 
@@ -102,27 +100,10 @@ Resource belongs to a user-defined class. <b>CLUS_RESCLASS_USER</b> specifies th
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - ;
-
-
-
-#### Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
-        of <b>CLUSPROP_SYNTAX_RESCLASS</b> (0x00020002).
-
-
-
-#### cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
-        the count of bytes in the <b>rc</b> member. Padding bytes are not included in the 
-        count.
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+       of <b>CLUSPROP_SYNTAX_RESCLASS</b> (0x00020002) and a <b>cbLength</b> field indicating 
+       the count of bytes in the <b>rc</b> member.
 
 
 ## -remarks

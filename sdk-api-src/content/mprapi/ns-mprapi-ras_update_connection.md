@@ -4,7 +4,7 @@ title: RAS_UPDATE_CONNECTION
 author: windows-sdk-content
 description: Used to update an active RAS connection.
 old-location: rras\ras_update_connection.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

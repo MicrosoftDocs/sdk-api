@@ -4,7 +4,7 @@ title: GetSecurityDescriptorOwner function
 author: windows-sdk-content
 description: Retrieves the owner information from a security descriptor.
 old-location: security\getsecuritydescriptorowner.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 58e810db-348e-430c-a61f-79f67826b60d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

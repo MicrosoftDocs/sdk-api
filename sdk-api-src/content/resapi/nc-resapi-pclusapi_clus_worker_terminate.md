@@ -4,7 +4,7 @@ title: PCLUSAPI_CLUS_WORKER_TERMINATE
 author: windows-sdk-content
 description: Terminates a worker thread. The PCLUSAPI_CLUS_WORKER_TERMINATE type defines a pointer to this function.
 old-location: mscs\clusworkerterminate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d143a860-92fe-4fa9-b0d7-d591376a0209
 ms.author: windowssdkdev
 ms.date: 12/5/2018

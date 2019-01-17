@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_RESOURCE_TYPE_V2
 author: windows-sdk-content
 description: Defines the set of notifications that are generated for a resource type.
 old-location: mscs\cluster_change_resource_type_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2A49AA32-F1E2-4810-B093-F6EC050DA841
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PEXTEND_RES_CONTROL_CALL
 author: windows-sdk-content
 description: Extends the timeout for a call to a resource control code. The PEXTEND_RES_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\extendcontrolcall.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 79607FE9-96E5-4854-BC92-8FF1C474B3D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

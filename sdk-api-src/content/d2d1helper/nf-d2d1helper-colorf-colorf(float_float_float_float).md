@@ -4,7 +4,7 @@ title: ColorF::ColorF(FLOAT,FLOAT,FLOAT,FLOAT)
 author: windows-sdk-content
 description: Instantiates a new instance of the ColorF class that contains the specified red, green, blue, and alpha values.
 old-location: direct2d\colorf_colorf_float__float__float__float_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0c6118e6-0d97-4f66-951a-01e6d5264c59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

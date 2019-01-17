@@ -4,7 +4,7 @@ title: AuditLookupCategoryGuidFromCategoryId function
 author: windows-sdk-content
 description: Retrieves a GUID structure that represents the specified audit-policy category.
 old-location: security\auditlookupcategoryguidfromcategoryid_func.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522
 ms.author: windowssdkdev
 ms.date: 12/5/2018

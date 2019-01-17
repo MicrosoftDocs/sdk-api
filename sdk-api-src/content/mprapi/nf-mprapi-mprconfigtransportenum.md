@@ -4,7 +4,7 @@ title: MprConfigTransportEnum function
 author: windows-sdk-content
 description: The MprConfigTransportEnum function enumerates the transports configured on the router.
 old-location: rras\mprconfigtransportenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 2abe30f4-564b-499f-a6d3-13da305a783c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

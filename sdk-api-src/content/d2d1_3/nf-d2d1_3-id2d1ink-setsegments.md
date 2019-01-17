@@ -4,7 +4,7 @@ title: ID2D1Ink::SetSegments
 author: windows-sdk-content
 description: Updates the specified segments in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegments.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 930D9772-D922-4CEB-A97C-06F263543D81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PLOG_EVENT_ROUTINE
 author: windows-sdk-content
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

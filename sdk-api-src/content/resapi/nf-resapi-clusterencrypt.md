@@ -4,7 +4,7 @@ title: ClusterEncrypt function
 author: windows-sdk-content
 description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterencrypt.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

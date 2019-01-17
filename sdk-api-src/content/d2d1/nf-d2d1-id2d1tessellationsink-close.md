@@ -4,7 +4,7 @@ title: ID2D1TessellationSink::Close
 author: windows-sdk-content
 description: Closes the sink and returns its error status.
 old-location: direct2d\ID2D1TessellationSink_Close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42630fca-1f57-4b1e-be9d-7636a792a1bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

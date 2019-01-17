@@ -4,7 +4,7 @@ title: RpcServerUnregisterIfEx function
 author: windows-sdk-content
 description: The RpcServerUnregisterIfEx function removes an interface from the RPC run-time library registry. This function extends the functionality of the RpcServerUnregisterIf function.
 old-location: rpc\rpcserverunregisterifex.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f01eab2c-cd33-4427-9f0c-903e4d3474e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcSmAllocate function
 author: windows-sdk-content
 description: The RpcSmAllocate function allocates memory within the RPC stub memory management function and returns a pointer to the allocated memory or NULL.
 old-location: rpc\rpcsmallocate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: ca3373fa-8ea4-452e-b2a2-f30eb48fef9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

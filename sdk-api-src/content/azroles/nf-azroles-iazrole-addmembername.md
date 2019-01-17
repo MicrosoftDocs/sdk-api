@@ -4,7 +4,7 @@ title: IAzRole::AddMemberName
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that belong to the role.
 old-location: security\iazrole_addmembername.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fc2ca62e-40b1-4b09-a129-50d6162c6807
 ms.author: windowssdkdev
 ms.date: 12/5/2018

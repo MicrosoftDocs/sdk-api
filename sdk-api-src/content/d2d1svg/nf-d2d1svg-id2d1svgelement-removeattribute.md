@@ -4,7 +4,7 @@ title: ID2D1SvgElement::RemoveAttribute
 author: windows-sdk-content
 description: Removes the attribute from this element.
 old-location: direct2d\id2d1svgelement_removeattribute.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 608BB970-CC78-4CF3-BD8C-02DCBBFA287E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

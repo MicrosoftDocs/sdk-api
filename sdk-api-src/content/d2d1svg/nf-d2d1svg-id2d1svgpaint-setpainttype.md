@@ -4,7 +4,7 @@ title: ID2D1SvgPaint::SetPaintType
 author: windows-sdk-content
 description: Sets the paint type.
 old-location: direct2d\id2d1svgpaint_setpainttype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C6F1D646-2ADD-4F1A-940E-8D20DFBBBAC1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

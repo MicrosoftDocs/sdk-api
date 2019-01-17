@@ -4,7 +4,7 @@ title: ID2D1BorderTransform::GetExtendModeX
 author: windows-sdk-content
 description: Gets the extend mode in the x direction.
 old-location: direct2d\id2d1bordertransform_getextendmodex.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FAF8DE8A-3A05-496F-A03B-971DFDCF669E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

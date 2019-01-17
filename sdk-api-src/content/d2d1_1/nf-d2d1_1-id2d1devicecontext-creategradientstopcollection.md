@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateGradientStopCollection
 author: windows-sdk-content
 description: Creates a gradient stop collection, enabling the gradient to contain color channels with values outside of [0,1] and also enabling rendering to a high-color render target with interpolation in sRGB space.
 old-location: direct2d\id2d1devicecontext_creategradientstopcollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6374fc62-1f54-4112-8ba3-9c1167bf8685
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -81,17 +81,23 @@ Returns a vector containing the smallest components between the two vectors.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR Result;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
 Result.x = (V1.x < V2.x) ? V1.x : V2.x;
 Result.y = (V1.y < V2.y) ? V1.y : V2.y;
 Result.z = (V1.z < V2.z) ? V1.z : V2.z;
 Result.w = (V1.w < V2.w) ? V1.w : V2.w;
 
-return Result;
-```
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

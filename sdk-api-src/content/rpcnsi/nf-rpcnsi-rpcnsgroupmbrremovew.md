@@ -4,7 +4,7 @@ title: RpcNsGroupMbrRemoveW function
 author: windows-sdk-content
 description: The RpcNsGroupMbrRemove function removes an entry name from a group.
 old-location: rpc\rpcnsgroupmbrremove.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

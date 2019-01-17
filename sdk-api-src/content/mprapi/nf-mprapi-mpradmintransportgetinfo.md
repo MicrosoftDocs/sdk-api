@@ -4,7 +4,7 @@ title: MprAdminTransportGetInfo function
 author: windows-sdk-content
 description: The MprAdminTransportGetInfo function retrieves global information, default client interface information, or both, for a specified transport.
 old-location: rras\mpradmintransportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 47fbe483-8a1b-4747-9555-931dd63e2db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

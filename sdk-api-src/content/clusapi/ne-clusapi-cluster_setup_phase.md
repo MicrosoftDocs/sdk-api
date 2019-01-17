@@ -4,7 +4,7 @@ title: CLUSTER_SETUP_PHASE
 author: windows-sdk-content
 description: Used by the ClusterSetupProgressCallback function to identify the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cc881b92-c312-4b88-8d8d-09f98925b5b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

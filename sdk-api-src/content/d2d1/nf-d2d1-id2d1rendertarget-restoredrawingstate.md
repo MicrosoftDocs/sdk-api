@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::RestoreDrawingState
 author: windows-sdk-content
 description: Sets the render target's drawing state to that of the specified ID2D1DrawingStateBlock.
 old-location: direct2d\ID2D1RenderTarget_RestoreDrawingState.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5b627710-8507-460e-bdc7-2a5633ce370f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

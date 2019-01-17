@@ -4,7 +4,7 @@ title: RtmBlockMethods function
 author: windows-sdk-content
 description: The RtmBlockMethods function blocks or unblocks the execution of methods for a specified destination, route, or next hop, or for all destinations, routes, and next hops.
 old-location: rras\rtmblockmethods.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 492bb2bf-5b35-4eef-a039-3d3e1137220f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

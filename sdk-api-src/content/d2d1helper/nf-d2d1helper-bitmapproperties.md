@@ -4,7 +4,7 @@ title: BitmapProperties function
 author: windows-sdk-content
 description: Creates a D2D1_BITMAP_PROPERTIES structure.
 old-location: direct2d\bitmapproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

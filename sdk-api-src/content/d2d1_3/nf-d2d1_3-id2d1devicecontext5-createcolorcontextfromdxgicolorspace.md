@@ -4,7 +4,7 @@ title: ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace
 author: windows-sdk-content
 description: Creates a color context from a DXGI color space type. It is only valid to use this with the Color Management Effect in 'Best' mode.
 old-location: direct2d\id2d1devicecontext5_createcolorcontextfromdxgicolorspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A8C785A1-0C16-4C16-9217-C54F1B911095
 ms.author: windowssdkdev
 ms.date: 12/5/2018

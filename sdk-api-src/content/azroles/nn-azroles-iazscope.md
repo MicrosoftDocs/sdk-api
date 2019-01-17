@@ -4,7 +4,7 @@ title: IAzScope
 author: windows-sdk-content
 description: Defines a logical container of resources to which the application manages access.
 old-location: security\iazscope.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

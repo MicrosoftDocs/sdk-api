@@ -4,7 +4,7 @@ title: RtmMarkDestForChangeNotification function
 author: windows-sdk-content
 description: The RtmMarkDestForChangeNotification function marks a destination for a client.
 old-location: rras\rtmmarkdestforchangenotification.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

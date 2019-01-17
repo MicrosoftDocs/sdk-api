@@ -4,7 +4,7 @@ title: IAzTask2::RoleAssignments
 author: windows-sdk-content
 description: Returns a collection of the role assignments associated with this task.
 old-location: security\iaztask2_roleassignments_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1c60b9e7-3d02-4dce-9c45-cf9bf9b83ace
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenClusterGroupSet function
 author: windows-sdk-content
 description: Opens a handle to the specified groupset.
 old-location: mscs\openclustergroupcollection.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

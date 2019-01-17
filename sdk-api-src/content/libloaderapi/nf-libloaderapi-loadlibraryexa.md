@@ -441,13 +441,19 @@ Unless an application depends on specific image mapping characteristics, the
 To determine how a module was loaded, use one of the  following macros to test the handle returned by 
       <b>LoadLibraryEx</b>.
 
-
-```cpp
-#define LDR_IS_DATAFILE(handle)      (((ULONG_PTR)(handle)) &  (ULONG_PTR)1)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define LDR_IS_DATAFILE(handle)      (((ULONG_PTR)(handle)) &  (ULONG_PTR)1)
 #define LDR_IS_IMAGEMAPPING(handle)  (((ULONG_PTR)(handle)) & (ULONG_PTR)2)
 #define LDR_IS_RESOURCE(handle)      (LDR_IS_IMAGEMAPPING(handle) || LDR_IS_DATAFILE(handle))
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following table describes these macros.

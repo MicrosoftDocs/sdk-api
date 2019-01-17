@@ -4,7 +4,7 @@ title: IAzApplication3::OpenRoleAssignment
 author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_openroleassignment.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

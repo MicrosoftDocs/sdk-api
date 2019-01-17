@@ -4,7 +4,7 @@ title: PFNRASFREEBUFFER
 author: windows-sdk-content
 description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
 old-location: rras\rasfreebuffer.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

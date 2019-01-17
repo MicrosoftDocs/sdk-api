@@ -4,7 +4,7 @@ title: IAzRoleDefinitions::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzRoleDefinitions objects in the collection.
 old-location: security\iazroledefinitions_count.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ba841ca6-3c3e-4f47-9b44-24739440acd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

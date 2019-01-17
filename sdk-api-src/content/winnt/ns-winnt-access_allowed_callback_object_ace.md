@@ -4,7 +4,7 @@ title: ACCESS_ALLOWED_CALLBACK_OBJECT_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) that controls allowed access to an object, property set, or property.
 old-location: security\access_allowed_callback_object_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 83b00ef3-f7b2-455e-8f3f-01b1da6024b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

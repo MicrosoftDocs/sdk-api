@@ -4,7 +4,7 @@ title: OBJECTS_AND_NAME_A
 author: windows-sdk-content
 description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE).
 old-location: security\objects_and_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

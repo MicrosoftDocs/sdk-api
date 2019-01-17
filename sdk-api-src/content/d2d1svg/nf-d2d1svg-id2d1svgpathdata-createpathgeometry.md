@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::CreatePathGeometry
 author: windows-sdk-content
 description: Creates a path geometry object representing the path data.
 old-location: direct2d\id2d1svgpathdata_createpathgeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BDF23A0F-EC4B-49AE-8822-9326DA2D885D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

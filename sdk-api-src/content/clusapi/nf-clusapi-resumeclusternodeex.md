@@ -4,7 +4,7 @@ title: ResumeClusterNodeEx function
 author: windows-sdk-content
 description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.
 old-location: mscs\resumeclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6111AA77-8542-4183-98B2-A505889B0B87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

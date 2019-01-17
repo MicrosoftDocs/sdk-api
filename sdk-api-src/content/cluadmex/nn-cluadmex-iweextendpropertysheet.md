@@ -4,7 +4,7 @@ title: IWEExtendPropertySheet
 author: windows-sdk-content
 description: Implement the IWEExtendPropertySheet interface to create property sheet pages for a cluster object and add them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

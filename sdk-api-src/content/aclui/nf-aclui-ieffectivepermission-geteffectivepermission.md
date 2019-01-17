@@ -4,7 +4,7 @@ title: IEffectivePermission::GetEffectivePermission
 author: windows-sdk-content
 description: Returns the effective permission for an object type.
 old-location: security\ieffectivepermission_geteffectivepermission.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -80,16 +80,22 @@ A pointer to a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e8
 
 A pointer to a pointer to an <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-84dd-5700aead75ce">OBJECT_TYPE_LIST</a> structure that represents the array of object types in the object tree for the object. If an object does not support property access, use the following technique to specify the value for the <b>OBJECT_TYPE_LIST</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 
 OBJECT_TYPE_LIST g_DefaultOTL[] = {
  {0, 0, (LPGUID)&GUID_NULL},
 };
 
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

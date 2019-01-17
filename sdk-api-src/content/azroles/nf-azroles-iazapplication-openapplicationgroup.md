@@ -4,7 +4,7 @@ title: IAzApplication::OpenApplicationGroup
 author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\iazapplication_openapplicationgroup.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6f9c9d65-73aa-40e9-bd04-d4d5d4370201
 ms.author: windowssdkdev
 ms.date: 12/5/2018

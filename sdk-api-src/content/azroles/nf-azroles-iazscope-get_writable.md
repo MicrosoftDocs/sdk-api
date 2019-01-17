@@ -4,7 +4,7 @@ title: IAzScope::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the scope can be modified by the user context that initialized it.
 old-location: security\iazscope_writable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 8e382af1-192f-4530-82a0-434f66eac060
 ms.author: windowssdkdev
 ms.date: 12/5/2018

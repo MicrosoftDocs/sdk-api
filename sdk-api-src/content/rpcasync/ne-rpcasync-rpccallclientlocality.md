@@ -4,7 +4,7 @@ title: RpcCallClientLocality
 author: windows-sdk-content
 description: Specifies the set of possible RPC client localities.
 old-location: rpc\rpccallclientlocality.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

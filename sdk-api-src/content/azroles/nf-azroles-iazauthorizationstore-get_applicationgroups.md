@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_ApplicationGroups
 author: windows-sdk-content
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\azauthorizationstore_applicationgroups.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 02bab92b-b234-4755-a4d3-f787fe46252d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

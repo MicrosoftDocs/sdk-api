@@ -4,7 +4,7 @@ title: D2D1_EXTEND_MODE
 author: windows-sdk-content
 description: Specifies how a brush paints areas outside of its normal content area.
 old-location: direct2d\D2D1_EXTEND_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

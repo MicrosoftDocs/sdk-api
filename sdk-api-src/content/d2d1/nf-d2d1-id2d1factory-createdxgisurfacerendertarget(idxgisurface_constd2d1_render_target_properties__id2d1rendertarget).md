@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDE
 author: windows-sdk-content
 description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 old-location: direct2d\ID2D1Factory_CreateDxgiSurfaceRenderTarget_ptr_IDXGISurface_ref_D2D1_RENDER_TARGET_PROPERTIES_ptr_ptr_ID2D1RenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f8631a0a-e069-4ad3-995f-ac80dce625fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

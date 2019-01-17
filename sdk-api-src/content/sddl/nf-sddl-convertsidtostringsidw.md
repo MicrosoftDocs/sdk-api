@@ -4,7 +4,7 @@ title: ConvertSidToStringSidW function
 author: windows-sdk-content
 description: Converts a security identifier (SID) to a string format suitable for display, storage, or transmission.
 old-location: security\convertsidtostringsid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.author: windowssdkdev
 ms.date: 12/5/2018

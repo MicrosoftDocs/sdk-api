@@ -4,7 +4,7 @@ title: ID2D1DeviceContext5::DrawSvgDocument
 author: windows-sdk-content
 description: Draws an SVG document.
 old-location: direct2d\id2d1devicecontext5_drawsvgdocument.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 369CB316-065D-41C6-8A1B-F41977EFA857
 ms.author: windowssdkdev
 ms.date: 12/5/2018

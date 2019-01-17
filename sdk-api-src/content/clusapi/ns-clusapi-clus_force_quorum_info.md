@@ -4,7 +4,7 @@ title: CLUS_FORCE_QUORUM_INFO
 author: windows-sdk-content
 description: Specifies information about the list of nodes sufficient to establish quorum in a majority-of-nodes cluster.
 old-location: mscs\clus_force_quorum_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dda10d88-0e5f-40f7-b18b-82dacef6f886
 ms.author: windowssdkdev
 ms.date: 12/5/2018

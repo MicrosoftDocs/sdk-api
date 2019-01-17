@@ -4,7 +4,7 @@ title: D2D1_CHANNEL_SELECTOR
 author: windows-sdk-content
 description: Specifies the color channel the Displacement map effectextracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 old-location: direct2d\d2d1_channel_selector.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

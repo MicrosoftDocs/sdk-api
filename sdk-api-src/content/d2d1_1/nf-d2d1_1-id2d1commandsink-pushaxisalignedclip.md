@@ -4,7 +4,7 @@ title: ID2D1CommandSink::PushAxisAlignedClip
 author: windows-sdk-content
 description: Pushes a clipping rectangle onto the clip and layer stack.
 old-location: direct2d\id2d1commandsink_pushaxisalignedclip.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 09e20780-2ebd-417e-9953-421f49dba4dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

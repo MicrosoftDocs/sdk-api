@@ -4,7 +4,7 @@ title: ClusterOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through cluster objects in a cluster.
 old-location: mscs\clusteropenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b6eb5c03-dd6e-42ef-a020-cf0d61143040
 ms.author: windowssdkdev
 ms.date: 12/5/2018

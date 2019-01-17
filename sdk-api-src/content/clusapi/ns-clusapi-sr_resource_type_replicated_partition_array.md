@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
 author: windows-sdk-content
 description: Lists the all replicated partitions on a disk.
 old-location: mscs\sr_resource_type_replicated_partition_array.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3FD68FF6-3377-4EBF-95F4-94835ABB1274
 ms.author: windowssdkdev
 ms.date: 12/5/2018

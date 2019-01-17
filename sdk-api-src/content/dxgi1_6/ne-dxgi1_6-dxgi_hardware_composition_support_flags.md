@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 req.redist: 
+ms.custom: RS5
 ---
 
 # DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration

@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::PopLayer
 author: windows-sdk-content
 description: Stops redirecting drawing operations to the layer that is specified by the last PushLayer call.
 old-location: direct2d\ID2D1RenderTarget_PopLayer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6ab05160-4f42-477f-a5bf-f16863b0635c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -80,9 +80,13 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
 
-
-```cpp
-HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 {
     HRESULT hr = S_OK;
 
@@ -117,8 +121,10 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

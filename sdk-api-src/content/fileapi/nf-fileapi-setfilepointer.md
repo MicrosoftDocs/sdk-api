@@ -253,9 +253,13 @@ If the return value is <b>INVALID_SET_FILE_POINTER</b> and if
     <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine whether or not the function has 
     succeeded or failed. The following code example shows you that scenario.
 
-
-```cpp
-  // Case One: calling the function with lpDistanceToMoveHigh == NULL 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  // Case One: calling the function with lpDistanceToMoveHigh == NULL 
 
   // Try to move hFile file pointer some distance  
   DWORD dwPtr = SetFilePointer( hFile, 
@@ -291,8 +295,10 @@ If the return value is <b>INVALID_SET_FILE_POINTER</b> and if
     // . . .
 
    } // End of error handler
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Although the parameter <i>lpDistanceToMoveHigh</i> is used to manipulate huge files, the 
@@ -329,9 +335,13 @@ Also, it is best to use a function to hide the interface to
     <b>SetFilePointer</b>. The following code example shows you that 
     scenario.
 
-
-```cpp
-__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>__int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod)
 {
    LARGE_INTEGER li;
 
@@ -350,8 +360,10 @@ __int64 myFileSeek (HANDLE hf, __int64 distance, DWORD MoveMethod)
 
    return li.QuadPart;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 You can use <b>SetFilePointer</b> to determine the length of 

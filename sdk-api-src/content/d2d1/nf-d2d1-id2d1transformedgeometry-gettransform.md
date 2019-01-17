@@ -4,7 +4,7 @@ title: ID2D1TransformedGeometry::GetTransform
 author: windows-sdk-content
 description: Retrieves the matrix used to transform the ID2D1TransformedGeometry object's source geometry.
 old-location: direct2d\ID2D1TransformedGeometry_GetTransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9d448af2-49ad-4209-b3a6-b07b40bb3e9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

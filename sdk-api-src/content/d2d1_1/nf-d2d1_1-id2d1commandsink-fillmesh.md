@@ -4,7 +4,7 @@ title: ID2D1CommandSink::FillMesh
 author: windows-sdk-content
 description: Indicates a mesh to be filled by the command sink.
 old-location: direct2d\id2d1commandsink_fillmesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b81ac1d2-06bb-4d39-b03d-c0abf7267c3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

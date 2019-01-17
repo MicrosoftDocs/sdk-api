@@ -4,7 +4,7 @@ title: D2D1_FACTORY_TYPE
 author: windows-sdk-content
 description: Specifies whether Direct2D provides synchronization for an ID2D1Factory and the resources it creates, so that they may be safely accessed from multiple threads.
 old-location: direct2d\D2D1_FACTORY_TYPE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

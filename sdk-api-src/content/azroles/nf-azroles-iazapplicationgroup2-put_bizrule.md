@@ -4,7 +4,7 @@ title: IAzApplicationGroup2::put_BizRule
 author: windows-sdk-content
 description: Gets or sets the script that determines membership for this application group.
 old-location: security\iazapplicationgroup2_bizrule_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ed4acfc3-6185-404f-8598-d3fc88b21361
 ms.author: windowssdkdev
 ms.date: 12/5/2018

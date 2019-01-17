@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::SetPassthroughGraph
 author: windows-sdk-content
 description: Uses the specified input as the effect output.
 old-location: direct2d\id2d1transformgraph_setpassthroughgraph.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 719F7C82-31D7-40A0-BD5C-59F97F0002F9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_DIRECTIONALBLUR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: BEC82079-543E-4675-84DD-0DE7D852866E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

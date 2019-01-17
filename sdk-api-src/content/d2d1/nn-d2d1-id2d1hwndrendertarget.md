@@ -4,7 +4,7 @@ title: ID2D1HwndRenderTarget
 author: windows-sdk-content
 description: Renders drawing instructions to a window.
 old-location: direct2d\ID2D1HwndRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -130,9 +130,13 @@ Your application should create render targets once and hold onto them for the li
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
-
-```cpp
-RECT rc;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>RECT rc;
 GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
@@ -146,8 +150,10 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
     &m_pRenderTarget
     );
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The next example uses the <b>ID2D1HwndRenderTarget</b> to draw text to the window.

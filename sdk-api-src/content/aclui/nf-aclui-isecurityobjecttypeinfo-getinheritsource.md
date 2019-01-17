@@ -4,7 +4,7 @@ title: ISecurityObjectTypeInfo::GetInheritSource
 author: windows-sdk-content
 description: The ISecurityObjectTypeInfo::GetInheritSource method provides a means of determining the source of inherited access control entries in discretionary access control lists and system access control lists.
 old-location: security\isecurityobjecttypeinfo_getinheritsource.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e058ca98-08dc-4a3f-9521-adcc5990eae7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

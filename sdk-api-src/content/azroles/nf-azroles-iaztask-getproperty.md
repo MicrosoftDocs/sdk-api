@@ -4,7 +4,7 @@ title: IAzTask::GetProperty
 author: windows-sdk-content
 description: Returns the IAzTask object property with the specified property ID.
 old-location: security\iaztask_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d484f56c-3d96-48df-a0d1-1bea58e30f26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

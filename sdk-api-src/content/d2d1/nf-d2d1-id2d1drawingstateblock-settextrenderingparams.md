@@ -4,7 +4,7 @@ title: ID2D1DrawingStateBlock::SetTextRenderingParams
 author: windows-sdk-content
 description: Specifies the text-rendering configuration of the drawing state.
 old-location: direct2d\ID2D1DrawingStateBlock_SetTextRenderingParams.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 449bd558-a3f1-4168-a803-d2f00b2250d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::GetSourceRectangle
 author: windows-sdk-content
 description: Gets the rectangle that will be used as the bounds of the image when drawn as an image brush.
 old-location: direct2d\id2d1imagebrush_getsourcerectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6b1d64b9-1384-4b34-9b36-a6f56bde5920
 ms.author: windowssdkdev
 ms.date: 12/5/2018

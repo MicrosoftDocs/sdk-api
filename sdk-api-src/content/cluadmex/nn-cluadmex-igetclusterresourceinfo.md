@@ -4,7 +4,7 @@ title: IGetClusterResourceInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a resource.
 old-location: mscs\igetclusterresourceinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

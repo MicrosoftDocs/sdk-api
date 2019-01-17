@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::SetImage
 author: windows-sdk-content
 description: Sets the image associated with the provided image brush.
 old-location: direct2d\id2d1imagebrush_setimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2d9bfb45-ea4f-44b0-aa29-0cae86768270
 ms.author: windowssdkdev
 ms.date: 12/5/2018

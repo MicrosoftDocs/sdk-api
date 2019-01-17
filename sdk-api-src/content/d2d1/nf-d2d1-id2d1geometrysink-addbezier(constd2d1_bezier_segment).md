@@ -4,7 +4,7 @@ title: ID2D1GeometrySink::AddBezier(const D2D1_BEZIER_SEGMENT)
 author: windows-sdk-content
 description: Creates a cubic Bezier curve between the current point and the specified endpoint.
 old-location: direct2d\ID2D1GeometrySink_AddBezier_ptr_D2D1_BEZIER_SEGMENT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7db2efd1-bfe8-475e-b447-03f0583f37a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

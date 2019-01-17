@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_LOGDISKS
 author: windows-sdk-content
 description: Describes a set of retrieved disks that can be used as log disks for the specified data disk.
 old-location: mscs\sr_resource_type_query_eligible_logdisks.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: AF4EBA1C-8DAB-46F4-A092-F196F02480EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

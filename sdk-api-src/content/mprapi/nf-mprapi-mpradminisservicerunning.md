@@ -4,7 +4,7 @@ title: MprAdminIsServiceRunning function
 author: windows-sdk-content
 description: The MprAdminIsServiceRunning function checks whether the RRAS service is running on a specified server if the calling process has access.
 old-location: rras\mpradminisservicerunning.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

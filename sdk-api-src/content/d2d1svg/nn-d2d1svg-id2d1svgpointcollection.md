@@ -4,7 +4,7 @@ title: ID2D1SvgPointCollection
 author: windows-sdk-content
 description: Interface describing an SVG points value in a polyline or polygon element.
 old-location: direct2d\id2d1svgpointcollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6033F923-35E1-400F-965F-2FBED95B260A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

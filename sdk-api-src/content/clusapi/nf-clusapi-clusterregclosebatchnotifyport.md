@@ -4,7 +4,7 @@ title: ClusterRegCloseBatchNotifyPort function
 author: windows-sdk-content
 description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
 old-location: mscs\clusterregclosebatchnotifyport.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605
 ms.author: windowssdkdev
 ms.date: 12/5/2018

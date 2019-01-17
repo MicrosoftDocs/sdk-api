@@ -4,7 +4,7 @@ title: IGetClusterGroupInfo::GetGroupHandle
 author: windows-sdk-content
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

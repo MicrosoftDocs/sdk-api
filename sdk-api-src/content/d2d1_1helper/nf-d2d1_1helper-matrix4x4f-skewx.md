@@ -4,7 +4,7 @@ title: Matrix4x4F::SkewX
 author: windows-sdk-content
 description: Skews the matrix in the X direction.
 old-location: direct2d\matrix4x4f_skewx.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6102EAEA-24B5-43C2-9351-3E9F3D06F6D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

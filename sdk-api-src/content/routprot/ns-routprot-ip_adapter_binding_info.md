@@ -4,7 +4,7 @@ title: IP_ADAPTER_BINDING_INFO
 author: windows-sdk-content
 description: The IP_ADAPTER_BINDING_INFO structure contains IP-specific information for a particular network adapter.
 old-location: rras\ip_adapter_binding_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3eb864e7-2de6-44c2-af3e-fee547de6081
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_FILL_MODE
 author: windows-sdk-content
 description: Specifies how the intersecting areas of geometries or figures are combined to form the area of the composite geometry.
 old-location: direct2d\D2D1_FILL_MODE.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f1a14447-39fa-4a48-9516-ff5b03abc3a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

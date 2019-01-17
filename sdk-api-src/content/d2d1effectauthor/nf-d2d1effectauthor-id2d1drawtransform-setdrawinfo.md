@@ -4,7 +4,7 @@ title: ID2D1DrawTransform::SetDrawInfo
 author: windows-sdk-content
 description: Provides the GPU render info interface to the transform implementation.
 old-location: direct2d\id2d1drawtransform_setdrawinfo.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9B7336B0-59D8-416F-822C-0AD5C1B40EAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

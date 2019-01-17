@@ -4,7 +4,7 @@ title: GetClusterKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a cluster.
 old-location: mscs\getclusterkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ddec12fc-6d4d-411d-ab24-6fb60175ba7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

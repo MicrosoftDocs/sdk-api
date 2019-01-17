@@ -4,7 +4,7 @@ title: Matrix3x2F::Translation(FLOAT,FLOAT)
 author: windows-sdk-content
 description: Creates a translation transformation that has the specified x and y displacements.
 old-location: direct2d\matrix3x2f_translation_float_float_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ec1a15f1-e2d5-482e-b688-10461e736934
 ms.author: windowssdkdev
 ms.date: 12/5/2018

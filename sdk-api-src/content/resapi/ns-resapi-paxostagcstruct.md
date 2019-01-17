@@ -4,7 +4,7 @@ title: PaxosTagCStruct
 author: windows-sdk-content
 description: Contains the Paxos tag values of a cluster node, which stores information about the cluster configuration version of the node when the cluster uses a File Share witness.
 old-location: mscs\paxostagcstruct.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

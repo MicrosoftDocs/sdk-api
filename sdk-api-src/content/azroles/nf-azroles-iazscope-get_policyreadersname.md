@@ -4,7 +4,7 @@ title: IAzScope::get_PolicyReadersName
 author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy readers.
 old-location: security\iazscope_policyreadersname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4f56ee3f-f987-4569-9e19-c13ab3ff100a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

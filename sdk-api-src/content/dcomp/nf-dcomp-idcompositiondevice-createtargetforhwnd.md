@@ -113,9 +113,13 @@ At most, only two composition targets can be created for each window in the syst
 
 The following example creates and initializes a device object, and then binds the device object to a composition target window.
 
-
-```cpp
-#include <dcomp.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <dcomp.h>
 #include <d3d11.h>
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
@@ -169,8 +173,10 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

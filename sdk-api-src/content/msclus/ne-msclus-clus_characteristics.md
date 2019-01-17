@@ -4,7 +4,7 @@ title: CLUS_CHARACTERISTICS
 author: windows-sdk-content
 description: Enumerates characteristics of resource types and resources.
 old-location: mscs\clus_characteristics.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d55506fe-57d7-4d33-a28c-b185f508167d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

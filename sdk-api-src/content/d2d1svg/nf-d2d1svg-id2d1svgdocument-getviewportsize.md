@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::GetViewportSize
 author: windows-sdk-content
 description: Returns the size of the initial viewport.
 old-location: direct2d\id2d1svgdocument_getviewportsize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3CE19841-86BD-4122-B2B0-F4F3A530523D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

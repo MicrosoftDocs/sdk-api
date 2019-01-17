@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the object can be modified by the user context that called the Initialize method.
 old-location: security\azauthorizationstore_writable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0c896364-739a-456a-97f7-0448711462b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

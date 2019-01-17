@@ -4,7 +4,7 @@ title: PBLOCK_DELETE_STATIC_SERVICES
 author: windows-sdk-content
 description: The BlockDeleteStaticServices function deletes all static services associated with a specified interface.
 old-location: rras\blockdeletestaticservices.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: eb680a9c-aad8-44b5-8c20-af15c1fd8930
 ms.author: windowssdkdev
 ms.date: 12/5/2018

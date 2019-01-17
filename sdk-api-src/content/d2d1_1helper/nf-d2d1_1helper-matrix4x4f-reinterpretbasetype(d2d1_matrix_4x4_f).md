@@ -4,7 +4,7 @@ title: Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_4X4_F matrix to a Matrix4x4F without making a copy.
 old-location: direct2d\matrix4x4f_reinterpretbasetype.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 379F9F01-EE5E-438B-BD0A-F0EB6B92E28F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

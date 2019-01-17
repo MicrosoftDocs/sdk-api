@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::put_DomainTimeout
 author: windows-sdk-content
 description: Sets or retrieves the time in milliseconds after which a domain is determined to be unreachable.
 old-location: security\azauthorizationstore_domaintimeout.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e512641d-a282-41f6-a7d8-5383ad43cd5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

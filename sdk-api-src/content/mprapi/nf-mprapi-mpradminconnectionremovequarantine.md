@@ -4,7 +4,7 @@ title: MprAdminConnectionRemoveQuarantine function
 author: windows-sdk-content
 description: The MprAdminConnectionRemoveQuarantine function removes quarantine filters on a dialed-in RAS client if the filters were applied as a result of Internet Authentication Service (IAS) policies.
 old-location: rras\mpradminconnectionremovequarantine.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

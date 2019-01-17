@@ -109,9 +109,13 @@ Store property identifiers are properties applicable to an entire store. They ar
 
 The following example shows setting the localized name property of an open certificate store.
 
-
-```cpp
-//--------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------
 // Declare and initialize variables.
 
 HCERTSTORE hCertStore = NULL;       // Original certificate store
@@ -167,8 +171,10 @@ if (!CertCloseStore(
      printf("The CA store could not be closed \n.");
      exit(1);
 
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For another  example that uses this function, see <a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.

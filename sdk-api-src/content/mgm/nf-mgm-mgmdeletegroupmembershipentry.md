@@ -4,7 +4,7 @@ title: MgmDeleteGroupMembershipEntry function
 author: windows-sdk-content
 description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.
 old-location: rras\mgmdeletegroupmembershipentry.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fe39d824-3154-4479-bd70-09b2b6593885
 ms.author: windowssdkdev
 ms.date: 12/5/2018

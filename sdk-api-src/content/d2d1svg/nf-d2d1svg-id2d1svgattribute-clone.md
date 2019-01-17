@@ -4,7 +4,7 @@ title: ID2D1SvgAttribute::Clone
 author: windows-sdk-content
 description: Creates a clone of this attribute value. On creation, the cloned attribute is not set on any element.
 old-location: direct2d\id2d1svgattribute_clone.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 85A16E88-5010-403F-B6B9-EBA6A4321463
 ms.author: windowssdkdev
 ms.date: 12/5/2018

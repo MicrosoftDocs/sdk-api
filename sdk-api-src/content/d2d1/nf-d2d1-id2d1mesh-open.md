@@ -4,7 +4,7 @@ title: ID2D1Mesh::Open
 author: windows-sdk-content
 description: Opens the mesh for population.
 old-location: direct2d\ID2D1Mesh_Open.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7cd0d637-7fcd-45a5-932f-5aa8fb476f68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

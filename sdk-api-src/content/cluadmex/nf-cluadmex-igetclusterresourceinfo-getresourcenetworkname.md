@@ -4,7 +4,7 @@ title: IGetClusterResourceInfo::GetResourceNetworkName
 author: windows-sdk-content
 description: Returns the name of the network managed by the Network Name resource on which a resource depends.
 old-location: mscs\igetclusterresourceinfo_getresourcenetworkname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5c4a16ab-b71c-49f6-95cb-8627eaffb8d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext2::DrawGradientMesh
 author: windows-sdk-content
 description: Renders a given gradient mesh to the target.
 old-location: direct2d\id2d1devicecontext2_drawgradientmesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e3ea0930-2e7c-8e28-eda0-7dcb0b1cccc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

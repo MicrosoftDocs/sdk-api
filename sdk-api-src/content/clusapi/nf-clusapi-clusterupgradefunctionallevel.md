@@ -4,7 +4,7 @@ title: ClusterUpgradeFunctionalLevel function
 author: windows-sdk-content
 description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
 old-location: mscs\clusterupgradefunctionallevel.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

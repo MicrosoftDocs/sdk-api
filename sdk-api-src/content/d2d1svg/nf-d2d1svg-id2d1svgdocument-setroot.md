@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::SetRoot
 author: windows-sdk-content
 description: Sets the root element of the document.
 old-location: direct2d\id2d1svgdocument_setroot.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 076DC8F7-E358-484D-A567-60E80F9D2FC3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

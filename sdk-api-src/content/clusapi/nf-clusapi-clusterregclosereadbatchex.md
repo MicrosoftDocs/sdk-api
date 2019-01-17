@@ -4,7 +4,7 @@ title: ClusterRegCloseReadBatchEx function
 author: windows-sdk-content
 description: Executes a read batch and returns results from the read batch executions.
 old-location: mscs\clusterregclosereadbatchex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
 ms.author: windowssdkdev
 ms.date: 12/5/2018

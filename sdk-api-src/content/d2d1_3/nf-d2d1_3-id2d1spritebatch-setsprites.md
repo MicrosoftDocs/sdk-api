@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch::SetSprites
 author: windows-sdk-content
 description: Updates the properties of the specified sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_setsprites.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6BC5740F-520D-47EA-A90A-973E158F2AC2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

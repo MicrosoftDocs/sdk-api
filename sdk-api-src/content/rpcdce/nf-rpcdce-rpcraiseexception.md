@@ -4,7 +4,7 @@ title: RpcRaiseException function
 author: windows-sdk-content
 description: Use the RpcRaiseException function to raise an exception. The function does not return to the caller.
 old-location: rpc\rpcraiseexception.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0bffc62e-a80e-4af1-a17a-ef4f00b9c4da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

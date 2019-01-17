@@ -4,7 +4,7 @@ title: RpcBindingSetObject function
 author: windows-sdk-content
 description: The RpcBindingSetObject function sets the object UUID value in a binding handle.
 old-location: rpc\rpcbindingsetobject.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

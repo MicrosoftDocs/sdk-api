@@ -4,7 +4,7 @@ title: OpenClusterGroup function
 author: windows-sdk-content
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
 ms.author: windowssdkdev
 ms.date: 12/5/2018

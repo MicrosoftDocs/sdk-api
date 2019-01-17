@@ -4,7 +4,7 @@ title: DeleteClusterResourceType function
 author: windows-sdk-content
 description: Removes a resource type from a cluster.
 old-location: mscs\deleteclusterresourcetype.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 39615efe-e0fe-4e7b-b6f0-ba4a79d841a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

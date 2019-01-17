@@ -4,7 +4,7 @@ title: RtmGetExactMatchRoute function
 author: windows-sdk-content
 description: The RtmGetExactMatchRoute function searches the routing table for a route that exactly matches the specified route.
 old-location: rras\rtmgetexactmatchroute.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 5fc9cde7-9912-409f-85ee-c775b4d6ddc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

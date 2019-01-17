@@ -4,7 +4,7 @@ title: RpcMgmtEpEltInqNextA function
 author: windows-sdk-content
 description: The RpcMgmtEpEltInqNext function returns one element from an endpoint map.
 old-location: rpc\rpcmgmtepeltinqnext.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

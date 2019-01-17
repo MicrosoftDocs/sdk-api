@@ -4,7 +4,7 @@ title: D2D1_INPUT_ELEMENT_DESC
 author: windows-sdk-content
 description: A description of a single element to the vertex layout.
 old-location: direct2d\d2d1_input_element_desc.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 17e70872-f0cb-4f9d-8188-d6d24770db04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateClusterGroupEx function
 author: windows-sdk-content
 description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
 old-location: mscs\createclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

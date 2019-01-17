@@ -4,7 +4,7 @@ title: IAzClientContext2::get_LDAPQueryDN
 author: windows-sdk-content
 description: Retrieves or sets the domain name of the directory object to be used during evaluation of LDAP query groups.
 old-location: security\iazclientcontext2_ldapquerydn.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3d06e240-10d9-4d58-baae-c3d2a38ac556
 ms.author: windowssdkdev
 ms.date: 12/5/2018

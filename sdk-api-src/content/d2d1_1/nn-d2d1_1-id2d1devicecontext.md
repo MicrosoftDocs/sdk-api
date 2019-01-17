@@ -4,7 +4,7 @@ title: ID2D1DeviceContext
 author: windows-sdk-content
 description: Represents a set of state and command buffers that are used to render to a target.
 old-location: direct2d\id2d1devicecontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a54dd628-c2a2-4b04-9ced-7749a395f187
 ms.author: windowssdkdev
 ms.date: 12/5/2018

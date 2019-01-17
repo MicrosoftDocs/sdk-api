@@ -4,7 +4,7 @@ title: AllocateAndInitializeSid function
 author: windows-sdk-content
 description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.
 old-location: security\allocateandinitializesid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
 ms.date: 12/5/2018

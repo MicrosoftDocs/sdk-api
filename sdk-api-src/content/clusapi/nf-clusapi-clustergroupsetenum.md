@@ -4,7 +4,7 @@ title: ClusterGroupSetEnum function
 author: windows-sdk-content
 description: Returns the next enumerable object.
 old-location: mscs\clustergroupcollectionenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

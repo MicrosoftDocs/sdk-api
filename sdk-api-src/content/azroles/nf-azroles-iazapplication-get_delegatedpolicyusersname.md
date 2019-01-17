@@ -4,7 +4,7 @@ title: IAzApplication::get_DelegatedPolicyUsersName
 author: windows-sdk-content
 description: The DelegatedPolicyUsersName property of IAzApplication retrieves the account names of principals that act as delegated policy users.
 old-location: security\iazapplication_delegatedpolicyusersname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ee18b86f-7ae2-4984-ac7a-3909eda647e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

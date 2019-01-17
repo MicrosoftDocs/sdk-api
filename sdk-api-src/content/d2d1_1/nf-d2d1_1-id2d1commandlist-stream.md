@@ -4,7 +4,7 @@ title: ID2D1CommandList::Stream
 author: windows-sdk-content
 description: Streams the contents of the command list to the specified command sink.
 old-location: direct2d\id2d1commandlist_stream.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -87,9 +87,13 @@ If the caller makes any design-time failure calls while a command list is select
 
 Sample use:
 
-
-```cpp
-Class MyCommandSink : public ID2D1CommandSink
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyCommandSink : public ID2D1CommandSink
 {
 public:
     // All of the ID2D1CommandSink methods implemented here.
@@ -115,8 +119,10 @@ StreamToMyCommandSink(
    
     return hr;
 
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

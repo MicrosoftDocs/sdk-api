@@ -4,7 +4,7 @@ title: LOG_LEVEL
 author: windows-sdk-content
 description: Represents the severity of the log event passed to the LogEvent callback function.
 old-location: mscs\log_level.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 976251d5-6619-47f7-9b6e-2031768100b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

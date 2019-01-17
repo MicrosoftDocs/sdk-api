@@ -4,7 +4,7 @@ title: IAzApplication::get_PolicyAdministratorsName
 author: windows-sdk-content
 description: The IAzApplication::PolicyAdministratorsName property retrieves the account names of principals that act as policy administrators.
 old-location: security\iazapplication_policyadministratorsname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fdabb04b-deb4-494a-bdde-264a301388b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

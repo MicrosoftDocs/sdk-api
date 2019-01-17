@@ -4,7 +4,7 @@ title: GetClusterResourceNetworkName function
 author: windows-sdk-content
 description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
 old-location: mscs\getclusterresourcenetworkname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: db3cdaa6-d686-48be-be4a-468910813d6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

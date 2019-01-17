@@ -4,7 +4,7 @@ title: RTM_EVENT_TYPE
 author: windows-sdk-content
 description: The RTM_EVENT_TYPE enumeration enumerates the events that the routing table manager can notify the client about using the RTM_EVENT_CALLBACK callback.
 old-location: rras\rtm_event_type.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ea19f59c-8de7-4f52-8029-9775526120c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

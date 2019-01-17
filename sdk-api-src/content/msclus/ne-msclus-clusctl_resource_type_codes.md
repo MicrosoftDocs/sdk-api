@@ -4,7 +4,7 @@ title: CLUSCTL_RESOURCE_TYPE_CODES
 author: windows-sdk-content
 description: Enumerates resource type control codes.
 old-location: mscs\clusctl_resource_type_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c34eda93-9389-4bf0-9e8f-7a80f10a1081
 ms.author: windowssdkdev
 ms.date: 12/5/2018

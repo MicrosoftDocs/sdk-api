@@ -4,7 +4,7 @@ title: ResUtilGetDwordValue function
 author: windows-sdk-content
 description: Returns a numeric value from the cluster database.
 old-location: mscs\resutilgetdwordvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2db6126e-a3a7-415b-a436-c3d0748fbc65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

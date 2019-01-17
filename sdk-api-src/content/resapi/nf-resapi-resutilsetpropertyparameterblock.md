@@ -4,7 +4,7 @@ title: ResUtilSetPropertyParameterBlock function
 author: windows-sdk-content
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a8d4162b-fe4e-4915-8102-744d964a6c83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

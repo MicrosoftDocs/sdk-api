@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::CreateStrokeDashArray
 author: windows-sdk-content
 description: Creates a dash array object which can be used to set the stroke-dasharray property.
 old-location: direct2d\id2d1svgdocument_createstrokedasharray.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 559330E4-A0B9-437A-AD83-02C9409B5BE2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

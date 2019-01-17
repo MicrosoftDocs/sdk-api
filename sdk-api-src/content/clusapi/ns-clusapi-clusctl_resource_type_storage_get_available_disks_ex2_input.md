@@ -4,7 +4,7 @@ title: CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
 author: windows-sdk-content
 description: Represents an input buffer for the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT control code.
 old-location: mscs\clusctl_resource_type_storage_get_available_disks_ex2_input.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D6C67381-06AB-4CDB-BDED-9A307204E99C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

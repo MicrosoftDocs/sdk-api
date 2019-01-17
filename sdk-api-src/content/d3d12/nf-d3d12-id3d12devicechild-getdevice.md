@@ -99,9 +99,13 @@ Any returned interfaces have their reference count incremented by one, so be sur
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12DeviceChild::GetDevice</b> as follows:
         
 
-
-```cpp
-// Returns required size of a buffer to be used for data upload
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Returns required size of a buffer to be used for data upload
 inline UINT64 GetRequiredIntermediateSize(
     _In_ ID3D12Resource* pDestinationResource,
     _In_range_(0,D3D12_REQ_SUBRESOURCES) UINT FirstSubresource,
@@ -117,8 +121,10 @@ inline UINT64 GetRequiredIntermediateSize(
     
     return RequiredSize;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

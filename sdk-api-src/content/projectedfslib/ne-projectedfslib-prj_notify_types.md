@@ -40,6 +40,7 @@ product: Windows
 targetos: Windows
 req.typenames: PRJ_NOTIFY_TYPES
 req.redist: 
+ms.custom: RS5
 ---
 
 # PRJ_NOTIFY_TYPES enumeration

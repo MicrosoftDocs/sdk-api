@@ -4,7 +4,7 @@ title: MONITOR_STATE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\monitor_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2e5a1c19-4382-42de-8535-4bcf57a9b845
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::SetPrimitiveBlend
 author: windows-sdk-content
 description: Changes the primitive blend mode that is used for all rendering operations in the device context.
 old-location: direct2d\id2d1devicecontext_setprimitiveblend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be04c9f7-397f-468e-91c0-3b11c68b489f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

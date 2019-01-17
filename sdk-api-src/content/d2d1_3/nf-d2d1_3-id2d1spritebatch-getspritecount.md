@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch::GetSpriteCount
 author: windows-sdk-content
 description: Retrieves the number of sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_getspritecount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4116A067-A02D-414F-B7A4-7D0B6A42653A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

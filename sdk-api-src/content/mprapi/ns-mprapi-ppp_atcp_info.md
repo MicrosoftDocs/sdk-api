@@ -4,7 +4,7 @@ title: PPP_ATCP_INFO
 author: windows-sdk-content
 description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.
 old-location: rras\ppp_atcp_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 48d2404b-df8d-4ed0-9203-921474c88551
 ms.author: windowssdkdev
 ms.date: 12/5/2018

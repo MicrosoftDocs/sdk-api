@@ -4,7 +4,7 @@ title: ID2D1DeviceContext1::CreateFilledGeometryRealization
 author: windows-sdk-content
 description: Creates a device-dependent representation of the fill of the geometry that can be subsequently rendered.
 old-location: direct2d\id2d1devicecontext1_createfilledgeometryrealization.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7628592C-4D42-42C1-948A-DAB4E7D6C2D4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::FillOpacityMask
 author: windows-sdk-content
 description: Fill using the alpha channel of the supplied opacity mask bitmap. The brush opacity will be modulated by the mask. The render target antialiasing mode must be set to aliased.
 old-location: direct2d\id2d1devicecontext_fillopacitymask.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5D5BF7E9-AC5A-49B7-A04E-97B8377243FE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

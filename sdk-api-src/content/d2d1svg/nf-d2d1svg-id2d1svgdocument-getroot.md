@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::GetRoot
 author: windows-sdk-content
 description: Gets the root element of the document.
 old-location: direct2d\id2d1svgdocument_getroot.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 01E11639-7564-41F4-BFA4-28B05FC50583
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcErrorGetNextRecord function
 author: windows-sdk-content
 description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.
 old-location: rpc\rpcerrorgetnextrecord.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
 ms.author: windowssdkdev
 ms.date: 12/5/2018

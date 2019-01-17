@@ -4,7 +4,7 @@ title: ID2D1PathGeometry::GetFigureCount
 author: windows-sdk-content
 description: Retrieves the number of figures in the path geometry.
 old-location: direct2d\ID2D1PathGeometry_GetFigureCount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f46d28f6-5f46-45eb-85c9-6d3b21fa2cff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

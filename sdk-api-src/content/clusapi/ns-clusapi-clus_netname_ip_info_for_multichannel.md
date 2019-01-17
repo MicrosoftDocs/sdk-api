@@ -4,7 +4,7 @@ title: CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 author: windows-sdk-content
 description: Represents IP information for a NetName resource that has Multichannel enabled.
 old-location: mscs\clus_netname_ip_info_for_multichannel.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 724FD774-00F4-4617-B761-87509AD61AF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

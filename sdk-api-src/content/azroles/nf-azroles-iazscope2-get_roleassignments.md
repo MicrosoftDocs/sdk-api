@@ -4,7 +4,7 @@ title: IAzScope2::get_RoleAssignments
 author: windows-sdk-content
 description: Retrieves an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with this scope.
 old-location: security\iazscope2_roleassignments.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9f844f6b-8c31-4cec-ae72-a3fd4e947d49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

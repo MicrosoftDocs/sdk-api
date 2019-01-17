@@ -4,7 +4,7 @@ title: ClusterCloseEnum function
 author: windows-sdk-content
 description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.
 old-location: mscs\clustercloseenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3d7e45a0-d580-4d14-8795-2418bba40c73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

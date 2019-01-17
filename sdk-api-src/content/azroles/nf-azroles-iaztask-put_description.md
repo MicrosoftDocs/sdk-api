@@ -4,7 +4,7 @@ title: IAzTask::put_Description
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the task.
 old-location: security\iaztask_description.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 095bf53b-0afa-44f3-87b8-9363dfffef1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

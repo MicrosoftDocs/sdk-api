@@ -4,7 +4,7 @@ title: ID2D1BitmapBrush::GetInterpolationMode
 author: windows-sdk-content
 description: Gets the interpolation method used when the brush bitmap is scaled or rotated.
 old-location: direct2d\ID2D1BitmapBrush_GetInterpolationMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b0bc487b-3259-4f25-b4ab-7468ccf96d98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

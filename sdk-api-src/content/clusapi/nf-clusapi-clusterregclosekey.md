@@ -4,7 +4,7 @@ title: ClusterRegCloseKey function
 author: windows-sdk-content
 description: Releases the handle of a cluster database key.
 old-location: mscs\clusterregclosekey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

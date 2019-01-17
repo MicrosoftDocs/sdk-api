@@ -4,7 +4,7 @@ title: SetClusterNetworkPriorityOrder function
 author: windows-sdk-content
 description: Sets the priority order for the set of networks used for internal communication between cluster nodes.
 old-location: mscs\setclusternetworkpriorityorder.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

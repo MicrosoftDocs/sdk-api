@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch
 author: windows-sdk-content
 description: Represents a single group of sprites with their associated drawing properties.
 old-location: direct2d\id2d1spritebatch.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: D33958D5-D31C-47DC-B172-CADB1F1B81AE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

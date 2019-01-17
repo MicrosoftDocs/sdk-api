@@ -4,7 +4,7 @@ title: RpcMgmtInqDefaultProtectLevel function
 author: windows-sdk-content
 description: The RpcMgmtInqDefaultProtectLevel function returns the default authentication level for an authentication service.
 old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 54a960dd-7dfc-4364-8ae8-e18fa30a51a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

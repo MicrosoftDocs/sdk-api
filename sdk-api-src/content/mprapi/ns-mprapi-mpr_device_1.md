@@ -4,7 +4,7 @@ title: MPR_DEVICE_1
 author: windows-sdk-content
 description: The MPR_DEVICE_1 structure stores information about a device used for a link in a multilinked demand dial interface. In addition to the information in MPR_DEVICE_0, MPR_DEVICE_1 contains phone-number information.
 old-location: rras\mpr_device_1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 99245e45-114d-4933-9189-cd45a1c22a96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

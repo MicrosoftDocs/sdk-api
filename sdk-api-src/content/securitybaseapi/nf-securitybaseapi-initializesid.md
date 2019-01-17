@@ -4,7 +4,7 @@ title: InitializeSid function
 author: windows-sdk-content
 description: Initializes a security identifier (SID).
 old-location: security\initializesid.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b2d803a5-faaf-4066-ba2c-0442c71bb150
 ms.author: windowssdkdev
 ms.date: 12/5/2018

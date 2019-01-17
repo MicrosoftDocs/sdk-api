@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::DeleteApplicationGroup
 author: windows-sdk-content
 description: Removes the IAzApplicationGroup object with the specified name from the AzAuthorizationStore object.
 old-location: security\azauthorizationstore_deleteapplicationgroup.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f2b89378-9b4e-411f-b856-51053b649996
 ms.author: windowssdkdev
 ms.date: 12/5/2018

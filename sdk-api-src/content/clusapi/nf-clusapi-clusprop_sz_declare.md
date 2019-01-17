@@ -4,7 +4,7 @@ title: CLUSPROP_SZ_DECLARE macro
 author: windows-sdk-content
 description: Creates a CLUSPROP_SZ structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_sz_declare.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ff759673-b9cf-44fb-b4a0-4264117b24a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

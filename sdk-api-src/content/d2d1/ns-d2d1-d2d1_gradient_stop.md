@@ -4,7 +4,7 @@ title: D2D1_GRADIENT_STOP
 author: windows-sdk-content
 description: Contains the position and color of a gradient stop.
 old-location: direct2d\D2D1_GRADIENT_STOP.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f6798542-382a-4074-bbe1-707bc00b3575
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzClientContext3::get_BizRuleParameters
 author: windows-sdk-content
 description: Gets the collection of parameters that can be passed by the business rule (BizRule) script associated with this client context.
 old-location: security\iazclientcontext3_bizruleparameters_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 161f8a84-ee00-4f39-9997-a1e3d1c5b7a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

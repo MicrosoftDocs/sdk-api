@@ -4,7 +4,7 @@ title: CreatePrivateObjectSecurity function
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object. A protected server calls this function when it creates a new private object.
 old-location: security\createprivateobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5f4832b6-5cf5-4050-9e20-56674f2e2cb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

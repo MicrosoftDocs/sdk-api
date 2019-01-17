@@ -4,7 +4,7 @@ title: ID2D1Effect::SetInput
 author: windows-sdk-content
 description: Sets the given input image by index.
 old-location: direct2d\id2d1effect_setinput.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 16db95e8-43e7-403c-bce1-dd2f42e81d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

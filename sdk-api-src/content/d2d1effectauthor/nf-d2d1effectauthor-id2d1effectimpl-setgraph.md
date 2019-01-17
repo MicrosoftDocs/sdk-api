@@ -4,7 +4,7 @@ title: ID2D1EffectImpl::SetGraph
 author: windows-sdk-content
 description: The renderer calls this method to provide the effect implementation with a way to specify its transform graph and transform graph changes.
 old-location: direct2d\id2d1effectimpl_setgraph.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3255CD0D-5B73-4020-965E-2CBBEF5BA35B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

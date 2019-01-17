@@ -4,7 +4,7 @@ title: ClusterGroupOpenEnumEx function
 author: windows-sdk-content
 description: Opens a handle to the group enumeration.
 old-location: mscs\clustergroupopenenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1BEF74A2-8230-4698-A3B7-FC2AA495D294
 ms.author: windowssdkdev
 ms.date: 12/5/2018

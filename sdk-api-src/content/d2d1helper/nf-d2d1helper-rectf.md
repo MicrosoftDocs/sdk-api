@@ -4,7 +4,7 @@ title: RectF function
 author: windows-sdk-content
 description: Creates a D2D1_RECT_F structure that contains the specified dimensions.
 old-location: direct2d\rectf.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8abcc11d-40be-45ac-9f23-b94adf9842d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

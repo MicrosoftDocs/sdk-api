@@ -4,7 +4,7 @@ title: ID2D1CommandSink
 author: windows-sdk-content
 description: The command sink is implemented by you for an application when you want to receive a playback of the commands recorded in a command list.
 old-location: direct2d\id2d1commandsink.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 4e0ce837-7f4e-4b93-8dd7-68f60cfb1105
 ms.author: windowssdkdev
 ms.date: 12/5/2018

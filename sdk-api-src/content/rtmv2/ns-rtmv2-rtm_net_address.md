@@ -4,7 +4,7 @@ title: RTM_NET_ADDRESS
 author: windows-sdk-content
 description: The RTM_NET_ADDRESS structure is used to communicate address information to the routing table manager for any address family. The address family must use only with contiguous address masks that are less than 8 bytes.
 old-location: rras\rtm_net_address.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 92c4e797-9b73-438d-b4df-9739fae9d5c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

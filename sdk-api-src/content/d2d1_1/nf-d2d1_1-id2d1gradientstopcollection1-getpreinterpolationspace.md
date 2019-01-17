@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection1::GetPreInterpolationSpace
 author: windows-sdk-content
 description: Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
 old-location: direct2d\id2d1gradientstopcollection1_getpreinterpolationspace.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8222d713-c47e-4e4c-92aa-040dc9085ce9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

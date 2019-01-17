@@ -4,7 +4,7 @@ title: ID2D1LookupTable3D
 author: windows-sdk-content
 description: A container for 3D lookup table data that can be passed to the LookupTable3D effect.
 old-location: direct2d\id2d1lookuptable3d.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 778D2F30-0328-4AA2-8ECA-F443D57809D7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

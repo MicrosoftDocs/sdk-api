@@ -4,7 +4,7 @@ title: IAzApplicationGroup2::get_BizRuleImportedPath
 author: windows-sdk-content
 description: Gets or sets the path of the file that contains the business rule script associated with this application group.
 old-location: security\iazapplicationgroup2_bizruleimportedpath_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fe088018-0505-4339-8a9a-36e8764a22f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

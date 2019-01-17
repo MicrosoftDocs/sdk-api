@@ -4,7 +4,7 @@ title: IsValidSecurityDescriptor function
 author: windows-sdk-content
 description: Determines whether the components of a security descriptor are valid.
 old-location: security\isvalidsecuritydescriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 24a98229-11e4-45ef-988b-c2cf831275e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

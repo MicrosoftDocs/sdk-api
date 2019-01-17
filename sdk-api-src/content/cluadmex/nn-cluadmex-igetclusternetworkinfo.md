@@ -4,7 +4,7 @@ title: IGetClusterNetworkInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
 old-location: mscs\igetclusternetworkinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

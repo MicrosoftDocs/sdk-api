@@ -4,7 +4,7 @@ title: NdrAsyncClientCall2 function
 author: windows-sdk-content
 description: NdrAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrasyncclientcall2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0EBBE464-14D9-4A44-ADD4-1250FDBC02F1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

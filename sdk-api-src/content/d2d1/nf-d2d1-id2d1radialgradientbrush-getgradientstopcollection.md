@@ -4,7 +4,7 @@ title: ID2D1RadialGradientBrush::GetGradientStopCollection
 author: windows-sdk-content
 description: Retrieves the ID2D1GradientStopCollection associated with this radial gradient brush object.
 old-location: direct2d\ID2D1RadialGradientBrush_GetGradientStopCollection.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e09a7b3d-4c37-4d39-985f-a24a3bfe2d04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

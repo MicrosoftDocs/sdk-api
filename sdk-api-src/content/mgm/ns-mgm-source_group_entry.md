@@ -4,7 +4,7 @@ title: SOURCE_GROUP_ENTRY
 author: windows-sdk-content
 description: The SOURCE_GROUP_ENTRY structure describes the entry returned by the group enumeration function MgmGroupEnumerationGetNext.
 old-location: rras\source_group_entry_str.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4964ccd9-e169-4afa-a9b3-1e4e4afb88c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateClusterResource function
 author: windows-sdk-content
 description: Creates a resource in a cluster.
 old-location: mscs\createclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c9fe8fa8-57d7-4866-8113-694dc44dae22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

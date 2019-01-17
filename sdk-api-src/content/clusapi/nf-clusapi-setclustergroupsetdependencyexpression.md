@@ -4,7 +4,7 @@ title: SetClusterGroupSetDependencyExpression function
 author: windows-sdk-content
 description: Sets the dependency expression for a cluster groupset.
 old-location: mscs\setclustergroupcollectiondependencyexpression.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1bde6ef6-a415-4fa2-8618-0304c38d9434
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1BitmapBrush1::GetInterpolationMode1
 author: windows-sdk-content
 description: Returns the current interpolation mode of the brush.
 old-location: direct2d\id2d1bitmapbrush1_getinterpolationmode1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F192EE2D-B853-4A1B-A45E-C6D6ACC1F3EB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

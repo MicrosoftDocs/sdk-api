@@ -4,7 +4,7 @@ title: InkBezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_INK_BEZIER_SEGMENT structure.
 old-location: direct2d\inkbeziersegment.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

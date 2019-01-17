@@ -4,7 +4,7 @@ title: NdrContextHandleSize function
 author: windows-sdk-content
 description: The NdrContextHandleSize function returns the size of the supplied RPC context handle.
 old-location: rpc\ndrcontexthandlesize.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f5f90887-67b2-4796-96b2-2607b9284387
 ms.author: windowssdkdev
 ms.date: 12/5/2018

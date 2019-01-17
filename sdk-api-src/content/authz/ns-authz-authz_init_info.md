@@ -4,7 +4,7 @@ title: AUTHZ_INIT_INFO
 author: windows-sdk-content
 description: Defines the initialization information for the resource manager.
 old-location: security\authz_init_info.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 30489BE7-5B95-413E-8134-039AD3220A50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

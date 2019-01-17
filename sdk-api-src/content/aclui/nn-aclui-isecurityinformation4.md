@@ -4,7 +4,7 @@ title: ISecurityInformation4
 author: windows-sdk-content
 description: Enables the access control editor (ACE) to obtain the share's security descriptor to initialize the share page.
 old-location: security\isecurityinformation4.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

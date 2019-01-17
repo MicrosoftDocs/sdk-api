@@ -4,7 +4,7 @@ title: ID2D1PathGeometry::Open
 author: windows-sdk-content
 description: Retrieves the geometry sink that is used to populate the path geometry with figures and segments.
 old-location: direct2d\ID2D1PathGeometry_Open.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 08ff9ffb-1f1e-440c-a22c-dc58865b678a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -87,15 +87,24 @@ Note that the fill mode defaults to <a href="https://msdn.microsoft.com/f1a14447
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses the sink  to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -137,8 +146,10 @@ if (SUCCEEDED(hr))
         SafeRelease(&pSink);
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

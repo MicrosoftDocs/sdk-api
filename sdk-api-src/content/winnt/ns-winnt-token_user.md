@@ -4,7 +4,7 @@ title: TOKEN_USER
 author: windows-sdk-content
 description: Identifies the user associated with an access token.
 old-location: security\token_user.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 5dd8172d-7b1a-4cc0-b667-5fe91d278393
 ms.author: windowssdkdev
 ms.date: 12/5/2018

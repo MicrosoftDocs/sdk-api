@@ -4,7 +4,7 @@ title: ISecurityInformation2::LookupSids
 author: windows-sdk-content
 description: The LookupSids method returns the common names corresponding to each of the elements in the specified list of SIDs.
 old-location: security\isecurityinformation2_lookupsids.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9a4056c6-6a21-4051-b4a6-c77351fce983
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -93,9 +93,13 @@ Your implementation of <b>LookupSids</b> can return E_NOTIMPL if the access cont
 
 The client must return the common names through the data object using the following format.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 
 // HGLOBAL containing SID_INFO_LIST returned by
 // ISecurityInformation2::LookupSids
@@ -117,8 +121,10 @@ typedef struct _SID_INFO_LIST
     ULONG       cItems;
     SID_INFO    aSidInfo[ANYSIZE_ARRAY];
 } SID_INFO_LIST, *PSID_INFO_LIST;
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: SECURITY_MESSAGE
 author: windows-sdk-content
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159
 ms.author: windowssdkdev
 ms.date: 12/5/2018

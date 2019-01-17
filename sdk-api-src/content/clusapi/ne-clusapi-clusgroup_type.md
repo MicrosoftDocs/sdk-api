@@ -4,7 +4,7 @@ title: CLUSGROUP_TYPE
 author: windows-sdk-content
 description: Specifies the type of cluster group to create.
 old-location: mscs\clusgroup_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: E3937C18-A0B6-44ED-AA75-69940ACCBFAA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

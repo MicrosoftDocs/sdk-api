@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection1::GetGradientStops1
 author: windows-sdk-content
 description: Copies the gradient stops from the collection into memory.
 old-location: direct2d\id2d1gradientstopcollection1_getgradientstops1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: da3987a5-b40f-49eb-9930-0162cf64d6a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AuditQueryGlobalSaclA function
 author: windows-sdk-content
 description: Retrieves a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditqueryglobalsacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 133BBC94-9C89-437A-9146-75A9898A6566
 ms.author: windowssdkdev
 ms.date: 12/5/2018

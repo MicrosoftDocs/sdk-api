@@ -4,7 +4,7 @@ title: D2D1_MORPHOLOGY_MODE
 author: windows-sdk-content
 description: The mode for the Morphology effect.
 old-location: direct2d\d2d1_morphology_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 59402C6A-1F69-4766-A328-2EE6868F09DD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

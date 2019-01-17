@@ -4,7 +4,7 @@ title: ClusterRegQueryValue function
 author: windows-sdk-content
 description: Returns the name, type, and data components associated with a value for an open cluster database key.
 old-location: mscs\clusterregqueryvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
 ms.author: windowssdkdev
 ms.date: 12/5/2018

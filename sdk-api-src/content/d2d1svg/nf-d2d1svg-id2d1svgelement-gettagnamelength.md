@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetTagNameLength
 author: windows-sdk-content
 description: Gets the string length of the tag name.
 old-location: direct2d\id2d1svgelement_gettagnamelength.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FD73B8E6-4490-4BF2-9A65-6661DB3594E1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

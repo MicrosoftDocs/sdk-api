@@ -4,7 +4,7 @@ title: DestroyClusterGroup function
 author: windows-sdk-content
 description: Deletes the specified group from a cluster.
 old-location: mscs\destroyclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ac293d5b-edc8-4c5f-9b05-9e2349bf1453
 ms.author: windowssdkdev
 ms.date: 12/5/2018

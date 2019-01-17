@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::SetRenderingControls
 author: windows-sdk-content
 description: Sets the rendering controls for the given device context.
 old-location: direct2d\id2d1devicecontext_setrenderingcontrols.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6a066126-89d0-4372-bc01-6b6fa1d65440
 ms.author: windowssdkdev
 ms.date: 12/5/2018

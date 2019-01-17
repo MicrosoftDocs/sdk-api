@@ -4,7 +4,7 @@ title: ID2D1DrawingStateBlock1::SetDescription
 author: windows-sdk-content
 description: Sets the D2D1_DRAWING_STATE_DESCRIPTION1 associated with this drawing state block.
 old-location: direct2d\id2d1drawingstateblock1_setdescription1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B07A36E3-F351-439E-A085-A71E1A58DD45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

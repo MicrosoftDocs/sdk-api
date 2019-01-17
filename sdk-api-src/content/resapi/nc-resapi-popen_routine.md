@@ -4,7 +4,7 @@ title: POPEN_ROUTINE
 author: windows-sdk-content
 description: Opens a resource.
 old-location: mscs\open.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

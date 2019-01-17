@@ -4,7 +4,7 @@ title: RpcMgmtInqServerPrincName function
 author: windows-sdk-content
 description: The RpcMgmtInqServerPrincName function returns a server's principal name.
 old-location: rpc\rpcmgmtinqserverprincname.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2666adb4-8a89-480e-8855-9179a7128e35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

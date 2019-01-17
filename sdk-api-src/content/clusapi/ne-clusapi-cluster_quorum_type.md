@@ -4,7 +4,7 @@ title: CLUSTER_QUORUM_TYPE
 author: windows-sdk-content
 description: The type of quorum resource to be created.
 old-location: mscs\cluster_quorum_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplication3::DeleteRoleAssignment
 author: windows-sdk-content
 description: Removes the specified IAzRoleAssignment object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroleassignment.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1844e7c5-91ad-4f6d-8f5b-1a174e9653dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

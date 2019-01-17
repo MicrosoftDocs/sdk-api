@@ -4,7 +4,7 @@ title: IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the version of this authorization store can be upgraded.
 old-location: security\iazauthorizationstore3_isfunctionallevelupgradesupported.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 344fbbb7-72e7-46ec-a924-79fece3e1eb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

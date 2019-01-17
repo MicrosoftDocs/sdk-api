@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateLayer
 author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 old-location: direct2d\id2d1rendertarget_createlayer.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

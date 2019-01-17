@@ -4,7 +4,7 @@ title: IAzTask::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iaztask_deletepropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4a9ffd54-cd1c-46ab-ab22-5c999b60d802
 ms.author: windowssdkdev
 ms.date: 12/5/2018

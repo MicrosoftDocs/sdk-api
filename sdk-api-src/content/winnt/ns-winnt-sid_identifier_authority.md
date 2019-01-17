@@ -4,7 +4,7 @@ title: SID_IDENTIFIER_AUTHORITY
 author: windows-sdk-content
 description: Represents the top-level authority of a security identifier (SID).
 old-location: security\sid_identifier_authority.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 450a6d2d-d2e4-4098-90af-a8024ddcfcb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

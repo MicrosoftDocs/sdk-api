@@ -4,7 +4,7 @@ title: GetClusterFromNetInterface function
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a network interface.
 old-location: mscs\getclusterfromnetinterface.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7c6c6883-0d88-4162-a70d-cb6f1153226e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

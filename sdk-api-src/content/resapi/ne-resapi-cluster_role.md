@@ -4,7 +4,7 @@ title: CLUSTER_ROLE
 author: windows-sdk-content
 description: Contains the names of the standard cluster roles.
 old-location: mscs\cluster_role.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 65fc8a8f-0a9e-464c-b62a-d2e61431d927
 ms.author: windowssdkdev
 ms.date: 12/5/2018

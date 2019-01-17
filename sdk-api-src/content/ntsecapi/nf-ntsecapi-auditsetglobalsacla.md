@@ -4,7 +4,7 @@ title: AuditSetGlobalSaclA function
 author: windows-sdk-content
 description: Sets a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditsetglobalsacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

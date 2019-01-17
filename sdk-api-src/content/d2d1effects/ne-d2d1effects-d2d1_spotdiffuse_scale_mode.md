@@ -4,7 +4,7 @@ title: D2D1_SPOTDIFFUSE_SCALE_MODE
 author: windows-sdk-content
 description: The interpolation mode the Spot-diffuse lighting effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 old-location: direct2d\d2d1_spotdiffuse_scale_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 020EE783-9792-4A0F-AA1B-39B787007BEE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

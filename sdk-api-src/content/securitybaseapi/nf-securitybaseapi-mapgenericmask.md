@@ -4,7 +4,7 @@ title: MapGenericMask function
 author: windows-sdk-content
 description: Maps the generic access rights in an access mask to specific and standard access rights. The function applies a mapping supplied in a GENERIC_MAPPING structure.
 old-location: security\mapgenericmask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 54b5cd73-4011-4dcf-a951-7350dbd6eeab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

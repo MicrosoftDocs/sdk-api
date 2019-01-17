@@ -4,7 +4,7 @@ title: RASDIALFUNC1
 author: windows-sdk-content
 description: A RasDialFunc1 function is called by the RasDial function when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f0b0dbbc-8544-4711-819a-48bb714a67d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_AUTOFAILBACK_TYPE
 author: windows-sdk-content
 description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
 old-location: mscs\cluster_group_autofailback_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d7ba9298-25fc-454b-8583-196f84622cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

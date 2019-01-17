@@ -4,7 +4,7 @@ title: ClusterGroupSetControl function
 author: windows-sdk-content
 description: Initiates an operation affecting a groupset.
 old-location: mscs\clustergroupcollectioncontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

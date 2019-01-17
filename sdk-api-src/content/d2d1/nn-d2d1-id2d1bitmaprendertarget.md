@@ -4,7 +4,7 @@ title: ID2D1BitmapRenderTarget
 author: windows-sdk-content
 description: Renders to an intermediate texture created by the CreateCompatibleRenderTarget method.
 old-location: direct2d\ID2D1BitmapRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f298d4f7-acb8-4fbe-89f7-2410e3b753bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -98,9 +98,13 @@ Like other render targets, an <b>ID2D1BitmapRenderTarget</b> is a device-depende
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742780(v=VS.85).aspx">CreateCompatibleRenderTarget</a> method to create an <b>ID2D1BitmapRenderTarget</b> and uses it to  draw a grid pattern. The grid pattern is used as the source of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>.
 
-
-```cpp
-HRESULT DemoApp::CreateGridPatternBrush(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::CreateGridPatternBrush(
     ID2D1RenderTarget *pRenderTarget,
     ID2D1BitmapBrush **ppBitmapBrush
     )
@@ -149,8 +153,10 @@ HRESULT DemoApp::CreateGridPatternBrush(
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following code example uses the brush to paint a pattern.

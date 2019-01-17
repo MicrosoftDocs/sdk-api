@@ -4,7 +4,7 @@ title: ID2D1SvgPathData::UpdateSegmentData
 author: windows-sdk-content
 description: Updates the segment data array. Existing segment data not updated by this method are preserved. The array is resized larger if necessary to accomodate the new segment data.
 old-location: direct2d\id2d1svgpathdata_updatesegmentdata.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3B87B002-7F1C-4531-B584-C0CFC8E46256
 ms.author: windowssdkdev
 ms.date: 12/5/2018

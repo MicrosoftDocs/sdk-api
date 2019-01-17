@@ -4,7 +4,7 @@ title: ID2D1Effect::GetInputCount
 author: windows-sdk-content
 description: Gets the number of inputs to the effect.
 old-location: direct2d\id2d1effect_getinputcount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 44c719d4-29dd-4389-bdc9-63f6d533f162
 ms.author: windowssdkdev
 ms.date: 12/5/2018

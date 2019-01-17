@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_VISIBILITY)
 author: windows-sdk-content
 description: Sets an attribute of this element as a visibility value. This method can be used to set the value of the visibility property.
 old-location: direct2d\id2d1svgelement_setattributevalue_11.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 860407EC-1736-4AE6-A8AA-40E475C6520B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

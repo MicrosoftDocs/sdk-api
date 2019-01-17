@@ -4,7 +4,7 @@ title: IAzAuthorizationStore::get_Applications
 author: windows-sdk-content
 description: Retrieves an IAzApplications object that is used to enumerate IAzApplication objects from the policy store.
 old-location: security\azauthorizationstore_applications.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7475fe41-b2fc-4a2c-a0db-c8c00bcc3ba4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

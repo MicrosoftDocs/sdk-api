@@ -4,7 +4,7 @@ title: Matrix4x4F::SkewY
 author: windows-sdk-content
 description: Skews the matrix in the Y direction.
 old-location: direct2d\matrix4x4f_skewy.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 481D428F-C070-4112-83BB-3B4E8E0C7319
 ms.author: windowssdkdev
 ms.date: 12/5/2018

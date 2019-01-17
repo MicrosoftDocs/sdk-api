@@ -4,7 +4,7 @@ title: CLUSTER_CREATE_GROUP_INFO
 author: windows-sdk-content
 description: Allows the caller to provide additional properties when creating a new group.
 old-location: mscs\cluster_create_group_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DBF71DAA-B8F1-42BF-AC82-FAFA9ADE4C44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

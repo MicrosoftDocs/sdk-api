@@ -4,7 +4,7 @@ title: RASDIALFUNC2
 author: windows-sdk-content
 description: A RasDialFunc2 callback function is called by the RasDial function calls when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a9395048-492b-42fb-b247-52999cee3f44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

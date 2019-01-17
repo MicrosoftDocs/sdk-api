@@ -4,7 +4,7 @@ title: D2D1_CHANGE_TYPE
 author: windows-sdk-content
 description: Describes flags that influence how the renderer interacts with a custom vertex shader.
 old-location: direct2d\d2d1_change_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 22960a80-1986-4ca0-98df-87f05e880e98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MprAdminInterfaceGetCustomInfoEx function
 author: windows-sdk-content
 description: Retrieves tunnel-specific configuration for a specified demand dial interface on a specified server.
 old-location: rras\mpradmininterfacegetcustominfoex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 01974ac8-dffc-4564-bac1-68ac0437d22b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

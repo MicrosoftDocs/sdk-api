@@ -4,7 +4,7 @@ title: GetClusterFromNetwork function
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a network.
 old-location: mscs\getclusterfromnetwork.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 90ac313a-9f60-4591-b0fa-89d99b007280
 ms.author: windowssdkdev
 ms.date: 12/5/2018

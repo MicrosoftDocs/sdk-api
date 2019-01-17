@@ -4,7 +4,7 @@ title: TOKEN_MANDATORY_LABEL
 author: windows-sdk-content
 description: Specifies the mandatory integrity level for a token.
 old-location: security\token_mandatory_label.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

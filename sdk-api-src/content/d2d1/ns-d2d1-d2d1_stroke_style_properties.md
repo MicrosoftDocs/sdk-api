@@ -4,7 +4,7 @@ title: D2D1_STROKE_STYLE_PROPERTIES
 author: windows-sdk-content
 description: Describes the stroke that outlines a shape.
 old-location: direct2d\D2D1_STROKE_STYLE_PROPERTIES.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 67f3701f-febd-4afe-803e-c5d9dbcd1b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

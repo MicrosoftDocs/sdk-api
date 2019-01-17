@@ -4,7 +4,7 @@ title: SECURITY_DESCRIPTOR
 author: windows-sdk-content
 description: Contains the security information associated with an object.
 old-location: security\security_descriptor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

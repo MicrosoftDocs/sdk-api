@@ -4,7 +4,7 @@ title: IAzApplicationGroup::AddNonMember
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a61f0b97-cd8a-40e5-b2ef-8eb48359fead
 ms.author: windowssdkdev
 ms.date: 12/5/2018

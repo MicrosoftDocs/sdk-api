@@ -4,7 +4,7 @@ title: D2D1_LAYER_OPTIONS
 author: windows-sdk-content
 description: Specifies options that can be applied when a layer resource is applied to create a layer.
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -84,9 +84,13 @@ A small performance hit from re-copying content occurs when <a href="https://msd
 
 The following example shows how to use <a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx">PushLayer</a>, and <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>. All fields in the  <a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d9354">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>.
 
-
-```cpp
-// Create a layer.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a layer.
 ID2D1Layer *pLayer = NULL;
 hr = pRT->CreateLayer(NULL, &pLayer);
 
@@ -125,8 +129,10 @@ if (SUCCEEDED(hr))
     pRT->PopLayer();
 }
 SafeRelease(&pLayer);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For additional examples, see the <a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>.

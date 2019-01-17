@@ -4,7 +4,7 @@ title: D2D1_BITMAP_PROPERTIES1
 author: windows-sdk-content
 description: This structure allows a ID2D1Bitmap1 to be created with bitmap options and color context information available.
 old-location: direct2d\d2d1_bitmap_properties1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c9371ce3-f6fc-4fe6-ada6-0aa64a8f29a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

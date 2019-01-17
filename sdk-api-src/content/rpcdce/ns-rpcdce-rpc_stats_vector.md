@@ -4,7 +4,7 @@ title: RPC_STATS_VECTOR
 author: windows-sdk-content
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 old-location: rpc\rpc_stats_vector.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

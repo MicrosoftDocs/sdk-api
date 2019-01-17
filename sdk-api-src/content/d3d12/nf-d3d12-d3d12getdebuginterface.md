@@ -102,9 +102,13 @@ The function signature PFN_D3D12_GET_DEBUG_INTERFACE is provided as a typedef, s
 
 Enable the D3D12 debug layer.
 
-
-```cpp
-// Enable the D3D12 debug layer.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Enable the D3D12 debug layer.
 {
     
     ComPtr<ID3D12Debug> debugController;
@@ -113,8 +117,10 @@ Enable the D3D12 debug layer.
         debugController->EnableDebugLayer();
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

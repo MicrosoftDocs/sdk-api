@@ -4,7 +4,7 @@ title: ID2D1SvgPathData
 author: windows-sdk-content
 description: Interface describing SVG path data. Path data can be set as the 'd' attribute on a 'path' element.
 old-location: direct2d\id2d1svgpathdata.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 14879B17-0CAA-42E7-8643-7D385EABFD37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

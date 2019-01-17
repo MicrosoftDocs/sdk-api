@@ -4,7 +4,7 @@ title: IAzObjectPicker::get_Name
 author: windows-sdk-content
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

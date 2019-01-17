@@ -4,7 +4,7 @@ title: IAzRole::AddAppMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this role.
 old-location: security\iazrole_addappmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

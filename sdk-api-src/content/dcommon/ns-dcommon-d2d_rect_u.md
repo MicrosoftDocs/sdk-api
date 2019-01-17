@@ -4,7 +4,7 @@ title: D2D_RECT_U
 author: windows-sdk-content
 description: Represents a rectangle defined by the upper-left corner pair of coordinates (left,top) and the lower-right corner pair of coordinates (right, bottom). These coordinates are expressed as a 32-bit integer values.
 old-location: direct2d\D2D_RECT_U.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7eeec8ac-ba56-4e80-b980-813a3e958e09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

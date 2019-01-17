@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateColorContext
 author: windows-sdk-content
 description: Creates a color context from a color space.
 old-location: direct2d\id2d1contextinternal_createcolorcontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FB06917B-091A-4429-83BA-DAEF26F654BE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

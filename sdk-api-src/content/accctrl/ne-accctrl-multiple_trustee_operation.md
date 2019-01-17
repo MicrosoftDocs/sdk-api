@@ -4,7 +4,7 @@ title: MULTIPLE_TRUSTEE_OPERATION
 author: windows-sdk-content
 description: Contains values that indicate whether a TRUSTEE structure is an impersonation trustee.
 old-location: security\multiple_trustee_operation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 00b00678-5c87-4aa9-8232-5f0f1cb48e24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

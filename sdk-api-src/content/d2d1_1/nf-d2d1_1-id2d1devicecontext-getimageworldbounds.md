@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::GetImageWorldBounds
 author: windows-sdk-content
 description: Gets the bounds of an image with the world transform of the context applied.
 old-location: direct2d\id2d1devicecontext_getimageworldbounds.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 939531E1-B641-48EF-B129-AC3AA5226919
 ms.author: windowssdkdev
 ms.date: 12/5/2018

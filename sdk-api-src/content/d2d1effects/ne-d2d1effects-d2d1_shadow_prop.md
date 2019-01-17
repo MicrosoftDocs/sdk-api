@@ -4,7 +4,7 @@ title: D2D1_SHADOW_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Shadow effect.
 old-location: direct2d\d2d1_shadow_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 332B5743-D702-4DBC-8482-FEAD43641C3A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

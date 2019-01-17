@@ -4,7 +4,7 @@ title: ImpersonateSelf function
 author: windows-sdk-content
 description: Obtains an access token that impersonates the security context of the calling process. The token is assigned to the calling thread.
 old-location: security\impersonateself.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f909e3a7-6c7f-4c05-aa2e-e637113804c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

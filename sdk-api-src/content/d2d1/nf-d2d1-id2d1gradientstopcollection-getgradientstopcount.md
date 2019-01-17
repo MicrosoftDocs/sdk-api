@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection::GetGradientStopCount
 author: windows-sdk-content
 description: Retrieves the number of gradient stops in the collection.
 old-location: direct2d\ID2D1GradientStopCollection_GetGradientStopCount.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1c3ef4b0-e781-4177-81a4-b39add8468a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

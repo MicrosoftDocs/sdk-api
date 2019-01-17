@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateBorderTransform
 author: windows-sdk-content
 description: Creates a transform that extends its input infinitely in every direction based on the passed in extend mode.
 old-location: direct2d\id2d1contextinternal_createbordertransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E1FC2BF9-7287-4F9B-BDCF-3CD6EC8B849D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

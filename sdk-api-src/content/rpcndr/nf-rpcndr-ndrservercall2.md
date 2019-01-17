@@ -4,7 +4,7 @@ title: NdrServerCall2 function
 author: windows-sdk-content
 description: NdrServerCall2 is not intended to be directly called by applications.
 old-location: rpc\ndrservercall2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 82E79B9E-5022-498A-B22A-0BEC6BF7DD5A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

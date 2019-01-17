@@ -4,7 +4,7 @@ title: TreeSetNamedSecurityInfoA function
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treesetnamedsecurityinfo.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: caa711c3-301b-4ed7-b1f4-dc6a48563905
 ms.author: windowssdkdev
 ms.date: 12/5/2018

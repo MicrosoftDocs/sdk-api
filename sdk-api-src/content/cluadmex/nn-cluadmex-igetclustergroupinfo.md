@@ -4,7 +4,7 @@ title: IGetClusterGroupInfo
 author: windows-sdk-content
 description: The IGetClusterGroupInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a group.
 old-location: mscs\igetclustergroupinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

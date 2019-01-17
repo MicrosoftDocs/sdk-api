@@ -4,7 +4,7 @@ title: RpcBindingServerFromClient function
 author: windows-sdk-content
 description: An application calls RpcBindingServerFromClient to convert a client binding handle into a partially-bound server binding handle.
 old-location: rpc\rpcbindingserverfromclient.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 9fdcdb99-be6c-4a3b-97dd-8d0eadd2754d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -153,7 +153,7 @@ The following protocol sequences support
 <li>
 <a href="https://msdn.microsoft.com/02961bb8-faf0-42e5-b134-dd2983e6d146">ncacn_np</a> (effective with Windows 2000)</li>
 <li>
-<a href="https://msdn.microsoft.com/">ncacn_http</a>
+<a href="https://msdn.microsoft.com/92d2b44c-2eab-4474-826b-ccafd26db124">ncacn_http</a>
 </li>
 <li>ncalrpc</li>
 </ul>

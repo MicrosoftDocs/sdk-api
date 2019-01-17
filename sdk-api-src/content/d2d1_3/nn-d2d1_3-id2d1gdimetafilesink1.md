@@ -4,7 +4,7 @@ title: ID2D1GdiMetafileSink1
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1GdiMetafileSink interface. It also enables access to metafile records.
 old-location: direct2d\id2d1gdimetafilesink1.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7772034c-0dfe-6c9b-99bb-6222a5517524
 ms.author: windowssdkdev
 ms.date: 12/5/2018

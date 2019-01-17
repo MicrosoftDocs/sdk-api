@@ -4,7 +4,7 @@ title: TOKEN_ORIGIN
 author: windows-sdk-content
 description: Contains information about the origin of the logon session.
 old-location: security\token_origin.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b613f76a-7ad1-4066-90a1-244974f10219
 ms.author: windowssdkdev
 ms.date: 12/5/2018

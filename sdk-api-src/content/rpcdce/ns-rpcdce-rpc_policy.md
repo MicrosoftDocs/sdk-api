@@ -4,7 +4,7 @@ title: RPC_POLICY
 author: windows-sdk-content
 description: The RPC_POLICY structure contains flags that determine binding on multihomed computers, and port allocations when using the ncacn_ip_tcp and ncadg_ip_udp protocols.
 old-location: rpc\rpc_policy.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 2647d75d-09b5-48b2-9a79-4d1f95cb094b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

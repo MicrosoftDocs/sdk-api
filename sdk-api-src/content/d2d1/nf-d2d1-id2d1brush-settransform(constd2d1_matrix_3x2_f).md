@@ -4,7 +4,7 @@ title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ef9fdd4f-6338-498e-bbed-5fc676fc53b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

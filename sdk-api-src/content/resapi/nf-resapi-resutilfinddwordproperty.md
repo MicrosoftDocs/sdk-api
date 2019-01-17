@@ -4,7 +4,7 @@ title: ResUtilFindDwordProperty function
 author: windows-sdk-content
 description: Locates an unsigned long property value in a property list. The PRESUTIL_FIND_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfinddwordproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 884e922f-5cc6-4e46-b2f6-2436e7fc634e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

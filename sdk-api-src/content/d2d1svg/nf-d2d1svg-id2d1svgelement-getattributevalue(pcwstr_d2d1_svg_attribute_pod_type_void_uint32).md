@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,voi
 author: windows-sdk-content
 description: Gets an attribute of this element as a POD type.
 old-location: direct2d\id2d1svgelement_getattributevalue_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E28EA740-E5A6-4C5F-95DB-D3CF8F8922F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

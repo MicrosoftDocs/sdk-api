@@ -4,7 +4,7 @@ title: ID2D1InkStyle::GetNibTransform
 author: windows-sdk-content
 description: Retrieves the transform to be applied to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_getnibtransform.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: A5ABCA78-BBA3-48EE-8A5E-BACDD2CDED37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

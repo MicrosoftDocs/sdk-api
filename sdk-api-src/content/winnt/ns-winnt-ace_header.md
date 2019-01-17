@@ -4,7 +4,7 @@ title: ACE_HEADER
 author: windows-sdk-content
 description: Defines the type and size of an access control entry (ACE).
 old-location: security\ace_header.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d23f15d6-0453-4aaf-a2db-7528b551a992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

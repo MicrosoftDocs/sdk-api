@@ -4,7 +4,7 @@ title: D2D1_TABLETRANSFER_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Table transfer effect.
 old-location: direct2d\d2d1_tabletransfer_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C4623CD1-1EA2-4CA4-BF28-755BE1BA401E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1ColorContext1::GetSimpleColorProfile
 author: windows-sdk-content
 description: Retrieves a set simple color profile.
 old-location: direct2d\id2d1colorcontext1_getsimplecolorprofile.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: AD80B59A-AF86-4BCB-9360-D49E4337E020
 ms.author: windowssdkdev
 ms.date: 12/5/2018

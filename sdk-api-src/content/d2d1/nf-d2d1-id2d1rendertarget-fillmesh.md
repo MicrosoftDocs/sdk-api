@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::FillMesh
 author: windows-sdk-content
 description: Paints the interior of the specified mesh.
 old-location: direct2d\ID2D1RenderTarget_FillMesh.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e22c9169-e770-4f3d-819b-b9363b6e6542
 ms.author: windowssdkdev
 ms.date: 12/5/2018

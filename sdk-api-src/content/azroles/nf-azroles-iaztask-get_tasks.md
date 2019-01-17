@@ -4,7 +4,7 @@ title: IAzTask::get_Tasks
 author: windows-sdk-content
 description: Retrieves the tasks associated with the task.
 old-location: security\iaztask_tasks.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a4baa899-78eb-4a3b-bcc1-0b8c2831b10f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

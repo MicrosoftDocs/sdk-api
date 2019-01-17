@@ -4,7 +4,7 @@ title: ID2D1SvgElement::CreateChild
 author: windows-sdk-content
 description: Creates an element from a tag name. The element is appended to the list of children.
 old-location: direct2d\id2d1svgelement_createchild.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E8BD0808-D3A3-41BB-A7A3-2183C0E56396
 ms.author: windowssdkdev
 ms.date: 12/5/2018

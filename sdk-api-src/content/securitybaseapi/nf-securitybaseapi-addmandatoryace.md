@@ -4,7 +4,7 @@ title: AddMandatoryAce function
 author: windows-sdk-content
 description: Adds a SYSTEM_MANDATORY_LABEL_ACE access control entry (ACE) to the specified system access control list (SACL).
 old-location: security\addmandatoryace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 22c8f384-fdb7-4d5a-8854-d9fd25cd351e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

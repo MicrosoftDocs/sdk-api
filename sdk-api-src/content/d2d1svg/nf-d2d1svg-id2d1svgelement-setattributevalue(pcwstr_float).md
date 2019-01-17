@@ -4,7 +4,7 @@ title: ID2D1SvgElement::SetAttributeValue(PCWSTR,FLOAT)
 author: windows-sdk-content
 description: Sets an attribute of this element using a float.
 old-location: direct2d\id2d1svgelement_setattributevalue_4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FC7AF14F-16B3-498F-A2E3-F8ACF836DAAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzOperations
 author: windows-sdk-content
 description: Represents a collection of IAzOperation objects.
 old-location: security\iazoperations.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 43db28af-86cb-4530-a87b-d11061533d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzScope::GetProperty
 author: windows-sdk-content
 description: Returns the IAzScope object property with the specified property ID.
 old-location: security\iazscope_getproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c3b5b526-5662-4971-8ba2-663e4b2c36ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetTagName
 author: windows-sdk-content
 description: Gets the tag name.
 old-location: direct2d\id2d1svgelement_gettagname.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 00E1D15D-6976-40F2-880C-0F0D90B767D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

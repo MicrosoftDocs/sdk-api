@@ -4,7 +4,7 @@ title: NdrAsyncServerCall function
 author: windows-sdk-content
 description: NdrAsyncServerCall is not intended to be directly called by applications.
 old-location: rpc\ndrasyncservercall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

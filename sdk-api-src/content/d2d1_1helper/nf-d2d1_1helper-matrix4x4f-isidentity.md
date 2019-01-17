@@ -4,7 +4,7 @@ title: Matrix4x4F::IsIdentity
 author: windows-sdk-content
 description: Indicates whether this matrix is the identity matrix.
 old-location: direct2d\matrix4x4f_isidentity.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 60793CCB-F3E9-4647-9DB0-E28FF1AD0E22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

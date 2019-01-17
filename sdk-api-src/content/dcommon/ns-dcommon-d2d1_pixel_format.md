@@ -4,7 +4,7 @@ title: D2D1_PIXEL_FORMAT
 author: windows-sdk-content
 description: Contains the data format and alpha mode for a bitmap or render target.
 old-location: direct2d\D2D1_PIXEL_FORMAT.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: e95afd9c-5793-4cb7-bcb8-aae4d28b6532
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_3DPERSPECTIVETRANSFORM_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the 3D perspective transform effect.
 old-location: direct2d\d2d1_3dperspectivetransform_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 12CD4038-7907-4E0E-8751-00E32EBA2A77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

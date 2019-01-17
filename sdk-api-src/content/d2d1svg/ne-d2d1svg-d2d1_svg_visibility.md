@@ -4,7 +4,7 @@ title: D2D1_SVG_VISIBILITY
 author: windows-sdk-content
 description: Specifies a value for the SVG visibility property.
 old-location: direct2d\d2d1_svg_visibility.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 05896FDA-CDC2-474B-AFFB-14326989FA69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

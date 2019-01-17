@@ -4,7 +4,7 @@ title: SetKernelObjectSecurity function
 author: windows-sdk-content
 description: Sets the security of a kernel object.
 old-location: security\setkernelobjectsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2a70483e-245d-4bc7-b90a-58d143364ce1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

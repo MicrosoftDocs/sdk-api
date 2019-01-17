@@ -4,7 +4,7 @@ title: RAS_PORT_0
 author: windows-sdk-content
 description: The RAS_PORT_0 structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see RAS_PORT_1.
 old-location: rras\ras_port_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 361b065e-8240-465f-a0fe-d4bfc097ec70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

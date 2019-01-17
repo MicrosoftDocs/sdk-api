@@ -4,7 +4,7 @@ title: IAzScope::DeletePolicyAdministratorName
 author: windows-sdk-content
 description: The DeletePolicyAdministratorName method of IAzScope removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazscope_deletepolicyadministratorname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6314e1d5-e5ea-42c4-9457-dad5d6f57897
 ms.author: windowssdkdev
 ms.date: 12/5/2018

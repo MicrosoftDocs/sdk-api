@@ -4,7 +4,7 @@ title: IAzApplication::DeletePolicyReader
 author: windows-sdk-content
 description: The DeletePolicyReader method of IAzApplication removes the specified security identifier in text form from the list of principals that act as policy readers.
 old-location: security\iazapplication_deletepolicyreader.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: aec8b5c4-3c5e-4b91-a10f-40ef05beca1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

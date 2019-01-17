@@ -4,7 +4,7 @@ title: MPR_INTERFACE_0
 author: windows-sdk-content
 description: The MPR_INTERFACE_0 structure contains information for a particular router interface.
 old-location: rras\mpr_interface_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

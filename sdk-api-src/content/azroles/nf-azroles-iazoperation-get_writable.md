@@ -4,7 +4,7 @@ title: IAzOperation::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the operation can be modified by the user context that initialized it.
 old-location: security\iazoperation_writable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 16745237-23d9-4818-b8f8-de93405ae9ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

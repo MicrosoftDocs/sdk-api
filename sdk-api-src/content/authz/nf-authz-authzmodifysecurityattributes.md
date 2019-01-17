@@ -4,7 +4,7 @@ title: AuthzModifySecurityAttributes function
 author: windows-sdk-content
 description: Modifies the security attribute information in the specified client context.
 old-location: security\authzmodifysecurityattributes.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

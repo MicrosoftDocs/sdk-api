@@ -4,7 +4,7 @@ title: SetClusterServiceAccountPassword function
 author: windows-sdk-content
 description: Changes the password for the Cluster service user account on all available cluster nodes.
 old-location: mscs\setclusterserviceaccountpassword.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

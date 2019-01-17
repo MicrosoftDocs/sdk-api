@@ -4,7 +4,7 @@ title: SetClusterQuorumResource function
 author: windows-sdk-content
 description: Establishes a resource as the quorum resource for a cluster.
 old-location: mscs\setclusterquorumresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowssdkdev
 ms.date: 12/5/2018

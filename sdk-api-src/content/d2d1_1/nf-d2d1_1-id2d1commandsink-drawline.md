@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawLine
 author: windows-sdk-content
 description: Draws a line drawn between two points.
 old-location: direct2d\id2d1commandsink_drawline.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3c47b5af-d258-42f8-b329-eb28d9485d3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 author: windows-sdk-content
 description: Specifies the various snapshot states for a shared volume.
 old-location: mscs\cluster_shared_volume_snapshot_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

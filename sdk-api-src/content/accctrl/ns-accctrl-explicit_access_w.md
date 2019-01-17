@@ -4,7 +4,7 @@ title: EXPLICIT_ACCESS_W
 author: windows-sdk-content
 description: Defines access control information for a specified trustee.
 old-location: security\explicit_access.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 6fe09542-10dd-439c-adf8-a4e06943ddb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

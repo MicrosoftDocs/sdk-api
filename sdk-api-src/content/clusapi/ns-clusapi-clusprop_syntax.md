@@ -4,7 +4,7 @@ title: CLUSPROP_SYNTAX
 author: windows-sdk-content
 description: Describes the format and type of a data value. It is used as the Syntax member of the CLUSPROP_VALUE structure.
 old-location: mscs\clusprop_syntax.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 23353e11-63bb-4d3b-90fb-e2a5544e0d09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtmIsMarkedForChangeNotification function
 author: windows-sdk-content
 description: The RtmIsMarkedForChangeNotification function queries the routing table manager to determine if a destination has previously been marked by a call to RtmMarkDestForChangeNotification.
 old-location: rras\rtmismarkedforchangenotification.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: bde390fe-3ada-48d3-b9aa-b4bb56228eac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

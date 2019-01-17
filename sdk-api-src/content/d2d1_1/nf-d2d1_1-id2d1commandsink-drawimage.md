@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawImage
 author: windows-sdk-content
 description: Draws the provided image to the command sink.
 old-location: direct2d\id2d1commandsink_drawimage.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1235dd6d-8495-4a92-96b7-4d741d9e296f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

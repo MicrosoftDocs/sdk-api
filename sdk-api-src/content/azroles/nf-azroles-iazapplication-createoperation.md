@@ -4,7 +4,7 @@ title: IAzApplication::CreateOperation
 author: windows-sdk-content
 description: Creates an IAzOperation object with the specified name.
 old-location: security\iazapplication_createoperation.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

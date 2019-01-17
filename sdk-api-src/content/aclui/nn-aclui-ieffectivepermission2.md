@@ -4,7 +4,7 @@ title: IEffectivePermission2
 author: windows-sdk-content
 description: Provides a way to determine effective permission for a security principal on an object.
 old-location: security\ieffectivepermission2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2FDCA205-6880-4526-B8D7-6F9B107B218B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilFindBinaryProperty function
 author: windows-sdk-content
 description: Locates a specified binary property in a property list and can also return the value of the property. The PRESUTIL_FIND_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindbinaryproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
 ms.author: windowssdkdev
 ms.date: 12/5/2018

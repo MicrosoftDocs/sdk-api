@@ -4,7 +4,7 @@ title: RPC_MESSAGE
 author: windows-sdk-content
 description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.
 old-location: rpc\rpc_message.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: fd014622-97b3-4f76-8bc3-10821aa3c46e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

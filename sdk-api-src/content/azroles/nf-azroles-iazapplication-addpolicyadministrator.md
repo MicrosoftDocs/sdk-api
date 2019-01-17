@@ -4,7 +4,7 @@ title: IAzApplication::AddPolicyAdministrator
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministrator.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 944f93c1-5155-4c87-a241-9fdef84b68fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

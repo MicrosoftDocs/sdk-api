@@ -4,7 +4,7 @@ title: PPP_IPCP_INFO
 author: windows-sdk-content
 description: The PPP_IPCP_INFO structure contains the result of a PPP Internet Protocol (IP) negotiation.
 old-location: rras\ppp_ipcp_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c77f54d2-eac4-4e0a-92c5-c46d521a272d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

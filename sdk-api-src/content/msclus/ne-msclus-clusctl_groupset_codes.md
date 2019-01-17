@@ -4,7 +4,7 @@ title: CLUSCTL_GROUPSET_CODES
 author: windows-sdk-content
 description: Enumerates groupset control codes used by the ClusterGroupSetControl function.
 old-location: mscs\clusctl_collection_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2c160770-5ced-4914-bcca-c8f7405ad0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

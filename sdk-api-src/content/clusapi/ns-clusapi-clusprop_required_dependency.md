@@ -4,7 +4,7 @@ title: CLUSPROP_REQUIRED_DEPENDENCY
 author: windows-sdk-content
 description: Describes a resource that is a required dependency of another resource. This union is used as a value in the value list returned from a CLUSCTL_RESOURCE_GET_REQUIRED_DEPENDENCIES or CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES control code operation.
 old-location: mscs\clusprop_required_dependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dae7544d-31c0-4a4b-8acb-d652bae817dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

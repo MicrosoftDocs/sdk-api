@@ -141,9 +141,13 @@ The list will not include kernel providers.
 
 The following example shows you how to call this function.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 #include <stdio.h>
 #include <wmistr.h>
 #include <evntrace.h>
@@ -325,8 +329,10 @@ cleanup:
 
     return IsPrivate;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

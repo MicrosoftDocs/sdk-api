@@ -4,7 +4,7 @@ title: IAzTask::get_Operations
 author: windows-sdk-content
 description: Retrieves the operations associated with the task.
 old-location: security\iaztask_operations.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b05fd157-6526-49d6-9bb1-fcf8c59cc74e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_HIGHLIGHTSANDSHADOWS_INPUT_GAMMA
 author: windows-sdk-content
 description: Values for the D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA property of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_input_gamma.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: F56C9933-B340-4E8B-85BE-CE04E90C9ADC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

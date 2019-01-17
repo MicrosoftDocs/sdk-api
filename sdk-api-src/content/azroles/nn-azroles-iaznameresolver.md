@@ -4,7 +4,7 @@ title: IAzNameResolver
 author: windows-sdk-content
 description: Translates security identifiers (SIDs) into principal display names.
 old-location: security\iaznameresolver.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

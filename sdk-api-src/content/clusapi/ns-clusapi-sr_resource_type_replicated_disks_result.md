@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT
 author: windows-sdk-content
 description: Describes a retrieved set of replicated disks.
 old-location: mscs\sr_resource_type_replicated_disks_result.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1A4FA103-542A-4B9B-83F5-4ED5AE266389
 ms.author: windowssdkdev
 ms.date: 12/5/2018

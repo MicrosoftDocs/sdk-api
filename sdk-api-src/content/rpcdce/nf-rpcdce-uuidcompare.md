@@ -4,7 +4,7 @@ title: UuidCompare function
 author: windows-sdk-content
 description: An application calls the UuidCompare function to compare two UUIDs and determine their order. The returned value gives the order.
 old-location: rpc\uuidcompare.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 9a8c558b-c438-45f7-ac0f-1da20eb26e29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

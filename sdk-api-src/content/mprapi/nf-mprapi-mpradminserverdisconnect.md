@@ -4,7 +4,7 @@ title: MprAdminServerDisconnect function
 author: windows-sdk-content
 description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.
 old-location: rras\mpradminserverdisconnect.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 905b5296-ae6b-40a6-ba49-837db96de152
 ms.author: windowssdkdev
 ms.date: 12/5/2018

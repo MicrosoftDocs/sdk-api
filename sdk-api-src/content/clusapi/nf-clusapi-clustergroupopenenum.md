@@ -4,7 +4,7 @@ title: ClusterGroupOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a group's resources and/or the nodes that are included in its list of preferred owners.
 old-location: mscs\clustergroupopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d8f9eff0-1784-4b55-8603-c262d5c23f6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

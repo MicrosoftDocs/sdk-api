@@ -4,7 +4,7 @@ title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 author: windows-sdk-content
 description: Represents a buffer for a terminal failure for a resource.
 old-location: mscs\resource_terminal_failure_info_buffer.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

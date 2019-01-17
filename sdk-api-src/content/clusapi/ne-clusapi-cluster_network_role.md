@@ -4,7 +4,7 @@ title: CLUSTER_NETWORK_ROLE
 author: windows-sdk-content
 description: Describes the role a network plays in the cluster.
 old-location: mscs\cluster_network_role.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9c495cc4-d4d5-4465-9172-3171e55a14b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

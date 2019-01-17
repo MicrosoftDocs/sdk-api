@@ -4,7 +4,7 @@ title: ID2D1DrawInfo::SetPixelShader
 author: windows-sdk-content
 description: Set the shader instructions for this transform.
 old-location: direct2d\id2d1drawinfo_setpixelshader.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9CB38592-6B49-48FE-AA3F-1FC402489454
 ms.author: windowssdkdev
 ms.date: 12/5/2018

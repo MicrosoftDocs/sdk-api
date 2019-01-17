@@ -4,7 +4,7 @@ title: MprConfigTransportGetInfo function
 author: windows-sdk-content
 description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.
 old-location: rras\mprconfigtransportgetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 84054313-f923-47d6-8019-c68a042d2d73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

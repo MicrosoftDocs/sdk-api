@@ -4,7 +4,7 @@ title: ResUtilTerminateServiceProcessFromResDll function
 author: windows-sdk-content
 description: Attempts to terminate the process of a service being managed as a cluster resource by a resource DLL. The PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL type defines a pointer to this function.
 old-location: mscs\resutilterminateserviceprocessfromresdll.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8ac3bd90-a717-479c-b976-9ef536853ffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

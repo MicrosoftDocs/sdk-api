@@ -4,7 +4,7 @@ title: RasClearLinkStatistics function
 author: windows-sdk-content
 description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasclearlinkstatistics.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

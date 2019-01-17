@@ -4,7 +4,7 @@ title: MprConfigInterfaceDelete function
 author: windows-sdk-content
 description: The MprConfigInterfaceDelete function removes a router interface from the router configuration. All transport information associated with this interface is also removed.
 old-location: rras\mprconfiginterfacedelete.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

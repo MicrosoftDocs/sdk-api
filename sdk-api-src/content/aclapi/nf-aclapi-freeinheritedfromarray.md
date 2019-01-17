@@ -4,7 +4,7 @@ title: FreeInheritedFromArray function
 author: windows-sdk-content
 description: Frees memory allocated by the GetInheritanceSource function.
 old-location: security\freeinheritedfromarray.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcStringBindingParseW function
 author: windows-sdk-content
 description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
 old-location: rpc\rpcstringbindingparse.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

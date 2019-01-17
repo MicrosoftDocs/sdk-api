@@ -4,7 +4,7 @@ title: IAzApplication::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the application.
 old-location: security\iazapplication_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: f94a902a-9187-486c-9442-6defa9893532
 ms.author: windowssdkdev
 ms.date: 12/5/2018

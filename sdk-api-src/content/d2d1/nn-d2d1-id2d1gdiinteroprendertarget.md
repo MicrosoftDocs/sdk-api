@@ -4,7 +4,7 @@ title: ID2D1GdiInteropRenderTarget
 author: windows-sdk-content
 description: Provides access to an device context that can accept GDI drawing commands.
 old-location: direct2d\ID2D1GdiInteropRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: cb992ddd-21b2-4eba-b7c4-e391bdd23a9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PDISCONNECT_CLIENT
 author: windows-sdk-content
 description: The router manager calls the DisconnectClient function when a client disconnects from an interface on which the routing protocol is running.
 old-location: rras\disconnectclient.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 45859605-2981-4236-9546-9b88e07673fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

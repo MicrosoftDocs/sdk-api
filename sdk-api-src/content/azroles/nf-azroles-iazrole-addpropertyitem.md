@@ -4,7 +4,7 @@ title: IAzRole::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazrole_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 3d9cb227-a3e8-4cd3-806a-5b7a38661b71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_SHARED_VOLUME_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster shared volume.
 old-location: mscs\cluster_change_shared_volume_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2934115D-B52B-4289-9BCD-E66A4F363AE8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

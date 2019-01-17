@@ -4,7 +4,7 @@ title: ID2D1CommandSink::DrawGlyphRun
 author: windows-sdk-content
 description: Indicates the glyphs to be drawn.
 old-location: direct2d\id2d1commandsink_drawglyphrun.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 5b40a999-0046-458e-b7bc-95037d73833c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

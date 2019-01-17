@@ -4,7 +4,7 @@ title: ISecurityInformation3::OpenElevatedEditor
 author: windows-sdk-content
 description: Opens an access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
 old-location: security\isecurityinformation3_openelevatededitor.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4ed50e6b-4c4a-48bf-ad7c-133064a4be47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

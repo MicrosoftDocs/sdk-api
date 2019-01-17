@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::GetExtendModeY
 author: windows-sdk-content
 description: Gets the extend mode of the image brush on the y-axis of the image.
 old-location: direct2d\id2d1imagebrush_getextendmodey.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 82ffc0f7-5ea4-4369-8116-39a0fc819303
 ms.author: windowssdkdev
 ms.date: 12/5/2018

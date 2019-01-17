@@ -4,7 +4,7 @@ title: RtmReleaseEntityInfo function
 author: windows-sdk-content
 description: The RtmReleaseEntityInfo function releases a client structure.
 old-location: rras\rtmreleaseentityinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ea72dde4-2d04-4ceb-b718-3ee96bf70464
 ms.author: windowssdkdev
 ms.date: 12/5/2018

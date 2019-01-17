@@ -4,7 +4,7 @@ title: SECURITY_IMPERSONATION_LEVEL
 author: windows-sdk-content
 description: Contains values that specify security impersonation levels. Security impersonation levels govern the degree to which a server process can act on behalf of a client process.
 old-location: security\security_impersonation_level.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a75ad777-c88e-4899-be50-0118c113a600
 ms.author: windowssdkdev
 ms.date: 12/5/2018

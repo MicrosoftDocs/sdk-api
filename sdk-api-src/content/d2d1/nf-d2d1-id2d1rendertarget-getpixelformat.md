@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::GetPixelFormat
 author: windows-sdk-content
 description: Retrieves the pixel format and alpha mode of the render target.
 old-location: direct2d\ID2D1RenderTarget_GetPixelFormat.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2dcd9af4-78d7-4271-9113-a91b4bb8145e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

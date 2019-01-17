@@ -4,7 +4,7 @@ title: IPV6_ADAPTER_BINDING_INFO
 author: windows-sdk-content
 description: The IPV6_ADAPTER_BINDING_INFO structure contains IPv6-specific information for a particular network adapter.
 old-location: rras\ipv6_adapter_binding_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1e964f09-96c6-432b-bb1a-026a3ea0deba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetSecurityDescriptorSacl function
 author: windows-sdk-content
 description: Sets information in a system access control list (SACL). If there is already a SACL present in the security descriptor, it is replaced.
 old-location: security\setsecuritydescriptorsacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 21615b63-0619-4c0c-a1b8-88ed09a1235c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

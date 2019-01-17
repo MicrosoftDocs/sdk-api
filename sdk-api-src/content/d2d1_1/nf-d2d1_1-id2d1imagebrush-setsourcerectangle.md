@@ -4,7 +4,7 @@ title: ID2D1ImageBrush::SetSourceRectangle
 author: windows-sdk-content
 description: Sets the source rectangle in the image brush.
 old-location: direct2d\id2d1imagebrush_setsourcerectangle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: be445505-585f-448b-a7eb-386e18a416b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

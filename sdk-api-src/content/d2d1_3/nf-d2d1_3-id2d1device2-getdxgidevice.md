@@ -4,7 +4,7 @@ title: ID2D1Device2::GetDxgiDevice
 author: windows-sdk-content
 description: Returns the DXGI device associated with this Direct2D device.
 old-location: direct2d\id2d1device2_getdxgidevice.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: b0495244-d641-24d8-f1e2-0de1e8f84426
 ms.author: windowssdkdev
 ms.date: 12/5/2018

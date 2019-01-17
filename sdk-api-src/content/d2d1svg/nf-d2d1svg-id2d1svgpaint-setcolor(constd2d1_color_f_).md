@@ -4,7 +4,7 @@ title: ID2D1SvgPaint::SetColor(const D2D1_COLOR_F &)
 author: windows-sdk-content
 description: Sets the paint color that is used if the paint type is D2D1_SVG_PAINT_TYPE_COLOR.
 old-location: direct2d\id2d1svgpaint_setcolor_2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ACA66305-6BE1-4F5A-8D4D-40EC9DD643C9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

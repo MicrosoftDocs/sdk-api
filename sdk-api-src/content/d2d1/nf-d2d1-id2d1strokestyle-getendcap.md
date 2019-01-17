@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle::GetEndCap
 author: windows-sdk-content
 description: Retrieves the type of shape used at the end of a stroke.
 old-location: direct2d\ID2D1StrokeStyle_GetEndCap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 06cf4629-9fa8-471a-9f92-94bdfb18c2d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

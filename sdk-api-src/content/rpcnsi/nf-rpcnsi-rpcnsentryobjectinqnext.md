@@ -4,7 +4,7 @@ title: RpcNsEntryObjectInqNext function
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqNext function returns one object at a time from a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqnext.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 95648480-5b53-4a8c-ba82-6c7f204520d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

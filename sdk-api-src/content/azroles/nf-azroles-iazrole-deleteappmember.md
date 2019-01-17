@@ -4,7 +4,7 @@ title: IAzRole::DeleteAppMember
 author: windows-sdk-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that belong to the role.
 old-location: security\iazrole_deleteappmember.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b2856d75-cf16-4eec-a0e1-2e9e9fff601e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

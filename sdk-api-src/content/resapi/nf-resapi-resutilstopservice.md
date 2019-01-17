@@ -4,7 +4,7 @@ title: ResUtilStopService function
 author: windows-sdk-content
 description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopservice.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

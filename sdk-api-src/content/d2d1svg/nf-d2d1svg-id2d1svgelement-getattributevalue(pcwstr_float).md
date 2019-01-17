@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,FLOAT)
 author: windows-sdk-content
 description: Gets an attribute of this element as a float.
 old-location: direct2d\id2d1svgelement_getattributevalue_4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7933DA62-42B1-4A41-8015-562661455F1F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

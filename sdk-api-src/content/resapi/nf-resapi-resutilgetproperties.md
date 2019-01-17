@@ -4,7 +4,7 @@ title: ResUtilGetProperties function
 author: windows-sdk-content
 description: Retrieves properties specified by a property table from the cluster database and returns them in a property list. The PRESUTIL_GET_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6ed03916-660f-4862-b638-900c9b8e4bef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

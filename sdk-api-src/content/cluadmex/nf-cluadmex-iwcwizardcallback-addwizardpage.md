@@ -4,7 +4,7 @@ title: IWCWizardCallback::AddWizardPage
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator Wizard.
 old-location: mscs\iwcwizardcallback_addwizardpage.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

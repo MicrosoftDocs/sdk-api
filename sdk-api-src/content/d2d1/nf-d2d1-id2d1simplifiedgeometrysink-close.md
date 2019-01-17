@@ -4,7 +4,7 @@ title: ID2D1SimplifiedGeometrySink::Close
 author: windows-sdk-content
 description: Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_Close.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 9dbbe5c6-d21c-4408-9208-53c7c051b22a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -82,15 +82,24 @@ After calling this method, the geometry sink might not be usable. Direct2D imple
 
 The following example creates an <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>, retrieves a sink, and uses it to define an hourglass shape. 
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ID2D1GeometrySink *pSink = NULL;
 
-```cpp
-ID2D1GeometrySink *pSink = NULL;
-
-
-```
-
-```cpp
-// Create a path geometry.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -132,8 +141,10 @@ if (SUCCEEDED(hr))
         SafeRelease(&pSink);
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

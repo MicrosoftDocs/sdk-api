@@ -4,7 +4,7 @@ title: IGetClusterObjectInfo::GetObjectType
 author: windows-sdk-content
 description: Returns the type of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110
 ms.author: windowssdkdev
 ms.date: 12/5/2018

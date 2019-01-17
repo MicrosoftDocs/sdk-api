@@ -4,7 +4,7 @@ title: ISecurityInformation::SetSecurity
 author: windows-sdk-content
 description: The SetSecurity method provides a security descriptor containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks Okay or Apply.
 old-location: security\isecurityinformation_setsecurity.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7c23c5ad-8088-4cfb-9746-99d24cc3bd0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

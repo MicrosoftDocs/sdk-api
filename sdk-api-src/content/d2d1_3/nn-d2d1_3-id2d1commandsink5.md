@@ -4,7 +4,7 @@ title: ID2D1CommandSink5
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink4 interface, plus it enables access to the BlendImage method.
 old-location: direct2d\id2d1commandsink5.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: E83C96CD-FB95-4113-933D-35BE995C7BDD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

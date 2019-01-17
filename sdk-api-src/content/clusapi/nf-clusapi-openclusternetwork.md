@@ -4,7 +4,7 @@ title: OpenClusterNetwork function
 author: windows-sdk-content
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetwork.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a888ca91-e56f-42bc-81c5-9235c6fd5172
 ms.author: windowssdkdev
 ms.date: 12/5/2018

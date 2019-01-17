@@ -4,7 +4,7 @@ title: RpcErrorSaveErrorInfo function
 author: windows-sdk-content
 description: The RpcErrorSaveErrorInfo function returns all error information for an enumeration handle as a BLOB.
 old-location: rpc\rpcerrorsaveerrorinfo.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Factory::CreateEllipseGeometry(const D2D1_ELLIPSE &,ID2D1EllipseGeom
 author: windows-sdk-content
 description: Creates an ID2D1EllipseGeometry.
 old-location: direct2d\ID2D1Factory_CreateEllipseGeometry_ref_D2D1_ELLIPSE_ptr_ptr_ID2D1EllipseGeometry.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0abbb99e-a253-44f3-90bf-0ac341e7c83d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

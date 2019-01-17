@@ -4,7 +4,7 @@ title: ID2D1DeviceContext4::DrawText(const WCHAR,UINT32,IDWriteTextFormat,const 
 author: windows-sdk-content
 description: Draws the text within the given layout rectangle.
 old-location: direct2d\id2d1devicecontext4_drawtext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7C701D94-5DBB-4143-B88B-A0D7BB124FC5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

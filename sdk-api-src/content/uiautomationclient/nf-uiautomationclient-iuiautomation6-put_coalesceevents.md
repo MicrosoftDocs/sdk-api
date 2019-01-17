@@ -42,6 +42,7 @@ product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
+ms.custom: RS5
 ---
 
 # IUIAutomation6::put_CoalesceEvents

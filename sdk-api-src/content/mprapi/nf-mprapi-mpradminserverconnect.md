@@ -4,7 +4,7 @@ title: MprAdminServerConnect function
 author: windows-sdk-content
 description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.
 old-location: rras\mpradminserverconnect.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

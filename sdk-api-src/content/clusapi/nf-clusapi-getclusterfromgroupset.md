@@ -4,7 +4,7 @@ title: GetClusterFromGroupSet function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\getclusterfromgroupset.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9d0669e3-8f4a-45f3-a2cc-c118bddcd791
 ms.author: windowssdkdev
 ms.date: 12/5/2018

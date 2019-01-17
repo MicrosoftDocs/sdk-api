@@ -4,7 +4,7 @@ title: ID2D1Device2
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the existing ID2D1Device1 interface. It also enables the creation of ID2D1DeviceContext2 objects.
 old-location: direct2d\id2d1device2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 1B34AEFD-BBA7-4759-B80A-89D9BFC1933D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

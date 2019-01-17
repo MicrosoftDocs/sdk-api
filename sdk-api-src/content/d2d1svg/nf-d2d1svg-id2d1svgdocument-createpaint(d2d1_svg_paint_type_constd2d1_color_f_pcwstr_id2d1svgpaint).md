@@ -4,7 +4,7 @@ title: ID2D1SvgDocument::CreatePaint(D2D1_SVG_PAINT_TYPE,const D2D1_COLOR_F,PCWS
 author: windows-sdk-content
 description: Creates a paint object which can be used to set the 'fill' or 'stroke' properties.
 old-location: direct2d\id2d1svgdocument_createpaint.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 8AB14D87-4745-409A-A5F4-885E322698B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

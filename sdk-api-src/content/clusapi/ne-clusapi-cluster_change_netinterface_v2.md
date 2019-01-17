@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_NETINTERFACE_V2
 author: windows-sdk-content
 description: Defines the set of notifications that are generated for a cluster network interface.
 old-location: mscs\cluster_change_netinterface_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: E13FC26D-00D5-4E5A-8029-028AC04242EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RpcAsyncAbortCall function
 author: windows-sdk-content
 description: The server calls RpcAsyncAbortCall to abort an asynchronous call.
 old-location: rpc\rpcasyncabortcall.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 651c53f3-8bb5-4162-a8a8-2da5a0d05d21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

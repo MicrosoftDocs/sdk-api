@@ -4,7 +4,7 @@ title: IAzApplication::OpenTask
 author: windows-sdk-content
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazapplication_opentask.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

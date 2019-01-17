@@ -100,9 +100,13 @@ Keyed mutex resources cannot be provided to this method; use <a href="https://ms
 
 Render text over D3D12 using D2D via the 11On12 device.
 
-
-```cpp
-// Render text over D3D12 using D2D via the 11On12 device.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Render text over D3D12 using D2D via the 11On12 device.
 void D3D1211on12::RenderUI()
 {
     D2D1_SIZE_F rtSize = m_d2dRenderTargets[m_frameIndex]->GetSize();
@@ -133,8 +137,10 @@ void D3D1211on12::RenderUI()
     // Flush to submit the 11 command list to the shared command queue.
     m_d3d11DeviceContext->Flush();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

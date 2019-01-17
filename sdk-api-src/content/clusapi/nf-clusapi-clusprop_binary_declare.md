@@ -4,7 +4,7 @@ title: CLUSPROP_BINARY_DECLARE macro
 author: windows-sdk-content
 description: Creates a CLUSPROP_BINARY structure with the rgb member set to a size determined by the caller.
 old-location: mscs\clusprop_binary_declare.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

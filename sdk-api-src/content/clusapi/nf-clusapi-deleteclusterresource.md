@@ -4,7 +4,7 @@ title: DeleteClusterResource function
 author: windows-sdk-content
 description: Removes an offline resource from a cluster.
 old-location: mscs\deleteclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

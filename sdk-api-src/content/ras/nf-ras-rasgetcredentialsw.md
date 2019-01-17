@@ -4,7 +4,7 @@ title: RasGetCredentialsW function
 author: windows-sdk-content
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rasgetcredentials.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

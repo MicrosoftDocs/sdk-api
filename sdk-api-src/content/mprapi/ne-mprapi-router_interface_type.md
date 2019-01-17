@@ -4,7 +4,7 @@ title: ROUTER_INTERFACE_TYPE
 author: windows-sdk-content
 description: The ROUTER_INTERFACE_TYPE type enumerates the different kinds of interfaces on a router.
 old-location: rras\router_interface_type.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9b957ab0-0c5d-4478-914a-4837e6bbd56a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

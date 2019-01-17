@@ -4,7 +4,7 @@ title: ID2D1EffectImpl
 author: windows-sdk-content
 description: Allows a custom effect's interface and behavior to be specified by the effect author.
 old-location: direct2d\id2d1effectimpl.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3D87A908-FC57-4AA9-A508-C402D8413363
 ms.author: windowssdkdev
 ms.date: 12/5/2018

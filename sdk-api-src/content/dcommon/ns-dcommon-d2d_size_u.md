@@ -4,7 +4,7 @@ title: D2D_SIZE_U
 author: windows-sdk-content
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_U.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: d9ea9df5-7c5f-4afa-9859-14d77b017904
 ms.author: windowssdkdev
 ms.date: 12/5/2018

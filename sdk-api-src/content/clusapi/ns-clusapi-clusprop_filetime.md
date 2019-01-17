@@ -4,7 +4,7 @@ title: CLUSPROP_FILETIME
 author: windows-sdk-content
 description: Describes a date and time stamp for a file.
 old-location: mscs\clusprop_filetime.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -71,20 +71,9 @@ A date and time value.
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_LIST_VALUE_FILETIME</b> (0x0001000c).
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+       of <b>CLUSPROP_SYNTAX_LIST_VALUE_FILETIME</b> (0x0001000c) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>ft</b> member.
 
 

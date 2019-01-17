@@ -4,7 +4,7 @@ title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_COLOR_F)
 author: windows-sdk-content
 description: Gets an attribute of this element as a string.
 old-location: direct2d\id2d1svgelement_getattributevalue.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3C05DC2D-6B45-4979-8BBC-CD437068B92A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

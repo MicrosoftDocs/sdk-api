@@ -4,7 +4,7 @@ title: ID2D1Bitmap1::Unmap
 author: windows-sdk-content
 description: Unmaps the bitmap from memory.
 old-location: direct2d\id2d1bitmap1_unmap.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 471c6e8a-4412-4efc-a7bf-688b1da7e367
 ms.author: windowssdkdev
 ms.date: 12/5/2018

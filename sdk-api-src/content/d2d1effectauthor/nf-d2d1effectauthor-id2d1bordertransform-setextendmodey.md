@@ -4,7 +4,7 @@ title: ID2D1BorderTransform::SetExtendModeY
 author: windows-sdk-content
 description: Sets the extend mode in the y direction.
 old-location: direct2d\id2d1bordertransform_setextendmodey.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 0D29121A-A6FE-49A6-96DE-FB707ACD15B2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

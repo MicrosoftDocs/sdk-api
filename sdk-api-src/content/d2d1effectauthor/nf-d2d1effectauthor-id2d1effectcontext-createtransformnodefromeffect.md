@@ -4,7 +4,7 @@ title: ID2D1EffectContext::CreateTransformNodeFromEffect
 author: windows-sdk-content
 description: Wraps an effect graph into a single transform node and then inserted into a transform graph. This allows an effect to aggregate other effects.
 old-location: direct2d\id2d1contextinternal_createtransformnodefromeffect.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 75F1366A-4E82-4CAD-A843-6E53035CB520
 ms.author: windowssdkdev
 ms.date: 12/5/2018

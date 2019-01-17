@@ -4,7 +4,7 @@ title: D2D1_CONVOLVEMATRIX_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Convolve matrix effect.
 old-location: direct2d\d2d1_convolvematrix_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: B6ACCA00-8127-4F4B-BF3B-9789943C0BB1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzPrincipalLocator::get_NameResolver
 author: windows-sdk-content
 description: Gets a pointer to the IAzNameResolver interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_nameresolver_method.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 98826583-b31d-47f1-957b-38a0ab962f73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

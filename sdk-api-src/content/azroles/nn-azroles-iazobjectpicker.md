@@ -4,7 +4,7 @@ title: IAzObjectPicker
 author: windows-sdk-content
 description: Displays a dialog box that allows users to select one or more principals from a list.
 old-location: security\iazobjectpicker.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

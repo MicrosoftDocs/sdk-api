@@ -4,7 +4,7 @@ title: ID2D1ColorContext
 author: windows-sdk-content
 description: Represents a color context that can be used with an ID2D1Bitmap1 object.
 old-location: direct2d\id2d1colorcontext.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: acdda11e-eb3f-4258-b24e-daa3b7a23fd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

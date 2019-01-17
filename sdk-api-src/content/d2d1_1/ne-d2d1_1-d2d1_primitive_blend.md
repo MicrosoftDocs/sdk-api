@@ -4,7 +4,7 @@ title: D2D1_PRIMITIVE_BLEND
 author: windows-sdk-content
 description: Used to specify the geometric blend mode for all Direct2D primitives.
 old-location: direct2d\__d2d1_primitive_blend.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 411a42c9-f8d7-46f3-a6e6-51afc83375ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LinearGradientBrushProperties function
 author: windows-sdk-content
 description: Creates a D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES structure.
 old-location: direct2d\lineargradientbrushproperties.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: dba59936-2b2d-4a9b-aba4-acb6ff84c037
 ms.author: windowssdkdev
 ms.date: 12/5/2018

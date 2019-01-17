@@ -81,9 +81,13 @@ Traditional directory services supply data only about directory service elements
 
 The following code example shows how to enumerate open resources managed by a file service.
 
-
-```vb
-Dim fso As IADsFileServiceOperations
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations
 On Error GoTo Cleanup
 
 ' Bind to a file service operation on "myComputer" 
@@ -100,8 +104,10 @@ Cleanup:
         MsgBox("An error has occurred. " & Err.Number)
     End If
     Set fso = Nothing
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For a code example using the <b>IADsFileServiceOperations::Resources</b> method, see the code example given in  <a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>.

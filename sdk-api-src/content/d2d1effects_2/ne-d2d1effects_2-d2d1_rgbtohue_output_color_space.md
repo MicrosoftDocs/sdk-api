@@ -4,7 +4,7 @@ title: D2D1_RGBTOHUE_OUTPUT_COLOR_SPACE
 author: windows-sdk-content
 description: Values for the D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE property of the RGB to Hue effect.
 old-location: direct2d\d2d1_rgbtohue_output_color_space.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: DD87B97F-553A-4E36-A245-5ED15F33C62B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

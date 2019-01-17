@@ -4,7 +4,7 @@ title: RpcServerRegisterIf2 function
 author: windows-sdk-content
 description: The RpcServerRegisterIf2 function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif2.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 0c05ec68-4f1f-4a54-b6cd-776e9993b7da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzApplicationGroup::DeletePropertyItem
 author: windows-sdk-content
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

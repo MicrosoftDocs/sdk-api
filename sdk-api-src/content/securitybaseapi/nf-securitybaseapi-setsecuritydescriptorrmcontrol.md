@@ -4,7 +4,7 @@ title: SetSecurityDescriptorRMControl function
 author: windows-sdk-content
 description: Sets the resource manager control bits in the SECURITY_DESCRIPTOR structure.
 old-location: security\setsecuritydescriptorrmcontrol.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: fe9c736b-e047-4aa3-a3de-d5f2f2cdab4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

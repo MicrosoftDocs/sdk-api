@@ -4,7 +4,7 @@ title: GetClusterNetworkState function
 author: windows-sdk-content
 description: Current state of a network.
 old-location: mscs\getclusternetworkstate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

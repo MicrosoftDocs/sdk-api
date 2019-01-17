@@ -4,7 +4,7 @@ title: MprConfigInterfaceSetInfo function
 author: windows-sdk-content
 description: The MprConfigInterfaceSetInfo function sets the configuration for the specified interface.
 old-location: rras\mprconfiginterfacesetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3abf3f27-a486-4b5c-a154-daf2dc99efaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

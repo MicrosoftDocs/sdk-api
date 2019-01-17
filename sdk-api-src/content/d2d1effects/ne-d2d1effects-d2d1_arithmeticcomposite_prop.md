@@ -4,7 +4,7 @@ title: D2D1_ARITHMETICCOMPOSITE_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the Arithmetic composite effect.
 old-location: direct2d\d2d1_arithmeticcomposite_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C3B1E6D9-2A8B-40C7-BE0C-C570F69C7DFB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 author: windows-sdk-content
 description: The PBEGIN_RESTYPECALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcetypecontrolasuser.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0A95F509-0B07-4E6C-B200-FCF11A0A95F0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

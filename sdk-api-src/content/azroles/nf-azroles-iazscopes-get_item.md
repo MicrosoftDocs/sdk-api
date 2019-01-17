@@ -4,7 +4,7 @@ title: IAzScopes::get_Item
 author: windows-sdk-content
 description: Retrieves the IAzScope object at the specified index into the IAzScopes collection.
 old-location: security\iazscopes_item.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 857fbe67-9b47-4641-9228-fe0e83ef6d4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

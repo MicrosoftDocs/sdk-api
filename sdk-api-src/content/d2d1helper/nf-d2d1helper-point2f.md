@@ -4,7 +4,7 @@ title: Point2F function
 author: windows-sdk-content
 description: Creates a D2D1_POINT_2F structure that contains the specified x-coordinates and y-coordinates.
 old-location: direct2d\point2f.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 62eb7517-0c38-4f63-b9f9-85211fcb36a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

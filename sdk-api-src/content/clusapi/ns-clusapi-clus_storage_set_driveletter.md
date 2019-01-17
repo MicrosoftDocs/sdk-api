@@ -4,7 +4,7 @@ title: CLUS_STORAGE_SET_DRIVELETTER
 author: windows-sdk-content
 description: Supplies drive letter information for a disk partition associated with a storage class resource.
 old-location: mscs\clus_storage_set_driveletter.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 71f3a009-c4af-4c7a-973d-4bd2eba25b94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

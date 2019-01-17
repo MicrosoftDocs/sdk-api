@@ -4,7 +4,7 @@ title: IAzRole::SetProperty
 author: windows-sdk-content
 description: Sets the specified value to the IAzRole object property with the specified property ID.
 old-location: security\iazrole_setproperty.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0f1c4abe-69cc-4672-8a74-eaaf55fc6e88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSPROP_SECURITY_DESCRIPTOR
 author: windows-sdk-content
 description: Describes a security descriptor.
 old-location: mscs\clusprop_security_descriptor.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b19358cf-1cf9-4d91-85df-ed7fa804a7f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -56,9 +56,7 @@ Describes a security descriptor. It is used as an entry in a
 <li>A security descriptor in 
      <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
      format.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly.
-
+</ul>
 
 ## -struct-fields
 
@@ -84,23 +82,10 @@ Byte array to address the entire security descriptor including the owner, group,
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a 
-      value of <b>CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR</b> (0x00010009).
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
-      the count of bytes in the security descriptor that follows the 
-      <b>CLUSPROP_VALUE</b> header. Padding bytes are not included 
-      in the count.
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+       of <b>CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR</b> (0x00010009) and a <b>cbLength</b> field indicating 
+       the count of bytes in the <b>DUMMYUNIONNAME</b> member. Padding bytes are not included in the count.
 
 
 ## -see-also

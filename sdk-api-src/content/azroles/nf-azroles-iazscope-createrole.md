@@ -4,7 +4,7 @@ title: IAzScope::CreateRole
 author: windows-sdk-content
 description: Creates an IAzRole object with the specified name.
 old-location: security\iazscope_createrole.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a5e527f9-0aab-40d9-83fe-f19f73673266
 ms.author: windowssdkdev
 ms.date: 12/5/2018

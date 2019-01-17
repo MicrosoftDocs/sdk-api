@@ -4,7 +4,7 @@ title: MprAdminServerGetCredentials function
 author: windows-sdk-content
 description: The MprAdminServerGetCredentials function retrieves the pre-shared key for the specified server.
 old-location: rras\mpradminservergetcredentials.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 76211b14-8f6c-48e4-846f-bd5d3a04285d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

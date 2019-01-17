@@ -4,7 +4,7 @@ title: ID2D1TransformGraph::SetSingleTransformNode
 author: windows-sdk-content
 description: Sets a single transform node as being equivalent to the whole graph.
 old-location: direct2d\id2d1transformgraph_setsingletransformnode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3E1B580C-88A5-4169-8E66-2BF9397C8DE9
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -130,7 +130,7 @@ private:
 
     class CMyTransform : public ID2D1DrawTransform
     {
-        // <Snip> Implementation of transform </Snip> 
+        //  Implementation of transform  
     };
 
     

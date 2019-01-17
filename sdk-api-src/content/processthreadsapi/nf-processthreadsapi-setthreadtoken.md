@@ -4,7 +4,7 @@ title: SetThreadToken function
 author: windows-sdk-content
 description: Assigns an impersonation token to a thread. The function can also cause a thread to stop using an impersonation token.
 old-location: security\setthreadtoken.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: ba1a4fce-b3cc-423d-b213-5dfca3dea708
 ms.author: windowssdkdev
 ms.date: 12/5/2018

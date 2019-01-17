@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateImageBrush(ID2D1Image,const D2D1_IMAGE_BRUSH_PR
 author: windows-sdk-content
 description: Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list.
 old-location: direct2d\id2d1devicecontext_createimagebrush2.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 14411F92-41BD-48BB-989C-D2CDE49A7F66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

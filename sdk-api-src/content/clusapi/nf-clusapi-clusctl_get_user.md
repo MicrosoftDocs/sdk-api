@@ -4,7 +4,7 @@ title: CLUSCTL_GET_USER macro
 author: windows-sdk-content
 description: Retrieves the user bit from a control code. For more information, see Control Code Architecture.
 old-location: mscs\clusctl_get_user.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: E96CD23F-D1A7-46FC-820C-D32A23E8E008
 ms.author: windowssdkdev
 ms.date: 12/5/2018

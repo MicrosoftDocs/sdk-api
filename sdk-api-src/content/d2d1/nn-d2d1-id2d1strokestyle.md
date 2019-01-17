@@ -4,7 +4,7 @@ title: ID2D1StrokeStyle
 author: windows-sdk-content
 description: Describes the caps, miter limit, line join, and dash information for a stroke.
 old-location: direct2d\ID2D1StrokeStyle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 2cdf66dc-f34f-4132-8c06-7464648d3cef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -166,9 +166,13 @@ The following example creates a stroke that uses a custom dash pattern.
         
         
 
-
-```cpp
-// Dash array for dashStyle D2D1_DASH_STYLE_CUSTOM
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Dash array for dashStyle D2D1_DASH_STYLE_CUSTOM
 float dashes[] = {1.0f, 2.0f, 2.0f, 3.0f, 2.0f, 2.0f};
 
 // Stroke Style with Dash Style -- Custom
@@ -188,8 +192,10 @@ if (SUCCEEDED(hr))
         &m_pStrokeStyleCustomOffsetZero
         );
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The next example uses the stroke style when drawing a line.

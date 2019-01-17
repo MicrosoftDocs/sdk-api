@@ -4,7 +4,7 @@ title: GetAuditedPermissionsFromAclA function
 author: windows-sdk-content
 description: Retrieves the audited access rights for a specified trustee.
 old-location: security\getauditedpermissionsfromacl.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 4381fe12-5fb3-4f9c-8daa-261cb1a466ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::put_ApplicationData
 author: windows-sdk-content
 description: The ApplicationData property of IAzTask sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iaztask_applicationdata.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 0a3939ee-6449-4eef-bb23-11e6d7018f04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

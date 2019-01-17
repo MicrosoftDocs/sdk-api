@@ -4,7 +4,7 @@ title: D2D1_CONTRAST_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Contrast effect.
 old-location: direct2d\d2d1_contrast_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 04215468-F6AA-4AA4-8F03-4858CE57FC14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

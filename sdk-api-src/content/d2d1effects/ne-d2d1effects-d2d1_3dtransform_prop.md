@@ -4,7 +4,7 @@ title: D2D1_3DTRANSFORM_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the 3D transform effect.
 old-location: direct2d\d2d1_3dtransform_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 56004ED1-66E2-44ED-B274-E7FF8C641954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

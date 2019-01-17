@@ -4,7 +4,7 @@ title: GetSecurityDescriptorRMControl function
 author: windows-sdk-content
 description: Retrieves the resource manager control bits.
 old-location: security\getsecuritydescriptorrmcontrol.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367
 ms.author: windowssdkdev
 ms.date: 12/5/2018

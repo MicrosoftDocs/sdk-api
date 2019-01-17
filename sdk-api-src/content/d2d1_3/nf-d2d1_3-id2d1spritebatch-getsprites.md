@@ -4,7 +4,7 @@ title: ID2D1SpriteBatch::GetSprites
 author: windows-sdk-content
 description: Retrieves the specified subset of sprites from this sprite batch. For the best performance, use nullptr for properties that you do not need to retrieve.
 old-location: direct2d\id2d1spritebatch_getsprites.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 39B6D8ED-25B2-4542-8994-FD607E60E19A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

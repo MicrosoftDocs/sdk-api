@@ -4,7 +4,7 @@ title: ID2D1InkStyle
 author: windows-sdk-content
 description: Represents a collection of style properties to be used by methods like ID2D1DeviceContext2::DrawInkwhen rendering ink. The ink style defines the nib (pen tip) shape and transform.
 old-location: direct2d\id2d1inkstyle.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 03853FA5-1377-42FB-A4C2-50069DDF6E2D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

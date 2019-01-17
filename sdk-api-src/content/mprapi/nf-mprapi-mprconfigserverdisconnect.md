@@ -4,7 +4,7 @@ title: MprConfigServerDisconnect function
 author: windows-sdk-content
 description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.
 old-location: rras\mprconfigserverdisconnect.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MPR_IF_CUSTOMINFOEX0
 author: windows-sdk-content
 description: Gets or sets tunnel specific custom configuration for a demand dial interfaces.
 old-location: rras\mpr_if_custominfoex0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 53c4b7ae-db73-4d97-a99f-a98354c48a92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

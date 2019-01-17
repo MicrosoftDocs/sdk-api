@@ -4,7 +4,7 @@ title: IAzApplication3::OpenScope2
 author: windows-sdk-content
 description: Opens an IAzScope2 object with the specified name.
 old-location: security\iazapplication3_openscope2.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1ea9f12e-d00d-4ccd-bfd4-21027610e681
 ms.author: windowssdkdev
 ms.date: 12/5/2018

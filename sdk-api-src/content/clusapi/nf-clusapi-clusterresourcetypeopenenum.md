@@ -4,7 +4,7 @@ title: ClusterResourceTypeOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fa05875a-26c7-401d-ae81-1d204bfd7df1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateClusterNotifyPortV2 function
 author: windows-sdk-content
 description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.
 old-location: mscs\createclusternotifyportv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

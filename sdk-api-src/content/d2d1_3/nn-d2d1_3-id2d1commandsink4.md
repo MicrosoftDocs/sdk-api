@@ -4,7 +4,7 @@ title: ID2D1CommandSink4
 author: windows-sdk-content
 description: This interface performs all the same functions as the existing ID2D1CommandSink3 interface. It also enables access to the new primitive blend mode, MAX, through the SetPrimitiveBlend2 method.
 old-location: direct2d\id2d1commandsink4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: C5E69D48-5CE1-49AB-A535-244AB586C71E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

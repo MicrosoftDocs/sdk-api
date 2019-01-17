@@ -4,7 +4,7 @@ title: ID2D1Bitmap::GetSize
 author: windows-sdk-content
 description: Returns the size, in device-independent pixels (DIPs), of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetSize.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 6ab1d67d-d7ee-41a0-a298-738b1520ff3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

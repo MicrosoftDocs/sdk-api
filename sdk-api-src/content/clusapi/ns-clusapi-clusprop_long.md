@@ -4,7 +4,7 @@ title: CLUSPROP_LONG
 author: windows-sdk-content
 description: Describes signed LONG data.
 old-location: mscs\clusprop_long.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: aa214e43-cadc-4f06-8c98-e6a5b13258b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -55,9 +55,7 @@ Describes signed
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 
      type, and length of the numeric data.</li>
 <li>A <b>LONG</b> value.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+</ul>
 
 ## -struct-fields
 
@@ -71,20 +69,9 @@ Signed <b>LONG</b> value.
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a value 
-       of <b>CLUSPROP_SYNTAX_LIST_VALUE_LONG</b> (0x00010007).
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>  with a value 
+       of <b>CLUSPROP_SYNTAX_LIST_VALUE_LONG</b> (0x00010007) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>l</b> member.
 
 

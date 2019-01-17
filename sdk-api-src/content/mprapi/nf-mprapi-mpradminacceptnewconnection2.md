@@ -4,7 +4,7 @@ title: MprAdminAcceptNewConnection2 function
 author: windows-sdk-content
 description: Remote Access Service calls the MprAdminAcceptNewConnection2 function each time a new user dials in and successfully completes RAS authentication. MprAdminAcceptNewConnection2 determines whether the user is allowed to connect.
 old-location: rras\mpradminacceptnewconnection2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 72cdcb3c-c44c-405c-ab4b-93bf9c628acf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

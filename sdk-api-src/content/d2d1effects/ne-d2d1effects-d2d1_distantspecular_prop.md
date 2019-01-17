@@ -4,7 +4,7 @@ title: D2D1_DISTANTSPECULAR_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Distant-specular lighting effect.
 old-location: direct2d\d2d1_distantspecular_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 66C00620-4209-4837-9305-4B1B1148881A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

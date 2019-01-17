@@ -4,7 +4,7 @@ title: IAzApplication::get_Writable
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the object can be modified by the user context that initialized it.
 old-location: security\iazapplication_writable.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: b7aacab4-e013-4649-9673-790dfaafffd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LookupPrivilegeDisplayNameA function
 author: windows-sdk-content
 description: Retrieves the display name that represents a specified privilege.
 old-location: security\lookupprivilegedisplayname.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSPROP_PARTITION_INFO_EX2
 author: windows-sdk-content
 description: A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2 control code.
 old-location: mscs\clusprop_partition_info_ex2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D6D26335-80D0-4949-99B4-FE18DD2FFF3C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

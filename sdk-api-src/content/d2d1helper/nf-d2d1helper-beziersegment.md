@@ -4,7 +4,7 @@ title: BezierSegment function
 author: windows-sdk-content
 description: Creates a D2D1_BEZIER_SEGMENT structure.
 old-location: direct2d\beziersegment.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 50938354-f9b7-40a9-807d-708f6a065912
 ms.author: windowssdkdev
 ms.date: 12/5/2018

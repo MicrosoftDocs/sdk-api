@@ -4,7 +4,7 @@ title: D2D1_INTERPOLATION_MODE
 author: windows-sdk-content
 description: This is used to specify the quality of image scaling with ID2D1DeviceContext::DrawImage and with the 2D affine transform effect.
 old-location: direct2d\__d2d1_image_interpolation_mode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7a32f551-afad-4eb2-953f-a9acc71d7776
 ms.author: windowssdkdev
 ms.date: 12/5/2018

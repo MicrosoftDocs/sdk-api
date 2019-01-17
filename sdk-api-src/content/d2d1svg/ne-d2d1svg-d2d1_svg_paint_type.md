@@ -4,7 +4,7 @@ title: D2D1_SVG_PAINT_TYPE
 author: windows-sdk-content
 description: Specifies the paint type for an SVG fill or stroke.
 old-location: direct2d\d2d1_svg_paint_type.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: FBCD7EF5-E1DF-4FE0-98A2-40F42798FB93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

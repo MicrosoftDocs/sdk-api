@@ -4,7 +4,7 @@ title: AuthzRegisterCapChangeNotification function
 author: windows-sdk-content
 description: Registers a CAP update notification callback.
 old-location: security\authzregistercapchangenotification.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: B0675BB3-62FA-462E-8DFB-55C47576DFEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

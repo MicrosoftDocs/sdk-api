@@ -241,9 +241,13 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 #### Examples
 
-
-```cpp
-#define _WIN32_WINNT 0x0500
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _WIN32_WINNT 0x0500
 
 #include <windows.h>
 #include <stdio.h>
@@ -276,8 +280,10 @@ void _tmain(void)
         ZeroMemory(buffer, dwSize);
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

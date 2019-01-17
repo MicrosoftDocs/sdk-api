@@ -4,7 +4,7 @@ title: RESOURCE_MONITOR_STATE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\resource_monitor_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9501ed9b-af72-43fd-b242-a5d118b92b0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

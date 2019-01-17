@@ -4,7 +4,7 @@ title: Matrix4x4F::RotationX
 author: windows-sdk-content
 description: Rotates the transform matrix around the X axis.
 old-location: direct2d\matrix4x4f_rotationx.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 3F9B9CE2-18F4-4F73-9725-A10B84639817
 ms.author: windowssdkdev
 ms.date: 12/5/2018

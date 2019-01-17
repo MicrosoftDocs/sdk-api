@@ -4,7 +4,7 @@ title: ResUtilGetLongProperty function
 author: windows-sdk-content
 description: TBD. The PRESUTIL_GET_LONG_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetlongproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8f245708-287c-48eb-aec0-330b175042cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

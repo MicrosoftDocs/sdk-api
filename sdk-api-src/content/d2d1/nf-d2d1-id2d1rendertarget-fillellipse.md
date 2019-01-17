@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::FillEllipse
 author: windows-sdk-content
 description: Paints the interior of the specified ellipse.
 old-location: direct2d\id2d1rendertarget_fillellipse.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 149fb303-d2e8-416c-b28f-8bc5f1482ba6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

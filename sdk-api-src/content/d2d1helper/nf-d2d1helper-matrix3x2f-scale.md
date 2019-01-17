@@ -4,7 +4,7 @@ title: Matrix3x2F::Scale
 author: windows-sdk-content
 description: Creates a scale transformation that has the specified scale factors and center point.
 old-location: direct2d\matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: c2aa64eb-c69a-4938-91de-1541f1c7844f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

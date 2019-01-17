@@ -4,7 +4,7 @@ title: ClusterNetInterfaceEnum function
 author: windows-sdk-content
 description: Enumerates the network interfaces installed on a cluster, returning one name with each call.
 old-location: mscs\clusternetinterfaceenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

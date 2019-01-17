@@ -4,7 +4,7 @@ title: ID2D1GradientStopCollection::GetExtendMode
 author: windows-sdk-content
 description: Indicates the behavior of the gradient outside the normalized gradient range.
 old-location: direct2d\ID2D1GradientStopCollection_GetExtendMode.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: f20f5aed-db5d-4605-b5d4-58a0255822b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

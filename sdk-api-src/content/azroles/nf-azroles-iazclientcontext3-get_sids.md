@@ -4,7 +4,7 @@ title: IAzClientContext3::get_Sids
 author: windows-sdk-content
 description: Gets an array of the security identifiers (SIDs) associated with this client context.
 old-location: security\iazclientcontext3_sids.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 79caf62e-3f20-4a58-953f-c9d302208bf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: D2D1_LAYER_PARAMETERS
 author: windows-sdk-content
 description: Contains the content bounds, mask information, opacity settings, and other options for a layer resource.
 old-location: direct2d\D2D1_LAYER_PARAMETERS.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ce575df6-9464-4672-9a0e-ff7e016d9354
 ms.author: windowssdkdev
 ms.date: 12/5/2018

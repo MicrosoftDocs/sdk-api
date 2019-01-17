@@ -4,7 +4,7 @@ title: D2D1_HISTOGRAM_PROP
 author: windows-sdk-content
 description: Identifiers for properties of the Histogram effect.
 old-location: direct2d\d2d1_histogram_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7CBF945C-3BBA-4243-A76B-5CDAC045E79C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

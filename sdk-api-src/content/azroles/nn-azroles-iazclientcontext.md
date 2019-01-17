@@ -4,7 +4,7 @@ title: IAzClientContext
 author: windows-sdk-content
 description: Maintains the state that describes a particular client.
 old-location: security\iazclientcontext.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

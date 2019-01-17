@@ -4,7 +4,7 @@ title: CLUSTER_NODE_DRAIN_STATUS
 author: windows-sdk-content
 description: Enumerates the possible values of the status of a node drain.
 old-location: mscs\cluster_node_drain_status.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

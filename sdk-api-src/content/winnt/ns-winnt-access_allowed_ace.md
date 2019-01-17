@@ -4,7 +4,7 @@ title: ACCESS_ALLOWED_ACE
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-allowed ACE allows access to an object for a specific trustee identified by a security identifier (SID).
 old-location: security\access_allowed_ace.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1DeviceContext::CreateBitmapBrush(ID2D1Bitmap,ID2D1BitmapBrush1)
 author: windows-sdk-content
 description: Creates a bitmap brush, the input image is a Direct2D bitmap object.
 old-location: direct2d\id2d1devicecontext_createbitmapbrush4.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: ED701935-BA23-4D4F-A196-99480953ACBF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IAzTask::AddPropertyItem
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iaztask_addpropertyitem.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

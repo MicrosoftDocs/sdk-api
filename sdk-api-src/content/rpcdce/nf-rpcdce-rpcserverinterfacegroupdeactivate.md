@@ -4,7 +4,7 @@ title: RpcServerInterfaceGroupDeactivate function
 author: windows-sdk-content
 description: The RpcServerInterfaceGroupDeactivate function tells the RPC runtime to attempt to close the given interface group, optionally aborting the operation if there is outstanding client activity.
 old-location: rpc\rpcserverinterfacegroupdeactivate.htm
-tech.root: rpc
+tech.root: Rpc
 ms.assetid: 625D8E6E-278F-4A96-879B-64294531D21B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

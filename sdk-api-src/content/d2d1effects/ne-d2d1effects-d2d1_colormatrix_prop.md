@@ -4,7 +4,7 @@ title: D2D1_COLORMATRIX_PROP
 author: windows-sdk-content
 description: Identifiers for the properties of the Color matrix effect.
 old-location: direct2d\d2d1_colormatrix_prop.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 7A171DAF-08E4-46FF-9FAF-54A83E805555
 ms.author: windowssdkdev
 ms.date: 12/5/2018

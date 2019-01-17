@@ -4,7 +4,7 @@ title: ID2D1RenderTarget::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_
 author: windows-sdk-content
 description: Creates an ID2D1BitmapBrush from the specified bitmap. The brush uses the default values for its opacity and transform.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: a2ccc6d0-f18e-4ffa-9810-e1f1639d5321
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTER_SET_PASSWORD_STATUS
 author: windows-sdk-content
 description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.
 old-location: mscs\cluster_set_password_status.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a9e0e99f-b57b-4bf1-93d5-6f09d907aed1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Bitmap1::GetOptions
 author: windows-sdk-content
 description: Gets the options used in creating the bitmap.
 old-location: direct2d\id2d1bitmap1_getoptions.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 63e13172-7c6a-49af-aef9-83bf12a1f7d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ID2D1Bitmap::CopyFromRenderTarget
 author: windows-sdk-content
 description: Copies the specified region from the specified render target into the current bitmap.
 old-location: direct2d\ID2D1Bitmap_CopyFromRenderTarget.htm
-tech.root: direct2d
+tech.root: Direct2D
 ms.assetid: 42e25099-016e-4656-a412-72dd0fbac1fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

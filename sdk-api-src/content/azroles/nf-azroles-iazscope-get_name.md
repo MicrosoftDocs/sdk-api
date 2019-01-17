@@ -4,7 +4,7 @@ title: IAzScope::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

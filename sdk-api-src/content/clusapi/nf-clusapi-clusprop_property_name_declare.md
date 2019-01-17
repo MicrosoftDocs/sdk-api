@@ -4,7 +4,7 @@ title: CLUSPROP_PROPERTY_NAME_DECLARE macro
 author: windows-sdk-content
 description: Creates a CLUSPROP_PROPERTY_NAME structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_property_name_declare.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

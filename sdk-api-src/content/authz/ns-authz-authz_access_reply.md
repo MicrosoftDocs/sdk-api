@@ -4,7 +4,7 @@ title: AUTHZ_ACCESS_REPLY
 author: windows-sdk-content
 description: Defines an access check reply.
 old-location: security\authz_access_reply.htm
-tech.root: secauthz
+tech.root: SecAuthZ
 ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
